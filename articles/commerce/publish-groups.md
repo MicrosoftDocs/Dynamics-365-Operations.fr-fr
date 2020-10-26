@@ -3,7 +3,7 @@ title: Utilisation de groupes de publication
 description: Cette rubrique décrit la fonctionnalité de groupes de publication dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 374a6c7dd33440903babbc8232f580ac2b68df82
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a83affb5b383b50317ddf53de4d3bf565f0d9439
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003163"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973954"
 ---
 # <a name="work-with-publish-groups"></a>Utilisation de groupes de publication
 
@@ -140,16 +140,18 @@ Actuellement, la fonctionnalité des groupes de publication ne prend en charge q
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Manières d'ajouter du contenu](add-manage-content.md)
+[Manières d’ajouter du contenu](add-manage-content.md)
 
 [Glossaire sur le modèle de page](page-elements-overview.md)
 
 [États et cycle de vie des documents](document-states-overview.md)
 
+[Activer et utiliser le partage intercanal](cross-channel-sharing.md)
+
 [Utiliser des modules](work-with-modules.md)
 
 [Utiliser des fragments](work-with-fragments.md)
 
-[Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md)
+[Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Personnaliser la navigation dans le site](customize-site-navigation.md)

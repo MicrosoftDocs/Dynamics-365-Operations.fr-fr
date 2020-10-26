@@ -3,7 +3,7 @@ title: Démarrage du module complémentaire de facturation électronique
 description: Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835955"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971470"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Démarrage du module complémentaire de facturation électronique
 
@@ -62,7 +62,7 @@ Vous pouvez utiliser le module complémentaire de facturation électronique avec
 Avant d'effectuer les étapes de cette rubrique, les conditions préalables suivantes doivent être remplies :
 
 - Accès à votre compte LCS.
-- Un projet de déploiement LCS incluant Finance ou Supply Chain Management version 10.0.12 ou ultérieure.
+- Un projet de déploiement LCS incluant Finance ou Supply Chain Management version 10.0.13 ou ultérieure.
 - Accès à votre compte RCS.
 - Activation de la fonctionnalité de globalisation pour votre compte RCS via le module **Gestion des fonctionnalités**. Pour plus d'informations, voir [Regulatory Configuration Services (RCS) - Fonctionnalités de globalisation](rcs-globalization-feature.md)
 - Création d'une ressource de coffre de clés et d'un compte de stockage dans Azure. Pour plus d'informations, voir [Créer un compte de stockage Azure et un coffre de clés](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -85,16 +85,18 @@ L'illustration suivante présente les cinq étapes principales que vous effectue
 ## <a name="lcs-setup"></a>Paramétrage LCS
 
 1. Connectez-vous à votre compte LCS.
-2. Sélectionnez le projet de déploiement LCS. Avant de pouvoir sélectionner le projet, celui-ci doit être opérationnel.
-3. Dans le raccourci **Compléments de l'environnement**, sélectionnez **Installer un nouveau complément**.
-4. Sélectionnez **Envoi de documents commerciaux**.
-5. Dans la boîte de dialogue **Configurer le complément**, dans le champ **ID application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
-6. Dans le champ **ID client AAD**, entrez l'ID de votre compte d'abonnement Azure.
+2. Sélectionnez la vignette **Gestion des fonctionnalités d'aperçu**, et dans le groupe de champs **Fonctionnalités de version préliminaire publique**, sélectionnez **BusinessDocumentSubmission**.
+3. Marquez le champ **Fonctionnalité de version préliminaire activée**.
+4. Sélectionnez le projet de déploiement LCS. Avant de pouvoir sélectionner le projet, celui-ci doit être opérationnel.
+5. Dans le raccourci **Compléments de l'environnement**, sélectionnez **Installer un nouveau complément**.
+6. Sélectionnez **Envoi de documents commerciaux**.
+7. Dans la boîte de dialogue **Configurer le complément**, dans le champ **ID application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
+8. Dans le champ **ID client AAD**, entrez l'ID de votre compte d'abonnement Azure.
 
     ![Boîte de dialogue Configurer le complément dans LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Cochez la case pour accepter les termes et conditions.
-8. Sélectionnez **Installer**.
+9. Cochez la case pour accepter les termes et conditions.
+10. Sélectionnez **Installer**.
 
 ## <a name="rcs-setup"></a>Paramétrage RCS
 
@@ -124,7 +126,7 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 
     ![Champ URI du coffre de clés](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Dans le raccourci **Certificats**, sélectionnez **Ajouter** et entrez les noms de certificat numérique et les secrets du coffre de clés. Les deux ensembles de valeurs sont configurés sur la ressource du coffre de clés dans Azure.
+7. Sur le raccourci **Certificats**, sélectionnez **Ajouter** pour saisir tous les noms de certificats numériques et les secrets de coffre de clés nécessaires pour établir des connexions fiables. Dans la colonne **Type**, vous pouvez spécifier s'il s'agit d'un certificat ou d'un secret. Les deux ensembles de valeurs sont configurés sur la ressource du coffre de clés dans Azure.
 
     ![Ajout de certificats](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Paramétrer l'intégration RCS avec le serveur complémentaire de facturation électronique
 
-1. Dans l'espace de travail **Fonctionnalités de globalisation**, dans la section **Liens connexes**, sélectionnez le lien **Paramètres des états électroniques**.
+1. Dans l'espace de travail **Fonctionnalités de globalisation**, dans la section **Paramètres associés**, sélectionnez le lien **Paramètres de la gestion des états électroniques**.
 2. Sélectionnez **Cliquez ici pour vous connecter à Lifecycle Services**. Si vous ne souhaitez pas vous connecter à LCS, sélectionnez **Annuler**.
-3. Dans l'onglet **Module complémentaire de facturation électronique** dans le champ **URI du point de terminaison de service**, entrez `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Sur l'onglet **Services de facturation électronique**, dans le champ **URI du point de terminaison de service**, entrez la valeur en fonction des zones géographiques disponibles : `https://businessdocumentsubmission.us.operations365.dynamics.com/` ou `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Dans le champ **ID application**, vérifiez que l'ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2** s'affiche. Cette valeur est une valeur fixe.
 5. Dans le champ **ID environnement LCS**, entrez l'ID de votre compte d'abonnement LCS.
 

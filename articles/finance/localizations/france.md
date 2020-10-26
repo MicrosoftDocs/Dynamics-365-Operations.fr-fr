@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: France
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c6b15d9ba2e0f10cae7635ffc265d8671d8808f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7c15a5cf8896c752369abd15d3fc7985ef8b6999
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003772"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978260"
 ---
 # <a name="france-overview"></a>Vue d'ensemble de la France
 

@@ -3,7 +3,7 @@ title: Gérer les demandes de congé dans Teams
 description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828942"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3929991"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congé dans Teams
 
@@ -171,6 +171,22 @@ Si vous êtes un responsable avec des subordonnés directs, vous pouvez afficher
 Le calendrier affiche les congés approuvés et en attente de vos subordonnés directs.
 
 ![Calendrier des congés de l’application Human Resources de Teams](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>Dépannage
+
+Si vous rencontrez des problèmes pour vous connecter ou utiliser l'application Teams de Human Resources, essayez de suivre ces instructions de résolution des problèmes. Si vous rencontrez toujours des problèmes après la résolution des problèmes, contactez l'assistance. Pour plus d’informations, voir [Obtenir de l’aide](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Impossible de se connecter à l'application Human Resources dans Teams
+
+Si vous ne pouvez pas vous connecter à l'application, il est possible que le compte que vous utilisez pour vous connecterà Microsoft Teams ne soit pas associé à un enregistrement d'employé dans Dynamics 365 Human Resources. Contactez votre administrateur système pour vous assurer que votre enregistrement d'employé est correctement associé.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erreur lors de l'approbation des demandes de congé dans l'application Human Resources dans Teams
+
+Si vous recevez une erreur lors de la tentative d'approbation des demandes de congé dans l'application Teams, effectuez les étapes de dépannage suivantes :
+
+1. Vérifiez que le compte que vous utilisez pour vous connecter à Microsoft Teams est le même que celui que vous utilisez pour accéder à Dynamics 365 Human Resources.
+
+2. Vérifiez que vous êtes un approbateur valide pour la demande en vérifiant les paramètres de flux de travail pour l'approbation de congé. Pour plus d'informations sur les workflows de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 

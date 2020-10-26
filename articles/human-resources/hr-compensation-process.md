@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 05f7be778857380d40a73d068e2b0b4fc7d1d1f6
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009017"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958715"
 ---
 # <a name="process-compensation"></a>Traiter la rémunération
 
@@ -44,7 +44,7 @@ Cliquez sur le bouton **Ajouter** sous l'onglet **Régimes** pour ajouter un ré
 
 Sauvegardez l'enregistrement, puis cliquez sur le bouton **Ajouter** sous l'onglet **Actions** pour ajouter des actions de rémunération fixe du régime sélectionné. Utilisez l'option **Activer les recommandations** pour entrer un montant différent de l'augmentation indicative calculée pour l'action. Pour calculer une action selon le résultat de l'action précédente permettant de lier plusieurs actions de rémunération, activez l'option **Utiliser le résultat précédent**. Les actions de rémunération fixe sont des types de logique de rémunération auxquels vous pouvez attribuer des noms descriptifs. Pour les régimes Niveau et Structure, vous ne pouvez ajouter que les actions de rémunération fixe qui sont des types suivants :
 
-| Type d'action de rémunération fixe | Fonctionnalité                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Type Action de rémunération fixe | Fonctionnalité                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Capitaux propres                        | Les actions de capitaux propres compareront le taux de salaire de l'employé à partir de la date de fin de cycle avec le plus faible point de référence pour le niveau défini dans la tâche de l'employé. Si le taux du salaire de l'employé est inférieur au point de référence minimale, l'augmentation nécessaire pour que l'employé soit au point minimum de la plage est calculée.                                                                                |
 | Mérite                         | Les actions au mérite calculeront l'augmentation en fonction du taux de salaire de l'employé à partir de la date de fin de cycle et le pourcentage d'augmentation dans le budget d'augmentation fixe pour le département, le syndicat et le site de travail de l'employé.                                                                                                                                                                                         |

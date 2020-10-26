@@ -13,15 +13,15 @@ ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: roschlom
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 2a15a9cf0aa79f187735af3d65ac95814dd579c8
-ms.sourcegitcommit: e0b176c0b49ad147e60d6912aae2046dc0715bc9
+ms.openlocfilehash: 9f243340da5d93182a3f42132018b3428a03a03d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564207"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978288"
 ---
 # <a name="budget-analysis-report"></a>État d'analyse budgétaire
 

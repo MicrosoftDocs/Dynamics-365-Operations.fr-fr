@@ -3,7 +3,7 @@ title: Analyse de concordance d'optimisation de la planification
 description: Cette rubrique explique comment vérifier votre configuration et vos données par rapport aux fonctionnalités de la fonction d'optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887136"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973450"
 ---
-# <a name="planning-optimization-fit-analysis"></a>Analyse de concordance d'optimisation de la planification
+# <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l'optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
-Pour voir la compatibilité de votre configuration actuelle et des données avec la fonction d'optimisation de la planification, accédez à **Planification** \> **Configuration** \> **Analyse de concordance de l'optimisation de la planification**, puis sélectionnez **Exécuter l'analyse**. Si l'analyse permet de trouver des incohérences, elles sont répertoriées sur la même page. (L'exécution de l'analyse peut prendre quelques minutes.)
+Vous devez analyser le résultat de l'analyse d'ajustement de l'optimisation de la planification dans le cadre du processus de migration. Notez que la portée de l'optimisation de la planification n'est pas identique à celle de la fonctionnalité de planification générale intégrée actuelle. Nous vous recommandons de collaborer avec votre partenaire et de lire la documentation pour préparer votre migration. 
+
+L'analyse d'ajustement de l'optimisation de la planification vous aide à identifier les différences de résultats entre le moteur de planification générale intégré et l'optimisation de la planification. Cette analyse est effectuée en fonction de votre configuration et de vos données actuelles. 
+
+Pour voir le résultat de l'analyse d'ajustement de l'optimisation de la planification, accédez à **Planification générale** \> **Configuration** \> **Analyse de l'ajustement de l'optimisation de la planification**, puis sélectionnez **Lancer l'analyse**. Si l'analyse permet de trouver des incohérences, elles sont répertoriées sur la même page. (L'exécution de l'analyse peut prendre quelques minutes.)
 
 > [!NOTE]
 > Si des incohérences sont détectées, vous pouvez utiliser l'optimisation de la planification. Les résultats de l'analyse de concordance indiquent simplement les endroits où le service de planification n'honorera pas votre configuration actuelle. En d'autres termes, ils affichent les endroits où certains processus pourraient être ignorés ou ne pourraient pas être pris en charge.
@@ -63,7 +67,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Confirmation | Plans généraux avec la confirmation automatique définie : _\#_ | Dans la version 10.0.7 et les versions ultérieures, la confirmation automatique est prise en charge en tant que traitement par lots de confirmation distinct une fois la planification principale terminée (à condition que la fonctionnalité _Confirmation automatique pour l'Optimisation de la planification_ ait été activée dans la [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Notez que la confirmation automatique pour l'Optimisation de la planification est basée sur la date de commande (date de début) et non sur la date du besoin (date de fin). Ce comportement garantit que la confirmation des commandes planifiées se produit en temps voulu, sans avoir à inclure le délai de livraison dans la période de confirmation. | Prise en charge |
 | FitAnalysisPlanningItems | Éléments de planification : _\#_ | Cette fonctionnalité est en attente. Actuellement, les éléments de planification sont traités comme des éléments normaux lorsque l'Optimisation de la planification est activée. | 2021 octobre |
 | Prévision | Groupes de couverture avec l'option « Inclure les commandes intersociétés » activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, la planification principale n'inclut pas de demande planifiée en aval lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. Notez que les commandes lancées/confirmées fonctionnent toujours avec la fonctionnalité intersociétés standard et couvriront la plupart des scénarios. | 2020 octobre |
-| Prévision | Groupes de couverture dont le paramètre « Soustraire des prévisions » est défini sur une valeur différente de « Commandes » : _\#_ | Par défaut, l'Optimisation de la planification utilise « Soustraire des prévisions » pour les commandes, quel que soit ce paramètre. | 2020 octobre |
+| Prévision | Groupes de couverture dont le paramètre « Soustraire des prévisions » est défini sur une valeur différente de « Commandes » : _\#_ | Par défaut, l'Optimisation de la planification utilise « Soustraire des prévisions » pour les commandes, quel que soit ce paramètre. | novembre 2020 |
 | Prévision | Modèles de prévision avec des sous-modèles : _\#_ | Cette fonctionnalité est en attente. Actuellement, les prévisions utilisant des sous-modèles ne sont pas prises en charge lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2021 avril |
 | Prévision | Plans principaux avec l'option « Inclure les prévisions d'approvisionnement » activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, les prévisions d'approvisionnement ne sont pas prises en charge lorsque l'Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | 2021 octobre |
 | Plage de gestion du gel | Groupes de couverture avec la plage de gestion du gel définie : _\#_ | La plage de gestion du gel n'est pas souvent utilisée, et il n'est actuellement pas prévu de l'inclure pour l'Optimisation de la planification. Actuellement, la plage de gestion du gel est ignorée lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. | S.o. |
@@ -72,7 +76,7 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Intersociétés | Plans généraux incluant la demande prévisionnelle en aval : _\#_ | Cette fonctionnalité est en attente. Actuellement, la planification principale n'inclut pas de demande planifiée en aval lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. Notez que les commandes lancées/confirmées fonctionnent toujours avec la fonctionnalité intersociétés normale et couvriront la plupart des scénarios. | 2020 octobre |
 | Kanban | Enregistrements de couverture d'article avec le kanban du type d'ordre prévisionnel : _\#_ | Cette fonctionnalité est en attente. Actuellement, la couverture d'article définie sur kanban sera ignorée lorsque l'Optimisation de la planification est activée. Le type de commande planifiée kanban créera un avertissement lors de la planification principale et des commandes fournisseur prévisionnelles seront créées pour couvrir la demande associée. | 2021 octobre |
 | Kanban | Articles avec le kanban du type de commande par défaut : _\#_ | Actuellement, un type de commande par défaut défini sur kanban sera ignoré lorsque l'Optimisation de la planification est activée. Le type de commande par défaut kanban créera un avertissement lors de la planification principale et des commandes fournisseur prévisionnelles seront créées pour couvrir la demande associée. | 2021 octobre |
-| État du cycle de vie des produits   | Les états du cycle de vie des produits ne sont pas actifs pour la planification : _\#_ | Il s'agit d'une fonctionnalité en attente. Actuellement, l'état du cycle de vie du produit est ignoré avec l'optimisation de la planification activée. Vous pouvez ajuster le filtre de produit au niveau du plan pour éviter d'inclure des produits dans lesquels l'état du cycle de vie du produit est désactivé pour la planification. | 2020 octobre |
+| État du cycle de vie des produits   | Les états du cycle de vie des produits ne sont pas actifs pour la planification : _\#_ | Il s'agit d'une fonctionnalité en attente. Actuellement, l'état du cycle de vie du produit est ignoré avec l'optimisation de la planification activée. Vous pouvez ajuster le filtre de produit au niveau du plan pour éviter d'inclure des produits dans lesquels l'état du cycle de vie du produit est désactivé pour la planification. | novembre 2020 |
 | Production | Lignes de nomenclature avec paramétrage d’arrondi ou multiple : _\#_ | Cette fonctionnalité est en attente. Actuellement, l'arrondi et les configurations multiples sont ignorés sur les lignes de nomenclature lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. | 2021 avril |
 | Production | Lignes de nomenclature/formule avec mesure de formule : _\#_ | Cette fonctionnalité est en attente. Actuellement, la mesure de formule est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. | 2021 octobre |
 | Production | Lignes de nomenclature/formule avec substitution d'article (groupes de plans) : _\#_ | Cette fonctionnalité est en attente. Actuellement, la substitution d'article (groupes de plans) est ignorée sur les lignes de nomenclature et de formule lorsque l'Optimisation de la planification est activée, quel que soit ce paramètre. | 2021 octobre |

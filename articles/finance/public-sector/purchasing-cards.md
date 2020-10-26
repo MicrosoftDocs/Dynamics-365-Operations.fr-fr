@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: roschlom
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 34e9cbafaa365ca76194a98e569330e885606ab1
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: b057f5a66f7a52f3d2236d3a5c9273a5c3a926dd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935405"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978249"
 ---
 # <a name="purchasing-cards"></a>Cartes d'achat
 
