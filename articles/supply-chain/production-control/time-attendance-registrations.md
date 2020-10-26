@@ -16,15 +16,15 @@ ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31d01ad209cc3d4ce57db76e92dc091d0b93f162
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 9b6fa5715a04aa8077651f5c6e29e6bca83d763c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826128"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975193"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Vue d'ensemble de l'enregistrement de pointage
 
@@ -43,7 +43,7 @@ Dans les sociétés qui utilisent le pointage, les travailleurs doivent enregist
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si vous exécutez le module Pointage avec le module Contrôle et suivi de la production, tous les enregistrements relatifs aux projets, activités de projet, activités indirectes, codes absence, heures supplémentaires et heures flexibles sont enregistrés et utilisés pour calculer la paie dans les deux modules. |
 
-## <a name="time-registrations-workers"></a> Collaborateurs qualifiés pour l'enregistrement des heures
+## <a name="time-registrations-workers"></a>Collaborateurs qualifiés pour l'enregistrement des heures
 Pour pouvoir enregistrer les heures et absences, les travailleurs doivent être configurés en tant que travailleurs qualifiés pour l'enregistrement des heures dans la société où ils sont employés.
 
 Après le paramétrage, les travailleurs peuvent entrer plusieurs types d'enregistrements.
@@ -85,7 +85,7 @@ Tout comme vous affectez un groupe de calcul à un travailleur qualifié pour l'
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si les heures supplémentaires ont été calculées pour des travailleurs spécifiques, elles peuvent être affectées à des tâches spécifiques au cours de la journée. Une telle opération est appropriée si le coût de la tâche est calculé sur la base du salaire du travailleur. |
 
-## <a name="approving-registrations-using-workflow"></a> Approbation d'enregistrements à l'aide d'un workflow
+## <a name="approving-registrations-using-workflow"></a>Approbation d'enregistrements à l'aide d'un workflow
 Vous pouvez paramétrer un processus d'approbation de workflow qui approuve automatiquement les enregistrements conformes aux règles de workflow, en conservant uniquement les écarts à traiter manuellement. Si l'approbation du workflow est activée, le responsable d'équipe ou le superviseur envoie les enregistrements calculés pour approbation. Le processus du workflow génère les approbations et les tâches appropriées, et les affecte aux utilisateurs et rôles appropriés identifiés dans le workflow. Il existe deux approbations de workflow pour le pointage.
 
 | Workflow                                  | Objectif                                                                                                   | Type d'enregistrement                                                                                                                                                                                                                                     |

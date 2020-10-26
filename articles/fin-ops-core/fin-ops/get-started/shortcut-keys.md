@@ -3,7 +3,7 @@ title: Raccourcis clavier
 description: Cette rubrique fournit une vue d’ensemble des combinaisons de touches de raccourci que vous pouvez utiliser lorsque vous utilisez des applications Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761619"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962518"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -32,6 +32,8 @@ Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à
 
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
+
+Certains des raccourcis de cette page sont des *accords de touches*, ce qui signifie qu'ils nécessitent deux ensembles consécutifs de combinaisons de touches (séparées par une virgule) qui doivent être enfoncées indépendamment pour déclencher l'action requise. Par exemple, le raccourci « Alt + M, A » nécessite que l'utilisateur appuie d'abord sur « Alt + M », relâche les touches, puis appuie sur « A ». 
 
 ## <a name="finding-a-shortcut"></a>Recherche d’un raccourci
 
@@ -193,7 +195,7 @@ Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à
 | Effectuer un déplacement vers le contenu de la page principale (avec la vue dans un autre volet)                    | Alt+M,M                    |
 | Effectuer un déplacement vers le volet Récapitulatif (qui peut permettre de l’ouvrir)                       | Alt+M, B ou Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Raccourcis de personnalisation
+## <a name="personalization-shortcuts"></a>Raccourcis de [personnalisation](personalize-user-experience.md) 
 
 | Opération                                                                                                             | Raccourci                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à
 | Monter/descendre d’une page dans la recherche                                                                                       | Page précédente / Page suivante              |
 | Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
 
+## <a name="task-recordershortcuts"></a>Raccourcis de l'[Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md) 
+
+| Opération                                                                    | Appuyer sur                      |
+|-------------------------------------------------------------------------------|----------------------------|
+| Arrêter l'enregistrement (pendant l'enregistrement)                                          | Alt + R, S                    |
+| Activer / désactiver la visibilité du volet de l'enregistreur de tâches (pendant l'enregistrement)             | Alt + R, T                    |
+| Basculer en mode Rails (lors de la lecture d'un guide de tâche)                                | Alt + R, L                    |
+| Passer à l'étape précédente (pendant la lecture d'un guide de tâche)                          | Alt + R, P                    |
+| Passer à l'étape suivante (pendant la lecture d'un guide de tâche)                              | Alt + R, N                    |
+| Basculer le focus entre la page et l'invite contextuelle animée (lors de la lecture d'un guide de tâche) | Alt + R, F               |
+| Développer/réduire l'invite contextuelle animée (lors de la lecture d'un guide de tâche)              | Alt + R, C                    |
+| Afficher plus/moins d'informations dans l'invite contextuelle animée (lors de la lecture d'un guide de tâche) | Alt + R, M                    |
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Raccourcis clavier pour l’analyse de compte manquante](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Raccourcis clavier pour l’analyse de compte manquante](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

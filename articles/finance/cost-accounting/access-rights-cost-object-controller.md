@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af6ddc86bb6313387aa9c6ccc347d2a1c5fac50a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: fd1ed875e5c6e3f8ada3b13ea8cc05f98526691d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154480"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977741"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Droits d'accès pour les contrôleurs d'objet de coût
 
@@ -59,7 +59,7 @@ L'exemple suivant montre ce à quoi une hiérarchie de dimensions peut ressemble
 
 **Détails sur la hiérarchie des dimensions**
 
-| Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d'accès |
+| Nom de la hiérarchie des dimensions | Dimension    | Nom du type de hiérarchie des dimensions      | Hiérarchie de la liste d’accès |
 |--------------------------|--------------|------------------------------------|-----------------------|
 | Organisation             | Centres de coût | Hiérarchie de classification de dimension | **Oui**               |
 

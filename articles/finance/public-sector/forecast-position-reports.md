@@ -13,15 +13,15 @@ ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 84ae2e7c86926c21edef6c26cd658cec5e908765
-ms.sourcegitcommit: cfaad79bcb1460ee0e7ad5a2c596f9199e14c53a
+ms.openlocfilehash: 10b1804dc0b4ab6ea2074108429297e4ad95deaa
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2944416"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985987"
 ---
 # <a name="forecast-position-reports-for-the-public-sector"></a>États de poste de prévision pour le secteur public
 

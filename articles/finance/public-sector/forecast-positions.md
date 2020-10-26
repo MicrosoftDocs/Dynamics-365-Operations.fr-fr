@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7ae057ea315e62413f456206b8532fd5e68c4831
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 109f0ac35fb0bea26eeec1052c165bf13653e8e7
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183643"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985984"
 ---
 # <a name="forecast-position-distribution"></a>Distribution de poste de prévision 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835108"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967256"
 ---
 # <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
@@ -149,7 +149,12 @@ Problème 1 : le Concepteur de rapports ne démarre pas lorsque vous sélectio
 * Dans Internet Explorer, sélectionnez **Paramètres**, puis sélectionnez **Options Internet**. Sélectionnez l’onglet **Sécurité**. Sélectionnez Sites de confiance. Dans la zone intitulée Niveau de sécurité pour cette zone, modifiez l’option en **Moyen-faible**.
 * Désactivez le bloqueur de fenêtres publicitaires dans votre navigateur.
 * Les postes de travail doivent installer Microsoft .NET Framework 4.6.2 ou version supérieure. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Si vous utilisez le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez le mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. Si vous ne pouvez pas vous connecter avec Chrome, essayez de suivre les étapes de configuration décrites dans le Problème 1 en utilisant Internet Explorer ou Microsoft Edge. 
+* Si vous utilisez Microsoft Edge avec le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez le mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. 
+     1. Ouvrez un nouveau navigateur dans Microsoft Edge.
+     2. Entrez **edge://flags** et sélectionnez **Entrée**.
+     3. Recherchez l'option **Support ClickOnce** ou utilisez ce lien direct : **edge://flags/#edge-click-once**.
+     4. Définissez l'option du menu déroulant sur **Activé**.
+     5. Sélectionnez **Redémarrer le navigateur**.
 
 Problème 2 : l’utilisateur n’a pas reçu les autorisations requises pour utiliser Financial Reporting. 
 
