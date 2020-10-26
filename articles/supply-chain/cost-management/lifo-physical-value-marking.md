@@ -16,15 +16,15 @@ ms.custom: 55021
 ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e774b032bdcb3047f4788c97cd94e6336f20109a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2c6f59f5bb0d19c32e07b15141c12066948b7a6f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201661"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983499"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO avec valeur physique et marquage
 
@@ -51,7 +51,7 @@ Dans cet exemple, le groupe de modèles d'article n'est pas marqué pour inclure
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
--   5a. Sortie financière de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
+-   5b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 20,00 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement).
 -   6. La clôture du stock est effectuée. Selon la méthode LIFO, la dernière sortie mise à jour financièrement sera réglée par rapport à la dernière réception mise à jour financièrement. Un ajustement de 10,00 EUR sera effectué sur la transaction de sortie.
 
 Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions mises à jour financièrement, 15,00 EUR. L'illustration suivante indique l'impact du modèle de stock LIFO sur cette série de transactions lorsque l'option **Inclure la valeur physique** n'est pas utilisée. 
@@ -84,7 +84,7 @@ La figure suivante illustre ces transactions :
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
--   5a. Sortie financière de stock pour une quantité de 1 à un prix de revient de 21,25 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
+-   5b. Sortie financière de stock pour une quantité de 1 à un prix de revient de 21,25 EUR (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Selon la méthode LIFO, la dernière transaction de sortie sera ajustée ou réglée par rapport à la dernière réception mise à jour.
 
@@ -128,7 +128,7 @@ La figure suivante illustre ces transactions :
 -   4a. Réception physique en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   4b. Réception financière en stock pour une quantité de 1 à un coût de 30,00 EUR chacune.
 -   5a. Sortie physique de stock pour une quantité de 1 à un prix de revient de 21,25 EUR chacune (prix de revient moyen en vigueur des transactions mises à jour financièrement et physiquement).
--   5a. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée avec un prix de revient de 20,00 EUR chacune.
+-   5b. Sortie financière de stock pour une quantité 1 marquée par rapport à la réception en stock 2b avant la validation de la transaction. Cette transaction est validée avec un prix de revient de 20,00 EUR chacune.
 -   6a. Sortie physique de stock pour une quantité 1 à un prix de revient unitaire de 21,25 EUR.
 -   7. La clôture du stock est effectuée. Étant donné que la transaction FIFO mise à jour financièrement est marquée par rapport à une réception existante, ces transactions sont réglées les unes avec les autres et aucun ajustement n'est effectué.
 

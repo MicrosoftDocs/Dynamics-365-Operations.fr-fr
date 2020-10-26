@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les produits pouvant être produits ou approvisionnés
-description: L'approvisionnement des produits peut se faire suivant différentes manières -  ils peuvent être produits (fabriqués) ou être obtenus (achetés). Cet article décrit certains points habituels dont vous devez tenir compte lors de la configuration des produits pour prendre en charge le multi- approvisionnement.
+description: L'approvisionnement des produits peut se faire suivant différentes manières - ils peuvent être produits (fabriqués) ou être obtenus (achetés). Cet article décrit certains points habituels dont vous devez tenir compte lors de la configuration des produits pour prendre en charge le multi- approvisionnement.
 author: cvocph
 manager: tfehr
 ms.date: 06/20/2017
@@ -16,21 +16,21 @@ ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68488a714764e7260fb141ccecdc361a8fd7bfa
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d9b5ba58703e636308d83a94ecc2e27e44812c49
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214709"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981533"
 ---
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Paramétrer les produits pouvant être produits ou approvisionnés
 
 [!include [banner](../includes/banner.md)]
 
-L'approvisionnement des produits peut se faire suivant différentes manières -  ils peuvent être produits (fabriqués) ou être obtenus (achetés). Cet article décrit certains points habituels dont vous devez tenir compte lors de la configuration des produits pour prendre en charge le multi- approvisionnement. 
+L'approvisionnement des produits peut se faire suivant différentes manières - ils peuvent être produits (fabriqués) ou être obtenus (achetés). Cet article décrit certains points habituels dont vous devez tenir compte lors de la configuration des produits pour prendre en charge le multi- approvisionnement. 
 
 Les sources d'approvisionnement multiples sont généralement utilisées pour un article acheté qui est occasionnellement fabriqué, ou lorsqu'un article qui est principalement un article fabriqué est modifié pour devenir principalement un article acheté. L'article est d'abord désigné comme un article fabriqué afin de définir les informations de nomenclature et de gamme et de prendre en charge les ordres de fabrication pour l'article. Le type de production doit être défini sur **Nomenclature** (ou, pour le traitement de la production, **Formule** ou **Coproduit**).
 
