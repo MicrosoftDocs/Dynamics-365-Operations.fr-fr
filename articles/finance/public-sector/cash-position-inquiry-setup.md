@@ -13,15 +13,15 @@ ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: roschlom
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28d295db574080735173bed0f40037fb7d66ecad
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: 586aa72808d51c800126e5189a0d7cbcd7789165
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935480"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984843"
 ---
 # <a name="set-up-and-run-the-cash-position-inquiry"></a>Configurer et exécuter les renseignements sur l'emplacement des disponibilités
 [!include [banner](../includes/banner.md)]

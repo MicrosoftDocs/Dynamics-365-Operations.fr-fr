@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: ''
+ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 69521ec8c664a7025050c94105eca58f7f2c5c00
-ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
+ms.openlocfilehash: 68461f375c6d5b04f224331dc192c921cf3c4d04
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435558"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979327"
 ---
 # <a name="integrated-tax"></a>Taxe intégrée
 
@@ -38,7 +38,7 @@ Les données de paramétrage de la taxe définissent le paramétrage pour les ta
 
 Les données de taxe comprennent un ensemble de mappages d'entités qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
 
-Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description  |
+Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description |
 -------------------------|---------------------------------|----|
 Groupe de taxe d'article | msdyn_taxitemgroups |
 Administrations fiscales | msdyn_taxauthorities |

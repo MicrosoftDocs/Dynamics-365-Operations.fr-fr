@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Switzerland
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8974e12d77eeb933acf9b4c634bc24be0e176f9a
-ms.sourcegitcommit: f19fe09cbf956da4d4b8c12a8d8792cadec6fc09
+ms.openlocfilehash: e86b9a34c20303bf321f0435123d897709b4a12b
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225310"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985206"
 ---
 # <a name="switzerland-overview"></a>Vue d'ensemble de la Suisse
 

@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2864b481c67c078df73436d752069a6b6c78640
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b433632523bfd64119fda62f8e4b108ff9b5dccd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206033"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987303"
 ---
 # <a name="service-tasks-overview"></a>Vue d'ensemble des tâches de service
 
@@ -54,13 +54,13 @@ Un technicien doit accomplir deux tâches au niveau d'un système d'engrenages (
 
 ### <a name="service-agreement"></a>Accord de service
 
-| Projet | Accord de service | Description                                   | Regrouper   |
+| Projet | Accord de service | Description                                  | Regrouper   |
 |---------|-------------------|----------------------------------------------|---------|
 | 9012    | 000008\_001       | Inspection et remplacement de routine – GB-1234 | Prime |
 
 ### <a name="service-agreement-lines"></a>Lignes d'accord de service
 
-| Description              | Type de transaction | Objet du service | Tâche de service |
+| Description             | Type de transaction | Objet du service | Tâche de service |
 |-------------------------|------------------|----------------|--------------|
 | Inspection et nettoyage | Heure             | GB-1234        | I/C - GB1234 |
 | Déplacements                  | Dépense          | GB-1234        | I/C - GB1234 |
@@ -75,7 +75,7 @@ Les relations de tâches de service qui lient les tâches de service à l'accord
 
 ### <a name="service-tasks"></a>Tâches de service
 
-| Tâche de service | Description                              | Note interne                                                                                                                 | Note externe                 |
+| Tâche de service | Description                             | Note interne                                                                                                                 | Note externe                 |
 |--------------|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | I/C - GB1234 | Inspection du système d'engrenages GB-1234           | Inspection visuelle et mécanique et nettoyage du système d'engrenages GB-1234.                                                              | Inspection de routine du système d'engrenages |
 | RR - GB1234  | Remplacement de routine de pièces du système d'engrenages GB-1234 | Remplacement de service de routine des composants GR-1 et GR-5 (pour les systèmes d'engrenages fabriqués avant 2002, remplacer également le composant GR-2) | Remplacement de routine des pièces  |

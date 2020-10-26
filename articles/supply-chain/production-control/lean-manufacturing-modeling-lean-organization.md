@@ -16,15 +16,15 @@ ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c6c6602728ed88e7b293dc6308564493e936ecb
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 960ba8851810ff528581144ad863772f18f9fa79
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826356"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985887"
 ---
 # <a name="modeling-a-lean-organization"></a>Modélisation d'une organisation au plus juste
 
@@ -63,7 +63,7 @@ La consolidation périodique du coût pour un flux de production corrige le comp
 Pour mieux prendre en charge l'amélioration continue, les flux de production sont mis en œuvre dans les versions qui permettent un gain de temps. Par conséquent, une version de flux de production existante, ainsi que toutes les règles de kanban associées, peut être copiée dans la prochaine version du flux de production. En outre, le flux de production de l'état futur peut être modélisé avant qu'il soit validé et activé pour la production. Pour garantir un flux des matières cohérent à la date de transition et au-delà, les kanbans existants provenant d'anciennes versions de flux de production sont automatiquement associés à la nouvelle version.
 
 ## <a name="simplicity"></a>Simplicité
-Pour la mise en œuvre de Lean Manufacturing, nous avons choisi l'approche axée sur le flux de production et l'activité, qui autorise la modélisation de scénarios de production simples et complexes dans une architecture évolutive unique.  Un examen plus attentif du concept d'activité révèle une nouvelle simplicité pour les utilisateurs qui en ont vraiment besoin : les collaborateurs de l'atelier et de la logistique. En générant des états en fonction des tâches basées sur l'activité au lieu des mouvements de stock, une interface utilisateur unifiée pour toutes les variantes de lean manufacturing transfère la complexité commerciale de l'interface utilisateur vers sa juste place : le flux de production en tant qu'épine dorsale du lean manufacturing.
+Pour la mise en œuvre de Lean Manufacturing, nous avons choisi l'approche axée sur le flux de production et l'activité, qui autorise la modélisation de scénarios de production simples et complexes dans une architecture évolutive unique. Un examen plus attentif du concept d'activité révèle une nouvelle simplicité pour les utilisateurs qui en ont vraiment besoin : les collaborateurs de l'atelier et de la logistique. En générant des états en fonction des tâches basées sur l'activité au lieu des mouvements de stock, une interface utilisateur unifiée pour toutes les variantes de lean manufacturing transfère la complexité commerciale de l'interface utilisateur vers sa juste place : le flux de production en tant qu'épine dorsale du lean manufacturing.
 
 
 

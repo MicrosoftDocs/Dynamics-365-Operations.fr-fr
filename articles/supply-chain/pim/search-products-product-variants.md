@@ -16,15 +16,15 @@ ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a6439595174978e379aaf248cd565bdf636428
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6acfdf819ffce496f0a9b5d6242b55d857510b49
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209412"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986597"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Recherche de produits et de variantes de produits lors de la saisie de commande
 
@@ -32,7 +32,7 @@ ms.locfileid: "3209412"
 
 Utilisez le champ **Numéro de l'article** pour rechercher des produits et des variantes de produits lorsque vous créez manuellement une ligne de commande client ou une ligne de commande fournisseur.  Cela vous permet de rechercher rapidement des variantes de produits lorsque vous avez uniquement la chaîne de configuration ou l'une des dimensions de produit disponibles.
 
-Parfois, avoir trop de quelque chose n'est pas le plus judicieux, et c'est particulièrement vrai si vous vendez un certain nombre de produits similaires, et que vous tentez de vous souvenir des numéros d'articles ou des noms de produits pour rechercher le produit à insérer dans une commande client. Vous pouvez utiliser le champ **Numéro d'article** sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
+Parfois, avoir trop de quelque chose n'est pas le plus judicieux, et c'est particulièrement vrai si vous vendez un certain nombre de produits similaires, et que vous tentez de vous souvenir des numéros d'articles ou des noms de produits pour rechercher le produit à insérer dans une commande client.Vous pouvez utiliser le champ **Numéro d'article** sur une ligne de commande client ou une ligne de commande fournisseur comme champ de recherche. Vous pouvez entrer n'importe quelle partie du nom, du numéro ou de la dimension d'un produit, et d'obtenir une recherche qui affiche tous les articles qui correspondent au mot de recherche.
 
 ## <a name="how-searchworks"></a>Procédure de recherche
 Lorsque vous recherchez des produits ou des variantes de produits, il est important de bien comprendre comment la fonction de recherche permet de trouver les produits qui correspondent au texte que vous entrez. Les principales règles de recherche pour afficher des résultats de recherche sont :
