@@ -3,7 +3,7 @@ title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
 manager: vastrup
-ms.date: 05/07/2020
+ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: 6f27de67f5df60fbcb3214d1c66d21541bfee741
-ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
+ms.openlocfilehash: c97a145005b359c3c49bd89b8c4d7a09465c3bb1
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346642"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971409"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -356,3 +356,4 @@ Il existe une option pour configurer séparément le planificateur. Cliquez sur 
 ### <a name="configure-channel-components"></a>Configurer des composants de canal
 
 Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal. Pour plus d'informations, voir les [instructions de déploiement](./emea-fra-deployment.md).
+

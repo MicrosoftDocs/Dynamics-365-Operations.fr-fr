@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646157"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971543"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
@@ -164,7 +164,7 @@ La fonction **Vérifier** valide les problèmes suivants dans un document sortan
 - **Emplacement non défini** – L’emplacement n’est pas spécifié pour un élément contrôlé par emplacement où l’emplacement n’est pas autorisé à être vide.
 - **Lignes supprimées** – La commande comporte des lignes supprimées par un utilisateur du siège Commerce inconnu de l’application PDV.
 
-Si vous définissez le paramètre **Activer la validation automatique** sur **Oui** dans **Paramètres Commerce** > **Stock** > **Stock du magasin**, la validation est exécutée automatiquement lorsque vous sélectionnez la fonction **Terminer l’exécution**.
+Si vous définissez le paramètre **Activer la validation automatique** sur **Oui** dans **Paramètres Commerce** > **Stock** > **Opérations de stock du magasin**, la validation est exécutée automatiquement lorsque vous sélectionnez la fonction **Terminer l’exécution**.
 
 ### <a name="finish-fulfillment"></a>Terminer l’exécution
 

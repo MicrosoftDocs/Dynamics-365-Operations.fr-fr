@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826404"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958739"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Planification visuelle pour Lean manufacturing
 
@@ -61,7 +61,7 @@ La page **Carte de programme du kanban** contient sept éléments principaux, co
 
 ### <a name="view-the-time-scale"></a>Afficher l'échelle de temps
 
-La carte est divisée en périodes, chacune étant représentée par un nœud (4). Les nœuds de période sont répertoriés sur l'axe vertical, et l'accès horizontal représente un échelle de temps (7) qui indique la durée de la période. Une période a une durée d'un jour ou d'une semaine. La durée de la période est déterminée par la configuration de la cellule de travail sélectionnée pour la carte de programme du kanban (2). Pour chaque nœud de période, la carte de programme du kanban indique le nombre de tâches de kanban planifiées qui sont chargées pour la période. Le débit maximal pour la période est également indiqué. Si le débit planifié dépasse le débit maximal, la période est considérée comme surchargée, et un symbole d'avertissement rouge s'affiche. Une tâche de kanban planifiée apparaît dans une période qui a des heures de début et de fin planifiées (5). La durée de la tâche est égale à la durée d'activité. Des tâches de kanban se chevauchent dans une période si leurs durées d'activité dépassent le takt time de la cellule de travail.
+La carte est divisée en périodes, chacune étant représentée par un nœud (4). Les nœuds de période sont répertoriés sur l'axe vertical, et l'axe horizontal représente un échelle de temps (7) qui indique la durée de la période. Une période a une durée d'un jour ou d'une semaine. La durée de la période est déterminée par la configuration de la cellule de travail sélectionnée pour la carte de programme du kanban (2). Pour chaque nœud de période, la carte de programme du kanban indique le nombre de tâches de kanban planifiées qui sont chargées pour la période. Le débit maximal pour la période est également indiqué. Si le débit planifié dépasse le débit maximal, la période est considérée comme surchargée, et un symbole d'avertissement rouge s'affiche. Une tâche de kanban planifiée apparaît dans une période qui a des heures de début et de fin planifiées (5). La durée de la tâche est égale à la durée d'activité. Des tâches de kanban se chevauchent dans une période si leurs durées d'activité dépassent la durée de tâche de la cellule de travail.
 
 ### <a name="view-job-status"></a>Afficher le statut des tâches
 

@@ -3,7 +3,7 @@ title: Glossaire du modèle de page
 description: Cette rubrique décrit les différents éléments utilisés dans les pages d'un site Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025992"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973907"
 ---
 # <a name="page-model-glossary"></a>Glossaire du modèle de page
 
@@ -49,16 +49,18 @@ Le tableau suivant fournit un récapitulatif des termes avec lesquelles vous dev
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Manières d'ajouter du contenu](add-manage-content.md)
+[Manières d’ajouter du contenu](add-manage-content.md)
 
 [États et cycle de vie des documents](document-states-overview.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
 
+[Activer et utiliser le partage intercanal](cross-channel-sharing.md)
+
 [Utiliser des modules](work-with-modules.md)
 
 [Utiliser des fragments](work-with-fragments.md)
 
-[Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md)
+[Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Personnaliser la navigation dans le site](customize-site-navigation.md)

@@ -3,7 +3,7 @@ title: Créer des règles d'alerte
 description: Cette rubrique fournit des informations sur les alertes et décrit la procédure de création d'une règle d'alerte pour être informé d'événements, par exemple une date qui arrive ou une modification spécifique qui se produit.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075922"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970677"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d'alerte
 
@@ -92,3 +92,14 @@ Les alertes peuvent être envoyées en externe à l'aide de la structure des év
 7. Dans l'organisateur **Alertez-moi avec**, dans le champ **Objet**, acceptez l'objet par défaut du message e-mail, ou entrez-en un nouveau. Le texte est utilisé comme objet pour le message e-mail que vous recevez en cas de déclenchement d'alerte. Si vous souhaitez envoyer l'alerte en tant qu'événement commercial, définissez **Envoyer en externe** sur **Oui**.
 8. Dans le champ **Message**, entrez un message facultatif. Le texte sera le message envoyé en cas de déclenchement d'alerte.
 9. Sélectionnez **OK** pour enregistrer les paramètres et créer la règle d'alerte.
+
+## <a name="limitations-and-workarounds"></a>Limitations et solutions de contournement
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Solution de contournement pour créer des alertes pour les sources de données secondaires d'un formulaire
+Aucune alerte ne peut être créée pour certaines sources de données secondaires sur les formulaires. Par exemple, lors de la création d'alertes sur le formulaire des profils de validation client ou fournisseur, seuls les champs de l'en-tête (CustLedger ou VendLedger) sont disponibles, alors que les comptes de dimension ne le sont pas. La solution de contournement pour cette limitation consiste à utiliser **SysTableBrowser** pour ouvrir cette table en tant que source de données principale. 
+1. Ouvrez la table dans le formulaire **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Créez une alerte à partir du formulaire SysTableBrowser.
+

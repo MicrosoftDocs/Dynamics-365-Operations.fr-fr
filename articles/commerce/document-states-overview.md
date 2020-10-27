@@ -3,7 +3,7 @@ title: États et cycle de vie des documents
 description: Cette rubrique décrit les différents états de document des éléments de page dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261511"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974028"
 ---
 # <a name="document-states-and-lifecycle"></a>États et cycle de vie des documents
-
 
 [!include [banner](includes/banner.md)]
 
@@ -47,16 +46,18 @@ Le tableau suivant indique les états de document possibles des éléments de pa
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Manières d'ajouter du contenu](add-manage-content.md)
+[Manières d’ajouter du contenu](add-manage-content.md)
 
 [Glossaire sur le modèle de page](page-elements-overview.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
 
+[Activer et utiliser le partage intercanal](cross-channel-sharing.md)
+
 [Utiliser des modules](work-with-modules.md)
 
 [Utiliser des fragments](work-with-fragments.md)
 
-[Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md)
+[Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Personnaliser la navigation dans le site](customize-site-navigation.md)

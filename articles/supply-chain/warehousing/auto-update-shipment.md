@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677336"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900984"
 ---
 # <a name="shipment-auto-updates"></a>Mises à jour automatiques de l'expédition
 
@@ -39,7 +39,7 @@ La fonctionnalité de mise à jour automatique s'applique à la fois aux lignes 
 
 La fonctionnalité de mise à jour automatique de l'expédition est basée essentiellement sur le statut d'expédition pour déterminer si la quantité sur une ligne de chargement doit être modifiée lorsqu'une modification est effectuée sur une ligne de la commande client ou sur une ligne de l'ordre de transfert. Elle repose principalement sur le statut d'expédition pour déterminer quand une nouvelle ligne de chargement doit être ajoutée automatiquement à un chargement existant. Lorsque le statut de l'expédition est défini sur **Traité par vagues** ou statut supérieur, aucune mise à jour automatique ne se produit.
 
-Le statut de vague est également pris en compte pour les mises à jour automatiques. Lorsque le statut de la vague relative à la ligne de chargement est défini sur **Retenu**, **Exécution**, **Lancé**, **Prélevé** ou **Expédié**, si un utilisateur tente de réduire la quantité sur une ligne de chargement (via une baisse de la quantité sur la ligne de la commande client ou sur la ligne de l'ordre de transfert), le message d'erreur suivant s'affiche : « Impossible de supprimer les réservations, car un travail qui a été créé repose sur ces réservations. » En outre, lorsque la vague affiche un des statuts mentionnés précédemment, si un utilisateur essaye d'augmenter indirectement la quantité de la ligne de chargement en diminuant la quantité sur la ligne de la commande client ou la ligne de l'ordre de transfert, la quantité sur la ligne de chargement n'est pas automatiquement augmentée. Dans ce cas, la ligne de chargement doit être mise à jour manuellement.
+Le statut de vague est également pris en compte pour les mises à jour automatiques. Lorsque le statut de la vague relative à la ligne de chargement est défini sur **Retenu**, **Exécution**, **Lancé**, **Prélevé** ou **Expédié**, si un utilisateur tente de réduire la quantité sur une ligne de chargement (via une baisse de la quantité sur la ligne de la commande client ou sur la ligne de l'ordre de transfert), le message d'erreur suivant s'affiche : « Impossible de supprimer les réservations, car un travail qui a été créé repose sur ces réservations. » En outre, lorsque la vague affiche un des statuts mentionnés précédemment, si un utilisateur essaye d'augmenter indirectement la quantité de la ligne de chargement en augmentant la quantité sur la ligne de la commande client ou la ligne de l'ordre de transfert, la quantité sur la ligne de chargement n'est pas automatiquement augmentée. Dans ce cas, la ligne de chargement doit être mise à jour manuellement.
 
 ## <a name="scenarios"></a>Scénarios
 

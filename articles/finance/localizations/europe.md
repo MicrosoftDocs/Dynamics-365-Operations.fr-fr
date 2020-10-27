@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1fdc4a44ff55586f6879d9fb7df44b4f88c568
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 14bc48a0dc118121b75c47f6082a3b4d58fcbadc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772843"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977094"
 ---
 # <a name="europe-overview"></a>Vue d'ensemble de l'Europe
 
@@ -42,7 +42,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Ajustements du taux de change](emea-exchange-rate-adjustments.md)
 - [Formats de fichier des modes de paiement](emea-select-file-formats-for-the-method-of-payments.md)
 - [Intégration du service fiscal (ESR)](emea-fiscal-service-integration.md)
-- [Cession d'immobilisations pour l'Estonie et la Lituanie](emea-credit-note-reverse-fixed-asset-sale.md)
+- [Cession d’immobilisations pour l’Estonie et la Lituanie](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Générer un document de transfert pour un transfert de stock interne](tasks/transfer-document-internal-inventory-transfer.md)
 - [Générer l'état Liste des ventes intracommunautaires](tasks/eur-00011-eu-sales-list-report.md)
 - Fichiers ISO20022

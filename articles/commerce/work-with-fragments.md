@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818348"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961656"
 ---
 # <a name="work-with-fragments"></a>Utiliser des fragments 
 
@@ -61,8 +61,8 @@ Vous pouvez créer un fragment ou enregistrer une configuration de module exista
 Pour convertir un module précédemment configuré en un fragment réutilisable, procédez comme suit.
 
 1. Ouvrez une page ou un modèle contenant le module que vous souhaitez convertir en un fragment.
-1. Dans le volet de contour à gauche ou directement dans le canevas principal, sélectionnez le module précédemment configuré.
-1. Sélectionnez les points de suspension (**...**) à côté du nom du module dans le volet de contour ou dans la barre d’outils du module sélectionné sur le canevas. 
+1. Dans le volet de plan à gauche, ou directement dans le générateur de page visuel, sélectionnez le module précédemment configuré.
+1. Sélectionnez les points de suspension (**...**) à côté du nom du module dans le volet de plan ou dans la barre d’outils du module dans le générateur de page visuel. 
 1. Sélectionnez **Partager en tant que fragment de page**. 
 1. Dans la boîte de dialogue **Enregistrer en tant que fragment de page**, entrez un nom pour le fragment.
 1. Sélectionnez **OK** pour enregistrer la configuration du module comme fragment qui peut être ajouté à d’autres pages.
@@ -94,8 +94,8 @@ Les procédures suivantes expliquent comment ajouter, supprimer, et modifier des
 
 Pour ajouter un fragment à une page, procédez comme suit.
 
-1. Dans le volet de contour à gauche ou directement dans le canevas principal, sélectionnez un conteneur ou un emplacement auquel des modules enfants peuvent êtres ajoutés.
-1. Dans le volet en ligne, sélectionnez les points de suspension (**...**) à côté du nom du conteneur ou de l’emplacement.  Sinon, si vous utilisez le canevas principal, sélectionnez le symbole plus (**+**).  
+1. Dans le volet de plan à gauche, ou directement dans le générateur de page visuel, sélectionnez un conteneur ou un emplacement auquel des modules enfants peuvent êtres ajoutés.
+1. Dans le volet en ligne, sélectionnez les points de suspension (**...**) à côté du nom du conteneur ou de l’emplacement.  Sinon, si vous utilisez le générateur de page visuel, sélectionnez le symbole plus (**+**).  
 1. Sélectionnez **Ajouter un fragment**.
 
     ![Capture d’écran montrant comment ajouter un fragment existant à un emplacement ou un conteneur](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Pour ajouter un fragment à une page, procédez comme suit.
 
 Pour supprimer un fragment d’un emplacement ou d’un conteneur sur une page, procédez comme suit.
 
-1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) en regard du nom du fragment à supprimer, puis sélectionnez le symbole de corbeille.  Vous pouvez également sélectionner le fragment dans le canevas et sélectionner le symbole de la corbeille dans la barre d’outils du fragment.
+1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) en regard du nom du fragment à supprimer, puis sélectionnez le symbole de corbeille.  Vous pouvez également sélectionner le fragment dans le générateur de page visuel et sélectionner le symbole de la corbeille dans la barre d’outils du fragment.
 1. Lorsque vous êtes invité à confirmer la suppression du fragment, sélectionnez **OK**.
 
 > [!NOTE]

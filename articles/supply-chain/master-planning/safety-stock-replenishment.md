@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 7a1721b3206f8a3df010f26dc31e3ac4e5e0878b
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887014"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987387"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Traitement du stock de sécurité pour les articles
 
@@ -111,7 +111,7 @@ Pour montrer comment cela fonctionne, utilisez le scénario suivant.
 
 Le stock de sécurité est suivi dans le système en tant que type de demande, à l'instar des lignes de vente ou des demandes de nomenclature. Vous pouvez afficher la ligne de demande de stock de sécurité sur la page **Besoins nets** si vous supprimez le filtre par défaut dans la colonne **Type de demande**.
 
-La transaction de demande de stock de sécurité n'est pas traitée en priorité si le système détermine cela crée des retards dans l'exécution de la demande réelle, par exemple les lignes de vente, les lignes de nomenclature, les demandes de transfert ou les lignes de prévision de la demande. Sinon, s'assurer que le stock disponible est au-dessus de la quantité de stock de sécurité a la même priorité que les autres types de demande. Ainsi, aucun retard n'est enregistré pour les transactions réelles et cela permet d'éviter tout réapprovisionnement excessif ou anticipé du stock de sécurité.
+La transaction de demande de stock de sécurité n'est pas traitée en priorité si le système détermine que cela crée des retards dans l'exécution de la demande réelle, par exemple les lignes de vente, les lignes de nomenclature, les demandes de transfert ou les lignes de prévision de la demande. Sinon, s'assurer que le stock disponible est au-dessus de la quantité de stock de sécurité a la même priorité que les autres types de demande. Ainsi, aucun retard n'est enregistré pour les transactions réelles et cela permet d'éviter tout réapprovisionnement excessif ou anticipé du stock de sécurité.
 
 Pendant la phase de couverture de la planification, le réapprovisionnement du stock de sécurité n'est plus dépriorisé. Le stock disponible peut être utilisé avant les autres types de demande. Lors du calcul du retard, une nouvelle logique est ajoutée pour parcourir les lignes de vente retardées, les demandes de ligne de nomenclature et tous les autres types de demande, pour déterminer si la livraison peut être effectuée à temps, à condition que le stock de sécurité soit utilisé. Si le système détermine qu'il peut réduire les retards à l'aide du stock de sécurité, les lignes de vente ou de nomenclature remplacent leur couverture d'origine par le stock de sécurité, et le système déclenche à la place le réapprovisionnement du stock de sécurité.
 

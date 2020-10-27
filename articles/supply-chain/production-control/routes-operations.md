@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895375"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989239"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -37,10 +37,10 @@ Cette rubrique fournit des informations sur les gammes et les opérations. Une g
 
 Une gamme décrit l'ordre des opérations nécessaires pour fabriquer un produit ou une variante de produit. Pour chaque opération, la gamme définit également les ressources opérationnelles requises, le temps nécessaire pour paramétrer et exécuter l'opération, et la manière dont le coût doit être calculé. Vous pouvez utiliser la même gamme pour fabriquer plusieurs produits, ou vous pouvez définir une seule gamme pour chaque produit ou variante de produit. Vous pouvez même avoir plusieurs gammes pour le même produit. Dans ce cas, la gamme utilisée varie en fonction de facteurs tels que la quantité qui doit être produite. La définition d'une gamme dans Supply Chain Management se compose de quatre éléments distincts qui, ensemble, décrivent le processus de production :
 
--   **Gamme** – Une gamme définit la structure du processus de production. Autrement dit, elle définit l'ordre des opérations.
--   **Opération** – Une opération identifie une étape nommée dans une gamme, par exemple **Assemblage**. La même opération peut se produire dans plusieurs gammes et peut avoir plusieurs numéros d'opération.
--   **Relation d'opération** – Une relation d'opération définit les propriétés opérationnelles d'une opération, telles que le temps de réglage et d'exécution, les catégories de coûts, les paramètres de consommation et les besoins en ressources. La relation d'opération permet de faire varier les propriétés opérationnelles d'une opération selon la gamme dans laquelle l'opération est utilisée ou les produits qui sont fabriqués.
--   **Version de gamme** – Une version de gamme définit la gamme utilisée pour fabriquer un produit ou une variante de produit. Les versions de gamme permette de réutiliser les gammes pour différents produits ou de les modifier au fil du temps. Elles permettent également d'utiliser différentes gammes pour fabriquer le même produit. Dans ce cas, la gamme utilisée dépend de facteurs tels que l'emplacement ou la quantité qui doit être produite.
+- **Gamme** – Une gamme définit la structure du processus de production. Autrement dit, elle définit l'ordre des opérations.
+- **Opération** – Une opération identifie une étape nommée dans une gamme, par exemple **Assemblage**. La même opération peut se produire dans plusieurs gammes et peut avoir plusieurs numéros d'opération.
+- **Relation d'opération** – Une relation d'opération définit les propriétés opérationnelles d'une opération, telles que le temps de réglage et d'exécution, les catégories de coûts, les paramètres de consommation et les besoins en ressources. La relation d'opération permet de faire varier les propriétés opérationnelles d'une opération selon la gamme dans laquelle l'opération est utilisée ou les produits qui sont fabriqués.
+- **Version de gamme** – Une version de gamme définit la gamme utilisée pour fabriquer un produit ou une variante de produit. Les versions de gamme permette de réutiliser les gammes pour différents produits ou de les modifier au fil du temps. Elles permettent également d'utiliser différentes gammes pour fabriquer le même produit. Dans ce cas, la gamme utilisée dépend de facteurs tels que l'emplacement ou la quantité qui doit être produite.
 
 ## <a name="routes"></a>Gammes
 Une gamme décrit l'ordre des opérations accomplies pour fabriquer un produit ou une variante de produit. Chaque opération est associée à un numéro d'opération et à une opération successive. L'ordre des opérations forme un réseau de gamme qui peut être représenté par un graphique dirigé ayant un ou plusieurs points de départ et un point d'arrivée unique. Dans Supply Chain Management, les gammes se distinguent en fonction du type de structure. Les deux types de gammes sont les gammes simples et les réseaux de gammes. Dans les paramètres de contrôle de la production, vous pouvez indiquer d'utiliser uniquement des gammes simples, ou s'il est possible d'utiliser des réseaux de gammes plus complexes.
@@ -60,9 +60,9 @@ Si vous activez les réseaux de gammes plus complexes dans les paramètres de co
 [![Réseau de gammes](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Chaque opération ne peut avoir qu'une opération successive, et la gamme entière doit se terminer par une seule opération.
-> -   Cela ne garantit pas que plusieurs opérations ayant la même opération successive (par exemple, les opérations 30 et 40 dans l'illustration précédente) seront réellement exécutées en parallèle. La disponibilité et la capacité des ressources peuvent imposer des contraintes à la planification des opérations.
-> -   Vous ne pouvez pas utiliser 0 (zéro) comme numéro d'opération. Ce numéro est réservé et permet d'indiquer que la dernière opération de la gamme n'a aucune opération successive.
+> - Chaque opération ne peut avoir qu'une opération successive, et la gamme entière doit se terminer par une seule opération.
+> - Cela ne garantit pas que plusieurs opérations ayant la même opération successive (par exemple, les opérations 30 et 40 dans l'illustration précédente) seront réellement exécutées en parallèle. La disponibilité et la capacité des ressources peuvent imposer des contraintes à la planification des opérations.
+> - Vous ne pouvez pas utiliser 0 (zéro) comme numéro d'opération. Ce numéro est réservé et permet d'indiquer que la dernière opération de la gamme n'a aucune opération successive.
 
 ### <a name="parallel-operations"></a>Opérations parallèles
 
@@ -87,7 +87,7 @@ Si vous devez tenir un journal qui consigne qui approuve chaque gamme, vous pouv
 ## <a name="operations"></a>Operations
 Une opération est une étape du processus de production. Chaque opération a un ID et une description simple. Les tableaux suivants montrent des exemples typiques d'opérations réalisées dans un atelier.
 
-| Opération  | description ;        |
+| Opération  | Description        |
 |------------|--------------------|
 | PipeCut    | Tronçonnage de tube       |
 | TIGweld    | Soudage TIG        |
@@ -99,12 +99,12 @@ Les propriétés opérationnelles de l'opération, telles que le temps de régla
 ## <a name="operation-relations"></a>Groupes d'opérations
 Les propriétés opérationnelles suivantes d'une opération sont conservées dans la relation d'opération :
 
--   Catégories de coûts
--   Paramètres de consommation
--   Durées du traitement
--   Quantités du traitement
--   Demandes de ressources
--   Notes et instructions
+- Catégories de coûts
+- Paramètres de consommation
+- Durées du traitement
+- Quantités du traitement
+- Demandes de ressources
+- Notes et instructions
 
 Vous pouvez définir plusieurs relations d'opération pour la même opération. Toutefois, chaque relation d'opération est spécifique à une opération, et enregistre les propriétés spécifiques à une gamme, à un produit, ou à un ensemble de produits associés à un groupe d'articles. Par conséquent, la même opération peut être utilisée dans plusieurs gammes ayant différentes propriétés opérationnelles. En outre, vous pouvez plus facilement maintenir vos données principales si vous utilisez des opérations standard ayant les mêmes propriétés opérationnelles, indépendamment de la gamme utilisée et du produit fabriqué. La portée de la relation d'opération est définie par les propriétés **Code article**, **Relation d'article**, **Code gamme** et **Relation de gamme**, comme l'indique le tableau suivant.
 
@@ -166,12 +166,13 @@ Lorsque Supply Chain Management recherche la relation d'opération la plus appro
 Par conséquent, une opération doit être utilisée une seule fois pour chaque gamme. Si l'opération est effectuée la plusieurs fois dans la même gamme, toutes les occurrences de cette opération auront la même relation d'opération, et vous ne pourrez pas avoir différentes propriétés (par exemple, les temps d'exécution) pour chaque occurrence.
 
 ## <a name="route-versions"></a>Versions de gamme
+
 Les versions de gamme permettent de tenir compte de variations dans la production des produits ou de mieux contrôler le processus de production. Elles définissent quelle gamme doit être utilisée lors de la fabrication d'un produit ou d'une variante de produit spécifique. Vous pouvez utiliser les contraintes suivantes pour indiquer quelle gamme utiliser pour un produit lancé :
 
--   dimensions de produit (taille, couleur, style ou configuration)
--   quantité de fabrication
--   site de production
--   date de production
+- dimensions de produit (taille, couleur, style ou configuration)
+- quantité de fabrication
+- site de production
+- date de production
 
 Lorsque vous fabriquer le produit sur un site particulier, dans une quantité donnée, ou dans une période donnée, vous pouvez indiquer une version de gamme spécifique comme version de gamme par défaut. Toutefois, notez qu'une seule gamme active est permise pour un produit lancé et un ensemble de contraintes donnés.  
 
@@ -194,6 +195,7 @@ Si vous devez tenir un journal qui consigne qui approuve et active chaque versio
 Le dossier de modification de produit pour l'approbation et l'activation de la gammes et de versions de gamme nouvelles ou modifiée fournit un moyen facile pour afficher une vue d'ensemble des contraintes de version de gamme. Vous pouvez également approuver et activer toutes les gammes liées à une modification spécifique d'une opération et documenter les résultats dans le dossier de modification de produit.
 
 ## <a name="maintaining-routes"></a>Tenue à jour des gammes
+
 Selon vos exigences métier, vous pouvez réduire l'effort requis par la tenue à jour de vos définitions de processus.
 
 ### <a name="making-routes-independent-of-resources"></a>Réalisation de gammes indépendantes des ressources
@@ -224,10 +226,10 @@ Lorsque vous utilisez cette approche, la page **Relations d'opération** devient
 
 Si vous ne spécifiez pas de ressource opérationnelle ou de groupe de ressources dans le cadre des demandes de ressources pour une opération, les ressources applicables peuvent être exécutées à différentes vitesses. Par conséquent, le temps nécessaire pour traiter une opération peut varier. Pour résoudre ce problème, vous pouvez utiliser le champ **Formule** dans la relation d'opération pour spécifier le calcul du temps de traitement. Les options suivantes sont disponibles :
 
--   **Standard** – (option par défaut) Le calcul utilise uniquement les champs de la relation d'opération et multiplie le temps d'exécution spécifié par la quantité de la commande.
--   **Capacité** – Le calcul comprend le champ **Capacité** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources. La valeur spécifiée pour la ressource opérationnelle est la capacité horaire. Le **Temps de traitement** est calculé comme **Quantité de la commande** divisé par la **Capacité**.
--   **Lot** – Une capacité de lot est calculée à l'aide des informations issues de la relation d'opération. Le nombre de lots et, par conséquent, le temps d'exécution, peuvent ensuite être calculés en fonction de la quantité de la commande.
--   **Lot de ressource** – Cette option est fondamentalement la même que l'option **Lot**. Toutefois, le calcul comprend le champ **Capacité de lot** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources.
+- **Standard** – (option par défaut) Le calcul utilise uniquement les champs de la relation d'opération et multiplie le temps d'exécution spécifié par la quantité de la commande.
+- **Capacité** – Le calcul comprend le champ **Capacité** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources. La valeur spécifiée pour la ressource opérationnelle est la capacité horaire. Le **Temps de traitement** est calculé comme **Quantité de la commande** divisé par la **Capacité**.
+- **Lot** – Une capacité de lot est calculée à l'aide des informations issues de la relation d'opération. Le nombre de lots et, par conséquent, le temps d'exécution, peuvent ensuite être calculés en fonction de la quantité de la commande.
+- **Lot de ressource** – Cette option est fondamentalement la même que l'option **Lot**. Toutefois, le calcul comprend le champ **Capacité de lot** issu des ressources opérationnelles. Par conséquent, la durée dépend des ressources.
 
 ### <a name="set-up-route-groups"></a>Paramétrer des groupes de gammes
 

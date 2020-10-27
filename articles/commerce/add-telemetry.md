@@ -3,7 +3,7 @@ title: Ajout d’un code de script aux pages de site pour prendre en charge la t
 description: Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761247"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901494"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie
 
@@ -64,6 +64,9 @@ Pour créer un fragment réutilisable pour votre code de script externe dans le 
 1. Dans le volet des propriétés à droite, sous **Source du script**, ajoutez une URL externe ou relative pour la source de script externe. Puis configurez d’autres options selon vos besoins.
 1. Sélectionnez **Enregistrer**, puis **Terminer la modification**.
 1. Sélectionnez **Publier**.
+
+> [!NOTE]
+> Si la stratégie de stratégie de sécurité (CSP) est activée pour votre site, assurez-vous que toutes les URL externes sont ajoutées à l'instruction CSP **script-src** dans le générateur de site Commerce. Pour plus d’informations, voir [Gérer la stratégie de sécurité du contenu (CSP)](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Ajouter un fragment qui inclut le code de script à un modèle
 

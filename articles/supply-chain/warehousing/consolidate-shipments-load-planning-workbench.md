@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 396a038dbf2f4b6835ecbb5fd8cb39a3a3608af7
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f1dd5c743664e638c043b600ae7b0f6bce5ddcd
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383770"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986838"
 ---
 # <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolider les expéditions à l'aide du champ Lancement dans l'entrepôt depuis l'atelier de planification des chargements
 
@@ -123,7 +123,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 1. Créez deux commandes client identiques ayant les paramètres suivants :
 
     - **Compte client :** *US-001*
-    - **Bon de commande client :** *1*
+    - **Demande client :** *1*
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
@@ -137,7 +137,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 1. Créez deux commandes client identiques ayant les paramètres suivants :
 
     - **Compte client :** *US-001*
-    - **Bon de commande client :** *2*
+    - **Demande client :** *2*
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 

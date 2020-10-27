@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002798"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961584"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considérations relatives à l'optimisation de moteur de recherche (SEO) pour le site
 
@@ -47,7 +47,7 @@ Pour optimiser l'indexation du moteur de recherche, la zone de rendu utilise les
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Paramètres SEO de la page pour un aperçu interne, audiences limitées, toutes les audiences
 
-Comme Dynamics 365 Commerce prend en charge des aperçus authentifiés « Tel écrit, tel écran », les auteurs pouvez préparer leur contenu de page sans devoir s'inquiéter que les informations deviennent visibles des visiteurs de site. Si une page doit être publiée, mais que son exposition doit être limitée, elle doit avoir la métabalise **NOINDEX**, afin qu'elle ne soit pas indexée par les moteurs de recherche. Puis, lorsque la page est prête pour toutes les audiences, toutes les métadonnées SEO de base doivent être présentes, afin d'optimiser l'efficacité de l'indexation du moteur de recherche. En outre, la métabalise **NOLIMIT** doit être supprimée.
+Comme Dynamics 365 Commerce prend en charge des aperçus authentifiés « Tel écrit, tel écran » dans le générateur de page visuel, les auteurs peuvent préparer leur contenu de page sans devoir s'inquiéter que les informations deviennent visibles par les visiteurs du site. Si une page doit être publiée, mais que son exposition doit être limitée, elle doit avoir la métabalise **NOINDEX**, afin qu'elle ne soit pas indexée par les moteurs de recherche. Puis, lorsque la page est prête pour toutes les audiences, toutes les métadonnées SEO de base doivent être présentes, afin d'optimiser l'efficacité de l'indexation du moteur de recherche. En outre, la métabalise **NOLIMIT** doit être supprimée.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -3,7 +3,7 @@ title: Opération de stock entrant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710307"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971495"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -133,6 +133,18 @@ La vue **Recevoir maintenant** permet aux utilisateurs de voir les produits qu�
 Les validations se produisent pendant le processus de réception pour les lignes de document. Elles comprennent les validations pour livraison excessive. Si un utilisateur tente de recevoir plus de stock que à ce qui a été commandé sur une commande fournisseur, mais la livraison excessive n’est pas configurée ou le montant reçu dépasse la tolérance de livraison excessive configurée pour la ligne de commande fournisseur, l’utilisateur reçoit une erreur et n’est pas autorisé à recevoir la quantité excédentaire.
 
 La réception excessive n’est pas autorisée pour les documents d’ordre de transfert. Les utilisateurs recevront toujours des erreurs s’ils tentent de recevoir plus que ce qui a été expédié pour la ligne d’ordre de transfert.
+
+### <a name="close-purchase-order-lines"></a>Fermer des lignes de commandes fournisseur
+
+Vous pouvez clôturer la quantité restante sur une commande d'achat entrante pendant le processus de réception si l'expéditeur a confirmé qu'il ne peut pas expédier la quantité totale demandée. Pour ce faire, la société doit être configurée pour autoriser les livraisons incomplètes des commandes fournisseur. De plus, un pourcentage de tolérance de livraison incomplète doit être défini pour la ligne de commande fournisseur.
+
+Pour configurer l'entreprise afin qu'elle autorise la livraison incomplète des commandes fournisseur, au siège de Commerce, accédez à **Approvisionnements** > **Configuration** > **Paramètres d'approvisionnement**. Dans l'onglet **Livraison**, activez le paramètre **Accepter les livraisons incomplètes**. Exécutez ensuite la tâche de programme de distribution **1070** (**Configuration de canal**) pour synchroniser les modifications du paramètre entre les canaux.
+
+Les pourcentages de tolérance de livraison incomplète pour une ligne de commande fournisseur peuvent être prédéfinis sur les produits dans le cadre des configurations de produit au siège de Commerce. Ils peuvent également être définis ou remplacés sur une ligne de commande fournisseur spécifique au siège de Commerce.
+
+Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l'**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d'erreur s'affiche et l'utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
+
+Quand l'option **Clôturer la quantité restante** est activée pour une ligne de commande fournisseur, lorsque l'utilisateur achève la réception à l'aide de l'action **Terminer la réception**, une demande de clôture est également envoyée au siège de Commerce, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
 
 ### <a name="receiving-location-controlled-items"></a>Articles contrôlés par l’emplacement de réception
 

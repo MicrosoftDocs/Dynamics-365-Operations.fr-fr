@@ -1,7 +1,7 @@
 ---
 title: Association d'un site de commerce électronique à un canal en ligne
 description: Cette rubrique explique comment lier votre site Microsoft Dynamics 365 Commerce à un ou plusieurs magasins en ligne.
-author: stuharg
+author: bicyclingfool
 manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: bicyclingfool
+ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af63fc8e32d82cff9e46510da9b30110ac8f0f2c
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: b7c393ec2f716c7057a77d0f3c3c1a9f79ee8c68
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533365"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975366"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Association d'un site de commerce électronique à un canal en ligne
 
@@ -56,6 +56,6 @@ Lorsque votre site est créé, vous pouvez vérifier qu'il est associé à votre
 
 [Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
-[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+[Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)

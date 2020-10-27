@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
-ms.author: v-alpavk
+ms.author: roschlom
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0f08f5af1617c2d69c2ed025b6716546b59e8a85
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: b69f470e34484d685fcb4f25755427146dceee56
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249080"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984840"
 ---
 # <a name="cash-position-inquiry"></a>Renseignements sur l'emplacement des disponibilités
 [!include [banner](../includes/banner.md)]

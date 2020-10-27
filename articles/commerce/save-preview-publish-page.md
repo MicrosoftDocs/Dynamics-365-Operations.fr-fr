@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269979"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961608"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Enregistrer, afficher un aperçu et publier une page
 
@@ -38,9 +38,9 @@ Lorsque vous enregistrez une page, les modifications sont visibles uniquement à
 
 ## <a name="preview-a-page"></a>Prévisualiser une page
 
-L'outil de création offre deux types de fonctionnalités d'aperçu : le volet d'aperçu « Tel écrit, tel écran » dans l'éditeur de page et une fenêtre de prévisualisation distincte.
+L'outil de création offre deux types de fonctionnalités d'aperçu : le générateur de page visuel, qui est un volet d'aperçu « Tel écrit, tel écran » dans l'éditeur de page, et une fenêtre de prévisualisation distincte.
 
-Lorsque vous utilisez l'éditeur de page, l'aperçu « Tel écrit, tel écran » apparaît dans le volet central. Cet aperçu est automatiquement mis à jour chaque fois que vous enregistrez la page. Vous pouvez également manuellement le mettre à jour en sélectionnant **Actualiser** dans la barre de commande. L'aperçu de Tel écrit, tel écran affiche la page comme les utilisateurs du site la verront, mais les applications d'assistance sont affichés sur celle-ci.
+Lorsque vous utilisez l'éditeur de page, l'aperçu « Tel écrit, tel écran » apparaît dans le volet central. Cet aperçu est automatiquement mis à jour chaque fois que vous enregistrez la page. Vous pouvez également manuellement le mettre à jour en sélectionnant **Actualiser** dans la barre de commande. L'aperçu affiche la page comme les utilisateurs du site la verront, mais les applications d'assistance sont affichées en haut.
 
 Lorsque vous avez terminé de modifier la page, vous souhaitez peut-être la prévisualiser pour voir ce que les clients verront. Pour obtenir un aperçu de la page, sélectionnez **Aperçu** dans la barre de commande. L'aperçu apparaît dans une fenêtre du navigateur séparée. La page dans la fenêtre d'aperçu est affichée comme l'utilisateur du site la verra. Vous pouvez redimensionner la fenêtre pour vous assurer que les modules réactifs sont correctement affichés dans tous les ports d'affichage.
 

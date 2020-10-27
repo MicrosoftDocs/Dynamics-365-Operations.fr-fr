@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: France
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6ced9a4b0cc782e9ea6a6ab5ada4fb2396161f4
-ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
+ms.openlocfilehash: 9c7440574d6bad6b6e709048ba36791ad841dcae
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3133956"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982395"
 ---
 # <a name="generate-the-standard-audit-file-for-france-fec"></a>Génération du fichier d'audit standard pour la France (FEC)
 

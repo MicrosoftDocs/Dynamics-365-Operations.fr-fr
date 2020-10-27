@@ -14,6 +14,8 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de Platform
                   href: get-started/whats-new-home-page.md
+                - name: "Platform Update\_10.0.15 (janvier\_2021)"
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: "Platform Update\_10.0.14 (novembre\_2020)"
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: "Platform Update\_10.0.13 (octobre\_2020)"
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Résolution générale des problèmes
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Forum aux questions sur la double écriture
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Intégration à Power Platform
                       items:
                         - name: Configurer un scénario Prospect en disponibilités
@@ -386,6 +390,8 @@
           items:
             - name: Vue d’ensemble
               href: database/dbmovement-operations.md
+            - name: Boîte à outils de déplacement de base de données
+              href: database/database-movement-toolkit.md
             - name: Guides de démarrage rapide
               items:
                 - name: Actualiser la base de données
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Mise à niveau d’AX 2012 - Liste de contrôle préalable à la mise à niveau des données
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de bac à sable à l’aide du processus dacpac
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de bac à sable
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: Mise à niveau d’AX 2012 - Environnements locaux

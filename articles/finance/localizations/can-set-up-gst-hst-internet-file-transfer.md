@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Canada
-ms.author: vstehman
+ms.author: kfend
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1293aa54be319258cd11dd07c03d6bf6702e6632
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 8c3a60449e202b270ed0ee77b620320d58f98cce
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117303"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981883"
 ---
 # <a name="canada-gsthst-internet-file-transfer"></a>Canada GST/GIFT (HST Internet File Transfer) 
 

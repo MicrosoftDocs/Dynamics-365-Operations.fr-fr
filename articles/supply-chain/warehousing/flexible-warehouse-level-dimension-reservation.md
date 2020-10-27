@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652177"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970701"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l’entrepôt
 
@@ -233,6 +233,9 @@ Si un élément de travail d’entrepôt se compose de lignes correspondant à u
 ![Élément de menu de l’appareil mobile où l’option Traiter par contenant est définie sur Oui](media/Handle-by-LP-menu-item.png)
 
 Comme la fonctionnalité **Traiter par contenant** ne prend pas en charge les travaux couvrant plusieurs palettes, il est préférable d’avoir un élément de travail distinct pour les différents contenants. Pour utiliser cette approche, ajoutez le champ **ID contenant validé par commande** en tant que décomposition de l’en-tête de travail sur la page **Modèle de travail**.
+
+> [!NOTE]
+> Pour le processus de création de travaux validés par commande, une valeur « order-committed inventory dimension » sera attribuée aux lignes de travail de prélèvement et il ne sera pas possible d'afficher directement la valeur de la plaque d'immatriculation. Seul le processus *Dirigé par l'utilisateur* est pris en charge lors de la configuration d'un élément de menu d'appareil mobile.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Exemple de scénario : configurer et traiter une réservation de contenant validée par commande
 
