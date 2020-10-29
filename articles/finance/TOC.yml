@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Afficher les résultats de l’automatisation des factures fournisseur
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: Espace de travail de saisie des factures fournisseur
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Rapprochement de factures et commandes fournisseur intersociétés
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Afficher les entrées de journal et les transactions
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Balance comptable avec état détaillé des transactions
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Journaliser les entrées de journal validées
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Réévaluer une devise dans une société de consolidation
@@ -1170,11 +1174,9 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Créer une écriture comptable avancée dans le secteur public
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Balance comptable avec rapport détaillé des transactions
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
-                - name: Utiliser les limites de contrôle de disponibilités
+                - name: Savoir utiliser les limites de contrôle de disponibilités
                   href: public-sector/cash-control.md
-                - name: Traitement de fin d’exercice dans le secteur public
+                - name: Traitement de fin d'exercice (Secteur public)
                   href: public-sector/year-end-processing-public-sector.md
                 - name: Hiérarchies financières dérivées (Secteur public)
                   href: public-sector/derived-financial-hierarchies-public-sector.md
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: Certificats NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Validation de certificat personnalisé NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'Paramétrer, importer et vérifier des documents XML NF-e et des fichiers DANFE'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Paramétrer les paramètres fédéraux NF-e
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Recherche de taxe
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Nettoyage de la table TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Moteur de taxe
                   items:
                     - name: Vue d’ensemble du moteur de taxe
@@ -2651,7 +2657,7 @@
                         - name: Vue d’ensemble du profil des stocks
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Configurer un profil de stock
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Utiliser un profil de stock dans les documents et les requêtes
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Génération d’états

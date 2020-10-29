@@ -142,8 +142,10 @@
                           items:
                             - name: Configuration requise pour la double écriture
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Scénarios pris en charge pour la configuration en double écriture
+                            - name: Conseils sur la configuration de la double écriture
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Considérations relatives à la synchronisation initiale
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: "Configuration en double écriture depuis Lifecycle\_Services"
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Activer la double écriture pour les applications Finance and Operations existantes
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Restauration ponctuelle de la base de données de production dans un environnement sandbox
                   href: database/database-pitr-prod-sandbox.md
+                - name: Activer l’accès juste-à-temps à la base de données
+                  href: database/database-just-in-time-jit-access.md
             - name: Didacticiels
               items:
                 - name: Actualiser à des fins de formation
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Initialiser Commerce Scale Unit (cloud)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Migrer les canaux vers une autre Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Résidence des données Retail
                   href: deployment/retail-data-residency.md
             - name: Déploiement local
@@ -1410,7 +1416,7 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Didacticiel de Regression Suite Automation Tool et autres fonctions
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
-            - name: Utilisation optimale
+            - name: Meilleures pratiques
               href: perf-test/rsat/rsat-best-practices.md
             - name: Test de données agnostique à l’aide de Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Obtenir de l’aide sur Finance and Operations exploité par 21Vianet en Chine
               href: lifecycle-services/21vianet-support.md
-            - name: Configurer le support technique pour Finance and Operations
+            - name: Configurer le support technique pour les applications Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Gérer les expériences d’assistance Finance and Operations
+            - name: Gérer les expériences d’assistance pour les applications Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Administration du système
           items:

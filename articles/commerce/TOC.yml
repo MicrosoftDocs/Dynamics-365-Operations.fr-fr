@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: "Commerce\_10.0.13 (octobre\_2020)"
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: "Commerce\_10.0.12 (août\_2020)"
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Fonctionnalités supprimées ou obsolètes dans Finance and Operations
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Module du menu de navigation
                       href: nav-menu-module.md
+                    - name: Module de sélection de site
+                      href: site-selector.md
                 - name: Modules de conformité
                   items:
                     - name: Module de consentement aux cookies
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Anatomie d’un module
                   items:
+                    - name: Présentation des modules
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Fichier de définition de module
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Fichier du composant Module React
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Présentation des composants interactifs
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Imiter l’état Connecté pendant le développement local
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: Globaliser des modules à l’aide de la classe CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Configurer Azure Key Vault pour la gestion des clés sécurisées
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Développer des actions de données
                   items:
                     - name: Vue d’ensemble des actions de données
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Options du cache des actions de données
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: Tester des actions de données avec des simulacres
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Actions de données de chargement de page
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Étendre un thème pour ajouter des extensions de module
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Remplacer un composant de bibliothèque de modules dans un thème
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Étendre un thème à partir d’un thème de base
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Ajouter des ressources personnalisées à votre code de personnalisation
@@ -2102,6 +2112,10 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: Mise à jour des kits de développement logiciel et des bibliothèques de modules
                       href: e-commerce-extensibility/sdk-updates.md
+                - name: Meilleures pratiques
+                  items:
+                    - name: Meilleures pratiques pour le développement de Dynamics 365 Commerce
+                      href: e-commerce-extensibility/best-practices-dev.md
             - name: Kit de développement logiciel (SDK) Retail
               items:
                 - name: Architecture du kit de développement logiciel (SDK) Retail
@@ -2197,7 +2211,7 @@
                 - name: Proxys Typescript et C# pour Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Utiliser les API Retail Server dans des applications externes
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Extensibilité Commerce Runtime (CRT)
               items:
                 - name: Architecture et configuration de CRT
