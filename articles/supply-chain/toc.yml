@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Créer un contrat d’achat
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Répartition automatique des frais
+                  href: procurement/automatic-charges-allocation.md
                 - name: Remises fournisseur
                   href: procurement/vendor-rebates.md
                 - name: 'Résoudre les problèmes de prix, de remises, d’accords et de rabais'
@@ -2037,10 +2039,18 @@
                           href: production-control/tasks/report-production-order-finished.md
                         - name: Terminer un ordre de fabrication
                           href: production-control/tasks/end-production-order.md
-                    - name: Lancement des ordres de fabrication
+                    - name: Lancer des ordres de fabrication
                       href: production-control/release-production-orders.md
-                    - name: Signaler la fin des ordres de fabrication
+                    - name: Déclaration de fin des ordres de fabrication
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Configurer et utiliser l’interface d’exécution de l’atelier de production
+                      items:
+                        - name: Configurer l’interface d’exécution de l’atelier de production
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Configurer un appareil pour exécuter l’interface d’exécution de l’atelier de production
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production
+                          href: production-control/production-floor-execution-use.md
                     - name: Configurer le bon de travail pour les périphériques
                       href: production-control/config-job-card-device.md
                     - name: Signaler comme terminé à partir du périphérique du bon de travail
@@ -2275,7 +2285,9 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Expédier des commandes client sans entreposage
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
-                - name: Création d’une commande fournisseur à partir d’une commande client
+                - name: Répartition automatique des frais
+                  href: procurement/automatic-charges-allocation.md
+                - name: Créer une commande fournisseur à partir d’une commande client
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Créer des commandes client
                   href: sales-marketing/tasks/create-sales-orders.md
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Créer des ordres de transfert depuis l’application d’entrepôt
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Traitement des événements de l’application d’entrepôt
-                      href: warehousing/warehouse-app-events.md
                     - name: Confirmation de prélèvement de pièces
                       href: warehousing/piece-picking-confirmation.md
                     - name: Matières d’emballage et frais
@@ -2839,13 +2849,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Lire les codes-barres à l’aide d’une caméra dans l’application d’entreposage
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configurer les noms de champs dans l’application d’entreposage
+                    - name: Configurer les noms de champs dans l’application d’entrepôt
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurer les appareils mobiles pour le travail d’entrepôt
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Réception du contenant avec l’application d’entreposage
+                    - name: Traitement des événements de l’application d’entrepôt
+                      href: warehousing/warehouse-app-events.md
+                    - name: Réception du contenant avec l’application d’entrepôt
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Paramétrer une option de menu d’appareil mobile pour terminer le travail d’une commande fournisseur
+                    - name: Paramétrer une option de menu d’appareil mobile pour effectuer un travail dans une commande fournisseur
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Paramétrer une option de menu d’appareil mobile pour enregistrer les articles reçus
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
