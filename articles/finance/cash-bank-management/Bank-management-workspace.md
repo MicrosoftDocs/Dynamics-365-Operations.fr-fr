@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 20847ea4651b816fc95135ca03667ae297cde5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188485"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097184"
 ---
 # <a name="bank-management-workspace"></a>Espace de travail de la gestion des banques
 
@@ -33,7 +33,7 @@ L'espace de travail **Gestion des banques** affichent des informations concernan
 
 ### <a name="summary"></a>Synthèse
 
-Les vignettes dans la section **Synthèse** fournissent une vue d'ensemble de vos comptes bancaires et fournissent un accès rapide aux pages que vous devez utiliser le plus souvent. Les informations de rapprochement bancaire sont spécifiques à la fonction de rapprochement bancaire avancée. Les informations ne concernent que les comptes bancaires dont l'option **Rapprochement bancaire avancé** est définie sur **Oui** sur la page **Compte bancaire**. Dans la section **Synthèse**, vous pouvez importer les fichiers bancaires électroniques des comptes bancaires de toutes les entités juridiques.
+Les vignettes dans la section **Synthèse** fournissent une vue d'ensemble de vos comptes bancaires et fournissent un accès rapide aux pages que vous devez utiliser le plus souvent. Les informations de rapprochement bancaire sont spécifiques à la fonction de rapprochement bancaire avancée. Les informations ne concernent que les comptes bancaires dont l'option **Rapprochement bancaire avancé** est définie sur **Oui** sur la page **Compte bancaire**. Dans la section **Synthèse** , vous pouvez importer les fichiers bancaires électroniques des comptes bancaires de toutes les entités juridiques.
 
 ### <a name="bank-accounts"></a>Comptes bancaires
 
@@ -43,7 +43,7 @@ La carte indique également le moment où le compte bancaire a fait l'objet d'un
 
 ### <a name="balance"></a>Bilan
 
-Le graphique **Solde** affiche, soit les informations sur l'historique du solde du compte bancaire sélectionné dans la section **Comptes bancaires**, soit une synthèse de l'historique du solde de tous les comptes bancaires de l'entité juridique. Ces informations sont disponibles pour des périodes différentes : la semaine en cours, le mois en cours, l'année en cours, les cinq dernières années, et toutes les périodes (historique complet du compte bancaire). 
+Le graphique **Solde** affiche, soit les informations sur l'historique du solde du compte bancaire sélectionné dans la section **Comptes bancaires** , soit une synthèse de l'historique du solde de tous les comptes bancaires de l'entité juridique. Ces informations sont disponibles pour des périodes différentes : la semaine en cours, le mois en cours, l'année en cours, les cinq dernières années, et toutes les périodes (historique complet du compte bancaire). 
 
 Si vous consultez le graphique **Solde** d'un seul compte bancaire, l'historique des soldes est affiché dans la devise du compte bancaire. Si vous consultez le graphique de tous les comptes de l'entité juridique, l'historique des soldes est affiché dans la devise comptable.
 
@@ -51,7 +51,7 @@ Les informations relatives au moment où les données ont été mises à jour po
 
 ### <a name="related-information"></a>Informations associées
 
-Dans la section **Informations associées**, vous pouvez ouvrir la page **Journal des opérations diverses** pour effectuer des transferts bancaires. Vous pouvez également ouvrir rapidement les pages **Transactions bancaires** et **Transactions d'attente**.
+Dans la section **Informations associées** , vous pouvez ouvrir la page **Journal des opérations diverses** pour effectuer des transferts bancaires. Vous pouvez également ouvrir rapidement les pages **Transactions bancaires** et **Transactions d'attente**.
 
 ## <a name="analytics-view"></a>Vue Analyses
 
@@ -63,4 +63,4 @@ La page **Analyses** fournit des mesures importantes sur les comptes bancaires d
 -   Solde par compte bancaire
 -   Solde par devise
 
-Vous pouvez afficher les analyses bancaires de toutes les sociétés à partir de l'espace de travail **Aperçu de la trésorerie - toutes les sociétés**.
+Vous pouvez afficher les analyses bancaires de toutes les sociétés à partir de l'espace de travail **Aperçu de la trésorerie - toutes les sociétés**. Pour plus d'informations, voir [Contenu Power BI - Vue d'ensemble des disponibilités](Cash-Overview-Power-BI-content.md).

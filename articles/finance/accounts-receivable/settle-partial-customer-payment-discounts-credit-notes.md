@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1a37b7c5aea22711938133d43b552eec9260f0a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015005"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel client ayant des remises sur les avoirs
 
@@ -42,7 +42,7 @@ Le client 4035 a une facture de 1 000,00 et un avoir de 100,00. Pour chaque docu
 | CCRN-10050 | Avoir      | 6/28/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Régler un avoir avec une facture
-Dans la page **Transactions client**, Arnie ouvre la page **Régler les transactions**. Il peut utiliser la page **Régler les transactions** pour régler la facture et l'avoir. Dans le cadre du processus de règlement, il affiche les dates et les montants d'escompte de règlement. Il marque les deux documents, puis clique sur **Valider** pour régler les transactions. Il y a une remise de -1,00 sur l'avoir, car Fabrikam autorise les remises sur les avoirs.
+Dans la page **Transactions client** , Arnie ouvre la page **Régler les transactions**. Il peut utiliser la page **Régler les transactions** pour régler la facture et l'avoir. Dans le cadre du processus de règlement, il affiche les dates et les montants d'escompte de règlement. Il marque les deux documents, puis clique sur **Valider** pour régler les transactions. Il y a une remise de -1,00 sur l'avoir, car Fabrikam autorise les remises sur les avoirs.
 
 | Marquer     | Utiliser un escompte de règlement | N° document    | Compte | Date      | Date d'échéance  | Facture  | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -51,13 +51,11 @@ Dans la page **Transactions client**, Arnie ouvre la page **Régler les transact
 
 Les informations de remise s'affichent au bas de la page **Règlement des transactions**.
 
-|                              |           |
-|------------------------------|-----------|
-| Date d'escompte de règlement           | 7/12/2015 |
-| Montant de l'escompte de règlement         | -1,00     |
-| Utiliser un escompte de règlement            | Standard    |
-| Escompte de règlement appliqué          | 0,00      |
-| Montant de l'escompte de règlement à accepter | -1,00     |
+- **Date d’escompte de règlement** : 12/07/2015 
+- **Date d’escompte de règlement**  : -1,00     
+- **Utiliser un escompte de règlement**  : Normal    
+- **Escompte de règlement appliqué**  : 0,00      
+- **Montant de l'escompte de règlement à accepter**  : -1,00     
 
 Le règlement sera de 100,00, et inclura un paiement de 99,00 et une remise de 1,00.
 

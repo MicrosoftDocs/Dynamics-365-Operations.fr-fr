@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456812"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997476"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migration de type de données de devise pour la double écriture
 
@@ -81,13 +80,13 @@ Il existe certaines limitations :
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Paramètres système : précision des devises pour la tarification
 
-Une fois la migration terminée, les administrateurs peuvent définir la précision de la devise. Accédez à **Paramètres \> Administration** et sélectionnez **Paramètres système**. Ensuite, dans l'onglet **Général**, modifiez la valeur du champ **Définir la précision de la devise utilisée pour la tarification dans tout le système**, comme indiqué dans l'illustration suivante.
+Une fois la migration terminée, les administrateurs peuvent définir la précision de la devise. Accédez à **Paramètres \> Administration** et sélectionnez **Paramètres système**. Ensuite, dans l'onglet **Général** , modifiez la valeur du champ **Définir la précision de la devise utilisée pour la tarification dans tout le système** , comme indiqué dans l'illustration suivante.
 
 ![Paramètres système pour la devise](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gestion d'entreprise : Devises
 
-Si vous souhaitez que la précision de la devise pour une devise spécifique diffère de la précision de la devise utilisée pour la tarification, vous pouvez la modifier. Accédez à **Paramètres \> Gestion d'entreprise**, sélectionnez **Devises** et sélectionnez la devise à modifier. Ensuite définissez le champ **Précision des devises** sur le nombre de décimales souhaité, comme indiqué dans l'illustration suivante.
+Si vous souhaitez que la précision de la devise pour une devise spécifique diffère de la précision de la devise utilisée pour la tarification, vous pouvez la modifier. Accédez à **Paramètres \> Gestion d'entreprise** , sélectionnez **Devises** et sélectionnez la devise à modifier. Ensuite définissez le champ **Précision des devises** sur le nombre de décimales souhaité, comme indiqué dans l'illustration suivante.
 
 ![Paramètres de devise pour un environnement local spécifique](media/specific-currency.png)
 

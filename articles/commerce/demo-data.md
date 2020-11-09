@@ -1,7 +1,7 @@
 ---
 title: Dispositions de l'écran de données de démonstration dans Modern POS (MPOS) et le PDV Cloud
 description: Cette rubrique fournit des informations sur les mises en page d'écran incluses dans le jeu de données de démonstration pour les expériences de point de vente (PDV) dans Dynamics 365 Commerce.
-author: zlinster
+author: josaw1
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: zlinster
+ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 7956eece1a77951795a3f5f66067a2ecfacf3450
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014884"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Dispositions de l'écran de données de démonstration dans Modern POS (MPOS) et le PDV Cloud
 
@@ -107,7 +107,7 @@ Le tableau suivant indique les tailles de mise en page autorisées pour les rés
 \* Ces tailles de mise en page supplémentaires sont disponibles uniquement dans les mises en page Adventure Works et Fabrikam.
 
 > [!TIP]
-> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID de mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, le Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
+> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID de mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, le Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres** , et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
 
 ![Mises en page de l'écran et résolutions/tailles de mise en page dans Commerce et PDV](../commerce/media/demo-screen-layouts-fig-3-1.png)
 

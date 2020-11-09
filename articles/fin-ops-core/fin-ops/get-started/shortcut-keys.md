@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962518"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013178"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -33,7 +33,7 @@ Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
-Certains des raccourcis de cette page sont des *accords de touches*, ce qui signifie qu'ils nécessitent deux ensembles consécutifs de combinaisons de touches (séparées par une virgule) qui doivent être enfoncées indépendamment pour déclencher l'action requise. Par exemple, le raccourci « Alt + M, A » nécessite que l'utilisateur appuie d'abord sur « Alt + M », relâche les touches, puis appuie sur « A ». 
+Certains des raccourcis de cette page sont des *accords de touches* , ce qui signifie qu'ils nécessitent deux ensembles consécutifs de combinaisons de touches (séparées par une virgule) qui doivent être enfoncées indépendamment pour déclencher l'action requise. Par exemple, le raccourci « Alt + M, A » nécessite que l'utilisateur appuie d'abord sur « Alt + M », relâche les touches, puis appuie sur « A ». 
 
 ## <a name="finding-a-shortcut"></a>Recherche d’un raccourci
 
@@ -239,7 +239,7 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 | Monter/descendre d’une page dans la recherche                                                                                       | Page précédente / Page suivante              |
 | Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
 
-## <a name="task-recordershortcuts"></a>Raccourcis de l'[Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>Raccourcis de l'[Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md) 
 
 | Opération                                                                    | Appuyer sur                      |
 |-------------------------------------------------------------------------------|----------------------------|

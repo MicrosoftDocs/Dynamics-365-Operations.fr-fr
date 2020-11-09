@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable
+ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 43dc913e84fa53179855d7ab8dbbf4d179e2cc63
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 9e548e5e5528733412d47478dd740b87217cdac2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383042"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016100"
 ---
 # <a name="enable-license-plate-label-printing"></a>Activer l'impression d'étiquette de contenant
 
@@ -33,18 +33,18 @@ Cette rubrique présente comment activer l'impression automatique d'un code cont
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Paramétrer le préfixe de la société GS1
 1. Accédez à **Volet de navigation > Modules > Gestion des entrepôts > Configuration > Paramètres de gestion des entrepôts**.
-2. Dans le champ **Préfixe société GS1**, entrez les 7 chiffres de numéro de l'entreprise GS1.
+2. Dans le champ **Préfixe société GS1** , entrez les 7 chiffres de numéro de l'entreprise GS1.
 3. Sélectionnez **Enregistrer**.
 4. Fermez la page.
 
 ## <a name="setup-the-sscc-license-plate-number-sequence"></a>Définir la séquence pour le numéro de contenant SSCC
 1. Allez dans **Volet de navigation > Modules > Administration d'organisation > Souches de numéros > Souches de numéros**.
-2. Dans le champ **Zone**, sélectionnez une option.
-3. Dans le champ **Référence**, sélectionnez une option.
-4. Dans le champ **Société**, sélectionnez une valeur.
+2. Dans le champ **Zone** , sélectionnez une option.
+3. Dans le champ **Référence** , sélectionnez une option.
+4. Dans le champ **Société** , sélectionnez une valeur.
 5. Développez la section **Segments**.
 6. Sélectionnez **Modifier**.
-7. Dans la table **Segments**, sélectionnez la première ligne.
+7. Dans la table **Segments** , sélectionnez la première ligne.
 8. Sélectionnez **Supprimer**.
 9. Sélectionnez **Supprimer**.
 10. Sélectionnez **Enregistrer**.
@@ -53,7 +53,7 @@ Cette rubrique présente comment activer l'impression automatique d'un code cont
 ## <a name="create-the-document-route-layout"></a>Créer la mise en page de l'acheminement du document
 1. Accédez à **Volet de navigation > Modules > Gestion des entrepôts > Paramétrage > Acheminement de document > Mises en page de l'acheminement de document**. Activez la structure de SSCC.  
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **ID mise en page**, saisissez une valeur.
+3. Dans le champ **ID mise en page** , saisissez une valeur.
 4. Tapez une valeur dans le champ **Description**.
 5. Sélectionnez **Insérer à la fin du texte**.
 6. Sélectionnez **Enregistrer**.
@@ -61,27 +61,27 @@ Cette rubrique présente comment activer l'impression automatique d'un code cont
 
 ## <a name="set-up-the-document-routing"></a>Définir l'acheminement de document
 1. Accédez à **Volet de navigation > Modules > Gestion des entrepôts > Paramétrage > Acheminement de document > Acheminement de document**.
-2. Dans le champ **Type d'ordre d'exécution**, sélectionnez une option.
+2. Dans le champ **Type d'ordre d'exécution** , sélectionnez une option.
 3. Sélectionnez **Nouveau**.
-4. Dans le champ **Entrepôts**, saisissez une valeur.
+4. Dans le champ **Entrepôts** , saisissez une valeur.
 5. Tapez une valeur dans le champ **Nom**.
 6. Sélectionnez **Nouveau**.
-7. Dans le champ **ID mise en page**, saisissez ou sélectionnez une valeur.
-8. Dans le champ **Nom**, entrez le nom de l'imprimante à utiliser.
+7. Dans le champ **ID mise en page** , saisissez ou sélectionnez une valeur.
+8. Dans le champ **Nom** , entrez le nom de l'imprimante à utiliser.
 9. Sélectionnez **Enregistrer**.
 10. Fermez la page.
 
 ## <a name="create-mobile-device-menu"></a>Créer un menu d'appareil mobile
 1. Accédez à **Volet de navigation > Modules > Gestion des entrepôts > Configuration > Appareil mobile > Options de menu d'appareil mobile**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Nom de l'option de menu**, saisissez une valeur.
-4. Dans le champ **Titre**, saisissez une valeur.
-5. Dans le champ **Mode**, sélectionnez une option.
+3. Dans le champ **Nom de l'option de menu** , saisissez une valeur.
+4. Dans le champ **Titre** , saisissez une valeur.
+5. Dans le champ **Mode** , sélectionnez une option.
 6. Sélectionnez **Oui** dans le champ **Utiliser un travail existant**.
 7. Sélectionnez **Oui** dans le champ **Générer un contenant**.
 8. Développez la section **Classes de travail**.
 9. Sélectionnez **Nouveau**.
-10. Dans le champ **ID classe de travail**, saisissez une valeur.
+10. Dans le champ **ID classe de travail** , saisissez une valeur.
 11. Sélectionnez **Enregistrer**.
 12. Fermez la page.
 13. Accédez à **Volet de navigation > Modules > Gestion des entrepôts > Configuration > Appareil mobile > Menu d'appareil mobile**.
@@ -95,8 +95,8 @@ Cette rubrique présente comment activer l'impression automatique d'un code cont
 1. Accédez à **Volet de navigation > Modules > Gestion des entrepôts > Paramétrage > Travail > Modèles de travail**.
 2. Sélectionnez **Modifier**.
 3. Sélectionnez **Nouveau**.
-4. Dans le champ **Type de travail**, sélectionnez **Imprimer**.
-5. Dans le champ **ID classe de travail**, saisissez ou sélectionnez une valeur.
+4. Dans le champ **Type de travail** , sélectionnez **Imprimer**.
+5. Dans le champ **ID classe de travail** , saisissez ou sélectionnez une valeur.
 6. Sélectionnez **Déplacer vers le haut**.
 7. Sélectionnez **Enregistrer**.
 8. Fermez la page.

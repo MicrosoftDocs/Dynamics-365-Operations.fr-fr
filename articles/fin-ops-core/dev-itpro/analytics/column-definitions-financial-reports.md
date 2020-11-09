@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 3a92970f2e3639090f51cf9e59ffcb148e210494
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070758"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011631"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -38,7 +38,7 @@ Une définition de colonne peut contenir jusqu'à 255 colonnes.
 ### <a name="create-a-column-definition"></a>Créer une définition de colonne
 
 1. Dans le générateur d'état, dans le volet de navigation, cliquez sur **Définitions de colonne**.
-2. Dans le menu **Fichier**, cliquez sur **Nouveau**, puis cliquez sur **Définition de colonne**.
+2. Dans le menu **Fichier** , cliquez sur **Nouveau** , puis cliquez sur **Définition de colonne**.
 3. Ajoutez le contenu de la définition de colonne.
 
 ### <a name="open-a-column-definition"></a>Ouvrir une définition de colonne
@@ -48,15 +48,15 @@ Une définition de colonne peut contenir jusqu'à 255 colonnes.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Ajout d'une colonne à une définition de colonne
 
-1. Dans le générateur d'état, cliquez sur **Définitions de colonne**, puis ouvrez ensuite la définition de colonne à modifier.
+1. Dans le générateur d'état, cliquez sur **Définitions de colonne** , puis ouvrez ensuite la définition de colonne à modifier.
 2. Sélectionnez la colonne dans laquelle une colonne doit être insérée.
-3. Dans le menu **Édition**, cliquez sur **Insérer une colonne**. La nouvelle colonne s'affiche à gauche de la colonne que vous avez sélectionnée.
+3. Dans le menu **Édition** , cliquez sur **Insérer une colonne**. La nouvelle colonne s'affiche à gauche de la colonne que vous avez sélectionnée.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Suppression d'une colonne dans une définition de colonne
 
 1. Dans le Concepteur de rapports, cliquez sur **Définitions de colonne** puis ouvrez la définition de colonne à modifier.
 2. Sélectionnez la colonne à supprimer.
-3. Dans le menu **Edition**, cliquez sur **Supprimer la colonne**.
+3. Dans le menu **Edition** , cliquez sur **Supprimer la colonne**.
 
 ## <a name="contents-of-a-column-definition"></a>Contenu d'une définition de colonne
 Une définition de colonne comprend les informations suivantes :
@@ -104,7 +104,7 @@ La cellule **Restrictions de colonne** peut inclure des codes qui limitent ou su
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Restrictions de colonne** de la colonne à limiter.
-3. Dans la boîte de dialogue **Restrictions de colonne**, sélectionnez un ou plusieurs codes dans la liste, puis cliquez sur **OK**.
+3. Dans la boîte de dialogue **Restrictions de colonne** , sélectionnez un ou plusieurs codes dans la liste, puis cliquez sur **OK**.
 
 ### <a name="column-restriction-codes"></a>Codes restriction de colonne
 
@@ -112,7 +112,7 @@ Le tableau suivant décrit les codes de restriction de colonne.
 
 | Code de restriction de colonne | Description |
 |-------------------------|-------------|
-| SU                      | Supprime le trait de soulignement dans une colonne dans laquelle une commande de trait de soulignement (**---**) ou une commande de double trait de soulignement (**===**) est activée dans la définition de ligne. Par exemple, vous pouvez ne pas souhaiter souligner les montants qui sont produits par un calcul de pourcentage. |
+| SU                      | Supprime le trait de soulignement dans une colonne dans laquelle une commande de trait de soulignement ( **---** ) ou une commande de double trait de soulignement ( **===** ) est activée dans la définition de ligne. Par exemple, vous pouvez ne pas souhaiter souligner les montants qui sont produits par un calcul de pourcentage. |
 | ST                      | Supprime les totaux, de sorte que seuls les détails sont affichés dans la colonne (par exemple, une colonne de statistiques). |
 | SD                      | Supprime les détails, de sorte que seules les lignes **TOT** et **CAL** (issues de la définition de ligne) sont affichées dans la colonne. |
 | SL                      | Restreint les montants dans la colonne **FD** aux montants de débit. |
@@ -126,7 +126,7 @@ Le tableau suivant décrit les codes de restriction de colonne.
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Unité de déclaration** de la colonne à limiter.
-3. Dans la boîte de dialogue **Sélectionner une unité de déclaration**, dans la liste **Arborescence de génération d'états**, sélectionnez une arborescence.
+3. Dans la boîte de dialogue **Sélectionner une unité de déclaration** , dans la liste **Arborescence de génération d'états** , sélectionnez une arborescence.
 4. Développez ou réduisez la liste des unités, sélectionnez une unité de déclaration, puis cliquez sur **OK**.
 
 ## <a name="format-column-headers"></a>Mettre en forme les en-têtes de colonne
@@ -147,17 +147,17 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez dans une cellule d'en-tête.
-3. Dans la boîte de dialogue **En-tête de colonne**, entrez le texte d'en-tête de colonne. Sinon, cliquez sur **Insertion texte auto**, puis sélectionnez une option.
-4. Dans le champ **Options de mise en forme**, sélectionnez un format pour l'en-tête.
-5. Dans le champ **Étendre à partir de**, entrez la lettre de la colonne où l'en-tête de colonne doit recommencer. Dans le champ **Étendre jusqu'à**, entrez la lettre de la colonne où l'en-tête de colonne doit terminer.
-6. Sous **Justification**, sélectionnez si le texte d'en-tête de colonne doit être justifié à gauche, centré ou justifié à droite.
+3. Dans la boîte de dialogue **En-tête de colonne** , entrez le texte d'en-tête de colonne. Sinon, cliquez sur **Insertion texte auto** , puis sélectionnez une option.
+4. Dans le champ **Options de mise en forme** , sélectionnez un format pour l'en-tête.
+5. Dans le champ **Étendre à partir de** , entrez la lettre de la colonne où l'en-tête de colonne doit recommencer. Dans le champ **Étendre jusqu'à** , entrez la lettre de la colonne où l'en-tête de colonne doit terminer.
+6. Sous **Justification** , sélectionnez si le texte d'en-tête de colonne doit être justifié à gauche, centré ou justifié à droite.
 7. Cliquez sur **OK**.
 
 ### <a name="add-a-column-header-row"></a>Ajoutez une ligne d'en-tête de colonne
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Sélectionnez une cellule dans la ligne d'en-tête.
-3. Dans le menu **Édition**, cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l'étape 2.
+3. Dans le menu **Édition** , cliquez sur **Insérer une ligne**. La nouvelle ligne est insérée au-dessus de la ligne sélectionnée à l'étape 2.
 
 > [!NOTE]
 > Si vous avez quatre lignes d'en-tête ou plus dans un rapport, les en-têtes se chevauchent lorsque le rapport est exporté vers une feuille de calcul Excel. Permet d'afficher tous les en-têtes de l'état, augmentez la marge supérieure dans la définition d'état.
@@ -166,14 +166,14 @@ Vous pouvez utiliser la boîte de dialogue **En-tête de colonne** pour ajouter,
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Dans la ligne d'en-tête, sélectionnez la cellule à supprimer.
-3. Dans le menu **Édition**, cliquez sur **Supprimer une ligne**.
+3. Dans le menu **Édition** , cliquez sur **Supprimer une ligne**.
 
 ### <a name="create-an-automatically-generated-header"></a>Créer un en-tête généré automatiquement
 
-Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC** et **FD**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne**, les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **\@CalMonthLong** fait correspondre le mois **7** au mois de **juillet**. Si le mois doit apparaître en majuscules (par exemple **JUILLET**), tapez le code d'insertion automatique en majuscules dans le champ **Texte de l'en-tête de colonne**. Par exemple, entrez **\@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période \@FiscalPeriod-\@FiscalYear du \@StartDate au \@EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**.
+Le générateur d'états peut générer automatiquement des en-têtes de colonne, selon des codes d'insertion automatique. Les codes d'insertion automatique sont des variables mises à jour à chaque fois qu'un état est généré. Tout en-tête de colonne peut inclure de ces codes pour spécifier les informations d'état susceptibles de varier, comme les dates ou les numéros de période. Par conséquent, vous pouvez utiliser une définition de colonne pour plusieurs définitions d'état, de périodes et d'arborescences de génération d'états. Comme les codes d'insertion automatique se fondent sur les informations de calendrier des lignes détaillées de la définition de colonne, ils sont pris en charge uniquement pour les colonnes **CALC** et **FD**. La manière dont le code d'insertion automatique s'affiche dans la cellule d'en-tête de colonne affecte la manière dont ces informations sont affichées dans l'état. Dans la boîte de dialogue **En-tête de colonne** , les codes d'insertion automatique apparaissent en combinaison de majuscules et minuscules. Par conséquent, le texte apparaît dans la même combinaison dans l'état. Par exemple, dans une année civile standard, **\@CalMonthLong** fait correspondre le mois  **7** au mois de **juillet**. Si le mois doit apparaître en majuscules (par exemple **JUILLET** ), tapez le code d'insertion automatique en majuscules dans le champ **Texte de l'en-tête de colonne**. Par exemple, entrez **\@CALMONTHLONG**. Vous pouvez mélanger codes et textes. Par exemple, vous entrez le texte d'en-tête suivant : **Période \@FiscalPeriod-\@FiscalYear du \@StartDate au \@EndDate**. Le titre d'état généré ressemble au texte suivant : **Période 1-02 du 01/01/02 au 01/31/02**.
 
 > [!NOTE]
-> Le format d'une partie du texte, comme la date au format long, dépend des paramètres régionaux du serveur. Pour modifier ces paramètres, cliquez sur le bouton **Début**, cliquez sur **Panneau de configuration**, puis cliquez sur **Région et langue**. Le tableau suivant répertorie les options disponibles d'insertion automatique pour les en-têtes de colonnes.
+> Le format d'une partie du texte, comme la date au format long, dépend des paramètres régionaux du serveur. Pour modifier ces paramètres, cliquez sur le bouton **Début** , cliquez sur **Panneau de configuration** , puis cliquez sur **Région et langue**. Le tableau suivant répertorie les options disponibles d'insertion automatique pour les en-têtes de colonnes.
 
 
 | Option et code d'insertion automatique                | Description |
@@ -195,27 +195,26 @@ Le générateur d'états peut générer automatiquement des en-têtes de colonne
 
 Les en-têtes à étendue conditionnelle peuvent couvrir plusieurs colonnes basées sur des données de périodes spécifiques. Par exemple, si vous avez un état de budget pour l'exercice et souhaitez afficher les budgets réels des mois écoulés avec les budgets projetés des mois à venir, vous pouvez utiliser un en-tête à étendue conditionnelle pour mettre automatiquement l'en-tête d'état à jour. Tenez compte des éléments suivants lorsque vous créez un en-tête de fractionnement conditionnel :
 
-- toute condition d'arrêt (champ **Étendre jusqu'à**) mis en correspondance avant une condition de début (champ **Étendre à partir de**) est ignoré. Par exemple, la colonne B a la condition d'étendue définie comme BASE+1 jusqu'à BASE, BASE est dans la colonne C, et BASE+1 est dans la colonne D. Dans ce cas, la condition d'arrêt dans la colonne C est ignorée, et l'impression de l'en-tête débute à la colonne D.
-- Si vous spécifiez des en-têtes de colonne qui se chevauchent, ils se chevaucheront lors de l'impression de l'état. L'état est généré, mais l'avertissement suivant s'affiche dans le champ **État de la file d'attente de rapports** : « Les en-têtes de colonne utilisant Base recoupent d'autres en-têtes de colonne et peuvent entraîner une superposition du texte ». Par exemple, la définition d'en-tête dans la colonne B est B à BASE+1, et la définition d'en-tête dans la colonne D est BASE+1 à F. Dans ce cas, les en-têtes sont imprimés l'un au-dessus de l'autre et sont illisibles. À chaque fois que BASE est utilisé dans une définition **Étendre à partir de/Étendre jusqu'à**, assurez-vous que l'état est généré pour voir si les en-têtes se chevauchent.
-- Si vous spécifiez BASE dans la définition d'étendue dans une colonne sans impression (**NP**, No Print), elle est ignoré, indépendamment de ce qui est défini dans la définition de colonne. Pour l'essentiel, ce scénario est le même que celui de ne pas créer de définition d'en-tête de colonne.
-- Pour l'impression conditionnelle de colonnes (**P&lt;B**, **P&gt;=B**), les en-têtes à étendue conditionnelle se comportent comme n'importe quelle définition d'en-tête de colonne normale. Par exemple, si la condition est fausse, toute validation consécutive d'une colonne de la condition d'étendue a pour effet de lancer l'impression de l'en-tête.
+- toute condition d'arrêt (champ **Étendre jusqu'à** ) mis en correspondance avant une condition de début (champ **Étendre à partir de** ) est ignoré. Par exemple, la colonne B a la condition d'étendue définie comme BASE+1 jusqu'à BASE, BASE est dans la colonne C, et BASE+1 est dans la colonne D. Dans ce cas, la condition d'arrêt dans la colonne C est ignorée, et l'impression de l'en-tête débute à la colonne D.
+- Si vous spécifiez des en-têtes de colonne qui se chevauchent, ils se chevaucheront lors de l'impression de l'état. L'état est généré, mais l'avertissement suivant s'affiche dans le champ **État de la file d'attente de rapports**  : « Les en-têtes de colonne utilisant Base recoupent d'autres en-têtes de colonne et peuvent entraîner une superposition du texte ». Par exemple, la définition d'en-tête dans la colonne B est B à BASE+1, et la définition d'en-tête dans la colonne D est BASE+1 à F. Dans ce cas, les en-têtes sont imprimés l'un au-dessus de l'autre et sont illisibles. À chaque fois que BASE est utilisé dans une définition **Étendre à partir de/Étendre jusqu'à** , assurez-vous que l'état est généré pour voir si les en-têtes se chevauchent.
+- Si vous spécifiez BASE dans la définition d'étendue dans une colonne sans impression ( **NP** , No Print), elle est ignoré, indépendamment de ce qui est défini dans la définition de colonne. Pour l'essentiel, ce scénario est le même que celui de ne pas créer de définition d'en-tête de colonne.
+- Pour l'impression conditionnelle de colonnes ( **P&lt;B** , **P&gt;=B** ), les en-têtes à étendue conditionnelle se comportent comme n'importe quelle définition d'en-tête de colonne normale. Par exemple, si la condition est fausse, toute validation consécutive d'une colonne de la condition d'étendue a pour effet de lancer l'impression de l'en-tête.
 
 #### <a name="create-a-conditional-spanning-header"></a>Créer un en-tête à étendue conditionnelle
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez dans une cellule d'en-tête.
-3. Dans la boîte de dialogue **En-tête de colonne**, entrez le texte d'en-tête de colonne. Sinon, cliquez sur **Insertion texte auto**, puis sélectionnez une option.
-4. Dans le champ **Options de mise en forme**, sélectionnez un style de mise en forme pour l'en-tête.
-5. Spécifie une période par rapport à la période de base spécifiée lorsque l'état est généré. Dans les champs **Étendre à partir de** et **Étendre jusqu'à**, entrez une des valeurs suivantes : **BASE**, **BASE-X** ou **BASE+X**, dans lequel X est le nombre de périodes à partir de la période de base. Par exemple, si vous entrez **BASE** dans le champ **Étendre à partir de**, l'en-tête de colonne à étendue conditionnelle commence dans l'en-tête de colonne où la valeur de la **Période de base** de la définition d'état est égale à la valeur de **Période** de la définition de colonne. Elle se termine dans la colonne indiquée dans le champ **Étendre jusqu'à**. Par conséquent, si l'étendue va de BASE à M, et que la valeur de la **Période de base** de la définition d'état est **4**, l'en-tête commence dans la colonne où la période est définie sur **4** et prend fin à la colonne M. Les en-têtes commencent et se terminent aux colonnes imprimées uniquement.
-6. Sous **Justification**, sélectionnez si le texte d'en-tête de colonne doit être justifié à gauche, centré ou justifié à droite.
+3. Dans la boîte de dialogue **En-tête de colonne** , entrez le texte d'en-tête de colonne. Sinon, cliquez sur **Insertion texte auto** , puis sélectionnez une option.
+4. Dans le champ **Options de mise en forme** , sélectionnez un style de mise en forme pour l'en-tête.
+5. Spécifie une période par rapport à la période de base spécifiée lorsque l'état est généré. Dans les champs **Étendre à partir de** et **Étendre jusqu'à** , entrez une des valeurs suivantes : **BASE** , **BASE-X** ou **BASE+X** , dans lequel X est le nombre de périodes à partir de la période de base. Par exemple, si vous entrez **BASE** dans le champ **Étendre à partir de** , l'en-tête de colonne à étendue conditionnelle commence dans l'en-tête de colonne où la valeur de la **Période de base** de la définition d'état est égale à la valeur de **Période** de la définition de colonne. Elle se termine dans la colonne indiquée dans le champ **Étendre jusqu'à**. Par conséquent, si l'étendue va de BASE à M, et que la valeur de la **Période de base** de la définition d'état est **4** , l'en-tête commence dans la colonne où la période est définie sur **4** et prend fin à la colonne M. Les en-têtes commencent et se terminent aux colonnes imprimées uniquement.
+6. Sous **Justification** , sélectionnez si le texte d'en-tête de colonne doit être justifié à gauche, centré ou justifié à droite.
 7. Cliquez sur **OK**.
 
 #### <a name="example-of-a-conditional-spanning-header"></a>Exemple d'en-tête à étendue conditionnelle
 
 Phyllis crée un état pour une prévision dynamique de six mois. Elle veut que le mot « Réel » soit imprimé sur les colonnes contenant des données réelles, et le mot « Budget » sur les colonnes qui contiennent les prévisions du budget. Chaque mois que l'état est exécuté, il contient une colonne « Réel » de plus et une colonne « Budget » de moins. Bien que Phyllis puisse modifier la définition de colonne manuellement à chaque fois que l'état est généré pour ajuster les en-têtes, pour s'épargner du temps et des efforts, elle décide de créer des en-têtes à étendue conditionnelle qui créeront automatiquement les en-têtes sur les colonnes appropriées chaque exécution de l'état. Phyllis ouvre le générateur d'état, clique sur **Définition de colonne** dans le volet de navigation, et ouvre la définition de colonne de l'état. Elle entre alors les informations suivantes : la période de base dans la définition d'état est 4.
 
-
-|                     |  A   | B             | C             | D             | E             | Ve             | V             | A             | I             | J             | k             | L             | F             |
+|      Format         |  A   | o             | C             | D             | E             | V             | V             | H             | I             | J             | k             | L             | F             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | En-tête 1            |      | Réel        | Budget        |               |               |               |               |               |               |               |               |               |               |
 | En-tête 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
@@ -228,7 +227,7 @@ Phyllis crée un état pour une prévision dynamique de six mois. Elle veut que 
 | Largeur de colonne        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Contrôle d'impression       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Phyllis double-clique sur une cellule d'en-tête de colonne pour ouvrir la boîte de dialogue **En-tête de colonne**,où elle entre les informations suivantes.
+Phyllis double-clique sur une cellule d'en-tête de colonne pour ouvrir la boîte de dialogue **En-tête de colonne** ,où elle entre les informations suivantes.
 
 | Champ              | Valeur                 |
 |--------------------|-----------------------|
@@ -240,7 +239,7 @@ Phyllis double-clique sur une cellule d'en-tête de colonne pour ouvrir la boît
 | Étendre jusqu'à          | BASE                  |
 | En-tête de budget      | BASE+1 jusqu'à la colonne de fin  |
 
-Une fois qu'elle a terminé d'entrer les informations, Phyllis clique sur **OK**. Elle double-clique ensuite sur la cellule d'en-tête de la colonne C pour ouvrir la boîte de dialogue **En-tête de colonne**,où elle entre les informations suivantes.
+Une fois qu'elle a terminé d'entrer les informations, Phyllis clique sur **OK**. Elle double-clique ensuite sur la cellule d'en-tête de la colonne C pour ouvrir la boîte de dialogue **En-tête de colonne** ,où elle entre les informations suivantes.
 
 | Champ              | Valeur                 |
 |--------------------|-----------------------|
@@ -266,7 +265,7 @@ La cellule **Justification** est utilisée pour appliquer la mise en forme de ju
     - **Droite** – Alignement à droite des descriptions de colonne.
 
 ## <a name="add-special-formatting-options"></a>Ajouter des options de mise en forme spéciales
-Dans la définition de colonne, les lignes détaillées de mise en forme de colonne appliquent une mise en forme spéciale aux colonnes sélectionnées. Bien que certaines des options de **Contrôle d'impression** et de **Restrictions de colonne** soient spécifiques aux colonnes **FD**, la plupart des options s'appliquent à tous les types de colonne. Cette mise en forme spécifiée dans la définition de colonne remplace la mise en forme spécifiée dans la définition d'état. Toutefois, cette mise en forme spécifiée dans la définition de ligne remplace la mise en forme spécifiée dans la définition de colonne. Les lignes suivantes sont considérées comme des lignes de mise en forme :
+Dans la définition de colonne, les lignes détaillées de mise en forme de colonne appliquent une mise en forme spéciale aux colonnes sélectionnées. Bien que certaines des options de **Contrôle d'impression** et de **Restrictions de colonne** soient spécifiques aux colonnes **FD** , la plupart des options s'appliquent à tous les types de colonne. Cette mise en forme spécifiée dans la définition de colonne remplace la mise en forme spécifiée dans la définition d'état. Toutefois, cette mise en forme spécifiée dans la définition de ligne remplace la mise en forme spécifiée dans la définition de colonne. Les lignes suivantes sont considérées comme des lignes de mise en forme :
 
 - Largeur de colonne
 - Espaces supplémentaires avant la colonne
@@ -275,12 +274,12 @@ Dans la définition de colonne, les lignes détaillées de mise en forme de colo
 
 ### <a name="changing-the-column-width"></a>Modifier la largeur de colonne
 
-La cellule **Largeur de colonne** spécifie le nombre de caractères à utiliser pour la largeur de cette colonne dans l'état imprimé. La largeur de colonne est importante pour les colonnes qui contiennent des montants (les colonnes du type **CALC**, **WKS** ou **FD** ), des descriptions (les colonnes du type **DESC** ), ou du remplissage (colonnes du type **FILL**). Par défaut, l'option **Ajustement automatique** est sélectionnée, de sorte que la largeur de chaque colonne est automatiquement ajustée pour s'adapter le contenu.
+La cellule **Largeur de colonne** spécifie le nombre de caractères à utiliser pour la largeur de cette colonne dans l'état imprimé. La largeur de colonne est importante pour les colonnes qui contiennent des montants (les colonnes du type **CALC** , **WKS** ou **FD** ), des descriptions (les colonnes du type **DESC** ), ou du remplissage (colonnes du type **FILL** ). Par défaut, l'option **Ajustement automatique** est sélectionnée, de sorte que la largeur de chaque colonne est automatiquement ajustée pour s'adapter le contenu.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Spécifier la largeur d'une colonne dans un état
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2. Dans la cellule **Largeur de colonne**, entrez le nombre d'espaces pour la largeur de la colonne. La largeur maximale de n'importe quelle colonne est 255 caractères (ce nombre inclut les centimes, les virgules et les parenthèses). Sinon, pour autoriser le générateur d'états à sélectionner la largeur appropriée pour la colonne, selon le contenu des cellules, double-cliquez sur la cellule **Largeur de colonne**, puis cliquez sur **AutoFit**.
+2. Dans la cellule **Largeur de colonne** , entrez le nombre d'espaces pour la largeur de la colonne. La largeur maximale de n'importe quelle colonne est 255 caractères (ce nombre inclut les centimes, les virgules et les parenthèses). Sinon, pour autoriser le générateur d'états à sélectionner la largeur appropriée pour la colonne, selon le contenu des cellules, double-cliquez sur la cellule **Largeur de colonne** , puis cliquez sur **AutoFit**.
 
 ### <a name="add-space-between-columns"></a>Ajouter de l'espace entre les colonnes
 
@@ -289,7 +288,7 @@ La cellule **Espaces supplémentaires avant la colonne** spécifie la largeur du
 #### <a name="specify-the-space-between-columns"></a>Spécifiez l'espace entre les colonnes
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2. Dans la cellule **Espaces supplémentaires avant la colonne**, entrez le nombre d'espaces à insérer entre les colonnes.
+2. Dans la cellule **Espaces supplémentaires avant la colonne** , entrez le nombre d'espaces à insérer entre les colonnes.
 
 ### <a name="specify-a-format-currency-override"></a>Spécifier un remplacement de devise/format
 
@@ -299,7 +298,7 @@ La cellule **Remplacement de format/devise** spécifie la mise en forme de la d�
 
 1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
 2. Double-cliquez dans une cellule **Substitution de format/devise** d'une colonne de montant.
-3. Dans la boîte de dialogue **Remplacement de format**, sélectionnez les options de mise en forme.
+3. Dans la boîte de dialogue **Remplacement de format** , sélectionnez les options de mise en forme.
 
 ### <a name="add-a-print-control-code"></a>Ajouter un code de contrôle d'impression
 
@@ -332,7 +331,7 @@ La cellule **Contrôle d'impression** peut contenir des codes qui règlent les c
 
 1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Contrôle d'impression**.
-3. Dans la boîte de dialogue **Contrôle d'impression**, sélectionnez un code dans la liste **Sélectionner des options de contrôle d'impression**. Pour sélectionner plusieurs codes, maintenez la touche CTRL enfoncée tout en sélectionnant les codes souhaités.
+3. Dans la boîte de dialogue **Contrôle d'impression** , sélectionnez un code dans la liste **Sélectionner des options de contrôle d'impression**. Pour sélectionner plusieurs codes, maintenez la touche CTRL enfoncée tout en sélectionnant les codes souhaités.
 4. Sélectionnez une option dans le champ **Options d'impression conditionnelle**. Par défaut, **(aucun)** est sélectionné. Vous ne pouvez sélectionner qu'un code d'impression conditionnelle à la fois.
 5. Cliquez sur **OK**.
 
@@ -340,7 +339,7 @@ La cellule **Contrôle d'impression** peut contenir des codes qui règlent les c
 > Vous pouvez également entrer des codes de contrôle d'impression directement dans la cellule **Contrôle d'impression**. Utilisez des virgules pour séparer plusieurs codes de contrôle d'impression.
 
 ## <a name="column-types"></a>Types de colonnes
-Le type d'informations que chaque colonne comporte dans un état est spécifié par la valeur indiquée dans la ligne **Type de colonne** dans la définition de colonne. Chaque définition de colonne doit contenir au moins une colonne de description (**DESC**) et une colonne de montant (**DF**, **FLC** ou **CALC**).
+Le type d'informations que chaque colonne comporte dans un état est spécifié par la valeur indiquée dans la ligne **Type de colonne** dans la définition de colonne. Chaque définition de colonne doit contenir au moins une colonne de description ( **DESC** ) et une colonne de montant ( **DF** , **FLC** ou **CALC** ).
 
 > [!NOTE]
 > Les codes Type de colonne ne s'appliquent pas à tous les systèmes de gestion comptable. Si vous sélectionnez un type qui n'est pas valide pour votre système comptable, cette colonne est vide dans l'état.
@@ -442,8 +441,8 @@ Vous pouvez dépasser les limites de l'exercice dans toutes les spécifications 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Spécification des périodes d'une colonne DF
 
 1. Dans le Concepteur de rapports, ouvrez la définition de colonne à modifier.
-2. Dans une colonne **FD**, double-cliquez sur la cellule dans la ligne **Période**, puis sélectionnez une option dans la liste.
-3. Dans la barre de formule au-dessus du volet de navigation, ou dans la cellule **Période**, remplissez la formule. Remplacez tout symbole de chiffre (\#) par la valeur appropriée.
+2. Dans une colonne **FD** , double-cliquez sur la cellule dans la ligne **Période** , puis sélectionnez une option dans la liste.
+3. Dans la barre de formule au-dessus du volet de navigation, ou dans la cellule **Période** , remplissez la formule. Remplacez tout symbole de chiffre (\#) par la valeur appropriée.
 
 #### <a name="periods-covered-cell"></a>Cellule Périodes couvertes
 
@@ -459,11 +458,11 @@ La cellule **Périodes couvertes** identifie le montant que la colonne doit affi
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Spécifier les périodes couvertes pour une colonne FD
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2. Dans une colonne **FD**, double-cliquez sur la cellule dans la ligne **Périodes couvertes**, puis sélectionnez une option dans la liste.
+2. Dans une colonne **FD** , double-cliquez sur la cellule dans la ligne **Périodes couvertes** , puis sélectionnez une option dans la liste.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Attribuer un filtre dans une définition de colonne
 
-Les attributs sont des valeurs de données financières qui définissent de manière plus approfondie un compte ou une transaction. Les attributs de compte possibles sont **Actif**, **Passif**, **Produit** et **Dépense**. Les attributs de transaction sont **Description de transaction** et **Date d'effet de la transaction**. La prise en charge des attributs peut différer entre les systèmes ERP Microsoft Dynamics. La cellule **Filtre d'attribut** restreint les données dans les colonnes **FD** aux valeurs spécifiques ou aux plages des catégories d'attribut. Bien que cette fonctionnalité puisse être utilisée avec une colonne **ATTR**, la colonne **ATTR** n'est pas nécessaire. Dans une colonne **FD** , il existe une limite aux comptes ou aux transactions que l'état inclura en fonction du filtre d'attributs.
+Les attributs sont des valeurs de données financières qui définissent de manière plus approfondie un compte ou une transaction. Les attributs de compte possibles sont **Actif** , **Passif** , **Produit** et **Dépense**. Les attributs de transaction sont **Description de transaction** et **Date d'effet de la transaction**. La prise en charge des attributs peut différer entre les systèmes ERP Microsoft Dynamics. La cellule **Filtre d'attribut** restreint les données dans les colonnes **FD** aux valeurs spécifiques ou aux plages des catégories d'attribut. Bien que cette fonctionnalité puisse être utilisée avec une colonne **ATTR** , la colonne **ATTR** n'est pas nécessaire. Dans une colonne **FD** , il existe une limite aux comptes ou aux transactions que l'état inclura en fonction du filtre d'attributs.
 
 > [!NOTE]
 > Pour savoir quels attributs sont pris en charge par votre système ERP, voir le guide d'intégration de votre système.
@@ -472,7 +471,7 @@ Les attributs sont des valeurs de données financières qui définissent de mani
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Filtre d'attribut** d'une colonne **DF**.
-3. Dans la boîte de dialogue **Filtre d'attribut**, double-cliquez sur une cellule dans la colonne **Attribut**, puis sélectionnez le type de filtre.
+3. Dans la boîte de dialogue **Filtre d'attribut** , double-cliquez sur une cellule dans la colonne **Attribut** , puis sélectionnez le type de filtre.
 4. Pour limiter davantage les résultats, entrez une plage dans les colonnes **À partir de** et **Jusqu'à**. La cellule **À partir de** doit contenir une valeur.
 5. Cliquez sur **OK**.
 
@@ -480,7 +479,7 @@ Les attributs sont des valeurs de données financières qui définissent de mani
 
 L'exemple suivant montre une partie de description de colonne ayant un attribut de compte dans la ligne **Code registre/Catégorie d'attribut**. Le filtre d'attribut pour cette colonne spécifie la plage des valeurs à inclure dans l'état.
 
-|                              | A    | B                   |
+|      Filtrer                  | A    | o                   |
 |------------------------------|------|---------------------|
 | Type de colonne                  | DESC | DF                  |
 | Code registre/Catégorie d'attribut |      | RÉEL              |
@@ -505,7 +504,7 @@ Vous pouvez également utiliser n'importe quelle combinaison de caractères alph
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
 2. Double-cliquez sur la cellule **Filtre de dimension** pour une colonne **FD**.
-3. Dans la boîte de dialogue **Dimensions**, entrez les filtres à appliquer.
+3. Dans la boîte de dialogue **Dimensions** , entrez les filtres à appliquer.
 4. Cliquez sur **OK**.
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Mettre en forme un état à plusieurs devises dans une définition de colonne
@@ -518,14 +517,14 @@ Un état à plusieurs devises peut afficher des montants dans la devise comptabl
 > 
 Pour déterminer la devise comptable d'une société, procédez comme suit.
 
-1. Dans le Concepteur de rapports, dans le menu **Société**, cliquez sur **Sociétés**.
-2. Dans la boîte de dialogue **Sociétés**, sélectionnez une société, puis cliquez sur **Afficher**.
-3. Dans la boîte de dialogue **Afficher la société**, sous **Options régionales**, vous pouvez afficher la devise définie pour la société sélectionnée.
+1. Dans le Concepteur de rapports, dans le menu **Société** , cliquez sur **Sociétés**.
+2. Dans la boîte de dialogue **Sociétés** , sélectionnez une société, puis cliquez sur **Afficher**.
+3. Dans la boîte de dialogue **Afficher la société** , sous **Options régionales** , vous pouvez afficher la devise définie pour la société sélectionnée.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Spécifier la devise dans un état à plusieurs devises
 
 1. Dans le générateur d'état, ouvrez la définition de colonne à modifier.
-2. Double-cliquez sur la cellule **Affichage de devise** dans la colonne **FD** appropriée, puis sélectionnez l'option d'affichage des informations de devise : **Devise comptable**, **Déclaration de comptabilité**, la devise de conversion ou sélectionnez pour convertir en une autre devise de déclaration.
+2. Double-cliquez sur la cellule **Affichage de devise** dans la colonne **FD** appropriée, puis sélectionnez l'option d'affichage des informations de devise : **Devise comptable** , **Déclaration de comptabilité** , la devise de conversion ou sélectionnez pour convertir en une autre devise de déclaration.
 3. Double-cliquez sur la cellule **Filtre de devise** dans la colonne **FD** appropriée, puis sélectionnez le code devise approprié dans la liste. Seules les transactions qui sont entrées dans cette devise sont affichées dans l'état.
 
 
@@ -552,7 +551,7 @@ Le tableau suivant présente les résultats de l'état qui peuvent exister pour 
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonne de calcul dans une définition de colonne
 
-Un type de colonne **CALC** dans une définition de colonne prend en charge des calculs complexes dans la cellule **Formule**, et peut inclure les opérateurs **+**, **-**, **\*** et **/**, ainsi que des instructions **IF/THEN/ELSE**. Une colonne de calcul peut également faire référence à toute autre colonne, même à des colonnes suivantes. En outre, une colonne de calcul peut inclure l'exercice et la période pour prendre en charge les en-têtes de colonne. La formule du calcul peut comporter jusqu'à 1 024 caractères. Pour exprimer le résultat du calcul en pourcentage, utilisez un remplacement de format spécial.
+Un type de colonne **CALC** dans une définition de colonne prend en charge des calculs complexes dans la cellule **Formule** , et peut inclure les opérateurs **+** , **-** , **\*** et **/** , ainsi que des instructions **IF/THEN/ELSE**. Une colonne de calcul peut également faire référence à toute autre colonne, même à des colonnes suivantes. En outre, une colonne de calcul peut inclure l'exercice et la période pour prendre en charge les en-têtes de colonne. La formule du calcul peut comporter jusqu'à 1 024 caractères. Pour exprimer le résultat du calcul en pourcentage, utilisez un remplacement de format spécial.
 
 > [!NOTE]
 > Les résultats des formules de calcul n'incluent pas les valeurs des plages de colonnes non imprimables. Par exemple, **A:D** imprime **0** (zéro), alors que **A+B+C** pour les valeurs non imprimables calcule la valeur.

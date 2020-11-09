@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5052957a2f4e59791ef02c12bc2aef5ed36e95c7
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816935"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022074"
 ---
 # <a name="social-share-module"></a>Module Partage social
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de partage social et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -54,26 +53,26 @@ L’illustration suivante met en évidence un exemple de module de partage socia
 ## <a name="social-share-item-module-properties"></a>Propriétés du module d’élément Partage social
 | Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
-| Réseaux sociaux              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **E-mail** | Un menu déroulant avec une liste de plateformes de médias sociaux. |
+| Réseaux sociaux              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **E-mail** | Un menu déroulant avec une liste de plateformes de médias sociaux. |
 | Icône |Image    | Ce sera l’image qui sera affichée pour les médias sociaux respectifs. En tant que meilleure pratique, reportez-vous au Kit de développement logiciel (SDK) de la plateforme de médias sociaux pour obtenir l’image recommandée à utiliser pour chaque plateforme. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Ajouter un module de partage social à un module de zone d’achat
 
 Pour ajouter un module de partage social à un module de zone d’achat, procédez comme suit.
 
-1. Dans le site Fabrikam, sélectionnez **Pages**, puis la page **DefaultPDP** pour ouvrir la page des détails du produit. 
-1. Dans l’emplacement **Zone d’achat (obligatoire)**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Partage social**, puis sélectionnez **OK**.
-1. Dans l’emplacement **Partage social**, sélectionnez le bouton (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **SocialShare**, puis sélectionnez **OK**.
-1. Dans le volet des propriétés du module **SocialShare**, sous **Orientation**, sélectionnez **Horizontal**. Ajoutez une légende si nécessaire.
-1. Dans l’emplacement **SocialShare**, sélectionnez le bouton (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **SocialShareItem**, puis sélectionnez **OK**.
-1. Dans le volet des propriétés du module **SocialShareItem**, sous **Réseau social**, sélectionnez **Facebook**.
-1. Dans le volet des propriétés du module **SocialShareItem**, sous **Icône**, sélectionnez **+ Ajouter une image**.
-1. Dans la boîte de dialogue **Sélecteur multimédia**, sélectionnez l’image du logo Facebook, puis sélectionnez **OK**. Si aucune image du logo Facebook n’est présente, sélectionnez **Importer un nouvel élément multimédia** pour en charger une.
+1. Dans le site Fabrikam, sélectionnez **Pages** , puis la page **DefaultPDP** pour ouvrir la page des détails du produit. 
+1. Dans l’emplacement **Zone d’achat (obligatoire)** , sélectionnez le bouton représentant des points de suspension ( **…** ), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Partage social** , puis sélectionnez **OK**.
+1. Dans l’emplacement **Partage social** , sélectionnez le bouton ( **...** ), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **SocialShare** , puis sélectionnez **OK**.
+1. Dans le volet des propriétés du module **SocialShare** , sous **Orientation** , sélectionnez **Horizontal**. Ajoutez une légende si nécessaire.
+1. Dans l’emplacement **SocialShare** , sélectionnez le bouton ( **...** ), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **SocialShareItem** , puis sélectionnez **OK**.
+1. Dans le volet des propriétés du module **SocialShareItem** , sous **Réseau social** , sélectionnez **Facebook**.
+1. Dans le volet des propriétés du module **SocialShareItem** , sous **Icône** , sélectionnez **+ Ajouter une image**.
+1. Dans la boîte de dialogue **Sélecteur multimédia** , sélectionnez l’image du logo Facebook, puis sélectionnez **OK**. Si aucune image du logo Facebook n’est présente, sélectionnez **Importer un nouvel élément multimédia** pour en charger une.
 1. Ajoutez et configurez des modules **SocialShareItem** selon les besoins.
-1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La page affichera le module de partage social.
+1. Cliquez sur **Enregistrer** , puis sur **Aperçu** pour afficher un aperçu de la page. La page affichera le module de partage social.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

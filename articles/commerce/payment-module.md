@@ -3,7 +3,7 @@ title: Module Paiement
 description: Cette rubrique couvre le modules Paiement et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818324"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055379"
 ---
 # <a name="payment-module"></a>Module Paiement
 
@@ -42,6 +42,9 @@ Le module Paiement couvre tous les frais de commande qui ne sont pas déjà couv
 
 Le connecteur de paiement Adyen prend également en charge l’authentification rigoureuse des clients (SCA). Une partie de la directive 2.0 (PSD2.0) sur les services de paiement de l’Union européenne (UE) exige que les acheteurs en ligne soient authentifiés en dehors de leur expérience d’achat en ligne lorsqu’ils utilisent un moyen de paiement électronique. Lors du processus de paiement, les clients sont redirigés vers leur site bancaire. Ensuite, après authentification, ils sont redirigés vers le flux de paiement Commerce. Au cours de cette redirection, les informations qu’un client a entrées dans le flux de paiement (par exemple, l’adresse de livraison, les options de livraison, les informations sur la carte-cadeau et les informations de fidélité) seront conservées. Avant de pouvoir activer cette fonctionnalité, le connecteur de paiement doit être configuré pour la SCA au siège Commerce. Pour plus d’informations, voir [Authentification forte du client avec Adyen](adyen_redirect.md).
 
+> [!NOTE]
+> Pour le connecteur de paiement Adyen, le module iframe du module de paiement ne peut s’afficher que si vous ajoutez l'URL Adyen à la liste d'autorisation de votre site. Pour effectuer cette étape, ajoutez **\*.adyen.com** aux directives **child-src** , **connect-src** , **img-src** , **script-src** , et **style-src** de la stratégie de sécurité du contenu de votre site. Pour plus d’informations, voir [Gérer la stratégie de sécurité du contenu](manage-csp.md). 
+
 L’illustration suivante montre un exemple de modules de carte-cadeau, de points de fidélité et de paiement sur une page de caisse.
 
 ![Exemple de modules de carte-cadeau, de points de fidélité et de paiement sur une page de caisse](./media/ecommerce-payments.PNG)
@@ -52,12 +55,12 @@ L’illustration suivante montre un exemple de modules de carte-cadeau, de point
 |---------------|--------|-------------|
 | Titre | Texte d’en-tête | Rubrique optionnelle pour le module Paiement. |
 | Hauteur de l’iFrame | Pixels | Hauteur de l’iFrame, en pixels. La hauteur peut être ajustée au besoin. |
-| Afficher l’adresse de facturation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, l’adresse de facturation sera transmise par Adyen dans le module Paiement iFrame. S’il est réglé sur **False**, l’adresse de facturation ne sera pas transmise par Adyen, et un utilisateur Commerce devra configurer un module pour afficher l’adresse de facturation sur la page de caisse. |
+| Afficher l’adresse de facturation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True** , l’adresse de facturation sera transmise par Adyen dans le module Paiement iFrame. S’il est réglé sur **False** , l’adresse de facturation ne sera pas transmise par Adyen, et un utilisateur Commerce devra configurer un module pour afficher l’adresse de facturation sur la page de caisse. |
 | Remplacement du style de paiement | Code de feuilles de style en cascade (CSS) | Le module Paiement étant hébergé dans un iFrame, la capacité de style est limitée. Vous pouvez obtenir un style en utilisant cette propriété. Pour remplacer les styles de site, vous devez coller le code CSS comme valeur de cette propriété. Les remplacements et les styles CSS du générateur de site ne s’appliquent pas à ce module. |
 
 ## <a name="billing-address"></a>Adresse de facturation
 
-Le module Paiement permet aux clients de fournir une adresse de facturation pour leurs informations de paiement. Cela leur permet également d’utiliser leur adresse de livraison comme adresse de facturation, pour faciliter et accélérer le processus de paiement. Si la propriété **Afficher l’adresse de facturation** est définie sur **False**, le module Paiement doit être configuré sur la page de paiement.
+Le module Paiement permet aux clients de fournir une adresse de facturation pour leurs informations de paiement. Cela leur permet également d’utiliser leur adresse de livraison comme adresse de facturation, pour faciliter et accélérer le processus de paiement. Si la propriété **Afficher l’adresse de facturation** est définie sur **False** , le module Paiement doit être configuré sur la page de paiement.
 
 ## <a name="add-a-payment-module-to-a-checkout-page-and-set-the-required-properties"></a>Ajouter un module Paiement à une page de caisse et définir les propriétés requises
 

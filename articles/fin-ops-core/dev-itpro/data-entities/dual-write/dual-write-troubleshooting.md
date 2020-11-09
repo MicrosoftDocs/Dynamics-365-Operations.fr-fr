@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
-ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
+ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3340928"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997252"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -43,7 +42,7 @@ Certaines versions de l'outil Package Deployer sont incompatibles avec le packag
 
 Après avoir installé l'outil Package Deployer, installez le package de solution en suivant ces étapes.
 
-1. Téléchargez le dernier fichier de package de solution depuis Yammer.com. Une fois le fichier zip du package téléchargé, cliquez dessus avec le bouton droit et sélectionnez **Propriétés**. Cochez la case **Débloquer**, puis sélectionnez **Appliquer**. Si vous ne voyez pas la case à cocher **Débloquer**, le fichier zip est déjà débloqué et vous pouvez ignorer cette étape.
+1. Téléchargez le dernier fichier de package de solution depuis Yammer.com. Une fois le fichier zip du package téléchargé, cliquez dessus avec le bouton droit et sélectionnez **Propriétés**. Cochez la case **Débloquer** , puis sélectionnez **Appliquer**. Si vous ne voyez pas la case à cocher **Débloquer** , le fichier zip est déjà débloqué et vous pouvez ignorer cette étape.
 
     ![Boîte de dialogue Propriétés](media/unblock_option.png)
 
@@ -62,16 +61,16 @@ Après avoir installé l'outil Package Deployer, installez le package de solutio
 
 Pour activer le journal de suivi, procédez comme suit.
 
-1. Connectez-vous à l'application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres**, puis, sous **Système**, sélectionnez **Administration**.
-2. Sur la page **Administration**, sélectionnez **Paramètres système**.
-3. Sur l'onglet **Personnalisation**, dans le champ **Suivi de plug-ins et d'activités de workflow personnalisées**, sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
+1. Connectez-vous à l'application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres** , puis, sous **Système** , sélectionnez **Administration**.
+2. Sur la page **Administration** , sélectionnez **Paramètres système**.
+3. Sur l'onglet **Personnalisation** , dans le champ **Suivi de plug-ins et d'activités de workflow personnalisées** , sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
 
 
 Pour afficher le journal de suivi, procédez comme suit.
 
-1. Connectez-vous à l'application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres**, puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
+1. Connectez-vous à l'application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres** , puis, sous **Personnalisation** , sélectionnez **Journal de suivi du plug-in**.
 2. Recherchez les journaux de suivi où le champ **Nom du type** est défini sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
+3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution** , passez en revue le texte du **Bloc de message**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finance and Operations
 
@@ -84,7 +83,7 @@ Pour afficher le journal de suivi, procédez comme suit.
 
 2. Définissez la propriété **IsDebugMode** sur **Oui** pour le projet.
 3. Exécutez le scénario qui génère des erreurs.
-4. Les journaux détaillés sont disponibles dans la table DualWriteErrorLog. Pour rechercher des données dans le navigateur de table, utilisez l'URL suivante (remplacez **XXX**, le cas échéant) :
+4. Les journaux détaillés sont disponibles dans la table DualWriteErrorLog. Pour rechercher des données dans le navigateur de table, utilisez l'URL suivante (remplacez **XXX** , le cas échéant) :
 
     `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
 
@@ -116,7 +115,7 @@ Vous pouvez maintenant lier un nouvel environnement.
 
 Lorsque vous créez une commande client dans Dynamics 365 Sales, cliquer sur **+ Ajouter des produits** peut vous rediriger vers le formulaire de ligne de commande Dynamics 365 Project Operations. Il n'y a aucun moyen à partir de ce formulaire pour afficher le formulaire de ligne de commande client **Informations**. L'option pour **Informations** n'apparaît pas dans la liste déroulante sous **Nouvelle ligne de commande**. Cela se produit car Project Operations a été installé dans votre environnement.
 
-Pour réactiver l'option de formulaire **Informations**, procédez comme suit :
+Pour réactiver l'option de formulaire **Informations** , procédez comme suit :
 1. Accédez à l'entité **Ligne de commande**.
 2. Recherchez le formulaire **Informations** sous le nœud de formulaires. 
 3. Sélectionnez le formulaire **Informations** et cliquez sur **Activer les rôles de sécurité**. 

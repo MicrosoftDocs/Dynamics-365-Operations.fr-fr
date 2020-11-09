@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae6b36c40d2f2f9e5266dfb3e2d1cbbb57755222
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803089"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014933"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Installer le complément Intelligence IoT dans LCS
 
@@ -35,13 +35,13 @@ Cette rubrique explique comment installer le complément Intelligence IoT dans M
 1. Ouvrez LCS et accédez à votre environnement Microsoft Dynamics 365 Supply Chain Management.
 2. Faites défiler jusqu’à la section **Compléments d’environnement**.
 3. Sélectionnez **Installer un nouveau complément** pour afficher la liste des compléments qui ont été activés pour l’environnement.
-4. Dans la boîte de dialogue **Sélectionner un complément à installer**, sélectionnez **Intelligence IoT**.
-5. Dans la boîte de dialogue **Complément d’installation**, fournissez les détails de votre hub IoT et de votre cache Redis. Vous pouvez trouver les valeurs requises dans le coffre de clés que vous avez créé dans [Créer des ressources Azure](iot-azure-setup.md).
+4. Dans la boîte de dialogue **Sélectionner un complément à installer** , sélectionnez **Intelligence IoT**.
+5. Dans la boîte de dialogue **Complément d’installation** , fournissez les détails de votre hub IoT et de votre cache Redis. Vous pouvez trouver les valeurs requises dans le coffre de clés que vous avez créé dans [Créer des ressources Azure](iot-azure-setup.md).
 
     + **ID client** - Dans le portail Azure, accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Vue d’ensemble** et copiez la valeur **ID répertoire**. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
-    + **URI du coffre de clés de point d’extrémité compatible avec IoT Event Hub** - Accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Vue d’ensemble**et copiez la valeur du **Nom DNS**. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
+    + **URI du coffre de clés de point d’extrémité compatible avec IoT Event Hub** - Accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Vue d’ensemble** et copiez la valeur du **Nom DNS**. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
     + **Nom secret du point de terminaison compatible avec IoT Event Hub** - Accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Secrets** et copiez le nom du secret dans lequel la chaîne de connexion du concentrateur d’événements du hub IoT est stockée. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
-    + **URI du coffre de clés du cache Redis** - Accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Vue d’ensemble**et copiez la valeur du **Nom DNS**. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
+    + **URI du coffre de clés du cache Redis** - Accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Vue d’ensemble** et copiez la valeur du **Nom DNS**. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
     + **Nom secret du point de terminaison du cache Redis** - Accédez au coffre de clés, puis, dans le volet de navigation de gauche, sélectionnez **Secrets** et copiez le nom du secret dans lequel la chaîne de connexion du cache Redis est stockée. Collez cette valeur dans la boite de dialogue **Complément d’installation**.
 
 6. Cochez la case pour accepter les termes et conditions.
@@ -52,7 +52,7 @@ La configuration LCS est maintenant terminée. La prochaine étape consiste à [
 
 ## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Désinstaller le complément
 
-1. Dans Supply Chain Management, [désactivez les scénarios](iot-scenario-setup.md#how-to-disable-a-scenario).
+1. Dans Supply Chain Management, [désactivez les scénarios](iot-scenario-setup.md#disable-a-scenario).
 2. Dans LCS, accédez aux détails de l’environnement Supply Chain Management.
 3. Faites défiler jusqu’à la section **Compléments d’environnement**.
 4. Sélectionnez **Désinstaller** pour le complément Intelligence IoT.

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835852"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000762"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Lorsqu’un écosystème professionnel est constitué d’applications Dynamics 365, comme Finance, Supply Chain Management et Sales, il est naturel pour les entreprises d’utiliser ces applications pour approvisionner les données de produit. En effet, ces applications offrent une infrastructure de produit robuste complétée par des concepts de tarification sophistiqués et des données de stock disponible précises. Les entreprises qui utilisent un système PLM (gestion des cycles de vie des produits) externe pour approvisionner les données de produit peuvent diriger les produits des applications Finance and Operations vers les autres applications Dynamics 365. L’expérience produit unifiée fournit le modèle de données de produit intégré dans Common Data Service de sorte que tous les utilisateurs des applications, dont les utilisateurs de Power Platform, puissent tirer parti des données de produit enrichies provenant des applications Finance and Operations.
 
@@ -85,7 +82,7 @@ Dans ce modèle, le produit est représenté par la combinaison des deux entité
 
 Comme le produit est représenté par un SKU, les concepts des produits distincts, les produits génériques, et des variantes de produit peuvent être capturés dans Common Data Service de la façon suivante :
 
-- **Produits avec le produit de sous-type** sont des produits définis par eux-mêmes. Aucune dimension ne doit être définie. Un exemple est un registre spécifique. Pour ces produits, un enregistrement est créé dans l’entité **Produit**, et un enregistrement est créé dans l’entité **msdyn\_sharedproductdetails**. Aucun enregistrement de famille de produits n’est créé.
+- **Produits avec le produit de sous-type** sont des produits définis par eux-mêmes. Aucune dimension ne doit être définie. Un exemple est un registre spécifique. Pour ces produits, un enregistrement est créé dans l’entité **Produit** , et un enregistrement est créé dans l’entité **msdyn\_sharedproductdetails**. Aucun enregistrement de famille de produits n’est créé.
 - Les **Produits génériques** sont utilisés pour mettre à jour la définition et les règles qui déterminent le comportement dans les processus métier. En fonction de ces définitions, les produits distincts qui sont connus comme variantes de produit peuvent être générés. Par exemple, le t-shirt est le produit générique, et il sa couleur et sa taille sont ses dimensions. Les variantes peuvent être lancées avec différentes combinaisons de ces dimensions, comme un t-shirt bleu taille S ou un t-shirt vert taille M. Lors de l’intégration, un enregistrement par variante est créé dans la table du produit. Cet enregistrement contient les informations propres à la variante, comme les différentes dimensions. Les informations génériques pour le produit sont enregistrées sur l’entité **msdyn\_sharedproductdetails**. (Ces informations génériques sont répertoriées dans le produit générique.) Les informations de produit générique sont synchronisées vers Common Data Service dès que le produit générique lancé est créé (mais avant le lancement des variantes).
 - Les **Produits distincts** font référence à tous les sous-types et à toutes les variantes de produit. 
 
@@ -93,7 +90,7 @@ Comme le produit est représenté par un SKU, les concepts des produits distinct
 
 Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d'autres produits Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de l’entité juridique dans laquelle le produit est lancé dans une application Finance and Operations. 
 
-Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l’état **Actif**, afin de pouvoir l’utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l’état actif = Oui**. 
+Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l’état **Actif** , afin de pouvoir l’utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l’état actif = Oui**. 
 
 Notez que la synchronisation des produits survient des applications Finance and Operations vers Common Data Service. Cela signifie que les valeurs des champs d’entité de produit peuvent être modifiées dans Common Data Service, mais lorsque la synchronisation est déclenchée (lorsqu’un champ de produit est modifié dans une application Finance and Operations), les valeurs sont remplacées dans Common Data Service. 
 
@@ -109,7 +106,7 @@ Notez que la synchronisation des produits survient des applications Finance and 
 
 Les dimensions de produit sont des caractéristiques qui identifient une variante de produit. Les quatre dimensions de produit (Couleur, Taille, Style et Configuration) sont également mis en correspondance avec Common Data Service pour définir les variantes de produit. L’illustration suivante présente le modèle de données pour la dimension de produit Couleur. Le même modèle s’applique aux dimensions Taille, Style et Configuration. 
 
-![Modèle de données pour les produits](media/dual-write-product-two.png)
+![Modèle de données pour les dimensions de produit](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Les paramètres de commande par défaut définissent le site et l’entrepôt d�
 
 Les unités de mesure et les conversions respectives seront disponibles dans Common Data Service suivant le modèle de données affiché dans le diagramme.
 
-![Modèle de données pour les produits](media/dual-write-product-three.png)
+![Modèle de données pour l'unité de mesure](media/dual-write-product-three.png)
 
 Le concept d’unité de mesure est intégré entre les applications Finance and Operations et les autres applications Dynamics 365. Pour chaque classe d’unités d’une application Finance and Operations, un groupe d’unités est créé dans une application Dynamics 365, qui contient les unités appartenant à la classe d’unités. Une unité de base par défaut est également créée pour chaque groupe d’unité. 
 
@@ -203,9 +200,9 @@ Les stratégies de produit désignent des ensembles de stratégies utilisées po
 
 Pour identifier de manière unique les produits entre Dynamics 365 for Finance and Operations et les produits dans Common Data Service, les clés d’intégration sont utilisées. Pour les produits, le **(numérodeproduit)** est la clé unique qui identifie un produit dans Common Data Service. Il est composé par la concaténation de : **(société, msdyn_productnumber)**. Le champ **Société** indique l’entité juridique dans Finance and Operations et le champ **msdyn_productnumber** indique le numéro de produit pour le produit donné dans Finance and Operations. 
 
-Pour les utilisateurs d’autres applications Dynamics 365, le produit est reconnu dans l’interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé du champ est **Numéro de produit**). Dans l’écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, le champ (numérodeproduit), la clé unique pour un produit, n’apparaît pas. 
+Pour les utilisateurs d’autres applications Dynamics 365, le produit est reconnu dans l’interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé du champ est **Numéro de produit** ). Dans l’écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, le champ (numérodeproduit), la clé unique pour un produit, n’apparaît pas. 
 
-Si vous créez des applications sur Common Data Service, vous devez veiller à utiliser le **numéro de produit** (l’ID de produit unique) comme clé d’intégration. N’utilisez pas **msdyn_productnumber**, car il n’est pas unique. 
+Si vous créez des applications sur Common Data Service, vous devez veiller à utiliser le **numéro de produit** (l’ID de produit unique) comme clé d’intégration. N’utilisez pas **msdyn_productnumber** , car il n’est pas unique. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Synchronisation initiale des produits et migration des données de Common Data Service vers Finance and Operations
 

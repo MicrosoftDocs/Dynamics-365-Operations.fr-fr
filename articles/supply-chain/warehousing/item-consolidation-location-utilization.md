@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5e4172a8d3f82e6eeb8868aac87abd183a94c088
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017182"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidation des articles - Utilisation de l'emplacement
 
@@ -58,21 +59,21 @@ Cette section décrit comment préparer votre système à utiliser la consolidat
 ### <a name="released-product"></a>Produit lancé
 
 1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
-1. Dans le champ **Numéro d'article**, sélectionnez *M9201* et ouvrez la page des détails.
-1. Dans le volet Action,s dans l'onglet **Gérer le stock**, dans le groupe **Entrepôt**, sélectionnez **Dimensions physiques**.
-1. Sur la page **Dimension physique**, dans le volet Actions, sélectionnez **Nouveau**.
+1. Dans le champ **Numéro d'article** , sélectionnez *M9201* et ouvrez la page des détails.
+1. Dans le volet Action,s dans l'onglet **Gérer le stock** , dans le groupe **Entrepôt** , sélectionnez **Dimensions physiques**.
+1. Sur la page **Dimension physique** , dans le volet Actions, sélectionnez **Nouveau**.
 
     Une nouvelle ligne est ajoutée à la grille. Le champ **Numéro d'article** est prédéfini.
 
-1. Dans le champ **Unité**, sélectionnez *Unités*. Les champs restants de la ligne sont automatiquement définis.
-1. Cliquez sur **Enregistrer**, puis fermez la page.
+1. Dans le champ **Unité** , sélectionnez *Unités*. Les champs restants de la ligne sont automatiquement définis.
+1. Cliquez sur **Enregistrer** , puis fermez la page.
 
 ### <a name="location-profile"></a>Profil d'emplacement
 
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d'emplacement**.
 1. Dans la liste des profils d'emplacement, sélectionnez **FLOOR-05**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l'organisateur **Général**, assurez-vous que les deux options suivantes sont définies sur *Oui* :
+1. Dans l'organisateur **Général** , assurez-vous que les deux options suivantes sont définies sur *Oui*  :
 
     - Activer l'article à l'emplacement
     - Activer le statut de l'emplacement
@@ -80,10 +81,10 @@ Cette section décrit comment préparer votre système à utiliser la consolidat
 1. Sélectionnez **Enregistrer**.
 
     > [!IMPORTANT]
-    > Si les options **Activer l’article à l’emplacement** et **Activer le statut de l’emplacement** étaient déjà définies sur *Oui*, passez directement aux instructions de configuration de l'organisateur **Dimensions** à l'étape 10. Si les options n'étaient pas déjà définies sur *Oui*, vous devez exécuter une vérification de cohérence pour le module **Gestion des entrepôts** après les avoir définies manuellement. Dans ce cas, passez à l'étape suivante.
+    > Si les options **Activer l’article à l’emplacement** et **Activer le statut de l’emplacement** étaient déjà définies sur *Oui* , passez directement aux instructions de configuration de l'organisateur **Dimensions** à l'étape 10. Si les options n'étaient pas déjà définies sur *Oui* , vous devez exécuter une vérification de cohérence pour le module **Gestion des entrepôts** après les avoir définies manuellement. Dans ce cas, passez à l'étape suivante.
 
 1. Pour exécuter le contrôle de cohérence, accédez à **Administration système \> Tâches périodiques \> Base de données \> Contrôle de cohérence**.
-1. Dans la boîte de dialogue **Contrôle de cohérence**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Contrôle de cohérence** , définissez les valeurs suivantes :
 
     - **Module :** *Gestion des entrepôts*
     - **Vérifier/réparer :** *Vérifier*
@@ -97,8 +98,8 @@ Cette section décrit comment préparer votre système à utiliser la consolidat
     >
     > Si le message pour le contrôle de cohérence indique «Informations de statut d'emplacement incorrectes trouvées pour l'emplacement XXXX dans l'entrepôt XX », vous devez réexécuter le contrôle de cohérence. Cette fois, définissez le champ **Vérifier/réparer** sur *Corriger les erreurs*. Affichez les messages pour vous assurer qu'aucune erreur n'a été trouvée.
 
-1. Vous devez maintenant terminer la configuration du profil d'emplacement. Revenez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d'emplacement**, sélectionnez le profil d'emplacement **FLOOR-05** puis, dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l'organisateur **Dimensions**, définissez les valeurs suivantes :
+1. Vous devez maintenant terminer la configuration du profil d'emplacement. Revenez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d'emplacement** , sélectionnez le profil d'emplacement **FLOOR-05** puis, dans le volet Actions, sélectionnez **Modifier**.
+1. Dans l'organisateur **Dimensions** , définissez les valeurs suivantes :
 
     - **Pourcentage d'utilisation du volume :** *100*
     - **Méthode volumétrique utilisée pour l'emplacement du stock :** *Utiliser le volume de l'emplacement*
@@ -120,7 +121,7 @@ Cette section décrit comment préparer votre système à utiliser la consolidat
     - **Mode :** *Travail*
     - **Utiliser un travail existant :** *Non*
 
-1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l'organisateur **Général** , définissez les valeurs suivantes :
 
     - **Processus de création de travail :** *Ajustement à l'intérieur*
     - **Types d'ajustements de stock :** *Ajuster à l'intérieur*
@@ -132,14 +133,14 @@ Cette section décrit comment préparer votre système à utiliser la consolidat
 1. Allez dans **Gestion des entrepôts \> Configuration \> Appareil mobile \> Menu d'appareil mobile**.
 1. Dans la liste des menus, sélectionnez **Stock**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans la liste **Menus et éléments de menus disponibles**, recherchez et sélectionnez l'élément de menu **Ajuster à l'intérieur**.
+1. Dans la liste **Menus et éléments de menus disponibles** , recherchez et sélectionnez l'élément de menu **Ajuster à l'intérieur**.
 1. Sélectionnez le bouton en forme de flèche vers la droite pour déplacer **Ajuster à l'intérieur** vers la liste **Structure du menu**. De cette façon, vous ajoutez le nouvel élément de menu au menu sélectionné.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="movement-types"></a>Types de mouvements
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Stock \> Types de mouvements**.
-1. Dans le volet Actions, sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
+1. Dans le volet Actions, sélectionnez **Nouveau** , puis définissez les valeurs suivantes :
 
     - **Code de type de mouvement :** *CONSOLIDER*
     - **Description :** *Regrouper les emplacements*
@@ -158,24 +159,24 @@ Le scénario suivant utilise l'application d'entreposage sur un appareil mobile 
 
     Vous allez maintenant entrer le premier ajustement d'emplacement.
 
-1. Dans la tâche **Ajustement à l'intérieur**, sélectionnez l'emplacement pour lequel effectuer l'ajustement de stock. Dans le champ **LOC**, sélectionnez *LP-001*.
+1. Dans la tâche **Ajustement à l'intérieur** , sélectionnez l'emplacement pour lequel effectuer l'ajustement de stock. Dans le champ **LOC** , sélectionnez *LP-001*.
 1. Confirmez l'emplacement.
-1. Créez un ID de contenant pour l'article qui sera ajouté à l'emplacement. Dans le champ **LP**, entrez *LP00101*.
+1. Créez un ID de contenant pour l'article qui sera ajouté à l'emplacement. Dans le champ **LP** , entrez *LP00101*.
 1. Confirmez le contenant.
-1. Entrez l'article qui sera ajouté au contenant. Dans le champ **ITEM**, entrez *M9201*.
+1. Entrez l'article qui sera ajouté au contenant. Dans le champ **ITEM** , entrez *M9201*.
 1. Confirmez l'article.
-1. Entrez la quantité de l'article qui sera ajoutée. Dans le champ **QTÉ**, entrez *10*.
+1. Entrez la quantité de l'article qui sera ajoutée. Dans le champ **QTÉ** , entrez *10*.
 1. Confirmez la quantité.
 
     Vous recevez un message « Travail terminé ». Vous allez maintenant entrer le deuxième ajustement d'emplacement.
 
-1. Dans la tâche **Ajustement à l'intérieur**, sélectionnez l'emplacement pour lequel effectuer l'ajustement de stock. Dans le champ **LOC**, sélectionnez *LP-002*.
+1. Dans la tâche **Ajustement à l'intérieur** , sélectionnez l'emplacement pour lequel effectuer l'ajustement de stock. Dans le champ **LOC** , sélectionnez *LP-002*.
 1. Confirmez l'emplacement.
-1. Créez un ID de contenant pour l'article qui sera ajouté à l'emplacement. Dans le champ **LP**, entrez *LP00201*.
+1. Créez un ID de contenant pour l'article qui sera ajouté à l'emplacement. Dans le champ **LP** , entrez *LP00201*.
 1. Confirmez le contenant.
-1. Entrez l'article qui sera ajouté au contenant. Dans le champ **ITEM**, entrez *M9201*.
+1. Entrez l'article qui sera ajouté au contenant. Dans le champ **ITEM** , entrez *M9201*.
 1. Confirmez l'article.
-1. Entrez la quantité de l'article qui sera ajoutée. Dans le champ **QTÉ**, entrez *15*.
+1. Entrez la quantité de l'article qui sera ajoutée. Dans le champ **QTÉ** , entrez *15*.
 1. Confirmez la quantité.
 
     Vous recevez un message « Travail terminé ».
@@ -185,12 +186,12 @@ Le scénario suivant utilise l'application d'entreposage sur un appareil mobile 
 ### <a name="consolidate-locations"></a>Regrouper les emplacements
 
 1. Accédez à **Gestion des entrepôts \> Tâches périodiques \> Consolidation des articles**.
-1. Dans l'en-tête, sélectionnez un entrepôt pour lequel effectuer la consolidation. Dans le champ **Entrepôt**, entrez *51*.
+1. Dans l'en-tête, sélectionnez un entrepôt pour lequel effectuer la consolidation. Dans le champ **Entrepôt** , entrez *51*.
 
     Un enregistrement est affiché pour chaque emplacement où l'article *M9201* a été ajusté. La colonne **Pourcentage d'utilisation** montre l'utilisation volumétrique de chaque emplacement.
 
 1. Pour consolider le stock, sélectionnez tous les emplacements qui doivent être regroupés puis, dans le volet Actions, sélectionnez **Regrouper le stock**.
-1. Dans la boîte de dialogue **Regrouper le stock**, spécifiez l'emplacement et le type de mouvement à utiliser pour créer le travail pour le mouvement de stock. Définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Regrouper le stock** , spécifiez l'emplacement et le type de mouvement à utiliser pour créer le travail pour le mouvement de stock. Définissez les valeurs suivantes :
 
     - **Emplacement :** *LP-001*
     - **Code de type de mouvement :** *CONSOLIDER*

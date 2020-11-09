@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775172"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016008"
 ---
 # <a name="warehouse-location-status"></a>Statut de l’emplacement de l’entrepôt
 
@@ -45,7 +45,7 @@ Les quatre champs suivants de la page **Emplacements** effectuent le suivi des i
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Activer la fonctionnalité de statut de l’emplacement dans l’entrepôt
 
-Avant de pouvoir utiliser la fonctionnalité *Statut de l’emplacement dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Statut de l’emplacement dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Statut de l’emplacement dans l’entrepôt*
@@ -67,7 +67,7 @@ L’exemple de scénario nécessite que vous prépariez deux profils d’emplace
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d’emplacement**.
 1. Sélectionnez **Modifier** pour afficher la page en mode d’édition.
 1. Sélectionnez le profil **VRAC-06**.
-1. Dans l’organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Général** , définissez les valeurs suivantes :
 
     - **Activer l’article à l’emplacement :** Définissez cette option sur _Oui_.
     - **Activer la date et l’heure de l’activité de l’emplacement :** Définissez cette option sur _Oui_.
@@ -78,38 +78,38 @@ L’exemple de scénario nécessite que vous prépariez deux profils d’emplace
 1. Répétez les étapes 3 et 4 pour le profil **PRÉLEVER-06**.
 
 > [!NOTE]
-> Lorsque les paramètres du profil d’emplacement (**Activer l’article dans l’emplacement**, **Activer l’activité d’emplacement**, **Activer le statut de l’emplacement**) sont définis sur *Oui*, le système met immédiatement à jour les emplacements concernés en exécutant la tâche *Vérification de la cohérence du statut des emplacements de l’entrepôt*.
+> Lorsque les paramètres du profil d’emplacement ( **Activer l’article dans l’emplacement** , **Activer l’activité d’emplacement** , **Activer le statut de l’emplacement** ) sont définis sur *Oui* , le système met immédiatement à jour les emplacements concernés en exécutant la tâche *Vérification de la cohérence du statut des emplacements de l’entrepôt*.
 
 ### <a name="scenario"></a>Scénario
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande fournisseur**, sur l’organisateur **Fournisseur**, dans le champ **Compte fournisseur**, sélectionnez *104*.
-1. Dans l’organisateur **Général**, dans le champ **Entrepôt**, sélectionnez *61*.
+1. Dans la boîte de dialogue **Créer une commande fournisseur** , sur l’organisateur **Fournisseur** , dans le champ **Compte fournisseur** , sélectionnez *104*.
+1. Dans l’organisateur **Général** , dans le champ **Entrepôt** , sélectionnez *61*.
 1. Cliquez sur **OK**.
 1. Votre nouvelle commande fournisseur (CF) est ouverte. Elle comprend une ligne vide dans la grille **Lignes de commande fournisseur**. Sur cette ligne, définissez les valeurs suivantes :
 
     - **Numéro d’article :** _A0002_
     - **Quantité :** _5_
 
-1. Dans le volet Actions, sous l’onglet **Achats**, dans le groupe **Actions**, cliquez sur **Confirmer** pour confirmer la commande fournisseur.
+1. Dans le volet Actions, sous l’onglet **Achats** , dans le groupe **Actions** , cliquez sur **Confirmer** pour confirmer la commande fournisseur.
 1. Sur l’appareil mobile, accédez à **Entrant \> Réception d’achat**.
-1. Sélectionnez le champ **PONUM**, entrez le numéro de la commande fournisseur et confirmez.
-1. Sélectionnez le champ **ITEM**, entrez le numéro d’article *A0002* et confirmez.
-1. Sur la page **QTY**, entrez *5* comme quantité, et confirmez.
+1. Sélectionnez le champ **PONUM** , entrez le numéro de la commande fournisseur et confirmez.
+1. Sélectionnez le champ **ITEM** , entrez le numéro d’article *A0002* et confirmez.
+1. Sur la page **QTY** , entrez *5* comme quantité, et confirmez.
 
     Vous pouvez entrer la quantité de l’une des manières suivantes :
 
-    - Sélectionnez le signe plus (**+**) ou le signe moins (**–**) pour additionner ou soustraire une valeur numérique.
-    - Sélectionnez le champ vide entre le signe plus (**+**) et signe moins (**–**) pour ouvrir le pavé numérique.
+    - Sélectionnez le signe plus ( **+** ) ou le signe moins ( **–** ) pour additionner ou soustraire une valeur numérique.
+    - Sélectionnez le champ vide entre le signe plus ( **+** ) et signe moins ( **–** ) pour ouvrir le pavé numérique.
 
 1. Confirmez votre sélection du numéro d’article *A0002* et d’une quantité de *5*. Un message « Travail terminé » apparaît en bas de la page.
 1. Cliquez sur le bouton Menu (parfois appelé hamburger ou bouton hamburger) dans le coin supérieur droit, puis sélectionnez **Annuler** pour quitter **Réception d’achat** et revenez au menu **Entrant**.
 1. Sur la page de la commande fournisseur, sélectionnez **Détails du travail** au dessus de la grille **Lignes de la commande fournisseur**.
-1. Sur l’onglet **Général**, notez les valeurs **ID de travail** et **ID de contenant cible** créées.
-1. Dans la section **Lignes**, notez les valeurs **Emplacement** pour les types de travail *Prélèvement* et *Rangement*.
+1. Sur l’onglet **Général** , notez les valeurs **ID de travail** et **ID de contenant cible** créées.
+1. Dans la section **Lignes** , notez les valeurs **Emplacement** pour les types de travail *Prélèvement* et *Rangement*.
 1. Sur l’appareil mobile, accédez à **Entrant \> Rangement d’achat**.
-1. Sélectionnez le champ **ID**, entrez l’ID de travail et confirmez.
+1. Sélectionnez le champ **ID** , entrez l’ID de travail et confirmez.
 1. Confirmez une fois de plus pour terminer l’entrée *Prélèvement*.
 1. Sélectionnez le bouton Menu dans le coin supérieur droit de la page, puis sélectionnez *Terminé* pour terminer le travail de **Prélèvement**.
 1. Notez l’emplacement de rangement et confirmez. Un message « Travail terminé » apparaît en bas de la page.
@@ -118,54 +118,54 @@ L’exemple de scénario nécessite que vous prépariez deux profils d’emplace
 1. Dans, Dynamics 365 Supply Chain Management, accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements**.
 1. Filtrez **Emplacement** et entrez l’emplacement de rangement du travail de la commande fournisseur. Les résultats suivants devraient s’afficher :
 
-    - La colonne **Statut de l’emplacement** affiche une valeur de *Stockage*, car la dernière transaction à cet emplacement a été un rangement.
-    - La colonne **Numéro d’article** affiche une valeur de *A0002*, car cet article a été reçu et rangé à l’emplacement.
+    - La colonne **Statut de l’emplacement** affiche une valeur de *Stockage* , car la dernière transaction à cet emplacement a été un rangement.
+    - La colonne **Numéro d’article** affiche une valeur de *A0002* , car cet article a été reçu et rangé à l’emplacement.
     - La colonne **Date et heure de la dernière activité** indique l’horodatage de la date et de l’heure auxquelles le travail a été terminé à l’emplacement.
 
 1. Sur l’appareil mobile, accédez à **Qualité \> Mouvement**.
 1. Sélectionnez le champ **LOC/LP** et entrez l’emplacement que vous avez noté lors des étapes précédentes.
 1. Confirmez les informations affichées. Notez le numéro de contenant généré.
-1. Sur l’écran **Informations sur la destination**, sélectionnez **LOC/LP** et entrez *06A07R2S1B* comme emplacement vers lequel déplacer l’article.
-1. Sur l’écran **Informations sur la destination**, confirmez la valeur **LP** (l’ID du contenant cible), qui est générée automatiquement. Un message « Travail terminé » apparaît en bas de la page.
+1. Sur l’écran **Informations sur la destination** , sélectionnez **LOC/LP** et entrez *06A07R2S1B* comme emplacement vers lequel déplacer l’article.
+1. Sur l’écran **Informations sur la destination** , confirmez la valeur **LP** (l’ID du contenant cible), qui est générée automatiquement. Un message « Travail terminé » apparaît en bas de la page.
 1. Sélectionnez le bouton Menu dans le coin supérieur droit, puis sélectionnez **Annuler** pour quitter **Mouvement** et revenir au menu **Gestion de la qualité**.
 1. Sélectionnez **Précédent** pour revenir au menu principal.
 1. Dans, Dynamics 365 Supply Chain Management, accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements**.
-1. Actualisez la page **Emplacements** et affichez à nouveau l’emplacement de rangement d’origine. Notez que le champ **Statut de l’emplacement** est désormais défini sur *Vide*, et que la colonne **Numéro d’article** est vide.
-1. Affichez l’enregistrement pour l’emplacement *06A07R2S1B* et notez que la valeur **Statut** est devenue *Stockage*, et que les champs **Numéro d’article** et **Date et heure de la dernière activité** ont été mis à jour.
+1. Actualisez la page **Emplacements** et affichez à nouveau l’emplacement de rangement d’origine. Notez que le champ **Statut de l’emplacement** est désormais défini sur *Vide* , et que la colonne **Numéro d’article** est vide.
+1. Affichez l’enregistrement pour l’emplacement *06A07R2S1B* et notez que la valeur **Statut** est devenue *Stockage* , et que les champs **Numéro d’article** et **Date et heure de la dernière activité** ont été mis à jour.
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande client**, dans le champ **Compte client**, sélectionnez *US-002*.
-1. Dans le champ **Entrepôt**, sélectionnez *61*.
+1. Dans la boîte de dialogue **Créer une commande client** , dans le champ **Compte client** , sélectionnez *US-002*.
+1. Dans le champ **Entrepôt** , sélectionnez *61*.
 1. Cliquez sur **OK**.
 1. Votre nouvelle commande client est ouverte. Elle comprend une ligne vide dans la grille **Lignes de commande client**. Sur cette ligne, définissez les valeurs suivantes :
 
     - **Numéro d’article :** _A0002_
     - **Quantité :** _1_
 
-1. Sur l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Réservation**.
-1. Sur la page **Réservation**, sélectionnez **Réserver un lot** pour réserver la ligne de commande. Cliquez ensuite sur le bouton **Fermer** (**X**) dans le coin supérieur droit pour fermer la page.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
-1. Dans la section **Lignes de commande client**, dans le menu **Entrepôt**, sélectionnez **Détails du travail**.
-1. Copiez la valeur de l’**ID de travail** créée.
+1. Sur l’organisateur **Lignes de commande client** , dans le menu **Stock** , sélectionnez **Réservation**.
+1. Sur la page **Réservation** , sélectionnez **Réserver un lot** pour réserver la ligne de commande. Cliquez ensuite sur le bouton **Fermer** ( **X** ) dans le coin supérieur droit pour fermer la page.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , dans le groupe **Actions** , sélectionnez **Libérer dans l’entrepôt**.
+1. Dans la section **Lignes de commande client** , dans le menu **Entrepôt** , sélectionnez **Détails du travail**.
+1. Copiez la valeur de l’ **ID de travail** créée.
 1. Sur l’appareil mobile, accédez à **Sortant \> Prélèvement des ventes**.
-1. Sélectionnez le champ **ID**, entrez l’ID de travail copié précédemment et confirmez.
-1. Sur la page **Commandes client : prélèvement**, le champ **LOC** indique l’emplacement de prélèvement comme emplacement de rangement créé précédemment. Notez l’emplacement.
-1. Sélectionnez le champ **LOC**, entrez l’emplacement et confirmez.
-1. Sélectionnez le champ **LP**, entrez le numéro de contenant dont vous avez pris note lors de l’activité de mouvement et confirmez.
-1. Sélectionnez le champ **Article**, entrez le numéro d’article *A0002* et confirmez.
-1. Sur la page **QTY**, entrez *1* comme quantité, et confirmez.
+1. Sélectionnez le champ **ID** , entrez l’ID de travail copié précédemment et confirmez.
+1. Sur la page **Commandes client : prélèvement** , le champ **LOC** indique l’emplacement de prélèvement comme emplacement de rangement créé précédemment. Notez l’emplacement.
+1. Sélectionnez le champ **LOC** , entrez l’emplacement et confirmez.
+1. Sélectionnez le champ **LP** , entrez le numéro de contenant dont vous avez pris note lors de l’activité de mouvement et confirmez.
+1. Sélectionnez le champ **Article** , entrez le numéro d’article *A0002* et confirmez.
+1. Sur la page **QTY** , entrez *1* comme quantité, et confirmez.
 
     Vous pouvez entrer la quantité de l’une des manières suivantes :
 
-    - Sélectionnez le signe plus (**+**) ou le signe moins (**–**) pour additionner ou soustraire une valeur numérique.
-    - Sélectionnez le champ vide entre le signe plus (**+**) et signe moins (**–**) pour ouvrir le pavé numérique.
+    - Sélectionnez le signe plus ( **+** ) ou le signe moins ( **–** ) pour additionner ou soustraire une valeur numérique.
+    - Sélectionnez le champ vide entre le signe plus ( **+** ) et signe moins ( **–** ) pour ouvrir le pavé numérique.
 
-1. Sélectionnez le champ **TARGET LP**, entrez un ID de contenant cible défini par l’utilisateur et confirmez.
+1. Sélectionnez le champ **TARGET LP** , entrez un ID de contenant cible défini par l’utilisateur et confirmez.
 1. Confirmez une fois de plus pour terminer le travail de prélèvement. Un message « Travail terminé » apparaît en bas de la page.
 1. Sélectionnez le bouton Menu dans le coin supérieur droit, puis sélectionnez **Annuler** pour terminer l’activité de prélèvement et revenez au menu **Sortant**.
 1. Dans, Dynamics 365 Supply Chain Management, accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements**.
 1. Filtrez **Emplacement** et entrez l’emplacement de prélèvement du travail de la commande client.
-1. Notez que le champ **Statut de l’emplacement** de l’emplacement auquel le travail de commande client est prélevé est désormais défini sur *Prélèvement*, et que le champ **Date et heure de la dernière activité** a été mis à jour.
+1. Notez que le champ **Statut de l’emplacement** de l’emplacement auquel le travail de commande client est prélevé est désormais défini sur *Prélèvement* , et que le champ **Date et heure de la dernière activité** a été mis à jour.
 
 > [!NOTE]
 > Les champs d’emplacement sont mis à jour uniquement par les transactions d’entrepôt. Si vous déplacez le stock à l’aide d’un journal ou d’autres processus non WHS, les champs ne seront pas mis à jour.
