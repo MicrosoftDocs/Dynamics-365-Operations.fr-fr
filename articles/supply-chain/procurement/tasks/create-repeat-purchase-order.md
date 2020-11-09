@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b478e4cd5cf1eb88517bb923c377c6121d92fd0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204767"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018027"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Créer une commande fournisseur répétée
 
@@ -33,7 +33,7 @@ Cette rubrique vous montre comment créer une commande fournisseur répétée (C
 ## <a name="create-a-new-repeat-purchase-order"></a>Créer une commande fournisseur répétée
 1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**. D'abord, nous essayerons l'option pour copier les informations dans une nouvelle commande.  
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Compte fournisseur**, saisissez `US-101`.
+3. Dans le champ **Compte fournisseur** , saisissez `US-101`.
 4. Cliquez sur **OK**.
 5. Cliquez sur **Commande fournisseur** dans le volet Actions.
 6. Sélectionnez **À partir de tous**. Il s'agit de la page à partir de laquelle vous pouvez copier à partir des commandes existantes dans votre commande. Il y a différentes options pour copier les lignes et différents types de documents à partir desquels vous pouvez copier. Nous verrons les options pour copier les lignes en premier. 
@@ -43,12 +43,12 @@ Cette rubrique vous montre comment créer une commande fournisseur répétée (C
     - Le champ **Inverser le signe** prend aussi en charge la quantité commandée en changeant le signe de la quantité pour les lignes de commande qui sont ajoutées. Ceci peut être utile si vous devez contrepasser une transaction, en créant des lignes de commande qui annulent la transaction. Cette option est automatiquement choisie quand la page est ouverte à partir de l'action **Créer un avoir**.  
     - L'option **Copier les frais** vous permet de copier des frais dans la nouvelle commande à partir du document à partir duquel vous copiez les lignes de commande.  
     - L'option **Recalcul des prix** utilise les prix actuels et les remises plutôt que de les copier à partir du document à partir duquel vous copiez d'autres informations.  
-    - L'option **Copier précisément** crée une copie précise des valeurs de tous les champs sur l'en-tête et les lignes du document de commande. Si cette option n'est pas choisie, des valeurs par défaut sont utilisées pour plusieurs champs concernant le fournisseur et les produits, comme si vous créiez la nouvelle commande manuellement. Par exemple, si la commande à partir de laquelle vous copiez a remplacé le compte de facturation par défaut du fournisseur, le même compte de facturation sera copié dans votre commande. Si vous ne choisissez pas l'option **Copier précisément**, le compte de facturation par défaut du fournisseur sera utilisé à la place sur votre commande.  
+    - L'option **Copier précisément** crée une copie précise des valeurs de tous les champs sur l'en-tête et les lignes du document de commande. Si cette option n'est pas choisie, des valeurs par défaut sont utilisées pour plusieurs champs concernant le fournisseur et les produits, comme si vous créiez la nouvelle commande manuellement. Par exemple, si la commande à partir de laquelle vous copiez a remplacé le compte de facturation par défaut du fournisseur, le même compte de facturation sera copié dans votre commande. Si vous ne choisissez pas l'option **Copier précisément** , le compte de facturation par défaut du fournisseur sera utilisé à la place sur votre commande.  
     - L'option **Supprimer des lignes d'achat** supprime toutes les lignes de commandes fournisseur qui existent déjà sur la commande fournisseur dans laquelle vous copiez, avant d'appliquer les nouvelles lignes. Utilisez cette option avec prudence, en effet elle supprime toutes les lignes existantes sans que vous en soyez averti.  
-    - Si vous utilisez l'option **Copier l'en-tête de commande**, vous n'avez pas besoin de créer manuellement les informations d'en-tête sur votre nouvelle commande. Notez que cette option entraîne l'utilisation de valeurs par défaut pour les champs liés au fournisseur. Si le document à partir duquel vous copiez contient des valeurs non définies par défaut que vous voulez copier, utilisez également l'option **Copier précisément**.   
+    - Si vous utilisez l'option **Copier l'en-tête de commande** , vous n'avez pas besoin de créer manuellement les informations d'en-tête sur votre nouvelle commande. Notez que cette option entraîne l'utilisation de valeurs par défaut pour les champs liés au fournisseur. Si le document à partir duquel vous copiez contient des valeurs non définies par défaut que vous voulez copier, utilisez également l'option **Copier précisément**.   
     - Il y a des sources de documents différentes à partir desquelles vous pouvez copier, chacune contient une section distincte sur cette page. Par exemple, la section **Commandes fournisseur** vous permet de copier à partir de commandes fournisseur existantes.  
 
-8. Dans la section **Commandes fournisseur**, sélectionnez les lignes que vous voulez copier dans le Presse-papiers. Il est possible de choisir des lignes de commande fournisseur supplémentaires à partir d'autres commandes fournisseur et de les copier également sur votre commande. Il est également possible d'ajouter des lignes à partir d'autres types de documents d'achat. Les quelques étapes suivantes passent en revue les différentes options.  
+8. Dans la section **Commandes fournisseur** , sélectionnez les lignes que vous voulez copier dans le Presse-papiers. Il est possible de choisir des lignes de commande fournisseur supplémentaires à partir d'autres commandes fournisseur et de les copier également sur votre commande. Il est également possible d'ajouter des lignes à partir d'autres types de documents d'achat. Les quelques étapes suivantes passent en revue les différentes options.  
 9. Développez la section **Confirmation**. Vous pouvez sélectionner ici des confirmations de commandes fournisseur à partir desquelles copier. Les confirmations de commandes fournisseur sont identifiées par l'ID journal d'achat ou l'ID commande fournisseur.  
 10. Développez la section **Accusés de réception de marchandises**. Vous pouvez sélectionner ici des journaux d'accusés de réception de marchandises à partir desquels copier. Les journaux d'accusés de réception de marchandises sont identifiés par le N° document d'accusé de réception de marchandises ou l'ID commande fournisseur.   
 11. Développez la section **Factures**. Ici vous pouvez choisir des factures fournisseur à partir desquelles copier. Ces factures sont identifiées par le N° document de facture ou l'ID commande fournisseur.   

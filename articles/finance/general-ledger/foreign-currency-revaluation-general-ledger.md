@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177680"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006211"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises pour la comptabilité
 
@@ -43,7 +43,7 @@ Avant d'exécuter le processus de réévaluation, le paramétrage suivant est n�
 
 -   Sur la page **Compte principal** :
 -   Si le compte principal doit être réévalué dans la comptabilité, sélectionnez **Réévaluation des comptes en devises**. Si le compte principal ne doit pas être réévalué (par exemple pour la Comptabilité client et la Comptabilité fournisseur si elles sont réévaluées dans les comptabilités auxiliaires), désactivez cette option.
--   Si le compte principal est marqué pour la réévaluation, entrez le **Type de taux de change**. Ce type de taux de change sera utilisé pour réévaluer le compte principal. Un champ distinct, **Type de taux de change des états financiers**, est disponible pour les états financiers. Ces deux champs ne sont pas synchronisés, ce qui permet d'utiliser différents types de taux de change pour la réévaluation et les états financiers.
+-   Si le compte principal est marqué pour la réévaluation, entrez le **Type de taux de change**. Ce type de taux de change sera utilisé pour réévaluer le compte principal. Un champ distinct, **Type de taux de change des états financiers** , est disponible pour les états financiers. Ces deux champs ne sont pas synchronisés, ce qui permet d'utiliser différents types de taux de change pour la réévaluation et les états financiers.
 
 -   Sur la page **Comptabilité** :
 -   Spécifiez **Type de taux de change**. Si le type de taux de change n'est pas défini sur le compte principal, ce type de taux de change sera utilisé au cours de la réévaluation des comptes en devises.
@@ -76,38 +76,33 @@ Les transactions de profits non réalisés/pertes sont créées différemment en
 
 **Exemple** Les soldes suivants existent pour le compte principal 110110.
 
-|            |                    |                        |                       |
+| Date   | Compte général| Montant de la transaction | Valeur comptable |
 |------------|--------------------|------------------------|-----------------------|
-| **date ;**   | **Compte général** | **Montant de la transaction** | **Valeur comptable** |
 | Janvier 20 | 110110 (disponibilités)      | 500 EUR (Débit)        | 1 000 USD (Débit)      |
 
 Le compte principal est réévalué le 31 janvier.  Le profit non réalisé/perte est calculé comme suit.
 
-|                                             |                                            |                                  |                                    |                             |
+| Solde actuel dans la devise de transaction | Solde actuel en devise comptable | Taux de change au moment de la réévaluation | Nouveau montant en devise comptable | Profit non réalisé/perte    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Solde actuel dans la devise de transaction** | **Solde actuel en devise comptable** | **Taux de change au moment de la réévaluation** | **Nouveau montant en devise comptable** | **Profit non réalisé/perte**    |
 | 500 EUR                                     | 1 000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | Perte de 166,67 (833,33 – 1 000) |
 
 L'écriture comptable suivante est créée.
 
-|            |                          |           |            |
+| Date   | Compte général       | Débit | Crédit |
 |------------|--------------------------|-----------|------------|
-| **date ;**   | **Compte général**       | **Débit** | **Crédit** |
 | 1er janvier | 110110 (disponibilités)            |           | 166.67     |
 | 1er janvier | 801400 (Perte non réalisée) | 166.67    |            |
 
 Aucune nouvelle transaction n'est validée pour le mois de février.  Le compte principal est réévalué le 28 février.
 
-|                                             |                                            |                                  |                                    |                             |
+| Solde actuel dans la devise de transaction | Solde actuel en devise comptable | Taux de change au moment de la réévaluation | Nouveau montant en devise comptable | Profit non réalisé/perte    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Solde actuel dans la devise de transaction** | **Solde actuel en devise comptable** | **Taux de change au moment de la réévaluation** | **Nouveau montant en devise comptable** | **Profit non réalisé/perte**    |
 | 500 EUR                                     | 833,33 USD (1 000 - 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | Profit de 416,67 (1 250 – 833,33) |
 
 L'écriture comptable suivante est créée.
 
-|             |                          |           |            |
+| Date    | Compte général       | Débit | Crédit |
 |-------------|--------------------------|-----------|------------|
-| **date ;**    | **Compte général**       | **Débit** | **Crédit** |
 | 28 février | 110110 (disponibilités)            | 416.67    |            |
 | 28 février | 801600 (Profit non réalisé) |           | 416.67     |
 

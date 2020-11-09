@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651712"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016560"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Réception du contenant via l’application d’entrepôt
 
@@ -30,7 +31,7 @@ Cette rubrique explique comment configurer l’application d’entrepôt pour pr
 
 Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement la réception du stock entrant lié à un avis préalable d’expédition (APE). Le système crée automatiquement un APE lorsque des processus de gestion d’entrepôt sont utilisés pour expédier un ordre de transfert. Pour le processus de commande fournisseur, un APE peut être enregistré manuellement ou il peut être automatiquement importé à l’aide d’un processus d’entité de données APE entrant.
 
-Les données de l’APE sont liées aux chargements et expéditions via les *structures d’emballage*, où les palettes (contenants parent) peuvent contenir des caisses (contenants imbriqués).
+Les données de l’APE sont liées aux chargements et expéditions via les *structures d’emballage* , où les palettes (contenants parent) peuvent contenir des caisses (contenants imbriqués).
 
 > [!NOTE]
 > Pour réduire le nombre de transactions de stock lorsque des structures d’emballage qui ont des contenants imbriqués sont utilisées, le système enregistre l’inventaire physique disponible sur le contenant parent. Pour déclencher le mouvement de l’inventaire physique en stock du contenant parent vers les contenants imbriqués, en fonction des données de structure d’emballage, l’appareil mobile doit fournir un élément de menu basé sur le processus de création de travaux *Conditionner dans des contenants imbriqués*.
@@ -45,11 +46,11 @@ Lorsqu’un travailleur scanne un ID de contenant entrant, le système initialis
 
 ### <a name="work-policies-with-work-creation"></a>Stratégies de travail avec création de travail
 
-Lorsque vous enregistrez des éléments entrants à l’aide d’une stratégie de travail qui crée du travail, le système génère et enregistre des enregistrements de travail de rangement pour chaque enregistrement. Si vous utilisez le processus de travail *Réception et rangement de contenant*, alors l’enregistrement et le rangement sont traités comme une seule opération à l’aide d’une seule option de menu sur l’appareil mobile. Si vous utilisez le processus *Réception de contenant*, alors les processus de réception et de rangement sont traités comme deux opérations d’entrepôt différentes, chacune avec sa propre option de menu sur l’appareil mobile.
+Lorsque vous enregistrez des éléments entrants à l’aide d’une stratégie de travail qui crée du travail, le système génère et enregistre des enregistrements de travail de rangement pour chaque enregistrement. Si vous utilisez le processus de travail *Réception et rangement de contenant* , alors l’enregistrement et le rangement sont traités comme une seule opération à l’aide d’une seule option de menu sur l’appareil mobile. Si vous utilisez le processus *Réception de contenant* , alors les processus de réception et de rangement sont traités comme deux opérations d’entrepôt différentes, chacune avec sa propre option de menu sur l’appareil mobile.
 
 ### <a name="work-policies-without-work-creation"></a>Stratégies de travail sans création de travail
 
-Vous pouvez utiliser le processus de réception de contenant sans créer de travail. Si vous définissez des stratégies de travail dont le type d’ordre de travail est *Réception du transfert* et/ou *Commandes fournisseur*, et que vous utilisez le processus *Réception (et rangement) de contenant*, aucun des deux processus de l’application mobile Entrepôt suivants ne créera de travail. Au lieu de cela, ils enregistreront simplement le stock physique entrant dans le contenant sur le quai de réception.
+Vous pouvez utiliser le processus de réception de contenant sans créer de travail. Si vous définissez des stratégies de travail dont le type d’ordre de travail est *Réception du transfert* et/ou *Commandes fournisseur* , et que vous utilisez le processus *Réception (et rangement) de contenant* , aucun des deux processus de l’application mobile Entrepôt suivants ne créera de travail. Au lieu de cela, ils enregistreront simplement le stock physique entrant dans le contenant sur le quai de réception.
 
 - *Réception de contenant*
 - *Réception et rangement de contenant*
@@ -66,7 +67,7 @@ Il est possible d’utiliser un emplacement d’entrepôt affecté à un profil 
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Ajouter des options de menu d’appareil mobile pour chaque emplacement de réception dans un entrepôt
 
-La fonctionnalité *Améliorations de la réception de contenant* vous permet de recevoir à n’importe quel emplacement d’un entrepôt en ajoutant des options de menu de réception (et de rangement) de contenant spécifiques à chaque emplacement dans l’application mobile Entrepôt. Auparavant, le système prenait en charge la réception uniquement à l’emplacement par défaut défini pour chaque entrepôt. Cependant, lorsque cette fonction est activée, les options de menu des appareils mobiles pour la réception (et le rangement) de contenant fournissent désormais une option **Utiliser les données par défaut**, qui vous permet de sélectionner un emplacement « vers » personnalisé pour chaque option de menu. (Cette option était déjà disponible pour certains autres types d’options de menu.)
+La fonctionnalité *Améliorations de la réception de contenant* vous permet de recevoir à n’importe quel emplacement d’un entrepôt en ajoutant des options de menu de réception (et de rangement) de contenant spécifiques à chaque emplacement dans l’application mobile Entrepôt. Auparavant, le système prenait en charge la réception uniquement à l’emplacement par défaut défini pour chaque entrepôt. Cependant, lorsque cette fonction est activée, les options de menu des appareils mobiles pour la réception (et le rangement) de contenant fournissent désormais une option **Utiliser les données par défaut** , qui vous permet de sélectionner un emplacement « vers » personnalisé pour chaque option de menu. (Cette option était déjà disponible pour certains autres types d’options de menu.)
 
 Pour rendre cette fonctionnalité disponible sur votre système, vous devez activer la fonctionnalité *Améliorations de la réception de contenant* dans la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -92,7 +93,7 @@ Pour rendre cette fonctionnalité disponible sur votre système, vous devez acti
 Pour gérer la fonctionnalité lorsque cette fonctionnalité est disponible, procédez comme suit.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
-1. Sur l’onglet **Général**, sur le raccourci **Contenants**, définissez le champ **Stratégie de contenant de l’entrepôt de transit** sur l’une des valeurs suivantes :
+1. Sur l’onglet **Général** , sur le raccourci **Contenants** , définissez le champ **Stratégie de contenant de l’entrepôt de transit** sur l’une des valeurs suivantes :
 
     - **Autoriser la réutilisation de contenant non suivi** - Le système fonctionne de la même manière qu’il fonctionne lorsque la fonctionnalité *Empêcher l’utilisation des contenants expédiés par ordre de transfert dans d’autres entrepôts que l’entrepôt de destination* n’est pas disponible. Cette valeur est le paramètre par défaut lors de la première activation de la fonction.
     - **Empêcher la réutilisation du contenant non suivi** - Seules les mises à jour en rapport avec un contenant expédié seront autorisées dans l’entrepôt de destination jusqu’à réception de l’ordre de transfert.
@@ -101,6 +102,6 @@ Pour gérer la fonctionnalité lorsque cette fonctionnalité est disponible, pro
 
 Pour plus d’informations sur les éléments de menu des appareils mobiles, voir [Configurer des appareils mobiles pour le travail en entrepôt](configure-mobile-devices-warehouse.md).
 
-Pour plus d’informations sur le scénario de production *Déclarer comme terminé*, voir la [Vue d’ensemble des stratégies de travail d’entrepôt](warehouse-work-policies.md).
+Pour plus d’informations sur le scénario de production *Déclarer comme terminé* , voir la [Vue d’ensemble des stratégies de travail d’entrepôt](warehouse-work-policies.md).
 
 Pour plus d’informations sur la gestion des chargements entrants, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](inbound-load-handling.md).

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728411"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997524"
 ---
 # <a name="company-concept-in-common-data-service"></a>Concept de société dans Common Data Service
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728411"
 
 Dans Finance and Operations, le concept d’une *société* est à la fois juridique et commercial. C’est également une limite de sécurité et de visibilité pour les données. Les utilisateurs travaillent toujours dans le contexte d’une seule société, et la plupart des données sont agrégées par bandes par la société.
 
-Common Data Service n’a pas de concept équivalent. Le concept le plus proche celui d’*unité commerciale*, qui est principalement une limite de sécurité et de visibilité pour les données utilisateur. Ce concept n’a pas les mêmes implications juridiques ou commerciales que celui de société.
+Common Data Service n’a pas de concept équivalent. Le concept le plus proche celui d’ *unité commerciale* , qui est principalement une limite de sécurité et de visibilité pour les données utilisateur. Ce concept n’a pas les mêmes implications juridiques ou commerciales que celui de société.
 
 Comme les unités commerciales et la société ne sont pas des concepts équivalents, il est impossible de forcer une mise en correspondance un à un (1:1) entre elles dans le cadre de l’intégration de Common Data Service. Toutefois, comme les utilisateurs doivent, par défaut, être autorisés à consulter les mêmes enregistrements dans l’application et Common Data Service, Microsoft a introduit une entité dans Common Data Service nommée cdm\_Company. Cette entité est équivalente à l’entité Société dans l’application. Pour garantir que la visibilité des enregistrements est équivalente entre l’application et Common Data Service de manière prédéfinie, il est recommandé d’effectuer le paramétrage suivant pour les données dans Common Data Service:
 
@@ -78,11 +77,11 @@ L’intégration de Common Data Service apporte la parité de la société à l�
 
 Il existe plusieurs façons de renseigner automatiquement le nom de l’entreprise dans les applications Customer Engagement.
 
-+ Si vous êtes administrateur système, vous pouvez définir l’entreprise par défaut en accédant à **Paramètres avancés > Système > Sécurité > Utilisateurs**. Ouvrez le formulaire **Utilisateur**, et dans la section **Informations sur l’organisation**, définissez la valeur **Société par défaut sur les formulaires**.
++ Si vous êtes administrateur système, vous pouvez définir l’entreprise par défaut en accédant à **Paramètres avancés > Système > Sécurité > Utilisateurs**. Ouvrez le formulaire **Utilisateur** , et dans la section **Informations sur l’organisation** , définissez la valeur **Société par défaut sur les formulaires**.
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Définissez la société par défaut dans la section Informations sur l’organisation.":::
 
-+ Si vous disposez d’un accès en **Écriture** à l’entité **SystemUser** pour le niveau **Unité commerciale**, vous pouvez modifier la société par défaut sur n’importe quel formulaire en sélectionnant une société dans le menu déroulant **Société**.
++ Si vous disposez d’un accès en **Écriture** à l’entité **SystemUser** pour le niveau **Unité commerciale** , vous pouvez modifier la société par défaut sur n’importe quel formulaire en sélectionnant une société dans le menu déroulant **Société**.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Modifier le nom de l’entreprise sur un nouveau compte.":::
 
@@ -93,7 +92,7 @@ Il existe plusieurs façons de renseigner automatiquement le nom de l’entrepri
 + Si vous êtes configurateur ou administrateur système et que vous souhaitez renseigner automatiquement les données de l’entreprise sur un formulaire personnalisé, vous pouvez utiliser les [événements de formulaire](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Ajoutez une référence JavaScript à **msdyn_/DefaultCompany.js** et utilisez les événements suivants. Vous pouvez utiliser n’importe quel formulaire prêt à l’emploi, par exemple, **Compte**.
 
     + Événement **OnLoad** pour le formulaire : définissez le champ **defaultCompany**.
-    + Événement **OnCharge** pour le champ **Société** : définissez le champ **updateDefaultCompany**.
+    + Événement **OnCharge** pour le champ **Société**  : définissez le champ **updateDefaultCompany**.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Appliquer le filtrage en fonction du contexte de l’entreprise
 

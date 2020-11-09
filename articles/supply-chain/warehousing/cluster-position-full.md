@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8d030afb568b158e6caf48b0044d595d6ec024f6
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016169"
 ---
 # <a name="cluster-position-full"></a>Poste de groupement complet
 
@@ -32,7 +33,7 @@ Cette fonctionnalité introduit la possibilité d’exécuter le bouton **Plein*
 
 ## <a name="turn-on-the-cluster-position-full-feature"></a>Activer la fonctionnalité Poste de groupement complet
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Poste de groupement complet*
@@ -53,7 +54,7 @@ Vous devez spécifier si les ID de groupement sont générés automatiquement, c
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Appareil mobile \> Profils de groupement**.
 1. Dans le volet de liste, sélectionnez l’enregistrement **Créer un groupement**.
-1. Dans l’organisateur **Général**, vérifiez les valeurs suivantes :
+1. Dans l’organisateur **Général** , vérifiez les valeurs suivantes :
 
     - **Générer un ID de groupement :** Sélectionnez *Oui*
     - **Activer des postes :** *Oui*
@@ -93,7 +94,7 @@ Vous devez configurer une option de menu d’appareil mobile pour utiliser le tr
 1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Dans le volet de liste, sélectionnez l’enregistrement **Création de prélèvement de groupement**.
 1. Sélectionnez **Modifier** dans le volet Actions.
-1. Dans l’organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Général** , définissez les valeurs suivantes :
 
     - **Dirigé par :** *Prélèvement de groupement*
     - **Générer un contenant :** *Oui*
@@ -102,7 +103,7 @@ Vous devez configurer une option de menu d’appareil mobile pour utiliser le tr
 
     Acceptez les valeurs par défaut pour tous les autres champs.
 
-1. Sur le raccourci **Classes de travail**, ajoutez les deux lignes suivantes, si nécessaire :
+1. Sur le raccourci **Classes de travail** , ajoutez les deux lignes suivantes, si nécessaire :
 
     - Ligne 1 (généralement présente dans les données de démonstration) :
 
@@ -124,38 +125,38 @@ Vous devez configurer une option de menu d’appareil mobile pour utiliser le tr
 
 ## <a name="create-picking-work"></a>Création de tâches de prélèvement
 
-Avant de pouvoir commencer la sélection de groupement, vous devez créer du travail sortant. Le profil de groupement créé précédemment spécifie deux positions de groupement. Par conséquent, au moins deux ID de travail doivent être créés pour la préparation des commandes client. Pour ce scénario, les transactions se produiront dans l’entrepôt *61*, et ils utiliseront des éléments *L0101* et *T0100*. Les données de démonstration doivent avoir un stock disponible de ces éléments suffisant. Assurez-vous que vous disposez d’un stock suffisant pour effectuer les transactions.
+Avant de pouvoir commencer la sélection de groupement, vous devez créer du travail sortant. Le profil de groupement créé précédemment spécifie deux positions de groupement. Par conséquent, au moins deux ID de travail doivent être créés pour la préparation des commandes client. Pour ce scénario, les transactions se produiront dans l’entrepôt *61* , et ils utiliseront des éléments *L0101* et *T0100*. Les données de démonstration doivent avoir un stock disponible de ces éléments suffisant. Assurez-vous que vous disposez d’un stock suffisant pour effectuer les transactions.
 
 ### <a name="create-sales-order-1"></a>Créer une commande client 1
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau** pour créer une commande client 1.
-1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
 
     - **Compte client :** *US-010*
     - **Entrepôt :** *61*
 
 1. Cliquez sur **OK**.
-1. La nouvelle commande client est ouverte. Dans l’organisateur **Lignes de commande client**, ajoutez une ligne présentant les paramètres suivants :
+1. La nouvelle commande client est ouverte. Dans l’organisateur **Lignes de commande client** , ajoutez une ligne présentant les paramètres suivants :
 
     - **Numéro d’article :** *T0100*
     - **Quantité :** *5*
 
-1. Sur le raccourci **Détails de ligne**,sur l’onglet **Livraison**, définissez le champ **Date d’expédition confirmée** sur la date du jour.
-1. Dans l’organisateur **Lignes de commande client**, ajoutez une seconde ligne présentant les paramètres suivants :
+1. Sur le raccourci **Détails de ligne** ,sur l’onglet **Livraison** , définissez le champ **Date d’expédition confirmée** sur la date du jour.
+1. Dans l’organisateur **Lignes de commande client** , ajoutez une seconde ligne présentant les paramètres suivants :
 
     - **Numéro d’article :** *L0101*
     - **Quantité :** *20*
 
-1. Sur le raccourci **Détails de ligne**,sur l’onglet **Livraison**, définissez le champ **Date d’expédition confirmée** sur la date du jour.
+1. Sur le raccourci **Détails de ligne** ,sur l’onglet **Livraison** , définissez le champ **Date d’expédition confirmée** sur la date du jour.
 1. Pour chaque ligne que vous venez d’ajouter, procédez comme suit pour réserver le stock :
 
     1. Sélectionnez la ligne à réserver.
-    2. Sur l’organisateur **Lignes de commande client**, sélectionnez **Stock \> Réservation**.
-    3. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver le stock.
+    2. Sur l’organisateur **Lignes de commande client** , sélectionnez **Stock \> Réservation**.
+    3. Sur la page **Réservation** , dans le volet Actions, sélectionnez **Réserver un lot** pour réserver le stock.
     4. Fermez la page **Réservation**.
 
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Une fois le lancement terminé, vous recevez des messages d’information indiquant les ID de vague et de chargement créés.
 
@@ -163,32 +164,32 @@ Avant de pouvoir commencer la sélection de groupement, vous devez créer du tra
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau** pour créer une commande client 2.
-1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
 
     - **Compte client :** *US-011*
     - **Entrepôt :** *61*
 
 1. Cliquez sur **OK**.
-1. La nouvelle commande client est ouverte. Dans l’organisateur **Lignes de commande client**, ajoutez une ligne présentant les paramètres suivants :
+1. La nouvelle commande client est ouverte. Dans l’organisateur **Lignes de commande client** , ajoutez une ligne présentant les paramètres suivants :
 
     - **Numéro d’article :** *L0101*
     - **Quantité :** *20*
 
-1. Sur le raccourci **Détails de ligne**,sur l’onglet **Livraison**, définissez le champ **Date d’expédition confirmée** sur la date du jour.
-1. Dans l’organisateur **Lignes de commande client**, ajoutez une seconde ligne présentant les paramètres suivants :
+1. Sur le raccourci **Détails de ligne** ,sur l’onglet **Livraison** , définissez le champ **Date d’expédition confirmée** sur la date du jour.
+1. Dans l’organisateur **Lignes de commande client** , ajoutez une seconde ligne présentant les paramètres suivants :
 
     - **Numéro d’article :** *T0100*
     - **Quantité :** *2*
 
-1. Sur le raccourci **Détails de ligne**,sur l’onglet **Livraison**, définissez le champ **Date d’expédition confirmée** sur la date du jour.
+1. Sur le raccourci **Détails de ligne** ,sur l’onglet **Livraison** , définissez le champ **Date d’expédition confirmée** sur la date du jour.
 1. Pour chaque ligne que vous venez d’ajouter, procédez comme suit pour réserver le stock :
 
     1. Sélectionnez la ligne à réserver.
-    2. Sur l’organisateur **Lignes de commande client**, sélectionnez **Stock \> Réservation**.
-    3. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver le stock.
+    2. Sur l’organisateur **Lignes de commande client** , sélectionnez **Stock \> Réservation**.
+    3. Sur la page **Réservation** , dans le volet Actions, sélectionnez **Réserver un lot** pour réserver le stock.
     4. Fermez la page **Réservation**.
 
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Une fois le lancement terminé, vous recevez des messages d’information indiquant les ID de vague et de chargement créés.
 
@@ -197,12 +198,12 @@ Avant de pouvoir commencer la sélection de groupement, vous devez créer du tra
 Deux ID de travail doivent avoir été créés, chacun ayant deux lignes de prélèvement. Suivez ces étapes pour trouver les ID de travail et les attributions de contenants.
 
 1. Accédez à **Gestion des entrepôts \> Travail \> Détails du travail**.
-1. Dans la grille **Vue d’ensemble**, recherchez la colonne **Numéro de commande** pour les deux commandes que vous venez de créer. Pour chaque commande client, notez l’ID de travail correspondant.
+1. Dans la grille **Vue d’ensemble** , recherchez la colonne **Numéro de commande** pour les deux commandes que vous venez de créer. Pour chaque commande client, notez l’ID de travail correspondant.
 1. Sélectionnez la ligne de chaque commande client pour afficher les informations associées dans la grille **Lignes**. Notez l’emplacement à partir duquel chaque article sera prélevé.
 1. Accédez à **Gestion des stocks \> Recherches et états \> Stock disponible**.
 1. Dans le volet Actions, sélectionnez **Dimensions** pour ouvrir la boîte de dialogue **Affichage des dimensions**.
-1. Assurez-vous que les cases **Contenant**, **Entrepôt** et **Numéro d’article** sont cochées, puis sélectionnez **OK**.
-1. Dans le volet **Filtre**, définissez les filtres suivants :
+1. Assurez-vous que les cases **Contenant** , **Entrepôt** et **Numéro d’article** sont cochées, puis sélectionnez **OK**.
+1. Dans le volet **Filtre** , définissez les filtres suivants :
 
     - **Numéro d’article** – **fait partie de** – *L0101* et *T100*
     - **Entrepôt** – **commence par** – *61*
@@ -236,10 +237,10 @@ A tout moment au cours des étapes suivantes, vous pouvez sélectionner l’ongl
 
     La page **TÂCHE : Tri : Création de prélèvement de groupement** apparaît. Ici, vous allez trier les deux palettes prélevées à un poste de prélèvement. Ce poste peut être un chariot ou un conteneur utilisé pour séparer le stock prélevé par la commande client.
 
-1. Afficher les détails affichés pour l’élément (*L0101*) et la quantité (*20* unités) qui seront triés au poste 1 (pour la commande client 1).
+1. Afficher les détails affichés pour l’élément ( *L0101* ) et la quantité ( *20*  unités) qui seront triés au poste 1 (pour la commande client 1).
 1. Définissez le champ **POSTE S/O** sur *1*.
 1. Sélectionnez **OK** (symbole de coche).
-1. Afficher les détails affichés pour l’élément (*L0101*) et la quantité (*20* unités) qui seront triés au poste 2 (pour la commande client 2).
+1. Afficher les détails affichés pour l’élément ( *L0101* ) et la quantité ( *20*  unités) qui seront triés au poste 2 (pour la commande client 2).
 1. Définissez le champ **POSTE S/O** sur *2*.
 1. Sélectionnez **OK** (symbole de coche).
 
@@ -258,10 +259,10 @@ Dans ce scénario, le poste 1 ne peut pas accepter la quantité totale d’arti
 1. Sélectionnez **OK** (symbole de coche).
 1. Entrez le contenant à partir duquel l’article est prélevé en définissant le champ **LP** sur *LPREPL04*.
 1. Sélectionnez **OK** (symbole de coche).
-1. Afficher les détails affichés pour l’élément (*T0100*) et la quantité (*2* unités) qui seront triés au poste 2 (pour la commande client 2).
+1. Afficher les détails affichés pour l’élément ( *T0100* ) et la quantité ( *2*  unités) qui seront triés au poste 2 (pour la commande client 2).
 1. Définissez le champ **POSTE S/O** sur *2*.
 1. Sélectionnez **OK** (symbole de coche).
-1. Afficher les détails affichés pour l’élément (*T0100*) et la quantité (*2* unités) qui seront triés au poste 1 (pour la commande client 1).
+1. Afficher les détails affichés pour l’élément ( *T0100* ) et la quantité ( *2*  unités) qui seront triés au poste 1 (pour la commande client 1).
 1. Définissez le champ **POSTE S/O** sur *1*.
 1. Sélectionnez **OK** (symbole de coche).
 

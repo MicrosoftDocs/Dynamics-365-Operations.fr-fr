@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177790"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006113"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d'un paiement client partiel et règlement total du paiement final avant la date de remise
 
@@ -40,7 +40,7 @@ Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4028.
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10010 | Facture          | 6/25/2015 | 10010   | 1 000,00                             |                                       | 1 000,00 | USD      |
 
-Depuis la page **Client** ou **Transactions client**, Arnie peut ouvrir la page **Régler les transactions** pour afficher les dates et les montants des escomptes de règlement disponibles pour la facture. La date d'échéance est le 25 juillet, et un escompte de règlement de 10,00 est disponible si la facture est payée avant le 9 juillet.
+Depuis la page **Client** ou **Transactions client** , Arnie peut ouvrir la page **Régler les transactions** pour afficher les dates et les montants des escomptes de règlement disponibles pour la facture. La date d'échéance est le 25 juillet, et un escompte de règlement de 10,00 est disponible si la facture est payée avant le 9 juillet.
 
 | Marquer     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d'échéance  | Facture | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -48,7 +48,7 @@ Depuis la page **Client** ou **Transactions client**, Arnie peut ouvrir la page 
 
 Les informations de remise s'affichent au bas de la page **Régler les transactions** pour la facture marquée.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Date d'escompte de règlement           | 7/09/2015 |
 | Montant de l'escompte de règlement         | 10,00     |
@@ -79,7 +79,7 @@ Au lieu d'ouvrir la page **Entrer les paiements client** dans le journal des pai
 
 Les informations de remise s'affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Date d'escompte de règlement           | 7/09/2015 |
 | Montant de l'escompte de règlement         | 10,00     |
@@ -95,7 +95,7 @@ Si le client souhaite régler précisément la moitié de la facture, il effectu
 
 Les informations de remise s'affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Date d'escompte de règlement           | 7/09/2015 |
 | Montant de l'escompte de règlement         | 10,00     |
@@ -112,9 +112,9 @@ Arnie ferme la page **Régler les transactions**. Une ligne de paiement pour 495
 | DISC-10010 |  Escompte de règlement   | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Paiement pour le montant restant
-Le client 4028 paie le solde de 495,00 le 8 juillet, soit au cours de la période d'escompte de règlement. Arnie crée le journal des paiements le 8 juillet et marque la transaction pour règlement. Il constate que le montant à régler est de 495,00. La valeur du champ **Escompte de règlement estimé** est **5,00**, car la remise de 5,00 a été prélevée précédemment.
+Le client 4028 paie le solde de 495,00 le 8 juillet, soit au cours de la période d'escompte de règlement. Arnie crée le journal des paiements le 8 juillet et marque la transaction pour règlement. Il constate que le montant à régler est de 495,00. La valeur du champ **Escompte de règlement estimé** est **5,00** , car la remise de 5,00 a été prélevée précédemment.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Total marqué            | 495,00 |
 | Escompte de règlement estimé | 5,00   |
@@ -127,7 +127,7 @@ Des informations sur la transaction marquée sont affichées dans la grille sur 
 
 Les informations de remise s'affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Date d'escompte de règlement           | 7/09/2015 |
 | Montant de l'escompte de règlement         | 10,00     |

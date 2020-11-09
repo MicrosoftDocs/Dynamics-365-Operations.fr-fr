@@ -3,7 +3,7 @@ title: Afficher un aperçu et publier une expérience
 description: Cette rubrique décrit comment afficher un aperçu et publier une expérience à partir de Dynamics 365 Commerce.
 author: sushma-rao
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 91e2e4840a2d53f195d881279050b6415d48b070
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930197"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097114"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Afficher un aperçu et publier une expérience
 
@@ -34,9 +34,11 @@ Cette rubrique décrit comment afficher un aperçu et publier votre expérience 
 ## <a name="preview-your-experiment-variations"></a>Afficher un aperçu de vos variantes d'expérience
 Vous pouvez afficher un aperçu de vos variantes et continuer à les modifier jusqu'à ce qu'elles correspondent à ce que vous souhaitez.
 
-1. Dans le générateur de site, utilisez le menu déroulant des variantes sous la barre de commandes pour sélectionner le contenu dont vous souhaitez afficher un aperçu. 
-1. Sélectionner **Afficher un aperçu** dans la barre du haut. Un aperçu de la forme que prendra le contenu une fois publié s'affiche.
-1. Pour afficher un aperçu d'une autre variante, sélectionnez-la dans la liste déroulante des variantes et sélectionnez à nouveau **Afficher un aperçu**.
+Pour prévisualiser vos variantes d'expérience dans le générateur de site Commerce, procédez comme suit.
+
+1. Dans le menu déroulant des variantes sous la barre de commandes, sélectionnez le contenu dont vous souhaitez afficher un aperçu. 
+1. Dans la barre de commande, sélectionnez **Aperçu**. Un aperçu de la forme que prendra le contenu une fois publié s'affiche.
+1. Pour afficher un aperçu d'une autre variante, sélectionnez-la dans le menu déroulant des variantes et sélectionnez à nouveau **Afficher un aperçu**.
 
 ## <a name="publish-your-experiment"></a>Publier votre expérience
 Si vous n'utilisez pas de groupe de publication pour planifier la mise en ligne de votre expérience et que vous souhaitez publier immédiatement, sélectionnez **Publier** dans la barre de commandes. Toutes les variantes appartenant à l'expérience seront publiées.
@@ -45,7 +47,7 @@ Si vous n'utilisez pas de groupe de publication pour planifier la mise en ligne 
 > Si la page a une URL non publiée, vous devez d'abord publier l'URL, sinon les utilisateurs de votre site web ne pourront pas la voir. Pour plus de détails, consultez [Enregistrer, afficher un aperçu et publier une page](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Utiliser des groupes de publication pour planifier la mise en ligne de votre expérience
-Les variantes créées dans le générateur de site peuvent être planifiées afin d'être publiées à l'aide d'un groupe de publication. Dans un groupe de publication, vous pouvez connecter une page ou un fragment à votre expérience en accédant à l'onglet **Expériences** ou à l'onglet **Pages** ou **Fragments**. Pour plus d'informations, consultez la rubrique [Connecter une expérience et modifier les variantes](experimentation-connect-edit.md). Pour plus d'informations sur les groupes de publication, consultez [Utiliser des groupes de publication](publish-groups.md).
+Les variantes créées dans le générateur de site peuvent être planifiées afin d'être publiées à l'aide d'un groupe de publication. Au sein d'un groupe de publication, vous pouvez connecter une page ou un fragment à votre expérience en sélectionnant **Expériences** dans le volet de navigation de gauche. Vous pouvez également le faire en sélectionnant **Pages** ou **Fragments** et en suivant les instructions [Connecter une expérience et modifier les variantes](experimentation-connect-edit.md). Pour plus d'informations sur les groupes de publication, consultez [Utiliser des groupes de publication](publish-groups.md).
 
 Lorsque vous utilisez des groupes de publication avec des expériences, vous devez prendre en compte certaines considérations importantes.
 - Lorsque vous ajoutez à un groupe de publication une page ou un fragment sur lequel une expérience est en cours, l'expérience est supprimée de la page ou du fragment dans le groupe de publication.

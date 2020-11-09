@@ -3,7 +3,7 @@ title: Démarrer la location d'actifs
 description: Cette rubrique décrit la fonctionnalité de location d'actifs, et décrit les étapes de création d'un bail d’immobilisation et l'affichage des informations relatives à ces baux.
 author: moaamer
 manager: Ann Beebe
-ms.date: 09/24/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5f8f86861f65f3da71843f6fd4a64e4199e86627
-ms.sourcegitcommit: 9668af8d918faec37abe1881e550872cd6b73259
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970006"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022565"
 ---
 # <a name="asset-leasing-get-started"></a>Démarrer la location d'actifs
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit la fonctionnalité de location d'actifs, et décrit les étapes de création d'un bail d’immobilisation et l'affichage des informations relatives à ces baux. La rubrique définit également la terminologie utilisée dans l'interface utilisateur et la documentation. La location d'actifs est une fonctionnalité avancée de gestion, de suivi et d'automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d'actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d'actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu'à la dépréciation et la résiliation du bail. La fonctionnalité de location d'actifs s'intègre parfaitement aux autres composants de Dynamics 365 Finance, notamment les immobilisations, les comptes fournisseurs et la comptabilité.
 
@@ -209,7 +208,7 @@ Cela représente le report de la réduction du solde de l'actif du droit d'utili
 ## <a name="create-an-asset-lease"></a>Créer un bail d'actif
 Procédez comme suit pour créer un bail. 
 
-1. Pour utiliser la fonctionnalité **Locations d'actifs**, vous devez l'activer dans l'espace de travail **Gestion des fonctionnalités**. Dans l'espace de travail **Gestion des fonctionnalités**, sélectionnez **Tout** afin que toutes les fonctionnalités soient répertoriées sur la page. Sélectionnez **Location d'actifs**, puis **Activer maintenant**.
+1. Pour utiliser la fonctionnalité **Locations d'actifs** , vous devez l'activer dans l'espace de travail **Gestion des fonctionnalités**. Dans l'espace de travail **Gestion des fonctionnalités** , sélectionnez **Tout** afin que toutes les fonctionnalités soient répertoriées sur la page. Sélectionnez **Location d'actifs** , puis **Activer maintenant**.
 2. Accédez à **Location d'actifs> Commun> Récapitulatif du bail**. Renseignez les champs requis dans le raccourci **Général**. 
    - **Détails du bail**
    - **Durée de vie utile de l’actif (mois)**
@@ -242,9 +241,9 @@ Procédez comme suit pour créer un bail.
 
    À partir de l'échéancier de paiement, vous pouvez ouvrir une page détaillée qui répertorie les transactions du droit d'utilisation de l'actif. 
  
-   L'**échéancier de l'amortissement du passif locatif** indique le montant des intérêts calculé pour chaque période.
+   L' **échéancier de l'amortissement du passif locatif** indique le montant des intérêts calculé pour chaque période.
    
-10. Créez le journal, puis accédez à **Journaux de location d'actifs**. L'**échéancier de l'amortissement du passif locatif** affiche également dans les transactions d'intérêt.
+10. Créez le journal, puis accédez à **Journaux de location d'actifs**. L' **échéancier de l'amortissement du passif locatif** affiche également dans les transactions d'intérêt.
 
    La page **Programme d'amortissement des actifs** affiche les transactions d'amortissement pour l'ID de bail sélectionné. 
 

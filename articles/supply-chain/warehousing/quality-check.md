@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSQualityCheckTemplate,WHSWorkClass,WHSWorkTemplateTable.WHSLocDirTable
+ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a4694281f3dd53581c9d8245a0105b37b2b155
-ms.sourcegitcommit: 7dc2ff9461c310324937bea2fc160ff056fefd8a
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016629"
 ---
 # <a name="quality-check"></a>Contrôle qualité
 
@@ -44,7 +44,7 @@ Ce processus peut également être configuré pour que tous les contenants scann
 
 ## <a name="turn-on-the-quality-check-feature"></a>Activez la fonctionnalité de contrôle qualité
 
-Avant de pouvoir utiliser la fonctionnalité *Contrôle qualité*, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Contrôle qualité* , vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Contrôle qualité*
@@ -106,7 +106,7 @@ Les classes de travail sont utilisées pour diriger et/ou limiter le type de lig
 
         Sélectionnez le type d’ordre de travail créé par la classe de travail. Lorsque vous configurez le travail de contrôle qualité, sélectionnez toujours *Qualité du contrôle qualité*.
 
-1. Sur l’organisateur **Types d’emplacement de rangement valides**, laissez le champ **Type d’emplacement** vide.
+1. Sur l’organisateur **Types d’emplacement de rangement valides** , laissez le champ **Type d’emplacement** vide.
 
     Si vous sélectionnez un type d’emplacement, vous limitez les emplacements où les articles peuvent être placés après leur prélèvement. Ce champ est utilisé lors de tentatives d’une directive d’emplacement pour résoudre l’emplacement, ou lorsqu’un magasinier spécifie manuellement l’emplacement pour l’élément du menu du périphérique portable.
 
@@ -121,9 +121,9 @@ Modèles de travail vous permet de définir les opérations de travail qui doive
 1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
 1. Dans l’en-tête, définissez le champ **Type d’ordre de travail** sur *Commandes fournisseur*.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Sélectionnez un modèle de travail qui doit inclure une étape de contrôle qualité. Dans la section **Aperçu**, dans le champ **Modèle de travail**, sélectionnez *51 Réception CF*.
-1. Dans la section **Détails du modèle de travail**, notez que la grille a deux lignes existantes : une pour *Prélèvement* et une pour *Rangement*.
-1. Dans la section **Détails du modèle de travail**, sélectionnez **Nouveau** pour ajouter une ligne de contrôle qualité à la grille. Notez que le champ **Numéro de ligne** de la nouvelle ligne est défini sur *3*.
+1. Sélectionnez un modèle de travail qui doit inclure une étape de contrôle qualité. Dans la section **Aperçu** , dans le champ **Modèle de travail** , sélectionnez *51 Réception CF*.
+1. Dans la section **Détails du modèle de travail** , notez que la grille a deux lignes existantes : une pour *Prélèvement* et une pour *Rangement*.
+1. Dans la section **Détails du modèle de travail** , sélectionnez **Nouveau** pour ajouter une ligne de contrôle qualité à la grille. Notez que le champ **Numéro de ligne** de la nouvelle ligne est défini sur *3*.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour les champs restants.
 
     - **Type de travail :** *Contrôle qualité*
@@ -138,7 +138,7 @@ Modèles de travail vous permet de définir les opérations de travail qui doive
 
 1. Suivez ces étapes pour modifier la valeur du **Numéro de ligne** pour la nouvelle ligne :
 
-    1. Dans la section **Détails du modèle de travail**, sélectionnez la ligne où le champ **Type de travail** est défini sur *Contrôle qualité*.
+    1. Dans la section **Détails du modèle de travail** , sélectionnez la ligne où le champ **Type de travail** est défini sur *Contrôle qualité*.
     2. Sélectionnez le bouton **Déplacer vers le haut** ou **Déplacer vers le bas** pour déplacer la ligne *Contrôle qualité* pour qu’elle se situe après la ligne *Prélèvement*.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
@@ -147,7 +147,7 @@ Modèles de travail vous permet de définir les opérations de travail qui doive
 
 Ensuite, créez un modèle de travail pour le contrôle qualité.
 
-1. Dans l’en-tête de la page **Modèles de travail**, modifiez la valeur du champ **Type d’ordre de travail** sur *Qualité du contrôle qualité*.
+1. Dans l’en-tête de la page **Modèles de travail** , modifiez la valeur du champ **Type d’ordre de travail** sur *Qualité du contrôle qualité*.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter une ligne à la grille dans la section **Vue d’ensemble**.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
@@ -158,7 +158,7 @@ Ensuite, créez un modèle de travail pour le contrôle qualité.
     - **Description du modèle de travail :** *51 Contrôle qualité*
 
 1. Sur le volet Action, sélectionnez **Enregistrer** pour rendre la section **Détails du modèle de travail** disponible.
-1. Alors que le nouveau modèle est toujours sélectionné dans la section **Aperçu**, sélectionnez **Nouveau** dans la section **Détails du modèle de travail** pour y ajouter une ligne à la grille.
+1. Alors que le nouveau modèle est toujours sélectionné dans la section **Aperçu** , sélectionnez **Nouveau** dans la section **Détails du modèle de travail** pour y ajouter une ligne à la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Type de travail :** *Choisir*
@@ -166,7 +166,7 @@ Ensuite, créez un modèle de travail pour le contrôle qualité.
 
         Sélectionnez le nom de la [classe de travail](#work-class) que vous avez créée précédemment pour le travail de contrôle qualité.
 
-1. Dans la section **Détails du modèle de travail**, sélectionnez **Nouveau** à nouveau pour ajouter une autre ligne.
+1. Dans la section **Détails du modèle de travail** , sélectionnez **Nouveau** à nouveau pour ajouter une autre ligne.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Type de travail :** *Put*
@@ -190,25 +190,25 @@ Les instructions d’emplacement sont des règles qui aident à identifier les e
     - **Souche de N° :** Acceptez la valeur par défaut.
     - **Nom :** *51 Vers qualité*
 
-1. Dans l’organisateur **Directives d’emplacement**, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour les champs restants.
+1. Dans l’organisateur **Directives d’emplacement** , définissez les valeurs suivantes. Acceptez les valeurs par défaut pour les champs restants.
 
     - **Type de travail :** *Put*
     - **Site :** *5*
     - **Entrepôt :** *51*
 
 1. Sur le volet Action, sélectionnez **Enregistrer** pour enregistrer votre directive et rendre l’organisateur **Lignes** disponible.
-1. Dans l’organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l’organisateur **Lignes** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour les champs restants.
 
     - **Quantité de départ :** *1*
     - **Quantité d’arrivée :** *1000000*
 
 1. Sur le volet Action, sélectionnez **Enregistrer** pour enregistrer la nouvelle ligne et rendre l’organisateur **Actions de directive d’emplacement** disponible.
-1. Bien que la nouvelle ligne soit toujours sélectionnée sur l’organisateur **Lignes**, sélectionnez **Nouveau** sur l’organisateur **Actions de directive d’emplacement** pour ajouter une ligne à la grille ici, afin que vous puissiez configurer une action pour la ligne.
+1. Bien que la nouvelle ligne soit toujours sélectionnée sur l’organisateur **Lignes** , sélectionnez **Nouveau** sur l’organisateur **Actions de directive d’emplacement** pour ajouter une ligne à la grille ici, afin que vous puissiez configurer une action pour la ligne.
 1. Dans la nouvelle ligne, définissez le champ **Nom** sur *Qualité*. Acceptez les valeurs par défaut pour les champs restants.
 1. Sur le volet Action, sélectionnez **Enregistrer** pour rendre le bouton **Modifier la requête** de l’organisateur **Actions d’instruction d’emplacement** disponible.
-1. Bien que la ligne que vous venez d’ajouter est toujours sélectionnée sur l’organisateur **Actions de directive d’emplacement**, sélectionnez **Modifier la requête** pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier la requête pour l’action.
-1. Sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne dans la requête.
+1. Bien que la ligne que vous venez d’ajouter est toujours sélectionnée sur l’organisateur **Actions de directive d’emplacement** , sélectionnez **Modifier la requête** pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier la requête pour l’action.
+1. Sous l’onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne dans la requête.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Emplacements*
@@ -219,7 +219,7 @@ Les instructions d’emplacement sont des règles qui aident à identifier les e
     L’emplacement *QMS* est un emplacement d’entrepôt pour la qualité.
 
 1. Sélectionnez **OK** pour fermer la boîte de dialogue.
-1. Vous devez maintenant modifier la séquence des instructions d’emplacement de commande fournisseur avec l’entrepôt *51*. Enregistrez la nouvelle directive d’emplacement *51 Vers qualité*, actualisez la page et sélectionnez la directive d’emplacement dans la liste. Ensuite, utilisez les boutons **Déplacer vers le haut**et **Déplacer vers le bas** sur le volet Actions pour mettre la directive d’emplacement pour l’entrepôt *51* dans l’ordre suivant. (Avant de sélectionner **Déplacer vers le haut** ou **Déplacer vers le bas**, vous devez sélectionner une directive d’emplacement dans la liste.)
+1. Vous devez maintenant modifier la séquence des instructions d’emplacement de commande fournisseur avec l’entrepôt  *51*. Enregistrez la nouvelle directive d’emplacement *51 Vers qualité* , actualisez la page et sélectionnez la directive d’emplacement dans la liste. Ensuite, utilisez les boutons **Déplacer vers le haut** et **Déplacer vers le bas** sur le volet Actions pour mettre la directive d’emplacement pour l’entrepôt  *51* dans l’ordre suivant. (Avant de sélectionner **Déplacer vers le haut** ou **Déplacer vers le bas** , vous devez sélectionner une directive d’emplacement dans la liste.)
 
     1. 51 Vers qualité
     2. 51 CF Direct
@@ -234,7 +234,7 @@ Configurez un élément de menu afin que les appareils mobiles puissent exécute
 1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Dans la liste sélectionnez l’élément de menu **Rangement d’achat**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans la section **Classes de travail**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans la section **Classes de travail** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **ID classe de travail :** *Contrôle QC*
@@ -256,7 +256,7 @@ Configurez un élément de menu afin que les appareils mobiles puissent exécute
     - **Mode :** *Travail*
     - **Utiliser un travail existant :** *Non*
 
-1. Dans l’organisateur **Général**, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour les champs restants.
+1. Dans l’organisateur **Général** , définissez les valeurs suivantes. Acceptez les valeurs par défaut pour les champs restants.
 
     - **Processus de création du travail :** *Réception et rangement de la ligne de commande fournisseur*
     - **Générer un contenant :** *Oui*
@@ -269,9 +269,9 @@ Configurez un élément de menu afin que les appareils mobiles puissent exécute
 1. Allez dans **Gestion des entrepôts \> Configuration \> Appareil mobile \> Menu d’appareil mobile**.
 1. Dans le volet de gauche, sélectionnez le menu **Entrant**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans la colonne **Menus et éléments de menus disponibles**, sélectionnez le nouvel élément de menu **Réception de ligne de commande fournisseur**.
+1. Dans la colonne **Menus et éléments de menus disponibles** , sélectionnez le nouvel élément de menu **Réception de ligne de commande fournisseur**.
 1. Sélectionnez le bouton en forme de flèche à droite pour déplacer **Réception de ligne de CF** vers la colonne **Structure du menu**.
-1. Dans la colonne **Structure du menu**, sélectionnez **Réception de la ligne de CF**, puis sélectionnez le bouton de flèche vers le haut ou vers le bas pour déplacer l’élément de menu vers la position souhaitée dans le menu de l’appareil mobile.
+1. Dans la colonne **Structure du menu** , sélectionnez **Réception de la ligne de CF** , puis sélectionnez le bouton de flèche vers le haut ou vers le bas pour déplacer l’élément de menu vers la position souhaitée dans le menu de l’appareil mobile.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Exemple de scénario
@@ -282,13 +282,13 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande fournisseur**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande fournisseur** , définissez les valeurs suivantes :
 
     - **Compte fournisseur :** *104*
     - **Entrepôt :** *51*
 
 1. Sélectionnez **OK** pour fermer la boîte de dialogue et ouvrir la nouvelle commande fournisseur.
-1. Sur l’organisateur **Lignes de commande fournisseur**, la grille contient une nouvelle ligne. Sur cette ligne, définissez les valeurs suivantes :
+1. Sur l’organisateur **Lignes de commande fournisseur** , la grille contient une nouvelle ligne. Sur cette ligne, définissez les valeurs suivantes :
 
     - **Numéro d’article :** *M9203*
     - **Quantité :** *3*
@@ -302,16 +302,16 @@ Une fois la commande fournisseur créée, elle peut être reçue en utilisant l�
 
 #### <a name="receive-pallet-1"></a>Recevoir la palette 1
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *51*. (Entrez *51* comme ID utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt  *51*. (Entrez  *51* comme ID utilisateur et  *1* comme mot de passe.)
 1. Allez à **Entrant \> Réception de la ligne de CF**.
-1. Dans le champ **PONUM**, entrez le numéro de commande fournisseur.
+1. Dans le champ **PONUM** , entrez le numéro de commande fournisseur.
 1. Confirmez le numéro de la commande fournisseur.
-1. Dans le champ **LINENUM**, entrez le numéro de la ligne de la commande fournisseur en cours de réception. Comme la commande ne comporte qu’une seule ligne dans ce scénario, vous entrerez *1* dans le champ **LINENUM** pour chaque étape de réception.
+1. Dans le champ **LINENUM** , entrez le numéro de la ligne de la commande fournisseur en cours de réception. Comme la commande ne comporte qu’une seule ligne dans ce scénario, vous entrerez  *1* dans le champ **LINENUM** pour chaque étape de réception.
 1. Confirmez le numéro de ligne.
-1. Dans le champ **QTY**, entrez la quantité à recevoir. Du fait que la commande fournisseur concerne trois palettes (*PL*) dans ce scénario, et il y a trois étapes de réception, vous allez saisir *1* dans le champ **QTY** pour chaque étape de réception.
+1. Dans le champ **QTY** , entrez la quantité à recevoir. Du fait que la commande fournisseur concerne trois palettes ( *PL* ) dans ce scénario, et il y a trois étapes de réception, vous allez saisir  *1* dans le champ **QTY** pour chaque étape de réception.
 1. Confirmez la quantité.
 
-    La page **Contrôle qualité** qui apparaît n’a pas de champs de saisie. Il n’a que le bouton de confirmation (coche) en bas et le bouton Menu (**≡**) au sommet. (Le bouton Menu est parfois appelé le menu hamburger ou bouton hamburger.) Pour accélérer le processus de contrôle qualité, lorsque la palette passe le contrôle qualité, l’utilisateur confirme simplement la page **Contrôle qualité**.
+    La page **Contrôle qualité** qui apparaît n’a pas de champs de saisie. Il n’a que le bouton de confirmation (coche) en bas et le bouton Menu ( **≡** ) au sommet. (Le bouton Menu est parfois appelé le menu hamburger ou bouton hamburger.) Pour accélérer le processus de contrôle qualité, lorsque la palette passe le contrôle qualité, l’utilisateur confirme simplement la page **Contrôle qualité**.
 
     ![Page Contrôle qualité](media/quality-check.png "Page Contrôle qualité")
 
@@ -337,12 +337,12 @@ Une fois la commande fournisseur créée, elle peut être reçue en utilisant l�
 
 Pour ce scénario, la palette 2 sera rejetée.
 
-1. Dans le champ **LINENUM**, entrez *1* et confirmez le numéro de ligne.
+1. Dans le champ **LINENUM** , entrez  *1* et confirmez le numéro de ligne.
 1. Le champ **QTY** est maintenant disponible. Entrez *1* et confirmez la quantité.
 
     La page **Contrôle qualité** apparaît. Pour cette réception, la palette sera rejetée pour qualité, et elle sera mise dans l’emplacement de qualité *QMS*.
 
-1. Sélectionnez le bouton Menu (**≡**) en haut de la page, puis, dans le menu, sélectionnez **Rejeter**.
+1. Sélectionnez le bouton Menu ( **≡** ) en haut de la page, puis, dans le menu, sélectionnez **Rejeter**.
 1. Sur la page **Tâche** qui apparaît, entrez **QMS** comme emplacement de *Rangement* où envoyer la palette pour une inspection plus approfondie.
 
     La page **Qualité du contrôle qualité : Rangement** qui apparaît montre les détails du travail de rangement :
@@ -371,7 +371,7 @@ Pour plus d’informations sur la gestion de la qualité, voir [Présentation de
 
 Pour ce scénario, la palette 3 sera acceptée.
 
-1. Dans le champ **LINENUM**, entrez *1* et confirmez le numéro de ligne.
+1. Dans le champ **LINENUM** , entrez  *1* et confirmez le numéro de ligne.
 1. Le champ **QTY** est maintenant disponible. Entrez *1* et confirmez la quantité.
 
     La page **Contrôle qualité** apparaît. Pour cette réception, la palette sera acceptée pour qualité, et elle sera mise dans l’emplacement de rangement en vrac.
@@ -394,6 +394,6 @@ Pour ce scénario, la palette 3 sera acceptée.
 
     Sur la page **Tâche** de réception de la ligne de la commande fournisseur, vous recevez un message « Travail terminé ». Le champ **LINENUM** est disponible pour que vous puissiez commencer à recevoir la palette suivante.
 
-1. Sélectionnez le bouton Menu (**≡**) en haut de la page, puis, dans le menu, sélectionnez **Annuler** pour revenir au menu.
+1. Sélectionnez le bouton Menu ( **≡** ) en haut de la page, puis, dans le menu, sélectionnez **Annuler** pour revenir au menu.
 
 Vous pouvez maintenant fermer l’application mobile.

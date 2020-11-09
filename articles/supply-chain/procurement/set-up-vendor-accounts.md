@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: smmContactPerson, VendBankAccounts, VendTable
+ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018073"
 ---
 # <a name="set-up-vendor-accounts"></a>Paramétrer les comptes fournisseur
 
@@ -42,7 +42,7 @@ Lorsque vous créez un compte fournisseur, vous devez entrer des informations co
 -   Paramétrez la taxe, la livraison, la facture et les informations de paiement pour le fournisseur. Par défaut, ces paramètres sont copiés dans les documents que vous créez pour le fournisseur.
 -   Paramétrez des dimensions financières par défaut utilisées pour valider automatiquement les transactions avec le fournisseur dans les comptes financiers.
 
-Pour accélérer le processus de création des comptes fournisseur, vous pouvez créer des modèles. Pour créer un modèle, dans la page **Fournisseur**, dans le volet Actions, cliquez sur **Options** &gt; **Infos sur l'enregistrement**. Cliquez ensuite sur **Modèle de compte société**. Les modèles de compte société sont partagés avec d'autres utilisateurs.  
+Pour accélérer le processus de création des comptes fournisseur, vous pouvez créer des modèles. Pour créer un modèle, dans la page **Fournisseur** , dans le volet Actions, cliquez sur **Options** &gt; **Infos sur l'enregistrement**. Cliquez ensuite sur **Modèle de compte société**. Les modèles de compte société sont partagés avec d'autres utilisateurs.  
 
 Vous pouvez également créer un modèle utilisateur pour votre utilisation personnel. Vous ne pouvez pas supprimer un fournisseur associé à d'autres enregistrements, tels que des contacts ou des produits.
 
@@ -58,7 +58,7 @@ Pour chaque fournisseur, vous pouvez définir plusieurs adresses, chacune est ut
 ## <a name="vendor-contacts"></a>Contacts fournisseur
 Vous pouvez enregistrer des contacts pour un fournisseur. Ces contacts peuvent être utilisés sur des documents tels que des commandes fournisseur ou des demandes de devis.  
 
-Pour ajouter des contacts pour un fournisseur, dans la page **Tous les fournisseurs**, sous l'onglet, **Fournisseur**, dans le groupe **Paramétrage**, cliquez sur **Contacts** &gt; **Ajouter des contacts**.  
+Pour ajouter des contacts pour un fournisseur, dans la page **Tous les fournisseurs** , sous l'onglet, **Fournisseur** , dans le groupe **Paramétrage** , cliquez sur **Contacts** &gt; **Ajouter des contacts**.  
 
 Vous pouvez créer des contacts fournisseur de toutes pièces. Sinon, vous pouvez copier les détails d'une autre personne déjà enregistrée dans Supply Chain Management, et modifier les informations comme vous le souhaitez.  
 
@@ -75,7 +75,7 @@ Si plusieurs entités juridiques de votre organisation travaillent avec le même
 
 Pour fusionner les ID partie, procédez comme suit.
 
-1.  Sur la page **Carnet d'adresses global**, sélectionnez les enregistrements de carnet d'adresses qui représentent le fournisseur dans chaque entité juridique qui doit être incluse dans la mise en correspondance.
+1.  Sur la page **Carnet d'adresses global** , sélectionnez les enregistrements de carnet d'adresses qui représentent le fournisseur dans chaque entité juridique qui doit être incluse dans la mise en correspondance.
 2.  Dans le volet Actions, cliquez sur **Fusionner les enregistrements**.
 
 ## <a name="agreements"></a>Accords
@@ -93,11 +93,11 @@ Vous pouvez placer un fournisseur en attente pour différents types de transacti
 
 Lorsque vous mettez un fournisseur en attente, vous pouvez également indiquer un motif et une date à laquelle le statut en attente prendra fin. Si vous n'entrez aucune date de fin, le blocage du fournisseur est définitif.
 
-Vous pouvez mettre à jour en bloc le statut En attente sur **Tous** pour les fournisseurs en fonction des critères sélectionnés sur la page **Désactivation du fournisseur**, puis affectez un motif expliquant pourquoi le fournisseur est en attente.
+Vous pouvez mettre à jour en bloc le statut En attente sur **Tous** pour les fournisseurs en fonction des critères sélectionnés sur la page **Désactivation du fournisseur** , puis affectez un motif expliquant pourquoi le fournisseur est en attente.
 
 Les critères suivants sont utilisés pour inclure les fournisseurs qui ont été inactifs au cours d'une période, incluent ou excluent les fournisseurs qui sont des employés, et excluent les fournisseurs bénéficiant d'un délai de grâce avant la prochaine mise en attente.
 
-- Selon le nombre de jours que vous entrez dans le champ **Période d'activité** sur la page **Désactivation du fournisseur**, l'application calcule la dernière date à laquelle le fournisseur peut avoir eu une activité considérée comme inactive. Cela signifie la date du jour moins le nombre de jours que vous entrez. Si une ou plusieurs factures existent pour le fournisseur dont la date est postérieure à la dernière date calculée, le fournisseur sera exclus de la désactivation. Cela est également validé si le fournisseur a des paiements après la date, ouvre des demandes d'achat, ouvre des commandes fournisseur, demande des devis, ou répond.
+- Selon le nombre de jours que vous entrez dans le champ **Période d'activité** sur la page **Désactivation du fournisseur** , l'application calcule la dernière date à laquelle le fournisseur peut avoir eu une activité considérée comme inactive. Cela signifie la date du jour moins le nombre de jours que vous entrez. Si une ou plusieurs factures existent pour le fournisseur dont la date est postérieure à la dernière date calculée, le fournisseur sera exclus de la désactivation. Cela est également validé si le fournisseur a des paiements après la date, ouvre des demandes d'achat, ouvre des commandes fournisseur, demande des devis, ou répond.
 - Le nombre de jours dans le champ **Délai de grâce avant la prochaine suspension** permet de calculer la dernière date de grâce. Cela signifie la date du jour moins le nombre de jours que vous entrez. Cela s'applique uniquement aux fournisseurs qui ont été précédemment inactivés. Dans le cas d'une désactivation précédente, l'application vérifie l'historique d'autres occurrences de désactivation du fournisseur et vérifie si la dernière désactivation est survenue avant la dernière date de grâce. Dans ce cas, le fournisseur est inclus dans le processus de désactivation.
 - Le paramètre **Inclure les employés** fait référence aux fournisseurs qui sont liés à un employé. Vous pouvez le définir si vous souhaitez inclure les employés.
 
@@ -114,7 +114,7 @@ Si vous devez effectuer des paiements vers un compte bancaire fournisseur, vous 
 ## <a name="ledger-accounts"></a>Comptes généraux
 Vous pouvez spécifier les comptes par défaut qui s'affichent automatiquement dans les journaux des factures fournisseur pour le fournisseur spécifié. Cette fonctionnalité peut être utile si vous payez généralement les même articles ou services auprès des mêmes fournisseurs. Si vous spécifiez un compte par défaut, vous pouvez entrer rapidement et efficacement des entrées de journal dans le journal des factures. Les comptes par défaut que vous spécifiez ne sont pas utilisés pour les commandes fournisseur ou les factures fournisseur entrées dans l'écran **Facture fournisseur**.  
 
-Vous devez sélectionner les comptes par défaut dans la page **Paramétrage du compte par défaut**, accessible à partir de l'onglet **Facture** dans l'enregistrement de fournisseur. Les comptes que vous sélectionnez ici s'affichent dans la liste filtrée des comptes du compte fournisseur lorsque vous entrez une entrée de journal. Vous pouvez définir l'un des comptes comme celui par défaut.
+Vous devez sélectionner les comptes par défaut dans la page **Paramétrage du compte par défaut** , accessible à partir de l'onglet **Facture** dans l'enregistrement de fournisseur. Les comptes que vous sélectionnez ici s'affichent dans la liste filtrée des comptes du compte fournisseur lorsque vous entrez une entrée de journal. Vous pouvez définir l'un des comptes comme celui par défaut.
 
 
 

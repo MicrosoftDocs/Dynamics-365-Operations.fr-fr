@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: PurchRFQVendQuestionAnswer
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
@@ -16,18 +17,18 @@ ms.search.industry: public sector
 ms.author: kamaybac
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3b458895e0edbe20e3cd65728c2f878c0ca0fbea
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8f8b015ec6d295404942fab41ca0f11a1fd4afe8
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979490"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018273"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d'offre
 
 [!include [banner](../includes/banner.md)]
 
-Si votre agence a envoyé un appel d'offre, les fournisseurs ont parfois des questions concernant la demande. Les fournisseurs qui ont des questions sur un appel d'offre peuvent les soumettre et lire les réponses dans la page **Collaboration du fournisseur** si vous rendez cette page disponible. Si les questions des fournisseurs sont acceptées, **Questions et réponses** est disponible dans la page **Offre pour un appel d'offre** sur **Collaboration du fournisseur** et pour votre agence via la page **Appel d'offre**, **Questions et réponses**. 
+Si votre agence a envoyé un appel d'offre, les fournisseurs ont parfois des questions concernant la demande. Les fournisseurs qui ont des questions sur un appel d'offre peuvent les soumettre et lire les réponses dans la page **Collaboration du fournisseur** si vous rendez cette page disponible. Si les questions des fournisseurs sont acceptées, **Questions et réponses** est disponible dans la page **Offre pour un appel d'offre** sur **Collaboration du fournisseur** et pour votre agence via la page **Appel d'offre** , **Questions et réponses**. 
 
 Les utilisateurs peuvent publier plusieurs fois les réponses aux questions des fournisseurs. Les fournisseurs ne peuvent plus publier les questions après la sélection d'un fournisseur et l'attribution de l'appel d'offre ou si la date limite pour les questions est atteinte.
 
@@ -35,25 +36,25 @@ Les utilisateurs peuvent publier plusieurs fois les réponses aux questions des 
 
 Lors de la création d'un appel d'offre, vous déterminez si les fournisseurs peuvent poser des questions sur l'appel d'offre.
 
-1. Accédez à **Approvisionnements > Appels d'offre**, puis cliquez sur **Nouveau > Appel d'offre**. 
-1. Dans la page **Nouvel appel d'offre**, **En-tête** pour définir les champs **Options des questions des fournisseurs** pour autoriser les questions avant une certaine date.
+1. Accédez à **Approvisionnements > Appels d'offre** , puis cliquez sur **Nouveau > Appel d'offre**. 
+1. Dans la page **Nouvel appel d'offre** , **En-tête** pour définir les champs **Options des questions des fournisseurs** pour autoriser les questions avant une certaine date.
 1. Définissez l'option **Autoriser la question du fournisseur** sur **Oui** pour que les fournisseurs puissent saisir des questions. Les utilisateurs peuvent saisir et répondre aux questions et désigner les questions fréquemment posées à publier pour les fournisseurs lorsque l'appel d'offre est envoyé aux fournisseurs.
-1. Facultatif : dans le champ **Date limite**, définissez la date de fin de soumission des questions. Si aucune date limite n'est saisie, les questions sont acceptées tant que l'appel d'offre est ouvert et accepte les offres.
+1. Facultatif : dans le champ **Date limite** , définissez la date de fin de soumission des questions. Si aucune date limite n'est saisie, les questions sont acceptées tant que l'appel d'offre est ouvert et accepte les offres.
 1. Cliquez sur **Enregistrer** pour enregistrer l'appel d'offre.
 1. Cliquez sur **Envoyer** pour envoyer l'appel d'offre aux fournisseurs.
 
 ## <a name="entering-and-replying-to-vendor-questions"></a>Saisie et réponse aux questions des fournisseurs
 
-Les fournisseurs saisissez des questions dans la page **Collaboration du fournisseur > Offre d'appel d'offre**, organisateur **Questions du fournisseur**. Seuls le fournisseur et les utilisateurs affichent la question.
+Les fournisseurs saisissez des questions dans la page  **Collaboration du fournisseur > Offre d'appel d'offre** , organisateur **Questions du fournisseur**. Seuls le fournisseur et les utilisateurs affichent la question.
 
 ## <a name="entering-a-vendor-question"></a>Saisie d'une question de fournisseur
 
-1. Dans la collaboration du fournisseur, à la page **Offre d'appel d'offre**, cliquez sur **Questions et réponses**, puis cliquez sur **+ Poser une question**.
+1. Dans la collaboration du fournisseur, à la page **Offre d'appel d'offre** , cliquez sur **Questions et réponses** , puis cliquez sur **+ Poser une question**.
 
     > [!NOTE]
-    > Sinon, un utilisateur peut saisir les questions pour un fournisseur sur la page **Appel d'offre** en cliquant sur **Gérer les réponses**, **Modifier la réponse à l'appel d'offres**, puis en cliquant sur **Questions et réponses**.
+    > Sinon, un utilisateur peut saisir les questions pour un fournisseur sur la page **Appel d'offre** en cliquant sur **Gérer les réponses** , **Modifier la réponse à l'appel d'offres** , puis en cliquant sur **Questions et réponses**.
 
-2. Sur le champ **Question**, saisissez le texte de la question.
+2. Sur le champ **Question** , saisissez le texte de la question.
 3. Cliquez sur **Soumettre**. Répétez les étapes 1 à 3 pour ajouter une question.
 4. Une fois terminé, cliquez sur **Enregistrer** pour enregistrer vos questions.
 
@@ -61,7 +62,7 @@ Les fournisseurs saisissez des questions dans la page **Collaboration du fourni
 
 Seuls le fournisseur et les utilisateurs affichent la question et la réponse.
 
-1. Dans la page **Appel d'offre**, cliquez sur **Questions et réponses** pour afficher la page **Questions et réponses**.
+1. Dans la page **Appel d'offre** , cliquez sur **Questions et réponses** pour afficher la page **Questions et réponses**.
 1. Cliquez sur **Modifier**.
 1. Saisissez le texte dans le champ **Réponse** pour répondre à la question du vendeur.
 1. Cochez la case **Réponse directe**.
@@ -72,11 +73,11 @@ Seuls le fournisseur et les utilisateurs affichent la question et la réponse.
 
 Si vous recevez la même question de plusieurs fournisseurs, vous pouvez regrouper les questions et répondre en une seule fois. Tous les fournisseurs reçoivent une notification lorsque les questions fréquemment posées et les réponses sont publiées. Les fournisseurs et toute personne ayant accès à l'appel d'offre peuvent consulter le résumé des questions et des réponses.
 
-1. Dans la page **Appel d'offre**, cliquez sur **Questions et réponses** pour afficher la page **Questions et réponses**.
+1. Dans la page **Appel d'offre** , cliquez sur **Questions et réponses** pour afficher la page **Questions et réponses**.
 2. Cliquez sur **Modifier**.
 3. Choisissez un code pour la question courante, comme la lettre « a ».
 4. Pour chaque ligne qui pose une question similaire, saisissez le code dans le champ **Code du groupe**. Par exemple, pour chaque ligne demandant la couleur de l'article, saisissez « a ».
-5. Choisissez l'une des lignes avec la valeur de code, puis saisissez la question et répondez comme vous le souhaitez dans le résumé disponible dès la publication des questions et des réponses (champs **Question du groupe, Réponse du groupe**).
+5. Choisissez l'une des lignes avec la valeur de code, puis saisissez la question et répondez comme vous le souhaitez dans le résumé disponible dès la publication des questions et des réponses (champs **Question du groupe, Réponse du groupe** ).
 6. Facultatif : vous pouvez cochez la case **Réponse directe** pour envoyer les réponses uniquement aux fournisseurs sélectionnés.
 7. Cliquez sur **Enregistrer** pour enregistrer vos réponses.
 8. Facultatif : vous pouvez rétablir les questions et réponses aux valeurs publiées précédemment si vous voulez annuler vos modifications.

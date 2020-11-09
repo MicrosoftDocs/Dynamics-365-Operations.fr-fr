@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,24 +16,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017412"
 ---
 # <a name="warehouse-slotting"></a>Créneaux de l’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Les créneaux de l’entrepôt vous permettent de consolider la demande par article et unité de mesure à partir des commandes ayant le statut *Commandé*, *Réservé* ou *Validé*. La demande générée peut ensuite être appliquée aux emplacements qui seront utilisés pour le prélèvement, en fonction de la quantité, de l’unité, des dimensions physiques, des emplacements fixes, etc. Une fois le plan des créneaux établi, le travail de réapprovisionnement peut être créé pour apporter la quantité appropriée de stock à chaque emplacement.
+Les créneaux de l’entrepôt vous permettent de consolider la demande par article et unité de mesure à partir des commandes ayant le statut *Commandé* , *Réservé* ou *Validé*. La demande générée peut ensuite être appliquée aux emplacements qui seront utilisés pour le prélèvement, en fonction de la quantité, de l’unité, des dimensions physiques, des emplacements fixes, etc. Une fois le plan des créneaux établi, le travail de réapprovisionnement peut être créé pour apporter la quantité appropriée de stock à chaque emplacement.
 
 Cette fonctionnalité permet aux gestionnaires d’entrepôt de planifier intelligemment les emplacements de prélèvement avant de passer des commandes à l’entrepôt et de créer des travaux de prélèvement.
 
 ## <a name="turn-on-the-warehouse-slotting-feature"></a>Activer la fonction de créneaux d’entrepôt
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Fonctionnalité de créneaux d’entrepôt*
@@ -53,7 +54,7 @@ Les niveaux d’unité de mesure permettent de regrouper plusieurs unités de me
     - **Description :** *Chaque palette de boîte*
 
 1. Sélectionnez **Enregistrer**.
-1. Sur l’organisateur **Unités de mesure**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Sur l’organisateur **Unités de mesure** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Unité :** *Boîte*
@@ -82,8 +83,8 @@ Vous devez sélectionner le code de directive à associer à un modèle.
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Codes de directives**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans le champ **Code de directive**, entrez *Créneaux*.
-1. Dans le champ **Description de la directive**, entrez *Créneaux*.
+1. Dans le champ **Code de directive** , entrez *Créneaux*.
+1. Dans le champ **Description de la directive** , entrez *Créneaux*.
 
 ### <a name="set-up-slotting-templates"></a>Paramétrer les modèles de créneaux
 
@@ -120,7 +121,7 @@ Vous pouvez également spécifier une requête pour réduire l’étendue de la 
 
 Pour chaque modèle que vous créez, procédez comme suit pour ajouter une ligne pour chaque spécification de créneau.
 
-1. Sur l’organisateur **Détails du modèle de créneau**, sélectionnez **Nouveau** pour créer un modèle de ligne.
+1. Sur l’organisateur **Détails du modèle de créneau** , sélectionnez **Nouveau** pour créer un modèle de ligne.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Séquence :** _1_
@@ -158,7 +159,7 @@ Pour chaque modèle que vous créez, procédez comme suit pour ajouter une ligne
 
     - **Autoriser un creux :** _Oui_
 
-        Lorsque cette option est définie sur *Oui*, si aucune demande ne peut être établie en créneau, un travail de mouvement sera créé pour retirer le stock des emplacements où il y en a, mais où rien n’a été réparti en créneaux. Le modèle est ensuite réexécuté. Cette fois, il ignore le stock des emplacements. Cette fonctionnalité fonctionne mieux lorsque le champ **Attribuer des critères de créneau** est défini sur _Tenir compte de la quantité_.
+        Lorsque cette option est définie sur *Oui* , si aucune demande ne peut être établie en créneau, un travail de mouvement sera créé pour retirer le stock des emplacements où il y en a, mais où rien n’a été réparti en créneaux. Le modèle est ensuite réexécuté. Cette fois, il ignore le stock des emplacements. Cette fonctionnalité fonctionne mieux lorsque le champ **Attribuer des critères de créneau** est défini sur _Tenir compte de la quantité_.
 
     - **Utilisation d’emplacement fixe :** _N’utiliser des emplacements fixes que pour le produit_
 
@@ -188,7 +189,7 @@ Pour chaque modèle que vous créez, procédez comme suit pour ajouter une ligne
 
 1. Sélectionnez la ligne où le champ **Séquence** est défini sur *2*.
 1. Sélectionnez **Modifier une requête**.
-1. Sous l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Sous l'onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Emplacements*
@@ -203,13 +204,13 @@ Pour chaque modèle que vous créez, procédez comme suit pour ajouter une ligne
 Au moins une directive d’emplacement doit être configurée pour prendre en charge les choix de créneau. Utilisez les procédures de cette section pour configurer une nouvelle *directive sur l’emplacement de réapprovisionnement* pour les pics de créneaux.
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
-1. Dans le volet gauche, dans le champ **Type d’ordre de travail**, cliquez sur *Réapprovisionnement*.
+1. Dans le volet gauche, dans le champ **Type d’ordre de travail** , cliquez sur *Réapprovisionnement*.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans l’en-tête de la nouvelle directive d’emplacement, dans le champ **Nom**, entrez *Prélèvement de créneau 61*.
+1. Dans l’en-tête de la nouvelle directive d’emplacement, dans le champ **Nom** , entrez *Prélèvement de créneau 61*.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Configurer l’organisateur Directives d’emplacement
 
-1. Dans l’organisateur **Directives d’emplacement**, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour tous les autres champs.
+1. Dans l’organisateur **Directives d’emplacement** , définissez les valeurs suivantes. Acceptez les valeurs par défaut pour tous les autres champs.
 
     - **Type de travail :** _Choisir_
     - **Site :** _6_
@@ -220,7 +221,7 @@ Au moins une directive d’emplacement doit être configurée pour prendre en ch
 
 ##### <a name="configure-the-lines-fasttab"></a>Configurer l’organisateur Lignes
 
-1. Dans l’organisateur **Lignes**, cliquez sur **Nouveau** pour créer une ligne.
+1. Dans l’organisateur **Lignes** , cliquez sur **Nouveau** pour créer une ligne.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour tous les autres champs.
 
     - **Quantité de départ :** _0_
@@ -230,7 +231,7 @@ Au moins une directive d’emplacement doit être configurée pour prendre en ch
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Configurer l’organisateur Actions des directives d’emplacement
 
-1. Dans l’organisateur **Actions des directives d’emplacement**, cliquez sur **Nouveau** pour créer une ligne.
+1. Dans l’organisateur **Actions des directives d’emplacement** , cliquez sur **Nouveau** pour créer une ligne.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes. Acceptez les valeurs par défaut pour tous les autres champs.
 
     - **Nom :** _Vrac_
@@ -240,8 +241,8 @@ Au moins une directive d’emplacement doit être configurée pour prendre en ch
 
 ##### <a name="edit-the-query"></a>Modifier la requête
 
-1. Dans l’organisateur **Actions de directive d’emplacement**, sélectionnez **Modifier la requête**.
-1. Sous l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Dans l’organisateur **Actions de directive d’emplacement** , sélectionnez **Modifier la requête**.
+1. Sous l'onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Emplacements*
@@ -267,8 +268,8 @@ Suivez ces étapes pour créer la demande à laquelle vous allez appliquer le cr
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau** pour créer une commande client.
-1. Dans la boîte de dialogue **Créer une commande client**, dans le champ **Compte client**, sélectionnez _US-007_.
-1. Dans le champ **Entrepôt**, sélectionnez _61_.
+1. Dans la boîte de dialogue **Créer une commande client** , dans le champ **Compte client** , sélectionnez _US-007_.
+1. Dans le champ **Entrepôt** , sélectionnez _61_.
 1. Cliquez sur **OK**.
 1. La nouvelle commande client est ouverte. Elle comprend une ligne vide sur l’organisateur **Lignes de commande client**. Sur cette ligne, définissez les valeurs suivantes :
 
@@ -282,8 +283,8 @@ Suivez ces étapes pour créer la demande à laquelle vous allez appliquer le cr
 
 1. Sélectionnez **Enregistrer**.
 1. Sélectionnez **Nouveau** pour créer une deuxième commande client.
-1. Dans la boîte de dialogue **Créer une commande client**, dans le champ **Compte client**, sélectionnez _US-008_.
-1. Dans le champ **Entrepôt**, sélectionnez _61_.
+1. Dans la boîte de dialogue **Créer une commande client** , dans le champ **Compte client** , sélectionnez _US-008_.
+1. Dans le champ **Entrepôt** , sélectionnez _61_.
 1. La nouvelle commande client est ouverte. Elle comprend une ligne vide sur l’organisateur **Lignes de commande client**. Sur cette ligne, définissez les valeurs suivantes :
 
     - **Article :** _T0100_
@@ -297,7 +298,7 @@ Une fois que tous les éléments prérequis sont en place, comme décrit dans la
 
 #### <a name="generate-demand"></a>Générer une demande
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Réapprovisionnement \> Modèles de créneaux**, puis sélectionnez le modèle de créneau créé précédemment.
+1. Accédez à **Gestion des entrepôts \> Configuration \> Réapprovisionnement \> Modèles de créneaux** , puis sélectionnez le modèle de créneau créé précédemment.
 1. Dans le volet Actions, sélectionnez **Générer la demande**. Cette commande évalue toute la demande qui se trouve dans le système et qui correspond à la requête de modèle de créneau. La demande totale de toutes les commandes est ensuite consolidée sur une ligne par quantité/unité de mesure. Un message d’information apparaît lorsque le processus est terminé.
 
 #### <a name="slotting-demand"></a>Demande de créneaux
@@ -323,7 +324,7 @@ Le plan de créneau indique l’emplacement auquel chaque article/quantité a é
 
 #### <a name="create-replenishment"></a>Créer un réapprovisionnement
 
-Une fois le plan de créneau créé, vous devez créer un *travail de réapprovisionnement*, sur la base du plan.
+Une fois le plan de créneau créé, vous devez créer un *travail de réapprovisionnement* , sur la base du plan.
 
 - Dans le volet Actions, sélectionnez **Exécuter le réapprovisionnement**. Un message d’information apparaît lorsque le processus est terminé. Ce message indique le nombre d’en-têtes créés pour l’ID de build de travail.
 
@@ -343,7 +344,7 @@ Une fois que tous les éléments requis sont en place, vous pouvez configurer l�
     - Créer un travail de réapprovisionnement
 
     > [!NOTE]
-    > Les étapes de création de créneau sont progressives. Si vous souhaitez sélectionner *Localiser la demande*, vous devez d’abord sélectionner *Générer une demande*.
+    > Les étapes de création de créneau sont progressives. Si vous souhaitez sélectionner *Localiser la demande* , vous devez d’abord sélectionner *Générer une demande*.
 
 1. Spécifiez le modèle de créneau à utiliser.
 1. Définissez la récurrence d’exécution automatique, si vous le souhaitez.

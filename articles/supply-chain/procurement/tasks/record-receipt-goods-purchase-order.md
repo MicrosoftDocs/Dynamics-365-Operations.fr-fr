@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1aa4043aca2e53eae32256a98d556c25b4ec1957
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018604"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Enregistrer la réception de marchandises sur la commande fournisseur
 
@@ -33,9 +33,9 @@ Cette rubrique explique comment enregistrer la réception des marchandises direc
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Préparer une nouvelle commande fournisseur pour la réception des marchandises
 1. Allez dans **Volet de navigation > Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Compte fournisseur**, saisissez `US-101`.
+3. Dans le champ **Compte fournisseur** , saisissez `US-101`.
 4. Cliquez sur **OK**.
-5. Dans le champ **Numéro d'article**, entrez `M0001`.
+5. Dans le champ **Numéro d'article** , entrez `M0001`.
 6. Entrez `5` dans le champ **Quantité**.
 7. Dans le volet Action, sélectionnez **Achat**.
 8. Sélectionnez **Confirmer**.

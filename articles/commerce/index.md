@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024658"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107159"
 ---
 # <a name="commerce-home-page"></a>Page d'accueil de Commerce
-
 
 [!include [banner](includes/banner.md)]
 
@@ -49,8 +48,8 @@ Ce version permet la création d'expériences numériques à l'aide d'outils de 
 Sélectionnez une zone de fonctionnalités pour en savoir plus.
 - [Configurer un environnement d'évaluation Commerce](provisioning-guide.md)
 - [Architecture commerciale](retail-components.md)
-- [Paramétrer vos canaux](channels-overview.md)
-- [Vente de vos produits et services](set-up-retail-products.md)
+- [Configurer vos canaux](channels-overview.md)
+- [Promotion de vos produits et services](set-up-retail-products.md)
 - [Gérer vos commandes](Order-fulfillment-overview.md)
 - [Gérer vos clients](set-up-customer-loyalty-program.md)
 - [Gérer vos finances](retail-statements.md)

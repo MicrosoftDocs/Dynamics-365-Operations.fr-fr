@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 5dbc856f21b6398109ab1ac4da409252050385df
+ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071588"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4011577"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
 [!include [banner](../includes/banner.md)]
 
-Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs. 
+Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs.
 
 Le tableau suivant décrit les fonctions de mise en forme avancées disponibles lorsque vous créez des états.
 
@@ -44,7 +44,8 @@ Le tableau suivant décrit les fonctions de mise en forme avancées disponibles 
 | Utilisez des apostrophes ('') et une esperluette (&) pour les valeurs de dimension | Vous pouvez utiliser des valeurs de dimension, notamment l'esperluette (&) pour la conception d'état. |
 
 ## <a name="advanced-cell-placement"></a>Positionnement avancé de cellules
-Le positionnement avancé de cellules, ou *forçage*, implique de disposer des valeurs spécifiques dans des cellules spécifiques. Le forçage est par exemple souvent utilisé pour déplacer le solde approprié dans un relevé de flux de trésorerie. Vous pouvez utiliser le forçage pour les besoins suivants :
+
+Le positionnement avancé de cellules, ou *forçage* , implique de disposer des valeurs spécifiques dans des cellules spécifiques. Le forçage est par exemple souvent utilisé pour déplacer le solde approprié dans un relevé de flux de trésorerie. Vous pouvez utiliser le forçage pour les besoins suivants :
 
 - Déplacez des valeurs de Microsoft Excel dans des cellules spécifiques.
 - Pour des valeurs spécifiques codées en dur dans un état.
@@ -52,11 +53,12 @@ Le positionnement avancé de cellules, ou *forçage*, implique de disposer des v
 
 > [!NOTE]
 > Dans de nombreux cas, vous devez configurer votre définition d'état afin que les calculs de colonnes soient effectués avant les calculs de ligne. Procédez comme suit pour effectuer cette configuration :
-> 
+>
 > 1. Ouvrez la définition d'état dans le Générateur d'états.
-> 2. Sous l'onglet **Paramètres**, sous **Priorité de calcul**, sélectionnez **Effectuer tout d'abord le calcul par colonne, puis par ligne**.
+> 2. Sous l'onglet **Paramètres** , sous **Priorité de calcul** , sélectionnez **Effectuer tout d'abord le calcul par colonne, puis par ligne**.
 
 ## <a name="designing-the-report"></a>Conception de l'état
+
 Lorsque vous créez un état, vous devez créer toutes les lignes spécifiques d'abord pour que les valeurs soient extraites comme prévu. Ajoutez ensuite le format **Aucune impression** pour supprimer les détails incluant les valeurs finales.
 
 > [!IMPORTANT]
@@ -65,6 +67,7 @@ Lorsque vous créez un état, vous devez créer toutes les lignes spécifiques d
 Pour le forçage, les formules utilisent le format suivant : &lt;colonne de destination&gt;=&lt;colonne d'origine&gt;.&lt;code de ligne&gt; Séparez tous les emplacements supplémentaires de ligne par une virgule et un espace. Voici un exemple : D=C.190,E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Exemples d'options de mise en forme avancées
+
 Les exemples suivants indiquent comment mettre en forme la définition de ligne et la définition de colonne pour forcer un état de base de flux de trésorerie (exemple 1) et un état de statistiques (exemple 2).
 
 ### <a name="example-1-basic-forcing"></a>Exemple 1 : Forçage de base
@@ -78,15 +81,15 @@ Le tableau suivant présente un exemple de définition de ligne qui utilise le f
 | 160      |                                  |             |                             |                            |                              |
 | 190      |                                  |             |                             |                            |                              |
 
-> [!NOTE] 
+> [!NOTE]
 > Les colonnes vides ont été supprimées du tableau précédent à des fins de présentation : les colonnes Substitution de format, Solde normal, Contrôle d'impression, Restriction de colonne ne sont pas affichées.
 
 Le tableau suivant présente un exemple d'une définition de colonne qui utilise le forçage de base dans la ligne.
 
-|                              | A   | G    | C        | D      | E      | Ve    |
+|           Format             | A   | o    | C        | D      | E      | V    |
 |------------------------------|-----|------|----------|--------|--------|------|
 | En-tête 1                     |     |      |          |        |        |      |
-| En-tête 2                     | A   | G    | C        | D      | E      | Ve    |
+| En-tête 2                     | A   | o    | C        | D      | E      | V    |
 | En-tête 3                     |     |      |          |        |        |      |
 | Type de colonne                  | LIGNE | DESC | FD       | FD     | FD     | CALC |
 | Code registre/Catégorie d'attribut |     |      | RÉEL   | RÉEL | RÉEL |      |
@@ -113,14 +116,14 @@ Le tableau suivant présente un exemple d'une définition de ligne qui utilise l
 | 310      | Ventes aux USA                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |                                            |
 | 340      | Ventes à l'international       | CAL         | D=C.220,E=C115,F=(C.220/C.115)  |                      |                |                                            |
 
-> [!NOTE] 
+> [!NOTE]
 > Les colonnes vides ont été supprimées du tableau précédent à des fins de présentation : les colonnes Contrôle d'impression, Restriction de colonne et Modificateur de ligne ne sont pas affichées.
 
 Le tableau suivant présente un exemple d'une définition de colonne qui utilise le forçage pour un état statistique.
 
-|                              | A   | B    | C      | D            | E     | Ve            |
+|    Format                    | A   | o    | C      | D            | E     | V            |
 |------------------------------|-----|------|--------|--------------|-------|--------------|
-| En-tête 1                     | A   | B    | C      | D            | E     | Ve            |
+| En-tête 1                     | A   | o    | C      | D            | E     | V            |
 | En-tête 2                     | -   | -    | Année en cours    | Ventes annuelles | Personnel | $ par personne |
 | En-tête 3                     |     |      |        |              |       |              |
 | Type de colonne                  | LIGNE | DESC | FD     | CALC         | CALC  | CALC         |
@@ -132,6 +135,7 @@ Le tableau suivant présente un exemple d'une définition de colonne qui utilise
 | Largeur de colonne                 | 5   | 30   | 14     | 14           | 14    | 14           |
 
 ## <a name="restricting-a-row-to-a-specific-reporting-unit"></a>Restriction d'une ligne à une unité de déclaration spécifique
+
 Lorsqu'une ligne d'état est limitée à une unité de déclaration spécifique, cette ligne indique les données liées uniquement pour l'unité de déclaration nommée et ignore les données des autres unités de déclaration dans l'arborescence de génération d'états. Par exemple, vous pouvez créer une ligne qui fournit des détails sur toutes les dépenses opérationnelles pour un département spécifique. Votre état peut contenir des données en double s'il contient une arborescence de génération d'états et une définition de ligne ayant plus que le compte normal. Par exemple, vous avez une arborescence de génération d'états qui répertorie les six départements de votre organisation, et vous avez également une définition de ligne qui répertorie une combinaison spécifique d'un compte et d'un département dans la ligne. Lorsque vous générez l'état, la combinaison spécifique d'un compte et d'un département est imprimée à chaque niveau de l'arborescence de génération d'états, même si ce département ne correspond pas forcément au contenu de l'arborescence. Ce comportement se produit car la ligne remplace ce qui est généralement filtré par la définition d'état. Pour éviter la duplication des données, vous pouvez limiter une ligne à une unité d'enregistrement spécifique.
 
 > [!NOTE]
@@ -139,20 +143,21 @@ Lorsqu'une ligne d'état est limitée à une unité de déclaration spécifique,
 
 ### <a name="restrict-a-row-to-a-reporting-unit"></a>Limiter une ligne à une unité de déclaration
 
-1. Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis sélectionnez une définition de ligne à modifier.
+1. Dans le générateur d'état, cliquez sur **Définitions de ligne** , puis sélectionnez une définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Formules/Lignes/Unités connexes** appropriée.
-3. Dans la boîte de dialogue **Sélection d'unité organisationnelle**, dans le champ **Organigramme d'entreprise**, sélectionnez l'organigramme affecté à la définition du rapport.
+3. Dans la boîte de dialogue **Sélection d'unité organisationnelle** , dans le champ **Organigramme d'entreprise** , sélectionnez l'organigramme affecté à la définition du rapport.
 4. Sélectionnez une unité de déclaration, puis cliquez sur **OK**. La restriction apparaît dans la cellule de la définition de ligne.
 5. Double-cliquez sur la cellule de la colonne **Liens vers les dimensions financières** de la ligne limitée, puis entrez un lien vers le système de données financières.
 
 ## <a name="selecting-print-control-in-a-row-definition"></a>Sélection du contrôle d'impression dans une définition de ligne
+
 Vous pouvez spécifier des codes de contrôle d'impression pour chaque colonne à l'aide de la cellule **Contrôle d'impression**.
 
 ### <a name="add-print-control-codes-to-a-report-row"></a>Ajouter des codes de contrôle d'impression à une ligne d'état
 
 1. Dans le Concepteur de rapports, ouvrez la définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Contrôle d'impression**.
-3. Dans la boîte de dialogue **Contrôle d'impression**, sélectionnez un code de contrôle d'impression, ou appuyez sur la touche Ctrl et maintenez-la enfoncée pour sélectionner plusieurs codes. Vous pouvez également entrer des codes de contrôle d'impression directement dans la cellule **Contrôle d'impression**. Utilisez des virgules pour séparer plusieurs codes de contrôle d'impression.
+3. Dans la boîte de dialogue **Contrôle d'impression** , sélectionnez un code de contrôle d'impression, ou appuyez sur la touche Ctrl et maintenez-la enfoncée pour sélectionner plusieurs codes. Vous pouvez également entrer des codes de contrôle d'impression directement dans la cellule **Contrôle d'impression**. Utilisez des virgules pour séparer plusieurs codes de contrôle d'impression.
 4. Sélectionnez n'importe quelles options conditionnelles d'impression.
 5. Cliquez sur **OK**.
 
@@ -182,13 +187,15 @@ Le tableau suivant décrit les codes de contrôle d'impression conditionnels pou
 | CR                 | Permet d'imprimer uniquement les soldes créditeurs pour cette ligne. |
 
 ## <a name="column-restriction-cell-in-a-row-definition"></a>Cellule Restriction de colonne dans une définition de ligne
+
 La cellule **Restriction de colonne** dans une définition de ligne a plusieurs objectifs. Selon le type de ligne, vous pouvez utiliser la cellule **Restriction de colonne** pour spécifier l'une des tâches suivantes :
 
 - La cellule peut limiter l'impression des montants de ligne dans une colonne spécifique. Cette fonction est utile si vous créez un bilan tabulaire.
 - La cellule peut préciser la colonne des montants à trier.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Utilisation d'une formule de calcul dans une définition de ligne
-Une formule de calcul dans une définition de ligne peut inclure les opérateurs **+**, **-**, **\*** et **/** ainsi que des instructions **IF/THEN/ELSE**. En outre, un calcul peut impliquer des cellules et des montants absolus (les nombres réels inclus dans la formule). La formule peut comporter jusqu'à 1 024 caractères. Les calculs ne peuvent pas être appliqués aux lignes contenant des cellules de type **Liens vers les dimensions financières** (FD). Toutefois, vous pouvez inclure des calculs dans les lignes consécutives, supprimer l'impression de ces lignes, puis totaliser les lignes de calcul.
+
+Une formule de calcul dans une définition de ligne peut inclure les opérateurs **+** , **-** , **\*** et **/** ainsi que des instructions **IF/THEN/ELSE**. En outre, un calcul peut impliquer des cellules et des montants absolus (les nombres réels inclus dans la formule). La formule peut comporter jusqu'à 1 024 caractères. Les calculs ne peuvent pas être appliqués aux lignes contenant des cellules de type **Liens vers les dimensions financières** (FD). Toutefois, vous pouvez inclure des calculs dans les lignes consécutives, supprimer l'impression de ces lignes, puis totaliser les lignes de calcul.
 
 ### <a name="operators-in-a-calculation-formula"></a>Opérateurs dans une formule de calcul
 
@@ -199,8 +206,8 @@ Une formule de calcul utilise des opérateurs plus complexes qu'une formule de t
 
 ### <a name="create-a-calculation-formula"></a>Créer une formule de calcul
 
-1. Dans le générateur d'état, cliquez sur **Définitions de ligne**, puis ouvrez ensuite la définition de ligne à modifier.
-2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez **CAL**.
+1. Dans le générateur d'état, cliquez sur **Définitions de ligne** , puis ouvrez ensuite la définition de ligne à modifier.
+2. Double-cliquez sur la cellule **Code de format** , puis sélectionnez **CAL**.
 3. Entrez la formule de calcul dans la cellule **Formules/Lignes/Unités associées**.
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Exemple d'une formule de calcul pour des lignes spécifiques
@@ -213,10 +220,10 @@ Dans cet exemple, la formule de calcul **@100+@330** signifie que le montant de 
 | 370      | Caisse au début de l'année   | CAL         | @100+@330                  | AI            |              |                              |
 | 400      | Caisse au début de la période | TOT         | 340+370                    |               |              |                              |
 
-Lorsque le code de format d'une ligne dans une définition de ligne est **CAL**, et que vous entrez un calcul mathématique dans la cellule **Formules/lignes/unités associées**, vous devez également entrer la lettre de la colonne et de la ligne associées dans l'état. Par exemple, entrez **A.120** pour représenter la colonne A, ligne 120. Sinon, vous pouvez utiliser un arobase (@) pour indiquer toutes les colonnes. Par exemple, entrez **@120** pour représenter toutes les colonnes de la ligne 120. Tout calcul mathématique qui n'a pas une lettre de colonne ou un arobase (@) est un nombre réel.
+Lorsque le code de format d'une ligne dans une définition de ligne est **CAL** , et que vous entrez un calcul mathématique dans la cellule **Formules/lignes/unités associées** , vous devez également entrer la lettre de la colonne et de la ligne associées dans l'état. Par exemple, entrez **A.120** pour représenter la colonne A, ligne 120. Sinon, vous pouvez utiliser un arobase (@) pour indiquer toutes les colonnes. Par exemple, entrez **@120** pour représenter toutes les colonnes de la ligne 120. Tout calcul mathématique qui n'a pas une lettre de colonne ou un arobase (@) est un nombre réel.
 
 > [!NOTE]
-> Si vous utilisez le code de ligne d'étiquette pour référencer une ligne, vous devez utiliser un point (.) comme séparateur entre la lettre de colonne et l'étiquette (par exemple, **A.GROSS\_MARGIN/A.SALES**). Si vous utilisez un arobase (@), un séparateur n'est pas obligatoire (par exemple, **\@GROSS\_MARGIN/@SALES**).
+> Si vous utilisez le code de ligne d'étiquette pour référencer une ligne, vous devez utiliser un point (.) comme séparateur entre la lettre de colonne et l'étiquette (par exemple, **A.GROSS\_MARGIN/A.SALES** ). Si vous utilisez un arobase (@), un séparateur n'est pas obligatoire (par exemple, **\@GROSS\_MARGIN/@SALES** ).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemple d'une formule de calcul pour une colonne spécifique
 
@@ -235,8 +242,8 @@ Dans cet exemple, la formule de calcul **E=C.340** signifie que le calcul dans l
 
 Lorsque vous modifiez un nombre ou un calcul dans une colonne d'une ligne spécifique mais que vous ne souhaitez pas affecter d'autres colonnes dans l'état, vous pouvez spécifier **CAL** (Calcul) dans la colonne **Code de format** de la définition de ligne.
 
-- Pour effectuer un calcul sur toutes les colonnes de l'état (**FD**), n'entrez pas d'affectation de colonne.
-- Pour limiter une formule à des colonnes spécifiques, entrez la lettre de colonne, le signe égal (**=**), puis la formule.
+- Pour effectuer un calcul sur toutes les colonnes de l'état ( **FD** ), n'entrez pas d'affectation de colonne.
+- Pour limiter une formule à des colonnes spécifiques, entrez la lettre de colonne, le signe égal ( **=** ), puis la formule.
 - Vous pouvez spécifier plusieurs colonnes. Lorsque vous utilisez un arobase (@) avec un emplacement spécifique de colonne, ce signe est lié à la ligne.
 - Vous pouvez entrer plusieurs formules de colonne dans une ligne. Séparez les formules par des virgules.
 
@@ -254,7 +261,7 @@ Les instructions **IF/THEN/ELSE** peuvent être ajoutées à n'importe quel calc
 
 #### <a name="if-statements"></a>Instructions IF
 
-Après l'instruction **IF**, les instructions peuvent être évaluées comme true ou false. Après l'instruction **IF**, les instructions peuvent impliquer une évaluation unique, ou il peut s'agir d'une instruction complexe qui peut contenir plusieurs expressions. Voici quelques exemples :
+Après l'instruction **IF** , les instructions peuvent être évaluées comme true ou false. Après l'instruction **IF** , les instructions peuvent impliquer une évaluation unique, ou il peut s'agir d'une instruction complexe qui peut contenir plusieurs expressions. Voici quelques exemples :
 
 - **IF A.200&gt;0** (Évaluation unique)
 - **IF A.200&gt;0 AND A.200&lt;10,000** (Instruction complexe)
@@ -266,13 +273,13 @@ Le terme **Periods** dans une instruction **IF** représente le nombre de pério
 
 Les formules **THEN** et **ELSE** peuvent être n'importe quel calcul valide et être des affectations très simples de valeur ou bien des formules complexes. Par exemple, l'instruction **IF A.200&gt;0 THEN A=B.200** signifie « Si la valeur de la cellule de la colonne A de la ligne 200 est supérieure à 0 (zéro), placez la valeur de la cellule de la colonne B de la ligne 200 dans la cellule de la colonne A de la ligne actuelle. » L'instruction **IF/THEN** précédente place une valeur dans une colonne de la ligne actuelle. Toutefois, vous pouvez également utiliser un arobase (@) dans les évaluations true/false ou la formule pour représenter toutes les colonnes. Voici quelques exemples supplémentaires qui sont décrits dans les sections suivantes :
 
-- **IF A.200 &gt;0 THEN B.200** : Si la valeur de la cellule A.200 est positive, la valeur de la cellule B.200 est placée dans chaque colonne de la ligne actuelle.
-- **IF A.200 &gt;>0 THEN @200** : Si la valeur de la cellule A.200 est positive, la valeur de chaque colonne de la ligne 200 est placée dans la colonne correspondante de la ligne actuelle.
-- **IF @200 &gt;>0 THEN @200** : Si la valeur de la ligne 200 de la colonne actuelle est positive, la valeur de la ligne 200 est placée dans la même colonne de la ligne actuelle.
+- **IF A.200 &gt;0 THEN B.200**  : Si la valeur de la cellule A.200 est positive, la valeur de la cellule B.200 est placée dans chaque colonne de la ligne actuelle.
+- **IF A.200 &gt;>0 THEN @200**  : Si la valeur de la cellule A.200 est positive, la valeur de chaque colonne de la ligne 200 est placée dans la colonne correspondante de la ligne actuelle.
+- **IF @200 &gt;>0 THEN @200**  : Si la valeur de la ligne 200 de la colonne actuelle est positive, la valeur de la ligne 200 est placée dans la même colonne de la ligne actuelle.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restriction d'un calcul dans une unité de déclaration dans une définition de ligne
 
-Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d'états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **@Unit** dans la cellule **Formules/lignes/unités associées** dans la définition de ligne. Le code **@Unit** est répertorié dans la colonne B de l'arborescence de génération d'états **Nom d'unité**. Lorsque vous utilisez le code **@Unit**, les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l'arborescence de génération d'états.
+Pour limiter un calcul à une seule unité de génération dans une arborescence de génération d'états, de sorte que le montant qui en résulte ne soit pas reporté sur une unité de niveau supérieur, vous pouvez utiliser le code **@Unit** dans la cellule **Formules/lignes/unités associées** dans la définition de ligne. Le code **@Unit** est répertorié dans la colonne B de l'arborescence de génération d'états **Nom d'unité**. Lorsque vous utilisez le code **@Unit** , les valeurs ne sont pas reportées, mais le calcul est évalué à chaque niveau de l'arborescence de génération d'états.
 
 > [!NOTE]
 > Pour utiliser cette fonction, une arborescence de génération d'états doit être associée à la définition de ligne.
@@ -280,7 +287,7 @@ Pour limiter un calcul à une seule unité de génération dans une arborescence
 La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule **Formules/lignes/unités associées** de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction **IF @Unit**. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l'état, mais uniquement pour l'unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d'entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n'apparaît pas dans les unités de l'arborescence. Vous pouvez également limiter le montant à une seule colonne de l'état, comme la colonne H par exemple, à l'aide d'une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l'état. Vous pouvez inclure des combinaisons **OR** dans une instruction **IF**. Voici un exemple : IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Vous pouvez spécifier une unité dans une restriction de type de calcul de l'une des manières suivantes :
 
 - Entrez un nom d'unité pour inclure les unités qui correspondent. Par exemple, **IF @Unit(SALES)** active le calcul pour toute unité nommée SALES, même s'il existe plusieurs unités de vente dans l'arborescence de génération d'états.
-- Entrez le nom d'unité et la société pour limiter le calcul aux unités spécifiques d'une société spécifique. Par exemple, entrez **IF @Unit(ACME:SALES**) pour limiter le calcul aux unités de vente de la société ACME.
+- Entrez le nom d'unité et la société pour limiter le calcul aux unités spécifiques d'une société spécifique. Par exemple, entrez **IF @Unit(ACME:SALES** ) pour limiter le calcul aux unités de vente de la société ACME.
 - Entrez le code hiérarchique complet à partir de l'arborescence de génération d'états pour limiter le calcul à une unité spécifique. Par exemple, entrez **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -289,8 +296,8 @@ La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Limitation d'un calcul à une unité organisationnelle
 
 1. Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
-2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez **CAL**.
-3. Cliquez sur la cellule **Formules/lignes/unités associées**, puis entrez un calcul conditionnel commençant par une construction **IF @Unit**.
+2. Double-cliquez sur la cellule **Code de format** , puis sélectionnez **CAL**.
+3. Cliquez sur la cellule **Formules/lignes/unités associées** , puis entrez un calcul conditionnel commençant par une construction **IF @Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instructions IF/THEN/ELSE dans une définition de colonne
 
@@ -301,6 +308,6 @@ Une instruction **IF/THEN/ELSE** permet à n'importe quel calcul de dépendre de
 
 #### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Utiliser des apostrophes et une esperluette pour les valeurs de dimension dans une ligne, une colonne ou une arborescence
 
-Vous pouvez concevoir des états à l'aide de valeurs de dimension contenant une esperluette (&). 
+Vous pouvez concevoir des états à l'aide de valeurs de dimension contenant une esperluette (&).
 
-Dans tout champ **Lier aux dimensions financières**, vous pouvez entrer une valeur comme **'Compte&Résultat'**. L'insertion d'apostrophes (' ') de part et d'autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l'esperluette (&). 
+Dans tout champ **Lier aux dimensions financières** , vous pouvez entrer une valeur comme **'Compte&Résultat'**. L'insertion d'apostrophes (' ') de part et d'autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l'esperluette (&).

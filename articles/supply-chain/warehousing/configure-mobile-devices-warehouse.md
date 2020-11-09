@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFMenuItem
+ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12f1c405566561661fe7c13db5bfca70114b1618
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016192"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d'entrepôt
 
@@ -38,13 +38,13 @@ Cette rubrique décrit la procédure de configuration des éléments de menu uti
 - Créer le travail qui sera effectué via un autre processus. Par exemple, la réception d'un article pour une commande fournisseur peut créer le travail de rangement pour un autre collaborateur.
 - Effectuer un travail créé par un autre processus (travail existant), comme le travail de rangement créé lors de la réception d'un article pour une commande fournisseur.
 
-Pour créer une option de menu pour une activité ou une recherche, définissez le champ **Mode** sur **Indirect**. La liste des options **Code activité** devient alors disponible pour vous permettre de sélectionner le type de recherche ou d'activité auquel l'option de menu s'applique. Pour créer une option de menu pour générer le travail d'entrepôt, définissez le champ **Mode** sur **Travail**. La liste des options **Processus de création de travail** devient alors disponible. Pour créer une option de menu pour traiter le travail d'entrepôt existant, définissez le champ **Mode** sur **Travail**, puis définissez l'option **Utiliser un travail existant** sur **Oui**. 
+Pour créer une option de menu pour une activité ou une recherche, définissez le champ **Mode** sur **Indirect**. La liste des options **Code activité** devient alors disponible pour vous permettre de sélectionner le type de recherche ou d'activité auquel l'option de menu s'applique. Pour créer une option de menu pour générer le travail d'entrepôt, définissez le champ **Mode** sur **Travail**. La liste des options **Processus de création de travail** devient alors disponible. Pour créer une option de menu pour traiter le travail d'entrepôt existant, définissez le champ **Mode** sur **Travail** , puis définissez l'option **Utiliser un travail existant** sur **Oui**. 
 
 > [!NOTE]
 > Des champs supplémentaires peuvent être disponibles pour les options de menu selon le mode sélectionné pour l'option de menu, et si l'option de menu est utilisée pour effectuer un travail existant. Pour plus d'informations sur les sélections de champs supplémentaires, voir la section « Options de menu supplémentaires » plus loin dans cette rubrique.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurer des options de menu pour les activités et les recherches
-Si le champ **Mode** d'une option de menu est défini sur **Indirect**, vous pouvez créer une option de menu pour effectuer une activité ou une recherche générale qui ne crée pas de travail. Il peut s'agir par exemple de la réimpression des étiquettes de contenant ou d'une recherche sur les articles dans un emplacement. Le tableau suivant répertorie les options disponibles.
+Si le champ **Mode** d'une option de menu est défini sur **Indirect** , vous pouvez créer une option de menu pour effectuer une activité ou une recherche générale qui ne crée pas de travail. Il peut s'agir par exemple de la réimpression des étiquettes de contenant ou d'une recherche sur les articles dans un emplacement. Le tableau suivant répertorie les options disponibles.
 
 | Option | Description |
 |---|---|
@@ -55,7 +55,7 @@ Si le champ **Mode** d'une option de menu est défini sur **Indirect**, vous pou
 | Recherche de contenant | Afficher la quantité d'articles dans un contenant et l'emplacement du contenant. |
 | Démarrer l'ordre de fabrication | Démarrer un ordre d'exécution. |
 | Production au rebut | Entrer la quantité d'articles au rebut créés lors de la production pour chaque ligne de nomenclature. |
-| Dernière palette de production | Indiquer que la dernière palette d'articles a été produite pour un ordre de fabrication, et que le statut de l'ordre de fabrication doit être mis à jour sur **Déclaré terminé**. Le statut des matières premières qui n'ont pas été consommées lors de la production passe de **Prélevé** à **En commande**, et les articles peuvent être renvoyés au stock. |
+| Dernière palette de production | Indiquer que la dernière palette d'articles a été produite pour un ordre de fabrication, et que le statut de l'ordre de fabrication doit être mis à jour sur **Déclaré terminé**. Le statut des matières premières qui n'ont pas été consommées lors de la production passe de **Prélevé** à **En commande** , et les articles peuvent être renvoyés au stock. |
 | Recherche d'article | Numériser un article pour déterminer sa progression dans l'entrepôt. La recherche renvoie tous les emplacements et quantités pour l'article numérisé. |
 | Réimprimer l'étiquette | Réimprimer une étiquette de contenant. |
 | Création de contenant | Créer un contenant parent en combinant plusieurs contenants dans le même emplacement. Cette option peut s'avérer utile si vous déplacez plusieurs contenants simultanément. Une fois le contenant parent déplacé, vous devez le décomposer en contenants avant de prélever des articles de chaque contenant. <p></p>**Astuce :** pour déplacer un contenant parent, vous devez utiliser un appareil mobile qui est configuré pour créer des mouvements. |
@@ -64,12 +64,12 @@ Si le champ **Mode** d'une option de menu est défini sur **Indirect**, vous pou
 | Vérification au départ du chauffeur | Enregistrer qu'un chauffeur a terminé son rendez-vous. |
 | Effacer le cache de souche de numéros | Supprimer les numéros de souche du cache de souche de numéros. Cette activité est généralement exécutée par un administrateur système pour résoudre les problèmes de mise en cache lors de l'utilisation d'appareils mobiles. |
 | Modifier la disposition de traitement par lots | Permettre à un collaborateur de spécifier le code disposition de lot d'un article et d'un lot. Cette sélection met à jour le code disposition spécifié pour le lot. |
-| Afficher la liste des travaux en cours | Afficher la liste des travaux disponibles à un utilisateur donné. L'utilisateur peut ensuite sélectionner le travail à effectuer et être dirigé vers celui-ci. Cette liste peut être affichée sur les tablettes dont la taille d'écran est d'au moins 7 pouces. Lorsque vous sélectionnez cette option, les options de menu **Modifier la requête** et **Liste de champs** deviennent disponibles. La page **Modifier la requête** permet de paramétrer les critères pour le travail qui s'affiche dans la liste. La page **Liste de champs** permet de sélectionner les champs qui s'affichent dans la liste des travaux. Par exemple, vous pouvez réduire le nombre de champs qui s'affichent pour permettre à l'utilisateur de sélectionner plus rapidement l'élément de travail le plus approprié. Dans le raccourci **Général**, dans le champ **Enregistrements par page**, vous pouvez également sélectionner le nombre d'enregistrements de travail visibles par page. Si l'option **Autoriser les utilisateurs à filtrer le travail par type de transaction** est sélectionnée, la liste des travaux inclut un contrôle supplémentaire **Filtrer le travail** qui permet à l'utilisateur de filtrer le travail par type de transaction. Dans la liste des travaux, seul le travail auquel les utilisateurs sont autorisés à accéder est visible. Vous devez vous assurer que les utilisateurs disposent d'autorisations pour une ou plusieurs options de menu dirigées par l'utilisateur qui prennent en charge les types de classe de travail spécifiques auxquels ils doivent pouvoir accéder. Les autorisations sont vérifiées lorsqu'un utilisateur tente d'effectuer un travail de la liste.|
-| Créer un ordre de transfert à partir des contenants | Permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l'application d’entreposage. Les magasiniers commencent par sélectionner l'entrepôt de destination et peuvent ensuite analyser un ou plusieurs contenants à l'aide de l'application. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l'ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants. Pour plus d'informations, voir [Créer des ordres de transfert depuis l'application d'entreposage](create-transfer-order-from-warehouse-app.md)
+| Afficher la liste des travaux en cours | Afficher la liste des travaux disponibles à un utilisateur donné. L'utilisateur peut ensuite sélectionner le travail à effectuer et être dirigé vers celui-ci. Cette liste peut être affichée sur les tablettes dont la taille d'écran est d'au moins 7 pouces. Lorsque vous sélectionnez cette option, les options de menu **Modifier la requête** et **Liste de champs** deviennent disponibles. La page **Modifier la requête** permet de paramétrer les critères pour le travail qui s'affiche dans la liste. La page **Liste de champs** permet de sélectionner les champs qui s'affichent dans la liste des travaux. Par exemple, vous pouvez réduire le nombre de champs qui s'affichent pour permettre à l'utilisateur de sélectionner plus rapidement l'élément de travail le plus approprié. Dans le raccourci **Général** , dans le champ **Enregistrements par page** , vous pouvez également sélectionner le nombre d'enregistrements de travail visibles par page. Si l'option **Autoriser les utilisateurs à filtrer le travail par type de transaction** est sélectionnée, la liste des travaux inclut un contrôle supplémentaire **Filtrer le travail** qui permet à l'utilisateur de filtrer le travail par type de transaction. Dans la liste des travaux, seul le travail auquel les utilisateurs sont autorisés à accéder est visible. Vous devez vous assurer que les utilisateurs disposent d'autorisations pour une ou plusieurs options de menu dirigées par l'utilisateur qui prennent en charge les types de classe de travail spécifiques auxquels ils doivent pouvoir accéder. Les autorisations sont vérifiées lorsqu'un utilisateur tente d'effectuer un travail de la liste.|
+| Créer un ordre de transfert à partir des contenants | Permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l'application d’entreposage. Les magasiniers commencent par sélectionner l'entrepôt de destination et peuvent ensuite analyser un ou plusieurs contenants à l'aide de l'application. Lorsque le magasinier sélectionne **Terminer la commande** , un traitement par lots créera l'ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants. Pour plus d'informations, voir [Créer des ordres de transfert depuis l'application d'entreposage](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurer des options de menu pour créer un travail pour un autre collaborateur ou un autre processus
-Vous pouvez paramétrer une option de menu qui crée un travail pour un autre collaborateur après l'exécution d'une première action sur l'appareil mobile. Par exemple, lorsqu'un collaborateur utilise un appareil mobile pour recevoir un article, le travail de rangement est créé pour un autre collaborateur. Pour paramétrer une option de menu qui crée un travail, dans la page **Options de menu d'appareil mobile**, dans le champ **Mode**, sélectionnez **Travail**. Dans le tableau suivant, les options du champ **Processus de création du travail** sont classées par type d'ordre d'exécution.
+Vous pouvez paramétrer une option de menu qui crée un travail pour un autre collaborateur après l'exécution d'une première action sur l'appareil mobile. Par exemple, lorsqu'un collaborateur utilise un appareil mobile pour recevoir un article, le travail de rangement est créé pour un autre collaborateur. Pour paramétrer une option de menu qui crée un travail, dans la page **Options de menu d'appareil mobile** , dans le champ **Mode** , sélectionnez **Travail**. Dans le tableau suivant, les options du champ **Processus de création du travail** sont classées par type d'ordre d'exécution.
 
 
 <table>
@@ -207,7 +207,7 @@ Vous pouvez paramétrer une option de menu qui crée un travail pour un autre co
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configurer des options de menu pour traiter le travail existant
-Outre la configuration des options de menu pour créer le travail d'entrepôt, vous pouvez paramétrer des options de menu pour traiter le travail qui a déjà été créé. Définissez le champ **Mode** sur **Travail**, puis sélectionnez l'option **Utiliser un travail existant**. Certaines options supplémentaires deviennent alors disponibles sous l'onglet **Général**. Vous pouvez contrôler l'accès à l'option de menu en affectant une ou plusieurs classes de travail dans l'organisateur **Classe de travail**. Les classes de travail définissent le travail que l'option de menu peut traiter. La classe de travail permet également d'autoriser l'accès à des rôles utilisateur spécifiques ou de séparer le traitement pour différents types d'opérations. Le tableau suivant décrit les options disponibles. L'option est disponible sous le champ **Dirigé par** de la page **Options de menu d'appareil mobile**. 
+Outre la configuration des options de menu pour créer le travail d'entrepôt, vous pouvez paramétrer des options de menu pour traiter le travail qui a déjà été créé. Définissez le champ **Mode** sur **Travail** , puis sélectionnez l'option **Utiliser un travail existant**. Certaines options supplémentaires deviennent alors disponibles sous l'onglet **Général**. Vous pouvez contrôler l'accès à l'option de menu en affectant une ou plusieurs classes de travail dans l'organisateur **Classe de travail**. Les classes de travail définissent le travail que l'option de menu peut traiter. La classe de travail permet également d'autoriser l'accès à des rôles utilisateur spécifiques ou de séparer le traitement pour différents types d'opérations. Le tableau suivant décrit les options disponibles. L'option est disponible sous le champ **Dirigé par** de la page **Options de menu d'appareil mobile**. 
 
 <table>
 
