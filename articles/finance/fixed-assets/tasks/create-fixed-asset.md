@@ -1,6 +1,6 @@
 ---
-title: Création d'une immobilisation
-description: La société fictive USMF sert d'exemple dans ce guide de tâche.
+title: Créer une immobilisation
+description: Cette rubrique explique comment créer un nouvel enregistrement d'immobilisation à partir de la page de liste des immobilisations.
 author: saraschi2
 manager: AnnBe
 ms.date: 07/01/2019
@@ -16,27 +16,36 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db1a372414a38446b7e55d94a3e6a8a22a889d0a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 2b7d65a047251fa036242fb456725bc8cba957b9
+ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142798"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4000241"
 ---
-# <a name="create-a-fixed-asset"></a><span data-ttu-id="cd317-103">Création d'une immobilisation</span><span class="sxs-lookup"><span data-stu-id="cd317-103">Create a fixed asset</span></span>
+# <a name="create-a-fixed-asset"></a><span data-ttu-id="7af11-103">Créer une immobilisation</span><span class="sxs-lookup"><span data-stu-id="7af11-103">Create a fixed asset</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="cd317-104">La société fictive USMF sert d'exemple dans ce guide de tâche.</span><span class="sxs-lookup"><span data-stu-id="cd317-104">This task guide uses the USMF demo company.</span></span>  <span data-ttu-id="cd317-105">Une nouvelle immobilisation sera alors créée à l'aide de la page de liste Immobilisations.</span><span class="sxs-lookup"><span data-stu-id="cd317-105">It will create a new fixed asset using the Fixed asset list page.</span></span>
+<span data-ttu-id="7af11-104">Cette rubrique explique comment créer un nouvel enregistrement d'immobilisation à partir de la page de liste **Immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="7af11-104">This topic explains how to create a new fixed asset record from the **Fixed asset** list page.</span></span>
 
-1. <span data-ttu-id="cd317-106">Allez dans le **Volet de navigation > Modules > Immobilisations > Immobilisations > Immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="cd317-106">Go to **Navigation pane > Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
-2. <span data-ttu-id="cd317-107">Dans le **volet Actions**, cliquez sur **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="cd317-107">On the **Action pane**, click **New**.</span></span>
-3. <span data-ttu-id="cd317-108">Entrez ou sélectionnez une valeur dans le champ **Groupe d'immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="cd317-108">In **the Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="cd317-109">Le champ **Numéro** sera défini par défaut si vous avez activé la fonctionnalité **Numéroter automatiquement les immobilisations**  dans les paramètres **Immobilisations** et dans le groupe d'**immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="cd317-109">The **Number** field will default if you have enabled **Autonumber fixed assets functionality** in the **Fixed assets parameters** and the **Fixed asset group**.</span></span>  <span data-ttu-id="cd317-110">Sinon, vous devez entrer un numéro unique pour identifier l'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="cd317-110">If not, you must enter a unique number to identify the fixed asset.</span></span>  
-4. <span data-ttu-id="cd317-111">Tapez une valeur dans le champ **Nom**.</span><span class="sxs-lookup"><span data-stu-id="cd317-111">In the **Name** field, type a value.</span></span> <span data-ttu-id="cd317-112">Entrez les informations supplémentaires dont votre entreprise a besoin pour cette immobilisation.</span><span class="sxs-lookup"><span data-stu-id="cd317-112">Enter the additional information that your business needs for this asset.</span></span>  
-5. <span data-ttu-id="cd317-113">Dans le volet **Actions**, cliquez sur **Registres**.</span><span class="sxs-lookup"><span data-stu-id="cd317-113">On the **Action pane**, click **Books**.</span></span>
-6. <span data-ttu-id="cd317-114">Entrez une date dans le champ **Date d'acquisition**.</span><span class="sxs-lookup"><span data-stu-id="cd317-114">In the **Acquisition date** field, enter a date.</span></span>
-7. <span data-ttu-id="cd317-115">Entrez un nombre dans le champ **Prix d'acquisition**.</span><span class="sxs-lookup"><span data-stu-id="cd317-115">In the **Acquisition price** field, enter a number.</span></span>
-    - <span data-ttu-id="cd317-116">Entrez les informations supplémentaires dont votre entreprise a besoin pour ce registre.</span><span class="sxs-lookup"><span data-stu-id="cd317-116">Enter the additional information that your business needs for this book.</span></span>  
-    - <span data-ttu-id="cd317-117">Entrez les informations supplémentaires dont votre entreprise a besoin pour les registres restants.</span><span class="sxs-lookup"><span data-stu-id="cd317-117">Enter the additional information that your business needs for the remaining books.</span></span>  
-8. <span data-ttu-id="cd317-118">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="cd317-118">Close the page.</span></span>
+<span data-ttu-id="7af11-105">Le système attribue le numéro d'actif en fonction de la séquence de numéros affectée au groupe d'immobilisations.</span><span class="sxs-lookup"><span data-stu-id="7af11-105">The system assigns the asset number, based on the number sequence that is assigned to the fixed asset group.</span></span> <span data-ttu-id="7af11-106">Si vous utilisez le modèle d'immobilisation pour importer des actifs via le complément Microsoft Excel, ou si vous utilisez une autre tâche d'importation, le système crée automatiquement des enregistrements d'immobilisation et incrémente le numéro d'actif.</span><span class="sxs-lookup"><span data-stu-id="7af11-106">If you use the fixed asset template to import assets via the Microsoft Excel add-in, or if you use another import job, the system automatically creates fixed asset records and increments the asset number.</span></span>
 
+<span data-ttu-id="7af11-107">Pour créer manuellement un enregistrement d'actif, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="7af11-107">To manually create an asset record, follow these steps.</span></span>
+
+1. <span data-ttu-id="7af11-108">Allez dans **Volet de navigation \> Modules \> Immobilisations \> Immobilisations \> Immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="7af11-108">Go to **Navigation pane \> Modules \> Fixed assets \> Fixed assets \> Fixed assets**.</span></span>
+2. <span data-ttu-id="7af11-109">Dans le **volet Actions** , sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="7af11-109">On the **Action pane** , select **New**.</span></span>
+3. <span data-ttu-id="7af11-110">Entrez ou sélectionnez une valeur dans le champ **Groupe d'immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="7af11-110">In **the Fixed asset group** field, enter or select a value.</span></span> <span data-ttu-id="7af11-111">Le champ **Numéro** sera défini par défaut si vous avez activé la fonctionnalité **Numéroter automatiquement les immobilisations**  dans les paramètres **Immobilisations** et dans le groupe d' **immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="7af11-111">The **Number** field will default if you have enabled **Autonumber fixed assets functionality** in the **Fixed assets parameters** and the **Fixed asset group**.</span></span> <span data-ttu-id="7af11-112">Sinon, vous devez entrer un numéro unique pour identifier l'immobilisation.</span><span class="sxs-lookup"><span data-stu-id="7af11-112">If not, you must enter a unique number to identify the fixed asset.</span></span>
+4. <span data-ttu-id="7af11-113">Dans le champ **Nom** , entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7af11-113">In the **Name** field, enter a value.</span></span> <span data-ttu-id="7af11-114">Entrez les informations supplémentaires dont votre entreprise a besoin pour cette immobilisation.</span><span class="sxs-lookup"><span data-stu-id="7af11-114">Enter the additional information that your business needs for this asset.</span></span>
+5. <span data-ttu-id="7af11-115">Dans le volet **Actions** , sélectionnez sur **Registres**.</span><span class="sxs-lookup"><span data-stu-id="7af11-115">On the **Action pane** , select **Books**.</span></span>
+6. <span data-ttu-id="7af11-116">Entrez une date dans le champ **Date d'acquisition**.</span><span class="sxs-lookup"><span data-stu-id="7af11-116">In the **Acquisition date** field, enter a date.</span></span>
+7. <span data-ttu-id="7af11-117">Entrez un nombre dans le champ **Prix d'acquisition**.</span><span class="sxs-lookup"><span data-stu-id="7af11-117">In the **Acquisition price** field, enter a number.</span></span>
+
+    - <span data-ttu-id="7af11-118">Entrez les informations supplémentaires dont votre entreprise a besoin pour ce registre.</span><span class="sxs-lookup"><span data-stu-id="7af11-118">Enter the additional information that your business needs for this book.</span></span>
+    - <span data-ttu-id="7af11-119">Entrez les informations supplémentaires dont votre entreprise a besoin pour les registres restants.</span><span class="sxs-lookup"><span data-stu-id="7af11-119">Enter the additional information that your business needs for the remaining books.</span></span>
+
+8. <span data-ttu-id="7af11-120">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="7af11-120">Close the page.</span></span>
+
+<span data-ttu-id="7af11-121">Vous pouvez également importer des immobilisations à l'aide du complément Excel ou en exécutant une tâche d'importation à partir de l'espace de travail **Gestion de données**.</span><span class="sxs-lookup"><span data-stu-id="7af11-121">You can also import fixed assets by using the Excel add-in or by running an import job from the **Data management** workspace.</span></span> <span data-ttu-id="7af11-122">Avant d'exécuter l'importation, entrez les valeurs des champs obligatoires dans le modèle.</span><span class="sxs-lookup"><span data-stu-id="7af11-122">Before you run the import, enter the values for required fields in the template.</span></span>
+
+<span data-ttu-id="7af11-123">Si vous n'avez pas défini le numéro d'immobilisation dans le modèle du complément Excel ou dans Gestion des données, le système crée un numéro d'immobilisation pour chaque actif importé et incrémente automatiquement la séquence de numéros pour chacun.</span><span class="sxs-lookup"><span data-stu-id="7af11-123">If you didn't define the fixed asset number in the template of the Excel add-in, or in Data management, the system creates a fixed asset number for each imported asset and automatically increments the number sequence for each.</span></span> <span data-ttu-id="7af11-124">Cependant, si vous importez des actifs et définissez des numéros d'actifs dans le modèle, le système n'incrémente **pas** automatiquement la séquence de numéros.</span><span class="sxs-lookup"><span data-stu-id="7af11-124">However, if you import assets and define asset numbers in the template, the system does **not** automatically increment the number sequence.</span></span> <span data-ttu-id="7af11-125">Dans ce cas, un administrateur devra peut-être mettre à jour manuellement la séquence de numéros.</span><span class="sxs-lookup"><span data-stu-id="7af11-125">In this case, an admin might have to manually update the number sequence.</span></span> <span data-ttu-id="7af11-126">Si vous avez défini le numéro d'immobilisation dans le modèle du complément Excel, le système utilise le numéro d'immobilisation défini et incrémente la séquence de numéros.</span><span class="sxs-lookup"><span data-stu-id="7af11-126">If you defined the fixed asset number in the template of the Excel add-in, the system uses the defined fixed asset number and increments the number sequence.</span></span>
