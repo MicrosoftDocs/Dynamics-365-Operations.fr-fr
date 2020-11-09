@@ -1,9 +1,9 @@
 ---
 title: Rembourser les clients
 description: Cet article explique la création des transactions de remboursement pour un groupe de clients. Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde.
-author: ShivamPandey-msft
+author: JodiChristiansen
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,39 +15,39 @@ ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
-ms.author: shpandey
+ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97982dec140ed440682ae507f40557670ebccd3e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022541"
 ---
-# <a name="reimburse-customers"></a><span data-ttu-id="2c58a-104">Rembourser les clients</span><span class="sxs-lookup"><span data-stu-id="2c58a-104">Reimburse customers</span></span>
+# <a name="reimburse-customers"></a><span data-ttu-id="42b1e-104">Rembourser les clients</span><span class="sxs-lookup"><span data-stu-id="42b1e-104">Reimburse customers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2c58a-105">Cet article explique la création des transactions de remboursement pour un groupe de clients.</span><span class="sxs-lookup"><span data-stu-id="2c58a-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="2c58a-106">Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde.</span><span class="sxs-lookup"><span data-stu-id="2c58a-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
+<span data-ttu-id="42b1e-105">Cet article explique la création des transactions de remboursement pour un groupe de clients.</span><span class="sxs-lookup"><span data-stu-id="42b1e-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="42b1e-106">Si un client a un solde créditeur, vous pouvez le rembourser pour le montant du solde.</span><span class="sxs-lookup"><span data-stu-id="42b1e-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 
-<span data-ttu-id="2c58a-107">Le tableau suivant indique la configuration requise qui doit être en place avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="2c58a-107">The following table shows the prerequisites that must be in place before you start.</span></span>
+<span data-ttu-id="42b1e-107">Le tableau suivant indique la configuration requise qui doit être en place avant de commencer.</span><span class="sxs-lookup"><span data-stu-id="42b1e-107">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-| <span data-ttu-id="2c58a-108">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="2c58a-108">Prerequisite</span></span>                                                            | <span data-ttu-id="2c58a-109">Description</span><span class="sxs-lookup"><span data-stu-id="2c58a-109">Description</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="42b1e-108">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="42b1e-108">Prerequisite</span></span>                                                            | <span data-ttu-id="42b1e-109">Description</span><span class="sxs-lookup"><span data-stu-id="42b1e-109">Description</span></span>                                                                                                                                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="2c58a-110">Spécification du montant minimal de remboursement pour l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="2c58a-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="2c58a-111">Dans la page **Paramètres de comptabilité client**, dans la zone **Général**, dans le champ **Remboursement minimal**, entrez le montant minimal qui peut être remboursé des trop-perçus client.</span><span class="sxs-lookup"><span data-stu-id="2c58a-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
-| <span data-ttu-id="2c58a-112">Facultatif : ajoutez un compte fournisseur à chaque client qui peut être remboursé.</span><span class="sxs-lookup"><span data-stu-id="2c58a-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="2c58a-113">Sur la page **Client**, dans l'organisateur **Détails divers**, dans le champ **Compte fournisseur**, sélectionnez le compte fournisseur pour le client.</span><span class="sxs-lookup"><span data-stu-id="2c58a-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
+| <span data-ttu-id="42b1e-110">Spécification du montant minimal de remboursement pour l'entité juridique.</span><span class="sxs-lookup"><span data-stu-id="42b1e-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="42b1e-111">Dans la page **Paramètres de comptabilité client** , dans la zone **Général** , dans le champ **Remboursement minimal** , entrez le montant minimal qui peut être remboursé des trop-perçus client.</span><span class="sxs-lookup"><span data-stu-id="42b1e-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
+| <span data-ttu-id="42b1e-112">Facultatif : ajoutez un compte fournisseur à chaque client qui peut être remboursé.</span><span class="sxs-lookup"><span data-stu-id="42b1e-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="42b1e-113">Sur la page **Client** , dans l'organisateur **Détails divers** , dans le champ **Compte fournisseur** , sélectionnez le compte fournisseur pour le client.</span><span class="sxs-lookup"><span data-stu-id="42b1e-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
 
-<span data-ttu-id="2c58a-114">Lorsque vous créez des transactions de remboursement, une facture fournisseur est créée pour le montant du solde créditeur.</span><span class="sxs-lookup"><span data-stu-id="2c58a-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="2c58a-115">Le processus de remboursement permet de supprimer le solde créditeur du compte client et crée un solde dû pour le compte fournisseur correspondant au client.</span><span class="sxs-lookup"><span data-stu-id="2c58a-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
+<span data-ttu-id="42b1e-114">Lorsque vous créez des transactions de remboursement, une facture fournisseur est créée pour le montant du solde créditeur.</span><span class="sxs-lookup"><span data-stu-id="42b1e-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="42b1e-115">Le processus de remboursement permet de supprimer le solde créditeur du compte client et crée un solde dû pour le compte fournisseur correspondant au client.</span><span class="sxs-lookup"><span data-stu-id="42b1e-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
 
-1.  <span data-ttu-id="2c58a-116">Dans Comptabilité client, exécutez le processus **Remboursement**.</span><span class="sxs-lookup"><span data-stu-id="2c58a-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
-2.  <span data-ttu-id="2c58a-117">Utilisez l'une des procédures suivantes :</span><span class="sxs-lookup"><span data-stu-id="2c58a-117">Follow one of these steps:</span></span>
-    -   <span data-ttu-id="2c58a-118">Pour rembourser des comptes client spécifiques, cliquez sur **Sélectionner** et spécifiez les comptes client dans la requête.</span><span class="sxs-lookup"><span data-stu-id="2c58a-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
-    -   <span data-ttu-id="2c58a-119">Pour rembourser tous les comptes client, cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="2c58a-119">To reimburse all customer accounts, click **OK**.</span></span>
+1.  <span data-ttu-id="42b1e-116">Dans Comptabilité client, exécutez le processus **Remboursement**.</span><span class="sxs-lookup"><span data-stu-id="42b1e-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
+2.  <span data-ttu-id="42b1e-117">Utilisez l'une des procédures suivantes :</span><span class="sxs-lookup"><span data-stu-id="42b1e-117">Follow one of these steps:</span></span>
+    -   <span data-ttu-id="42b1e-118">Pour rembourser des comptes client spécifiques, cliquez sur **Sélectionner** et spécifiez les comptes client dans la requête.</span><span class="sxs-lookup"><span data-stu-id="42b1e-118">To reimburse specific customer accounts, click **Select** , and specify the customer accounts in the query.</span></span>
+    -   <span data-ttu-id="42b1e-119">Pour rembourser tous les comptes client, cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="42b1e-119">To reimburse all customer accounts, click **OK**.</span></span>
 
-    <span data-ttu-id="2c58a-120">Les montants de crédit sont transférés vers les comptes fournisseur des clients et sont traités comme des paiements ordinaires.</span><span class="sxs-lookup"><span data-stu-id="2c58a-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="2c58a-121">Si un client n'a pas de compte fournisseur, un compte fournisseur occasionnel est créé automatiquement pour le client.</span><span class="sxs-lookup"><span data-stu-id="2c58a-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
-3.  <span data-ttu-id="2c58a-122">Pour afficher les transactions de remboursement créées, utilisez la page **Remboursement**.</span><span class="sxs-lookup"><span data-stu-id="2c58a-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
-4.  <span data-ttu-id="2c58a-123">Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement.</span><span class="sxs-lookup"><span data-stu-id="2c58a-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
+    <span data-ttu-id="42b1e-120">Les montants de crédit sont transférés vers les comptes fournisseur des clients et sont traités comme des paiements ordinaires.</span><span class="sxs-lookup"><span data-stu-id="42b1e-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="42b1e-121">Si un client n'a pas de compte fournisseur, un compte fournisseur occasionnel est créé automatiquement pour le client.</span><span class="sxs-lookup"><span data-stu-id="42b1e-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
+3.  <span data-ttu-id="42b1e-122">Pour afficher les transactions de remboursement créées, utilisez la page **Remboursement**.</span><span class="sxs-lookup"><span data-stu-id="42b1e-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
+4.  <span data-ttu-id="42b1e-123">Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement.</span><span class="sxs-lookup"><span data-stu-id="42b1e-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
 
 
 
