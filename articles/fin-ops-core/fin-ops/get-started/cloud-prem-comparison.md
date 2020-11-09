@@ -3,7 +3,7 @@ title: Comparaison des fonctionnalités dans le cloud et sur site
 description: La rubrique indique les fonctionnalités prises en charge dans le cloud et sur site.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100280"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040097"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -58,10 +58,10 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 |                                      | ER : Intégration avec LCS                                                                  | Oui       | Non              |
 |                                      | ER : Intégration avec SharePoint                                                           | Oui       | Non              |
 |                                      | ER : Intégration avec Regulatory Configuration Service (RCS)                              | Oui       | Non              |
-|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | Non        | Oui             |
-|                                      | Intégration à PowerBI.com                                                              | Oui       | Non              |
-|                                      | Intégration à PowerBI Desktop                                                          | Non        | Oui             |
-|                                      | Espaces de travail analytiques                                                                     | Oui       | Non              |
+|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | N°        | Oui             |
+|                                      | Intégration à PowerBI.com                                                              | Oui       | N°              |
+|                                      | Intégration à PowerBI Desktop                                                          | N°        | Oui             |
+|                                      | Espaces de travail analytiques                                                                     | Oui       | N°              |
 |                                      | Processus métier intelligent : Recommandations                                             | Oui       | N°              |
 |                                      | Création d'états Power BI avec OData à l'aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | N°              |
 |                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l'échelle                                 | Oui       | Non              |
@@ -81,12 +81,13 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 |                                      | Enregistreur de tâches - Enregistrer ou charger des enregistrements à partir de la bibliothèque BPM                         | Oui       | Non              |
 | Support                              |                                                                                           | Oui       | Oui             |
 |                                      | Accès au support via le menu Aide et support                                             | Oui       | Non              |
-|                                      | Événements commerciaux                                                                           | Oui       | Oui (soit une connectivité Internet est requise, soit des points de terminaison personnalisés doivent être implementés pour envoyer/recevoir des événements commerciaux dans l'intranet)              |
+|                                      | Événements commerciaux                                                                           | Oui       | Oui (soit une connectivité Internet est requise, soit des points de terminaison personnalisés doivent être implémentés pour envoyer/recevoir des événements commerciaux dans l'intranet)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
-| **Secteur**                | **Fonctionnalité**             | **Cloud** | **Sur site** |
+| **Secteur**                | **Fonction**             | **Cloud** | **Sur site** |
 |-------------------------|-------------------|-----------|-----------------|
+| Gestion des actifs                     |                                                                                           | Oui       | N° |
 | Conformité et certifications        |                                                                                           | Oui       | Oui             |
 |                                      | Type de certification SOC 1 Type 1                                                                | Oui       | N°              |
 | Contrôle de gestion                      |                                                                                           | Oui       | Oui             |
@@ -106,10 +107,10 @@ Les tableaux suivants décrivent les zones d'application. La prise en charge en 
 |                                      | ER : Intégration avec LCS                                                                  | Oui       | Non              |
 |                                      | ER : Intégration avec SharePoint                                                           | Oui       | Non              |
 |                                      | ER : Intégration avec Regulatory Configuration Service (RCS)                              | Oui       | Non              |
-|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | Non        | Oui             |
-|                                      | Intégration à PowerBI.com                                                              | Oui       | Non              |
-|                                      | Intégration à PowerBI Desktop                                                          | Non        | Oui             |
-|                                      | Espaces de travail analytiques                                                                     | Oui       | Non              |
+|                                      | ER : Utilise le système de fichiers local comme stockage des configurations ER accessibles via les référentiel ER | N°        | Oui             |
+|                                      | Intégration à PowerBI.com                                                              | Oui       | N°              |
+|                                      | Intégration à PowerBI Desktop                                                          | N°        | Oui             |
+|                                      | Espaces de travail analytiques                                                                     | Oui       | N°              |
 |                                      | Processus métier intelligent : Recommandations                                             | Oui       | N°              |
 |                                      | Création d'états Power BI avec OData à l'aide des outils Power BI Desktop ou Excel PowerQuery    | Oui       | N°              |
 |                                      | SQL Server Reporting Services (SSRS) prend en charge la mise à l'échelle                                 | Oui       | Non              |

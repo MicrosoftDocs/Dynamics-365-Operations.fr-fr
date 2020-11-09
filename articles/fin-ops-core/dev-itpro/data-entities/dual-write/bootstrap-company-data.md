@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172921"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997574"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Démarrer la FAQ relative aux données de la société
  
@@ -37,7 +36,7 @@ Vous devriez avoir un Common Data Service existant ou autre instance d'applicati
 ## <a name="when-should-i-use-bootstrapping"></a>Quand dois-je utiliser le démarrage ? 
 Vous devez utiliser le démarrage avant d'activer les cartes d'entité en double écriture (pendant l'étape n° 5).  
 1. Pour configurer la connexion en double écriture entre les instances de votre application Finance and Operations et de l'application Common Data Service ou de toute autre application Dynamics 365, connectez-vous à l'application Finance and Operations en tant qu'administrateur. 
-2. Accédez au module **Gestion des données** et cliquez sur le bouton **Double-écriture**. Cela lance l'**Intégrateur de données**. 
+2. Accédez au module **Gestion des données** et cliquez sur le bouton **Double-écriture**. Cela lance l' **Intégrateur de données**. 
 3. Créez la connexion en double écriture pour une ou plusieurs sociétés.  
     > [!div class="mx-imgBorder"]
     > ![Créer la connexion en double écriture](media/dual-write-boot-1.png)
@@ -52,16 +51,16 @@ Vous devez utiliser le démarrage avant d'activer les cartes d'entité en double
 ## <a name="how-to-i-use-the-code-sample"></a>Comment utiliser l'exemple de code ?
 L'exemple de code est une application C# que vous pouvez charger dans Visual Studio. Il prend des dépendances de pack NuGet sur le kit de développement logiciel Common Data Service, que vous pouvez actualiser via l'outillage standard de Visual Studio. 
 
-Après avoir décompressé et ouvert la solution dans Visual Studio et avoir restauré les packs NuGet, recherchez **TODO** dans le code. Chaque décision que vous devez prendre sur la manière dont vous souhaitez démarrer les informations d'entreprise est indiquée par un **TODO**, avec un exemple de code pour mise en place canonique. 
+Après avoir décompressé et ouvert la solution dans Visual Studio et avoir restauré les packs NuGet, recherchez **TODO** dans le code. Chaque décision que vous devez prendre sur la manière dont vous souhaitez démarrer les informations d'entreprise est indiquée par un **TODO** , avec un exemple de code pour mise en place canonique. 
 
-L'exemple de code n'affiche qu'une des nombreuses façons dont vous pouvez catégoriser les enregistrements d'entité par entreprise. En modifiant la logique dans les sections **TODO**, vous pouvez créer votre catégorisation personnalisée. 
+L'exemple de code n'affiche qu'une des nombreuses façons dont vous pouvez catégoriser les enregistrements d'entité par entreprise. En modifiant la logique dans les sections **TODO** , vous pouvez créer votre catégorisation personnalisée. 
  
 ## <a name="what-should-i-expect"></a>À quoi dois-je m'attendre ?
-Par défaut, l'exemple d'application vous permet de fournir un dictionnaire de mises en correspondance de code d'unité commerciale vers entreprise. Une entité que vous démarrez avec un champ **OwningBusinessUnit** est automatiquement définie pour utiliser la société spécifiée. Une entité sans champ **OwningBusinessUnit**, comme un produit, définira la société selon la mise en correspondance avec une valeur d'unité commerciale vide.
+Par défaut, l'exemple d'application vous permet de fournir un dictionnaire de mises en correspondance de code d'unité commerciale vers entreprise. Une entité que vous démarrez avec un champ **OwningBusinessUnit** est automatiquement définie pour utiliser la société spécifiée. Une entité sans champ **OwningBusinessUnit** , comme un produit, définira la société selon la mise en correspondance avec une valeur d'unité commerciale vide.
 
-L'application de la console anticipe un paramètre, **–simulate** ou **–apply**. Si vous utilisez le paramètre de ligne de commande **–simulate**, aucune donnée n'est mise à jour. Seuls les fichiers **<entityname>.csv** sont générés dans le même dossier que l'outil, un pour chaque entité qui aurait été mise à jour. Vous pouvez itérativement examiner ces fichiers tout en faisant en sorte de veiller à ce que le code mette à jour les valeurs d'entreprise, comme prévu. 
+L'application de la console anticipe un paramètre, **–simulate** ou **–apply**. Si vous utilisez le paramètre de ligne de commande **–simulate** , aucune donnée n'est mise à jour. Seuls les fichiers **<entityname>.csv** sont générés dans le même dossier que l'outil, un pour chaque entité qui aurait été mise à jour. Vous pouvez itérativement examiner ces fichiers tout en faisant en sorte de veiller à ce que le code mette à jour les valeurs d'entreprise, comme prévu. 
 
-Lorsque vous terminez les mises à jour simulées, alors utilisez le paramètre **–apply**. Cela met à jour tous les enregistrements qui ont actuellement une valeur d'entreprise incorrecte, en lots de 1 000 enregistrements à la fois (par défaut). Le code est idempotent comme indiqué. Autrement dit, vous pouvez le réexécuter et seules les entreprises mal affectées seront mises à jour. Lors de l'exécution avec **–apply**, le code génère des fichiers CSV des modifications apportées, qui sont intitulés **applied_<entityname>.csv**. 
+Lorsque vous terminez les mises à jour simulées, alors utilisez le paramètre **–apply**. Cela met à jour tous les enregistrements qui ont actuellement une valeur d'entreprise incorrecte, en lots de 1 000 enregistrements à la fois (par défaut). Le code est idempotent comme indiqué. Autrement dit, vous pouvez le réexécuter et seules les entreprises mal affectées seront mises à jour. Lors de l'exécution avec **–apply** , le code génère des fichiers CSV des modifications apportées, qui sont intitulés **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

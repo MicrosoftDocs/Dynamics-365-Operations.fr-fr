@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 10eb32f75ccfe1521af9ebfe1e73ef08ea4238f7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017826"
 ---
 # <a name="put-to-wall---put-to-store"></a>Mettre au mur - Mettre en magasin
 
@@ -34,12 +35,12 @@ Cette fonctionnalité d'entreposage est également désignée par d'autres noms,
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Activer la fonction de tri sortant
 
-Avant de pouvoir utiliser la fonctionnalité *Mettre au mur - Mettre en magasin*, la fonctionnalité *Tri sortant* doit être activée dans votre système. Les administrateurs peuvent utiliser l'espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser la fonctionnalité *Mettre au mur - Mettre en magasin* , la fonctionnalité *Tri sortant* doit être activée dans votre système. Les administrateurs peuvent utiliser l'espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonction :** *Tri sortant*
 
-La fonctionnalité *Tri sortant* peut être utilisée en conjonction avec la fonctionnalité *Code étape de vague à l'échelle de l'organisation* si elle est activée. Vous devez également activer cette fonction si vous comptez utiliser des codes prédéfinis qui sont configurés dans des codes d'étape de vague. Dans l'espace de travail **Gestion des fonctionnalités**, cette fonctionnalité est répertoriée comme suit :
+La fonctionnalité *Tri sortant* peut être utilisée en conjonction avec la fonctionnalité *Code étape de vague à l'échelle de l'organisation* si elle est activée. Vous devez également activer cette fonction si vous comptez utiliser des codes prédéfinis qui sont configurés dans des codes d'étape de vague. Dans l'espace de travail **Gestion des fonctionnalités** , cette fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Code étape de vague à l'échelle de l'organisation*
@@ -62,7 +63,7 @@ Pour cette démonstration, nous utilisons les données standard et l'entrepôt C
 ### <a name="warehouse-management-parameters"></a>Paramètres de gestion des entrepôts
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
-1. Dans l'onglet **Général**, dans l'organisateur **Types d'emplacement**, définissez le champ **Type d'emplacement de tri**, entrez *TRI*.
+1. Dans l'onglet **Général** , dans l'organisateur **Types d'emplacement** , définissez le champ **Type d'emplacement de tri** , entrez *TRI*.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="location-profile"></a>Profil d'emplacement
@@ -74,7 +75,7 @@ Pour cette démonstration, nous utilisons les données standard et l'entrepôt C
     - **ID de profil d'emplacement :** *Tri*
     - **Nom :** *Trie*
 
-1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l'organisateur **Général** , définissez les valeurs suivantes :
 
     - **Format de l'emplacement :** *EMBALLER*
     - **Type d’emplacement :** *TRI*
@@ -88,7 +89,7 @@ Pour cette démonstration, nous utilisons les données standard et l'entrepôt C
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements**.
 1. Décochez la case **Générer des chiffres de contrôle pour l'emplacement**.
-1. Dans le volet Actions, sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
+1. Dans le volet Actions, sélectionnez **Nouveau** , puis définissez les valeurs suivantes :
 
     - **Entrepôt :** *62*
     - **Emplacement :** *Tri*
@@ -99,7 +100,7 @@ Pour cette démonstration, nous utilisons les données standard et l'entrepôt C
 ### <a name="packing-profiles"></a>Profils d'emballage
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Emballage \> Profils d'emballage**.
-1. Dans le volet Actions, sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
+1. Dans le volet Actions, sélectionnez **Nouveau** , puis définissez les valeurs suivantes :
 
     - **ID du profil d'emballage :** *Tri*
     - **Description :** *Tri*
@@ -112,10 +113,10 @@ Pour cette démonstration, nous utilisons les données standard et l'entrepôt C
 
 ### <a name="wave-step-codes"></a>Codes étape de vague
 
-Si vous avez activé la fonction *Code étape de vague à l'échelle de l'organisation*, configurez le code suivant.
+Si vous avez activé la fonction *Code étape de vague à l'échelle de l'organisation* , configurez le code suivant.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague**.
-1. Dans le volet Actions, sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
+1. Dans le volet Actions, sélectionnez **Nouveau** , puis définissez les valeurs suivantes :
 
     - **Code étape de vague :** *Tri*
     - **Description étape de vague :** *Tri*
@@ -137,13 +138,13 @@ Le modèle de tri contrôle si des positions de tri sont créées, quels critèr
 
         Ce champ définit le processus pour lequel le modèle de tri est utilisé. Les valeurs disponibles sont les suivantes :
 
-        - **Demande de vague** : le modèle de tri est utilisé pour le processus *Mettre au mur*. Ce type de modèle est utilisé pour contourner la station de conditionnement et traiter directement le stock en dehors de la vague. Vous ne pouvez utiliser ce type que si la méthode de traitement de vague **tri** est incluse dans le modèle de vague.
-        - **Conteneur** : le modèle de tri est utilisé pour le processus *Composition de palette après emballage*. Ce type de modèle est utilisé pour traiter les conteneurs qui sont fermés à cette station de conditionnement et qui doivent être triés vers des palettes.
+        - **Demande de vague**  : le modèle de tri est utilisé pour le processus *Mettre au mur*. Ce type de modèle est utilisé pour contourner la station de conditionnement et traiter directement le stock en dehors de la vague. Vous ne pouvez utiliser ce type que si la méthode de traitement de vague **tri** est incluse dans le modèle de vague.
+        - **Conteneur**  : le modèle de tri est utilisé pour le processus *Composition de palette après emballage*. Ce type de modèle est utilisé pour traiter les conteneurs qui sont fermés à cette station de conditionnement et qui doivent être triés vers des palettes.
 
     - **Entrepôt :** *62*
     - **Emplacement :** *Tri*
 
-1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l'organisateur **Général** , définissez les valeurs suivantes :
 
     - **Vérification du tri :** *Analyse de position*
 
@@ -155,21 +156,21 @@ Le modèle de tri contrôle si des positions de tri sont créées, quels critèr
 
     - **Créer un travail à la clôture de la position :** *Oui*
 
-        Si cette option est définie sur *Oui*, un travail sera créé à la clôture de la position pour déplacer le stock vers l'emplacement d'expédition final. Si cette option est définie sur *Non*, le stock sera immédiatement prélevé pour la commande au moment de la clôture de la position.
+        Si cette option est définie sur *Oui* , un travail sera créé à la clôture de la position pour déplacer le stock vers l'emplacement d'expédition final. Si cette option est définie sur *Non* , le stock sera immédiatement prélevé pour la commande au moment de la clôture de la position.
 
     - **Affectation de position :** *Manuelle*
 
         Ce champ définit le type d'affectation de position. Les valeurs disponibles sont les suivantes :
 
-        - **Manuelle** : l'utilisateur doit toujours indiquer la position de destination de tri du stock.
-        - **Automatique** : le système guide automatiquement le stock vers une position chaque fois que cela est possible, selon les répartitions du modèle de tri.
+        - **Manuelle**  : l'utilisateur doit toujours indiquer la position de destination de tri du stock.
+        - **Automatique**  : le système guide automatiquement le stock vers une position chaque fois que cela est possible, selon les répartitions du modèle de tri.
 
     - **Critères d'affectation de position de tri :** *N'utiliser que des positions vides*
 
         Ce champ contrôle si le stock déjà présent sur les positions de tri sera pris en compte lors de l'affectation d'une position pour la demande. Les valeurs disponibles sont les suivantes :
 
-        - **N'utiliser que des positions vides** : les positions auxquelles un stock est déjà associé seront prises en compte
-        - **Supposer les positions vides** : tout stock déjà présent à a position sera ignoré lors de l'affectation. Toutes les positions disponibles seront utilisées.
+        - **N'utiliser que des positions vides**  : les positions auxquelles un stock est déjà associé seront prises en compte
+        - **Supposer les positions vides**  : tout stock déjà présent à a position sera ignoré lors de l'affectation. Toutes les positions disponibles seront utilisées.
 
     - **Code étape de vague :** *Tri*
 
@@ -177,7 +178,7 @@ Le modèle de tri contrôle si des positions de tri sont créées, quels critèr
 
     - **Fermer automatiquement la position de tri :** *Oui*
 
-        Si cette option est définie sur *Oui*, la position de tri sera automatiquement fermée une fois que tout le travail arrivant à la position aura été exécuté.
+        Si cette option est définie sur *Oui* , la position de tri sera automatiquement fermée une fois que tout le travail arrivant à la position aura été exécuté.
 
     - **Nombre de positions de tri :** *3*
 
@@ -189,14 +190,14 @@ Le modèle de tri contrôle si des positions de tri sont créées, quels critèr
 
     - **Emballer automatiquement la position de tri :** *Oui*
 
-        Si cette option est définie sur *Oui*, le stock à la position de tri sera emballé dans un conteneur une fois la position fermée.
+        Si cette option est définie sur *Oui* , le stock à la position de tri sera emballé dans un conteneur une fois la position fermée.
 
     - **ID du profil d'emballage :** *Tri*
 
         Ce champ définit le profil d'emballage qui sera utilisé lorsque la position de tri sera emballée dans un conteneur.
 
 1. Dans le volet Actions, sélectionnez **Modifier la requête** pour spécifier les critères utilisés pour ce modèle de tri.
-1. Dans la boîte de dialogue de la requête, dans l'onglet **Tri**, sélectionnez **Nouveau** pour ajouter une ligne, puis définissez les valeurs suivantes :
+1. Dans la boîte de dialogue de la requête, dans l'onglet **Tri** , sélectionnez **Nouveau** pour ajouter une ligne, puis définissez les valeurs suivantes :
 
     - **Table :** *Détails du chargement*
     - **Table dérivée :** *Détails du chargement*
@@ -227,19 +228,19 @@ Le modèle de tri contrôle si des positions de tri sont créées, quels critèr
 Modifiez le modèle de vague utilisé pour le tri de la demande de vague.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
-1. Dans le champ **Type de modèle de vague**, sélectionnez *Expédition*.
+1. Dans le champ **Type de modèle de vague** , sélectionnez *Expédition*.
 1. Sélectionnez le modèle existant **Livraison 62 par défaut**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l'organisateur **Général**, apportez les modifications suivantes :
+1. Dans l'organisateur **Général** , apportez les modifications suivantes :
 
     - Définissez l'option **Traiter la vague à la sortie dans l'entrepôt** sur *Non*.
     - Définissez l'option **Affecter à des vagues en cours** sur *Oui*.
 
-1. Dans l'organisateur **Méthodes**, configurez la méthode **tri** :
+1. Dans l'organisateur **Méthodes** , configurez la méthode **tri**  :
 
-    1. Dans la grille **Méthodes restantes**, sélectionnez **tri**.
+    1. Dans la grille **Méthodes restantes** , sélectionnez **tri**.
     2. Sélectionnez le bouton Flèche droite pour déplacer la méthode **tri** vers la grille **Méthodes sélectionnées**.
-    3. Dans la grille **Méthodes sélectionnées**, sélectionnez **tri**.
+    3. Dans la grille **Méthodes sélectionnées** , sélectionnez **tri**.
     4. Définissez le champ **Code étape de vague** sur *Trier*.
 
 1. Sélectionnez **Enregistrer**.
@@ -255,7 +256,7 @@ Modifiez le modèle de vague utilisé pour le tri de la demande de vague.
     - **Mode :** *Indirect*
     - **Utiliser un travail existant :** *Non*
 
-1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l'organisateur **Général** , définissez les valeurs suivantes :
 
     - **Code d'activité :** *Tri sortant*
     - **Utiliser le guide de processus :** *Oui* (valeur par défaut)
@@ -268,7 +269,7 @@ Modifiez le modèle de vague utilisé pour le tri de la demande de vague.
 1. Allez dans **Gestion des entrepôts \> Configuration \> Appareil mobile \> Menu d'appareil mobile**.
 1. Dans la liste des menus, sélectionnez **Sortant**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans la grille **Menus et éléments de menu disponibles**, recherchez et sélectionnez l'élément de menu **Trier** que vous venez de créer.
+1. Dans la grille **Menus et éléments de menu disponibles** , recherchez et sélectionnez l'élément de menu **Trier** que vous venez de créer.
 1. Sélectionnez le bouton en forme de flèche vers la droite pour déplacer **Trier** vers la grille **Structure du menu**. De cette façon, vous ajoutez votre nouvel élément de menu au menu **Sortant**.
 1. Sélectionnez **Enregistrer**.
 
@@ -277,14 +278,14 @@ Modifiez le modèle de vague utilisé pour le tri de la demande de vague.
 Vous devez créer des directives d'emplacement pour guider le travail créé une fois le tri terminé.
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
-1. Dans le champ **Type d'ordre de travail**, sélectionnez *Prélèvement de stock trié*.
+1. Dans le champ **Type d'ordre de travail** , sélectionnez *Prélèvement de stock trié*.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans l'en-tête, définissez les valeurs suivantes :
 
     - **Séquence :** *1*
     - **Nom :** *Placer à la porte baie*
 
-1. Dans l’organisateur **Directives d’emplacement**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Directives d’emplacement** , définissez les valeurs suivantes :
 
     - **Type de travail :** *Put*
     - **Site :** *6*
@@ -293,21 +294,21 @@ Vous devez créer des directives d'emplacement pour guider le travail créé une
     - **Plusieurs SKU :** *Non*
 
 1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Lignes** disponible.
-1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau**, puis définissez les valeurs suivantes. Acceptez les valeurs par défaut dans tous les autres champs.
+1. Dans l'organisateur **Lignes** , sélectionnez **Nouveau** , puis définissez les valeurs suivantes. Acceptez les valeurs par défaut dans tous les autres champs.
 
     - **Souche de N° :** *1*
     - **Quantité de départ :** *0*
     - **Quantité d'arrivée :** *1000000*
 
 1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Actions d'instruction d'emplacement** disponible.
-1. Dans l'organisateur **Actions d'instruction d'emplacement**, sélectionnez **Nouveau**, puis définissez les valeurs suivantes. Acceptez les valeurs par défaut dans tous les autres champs.
+1. Dans l'organisateur **Actions d'instruction d'emplacement** , sélectionnez **Nouveau** , puis définissez les valeurs suivantes. Acceptez les valeurs par défaut dans tous les autres champs.
 
     - **Souche de N° :** *1*
     - **Nom :** *Baydoor*
 
 1. Sélectionnez **Enregistrer** pour rendre le bouton **Modifier la requête** de l'organisateur **Actions d'instruction d'emplacement** disponible.
-1. Dans l’organisateur **Actions de directive d’emplacement**, sélectionnez **Modifier la requête**.
-1. Dans la boîte de dialogue de la requête, dans l'onglet **Plage**, recherchez la ligne où le champ **Domaine** est défini sur *Emplacement*. Définissez le champ **Critères** de cette ligne sur *Porte baie*.
+1. Dans l’organisateur **Actions de directive d’emplacement** , sélectionnez **Modifier la requête**.
+1. Dans la boîte de dialogue de la requête, dans l'onglet **Plage** , recherchez la ligne où le champ **Domaine** est défini sur *Emplacement*. Définissez le champ **Critères** de cette ligne sur *Porte baie*.
 1. Cliquez sur **OK** pour confirmer les modifications.
 
 ### <a name="work-classes"></a>Classes de travail
@@ -325,30 +326,30 @@ Vous devez créer des directives d'emplacement pour guider le travail créé une
 ### <a name="work-templates"></a>Modèles de travail
 
 1. Accédez à **Gestion des entrepôts \> Travail \> Modèles de travail**.
-1. Dans le champ **Type d’ordre de travail**, sélectionnez *Commandes client*.
+1. Dans le champ **Type d’ordre de travail** , sélectionnez *Commandes client*.
 1. Dans la grille, sélectionnez le modèle de travail **62 Prélever pour emballage**.
 1. Dans le volet Actions, sélectionnez **Décompositions de l'en-tête de travail**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Sur la ligne où le champ **Nom de domaine** est défini sur *ID d'expédition*, décochez la case **Regrouper par ce champ**.
-1. Sélectionnez **Enregistrer**, puis fermez la boîte de dialogue **Décompositions de l'en-tête de travail**.
-1. Dans le champ **Type d'ordre de travail**, sélectionnez *Prélèvement de stock trié*.
+1. Sur la ligne où le champ **Nom de domaine** est défini sur *ID d'expédition* , décochez la case **Regrouper par ce champ**.
+1. Sélectionnez **Enregistrer** , puis fermez la boîte de dialogue **Décompositions de l'en-tête de travail**.
+1. Dans le champ **Type d'ordre de travail** , sélectionnez *Prélèvement de stock trié*.
 1. Sélectionnez **Nouveau** pour créer un modèle de travail.
-1. Dans la section **Vue d'ensemble**, définissez les valeurs suivantes : Acceptez les valeurs par défaut dans tous les autres champs.
+1. Dans la section **Vue d'ensemble** , définissez les valeurs suivantes : Acceptez les valeurs par défaut dans tous les autres champs.
 
     - **Modèle de travail :** *Prélèvement triés*
     - **Description du modèle de travail :** *Prélèvement triés*
 
 1. Sélectionnez **Enregistrer** pour rendre la section **Détails du modèle de travail** disponible.
-1. Dans la section **Détails du modèle de travail**, vous allez créer deux lignes. Sélectionnez **Nouveau**, puis définissez les valeurs suivantes pour la ligne 1 :
+1. Dans la section **Détails du modèle de travail** , vous allez créer deux lignes. Sélectionnez **Nouveau** , puis définissez les valeurs suivantes pour la ligne 1 :
 
     - **Type de travail :** *Choisir*
-    - **Obligatoire :** Sélectionné (=*Oui*)
+    - **Obligatoire :** Sélectionné (= *Oui* )
     - **ID classe de travail :** *Tri*
 
 1. Sélectionnez **Nouveau** à nouveau, puis définissez les valeurs suivantes pour la ligne 2 :
 
     - **Type de travail :** *Put*
-    - **Obligatoire :** Sélectionné (=*Oui*)
+    - **Obligatoire :** Sélectionné (= *Oui* )
     - **ID classe de travail :** *Tri*
 
 1. Sélectionnez **Enregistrer**.
@@ -367,7 +368,7 @@ Avant de créer des commandes client et des expéditions, assurez-vous que les e
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau** pour créer une commande client pour la commande 1.
-1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
 
     - **Client :** *US-001*
     - **Entrepôt :** *62*
@@ -385,12 +386,12 @@ Avant de créer des commandes client et des expéditions, assurez-vous que les e
 
 1. Répétez les étapes suivantes pour chaque ligne de la commande afin de réserver le stock qui y correspond :
 
-    1. Sur l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Réservation**.
-    1. Dans la page **Réservation**, sélectionnez **Réserver un lot**, puis fermez la page.
+    1. Sur l’organisateur **Lignes de commande client** , dans le menu **Stock** , sélectionnez **Réservation**.
+    1. Dans la page **Réservation** , sélectionnez **Réserver un lot** , puis fermez la page.
     1. Sélectionnez **Enregistrer**.
 
 1. Sélectionnez **Nouveau** pour créer une commande client pour la commande 2.
-1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
 
     - **Client :** *US-004*
     - **Entrepôt :** *62*
@@ -408,12 +409,12 @@ Avant de créer des commandes client et des expéditions, assurez-vous que les e
 
 1. Répétez les étapes suivantes pour chaque ligne de la commande afin de réserver le stock qui y correspond :
 
-    1. Sur l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Réservation**.
-    1. Dans la page **Réservation**, sélectionnez **Réserver un lot**, puis fermez la page.
+    1. Sur l’organisateur **Lignes de commande client** , dans le menu **Stock** , sélectionnez **Réservation**.
+    1. Dans la page **Réservation** , sélectionnez **Réserver un lot** , puis fermez la page.
     1. Sélectionnez **Enregistrer**.
 
 1. Sélectionnez **Nouveau** pour créer une commande client pour la commande 3.
-1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
 
     - **Client :** *US-007*
     - **Entrepôt :** *62*
@@ -426,15 +427,15 @@ Avant de créer des commandes client et des expéditions, assurez-vous que les e
 
 1. Procédez comme suit pour réserver le stock pour la ligne de commande :
 
-    1. Sur l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Réservation**.
-    1. Dans la page **Réservation**, sélectionnez **Réserver un lot**, puis fermez la page.
+    1. Sur l’organisateur **Lignes de commande client** , dans le menu **Stock** , sélectionnez **Réservation**.
+    1. Dans la page **Réservation** , sélectionnez **Réserver un lot** , puis fermez la page.
     1. Sélectionnez **Enregistrer**.
 
 Exécutez la procédure suivante pour libérer chaque commande client vers l'entrepôt. Trois expéditions différentes seront créées. Vous ajouterez ensuite les trois expéditions à une nouvelle vague.
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Dans la grille, sélectionnez la première commande client que vous avez créée.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Vous recevez un message d'information indiquant l'ID de vague et l'ID d'expédition ont été créés.
 
@@ -448,10 +449,10 @@ Exécutez la procédure suivante pour libérer chaque commande client vers l'ent
 
     Pendant le traitement de la vague, la méthode de tri utilisera le modèle de tri pour affecter le stock aux positions de tri. Une fois le traitement de la vague terminé, vous recevez un message d'information indiquant que le travail a été créé et que la vague a été validée.
 
-1. Dans le volet Actions, dans l'onglet **Vague**, dans le groupe **Informations connexes**, sélectionnez **Travail** pour afficher le travail créé. Prenez note de l'ID du travail.
+1. Dans le volet Actions, dans l'onglet **Vague** , dans le groupe **Informations connexes** , sélectionnez **Travail** pour afficher le travail créé. Prenez note de l'ID du travail.
 1. Accédez à **Gestion d'entrepôt \> Emballage et conteneurisation \> Affectations de position de tri sortant**.
 1. Dans la colonne de gauche, vous pouvez afficher la position de tri sortant qui a été créée pour chaque expédition.
-1. Dans l'organisateur **Critères de position de tri**, vous pouvez afficher l'ID d'expédition pour cette position.
+1. Dans l'organisateur **Critères de position de tri** , vous pouvez afficher l'ID d'expédition pour cette position.
 
 Un ID de travail a été créé pour apporter le stock des lieux de prélèvement au lieu de tri. Pour terminer le travail, vous aurez besoin de l'ID de travail qui aura été créé lors du traitement de la vague.
 
@@ -459,13 +460,13 @@ Un ID de travail a été créé pour apporter le stock des lieux de prélèvemen
 
 1. Connectez-vous à l'application mobile en tant qu'employé de l'entrepôt *62*.
 1. Dans le menu principal, sélectionnez **Sortant**.
-1. Dans le menu **Sortant**, sélectionnez **Prélèvement des ventes**.
-1. Sélectionnez le champ **ID**, puis entrez l'ID de travail du traitement de la vague.
+1. Dans le menu **Sortant** , sélectionnez **Prélèvement des ventes**.
+1. Sélectionnez le champ **ID** , puis entrez l'ID de travail du traitement de la vague.
 1. Confirmez votre entrée.
 
     Vous êtes ensuite invité à entrer un contenant cible (LP). Notez que la ligne 1 de la commande client 1 correspond à ce qui doit être prélevé et ajouté au contenant cible. Le numéro d'article, la quantité, la description de l'article et l'emplacement du prélèvement sont affichés.
 
-1. Dans le champ **LP cible**, entrez un numéro de contenant cible.
+1. Dans le champ **LP cible** , entrez un numéro de contenant cible.
 
     Vous prélèverez toutes les lignes créées à partir de la vague traitée dans le même contenant cible.
 
@@ -488,12 +489,12 @@ Maintenant que tout le stock a été placé à l'emplacement de tri, il doit êt
 
 1. Connectez-vous à l'application mobile.
 1. Dans le menu principal, sélectionnez **Sortant**.
-1. Dans le menu **Sortant**, sélectionnez **Trier** pour commencer à trier les articles.
-1. Dans le champ **LP/CONT**, entrez le contenant cible du travail de la commande client prélevée.
+1. Dans le menu **Sortant** , sélectionnez **Trier** pour commencer à trier les articles.
+1. Dans le champ **LP/CONT** , entrez le contenant cible du travail de la commande client prélevée.
 1. Confirmez votre entrée.
 1. Entrez le numéro de l'article à trier en premier.
 1. Le système détermine la première position de tri à afficher. Confirmez la position de tri.
-1. Vous êtes invité à attribuer un contenant à la position de tri. Sélectionnez le champ **LP**, entrez un numéro de contenant, puis confirmez votre entrée.
+1. Vous êtes invité à attribuer un contenant à la position de tri. Sélectionnez le champ **LP** , entrez un numéro de contenant, puis confirmez votre entrée.
 
     Étant donné que la position de tri est liée à l'ID d'expédition, vous allez trier les articles prélevés dans un contenant spécifique à l'expédition sortante et à la commande client.
 
@@ -513,7 +514,7 @@ Maintenant que tout le stock a été placé à l'emplacement de tri, il doit êt
     - Si les positions sont fermées automatiquement, sélectionnez **Afficher fermées** pour afficher les positions fermées.
     - Notez que les transactions de position de tri sont affichées. L'article et la quantité qui ont été traités au niveau de la position sont affichés.
 
-    Lorsque vous configurez le modèle de tri sortant, vous définissez l'option **Fermer automatiquement la position de tri** sur *Oui*. Par conséquent, la position est automatiquement fermée une fois que le dernier article de stock attendu y a été placé. Les positions de tri ont le statut **Fermé**, et un travail a été créé pour déplacer le stock trié vers l'emplacement *Porte baie*.
+    Lorsque vous configurez le modèle de tri sortant, vous définissez l'option **Fermer automatiquement la position de tri** sur *Oui*. Par conséquent, la position est automatiquement fermée une fois que le dernier article de stock attendu y a été placé. Les positions de tri ont le statut **Fermé** , et un travail a été créé pour déplacer le stock trié vers l'emplacement *Porte baie*.
 
 1. Terminez le travail de prélèvement du stock trié pour déplacer le stock vers le lieu d'expédition. Lorsque le stock est prêt, confirmez-le pour expédition.
 
@@ -522,7 +523,7 @@ Maintenant que tout le stock a été placé à l'emplacement de tri, il doit êt
 
 ### <a name="manually-close-a-position-optional"></a>Fermer manuellement une position (facultatif)
 
-Si les positions de tri doivent être fermées manuellement, l'option **Fermer automatiquement la position de tri** pour le modèle de tri sortant doit être définie sur *Non*, et la fermeture doit être effectuée avant que le stock ne puisse être déplacé vers la zone de la porte de la baie. Il est possible de fermer les positions de différentes manières :
+Si les positions de tri doivent être fermées manuellement, l'option **Fermer automatiquement la position de tri** pour le modèle de tri sortant doit être définie sur *Non* , et la fermeture doit être effectuée avant que le stock ne puisse être déplacé vers la zone de la porte de la baie. Il est possible de fermer les positions de différentes manières :
 
 - Via l'application d'entrepôt :
 

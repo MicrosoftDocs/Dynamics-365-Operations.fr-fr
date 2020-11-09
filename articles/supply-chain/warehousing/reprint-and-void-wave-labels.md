@@ -6,7 +6,7 @@ manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: reprint-and-void-wave-labels
 ms.service: dynamics-ax-applications
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0b831361631aa66712813706eaa4ff3339683868
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986645"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016652"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Réimpression et annulation d'étiquettes de vague
 
@@ -42,7 +42,7 @@ Cette rubrique présente une collection de scénarios qui montrent, à travers d
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Scénario 1 : réimprimer des étiquettes à partir du client Web
 
-Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes. Dans le volet Actions de chaque page, sous l'onglet **Expéditions**, dans le groupe **Informations associées**, sélectionnez **Étiquettes de vague**.
+Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes. Dans le volet Actions de chaque page, sous l'onglet **Expéditions** , dans le groupe **Informations associées** , sélectionnez **Étiquettes de vague**.
 
 - Toutes les expéditions \>Détails de l'expédition
 - Tous les chargements \>Charger du chargement
@@ -54,7 +54,7 @@ Pour réimprimer une étiquette de vague à partir du client Web, procédez comm
 
 1. Accédez à **Gestion des entrepôts \> Vagues sortantes \> Vagues de l’expédition \> Tous les vagues**.
 1. Sélectionnez la vague à partir de laquelle réimprimer les étiquettes.
-1. Dans le volet Actions, sous l'onglet **Vague**, dans le groupe **Imprimer**, sélectionnez **Étiquettes de vague**.
+1. Dans le volet Actions, sous l'onglet **Vague** , dans le groupe **Imprimer** , sélectionnez **Étiquettes de vague**.
 1. Suivez une ou les deux étapes suivantes :
 
     - Pour réimprimer l'étiquette, sélectionnez l'imprimante dans le champ **Nom d'imprimante**. (Laissez ce champ vide si vous souhaitez simplement mettre à jour les détails de l'étiquette de vague sans la réimprimer.)
@@ -118,7 +118,7 @@ Suivez ces étapes pour créer une nouvelle collection d'éléments de menu pour
     - **Étiquette de regroupement système :** *ShipmentID*
     - **Mode d'impression :** *Énumération*
 
-1. Dans le volet Actions, sélectionnez **Liste de champs**, puis utilisez les listes déroulantes pour sélectionner les champs qui seront affichés pour aider les employés à identifier le bon rouleau d'étiquettes (par exemple, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* et *NumberOfLabels*).
+1. Dans le volet Actions, sélectionnez **Liste de champs** , puis utilisez les listes déroulantes pour sélectionner les champs qui seront affichés pour aider les employés à identifier le bon rouleau d'étiquettes (par exemple, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* et *NumberOfLabels* ).
 1. Fermez la page.
 1. Créez une quatrième option de menu et définissez les valeurs suivantes pour elle :
 
@@ -131,7 +131,7 @@ Suivez ces étapes pour créer une nouvelle collection d'éléments de menu pour
     - **Étiquette de regroupement système :** *ShipmentID*
     - **Mode d'impression :** *ID de la dernière bonne étiquette de vague*
 
-1. Dans le volet Actions, sélectionnez **Liste de champs**, puis utilisez les listes déroulantes pour sélectionner les champs qui seront affichés pour aider les employés à identifier le bon rouleau d'étiquettes (par exemple, *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* et *NumberOfLabels*).
+1. Dans le volet Actions, sélectionnez **Liste de champs** , puis utilisez les listes déroulantes pour sélectionner les champs qui seront affichés pour aider les employés à identifier le bon rouleau d'étiquettes (par exemple, *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* et *NumberOfLabels* ).
 1. Fermez la page.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Configurer le menu de l’appareil mobile

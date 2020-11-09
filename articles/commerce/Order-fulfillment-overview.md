@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fb535b1f20d97042e6205b680de1cc687350f071
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975145"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107205"
 ---
 # <a name="store-order-fulfillment"></a>Exécution des commandes en magasin
 
@@ -64,7 +64,7 @@ Si plusieurs lignes sont sélectionnées, le menu volant des détails de la lign
 
 ## <a name="pending-order-lines"></a>Lignes de commande en attente
 
-L'opération d'exécution de commandes unifiée offre la possibilité d'accepter manuellement les commandes. Par défaut, les commandes à exécuter dans le magasin sont déjà acceptées. Toutefois, si les processus d'entreprise indiquent qu'un collaborateur au niveau du magasin doit accepter les commandes, l'acceptation manuelle peut être activée au niveau du magasin de vente au détail. Pour activer l'acceptation des commandes, accédez à **Retail et Commerce** \> **Canaux** \> **Magasins** \> **Tous les magasins**. Ouvrez le magasin souhaité et, sous l'onglet **Général**, localisez le sous en-tête **Exécution des commandes**. Ce sous en-tête comporte une option **Acceptation manuelle** qui est définie sur **Non** par défaut. En définissant cette option sur **Oui** et en synchronisant les modifications de la base de données du canal, les lignes de commande peuvent suivre le processus d'acceptation.
+L'opération d'exécution de commandes unifiée offre la possibilité d'accepter manuellement les commandes. Par défaut, les commandes à exécuter dans le magasin sont déjà acceptées. Toutefois, si les processus d'entreprise indiquent qu'un collaborateur au niveau du magasin doit accepter les commandes, l'acceptation manuelle peut être activée au niveau du magasin de vente au détail. Pour activer l'acceptation des commandes, accédez à **Retail et Commerce** \> **Canaux** \> **Magasins** \> **Tous les magasins**. Ouvrez le magasin souhaité et, sous l'onglet **Général** , localisez le sous en-tête **Exécution des commandes**. Ce sous en-tête comporte une option **Acceptation manuelle** qui est définie sur **Non** par défaut. En définissant cette option sur **Oui** et en synchronisant les modifications de la base de données du canal, les lignes de commande peuvent suivre le processus d'acceptation.
 
 Les collaborateurs disposant de l'autorisation **Autoriser l'acceptation de commandes** peuvent ouvrir l'opération d'exécution des commandes et sélectionner les lignes à accepter. Une fois que les lignes ont été acceptées, leur statut passe de **En attente** à **Accepté** et le reste du processus d'exécution des commandes peut se poursuivre. Lorsque le paramètre **Acceptation manuelle** est activé, les commandes ne sont pas traitées tant qu'elles n'ont pas été acceptées.
 
@@ -105,13 +105,13 @@ Si des lignes sont sélectionnées et une liste de prélèvements est imprimée 
 - **Statut résultant :** Prélevé ou partiellement prélevé
 - **Statut résultant de l'arrière-guichet :** Prélevé ou partiellement prélevé
 
-Une fois que le processus de prélèvement physique a été exécuté, les lignes peuvent être marquées comme **Prélevées**. Lorsque vous sélectionnez une ligne et la marquez comme **Prélevée**, un appel en temps réel est effectué pour mettre à jour la ligne de commande. Une fois que la ligne a été marquée comme **Prélevée** dans le point de vente, le statut dans l'arrière-guichet est également mis à jour sur **Prélevé** et les transactions de stock reflètent que la quantité spécifiée a été décrémentée.
+Une fois que le processus de prélèvement physique a été exécuté, les lignes peuvent être marquées comme **Prélevées**. Lorsque vous sélectionnez une ligne et la marquez comme **Prélevée** , un appel en temps réel est effectué pour mettre à jour la ligne de commande. Une fois que la ligne a été marquée comme **Prélevée** dans le point de vente, le statut dans l'arrière-guichet est également mis à jour sur **Prélevé** et les transactions de stock reflètent que la quantité spécifiée a été décrémentée.
 
 Lorsque les commandes sont traitées dans le temps, des quantités partielles peuvent être traitées pour une ligne spécifique. Si une ligne est sélectionnée et l'action **Marquer comme prélevé** est exécutée et la quantité est supérieure à un, l'utilisateur est invité à saisir la quantité. La quantité restante à prélever est remplie automatiquement. Si une quantité inférieure à la quantité restante est spécifiée, le statut de la ligne devient **Partiellement prélevé**. Lorsque la ligne de commande est mise à jour dans l'arrière-guichet, elle reflète également le statut partiellement prélevé et la quantité saisie par l'utilisateur est utilisée pour la mise à jour du stock.
 
 Si une ligne de commande est prélevée par erreur, le processus d'annulation du prélèvement doit être exécuté sur la ligne de commande dans l'arrière-guichet. Aucune action d'annulation du prélèvement n'est actuellement prise en charge dans le point de vente.
 
-Des lignes de commande issues de différentes commandes peuvent être sélectionnées et marquées comme **Prélèvement**, imprimées sur la même liste de prélèvements ou marquées comme **Prélevées**.
+Des lignes de commande issues de différentes commandes peuvent être sélectionnées et marquées comme **Prélèvement** , imprimées sur la même liste de prélèvements ou marquées comme **Prélevées**.
 
 ### <a name="pack"></a>Emballage
 
@@ -180,7 +180,7 @@ Les lignes ou les lignes partielles peuvent être rejetées. Elles peuvent ainsi
 - **Statut résultant :** Rejeté
 - **Statut résultant de l'arrière-guichet :** Aucune modification
 
-Les lignes de commande rejetées sont visibles dans l'espace de travail **Traitement et recherche de commande client**. Effacez le filtre de personne dans l'espace de travail pour afficher toutes les lignes de commande rejetées dans les magasins. L'onglet **Lignes de commande rejetées** sous la section **Commandes et favoris** affiche les détails de la ligne de commande. En outre, les utilisateurs peuvent cliquer sur le bouton **Lignes de commande rejetées** sous la section **Synthèse** pour accéder à la vue des commandes client. Toutes les commandes avec une ou plusieurs lignes de commande rejetées s'affichent. Si la gestion distribuée des commandes (DOM) est activée, les commandes rejetées sont automatiquement réaffectées aux magasins appropriés pour exécution. Cependant, ces lignes de commande peuvent également être réaffectées manuellement. Pour cela, sélectionnez la ligne indiquant **Rejeté** comme **Statut d'exécution** et modifiez le site ou l'entrepôt si nécessaire. Cliquez sur le menu déroulant **Mettre à jour la ligne** et cliquez sur **Réinitialiser le statut d'exécution** pour modifier le statut d'exécution de **Rejeté** à **Accepté** ou **En attente**, selon le paramètre d'exécution des commandes. Une fois que le statut d'exécution est réinitialisé, les collaborateurs du magasin peuvent afficher les lignes de commande dans POS.
+Les lignes de commande rejetées sont visibles dans l'espace de travail **Traitement et recherche de commande client**. Effacez le filtre de personne dans l'espace de travail pour afficher toutes les lignes de commande rejetées dans les magasins. L'onglet **Lignes de commande rejetées** sous la section **Commandes et favoris** affiche les détails de la ligne de commande. En outre, les utilisateurs peuvent cliquer sur le bouton **Lignes de commande rejetées** sous la section **Synthèse** pour accéder à la vue des commandes client. Toutes les commandes avec une ou plusieurs lignes de commande rejetées s'affichent. Si la gestion distribuée des commandes (DOM) est activée, les commandes rejetées sont automatiquement réaffectées aux magasins appropriés pour exécution. Cependant, ces lignes de commande peuvent également être réaffectées manuellement. Pour cela, sélectionnez la ligne indiquant **Rejeté** comme **Statut d'exécution** et modifiez le site ou l'entrepôt si nécessaire. Cliquez sur le menu déroulant **Mettre à jour la ligne** et cliquez sur **Réinitialiser le statut d'exécution** pour modifier le statut d'exécution de **Rejeté** à **Accepté** ou **En attente** , selon le paramètre d'exécution des commandes. Une fois que le statut d'exécution est réinitialisé, les collaborateurs du magasin peuvent afficher les lignes de commande dans POS.
 
 ## <a name="line-quantity-tracking"></a>Suivi de la quantité de ligne
 
@@ -192,7 +192,7 @@ Continuons avec l'exemple ci-dessus : si 200 tableaux sont marqués comme emba
 
 ## <a name="line-statuses"></a>Statuts des lignes
 
-Les lignes de commande dans le point de vente ont plusieurs statuts pour refléter l'état de la ligne de commande. Les statuts du point de vente et de l'arrière-guichet ne correspondent pas systématiquement. Le statut des lignes de commande est accessible via le point de vente à l'aide des opérations d'exécution des commandes. Dans l'arrière-guichet, les lignes de commande sont accessibles à partir des détails de la commande. Les détails de la commande sont accessibles sous **Retail et Commerce** \> **Clients** \> **Toutes les commandes client**. Sélectionnez **ID commande** pour afficher les détails de la commande. Dans les détails de la commande, sélectionnez l'onglet **Commande client**, puis sélectionnez **Statut détaillé** sous le sous en-tête **Afficher**.
+Les lignes de commande dans le point de vente ont plusieurs statuts pour refléter l'état de la ligne de commande. Les statuts du point de vente et de l'arrière-guichet ne correspondent pas systématiquement. Le statut des lignes de commande est accessible via le point de vente à l'aide des opérations d'exécution des commandes. Dans l'arrière-guichet, les lignes de commande sont accessibles à partir des détails de la commande. Les détails de la commande sont accessibles sous **Retail et Commerce** \> **Clients** \> **Toutes les commandes client**. Sélectionnez **ID commande** pour afficher les détails de la commande. Dans les détails de la commande, sélectionnez l'onglet **Commande client** , puis sélectionnez **Statut détaillé** sous le sous en-tête **Afficher**.
 
 - **En attente** – Les lignes de commande qui ont été affectées à un magasin, mais n'ont pas encore été acceptées ont le statut **En attente** lorsqu'elles sont affichées dans le point de vente. Les lignes en attente d'acceptation dans le point de vente ont le statut **Traitement des commandes** dans l'arrière-guichet.
 - **Accepté** – Les lignes de commande qui ont été acceptées manuellement ou automatiquement ont le statut **Accepté** lorsqu'elles sont affichées dans le point de vente. Les lignes avec le statut **Accepté** indiquent **Traitement des commandes** dans l'arrière-guichet.
@@ -204,7 +204,7 @@ Les lignes de commande dans le point de vente ont plusieurs statuts pour reflét
 
 ## <a name="order-fulfillment-filtering"></a>Filtrage de l'exécution des commandes
 
-L'exécution des commandes dans le point de vente inclut le filtrage pour aider l'utilisateur à trouver facilement ce dont il a besoin. Les filtres peuvent être modifiés via le volet Actions en bas de l'écran **Point de vente**. Par défaut, un filtre **Type de livraison** est appliqué, selon le paramétrage de l'opération. Si l'opération est configurée avec le paramètre **Toutes les commandes**, ce filtre est appliqué lors de l'accès à l'opération d'exécution des commandes. Ceci est également valable pour les paramètres **Prélèvement en magasin** et **Expédier à partir du magasin**. Les autres filtres qui peuvent être appliqués à la vue d'exécution des commandes sont les suivants :
+L'exécution des commandes dans le point de vente inclut le filtrage pour aider l'utilisateur à trouver facilement ce dont il a besoin. Les filtres peuvent être modifiés via le volet Actions en bas de l'écran **Point de vente**. Par défaut, un filtre **Type de livraison** est appliqué, selon le paramétrage de l'opération. Si l'opération est configurée avec le paramètre **Toutes les commandes** , ce filtre est appliqué lors de l'accès à l'opération d'exécution des commandes. Ceci est également valable pour les paramètres **Prélèvement en magasin** et **Expédier à partir du magasin**. Les autres filtres qui peuvent être appliqués à la vue d'exécution des commandes sont les suivants :
 
 - Numéro de client
 - Nom du client

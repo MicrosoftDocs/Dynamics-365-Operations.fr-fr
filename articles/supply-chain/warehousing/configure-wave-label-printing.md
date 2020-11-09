@@ -8,7 +8,7 @@ ms.topic: configure-wave-label-printing
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986021"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016952"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Configurer et utiliser l'impression d'étiquettes de vague
 
@@ -56,7 +56,7 @@ Ces améliorations rendent plus efficace l'étiquetage des cartons avant la pale
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Activer la fonctionnalité d'impression d'étiquette de vague
 
-Avant de pouvoir utiliser la fonctionnalité *Impression d'étiquettes de vague*, celle-ci doit être activée sur votre système. Les administrateurs peuvent utiliser l'espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser la fonctionnalité *Impression d'étiquettes de vague* , celle-ci doit être activée sur votre système. Les administrateurs peuvent utiliser l'espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonction :** *Impression d'étiquettes de vague*
@@ -84,8 +84,8 @@ Les modèles de vague vous permettent de lier des instances spécifiques de mét
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 1. Sélectionnez le modèle de vague, tel que **Expédition par défaut 62**.
-1. Dans l'organiseur **Méthodes**, déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées**.
-1. Dans la colonne **Méthodes sélectionnées**, sélectionnez la méthode **Impression d'étiquettes de vague** et définissez son champ **Code étape de vague** sur *Imprimer l'étiquette*. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
+1. Dans l'organiseur **Méthodes** , déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées**.
+1. Dans la colonne **Méthodes sélectionnées** , sélectionnez la méthode **Impression d'étiquettes de vague** et définissez son champ **Code étape de vague** sur *Imprimer l'étiquette*. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Créer une mise en page d'étiquette de vague
 
@@ -123,7 +123,7 @@ La mise en page de l'étiquette contrôle quelles informations sont imprimées s
 
 1. Fermez la page.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
@@ -132,9 +132,9 @@ La mise en page de l'étiquette contrôle quelles informations sont imprimées s
 
     Cette requête garantit que seules les lignes de travail de type Prélèvement seront imprimées sur l'étiquette, et non les lignes de travail de type Placement.
 
-1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures**, sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**.
+1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures** , sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**.
 1. Fermez la boîte de dialogue de l'éditeur de requêtes.
-1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête**, **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête**, dans le champ **En-tête de l'étiquette**, entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
+1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête** , **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête** , dans le champ **En-tête de l'étiquette** , entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -174,7 +174,7 @@ La mise en page de l'étiquette contrôle quelles informations sont imprimées s
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Dans la **Section de corps**, dans le champ **Corps de l'étiquette**, entrez le code ZPL du corps requis. Voici un exemple :
+1. Dans la **Section de corps** , dans le champ **Corps de l'étiquette** , entrez le code ZPL du corps requis. Voici un exemple :
 
     ```plaintext
     <Row name="WaveLabel">
@@ -193,7 +193,7 @@ La mise en page de l'étiquette contrôle quelles informations sont imprimées s
     </Row>
     ```
 
-1. Dans la **Section de pied de page**, dans le champ **Pied de page de l'étiquette**, entrez le code ZPL du pied de page requis. Voici un exemple :
+1. Dans la **Section de pied de page** , dans le champ **Pied de page de l'étiquette** , entrez le code ZPL du pied de page requis. Voici un exemple :
 
     ```plaintext
     ^PQ1^XZ
@@ -220,7 +220,7 @@ Ensuite, configurez le groupe de séquences d'unités pour le type d'étiquette 
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Groupes de séquences d'unités**.
 1. Sélectionnez le groupe **Ea Box PL**.
-1. Pour la ligne **Boîte**, définissez le champ **Type de niveau de vague** sur *Carton*.
+1. Pour la ligne **Boîte** , définissez le champ **Type de niveau de vague** sur *Carton*.
 
 ### <a name="create-a-wave-label-template"></a>Créer un modèle d'étiquette de vague
 
@@ -234,15 +234,15 @@ Ensuite, créez le modèle d'étiquette de vague pour le type d'étiquette de va
     - **Code étape de vague :** *PrintLabel*
     - **Entrepôt :** *62*
 
-1. Dans l'organisateur **Général**, définissez le champ **Type d'étiquette de vague** sur *Carton*.
-1. Dans l'organisateur **Détails du modèle d'étiquette de vague**, ajoutez une nouvelle ligne avec les paramètres suivants :
+1. Dans l'organisateur **Général** , définissez le champ **Type d'étiquette de vague** sur *Carton*.
+1. Dans l'organisateur **Détails du modèle d'étiquette de vague** , ajoutez une nouvelle ligne avec les paramètres suivants :
 
     - **ID de mise en page d'étiquette :** *Carton*
     - **Nom de l'imprimante :** sélectionnez une imprimante ZPL appropriée.
     - **Exécuter la requête :** *Oui* (Ce paramètre est facultatif, mais il est recommandé pour des performances optimales.)
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague**, sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague** , sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Expéditions*
     - **Table dérivée :** *Expéditions*
@@ -252,7 +252,7 @@ Ensuite, créez le modèle d'étiquette de vague pour le type d'étiquette de va
     Lorsque vous avez terminé, sélectionnez **OK** pour fermer la boîte de dialogue de l'éditeur de requêtes.
 
 1. Dans le volet Actions, sélectionnez **Modifier la requête** pour ouvrir la boîte de dialogue de l'éditeur de requête pour le modèle d'étiquette entier.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Tri**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Tri** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
@@ -262,7 +262,7 @@ Ensuite, créez le modèle d'étiquette de vague pour le type d'étiquette de va
 1. Sélectionnez **OK** pour fermer la boîte de dialogue de l'éditeur de requêtes.
 1. Une boîte de message vous invite à confirmer l'opération de réinitialisation du regroupement. Sélectionnez **Oui** pour continuer.
 1. Dans le volet Actions, sélectionnez **Regroupement de modèles d'étiquettes de vagues**.
-1. Dans la boîte de dialogue **Groupe de modèles d'étiquettes de vague**, sélectionnez la ligne où le champ **Nom du champ de référence** est défini sur *ID de ligne de chargement de référence*, puis cochez la case **ID de build d'étiquette** pour cette ligne.
+1. Dans la boîte de dialogue **Groupe de modèles d'étiquettes de vague** , sélectionnez la ligne où le champ **Nom du champ de référence** est défini sur *ID de ligne de chargement de référence* , puis cochez la case **ID de build d'étiquette** pour cette ligne.
 
     > [!NOTE]
     > Cette configuration créera une séquence d'étiquettes (« Carton 1 sur X ») par ligne de chargement tout au long de la vague, quelle que soit la configuration de regroupement du travail. Cette séquence d'étiquettes peut être imprimée sur la mise en page d'étiquette.
@@ -294,12 +294,12 @@ Les extensions de séquence numérique contrôlent la conformité GS1 de séquen
         - **Unité :** *unité* (9016 unités = 322 boîtes = 46 PL)
 
     > [!NOTE]
-    > Les articles et quantités fournis ici ne sont que des exemples. Ils doivent utiliser le groupe de séquences d'unités que vous avez défini précédemment, les conversions d'unités appropriées entre *unité*, *Boîte* et *PL* doivent être définies, et ils doivent être en stock dans l'entrepôt *62*. Pour plus d'informations, voir [Stratégies d'unité de mesure et de stockage](unit-measure-stocking-policies.md).
+    > Les articles et quantités fournis ici ne sont que des exemples. Ils doivent utiliser le groupe de séquences d'unités que vous avez défini précédemment, les conversions d'unités appropriées entre *unité* , *Boîte* et *PL* doivent être définies, et ils doivent être en stock dans l'entrepôt *62*. Pour plus d'informations, voir [Stratégies d'unité de mesure et de stockage](unit-measure-stocking-policies.md).
 
-1. Sélectionnez la ligne de commande client 1. Dans la section **Ligne de commande client**, dans le menu **Stock**, sélectionnez **Réservations**.
-1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot**, puis fermez la page.
+1. Sélectionnez la ligne de commande client 1. Dans la section **Ligne de commande client** , dans le menu **Stock** , sélectionnez **Réservations**.
+1. Sur la page **Réservation** , dans le volet Actions, sélectionnez **Réserver un lot** , puis fermez la page.
 1. Répétez les étapes 4 et 5 pour la ligne de commande client 2.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Les événements suivants surviennent :
 
@@ -307,7 +307,7 @@ Les extensions de séquence numérique contrôlent la conformité GS1 de séquen
     - Les étiquettes de vague sont générées et imprimées. Le nombre des étiquettes sera égal au nombre de cartons (dans cet exemple, 376 étiquettes de boîte pour la ligne 1 et 322 étiquettes de boîte pour la ligne 2).
     - Un nouvel identificateur de feuille de chargement est généré pour les expéditions. Si vous avez configuré les extensions de séquence numérique, les ID d'étiquette de vague seront au format numérique **SSCC-18**. 
 
-Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes. Dans le volet Actions de chaque page, sous l'onglet **Expéditions**, dans le groupe **Informations associées**, sélectionnez **Étiquettes de vague**.
+Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes. Dans le volet Actions de chaque page, sous l'onglet **Expéditions** , dans le groupe **Informations associées** , sélectionnez **Étiquettes de vague**.
 
 - Toutes les expéditions \>Détails de l'expédition
 - Tous les chargements \>Charger du chargement
@@ -345,8 +345,8 @@ Les modèles de vague vous permettent de lier des instances spécifiques de mét
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 1. Sélectionnez le modèle de vague, tel que **63 Conteneurisation**.
-1. Dans l'organiseur **Méthodes**, déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées**.
-1. Dans la colonne **Méthodes sélectionnées**, sélectionnez la méthode **Impression d'étiquettes de vague** et définissez son champ **Code étape de vague** sur *Imprimer l'étiquette*. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
+1. Dans l'organiseur **Méthodes** , déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées**.
+1. Dans la colonne **Méthodes sélectionnées** , sélectionnez la méthode **Impression d'étiquettes de vague** et définissez son champ **Code étape de vague** sur *Imprimer l'étiquette*. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Créer une mise en page d'étiquette de vague
 
@@ -382,16 +382,16 @@ Les modèles de vague vous permettent de lier des instances spécifiques de mét
 
 1. Fermez la page.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
     - **Champ :** *Type de travail*
     - **Critères :** *Prélèvement*
 
-1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures**, sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**.
+1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures** , sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**.
 1. Fermez la boîte de dialogue de l'éditeur de requêtes.
-1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête**, **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête**, dans le champ **En-tête de l'étiquette**, entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
+1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête** , **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête** , dans le champ **En-tête de l'étiquette** , entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -402,7 +402,7 @@ Les modèles de vague vous permettent de lier des instances spécifiques de mét
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Dans la **Section de corps**, dans le champ **Corps de l'étiquette**, entrez le code ZPL du corps requis. Voici un exemple :
+1. Dans la **Section de corps** , dans le champ **Corps de l'étiquette** , entrez le code ZPL du corps requis. Voici un exemple :
 
     ```plaintext
     <Row name="WorkLine">
@@ -416,7 +416,7 @@ Les modèles de vague vous permettent de lier des instances spécifiques de mét
     </Row>
     ```
 
-1. Dans la **Section de pied de page**, dans le champ **Pied de page de l'étiquette**, entrez le code ZPL du pied de page requis. Voici un exemple :
+1. Dans la **Section de pied de page** , dans le champ **Pied de page de l'étiquette** , entrez le code ZPL du pied de page requis. Voici un exemple :
 
     ```plaintext
     ^PQ1^XZ
@@ -437,14 +437,14 @@ Votre étiquette est maintenant prête à être utilisée.
     - **Code étape de vague :** *PrintLabel*
     - **Entrepôt :** *63*
 
-1. Dans l'organisateur **Détails du modèle d'étiquette de vague**, ajoutez une ligne avec les paramètres suivants :
+1. Dans l'organisateur **Détails du modèle d'étiquette de vague** , ajoutez une ligne avec les paramètres suivants :
 
     - **ID de mise en page d'étiquette :** *Conteneur*
     - **Nom de l'imprimante :** sélectionnez une imprimante ZPL appropriée.
     - **Exécuter la requête :** *Oui* (Ce paramètre est facultatif, mais il est recommandé pour des performances optimales.)
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague**, sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague** , sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Expéditions*
     - **Table dérivée :** *Expéditions*
@@ -495,10 +495,10 @@ Les extensions de séquence numérique contrôlent la conformité GS1 de séquen
     > [!NOTE]
     > Les articles et quantités fournis ici ne sont que des exemples. Ils doivent être en stock dans l'entrepôt spécifié.
 
-1. Sélectionnez la ligne de commande client 1. Dans la section **Ligne de commande client**, dans le menu **Stock**, sélectionnez **Réservations**.
-1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot**, puis fermez la page.
+1. Sélectionnez la ligne de commande client 1. Dans la section **Ligne de commande client** , dans le menu **Stock** , sélectionnez **Réservations**.
+1. Sur la page **Réservation** , dans le volet Actions, sélectionnez **Réserver un lot** , puis fermez la page.
 1. Répétez les étapes 4 et 5 pour chaque ligne supplémentaire de la commande client.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Les événements suivants surviennent :
 
@@ -527,16 +527,16 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Vagues \> Méthodes de traitement de la vague**.
 1. Confirmez que **waveLabelPrinting** est dans la liste. Si elle n'est pas présente, sélectionnez **Régénérer les méthodes** dans le volet Actions pour l'ajouter.
-1. Pour la méthode **waveLabelPrinting**, cochez la case **Rendre la méthode répétable**.
+1. Pour la méthode **waveLabelPrinting** , cochez la case **Rendre la méthode répétable**.
 
 ### <a name="set-up-a-wave-template"></a>Paramétrage d'un modèle de vague
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 2. Sélectionnez le modèle de vague, tel que **Expédition par défaut 62**.
-3. Dans l'organiseur **Méthodes**, déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées**.
-4. Dans la colonne **Méthodes sélectionnées**, attribuez une valeur **Code étape de vague**, telle que *Carton*, à la méthode **Impression d'étiquettes de vague**. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
+3. Dans l'organiseur **Méthodes** , déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées**.
+4. Dans la colonne **Méthodes sélectionnées** , attribuez une valeur **Code étape de vague** , telle que *Carton* , à la méthode **Impression d'étiquettes de vague**. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
 5. Déplacez la méthode **Impression d'étiquettes de vague** vers la colonne **Méthodes sélectionnées** une deuxième fois.
-6. Dans la colonne **Méthodes sélectionnées**, attribuez une autre valeur **Code étape de vague**, telle que *Palette*, à la deuxième méthode **Impression d'étiquettes de vague**. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
+6. Dans la colonne **Méthodes sélectionnées** , attribuez une autre valeur **Code étape de vague** , telle que *Palette* , à la deuxième méthode **Impression d'étiquettes de vague**. Pour plus d'informations sur les codes étape de vague, voir [Codes étape de vague](wave-step-codes.md).
 
 ### <a name="create-three-wave-label-layouts"></a>Créer trois mises en page d'étiquette de vague
 
@@ -572,7 +572,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 
 1. Fermez la page.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
@@ -581,9 +581,9 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 
     Cette requête garantit que seules les lignes de travail de type Prélèvement seront imprimées sur l'étiquette, et non les lignes de travail de type Placement.
 
-1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures**, sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**. 
+1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures** , sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**. 
 1. Fermez la boîte de dialogue de l'éditeur de requêtes.
-1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête**, **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête**, dans le champ **En-tête de l'étiquette**, entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
+1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête** , **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête** , dans le champ **En-tête de l'étiquette** , entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
 
 
     ```plaintext
@@ -624,7 +624,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Dans la **Section de corps**, dans le champ **Corps de l'étiquette**, entrez le code ZPL du corps requis. Voici un exemple :
+1. Dans la **Section de corps** , dans le champ **Corps de l'étiquette** , entrez le code ZPL du corps requis. Voici un exemple :
 
     ```plaintext
     <Row name="WaveLabel">
@@ -643,7 +643,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     </Row>
     ```
 
-1. Dans la **Section de pied de page**, dans le champ **Pied de page de l'étiquette**, entrez le code ZPL du pied de page requis. Voici un exemple :
+1. Dans la **Section de pied de page** , dans le champ **Pied de page de l'étiquette** , entrez le code ZPL du pied de page requis. Voici un exemple :
 
     ```plaintext
     ^PQ1^XZ
@@ -684,7 +684,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 
 1. Fermez la page.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
@@ -693,9 +693,9 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 
     Cette requête garantit que seules les lignes de travail de type Prélèvement seront imprimées sur l'étiquette, et non les lignes de travail de type Placement.
 
-1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures**, sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**.
+1. Si vous souhaitez pouvoir imprimer l'ID de la feuille de chargement, dans l'onglet **Jointures** , sélectionnez la table **Lignes de travail** et joignez-y la table **Expéditions**.
 1. Fermez la boîte de dialogue de l'éditeur de requêtes.
-1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête**, **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête**, dans le champ **En-tête de l'étiquette**, entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
+1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête** , **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête** , dans le champ **En-tête de l'étiquette** , entrez le code de l'en-tête requis. Par exemple, si vous utilisez des imprimantes Zebra, vous pouvez utiliser le code suivant.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -706,7 +706,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Dans la **Section de corps**, dans le champ **Corps de l'étiquette**, entrez le code ZPL du corps requis. Voici un exemple :
+1. Dans la **Section de corps** , dans le champ **Corps de l'étiquette** , entrez le code ZPL du corps requis. Voici un exemple :
 
     ```plaintext
     <Row name="WaveLabel">
@@ -717,7 +717,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     </Row>
     ```
 
-1. Dans la **Section de pied de page**, dans le champ **Pied de page de l'étiquette**, entrez le code ZPL du pied de page requis. Voici un exemple :
+1. Dans la **Section de pied de page** , dans le champ **Pied de page de l'étiquette** , entrez le code ZPL du pied de page requis. Voici un exemple :
 
     ```plaintext
     ^PQ1^XZ
@@ -733,7 +733,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     - **Description :** *Étiquette de séparation*
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête**, **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête**, dans le champ **En-tête de l'étiquette**, entrez le code ZPL de l'en-tête requis. Voici un exemple :
+1. L'organisateur **Mise en page du texte de l'imprimante** comporte trois sections dans lesquelles vous pouvez écrire le code de l'imprimante : **Section d'en-tête** , **Section du corps** et **Section pied de page**. Dans la **Section d'en-tête** , dans le champ **En-tête de l'étiquette** , entrez le code ZPL de l'en-tête requis. Voici un exemple :
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -770,8 +770,8 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 
 1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Groupes de séquences d'unités**.
 1. Sélectionnez ou créez un groupe **Ea Box PL**.
-1. Pour la ligne **Boîte**, définissez le champ **Type de niveau de vague** sur *Carton*.
-1. Pour la ligne **PL**, définissez le champ **Type de niveau de vague** sur *Palette*.
+1. Pour la ligne **Boîte** , définissez le champ **Type de niveau de vague** sur *Carton*.
+1. Pour la ligne **PL** , définissez le champ **Type de niveau de vague** sur *Palette*.
 
 ### <a name="create-wave-label-templates"></a>Créer des modèles d'étiquette de vague
 
@@ -783,15 +783,15 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     - **Code étape de vague :** *Carton*
     - **Entrepôt :** *62*
 
-1. Dans l'organisateur **Général**, dans le champ **Type d'étiquette de vague**, sélectionnez une valeur, telle que *Carton*.
-1. Dans l'organisateur **Détails du modèle d'étiquette de vague**, ajoutez une ligne avec les paramètres suivants :
+1. Dans l'organisateur **Général** , dans le champ **Type d'étiquette de vague** , sélectionnez une valeur, telle que *Carton*.
+1. Dans l'organisateur **Détails du modèle d'étiquette de vague** , ajoutez une ligne avec les paramètres suivants :
 
     - **ID de mise en page d'étiquette :** *Carton*
     - **Nom de l'imprimante :** sélectionnez une imprimante ZPL appropriée.
     - **Exécuter la requête :** *Oui* (Ce paramètre est facultatif, mais il est recommandé pour des performances optimales.)
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague**, sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague** , sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Expéditions*
     - **Table dérivée :** *Expéditions*
@@ -801,7 +801,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     Lorsque vous avez terminé, sélectionnez **OK** pour fermer la boîte de dialogue de l'éditeur de requêtes.
 
 1. Dans le volet Actions, sélectionnez **Modifier la requête** pour ouvrir la boîte de dialogue de l'éditeur de requête pour le modèle d'étiquette entier.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Tri**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Tri** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
@@ -818,13 +818,13 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 1. Sélectionnez **OK** pour fermer la boîte de dialogue de l'éditeur de requêtes.
 1. Une boîte de message vous invite à confirmer l'opération de réinitialisation du regroupement. Sélectionnez **Oui** pour continuer.
 1. Dans le volet Actions, sélectionnez **Regroupement de modèles d'étiquettes de vagues**.
-1. Dans la boîte de dialogue **Groupe de modèles d'étiquettes de vague**, pour la ligne où le **Nom du champ de référence** est défini sur *ID d'expédition*, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Groupe de modèles d'étiquettes de vague** , pour la ligne où le **Nom du champ de référence** est défini sur *ID d'expédition* , définissez les valeurs suivantes :
 
     - **Imprimer étiquette de séparation :** cochez cette case.
     - **ID de mise en page d'étiquette :** sélectionnez une étiquette de séparation. (Par exemple, sélectionnez la mise en page d'étiquette *Séparation* que vous avez créée précédemment dans ce scénario.)
     - **Nom de l'imprimante :** sélectionnez l'imprimante pour l'étiquette de séparation. (En général, pour diviser les rouleaux d'étiquettes, vous devez sélectionner la même imprimante que celle sélectionnée dans l'organisateur **Détails du modèle d'étiquette de vague**. Cependant, d'autres scénarios sont possibles.)
 
-1. Pour la rangée où le champ **Nom du champ de référence** est défini sur *ID de ligne de chargement de référence*, cochez la case **ID de build d'étiquette**.
+1. Pour la rangée où le champ **Nom du champ de référence** est défini sur *ID de ligne de chargement de référence* , cochez la case **ID de build d'étiquette**.
 
     > [!NOTE]
     > Cette configuration créera une séquence d'étiquettes (« Carton 1 sur X ») par ligne de chargement tout au long de la vague, quelle que soit la configuration de regroupement du travail. Cette séquence d'étiquettes peut être imprimée sur une mise en page d'étiquettes. De plus, les étiquettes des différents envois seront séparées par l'étiquette de séparation sélectionnée.
@@ -837,15 +837,15 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     - **Code étape de vague :** *Palette*
     - **Entrepôt :** *62*
 
-1. Dans l'organisateur **Général**, dans le champ **Type d'étiquette de vague**, sélectionnez une valeur, telle que *Palette*.
-1. Dans l'organisateur **Détails du modèle d'étiquette de vague**, ajoutez une ligne avec les paramètres suivants :
+1. Dans l'organisateur **Général** , dans le champ **Type d'étiquette de vague** , sélectionnez une valeur, telle que *Palette*.
+1. Dans l'organisateur **Détails du modèle d'étiquette de vague** , ajoutez une ligne avec les paramètres suivants :
 
     - **ID de mise en page d'étiquette :** *Palette*
     - **Nom de l'imprimante :** sélectionnez une imprimante ZPL appropriée.
     - **Exécuter la requête :** *Oui* (Ce paramètre est facultatif, mais il est recommandé pour des performances optimales.)
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague**, sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage**, ajoutez une ligne comportant les paramètres suivants :
+1. Facultatif : si vous configurez une conception d'étiquette spécifique au client, vous devez créer une requête pour trouver le compte du client. Dans l'organisateur **Détails du modèle d'étiquette de vague** , sélectionnez **Modifier la requête**. Ensuite, dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Plage** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Expéditions*
     - **Table dérivée :** *Expéditions*
@@ -855,7 +855,7 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
     Lorsque vous avez terminé, sélectionnez **OK** pour fermer la boîte de dialogue de l'éditeur de requêtes. 
 
 1. Dans le volet Actions, sélectionnez **Modifier la requête** pour ouvrir la boîte de dialogue de l'éditeur de requête pour le modèle d'étiquette entier.
-1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Tri**, ajoutez une ligne comportant les paramètres suivants :
+1. Dans la boîte de dialogue de l'éditeur de requêtes, dans l'onglet **Tri** , ajoutez une ligne comportant les paramètres suivants :
 
     - **Table :** *Lignes de travail*
     - **Table dérivée :** *Lignes de travail*
@@ -872,13 +872,13 @@ Pour suivre ce scénario, vous devez avoir des données de démonstration instal
 1. Sélectionnez **OK** pour fermer la boîte de dialogue de l'éditeur de requêtes.
 1. Une boîte de message vous invite à confirmer l'opération de réinitialisation du regroupement. Sélectionnez **Oui** pour continuer.
 1. Dans le volet Actions, sélectionnez **Regroupement de modèles d'étiquettes de vagues**.
-1. Dans la boîte de dialogue **Groupe de modèles d'étiquettes de vague**, pour la ligne où le **Nom du champ de référence** est défini sur *ID d'expédition*, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Groupe de modèles d'étiquettes de vague** , pour la ligne où le **Nom du champ de référence** est défini sur *ID d'expédition* , définissez les valeurs suivantes :
 
     - **Imprimer étiquette de séparation :** cochez cette case.
     - **ID de mise en page d'étiquette :** sélectionnez une étiquette de séparation. (Par exemple, sélectionnez la mise en page d'étiquette *Séparation* que vous avez créée précédemment dans ce scénario.)
     - **Nom de l'imprimante :** sélectionnez l'imprimante pour l'étiquette de séparation. (En général, pour diviser les rouleaux d'étiquettes, vous devez sélectionner la même imprimante que celle sélectionnée dans l'organisateur **Détails du modèle d'étiquette de vague**. Cependant, d'autres scénarios sont possibles.)
 
-1. Pour la rangée où le champ **Nom du champ de référence** est défini sur *ID de ligne de chargement de référence*, cochez la case **ID de build d'étiquette**.
+1. Pour la rangée où le champ **Nom du champ de référence** est défini sur *ID de ligne de chargement de référence* , cochez la case **ID de build d'étiquette**.
 
     > [!NOTE]
     > Cette configuration créera une séquence d'étiquettes (« Carton 1 sur X ») par ligne de chargement tout au long de la vague, quelle que soit la configuration de regroupement du travail. Cette séquence d'étiquettes peut être imprimée sur une mise en page d'étiquettes. De plus, les étiquettes des différents envois seront séparées par l'étiquette de séparation sélectionnée.
@@ -910,12 +910,12 @@ Les extensions de séquence numérique contrôlent la conformité GS1 de séquen
         - **Unité :** *unité* (9016 unités = 322 boîtes = 46 PL)
 
     > [!NOTE]
-    > Les articles et quantités fournis ici ne sont que des exemples. Ils doivent utiliser le groupe de séquences d'unités que vous avez défini précédemment, les conversions d'unités appropriées entre *unité*, *Boîte* et *PL* doivent être définies, et ils doivent être en stock dans l'entrepôt *62*. Pour plus d'informations, voir [Stratégies d'unité de mesure et de stockage](unit-measure-stocking-policies.md).
+    > Les articles et quantités fournis ici ne sont que des exemples. Ils doivent utiliser le groupe de séquences d'unités que vous avez défini précédemment, les conversions d'unités appropriées entre *unité* , *Boîte* et *PL* doivent être définies, et ils doivent être en stock dans l'entrepôt *62*. Pour plus d'informations, voir [Stratégies d'unité de mesure et de stockage](unit-measure-stocking-policies.md).
 
-1. Sélectionnez la ligne de commande client 1. Dans la section **Ligne de commande client**, dans le menu **Stock**, sélectionnez **Réservations**.
-1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot**, puis fermez la page.
+1. Sélectionnez la ligne de commande client 1. Dans la section **Ligne de commande client** , dans le menu **Stock** , sélectionnez **Réservations**.
+1. Sur la page **Réservation** , dans le volet Actions, sélectionnez **Réserver un lot** , puis fermez la page.
 1. Répétez les étapes 4 et 5 pour la ligne de commande client 2.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Les événements suivants surviennent : 
 

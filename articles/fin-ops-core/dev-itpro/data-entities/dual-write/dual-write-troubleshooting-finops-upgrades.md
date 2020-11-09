@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275462"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997916"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Résoudre les problèmes liés aux mises à niveau des applications Finance and Operations
 
@@ -57,7 +56,7 @@ Pour régler le problème, procédez comme suit.
 4. Dans l'AOA, faites un clic droit sur **DualWriteProjectConfiguration** et sélectionnez **Ajouter au nouveau projet**. Sélectionnez **OK** pour créer le nouveau projet qui utilise les options par défaut.
 5. Dans l'Explorateur de solutions, cliquez avec le bouton droit sur **Propriétés du projet** et définissez **Synchroniser la base de données lors de la construction** sur la valeur **True**.
 6. Générez le projet et confirmez que la génération a réussi.
-7. Sur le menu **Dynamics 365**, sélectionnez **Synchroniser la base de données**.
+7. Sur le menu **Dynamics 365** , sélectionnez **Synchroniser la base de données**.
 8. Sélectionnez **Synchroniser** pour faire une synchronisation complète de la base de données.
 9. Une fois la synchronisation complète de la base de données réussie, réexécutez l'étape de synchronisation de la base de données dans Microsoft Dynamics Lifecycle Services (LCS) et utilisez les scripts de mise à niveau manuelle le cas échéant, afin de pouvoir procéder à la mise à jour.
 
@@ -65,17 +64,17 @@ Pour régler le problème, procédez comme suit.
 
 **Rôle requis pour résoudre le problème :** Administrateur système
 
-Sur la page **Double écriture**, vous pouvez recevoir un message d'erreur semblable à l'exemple suivant :
+Sur la page **Double écriture** , vous pouvez recevoir un message d'erreur semblable à l'exemple suivant :
 
-*Champ source manquant \<nom de domaine\> dans le schéma.*
+*Champ source manquant \<field name\> dans le schéma.*
 
 ![Exemple de message d'erreur de champ source manquant](media/error_missing_field.png)
 
 Pour résoudre le problème, suivez d'abord ces étapes pour vous assurer que les champs se trouvent dans l'entité.
 
 1. Connectez-vous à la machine virtuelle pour l'application Finance and Operations.
-2. Accédez à **Espaces de travail \> Gestion de données**, sélectionnez la vignette **Paramètres de l'environnement**, puis, sur l'onglet **Paramètres d'entité**, sélectionnez **Actualiser la liste d'entités** pour actualiser les entités.
-3. Accédez à **Espaces de travail \> Gestion des données**, sélectionnez l'onglet **Entités de données** et assurez-vous que l'entité est répertoriée. Si l'entité n'est pas répertoriée, connectez-vous à la machine virtuelle pour l'application Finance and Operations et assurez-vous que l'entité est disponible.
+2. Accédez à **Espaces de travail \> Gestion de données** , sélectionnez la vignette **Paramètres de l'environnement** , puis, sur l'onglet **Paramètres d'entité** , sélectionnez **Actualiser la liste d'entités** pour actualiser les entités.
+3. Accédez à **Espaces de travail \> Gestion des données** , sélectionnez l'onglet **Entités de données** et assurez-vous que l'entité est répertoriée. Si l'entité n'est pas répertoriée, connectez-vous à la machine virtuelle pour l'application Finance and Operations et assurez-vous que l'entité est disponible.
 4. Ouvrez la page **Mappage d'entités** depuis la page **Double écriture** dans l'application Finance and Operations.
 5. Sélectionnez **Actualiser la liste d'entités** pour remplir automatiquement les champs dans les mappages d'entités.
 
@@ -86,7 +85,7 @@ Si le problème n'est toujours pas résolu, procédez comme suit.
 
 1. Dans l'application Finance and Operations, accédez à **Espaces de travail \> Gestion des données** et sélectionnez la vignette **Entités de données**.
 2. Recherchez l'entité qui manque pour l'attribut. Cliquez sur **Modifier le mappage cible** dans la barre d'outils.
-3. Sur le volet **Mapper l'échelonnement à la cible**, cliquez sur **Générer un mappage**.
+3. Sur le volet **Mapper l'échelonnement à la cible** , cliquez sur **Générer un mappage**.
 4. Ouvrez la page **Mappage d'entités** depuis la page **Double écriture** dans l'application Finance and Operations.
 5. Si l'attribut n'est pas renseigné automatiquement sur la carte, ajoutez-le manuellement en cliquant sur le bouton **Ajouter un attribut** puis sur **Enregistrer**. 
 6. Sélectionnez le mappage, puis cliquez sur **Exécuter**.

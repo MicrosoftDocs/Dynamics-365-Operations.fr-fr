@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
-ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
+ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016260"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
@@ -30,7 +30,7 @@ ms.locfileid: "3693277"
 
 ## <a name="feature-exposure"></a>Exposition de la fonctionnalité
 
-Pour utiliser la gestion des entrepôts dans le cadre du traitement des produits en poids variable, vous devez utiliser une clé de configuration de licence pour activer la fonctionnalité. Accédez à **Administration système \> Paramétrage \> Configuration des licences**. Puis, dans l’onglet **Clés de configuration**, développez **Commerce \> Gestion des entrepôts et du transport**, puis cochez la case **Poids variable pour les entrepôts**.
+Pour utiliser la gestion des entrepôts dans le cadre du traitement des produits en poids variable, vous devez utiliser une clé de configuration de licence pour activer la fonctionnalité. Accédez à **Administration système \> Paramétrage \> Configuration des licences**. Puis, dans l’onglet **Clés de configuration** , développez **Commerce \> Gestion des entrepôts et du transport** , puis cochez la case **Poids variable pour les entrepôts**.
 
 > [!NOTE]
 > La clé de configuration de licence **Gestion des entrepôts et du transport** et les clés de configuration de licence **Traiter la distribution \> en poids variable** doivent être également activées. Pour configurer les clés de configuration pour le poids variable, vous devez également activer la fonction à l’aide de l’espace de travail **Gestion des fonctionnalités**. La principale fonction qui doit être activée est **Traitement des produits en poids variable avec la gestion des entrepôts**. Deux fonctionnalités connexes, mais facultatives que vous souhaiterez peut-être activer sont **Modifications du statut du stock pour les produits en poids variable** et **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés**.
@@ -55,7 +55,7 @@ Parce que le poids du stock, à son arrivée à l’entrepôt, peut varier du po
 
 **Exemple 1 :**
 
-Au cours d’un processus de production **Déclaré terminé**, le poids entrant d’un contenant de huit boîtes d’un article en poids variable est saisi, soit 80,1 kg. Le contenant est ensuite stocké ailleurs dans la zone dédiée aux produits finis. Pendant la période de stockage, on constate l’évaporation d’un certain poids.
+Au cours d’un processus de production **Déclaré terminé** , le poids entrant d’un contenant de huit boîtes d’un article en poids variable est saisi, soit 80,1 kg. Le contenant est ensuite stocké ailleurs dans la zone dédiée aux produits finis. Pendant la période de stockage, on constate l’évaporation d’un certain poids.
 
 Ultérieurement, dans le cadre du processus de prélèvement des commandes client, le poids du même contenant saisi indique 79,8 kg. Par conséquent, le système affiche désormais une différence de poids concernant les dimensions physiques définies.
 
@@ -67,7 +67,7 @@ Dans sa définition, un produit est paramétré pour tolérer un poids minimal d
 
 Deux boîtes de produits affichent un poids enregistré de 16 kg. Si un employé de l’entrepôt prélève et pèse une des boîtes, et si le poids saisi indique 9 kg, la boîte restante pèsera 7 kg. Or, puisque 7 kg est une valeur inférieure au poids minimal, le système effectue un ajustement automatique pour augmenter de 1 kg le poids du stock disponible.
 
-Pour paramétrer les comptes dans lesquels ces ajustements sont validés, accédez à **Gestion des coûts \> Paramétrage des stratégies d’intégration de comptabilité \> Validation**. Puis, dans l’onglet **Stock**, définissez les comptes suivants :
+Pour paramétrer les comptes dans lesquels ces ajustements sont validés, accédez à **Gestion des coûts \> Paramétrage des stratégies d’intégration de comptabilité \> Validation**. Puis, dans l’onglet **Stock** , définissez les comptes suivants :
 
 - Compte des pertes en poids variable
 - Comptes des profits en poids variable
@@ -97,21 +97,21 @@ Le processus de suivi des balises en poids variable peut être utilisé pour les
 
 Un autre paramètre important lié au traitement des balises en poids variable est **Méthode de suivi des dimensions de la balise en poids variable**. Les balises peuvent être suivies partiellement ou entièrement. Si une balise est partiellement suivie, elle suit les dimensions de produit, les dimensions de suivi et le statut du stock. Si une balise est entièrement suivie, elle suit les dimensions de produit, les dimensions de suivi et **toutes** les dimensions de stockage.
 
-En outre, lorsqu’un élément est suivi par balise, il existe un paramètre **Méthode de capture de balise sortante**. Vous pouvez définir ce paramètre afin que vous soyez toujours invité à indiquer la balise sur les transactions sortantes à partir de l’appareil mobile. Vous pouvez sinon définir le paramètre de sorte que les balises ne vous soient demandées que lorsqu’elles sont requises. Par exemple, il y a cinq balises de poids variable dans le stock sur un contenant donné, et vous avez indiqué que vous souhaitez prélever les cinq balises depuis le contenant. Dans ce cas, si le paramètre **Méthode de capture de balises sortantes** est défini sur **Demander une balise uniquement en cas de besoin**, les cinq balises sont automatiquement prélevées. Vous n’avez pas besoin de scanner chaque balise. Si le paramètre est défini sur **Toujours demander une balise**, vous devez scanner chaque balise, même si les cinq balises sont prélevées.
+En outre, lorsqu’un élément est suivi par balise, il existe un paramètre  **Méthode de capture de balise sortante**. Vous pouvez définir ce paramètre afin que vous soyez toujours invité à indiquer la balise sur les transactions sortantes à partir de l’appareil mobile. Vous pouvez sinon définir le paramètre de sorte que les balises ne vous soient demandées que lorsqu’elles sont requises. Par exemple, il y a cinq balises de poids variable dans le stock sur un contenant donné, et vous avez indiqué que vous souhaitez prélever les cinq balises depuis le contenant. Dans ce cas, si le paramètre  **Méthode de capture de balises sortantes** est défini sur **Demander une balise uniquement en cas de besoin** , les cinq balises sont automatiquement prélevées. Vous n’avez pas besoin de scanner chaque balise. Si le paramètre est défini sur **Toujours demander une balise** , vous devez scanner chaque balise, même si les cinq balises sont prélevées.
 
 > [!NOTE]
 > En règle générale, les balises sont capturées et mises à jour uniquement à partir des éléments de menu de l’appareil mobile. Néanmoins, il existe quelques scénarios où les balises sont capturées ailleurs (par exemple, à partir de la station d’emballage manuel). Cependant, en général, les éléments de menu de l’appareil mobile doivent être utilisés pour toutes les activités de l’entrepôt si des balises sont utilisées.
 
 ### <a name="how-to-capture-catch-weight"></a>Comment saisir le poids variable ?
 
-**Lorsque le suivi des balises en poids variable est utilisé**, une balise doit toujours être créée pour chaque unité en poids variable reçue et chaque balise doit toujours être associée à un poids.
+**Lorsque le suivi des balises en poids variable est utilisé** , une balise doit toujours être créée pour chaque unité en poids variable reçue et chaque balise doit toujours être associée à un poids.
 
 Par exemple, **Boîte** est l’unité en poids variable, et vous recevez une palette de huit boîte. Dans ce cas, huit balises en poids variable unique doivent être créées, et un poids doit être associé à chaque balise. Selon la balise en poids variable entrant, le poids des huit boîtes peut être saisi, et le poids moyen peut ensuite être réparti sur chaque boîte, ou un poids unique peut être saisi pour chaque boîte.
 Lorsque vous utilisez la fonctionnalité **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés** avec le processus activé via un élément de menu de l’appareil mobile, le stock est mis à jour en fonction des informations d’étiquette de poids variable existantes. Par conséquent, l’application d’entrepôt ne demande pas de capturer les données d’étiquette de poids variable dans le cadre d’un rapport de production en tant qu’opération terminée.
 
-**Si le suivi des balises en poids variable n’est pas utilisé**, le poids peut être saisi pour chaque dimension définie (par exemple, le contenant et la dimension de suivi). À défaut, le poids peut être saisi à un niveau agrégé, comme cinq contenants (palettes).
+**Si le suivi des balises en poids variable n’est pas utilisé** , le poids peut être saisi pour chaque dimension définie (par exemple, le contenant et la dimension de suivi). À défaut, le poids peut être saisi à un niveau agrégé, comme cinq contenants (palettes).
 
-Pour les méthodes de capture du poids sortant, l’option **Par unité en poids variable** vous permet de spécifier que la pesée doit être effectuée pour chaque unité en poids variable (par exemple, par boîte). L’option **Par unité de prélèvement** vous permet de spécifier que le poids doit être capturé en fonction de la quantité qui sera prélevée (par exemple, trois boîtes). Sachez que pour le processus de prélèvement de ligne de production et les processus de mouvement interne, le poids moyen est utilisé si l’option **Non capturé** est utilisée.
+Pour les méthodes de capture du poids sortant, l’option  **Par unité en poids variable** vous permet de spécifier que la pesée doit être effectuée pour chaque unité en poids variable (par exemple, par boîte). L’option  **Par unité de prélèvement** vous permet de spécifier que le poids doit être capturé en fonction de la quantité qui sera prélevée (par exemple, trois boîtes). Sachez que pour le processus de prélèvement de ligne de production et les processus de mouvement interne, le poids moyen est utilisé si l’option **Non capturé** est utilisée.
 
 Plusieurs méthodes de capture de poids sont définies dans la politique de gestion des articles en poids variable. Chaque paramètre de méthode de capture de poids est utilisé par diverses transactions. Le tableau suivant résume quels paramètres sont utilisés par quelles transactions.
 
@@ -124,7 +124,7 @@ Plusieurs méthodes de capture de poids sont définies dans la politique de gest
 | Méthode de capture du poids de l’inventaire tournant           | Comptage                                   |
 | Méthode de capture du poids pour le transfert en entrepôt | Transfert d’entrepôt                         |
 
-Pour empêcher les processus de prélèvement de la gestion des entrepôts de capturer des poids entraînant des ajustements de profit/perte de poids variable, vous pouvez utiliser la méthode d’écart de poids sortant. La méthode d’écart de poids sortant s’applique pendant les processus d’appareil mobile suivants : prélèvement des ventes, prélèvement des transferts, prélèvement de production, mouvements, comptage et transferts d’entrepôt. Vous pouvez utiliser l’option **Limiter l’écart de poids** si le poids de l’article en poids variable ne fluctue pas pendant le stockage en entrepôt et si aucun ajustement de profit/perte de poids variable n’est requis. Vous pouvez utiliser l’option **Autoriser l’écart de poids** si le poids peut fluctuer et si des ajustements de profit/perte de poids variable sont nécessaires lorsqu’une fluctuation de poids est enregistrée.
+Pour empêcher les processus de prélèvement de la gestion des entrepôts de capturer des poids entraînant des ajustements de profit/perte de poids variable, vous pouvez utiliser la méthode d’écart de poids sortant. La méthode d’écart de poids sortant s’applique pendant les processus d’appareil mobile suivants : prélèvement des ventes, prélèvement des transferts, prélèvement de production, mouvements, comptage et transferts d’entrepôt. Vous pouvez utiliser l’option  **Limiter l’écart de poids** si le poids de l’article en poids variable ne fluctue pas pendant le stockage en entrepôt et si aucun ajustement de profit/perte de poids variable n’est requis. Vous pouvez utiliser l’option **Autoriser l’écart de poids** si le poids peut fluctuer et si des ajustements de profit/perte de poids variable sont nécessaires lorsqu’une fluctuation de poids est enregistrée.
 
 ## <a name="unsupported-scenarios"></a>Scénarios non pris en charge
 
@@ -203,10 +203,10 @@ Outre les restrictions qui s’appliquent actuellement aux produits en poids var
 - Vous devez mettre à jour manuellement les balises en poids variable pour refléter les mouvements de travail de réapprovisionnement. En effet, le système ne peut pas capturer les poids lors du traitement des travaux de réapprovisionnement et enregistre donc le poids moyen à la place.
 - La réception de lieux de gestion des licences mixtes n’est actuellement pas prise en charge pour les éléments en poids variable avec balise.
 - Le traitement de la réception d’un retour vente peut enregistrer des balises en poids variable. Cependant, le processus ne valide pas que la balise retournée est la même que celle initialement expédiée pour une commande client.
-- L’élément de menu de l’appareil mobile avec le code d’activité **Enregistrer la consommation de matières** ne prend actuellement pas en charge l’enregistrement des balises en poids variable.
+- L’élément de menu de l’appareil mobile avec le code d’activité  **Enregistrer la consommation de matières** ne prend actuellement pas en charge l’enregistrement des balises en poids variable.
 - Bien que les processus de comptage soient pris en charge pour les éléments en poids variable avec balises, ils sont limités. Par exemple, vous pouvez utiliser les options de l’appareil mobile pour compter les éléments en poids variable avec balises et le poids moyen est utilisé. Cependant, les balises en poids variable ne sont pas automatiquement mises à jour par la transaction de comptage. Une fois la transaction de comptage terminée, les balises en poids variable doivent être mises à jour manuellement afin qu’elles reflètent le stock. Si des articles qui ne se trouvaient pas à l’origine dans un emplacement sont comptés dans cet emplacement, le poids nominal est utilisé.
 - La consolidation du contenant ne prend actuellement pas en charge les éléments en poids variable avec balises.
 - La fonctionnalité de contrepassation du travail n’est pas prise en charge pour les éléments en poids variable qui sont suivis par numéro de balise.
 
 > [!NOTE]
-> Les informations précédentes sur les balises à poids variable ne sont valides que si le produit à poids variable possède une méthode de suivi des dimensions de la balise à poids variable qui est entièrement suivie (c’est-à-dire si le paramètre **Méthode de suivi des dimensions de la balise en poids variable** de la stratégie de gestion des éléments en poids variable est défini sur **Dimensions du produit, dimensions de suivi et toutes les dimensions de stockage**). Si l’élément en poids variable n’est que partiellement suivi par balise (c’est-à-dire si le paramètre **Méthode de suivi des dimensions de la balise en poids variable** de la stratégie de gestion des éléments en poids variable est défini sur **Dimensions du produit, dimensions de suivi et statut du stock**), des restrictions supplémentaires s’appliquent. Dans la mesure où la visibilité est perdue entre la balise et le stock, certains scénarios supplémentaires ne sont pas pris en charge.
+> Les informations précédentes sur les balises à poids variable ne sont valides que si le produit à poids variable possède une méthode de suivi des dimensions de la balise à poids variable qui est entièrement suivie (c’est-à-dire si le paramètre  **Méthode de suivi des dimensions de la balise en poids variable** de la stratégie de gestion des éléments en poids variable est défini sur **Dimensions du produit, dimensions de suivi et toutes les dimensions de stockage** ). Si l’élément en poids variable n’est que partiellement suivi par balise (c’est-à-dire si le paramètre  **Méthode de suivi des dimensions de la balise en poids variable** de la stratégie de gestion des éléments en poids variable est défini sur **Dimensions du produit, dimensions de suivi et statut du stock** ), des restrictions supplémentaires s’appliquent. Dans la mesure où la visibilité est perdue entre la balise et le stock, certains scénarios supplémentaires ne sont pas pris en charge.

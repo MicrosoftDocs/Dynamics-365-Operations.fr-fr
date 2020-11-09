@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533319"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107228"
 ---
 # <a name="set-up-an-online-channel"></a>Configurer un canal en ligne
 
@@ -45,15 +45,15 @@ Pour créer et configurer un canal en ligne, procédez comme suit.
 
 1. Dans le volet de navigation, accédez à **Modules \> Canaux \> Magasins en ligne**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans le champ **Nom**, fournissez un nom pour le nouveau canal.
-1. Dans la liste déroulante **Entité juridique**, entrez l'entité juridique appropriée.
-1. Dans la liste déroulante **Entrepôt**, entrez l'entrepôt approprié.
-1. Dans le champ **Fuseau hoaraire du magasin**, sélectionnez le fuseau horaire adéquat.
+1. Dans le champ **Nom** , fournissez un nom pour le nouveau canal.
+1. Dans la liste déroulante  **Entité juridique** , entrez l'entité juridique appropriée.
+1. Dans la liste déroulante  **Entrepôt** , entrez l'entrepôt approprié.
+1. Dans le champ **Fuseau hoaraire du magasin** , sélectionnez le fuseau horaire adéquat.
 1. Sélectionnez la devise adéquate dans le champ **Devise**.
-1. Dans le champ **Client par défaut**, indiquez un client par défaut valide.
-1. Dans le **Carnet d'adresses client**, fournissez un carnet d'adresses valide.
-1. Dans le champ **Profil de la fonctionnalité**, sélectionnez un profil de fonctionnalité le cas échéant.
-1. Dans le champ **Profil de notification par e-mail**, fournissez un profil de notification par e-mail valide.
+1. Dans le champ  **Client par défaut** , indiquez un client par défaut valide.
+1. Dans le **Carnet d'adresses client** , fournissez un carnet d'adresses valide.
+1. Dans le champ  **Profil de la fonctionnalité** , sélectionnez un profil de fonctionnalité le cas échéant.
+1. Dans le champ  **Profil de notification par e-mail** , fournissez un profil de notification par e-mail valide.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 L'image suivante montre la création d'un canal en ligne.
@@ -66,17 +66,17 @@ L'image suivante présente un exemple de canal en ligne.
 
 ## <a name="set-up-languages"></a>Configurer les langues
 
-Si votre site de commerce électronique prend en charge plusieurs langues, développez la section **Langues** et ajoutez des langues, selon les besoins.
+Si votre site de commerce électronique prend en charge plusieurs langues, développez la section  **Langues** et ajoutez des langues, selon les besoins.
 
 ## <a name="set-up-payment-account"></a>Configurer un compte de paiement
 
-Depuis la section **Compte de paiement**, vous pouvez ajouter un fournisseur de paiement tiers. Pour plus d'informations sur la configuration d'un connecteur de paiement Adyen, consultez [Connecteur de paiement Dynamics 365 pour Adyen](../retail/dev-itpro/adyen-connector.md).
+Depuis la section  **Compte de paiement** , vous pouvez ajouter un fournisseur de paiement tiers. Pour plus d'informations sur la configuration d'un connecteur de paiement Adyen, consultez [Connecteur de paiement Dynamics 365 pour Adyen](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Paramétrage de canal supplémentaire
+## <a name="additional-channel-setup"></a>Configuration de canal supplémentaire
 
-Les tâches supplémentaires requises pour la configuration du canal en ligne comprennent la configuration des modes de paiement, des modes de livraison et l'affectation du groupe d'exécution.
+Les tâches supplémentaires qui sont requises pour la configuration du canal en ligne comprennent la configuration des modes de paiement, des modes de livraison et l'affectation du groupe d'exécution.
 
-L'image suivante montre les options de configuration **Modes de livraison**, **Modes de paiement** et **Affectation du groupe d'exécution** de l'onglet **Configurer**.
+L'image suivante montre les options de configuration **Modes de livraison** , **Modes de paiement** et **Affectation du groupe d'exécution** de l'onglet  **Configurer**.
 
 ![Actions supplémentaires de configuration de canal en ligne](media/channel-setup-online-3.png)
 
@@ -84,10 +84,10 @@ L'image suivante montre les options de configuration **Modes de livraison**, **M
 
 Pour configurer des modes de paiement, pour chaque type de paiement pris en charge sur ce canal, procédez comme suit.
 
-1. Dans le volet Actions, sélectionnez l'onglet **Configurer**, puis **Modes de paiement**.
+1. Dans le volet Actions, sélectionnez l'onglet  **Configurer** , puis **Modes de paiement**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans le volet de navigation, sélectionnez un mode de paiement souhaité.
-1. Dans la section **Général**, fournissez un **Nom de l'opération** et configurez tous les autres paramètres souhaités.
+1. Dans la section  **Général** , fournissez un **Nom de l'opération** et configurez tous les autres paramètres souhaités.
 1. Configurez tous les autres paramètres requis pour le type de paiement.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
@@ -97,13 +97,13 @@ L'image suivante présente un exemple de mode de paiement au comptant.
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
-Vous pouvez voir les modes de livraison configurés en sélectionnant **Modes de livraison** dans l'onglet **Paramétrer** du **Volet Actions**.  
+Vous pouvez voir les modes de livraison configurés en sélectionnant **Modes de livraison** dans l'onglet  **Paramétrer** du **Volet Actions**.  
 
 Pour modifier ou ajouter un mode de livraison, procédez comme suit.
 
 1. Dans le volet de navigation, accédez à **Modules \> Gestion des stocks \> Modes de livraison**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer un mode de livraison ou sélectionnez un mode existant.
-1. Dans la section **Canaux de vente au détail**, sélectionnez **Ajouter une ligne** pour ajouter le canal. L'ajout de canaux à l'aide de nœuds d'organisation au lieu d'ajouter chaque canal individuellement peut rationaliser l'ajout de canaux.
+1. Dans la section  **Canaux de vente au détail** , sélectionnez **Ajouter une ligne** pour ajouter le canal. L'ajout de canaux à l'aide de nœuds d'organisation au lieu d'ajouter chaque canal individuellement peut rationaliser l'ajout de canaux.
 
 L'image suivante présente un exemple de mode de livraison.
 
@@ -113,10 +113,10 @@ L'image suivante présente un exemple de mode de livraison.
 
 Pour paramétrer une affectation de groupe d'exécution, procédez comme suit.
 
-1. Dans le volet Actions, sélectionnez l'onglet **Paramétrer**, puis **Affectation du groupe d'exécution**.
+1. Dans le volet Actions, sélectionnez l'onglet  **Paramétrer** , puis **Affectation du groupe d'exécution**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la liste déroulante **Groupe d'exécution**, sélectionnez un groupe d'exécution.
-1. Dans la liste déroulante **Description**, entrez une description.
+1. Dans la liste déroulante **Groupe d'exécution** , sélectionnez un groupe d'exécution.
+1. Dans la liste déroulante  **Description** , entrez une description.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 L'image suivante montre un exemple de configuration d'affectation de groupe d'exécution.

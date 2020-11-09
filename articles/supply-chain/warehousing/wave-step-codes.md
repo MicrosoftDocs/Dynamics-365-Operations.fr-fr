@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017803"
 ---
 # <a name="wave-step-codes"></a>Codes étape de vague
 
@@ -59,7 +59,7 @@ Pendant l'activation, les validations sont effectuées pendant la mise à niveau
 
 Après avoir corrigé les conflits identifiés au cours des validations, vous pouvez réessayer d'activer la fonctionnalité.
 
-Une fois la fonctionnalité validée, la page **Codes étape de vague** (**Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague**) est disponible. Cette page affiche les codes étape de vague mis à niveau lorsque la fonction Codes étape de vague à l'échelle de l'organisation a été activée.
+Une fois la fonctionnalité validée, la page **Codes étape de vague** ( **Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague** ) est disponible. Cette page affiche les codes étape de vague mis à niveau lorsque la fonction Codes étape de vague à l'échelle de l'organisation a été activée.
 
 ### <a name="create-new-wave-step-codes"></a>Créer des codes étape de vague
 
@@ -85,11 +85,11 @@ Les modèles de cette liste sont appliqués lorsqu'ils font référence à une m
 
 La procédure suivante permet de garantir que le modèle de réapprovisionnement que vous avez créé sera appliqué au modèle de vague.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague**, puis créez un code étape de vague de type **Réapprovisionnement**.
-2. Accédez à **Gestion des entrepôts \> Configuration \> Réapprovisionnement \> Modèles de réapprovisionnement**, et créez un modèle de réapprovisionnement.
+1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Codes étape de vague** , puis créez un code étape de vague de type **Réapprovisionnement**.
+2. Accédez à **Gestion des entrepôts \> Configuration \> Réapprovisionnement \> Modèles de réapprovisionnement** , et créez un modèle de réapprovisionnement.
 3. Dans le modèle de réapprovisionnement, sélectionnez le code étape de vague créé pour le type **Réapprovisionnement**.
-4. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**, puis sélectionnez le modèle de vague que vous souhaitez utiliser.
-5. Dans le modèle, sous l'organisateur **Méthodes**, sélectionnez la méthode **Réapprovisionnement**.
-6. Dans le champ **Code étape de vague**, sélectionnez le code étape de vague que vous avez sélectionné dans le modèle de réapprovisionnement.
+4. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague** , puis sélectionnez le modèle de vague que vous souhaitez utiliser.
+5. Dans le modèle, sous l'organisateur **Méthodes** , sélectionnez la méthode **Réapprovisionnement**.
+6. Dans le champ **Code étape de vague** , sélectionnez le code étape de vague que vous avez sélectionné dans le modèle de réapprovisionnement.
 
 Vous effectuez ces étapes pour chaque entité juridique.

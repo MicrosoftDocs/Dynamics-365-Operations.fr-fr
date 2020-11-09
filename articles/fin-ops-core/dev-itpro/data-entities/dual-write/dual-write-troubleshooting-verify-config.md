@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f2ba2564ad3e8e444e27fcc0c586ddf252afabd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 2ddac76871a3ac574a1edcb5446be6c64e5e4682
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172643"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997228"
 ---
 # <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-common-data-service"></a>Vérifier que la double écriture est configurée dans les applications Finance and Operations et Common Data Service
 
@@ -42,7 +41,7 @@ Pour déterminer si les erreurs que vous voyez lorsque vous essayez de sauvegard
 
     ![Vérification de la connexion à l'application Finance and Operations lorsque vous disposez de privilèges d'administrateur](media/verify_fin_ops_1.png)
 
-+ Si vous ne disposez pas des privilèges d'administrateur, vous recevrez un message d'erreur, *Impossible d'écrire des données dans l'entité \<nom d'entité\>*. Dans l'exemple de l'illustration suivante, vous ne pouvez pas créer un enregistrement client dans l'application Finance and Operations, car la double écriture est configurée, mais les données de référence du groupe de clients et des conditions de paiement n'existent pas dans Common Data Service.
++ Si vous ne disposez pas des privilèges d'administrateur, vous recevrez un message d'erreur, *Impossible d'écrire des données dans l'entité \<entity name\>*. Dans l'exemple de l'illustration suivante, vous ne pouvez pas créer un enregistrement client dans l'application Finance and Operations, car la double écriture est configurée, mais les données de référence du groupe de clients et des conditions de paiement n'existent pas dans Common Data Service.
 
     ![Vérification de la connexion à l'application Finance and Operations lorsque vous ne disposez pas de privilèges d'administrateur](media/verify_fin_ops_2.png)
 

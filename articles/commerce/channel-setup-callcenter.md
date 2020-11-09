@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410411"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107182"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurer un canal de centre d'appels
 
@@ -44,14 +44,14 @@ Pour créer et configurer un centre d'appels, procédez comme suit.
 
 1. Dans le volet de navigation, accédez à **Retail et Commerce \> Canaux \> Centres d'appels \> Tous les centres d'appels**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans le champ **Nom**, fournissez un nom pour le nouveau canal.
-1. Sélectionnez l'**Entité juridique** adéquate dans la liste déroulante.
+1. Dans le champ **Nom** , fournissez un nom pour le nouveau canal.
+1. Sélectionnez l' **Entité juridique** adéquate dans la liste déroulante.
 1. Sélectionnez l'emplacement **Entrepôt** adéquat dans la liste déroulante. Cet emplacement sera utilisé par défaut sur les commandes client créées pour ce canal de centre d'appels, sauf si d'autres valeurs par défaut ont été définies au niveau du client ou de l'article.
-1. Dans le champ **Client par défaut**, indiquez un client par défaut valide. Ces données sont utilisées pour faciliter le remplissage automatique des valeurs par défaut lors de la création de nouveaux enregistrements client. Lors de la création de commandes de centre d'appels, il n'est pas conseillé de créer des commandes pour le client par défaut.
-1. Dans le champ **Profil de notification par e-mail**, fournissez un profil de notification par e-mail valide. Au fur et à mesure que les commandes du centre d'appels sont créées et traitées, le profil de notification par e-mail est utilisé pour déclencher des alertes par e-mail automatiques aux clients avec des informations sur l'état de leur commande.
-1. Fournissez un code info **Prix manuel**. Vous devrez peut-être d'abord créer un code info. Ce code info fournit l'ensemble des codes motif que l'utilisateur sera invité à choisir lors de l'utilisation de la fonctionnalité de substitution de prix sur une commande de centre d'appels.
-1. Fournissez un code info **Code de blocage**. Vous devrez peut-être d'abord créer un code info. Ce code info fournit l'ensemble des codes motif en option que l'utilisateur sera invité à choisir lors du passage d'une commande en attente.
-1. Fournissez un code info **Crédit**. Vous devrez peut-être d'abord créer un code info. Ce code d'information fournit l'ensemble des codes de motif que l'utilisateur peut choisir lors de l'utilisation de la fonctionnalité de crédit de commande du centre d'appels pour donner des remboursements divers au client pour des raisons de service client.
+1. Dans le champ  **Client par défaut** , indiquez un client par défaut valide. Ces données sont utilisées pour faciliter le remplissage automatique des valeurs par défaut lors de la création de nouveaux enregistrements client. Lors de la création de commandes de centre d'appels, il n'est pas conseillé de créer des commandes pour le client par défaut.
+1. Dans le champ  **Profil de notification par e-mail** , fournissez un profil de notification par e-mail valide. Au fur et à mesure que les commandes du centre d'appels sont créées et traitées, le profil de notification par e-mail est utilisé pour déclencher des alertes par e-mail automatiques aux clients avec des informations sur l'état de leur commande.
+1. Fournissez un code info  **Prix manuel**. Vous devrez peut-être d'abord créer un code info. Ce code info fournit l'ensemble des codes motif que l'utilisateur sera invité à choisir lors de l'utilisation de la fonctionnalité de substitution de prix sur une commande de centre d'appels.
+1. Fournissez un code info  **Code de blocage**. Vous devrez peut-être d'abord créer un code info. Ce code info fournit l'ensemble des codes motif en option que l'utilisateur sera invité à choisir lors du passage d'une commande en attente.
+1. Fournissez un code info  **Crédit**. Vous devrez peut-être d'abord créer un code info. Ce code d'information fournit l'ensemble des codes de motif que l'utilisateur peut choisir lors de l'utilisation de la fonctionnalité de crédit de commande du centre d'appels pour donner des remboursements divers au client pour des raisons de service client.
 1. En option : configurez les dimensions financières sur le raccourci **Dimensions financières**. Les dimensions saisies ici figureront par défaut sur n'importe quelle commande client créée dans ce canal de centre d'appels.
 1. Cliquez sur **Enregistrer**.
 
@@ -67,7 +67,7 @@ L'image suivante présente un exemple de canal de centre d'appels.
 
 Les tâches supplémentaires requises pour la configuration du canal de centre d'appels comprennent la configuration des modes de paiement et des modes de livraison.
 
-L'image suivante montre les options de configuration **Modes de livraison** et **Modes de paiement** de l'onglet **Configurer**.
+L'image suivante montre les options de configuration **Modes de livraison** et **Modes de paiement** de l'onglet  **Configurer**.
 
 ![Actions supplémentaires de configuration de canal de centre d'appels](media/channel-setup-callcenter-3.png)
 
@@ -75,7 +75,7 @@ L'image suivante montre les options de configuration **Modes de livraison** et *
 
 Pour configurer des modes de paiement, pour chaque type de paiement pris en charge sur ce canal, procédez comme suit. Les utilisateurs devront sélectionner des modes de paiement prédéfinis pour les lier au canal du centre d'appels. Avant de configurer vos modes de paiement de centre d'appels, configurez d'abord vos modes de paiement principaux dans **Retail et Commerce \>Configuration des canaux \> Modes de payement \> Modes de payement**.
 
-1. Dans le volet Actions, sélectionnez l'onglet **Configurer**, puis **Modes de paiement**.
+1. Dans le volet Actions, sélectionnez l'onglet  **Configurer** , puis **Modes de paiement**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans le volet de navigation, sélectionnez un mode de paiement parmi les paiements prédéfinis disponibles.
 1. Configurez tous les autres paramètres requis pour le type de paiement. Pour les cartes de crédit, les cartes-cadeaux ou les cartes de fidélité, une configuration supplémentaire est requise en sélectionnant la fonction **Configuration de la carte**. 
@@ -88,13 +88,13 @@ L'image suivante présente un exemple de mode de paiement au comptant.
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
-Vous pouvez voir les modes de livraison configurés en sélectionnant **Modes de livraison** dans l'onglet **Paramétrer** du **Volet Actions**.  
+Vous pouvez voir les modes de livraison configurés en sélectionnant **Modes de livraison** dans l'onglet  **Paramétrer** du **Volet Actions**.  
 
 Pour modifier ou ajouter un mode de livraison à associer au canal du centre d'appels, procédez comme suit.
 
 1. Dans le formulaire Modes de livraison du centre d'appels, sélectionnez **Gérer les modes de livraison**
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer un mode de livraison ou sélectionnez un mode existant.
-1. Dans la section **Canaux de vente au détail**, cliquez sur **Ajouter une ligne** pour ajouter le canal du centre d'appels. L'ajout de canaux à l'aide de nœuds d'organisation au lieu d'ajouter chaque canal individuellement peut rationaliser l'ajout de canaux.
+1. Dans la section  **Canaux de vente au détail** , cliquez sur **Ajouter une ligne** pour ajouter le canal du centre d'appels. L'ajout de canaux à l'aide de nœuds d'organisation au lieu d'ajouter chaque canal individuellement peut rationaliser l'ajout de canaux.
 1. Assurez-vous que le mode de livraison a été configuré avec des données sur le raccourci **Produits** et le raccourci **Adresses**. Si aucun produit ou aucune adresse de livraison n'est valide pour le mode de livraison, le choisir lors de la saisie de la commande entraînera des erreurs.
 1. Une fois que les modifications ont été apportées aux configurations du mode de livraison du centre d'appels, la tâche **Traiter les modes de livraison** doit être exécutée pour faire exploser la matrice de changement. Ce travail peut être trouvé en accédant à **Retail et Commerce \> Retail et Commerce IT \> Traiter les modes de livraison**.
 
@@ -106,7 +106,7 @@ L'image suivante présente un exemple de mode de livraison.
 
 Pour créer une commande client associée au canal du centre d'appels à partir du Commerce Headquarters, l'utilisateur qui crée la commande client doit être lié au canal du centre d'appels. L'utilisateur ne peut pas lier manuellement une commande client créée dans Commerce Headquarters au canal du centre d'appels. Le lien est systématique et est basé sur l'utilisateur et la relation de l'utilisateur avec le canal du centre d'appels. Un utilisateur ne peut être lié qu'à un seul canal du centre d'appels.
 
-1. Dans le volet Actions, sélectionnez l'onglet **Canal**, puis **Utilisateurs du canal**.
+1. Dans le volet Actions, sélectionnez l'onglet  **Canal** , puis **Utilisateurs du canal**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Choisissez un **Identifiant d'utilisateur** existant dans la liste déroulante de sélection pour lier cet utilisateur au canal du centre d'appels
 
@@ -119,7 +119,7 @@ Les groupes de prix sont facultatifs, mais s'ils sont utilisés, ils peuvent con
 
 Pour configurer un groupe de prix, procédez comme suit.
 
-1. Dans le volet Actions, cliquez sur l'onglet **Canal**, puis sélectionnez **Groupes de prix**.
+1. Dans le volet Actions, cliquez sur l'onglet  **Canal** , puis sélectionnez **Groupes de prix**.
 1. Dans le volet Actions, cliquez sur **Nouveau**.
 1. Sélectionnez un **Groupe de prix de détail** dans la liste déroulante de sélection.
 

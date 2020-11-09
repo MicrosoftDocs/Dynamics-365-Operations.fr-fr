@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: f165a6187332a45e77c22de6eb10e227bc1c8f4c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985016"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017619"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -44,11 +45,11 @@ L’illustration suivante présente le flux classique de gestion des chargements
 
 1. **Le fournisseur confirme la répartition du chargement.**
 
-    Lorsque le fournisseur répartit le chargement, le coordinateur logistique de l’entrepôt de réception confirme l’expédition du chargement. Si la société destinataire utilise le module **Gestion du transport**, la confirmation de l’expédition entrante déclenche d’autres processus de gestion des chargements associés aux chargements entrants. Pour plus d’informations, voir [Confirmer un chargement pour l’expédition](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Lorsque le fournisseur répartit le chargement, le coordinateur logistique de l’entrepôt de réception confirme l’expédition du chargement. Si la société destinataire utilise le module **Gestion du transport** , la confirmation de l’expédition entrante déclenche d’autres processus de gestion des chargements associés aux chargements entrants. Pour plus d’informations, voir [Confirmer un chargement pour l’expédition](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Le chargement arrive à l’entrepôt et les collaborateurs enregistrent les quantités.**
 
-    Lorsqu’un chargement de camion arrive au quai de réception de l’entrepôt, les collaborateurs de l’entrepôt enregistrent les quantités de chargement. En cas d’utilisation du module **Gestion des entrepôts**, les collaborateurs effectuent l’enregistrement via des appareils mobiles. Pour plus d’informations, voir les sections [Accusé de réception de marchandises et commandes fournisseur - Enregistrement](../procurement/product-receipt-against-purchase-orders.md#registration) et [Enregistrer les quantités d’articles sur un chargement entrant](#register-item-quantities-arriving).
+    Lorsqu’un chargement de camion arrive au quai de réception de l’entrepôt, les collaborateurs de l’entrepôt enregistrent les quantités de chargement. En cas d’utilisation du module **Gestion des entrepôts** , les collaborateurs effectuent l’enregistrement via des appareils mobiles. Pour plus d’informations, voir les sections [Accusé de réception de marchandises et commandes fournisseur - Enregistrement](../procurement/product-receipt-against-purchase-orders.md#registration) et [Enregistrer les quantités d’articles sur un chargement entrant](#register-item-quantities-arriving).
 
 1. **Les quantités de chargement enregistrées sont validées par rapport aux commandes fournisseur.**
 
@@ -74,11 +75,11 @@ Lorsqu’un chargement entrant arrive pour la première fois dans l’entrepôt,
     - La réception et le rangement de contenant mixte, où le champ **Méthode d’identification de la ligne de document source** pour l’option de menu de l’appareil mobile est défini sur _Réception des articles du chargement_. Pour plus d’informations, voir [Réception de contenant mixte](mixed-license-plate-receiving.md).
 
     > [!NOTE]
-    > Quel que soit le processus, le système génère le travail pour prendre les quantités enregistrées dans l’emplacement de réception et les ranger dans l’emplacement de stockage habituel. Lorsque le processus _Réception et rangement des articles du chargement_ ou _Réception et rangement de contenant mixte_ est utilisé, le collaborateur qui a enregistré la quantité de chargement est également invité par l’appareil à exécuter le travail de rangement dans le cadre de la tâche d’enregistrement. En revanche, pour les processus _Réception des articles du chargement_ et _Réception de contenant mixte_, on suppose que le travail de rangement sera effectué séparément de la tâche d’enregistrement.
+    > Quel que soit le processus, le système génère le travail pour prendre les quantités enregistrées dans l’emplacement de réception et les ranger dans l’emplacement de stockage habituel. Lorsque le processus _Réception et rangement des articles du chargement_ ou _Réception et rangement de contenant mixte_ est utilisé, le collaborateur qui a enregistré la quantité de chargement est également invité par l’appareil à exécuter le travail de rangement dans le cadre de la tâche d’enregistrement. En revanche, pour les processus _Réception des articles du chargement_ et _Réception de contenant mixte_ , on suppose que le travail de rangement sera effectué séparément de la tâche d’enregistrement.
 
 - **Un modèle de travail qui définit le travail de prélèvement et de rangement pour les chargements entrants**
 
-    Cet article est lié aux articles précédents. Vous devez avoir au moins un modèle de travail pour l’ordre de travail de type _Commande fournisseur_, et il doit contenir un ensemble de type prélèvement/rangement.
+    Cet article est lié aux articles précédents. Vous devez avoir au moins un modèle de travail pour l’ordre de travail de type _Commande fournisseur_ , et il doit contenir un ensemble de type prélèvement/rangement.
 
 L’appareil mobile guide le commis de réception de l’entrepôt dans le cadre du flux pour l’enregistrement de la quantité de chargement. Ce flux inclut au minimum les étapes suivantes pour chaque ID chargement :
 
@@ -121,8 +122,8 @@ Utilisez le champ **Réception excédentaire du chargement** pour que les option
 
 - Réception des articles du chargement
 - Réception et rangement des articles du chargement
-- La réception de contenant mixte (lorsque le champ **Méthode d’identification de la ligne de document source** est défini sur _Réception des articles du chargement_).
-- La réception et le rangement de contenant mixte (lorsque le champ **Méthode d’identification de la ligne de document source** est défini sur _Réception des articles du chargement_).
+- La réception de contenant mixte (lorsque le champ **Méthode d’identification de la ligne de document source** est défini sur _Réception des articles du chargement_ ).
+- La réception et le rangement de contenant mixte (lorsque le champ **Méthode d’identification de la ligne de document source** est défini sur _Réception des articles du chargement_ ).
 
 Le tableau suivant décrit les options disponibles pour le champ **Réception excédentaire du chargement**.
 
@@ -154,24 +155,24 @@ Une fois que les quantités de marchandises entrantes sont enregistrées dans le
 Pour ouvrir une page où ils peuvent valider une réception de marchandises, les membres de l’équipe des opérations peuvent suivre _une_ de ces étapes :
 
 - Ouvrez l’enregistrement de chargement approprié, puis sélectionnez l’action **Accusé de réception de marchandises**.
-- Accédez à **Gestion des entrepôts \> Tâches périodiques \> Mettre à jour les accusés de réception de marchandises**, puis, dans le champ **ID chargement**, précisez le chargement à valider.
+- Accédez à **Gestion des entrepôts \> Tâches périodiques \> Mettre à jour les accusés de réception de marchandises** , puis, dans le champ **ID chargement** , précisez le chargement à valider.
 - Ouvrez la commande fournisseur appropriée, puis sélectionnez l’action **Accusé de réception de marchandises**.
 - Accédez à **Approvisionnements \> Commandes fournisseur \> Réception des marchandises \> Validation de la tâche de réception de produits**.
 
-L’action **Accusé de réception de marchandises** disponible sur la page **Chargement** (et sur la page équivalente pour la tâche de mise à jour, la page **Mettre à jour les accusés de réception de marchandises**) peut mettre à jour les quantités de marchandises reçues uniquement sur les quantités de la commande fournisseur dont le statut est défini sur _Enregistré_. Cependant, l’action **Accusé de réception de marchandises** disponible sur la page **Commande fournisseur** peut inclure les quantités dont les deux statuts de traitement sont définis sur _Commandé_ et _Enregistré_. Elle peut également contrôler l’étendue de validation des accusés de réception de marchandises via des paramètres supplémentaires, tels que _Quantité à recevoir maintenant_ et _Quantité et services enregistrés_.
+L’action **Accusé de réception de marchandises** disponible sur la page **Chargement** (et sur la page équivalente pour la tâche de mise à jour, la page **Mettre à jour les accusés de réception de marchandises** ) peut mettre à jour les quantités de marchandises reçues uniquement sur les quantités de la commande fournisseur dont le statut est défini sur _Enregistré_. Cependant, l’action **Accusé de réception de marchandises** disponible sur la page **Commande fournisseur** peut inclure les quantités dont les deux statuts de traitement sont définis sur _Commandé_ et _Enregistré_. Elle peut également contrôler l’étendue de validation des accusés de réception de marchandises via des paramètres supplémentaires, tels que _Quantité à recevoir maintenant_ et _Quantité et services enregistrés_.
 
 Seules les commandes dont le statut est défini sur _Confirmé_ peuvent voir leurs accusés de réception de marchandises validés. Pour les commandes fournisseur non confirmées, l’action **Accusé de réception de marchandises** apparaît comme non disponible.
 
 ### <a name="post-registered-quantities-from-the-load-page"></a>Valider les quantités enregistrées à partir de la page Chargement
 
-Pour accuser réception des marchandises-valider les quantités enregistrées depuis la page **Chargement**, les conditions préalables suivantes doivent être en place :
+Pour accuser réception des marchandises-valider les quantités enregistrées depuis la page **Chargement** , les conditions préalables suivantes doivent être en place :
 
 - Le chargement doit avoir au moins une unité de quantité dont le statut est défini sur _Enregistré_.
 - L’état de chargement doit être défini sur _Expédié_.
 - La commande fournisseur associée au chargement doit avoir le statut _Confirmé_.
 
 > [!NOTE]
-> Si l’état de chargement n’a pas été défini sur _Expédié_, le système confirme automatiquement le chargement avant d’exécuter la mise à jour de l’accusé de réception des marchandises. (L’état du chargement est défini sur _Expédié_ lorsqu’un utilisateur enregistre l’expédition entrante du chargement.)
+> Si l’état de chargement n’a pas été défini sur _Expédié_ , le système confirme automatiquement le chargement avant d’exécuter la mise à jour de l’accusé de réception des marchandises. (L’état du chargement est défini sur _Expédié_ lorsqu’un utilisateur enregistre l’expédition entrante du chargement.)
 
 Pour accuser réception des marchandises-valider les enregistrements d’arrivée associés à un chargement sélectionné, le collaborateur sélectionne l’action **Accusé de réception de marchandises** sur la page **Chargement**. La page ouverte contient les détails clés suivants :
 
@@ -184,7 +185,7 @@ Pour accuser réception des marchandises-valider les enregistrements d’arrivé
 >
 > | Version | Calcul |
 > |---|---|
-> | Les versions antérieures à la version 10.0.10 et les versions plus récentes où la fonctionnalité _Autoriser plusieurs accusés de réception de marchandises par chargement_ n’est pas activée | La quantité de ligne correspond au total de toutes les quantités enregistrées _pour cette ligne de commande fournisseur_, peu importe que l’enregistrement ait été effectué sur plusieurs chargements, indépendamment du chargement, à partir d’un appareil mobile ou du client. |
+> | Les versions antérieures à la version 10.0.10 et les versions plus récentes où la fonctionnalité _Autoriser plusieurs accusés de réception de marchandises par chargement_ n’est pas activée | La quantité de ligne correspond au total de toutes les quantités enregistrées _pour cette ligne de commande fournisseur_ , peu importe que l’enregistrement ait été effectué sur plusieurs chargements, indépendamment du chargement, à partir d’un appareil mobile ou du client. |
 > | La version 10.0.10 et les versions plus récentes où la fonctionnalité _Autoriser plusieurs accusés de réception de marchandises par chargement_ est activée | La quantité de ligne correspond au total de toutes les quantités enregistrées _pour l’enregistrement du chargement_ à partir duquel l’action **Validation de l’accusé de réception de produits** a été lancée. |
 
 Lorsque l’utilisateur sélectionne **OK** pour confirmer la validation de l’accusé de réception de produits, le système effectue les mises à jour clés suivantes sur les entités appropriées.
@@ -206,22 +207,22 @@ Le tableau suivant résume les effets du paramètre **Autoriser plusieurs accus�
 |---|---|---|---|
 | Lorsque ce champ n’est pas disponible (versions antérieures à 10.0.10) | <p>La quantité de chargement est définie de manière à ce qu’elle soit égale à la quantité enregistrée.</p><p>Si la quantité de chargement est mise à jour sur 0 (zéro), cela signifie qu’aucun enregistrement n’a été effectué, la ligne de chargement est supprimée.</p><p>S’il n’y a pas de lignes de chargement sur le chargement, le chargement est supprimé.</p> | _Reçu(e)_ | S’il existe plusieurs chargements pour la quantité enregistrée de la ligne de commande, seul l’état du chargement à partir duquel l’accusé de réception a été validé est mis à jour sur _Reçu_. |
 | N° | <p>La quantité de chargement est définie de manière à ce qu’elle soit égale à la quantité enregistrée associée à l’ID chargement.</p><p>Si aucun ID chargement n’est enregistré pour la transaction de stock, le comportement correspond au comportement dans les versions antérieures à 10.0.10.</p> | _Reçu(e)_ | |
-| Oui | Pas de mise à jour | _Reçu_, si la quantité de chargement totale enregistrée est égale ou supérieure à la quantité de chargement | |
-| Oui | Pas de mise à jour | _Expédié_ ou _En cours_, si la quantité de chargement totale enregistrée est inférieure à la quantité de chargement | |
+| Oui | Pas de mise à jour | _Reçu_ , si la quantité de chargement totale enregistrée est égale ou supérieure à la quantité de chargement | |
+| Oui | Pas de mise à jour | _Expédié_ ou _En cours_ , si la quantité de chargement totale enregistrée est inférieure à la quantité de chargement | |
 
-Une fois le champ **État du chargement** défini sur _Reçu_, plus aucune validation de réception de produit ne peut être effectuée pour ce chargement. Cependant, le collaborateur peut enregistrer la quantité de commande restante par rapport au chargement reçu dans les conditions suivantes. (Pour plus d’informations, voir la section [Réception excédentaire du chargement](#load-over-receiving) plus haut dans cette rubrique.)
+Une fois le champ **État du chargement** défini sur _Reçu_ , plus aucune validation de réception de produit ne peut être effectuée pour ce chargement. Cependant, le collaborateur peut enregistrer la quantité de commande restante par rapport au chargement reçu dans les conditions suivantes. (Pour plus d’informations, voir la section [Réception excédentaire du chargement](#load-over-receiving) plus haut dans cette rubrique.)
 
 - La version de Supply Chain Management est antérieure à la version 10.0.11.
 - La fonctionnalité _Réception excédentaire des quantités de chargement_ est activée, et le champ **Réception excédentaire de quantité en ligne de chargement** sur l’option de menu de l’appareil mobile pour l’action de réception des articles du chargement est défini sur _Autoriser_.
 
-Pour accuser réception de marchandises-valider les quantités de chargement supplémentaires enregistrées par rapport à un chargement défini sur le statut _Reçu_, l’utilisateur doit exécuter l’action de validation à partir de la commande fournisseur associée.
+Pour accuser réception de marchandises-valider les quantités de chargement supplémentaires enregistrées par rapport à un chargement défini sur le statut _Reçu_ , l’utilisateur doit exécuter l’action de validation à partir de la commande fournisseur associée.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Afficher les quantités enregistrées à partir de la page Commande fournisseur
 
-Pour accuser réception des marchandises-valider les quantités enregistrées depuis la page **Commande fournisseur**, l’utilisateur effectue les tâches suivantes avant de sélectionner l’action **Accusé de réception de marchandises** :
+Pour accuser réception des marchandises-valider les quantités enregistrées depuis la page **Commande fournisseur** , l’utilisateur effectue les tâches suivantes avant de sélectionner l’action **Accusé de réception de marchandises**  :
 
 - Définissez le champ **Quantité** dans la section **Paramètres** sur l’onglet **Paramètres** sur _Quantité enregistrée_.
-- Dans le champ **Accusé de réception de marchandises**, entrez les numéros des commandes fournisseur inclus dans la validation.
+- Dans le champ **Accusé de réception de marchandises** , entrez les numéros des commandes fournisseur inclus dans la validation.
 
 > [!NOTE]
 > La quantité de ligne incluse dans l’étendue de validation correspond au total de toutes les quantités enregistrées pour la ligne de commande, peu importe que l’enregistrement de la quantité ait été effectué sur plusieurs chargements, indépendamment du chargement, à partir d’un appareil mobile ou du client. La même règle s’applique lorsque la validation de l’accusé de réception des marchandises est exécutée à partir d’un chargement, si cela est effectué lorsque le champ **Autoriser plusieurs accusés de réception de marchandises par chargement** n’est pas disponible ou n’est pas activé.
@@ -237,7 +238,7 @@ Le tableau suivant résume les effets du paramètre **Autoriser plusieurs accus�
 
 | Autoriser plusieurs accusés de réception de marchandises par chargement | Quantité de chargement | Statut de charge | Note |
 |---|---|---|---|
-| Lorsque ce champ est désactivé ou non disponible (dans les versions antérieures à 10.0.10) | Pas de mise à jour | Aucune mise à jour n’est effectuée. (Le statut reste _Ouvert_, _Expédié_ ou _En cours_ .) | Puisque la validation de l’accusé de réception des produits est lancée depuis une commande fournisseur, la logique de mise à jour n’a pas d’informations concernant l’association entre les quantités enregistrées dans cette étendue et les chargements par rapport auxquels l’enregistrement était enregistré. Par conséquent, il ne peut pas sélectionner le chargement pour la mise à jour du statut. |
+| Lorsque ce champ est désactivé ou non disponible (dans les versions antérieures à 10.0.10) | Pas de mise à jour | Aucune mise à jour n’est effectuée. (Le statut reste _Ouvert_ , _Expédié_ ou _En cours_ .) | Puisque la validation de l’accusé de réception des produits est lancée depuis une commande fournisseur, la logique de mise à jour n’a pas d’informations concernant l’association entre les quantités enregistrées dans cette étendue et les chargements par rapport auxquels l’enregistrement était enregistré. Par conséquent, il ne peut pas sélectionner le chargement pour la mise à jour du statut. |
 | Activé(e) | Pas de mise à jour | <p>Une des actions suivantes se produit :</p><ul><li>Le statut passe sur <i>Reçu</i> si les quantités totales reçues et achetées des transactions de stock de la commande fournisseur sont supérieures ou égales à la quantité du chargement auquel elles sont associées.</li><li>Le statut reste défini sur <i>Ouvert</i>, <i>Expédié</i> ou <i>En cours</i> si la condition précédente n’est pas remplie pour toutes les lignes de chargement.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Sélectionnez l’option de validation de l’accusé de réception des produits appropriée pour vos opérations logistiques
@@ -267,12 +268,12 @@ Ces scénarios nécessitent la fonctionnalité _Plusieurs validations d’accus�
 
 1. Ouvrez l’espace de travail **Gestion des fonctionnalités**. (Pour plus de détails sur la recherche et l’utilisation de cet espace de travail, voir [Présentation de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) .)
 
-1. Activez la fonctionnalité _Associer les transactions de stock de la commande fournisseur au chargement_, qui est répertoriée de la manière suivante :
+1. Activez la fonctionnalité _Associer les transactions de stock de la commande fournisseur au chargement_ , qui est répertoriée de la manière suivante :
 
     - **Module :** _Gestion des entrepôts_
     - **Nom de la fonction :** _Associer les transactions de stock de la commande fournisseur au chargement_
 
-1. Activez la fonctionnalité _Plusieurs validations d’accusé de réception de marchandises par chargement_, qui est répertoriée de la manière suivante :
+1. Activez la fonctionnalité _Plusieurs validations d’accusé de réception de marchandises par chargement_ , qui est répertoriée de la manière suivante :
 
     - **Module :** _Gestion des entrepôts_
     - **Nom de la fonction :** _Plusieurs validations d’accusé de réception de marchandises par chargement_
@@ -307,11 +308,11 @@ Ce scénario montre comment enregistrer des quantités pour un chargement entran
 
 #### <a name="create-a-load-to-plan-receipt-of-a-purchase-order"></a>Créer un chargement pour planifier l’accusé de réception d’une commande fournisseur
 
-Dans cette procédure, vous allez créer manuellement une commande fournisseur et un chargement associé. Vous mettrez ensuite à jour le chargement pour simuler qu’il a été expédié par le fournisseur (ce qui met à jour l’état du chargement). Les planificateurs d’entrepôt peuvent ensuite filtrer les chargements selon l’**État du chargement** pour trouver les chargements entrants prévus.
+Dans cette procédure, vous allez créer manuellement une commande fournisseur et un chargement associé. Vous mettrez ensuite à jour le chargement pour simuler qu’il a été expédié par le fournisseur (ce qui met à jour l’état du chargement). Les planificateurs d’entrepôt peuvent ensuite filtrer les chargements selon l’ **État du chargement** pour trouver les chargements entrants prévus.
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande fournisseur**, définissez le champ **Compte fournisseur** sur _1001_.
+1. Dans la boîte de dialogue **Créer une commande fournisseur** , définissez le champ **Compte fournisseur** sur _1001_.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue et créer la commande fournisseur.
 1. La nouvelle commande fournisseur comprend déjà une ligne sous **Lignes de commande fournisseur**. Définissez les valeurs suivantes pour cette ligne :
 
@@ -319,20 +320,20 @@ Dans cette procédure, vous allez créer manuellement une commande fournisseur e
     - **Entrepôt :** _24_
     - **Quantité :** _10_
 
-1. Dans le volet Actions, sous l’onglet **Achats**, sélectionnez **Actions \> Confirmer**. Le statut de la commande est maintenant _Confirmé_.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Actions \> Atelier de planification des chargements**.
-1. Sur la page **Atelier de planification des chargements**, dans le volet Actions, sur l’onglet **Offre et demande**, sélectionnez **Ajouter \> Dans un nouveau chargement**.
-1. Dans la boîte de dialogue **Affectation des modèles de chargement**, définissez le champ **ID du modèle de chargement** sur _Conteneur de 20_.
+1. Dans le volet Actions, sous l’onglet **Achats** , sélectionnez **Actions \> Confirmer**. Le statut de la commande est maintenant _Confirmé_.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Actions \> Atelier de planification des chargements**.
+1. Sur la page **Atelier de planification des chargements** , dans le volet Actions, sur l’onglet **Offre et demande** , sélectionnez **Ajouter \> Dans un nouveau chargement**.
+1. Dans la boîte de dialogue **Affectation des modèles de chargement** , définissez le champ **ID du modèle de chargement** sur _Conteneur de 20_.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue et revenir à l’atelier.
-1. Dans la section **Chargements**, sélectionnez **ID chargement** pour ouvrir le chargement récemment créé.
+1. Dans la section **Chargements** , sélectionnez **ID chargement** pour ouvrir le chargement récemment créé.
 1. Passez en revue l’en-tête de chargement et les détails de ligne et observez les points suivants :
 
-    - Sur le raccourci **Chargement**, le champ **État du chargement** est défini sur _Ouvert_.
-    - Dans la section **Lignes de chargement**, il y a une seule ligne où le champ **Quantité** est défini sur _10_ et le champ **Quantité créée par le travail** est défini sur _0_ (zéro).
+    - Sur le raccourci **Chargement** , le champ **État du chargement** est défini sur _Ouvert_.
+    - Dans la section **Lignes de chargement** , il y a une seule ligne où le champ **Quantité** est défini sur _10_ et le champ **Quantité créée par le travail** est défini sur _0_ (zéro).
 
     ![Détails de la charge](media/inbound-load-details.png "Détails de la charge")
 
-1. Dans le volet Actions, sous l’onglet **Expédier et recevoir**, sélectionnez **Confirmer \> Expédition entrante**. Notez que l’**État du chargement** est passé sur _Expédié_.
+1. Dans le volet Actions, sous l’onglet **Expédier et recevoir** , sélectionnez **Confirmer \> Expédition entrante**. Notez que l’ **État du chargement** est passé sur _Expédié_.
 1. Prenez note de la valeur **ID chargement** afin de pouvoir l’utiliser dans la procédure suivante.
 
 #### <a name="register-receipt-of-the-quantities-that-arrived-on-the-load"></a>Enregistrer l’accusé de réception des quantités arrivées sur le chargement
@@ -344,7 +345,7 @@ Lorsque le chargement arrive au quai de réception de l’entrepôt, un récepti
 1. Suivez les instructions de saisie de données à l’écran pour saisir les valeurs suivantes. (L’ordre peut varier en fonction de l’appareil mobile ou de l’émulateur que vous utilisez.)
 
     - **Chargement** - Entrez l’ID chargement que vous avez créé à la procédure précédente.
-    - **Article** - Entrez _A0001_, qui est l’article prévu pour ce chargement.
+    - **Article** - Entrez _A0001_ , qui est l’article prévu pour ce chargement.
     - **Qté** - Entrez _9_ comme la quantité réelle présente sur le chargement. Notez que cette quantité est inférieure à la quantité prévue.
 
 1. Continuez à parcourir le flux de travail, en laissant tous les autres champs vides ou définis sur leurs valeurs par défaut, jusqu’à ce que votre appareil vous informe que le travail est terminé.
@@ -353,14 +354,14 @@ La tâche de réception du chargement est maintenant terminée et le commis de r
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
 1. Dans la liste, recherchez le chargement que vous venez de recevoir. (Vous devez peut-être sélectionner la case **Afficher fermé** pour inclure les chargements entrants dont l’état de chargement est défini sur _Expédié_.) Sélectionnez ensuite le lien dans la colonne **ID chargement** pour ouvrir le chargement.
-1. Dans l’enregistrement de chargement, notez que la valeur **État du chargement** reste définie sur _Expédié_, mais la valeur **Quantité créée par le travail** sur la ligne de chargement est devenue _9_.
+1. Dans l’enregistrement de chargement, notez que la valeur **État du chargement** reste définie sur _Expédié_ , mais la valeur **Quantité créée par le travail** sur la ligne de chargement est devenue _9_.
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Dans la liste, recherchez l’achat que vous venez de recevoir, puis sélectionnez le lien dans la **Commande fournisseur** pour ouvrir la commande.
 \
-1. Sur le raccourci **Lignes de commande fournisseur**, sélectionnez **Stock \> Affichage \> Transactions**.
-1. Consultez les détails des deux transactions de commande fournisseur. (Vous devrez peut-être personnaliser la page **Transactions de stock** pour voir l’**ID chargement** à la grille.) Vous devriez voir deux transactions :
+1. Sur le raccourci **Lignes de commande fournisseur** , sélectionnez **Stock \> Affichage \> Transactions**.
+1. Consultez les détails des deux transactions de commande fournisseur. (Vous devrez peut-être personnaliser la page **Transactions de stock** pour voir l’ **ID chargement** à la grille.) Vous devriez voir deux transactions :
 
-    - La transaction avec un accusé de réception avec le statut _Enregistré_ représente la quantité d’enregistrement de _9_ qui a été exécutée sur un chargement spécifique à l’aide de l’appareil mobile. L’**ID chargement** est associé à la transaction en question.
+    - La transaction avec un accusé de réception avec le statut _Enregistré_ représente la quantité d’enregistrement de _9_ qui a été exécutée sur un chargement spécifique à l’aide de l’appareil mobile. L’ **ID chargement** est associé à la transaction en question.
     - La transaction qui a un accusé de réception dans _Commandé_ représente la quantité de ligne de commande non enregistrée restante de _1_.
 
 #### <a name="product-receiptpost-the-registered-load-quantities-against-purchase-orders"></a>Accuser réception des marchandises-valider les quantités de produits enregistrées sur les commandes fournisseur
@@ -369,13 +370,13 @@ Dans cette procédure, vous accuserez réception des produits-validerez le stock
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
 1. Dans la liste, recherchez le chargement que vous venez de recevoir. (Vous devez peut-être sélectionner la case **Afficher fermé** pour inclure les chargements entrants dont l’état de chargement est défini sur _Expédié_.) Sélectionnez ensuite le lien dans la colonne **ID chargement** pour ouvrir le chargement.
-1. Dans le volet Actions, sous l’onglet **Expédier et recevoir**, sélectionnez **Recevoir \> Accusé de réception de marchandises**. Cliquez sur **Oui** si vous êtes invité à confirmer l’action.
-1. Dans la boîte de dialogue **Validation de l’accusé de réception de produits**, sur le raccourci **Lignes**, inspectez la grille. Vous devriez voir la ligne de la commande fournisseur pour laquelle la quantité a été enregistrée par rapport au chargement sélectionné.
+1. Dans le volet Actions, sous l’onglet **Expédier et recevoir** , sélectionnez **Recevoir \> Accusé de réception de marchandises**. Cliquez sur **Oui** si vous êtes invité à confirmer l’action.
+1. Dans la boîte de dialogue **Validation de l’accusé de réception de produits** , sur le raccourci **Lignes** , inspectez la grille. Vous devriez voir la ligne de la commande fournisseur pour laquelle la quantité a été enregistrée par rapport au chargement sélectionné.
 
     > [!NOTE]
     > Dans les versions où a fonctionnalité _Plusieurs validations d’accusé de réception de marchandises par chargement_ n’est pas disponible ou n’est pas activée, la quantité par défaut indiquée dans la grille **Lignes de chargement** sera la quantité totale qui a été enregistrée pour tous les chargements associés à la ligne de commande fournisseur.
 
-1. Sur le raccourci **Vue d’ensemble**, contrôlez le champ **Accusé de réception de marchandises** dans la grille. Notez qu’il s’agit de définir un nombre qui inclut l’ID chargement sélectionné.
+1. Sur le raccourci **Vue d’ensemble** , contrôlez le champ **Accusé de réception de marchandises** dans la grille. Notez qu’il s’agit de définir un nombre qui inclut l’ID chargement sélectionné.
 1. Sélectionnez **OK** pour valider l’accusé de réception de produits et fermer la boîte de dialogue **Validation de l’accusé de réception de produits**.
 1. Vous revenez aux détails du chargement. Notez les points suivants :
 
@@ -384,7 +385,7 @@ Dans cette procédure, vous accuserez réception des produits-validerez le stock
 
 Si l’équipe d’achat ne s’attend pas à ce que le fournisseur livre la quantité de commande restante de 1, elle peut clôturer la commande en mettant à jour le reste de la livraison de la ligne sur _0_. Cependant, s’il est rapidement constaté que la pièce manquante est arrivée sur le chargement d’origine, le personnel de l’entrepôt peut effectuer l’une des actions suivantes :
 
-- Enregistrez la quantité pour le même chargement. Dans ce cas, le champ **État du chargement** sera réinitialisé sur _Expédié_, et la valeur **Quantité créée par le travail** sera mise à jour sur _10_. Ce choix est disponible uniquement dans les cas suivants :
+- Enregistrez la quantité pour le même chargement. Dans ce cas, le champ **État du chargement** sera réinitialisé sur _Expédié_ , et la valeur **Quantité créée par le travail** sera mise à jour sur _10_. Ce choix est disponible uniquement dans les cas suivants :
 
     - La fonctionnalité _Réception excédentaire des quantités du chargement_ n’est pas disponible ou n’est pas activée.
     - La fonctionnalité _Réception excédentaire des quantités du chargement_ est disponible et activée, et le champ **Accusé de réception de la quantité excédentaire de la ligne de chargement** est défini sur _Autoriser_.
@@ -403,33 +404,33 @@ Ce scénario montre également comment traiter plusieurs validations d’accusé
 Dans cette procédure, vous allez activer plusieurs validations d’accusé de réception de marchandises à partir du même chargement.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
-1. Sur l’onglet **Chargements**, définissez **Autoriser plusieurs accusés de réception de marchandises par chargement** sur _Oui_.
+1. Sur l’onglet **Chargements** , définissez **Autoriser plusieurs accusés de réception de marchandises par chargement** sur _Oui_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Créer deux chargements pour planifier l’accusé de réception d’une commande fournisseur
 
-Dans cette procédure, vous allez créer une commande fournisseur et deux chargements. Vous mettrez ensuite à jour manuellement chaque chargement pour simuler qu’il a été expédié par le fournisseur (qui met à jour l’état du chargement). Les planificateurs d’entrepôt peuvent ensuite filtrer les chargements selon l’**État du chargement** pour trouver les chargements entrants prévus.
+Dans cette procédure, vous allez créer une commande fournisseur et deux chargements. Vous mettrez ensuite à jour manuellement chaque chargement pour simuler qu’il a été expédié par le fournisseur (qui met à jour l’état du chargement). Les planificateurs d’entrepôt peuvent ensuite filtrer les chargements selon l’ **État du chargement** pour trouver les chargements entrants prévus.
 
 Vous apprendrez également à définir la ligne de commande afin que vous puissiez recevoir une quantité supérieure de 20 % à la quantité spécifiée pour la ligne.
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Sélectionnez **Nouveau**.
-1. Sur le raccourci **Fournisseur**, définissez le champ **Compte fournisseur** sur _1001_, puis sélectionnez **OK**.
+1. Sur le raccourci **Fournisseur** , définissez le champ **Compte fournisseur** sur _1001_ , puis sélectionnez **OK**.
 1. Votre nouvelle commande fournisseur est ouverte et comprend une ligne vierge dans la grille **Lignes de commande fournisseur**. Définissez les valeurs suivantes pour cette ligne de commande :
 
     - **Numéro d’article :** _A0001_
     - **Entrepôt :** _24_
     - **Quantité :** _10_
 
-1. Sur le raccourci **Détails de ligne**, sur l’onglet **Livraison**, définissez le champ **Livraison excédentaire** sur _20_.
-1. Dans le volet Actions, sous l’onglet **Achats**, sélectionnez **Actions \> Confirmer**. Le statut de la commande est maintenant _Confirmé_.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Actions \> Atelier de planification des chargements**.
-1. Sur la page **Atelier de planification des chargements**, dans le volet Actions, sur l’onglet **Offre et demande**, sélectionnez **Ajouter \> Dans un nouveau chargement**.
-1. Dans la boîte de dialogue **Affectation des modèles de chargement**, définissez le champ **ID du modèle de chargement** sur _Conteneur de 20_. Sur l’onglet **Détails**, modifiez la valeur **Quantité** de _10_ à _5_ pour ajouter partiellement la quantité de ligne de commande fournisseur.
+1. Sur le raccourci **Détails de ligne** , sur l’onglet **Livraison** , définissez le champ **Livraison excédentaire** sur _20_.
+1. Dans le volet Actions, sous l’onglet **Achats** , sélectionnez **Actions \> Confirmer**. Le statut de la commande est maintenant _Confirmé_.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Actions \> Atelier de planification des chargements**.
+1. Sur la page **Atelier de planification des chargements** , dans le volet Actions, sur l’onglet **Offre et demande** , sélectionnez **Ajouter \> Dans un nouveau chargement**.
+1. Dans la boîte de dialogue **Affectation des modèles de chargement** , définissez le champ **ID du modèle de chargement** sur _Conteneur de 20_. Sur l’onglet **Détails** , modifiez la valeur **Quantité** de _10_ à _5_ pour ajouter partiellement la quantité de ligne de commande fournisseur.
 1. Sélectionnez **OK** pour appliquer vos paramètres et fermer la boîte de dialogue.
 1. Répétez les étapes 8 à 10 pour créer un deuxième chargement. Cette fois, le champ **Quantité** doit déjà être défini sur _5_.
-1. Sur la page **Atelier de planification des chargements**, dans la grille **Chargements**, sélectionnez la valeur **ID chargement** pour le premier chargement que vous avez créé. La page **Détails du chargement** apparaît et affiche le chargement sélectionné. Procédez comme suit :
+1. Sur la page **Atelier de planification des chargements** , dans la grille **Chargements** , sélectionnez la valeur **ID chargement** pour le premier chargement que vous avez créé. La page **Détails du chargement** apparaît et affiche le chargement sélectionné. Procédez comme suit :
 
-    1. Dans le volet Actions, sous l’onglet **Expédier et recevoir**, sélectionnez **Confirmer \> Expédition entrante**.
+    1. Dans le volet Actions, sous l’onglet **Expédier et recevoir** , sélectionnez **Confirmer \> Expédition entrante**.
     1. Notez que la valeur **État du chargement** est passée sur _Expédié_.
     1. Sélectionnez le bouton de fermeture pour revenir sur la page **Atelier de planification des chargements**.
 
@@ -447,14 +448,14 @@ Cette procédure montre comment un commis récepteur enregistrera les quantités
 1. Suivez les instructions de saisie de données à l’écran pour saisir les valeurs suivantes. (L’ordre peut varier en fonction de l’appareil mobile ou de l’émulateur que vous utilisez.)
 
     - **Chargement** - Entrez le premier ID chargement que vous avez créé dans la procédure précédente.
-    - **Article** - Entrez _A0001_, qui est l’article prévu pour ce chargement.
+    - **Article** - Entrez _A0001_ , qui est l’article prévu pour ce chargement.
     - **Qté** - Entrez _3_. Notez que cette quantité est inférieure à la quantité prévue. Pour ce scénario, imaginez que vous, en tant que commis réceptionnaire, n’avez pas le temps d’enregistrer toutes les quantités pour ce chargement. Plus tard dans cette procédure, vous enregistrerez les pièces restantes en répétant cette étape et en définissant le champ **Qté** sur _2_.
 
 1. Continuez à parcourir le flux de travail, en laissant tous les autres champs vides ou définis sur leurs valeurs par défaut, jusqu’à ce que votre appareil vous informe que le travail est terminé.
 1. Dans le client Web, accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Dans la liste, recherchez le chargement que vous venez de recevoir et sélectionnez la valeur **ID chargement** pour ouvrir le chargement. Notez que la valeur **État du chargement** reste _Expédié_, mais la valeur **Quantité créée par le travail** sur la ligne de chargement est devenue _3_.
-1. Dans le volet Actions, sous l’onglet **Expédier et recevoir**, sélectionnez **Recevoir \> Accusé de réception de marchandises**. Cliquez sur **Oui** si vous êtes invité à confirmer l’action.
-1. Dans la boîte de dialogue **Validation de l’accusé de réception de produits**, passez en revue, mais ne modifiez pas les valeurs affichées, puis sélectionnez **OK**.
+1. Dans la liste, recherchez le chargement que vous venez de recevoir et sélectionnez la valeur **ID chargement** pour ouvrir le chargement. Notez que la valeur **État du chargement** reste _Expédié_ , mais la valeur **Quantité créée par le travail** sur la ligne de chargement est devenue _3_.
+1. Dans le volet Actions, sous l’onglet **Expédier et recevoir** , sélectionnez **Recevoir \> Accusé de réception de marchandises**. Cliquez sur **Oui** si vous êtes invité à confirmer l’action.
+1. Dans la boîte de dialogue **Validation de l’accusé de réception de produits** , passez en revue, mais ne modifiez pas les valeurs affichées, puis sélectionnez **OK**.
 1. Vous revenez à la page **Détails du chargement** pour votre chargement sélectionné. Notez les points suivants :
 
     - Le champ **État du chargement** reste défini sur _Expédié_.
@@ -473,7 +474,7 @@ Pour ce scénario, le réceptionnaire enregistrera en entrée une quantité qui 
 1. Suivez les instructions de saisie de données à l’écran pour saisir les valeurs suivantes. (L’ordre peut varier en fonction de l’appareil mobile ou de l’émulateur que vous utilisez.)
 
     - **Chargement** - Entrez le deuxième ID chargement que vous avez créé précédemment.
-    - **Article** - Entrez _A0001_, qui est l’article prévu pour ce chargement.
-    - **Qté** - Entrez _7_, qui est la quantité restante que le fournisseur soit autorisé à livrer dans le cadre de la quantité totale de commande de 12 (où 10 est la quantité de commande d’origine et 2 est la quantité de livraison excédentaire autorisée de 20 %). N’oubliez pas que 5 pièces ont déjà été enregistrées pour le premier chargement.
+    - **Article** - Entrez _A0001_ , qui est l’article prévu pour ce chargement.
+    - **Qté** - Entrez _7_ , qui est la quantité restante que le fournisseur soit autorisé à livrer dans le cadre de la quantité totale de commande de 12 (où 10 est la quantité de commande d’origine et 2 est la quantité de livraison excédentaire autorisée de 20 %). N’oubliez pas que 5 pièces ont déjà été enregistrées pour le premier chargement.
 
 Le deuxième chargement a maintenant été mis à jour avec la quantité de 7 et peut être mis à jour à la réception du produit en fonction de cette quantité.

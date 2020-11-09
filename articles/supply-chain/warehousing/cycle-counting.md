@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation
+ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8352df2de5daf994895eb7ef40866490a7619652
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830498"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015985"
 ---
 # <a name="cycle-counting"></a>Inventaire tournant
 
@@ -110,7 +110,7 @@ Le travail d'inventaire tournant peut être créé lorsque le nombre d'articles 
 Vous pouvez programmer des plans d'inventaire tournant pour créer le travail d'inventaire tournant immédiatement ou périodiquement. En paramétrant des plans de cycle d'inventaire, vous pouvez contrôler le pool de travail pour lequel le travail d'inventaire tournant est créé, le nombre maximal d'inventaires tournants créés pour des articles dans différents emplacements et le nombre de jours avant le prochain inventaire de l'entrepôt. Par exemple, un article est disponible dans trois emplacements de l'entrepôt et le nombre maximal d'inventaires tournants est défini sur **2**. Dans ce cas, lorsque vous exécutez le plan d'inventaire tournant, deux inventaires tournants sont créés pour les deux emplacements dans lesquels l'article est présent. Autre exemple, vous définissez le nombre de jours entre les inventaires tournants sur **5**. Dans ce cas, le travail d'inventaire tournant est créé tous les cinq jours. Toutefois, si le travail d'inventaire tournant est traité le jour 3, le travail d'inventaire tournant suivant sera créé cinq jours après le traitement du dernier inventaire tournant, le jour 8.
 
 ## <a name="create-cycle-counting-work-manually"></a>Création manuelle d'un travail d'inventaire tournant
-Pour créer manuellement un cycle d'inventaire tournant, utilisez les pages **Inventaire tournant par article** ou **Travail d'inventaire tournant par emplacement**. Vous pouvez spécifier le nombre maximal d'inventaires tournants à créer. Par exemple, si le responsable d'entrepôt spécifie une valeur de **5**, alors le travail d'inventaire tournant est créé pour cinq emplacements, même si l'article est présent dans 10 emplacements. Vous pouvez également choisir un ID de pool de travail auquel attribuer les ID de travail d'inventaire tournant créés. Lorsqu'un ID de pool de travail est traité pour l'inventaire tournant, les ID de travail d'inventaire tournant qui sont affectés au pool de travail sont traités comme un groupe.
+Pour créer manuellement un cycle d'inventaire tournant, utilisez les pages **Inventaire tournant par article** ou **Travail d'inventaire tournant par emplacement**. Vous pouvez spécifier le nombre maximal d'inventaires tournants à créer. Par exemple, si le responsable d'entrepôt spécifie une valeur de **5** , alors le travail d'inventaire tournant est créé pour cinq emplacements, même si l'article est présent dans 10 emplacements. Vous pouvez également choisir un ID de pool de travail auquel attribuer les ID de travail d'inventaire tournant créés. Lorsqu'un ID de pool de travail est traité pour l'inventaire tournant, les ID de travail d'inventaire tournant qui sont affectés au pool de travail sont traités comme un groupe.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Effectuer un inventaire tournant en utilisant un appareil mobile
 Il existe plusieurs méthodes pour traiter un travail d'inventaire tournant à l'aide de Supply Chain Management sur un appareil mobile :
@@ -124,7 +124,7 @@ L'exemple suivant montre comment vous pouvez effectuer un inventaire tournant po
 
 1.  Sur l'appareil mobile, sélectionnez l'option de menu pour traiter le travail d'inventaire tournant ponctuel.
 2.  Enregistrez l'emplacement pour lequel vous voulez effectuer l'inventaire tournant.
-3.  Enregistrez et confirmez le numéro d'article et la quantité de l'article compté. **Remarque :** Le statut du travail d'inventaire tournant est mis à jour sur **Révision en attente** ou **Clôturé** dans la page **Tout le travail**, selon les paramètres définis dans la page **Collaborateur**.
+3.  Enregistrez et confirmez le numéro d'article et la quantité de l'article compté. **Remarque :** Le statut du travail d'inventaire tournant est mis à jour sur **Révision en attente** ou **Clôturé** dans la page **Tout le travail** , selon les paramètres définis dans la page **Collaborateur**.
 4.  Facultatif : Répétez l'étape 3 pour les articles restants de l'emplacement et confirmez qu'il n'existe aucun article supplémentaire disponible pour le comptage.
 
 ## <a name="resolve-cycle-counting-differences"></a>Résoudre les différences de l'inventaire tournant

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652231"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016606"
 ---
 # <a name="replenishment-over-location-capacity"></a>Réapprovisionnement sur la capacité de l’emplacement
 
@@ -52,7 +53,7 @@ Activez la fonctionnalité Réapprovisionnement sur la capacité de l’emplacem
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d’emplacements**.
 1. Dans le volet gauche, sélectionnez **PICK-06**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l’organisateur **Réapprovisionnement**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Réapprovisionnement** , définissez les valeurs suivantes :
 
     - **Dépasser la capacité de l’emplacement :** *Oui*
 
@@ -97,7 +98,7 @@ Activez la fonctionnalité Réapprovisionnement sur la capacité de l’emplacem
         Les limites de stockage sur site sont prises en compte lors du calcul du pourcentage de travail. Si aucune limite de stockage d’emplacement n’est définie, le pourcentage de quantité de travail est calculé par volume si les contraintes de volume sont définies pour le profil d’emplacement.
 
 > [!IMPORTANT]
-> Si vous utilisez les données de démonstration pour l’entité juridique **USMF** et que vous avez précédemment activé la fonctionnalité *Positionnement des contenants d’emplacement*, vous devez désactiver la fonction **Activer le positionnement des contenants** pour le profil d’emplacement **BULK-06** pour terminer les étapes mobiles dans l’exemple de scénario.
+> Si vous utilisez les données de démonstration pour l’entité juridique **USMF** et que vous avez précédemment activé la fonctionnalité *Positionnement des contenants d’emplacement* , vous devez désactiver la fonction **Activer le positionnement des contenants** pour le profil d’emplacement **BULK-06** pour terminer les étapes mobiles dans l’exemple de scénario.
 
 ### <a name="wave-step-code"></a>Code étape de vague
 
@@ -119,7 +120,7 @@ Les modèles de réapprovisionnement constituent un ensemble de règles contrôl
 
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Réapprovisionnement \> Modèles de réapprovisionnement**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans la section **Aperçu**, sélectionnez la ligne où le champ **Modèle de réapprovisionnement** est défini sur *Réapprovisionnement de la demande*.
+1. Dans la section **Aperçu** , sélectionnez la ligne où le champ **Modèle de réapprovisionnement** est défini sur *Réapprovisionnement de la demande*.
 1. Définissez les valeurs suivantes :
 
     - **Code étape de vague :** *Réappro.*
@@ -133,11 +134,11 @@ Les modèles de réapprovisionnement constituent un ensemble de règles contrôl
 1. Dans le volet gauche, définissez le champ **Type de modèle de vague** sur *Expédition*.
 1. Sélectionnez le modèle **61 Shipping** dans la liste.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans le raccourci **Général**, définissez l’option **Automatiser la libération du travail de réapprovisionnement** sur *Oui*.
+1. Dans le raccourci **Général** , définissez l’option **Automatiser la libération du travail de réapprovisionnement** sur *Oui*.
 
     Définissez cette option sur *Oui* pour créer un travail de réapprovisionnement basé sur la demande et le libérer automatiquement. Vous devez ajouter la méthode de vague de réapprovisionnement au modèle de vague, puis créer un modèle de réapprovisionnement du type **Demande de vague**. Paramétrez un modèle de réapprovisionnement sur la page **Modèles de réapprovisionnement**. Pour configurer un modèle de réapprovisionnement, vous devez ajouter la méthode de réapprovisionnement au modèle de vague.
 
-1. Sur l’organisateur **Méthodes**, dans la colonne **Méthodes sélectionnées**, recherchez la ligne suivante :
+1. Sur l’organisateur **Méthodes** , dans la colonne **Méthodes sélectionnées** , recherchez la ligne suivante :
 
     - **Nom de la méthode :** *réapprovisionner*
     - **Nom :** *Réapprovisionnement*
@@ -166,10 +167,10 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
     - **Numéro d’article :** *T0100*
     - **Quantité :** *40*
 
-1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Stock \> Réservation**.
-1. Sur la page **Réservation**, sélectionnez **Réserver un lot**.
+1. Sur l’organisateur **Lignes de commande client** , sélectionnez **Stock \> Réservation**.
+1. Sur la page **Réservation** , sélectionnez **Réserver un lot**.
 1. Fermez la page.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Vous recevez des messages d’informations indiquant que l’ID de vague et l’ID d’expédition ont été créés. Une vague de réapprovisionnement est également créée.
 
@@ -177,7 +178,7 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
 
 #### <a name="create-sales-order-2"></a>Créer une commande client 2
 
-1. Sur la page **Toutes les commandes client**, dans le volet Actions, sélectionnez **Nouveau** pour ouvrir une boîte de dialogue de création de commande client.
+1. Sur la page **Toutes les commandes client** , dans le volet Actions, sélectionnez **Nouveau** pour ouvrir une boîte de dialogue de création de commande client.
 1. Dans la boîte de dialogue, définissez la valeur suivante :
 
     - **Compte client :** *US-001*
@@ -189,10 +190,10 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
     - **Numéro d’article :** *T0100*
     - **Quantité :** *60*
 
-1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Stock \> Réservation**.
-1. Sur la page **Réservation**, sélectionnez **Réserver un lot**.
+1. Sur l’organisateur **Lignes de commande client** , sélectionnez **Stock \> Réservation**.
+1. Sur la page **Réservation** , sélectionnez **Réserver un lot**.
 1. Fermez la page.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Vous recevez des messages d’informations indiquant que l’ID de vague et l’ID d’expédition ont été créés. Une vague de réapprovisionnement est également créée.
 
@@ -200,7 +201,7 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
 
 #### <a name="create-sales-order-3"></a>Créer une commande client 3
 
-1. Sur la page **Toutes les commandes client**, dans le volet Actions, sélectionnez **Nouveau** pour ouvrir une boîte de dialogue de création de commande client.
+1. Sur la page **Toutes les commandes client** , dans le volet Actions, sélectionnez **Nouveau** pour ouvrir une boîte de dialogue de création de commande client.
 1. Dans la boîte de dialogue, définissez les valeurs suivantes :
 
     - **Compte client :** *US-004*
@@ -212,10 +213,10 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
     - **Numéro d’article :** *T0100*
     - **Quantité :** *30*
 
-1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Stock \> Réservation**.
-1. Sur la page **Réservation**, sélectionnez **Réserver un lot**.
+1. Sur l’organisateur **Lignes de commande client** , sélectionnez **Stock \> Réservation**.
+1. Sur la page **Réservation** , sélectionnez **Réserver un lot**.
 1. Fermez la page.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**.
 
     Vous recevez des messages d’informations indiquant que l’ID de vague et l’ID d’expédition ont été créés. Une vague de réapprovisionnement est également créée.
 
@@ -224,11 +225,11 @@ Après avoir mis à disposition tous les exemples de données décrits précéde
 #### <a name="view-work-details"></a>Afficher les détails du travail
 
 1. Accédez à **Gestion des entrepôts \> Travail \> Détails du travail**.
-1. Dans la section **Aperçu**, filtrez la colonne **Entrepôt** pour l’entrepôt *61*.
+1. Dans la section **Aperçu** , filtrez la colonne **Entrepôt** pour l’entrepôt *61*.
 1. Vous devriez voir que sept ID de travail ont été créés pour les trois commandes client à la demande.
 
     - Trois des sept ID de travail ont une valeur de **Type d’ordre de travail** de *Réapprovisionnement* et quatre ont une valeur de **Type d’ordre de travail** de *Commandes client*.
-    - Les trois ID de travail qui ont une valeur de **Type d’ordre de travail** de *Réapprovisionnement* ont les mêmes emplacements de *Prélèvement* et *Rangement* dans la section **Lignes** :
+    - Les trois ID de travail qui ont une valeur de **Type d’ordre de travail** de *Réapprovisionnement* ont les mêmes emplacements de *Prélèvement* et *Rangement* dans la section **Lignes**  :
 
         - **Prélèvement :** *02A01R5S1B*
         - **Rangement :** *06A01R2S1B*
@@ -254,8 +255,8 @@ Pour trouver les ID de contenant dont vous aurez besoin ultérieurement, procéd
 
 1. Sélectionnez **Appliquer**.
 1. Dans le volet Actions, sélectionnez **Dimensions**.
-1. Dans la boîte de dialogue **Affichage des dimensions**, dans la section **Dimensions de stockage**, sélectionnez toutes les valeurs.
-1. Dans la section **Transactions**, sélectionnez **Numéro d’article** et **Quantité \<\> 0**.
+1. Dans la boîte de dialogue **Affichage des dimensions** , dans la section **Dimensions de stockage** , sélectionnez toutes les valeurs.
+1. Dans la section **Transactions** , sélectionnez **Numéro d’article** et **Quantité \<\> 0**.
 1. Lorsque vous avez terminé, sélectionnez **OK** pour fermer la boîte de dialogue.
 1. La grille **Disponible** montre les numéros de contenants pour l’article *T0100* à chaque emplacement. Notez le contenant qui se trouve à chaque emplacement, car vous aurez besoin de ces informations plus tard.
 1. Fermez la page.
@@ -271,7 +272,7 @@ Vous effectuerez le réapprovisionnement de l’emplacement d’entrepôt pour l
 
     Vous êtes invité à terminer le premier travail de réapprovisionnement. Le numéro d’article, la quantité et l’emplacement du prélèvement sont affichés.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 1. Sélectionnez le bouton **OK** (symbole de coche).
 
     Le système génère un numéro de contenant cible pour le nouveau contenant de l’article prélevé.
@@ -306,12 +307,12 @@ Avant que la tâche de travail de réapprovisionnement restante ne puisse être 
 
     La page des tâches **Commandes client : Prélèvement** affiche le numéro d’article, la quantité et l’emplacement de sélection pour le premier emplacement.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 1. Sélectionnez le bouton **OK** (symbole de coche).
 
     La page des tâches **Commandes client : Prélèvement** affiche le numéro d’article, la quantité et l’emplacement de prélèvement pour l’emplacement suivant.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 1. Sélectionnez le bouton **OK** (symbole de coche).
 
     La page **Commandes client : Rangement** vous demande de ranger les deux travaux de prélèvement terminés à l’emplacement de transfert sortant.
@@ -328,7 +329,7 @@ Avant que la tâche de travail de réapprovisionnement restante ne puisse être 
 
     La page des tâches **Commandes client : Prélèvement** affiche le numéro d’article, la quantité et l’emplacement de prélèvement.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 
     Le contenant que vous spécifiez sera l’un des contenants générés par le système à partir des tâches de réapprovisionnement. Pour vous assurer que vous saisissez le bon ID de contenant, vérifiez le stock sur la page **Stock disponible** pour l’article, l’emplacement et la quantité.
 
@@ -348,7 +349,7 @@ Le prélèvement de la commande client 2 est bloqué, car la tâche de réappro
 
     La page des tâches **Commandes client : Prélèvement** affiche le numéro d’article, la quantité et l’emplacement de prélèvement.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 
     Le contenant que vous spécifiez sera l’un des contenants générés par le système à partir des tâches de réapprovisionnement. Pour vous assurer que vous saisissez le bon ID de contenant, vérifiez le stock sur la page **Stock disponible** pour l’article, l’emplacement et la quantité.
 
@@ -360,7 +361,7 @@ Le prélèvement de la commande client 2 est bloqué, car la tâche de réappro
 
 Dès que la somme de la quantité disponible sur l’emplacement de prélèvement et de la quantité de réapprovisionnement est inférieure au seuil, vous pourrez traiter le travail de réapprovisionnement restant.
 
-Revenez à la page **Détails du travail** et notez que la disponibilité du travail de réapprovisionnement pour la partie finale du réapprovisionnement (pour la commande client 2) est *Ouverte*, car il y a maintenant suffisamment d’espace à l’emplacement pour accepter le réapprovisionnement.
+Revenez à la page **Détails du travail** et notez que la disponibilité du travail de réapprovisionnement pour la partie finale du réapprovisionnement (pour la commande client 2) est *Ouverte* , car il y a maintenant suffisamment d’espace à l’emplacement pour accepter le réapprovisionnement.
 
 Vous pouvez désormais traiter ce travail de réapprovisionnement via l’appareil mobile.
 
@@ -368,7 +369,7 @@ Vous pouvez désormais traiter ce travail de réapprovisionnement via l’appare
 
     Vous êtes invité à terminer le travail de réapprovisionnement restant. Le numéro d’article, la quantité et l’emplacement du prélèvement sont affichés.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 1. Sélectionnez le bouton **OK** (symbole de coche).
 
     Le système génère un numéro de contenant cible pour le nouveau contenant de l’article prélevé.
@@ -391,7 +392,7 @@ Vous pouvez maintenant prélever la commande client 2. Elle a été débloquée
 
     La page des tâches **Commandes client : Prélèvement** affiche le numéro d’article, la quantité et l’emplacement de prélèvement.
 
-1. Dans le champ **LP**, entrez le numéro de contenant de l’article à l’emplacement indiqué.
+1. Dans le champ **LP** , entrez le numéro de contenant de l’article à l’emplacement indiqué.
 
     Le contenant que vous spécifiez sera le contenant généré par le système à partir de la tâche de réapprovisionnement. Pour vous assurer que vous saisissez le bon ID de contenant, vérifiez le stock sur la page **Stock disponible** pour l’article, l’emplacement et la quantité.
 

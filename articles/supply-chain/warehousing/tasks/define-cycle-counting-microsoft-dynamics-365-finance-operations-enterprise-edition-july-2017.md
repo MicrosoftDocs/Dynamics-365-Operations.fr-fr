@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1503ef3646657a4b7bb7e240144af2ac559a62d0
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383019"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016146"
 ---
 # <a name="define-cycle-counting"></a>Définir l'inventaire tournant 
 
@@ -30,20 +31,20 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 
 
 ## <a name="set-the-priority-of-counting-work"></a>Définir la priorité du travail d'inventaire
-1. Dans le **Volet de navigation**, allez dans **Modules > Gestion des entrepôts > Configuration > Paramètres de gestion des entrepôts**.
+1. Dans le **Volet de navigation** , allez dans **Modules > Gestion des entrepôts > Configuration > Paramètres de gestion des entrepôts**.
 2. Cliquez sur l'onglet **Inventaire tournant**.
 3. Entrez un nombre dans le champ **Priorité de travail d'inventaire tournant par défaut**. Cette étape modifie la priorité du travail d'inventaire tournant par rapport à d'autres types de travail dans l'entrepôt. Si vous entrez un nombre plus faible que celui pour d'autres types de travail, vous élevez la priorité du travail d'inventaire tournant.  
 4. Cliquez sur **Enregistrer**.
 5. Fermez la page.
 
 ## <a name="enable-the-mobile-device"></a>Activer l'appareil mobile
-1. Dans le **Volet de navigation**, allez dans **Modules > Gestion des entrepôts > Configuration > Appareil mobile > Options de menu d'appareil mobile**.
+1. Dans le **Volet de navigation** , allez dans **Modules > Gestion des entrepôts > Configuration > Appareil mobile > Options de menu d'appareil mobile**.
 2. Cliquez sur **Nouveau**.
-3. Dans le champ **Nom de l'option de menu**, saisissez une valeur.
-4. Dans le champ **Titre**, saisissez une valeur.
-5. Dans le champ **Mode**, sélectionnez « Travail ».
+3. Dans le champ **Nom de l'option de menu** , saisissez une valeur.
+4. Dans le champ **Titre** , saisissez une valeur.
+5. Dans le champ **Mode** , sélectionnez « Travail ».
 6. Définissez l'option **Utiliser un travail existant** sur Oui. Lorsque vous définissez cette option sur Oui, le système recherchera les travaux existants lorsque l'option de menu d'appareil mobile est utilisée.  
-7. Dans le champ **Dirigé par**, sélectionnez « Système dirigé ». Lorsque l'option « Dirigé par le système » est sélectionnée, le magasinier sera dirigé vers le travail en cours qui se trouve dans les classes de travail définies. (Nous créerons ces classes de travail par la suite.)  
+7. Dans le champ **Dirigé par** , sélectionnez « Système dirigé ». Lorsque l'option « Dirigé par le système » est sélectionnée, le magasinier sera dirigé vers le travail en cours qui se trouve dans les classes de travail définies. (Nous créerons ces classes de travail par la suite.)  
 8. Développez le raccourci **Classes de travail**. Ensuite, nous créerons deux classes de travail qui seront utilisées avec cette option de menu d'appareil mobile. Lorsque l'option de menu est utilisée, ces classes de travail sont interrogées, et le travail ayant la priorité la plus élevée est affiché à l'utilisateur.  
 9. Cliquez sur **Nouveau**.
 10. Sélectionnez une valeur dans le champ **ID classe de travail**.
@@ -51,7 +52,7 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 12. Sélectionnez une valeur dans le champ **ID classe de travail**.
 13. Cliquez sur **Enregistrer** dans le volet **Actions**.
 14. Fermez la page.
-15. Dans le **Volet de navigation**, allez dans **Modules > Gestion des entrepôts > Configuration > Appareil mobile > menu d'appareil mobile**.
+15. Dans le **Volet de navigation** , allez dans **Modules > Gestion des entrepôts > Configuration > Appareil mobile > menu d'appareil mobile**.
 16. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 17. Dans l'arborescence, sélectionnez l'option de menu que vous venez de créer.
 18. Cliquez sur **Modifier**.
@@ -59,7 +60,7 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 20. Cliquez sur **Enregistrer**.
 
 ## <a name="create-a-counting-threshold"></a>Créer un seuil d'inventaire
-1. Dans le **Volet de navigation**, allez dans **Modules > Gestion de l'entrepôt > Paramétrage > Inventaire tournant > Seuils d'inventaire tournant**.
+1. Dans le **Volet de navigation** , allez dans **Modules > Gestion de l'entrepôt > Paramétrage > Inventaire tournant > Seuils d'inventaire tournant**.
 2. Cliquez sur **Nouveau**.
 3. Entrez une valeur dans le champ **ID seuil d'inventaire tournant**.
 4. Définissez l'option **Traiter immédiatement l'inventaire tournant** sur Oui.
@@ -72,7 +73,7 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 11. Fermez la page.
 
 ## <a name="create-a-cycle-count-plan"></a>Créer un plan d'inventaire tournant
-1. Dans le **Volet de navigation**, allez dans **Modules > Gestion de l'entrepôt > Paramétrage > Inventaire tournant > Plans d'inventaire tournant**.
+1. Dans le **Volet de navigation** , allez dans **Modules > Gestion de l'entrepôt > Paramétrage > Inventaire tournant > Plans d'inventaire tournant**.
 2. Cliquez sur **Nouveau**.
 3. Entrez une valeur dans le champ **ID plan d'inventaire tournant**.
 4. Tapez une valeur dans le champ **Description**.
@@ -91,7 +92,7 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 17. Cliquez sur **Enregistrer**.
 18. Cliquez sur **Définir le produit**.
 19. Dans la liste, marquez la ligne sélectionnée.
-20. Dans le champ **Critères**, saisissez ou sélectionnez une valeur.
+20. Dans le champ **Critères** , saisissez ou sélectionnez une valeur.
 21. Cliquez sur **OK**.
 22. Fermez la page.
 

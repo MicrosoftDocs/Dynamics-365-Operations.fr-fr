@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates
+ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be7b1142b011b805c78a3b9380d12085e4b7d28f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c53596f9b11b1a7be4b8f1e18d58a202c74acd4
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016514"
 ---
 # <a name="replenishment-overview"></a>Vue d'ensemble de réapprovisionnement
 
@@ -62,7 +62,7 @@ Les montants minimaux et maximaux sont définis dans un modèle de réapprovisio
 Notez que la stratégie de réapprovisionnement minimal/maximal ne peut pas réapprovisionner un emplacement vide, sauf si l’emplacement est défini comme emplacement fixe pour l’article. Si l’emplacement qui doit être réapprovisionné n’est pas un emplacement fixe, le système ne peut pas déterminer quel article doit être réapprovisionné. Par conséquent, au moins une partie de la quantité disponible est nécessaire avant le réapprovisionnement.
 
 ## <a name="load-demand-replenishment"></a>Réapprovisionnement de demande de chargement
-Le réapprovisionnement de demande de chargement additionne la demande de plusieurs chargements et crée le travail de réapprovisionnement qui est nécessaire pour stocker les emplacements d'enlèvement correspondants. Le réapprovisionnement de demande de chargement ressemble au réapprovisionnement de demande de vague de nombreuses façons. La principale différence est la manière et lieu où le réapprovisionnement de la demande de chargement et le réapprovisionnement de la demande de vague sont exécutés. Comme le réapprovisionnement minimal/maximal, le réapprovisionnement de la demande de chargement est exécuté à l’aide d’un traitement par lots. Pour configurer le traitement par lots, sur la page **Réapprovisionnement de la demande de chargement**, sélectionnez le modèle de réapprovisionnement à utiliser et définissez une requête de filtre pour indiquer les chargements utilisés pour déterminer la demande. La requête d’emplacement définit les emplacements dont toutes les quantités disponibles seront soustraites pour satisfaire la demande agrégée de chargements.
+Le réapprovisionnement de demande de chargement additionne la demande de plusieurs chargements et crée le travail de réapprovisionnement qui est nécessaire pour stocker les emplacements d'enlèvement correspondants. Le réapprovisionnement de demande de chargement ressemble au réapprovisionnement de demande de vague de nombreuses façons. La principale différence est la manière et lieu où le réapprovisionnement de la demande de chargement et le réapprovisionnement de la demande de vague sont exécutés. Comme le réapprovisionnement minimal/maximal, le réapprovisionnement de la demande de chargement est exécuté à l’aide d’un traitement par lots. Pour configurer le traitement par lots, sur la page **Réapprovisionnement de la demande de chargement** , sélectionnez le modèle de réapprovisionnement à utiliser et définissez une requête de filtre pour indiquer les chargements utilisés pour déterminer la demande. La requête d’emplacement définit les emplacements dont toutes les quantités disponibles seront soustraites pour satisfaire la demande agrégée de chargements.
 
 ## <a name="immediate-replenishment"></a>Réapprovisionnement immédiat
 Au lieu de devoir ajouter la demande à la fin d'un processus de répartition et effectuer le réapprovisionnement sur la base de la quantité récapitulative, vous pouvez appliquer la stratégie de réapprovisionnement automatique. Lorsque vous utilisez cette stratégie, le stock peut être réapprovisionné immédiatement après qu'une ligne d'instruction d'emplacement échoue. Par conséquent, vous pouvez configurer le réapprovisionnement afin qu'il soit limité par des unités spécifiques et qu'il utilise des quantités définies pour des emplacements spécifiques.

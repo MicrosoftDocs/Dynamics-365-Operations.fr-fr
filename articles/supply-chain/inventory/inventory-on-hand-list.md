@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017389"
 ---
 # <a name="inventory-on-hand-list"></a>Liste du stock disponible
 
@@ -39,8 +39,8 @@ Utilisez les outils suivants pour trouver l’ensemble de produits que vous rech
 
 - Dans le volet Actions, sélectionnez [**Dimensions**](#dimensions) pour ouvrir une boîte de dialogue dans laquelle vous pouvez ajouter ou supprimer des colonnes affichées dans la grille **Disponible**.
 - Dans le [volet **Filtres**](#filters-pane), entrez des valeurs pour des champs spécifiques pour afficher uniquement les enregistrements correspondant à ces valeurs. Notez que les filtres que vous définissez ici s’appliquent aux tables source qui peuvent être regroupées par la suite, en fonction des dimensions que vous avez choisi d’afficher. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
-- Dans le volet **Filtres**, sélectionnez **Appliquer** pour générer la liste du stock disponible correspondant dans la grille **Disponible**.
-- Dans la grille **Disponible**, sélectionnez n’importe quel en-tête de colonne pour trier ou filtrer les valeurs de cette colonne. Un filtre rapide en haut de la grille fournit des options de filtrage supplémentaires. Ces filtres s’appliquent aux résultats, et non aux tables source. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
+- Dans le volet **Filtres** , sélectionnez **Appliquer** pour générer la liste du stock disponible correspondant dans la grille **Disponible**.
+- Dans la grille **Disponible** , sélectionnez n’importe quel en-tête de colonne pour trier ou filtrer les valeurs de cette colonne. Un filtre rapide en haut de la grille fournit des options de filtrage supplémentaires. Ces filtres s’appliquent aux résultats, et non aux tables source. Pour plus d’informations sur la façon dont ce comportement peut affecter vos résultats, consultez les [exemples](#examples) plus loin dans cette rubrique.
 
 Pour chaque article correspondant, la grille **Disponible** fournit les colonnes suivantes d’informations sur le stock.
 
@@ -53,15 +53,15 @@ Pour chaque article correspondant, la grille **Disponible** fournit les colonnes
 | Total commandé | Quantité totale incluse sur les commandes entrantes ou dont la quantité est positive dans les différents journaux de stock. |
 | En commande | Quantité totale incluse sur les commandes sortantes ou dont la quantité est négative dans les différents journaux de stock. |
 | Commandé réservé | Quantité totale réservée sur les réceptions commandées. La valeur de ce champ représente la quantité totale d’articles dans les transactions sortantes qui présentent le statut _Commandé réservé_. Les articles réservés comme commandés ne sont pas physiquement disponibles en stock. Par conséquent, ils ne peuvent pas être directement prélevés et livrés. |
-| Disponible pour réservation | Quantité totale de stock disponible pouvant être réservé.<p>**Remarque :** si la case à cocher **Réserver les articles commandés** est activée sur la page **Paramètres de gestion des stocks et des entrepôts**, la valeur de ce champ inclut les réceptions prévues. Si la case à cocher est désactivée, la valeur exclut les réceptions prévues.</p> |
+| Disponible pour réservation | Quantité totale de stock disponible pouvant être réservé.<p>**Remarque :** si la case à cocher **Réserver les articles commandés** est activée sur la page **Paramètres de gestion des stocks et des entrepôts** , la valeur de ce champ inclut les réceptions prévues. Si la case à cocher est désactivée, la valeur exclut les réceptions prévues.</p> |
 | Total disponible | Quantité totale disponible.<p>**Total disponible** est un champ calculé. La valeur est égale à la valeur **Physique disponible** plus la valeur **Total commandé** moins la valeur **En commande**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Appliquer des filtres pour trouver les enregistrements que vous recherchez
 
 Utilisez le volet **Filtres** pour filtrer la liste du stock disponible afin de n’inclure que les enregistrements dont les valeurs de champ correspondent aux critères de filtrage. Pour définir un filtre, procédez comme suit.
 
-1. Dans le volet **Filtres**, recherchez le champ que vous souhaitez filtrer.
-2. Dans le champ sous le nom du champ cible, sélectionnez un opérateur logique (par exemple, *commence par*, *égal à* ou *supérieur à*).
+1. Dans le volet **Filtres** , recherchez le champ que vous souhaitez filtrer.
+2. Dans le champ sous le nom du champ cible, sélectionnez un opérateur logique (par exemple, *commence par* , *égal à* ou *supérieur à* ).
 3. Entrez ou sélectionnez la valeur à rechercher.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Utilisez le volet **Filtres** pour filtrer la liste du stock disponible afin de 
 
 Vous pouvez modifier l’ensemble des filtres disponibles dans le volet **Filtres** en procédant comme suit.
 
-- Pour supprimer un filtre du volet, cliquez sur son bouton **Fermer** (**X**).
+- Pour supprimer un filtre du volet, cliquez sur son bouton **Fermer** ( **X** ).
 - Pour ajouter un filtre, cliquez sur **Ajouter** en haut du volet **Filtres**. La boîte de dialogue **Ajouter des champs de filtre** qui apparaît répertorie la liste des champs disponibles. Elle affiche également des informations sur le type de données et la table de chaque champ. Utilisez les en-têtes de colonne pour filtrer et trier la liste selon vos besoins, puis activez la case à cocher de chaque champ que vous souhaitez ajouter au volet **Filtres**. Une fois que vous avez terminé, cliquez sur **Insérer** pour appliquer vos modifications.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Sélectionner les dimensions à afficher
@@ -87,7 +87,7 @@ Pour personnaliser la sélection des dimensions de stock affichées, procédez c
     La boîte de dialogue **Affichage des dimensions** qui apparaît répertorie chaque dimension.
 
 2. Activez la case à cocher de chaque dimension à inclure dans la grille.
-3. Si vous souhaitez que votre sélection soit utilisée par défaut lors de la prochaine ouverture de la page **Liste disponible**, définissez l’option **Enregistrer le paramétrage** sur **Oui**. Si vous définissez cette option sur **Non**, votre sélection n’est utilisée que pendant la session en cours. Par conséquent, la prochaine fois que vous ouvrirez la page, la sélection actuelle par défaut sera utilisée.
+3. Si vous souhaitez que votre sélection soit utilisée par défaut lors de la prochaine ouverture de la page **Liste disponible** , définissez l’option **Enregistrer le paramétrage** sur **Oui**. Si vous définissez cette option sur **Non** , votre sélection n’est utilisée que pendant la session en cours. Par conséquent, la prochaine fois que vous ouvrirez la page, la sélection actuelle par défaut sera utilisée.
 4. Cliquez sur **OK** pour fermer la boîte de dialogue et appliquer vos modifications.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrer la sortie de la liste du stock disponible
@@ -115,7 +115,7 @@ La page **Liste disponible** est configurée pour afficher les dimensions finale
 - Site
 - Entrepôt
 
-Dans le volet **Filtres**, les critères de filtrage suivants sont définis :
+Dans le volet **Filtres** , les critères de filtrage suivants sont définis :
 
 - **Numéro d’article** \| **est exactement** \| _IA0001_
 - **Physique disponible** \| **inférieur ou égal à** \| _1_
@@ -134,7 +134,7 @@ La page **Liste disponible** est configurée pour afficher les dimensions finale
 - Numéro d’article
 - Site
 
-Dans le volet **Filtres**, les critères de filtrage suivants sont définis :
+Dans le volet **Filtres** , les critères de filtrage suivants sont définis :
 
 - **Numéro d’article** \| **est exactement** \| _IA0001_
 - **Physique disponible** \| **inférieur ou égal à** \| _1_
@@ -145,4 +145,4 @@ Voici la sortie qui en résulte.
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Notez que les paramètres du volet **Filtres** s’appliquent à la table de stock détaillée (non regroupée) affichée au début de cette section. Par conséquent, le critère **Physique disponible** \| **inférieur ou égal à** \| _1_ trouve deux lignes dans cette table (les première et troisième lignes, chacune indiquant une valeur **Physique disponible** de _1_). Cependant, dans ce scénario, la page **Liste disponible** n’est pas configurée pour afficher la dimension **Entrepôt**. Par conséquent, elle regroupe les deux lignes d’origine en une seule ligne résultante, car les deux lignes ont des valeurs identiques dans toutes les dimensions affichées. Cette ligne semble enfreindre le critère de filtrage, car la valeur **Physique disponible** indique _2_. Cependant, le résultat est correct, car les paramètres du volet **Filtres** s’appliquent à la table source, et non à la table regroupée affichée sur la page **Liste disponible**.
+Notez que les paramètres du volet **Filtres** s’appliquent à la table de stock détaillée (non regroupée) affichée au début de cette section. Par conséquent, le critère **Physique disponible** \| **inférieur ou égal à** \| _1_ trouve deux lignes dans cette table (les première et troisième lignes, chacune indiquant une valeur **Physique disponible** de _1_ ). Cependant, dans ce scénario, la page **Liste disponible** n’est pas configurée pour afficher la dimension **Entrepôt**. Par conséquent, elle regroupe les deux lignes d’origine en une seule ligne résultante, car les deux lignes ont des valeurs identiques dans toutes les dimensions affichées. Cette ligne semble enfreindre le critère de filtrage, car la valeur **Physique disponible** indique _2_. Cependant, le résultat est correct, car les paramètres du volet **Filtres** s’appliquent à la table source, et non à la table regroupée affichée sur la page **Liste disponible**.

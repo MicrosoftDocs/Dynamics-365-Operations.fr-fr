@@ -1,7 +1,7 @@
 ---
 title: Configurer des ressources Azure pour l’intelligence IoT
 description: Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l’intelligence IoT.
-author: ''
+author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bbac1676d28c7285c19ed48f77426a37ce123a29
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014910"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurer des ressources Azure pour l’intelligence IoT
 
@@ -41,7 +41,7 @@ Pour vérifier que l’ID d’application pour l’application propriétaire Mic
 1. Connectez-vous au portail Azure à l’adresse suivante : <https://portal.azure.com>.
 2. Atteindre **Azure Active Directory**.
 3. Accédez à **Applications d’entreprise**.
-4. Dans le champ **Type d’application**, sélectionnez **Applications Microsoft**.
+4. Dans le champ **Type d’application** , sélectionnez **Applications Microsoft**.
 5. Dans le champ de recherche, entrez **Microservices ERP Microsoft Dynamics**.
 6. Vérifiez que **Microservices ERP Microsoft Dynamics** est bien dans la liste. D’autres applications ont des noms similaires. Par conséquent, veillez à disposer de l’application correcte. L’ID de l’application est **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
@@ -61,8 +61,8 @@ Pour créer une ressource de coffre de clés, procédez comme suit :
 
 1. Dans le portail Azure, créez ou accédez à un groupe de ressources.
 2. Sélectionnez **Ajouter**.
-3. Sur la page **Nouveau**, entrez **Coffre de clés** dans le champ de recherche. Ensuite, sélectionnez **Créer**.
-4. Sur la page **Créer un coffre de clés**, entrez un nom dans le champ **Nom du coffre de clés**.
+3. Sur la page **Nouveau** , entrez **Coffre de clés** dans le champ de recherche. Ensuite, sélectionnez **Créer**.
+4. Sur la page **Créer un coffre de clés** , entrez un nom dans le champ **Nom du coffre de clés**.
 5. Vérifiez les valeurs par défaut, puis sélectionnez **Vérifier + créer**.
 6. Sélectionnez **Créer**.
 
@@ -74,7 +74,7 @@ Pour créer une ressource hub IoT, procédez comme suit :
 
 1. Créez ou accédez à un groupe de ressources.
 2. Sélectionnez **Ajouter**.
-3. Sur la page **Nouveau**, entrez **Hub IoT** dans le champ de recherche. Ensuite, sélectionnez **Créer**.
+3. Sur la page **Nouveau** , entrez **Hub IoT** dans le champ de recherche. Ensuite, sélectionnez **Créer**.
 4. Entrez un nom dans le champ **Nom du hub IoT**.
 5. Vérifiez les valeurs par défaut, puis sélectionnez **Vérifier + créer**.
 6. Sélectionnez **Créer**.
@@ -90,7 +90,7 @@ Pour créer une ressource de cache Redis, procédez comme suit :
 
 1. Créez ou accédez à un groupe de ressources.
 2. Sélectionnez **Ajouter**.
-3. Sur la page **Nouveau**, entrez **Cache Azure pour Redis** dans le champ de recherche. Ensuite, sélectionnez **Créer**.
+3. Sur la page **Nouveau** , entrez **Cache Azure pour Redis** dans le champ de recherche. Ensuite, sélectionnez **Créer**.
 4. Entrez un nom dans le champ **Nom DNS**.
 5. Vérifiez les valeurs par défaut, puis sélectionnez **Créer**.
 
@@ -122,9 +122,9 @@ Procédez comme suit pour configurer le coffre de clés.
 1. Sélectionnez la ressource de coffre de clés parmi vos ressources.
 2. Sélectionnez **Stratégies d’accès** dans le volet de navigation de gauche.
 3. Sélectionnez **Ajouter une stratégie d’accès**.
-4. Sur la page **Ajouter une stratégie d’accès**, dans le champ **Autorisations secrètes**, sélectionnez **Obtenir** et **Liste**.
+4. Sur la page **Ajouter une stratégie d’accès** , dans le champ **Autorisations secrètes** , sélectionnez **Obtenir** et **Liste**.
 5. Cliquez dans le **Sélectionner le principal**.
-6. Dans la boîte de dialogue **Principal**, recherchez et sélectionnez **Microservices ERP Microsoft Dynamics**. Cliquez ensuite sur **Sélectionner**.
+6. Dans la boîte de dialogue **Principal** , recherchez et sélectionnez **Microservices ERP Microsoft Dynamics**. Cliquez ensuite sur **Sélectionner**.
 7. Sélectionnez **Ajouter**.
 8. Sélectionnez **Enregistrer**.
 
@@ -140,8 +140,8 @@ Pour enregistrer le secret de la chaîne de connexion du hub IoT, procédez comm
 4. Accédez à la ressource de coffre de clés.
 5. Dans le volet de navigation de gauche, sélectionnez **Secrets**.
 6. Sélectionnez **Générer/Importer**.
-7. Dans le champ **Nom**, entrez un nom.
-8. Dans le champ **Valeur**, collez la valeur de point de terminaison que vous avez copiée précédemment.
+7. Dans le champ **Nom** , entrez un nom.
+8. Dans le champ **Valeur** , collez la valeur de point de terminaison que vous avez copiée précédemment.
 9. Sélectionnez **Créer**.
 
 ### <a name="save-the-redis-cache-connection-string-secret"></a>Enregistrer le secret de la chaîne de connexion du cache Redis
@@ -154,8 +154,8 @@ Pour enregistrer le secret de la chaîne de connexion du cache Redis, procédez 
 4. Accédez à la ressource de coffre de clés.
 5. Dans le volet de navigation de gauche, sélectionnez **Secrets**.
 6. Sélectionnez **Générer/Importer**.
-7. Dans le champ **Nom**, entrez un nom.
-8. Dans le champ **Valeur**, collez la chaîne de connexion que vous avez copiée précédemment.
+7. Dans le champ **Nom** , entrez un nom.
+8. Dans le champ **Valeur** , collez la chaîne de connexion que vous avez copiée précédemment.
 9. Sélectionnez **Créer**.
 
 > [!NOTE]

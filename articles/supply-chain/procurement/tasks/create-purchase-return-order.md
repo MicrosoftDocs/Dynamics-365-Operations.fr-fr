@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383203"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018188"
 ---
 # <a name="create-a-purchase-return-order"></a>Créer une commande fournisseur de retour
 
@@ -47,24 +47,24 @@ Cette procédure vous montre comment créer une commande fournisseur retournée 
 10. Localisez la facture fournisseur identifiée par le numéro de facture AP-0006, mettez en surbrillance cette ligne en cliquant sur n'importe quel champ dans cette ligne.
 11. Sélectionnez la ligne en cliquant dans la case à cocher correspondante. Notez que les lignes disponibles sur la facture fournisseur sont automatiquement choisies avec la commande. Cette facture fournisseur particulière a 2 lignes de commande. Pour cet exemple, nous renverrons une partie de la quantité à partir de la deuxième ligne.
 12. Mettez en surbrillance la deuxième ligne (celle avec l'article M0006) en cliquant sur n'importe quel champ dans cette ligne.
-13. Dans le champ **Quantité**, sélectionnez la quantité de 10. Il s'agit de la quantité que nous renverrons au fournisseur. 
+13. Dans le champ **Quantité** , sélectionnez la quantité de 10. Il s'agit de la quantité que nous renverrons au fournisseur. 
 14. Mettez en surbrillance la première ligne (celle avec l'article M0005) en cliquant sur n'importe quel champ dans cette ligne.
 15. Désactivez la case à cocher pour la ligne. Seules les lignes que vous avez choisies seront copiées dans votre commande.
 16. Réduisez la section **Factures**.
 17. Développez la section **Lignes ou en-têtes sélectionnés à copier**. Cette vue montre un résumé de tous les documents et des lignes sélectionnés pour être copiés dans votre commande.  
-18. Réduisez l'**en-tête ou les lignes sélectionnées pour être la section copiée**.
+18. Réduisez l' **en-tête ou les lignes sélectionnées pour être la section copiée**.
 19. Cliquez sur **OK**. La ligne que vous avez choisie a été copiée sur votre commande fournisseur retournée. Le champ **Quantité** indique -10.   
-20. Dans la section **Ligne de commande fournisseur**, cliquez sur **Stock**.
+20. Dans la section **Ligne de commande fournisseur** , cliquez sur **Stock**.
 21. Cliquez sur **Marquage**. La ligne d'ordre qui a été créée est marquée par rapport à la transaction de stock à partir de la facture fournisseur. Ceci garantit que le stock qui est retourné au fournisseur est identique à celui qui a été reçu plus tôt. Il y a quelques situations où le marquage ne se produit pas, par exemple, si le stock a été déjà marqué comme Consommé, ou si le produit n'emploie pas de marquage.  
 
 22. Cliquez sur **OK**.
 
 ## <a name="confirm-and-record-the-shipment-of-goods"></a>Confirmer et enregistrer l'expédition des marchandises
 1. Cliquez sur **Actions > Confirmer**.
-2. Dans le **volet Actions**, cliquez sur **Recevoir**.
+2. Dans le **volet Actions** , cliquez sur **Recevoir**.
 3. Cliquez sur **Accusé de réception de marchandises**.
     - Cette page permet d'enregistrer l'accusé de réception de marchandises pour des commandes fournisseur et également pour traiter le retour des marchandises au fournisseur. Les lignes de commande avec une quantité négative signifient que des marchandises doivent être retournées au fournisseur, et le document qui peut être produit de cette page peuvent être utilisé comme bon de livraison pour cet usage.   
-    - Dans le champ **Quantité**, choisissez Quantité commandée pour cet exemple. Ceci garantit que l'expédition sera traitée pour toute la quantité commandée pour laquelle les lignes d'ordre ont été créées.   
-4. Dans le champ **Accusé de réception de marchandises**, tapez une valeur. Ce champ permet d'entrer une référence qui sera utilisée comme N° document pour le journal de réception de marchandises.  
+    - Dans le champ **Quantité** , choisissez Quantité commandée pour cet exemple. Ceci garantit que l'expédition sera traitée pour toute la quantité commandée pour laquelle les lignes d'ordre ont été créées.   
+4. Dans le champ **Accusé de réception de marchandises** , tapez une valeur. Ce champ permet d'entrer une référence qui sera utilisée comme N° document pour le journal de réception de marchandises.  
 5. Cliquez sur **OK**. Les marchandises sont désormais enregistrées comme expédiées sur la commande fournisseur retournée et un journal des accusés de réception de marchandises est créé. Vous pouvez utiliser l'action Accusé de réception de marchandises pour passer en revue les journaux créés avec la commande fournisseur, et voir ce qui a été reçu ou retourné, et quand.  
 

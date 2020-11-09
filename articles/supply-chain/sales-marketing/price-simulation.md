@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978891"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006257"
 ---
 # <a name="price-simulation"></a>Simulation de prix
 
@@ -74,7 +74,7 @@ Vous créez un devis contenant les lignes suivantes :
 
 Le tableau suivant présente les lignes du devis.
 
-|                            | Calcul                          | Résultat   |
+|    &nbsp;                  | Calcul                          | Résultat   |
 |----------------------------|--------------------------------------|----------|
 | Quantité vendue             | 10 unités + 12 unités                  | 22 unités |
 | Prix de vente (USD)         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ Le tableau suivant présente les lignes du devis.
 
 Vous exécutez une simulation de prix avec une remise totale de 15 % sur l'ensemble du devis ou l'en-tête de devis. Le tableau suivant affiche les nouveaux totaux du devis une fois la simulation de prix exécutée.
 
-|                                                      | Calcul                               | Résultat   |
+|     &nbsp;                                           | Calcul                               | Résultat   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Quantité vendue                                       | 10 unités + 12 unités                       | 22 unités |
 | Ancien prix de vente (USD)                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ Vous créez un devis contenant les lignes suivantes :
 
 Le tableau suivant présente les lignes du devis.
 
-|                                      | Calcul                          | Résultat   |
+|      &nbsp;                          | Calcul                          | Résultat   |
 |--------------------------------------|--------------------------------------|----------|
 | Quantité vendue                       | 10 unités + 12 unités                  | 22 unités |
 | Prix de vente (USD) pour BR-12         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ Le tableau suivant présente les lignes du devis.
 
 Vous exécutez une simulation de prix avec une remise totale de 10 % sur les unités de l'article BR-12. Le tableau suivant présente les nouveaux totaux du devis une fois la simulation de prix exécutée pour la ligne unique.
 
-|                                                   | Calcul                             | Résultat   |
+|    &nbsp;                                         | Calcul                             | Résultat   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Quantité vendue                                    | 10 unités + 12 unités                     | 22 unités |
 | Ancien prix de vente (USD) pour BR-12                  | 10 × 15,32                              | 153,20   |

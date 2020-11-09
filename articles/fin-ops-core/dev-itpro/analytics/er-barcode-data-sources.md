@@ -3,7 +3,7 @@ title: Utiliser des sources de données de codes-barres pour générer des image
 description: Cette rubrique explique comment utiliser des sources de données de codes-barres pour générer des images de codes-barres.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/05/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: fdb70c7e72647de4c6cd977b286c19c906559438
-ms.sourcegitcommit: a56b22729fbbb941471e927e2f932acaf624cf5e
+ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
+ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435463"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088195"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 
@@ -43,7 +43,7 @@ Les espaces réservés suivants peuvent être utilisés dans les modèles d'éta
 - [Image](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) contrôle de contenu pour Word
 - [Image](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) objet dans Excel
 
-En utilisant une source de données du type **Code-barres**, vous pouvez générer des codes-barres dans les formats suivants :
+En utilisant une source de données du type **Code-barres** , vous pouvez générer des codes-barres dans les formats suivants :
 
 - Codes-barres unidimensionnels :
 
@@ -54,19 +54,20 @@ En utilisant une source de données du type **Code-barres**, vous pouvez génér
     - EAN-8
     - EAN-13
     - ITF-14
+    - Intelligent Mail
+    - MSI
+    - Plessey
     - PDF417
     - UPC-A
     - UPC-E
-    - MSI
-    - Plessey
 
 - Codes-barres bidimensionnels :
 
     - Aztec
-    - DataMatrix
+    - Data Matrix
     - Code QR
 
-Lorsque vous configurez une source de données **Code-barres**, vous pouvez définir des paramètres de rendu spécifiques qui sont utilisés pour générer une image :
+Lorsque vous configurez une source de données **Code-barres** , vous pouvez définir des paramètres de rendu spécifiques qui sont utilisés pour générer une image :
 
 - **Largeur** - Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
 - **Hauteur** - Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
@@ -75,7 +76,7 @@ Lorsque vous configurez une source de données **Code-barres**, vous pouvez déf
 - **Codage** - Spécifiez le type de caractères qui sont encodés dans l'image de code-barres générée. Par défaut, l'encodage **UTF-8** est utilisé.
 
 > [!IMPORTANT]
-> Lorsque vous ajoutez une nouvelle source de données **Code-barres**, vous devez la placer sous un autre élément (conteneur) en tant qu'élément imbriqué.
+> Lorsque vous ajoutez une nouvelle source de données **Code-barres** , vous devez la placer sous un autre élément (conteneur) en tant qu'élément imbriqué.
 >
 > Lorsque vous liez une source de données **Code-barres** à un élément de cellule dans un format, et l'élément de cellule représente un contrôle de contenu Word ou une image Excel, la source de données est présentée dans cette liaison comme une fonction qui a un seul paramètre du type **Chaîne**. Vous devez utiliser ce paramètre pour spécifier le texte qui doit être transformé en une image de code-barres et lu lorsqu'un code-barres généré est numérisé.
 
@@ -130,23 +131,23 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Activer un fournisseur de configuration
 
 1. Accédez à **Administration d'organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Fournisseurs de configuration**, vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l'exemple de société **Litware, Inc.** est répertorié, et qu'il est marqué comme actif. S'il n'est pas répertorié ou s'il n'est pas marqué comme actif, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Dans la page **Configurations de localisation** , dans la section **Fournisseurs de configuration** , vérifiez que le [fournisseur de configuration](general-electronic-reporting.md#Provider) pour l'exemple de société **Litware, Inc.** est répertorié, et qu'il est marqué comme actif. S'il n'est pas répertorié ou s'il n'est pas marqué comme actif, suivez les étapes de la rubrique [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Rendre l'exemple de société actif sur la page Configurations de localisation](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importer la solution ER fournie
 
 1. Accédez à **Administration d'organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez la vignette **Configurations des états**.
-3. Sur la page **Configurations**, si la configuration **Modèle pour les chèques** n'est pas disponible dans l'arborescence, suivez la procédure permettant d'importer la configuration du modèle de données ER :
+2. Dans la page **Configurations de localisation** , dans la section **Configurations** , sélectionnez la vignette **Configurations des états**.
+3. Sur la page **Configurations** , si la configuration **Modèle pour les chèques** n'est pas disponible dans l'arborescence, suivez la procédure permettant d'importer la configuration du modèle de données ER :
 
     1. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
-    2. Dans la boîte de dialogue, sélectionnez **Parcourir**, recherchez et sélectionnez le fichier **Modèle pour les chèques.xml**, puis sélectionnez **OK**.
+    2. Dans la boîte de dialogue, sélectionnez **Parcourir** , recherchez et sélectionnez le fichier **Modèle pour les chèques.xml** , puis sélectionnez **OK**.
 
 4. Si la configuration **Format d'impression des chèques** n'est pas disponible dans l'arborescence, suivez la procédure permettant d'importer la configuration du format ER :
 
     1. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
-    2. Dans la boîte de dialogue, sélectionnez **Parcourir**, recherchez et sélectionnez le fichier **Format d'impression des chèques.xml**, puis sélectionnez **OK**.
+    2. Dans la boîte de dialogue, sélectionnez **Parcourir** , recherchez et sélectionnez le fichier **Format d'impression des chèques.xml** , puis sélectionnez **OK**.
 
 5. Dans l'arborescence de configuration, développez **Modèle pour les chèques**.
 6. Consultez la liste des configurations ER importées dans l'arborescence de configuration.
@@ -154,13 +155,13 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque"></a>Générer un chèque de paiement
 
 1. Accédez à **Gestion de la trésorerie et de la banque** \> **Comptes bancaires** \> **Comptes bancaires**.
-2. Sur le page **Comptes bancaires**, sélectionnez le compte **USMF OPER**.
-3. Sur la page Détails du compte bancaire, dans le volet Actions, sous l'onglet **Paramétrer**, dans le groupe **Disposition**, sélectionnez **Chèque**.
-4. Sur la page **Mise en page des chèques**, sélectionnez **Modifier**.
-5. Dans le raccourci **Général**, définissez l'option **Format d'exportation électronique générique** sur **Oui**.
-6. Dans le champ **Exporter la configuration du format**, sélectionnez le format ER **Format d'impression des chèques** que vous avez importé précédemment.
+2. Sur le page **Comptes bancaires** , sélectionnez le compte **USMF OPER**.
+3. Sur la page Détails du compte bancaire, dans le volet Actions, sous l'onglet **Paramétrer** , dans le groupe **Disposition** , sélectionnez **Chèque**.
+4. Sur la page **Mise en page des chèques** , sélectionnez **Modifier**.
+5. Dans le raccourci **Général** , définissez l'option **Format d'exportation électronique générique** sur **Oui**.
+6. Dans le champ **Exporter la configuration du format** , sélectionnez le format ER **Format d'impression des chèques** que vous avez importé précédemment.
 7. Dans le volet Actions, sélectionnez **Test d'impression**.
-8. Dans la boîte de dialogue, définissez l'option **Format de chèque négociable** sur **Oui**, puis sélectionnez **OK**.
+8. Dans la boîte de dialogue, définissez l'option **Format de chèque négociable** sur **Oui** , puis sélectionnez **OK**.
 
     ![Boîte de dialogue Mise en page des chèques - Test d'impression](./media/er-barcode-data-source-check-layout.png)
 
@@ -182,8 +183,8 @@ Vous pouvez utiliser l'application de bureau Excel pour ouvrir le fichier **Mod�
 Vous devez maintenant modifier la solution ER puis [réappliquer](modify-electronic-reporting-format-reapply-excel-template.md) le modèle modifié.
 
 1. Accédez à **Administration d'organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez **Configurations des états**.
-3. Sur la page **Configurations**, dans l'arborescence de configuration, développez **Modèle de chèques**et sélectionnez **Format d'impression des chèques**.
+2. Dans la page **Configurations de localisation** , dans la section **Configurations** , sélectionnez **Configurations des états**.
+3. Sur la page **Configurations** , dans l'arborescence de configuration, développez **Modèle de chèques** et sélectionnez **Format d'impression des chèques**.
 4. Dans le volet Actions, sélectionnez **Concepteur**.
 5. Dans le Concepteur d'opérations de gestion des états électroniques, sélectionnez l'onglet **Mise en correspondance** sur le côté droit de la page, puis, dans le volet d'arborescence des formats à gauche, sélectionnez **Développer/Réduire**.
 6. Notez que tous les éléments de format de cellule sont liés aux sources de données appropriées.
@@ -191,8 +192,8 @@ Vous devez maintenant modifier la solution ER puis [réappliquer](modify-electro
     ![Liaison d'éléments de format de cellule à des sources de données dans le Concepteur d'opérations de gestion des états électroniques](./media/er-barcode-data-source-cells-bound.png)
 
 7. Sélectionnez l'onglet **Format** sur le côté droit de la page.
-8. Dans le volet Actions, sélectionnez les points de suspension (**...**), puis sélectionnez **Importer**.
-9. Dans le groupe **Importation**, sélectionnez **Mise à jour depuis Excel**, puis sélectionnez **Mettre à jour le modèle**.
+8. Dans le volet Actions, sélectionnez les points de suspension ( **...** ), puis sélectionnez **Importer**.
+9. Dans le groupe **Importation** , sélectionnez **Mise à jour depuis Excel** , puis sélectionnez **Mettre à jour le modèle**.
 10. Dans la boîte de dialogue, accédez au fichier **Modèle de chèque Excel.xlsx** enregistré sur votre ordinateur, sélectionnez-le, puis sélectionnez **OK** pour confirmer que le modèle sélectionné doit être appliqué.
 11. Sélectionnez l'onglet **Mise en correspondance** sur le côté droit de la page, puis, dans le volet d'arborescence des formats à gauche, sélectionnez **Développer/Réduire**.
 12. Notez que l'élément de cellule **AmountBarcode** a été ajouté au format. Cet élément est associé à l'élément **AmountBarcode** qui a été ajouté au modèle Excel modifié en tant qu'espace réservé pour une image de code-barres.
@@ -204,13 +205,13 @@ Vous devez maintenant modifier la solution ER puis [réappliquer](modify-electro
 Ensuite, vous devez ajouter une nouvelle source de données du type **Code-barres**.
 
 1. Dans le Concepteur d'opérations de gestion des états électroniques, dans l'onglet **Mise en correspondance** sur le côté droit de la page, sélectionnez la source de données **Imprimer**.
-2. Sélectionnez **Ajouter**, puis dans le groupe **Fonctions**, sélectionnez le type de source de données **Code-barres**.
+2. Sélectionnez **Ajouter** , puis dans le groupe **Fonctions** , sélectionnez le type de source de données **Code-barres**.
 
     ![Sélection du type de source de données Code-barres](./media/er-barcode-data-source-add.png)
 
-3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, entrez **Code-barres**.
-4. Dans le champ **Format de code-barres**, sélectionnez **Code 128**.
-5. Dans le champ **Largeur**, entrez **500**.
+3. Dans la boîte de dialogue déroulante, dans le champ **Nom** , entrez **Code-barres**.
+4. Dans le champ **Format de code-barres** , sélectionnez **Code 128**.
+5. Dans le champ **Largeur** , entrez **500**.
 6. Cliquez sur **OK**.
 
     ![Boîte de dialogue Propriétés de la source de données](./media/er-barcode-data-source-add2.png)
@@ -220,7 +221,7 @@ Ensuite, vous devez ajouter une nouvelle source de données du type **Code-barre
 Ensuite, vous devez lier le nouvel élément de format à la source de données que vous venez d'ajouter.
 
 1. Dans le Concepteur d'opérations de gestion des états électroniques, dans l'onglet **Mise en correspondance** sur le côté droit de la page, sélectionnez la source de données **print\\barcode**.
-2. Dans le volet d'arborescence des formats à gauche, sélectionnez l'élément de cellule **AmountBarcode**, puis sélectionnez **Lier**.
+2. Dans le volet d'arborescence des formats à gauche, sélectionnez l'élément de cellule **AmountBarcode** , puis sélectionnez **Lier**.
 3. Dans le volet Actions, sélectionnez **Afficher les détails**.
 4. Notez que, parce que la source de données **Code-barres** est représentée dans la liaison comme une fonction qui contient un seul paramètre, le nom de l'élément de format lié a été automatiquement pris comme argument de ce paramètre.
 
@@ -228,15 +229,15 @@ Ensuite, vous devez lier le nouvel élément de format à la source de données 
 
 5. Sélectionnez **Modifier la formule** pour ajuster la liaison.
 
-    Vous ne voulez pas que le nom de l'élément de cellule soit renvoyé. Par conséquent, vous devez configurer une expression qui renvoie du texte contenant le montant à payer du chèque en cours. Parce que la plage du parent **ChequeLines** est liée à la source de données **model.cheques**, le montant payable du chèque en cours est disponible dans le champ **model.cheques.attributes.amount** du type de données **Réel**.
+    Vous ne voulez pas que le nom de l'élément de cellule soit renvoyé. Par conséquent, vous devez configurer une expression qui renvoie du texte contenant le montant à payer du chèque en cours. Parce que la plage du parent **ChequeLines** est liée à la source de données **model.cheques** , le montant payable du chèque en cours est disponible dans le champ **model.cheques.attributes.amount** du type de données **Réel**.
 
-6. Dans le champ **Formule**, entrez **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))**.
-7. Sélectionnez **Enregistrer**, puis fermez le [Concepteur de formule ER](general-electronic-reporting-formula-designer.md).
+6. Dans le champ **Formule** , entrez **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))**.
+7. Sélectionnez **Enregistrer** , puis fermez le [Concepteur de formule ER](general-electronic-reporting-formula-designer.md).
 8. Notez que la liaison a été ajustée.
 
     ![Ajustement de liaison dans le Concepteur d'opérations de gestion des états électroniques](./media/er-barcode-data-source-bind2.png)
 
-9. Sélectionnez **Enregistrer**, puis fermez le Concepteur d'opérations de gestion des états électroniques.
+9. Sélectionnez **Enregistrer** , puis fermez le Concepteur d'opérations de gestion des états électroniques.
 
 #### <a name="make-the-modified-version-available-for-test-runs"></a><a name="ExampleModifyFormatMakeVersionAvailable"></a>Rendre la version modifiée disponible pour les exécutions de tests.
 
@@ -249,10 +250,10 @@ Si vous souhaitez continuer à travailler avec la version provisoire actuelle, m
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Compléter la version au format modifié.
 
 1. Accédez à **Administration d'organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez **Configurations des états**.
-3. Sur la page **Configurations**, dans l'arborescence de configuration, développez **Modèle de chèques**et sélectionnez **Format d'impression des chèques**.
-4. Dans le raccourci **Versions**, sélectionnez l'enregistrement ayant un statut **Brouillon**.
-5. Sélectionnez **Modifier le statut**, puis sélectionnez **Terminer**.
+2. Dans la page **Configurations de localisation** , dans la section **Configurations** , sélectionnez **Configurations des états**.
+3. Sur la page **Configurations** , dans l'arborescence de configuration, développez **Modèle de chèques** et sélectionnez **Format d'impression des chèques**.
+4. Dans le raccourci **Versions** , sélectionnez l'enregistrement ayant un statut **Brouillon**.
+5. Sélectionnez **Modifier le statut** , puis sélectionnez **Terminer**.
 6. Dans la boîte de dialogue, sélectionnez **OK**.
 
 Le statut de la version actuelle passe de **Brouillon** à **Terminé** et une nouvelle version qui a le statut **Brouillon** est créé. Vous pouvez utiliser cette nouvelle version provisoire pour appliquer des modifications supplémentaires.
@@ -260,9 +261,9 @@ Le statut de la version actuelle passe de **Brouillon** à **Terminé** et une n
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Rendre la version provisoire disponible pour utilisation.
 
 1. Accédez à **Administration d'organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans la page **Configurations de localisation**, dans la section **Configurations**, sélectionnez **Configurations des états**.
-3. Dans la page **Configurations**, dans le volet Actions, sous l'onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
-4. Dans la boîte de dialogue, définissez les options **Exécuter la configuration** sur **Oui**, puis sélectionnez **OK**.
+2. Dans la page **Configurations de localisation** , dans la section **Configurations** , sélectionnez **Configurations des états**.
+3. Dans la page **Configurations** , dans le volet Actions, sous l'onglet **Configurations** , dans le groupe **Paramètres avancés** , sélectionnez **Paramètres utilisateur**.
+4. Dans la boîte de dialogue, définissez les options **Exécuter la configuration** sur **Oui** , puis sélectionnez **OK**.
 5. Dans l'arborescence de configuration, développez **Modèle de chèques** et sélectionnez **Format d'impression des chèques**.
 6. Définissez l'option **Exécuter le brouillon** sur **Oui**.
 7. Sélectionnez **Enregistrer**.
@@ -272,9 +273,9 @@ La version provisoire du format sélectionné est marquée comme disponible pour
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque2"></a>Générer un chèque de paiement
 
 1. Accédez à **Gestion de la trésorerie et de la banque** \> **Comptes bancaires** \> **Comptes bancaires**.
-2. Sur le page **Comptes bancaires**, sélectionnez le compte **USMF OPER**.
-3. Sur la page Détails du compte bancaire, dans le volet Actions, sous l'onglet **Paramétrer**, dans le groupe **Disposition**, sélectionnez **Chèque**.
-4. Sur la page **Mise en page des chèques**, dans le volet Actions, sélectionnez **Test d'impression**.
+2. Sur le page **Comptes bancaires** , sélectionnez le compte **USMF OPER**.
+3. Sur la page Détails du compte bancaire, dans le volet Actions, sous l'onglet **Paramétrer** , dans le groupe **Disposition** , sélectionnez **Chèque**.
+4. Sur la page **Mise en page des chèques** , dans le volet Actions, sélectionnez **Test d'impression**.
 5. Dans la boîte de dialogue, définissez l'option **Format de chèque négociable** sur **Oui**.
 6. Cliquez sur **OK**.
 7. Examinez le chèque généré. Notez qu'un code-barres a été généré pour coder le montant payable du chèque.

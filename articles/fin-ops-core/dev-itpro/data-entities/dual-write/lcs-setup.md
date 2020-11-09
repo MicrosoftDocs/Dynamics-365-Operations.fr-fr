@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998106"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture à partir de Lifecycle Services
 
@@ -50,12 +49,12 @@ Procédez comme suit pour configurer la connexion en double écriture.
 3. Sélectionnez la version. 
 4. Sélectionnez la topologie. Si une seule topologie est disponible, elle est automatiquement sélectionnée.
 5. Suivez les premières étapes de l'assistant **Paramètres de déploiement**.
-6. Sur l'onglet **Common Data Service**, suivez une des étapes suivantes :
+6. Sur l'onglet **Common Data Service** , suivez une des étapes suivantes :
 
     - Si un environnement Common Data Service est déjà configuré pour votre client, vous pouvez le sélectionner.
 
         1. Définissez l'option **Configurer Common Data Service** sur **Oui**.
-        2. Dans le champ **Environnements disponibles**, sélectionnez l'environnement à intégrer avec vos données Finance and Operations. La liste comprend tous les environnements dans lesquels vous disposez de privilèges d'administrateur.
+        2. Dans le champ **Environnements disponibles** , sélectionnez l'environnement à intégrer avec vos données Finance and Operations. La liste comprend tous les environnements dans lesquels vous disposez de privilèges d'administrateur.
         3. Sélectionnez la case à cocher **Accepter** pour indiquer que vous acceptez les termes et conditions.
 
         ![Onglet Common Data Service lorsqu'un environnement Common Data Service est déjà configuré pour votre client.](../dual-write/media/lcs_setup_1.png)
@@ -75,7 +74,7 @@ Procédez comme suit pour configurer la connexion en double écriture.
         ![Onglet Common Data Service lorsque votre client n'a pas déjà un environnement Common Data Service](../dual-write/media/lcs_setup_2.png)
 
 7. Suivez les étapes restantes de l'assistant **Paramètres de déploiement**.
-8. Une fois que l'environnement a le statut **Déployé**, ouvrez la page des détails de l'environnement. La section **Informations de l'environnement Common Data Service** montre les noms de l'environnement Finance and Operations et de l'environnement Common Data Service associés.
+8. Une fois que l'environnement a le statut **Déployé** , ouvrez la page des détails de l'environnement. La section **Informations de l'environnement Common Data Service** montre les noms de l'environnement Finance and Operations et de l'environnement Common Data Service associés.
 
     ![Section Information d'environnement Common Data Service](../dual-write/media/lcs_setup_3.png)
 

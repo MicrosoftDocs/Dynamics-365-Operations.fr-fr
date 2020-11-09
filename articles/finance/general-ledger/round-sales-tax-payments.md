@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: yijialuan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275672"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014957"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Règles d'arrondissement et de paiements de taxe
 
@@ -44,8 +44,8 @@ La taxe totale pour une période indique un solde de -98 765,43. L'entité jurid
 L'entité juridique veut utiliser une méthode d'arrondi qui arrondit le solde à l'entier le plus proche. L'utilisateur responsable de la comptabilité des taxes procède comme suit.
 
 1. Cliquez sur **Taxe** > **Taxes indirectes** > **Taxe** > **Administrations fiscales**.
-2. Sur l'organisateur **Général**, dans le champ **Type d'arrondi**, sélectionnez **Normal**.
-3. Dans le champ **Arrondi**, saisissez 1,00.
+2. Sur l'organisateur **Général** , dans le champ **Type d'arrondi** , sélectionnez **Normal**.
+3. Dans le champ **Arrondi** , saisissez 1,00.
 4. Au moment de payer les taxes à l'administration fiscale, accédez à la page **Taxe** > **Déclarations** > **Taxe** > **Régler et valider la taxe**. Dans le compte de règlement de la taxe, vous pouvez voir que le montant de l'impôt à payer de **98 765,43** est arrondi à **98 765**.
 
 Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide de chaque méthode d'arrondi disponible dans le champ **Type d'arrondi** de la page **Administrations fiscales**.
@@ -54,7 +54,7 @@ Le tableau suivant montre comment un montant de 98 765,43 est arrondi à l'aide 
 > Si la valeur d'arrondi est définie sur 0,00, alors :
 >
 > - Pour l'arrondi normal, le comportement d'arrondi est le même que pour **Arrondi = 0,01**.
-> - Pour les **Options de type d'arrondi**, **Arrondi au chiffre inférieur**, **Arrondi au chiffre supérieur**, et **Avantage**, le comportement est le même que pour **Arrondi = 1,00**.
+> - Pour les **Options de type d'arrondi** , **Arrondi au chiffre inférieur** , **Arrondi au chiffre supérieur** , et **Avantage** , le comportement est le même que pour **Arrondi = 1,00**.
 
 | Option du type d'arrondi                | Valeur d'arrondi = 0,01 | Valeur d'arrondi = 0,10 | Valeur d'arrondi = 1,00 | Valeur d'arrondi = 100,00 | Valeur d'arrondi = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

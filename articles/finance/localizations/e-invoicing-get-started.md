@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971470"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039844"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Démarrage du module complémentaire de facturation électronique
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique. Tout d'abord, elle vous guide tout au long des étapes de configuration dans Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) et Dynamics 365 Finance. Ensuite, elle décrit le processus d'envoi de documents via le service en utilisant Dynamics 365 Finance ou Dynamics 365 Supply Chain Management. Vous apprendrez également à interpréter les journaux d'envoi.
 
@@ -85,13 +84,13 @@ L'illustration suivante présente les cinq étapes principales que vous effectue
 ## <a name="lcs-setup"></a>Paramétrage LCS
 
 1. Connectez-vous à votre compte LCS.
-2. Sélectionnez la vignette **Gestion des fonctionnalités d'aperçu**, et dans le groupe de champs **Fonctionnalités de version préliminaire publique**, sélectionnez **BusinessDocumentSubmission**.
+2. Sélectionnez la vignette **Gestion des fonctionnalités d'aperçu** , et dans le groupe de champs **Fonctionnalités de version préliminaire publique** , sélectionnez **BusinessDocumentSubmission**.
 3. Marquez le champ **Fonctionnalité de version préliminaire activée**.
 4. Sélectionnez le projet de déploiement LCS. Avant de pouvoir sélectionner le projet, celui-ci doit être opérationnel.
-5. Dans le raccourci **Compléments de l'environnement**, sélectionnez **Installer un nouveau complément**.
+5. Dans le raccourci **Compléments de l'environnement** , sélectionnez **Installer un nouveau complément**.
 6. Sélectionnez **Envoi de documents commerciaux**.
-7. Dans la boîte de dialogue **Configurer le complément**, dans le champ **ID application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
-8. Dans le champ **ID client AAD**, entrez l'ID de votre compte d'abonnement Azure.
+7. Dans la boîte de dialogue **Configurer le complément** , dans le champ **ID application AAD** , entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
+8. Dans le champ **ID client AAD** , entrez l'ID de votre compte d'abonnement Azure.
 
     ![Boîte de dialogue Configurer le complément dans LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
@@ -109,7 +108,7 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 ### <a name="set-up-the-key-vault-in-rcs"></a>Paramétrer le coffre de clés dans RCS
 
 1. Connectez-vous à votre compte RCS.
-2. Dans l'espace de travail **Fonctionnalités de globalisation**, dans la section **Environnements**, sélectionnez la vignette **Facturation électronique**.
+2. Dans l'espace de travail **Fonctionnalités de globalisation** , dans la section **Environnements** , sélectionnez la vignette **Facturation électronique**.
 3. Sélectionnez **Environnements de service**.
 
     ![Sélection des environnements de service](media/e-invoicing-services-get-started-select-service-environments.png)
@@ -122,11 +121,11 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
     ![Sélection des paramètres du coffre de clés](media/e-invoicing-services-get-started-select-key-vault-parameters.png)
 
 5. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter un coffre de clés.
-6. Dans le champ **URI du coffre de clés**, entrez la valeur d'attribut **Nom DNS** de la ressource de coffre de clés que vous avez configurée dans Azure. Pour savoir où trouver la valeur **Nom DNS**, voir [Créer un compte de stockage Azure et un coffre de clés](e-invoicing-create-azure-storage-account-key-vault.md).
+6. Dans le champ **URI du coffre de clés** , entrez la valeur d'attribut **Nom DNS** de la ressource de coffre de clés que vous avez configurée dans Azure. Pour savoir où trouver la valeur **Nom DNS** , voir [Créer un compte de stockage Azure et un coffre de clés](e-invoicing-create-azure-storage-account-key-vault.md).
 
     ![Champ URI du coffre de clés](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Sur le raccourci **Certificats**, sélectionnez **Ajouter** pour saisir tous les noms de certificats numériques et les secrets de coffre de clés nécessaires pour établir des connexions fiables. Dans la colonne **Type**, vous pouvez spécifier s'il s'agit d'un certificat ou d'un secret. Les deux ensembles de valeurs sont configurés sur la ressource du coffre de clés dans Azure.
+7. Sur le raccourci **Certificats** , sélectionnez **Ajouter** pour saisir tous les noms de certificats numériques et les secrets de coffre de clés nécessaires pour établir des connexions fiables. Dans la colonne **Type** , vous pouvez spécifier s'il s'agit d'un certificat ou d'un secret. Les deux ensembles de valeurs sont configurés sur la ressource du coffre de clés dans Azure.
 
     ![Ajout de certificats](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -134,11 +133,11 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Paramétrer l'intégration RCS avec le serveur complémentaire de facturation électronique
 
-1. Dans l'espace de travail **Fonctionnalités de globalisation**, dans la section **Paramètres associés**, sélectionnez le lien **Paramètres de la gestion des états électroniques**.
+1. Dans l'espace de travail **Fonctionnalités de globalisation** , dans la section **Paramètres associés** , sélectionnez le lien **Paramètres de la gestion des états électroniques**.
 2. Sélectionnez **Cliquez ici pour vous connecter à Lifecycle Services**. Si vous ne souhaitez pas vous connecter à LCS, sélectionnez **Annuler**.
-3. Sur l'onglet **Services de facturation électronique**, dans le champ **URI du point de terminaison de service**, entrez la valeur en fonction des zones géographiques disponibles : `https://businessdocumentsubmission.us.operations365.dynamics.com/` ou `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
-4. Dans le champ **ID application**, vérifiez que l'ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2** s'affiche. Cette valeur est une valeur fixe.
-5. Dans le champ **ID environnement LCS**, entrez l'ID de votre compte d'abonnement LCS.
+3. Sur l'onglet **Services de facturation électronique** , dans le champ **URI du point de terminaison de service** , entrez la valeur en fonction des zones géographiques disponibles : `https://businessdocumentsubmission.us.operations365.dynamics.com/` ou `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
+4. Dans le champ **ID application** , vérifiez que l'ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2** s'affiche. Cette valeur est une valeur fixe.
+5. Dans le champ **ID environnement LCS** , entrez l'ID de votre compte d'abonnement LCS.
 
 ![Saisie des paramètres complémentaires de facturation électronique](media/e-invoicing-services-get-started-enter-e-invoicing-parameters.png)
 
@@ -146,13 +145,13 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 
 Vous pouvez créer différents environnements pour le module complémentaire de facturation électronique, tels que des environnements de développement, de test ou de production.
 
-1. Dans l'espace de travail **Fonctionnalités de globalisation**, dans la section **Environnements**, sélectionnez la vignette **Facturation électronique**.
+1. Dans l'espace de travail **Fonctionnalités de globalisation** , dans la section **Environnements** , sélectionnez la vignette **Facturation électronique**.
 2. Sélectionnez **Nouveau** pour créer un environnement.
-3. Dans le champ **Compte du jeton SAS de stockage**, entrez le nom du secret du coffre de clés que vous avez configuré dans le coffre de clés de RCS.
+3. Dans le champ **Compte du jeton SAS de stockage** , entrez le nom du secret du coffre de clés que vous avez configuré dans le coffre de clés de RCS.
 
     ![Champ Compte du jeton SAS de stockage](media/e-invoicing-services-get-started-enter-sas-token-secret.png)
 
-4. Dans le raccourci **Utilisateurs**, sélectionnez **Nouveau** pour autoriser l'accès des utilisateurs à cet environnement.
+4. Dans le raccourci **Utilisateurs** , sélectionnez **Nouveau** pour autoriser l'accès des utilisateurs à cet environnement.
 
     ![Ajout d'utilisateurs de service](media/e-invoicing-services-get-started-enter-service-users.png)
 
@@ -191,14 +190,14 @@ La fonctionnalité d'intégration de facture électronique est activée via la d
 ### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Activer la fonctionnalité d'intégration du module complémentaire de facturation électronique
 
 1. Connectez-vous à Finance ou Supply Chain Management.
-2. Dans l'espace de travail **Gestion des fonctionnalités**, recherchez la nouvelle fonctionnalité, **Intégration du module complémentaire de facturation électronique configurable**. Si la fonctionnalité ne s'affiche toujours pas dans la page Gestion des fonctionnalités, exécutez la fonction **Rechercher des mises à jour**
+2. Dans l'espace de travail **Gestion des fonctionnalités** , recherchez la nouvelle fonctionnalité, **Intégration du module complémentaire de facturation électronique configurable**. Si la fonctionnalité ne s'affiche toujours pas dans la page Gestion des fonctionnalités, exécutez la fonction **Rechercher des mises à jour**
 3. Sélectionnez la fonctionnalité, puis sélectionnez **Activer maintenant**.
 
 ### <a name="set-up-the-service-endpoint-url"></a>Paramétrer l'URL du point de terminaison de service
 
 1. Allez dans **Administration de l'organisation \> Paramétrage \> Paramètres des documents électroniques**.
-2. Dans l'onglet **Service d'envoi** dans le champ **URL du point de terminaison de service**, entrez `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
-3. Dans le champ **Environnement**, entrez le nom de l'environnement complémentaire de facturation électronique que vous avez créé lors du paramétrage RCS.
+2. Dans l'onglet **Service d'envoi** dans le champ **URL du point de terminaison de service** , entrez `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Dans le champ **Environnement** , entrez le nom de l'environnement complémentaire de facturation électronique que vous avez créé lors du paramétrage RCS.
 
 ![Saisie des paramètres de service](media/e-invoicing-services-get-started-enter-service-endpoint.png)
 
@@ -206,10 +205,10 @@ La fonctionnalité d'intégration de facture électronique est activée via la d
 
 Pour permettre la collecte et l'envoi des données commerciales au module complémentaire de facturation électronique, vous devez importer le modèle de données ER et la configuration du modèle de données ER qui sont associés à la fonctionnalité de facturation électronique spécifique au pays/à la région que vous souhaitez utiliser.
 
-1. Dans l'espace de travail **États électroniques**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**. Vérifiez que ce fournisseur de configuration est défini sur **Actif**. Pour plus d'informations sur la définition d'un fournisseur sur **Actif**, voir [Créer des fournisseurs de configuration et les marquer comme actifs](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+1. Dans l'espace de travail **États électroniques** , dans la section **Fournisseurs de configuration** , sélectionnez la vignette **Microsoft**. Vérifiez que ce fournisseur de configuration est défini sur **Actif**. Pour plus d'informations sur la définition d'un fournisseur sur **Actif** , voir [Créer des fournisseurs de configuration et les marquer comme actifs](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Sélectionnez **Référentiels**.
-4. Sélectionnez **Ressource globale**, puis sélectionnez **Ouvrir**.
-5. Dans la boîte de dialogue **Se connecter à Lifecycle Services**, sélectionnez **Cliquez ici pour vous connecter à Lifecycle Services**.
+4. Sélectionnez **Ressource globale** , puis sélectionnez **Ouvrir**.
+5. Dans la boîte de dialogue **Se connecter à Lifecycle Services** , sélectionnez **Cliquez ici pour vous connecter à Lifecycle Services**.
 6. Selon le pays ou la région où vous souhaitez utiliser la fonctionnalité de facturation électronique, vous devez importer le modèle de données, le mappage du modèle de données et les formats applicables. Pour plus d'informations sur les configurations ER que vous devez importer, consultez la rubrique « Démarrage du module complémentaire de facturation électronique » spécifique au pays/à la région.
 7. Importez le **Modèle de contexte de facture client**. Ce modèle contient des paramètres supplémentaires qui décrivent, entre autres, l'environnement dans Finance utilisé pour le module complémentaire de facturation électronique lors de l'envoi de données commerciales.
 
@@ -218,7 +217,7 @@ Pour permettre la collecte et l'envoi des données commerciales au module compl�
 Pour activer les fonctionnalités de facturation électronique spécifiques au pays/à la région afin qu'elles fonctionnent avec le module complémentaire de facturation électronique, vous devez activer la fonctionnalité dans chaque entité juridique où vous souhaitez l'utiliser. Ensuite, l'ancienne intégration de facturation électronique ne peut plus être utilisée et l'intégration avec le nouveau module complémentaire de facturation électronique est activée.
 
 1. Allez dans **Administration de l'organisation \> Paramétrage \> Paramètres des documents électroniques**.
-2. Dans l'onglet **Fonctionnalités**, dans la ligne de la fonctionnalité associée à la fonctionnalité de facturation électronique spécifique à votre pays/région, cochez la case dans la colonne **Activé**. Pour plus d'informations sur la fonctionnalité que vous devez activer, consultez la rubrique « Démarrage du module complémentaire de facturation électronique » spécifique au pays/à la région.
+2. Dans l'onglet **Fonctionnalités** , dans la ligne de la fonctionnalité associée à la fonctionnalité de facturation électronique spécifique à votre pays/région, cochez la case dans la colonne **Activé**. Pour plus d'informations sur la fonctionnalité que vous devez activer, consultez la rubrique « Démarrage du module complémentaire de facturation électronique » spécifique au pays/à la région.
 
 ![Activation de la fonctionnalité de facturation électronique](media/e-invoicing-services-get-started-enable-invoicing-feature.png)
 
@@ -229,12 +228,12 @@ Pour activer les fonctionnalités de facturation électronique spécifiques au p
 
 Si le document de facture envoyé nécessite une mise à jour après la réponse de l'envoi aux services d'autorisation gouvernementaux, vous devez importer un modèle de données ER spécial et des configurations pour permettre la mise à jour du statut du document de facture ou de tout autre champ supplémentaire.
 
-1. Dans l'espace de travail **États électroniques**, dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
+1. Dans l'espace de travail **États électroniques** , dans la section **Fournisseurs de configuration** , sélectionnez la vignette **Microsoft**.
 2. Sélectionnez **Référentiels**.
-3. Sélectionnez **Ressource globale**, puis sélectionnez **Ouvrir**.
-4. Importez **Modèle de message de réponse**, **Format d'importation du message de réponse**, **Mappage du modèle de message de réponse avec la destination** et **Format d'importation du contenu du fichier**.
+3. Sélectionnez **Ressource globale** , puis sélectionnez **Ouvrir**.
+4. Importez **Modèle de message de réponse** , **Format d'importation du message de réponse** , **Mappage du modèle de message de réponse avec la destination** et **Format d'importation du contenu du fichier**.
 5. Allez dans **Administration de l'organisation \> Paramétrage \> Paramètres des documents électroniques**.
-6. Dans l'onglet **Document électronique**, sélectionnez **Ajouter** pour entrer le nom de la table associée au document de facture spécifique à votre pays/région. Pour plus d'informations sur les noms de table que vous devez sélectionner, consultez la rubrique « Démarrage du module complémentaire de facturation électronique » spécifique au pays/à la région.
+6. Dans l'onglet **Document électronique** , sélectionnez **Ajouter** pour entrer le nom de la table associée au document de facture spécifique à votre pays/région. Pour plus d'informations sur les noms de table que vous devez sélectionner, consultez la rubrique « Démarrage du module complémentaire de facturation électronique » spécifique au pays/à la région.
 7. Sélectionnez **Types de réponse** pour configurer les types de réponse. Pour plus d'informations sur les noms de table que vous devez sélectionner, consultez la rubrique « Démarrage du module complémentaire de facturation électronique » spécifique au pays/à la région.
 
 ![Configuration des types de réponse](media/e-invoicing-services-get-started-set-up-response-types.png)
@@ -278,13 +277,13 @@ Vous pouvez envoyer des documents commerciaux manuellement ou en fonction de vos
 
 1. Allez dans **Administration de l'organisation \> Périodique \> Documents électroniques \> Envoyer des documents électroniques**.
 2. Pour le premier envoi d'un document, définissez toujours l'option **Envoyer de nouveau les documents** sur **Non**. Si vous devez envoyer à nouveau un document via le service, définissez cette option sur **Oui**.
-3. Dans le raccourci **Enregistrements à inclure**, sélectionnez **Filtrer** pour ouvrir la boîte de dialogue **Recherche** dans laquelle vous pouvez créer une requête pour sélectionner des documents pour envoi.
+3. Dans le raccourci **Enregistrements à inclure** , sélectionnez **Filtrer** pour ouvrir la boîte de dialogue **Recherche** dans laquelle vous pouvez créer une requête pour sélectionner des documents pour envoi.
 
 ![Boîte de dialogue Envoyer des documents électroniques](media/e-invoicing-services-get-started-submission-form.png)
 
 ### <a name="filter-query"></a>Requête de filtre
 
-1. Dans la boîte de dialogue **Recherche**, dans l'onglet **Plage**, entrez les critères de filtre à l'aide des champs **Table**, **Table dérivée**, **Champ** et **Critères**.
+1. Dans la boîte de dialogue **Recherche** , dans l'onglet **Plage** , entrez les critères de filtre à l'aide des champs **Table** , **Table dérivée** , **Champ** et **Critères**.
 2. Sélectionnez **Ajouter** pour ajouter autant de critères supplémentaires que nécessaire pour sélectionner les documents commerciaux.
 
     ![Configuration des critères de filtrage de l'envoi](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
@@ -312,15 +311,15 @@ Vous pouvez envoyer des documents commerciaux manuellement ou en fonction de vos
 
 Au lieu d'envoyer manuellement des documents, vous pouvez automatiser le processus d'envoi et l'exécuter en arrière-plan, selon une fréquence configurée d'exécution par lots.
 
-1. Dans la boîte de dialogue **Envoyer des documents électroniques**, dans le raccourci **Exécuter en arrière-plan**, définissez l'option **Traitement par lots** sur **Oui**.
-2. Dans l'onglet **Périodicité**, configurez la fréquence du traitement par lots.
+1. Dans la boîte de dialogue **Envoyer des documents électroniques** , dans le raccourci **Exécuter en arrière-plan** , définissez l'option **Traitement par lots** sur **Oui**.
+2. Dans l'onglet **Périodicité** , configurez la fréquence du traitement par lots.
 
 ![Configuration de l'envoi par lots](media/e-invoicing-services-get-started-set-up-submission-batch.png)
 
 ### <a name="view-all-submission-logs"></a>Afficher tous les journaux d'envoi
 
 1. Allez dans **Administration de l'organisation \> Périodique \> Documents électroniques \> Journal d'envoi de documents électroniques**.
-2. Dans le champ **Type de document**, sélectionnez le type de document pour le filtre.
+2. Dans le champ **Type de document** , sélectionnez le type de document pour le filtre.
 
     ![Sélection du type de document pour lequel afficher les journaux d'envoi](media/e-invoicing-services-get-started-select-document-type-for-viewing-submission-log.png)
 
@@ -334,9 +333,9 @@ Au lieu d'envoyer manuellement des documents, vous pouvez automatiser le process
 
 Les résultats affichés dans le journal d'envoi dépendent du paramétrage de la fonctionnalité de facturation électronique dans RCS. Cependant, quelle que soit le paramétrage, le journal d'envoi comporte toujours trois raccourcis :
 
-- **Actions de traitement** : ce raccourci affiche le journal d'exécution des actions configurées dans la version de fonctionnalité paramétrée dans RCS. La colonne **Statut** indique si l'exécution de l'action a réussi.
-- **Fichiers d'action** : ce raccourci affiche les fichiers intermédiaires générés lors de l'exécution des actions. Vous pouvez sélectionner **Afficher** pour télécharger le fichier et afficher son contenu.
-- **Journal des actions de traitement** : ce raccourci affiche les résultats de la communication entre le module complémentaire de facturation électronique et le service web cible. Il indique également ce qui a été renvoyé par le traitement du service web.
+- **Actions de traitement**  : ce raccourci affiche le journal d'exécution des actions configurées dans la version de fonctionnalité paramétrée dans RCS. La colonne **Statut** indique si l'exécution de l'action a réussi.
+- **Fichiers d'action**  : ce raccourci affiche les fichiers intermédiaires générés lors de l'exécution des actions. Vous pouvez sélectionner **Afficher** pour télécharger le fichier et afficher son contenu.
+- **Journal des actions de traitement**  : ce raccourci affiche les résultats de la communication entre le module complémentaire de facturation électronique et le service web cible. Il indique également ce qui a été renvoyé par le traitement du service web.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

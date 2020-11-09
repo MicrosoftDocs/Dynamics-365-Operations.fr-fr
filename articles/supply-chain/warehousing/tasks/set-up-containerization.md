@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable, WHSContainerizatonHistory, WHSContainerPackingPolicyChange, WHSManifestShipmentContainers, WHSAllowedContainerTypeGroup, WHSPostMethod, WHSContainerCreateDialog, WHSContainerCloseDiag, WHSContainer
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d08b89ac32b8ec40ae9dff15dbbd3264800cfb1a
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: 1f961dc379ceeeae9bbceec1baaa9b9be21316f3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017780"
 ---
 # <a name="set-up-containerization"></a>Paramétrer la mise en conteneur
 
@@ -61,7 +61,7 @@ Cette rubrique décrit comment automatiser la mise en conteneur des charges dans
 ## <a name="set-up-a-container-group"></a>Paramétrer un groupe de conteneurs
 1. Dans le volet de navigation, accédez à **Modules > Gestion des entrepôts > Paramétrage > Conteneurs > Groupes de conteneurs**.
 2. Dans le volet Actions, sélectionnez **Nouveau**. Vous pouvez paramétrer des groupes logiques de types de conteneur. Pour chaque groupe, vous pouvez spécifier l'ordre dans lequel conditionner les conteneurs et le pourcentage de conteneurs à remplir. Les dimensions de taille de l'article sont utilisées pour déterminer s'il passera dans un conteneur. Le conteneur qui est le plus proche des dimensions de taille de l'article est utilisé. Si vous avez plusieurs types de conteneur dans un groupe, nous vous recommandons de réorganiser l'ordre par taille, afin que le conteneur le plus grand soit en premier, numéro 1 dans l'ordre, et que le plus petit conteneur soit le dernier.    
-3. Dans le champ **ID groupe de conteneurs**, tapez une valeur que vous avez créée précédemment.
+3. Dans le champ **ID groupe de conteneurs** , tapez une valeur que vous avez créée précédemment.
 4. Tapez une valeur dans le champ **Description**.
 5. Répétez les étapes 2 à 4 pour les trois types de conteneurs que vous avez créés précédemment.
 6. Sélectionnez **Enregistrer**.
@@ -75,7 +75,7 @@ Cette rubrique décrit comment automatiser la mise en conteneur des charges dans
 5. Tapez une valeur dans le champ **Code étape de vague**.
 6. Activez la case à cocher **Autoriser la répartition des prélèvements**.
 7. Sélectionnez **Enregistrer**.
-8. Sélectionnez **Contraintes de mélange de conteneur**. Les décompositions de la logique de mélange vous permet de définir des règles de conditionnement des lignes de répartition dans des conteneurs. Par exemple, si vous ajoutez le champ **Numéro d'article**, lorsque des articles sont affectés à des conteneurs, un nouveau conteneur sera créé lorsqu'il y aura un nouveau numéro d'article. Cela empêche des collaborateurs de conditionner des lignes de répartition pour deux clients différents dans le même conteneur.  
+8. Sélectionnez **Contraintes de mélange de conteneur**. Les décompositions de la logique de mélange vous permet de définir des règles de conditionnement des lignes de répartition dans des conteneurs. Par exemple, si vous ajoutez le champ **Numéro d'article** , lorsque des articles sont affectés à des conteneurs, un nouveau conteneur sera créé lorsqu'il y aura un nouveau numéro d'article. Cela empêche des collaborateurs de conditionner des lignes de répartition pour deux clients différents dans le même conteneur.  
 9. Sélectionnez **Nouveau**.
 10. Sélectionnez une option dans le champ **Table**.
 11. Entrez ou sélectionnez une valeur dans le champ **Sélection de champ**.

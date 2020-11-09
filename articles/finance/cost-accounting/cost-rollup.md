@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976377"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006164"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stratégie de repositionnement des coûts et calcul des frais généraux 
 
@@ -76,7 +76,7 @@ Une hiérarchie de dimensions qui répond aux conditions de génération d’ét
 
 **Hiérarchie des dimensions**
 
-|              | Plages de membres de la dimension |                     |
+|    &nbsp;    | Plages de membres de la dimension | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Nœuds**        | **Membre de la dimension de départ**   | **Membre de la dimension de fin** |
 | Organisation |                         |                     |
@@ -97,7 +97,7 @@ Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être
 
 **Hiérarchie des dimensions**
 
-|                         | Plages de membres de la dimension |                     |
+|      &nbsp;             | Plages de membres de la dimension |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Noeuds                   | Membre de la dimension de départ   | Membre de la dimension de fin |
 | Relevé de compte de résultat |                         |                     |
@@ -105,7 +105,7 @@ Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être
 
 Une fois que les écritures de comptabilité sont traitées, le solde d’écriture de coût par objet de coût ressemble à ce qui suit.
 
-|                      | **Objet de coût** |           |           |           | **Total**     |
+|      &nbsp;          | **Objet de coût** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Total**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Élément de coût**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Électricité** | 100,00          | 200 00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Si vous souhaitez savoir comment le coût s’écoule entre les centres de coût
 
 Les membres de la dimension d’élément de coût peuvent être paramétrés comme suit.
 
-| Éléments de coût | Type          |               |
+| Éléments de coût | Type          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1 001          | Électricité   | Principale       |
 | 1 002          | Salaires      | Principale       |
@@ -179,7 +179,7 @@ La hiérarchie de dimension **Relevé de compte de résultat** doit être mise �
 
 **Hiérarchie des dimensions**
 
-|                         | Plages de membres de la dimension |                     |
+|      &nbsp;             | Plages de membres de la dimension |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Noeuds                   | Membre de la dimension de départ   | Membre de la dimension de fin |
 | Relevé de compte de résultat |                         |                     |
@@ -250,7 +250,7 @@ La page **Détails de l’entrée de journal pour le solde d’objet de coût** 
 | CC003       | Assemblage     | SC-CC002 | Finances         | 11.527,75   | 31-01-2017 |
 | CC004       | Emballage    | SC-CC002 | Finances         | 6.207,25    | 31-01-2017 |
 
-Après exécution du **calcul des frais généraux**, vous pouvez déclarer les résultats à l’aide des outils tels que Microsoft SharePoint Workspace, Excel ou Power BI.
+Après exécution du **calcul des frais généraux** , vous pouvez déclarer les résultats à l’aide des outils tels que Microsoft SharePoint Workspace, Excel ou Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Afficher les états générés dans Excel 
 
@@ -258,7 +258,7 @@ Les hiérarchies de dimensions vous permettent d’afficher des données à diff
 
 Voici un exemple d’une génération d’états Power Pivot dans Excel.
 
-| **Relevé de compte de résultat** | **Objet de coût** |                |               |               |  **Total**    |
+| **Relevé de compte de résultat** | **Objet de coût** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Coût principal**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Utiliser la **Stratégie de repositionnement des coûts** et les **Éléments de
 
 Si le même exemple a été exécuté sans créer la **Stratégie de repositionnement des coûts,** le résultat de génération d’états est comme suit. Le coût est transmis correctement mais la traçabilité et l’analyse de la manière dont les flux de coût entre les centres de coût sont perdus.
 
-| **Relevé de compte de résultat** | **Objet de coût** |           |               |               |          **Total**  |
+| **Relevé de compte de résultat** | **Objet de coût** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Total**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Coût principal**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

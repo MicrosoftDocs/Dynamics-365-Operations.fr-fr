@@ -3,7 +3,7 @@ title: Espace de travail des paiements fournisseur
 description: Cette rubrique fournit des informations sur l'espace de travail Paiements fournisseur. L'espace de travail Paiements fournisseur affiche les informations associées au traitement des paiements fournisseur.
 author: abruer
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 39a9ba54ba26db5904c2cd519be9f83bbc68c037
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022517"
 ---
 # <a name="vendor-payments-workspace"></a>Espace de travail des paiements fournisseur
 
@@ -43,13 +43,13 @@ Le paramétrage suivant doit être réalisé pour que les données s'affichent d
 
 ### <a name="summary-tiles"></a>Vignettes récapitulatives
 
-Les vignettes de la section **Synthèse** donnent une vue d'ensemble de l'état de vos informations de paiement. Vous pouvez afficher les journaux des paiements qui ne sont pas encore validés, les factures en retard, tous les fournisseurs et les fournisseurs en attente. Dans la section **Synthèse**, vous pouvez créer un cycle de paie.
+Les vignettes de la section **Synthèse** donnent une vue d'ensemble de l'état de vos informations de paiement. Vous pouvez afficher les journaux des paiements qui ne sont pas encore validés, les factures en retard, tous les fournisseurs et les fournisseurs en attente. Dans la section **Synthèse** , vous pouvez créer un cycle de paie.
 
 Les informations de la section **Synthèse** concernent la société à laquelle vous êtes connecté.
 
 ### <a name="vendor-transactions-grids"></a>Grille des transactions fournisseur
 
-La section **Transactions fournisseur** contient des grilles qui affichent les factures en retard et les paiements non réglés. Dans la grille **Factures en retard**, vous pouvez afficher l'historique des règlements pour une facture sélectionnée. Dans la grille **Paiements non réglés**, vous pouvez afficher l'historique des règlements pour une facture sélectionnée et régler une facture.
+La section **Transactions fournisseur** contient des grilles qui affichent les factures en retard et les paiements non réglés. Dans la grille **Factures en retard** , vous pouvez afficher l'historique des règlements pour une facture sélectionnée. Dans la grille **Paiements non réglés** , vous pouvez afficher l'historique des règlements pour une facture sélectionnée et régler une facture.
 
 Les commis aux paiements centralisés peuvent utiliser le filtre qui apparaît en haut de chaque grille pour sélectionner une société. La grille est ensuite filtrée pour afficher uniquement les sociétés définies dans la hiérarchie organisationnelle des paiements centralisés que le commis aux paiements centralisés est autorisé à visualiser.
 

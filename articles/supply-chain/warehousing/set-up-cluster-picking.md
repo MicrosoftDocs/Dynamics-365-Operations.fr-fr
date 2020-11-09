@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
+ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367405"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017573"
 ---
 # <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement de groupement
 
@@ -58,13 +58,13 @@ Pour paramétrer un profil de groupement, procédez comme suit :
 
 1. Cliquez sur **Nouveau** pour créer un profil.
 
-1. Cliquez sur **Créer un groupement** et, sous **Tri de groupement**, cliquez sur **Nouveau** pour paramétrer les critères de tri du groupement. Les critères de tri contrôlent l'ordre dans lequel le collaborateur réalisera le travail de prélèvement. Vous pouvez ajouter autant de critères que nécessaire.
+1. Cliquez sur **Créer un groupement** et, sous **Tri de groupement** , cliquez sur **Nouveau** pour paramétrer les critères de tri du groupement. Les critères de tri contrôlent l'ordre dans lequel le collaborateur réalisera le travail de prélèvement. Vous pouvez ajouter autant de critères que nécessaire.
 
-1. Dans le champ **Souche de N°**, entrez un nombre pour définir l'ordre dans lequel les critères de tri sont traités.
+1. Dans le champ **Souche de N°** , entrez un nombre pour définir l'ordre dans lequel les critères de tri sont traités.
 
-1. Dans le champ **Nom de champ**, sélectionnez le champ qui déterminera le tri. Par exemple, si vous sélectionnez le champ **WMSLocationId**, le travail sera trié par emplacement.
+1. Dans le champ **Nom de champ** , sélectionnez le champ qui déterminera le tri. Par exemple, si vous sélectionnez le champ **WMSLocationId** , le travail sera trié par emplacement.
 
-1. Dans le champ **Tri**, sélectionnez l'une des options suivantes.
+1. Dans le champ **Tri** , sélectionnez l'une des options suivantes.
 
 | **Option**     | **Description**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
+ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b4b3120001ecd5340c063f80ad7471050b437fd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203435"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018742"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
@@ -34,7 +34,7 @@ Le module **Collaboration fournisseur** est destiné aux fournisseurs qui n'ont 
 Pour plus d'informations sur ce que les fournisseurs externes peuvent effectuer dans l'interface de collaboration fournisseur, voir [Collaboration fournisseur avec des clients](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
+> Les informations sur la collaboration fournisseur contenues dans cette rubrique s'appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l'application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l'aide du module **Portail fournisseur**. Pour plus d'informations sur le module **Portail Fournisseur** , voir [Collaborer avec des fournisseurs à l'aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
 Pour plus d'informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d'informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
@@ -44,8 +44,8 @@ Lorsque les fournisseurs répondent à une commande fournisseur que vous leur en
 
 Pour définir le texte affiché dans la réponse à une CF, procédez comme suit :
 
-1. Sur la page **Informations pour les fournisseurs qui répondent aux CF**, sélectionnez le type de réponse, puis sélectionnez **Modifier**.
-2. Dans la zone **Message d'information**, entrez les informations qui doivent être visualisées par les fournisseurs dans la zone de message.
+1. Sur la page **Informations pour les fournisseurs qui répondent aux CF** , sélectionnez le type de réponse, puis sélectionnez **Modifier**.
+2. Dans la zone **Message d'information** , entrez les informations qui doivent être visualisées par les fournisseurs dans la zone de message.
 
 Si vous devez ajouter des messages dans plusieurs langues, créez des messages distincts et spécifiez le code de langue approprié pour chacun d'eux. Le message que verra chaque fournisseur s'affichera dans la langue qu'il utilise.
 
@@ -58,7 +58,7 @@ Un administrateur configure les paramètres généraux de la collaboration fourn
 
 ### <a name="enabling-vendor-collaboration"></a>Activation de la collaboration fournisseur
 
-Avant que les comptes d'utilisateur puissent être créés pour un fournisseur externe, vous devez configurer le compte fournisseur afin que ce fournisseur puisse utiliser la collaboration fournisseur. Sur la page **Fournisseurs**, sous l'onglet **Général**, définissez le champ **Activation de la collaboration**. Les options suivantes sont disponibles :
+Avant que les comptes d'utilisateur puissent être créés pour un fournisseur externe, vous devez configurer le compte fournisseur afin que ce fournisseur puisse utiliser la collaboration fournisseur. Sur la page **Fournisseurs** , sous l'onglet **Général** , définissez le champ **Activation de la collaboration**. Les options suivantes sont disponibles :
 
 - **Actif (la CF est confirmée automatiquement)** – Les CF sont automatiquement confirmées si le fournisseur les accepte sans modifications.
 - **Actif (la CF n'est pas confirmée automatiquement)** – Votre organisation doit confirmer manuellement les CF une fois que le fournisseur les a acceptées.
@@ -71,7 +71,7 @@ Pour partager les informations tarifaires des CF via l'interface de collaboratio
 
 ### <a name="sending-a-po-to-a-vendor"></a>Envoi d'une CF à un fournisseur
 
-Les CF sont préparés dans Supply Chain Management. Lorsqu'une CF a le statut **Approuvé**, vous l'envoyez au fournisseur en sélectionnant **Envoyer pour confirmation** sur la page **Commande fournisseur**. Le statut de la CF passe alors à **En cours de révision externe**. Une fois la CF soumise, le fournisseur peut la voir sur la page **Commandes fournisseur pour examen** dans l'interface de collaboration fournisseur. Le fournisseur peut alors accepter la CF, la refuser ou proposer des modifications. Le fournisseur peut également ajouter des commentaires pour communiquer des informations telles que des modifications à la CF. Si vous souhaitez attirer l'attention du fournisseur sur une nouvelle CF, vous pouvez également utiliser le système de gestion de l'impression pour l'envoyer par courrier électronique.
+Les CF sont préparés dans Supply Chain Management. Lorsqu'une CF a le statut **Approuvé** , vous l'envoyez au fournisseur en sélectionnant **Envoyer pour confirmation** sur la page **Commande fournisseur**. Le statut de la CF passe alors à **En cours de révision externe**. Une fois la CF soumise, le fournisseur peut la voir sur la page **Commandes fournisseur pour examen** dans l'interface de collaboration fournisseur. Le fournisseur peut alors accepter la CF, la refuser ou proposer des modifications. Le fournisseur peut également ajouter des commentaires pour communiquer des informations telles que des modifications à la CF. Si vous souhaitez attirer l'attention du fournisseur sur une nouvelle CF, vous pouvez également utiliser le système de gestion de l'impression pour l'envoyer par courrier électronique.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmation et acceptation d'une CF par un fournisseur
 
@@ -120,7 +120,7 @@ Le fournisseur ne peut pas modifier les informations sur les prix et les frais. 
 </tbody>
 </table>
 
-Vous pouvez utiliser l'espace de travail **Préparation de la commande fournisseur** pour surveiller les CF auxquelles le fournisseur a répondu. Cet espace de travail contient deux listes contenant les CF dont le statut est **En cours de révision externe** :
+Vous pouvez utiliser l'espace de travail **Préparation de la commande fournisseur** pour surveiller les CF auxquelles le fournisseur a répondu. Cet espace de travail contient deux listes contenant les CF dont le statut est **En cours de révision externe**  :
 
 - Action requise pour « Fait l'objet d'une révision externe »
 - Dans la révision externe en attente de réponse du fournisseur
@@ -141,7 +141,7 @@ Vous pouvez ajouter des pièces jointes telles que des fichiers, des images, et 
 
 Si un fournisseur a répondu à une CF et proposé des modifications, l'étape suivante consiste à traiter la réponse.
 
-Dans l'espace de travail **Préparation des commandes fournisseur**, dans la liste **Action requise pour « Fait l'objet d'une révision externe »**, vous pouvez identifier les CF qu'un fournisseur a accepté avec des modifications. Dans cette liste, vous pouvez également accéder à la réponse du fournisseur.
+Dans l'espace de travail **Préparation des commandes fournisseur** , dans la liste **Action requise pour « Fait l'objet d'une révision externe »** , vous pouvez identifier les CF qu'un fournisseur a accepté avec des modifications. Dans cette liste, vous pouvez également accéder à la réponse du fournisseur.
 
 Dans une réponse, un fournisseur peut modifier les informations suivantes sur l'en-tête :
  
@@ -168,7 +168,7 @@ Vous pouvez mettre à jour une CF en sélectionnant **Traiter la mise à jour de
 
 Toutes les modifications proposées ne peuvent pas être mises à jour sur une CF. Seules les mises à jour sur l'en-tête et les mises à jour des dates et des quantités sur les lignes peuvent être automatiquement mises à jour sur la CF. Pour les autres modifications, vous devez mettre à jour manuellement la CF. Dans ce cas, la valeur du champ **La mise à jour de la CF a-t-elle été traitée ?** est **Mise à jour manuelle**. Par exemple, si un fournisseur propose de fractionner une ligne en plan de livraison, cette modification doit être effectuée manuellement.
 
-Chaque ligne qui a le statut **Accepté** a une date de livraison confirmée. Lorsque vous exécutez l'action **Mise à jour du processus CF**, cette date est mise à jour sur la CF. Les notes et les pièces jointes ne sont pas automatiquement transférées vers la CF actuelle. En outre, les accords commerciaux ne sont pas réévalués sur les lignes de la CF lorsque vous mettez à jour la CF actuelle via l'action **Traiter la mise à jour de la CF**.
+Chaque ligne qui a le statut **Accepté** a une date de livraison confirmée. Lorsque vous exécutez l'action **Mise à jour du processus CF** , cette date est mise à jour sur la CF. Les notes et les pièces jointes ne sont pas automatiquement transférées vers la CF actuelle. En outre, les accords commerciaux ne sont pas réévalués sur les lignes de la CF lorsque vous mettez à jour la CF actuelle via l'action **Traiter la mise à jour de la CF**.
 
 ## <a name="po-statuses-and-versions"></a>Statuts et versions de la CF
 
@@ -231,13 +231,13 @@ Cette section décrit les interactions entre les clients et les fournisseurs lor
 
 - **Avenants** – Lorsqu'une modification est finalisée, les réponses existantes à l'offre sont supprimées afin qu'elles puissent être remplacées par les valeurs mises à jour. Les informations telles que le prix et la quantité de ligne dans les réponses précédentes à l'offre peuvent être affichées via les journaux du dossier d'appel d'offre.
 
-    Pour appliquer le processus de modification, dans la page **Paramètres d'approvisionnement**, sous l'organisateur **Appel d'offre**, définissez l'option **Verrouiller les appels d'offre lorsqu'ils sont envoyés** sur **Oui**. (Cette option est définie et requise pour le secteur public.)
+    Pour appliquer le processus de modification, dans la page **Paramètres d'approvisionnement** , sous l'organisateur **Appel d'offre** , définissez l'option **Verrouiller les appels d'offre lorsqu'ils sont envoyés** sur **Oui**. (Cette option est définie et requise pour le secteur public.)
 
 - **Retours** – Si un fournisseur a soumis une offre, mais des informations supplémentaires ou modifiées sont requises pour le dossier d'appel d'offre, le client peut retourner l'offre au fournisseur. Les données de l'offre précédemment envoyée sont conservées, et le fournisseur peut apporter les modifications demandées sans avoir à redémarrer le processus d'offre.
 
 ## <a name="public-sector-extensions"></a>Extensions du secteur public
 
-Pour le secteur public, la fonctionnalité étendue permet d'envoyer un dossier d'appel d'offre aux fournisseurs et de le publier. Lorsque vous publiez un appel d'offre, toute personne qui demande les informations peut visualiser le travail qui est conforme à la plupart des réglementations du secteur public. Tout le travail disponible est reflété dans la page de liste **Appels d'offre publiés en cours**, et les appels d'offre annulés, en attente ou attribués peuvent être affichés sur la page de liste **Appels d'offre publiés clôturés**. Ces documents peuvent également être visualisés sur un site externe à Supply Chain Management via des intégrations avec les entités de données suivantes :
+Pour le secteur public, la fonctionnalité étendue permet d'envoyer un dossier d'appel d'offre aux fournisseurs et de le publier. Lorsque vous publiez un appel d'offre, toute personne qui demande les informations peut visualiser le travail qui est conforme à la plupart des réglementations du secteur public. Tout le travail disponible est reflété dans la page de liste **Appels d'offre publiés en cours** , et les appels d'offre annulés, en attente ou attribués peuvent être affichés sur la page de liste **Appels d'offre publiés clôturés**. Ces documents peuvent également être visualisés sur un site externe à Supply Chain Management via des intégrations avec les entités de données suivantes :
 
 - Appels d'offre publiés
 - Ligne des appels d'offre publiés

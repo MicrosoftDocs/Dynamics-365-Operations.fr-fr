@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
+ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29fd7afdd032e5d3afbe90a1883783b0f2dd83e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017274"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Réserver le même lot pour une commande client
 
@@ -36,7 +36,7 @@ Une réservation de lots identiques vous permet de réserver du stock pour une l
 
 - **Groupes de modèles d'article** – Pour le groupe de modèles d'article, les champs **Même sélection de lot** et **Consolider le besoin** doivent être sélectionnés dans le groupe de champs **Réservation** pour les stratégies de stock.
 - **Groupes de dimension de suivi** – Pour le groupe de dimension de suivi, le champ **Plan de couverture par dimension** doit être sélectionné pour le numéro du lot.
-- **Groupe de dimension de stockage** – Pour le groupe de dimension de stockage, le champ **Plan de couverture par dimension** doit être sélectionné pour le **Site** et l'**Entrepôt**.
+- **Groupe de dimension de stockage** – Pour le groupe de dimension de stockage, le champ **Plan de couverture par dimension** doit être sélectionné pour le **Site** et l' **Entrepôt**.
 
 Lorsque vous réservez du stock pour un produit sur une ligne de commande client paramétrée pour la sélection du même lot, le système tente de réserver la quantité commandée dans un seul lot de stock. Il prend également en considération toute demande d'attribut de lot spécifique. Si la quantité ne peut pas être remplie à partir d'un seul lot, la page **Conflit de réservation du même lot** s'affiche. Cette page décrit les problèmes et également les actions que vous pouvez entreprendre pour poursuivre la réservation. Les conditions suivantes peuvent empêcher le lot d'être réservé :
 

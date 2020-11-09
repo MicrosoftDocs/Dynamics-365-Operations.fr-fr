@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69e711ad2011703efa450d97575784aaee3137dd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982329"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016445"
 ---
 # <a name="set-up-shipping-carriers"></a>Paramétrer des transporteurs
 
@@ -34,42 +34,42 @@ Cette rubrique décrit comment paramétrer un transporteur et définir des déta
 ## <a name="create-a-new-shipping-carrier"></a>Créer un transporteur
 1. Accédez à **Volet de navigation > Modules > Gestion du transport > Paramétrage > Transporteurs > Transporteurs**.
 2. Sélectionnez **Nouveau** dans le volet Actions.
-3. Dans le champ **Transporteur**, saisissez une valeur.
+3. Dans le champ **Transporteur** , saisissez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
-5. Dans le champ **Mode**, sélectionnez une option dans le menu déroulant.
+5. Dans le champ **Mode** , sélectionnez une option dans le menu déroulant.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Renseigner les informations générales du transporteur
 1. Activez ou désactivez l'extension de la section **Vue d'ensemble**.
 2. Activez ou désactivez la case à cocher **Activation du transporteur**.
-3. Dans le champ **Compte fournisseur**, sélectionnez une option dans le menu déroulant. Sélectionnez le compte fournisseur à affecter au transporteur.  
-4. Dans le champ **Type d'offre de transport**, sélectionnez une option. Sélectionnez **Manuel** pour utiliser la page Offre de transport ou sélectionnez **EDI** pour mettre à jour l'offre à l'aide de l'échange de données informatisé (EDI).  
+3. Dans le champ **Compte fournisseur** , sélectionnez une option dans le menu déroulant. Sélectionnez le compte fournisseur à affecter au transporteur.  
+4. Dans le champ **Type d'offre de transport** , sélectionnez une option. Sélectionnez **Manuel** pour utiliser la page Offre de transport ou sélectionnez **EDI** pour mettre à jour l'offre à l'aide de l'échange de données informatisé (EDI).  
 5. Activez ou désactivez la case à cocher **Activer le classement du transporteur**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Créer les services nécessaires pour le transporteur
 1. Activez ou désactivez l'extension de la section **Services**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Service de transporteur**, tapez une valeur.
+3. Dans le champ **Service de transporteur** , tapez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
-5. Dans le champ **Mode de transport**, sélectionnez une option dans le menu déroulant.
+5. Dans le champ **Mode de transport** , sélectionnez une option dans le menu déroulant.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Paramétrer l'adresse du transporteur (facultatif)
 1. Activez ou désactivez l'extension de la section **Adresses**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Nom ou description**, saisissez une valeur.
-4. Dans le champ **Pays/Région**, sélectionnez une option dans le menu déroulant.
-5. Dans le champ **ZIP/Code postal**, sélectionnez une option dans le menu déroulant.
-6. Dans le champ **Rue**, tapez une valeur.
+3. Dans le champ **Nom ou description** , saisissez une valeur.
+4. Dans le champ **Pays/Région** , sélectionnez une option dans le menu déroulant.
+5. Dans le champ **ZIP/Code postal** , sélectionnez une option dans le menu déroulant.
+6. Dans le champ **Rue** , tapez une valeur.
 7. Cliquez sur **OK**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Paramétrer le profil de classement du transporteur
 1. Activez ou désactivez l'extension de la section **Profils de classement**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Profil de classement**, tapez une valeur.
+3. Dans le champ **Profil de classement** , tapez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
-5. Dans le champ **Site**, sélectionnez une option dans le menu déroulant.
-6. Dans le champ **Entrepôt**, sélectionnez une option dans le menu déroulant.
-7. Dans le champ **Moteur de frais**, sélectionnez une option dans le menu déroulant. Sélectionnez le moteur de frais correspondant au contrat que vous avez avec le transporteur.  
-8. Dans le champ **Données principales du taux**, sélectionnez une option dans le menu déroulant.
-9. Dans le champ **Moteur de temps de transit**, sélectionnez une option dans le menu déroulant.
+5. Dans le champ **Site** , sélectionnez une option dans le menu déroulant.
+6. Dans le champ **Entrepôt** , sélectionnez une option dans le menu déroulant.
+7. Dans le champ **Moteur de frais** , sélectionnez une option dans le menu déroulant. Sélectionnez le moteur de frais correspondant au contrat que vous avez avec le transporteur.  
+8. Dans le champ **Données principales du taux** , sélectionnez une option dans le menu déroulant.
+9. Dans le champ **Moteur de temps de transit** , sélectionnez une option dans le menu déroulant.
 10. Sélectionnez **Enregistrer**.
 

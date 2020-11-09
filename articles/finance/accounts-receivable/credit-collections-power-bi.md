@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598056"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040051"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI Gestion des crédits et des relances
 
@@ -51,6 +51,9 @@ Le paramétrage suivant doit être réalisé pour que les données s'affichent d
 3. Accédez à **Comptabilité > Configuration > Comptabilité** et définissez la **Devise comptable** et le **Type de taux de change**.
 4. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
 5. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **CustCollectionsBIMeasurementsV2**.
+
+>[!NOTE] 
+> Les définitions des plages âgées doivent être définies dans **Paramètres de la comptabilité client > Recouvrements > Valeurs par défaut des relances** pour activer les données âgées dans le contenu Power BI.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 

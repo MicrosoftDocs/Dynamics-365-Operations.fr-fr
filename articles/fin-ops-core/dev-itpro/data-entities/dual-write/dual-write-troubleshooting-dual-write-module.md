@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275531"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997372"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations
 
@@ -37,7 +36,7 @@ Cette rubrique fournit des informations sur la résolution des problèmes de l'i
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Vous ne pouvez pas charger le module Double écriture dans une application Finance and Operations
 
-Si vous ne pouvez pas ouvrir la page **Double écriture** en sélectionnant la vignette **Double écriture** dans l'espace de travail **Gestion des données**, le service d'intégration de données est probablement en panne. Créez un ticket de support pour demander un redémarrage du service d'intégration de données.
+Si vous ne pouvez pas ouvrir la page **Double écriture** en sélectionnant la vignette **Double écriture** dans l'espace de travail **Gestion des données** , le service d'intégration de données est probablement en panne. Créez un ticket de support pour demander un redémarrage du service d'intégration de données.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Erreur lorsque vous essayez de créer un nouveau mappage d'entité
 
@@ -50,7 +49,7 @@ Vous pouvez recevoir le message d'erreur suivant lorsque vous essayez de configu
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Erreur lorsque vous ouvrez l'interface utilisateur de double écriture
 
-Vous pouvez recevoir le message d'erreur suivant lorsque vous essayez d'accéder à la double écriture à partir de l'espace de travail **Gestion des données** :
+Vous pouvez recevoir le message d'erreur suivant lorsque vous essayez d'accéder à la double écriture à partir de l'espace de travail **Gestion des données**  :
 
 *login.microsoftonline.com a refusé de se connecter.*
 
@@ -62,7 +61,7 @@ Pour résoudre le problème, connectez-vous à l'aide d'une fenêtre InPrivate d
 
 Vous pouvez rencontrer l'erreur suivante lors de la liaison ou de la création de cartes :
 
-*Le code d'état de réponse n'indique pas la réussite : 403 (échange de jetons).<br> ID de session : \<votre identifiant de session\><br> ID d'activité racine : \<votre identifiant d'activité racine\>*
+*Le code d'état de réponse n'indique pas la réussite : 403 (échange de jetons).<br> ID de session : \<your session id\><br> ID d'activité racine : \<your root activity id\>*
 
 Cette erreur peut se produire si vous ne disposez pas des autorisations suffisantes pour lier la double écriture ou créer des cartes. Cette erreur peut également se produire si l'environnement Common Data Service a été réinitialisé sans dissocier la double écriture. Tout utilisateur ayant un rôle d'administrateur système dans les applications Finance and Operations et Common Data Service peut relier les environnements. Seul l'utilisateur qui a configuré la connexion à double écriture peut ajouter de nouveaux mappages d'entités. Après la configuration, tout utilisateur ayant un rôle d'administrateur système peut surveiller le statut et modifier les mappages.
 
@@ -78,7 +77,7 @@ Pour résoudre le problème, créez un ticket pour l'équipe d'intégration de d
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Erreur lors de la tentative de démarrage d'un mappage d'entité
 
-Vous pouvez recevoir une erreur comme celle-ci lorsque vous essayez de définir cet état d'un mappage sur **Exécution en cours** :
+Vous pouvez recevoir une erreur comme celle-ci lorsque vous essayez de définir cet état d'un mappage sur **Exécution en cours**  :
 
 *Impossible de terminer la synchronisation initiale des données. Erreur : échec de double écriture - échec de l'enregistrement du plug-in : impossible de créer des métadonnées de recherche en double écriture. La référence d'objet d'erreur n'est pas définie sur une instance d'un objet.*
 

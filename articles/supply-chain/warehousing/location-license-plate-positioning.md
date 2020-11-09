@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6810753c10d03999c38a6163687effd771076c15
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530050"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017114"
 ---
 # <a name="location-license-plate-positioning"></a>Positionnement des contenants dans un emplacement
 
@@ -55,15 +56,15 @@ La fonctionnalité doit être activée dans le profil d'emplacement pour chaque 
 
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d'emplacement**.
 1. Dans la liste des profils d'emplacement du volet gauche, sélectionnez **VRAC-06**.
-1. Dans l'organisateur **Général**, deux nouvelles options ont été ajoutées par la fonctionnalité. Définissez les valeurs suivantes :
+1. Dans l'organisateur **Général** , deux nouvelles options ont été ajoutées par la fonctionnalité. Définissez les valeurs suivantes :
 
     - **Activer le positionnement du contenant :** *Oui*
 
-        Lorsque cette option est définie sur *Oui*, le positionnement du contenant sera conservé pour les contenants dans l'emplacement.
+        Lorsque cette option est définie sur *Oui* , le positionnement du contenant sera conservé pour les contenants dans l'emplacement.
 
     - **Afficher le positionnement du contenant sur l'appareil mobile :** *Oui*
 
-        Lorsque cette option est définie sur *Oui*, le positionnement du contenant sera visible par les utilisateurs sur l'appareil mobile pendant l'ajustement et l'inventaire. Vous ne pouvez modifier le paramètre de cette option que lorsque la fonctionnalité est activée.
+        Lorsque cette option est définie sur *Oui* , le positionnement du contenant sera visible par les utilisateurs sur l'appareil mobile pendant l'ajustement et l'inventaire. Vous ne pouvez modifier le paramètre de cette option que lorsque la fonctionnalité est activée.
 
 1. Sélectionnez **Enregistrer**.
 
@@ -73,8 +74,8 @@ La fonctionnalité doit être activée dans le profil d'emplacement pour chaque 
 1. Dans le volet gauche, assurez-vous que le champ **Type d'ordre de travail** est défini sur *Commandes client*.
 1. Dans la liste des instructions d'emplacement, sélectionnez **61 Ordre de prélèvement de commande client**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l'organisateur **Lignes**, sélectionnez la ligne dont la valeur **Numéro de souche** est *2*.
-1. Dans l'organisateur **Actions d'instruction d'emplacement**, sélectionnez la ligne dont la valeur **Nom** est *Prélever pour moins que la palette* (ce devrait être la seule ligne) et modifiez sa valeur **Numéro de souche** sur *2*.
+1. Dans l'organisateur **Lignes** , sélectionnez la ligne dont la valeur **Numéro de souche** est *2*.
+1. Dans l'organisateur **Actions d'instruction d'emplacement** , sélectionnez la ligne dont la valeur **Nom** est *Prélever pour moins que la palette* (ce devrait être la seule ligne) et modifiez sa valeur **Numéro de souche** sur *2*.
 1. Sélectionnez **Nouveau** au-dessus de la grille pour ajouter une ligne pour une nouvelle action d'instruction d'emplacement.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
@@ -85,16 +86,16 @@ La fonctionnalité doit être activée dans le profil d'emplacement pour chaque 
 1. Dans l'éditeur de requêtes, sélectionnez l'onglet **Jointures**.
 1. Développez la jointure de table **Emplacements** pour afficher la jointure à la table **Dimensions de stock**.
 1. Développez la jointure de table **Dimensions de stock** pour afficher la jointure à la table **Stock disponible**.
-1. Sélectionnez **Dimensions de stock**, puis sélectionnez **Ajouter une jointure de table**.
-1. Dans la liste des tables qui s'affiche, dans la colonne **Relation**, sélectionnez **Contenant (contenant)**. Sélectionnez ensuite **Sélectionner** pour ajouter **Contenant** à la jointure de table **Dimensions de stock**.
+1. Sélectionnez **Dimensions de stock** , puis sélectionnez **Ajouter une jointure de table**.
+1. Dans la liste des tables qui s'affiche, dans la colonne **Relation** , sélectionnez **Contenant (contenant)**. Sélectionnez ensuite **Sélectionner** pour ajouter **Contenant** à la jointure de table **Dimensions de stock**.
 1. Alors que **Contenant** est toujours sélectionné, sélectionnez **Ajouter une jointure de table**.
-1. Dans la liste des tables qui s'affiche, dans la colonne **Relation**, sélectionnez **Positionnement des contenants dans un emplacement (contenant)**. Sélectionnez ensuite **Sélectionner** pour ajouter **Positionnement des contenants dans un emplacement** à la jointure de table **Dimensions de stock**.
+1. Dans la liste des tables qui s'affiche, dans la colonne **Relation** , sélectionnez **Positionnement des contenants dans un emplacement (contenant)**. Sélectionnez ensuite **Sélectionner** pour ajouter **Positionnement des contenants dans un emplacement** à la jointure de table **Dimensions de stock**.
 
     ![Jointures de table](media/LpTableJoin.png "Jointures de table")
 
 1. Cliquez sur **OK** pour confirmer les tables jointes mises à jour et fermer l'éditeur de requêtes.
-1. Dans l'organisateur **Actions d'instruction d'emplacement**, sélectionnez à nouveau **Modifier la requête** pour rouvrir l'éditeur de requêtes.
-1. Sous l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Actions d'instruction d'emplacement** , sélectionnez à nouveau **Modifier la requête** pour rouvrir l'éditeur de requêtes.
+1. Sous l'onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Positionnement des contenants dans un emplacement*
@@ -116,15 +117,15 @@ Pour ce scénario, l'utilisateur doit se connecter à l'application mobile d'ent
 
 1. Ouvrez l'application mobile d'entreposage et connectez-vous à l'entrepôt *61*.
 1. Allez dans **Stock \> Inventaire ponctuel**.
-1. Sur la page **Inventaire ponctuel**, définissez le champ **Emplacement** sur *01A01R1S1B*.
+1. Sur la page **Inventaire ponctuel** , définissez le champ **Emplacement** sur *01A01R1S1B*.
 1. Cliquez sur **OK**.
 
     La page affiche l'emplacement que vous avez entré. Elle affiche également le message suivant : "Emplacement complet, ajouter un nouveau contenant ou un nouvel article ? »
 
 1. Sélectionnez **Actualiser** pour ajouter un inventaire dans l'emplacement.
-1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article**, sélectionnez le champ **Article**, puis entrez la valeur *A0001*.
+1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** , sélectionnez le champ **Article** , puis entrez la valeur *A0001*.
 1. Cliquez sur **OK**.
-1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article**, sélectionnez le champ **Contenant**, puis entrez la valeur *LP1001* (ou tout autre numéro de contenant de votre choix).
+1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** , sélectionnez le champ **Contenant** , puis entrez la valeur *LP1001* (ou tout autre numéro de contenant de votre choix).
 
     La page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** affiche **Position 1 du contenant**.
 
@@ -138,9 +139,9 @@ Pour ce scénario, l'utilisateur doit se connecter à l'application mobile d'ent
     La page affiche l'emplacement que vous avez entré. Elle affiche également le message suivant : "Emplacement complet, ajouter un nouveau contenant ou un nouvel article ? »
 
 1. Sélectionnez **Actualiser** pour ajouter un autre inventaire dans l'emplacement.
-1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article**, sélectionnez le champ **Article**, puis entrez la valeur *A0002*.
+1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** , sélectionnez le champ **Article** , puis entrez la valeur *A0002*.
 1. Cliquez sur **OK**.
-1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article**, sélectionnez le champ **Contenant**, puis entrez la valeur *LP1002* (ou tout autre numéro de contenant de votre choix, à condition qu'il diffère du numéro de contenant que vous avez spécifié précédemment).
+1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** , sélectionnez le champ **Contenant** , puis entrez la valeur *LP1002* (ou tout autre numéro de contenant de votre choix, à condition qu'il diffère du numéro de contenant que vous avez spécifié précédemment).
 1. Modifiez la position du contenant en définissant le champ **Position du contenant** sur *2*.
 1. Cliquez sur **OK**.
 1. Spécifiez la quantité de l'article inventorié sur le contenant en définissant le champ **Qté** sur *10*.
@@ -154,15 +155,15 @@ Le travail est maintenant terminé.
 
 #### <a name="spot-count-the-second-location"></a>Inventaire ponctuel du deuxième emplacement
 
-1. Sur la page **Inventaire ponctuel**, définissez le champ **Emplacement** sur *01A01R1S2B*.
+1. Sur la page **Inventaire ponctuel** , définissez le champ **Emplacement** sur *01A01R1S2B*.
 1. Cliquez sur **OK**.
 
     La page affiche l'emplacement que vous avez entré. Elle affiche également le message suivant : "Emplacement complet, ajouter un nouveau contenant ou un nouvel article ? »
 
 1. Sélectionnez **Actualiser** pour ajouter un inventaire dans l'emplacement.
-1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article**, sélectionnez le champ **Article**, puis entrez la valeur *A0002*.
+1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** , sélectionnez le champ **Article** , puis entrez la valeur *A0002*.
 1. Cliquez sur **OK**.
-1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article**, sélectionnez le champ **Contenant**, puis entrez la valeur *LP1003* (ou tout autre numéro de contenant de votre choix, à condition qu'il diffère des deux numéros de contenant que vous avez spécifiés dans la procédure précédente).
+1. Sur la page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** , sélectionnez le champ **Contenant** , puis entrez la valeur *LP1003* (ou tout autre numéro de contenant de votre choix, à condition qu'il diffère des deux numéros de contenant que vous avez spécifiés dans la procédure précédente).
 
     La page **Inventaire tournant : ajouter un nouveau contenant ou un nouvel article** affiche **Position 1 du contenant**.
 
@@ -183,7 +184,7 @@ Le travail est maintenant terminé.
 
 1. Connectez-vous à Dynamics 365 Supply Chain Management.
 1. Accédez à **Gestion des entrepôts \> Travail \> Détails du travail**.
-1. Sous l'onglet **Vue d'ensemble**, recherchez les lignes présentant les valeurs suivantes :
+1. Sous l'onglet **Vue d'ensemble** , recherchez les lignes présentant les valeurs suivantes :
 
     - **Type d'ordre de travail :** *Inventaire tournant*
     - **Entrepôt :** *61*
@@ -192,9 +193,9 @@ Le travail est maintenant terminé.
     Deux ID de travail devraient avoir été créés pour ces lignes. Les inventaires de ces deux ID de travail doivent être acceptés.
 
 1. Dans la grille, sélectionnez le premier ID de travail pour le type d'ordre de travail *Inventaire tournant*.
-1. Dans le volet Actions, sous l'onglet **Travail**, dans le groupe **Travail**, sélectionnez **Inventaire tournant**.
+1. Dans le volet Actions, sous l'onglet **Travail** , dans le groupe **Travail** , sélectionnez **Inventaire tournant**.
 
-    Deux lignes sont affichées, une pour chaque article et contenant. Les valeurs des champs **Quantité comptée**, **Emplacement**, **Contenant** et **Article** doivent correspondre aux entrées d'inventaire que vous avez créées sur l'appareil mobile. Si l'un de ces champs n'est pas visible, sélectionnez **Afficher les dimensions** dans le volet Actions pour les ajouter à la grille.
+    Deux lignes sont affichées, une pour chaque article et contenant. Les valeurs des champs **Quantité comptée** , **Emplacement** , **Contenant** et **Article** doivent correspondre aux entrées d'inventaire que vous avez créées sur l'appareil mobile. Si l'un de ces champs n'est pas visible, sélectionnez **Afficher les dimensions** dans le volet Actions pour les ajouter à la grille.
 
 1. Sélectionnez les deux lignes.
 1. Dans le volet Actions, sélectionnez **Accepter l'inventaire**.
@@ -209,10 +210,10 @@ Le travail est maintenant terminé.
 
     Vous allez maintenant accepter le travail pour le contenant dans l'emplacement *01A01R1S2B*.
 
-1. Sous l'onglet **Vue d'ensemble**, sélectionnez le deuxième ID de travail pour le type d'ordre de travail *Inventaire tournant*.
-1. Dans le volet Actions, sous l'onglet **Travail**, dans le groupe **Travail**, sélectionnez **Inventaire tournant**.
+1. Sous l'onglet **Vue d'ensemble** , sélectionnez le deuxième ID de travail pour le type d'ordre de travail *Inventaire tournant*.
+1. Dans le volet Actions, sous l'onglet **Travail** , dans le groupe **Travail** , sélectionnez **Inventaire tournant**.
 
-    Une ligne est affichée, pour l'article et le contenant. Les valeurs des champs **Quantité comptée**, **Emplacement**, **Contenant** et **Article** doivent correspondre aux entrées d'inventaire que vous avez créées sur l'appareil mobile.
+    Une ligne est affichée, pour l'article et le contenant. Les valeurs des champs **Quantité comptée** , **Emplacement** , **Contenant** et **Article** doivent correspondre aux entrées d'inventaire que vous avez créées sur l'appareil mobile.
 
 1. Sélectionnez la ligne.
 1. Dans le volet Actions, sélectionnez **Accepter l'inventaire**.
@@ -236,12 +237,12 @@ Le travail est maintenant terminé.
 
 1. Notez que l'emplacement *01A01R1S1B* a deux contenants :
 
-    - **A0001**, où le champ **Position du contenant** est défini sur *1*
-    - **A0002**, où le champ **Position du contenant** est défini sur *2*
+    - **A0001** , où le champ **Position du contenant** est défini sur *1*
+    - **A0002** , où le champ **Position du contenant** est défini sur *2*
 
 1. Notez que l'emplacement *01A01R1S2B* a un contenant :
 
-    - **A0002**, où le champ **Position du contenant** est défini sur *1*
+    - **A0002** , où le champ **Position du contenant** est défini sur *1*
 
 ### <a name="sales-order-scenario"></a>Scénario de commande client
 
@@ -249,7 +250,7 @@ Maintenant que la fonctionnalité *Positionnement des contenants dans un emplace
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
 
     - **Compte client :** *US-004*
     - **Entrepôt :** *61*
@@ -261,20 +262,20 @@ Maintenant que la fonctionnalité *Positionnement des contenants dans un emplace
     - **Quantité :** *1*
 
 1. Dans le menu **Stock** au-dessus de la grille, sélectionnez **Réservation**.
-1. Sur la page **Réservation**, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver le stock pour la ligne de commande.
+1. Sur la page **Réservation** , dans le volet Actions, sélectionnez **Réserver un lot** pour réserver le stock pour la ligne de commande.
 1. Fermez la page **Réservation**.
-1. Dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l'entrepôt**.
+1. Dans le volet Actions, sous l'onglet **Entrepôt** , dans le groupe **Actions** , sélectionnez **Libérer dans l'entrepôt**.
 
     Vous recevez un message d'information indiquant l'ID de vague et l'ID d'expédition créés pour la commande.
 
-1. Dans l'organisateur **Lignes de commande client**, dans le menu **Entrepôt** au-dessus de la grille, sélectionnez **Détails du travail**.
+1. Dans l'organisateur **Lignes de commande client** , dans le menu **Entrepôt** au-dessus de la grille, sélectionnez **Détails du travail**.
 1. La page **Travail** apparaît et affiche le travail créé pour la ligne de vente. Prenez note de l'ID de travail affiché.
 
 ### <a name="sales-picking-scenario"></a>Scénario de prélévement des ventes
 
 1. Ouvrez l'application mobile et connectez-vous à l'entrepôt *61*.
 1. Allez à **Sortant \> Prélèvement des ventes**.
-1. Sur la page **Analyser un ID travail/ID contenant**, sélectionnez le champ **ID**, puis entrez l'ID de travail à partir de la ligne de vente.
+1. Sur la page **Analyser un ID travail/ID contenant** , sélectionnez le champ **ID** , puis entrez l'ID de travail à partir de la ligne de vente.
 1. Notez que le travail de prélèvement vous demande de sélectionner l'article *A0002* dans l'emplacement *01A01R1S2B*. Vous recevez cette instruction car l'article *A0002* se trouve sur un contenant en position *1* dans cet emplacement.
 
     ![Emplacement en position 1](media/LocationLicensePlatePositioning.png "Emplacement en position 1")

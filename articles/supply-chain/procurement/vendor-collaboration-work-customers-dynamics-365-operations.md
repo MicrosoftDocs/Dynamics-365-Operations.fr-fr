@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
+ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 240fdfb3519e1c4526c46fa3d5e3fbaa8e5a467e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018151"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
@@ -59,13 +59,13 @@ Les pages suivantes permettent d'utiliser les CF :
 
 Les CF que le client vous envoie pour examen s'affichent dans l'espace de travail **Confirmation de la commande fournisseur** et dans la page **Commandes fournisseur pour examen**. Après avoir ouvert une CF, vous pouvez l'accepter, la rejeter ou l'accepter avec des modifications. Des documents peuvent être joints dans l'en-tête de la CF ou sur des lignes individuelles. En outre, vous pouvez associer des informations à votre réponse sur l'en-tête de la CF ou des lignes individuelles. Par exemple, vous pouvez proposer un article de remplacement pour l'une des lignes.
 
-Vous pouvez prévisualiser et imprimer la CF comme fichier PDF à l'aide de l'option **Aperçu/Imprimer**. Vous pouvez également utiliser l'action **Afficher les dimensions** pour masquer ou afficher les colonnes de dimension suivantes : **Site**, **Entrepôt**, **Couleur**, **Taille**, **Style** et **Configuration**. 
+Vous pouvez prévisualiser et imprimer la CF comme fichier PDF à l'aide de l'option **Aperçu/Imprimer**. Vous pouvez également utiliser l'action **Afficher les dimensions** pour masquer ou afficher les colonnes de dimension suivantes : **Site** , **Entrepôt** , **Couleur** , **Taille** , **Style** et **Configuration**. 
 
-Si vous utilisez l'option **Accepter avec des modifications**, vous pouvez accepter ou rejeter des lignes séparément. Vous pouvez également apporter les modifications suivantes aux lignes :
+Si vous utilisez l'option **Accepter avec des modifications** , vous pouvez accepter ou rejeter des lignes séparément. Vous pouvez également apporter les modifications suivantes aux lignes :
 
 - Modifiez les dates ou les quantités. Pour mettre à jour la date de livraison confirmée sur toutes les lignes, utilisez l'option **Mettre à jour la date de livraison** sur l'en-tête de la CF.
 - Fractionnez des lignes pour différentes dates de livraison ou quantités.
-- Remplacez un article. Dans la section **Détails de ligne**, entrez une description d'article et le numéro d'article dans le champ **Externe**.
+- Remplacez un article. Dans la section **Détails de ligne** , entrez une description d'article et le numéro d'article dans le champ **Externe**.
 
 Vous ne pouvez pas modifier les informations tarifaires ou les frais, mais vous pouvez utiliser des notes pour faire des suggestions pour ces modifications.
 
@@ -124,13 +124,13 @@ Les personnes qui travaillent dans le secteur public peuvent afficher les appels
 - Sélectionnez **Réinitialiser à partir de l'appel d'offre** pour réinitialiser les données saisies pour une offre et rétablir l'appel d'offre d'origine. Vous pouvez réinitialiser l'en-tête ou la ligne.
 - Sélectionnez **Ajouter une alternative** ou **Supprimer l'alternative** dans la grille de ligne pour utiliser les alternatives.
 
-    Certains appels d'offre autorisent les offres alternatives. Vous pouvez spécifier des offres alternatives uniquement pour les lignes de type **Catégorie**, car des articles spécifiques ne peuvent pas être ajoutés en tant qu'alternatives. 
+    Certains appels d'offre autorisent les offres alternatives. Vous pouvez spécifier des offres alternatives uniquement pour les lignes de type **Catégorie** , car des articles spécifiques ne peuvent pas être ajoutés en tant qu'alternatives. 
 
 - Sélectionnez **Pièce jointe à un appel d'offre** ou **Pièce jointe à des lignes d'appel d'offre** pour ouvrir une pièce jointe que le client a ajoutée à un appel d'offre. Sélectionnez **Pièces jointes à l'offre** ou **Pièces jointes à la ligne d'offre** pour télécharger les pièces jointes à l'offre.
 
     Vous devrez peut-être répondre à des questionnaires avant d'être autorisé à soumettre une offre.
 
-- Sélectionnez **Refuser** si vous ne souhaitez pas faire une offre. Après avoir sélectionné **Refuser**, vous ne pouvez pas rappeler l'action et saisir une offre.
+- Sélectionnez **Refuser** si vous ne souhaitez pas faire une offre. Après avoir sélectionné **Refuser** , vous ne pouvez pas rappeler l'action et saisir une offre.
 
 Si un appel d'offre est modifié, vous devez saisir une nouvelle offre. Vous trouverez des informations sur l'avenant dans l'onglet **Avenants** de la page d'appel d'offre. Les appels d'offre modifiés s'affichent sur la page **Nouvelles invitations à un appel d'offre**.
 

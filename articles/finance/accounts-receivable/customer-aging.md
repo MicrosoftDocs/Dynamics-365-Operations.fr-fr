@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974859"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013051"
 ---
 # <a name="customer-aging-report"></a>Balance âgée des clients 
 
@@ -115,8 +115,9 @@ Lorsque vous générez cet état, les paramètres par défaut suivants sont affi
 <tr class="even">
 <td><p><strong>Sens d'impression</strong></p></td>
 <td><p>Sélectionnez si les soldes doivent être calculés et si l'état de plage âgée doit être imprimée pour des périodes passées et futures. Les dates sont évaluées par rapport à la date sélectionnée dans le champ <strong>Solde à la date</strong>. Sélectionnez <strong>En arrière</strong> pour afficher les informations pour les périodes passées. Sélectionnez <strong>En avant</strong> pour afficher les informations pour les périodes futures.</p>
-
-**Remarque :** les informations entrées dans ce champ ne sont utilisées que si vous n'avez pas sélectionné de définition de plage âgée.</P>
+<div class="alert">
+  
+<STRONG>Remarque :</STRONG> les informations entrées dans ce champ ne sont utilisées que si vous n'avez pas sélectionné de définition de plage âgée.</P>
 
 
 </div></td>

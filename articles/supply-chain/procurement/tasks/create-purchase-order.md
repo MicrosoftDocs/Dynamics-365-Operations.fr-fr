@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383226"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018150"
 ---
 # <a name="create-a-purchase-order"></a>Créer une commande fournisseur
 
@@ -45,9 +45,9 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
 ## <a name="add-a-purchase-order-line"></a>Ajouter une ligne de commande fournisseur
 1. Sélectionnez **Ligne de commande fournisseur**.
 2. Sélectionnez **Dimensions**. Les produits peuvent figurer dans les variantes qui sont différenciées par des dimensions, telles que la couleur, la taille ou le style. Les produits peuvent également être paramétrés pour utiliser les dimensions de stockage, telles que le site et l'entrepôt. Il existe également des dimensions de suivi facultatives, telles que le lot et les numéros de série. Pour améliorer le rendement de la saisie de commande, vous pouvez ajouter des champs de dimension que vous utilisez couramment directement dans la grille de commande.  
-3. Activez la case à cocher **Couleur**. Facultatif : Si vous sélectionnez le champ **Enregistrer le paramétrage**, les dimensions que vous avez sélectionnées sont également affichées dans la grille de ligne de commande la prochaine fois que vous ouvrez la page de commande fournisseur.  
+3. Activez la case à cocher **Couleur**. Facultatif : Si vous sélectionnez le champ **Enregistrer le paramétrage** , les dimensions que vous avez sélectionnées sont également affichées dans la grille de ligne de commande la prochaine fois que vous ouvrez la page de commande fournisseur.  
 4. Cliquez sur **OK**.
-5. Dans le champ **Numéro d'article**, sélectionnez **T0004**.
+5. Dans le champ **Numéro d'article** , sélectionnez **T0004**.
 
     - Les lignes de commande sont créées pour les produits et les services en spécifiant un numéro d'article, ou comme dépenses en spécifiant une catégorie d'approvisionnement. 
     - Le champ **Catégorie d'approvisionnement** est utilisé pour ajouter des lignes là où les articles achetés sont dépensées directement, plutôt que d'aller directement dans le stock. Cela signifie que vous pouvez effectuer un achat en créant une ligne de commande fournisseur qui spécifie une catégorie d'approvisionnement, plutôt que de créer une ligne avec un numéro d'article. Les articles peuvent également être associés à une catégorie d'approvisionnement et dans ce cas, la catégorie d'approvisionnement est indiquée comme informationnelle uniquement.  
@@ -60,7 +60,7 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
     - Le champ **Prix unitaire** contient généralement une valeur provenant d'un contrat d'achat ou d'un accord commercial. Il est possible de modifier le prix unitaire sur des lignes de commande individuelles, par exemple si un seul prix est négocié avec le fournisseur.  
     - Le champ **Remise** représente un montant de remise par unité. Cette remise réduit donc le prix unitaire. Cette remise est généralement fournie automatiquement à partir des contrats d'achat ou des accords commerciaux, mais il est possible de remplacer chaque ligne si des remises ont été négociées avec le fournisseur.  
     - Il est possible d'entrer un pourcentage de remise qui diminue le montant net de la ligne en conséquence. Ce pourcentage de remise est souvent fourni automatiquement à partir des contrats d'achat ou des accords commerciaux, mais il est possible de remplacer chaque ligne si une remise unique a été négociée avec le fournisseur.  
-    - La valeur du champ **Montant net** est calculée à partir d'autres champs de la ligne y compris la quantité, le prix unitaire, la remise et le pourcentage de remise. Il est possible de modifier le montant net, mais les champs **Prix unitaire**, **Remise** et **Pourcentage de remise** seront vides et lorsque vous validez la ligne, le montant validé sera proportionnel au montant HT. Généralement le champ **Montant net** n'est utilisé que pour afficher le montant net de la ligne.  
+    - La valeur du champ **Montant net** est calculée à partir d'autres champs de la ligne y compris la quantité, le prix unitaire, la remise et le pourcentage de remise. Il est possible de modifier le montant net, mais les champs **Prix unitaire** , **Remise** et **Pourcentage de remise** seront vides et lorsque vous validez la ligne, le montant validé sera proportionnel au montant HT. Généralement le champ **Montant net** n'est utilisé que pour afficher le montant net de la ligne.  
 
 8. Développez la section **Détails de ligne**.
 9. Sélectionnez l'onglet **Livraison**. Une seule date de livraison peut être affectée à chaque ligne de commande. La date est héritée du champ de l'en-tête de commande fournisseur, mais vous pouvez le modifier.  
@@ -68,7 +68,7 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
 ## <a name="review-order-totals"></a>Consulter les totaux de la commande
 1. Sélectionnez **Totaux**.
 
-    - Si vous ne voyez pas **Totaux**, cliquez sur l'onglet **Commande fournisseur** dans le volet Actions.  
+    - Si vous ne voyez pas **Totaux** , cliquez sur l'onglet **Commande fournisseur** dans le volet Actions.  
     - Cette boîte de dialogue affiche les totaux de la commande entière.  
     - Le champ de **sélection** vous permet de modifier la manière dont les totaux sont calculés. Par exemple, vous pouvez choisir **Quantité de l'accusé de réception de marchandises** pour indiquer les totaux liés à la quantité de produits reçus, ou **Quantité commandée** pour indiquer la quantité de produit commandée.  
 

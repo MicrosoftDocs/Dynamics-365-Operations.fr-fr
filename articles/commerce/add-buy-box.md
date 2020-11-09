@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817083"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022027"
 ---
 # <a name="buy-box-module"></a>Module Zone d’achat
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -57,23 +56,23 @@ Les thèmes peuvent être utilisés pour supprimer ou modifier l’ordre des com
 
 ## <a name="module-properties"></a>Propriétés du module
 
-- **Balise de titre** – Cette propriété définit la balise d’en-tête du titre du produit. Si la zone d’achat se trouve en haut de la page, cette propriété doit être définie sur **h1** pour répondre aux normes d’accessibilité. 
+- **Balise de titre**  – Cette propriété définit la balise d’en-tête du titre du produit. Si la zone d’achat se trouve en haut de la page, cette propriété doit être définie sur **h1** pour répondre aux normes d’accessibilité. 
 
 - **Activer les recommandations « Acheter des looks similaires »** – Cette propriété permet à la zone d’achat d’afficher des liens vers des produits qui ressemblent à l’article actuellement consulté. Cette fonctionnalité est disponible dans Commerce version 10.0.13 et ultérieure.
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Modules qui peuvent être utilisés dans un module de zone d’achat
 
 - **Galerie multimédia** – Ce module permet de présenter des images d’un produit sur une page de détails des produits. Pour plus d’informations sur ce module, voir [Module Galerie multimédia](media-gallery-module.md).
-- **Sélecteur de magasins** – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d’entrer un emplacement pour trouver des magasins à proximité. Pour plus d’informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
+- **Sélecteur de magasins**  – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d’entrer un emplacement pour trouver des magasins à proximité. Pour plus d’informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
 - **Partage social** – Ce module peut être ajouté à la zone d’achat pour permettre aux utilisateurs de partager des informations sur les produits sur les réseaux sociaux. Pour plus d’informations, voir [Module Partage social](social-share-module.md).
 
 ## <a name="buy-box-module-settings"></a>Paramètres du module Zone d’achat
 
-Les paramètres de module de zone d’achat suivants peuvent être configurés sur **Paramètres du site \> Extensions** :
+Les paramètres de module de zone d’achat suivants peuvent être configurés sur **Paramètres du site \> Extensions**  :
 
-- **Limite de quantité de lignes du panier** – Cette propriété est utilisée pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
+- **Limite de quantité de lignes du panier**  – Cette propriété est utilisée pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
 - **Stock** – Pour plus d’informations sur l’application des paramètres de stock, voir [Appliquer les paramètres de stock](inventory-settings.md).
-- **Ajouter au panier** – Cette propriété est utilisée pour spécifier le comportement après l’ajout d’un article au panier. Les valeurs possibles sont **Accéder au panier**, **Ne pas accéder au panier** et **Afficher les notifications**. Lorsque la valeur est définie sur **Accéder au panier**, les utilisateurs sont envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Ne pas accéder au panier**, les utilisateurs ne sont pas envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Afficher les notifications**, les utilisateurs reçoivent une notification de confirmation et peuvent continuer à naviguer sur la page des détails du produit. 
+- **Ajouter au panier** – Cette propriété est utilisée pour spécifier le comportement après l’ajout d’un article au panier. Les valeurs possibles sont **Accéder au panier** , **Ne pas accéder au panier** et **Afficher les notifications**. Lorsque la valeur est définie sur **Accéder au panier** , les utilisateurs sont envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Ne pas accéder au panier** , les utilisateurs ne sont pas envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Afficher les notifications** , les utilisateurs reçoivent une notification de confirmation et peuvent continuer à naviguer sur la page des détails du produit. 
 
 > [!IMPORTANT]
 > Les paramétres de site **Ajouter au panier** sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d'une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
@@ -90,27 +89,27 @@ Le module de zone d’achat extrait les informations sur le produit à l’aide 
 
 Pour ajouter un module de zone d’achat à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
-1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Zone d’achat**.
-1. Sous **Nom du fragment**, entrez le nom **Fragment de zone d’achat**, puis sélectionnez **OK**.
-1. Dans l’emplacement **Galerie de supports** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Galerie de supports**, puis sélectionnez **OK**.
-1. Dans l’emplacement **Sélecteur de magasin** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Sélecteur de magasin**, puis sélectionnez **OK**.
-1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
-1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
-1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle PDP**, puis cliquez sur **OK**.
-1. Dans l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Page par défaut**, puis sélectionnez **OK**.
-1. À l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé au préalable, puis sélectionnez **OK**.
-1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
-1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Modèle PDP**. Sous **Nom de la page**, entrez **Page PDP**, puis sélectionnez **OK**.
-1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé au préalable, puis sélectionnez **OK**.
+1. Accédez à **Fragments** , puis cliquez sur **Nouveau** pour créer un fragment.
+1. Dans la boîte de dialogue **Nouveau fragment** , sélectionnez le module **Zone d’achat**.
+1. Sous **Nom du fragment** , entrez le nom **Fragment de zone d’achat** , puis sélectionnez **OK**.
+1. Dans l’emplacement **Galerie de supports** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension ( **...** ), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Galerie de supports** , puis sélectionnez **OK**.
+1. Dans l’emplacement **Sélecteur de magasin** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension ( **...** ), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Sélecteur de magasin** , puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
+1. Accédez à **Modèles** , puis cliquez sur **Nouveau** pour créer un nouveau modèle.
+1. Dans la boîte de dialogue **Nouveau modèle** , sous **Nom du modèle** , entrez **Modèle PDP** , puis cliquez sur **OK**.
+1. Dans l’emplacement **Corps** , sélectionnez le bouton représentant des points de suspension ( **…** ), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Page par défaut** , puis sélectionnez **OK**.
+1. À l’emplacement **Principal** de la page par défaut, sélectionnez le bouton représentant des points de suspension ( **...** ), puis le sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Sélectionner un fragment** , sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé au préalable, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
+1. Accédez à **Pages** , puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle** , sélectionnez le modèle **Modèle PDP**. Sous **Nom de la page** , entrez **Page PDP** , puis sélectionnez **OK**.
+1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension ( **...** ), puis le sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Sélectionner un fragment** , sélectionnez le fragment **Fragment de zone d’achat** que vous avez créé au préalable, puis sélectionnez **OK**.
 1. Enregistrez et affichez un aperçu de la page. Ajoutez le paramètre de chaîne de requête **?productid=&lt;product id&gt;** à l’URL de la page d’aperçu. Ainsi, le contexte de produit est utilisé pour charger et afficher la page d’aperçu.
-1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. Un zone d’achat doit figurer sur la page de détails des produits.
+1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. Un zone d’achat doit figurer sur la page de détails des produits.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

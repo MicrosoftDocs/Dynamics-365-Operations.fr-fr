@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207923"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018765"
 ---
 # <a name="purchase-order-overview"></a>Présentation des commandes fournisseur
 
@@ -33,7 +33,7 @@ Cet article fournit des informations générales sur les commandes fournisseur (
 
 Une commande fournisseur (CF) est un document qui représente un contrat avec un fournisseur pour acheter des biens ou des services. Ce document permet également de garder une trace des accusés de réception de marchandises qui sont effectuées vis-à-vis de la commande et, plus tard, la comptabilisation des factures fournisseur que le fournisseur facture par rapport à la commande.  
 
-La page **Commandes founisseur** contient une vue d’ensemble des commandes disponibles et vous permet de modifier celles-ci. Lorsque vous ouvrez une CF, vous pouvez sélectionner la vue **En-tête**, qui contient des informations spécifiées une seule fois pour chaque CF, telles que les détails du fournisseur. Vous pouvez également sélectionner la vue **Lignes**, dans laquelle vous pouvez modifier les lignes de commande. En règle générale, vous allez vous déplacer entre ces deux vues lorsque vous modifiez les CF. Les frais ne figurent pas directement sur la page **Commandes fournisseur**, mais ils sont accessibles via les menus de l’en-tête et des lignes de la commande.  
+La page **Commandes founisseur** contient une vue d’ensemble des commandes disponibles et vous permet de modifier celles-ci. Lorsque vous ouvrez une CF, vous pouvez sélectionner la vue **En-tête** , qui contient des informations spécifiées une seule fois pour chaque CF, telles que les détails du fournisseur. Vous pouvez également sélectionner la vue **Lignes** , dans laquelle vous pouvez modifier les lignes de commande. En règle générale, vous allez vous déplacer entre ces deux vues lorsque vous modifiez les CF. Les frais ne figurent pas directement sur la page **Commandes fournisseur** , mais ils sont accessibles via les menus de l’en-tête et des lignes de la commande.  
 
 Il existe de nombreux états, où vous pouvez afficher des informations sur les CF, les accusés de réception de marchandises et les factures fournisseur. Ces états sont trouvent dans les modules **Approvisionnements** et **Comptabilité fournisseur**.  
 
@@ -73,7 +73,7 @@ Le champ **Statut du document** vous permet de passer rapidement en revue la pro
 
 Le champ **Statut d’approbation** est utilisé lorsqu'une CF passe par un processus de révision ou un workflow. Les valeurs disponibles sont les suivantes :
 
--   **Brouillon**, **En cours de révision**, et **Rejetée** : ces statuts sont utilisés uniquement si un workflow d’approbation est utilisé pour la CF.
+-   **Brouillon** , **En cours de révision** , et **Rejetée** : ces statuts sont utilisés uniquement si un workflow d’approbation est utilisé pour la CF.
 -   **Approuvée** : ce statut est affecté aux commandes qui ont terminé le workflow d’approbation. Les commandes créées sans l’aide d’un workflow d’approbation reçoivent le statut **Approuvée** immédiatement.
 -   **Fait l'objet d'une révision externe** : ce statut est utilisé dans les scénarios où une demande de renseignements sur les achats est envoyée au fournisseur, afin que le fournisseur puisse confirmer les conditions de la CF. Ce statut est également utilisé dans le processus qui est initié par l'action **Demande de confirmation**. Pour ce processus, le fournisseur est invité à confirmer les conditions de la CF en se connectant à votre système et en inscrivant s’il confirme ou refuse la commande.
 -   **Confirmée** : ce statut est attribué une fois que la commande a été confirmée. En général, cet état est le dernier état qui est affecté à une commande.

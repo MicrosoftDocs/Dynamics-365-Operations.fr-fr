@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652003"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017665"
 ---
 # <a name="work-policies"></a>Stratégies de travail
 
@@ -48,7 +49,7 @@ Pour configurer des stratégies de travail, accédez à **Gestion d’entrepôt 
 
 ### <a name="the-work-order-types-fasttab"></a>Organisateur Types d’ordres de travail
 
-Sur l’organisateur **Types d’ordres de travail**, ajoutez tous les types d’ordres de travail et les processus de travail associés auxquels la stratégie de travail s’applique. Les types d’ordres de travail suivants et les processus de travail associés sont pris en charge pour les stratégies de travail.
+Sur l’organisateur **Types d’ordres de travail** , ajoutez tous les types d’ordres de travail et les processus de travail associés auxquels la stratégie de travail s’applique. Les types d’ordres de travail suivants et les processus de travail associés sont pris en charge pour les stratégies de travail.
 
 | Type d’ordre d’exécution | Processus de travail |
 |---|---|
@@ -67,7 +68,7 @@ Pour chaque ligne de la grille, définissez le champ **Méthode de création de 
 
 ### <a name="the-inventory-locations-fasttab"></a>Organisateur Emplacements de stock
 
-Sur l’organisateur **Emplacements de stock**, ajoutez tous les emplacements où cette stratégie de travail doit être appliquée. Si aucun emplacement n’est associé à une stratégie de travail, la stratégie de travail ne sera appliquée à aucun processus.
+Sur l’organisateur **Emplacements de stock** , ajoutez tous les emplacements où cette stratégie de travail doit être appliquée. Si aucun emplacement n’est associé à une stratégie de travail, la stratégie de travail ne sera appliquée à aucun processus.
 
 Vous ne pouvez pas spécifier le même emplacement pour plusieurs stratégies de travail.
 
@@ -75,7 +76,7 @@ Vous pouvez utiliser un emplacement d’entrepôt affecté à un profil d’empl
 
 ### <a name="the-products-fasttab"></a>Organisateur Produits
 
-Sur l’onglet **Produits**, définissez le champ **Sélection de produit** pour contrôler les produits auxquels la stratégie doit s’appliquer :
+Sur l’onglet **Produits** , définissez le champ **Sélection de produit** pour contrôler les produits auxquels la stratégie doit s’appliquer :
 
 - **Tout** – La stratégie doit s’appliquer à tous les produits.
 - **Sélectionné** – La stratégie doit s’appliquer uniquement aux produits répertoriés dans la grille. Utilisez la barre d’outils sur l’organisateur **Produits** pour ajouter des produits à la grille ou les supprimer de la grille.
@@ -98,9 +99,9 @@ Pour configurer un élément de menu d’appareil mobile afin de prendre en char
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Sélectionnez ou créez un élément de menu qui utilise l’un des processus de création de travail répertoriés plus haut dans cette section.
-1. Dans l’organisateur **Général**, définissez l’option **Utiliser les données par défaut** sur **Oui**.
+1. Dans l’organisateur **Général** , définissez l’option **Utiliser les données par défaut** sur **Oui**.
 1. Sur le volet Action, sélectionnez **Données par défaut**.
-1. Sur la page **Données par défaut**, définissez les valeurs suivantes :
+1. Sur la page **Données par défaut** , définissez les valeurs suivantes :
 
     - **Champ Données par défaut :** Définissez ce champ sur *Emplacement Vers*.
     - **Entrepôt :** Sélectionnez l’entrepôt de destination à utiliser avec cet élément de menu.
@@ -112,11 +113,11 @@ Pour configurer un élément de menu d’appareil mobile afin de prendre en char
 
 ## <a name="example-scenario-warehouse-receiving"></a>Exemple de scénario : Réception en entrepôt
 
-Tous les produits reçus par le processus *Réception (et rangement) de l’article de commande fournisseur* doivent être enregistrés à l’emplacement *FL-001*, et doivent être disponibles dans l’entrepôt *24*. Cependant, le travail ne doit pas être créé. Les produits reçus par tout autre processus (c’est-à-dire en utilisant d’autres éléments de menu de l’appareil mobile) doivent être enregistrés à l’emplacement de réception par défaut de l’entrepôt (*RECV*), et le travail doit être créé comme d’habitude. (Ce scénario n’affiche pas la configuration de réception par défaut.)
+Tous les produits reçus par le processus *Réception (et rangement) de l’article de commande fournisseur* doivent être enregistrés à l’emplacement *FL-001* , et doivent être disponibles dans l’entrepôt  *24*. Cependant, le travail ne doit pas être créé. Les produits reçus par tout autre processus (c’est-à-dire en utilisant d’autres éléments de menu de l’appareil mobile) doivent être enregistrés à l’emplacement de réception par défaut de l’entrepôt ( *RECV* ), et le travail doit être créé comme d’habitude. (Ce scénario n’affiche pas la configuration de réception par défaut.)
 
 Ce scénario nécessite les éléments suivants :
 
-- Une stratégie de travail pour le processus *Réception (et rangement) de l’article de commande fournisseur* à l’emplacement *FL-001*, pour tous les produits
+- Une stratégie de travail pour le processus *Réception (et rangement) de l’article de commande fournisseur* à l’emplacement *FL-001* , pour tous les produits
 - Un élément de menu d’appareil mobile qui a des données par défaut et qui définit le champ **Emplacement Vers** sur *FL-001*
 
 ### <a name="prerequisites"></a>Conditions préalables
@@ -129,31 +130,31 @@ Ce scénario utilise les données de démonstration standard. Par conséquent, s
 
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Stratégies de travail**.
 1. Sélectionnez **Nouveau**.
-1. Dans le champ **Nom de la stratégie de travail**, entrez *Aucun travail de rangement d’article d’achat*.
+1. Dans le champ **Nom de la stratégie de travail** , entrez *Aucun travail de rangement d’article d’achat*.
 1. Sélectionnez **Enregistrer**.
-1. Sur l’organisateur **Types d’ordres de travail**, sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
+1. Sur l’organisateur **Types d’ordres de travail** , sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
 
     - **Type d’ordre de travail :** *Commandes fournisseur*
     - **Processus de travail :** *Réception (et rangement) de l’article de commande fournisseur*
     - **Méthode de création de travail :** *Jamais*
     - **Nom de la stratégie de cross-docking :** Laissez ce champ vide.
 
-1. Sur l’organisateur **Emplacements de stocks**, sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
+1. Sur l’organisateur **Emplacements de stocks** , sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
 
     - **Entrepôt :** *24*
     - **Emplacement :** *FL-001*
 
-1. Sur l’organisateur **Produits**, définissez le champ **Sélection de produit** sur *Tout*.
+1. Sur l’organisateur **Produits** , définissez le champ **Sélection de produit** sur *Tout*.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Paramétrer une option de menu d’appareil mobile pour modifier l’emplacement de réception
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Dans le volet de gauche, sélectionnez l’élément du menu **Réception d’achat**.
-1. Dans l’organisateur **Général**, définissez l’option **Utiliser les données par défaut** sur *Oui*.
+1. Dans l’organisateur **Général** , définissez l’option **Utiliser les données par défaut** sur *Oui*.
 1. Sélectionnez **Enregistrer**.
 1. Sur le volet Action, sélectionnez **Données par défaut**.
-1. Sur la page **Données par défaut**, sur le volet Action, sélectionnez **Nouvelle** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
+1. Sur la page **Données par défaut** , sur le volet Action, sélectionnez **Nouvelle** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
 
     - **Champ de données par défaut :** *Emplacement Vers*
     - **Entrepôt :** *24*
@@ -170,14 +171,14 @@ L’exemple de cette section montre comment recevoir un élément de commande fo
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande fournisseur**, définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande fournisseur** , définissez les valeurs suivantes :
 
     - **Compte fournisseur :** *US-101*
     - **Site :** *2*
     - **Entrepôt :** *24*
 
 1. Sélectionnez **OK** pour fermer la boîte de dialogue et ouvrir la nouvelle commande fournisseur.
-1. Sur l’organisateur **Lignes de commande fournisseur**, définissez les valeurs suivantes pour la ligne vide :
+1. Sur l’organisateur **Lignes de commande fournisseur** , définissez les valeurs suivantes pour la ligne vide :
 
     - **Numéro d’article :** *A0001*
     - **Quantité :** *1*
@@ -187,20 +188,20 @@ L’exemple de cette section montre comment recevoir un élément de commande fo
 
 #### <a name="receive-a-purchase-order"></a>Recevoir une commande fournisseur
 
-1. Sur l’appareil mobile, connectez-vous à l’entrepôt *24* en utilisant *24* comme ID d’utilisateur et *1* comme mot de passe.
+1. Sur l’appareil mobile, connectez-vous à l’entrepôt  *24* en utilisant  *24* comme ID d’utilisateur et  *1* comme mot de passe.
 1. Sélectionnez **Entrant**.
 1. Sélectionnez **Réception d’achat**. Le champ **Emplacement** doit être défini sur *FL-001*.
 1. Saisissez le numéro de commande fournisseur de la commande fournisseur que vous avez créée dans la procédure précédente.
-1. Dans le champ **Numéro d’article**, saisissez *A0001*.
+1. Dans le champ **Numéro d’article** , saisissez *A0001*.
 1. Cliquez sur **OK**.
-1. Dans le champ **Quantité**, entrez *1*.
+1. Dans le champ **Quantité** , entrez *1*.
 1. Cliquez sur **OK**.
 
-La commande fournisseur est maintenant reçue, mais aucun travail ne lui est associé. Le stock disponible a été mis à jour et une quantité de *1* article *A0001* est maintenant disponible à l’emplacement *FL-001*.
+La commande fournisseur est maintenant reçue, mais aucun travail ne lui est associé. Le stock disponible a été mis à jour et une quantité de *1*  article *A0001* est maintenant disponible à l’emplacement *FL-001*.
 
 ## <a name="example-scenario-manufacturing"></a>Exemple de scénario : Fabrication
 
-Dans l’exemple suivant, il existe deux ordres de fabrication, *PRD-001* et *PRD-002*. L’ordre de fabrication *PRD-001* a une opération qui est appelée *Assemblage*, où le produit *SC1* est déclaré terminé à l’emplacement *001*. L’ordre de fabrication *PRD-002* a une opération qui est appelée *Peinture* et consomme le produit *SC1* de l’emplacement *001*. L’ordre de fabrication *PRD-002* consomme également la matière première *RM1* de l’emplacement *001*. Les matières premières *RM1* sont stockées à l’emplacement d’entrepôt *BULK-001* et seront prélevées à l’emplacement *001* par le travail d’entrepôt pour le prélèvement de matières premières. Le travail de prélèvement est généré lorsque la production de *PRD-002* est lancée.
+Dans l’exemple suivant, il existe deux ordres de fabrication, *PRD-001* et *PRD-002*. L’ordre de fabrication *PRD-001* a une opération qui est appelée *Assemblage* , où le produit *SC1* est déclaré terminé à l’emplacement *001*. L’ordre de fabrication *PRD-002* a une opération qui est appelée *Peinture* et consomme le produit *SC1* de l’emplacement *001*. L’ordre de fabrication *PRD-002* consomme également la matière première *RM1* de l’emplacement *001*. Les matières premières *RM1* sont stockées à l’emplacement d’entrepôt *BULK-001* et seront prélevées à l’emplacement *001* par le travail d’entrepôt pour le prélèvement de matières premières. Le travail de prélèvement est généré lorsque la production de *PRD-002* est lancée.
 
 [![Stratégies de travail d’entrepôt](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
@@ -230,9 +231,9 @@ Les processus d’entrepôt n’incluent pas systématiquement les tâches d’e
 
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Stratégies de travail**.
 1. Sélectionnez **Nouveau**.
-1. Dans le champ **Nom de la stratégie de travail**, entrez *Aucun travail de rangement*.
+1. Dans le champ **Nom de la stratégie de travail** , entrez *Aucun travail de rangement*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Sur l’organisateur **Types d’ordres de travail**, sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
+1. Sur l’organisateur **Types d’ordres de travail** , sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
 
     - **Type d’ordre de travail :** *Rangement des produits finis*
     - **Processus de travail :** *Tous les processus de travail associés*
@@ -246,13 +247,13 @@ Les processus d’entrepôt n’incluent pas systématiquement les tâches d’e
     - **Méthode de création de travail :** *Jamais*
     - **Nom de la stratégie de cross-docking :** Laissez ce champ vide.
 
-1. Sur l’organisateur **Emplacements de stocks**, sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
+1. Sur l’organisateur **Emplacements de stocks** , sélectionnez **Ajouter** pour ajouter une ligne à la grille, puis définissez les valeurs suivantes pour la nouvelle ligne :
 
     - **Entrepôt :** *51*
     - **Rangement :** *001*
 
-1. Sur l’organisateur **Produits**, définissez le champ **Sélection de produit** sur *Sélectionné*.
-1. Sous l’organisateur **Produits**, sélectionnez **Ajouter** pour ajouter une ligne dans la grille.
+1. Sur l’organisateur **Produits** , définissez le champ **Sélection de produit** sur *Sélectionné*.
+1. Sous l’organisateur **Produits** , sélectionnez **Ajouter** pour ajouter une ligne dans la grille.
 1. Dans la nouvelle ligne, définissez le champ **Numéro d’article** sur *L0101*.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
@@ -260,7 +261,7 @@ Les processus d’entrepôt n’incluent pas systématiquement les tâches d’e
 
 1. Allez dans **Administration d’organisation \> Ressources \> Groupes de ressources**.
 1. Dans le volet gauche, sélectionnez le groupe de ressources **5102**.
-1. Dans l’organisateur **Général**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Général** , définissez les valeurs suivantes :
 
     - **Entrepôt de sortie :** *51*
     - **Emplacement de sortie :** *001*
@@ -274,22 +275,22 @@ Les processus d’entrepôt n’incluent pas systématiquement les tâches d’e
 
 1. Allez dans **Contrôle de la production \> Ordres de fabrication \> Tous les ordres de fabrication**.
 1. Dans le volet Actions, sélectionnez **Nouvel ordre de fabrication**.
-1. Dans la boîte de dialogue **Créer un ordre de fabrication**, définissez le champ **Numéro d’article** sur *L0101*.
+1. Dans la boîte de dialogue **Créer un ordre de fabrication** , définissez le champ **Numéro d’article** sur *L0101*.
 1. Sélectionnez **Créer** pour créer l’ordre et fermez la boîte de dialogue.
 
     Un nouvel ordre de fabrication est ajouté à la grille sur la page **Tous les ordres de fabrication**.
 
     Gardez le nouvel ordre de fabrication sélectionné.
 
-1. Dans le volet Actions, sous l’onglet **Ordre de fabrication**, dans le groupe **Processus**, sélectionnez **Estimer**.
-1. Dans la boîte de dialogue **Estimer**, lisez l’estimation, puis sélectionnez **OK** pour fermer la boîte de dialogue.
-1. Dans le volet Actions, sous l’onglet **Ordre de fabrication**, dans le groupe **Processus**, sélectionnez **Démarrer**.
-1. Dans la boîte de dialogue **Démarrer**, sur l’onglet **Général**, définissez le champ **Consommation de nomenclature automatique** sur *Jamais*.
+1. Dans le volet Actions, sous l’onglet **Ordre de fabrication** , dans le groupe **Processus** , sélectionnez **Estimer**.
+1. Dans la boîte de dialogue **Estimer** , lisez l’estimation, puis sélectionnez **OK** pour fermer la boîte de dialogue.
+1. Dans le volet Actions, sous l’onglet **Ordre de fabrication** , dans le groupe **Processus** , sélectionnez **Démarrer**.
+1. Dans la boîte de dialogue **Démarrer** , sur l’onglet **Général** , définissez le champ **Consommation de nomenclature automatique** sur *Jamais*.
 1. Sélectionnez **OK** pour enregistrer votre paramètre et fermer la boîte de dialogue.
-1. Dans le volet Actions, sous l’onglet **Ordre de fabrication**, dans le groupe **Processus**, sélectionnez **Signaler comme terminé**.
-1. Dans la boîte de dialogue **Signaler comme terminé**, sur l’onglet **Général**, définissez l’option **Accepter l’erreur** sur *Oui*.
+1. Dans le volet Actions, sous l’onglet **Ordre de fabrication** , dans le groupe **Processus** , sélectionnez **Signaler comme terminé**.
+1. Dans la boîte de dialogue **Signaler comme terminé** , sur l’onglet **Général** , définissez l’option **Accepter l’erreur** sur *Oui*.
 1. Sélectionnez **OK** pour enregistrer votre paramètre et fermer la boîte de dialogue.
-1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Général**, cliquez sur **Détails du travail**.
+1. Dans le volet Actions, sous l’onglet **Entrepôt** , dans le groupe **Général** , cliquez sur **Détails du travail**.
 
 Lorsque l’ordre de fabrication est signalé comme terminé, aucun travail de rangement n’est généré. Ce comportement se produit, car une stratégie de travail est définie et empêche la tâche d’être générée lorsque le produit *L0101* est signalé comme terminé à l’emplacement *001*.
 
