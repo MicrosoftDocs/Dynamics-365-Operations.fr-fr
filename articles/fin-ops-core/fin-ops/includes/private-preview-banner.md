@@ -1,0 +1,10 @@
+---
+ms.openlocfilehash: 0152024f9452944590893ca8e5789cb10bc71c98
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459002"
+---
+> [!IMPORTANT]
+> <span data-ttu-id="77ba7-101">La fonctionnalité décrite dans cette rubrique est accessible à des utilisateurs ciblés dans le cadre d'une préversion privée.</span><span class="sxs-lookup"><span data-stu-id="77ba7-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="77ba7-102">Le contenu et la fonctionnalité peuvent faire l'objet de modifications.</span><span class="sxs-lookup"><span data-stu-id="77ba7-102">The content and the functionality are subject to change.</span></span> 
