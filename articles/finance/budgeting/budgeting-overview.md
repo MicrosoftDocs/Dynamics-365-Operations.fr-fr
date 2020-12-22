@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975266"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528543"
 ---
 # <a name="budgeting-home-page"></a>Page d’accueil de la fonctionnalité de budgétisation
 
@@ -64,7 +64,7 @@ Pour plus d’informations sur l’entrée de données de planification d’autr
 ## <a name="user-interface-and-reporting-capabilities"></a>Interface utilisateur et fonctionnalités de génération d’états
 Les utilisateurs peuvent créer des plans budgétaires directement dans le client (à l’aide d’une page configurable de document de plan budgétaire) ou à l’aide d’Excel. Excel fournit plusieurs capacités supplémentaires. Par exemple, vous pouvez utiliser des données externes comme source pour un plan budgétaire, effectuer des calculs personnalisés, et utiliser Microsoft PivotTable et des graphiques. La plupart des variables du processus de planification budgétaire peuvent être configurées. 
 
-Par exemple, vous pouvez définir qui effectue la budgétisation, qu’est-ce qui est budgété, et à quoi ressemble le processus. Bien que vous puissiez utiliser Excel pour la planification de budget, l’application demeure la source unique de la vérité et empêche les problèmes de contrôle budgétaire. Des processus périodiques peuvent être utilisés pour remplir le plan budgétaire avec les données initiales de budgétisation. Pour générer un état, l’application offre un ensemble de pages standard de recherche qui permettent d’afficher et d’analyser les données de budgétisation. Les données du plan budgétaire peuvent être consultées par Management Reporter, et il est possible d’afficher les scénarios de plan budgétaire distincts en colonnes dans l’état de Management Reporter.
+Par exemple, vous pouvez définir qui effectue la budgétisation, qu’est-ce qui est budgété, et à quoi ressemble le processus. Bien que vous puissiez utiliser Excel pour la planification de budget, l’application demeure la source unique de la vérité et empêche les problèmes de contrôle budgétaire. Des processus périodiques peuvent être utilisés pour remplir le plan budgétaire avec les données initiales de budgétisation. Pour générer un état, l’application offre un ensemble de pages de recherche standard qui permettent d’afficher et d’analyser les données de budgétisation. Les données du plan budgétaire peuvent être consultées dans [Financial Reporting](../general-ledger/financial-reporting-getting-started.md), et il est possible d’afficher les scénarios de plan budgétaire distincts en colonnes dans le rapport financier.
 
 
 

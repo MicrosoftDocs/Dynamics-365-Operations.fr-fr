@@ -12,13 +12,15 @@
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
             - name: Mises à jour du service One Version
               items:
-                - name: Vue d’ensemble des mises à jour du service One Version
+                - name: Vue d’ensemble des mises à jour de service à une version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: FAQ sur les mises à jour du service One Version
+                - name: FAQ sur les mises à jour de service à une version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
-                - name: "Stratégie du cycle de vie de logiciel\_: Cloud"
+                - name: 'Gérer les mises à jour et le cycle de vie du code personnalisé, y compris Dynamics 365 Commerce'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/finance/toc.json
+                - name: "Stratégie du cycle de vie de logiciel\_–\_Cloud"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
-                - name: "Stratégie du cycle de vie de logiciel\_: Sur site"
+                - name: "Stratégie du cycle de vie de logiciel\_–\_Localement"
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/finance/toc.json
                 - name: Disponibilité des mises à jour de service
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
@@ -70,24 +72,20 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance\_10.0.16 (février\_2021)"
+                      href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15 (janvier 2021)
                       href: get-started/whats-new-changed-10-0-15.md
                     - name: "Finance\_10.0.14 (novembre\_2020)"
                       href: get-started/whats-new-changed-10-0-14.md
-                    - name: "Finance\_10.0.13 (octobre\_2020)"
-                      href: get-started/whats-new-changed-10-0-13.md
-                    - name: "Finance\_10.0.12 (août\_2020)"
-                      href: get-started/whats-new-changed-10-0-12.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
-            - name: "Fonctions d’AX\_2012 ayant été reportées"
+            - name: "Fonctionnalités d’AX\_2012 ayant été reportées"
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Fonctions non implémentées dans les déploiements locaux
-              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
             - name: "Fin du support standard pour Microsoft Dynamics AX\_2009 et 2012"
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Ressources documentaires
@@ -724,6 +722,8 @@
               href: fixed-assets/fixed-asset-value-model-depreciation-book-merge.md
             - name: Validation avec les registres dérivés
               href: fixed-assets/post-derived-value-models.md
+            - name: Nombre de registres par journal
+              href: fixed-assets/number-books-per-journal.md
             - name: Validation de transactions d’immobilisation dans des couches de validation
               href: fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: Options de transactions d’immobilisations
@@ -732,6 +732,8 @@
               href: fixed-assets/tasks/transfer-fixed-asset.md
             - name: Fractionner une immobilisation
               href: fixed-assets/tasks/split-fixed-asset.md
+            - name: Réduire l’amortissement après un fractionnement
+              href: fixed-assets/reduce-balance-depreciation-after-split.md
             - name: Paramétrer les groupes d’immobilisations
               href: fixed-assets/tasks/set-up-fixed-asset-groups.md
             - name: Modifier un groupe d’immobilisations
@@ -812,8 +814,72 @@
                   href: fixed-assets/straight-line-service-life-depreciation.md
         - name: Leasing d’actifs
           items:
+            - name: Page d’accueil du leasing d’actifs
+              href: asset-leasing/asset-leasing-homepage.md
             - name: Démarrer avec le leasing d’actifs
               href: asset-leasing/asset-leasing-quick-start.md
+            - name: Configuration du leasing d’actifs
+              items:
+                - name: Configurer les paramètres du leasing d’actifs
+                  href: asset-leasing/config-lease-parameters.md
+                - name: Configurer les registres des baux
+                  href: asset-leasing/set-up-lease-books.md
+                - name: Créer un groupe de baux
+                  href: asset-leasing/create-lease-group.md
+                - name: Configurer les taux d’indexation
+                  href: asset-leasing/set-up-index-rate-types.md
+                - name: Configurer les types de dépenses
+                  href: asset-leasing/set-up-expense-types.md
+                - name: Configurer les noms des registres des baux
+                  href: asset-leasing/set-up-lease-journal-names.md
+                - name: Configurer des comptes de validation de baux
+                  href: asset-leasing/set-up-lease-posting-accts.md
+                - name: Affecter des souches de numéros
+                  href: asset-leasing/leasing-number-sequences.md
+                - name: Affecter des rôles utilisateur
+                  href: asset-leasing/lease-user-roles.md
+            - name: Gérer les baux d’actifs
+              items:
+                - name: Ajouter ou copier un bail
+                  href: asset-leasing/add-lease.md
+                - name: Permet de créer une facture de paiement
+                  href: asset-leasing/create-payment-invoice.md
+                - name: Enregistrer l’amortissement des droits d’utilisation de l’actif
+                  href: asset-leasing/record-rou-asset-depreciation.md
+                - name: Annuler les transactions de bail validées
+                  href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Ajuster un bail
+                  href: asset-leasing/adjust-lease.md
+                - name: Déprécier un droit d’utilisation de l’actif
+                  href: asset-leasing/impair-rou-asset.md
+                - name: Associer un bail à une immobilisation
+                  href: asset-leasing/associate-lease-with-fixed-asset.md
+                - name: Enregistrer les baux dans des devises étrangères
+                  href: asset-leasing/record-leases-foreign-currency.md
+                - name: Réévaluer les paiements de location liés à un taux d’indexation
+                  href: asset-leasing/revalue-payments-tied-2-index-rate.md
+                - name: Reclasser la partie à court terme du passif locatif
+                  href: asset-leasing/reclassify-st-lease-liability.md
+                - name: 'Afficher les transactions de passif, d’actifs et de dépenses'
+                  href: asset-leasing/view-asset-transactions.md
+                - name: Fonctionnalité d’intervalle de composition
+                  href: asset-leasing/compound-interval-functionality.md
+                - name: Confirmer les échéanciers de paiement par lots
+                  href: asset-leasing/confirm-payment-schedules-in-batch.md
+                - name: Créer des entrées de journal mensuelles par lots
+                  href: asset-leasing/create-monthly-journals-batch.md
+                - name: Types de validations de baux
+                  href: asset-leasing/lease-posting-types.md
+                - name: Double déclaration
+                  href: asset-leasing/dual-reporting.md
+                - name: Configurer un workflow de bail
+                  href: asset-leasing/set-up-lease-wrkflw.md
+                - name: Utiliser les workflows d’approbation de bail
+                  href: asset-leasing/use-create-lease-wrkflw.md
+                - name: Gérez les baux via l’environnement d’importation de baux
+                  href: asset-leasing/manage-leases-thru-imprt-framewrk.md
+            - name: Rapports de leasing d’actifs
+              href: asset-leasing/asset-leasing-rprts.md
         - name: Comptabilité
           items:
             - name: Vue d’ensemble de la comptabilité
@@ -908,6 +974,8 @@
                   href: general-ledger/tasks/create-assign-advanced-rule-structures.md
                 - name: Types de journaux comptables
                   href: general-ledger/ledger-journal-types.md
+                - name: Configurer les registres
+                  href: general-ledger/configure-ledger.md
                 - name: Créer et valider des journaux
                   href: general-ledger/tasks/create-validate-journals.md
                 - name: Afficher les entrées de journal ou les transactions
@@ -1000,8 +1068,46 @@
                   href: general-ledger/audit-policy-rules.md
                 - name: Violations et incidents de stratégie d’audit
                   href: general-ledger/audit-policy-violations-cases.md
-                - name: Définir des stratégies d’audit pour les documents sources
+                - name: Définir des stratégies d’audit pour les documents source
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Informations financières
+          items:
+            - name: Page d’accueil Informations financières
+              href: finance-insights/finance-insights-home-page.md
+            - name: Configuration et administration
+              items:
+                - name: Configurer les informations financières
+                  href: finance-insights/configure-for-fin-insites.md
+                - name: Activer les prédictions de paiement des clients
+                  href: finance-insights/enable-cust-paymnt-prediction.md
+                - name: Activer la prévision des flux de trésorerie
+                  href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Activer les propositions de budget
+                  href: finance-insights/enable-budget-proposal.md
+                - name: Créer un projet d’intégrateur de données
+                  href: finance-insights/create-data-integrate-project.md
+            - name: Utiliser les informations financières
+              items:
+                - name: Propositions de budget
+                  href: finance-insights/budget-proposals.md
+                - name: Emplacement des disponibilités
+                  href: finance-insights/cash-position.md
+                - name: Prévisions de flux de trésorerie
+                  href: finance-insights/cash-flow-forecast-intro.md
+                - name: Utiliser des données externes dans les prévisions de flux de trésorerie
+                  href: finance-insights/external-data-in-cash-flow.md
+                - name: Prédictions de paiement des clients
+                  href: finance-insights/payment-insights-overview.md
+                - name: Utiliser les prédictions de paiement des clients
+                  href: finance-insights/use-customer-payment-predictions.md
+                - name: Présentation des instantanés
+                  href: finance-insights/payment-snapshots.md
+                - name: Résultats des modèles Machine Learning
+                  href: finance-insights/confusion-matrix.md
+                - name: Évaluer le modèle de prédiction de paiement client initial
+                  href: finance-insights/evaluate-payment-prediction.md
+                - name: Améliorer le modèle de prévision
+                  href: finance-insights/improve-model.md
         - name: Gestion et comptabilité du projet
           items:
             - name: Vue d’ensemble de la gestion et de la comptabilité du projet
@@ -1408,13 +1514,15 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Configurer les paramètres NF-e pour un établissement fiscal
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2019.001 - Avantages fiscaux et règles d’exonérations pour NF-e/NFC-e
+                      href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
                 - name: Relevé fiscal SPED-Reinf
                   href: localizations/latam-bra-sped-reinf.md
                 - name: Résolution fiscale SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: "Fiscal SPED\_2020 - Informations complémentaires de l’ICMS-ST pour la mise en page fiscale SPED\_014"
+                - name: "SPED\_fiscal 2020 - Informations complémentaires de l’ICMS-ST pour la mise en page fiscale SPED\_014"
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: "SPED fiscal - Disposition\_014"
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
@@ -1510,7 +1618,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
                 - name: Comparaison de nomenclature
                   href: localizations/apac-chn-bom-comparison.md
-                - name: Hiérarchie du plan de comptes pour la Chine
+                - name: Hiérarchie du plan comptable pour la Chine
                   href: localizations/tasks/china-hierarchy-chart-accounts.md
                 - name: Contrôle de la continuité des N° document pour la Chine
                   href: localizations/tasks/chinese-voucher-continuity-check.md
@@ -1686,11 +1794,11 @@
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Délais d’émission de facture
                   href: localizations/emea-invoice-issue-deadline.md
-                - name: Traitement des factures
+                - name: Traitement de la facture
                   href: localizations/emea-invoice-processing.md
                 - name: Émettre un certificat d’entrée de l’UE
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
-                - name: Normes OIOUBL
+                - name: Normes prises en charge pour la facturation électronique
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
                 - name: Référence initiale de facture (Europe de l’Est)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
@@ -1836,9 +1944,11 @@
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Déclaration de TVA pour l’Allemagne
                   href: localizations/emea-de-vat-declaration.md
-                - name: Liste des journaux (état)
+                - name: Rapport Factures électroniques client
+                  href: localizations/emea-deu-e-invoices.md
+                - name: État Liste de journaux
                   href: localizations/emea-deu-journal-list-report.md
-                - name: Paramétrer les déclarations de taxe électronique
+                - name: Configurer les déclarations de taxe électronique
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
             - name: Hongrie
               items:
@@ -1938,9 +2048,11 @@
                           href: localizations/apac-ind-news-letter-10-0-12.md
                         - name: Nouveautés ou modifications dans 10.0.13
                           href: localizations/ind-news-letter-10-0-13.md
+                        - name: Nouveautés ou modifications dans 10.0.14
+                          href: localizations/apac-ind-news-letter-10-0-14.md
                     - name: Groupes de référence GST pour l’Inde
                       href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Intégration GST des caisses enregistreuses
+                    - name: Intégration GST pour les caisses enregistreuses
                       href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
                     - name: Configuration des données principales
                       items:
@@ -2164,6 +2276,8 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Factures électroniques client
                   href: localizations/emea-ita-e-invoices.md
+                - name: Communication annuelle de la taxe
+                  href: localizations/emea-ita-yearly-tax-communication.md
             - name: Japon
               items:
                 - name: Vue d’ensemble du Japon
@@ -2450,6 +2564,8 @@
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Fichier d’audit standard pour la taxe (SAF-T) pour la Norvège
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
+                - name: Factures électroniques client en Norvège
+                  href: localizations/emea-nor-e-invoices.md
             - name: Pologne
               items:
                 - name: Vue d’ensemble de la Pologne
@@ -2480,8 +2596,10 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Relevé du chiffre d’affaires et des soldes
                   href: localizations/emea-pol-turnover-balances-statement.md
-                - name: Différence d’échange Comptabilité fournisseur/Comptabilité client divisée
+                - name: Différence de change Comptabilité fournisseur/Comptabilité client divisée
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: 'Déclaration de TVA avec registres (JPK_V7M, VDEK)'
+                  href: localizations/emea-pol-vdek.md
             - name: Qatar
               items:
                 - name: Vue d’ensemble du Qatar
@@ -2716,6 +2834,8 @@
                   href: localizations/apac-sau-sales-tax.md
                 - name: Génération d’états Zakat pour l’Arabie Saoudite
                   href: localizations/emea-sau-zakat-reporting.md
+                - name: Allouer des frais de documents bancaires à une expédition
+                  href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
             - name: Singapour
               items:
                 - name: Vue d’ensemble de Singapour
@@ -2994,6 +3114,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Accès aux informations et génération d’états
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Options de personnalisation avec Power BI.com
+              items:
+                - name: Fonctionnalités disponibles via l’intégration de Power BI.com
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
+                - name: Épingler du contenu Power BI.com
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Sélectionner des espaces de travail analytiques depuis Power BI.com
             - name: Options de personnalisation avec Power BI
               items:
                 - name: Fonctionnalités disponibles via l’intégration de Power BI
@@ -3112,7 +3239,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Ajout de dimensions financières aux mesures globales
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Créer des états d’analyse à l’aide de PowerBI Desktop
+                - name: Créer des états analytiques à l’aide de Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3528,15 +3655,17 @@
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
             - name: Guides de démarrage rapide
               items:
-                - name: Ajuster un format ER pour générer un document électronique personnalisé
+                - name: Ajuster un format d’état électronique pour générer un document électronique personnalisé
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
                 - name: Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un état personnalisé
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
+                - name: Ajuster une solution d’état électronique pour générer un document électronique personnalisé
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/finance/toc.json
             - name: Didacticiels
               items:
                 - name: Apprendre à utiliser les sources de données
                   items:
-                    - name: Utiliser JOINTURE pour obtenir des données de plusieurs tables
+                    - name: Utiliser JOINDRE pour obtenir des données de plusieurs tables
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Utiliser XML brut pour ajouter du contenu
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
@@ -3608,6 +3737,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Compresser des documents sortants volumineux
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
+                - name: Inspecter les composants des états électroniques configurés
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
                 - name: Chemin relatif dans les liaisons de données
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Utiliser les solutions de gestion des états électroniques dans Finance and Operations
@@ -3662,24 +3793,36 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
                 - name: Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                - name: Gestion des documents commerciaux
+                - name: Gestion des documents commerciaux (BDM)
                   items:
-                    - name: Vue d’ensemble de la gestion de document commercial
+                    - name: Vue d’ensemble d’un processus BDM
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Nouvelle interface utilisateur de document dans la gestion des documents commerciaux
-                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
-                    - name: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
-                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Nouvelle interface utilisateur de document dans la gestion des documents commerciaux (BDM)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
+                    - name: Modifier les modèles de documents commerciaux dans la gestion des documents commerciaux (BDM)
+                      items:
+                        - name: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                        - name: Mettre à jour la structure d’un modèle de document commercial
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/finance/toc.json
             - name: API de la structure de gestion des états électroniques
               items:
                 - name: Étendre la liste des fonctions intégrées
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
-                - name: "Modifications de l’API pour la mise à jour d’application\_10.0.11"
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
-                - name: "Modifications de l’API pour la mise à jour d’application\_7.3"
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                - name: Modifications de l’API
+                  items:
+                    - name: "Mise à jour d’application\_7.3"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                    - name: "Mise à jour d’application\_10.0.11"
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                 - name: Spécifier un emplacement de stockage personnalisé pour les documents générés
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: S’abonner à un événement pour demander une réponse du gestionnaire d’abonnement
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
+                    - name: Déléguer la création de la destination d’un état électronique à une fabrique de destination personnalisée
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                - name: Initier les valeurs de source de données du type USER INPUT PARAMETER à partir du code source
+                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Application mobile
           items:
             - name: Page d’accueil Application mobile

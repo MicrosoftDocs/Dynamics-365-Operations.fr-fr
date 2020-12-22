@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979302"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685051"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
 ## <a name="local-and-regional-deployments"></a>Déploiements locaux et régionaux
-Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes susceptibles de vous concerner :
+Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes qui peuvent vous concerner :
 
 [Applications Finance and Operations exploitées par 21Vianet en Chine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 

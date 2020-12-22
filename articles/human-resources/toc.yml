@@ -5,7 +5,9 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
-        - name: "22\_octobre\_2002"
+        - name: "2\_décembre\_2020"
+          href: hr-whats-new-2020-12-02.md
+        - name: "22\_octobre\_2020"
           href: hr-whats-new-2020-10-22.md
         - name: "6\_octobre\_2020"
           href: hr-whats-new-2020-10-06.md
@@ -477,6 +479,8 @@
               href: hr-personnel-define-jobs.md
             - name: Créer un calendrier du temps de travail
               href: hr-personnel-create-working-time-calendar.md
+            - name: Recruter des candidats à un poste
+              href: hr-personnel-recruit.md
             - name: FAQ sur les actions du personnel
               href: hr-personnel-actions-faq.md
             - name: Utiliser des flux de travail pour gérer les informations relatives aux employés
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: Configurer la gestion des avantages
                   items:
-                    - name: Définir les paramètres de gestion des avantages
+                    - name: Configurer les paramètres de gestion des avantages par entreprise
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Définir les paramètres de gestion des avantages et de libre-service des employés pour toutes les entreprises
                       href: hr-benefits-setup-parameters.md
                     - name: Configurer les règles et les options d’éligibilité
                       href: hr-benefits-setup-eligibility-rules.md

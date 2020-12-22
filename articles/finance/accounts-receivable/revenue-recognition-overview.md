@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c5a3a90b0065f8cd076117818df810cf10202d29
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 92af567499c1a8a23cd4d51e5bab48eaab2d8422
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030966"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4459036"
 ---
 # <a name="revenue-recognition-overview"></a>Vue d'ensemble de la constatation du produit
 
@@ -51,6 +51,6 @@ Le prix du produit est calculé lors de la confirmation de la commande client ou
 
 Lorsque la commande client est confirmée, un échéancier de produit prévu est également créé si une ligne de commande comporte un échéancier de produit. Lorsque la commande client est facturée, l'échéancier de produit prévu est supprimé et remplacé par l'échéancier de constatation du produit réel.
 
-Les détails de l'échéancier de constatation du produit sont conservés pour chaque ligne de commande client. Par conséquent, le responsable de constatation du produit peut afficher les détails et peut libérer des lignes du produit une fois l'obligation contractuelle accomplie. À la fin de chaque période, le responsable de constatation du produit peut créer un journal de produit pour libérer toutes les lignes de l'échéancier qui arrivent à échéance à cette date ou avant une date qu'il a définie. Ce journal de produit n'est pas validé immédiatement. Par conséquent, le responsable de constatation du produit peut vérifier que des montants corrects sont bien émis entre le produit différé et le produit réel.
+Les détails de l'échéancier de constatation du produit sont conservés pour chaque ligne de commande client. Par conséquent, le responsable de constatation du produit peut afficher les détails et peut libérer des lignes du produit une fois l'obligation contractuelle accomplie. À la fin de chaque période, le responsable de constatation du produit peut créer un journal de produit pour débloquer toutes les lignes de l’échéancier qui arrivent à échéance à cette date ou avant une date qu’il a définie. Ce journal de produit n’est pas validé immédiatement. Par conséquent, le responsable de constatation du produit peut vérifier que des montants corrects sont bien émis entre le produit différé et le produit réel.
 
 Si une modification contractuelle entraîne l'ajout d'une nouvelle ligne de commande client à la commande client existante ou à une nouvelle commande client, un processus de redistribution peut être exécuté pour corriger le prix du produit dans toutes les lignes des commandes client.

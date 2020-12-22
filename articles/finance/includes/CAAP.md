@@ -1,2 +1,10 @@
+---
+ms.openlocfilehash: a28c93d8603db82f620fe476dec18bbf535e108e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459019"
+---
 > [!IMPORTANT]
 > Certaines améliorations notées dans cette rubrique sont accessibles à des utilisateurs ciblés qui ont choisi le programme Continuous Auto-Update Advantage Program (CAAP) pour les mises à jour de la plateforme. Pour plus d'informations sur les versions standard et ciblées, voir [Versions de plateforme standard et ciblées](../../fin-and-ops/get-started/public-preview-releases.md).
