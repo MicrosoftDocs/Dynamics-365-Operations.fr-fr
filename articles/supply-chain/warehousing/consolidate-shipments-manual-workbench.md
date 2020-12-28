@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016814"
+ms.locfileid: "4428230"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolider les expéditions à l'aide de l'atelier de consolidation des expéditions
 
@@ -39,7 +39,7 @@ Le scénario décrit ici suppose que vous avez déjà activé la fonctionnalité
 
 ## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Activer la fonctionnalité de consolidation manuelle des expéditions
 
-Avant de pouvoir utiliser la fonctionnalité *Consolidation manuelle des expéditions* , vous devez l'activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Consolidation manuelle des expéditions*, vous devez l'activer dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Consolidation manuelle des expéditions*
@@ -66,7 +66,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 #### <a name="sales-order-1-3"></a>Commande client 1-3
 
@@ -80,14 +80,14 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 1. Ajoutez une deuxième ligne de commande avec les paramètres suivants :
 
     - **Numéro d'article :** *A0002* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
     - **Mode de livraison :** *Airwa-Air*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la deuxième ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la deuxième ligne de commande.
 
 ### <a name="create-order-set-2"></a>Créer le jeu de commandes 2
 
@@ -100,17 +100,17 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable* )
+    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable*)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 1. Ajoutez une deuxième ligne de commande avec les paramètres suivants :
 
-    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif* )
+    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif*)
     - **Quantité :** *1.00*
     - **Mode de livraison :** *Airwa-Air*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la deuxième ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la deuxième ligne de commande.
 
 ### <a name="create-order-set-3"></a>Créer le jeu de commandes 3
 
@@ -126,7 +126,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 #### <a name="sales-orders-3-3-and-3-4"></a>Commandes client 3-3 et 3-4
 
@@ -140,7 +140,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 ### <a name="create-order-set-4"></a>Créer le jeu de commandes 4
 
@@ -155,7 +155,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 #### <a name="sales-orders-4-3-and-4-4"></a>Commandes client 4-3 et 4-4
 
@@ -168,7 +168,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 #### <a name="sales-orders-4-5-and-4-6"></a>Commandes client 4-5 et 4-6
 
@@ -184,7 +184,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 #### <a name="sales-orders-4-7-and-4-8"></a>Commandes client 4-7 et 4-8
 
@@ -200,7 +200,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 ## <a name="release-the-orders-to-the-warehouse"></a>Lancer les commandes dans l'entrepôt
 
@@ -208,14 +208,14 @@ Suivez ces étapes pour valider chaque commande client que vous avez créée pou
 
 1. Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client**.
 1. Recherchez et sélectionnez la commande client à lancer.
-1. Dans le volet Actions, sous l'onglet **Entrepôt** , sélectionnez **Actions \> Lancer dans l'entrepôt** pour lancer la commande client sélectionnée.
+1. Dans le volet Actions, sous l'onglet **Entrepôt**, sélectionnez **Actions \> Lancer dans l'entrepôt** pour lancer la commande client sélectionnée.
 1. Répétez cette procédure pour chaque autre commande client que vous avez créée pour ce scénario.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolider les expéditions à l'aide de l'atelier de consolidation des expéditions
 
 1. Allez dans **Gestion des entrepôts \> Lancement dans l'entrepôt \> Atelier de consolidation des expéditions**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
-1. Dans la boîte de dialogue de l'éditeur de requête, sur l'onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne ayant les paramètres suivants sur la grille :
+1. Dans la boîte de dialogue de l'éditeur de requête, sur l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne ayant les paramètres suivants sur la grille :
 
     - **Table :** *Commandes client*
     - **Champ :** *Commande client*
@@ -238,7 +238,7 @@ La procédure suivante vous permet de vérifier les expéditions qui ont été c
 Deux expéditions sont normalement créées :
 
 - La première expédition contient trois lignes et a été créée à l'aide de la stratégie de consolidation des expéditions *CustomerMode*.
-- Le deuxième envoi, qui n'utilise pas le moyen de transport *Avion* , a été créé en utilisant la stratégie de consolidation des expéditions *CustomerOrderNo*.
+- Le deuxième envoi, qui n'utilise pas le moyen de transport *Avion*, a été créé en utilisant la stratégie de consolidation des expéditions *CustomerOrderNo*.
 
 ### <a name="related-shipments-for-order-set-2"></a>Expéditions connexes pour le jeu de commandes 2
 

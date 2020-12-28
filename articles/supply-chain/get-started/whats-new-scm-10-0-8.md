@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012319"
+ms.locfileid: "4428194"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.8 (février 2020)
 
@@ -36,7 +36,7 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. Certaines de ces fonctionnalités peuvent également avoir été incluses dans une version incrémentielle précédente, mais n’ont pas été annoncées dans la rubrique précédente *Nouveautés* , aussi nous les ajoutons ici. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
+Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. Certaines de ces fonctionnalités peuvent également avoir été incluses dans une version incrémentielle précédente, mais n’ont pas été annoncées dans la rubrique précédente *Nouveautés*, aussi nous les ajoutons ici. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 - [Zone d’emplacement supplémentaire](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 

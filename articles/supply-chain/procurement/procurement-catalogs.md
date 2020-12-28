@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 64c7c2787e2ac996e3016f5b23fc48582f5533ad
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018903"
+ms.locfileid: "4428217"
 ---
 # <a name="procurement-catalogs-overview"></a>Vue d'ensemble des catalogues d'approvisionnement
 
@@ -66,7 +66,7 @@ Les mises à jour sont publiées automatiquement ou manuellement, selon l'option
 
 -   **Dynamique** – Le catalogue est automatiquement mis à jour à chaque modification.
 -   **Statique** – Les catalogues doivent être mis à jour manuellement.
--   **Les deux** – Si le catalogue inclut des catégories de produits dont le type de mise à jour par défaut est **Statique** , il doit être mis à jour manuellement lors de la mise à jour de ces catégories. Si le catalogue inclut des catégories de produits dont le type de mise à jour par défaut est **Dynamique** , il est automatiquement mis à jour à chaque modification.
+-   **Les deux** – Si le catalogue inclut des catégories de produits dont le type de mise à jour par défaut est **Statique**, il doit être mis à jour manuellement lors de la mise à jour de ces catégories. Si le catalogue inclut des catégories de produits dont le type de mise à jour par défaut est **Dynamique**, il est automatiquement mis à jour à chaque modification.
 
 
 <a name="additional-resources"></a>Ressources supplémentaires

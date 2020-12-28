@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018257"
+ms.locfileid: "4428265"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
@@ -56,8 +56,8 @@ Cette section fournit des informations supplémentaires sur la tâche 4 de la s
 1. Entrez le nom et la description du catalogue externe du fournisseur. Le nom que vous entrez s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Les employés peuvent cliquer sur le chariot pour ouvrir le catalogue sur le site du catalogue externe du fournisseur.
 2. Ajoutez une image à l'aide de l'action **Image du catalogue externe**. L'image s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Notez que la largeur et la hauteur de l'image doivent être égales. Sinon, l'image ne s'affichera pas correctement.
 3. Indiquez si le site Web du catalogue externe du fournisseur doit apparaître dans la même fenêtre de navigateur que celle où l'employé a créé la demande, ou s'il doit s'ouvrir dans une nouvelle fenêtre.
-4. Sélectionnez le fournisseur pour le catalogue. Dans la liste **Entités juridiques** , il existe une ligne pour chaque entité juridique dans laquelle le fournisseur est paramétré. Pour autoriser les utilisateurs à demander des produits directement à partir du catalogue du fournisseur dans certains entités juridiques mais pas dans d'autres, vous pouvez utiliser le bouton **Empêcher l'accès** ou **Autoriser l'accès** pour chaque entité juridique dans laquelle vous souhaitez que le catalogue soit disponible ou non.
-5. Dans le champ **Expiration par défaut (jours)** , entrez le nombre de jours pendant lesquels un devis reçu du catalogue externe est valide et peut être utilisé pour effectuer des achats auprès du fournisseur externe. Lorsqu'un devis est créé et extrait du site du catalogue externe du fournisseur, il est valide à partir de la date système actuelle, et reste valide pendant le nombre de jours entrés dans ce champ.
+4. Sélectionnez le fournisseur pour le catalogue. Dans la liste **Entités juridiques**, il existe une ligne pour chaque entité juridique dans laquelle le fournisseur est paramétré. Pour autoriser les utilisateurs à demander des produits directement à partir du catalogue du fournisseur dans certains entités juridiques mais pas dans d'autres, vous pouvez utiliser le bouton **Empêcher l'accès** ou **Autoriser l'accès** pour chaque entité juridique dans laquelle vous souhaitez que le catalogue soit disponible ou non.
+5. Dans le champ **Expiration par défaut (jours)**, entrez le nombre de jours pendant lesquels un devis reçu du catalogue externe est valide et peut être utilisé pour effectuer des achats auprès du fournisseur externe. Lorsqu'un devis est créé et extrait du site du catalogue externe du fournisseur, il est valide à partir de la date système actuelle, et reste valide pendant le nombre de jours entrés dans ce champ.
 6. Cliquez sur le bouton **Ajouter** pour commencer à mettre en correspondance les catégories d'approvisionnement avec le catalogue externe. Puis, dans la liste Nom de la catégorie, sélectionnez une catégorie. La liste des catégories est un superensemble de catégories d'approvisionnement avec lesquelles le fournisseur a été mis en correspondance dans toutes les entités juridiques paramétrées pour le fournisseur.
 
     > [!NOTE]

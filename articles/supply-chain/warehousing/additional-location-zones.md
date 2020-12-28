@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016305"
+ms.locfileid: "4428254"
 ---
 # <a name="additional-location-zones"></a>Zones d'emplacement supplémentaires
 
@@ -35,7 +35,7 @@ Aucune configuration supplémentaire n'est requise pour utiliser les champs de z
 
 ## <a name="turn-on-the-additional-location-zone-feature"></a>Activer la fonctionnalité Zone d'emplacement supplémentaire
 
-Avant de pouvoir utiliser la fonctionnalité *Zone d'emplacement supplémentaire* , celle-ci doit être activée dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Zone d'emplacement supplémentaire*, celle-ci doit être activée dans votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Zone d'emplacement supplémentaire*
@@ -45,16 +45,16 @@ Avant de pouvoir utiliser la fonctionnalité *Zone d'emplacement supplémentaire
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Assistant Paramétrage d'emplacement**.
 2. Définissez les valeurs suivantes :
 
-    - Dans le champ **Entrepôt** , sélectionnez _62_.
-    - Dans le champ **ID zone** , sélectionnez _FLOOR_.
-    - Dans le champ **Zone supplémentaire 1** , sélectionnez _PICKZONE1_.
-    - Dans le champ **Zone supplémentaire 2** , sélectionnez _WEBSHOP1_.
-    - Dans le champ **ID profil d'emplacement** , sélectionnez _FLOOR_.
+    - Dans le champ **Entrepôt**, sélectionnez _62_.
+    - Dans le champ **ID zone**, sélectionnez _FLOOR_.
+    - Dans le champ **Zone supplémentaire 1**, sélectionnez _PICKZONE1_.
+    - Dans le champ **Zone supplémentaire 2**, sélectionnez _WEBSHOP1_.
+    - Dans le champ **ID profil d'emplacement**, sélectionnez _FLOOR_.
 
 3. Sélectionnez la ligne **Sol**.
-4. Dans le champ **Numéro de départ** , entrez _1_. Dans le champ **Numéro d'arrivée** , entrez _3_.
+4. Dans le champ **Numéro de départ**, entrez _1_. Dans le champ **Numéro d'arrivée**, entrez _3_.
 5. Sélectionnez la ligne **Allée**.
-6. Dans le champ **Numéro de départ** , entrez _1_. Dans le champ **Numéro d'arrivée** , entrez _5_.
+6. Dans le champ **Numéro de départ**, entrez _1_. Dans le champ **Numéro d'arrivée**, entrez _5_.
 7. Sélectionnez **Créer**.
 8. Vous recevez des messages indiquant que de nouveaux emplacements ont été ajoutés. Sélectionnez le bouton **Afficher les messages** pour afficher les messages.
 9. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements**. Les nouveaux emplacements s'affichent dans la liste et tous les champs de zone sont disponibles (c'est-à-dire le champ de zone existant et les nouveaux champs de zone supplémentaires).

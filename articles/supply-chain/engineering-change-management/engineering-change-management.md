@@ -1,0 +1,187 @@
+---
+title: Gérer les modifications apportées aux produits d'ingénierie
+description: Cette rubrique fournit des informations sur la gestion des modifications d'ingénierie. La gestion des modifications techniques fournit des processus structurés pour gérer les modifications apportées aux produits d'ingénierie, depuis la proposition, la demande et la réalisation de modifications, jusqu'à l'examen et l'approbation des modifications, l'évaluation de leur impact sur les transactions existantes et leur suivi.
+author: t-benebo
+manager: tfehr
+ms.date: 09/28/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: benebotg
+ms.search.validFrom: 2020-09-28
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 314563e083434832ee04d9c19deb17cec221ae02
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4428345"
+---
+# <a name="manage-changes-to-engineering-products"></a>Gérer les modifications apportées aux produits d'ingénierie
+
+[!include [banner](../includes/banner.md)]
+
+La gestion des changements d'ingénierie fournit des processus structurés pour gérer les changements des produits d'ingénierie. Vous pouvez utiliser le processus de *demande de modification technique* pour proposer et demander des modifications, puis utiliser le processus d'*ordre de modification technique* pour effectuer ces changements. Les utilisateurs peuvent créer des demandes de modification d'ingénierie ou des ordres de modification d'ingénierie, puis un processus est mis en place pour les examiner et les approuver, évaluer leur impact sur les transactions existantes et en assurer le suivi.
+
+## <a name="engineering-change-requests"></a>Demandes de modification d’ingénierie
+
+Le processus de demande de modification technique vous permet de capturer les demandes de modification de tous les services concernés de votre entreprise. Peu importe que vous travailliez en tant qu'ingénieur ou dans le service de fabrication, d'approvisionnement, d'entrepôt ou de vente : n'importe qui peut utiliser une demande de modification technique pour demander une modification. Ce changement peut être une idée pour un nouveau produit, un problème que vous avez découvert pendant que vous travailliez avec un produit existant, une suggestion pour améliorer un produit existant ou autre chose.
+
+Une fois que quelqu'un a soumis une demande de modification, le processus d'*examen et d'approbation* est géré par un workflow qui identifie la personne qui doit approuver la modification (par exemple, le propriétaire du produit).
+
+Pour configurer un workflow pour les ordres de modification technique ou les demandes de modification technique, accédez à **Gestion du changement d'ingénierie \> Workflows d'ingénierie**. Sélectionnez **Nouveau**, indiquez si le workflow sera utilisé pour examiner les ordres de modification technique ou les demandes de modification technique, puis configurez le workflow.
+
+Pour plus d’informations sur l’utilisation des workflows, voir [Vue d’ensemble du système des workflows](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md). Pour plus d'informations sur les propriétaires de produits, voir [Propriétaires de produits](product-owner.md).
+
+### <a name="create-a-new-engineering-change-request"></a>Créer une demande de modification d’ingénierie
+
+Pour créer une demande de modification technique, suivez l'une de ces étapes.
+
+- Aller à **Gestion du changement d'ingénierie \> Commun \> Gestion du changement d'ingénierie \> Demandes de changement d'ingénierie**, puis sélectionnez **Nouveau** sur le volet Actions.
+- Ouvrez la page **Détails du produit** pour un produit d'ingénierie existant. Ensuite, sur le volet Action, sous l'onglet **Ingénieur**, dans le groupe **Gestion du changement d'ingénierie**, sélectionnez **Demande de changement d'ingénierie \> Nouvelle demande de changement d'ingénierie**.
+
+Une nouvelle demande de modification est créée. Vous pouvez maintenant définir les champs sur chaque raccourci comme décrit dans les sous-sections suivantes.
+
+#### <a name="general-fasttab"></a>Organisateur Général
+
+Le raccourci **Général** vous permet de fournir une description de base de la demande de modification. Le tableau suivant décrit les champs disponibles sur ce raccourci.
+
+| Champ | Description |
+|---|---|
+| Demande de modification | Permet d'entrer un nom pour la demande de modification d'ingénierie. |
+| Titre | Saisissez un texte décrivant ou identifiant brièvement les modifications de la demande. |
+| Priorité | Sélectionnez une valeur pour indiquer la priorité de la modification. Vous pouvez personnaliser les valeurs disponibles pour votre entreprise, selon vos besoins. (Pour plus d'informations, consultez [Établir des valeurs communes pour la gestion du changement d'ingénierie](engineering-change-management-setup.md) .) |
+| Catégorie | Sélectionnez une valeur pour décrire le type de modification que vous demandez. Vous pouvez personnaliser les valeurs disponibles pour votre entreprise, selon vos besoins. (Pour plus d'informations, consultez [Établir des valeurs communes pour la gestion du changement d'ingénierie](engineering-change-management-setup.md) .) |
+| Gravité | Sélectionnez une valeur pour indiquer la gravité du problème qui doit être résolu en implémentant la demande. Vous pouvez personnaliser les valeurs disponibles pour votre entreprise, selon vos besoins. (Pour plus d'informations, consultez [Établir des valeurs communes pour la gestion du changement d'ingénierie](engineering-change-management-setup.md) .) |
+| Demandé par | Nom de l'utilisateur ayant créé la demande. |
+| Sur | La date de création de la demande. |
+| Statut | Statut de la demande. Lorsqu'une demande est créée pour la première fois, le statut est *Créé*. Lorsque la demande est approuvée, le statut passe à *Approuvé*. Si une demande de modification associée a été créée pour la demande, le statut passe à *Suivi*. |
+| Ordre de modification | Le numéro d'ordre de modification, si la demande de modification a été suivie via un ordre de modification. |
+
+#### <a name="information-fasttab"></a>Raccourci Informations
+
+Le raccourci **Information** vous permet d'ajouter plus d'informations sur la demande.
+
+Pour ajouter une ligne à la grille, sélectionnez **Nouveau** dans la barre d'outils au-dessus de la grille, puis sélectionnez l'une des options suivantes :
+
+- **Fichier** – Charger un fichier.
+- **Image** – Charger un fichier image.
+- **Remarque** – Saisissez une note directement dans la grille.
+- **URL** – Saisissez une URL directement dans la grille.
+
+Le tableau suivant décrit les champs disponibles sur chaque ligne.
+
+| Champ | Description |
+|---|---|
+| Date et heure de création | Date et heure de création de la ligne. |
+| Type | Le type d'informations pour lesquelles la ligne a été créée (fichier, image, note ou URL). |
+| Description | Entrez la description de la ligne. |
+| Restriction | Valeur qui indique si les informations ajoutées proviennent d'une source interne ou externe. |
+| Lié | Une case cochée indique que la ligne comprend une pièce jointe (fichier ou image). Pour télécharger la pièce jointe, sélectionnez la ligne, puis sélectionnez **Ouvrir** dans la barre d'outils au-dessus de la grille. |
+
+#### <a name="products-fasttab"></a>Raccourci Produits
+
+Le raccourci **Produits** vous permet de répertorier chaque produit concerné par la demande de modification. Vous pouvez utiliser les boutons sur la barre d’outils pour ajouter des produits à la grille ou supprimer des produits.
+
+Cette liste est fourni uniquement à titre indicatif. Par conséquent, vous pouvez ajouter autant de produits connexes que vous le jugez pertinent. Si vous créez une demande de modification à partir de la page **Détails du produit** pour un produit existant, ce produit doit être répertorié sur le raccourci **Produits** après avoir enregistré l'enregistrement de la demande.
+
+#### <a name="source-fasttab"></a>Raccourci Source
+
+Le raccourci **Source** vous permet de suivre le point de départ de la demande de modification. C'est utile si, par exemple, vous souhaitez voir si la demande de modification a été créée à partir d'une commande client, qui l'a créée et dans quelle société elle a été créée.
+
+### <a name="evaluate-the-business-impact-of-a-change-request"></a>Évaluer l'impact commercial d'une demande de changement
+
+Lorsque vous examinez une demande de modification, vous pouvez rechercher des dépendances. De cette manière, vous pouvez évaluer l'impact de la modification demandée sur les transactions en cours, telles que les commandes client, les ordres de fabrication et le stock disponible.
+
+1. Aller à **Gestion des modifications d'ingénierie \> Commun \> Paramètres des demandes de modifications \> Demandes de changements d'ingénierie**.
+1. Ouvrez une demande de modification existante ou sélectionnez **Nouveau** dans le volet Actions pour créer une demande de modification.
+1. Dans le volet Actions, sous l'onglet **Demande de modification**, dans le groupe **Impact commercial**, cliquez sur l'un des boutons suivants :
+
+    - **Chercher** – Analyse toutes les transactions ouvertes, puis ouvrez la boîte de dialogue **Impact commercial sur les transactions ouvertes**, qui répertorie toutes les transactions qui seront affectées par la modification.
+    - **Afficher la recherche précédente** – Ouvrez la boîte de dialogue **Impact commercial sur les transactions ouvertes**, qui répertorie les résultats de la recherche précédente. (Une nouvelle recherche n'est pas effectuée.)
+
+1. Si le problème nécessitant une modification s'avère critique, vous pouvez bloquer les transactions ouvertes ou avertir l'utilisateur responsable en utilisant les boutons de la barre d'outils dans la boite de dialogue **Impact commercial sur les transactions ouvertes**.
+
+### <a name="create-a-change-order-from-a-change-request"></a>Créer un ordre de modification à partir d'une demande de modification
+
+Un ingénieur qui examine une demande de modification technique peut créer un ordre de modification technique directement à partir de la page **Demandes de changement d'ingénierie**. Dans le volet Actions, sous l'onglet **Demande de modification**, dans le groupe **Ordre de modification d'ingénierie**, sélectionnez **Approuver**.
+
+## <a name="engineering-change-orders"></a>Ordres de modification d’ingénierie
+
+Les ordres de changements d'ingénierie fournissent un processus structuré pour apporter des changements aux produits d'ingénierie. Vous proposez des modifications en utilisant une copie des données pertinentes pour l'ingénierie. Les vraies données de base ne sont pas affectées. Pour plus d'informations sur les données pertinentes pour l'ingénierie, voir [Versions d'ingénierie et catégories de produits d'ingénierie](engineering-versions-product-category.md).
+
+Vous pouvez créer un ordre de modification technique basé sur une demande de modification technique approuvée. Les ingénieurs peuvent également créer des ordres de modification technique à partir de zéro. Vous pouvez inclure plusieurs produits dans un même ordre de modification technique en suivant l'une de ces étapes :
+
+- Sélectionnez manuellement les produits.
+- Utilisez la nomenclature pour inclure les produits inférieurs dans la structure produit (c'est-à-dire les enfants).
+- Utilisez une recherche de cas d'emploi pour inclure les produits qui sont plus élevés dans la structure produit (c'est-à-dire les parents).
+
+Une fois la proposition de modification terminée, le processus d'examen et d'approbation sera géré par un workflow. Vous pouvez configurer différents workflows, en fonction de la priorité et de la gravité.
+
+Pour configurer un workflow pour les ordres de modification technique ou les demandes de modification technique, accédez à **Gestion du changement d'ingénierie \> Workflows d'ingénierie**. Sélectionnez **Nouveau**, indiquez si le workflow sera utilisé pour examiner les ordres de modification technique ou les demandes de modification technique, puis configurez le workflow.
+
+Pour plus d’informations sur l’utilisation des workflows, voir [Vue d’ensemble du système des workflows](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
+
+Voici quelques parties prenantes typiques qui pourraient avoir à approuver une demande de modification technique :
+
+- **Propriétaires de produits** – Pour plus d'informations sur les propriétaires de produits, voir [Propriétaires de produits](product-owner.md).
+- **Chef d'équipe responsable** – Notez également que le champ **Ingénieur** dans la vue **En-tête** de l'ordre de modification d'ingénierie indique l'ingénieur ayant créé l'ordre de modification d'ingénierie. Si l'ingénieur appartient à une équipe définie dans le système, le champ **Responsable** montre le chef de cette équipe.
+- **Sercice Finances** – Le service financier pourrait avoir à examiner les cas où le changement implique des coûts élevés.
+
+Vous pouvez choisir si l'ordre de modification technique doit être traité directement après son approbation, dans le cadre du workflow, ou si le traitement doit être effectué ultérieurement, en tant qu'étape manuelle. Lors du traitement d'un ordre de modification technique, les données techniques du produit réel sont mises à jour.
+
+Pendant que vous examinez une demande de modification, dans le volet Actions, sur l'onglet **Changer de requête**, dans le groupe **Impact sur les entreprises**, sélectionnez **Rechercher** pour évaluer l'impact du changement proposé sur les transactions ouvertes, telles que les commandes client, les ordres de fabrication et les stocks disponibles. Les résultats sont affichés dans la boîte de dialogue **Impact commercial sur les transactions ouvertes**, dans laquelle vous pouvez sélectionner les transactions concernées, puis utiliser les commandes de la barre d'outils pour afficher plus d'informations, avertir l'utilisateur responsable ou bloquer la transaction.
+
+### <a name="engineering-change-orders-in-engineering-or-operational-companies"></a>Ordres de modification d'ingénierie dans des sociétés d'ingénierie ou opérationnelles
+
+Comme décrit dans [Sociétés d'ingénierie et règles de propriété des données](engineering-org-data-ownership-rules.md), les données produit que vous pouvez modifier varient en fonction du type d'entité juridique dans laquelle vous travaillez (une société d'ingénierie par rapport à une société opérationnelle). Les règles de propriété des données sont également appliquées aux demandes de modification technique. Par conséquent, en fonction de l'entité juridique dans laquelle vous créez un ordre de modification technique, différents types de modifications peuvent être effectués. Voici quelques exemples :
+
+- Pour les demandes de modification technique dans une **société d'ingénierie**, vous pouvez apporter des modifications de base aux données d'ingénierie. Par exemple, vous pouvez créer des versions d'un produit, modifier la structure d'un produit via la nomenclature et modifier les valeurs d'attributs d'ingénierie. Pour chaque produit concerné, sélectionnez l'une des valeurs suivantes dans le champ **Impact** :
+
+    - **Aucun** – Mettre à jour la version existante du produit (mise à jour en version).
+    - **Nouvelle version** – Créez une version basée sur la version de produit sélectionnée.
+    - **Nouveau produit** – Créez un produit ou une variante de produit complètement nouveau basé sur la version de produit sélectionnée.
+
+- Pour les demandes de modification technique dans une **société opérationnelle**, vous pouvez modifier les données logistiques du produit. Par exemple, vous pouvez enrichir la nomenclature existante avec des paramètres d'approvisionnement, ajouter des gammes locales ou des nomenclatures locales, et même enrichir une nomenclature en ajoutant de nouvelles lignes de nomenclature pour les matériaux d'emballage locaux, les fluides de lubrification ou les instructions dans la langue locale. Les enrichissements réalisés par les utilisateurs dans l'entreprise opérationnelle seront préservés lorsque de nouvelles mises à jour seront envoyées par la société d'ingénierie. Pour plus d'informations, consultez [Sociétés d'ingénierie et règles de propriété des données](engineering-org-data-ownership-rules.md).
+
+    Lorsque les ordres de modification technique sont traités dans la société d'ingénierie, les produits sont créés et/ou mis à jour uniquement dans la société d'ingénierie. Par conséquent, si les données de base de produit doivent également être mises à jour, vous devez également transmettre les produits aux sociétés opérationnelles.
+
+- Vous pouvez lancer des produits directement à partir d'ordres de modification technique. Ouvrez l'ordre de modification, puis dans le volet Actions, sur l'onglet **Ordre de modification**, dans le groupe **Versions du produit**, sélectionnez **Lancer la structure du produit**. Le processus fonctionne exactement comme il fonctionne lorsque vous lancez des produits à partir de la page **Produits lancés**. Pour plus d'informations, voir [Lancement de structures de produit](release-product-structure.md).
+- Vous pouvez faire sortir automatiquement des produits des ordres de modification technique, en fonction des facteurs suivants :
+
+    - Rééditions aux entreprises où les produits étaient précédemment commercialisés. Sélectionnez **Rechercher** pour analyser toutes les versions précédentes, puis sélectionnez **Vue** pour voir les résultats. La page **Afficher** affiche les versions précédentes du produit et vous pouvez sélectionner les produits que vous souhaitez rééditer. Puis fermez la page **Afficher** et sélectionnez **Processus** pour relancer les produits sélectionnés.
+    - Paramètres de validation automatique dans le contrôle de validation de la catégorie de produit d'ingénierie. Vous pouvez faire cette version dans le cadre du workflow. Quand le bloc **recueillir la proposition de sortie** est utilisé, la proposition de lancement sera remplie de propositions de réédition (voir l'élément de liste précédent) et les produits seront mis à la disposition des entreprises si **Lancement automatique** est coché dans le contrôle de validation de la catégorie de produit d'ingénierie. Vous pouvez sélectionner **Afficher** pour afficher les résultats, comme décrit dans l'élément de liste précédent. Les produits seront également commercialisés lorsque le bloc **Proposition de lancement de processus** sera utilisé. Si vous choisissez de collecter uniquement la proposition de version dans le cadre du workflow, vous pouvez démarrer manuellement la version en sélectionnant **Processus**, comme décrit dans l'élément de liste précédent.
+
+## <a name="follow-up-on-an-engineering-change-request-via-an-engineering-change-order"></a>Suivi d'une demande de modification technique via un ordre de modification technique
+
+Dès qu'une demande de modification d'ingénierie est approuvée, vous pouvez la suivre sur un ordre de modification technique. Vous pouvez combiner plusieurs demandes de modification technique en un seul ordre de modification technique. Un seul ordre de modification technique peut même inclure plusieurs produits. (En règle générale, vous utilisez cette approche lorsque la même modification doit être appliquée à plusieurs produits.) Cependant, vous ne pouvez pas créer plusieurs ordres de modification technique à partir d'une seule demande de modification technique.
+
+Pour suivre une demande de modification via un ordre de modification, ouvrez la demande de modification, puis, dans le volet Actions, sur l'onglet **Change l'ordre**, dans le groupe **Ordre de modification technique**, sélectionnez **Copier le lien et les produits**. Vous pouvez ensuite sélectionner un ordre de modification technique existant auquel connecter la demande de modification, ou vous pouvez créer un ordre de modification technique pour cette demande spécifique.
+
+## <a name="engineering-change-order-report"></a>État de l’ordre de modification d’ingénierie
+
+Les rapports d'ordre de modification technique décrivent les modifications apportées dans un ordre de modification technique. Ils sont utiles pendant et après le processus d'examen et d'approbation.
+
+Pour afficher un rapport de demande de modification technique, ouvrez la demande de modification appropriée, puis, dans le volet Actions, sur l'onglet **Ordre de modification**, dans le groupe **Afficher**, sélectionnez **Rapport d'ordre de modification technique**.
+
+## <a name="fields-on-an-engineering-change-order"></a>Champs d'un ordre de modification technique
+
+La plupart des champs des ordres de modification technique sont les mêmes que les champs des produits lancés, des versions d'ingénierie, des documents, des nomenclatures (lignes) et des gammes (opérations). Cependant, les champs du tableau suivant sont uniques pour modifier les ordres.
+
+| Champ | Description |
+|---|---|
+| Motifs de la modification d’ingénierie | Sélectionnez la raison du changement du produit concerné. |
+| Description de la modification | Entrez une description des changements. |
+| Outils spéciaux requis | Spécifiez si un outillage spécial est nécessaire pour appliquer la modification. |
+| Disposition des matériaux d'ingénierie | Sélectionnez un code d'élimination des matières pour tout déchet produit lorsque la modification est appliquée. |
+| Approbation du client obligatoire | Indiquez si l'approbation du client est requise avant que la modification puisse être appliquée. |
+| Approbation du client reçue | Spécifiez le statut de l'approbation du client. |
+| Environnement, santé et sécurité | Précisez si les règles de santé et de sécurité environnementales sont applicables au changement. Si tel est le cas, vous pouvez sélectionner les règles applicables. |
+
+Vous pouvez utiliser le bouton **Tenir à jour/copier les informations de modification** pour copier les informations de modification entre les produits concernés.

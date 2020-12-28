@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998874"
+ms.locfileid: "4428188"
 ---
 # <a name="automatic-allocation-of-charges"></a>Répartition automatique des frais
 
@@ -49,12 +49,12 @@ Pour attribuer des frais, vous devez d'abord définir des codes de frais.
     - **Montant maximal** - Entrez le montant maximal autorisé pour le code frais. Ce champ est utilisé pour valider les frais pour les factures fournisseur. Il n'est disponible que pour les commandes fournisseur.
 
         > [!NOTE]
-        > Pour activer la fonctionnalité de validation des frais des commandes fournisseur, accédez à **Comptabilité fournisseur \> Paramétrage \> Paramètres de la comptabilité fournisseur**. Sur le FastTab **Contrôle de la facture** , dans la section **Contrôle de la facture** , définissez l'option **Activer le contrôle de rapprochement de factures** sur *Oui*.
+        > Pour activer la fonctionnalité de validation des frais des commandes fournisseur, accédez à **Comptabilité fournisseur \> Paramétrage \> Paramètres de la comptabilité fournisseur**. Sur le FastTab **Contrôle de la facture**, dans la section **Contrôle de la facture**, définissez l'option **Activer le contrôle de rapprochement de factures** sur *Oui*.
 
 1. Le FastTab **Validation** comprend les sections **Débit** et **Crédit**. Définissez les champs suivants, en fonction de la comptabilité dans laquelle vous souhaitez valider les frais :
 
-    - **Type** - Sélectionnez le type de compte sur lequel vous validez ( *Général* , *Client* , ou *Article* ).
-    - **Validation** - Sélectionnez le type de validations à créer (comme *Frais de courtier* ou *Règlement client* ).
+    - **Type** - Sélectionnez le type de compte sur lequel vous validez (*Général*, *Client*, ou *Article*).
+    - **Validation** - Sélectionnez le type de validations à créer (comme *Frais de courtier* ou *Règlement client*).
     - **Compte** - Sélectionnez le compte pour lequel valider les frais.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
@@ -74,8 +74,8 @@ Pour créer des groupes de frais pour les commandes fournisseur, procédez comme
     - **Description** - Entrez une description du groupe de frais.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs** , et ouvrez un fournisseur existant ou créez un nouveau fournisseur.
-1. Sur le FastTab **Valeurs par défaut des commandes fournisseur** , dans la section **Commande fournisseur** , définissez le champ **Groupe de frais** sur le groupe de frais que vous venez de créer.
+1. Accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**, et ouvrez un fournisseur existant ou créez un nouveau fournisseur.
+1. Sur le FastTab **Valeurs par défaut des commandes fournisseur**, dans la section **Commande fournisseur**, définissez le champ **Groupe de frais** sur le groupe de frais que vous venez de créer.
 
 ### <a name="charge-groups-for-sales-orders"></a>Groupes de frais pour les commandes client
 
@@ -88,8 +88,8 @@ Pour créer des groupes de frais pour les commandes client, procédez comme suit
     - **Description** - Entrez une description du groupe de frais.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
-1. Accédez à **Comptabilité client \> Clients \> Tous les clients** , et ouvrez un client existant ou créez un nouveau client.
-1. Sur le FastTab **Valeurs par défaut des commandes fournisseur** , dans la section **Commande client** , définissez le champ **Groupe de frais** sur le groupe de frais que vous venez de créer.
+1. Accédez à **Comptabilité client \> Clients \> Tous les clients**, et ouvrez un client existant ou créez un nouveau client.
+1. Sur le FastTab **Valeurs par défaut des commandes fournisseur**, dans la section **Commande client**, définissez le champ **Groupe de frais** sur le groupe de frais que vous venez de créer.
 
 ## <a name="define-auto-charges"></a>Définition de frais automatiques
 
@@ -100,34 +100,34 @@ Une fois vos codes de frais configurés, suivez ces étapes pour définir les fr
     - Pour les commandes client : accédez à **Approvisionnements \> Paramétrage \> Frais \> Frais automatiques**.
     - Pour les commandes client : accédez à **Comptabilité client \> Paramétrage \> Paramétrage des frais \> Frais automatiques**.
 
-1. Dans le volet de liste, dans le champ **Niveau** , sélectionnez le niveau auquel s'applique vos frais automatiques :
+1. Dans le volet de liste, dans le champ **Niveau**, sélectionnez le niveau auquel s'applique vos frais automatiques :
 
     - *Principal* – Permet d'appliquer les frais à l'en-tête de commande.
     - *Ligne* – Permet d'appliquer les frais aux lignes de commande.
 
 1. Sélectionnez des frais automatiques existants pour les modifier ou sélectionnez **Nouveaux** pour définir de nouveaux fais automatiques.
-1. Dans la liste **Code de compte** , sélectionnez l'une des valeurs suivantes pour spécifier l'étendue des comptes qui seront affectés :
+1. Dans la liste **Code de compte**, sélectionnez l'une des valeurs suivantes pour spécifier l'étendue des comptes qui seront affectés :
 
     - *Table* – Permet d'affecter les frais à un client ou à un fournisseur donné.
     - *Groupe* – Permet d'affecter les frais à un groupe de frais divers.
     - *Tous* – Permet d'affecter les frais à tous les clients ou fournisseurs.
 
-1. Dans le champ **Relation client** ou **Relation fournisseur** , sélectionnez un client ou fournisseur spécifique, si vous définissez le champ **Code compte** sur *Table*. Si vous définissez le champ **Code de compte** sur *Groupe* , sélectionnez un groupe de frais client ou fournisseur.
-1. Dans le champ **Code article** , sélectionnez l'une des valeurs suivantes pour spécifier l'étendue des articles qui seront affectés. Vous pouvez sélectionner un code article uniquement lorsque vous définissez des frais automatiques au niveau de la ligne.
+1. Dans le champ **Relation client** ou **Relation fournisseur**, sélectionnez un client ou fournisseur spécifique, si vous définissez le champ **Code compte** sur *Table*. Si vous définissez le champ **Code de compte** sur *Groupe*, sélectionnez un groupe de frais client ou fournisseur.
+1. Dans le champ **Code article**, sélectionnez l'une des valeurs suivantes pour spécifier l'étendue des articles qui seront affectés. Vous pouvez sélectionner un code article uniquement lorsque vous définissez des frais automatiques au niveau de la ligne.
 
     - *Table* – Permet d'affecter les frais à un article donné.
     - *Groupe* – Permet d'affecter les frais à un groupe de frais des articles.
     - *Tous* – Permet d'affecter les frais à tous les articles.
 
-1. Dans le champ **Relation d'article** , sélectionnez un article spécifique, si vous définissez le champ **Code article** sur *Table*. Si vous définissez le champ **Code article** sur *Groupe* , sélectionnez un groupe de frais des articles.
-1. **Pour les commandes client uniquement :** dans le champ **Code de mode de livraison** , sélectionnez l'une des valeurs suivantes pour spécifier l'étendue des modes de livraison qui seront concernés :
+1. Dans le champ **Relation d'article**, sélectionnez un article spécifique, si vous définissez le champ **Code article** sur *Table*. Si vous définissez le champ **Code article** sur *Groupe*, sélectionnez un groupe de frais des articles.
+1. **Pour les commandes client uniquement :** dans le champ **Code de mode de livraison**, sélectionnez l'une des valeurs suivantes pour spécifier l'étendue des modes de livraison qui seront concernés :
 
     - *Table* – Permet d'affecter des frais à un mode de livraison spécifique.
     - *Groupe* – Permet d'affecter des frais à un groupe de modes de livraison.
     - *Tous* – Permet d'affecter des frais à tous les modes de livraison.
 
-1. **Pour les commandes client uniquement :** Dans le champ **Groupe mode de livraison** , sélectionnez un mode de livraison spécifique si vous définissez le champ **Code Mode de livraison** sur *Table*. Si vous définissez le champ **Code Mode de livraison** sur *Groupe* , sélectionnez un groupe de modes de livraison.
-1. Sur le FastTab **Lignes** , définissez les frais et les taux de frais qui seront utilisés pour l'application des frais automatiques. Vous pouvez utiliser la barre d'outils de ce FastTab pour ajouter autant de lignes que vous le souhaitez. Pour chaque ligne, définissez les champs suivants :
+1. **Pour les commandes client uniquement :** Dans le champ **Groupe mode de livraison**, sélectionnez un mode de livraison spécifique si vous définissez le champ **Code Mode de livraison** sur *Table*. Si vous définissez le champ **Code Mode de livraison** sur *Groupe*, sélectionnez un groupe de modes de livraison.
+1. Sur le FastTab **Lignes**, définissez les frais et les taux de frais qui seront utilisés pour l'application des frais automatiques. Vous pouvez utiliser la barre d'outils de ce FastTab pour ajouter autant de lignes que vous le souhaitez. Pour chaque ligne, définissez les champs suivants :
 
     - **Devise** - Sélectionnez la devise à utiliser pour calculer les frais.
     - **Code frais** - Sélectionnez le code des frais.
@@ -156,10 +156,10 @@ La procédure suivante montre comment répartir des frais au niveau de l'en-têt
 1. Ouvrez la commande fournisseur ou l'autorisation de débiter.
 1. Dans le volet Action, procédez comme suit :
 
-    - Pour les commandes fournisseur : Sous l'onglet **Achat** , dans le groupe **Frais** , sélectionnez **Répartir les frais**.
-    - Pour les commandes client : Sous l'onglet **Vendre** , dans le groupe **Frais** , sélectionnez **Répartir les frais**.
+    - Pour les commandes fournisseur : Sous l'onglet **Achat**, dans le groupe **Frais**, sélectionnez **Répartir les frais**.
+    - Pour les commandes client : Sous l'onglet **Vendre**, dans le groupe **Frais**, sélectionnez **Répartir les frais**.
 
-1. Dans la boîte de dialogue **Répartir des frais sur des lignes de commande** , définissez les champs suivants :
+1. Dans la boîte de dialogue **Répartir des frais sur des lignes de commande**, définissez les champs suivants :
 
     - **Répartition des frais** - Sélectionnez l'une des valeurs suivantes pour spécifier la manière dont les frais doivent être répartis :
 
@@ -171,9 +171,9 @@ La procédure suivante montre comment répartir des frais au niveau de l'en-têt
     - **Tout répartir** - Activez cette case à cocher pour répartir des frais sur les lignes de commande même si le code frais a un type de débit autre que *Article*.
     - **Reçues** - Activez cette case à cocher pour répartir les frais uniquement sur les lignes de commande reçues.
     - **Stockées** - Activez cette case à cocher pour répartir les frais uniquement sur les lignes de commande inventoriées.
-    - **Afficher les sélections et effacer les lignes spécifiques** - Cochez cette case pour exclure des lignes spécifiques de cette répartition. Lorsque vous cochez cette case, la grille **Choisir les lignes à exclure de la répartition** est ouverte. Cette grille inclut uniquement les lignes qui correspondent aux critères définis par les paramètres **Répartir les frais sur les lignes** et **Stockées**. Par exemple, si vous définissez le champ **Répartir les frais sur les lignes** sur *Lignes positives* , puis cochez la case **Stockées** , la grille affiche uniquement les lignes qui sont positives et inventoriées. De plus, la grille filtre automatiquement toutes les lignes pour lesquelles la quantité totale a déjà été reçue. Pendant que la grille est ouverte, décochez la case **Inclure** pour chaque ligne à exclure de la répartition. 
+    - **Afficher les sélections et effacer les lignes spécifiques** - Cochez cette case pour exclure des lignes spécifiques de cette répartition. Lorsque vous cochez cette case, la grille **Choisir les lignes à exclure de la répartition** est ouverte. Cette grille inclut uniquement les lignes qui correspondent aux critères définis par les paramètres **Répartir les frais sur les lignes** et **Stockées**. Par exemple, si vous définissez le champ **Répartir les frais sur les lignes** sur *Lignes positives*, puis cochez la case **Stockées**, la grille affiche uniquement les lignes qui sont positives et inventoriées. De plus, la grille filtre automatiquement toutes les lignes pour lesquelles la quantité totale a déjà été reçue. Pendant que la grille est ouverte, décochez la case **Inclure** pour chaque ligne à exclure de la répartition. 
 
         > [!IMPORTANT]
-        > Lorsque vous utilisez la grille **Choisir les lignes à exclure de la répartition** , veillez à laisser la grille ouverte jusqu'à ce que vous sélectionniez **Répartir**. Si vous fermez la grille avant de sélectionner **Répartir** , vos paramètres dans la grille seront perdus. Par conséquent, les frais seront répartis en fonction des critères que vous aviez définis précédemment.
+        > Lorsque vous utilisez la grille **Choisir les lignes à exclure de la répartition**, veillez à laisser la grille ouverte jusqu'à ce que vous sélectionniez **Répartir**. Si vous fermez la grille avant de sélectionner **Répartir**, vos paramètres dans la grille seront perdus. Par conséquent, les frais seront répartis en fonction des critères que vous aviez définis précédemment.
 
 1. Sélectionnez **Répartir** pour appliquer vos paramètres et fermer la boîte de dialogue.

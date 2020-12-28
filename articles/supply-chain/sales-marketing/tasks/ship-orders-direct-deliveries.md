@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018512"
+ms.locfileid: "4428303"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Expédier des commandes en tant que livraisons directes
 
@@ -32,13 +32,13 @@ Cette rubrique illustre comment créer une livraison directe pour une commande c
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Définir une commande individuelle pour la livraison directe
 1. Allez dans **Volet de navigation > Modules > Comptabilité client > Commandes > Toutes les commandes client**.
 2. Sélectionnez **Nouveau**.
-3. Entrez ou sélectionnez une valeur dans le champ **Compte client** , puis sélectionnez **OK**.
-4. Entrez ou sélectionnez des valeurs dans les champs **Numéro d'article** et **Site** , puis sélectionnez **Enregistrer**.
-5. Dans le volet Actions, sélectionnez **Commande client** , puis sélectionnez **Livraison directe**. La page Créer la livraison répertorie toutes les lignes de commande client en cours telles qu'elles ont été copiées à partir de la commande client. Vous pouvez consulter les détails de la commande et, si nécessaire, vous pouvez modifier des détails tels que la quantité achetée et les conditions tarifaires avant de créer la livraison directe.  
+3. Entrez ou sélectionnez une valeur dans le champ **Compte client**, puis sélectionnez **OK**.
+4. Entrez ou sélectionnez des valeurs dans les champs **Numéro d'article** et **Site**, puis sélectionnez **Enregistrer**.
+5. Dans le volet Actions, sélectionnez **Commande client**, puis sélectionnez **Livraison directe**. La page Créer la livraison répertorie toutes les lignes de commande client en cours telles qu'elles ont été copiées à partir de la commande client. Vous pouvez consulter les détails de la commande et, si nécessaire, vous pouvez modifier des détails tels que la quantité achetée et les conditions tarifaires avant de créer la livraison directe.  
 6. Sélectionnez **Oui** dans le champ **Inclure tout**.
     - Si vous souhaitez générer une livraison directe pour seulement un sous-ensemble des lignes de commande client, sélectionnez ce dernier individuellement.  
     - Le champ **Compte fournisseur** peut ou non être déjà rempli avec un numéro de fournisseur. Si le fournisseur par défaut est paramétré pour le produit (dans la Couverture de l'article associée), alors ce fournisseur est copié dans la ligne. Dans le cas contraire, vous devez entrer un fournisseur manuellement. Dans cet exemple, nous allons sélectionner un nouveau fournisseur à l'étape suivante, même s'il y en a déjà un dans le champ.   
-7. Entrez ou sélectionnez une valeur dans le champ **Compte fournisseur** , puis sélectionnez **OK**. Le message vous indique que la commande fournisseur a été créée.   
+7. Entrez ou sélectionnez une valeur dans le champ **Compte fournisseur**, puis sélectionnez **OK**. Le message vous indique que la commande fournisseur a été créée.   
 8. Développez la section **Détails de ligne**.
 9. Sélectionnez l'onglet **Livraison** et vérifiez que le champ **Livraison directe** est défini sur **Oui**.
 10. Dans le volet Actions, sélectionnez **Général**.
@@ -57,7 +57,7 @@ Cette rubrique illustre comment créer une livraison directe pour une commande c
 17. Cliquez sur **OK**.
 18. Dans le volet Actions, sélectionnez **Recevoir**.
 19. Sélectionnez **Accusé de réception de marchandises**.
-20. Dans le champ **Accusé de réception de marchandises** , tapez une valeur.
+20. Dans le champ **Accusé de réception de marchandises**, tapez une valeur.
 21. Cliquez sur **OK**.
 22. Dans le volet Actions, sélectionnez **Général**.
 23. Sélectionnez **Commandes associées** et mettez en surbrillance l'enregistrement souhaité.
@@ -70,9 +70,9 @@ Cette rubrique illustre comment créer une livraison directe pour une commande c
 ## <a name="create-direct-deliveries-from-the-workbench"></a>Créer des livraisons directes à partir de la console
 1. Allez dans **Navigation > Modules > Comptabilité client > Commandes > Toutes les commandes client**.
 2. Sélectionnez **Nouveau**.
-3. Entrez ou sélectionnez une valeur dans le champ **Compte client** , puis sélectionnez **OK**.
+3. Entrez ou sélectionnez une valeur dans le champ **Compte client**, puis sélectionnez **OK**.
 4. Entrez ou sélectionnez une valeur dans les champs **Numéro d'article** et **Site**.
-5. Développez la section **Détails de ligne** , puis sélectionnez l'onglet **Livraison**. Au lieu de créer une livraison directe dans le cadre du traitement de la commande client, comme dans la procédure précédente, vous pouvez choisir de confier cette tâche à un acheteur. Pour inclure la ligne de commande client dans le processus de traitement de la livraison directe, vous devez marquer la ligne pour la livraison directe.  
+5. Développez la section **Détails de ligne**, puis sélectionnez l'onglet **Livraison**. Au lieu de créer une livraison directe dans le cadre du traitement de la commande client, comme dans la procédure précédente, vous pouvez choisir de confier cette tâche à un acheteur. Pour inclure la ligne de commande client dans le processus de traitement de la livraison directe, vous devez marquer la ligne pour la livraison directe.  
 6. Sélectionnez **Oui** dans le champ **Livraison directe**.
     - Si l'article a déjà été paramétré pour la livraison directe par défaut, le champ est automatiquement défini sur Oui à l'entrée de la ligne de commande. Vous pouvez paramétrer un article pour la livraison directe dans les données principales du produit lancé en définissant l'option de livraison sur Oui et en sélectionnant un entrepôt de livraison directe par défaut.  
     - Comme la commande fournisseur n'a pas encore été créée, le statut de livraison directe est défini sur « À livrer directement ».   

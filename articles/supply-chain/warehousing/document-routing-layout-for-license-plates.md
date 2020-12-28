@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017711"
+ms.locfileid: "4428225"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d’acheminement de document pour les étiquettes de contenant
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Voici une explication de ce format :
 
-- `FieldName` est le nom du champ de données (tel que **Qté** ).
+- `FieldName` est le nom du champ de données (tel que **Qté**).
 - `FormatString` définit comment les données doivent être imprimées.
 
-Les exemples suivants montrent comment personnaliser le champ de quantité de travail ( **Qté** ) :
+Les exemples suivants montrent comment personnaliser le champ de quantité de travail (**Qté**) :
 
 - Pour toujours afficher quatre chiffres (en utilisant des zéros comme espaces réservés), utilisez `$Qty:0000$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 0010 ».
 - Pour toujours afficher deux décimales, utilisez `$Qty:0.00$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 10.00 ».

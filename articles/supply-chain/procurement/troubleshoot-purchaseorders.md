@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018558"
+ms.locfileid: "4428311"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Résoudre les problèmes liés aux commandes fournisseur
 
@@ -34,7 +34,7 @@ Cette rubrique décrit comment résoudre les problèmes que vous pourriez rencon
 
 Ce problème peut se produire en raison d'une incohérence dans les répartitions des commandes fournisseur.
 
-Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon* , allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon*, allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Lorsque les commandes fournisseur sont importées via la gestion des données, les numéros de ligne de commande fournisseur ne suivent pas l'incrément défini dans les paramètres système.
 
@@ -58,7 +58,7 @@ Ce comportement est fait exprès. Les valeurs par défaut du groupe de taxes, de
 
 Ce problème peut se produire en raison d'une incohérence dans les répartitions des commandes fournisseur.
 
-Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon* , allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon*, allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Une ou plusieurs répartitions comptables sont sur-réparties ou sous-réparties.
 
@@ -70,7 +70,7 @@ Vous recevez l'erreur suivante : "Une ou plusieurs répartitions comptables son
 
 Ce problème peut se produire en raison d'une incohérence dans les répartitions des commandes fournisseur.
 
-Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon* , allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon*, allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>Puis-je afficher uniquement les commandes fournisseur que j'ai créées ?
 
@@ -118,7 +118,7 @@ Ce comportement est fait exprès. Sur les commandes fournisseur, le produit est 
 
 ### <a name="issue-description"></a>Description du problème
 
-Un produit a un fournisseur agréé qui a, par exemple, une date d'effet au 11 janvier 2018 ( *11/01/2018* ) et une date d'expiration à *Jamais*. Si vous essayez de modifier la date d'effet au 10 janvier 2018 ( *10/01/2018* ) ou au 12 janvier 2018 ( *12/01/2018* ), vous recevez l'erreur suivante :
+Un produit a un fournisseur agréé qui a, par exemple, une date d'effet au 11 janvier 2018 (*11/01/2018*) et une date d'expiration à *Jamais*. Si vous essayez de modifier la date d'effet au 10 janvier 2018 (*10/01/2018*) ou au 12 janvier 2018 (*12/01/2018*), vous recevez l'erreur suivante :
 
 > Impossible de créer un enregistrement dans la liste des fournisseurs agréés (PdsApproveVendorList). La valeur "Expiration" doit être supérieure ou égale à la valeur "Effet".
 
@@ -130,7 +130,7 @@ Vous ne pouvez prolonger que la période pour laquelle le fournisseur est agré�
 - Pour modifier la date d'expiration afin qu'elle soit postérieure à l'une des périodes existantes, la date d'effet doit être postérieure à la dernière date d'expiration de tout enregistrement existant.
 - Pour réduire la période globale pour laquelle le fournisseur est agréé, vous devez supprimer ou modifier les enregistrements existants. Vous pouvez également utiliser le commutateur **Tronquer** lors de l'importation. Ce commutateur supprime tous les enregistrements existants dans la table pour les fournisseurs agréés par article.
 
-Pour l'exemple de scénario décrit dans la description du problème, où un enregistrement a une date d'effet au *11/01/2018* et une date d'expiration à *Jamais* , vous pouvez importer un nouvel enregistrement dont la date d'effet est le *10/01/2018* et la date d'expiration *Jamais*. Cependant, vous ne pouvez pas réduire la période pour que la date d'effet soit mise à jour au *12/01/2018* via la gestion des données. Vous devez effectuer cette modification via l'interface utilisateur.
+Pour l'exemple de scénario décrit dans la description du problème, où un enregistrement a une date d'effet au *11/01/2018* et une date d'expiration à *Jamais*, vous pouvez importer un nouvel enregistrement dont la date d'effet est le *10/01/2018* et la date d'expiration *Jamais*. Cependant, vous ne pouvez pas réduire la période pour que la date d'effet soit mise à jour au *12/01/2018* via la gestion des données. Vous devez effectuer cette modification via l'interface utilisateur.
 
 ## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Après avoir modifié l'adresse de livraison sur un en-tête de commande fournisseur, le nom de livraison n'est pas synchronisé.
 

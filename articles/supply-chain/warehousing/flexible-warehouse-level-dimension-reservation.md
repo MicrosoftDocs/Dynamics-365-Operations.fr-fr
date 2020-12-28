@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017642"
+ms.locfileid: "4428216"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l’entrepôt
 
@@ -63,7 +63,7 @@ Pour permettre la flexibilité souhaitée dans le comportement de réservation d
 
 ![Rendre flexible la hiérarchie de réservation du stock](media/Flexible-inventory-reservation-hierarchy.png)
 
-Quand le niveau **Numéro du lot** dans la hiérarchie est sélectionné, toutes les dimensions au-dessus de ce niveau et jusqu’à l’ **Emplacement** seront automatiquement sélectionnées. (Par défaut, toutes les dimensions au-dessus de l’ **Emplacement** sont présélectionnés.) Ce comportement reflète la logique selon laquelle toutes les dimensions dans la plage entre le numéro de lot et l’emplacement sont également automatiquement réservées après avoir réservé un numéro de lot spécifique sur la ligne de commande.
+Quand le niveau **Numéro du lot** dans la hiérarchie est sélectionné, toutes les dimensions au-dessus de ce niveau et jusqu’à l’**Emplacement** seront automatiquement sélectionnées. (Par défaut, toutes les dimensions au-dessus de l’**Emplacement** sont présélectionnés.) Ce comportement reflète la logique selon laquelle toutes les dimensions dans la plage entre le numéro de lot et l’emplacement sont également automatiquement réservées après avoir réservé un numéro de lot spécifique sur la ligne de commande.
 
 > [!NOTE]
 > La case à cocher **Autoriser la réservation à la commande** s’applique uniquement aux niveaux de hiérarchie de réservation inférieurs à la dimension d’emplacement de l’entrepôt.
@@ -72,12 +72,12 @@ Quand le niveau **Numéro du lot** dans la hiérarchie est sélectionné, toutes
 >
 > Si votre hiérarchie de réservation comprend la dimension du numéro de série (qui doit toujours être inférieure au niveau **Numéro du lot** et si vous avez activé la réservation spécifique au lot pour le numéro de lot), le système continuera à gérer les opérations de réservation et de prélèvement de numéro de série, en fonction des règles qui s’appliquent à la politique de réservation « Serial-below\[location\] ».
 
-À tout moment, vous pouvez autoriser une réservation spécifique au lot pour une hiérarchie de réservation « Batch-below\[location\] » existante dans votre déploiement. Cette modification n’affectera pas les réservations et les travaux d’entrepôt ouverts créés avant la modification. Cependant, la case à cocher **Autoriser la réservation à la commande** ne peut pas être désactivée si des transactions de stock problématiques de type **Commandé réservé** , **Physique réservé** , ou **Commandé** existent pour un ou plusieurs éléments associés à cette hiérarchie de réservation.
+À tout moment, vous pouvez autoriser une réservation spécifique au lot pour une hiérarchie de réservation « Batch-below\[location\] » existante dans votre déploiement. Cette modification n’affectera pas les réservations et les travaux d’entrepôt ouverts créés avant la modification. Cependant, la case à cocher **Autoriser la réservation à la commande** ne peut pas être désactivée si des transactions de stock problématiques de type **Commandé réservé**, **Physique réservé**, ou **Commandé** existent pour un ou plusieurs éléments associés à cette hiérarchie de réservation.
 
 > [!NOTE]
 > Si la hiérarchie de réservation existante d’un article n’autorise pas la spécification du lot sur la commande, vous pouvez le réaffecter à une hiérarchie de réservation qui autorise la spécification du lot, à condition que la structure de niveau de hiérarchie soit la même dans les deux hiérarchies. Utilisez la foction **Modifier la hiérarchie de réservation pour les articles** pour effectuer la réaffectation. Cette modification peut être pertinente lorsque vous souhaitez empêcher la réservation de lots flexible pour un sous-ensemble d’articles suivis par lots, mais l’autorisez pour le reste du portefeuille de produits.
 
-Que vous ayez sélectionné ou non la case à cocher **Autoriser la réservation à la commande** , si vous ne souhaitez pas réserver un numéro de lot spécifique pour l’article sur une ligne de commande, la logique des opérations d’entrepôt par défaut qui est valide pour une hiérarchie de réservation « Batch-below\[location\] » s’applique toujours.
+Que vous ayez sélectionné ou non la case à cocher **Autoriser la réservation à la commande**, si vous ne souhaitez pas réserver un numéro de lot spécifique pour l’article sur une ligne de commande, la logique des opérations d’entrepôt par défaut qui est valide pour une hiérarchie de réservation « Batch-below\[location\] » s’applique toujours.
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Réserver un numéro de lot spécifique pour une commande client
 
@@ -102,19 +102,19 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
 
 1. Allez à **Gestion des entrepôts** \> **Configuration** \> **Stock \> Hiérarchie de réservation**.
 2. Sélectionnez **Nouveau**.
-3. Entrez un nom unique dans le champ **Nom** (par exemple **Lot-Flex** ).
-4. Dans le champ **Description** , entrez une description (par exemple **Lot, moins prioritaire, flexible** ).
-5. Dans le chanp **Sélectionné(s)** , sélectionnez **Numéro de série** et **Propriétaire** , puis sélectionnez le bouton fléché gauche pour les déplacer vers le champ **Disponible**.
+3. Entrez un nom unique dans le champ **Nom** (par exemple **Lot-Flex**).
+4. Dans le champ **Description**, entrez une description (par exemple **Lot, moins prioritaire, flexible**).
+5. Dans le chanp **Sélectionné(s)**, sélectionnez **Numéro de série** et **Propriétaire**, puis sélectionnez le bouton fléché gauche pour les déplacer vers le champ **Disponible**.
 6. Cliquez sur **OK**.
-7. Dans la rangée pour le niveau de dimension **Numéro du lot** , sélectionnez la case à cocher **Autoriser la réservation à la commande**. Les niveaux **Contenant** et **Emplacement** sont automatiquement sélectionnés et vous ne pouvez pas les désactiver.
+7. Dans la rangée pour le niveau de dimension **Numéro du lot**, sélectionnez la case à cocher **Autoriser la réservation à la commande**. Les niveaux **Contenant** et **Emplacement** sont automatiquement sélectionnés et vous ne pouvez pas les désactiver.
 8. Sélectionnez **Enregistrer**.
 
 ### <a name="create-a-new-released-product"></a>Créer un produit lancé
 
 1. Définissez les trois paramètres de données de base du produit en utilisant ces valeurs :
 
-    - Dans le champ **Groupe de dimension de stockage** , sélectionnez **Entrepôt**.
-    - Dans le champ **Groupe de dimension de suivi** , sélectionnez **Lot-Phy**.
+    - Dans le champ **Groupe de dimension de stockage**, sélectionnez **Entrepôt**.
+    - Dans le champ **Groupe de dimension de suivi**, sélectionnez **Lot-Phy**.
     - Sélectionnez **Lot-Flex** dans le champ **Hiérarchie de réservation**.
 
 2. Créez deux numéros de lot, tels que **B11** et **B22**.
@@ -130,23 +130,23 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
 
 1. Accédez à **Ventes et marketing** \> **Commandes client** \> **Toutes les commandes client**.
 2. Sélectionnez **Nouveau**.
-3. Dans l’en-tête de la commande client, dans le champ **Compte client** , entrez **US-003**.
+3. Dans l’en-tête de la commande client, dans le champ **Compte client**, entrez **US-003**.
 4. Ajoutez une ligne pour le nouvel article, puis entrez **10** comme quantité. Veillez à ce que le champ **Entrepôt** soit défini sur **24**.
-5. Dans l’organisateur **Lignes de commande client** , sélectionnez **Stock** , puis, dans le groupe **Mettre à jour** , sélectionnez **Réservation de lot**. La page **Réservation de lot** affiche la liste des lots disponibles à la réservation pour la ligne de commande. Pour cet exemple, elle montre une quantité de **20** pour le numéro de lot **B11** et une quantité de **10** pour le numéro de lot **B22**. Notez que la page **Réservation de lot** n’est pas accessible à partir d’une ligne si l’élément de cette ligne est associé à la hiérarchie de réservation « Batch-below\[location\] », sauf s’il est configuré pour autoriser une réservation spécifique au lot.
+5. Dans l’organisateur **Lignes de commande client**, sélectionnez **Stock**, puis, dans le groupe **Mettre à jour**, sélectionnez **Réservation de lot**. La page **Réservation de lot** affiche la liste des lots disponibles à la réservation pour la ligne de commande. Pour cet exemple, elle montre une quantité de **20** pour le numéro de lot **B11** et une quantité de **10** pour le numéro de lot **B22**. Notez que la page **Réservation de lot** n’est pas accessible à partir d’une ligne si l’élément de cette ligne est associé à la hiérarchie de réservation « Batch-below\[location\] », sauf s’il est configuré pour autoriser une réservation spécifique au lot.
 
     > [!NOTE]
     > Pour réserver un lot spécifique pour une commande client, vous devez utiliser la page **Réservation de lot**.
     >
     > Si vous saisissez le numéro de lot directement sur la ligne de commande client, le système se comportera comme si vous aviez entré une valeur de lot spécifique pour un article soumis à la politique de réservation « Batch-below\[location\] ». Lorsque vous enregistrez la ligne, vous recevrez un message d’avertissement. Si vous confirmez que le numéro de lot doit être spécifié directement sur la ligne de commande, la ligne ne sera pas gérée par la logique de gestion d’entrepôt standard.
     >
-    > Si vous réservez la quantité à partir de la page **Réservation** , aucun lot spécifique ne sera réservé et l’exécution des opérations d’entrepôt pour la ligne suivra les règles applicables dans le cadre de la politique de réservation « Batch-below\[location\] ».
+    > Si vous réservez la quantité à partir de la page **Réservation**, aucun lot spécifique ne sera réservé et l’exécution des opérations d’entrepôt pour la ligne suivra les règles applicables dans le cadre de la politique de réservation « Batch-below\[location\] ».
 
     En général, cette page fonctionne et interagit de la même manière qu’elle fonctionne et interagit pour les articles qui ont une hiérarchie de réservation associée de type « Batch-below\[location\] ». Cependant, les exceptions suivantes s’appliquent :
 
-    - L’organisateur **Numéros de lot validés sur la ligne source** affiche les numéros de lot réservés pour la ligne de commande. Les valeurs des lots dans la grille seront affichées tout au long du cycle d’exécution de la ligne de commande, y compris les étapes de traitement de l’entrepôt. En revanche, sur l’organisateur **Vue d’ensemble** , la réservation de ligne de commande normale (c’est-à-dire la réservation effectuée pour les dimensions au-dessus du niveau **Emplacement** ) est affichée dans la grille jusqu’au moment où le travail d’entrepôt est créé. L’entité de travail prend alors en charge la réservation de ligne, et la réservation de ligne n’apparaît plus sur la page. L’organisateur **Numéros de lot validés sur la ligne source** permet de garantir que le processeur de commande client peut afficher les numéros de lot qui ont été validés pour la commande du client à tout moment au cours de son cycle de vie, jusqu’à la facturation.
+    - L’organisateur **Numéros de lot validés sur la ligne source** affiche les numéros de lot réservés pour la ligne de commande. Les valeurs des lots dans la grille seront affichées tout au long du cycle d’exécution de la ligne de commande, y compris les étapes de traitement de l’entrepôt. En revanche, sur l’organisateur **Vue d’ensemble**, la réservation de ligne de commande normale (c’est-à-dire la réservation effectuée pour les dimensions au-dessus du niveau **Emplacement**) est affichée dans la grille jusqu’au moment où le travail d’entrepôt est créé. L’entité de travail prend alors en charge la réservation de ligne, et la réservation de ligne n’apparaît plus sur la page. L’organisateur **Numéros de lot validés sur la ligne source** permet de garantir que le processeur de commande client peut afficher les numéros de lot qui ont été validés pour la commande du client à tout moment au cours de son cycle de vie, jusqu’à la facturation.
     - En plus de réserver un lot spécifique, un utilisateur peut sélectionner manuellement l’emplacement spécifique et le contenant du lot au lieu de laisser le système les sélectionner automatiquement. Cette capacité est liée à la conception du mécanisme de réservation de lots validé par la commande. Comme mentionné plus haut, lorsqu’un numéro de lot est réservé pour un article selon la politique de réservation « Batch-below\[location\] », le système doit réserver toutes les dimensions jusqu’à l’emplacement. Par conséquent, le travail d’entrepôt comportera les mêmes dimensions de stockage qui ont été réservées par les utilisateurs qui ont travaillé sur les commandes, et parfois cela ne correspond pas à l’emplacement de stockage de l’article le plus pratique, voire ce choix est impossible pour les opérations de prélèvement. Si les processeurs de la commande sont conscients des contraintes de l’entrepôt, ils peuvent sélectionner manuellement les emplacements spécifiques et les contenants lorsqu’ils réservent un lot. Dans ce cas, l’utilisateur doit utiliser la fonction **Afficher les dimensions** sur l’en-tête de la page et doit ajouter l’emplacement et le contenant dans la grille de l’organisateur **Vue d’ensemble**.
 
-6. Sur la page **Réservation de lot** , sélectionnez la ligne pour le lot **B11** , puis sélectionnez **Réserver une ligne**. Il n’y a pas de logique désignée pour attribuer des emplacements et des contenants lors de la réservation automatique. Vous pouvez saisir manuellement la quantité dans le champ **Réservation**. Notez que, sur l’organisateur **Numéros de lot validés sur la ligne source** , le lot **B11** est affiché comme **Validé**.
+6. Sur la page **Réservation de lot**, sélectionnez la ligne pour le lot **B11**, puis sélectionnez **Réserver une ligne**. Il n’y a pas de logique désignée pour attribuer des emplacements et des contenants lors de la réservation automatique. Vous pouvez saisir manuellement la quantité dans le champ **Réservation**. Notez que, sur l’organisateur **Numéros de lot validés sur la ligne source**, le lot **B11** est affiché comme **Validé**.
 
     ![Validation d’un numéro de lot spécifique sur une ligne de commande client sur la page de réservation de lot](media/Batch-reservation-form-with-order-committed-reservation.png)
 
@@ -168,7 +168,7 @@ Pour cet exemple, il convient d’avoir des données de démonstration installé
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Examiner et traiter le travail en entrepôt dont les numéros de lot sont validés par la commande
 
-1. Sur l’organisateur **Lignes de commande client** , sélectionnez **Entrepôt** \>**Détails du travail**.
+1. Sur l’organisateur **Lignes de commande client**, sélectionnez **Entrepôt** \>**Détails du travail**.
 
     Le travail qui gère l’opération de prélèvement pour les quantités de lots validées sur la ligne de commande client présente les caractéristiques suivantes :
 
@@ -212,9 +212,9 @@ Pour activer la réservation de contenant sur une commande, vous devez activer l
 
 ![Page Hiérarchies de réservation de stock pour une hiérarchie de réservation de contenant flexible](media/Flexible-LP-reservation-hierarchy.png)
 
-Vous pouvez activer la réservation de contenant sur la commande à n’importe quel moment de votre déploiement. Cette modification n’affectera pas les réservations ou les travaux d’entrepôt en cours créés avant la modification. Cependant, vous ne pouvez pas désactiver la case à cocher **Autoriser la réservation sur ordre de la commande** s’il existe des mouvements de stock sortants en cours présentant le statut de sortie *En commande* , *Commandé réservé* ou *Physique réservé* pour un ou plusieurs articles associés à cette hiérarchie de réservation.
+Vous pouvez activer la réservation de contenant sur la commande à n’importe quel moment de votre déploiement. Cette modification n’affectera pas les réservations ou les travaux d’entrepôt en cours créés avant la modification. Cependant, vous ne pouvez pas désactiver la case à cocher **Autoriser la réservation sur ordre de la commande** s’il existe des mouvements de stock sortants en cours présentant le statut de sortie *En commande*, *Commandé réservé* ou *Physique réservé* pour un ou plusieurs articles associés à cette hiérarchie de réservation.
 
-Même si la case à cocher **Autoriser la réservation sur ordre de la demande** est activée pour le niveau **Contenant** , il est toujours possible de *ne pas* réserver un contenant spécifique sur la commande. Dans ce cas, la logique des opérations en entrepôt par défaut valide pour la hiérarchie de réservation s’applique.
+Même si la case à cocher **Autoriser la réservation sur ordre de la demande** est activée pour le niveau **Contenant**, il est toujours possible de *ne pas* réserver un contenant spécifique sur la commande. Dans ce cas, la logique des opérations en entrepôt par défaut valide pour la hiérarchie de réservation s’applique.
 
 Pour réserver un contenant spécifique, vous devez utiliser un processus [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Dans l’application, vous pouvez effectuer cette réservation directement à partir d’une commande client en utilisant l’option **Réservations validées par commande par contenant** de la commande **Ouvrir dans Excel**. Dans les données d’entité ouvertes dans le complément Excel, vous devez entrer les données de réservation suivantes, puis sélectionner **Publier** pour renvoyer les données à Supply Chain Management :
 
@@ -224,7 +224,7 @@ Pour réserver un contenant spécifique, vous devez utiliser un processus [Open 
 - Contenant
 - Quantité
 
-Si vous devez réserver un contenant spécifique pour un article suivi par lot, utilisez la page **Réservation de lot** , comme décrit dans la section [Entrer les détails de la commande client](#sales-order-details).
+Si vous devez réserver un contenant spécifique pour un article suivi par lot, utilisez la page **Réservation de lot**, comme décrit dans la section [Entrer les détails de la commande client](#sales-order-details).
 
 Lorsque la ligne de commande client qui utilise une réservation de contenant validée par commande est traitée par les opérations en entrepôt, les instructions d’emplacement ne sont pas utilisées.
 
@@ -249,19 +249,19 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
 
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Stock \> Hiérarchie de réservation**.
 1. Sélectionnez **Nouveau**.
-1. Dans le champ **Nom** , entrez une valeur (par exemple *FlexibleLP* ).
-1. Dans le champ **Description** , entrez une valeur (par exemple *Réservation de contenant flexible* ).
-1. Dans la liste **Sélectionné** , sélectionnez **Numéro de lot** , **Numéro de série** et **Propriétaire**.
+1. Dans le champ **Nom**, entrez une valeur (par exemple *FlexibleLP*).
+1. Dans le champ **Description**, entrez une valeur (par exemple *Réservation de contenant flexible*).
+1. Dans la liste **Sélectionné**, sélectionnez **Numéro de lot**, **Numéro de série** et **Propriétaire**.
 1. Cliquez sur le bouton **Supprimer** ![flèche vers l’arrière](media/backward-button.png) pour déplacer les enregistrements sélectionnés vers la liste **Disponible**.
 1. Cliquez sur **OK**.
-1. Dans la ligne du niveau de dimension **Contenant** , activez la case à cocher **Autoriser la réservation sur ordre de la commande**. Le niveau **Emplacement** est automatiquement sélectionné et vous ne pouvez pas le désactiver.
+1. Dans la ligne du niveau de dimension **Contenant**, activez la case à cocher **Autoriser la réservation sur ordre de la commande**. Le niveau **Emplacement** est automatiquement sélectionné et vous ne pouvez pas le désactiver.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="create-two-released-products"></a>Créer deux produits lancés
 
 1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Nouveau produit lancé** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Nouveau produit lancé**, définissez les valeurs suivantes :
 
     - **Numéro de produit :** *Article1*
     - **Numéro d’article :** *Article1*
@@ -272,9 +272,9 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
     - **Hiérarchie de réservation :** *FlexibleLP*
 
 1. Cliquez sur **OK** pour créer le produit et fermer la boîte de dialogue.
-1. Le nouveau produit est ouvert. Dans l’organisateur **Entrepôt** , définissez le champ **ID groupe de séquences d’unités** sur *ea*.
+1. Le nouveau produit est ouvert. Dans l’organisateur **Entrepôt**, définissez le champ **ID groupe de séquences d’unités** sur *ea*.
 1. Répétez les étapes précédentes pour créer un deuxième produit avec les mêmes paramètres, mais définissez les champs **Numéro de produit** et **Numéro d’article** sur *Article2*.
-1. Dans le volet Actions, dans l’onglet **Gérer le stock** , dans le groupe **Afficher** , sélectionnez **Stock disponible**. Sélectionnez ensuite **Ajustement de la quantité**.
+1. Dans le volet Actions, dans l’onglet **Gérer le stock**, dans le groupe **Afficher**, sélectionnez **Stock disponible**. Sélectionnez ensuite **Ajustement de la quantité**.
 1. Ajustez le stock disponible des nouveaux articles comme indiqué dans le tableau suivant.
 
     | Article  | Entrepôt | Entrepôt | Contenant | Quantité |
@@ -291,13 +291,13 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
     - **Compte client :** *US-001*
     - **Entrepôt :** *24*
 
 1. Cliquez sur **OK** pour fermer la boîte de dialogue **Créer une commande client** et ouvrez la nouvelle commande client.
-1. Dans l’organisateur **Lignes de commande client** , ajoutez une ligne présentant les paramètres suivants :
+1. Dans l’organisateur **Lignes de commande client**, ajoutez une ligne présentant les paramètres suivants :
 
     - **Numéro d’article :** *Article1*
     - **Quantité :** *10*
@@ -308,14 +308,14 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
     - **Quantité :** *5*
 
 1. Sélectionnez **Enregistrer**.
-1. Dans l’organisateur **Détails de la ligne** , dans l’onglet **Paramétrage** , notez la valeur **N° de lot** pour chaque ligne. Ces valeurs seront requises lors de la réservation de contenants spécifiques.
+1. Dans l’organisateur **Détails de la ligne**, dans l’onglet **Paramétrage**, notez la valeur **N° de lot** pour chaque ligne. Ces valeurs seront requises lors de la réservation de contenants spécifiques.
 
     > [!NOTE]
-    > Pour réserver un contenant spécifique, vous devez utiliser l’entité de données **Réservations validées par commande par contenant**. Pour réserver un article suivi par lot sur un contenant spécifique, vous pouvez également utiliser la page **Réservation de lot** , comme décrit dans la section [Entrer les détails de la commande client](#sales-order-details).
+    > Pour réserver un contenant spécifique, vous devez utiliser l’entité de données **Réservations validées par commande par contenant**. Pour réserver un article suivi par lot sur un contenant spécifique, vous pouvez également utiliser la page **Réservation de lot**, comme décrit dans la section [Entrer les détails de la commande client](#sales-order-details).
     >
     > Si vous entrez le contenant directement sur la ligne de commande client et le confirmez au système, le traitement de la gestion des entrepôts n’est pas utilisé pour la ligne.
 
-1. Sélectionnez **Ouvrir dans Microsoft Office** , sélectionnez **Réservations validées par commande par contenant** et téléchargez le fichier.
+1. Sélectionnez **Ouvrir dans Microsoft Office**, sélectionnez **Réservations validées par commande par contenant** et téléchargez le fichier.
 1. Ouvrez le fichier téléchargé dans Excel et sélectionnez **Activer la modification** pour activer l’exécution du complément Excel.
 1. Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire**.
 1. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour Supply Chain Management.
@@ -337,17 +337,17 @@ Ce scénario fait référence à des valeurs et des enregistrements inclus dans 
     > La ligne de réservation ne s’affiche dans le système que si la publication est terminée sans erreurs.
 
 1. Revenez à Supply Chain Management. 
-1. Pour consulter la réservation de l’article, dans l’organisateur **Lignes de commande client** , dans le menu **Stock** , sélectionnez **Mettre à jour \> Réservation**. Notez que, pour la ligne de commande client associée à *Article1* , un stock de *10* est réservé, et pour la ligne de commande client associée à *Article2* , un stock de *5* est réservé.
-1. Pour consulter les mouvements de stock liés à la réservation de la ligne de commande client, dans l’organisateur **Lignes de commande client** , dans le menu **Stock** , sélectionnez **Afficher \> Transactions**. Notez que deux transactions sont liées à la réservation : une où le champ **Référence** est défini sur *Commande client* et une où le champ **Référence** est défini sur *Réservation validée par commande*.
+1. Pour consulter la réservation de l’article, dans l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Mettre à jour \> Réservation**. Notez que, pour la ligne de commande client associée à *Article1*, un stock de *10* est réservé, et pour la ligne de commande client associée à *Article2*, un stock de *5* est réservé.
+1. Pour consulter les mouvements de stock liés à la réservation de la ligne de commande client, dans l’organisateur **Lignes de commande client**, dans le menu **Stock**, sélectionnez **Afficher \> Transactions**. Notez que deux transactions sont liées à la réservation : une où le champ **Référence** est défini sur *Commande client* et une où le champ **Référence** est défini sur *Réservation validée par commande*.
 
     > [!NOTE]
     > Une transaction où le champ **Référence** est défini sur *Commande client* représente la réservation de la ligne de commande pour les dimensions de stock situées au-dessus du niveau **Emplacement** (site, entrepôt et statut du stock). Une transaction où le champ **Référence** est défini sur *Réservation validée par commande* représente la réservation de la ligne de commande pour le contenant et l’emplacement spécifiques.
 
-1. Pour libérer la commande client, dans le volet Actions, dans l’onglet **Entrepôt** , dans le groupe **Actions** , sélectionnez **Libérer dans l’entrepôt**.
+1. Pour libérer la commande client, dans le volet Actions, dans l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Examiner et traiter le travail en entrepôt avec des contenants validés par commande attribués
 
-1. Dans l’organisateur **Lignes de commande client** , dans le menu **Entrepôt** , sélectionnez **Détails du travail**.
+1. Dans l’organisateur **Lignes de commande client**, dans le menu **Entrepôt**, sélectionnez **Détails du travail**.
 
     Comme lorsque la réservation est effectuée pour un lot spécifique, le système n’utilise pas d’instructions d’emplacement lorsqu’il crée le travail pour la commande client qui utilise la réservation de contenant. Comme la réservation validée par commande spécifie toutes les dimensions de stock, notamment l’emplacement, il n’est pas nécessaire d’utiliser les instructions d’emplacement, car ces dimensions de stock sont simplement entrées dans le travail. Elles sont affichées dans la section **Des dimensions de stock** de la page **Mouvements de stock des travaux**.
 
@@ -375,17 +375,17 @@ Un exemple de ce scénario est une situation où un travail précédemment termi
 
 1. Allez à **Gestion des entrepôts** \> **Charges** \> **Chargements actifs**.
 2. Sélectionnez le chargement créé lors de l’expédition de votre commande client.
-3. Dans l’organisateur **Charger des lignes de commande** , sélectionnez **Réduire la quantité prélevée**.
-4. Sur la page **RRéduire la quantité prélevée** , dans le champ **Déplacer vers l’emplacement** , sélectionnez **FL-001**.
-5. Dans le champ **Déplacer vers le contenant** , sélectionnez **LP33**.
-6. Dans la grille, dans le champ **Quantité en stock à ne pas prélever** , entrez **10**.
+3. Dans l’organisateur **Charger des lignes de commande**, sélectionnez **Réduire la quantité prélevée**.
+4. Sur la page **RRéduire la quantité prélevée**, dans le champ **Déplacer vers l’emplacement**, sélectionnez **FL-001**.
+5. Dans le champ **Déplacer vers le contenant**, sélectionnez **LP33**.
+6. Dans la grille, dans le champ **Quantité en stock à ne pas prélever**, entrez **10**.
 7. Cliquez sur **OK**.
 
 Voici les résultats de l’action de non prélèvement :
 
 - Le statut du travail précédemment clôturé est défini sur **Annulé**.
 - Un nouveau travail de type **Mouvement de stock** est créé pour la quantité non prélevée de **10** pour le numéro de lot **B11**. Ce travail représente le mouvement de l’emplacement **Baydoor** vers le contenant **LP33** à l’emplacement **FL-001**. Le statut est défini sur **Clôturé**.
-- Le système réserve à nouveau le numéro de lot qui avait été initialement commandé et attribue l’emplacement et les ID de contenant. (Ce processus équivaut à exécuter la fonction **Réserver une ligne** pour la ligne de commande pour un numéro de lot donné). En conséquence, le lot **B11** apparaît comme validé sur l’organisateur **Numéros de lot validés sur la ligne source** de la page **Réservation de lot** et le champ **Réservation** contient une quantité de **10** pour le numéro de lot **B11**. De plus, l’ **Emplacement** est défini sur **FL-001** , et le champ **Contenant** est défini sur **LP11**. (Vous pouvez ajouter ces champs à la grille s’ils ne sont pas visibles.)
+- Le système réserve à nouveau le numéro de lot qui avait été initialement commandé et attribue l’emplacement et les ID de contenant. (Ce processus équivaut à exécuter la fonction **Réserver une ligne** pour la ligne de commande pour un numéro de lot donné). En conséquence, le lot **B11** apparaît comme validé sur l’organisateur **Numéros de lot validés sur la ligne source** de la page **Réservation de lot** et le champ **Réservation** contient une quantité de **10** pour le numéro de lot **B11**. De plus, l’**Emplacement** est défini sur **FL-001**, et le champ **Contenant** est défini sur **LP11**. (Vous pouvez ajouter ces champs à la grille s’ils ne sont pas visibles.)
 
 Les tableaux suivants fournissent une vue d’ensemble qui montre comment le système gère la réservation par lots validée par la commande pour des actions d’entrepôt spécifiques. Pour interpréter le contenu des tableaux, supposez que chaque action d’entrepôt est exécutée dans le contexte d’un travail d’entrepôt existant provenant d’une réservation par lots validée par une commande, ou que l’exécution de chaque action d’entrepôt affecte un travail de ce type.
 
@@ -512,7 +512,7 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
 #### <a name="move-an-item-within-a-warehouse"></a>Déplacer un article dans un entrepôt
 
 > [!NOTE]
-> Cette action d’entrepôt ne s’applique qu’au mouvement de type **Processus de création du travail** , pas au mouvement par modèle.
+> Cette action d’entrepôt ne s’applique qu’au mouvement de type **Processus de création du travail**, pas au mouvement par modèle.
 
 <table>
 <thead>

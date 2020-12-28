@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018673"
+ms.locfileid: "4428324"
 ---
 # <a name="purchase-requisition-overview"></a>Présentation des demandes d'achat
 
@@ -36,7 +36,7 @@ En fonction du paramétrage de votre organisation, vous pouvez créer des demand
 Une fois la demande d'achat approuvée, vous pouvez l'utiliser pour créer une commande fournisseur. Les commandes fournisseur sont des documents externes que le département Achats soumet aux fournisseurs.
 
 ## <a name="creating-purchase-requisitions"></a>Création de demandes d'achat
-Vous pouvez créer une demande d'achat sur la page **Mes demandes d'achat** , et sélectionner les articles et les services dont vous avez besoin. Vous pouvez sélectionner des articles dans un catalogue d'approvisionnement créé par votre organisation, ou demander des articles ne faisant pas partie d'un catalogue, en sélectionnant une catégorie d'approvisionnement et en entrant les détails de ces produits.  
+Vous pouvez créer une demande d'achat sur la page **Mes demandes d'achat**, et sélectionner les articles et les services dont vous avez besoin. Vous pouvez sélectionner des articles dans un catalogue d'approvisionnement créé par votre organisation, ou demander des articles ne faisant pas partie d'un catalogue, en sélectionnant une catégorie d'approvisionnement et en entrant les détails de ces produits.  
 
 Avant de pouvoir envoyer une demande d'achat pour révision, les workflows doivent être configurés. Vous utilisez le système de workflow pour déplacer une demande d'achat via le processus de révision, depuis le statut initial **Brouillon** vers le statut final **Approbation**.
 

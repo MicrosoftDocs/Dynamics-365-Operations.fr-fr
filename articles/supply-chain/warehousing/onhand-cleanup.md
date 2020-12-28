@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015939"
+ms.locfileid: "4428273"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Tâche de nettoyage des entrées disponibles de la gestion de l'entrepôt
 
@@ -54,7 +54,7 @@ Les utilisateurs peuvent être affectés si la tâche de nettoyage des entrées 
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Rendre disponible le paramètre Durée maximale d'exécution
 
-Par défaut, le paramètre **Durée maximale d'exécution** n'est pas disponible. Si vous voulez l'utiliser, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer la fonction associée dans votre système. Dans l'espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
+Par défaut, le paramètre **Durée maximale d'exécution** n'est pas disponible. Si vous voulez l'utiliser, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer la fonction associée dans votre système. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Durée d'exécution maximale pour la tâche de nettoyage des entrées disponibles de gestion de l'entrepôt*

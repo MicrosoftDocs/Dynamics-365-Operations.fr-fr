@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cead310eaa86d755399e512f99d6782bfa551211
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018857"
+ms.locfileid: "4428212"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Accusé de réception de marchandises et commandes fournisseur
 
@@ -42,7 +42,7 @@ L'enregistrement de l'accusé de réception de marchandises se produit souvent s
 Les produits qui sont reçus dans un entrepôt peuvent passer par contrôle de la qualité avant d'être rangés dans le stock. Les ordres de qualité ou les ordres de contrôle peuvent servir à effectuer des inspections de qualité. Si des ordres de qualité sont utilisés, vous pouvez configurer le processus pour bloquer temporairement des produits via une réservation pendant qu’ils sont inspectés. Si des ordres de contrôle sont utilisés, les produits sont déplacés vers un autre entrepôt pour l’inspection. Cet entrepôt est appelé l'entrepôt de contrôle. Dans les deux processus d’inspection de la qualité, certaines des marchandises peuvent être mises au rebut, parce qu’elles ne répondent pas aux attentes de qualité ou parce que l’inspection de la qualité implique des tests destructifs d’échantillons de produits.
 
 ## <a name="product-receipt"></a>Accusé de réception de marchandises
-Le plus souvent, l'action **Accusé de réception de marchandises** sur la page **Commandes fournisseur** sert à marquer des produits comme **Reçus** sur la commande fournisseur. La page **Validation de l'accusé de réception de produits** comporte diverses options pour la quantité qui est prises en compte comme reçue. Par exemple, vous pouvez définir le champ **Quantité** sur **Quantité commandée** ou **Quantité à recevoir maintenant**. Sinon, si un processus d’arrivée à l'entrepôt a été utilisé, vous définirez souvent ce champ sur **Quantité enregistrée**. Vous pouvez modifier les quantités sur chaque ligne de commande qui seront marquées comme **Reçues** , pour tenir compte de toutes les différences, par exemple de livraison excédentaire et de livraison incomplète. Lors de la réception des marchandises, vous devez spécifier un identificateur de l'accusé de réception de marchandises, qui fait généralement référence au bon de livraison du fournisseur. Cet identificateur est nécessaire pour la comptabilité, car il permet de contrôler ou d'auditer les bons de livraison des fournisseurs par rapport à ce qui a été reçu, et le stock et les frais comptabilisés.  
+Le plus souvent, l'action **Accusé de réception de marchandises** sur la page **Commandes fournisseur** sert à marquer des produits comme **Reçus** sur la commande fournisseur. La page **Validation de l'accusé de réception de produits** comporte diverses options pour la quantité qui est prises en compte comme reçue. Par exemple, vous pouvez définir le champ **Quantité** sur **Quantité commandée** ou **Quantité à recevoir maintenant**. Sinon, si un processus d’arrivée à l'entrepôt a été utilisé, vous définirez souvent ce champ sur **Quantité enregistrée**. Vous pouvez modifier les quantités sur chaque ligne de commande qui seront marquées comme **Reçues**, pour tenir compte de toutes les différences, par exemple de livraison excédentaire et de livraison incomplète. Lors de la réception des marchandises, vous devez spécifier un identificateur de l'accusé de réception de marchandises, qui fait généralement référence au bon de livraison du fournisseur. Cet identificateur est nécessaire pour la comptabilité, car il permet de contrôler ou d'auditer les bons de livraison des fournisseurs par rapport à ce qui a été reçu, et le stock et les frais comptabilisés.  
 
 Des CF peuvent être créés pour les marchandises qui ne sont pas destinées au stock mais qui sont considérées comme une dépense. Cette catégorie comprend les lignes de commande où les marchandises sont marquées comme **Non stockés** par leur groupe de modèles de stock et les lignes qui utilisent des catégories d’approvisionnement. Dans ce cas, les articles ne peuvent pas passer par l'enregistrement des arrivées et l’accusé de réception dans l’entrepôt. Au lieu de cela, l'action **Accusé de réception de marchandises** est utilisée pour enregistrer la réception directement sur la CF et l’accusé de réception est basé sur la quantité commandée, pas sur une quantité enregistrée.  
 

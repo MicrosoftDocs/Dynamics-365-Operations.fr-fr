@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016238"
+ms.locfileid: "4428250"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Annuler le travail d'entrepôt pour le traitement des exceptions
 
@@ -29,7 +29,7 @@ ms.locfileid: "4016238"
 
 La fonctionnalité Annuler le travail dans Microsoft Dynamics 365 Supply Chain Management permet à l'utilisateur administrateur d'annuler un travail d'entrepôt spécifique en cours, mais qui est bloqué par le système ou ne peut pas être exécuté en raison de les circonstances exceptionnelles. Cette fonctionnalité est une offre attractive et sécurisée autre que les scripts correctifs SQL qui résolvent des données incohérentes. Toutefois, alors que ces scripts sont généralement demandés par des professionnels de l'informatique, la fonctionnalité Annuler le travail peut être utilisée par les utilisateurs de la société disposant de droits d'administrateur.
 
-Vous pouvez accéder à la fonctionnalité Annuler le travail dans **Gestion des entrepôts** \> **Tâches périodiques** \> **Nettoyer \> Annuler le travail**. Dans la boîte de dialogue **Annuler le travail** , spécifiez l'ID travail du travail à annuler, puis sélectionnez **OK**.
+Vous pouvez accéder à la fonctionnalité Annuler le travail dans **Gestion des entrepôts** \> **Tâches périodiques** \> **Nettoyer \> Annuler le travail**. Dans la boîte de dialogue **Annuler le travail**, spécifiez l'ID travail du travail à annuler, puis sélectionnez **OK**.
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>Travail d'entrepôt pouvant être annulé
 
@@ -40,7 +40,7 @@ Contrairement à une fonctionnalité Annuler standard à laquelle on accède via
 > [!NOTE]
 > Pour le travail qui doit être annulé pour des raisons opérationnelles, les utilisateurs d'entrepôts doivent continuer à utiliser la fonctionnalité Annuler standard sur la page de travail.
 
-Seul le travail de type **Ventes** , **Sortie de transfert** , **Prélèvement de matières premières** ou **Réapprovisionnement** peut être annulé à l'aide de la fonctionnalité Annuler le travail. La logique d'annulation n'est pas exécutée sur le travail de prélèvement de matières premières surgelées ou le travail qui peut être annulé en utilisant la fonctionnalité Annuler standard (voir la note précédente).
+Seul le travail de type **Ventes**, **Sortie de transfert**, **Prélèvement de matières premières** ou **Réapprovisionnement** peut être annulé à l'aide de la fonctionnalité Annuler le travail. La logique d'annulation n'est pas exécutée sur le travail de prélèvement de matières premières surgelées ou le travail qui peut être annulé en utilisant la fonctionnalité Annuler standard (voir la note précédente).
 
 Pour débloquer le travail, le système annule toutes les lignes de travail restantes et corrige les données d'entrepôt associées à l'ID travail que l'utilisateur a spécifié. Toutes les opérations de gestion en entrepôt standard qui impliquent la quantité d'article affectée peuvent alors continuer.
 

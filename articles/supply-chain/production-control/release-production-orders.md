@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc6d53fc87bac2e23c0d1e67954be02749042004
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211236"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428166"
 ---
 # <a name="release-production-orders"></a>Lancement des ordres de fabrication
 
@@ -38,7 +38,7 @@ Un ordre de fabrication lancé est une commande qui a été autorisée pour la p
 L'état **Lancé** est un état du cycle de vie de l'ordre de fabrication. Les ordres de fabrication dont l'état est **Lancé** sont disponibles pour exécution dans l'atelier de production et pour les processus de l'entrepôt. L'état **Lancé** a les caractéristiques suivantes :
 
 -   Un ordre de fabrication peut passer à l'état **Lancé** à partir de l'ordre de fabrication ou à l'aide d'un processus de traitement par lots. L'ordre de fabrication peut être également mis à jour automatiquement à partir des ordres de fabrication prévisionnels qui sont confirmés à l'aide du champ **Plage de gestion de la confirmation** sur la page **Plan général**.
--   L'état **Lancé**est le signal pour les opérateurs de l'atelier (opérateurs) afin de démarrer l'exécution des tâches de production dans l'atelier.
+-   L'état **Lancé** est le signal pour les opérateurs de l'atelier (opérateurs) afin de démarrer l'exécution des tâches de production dans l'atelier.
 -   Les documents de production tels que les fiches production, les tâches de gamme et les bons de travail offrent les informations relatives aux tâches de production et peuvent être publiés.
 -   Pour les matières réservées physiquement, le travail à l'entrepôt est généré pour prélever les matières pour l'ordre de fabrication.
 

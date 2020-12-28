@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017228"
+ms.locfileid: "4428233"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l'entrepôt
 
@@ -46,7 +46,7 @@ Pour une démonstration rapide du lancement des lignes de nomenclature et de for
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Lancement des lignes de nomenclature et de formule à l'aide d'un traitement par lots
 
-Le traitement par lots **Lancement automatique des lignes de nomenclature et de formule** parcourt les lignes de nomenclature et de formule sélectionnées qui ont une quantité restante à lancer. Il ne tient compte que des commandes qui ont le statut **Lancé** , **Commencé** ou **Déclaré terminé**. Si une ligne de nomenclature ou de formule a une quantité restante à lancer, le traitement par lots procède au lancement à hauteur de la quantité pouvant être couverte par la quantité qui a déjà été physiquement réservée et la quantité physiquement disponible.
+Le traitement par lots **Lancement automatique des lignes de nomenclature et de formule** parcourt les lignes de nomenclature et de formule sélectionnées qui ont une quantité restante à lancer. Il ne tient compte que des commandes qui ont le statut **Lancé**, **Commencé** ou **Déclaré terminé**. Si une ligne de nomenclature ou de formule a une quantité restante à lancer, le traitement par lots procède au lancement à hauteur de la quantité pouvant être couverte par la quantité qui a déjà été physiquement réservée et la quantité physiquement disponible.
 
 ### <a name="example-of-a-batch-job-release"></a>Exemple de lancement d'un traitement par lots
 
@@ -60,7 +60,7 @@ Le traitement par lots **Lancement automatique des lignes de nomenclature et de 
 
 ### <a name="batch-job-setup"></a>Paramétrage du traitement par lots
 
-Dans la requête du traitement par lots **Lancement automatique des lignes de nomenclature et de formule** , vous pouvez paramétrer un critère de filtre pour spécifier le nombre de jours pendant lesquels le traitement par lots doit rechercher des lignes avec des quantités non lancées. Dans la requête du traitement par lot, dans le champ **Date de conso. prévue** , utilisez la fonction **(LessThanDate())** comme critère de filtre.
+Dans la requête du traitement par lots **Lancement automatique des lignes de nomenclature et de formule**, vous pouvez paramétrer un critère de filtre pour spécifier le nombre de jours pendant lesquels le traitement par lots doit rechercher des lignes avec des quantités non lancées. Dans la requête du traitement par lot, dans le champ **Date de conso. prévue**, utilisez la fonction **(LessThanDate())** comme critère de filtre.
 
 L'illustration suivante présente un ordre de fabrication qui a deux traitements par lot, 10 et 20, qui couvrent l'assembly et l'emballage pour l'ordre de fabrication. Chaque traitement par lot est paramétré pour consommer une quantité de matières. Dans cette illustration, la plage de lancement indiquée par la flèche verte sous la ligne de temps correspond au nombre de jours spécifiés dans le critère **(LessThanDate())**. Par exemple, **(LessThanDate(2))** indique que le traitement par lot doit rechercher des quantités non lancées uniquement dans une plage de deux jours.
 
@@ -68,7 +68,7 @@ L'illustration suivante présente un ordre de fabrication qui a deux traitements
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Lancement de matières par numéro d'opération ou sur la base de la quantité de produits finis
 
-Si vous lancez des matières à l'aide du paramètre **Au lancement de l'ordre de fabrication** , lorsque vous effectuez un lancement manuel, deux options permettent de contrôler le lancement des matières :
+Si vous lancez des matières à l'aide du paramètre **Au lancement de l'ordre de fabrication**, lorsque vous effectuez un lancement manuel, deux options permettent de contrôler le lancement des matières :
 
 - Lancez les matières par numéro d'opération.
 - Lancez les matières sur la base de la quantité de produits finis.
@@ -77,7 +77,7 @@ Si vous lancez des matières à l'aide du paramètre **Au lancement de l'ordre d
 
 Pour contrôler les opérations pour lesquelles des matières doivent être lancées, utilisez la page **Libérer dans l'entrepôt**.
 
-- Sélectionnez **Contrôle de la production** \> **Ordres de fabrication** \> **Tous les ordres de fabrication** , sélectionnez un ordre de fabrication, puis sous l'onglet **Entrepôt** , sélectionnez **Libérer dans l'entrepôt**. Utilisez ensuite les champs **Du n° opér.** et **Au n° opér.** pour spécifier la plage de numéros d'opération.
+- Sélectionnez **Contrôle de la production** \> **Ordres de fabrication** \> **Tous les ordres de fabrication**, sélectionnez un ordre de fabrication, puis sous l'onglet **Entrepôt**, sélectionnez **Libérer dans l'entrepôt**. Utilisez ensuite les champs **Du n° opér.** et **Au n° opér.** pour spécifier la plage de numéros d'opération.
 
 L'illustration suivante présente un ordre de fabrication contenant deux opérations, 10 et 20. Dans cet exemple, si vous limitez le lancement à l'opération 10, seules les matières M9203 sont lancées.
 
@@ -89,11 +89,11 @@ Pour une démonstration rapide du lancement des matières sur la base de la quan
 
 Vous pouvez lancer les matières premières pour une quantité partielle de produits finis ou dans une unité spécifique.
 
-- Pour lancer les matières pour une quantité partielle de produits finis, sélectionnez **Contrôle de la production** \> **Ordres de fabrication** \> **Tous les ordres de fabrication** , sélectionnez un ordre de fabrication, puis sous l'onglet **Entrepôt** , sélectionnez **Libérer dans l'entrepôt**. Entrez ensuite une quantité dans le champ **Quantité**.
+- Pour lancer les matières pour une quantité partielle de produits finis, sélectionnez **Contrôle de la production** \> **Ordres de fabrication** \> **Tous les ordres de fabrication**, sélectionnez un ordre de fabrication, puis sous l'onglet **Entrepôt**, sélectionnez **Libérer dans l'entrepôt**. Entrez ensuite une quantité dans le champ **Quantité**.
 
     Par exemple, un ordre de fabrication est créé et planifié pour 1 000 pièces. Le superviseur de l'atelier planifie la production de 100 pièces pour l'équipe de travail suivante et souhaite lancer les matières uniquement pour cette équipe de travail. Dans ce cas, le superviseur peut utiliser le champ **Quantité** pour lancer les matières pour les 100 pièces. prévues pour l'équipe de travail suivante.
 
-- Pour lancer les matières dans une unité spécifique, sélectionnez **Contrôle de la production** \> **Ordres de fabrication** \> **Tous les ordres de fabrication** , sélectionnez un ordre de fabrication, puis sous l'onglet **Entrepôt** , sélectionnez **Libérer dans l'entrepôt**. Utilisez ensuite le champ **Unité** pour sélectionner l'unité du produit fini dans laquelle lancer les matières.
+- Pour lancer les matières dans une unité spécifique, sélectionnez **Contrôle de la production** \> **Ordres de fabrication** \> **Tous les ordres de fabrication**, sélectionnez un ordre de fabrication, puis sous l'onglet **Entrepôt**, sélectionnez **Libérer dans l'entrepôt**. Utilisez ensuite le champ **Unité** pour sélectionner l'unité du produit fini dans laquelle lancer les matières.
 
     Les unités disponibles sont définies dans l'ID de groupe de séquences d'unités du produit fini.
 

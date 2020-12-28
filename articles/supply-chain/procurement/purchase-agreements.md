@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018834"
+ms.locfileid: "4428206"
 ---
 # <a name="purchase-agreements"></a>Contrats d’achat
 
@@ -33,7 +33,7 @@ Cet article fournit des informations sur les contrats d’achat. Un contrat d’
 
 Les contrats d’achat peuvent s’appliquer à une quantité spécifique d’un produit, à un montant en devise spécifique d’un produit ou à un montant en devise spécifique de produits d’une catégorie d’approvisionnement. Les prix et les remises du contrat d’achat sont prioritaires sur tous les autres prix et remises indiqués dans les autres contrats commerciaux pouvant exister.  
 
-Sur la page **Contrats d’achat** , vous pouvez créer, appliquer et suivre les contrats d’achat qui existent entre votre organisation et vos fournisseurs. Par exemple, après avoir créé un contrat d’achat, vous pouvez l’utiliser directement pour passer vos commandes. Pour chaque contrat d’achat, une période de validité est définie par la personne à l’origine de la création. La date de livraison d’un achat doit être comprise dans les dates de validité de cette période de validité.  
+Sur la page **Contrats d’achat**, vous pouvez créer, appliquer et suivre les contrats d’achat qui existent entre votre organisation et vos fournisseurs. Par exemple, après avoir créé un contrat d’achat, vous pouvez l’utiliser directement pour passer vos commandes. Pour chaque contrat d’achat, une période de validité est définie par la personne à l’origine de la création. La date de livraison d’un achat doit être comprise dans les dates de validité de cette période de validité.  
 
 Après avoir créé un contrat d’achat, vous devez l’activer pour qu’il prenne effet. Pour activer un contrat d’achat, définissez l’option **Marquer l’accord comme effectif** sur **Oui**. 
 
@@ -44,7 +44,7 @@ Pour éviter que votre contrat d’achat ne soit utilisé et confirmé, marquez 
 Vous pouvez identifier un collaborateur responsable principal et un collaborateur responsable secondaire dans la classification du contrat d’achat. Ces valeurs seront héritées par le contrat d’achat résultant. Vous n’êtes pas obligé d’ajouter des collaborateurs responsables au contrat d’achat, et ils peuvent être modifiés directement au cas par cas sur le contrat d’achat lui-même. Vous ne pouvez pas spécifier de collaborateur responsable secondaire sans collaborateur responsable principal, bien que vous n’ayez pas besoin d’avoir un collaborateur responsable secondaire. Vous ne pouvez pas spécifier le même collaborateur comme collaborateur responsable principal et secondaire.
 
 > [!IMPORTANT]
-> Avant de pouvoir utiliser la fonctionnalité de la partie responsable, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
+> Avant de pouvoir utiliser la fonctionnalité de la partie responsable, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 > 
 > - **Module :** *Approvisionnements*
 > - **Nom de la fonctionnalité :** *Partie responsable du contrat d’achat*

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018211"
+ms.locfileid: "4428312"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Résoudre les problèmes de prix, de remises, d'accords et de rabais
 
@@ -48,7 +48,7 @@ Le message est l'invite d'évaluation de l'accord commercial (TAE). Pour une des
 
 La procédure suivante montre comment reproduire le problème.
 
-1. Sur la page **Paramètres d'approvisionnements** , sur l'onglet **Livraison** , assurez-vous que l'option **Générer des frais sur l'accusé de réception de marchandises** est définie sur *Oui*.
+1. Sur la page **Paramètres d'approvisionnements**, sur l'onglet **Livraison**, assurez-vous que l'option **Générer des frais sur l'accusé de réception de marchandises** est définie sur *Oui*.
 1. Créez une commande fournisseur qui inclut des frais.
 1. Confirmez la commande fournisseur.
 1. Recevez la commande fournisseur.

@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017504"
+ms.locfileid: "4428280"
 ---
 # <a name="immediate-replenishment"></a>Réapprovisionnement immédiat
 
@@ -47,7 +47,7 @@ Le réapprovisionnement immédiat est utilisé pendant une exécution de vague s
 
 ## <a name="set-up-immediate-replenishment"></a>Paramétrer le réapprovisionnement immédiat
 
-- Accédez à **Gestion des entrepôts** \> **Paramétrage** \> **Instructions d'emplacement** , puis, dans l'onglet **Lignes** , dans la liste **Modèle de réapprovisionnement immédiat** , sélectionnez un modèle de réapprovisionnement pour la demande de vague.
+- Accédez à **Gestion des entrepôts** \> **Paramétrage** \> **Instructions d'emplacement**, puis, dans l'onglet **Lignes**, dans la liste **Modèle de réapprovisionnement immédiat**, sélectionnez un modèle de réapprovisionnement pour la demande de vague.
 
 Le modèle de réapprovisionnement est appliqué si la ligne d'instruction d'emplacement échoue à affecter une unité de mesure dédiée.
 

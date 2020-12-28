@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017159"
+ms.locfileid: "4428211"
 ---
 # <a name="location-product-dimension-mixing"></a>Association de dimensions de produit dans un emplacement
 
@@ -45,19 +45,19 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
 1. Allez dans **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Profils d'emplacement**.
 1. Dans la liste des profils d'emplacement, sélectionnez **BULK**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l'organisateur **Général** , définissez l'option **Activer l'association spécifique de dimensions de produit dans un emplacement** sur *Oui*.
+1. Dans l'organisateur **Général**, définissez l'option **Activer l'association spécifique de dimensions de produit dans un emplacement** sur *Oui*.
 
     > [!NOTE]
     > Vous pouvez définir cette option sur *Oui* uniquement si l'option **Autoriser les articles mixtes** est définie sur *Non*.
 
-1. Dans l'organisateur **Association de dimensions de produit autorisée** , définissez l'option **Taille** sur *Oui*. Dans le scénario décrit dans cette rubrique, l'association ne peut être effectuée que pour les produits dont les dimensions **Taille** sont différentes. Cependant, d'autres options sont également disponibles.
+1. Dans l'organisateur **Association de dimensions de produit autorisée**, définissez l'option **Taille** sur *Oui*. Dans le scénario décrit dans cette rubrique, l'association ne peut être effectuée que pour les produits dont les dimensions **Taille** sont différentes. Cependant, d'autres options sont également disponibles.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Créer un produit générique et des variantes de produit
 
 1. Allez dans **Gestion des informations sur les produits \> Produits \> Produits génériques**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer un produit générique.
-1. Dans la boîte de dialogue **Nouveau produit** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Nouveau produit**, définissez les valeurs suivantes :
 
     - **Type de produit :** *Article*
     - **Sous-type de produit :** *Produit générique*
@@ -67,7 +67,7 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
     - **Technologie de configuration :** *Variante prédéfinie*
 
 1. Cliquez sur **OK**.
-1. Sur la page **Détails du produit** , dans l'organisateur **Général** , définissez les valeurs suivantes :
+1. Sur la page **Détails du produit**, dans l'organisateur **Général**, définissez les valeurs suivantes :
 
     - **Générer les variantes automatiquement :** *Oui*
     - **Groupe de tailles :** *CASUALDHIR*
@@ -79,10 +79,10 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
 ### <a name="release-products-to-the-usmf-company"></a>Lancer des produits dans la société USMF
 
 1. Dans le volet Actions, sélectionnez **Lancer des produits**.
-1. Sur la page **Sélectionner des produits à lancer** , confirmez que le numéro de produit *B0001* est présent dans la liste, puis sélectionnez **Suivant**.
+1. Sur la page **Sélectionner des produits à lancer**, confirmez que le numéro de produit *B0001* est présent dans la liste, puis sélectionnez **Suivant**.
 1. Sélectionnez **Suivant** pour confirmer les variantes de produit à lancer.
-1. Sur la page **Sélectionner les sociétés vers lesquelles lancer** , sélectionnez *USMF* , puis sélectionnez **Suivant** pour confirmer la sélection.
-1. Sur la page **Confirmer la sélection** , sélectionnez **Terminer** pour terminer le lancement.
+1. Sur la page **Sélectionner les sociétés vers lesquelles lancer**, sélectionnez *USMF*, puis sélectionnez **Suivant** pour confirmer la sélection.
+1. Sur la page **Confirmer la sélection**, sélectionnez **Terminer** pour terminer le lancement.
 
     Vous recevez un message « Opération terminée ».
 
@@ -92,29 +92,29 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
 1. Allez dans **Gestion des informations sur les produits \> Produits \> Produits lancés** pour terminer la création du produit lancé.
 1. Recherchez et sélectionnez le numéro d'article *B0001* pour ouvrir la page **Détails des produits lancés**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans l'organisateur **Général** , assurez-vous que le champ **Groupe de modèles d'article** est défini sur *FIFO*.
-1. Dans le volet Actions, sous l'onglet **Produit** , dans le groupe **Paramétrer** , sélectionnez **Groupes de dimensions**.
+1. Dans l'organisateur **Général**, assurez-vous que le champ **Groupe de modèles d'article** est défini sur *FIFO*.
+1. Dans le volet Actions, sous l'onglet **Produit**, dans le groupe **Paramétrer**, sélectionnez **Groupes de dimensions**.
 1. Définissez les valeurs suivantes :
 
     - **Groupe de dimension de stockage :** *Entrepôt*
     - **Groupe de dimension de suivi :** *Aucun*
 
 1. Cliquez sur **OK**.
-1. Dans le volet Actions, sous l'onglet **Produit** , dans le groupe **Paramétrer** , sélectionnez **Hiérarchie de réservation**.
-1. Définissez le champ **Hiérarchie de réservation** sur *Valeur par défaut* , puis cliquez sur **OK**.
-1. Dans l'organisateur **Général** , dans la section **Administration** , notez que vos sélections ont été mises à jour.
-1. Dans l'organisateur **Achats** , dans le champ **Prix** , entrez *10*.
-1. Dans l'organisateur **Gérer les coûts** , dans le champ **Groupe d'articles** , entrez *Audio*.
-1. Dans l'organisateur **Achats** , dans le champ **Prix** , entrez *10*.
-1. Dans l'organisateur **Entrepôt** , dans le champ **ID groupe de séquences d'unités** , entrez *ea*.
+1. Dans le volet Actions, sous l'onglet **Produit**, dans le groupe **Paramétrer**, sélectionnez **Hiérarchie de réservation**.
+1. Définissez le champ **Hiérarchie de réservation** sur *Valeur par défaut*, puis cliquez sur **OK**.
+1. Dans l'organisateur **Général**, dans la section **Administration**, notez que vos sélections ont été mises à jour.
+1. Dans l'organisateur **Achats**, dans le champ **Prix**, entrez *10*.
+1. Dans l'organisateur **Gérer les coûts**, dans le champ **Groupe d'articles**, entrez *Audio*.
+1. Dans l'organisateur **Achats**, dans le champ **Prix**, entrez *10*.
+1. Dans l'organisateur **Entrepôt**, dans le champ **ID groupe de séquences d'unités**, entrez *ea*.
 1. Sélectionnez **Enregistrer**.
 
 ### <a name="create-a-location-directive"></a>Créer une instruction d'emplacement
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
-1. Dans le volet gauche, dans le champ **Type d'ordre de travail** , sélectionnez *Commandes fournisseur*.
+1. Dans le volet gauche, dans le champ **Type d'ordre de travail**, sélectionnez *Commandes fournisseur*.
 1. Dans la liste, sélectionnez l'instruction d'emplacement nommée *24 PO Direct*.
-1. Dans l'organisateur **Actions d'instruction d'emplacement** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Actions d'instruction d'emplacement**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de souche :** *1*
@@ -128,7 +128,7 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
     - **Stratégie :** *Aucun*
 
 1. Alors que la nouvelle ligne est toujours sélectionnée, sélectionnez **Modifier la requête** au-dessus de la grille.
-1. Dans la boîte de dialogue de requête, sous l'onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Dans la boîte de dialogue de requête, sous l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Emplacements*
@@ -137,10 +137,10 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
     - **Critères :** *BULK*
 
 1. Cliquez sur **OK**.
-1. Sur la page **Instructions d'emplacement** , dans le volet Actions, sélectionnez **Enregistrer**.
+1. Sur la page **Instructions d'emplacement**, dans le volet Actions, sélectionnez **Enregistrer**.
 
 > [!NOTE]
-> Dans l'organisateur **Actions d'instruction d'emplacement** , dans le champ **Stratégie** , si vous utilisez la stratégie d'emplacement *Consolider* , la configuration de l'organisateur **Association de dimensions de produit autorisée** dans **Profils d'emplacement** sera remplacée et les articles seront placés au même emplacement même si ce comportement n'est pas autorisé par la configuration.
+> Dans l'organisateur **Actions d'instruction d'emplacement**, dans le champ **Stratégie**, si vous utilisez la stratégie d'emplacement *Consolider*, la configuration de l'organisateur **Association de dimensions de produit autorisée** dans **Profils d'emplacement** sera remplacée et les articles seront placés au même emplacement même si ce comportement n'est pas autorisé par la configuration.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Créer une option de menu d'appareil mobile
 
@@ -153,7 +153,7 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
     - **Mode :** *Travail*
     - **Utiliser un travail existant :** *Non*
 
-1. Dans l'organisateur **Général** , définissez les valeurs suivantes :
+1. Dans l'organisateur **Général**, définissez les valeurs suivantes :
 
     - **Processus de création du travail :** *Réception et rangement de la ligne de commande fournisseur*
     - **Générer un contenant :** *Oui*
@@ -165,7 +165,7 @@ Chaque emplacement de l'entrepôt doit avoir un profil d'emplacement qui lui est
 1. Allez dans **Gestion des entrepôts \> Configuration \> Appareil mobile \> Menu d'appareil mobile**.
 1. Dans la liste des menus, sélectionnez **Entrant**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
-1. Dans la liste **Menus et éléments de menus disponibles** , recherchez et sélectionnez l'élément de menu **Réception de ligne de commande fournisseur**.
+1. Dans la liste **Menus et éléments de menus disponibles**, recherchez et sélectionnez l'élément de menu **Réception de ligne de commande fournisseur**.
 1. Sélectionnez le bouton Flèche droite pour déplacer l'élément de menu **Réception de ligne de commande fournisseur** vers la liste **Structure du menu**. De cette façon, vous ajoutez votre nouvel élément de menu au menu sélectionné.
 1. Sélectionnez **Enregistrer**.
 
@@ -181,7 +181,7 @@ Vous allez créer une commande fournisseur comprenant trois lignes : deux ligne
 
 1. Accédez à **Comptabilité fournisseur \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande fournisseur** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande fournisseur**, définissez les valeurs suivantes :
 
     - **Compte fournisseur :** *1001*
     - **Entrepôt :** *24*
@@ -212,11 +212,11 @@ Vous allez créer une commande fournisseur comprenant trois lignes : deux ligne
 1. Connectez-vous à l'application d'entrepôt en tant qu'utilisateur activé pour l'entrepôt *24*.
 1. Sélectionnez le menu **Entrant**.
 1. Sélectionnez **Réception de ligne de commande fournisseur**.
-1. Sélectionnez le champ **PONUM** , puis entrez le numéro de la commande fournisseur.
+1. Sélectionnez le champ **PONUM**, puis entrez le numéro de la commande fournisseur.
 1. Confirmez votre entrée en sélectionnant le bouton de confirmation ( ✔ ) en bas de la page.
-1. Entrez le numéro de ligne à partir de la commande fournisseur reçue. Sélectionnez le champ **LINENUM** , puis utilisez le pavé numérique pour entrer *1*.
+1. Entrez le numéro de ligne à partir de la commande fournisseur reçue. Sélectionnez le champ **LINENUM**, puis utilisez le pavé numérique pour entrer *1*.
 1. Confirmez votre entrée.
-1. Entrez la quantité à recevoir. Cliquez deux fois sur le bouton signe plus ( **+** ) pour augmenter la valeur du champ **Qté** à *2*.
+1. Entrez la quantité à recevoir. Cliquez deux fois sur le bouton signe plus (**+**) pour augmenter la valeur du champ **Qté** à *2*.
 1. Enregistrez votre entrée en sélectionnant le bouton ( ✔ ) en bas de la page, puis confirmez votre entrée en sélectionnant à nouveau le bouton ( ✔ ).
 1. Affichez les informations sur la page **Commandes fournisseur : Placer**. Cette page montre le travail qui a été créé pour le rangement (travail 1).
 
@@ -238,4 +238,4 @@ Vous allez créer une commande fournisseur comprenant trois lignes : deux ligne
 1. Sélectionnez le bouton Menu en haut de la page (parfois appelé hamburger ou bouton hamburger), puis sélectionnez **Annuler** pour quitter **Réception de ligne de commande fournisseur**.
 
 > [!TIP]
-> Vous pouvez répéter ce scénario, mais cette fois-ci, définissez **Taille** - *Non* dans l'organisateur **Autoriser l'association de dimensions de produit** de la configuration **Profils d'emplacement** *BULK* , afin qu'aucune des dimensions de produit ne puisse être associée. Dans ce cas, lorsque vous recevez la commande fournisseur, chaque variante de produit est placée dans un nouvel emplacement.
+> Vous pouvez répéter ce scénario, mais cette fois-ci, définissez **Taille** - *Non* dans l'organisateur **Autoriser l'association de dimensions de produit** de la configuration **Profils d'emplacement** *BULK*, afin qu'aucune des dimensions de produit ne puisse être associée. Dans ce cas, lorsque vous recevez la commande fournisseur, chaque variante de produit est placée dans un nouvel emplacement.

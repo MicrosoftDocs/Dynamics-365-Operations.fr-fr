@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012475"
+ms.locfileid: "4428197"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurer un appareil pour exécuter l'interface d'exécution de l'atelier de production
 
@@ -62,7 +62,7 @@ Pour permettre à un collaborateur de remplacer les filtres de travail par défa
 
 1. Accédez à **Pointage \> Paramétrage \> Enregistrement du temps des collaborateurs**.
 1. Sélectionnez un travailleur dans la liste pour ouvrir la page **Enregistrement du temps des collaborateurs** de ce travailleur.
-1. Sur l'onglet **Enregistrement du temps** , définissez l'option **Définir des filtres** sur *Oui*.
+1. Sur l'onglet **Enregistrement du temps**, définissez l'option **Définir des filtres** sur *Oui*.
 
 ## <a name="run-the-interface-in-full-screen-mode"></a>Exécuter l'interface en mode plein écran
 

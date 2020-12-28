@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018397"
+ms.locfileid: "4428302"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Vue d'ensemble des appels d'offre
 
@@ -44,7 +44,7 @@ L'illustration suivante présente une vue d'ensemble du processus d'appel d'offr
 
 Vous pouvez créer une demande de devis à partir des commandes planifiées, d'une demande d'achat ou par saisie manuelle. Il s'agit du document de base que vous utilisez pour délivrer un appel d'offre à chaque fournisseur.
 
-Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** ( **Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les options d'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
+Après avoir préparé la demande de devis et ajouté des fournisseurs, sélectionnez **Envoyer** (**Envoyer et publier** pour le secteur public) sur la demande de devis. Un journal d'appel d'offre est généré pour chaque fournisseur auquel vous envoyez l'appel d'offre. Vous pouvez configurer les options d'impression pour l'action Envoyer afin d'imprimer un état pour chaque fournisseur dans une archive ou pour envoyer un état à l'adresse électronique de chaque fournisseur. En outre, vous pouvez utiliser le journal d'appel d'offre de chaque fournisseur pour générer un état que vous pouvez envoyer ou renvoyer au fournisseur ultérieurement. Vous pouvez également configurer l'action Envoyer afin de générer une feuille de réponse que le fournisseur peut compléter.
 
 Cette rubrique décrit le processus de gestion des appels d'offre lorsque la collaboration fournisseur n'est pas utilisée. Si votre système est paramétré pour la collaboration de fournisseur, les fournisseurs peuvent saisir directement les offres dans Supply Chain Management. Pour plus d'informations voir [Collaboration fournisseur avec des clients](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) et [Collaboration fournisseur avec des fournisseurs externes](vendor-collaboration-work-external-vendors.md).
 
@@ -54,7 +54,7 @@ Lorsque vous recevez des offres par courrier électronique, vous pouvez gérer c
 
 Si une deuxième itération d'une réponse d'un fournisseur est requise, sélectionnez **Retour** sur la page **Appel d'offre**. L'action Retour génère un nouveau journal et un état qui seront imprimés, archivés et envoyés conformément à vos paramètres d'impression.
 
-Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent sur l'appel d'offre lorsque vous comparez les réponses sur la page **Comparer les réponses**. Sur la page **Comparer les réponses** , vous pouvez également comparer les autres données de réponse, telles que le prix de la ligne, la date de livraison et le prix total.
+Si vous avez ajouté des critères de score à votre dossier d'appel d'offre, la demande de devis dispose d'un volet de score où vous pouvez saisir les scores. Tous les scores s'affichent sur l'appel d'offre lorsque vous comparez les réponses sur la page **Comparer les réponses**. Sur la page **Comparer les réponses**, vous pouvez également comparer les autres données de réponse, telles que le prix de la ligne, la date de livraison et le prix total.
 
 Lorsque vous sélectionnez une offre ou plusieurs lignes d'une offre, vous pouvez accepter toutes ou certaines lignes et rejeter le reste. Les journaux d'acceptation, les journaux de rejet et les états correspondants sont générés et imprimés, archivés et envoyés conformément à vos paramètres d'impression. Lorsque vous acceptez une offre ou des lignes spécifiques d'une offre, un contrat d'achat ou une commande fournisseur est générée, ou une demande d'achat est mise à jour, selon le type d'achat de l'appel d'offre. Vous pouvez créer un contrat commercial que vous pouvez utiliser ultérieurement pour toute réponse, peu importe si vous les avez acceptées ou rejetées.
 
@@ -75,7 +75,7 @@ Vous pouvez remplacer ces valeurs pour un dossier de demande de devis spécifiqu
 
 Vous devez également configurer le processus d'avenant. Dans le cadre de cette configuration, vous pouvez activer le verrouillage du champ. Lorsque le verrouillage du champ est activé, un professionnel de l'approvisionnement qui souhaite modifier une demande de devis doit tout d'abord sélectionner **Créer** dans la section **Avenant** de l'onglet **Devis** de la demande de devis. Ensuite, une fois la demande de devis mise à jour avec les modifications, le professionnel d'approvisionnement doit effectuer le processus en sélectionnant **Finaliser**. L'action Finaliser génère un message e-mail qui informe les fournisseurs de l'appel d'offre modifié.
 
-Sur la page **Paramètres de l'approvisionnement** , sélectionnez le modèle à utiliser pour la notification par e-mail qui est envoyée aux fournisseurs. Lorsqu'un modèle est créé dans **Modèles d'e-mail** , il peut contenir les jetons de remplacement suivants :
+Sur la page **Paramètres de l'approvisionnement**, sélectionnez le modèle à utiliser pour la notification par e-mail qui est envoyée aux fournisseurs. Lorsqu'un modèle est créé dans **Modèles d'e-mail**, il peut contenir les jetons de remplacement suivants :
 
 - %Dossier d'appel d'offre%
 - %Motif de retour de l'offre%
@@ -130,12 +130,12 @@ Vous créez une demande de devis, sélectionnez les fournisseurs pour lesquels v
 
 Vous pouvez créer manuellement une demande de devis pour le type d'achat **Commande fournisseur** ou **Contrat d'achat**.
 
-Si la demande de devis est de type **Commande fournisseur** , le comportement suivant se produit déviant d'autres types de demande de devis :
+Si la demande de devis est de type **Commande fournisseur**, le comportement suivant se produit déviant d'autres types de demande de devis :
 
 - Lorsque les lignes de demande de devis sont créées, les transactions du stock sont générées avec un statut de réception de **Réception de devis**.
 - Lorsque vous acceptez une offre, une commande fournisseur est générée.
 
-Si l'appel d'offre est de type **contrat d'achat** , le comportement suivant se produit déviant d'autres demandes de devis :
+Si l'appel d'offre est de type **contrat d'achat**, le comportement suivant se produit déviant d'autres demandes de devis :
 
 - La demande de devis est utilisée pour un accord sur l'achat d'une quantité ou d'une valeur spécifique d'un produit au fil du temps. Vous devez sélectionner l'intervalle de dates qui s'applique au contrat d'achat et le nom de la personne qui gère le contrat d'achat.
 - Lorsque vous acceptez une offre, un contrat d'achat est généré.
@@ -148,7 +148,7 @@ Lorsque vous créez une demande de devis, vous pouvez sélectionner un type de s
 
 Vous pouvez ajouter un questionnaire à un dossier de demande de devis. Ce questionnaire s'affiche ensuite sur toutes les réponses d'appel d'offre une fois que vous envoyez la demande de devis. Le remplissage du questionnaire est une tâche obligatoire avant que l'offre puisse être soumise.
 
-Bien que des valeurs par défaut soient fournies, vous pouvez modifier les paramètres **Champs d'appel d'offres inclus dans les formulaires de réponse aux appels d'offres des fournisseurs** pour chaque cas d'appel d'offres individuel, selon les besoins. Pour ce faire, créez ou ouvrez un dossier d'appel d'offres. Ensuite, dans le volet Actions, ouvrez l'onglet **Devis** et, à partir de la section **Réponses** , sélectionnez **Définir les valeurs par défaut de réponse à l'appel d'offres**. La boîte de dialogue **Champs Réponse de l'appel d'offre par défaut** s'ouvre ; elle fonctionne de la même manière que lors de la définition des valeurs par défaut pour les formulaires de réponse aux appels d'offres des fournisseurs, sauf que vos modifications ici n'affecteront que le dossier d'appel d'offres actuel. Pour plus d'informations sur l'activation de cette fonctionnalité et son fonctionnement, consultez [Choisir les champs par défaut à inclure dans les formulaires de réponse aux appels d'offres des fournisseurs](#default-reply-fields).
+Bien que des valeurs par défaut soient fournies, vous pouvez modifier les paramètres **Champs d'appel d'offres inclus dans les formulaires de réponse aux appels d'offres des fournisseurs** pour chaque cas d'appel d'offres individuel, selon les besoins. Pour ce faire, créez ou ouvrez un dossier d'appel d'offres. Ensuite, dans le volet Actions, ouvrez l'onglet **Devis** et, à partir de la section **Réponses**, sélectionnez **Définir les valeurs par défaut de réponse à l'appel d'offres**. La boîte de dialogue **Champs Réponse de l'appel d'offre par défaut** s'ouvre ; elle fonctionne de la même manière que lors de la définition des valeurs par défaut pour les formulaires de réponse aux appels d'offres des fournisseurs, sauf que vos modifications ici n'affecteront que le dossier d'appel d'offres actuel. Pour plus d'informations sur l'activation de cette fonctionnalité et son fonctionnement, consultez [Choisir les champs par défaut à inclure dans les formulaires de réponse aux appels d'offres des fournisseurs](#default-reply-fields).
 
 Il existe trois méthodes pour sélectionner les fournisseurs à ajouter à un dossier de demande de devis :
 
@@ -166,7 +166,7 @@ Parfois, vous devez modifier une demande de devis après son envoi. Vous devrez 
 
 Si vous configurez le processus d'avenant de manière à ce qu'il soit plus restrictif, avant de modifier les champs d'un dossier d'appel d'offre qui a déjà été soumis, vous devez sélectionner **Créer** dans le dossier d'appel d'offre pour démarrer un avenant. Après avoir terminé vos modifications, vous devez sélectionner **Finaliser**. Vous êtes ensuite guidé dans le processus d'ajout d'informations pour le message électronique envoyé pour notifier les fournisseurs de l'avenant. L'état mis à jour de l'appel d'offre, qui inclut une note d'avenant, est automatiquement joint au message électronique.
 
-Si vous configurez le processus d'avenant de manière à ce qu'il soit moins restrictif, il n'est pas nécessaire de sélectionner **Créer** pour pouvoir modifier les champs d'un dossier d'appel d'offre qui a déjà été envoyé. Toutefois, vous devez ajouter manuellement une note d'avenant dans l'appel d'offre et renvoyer le dossier. Notez que cette approche ne peut être utilisée que si aucune des réponses (offres) n'a été modifiée. Si vous avez entré une réponse et que son état est **Reçu** , le bouton **Envoyer** n'est pas disponible. Dans ce cas, vous devez sélectionner **Créer** puis **Finaliser** , comme vous devez le faire dans le processus plus restrictif. La réponse est ensuite réinitialisée pour refléter les modifications du dossier d'appel d'offre.
+Si vous configurez le processus d'avenant de manière à ce qu'il soit moins restrictif, il n'est pas nécessaire de sélectionner **Créer** pour pouvoir modifier les champs d'un dossier d'appel d'offre qui a déjà été envoyé. Toutefois, vous devez ajouter manuellement une note d'avenant dans l'appel d'offre et renvoyer le dossier. Notez que cette approche ne peut être utilisée que si aucune des réponses (offres) n'a été modifiée. Si vous avez entré une réponse et que son état est **Reçu**, le bouton **Envoyer** n'est pas disponible. Dans ce cas, vous devez sélectionner **Créer** puis **Finaliser**, comme vous devez le faire dans le processus plus restrictif. La réponse est ensuite réinitialisée pour refléter les modifications du dossier d'appel d'offre.
 
 Si les fournisseurs utilisent l'interface de collaboration fournisseur pour saisir des offres, vous devez toujours utiliser le processus d'avenant pour informer les fournisseurs des modifications du dossier d'appel d'offre. Ce processus permet d'éviter la situation où les fournisseurs font une offre sur un dossier d'appel d'offre obsolète alors que leur offre est en cours. Pour plus d'informations sur la collaboration fournisseur, voir [Collaboration fournisseur avec des fournisseurs externes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
@@ -197,7 +197,7 @@ Lorsque vous acceptez une offre ou une ou plusieurs lignes d'une offre, une comm
 
 Dans la réponse, vous pouvez ajouter un code motif pour expliquer la raison pour laquelle vous avez accepté ou rejeté une offre.
 
-Lorsque vous acceptez une offre de type **Demande d'achat** , les lignes de la demande d'achat sont mises à jour avec les informations suivantes qui reflètent les informations de l'offre acceptée :
+Lorsque vous acceptez une offre de type **Demande d'achat**, les lignes de la demande d'achat sont mises à jour avec les informations suivantes qui reflètent les informations de l'offre acceptée :
 
 - Prix unitaire
 - Pourcentage de remise

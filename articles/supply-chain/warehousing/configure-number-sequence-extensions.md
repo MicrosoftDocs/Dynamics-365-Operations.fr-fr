@@ -4,7 +4,7 @@ description: Cette rubrique présente la fonctionnalité qui fournit des extensi
 author: GarmMSFT
 manager: tfehr
 ms.date: 06/10/2020
-ms.topic: configure-number-sequence-extensions
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016123"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4428330"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurer des séquences de numéros pour les flux d’entrepôt
 
@@ -52,8 +52,8 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votr
 Pour configurer des extensions de séquence numérique dans votre système, procédez comme suit.
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
-1. Dans l’onglet **Général** , dans le champ **Préfixe GS1 de la société** , entrez le préfixe GS1 de votre entreprise. Cette valeur affectera toutes les séquences de numéros dans lesquelles le préfixe GS1 est inclus en tant que segment.
-1. Si vous souhaitez générer des numéros BOL pour des étiquettes de vague, dans l’onglet **Rapports** , cochez la case **Générer le numéro BOL lors de l’impression d’étiquettes de vague**.
+1. Dans l’onglet **Général**, dans le champ **Préfixe GS1 de la société**, entrez le préfixe GS1 de votre entreprise. Cette valeur affectera toutes les séquences de numéros dans lesquelles le préfixe GS1 est inclus en tant que segment.
+1. Si vous souhaitez générer des numéros BOL pour des étiquettes de vague, dans l’onglet **Rapports**, cochez la case **Générer le numéro BOL lors de l’impression d’étiquettes de vague**.
 
     > [!NOTE]
     > Cette case à cocher n’est disponible que si la fonctionnalité d’[impression d’étiquettes de vague](configure-wave-label-printing.md) est activée.
@@ -64,7 +64,7 @@ Pour configurer des extensions de séquence numérique dans votre système, proc
     Pour plus d’informations sur la personnalisation de ces séquences de numéros par défaut et/ou l’ajout de nouvelles séquences, reportez-vous à la section suivante. Vous pouvez également supprimer l’une de ces séquences si vous n’en avez pas besoin.
 
 1. Revenez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
-1. Dans l’onglet **Séquences de numéros** , sélectionnez une extension de séquence numérique appropriée à utiliser pour générer des numéros pour vos identificateurs de contenant, identificateurs d’étiquette de vague, identificateurs de conteneur (dans ce cas, sélectionnez la séquence **Numéro SSCC-18** appropriée) et/ou identificateurs BOL (dans ce cas, sélectionnez la séquence **BOL** ). Par défaut, les extensions de séquence numérique ne sont prises en charge que pour ces quatre types d’ID.
+1. Dans l’onglet **Séquences de numéros**, sélectionnez une extension de séquence numérique appropriée à utiliser pour générer des numéros pour vos identificateurs de contenant, identificateurs d’étiquette de vague, identificateurs de conteneur (dans ce cas, sélectionnez la séquence **Numéro SSCC-18** appropriée) et/ou identificateurs BOL (dans ce cas, sélectionnez la séquence **BOL**). Par défaut, les extensions de séquence numérique ne sont prises en charge que pour ces quatre types d’ID.
 
 La prochaine fois qu’un nouveau numéro sera généré pour l’une de ces séquences de numéros, la nouvelle logique sera utilisée.
 
@@ -79,16 +79,16 @@ Pour créer et modifier des séquences numériques, procédez comme suit.
 
 1. Accédez à **Gestion des entrepôts** \> **Paramétrage** \> **Extensions de séquence numériques**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans le champ **Extension de séquence numérique** , entrez un nom pour la nouvelle séquence. Entrez une description dans le champ **Description**.
-1. Dans l’organisateur **Segments** , utilisez les boutons de la barre d’outils pour assembler votre format numérique en ajoutant, supprimant et organisant des segments. Dans le champ **Segment** de chaque ligne, attribuez un type de segment pour définir l’objectif et le contenu de ce segment. Le tableau suivant décrit les types de segments disponibles.
+1. Dans le champ **Extension de séquence numérique**, entrez un nom pour la nouvelle séquence. Entrez une description dans le champ **Description**.
+1. Dans l’organisateur **Segments**, utilisez les boutons de la barre d’outils pour assembler votre format numérique en ajoutant, supprimant et organisant des segments. Dans le champ **Segment** de chaque ligne, attribuez un type de segment pour définir l’objectif et le contenu de ce segment. Le tableau suivant décrit les types de segments disponibles.
 
     | Type de segment | Description |
     |---|---|
     | Constante | Ce type de segment ajoute le même texte constant pour chaque numéro généré dans la séquence. Entrez le texte requis dans le champ **Valeur**. Le champ **Longueur** est automatiquement mis à jour à la longueur du texte que vous avez entré dans le champ **Valeur**. |
-    | Souche de numéros | Dans le champ **Valeur** , entrez un signe dièse ( *\#* ) pour chaque caractère à afficher dans la séquence générée. La séquence numérique elle-même peut générer des nombres plus longs, mais seuls les caractères les plus à droite seront affichés. Le champ **Longueur** est automatiquement mis à jour au nombre de symboles numériques que vous avez entrés dans le champ **Valeur**.<p>Pour vous conformer aux exigences GS1 pour les numéros SSCC-18, assurez-vous que la longueur de ce segment est 16, moins la longueur de votre préfixe GS1.</p> |
+    | Souche de numéros | Dans le champ **Valeur**, entrez un signe dièse (*\#*) pour chaque caractère à afficher dans la séquence générée. La séquence numérique elle-même peut générer des nombres plus longs, mais seuls les caractères les plus à droite seront affichés. Le champ **Longueur** est automatiquement mis à jour au nombre de symboles numériques que vous avez entrés dans le champ **Valeur**.<p>Pour vous conformer aux exigences GS1 pour les numéros SSCC-18, assurez-vous que la longueur de ce segment est 16, moins la longueur de votre préfixe GS1.</p> |
     | Préfixe GS1 | Ce type de segment ajoute la valeur définie dans le champ **Préfixe GS1 de la société** de la page **Paramètres de gestion des entrepôts**. Le champ **Valeur** affiche la valeur définie sur la page **Paramètres de gestion des entrepôts** et le champ **Longueur** indique le nombre de caractères de la valeur. Les deux champs **Valeur** et **Longueur** sont en lecture seule. |
-    | Identificateur d’application | Dans le champ **Valeur** , saisissez un identificateur d’application, comme spécifié par la stratégie GS1 pertinente pour ce type de séquence numérique. Par exemple, entrez *00* pour SSCC ou *420* pour BOL. Le champ **Longueur** est automatiquement mis à jour à la longueur de l’identificateur que vous avez entré dans le champ **Valeur**. |
-    | Type d’emballage | Pour les articles qui peuvent être clairement identifiés, ce type de segment ajoute une valeur de champ provenant du groupe de séquence d’unités concerné (de la page **Groupes de séquences d’unités** ). (Ce comportement correspond à la logique existante pour les ID de contenant.) Pour les contenants qui incluent plusieurs unités de gestion des stocks (SKU), ce type de segment ajoute *0* (zéro) par défaut. Pour ce type de segment, le champ **Valeur** est toujours défini sur *P* , et le champ **Longueur** est toujours défini sur *1*.|
-    | Chiffre de contrôle | Ce type de segment ajoute un chiffre de contrôle, qui est un calcul modulo 10. (Ce comportement correspond à la logique existante pour les ID de contenant.) Pour ce type de segment, le champ **Valeur** est toujours défini sur un symbole caret ( *^* ), et le champ **Longueur** est toujours défini sur *1*. |
+    | Identificateur d’application | Dans le champ **Valeur**, saisissez un identificateur d’application, comme spécifié par la stratégie GS1 pertinente pour ce type de séquence numérique. Par exemple, entrez *00* pour SSCC ou *420* pour BOL. Le champ **Longueur** est automatiquement mis à jour à la longueur de l’identificateur que vous avez entré dans le champ **Valeur**. |
+    | Type d’emballage | Pour les articles qui peuvent être clairement identifiés, ce type de segment ajoute une valeur de champ provenant du groupe de séquence d’unités concerné (de la page **Groupes de séquences d’unités**). (Ce comportement correspond à la logique existante pour les ID de contenant.) Pour les contenants qui incluent plusieurs unités de gestion des stocks (SKU), ce type de segment ajoute *0* (zéro) par défaut. Pour ce type de segment, le champ **Valeur** est toujours défini sur *P*, et le champ **Longueur** est toujours défini sur *1*.|
+    | Chiffre de contrôle | Ce type de segment ajoute un chiffre de contrôle, qui est un calcul modulo 10. (Ce comportement correspond à la logique existante pour les ID de contenant.) Pour ce type de segment, le champ **Valeur** est toujours défini sur un symbole caret (*^*), et le champ **Longueur** est toujours défini sur *1*. |
 
 1. Pour voir un exemple de votre format de nombre final, inspectez le champ **Format** au bas de l’organisateur **Segments**.

@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012473"
+ms.locfileid: "4428198"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l'interface d'exécution de l'atelier de production par les collaborateurs
 
@@ -41,7 +41,7 @@ Les sections restantes de cette rubrique décrivent comment les travailleurs int
 
 ## <a name="all-jobs-tab"></a>Onglet Toutes les tâches
 
-L'onglet **Toutes les tâches** fournit une liste de tâches qui affiche toutes les tâches de production dont le statut est *Non commencé* , *Arrêté* ou *Commencé*.
+L'onglet **Toutes les tâches** fournit une liste de tâches qui affiche toutes les tâches de production dont le statut est *Non commencé*, *Arrêté* ou *Commencé*.
 
 ![Onglet Toutes les tâches](media/pfei-all-jobs-tab.png "Onglet Toutes les tâches")
 
@@ -81,25 +81,25 @@ Les travailleurs démarrent une tâche de production en sélectionnant une tâch
 
 Les travailleurs utilisent la boîte de dialogue **Commencer la tâche** pour confirmer la quantité de production, puis démarrer la tâche. Les travailleurs peuvent ajuster la quantité en sélectionnant le champ **Quantité** puis en utilisant le clavier numérique qui apparaît. Les travailleurs sélectionnent ensuite **Démarrer** pour commencer à travailler sur la tâche. La boîte de dialogue **Commencer la tâche** se ferme et la tâche est ajoutée à l'onglet **Tâches actives**.
 
-Les travailleurs peuvent démarrer une tâche qui a n'importe quel statut. Lorsqu'un travailleur commence une tâche dont le statut est *Non commencé* , le champ **Quantité** dans la boîte de dialogue **Commencer la tâche** affiche initialement la quantité totale. Lorsqu'un travailleur commence une tâche dont le statut est *Commencé* ou *Arrêté* , le champ **Quantité** affiche initialement la quantité restante.
+Les travailleurs peuvent démarrer une tâche qui a n'importe quel statut. Lorsqu'un travailleur commence une tâche dont le statut est *Non commencé*, le champ **Quantité** dans la boîte de dialogue **Commencer la tâche** affiche initialement la quantité totale. Lorsqu'un travailleur commence une tâche dont le statut est *Commencé* ou *Arrêté*, le champ **Quantité** affiche initialement la quantité restante.
 
 ## <a name="reporting-good-quantities"></a>Déclarer les bonnes quantités
 
-Lorsqu'un travailleur termine ou termine partiellement une tâche, il peut déclarer les bonnes quantités produites en sélectionnant une tâche sur l'onglet **Tâches actives** puis en sélectionnant **Saisie de l'avancement**. Puis, dans la boîte de dialogue **Saisie de l'avancement** , le travailleur entre la bonne quantité à l'aide du clavier numérique. La quantité est vide par défaut. Une fois qu'une quantité est entrée, le travailleur peut mettre à jour le statut de la tâche sur *En cours* , *Arrêté* ou *Terminé*.
+Lorsqu'un travailleur termine ou termine partiellement une tâche, il peut déclarer les bonnes quantités produites en sélectionnant une tâche sur l'onglet **Tâches actives** puis en sélectionnant **Saisie de l'avancement**. Puis, dans la boîte de dialogue **Saisie de l'avancement**, le travailleur entre la bonne quantité à l'aide du clavier numérique. La quantité est vide par défaut. Une fois qu'une quantité est entrée, le travailleur peut mettre à jour le statut de la tâche sur *En cours*, *Arrêté* ou *Terminé*.
 
 ![Boîte de dialogue Saisie de l'avancement](media/pfei-report-progress-dialog.png "Boîte de dialogue Saisie de l'avancement")
 
 ## <a name="reporting-scrap"></a>Déclarer le rebut
 
-Lorsqu'un travailleur termine ou termine partiellement une tâche, il peut déclarer le rebut en sélectionnant une tâche sur l'onglet **Tâches actives** puis en sélectionnant **Saisie du rebut**. Puis, dans la boîte de dialogue **Saisie du rebut** , le travailleur entre la quantité mise au rebut à l'aide du clavier numérique. Le travailleur sélectionne également une raison ( *Aucune* , *Machine* , *Opérateur* ou *Matériel* ).
+Lorsqu'un travailleur termine ou termine partiellement une tâche, il peut déclarer le rebut en sélectionnant une tâche sur l'onglet **Tâches actives** puis en sélectionnant **Saisie du rebut**. Puis, dans la boîte de dialogue **Saisie du rebut**, le travailleur entre la quantité mise au rebut à l'aide du clavier numérique. Le travailleur sélectionne également une raison (*Aucune*, *Machine*, *Opérateur* ou *Matériel*).
 
 ![Boîte de dialogue Saisie du rebut](media/pfei-report-scrap-dialog.png "Boîte de dialogue Saisie du rebut")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Terminer une tâche et commencer une nouvelle tâche
 
-Habituellement, les travailleurs terminent une tâche en sélectionnant une ou plusieurs tâche en cours sur l'onglet **Tâches actives** , puis en sélectionnant **Saisie de l'avancement**. Ils saisissent ensuite la quantité produite (la bonne quantité) et définissent le statut sur *Achevé*. Si plusieurs tâches ont été sélectionnées, un travailleur utilise alors les boutons **Précédent** et **Suivant** pour se déplacer parmi eux. Pour démarrer une nouvelle tâche, le travailleur la sélectionne sur l'onglet **Toutes les tâches** , puis sélectionne **Commencer la tâche**.
+Habituellement, les travailleurs terminent une tâche en sélectionnant une ou plusieurs tâche en cours sur l'onglet **Tâches actives**, puis en sélectionnant **Saisie de l'avancement**. Ils saisissent ensuite la quantité produite (la bonne quantité) et définissent le statut sur *Achevé*. Si plusieurs tâches ont été sélectionnées, un travailleur utilise alors les boutons **Précédent** et **Suivant** pour se déplacer parmi eux. Pour démarrer une nouvelle tâche, le travailleur la sélectionne sur l'onglet **Toutes les tâches**, puis sélectionne **Commencer la tâche**.
 
-Un travailleur peut également commencer une nouvelle tâche pendant que sa tâche précédente est toujours en cours. Encore une fois, le travailleur sélectionne la nouvelle tâche sur l'onglet **Toutes les tâches** , puis sélectionne **Commencer la tâche**. Cependant, dans ce cas, la boîte de dialogue **Commencer la tâche** informe le travailleur qu'il travaille actuellement sur une tâche et qu'il doit par conséquent arrêter ou terminer cette tâche avant de commencer la nouvelle tâche.
+Un travailleur peut également commencer une nouvelle tâche pendant que sa tâche précédente est toujours en cours. Encore une fois, le travailleur sélectionne la nouvelle tâche sur l'onglet **Toutes les tâches**, puis sélectionne **Commencer la tâche**. Cependant, dans ce cas, la boîte de dialogue **Commencer la tâche** informe le travailleur qu'il travaille actuellement sur une tâche et qu'il doit par conséquent arrêter ou terminer cette tâche avant de commencer la nouvelle tâche.
 
 ## <a name="working-on-multiple-jobs-in-parallel"></a>Travailler sur plusieurs tâches en parallèle
 
@@ -107,11 +107,11 @@ Un travailleur peut travailler sur plusieurs tâches en même temps (c'est-à-di
 
 ### <a name="scenario-1-a-worker-who-has-no-active-jobs-wants-to-start-two-jobs-and-work-on-them-in-parallel"></a>Scénario 1 : Un travailleur qui n'a pas de tâche active veut démarrer deux tâches et y travailler en parallèle
 
-Le travailleur sélectionne les deux tâches sur l'onglet **Toutes les tâches** , puis sélectionne **Commencer la tâche**. La boîte de dialogue **Commencer la tâche** affiche les deux tâches sélectionnées et le travailleur peut ajuster la quantité à démarrer pour chaque tâche. Le travailleur confirme alors la boîte de dialogue et peut démarrer les deux tâches.
+Le travailleur sélectionne les deux tâches sur l'onglet **Toutes les tâches**, puis sélectionne **Commencer la tâche**. La boîte de dialogue **Commencer la tâche** affiche les deux tâches sélectionnées et le travailleur peut ajuster la quantité à démarrer pour chaque tâche. Le travailleur confirme alors la boîte de dialogue et peut démarrer les deux tâches.
 
 ### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>Scénario 2 : Un travailleur qui a deux tâches actives en cours veut commencer une troisième tâche et y travailler en parallèle avec les deux autres
 
-Le travailleur sélectionne la troisième tâche sur l'onglet **Toutes les tâches** , puis sélectionne **Offre groupée**. Dans la boîte de dialogue **Offre groupée** , le travailleur peut ajuster la quantité à démarrer. Le travailleur confirme ensuite la boîte de dialogue en sélectionnant **Offre groupée**.
+Le travailleur sélectionne la troisième tâche sur l'onglet **Toutes les tâches**, puis sélectionne **Offre groupée**. Dans la boîte de dialogue **Offre groupée**, le travailleur peut ajuster la quantité à démarrer. Le travailleur confirme ensuite la boîte de dialogue en sélectionnant **Offre groupée**.
 
 ## <a name="working-on-indirect-activities"></a>Travailler sur des activités indirectes
 
@@ -119,8 +119,8 @@ Les activités indirectes sont des activités qui ne sont pas directement liées
 
 Par exemple, Shannon, employé de l'atelier chez Contoso, souhaite assister à une réunion d'entreprise et les réunions sont considérées comme une activité indirecte. L'un des deux scénarios suivants s'applique :
 
-- **Shannon travaille sur une ou plusieurs tâches actives.** Shannon sélectionne **Activité** , identifie l'activité (réunion) et confirme sa sélection. Un message qui apparaît l'informe qu'elle a des tâches en cours. À partir du message, Shannon peut choisir de terminer ou d'arrêter les tâches sur lesquelles elle travaille avant de se rendre à la réunion.
-- **Shannon n'a pas de tâches actives.** Shannon sélectionne **Activité** , identifie l'activité (réunion) et elle confirme sa sélection. Elle est maintenant enregistrée comme étant à la réunion.
+- **Shannon travaille sur une ou plusieurs tâches actives.** Shannon sélectionne **Activité**, identifie l'activité (réunion) et confirme sa sélection. Un message qui apparaît l'informe qu'elle a des tâches en cours. À partir du message, Shannon peut choisir de terminer ou d'arrêter les tâches sur lesquelles elle travaille avant de se rendre à la réunion.
+- **Shannon n'a pas de tâches actives.** Shannon sélectionne **Activité**, identifie l'activité (réunion) et elle confirme sa sélection. Elle est maintenant enregistrée comme étant à la réunion.
 
 Dans les deux scénarios, une fois que Shannon a confirmé sa sélection, elle accède soit à la page de connexion, soit à une page qui attendra qu'elle confirme qu'elle est revenue de son activité indirecte. La page qui s'affiche dépend de la configuration de l'interface d'exécution de l'atelier de production. (Pour plus d'informations, consultez [Configurer l'interface d'exécution de l'atelier de production](production-floor-execution-configure.md) .)
 

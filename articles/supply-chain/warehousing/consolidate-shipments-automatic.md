@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016860"
+ms.locfileid: "4428231"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolider les expéditions lorsqu'elles sont validées dans l'entrepôt à l'aide de l'option Lancement automatique des commandes client
 
@@ -99,12 +99,12 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable* )
+    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable*)
     - **Quantité :** *1.00*
 
 1. Ajoutez une deuxième ligne de commande avec les paramètres suivants :
 
-    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif* )
+    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif*)
     - **Quantité :** *1.00*
     - **Mode de livraison :** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable* )
+    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable*)
     - **Quantité :** *1.00*
 
 1. Ajoutez une deuxième ligne de commande avec les paramètres suivants :
 
-    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif* )
+    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif*)
     - **Quantité :** *1.00*
     - **Mode de livraison :** *Airwa-Air*
 
@@ -236,7 +236,7 @@ Pour chaque ensemble de commandes client que vous avez créé précédemment, vo
 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Vagues \> Modèles de vague**.
 1. Définissez le champ **Type de modèle de vague** sur *Expédition*.
-1. Recherchez et sélectionnez le modèle de vague associé à l'entrepôt que vous avez utilisé dans les jeux de commandes que vous avez créés pour ce scénario. Par exemple, si vous avez utilisé l'entrepôt *24* , sélectionnez le modèle de vague **Expédition par défaut 24**. Si vous avez utilisé l'entrepôt *61* , sélectionnez le modèle de vague **Expédition 61**.
+1. Recherchez et sélectionnez le modèle de vague associé à l'entrepôt que vous avez utilisé dans les jeux de commandes que vous avez créés pour ce scénario. Par exemple, si vous avez utilisé l'entrepôt *24*, sélectionnez le modèle de vague **Expédition par défaut 24**. Si vous avez utilisé l'entrepôt *61*, sélectionnez le modèle de vague **Expédition 61**.
 1. Dans le volet Actions, sélectionnez **Modifier**.
 1. Définissez l'option **Traiter la vague à la sortie dans l'entrepôt** sur *Non*.
 
@@ -244,8 +244,8 @@ Pour chaque ensemble de commandes client que vous avez créé précédemment, vo
 
 1. Allez dans **Gestion des entrepôts \> Lancement dans l'entrepôt \> Lancement automatique des commandes client**.
 1. Définissez le champ **Quantité à débloquer** sur *Tout*.
-1. Dans le raccourci **Enregistrements à inclure** , sélectionnez **Filtre** pour ouvrir la boîte de dialogue de requête.
-1. Dans l'onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne ayant les paramètres suivants sur la grille :
+1. Dans le raccourci **Enregistrements à inclure**, sélectionnez **Filtre** pour ouvrir la boîte de dialogue de requête.
+1. Dans l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne ayant les paramètres suivants sur la grille :
 
     - **Table :** *Commandes client*
     - **Table dérivée :** *Commande client*
@@ -268,7 +268,7 @@ Suivez la [procédure basique de lancement en entrepôt](#release-procedure) pou
 Lorsque vous avez terminé, vous devriez voir que deux expéditions ont été créées :
 
 - La première expédition contient trois lignes et a été créée à l'aide de la stratégie de consolidation des expéditions *CustomerMode*.
-- Le deuxième envoi, qui n'utilise pas le moyen de transport *Avion* , a été créé en utilisant la stratégie de consolidation des expéditions *CustomerOrderNo*.
+- Le deuxième envoi, qui n'utilise pas le moyen de transport *Avion*, a été créé en utilisant la stratégie de consolidation des expéditions *CustomerOrderNo*.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Lancer les commandes client du jeu de commandes 2
 
@@ -292,7 +292,7 @@ Une fois que vous avez terminé, vous devriez voir que les actions suivantes se 
 
 Suivez la [procédure basique de lancement en entrepôt](#release-procedure) pour lancer les commandes client du jeu de commandes 4.
 
-Lorsque vous avez terminé, vous devriez voir qu'une seule expédition existante (où le champ **Demande client** est défini sur *1* ) a été mise à jour. Une nouvelle ligne y a été ajoutée.
+Lorsque vous avez terminé, vous devriez voir qu'une seule expédition existante (où le champ **Demande client** est défini sur *1*) a été mise à jour. Une nouvelle ligne y a été ajoutée.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Lancer les commandes client du jeu de commandes 5
 
@@ -300,7 +300,7 @@ Suivez la [procédure basique de lancement en entrepôt](#release-procedure) pou
 
 Une fois que vous avez terminé, vous devriez voir que les actions suivantes se sont produites :
 
-- Une expédition existante (où le champ **Demande client** est défini sur *1* ) a été mise à jour. Une ligne de la commande client 5-3 (où le champ **Demande client** est défini sur *1* ) y a été ajoutée.
+- Une expédition existante (où le champ **Demande client** est défini sur *1*) a été mise à jour. Une ligne de la commande client 5-3 (où le champ **Demande client** est défini sur *1*) y a été ajoutée.
 - Une nouvelle expédition a été créée, où les lignes des commandes client 5-1 et 5-2 sont regroupées en une seule expédition.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Lancer les commandes client du jeu de commandes 6

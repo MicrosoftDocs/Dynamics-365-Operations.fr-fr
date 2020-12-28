@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016883"
+ms.locfileid: "4428237"
 ---
 # <a name="batch-balancing"></a>Équilibrage du lot
 
@@ -97,7 +97,7 @@ La substance B dispose de l'attribut de base X et d'un niveau cible de 30. El
 
 ### <a name="none"></a>None
 
-Lorsque vous appliquez le processus d'équilibrage du lot et que le type de substance est **Aucun** , la quantité estimée et la quantité équilibrée de la ligne de formule dans le lot de commandes sont identiques.
+Lorsque vous appliquez le processus d'équilibrage du lot et que le type de substance est **Aucun**, la quantité estimée et la quantité équilibrée de la ligne de formule dans le lot de commandes sont identiques.
 
 **Exemple**
 
@@ -107,15 +107,15 @@ La substance A est affectée à une substance de type **Aucun** et ajoutée à 
 
 Une substance de compensation peut compenser ou compléter l'effet de la substance active dans un produit. Par conséquent, la quantité d'une substance de compensation consommée dépend de la potence du produit :
 
--   **Effet inverse**  : si la quantité de substance active est supérieure à la quantité prévue, vous devez ajouter moins de substance de compensation.
+-   **Effet inverse** : si la quantité de substance active est supérieure à la quantité prévue, vous devez ajouter moins de substance de compensation.
 
--   **Effet complémentaire**  : si la quantité de substance active est inférieure à la quantité prévue, vous devez ajouter davantage de substance de compensation.
+-   **Effet complémentaire** : si la quantité de substance active est inférieure à la quantité prévue, vous devez ajouter davantage de substance de compensation.
 
 La relation entre une substance active et une substance complémentaire est paramétrée sur la page **Principe de compensation**.
 
 Pour définir les relations entre les substances, procédez comme suit :
 
-1.  Sélectionnez **Gestion des informations sur les produits** \> **Factures et matières premières et formules** \> **Formules** , ouvrez une ligne de formule, puis sélectionnez **Substances** pour ouvrir la page **Principe de compensation**.
+1.  Sélectionnez **Gestion des informations sur les produits** \> **Factures et matières premières et formules** \> **Formules**, ouvrez une ligne de formule, puis sélectionnez **Substances** pour ouvrir la page **Principe de compensation**.
 
 2.  Sélectionnez la ligne qui représente un principe de compensation, puis sélectionnez la substance active à compenser.
 
@@ -125,7 +125,7 @@ Pour définir les relations entre les substances, procédez comme suit :
 
 La substance B est une substance active avec l'attribut de base X et un niveau cible de 30. Elle est incluse dans une formule qui requiert 30 litres de la substance B pour chaque lot de 100 litres du produit. La substance C est une substance de compensation, et une quantité de 10 est incluse dans la même formule. Un facteur de compensation de 1,10 est défini pour le principe de compensation. Par conséquent, la quantité équilibrée de la substance de compensation est réduite de la différence entre la quantité équilibrée de substance active et la quantité requise estimée multipliée par 1,10.
 
-Dans l'exemple du type de substance **Active** , la quantité équilibrée de la substance active requise est de 25,71, et la quantité requise estimée est de 30. Dans ce cas, la quantité équilibrée de la substance de compensation est calculée comme ceci :
+Dans l'exemple du type de substance **Active**, la quantité équilibrée de la substance active requise est de 25,71, et la quantité requise estimée est de 30. Dans ce cas, la quantité équilibrée de la substance de compensation est calculée comme ceci :
 
 1.  La différence entre la quantité estimée et la quantité équilibrée est déterminée come suit :
 
@@ -156,7 +156,7 @@ La quantité équilibrée de la substance de remplissage est calculée comme la 
 ---------------------------
 
 Le processus d'équilibrage du lot est exécuté sur la page **Équilibrage du lot**.
-Sélectionnez **Gestion des coûts** \> **Lots de commandes** , puis, sous l'onglet **Processus** , sélectionnez **Équilibrage du lot**. L'équilibrage du lot est disponible pour les lots de commandes ayant un statut de **Commencé**.
+Sélectionnez **Gestion des coûts** \> **Lots de commandes**, puis, sous l'onglet **Processus**, sélectionnez **Équilibrage du lot**. L'équilibrage du lot est disponible pour les lots de commandes ayant un statut de **Commencé**.
 
 En général, l'équilibrage du lot peut être appliqué aux lots de commandes si la formule contient au moins une ligne de formule dont le type de substance est **Active**. (Pour connaître l'exception à cette règle, voir la section « Lots de commandes ne s'appliquant pas à l'équilibrage du lot » plus loin dans cette rubrique.)
 
@@ -171,7 +171,7 @@ Le processus d'équilibrage du lot peut être divisé en deux sous-processus :
 Lors du sous-processus Équilibrer les substances du lot, le nombre de substances à utiliser dans un lot de production est calculé en fonction des lots sélectionnés composés de substances actives. En règle générale, le calcul peut être effectué uniquement s'il existe une couverture globale de toutes les substances. Vous ne pouvez pas équilibrer uniquement une partie du lot que le lot de commandes est paramétré pour produire.
 
 [!NOTE]
-Vous ne pouvez pas enregistrer un calcul puis terminer le processus d'équilibrage du lot ultérieurement. Si vous fermez la page **Équilibrage du lot** , vous devez répéter le calcul pour exécuter le processus.
+Vous ne pouvez pas enregistrer un calcul puis terminer le processus d'équilibrage du lot ultérieurement. Si vous fermez la page **Équilibrage du lot**, vous devez répéter le calcul pour exécuter le processus.
 
 ### <a name="confirm-and-release-the-formula"></a>Confirmer et lancer la formule
 

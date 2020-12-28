@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018535"
+ms.locfileid: "4428314"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Résoudre les problèmes liés aux workflows d’approvisionnements
 
@@ -32,7 +32,7 @@ Cette rubrique décrit comment résoudre les problèmes que vous pourriez rencon
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Erreur lors de la nouvelle soumission d'une commande fournisseur au workflow après une modification : "Les modifications de la commande fournisseur X ne sont autorisées qu'à l'état Brouillon lorsque la gestion des modifications est activée"
 
-Ce problème se produit uniquement si la commande fournisseur était dans un état *Confirmé* avant la demande des modifications. Si vous demandez des modifications alors que la commande fournisseur est dans un état *Approuvé* , le flux de travail peut être traité avec succès.
+Ce problème se produit uniquement si la commande fournisseur était dans un état *Confirmé* avant la demande des modifications. Si vous demandez des modifications alors que la commande fournisseur est dans un état *Approuvé*, le flux de travail peut être traité avec succès.
 
 ### <a name="error-description"></a>Description de l'erreur
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Ce problème peut se produire en raison d'une incohérence dans les répartitions des commandes fournisseur.
 
-Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon* , allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon*, allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 Le problème sera résolu via [cet article de la Base de connaissances Microsoft (KB)](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ Le problème sera résolu via [cet article de la Base de connaissances Microsoft
 
 Ce problème peut se produire en raison d'une incohérence dans les répartitions des commandes fournisseur.
 
-Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon* , allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Pour débloquer ce problème et réinitialiser la commandes fournisseur sur l'état *Brouillon*, allez dans **Approvisionnements \> Tâches périodiques \> Nettoyer \> Réinitialisation de la répartition des commandes fournisseur**. Pour plus d'informations, consultez l'article de blog suivant : [Résoudre les erreurs de répartition des commandes fournisseur dans Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Si un solde de livraison est annulé sur une commande fournisseur où la gestion des modifications est activée, la commande fournisseur passe à l'état Confirmé.
 
@@ -74,7 +74,7 @@ Si cela doit être reflété sur la confirmation de la commande fournisseur, la 
 
 ### <a name="issue-description"></a>Description du problème
 
-Une que vous avez annulé les commandes fournisseur qui étaient dans un état *Confirmé* , les commandes fournisseur annulées apparaissent toujours dans la liste des brouillons de commande fournisseur dans l'espace de travail **Préparation de la commande fournisseur**.
+Une que vous avez annulé les commandes fournisseur qui étaient dans un état *Confirmé*, les commandes fournisseur annulées apparaissent toujours dans la liste des brouillons de commande fournisseur dans l'espace de travail **Préparation de la commande fournisseur**.
 
 ### <a name="issue-resolution"></a>Résolution du problème
 

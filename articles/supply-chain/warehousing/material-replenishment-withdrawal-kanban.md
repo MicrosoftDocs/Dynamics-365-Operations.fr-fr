@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017069"
+ms.locfileid: "4428204"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Réapprovisionnement avec des kanbans de prélèvement
 
@@ -54,7 +54,7 @@ Dans ce scénario, un processus de fabrication (4) consomme les matières d'un e
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Configurer le travail d'entrepôt pour le prélèvement de kanban dans le cadre du kanban de prélèvement
 
-Pour activer le prélèvement des matières premières pour le kanban de prélèvement, configurez les modèles de vague, les modèles de travail et les instructions d'emplacement pour le type d'ordre d'exécution **Prélèvement de kanban**. Ce type d'ordre d'exécution ne prend pas en charge que le processus de prélèvement pour le kanban de prélèvement. Il prend également en charge le processus de prélèvement pour le kanban de fabrication. Toutefois, vous pouvez configurer un processus de prélèvement distinct pour chaque type de kanban en séparant les modèles de vague, les modèles de travail, ainsi que les instructions d'emplacement. Pour séparer les modèles de vague, les modèles de travail et les instructions d'emplacement, définissez des critères sous le type d'activité ( **Traiter** ou **Transférer** ) dans les requêtes pour ces entités.
+Pour activer le prélèvement des matières premières pour le kanban de prélèvement, configurez les modèles de vague, les modèles de travail et les instructions d'emplacement pour le type d'ordre d'exécution **Prélèvement de kanban**. Ce type d'ordre d'exécution ne prend pas en charge que le processus de prélèvement pour le kanban de prélèvement. Il prend également en charge le processus de prélèvement pour le kanban de fabrication. Toutefois, vous pouvez configurer un processus de prélèvement distinct pour chaque type de kanban en séparant les modèles de vague, les modèles de travail, ainsi que les instructions d'emplacement. Pour séparer les modèles de vague, les modèles de travail et les instructions d'emplacement, définissez des critères sous le type d'activité (**Traiter** ou **Transférer**) dans les requêtes pour ces entités.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Configurer le kanban de prélèvement
 

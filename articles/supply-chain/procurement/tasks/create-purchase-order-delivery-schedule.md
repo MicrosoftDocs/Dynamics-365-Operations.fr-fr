@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018234"
+ms.locfileid: "4428285"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Créer une commande fournisseur avec un plan de livraison
 
@@ -32,21 +32,21 @@ Cette rubrique illustre comment créer un calendrier de livraison pour une comma
 ## <a name="create-a-delivery-schedule"></a>Créer un plan de livraison
 1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**.
 2. Dans le volet Actions, sélectionnez **Nouveau**.
-3. Dans le champ **Compte fournisseur** , saisissez `US-101`.
+3. Dans le champ **Compte fournisseur**, saisissez `US-101`.
 4. Cliquez sur **OK**.
-5. Dans le champ **Numéro d'article** , entrez `M0001`.
+5. Dans le champ **Numéro d'article**, entrez `M0001`.
 6. Entrez `10` dans le champ **Quantité**.
 7. Sélectionnez **Ligne de commande fournisseur**.
 8. Sélectionnez **Plan de livraison**.
 - La page **Plan de livraison** vous permet de spécifier le nombre d'expéditions pour lesquelles la quantité totale de la ligne de commande sera livrée à partir du fournisseur.  
 - Par défaut, le système copie la quantité totale et d'autres détails de livraison à partir de la ligne d'achat d'origine dans la première ligne du plan de livraison. Dans cet exemple, nous allons créer un programme pour deux expéditions, la date de la deuxième expédition étant décalée d'une semaine par rapport à la première expédition.  
-9. Dans le champ **Quantité** , sélectionnez la quantité de `4`.
+9. Dans le champ **Quantité**, sélectionnez la quantité de `4`.
 10. Sélectionnez **Nouveau**.
-11. Dans le champ **Quantité** , entrez la quantité `6`.
+11. Dans le champ **Quantité**, entrez la quantité `6`.
 - Dans le champ Date de livraison, choisissez une date située une semaine après la date sur la première ligne de livraison.  
 - Vous pouvez suivre la quantité totale répartie sur les lignes du plan de livraison en regardant les champs **Total** et **Restant**. Lorsque la quantité restante est nulle cela signifie que la quantité totale de la ligne d'origine a été affectée au plan.  
 12. Développez la section **Conversion de frais**.
-- Les options ici vous permettent de contrôler la façon dont vous voulez répartir les frais entre les lignes du plan de livraison. Si vous sélectionnez **Copier les montants bruts** , le montant de la ligne de commande d'origine est copié dans chaque ligne de livraison. L'option **Allouer aux lignes de livraison** répartit les frais de la ligne originale selon la quantité sur chaque ligne de livraison.  
+- Les options ici vous permettent de contrôler la façon dont vous voulez répartir les frais entre les lignes du plan de livraison. Si vous sélectionnez **Copier les montants bruts**, le montant de la ligne de commande d'origine est copié dans chaque ligne de livraison. L'option **Allouer aux lignes de livraison** répartit les frais de la ligne originale selon la quantité sur chaque ligne de livraison.  
 13. Réduisez la section **Conversion de frais**.
 14. Cliquez sur **OK**.
 - Le plan de livraison est alors appliqué à la commande.  
@@ -67,7 +67,7 @@ La commande fournisseur doit être confirmée avant que l'accusé de réception 
 3. Dans le volet Actions, sélectionnez **Recevoir**.
 4. Sélectionnez **Accusé de réception de marchandises**. Tapez une valeur quelconque dans le champ **Accusé de réception de marchandises**.
 - Ce champ permet d'entrer une référence qui sera utilisée comme N° document pour le journal de réception de marchandises.  
-- Dans le champ **Quantité** , choisissez **Quantité commandée**. Cette option signifie que l'accusé de réception traitera la quantité pour laquelle les lignes de commande ont été créées.  
+- Dans le champ **Quantité**, choisissez **Quantité commandée**. Cette option signifie que l'accusé de réception traitera la quantité pour laquelle les lignes de commande ont été créées.  
 - Assurez-vous que le champ **Imprimer l'accusé de réception de marchandises** est défini sur **Non**. L'impression n'est pas nécessaire dans cet exemple.  
 5. Développez la section **Lignes**.
 - Notez comment l'accusé de réception de marchandises est créé pour les deux lignes de livraison et pas la ligne de commande d'origine. Si l'accusé de réception de marchandises avait été enregistré dans l'entrepôt, il aurait également été enregistré sur les lignes du plan de livraison.  
