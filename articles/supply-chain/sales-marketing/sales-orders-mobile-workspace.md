@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212938"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428081"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espace de travail mobile Commandes client
 
@@ -119,17 +119,17 @@ Si la version 1611 de Dynamics 365 for Operations avec la mise à jour de plate
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
-Télécharger et installer l'application mobile Finance and Operations :
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
+Télécharger et installer l’application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
 
-1.  Démarrez l'application sur votre appareil mobile.
+1.  Démarrez l’application sur votre appareil mobile.
 2.  Entrez votre URL Dynamics 365.
-3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
+3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
 [![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)

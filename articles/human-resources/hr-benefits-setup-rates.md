@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497354"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418526"
 ---
 # <a name="configure-rates"></a>Configurer les taux
 
@@ -65,7 +65,7 @@ Utilisez les taux pour déterminer combien les employés et les employeurs paien
 
 Vous pouvez utiliser des taux échelonnés dans votre configuration de taux si le taux varie en fonction de divers facteurs. Par exemple, vous pouvez configurer des taux échelonnés pour dire que si votre âge atteint 34,99 ans, le montant pour non-fumeurs est de 2. Si votre âge atteint 39,99 ans, le montant pour non-fumeurs est de 3.
 
-Vous pouvez également utiliser des niveaux doubles. Si vous sélectionnez **Niveau double**pour la valeur **Utiliser des niveaux** sur le formulaire **Paramétrage des taux**, vous pouvez définir des taux basés sur deux dimensions. Par exemple, vous pouvez configurer un système de taux double pour dire que si vous êtes un homme et que votre âge atteint 34,99 ans, le montant pour non-fumeurs est de 2. Si vous êtes un homme et que votre âge atteint 39,99 ans, le montant pour non-fumeurs est de 3. Si vous êtes une femme et que votre âge atteint 34,99 ans, le montant pour non-fumeurs est de 1.8. Si vous êtes une femme et que votre âge atteint 39,99 ans, le montant pour non-fumeurs est de 2.8.
+Vous pouvez également utiliser des niveaux doubles. Si vous sélectionnez **Niveau double** pour la valeur **Utiliser des niveaux** sur le formulaire **Paramétrage des taux**, vous pouvez définir des taux basés sur deux dimensions. Par exemple, vous pouvez configurer un système de taux double pour dire que si vous êtes un homme et que votre âge atteint 34,99 ans, le montant pour non-fumeurs est de 2. Si vous êtes un homme et que votre âge atteint 39,99 ans, le montant pour non-fumeurs est de 3. Si vous êtes une femme et que votre âge atteint 34,99 ans, le montant pour non-fumeurs est de 1.8. Si vous êtes une femme et que votre âge atteint 39,99 ans, le montant pour non-fumeurs est de 2.8.
 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Taux**.
 
@@ -75,7 +75,7 @@ Vous pouvez également utiliser des niveaux doubles. Si vous sélectionnez **Niv
 
 3. Spécifiez les valeurs les champs suivants :
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- | 
    | **Description** | La valeur du champ **Description** est appliquée à partir de la description dans l'enregistrement de configuration du taux. Cela vous aide à identifier la configuration de taux à laquelle les taux échelonnés sont liés. |
    | **Code de niveau** | Sélectionnez un code de niveau. Les codes de niveau sont définis dans le formulaire des codes de niveau. Le système affichera automatiquement la description du code de niveau dans la grille de gauche. |

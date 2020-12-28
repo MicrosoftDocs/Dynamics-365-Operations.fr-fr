@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987412"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427680"
 ---
 # <a name="sales-returns"></a>Retours sur ventes
 
@@ -132,7 +132,7 @@ En plus de déterminer la destination des marchandises retournées, les codes di
 <ul>
 <li>il existe une confiance suffisante entre les parties.</li>
 <li>Le coût de retour de l'article défectueux est prohibitif.</li>
-<li>Les articles ne peuvent pas être acceptés dans le stock. En raison d'autres conditions, un retour physique n'est pas nécessaire.</li>
+<li>Les articles ne peuvent pas être acceptés dans le stock. En raison d'autres conditions, un retour physique n&#39;est pas nécessaire.</li>
 </ul></td>
 </tr>
 <tr class="even">

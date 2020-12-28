@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888903"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427991"
 ---
 # <a name="schedule-work-orders"></a>Planifier des ordres de travail
 
@@ -88,7 +88,7 @@ Dans les exemples ci-dessous, le score de l'élément critique est « 2 », et 
 | WO-00010817   | Deux jours à partir de maintenant   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Deux jours à partir de maintenant   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-Les ordres de travail sont planifiés dans l'ordre suivant : WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Les ordres de travail sont planifiés dans l'ordre suivant : WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Exemple 2 :**
 
@@ -98,7 +98,7 @@ Les ordres de travail sont planifiés dans l'ordre suivant : WO-000108**16**, W
 | WO-00010817   | Deux jours à partir de maintenant   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Deux jours à partir de maintenant   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Si le score du niveau de service est augmenté à « 100 » au lieu de « 5 », l'ordre de planification est : WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Si le score du niveau de service est augmenté à « 100 » au lieu de « 5 », l'ordre de planification est : WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Les scores concernant le calcul du travail des agents de maintenance sur les ordres de travail sont tous configurés comme nombres, qui sont ajoutés à chaque calcul d'agent de maintenance pendant la planification des ordres de travail. L'agent de maintenance avec le score le plus élevé est sélectionné sur l'ordre de travail. Voici une courte description des scores de l'agent de maintenance :
 

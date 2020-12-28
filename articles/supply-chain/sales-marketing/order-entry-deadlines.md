@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5f7d4a99166af112abe26220a700fcf4be79223b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981688"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427719"
 ---
 # <a name="order-entry-deadlines"></a>Dates limites de saisie de commande
 

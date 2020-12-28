@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212961"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428082"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Synchronisation des commandes client directement entre Sales et Supply Chain Management
 
@@ -85,7 +85,7 @@ Sales ne prend pas en charge la taxe au niveau de l'en-tête, car la taxe est en
 
 ## <a name="discount-calculation-and-rounding"></a>Calcul et arrondi de la remise
 
-Le modèle de calcul de la remise dans Sales diffère du modèle de calcul de la remise dans Supply Chain Management. Dans Supply Chain Management, le montant de remise final sur une ligne de vente peut être le résultat d'une combinaison des montants de remise et des pourcentages de remise. Si ce montant de remise final est divisé par la quantité de la ligne, un arrondi peut se produire. Toutefois, cet arrondi n'est pas pris en considération si un montant de la remise Par unité qui est arrondi est synchronisé avec Sales. Pour vous assurer que le montant de remise total d'une ligne de vente dans Supply Chain Management soit synchronisé correctement avec Sales, le montant total doit être synchronisé sans être divisé par la quantité de ligne. Par conséquent, vous devez définir le champ **Mode de calcul de remise** sur **Ligne article** dans Sales.
+Le modèle de calcul de la remise dans Sales diffère du modèle de calcul de la remise dans Supply Chain Management. Dans Supply Chain Management, le montant de remise final sur une ligne de vente peut être le résultat d’une combinaison des montants de remise et des pourcentages de remise. Si ce montant de remise final est divisé par la quantité de la ligne, un arrondi peut se produire. Toutefois, cet arrondi n'est pas pris en considération si un montant de la remise Par unité qui est arrondi est synchronisé avec Sales. Pour vous assurer que le montant de remise total d'une ligne de vente dans Supply Chain Management soit synchronisé correctement avec Sales, le montant total doit être synchronisé sans être divisé par la quantité de ligne. Par conséquent, vous devez définir le champ **Mode de calcul de remise** sur **Ligne article** dans Sales.
 
 Lorsqu'une ligne de commande client est synchronisée entre Sales et Supply Chain Management, le montant de remise total est utilisé. Comme Supply Chain Management n'a pas de champ pouvant enregistrer le montant de remise total pour une ligne, le montant est divisé par la quantité et enregistré dans le champ **Remise ligne**. L'arrondi qui survient dans cette division est stocké dans le champ **Frais de vente** sur la ligne de vente.
 

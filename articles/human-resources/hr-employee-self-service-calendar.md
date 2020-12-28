@@ -2,8 +2,8 @@
 title: Créer un calendrier d’équipe
 description: Affichezr et créez des calendriers d’équipe dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968996"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418589"
 ---
 # <a name="view-team-and-company-calendars"></a>Afficher les calendriers des équipes et de la société
 
@@ -64,6 +64,11 @@ Les calendriers contiennent désormais des filtres et des options supplémentair
 La configuration du calendrier dans les paramètres de congé et d’absence détermine les options d’affichage disponibles.
 
 Vous pouvez également filtrer les calendriers par responsable ou service. L’affectation du poste principal détermine les employés affichés lorsque ces filtres sont définis. 
+
+>[!IMPORTANT]
+>L'affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l'activer dans votre environnement de **bac à sable**. Pour plus d’informations sur l'activation des fonctionnalités d'évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).<br><br>
+>Ensuite, vous devez activer la fonctionnalité dans **Paramètres partagés des ressources humaines** pour afficher le filtre d'entité juridique dans les calendriers. Pour plus d’informations, voir [Configurer les paramètres de congé et d’absence](hr-leave-and-absence-parameters.md).<br><br>
+>Vous pouvez filtrer le calendrier par entité juridique. Si vous voulez voir tous les employés quelle que soit l'entité juridique, décochez la case de filtre et sélectionnez Entrée. 
 
 Pour plus d’informations sur les paramètres du calendrier, voir [Configurer les paramètres du calendrier](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

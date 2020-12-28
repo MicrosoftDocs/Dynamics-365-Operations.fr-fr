@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980631"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427944"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Date LIFO avec valeur physique et marquage
 
@@ -39,7 +39,7 @@ Si vous utilisez le modèle de stock Date LIFO, nous vous recommandons une clôt
 Les exemples suivants illustrent l'impact du modèle Date LIFO dans trois configurations différentes :
 
 -   Date LIFO sans l'option **Inclure la valeur physique**
--   Date LIFO avec l'option**Inclure la valeur physique**
+-   Date LIFO avec l'option **Inclure la valeur physique**
 -   Date LIFO avec marquage
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>Date LIFO sans l'option Inclure la valeur physique

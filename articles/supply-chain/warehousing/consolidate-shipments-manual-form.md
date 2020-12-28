@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac60bef797d8e0bbe0d20f1585d5c3c0163f8788
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986790"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427654"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Consolider les expéditions manuellement à l'aide de la page Consolider les expéditions
 
@@ -52,7 +52,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre**Code 4** n'est affecté)
+    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -66,7 +66,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre**Code 4** n'est affecté)
+    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.

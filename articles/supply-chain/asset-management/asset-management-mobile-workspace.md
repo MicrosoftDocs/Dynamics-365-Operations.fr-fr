@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
 ms.openlocfilehash: 525f21d076027f1bf339e59fd0e346706044839c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216503"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427716"
 ---
 # <a name="asset-management-mobile-workspace"></a>Espace de travail mobile Gestion des actifs
 
@@ -63,9 +63,9 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 
 2. Entrez votre URL Dynamics 365.
 
-3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
+3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 
-4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
+4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
 ![Figure 1](media/am-mobile-01.png)
 

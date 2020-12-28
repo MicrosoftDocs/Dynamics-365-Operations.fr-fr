@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17fbed59b1fe7bec80f25f74451872efd61bed62
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976998"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427676"
 ---
 # <a name="combine-service-orders"></a>Combiner les commandes de service   
 
@@ -57,7 +57,7 @@ Créez un accord de service pour lequel la date de début est le 31-03-2007. Dan
 <tr class="header">
 <th><p>Numéro de ligne d'accord</p></th>
 <th><p>Type de transaction</p></th>
-<th><p>Description </p></th>
+<th><p>Description</p></th>
 <th><p>Intervalle</p></th>
 <th><p>Objet du service</p></th>
 <th><p>Date de début</p></th>

@@ -17,11 +17,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: f50318e0a955d8244ba854aa1fd73ad7532b9198
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759566"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427862"
 ---
 # <a name="inventory-value-storage-report"></a>État de stockage de la valeur de stock
 

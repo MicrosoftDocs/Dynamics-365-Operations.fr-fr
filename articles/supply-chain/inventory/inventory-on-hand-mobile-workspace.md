@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427645"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Stock disponible dans l'espace de travail mobile
 
@@ -94,19 +94,19 @@ Si Platform Update 3 ou version ultérieure a été déployée pour votre organi
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
 
-Télécharger et installer l'application mobile Finance and Operations :
+Télécharger et installer l’application mobile Finance and Operations :
 
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
 
-1.  Démarrez l'application sur votre appareil mobile.
+1.  Démarrez l’application sur votre appareil mobile.
 2.  Entrez votre URL Dynamics 365.
-3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
-4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
+3.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
+4.  Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
     [![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 

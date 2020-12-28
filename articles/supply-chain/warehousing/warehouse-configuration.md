@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a8cd436f1b8324335cc39ce54344db834dddebc9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204606"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427750"
 ---
 # <a name="warehouse-configuration-overview"></a>Vue d'ensemble de configuration de l'entrepôt
 
@@ -61,7 +61,7 @@ Les entités que vous créez pour définir votre disposition d'entrepôt sont ut
 
 Vous devez tenir compte la disposition physique de l'entrepôt, aussi bien pour déterminer les capacités de stockage (les limites de stockage d'emplacement et les profils d'emplacement) que dans le cadre de vos tentatives d'optimiser les processus d'entrepôt. 
 
-Les limites de stockage de l'emplacement permettent de s'assurer que le travail n'est pas créé pour demander le déplacement du stock vers un emplacement qui n'a pas la capacité physique de l'accueillir. Par exemple, si certains emplacements d'un entrepôt ne peuvent contenir qu'une palette par emplacement, les limites de stockage d'emplacement peuvent être activées. La valeur **Quantité** peut être définie sur **1**, et la valeur **Unité**peut être définie sur**Palette** dans un regroupement de profils d'emplacement spécifique. 
+Les limites de stockage de l'emplacement permettent de s'assurer que le travail n'est pas créé pour demander le déplacement du stock vers un emplacement qui n'a pas la capacité physique de l'accueillir. Par exemple, si certains emplacements d'un entrepôt ne peuvent contenir qu'une palette par emplacement, les limites de stockage d'emplacement peuvent être activées. La valeur **Quantité** peut être définie sur **1**, et la valeur **Unité** peut être définie sur **Palette** dans un regroupement de profils d'emplacement spécifique. 
 
 Si les calculs plus avancés sont requis pour contrôler les contraintes de capacité d'emplacement, les paramètres de profil d'emplacement peuvent être utilisés. Dans ce cas, le poids et le volume sont considérés lorsque des calculs de capacité. 
 

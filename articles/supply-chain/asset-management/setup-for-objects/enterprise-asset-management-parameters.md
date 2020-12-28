@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889839"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427995"
 ---
 # <a name="asset-management-parameters"></a>Paramètres de gestion des actifs
 
@@ -52,7 +52,7 @@ Lien **Ordres de travail**
 
 - **Type d'ordre de travail par défaut** définit les paramètres standard lors de la création d'un ordre de travail.  
 - **Type d'ordre de travail préventif** définit le type d'ordre de travail utilisé lors de la création d'ordres de travail à partir de plans de maintenance. Si ce champ est laissé vide, le type d'ordre de travail dans le champ **Type d'ordre de travail par défaut** est utilisé.  
-- Dans le champ **Masque d'ordre de travail associé**, définissez le nombre maximal d'ordres de travail qui peuvent être liés à un ordre de travail. Par exemple, ## vous permet d'avoir jusqu'à 99 ordres de travail associés. Si vous définissez un masque comme décrit dans cette rubrique, les ordres de travail associés sont comptabilisés [ID d'ordre de travail de l'ordre de travail auquel un ordre de travail est associé]-01, -02, -03, etc. Si vous ne définissez pas de masque dans ce champ, un ordre de travail associé obtient le prochain ID d'ordre de travail séquentiel.  
+- Dans le champ **Masque d'ordre de travail associé**, définissez le nombre maximal d'ordres de travail qui peuvent être liés à un ordre de travail. Par exemple, ## vous permet d'avoir jusqu'à 99 ordres de travail associés. Si vous définissez un masque comme décrit dans cette rubrique, les ordres de travail associés sont comptabilisés [ID d'ordre de travail de l'ordre de travail auquel un ordre de travail est associé] -01, -02, -03, etc. Si vous ne définissez pas de masque dans ce champ, un ordre de travail associé obtient le prochain ID d'ordre de travail séquentiel.  
 - Sélectionnez **Oui** pour **Copier les pannes** si vous souhaitez copier automatiquement les pannes enregistrées sur les ordres de travail dans les demandes de maintenance connexes. 
 - Dans le champ **Niveau**, vous définissez le niveau de poste technique automatiquement inséré sur un ordre de travail si toutes les tâches d'ordre de travail associées se réfèrent au même poste technique. Si toutes les tâches d'ordre de travail ne sont pas associées au même poste technique sur le niveau défini, le champ **Poste technique** reste vide sur l'ordre de travail. Par exemple, si vous insérez le nombre « 1 » dans ce champ, c'est le niveau supérieur d'une structure de poste technique. Si vous insérez le nombre « 0 » dans ce champ, vous n'avez pas défini de niveau de poste technique spécifique, uniquement que toutes les tâches d'ordre de travail sur un ordre de travail doivent être associées au même poste technique pour que celui-ci soit ajouté à l'ordre de travail.  
 - Les journaux utilisés lors de la validation de la consommation sur un ordre de travail peuvent être sélectionnés dans l'organisateur **Général** dans les champs **Heure**, **Article** et **Dépenses**.  

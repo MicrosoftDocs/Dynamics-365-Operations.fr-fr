@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429564"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418565"
 ---
 # <a name="design-questionnaires"></a>Créer des questionnaires
 
@@ -91,7 +91,7 @@ Les codes souche de numéros servent à classer les questions et les réponses. 
 Vous devez définir tous les paramètres avant de commencer à créer vos données. Vous pouvez modifier les paramètres de questionnaire à tout moment.
 
 ## <a name="questionnaire-components"></a>Composants du questionnaire
-Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
+Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même  Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
 
 [![Composants du questionnaire](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -184,7 +184,7 @@ Un groupe de résultats permet de calculer les points et de classer les résulta
 > [!NOTE]
 > Vous devez exécuter certaines tâches préalables avant de paramétrer des groupes de résultats :
 
--   Paramétrez des questions fermées. Pour une question fermée, le type d'entrée dans la page **Questions** doit être **Case à cocher**, **Autre bouton**ou **Zone combinée**.
+-   Paramétrez des questions fermées. Pour une question fermée, le type d'entrée dans la page **Questions** doit être **Case à cocher**, **Autre bouton** ou **Zone combinée**.
 -   Définissez des points pour les réponses dans les groupes de réponses affectés à chaque question.
 -   Paramétrez un questionnaire.
 

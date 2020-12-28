@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628451"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418512"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
@@ -132,7 +132,7 @@ Vous pouvez utiliser le workflow d’évaluation des collaborateurs pour contrô
 
 1.  Lorsque la révision est créée, elle est définie sur le statut **Non commencé**. La révision peut être modifiée par n’importe qui.
 
-2.  Une fois que l’employé a appuyé sur le bouton **Commencer la révision**, la révision est définie sur le statut**En cours**. L’employé commence ensuite à ajouter du contenu. À ce stade, le responsable ne peut plus afficher le document de révision.
+2.  Une fois que l’employé a appuyé sur le bouton **Commencer la révision**, la révision est définie sur le statut **En cours**. L’employé commence ensuite à ajouter du contenu. À ce stade, le responsable ne peut plus afficher le document de révision.
 
 3.  L’employé remplace le statut par **Prêt pour la révision**.
 

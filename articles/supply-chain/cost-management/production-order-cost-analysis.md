@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dcc155a7fe5ca16e7543bf5917dbedadef987b62
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826716"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427974"
 ---
 # <a name="production-order-cost-analysis"></a>Analyse du coût de l'ordre de fabrication
 
@@ -49,7 +49,7 @@ Le diagramme suivant présente les quatre écarts pris en compte pour la différ
 Vous pouvez analyser les écarts de production à l'aide de la page **Écart** ou de l'état **Écart de production**. Les options d'affichage permettent de visualiser les écarts détaillés par article et ressource opérationnelle, ou par groupe de coûts. La stratégie d'analyse des coûts figurant dans les paramètres de stock détermine si les écarts sont suivis par groupe de coûts. Vous pouvez également utiliser les options d'affichage **simple**, **multi** et **total** pour voir les écarts résumés. Les informations d'écart détaillées vous permettent de comprendre la source de chaque écart. Afin d'anticiper les écarts avant la fin d'un ordre de fabrication, analysez les informations détaillées fournies dans l'état **Estimations et évaluations des coûts**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Analyse des coûts pour les ordres de fabrication en cours
-Des états séparés présentent des informations sur chaque type de transaction. Ces états permettent d'analyser les coûts des activités de production déclarées. Les informations s'affichent uniquement pour les ordres de fabrication en cours ayant le statut **Commencé** ou**Déclaré terminé**.
+Des états séparés présentent des informations sur chaque type de transaction. Ces états permettent d'analyser les coûts des activités de production déclarées. Les informations s'affichent uniquement pour les ordres de fabrication en cours ayant le statut **Commencé** ou **Déclaré terminé**.
 
 -   **Matières en cours**− Cet état répertorie les transactions de prélèvements déclarées pour les ordres de fabrication en cours à partir d'une date de transaction spécifiée. L'état indique la quantité d'un composant qui a été sortie et le montant des coûts pour chaque transaction. Utilisez les critères de sélection pour un composant unique. Vous pouvez par exemple imprimer les informations relatives à la quantité émise du composant pour les ordres de fabrication applicables. La quantité émise n'est pas mise à jour par les quantités déclarées comme terminées pour l'article parent. Par conséquent, la quantité réelle de matières premières en cours peut être exagérée.
 -   **Travail en cours**− Cet état répertorie les transactions de gamme (ou tâches déclarées) qui sont déclarées pour les ordres de fabrication en cours à partir d'une date de transaction spécifiée. L'état indique les heures, le montant et la quantité (la quantité correcte et la quantité erronée) qui sont déclarés pour chaque transaction. Il inclut également des informations telles que le numéro d'opération, l'ID opération et la ressource opérationnelle. En outre, cet état affiche les temps et les montant totaux pour toutes les transactions pour un ordre de fabrication ainsi que la quantité déclarée comme terminée.

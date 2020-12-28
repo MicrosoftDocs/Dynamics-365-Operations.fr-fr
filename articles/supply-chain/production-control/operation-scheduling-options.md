@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211374"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427732"
 ---
 # <a name="operations-scheduling-options"></a>Options d'ordonnancement des opérations
 
@@ -97,7 +97,7 @@ Lorsque les références dépendent des ordres de fabrication, elles sont égale
 
 ### <a name="synchronize-references"></a>Synchroniser les références
 
-Vous pouvez synchroniser les références avec l'ordre de fabrication. Dans ce cas, les dates des sous-productions sont avancées ou repoussées, et alignées en cas de modification de la planification de l'ordre de fabrication. Si un ordre de fabrication est composée d'une ou de plusieurs sous-productions, vous pouvez planifier les sous-productions avec la production principale. Dans ce cas, la production principale ne peut pas être lancée tant que les sous-productions associées ne sont pas terminées. Par conséquent, activez cette case à cocher si la planification des sous-productions doit être basée sur les heures de début et de fin de la production sélectionnée. Vous pouvez activer cette case à cocher uniquement si la case à cocher**Planifier des références** est également activée.
+Vous pouvez synchroniser les références avec l'ordre de fabrication. Dans ce cas, les dates des sous-productions sont avancées ou repoussées, et alignées en cas de modification de la planification de l'ordre de fabrication. Si un ordre de fabrication est composée d'une ou de plusieurs sous-productions, vous pouvez planifier les sous-productions avec la production principale. Dans ce cas, la production principale ne peut pas être lancée tant que les sous-productions associées ne sont pas terminées. Par conséquent, activez cette case à cocher si la planification des sous-productions doit être basée sur les heures de début et de fin de la production sélectionnée. Vous pouvez activer cette case à cocher uniquement si la case à cocher **Planifier des références** est également activée.
 
 ## <a name="cancellation"></a>Annulation
 ### <a name="cancel-queue-time"></a>Annuler le temps d'attente

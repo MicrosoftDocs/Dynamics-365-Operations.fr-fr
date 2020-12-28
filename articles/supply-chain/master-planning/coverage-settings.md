@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982718"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428134"
 ---
 # <a name="coverage-settings"></a>Paramètres de couverture
 
@@ -40,7 +40,7 @@ Vous pouvez spécifier des paramètres de couverture de plusieurs façons :
 
 - Spécifiez des paramètres de couverture pour un produit.
 
-    Vous pouvez créer des paramètres de couverture pour un produit spécifique. Allez à **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez le produit, puis dans le volet Actions, sous l'onglet **Plan**, dans le champ **Groupe de couverture**, cliquez sur **Couverture de l'article** pour ouvrir la page **Couverture de l'article**. Si le produit est déjà lié à un groupe de couverture, vous pouvez remplacer les paramètres de groupe de couverture à l'aide du champ **Remplacer**. Les paramètres de couverture de la page**Couverture de l'article** prévalent sur les paramètres de la page **Groupe de couverture**.
+    Vous pouvez créer des paramètres de couverture pour un produit spécifique. Allez à **Gestion des informations sur les produits &gt; Produits &gt; Produits lancés**. Sélectionnez le produit, puis dans le volet Actions, sous l'onglet **Plan**, dans le champ **Groupe de couverture**, cliquez sur **Couverture de l'article** pour ouvrir la page **Couverture de l'article**. Si le produit est déjà lié à un groupe de couverture, vous pouvez remplacer les paramètres de groupe de couverture à l'aide du champ **Remplacer**. Les paramètres de couverture de la page **Couverture de l'article** prévalent sur les paramètres de la page **Groupe de couverture**.
 
 - Spécifiez des paramètres de couverture pour un produit à l'aide d'un Assistant.
 
