@@ -1,7 +1,7 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (août 2018)
-description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent - Core HR.
-author: Darinkramer
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent – Core HR.
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 4f6d0a32807397d5f2c0892061e54c2fed24610b
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897762"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690098"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (août 2018)
 
@@ -31,9 +31,9 @@ ms.locfileid: "2897762"
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent: Core HR.
 
-## <a name="view-expiring-records-in-manager-self-service"></a>Afficher les enregistrements arrivant à expiration dans Responsable en libre-service
+## <a name="view-expiring-records-in-manager-self-service"></a>Afficher les enregistrements arrivant à expiration dans Responsable en libre service
 
-Vous pouvez maintenant afficher les enregistrements arrivant à expiration dans Responsable en libre-service. De nouvelles options vous permettent de configurer les informations qui seront visibles par les responsables. Ces valeurs sont les suivantes :
+Vous pouvez maintenant afficher les enregistrements arrivant à expiration dans Responsable en libre-service. De nouvelles options vous permettent de configurer les informations qui seront visibles par les responsables. Ces options incluent :
 
 -   Certificats
 
@@ -51,7 +51,7 @@ Cette fonctionnalité vous offre également la possibilité de spécifier la pla
 
 Vous pouvez configurer par rôle les options qui seront disponibles lors de la saisie d'une demande de transfert. Cette fonctionnalité offre une flexibilité supplémentaire pour les rôles d'une organisation.
 
-Par exemple, les responsables qui demandent des transferts d'employé peuvent ne pas avoir accès pour suggérer ou entrer des montants de rémunération ou sélectionner les listes de tâches qui seront associées à la demande de transfert. Dans ce cas, les responsables peuvent créer et soumettre des demandes de transfert mais ne sont pas autorisés à entrer des rémunérations ou des affectations de liste de tâches. Dans cette même configuration, les ressources humaines pourront affecter les nouvelles valeurs de rémunération ainsi que des listes de contrôle supplémentaires à effectuer à la suite de l'exécution du transfert.
+Par exemple, les responsables qui demandent des transferts d'employé peuvent ne pas avoir accès pour suggérer ou entrer des montants de rémunération ou sélectionner les listes de tâches qui seront associées à la demande de transfert. Les responsables peuvent créer et soumettre des demandes de transfert mais ne peuvent pas entrer des rémunérations ou des affectations de liste de tâches. Dans cette même configuration, les RH pourront affecter les nouvelles valeurs de rémunération et des listes de contrôle supplémentaires à remplir en raison de l'exécution du transfert.
 
 Par défaut, les nouvelles options de configuration sont définies pour ne pas modifier les fonctionnalités avant cette mise à jour.
 
@@ -59,7 +59,7 @@ Par défaut, les nouvelles options de configuration sont définies pour ne pas m
 
 Des champs de date supplémentaires sont maintenant disponibles dans Congé et absence.
 
-Cette fonctionnalité vous permet de définir la base de la période de régularisation au niveau du plan pour utiliser des dates spécifiques à l'employé. Cela permet d'utiliser des dates différentes de la date de début du plan pendant le processus de régularisation des congés. Les options pour les dates spécifiques à l'employé incluent les valeurs suivantes :
+Cette fonctionnalité vous permet de définir la base de la période de régularisation au niveau du plan pour utiliser des dates spécifiques à l'employé. Des dates différentes de la date de début du plan peuvent être utilisées pendant le processus de régularisation des congés. Les options pour les dates spécifiques à l'employé incluent les valeurs suivantes :
 
 -   Personnalisé (disponible avant cette mise à jour)
 

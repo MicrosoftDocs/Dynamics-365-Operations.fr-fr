@@ -3,7 +3,7 @@ title: Ajustements de prix et remises
 description: Cet article offre des informations relatives aux ajustements de prix et aux rabais dans Dynamics 365 Commerce.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dfaacfa7681258e3b2273083017c0c398d566651
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022568"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584313"
 ---
 # <a name="price-adjustments-and-discounts"></a>Ajustements de prix et remises
 
@@ -41,11 +41,13 @@ Les ajustements de prix et les remises peuvent être appliqués aux produits, va
 
 ## <a name="types-of-discounts"></a>Types de remises
 
-Il existe 4 types de remise :
+Il existe plusieurs types de remise :
 
 - **Remise simple** – Un pourcentage ou montant individuel.
 - **Remise sur quantité** – Une remise est appliquée lorsqu'au moins deux produits sont achetés.
 - **Remise mix and match** – Une remise est appliquée lorsqu'une combinaison spécifique de produits est achetée.
 - **Remise seuil** – Une remise est appliquée lorsque le total de la transaction est supérieur à un montant spécifié.
+- **Remise sur appel d'offres** – Remise appliquée lorsque le total de la transaction est supérieur à un montant spécifié et qu'un type de paiement spécifique (par exemple, espèces, carte de crédit ou de débit) est utilisé pour le paiement.
+- **Remise sur l'expédition** – Une remise qui est appliquée lorsque le total de la transaction est supérieur à un montant spécifié et qu'un mode de livraison spécifique (par exemple, expédition sous deux jours ou livraison le lendemain) est utilisé sur la commande.
 
 Tant les ajustements de prix que les remises peuvent être associés à des groupes de prix. Les groupes de prix peuvent ensuite être associés à des canaux, catalogues, affiliations et programmes de fidélité.

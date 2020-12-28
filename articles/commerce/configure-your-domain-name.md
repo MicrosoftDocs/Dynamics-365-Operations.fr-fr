@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: afc8c7fffbded82be32357bdeb30546afc8b0957
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: ac1b0c8baaddd6ca62cc49657fff364df21c14f2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533296"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517118"
 ---
 # <a name="configure-your-domain-name"></a>Configuration du nom de domaine
 
@@ -33,25 +33,25 @@ ms.locfileid: "3533296"
 
 Cette rubrique explique comment configurer un nom de domaine pour un site de commerce électronique Microsoft Dynamics 365. 
 
-## <a name="add-domains-during-e-commerce-initialization"></a>Ajouter des domaines lors de l'initialisation du commerce électronique
+## <a name="add-domains-during-e-commerce-initialization"></a>Ajouter des domaines lors de l'initialisation de l'e-commerce
 
-Pour associer des domaines avec votre environnement de commerce électronique, initialisez le commerce électronique comme décrit dans [Déployer un nouveau site de commerce électronique](deploy-ecommerce-site.md). Lors de l'initialisation, vous êtes invité à fournir des informations qui seront utilisées pour mettre en service votre environnement de commerce électronique. Dans le champ **Noms d'hôtes pris en charge**, ajoutez des domaines que vous comptez utiliser avec l'environnement. Si vous avez plusieurs domaines, séparez-les par un point-virgule. Ainsi, les domaines sont tous configurés dans tous les composants requis de commerce électronique, et ils sont prêts à être utilisés lorsque vous changez le trafic de votre réseau de diffusion de contenu (CDN) ou votre serveur web et que vous le pointez vers les serveurs frontaux de commerce électronique.
+Pour associer des domaines avec votre environnement d'e-commerce Dynamics 365 Commerce, initialisez l'e-commerce comme décrit dans [Déployer un nouveau site d'e-commerce](deploy-ecommerce-site.md). Lors de l'initialisation, vous êtes invité à fournir des informations qui seront utilisées pour mettre en service votre environnement d'e-commerce. Dans le champ **Noms d'hôtes pris en charge**, ajoutez des domaines que vous comptez utiliser avec l'environnement. Si vous avez plusieurs domaines, séparez-les par un point-virgule. Ainsi, les domaines sont tous configurés dans tous les composants requis d'e-commerce, et ils sont prêts à être utilisés lorsque vous changez le trafic de votre réseau de diffusion de contenu (CDN) ou votre serveur web et que vous le pointez vers les serveurs frontaux d'e-commerce.
 
-## <a name="add-domains-after-e-commerce-initialization"></a>Ajouter des domaines après l'initialisation du commerce électronique
+## <a name="add-domains-after-e-commerce-initialization"></a>Ajouter des domaines après l'initialisation de l'e-commerce
 
-Pour associer de nouveaux domaines à votre environnement de commerce électronique après l'initialisation du commerce électronique, vous devez envoyer une demande de service.
+Pour associer de nouveaux domaines à votre environnement d'e-commerce après l'initialisation de l'e-commerce, vous devez envoyer une demande de service.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+[Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
-[Création d'un site de commerce électronique](create-ecommerce-site.md)
+[Créer un site d’e-commerce](create-ecommerce-site.md)
 
-[Association d'un site en ligne avec un canal](associate-site-online-store.md)
+[Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
-[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+[Importer des redirections d’URL en bloc](upload-bulk-redirects.md)
 
 [Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
 
@@ -59,6 +59,6 @@ Pour associer de nouveaux domaines à votre environnement de commerce électroni
 
 [Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
-[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+[Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)

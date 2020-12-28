@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817304"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517230"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Paramétrer des pages personnalisées pour les connexions utilisateur
 
@@ -52,7 +52,7 @@ Pour configurer la stratégie « Inscription et connexion », procédez comme 
 1. Sélectionnez **Nouveau flux utilisateur**, puis, dans l'onglet **Recommandé**, sélectionnez la stratégie **Inscription et connexion**.
 1. Entrez un nom pour la stratégie (par exemple, **B2C\_1\_SignInSignUp**).
 1. Dans la section **Fournisseurs d'identification**, sélectionnez les fournisseurs d'identification à utiliser pour la stratégie. **E-mail d'inscription** doit être au moins être sélectionné.
-1. Dans la colonne **Attribut de collecte**, activez les cases à cocher pour, **Adresse e-mail**, **Prénom**et **Nom de famille**.
+1. Dans la colonne **Attribut de collecte**, activez les cases à cocher pour, **Adresse e-mail**, **Prénom** et **Nom de famille**.
 1. Dans la colonne **Réclamation de retour**, activez les cases à cocher pour **Adresse e-mail**, **Prénom**, **Fournisseur d'identification**, **Nom de famille** et **ID objet de l'utilisateur**.
 
     ![Attributs et réclamations sélectionnés](./media/B2C_SignInSignUp_Attributes.png)
@@ -197,15 +197,15 @@ Après avoir mis à jour le fichier global.json et publié vos modifications, le
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+[Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
-[Création d’un site de commerce électronique](create-ecommerce-site.md)
+[Créer un site d’e-commerce](create-ecommerce-site.md)
 
-[Association d’un site en ligne avec un canal](associate-site-online-store.md)
+[Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
-[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+[Importer des redirections d’URL en bloc](upload-bulk-redirects.md)
 
 [Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
 

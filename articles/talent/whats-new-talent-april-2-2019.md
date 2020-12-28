@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896925"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528217"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Nouveautés et modifications dans Dynamics 365 Talent (2 avril 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
@@ -54,8 +56,8 @@ Dans Attract et Onboard, les problèmes consignés par les utilisateurs à l'aid
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2216.
 
-### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 pour Finance and Operations
-Pour plus d'informations sur Platform Update 25 pour Finance and Operations, voir [Aperçu des fonctionnalités dans Dynamics 365 for Finance and Operations Platform Update 25 (avril 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Mise à jour de la plateforme 25 pour Finance and Operations
+Pour plus d'informations sur Platform Update 25 pour Finance and Operations, voir [Fonctionnalités d'évaluation dans Dynamics 365 for Finance and Operations Platform Update 25 (avril 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Sécurité avancée de la rémunération (fixe et variable)
 Nombreuses sont les organisations où les responsables des avantages et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération. Il peut s'agir d'enregistrements concernant des cadres ou des employés régionaux. Cette modification permet aux RH de gérer et de tenir à jour les plans de rémunération pour différents groupes d'employés au sein de l'organisation. Vous pouvez affecter des rôles de sécurité aux régimes fixes et variables. Ces rôles de sécurité déterminent l'accès aux plans et aux données d'employé associées, telles que les enregistrements de salaire ou de prime, de sorte que seuls ces rôles peuvent traiter la rémunération des groupes d'employés.
@@ -77,4 +79,4 @@ Les organisations peuvent exiger des codes motif pour certains types d'absence l
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom. Un champ de statut affiche le nombre de doublons trouvés. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. Pour éviter d'interrompre la saisie des données, l'écran des doublons ne s'ouvre pas automatiquement.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Dans Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement. 
+Avec Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement. 

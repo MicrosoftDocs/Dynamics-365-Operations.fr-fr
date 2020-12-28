@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897693"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529160"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (6 décembre 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Version 8.1.2071**
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Core HR.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Platform update 22 pour Finance and Operations
+## <a name="platform-update-22-for-finance-and-operations"></a>Mise à jour de la plateforme 22 pour Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Exportation jusqu'à 1 millions de lignes vers Excel
 
@@ -133,7 +135,7 @@ La tâche Collaborateurs à Travail nécessite que les mises en correspondance s
 
 La transformation du champ Sexe doit également être mise à jour. Sélectionnez le type de mise en correspondance **fn** (fonction) pour Sexe et mettez à jour les mises en correspondance de valeurs suivantes.
 
-| Common Data Service Valeur   | Valeur Finance and Operations | | ------------|------------------ -----------| | 75440000    | Masculin                         | | 75440001    | Féminin                       | | 75440002    | Aucun                         | | 75440003    | Non spécifié                  |
+| Valeur Common Data Service   | Valeur Finance and Operations | | ------------|------------------ -----------| | 75440000    | Homme                         | | 75440001    | Femme                       | | 75440002    | Aucun                         | | 75440003    | NonSpécifique                  |
 
 Les mises en correspondance mises à jour doivent ressembler à ce qui suit.
 

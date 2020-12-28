@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980962"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517378"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
@@ -345,15 +345,15 @@ Un compte administrateur secondaire facultatif peut être ajouté dans la sectio
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Déploiement d’un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+[Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
-[Création d’un site de commerce électronique](create-ecommerce-site.md)
+[Créer un site d’e-commerce](create-ecommerce-site.md)
 
-[Association d’un site en ligne avec un canal](associate-site-online-store.md)
+[Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
-[Importer des redirections d’URL en bloc](upload-bulk-redirects.md)
+[Charger des redirections d'URL en bloc](upload-bulk-redirects.md)Associer un site Dynamics 365 Commerce à un canal en ligne
 
 [Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
 

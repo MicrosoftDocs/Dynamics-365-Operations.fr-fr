@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017320"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654170"
 ---
 # <a name="zone-threshold-replenishment"></a>Réapprovisionnement du seuil de zone
 
@@ -41,7 +41,7 @@ Contrairement au réapprovisionnement min/max basé sur l’emplacement, le réa
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Activer la fonctionnalité de réapprovisionnement du seuil de zone
 
-Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de zone* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de zone* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Réapprovisionnement du seuil de zone*
@@ -95,14 +95,14 @@ Cet exemple montre comment préparer un modèle de réapprovisionnement. Si vous
     - **Type de réapprovisionnement :** _Minimum ou maximum_
 
 1. Sélectionnez **Enregistrer**.
-1. Alors que la nouvelle ligne est toujours sélectionnée dans la grille **Vue d’ensemble** , sélectionnez **Nouveau** au dessus de la grille **Détails du modèle de réapprovisionnement** pour ajouter une ligne associée au modèle de réapprovisionnement *Réapprovisionnement de zone min/max* que vous venez de créer.
+1. Alors que la nouvelle ligne est toujours sélectionnée dans la grille **Vue d’ensemble**, sélectionnez **Nouveau** au dessus de la grille **Détails du modèle de réapprovisionnement** pour ajouter une ligne associée au modèle de réapprovisionnement *Réapprovisionnement de zone min/max* que vous venez de créer.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
     - **Description :** Entrez _Réapprovisionnement de zone de prélèvement_.
     - **Unité de réapprovisionnement :** Sélectionnez _ea_.
     - **Type de demande :** Laissez ce champ vide.
-    - **Code directif :** Ce champ associe le modèle de réapprovisionnement à une directive d’emplacement. Sélectionnez le code directif de données de démonstration créé précédemment ( _Zone de réapprovisionnement_ ).
+    - **Code directif :** Ce champ associe le modèle de réapprovisionnement à une directive d’emplacement. Sélectionnez le code directif de données de démonstration créé précédemment (_Zone de réapprovisionnement_).
     - **Modèle de travail :** Laissez ce champ vide.
     - **Quantité minimale :** Ce champ définit la quantité à laquelle le réapprovisionnement sera déclenché. Entrez _50_.
     - **Quantité maximale :** Ce champ définit la quantité maximale d’un article qui peut être présent dans une zone. Le travail de réapprovisionnement généré augmentera le stock de cette quantité. Entrez _150_.
@@ -115,7 +115,7 @@ Cet exemple montre comment préparer un modèle de réapprovisionnement. Si vous
     - **Entrepôt :** Sélectionner _61_.
 
 1. Sélectionnez **Sélectionner les produits** au dessus de la grille **Détails du modèle de réapprovisionnement**.
-1. Dans la boîte de dialogue **Requête de produit** , sous l’onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Dans la boîte de dialogue **Requête de produit**, sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** _Articles_
@@ -125,7 +125,7 @@ Cet exemple montre comment préparer un modèle de réapprovisionnement. Si vous
 
 1. Sélectionnez **OK** pour enregistrer votre requête et fermer la boîte de dialogue.
 1. Sélectionnez **Sélectionner les zones à réapprovisionner** au dessus de la grille **Détails du modèle de réapprovisionnement**.
-1. Dans la boîte de dialogue **Requête de zone** , sous l’onglet **Plage** , ajoutez une ligne à la grille.
+1. Dans la boîte de dialogue **Requête de zone**, sous l’onglet **Plage**, ajoutez une ligne à la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** _Zone d’entrepôt_
@@ -166,7 +166,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **SKU multiple :** Définissez cette option sur _Non_.
 
 1. Sélectionnez **Enregistrer** pour créer une directive contenant les paramètres que vous avez configurés jusqu’à présent.
-1. Dans l'organisateur **Lignes** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -180,7 +180,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **Autoriser le fractionnement :** Cochez cette case.
 
 1. Sélectionnez **Enregistrer** pour enregistrer la nouvelle ligne.
-1. Alors que votre nouvelle ligne est toujours sélectionnée dans la grille **Lignes** , sélectionnez **Nouveau** sur l’organisateur **Actions de la directive d’emplacement** pour ajouter une ligne à la grille.
+1. Alors que votre nouvelle ligne est toujours sélectionnée dans la grille **Lignes**, sélectionnez **Nouveau** sur l’organisateur **Actions de la directive d’emplacement** pour ajouter une ligne à la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -192,7 +192,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
 
 1. Sélectionnez **Enregistrer** pour enregistrer la nouvelle action.
 1. Pendant que votre nouvelle action est toujours sélectionnée, sélectionnez **Modifier la requête** au dessus de la grille **Actions de la directive d’emplacement**.
-1. Une boîte de dialogue de requête apparaît, dans laquelle vous pouvez sélectionner les emplacements à partir desquels vous réapprovisionnez. Sous l’onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne dans la grille.
+1. Une boîte de dialogue de requête apparaît, dans laquelle vous pouvez sélectionner les emplacements à partir desquels vous réapprovisionnez. Sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne dans la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** _Emplacements_
@@ -205,7 +205,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
 
 ##### <a name="create-a-replenishment-put-directive"></a>Créer une directive de rangement de réapprovisionnement
 
-1. Sur la page **Directives d’emplacement** , dans le volet gauche, assurez-vous que le champ **Type d’ordre de travail** est toujours défini sur _Réapprovisionnement_.
+1. Sur la page **Directives d’emplacement**, dans le volet gauche, assurez-vous que le champ **Type d’ordre de travail** est toujours défini sur _Réapprovisionnement_.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer une autre directive.
 1. Définissez les valeurs suivantes :
 
@@ -218,7 +218,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **SKU multiple :** Définissez cette option sur _Non_.
 
 1. Sélectionnez **Enregistrer** pour créer une directive contenant les paramètres que vous avez configurés jusqu’à présent.
-1. Dans l'organisateur **Lignes** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -232,7 +232,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **Autoriser le fractionnement :** Cochez cette case.
 
 1. Sélectionnez **Enregistrer** pour enregistrer la nouvelle ligne.
-1. Alors que votre nouvelle ligne est toujours sélectionnée dans la grille **Lignes** , sélectionnez **Nouveau** sur l’organisateur **Actions de la directive d’emplacement** pour ajouter une ligne à la grille.
+1. Alors que votre nouvelle ligne est toujours sélectionnée dans la grille **Lignes**, sélectionnez **Nouveau** sur l’organisateur **Actions de la directive d’emplacement** pour ajouter une ligne à la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -244,7 +244,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
 
 1. Sélectionnez **Enregistrer** pour enregistrer la nouvelle action.
 1. Pendant que votre nouvelle action est toujours sélectionnée, sélectionnez **Modifier la requête** au dessus de la grille **Actions de la directive d’emplacement**.
-1. Une boîte de dialogue de requête apparaît, dans laquelle vous pouvez sélectionner la zone à réapprovisionner. Cette zone doit être la même que celle spécifiée dans le modèle de réapprovisionnement. Sous l’onglet **Plage** , sélectionnez **Ajouter** pour ajouter une ligne dans la grille.
+1. Une boîte de dialogue de requête apparaît, dans laquelle vous pouvez sélectionner la zone à réapprovisionner. Cette zone doit être la même que celle spécifiée dans le modèle de réapprovisionnement. Sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne dans la grille.
 1. Dans la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** _Emplacements_
@@ -269,21 +269,21 @@ Pour utiliser le scénario à l’aide des exemples d’enregistrements et de va
 
 #### <a name="prepare-additional-sample-data"></a>Préparer des exemples de données supplémentaires
 
-Après avoir sélectionné l’entité juridique **USMF** , ajoutez les données d’échantillon supplémentaires requises, comme décrit dans la section [Configurer le réapprovisionnement basé sur une zone](#setup) plus haut dans cette rubrique.
+Après avoir sélectionné l’entité juridique **USMF**, ajoutez les données d’échantillon supplémentaires requises, comme décrit dans la section [Configurer le réapprovisionnement basé sur une zone](#setup) plus haut dans cette rubrique.
 
 #### <a name="check-your-on-hand-inventory"></a>Vérifier votre stock disponible
 
 Suivez ces étapes pour vous assurer que votre système comprend suffisamment de stock pour prendre en charge l’exemple de scénario.
 
-1. Assurez-vous qu’il y a un stock disponible pour l’article *A0001* à deux emplacements différents dans la zone de prélèvement ( *SOL* ) spécifié dans le modèle de réapprovisionnement. Cependant, le stock total doit être inférieur à la quantité minimale requise ( *50* ) spécifiée sur le modèle de réapprovisionnement. De cette façon, vous pouvez simuler la façon dont le calcul se produit pour la zone entière au lieu d’un seul emplacement. **Utilisez l’un des processus d’entrepôt pour ajuster le stock au besoin.**
-1. Assurez-vous qu’il y a suffisamment de stock pour l’article *A0001* à un emplacement en vrac spécifié dans la directive d’emplacement de prélèvement de zone où le travail de réapprovisionnement doit prélever les articles de l’ID de zone *VRAC*. Le stock total doit être supérieur à la quantité maximale requise ( *150* ) spécifiée dans le modèle de réapprovisionnement.
+1. Assurez-vous qu’il y a un stock disponible pour l’article *A0001* à deux emplacements différents dans la zone de prélèvement (*SOL*) spécifié dans le modèle de réapprovisionnement. Cependant, le stock total doit être inférieur à la quantité minimale requise (*50*) spécifiée sur le modèle de réapprovisionnement. De cette façon, vous pouvez simuler la façon dont le calcul se produit pour la zone entière au lieu d’un seul emplacement. **Utilisez l’un des processus d’entrepôt pour ajuster le stock au besoin.**
+1. Assurez-vous qu’il y a suffisamment de stock pour l’article *A0001* à un emplacement en vrac spécifié dans la directive d’emplacement de prélèvement de zone où le travail de réapprovisionnement doit prélever les articles de l’ID de zone *VRAC*. Le stock total doit être supérieur à la quantité maximale requise (*150*) spécifiée dans le modèle de réapprovisionnement.
 1. Facultatif mais recommandé : Procédez comme suit pour créer un journal d’ajustement du stock :
 
     1. Accédez à **Gestion des stocks \> Entrées de journal \> Articles \> Ajustement de stock**.
     1. Sélectionnez **Nouveau**.
-    1. Dans la la boîte de dialogue **Créer un journal de stock** , dans le champ **Entrepôt** , sélectionnez *61*.
+    1. Dans la la boîte de dialogue **Créer un journal de stock**, dans le champ **Entrepôt**, sélectionnez *61*.
     1. Cliquez sur **OK**.
-    1. Sur l’organisateur **Lignes de journal** , utilisez le bouton **Nouveau** pour ajouter trois lignes à la grille et définissez les valeurs suivantes. Une fois la configuration de chaque ligne terminée, sélectionnez **Enregistrer**.
+    1. Sur l’organisateur **Lignes de journal**, utilisez le bouton **Nouveau** pour ajouter trois lignes à la grille et définissez les valeurs suivantes. Une fois la configuration de chaque ligne terminée, sélectionnez **Enregistrer**.
 
         - **Ligne 1 :**
 
@@ -320,8 +320,8 @@ Suivez ces étapes pour vous assurer que votre système comprend suffisamment de
 Une fois que tous les exemples de données prérequis sont en place, vous pouvez déclencher le réapprovisionnement en suivant ces étapes.
 
 1. Allez dans **Gestion des entrepôts \> Réapprovisionnement \> Réapprovisionnements**.
-1. Dans la boîte de dialogue **Réapprovisionnement** , sur l’organisateur **Enregistrements à inclure** , sélectionnez **Filtrer**.
-1. Dans la boîte de dialogue **Recherche** , sur l’onglet **Plage** , modifiez la ligne de la table par défaut de la manière suivante :
+1. Dans la boîte de dialogue **Réapprovisionnement**, sur l’organisateur **Enregistrements à inclure**, sélectionnez **Filtrer**.
+1. Dans la boîte de dialogue **Recherche**, sur l’onglet **Plage**, modifiez la ligne de la table par défaut de la manière suivante :
 
     - **Table :** Sélectionnez _Modèles de réapprovisionnement_.
     - **Table dérivée :** Sélectionnez _Modèles de réapprovisionnement_.

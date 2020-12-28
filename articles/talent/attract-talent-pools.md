@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078041"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527691"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Identifier des candidats avec les viviers de talents dans Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Les recruteurs et responsables de l'embauche peuvent organiser leurs candidats à l'aide de la fonctionnalité Vivier de talents dans Attract. Les viviers de talents peuvent vous aider à suivre et à embaucher tous les candidats qui postulent pour un poste dans votre société.
 
@@ -113,7 +115,7 @@ Tous les utilisateurs ont un point de vue commun des profils de candidats. L'ong
 
 - L'onglet **Documents** affiche tous les documents que le candidat a ajoutés depuis son profil ou lors de candidatures à un poste. Cet onglet permet de gérer les CV du candidat, ses lettres de motivation, son portefeuille d'emploi, etc. Vous pouvez également utiliser cet onglet pour ajouter des documents.
 
-    Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft Office 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
+    Pour afficher un document, sélectionnez le nom du document dans la liste des documents. Vous pouvez afficher les documents Microsoft Word dans l'application à l'aide de Microsoft 365. Vous pouvez également télécharger les documents sur votre ordinateur local à l'aide de l'option **Télécharger** pour chaque document.
 
 - L'onglet **LinkedIn** affiche les informations LinkedIn du candidat. Pour utiliser cet onglet, vous devez connecter votre compte LinkedIn dans les paramètres utilisateur, et la connexion à LinkedIn Recruiter de votre environnement doit être établie. Pour plus d'informations, voir [Identifier des candidats avec LinkedIn Recruiter dans Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 

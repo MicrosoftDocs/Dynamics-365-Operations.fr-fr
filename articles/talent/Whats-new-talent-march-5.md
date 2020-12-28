@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898917"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527288"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (5 mars 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités inédites ou ayant fait l'objet de modifications dans Talent.
 
@@ -76,5 +78,5 @@ Les dates butoirs pour la mise à niveau vers Common Data Service arrivent à gr
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Sécurité avancée de la rémunération (fixe et variable)
 Nombreuses sont les organisations où les responsables des bénéfices et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération, comme les enregistrements relatifs aux cadres ou aux employés régionaux. Cette modification permet aux ressources humaines (RH) de gérer et de tenir à jour les plans de rémunération pour différentes populations d'employés au sein de l'organisation. Les plans fixes et variables peuvent être attribués à des rôles de sécurité, qui déterminent l'accès aux plans et aux données des employés par rapport aux plans, comme les enregistrements propres aux salaires ou aux primes. Seuls les rôles qui ont l'accès spécifié sont en mesure de traiter la rémunération pour ces employés.
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 pour Finance and Operations
+###  <a name="platform-update-24-for-finance-and-operations"></a>Mise à jour de la plateforme 24 pour Finance and Operations
 Pour en savoir plus sur Platform Update 24 pour Finance and Operations, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

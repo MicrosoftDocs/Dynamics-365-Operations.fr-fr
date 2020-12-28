@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-12-03
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1ed998302762203bad736161a27a48152de65f7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: bf1ad4ca2e0ab18aaa35a7410d80a54e7a2160ce
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897716"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528691"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-december-3-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (3 décembre 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
@@ -49,7 +51,7 @@ Toutes les nouvelles fonctionnalités restent dans la version préliminaire pend
  
 Parfois, une fonctionnalité intégrale sera activée par défaut et ne pourra pas être désactivée (par exemple, l'espace de travail **Gestion des fonctions**).
  
-Une fois qu'une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s'aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
+Une fois qu’une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s’aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
 
 ### <a name="add-automatic-scheduling-of-batch-job-history-cleanup-332528"></a>Ajout d'une planification automatique du nettoyage de l'historique des traitements par lots (332528)
 

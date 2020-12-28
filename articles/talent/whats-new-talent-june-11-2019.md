@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897578"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528667"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (11 juin 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 
@@ -54,9 +56,9 @@ Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: 
 
 Les modifications qui sont décrites dans cette section s'appliquent au numéro de version 8.1.2337.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 pour Finance and Operations
+### <a name="platform-update-27-for-finance-and-operations"></a>Mise à jour de la plateforme 27 pour Finance and Operations
 
-Pour plus d'informations sur Platform Update 27 pour Finance and Operations, voir [Aperçu des fonctionnalités dans Dynamics 365 Finance and Operations Platform Update 27 (juin 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Pour des informations complémentaires sur Platform Update 27 pour Finance and Operations, voir [Fonctionnalités en version préliminaire dans Dynamics 365 Finance and Operations Platform Update 27 (juin 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Espace de travail de la gestion des fonctions dans Talent
 

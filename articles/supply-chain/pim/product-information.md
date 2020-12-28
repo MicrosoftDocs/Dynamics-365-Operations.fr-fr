@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015127"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527384"
 ---
 # <a name="product-information-overview"></a>Présentation des informations sur les produits
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique fournit des informations sur la gestion des informations sur les produits. La gestion des informations sur les produits nécessite une définition, une catégorisation et des identifiants de produits partagés dans toutes les entités juridiques, ainsi que les configurations spécifiques d'un produit, pour s'adapter aux processus d'entreprise. 
 
@@ -72,7 +74,7 @@ Un produit générique est associé à un groupe de dimensions de produit et une
 Vous avez le choix entre trois technologies de configuration :
 
 - Les variantes prédéfinies sont définies par des dimensions de produit prédéfinies. La définition de la variante inclut la définition d'une combinaison valide de dimensions spécifiques, telles que la couleur, le style et la taille. Chaque combinaison produit une variante de produit distincte.
-- La configuration basée sur les dimensions est généralement utilisée dans les scénarios de fabrication et vous permet d'utiliser la dimension de configuration dans la définition des nomenclatures. Une fois qu'une configuration spécifique est activée, le système utilise le sous-ensemble de lignes de nomenclature valides pour cette configuration dans le cadre de la planification et de la production. Ce concept est également appelé *nomenclature globale* , car une nomenclature partagée est utilisée pour toutes les configurations d'un produit.
+- La configuration basée sur les dimensions est généralement utilisée dans les scénarios de fabrication et vous permet d'utiliser la dimension de configuration dans la définition des nomenclatures. Une fois qu'une configuration spécifique est activée, le système utilise le sous-ensemble de lignes de nomenclature valides pour cette configuration dans le cadre de la planification et de la production. Ce concept est également appelé *nomenclature globale*, car une nomenclature partagée est utilisée pour toutes les configurations d'un produit.
 - La configuration basée sur les contraintes utilise un modèle de configuration de produit pour décrire tous les attributs possibles et les composants nécessaires afin de décrire toutes les variantes possibles d'un produit dans un modèle unique. Les contraintes des combinaisons d'attributs peuvent être décrites via des expressions régulières ou des contraintes de table. Les modèles et les configurateurs de configuration deviennent plus importants en matière de gestion des informations sur les produits et sont utilisés dans tous les secteurs d'activité.
 
 Lorsque vous planifiez l'implémentation de Supply Chain Management, il est primordial que vous choisissiez la technologie de configuration appropriée à un processus d'entreprise. Un produit ne peut pas être converti d'un modèle à un autre après implémentation.
@@ -89,7 +91,7 @@ Les produits lancés dans une entité juridique spécifique sont appelés *produ
 
 Vous pouvez configurer l'espace de travail **Gestion des produits lancés** à partir de l'option de menu **Configurer mon espace de travail**. Sélectionnez une hiérarchie de catégories et une catégorie pour appliquer un filtre. Pour ajuster les données de produit appropriées dans l'espace de travail, vous pouvez également définir, en jours, les plages de gestion pour **Produits lancés récemment** et **Produits lancés arrêtés**.
 
-L'espace de travail se compose d'une synthèse de vignettes et de deux listes. La liste **Dossiers ouverts** affiche les dossiers de produits relatifs aux produits de la hiérarchie de catégories de produit sélectionnée qui ne sont pas terminés ni clôturés. La liste **Lancement récent** affiche les produits qui ont été lancés dans la plage de gestion qui est définie dans la configuration de l'espace de travail. Pour chaque article dans la liste, le contrôle est réalisé et le statut de contrôle est affiché. Ce statut peut indiquer que les configurations requises pour l'entité juridique n'ont pas été exécutées. Dans la liste, vous pouvez accéder directement aux pages **Détails des produits lancés** , **Gestion des attributs de produit** , **Gestion des catégories de produit** , **Paramètres de commande par défaut** et **Traductions des textes** pour effectuer la configuration requise du produit.
+L'espace de travail se compose d'une synthèse de vignettes et de deux listes. La liste **Dossiers ouverts** affiche les dossiers de produits relatifs aux produits de la hiérarchie de catégories de produit sélectionnée qui ne sont pas terminés ni clôturés. La liste **Lancement récent** affiche les produits qui ont été lancés dans la plage de gestion qui est définie dans la configuration de l'espace de travail. Pour chaque article dans la liste, le contrôle est réalisé et le statut de contrôle est affiché. Ce statut peut indiquer que les configurations requises pour l'entité juridique n'ont pas été exécutées. Dans la liste, vous pouvez accéder directement aux pages **Détails des produits lancés**, **Gestion des attributs de produit**, **Gestion des catégories de produit**, **Paramètres de commande par défaut** et **Traductions des textes** pour effectuer la configuration requise du produit.
 
 ### <a name="manually-creating-a-new-released-product"></a>Créer manuellement un nouveau produit lancé
 

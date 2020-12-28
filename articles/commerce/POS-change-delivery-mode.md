@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975095"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594135"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Modifier le mode de livraison dans le PDV
 
@@ -40,4 +40,10 @@ Une fois cette fonctionnalité configurée dans le PDV, lorsque vous sélectionn
 
 Après avoir sélectionné les lignes que vous souhaitez modifier, cliquez sur **Modifier le mode de livraison** pour être invité à sélectionner les options du mode de livraison. Si vous avez sélectionné plusieurs lignes à modifier, le PDV n'affichera que les modes de livraison qui ont été configurés comme étant autorisés pour tous les produits sélectionnés. Les modes de livraison peuvent être configurés pour prendre en charge des produits et des adresses de livraison spécifiques. S'il existe un mode de livraison acceptable pour une combinaison de produits et d'adresses, mais pas pour une autre combinaison de produits et d'adresses sélectionnée, le mode de livraison n'est pas disponible. Vous devrez peut-être sélectionner les lignes une par une et modifier le mode de livraison pour chaque ligne séparément si vous souhaitez sélectionner un mode de livraison pour un produit qui n'est pas pris en charge par un autre produit.  
 
-Après avoir sélectionné le nouveau mode de livraison, la page de transaction s'affiche. Pour revoir vos nouvelles sélections de mode de livraison, sélectionnez l'onglet **Livraison** dans la liste des transactions.   
+Après avoir sélectionné le nouveau mode de livraison, la page de transaction s'affiche. Pour revoir vos nouvelles sélections de mode de livraison, sélectionnez l'onglet **Livraison** dans la liste des transactions.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Créer des commandes de centre d'appels](tasks/create-call-center-orders.md)
+
+[Personnalisez les e-mails transactionnels par mode de livraison](customize-email-delivery-mode.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979425"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666768"
 ---
 # <a name="order-promising"></a>Promesse de commande
 
@@ -37,6 +37,12 @@ La promesse de commande calcule les premières dates d'expédition et de récept
 -   **DAV (disponible à la vente)** –Le DAV correspond à la quantité d'un article qui est disponible et peut être promise à un client à une date spécifique. Le calcul de DAV inclut le stock non engagé, les délais, les réceptions et les sorties prévues.
 -   **DAV + Marge de sortie**– La date d'expédition correspond à la date DAV plus la marge de sortie de l'article. La marge de sortie est le temps nécessaire pour préparer les articles pour l'expédition.
 -   **CTP (capable-to-promise)** – La disponibilité est calculée par le biais de l'éclatement.
+
+> [!NOTE]
+> Lorsqu'une commande client est mise à jour, les informations de promesse de commande ne sont mises à jour que si la date de promesse de commande existante ne peut pas être remplie, comme illustré dans les exemples suivants :
+> 
+> - **Exemple 1** : La date de promesse de la commande actuelle est le 20 juillet, mais en raison de l'augmentation de la quantité, vous ne pourrez pas livrer avant le 25 juillet. Comme la date actuelle ne peut plus être respectée, la promesse de commande est déclenchée.
+> -  **Exemple 2** : La date de promesse de la commande actuelle est le 20 juillet, mais en raison de baisse de la quantité, il est à présent possible de livrer le 15 juillet. Cependant, comme la date actuelle peut toujours être remplie, la promesse de commande n'est pas déclenchée et le 20 juillet reste la date de promesse de commande.
 
 ## <a name="atp-calculations"></a>Calculs DAV
 La quantité DAV est calculée en utilisant la méthode « DAV cumulatif avec anticipation ». Le principal avantage de cette méthode de calcul du DAV est qu'elle peut gérer les cas où la somme des sorties entre les réceptions est supérieure à la dernière réception (par exemple lorsqu'une quantité d'une réception précédente doit être utilisée pour respecter une exigence). La méthode de calcul « DAV cumulatif avec anticipation » inclut toutes les sorties jusqu'à ce que la quantité cumulative à recevoir dépasse la quantité cumulative à sortir. Par conséquent, la méthode de calcul DAV évalue si une partie de la quantité d'une période antérieure peut être utilisée pour une période ultérieure.  

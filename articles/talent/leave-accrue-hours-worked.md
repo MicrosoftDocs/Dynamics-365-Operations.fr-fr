@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006076"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461188"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Accorder des congés sur la base des heures travaillées
 
@@ -50,7 +50,7 @@ Le processus de régularisation pour les plans d'heures travaillées utilise la 
 
 ## <a name="annual-accrual-frequency"></a>Fréquence de régularisation annuelle
 
-| Date de régularisation    | Niveau d'heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
+| Date de régularisation    | Niveau d’heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 31/12/2018            | 2080                 | 144                   | 1/1/2018-31/12/2018  | 2085                | 144                 |        
 | 31/12/2018            | 2080                 | 144                   | 1/1/2018-31/12/2018  | 2 000                | 0                 |
@@ -58,26 +58,26 @@ Le processus de régularisation pour les plans d'heures travaillées utilise la 
 
 ## <a name="monthly-accrual-frequency"></a>Fréquence de régularisation mensuelle
 
-| Date de régularisation    | Niveau d'heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
+| Date de régularisation    | Niveau d’heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 31/8/2018             | 160                  | 12                    | 1/8/2018-31/8/2018   | 184                 | 12                  |        
 | 31/8/2018             | 160                  | 3                     | 1/8/2018-31/8/2018   | 184                 | 3                   |
 
 ## <a name="semi-monthly-accrual-frequency"></a>Fréquence de régularisation bimensuelle
 
-| Date de régularisation    | Niveau d'heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
+| Date de régularisation    | Niveau d’heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 31/8/2018             | 80                   | 6                     | 16/8/2018-31/8/2018  | 81                  | 6                  |        
 | 31/8/2018             | 80                   | 6                     | 16/8/2018-31/8/2018  | 75                  | 0                   |
 
 ## <a name="weekly-accrual-frequency"></a>Fréquence de régularisation hebdomadaire
 
-| Date de régularisation    | Niveau d'heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
+| Date de régularisation    | Niveau d’heures travaillées    | Montant de régularisation        | Dates des heures travaillées   | Heures réelles travaillées| Prime               |
 | --------------------- | -------------------- | --------------------- | -------------------- |-------------------- |-------------------- |
 | 31/8/2018             | 40                   | 3                     | 27/8/2018-31/8/2018  | 42                  | 3                  |        
 | 31/8/2018             | 40                   | 3                     | 27/8/2018-31/8/2018  | 35                  | 0                   |
 
-## <a name="employee-assigned-leave-plans"></a>Plans de congés affectés à l'employé
+## <a name="employee-assigned-leave-plans"></a>Plans de congés affectés à l’employé
 
 Dans les plans de congés de l'employé, la base de niveau et le type d'heures sont affichés pour les plans dans lesquels les heures travaillées sont définies comme type de régularisation. Pour les plans actifs, les heures réelles travaillées pour les périodes de régularisation à la date actuelle sont également affichées pour référence. 
 

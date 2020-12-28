@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 7559a986c1a112eb1ccc6069ba5b8eb5c6e5b72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007889"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461117"
 ---
 # <a name="design-questionnaires"></a>Conception de questionnaires
 
@@ -184,7 +184,7 @@ Un groupe de résultats permet de calculer les points et de classer les résulta
 > [!NOTE]
 > Vous devez exécuter certaines tâches préalables avant de paramétrer des groupes de résultats :
 
--   Paramétrez des questions fermées. Pour une question fermée, le type d'entrée dans la page **Questions** doit être **Case à cocher**, **Autre bouton**ou **Zone combinée**.
+-   Paramétrez des questions fermées. Pour une question fermée, le type d'entrée dans la page **Questions** doit être **Case à cocher**, **Autre bouton** ou **Zone combinée**.
 -   Définissez des points pour les réponses dans les groupes de réponses affectés à chaque question.
 -   Paramétrez un questionnaire.
 

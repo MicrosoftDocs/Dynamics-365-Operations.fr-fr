@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793801"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516617"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Supply Chain Management
 
@@ -46,12 +46,12 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | [Gérer un projet de mise en œuvre pour Finance and Operations](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | Apprenez les éléments les plus importants et les meilleures pratiques pour gérer un projet de mise en œuvre Finance and Operations réussi. De la première étape où vous planifiez et concevez la méthodologie de votre projet, l’utilisation des services FastTrack, la stratégie de développement, la gestion des données et plus encore, aux meilleures façons de maintenir et de surveiller vos opérations après la mise en service. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 11.5 heures |
 | [Page d’accueil Administration du système](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Cette rubrique a un contenu destiné aux administrateurs système Microsoft Dynamics 365 for Finance and Operations. Ce contenu vous aidera à configurer le système pour qu’il fonctionne sans heurts et efficacement pour votre organisation et votre activité. | Documentation | |
 | [Finance and Operations : Intégration vers Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | FastTrack offre un service d’intégration à chaque projet Dynamics 365 for Finance and Operations. Dans ce forum technique, nous allons expliquer le processus d’intégration, parcourir le contenu de la session d’intégration avec vous et vous dévoiler comment nous allons rendre l’intégration encore plus efficace et pratique à l’avenir. Cette session est pertinente notamment pour quiconque travaille avec les clients dans les étapes précoces d’un projet, entre la clôture de la transaction de la licence et le lancement de la mise en place du projet. | Enregistrement libre d’une conférence Web | 62 minutes |
-| [Déploiement local (données commerciales locales) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Veuillez joindre ce forum technique à une vue d’ensemble de l’option de déploiement sur site pour Dynamics 365 for Finance and Operations, Enterprise Edition. Dans cette session, nous allons observer l’architecture de la solution d’un déploiement local, les aspects ALM, les besoins du système et comment mettre en service le projet Life Cycle Services. | Enregistrement libre d’une conférence Web | 48 minutes |
+| [Déploiement local (données commerciales locales) (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Rejoignez ce forum technique à une vue d’ensemble de l’option de déploiement sur site pour Dynamics 365 for Finance and Operations, Enterprise Edition. Dans cette session, nous allons observer l’architecture de la solution d’un déploiement local, les aspects ALM, les besoins du système et comment mettre en service le projet Life Cycle Services. | Enregistrement libre d’une conférence Web | 48 minutes |
 | [Copier dans une entité juridique (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Dans cette session, nous allons aborder une nouvelle fonctionnalité de la structure de gestion des données, Copier dans l’entité juridique. Nous examinerons brièvement tout d’abord les nouvelles fonctionnalités ajoutées à la structure de gestion des données dans Platform 8 pour l’espace de travail, les modèles et les projets de données, puis discuterons de la fonctionnalité supplémentaire ajoutée à Copier dans l’entité juridique. | Enregistrement libre d’une conférence Web | 54 minutes |
 
 ## <a name="core-development"></a>Développement de base<a name="core-development"></a>
 
-| Contenu | Description   | Format | Longueur    |
+| Contenu | Description  | Format | Longueur    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Gestion des données (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Veuillez nous rejoindre pour ce forum technique sur la gestion des données. Découvrez-en plus sur les options disponibles et les scénarios pour lesquels elles sont recommandées. Nous couvrirons la structure de la gestion des données, les modèles, la copie de la base de données, le partage des données intersociétés et les performances. | Enregistrement libre d’une conférence Web | 58 minutes |
 
@@ -85,6 +85,6 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
-| Contenu  | Description   | Format  |
+| Contenu  | Description  | Format  |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Attestez que vous comprenez Microsoft Dynamics 365, Power Platform, les concepts de cloud, les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |

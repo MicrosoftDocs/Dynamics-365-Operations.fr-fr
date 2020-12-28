@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107350"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594234"
 ---
 # <a name="create-call-center-orders"></a>Créer des commandes de centre d'appels
 
@@ -31,7 +31,7 @@ ms.locfileid: "4107350"
 Cette procédure décrit la recherche d'un client, la création d'une commande, la recherche d'un produit et la collecte du paiement auprès du client. Cette procédure utilise la société fictive USRT et est destinée au commis aux commandes client. Conditions préalables : l'utilisateur exécutant la procédure est configuré en tant qu'utilisateur du centre d'appels et le catalogue semi-annuel de Fabrikam est publié avec au moins un code source.
 
 1. Accédez à **Retail et Commerce \> Clients \> Service client**.
-2. Dans le champ **SearchText** , saisissez les critères de recherche du client.
+2. Dans le champ **SearchText**, saisissez les critères de recherche du client.
     * Pour cet exemple de procédure, saisissez « Karen », puis sélectionnez **Onglet**.  
 3. Sélectionnez Rechercher.
     * Comme il n'existe qu'un seul client nommé "Karen" dans les données de démonstration, le résultat est automatiquement sélectionné.  
@@ -40,7 +40,7 @@ Cette procédure décrit la recherche d'un client, la création d'une commande, 
 6. Sélectionnez le code source du catalogue.
     * Si aucun code source n'est actif, vous pouvez ignorer cette étape.  
 7. Sélectionnez **Ajouter la ligne**.
-8. Pour **Numéro d'article** , saisissez le terme de recherche de l'article.
+8. Pour **Numéro d'article**, saisissez le terme de recherche de l'article.
     * Pour cet exemple de procédure, entrez le numéro d'article partiel « 8111 » et appuyez sur l'onglet. Cette action fera apparaître la fenêtre de recherche d'élément.  
 9. Sélectionnez le produit à ajouter à la commande client.
 10. Saisissez la quantité vendue.
@@ -55,4 +55,10 @@ Cette procédure décrit la recherche d'un client, la création d'une commande, 
     * Pour cette procédure, saisissez un montant égal au solde de la commande qui s'affiche dans la page Résumé de la commande client à gauche du champ de montant. Cette action vous permet de terminer la commande comme étant intégralement payée.  
 17. Cliquez sur **OK**.
 18. Sélectionnez **Soumettre**.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+[Personnalisez les e-mails transactionnels par mode de livraison](../customize-email-delivery-mode.md)
+
+[Modifier le mode de livraison dans le PDV](../pos-change-delivery-mode.md)
 

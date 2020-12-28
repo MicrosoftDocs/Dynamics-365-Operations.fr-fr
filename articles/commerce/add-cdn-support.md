@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646037"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517206"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)
 
@@ -33,9 +33,9 @@ Cette rubrique décrit la procédure d’ajout d’un réseau de diffusion de co
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Lorsque vous paramétrez un environnement de commerce électronique dans Dynamics 365 Commerce, vous pouvez le configurer pour travailler avec votre service CDN. 
+Lorsque vous paramétrez un environnement d'e-commerce dans Dynamics 365 Commerce, vous pouvez le configurer pour travailler avec votre service CDN. 
 
-Votre domaine personnalisé peut être activé lors de le processus de mise en service pour votre environnement de commerce électronique. Sinon, vous pouvez utiliser une demande de service pour le configurer une fois le processus de mise en service terminé. Le processus de mise en service de l’environnement de commerce électronique génère un nom d’hôte associé à l’environnement. Ce nom d’hôte a le format suivant, où \<*e-commerce-tenant-name*\> est le nom de votre environnement :
+Votre domaine personnalisé peut être activé lors de le processus de mise en service pour votre environnement d'e-commerce. Sinon, vous pouvez utiliser une demande de service pour le configurer une fois le processus de mise en service terminé. Le processus de mise en service de l’environnement d'e-commerce génère un nom d’hôte associé à l’environnement. Ce nom d’hôte a le format suivant, où \<*e-commerce-tenant-name*\> est le nom de votre environnement :
 
 &lt;nom-client-e-commerce&gt;.commerce.dynamics.com
 
@@ -97,7 +97,7 @@ Pour paramétrer une règle d’acheminement dans Azure Front Door Service, proc
 1. Dans le champ **Nom**, entrez **par défaut**.
 1. Dans le champ **Protocole accepté**, sélectionnez **HTTP et HTTPS**.
 1. Dans le champ **Hôtes frontaux**, entrez **dynamics-ecom-tenant-name.azurefd.net**.
-1. Sous **Modèles à respecter**, dans le champ supérieur, entrez **/\***.
+1. Sous **Modèles à respecter**, dans le champ supérieur, entrez **/\** _.
 1. Sous **Détails de l’acheminement**, définissez l’option **Type d’acheminement** sur **Suivant**.
 1. Dans le champ **Regroupement principal**, sélectionnez **ecom-principal**.
 1. Dans le groupe de champ **Protocole de transfert**, sélectionnez l’option **Demande de mise en correspondance**. 
@@ -110,7 +110,7 @@ Pour paramétrer une règle de mise en cache dans Azure Front Door Service, proc
 1. Dans le champ **Nom**, entrez **statistiques**.
 1. Dans le champ **Protocole accepté**, sélectionnez **HTTP et HTTPS**.
 1. Dans le champ **Hôtes frontaux**, entrez **dynamics-ecom-tenant-name.azurefd.net**.
-1. Sous **Modèles à respecter**, dans le champ supérieur, entrez **/\_msdyn365/\_scnr/\***.
+1. Sous **Modèles à respecter**, dans le champ supérieur, entrez **/\_msdyn365/\_scnr/\** _.
 1. Sous **Détails de l’acheminement**, définissez l’option **Type d’acheminement** sur **Suivant**.
 1. Dans le champ **Regroupement principal**, sélectionnez **ecom-principal**.
 1. Dans le groupe de champ **Protocole de transfert**, sélectionnez l’option **Demande de mise en correspondance**.
@@ -146,11 +146,11 @@ Votre CDN doit être maintenant correctement configuré de sorte qu’il puisse 
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Déploiement d’un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+[Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
-[Création d’un site de commerce électronique](create-ecommerce-site.md)
+[Créer un site d’e-commerce](create-ecommerce-site.md)
 
-[Association d’un site en ligne avec un canal](associate-site-online-store.md)
+[Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 

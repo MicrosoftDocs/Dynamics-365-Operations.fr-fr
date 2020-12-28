@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f06d989ea4e927111729dfbd4bb7700745a16a54
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c04af27bcc446b516f14125e71fb707bfd1d7708
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897509"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529706"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (6 mai 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
@@ -43,9 +45,9 @@ Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: 
 
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2282. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support dans Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26-for-finance-and-operations"></a>Platform update 26 pour Finance and Operations
+### <a name="platform-update-26-for-finance-and-operations"></a>Mise à jour de la plateforme 26 pour Finance and Operations
 
-Pour plus d'informations sur Platform Update 26 pour Finance and Operations, voir [Aperçu des fonctionnalités dans Dynamics 365 Finance and Operations Platform Update 26 (mai 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Pour des informations complémentaires sur Platform Update 26 pour Finance and Operations, voir [Fonctionnalités d'évaluation dans Dynamics 365 Finance and Operations Platform Update 26 (mai 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Prise en charge de l'entité Common Data Service pour les champs personnalisés
 

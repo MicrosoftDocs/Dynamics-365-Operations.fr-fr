@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431266"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527911"
 ---
 # <a name="configure-integration-with-finance"></a>Configurer l'intégration avec Finance
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Pour intégrer Dynamics 365 Human Resources avec Dynamics 365 Finance, vous pouvez utiliser le modèle Human Resources à Finance dans [Intégrateur de données](https://docs.microsoft.com/powerapps/administrator/data-integrator). Le modèle Human Resources à Finance active le flux de données pour les emplois, les postes et les collaborateurs. Le modèle permet aux données de passer de Human Resources à Finance, mais ne permet pas aux données de passer de Finance à Human Resources.
 
@@ -244,7 +246,7 @@ Dans les tableaux de mappage de modèles suivants, le nom de la tâche contient 
 
 L'intégration des données des Human Resources à Finance tente de faire correspondre les enregistrements en fonction de l'ID. Si les enregistrements correspondent, l'intégrateur de données remplace les données dans Finance avec les valeurs dans Human Resources. Cependant, un problème peut se produire si, logiquement, ces enregistrements sont différents et que le même ID a été généré dans Human Resources ou Finance en fonction de la séquence de numéros respective.
 
-Les domaines dans lesquels cela peut se produire sont **Collaborateur**, qui utilise le **Numéro personnel**pour établir la correspondance, et **Postes**. Les tâches n'utilisent pas de séquences de nombres. Par conséquent, si le même ID de tâche est présent à la fois dans Human Resources et Finance, les informations des Human Resources remplaceront les informations Dynamics 365 Finance. 
+Les domaines dans lesquels cela peut se produire sont **Collaborateur**, qui utilise le **Numéro personnel** pour établir la correspondance, et **Postes**. Les tâches n'utilisent pas de séquences de nombres. Par conséquent, si le même ID de tâche est présent à la fois dans Human Resources et Finance, les informations des Human Resources remplaceront les informations Dynamics 365 Finance. 
 
 Pour éviter les problèmes d'ID en double, vous pouvez soit ajouter un préfixe à la [souche de numéros](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) ou définir un numéro de début sur la souche de numéros qui dépasse la plage de l'autre système. 
 

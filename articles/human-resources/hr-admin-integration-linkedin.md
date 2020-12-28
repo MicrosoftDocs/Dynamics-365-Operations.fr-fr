@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056095"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527883"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Intégration avec LinkedIn Talent Hub
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) est une plateforme de système de suivi des candidats (ATS). Elle vous permet de trouver, gérer et embaucher des employés en un seul endroit. En intégrant Microsoft Dynamics 365 Human Resources avec LinkedIn Talent Hub, vous pouvez facilement créer des enregistrements d'employés dans Human Resources pour les candidats qui ont été embauchés pour un poste.
 
@@ -41,11 +43,11 @@ Un administrateur système doit effectuer les tâches de configuration pour perm
 
 2. Dans le menu déroulant de l'utilisateur, sélectionnez **Paramètres du produit**.
 
-3. Dans le volet de navigation de gauche, dans la section **Avancés** , sélectionnez **Intégrations**.
+3. Dans le volet de navigation de gauche, dans la section **Avancés**, sélectionnez **Intégrations**.
 
 4. Sélectionnez **Autoriser** pour l'intégration de Microsoft Dynamics 365 Human Resources.
 
-5. Sur la page **Dynamics 365 Human Resources** , sélectionnez l'environnement auquel lier LinkedIn Talent Hub, puis sélectionnez **Lien**.
+5. Sur la page **Dynamics 365 Human Resources**, sélectionnez l'environnement auquel lier LinkedIn Talent Hub, puis sélectionnez **Lien**.
 
     ![Intégration de LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
@@ -56,17 +58,17 @@ Un administrateur système doit effectuer les tâches de configuration pour perm
 
 1. Ouvrez le [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. Dans la liste **Environnements** , sélectionnez l'environnement associé à l'environnement Human Resources auquel vous souhaitez lier votre instance de LinkedIn Talent Hub.
+2. Dans la liste **Environnements**, sélectionnez l'environnement associé à l'environnement Human Resources auquel vous souhaitez lier votre instance de LinkedIn Talent Hub.
 
 3. Sélectionnez **Paramètres**.
 
-4. Développez le nœud **Utilisateurs + autorisations** , et sélectionnez **Rôles de sécurité**.
+4. Développez le nœud **Utilisateurs + autorisations**, et sélectionnez **Rôles de sécurité**.
 
-5. Sur la page **Rôles de sécurité** , dans la barre d'outils, sélectionnez **Nouveau rôle**.
+5. Sur la page **Rôles de sécurité**, dans la barre d'outils, sélectionnez **Nouveau rôle**.
 
-6. Sur l'onglet **Détails** , entrez un nom pour le rôle, tel que **Intégration SIRH LinkedIn Talent Hub**.
+6. Sur l'onglet **Détails**, entrez un nom pour le rôle, tel que **Intégration SIRH LinkedIn Talent Hub**.
 
-7. Sur l'onglet **Personnalisation** , sélectionnez l'autorisation de **Lecture** au niveau de l'organisation pour les entités suivantes :
+7. Sur l'onglet **Personnalisation**, sélectionnez l'autorisation de **Lecture** au niveau de l'organisation pour les entités suivantes :
 
     - Entité
     - Champ
@@ -80,11 +82,11 @@ Un utilisateur d'application doit être créé pour l'adaptateur LinkedIn Talent
 
 1. Ouvrez le [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. Dans la liste **Environnements** , sélectionnez l'environnement associé à l'environnement Human Resources auquel vous souhaitez lier votre instance de LinkedIn Talent Hub.
+2. Dans la liste **Environnements**, sélectionnez l'environnement associé à l'environnement Human Resources auquel vous souhaitez lier votre instance de LinkedIn Talent Hub.
 
 3. Sélectionnez **Paramètres**.
 
-4. Développez le nœud **Utilisateurs + autorisations** , et sélectionnez **Utilisateurs**.
+4. Développez le nœud **Utilisateurs + autorisations**, et sélectionnez **Utilisateurs**.
 
 5. Sélectionnez **Gérer les utilisateurs dans Dynamics 365**.
 
@@ -94,19 +96,19 @@ Un utilisateur d'application doit être créé pour l'adaptateur LinkedIn Talent
 
 7. Dans la barre d'outils, sélectionnez **Nouveau**.
 
-8. Sur la page **Nouvel utilisateur** , procédez comme suit :
+8. Sur la page **Nouvel utilisateur**, procédez comme suit :
 
     1. Changer la valeur du champ **Type d'utilisateur** sur **Utilisateur de l'application**.
     2. Définissez le champ **Nom d'utilisateur** sur **Intégration Dynamics365 HR SIRH LinkedIn**.
     3. Définissez le champ **ID application** sur **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Entrez une valeur dans les champs **Prénom** , **Nom de famille** et **Adresse e-mail principale**.
+    4. Entrez une valeur dans les champs **Prénom**, **Nom de famille** et **Adresse e-mail principale**.
     5. Dans la barre d'outils, sélectionnez **Enregistrer \& Fermer**.
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Attribuer un rôle de sécurité à un nouvel utilisateur
 
 Après avoir enregistré et fermé le nouvel utilisateur de l'application dans la section précédente, vous revenez à la page **Liste des utilisateurs**.
 
-1. Sur la page **Liste des utilisateurs** , changez la vue en **Utilisateurs de l'application**.
+1. Sur la page **Liste des utilisateurs**, changez la vue en **Utilisateurs de l'application**.
 
 2. Sélectionnez l'utilisateur de l'application créé dans la section précédente.
 
@@ -121,9 +123,9 @@ Après avoir enregistré et fermé le nouvel utilisateur de l'application dans l
 1. Dans Dynamics 365 Human Resources, ouvrez la page **Applications Azure Active Directory**.
 2. Ajoutez un nouvel enregistrement à la liste et définissez les champs suivants :
 
-    - **ID client**  : Entrez **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    - **Nom**  : Saisissez le nom du rôle de sécurité Power Apps que vous avez créé précédemment, tel que **Intégration SIRH LinkedIn Talent Hub**.
-    - **Identifiant utilisateur**  : Sélectionnez un utilisateur autorisé à écrire des données dans Gestion du personnel.
+    - **ID client** : Entrez **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
+    - **Nom** : Saisissez le nom du rôle de sécurité Power Apps que vous avez créé précédemment, tel que **Intégration SIRH LinkedIn Talent Hub**.
+    - **Identifiant utilisateur** : Sélectionnez un utilisateur autorisé à écrire des données dans Gestion du personnel.
 
 ### <a name="create-the-entity-in-common-data-service"></a>Créer l'entité dans Common Data Service
 
@@ -150,16 +152,16 @@ Une fois qu'un candidat a franchi le processus de recrutement et a été embauch
 
 2. Sélectionnez un enregistrement de candidat.
 
-3. Sélectionnez **Modifier le stade** , puis sélectionnez **Embauché**.
+3. Sélectionnez **Modifier le stade**, puis sélectionnez **Embauché**.
 
-4. Dans le menu de points de suspension ( **...** ) du candidat, sélectionnez **Exporter vers SIRH**.
+4. Dans le menu de points de suspension (**...**) du candidat, sélectionnez **Exporter vers SIRH**.
 
-5. Dans le volet **Exporter vers SIRH** , saisissez les informations à exporter :
+5. Dans le volet **Exporter vers SIRH**, saisissez les informations à exporter :
 
-    - Dans le champ **Fournisseur de SIRH** , sélectionnez **Microsoft Dynamics 365 Human Resources**.
-    - Dans le champ **Date de début** , sélectionnez une valeur pour le nouvel employé.
-    - Dans le champ **Poste** , entrez le titre du poste du nouvel employé.
-    - Dans le champ **Emplacement** , entrez le lieu où sera basé l'employé.
+    - Dans le champ **Fournisseur de SIRH**, sélectionnez **Microsoft Dynamics 365 Human Resources**.
+    - Dans le champ **Date de début**, sélectionnez une valeur pour le nouvel employé.
+    - Dans le champ **Poste**, entrez le titre du poste du nouvel employé.
+    - Dans le champ **Emplacement**, entrez le lieu où sera basé l'employé.
     - Saisissez ou vérifiez l'adresse e-mail de l'employé.
 
 ![Volet Exporter vers SIRH dans LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
@@ -170,9 +172,9 @@ Les enregistrements de candidats exportés de LinkedIn Talent Hub vers Human Res
 
 1. Dans Human Resources, ouvrez la page **Gestion du personnel**.
 
-2. Dans la section **Candidats à embaucher** , sélectionnez **Embaucher** pour le candidat sélectionné.
+2. Dans la section **Candidats à embaucher**, sélectionnez **Embaucher** pour le candidat sélectionné.
 
-3. Dans la boîte de dialogue **Embaucher un nouveau collaborateur** , vérifiez l'enregistrement et ajoutez les informations requises. Vous pouvez également sélectionner le numéro de poste pour lequel le candidat a été embauché.
+3. Dans la boîte de dialogue **Embaucher un nouveau collaborateur**, vérifiez l'enregistrement et ajoutez les informations requises. Vous pouvez également sélectionner le numéro de poste pour lequel le candidat a été embauché.
 
 Une fois les informations requises saisies, vous pouvez poursuivre vos processus standard de création d'enregistrements d'employés et d'intégration des employés.
 

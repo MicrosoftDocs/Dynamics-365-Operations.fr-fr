@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3764999"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517353"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -39,15 +39,15 @@ Lors de l’approvisionnement d’un environnement d’e-commerce dans [Microsof
 > [!NOTE]
 > Plusieurs domaines peuvent être saisis dans la zone **Noms d’hôtes pris en charge** en les séparant par des points-virgules.
 
-L’illustration suivante montre l’écran d’approvisionnement d’e-Commerce LCS avec la zone **Noms d’hôtes pris en charge** en surbrillance. 
+L’illustration suivante montre l’écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôtes pris en charge** en surbrillance. 
 
-![Écran d’approvisionnement d’e-Commerce LCS avec la zone **Noms d’hôte pris en charge** en surbrillance](./media/Domains_ProvisioningeCommerceScreen.png)
+![Écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôte pris en charge** en surbrillance](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Vous pouvez créer une demande de service pour ajouter des domaines supplémentaires à un environnement si l’approvisionnement a déjà eu lieu. Pour créer une demande de service dans LCS, dans votre environnement, accédez à **Support \> Problèmes de support** et sélectionnez **Soumettre un incident**.
 
 ## <a name="commerce-generated-urls"></a>URL générées par le commerce
 
-Lors de l’approvisionnement d’un environnement d’e-commerce, Commerce génère une URL qui sera l’adresse de travail de l’environnement. Cette URL est référencée dans le lien du site d’e-commerce affiché dans LCS après l’approvisionnement de l’environnement. Une URL générée par Commerce est au format `https://<e-Commerce tenant name>.commerce.dynamics.com`, où le nom du client e-Commerce est le nom entré dans LCS pour l’environnement Commerce.
+Lors de l’approvisionnement d’un environnement d’e-commerce Dynamics 365 Commerce, Commerce génère une URL qui sera l’adresse de travail de l’environnement. Cette URL est référencée dans le lien du site d’e-commerce affiché dans LCS après l’approvisionnement de l’environnement. Une URL générée par Commerce est au format `https://<e-commerce tenant name>.commerce.dynamics.com`, où le nom du client e-commerce est le nom entré dans LCS pour l’environnement Commerce.
 
 Vous pouvez également utiliser des noms d’hôte de site de production dans un environnement bac à sable. Cette option est idéale lorsque vous copiez un site d’un environnement bac à sable vers la production.
 
@@ -102,9 +102,9 @@ Lorsqu’une chaîne de requête de domaine n’est pas donnée dans un environn
 
 ## <a name="traffic-forwarding-in-production"></a>Transfert de trafic en production
 
-Vous pouvez simuler plusieurs domaines à l’aide des paramètres de chaîne de requête de domaine sur le point de terminaison commerce.dynamics.com lui-même. Mais lorsque vous devez passer en production, vous devez transférer le trafic de votre domaine personnalisé vers le point de terminaison `<e-Commerce tenant name>.commerce.dynamics.com`.
+Vous pouvez simuler plusieurs domaines à l’aide des paramètres de chaîne de requête de domaine sur le point de terminaison commerce.dynamics.com lui-même. Mais lorsque vous devez passer en production, vous devez transférer le trafic de votre domaine personnalisé vers le point de terminaison `<e-commerce tenant name>.commerce.dynamics.com`.
 
-Le point de terminaison `<e-Commerce tenant name>.commerce.dynamics.com` ne prend pas en charge les SSL (Secure Sockets Layers) de domaine personnalisé, vous devez donc configurer des domaines personnalisés à l’aide d’un front door service ou d’un réseau de distribution de contenu (CDN). 
+Le point de terminaison `<e-commerce tenant name>.commerce.dynamics.com` ne prend pas en charge les SSL (Secure Sockets Layers) de domaine personnalisé, vous devez donc configurer des domaines personnalisés à l’aide d’un front door service ou d’un réseau de distribution de contenu (CDN). 
 
 Pour configurer des domaines personnalisés à l’aide d’un front door service ou d’un CDN, vous avez deux options :
 
@@ -152,13 +152,13 @@ L’instance d’Azure Front Door fournie par Commerce ne prend pas en charge le
 
   ## <a name="additional-resources"></a>Ressources supplémentaires
 
-  [Déploiement d’un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+  [Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
   [Paramétrer un canal de magasin en ligne](online-stores.md)
 
-  [Création d’un site de commerce électronique](create-ecommerce-site.md)
+  [Créer un site d’e-commerce](create-ecommerce-site.md)
 
-  [Association d’un site en ligne avec un canal](associate-site-online-store.md)
+  [Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
   [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
