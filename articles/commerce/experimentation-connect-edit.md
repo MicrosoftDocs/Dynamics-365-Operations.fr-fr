@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096965"
+ms.locfileid: "4412408"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Connecter une expérience et modifier les variantes
 
@@ -60,13 +60,13 @@ Pour connecter votre expérience, vous allez lancer l'assistant **Connecter l'ex
 
 Pour démarrer la connexion de votre expérience dans le générateur de site Commerce, procédez comme suit.
 
-1. Pour lancer l'assistant **Connecter l'expérience** , sélectionnez **Expériences** dans le volet de navigation de gauche, puis sélectionnez **Connecter**. Vous pouvez également accéder à l'assistant à partir d'un éditeur de fragment ou de page en le modifiant et en sélectionnant **Connecter l'expérience** sur la barre de commandes.
+1. Pour lancer l'assistant **Connecter l'expérience**, sélectionnez **Expériences** dans le volet de navigation de gauche, puis sélectionnez **Connecter**. Vous pouvez également accéder à l'assistant à partir d'un éditeur de fragment ou de page en le modifiant et en sélectionnant **Connecter l'expérience** sur la barre de commandes.
 
     > [!NOTE]
     > Une page peut être connectée à une seule expérience à la fois. Pour connecter une page à une autre expérience, supprimez d'abord l'expérience à laquelle la page est actuellement connectée.
 
 1. Choisissez la page ou le fragment sur lequel vous souhaitez exécuter votre expérience.
-1. Définissez la portée de l'expérimentation sur **partielle** ou **complète** , en fonction du choix que vous avez fait dans la section [Déterminer la portée de votre expérience](#determine-the-scope-of-your-experiment) ci-dessus.
+1. Définissez la portée de l'expérimentation sur **partielle** ou **complète**, en fonction du choix que vous avez fait dans la section [Déterminer la portée de votre expérience](#determine-the-scope-of-your-experiment) ci-dessus.
     > [!NOTE]
     > L'indicateur de la fonctionnalité **Expérimenter sur des pages ou des fragments** doit être activé si vous souhaitez expérimenter sur une page complète ou sur un fragment complet. Reportez-vous à la rubrique [Expérimentation dans Dynamics 365 Commerce](experimentation-overview.md) pour plus d'informations.
     
@@ -84,7 +84,7 @@ Suivez ces étapes si vous avez défini la portée de votre expérience comme **
 1. Sélectionnez le module sur lequel expérimenter, sélectionnez les points de suspension (...), puis sélectionnez **Ajouter à l'expérience**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Modifier les variantes des expériences avec une portée complète
-Si vous avez défini la portée de votre expérience comme **complète** dans l'assistant **Connecter l'expérience** , utilisez le menu déroulant des variantes sous la barre de commandes dans la vue d'éditeur pour modifier chaque variante en fonction de votre hypothèse d'origine. 
+Si vous avez défini la portée de votre expérience comme **complète** dans l'assistant **Connecter l'expérience**, utilisez le menu déroulant des variantes sous la barre de commandes dans la vue d'éditeur pour modifier chaque variante en fonction de votre hypothèse d'origine. 
 
 > [!NOTE]
 > Dans les deux cas, vous pouvez également établir une variante de contrôle ou de base en laissant l'une des variantes inchangée.

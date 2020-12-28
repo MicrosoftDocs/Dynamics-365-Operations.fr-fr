@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599818"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412163"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
 
@@ -120,7 +120,7 @@ Vous souhaiterez peut-être personnaliser les modèles d'e-mails afin qu'ils uti
     1. Sélectionnez le modèle dans la liste.
     1. Sous **Contenu de message électronique**, sélectionnez la version de langue appropriée dans la liste. (La langue par défaut est **en-us**.)
     1. En dessous de **Contenu du message électronique**, sélectionnez **Modifier**. Le volet **Télécharger un modèle d'e-mail** apparaît.
-    1. Sélectionnez **Parcourir**et recherchez le fichier HTML contenant le contenu personnalisé.
+    1. Sélectionnez **Parcourir** et recherchez le fichier HTML contenant le contenu personnalisé.
     1. Sélectionnez **Charger**. Le modèle est chargé dans le système et un aperçu s'affiche.
     1. Cliquez sur **OK**.
     1. Facultatif : Personnalisez la propriété **Objet** du modèle.

@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113826"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412230"
 ---
 # <a name="set-up-a-retail-channel"></a>Paramétrer un canal de vente au détail
 
@@ -64,7 +64,7 @@ L'image suivante présente un exemple de canal de vente au détail.
 
 ## <a name="other-settings"></a>Autres paramètres
 
-De nombreux autres paramètres facultatifs peuvent être configurés dans les sections **Relevé/clôture**et **Divers**, en fonction des besoins du magasin de vente au détail.
+De nombreux autres paramètres facultatifs peuvent être configurés dans les sections **Relevé/clôture** et **Divers**, en fonction des besoins du magasin de vente au détail.
 
 De plus, voir [Mises en page de l'écran pour le point de vente (PDV)](pos-screen-layouts.md) pour plus d'informations sur la configuration de la disposition d'écran par défaut dans la section **Mise en page de l'écran** et [Configuration et installation d'une Retail Hardware Station](retail-hardware-station-configuration-installation.md) pour des informations de configuration sur la section **Stations matérielles**.
 

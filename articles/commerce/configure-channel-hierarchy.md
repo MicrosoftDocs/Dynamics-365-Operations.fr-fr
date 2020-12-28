@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002218"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412172"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurer un canal pour une utiliser une hiérarchie de navigation du canal
 
@@ -60,7 +60,7 @@ Procédez comme suit pour configurer les métadonnées d'attributs.
 1. Pour chaque nœud, sélectionnez **Attributs de produit de canal**.
 1. Définissez **Afficher l'attribut sur le canal** sur **Oui** et **Peut être affiné** sur **Oui**, pour activer des affinements sur ce canal.
 1. Après avoir configuré chaque nœud comme vous le souhaitez, dans le **Volet Actions**, sélectionnez le bouton **Enregistrer**.
-1. Sélectionnez la **X** dans le coin supérieur droit pour quitter cet écran et revenir à la page**Catégories de canal et attributs de produit**.
+1. Sélectionnez la **X** dans le coin supérieur droit pour quitter cet écran et revenir à la page **Catégories de canal et attributs de produit**.
 
 L'image suivante montre un exemple d'ensemble d'attributs de produit de canal configuré sur un nœud de catégorie de canal.
 

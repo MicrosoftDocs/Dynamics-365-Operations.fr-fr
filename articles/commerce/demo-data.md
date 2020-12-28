@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014884"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4412424"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Dispositions de l'écran de données de démonstration dans Modern POS (MPOS) et le PDV Cloud
 
@@ -64,6 +64,7 @@ Les ID mise en page de l'écran peuvent se composer de 10 caractères au maximu
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La version de base qui prend en charge plusieurs tailles d'écran pour différents périphériques et proportions |
 | 3.1            | La version de base qui dispose du support technique supplémentaire du volet **Produits recommandés**        |
+| 4              | La version étendue pour la disposition mise à jour de Fabrikam étendue                                  |
 
 ### <a name="persona"></a>Personnage
 
@@ -75,9 +76,9 @@ Les ID mise en page de l'écran peuvent se composer de 10 caractères au maximu
 
 ### <a name="example-layout"></a>Exemple de mise en page
 
-Voici un exemple d'ID mise en page de l'écran pour la société Fabrikam, version 3 de mise en page, et personna Directeur de magasin :
+Voici un exemple d'ID mise en page de l'écran pour la société Fabrikam, version 4 de mise en page, et personna Directeur de magasin :
 
-F3MGR
+F4MGR
 
 L'illustration suivante présente un exemple de l'écran de bienvenue d'un directeur de magasin de Fabrikam.
 
@@ -103,11 +104,12 @@ Le tableau suivant indique les tailles de mise en page autorisées pour les rés
 | Complet\*      | 1280 × 720 | 16:9         | Tablettes                 |
 | Complet        | 1366 × 768 | 16:9         | Tablettes, écrans plus grands |
 | Complet        | 1440 × 960 | 3:2          | Tablettes, écrans plus grands |
+| Complet\*      | 1536 × 864 | 16:9         | Tablettes, écrans plus grands |
 
 \* Ces tailles de mise en page supplémentaires sont disponibles uniquement dans les mises en page Adventure Works et Fabrikam.
 
 > [!TIP]
-> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID de mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, le Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres** , et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
+> Le PDV sélectionne automatiquement les tailles de mise en page, selon la taille la plus proche disponible pour la résolution d'écran de la fenêtre d'application active. Pour trouver l'ID de mise en page de l'écran et la résolution de mise en page qui sont actuellement utilisés, le Modern POS (MPOS) ou Retail Cloud POS (CPOS), ouvrez la page **Paramètres**, et consultez la section **Informations de session**. Vous pouvez également afficher la résolution réelle de la fenêtre pour votre trame d'application ou de navigateur actuelle. Une fois que vous disposez de ces informations, vous pouvez trouver la source du contenu de la mise en page en accédant à **Paramétrage de canal** \> **Paramétrage POS** \> **PDV** \> **Mises en page de l'écran**.
 
 ![Mises en page de l'écran et résolutions/tailles de mise en page dans Commerce et PDV](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
@@ -120,7 +122,7 @@ Chaque société fictive est spécifique à un segment de vente au détail diff�
 | Société         | Entrepôt | Segment        | Accentuation | Thème |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Articles de sport | Bleu   | Sombre  |
-| Fabrikam        | Houston  | Mode        | Vert  | Léger |
+| Fabrikam        | Saint-Nazaire  | Mode        | Vert  | Clair |
 | Contoso         | Boston   | Électronique    | Rouge    | Sombre  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Différentes mises en page de l'écran ont été fournies aux utilisateurs. En u
 | Adventure Works | A3MGR            | Directeur de magasin | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Caissier       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Employé au stock   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Directeur de magasin | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Directeur de magasin | 000160, 000713         |
 | Fabrikam        | F3CSH            | Caissier       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Employé au stock   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Directeur de magasin | 000100, 000111         |

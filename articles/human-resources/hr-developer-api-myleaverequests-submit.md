@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092012"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418432"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Soumettre une demande d'absence au workflow
 
@@ -68,7 +68,7 @@ Ne fournissez pas de corps de demande pour cette méthode.
 
 Une réponse de réussite est toujours une réponse **204 Aucun contenu**.
 
-Les appelants non autorisés recevront une réponse **401 Non autorisé**ou **403 Interdit**.
+Les appelants non autorisés recevront une réponse **401 Non autorisé** ou **403 Interdit**.
 
 Si la soumission échoue (en raison de la validation, par exemple), la réponse sera **500 Erreur du serveur** et le corps de la réponse comprendra un objet JSON avec plus de détails.
 

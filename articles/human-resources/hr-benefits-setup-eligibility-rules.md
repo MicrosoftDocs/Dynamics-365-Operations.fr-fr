@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430668"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418454"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configuration des règles et des options d'admissibilité
 
@@ -37,7 +37,7 @@ Pendant l'inscription ouverte, les employés peuvent sélectionner des plans d'a
 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Règles et options d'admissibilité**.
 
-2. Dans l'onglet **Règles d'éligibilité**, sélectionnez **Nouveau**pour créer une règle d'éligibilité. Pour afficher les plans associés à une règle d'éligibilité, sélectionnez **Plans associés**.
+2. Dans l'onglet **Règles d'éligibilité**, sélectionnez **Nouveau** pour créer une règle d'éligibilité. Pour afficher les plans associés à une règle d'éligibilité, sélectionnez **Plans associés**.
 
 3. Spécifiez les valeurs les champs suivants :
 

@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097091"
+ms.locfileid: "4412411"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Promouvoir une variante et terminer une expérience
 
@@ -40,8 +40,8 @@ Pour promouvoir la variante la plus performante, procédez comme suit.
 
 1. Dans le générateur de site Commerce, sélectionnez **Expériences** dans le volet de navigation de gauche, puis sélectionnez l'expérience.
 1. Dans la barre de commande, sélectionnez **Terminer l'expérience**.
-1. Dans la boîte de dialogue **Terminer l'expérience** , sélectionnez **Examiner les données de l'expérience**. Le service tiers s'ouvre et vous permet de valider les métriques et de déterminer la variante la plus performante.
-1. Dans la boîte de dialogue **Terminer l'expérience** , sélectionnez la variante la plus performante, puis sélectionnez **Suivant**.
+1. Dans la boîte de dialogue **Terminer l'expérience**, sélectionnez **Examiner les données de l'expérience**. Le service tiers s'ouvre et vous permet de valider les métriques et de déterminer la variante la plus performante.
+1. Dans la boîte de dialogue **Terminer l'expérience**, sélectionnez la variante la plus performante, puis sélectionnez **Suivant**.
 1. Ouvrez le service tiers et arrêtez l'expérience.
 1. Dans le générateur de site, sélectionnez **Terminer** pour remplacer la page d'origine en ligne et publier la variante la plus performante afin qu'elle soit disponible pour tous les utilisateurs de votre site web. 
 

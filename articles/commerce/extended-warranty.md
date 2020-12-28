@@ -19,11 +19,11 @@ ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621191"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412159"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Créer et configurer des extensions de garantie
 
@@ -53,7 +53,7 @@ Les clients peuvent également revenir plus tard et acheter une extension de gar
 
 Le tableau suivant définit certains termes liés à la garantie.
 
-| Terme | Description  |
+| Terme | Description |
 |------------------------------|--------------|
 | Extension de garantie/Garantie | Une *extension de garantie* fait référence à un contrat ou contrat de service qui fournit une garantie prolongée aux clients. L’extension de garantie comprend le service supplémentaire de remplacement ou de réparation de biens pendant la période de couverture de l’extension de garantie. |
 | Garantie fabricant | Une *garantie fabricant* (souvent appelée *garantie limitée*) est la garantie que les clients reçoivent lorsqu’ils achètent un produit. Voici quelques caractéristiques de la garantie fabricant :<ul><li>Le coût de la garantie est inclus dans le coût du produit. Les clients n’ont pas à payer de montant supplémentaire pour la garantie fabricant.</li><li>Selon la catégorie de produit, la garantie fabricant dure généralement 30 jours, six mois ou un an. (Pour la plupart des appareils électroniques grand public, la garantie dure un an).</li><li>La garantie couvre tous les défauts causés par des pannes mécaniques ou électriques. La couverture est limitée et n’inclut aucun dommage accidentel au produit acheté. Les clients qui souhaitent protéger les produits qu’ils achètent contre les dommages quotidiens doivent investir dans une extension de garantie. Les extensions de garantie durent de deux à dix ans, selon la catégorie de produit. Ils ont également une couverture plus large et couvrent les incidents quotidiens tels que les gouttes, les déversements et les taches.</li></ul> |
@@ -77,7 +77,7 @@ Pour créer un article de garantie dans Commerce, procédez comme suit.
 1. Cliquez sur **OK**.
 1. Sur la page **Détails du produit**, dans le raccourci **Garantie**, définissez les champs **Unité de temps** et **Durée**.
 
-    | Nom du champ | Valeur  | Description  |
+    | Nom du champ | Valeur  | Description |
     |------------|-------|-------------|
     | Unité de temps | **Jour(s)**, **Semaine(s)**, **Mois(s)** ou **Année(s)** | Ce champ spécifie l’unité de temps utilisée pour la garantie. |
     | Durée | Valeur entière positive | Ce champ spécifie la durée de la garantie dans l’unité de temps sélectionnée. |
@@ -90,7 +90,7 @@ Pour créer un article de garantie dans Commerce, procédez comme suit.
 1. Remettez le produit sous garantie à l’entreprise afin qu’il puisse être vendu. Pour plus d’informations, voir [Paramétrage des produits vendus au détail](set-up-retail-products.md).
 1. Sur la page **Détails du produit lancé**, dans le raccourci **Garantie**, définissez les champs **Base de gamme de prix**, **Limite inférieure** et **Limite supérieure**.
 
-    | Nom du champ | Valeur  | Description  |
+    | Nom du champ | Valeur  | Description |
     |------------|-------|-------------|
     | Base de la plage de prix | **Aucun**, **Prix de base** ou **Prix de vente** | <ul><li>**Aucun** - Les valeurs **Limite inférieure** et **Limite supérieure** des gammes de prix ne sont pas applicables.</li><li>**Prix de base** - Une garantie donnée sera applicable si le prix de base (c’est-à-dire le prix sans remise) de l’article sous garantie se situe entre les valeurs **Limite inférieure** et **Limite supérieure** spécifiées ici, en fonction du prix de l’article sous garantie.</li><li>**Prix de vente** - Cette valeur est réservée pour une utilisation future.</li></ul> |
     | Limite inférieure, Limite supérieure | Valeur entière positive | Ces champs définissent les limites de prix supérieures et inférieures de l’article sous garantie et la manière dont la garantie actuelle s’applique à l’article sous garantie. Ces limites peuvent être basées sur le prix de base de l’article sous garantie (également appelé prix de détail suggéré par le fabricant \[MSRP\]). Si le champ **Base de gamme de prix** est défini sur **Prix de base**, uniquement un article sous garantie (produit) dont le prix de base est compris entre les valeurs **Limite inférieure** et **Limite supérieure** déclenchera une invite pour ajouter la garantie au point de vente. |
@@ -202,7 +202,7 @@ Lorsqu’une extension de garantie est vendue, une entité de stratégie de gara
 
 Le tableau suivant décrit les propriétés de la stratégie de garantie et leurs valeurs. Dans Commerce Headquarters, la table de base de données est nommée WARRANTYPOLICY.
 
-| Nom de la propriété | Valeur  | Description  |
+| Nom de la propriété | Valeur  | Description |
 |---------------|-------|-------------|
 | PolicyNumber | Chaîne de caractères (20 caractères maximum) | Numéro de la stratégie de garantie |
 | WarrantiedItemId | Chaîne de caractères (20 caractères maximum) | ID de l’article sous garantie |

@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969020"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418475"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d'absence
 
@@ -54,7 +54,7 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 
 7. Sous **Code motif obligatoire**, choisissez si vous souhaitez exiger un code de motif. Si vous souhaitez exiger des codes de motif, vous devrez peut-être les ajouter. Sous **Codes motif**, sélectionnez **Ajouter**, sélectionnez un code de motif, puis cochez la case **Activé** à côté.
 
-8. Sous **Restreindre l'accès aux rôles sélectionnés**, choisissez si vous souhaitez restreindre l'accès. Sélectionnez ensuite les rôles de sécurité sous **Rôles de sécurité pour ce type de congé**. Les rôles de sécurité sont définis dans le workflow que vous avez sélectionné sous **ID workflow**plus tôt dans cette procédure.
+8. Sous **Restreindre l'accès aux rôles sélectionnés**, choisissez si vous souhaitez restreindre l'accès. Sélectionnez ensuite les rôles de sécurité sous **Rôles de sécurité pour ce type de congé**. Les rôles de sécurité sont définis dans le workflow que vous avez sélectionné sous **ID workflow** plus tôt dans cette procédure.
 
 9. Sous **Couleur du calendrier**, choisissez la couleur à afficher sur les calendriers de congé et d'absence pour ce type de congé. 
 

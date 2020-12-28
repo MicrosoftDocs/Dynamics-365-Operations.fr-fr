@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ab1609d332b96c0588b06aa086dd4fee944e5d9
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ebc5cfa490a4c8538fd081aced0844ed01d63a26
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055758"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4412427"
 ---
 # <a name="cart-icon-module"></a>Module Icône de panier
 
@@ -60,6 +60,8 @@ Pour ajouter un module d’icône de panier, voir [Module d’en-tête](author-h
 [Module Adresse d’expédition](ship-address-module.md)
 
 [Module Options de livraison](delivery-options-module.md)
+
+[Module d'information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 

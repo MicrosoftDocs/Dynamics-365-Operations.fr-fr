@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412195"
 ---
 # <a name="carousel-module"></a>Module Carrousel
 
@@ -69,7 +69,7 @@ Pour ajouter un module de carrousel à une nouvelle page et définir les propri�
 1. À l’emplacement **Principal** de la nouvelle page, ajoutez un module de conteneur. 
 1. Dans le volet de droite, définissez la valeur **Largeur** sur **Remplir l’écran**.
 1. Dans **Contour de la page**, ajoutez un module carrousel au module conteneur.
-1. Ajouter un module de bloc de contenu au module caroussel. Définissez les propriétés du module de bloc de contenu en fournissant **En-tête**, **Lien**, **Disposition**et d’autres propriétés.
+1. Ajouter un module de bloc de contenu au module caroussel. Définissez les propriétés du module de bloc de contenu en fournissant **En-tête**, **Lien**, **Disposition** et d’autres propriétés.
 1. Ajoutez et configurez un autre module de bloc de contenu.
 1. Définissez des propriétés supplémentaires pour le module carrousel selon vos besoins.
 1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La page doit afficher un carrousel avec deux modules à l’intérieur (un module de bannière et un module de fonctionnalité). Vous pouvez modifier les propriétés supplémentaires pour les modules de carrousel, de bannière, et de fonctionnalités pour obtenir l’effet souhaité.

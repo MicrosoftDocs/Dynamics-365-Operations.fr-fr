@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013202"
+ms.locfileid: "4412392"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Contrôle sanitaire des périphériques et services de PDV
 
@@ -54,14 +54,14 @@ Par défaut, le contrôle d'intégrité teste uniquement les périphériques con
 
 | Type | Connexion | Détails |
 |---|---|---|
-| Imprimante | OPOS | Ce contrôle teste la liaison et l'incorporation d'objets de base pour les fonctions de PDV (OPOS). Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
-| Affichage de ligne | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
+| Imprimante | OPOS | Ce contrôle teste la liaison et l'incorporation d'objets de base pour les fonctions de PDV (OPOS). Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
+| Affichage de ligne | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
 | Affichage double | Windows | Ce contrôle garantit que le système d'exploitation détecte un deuxième affichage Windows. | 
-| LBM | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
-| Créateur | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> | 
-| Scanneur | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> | 
-| Echelle | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
-| Clavier d'identification personnelle | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer : **DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
+| LBM | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
+| Créateur | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> | 
+| Scanneur | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> | 
+| Echelle | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
+| Clavier d'identification personnelle | OPOS | Ce contrôle teste les fonctions OPOS de base. Voici quelques exemples :<ul><li>Ouvrir : **Open** &gt; **ClaimDevice** &gt; **DeviceEnabled=True**</li><li>Fermer :**DeviceEnabled=False** &gt;**ReleaseDevice** &gt; **Close**</li></ul> |
 | Terminal de paiement | SDK Paiements | Ce contrôle teste les fonctions de terminal de paiement de base fournies par le kit de développement logiciel Paiements. <ul><li>Verrouiller</li><li>BeginTransaction</li><li>EndTransaction</li><li>ReleaseDevice</li><li>Clôture</li></ul> |
 
 ### <a name="using-the-health-check-operation-in-the-pos"></a>Utilisation de l'opération de contrôle d'intégrité dans le PDV

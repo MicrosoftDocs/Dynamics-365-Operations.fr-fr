@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022532"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412342"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestion d'équipe et de tiroir-caisse
 
@@ -153,7 +153,7 @@ La façon dont les équipes et le rapprochement des tiroirs-caisses sont utilis�
 
 Bien que chaque détaillant a ses propres exigences métier, nous vous recommandons de paramétrer votre système de la façon suivante afin d'éviter les situations où des différences de ce type se produisent :
 
-Accédez à **Retail et Commerce \> Canaux \> Magasins \> Tous les magasins \> Relevé/clôture**et, pour chaque magasin, définissez les champs **Méthode de relevé** et **Méthode de clôture** sur **Équipe**.
+Accédez à **Retail et Commerce \> Canaux \> Magasins \> Tous les magasins \> Relevé/clôture** et, pour chaque magasin, définissez les champs **Méthode de relevé** et **Méthode de clôture** sur **Équipe**.
 
 Ce paramétrage permet de garantir que les relevés de l'arrière-guichet incluent les mêmes transactions que les équipes du POS, et que les données sont résumées en fonction de cette équipe.
 

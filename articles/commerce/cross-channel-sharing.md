@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019516"
+ms.locfileid: "4412397"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Activer et utiliser le partage intercanal
 
@@ -55,7 +55,7 @@ Pour activer le partage intercanal dans le générateur de site Commerce, procé
 
     ![Option Intercanal définie sur Activé dans le générateur de site Commerce](./media/enabling-cross-channel-sharing.png)
 
-Une fois que vous avez activé le partage intercanal, les informations intercanal s'affichent dans la section **Canaux** sous **Paramètres du site \> Fonctionnalités** , comme illustré ci-dessous.
+Une fois que vous avez activé le partage intercanal, les informations intercanal s'affichent dans la section **Canaux** sous **Paramètres du site \> Fonctionnalités**, comme illustré ci-dessous.
 
 ![Informations sur les canaux visibles après l'activation du partage intercanal](./media/channels-cross-channel.png)
 
@@ -71,11 +71,11 @@ Vous pouvez créer et utiliser du contenu intercanal de plusieurs manières. Par
 
 Pour créer un fragment intercanal dans le générateur de site Commerce, procédez comme suit.
 
-1. Accédez à **Fragments** , puis cliquez sur **Nouveau** pour créer un fragment.
-1. Dans la boîte de dialogue **Nouveau fragment** , sélectionnez le module **Bannière promotionnelle** , puis, sous **Nom du fragment** , entrez un nom (par exemple, **Bannière intercanal** ). Puis sélectionnez **OK**.
-1. Dans le volet de propriétés du module **Bannière promotionnelle** , sélectionnez **Ajouter un message** , puis sélectionnez **Message**.
-1. Dans la boîte de dialogue **Message** , sous **Texte** , entrez **Intercanal** et sélectionnez **OK**. 
-1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
+1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Bannière promotionnelle**, puis, sous **Nom du fragment**, entrez un nom (par exemple, **Bannière intercanal**). Puis sélectionnez **OK**.
+1. Dans le volet de propriétés du module **Bannière promotionnelle**, sélectionnez **Ajouter un message**, puis sélectionnez **Message**.
+1. Dans la boîte de dialogue **Message**, sous **Texte**, entrez **Intercanal** et sélectionnez **OK**. 
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 Ce fragment intercanal peut être utilisé sur des pages intercanal ou spécifiques à un canal qui sont créées sur n'importe quel canal de site.
 
@@ -85,13 +85,13 @@ Les pages intercanal peuvent être utilisées sur n'importe quel canal de votre 
 
 Pour créer une page intercanal qui utilise du contenu intercanal dans le générateur de site Commerce, procédez comme suit.
 
-1. Accédez à **Pages** , puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle** , sélectionnez un modèle, par exemple **Marketing**.
-1. Dans **Nom de la page** , entrez un nom pour la page (par exemple, **Page intercanal** ).
-1. Sous **URL de la page** , entrez une URL de page (par exemple, **examplepage** ), puis sélectionnez **OK**.
-1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension ( **...** ), puis le sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Ajouter un fragment** , sélectionnez le fragment intercanal que vous avez créé précédemment et qui contient une bannière promotionnelle, puis sélectionnez **OK**.
-1. Cliquez sur **Enregistrer** , puis sur **Aperçu** pour afficher un aperçu de la page. La bannière promotionnelle indiquant "Intercanal" doit s'afficher.
+1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez un modèle, par exemple **Marketing**.
+1. Dans **Nom de la page**, entrez un nom pour la page (par exemple, **Page intercanal**).
+1. Sous **URL de la page**, entrez une URL de page (par exemple, **examplepage**), puis sélectionnez **OK**.
+1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Ajouter un fragment**, sélectionnez le fragment intercanal que vous avez créé précédemment et qui contient une bannière promotionnelle, puis sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La bannière promotionnelle indiquant "Intercanal" doit s'afficher.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ### <a name="create-a-channel-specific-page-that-uses-cross-channel-content"></a>Créer une page spécifique à un canal qui utilise du contenu intercanal
@@ -100,13 +100,13 @@ En utilisant du contenu intercanal sur des pages spécifiques à un canal, vous 
 
 Pour créer une page spécifique à un canal qui utilise du contenu intercanal dans le générateur de site Commerce, procédez comme suit.
 
-1. Depuis un canal spécifique, tel que **Magasin en ligne étendu Fabrikam** , accédez à **Pages** , puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle** , sélectionnez un modèle, par exemple **Marketing**.
-1. Dans **Nom de la page** , entrez un nom pour la page (par exemple, **Page spécifique au canal** ).
-1. Sous **URL de la page** , entrez une URL de page (par exemple, **channelspecificpage** ), puis sélectionnez **OK**.
-1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension ( **...** ), puis le sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Ajouter un fragment** , sous **Canal** , sélectionnez **Magasin en ligne intercanal**. Le fragment intercanal que vous avez créé précédemment doit apparaître dans la liste. Sélectionnez-le, puis sélectionnez **OK**.
-1. Cliquez sur **Enregistrer** , puis sur **Aperçu** pour afficher un aperçu de la page. La bannière promotionnelle indiquant "Intercanal" doit s'afficher.
+1. Depuis un canal spécifique, tel que **Magasin en ligne étendu Fabrikam**, accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez un modèle, par exemple **Marketing**.
+1. Dans **Nom de la page**, entrez un nom pour la page (par exemple, **Page spécifique au canal**).
+1. Sous **URL de la page**, entrez une URL de page (par exemple, **channelspecificpage**), puis sélectionnez **OK**.
+1. À l’emplacement **Principal** de la nouvelle page, sélectionnez le bouton représentant des points de suspension (**...**), puis le sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Ajouter un fragment**, sous **Canal**, sélectionnez **Magasin en ligne intercanal**. Le fragment intercanal que vous avez créé précédemment doit apparaître dans la liste. Sélectionnez-le, puis sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La bannière promotionnelle indiquant "Intercanal" doit s'afficher.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ### <a name="create-a-channel-specific-version-of-a-cross-channel-page"></a>Créer une version spécifique à un canal d'une page intercanal
@@ -119,11 +119,11 @@ Pour créer une version spécifique à un canal d'une page intercanal dans le g�
 1. Ouvrez la page intercanal que vous avez créée précédemment.
 1. Dans le champ **Canal** situé dans le coin supérieur droit, sélectionnez le canal qui doit avoir un contenu spécifique. L'éditeur de page affiche un message qui vous invite à créer une variante de la page.
 1. Sélectionnez **Créer une variante de la page**.
-1. Dans l’emplacement **Principal** de la variante de la page, sélectionnez le bouton représentant des points de suspension ( **...** ), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Bannière promotionnelle** , puis sélectionnez **OK**.
-1. Dans le volet de propriétés du module **Bannière promotionnelle** , sélectionnez **Ajouter un message** , puis sélectionnez **Message**.
-1. Dans la boîte de dialogue **Message** , sous **Texte** , entrez **Spécifique au canal** et sélectionnez **OK**.
-1. Cliquez sur **Enregistrer** , puis sur **Aperçu** pour afficher un aperçu de la page. La bannière promotionnelle indiquant "Spécifique au canal" doit s'afficher.
+1. Dans l’emplacement **Principal** de la variante de la page, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Bannière promotionnelle**, puis sélectionnez **OK**.
+1. Dans le volet de propriétés du module **Bannière promotionnelle**, sélectionnez **Ajouter un message**, puis sélectionnez **Message**.
+1. Dans la boîte de dialogue **Message**, sous **Texte**, entrez **Spécifique au canal** et sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page. La bannière promotionnelle indiquant "Spécifique au canal" doit s'afficher.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 Désormais, si vous utilisez l'URL de base du canal et accédez à l'URL de la page intercanal sur ce site, vous verrez le contenu spécifique au canal au lieu du contenu intercanal.

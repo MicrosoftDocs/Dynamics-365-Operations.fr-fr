@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019562"
+ms.locfileid: "4412396"
 ---
 # <a name="work-with-fragments"></a>Utiliser des fragments 
 
@@ -62,9 +62,9 @@ Pour convertir un module précédemment configuré en un fragment réutilisable 
 
 1. Ouvrez une page ou un modèle contenant le module que vous souhaitez convertir en un fragment.
 1. Dans le volet de plan à gauche, ou directement dans le générateur de page visuel, sélectionnez le module précédemment configuré.
-1. Sélectionnez les points de suspension ( **...** ) à côté du nom du module dans le volet de plan ou dans la barre d’outils du module dans le générateur de page visuel. 
+1. Sélectionnez les points de suspension (**...**) à côté du nom du module dans le volet de plan ou dans la barre d’outils du module dans le générateur de page visuel. 
 1. Sélectionnez **Partager en tant que fragment**. 
-1. Dans la boîte de dialogue **Enregistrer en tant que fragment** , entrez un nom pour le fragment.
+1. Dans la boîte de dialogue **Enregistrer en tant que fragment**, entrez un nom pour le fragment.
 1. Sélectionnez **OK** pour enregistrer la configuration du module comme fragment qui peut être ajouté à d’autres pages.
 <!-- The following image shows how to save a module configuration as a fragment.-->
 <!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
@@ -91,14 +91,14 @@ Les procédures suivantes expliquent comment ajouter, supprimer, et modifier des
 Pour ajouter un fragment à une page dans le générateur de site Commerce, procédez comme suit.
 
 1. Dans le volet de plan à gauche, ou directement dans le générateur de page visuel, sélectionnez un conteneur ou un emplacement auquel des modules enfants peuvent êtres ajoutés.
-1. Sélectionnez les points de suspension ( **...** ) à côté du nom du conteneur ou de l’emplacement.  Sinon, si vous utilisez le générateur de page visuel, sélectionnez le symbole plus ( **+** ).  
+1. Sélectionnez les points de suspension (**...**) à côté du nom du conteneur ou de l’emplacement.  Sinon, si vous utilisez le générateur de page visuel, sélectionnez le symbole plus (**+**).  
 1. Sélectionnez **Ajouter un fragment**.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Si le conteneur ou l’emplacement ne prend pas en charge de nouveaux modules enfants, l’option **Ajouter un fragment** n’est pas disponible.
     
-1. Dans la boîte de dialogue **Sélectionner un fragment** , recherchez et sélectionnez un fragment à ajouter. Si aucun fragment disponible n’est répertorié, vous pouvez d’abord peut-être créer un fragment d’un type de module que le conteneur ou l’emplacement sélectionné prend en charge.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, recherchez et sélectionnez un fragment à ajouter. Si aucun fragment disponible n’est répertorié, vous pouvez d’abord peut-être créer un fragment d’un type de module que le conteneur ou l’emplacement sélectionné prend en charge.
 1. Sélectionnez le fragment que vous voulez ajouter au conteneur ou à l’emplacement sélectionné sur la page.
 <!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
@@ -109,7 +109,7 @@ Pour ajouter un fragment à une page dans le générateur de site Commerce, proc
 
 Pour supprimer un fragment d'un emplacement ou d'un conteneur sur une page dans le générateur de site Commerce, procédez comme suit.
 
-1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension ( **...** ) en regard du nom du fragment à supprimer, puis sélectionnez le symbole de corbeille.  Vous pouvez également sélectionner le fragment dans le générateur de page visuel et sélectionner le symbole de la corbeille dans la barre d’outils du fragment.
+1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) en regard du nom du fragment à supprimer, puis sélectionnez le symbole de corbeille.  Vous pouvez également sélectionner le fragment dans le générateur de page visuel et sélectionner le symbole de la corbeille dans la barre d’outils du fragment.
 1. Lorsque vous êtes invité à confirmer la suppression du fragment, sélectionnez **OK**.
 
 > [!NOTE]
@@ -122,7 +122,7 @@ Pour modifier des fragments, vous devez utiliser l’interface utilisateur de l�
 Pour modifier un fragment dans le générateur de site Commerce, procédez comme suit.
 
 1. Dans le volet de navigation sur la gauche, sélectionnez **Fragments**.
-1. Sous **Fragments** , sélectionnez le fragment à modifier.
+1. Sous **Fragments**, sélectionnez le fragment à modifier.
 1. Modifiez les propriétés et la structure du module du fragment comme vous le souhaitez. Le processus est semblable au processus de modification des modules sont modifiés dans la vue d’éditeur de page.
 
 Vous pouvez également modifier un fragment en le sélectionnant dans une page, dans un modèle, ou un fragment parent, puis en sélectionnant **Modifier le fragment** dans le volet de propriétés à droite.

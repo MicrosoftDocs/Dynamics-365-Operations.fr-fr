@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761271"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412213"
 ---
 # <a name="add-a-privacy-policy-page"></a>Ajouter une page de stratégie de confidentialité
 
@@ -79,7 +79,7 @@ Pour générer une page de stratégie de confidentialité, procédez comme suit.
 
 Pour publier l’URL de la page de stratégie de confidentialité, procédez comme suit.
 
-1. Allez à **URL**et sélectionnez l’URL de la page de stratégie de confidentialité.
+1. Allez à **URL** et sélectionnez l’URL de la page de stratégie de confidentialité.
 1. Sélectionnez **Publier** pour publier l’URL sélectionnée.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Créer un lien vers la page de stratégie de confidentialité dans un pied de page

@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022587"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412257"
 ---
 # <a name="install-the-pos-layout-designer"></a>Installer le concepteur de mise en page du PDV
 
@@ -58,7 +58,7 @@ Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par 
 
     **Solution :** dans Internet Explorer, ajoutez l'URL Commerce à vos sites de confiance. Cliquez sur **Paramètre** &gt; **Options** &gt; **Sécurité** &gt; **Sites de confiance** &gt; **Sites** &gt; **Ajouter**.
 
-**Problème connu :** Le concepteur ne fonctionne pas correctement dans les navigateurs Google Chrome et Mozilla Firefox. Nous œuvrons à corriger ce problème.
+**Problème connu :** Le concepteur ne fonctionne pas correctement dans les navigateurs Google Chrome et Mozilla Firefox. Nous œuvrons à corriger ce problème.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

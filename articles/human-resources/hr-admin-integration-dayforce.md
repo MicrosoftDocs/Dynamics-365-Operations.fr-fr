@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431289"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418425"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configuration de l'intégration avec Dayforce
 
@@ -341,9 +341,9 @@ Des informations de compte bancaire valides doivent être entrées pour tous les
 | Ressources humaines                         | Dayforce                                                                                                    |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Numéro de compte bancaire (obligatoire) |                                                                                                             |
-| Code SWIFT (obligatoire)          | Le champ**ID banque** utilisé lors du traitement du salaire au Mexique.                                                             |
+| Code SWIFT (obligatoire)          | Le champ **ID banque** utilisé lors du traitement du salaire au Mexique.                                                             |
 | Numéro d'agence (obligatoire)       |                                                                                                             |
-| Type de compte bancaire (obligatoire)   | Le champ**Type de compte** utilisé lors du traitement du salaire au Mexique. Les valeurs prises en charge sont **Chèque** et **Paie**. |
+| Type de compte bancaire (obligatoire)   | Le champ **Type de compte** utilisé lors du traitement du salaire au Mexique. Les valeurs prises en charge sont **Chèque** et **Paie**. |
 
 > [!NOTE]
 > Les employés qui choisissent d'être payés par des virements bancaires doivent fournir un lien vers un compte de solde qui se trouve sous une entité juridique avec son adresse principale au Mexique, et associée à un compte bancaire valide dans une banque mexicaine. Tous les autres comptes non-solde sont ignorés.

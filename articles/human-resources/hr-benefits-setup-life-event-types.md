@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418488"
 ---
 # <a name="configure-life-event-types"></a>Configurer les types d’événements de vie
 
@@ -71,7 +71,7 @@ Vous pouvez choisir parmi les événements de vie suivants lorsque vous créez u
 | **Modifier l’adresse de l’employé** | <ul><li>Collaborateur > Profil> Adresses </li><li>Collaborateur > Informations personnelles > Contacts personnels> Adresse</li></ul> Adresse ajoutée, modifiée ou supprimée |
 | **Modification personne à charge** | <ul><li>Collaborateur > Profil> Informations personnelles> Contacts personnels> Ajouter ou supprimer une personne à charge</li><li>Libre-service employé</li></ul> | Personne à charge ajoutée ou supprimée. La relation du contact personnel doit être un enfant, un conjoint, un partenaire ou un ex-conjoint. Mise à jour de la date **Valide à partir du** déclenchant l’événement de vie. Si vous ne mettez pas à jour cette date, aucun événement de vie ne se déclenchera. |
 | **Naissance ou adoption (personne à charge)** | <ul><li>Collaborateur > Profil> Informations personnelles> Contacts personnels> Détails de la personne à charge</li><li>Libre-service employé</li></ul> | Champ **Date d’adoption** rempli. La date de naissance de l’enfant est obligatoire. |
-| **Perte de couverture (conjoint/partenaire local)** | Collaborateur > Profil> Informations personnelles> Contacts personnels > Détails de la personne à charge > Perte de couverture | **Perte de couverture**sélectionnée pour un contact personnel, ainsi que **Date d’effet** |
+| **Perte de couverture (conjoint/partenaire local)** | Collaborateur > Profil> Informations personnelles> Contacts personnels > Détails de la personne à charge > Perte de couverture | **Perte de couverture** sélectionnée pour un contact personnel, ainsi que **Date d’effet** |
 | Modification de l’emploi du partenaire local | Collaborateur > Profil> Informations personnelles> Contacts personnels> Détails de la personne à charge > Employé. | <ul><li>Enregistrement des détails de la personne à charge créé et zone **Contact personnel employé** = Oui</li><li>Zone **Contact personnel employé** modifiée (oui ou non)</li></ul> |
 | **Congé (conjoint/partenaire local)** | Collaborateur > Profil> Informations personnelles> Contacts personnels > Détails de la personne à charge > Congé | <ul><li>Enregistrement des détails de la personne à charge créé et **EhrLOAEffectiveDate** rempli</li><li>**personPrivateDetails.EhrIsLOA** est modifié (Oui ou Non)</li><li>**personPrivateDetails.EhrLOAEffectiveDate** est modifié</li></ul> |
 | **Modification de la couverture (poste)** | <ul><li>Collaborateur > Affectation de poste > Affectations de poste du collaborateur</li><li>Postes > Postes</li></ul> | <ul><li>Modification du poste dans les enregistrements d’affectation de poste du collaborateur</li><li>Modification de l’affectation du collaborateur au poste</li></ul> |
