@@ -1,0 +1,122 @@
+---
+title: Nouveautés ou modifications dans Dynamics 365 Human Resources (20 août 2020)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 20 août 2020.
+author: Darinkramer
+manager: AnnBe
+ms.date: 8/20/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2020-08-20
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: 46dadb8834195c5dd06cd1c56d79324def7d9f2d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527479"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a><span data-ttu-id="bbe78-103">Nouveautés ou modifications dans Dynamics 365 Human Resources (20 août 2020)</span><span class="sxs-lookup"><span data-stu-id="bbe78-103">What's new or changed in Dynamics 365 Human Resources (August 20, 2020)</span></span>
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="bbe78-104">Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="bbe78-104">This topic describes features that are either new or changed in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="bbe78-105">Les modifications s’appliquent au numéro de version 8.1.3478.</span><span class="sxs-lookup"><span data-stu-id="bbe78-105">Changes apply to build number 8.1.3478.</span></span> <span data-ttu-id="bbe78-106">Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support Lifecycle Services (LCS) pour référence.</span><span class="sxs-lookup"><span data-stu-id="bbe78-106">The numbers in parentheses in some headings refer to Lifecycle Services (LCS) support numbers for reference.</span></span>
+
+## <a name="show-upcoming-and-pending-leave-of-absence-information-to-cards-in-people-workspace"></a><span data-ttu-id="bbe78-107">Afficher les informations d’absence à venir et en attente sur les cartes dans l’espace de travail Personnes</span><span class="sxs-lookup"><span data-stu-id="bbe78-107">Show upcoming and pending leave of absence information to cards in People workspace</span></span>
+
+<span data-ttu-id="bbe78-108">Les options de demande de congé en attente et à venir sont désormais disponibles sur les cartes Congés et absences de l’espace de travail **Personnes**.</span><span class="sxs-lookup"><span data-stu-id="bbe78-108">Pending and upcoming leave request options are now available on the Leave and absence cards in the **People** workspace.</span></span>
+
+## <a name="private-field-isnt-yes-by-default-for-employee-role-in-employee-self-service-477106"></a><span data-ttu-id="bbe78-109">Le champ Privé n’est pas défini sur Oui par défaut pour le rôle Employé dans le libre service Employé (477106)</span><span class="sxs-lookup"><span data-stu-id="bbe78-109">Private field isn't Yes by default for Employee role in Employee self service (477106)</span></span>
+
+<span data-ttu-id="bbe78-110">Le champ **Privé** est désormais définir par défaut sur **Oui** lorsque les employés ajoutent de nouveaux enregistrements d’adresse par le biais de la page **Renseignements personnels** en libre service des employés.</span><span class="sxs-lookup"><span data-stu-id="bbe78-110">The **Private** field now defaults to **Yes** when employees add new address records through the **Personal information** page in Employee self service.</span></span> 
+
+## <a name="candidates-to-hire-fasttab-in-personnel-management-shows-an-incorrect-count-of-candidates-470110"></a><span data-ttu-id="bbe78-111">Le raccourci Candidats à l’embauche dans Gestion du personnel affichent un nombre de candidats incorrect (470110)</span><span class="sxs-lookup"><span data-stu-id="bbe78-111">Candidates to hire FastTab in Personnel management shows an incorrect count of candidates (470110)</span></span>
+
+<span data-ttu-id="bbe78-112">La page **Gestion du personnel** affiche désormais avec précision le nombre de candidats à embaucher.</span><span class="sxs-lookup"><span data-stu-id="bbe78-112">The **Personnel management** page now accurately displays the number of candidates to hire.</span></span> 
+
+## <a name="cant-enter-sickness-for-terminated-employee-when-accrual-is-set-to-zero-446195"></a><span data-ttu-id="bbe78-113">Impossible de saisir un arrêt maladie pour un employé licencié lorsque la régularisation est définie sur zéro (446195)</span><span class="sxs-lookup"><span data-stu-id="bbe78-113">Can’t enter sickness for terminated employee when accrual is set to zero (446195)</span></span>
+
+<span data-ttu-id="bbe78-114">Les transactions de congé sont désormais autorisées pour les employés qui ont été licenciés dans le futur et la régularisation est définie sur zéro.</span><span class="sxs-lookup"><span data-stu-id="bbe78-114">Leave transactions are now allowed for employees that have been terminated in the future and the accrual is set to zero.</span></span> <span data-ttu-id="bbe78-115">Les transactions de congé peuvent être saisies jusqu’à la date de départ de l’employé.</span><span class="sxs-lookup"><span data-stu-id="bbe78-115">Leave transactions can be entered up to the termination date of the employee.</span></span> 
+
+## <a name="adding-custom-fields-to-the-new-worker-form-disables-the-fields-in-the-action-pane-for-manage-leave-473314"></a><span data-ttu-id="bbe78-116">L’ajout de champs personnalisés au nouveau formulaire Collaborateur désactive les champs du volet Actions pour Gérer les congés (473314)</span><span class="sxs-lookup"><span data-stu-id="bbe78-116">Adding custom fields to the new Worker form disables the fields in the action pane for Manage leave (473314)</span></span>
+
+<span data-ttu-id="bbe78-117">Les options du volet Actions sur le nouveau formulaire **Collaborateur** dans **Gérer les congés** ne sera plus désactivé si des champs personnalisés ont été ajoutés au nouveau formulaire **Collaborateur**.</span><span class="sxs-lookup"><span data-stu-id="bbe78-117">Action pane options on the new **Worker** form in **Manage leave** will no longer be disabled if custom fields have been added to the new **Worker** form.</span></span>
+
+## <a name="making-the-leave-comment-field-mandatory-allows-a-leave-request-to-be-submitted-when-no-comment-is-entered-473543"></a><span data-ttu-id="bbe78-118">Rendre obligatoire le champ Commentaire sur le congé permet de soumettre une demande de congé lorsqu’aucun commentaire n’est saisi (473543)</span><span class="sxs-lookup"><span data-stu-id="bbe78-118">Making the Leave comment field mandatory allows a leave request to be submitted when no comment is entered (473543)</span></span>
+
+<span data-ttu-id="bbe78-119">Les champs de commentaires peuvent désormais être obligatoires et les demandes de congé respectent ce paramètre.</span><span class="sxs-lookup"><span data-stu-id="bbe78-119">Comment fields can now be mandatory, and leave requests honor this setting.</span></span> <span data-ttu-id="bbe78-120">Les champs obligatoires sont une fonctionnalité d’évaluation.</span><span class="sxs-lookup"><span data-stu-id="bbe78-120">Mandatory fields is a preview feature.</span></span>
+
+### <a name="dmf-entity-available-for-accrual-suspensions"></a><span data-ttu-id="bbe78-121">Entité DMF disponible pour les suspensions de régularisation</span><span class="sxs-lookup"><span data-stu-id="bbe78-121">DMF entity available for accrual suspensions</span></span>
+
+<span data-ttu-id="bbe78-122">Une entité DMF est désormais disponible pour les suspensions de régularisation.</span><span class="sxs-lookup"><span data-stu-id="bbe78-122">A DMF entity is now available for accrual suspensions.</span></span>
+
+## <a name="in-preview"></a><span data-ttu-id="bbe78-123">En mode aperçu</span><span class="sxs-lookup"><span data-stu-id="bbe78-123">In preview</span></span>
+
+### <a name="mandatory-fields"></a><span data-ttu-id="bbe78-124">Champs obligatoires</span><span class="sxs-lookup"><span data-stu-id="bbe78-124">Mandatory fields</span></span>
+
+<span data-ttu-id="bbe78-125">Vous pouvez rendre les champs obligatoires en utilisant les fonctionnalités de personnalisation de Human Resources.</span><span class="sxs-lookup"><span data-stu-id="bbe78-125">You can make fields mandatory by using Human Resources personalization capabilities.</span></span> <span data-ttu-id="bbe78-126">Cette fonctionnalité nécessite des **Vues enregistrées**.</span><span class="sxs-lookup"><span data-stu-id="bbe78-126">This feature requires **Saved views**.</span></span> <span data-ttu-id="bbe78-127">Pour plus d’informations sur les vues enregistrées, voir :</span><span class="sxs-lookup"><span data-stu-id="bbe78-127">For more information about saved views, see:</span></span>
+
+- <span data-ttu-id="bbe78-128">[Vues enregistrées – disponibilité générale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) dans la 2e partie du lancement 2020 de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="bbe78-128">[Saved views - general availability](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) in the Dynamics 365 2020 release wave 2 plan</span></span>
+- [<span data-ttu-id="bbe78-129">Écrans de version utilisant entièrement des vues enregistrées</span><span class="sxs-lookup"><span data-stu-id="bbe78-129">Build forms that fully utilize saved views</span></span>](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+
+### <a name="human-resources-application-in-teams"></a><span data-ttu-id="bbe78-130">Application Human Resources de Teams</span><span class="sxs-lookup"><span data-stu-id="bbe78-130">Human Resources application in Teams</span></span>
+
+<span data-ttu-id="bbe78-131">Les collaborateurs peuvent consulter et demander des absences dans Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="bbe78-131">Employees can view and request time away from work within Microsoft Teams.</span></span> <span data-ttu-id="bbe78-132">Ils peuvent interagir avec un bot pour créer des demandes de congé.</span><span class="sxs-lookup"><span data-stu-id="bbe78-132">They can interact with a bot to create leave requests.</span></span> <span data-ttu-id="bbe78-133">Pour plus d’informations, voir :</span><span class="sxs-lookup"><span data-stu-id="bbe78-133">For more information, see:</span></span>
+
+- <span data-ttu-id="bbe78-134">[Expérience des employés en congé et absence Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) dans la 1ère partie du lancement 2020 de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="bbe78-134">[Employee leave and absence experience in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in the Dynamics 365 2020 release wave 1 plan</span></span>
+- [<span data-ttu-id="bbe78-135">Application Human Resources de Teams</span><span class="sxs-lookup"><span data-stu-id="bbe78-135">Human Resources app in Teams</span></span>](https://go.microsoft.com/fwlink/?linkid=2127841)
+
+## <a name="coming-soon"></a><span data-ttu-id="bbe78-136">Prochainement</span><span class="sxs-lookup"><span data-stu-id="bbe78-136">Coming soon</span></span>
+
+### <a name="human-resources-app-in-teams-preview-features"></a><span data-ttu-id="bbe78-137">Application Human Resources dans les fonctionnalités d’évaluation Teams</span><span class="sxs-lookup"><span data-stu-id="bbe78-137">Human Resources app in Teams preview features</span></span>
+ 
+-  <span data-ttu-id="bbe78-138">**Notifications** : Les demandeurs et les approbateurs des demandes de congés seront informés dans l’application Human Resources de Teams.</span><span class="sxs-lookup"><span data-stu-id="bbe78-138">**Notifications**: Submitters and approvers of time-off requests will be notified in the Human Resources app in Teams.</span></span> <span data-ttu-id="bbe78-139">Les approbateurs pourront approuver ou refuser les demandes de congés, et les demandeurs seront informés si la demande a été approuvée ou refusée.</span><span class="sxs-lookup"><span data-stu-id="bbe78-139">Approvers will be able to approve or deny time-off requests, and submitters will be notified if the request was approved or denied.</span></span>
+ 
+- <span data-ttu-id="bbe78-140">**Calendrier des congés du responsable** : Les responsables pourront afficher les congés approuvés et en attente pour leurs subordonnés directs dans une vue du calendrier.</span><span class="sxs-lookup"><span data-stu-id="bbe78-140">**Manager time-off calendar**: Managers will be able to see approved and pending time off for their direct reports in a calendar view.</span></span> <span data-ttu-id="bbe78-141">Cette vue permet de comprendre facilement quand les membres de leur équipe sont absents du travail.</span><span class="sxs-lookup"><span data-stu-id="bbe78-141">This view provides an easy understanding of when their team members are away from work.</span></span>
+
+### <a name="checklist-entities-included-in-common-data-service"></a><span data-ttu-id="bbe78-142">Entités de liste de contrôle incluses dans Common Data Service</span><span class="sxs-lookup"><span data-stu-id="bbe78-142">Checklist entities included in Common Data Service</span></span>
+
+<span data-ttu-id="bbe78-143">Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="bbe78-143">Checklist entities for Onboarding, Offboarding, Transfers, and Business processes will be available soon in Common Data Service.</span></span>
+
+## <a name="known-issues"></a><span data-ttu-id="bbe78-144">Problèmes connus</span><span class="sxs-lookup"><span data-stu-id="bbe78-144">Known issues</span></span>
+
+<span data-ttu-id="bbe78-145">L’espace de travail **Gestion des fonctionnalités** peut afficher des fonctionnalités désactivées en tant que fonctionnalités d’aperçu lorsqu’elles sont généralement disponibles.</span><span class="sxs-lookup"><span data-stu-id="bbe78-145">The **Feature management** workspace may be displaying features that are disabled as preview features when they are generally available.</span></span> <span data-ttu-id="bbe78-146">Vous trouverez ci-dessous une liste des fonctionnalités généralement disponibles qui indiquent un état incorrect.</span><span class="sxs-lookup"><span data-stu-id="bbe78-146">Below is a list of generally available features that show an incorrect status.</span></span> 
+
+- <span data-ttu-id="bbe78-147">Gestion des avantages</span><span class="sxs-lookup"><span data-stu-id="bbe78-147">Benefits management</span></span>
+- <span data-ttu-id="bbe78-148">Gestion des dossiers</span><span class="sxs-lookup"><span data-stu-id="bbe78-148">Case management</span></span>
+- <span data-ttu-id="bbe78-149">Journalisation de base de données (audit)</span><span class="sxs-lookup"><span data-stu-id="bbe78-149">Database logging (Auditing)</span></span>
+- <span data-ttu-id="bbe78-150">Régularisation des congés pour une seule société ou un seul plan</span><span class="sxs-lookup"><span data-stu-id="bbe78-150">Leave accrual for a single company or a single plan</span></span>
+- <span data-ttu-id="bbe78-151">Suspension de la régularisation des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="bbe78-151">Leave and absence accrual suspension</span></span>
+- <span data-ttu-id="bbe78-152">Code motif d’ajustement du solde et commentaire</span><span class="sxs-lookup"><span data-stu-id="bbe78-152">Balance adjustment reason code and comment</span></span>
+- <span data-ttu-id="bbe78-153">Achat et vente de congés</span><span class="sxs-lookup"><span data-stu-id="bbe78-153">Buy and sell leave</span></span>
+- <span data-ttu-id="bbe78-154">Calendrier des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="bbe78-154">Leave and absence calendar</span></span>
+- <span data-ttu-id="bbe78-155">Règles de report de congés</span><span class="sxs-lookup"><span data-stu-id="bbe78-155">Leave carry-forward rules</span></span>
+- <span data-ttu-id="bbe78-156">Audit de régularisation des congés</span><span class="sxs-lookup"><span data-stu-id="bbe78-156">Leave accrual auditing</span></span>
+- <span data-ttu-id="bbe78-157">Suppression de régularisations de congé</span><span class="sxs-lookup"><span data-stu-id="bbe78-157">Leave accrual deletion</span></span>
+- <span data-ttu-id="bbe78-158">Arrondi de la régularisation des congés</span><span class="sxs-lookup"><span data-stu-id="bbe78-158">Leave accrual rounding</span></span>
+- <span data-ttu-id="bbe78-159">Configurer plusieurs types de congés sur un seul plan de congé</span><span class="sxs-lookup"><span data-stu-id="bbe78-159">Configure multiple leave types on a single leave plan</span></span>
+- <span data-ttu-id="bbe78-160">Mettre à jour les améliorations de période de congés</span><span class="sxs-lookup"><span data-stu-id="bbe78-160">Update time-off enhancements</span></span>
+- <span data-ttu-id="bbe78-161">Utiliser l’ETP d’un employé pour les régularisations</span><span class="sxs-lookup"><span data-stu-id="bbe78-161">Use an employee's FTE for accruals</span></span>
+- <span data-ttu-id="bbe78-162">Vue Rémunération intersociétés</span><span class="sxs-lookup"><span data-stu-id="bbe78-162">Cross company compensation view</span></span>
+- <span data-ttu-id="bbe78-163">Imprimer les évaluations des performances</span><span class="sxs-lookup"><span data-stu-id="bbe78-163">Print performance reviews</span></span>
+- <span data-ttu-id="bbe78-164">Corrections des jours fériés pour la régularisation des congés</span><span class="sxs-lookup"><span data-stu-id="bbe78-164">Leave accrual holiday corrections</span></span>
+
+### <a name="benefit-plan-employee-entity"></a><span data-ttu-id="bbe78-165">Entité Régime d’avantages sociaux employés</span><span class="sxs-lookup"><span data-stu-id="bbe78-165">Benefit plan employee entity</span></span> 
+
+<span data-ttu-id="bbe78-166">Nous avons récemment découvert deux problèmes concernant l’entité **BenefitsPlanEmployee**.</span><span class="sxs-lookup"><span data-stu-id="bbe78-166">We have recently discovered two issues regarding the **BenefitsPlanEmployee** entity.</span></span> <span data-ttu-id="bbe78-167">Lors de l’importation des inscriptions de collaborateurs, le **Code de couverture** et le **Code de type de régime** sont mal définis.</span><span class="sxs-lookup"><span data-stu-id="bbe78-167">When importing worker enrollments, the **Coverage code** and the **Plan type code** are being set incorrectly.</span></span> <span data-ttu-id="bbe78-168">Ce problème entraîne l’affichage incorrect des régimes d’avantages sociaux des employés dans le formulaire **Régime d’avantages sociaux des collaborateurs** et dans le formulaire **Ouvrir l’inscription** dans le libre service des employés.</span><span class="sxs-lookup"><span data-stu-id="bbe78-168">This issue causes employee benefit plans to display incorrectly in the **Worker benefits plan** form and in the **Open enrollment** form in Employee self service.</span></span> <span data-ttu-id="bbe78-169">Ce problème peut également avoir un impact sur la capacité de l’employé à sélectionner des régimes dans le libre service des employés.</span><span class="sxs-lookup"><span data-stu-id="bbe78-169">This issue can also impact the employee's ability to select plans in Employee self service.</span></span> <span data-ttu-id="bbe78-170">Actuellement, il n’y a pas de solution.</span><span class="sxs-lookup"><span data-stu-id="bbe78-170">Currently there isn't a workaround.</span></span> <span data-ttu-id="bbe78-171">Nous traitons cela comme un correctif hautement prioritaire et déploierons celui-ci avec notre prochaine version.</span><span class="sxs-lookup"><span data-stu-id="bbe78-171">We're treating this as a high-priority fix and will roll out the fix with our next release.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="bbe78-172">Voir également :</span><span class="sxs-lookup"><span data-stu-id="bbe78-172">See also</span></span>
+
+[<span data-ttu-id="bbe78-173">Nouveautés ou modifications dans Human Resources</span><span class="sxs-lookup"><span data-stu-id="bbe78-173">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)</br>
+[<span data-ttu-id="bbe78-174">Présentation de Dynamics 365 Human Resources 2019 vague de publication 2</span><span class="sxs-lookup"><span data-stu-id="bbe78-174">Overview of Dynamics 365 Human Resources 2019 release wave 2</span></span>](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[<span data-ttu-id="bbe78-175">Processus de mise à jour</span><span class="sxs-lookup"><span data-stu-id="bbe78-175">Update process</span></span>](hr-admin-setup-update-process.md)</br>
+[<span data-ttu-id="bbe78-176">Gérer les fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="bbe78-176">Manage features</span></span>](hr-admin-manage-features.md)
