@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017481"
+ms.locfileid: "4428270"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Paramétrage des entrepôts pour les ordres de transfert 
 
@@ -33,9 +33,9 @@ Les niveaux d'entrepôt permettent de créer une hiérarchie prenant en charge l
 
 2.  Sélectionnez l'entrepôt à recharger.
 
-3.  Dans l'organisateur **Planification** , activez la case à cocher **Rechargement**.
+3.  Dans l'organisateur **Planification**, activez la case à cocher **Rechargement**.
 
-4.  Dans le champ **Entrepôt principal** , sélectionnez l'entrepôt à désigner comme entrepôt source du rechargement. Le PDP/MRP calcule une demande de transfert pour l'entrepôt sélectionné et génère un ordre de transfert prévisionnel à partir de l' **Entrepôt principal** assigné.
+4.  Dans le champ **Entrepôt principal**, sélectionnez l'entrepôt à désigner comme entrepôt source du rechargement. Le PDP/MRP calcule une demande de transfert pour l'entrepôt sélectionné et génère un ordre de transfert prévisionnel à partir de l'**Entrepôt principal** assigné.
    
     > [!NOTE]
     > <P>Si vous ne cochez pas la case <STRONG>Rechargement</STRONG>, l'entrepôt sélectionné se voit attribuer un niveau d'entrepôt lié à <STRONG>Entrepôt principal</STRONG>, mais <STRONG>Entrepôt principal</STRONG> n'est pas paramétré comme entrepôt de rechargement.</P>
@@ -50,6 +50,6 @@ Les niveaux d'entrepôt permettent de créer une hiérarchie prenant en charge l
 
 Vous devez également paramétrer le délai de transport entre les entrepôts sur la page **Jours de transport**. 
 1. Accédez à **Gestion des stocks > Paramétrage > Distribution > Jours de transport**.
-2. Dans le champ **Point de réception** , sélectionnez **Entrepôt**.
-3. Sélectionnez **Entrepôt d'expédition** , **Entrepôt de réception** et **Jours de transport**. 
+2. Dans le champ **Point de réception**, sélectionnez **Entrepôt**.
+3. Sélectionnez **Entrepôt d'expédition**, **Entrepôt de réception** et **Jours de transport**. 
 4. (En option) Vous pouvez également définir la durée de transport, en fonction du mode de livraison, sous l'onglet **Jours de transport par mode de livraison**.

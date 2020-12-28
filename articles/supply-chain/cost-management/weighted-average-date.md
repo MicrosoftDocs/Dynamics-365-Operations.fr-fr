@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982255"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427703"
 ---
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
@@ -38,7 +38,7 @@ Si une seule réception a été effectuée à cette date ou précédemment, il n
 
 La formule suivante est utilisée pour calculer la méthode d'évaluation des coûts de date moyenne pondérée : 
 
-Moyenne pondérée = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Moyenne pondérée = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Pendant la clôture du stock, le calcul est exécuté quotidiennement via la période de clôture, comme montré dans l'illustration suivante. 
 
@@ -91,7 +91,7 @@ Les transactions suivantes sont illustrées dans le graphique ci-dessous :
 -   Les règlements effectués par clôture de stock sont représentés par des flèches rouges en pointillé, en diagonale, d'une réception vers une sortie.
 
 ## <a name="weighted-average-date-summarized-settlement-when-the-include-physical-value-option-isnt-used"></a>Règlement récapitulatif à la date moyenne pondérée sans l'option Inclure la valeur physique
-La moyenne pondérée se base sur le principe que toutes les réceptions d'une période de clôture sont résumées dans une nouvelle transaction de transfert de stock. Cette transaction est nommée C*lôture de stock à moyenne pondérée*. Toutes les réceptions d'un jour sont réglées avec la sortie de la transaction de transfert de stock créée. Toutes les sorties d'un jour sont réglées avec la réception de la transaction de transfert de stock créée. Si le stock disponible est positif après la clôture de stock, ce stock disponible et la valeur du stock sont résumés sur la nouvelle transaction de transfert de stock (réception). Si le stock disponible est négatif après la clôture de stock, le stock disponible et la valeur du stock correspondent à la somme des différentes sorties qui n'ont pas été complètement réglées. 
+La moyenne pondérée se base sur le principe que toutes les réceptions d'une période de clôture sont résumées dans une nouvelle transaction de transfert de stock. Cette transaction est nommée C *lôture de stock à moyenne pondérée*. Toutes les réceptions d'un jour sont réglées avec la sortie de la transaction de transfert de stock créée. Toutes les sorties d'un jour sont réglées avec la réception de la transaction de transfert de stock créée. Si le stock disponible est positif après la clôture de stock, ce stock disponible et la valeur du stock sont résumés sur la nouvelle transaction de transfert de stock (réception). Si le stock disponible est négatif après la clôture de stock, le stock disponible et la valeur du stock correspondent à la somme des différentes sorties qui n'ont pas été complètement réglées. 
 
 Dans le scénario ci-dessous, plusieurs réceptions et sorties mises à jour financièrement ont été validées au cours de la période. Lors de la clôture du stock, le système évalue chaque jour afin de déterminer comment traiter chacun à la clôture. 
 

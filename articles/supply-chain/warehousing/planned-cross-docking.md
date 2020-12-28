@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017757"
+ms.locfileid: "4428288"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking planifié
 
@@ -89,11 +89,11 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 
     - **Revalider à la réception de l'approvisionnement :** *Non*
 
-        Cette option définit si l'approvisionnement doit être revalidé à la réception. Si cette option est définie sur *Oui* , l'intervalle de temps maximum et la plage de jours d'expiration sont cochés.
+        Cette option définit si l'approvisionnement doit être revalidé à la réception. Si cette option est définie sur *Oui*, l'intervalle de temps maximum et la plage de jours d'expiration sont cochés.
 
     - **Valider l'intervalle de temps :** *Oui*
 
-        Cette option définit si l'intervalle de temps maximum doit être évalué lorsqu'une source d'approvisionnement est sélectionnée. Si cette option est définie sur *Oui* , les champs liés aux intervalles de temps maximum et minimum deviennent disponibles.
+        Cette option définit si l'intervalle de temps maximum doit être évalué lorsqu'une source d'approvisionnement est sélectionnée. Si cette option est définie sur *Oui*, les champs liés aux intervalles de temps maximum et minimum deviennent disponibles.
 
     - **Intervalle de temps maximum :** *5*
 
@@ -109,7 +109,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 
         *Critères FEFO :* Ce champ définit le nombre maximum de jours entre la date d'expiration du traitement par lots arrivant le premier à expiration actuellement dans l'entrepôt et le traitement par lots en cours de réception.
 
-1. Dans l'organisateur **Sources d'approvisionnement** , vous spécifiez les types d'approvisionnement valides pour ce modèle. Sélectionnez **Nouveau** , puis définissez les valeurs suivantes :
+1. Dans l'organisateur **Sources d'approvisionnement**, vous spécifiez les types d'approvisionnement valides pour ce modèle. Sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
 
     - **Numéro de souche :** *1*
     - **Source d'approvisionnement :** *Commande fournisseur*
@@ -136,7 +136,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
     - **Description du modèle de travail :** *51 Cross Dock*
 
 1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Détails du modèle de travail** disponible.
-1. Dans l'organisateur **Détails du modèle de travail** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Détails du modèle de travail**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Type de travail :** *Choisir*
@@ -156,7 +156,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 
 1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
 1. Dans le volet gauche, définissez le champ **Type d'ordre de travail** sur *Cross docking*.
-1. Dans le volet Actions, sélectionnez **Nouveau** , puis définissez les valeurs suivantes :
+1. Dans le volet Actions, sélectionnez **Nouveau**, puis définissez les valeurs suivantes :
 
     - **Numéro de souche :** *1*
     - **Nom :** *51 Cross Dock Put*
@@ -165,14 +165,14 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
     - **Entrepôt :** *51*
 
 1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Lignes** disponible.
-1. Dans l'organisateur **Lignes** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Quantité de départ :** *1*
     - **Quantité d'arrivée :** *1000000*
 
 1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Actions d'instruction d'emplacement** disponible.
-1. Dans l'organisateur **Actions d'instruction d'emplacement** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Actions d'instruction d'emplacement**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Nom :** *Baydoor*
@@ -180,7 +180,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 
 1. Sélectionnez **Enregistrer** pour rendre le bouton **Modifier la requête** de la barre d'outils **Actions d'instruction d'emplacement** disponible.
 1. Sélectionnez **Modifier la requête** pour ouvrir l'éditeur de requêtes.
-1. Sous l'onglet **Plage** , assurez-vous que les deux lignes suivantes sont configurées :
+1. Sous l'onglet **Plage**, assurez-vous que les deux lignes suivantes sont configurées :
 
     - Ligne 1 :
 
@@ -203,7 +203,7 @@ Le cross-docking planifié est implémenté en tant que méthode de validation d
 1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d'appareil mobile**.
 1. Dans la liste des éléments de menu du volet gauche, sélectionnez **Rangement d'achat**.
 1. Sélectionnez **Modifier**.
-1. Dans l'organisateur **Classes de travail** , sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l'organisateur **Classes de travail**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **ID classe de travail :** *CrossDock*
@@ -219,7 +219,7 @@ Suivez les étapes ci-après pour créer une commande fournisseur comme source d
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande fournisseur** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande fournisseur**, définissez les valeurs suivantes :
 
     - **Compte fournisseur :** *104*
     - **Entrepôt :** *51*
@@ -236,7 +236,7 @@ Suivez les étapes ci-après pour créer une commande client comme source de dem
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
     - **Compte client :** *US-002*
     - **Entrepôt :** *51*
@@ -251,18 +251,18 @@ Suivez les étapes ci-après pour créer une commande client comme source de dem
 
 Suivez les étapes ci-après pour créer le cross-docking planifié à partir de la commande client.
 
-1. Dans la page **Détails de la commande client** de la commande client que vous venez de créer, dans le volet Actions, sous l'onglet **Entrepôt** , dans le groupe **Actions** , sélectionnez **Libérer dans l'entrepôt**.
+1. Dans la page **Détails de la commande client** de la commande client que vous venez de créer, dans le volet Actions, sous l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l'entrepôt**.
 
     L'action de libération dans l'entrepôt crée une ligne d'expédition et de chargement pour la ligne de commande client et tente d'allouer le stock.
     
     Vous recevez un message d'information. Vous recevez également le message d'avertissement suivant : « Aucun travail n'a été créé pour la vague XXXX. Pour plus de détails, consultez le journal historique de création de travail. » Ce comportement est attendu, car il n'y a pas de stock dans l'entrepôt.
 
-1. Dans l'organisateur **Lignes de commande client** , dans le menu **Entrepôt** , sélectionnez **Détails de l'expédition**.
+1. Dans l'organisateur **Lignes de commande client**, dans le menu **Entrepôt**, sélectionnez **Détails de l'expédition**.
 
     La page **Détails de l'expédition** apparaît et affiche l'expédition créée pour la ligne de commande client.
 
-1. Dans l'organisateur **Lignes de chargement** , notez que le champ **Quantité de cross docking planifié** est défini sur *3*. Étant donné qu'aucun stock n'était disponible dans l'entrepôt, mais une source d'approvisionnement valide arrivera dans l'intervalle de temps défini dans le modèle de cross-docking, la quantité de cross-docking a été créée.
-1. Dans l'organisateur **Lignes de chargement** , sélectionnez **Cross docking planifié** pour afficher les détails du cross-docking créé.
+1. Dans l'organisateur **Lignes de chargement**, notez que le champ **Quantité de cross docking planifié** est défini sur *3*. Étant donné qu'aucun stock n'était disponible dans l'entrepôt, mais une source d'approvisionnement valide arrivera dans l'intervalle de temps défini dans le modèle de cross-docking, la quantité de cross-docking a été créée.
+1. Dans l'organisateur **Lignes de chargement**, sélectionnez **Cross docking planifié** pour afficher les détails du cross-docking créé.
 
 ## <a name="process-the-cross-docking"></a>Traiter le cross-docking
 
@@ -276,12 +276,12 @@ Le deuxième ID de travail créé a une valeur **Type d'ordre de travail** de *C
 
 1. Connectez-vous à l'appareil mobile en tant qu'utilisateur dans l'entrepôt *51*.
 1. Allez à **Entrant \> Réception d'achat**.
-1. Dans le champ **PONum** , entrez votre numéro de commande fournisseur.
-1. Dans le champ **Qté** , entrez *5*.
+1. Dans le champ **PONum**, entrez votre numéro de commande fournisseur.
+1. Dans le champ **Qté**, entrez *5*.
 1. Cliquez sur **OK**.
 1. Dans la page suivante, définissez le champ **Article** sur *A0001*.
 1. Cliquez sur **OK**.
-1. Dans la page suivante, confirmez les valeurs **PONum** , **Article** et **Qté** en cliquant sur **OK**.
+1. Dans la page suivante, confirmez les valeurs **PONum**, **Article** et **Qté** en cliquant sur **OK**.
 
     Vous recevez un message « Travail terminé ».
 
@@ -292,14 +292,14 @@ Le deuxième ID de travail créé a une valeur **Type d'ordre de travail** de *C
 Actuellement, les deux ID de travail ont le même contenant cible. Pour effectuer les étapes suivantes, vous devez obtenir l'ID de travail et l'ID de contenant cible. Vous pouvez obtenir ces informations à partir des détails du travail de la ligne de commande fournisseur et de la ligne de commande client. Vous pouvez également aller dans **Gestion des entrepôts \> Travail \> Détails du travail** et filtrer le travail où la valeur **Entrepôt** est *51*.
 
 1. Sur l'appareil mobile, accédez à **Entrant \> Rangement d'achat** et entrez le contenant cible à partir du travail.
-1. Dans le champ **ID** , entrez l'ID de contenant cible à partir des détails du travail.
+1. Dans le champ **ID**, entrez l'ID de contenant cible à partir des détails du travail.
 
-    La page de prélèvement du cross-docking indique l'emplacement de prélèvement ( *RECV* ), le contenant cible ( *contenant* ), l'article ( *A0001* ) et la quantité ( *3* ).
+    La page de prélèvement du cross-docking indique l'emplacement de prélèvement (*RECV*), le contenant cible (*contenant*), l'article (*A0001*) et la quantité (*3*).
 
 1. Cliquez sur **OK**.
-1. Dans le champ **Contenant cible** , entrez un contenant cible pour l'ID de contenant qui doit être placé (faire l'objet d'un cross-docking) dans l'emplacement d'expédition. Vous pouvez sélectionner n'importe quel ID de contenant de votre choix.
+1. Dans le champ **Contenant cible**, entrez un contenant cible pour l'ID de contenant qui doit être placé (faire l'objet d'un cross-docking) dans l'emplacement d'expédition. Vous pouvez sélectionner n'importe quel ID de contenant de votre choix.
 1. Cliquez sur **OK**.
-1. Dans la page suivante, dans le champ **ID** , entrez l'ID de contenant cible.
+1. Dans la page suivante, dans le champ **ID**, entrez l'ID de contenant cible.
 1. Cliquez sur **OK**.
 1. Confirmez le travail de prélèvement de la quantité restante de 2, puis cliquez sur **OK**.
 1. Dans la page suivante, sélectionnez **Terminé** pour terminer le processus de prélèvement et commencer le processus de rangement.

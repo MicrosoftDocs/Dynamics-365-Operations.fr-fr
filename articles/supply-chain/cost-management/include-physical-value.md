@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201730"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427867"
 ---
 # <a name="include-physical-value"></a>Inclure la valeur physique
 
@@ -45,7 +45,7 @@ La case à cocher produit des résultats légèrement différents en fonction du
 -   Si vous n'activez pas la case à cocher **Inclure la valeur physique** lorsque vous utilisez ces modèles de stock, la clôture de stock engendre des règlements uniquement pour les transactions mises à jour financièrement.
 -   Lorsque vous utilisez les modèles de stock de moyenne pondérée ou de date moyenne pondérée, la clôture de stock règle uniquement les transactions mises à jour financièrement, à moins que vous n'activiez la case à cocher **Inclure la valeur physique**.
 
-**Exemple 1** Vous avez activé la case à cocher**Inclure la valeur physique** et vous recevez les commandes fournisseur suivantes :
+**Exemple 1** Vous avez activé la case à cocher **Inclure la valeur physique** et vous recevez les commandes fournisseur suivantes :
 
 -   Une commande fournisseur comportant 2 articles à un prix de revient de 10,00 EUR qui a été mise à jour par bon de livraison.
 -   Une commande fournisseur comportant 3 articles à un prix de revient de 12,00 EUR qui a été mise à jour par une facture.

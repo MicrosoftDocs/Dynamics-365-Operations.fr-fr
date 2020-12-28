@@ -18,23 +18,23 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016583"
+ms.locfileid: "4428235"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilité des exceptions de matières
 
 [!include [banner](../includes/banner.md)]
 
-Dans l'espace de travail **Gestion de l'atelier de production** , trois vignettes vous donnent une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes :
+Dans l'espace de travail **Gestion de l'atelier de production**, trois vignettes vous donnent une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes :
 
 - Lignes de matières non libérées nécessitant une attention
 - Vagues non traitées nécessitant une attention
 - Travail d'entrepôt en cours nécessitant une attention
 
-Pour les trois vignettes, la date de consommation des matières premières des lignes de nomenclature et de formule est comparée à la date de l'espace de travail, ainsi qu'aux filtres pour **Unité de production** , **Groupe de ressources** et **Ressource** qui sont définis dans le menu **Configurer mon espace de travail**. Par défaut, la date de l'espace de travail est définie sur la date en cours, mais vous pouvez la modifier.
+Pour les trois vignettes, la date de consommation des matières premières des lignes de nomenclature et de formule est comparée à la date de l'espace de travail, ainsi qu'aux filtres pour **Unité de production**, **Groupe de ressources** et **Ressource** qui sont définis dans le menu **Configurer mon espace de travail**. Par défaut, la date de l'espace de travail est définie sur la date en cours, mais vous pouvez la modifier.
 
 Une ligne de nomenclature ou de formule non lancée nécessite une attention particulière si la date de consommation des matières premières de la ligne est identique ou antérieure à la date de l'espace de travail, et si elle répond aux critères définis par les filtres de l'espace de travail.
 
@@ -60,10 +60,10 @@ Lorsque vous sélectionnez la vignette, la page **Libérer dans l'entrepôt** es
 
 Lorsqu'une ligne de nomenclature ou de formule est lancée, elle est ajoutée à une nouvelle vague de production ou à une vague en cours existante, en fonction de la configuration du modèle de vague de production. À l'aide de la configuration du modèle de vague, vous pouvez également paramétrer une vague afin qu'elle soit automatiquement traitée lorsqu'une ligne de nomenclature ou de formule est lancée. Lorsque la vague est traitée, le travail d'entrepôt pour le prélèvement des matières premières est généré. Si le modèle de vague est configuré de manière à ce que les vagues ne soient pas traités au moment du lancement, le vague reste dans un état non traité. La vignette **Vagues non traitées nécessitant une attention** affiche le nombre de lignes de nomenclature et de formule qui ont été lancées dans l'entrepôt pour les vagues non traitées et dont la date de consommation des matières premières est antérieure ou identique à la date de l'espace de travail. Les lignes doivent également être consommées par une ressource opérationnelle qui s'applique au filtre de l'espace de travail.
 
-Lorsque la vignette est sélectionnée, la page **Toutes les vagues de production** est ouverte. Cette page est filtrée en fonction du nombre de vagues en cours contenant des lignes de vague à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Toutes les vagues de production** , vous pouvez traiter manuellement la vague.
+Lorsque la vignette est sélectionnée, la page **Toutes les vagues de production** est ouverte. Cette page est filtrée en fonction du nombre de vagues en cours contenant des lignes de vague à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Toutes les vagues de production**, vous pouvez traiter manuellement la vague.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Travail d'entrepôt en cours nécessitant une attention
 
 La vignette **Travail d'entrepôt en cours nécessitant une attention** affiche le nombre de lignes de nomenclature et de formule qui ont été lancées dans l'entrepôt, dont le travail n'est pas traité et dont la date de consommation des matières premières est antérieure ou identique à la date de l'espace de travail. Les lignes doivent également être consommées par une ressource opérationnelle qui s'applique au filtre de l'espace de travail.
 
-Lorsque la vignette est sélectionnée, la page **Tout le travail** est ouverte. Cette page est filtrée en fonction du nombre d'en-têtes de travail en cours contenant des lignes de travail à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Tout le travail** , vous pouvez traiter manuellement le travail.
+Lorsque la vignette est sélectionnée, la page **Tout le travail** est ouverte. Cette page est filtrée en fonction du nombre d'en-têtes de travail en cours contenant des lignes de travail à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Tout le travail**, vous pouvez traiter manuellement le travail.

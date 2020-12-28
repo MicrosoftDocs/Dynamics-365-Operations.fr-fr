@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207946"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428057"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
 
@@ -72,8 +72,8 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l'application mobile
-Télécharger et installer l'application mobile Finance and Operations :
+## <a name="download-and-install-the-mobile-app"></a>Télécharger et installer l’application mobile
+Télécharger et installer l’application mobile Finance and Operations :
 
 - [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -83,8 +83,8 @@ Télécharger et installer l'application mobile Finance and Operations :
 
 1. Démarrez l'application sur votre appareil mobile.
 2. Saisissez votre URL Microsoft Dynamics 365.
-3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
-4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s'affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
+3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d’identification.
+4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
 ![Espace de travail Approbation des commandes fournisseur dans la liste des espaces de travail disponibles](./media/po-workspaces.png)
 

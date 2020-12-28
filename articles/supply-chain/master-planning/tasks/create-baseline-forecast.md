@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a1d8fd665ec40efede0a3db8b0c59ac89751a64
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987188"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4428328"
 ---
 # <a name="create-a-baseline-forecast"></a>Créer une prévision de base
 
@@ -43,7 +43,7 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
 7. Fermez la page.
 8. Fermez la page.
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>Définir des paramètres de prévision de la demande 
+## <a name="set-up-the-demand-forecasting-parameters"></a>Définir des paramètres de prévision de la demande
 1. Accédez à Planification > Paramétrage> Prévision de la demande > Paramètres de prévision de la demande.
 2. Développez la section Paramètres de l'algorithme de prévision.
 3. Dans le champ Stratégie de génération de la prévision, sélectionnez Copier sur la demande historique.

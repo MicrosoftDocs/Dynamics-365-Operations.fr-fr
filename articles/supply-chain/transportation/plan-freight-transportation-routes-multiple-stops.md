@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017849"
+ms.locfileid: "4428283"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planifier des itinéraires de transport de fret avec plusieurs arrêts
 
@@ -43,7 +43,7 @@ Un plan de route contient des segments de route qui fournissent des informations
 Chaque plan de route doit être associé à un guide de route.
 
 ## <a name="route-guides"></a>Guides des routes
-Un guide de route définit les critères de correspondance d’une charge avec un plan de route spécifique. Par exemple, vous pouvez spécifier un point de transbordement d’origine et un point de transbordement de destination, les limites pour le volume ou le poids du conteneur, et un transporteur, un service ou un groupe de transport. Les guides de route sont disponibles sur la page **Atelier des routes et frais** , où les charges peuvent être associés aux routes manuellement ou automatiquement. Si le guide de route est pour une route planifiée, il est également disponible sur la page **Atelier de création de chargement**.
+Un guide de route définit les critères de correspondance d’une charge avec un plan de route spécifique. Par exemple, vous pouvez spécifier un point de transbordement d’origine et un point de transbordement de destination, les limites pour le volume ou le poids du conteneur, et un transporteur, un service ou un groupe de transport. Les guides de route sont disponibles sur la page **Atelier des routes et frais**, où les charges peuvent être associés aux routes manuellement ou automatiquement. Si le guide de route est pour une route planifiée, il est également disponible sur la page **Atelier de création de chargement**.
 
 ## <a name="scheduled-routes"></a>Routes prévues
 Une route planifiée est un plan de route prédéfini qui a une planification pour les dates de livraison. Les routes planifiées et non planifiées diffèrent selon la manière dont les charges sont affectées. Si vous affectez une route non planifiées à l’aide de l’Atelier des routes et frais, seuls la charge et le guide de la route sont validés. Si vous affectez une route planifiée, les dates et les adresses à partir des commandes et des points de transbordement, et la date et le plan de route sont également pris en compte. Vous n’êtes pas obligé d'utiliser la page Atelier des routes et frais pour affecter manuellement des charges à une route planifiée. Au lieu de cela, vous pouvez utiliser l’Atelier de création de chargement pour suggérer que des charges soient créées en fonction des adresses client et des dates de livraison des commandes client pour une route planifiée donnée. Pour les routes planifiées, le plan de route doit avoir des points de transbordement d’origine et de destination. En règle générale, le transporteur et le service de transport sont les mêmes pour tous les segments, mais ils peuvent varier. Les points de transbordement de destination sont créés en utilisant les codes postaux des clients qui sont visités sur la route. Plusieurs planifications de route peuvent être définies pour un plan de route. Le plan de route doit être associé à un guide de route. Toutefois, pour les routes planifiées, le plan peut être associé à un seul guide de route. La planification de route est utilisée uniquement pour créer les routes réelles sur la page **Programme de route**. Vous pouvez utiliser le modèle de charge par défaut lorsque vous proposez des charges dans l’Atelier de création de chargement.

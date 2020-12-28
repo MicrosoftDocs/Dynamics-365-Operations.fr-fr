@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: c0637609a34890360a3b81355a8d21ef1b9faf8c
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888927"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427837"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Définir les agents de maintenance préférés
 
@@ -66,5 +66,5 @@ Plus vous faites de sélections pour le même enregistrement, plus votre paramé
 
 Vous pouvez également paramétrer les agents de maintenance *responsables* à sélectionner lorsqu'une demande de maintenance ou un ordre de travail est créé. Vous pouvez modifier la sélection dans **Tous les ordres de travail** et **Toutes les demandes de maintenance**, le cas échéant. Pour plus d'informations, consultez [Agents de maintenance responsables](../setup-for-maintenance-requests/responsible-workers.md).
 
-Lors de la planification des ordres de travail, différents scores sont calculés pour déterminer quels agents doivent effectuer les tâches associées à un ordre de travail (ces scores sont paramétrés dans le lien**Paramètres de la gestion des actifs** **Planification des ordres de travail** > ). Si au moins deux agents de maintenance préférés ou responsables obtiennent le même score lors de la planification des ordres de travail, un agent est sélectionné de manière aléatoire. Sinon, il s'agit toujours de l'agent ayant le score le plus élevé qui est affecté pour exécuter un ordre de travail.
+Lors de la planification des ordres de travail, différents scores sont calculés pour déterminer quels agents doivent effectuer les tâches associées à un ordre de travail (ces scores sont paramétrés dans le lien **Paramètres de la gestion des actifs** **Planification des ordres de travail** > ). Si au moins deux agents de maintenance préférés ou responsables obtiennent le même score lors de la planification des ordres de travail, un agent est sélectionné de manière aléatoire. Sinon, il s'agit toujours de l'agent ayant le score le plus élevé qui est affecté pour exécuter un ordre de travail.
 

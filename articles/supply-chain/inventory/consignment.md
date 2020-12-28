@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018374"
+ms.locfileid: "4428241"
 ---
 # <a name="set-up-consignment"></a>Définir une consignation
 
@@ -40,7 +40,7 @@ Dans cet exemple de scénario, la société USMF a un accord de consignation ave
 2.  Le fournisseur est informé de la livraison prévue. Cela peut se produire de l'une des trois manières suivantes :
     -   Une personne qui travaille chez USMF envoie des informations sur la commande au fournisseur.
     -   Le fournisseur peut contrôler le stock disponible prévu à l'aide de l'interface de collaboration fournisseur.
-    -   Une personne qui travaille chez USMF filtre les données sur la page **Stock disponible** pour afficher uniquement les enregistrements du fournisseur US-104, lorsque le statut de réception est **Commandé** , et envoie ensuite ces informations au fournisseur.
+    -   Une personne qui travaille chez USMF filtre les données sur la page **Stock disponible** pour afficher uniquement les enregistrements du fournisseur US-104, lorsque le statut de réception est **Commandé**, et envoie ensuite ces informations au fournisseur.
 3.  Le stock est livré de US-104 à USMF.
 4.  Lorsque le matériel arrive chez USMF, la commande de réapprovisionnement avec consignation est mise à jour avec un accusé de réception de marchandises. Seuls les quantités physiques du stock appartenant au fournisseur sont enregistrées. Aucune transaction comptable n'est créée, car le stock appartient encore au fournisseur.
 5.  Le fournisseur supervise les mises à jour du stock physique disponible sur la page **Stock de consignation disponible**.
@@ -82,7 +82,7 @@ L'interface de collaboration fournisseur comporte trois pages associées au proc
 -   **Stock de consignation disponible** - Affiche des informations sur les articles avec consignation qu'ils prévoient de fournir, et les articles qui sont déjà physiquement disponibles sur le site du client.
 
 ## <a name="inventory-owners"></a>Propriétaires du stock
-Pour enregistrer le stock de consignation entrant physique, vous devez définir un propriétaire fournisseur. Cette opération s'effectue sur la page **Propriétaire du stock**. Lorsque vous sélectionnez un **Compte fournisseur** , cette option génère des valeurs par défaut pour les champs **Nom** et **Propriétaire**. La valeur du champ **Propriétaire** est visible du fournisseur, vous pouvez le modifier si vos noms de comptes fournisseur ne sont pas faciles à reconnaître pour les personnes extérieures. Il est possible de modifier le champ **Propriétaire** , mais uniquement jusqu'à ce que vous enregistriez l'enregistrement **Propriétaire du stock**. Le champ **Nom** est rempli avec le nom du tiers auquel le compte fournisseur est associé, et il ne peut pas être modifié.
+Pour enregistrer le stock de consignation entrant physique, vous devez définir un propriétaire fournisseur. Cette opération s'effectue sur la page **Propriétaire du stock**. Lorsque vous sélectionnez un **Compte fournisseur**, cette option génère des valeurs par défaut pour les champs **Nom** et **Propriétaire**. La valeur du champ **Propriétaire** est visible du fournisseur, vous pouvez le modifier si vos noms de comptes fournisseur ne sont pas faciles à reconnaître pour les personnes extérieures. Il est possible de modifier le champ **Propriétaire**, mais uniquement jusqu'à ce que vous enregistriez l'enregistrement **Propriétaire du stock**. Le champ **Nom** est rempli avec le nom du tiers auquel le compte fournisseur est associé, et il ne peut pas être modifié.
 
 [![propriétaires du stock](./media/inventory-owners.png)](./media/inventory-owners.png)
 

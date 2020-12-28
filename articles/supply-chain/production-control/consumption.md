@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211630"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427955"
 ---
 # <a name="calculate-material-consumption"></a>Calculer la consommation de matières
 
@@ -63,7 +63,7 @@ On suppose que 0,5 mètre de tube est mis au rebut pour chaque lot de 5 pièces 
 
 ### <a name="consumption"></a>Consommation
 
-En général, vous sélectionnez**Consommation** comme mécanisme d'arrondi lorsque la matière première doit être prélevée selon des quantités d'une unité de manutention spécifique du produit. Par exemple, 2 litres de peinture sont utilisés pour produire une pièce de produit fini, et la peinture est prélevée par boîtes de 25 l. Dans ce cas, le mécanisme d'arrondi **Consommation** peut être utilisé pour arrondir la consommation de la totalité des boîtes de 25 l. Voici le calcul de la quantité de peinture requise si 180 pièces de produits finis doivent être fabriquées :
+En général, vous sélectionnez **Consommation** comme mécanisme d'arrondi lorsque la matière première doit être prélevée selon des quantités d'une unité de manutention spécifique du produit. Par exemple, 2 litres de peinture sont utilisés pour produire une pièce de produit fini, et la peinture est prélevée par boîtes de 25 l. Dans ce cas, le mécanisme d'arrondi **Consommation** peut être utilisé pour arrondir la consommation de la totalité des boîtes de 25 l. Voici le calcul de la quantité de peinture requise si 180 pièces de produits finis doivent être fabriquées :
 
 1.  Peinture requise, hormis mise au rebut : 180 × 2 = 360 litres
 2.  Nombre de boîtes : 360 ÷ 25 = 14,4, qui est arrondi à 15

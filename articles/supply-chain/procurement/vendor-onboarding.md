@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018650"
+ms.locfileid: "4428289"
 ---
 # <a name="onboard-vendors"></a>Intégrer des fournisseurs
 
@@ -103,8 +103,8 @@ Pour plus d'informations sur la configuration de la demande fournisseur, voir [P
 | Informations fournisseur         | Cette page contient le nom du fournisseur, qui est automatiquement saisi à partir de la demande initiale d'enregistrement du fournisseur potentiel. Elle contient également le numéro de l'organisation, le numéro de téléphone du fournisseur, le numéro de télécopie, l'adresse e-mail et les adresses du fournisseur à différentes fins. |
 | Informations sur la personne à contacter | Cette page contient le nom de la personne à contacter, qui est automatiquement saisi à partir de la demande initiale d'enregistrement du fournisseur potentiel. Elle contient également le numéro de téléphone et l'adresse e-mail de la personne à contacter, ainsi que les adresses de la personne à contacter à différentes fins. |
 | Informations professionnelles       | Cette page contient les numéros d'identification fiscale (pour différents pays ou régions) et les numéros des employés. Elle indique également si l'entreprise appartient à une minorité. |
-| Catégories d'approvisionnement     | Cette page contient les catégories d'approvisionnement pour lesquelles le fournisseur demande une approbation. L'utilisateur peut sélectionner des catégories dans la hiérarchie des catégories d'approvisionnement. Vous pouvez configurer le nombre de niveaux affichés dans la hiérarchie en accédant à &gt; **Paramètres d'approvisionnement** **Collaboration du fournisseur** , sous &gt; **Approvisionnements** **Paramétrage**. |
-| Questionnaires             | L'assistant peut inclure un série de questionnaires pour le fournisseur. Les questionnaires qui s'affichent dans l'assistant sont configurés dans la demande fournisseur ou par catégorie d'approvisionnement. Si les questionnaires sont configurés par catégorie d'approvisionnement, les catégories d'approvisionnement pour lesquelles l'utilisateur demande une approbation déterminent les questionnaires qui apparaissent dans l'assistant. Sur la page **Catégories d'approvisionnement** , vous pouvez ajouter un questionnaire sous la catégorie appropriée et définir le type d'activité sur **Intégration du fournisseur**. |
+| Catégories d'approvisionnement     | Cette page contient les catégories d'approvisionnement pour lesquelles le fournisseur demande une approbation. L'utilisateur peut sélectionner des catégories dans la hiérarchie des catégories d'approvisionnement. Vous pouvez configurer le nombre de niveaux affichés dans la hiérarchie en accédant à &gt; **Paramètres d'approvisionnement** **Collaboration du fournisseur**, sous &gt; **Approvisionnements** **Paramétrage**. |
+| Questionnaires             | L'assistant peut inclure un série de questionnaires pour le fournisseur. Les questionnaires qui s'affichent dans l'assistant sont configurés dans la demande fournisseur ou par catégorie d'approvisionnement. Si les questionnaires sont configurés par catégorie d'approvisionnement, les catégories d'approvisionnement pour lesquelles l'utilisateur demande une approbation déterminent les questionnaires qui apparaissent dans l'assistant. Sur la page **Catégories d'approvisionnement**, vous pouvez ajouter un questionnaire sous la catégorie appropriée et définir le type d'activité sur **Intégration du fournisseur**. |
 
 Lorsque l'utilisateur fournisseur potentiel exécute l'assistant d'enregistrement du fournisseur, une demande fournisseur est créée.
 
@@ -112,7 +112,7 @@ Lorsque l'utilisateur fournisseur potentiel exécute l'assistant d'enregistremen
 
 Une demande fournisseur peut être créée comme brouillon et être envoyée manuellement à un workflow. La demande fournisseur peut également être automatiquement envoyée à un workflow lorsque l'assistant d'enregistrement du fournisseur est exécuté. Une demande peut être envoyée manuellement si, par exemple, un professionnel de l'approvisionnement souhaite évaluer si la demande doit être acheminée via un processus d'approbation avant d'être envoyée au workflow.
 
-- Sélectionnez **Paramètres d'approvisionnement** &gt; **Collaboration du fournisseur** , puis sélectionnez **Envoyer automatiquement l'enregistrement du fournisseur potentiel au workflow** pour configurer la demande fournisseur afin qu'elle soit envoyée automatiquement à un workflow lorsque l'assistant d'enregistrement du fournisseur est exécuté.
+- Sélectionnez **Paramètres d'approvisionnement** &gt; **Collaboration du fournisseur**, puis sélectionnez **Envoyer automatiquement l'enregistrement du fournisseur potentiel au workflow** pour configurer la demande fournisseur afin qu'elle soit envoyée automatiquement à un workflow lorsque l'assistant d'enregistrement du fournisseur est exécuté.
 
 ## <a name="vendor-requests"></a>Demandes fournisseur
 
@@ -140,11 +140,11 @@ Le tableau suivant indique les statuts des demandes fournisseur.
 
 Lorsqu'une demande fournisseur est approuvée, un compte fournisseur est créé et le statut **Approuvé** s'affiche dans la demande initiale d'enregistrement du fournisseur potentiel et dans la demande fournisseur.
 
-Avant d'approuver une demande fournisseur, sur la page **Nouveau fournisseur** , sous l'organisateur **Général** , sélectionnez **Groupe de fournisseurs** pour sélectionner un groupe de fournisseurs.
+Avant d'approuver une demande fournisseur, sur la page **Nouveau fournisseur**, sous l'organisateur **Général**, sélectionnez **Groupe de fournisseurs** pour sélectionner un groupe de fournisseurs.
 
 Si l'utilisateur fournisseur potentiel doit avoir accès à Supply Chain Management en tant qu'utilisateur de collaboration fournisseur qui représente le fournisseur, définissez l'autorisation d'accès à la collaboration fournisseur sur **Oui**. Pour désactiver le compte d'utilisateur utilisé par le fournisseur potentiel pour s'enregistrer, définissez cette autorisation sur **Non**.
 
-Si l'autorisation d'accès à la collaboration fournisseur est définie sur **Oui** , lorsque la demande fournisseur est approuvée, une demande est envoyée pour modifier les rôles de l'utilisateur afin qu'il dispose des rôles définis pour le type **Fournisseur** dans **Rôles externes**. Si cette autorisation est définie sur **Non** , lorsque la demande fournisseur est approuvée, une demande est envoyée pour désactiver l'utilisateur. Dans ce cas, le workflow permettant de désactiver une demande de l'utilisateur doit être paramétré.
+Si l'autorisation d'accès à la collaboration fournisseur est définie sur **Oui**, lorsque la demande fournisseur est approuvée, une demande est envoyée pour modifier les rôles de l'utilisateur afin qu'il dispose des rôles définis pour le type **Fournisseur** dans **Rôles externes**. Si cette autorisation est définie sur **Non**, lorsque la demande fournisseur est approuvée, une demande est envoyée pour désactiver l'utilisateur. Dans ce cas, le workflow permettant de désactiver une demande de l'utilisateur doit être paramétré.
 
 Pour créer un compte fournisseur lorsque la demande fournisseur est approuvée, la séquence de numéros permettant de créer des fournisseurs à partir des demandes fournisseur doit être définie sur **Automatique**.
 

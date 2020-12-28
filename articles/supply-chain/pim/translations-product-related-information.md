@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427735"
 ---
 # <a name="product-related-translations-faq"></a>FAQ sur les traductions relatives au produit
 
@@ -78,7 +78,7 @@ Votre produit est un T-shirt qui existe en différentes tailles et couleurs, et 
 -   Valeurs de dimension de taille : S, M et L
 -   Valeurs de dimension de couleur : Rouge, Vert, Noir
 
-Le nom d'une variante de produit basée sur les valeurs de dimension Small et Red est**\#3:Small:Red**.  
+Le nom d'une variante de produit basée sur les valeurs de dimension Small et Red est **\#3:Small:Red**.  
 
 Un client souhaite acheter des T-shirts en taille S et rouges, et le nom du T-shirt doit apparaître en français sur la facture. Vous traduisez en français les valeurs de dimension, Small et Red, et le nom de la variante de produit est **\#3:Petit:Rouge**.
 <table>

@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017022"
+ms.locfileid: "4428277"
 ---
 # <a name="system-directed-work-sequencing"></a>Classement des travaux dirigés par le système
 
@@ -60,7 +60,7 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
 1. Dans la liste des éléments de menu d’appareil mobile, sélectionnez **Prélèvement des ventes - Système**. L’élément de menu requis doit déjà exister. 
 1. Confirmez les paramètres suivants :
 
-    - Sur l’organisateur **Général** , le champ **Dirigé par** doit être défini sur *Dirigé par le système*.
+    - Sur l’organisateur **Général**, le champ **Dirigé par** doit être défini sur *Dirigé par le système*.
     - L’organisateur **Classes de travail** doit afficher les paramètres suivants.
 
         | ID classe de travail | Type d’ordre d’exécution |
@@ -79,7 +79,7 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
 
 1. Sélectionnez **Enregistrer**.
 1. Dans le volet Actions, sélectionnez **Modifier une requête**.
-1. Sur l’onglet **Jointures** , développez la hiérarchie de la jointure pour afficher la table **Lignes de travail**.
+1. Sur l’onglet **Jointures**, développez la hiérarchie de la jointure pour afficher la table **Lignes de travail**.
 1. Sélectionnez la jointure de table **Lignes de travail**.
 1. Sélectionnez **Ajouter une jointure de table**.
 1. Dans la liste qui apparaît, recherchez et sélectionnez la ligne contenant les paramètres suivants :
@@ -91,7 +91,7 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
 
     Les emplacements sont ajoutés à la jointure de table.
 
-1. Sous l’onglet **Tri** , sélectionnez **Ajouter** pour ajouter une ligne.
+1. Sous l’onglet **Tri**, sélectionnez **Ajouter** pour ajouter une ligne.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Lignes de travail*
@@ -130,7 +130,7 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
     - **Critères :** *!PHASE*
 
         > [!IMPORTANT]
-        > Assurez-vous d’inclure le point d’exclamation ( *!* ) devant *PHASE*.
+        > Assurez-vous d’inclure le point d’exclamation (*!*) devant *PHASE*.
 
 1. Sélectionnez **OK** pour enregistrer et fermer la requête.
 1. Sélectionnez **Enregistrer**.
@@ -146,9 +146,9 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
 Si vous utilisez les données Contoso par défaut, la requête pour l’action de directive d’emplacement ne nécessitera pas de modifications. Toutefois, pour vous assurer que les directives d’emplacement captureront les articles des commandes client lorsque vous appliquez la fonctionnalité dans un environnement non Contoso, créez une directive d’emplacement. Pour vérifier les paramètres dans l’environnement de démonstration, procédez comme suit.
 
 1. Allez dans **Gestion des entrepôts** \> **Configuration** \> **Instructions d’emplacements**.
-1. Dans le champ **Type d’ordre de travail** , sélectionnez *Commandes client*.
+1. Dans le champ **Type d’ordre de travail**, sélectionnez *Commandes client*.
 1. Sélectionnez la directive d’emplacement nommée *51 Prélever*.
-1. Sur l’organisateur **Actions de la directive d’emplacement** , sélectionnez la ligne de l’action **Prélever**.
+1. Sur l’organisateur **Actions de la directive d’emplacement**, sélectionnez la ligne de l’action **Prélever**.
 1. Sélectionnez **Modifier la requête** au-dessus de la grille.
 1. Vérifiez la requête **Plage**.
 
@@ -169,10 +169,10 @@ Vous libérerez ensuite chaque commande client dans l’entrepôt pour créer le
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer la commande client 1.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
-    - Dans la section **Client** , définissez le champ **Compte client** sur *US-004*.
-    - Dans la section **Général** , définissez le champ **Entrepôt** sur *51*.
+    - Dans la section **Client**, définissez le champ **Compte client** sur *US-004*.
+    - Dans la section **Général**, définissez le champ **Entrepôt** sur *51*.
 
 1. Sélectionnez **OK** pour fermer la boîte de dialogue. Prenez note du numéro de la commande client.
 1. Ajoutez une ligne à la nouvelle commande client et définissez les valeurs suivantes :
@@ -181,16 +181,16 @@ Vous libérerez ensuite chaque commande client dans l’entrepôt pour créer le
     - **Quantité :** *20*
 
 1. Dans le menu **Stock** au-dessus de la grille, sélectionnez **Réservation**.
-1. Sur la page **Réservation** , sélectionnez **Réserver un lot** pour réserver le stock.
+1. Sur la page **Réservation**, sélectionnez **Réserver un lot** pour réserver le stock.
 1. Fermez la page **Réservation**.
-1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt** pour créer un travail pour l’entrepôt.
+1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt** pour créer un travail pour l’entrepôt.
 
     Vous recevez des messages d’information indiquant l’ID de vague, et les ID d’expédition créés pour la commande client.
 
 #### <a name="sales-order-2"></a>Commande client 2
 
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer la commande client 2.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
     - **Compte client :** *US-007*
     - **Entrepôt :** *51*
@@ -212,7 +212,7 @@ Vous libérerez ensuite chaque commande client dans l’entrepôt pour créer le
 #### <a name="sales-order-3"></a>Commande client 3
 
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer la commande client 3.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
     - **Compte client :** *US-009*
     - **Entrepôt :** *51*
@@ -234,7 +234,7 @@ Vous libérerez ensuite chaque commande client dans l’entrepôt pour créer le
 #### <a name="sales-order-4"></a>Commande client 4
 
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer la commande client 4.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
     - **Compte client :** *US-010*
     - **Entrepôt :** *51*
@@ -269,7 +269,7 @@ Vous libérerez ensuite chaque commande client dans l’entrepôt pour créer le
 Avant d’exécuter le flux sur l’appareil mobile, assurez-vous que seul le travail que vous venez de créer a le statut *Ouvert* pour l’entrepôt *51* et le type d’ordre de travail *Commande client*. Sinon, les résultats du test peuvent varier, car le prélèvement dirigé par le système comprendra tous les travaux éligibles.
 
 1. Allez à **Gestion des entrepôts \> Travail \> Sortant \> Travaux sortants ouverts**.
-1. Dans la grille **Travaux de vente ouverts** , filtrez le champ **Entrepôt** de sorte que seul le travail de l’entrepôt *51* soit affiché.
+1. Dans la grille **Travaux de vente ouverts**, filtrez le champ **Entrepôt** de sorte que seul le travail de l’entrepôt *51* soit affiché.
 1. Confirmez que seuls les quatre ID de travaux créés précédemment sont affichés.
 1. Fermez la page **Travail**.
 
@@ -300,7 +300,7 @@ N’oubliez pas que cette configuration capturera tout travail comportant au moi
 
 ## <a name="tips"></a>Conseils
 
-Les requêtes de classement des travaux dirigés par le système sont *inclusives*. Il est important que vous vous souveniez de ce fait pour certaines configurations. Par exemple, vous souhaitez qu’un élément de menu spécifique traite uniquement le travail dans lequel l’unité de travail est *unité* et vous spécifiez cette restriction sur l’onglet **Plage** de la requête. Dans ce cas, tous les travaux où au moins une ligne de travail a l’unité de travail définie sur *unité* seront fournis au collaborateur. Par conséquent, ce travail peut également inclure le travail dans lequel les lignes de travail ont une unité de travail autre que *unité* (telle que *boîte* ou *palette* ). La requête exclura uniquement le travail où aucune ligne de travail n’a l’unité de travail définie sur *unité*.
+Les requêtes de classement des travaux dirigés par le système sont *inclusives*. Il est important que vous vous souveniez de ce fait pour certaines configurations. Par exemple, vous souhaitez qu’un élément de menu spécifique traite uniquement le travail dans lequel l’unité de travail est *unité* et vous spécifiez cette restriction sur l’onglet **Plage** de la requête. Dans ce cas, tous les travaux où au moins une ligne de travail a l’unité de travail définie sur *unité* seront fournis au collaborateur. Par conséquent, ce travail peut également inclure le travail dans lequel les lignes de travail ont une unité de travail autre que *unité* (telle que *boîte* ou *palette*). La requête exclura uniquement le travail où aucune ligne de travail n’a l’unité de travail définie sur *unité*.
 
 Par conséquent, dans l’exemple de ce scénario, l’ID de travail *4* a également été capturé par la requête. Lors de sa création, deux lignes ont été ajoutées : une pour 25 unités et une autre pour 10 unités. Le travail était toujours présenté à l’utilisateur, car au moins une ligne de travail a une quantité inférieure à 20 unités.
 

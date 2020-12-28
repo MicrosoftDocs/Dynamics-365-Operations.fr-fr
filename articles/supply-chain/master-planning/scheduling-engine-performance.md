@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015065"
+ms.locfileid: "4428201"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Améliorer les performances du moteur de planification
 
@@ -180,7 +180,7 @@ Le solveur de contraintes n'est pas sensible aux spécificités de l'algorithme 
 
 Une grande partie des contraintes (internes) du moteur contrôle le temps de travail et la capacité d'une ressource. Pour l'essentiel, la tâche consiste à parcourir les créneaux horaires d'une ressource à partir d'un point donné, dans une direction donnée, et de trouver un intervalle suffisamment long pour y faire entrer la capacité (temps) requise pour les tâches.
 
-Pour ce faire, le moteur a besoin de connaître les heures de travail d'une ressource. Contrairement aux données du modèle principal, les heures de travail sont *chargées à la demande* , ce qui signifie qu'elles sont chargés dans le moteur selon les besoins. La raison de cette démarche est qu'il existe souvent dans Supply Chain Management des heures de travail couvrant une très longue période et généralement de nombreux calendriers, si bien que les données à charger au préalable seraient très volumineuses.
+Pour ce faire, le moteur a besoin de connaître les heures de travail d'une ressource. Contrairement aux données du modèle principal, les heures de travail sont *chargées à la demande*, ce qui signifie qu'elles sont chargés dans le moteur selon les besoins. La raison de cette démarche est qu'il existe souvent dans Supply Chain Management des heures de travail couvrant une très longue période et généralement de nombreux calendriers, si bien que les données à charger au préalable seraient très volumineuses.
 
 Les informations de calendrier sont demandées par le moteur par blocs, en appelant la méthode de classe X++ `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. La requête concerne un identifiant de calendrier spécifique dans un intervalle de temps spécifique. En fonction de l'état du cache du serveur dans Supply Chain Management, chacune de ces requêtes peut aboutir à plusieurs appels à la base de données, ce qui prend beaucoup de temps (par rapport au temps de calcul pur). De plus, si le calendrier contient des définitions d'heures de travail très élaborées avec de nombreux créneaux de temps de travail par jour, cela ajoute à la durée du chargement.
 
@@ -188,7 +188,7 @@ Lorsque les données d'heures de travail sont chargées dans le moteur de planif
 
 ### <a name="finite-capacity"></a>Capacité finie
 
-Lors de l'utilisation d'une capacité finie, les plages horaires de travail du calendrier sont fractionnées et réduites en fonction des réservations de capacité existantes. Ces réservations sont également récupérées via la même classe `WrkCtrSchedulingInteropDataProvider` que les calendriers, mais utilisez plutôt la méthode `getCapacityReservations`. Lors de la la planification générale, les réservations du plan général spécifique sont prises en compte et si elles sont activées dans la page **Paramètres de planification**  ; les réservations provenant des ordres de fabrication confirmés sont également incluses. De même, lors de la planification d'un ordre de fabrication, il est également possible d'inclure des réservations provenant d'ordres planifiés existants, bien que ce procédé ne soit pas aussi courant que l'autre.
+Lors de l'utilisation d'une capacité finie, les plages horaires de travail du calendrier sont fractionnées et réduites en fonction des réservations de capacité existantes. Ces réservations sont également récupérées via la même classe `WrkCtrSchedulingInteropDataProvider` que les calendriers, mais utilisez plutôt la méthode `getCapacityReservations`. Lors de la la planification générale, les réservations du plan général spécifique sont prises en compte et si elles sont activées dans la page **Paramètres de planification** ; les réservations provenant des ordres de fabrication confirmés sont également incluses. De même, lors de la planification d'un ordre de fabrication, il est également possible d'inclure des réservations provenant d'ordres planifiés existants, bien que ce procédé ne soit pas aussi courant que l'autre.
 
 L'utilisation d'une capacité finie entraîne une plus longue durée de la planification, pour plusieurs raisons :
 
@@ -305,7 +305,7 @@ L'utilisation d'une capacité finie oblige le moteur à charger les informations
 
 ### <a name="setting-hard-links"></a>Définition de liens physiques
 
-Le type de lien standard de l'itinéraire est *souple* , ce qui signifie qu'on autorise un délai entre l'heure de fin d'une opération et le début de la suivante. Cette tolérance peut avoir l'effet indésirable que, si des matières ou une capacité ne sont pas disponibles pour l'une des opérations pendant très longtemps, la production peut être stoppée pendant un certain temps, impliquant une augmentation du travail en cours. Cela ne se produit pas avec les liens physiques car la fin et le début doivent concorder parfaitement. Mais l'établissement de liens physiques rend le problème de planification plus difficile à résoudre car l'intersection entre les heures de travail et la capacité soit être calculée pour les deux ressources des opérations. Si des opérations parallèles sont également impliquées, cela ajoute un temps de calcul significatif. Si les ressources des deux opérations ont des calendriers différents qui ne se chevauchent pas du tout, le problème est insoluble.
+Le type de lien standard de l'itinéraire est *souple*, ce qui signifie qu'on autorise un délai entre l'heure de fin d'une opération et le début de la suivante. Cette tolérance peut avoir l'effet indésirable que, si des matières ou une capacité ne sont pas disponibles pour l'une des opérations pendant très longtemps, la production peut être stoppée pendant un certain temps, impliquant une augmentation du travail en cours. Cela ne se produit pas avec les liens physiques car la fin et le début doivent concorder parfaitement. Mais l'établissement de liens physiques rend le problème de planification plus difficile à résoudre car l'intersection entre les heures de travail et la capacité soit être calculée pour les deux ressources des opérations. Si des opérations parallèles sont également impliquées, cela ajoute un temps de calcul significatif. Si les ressources des deux opérations ont des calendriers différents qui ne se chevauchent pas du tout, le problème est insoluble.
 
 Nous vous recommandons de n'utiliser de liens physiques que lorsque cela est strictement nécessaire, et de bien réfléchir s'ils sont nécessaires à chaque opération de l'itinéraire.
 
@@ -321,7 +321,7 @@ L'une des principales sources de données du moteur de planification est les inf
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Délais de planification importants (ou aucun)
 
-Les performances du moteur de planification peuvent être optimisées à l'aide des paramètres qui se trouvent sur la page **Paramètres de planification**. Les paramètres **Délai de planification activé** et **Délai d'optimisation de la planification activé** doivent toujours être définis sur **Oui**. S'ils sont définis sur **Non** , la planification peut s'exécuter indéfiniment dans le cas de la création d'un itinéraire irréalisable avec de nombreuses options.
+Les performances du moteur de planification peuvent être optimisées à l'aide des paramètres qui se trouvent sur la page **Paramètres de planification**. Les paramètres **Délai de planification activé** et **Délai d'optimisation de la planification activé** doivent toujours être définis sur **Oui**. S'ils sont définis sur **Non**, la planification peut s'exécuter indéfiniment dans le cas de la création d'un itinéraire irréalisable avec de nombreuses options.
 
 La valeur **Temps de planification maximum par séquence** contrôle le nombre maximal de secondes à consacrer à la recherche d'une solution pour une séquence (dans la plupart des cas, une séquence correspond à un ordre unique). La valeur à utiliser ici dépend fortement de la complexité de l'itinéraire et des paramètres tels que la capacité finie, mais un maximum d'environ 30 secondes est un bon point de départ.
 

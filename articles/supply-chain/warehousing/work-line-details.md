@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015893"
+ms.locfileid: "4428266"
 ---
 # <a name="work-line-details"></a>Détails de la ligne de travail
 
@@ -31,7 +31,7 @@ La page **Détails de la ligne de travail** affiche une liste complète, triable
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Activer la fonctionnalité de détails de la ligne de travail
 
-Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités** , la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Détails de la ligne de travail*
@@ -42,7 +42,7 @@ Pour afficher la liste des détails de la ligne de travail, accédez à **Gestio
 
 - Utiliser le **Filtre** pour rechercher des lignes qui ont une valeur spécifique pour tout paramètre disponible. (Les paramètres disponibles incluent de nombreux paramètres qui ne sont pas affichés sous forme de colonnes dans la grille.)
 - Utiliser la case à cocher **Afficher fermé** pour afficher ou masquer les lignes fermées.
-- Sélectionner **Afficher les dimensions** pour ouvrir la boîte de dialogue **Affichage des dimensions** , où vous pouvez choisir d’afficher ou de masquer diverses colonnes de dimension dans la grille.
+- Sélectionner **Afficher les dimensions** pour ouvrir la boîte de dialogue **Affichage des dimensions**, où vous pouvez choisir d’afficher ou de masquer diverses colonnes de dimension dans la grille.
 - Sélectionner un en-tête de colonne pour ouvrir un menu dans lequel vous pouvez choisir de trier ou de filtrer la liste en fonction des valeurs de cette colonne.
 - Sélectionner une ligne de travail, puis **Changer d’emplacement** pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier l’emplacement de cette ligne de travail. L’emplacement que vous spécifiez remplacera la configuration de la directive d’emplacement.
 - Sélectionner une ligne de travail, puis **Annuler la ligne de travail** pour ouvrir une boîte de dialogue dans laquelle vous pouvez réduire partiellement ou complètement la quantité de cette ligne de travail.
@@ -61,7 +61,7 @@ Vous pouvez également utiliser cette démonstration comme orientation lorsque v
 
 ### <a name="verify-that-the-scenario-setup-includes-enough-available-inventory"></a>Vérifier que la configuration du scénario comprend un stock disponible suffisant
 
-Si vous utilisez les données de démonstration **USMF** , vous devez d’abord vous assurer que votre système est configuré de telle sorte qu’un stock suffisant soit disponible dans chaque emplacement de prélèvement approprié. Pour cette démonstration, le stock suivant devrait être disponible dans l’entrepôt :
+Si vous utilisez les données de démonstration **USMF**, vous devez d’abord vous assurer que votre système est configuré de telle sorte qu’un stock suffisant soit disponible dans chaque emplacement de prélèvement approprié. Pour cette démonstration, le stock suivant devrait être disponible dans l’entrepôt :
 
 - **Article M9200 :** 45 unités. (ou plus)
 - **Article M9202 :** 10 unités. (ou plus)
@@ -80,10 +80,10 @@ Pour créer un travail de prélèvement, procédez comme suit.
 
 1. Accédez à **Ventes et marketing \> Commandes client \> Toutes les commandes client**.
 1. Sélectionnez **Nouveau** pour ouvrir la boîte de dialogue **Créer une commande client**.
-1. Dans la boîte de dialogue **Créer une commande client** , définissez les valeurs suivantes :
+1. Dans la boîte de dialogue **Créer une commande client**, définissez les valeurs suivantes :
 
-    - Dans l’organisateur **Client** , définissez le champ **Compte client** sur _US-001_.
-    - Dans l’organisateur **Général** , définissez le champ **Entrepôt** sur _51_.
+    - Dans l’organisateur **Client**, définissez le champ **Compte client** sur _US-001_.
+    - Dans l’organisateur **Général**, définissez le champ **Entrepôt** sur _51_.
 
 1. Sélectionnez **OK** pour créer la commande client et fermer la boîte de dialogue.
 1. Votre nouvelle commande client est ouverte. Elle comprend une nouvelle ligne vide dans la grille **Lignes de commande client**. Sur cette ligne de commande, définissez les valeurs suivantes :
@@ -92,14 +92,14 @@ Pour créer un travail de prélèvement, procédez comme suit.
     - **Quantité :** _20_
     - **Unité :** _ea_
 
-1. Sélectionnez la nouvelle ligne de commande, puis, sur le menu **Stock** , sélectionnez **Réservation** pour ouvrir la page **Réservation**.
-1. Sur la page **Réservation** , sélectionnez **Réserver un lot** pour réserver la quantité totale de la ligne sélectionnée dans l’entrepôt.
+1. Sélectionnez la nouvelle ligne de commande, puis, sur le menu **Stock**, sélectionnez **Réservation** pour ouvrir la page **Réservation**.
+1. Sur la page **Réservation**, sélectionnez **Réserver un lot** pour réserver la quantité totale de la ligne sélectionnée dans l’entrepôt.
 1. Fermez la page **Réservation** pour revenir à la commande client.
-1. Dans le volet Actions, sous l’onglet **Entrepôt** , sélectionnez **Libérer dans l’entrepôt**. Le système crée une expédition, l’ajoute à un nouveau chargement et crée le travail requis.
+1. Dans le volet Actions, sous l’onglet **Entrepôt**, sélectionnez **Libérer dans l’entrepôt**. Le système crée une expédition, l’ajoute à un nouveau chargement et crée le travail requis.
 1. Créez une deuxième commande client pour le même compte client et le même entrepôt que celui utilisé pour la première commande. Ajoutez les deux lignes de commande suivantes à cette commande :
 
-    - **Ligne 1 :** Définissez le champ **Numéro d’article** sur _M9200_ , le champ **Quantité** sur _25_ et le champ **Unité** sur _ea_.
-    - **Ligne 2 :** Définissez le champ **Numéro d’article** sur _M9202_ , le champ **Quantité** sur _10_ et le champ **Unité** sur _ea_.
+    - **Ligne 1 :** Définissez le champ **Numéro d’article** sur _M9200_, le champ **Quantité** sur _25_ et le champ **Unité** sur _ea_.
+    - **Ligne 2 :** Définissez le champ **Numéro d’article** sur _M9202_, le champ **Quantité** sur _10_ et le champ **Unité** sur _ea_.
 
 1. Répétez les étapes 6 à 8 pour réserver le stock pour chaque ligne de commande (une à la fois), puis répétez l’étape 9 pour valider la commande dans l’entrepôt.
 
@@ -108,7 +108,7 @@ Pour créer un travail de prélèvement, procédez comme suit.
 1. Accédez à **Gestion des entrepôts \> Travail \> Détails de la ligne de travail**.
 1. Recherchez et sélectionnez l’une des lignes de travail créées pour cette démo.
 1. Sélectionnez **Modifier l’emplacement** pour ouvrir la boite de dialogue **Sélectionner un nouvel emplacement**.
-1. Dans la boite de dialogue **Sélectionner un nouvel emplacement** , dans le champ **Emplacement** , sélectionnez un nouvel emplacement pour la ligne de travail.
+1. Dans la boite de dialogue **Sélectionner un nouvel emplacement**, dans le champ **Emplacement**, sélectionnez un nouvel emplacement pour la ligne de travail.
 1. Sélectionnez **OK** pour appliquer votre modification et fermer la boîte de dialogue.
 
 > [!IMPORTANT]
@@ -119,9 +119,9 @@ Pour créer un travail de prélèvement, procédez comme suit.
 1. Accédez à **Gestion des entrepôts \> Travail \> Détails de la ligne de travail**.
 1. Recherchez et sélectionnez l’une des lignes de travail créées pour cette démo. Notez que vous ne pouvez annuler ou modifier les quantités que pour les lignes de travail dont le type de travail est _prélèvement_.
 1. Sélectionnez **Annuler la ligne de travail** pour ouvrir l boite de dialogue **Quantité à annuler**.
-1. Dans la boite de dialogue **Quantité à annuler** , modifiez la valeur dans le champ **Quantité** pour spécifier la quantité à *soustraire de* la quantité actuellement spécifiée pour la ligne. Par défaut, le champ **Quantité** affiche la quantité complète.
+1. Dans la boite de dialogue **Quantité à annuler**, modifiez la valeur dans le champ **Quantité** pour spécifier la quantité à *soustraire de* la quantité actuellement spécifiée pour la ligne. Par défaut, le champ **Quantité** affiche la quantité complète.
 
-    - Si vous annulez la quantité totale, la valeur **Statut du travail** deviendra _Annulé_ , mais le champ **Quantité de travail** affichera toujours la valeur d’origine.
+    - Si vous annulez la quantité totale, la valeur **Statut du travail** deviendra _Annulé_, mais le champ **Quantité de travail** affichera toujours la valeur d’origine.
     - Si vous annulez une partie seulement de la quantité, le champ **Quantité du travail** sera mis à jour pour afficher la nouvelle valeur, mais le champ **Statut du travail** ne changera pas.
 
 1. Sélectionnez **OK** pour appliquer votre modification et fermer la boîte de dialogue.

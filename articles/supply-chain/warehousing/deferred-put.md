@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016699"
+ms.locfileid: "4428226"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Traitement différé du travail d'entrepôt
 
@@ -44,7 +44,7 @@ Les stratégies sont configurées dans la page **Stratégies du traitement du tr
 | Nom de la stratégie de traitement du travail     | Nom de la stratégie de traitement du travail. |
 | Type d'ordre d'exécution                 | Type d'ordre de travail appliqué par la stratégie. |
 | Opération                       | Opération qui est traitée à l'aide de la stratégie. |
-| Méthode de traitement du travail          | Méthode utilisée pour traiter la ligne de travail. Si la méthode est définie sur **Immédiat** , le comportement ressemble au comportement quand aucune stratégie de traitement du travail n'est utilisée pour traiter la ligne. Si la méthode est définie sur **Différé** , le traitement différé utilisant l'environnement de traitement par lots est utilisé. |
+| Méthode de traitement du travail          | Méthode utilisée pour traiter la ligne de travail. Si la méthode est définie sur **Immédiat**, le comportement ressemble au comportement quand aucune stratégie de traitement du travail n'est utilisée pour traiter la ligne. Si la méthode est définie sur **Différé**, le traitement différé utilisant l'environnement de traitement par lots est utilisé. |
 | Seuil de traitement différé   | Une valeur de **0** (zéro) signifie qu'il n'y a aucun seuil. Dans ce cas, le traitement différé est utilisé si celui-ci peut être utilisé. Si le calcul du seuil spécifique est inférieur au seuil, la méthode Immédiat est utilisée. Sinon, la méthode différée est utilisée si elle peut être utilisée. Pour les travaux liés aux ventes et aux transferts, le seuil est calculé en tant que nombre de lignes de charge source associées en cours de traitement pour le travail. Pour le travail de réapprovisionnement, le seuil est calculé en tant que nombre de lignes de travail qui sont réapprovisionnées par le travail. En paramétrant un seuil de, par exemple, **5** pour les ventes, les travaux plus petits qui ont moins de cinq lignes de charge source initiales n'utiliseront pas de traitement différé, mais les travaux plus grands l'utiliseront. Le seuil a un effet que si le travail traitant la méthode est défini sur **Différé**. |
 | Groupe de traitements par lots pour le traitement différé |Groupe de lots utilisé pour le traitement. |
 
@@ -68,7 +68,7 @@ Par défaut, les tâches **Terminé** sont affichées.
 Voici une explication des statuts possibles :
 
 - **Attente** – Le travail par lots associé est en attente de traitement sur le serveur de traitement par lots.
-- **Échec** – Échec du traitement. La tâche peut être retraitée à l'aide de l'action **Traiter la vente différée** , ou vous pouvez l'annuler à l'aide de l'action **Annuler la vente différée**.
+- **Échec** – Échec du traitement. La tâche peut être retraitée à l'aide de l'action **Traiter la vente différée**, ou vous pouvez l'annuler à l'aide de l'action **Annuler la vente différée**.
 - **Terminé** – La tâche est terminée.
 
 ## <a name="impact-on-closed-work-dates"></a>Impact sur les dates de travail clôturées

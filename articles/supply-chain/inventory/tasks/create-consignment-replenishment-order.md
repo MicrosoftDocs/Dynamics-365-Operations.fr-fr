@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018351"
+ms.locfileid: "4428294"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Créer une commande de réapprovisionnement avec consignation
 
@@ -33,10 +33,10 @@ Cette rubrique explique comment créer une commande de réapprovisionnement avec
 ## <a name="create-a-consignment-replenishment-order"></a>Créer une commande de réapprovisionnement avec consignation
 1. Dans le volet de navigation, accédez à **Modules > Approvisionnements > Consignation > Commandes de réapprovisionnement avec consignation**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Compte fournisseur** , sélectionnez le fournisseur **US-104** (vous devez sélectionner un fournisseur qui est enregistré comme propriétaire dans la page **propriétaires du stock** ). 
+3. Dans le champ **Compte fournisseur**, sélectionnez le fournisseur **US-104** (vous devez sélectionner un fournisseur qui est enregistré comme propriétaire dans la page **propriétaires du stock**). 
 4. Cliquez sur **OK**.
 5. Sélectionnez **Ajouter la ligne**.
-6. Dans le champ **Numéro d’article** , tapez `M9211CI` (vous devez sélectionner un article qui est paramétré pour un stock de consignation).
+6. Dans le champ **Numéro d’article**, tapez `M9211CI` (vous devez sélectionner un article qui est paramétré pour un stock de consignation).
 7. Entrez un nombre dans le champ **Quantité**.
 8. Entrez une date dans le champ **Date de livraison demandée**. Les dates demandées et confirmées sont utilisées par le moteur MRP pour l'arrivée prévue des marchandises.  
 9. Entrez une date dans le champ **Date de livraison confirmée**.
@@ -53,7 +53,7 @@ Cette rubrique explique comment créer une commande de réapprovisionnement avec
 ## <a name="receive-items"></a>Recevoir articles
 1. Sélectionnez **Accusé de réception de marchandises**.
 2. Tapez une valeur dans le champ **Accusé de réception de marchandises externe**.
-3. Dans le champ **Quantité** , entrez un nombre inférieur au nombre indiqué ici. 
+3. Dans le champ **Quantité**, entrez un nombre inférieur au nombre indiqué ici. 
 4. Cliquez sur **OK**.
 
 ## <a name="check-the-on-hand-inventory"></a>Vérifier le stock disponible

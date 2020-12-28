@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986477"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427902"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Ajouter une contrainte d'expression à un modèle de configuration de produit
 
@@ -44,7 +44,7 @@ Cette procédure montre comment ajouter une nouvelle expression de contrainte à
 ## <a name="enter-expression"></a>Entrer une expression
 1. Cliquez sur Modifier l'expression.
     * Si vous déverrouillez l'interface utilisateur dans l'enregistreur de tâche à cette étape, vous pouvez utiliser IntelliSense et la liste des symboles pour établir l'expression de contrainte.  
-2. Dans le champ ConstraintBody, entrez « Implies[FrontGrill=="Métal", CornerProtection] ».
+2. Dans le champ ConstraintBody, entrez 'Implies[FrontGrill=="Metal", CornerProtection] '.
     * Cette expression logique stipule : si la grille avant est en métal, il faut sélectionner l'option de protection des coins.  
 3. Cliquez sur Valider.
     * La fonction de validation fonctionne via l'expression de contrainte et vérifie les erreurs de syntaxe.  

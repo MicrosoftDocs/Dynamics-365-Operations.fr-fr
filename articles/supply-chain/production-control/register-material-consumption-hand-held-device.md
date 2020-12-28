@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211259"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428169"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Enregistrement de la consommation de matières à l'aide d'un appareil mobile
 
@@ -68,7 +68,7 @@ Les matières sont transférées de l'emplacement de stockage en gros vers l'emp
 
 Une fois l'ordre de fabrication démarré, vous pouvez enregistrer la consommation de matières avec le workflow pour l'appareil portable. Commençons par enregistrer la consommation de 25 kilos du lot B1.
 
-6.  Sélectionnez l'option de menu **Enregistrer la consommation de** **matières** et, dans le menu de l'appareil portable, entrez les informations suivantes : 
+6.  Sélectionnez l'option de menu  **Enregistrer la consommation de** **matières** et, dans le menu de l'appareil portable, entrez les informations suivantes : 
 
 -    Numéro de l'ordre de fabrication. 
 -    Emplacement dans lequel les matières seront consommées, dans ce cas PIL-01. 

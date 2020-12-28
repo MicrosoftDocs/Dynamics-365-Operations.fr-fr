@@ -16,15 +16,15 @@ ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763477"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428164"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestion de la qualité pour les processus d’entrepôt
 
-La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ vous permet d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée. Le travail en entrepôt peut être généré automatiquement pour déplacer le stock vers le lieu de contrôle de la qualité, en fonction d’un pourcentage ou d’une quantité fixe, ou en fonction de chaque *n*e contenant. Une fois un ordre de qualité terminé, le travail peut être généré automatiquement pour déplacer le stock vers le prochain emplacement du processus, en fonction des résultats de qualité.
+La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ vous permet d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée. Le travail en entrepôt peut être généré automatiquement pour déplacer le stock vers le lieu de contrôle de la qualité, en fonction d’un pourcentage ou d’une quantité fixe, ou en fonction de chaque *n* e contenant. Une fois un ordre de qualité terminé, le travail peut être généré automatiquement pour déplacer le stock vers le prochain emplacement du processus, en fonction des résultats de qualité.
 
 La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ étend les capacités de la fonctionnalité de base de la gestion de la qualité. Elle offre la possibilité de créer des ordres de qualité pour le stock qui est envoyé au site de contrôle de la qualité, bien que les ordres de qualité ne soient pas toujours requis. Par conséquent, elle permet un processus de contrôle de la qualité léger basé sur le travail en entrepôt.
 
@@ -174,7 +174,7 @@ Pendant que les employés reçoivent des articles à l’aide de l’application
 
 Les exemples suivants montrent comment la configuration d’une association de qualité et d’un échantillonnage d’article associé affecte la génération d’ordres de qualité lorsque le champ **Type d’entrepôt applicable** est défini sur _Gestion de la qualité pour les processus d’entrepôt uniquement_.
 
-Quand la valeur **Spécifications de quantité** est _Contenant complet_, le champ **Par Nième contenant** contrôle quel travail d’échantillonnage d’article de qualité de contenants est créé. Le premier contenant va toujours au contrôle de qualité, puis la valeur de ce champ spécifie que chaque *N*ième contenant après ce contenant devrait également disparaître.
+Quand la valeur **Spécifications de quantité** est _Contenant complet_, le champ **Par Nième contenant** contrôle quel travail d’échantillonnage d’article de qualité de contenants est créé. Le premier contenant va toujours au contrôle de qualité, puis la valeur de ce champ spécifie que chaque *N* ième contenant après ce contenant devrait également disparaître.
 
 La valeur **Type de référence** des exemples suivants est _Achat_, et l valeur de **Type d’événement** est *Enregistrement*.
 

@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 540f7514a152cfba48d00a3cf863b24d23b4c30e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978915"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428052"
 ---
 # <a name="direct-deliveries"></a>Livraison directe
 
@@ -37,10 +37,10 @@ Vous pouvez réer des livraisons directes à partir de la page **Commande client
 
 **Remarque :** si une partie de la quantité commandée a déjà été livrée, vous devez fractionner la quantité restante. Créez une ligne pour la quantité qui doit être livrée directement, et soustrayez cette quantité de la quantité de la ligne d'origine. Par exemple, si la quantité originale était 15, et si cinq articles ont été livrés, vous devez créer une ligne pour la quantité restante (10), puis déduire cette quantité de la quantité d'origine.  
 
-Après avoir créé le lien de la livraison directe entre les lignes de commande client et les lignes de commande fournisseur, vous pouvez mettre à jour la commande client à l'aide d'un bon de livraison. Exécutez une mise à jour du bon de livraison ou d'une facture à partir de la commande fournisseur. Vous devez mettre à jour la facture de la commande client depuis la page **Commande client**. Une mise à jour de la facture ne peut pas avoir pour effet que la quantité sur la commande client dépasse la quantité enregistrée comme reçue. Par exemple, une ligne de commande client inclut 10 pièces, mais seulement 5 pièces de la ligne de commande client ont été mises à jour à l'aide d'un bon de livraison. Si vous sélectionnez **Tout**dans la liste **Quantité** lorsque vous mettez à jour la facture de la commande client, seuls les articles reçus physiquement, ou mis à jour à l'aide d'un bon de livraison, font l'objet d'une mise à jour de facture. La totalité de la ligne de commande client n'est pas mise à jour.
+Après avoir créé le lien de la livraison directe entre les lignes de commande client et les lignes de commande fournisseur, vous pouvez mettre à jour la commande client à l'aide d'un bon de livraison. Exécutez une mise à jour du bon de livraison ou d'une facture à partir de la commande fournisseur. Vous devez mettre à jour la facture de la commande client depuis la page **Commande client**. Une mise à jour de la facture ne peut pas avoir pour effet que la quantité sur la commande client dépasse la quantité enregistrée comme reçue. Par exemple, une ligne de commande client inclut 10 pièces, mais seulement 5 pièces de la ligne de commande client ont été mises à jour à l'aide d'un bon de livraison. Si vous sélectionnez **Tout** dans la liste **Quantité** lorsque vous mettez à jour la facture de la commande client, seuls les articles reçus physiquement, ou mis à jour à l'aide d'un bon de livraison, font l'objet d'une mise à jour de facture. La totalité de la ligne de commande client n'est pas mise à jour.
 
 ## <a name="delivery-date"></a>Date de livraison
-Lorsque vous mettez à jour le champ **Date de réception demandée** dans la ligne de commande client, le champ **Date de livraison** de la ligne de commande fournisseur correspondante est également mise à jour. De la même manière, lorsque vous mettez à jour le champ **Confirmé** dans la ligne de commande client, les champs **Date de livraison demandée** et **Date d'expédition confirmée**de la ligne de commande fournisseur correspondante sont également mis à jour.
+Lorsque vous mettez à jour le champ **Date de réception demandée** dans la ligne de commande client, le champ **Date de livraison** de la ligne de commande fournisseur correspondante est également mise à jour. De la même manière, lorsque vous mettez à jour le champ **Confirmé** dans la ligne de commande client, les champs **Date de livraison demandée** et **Date d'expédition confirmée** de la ligne de commande fournisseur correspondante sont également mis à jour.
 
 ## <a name="delivery-address"></a>Adresse de livraison
 En général, l'adresse de livraison d'une commande fournisseur est l'adresse de la société. Toutefois, lorsque vous créez une livraison directe, l'adresse du client est entrée comme adresse de livraison. Si vous modifiez l'adresse de livraison d'une ligne de commande fournisseur avec le type de livraison **Livraison directe**, l'adresse de livraison de la ligne de commande client correspondante est également mise à jour. De même, si vous modifiez la date de livraison de la ligne de commande client, l'adresse de livraison de la ligne de commande fournisseur est également mise à jour.

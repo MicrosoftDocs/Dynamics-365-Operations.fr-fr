@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc4cd9ada9c1f64b434cd657eb5f5654c1328ef4
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4428023"
 ---
 # <a name="asset-view"></a>Vue des actifs
 
@@ -45,6 +45,6 @@ La piste de navigation qui apparaît au-dessus de l'arborescence affiche la sél
 
 ID poste technique / ID poste technique (s'il existe plusieurs postes techniques) \> ID actif / ID actif(s'il existe plusieurs actifs) - Numéro d'article.
 
-Si vous avez sélectionné un actif dans l'arborescence, vous pouvez sélectionner **Demandes actives** ou **Ordres de travail actifs** pour afficher les demandes de maintenance ou les ordres de travail associés à l'actif. Vous pouvez également sélectionner **Ouvrir** \>, **Poste technique**, **Actif**ou **Nomenclature des actifs** pour ouvrir la vue associée.
+Si vous avez sélectionné un actif dans l'arborescence, vous pouvez sélectionner **Demandes actives** ou **Ordres de travail actifs** pour afficher les demandes de maintenance ou les ordres de travail associés à l'actif. Vous pouvez également sélectionner **Ouvrir** \>, **Poste technique**, **Actif** ou **Nomenclature des actifs** pour ouvrir la vue associée.
 
 L'option **Postes techniques des actifs** que vous pouvez sélectionner dans le champ **Vue** est également disponible dans toute recherche d'actif où vous pouvez sélectionner un actif. L'arborescence s'affiche sous un onglet **Vue des actifs**, par exemple, où vous [créez un actif](../objects/create-an-object.md), créez une demande de maintenance ou créez un ordre de travail.

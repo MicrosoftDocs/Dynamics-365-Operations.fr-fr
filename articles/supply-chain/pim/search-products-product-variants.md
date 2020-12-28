@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018328"
+ms.locfileid: "4428293"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Recherche de produits et de variantes de produits lors de la saisie de commande
 
@@ -44,7 +44,7 @@ Lorsque vous recherchez des produits ou des variantes de produits, il est impo
 
 ### <a name="examples"></a>Exemples
 
-Les exemples suivants utilisent des produits et des variantes de produits pour illustrer comment la recherche est traitée dans des scénarios différents. **Conditions préalables :** Sous **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche &gt; Type de recherche** , sélectionnez l'option  **Correspondance totale**.
+Les exemples suivants utilisent des produits et des variantes de produits pour illustrer comment la recherche est traitée dans des scénarios différents. **Conditions préalables :** Sous **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche &gt; Type de recherche**, sélectionnez l'option  **Correspondance totale**.
 
 | Type de produit     | Nom du produit    | Afficher le numéro du produit | numéro d'article | Configuration |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -52,7 +52,7 @@ Les exemples suivants utilisent des produits et des variantes de produits pour i
 | Variante de produit  | Haut-parleur actif  | D0010::Black :         | D0010       | 000005        |
 | Variante de produit  | Haut-parleur actif  | D0010::White :         | D0010       | Blanc         |
 
-Si vous saisissez « parleur » dans le champ **Numéro d'article** , vous obtiendrez tous les produits ci-dessus comme résultats de la recherche. Si vous entrez « black » dans le champ **Numéro d'article** , vous obtiendrez le deuxième produit comme résultat, car il a le texte « black » dans le numéro de produit d'affichage. Ces deux exemples illustrent que la recherche n'est pas uniquement au début du champ, une correspondance se produira même si le texte de la recherche se trouve au milieu d'une chaîne de texte dans l'enregistrement correspondant.  
+Si vous saisissez « parleur » dans le champ **Numéro d'article**, vous obtiendrez tous les produits ci-dessus comme résultats de la recherche. Si vous entrez « black » dans le champ **Numéro d'article**, vous obtiendrez le deuxième produit comme résultat, car il a le texte « black » dans le numéro de produit d'affichage. Ces deux exemples illustrent que la recherche n'est pas uniquement au début du champ, une correspondance se produira même si le texte de la recherche se trouve au milieu d'une chaîne de texte dans l'enregistrement correspondant.  
 
 Si vous entrez « 05 » vous obtiendrez uniquement la deuxième variante de produit comme résultat, car elle a « 05 » dans la configuration. Cela illustre que la recherche se fait dans tous les champs activés sur la page **Critères de recherche**.  
 
@@ -65,7 +65,7 @@ Avant de pouvoir utiliser la fonction de recherche de produit et de variante de 
 
 ### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Étape 1 : Inclure tous les produits et identificateurs et dimensions de variantes de produits appropriés dans les critères de recherche
 
-Parmi les identificateurs et dimensions de produits et de variantes de produits selon lesquels vous pouvez effectuer la recherche, il y a   **Nom du produit, numéro d'article** , **Afficher le numéro de produit, la configuration, la couleur, la taille, le style, le nom de recherche, etc.**  
+Parmi les identificateurs et dimensions de produits et de variantes de produits selon lesquels vous pouvez effectuer la recherche, il y a  **Nom du produit, numéro d'article**, **Afficher le numéro de produit, la configuration, la couleur, la taille, le style, le nom de recherche, etc.**  
 
 Accédez à la page **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Critères de recherche**. La page **Critères de recherche** vous permet de définir des critères pour le client, le prospect, et la recherche de produit. Assurez-vous de filtrer la page à l'aide de critères de recherche de produit. Vous pouvez le faire en passant à **Produit** dans le menu de la page.  
 
@@ -73,7 +73,7 @@ Pour ajouter le numéro de produit d'affichage aux critères de recherche, cliqu
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Étape 2 : Remplir la table de la base de données utilisée pour la recherche de produit
 
-Sur la page **Critères de recherche** , cliquez sur le bouton **Mettre à jour les données de recherche**. Dans la boîte de dialogue **Mettre à jour les données de recherche** , assurez-vous que   **Source** est défini sur **Produit** , puis cliquez sur **OK**. Le système regroupera dans un tableau tous les critères de recherche sélectionnés spécifiés à l'étape 1. Si vous avez de nombreux produits et variantes de produit, cette opération peut être assez longue et vous pouvez recevoir un avertissement. Nous vous recommandons de planifier le remplissage de la table de recherche sur le serveur de traitement par lots à une heure où le serveur n'est pas trop occupé.  
+Sur la page **Critères de recherche**, cliquez sur le bouton **Mettre à jour les données de recherche**. Dans la boîte de dialogue **Mettre à jour les données de recherche**, assurez-vous que  **Source** est défini sur **Produit**, puis cliquez sur **OK**. Le système regroupera dans un tableau tous les critères de recherche sélectionnés spécifiés à l'étape 1. Si vous avez de nombreux produits et variantes de produit, cette opération peut être assez longue et vous pouvez recevoir un avertissement. Nous vous recommandons de planifier le remplissage de la table de recherche sur le serveur de traitement par lots à une heure où le serveur n'est pas trop occupé.  
 
 Tant que la table n'est pas remplie, la recherche de produit ne fournit pas de résultats corrects. Si vous ne recevez aucun résultat de recherche, assurez-vous que cette table est remplie.  
 
@@ -83,7 +83,7 @@ La table ne doit être remplie que lorsque les critères de recherche sont modif
 
 Vous pouvez activer cette fonctionnalité en accédant à **Ventes et marketing &gt; Paramétrage &gt; Recherche &gt; Paramètres de recherche** et en définissant **Activer la recherche pour la recherche** sur **Oui** dans l'onglet **Général**.  
 
-Pour l'entrée de ligne de commande client, le comportement par défaut est d'ouvrir la page **Recherche de produit** lorsque vous commencez à taper dans le champ  **Numéro d'article** , puis que vous appuyez sur la touche  **Tabulation**. La page **Recherche de produit** modifie le contexte lors de la création de ligne de commande et peut être considérée comme inutilement intrusive. Si vous préférez obtenir les résultats de la recherche dans une recherche et ne pas perdre le contexte pendant la saisie de la ligne de commande, vous pouvez utiliser la recherche de recherche à la place. Si vous recherchez un produit ou une variante de produit, mais que vous ne sélectionnez rien dans la recherche et que vous appuyez sur la touche **Tabulation** , la page **Recherche de produit** s'affiche.
+Pour l'entrée de ligne de commande client, le comportement par défaut est d'ouvrir la page **Recherche de produit** lorsque vous commencez à taper dans le champ  **Numéro d'article**, puis que vous appuyez sur la touche  **Tabulation**. La page **Recherche de produit** modifie le contexte lors de la création de ligne de commande et peut être considérée comme inutilement intrusive. Si vous préférez obtenir les résultats de la recherche dans une recherche et ne pas perdre le contexte pendant la saisie de la ligne de commande, vous pouvez utiliser la recherche de recherche à la place. Si vous recherchez un produit ou une variante de produit, mais que vous ne sélectionnez rien dans la recherche et que vous appuyez sur la touche **Tabulation**, la page **Recherche de produit** s'affiche.
 
 
 

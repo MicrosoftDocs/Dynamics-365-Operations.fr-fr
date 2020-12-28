@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973474"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4428334"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -67,6 +67,8 @@ Pour utiliser l'Optimisation de la planification, installez le complément d'Opt
 1. Sur l'organisateur **Compléments d'environnement** devriez voir que Planning Optimization est en cours d'installation.
 1. Après quelques minutes **Installation** devrait passer à **Installé** (vous devrez peut-être actualiser la page). Après l'installation, vous pouvez activer Planning Optimization dans Dynamics 365 Supply Chain Management.
 
+L'objectif principal de l'installation du complément Optimisation de la planification est de connecter le service et l'environnement. Par conséquent, vous devez installer le complément séparément sur chaque environnement dans lequel vous utiliserez l'Optimisation de la planification, quel que soit le code déplacé entre les environnements.
+
 ### <a name="planning-optimization-integration"></a>Intégration d'Optimisation de la planification
 
 Pour configurer si le complément de l'Optimisation de la planification doit être utilisée pour la planification, accédez à **Planification** \> **Paramétrage** \> **Paramètres d'intégration**.
@@ -95,7 +97,7 @@ Le paramètre de l'option **Utiliser l'Optimisation de la planification** déter
 
 ### <a name="integration-with-the-setup"></a>Intégration à la configuration
 
-Si l'aperçu Optimisation de la planification est activé, la planification est effectuée à l'aide du complément Optimisation de la planification. Dans ce cas, les résultats de la planification et le fonctionnalités sont concernés.
+Si l'Optimisation de la planification est activée, la planification est effectuée à l'aide du complément Optimisation de la planification. Dans ce cas, les résultats de la planification et le fonctionnalités sont concernés.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
