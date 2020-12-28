@@ -3,7 +3,7 @@ title: Gérer les demandes de congé dans Teams
 description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929991"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4418588"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congé dans Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams vous permet de demander rapidement des congés et d’afficher les informations sur votre solde de congés directement dans Microsoft Teams. Vous pouvez interagir avec un robot pour demander des informations et lancer une demande de congé. L’onglet **Congés** fournit des informations plus détaillées. En outre, vous pouvez envoyer des informations aux personnes sur votre prochain congé dans les équipes et dans les chats en dehors de l'application Human Resources.
+L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams vous permet de demander rapidement des congés et d’afficher les informations sur votre solde de congés directement dans Microsoft Teams. Vous pouvez interagir avec un robot pour demander des informations et lancer une demande de congé. L’onglet **Congés** fournit des informations plus détaillées. Vous pouvez également envoyer des informations aux personnes sur votre prochain congé dans les équipes et dans les chats en dehors de l'application Human Resources.
 
 ## <a name="install-the-app"></a>Installer l’application
 
@@ -182,17 +182,31 @@ Si vous ne pouvez pas vous connecter à l'application, il est possible que le co
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erreur lors de l'approbation des demandes de congé dans l'application Human Resources dans Teams
 
-Si vous recevez une erreur lors de la tentative d'approbation des demandes de congé dans l'application Teams, effectuez les étapes de dépannage suivantes :
+Si vous recevez une erreur lors de la tentative d'approbation des demandes de congé dans l'application Teams, essayez les étapes de dépannage suivantes :
 
 1. Vérifiez que le compte que vous utilisez pour vous connecter à Microsoft Teams est le même que celui que vous utilisez pour accéder à Dynamics 365 Human Resources.
 
 2. Vérifiez que vous êtes un approbateur valide pour la demande en vérifiant les paramètres de flux de travail pour l'approbation de congé. Pour plus d'informations sur les workflows de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
 
+## <a name="known-accessibility-issues"></a>Problèmes d'accessibilité connus
+
+L'application Ressources humaines dans Teams présente les problèmes d'accessibilité suivants que nous travaillons à résoudre dans les versions futures.
+
+| Sortie | Solution ou explication |
+| --- | --- |
+| Le zoom à 400 % sur le bureau masque certains des boutons d'action de la vue. | Nous vous recommandons d'utiliser une loupe à la place jusqu'à ce que nous puissions prendre en charge ce niveau de zoom. |
+| Sur l'onglet **Congé**, la voix off annonce une action sur un bouton lors de la lecture de l'en-tête de la grille des congés. | L'en-tête et les éléments de la grille sont regroupés par année et sont réductibles. La voix off interprète cela comme un élément exploitable, mais ce n'est pas le cas. |
+| Si vous glissez alors qu'une fenêtre contextuelle ou un menu est ouvert, la voix off ignore la lecture du contenu de la fenêtre contextuelle ou du menu. | Explorez le contenu à l'aide de la reconnaissance digitale. |
+| Sur l'onglet **Congé**, il y a un geste de balayage supplémentaire lors de la navigation vers **Code motif** dans une nouvelle demande. | Il n'y a aucun contrôle caché auquel la navigation par balayage tente d'accéder. |
+| Sur l'onglet **Congé**, si vous faites glisser votre doigt pendant que le calendrier est ouvert, vous vous retrouvez hors du contrôle au lieu d'être en haut dans une nouvelle demande ou lors de la modification d'une demande. | Quand vous atteignez **Aller à aujourd'hui**, considérez que c'est la fin du contrôle et faites glisser votre doigt dans la direction inverse pour revenir en haut. |
+| VoiceOver ne lit pas les étiquettes des dates. | Les dates rencontrées par paires sont toujours **Date de début** et **Date de fin**. |
+| Sur l'onglet **Conversation instantanée**, le focus revient en haut lorsque vous entrez une date lors de l'utilisation de l'outil d'assistance ou de la navigation au clavier. | Appuyez Tabulation jusqu'à ce que vous atteigniez à nouveau votre zone de saisie. |
+
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Avec le bot Dynamics 365 Human Resources de Microsoft Teams, les entrées de texte de l’utilisateur sont analysées pour comprendre la requête/l’intention sous-jacente. L’entrée de l’utilisateur telle que « Rechercher le compte Contoso » est acheminée vers l’un des services cognitifs de Microsoft appelé Language Understanding Intelligent Service (LUIS). Cliquez  [ici](https://www.luis.ai/) pour en savoir plus sur LUIS. Le service LUIS permet de lever l’ambiguïté ou de comprendre l’intention de la saisie utilisateur (dans ce cas, l’intention est de rechercher des informations) et l’entité cible (dans ce cas, l’entité souhaitée est un compte nommé Contoso). Ces informations sont ensuite transmises à  [Azure Bot Framework](https://azure.microsoft.com/services/bot-service/) de Microsoft qui interagit avec les données de Dynamics 365 Human Resources et récupère les informations souhaitées pour la requête de l’utilisateur. 
+Avec le bot Dynamics 365 Human Resources de Microsoft Teams, les entrées de texte de l’utilisateur sont analysées pour comprendre la requête/l’intention sous-jacente. L’entrée de l’utilisateur telle que « Rechercher le compte Contoso » est acheminée vers l’un des services cognitifs de Microsoft appelé Language Understanding Intelligent Service (LUIS). Cliquez  [ici](https://www.luis.ai/) pour en savoir plus sur LUIS. Le service LUIS permet de lever l’ambiguïté ou de comprendre l’intention de la saisie utilisateur (dans ce cas, l’intention est de rechercher des informations) et l’entité cible (dans ce cas, l’entité souhaitée est un compte nommé Contoso). Ces informations sont ensuite transmises à la  [structure de bot Azure](https://azure.microsoft.com/services/bot-service/) de Microsoft qui interagit avec les données de Dynamics 365 Human Resources et récupère les informations souhaitées pour la requête de l’utilisateur. 
 
 En installant et en autorisant l’accès à l’utilisation du bot, vous acceptez d’autoriser le service LUIS et l’infrastructure de bot Azure à traiter l’intention derrière l’entrée, ce qui se traduit par une expérience utilisateur conversationnelle améliorée. Le service LUIS et la structure de bot Azure peuvent avoir des niveaux de conformité différents par rapport à Dynamics 365 Human Resources. Alors que le service LUIS n’a accès qu’aux requêtes de l’utilisateur et n’est pas conçu pour être connecté aux données ou au compte Dynamics 365 Human Resources de l’utilisateur, un utilisateur du bot Dynamics 365 Human Resources peut entrer volontairement une requête contenant des données client, des données personnelles ou d’autres données et un tel contenu de requête peut être envoyé au service LUIS et à l’infrastructure de bot Azure. 
 

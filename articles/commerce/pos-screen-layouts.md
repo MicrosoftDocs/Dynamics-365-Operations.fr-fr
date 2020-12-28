@@ -20,11 +20,11 @@ ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022469"
+ms.locfileid: "4412400"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurations visuelles de l'interface utilisateur de PDV
 
@@ -62,7 +62,7 @@ Les profils visuels sont affectés aux registres et ils spécifient les élémen
 > [!NOTE]
 > Le disposition **Droite** et l'affichage de la date/de l'heure ne s'appliquent pas à l'écran de connexion en vue compacte.
 
-Vous devez exécuter la tâche de programme de distribution **1090** ( **Caisses enregistreuses** ) pour synchroniser les dernières configurations de profil visuel avec la base de données des canaux.
+Vous devez exécuter la tâche de programme de distribution **1090** (**Caisses enregistreuses**) pour synchroniser les dernières configurations de profil visuel avec la base de données des canaux.
 
 ## <a name="screen-layouts"></a>Mises en page de l'écran
 
@@ -84,7 +84,7 @@ Les configurations de la mise en page de l'écran déterminent les actions, le c
 
 Les mises en page de l'écran peuvent être affectées au magasin, au registre ou à l'utilisateur. L'affectation d'utilisateur remplace les affectations de registre et de magasin, et l'affectation de registre remplace l'affectation de magasin. Dans un scénario unique où tous les utilisateurs utilisent la même mise en page, quel que soit le registre ou le rôle, la mise en page de l'écran peut être paramétrée uniquement au niveau du magasin. Dans les scénarios où des registres ou utilisateurs spécifiques nécessitent des mises en page spécialisées, celles-ci peuvent être affectées.
 
-Selon le niveau auquel les dispositions d'écran sont attribuées, vous devez exécuter les tâches de programme de distribution **1070** ( **Configuration des canaux** ), **1090** ( **Caisses enregistreuses** ), et/ou **1060** ( **Personnel** ) pour synchroniser les dernières configurations de disposition d'écran avec la base de données des canaux.
+Selon le niveau auquel les dispositions d'écran sont attribuées, vous devez exécuter les tâches de programme de distribution **1070** (**Configuration des canaux**), **1090** (**Caisses enregistreuses**), et/ou **1060** (**Personnel**) pour synchroniser les dernières configurations de disposition d'écran avec la base de données des canaux.
 
 ### <a name="layout-sizes"></a>Tailles de mise en page
 
@@ -119,7 +119,7 @@ Dans les mises en page compactes du POS, les groupes de boutons sont automatique
 
 ### <a name="images"></a>Images
 
-Pour chaque taille de mise en page dans une mise en page de l'écran, vous pouvez spécifier des images à inclure dans l'interface utilisateur du POS. Pour les mises en page complètes du POS, une image peut être spécifiée pour l'écran d'accueil. Cette image s'affiche comme premier élément de l'interface utilisateur à gauche. Dans l'écran **Transaction** , des images peuvent être utilisées comme images d'onglet ou comme logo. Les mises en page compactes du POS n'utilisent pas ces images.
+Pour chaque taille de mise en page dans une mise en page de l'écran, vous pouvez spécifier des images à inclure dans l'interface utilisateur du POS. Pour les mises en page complètes du POS, une image peut être spécifiée pour l'écran d'accueil. Cette image s'affiche comme premier élément de l'interface utilisateur à gauche. Dans l'écran **Transaction**, des images peuvent être utilisées comme images d'onglet ou comme logo. Les mises en page compactes du POS n'utilisent pas ces images.
 
 ### <a name="screen-layout-designer"></a>Concepteur de mise en page de l'écran
 
@@ -192,8 +192,8 @@ Le concepteur du groupe de boutons vous permet de configurer les groupes de bout
 
         ![Tailles des boutons du POS dans les lignes et les colonnes](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
-    - **Police personnalisée** – Lorsque vous activez la case à cocher **Activer la police personnalisée pour POS** , vous pouvez spécifier une police autre que la police par défaut du système pour le POS.
-    - **Thème personnalisé** – Par défaut, les boutons du POS utilisent la couleur d'accentuation du profil visuel. Lorsque vous activez la case à cocher **Utiliser le thème personnalisé** , vous pouvez spécifier des couleurs supplémentaires.
+    - **Police personnalisée** – Lorsque vous activez la case à cocher **Activer la police personnalisée pour POS**, vous pouvez spécifier une police autre que la police par défaut du système pour le POS.
+    - **Thème personnalisé** – Par défaut, les boutons du POS utilisent la couleur d'accentuation du profil visuel. Lorsque vous activez la case à cocher **Utiliser le thème personnalisé**, vous pouvez spécifier des couleurs supplémentaires.
 
         > [!NOTE]
         > Modern POS et Cloud POS utilisent uniquement les valeurs **Couleur d'arrière-plan** et **Couleur de la police**.

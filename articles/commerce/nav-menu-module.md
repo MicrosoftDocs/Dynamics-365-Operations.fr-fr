@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055735"
+ms.locfileid: "4412404"
 ---
 # <a name="navigation-menu-module"></a>Module Menu de navigation
 
@@ -44,12 +44,12 @@ L’illustration suivante montre un exemple de menu de navigation pour le site F
 
 | Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
-| Source                  | **Vente au détail** , **Création manuelle** , **Vente au détail et création manuelle** | La valeur **Vente au détail** permet d’afficher la hiérarchie de navigation des canaux depuis le siège Commerce dans le menu de navigation. La valeur **Création manuelle** permet aux éléments de menu statiques d’être organisés. La valeur **Vente au détail et création manuelle** permet un mélange des deux. |
+| Source                  | **Vente au détail**, **Création manuelle**, **Vente au détail et création manuelle** | La valeur **Vente au détail** permet d’afficher la hiérarchie de navigation des canaux depuis le siège Commerce dans le menu de navigation. La valeur **Création manuelle** permet aux éléments de menu statiques d’être organisés. La valeur **Vente au détail et création manuelle** permet un mélange des deux. |
 | Afficher les images des catégories | **Vrai** ou **Faux**    | Lorsqu’elle est activée, cette propriété affiche les images de catégorie dans le menu de navigation, telles que définies dans le siège Commerce pour chaque catégorie. Ajouté dans la version 10.0.14 de Commerce. |
 | Activer le menu de navigation à plusieurs niveaux | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut afficher plusieurs niveaux de la hiérarchie de navigation. Cette fonction est disponible dans Dynamics 365 Commerce version 10.0.15. |
 | Nombre de niveaux | entier | Cette propriété définit le nombre de niveaux à afficher si la propriété **Activer le menu de navigation à plusieurs niveaux** est définie sur **True**. |
 | Élément de menu statique| Tableau de valeurs| Éléments de menu statiques qui associent un nom d’élément de menu à un lien vers une page de site statique. Vous pouvez créer des éléments de menu sous d’autres éléments de menu. Par défaut, les menus statiques apparaissent au niveau racine et seront ajoutés à la hiérarchie de navigation des canaux si elle existe. |
-| Afficher le menu racine | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut être défini sous une racine personnalisée (par exemple, **Acheter maintenant** ). Cette fonction est disponible dans Dynamics 365 Commerce version 10.0.15. |
+| Afficher le menu racine | **Vrai** ou **Faux** | Lorsque cette propriété est activée, le menu de navigation peut être défini sous une racine personnalisée (par exemple, **Acheter maintenant**). Cette fonction est disponible dans Dynamics 365 Commerce version 10.0.15. |
 | Menu racine | chaîne | Cette propriété peut être utilisée pour définir le texte d'une racine personnalisée si la propriété **Afficher le menu racine** est définie sur **True**. |
 
 L’illustration suivante montre un exemple d’image de catégorie affichée dans le menu de navigation du site Fabrikam.

@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015101"
+ms.locfileid: "4412394"
 ---
 # <a name="verify-page-content-accessibility"></a>Vérifier l'accessibilité du contenu de la page
 
@@ -46,23 +46,23 @@ Pour activer l'intégration des [Informations sur l'accessibilité de Microsoft]
 
 1. Connectez-vous à Commerce en tant qu'administrateur système.
 1. Dans le volet de navigation de gauche, sélectionnez **Paramètres du client** (à côté du symbole d'engrenage) pour l'agrandir.
-1. Sous **Paramètres du client** , cliquez sur **Fonctionnalités**.
+1. Sous **Paramètres du client**, cliquez sur **Fonctionnalités**.
 1. Définissez l'option **Vérification de l'accessibilité** sur **Activé**.
 
 ## <a name="turn-on-microsoft-accessibility-insights-for-a-single-site"></a>Activer Informations sur l'accessibilité de Microsoft pour un seul site
 
 Pour activer l'intégration des [Informations sur l'accessibilité de Microsoft](https://accessibilityinsights.io/) pour un seul site Commerce, procédez comme suit.
 
-1. Sous **Sites** , sélectionnez **Fabrikam** (ou le nom de votre site).
+1. Sous **Sites**, sélectionnez **Fabrikam** (ou le nom de votre site).
 1. Dans le volet de navigation de gauche, cliquez sur **Paramètres du site** pour les étendre.
-1. Sous **Paramètres du site** , cliquez sur **Fonctionnalités**.
+1. Sous **Paramètres du site**, cliquez sur **Fonctionnalités**.
 1. Définissez l'option **Vérification de l'accessibilité** sur **Activé**.
 
 ## <a name="verify-the-accessibility-of-the-content-on-the-home-page"></a>Vérifier l'accessibilité du contenu sur la page d'accueil
 
 Pour utiliser le service [Informations sur l'accessibilité de Microsoft](https://accessibilityinsights.io/) intégré pour analyser et vérifier le contenu de votre page d'accueil dans Commerce, procédez comme suit.
 
-1. Sous **Sites** , sélectionnez **Fabrikam** (ou le nom de votre site).
+1. Sous **Sites**, sélectionnez **Fabrikam** (ou le nom de votre site).
 1. Dans le volet de navigation de gauche, sélectionnez **Pages**.
 1. Recherchez et sélectionnez la page d'accueil pour l'ouvrir dans l'éditeur de page.
 1. Dans la barre de commande, sélectionnez **Vérifier l'accessibilité**. La page **Vérifier l'accessibilité** apparaît.

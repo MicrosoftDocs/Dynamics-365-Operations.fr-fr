@@ -3,7 +3,7 @@ title: Mettre en service un environnement d'évaluation Dynamics 365 Commerce
 description: Cette rubrique explique comment mettre en service un environnement d'évaluation Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599848"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4412423"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Mettre en service un environnement d'évaluation Dynamics 365 Commerce
 
@@ -48,6 +48,7 @@ Pour plus d'informations sur la configuration de votre environnement d'évaluati
 
 Les conditions préalables suivantes doivent être en place avant de pouvoir mettre en service votre environnement d'évaluation Commerce :
 
+- Vous avez été intégré au programme d'évaluation et vous avez obtenu la capacité d'un environnement d'évaluation.
 - Vous avez accès au Portail Microsoft Dynamics Lifecycle Services (LCS).
 - Vous êtes un client ou un partenaire Microsoft Dynamics 365 existant et savez créer un projet Dynamics 365 Commerce.
 - Vous disposez d'un accès administrateur à votre abonnement Microsoft Azure, ou vous êtes en contact avec un administrateur d'abonnement qui peut vous aider si nécessaire.
@@ -91,7 +92,7 @@ Pour déployer l'environnement, procédez comme suit.
 
 1. Sur le menu principal, sélectionnez **Environnements hébergés dans le cloud**.
 1. Cliquez sur **Ajouter** pour ajouter un environnement.
-1. Dans le champ **Version de l'application**, sélectionnez la version la plus récente. Si vous devez absolument sélectionner une version d'application autre que la version la plus récente, ne sélectionnez pas de version antérieure à la version **10.0.8**.
+1. Dans le champ **Version de l'application**, sélectionnez la version la plus récente. Si vous devez absolument sélectionner une version d'application autre que la version la plus récente, ne sélectionnez pas de version antérieure à la version **10.0.14**.
 1. Dans le champ **Version de la plateforme**, utilisez la version de la plateforme automatiquement choisie pour la version de l'application sélectionnée. 
 
     ![Sélection des versions de l'application et de la plateforme](./media/project1.png)

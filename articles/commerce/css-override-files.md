@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411245"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412271"
 ---
 # <a name="work-with-css-override-files"></a>Utilisation de fichiers de remplacement CSS
 
@@ -113,4 +113,4 @@ Pour désactiver un fichier de remplacement CSS sur votre site, procédez comme 
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
-[Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+[Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)

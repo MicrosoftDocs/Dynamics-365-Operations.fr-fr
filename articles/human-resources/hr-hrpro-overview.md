@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428754"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418569"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -34,7 +34,7 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 [Configuration des paramètres des Ressources humaines](hr-setup-parameters.md)</br>
 [Configurer les paramètres partagés de Human Resources](hr-setup-shared-parameters.md)</br>
 [Configurer les workflows de Human Resources](hr-setup-workflows.md)</br>
-[Comprendre les champs de date et d'heure](hr-setup-date-time-fields.md)</br>
+[Comprendre les champs de date et d’heure](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Configurer les paramètres de votre organisation
 
@@ -83,21 +83,21 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 [Définir et gérer un programme social](hr-benefits-manage-program.md)</br>
 [Stratégies de droit aux avantages](hr-benefits-eligibility-policies.md)</br>
 [Processus de droit aux avantages](hr-benefits-eligibility-process.md)</br>
-[Définir les règles d'admissibilité et les stratégies relatives aux avantages](hr-benefits-define-eligibility-rules.md)</br>
-[Communiquer le programme d'avantages à un employé](hr-benefits-deliver-employee-benefits-program.md)</br>
+[Définir les règles d’admissibilité et les stratégies relatives aux avantages](hr-benefits-define-eligibility-rules.md)</br>
+[Communiquer le programme d’avantages à un employé](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Créer des avantages](hr-benefits-create.md)</br>
 [Inscrire les collaborateurs à des avantages](hr-benefits-enroll-workers.md)</br>
-[Gérer les dates d'expiration des avantages](hr-benefits-expiration-dates.md)</br>
+[Gérer les dates d’expiration des avantages](hr-benefits-expiration-dates.md)</br>
 [Générer des rapports ACA](hr-benefits-aca-reports.md)</br>
 
 ## <a name="manage-leave-and-absence"></a>Gérer les congés et les absences
 
-[Vue d'ensemble](hr-leave-and-absence-overview.md)</br>
-[Configurer les paramètres de congé et d'absence](hr-leave-and-absence-parameters.md)</br>
+[Vue d’ensemble](hr-leave-and-absence-overview.md)</br>
+[Configurer les paramètres de congé et d’absence](hr-leave-and-absence-parameters.md)</br>
 [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)</br>
 [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md)</br>
-[Configurer les types de congé et d'absence](hr-leave-and-absence-types.md)</br>
-[Créer un plan de congé et d'absence](hr-leave-and-absence-plans.md)</br>
+[Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)</br>
+[Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)</br>
 [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
 [Régulariser les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
 [Afficher l'analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
@@ -116,10 +116,10 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 ## <a name="create-courses"></a>Créer des cours
 
 [Configurer des cours de formation](hr-learning-courses.md)</br>
-[Vue d'ensemble des questionnaires](hr-learning-questionnaires.md)</br>
+[Vue d’ensemble des questionnaires](hr-learning-questionnaires.md)</br>
 [Créer des questionnaires](hr-learning-design-questionnaires.md)</br>
 [Distribuer et programmer des questionnaires](hr-learning-distribute-questionnaires.md)</br>
-[Distribuer des questionnaires à l'aide d'une planification](hr-learning-distribute-questionnaires-scheduling.md)</br>
+[Distribuer des questionnaires à l’aide d’une planification](hr-learning-distribute-questionnaires-scheduling.md)</br>
 [Afficher les résultats du questionnaire](hr-learning-evaluate-questionnaire-results.md)</br>
 [Analyser les résultats de questionnaire](hr-learning-analyze-questionnaire-results.md)</br>
 [Créer une question ouverte](hr-learning-create-open-ended-question.md)</br>

@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974028"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412273"
 ---
 # <a name="document-states-and-lifecycle"></a>États et cycle de vie des documents
 
@@ -36,7 +36,7 @@ La rubrique [Éléments de page](page-elements-overview.md) répertorie les diff
 
 Le tableau suivant indique les états de document possibles des éléments de page dans Commerce.
 
-| État de document      | Action du générateur de site        | Description                                                   |
+| État de document      | Action du générateur de site        | Description                                                  |
 | ------------------- | -------------------------- | ------------------------------------------------------------ |
 | Extrait         | Sélectionnez **Modifier**.           | Le document applicable est extrait pour vous. Lorsqu'un document est défini à cet état, il ne peut pas être modifié par d'autres utilisateurs système authentifiés, et toute modification apportée au document est visible uniquement de vous. |
 | Enregistré               | Sélectionnez **Enregistrer**.           | Les modifications qui ont été effectuées vers un document extrait sont enregistrées vers la base de données, mais le document n'est pas encore vérifié ou publié. Les modifications enregistrées ne sont pas visibles aux autres utilisateurs système authentifiés jusqu'à ce que l'auteur sélectionne **Terminer la modification**. Elles restent invisibles des utilisateurs externes jusqu'à ce que l'article soit publié. |

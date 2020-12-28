@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008972"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418542"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Créer une application d'exportation de données récurrentes
 
@@ -90,7 +90,7 @@ La majeure partie de l'exercice consiste à créer l'application logique.
 
 4. Appelez l'API REST DMF [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage)pour planifier l'exportation de votre package de données.
 
-    1. Utilisez l'action **Appeler une requête HTTP**depuis le connecteur HTTP with Azure AD.
+    1. Utilisez l'action **Appeler une requête HTTP** depuis le connecteur HTTP with Azure AD.
 
         - **URL de la ressource de base :** l'URL de votre environnement Human Resources (n'incluez pas les informations de chemin / espace de noms.)
         - **URI ressource Azure AD :** `http://hr.talent.dynamics.com`
@@ -122,13 +122,13 @@ La majeure partie de l'exercice consiste à créer l'application logique.
     > [!TIP]
     > Vous voudrez peut-être renommer chaque étape afin qu'elle soit plus significative que le nom par défaut, **Appeler une requête HTTP**. Par exemple, vous pouvez renommer cette étape **ExporterVersPackage**.
 
-5. [Initialisez une variable ](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)pour stocker l'état d'exécution de la requête **ExporterVersPackage**.
+5. [Initialisez une variable](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable)pour stocker l'état d'exécution de la requête **ExporterVersPackage**.
 
     ![Initialiser l'action variable](media/integration-logic-app-initialize-variable-step.png)
 
 6. Attendez que l'état d'exécution de l'exportation de données soit **Réussi**.
 
-    1. Ajoutez une action [Jusqu'à la boucle ](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop)qui se répète jusqu'à ce que la valeur de la variable **ExecutionStatus** soit **Réussi**.
+    1. Ajoutez une action [Jusqu'à la boucle](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop)qui se répète jusqu'à ce que la valeur de la variable **ExecutionStatus** soit **Réussi**.
     2. Ajoutez une action **Retard** qui attend cinq secondes avant d'interroger l'état d'exécution actuel de l'exportation.
 
         ![Conteneur jusqu'à la boucle](media/integration-logic-app-until-loop-step.png)

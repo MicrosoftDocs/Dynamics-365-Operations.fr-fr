@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055425"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4412425"
 ---
 # <a name="cart-module"></a>Module Panier
 
@@ -48,24 +48,24 @@ L’image suivante montre un exemple de page de panier sur le site Fabrikam. Dan
 
 ## <a name="cart-module-properties-and-slots"></a>Propriétés et emplacements du module de panier
 
-| Propriété | Valeurs | Description  |
+| Propriété | Valeurs | Description |
 |----------------|--------|-------------|
-| Titre | Texte d’en-tête et balise d’en-tête ( **H1** , **H2** , **H3** , **H4** , **H5** ou **H6** ) | Un en-tête pour le panier, tel que « Panier d’achat » ou « Articles dans votre panier ». |
-| Afficher les erreurs de rupture de stock | **Vrai** ou **Faux** | Si cette propriété est définie sur **True** , la page du panier affichera les erreurs liées au stock. Nous vous recommandons de définir cette propriété sur **True** si des contrôles de stock sont appliqués sur le site. |
-| Afficher les frais d’expédition pour les lignes | **Vrai** ou **Faux** | Si cette propriété est définie sur **True** , les articles de ligne de panier afficheront les frais d’expédition, si ces informations sont disponibles. Cette fonctionnalité n’est pas prise en charge dans le thème Fabrikam, car les utilisateurs sélectionnent la livraison uniquement dans le processus de paiement. Cependant, cette fonctionnalité peut être activée dans d’autres workflows si elle est applicable. |
+| Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête pour le panier, tel que « Panier d’achat » ou « Articles dans votre panier ». |
+| Afficher les erreurs de rupture de stock | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, la page du panier affichera les erreurs liées au stock. Nous vous recommandons de définir cette propriété sur **True** si des contrôles de stock sont appliqués sur le site. |
+| Afficher les frais d’expédition pour les lignes | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les articles de ligne de panier afficheront les frais d’expédition, si ces informations sont disponibles. Cette fonctionnalité n’est pas prise en charge dans le thème Fabrikam, car les utilisateurs sélectionnent la livraison uniquement dans le processus de paiement. Cependant, cette fonctionnalité peut être activée dans d’autres workflows si elle est applicable. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Modules qui peuvent être utilisés dans un module de panier
 
-- **Bloc de texte**  – Ce module prend en charge la messagerie personnalisée dans le module de panier. Les messages sont pilotés par le système de gestion de contenu (CMS). Tous les messages peuvent être ajoutés, tels que « Pour tout problème avec votre commande, contactez le 1-800-Fabrikam ».
-- **Sélecteur de magasins**  – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d’entrer un emplacement pour trouver des magasins à proximité. Pour plus d’informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
+- **Bloc de texte** – Ce module prend en charge la messagerie personnalisée dans le module de panier. Les messages sont pilotés par le système de gestion de contenu (CMS). Tous les messages peuvent être ajoutés, tels que « Pour tout problème avec votre commande, contactez le 1-800-Fabrikam ».
+- **Sélecteur de magasins** – Ce module affiche une liste de magasins voisins où un article est disponible pour le prélèvement. Il permet aux utilisateurs d’entrer un emplacement pour trouver des magasins à proximité. Pour plus d’informations sur ce module, voir [Module du sélecteur de magasins](store-selector.md).
 
 ## <a name="module-properties"></a>Propriétés du module
 
-Les paramètres de module de panier suivants peuvent être configurés sur **Paramètres du site \> Extensions**  :
+Les paramètres de module de panier suivants peuvent être configurés sur **Paramètres du site \> Extensions** :
 
-- **Quantité maximale**  – Cette propriété est utilisé pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
+- **Quantité maximale** – Cette propriété est utilisé pour spécifier le nombre maximal de chaque article qui peut être ajouté au panier. Par exemple, un détaillant peut décider que seuls 10 % de chaque produit peuvent être vendus en une seule transaction.
 - **Stock** – Pour plus d’informations sur l’application des paramètres de stock, voir [Appliquer les paramètres de stock](inventory-settings.md).
-- **Revenir aux achats**  - Cette propriété est utilisée pour spécifier l’itinéraire pour le lien **Revenir aux achats**. L’itinéraire peut être configuré au niveau du site, permettant aux détaillants de ramener le client à la page d’accueil ou vers toute autre page du site.
+- **Revenir aux achats** - Cette propriété est utilisée pour spécifier l’itinéraire pour le lien **Revenir aux achats**. L’itinéraire peut être configuré au niveau du site, permettant aux détaillants de ramener le client à la page d’accueil ou vers toute autre page du site.
 
 > [!IMPORTANT]
 > Dans Dynamics 365 Commerce version 10.0.14 et versions ultérieures, les articles du panier sont agrégés en fonction des paramètres définis dans le profil de fonctionnalité en ligne de la boutique en ligne dans Commerce Headquarters. Pour plus d'informations sur la création d'un profil de fonctionnalité en ligne et la définition des propriétés requises pour l'agrégation, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
@@ -78,22 +78,22 @@ Le module de panier extrait les informations sur le produit à l’aide des API 
 
 Pour ajouter un module de panier à une nouvelle page et définir les propriétés requises, procédez comme suit.
 
-1. Accédez à **Fragments** , puis cliquez sur **Nouveau** pour créer un fragment.
-1. Dans la boîte de dialogue **Nouveau fragment** , sélectionnez le module **Panier**.
-1. Sous **Nom du fragment** , entrez le nom **Fragment de panier** , puis sélectionnez **OK**.
+1. Accédez à **Fragments**, puis cliquez sur **Nouveau** pour créer un fragment.
+1. Dans la boîte de dialogue **Nouveau fragment**, sélectionnez le module **Panier**.
+1. Sous **Nom du fragment**, entrez le nom **Fragment de panier**, puis sélectionnez **OK**.
 1. Sélectionnez l’emplacement **Panier**.
 1. Dans le volet des propriétés à droite, sélectionnez le symbole du crayon, entrez le texte de l’en-tête dans le champ, puis sélectionnez le symbole de coche.
-1. Dans l’emplacement **Panier** , sélectionnez le bouton représentant des points de suspension ( **…** ), puis **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Sélecteur de magasin** , puis sélectionnez **OK**.
-1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
-1. Accédez à **Modèles** , puis cliquez sur **Nouveau** pour créer un nouveau modèle.
-1. Dans la boîte de dialogue **Nouveau modèle** , sous **Nom du modèle** , entrez un nom pour le nouveau modèle.
-1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps** , sélectionnez le bouton représentant des points de suspension ( **...** ), puis sélectionnez **Ajouter un fragment**.
-1. Dans la boîte de dialogue **Sélectionner un fragment** , sélectionnez le fragment **Panier** , puis sélectionnez **OK**.
-1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
-1. Accédez à **Pages** , puis sélectionnez **Nouveau** pour créer une page.
-1. Dans la boîte de dialogue **Choisir un modèle** , sélectionnez le modèle que vous avez créé, entrez un nom de page, puis sélectionnez **OK**.
-1. Cliquez sur **Enregistrer** , puis sur **Aperçu** pour afficher un aperçu de la page.
+1. Dans l’emplacement **Panier**, sélectionnez le bouton représentant des points de suspension (**…**), puis **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Sélecteur de magasin**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le fragment, puis **Publier** pour le publier.
+1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
+1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez un nom pour le nouveau modèle.
+1. Dans l’arborescence de contour, sélectionnez l’emplacement **Corps**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un fragment**.
+1. Dans la boîte de dialogue **Sélectionner un fragment**, sélectionnez le fragment **Panier**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
+1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
+1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle que vous avez créé, entrez un nom de page, puis sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -107,6 +107,8 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 [Module Adresse d’expédition](ship-address-module.md)
 
 [Module Options de livraison](delivery-options-module.md)
+
+[Module d'information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 

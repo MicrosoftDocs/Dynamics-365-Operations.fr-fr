@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011415"
+ms.locfileid: "4418577"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Préparation au lancement de Human Resources
 
@@ -55,9 +55,9 @@ Le tableau suivant répertorie toutes les étapes du processus, la durée prévu
 
 Une étape importante dans chaque projet de mise en œuvre est le passage à l'environnement de production. 
 
-Pour garantir que l'environnement de production est utilisé pour les opérations en direct, Microsoft provisionne l'instance de production uniquement lorsque l'implémentation s'approche de la phase **Opérer** , une fois que les activités requises dans la méthodologie LCS sont terminées. Pour plus d'informations sur les environnements de votre abonnement, consultez le [Guide des licences Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
+Pour garantir que l'environnement de production est utilisé pour les opérations en direct, Microsoft provisionne l'instance de production uniquement lorsque l'implémentation s'approche de la phase **Opérer**, une fois que les activités requises dans la méthodologie LCS sont terminées. Pour plus d'informations sur les environnements de votre abonnement, consultez le [Guide des licences Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
-Les clients doivent terminer les phases **Analyse** , **Concevoir et développer** et **Tester** de la méthodologie LCS pour que le bouton  **Configurer**  de demande de l'environnement de production devienne disponible. Pour terminer une phase dans LCS, vous devez d'abord terminer toutes les étapes requises dans cette phase. Lorsque toutes les étapes d'une phase sont terminées, vous pouvez terminer la phase entière. Vous pouvez toujours rouvrir une phase plus tard si vous devez apporter des modifications. Pour plus d’informations, voir [Lifecycle Services (LCS) pour les clients des applications Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Les clients doivent terminer les phases **Analyse**, **Concevoir et développer** et **Tester** de la méthodologie LCS pour que le bouton  **Configurer**  de demande de l'environnement de production devienne disponible. Pour terminer une phase dans LCS, vous devez d'abord terminer toutes les étapes requises dans cette phase. Lorsque toutes les étapes d'une phase sont terminées, vous pouvez terminer la phase entière. Vous pouvez toujours rouvrir une phase plus tard si vous devez apporter des modifications. Pour plus d’informations, voir [Lifecycle Services (LCS) pour les clients des applications Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Le processus de réalisation d'une étape comporte deux parties : 
 

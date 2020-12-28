@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39e597b88afcca69623b1a23acc95e4da3873082
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: f9e8df576efd1e58fde235828823f31e87ed58bf
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818297"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4412434"
 ---
 # <a name="delivery-options-module"></a>Module Options de livraison
 
@@ -68,7 +68,9 @@ Un module Options de livraison ne peut être ajouté qu’à un module de caisse
 
 [Module Paiement](payment-module.md)
 
-[Configuration d’sse d’expédition](ship-address-module.md)
+[Module Adresse d’expédition](ship-address-module.md)
+
+[Module d'information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 

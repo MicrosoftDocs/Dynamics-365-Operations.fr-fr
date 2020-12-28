@@ -2,8 +2,8 @@
 title: Configuration des paramètres de congé et d’absence
 description: Définissez les paramètres des ressources humaines pour les congés et les absences dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712374"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418591"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d’absence
 
@@ -47,6 +47,19 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 5. Sur l’onglet **Libre-service employé**, indiquez si les gestionnaires peuvent saisir des demandes de congé et d’absence au nom de leurs employés.
 
 7. Sélectionnez **Enregistrer**.
+
+>[!IMPORTANT]
+>L'affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l'activer dans votre environnement de **bac à sable** pour afficher l'option de congé et d'absence. Pour plus d’informations sur l'activation des fonctionnalités d'évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Afficher et modifier les paramètres partagés des ressources humaines
+
+1. Sur la page **Gestion du personnel**, sélectionnez l'onglet **Liens**.
+
+2. Sous **Configuration**, sélectionnez **Paramètres partagés des ressources humaines**.
+
+3. Sur l'onglet **Accès anticipé**, sélectionnez **Oui** pour **Activer l'affichage des congés intersociétés** pour permettre la visualisation des congés dans toute l'entreprise.
+
+4. Sélectionnez **Enregistrer**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Afficher et modifier les paramètres de congé et d’absence
 

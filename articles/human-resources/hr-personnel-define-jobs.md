@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428660"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418521"
 ---
 # <a name="define-new-jobs"></a>Définir les nouvelles tâches
 
@@ -57,7 +57,7 @@ Cette tâche se concentre sur la création d'une nouvelle tâche. Elle est effec
 21. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 23. Activez ou désactivez l'extension de la section Qualifications.
-    * Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides. Une fois les informations d'un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.   
+    * Notez que les champs des organisateurs Qualifications, Certificats et Formation sont vides. Une fois les informations d'un modèle de poste copiées, les informations contenues dans ces champs sont entrées en une seule étape.   
 24. Cliquez sur Enregistrer.
 25. Cliquez sur Copier depuis.
 26. Cliquez sur Copier à partir d'un modèle.
