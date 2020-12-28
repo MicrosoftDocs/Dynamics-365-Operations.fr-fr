@@ -1,0 +1,141 @@
+---
+title: Planifier la gestion du pointage dans Retail
+description: Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Dynamics 365 Commerce.
+author: aamirallaqaband
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: JMGParameters
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 62813
+ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: aamiral
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4412386"
+---
+# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="4cbd3-103">Planifier la gestion du pointage dans Retail</span><span class="sxs-lookup"><span data-stu-id="4cbd3-103">Time and attendance management in Retail</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="4cbd3-104">Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage de vente au détail dans Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-104">This topic describes the scenarios that are supported for time and attendance management in Dynamics 365 Commerce.</span></span>
+
+## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="4cbd3-105">Gérer la configuration et la planification des collaborateurs</span><span class="sxs-lookup"><span data-stu-id="4cbd3-105">Manage worker setup and scheduling</span></span>
+
+### <a name="initial-configuration"></a><span data-ttu-id="4cbd3-106">Configuration initiale</span><span class="sxs-lookup"><span data-stu-id="4cbd3-106">Initial configuration</span></span>
+
+- <span data-ttu-id="4cbd3-107">Exécutez l'Assistant Configuration.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-107">Run the configuration wizard.</span></span>
+- <span data-ttu-id="4cbd3-108">Enregistrez des collaborateurs en tant que collaborateurs qualifiés pour l'enregistrement des heures.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-108">Register workers as time registration workers.</span></span>
+
+### <a name="plan-worker-schedules"></a><span data-ttu-id="4cbd3-109">Panifiez des programmes de collaborateur</span><span class="sxs-lookup"><span data-stu-id="4cbd3-109">Plan worker schedules</span></span>
+
+- <span data-ttu-id="4cbd3-110">Appliquez des profils à l'aide du Planificateur de travail.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="4cbd3-111">Pour plus d'informations, voir [Application des profils à l'aide du Planificateur de travail](https://technet.microsoft.com/library/aa551234.aspx).</span><span class="sxs-lookup"><span data-stu-id="4cbd3-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
+
+<span data-ttu-id="4cbd3-112">Pour plus d'informations sur les étapes de configuration, voir [Paramétrage du module Pointage](https://technet.microsoft.com/library/aa496971.aspx).</span><span class="sxs-lookup"><span data-stu-id="4cbd3-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
+
+### <a name="commerce-specific-configuration"></a><span data-ttu-id="4cbd3-113">Configuration spécifique à Commerce</span><span class="sxs-lookup"><span data-stu-id="4cbd3-113">Commerce-specific configuration</span></span>
+
+- <span data-ttu-id="4cbd3-114">Activez un profil de fonctionnalité pour Horloge de pointage, pour les collaborateurs pour lesquels vous souhaitez activer les enregistrements d'heures.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="4cbd3-115">Cliquez sur **Profils de fonctionnalité des PDV** &gt; **Fonctions** &gt; **Enregistrement des heures des PDV** &gt; **Activer l'enregistrement des heures**.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
+- <span data-ttu-id="4cbd3-116">Configurez des groupes d'autorisations de point de vente (PDV) pour activer l'autorisation Afficher les entrées de l'horloge de pointage.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="4cbd3-117">Cette autorisation permet à l'utilisateur d'afficher les enregistrements d'horloge de pointage d'autres collaborateurs du magasin (et d'un autre magasin auquel l'utilisateur est associé, via le carnet d'adresses).</span><span class="sxs-lookup"><span data-stu-id="4cbd3-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="4cbd3-118">Vous souhaitez peut-être activer cette autorisation pour un rôle de responsable mais pas pour un rôle de caissier.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="4cbd3-119">Cliquez sur **Groupes d'autorisations des PDV** &gt; **Afficher les entrées de l'horloge**.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
+
+## <a name="register-time"></a><span data-ttu-id="4cbd3-120">Heure d'enregistrement</span><span class="sxs-lookup"><span data-stu-id="4cbd3-120">Register time</span></span>
+
+### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="4cbd3-121">Enregistrements d'heures du caissier et de collaborateur autre que caissier</span><span class="sxs-lookup"><span data-stu-id="4cbd3-121">Cashier and non-cashier time registrations</span></span>
+
+- <span data-ttu-id="4cbd3-122">Sur le PDV :</span><span class="sxs-lookup"><span data-stu-id="4cbd3-122">On POS:</span></span>
+
+    - <span data-ttu-id="4cbd3-123">Opérations de pointage à l'arrivée :</span><span class="sxs-lookup"><span data-stu-id="4cbd3-123">Clock-in operations:</span></span>
+
+        - <span data-ttu-id="4cbd3-124">Connectez-vous à une opération sans lien avec le tiroir-caisse ou à une nouvelle équipe de travail.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-124">Log on with a non-drawer operation or New shift.</span></span>
+        - <span data-ttu-id="4cbd3-125">Sélectionnez une opération d'horloge de pointage.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-125">Select a Time Clock operation.</span></span>
+        - <span data-ttu-id="4cbd3-126">Sélectionnez l'opération souhaitée :</span><span class="sxs-lookup"><span data-stu-id="4cbd3-126">Select a desired operation:</span></span>
+
+            - <span data-ttu-id="4cbd3-127">Pointage à l'arrivée</span><span class="sxs-lookup"><span data-stu-id="4cbd3-127">Clock-in</span></span>
+            - <span data-ttu-id="4cbd3-128">En pause</span><span class="sxs-lookup"><span data-stu-id="4cbd3-128">Break for Work</span></span>
+            - <span data-ttu-id="4cbd3-129">Pause-déjeuner</span><span class="sxs-lookup"><span data-stu-id="4cbd3-129">Break for Lunch</span></span>
+            - <span data-ttu-id="4cbd3-130">Pointage à la sortie</span><span class="sxs-lookup"><span data-stu-id="4cbd3-130">Clock-out</span></span>
+
+        <table>
+        <thead>
+        <tr>
+        <th><span data-ttu-id="4cbd3-131">Statut actuel</span><span class="sxs-lookup"><span data-stu-id="4cbd3-131">Current state</span></span></th>
+        <th><span data-ttu-id="4cbd3-132">Opérations disponibles</span><span class="sxs-lookup"><span data-stu-id="4cbd3-132">Available operations</span></span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td><span data-ttu-id="4cbd3-133">Pointage à l'arrivée</span><span class="sxs-lookup"><span data-stu-id="4cbd3-133">Clock-in</span></span></td>
+        <td>
+        <ul>
+        <li><span data-ttu-id="4cbd3-134">En pause</span><span class="sxs-lookup"><span data-stu-id="4cbd3-134">Break for Work</span></span></li>
+        <li><span data-ttu-id="4cbd3-135">Pause-déjeuner</span><span class="sxs-lookup"><span data-stu-id="4cbd3-135">Break for Lunch</span></span></li>
+        <li><span data-ttu-id="4cbd3-136">Pointage à la sortie</span><span class="sxs-lookup"><span data-stu-id="4cbd3-136">Clock-out</span></span></li>
+        </ul>
+        </td>
+        </tr>
+        <tr>
+        <td><span data-ttu-id="4cbd3-137">En pause</span><span class="sxs-lookup"><span data-stu-id="4cbd3-137">Break for Work</span></span></td>
+        <td><span data-ttu-id="4cbd3-138">Pointage à l'arrivée</span><span class="sxs-lookup"><span data-stu-id="4cbd3-138">Clock-in</span></span></td>
+        </tr>
+        <tr>
+        <td><span data-ttu-id="4cbd3-139">Pause-déjeuner</span><span class="sxs-lookup"><span data-stu-id="4cbd3-139">Break for Lunch</span></span></td>
+        <td><span data-ttu-id="4cbd3-140">Pointage à l'arrivée</span><span class="sxs-lookup"><span data-stu-id="4cbd3-140">Clock-in</span></span></td>
+        </tr>
+        <tr>
+        <td><span data-ttu-id="4cbd3-141">Pointage à la sortie</span><span class="sxs-lookup"><span data-stu-id="4cbd3-141">Clock-out</span></span></td>
+        <td><span data-ttu-id="4cbd3-142">Pointage à l'arrivée</span><span class="sxs-lookup"><span data-stu-id="4cbd3-142">Clock-in</span></span></td>
+        </tr>
+        </tbody>
+        </table>
+
+        <span data-ttu-id="4cbd3-143">[![États de l'horloge de pointage](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="4cbd3-143">[![Time Clock States](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
+
+- <span data-ttu-id="4cbd3-144">Affichez le message de confirmation et validez que la durée d'activité actuelle est correcte.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
+- <span data-ttu-id="4cbd3-145">Journal :</span><span class="sxs-lookup"><span data-stu-id="4cbd3-145">Logbook:</span></span>
+
+    - <span data-ttu-id="4cbd3-146">Cliquez sur **Journal** pour afficher l'activité d'horloge de pointage.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-146">Click **Logbook** to view time clock activity.</span></span>
+    - <span data-ttu-id="4cbd3-147">Utilisez des filtres de durée pour sélectionner des périodes différentes.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-147">Use time filters to select different time windows.</span></span>
+    - <span data-ttu-id="4cbd3-148">Si vous travaillez dans plusieurs emplacements de magasin, vous voyez s'afficher vos enregistrements d'heures de tous les magasins dans lesquels vous avez enregistré des heures.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="4cbd3-149">Vous pouvez utiliser le filtre de magasin pour afficher les enregistrements d'heures d'un magasin sélectionné.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-149">You can use the store filter to view time registrations from a selected store.</span></span>
+
+- <span data-ttu-id="4cbd3-150">Fuseaux horaires différents :</span><span class="sxs-lookup"><span data-stu-id="4cbd3-150">Different time zones:</span></span>
+
+    - <span data-ttu-id="4cbd3-151">Si vous affichez l'heure à partir d'un autre emplacement (pour le journal du caissier, ou en utilisant **Afficher les entrées de l'horloge de pointage** pour un scénario de responsable), et que cet emplacement est dans un fuseau horaire différent, les enregistrements des heures proposés sont convertis dans votre fuseau horaire local.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="4cbd3-152">Par exemple, vous êtes responsable de deux magasins, l'un en Arizona et l'autre dans le Nevada.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="4cbd3-153">Un caissier enregistre un pointage à l'arrivée à 9h00 du matin</span><span class="sxs-lookup"><span data-stu-id="4cbd3-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="4cbd3-154">en Arizona.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-154">in Arizona.</span></span> <span data-ttu-id="4cbd3-155">À ce moment, l'heure au Nevada est 8h00 du matin</span><span class="sxs-lookup"><span data-stu-id="4cbd3-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="4cbd3-156">Par conséquent, si vous êtes dans le magasin du Nevada et que vous consultez les enregistrements des heures, l'enregistrement des heures est marqué comme 8h du matin.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
+
+## <a name="view-worker-time-registrations"></a><span data-ttu-id="4cbd3-157">Afficher les enregistrements des heures des collaborateurs</span><span class="sxs-lookup"><span data-stu-id="4cbd3-157">View worker time registrations</span></span>
+
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="4cbd3-158">Affichez les enregistrements des heures du collaborateur, et filtrez par magasin ou par type d'activité</span><span class="sxs-lookup"><span data-stu-id="4cbd3-158">View worker time registrations, and filter by store or activity type</span></span>
+
+<span data-ttu-id="4cbd3-159">Sur le PDV :</span><span class="sxs-lookup"><span data-stu-id="4cbd3-159">On POS:</span></span>
+
+- <span data-ttu-id="4cbd3-160">Sélectionnez **Afficher les entrées de l'horloge de pointage**.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-160">Select **View timeclock entries**.</span></span>
+- <span data-ttu-id="4cbd3-161">Vous découvrez les activités d'enregistrement de l'horloge de pointage de tous les collaborateurs affectés aux magasins auxquels vous êtes également affecté.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
+- <span data-ttu-id="4cbd3-162">Vous pouvez utiliser des filtres par type d'activité et magasin pour filtrer les enregistrements des heures.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-162">You can use the activity type and store filters to filter on time registrations.</span></span>
+
+## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="4cbd3-163">Traitement et gestion des enregistrements des heures</span><span class="sxs-lookup"><span data-stu-id="4cbd3-163">Process and manage time registrations</span></span>
+
+<span data-ttu-id="4cbd3-164">Un utilisateur de Commerce suit le flux de travail pour calculer, approuver et transférer les enregistrements des heures vers le salaire.</span><span class="sxs-lookup"><span data-stu-id="4cbd3-164">A Commerce user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+
+### <a name="primary-operations"></a><span data-ttu-id="4cbd3-165">Opérations principales</span><span class="sxs-lookup"><span data-stu-id="4cbd3-165">Primary operations</span></span>
+
+- <span data-ttu-id="4cbd3-166">Calculer</span><span class="sxs-lookup"><span data-stu-id="4cbd3-166">Calculate</span></span>
+- <span data-ttu-id="4cbd3-167">Approuver</span><span class="sxs-lookup"><span data-stu-id="4cbd3-167">Approve</span></span>
+- <span data-ttu-id="4cbd3-168">Soumettre à la paie</span><span class="sxs-lookup"><span data-stu-id="4cbd3-168">Submit to payroll</span></span>
+
+### <a name="other-common-operations"></a><span data-ttu-id="4cbd3-169">Autres opérations courantes</span><span class="sxs-lookup"><span data-stu-id="4cbd3-169">Other common operations</span></span>
+
+- <span data-ttu-id="4cbd3-170">Pointage à la sortie en masse</span><span class="sxs-lookup"><span data-stu-id="4cbd3-170">Bulk Clock-out</span></span>
+- <span data-ttu-id="4cbd3-171">Enregistrer des absences</span><span class="sxs-lookup"><span data-stu-id="4cbd3-171">Register Absence</span></span>
+
+<span data-ttu-id="4cbd3-172">Pour plus d'informations sur le traitement des enregistrements des heures et des présences, voir [Traitement des enregistrements de pointage](https://technet.microsoft.com/library/aa573180.aspx).</span><span class="sxs-lookup"><span data-stu-id="4cbd3-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>
