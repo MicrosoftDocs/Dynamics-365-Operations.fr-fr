@@ -1,5 +1,5 @@
 ---
-title: Confirmation automatique avec la fonction d'Optimisation de la planification
+title: Confirmation automatique avec l’optimisation de la planification
 description: Cette rubrique explique comment utiliser la confirmation automatique avec la fonction d'Optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383686"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594524"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Confirmation automatique avec la fonction d'Optimisation de la planification
+# <a name="autofirming-with-planning-optimization"></a>Confirmation automatique avec l’optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +35,7 @@ La confirmation automatique vous permet de confirmer les ordres prévisionnels d
 > [!NOTE]
 > La confirmation automatique d'une commande fournisseur prévisionnelle n'est possible que si l'article est associé à un fournisseur.
 
-## <a name="turn-on-auto-firming"></a>Activer la confirmation automatique
+## <a name="turn-on-autofirming"></a>Activer la confirmation automatique
 
 Pour activer la confirmation automatique, procédez comme suit.
 
@@ -48,7 +48,7 @@ La plage de gestion de confirmation est calculée en avant à partir de la date 
 
 - Pour définir la plage de gestion de confirmation par défaut pour un groupe de couverture, accédez à **Planification** \> **Paramétrage** \> **Couverture** \> **Groupes de couverture**, puis sélectionnez un groupe de couverture. Puis, dans l'organisateur **Autre**, dans le champ **Plage de gestion de confirmation automatique (jours)**, entrez le nombre de jours.
 - Pour remplacer la plage de gestion de confirmation définie pour le groupe de couverture pour un article spécifique, accédez à **Gestion des informations sur les produits** \> **Produits lancés**, puis dans le volet Actions, sélectionnez **Plan**, puis sélectionnez **Couverture de l'article**. Puis, dans l'onglet **Général**, sélectionnez **Remplacer les plages de gestion** et dans le champ **Plage de gestion de confirmation automatique (jours)**, entrez le nombre de jours.
-- Pour remplacer la plage de confirmation définie pour le groupe de couverture et la couverture d'article pour un plan général spécifique, accédez à **Planification** \> **Paramétrage** \> **Plans généraux**, puis sélectionnez un plan général. Puis, dans l'organisateur **Plage de gestion en jours**, définissez **Geler** sur **Oui**, et saisissez le nombre de jours.
+- Pour remplacer la plage de confirmation définie pour le groupe de couverture et la couverture d'article pour un plan général spécifique, accédez à **Planification** \> **Paramétrage** \> **Plans généraux**, puis sélectionnez un plan général. Puis, dans l'organisateur **Plage de gestion en jours**, définissez **Confirmer** sur **Oui**, et saisissez le nombre de jours.
 
 Si la confirmation automatique est activée pour l'exécution d'une planification avec l'option Optimisation de la planification, le processus de confirmation automatique a lieu selon la configuration de la confirmation automatique. Si la confirmation automatique n'est pas activée, ou si la planification a commencé depuis la page **Besoins nets**, le processus de confirmation automatique est ignoré.
 
@@ -56,7 +56,7 @@ Si la confirmation automatique est activée pour l'exécution d'une planificatio
 
 L'option Optimisation de planification et le moteur de planification qui est intégré à Microsoft Dynamics 365 Supply Chain Management peuvent être utilisés pour confirmer automatiquement les ordres prévisionnels. Toutefois, il existe des différences importantes. Par exemple, tandis que l'Optimisation de la planification utilise la date de commande (à savoir la date de début) pour déterminer les ordres prévisionnels à confirmer, le moteur de planification intégré à Supply Chain Management utilise la date de besoin (à savoir la date de fin). Voici un résumé des différences.
 
-**Optimisation de la planification**
+**Service Optimisation de la planification**
 
 - La confirmation automatique est basée sur la date de commande (date de début).
 - Puisque la date de commande (date de début) déclenche la confirmation, vous n'avez pas à tenir compte du délai d'exécution dans le cadre de la plage de confirmation.

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897601"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528619"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (14 mars 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités inédites ou ayant fait l'objet de modifications dans Talent.
 
@@ -44,7 +46,7 @@ Les modifications effectuées dans cette version rendent possibles des scénario
 ### <a name="mass-assign-checklists-to-workers"></a>Affectation en masse de listes de contrôle aux employés
 Avec cette modification, vous pouvez désormais sélectionner plusieurs employés et leur affecter en bloc une ou plusieurs listes de contrôle. 
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 pour Finance and Operations
+### <a name="platform-update-24-for-finance-and-operations"></a>Mise à jour de la plateforme 24 pour Finance and Operations
 Pour en savoir plus sur Platform Update 24 pour Finance and Operations, voir [Nouveautés ou modifications dans Finance and Operations, Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Les modifications importantes de Platform Update 24 sont notamment : 
 
 - Les alertes sont activées dans Talent.
@@ -65,7 +67,7 @@ Les entités Common Data Service se synchronisent désormais correctement une fo
 Nombreuses sont les organisations où les responsables des avantages et de la rémunération ne peuvent accéder qu'à certains enregistrements de rémunération. Ces enregistrements peuvent concerner des cadres ou des employés régionaux. Cette modification permet aux RH de gérer et de tenir à jour les plans de rémunération pour différents groupes d'employés au sein de l'organisation. Vous pouvez affecter des rôles de sécurité aux plans fixes et variables. Ces rôles déterminent l'accès aux plans et aux données des employés relatives aux plans, comme les enregistrements propres aux salaires ou aux primes. Seuls les rôles disposant de l'accès peuvent traiter la rémunération de ces employés.
 
 ###  <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
-Dans Platform Update 24 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui diffusent automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement.
+Avec Platform Update 24 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui répartissent automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Vérification d'employé en double : modifications de l'interface
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom et un champ de statut affiche le nombre trouvé. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. L'écran des doublons ne s'ouvre pas automatiquement pour éviter d'interrompre la saisie des données.

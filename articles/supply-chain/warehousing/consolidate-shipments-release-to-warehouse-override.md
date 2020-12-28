@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016791"
+ms.locfileid: "4428229"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Consolider les expéditions lorsque la stratégie de consolidation de l'expédition est remplacée à partir de la page Lancement dans l'entrepôt
 
@@ -50,7 +50,7 @@ Le scénario décrit ici suppose que vous avez déjà activé la fonctionnalité
     - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
     - **Quantité :** *1.00*
 
-1. Sélectionnez **Stock \> Réservation** , puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
+1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
 ## <a name="release-the-sales-orders-from-the-release-to-warehouse-page"></a>Validez les commandes client depuis la page Lancement dans l'entrepôt
 
@@ -64,7 +64,7 @@ Suivez ces étapes pour remplacer la stratégie de consolidation des expédition
 1. Sélectionnez **Lancement dans l'entrepôt**.
 1. Sélectionnez la deuxième et la troisième commande client que vous avez créée pour ce scénario.
 1. Sélectionner **Ajouter** pour ajouter les lignes dans le cadre du lancement dans l'entrepôt. Notez que la stratégie *Par défaut* est appliquée dans le volet inférieur.
-1. Sélectionnez la deuxième ligne, puis, dans le champ **Sélectionner une nouvelle stratégie de consolidation des expéditions** , sélectionnez la stratégie *CustomerOrderNo*.
+1. Sélectionnez la deuxième ligne, puis, dans le champ **Sélectionner une nouvelle stratégie de consolidation des expéditions**, sélectionnez la stratégie *CustomerOrderNo*.
 1. Sélectionnez **Lancement dans l'entrepôt** pour les deux lignes.
 
 ## <a name="verify-the-shipments"></a>Vérifier les expéditions
@@ -78,7 +78,7 @@ Suivez ces étapes pour examiner les expéditions qui ont été créées.
 
 1. Allez dans **Gestion des entrepôts \> Expéditions \> Toutes les expéditions**.
 1. Recherchez et sélectionnez l'expédition requise.
-1. Dans le champ **Stratégie de consolidation d'expédition** , consultez la stratégie de consolidation utilisée lors de la création de l'expédition.
+1. Dans le champ **Stratégie de consolidation d'expédition**, consultez la stratégie de consolidation utilisée lors de la création de l'expédition.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

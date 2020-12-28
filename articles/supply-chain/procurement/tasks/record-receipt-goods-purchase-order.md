@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018604"
+ms.locfileid: "4428316"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Enregistrer la réception de marchandises sur la commande fournisseur
 
@@ -33,9 +33,9 @@ Cette rubrique explique comment enregistrer la réception des marchandises direc
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Préparer une nouvelle commande fournisseur pour la réception des marchandises
 1. Allez dans **Volet de navigation > Modules > Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Compte fournisseur** , saisissez `US-101`.
+3. Dans le champ **Compte fournisseur**, saisissez `US-101`.
 4. Cliquez sur **OK**.
-5. Dans le champ **Numéro d'article** , entrez `M0001`.
+5. Dans le champ **Numéro d'article**, entrez `M0001`.
 6. Entrez `5` dans le champ **Quantité**.
 7. Dans le volet Action, sélectionnez **Achat**.
 8. Sélectionnez **Confirmer**.

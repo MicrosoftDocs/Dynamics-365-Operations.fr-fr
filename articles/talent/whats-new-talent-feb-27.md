@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897670"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529136"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (27 février 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
 
@@ -75,7 +77,7 @@ Cette version comprend d'autres correctifs de bogues mineurs.
 
 Nombreuses sont les organisations où les responsables des bénéfices et de la rémunération ne peuvent accéder qu'à des enregistrements spécifiques en termes de rémunération. Ces enregistrements peuvent concerner des cadres ou des employés régionaux. Cette modification permet aux ressources humaines (RH) de gérer et de tenir à jour les plans de rémunération pour différentes populations d'employés au sein de l'organisation. Les rôles de sécurité qui peuvent être attribués à des plans fixes et variables déterminent l'accès à ces plans et les données des employés qui y sont liées (par exemple, les informations sur les salaires et les enregistrements des primes). Seuls les rôles bénéficiant de l'accès spécifié sont en mesure de traiter la rémunération pour ces employés.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 pour Finance and Operations
+### <a name="platform-update-24-for-finance-and-operations"></a>Mise à jour de la plateforme 24 pour Finance and Operations
 
 Pour en savoir plus sur Platform Update 24 pour Microsoft Dynamics 365 Finance and Operations (mars 2019), voir [Fonctionnalités d'aperçu dans Finance and Operations Platform Update 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
@@ -98,19 +100,19 @@ Pour mettre à jour votre modèle existant, procédez comme suit.
 
     - **Postes d'une mission aux postes :** supprimez cette mise en correspondance.
     - **Attribution des postes d'une mission au poste parent des missions :** supprimez cette mise en correspondance.
-    - **Postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Poste de base** de Finance and Operations. Déplacez-le au poste 7 dans la séquence.
+    - **Postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service à l'entité **Poste de base** de Finance and Operations. Déplacez-le au poste 7 dans la séquence.
 
         [![Mise en correspondance des postes d'une mission avec le poste de base](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Postes d'une mission aux détails du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Détails du poste** de Finance and Operations. Déplacez-le au poste 8 dans la séquence.
+    - **Détails des postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Détails des postes d'une mission** Common Data Service à l'entité **Poste de base** de Finance and Operations. Déplacez-le au poste 8 dans la séquence.
 
         [![Mise en correspondance des postes d'une mission avec les détails du poste](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Postes d'une mission aux durées du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Durées du poste** de Finance and Operations.
+    - **Durées des postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Durées des postes d'une mission** Common Data Service à l'entité **Poste de base** de Finance and Operations.
 
         [![Mise en correspondance des postes d'une mission avec les durées du poste](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Postes d'une mission aux hiérarchies du poste :** ajoutez une nouvelle mise en correspondance depuis l'entité **Postes d'une mission** Common Data Service vers l'entité **Hiérarchies du poste** de Finance and Operations. Sélectionnez **Requête avancée** pour rendre la requête avancée disponible pour votre projet.
+    - **Hiérarchies des postes d'une mission au poste de base :** ajoutez une nouvelle mise en correspondance depuis l'entité **Hiérarchies des postes d'une mission** Common Data Service à l'entité **Poste de base** de Finance and Operations. Sélectionnez **Requête avancée** pour rendre la requête avancée disponible pour votre projet.
 
        [![Bouton de requête avancée](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Pour mettre à jour votre modèle existant, procédez comme suit.
         [![Ajouter une commande de colonne conditionnelle](./media/Add-column.png)](./media/Add-column.png)
 
     6. Dans la boîte de dialogue **Ajouter une colonne conditionnelle**, saisissez **HIERARCHYTYPENAME** comme nom de nouvelle colonne.
-    7. Dans la partie **Si** de la condition, sélectionnez n'importe quel champ, utilisez **égal à** comme relation, puis saisissez n'importe quelle valeur. Dans les parties ***Puis** et **Sinon** de la condition, spécifiez la valeur par défaut. Dans ce cas, saisissez **Ligne** dans les deux parties.
+    7. Dans la partie **Si** de la condition, sélectionnez n'importe quel champ, utilisez **égal à** comme relation, puis saisissez n'importe quelle valeur. Dans les parties **Puis** et **Sinon** de la condition, spécifiez la valeur par défaut. Dans ce cas, saisissez **Ligne** dans les deux parties.
 
         [![Boîte de dialogue Ajouter une colonne conditionnelle](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

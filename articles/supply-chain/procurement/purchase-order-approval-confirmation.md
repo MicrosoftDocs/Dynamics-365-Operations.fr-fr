@@ -20,11 +20,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018811"
+ms.locfileid: "4428208"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approuver et passer en revue des commandes fournisseur
 
@@ -35,7 +35,7 @@ Cette rubrique décrit les statuts par lesquels passe une commande fournisseur (
 Après avoir créé une commande fournisseur (CF), celle-ci peut devoir passer par un processus d’approbation. Une fois que le fournisseur a accepté la commande, la CF passe au statut **Confirmée**.
 
 ## <a name="approval-of-purchase-orders"></a>Approbation de commandes fournisseur
-Les CF qui n'utilisent pas la gestion des modifications ont un statut **Approuvée** dès qu'elles sont créées, les CF qui utilisent la gestion des modifications ont un statut **Brouillon** lorsqu'elles sont créées. Une commande fournisseur qui a été créée lors de la confirmation d'un ordre prévisionnel de la planification est toujours définie sur **Approuvée** , quels que soient les paramètres de gestion des modifications. Une CF crée des mouvements de stock uniquement lorsqu’elle atteint le statut **Approuvée**. Par conséquent, ce stock n'apparaît pas comme disponible pour la réservation ou le marquage tant que la commande n'est pas acceptée.
+Les CF qui n'utilisent pas la gestion des modifications ont un statut **Approuvée** dès qu'elles sont créées, les CF qui utilisent la gestion des modifications ont un statut **Brouillon** lorsqu'elles sont créées. Une commande fournisseur qui a été créée lors de la confirmation d'un ordre prévisionnel de la planification est toujours définie sur **Approuvée**, quels que soient les paramètres de gestion des modifications. Une CF crée des mouvements de stock uniquement lorsqu’elle atteint le statut **Approuvée**. Par conséquent, ce stock n'apparaît pas comme disponible pour la réservation ou le marquage tant que la commande n'est pas acceptée.
 
 Vous activez la gestion des modifications pour les CF en définissant l'option **Activer la gestion des modifications** sur la page **Paramètres d’approvisionnement**. Lorsque la gestion des modifications est activée, les CF doivent passer par un workflow d’approbation après avoir été terminées. Supply Chain Management a un éditeur de processus de workflow dans lequel vous pouvez définir un workflow pour représenter votre processus d’approbation. Ce workflow peut inclure des règles d’approbation automatique, des règles qui déterminent qui sera affecté pour approuver certaines CF et les règles de transmission d’un workflow qui a été en attente d’approbation pendant une longue période. Vous pouvez activer le processus de gestion des modifications pour tous les fournisseurs ou pour des fournisseurs spécifiques. Vous pouvez également définir le processus de sorte qu’il puisse être substitué pour des CF individuelles.
 
@@ -67,7 +67,7 @@ Un fournisseur peut demander une sorte de garantie que le paiement sera effectu�
 ## <a name="changing-purchase-orders"></a>Modification des commandes fournisseur
 Dans certaines situations, vous devrez peut-être modifier une CF après qu’elle ait atteint un statut d’approbation **Approuvée** ou **Confirmée**.
 
-Si la CF a été créée à l’aide d’un processus de gestion des changements, vous pouvez la modifier en rappelant la commande ou, si la commande a déjà été approuvée, à l’aide de l'action **Demande la modification**. Dans ce cas, le statut d’approbation est redéfini sur **Brouillon** , et vous pouvez ensuite modifier la commande. Une fois que vous avez terminé vos modifications, vous devez envoyer la CF pour une nouvelle approbation. Vous pouvez configurer les types de modifications qui nécessitent une nouvelle approbation à l’aide d’une règle de stratégie **Règle de nouvelle approbation pour les commandes fournisseur** sur la page **Stratégies d’achat**.
+Si la CF a été créée à l’aide d’un processus de gestion des changements, vous pouvez la modifier en rappelant la commande ou, si la commande a déjà été approuvée, à l’aide de l'action **Demande la modification**. Dans ce cas, le statut d’approbation est redéfini sur **Brouillon**, et vous pouvez ensuite modifier la commande. Une fois que vous avez terminé vos modifications, vous devez envoyer la CF pour une nouvelle approbation. Vous pouvez configurer les types de modifications qui nécessitent une nouvelle approbation à l’aide d’une règle de stratégie **Règle de nouvelle approbation pour les commandes fournisseur** sur la page **Stratégies d’achat**.
 
 Si une partie de la quantité commandée d'une ligne de CF a été livrée, vous ne pouvez pas modifier la quantité commandée lorsque la commande fournisseur est définie sur **Brouillon**. Cependant, vous pouvez modifier **Livrer quantité restante** sur la ligne de la commande fournisseur dont le statut est défini sur **Brouillon**.
 
@@ -80,7 +80,7 @@ Une CF peut être annulée à l'aide de l'action **Annuler** dans l'en-tête.
 
 Si la quantité a été partiellement enregistrée, reçue ou facturée, seule la quantité restante qui n'a pas été enregistrée, reçue, ou non facturée peut être annulée. La quantité de la commande est alors réduite en conséquence. Lorsque la quantité de la ligne est mise à jour, le statut de la ligne est également mise à jour. Par exemple, la quantité originale sur la ligne est de 5, et une quantité de 3 est reçue. Dans ce cas, seuls deux peuvent être annulés. La ligne est alors mise à jour à l'état **Reçu**.
 
-Si un solde de livraison est ajouté à la ligne de commande, et que celui-ci dépasse la quantité de la ligne de commande, l'action **Annuler** n'annule pas la quantité excédentaire. Au lieu de cela, la ligne est conservée dans l'état **Commande en cours** , car elle a une quantité restante. Par exemple, la quantité originale sur la ligne est de 5, et la quantité restante à livrer est de 7. Si la commande est annulé, cinq sont annulés, et une quantité de 2 reste, comme vous pouvez le voir dans les mouvements de stock.
+Si un solde de livraison est ajouté à la ligne de commande, et que celui-ci dépasse la quantité de la ligne de commande, l'action **Annuler** n'annule pas la quantité excédentaire. Au lieu de cela, la ligne est conservée dans l'état **Commande en cours**, car elle a une quantité restante. Par exemple, la quantité originale sur la ligne est de 5, et la quantité restante à livrer est de 7. Si la commande est annulé, cinq sont annulés, et une quantité de 2 reste, comme vous pouvez le voir dans les mouvements de stock.
 
 Pour annuler la quantité complète sur une ligne de CF, vous devez annuler la quantité du solde de livraison de la ligne. La ligne est alors mise à jour à l'état **Annulé**.
 

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818248"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665270"
 ---
 # <a name="store-selector-module"></a>Module du sélecteur de magasins
 
@@ -65,6 +65,9 @@ Pour que ce scénario fonctionne, les produits doivent être configurés de sort
 L’image suivante montre un exemple de module du sélecteur de magasins utilisé sur un PDP.
 
 ![Exemple d’un module du sélecteur de magasins utilisé sur un PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Dans la version 10.0.16 et ultérieure, une nouvelle fonctionnalité peut être activée qui permet à une organisation de définir plusieurs modes de ramassage d'options de livraison pour les clients.  Si cette fonctionnalité est activée, le sélecteur de magasin et d'autres modules d'e-commerce seront améliorés pour permettre à l'acheteur de choisir parmi plusieurs options de livraison de ramassage potentielles si elles sont configurées.  Pour en savoir plus sur cette fonctionnalité, reportez-vous à [cette documentation](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Mode Recherche de magasins
 

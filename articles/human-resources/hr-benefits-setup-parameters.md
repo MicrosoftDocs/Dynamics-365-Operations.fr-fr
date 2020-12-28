@@ -1,9 +1,9 @@
 ---
-title: Configuration des paramètres de gestion des avantages
-description: Configurez les paramètres de gestion des avantages dans Microsoft Dynamics 365 Human Resources.
+title: Définir les paramètres de gestion des avantages et de libre service des employés pour toutes les entreprises
+description: Configurer les paramètres de gestion des avantages et de libre service des employés dans Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
-ms.date: 07/16/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057026"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692695"
 ---
-# <a name="set-benefits-management-parameters"></a>Définir les paramètres de gestion des avantages
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Définir les paramètres de gestion des avantages et de libre service des employés pour toutes les entreprises
 
-Avant de pouvoir configurer des plans de congés dans Microsoft Dynamics 365 Human Resources, vous devez configurer les paramètres de gestion des avantages. Ces paramètres définissent les valeurs par défaut, les codes motif et d'autres options.
+Avant de pouvoir configurer des plans d'avantages dans Microsoft Dynamics 365 Human Resources, vous devez configurer les paramètres de gestion des avantages. Ces paramètres définissent les valeurs par défaut, les codes motif et d'autres options. 
 
 ## <a name="configure-general-parameters"></a>Configuration des paramètres généraux
 
-1. Dans l'espace de travail **Gestion des avantages** , sous **Configuration** , sélectionnez **Paramètres partagés Human Resources**.
+1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres partagés Human Resources**.
 
-2. Dans l'onglet **Général** , spécifiez les valeurs pour les champs suivants :
+2. Dans l'onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants :
 
    | Champ | Description |
    | --- | --- |
@@ -45,22 +45,26 @@ Avant de pouvoir configurer des plans de congés dans Microsoft Dynamics 365 Hum
    | **Modifier le taux du code motif** | Code motif à utiliser lors de l'annulation et de la réouverture d'un plan d'avantages des employés pendant le processus de mise à jour du changement de taux. Il indique quels enregistrements ont été modifiés par le processus de mise à jour du changement de taux. |
    | **Salaire annuel avec avantages** | Cela vous permet de définir un montant de **Salaire annuel des avantages sociaux** pour un employé. Human Resources utilise le montant **Salaire annuel des avantages sociaux** lors de la détermination des montants de couverture, au lieu du montant annuel de la rémunération fixe. |
    | **Nouvelle embauche admissible** | Spécifie si les nouvelles embauches sont admissibles. |
-   | **Période d'inscription du nouvel employé** | Période pendant laquelle la nouvelle inscription est autorisée.</br></br>**Remarque**  : ce paramètre remplace toute nouvelle période d'inscription à l'embauche que vous avez définie dans la règle d'admissibilité du plan. |
+   | **Période d'inscription du nouvel employé** | Période pendant laquelle la nouvelle inscription est autorisée.</br></br>**Remarque** : ce paramètre remplace toute nouvelle période d'inscription à l'embauche que vous avez définie dans la règle d'admissibilité du plan. |
    | **Fréquence de paiement par défaut** | La fréquence de paie par défaut à utiliser lorsque de nouveaux employés sont ajoutés. |
    | **Événements de vie activés** | Active les événements de vie. |
    | **Masquer les écrans d'avantages existants** | Vous permet de masquer les anciens écrans d'avantages. |
+   | **Vérification de l'avantage** | Texte de vérification à utiliser lors du paiement des avantages en libre-service. |
+   | **Sélectionner automatiquement les bénéficiaires** | Spécifie s'il faut sélectionner automatiquement les personnes à charge et les bénéficiaires en fonction de leur éligibilité aux options du plan. |
 
 3. Sélectionnez **Enregistrer**.
 
-## <a name="configure-employee-self-service-parameters"></a>Configurer les paramètres du libre-service employé.
+## <a name="configure-employee-self-service-parameters"></a>Configurer les paramètres du libre service employé
 
-1. Dans l'espace de travail **Gestion des avantages** , sous **Configuration** , sélectionnez **Paramètres Human Resources**.
+1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
 
-2. Dans l'onglet **Gestion des avantages** , spécifiez les valeurs pour les champs suivants :
+2. Dans l'onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants :
 
-   | Champ | Description  |
+   | Champ | Description |
    | --- | --- |
    | **Vérification de l'avantage** | Texte de vérification à utiliser lors du paiement des avantages en libre-service. |
    | **Sélectionner automatiquement les bénéficiaires** | Spécifie s'il faut sélectionner automatiquement les personnes à charge et les bénéficiaires en fonction de leur éligibilité aux options du plan. |
 
 3. Sélectionnez **Enregistrer**.
+
+

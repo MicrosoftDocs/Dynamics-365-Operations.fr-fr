@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055402"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517158"
 ---
 # <a name="breadcrumb-module"></a>Module de piste de navigation
 
@@ -46,7 +46,7 @@ L’image suivante montre un exemple de module de piste de navigation qui montre
 
 ## <a name="breadcrumb-module-settings"></a>Paramètres du module de piste de navigation
 
-Le module de piste de navigation repose sur le **Type d’affichage de la piste de navigation sur la PDP** , qui est défini dans **Paramètres du site \> Extensions** dans le générateur de site. Ce paramètre a trois valeurs possibles :
+Le module de piste de navigation repose sur le **Type d’affichage de la piste de navigation sur la PDP**, qui est défini dans **Paramètres du site \> Extensions** dans le générateur de site. Ce paramètre a trois valeurs possibles :
 
 - **Afficher la hiérarchie de catégories** – Lorsque cette valeur est sélectionnée, le module de piste de navigation affichera la hiérarchie complète des catégories du produit affiché sur la page PDP.
 - **Afficher Retour aux résultats** – Lorsque cette valeur est sélectionnée, le module de piste de navigation affiche un lien « Retour aux résultats » sur une PDP si l’utilisateur a ouvert la PDP à partir d’un module qui autorise un lien « Retour aux résultats ». Cette fonctionnalité est disponible lorsque les utilisateurs naviguent à partir des pages de catégorie, de recherche, de liste et de liste de recommandations. Pour prendre en charge cette fonctionnalité, les modules de collection de produits et de résultats de recherche ont une propriété nommée **Autoriser le retour aux résultats sur les PDP**. Cette propriété vous donne la flexibilité de définir quels modules doivent prendre en charge la fonctionnalité de lien « Retour aux résultats » sur la PDP. Par exemple, lorsque **Retour aux résultats** est sélectionné pour le paramètre **Type d’affichage de la piste de navigation sur la PDP** du module de piste de navigation, et que **Autoriser le retour aux résultats sur la PDP** est sélectionné pour le module de résultats de recherche de la page de recherche, un lien « Retour aux résultats » est affiché lorsque les utilisateurs naviguent de la page de recherche vers une page PDP.
@@ -57,7 +57,7 @@ Le module de piste de navigation repose sur le **Type d’affichage de la piste 
 
 ## <a name="breadcrumb-module-properties"></a>Propriétés du module de piste de navigation
 
-| Nom de la propriété | Valeurs | Description  |
+| Nom de la propriété | Valeurs | Description |
 |---------------|--------|-------------|
 | Racine | Texte ou lien| Cette propriété facultative spécifie le texte du lien et une cible de lien pour la racine du site de la piste de navigation. Si cette propriété n’est pas configurée, aucune racine n’est définie. |
 | Lien de piste de navigation | Lien | Cette propriété facultative spécifie des liens pour une piste de navigation configurée manuellement, si ces liens sont requis. Les liens apparaissent dans l’ordre dans lequel ils sont répertoriés. |
@@ -66,18 +66,18 @@ Le module de piste de navigation repose sur le **Type d’affichage de la piste 
 
 Pour ajouter un module de piste de navigation à une page PDP et définir les propriétés requises, procédez comme suit.
 
-1. Accédez à **Paramètres du site /> Extensions** puis, pour le paramètre **Type d’affichage de la piste de navigation sur la PDP** , sélectionnez **Afficher la hiérarchie de catégories**.
+1. Accédez à **Paramètres du site \> Extensions** puis, pour le paramètre **Type d’affichage de la piste de navigation sur la PDP**, sélectionnez **Afficher la hiérarchie de catégories**.
 1. Accédez à **Modèles** et sélectionnez le modèle PDP.
-1. Dans l’emplacement **Conteneur** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension ( **...** ), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Piste de navigation** , puis sélectionnez **OK**.
-1. Sélectionnez **Enregistrer** , **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
+1. Dans l’emplacement **Conteneur** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Piste de navigation**, puis sélectionnez **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages** et ouvrez une page PDP qui utilise le modèle PDP. Si aucune page PDP n’existe encore, créez-en une.
-1. Dans l’emplacement **Conteneur** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension ( **...** ), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module** , sélectionnez le module **Piste de navigation** , puis sélectionnez **OK**.
-1. Dans le volet des propriétés de l’emplacement **Piste de navigation** , sous **Racine** , sélectionnez **Texte du lien**.
-1. Dans la boîte de dialogue **Texte du lien** , entrez **Accueil** puis, sous **Cible du lien** , sélectionnez **Ajouter un lien**.
-1. Dans la boîte de dialogue **Ajouter un lien** , sélectionnez un lien pour la racine de la piste de navigation, puis sélectionnez **OK**.
-1. Cliquez sur **Enregistrer** , puis sur **Aperçu** pour afficher un aperçu de la page.
+1. Dans l’emplacement **Conteneur** qui contient le module de zone d’achat, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Piste de navigation**, puis sélectionnez **OK**.
+1. Dans le volet des propriétés de l’emplacement **Piste de navigation**, sous **Racine**, sélectionnez **Texte du lien**.
+1. Dans la boîte de dialogue **Texte du lien**, entrez **Accueil** puis, sous **Cible du lien**, sélectionnez **Ajouter un lien**.
+1. Dans la boîte de dialogue **Ajouter un lien**, sélectionnez un lien pour la racine de la piste de navigation, puis sélectionnez **OK**.
+1. Cliquez sur **Enregistrer**, puis sur **Aperçu** pour afficher un aperçu de la page.
 1. Sélectionnez **Terminer la modification** pour archiver le modèle, puis **Publier** pour le publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires

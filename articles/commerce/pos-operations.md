@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081337"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594111"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Opérations du point de vente (PDV), en ligne et hors connexion
 
@@ -197,6 +197,8 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 | 500 | Annuler la transaction | Permet d'annuler la transaction actuelle. | Oui | Oui | N° | Oui | N° |
 | 916 | Windows Workflow Foundation | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | N° |
 | 924 | X de caisse pour les cartes bancaires | Cette opération n'est pas prise en charge. | Non applicable | Non applicable | Non applicable | Non applicable | Oui |
+| 311 | Supprimer les remises système des transactions | Supprimez toutes les remises appliquées par le système, y compris les remises basées sur les bons de réduction, de la transaction. Cela ne supprime pas les remises manuelles. | Oui | Oui | Oui | Oui | N° |
+| 312 | Réappliquer les remises système | Réappliquez les remises système sur la transaction si elles ont été supprimées à l'aide de l'opération **Supprimer les remises système de la transaction**. | Oui | Oui | Oui | Oui | N° |
 
 \* L'opération est disponible dans le mode hors connexion uniquement lorsqu'une commande client ou un devis de vente est créé, et uniquement si la création hors connexion des commandes client et des devis de vente est configurée dans le profil de fonctionnalité du PDV. L'opération ne peut pas être effectuée lorsque des commandes sont créées à l'aide du service en temps réel, ou lorsque des commandes sont rappelées ou modifiés.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b73b420c2eb75077814fbfeb6cd17404c7efc11e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915199"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4461223"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Navigation et entrée d'employé simplifiées
 
@@ -68,12 +68,12 @@ Le volet Actions de la page Collaborateur a été réorganisé pour inclure moin
 
 - Travail
 - Personne
-- Quitter
+- Congés
 - Rémunération
 - Avantages
 - Conformité
 
-En outre, un nouvel onglet **Liens** sur la page principale du collaborateur offre aux utilisateurs un emplacement central pour accéder à toutes les informations associées à un collaborateur.
+De plus, un nouvel onglet **Liens** sur la page principale du collaborateur offre aux utilisateurs un emplacement central pour accéder à toutes les informations associées à un collaborateur.
 
 En raison de ces modifications, les informations peuvent apparaître dans un emplacement différent de celui que vous utilisez. Par exemple, les informations sur les salaires qui étaient précédemment affichées dans le formulaire Collaborateur apparaissent maintenant dans le volet Actions sous **Rémunération > Salaire**, et l'onglet **Informations personnelles** a maintenant un bouton **Plus d'informations** pour masquer les champs qui ne sont pas souvent utilisés.
 
@@ -81,7 +81,7 @@ En raison de ces modifications, les informations peuvent apparaître dans un emp
 
 ## <a name="work-history"></a>Historique du travail
 
-L'onglet **Historique du travail** affiche l'historique du travail pour toutes les entités juridiques. Il est disponible pour les employés et les fournisseurs ayant quitté la société, actifs et en attente. Vous pouvez maintenant afficher l'ensemble de l'historique de travail pour les entités juridiques auxquelles vous avez accès. En outre, vous pouvez modifier les informations pour chacune des entrées de l'historique du travail sans modifier le contexte de données. Vous pouvez mettre à jour toutes les informations directement sur la page. 
+L'onglet **Historique du travail** affiche l'historique du travail de toutes les entités juridiques. Il est disponible pour les employés et les fournisseurs ayant quitté la société, actifs et en attente. Vous pouvez maintenant afficher l'ensemble de l'historique de travail pour les entités juridiques auxquelles vous avez accès. En outre, vous pouvez modifier les informations pour chacune des entrées de l'historique du travail sans modifier le contexte de données. Vous pouvez mettre à jour toutes les informations directement sur la page. 
 
 [![Historique du travail](./media/Worker-work-history.png)](./media/Worker-work-history.png)
 

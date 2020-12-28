@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c885602f99995d536d8ff3be43e67578abcda3fc
-ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
+ms.openlocfilehash: 865ddbc6749d3ea29a258f4c772044307c41bf35
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081816"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529112"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-14-2020"></a>Nouveautés ou modifications dans Dynamics 365 Talent (14 janvier 2020)
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
@@ -53,9 +55,9 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 
 | Description | Monnaie |
 | --- | --- |
-| Modifications de l'entité **Poste** | <ul><li>**Région de rémunération** ajoutée</li><li>**Dimensions financières** ajoutées</li></ul> |
-| Modifications de l'entité **Collaborateur** | <ul><li>**Séquence de noms** ajoutée</li><li>**Télétravaille** ajouté</li><li>**Langue** ajoutée</li><li>**Date d'ancienneté** ajoutée</li><li>**Date anniversaire** ajoutée</li><li>**Date d'embauche d'origine** ajoutée</li></ul> |
-| Modifications de l'entité **Emploi** | <ul><li>**Dimensions financières** ajoutées</li><li>**Motif de la fin du contrat** ajouté</li><li>**Date de résiliation** renommée à partir de **Date de transition**</li><li>**Période d'essai** ajoutée</li></ul> |
-| Modifications de l'entité **Adresse du collaborateur** | <ul><li>**Nom de la rue** ajouté</li><li>**Ligne d'adresse 1**, **Ligne d'adresse 2** et **Ligne d'adresse 3** marquées pour suppression</li></ul> |
-| Nouvelles entités de configuration de la rémunération variable | <ul><li>**Type de régime variable de rémunération**</li><li>**Régime variable de rémunération**</li><li>**Règles d'acquisition**</li><li>**Niveau de régime variable de rémunération**</li></ul> |
+| Modifications de l’entité **Poste** | <ul><li>**Région de rémunération** ajoutée</li><li>**Dimensions financières** ajoutées</li></ul> |
+| Modifications de l’entité **Collaborateur** | <ul><li>**Séquence de noms** ajoutée</li><li>**Télétravaille** ajouté</li><li>**Langue** ajoutée</li><li>**Date d’ancienneté** ajoutée</li><li>**Date anniversaire** ajoutée</li><li>**Date d’embauche d’origine** ajoutée</li></ul> |
+| Modifications de l’entité **Emploi** | <ul><li>**Dimensions financières** ajoutées</li><li>**Motif de la fin du contrat** ajouté</li><li>**Date de résiliation** renommée à partir de **Date de transition**</li><li>**Période d’essai** ajoutée</li></ul> |
+| Modifications de l’entité **Adresse du collaborateur** | <ul><li>**Nom de la rue** ajouté</li><li>**Ligne d’adresse 1**, **Ligne d’adresse 2** et **Ligne d’adresse 3** marquées pour suppression</li></ul> |
+| Nouvelles entités de configuration de la rémunération variable | <ul><li>**Type de régime variable de rémunération**</li><li>**Régime variable de rémunération**</li><li>**Règles d’acquisition**</li><li>**Niveau de régime variable de rémunération**</li></ul> |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | <ul><li>**Entité de calendrier de travail** ajoutée</li></ul> |

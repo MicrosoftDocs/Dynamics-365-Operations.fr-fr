@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011416"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668943"
 ---
 # <a name="go-live-faq"></a>FAQ sur le lancement 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique répertorie les questions fréquemment posées sur le lancement d'un projet de mise en œuvre de Dynamics 365 Human Resources. 
 
@@ -76,7 +78,7 @@ Les bases de données sont protégées par des sauvegardes automatiques aux fré
 | Sauvegarde différentielle de base de données | Toutes les 12 à 24 heures |
 | Sauvegarde du journal des transactions | Toutes les 5 à 10 minutes |
 
-Microsoft conserve suffisamment de sauvegardes pour permettre la restauration à un moment donné (PITR) au cours des sept derniers jours. 
+Microsoft conserve suffisamment de sauvegardes pour permettre la restauration à un moment donné (PITR) au cours des 14 derniers jours. 
 
 Pour plus d'informations, voir [En savoir plus sur les sauvegardes de base de données SQL](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 

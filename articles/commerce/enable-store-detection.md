@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533388"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517304"
 ---
 # <a name="enable-location-based-store-detection"></a>Activation de la détection du magasin selon l’emplacement
 
@@ -52,15 +52,15 @@ Pour activer la détection du magasin selon l’emplacement dans Commerce, proc�
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+[Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
-[Création d'un site de commerce électronique](create-ecommerce-site.md)
+[Créer un site d’e-commerce](create-ecommerce-site.md)
 
-[Association d'un site en ligne avec un canal](associate-site-online-store.md)
+[Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
-[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+[Importer des redirections d’URL en bloc](upload-bulk-redirects.md)
 
 [Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
 

@@ -3,7 +3,7 @@ title: Fournir des guides de réalité mixte aux collaborateurs de la production
 description: Cette rubrique explique comment intégrer le module de gestion de production dans Microsoft Dynamics 365 Supply Chain Management avec Dynamics 365 Guides.
 author: cabeln
 manager: tfehr
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
-ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000976"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645142"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fournir des guides de réalité mixte aux collaborateurs de la production
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Les collaborateurs des processus de production bénéficieront d'instructions pertinentes fournies au bon moment dans le cadre de leur travail. Les *Instructions* s'appliquent dans plusieurs domaines de travail, notamment : l'assembly, le service, les opérations, la certification et la sécurité. Dans toutes ces fonctions commerciales de base, des instructions de formation continue peuvent aider les collaborateurs à accomplir plus et à mieux travailler.
 
@@ -124,10 +126,9 @@ Pour configurer l'affichage des guides dans l'atelier, accédez à **Réalité m
 
 Définisse les champs suivants :
 
-- **Sous-domaine Common Data Service** - Ce champ doit déjà afficher une valeur. Ce champ contient le sous-domaine pour l'environnement Common Data Service dans lequel vous créez vos guides. Le sous-domaine est la première partie de l'URL et porte généralement le nom de votre organisation. Par exemple, si votre URL Common Data Service est « contoso.crm4.dynamics.com », vous devez entrer *contoso* ici. Cette valeur est utilisée pour composer les adresses de vos guides et sera encodée dans les codes QR.
+- **URL Microsoft Dataverse** – Spécifiez l'URL de l'environnement Microsoft Dataverse dans lequel vous créez vos guides. Le format est "contoso.crm4.dynamics.com", où la première partie de l'URL porte généralement le nom de votre organisation (par exemple, "contoso"), la deuxième partie est spécifique à la région de données de votre environnement (par exemple "crm4")., et la dernière partie est le domaine (comme "dynamics.com"). Une façon de trouver la bonne URL consiste à accéder à [home.dynamics.com](https://home.dynamics.com/) puis ouvrez votre application Guides. Lorsque Guides s'ouvre, vous verrez l'URL dans la barre d'adresse de votre navigateur (ne prenez que l'URL de base, qui devrait ressembler à l'exemple précédent). Cette valeur est utilisée pour composer les adresses de vos guides et sera encodée dans les codes QR."
 - **Taille du code QR** - Définissez la taille du code QR rendu. Nous vous recommandons de choisir une taille qui remplira la majeure partie de votre écran, mais pas plus. *15* est généralement une valeur adaptée.
 - **Niveau de correction d'erreur de code QR** - Définissez la granularité du code QR. Une granularité plus élevée peut aider à augmenter la fiabilité du code, mais votre **Taille de code QR** doit être suffisamment élévée pour prendre en charge le niveau de détail requis par le niveau de correction sélectionné.
-
 
 > [!TIP]
 > - Les tailles de codes QR qui sont trop élevées pour votre écran prendront un peu plus de temps à s'afficher, puis seront réduites pour s'adapter à votre écran. Cela ne présente aucun avantage.
@@ -196,7 +197,7 @@ Pour ajouter un guide à un produit lancé :
 
 1. Allez à **Gestion des informations de production \> Produits \> Produits lancés**.
 1. Ouvrez le produit auquel vous souhaitez attribuer un guide.
-1. Dans le volet Action, ouvrez l'onglet **Ingénieur** et, dans le groupe **Vue** , sélectionnez **Guides associés**.
+1. Dans le volet Action, ouvrez l'onglet **Ingénieur** et, dans le groupe **Vue**, sélectionnez **Guides associés**.
 1. La page **Guides associés** s'ouvre pour votre produit sélectionné.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille. 
 1. Pour la nouvelle ligne, utilisez la liste déroulante dans la colonne **Nom** pour choisir le guide que vous souhaitez attribuer.
@@ -248,8 +249,8 @@ Pour ajouter un guide à une version de formule :
 1. Accédez à **Gestion d'informations de production \> Nomenclatures et formules \> Formules**.
 1. Ouvrez la formule qui inclut une version à laquelle vous souhaitez affecter un guide.
 1. Ouvrez l'onglet **En-tête** au-dessus du raccourci supérieur.
-1. Sur le raccourci **Versions de formule** , sélectionnez la version à laquelle vous souhaitez affecter un guide.
-1. Dans la barre d'outils **Versions de formule** , sélectionnez **Guides associés**.
+1. Sur le raccourci **Versions de formule**, sélectionnez la version à laquelle vous souhaitez affecter un guide.
+1. Dans la barre d'outils **Versions de formule**, sélectionnez **Guides associés**.
     ![Ouvrez les guides associés à une version de formule sélectionnée](media/instruction-guides-FormulaVersion.png "Ouvrez les guides associés à une version de formule sélectionnée")
 1. La page **Guides associés** s'ouvre pour votre version de formule.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille. 
@@ -297,8 +298,8 @@ Pour ajouter un guide à une version de nomenclature :
 1. Accédez à **Gestion des informations de production \> Nomenclatures et formules \> Nomenclatures**.
 1. Ouvrez la nomenclature qui inclut une version à laquelle vous souhaitez affecter un guide.
 1. Ouvrez l'onglet **En-tête** au-dessus du raccourci supérieur.
-1. Sur le raccourci **Versions de nomenclature** , sélectionnez la version à laquelle vous souhaitez affecter un guide.
-1. Dans la barre d'outils **Versions de nomenclature** , sélectionnez **Guides associés**.
+1. Sur le raccourci **Versions de nomenclature**, sélectionnez la version à laquelle vous souhaitez affecter un guide.
+1. Dans la barre d'outils **Versions de nomenclature**, sélectionnez **Guides associés**.
     ![Ouvrez les guides associés à une version de nomenclature sélectionnée](media/instruction-guides-BOMVersion.png "Ouvrez les guides associés à une version de nomenclature sélectionnée")
 1. La page **Guides associés** s'ouvre pour votre version de nomenclature.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille.
@@ -340,8 +341,8 @@ Pour ajouter un guide à une version de gamme :
 
 1. Accédez à **Contrôle de production \> Toutes les gammes**.
 1. Ouvrez la gamme à laquelle vous souhaitez affecter un guide.
-1. Sur le raccourci **Versions** , sélectionnez la version à laquelle vous souhaitez affecter un guide.
-1. Dans la barre d'outils **Versions** , sélectionnez **Guides associés**.
+1. Sur le raccourci **Versions**, sélectionnez la version à laquelle vous souhaitez affecter un guide.
+1. Dans la barre d'outils **Versions**, sélectionnez **Guides associés**.
     ![Ouvrez les guides associés à une version de gamme sélectionnée](media/instruction-guides-RouteVersion.png "Ouvrez les guides associés à une version de gamme sélectionnée")
 1. La page **Guides associés** s'ouvre pour votre version de nomenclature.
 1. Sélectionnez **Ajouter** dans le volet Action pour ajouter une nouvelle ligne à la grille.
@@ -365,10 +366,10 @@ Pour ajouter un guide à une relation d'opération de gamme :
 
 1. Accédez à **Contrôle de production \> Toutes les gammes**.
 1. Ouvrez la gamme à laquelle vous souhaitez affecter un guide.
-1. Dans le volet Action, ouvrez l'onglet **Gamme** et, dans le groupe **Gérer** , sélectionnez **Détails de gamme**.
+1. Dans le volet Action, ouvrez l'onglet **Gamme** et, dans le groupe **Gérer**, sélectionnez **Détails de gamme**.
 1. La page **Détails de gamme** s'ouvre pour votre gamme sélectionnée.
 1. Dans la grille supérieure, sélectionnez l'opération pour laquelle vous souhaitez fournir des conseils.
-1. Dans la grille du bas, sélectionnez une relation spécifique (ou la relation générique **Tout** ).
+1. Dans la grille du bas, sélectionnez une relation spécifique (ou la relation générique **Tout**).
     ![Sélectionner une opération puis une relation](media/instruction-guides-RouteOperationRelation.png "Sélectionner une opération puis une relation")
 1. Au-dessus de la grille inférieure, ouvrez l'onglet **Guides associés**.  ![L'onglet Guides associés](media/instruction-guides-RouteOperationRelation-AddGuide.png "L'onglet Guides associés")
 1. Sélectionnez **Ajouter** à partir de la barre d'outils en haut de la grille inférieure pour ajouter une nouvelle ligne à la grille.

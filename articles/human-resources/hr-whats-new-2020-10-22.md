@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5c66d8695ee0ff41e81c699a5d5a37075470059
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107534"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529980"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 22 octobre 2020
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -52,10 +54,10 @@ Les correctifs de bogues suivants sont compris dans cette version.
 > [!NOTE]
 > Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
 
-| Numéro du problème| Sortie  | Description |
+| Numéro du problème| Sortie  | Description|
 | --- | --- | --- |
 | 437922 | L'importation d'heures FMLA à l'aide de l'entité DMF entraîne une erreur de lecture seule. | L'utilisation de l'entité Heures FMLA pour importer les heures associées à un cas FMLA a échoué. Nous avons ajouté une logique pour nous assurer que les heures importées ne dépassent pas les heures restantes pour le cas. |
-| 512019 | Montant de **Dernier report** incorrect. | Sur la page **Congés** , la modification de la **Date de référence** au premier jour de la prochaine période fiscale a affiché un montant de **Dernier report** incorrect pour le type **Congé annuel**. Il affiche maintenant le montant correct. |
+| 512019 | Montant de **Dernier report** incorrect. | Sur la page **Congés**, la modification de la **Date de référence** au premier jour de la prochaine période fiscale a affiché un montant de **Dernier report** incorrect pour le type **Congé annuel**. Il affiche maintenant le montant correct. |
 | 458639 | L'entité **Contacts collaborateurs** ne prend pas en charge le mode de suivi des modifications. | Nous avons mis à jour l'entité **Contacts collaborateurs** afin que vous puissiez l'utiliser pour apporter vos scénarios BYOD.|
 | 505347 | Les responsables de la formation pouvaient soumettre une demande de congé pour un employé lorsque la fonction de collaborateur simplifié était activée. | Les rôles autres qu'assistant RH et responsable RH ne sont pas autorisés à soumettre des demandes de congés pour les employés. |
 | 513490 | Journalisation de la gestion des avantages : ajoutez la journalisation pour les plans sans options de couverture. | Nous avons activé les résultats de journalisation pour **Plan sans options de couverture**. Ils s'affichent maintenant dans la table **Résultats du processus** et sont triés correctement pour s'afficher en haut. |

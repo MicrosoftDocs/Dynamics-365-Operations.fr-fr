@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983621"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517450"
 ---
 # <a name="manage-robotstxt-files"></a>Gérer les fichiers robots.txt
 
@@ -90,13 +90,13 @@ Pour supprimer un fichier robots.txt sur votre site dans Commerce, procédez com
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Déploiement d'un nouveau site de commerce électronique](deploy-ecommerce-site.md)
+[Déployer un nouveau client e-commerce](deploy-ecommerce-site.md)
 
-[Création d'un site de commerce électronique](create-ecommerce-site.md)
+[Créer un site d’e-commerce](create-ecommerce-site.md)
 
-[Association d'un site en ligne avec un canal](associate-site-online-store.md)
+[Associer un site Dynamics 365 Commerce avec un canal en ligne](associate-site-online-store.md)
 
-[Importer des redirections d'URL en bloc](upload-bulk-redirects.md)
+[Importer des redirections d’URL en bloc](upload-bulk-redirects.md)
 
 [Configurer un client B2C dans Commerce](set-up-B2C-tenant.md)
 

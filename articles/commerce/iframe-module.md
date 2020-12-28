@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818196"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665394"
 ---
 # <a name="iframe-module"></a>Module iframe
 
@@ -35,7 +35,7 @@ Cette rubrique couvre le module iframe et décrit comment l’ajouter aux pages 
 
 Un module iframe fournit un iframe (cadre incorporé) qui héberge du contenu externe sur un site. Par exemple, il peut être utilisé pour héberger une vidéo YouTube ou une visionneuse de fichiers PDF sur une page de site. 
 
-Un module iframe nécessite une URL cible. Il héberge ensuite le contenu de la page cible dans un élément **iframe** HTML. Les URL externes doivent figurer sur la liste d’autorisation (également appelée « liste verte ») conformément aux instructions de la stratégie de sécurité du contenu (CSP) du site. Pour le contenu iframe, les URL doivent être autorisées à l’aide de l’instruction **frame-ancestor**. Pour plus d’informations, voir [Gérer la stratégie de sécurité du contenu (CSP)](manage-csp.md).
+Un module iframe nécessite une URL cible. Il héberge ensuite le contenu de la page cible dans un élément **iframe** HTML. Les URL externes doivent figurer sur la liste d’autorisation conformément aux instructions de la stratégie de sécurité du contenu (CSP) du site. Pour le contenu iframe, les URL doivent être autorisées à l’aide de l’instruction **frame-ancestor**. Pour plus d’informations, voir [Gérer la stratégie de sécurité du contenu (CSP)](manage-csp.md).
 
 > [!NOTE]
 > Le module iframe est disponible dans Dynamics 365 Commerce version 10.0.13.

@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
 ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832556"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461205"
 ---
 # <a name="create-a-hiring-process-template-in-attract"></a>Créer un modèle de processus de recrutement dans Attract
 
@@ -39,7 +39,7 @@ Les organisations peuvent décider si les membres de l'équipe ou seuls les admi
 
 ## <a name="default-template"></a>Modèle par défaut
 
-Seuls les administrateurs peuvent définir le modèle par défaut. Le modèle par défaut est utilisée si un modèle n'est pas sélectionné lorsqu'une mission est créée. Pour définir le modèle par défaut, accédez à **Centre d'administration** \> **Gestion des modèles**. Sur la fiche du modèle qui doit être le modèle par défaut, sélectionnez le bouton (**...**, puis sélectionnez **Définir comme valeur par défaut**.
+Seuls les administrateurs peuvent définir le modèle par défaut. Le modèle par défaut est utilisée si un modèle n'est pas sélectionné lorsqu'une mission est créée. Pour définir le modèle par défaut, accédez à **Centre d'administration** \> **Gestion des modèles**. Sur la fiche du modèle qui doit être le modèle par défaut, sélectionnez le bouton (**...**), puis sélectionnez **Définir comme valeur par défaut**.
 
 ## <a name="create-a-process-template"></a>Créer un modèle de processus
 

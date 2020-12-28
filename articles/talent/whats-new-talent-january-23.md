@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: f97462f088fc1a3cb94f2a34204fc09f1cd66fb0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899126"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461110"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-23-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (23 janvier 2019)
 
@@ -51,5 +51,5 @@ Lorsque vous changez la tâche sur un poste, les champs de tâche seront par dé
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>La période de probation et le calendrier ne s'affichent pas pour les futurs employés.
 Avec cette modification, les champs **Période d'essai** et **Calendrier** ont été ajoutés à la page **Gestion des modifications** pour autoriser une saisie de données pour les futurs et les anciens employés.
 
-### <a name="platform-update-23-for-finance-and-operations"></a>Platform update 23 pour Finance and Operations
-Des correctifs de bogue mineur ont été inclus dans le cadre de Platform Update 23 pour Finance and Operations. Pour en savoir plus, voir [Nouveautés ou modifications dans Dynamics 365 Finance and Operations Platform Update 23 (janvier 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Mise à jour de la plateforme 23 pour Finance and Operations
+Des correctifs de bogue mineur ont été inclus dans le cadre de Platform Update 23 de Finance and Operations. Pour en savoir plus, voir [Nouveautés ou modifications dans Dynamics 365 Finance and Operations Platform Update 23 (janvier 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

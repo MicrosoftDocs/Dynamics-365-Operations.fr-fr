@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461132"
 ---
 # <a name="configure-email-settings-in-attract"></a>Configurer les paramètres d'e-mail dans Attract
 
@@ -34,7 +34,7 @@ Votre marque est un gage de confiance et vous aide à établir la relation avec 
 
 Attract vous permet d'exécuter les actions suivantes :
 
-- Configurer les paramètres d'e-mail afin d'utiliser le compte de service de messagerie Microsoft Exchange de votre société. Ainsi, les candidats savent que les e-mails proviennent de votre société. Par exemple, vous pouvez configurer les paramètres afin que les candidats reçoivent des e-mails de `recruiting@contoso.com` au lieu de `contoso@microsoft.com`.
+- Configurer les paramètres d'e-mail afin d'utiliser le compte de service de messagerie Microsoft Exchange de votre société. Ainsi, les candidats savent que les e-mails proviennent de votre société. Par exemple, vous pouvez configurer les paramètres afin que les candidats reçoivent des e-mails de `recruiting@contoso.com` au lieu de `contoso@microsoft.com`.
 - Créer une personnalisation cohérente pour toutes les communications par e-mail, en définissant un en-tête et un pied de page globaux pour tous les modèles d'e-mails. 
 
 > [!NOTE]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8571c52b98a87751400dab9482168ee370834bcc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: f562d3376fde6a24e6a1e1a3f7f4192cf290ae90
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097013"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594282"
 ---
 # <a name="upload-images"></a>Importer des images
 
@@ -94,4 +94,6 @@ Pour télécharger en bloc un dossier d'images dans le générateur de site, pro
 
 [Rogner les images](dam-crop-images.md)
 
-[Personnaliser les points focaux de l'image](dam-custom-focal-point.md)
+[Personnaliser les points focaux de l’image](dam-custom-focal-point.md)
+
+[Charger et diffuser des fichiers statiques](upload-serve-static-files.md)

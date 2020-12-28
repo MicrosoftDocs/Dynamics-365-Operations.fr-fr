@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832905"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461124"
 ---
 # <a name="create-approve-and-sign-offers-in-attract"></a>Créer, approuver et signer des offres dans Attract
 
@@ -131,7 +131,7 @@ Une fois que le candidat a été notifié qu'une offre a été partagée avec lu
 
 1.  Lorsque tous les documents ont été signés et acceptés individuellement, le candidat doit décider de terminer le processus d'acceptation en cliquant sur **Accepter l'offre** en haut de la page.
 
-1.  Pour refuser l'offre, le candidat doit cliquer sur **Refuser l'offre** en haut de la page, sélectionner un motif approprié, ajouter un commentaire si nécessaire, puis cliquer sur **Refuser**ensuite.
+1.  Pour refuser l'offre, le candidat doit cliquer sur **Refuser l'offre** en haut de la page, sélectionner un motif approprié, ajouter un commentaire si nécessaire, puis cliquer sur **Refuser** ensuite.
 
 1.  Une fois qu'il a accepté ou refusé l'offre, le candidat peut continuer à rester dans la vue de l'offre ou retourner au tableau de bord de candidature.
 

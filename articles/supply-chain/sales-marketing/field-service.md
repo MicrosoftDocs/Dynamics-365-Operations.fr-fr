@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209120"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528897"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Vue d'ensemble de l'intégration à Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Supply Chain Management permet la synchronisation des processus d'entreprise entre Dynamics 365 Supply Chain Management et Dynamics 365 Field Service. Les scénarios d'intégration sont configurés à l'aide de modèles d'intégrateur de données extensibles et de Common Data Service pour activer la synchronisation des processus d'entreprise.
 Les modèles standard peuvent être utilisés pour créer des projets d'intégration personnalisés, dans lesquels des champs standard et personnalisés supplémentaires, ainsi que des entités, peuvent être mis en correspondance pour ajuster l'intégration et satisfaire aux besoins professionnels spécifiques. 
@@ -62,12 +64,12 @@ La fonctionnalité supplémentaire de cette deuxième phase est axée sur la pos
 ![Synchronisation des processus d'entreprise entre Supply Chain Management et Field Service](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>La seconde phase de l'intégration entre Field Service et Supply Chain Management active la synchronisation avec les modèles suivants :
-- Entrepôts (Supply Chain Management vers Field Service) - Entrepôts de Supply Chain Management vers Field Service [requête avancée] 
-- Stock de produit (Supply Chain Management vers Field Service) - Informations au niveau du stock de Supply Chain Management vers Field Service [requête avancée] 
-- Ajustement du stock (Field Service vers Supply Chain Management) - Ajustements de stock de Field Service vers Supply Chain Management [requête avancée] 
-- Transferts de stock (Field Service vers Supply Chain Management) - Transferts de stock de Field Service vers Supply Chain Management [requête avancée] 
+- Entrepôts (Supply Chain Management vers Field Service) – Entrepôts de Supply Chain Management vers Field Service [requête avancée] 
+- Stock de produit (Supply Chain Management vers Field Service) – Informations au niveau du stock de Supply Chain Management vers Field Service [requête avancée] 
+- Ajustement du stock (Field Service vers Supply Chain Management) – Ajustements de stock de Field Service vers Supply Chain Management [requête avancée] 
+- Transferts de stock (Field Service vers Supply Chain Management) – Transferts de stock de Field Service vers Supply Chain Management [requête avancée] 
 - Projets (Supply Chain Management vers Field Service) - Liste de projets de Supply Chain Management vers Field Service 
-- Ordres de travail avec le projet (Field Service vers Supply Chain Management) - Ordres de travail dans Field Service vers les commandes client  dans Supply Chain Management, avec la prise en charge de projet [Requête avancée] 
+- Ordres de travail avec le projet (Field Service vers Supply Chain Management) – Ordres de travail dans Field Service vers les commandes client dans Supply Chain Management, avec la prise en charge de projet [Requête avancée] 
 - Produits Field Service avec unité de stock (Supply Chain Management vers Sales) - « Produits lancés vendables » Supply Chain Management vers « Produits » Sales pour Field Service, y compris l'unité de stock 
 
 ## <a name="system-requirements"></a>Configuration requise

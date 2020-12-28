@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd54695f54b501631f916328c05bfd47e538d50d
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055828"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665221"
 ---
 # <a name="site-selector-module"></a>Module Sélecteur de sites
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre le module de sélecteur de sites et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -47,7 +46,7 @@ L'illustration suivante montre un exemple de module de sélecteur de sites qui f
 
 ## <a name="site-selector-module-properties"></a>Propriétés du module de sélecteur de sites
 
-| Nom de la propriété | Valeur                  | Description  |
+| Nom de la propriété | Valeur                  | Description |
 |---------------|-----------------------|-------------|
 | Titre       | Détails                  | En-tête du module. |
 | Options de site  | Nom, image, URL      | Cette propriété spécifie un nom, un lien vers la page d'accueil du site et une image facultative à afficher pour chaque site inclus dans le module. L'image peut être un drapeau ou une représentation d'un marché, d'une région ou d'un lieu. |

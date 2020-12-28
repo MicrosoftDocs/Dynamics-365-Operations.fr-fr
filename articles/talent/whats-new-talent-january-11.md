@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-11
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d49a4aca368e3de10ae37b56c6d286d78f7f369a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899172"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461181"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-11-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent - Core HR (11 janvier 2019)
 
@@ -45,7 +45,7 @@ Les soldes de congés afficheront le solde actuel des employés. Les futurs sold
 La navigation a été ajoutée pour visualiser les soldes prévues dans les zones suivantes :
   - Carte **Congés** sur l'espace de travail **Libre-service employé**.
   - Carte **Congés et absences** sur l'espace de travail **Libre-service Responsable**.
-  - Page**Congés et absences** sur l'espace de travail **Personnes**.
+  - Page **Congés et absences** sur l'espace de travail **Personnes**.
 
 ### <a name="allow-decimals-for-variable-compensation-plans-cash-plans"></a>Autoriser les décimales pour les régimes de rémunération variable (plans de disponibilités)
 Les primes de disponibilités variables et les plans ont désormais la flexibilité supplémentaire pour les montants et les remplacements pour les valeurs avec des montants en décimaux.

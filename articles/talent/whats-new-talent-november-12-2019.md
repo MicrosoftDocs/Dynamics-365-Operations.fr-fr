@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-11-12
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: eb9448bc4c6ee4c7c594af5cf071835ab66656d0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896656"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461198"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-12-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (12 novembre 2019)
 
@@ -59,4 +59,4 @@ Toutes les nouvelles fonctionnalités restent dans la version préliminaire pend
  
 Parfois, une fonctionnalité intégrale sera activée par défaut et ne pourra pas être désactivée (par exemple, l'espace de travail **Gestion des fonctions**).
  
-Une fois qu'une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s'aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
+Une fois qu’une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s’aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.

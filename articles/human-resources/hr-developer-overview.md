@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091989"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528315"
 ---
 # <a name="overview"></a>Vue d'ensemble
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ce guide du développeur fournit une référence à l'API et aux champs personnalisés. Il fournit également des informations sur l'intégration avec d'autres applications.
 
@@ -40,14 +42,14 @@ Ce guide du développeur fournit une référence à l'API et aux champs personna
 - Configurer l'intégration de données
   - [Choisir une technologie d'intégration de données](hr-admin-integration-choose-technology.md)
   - [Configuration de l'intégration Common Data Service](hr-admin-integration-common-data-service.md)
-  - [Configurer l'intégration avec Finance](hr-admin-integration-finance.md)
-  - [Configurer l'intégration avec Dayforce](hr-admin-integration-dayforce.md)
-  - [Créer une application d'exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
+  - [Configurer l’intégration avec Finance](hr-admin-integration-finance.md)
+  - [Configurer l’intégration avec Dayforce](hr-admin-integration-dayforce.md)
+  - [Créer une application d’exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
   - Intégration avec Office
-    - [Didacticiel pour l'intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Mettre à jour des données d'entité dans Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Didacticiel pour l’intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Mettre à jour des données d’entité dans Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Créer des expériences Ouvrir dans Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Résoudre les problèmes d'intégration Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Résoudre les problèmes d’intégration Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - Référence de l'API d'entité
   - [Authentification](hr-developer-api-authentication.md)

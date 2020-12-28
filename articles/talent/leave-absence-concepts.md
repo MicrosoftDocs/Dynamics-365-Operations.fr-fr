@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 03e2557e29194f17a9a586470ced5b352408b07c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898640"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461190"
 ---
 # <a name="leave-and-absence-concepts"></a>Concepts des congés et des absences
 
@@ -134,7 +134,7 @@ Le solde actuel est le montant de congés disponible pour les demandes de congé
 
 **Paramétrage du plan**
 
-| Date de début du plan | Date d'inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
+| Date de début du plan | Date d’inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
 |-----------------|-----------------|-------------------|----------------------|-----------------------|
 | 1/1/2018        | 1/1/2018        | Annuel            | Date de début du plan      | Fin de la période de régularisation |
 
@@ -152,7 +152,7 @@ Solde actuel (160) = Montant de régularisation (200) – Montant demandé (40)
 
 **Paramétrage du plan**
 
-| Date de début du plan | Date d'inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
+| Date de début du plan | Date d’inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
 |-----------------|-----------------|-------------------|----------------------|-----------------------|
 | 1/1/2018        | 2/1/2018        | Bimensuel       | Date de début du plan      | Fin de la période de régularisation |
 
@@ -170,7 +170,7 @@ Solde actuel (22) = Montant de régularisation (5 × 6) – Montant demandé (8)
 
 **Paramétrage du plan**
 
-| Date de début du plan | Date d'inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
+| Date de début du plan | Date d’inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
 |-----------------|-----------------|-------------------|----------------------|-----------------------|
 | 1/1/2018        | 2/1/2018        | Bimensuel       | Date de début du plan      | Fin de la période de régularisation |
 
@@ -198,7 +198,7 @@ Solde prévu lundi = Solde actuel – Demandes + Régularisations – Ajustement
 
 **Paramétrage du plan**
 
-| Date de début du plan | Date d'inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
+| Date de début du plan | Date d’inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
 |-----------------|-----------------|-------------------|----------------------|-----------------------|
 | 1/1/2018        | 1/1/2018        | Annuel            | Date de début du plan      | Fin de la période de régularisation |
 
@@ -216,7 +216,7 @@ Solde prévu (40) = Montant de régularisations (20) + Solde actuel (40) – Aju
 
 **Paramétrage du plan**
 
-| Date de début du plan | Date d'inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
+| Date de début du plan | Date d’inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
 |-----------------|-----------------|-------------------|----------------------|-----------------------|
 | 1/1/2018        | 2/1/2018        | Bimensuel       | Date de début du plan      | Fin de la période de régularisation |
 
@@ -234,7 +234,7 @@ Solde prévu (35) = Montant de régularisations (5 × 3) + Solde actuel (40) –
 
 **Paramétrage du plan**
 
-| Date de début du plan | Date d'inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
+| Date de début du plan | Date d’inscription | Fréquence de régularisation | Base de la période de régularisation | Date de régularisation    |
 |-----------------|-----------------|-------------------|----------------------|-----------------------|
 | 1/1/2018        | 2/1/2018        | Bimensuel       | Date de début du plan      | Fin de la période de régularisation |
 
@@ -260,7 +260,7 @@ Solde prévu (30) = Montant de régularisations (10 × 1) + Solde actuel (40) �
 
 **Résultats**
 
-| Employé            | Mois de service | Date d'inscription | Date de début | Montant de régularisation | Régularisation de traitement | Bilan |
+| Employé            | Mois de service | Date d’inscription | Date de début | Montant de régularisation | Régularisation de traitement | Bilan |
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3,00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1,00           | 9/1/2018        | 2.53    |
@@ -275,7 +275,7 @@ Solde prévu (30) = Montant de régularisations (10 × 1) + Solde actuel (40) �
 
 **Résultats**
 
-| Employé            | Mois de service | Date d'inscription | Date de début | Montant de régularisation | Régularisation de traitement | Bilan |
+| Employé            | Mois de service | Date d’inscription | Date de début | Montant de régularisation | Régularisation de traitement | Bilan |
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3,00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1,00           | 9/1/2018        | 3,00    |
@@ -290,7 +290,7 @@ Solde prévu (30) = Montant de régularisations (10 × 1) + Solde actuel (40) �
 
 **Résultats**
 
-| Employé            | Mois de service | Date d'inscription | Date de début | Montant de régularisation | Régularisation de traitement | Bilan |
+| Employé            | Mois de service | Date d’inscription | Date de début | Montant de régularisation | Régularisation de traitement | Bilan |
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3,00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1,00           | 9/1/2018        | 2.00    |

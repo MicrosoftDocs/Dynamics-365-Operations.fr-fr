@@ -3,7 +3,7 @@ title: Configurer les entités virtuelles de Common Data Service
 description: Cette rubrique montre comment configurer des entités virtuelles pour Dynamics 365 Human Resources. Générez et mettez à jour des entités virtuelles existantes et analysez les entités générées et disponibles.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058152"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645599"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Configurer les entités virtuelles de Common Data Service
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources est une source de données virtuelle dans Common Data Service. Il fournit des opérations de création, de lecture, de mise à jour et de suppression (CRUD) complètes à partir de Common Data Service et Microsoft Power Platform. Les données des entités virtuelles ne sont pas stockées dans Common Data Service, mais dans la base de données de l'application. 
 
@@ -50,11 +50,23 @@ Les entités virtuelles pour Human Resources ne sont pas les mêmes que les enti
 
 ## <a name="setup"></a>Paramétrage
 
-Suivez ces étapes de configuration pour activer les entités virtuelles dans votre environnement. 
+Suivez ces étapes de configuration pour activer les entités virtuelles dans votre environnement.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>Activer des entités virtuelles dans Human Resources
+
+Tout d'abord, vous devez activer les entités virtuelles dans l'espace de travail **Gestion des fonctionnalités**.
+
+1. Dans Human Resources, sélectionnez **Administration du système**.
+
+2. Sélectionnez la vignette **Gestion des fonctionnalités**.
+
+3. Sélectionnez **Prise en charge d'entités virtuelles dans HR/CDS**, puis sélectionnez **Activer**.
+
+Pour plus d’informations sur l’activation et la désactivation des fonctionnalités en version préliminaire, consultez [Gérer les fonctionnalités](hr-admin-manage-features.md).
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Enregistrez l'application dans Microsoft Azure
 
-Tout d'abord, vous devez inscrire l'application dans le portail Azure afin que la plateforme d'identité Microsoft puisse fournir des services d'authentification et d'autorisation pour l'application et les utilisateurs. Pour plus d'informations sur l'enregistrement des applications dans Azure, voir [Démarrage rapide : enregistrer une application avec la plate-forme d'identité Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Vous devez inscrire votre instance de Human Resources dans le portail Azure afin que la plateforme d'identité Microsoft puisse fournir des services d'authentification et d'autorisation pour l'application et les utilisateurs. Pour plus d'informations sur l'enregistrement des applications dans Azure, voir [Démarrage rapide : enregistrer une application avec la plate-forme d'identité Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Ouvrez le portail [Microsoft Azure](https://portal.azure.com).
 
@@ -62,13 +74,13 @@ Tout d'abord, vous devez inscrire l'application dans le portail Azure afin que l
 
 3. Sélectionnez **Nouvelle inscription**.
 
-4. Dans le champ **Nom** , entrez un nom descriptif pour l'application. Par exemple, **Entités virtuelles Dynamics 365 Human Resources**.
+4. Dans le champ **Nom**, entrez un nom descriptif pour l'application. Par exemple, **Entités virtuelles Dynamics 365 Human Resources**.
 
-5. Dans le champ **URI de redirection** , saisissez l'URL de l'espace de noms de votre instance Human Resources.
+5. Dans le champ **URI de redirection**, saisissez l'URL de l'espace de noms de votre instance Human Resources.
 
 6. Sélectionnez **Enregistrer**.
 
-7. Une fois l'inscription terminée, le portail Azure affiche le volet **Aperçu** d'inscription de l'application, qui comprend son **ID d'application (client)**. Prenez note de l' **ID d'application (client)** à ce stade. Vous saisirez ces informations lorsque vous [Configurerez la source de données d'entité virtuelle](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Une fois l'inscription terminée, le portail Azure affiche le volet **Aperçu** d'inscription de l'application, qui comprend son **ID d'application (client)**. Prenez note de l'**ID d'application (client)** à ce stade. Vous saisirez ces informations lorsque vous [Configurerez la source de données d'entité virtuelle](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
 
 8. Dans le volet de navigation de gauche, sélectionnez **Certificats et secrets**.
 
@@ -87,7 +99,7 @@ Installez l'application Dynamics 365 HR Virtual Entity dans votre environnement 
 
 1. Ouvrez le [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. Dans la liste **Environnements** , sélectionnez l'environnement Power Apps associé à votre instance Human Resources.
+2. Dans la liste **Environnements**, sélectionnez l'environnement Power Apps associé à votre instance Human Resources.
 
 3. Dans la section **Ressources** de la page, sélectionnez **Applications Dynamics 365**.
 
@@ -109,28 +121,40 @@ L'étape suivante consiste à configurer la source de données d'entité virtuel
 
 1. Ouvrez le [Centre d'administration Power Platform](https://admin.powerplatform.microsoft.com).
 
-2. Dans la liste **Environnements** , sélectionnez l'environnement Power Apps associé à votre instance Human Resources.
+2. Dans la liste **Environnements**, sélectionnez l'environnement Power Apps associé à votre instance Human Resources.
 
-3. Sélectionnez l' **URL d'environnement** dans la section **Détails** de la page.
+3. Sélectionnez l'**URL d'environnement** dans la section **Détails** de la page.
 
-4. Dans **Hub état solution** , sélectionnez l'icône **Recherche avancée** en haut à droite de la page de l'application.
+4. Dans **Hub état solution**, sélectionnez l'icône **Recherche avancée** en haut à droite de la page de l'application.
 
-5. Sur la page **Recherche avancée** , dans la liste déroulante **Rechercher** , sélectionnez Configurations de source de données virtuelle **Finance and Operations**.
+5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez Configurations de source de données virtuelle **Finance and Operations**.
 
 6. Sélectionnez **Résultats**.
 
 7. Sélectionnez l'enregistrement **Source de données Microsoft HR**.
 
-8. Entrez les informations requises pour la configuration de la source de données.
+8. Entrez les informations requises pour la configuration de la source de données :
 
-   - **URL cible**  : URL de votre espace de noms Human Resources.
-   - **ID du locataire**  : ID du locataire Azure Active Directory (Azure AD).
-   - **ID d'application AAD**  : ID d'application (client) créé pour l'application enregistrée dans le portail Microsoft Azure. Vous avez reçu ces informations plus tôt au cours de l'étape [Enregistrer l'application dans Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **Secret d'application AAD**  : clé secrète client créée pour l'application enregistrée dans le portail Microsoft Azure. Vous avez reçu ces informations plus tôt au cours de l'étape [Enregistrer l'application dans Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **URL cible** : URL de votre espace de noms Human Resources. Le format de l'URL cible est :
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
 
-9. Sélectionnez **Enregistrer et Fermer**.
+     Par exemple :
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >Assurez-vous d'inclure le caractère "**/**" à la fin de l'URL pour éviter de recevoir une erreur.
+
+   - **ID du locataire** : ID du locataire Azure Active Directory (Azure AD).
+
+   - **ID d'application AAD** : ID d'application (client) créé pour l'application enregistrée dans le portail Microsoft Azure. Vous avez reçu ces informations plus tôt au cours de l'étape [Enregistrer l'application dans Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+
+   - **Secret d'application AAD** : clé secrète client créée pour l'application enregistrée dans le portail Microsoft Azure. Vous avez reçu ces informations plus tôt au cours de l'étape [Enregistrer l'application dans Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![Source de données Microsoft HR](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. Sélectionnez **Enregistrer et Fermer**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>Accorder des autorisations d'application dans Human Resources
 
@@ -143,15 +167,15 @@ Accordez des autorisations pour les deux applications Azure AD dans Human Resour
 
 2. Sélectionnez **Nouveau** pour créer un nouvel enregistrement d'application :
 
-    - Dans le champ **ID client** , entrez l'ID client de l'application que vous avez enregistrée dans le portail Microsoft Azure.
-    - Dans le champ **Nom** , entrez le nom de l'application que vous avez enregistrée dans le portail Microsoft Azure.
-    - Dans le champ **ID utilisateur** , sélectionnez l'ID utilisateur d'un utilisateur avec des autorisations d'administrateur dans Human Resources et l'environnement Power Apps.
+    - Dans le champ **ID client**, entrez l'ID client de l'application que vous avez enregistrée dans le portail Microsoft Azure.
+    - Dans le champ **Nom**, entrez le nom de l'application que vous avez enregistrée dans le portail Microsoft Azure.
+    - Dans le champ **ID utilisateur**, sélectionnez l'ID utilisateur d'un utilisateur avec des autorisations d'administrateur dans Human Resources et l'environnement Power Apps.
 
 3. Sélectionnez **Nouveau** pour créer un second enregistrement d'application :
 
-    - **ID client**  : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Nom**  : Dynamics 365 HR Virtual Entity
-    - Dans le champ **ID utilisateur** , sélectionnez l'ID utilisateur d'un utilisateur avec des autorisations d'administrateur dans Human Resources et l'environnement Power Apps.
+    - **ID client** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Nom** : Dynamics 365 HR Virtual Entity
+    - Dans le champ **ID utilisateur**, sélectionnez l'ID utilisateur d'un utilisateur avec des autorisations d'administrateur dans Human Resources et l'environnement Power Apps.
 
 ## <a name="generate-virtual-entities"></a>Générer des entités virtuelles
 
@@ -162,7 +186,7 @@ Une fois la configuration terminée, vous pouvez sélectionner les entités virt
 2. Sélectionnez l'onglet **Entités virtuelles**.
 
 > [!NOTE]
-> La bascule **Activer l'entité virtuelle** sera définie sur **Oui** automatiquement lorsque toute la configuration requise est terminée. Si la bascule est définie sur **Non** , passez en revue les étapes des sections précédentes de ce document pour vous assurer que toutes les configurations préalables sont terminées.
+> La bascule **Activer l'entité virtuelle** sera définie sur **Oui** automatiquement lorsque toute la configuration requise est terminée. Si la bascule est définie sur **Non**, passez en revue les étapes des sections précédentes de ce document pour vous assurer que toutes les configurations préalables sont terminées.
 
 3. Sélectionnez l'entité ou les entités que vous souhaitez générer dans Common Data Service.
 

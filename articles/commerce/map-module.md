@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817204"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665418"
 ---
 # <a name="map-module"></a>Module Carte
 
@@ -47,7 +47,7 @@ L’image suivante montre un exemple de module Carte utilisé sur une page d’e
 
 ## <a name="module-properties"></a>Propriétés du module
 
-| Nom de la propriété             | Valeur                  | Description  |
+| Nom de la propriété             | Valeur                 | Description |
 |---------------------------|-----------------------|-------------|
 | Titre | Détails | En-tête du module. |
 | Options de punaise : icône par défaut | Image | Image du symbole de punaise à utiliser pour les magasins affichés sur une carte. |
@@ -58,7 +58,7 @@ L’image suivante montre un exemple de module Carte utilisé sur une page d’e
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Ajouter des URL de mappage autorisées aux instructions de la stratégie de sécurité du contenu d’un site
 
-Pour que le module Carte interagisse avec Bing Maps, vous devez vous assurer que les URL de mappage suivantes sont autorisées (également appelées « URL sur liste verte ») conformément à la stratégie de sécurité du contenu (CSP) de votre site. Ce paramétrage est effectué dans le générateur de site Commerce, en ajoutant des URL autorisées à différentes instructions CSP du site (par exemple, **img-src**). Pour plus d’informations, voir [Stratégie de sécurité du contenu](manage-csp.md). 
+Pour que le module Carte interagisse avec Bing Cartes, vous devez vous assurer que les URL de mappage suivantes sont autorisées conformément à la stratégie de sécurité du contenu (CSP) de votre site. Ce paramétrage est effectué dans le générateur de site Commerce, en ajoutant des URL autorisées à différentes instructions CSP du site (par exemple, **img-src**). Pour plus d’informations, voir [Stratégie de sécurité du contenu](manage-csp.md). 
 
 - À la directive **connect-src**, ajoutez **&#42;.bing.com**.
 - À la directive **img-src**, ajoutez **&#42;.virtualearth.net**.

@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413964"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527361"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personnaliser et utiliser le portail client
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les différentes pages disponibles et prêtes à l'emploi dans le portail client. Elle explique ce que font les pages et comment les personnaliser.
 
 Le portail client propose quelques pages web et actions prêtes à l'emploi. Le plan de site suivant donne un aperçu de ces pages web et actions, ainsi que des rôles pouvant effectuer les actions.
 
-![![Plan de site du portail client](media/customer-portal-site-map.png "Plan de site du portail client")](media/customer-portal-site-map.png "Customer portal site map")
+![Plan de site du portail client](media/customer-portal-site-map.png "Plan de site du portail client")
 
 ## <a name="typical-customizations"></a>Personnalisations typiques
 
@@ -62,12 +64,12 @@ Voici les étapes standard pour soumettre une commande à partir du portail clie
     - **Numéro de la demande** – Saisissez le numéro de demande de la commande. Ce champ n'est pas obligatoire.
     - **Expédier vers le pays/ la région** – Entrez le pays ou la région où les articles seront livrés. Ce champ est automatiquement défini pour les utilisateurs non administrateurs.
 
-    ![![Page Informations de commande](media/customer-portal-order-information.png "Page Informations de commande")](media/customer-portal-order-information.png "Order Information page")
+    ![Page Informations de commande](media/customer-portal-order-information.png "Page Informations de commande")
 
 1. Sélectionnez **Suivant**.
 1. Sur la page **Articles**, sélectionnez **Ajouter un article**.
 
-    ![![Page Articles](media/customer-portal-items.png "Page Articles")](media/customer-portal-items.png "Items page")
+    ![Page Articles](media/customer-portal-items.png "Page Articles")
 
 1. Dans la boîte de dialogue **Informations sur l'article**, définissez les champs suivants :
 
@@ -76,14 +78,14 @@ Voici les étapes standard pour soumettre une commande à partir du portail clie
     - **Unité** – Spécifiez l'unité de mesure (par exemple, **unité**, **kg**, ou **caisse**).
     - **Montant net estimé** – La valeur est calculée comme le prix estimé de l'article × la quantité pour l'unité sélectionnée.
 
-    ![![Boîte de dialogue Informations sur l'article](media/customer-portal-item-information.png "Boîte de dialogue Informations sur l'article")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Boîte de dialogue Informations sur l'article](media/customer-portal-item-information.png "Boîte de dialogue Informations sur l'article")
 
 1. Sélectionnez **Soumettre** pour ajouter l'article à la commande.
 1. Répétez les étapes 4 à 6 jusqu'à ce que vous ayez ajouté tous les articles que vous souhaitez commander.
 1. Lorsque vous avez terminé d'ajouter des articles, sélectionnez **Suivant** dans la page **Articles**.
 1. La page **Informations sur la commande** fournit un résumé de la commande. Vérifiez le contenu de la commande et les détails de livraison. Si tout semble correct, sélectionnez **Soumettre** pour soumettre la commande.
 
-    ![![Page Informations de commande](media/customer-portal-order-submit.png "Page Informations de commande")](media/customer-portal-order-submit.png "Order Information page")
+    ![Page Informations de commande](media/customer-portal-order-submit.png "Page Informations de commande")
 
 ### <a name="standard-data-setup"></a>Configuration des données standard
 
@@ -148,19 +150,19 @@ Tous les contrôles du portail client sont intégrés dans les contrôles des po
 
 Le seul contrôle personnalisé inclus dans le modèle de portail client est utilisé pour créer les vignettes sur la page d'accueil.
 
-![![Vignettes sur la page d'accueil](media/customer-portal-home-page-tiles.png "Vignettes sur la page d'accueil")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Vignettes sur la page d'accueil](media/customer-portal-home-page-tiles.png "Vignettes sur la page d'accueil")
 
 Pour modifier les vignettes, procédez comme suit.
 
 1. Ouvrez l'[Application de gestion de portail](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. Dans le volet de navigation sur la gauche, sélectionnez **Modèles de page**.
 
-    ![![Volet de navigation de la gestion du portail](media/customer-portal-nav.png "Volet de navigation de la gestion du portail")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Volet de navigation de la gestion du portail](media/customer-portal-nav.png "Volet de navigation de la gestion du portail")
 
 1. Sélectionnez le modèle de page intitulé **Accueil**.
 1. Dans le champ **Modèle web**, sélectionnez le lien **Accueil** pour ouvrir le code source de cette page.
 
-    ![![Champ Modèle web](media/customer-portal-web-template.png "Champ Modèle web")](media/customer-portal-web-template.png "Web Template field")
+    ![Champ Modèle web](media/customer-portal-web-template.png "Champ Modèle web")
 
 1. Vous devez maintenant voir tout le code source de la page d'accueil et pouvez le modifier selon vos besoins.
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d27104a08cdc899f12942d80e693f3495d90a6ec
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040074"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527408"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 26 septembre 2020
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
@@ -39,7 +41,7 @@ Cette version inclut les nouvelles fonctionnalités et correctifs de bogues suiv
 
 La fonctionnalité suivante est généralement disponible avec cette version :
 
-- **La mise à jour de la plate-forme 10.0.13 est maintenant disponible**  : Pour plus d'informations sur la mise à jour, consultez [Mises à jour de la plate-forme pour la version 10.0.13 des applications Finance and Operations (octobre 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **La mise à jour de la plate-forme 10.0.13 est maintenant disponible** : Pour plus d'informations sur la mise à jour, consultez [Mises à jour de la plate-forme pour la version 10.0.13 des applications Finance and Operations (octobre 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
@@ -48,7 +50,7 @@ Les correctifs de bogues suivants sont compris dans cette version.
 > [!NOTE]
 > Notre objectif est de vous fournir ces informations le plus rapidement possible. Il peut y avoir des mises à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
 
-| Numéro du problème | Sortie | Description  |
+| Numéro du problème | Sortie | Description |
 | --- | --- | --- |
 | 469495 | Mettre à jour la grille et la boîte de dialogue des dimensions financières par défaut | La grille et la boîte de dialogue des dimensions financières sont mises à jour dans Human Resources. |
 | 474887 | L'élément de travail de demande de congé ouvre un lien incorrect dans une décision manuelle | Lorsqu'une configuration de workflow contient une décision manuelle, accéder à la demande de congé depuis **Éléments de travail qui me sont affectés** ouvre le mauvais lien, affichant soit un formulaire vierge, soit une demande de congé créée par l'utilisateur actuel au lieu de celle qui lui est affectée pour la décision manuelle. |

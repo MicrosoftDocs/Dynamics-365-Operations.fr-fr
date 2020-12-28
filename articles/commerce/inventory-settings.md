@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: dfa8b2bdc03e3698feda26932db757421097140d
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817607"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517062"
 ---
 # <a name="apply-inventory-settings"></a>Appliquer les paramètres de stock
 
@@ -46,14 +46,14 @@ Dans le générateur de site Commerce, il est possible de définir des seuils et
 
 Dans Commerce, les paramètres de stock sont définis dans **Paramètres du site \> Extensions \> Gestion du stock** dans le générateur de site. Il existe quatre paramètres de stock, dont l’un est obsolète (déconseillé) :
 
-- **Activer la vérification du stock dans l’application** - Ce paramètre active une vérification du stock des produits. Les modules de zone d’achat, de panier et de prélèvement en magasin vérifieront alors le stock des produits et ne permettront d’ajouter un produit au panier que si le stock est disponible.
+- **Activer la vérification du stock dans l’application** – Ce paramètre active une vérification du stock des produits. Les modules de zone d’achat, de panier et de prélèvement en magasin vérifieront alors le stock des produits et ne permettront d’ajouter un produit au panier que si le stock est disponible.
 - **Niveau de stock basé sur** – Ce paramètre définit la façon dont les niveaux de stock sont calculés. Les valeurs disponibles sont **Total disponible**, **Disponible physique**, et **Seuil de rupture de stock**. Dans Commerce, il est possible de définir des seuils et des plages de stocks pour chaque produit et catégorie. Les API de stock renvoient des informations sur l’inventaire des produits pour les deux propriétés **Total disponible** et **Disponible physique**. Le distributeur décide si la valeur **Total disponible** ou **Disponible physique** doit être utilisée pour déterminer le nombre en stock et les plages correspondantes pour les statuts « en stock » et « en rupture de stock ».
 
-    La valeur **Seuil de rupture de stock** du paramètre **Niveau de stock basé sur** est une valeur ancienne (héritée) et obsolète. Lorsqu’il est sélectionné, le nombre en stock est déterminé à partir des résultats de la valeur **Total disponible**, mais le seuil est défini par le paramètre numérique **Seuil de rupture de stock** décrit plus loin. Ce paramètre de seuil s’applique à tous les produits d’un site de commerce électronique. Si le stock est inférieur au seuil, un produit est considéré comme en rupture de stock. Sinon, il est considéré comme en stock. Les fonctionnalités de la valeur **Seuil de rupture de stock** sont limitées et nous vous déconseillons de l’utiliser dans la version 10.0.12 et les versions ultérieures.
+    La valeur **Seuil de rupture de stock** du paramètre **Niveau de stock basé sur** est une valeur ancienne (héritée) et obsolète. Lorsqu’il est sélectionné, le nombre en stock est déterminé à partir des résultats de la valeur **Total disponible**, mais le seuil est défini par le paramètre numérique **Seuil de rupture de stock** décrit plus loin. Ce paramètre de seuil s’applique à tous les produits d’un site d'e-commerce. Si le stock est inférieur au seuil, un produit est considéré comme en rupture de stock. Sinon, il est considéré comme en stock. Les fonctionnalités de la valeur **Seuil de rupture de stock** sont limitées et nous vous déconseillons de l’utiliser dans la version 10.0.12 et les versions ultérieures.
 
 - **Plages de stock** – Ce paramètre définit les plages de stock pour lesquelles des messages sont affichés sur les modules du site. Il est applicable uniquement si la valeur **Total disponible** ou la valeur **Disponible physique** est sélectionnée pour le paramètre **Niveau de stock basé sur**. Les valeurs disponibles sont **Tout**, **Stock faible et rupture de stock** et **En rupture de stock**.
 
-    - Quand **Tout**est sélectionné, les messages pour toutes les plages de stock, depuis en stock (message « Disponible ») jusqu’à rupture de stock (message « Épuisé »), seront affichés.
+    - Quand **Tout** est sélectionné, les messages pour toutes les plages de stock, depuis en stock (message « Disponible ») jusqu’à rupture de stock (message « Épuisé »), seront affichés.
     - Quand **Stock faible et rupture de stock** est sélectionné, les messages pour toutes les plages de stock, sauf en stock (message « Disponible »), seront affichés.
     - Quand **En rupture de stock** est sélectionné, seul le message « Épuisé » sera affiché.
 

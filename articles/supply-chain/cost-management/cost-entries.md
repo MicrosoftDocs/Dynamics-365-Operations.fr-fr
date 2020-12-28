@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3116f9fd2d1fe6a0967b114a069f495cea6217a1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979778"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4427555"
 ---
 # <a name="cost-entries"></a>Écritures de coût
 
@@ -48,7 +48,7 @@ Un événement de journal de transfert est enregistré. L'événement transfère
 Un événement d'accusé de réception de marchandises est enregistré pour une commande fournisseur. L'événement enregistre 100 pièces de l'article A à un coût unitaire de 10.00 dollars américain (USD). Étant donné que l'article A utilise un numéro de série aux fins du suivi de la Gestion des stocks, un numéro de série unique est créé pour chaque article reçu. Par conséquent, l'événement crée 100 mouvements de stock et une écriture de coût.
 
 ## <a name="cost-entries-page"></a>Page des écritures de coût
-La nouvelle page **Écritures de coût** permet d'afficher et contrôler les enregistrements des quantités et des coûts. Cette page complète les pâges**Mouvement de stock** et **Lettrage de stock**. Les enregistrements sont enregistrés dans l'ordre chronologique pour un événement. Par conséquent, vous pouvez rapidement trouver et contrôler les coûts cumulés d'un événement spécifique ou de tous les événements liés à un document. Voici un exemple :
+La nouvelle page **Écritures de coût** permet d'afficher et contrôler les enregistrements des quantités et des coûts. Cette page complète les pâges **Mouvement de stock** et **Lettrage de stock**. Les enregistrements sont enregistrés dans l'ordre chronologique pour un événement. Par conséquent, vous pouvez rapidement trouver et contrôler les coûts cumulés d'un événement spécifique ou de tous les événements liés à un document. Voici un exemple :
 
 -   Un événement d'accusé de réception de marchandises est enregistré pour l'article A. Cent pièces sont reçues à un coût unitaire de 10,00 USD chacune.
 -   Quelques jours après que l'événement de facture a été enregistré, le coût grimpe à 11,00 USD. Par conséquent, le montant total est de 1 100 €. Un deuxième N° document est créé pour expliquer la différence de 100 USD.

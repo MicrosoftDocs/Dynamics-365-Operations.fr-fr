@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be1e28d0b842184ce3c4f7bd9748f5e76ac67489
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430093"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529850"
 ---
 # <a name="understand-date-and-time-fields"></a>Comprendre les champs de date et d'heure
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Les champs **Date et heure** sont un concept fondamental dans Dynamics 365 Human Resources. Il est important de bien comprendre l'utilisation des données de **Date et heure** dans des écrans Dynamics 365 Human Resources, dans Common Data Service, et dans des sources externes.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Comprendre la différence entre les types de données du champ Date et Date et heure
 
-Les champs**Date et heure** contiennent des informations sur le fuseau horaire, mais pas les champs **Date**. Les champs **Date** affichent les mêmes informations partout. Lorsque vous entrez une date dans un champ **Date**, Human Resources écrit la même date dans la base de données.
+Les champs **Date et heure** contiennent des informations sur le fuseau horaire, mais pas les champs **Date**. Les champs **Date** affichent les mêmes informations partout. Lorsque vous entrez une date dans un champ **Date**, Human Resources écrit la même date dans la base de données.
 
 Lors de l'affichage des données dans un champ de **Date et heure**, Human Resources ajuste la date et l'heure selon le fuseau horaire de l'utilisateur défini dans l'écran **Options utilisateur** (**Commun > Configuration > Options utilisateur**). Il est possible que les informations de date et d'heure que vous entrez dans le champ ne soient pas identiques à celles écrites dans la base de données.
 

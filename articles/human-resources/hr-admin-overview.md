@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443416"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527859"
 ---
 # <a name="overview"></a>Vue d'ensemble
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
 
@@ -37,31 +39,31 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
   - [Supprimer une instance](hr-admin-setup-remove-instance.md)
   - [Processus de mise à jour](hr-admin-setup-update-process.md)
 
-- Configurer l'intégration de données
+- Configurer l’intégration de données
   - [Choisir une technologie d'intégration de données](hr-admin-integration-choose-technology.md)
   - [Configuration de l'intégration Common Data Service](hr-admin-integration-common-data-service.md)
-  - [Configurer l'intégration avec Finance](hr-admin-integration-finance.md)
-  - [Configurer l'intégration avec Dayforce](hr-admin-integration-dayforce.md)
-  - [Créer une application d'exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
+  - [Configurer l’intégration avec Finance](hr-admin-integration-finance.md)
+  - [Configurer l’intégration avec Dayforce](hr-admin-integration-dayforce.md)
+  - [Créer une application d’exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
   - Intégration avec Office
-    - [Didacticiel pour l'intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Mettre à jour des données d'entité dans Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Didacticiel pour l’intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Mettre à jour des données d’entité dans Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Créer des expériences Ouvrir dans Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Résoudre les problèmes d'intégration Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Résoudre les problèmes d’intégration Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Gérer les fonctionnalités](hr-admin-manage-features.md)
 
 - [Configurer et gérer la journalisation de la base de données](hr-admin-database-logging.md)
 
-- Explorer l'interface utilisateur
-  - [Éléments de l'interface utilisateur](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
-  - [Fonctions d'accessibilité](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
-  - [Vue d'ensemble de la gestion des fonctionnalités](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
+- Explorer l’interface utilisateur
+  - [Éléments de l’interface utilisateur](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
+  - [Fonctions d’accessibilité](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
+  - [Vue d’ensemble de la gestion des fonctionnalités](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [FAQ sur le client](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
-  - [Recherche d'actions](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
+  - [Recherche d’actions](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
   - [Syntaxe de requête et de filtrage avancée](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
   - [Configurer et filtrer les espaces de travail](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)
-  - [Afficher côte à côte des pages à l'aide de la fonction Ouvrir dans une nouvelle fenêtre](../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json)
+  - [Afficher côte à côte des pages à l’aide de la fonction Ouvrir dans une nouvelle fenêtre](../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json)
   - [Raccourcis clavier](../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json)
   - [Modifier les bannières ou les images de logo pour les entités juridiques](../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json)
   - [Recherche de navigation](../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json)
@@ -70,7 +72,7 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
   - [Créer et utiliser des champs personnalisés](../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json)
   - [Intégrer Microsoft Power Apps](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
   - [Rechercher des informations à l'aide des recherches](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
-  - [Modification de la date d'une session](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
+  - [Modification de la date d’une session](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
   - [Configurer un fuseau horaire préféré de l'utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Comprendre Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: ac19fca407bd936cb9b7edcfa9f4eb81daf607dd
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e77cc8921f2a8cfa1a48fda589fd20aae00e0fd4
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006216"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690074"
 ---
 # <a name="working-time-calendars"></a>Calendriers de temps de travail
 
@@ -31,7 +31,7 @@ Le calendrier de temps de travail vous permet de créer un calendrier avec les h
 
 ## <a name="setting-up-a-working-time-calendar"></a>Paramétrage d'un calendrier de temps de travail
 
-Les calendriers contiennent les détails de génération, les jours et les heures que vous souhaitez inclure, les jours du calendrier, les temps de travail pour ces jours ainsi que les employés inscrits. 
+Les calendriers contiennent les détails de génération, les jours et les heures à inclure, les jours du calendrier, les temps de travail pour ces jours ainsi que les employés inscrits. 
 
 Pour paramétrer un calendrier, procédez comme suit :
 

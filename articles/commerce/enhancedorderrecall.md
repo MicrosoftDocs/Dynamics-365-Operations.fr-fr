@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974836"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665296"
 ---
 # <a name="recall-order-operation-in-pos"></a>Rappeler l'opération de commande dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-L'opération de rappel de commande dans le point de vente (PDV) Commerce fournit des fonctionnalités de recherche et de filtre de commande mises à jour ainsi que des informations spécifiques à la commande. Cette fonctionnalité est disponible dans les versions de Commerce 10.0.15 et ultérieures.
+L'opération de **rappel de commande** dans le point de vente (PDV) Commerce fournit des fonctionnalités de recherche et de filtre de commande mises à jour ainsi que des informations spécifiques à la commande. Cette fonctionnalité est disponible dans les versions de Commerce 10.0.15 et ultérieures.
 
 Pour activer cette fonctionnalité, activez la fonctionnalité **Rappeler l'opération de commande dans le PDV améliorée** dans l'espace de travail **Gestion des fonctionnalités** au siège de Commerce. Après avoir activé la fonctionnalité, pensez à mettre à jour les [dispositions de l'écran](pos-screen-layouts.md) dans PDV pour profiter de certaines des fonctionnalités modifiées.
 

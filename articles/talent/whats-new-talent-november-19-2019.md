@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896725"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527142"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Nouveautés ou modifications dans Dynamics 365 Talent (19 novembre 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.
 
@@ -41,9 +43,9 @@ Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: 
 
 Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2621. Les numéros entre parenthèses dans certains en-têtes se rapportent aux numéros de support dans Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-31-for-finance-and-operations-apps"></a>Applications Platform update 31 pour Finance and Operations
+### <a name="platform-update-31-for-finance-and-operations-apps"></a>Mise à jour de la plateforme 31 pour les applications Finance and Operations
 
-Pour plus d'informations, voir [Afficher un aperçu des fonctionnalités dans la mise à jour 31 de la plateforme pour les applications Finance and Operations (janvier 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
+Pour plus d'informations, voir [Afficher un aperçu des fonctionnalités dans Platform Update 31 pour les applications Finance and Operations (janvier 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 
 ### <a name="feature-management-workspace-383856"></a>Espace de travail Gestion des fonctions (383856)
 
@@ -53,7 +55,7 @@ Toutes les nouvelles fonctionnalités restent dans la version préliminaire pend
  
 Parfois, une fonctionnalité intégrale sera activée par défaut et ne pourra pas être désactivée (par exemple, l'espace de travail **Gestion des fonctions**).
  
-Une fois qu'une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s'aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
+Une fois qu’une fonction est généralement disponible, elle peut être activée ou désactivée dans les environnements de production. L'espace de travail **Gestion des fonctions** indique quand une fonction d'aperçu devient obligatoire. Cette date est généralement le 1er octobre ou le 1er avril pour s’aligner avec les plans de lancement semi-annuels. Vous ne pouvez pas désactiver les fonctions obligatoires. Tant qu'elle n'est pas obligatoire, vous pouvez activer et désactiver une fonction dans tous les environnements.
 
 ### <a name="message-appears-when-canceled-action-exists-for-a-position-382887"></a>Le message s'affiche lorsque l'action annulée existe pour un poste (382887)
 

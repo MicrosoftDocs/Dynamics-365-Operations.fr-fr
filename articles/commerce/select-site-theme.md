@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817704"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556427"
 ---
 # <a name="select-a-site-theme"></a>Sélectionner un thème pour le site
 
@@ -32,7 +32,7 @@ Cette rubrique décrit la procédure de définir ou de modifier le thème de vot
 
 ## <a name="overview"></a>Vue d'ensemble
 
-La disposition et le style d'un site (par exemple, les polices, les tailles, les couleurs etc.) sont définis par le thème sélectionné et que vous appliquez au site. Un thème est créé et déployé par un développeur de votre société. Pour obtenir une vue d'ensemble des thèmes, voir [Vue d'ensemble de la création de thème](http://). Pour plus d'informations sur la création et le déploiement de thèmes, voir [Créer un thème](http://).
+La disposition et le style d'un site (par exemple, les polices, les tailles, les couleurs etc.) sont définis par le thème sélectionné et que vous appliquez au site. Un thème est créé et déployé par un développeur de votre société. Pour obtenir une vue d'ensemble des thèmes, voir [Vue d'ensemble de la création de thème](e-commerce-extensibility/theming.md). Pour plus d'informations sur la création et le déploiement de thèmes, voir [Créer un thème](e-commerce-extensibility/create-theme.md).
 
 Par défaut, lorsque vous commencez par créer un site, il utilise un thème nommé **Fabrikam**. Ce thème par défaut est disponible dans le cadre de la bibliothèque de modules Commerce. Après avoir déployé des thèmes supplémentaires pour votre site, vous pouvez configurer le site afin qu'il utilise l'un d'entre eux à la place.
 
@@ -63,3 +63,8 @@ Pour sélectionner un thème appliqué à votre site, procédez comme suit.
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
 [Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+
+[Vue d’ensemble de la création de thèmes](e-commerce-extensibility/theming.md)
+
+[Créer un thème](e-commerce-extensibility/create-theme.md)
+
