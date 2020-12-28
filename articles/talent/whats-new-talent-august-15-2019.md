@@ -1,0 +1,63 @@
+---
+title: Nouveautés ou modifications dans Dynamics 365 Talent (13 août 2019)
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Talent.
+author: Darinkramer
+manager: AnnBe
+ms.date: 8/13/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: andreabichsel
+ms.search.scope: Talent
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: dkrame
+ms.search.validFrom: 2019-08-13
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: cfefc6ea654a3012137a1135db5696da39a19048
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4461216"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a><span data-ttu-id="0b78a-103">Nouveautés ou modifications dans Dynamics 365 Talent (13 août 2019)</span><span class="sxs-lookup"><span data-stu-id="0b78a-103">What's new or changed in Dynamics 365 Talent (August 13, 2019)</span></span>
+
+<span data-ttu-id="0b78a-104">Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Talent.</span><span class="sxs-lookup"><span data-stu-id="0b78a-104">This topic describes features that are either new or changed in Dynamics 365 Talent.</span></span>
+
+## <a name="changes-in-attract"></a><span data-ttu-id="0b78a-105">Modifications apportées dans Attract</span><span class="sxs-lookup"><span data-stu-id="0b78a-105">Changes in Attract</span></span>
+<span data-ttu-id="0b78a-106">Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Attract.</span><span class="sxs-lookup"><span data-stu-id="0b78a-106">This release includes minor bug fixes for Dynamics 365 Talent: Attract.</span></span>
+
+## <a name="changes-in-onboard"></a><span data-ttu-id="0b78a-107">Modifications apportées à Onboard</span><span class="sxs-lookup"><span data-stu-id="0b78a-107">Changes in Onboard</span></span>
+<span data-ttu-id="0b78a-108">Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Onboard.</span><span class="sxs-lookup"><span data-stu-id="0b78a-108">This release includes minor bug fixes for Dynamics 365 Talent: Onboard.</span></span>
+
+## <a name="changes-in-core-hr"></a><span data-ttu-id="0b78a-109">Modifications apportées à Core HR</span><span class="sxs-lookup"><span data-stu-id="0b78a-109">Changes in Core HR</span></span>
+<span data-ttu-id="0b78a-110">Les modifications décrites dans cette section s'appliquent au numéro de version 8.1.2421.0.</span><span class="sxs-lookup"><span data-stu-id="0b78a-110">Changes described in this section apply to build number 8.1.2421.0</span></span>
+
+## <a name="in-preview"></a><span data-ttu-id="0b78a-111">En version préliminaire</span><span class="sxs-lookup"><span data-stu-id="0b78a-111">In Preview</span></span>
+
+### <a name="preview-features-are-enabled-only-in-sandbox-instances"></a><span data-ttu-id="0b78a-112">Les fonctions d'aperçu sont uniquement activées dans les instances de bac à sable</span><span class="sxs-lookup"><span data-stu-id="0b78a-112">Preview features are enabled only in sandbox instances</span></span>
+
+<span data-ttu-id="0b78a-113">Lorsque vous provisionnez une nouvelle instance de Talent, vous pouvez indiquer si le type d'instance est **Production** ou **Bac à sable**.</span><span class="sxs-lookup"><span data-stu-id="0b78a-113">When you provision a new instance of Talent, you can specify whether the instance type is **Production** or **Sandbox**.</span></span> <span data-ttu-id="0b78a-114">Les instances du type **Bac à sable** permettent de tester les nouvelles fonctions en avant-première.</span><span class="sxs-lookup"><span data-stu-id="0b78a-114">Instances of the **Sandbox** type allow for early testing of new features.</span></span> <span data-ttu-id="0b78a-115">Toutes les instances de Talent existantes seront mises à jour avec le type d'instance **Production**.</span><span class="sxs-lookup"><span data-stu-id="0b78a-115">All existing Talent instances will be updated to the **Production** instance type.</span></span> <span data-ttu-id="0b78a-116">Si vous souhaitez que l'une de vos instances existantes soit mise à jour avec le type d'instance **Bac à sable** (sandbox), contactez le [Support](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) pour initier la demande de modification.</span><span class="sxs-lookup"><span data-stu-id="0b78a-116">If you want one of your existing instances to be updated to the **Sandbox** instance type, contact [Support](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) to initiate the change request.</span></span>
+
+<span data-ttu-id="0b78a-117">Pour plus d'informations sur la manière dont les modifications sont publiées, voir [Mettre en service Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span><span class="sxs-lookup"><span data-stu-id="0b78a-117">For more information about how changes are published, see [Provision Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
+
+### <a name="view-extended-information-for-performance-in-manager-self-service"></a><span data-ttu-id="0b78a-118">Afficher les informations étendues des performances dans la gestion en libre service</span><span class="sxs-lookup"><span data-stu-id="0b78a-118">View extended information for performance in manager self-service</span></span>
+
+<span data-ttu-id="0b78a-119">Une nouvelle option permet aux responsables d'afficher les performances des états directs et de leurs états étendus.</span><span class="sxs-lookup"><span data-stu-id="0b78a-119">A new option will let managers view the performance of both their direct reports and their extended reports.</span></span> <span data-ttu-id="0b78a-120">Actuellement, les chefs hiérarchiques peuvent affecter et mettre à jour les objectifs de performances et publier de nouvelles révisions.</span><span class="sxs-lookup"><span data-stu-id="0b78a-120">Currently, line managers can assign and update performance goals and issue new reviews.</span></span> <span data-ttu-id="0b78a-121">En outre, les responsables directs et leurs employés peuvent gérer et tenir à jour les journaux de performances pour garantir que le processus d'examen des performances est fluide.</span><span class="sxs-lookup"><span data-stu-id="0b78a-121">In addition, direct managers and their employees can maintain and update performance journals to help ensure that the performance review process goes smoothly.</span></span> <span data-ttu-id="0b78a-122">Lorsque cette modification est mise en œuvre, les responsables peuvent afficher et tenir à jour les informations relatives aux performances pour leurs états étendus en plus de leurs états directs.</span><span class="sxs-lookup"><span data-stu-id="0b78a-122">When this change is implemented, managers will be able to view and maintain performance-related information for their extended reports in addition to their direct reports.</span></span>
+
+## <a name="coming-soon"></a><span data-ttu-id="0b78a-123">Prochainement</span><span class="sxs-lookup"><span data-stu-id="0b78a-123">Coming Soon</span></span>
+
+### <a name="platform-update-29-for-finance-and-operations"></a><span data-ttu-id="0b78a-124">Mise à jour de la plateforme 29 pour Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="0b78a-124">Platform update 29 for Finance and Operations</span></span>
+
+<span data-ttu-id="0b78a-125">Pour plus de détails sur la mise à jour de la plateforme 29 pour Finance and Operations, voir [Fonctionnalités en version préliminaire dans la mise à jour de la plateforme 29 de Dynamics 365 Finance and Operations (octobre 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).</span><span class="sxs-lookup"><span data-stu-id="0b78a-125">For more details about Platform update 29 for Finance and Operations see [Preview features in Dynamics 365 Finance and Operations platform update 29 (October 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).</span></span>
+
+### <a name="streamlined-employee-entry-and-navigation"></a><span data-ttu-id="0b78a-126">Navigation et entrée d'employé simplifiées</span><span class="sxs-lookup"><span data-stu-id="0b78a-126">Streamlined employee entry and navigation</span></span>
+
+<span data-ttu-id="0b78a-127">Les modifications des enregistrements des employés prennent rarement effet immédiatement.</span><span class="sxs-lookup"><span data-stu-id="0b78a-127">Changes to employee records rarely take effect immediately.</span></span> <span data-ttu-id="0b78a-128">Vous devez mettre à jour les données à compter de la date de début de l'employé, qui se situe souvent dans le futur, et vous devez également mettre à jour les informations dans le passé.</span><span class="sxs-lookup"><span data-stu-id="0b78a-128">You need to update data as of the employee's start date, which is often in the future, and you also need to update information in the past.</span></span> <span data-ttu-id="0b78a-129">Avec ce modèle de navigation simplifié, vous pourrez mettre à jour les données futures et passées sans accéder à plusieurs formulaires ou sans modifier le contexte de date.</span><span class="sxs-lookup"><span data-stu-id="0b78a-129">With this streamlined navigation model, you'll be able to update future and past data without navigating to multiple forms or changing the date context.</span></span> <span data-ttu-id="0b78a-130">Cette modification permet également d'afficher de manière dynamique des informations clés dans la zone de bannière supérieure de l'enregistrement de l'employé.</span><span class="sxs-lookup"><span data-stu-id="0b78a-130">This change also dynamically promotes and displays key information in the upper banner area of the employee record.</span></span>
+
+
