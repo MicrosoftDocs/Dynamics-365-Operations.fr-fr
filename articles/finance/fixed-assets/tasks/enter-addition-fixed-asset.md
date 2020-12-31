@@ -1,5 +1,5 @@
 ---
-title: Saisie d'un supplément à une immobilisation
+title: Saisie d’un supplément à une immobilisation
 description: Cette procédure décrit comment ajouter un supplément à une immobilisation existante.
 author: saraschi2
 manager: AnnBe
@@ -17,32 +17,32 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142752"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443185"
 ---
-# <a name="enter-an-addition-to-a-fixed-asset"></a>Saisie d'un supplément à une immobilisation
+# <a name="enter-an-addition-to-a-fixed-asset"></a>Saisie d’un supplément à une immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment ajouter un supplément à une immobilisation existante. L'objectif des ajouts d'immobilisations est de suivre les suppléments, la maintenance, ou les améliorations d'un actif, à titre indicatif uniquement. Toutes les modifications de la valeur ou de la durée de vie de l'immobilisation doivent être apportées séparément.   
+Cette procédure décrit comment ajouter un supplément à une immobilisation existante. L’objectif des ajouts d’immobilisations est de suivre les suppléments, la maintenance, ou les améliorations d’un actif, à titre indicatif uniquement. Toutes les modifications de la valeur ou de la durée de vie de l’immobilisation doivent être apportées séparément.   
 
-La procédure utilise le rôle de comptable et les données de démonstration pour l'entité juridique USMF.
+La procédure utilise le rôle de comptable et les données de démonstration pour l’entité juridique USMF.
 
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Immobilisations > Immobilisations**.
-2. Dans la liste, recherchez et sélectionnez l'immobilisation à ajouter.
+2. Dans la liste, recherchez et sélectionnez l’immobilisation à ajouter.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Dans le volet Actions, cliquez sur **Immobilisation**.
-5. Cliquez sur **Ajouts d'immobilisations**.
+5. Cliquez sur **Ajouts d’immobilisations**.
 6. Cliquez sur **Nouveau**.
 7. Tapez une valeur dans le champ **Nom**.
-8. Dans le champ **Date d'acquisition**, définissez la date de l'achat ou du service en supplément.
-9. Dans le champ **Coût unitaire**, entrez le coût de l'article, de la maintenance ou de toute autre amélioration de l'actif.
-10. Entrez un nombre dans le champ **Quantité**. Le coût total n'aura pas d'impact sur la valeur de l'immobilisation. Il sert uniquement pour le suivi et à titre indicatif. Si le coût est ensuite capitalisé, une transaction d'augmentation doit être validée séparément.  
-11. Cliquez sur l'onglet **Général**.
+8. Dans le champ **Date d’acquisition**, définissez la date de l’achat ou du service en supplément.
+9. Dans le champ **Coût unitaire**, entrez le coût de l’article, de la maintenance ou de toute autre amélioration de l’actif.
+10. Entrez un nombre dans le champ **Quantité**. Le coût total n’aura pas d’impact sur la valeur de l’immobilisation. Il sert uniquement pour le suivi et à titre indicatif. Si le coût est ensuite capitalisé, une transaction d’augmentation doit être validée séparément.  
+11. Cliquez sur l’onglet **Général**.
 
-    * Définissez **Augmente la durée de vie** sur **Oui** si le supplément augmente la durée de vie de l'actif.  
-    * Ce champ est fourni uniquement à titre indicatif. Pour augmenter la durée de vie, modifiez la durée de vie sur les modèles de valeur et/ou les registres des amortissements pour l'actif.  
+    * Définissez **Augmente la durée de vie** sur **Oui** si le supplément augmente la durée de vie de l’actif.  
+    * Ce champ est fourni uniquement à titre indicatif. Pour augmenter la durée de vie, modifiez la durée de vie sur les modèles de valeur et/ou les registres des amortissements pour l’actif.  
 

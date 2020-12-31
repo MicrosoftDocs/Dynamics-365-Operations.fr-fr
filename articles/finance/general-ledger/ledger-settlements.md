@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: d41a69bed3d1340736cc7df35aa3ded032d4d79d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977117"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443084"
 ---
 # <a name="ledger-settlements"></a>Règlements comptables
 
@@ -34,10 +34,10 @@ Les règlements comptables vous permettent de mettre en correspondance les trans
 La page Règlements comptables avancés fournit des fonctionnalités supplémentaires pour le filtrage et la sélection de transactions. Pour activer la page Règlements comptables avancés, procédez comme suit.
 
 1. Sélectionnez **Comptabilité** \> **Paramétrage de la comptabilité** \> **Paramètres de comptabilité**. 
-2. Sous l'onglet **Règlements comptables**, définissez l'option **Règlement comptable avancés** sur **Oui** pour activer la fonctionnalité de règlement comptable avancé. La page **Règlements comptables** avancés est utilisée lorsque vous sélectionnez **Règlements comptables** dans **Tâches périodiques**. 
+2. Sous l’onglet **Règlements comptables**, définissez l’option **Règlement comptable avancés** sur **Oui** pour activer la fonctionnalité de règlement comptable avancé. La page **Règlements comptables** avancés est utilisée lorsque vous sélectionnez **Règlements comptables** dans **Tâches périodiques**. 
 3. Vous devez entrer la liste des comptes à utiliser pour les règlements comptables pour chaque plan de comptes. Cette liste est utilisée pour filtrer la liste des transactions qui apparaît sur la page **Règlements comptables**. Dans la liste **Plan de comptes**, sélectionnez un plan de comptes, puis sélectionnez **Nouveau** pour ajouter de nouveaux comptes à la liste.
 
-## <a name="settle-transactions-by-using-the-advanced-ledger-settlements-page"></a>Régler les transactions à l'aide de la page de règlements comptables avancés
+## <a name="settle-transactions-by-using-the-advanced-ledger-settlements-page"></a>Régler les transactions à l’aide de la page de règlements comptables avancés
 
 Pour régler des écritures comptables, procédez comme suit.
 
@@ -48,14 +48,14 @@ Pour régler des écritures comptables, procédez comme suit.
     - Modifiez la couche de validation au besoin.
     - Pour afficher le compte général et les dimensions séparément, sélectionnez un ensemble de dimensions financières.
 
-3. Sélectionnez **Afficher les transactions** pour afficher toutes les transactions qui correspondent aux filtres que vous avez définis et la liste des comptes que vous avez spécifiés lorsque du paramétrage la liste du plan de comptes dans la section précédente. Si vous modifiez l'un des filtres ou des ensembles de dimensions, vous devez sélectionner **Afficher les transactions** de nouveau.
+3. Sélectionnez **Afficher les transactions** pour afficher toutes les transactions qui correspondent aux filtres que vous avez définis et la liste des comptes que vous avez spécifiés lorsque du paramétrage la liste du plan de comptes dans la section précédente. Si vous modifiez l’un des filtres ou des ensembles de dimensions, vous devez sélectionner **Afficher les transactions** de nouveau.
 4. Sélectionnez une ou plusieurs lignes que vous prenez en compte pour le règlement. La valeur du champ **Montant sélectionné** en haut de la page augmente ou diminue en fonction du montant total des lignes sélectionnées.
 5. Après avoir terminé la sélection des transactions, sélectionnez **Marquer sélectionnée**. Une coche apparaît dans la colonne **Marquée** pour chaque transaction sélectionnée. En outre, la valeur du champ **Montant marqué** en haut de la grille augmente ou diminue en fonction du montant total des lignes marquées.
 6. Lorsque la valeur **Montant marqué** est de **0** (zéro), sélectionnez **Régler les transactions marquées**. Le statut des transactions marquées est mis à jour sur **Réglée**.
 
 ## <a name="make-transactions-easier-to-find"></a>Simplifier la recherche des transactions
 
-La page **Règlements comptables** inclut des capacités qui facilitent l'affichage des transactions dont vous avez besoin pour le règlement.
+La page **Règlements comptables** inclut des capacités qui facilitent l’affichage des transactions dont vous avez besoin pour le règlement.
 
 - Le bouton **Supprimer le marquage de la sélection** efface le champ **Marquée** pour toutes les lignes sélectionnées.
 - Le filtre **Marquée** permet de filtrer les transactions selon que le champ **Marquée** pour elles est activé ou désactivé.
@@ -66,7 +66,7 @@ La page **Règlements comptables** inclut des capacités qui facilitent l'affich
 
 Vous pouvez contrepasser un règlement effectué par erreur.
 
-1. Suivez les étapes 1 à 3 de la section « Régler les transactions à l'aide de la page de règlements comptables avancés » pour afficher les transactions que vous recherchez.
+1. Suivez les étapes 1 à 3 de la section « Régler les transactions à l’aide de la page de règlements comptables avancés » pour afficher les transactions que vous recherchez.
 2. Dans le filtre **Statut**, sélectionnez **Réglée**.
 3. Sélectionnez une ou plusieurs lignes que vous prenez en compte pour la contrepassation. La valeur du champ **Montant sélectionné** en haut de la page augmente ou diminue en fonction du montant total des lignes sélectionnées.
 4. Après avoir terminé la sélection des transactions, sélectionnez **Marquer sélectionnée**. Une coche apparaît dans la colonne **Marquée** pour chaque transaction sélectionnée. En outre, la valeur du champ **Montant marqué** en haut de la page augmente ou diminue en fonction du montant total des lignes marquées.

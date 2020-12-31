@@ -1,6 +1,6 @@
 ---
 title: Afficher le N° document intersociétés associé à partir du journal
-description: La fenêtre associée de numéro de document affiche le numéro de document de la société de contrepartie lors de la validation d'une transaction intersociétés du journal des opérations diverses.
+description: La fenêtre associée de numéro de document affiche le numéro de document de la société de contrepartie lors de la validation d’une transaction intersociétés du journal des opérations diverses.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,17 +17,17 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ee8385561f9aadae333c05c6df62de0ad1d39010
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144601"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443272"
 ---
 # <a name="view-related-intercompany-voucher-from-journal"></a>Afficher le N° document intersociétés associé à partir du journal
 
 [!include [banner](../../includes/banner.md)]
 
-La fenêtre associée de numéro de document affiche le numéro de document de la société de contrepartie lors de la validation d'une transaction intersociétés du journal des opérations diverses.
+La fenêtre associée de numéro de document affiche le numéro de document de la société de contrepartie lors de la validation d’une transaction intersociétés du journal des opérations diverses.
 
 
 ## <a name="post-an-intercompany-journal"></a>Valider un journal intersociétés

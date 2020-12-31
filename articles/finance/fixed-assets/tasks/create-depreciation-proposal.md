@@ -1,6 +1,6 @@
 ---
-title: Créer une proposition d'amortissement
-description: Cette rubrique décrit le fonctionnement des propositions de traitements par lots d'amortissement et explique comment proposer l'amortissement pour les immobilisations.
+title: Créer une proposition d’amortissement
+description: Cette rubrique décrit le fonctionnement des propositions de traitements par lots d’amortissement et explique comment proposer l’amortissement pour les immobilisations.
 author: abruer
 manager: AnnBe
 ms.date: 08/01/2019
@@ -17,34 +17,34 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 07337063c01f146c72ca6d9e0f9096907cdc9638
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142821"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443262"
 ---
-# <a name="create-a-depreciation-proposal"></a>Créer une proposition d'amortissement
+# <a name="create-a-depreciation-proposal"></a>Créer une proposition d’amortissement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit le fonctionnement des propositions de traitements par lots d'amortissement et explique comment proposer l'amortissement pour les immobilisations. La société fictive USMF et le rôle de comptable sont cités en exemple dans cette tâche.
+Cette rubrique décrit le fonctionnement des propositions de traitements par lots d’amortissement et explique comment proposer l’amortissement pour les immobilisations. La société fictive USMF et le rôle de comptable sont cités en exemple dans cette tâche.
 
 
-## <a name="create-a-depreciation-proposal"></a>Créer une proposition d'amortissement
-1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Entrées de journal > Créer une proposition d'amortissement**.
+## <a name="create-a-depreciation-proposal"></a>Créer une proposition d’amortissement
+1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Entrées de journal > Créer une proposition d’amortissement**.
 2. Dans le champ **Nom de journal**, sélectionnez une option dans le menu déroulant.
 3. Entrez une date dans le champ **Date de fin**.
 
-    - Sélectionnez l'option **Cumuler l'amortissement** pour synthétiser les amortissements mensuels dans une ligne de journal.  
+    - Sélectionnez l’option **Cumuler l’amortissement** pour synthétiser les amortissements mensuels dans une ligne de journal.  
     - Par exemple, si la valeur de date de fin correspond au 31 mars 2015, la description suivante est générée : « Amortissement depuis le 31 janvier 2015 ». Le champ **Date** sur les lignes de journal proposées est alors défini sur le 31 mars 2015.  
-    - La proposition d'amortissement peut être filtrée par actif, par groupe d'actifs, ou par d'autres critères à l'aide de l'option **Filtre**.  
-    - Lorsque vous utilisez l'écran **Créer des propositions d'acquisition ou d'amortissement pour des immobilisations**, vous pouvez proposer l'amortissement en traitements par lots. Ceci est recommandé pour les plus grandes propositions qui vont utiliser plus de ressources système. Si vous sélectionnez l'option de traitement par lots, vous pouvez toujours effectuer d'autres tâches pendant ce temps. Lorsque vous proposez l'amortissement de cette manière, l'amortissement est calculé pour les modèles de valeur pour les immobilisations.  
+    - La proposition d’amortissement peut être filtrée par actif, par groupe d’actifs, ou par d’autres critères à l’aide de l’option **Filtre**.  
+    - Lorsque vous utilisez l’écran **Créer des propositions d’acquisition ou d’amortissement pour des immobilisations**, vous pouvez proposer l’amortissement en traitements par lots. Ceci est recommandé pour les plus grandes propositions qui vont utiliser plus de ressources système. Si vous sélectionnez l’option de traitement par lots, vous pouvez toujours effectuer d’autres tâches pendant ce temps. Lorsque vous proposez l’amortissement de cette manière, l’amortissement est calculé pour les modèles de valeur pour les immobilisations.  
 
 4. Sélectionnez **Créer un journal**.
 
-## <a name="review-depreciation-entries"></a>Passer en revue les entrées d'amortissement
+## <a name="review-depreciation-entries"></a>Passer en revue les entrées d’amortissement
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Entrées de journal > Journal des immobilisations**.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Sélectionnez **Lignes**.
 4. Sélectionnez **Valider**.
 

@@ -1,6 +1,6 @@
 ---
 title: Paramétrer une hiérarchie financière dérivée dans le secteur public
-description: Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d'analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques.
+description: Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d’analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -18,21 +18,21 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6749d87e1c31761587049f562e03fe68fa3def52
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144528"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408007"
 ---
 # <a name="set-up-a-derived-financial-hierarchy-in-the-public-sector"></a>Paramétrer une hiérarchie financière dérivée dans le secteur public
 
 [!include [banner](../../includes/banner.md)]
 
-Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d'analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. Cette procédure a été créée à l'aide des données de la société fictive PSUS dans la partition du secteur public.
+Pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental, les organisations du secteur public peuvent utiliser des hiérarchies financières dérivées afin de recueillir et d’analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. Cette procédure a été créée à l’aide des données de la société fictive PSUS dans la partition du secteur public.
 
 
 ## <a name="create-a-category-hierarchy"></a>Créer une hiérarchie de catégories
-1. Accédez à Gestion des informations sur les produits > Paramétrage > Catégories et d'attributs > Hiérarchies de catégories.
+1. Accédez à Gestion des informations sur les produits > Paramétrage > Catégories et d’attributs > Hiérarchies de catégories.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Nom.
 4. Dans le champ Description, entrez une valeur.
@@ -58,16 +58,16 @@ Pour répondre aux exigences des principales classifications comptables applicab
 1. Accédez à Comptabilité > Plan de comptes > Dimensions > Associer des hiérarchies financières.
 2. Cliquez sur Nouveau.
 3. Dans le champ Entité juridique, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Dans la liste, sélectionnez l'entité juridique à associer à la hiérarchie financière dérivée.
+4. Dans la liste, sélectionnez l’entité juridique à associer à la hiérarchie financière dérivée.
 5. Dans le champ Hiérarchie financière dérivée, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, sélectionnez la hiérarchie financière dérivée à associer à l'entité juridique.
+6. Dans la liste, sélectionnez la hiérarchie financière dérivée à associer à l’entité juridique.
 7. Cliquez sur Enregistrer.
 
 ## <a name="create-filter-rules-for-the-derived-financial-hierarchy"></a>Créer des règles de filtre pour la hiérarchie financière dérivée
 1. Accédez à Comptabilité > Plan de comptes > Dimensions > Hiérarchies financières dérivées.
 2. Dans le champ Hiérarchie financière dérivée, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 3. Dans la liste, cliquez sur la hiérarchie pour laquelle créer des règles de filtre.
-4. Dans l'arborescence, sélectionnez un nœud enfant.
+4. Dans l’arborescence, sélectionnez un nœud enfant.
 5. Cliquez sur Modifier le filtre.
     * Cliquez sur Ajouter de nouveaux critères pour commencer à ajouter des règles au filtre. Après avoir ajouté tous les critères, cliquez sur Activer le filtre.  
 

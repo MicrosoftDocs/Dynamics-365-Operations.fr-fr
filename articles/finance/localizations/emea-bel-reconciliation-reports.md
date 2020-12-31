@@ -18,11 +18,11 @@ ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.openlocfilehash: b331d5caec6b479088c7892ab9f85a1da05e2828
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979071"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407986"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 

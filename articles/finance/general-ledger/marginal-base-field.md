@@ -1,6 +1,6 @@
 ---
 title: Taux de taxe en fonction de la Base marginale et du Mode de calcul
-description: Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d'achat.
+description: Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d’achat.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,27 +19,27 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8617785ea969f9f4facaccdf81cfaf5344c30839
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975001"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443083"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Taux de taxe en fonction de la Base marginale et du Mode de calcul
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d'achat.
+Cette rubrique décrit comment les valeurs des champs Base marginale et Mode de calcul déterminent les taux de taxe dans les transactions de vente et d’achat.
 
-La base marginale dans l'organisateur Calcul de la page Codes taxe détermine le montant utilisé pour le choix appropriés du (des) taux de taxe à partir des taux de la page Valeur de code taxe. Le type de montant dans le champ Base marginale, combinée avec la méthode du champ Mode de calcul détermine la logique permettant de rechercher le (les) taux de taxe corrects pour une transaction. 
+La base marginale dans l’organisateur Calcul de la page Codes taxe détermine le montant utilisé pour le choix appropriés du (des) taux de taxe à partir des taux de la page Valeur de code taxe. Le type de montant dans le champ Base marginale, combinée avec la méthode du champ Mode de calcul détermine la logique permettant de rechercher le (les) taux de taxe corrects pour une transaction. 
 
-Diverses combinaisons de valeurs dans ces champs produisent des calculs de la taxe très différents, comme le montrent les exemples suivants. Les exemples utilisent les mêmes valeurs d'intervalle de taxe qui sont paramétrées pour chaque code taxe sur la page Valeurs de codes taxe. Pour ouvrir cette page, cliquez sur Code taxe &gt; Valeurs sur la page Codes taxe.
+Diverses combinaisons de valeurs dans ces champs produisent des calculs de la taxe très différents, comme le montrent les exemples suivants. Les exemples utilisent les mêmes valeurs d’intervalle de taxe qui sont paramétrées pour chaque code taxe sur la page Valeurs de codes taxe. Pour ouvrir cette page, cliquez sur Code taxe &gt; Valeurs sur la page Codes taxe.
 
 > [!Important]                                                                                                                  
 > Si la base marginale sur un ou plusieurs de vos codes taxe est basée sur des montants de ligne ou des unités, la valeur du champ Mode de calcul de la page Paramètres de comptabilité doit être définie à Ligne. |
 
 ## <a name="net-amount-per-line"></a>Montant HT par ligne
-Cette option permet de déterminer les taux de taxe sur la base du montant HT des lignes de facture, à l'exclusion de toute autre taxe.
+Cette option permet de déterminer les taux de taxe sur la base du montant HT des lignes de facture, à l’exclusion de toute autre taxe.
 
 ### <a name="example"></a>Exemple
 
@@ -52,7 +52,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 | 100 - 0 (&gt; 100) | 10 %      |
 
 > [!NOTE]                                                                                                             
-> La limite supérieure 0 (zéro) dans le dernier intervalle signifie que tous les montants supérieurs à 100 sont inclus dans l'intervalle.
+> La limite supérieure 0 (zéro) dans le dernier intervalle signifie que tous les montants supérieurs à 100 sont inclus dans l’intervalle.
 
 Base marginale : **Montant HT par ligne** 
 
@@ -81,7 +81,7 @@ Taxe totale = 25,00 + 25,00 = 50,00
 Montant total de la facture = 200,00 + 50,00 = 250,00 euros
 
 ## <a name="net-amount-per-unit"></a>Montant HT par unité
-Cette option permet de déterminer les taux de taxe en fonction de la valeur de chaque unité, à l'exclusion de toute autre taxe. Lorsqu'une base marginale basée sur les unités est sélectionnée, alors une unité doit également être spécifiée pour le code taxe.
+Cette option permet de déterminer les taux de taxe en fonction de la valeur de chaque unité, à l’exclusion de toute autre taxe. Lorsqu’une base marginale basée sur les unités est sélectionnée, alors une unité doit également être spécifiée pour le code taxe.
 
 ### <a name="example"></a>Exemple
 
@@ -105,7 +105,7 @@ La taxe est calculée comme suit : Taxe par unité = 25,00 = 30 % x 7,50 Taxe to
 
 ## <a name="net-amount-of-invoice-balance"></a>Montant HT du solde de la facture
 
-Cette option permet de déterminer les taux de taxe en fonction de la valeur totale de la facture, à l'exclusion de toute autre taxe.
+Cette option permet de déterminer les taux de taxe en fonction de la valeur totale de la facture, à l’exclusion de toute autre taxe.
 
 ### <a name="example"></a>Exemple
 
@@ -126,7 +126,7 @@ Mode de calcul : **Intervalle** Une facture client a 2 lignes avec 4 lampes s
 Cette option permet de déterminer les taux de taxe en fonction de la valeur de la ligne, en incluant toute autre taxe pour cette ligne.
 
 > [!NOTE]
-> Dans un groupe de taxe, vous ne pouvez avoir qu'un seul code taxe avec cette sélection dans le champ Base marginale.
+> Dans un groupe de taxe, vous ne pouvez avoir qu’un seul code taxe avec cette sélection dans le champ Base marginale.
 
 ### <a name="example"></a>Exemple
 
@@ -142,14 +142,14 @@ Base marginale : **Montant brut par ligne** Mode de calcul : **Intervalle** En
 
 **Variante** 
 
-Si la facture est créée à l'aide de deux lignes de facture de 4 articles chacune, le montant HT par ligne de facture est EUR 100. Le montant brut (y compris le droit de douane de 4 x 5,00) par ligne de facture est 120,00, et la taxe est créée comme suit : Ligne de facture de taxe 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Ligne de facture de taxe 2 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Taxe totale = 27,00 + 27,00 = 54,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 54,00 + 40,00 = 294,00
+Si la facture est créée à l’aide de deux lignes de facture de 4 articles chacune, le montant HT par ligne de facture est EUR 100. Le montant brut (y compris le droit de douane de 4 x 5,00) par ligne de facture est 120,00, et la taxe est créée comme suit : Ligne de facture de taxe 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Ligne de facture de taxe 2 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Taxe totale = 27,00 + 27,00 = 54,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 54,00 + 40,00 = 294,00
 
 ## <a name="gross-amount-per-unit"></a>Montant brut par unité
 
-Cette option permet de déterminer les taux de taxe en fonction de la valeur de l'unité, en incluant toute autre taxe.
+Cette option permet de déterminer les taux de taxe en fonction de la valeur de l’unité, en incluant toute autre taxe.
 
 > [!NOTE]
-> Dans un groupe de taxe, vous ne pouvez avoir qu'un seul code taxe avec cette sélection dans le champ Base marginale.
+> Dans un groupe de taxe, vous ne pouvez avoir qu’un seul code taxe avec cette sélection dans le champ Base marginale.
 
 ### <a name="example"></a>Exemple
 
@@ -167,7 +167,7 @@ Base marginale : **Montant brut par unité** Il existe un droit de douane spéci
 
 Cette option permet de déterminer les taux de taxe en fonction de la valeur totale de la facture, en incluant toute autre taxe.
 > [!NOTE]
-> Dans un groupe de taxe, vous ne pouvez avoir qu'un seul code taxe avec cette sélection dans le champ Base marginale
+> Dans un groupe de taxe, vous ne pouvez avoir qu’un seul code taxe avec cette sélection dans le champ Base marginale
 
 ### <a name="example"></a>Exemple
 
@@ -182,7 +182,7 @@ Les taux de taxe sont paramétrés dans les intervalles suivants :
 Base marginale : **Facture totale, autres taxe incluses** Mode de calcul : **Intervalle**   
 Il y a un droit de douane spécial de 5,00 euros sur chaque lampe. Le droit est ajouté au montant HT avant le calcul de la taxe. Vous achetez 8 lampes à 25,00 pièce. Le montant HT de la facture est 200,00. Le montant TTC de la facture est 200,00 + (8 x 5,00) = 240,00. La taxe est calculée comme suit : Taxe totale = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 Total des droits de douane = 5,00 x 8 = 40,00 Montant total facturé = 200,00 + 39,00 + 40,00 = 279,00
 
-Pour plus d'informations, voir [Options de calcul de montant total et d'intervalle pour les codes taxe](whole-amount-interval-options-sales-tax-codes.md) et [Méthodes de calcul de la taxe dans le champ Origine](sales-tax-calculation-methods-origin-field.md).
+Pour plus d’informations, voir [Options de calcul de montant total et d’intervalle pour les codes taxe](whole-amount-interval-options-sales-tax-codes.md) et [Méthodes de calcul de la taxe dans le champ Origine](sales-tax-calculation-methods-origin-field.md).
 
 
 

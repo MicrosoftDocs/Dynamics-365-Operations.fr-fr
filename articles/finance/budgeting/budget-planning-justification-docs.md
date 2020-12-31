@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 321da6643b421070ddd9f32bddd3e8d72f0adb86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188554"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443295"
 ---
 # <a name="budget-planning-justification-documents"></a>Documents justificatifs de planification budgétaire
 
@@ -31,7 +31,7 @@ ms.locfileid: "2188554"
 
 Les documents justificatifs fournissent des informations narratives pour ceux qui demandent un budget pour expliquer pourquoi un budget spécifique est nécessaire. 
 
-Un modèle de plan budgétaire est créé par le responsable du budget dans Microsoft Word et affecté au processus de planification budgétaire actuel. Les propriétaires de budget peuvent alors ouvrir le modèle et renseigner automatiquement les données dans Word selon leur demande de budget. Ils peuvent ensuite ajouter du texte ou des données supplémentaires avant d'enregistrer et de joindre leur document justificatif personnalisé à leur plan budgétaire.
+Un modèle de plan budgétaire est créé par le responsable du budget dans Microsoft Word et affecté au processus de planification budgétaire actuel. Les propriétaires de budget peuvent alors ouvrir le modèle et renseigner automatiquement les données dans Word selon leur demande de budget. Ils peuvent ensuite ajouter du texte ou des données supplémentaires avant d’enregistrer et de joindre leur document justificatif personnalisé à leur plan budgétaire.
 
 ##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Configurer le complément Office Microsoft Dynamics pour Microsoft Word
 
@@ -39,19 +39,19 @@ Un modèle de plan budgétaire est créé par le responsable du budget dans Micr
 2.  Cliquez sur **Insérer** sur le ruban, puis sur **Magasin**.
 3.  Recherchez le complément Office Microsoft Dynamics et cliquez sur **Ajouter**.
 4.  Dans Word, dans le volet droit, cliquez sur **Ajouter des informations sur le serveur**.
-5.  Tapez ou collez l'URL du serveur et cliquez sur **OK**.
+5.  Tapez ou collez l’URL du serveur et cliquez sur **OK**.
 
 ##### <a name="define-the-justification-template-in-microsoft-word"></a>Définir le modèle de justification dans Microsoft Word
 
 1.  Cliquez sur **Créer** dans le complément Office Microsoft Dynamics une fois que vous êtes connecté.
-2.  Pour les informations d'en-tête, utilisez le bouton **Ajouter des champs**.
-3.  Sélectionnez la source de données d'entité BudgetPlanJustification, puis cliquez sur **Suivant**. **Remarque :** cette entité est requise pour tout document justificatif. D'autres entités peuvent être utilisées mais le téléchargement vers Microsoft Dynamics 365 Finance échouera si cette entité n'est pas incluse.
+2.  Pour les informations d’en-tête, utilisez le bouton **Ajouter des champs**.
+3.  Sélectionnez la source de données d’entité BudgetPlanJustification, puis cliquez sur **Suivant**. **Remarque :** cette entité est requise pour tout document justificatif. D’autres entités peuvent être utilisées mais le téléchargement vers Microsoft Dynamics 365 Finance échouera si cette entité n’est pas incluse.
 4.  Ajoutez les étiquettes et les valeurs BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter et DocumentNumber dans le document Word. **Remarque :** vous pouvez utiliser vos propres étiquettes personnalisées au lieu des étiquettes standard, si nécessaire.
-5.  Cliquez sur **Terminé** pour terminer la section d'en-tête.
+5.  Cliquez sur **Terminé** pour terminer la section d’en-tête.
 6.  Pour le détail au niveau de la ligne des montants du plan budgétaire, cliquez sur **Ajouter une table**.
-7.  Sélectionnez à nouveau la source de données d'entité BudgetPlanJustification, puis cliquez sur **Suivant**.
+7.  Sélectionnez à nouveau la source de données d’entité BudgetPlanJustification, puis cliquez sur **Suivant**.
 8.  Ajoutez des champs pour EffectiveDate, ScenarioName, AccountDisplayValue et AccountingCurrencyExpenseAmount. **Remarque :** si vous souhaitez ajouter des commentaires dans les lignes de plan budgétaire individuelles, ceux-ci peuvent être ajoutés à la table ici.
-9.  Ajoutez des instructions supplémentaires à fournir à l'utilisateur final, puis appliquez la mise en forme ou le style nécessaire au document.
+9.  Ajoutez des instructions supplémentaires à fournir à l’utilisateur final, puis appliquez la mise en forme ou le style nécessaire au document.
 10. Enregistrez le document sur votre ordinateur local et fermez le fichier avant de continuer.
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Paramétrer le processus de planification budgétaire pour utiliser le modèle de justification

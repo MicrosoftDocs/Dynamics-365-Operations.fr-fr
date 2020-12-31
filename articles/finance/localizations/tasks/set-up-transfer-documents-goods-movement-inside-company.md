@@ -17,29 +17,29 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443214"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Paramétrer les documents de transfert pour le mouvement de marchandises dans une société
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société. Cette procédure est uniquement disponible pour les entités juridiques dont l'adresse principale se situe en Lituanie. La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Lituanie. Avant d'exécuter cette procédure, vous devez exécuter la procédure « Paramétrer les documents de transfert pour le mouvement de marchandises dans une société ». Cette procédure est destinée aux comptables de stock. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure indique comment créer des documents de transfert pour le mouvement de marchandises dans une société. Cette procédure est uniquement disponible pour les entités juridiques dont l’adresse principale se situe en Lituanie. La procédure a été créée avec les données de démonstration de la société fictive DEMF, avec une adresse principale en Lituanie. Avant d’exécuter cette procédure, vous devez exécuter la procédure « Paramétrer les documents de transfert pour le mouvement de marchandises dans une société ». Cette procédure est destinée aux comptables de stock. Cette procédure s’applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
-## <a name="create-a-transfer-order"></a>Création d'un ordre de transfert
+## <a name="create-a-transfer-order"></a>Création d’un ordre de transfert
 1. Accédez à Gestion des stocks > Commandes entrantes > Ordre de transfert.
 2. Cliquez sur Nouveau.
-3. Dans le champ Entrepôt d'origine, saisissez ou sélectionnez une valeur.
+3. Dans le champ Entrepôt d’origine, saisissez ou sélectionnez une valeur.
 4. Dans le champ Entrepôt de destination, saisissez ou sélectionnez une valeur.
 5. Cliquez sur Ajouter.
 6. Dans la liste, marquez la ligne sélectionnée.
-7. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
+7. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a>Entrer les détails du transport pour l'ordre de transfert
+## <a name="enter-transportation-details-for-the-transfer-order"></a>Entrer les détails du transport pour l’ordre de transfert
 1. Cliquez sur Enregistrer.
 2. Dans le volet Actions, cliquez sur Expédier.
 3. Cliquez sur Détails du transport.
@@ -49,25 +49,25 @@ Cette procédure indique comment créer des documents de transfert pour le mouve
 7. Dans le champ Niveau de risque de la charge, tapez une valeur.
 8. Dans le champ Transporteur, entrez ou sélectionnez une valeur.
 9. Dans le champ Modèle, entrez ou sélectionnez une valeur.
-10. Dans le champ Numéro d'enregistrement, tapez une valeur.
-11. Dans le champ Numéro d'enregistrement de la remorque, entrez une valeur.
+10. Dans le champ Numéro d’enregistrement, tapez une valeur.
+11. Dans le champ Numéro d’enregistrement de la remorque, entrez une valeur.
 12. Dans le champ Chauffeur, entrez ou sélectionnez une valeur.
 13. Dans le champ Nom du chauffeur, tapez une valeur.
 14. Cliquez sur Enregistrer.
 15. Fermez la page.
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a>Afficher le bon de livraison pour l'ordre de transfert non validé
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a>Afficher le bon de livraison pour l’ordre de transfert non validé
 1. Cliquez sur Bon de livraison.
 2. Cliquez sur OK.
 3. Fermez la page.
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a>Afficher le bon de livraison pour l'ordre de transfert validé
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a>Afficher le bon de livraison pour l’ordre de transfert validé
 1. Dans le volet Actions, cliquez sur Ordre de transfert.
 2. Dans le volet Actions, cliquez sur Expédier.
-3. Cliquez sur Expédier l'ordre de transfert.
-4. Cliquez sur l'onglet Général.
+3. Cliquez sur Expédier l’ordre de transfert.
+4. Cliquez sur l’onglet Général.
 5. Dans le champ Mettre à jour, sélectionnez une option.
-6. Cliquez sur l'onglet Vue d'ensemble.
+6. Cliquez sur l’onglet Vue d’ensemble.
 7. Tapez une valeur dans le champ Bon de livraison.
 8. Cliquez sur OK.
 9. Dans le volet Actions, cliquez sur Expédier.

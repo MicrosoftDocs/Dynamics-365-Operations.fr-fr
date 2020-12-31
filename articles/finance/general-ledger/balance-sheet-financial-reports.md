@@ -19,11 +19,11 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771867"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443241"
 ---
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
@@ -34,12 +34,12 @@ Cet article décrit les états par défaut des bilans. Il décrit également les
 <a name="default-balance-sheet-reports"></a>États du bilan par défaut
 -----------------------------
 
-Par défaut, le bilan se distingue par deux états. Dans un état, les sections sont empilées. Dans l'autre état, les sections sont côte à côte.
+Par défaut, le bilan se distingue par deux états. Dans un état, les sections sont empilées. Dans l’autre état, les sections sont côte à côte.
 
 | État par défaut                       | Fonction                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Bilan – Par défaut              | Permet d'afficher la position financière de l'organisation pour l'année.                                                                 |
-| Bilan côte à côte bilan – Par défaut | Permet d'afficher la position financière de l'organisation pour l'année. Les actifs et passifs et les capitaux propres des actionnaires sont affichés côte à côte. |
+| Bilan – Par défaut              | Permet d’afficher la position financière de l’organisation pour l’année.                                                                 |
+| Bilan côte à côte bilan – Par défaut | Permet d’afficher la position financière de l’organisation pour l’année. Les actifs et passifs et les capitaux propres des actionnaires sont affichés côte à côte. |
 
 ## <a name="building-blocks"></a>Blocs élémentaires
 Les rapports financiers du relevé des revenus utilisent les blocs élémentaires suivants.
@@ -51,30 +51,30 @@ Les rapports financiers du relevé des revenus utilisent les blocs élémentaire
 
 ### <a name="row-definition"></a>Définition de ligne
 
-Les définitions de ligne pour les deux états du bilan contiennent les sections de chaque partie d'un bilan traditionnel. L'état côte à côte inclut un saut de colonne, de telle sorte que le passif et les capitaux propres du propriétaire s'affichent en regard de l'actif. La dimension Catégorie de compte principal est utilisée afin d'établir les deux définitions de ligne. Par conséquent, n'importe qui peut générer les rapports sans avoir à apporter de modifications.
+Les définitions de ligne pour les deux états du bilan contiennent les sections de chaque partie d’un bilan traditionnel. L’état côte à côte inclut un saut de colonne, de telle sorte que le passif et les capitaux propres du propriétaire s’affichent en regard de l’actif. La dimension Catégorie de compte principal est utilisée afin d’établir les deux définitions de ligne. Par conséquent, n’importe qui peut générer les rapports sans avoir à apporter de modifications.
 
 ### <a name="column-definition"></a>Définition de colonne
 
-Les définitions de colonne contiennent différents types de colonnes afin d'offrir différents niveaux de détails et de données financières.
+Les définitions de colonne contiennent différents types de colonnes afin d’offrir différents niveaux de détails et de données financières.
 
 -   **Année en cours et écart – Types de colonne par défaut :**
     -   **DESC** : Description de la définition de ligne.
-    -   **DF** – Données financières pour l'année en cours
-    -   **DF** – Données financières pour l'année passée
-    -   **CALC** – Écart résultant de la soustraction entre l'année passée et l'année en cours
+    -   **DF** – Données financières pour l’année en cours
+    -   **DF** – Données financières pour l’année passée
+    -   **CALC** – Écart résultant de la soustraction entre l’année passée et l’année en cours
 
 <!-- -->
 
 -   **Colonne Année en cours – Par défaut :**
     -   **DESC** : Description de la définition de ligne.
-    -   **DF** – Données financières pour l'année en cours
+    -   **DF** – Données financières pour l’année en cours
 
 
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble des états financiers](financial-reporting-getting-started.md)
+[Vue d’ensemble des états financiers](financial-reporting-getting-started.md)
 
 [Afficher les états financiers](view-financial-reports.md)
 

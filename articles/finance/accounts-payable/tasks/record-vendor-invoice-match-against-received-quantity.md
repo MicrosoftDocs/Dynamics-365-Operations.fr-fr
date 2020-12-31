@@ -1,6 +1,6 @@
 ---
 title: Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue
-description: Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.
+description: Lorsque vous recevez une facture d’un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,21 +17,21 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: aa79ab46e9fdc6f8a2b4524d372949314ac2d200
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443116"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Enregistrer la facture fournisseur et la mettre en correspondance avec la quantité reçue
 
 [!include [banner](../../includes/banner.md)]
 
-Lorsque vous recevez une facture d'un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement. Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée. 
+Lorsque vous recevez une facture d’un fournisseur pour des marchandises ou des services sur une commande fournisseur, il est possible que les processus entreprise demandent que les marchandises ou les services soient reçus avant que la facture ne soit approuvée pour paiement. Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée. 
 
-Dans la page Comptabilité fournisseur, vérifiez que l'option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ Valider la facture avec les non-correspondances est bien défini sur Demander une approbation, et que le champ Stratégie de rapprochement des lignes est défini sur Rapprochement à trois facteurs.
+Dans la page Comptabilité fournisseur, vérifiez que l’option Activer le contrôle de rapprochement de factures est sélectionnée, que le champ Valider la facture avec les non-correspondances est bien défini sur Demander une approbation, et que le champ Stratégie de rapprochement des lignes est défini sur Rapprochement à trois facteurs.
 
-La société fictive USMF sert d'exemple dans cette procédure. Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.
+La société fictive USMF sert d’exemple dans cette procédure. Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.
 
 
 ## <a name="create-a-purchase-order"></a>Créer une commande fournisseur
@@ -41,7 +41,7 @@ La société fictive USMF sert d'exemple dans cette procédure. Les différentes
 4. Tapez une valeur dans le champ Compte fournisseur.
 5. Cliquez sur OK.
 6. Cliquez sur Ajouter une ligne.
-7. Tapez une valeur dans le champ Numéro d'article.
+7. Tapez une valeur dans le champ Numéro d’article.
 8. Cliquez sur Achats dans le volet Actions.
 9. Cliquez sur Confirmer.
 

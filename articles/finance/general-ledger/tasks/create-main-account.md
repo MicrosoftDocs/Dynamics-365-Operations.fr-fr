@@ -1,6 +1,6 @@
 ---
-title: Création d'un compte principal
-description: Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant.
+title: Création d’un compte principal
+description: Ce guide accompagne l’utilisateur lors de l’ajout d’un compte principal à un plan de comptes existant.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/11/2019
@@ -17,31 +17,31 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443075"
 ---
-# <a name="create-a-main-account"></a>Création d'un compte principal
+# <a name="create-a-main-account"></a>Création d’un compte principal
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide accompagne l'utilisateur lors de l'ajout d'un compte principal à un plan de comptes existant. La société fictive USMF sert d'exemple dans cet enregistrement.  
+Ce guide accompagne l’utilisateur lors de l’ajout d’un compte principal à un plan de comptes existant. La société fictive USMF sert d’exemple dans cet enregistrement.  
 
 1. Accédez à **Volet de navigation > Modules > Comptabilité > Plan de comptes > Comptes > Comptes principaux**.
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Compte principal**, tapez une valeur.
 4. Tapez une valeur dans le champ **Nom**.
-5. Dans le champ **Type de compte principal**, sélectionnez le type qui représente le mieux le solde et l'emplacement des comptes dans les tableaux d'analyse.
+5. Dans le champ **Type de compte principal**, sélectionnez le type qui représente le mieux le solde et l’emplacement des comptes dans les tableaux d’analyse.
 6. Dans la liste, sélectionnez la catégorie de compte à laquelle appartient le compte principal. La catégorie de compte est utilisée pour les états financiers par défaut et le contenu du tableau de bord Power BI.  
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée. Modifiez le solde par défaut de débit ou de crédit.  
 8. Dans le champ **Devise par défaut**, sélectionnez une valeur dans la liste des devises.
-9. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+9. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-11. Activez/désactivez le développement de la section des **remplacements d'entité juridique**.
+11. Activez/désactivez le développement de la section des **remplacements d’entité juridique**.
 12. Cliquez sur **Ajouter** pour sélectionner une entité juridique.
-13. Dans la liste, sélectionnez l'entité juridique.
+13. Dans la liste, sélectionnez l’entité juridique.
 14. Cliquez sur **Ajouter**.
 15. Dans la liste, marquez la ligne sélectionnée.
 16. Cochez ou décochez la case **Suspendu**.

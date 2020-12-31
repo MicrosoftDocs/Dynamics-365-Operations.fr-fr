@@ -1,6 +1,6 @@
 ---
 title: Créer un code intérêt avec une plage
-description: Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs.
+description: Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d’intérêt en fonction d’une plage de valeurs.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,16 +17,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140268"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443064"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Créer un code intérêt avec une plage
 
 [!include [banner](../../includes/banner.md)]
-Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d'intérêt en fonction d'une plage de valeurs. Cette procédure vous indique comment ajouter un code intérêt et ajouter une plage à celui-ci.
+Vous pouvez paramétrer les codes intérêt de sorte à calculer différents montants d’intérêt en fonction d’une plage de valeurs. Cette procédure vous indique comment ajouter un code intérêt et ajouter une plage à celui-ci.
 
 1. Accédez à Crédit et relances > Intérêts > Paramétrer les codes intérêt.
 2. Cliquez sur Nouveau.
@@ -42,12 +42,12 @@ Vous pouvez paramétrer les codes intérêt de sorte à calculer différents mon
 12. Cliquez sur Enregistrer.
 13. Cliquez sur Plages.
 14. Cliquez sur Nouveau.
-15. Spécifiez 0 pour la valeur De, puis entrez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts. Dans notre exemple, la valeur est 1,5.
+15. Spécifiez 0 pour la valeur De, puis entrez le pourcentage d’intérêt par mois qui sera utilisé pour calculer les intérêts. Dans notre exemple, la valeur est 1,5.
 16. Cliquez sur Nouveau.
 17. Spécifiez 4 pour la valeur suivante, ce qui correspond au premier mois où vous calculerez un nouveau montant des intérêts.
-18. Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 4. Dans notre exemple, la valeur est 2,0.
+18. Spécifiez le pourcentage d’intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 4. Dans notre exemple, la valeur est 2,0.
 19. Cliquez sur Nouveau.
 20. Spécifiez 7 pour la valeur suivante, ce qui correspond au prochain mois où vous calculerez un nouveau montant des intérêts.
-21. Spécifiez le pourcentage d'intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
+21. Spécifiez le pourcentage d’intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
 22. Cliquez sur Fermer pour terminer le paramétrage.
 

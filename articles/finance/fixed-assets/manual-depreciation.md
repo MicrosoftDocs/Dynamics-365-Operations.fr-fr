@@ -1,6 +1,6 @@
 ---
 title: Amortissement manuel
-description: Cet article donne une vue d'ensemble de la méthode d'amortissement manuelle.
+description: Cet article donne une vue d’ensemble de la méthode d’amortissement manuelle.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 84cde511ab0b5cbe4b99e72832bf548336b6b28c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187220"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443032"
 ---
 # <a name="manual-depreciation"></a>Amortissement manuel
 
 [!include [banner](../includes/banner.md)]
 
-Cet article donne une vue d'ensemble de la méthode d'amortissement manuelle.
+Cet article donne une vue d’ensemble de la méthode d’amortissement manuelle.
 
-Lorsque vous paramétrez un profil d'amortissement d'immobilisation et sélectionnez **Manuel** dans le champ **Méthode** de la page **Profils d'amortissement**, l'amortissement des immobilisations affectées au profil d'amortissement est déterminé par le pourcentage que vous spécifiez pour chaque intervalle dans l'année civile. Les intervalles pour lesquels vous paramétrez des pourcentages sont validés en fonction de la valeur sélectionnée dans le champ **Période fréquence** de l'organisateur **Général** de la page **Profils d'amortissement**. Les valeurs que vous pouvez sélectionner sont les suivants :
+Lorsque vous paramétrez un profil d’amortissement d’immobilisation et sélectionnez **Manuel** dans le champ **Méthode** de la page **Profils d’amortissement**, l’amortissement des immobilisations affectées au profil d’amortissement est déterminé par le pourcentage que vous spécifiez pour chaque intervalle dans l’année civile. Les intervalles pour lesquels vous paramétrez des pourcentages sont validés en fonction de la valeur sélectionnée dans le champ **Période fréquence** de l’organisateur **Général** de la page **Profils d’amortissement**. Les valeurs que vous pouvez sélectionner sont les suivants :
 
 -   Tous les ans
 -   Mensuel
@@ -39,40 +39,40 @@ Lorsque vous paramétrez un profil d'amortissement d'immobilisation et sélectio
 -   Semestriel
 -   Opérations diverses
 
-Après avoir sélectionné la fréquence de période, cliquez sur **Programmes manuels** et paramétrez les pourcentages pour chaque intervalle de validation. Ensemble, les programmes manuels et les intervalles de validation définissent le montant d'amortissement, comme l'illustrent les exemples de cet article. L'amortissement manuel est toujours calculé comme pourcentage du prix d'acquisition. Dans le cas de l'amortissement manuel, les pourcentages que vous spécifiez dans les intervalles de l'amortissement ne doivent pas nécessairement totaliser 100 pour cent. L'amortissement manuel est une méthode d'amortissement flexible qui est souvent utilisée pour définir un profil d'amortissement exceptionnel sur la page **Registres**, tel qu'un amortissement non périodique à des fins particulières (par exemple, de taxe).
+Après avoir sélectionné la fréquence de période, cliquez sur **Programmes manuels** et paramétrez les pourcentages pour chaque intervalle de validation. Ensemble, les programmes manuels et les intervalles de validation définissent le montant d’amortissement, comme l’illustrent les exemples de cet article. L’amortissement manuel est toujours calculé comme pourcentage du prix d’acquisition. Dans le cas de l’amortissement manuel, les pourcentages que vous spécifiez dans les intervalles de l’amortissement ne doivent pas nécessairement totaliser 100 pour cent. L’amortissement manuel est une méthode d’amortissement flexible qui est souvent utilisée pour définir un profil d’amortissement exceptionnel sur la page **Registres**, tel qu’un amortissement non périodique à des fins particulières (par exemple, de taxe).
 
 ## <a name="examples"></a>Exemples
-Prix d'acquisition : 11 000,00 Valeur de mise au rebut prévue : 1 000,00 Le tableau suivant indique les intervalles et les pourcentages que vous paramétrez sur la page **Programmes de profil d'amortissement des immobilisations**.
+Prix d’acquisition : 11 000,00 Valeur de mise au rebut prévue : 1 000,00 Le tableau suivant indique les intervalles et les pourcentages que vous paramétrez sur la page **Programmes de profil d’amortissement des immobilisations**.
 
-| Nombre d'intervalles | Pourcentage |
+| Nombre d’intervalles | Pourcentage |
 |-----------------|------------|
 | 1               | 10,00      |
 | 2               | 50,00      |
 | 3               | 8,00       |
 
-Le tableau suivant illustre la façon dont l'amortissement de chaque intervalle est calculé.
+Le tableau suivant illustre la façon dont l’amortissement de chaque intervalle est calculé.
 
-|  Nombre d'intervalles | Calcul du montant d'amortissement annuel | Valeur nette à la fin de l'intervalle |
+|  Nombre d’intervalles | Calcul du montant d’amortissement annuel | Valeur nette à la fin de l’intervalle |
 |------------------|-----------------------------------------------|-------------------------------------------|
 | 1                | (11 000 – 1 000) × 10 % = 1 000                | 10 000 (11 000 – 1 000)                   |
 | 2                | (11 000 – 1 000) × 50 % = 5 000                | 5 000 (10 000 – 5 000)                    |
 | 3                | (11 000 – 1 000) × 8 % = 800                   | 4 200 (5 000 – 800)                       |
 
-Si vous sélectionnez **Mensuel** dans le champ**Période fréquence**, vous paramétrez 12 intervalles de planification manuels. Le tableau suivant illustre les montants d'amortissement pour les deux premiers intervalles.
+Si vous sélectionnez **Mensuel** dans le champ **Période fréquence**, vous paramétrez 12 intervalles de planification manuels. Le tableau suivant illustre les montants d’amortissement pour les deux premiers intervalles.
 
-| Intervalle | Montant d'amortissement            |
+| Intervalle | Montant d’amortissement            |
 |----------|--------------------------------|
 | Janvier  | (11 000 – 1 000) × 10 % = 1 000 |
 | Février | (11 000 – 1 000) × 50 % = 5 000 |
 
-Si vous sélectionnez <strong>Semestriel</strong> dans le champ *<strong><em>Période fréquence</em>*</strong>, vous paramétrez deux intervalles de planification manuels. Le tableau suivant illustre les montants d'amortissement pour ces deux intervalles.
+Si vous sélectionnez <strong>Semestriel</strong> dans le champ *<strong><em>Période fréquence</em>*</strong>, vous paramétrez deux intervalles de planification manuels. Le tableau suivant illustre les montants d’amortissement pour ces deux intervalles.
 
-| Intervalle    | Montant d'amortissement            |
+| Intervalle    | Montant d’amortissement            |
 |-------------|--------------------------------|
 | 30 juin     | (11 000 – 1 000) × 10 % = 1 000 |
 | 31 décembre | (11 000 – 1 000) × 50 % = 5 000 |
 
-Le total des pourcentages de tous les intervalles ne doit pas être 100. Toutefois, vous recevez un message si la valeur du champ **Pourcentage cumulé** de la page **Programmes de profil d'amortissement des immobilisations** n'est pas **100**.
+Le total des pourcentages de tous les intervalles ne doit pas être 100. Toutefois, vous recevez un message si la valeur du champ **Pourcentage cumulé** de la page **Programmes de profil d’amortissement des immobilisations** n’est pas **100**.
 
 
 

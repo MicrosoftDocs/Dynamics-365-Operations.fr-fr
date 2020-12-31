@@ -1,6 +1,6 @@
 ---
 title: Créer des factures de commande client
-description: Ce guide de tâche décrit la facturation d'une commande client, notamment la fusion des factures et le traitement par lots.
+description: Ce guide de tâche décrit la facturation d’une commande client, notamment la fusion des factures et le traitement par lots.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/25/2019
@@ -17,28 +17,28 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c504ef36f61613c7aa7db5a1e5ddba6e69cd7285
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140265"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443300"
 ---
 # <a name="create-sales-order-invoices"></a>Créer des factures de commande client
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide de tâche décrit la facturation d'une commande client, notamment la fusion des factures et le traitement par lots. La société fictive USMF sert d'exemple dans cette procédure.
+Ce guide de tâche décrit la facturation d’une commande client, notamment la fusion des factures et le traitement par lots. La société fictive USMF sert d’exemple dans cette procédure.
 
 
-## <a name="create-an-invoice-from-a-sales-order"></a>Créer une facture à partir d'une commande client
+## <a name="create-an-invoice-from-a-sales-order"></a>Créer une facture à partir d’une commande client
 1. Accédez au **volet Navigation > Modules > Comptabilité client > Commandes > Commandes client expédiées mais pas facturées**.
 2. Sélectionnez une commande client dans la liste. 
 3. Dans le **volet Actions**, cliquez sur **Facture > Générer > Facture**. Notez que cette commande client a plusieurs bons de livraison associés. Elle indique uniquement le mot <multiple> au lieu du numéro de bon de livraison.  
 4. Développez la section **Paramètres**.
-    - La validation doit être définie sur Oui pour valider la facture. Vous pouvez également désactiver la validation et simplement imprimer la facture. Toutefois, vous pouvez obtenir le même résultat en créant une facture pro forma au lieu d'une facture.  
+    - La validation doit être définie sur Oui pour valider la facture. Vous pouvez également désactiver la validation et simplement imprimer la facture. Toutefois, vous pouvez obtenir le même résultat en créant une facture pro forma au lieu d’une facture.  
     - Cette option est utilisée pour les traitements par lots. La requête est exécutée lorsque le traitement par lots est exécuté.
 5. Sélectionnez Après dans le champ **Imprimer**.
-6. Sélectionnez **Oui** en regard de **Imprimer la facture**. La gestion de l'impression peut imprimer plusieurs copies de la facture et soumettre la facture par e-mail sous forme de fichier PDF.  
+6. Sélectionnez **Oui** en regard de **Imprimer la facture**. La gestion de l’impression peut imprimer plusieurs copies de la facture et soumettre la facture par e-mail sous forme de fichier PDF.  
 7. Sélectionnez Résumer dans le champ **Imprimer les frais**.
 8. Dans le champ **Vérifier la limite de crédit**, sélectionnez Solde.
 9. Cliquez sur **Annuler**.
@@ -49,7 +49,7 @@ Ce guide de tâche décrit la facturation d'une commande client, notamment la fu
 3. Sélectionnez plusieurs commandes client en cours du même client.
 4. Dans le **volet Actions**, cliquez sur **Facture > Générer > Facture**.
 5. Développez la section **Paramètres**.
-6. Dans le champ **Quantité**, sélectionnez 'Tout'. Notez qu'il existe deux factures répertoriées dans la vue d'ensemble. À présent, nous allons les fusionner dans une seule facture.  
+6. Dans le champ **Quantité**, sélectionnez ’Tout’. Notez qu’il existe deux factures répertoriées dans la vue d’ensemble. À présent, nous allons les fusionner dans une seule facture.  
 7. Sélectionnez Compte de facturation dans le champ **Mise à jour récapitulative pour** .
 8. Cliquez sur **Organiser** pour fusionner les commandes client dans une seule facture. Les deux commandes client sont désormais fusionnées dans une seule facture.   
 9. Cliquez sur **Annuler**.

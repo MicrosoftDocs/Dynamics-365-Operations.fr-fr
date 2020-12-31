@@ -1,6 +1,6 @@
 ---
 title: EUR-00011 Paramétrer une déclaration de la liste des ventes intracommunautaires
-description: Cette tâche vous accompagne dans une présentation des conditions préalables requises à la génération d'états de la liste des ventes intracommunautaires.
+description: Cette tâche vous accompagne dans une présentation des conditions préalables requises à la génération d’états de la liste des ventes intracommunautaires.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,25 +17,25 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c312e14247c42acd5e0de5df02833275d9e3a4f1
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140696"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407898"
 ---
 # <a name="eur-00011-set-up-eu-sales-list-reporting"></a>EUR-00011 Paramétrer une déclaration de la liste des ventes intracommunautaires
 
 [!include [banner](../../includes/banner.md)]
 
-Cette tâche vous accompagne dans une présentation des conditions préalables requises à la génération d'états de la liste des ventes intracommunautaires. Pour plus d'informations sur la déclaration de la liste des ventes intracommunautaires, notamment les conditions préalables requises, reportez-vous à l'aide.
+Cette tâche vous accompagne dans une présentation des conditions préalables requises à la génération d’états de la liste des ventes intracommunautaires. Pour plus d’informations sur la déclaration de la liste des ventes intracommunautaires, notamment les conditions préalables requises, reportez-vous à l’aide.
 
-Cette tâche s'applique à tous les pays/régions européens. Le guide a été créé avec la société fictive DEMF ; par conséquent, l'Allemagne est pris comme exemple de pays/région local. Le guide utilise également le Portugal comme pays/région européen d'exemple.
+Cette tâche s’applique à tous les pays/régions européens. Le guide a été créé avec la société fictive DEMF ; par conséquent, l’Allemagne est pris comme exemple de pays/région local. Le guide utilise également le Portugal comme pays/région européen d’exemple.
 
 Ces tâches sont destinées aux administrateurs système.
 
 
-## <a name="import-electronic-reporting-configurations-for-eu-sales-list-reporting"></a>Importer les configurations de génération d'états électroniques pour la déclaration de la liste des ventes intracommunautaires
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
+## <a name="import-electronic-reporting-configurations-for-eu-sales-list-reporting"></a>Importer les configurations de génération d’états électroniques pour la déclaration de la liste des ventes intracommunautaires
+1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
 2. Cliquez sur Activer.
 3. Cliquez sur Référentiels.
 4. Cliquez sur Ouvrir.
@@ -60,7 +60,7 @@ Ces tâches sont destinées aux administrateurs système.
 ## <a name="set-up-sales-tax-codes-for-eu-sales-list-reporting"></a>Paramétrer les codes taxe pour la déclaration de la liste des ventes intracommunautaires
 1. Accédez à Taxes > Taxes indirectes > Taxe > Codes taxe.
 2. Utiliser le filtre rapide pour filtrer le champ Taxe avec une valeur de « TVA19 ».
-3. Développez la section Paramétrage de l'état.
+3. Développez la section Paramétrage de l’état.
     * Vérifiez que la sélection Exclue est définie sur Non.  
     * Vous devez peut-être déverrouiller le guide pour modifier ce paramètre.  
 
@@ -76,13 +76,13 @@ Ces tâches sont destinées aux administrateurs système.
 9. Dans la liste, sélectionnez la troisième ligne.
 10. Activer cette case à cocher Exonéré.
 
-## <a name="set-up-item-sales-tax-groups-for-eu-sales-list-reporting"></a>Paramétrer les groupes de taxe d'article pour la déclaration de la liste des ventes intracommunautaires
-1. Accédez à Taxe > Taxes indirectes > Taxe > Groupes de taxe d'article.
-2. Utilisez le filtre rapide pour filtrer le champ Groupe de taxe d'article avec une valeur « FULL ».
-    * Vérifiez que la sélection du Type de génération d'états est définie sur Article.  
+## <a name="set-up-item-sales-tax-groups-for-eu-sales-list-reporting"></a>Paramétrer les groupes de taxe d’article pour la déclaration de la liste des ventes intracommunautaires
+1. Accédez à Taxe > Taxes indirectes > Taxe > Groupes de taxe d’article.
+2. Utilisez le filtre rapide pour filtrer le champ Groupe de taxe d’article avec une valeur « FULL ».
+    * Vérifiez que la sélection du Type de génération d’états est définie sur Article.  
     * Vous devez peut-être déverrouiller le guide pour modifier la valeur de ce champ.  
-3. Utilisez le filtre rapide pour filtrer le champ Groupe de taxe d'article avec une valeur « RED ».
-    * Vérifiez que la sélection du Type de génération d'états est définie sur Service.  
+3. Utilisez le filtre rapide pour filtrer le champ Groupe de taxe d’article avec une valeur « RED ».
+    * Vérifiez que la sélection du Type de génération d’états est définie sur Service.  
     * Vous devez peut-être déverrouiller le guide pour modifier la valeur de ce champ.  
 
 ## <a name="set-up-countryregion-parameters-for-eu-sales-list-reporting"></a>Paramétrer les paramètres des pays/régions pour la déclaration de la liste des ventes intracommunautaires
@@ -92,33 +92,33 @@ Ces tâches sont destinées aux administrateurs système.
 4. Dans le champ Taxe, entrez « PT ».
 
 ## <a name="create-tax-exempt-numbers"></a>Créer des numéros identifiant TVA
-1. Accédez à Taxe > Paramétrage > Taxe > Numéros d'exonération fiscale.
+1. Accédez à Taxe > Paramétrage > Taxe > Numéros d’exonération fiscale.
 2. Cliquez sur Nouveau.
 3. Tapez PRT dans le champ Pays/Région.
 4. Tapez PT12345 dans le champ Numéros identifiant TVA.
 
 ## <a name="set-up-eu-sales-list-reporting-parameters"></a>Paramétrer les paramètres de déclaration de la liste des ventes intracommunautaires
 1. Accédez à Taxe > Paramétrage > Commerce extérieur > Paramètres de commerce extérieur.
-2. Cliquez sur l'onglet Liste des ventes intracommunautaires.
+2. Cliquez sur l’onglet Liste des ventes intracommunautaires.
 3. Sélectionnez Oui dans le champ Transférer les achats.
-4. Développez la section Règles d'arrondi.
-5. Définissez la règle d'arrondi sur 0,1.
+4. Développez la section Règles d’arrondi.
+5. Définissez la règle d’arrondi sur 0,1.
 6. Sélectionnez Oui dans le champ Utiliser la valeur minimale.
 7. Entrez 2 dans le champ Nombre de décimales.
-8. Développez la section Génération d'états électroniques.
+8. Développez la section Génération d’états électroniques.
 9. Dans le champ Mise en correspondance des formats de fichier, sélectionnez « liste des ventes intracommunautaires (DE) ».
-10. Dans le champ Mise en correspondance des formats d'état, sélectionnez « État de la liste des ventes intracommunautaires par lignes ».
-11. Cliquez sur l'onglet Propriétés de pays/régions.
+10. Dans le champ Mise en correspondance des formats d’état, sélectionnez « État de la liste des ventes intracommunautaires par lignes ».
+11. Cliquez sur l’onglet Propriétés de pays/régions.
     * Vérifiez que le champ Pays/région est défini sur « Local » défini pour le pays/la région DEU.  
     * Vous devez peut-être déverrouiller le guide pour modifier la valeur de ce champ.  
 12. Cliquez sur Nouveau.
 13. Tapez PRT dans le champ Pays/Région.
-14. Dans le champ Code de déclaration d'échanges de biens, tapez PT.
+14. Dans le champ Code de déclaration d’échanges de biens, tapez PT.
 15. Dans le champ Type de pays/région, sélectionnez UE.
-16. Cliquez sur l'onglet Souches de numéros.
-    * Vérifiez qu'un code souche de numéros est spécifié pour la référence « Liste des ventes intracommunautaires ».  
+16. Cliquez sur l’onglet Souches de numéros.
+    * Vérifiez qu’un code souche de numéros est spécifié pour la référence « Liste des ventes intracommunautaires ».  
 
-## <a name="create-a-customer-for-eu-sales-list-reporting-demo-purposes"></a>Créer un client pour démonstration de la déclaration d'états de liste des ventes intracommunautaires
+## <a name="create-a-customer-for-eu-sales-list-reporting-demo-purposes"></a>Créer un client pour démonstration de la déclaration d’états de liste des ventes intracommunautaires
 1. Accédez à Comptabilité client > Clients > Tous les clients.
 2. Cliquez sur Nouveau.
 3. Tapez PRT-001 dans le champ Compte client.

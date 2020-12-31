@@ -1,6 +1,6 @@
 ---
 title: Paramétrage de chèques postdatés
-description: Cette rubrique explique comment indiquer s'il faut valider les écritures de journal pour les chèques postdatés et quels journaux de validation utiliser pour les écritures de compensation et les paiements fournisseur.
+description: Cette rubrique explique comment indiquer s’il faut valider les écritures de journal pour les chèques postdatés et quels journaux de validation utiliser pour les écritures de compensation et les paiements fournisseur.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,26 +17,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141106"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443237"
 ---
 # <a name="set-up-postdated-checks"></a>Paramétrage de chèques postdatés
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment indiquer s'il faut valider les écritures de journal pour les chèques postdatés et quels journaux de validation utiliser pour les écritures de compensation et les paiements fournisseur. Vous pouvez également spécifier les comptes de compensation pour les chèques émis, les chèques reçus et la retenue à la source. Les chèques postdatés sont émis à des fins d'émission ou de réception de paiements à une date future. Vous pouvez indiquer si le chèque doit être pris en compte dans les registres comptables avant sa date d'échéance.
+Cette rubrique explique comment indiquer s’il faut valider les écritures de journal pour les chèques postdatés et quels journaux de validation utiliser pour les écritures de compensation et les paiements fournisseur. Vous pouvez également spécifier les comptes de compensation pour les chèques émis, les chèques reçus et la retenue à la source. Les chèques postdatés sont émis à des fins d’émission ou de réception de paiements à une date future. Vous pouvez indiquer si le chèque doit être pris en compte dans les registres comptables avant sa date d’échéance.
 
 
 
-Le rôle de cette procédure Trésorier. La société fictive USMF sert d'exemple dans cette procédure.
+Le rôle de cette procédure Trésorier. La société fictive USMF sert d’exemple dans cette procédure.
 
 
 ## <a name="set-up-postdated-checks"></a>Paramétrage de chèques postdatés
 1. Accédez à Gestion de la trésorerie et de la banque > Paramétrage > Paramètres de gestion de la trésorerie et de la banque.
-2. Cliquez sur l'onglet Chèques postdatés.
+2. Cliquez sur l’onglet Chèques postdatés.
 3. Activez ou désactivez la case à cocher Activer les chèques postdatés.
 4. Activez ou désactivez les écritures de journal de validation pour la case à cocher des chèques postdatés.
 5. Dans le champ Compensation du compte pour des émissions de chèques, indiquez les valeurs souhaitées.
@@ -49,7 +49,7 @@ Le rôle de cette procédure Trésorier. La société fictive USMF sert d'exempl
 12. Accédez à Comptabilité fournisseur > Paramétrage des paiements > Modes de paiement.
 13. Cliquez sur Nouveau.
 14. Tapez une valeur dans le champ Mode de paiement.
-15. Sélectionnez l'option Validation de la compensation des chèques postdatés pour indiquer que le montant du chèque est validé dans un compte de compensation.
+15. Sélectionnez l’option Validation de la compensation des chèques postdatés pour indiquer que le montant du chèque est validé dans un compte de compensation.
 16. Sélectionnez Banque dans le champ Type de compte.
     * Le compte de contrepartie du mode de paiement est une banque.  
 17. Dans le champ Compte de paiement, indiquez les valeurs souhaitées.

@@ -17,21 +17,21 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f50ee568df492bcd811d2fefb1784bb55b50384b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145050"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443101"
 ---
 # <a name="journalize-posted-journal-entries"></a>Journaliser les entrées de journal validées
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment journaliser les entrées de journal validées. La société fictive USMF sert d'exemple dans cette procédure.
+Cette procédure indique comment journaliser les entrées de journal validées. La société fictive USMF sert d’exemple dans cette procédure.
 
 1. Dans le **Volet de navigation**, accédez à **Modules > Comptabilité > Paramétrage de la comptabilité > Paramètres de comptabilité**.
-2. Le champ **Journal comptable étendu** peut être défini sur Oui ou Non. S'il est défini sur Oui, la sortie d'état est différente.
-3. Indiquez si la période peut être clôturée si le processus de journalisation n'a pas été exécuté. Si cette option est définie Oui, la période ne peut pas être clôturée tant que le processus de journalisation n'a pas été terminé pour cette période.  
+2. Le champ **Journal comptable étendu** peut être défini sur Oui ou Non. S’il est défini sur Oui, la sortie d’état est différente.
+3. Indiquez si la période peut être clôturée si le processus de journalisation n’a pas été exécuté. Si cette option est définie Oui, la période ne peut pas être clôturée tant que le processus de journalisation n’a pas été terminé pour cette période.  
 4. Fermez la page.
 5. Dans le **Volet de navigation**, accédez à **Modules > Comptabilité > Tâches périodiques > Journalisation**.
 6. Cliquez sur **Filtre**.

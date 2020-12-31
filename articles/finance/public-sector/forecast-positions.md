@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 109f0ac35fb0bea26eeec1052c165bf13653e8e7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407913"
 ---
 # <a name="forecast-position-distribution"></a>Distribution de poste de prévision 
 
@@ -30,8 +30,8 @@ ms.locfileid: "3985984"
  
 Vous pouvez mettre à jour des modèles de distribution pour les postes de prévision en utilisant les commandes du raccourci **Dimensions financières** de la page **Poste de prévision**. La grille dans la partie supérieure du raccourci indique toutes les lignes de répartition avec leur pourcentage. La partie inférieure du raccourci montre les dimensions par défaut du poste de prévision.
 
-Vous pouvez vérifier si les dimensions pour un poste de prévision sont correctes pour le plan de comptes de votre organisation. Pour n'importe quel poste de prévision, dans la page **Poste de prévision**, sélectionnez **Valider** dans le volet Actions pour déterminer si le paramétrage des dimensions financières pour ce poste de prévision est valide. Le contrôle est effectué par rapport à la structure de compte que vous définissez dans la page **Configurer les structures de compte**. Ce contrôle est rapide et peut vous aider à identifier les erreurs avant de générer un plan de budget à partir d'un poste de prévision. Vous pouvez également valider plusieurs postes de prévision en même temps sur la page de liste **Postes prévisionnels**.
+Vous pouvez vérifier si les dimensions pour un poste de prévision sont correctes pour le plan de comptes de votre organisation. Pour n’importe quel poste de prévision, dans la page **Poste de prévision**, sélectionnez **Valider** dans le volet Actions pour déterminer si le paramétrage des dimensions financières pour ce poste de prévision est valide. Le contrôle est effectué par rapport à la structure de compte que vous définissez dans la page **Configurer les structures de compte**. Ce contrôle est rapide et peut vous aider à identifier les erreurs avant de générer un plan de budget à partir d’un poste de prévision. Vous pouvez également valider plusieurs postes de prévision en même temps sur la page de liste **Postes prévisionnels**.
 
 Vous pouvez voir quand un poste de prévision a été validé pour la dernière fois dans la section **Contrôle de poste de prévision** sur le raccourci **Planification budgétaire** de la page **Poste de prévision**. Les champs de contrôle sont également inclus dans la page de liste **Postes prévisionnels**.
 
-Pour plus d'informations, voir [Prévision des postes](../budgeting/position-forecasting.md).
+Pour plus d’informations, voir [Prévision des postes](../budgeting/position-forecasting.md).

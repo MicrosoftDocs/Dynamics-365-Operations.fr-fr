@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fff04a8259165cdfb1bd6c56932f103a34881a68
-ms.sourcegitcommit: d6b17b9bafa84b574a597a560a80e6b7b1852b14
+ms.openlocfilehash: bc3f2cf1aec97fa7bb6505f3be721c56b20e9331
+ms.sourcegitcommit: ffe9ae98b347f78430926ca96c1061f25f698f53
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "3799993"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4408015"
 ---
 # <a name="set-up-vendors-for-1099-reporting"></a>Paramétrer des fournisseurs pour l’état 1099
 
@@ -72,7 +72,12 @@ Pour paramétrer des fournisseurs pour les états 1099, procédez comme suit.
 
 ## <a name="associate-a-1099-default-value-with-a-main-account"></a>Associer une valeur par défaut de 1099 à un compte principal
 
-Certaines lignes de facture identifiées pour la déclaration de taxe fédérale 1099 peuvent être déclarées pour une zone 1099 différente de la zone par défaut du fournisseur. Étant donné que les fournisseurs peuvent recevoir des paiements qui correspondent à plusieurs zones 1099, il est préférable d’utiliser un compte principal sur une ligne pour une distribution de financement. Cette approche garantit une génération d’état cohérent des paiements à une zone 1099 spécifique. Vous pouvez maintenant recalculer les valeurs de la zone 1099 pour les fournisseurs afin de déclarer plus précisément les soldes accumulés à l’IRS.
+Certaines lignes de facture identifiées pour la déclaration de taxe fédérale 1099 peuvent être déclarées pour une zone 1099 différente de la zone par défaut du fournisseur. 
+
+> [!Note]
+> Cette fonctionnalité n’est disponible que si vous utilisez le secteur public. 
+
+Étant donné que les fournisseurs peuvent recevoir des paiements qui correspondent à plusieurs zones 1099, il est préférable d’utiliser un compte principal sur une ligne pour une distribution de financement. Cette approche garantit une génération d’état cohérent des paiements à une zone 1099 spécifique. Vous pouvez maintenant recalculer les valeurs de la zone 1099 pour les fournisseurs afin de déclarer plus précisément les soldes accumulés à l’IRS.
 
 > [!NOTE]
 > La zone 1099 et le montant ne peuvent être renseignés sur la facture que si la case **État 1099** sur le raccourci **Taxe 1099** de la page des détails du fournisseur est cochée.
@@ -85,6 +90,9 @@ Certaines lignes de facture identifiées pour la déclaration de taxe fédérale
 ## <a name="update-1099-boxes-and-amounts"></a>Mettre à jour les zones et montants 1099
 
 Vous pouvez mettre à jour les zones et les montants de l’état 1099 pour toutes les factures payées pour une année civile, en fonction de l’affectation actuelle des comptes principaux aux zones 1099.
+
+> [!Note]
+> Cette fonctionnalité n’est disponible que si vous utilisez le secteur public. 
 
 1. Aller à **Comptabilité fournisseur \> Tâches périodiques \> Taxe 1099 \> Mettre à jour les informations par compte principal 1099**.
 2. Sélectionnez une plage de dates et un fournisseur, puis sélectionnez **OK**.

@@ -18,11 +18,11 @@ ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
 ms.openlocfilehash: 7c95a3f84ac95b51bc329d92150d6a7bf3796256
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819854"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408006"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -163,7 +163,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </td>
 <td width="71%">
 <p>Fournitures et services soumis au taux de taxe de 6 %.</p>
-<p>Livraison d'un produit ou de transactions de service soumis au taux de taxe de 6 %.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 6 %.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -175,7 +175,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </td>
 <td width="71%">
 <p>Fournitures et services soumis au taux de taxe de 12 %.</p>
-<p>Livraison d'un produit ou de transactions de service soumis au taux de taxe de 12 %.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 12 %.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -187,7 +187,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 </td>
 <td width="71%">
 <p>Fournitures et services soumis au taux de taxe de 21 %.</p>
-<p>Livraison d'un produit ou de transactions de service soumis au taux de taxe de 21 %.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 21 %.</p>
 </td>
 <td width="10%">
 <p>Base</p>

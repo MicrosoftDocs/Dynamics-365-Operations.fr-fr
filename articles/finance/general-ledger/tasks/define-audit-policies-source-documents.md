@@ -1,6 +1,6 @@
 ---
-title: Définir des stratégies d'audit pour les documents sources
-description: Cette rubrique décrit comment paramétrer et exécuter des règles de stratégie d'audit.
+title: Définir des stratégies d’audit pour les documents sources
+description: Cette rubrique décrit comment paramétrer et exécuter des règles de stratégie d’audit.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/20/2019
@@ -17,54 +17,54 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145027"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443253"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>Définir des stratégies d'audit pour les documents sources
+# <a name="define-audit-policies-for-source-documents"></a>Définir des stratégies d’audit pour les documents sources
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer et exécuter des règles de stratégie d'audit. L'exemple utilise des états de dépenses avec le type de dépense Hôtel. La société fictive USMF sert d'exemple dans cette procédure. Le rôle d'auditeur contient les autorisations adéquates afin d'exécuter ces tâches.
+Cette rubrique décrit comment paramétrer et exécuter des règles de stratégie d’audit. L’exemple utilise des états de dépenses avec le type de dépense Hôtel. La société fictive USMF sert d’exemple dans cette procédure. Le rôle d’auditeur contient les autorisations adéquates afin d’exécuter ces tâches.
 
-1. Dans le volet de navigation, allez dans **Modules > Console d'audit > Configuration > Type de règle de stratégie**.
+1. Dans le volet de navigation, allez dans **Modules > Console d’audit > Configuration > Type de règle de stratégie**.
 2. Sélectionnez **Nouveau**.
 3. Tapez une valeur dans le champ **Nom de la règle**.
 4. Tapez une valeur dans le champ **Description**.
-5. Sélectionnez **Ligne d'état de dépenses** dans le champ **Nom de la requête**
+5. Sélectionnez **Ligne d’état de dépenses** dans le champ **Nom de la requête**
 6. Sélectionnez **Regroupement** dans le champ de **type de requête**
 7. Sélectionnez **Entité juridique** dans le champ **Entité juridique**
 8. Dans le champ **Référence de date du document**, sélectionnez **Date et heure de modification**
 9. Sélectionnez **Enregistrer**.
-10. Dans le volet de navigation, allez dans **Modules > Console d'audit > Configuration > Stratégies d'audit**.
+10. Dans le volet de navigation, allez dans **Modules > Console d’audit > Configuration > Stratégies d’audit**.
 11. Sélectionnez **Nouveau**.
 12. Tapez une valeur dans le champ **Nom**.
 13. Développez la section **Organisations de stratégie**.
-14. Dans l'arborescence, sélectionnez **Contoso Entertainment System USA**, puis sélectionnez **Ajouter**.
-15. Dans l'arborescence, sélectionnez **Contoso Consulting USA**, puis sélectionnez **Ajouter**.
-16. Dans l'arborescence, sélectionnez **Contoso Retail USA**, puis sélectionnez **Ajouter**.
+14. Dans l’arborescence, sélectionnez **Contoso Entertainment System USA**, puis sélectionnez **Ajouter**.
+15. Dans l’arborescence, sélectionnez **Contoso Consulting USA**, puis sélectionnez **Ajouter**.
+16. Dans l’arborescence, sélectionnez **Contoso Retail USA**, puis sélectionnez **Ajouter**.
 17. Réduisez la section **Organisations de stratégie**.
 18. Développez la section **Règles de stratégie**.
 19. Dans la liste, recherchez et sélectionnez la règle de stratégie créée précédemment.
 20. Sélectionnez **Créer une règle de stratégie**.
-21. Entrez une date et une heure dans le champ **Date d'effet**.
+21. Entrez une date et une heure dans le champ **Date d’effet**.
 22. Sélectionnez **Filtrer**.
 23. Dans la liste, sélectionnez la ligne en regard de la catégorie **Dépense**, puis indiquez **Hôtel** dans les détails.
 24. Dans le champ **Critères**, saisissez ou sélectionnez une valeur.
-25. Cliquez sur l'onglet **Regroupement**.
+25. Cliquez sur l’onglet **Regroupement**.
 26. Sélectionnez **Ajouter**.
 27. Dans la liste, sélectionnez une valeur de champ pour **Montant de la transaction**.
 28. Saisissez ou sélectionnez une valeur dans le champ **Champ**.
 29. Sélectionnez **Somme** dans le champ **AggregateFunction**.
-30. Sélectionnez l'onglet **Grouper par**.
+30. Sélectionnez l’onglet **Grouper par**.
 31. Sélectionnez **Ajouter**.
 32. Sélectionnez une valeur pour **Employé** dans la liste.
 33. Sélectionnez **Ajouter**.
 34. Sélectionnez une valeur pour **Catégorie de dépenses** dans la liste.
 35. Saisissez ou sélectionnez une valeur dans le champ **Champ**.
-36. Sélectionnez l'onglet **Ayant**.
+36. Sélectionnez l’onglet **Ayant**.
 37. Sélectionnez **Ajouter**.
 38. Sélectionnez le **montant de la transaction**.
 39. Saisissez ou sélectionnez une valeur dans le champ **Champ**.
@@ -75,16 +75,16 @@ Cette rubrique décrit comment paramétrer et exécuter des règles de stratégi
 44. Entrez une date et une heure dans le champ **Date de début de la sélection de document**.
 45. Entrez une date et une heure dans le champ **Date de fin de la sélection de document**.
 46. Sélectionnez **Exécuter le test**.
-47. Dans le volet Actions, cliquez sur **Stratégie d'audit**.
+47. Dans le volet Actions, cliquez sur **Stratégie d’audit**.
 48. Sélectionnez **Options supplémentaires**.
 49. Entrez une date et une heure dans le champ **Date de début**.
 50. Entrez une date et une heure dans le champ **Date de fin**.
 51. Sélectionnez **Traitement par lots**.
-52. Développez la section **Exécuter à l'arrière-plan**.
+52. Développez la section **Exécuter à l’arrière-plan**.
 53. Sélectionnez **Oui** dans le champ **Traitement par lots**.
 54. Cliquez sur **OK**.
-55. Dans le volet de navigation, allez dans **Modules > Console d'audit > Dossiers d'audit**.
-56. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+55. Dans le volet de navigation, allez dans **Modules > Console d’audit > Dossiers d’audit**.
+56. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 57. Développez la section **Associations**.
-58. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+58. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 

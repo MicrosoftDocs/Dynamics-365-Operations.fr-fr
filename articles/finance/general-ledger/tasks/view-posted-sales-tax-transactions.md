@@ -1,6 +1,6 @@
 ---
 title: Afficher les transactions de taxe validées
-description: Cette rubrique décrit certains manières d'afficher les transactions fiscales validées.
+description: Cette rubrique décrit certains manières d’afficher les transactions fiscales validées.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/08/2019
@@ -17,17 +17,17 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4b4e35d6a07ef4220bdd883eb3384a1c800ecd9e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978577"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443273"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Afficher les transactions de taxe validées
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit certains manières d'afficher les transactions fiscales validées. Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher. La société fictive USMF est citée en exemple dans cette tâche.
+Cette rubrique décrit certains manières d’afficher les transactions fiscales validées. Vous pouvez afficher des transactions de taxe validées à partir de différentes pages en fonction de ce que vous devez afficher. La société fictive USMF est citée en exemple dans cette tâche.
 
 ## <a name="posted-sales-tax-page"></a>Page de la taxe validée
 
@@ -39,7 +39,7 @@ Cette rubrique décrit certains manières d'afficher les transactions fiscales v
 
 1. Dans le volet de navigation, accédez à **Modules > Taxes > Taxes indirectes > Taxe > Périodes de règlement fiscal**.
 2. Développez la section **Intervalles de périodes**.
-3. Sélectionnez l'intervalle qui vous intéresse.
+3. Sélectionnez l’intervalle qui vous intéresse.
 4. Vous pouvez filtrer plus précisément la liste des transactions de taxe validées.
 5. Fermez la page.
 

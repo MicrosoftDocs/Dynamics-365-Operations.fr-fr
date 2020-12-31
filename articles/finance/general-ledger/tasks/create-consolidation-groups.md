@@ -17,20 +17,20 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 826a65af563207fbfbc7391b176aa0e65b3363f9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145237"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443247"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Créer des groupes de consolidation et comptes de consolidation supplémentaires
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure montre comment créer un groupe de comptes de consolidation puis ajouter des comptes au groupe. La société fictive USMF sert d'exemple dans cette procédure.
+Cette procédure montre comment créer un groupe de comptes de consolidation puis ajouter des comptes au groupe. La société fictive USMF sert d’exemple dans cette procédure.
 
 
-## <a name="create-a-consolidation-account-group"></a>Création d'un groupe de comptes de consolidation
+## <a name="create-a-consolidation-account-group"></a>Création d’un groupe de comptes de consolidation
 1. Accédez à Comptabilité > Plan de comptes > Comptes > Groupes de compte de consolidation.
 2. Cliquez sur Nouveau.
 3. Dans le champ Groupe de comptes de consolidation, entrez un identificateur unique pour le groupe de comptes de consolidation.

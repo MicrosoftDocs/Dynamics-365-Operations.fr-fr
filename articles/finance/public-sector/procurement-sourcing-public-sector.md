@@ -1,6 +1,6 @@
 ---
 title: Approvisionnements dans le secteur public
-description: Cette vue d'ensemble présente la fonctionnalité d'approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d'achat, et les montants de ligne de commande fournisseur.
+description: Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,19 +20,19 @@ ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 70adc10cfb4ae446be9ea5d69b14f34f497168a4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773605"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407910"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector"></a>Approvisionnements dans le secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cette vue d'ensemble présente la fonctionnalité d'approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d'achat, et les montants de ligne de commande fournisseur.
+Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
 
-Cet article décrit la fonctionnalité d'approvisionnements disponible pour le secteur public. 
+Cet article décrit la fonctionnalité d’approvisionnements disponible pour le secteur public. 
 
 ## <a name="what-are-the-prerequisites-for-setting-up-procurement-and-sourcing-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage des approvisionnements dans le secteur public ?
 Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez effectuer les opérations suivantes :
@@ -41,53 +41,53 @@ Avant de commencer à ajuster les paramètres et à entrer vos données, vous de
 -   Paramétrer le système de numérotation pour les fournisseurs, les commandes fournisseur, etc.
 -   Spécifier les types de certification des fournisseurs
 
-Vous devez peut-être paramétrer les fonctionnalités d'approvisionnement suivantes pour les organisations du secteur public :
+Vous devez peut-être paramétrer les fonctionnalités d’approvisionnement suivantes pour les organisations du secteur public :
 
--    [Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation permet de contourner le processus d'achat habituel.
+-    [Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur. Une commande fournisseur de confirmation permet de contourner le processus d’achat habituel.
 
 > [!NOTE]
-> Cela s'applique également à la comptabilité fournisseur.
+> Cela s’applique également à la comptabilité fournisseur.
 
 -   [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md) 
 
 Pour les organisations françaises, des étapes supplémentaires peuvent être nécessaires pour le secteur public.
 
-Les sections suivantes décrivent les fonctionnalités d'approvisionnements disponible pour le secteur public.
+Les sections suivantes décrivent les fonctionnalités d’approvisionnements disponible pour le secteur public.
 
 ## <a name="what-are-vendor-certification-types"></a>Que sont les types de certification des fournisseurs ?
-Vous pouvez créer et affecter aux organisations de fournisseurs n'importe quels types de certification que les fournisseurs détiennent. Il s'agit non seulement d'informations d'identification professionnelles, comme la licence d'un ingénieur professionnel ou la certification Microsoft SQL Server, mais aussi de l'assurance du passif, du statut minoritaire ou de la conformité avec diverses normes de sécurité relatives à l'environnement ou au consommateur. 
+Vous pouvez créer et affecter aux organisations de fournisseurs n’importe quels types de certification que les fournisseurs détiennent. Il s’agit non seulement d’informations d’identification professionnelles, comme la licence d’un ingénieur professionnel ou la certification Microsoft SQL Server, mais aussi de l’assurance du passif, du statut minoritaire ou de la conformité avec diverses normes de sécurité relatives à l’environnement ou au consommateur. 
 
 La page **Type de certification** de la comptabilité fournisseur vous permet de spécifier le type et la description de la certification.
 
-## <a name="what-do-i-need-to-know-about-purchase-or-sales-agreement-classifications"></a>Que dois-je savoir sur les classifications de contrat d'achat ou de vente ?
-Lorsque les utilisateurs créent un contrat d'achat ou de vente, ils doivent toujours sélectionner son type. Les contrôles supplémentaires du secteur public sont disponibles sur les pages **Classifications de contrat**. 
+## <a name="what-do-i-need-to-know-about-purchase-or-sales-agreement-classifications"></a>Que dois-je savoir sur les classifications de contrat d’achat ou de vente ?
+Lorsque les utilisateurs créent un contrat d’achat ou de vente, ils doivent toujours sélectionner son type. Les contrôles supplémentaires du secteur public sont disponibles sur les pages **Classifications de contrat**. 
 
-Pour créer et spécifier des classifications de contrat, utilisez la page **Classification de contrat d'achat** dans le module Approvisionnements ou la page **Classification de contrat de vente** dans le module Ventes et marketing. 
+Pour créer et spécifier des classifications de contrat, utilisez la page **Classification de contrat d’achat** dans le module Approvisionnements ou la page **Classification de contrat de vente** dans le module Ventes et marketing. 
 
-Prenez en compte les informations suivantes lorsque vous spécifiez les détails des classifications de contrat d'achat ou de vente.
+Prenez en compte les informations suivantes lorsque vous spécifiez les détails des classifications de contrat d’achat ou de vente.
 
-### <a name="how-do-i-enter-information-about-subcontractors-on-purchase-agreements"></a>Comment saisir les informations sur les sous-traitants dans les contrats d'achat ?
+### <a name="how-do-i-enter-information-about-subcontractors-on-purchase-agreements"></a>Comment saisir les informations sur les sous-traitants dans les contrats d’achat ?
 
-Sélectionnez l'option **Sous-traitants**.
+Sélectionnez l’option **Sous-traitants**.
 
-### <a name="how-do-i-enter-information-about-insurance-policies-and-bonds-on-purchase-agreements"></a>Comment spécifier les informations sur les polices d'assurance et les obligations dans les contrats d'achat ?
+### <a name="how-do-i-enter-information-about-insurance-policies-and-bonds-on-purchase-agreements"></a>Comment spécifier les informations sur les polices d’assurance et les obligations dans les contrats d’achat ?
 
-Sélectionnez l'option **Certifications**. Les informations peuvent servir à générer un état qui vous permet de contrôler la conformité des fournisseurs avec les conditions de certification. (Pour générer l'état, accéder accédez à la page **Conformité de la certification des contrats d'achat**.)
+Sélectionnez l’option **Certifications**. Les informations peuvent servir à générer un état qui vous permet de contrôler la conformité des fournisseurs avec les conditions de certification. (Pour générer l’état, accéder accédez à la page **Conformité de la certification des contrats d’achat**.)
 
-### <a name="how-do-i-enter-information-about-milestones-and-tasks-on-purchase-agreements"></a>Comment saisir les informations sur les jalons et les tâches dans les contrats d'achat ?
+### <a name="how-do-i-enter-information-about-milestones-and-tasks-on-purchase-agreements"></a>Comment saisir les informations sur les jalons et les tâches dans les contrats d’achat ?
 
-Sélectionnez l'option **Activités**.
+Sélectionnez l’option **Activités**.
 
-### <a name="how-do-i-require-direct-invoicing-and-prevent-the-use-of-release-orders-with-purchase-agreements"></a>Comment imposer une facturation directe et empêcher l'utilisation d'ordres de lancement pour les contrats d'achat ?
+### <a name="how-do-i-require-direct-invoicing-and-prevent-the-use-of-release-orders-with-purchase-agreements"></a>Comment imposer une facturation directe et empêcher l’utilisation d’ordres de lancement pour les contrats d’achat ?
 
-Sélectionnez l'option **Exiger une facturation directe**. 
+Sélectionnez l’option **Exiger une facturation directe**. 
 
 ## <a name="can-i-view-purchase-order-line-amounts"></a>Puis-je afficher les montants de la ligne de commande fournisseur ?
-Oui. Vous pouvez afficher les montants de ligne d'une commande fournisseur (notamment le montant commandé actuel, les montants reçus ou facturés). Vous pouvez également afficher les montants restant à facturer ou ceux des factures en attente.
+Oui. Vous pouvez afficher les montants de ligne d’une commande fournisseur (notamment le montant commandé actuel, les montants reçus ou facturés). Vous pouvez également afficher les montants restant à facturer ou ceux des factures en attente.
 
 ### <a name="tip"></a>Conseil
 
-Supposons que vous affichiez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux. Le premier inclut le mobilier de bureau commandé auprès d'un fournisseur. Le second inclut les fournitures de bureau. Le montant commandé est égal à la somme des montants facturés, des montants des factures en attente, et des montants restants à facturer. Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.
+Supposons que vous affichiez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux. Le premier inclut le mobilier de bureau commandé auprès d’un fournisseur. Le second inclut les fournitures de bureau. Le montant commandé est égal à la somme des montants facturés, des montants des factures en attente, et des montants restants à facturer. Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.
 
 <table style="width:100%;">
 
@@ -136,7 +136,7 @@ Supposons que vous affichiez une ligne de commande fournisseur contenant des ach
 
 
 
-Pour plus d'informations, voir [Vue d'ensemble des approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Vue d'ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
+Pour plus d’informations, voir [Vue d’ensemble des approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Vue d’ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).
 
 
 

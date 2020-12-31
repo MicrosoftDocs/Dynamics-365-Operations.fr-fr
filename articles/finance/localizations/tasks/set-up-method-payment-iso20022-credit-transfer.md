@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d6d60502cd7f749b71cf39cc38d8a39dcbb7b108
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140115"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443018"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Paramétrer le mode de paiement pour les virements ISO20022
 
@@ -29,11 +29,11 @@ ms.locfileid: "3140115"
 
 Cette procédure indique comment paramétrer le mode de paiement fournisseur pour le virement ISO20022 ou un autre type de paiement en utilisant les états électroniques pour générer un fichier. 
 
-Avant d'effectuer cette tâche, vous devez exporter les configurations de format et paramétrer les comptes de paiement.
+Avant d’effectuer cette tâche, vous devez exporter les configurations de format et paramétrer les comptes de paiement.
 
-Cette tâche a été créé à l'aide des données fictives de la société DEMF.
+Cette tâche a été créé à l’aide des données fictives de la société DEMF.
 
-Il s'agit de la troisième des cinq procédures illustrant le processus de paiement fournisseur à l'aide des configurations de génération d'états électroniques. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Il s’agit de la troisième des cinq procédures illustrant le processus de paiement fournisseur à l’aide des configurations de génération d’états électroniques. Cette procédure s’applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Comptabilité fournisseur > Paramétrage des paiements > Modes de paiement.
 2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Mode de paiement. avec une valeur de « SEPA CT ».
@@ -43,7 +43,7 @@ Il s'agit de la troisième des cinq procédures illustrant le processus de paiem
 6. Développez la section Formats de fichier.
 7. Sélectionnez Oui dans le champ États électroniques génériques.
 8. Entrez ou sélectionnez une valeur dans le champ Exporter la configuration du format.
-    * Dans la liste, sélectionnez la valeur du virement ISO20022 (DE). Si cette liste est vide, la configuration du format d'exportation de paiement fournisseur n'est pas importée et active.  
+    * Dans la liste, sélectionnez la valeur du virement ISO20022 (DE). Si cette liste est vide, la configuration du format d’exportation de paiement fournisseur n’est pas importée et active.  
 9. Sélectionnez Banque dans le champ Type de compte.
 10. Dans le champ Compte de paiement, indiquez les valeurs DEMF OPER.
 11. Cliquez sur Enregistrer.

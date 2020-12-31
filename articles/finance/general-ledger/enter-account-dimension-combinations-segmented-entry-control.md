@@ -1,6 +1,6 @@
 ---
-title: Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)
-description: Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté ».
+title: Entrer des combinaisons de compte et de dimensions (contrôle d’accès segmenté)
+description: Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L’expérience de saisie est souvent appelée « contrôle d’accès segmenté ».
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,19 +19,19 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 872ee7812d98e6102798c3a10773176541c02c90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186645"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443060"
 ---
-# <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Entrer des combinaisons de compte et de dimensions (contrôle d'accès segmenté)
+# <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Entrer des combinaisons de compte et de dimensions (contrôle d’accès segmenté)
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L'expérience de saisie est souvent appelée « contrôle d'accès segmenté ».
+Cet article décrit comment entrer des combinaisons de comptes et de dimensions ou de comptes généraux. L’expérience de saisie est souvent appelée « contrôle d’accès segmenté ».
 
-Les utilisateurs entrent des combinaisons de compte et de dimension dans diverses pages, telles que des pages de journaux généraux, de budgétisation et de définitions de validation. Les combinaisons de compte et de dimensions valables dépendent des structures de compte affectées à la comptabilité et aux règles avancées affectées aux structures de compte. Lorsque les utilisateurs entrent une combinaison, ils peuvent taper les valeurs manuellement ou tirer profit d'une riche expérience de recherche. Lorsque vous activez le champ, vous pouvez commencer à entrer votre saisie pour rechercher la valeur et la description. Par exemple, si vous tapez 180, le système recherche une valeur commençant par cette combinaison de chiffres. Vous pouvez également taper Disponibilités pour rechercher une valeur dont la description commence par Disponibilités. Vous pouvez également utiliser un caractère générique, tel que \*Disponibilités ou \*180 pour déterminer si la valeur ou la description contient les critères de recherche. 
+Les utilisateurs entrent des combinaisons de compte et de dimension dans diverses pages, telles que des pages de journaux généraux, de budgétisation et de définitions de validation. Les combinaisons de compte et de dimensions valables dépendent des structures de compte affectées à la comptabilité et aux règles avancées affectées aux structures de compte. Lorsque les utilisateurs entrent une combinaison, ils peuvent taper les valeurs manuellement ou tirer profit d’une riche expérience de recherche. Lorsque vous activez le champ, vous pouvez commencer à entrer votre saisie pour rechercher la valeur et la description. Par exemple, si vous tapez 180, le système recherche une valeur commençant par cette combinaison de chiffres. Vous pouvez également taper Disponibilités pour rechercher une valeur dont la description commence par Disponibilités. Vous pouvez également utiliser un caractère générique, tel que \*Disponibilités ou \*180 pour déterminer si la valeur ou la description contient les critères de recherche. 
 
 Le tableau suivant décrit les raccourcis clavier qui peuvent être utilisés lorsque la recherche est clôturée.
 

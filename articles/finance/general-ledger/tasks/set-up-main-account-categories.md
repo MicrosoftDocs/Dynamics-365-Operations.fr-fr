@@ -17,17 +17,17 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e0a015283064af2287013bccc065b4467a308c5
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144787"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443097"
 ---
 # <a name="set-up-main-account-categories"></a>Paramétrer des catégories de compte principal
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer les catégories de compte principales. Les catégories de compte principal sont utilisées pour les états par défaut dans les états financiers et dans Power BI. Les catégories de compte principal créées par défaut peuvent être renommées mais pas supprimées. Des catégories de compte supplémentaires peuvent être créées et utilisées à des fins de génération d'états et d'analyse. Cette rubrique utilise la société fictive USMF.
+Cette rubrique explique comment paramétrer les catégories de compte principales. Les catégories de compte principal sont utilisées pour les états par défaut dans les états financiers et dans Power BI. Les catégories de compte principal créées par défaut peuvent être renommées mais pas supprimées. Des catégories de compte supplémentaires peuvent être créées et utilisées à des fins de génération d’états et d’analyse. Cette rubrique utilise la société fictive USMF.
 
 ## <a name="create-a-main-account-category"></a>Créer une catégorie de compte principal
 1. Dans le volet de navigation, accédez à **Modules > Comptabilité > Plan de comptes > Comptes > Catégories de compte principales**.
@@ -38,7 +38,7 @@ Cette rubrique explique comment paramétrer les catégories de compte principale
 
 ## <a name="link-main-accounts-to-account-category"></a>Lier des comptes principaux à une catégorie de compte
 1. Cliquez sur **Lier les comptes principaux**.
-2. Dans la liste, sélectionnez les comptes principaux à affecter à la catégorie de compte principal en cochant les cases dans la colonne **Lié**. Affecter des comptes principaux à une catégorie de compte principal a pour effet d'agréger les soldes des comptes lorsque cette catégorie est utilisée pour la génération d'états financiers et l'analyse.  
-3. Activez ou désactivez l'option **Lié** pour choisir les comptes principaux.
+2. Dans la liste, sélectionnez les comptes principaux à affecter à la catégorie de compte principal en cochant les cases dans la colonne **Lié**. Affecter des comptes principaux à une catégorie de compte principal a pour effet d’agréger les soldes des comptes lorsque cette catégorie est utilisée pour la génération d’états financiers et l’analyse.  
+3. Activez ou désactivez l’option **Lié** pour choisir les comptes principaux.
 4. Cliquez sur **OK**.
 5. Cliquez sur **Oui**.

@@ -17,11 +17,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ef189cd381f57da1d3b89417f9132b09b41991bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139009"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407958"
 ---
 # <a name="fr-00018-daily-interest-calculation-for-late-payment-and-lump-sum-in-the-invoice-and-collection-letter"></a>FR-00018 Calcul des intérêts quotidiens de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance
 
@@ -29,9 +29,9 @@ ms.locfileid: "3139009"
 
 Indiquez le calcul des intérêts sur une facture.
 
-Cette procédure a été créée à l'aide des données fictives de la société FRRT. 
+Cette procédure a été créée à l’aide des données fictives de la société FRRT. 
 
-Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.
+Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en France.
 
 
 

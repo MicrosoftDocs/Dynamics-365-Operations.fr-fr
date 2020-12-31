@@ -19,29 +19,29 @@ ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770894"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443201"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Ajouter un emplacement et des types de relations de partie 
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="add-location-roles"></a>Ajouter des rôles d'emplacement
+## <a name="add-location-roles"></a>Ajouter des rôles d’emplacement
 
-Vous pouvez ajouter un nouveau rôle d'emplacement pour les informations d'adresse et de contact de deux manières :
+Vous pouvez ajouter un nouveau rôle d’emplacement pour les informations d’adresse et de contact de deux manières :
 
--  Utilisez la page **Objet des informations d'adresse et de contact**. Le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type = 0, qui indique que le rôle n'est pas un rôle système défini dans l'énumération **LogisticsLocationRoleType** et ses extensions. Un utilisateur peut utiliser ce rôle lors de la création des informations d'adresse ou de contact.
+-  Utilisez la page **Objet des informations d’adresse et de contact**. Le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type = 0, qui indique que le rôle n’est pas un rôle système défini dans l’énumération **LogisticsLocationRoleType** et ses extensions. Un utilisateur peut utiliser ce rôle lors de la création des informations d’adresse ou de contact.
 
-    ![Objet des informations d'adresse et de contact](media/Address-Contact.PNG)
+    ![Objet des informations d’adresse et de contact](media/Address-Contact.PNG)
 
--  Ajoutez-le à l'extension de l'énumération **LogisticsLocationRoleType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.
+-  Ajoutez-le à l’extension de l’énumération **LogisticsLocationRoleType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.
 
-    1.  Créez une extension à l'énumération **LogisticsLocationRoleType** et ajoutez le nouveau rôle dans l'extension. 
+    1.  Créez une extension à l’énumération **LogisticsLocationRoleType** et ajoutez le nouveau rôle dans l’extension. 
   
-        ![Extension à l'énumération LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Extension à l’énumération LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Créez un fichier de ressource pour le nouveau rôle, puis affectez une valeur pour ses propriétés.
      
@@ -51,7 +51,7 @@ Vous pouvez ajouter un nouveau rôle d'emplacement pour les informations d'adres
 
         ![Remplissage des données](media/Dirdata.PNG)
 
-    4.  Pour tester le remplissage du nouveau rôle d'emplacement, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertLogisticsLocationRoles() dans Main(). Une fois ce processus terminé, le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type \> 0. Le nouveau rôle s'affiche sur la page **Objet des informations d'adresse et de contact**.
+    4.  Pour tester le remplissage du nouveau rôle d’emplacement, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertLogisticsLocationRoles() dans Main(). Une fois ce processus terminé, le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type \> 0. Le nouveau rôle s’affiche sur la page **Objet des informations d’adresse et de contact**.
 
         ![Insérer un nouvel emplacement](media/InsertNewLocation.PNG)
 
@@ -63,14 +63,14 @@ Vous pouvez ajouter un nouveau type de relation de deux manières :
 
     ![Types de relations](media/Relationship.PNG)
 
--  Ajoutez-le à l'extension de l'énumération **DirSystemRelationshipType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.
+-  Ajoutez-le à l’extension de l’énumération **DirSystemRelationshipType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.
 
-    1.  Créez une extension à l'énumération **DirSystemRelationshipType** et ajoutez le nouveau type de relation.
+    1.  Créez une extension à l’énumération **DirSystemRelationshipType** et ajoutez le nouveau type de relation.
 
-    2. Créez un initialiseur pour ce nouveau type. Vous trouverez plusieurs exemples dans le code principal, l'un d'eux est **DirRelationshipTypeChildInitialize**. Il s'agit d'une classe d'initialiseur pour le type de relation de partie « Enfant ». Vous pouvez commencer par votre initialiseur en copiant-collant ce code et en mettant à jour les zones en surbrillance.
+    2. Créez un initialiseur pour ce nouveau type. Vous trouverez plusieurs exemples dans le code principal, l’un d’eux est **DirRelationshipTypeChildInitialize**. Il s’agit d’une classe d’initialiseur pour le type de relation de partie « Enfant ». Vous pouvez commencer par votre initialiseur en copiant-collant ce code et en mettant à jour les zones en surbrillance.
     
     ![Initialiseur DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  Pour tester le remplissage du nouveau type de relation, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertDirRelationshipTypes() dans Main(). Le nouveau type de relation doit s'afficher dans la table **DirRelationshipTypeTable**, et il est disponible sur la page **Types de relations**.
+    3.  Pour tester le remplissage du nouveau type de relation, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertDirRelationshipTypes() dans Main(). Le nouveau type de relation doit s’afficher dans la table **DirRelationshipTypeTable**, et il est disponible sur la page **Types de relations**.
 
         ![Classe exécutable](media/Runnable.PNG)

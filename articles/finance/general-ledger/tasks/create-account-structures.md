@@ -1,6 +1,6 @@
 ---
 title: Créer des structures de compte
-description: Ce guide accompagne l'utilisateur le long de la création d'une structure de compte.
+description: Ce guide accompagne l’utilisateur le long de la création d’une structure de compte.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/01/2019
@@ -17,22 +17,22 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b75ee76a1fb874652415a2174441f629955d763a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145152"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443250"
 ---
 # <a name="create-account-structures"></a>Créer des structures de compte
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide accompagne l'utilisateur le long de la création d'une structure de compte. La société fictive USMF est citée en exemple dans les étapes.
+Ce guide accompagne l’utilisateur le long de la création d’une structure de compte. La société fictive USMF est citée en exemple dans les étapes.
 
 1. Accédez au **Volet de navigation > Modules > Comptabilité > Plan de comptes > Structures > Configurer les structures de compte**.
 2. Dans le volet **Actions**, cliquez sur **Nouveau** pour ouvrir la boîte de dialogue.
-3. Dans le champ **Structure de compte**, entrez un nom pour décrire l'objectif de la structure de compte.
-4. Dans le champ **Description**, entrez une description pour préciser l'objectif de la structure de compte.
+3. Dans le champ **Structure de compte**, entrez un nom pour décrire l’objectif de la structure de compte.
+4. Dans le champ **Description**, entrez une description pour préciser l’objectif de la structure de compte.
 5. Cliquez sur **Créer**.
 6. Dans **Segments et valeurs autorisées**, cliquez sur **Ajouter un segment**.
 7. Dans la liste des dimensions, sélectionnez la dimension à ajouter à la structure de compte.

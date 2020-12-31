@@ -1,5 +1,5 @@
 ---
-title: Renseignements sur l'emplacement des disponibilités
+title: Renseignements sur l’emplacement des disponibilités
 description: Cette rubrique fournit des informations sur la façon de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
 author: velofog
 manager: AnnBe
@@ -16,27 +16,27 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b69f470e34484d685fcb4f25755427146dceee56
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 267e2d4c0ed3ad5a60e08200d7be338bfab02c2e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984840"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4408014"
 ---
-# <a name="cash-position-inquiry"></a>Renseignements sur l'emplacement des disponibilités
+# <a name="cash-position-inquiry"></a>Renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
 
-Les renseignements **Emplacement des disponibilités** vous permet de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Les renseignements affiche le solde des disponibilités de début, ainsi que l'effet de l'addition des rentrées de fonds, de la soustraction des remboursements de disponibilités, et la soustraction des transferts interfonds pour obtenir un solde de fin. Ensuite, les réservations budgétaires générales, les engagements ou les engagements préalables sont soustraits du solde de clôture pour obtenir à un solde non engagé.
+Les renseignements **Emplacement des disponibilités** vous permet de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre. Les renseignements affiche le solde des disponibilités de début, ainsi que l’effet de l’addition des rentrées de fonds, de la soustraction des remboursements de disponibilités, et la soustraction des transferts interfonds pour obtenir un solde de fin. Ensuite, les réservations budgétaires générales, les engagements ou les engagements préalables sont soustraits du solde de clôture pour obtenir à un solde non engagé.
 
-Ces renseignements sont uniques, car ils permettent aux utilisateurs de personnaliser la terminologie pour les noms de colonne et pour les comptes principaux utilisés pour fournir des montants aux colonnes. Dans la page **Paramètres de l'emplacement des disponibilités**, les colonnes affichées dans les renseignements sont numérotées à compter de la colonne de données à l'extrême gauche comme première colonne.
+Ces renseignements sont uniques, car ils permettent aux utilisateurs de personnaliser la terminologie pour les noms de colonne et pour les comptes principaux utilisés pour fournir des montants aux colonnes. Dans la page **Paramètres de l’emplacement des disponibilités**, les colonnes affichées dans les renseignements sont numérotées à compter de la colonne de données à l’extrême gauche comme première colonne.
 
-## <a name="cash-position-inquiry-setup"></a>Configuration des renseignements sur l'emplacement des disponibilités
+## <a name="cash-position-inquiry-setup"></a>Configuration des renseignements sur l’emplacement des disponibilités
 
-1. Accédez à **Comptabilité générale** > **Paramétrage de la comptabilité** > **Paramètres de l'emplacement des disponibilités**.
-2. Dans la page **Paramètres de l'emplacement des disponibilités**, dans la section **Première colonne** :
+1. Accédez à **Comptabilité générale** > **Paramétrage de la comptabilité** > **Paramètres de l’emplacement des disponibilités**.
+2. Dans la page **Paramètres de l’emplacement des disponibilités**, dans la section **Première colonne** :
 
-- Dans le champ **Nom de la colonne**, tapez une étiquette à utiliser comme en-tête pour la première colonne de la recherche (par exemple, « Solde d'ouverture »).
-- Dans le champ **Comptes principaux de solde d'ouverture**, sélectionnez les comptes que vous souhaitez référencer pour lancer une recherche sur le solde d'ouverture.
+- Dans le champ **Nom de la colonne**, tapez une étiquette à utiliser comme en-tête pour la première colonne de la recherche (par exemple, « Solde d’ouverture »).
+- Dans le champ **Comptes principaux de solde d’ouverture**, sélectionnez les comptes que vous souhaitez référencer pour lancer une recherche sur le solde d’ouverture.
 
 3. Dans la section **Deuxième colonne** : 
 
@@ -57,7 +57,7 @@ Ces renseignements sont uniques, car ils permettent aux utilisateurs de personna
 5. Dans la section de groupe **Cinquième colonne**, spécifiez un libellé pour la cinquième colonne (par exemple, « Solde de clôture »). 
 
 > [!NOTE]
-> Dynamics 365 Finance calcule automatiquement une somme à partir des comptes spécifiés pour les quatre premières colonnes : Solde d'ouverture plus les rentrées de fonds, moins les déboursements de disponibilités, moins les transferts interfonds.
+> Dynamics 365 Finance calcule automatiquement une somme à partir des comptes spécifiés pour les quatre premières colonnes : Solde d’ouverture plus les rentrées de fonds, moins les déboursements de disponibilités, moins les transferts interfonds.
 
 6. Dans les sections **Sixième colonne** et **Septième colonne** : 
 
@@ -82,7 +82,7 @@ Ces renseignements sont uniques, car ils permettent aux utilisateurs de personna
 
 (facultatif) 
 
-- Définissez l'option **Supprimer les comptes avec des zéros** sur **Oui** pour exclure les comptes comportant tous des montants nuls issus de la recherche.
-- Définissez l'option **Afficher les segments dans des colonnes distinctes** sur **Oui** pour afficher les noms du compte pour chaque dimension en tant que colonnes distinctes dans la grille.
-- Pour filtrer les valeurs d'une dimension spécifique sélectionnée, sélectionnez les dimensions que vous souhaitez dans les champs sous le champ **Ensemble de dimensions financières**. Les choix parmi lesquels choisir dépendent de l'ensemble de dimensions financières sélectionné.
+- Définissez l’option **Supprimer les comptes avec des zéros** sur **Oui** pour exclure les comptes comportant tous des montants nuls issus de la recherche.
+- Définissez l’option **Afficher les segments dans des colonnes distinctes** sur **Oui** pour afficher les noms du compte pour chaque dimension en tant que colonnes distinctes dans la grille.
+- Pour filtrer les valeurs d’une dimension spécifique sélectionnée, sélectionnez les dimensions que vous souhaitez dans les champs sous le champ **Ensemble de dimensions financières**. Les choix parmi lesquels choisir dépendent de l’ensemble de dimensions financières sélectionné.
 

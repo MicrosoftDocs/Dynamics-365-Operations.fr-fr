@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189244"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443020"
 ---
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures financières
 
@@ -36,11 +36,11 @@ Les répartitions comptables permettent de définir la façon dont un montant se
 
 Vous pouvez utiliser les boutons suivants de la page Facture financière pour afficher et éventuellement modifier les répartitions comptables pour chaque montant de la facture financière.
 
--   **Répartir les montants** : Permet d'afficher et de modifier les répartitions comptables pour une ligne individuelle et toutes les lignes enfants, telles que des taxes ou des frais. Vous pouvez également afficher et modifier les répartitions comptables de la ligne enfant directement dans la page Transactions de taxe ou la page Transactions de frais.
-    -   Modifiez les montants d'en-tête de facture financière, comme les frais ou les arrondis de devise.
+-   **Répartir les montants** : Permet d’afficher et de modifier les répartitions comptables pour une ligne individuelle et toutes les lignes enfants, telles que des taxes ou des frais. Vous pouvez également afficher et modifier les répartitions comptables de la ligne enfant directement dans la page Transactions de taxe ou la page Transactions de frais.
+    -   Modifiez les montants d’en-tête de facture financière, comme les frais ou les arrondis de devise.
     -   Modifiez les montants de la ligne de facture financière.
--   **Afficher les distributions** : Permet d'afficher les répartitions comptables pour toutes les lignes du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
-    -   Afficher les montants d'en-tête et de ligne.
+-   **Afficher les distributions** : Permet d’afficher les répartitions comptables pour toutes les lignes du document. Vous ne pouvez pas modifier les répartitions comptables de cette vue.
+    -   Afficher les montants d’en-tête et de ligne.
 
 ## <a name="distributing-amounts"></a>Répartition des montants
 Lorsque vous entrez une facture financière, chaque montant est réparti comme suit.
@@ -54,8 +54,8 @@ Lorsque vous entrez une facture financière, chaque montant est réparti comme s
 <thead>
 <tr class="header">
 <th>Type de montant en devises</th>
-<th>Origine de l'affichage du compte principal</th>
-<th>L'ordre de priorité qui détermine la dimension financière par défaut s'affiche</th>
+<th>Origine de l’affichage du compte principal</th>
+<th>L’ordre de priorité qui détermine la dimension financière par défaut s’affiche</th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,13 @@ Lorsque vous entrez une facture financière, chaque montant est réparti comme s
 <td>Compte général de la ligne de facture financière.</td>
 <td><ol>
 <li>Si le compte principal est un compte de répartition, utilisez la valeur par défaut de la définition du compte de répartition.</li>
-<li>Si le compte principal n'est pas un compte de répartition, utilisez le modèle par défaut de dimension financière sur la ligne de facture financière.</li>
+<li>Si le compte principal n’est pas un compte de répartition, utilisez le modèle par défaut de dimension financière sur la ligne de facture financière.</li>
 <li>Utilisez les valeurs de dimension financière par défaut sur la ligne de la facture financière.</li>
 <li>Utilisez les valeurs de dimension financière par défaut du compte général de la page Plan de comptes.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Ligne de facture financière pour une combinaison numéro d'immobilisation et modèle de valeur
+<td>Ligne de facture financière pour une combinaison numéro d’immobilisation et modèle de valeur
 <div class="alert">
 <table>
 <thead>
@@ -80,7 +80,7 @@ Lorsque vous entrez une facture financière, chaque montant est réparti comme s
 </thead>
 <tbody>
 <tr class="odd">
-<td>Le compte principal sur la ligne de facture financière correspond au compte de la cession d'immobilisation.</td>
+<td>Le compte principal sur la ligne de facture financière correspond au compte de la cession d’immobilisation.</td>
 </tr>
 </tbody>
 </table>
@@ -96,7 +96,7 @@ Lorsque vous entrez une facture financière, chaque montant est réparti comme s
 <td>Le champ Compte principal pour les remises client de la page Escomptes de règlement.</td>
 <td><ol>
 <li>Si le compte principal est un compte de répartition, utilisez la valeur par défaut de la définition du compte de répartition.</li>
-<li>Si le compte principal n'est pas un compte de répartition, utilisez le modèle par défaut de dimension financière sur la ligne de facture financière.</li>
+<li>Si le compte principal n’est pas un compte de répartition, utilisez le modèle par défaut de dimension financière sur la ligne de facture financière.</li>
 <li>Utilisez les valeurs de dimension financière par défaut sur la ligne de la facture financière.</li>
 <li>Utilisez les valeurs de dimension financière par défaut du compte général de la page Plan de comptes.</li>
 </ol></td>
@@ -115,7 +115,7 @@ Lorsque vous entrez une facture financière, chaque montant est réparti comme s
 <td>Le champ Compte à créditer de la page Code frais.</td>
 <td><ol>
 <li>Si le compte principal est un compte de répartition, utilisez la valeur par défaut de la définition du compte de répartition.</li>
-<li>Si le compte principal n'est pas un compte de répartition, utilisez le modèle par défaut de dimension financière sur la ligne de facture financière.</li>
+<li>Si le compte principal n’est pas un compte de répartition, utilisez le modèle par défaut de dimension financière sur la ligne de facture financière.</li>
 <li>Utilisez les valeurs de dimension financière par défaut sur la ligne de la facture financière.</li>
 <li>Utilisez les valeurs de dimension financière par défaut du compte général de la page Plan de comptes.</li>
 </ol></td>
@@ -124,7 +124,7 @@ Lorsque vous entrez une facture financière, chaque montant est réparti comme s
 </table>
 
 ## <a name="distributing-taxes"></a>Répartition des taxes
-Il est impossible de créer des répartitions comptables pour les taxes tant que ces dernières n'ont pas été calculées. Pour calculer les taxes, vous devez effectuer l'une des tâches suivantes dans la page Facture financière :
+Il est impossible de créer des répartitions comptables pour les taxes tant que ces dernières n’ont pas été calculées. Pour calculer les taxes, vous devez effectuer l’une des tâches suivantes dans la page Facture financière :
 -   Afficher la taxe.
 -   Afficher le total de la facture.
 -   Afficher le flux de trésorerie.
@@ -132,7 +132,7 @@ Il est impossible de créer des répartitions comptables pour les taxes tant que
 -   Afficher le journal de comptabilité auxiliaire.
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Journaux de comptabilité auxiliaires pour les factures financières
-Avant de valider une facture financière, vous pouvez afficher l'écriture de compte complète de la facture, qui inclut des débits et des crédits, pour vérifier que la facture est validée dans les comptes corrects. Cette vue de l'écriture de compte complète est appelée écriture de journal de comptabilité auxiliaire. Si l'écriture de journal de comptabilité auxiliaire est incorrecte lorsque vous en affichez un aperçu avant de journaliser la facture financière, vous ne pouvez pas la modifier. Vous devez plutôt modifier les répartitions comptables ou le profil de validation. Les répartitions comptables permettent de définir un côté de l'écriture de compte, de débit ou de crédit. L'écriture de compte de journal de comptabilité auxiliaire de contrepartie est créée à l'aide des profils de validation, par exemple le compte client ou la taxe.
+Avant de valider une facture financière, vous pouvez afficher l’écriture de compte complète de la facture, qui inclut des débits et des crédits, pour vérifier que la facture est validée dans les comptes corrects. Cette vue de l’écriture de compte complète est appelée écriture de journal de comptabilité auxiliaire. Si l’écriture de journal de comptabilité auxiliaire est incorrecte lorsque vous en affichez un aperçu avant de journaliser la facture financière, vous ne pouvez pas la modifier. Vous devez plutôt modifier les répartitions comptables ou le profil de validation. Les répartitions comptables permettent de définir un côté de l’écriture de compte, de débit ou de crédit. L’écriture de compte de journal de comptabilité auxiliaire de contrepartie est créée à l’aide des profils de validation, par exemple le compte client ou la taxe.
 
 
 

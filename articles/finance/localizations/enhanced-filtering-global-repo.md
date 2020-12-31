@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
-ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "3287937"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443047"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>Options de filtrage améliorées RCS pour trouver des configurations dans le référentiel global/RCS
 
@@ -41,8 +41,8 @@ Pour faciliter la recherche des configurations spécifiques ou connexes, vous po
 
 [![Section Filtre pour le référentiel Global](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG) 
 
-Vous pouvez affiner la recherche en sélectionnant le type de document, par exemple « facture fournisseur » et en cliquant sur **Appliquer le filtre**. L'exemple suivant montre les résultats lors du filtrage sur **Type de document commercial** avec le type de document ajouté. 
+Vous pouvez affiner la recherche en sélectionnant le type de document, par exemple « facture fournisseur » et en cliquant sur **Appliquer le filtre**. L’exemple suivant montre les résultats lors du filtrage sur **Type de document commercial** avec le type de document ajouté. 
 
 [![Filtre appliqué et Importer pour le type de document commercial](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Les résultats filtrés peuvent être importés dans un référentiel RCS d'utilisateurs ou un environnement Dynamics 365 Finance, individuellement ou en tant qu'ensemble. Pour ce faire, sélectionnez le groupe de configurations et cliquez sur **Importer**.
+Les résultats filtrés peuvent être importés dans un référentiel RCS d’utilisateurs ou un environnement Dynamics 365 Finance, individuellement ou en tant qu’ensemble. Pour ce faire, sélectionnez le groupe de configurations et cliquez sur **Importer**.

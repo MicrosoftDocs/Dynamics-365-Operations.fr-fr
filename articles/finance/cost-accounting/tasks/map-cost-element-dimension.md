@@ -1,6 +1,6 @@
 ---
-title: Mapper une dimension d'élément de coût
-description: Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspondance une dimension d'élément de coût avec une dimension d'élément de coût de l'entité juridique MXMF.
+title: Mapper une dimension d’élément de coût
+description: Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspondance une dimension d’élément de coût avec une dimension d’élément de coût de l’entité juridique MXMF.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
@@ -16,20 +16,20 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6f8d5356e6c7f8aff507d3fa87bb3c30cb38cf36
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977597"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443304"
 ---
-# <a name="map-a-cost-element-dimension"></a>Mapper une dimension d'élément de coût
+# <a name="map-a-cost-element-dimension"></a>Mapper une dimension d’élément de coût
 
 [!include [banner](../../includes/banner.md)]
 
-Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspondance une dimension d'élément de coût avec une dimension d'élément de coût de l'entité juridique MXMF. Cet enregistrement utilise la société fictive USP2.
+Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspondance une dimension d’élément de coût avec une dimension d’élément de coût de l’entité juridique MXMF. Cet enregistrement utilise la société fictive USP2.
 
-1. Accédez à Contrôle de gestion > Dimensions > Dimensions d'éléments de coût.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Accédez à Contrôle de gestion > Dimensions > Dimensions d’éléments de coût.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Pour cet exemple, sélectionnez Éléments de coût.  
 3. Cliquez sur Mises en correspondance de dimensions.
 4. Cliquez sur Configurer les mises en correspondance à partir de cette dimension.

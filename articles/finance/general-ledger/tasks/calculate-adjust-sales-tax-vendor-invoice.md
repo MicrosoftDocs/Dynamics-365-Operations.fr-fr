@@ -17,17 +17,17 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 03313d875d23489b3293376dd94f808c73a4bd15
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983547"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442999"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Calculer et ajuster la taxe sur une facture fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment ajuster la taxe sur une facture fournisseur. Si le document source d'origine affiche différents montants de taxe calculés, vous pouvez régler ces montants avant la validation. La société fictive DEMF est citée en exemple dans cette tâche.
+Cette rubrique explique comment ajuster la taxe sur une facture fournisseur. Si le document source d’origine affiche différents montants de taxe calculés, vous pouvez régler ces montants avant la validation. La société fictive DEMF est citée en exemple dans cette tâche.
 
 1. Dans le volet de navigation, accédez **Modules > Comptabilité fournisseur > Factures > Journal des factures**.
 2. Sélectionnez **Nouveau**.
@@ -39,7 +39,7 @@ Cette rubrique explique comment ajuster la taxe sur une facture fournisseur. Si 
 8. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
 9. Sélectionnez **Taxe**.
 10. Dans le champ **Montant réel de taxe total**, entrez un nombre.
-11. Sous l'onglet **Ajustement**, les montants de taxe peuvent être ajustés par code taxe.
+11. Sous l’onglet **Ajustement**, les montants de taxe peuvent être ajustés par code taxe.
 12. Sélectionnez **Réinitialiser les montants réels des montants calculés**.
 13. Cliquez sur **OK**.
 14. Sélectionnez **Enregistrer**.

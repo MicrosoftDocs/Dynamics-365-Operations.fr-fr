@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022
-description: Cette tâche vous guide dans le paramétrage d'un compte bancaire client et d'un mandat de débit direct client qui sont requis pour générer le fichier de paiement client, par exemple le débit direct ISO20022.
+description: Cette tâche vous guide dans le paramétrage d’un compte bancaire client et d’un mandat de débit direct client qui sont requis pour générer le fichier de paiement client, par exemple le débit direct ISO20022.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,23 +17,23 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0b09d7d203f1bb58fad26a109962005affa6d307
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144905"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443095"
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Paramétrer les clients et les comptes bancaires du client pour les débits directs ISO20022
 
 [!include [banner](../../includes/banner.md)]
 
-Cette tâche vous guide dans le paramétrage d'un compte bancaire client et d'un mandat de débit direct client qui sont requis pour générer le fichier de paiement client, par exemple le débit direct ISO20022. Selon les formats de paiement client paramétrés, des informations supplémentaires non décrites dans cette procédure peuvent être requises pour un client ou un compte bancaire client. 
+Cette tâche vous guide dans le paramétrage d’un compte bancaire client et d’un mandat de débit direct client qui sont requis pour générer le fichier de paiement client, par exemple le débit direct ISO20022. Selon les formats de paiement client paramétrés, des informations supplémentaires non décrites dans cette procédure peuvent être requises pour un client ou un compte bancaire client. 
 
-Cette tâche a été créée avec les données de démonstration de la société fictive DEMF, avec l'adresse principale de l'entité juridique en Allemagne.
+Cette tâche a été créée avec les données de démonstration de la société fictive DEMF, avec l’adresse principale de l’entité juridique en Allemagne.
 
 
 
-Il s'agit de la quatrième des cinq procédures illustrant le processus de paiement client à l'aide des configurations de génération d'états électroniques.
+Il s’agit de la quatrième des cinq procédures illustrant le processus de paiement client à l’aide des configurations de génération d’états électroniques.
 
 
 ## <a name="set-up-a-customer-bank-account"></a>Paramétrer un compte bancaire client
@@ -50,7 +50,7 @@ Il s'agit de la quatrième des cinq procédures illustrant le processus de paiem
 10. Tapez une valeur dans le champ IBAN.
     * Par exemple, entrez « DE36200400000628808808 ».  
 11. Tapez une valeur dans le champ Code SWIFT.
-    * Par exemple, entrez COBADEFFXXX.  Notez que le code SWIFT\BIC n'est pas obligatoire pour de nombreux formats de paiement, mais il est recommandé de le faire enregistrer pour un compte bancaire.  
+    * Par exemple, entrez COBADEFFXXX.  Notez que le code SWIFT\BIC n’est pas obligatoire pour de nombreux formats de paiement, mais il est recommandé de le faire enregistrer pour un compte bancaire.  
 12. Cliquez sur Enregistrer.
 13. Fermez la page.
 14. Cliquez sur Modifier.

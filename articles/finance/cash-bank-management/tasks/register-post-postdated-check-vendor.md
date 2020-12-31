@@ -1,6 +1,6 @@
 ---
-title: Enregistrement et validation d'un chèque postdaté pour un fournisseur
-description: Vous pouvez enregistrer les détails d'un chèque postdaté avant sa remise à un fournisseur, par l'intermédiaire du n° document de journal.
+title: Enregistrement et validation d’un chèque postdaté pour un fournisseur
+description: Vous pouvez enregistrer les détails d’un chèque postdaté avant sa remise à un fournisseur, par l’intermédiaire du n° document de journal.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,17 +17,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144185"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443206"
 ---
-# <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Enregistrement et validation d'un chèque postdaté pour un fournisseur
+# <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Enregistrement et validation d’un chèque postdaté pour un fournisseur
 
 [!include [banner](../../includes/banner.md)]
 
-Vous pouvez enregistrer les détails d'un chèque postdaté avant sa remise à un fournisseur, par l'intermédiaire du n° document de journal. Vous pouvez également valider le chèque postdaté et générer des transactions financières. Avant d'enregistrer et de valider un chèque postdaté reçu d'un client, effectuez la tâche suivante : 
+Vous pouvez enregistrer les détails d’un chèque postdaté avant sa remise à un fournisseur, par l’intermédiaire du n° document de journal. Vous pouvez également valider le chèque postdaté et générer des transactions financières. Avant d’enregistrer et de valider un chèque postdaté reçu d’un client, effectuez la tâche suivante : 
 
 Paramétrer des chèques postdatés dans la page Gestion de la trésorerie et de la banque. 
 
@@ -44,15 +44,15 @@ Le rôle de ces guides de tâches est Trésorier. La société fictive USMF est 
 7. Entrez un nombre dans le champ Débit.
 8. Dans le champ Mode de paiement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
     * Sélectionner le mode de paiement du chèque postdaté  
-9. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+9. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-11. Cliquez sur l'onglet Chèques postdatés.
+11. Cliquez sur l’onglet Chèques postdatés.
 12. Dans le champ Numéro du chèque, tapez une valeur.
     * Spécifiez ou modifiez le numéro du chèque postdaté.  
 13. Dans le champ Nom de la banque émettrice, tapez une valeur.
     * Entrez les détails bancaires pour la banque émettrice.  
-14. Cliquez sur l'onglet Liste.
+14. Cliquez sur l’onglet Liste.
 15. Cliquez sur Valider.
 16. Fermez la page.
-17. Cliquez sur l'onglet Chèques postdatés.
+17. Cliquez sur l’onglet Chèques postdatés.
 

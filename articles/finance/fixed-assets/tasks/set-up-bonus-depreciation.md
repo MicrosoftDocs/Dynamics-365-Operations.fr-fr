@@ -1,6 +1,6 @@
 ---
-title: Paramétrage de l'amortissement de la prime
-description: Cette procédure indique comment créer une provision spéciale pour amortissement et l'associer à un registre d'immobilisations.
+title: Paramétrage de l’amortissement de la prime
+description: Cette procédure indique comment créer une provision spéciale pour amortissement et l’associer à un registre d’immobilisations.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,17 +17,17 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 91243a4cee44410a221902990d31a10f1805eb08
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443092"
 ---
-# <a name="set-up-bonus-depreciation"></a>Paramétrage de l'amortissement de la prime
+# <a name="set-up-bonus-depreciation"></a>Paramétrage de l’amortissement de la prime
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment créer une provision spéciale pour amortissement et l'associer à un registre d'immobilisations. Elle utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
+Cette procédure indique comment créer une provision spéciale pour amortissement et l’associer à un registre d’immobilisations. Elle utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.
 
 
 ## <a name="create-a-special-depreciation-allowance"></a>Créer une provision spéciale pour amortissement
@@ -36,11 +36,11 @@ Cette procédure indique comment créer une provision spéciale pour amortisseme
 3. Entrez une valeur dans le champ Provision spéciale pour amortissement.
 4. Dans le champ Description, entrez une valeur.
 5. Entrez un nombre dans le champ Pourcentage.
-    * Si un pourcentage n'est pas affiché, définissez un montant.  
+    * Si un pourcentage n’est pas affiché, définissez un montant.  
 
-## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a>Associer une provision spéciale pour amortissement au registre d'un groupe d'immobilisations
-1. Accédez à Immobilisations > Paramétrage > Groupes d'immobilisations.
-2. Dans la liste, sélectionnez le groupe d'immobilisations à associer à la provision spéciale pour amortissement.
+## <a name="associate-a-special-depreciation-allowance-with-a-fixed-asset-group-book"></a>Associer une provision spéciale pour amortissement au registre d’un groupe d’immobilisations
+1. Accédez à Immobilisations > Paramétrage > Groupes d’immobilisations.
+2. Dans la liste, sélectionnez le groupe d’immobilisations à associer à la provision spéciale pour amortissement.
 3. Cliquez sur Registres.
 4. Dans la liste, sélectionnez le registre associé à la provision spéciale pour amortissement.
 5. Cliquez sur Provision spéciale pour amortissement.

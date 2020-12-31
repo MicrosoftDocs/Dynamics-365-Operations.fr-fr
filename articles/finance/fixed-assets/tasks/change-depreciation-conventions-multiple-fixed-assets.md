@@ -1,6 +1,6 @@
 ---
-title: Modification des conventions d'amortissement pour plusieurs immobilisations
-description: Cette tâche permet de mettre à jour la convention d'amortissement pour un groupe d'immobilisations spécifié.
+title: Modification des conventions d’amortissement pour plusieurs immobilisations
+description: Cette tâche permet de mettre à jour la convention d’amortissement pour un groupe d’immobilisations spécifié.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,17 +17,17 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 39930134782b40de05a92a6ad51c4f628f304a78
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142890"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443028"
 ---
-# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Modification des conventions d'amortissement pour plusieurs immobilisations
+# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Modification des conventions d’amortissement pour plusieurs immobilisations
 
 [!include [banner](../../includes/banner.md)]
 
-Cette tâche permet de mettre à jour la convention d'amortissement pour un groupe d'immobilisations spécifié. La société fictive USMF sert d'exemple dans ce guide de tâche.
+Cette tâche permet de mettre à jour la convention d’amortissement pour un groupe d’immobilisations spécifié. La société fictive USMF sert d’exemple dans ce guide de tâche.
 
 1. Accédez à Immobilisations > Tâches périodiques > Mise à jour collective.
 2. Dans le champ Registre des amortissements, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
@@ -35,17 +35,17 @@ Cette tâche permet de mettre à jour la convention d'amortissement pour un grou
 4. Entrez une date dans le champ Début de la mise en service.
 5. Entrez une date dans le champ Fin de la mise en service.
     * Seuls les actifs qui font partie du registre des amortissements sélectionné et qui ont été mis en service entre ces dates sont mis à jour.  
-6. Sélectionnez une option dans le champ Convention d'amortissement actuelle.
-    * Seuls les actifs ayant une convention d'amortissement sont mis à jour.  
-7. Sélectionnez une option dans le champ Nouvelle convention d'amortissement.
-    * Vérifiez que l'état s'imprime sur la destination sélectionnée.  
+6. Sélectionnez une option dans le champ Convention d’amortissement actuelle.
+    * Seuls les actifs ayant une convention d’amortissement sont mis à jour.  
+7. Sélectionnez une option dans le champ Nouvelle convention d’amortissement.
+    * Vérifiez que l’état s’imprime sur la destination sélectionnée.  
 8. Développez les enregistrements pour inclure la section.
 9. Cliquez sur Filtre.
 10. Sélectionnez le groupe Immobilisations dans la liste.
 11. Dans le champ Critères, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-12. Sélectionnez le groupe d'immobilisations souhaité.
+12. Sélectionnez le groupe d’immobilisations souhaité.
 13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 14. Cliquez sur OK.
 15. Cliquez sur OK.
-    *  Les résultats du processus sont affichés dans l'état Mise à jour collective.     
+    *  Les résultats du processus sont affichés dans l’état Mise à jour collective.     
 

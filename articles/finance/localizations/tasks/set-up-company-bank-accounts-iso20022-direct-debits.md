@@ -17,25 +17,25 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 652d8aa8f78d9a12ee390d23904f2c94d9bcf684
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144860"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443093"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Paramétrer les comptes bancaires de société pour les débits directs ISO20022
 
 [!include [banner](../../includes/banner.md)]
 
-Cette tâche vous guide dans le paramétrage des informations de compte bancaire spécifiques à une société qui sont requises pour la génération des fichiers de paiement client. Cette procédure utilise le format de débit direct ISO 20022 comme exemple. D'autres formats peuvent nécessiter des informations de paramétrage supplémentaires, par exemple l'ID société ou la priorité.
+Cette tâche vous guide dans le paramétrage des informations de compte bancaire spécifiques à une société qui sont requises pour la génération des fichiers de paiement client. Cette procédure utilise le format de débit direct ISO 20022 comme exemple. D’autres formats peuvent nécessiter des informations de paramétrage supplémentaires, par exemple l’ID société ou la priorité.
 
 
 
-Cette tâche a été créé à l'aide de la société DEMF fictive.
+Cette tâche a été créé à l’aide de la société DEMF fictive.
 
 
 
-Il s'agit de la deuxième des cinq procédures illustrant le processus de paiement client à l'aide des configurations de génération d'états électroniques.
+Il s’agit de la deuxième des cinq procédures illustrant le processus de paiement client à l’aide des configurations de génération d’états électroniques.
 
 
 ## <a name="set-up-the-iban-and-swift-codes"></a>Paramétrer des codes IBAN et SWIFT
@@ -48,11 +48,11 @@ Il s'agit de la deuxième des cinq procédures illustrant le processus de paieme
 6. Tapez une valeur dans le champ IBAN.
     * Par exemple, entrez « DE89370400440532013000 ».  
 7. Tapez une valeur dans le champ Code SWIFT.
-    * Par exemple, entrez « DEUTDEFF ».    Notez que le code SWIFT\BIC n'est pas obligatoire pour de nombreux formats de paiement, mais il est recommandé de le faire enregistrer pour un compte bancaire.  
+    * Par exemple, entrez « DEUTDEFF ».    Notez que le code SWIFT\BIC n’est pas obligatoire pour de nombreux formats de paiement, mais il est recommandé de le faire enregistrer pour un compte bancaire.  
 8. Cliquez sur Enregistrer.
 
-## <a name="set-up-a-bank-account-for-the-legal-entity"></a>Paramétrer un compte bancaire pour l'entité juridique
-1. Accédez à Administration d'organisation > Organisations > Entités juridiques.
+## <a name="set-up-a-bank-account-for-the-legal-entity"></a>Paramétrer un compte bancaire pour l’entité juridique
+1. Accédez à Administration d’organisation > Organisations > Entités juridiques.
 2. Cliquez sur Modifier.
 3. Développez ou réduisez la section la section Informations sur le compte en banque.
 4. Dans le champ Compte bancaire, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.

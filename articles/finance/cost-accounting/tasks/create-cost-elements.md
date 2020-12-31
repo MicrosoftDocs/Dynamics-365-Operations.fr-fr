@@ -17,21 +17,21 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 87f93fd7c1c42045274d6b89847b27e93614d9a4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976137"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443308"
 ---
 # <a name="create-cost-elements"></a>Créer des éléments de coût 
 
 [!include [banner](../../includes/banner.md)]
 
-Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion. Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données. La société fictive USMF a été utilisée pour créer cette procédure. Cette procédure s'applique à une fonction du contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Il existe plusieurs façons de créer des éléments de coût dans le contrôle de gestion. Cette procédure indique comment créer des éléments de coût en important les comptes principaux via un connecteur de données. La société fictive USMF a été utilisée pour créer cette procédure. Cette procédure s’applique à une fonction du contrôle de gestion qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-new-cost-elements"></a>Créer des éléments de coût
-1. Accédez à Contrôle de gestion > Dimensions > Dimensions d'éléments de coût.
+1. Accédez à Contrôle de gestion > Dimensions > Dimensions d’éléments de coût.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Nom.
 4. Dans le champ Connecteur de données pour les membres de la dimension, entrez ou sélectionnez une valeur.
@@ -54,7 +54,7 @@ Il existe plusieurs façons de créer des éléments de coût dans le contrôle 
     * Les comptes principaux sont importés dans le contrôle de gestion et utilisés comme éléments de coût.  
 2. Cliquez sur OK.
 
-## <a name="view-the-imported-accounts-as-cost-elements"></a>Afficher les comptes importés en tant qu'éléments de coût
+## <a name="view-the-imported-accounts-as-cost-elements"></a>Afficher les comptes importés en tant qu’éléments de coût
 1. Cliquez sur Afficher les membres de la dimension.
-    * Affichez les comptes généraux importés en tant qu'éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.  
+    * Affichez les comptes généraux importés en tant qu’éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.  
 

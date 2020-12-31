@@ -1,6 +1,6 @@
 ---
-title: Lettre de crédit d'exportation
-description: Cette procédure décrit le processus associé à une lettre de crédit d'exportation.
+title: Lettre de crédit d’exportation
+description: Cette procédure décrit le processus associé à une lettre de crédit d’exportation.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,39 +17,39 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3cd18320ca8505b1357ce505dfb4c94e81aaae91
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141647"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443133"
 ---
-# <a name="export-letter-of-credit"></a>Lettre de crédit d'exportation
+# <a name="export-letter-of-credit"></a>Lettre de crédit d’exportation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit le processus associé à une lettre de crédit d'exportation.
+Cette procédure décrit le processus associé à une lettre de crédit d’exportation.
 
-Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l'acheteur, si les conditions de l'accord entre l'acheteur et le vendeur sont satisfaites.
-
-
-
-Préalablement à cette procédure, exécutez la procédure « Paramétrage des établissements bancaires et profils de validation » et la procédure « Lettre de crédit_Création d'un accord d'établissement bancaire ». Pour exécuter cette procédure correctement, vous devez sélectionner la société fictive USMF.
+Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l’acheteur, si les conditions de l’accord entre l’acheteur et le vendeur sont satisfaites.
 
 
 
+Préalablement à cette procédure, exécutez la procédure « Paramétrage des établissements bancaires et profils de validation » et la procédure « Lettre de crédit_Création d’un accord d’établissement bancaire ». Pour exécuter cette procédure correctement, vous devez sélectionner la société fictive USMF.
 
-## <a name="create-sales-order-for-export-letter-of-credit"></a>Créer une commande client pour une lettre de crédit d'exportation
+
+
+
+## <a name="create-sales-order-for-export-letter-of-credit"></a>Créer une commande client pour une lettre de crédit d’exportation
 1. Accédez à Comptabilité client > Commandes > Toutes les commandes client.
 2. Cliquez sur Nouveau.
 3. Dans le champ Compte client, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 6. Développez ou réduisez la section Général.
 7. Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionner le site où l'article qui doit sortir est stocké.  
+    * Sélectionner le site où l’article qui doit sortir est stocké.  
 8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 9. Dans le champ Entrepôt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionner l'entrepôt où l'article qui doit sortir est stocké.  
+    * Sélectionner l’entrepôt où l’article qui doit sortir est stocké.  
 10. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Remarque : le champ « Type de document bancaire » doit être sélectionné et renseigné avec la valeur « Lettre de crédit ».  
 11. Dans le champ Type de document bancaire, sélectionnez « Lettre de crédit ».
@@ -57,24 +57,24 @@ Préalablement à cette procédure, exécutez la procédure « Paramétrage des 
     * Sélectionnez Vérification de la date de livraison = Aucun(e).  
 13. Dans le champ Date de réception demandée, entrez une date.
 14. Cliquez sur OK.
-15. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Sélectionnez l'article requis qui doit sortir/être vendu.  
-16. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+15. Dans le champ Numéro d’article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+    * Sélectionnez l’article requis qui doit sortir/être vendu.  
+16. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 18. Entrez un nombre dans le champ Prix unitaire.
 19. Développez ou réduisez la section Détails de ligne.
-20. Cliquez sur l'onglet Livraison.
-21. Dans le champ Date d'expédition demandée, entrez une date.
-22. Dans le champ Date d'expédition confirmée, entrez une date.
+20. Cliquez sur l’onglet Livraison.
+21. Dans le champ Date d’expédition demandée, entrez une date.
+22. Dans le champ Date d’expédition confirmée, entrez une date.
 23. Dans le volet Actions, cliquez sur Gérer.
 24. Cliquez sur Lettre de crédit.
 25. Dans le champ Numéro de document bancaire, tapez une valeur.
-26. Entrez une date et une heure dans le champ Date d'expiration.
+26. Entrez une date et une heure dans le champ Date d’expiration.
 27. Développez ou réduisez la section Détails bancaires.
 28. Dans le champ Banque émettrice, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 29. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 30. Dans le champ Banque conseillère, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-31. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+31. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 32. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 33. Cliquez sur Extraire les expéditions de la commande client.
 34. Cliquez sur Émettre le document bancaire.
@@ -87,7 +87,7 @@ Préalablement à cette procédure, exécutez la procédure « Paramétrage des 
 4. Sélectionnez Tout dans le champ Quantité.
 5. Développez ou réduisez la section Paramétrage.
 6. Dans le champ Date de bon de livraison, entrez une date.
-7. Sélectionnez le numéro d'expédition.
+7. Sélectionnez le numéro d’expédition.
 8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 9. Cliquez sur OK.
 10. Cliquez sur OK.
@@ -95,25 +95,25 @@ Préalablement à cette procédure, exécutez la procédure « Paramétrage des 
 ## <a name="post-sales-invoice"></a>Valider une facture client
 1. Dans le volet Actions, cliquez sur Facture.
 2. Cliquez sur Facture.
-3. Développez ou réduisez la section Vue d'ensemble.
-4. Sélectionnez le numéro d'expédition.
+3. Développez ou réduisez la section Vue d’ensemble.
+4. Sélectionnez le numéro d’expédition.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 6. Développez ou réduisez la section Paramétrage.
 7. Entrez une date dans le champ Date de facture.
 8. Cliquez sur OK.
 9. Cliquez sur OK.
 
-## <a name="shipment-document-submitted-status"></a>Statut du document d'expédition soumis
+## <a name="shipment-document-submitted-status"></a>Statut du document d’expédition soumis
 1. Dans le volet Actions, cliquez sur Gérer.
 2. Cliquez sur Lettre de crédit.
 3. Développez ou réduisez la section Lignes.
     * Remarque : le champ « Document soumis » doit être défini à « Oui ».  
 
-## <a name="verify-export-letter-of-credit"></a>Vérifier la lettre de crédit d'exportation
-1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'exportation/relance d'importation.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+## <a name="verify-export-letter-of-credit"></a>Vérifier la lettre de crédit d’exportation
+1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d’exportation/relance d’importation.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Vérifiez que la lettre de crédit d'exportation est dotée du statut d'expédition « Facturée ».  
+    * Vérifiez que la lettre de crédit d’exportation est dotée du statut d’expédition « Facturée ».  
 
 ## <a name="customer-payment"></a>Client - Paiements
 1. Accédez à Comptabilité client > Paiements > Journal des paiements.
@@ -125,18 +125,18 @@ Préalablement à cette procédure, exécutez la procédure « Paramétrage des 
 7. Entrez une date dans le champ Date.
 8. Dans le champ Compte, spécifiez les valeurs souhaitées.
 9. Cliquez sur Règlement.
-10. Cochez la case dans l'en-tête de Totaux.
+10. Cochez la case dans l’en-tête de Totaux.
     * Remarque : définissez le champ Afficher à « Lettre de crédit ».  
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+11. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 12. Activez ou désactivez la case à cocher Marquer.
 13. Cliquez sur OK.
-14. Cliquez sur l'onglet Paiement.
-    * Vérifier les détails de numéro de document bancaire et de numéro d'expédition  
+14. Cliquez sur l’onglet Paiement.
+    * Vérifier les détails de numéro de document bancaire et de numéro d’expédition  
 15. Cliquez sur Valider.
 
-## <a name="verify-export-letter-of-credit-after-payment"></a>Vérifier la lettre de crédit d'exportation après paiement
-1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d'exportation/relance d'importation.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+## <a name="verify-export-letter-of-credit-after-payment"></a>Vérifier la lettre de crédit d’exportation après paiement
+1. Accédez à Gestion de la trésorerie et de la banque > Lettres de crédit > Lettre de crédit d’exportation/relance d’importation.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Vérifiez que Statut de l'expédition = Paiement reçu et que le montant du solde = 0,00.  
+    * Vérifiez que Statut de l’expédition = Paiement reçu et que le montant du solde = 0,00.  
 

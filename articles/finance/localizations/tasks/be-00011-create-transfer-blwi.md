@@ -1,6 +1,6 @@
 ---
-title: Création et transfert de transactions vers l'état BLWI (Belgique)
-description: Cette procédure vous guide dans la création d'un état BLWI pour la Belgique.
+title: Création et transfert de transactions vers l’état BLWI (Belgique)
+description: Cette procédure vous guide dans la création d’un état BLWI pour la Belgique.
 author: v-oloski
 manager: AnnBe
 ms.date: 07/12/2017
@@ -16,21 +16,21 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d09feb3d78f4ad4ff8de8fbf564ec7225672e1e9
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137974"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407901"
 ---
-# <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l'état BLWI (Belgique)
+# <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Création et transfert de transactions vers l’état BLWI (Belgique)
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure vous guide dans la création d'un état BLWI pour la Belgique. Cette procédure a été créée à l'aide des données fictives de la société USSI. Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en Belgique. Il est également nécessaire de paramétrer l'ID enregistrement pour la Belgique et de remplir le numéro d'enregistrement pour pouvoir créer la déclaration BLWI.
+Cette procédure vous guide dans la création d’un état BLWI pour la Belgique. Cette procédure a été créée à l’aide des données fictives de la société USSI. Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en Belgique. Il est également nécessaire de paramétrer l’ID enregistrement pour la Belgique et de remplir le numéro d’enregistrement pour pouvoir créer la déclaration BLWI.
 
 Pour créer et transférer une transaction vers BLWI, vous devez paramétrer au préalable les informations Belgisch Luxemburgs Wissel Instituut (BLWI).
 
-Les transactions client/fournisseur marquées avec l'un des codes objectif de paiement choisis dont l'adresse principale du client/fournisseur se situe dans un pays autre que le pays de l'entité juridique sont incluses dans l'état BLWI.
+Les transactions client/fournisseur marquées avec l’un des codes objectif de paiement choisis dont l’adresse principale du client/fournisseur se situe dans un pays autre que le pays de l’entité juridique sont incluses dans l’état BLWI.
 
 1. Accédez à Taxe > Déclarations > Commerce extérieur > BLWI.
 2. Cliquez sur Transférer.

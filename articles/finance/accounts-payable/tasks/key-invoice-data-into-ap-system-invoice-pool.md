@@ -1,5 +1,5 @@
 ---
-title: Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures
+title: Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures
 description: Cette rubrique décrit comment utiliser le registre des factures pour créer des factures.
 author: abruer
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd6de42dda650d42d703e905f8d48f73b9e4afd6
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143809"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443119"
 ---
-# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Indexer les données de facturation dans la comptabilité fournisseur à l'aide d'un registre de factures
+# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures
 
 [!include [banner](../../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Cette rubrique décrit comment utiliser le registre des factures pour créer des
 2. Sélectionnez **Nouveau** pour créer une commande fournisseur.
 3. Dans le champ **Compte fournisseur**, sélectionnez un fournisseur depuis la liste déroulante. Par exemple, sélectionnez le fournisseur **1001**.
 4. Cliquez sur **OK**.
-5. Dans le champ **Numéro d'article**, sélectionnez le numéro d'article de services dans la liste déroulante. Par exemple, sélectionnez **S0001**. Le montant HT est de 75,00 €.  Il s'agit du montant attendu sur la facture.  
+5. Dans le champ **Numéro d’article**, sélectionnez le numéro d’article de services dans la liste déroulante. Par exemple, sélectionnez **S0001**. Le montant HT est de 75,00 €.  Il s’agit du montant attendu sur la facture.  
 6. Dans le volet Actions, sélectionnez **Achat**.
 7. Sélectionnez **Confirmer**.
 
@@ -49,7 +49,7 @@ Cette rubrique décrit comment utiliser le registre des factures pour créer des
 8. Tapez une valeur dans le champ **Description**.
 9. Dans le champ **Crédit**, entrez un numéro.
 10. Dans le champ **Commande fournisseur**, ouvrez la liste déroulante pour sélectionner la commande fournisseur créée précédemment.
-11. Dans le champ **Approuvé par**, sélectionnez un approbateur dans la liste déroulante et cliquez sur **Sélectionner** pour sélectionner l'approbateur.
+11. Dans le champ **Approuvé par**, sélectionnez un approbateur dans la liste déroulante et cliquez sur **Sélectionner** pour sélectionner l’approbateur.
 12. Sélectionnez **Valider**.
 
 ## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>Ouvrez une facture à partir du regroupement et faites-la correspondre à une commande fournisseur pour terminer le processus de facturation.
@@ -61,7 +61,7 @@ Cette rubrique décrit comment utiliser le registre des factures pour créer des
 6. Sélectionnez **Modifier la vue**.
 7. Sélectionnez **Vue Grille**.
 8. Sélectionnez **Valider**.
-9. Permet de fermer l'écran.
+9. Permet de fermer l’écran.
 10. Dans le volet de navigation, accédez à **Modules > Comptabilité fournisseur > Fournisseurs > Fournisseurs**.
 11. Sélectionnez le fournisseur qui était sur la commande fournisseur. Par exemple, sélectionnez le fournisseur **1001**.
 12. Dans la volet Actions, sélectionnez **Fournisseur**.

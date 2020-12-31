@@ -1,6 +1,6 @@
 ---
-title: Fusion du modèle de la valeur d'immobilisation et du registre d'amortissement
-description: "Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations version 1611, la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre."
+title: Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement
+description: 'Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations version 1611, la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,22 +18,22 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 3225b214e729ff13d4ffe8ad1d8cf0f2d6baae49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187197"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443061"
 ---
-# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fusion du modèle de la valeur d'immobilisation et du registre d'amortissement
+# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement
 
 [!include [banner](../includes/banner.md)]
 
-Dans les versions précédentes, il y avait deux concepts d'évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations version 1611, la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.
+Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations version 1611, la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.
 
-La nouvelle fonctionnalité de registre est basée sur la fonctionnalité précédente de modèle de valeur mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. [![Registre en tant que fusion de modèle de valeur et fonctionnalité de registre d'amortissements](./media/fixed-assets.png)](./media/fixed-assets.png) En raison de cette fusion, vous pouvez désormais utiliser un ensemble unique de pages, de recherches et d'états pour tous vos processus d'immobilisation. Les tableaux de cette rubrique décrivent la fonctionnalité précédente des registres d'amortissement et des modèles de valeur, avec la nouvelle fonctionnalité pour les registres.
+La nouvelle fonctionnalité de registre est basée sur la fonctionnalité précédente de modèle de valeur mais inclut également toutes les fonctionnalités fournies précédemment uniquement dans les registres des amortissements. [![Registre en tant que fusion de modèle de valeur et fonctionnalité de registre d’amortissements](./media/fixed-assets.png)](./media/fixed-assets.png) En raison de cette fusion, vous pouvez désormais utiliser un ensemble unique de pages, de recherches et d’états pour tous vos processus d’immobilisation. Les tableaux de cette rubrique décrivent la fonctionnalité précédente des registres d’amortissement et des modèles de valeur, avec la nouvelle fonctionnalité pour les registres.
 
 ## <a name="setup"></a>Configuration
-Par défaut, les registres valident la comptabilité et la comptabilité auxiliaire d'immobilisation. Les registres ont une nouvelle option **Valider dans la comptabilité** qui permet de désactiver la validation dans la Comptabilité et la validation uniquement dans la comptabilité auxiliaire d'immobilisation. Cette fonctionnalité est semblable au comportement de validation précédent pour les registres des amortissements. Le paramétrage des noms de journaux dispose d'une couche de validation qui est nommée Aucune. Cette couche de validation a été ajoutée spécifiquement pour les transactions d'immobilisation. Pour valider des transactions pour les registres qui ne valident pas dans la comptabilité, vous devez utiliser un nom de journal dont la couche de validation est définie sur **Aucune**.
+Par défaut, les registres valident la comptabilité et la comptabilité auxiliaire d’immobilisation. Les registres ont une nouvelle option **Valider dans la comptabilité** qui permet de désactiver la validation dans la Comptabilité et la validation uniquement dans la comptabilité auxiliaire d’immobilisation. Cette fonctionnalité est semblable au comportement de validation précédent pour les registres des amortissements. Le paramétrage des noms de journaux dispose d’une couche de validation qui est nommée Aucune. Cette couche de validation a été ajoutée spécifiquement pour les transactions d’immobilisation. Pour valider des transactions pour les registres qui ne valident pas dans la comptabilité, vous devez utiliser un nom de journal dont la couche de validation est définie sur **Aucune**.
 
 |                                                  |                                 |                                 |                                                         |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
@@ -42,10 +42,10 @@ Par défaut, les registres valident la comptabilité et la comptabilité auxilia
 | Couches de validation                                   | Non applicable                  | 3 : Actuel, opérations et taxes | 11 : Actuel, opérations, taxes, 7 couches personnalisées, et aucune |
 | Noms de journal                                    | Noms des journaux du registre des amortissements | Comptabilité - Noms de journaux              | Comptabilité - Noms de journaux                                      |
 | Registres dérivés                                    | Non autorisé                     | Autorisé(e)                         | Autorisé(e)                                                 |
-| Remplacement du profil d'amortissement au niveau de l'immobilisation | Autorisé(e)                         | Non autorisé                     | Autorisé(e)                                                 |
+| Remplacement du profil d’amortissement au niveau de l’immobilisation | Autorisé(e)                         | Non autorisé                     | Autorisé(e)                                                 |
 
 ## <a name="processes"></a>Processus
-Les processus utilisent maintenant une page commune. Sont processus sont autorisés uniquement si l'option **Valider dans la comptabilité** est définie sur **Non** dans le paramétrage du registre.
+Les processus utilisent maintenant une page commune. Sont processus sont autorisés uniquement si l’option **Valider dans la comptabilité** est définie sur **Non** dans le paramétrage du registre.
 
 |                                |                           |                     |                                          |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
@@ -61,13 +61,13 @@ Les recherches et les états prennent en charge tous les registres. Les états q
 |                                       |                                |                          |                          |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
 |                                       | Registre des amortissements              | Modèle de valeur              | Registre (Nouveau)               |
-| Recherches                             | Transactions du registre des amortissements | Transactions d'immobilisation | Transactions d'immobilisation |
-| Relevé d'immobilisations                 | Non autorisé                    | Autorisé(e)                  | Autorisé(e)                  |
+| Recherches                             | Transactions du registre des amortissements | Transactions d’immobilisation | Transactions d’immobilisation |
+| Relevé d’immobilisations                 | Non autorisé                    | Autorisé(e)                  | Autorisé(e)                  |
 | Base des immobilisations                     | Autorisé(e)                        | Non autorisé              | Autorisé(e)                  |
-| Conditions d'application à mi-trimestre des immobilisations | Autorisé(e)                        | Non autorisé              | Autorisé(e)                  |
+| Conditions d’application à mi-trimestre des immobilisations | Autorisé(e)                        | Non autorisé              | Autorisé(e)                  |
 
 ## <a name="upgrade"></a>Mettre à niveau
-La procédure de mise à niveau déplacera votre paramétrage actuel et toutes les transactions existantes dans la structure du nouveau registre. Les modèles de valeur restent telles qu'elles sont, comme registre qui valide dans la comptabilité. Toutefois, les registres d'amortissements seront déplacés vers un registre dont l'option **Valider dans la comptabilité** est définie sur **Non**. Les noms des journaux du registre des amortissements seront transférés vers un nom de journal de comptabilité dont la couche de validation est définie sur **Aucune**.
+La procédure de mise à niveau déplacera votre paramétrage actuel et toutes les transactions existantes dans la structure du nouveau registre. Les modèles de valeur restent telles qu’elles sont, comme registre qui valide dans la comptabilité. Toutefois, les registres d’amortissements seront déplacés vers un registre dont l’option **Valider dans la comptabilité** est définie sur **Non**. Les noms des journaux du registre des amortissements seront transférés vers un nom de journal de comptabilité dont la couche de validation est définie sur **Aucune**.
 
 
 

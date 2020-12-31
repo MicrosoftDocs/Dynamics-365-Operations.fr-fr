@@ -1,6 +1,6 @@
 ---
-title: Gérer la validation d'un compte IBAN (Numéro de compte bancaire international)
-description: Cette rubrique explique comment gérer la validation d'un compte IBAN (Numéro de compte bancaire international).
+title: Gérer la validation d’un compte IBAN (Numéro de compte bancaire international)
+description: Cette rubrique explique comment gérer la validation d’un compte IBAN (Numéro de compte bancaire international).
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
@@ -16,19 +16,19 @@ ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 28abef376e8462c9a69dbd8e5033ea799b6a4b3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977813"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443188"
 ---
-# <a name="manage-international-bank-account-number-iban-account-validation"></a>Gérer la validation d'un compte IBAN (Numéro de compte bancaire international)
+# <a name="manage-international-bank-account-number-iban-account-validation"></a>Gérer la validation d’un compte IBAN (Numéro de compte bancaire international)
 
 [!include [banner](../includes/banner.md)]
 
-La validation d'un IBAN (Numéro de compte bancaire international) augmente le niveau de validation lorsque vous ajoutez un IBAN à un compte bancaire.
+La validation d’un IBAN (Numéro de compte bancaire international) augmente le niveau de validation lorsque vous ajoutez un IBAN à un compte bancaire.
 
-Les informations sur la structure IBAN sont enregistrées dans Microsoft Dynamics 365 Finance. Ces informations sont chargées automatiquement lorsque vous utilisez pour la première fois l'IBAN sur les comptes bancaires. Elles contiennent la longueur de l'IBAN, les positions de départ du numéro de compte bancaire et du numéro d'acheminement, et la longueur du numéro de compte bancaire et du numéro d'acheminement.
+Les informations sur la structure IBAN sont enregistrées dans Microsoft Dynamics 365 Finance. Ces informations sont chargées automatiquement lorsque vous utilisez pour la première fois l’IBAN sur les comptes bancaires. Elles contiennent la longueur de l’IBAN, les positions de départ du numéro de compte bancaire et du numéro d’acheminement, et la longueur du numéro de compte bancaire et du numéro d’acheminement.
 
 ## <a name="set-up-iban-structures"></a>Paramétrer les structures IBAN
 
@@ -37,14 +37,14 @@ Les informations sur la structure IBAN sont enregistrées dans Microsoft Dynamic
 3. Si vous souhaitez personnaliser les structures pour un pays ou une région spécifique, vous pouvez les modifier.
 4. Les définitions de structure feront partie de chaque nouvelle version. Vous pouvez utiliser le menu **Réinitialiser les structures** pour charger les dernières définitions après chaque mise à jour.
 
-## <a name="validate-the-iban-structure-in-a-bank-account"></a>Valider la structure IBAN d'un compte bancaire
+## <a name="validate-the-iban-structure-in-a-bank-account"></a>Valider la structure IBAN d’un compte bancaire
 
 1. Accédez à **Gestion de la trésorerie et de la banque \> Comptes bancaires \> Comptes bancaires**.
 2. Créez un compte bancaire.
-3. Dans l'organisateur **Informations supplémentaires**, entrez un IBAN.
+3. Dans l’organisateur **Informations supplémentaires**, entrez un IBAN.
 
-    Si la longueur de l'IBAN ne correspond pas à la longueur définie pour chaque pays ou région, vous recevrez un message d'avertissement. Vous ne pouvez pas continuer si la longueur de l'IBAN ne correspond pas à celle spécifiée dans la structure IBAN.
+    Si la longueur de l’IBAN ne correspond pas à la longueur définie pour chaque pays ou région, vous recevrez un message d’avertissement. Vous ne pouvez pas continuer si la longueur de l’IBAN ne correspond pas à celle spécifiée dans la structure IBAN.
 
-    La validation vérifie également que le numéro de compte bancaire correspond à la partie de l'IBAN qui représente le numéro de compte bancaire. Si le numéro de compte bancaire ne correspond pas, vous recevrez un message d'avertissement. Ce message n'est qu'un avertissement. Vous pouvez continuer même si le numéro de compte bancaire ne correspond pas.
+    La validation vérifie également que le numéro de compte bancaire correspond à la partie de l’IBAN qui représente le numéro de compte bancaire. Si le numéro de compte bancaire ne correspond pas, vous recevrez un message d’avertissement. Ce message n’est qu’un avertissement. Vous pouvez continuer même si le numéro de compte bancaire ne correspond pas.
 
-    La validation vérifie également que le numéro d'acheminement correspond à la partie de l'IBAN qui représente le numéro d'acheminement. Le numéro d'acheminement contient un numéro bancaire et souvent une agence bancaire supplémentaire. Si le numéro d'acheminement bancaire ne correspond pas, vous recevrez un message d'avertissement. Ce message n'est qu'un avertissement. Vous pouvez continuer même si le numéro d'acheminement bancaire ne correspond pas.
+    La validation vérifie également que le numéro d’acheminement correspond à la partie de l’IBAN qui représente le numéro d’acheminement. Le numéro d’acheminement contient un numéro bancaire et souvent une agence bancaire supplémentaire. Si le numéro d’acheminement bancaire ne correspond pas, vous recevrez un message d’avertissement. Ce message n’est qu’un avertissement. Vous pouvez continuer même si le numéro d’acheminement bancaire ne correspond pas.

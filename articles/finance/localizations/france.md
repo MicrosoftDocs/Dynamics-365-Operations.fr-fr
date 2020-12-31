@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble de la France
+title: Vue d’ensemble de la France
 description: Cette rubrique fournit des liens vers des ressources de documentation Microsoft Dynamics 365 Finance pour la France.
 author: ShylaThompson
 manager: AnnBe
@@ -17,17 +17,17 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7c15a5cf8896c752369abd15d3fc7985ef8b6999
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978260"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407903"
 ---
-# <a name="france-overview"></a>Vue d'ensemble de la France
+# <a name="france-overview"></a>Vue d’ensemble de la France
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer les entités juridiques dont l'adresse principale est en France. 
+Cette rubrique inclut des informations et des liens vers des ressources qui peuvent vous aider à paramétrer les entités juridiques dont l’adresse principale est en France. 
 
 - Secteur public
   - [Comptabilité secteur public](emea-fra-public-sector-accounting.md)
@@ -42,7 +42,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance](tasks/fr-00018-daily-interest.md)
 - [Amortissement dérogatoire](emea-fra-derogatory-depreciation.md)
 - [Lettres de change et billets à ordre français](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
-- [Génération du fichier d'audit standard pour la France (FEC)](emea-fra-fec-audit-file.md)
+- [Génération du fichier d’audit standard pour la France (FEC)](emea-fra-fec-audit-file.md)
 - [Codes NAF et numéros Siret](emea-fra-naf-codes-siret-numbers.md)
 - [Paramétrer des codes NAF et numéros SIRET](tasks/fr-00003-naf-codes-siret-numbers.md)
 - [Pénalités pour les paiements client en retard](emea-fra-apply-penalty-customer-payment-past-due.md)
@@ -58,6 +58,6 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d'ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Télécharger les configurations d'états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
+- [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)

@@ -1,6 +1,6 @@
 ---
 title: FR-00004 Mettre à jour un mode de paiement pour le client
-description: Cette procédure vous guide dans l'ajout d'un compte bancaire pour un enregistrement client en France et dans la mise à jour d'un mode de paiement pour le même client.
+description: Cette procédure vous guide dans l’ajout d’un compte bancaire pour un enregistrement client en France et dans la mise à jour d’un mode de paiement pour le même client.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,28 +17,28 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d687265345e8c851c4d86c555cb28fdacacbc488
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139008"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407960"
 ---
 # <a name="fr-00004-update-method-of-payment-on-customer"></a>FR-00004 Mettre à jour un mode de paiement pour le client
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure vous guide dans l'ajout d'un compte bancaire pour un enregistrement client en France et dans la mise à jour d'un mode de paiement pour le même client.
+Cette procédure vous guide dans l’ajout d’un compte bancaire pour un enregistrement client en France et dans la mise à jour d’un mode de paiement pour le même client.
 
 
 
-Avant d'exécuter cette procédure, vous devez importer les configurations de génération d'état électronique suivantes : payments.initial.version.xml et BillsOfExchangeRemittance_FR.xml.
+Avant d’exécuter cette procédure, vous devez importer les configurations de génération d’état électronique suivantes : payments.initial.version.xml et BillsOfExchangeRemittance_FR.xml.
 
 
 
-Cette procédure a été créée à l'aide des données fictives de la société FRSI.
+Cette procédure a été créée à l’aide des données fictives de la société FRSI.
 
 1. Accédez à Comptabilité client > Clients > Tous les clients.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Cliquez sur Client dans le volet Actions.
 5. Cliquez sur Comptes bancaires.
@@ -46,7 +46,7 @@ Cette procédure a été créée à l'aide des données fictives de la société
 7. Tapez une valeur dans le champ Compte en banque.
 8. Tapez une valeur dans le champ Nom.
 9. Tapez une valeur dans le champ Numéro de compte bancaire.
-10. Dans le champ N° d'acheminement, saisissez une valeur.
+10. Dans le champ N° d’acheminement, saisissez une valeur.
 11. Développez la section Adresse.
 12. Cliquez sur Nouveau.
 13. Tapez une valeur dans le champ Nom ou description.
@@ -62,7 +62,7 @@ Cette procédure a été créée à l'aide des données fictives de la société
 22. Développez la section Valeurs par défaut du paiement.
 23. Cliquez sur Modifier.
 24. Entrez ou sélectionnez une valeur dans le champ Mode de paiement.
-25. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+25. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Définir le mode de paiement = BOEPDF  
 26. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 27. Dans le champ Compte en banque, saisissez ou sélectionnez une valeur.

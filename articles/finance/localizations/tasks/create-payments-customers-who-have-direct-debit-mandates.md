@@ -17,17 +17,17 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141601"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443270"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Créer des paiements pour les clients qui ont des mandats de débit direct
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment générer un fichier de paiement à débit direct ISO20022 pour un client dont le débit direct est configuré et qui a une facture à payer. La création et la validation d'une facture sont facultatives. Au lieu d'avoir une facture à payer, vous pouvez sélectionner un mandat dans un journal avant de générer un fichier de paiement, pour prendre en charge un scénario d'acompte client.
+Cette procédure indique comment générer un fichier de paiement à débit direct ISO20022 pour un client dont le débit direct est configuré et qui a une facture à payer. La création et la validation d’une facture sont facultatives. Au lieu d’avoir une facture à payer, vous pouvez sélectionner un mandat dans un journal avant de générer un fichier de paiement, pour prendre en charge un scénario d’acompte client.
 
 
 
@@ -35,7 +35,7 @@ La société fictive de démonstration utilisée pour créer cette procédure es
 
 
 
-Il s'agit de la cinquième des cinq procédures illustrant le processus de paiement client à l'aide des configurations de génération d'états électroniques. Avant de pouvoir effectuer cette tâche, vous devez effectuer les tâches précédentes. Vous devez d'abord importer les configurations de génération d'états électroniques de paiement client, configurer les modes de paiement et paramétrer les informations de votre société et du client. 
+Il s’agit de la cinquième des cinq procédures illustrant le processus de paiement client à l’aide des configurations de génération d’états électroniques. Avant de pouvoir effectuer cette tâche, vous devez effectuer les tâches précédentes. Vous devez d’abord importer les configurations de génération d’états électroniques de paiement client, configurer les modes de paiement et paramétrer les informations de votre société et du client. 
 
 
 ## <a name="post-a-free-text-invoice-with-direct-debit-information"></a>Valider une facture financière avec les informations de débit direct

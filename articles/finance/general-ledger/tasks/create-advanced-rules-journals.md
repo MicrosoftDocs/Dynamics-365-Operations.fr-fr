@@ -17,44 +17,44 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ea6ca24d27bb5b00bbe31060ce2f7e40bf2fb335
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145213"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443248"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Créer des règles avancées pour les journaux
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure consiste à créer des règles avancées pour les journaux. Cela inclut de définir un contrôle des journaux et des restrictions de validation utilisateur. La société fictive USMF sert d'exemple dans cette procédure.
+Cette procédure consiste à créer des règles avancées pour les journaux. Cela inclut de définir un contrôle des journaux et des restrictions de validation utilisateur. La société fictive USMF sert d’exemple dans cette procédure.
 
 
 ## <a name="set-up-journal-control"></a>Paramétrer le contrôle des journaux
 1. Dans le **Volet de navigation**, allez dans **Modules > Comptabilité > Paramétrage du journal > Noms de journal**.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans le **Volet Actions**, cliquez sur **Contrôle des journaux**.
-4. Dans l'organisateur **Quels types de compte peuvent être validés ?**, cliquez sur **Ajouter**.
+4. Dans l’organisateur **Quels types de compte peuvent être validés ?**, cliquez sur **Ajouter**.
 5. Dans le champ **Comptes société**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Dans l'organisateur **Quelles valeurs de segment sont valides pour ce journal ?**, cliquez sur **Ajouter**.
+8. Dans l’organisateur **Quelles valeurs de segment sont valides pour ce journal ?**, cliquez sur **Ajouter**.
 9. Dans le champ **Structure de compte**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-10. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+10. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 11. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 12. Dans le champ **Segment**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 14. Dans le champ **Valeur de début**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-15. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+15. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 16. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 17. Dans le champ **Valeur de fin**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-18. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+18. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 19. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
 ## <a name="set-up-posting-restrictions"></a>Paramétrage des restrictions de validation
 1. Fermez la page.
 2. Cliquez sur **Restrictions de validation**.
-3. Dans le champ **Comment voulez-vous paramétrer des restrictions de validation ?**, sélectionnez par Groupe d'utilisateurs.
-4. Dans l'arborescence, activez « Le groupe pour lequel vous souhaitez autoriser la validation pour ce nom de journal. ».
+3. Dans le champ **Comment voulez-vous paramétrer des restrictions de validation ?**, sélectionnez par Groupe d’utilisateurs.
+4. Dans l’arborescence, activez « Le groupe pour lequel vous souhaitez autoriser la validation pour ce nom de journal. ».
 5. Cliquez sur **OK**.
 

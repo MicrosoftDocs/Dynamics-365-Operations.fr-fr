@@ -1,6 +1,6 @@
 ---
 title: Transférer une immobilisation
-description: Ce Guide de tâche transfèrera les informations financières pour un registre d'immobilisation provenant d'un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.
+description: Ce Guide de tâche transfèrera les informations financières pour un registre d’immobilisation provenant d’un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.
 author: saraschi2
 manager: AnnBe
 ms.date: 07/22/2019
@@ -17,34 +17,34 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: eb38483d3ac61acb4513e87d8c36ddd0f8863a10
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138046"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443184"
 ---
 # <a name="transfer-a-fixed-asset"></a>Transférer une immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Ce Guide de tâche transfèrera les informations financières pour un registre d'immobilisation provenant d'un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.  Il utilise le rôle de comptable et les données de démonstration de l'entité juridique USMF.
+Ce Guide de tâche transfèrera les informations financières pour un registre d’immobilisation provenant d’un ensemble de dimensions financières vers le nouvel ensemble de dimensions financières.  Il utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.
 
 1. Dans le volet de navigation, accédez à **Modules > Immobilisations > Immobilisations > Immobilisations**.
-2. Dans la liste, recherchez et sélectionnez l'immobilisation à transférer.
+2. Dans la liste, recherchez et sélectionnez l’immobilisation à transférer.
 3. Dans le volet Actions, cliquez sur **Immobilisation**.
 4. Cliquez sur **Transférer des immobilisations**.
 5. Entrez une date dans le champ **Date de transfert**.
 6. Entrez des commentaires pour décrire le transfert.
     
-    Cette liste répertorie tous les registres pour l'immobilisation.  
+    Cette liste répertorie tous les registres pour l’immobilisation.  
 7. Marquez les registres à transférer vers le nouvel ensemble de dimensions financières.
     * Cette liste répertorie les valeurs de dimension financière existantes pour le registre sélectionné.  
-    * Sélectionnez la dimension financière que vous souhaitez mettre à jour pour le registre d'immobilisation sélectionné.  
+    * Sélectionnez la dimension financière que vous souhaitez mettre à jour pour le registre d’immobilisation sélectionné.  
 8. Dans le champ **Dimension financière**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Définissez d'autres valeurs de dimension financière, le cas échéant.  
-    * Toutes les valeurs de dimension financière sont modifiées lorsqu'un transfert a lieu, même si une valeur a été entrée ou est laissée vide. Par exemple, si vous avez entré une valeur pour BusinessUnit et laissé les dimensions financières pour CostCenter et Département vides. Si votre structure de compte avait autorisé les valeurs vides pour CostCenter et Département, suite au transfert, chaque modèle de valeur aurait eu la nouvelle valeur pour BusinessUnit et une valeur vide pour CostCenter et Département.  
+    * Définissez d’autres valeurs de dimension financière, le cas échéant.  
+    * Toutes les valeurs de dimension financière sont modifiées lorsqu’un transfert a lieu, même si une valeur a été entrée ou est laissée vide. Par exemple, si vous avez entré une valeur pour BusinessUnit et laissé les dimensions financières pour CostCenter et Département vides. Si votre structure de compte avait autorisé les valeurs vides pour CostCenter et Département, suite au transfert, chaque modèle de valeur aurait eu la nouvelle valeur pour BusinessUnit et une valeur vide pour CostCenter et Département.  
 9. Cliquez sur **Mettre à jour**.
     * Vous pouvez prévisualiser les modifications avant de finaliser le transfert.  
-    * Réexaminez les résultats avant de transférer les registres d'immobilisation.  
+    * Réexaminez les résultats avant de transférer les registres d’immobilisation.  
 10. Cliquez sur **Transférer**.
 

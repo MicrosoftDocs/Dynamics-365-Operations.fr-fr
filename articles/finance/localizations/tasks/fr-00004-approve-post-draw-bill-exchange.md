@@ -1,6 +1,6 @@
 ---
 title: FR-00004 Approuver et valider la création des lettres de change client
-description: Cette procédure vous guide dans l'approbation et la validation des lettres de change.
+description: Cette procédure vous guide dans l’approbation et la validation des lettres de change.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,21 +17,21 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9905fa25114107b927cd6c7919018acc0012c68a
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139115"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407964"
 ---
 # <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a>FR-00004 Approuver et valider la création des lettres de change client
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure vous guide dans l'approbation et la validation des lettres de change.
+Cette procédure vous guide dans l’approbation et la validation des lettres de change.
 
-Cette procédure a été créée à l'aide des données fictives de la société FRSI. 
+Cette procédure a été créée à l’aide des données fictives de la société FRSI. 
 
-Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en France.
+Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en France.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Amortissement paramétrable
-description: Cet article donne une vue d'ensemble de la méthode d'amortissement paramétrable.
+description: Cet article donne une vue d’ensemble de la méthode d’amortissement paramétrable.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,37 +19,37 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177705"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443110"
 ---
 # <a name="factor-depreciation"></a>Amortissement paramétrable
 
 [!include [banner](../includes/banner.md)]
 
-Cet article donne une vue d'ensemble de la méthode d'amortissement paramétrable.
+Cet article donne une vue d’ensemble de la méthode d’amortissement paramétrable.
 
-Les facteurs sont les pourcentages utilisés pour l'amortissement des immobilisations. Lorsque vous paramétrez un profil d'amortissement d'immobilisations et sélectionnez **Facteur** dans le champ **Méthode** de la page **Profils d'amortissement**, vous pouvez paramétrer un amortissement progressif, dégressif ou linéaire :
+Les facteurs sont les pourcentages utilisés pour l’amortissement des immobilisations. Lorsque vous paramétrez un profil d’amortissement d’immobilisations et sélectionnez **Facteur** dans le champ **Méthode** de la page **Profils d’amortissement**, vous pouvez paramétrer un amortissement progressif, dégressif ou linéaire :
 
--   Dans l'amortissement progressif, le montant d'amortissement augmente avec chaque période d'amortissement.
--   Dans l'amortissement dégressif, le montant d'amortissement par période diminue dans le temps.
--   Dans l'amortissement linéaire, l'amortissement est identique pour chaque période.
+-   Dans l’amortissement progressif, le montant d’amortissement augmente avec chaque période d’amortissement.
+-   Dans l’amortissement dégressif, le montant d’amortissement par période diminue dans le temps.
+-   Dans l’amortissement linéaire, l’amortissement est identique pour chaque période.
 
-Les règles et exemples suivants indiquent la procédure de paramétrage de facteurs pour chaque type d'amortissement. 
+Les règles et exemples suivants indiquent la procédure de paramétrage de facteurs pour chaque type d’amortissement. 
 
 > [!NOTE] 
-> Lorsque vous sélectionnez **Facteur** dans le champ **Méthode**, le champ **Facteur** et le champ **Intervalle** s'affichent.
+> Lorsque vous sélectionnez **Facteur** dans le champ **Méthode**, le champ **Facteur** et le champ **Intervalle** s’affichent.
 
 ## <a name="progressive-depreciation"></a>Amortissement progressif
 La valeur du champ **Facteur** est supérieure à **50**.
 
 ### <a name="example"></a>Exemple
 
-Le prix d'acquisition s'élève à 10 000, le facteur est de 70, la durée de vie est de 10 ans et l'amortissement débute le 1er janvier. Les montants d'amortissement et de valeur comptable nette sont uniquement affichés pour les six premières années de la durée de vie.
+Le prix d’acquisition s’élève à 10 000, le facteur est de 70, la durée de vie est de 10 ans et l’amortissement débute le 1er janvier. Les montants d’amortissement et de valeur comptable nette sont uniquement affichés pour les six premières années de la durée de vie.
 
-| Année | Période      | Montant d'amortissement | Valeur comptable nette |
+| Année | Période      | Montant d’amortissement | Valeur comptable nette |
 |------|-------------|---------------------|-----------------------|
 | 1    | 31 décembre | 307,69              | 99 692,31             |
 | 2    | 31 décembre | 1 447,21            | 98 245,10             |
@@ -63,9 +63,9 @@ La valeur du champ **Facteur** est inférieure à **50**.
 
 ### <a name="example"></a>Exemple
 
-Le prix d'acquisition s'élève à 10 000, le facteur est de 20, la durée de vie est de 10 ans et l'amortissement débute le 1er janvier. Les montants d'amortissement et de valeur comptable nette sont uniquement affichés pour les six premières années de la durée de vie.
+Le prix d’acquisition s’élève à 10 000, le facteur est de 20, la durée de vie est de 10 ans et l’amortissement débute le 1er janvier. Les montants d’amortissement et de valeur comptable nette sont uniquement affichés pour les six premières années de la durée de vie.
 
-| Année | Période      | Montant d'amortissement | Valeur comptable nette |
+| Année | Période      | Montant d’amortissement | Valeur comptable nette |
 |------|-------------|---------------------|-----------------------|
 | 1    | 31 décembre | 56 080,43           | 43 919,57             |
 | 2    | 31 décembre | 10 665,70           | 33 253,87             |
@@ -75,7 +75,7 @@ Le prix d'acquisition s'élève à 10 000, le facteur est de 20, la durée de 
 | 6    | 31 décembre | 3 937,36            | 12 042,34             |
 
 ## <a name="straight-line-depreciation"></a>Amortissement linéaire
-La valeur du champ **Facteur** est égale à **50**. Dans ce cas, l'amortissement est identique pour chaque période, et vous devez prendre en compte les implications des valeurs que vous avez spécifiées dans d'autres champs, comme décrit dans [Amortissement linéaire sur la durée de vie](straight-line-service-life-depreciation.md).
+La valeur du champ **Facteur** est égale à **50**. Dans ce cas, l’amortissement est identique pour chaque période, et vous devez prendre en compte les implications des valeurs que vous avez spécifiées dans d’autres champs, comme décrit dans [Amortissement linéaire sur la durée de vie](straight-line-service-life-depreciation.md).
 
 
 

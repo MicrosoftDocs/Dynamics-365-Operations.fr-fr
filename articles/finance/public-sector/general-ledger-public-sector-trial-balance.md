@@ -17,11 +17,11 @@ ms.author: v-kiarnd
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 76b0560499532eb3e97b03a9e797a9168ebcbcdc
-ms.sourcegitcommit: d6b17b9bafa84b574a597a560a80e6b7b1852b14
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "3799918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4407934"
 ---
 # <a name="trial-balance-with-transactional-detail-report"></a>État Balance comptable avec le détail des transactions
 

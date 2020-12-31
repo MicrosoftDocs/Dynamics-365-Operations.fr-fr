@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4b443630d1612b5095fefa74b5ed6d057be534b7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188945"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443070"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Paramétrer et traiter des factures récurrentes
 
@@ -31,20 +31,20 @@ ms.locfileid: "2188945"
 
 Cet article explique comment paramétrer et traiter les factures récurrentes. Vous pouvez utiliser des factures récurrentes si vous devez facturer des clients pour le même montant régulièrement.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>Création d'un modèle de facture financière récurrente
+<a name="create-a-recurring-free-text-invoice-template"></a>Création d’un modèle de facture financière récurrente
 ---------------------------------------------
 
 Pour facturer régulièrement des clients pour les mêmes services, vous devez définir un modèle de facture financière pouvant être réutilisé pour créer les factures. Ce modèle contient les informations suivantes :
 
--   Les informations d'en-tête, telles que les groupes de taxe, les conditions de paiement et le mode de paiement
+-   Les informations d’en-tête, telles que les groupes de taxe, les conditions de paiement et le mode de paiement
 -   Les informations de ligne, telles que la description des services, les comptes de produit, le prix unitaire et le montant de la facture
--   Les frais d'expédition ou de gestion
+-   Les frais d’expédition ou de gestion
 -   Les répartitions comptables avec les informations de dimension financière, par exemple les centres de coût et les unités commerciales
 
-En réalité, vous créez une facture entière et l'enregistrez comme modèle. Vous pouvez paramétrer les modèles à l'aide de la page **Factures récurrentes**.
+En réalité, vous créez une facture entière et l’enregistrez comme modèle. Vous pouvez paramétrer les modèles à l’aide de la page **Factures récurrentes**.
 
-## <a name="assign-a-free-text-invoice-template-to-a-customer-and-enter-recurrence-details"></a>Affectation d'un modèle de facture financière à un client et saisie des détails récurrents
-Une fois le modèle créé, vous devez affecter le modèle aux clients à facturer. En outre, vous devez spécifier quand et la fréquence à laquelle la facture est utilisée. Vous pouvez affecter des modèles dans l'onglet **Facture** de la page **Clients**. Ajoutez le modèle à la liste et mettez à jour les informations suivantes :
+## <a name="assign-a-free-text-invoice-template-to-a-customer-and-enter-recurrence-details"></a>Affectation d’un modèle de facture financière à un client et saisie des détails récurrents
+Une fois le modèle créé, vous devez affecter le modèle aux clients à facturer. En outre, vous devez spécifier quand et la fréquence à laquelle la facture est utilisée. Vous pouvez affecter des modèles dans l’onglet **Facture** de la page **Clients**. Ajoutez le modèle à la liste et mettez à jour les informations suivantes :
 
 -   La date de début et, éventuellement, la date de fin de la facturation récurrente
 -   La fréquence de la facturation récurrente (par exemple, chaque jour ou une fois par mois)
@@ -53,12 +53,12 @@ Une fois le modèle créé, vous devez affecter le modèle aux clients à factur
 Un client peut avoir plusieurs modèles qui ont différentes fréquences.
 
 ## <a name="generate-the-recurring-invoices"></a>Générer les factures répétitives
-Dans la page **Factures récurrentes**, il existe une tâche qui traite les modèles de factures récurrentes. Vous spécifiez la date de facture et le modèle à partir duquel générer les factures. Les factures sont générées et un même numéro d'identification de récurrence est affecté pour chaque groupe de factures traité.
+Dans la page **Factures récurrentes**, il existe une tâche qui traite les modèles de factures récurrentes. Vous spécifiez la date de facture et le modèle à partir duquel générer les factures. Les factures sont générées et un même numéro d’identification de récurrence est affecté pour chaque groupe de factures traité.
 
 <a name="post-recurring-free-text-invoices"></a>Validation de factures financières récurrentes
 ---------------------------------
 
-Une fois les factures récurrentes générées, les ID de récurrence de facture s'affichent dans une tâche de validation dans la page **Factures récurrentes**. Vous pouvez afficher toutes les factures pour un ID de récurrence en cliquant sur le lien. Lors de la révision des factures pour l'ID de récurrence, vous pouvez supprimer les factures individuelles. Les paramètres de récurrence du client seront réinitialisés pour ce modèle, afin qu'il puisse être régénéré ultérieurement. Vous pouvez valider une, plusieurs ou toutes les factures pour un ID de récurrence. Si des workflows sont activés, vous devez cliquer sur **Envoyer** avant de pouvoir valider les factures.
+Une fois les factures récurrentes générées, les ID de récurrence de facture s’affichent dans une tâche de validation dans la page **Factures récurrentes**. Vous pouvez afficher toutes les factures pour un ID de récurrence en cliquant sur le lien. Lors de la révision des factures pour l’ID de récurrence, vous pouvez supprimer les factures individuelles. Les paramètres de récurrence du client seront réinitialisés pour ce modèle, afin qu’il puisse être régénéré ultérieurement. Vous pouvez valider une, plusieurs ou toutes les factures pour un ID de récurrence. Si des workflows sont activés, vous devez cliquer sur **Envoyer** avant de pouvoir valider les factures.
 
 <a name="print-recurring-free-text-invoices"></a>Impression de factures financières récurrentes
 ----------------------------------

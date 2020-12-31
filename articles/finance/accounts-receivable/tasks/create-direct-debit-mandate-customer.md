@@ -1,6 +1,6 @@
 ---
 title: Créer un mandat de débit direct pour un client
-description: Ce guide de tâche montre comment créer un mandat de débit direct et l'utiliser dans une facture.
+description: Ce guide de tâche montre comment créer un mandat de débit direct et l’utiliser dans une facture.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2019
@@ -17,17 +17,17 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 86d29782f616219b5d84e3567910cb28c60b65ae
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140304"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443065"
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a>Créer un mandat de débit direct pour un client
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide de tâche montre comment créer un mandat de débit direct et l'utiliser dans une facture.
+Ce guide de tâche montre comment créer un mandat de débit direct et l’utiliser dans une facture.
 
 
 ## <a name="create-a-bank-account"></a>Créer un compte bancaire
@@ -43,7 +43,7 @@ Ce guide de tâche montre comment créer un mandat de débit direct et l'utilise
 10. Cliquez sur **Enregistrer**.
 11. Fermez la page.
 12. Dans le **Volet de navigation**, allez dans **Modules > Gestion de la trésorerie et de la banque > Comptes bancaires > Comptes bancaires**.
-13. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 14. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 15. Cliquez sur **Modifier**.
 16. Développez le raccourci **Identification supplémentaire**.

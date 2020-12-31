@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 51d43c8e6d16201e1f8c392c13ead20287782dcc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983595"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443025"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Calcul de taxe sur les lignes générales du journal
 [!include [banner](../includes/banner.md)]
@@ -44,11 +44,11 @@ La façon dont la direction de la taxe est déterminée dépend du type de compt
 
 ### <a name="account-type-is-project"></a>Le type de compte est Projet
 
-Si un N° document a une ligne de journal où le type de compte est **Projet**, toutes les lignes du journal dans le N° document appliquent la même direction de taxe. L'illustration suivante présente la règle. Le points suivants affichent les directions possibles de taxe pour les comptes de projet.
+Si un N° document a une ligne de journal où le type de compte est **Projet**, toutes les lignes du journal dans le N° document appliquent la même direction de taxe. L’illustration suivante présente la règle. Le points suivants affichent les directions possibles de taxe pour les comptes de projet.
 
-•   Si le code taxe est une taxe d'utilisation, la direction de la taxe est Taxe d'utilisation.
+•   Si le code taxe est une taxe d’utilisation, la direction de la taxe est Taxe d’utilisation.
 
-•   Si le code taxe est exempt de taxe d'utilisation, la direction de la taxe est Achat détaxé.
+•   Si le code taxe est exempt de taxe d’utilisation, la direction de la taxe est Achat détaxé.
 
 •   Si le code taxe est une TVA intracommunautaire, la direction de la taxe est Taxe de Comptabilité fournisseur.
 
@@ -64,9 +64,9 @@ Le diagramme suivant illustre la règle sous forme graphique.
 
 Si un N° document a une ligne de journal où le type de compte est **Fournisseur**, toutes les lignes du journal dans le N° document appliquent la même direction de taxe. Le points suivants affichent les directions possibles de taxe pour les comptes de fournisseur. 
 
-•   Si le code taxe est une taxe d'utilisation, la direction de la taxe est Taxe d'utilisation.
+•   Si le code taxe est une taxe d’utilisation, la direction de la taxe est Taxe d’utilisation.
 
-•   Si le code taxe est exempt de taxe d'utilisation, la direction de la taxe est Achat détaxé.
+•   Si le code taxe est exempt de taxe d’utilisation, la direction de la taxe est Achat détaxé.
 
 •   Si le code taxe est une TVA intracommunautaire, la direction de la taxe est Taxe de Comptabilité fournisseur.
 
@@ -82,7 +82,7 @@ Le diagramme suivant illustre la règle sous forme graphique.
 
 Si un N° document a une ligne de journal où le type de compte est **Client**, toutes les lignes du journal dans le N° document appliquent la même direction de taxe. Le points suivants affichent les directions possibles de taxe pour les comptes de client.
 
-•   Si le code taxe est exempt de taxe d'utilisation, la direction de la taxe est Achat détaxé.
+•   Si le code taxe est exempt de taxe d’utilisation, la direction de la taxe est Achat détaxé.
 
 •   Si le code taxe est une TVA intracommunautaire, la direction de la taxe est Taxe déductible.
 
@@ -96,11 +96,11 @@ Le diagramme suivant illustre la règle sous forme graphique.
 
 ### <a name="account-type-is-ledger"></a>Le type de compte est Comptabilité
 
-L'illustration suivante présente la règle qui s'applique lorsqu'un N° document n'a que des lignes de journal où le type de compte est **Comptabilité**. Le points suivants affichent les directions possibles de taxe pour les comptes généraux.
+L’illustration suivante présente la règle qui s’applique lorsqu’un N° document n’a que des lignes de journal où le type de compte est **Comptabilité**. Le points suivants affichent les directions possibles de taxe pour les comptes généraux.
 
-•   Si le code taxe est une taxe d'utilisation, la direction de la taxe est Taxe d'utilisation.
+•   Si le code taxe est une taxe d’utilisation, la direction de la taxe est Taxe d’utilisation.
 
-•   Si le code taxe est exempt de taxe d'utilisation, la direction de la taxe est Achat détaxé.
+•   Si le code taxe est exempt de taxe d’utilisation, la direction de la taxe est Achat détaxé.
 
 Sinon, si le montant du journal est positif (débit), la direction de la taxe est Taxe déductible ; si le montant du journal est négatif (crédit), la direction de la taxe est Taxe de comptabilité fournisseur.
 
@@ -129,7 +129,7 @@ Le tableau suivant montre la règle générique pour déterminer le signe des mo
 | Négatif            | Taxe de Comptabilité client | Négatif              |
 | Négatif            | Taxe de Comptabilité fournisseur    | Positif              |
 
-Il existe une règle spéciale pour les N° document uniquement avec les lignes **Projet** ou **Comptabilité**, lorsqu'un groupe de taxe ou un groupe de taxe d'article est sélectionné sur la ligne **Comptabilité**. Cette règle est contrôlée par la fonction Activer le calcul de taxe indépendant pour les journaux généraux. Lorsque cette fonction est désactivée, le montant de la taxe de la ligne **Comptabilité** utilise la direction de débit/crédit de la ligne **Projet**. Lorsque cette fonction est activée, le montant de la taxe de la ligne **Comptabilité** utilise sa propre direction de débit/crédit. Les tableaux suivants indiquent la règle pour chaque scénario. 
+Il existe une règle spéciale pour les N° document uniquement avec les lignes **Projet** ou **Comptabilité**, lorsqu’un groupe de taxe ou un groupe de taxe d’article est sélectionné sur la ligne **Comptabilité**. Cette règle est contrôlée par la fonction Activer le calcul de taxe indépendant pour les journaux généraux. Lorsque cette fonction est désactivée, le montant de la taxe de la ligne **Comptabilité** utilise la direction de débit/crédit de la ligne **Projet**. Lorsque cette fonction est activée, le montant de la taxe de la ligne **Comptabilité** utilise sa propre direction de débit/crédit. Les tableaux suivants indiquent la règle pour chaque scénario. 
 
 **Règle lorsque la fonctionnalité est activée**
 

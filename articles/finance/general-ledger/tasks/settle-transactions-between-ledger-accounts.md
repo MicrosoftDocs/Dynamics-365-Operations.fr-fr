@@ -17,17 +17,17 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: bb53e9fee35712343f034389f00f3d4539cc652d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144672"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443194"
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Règlement des transactions entre des comptes généraux
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable. La société fictive USMF sert d'exemple dans cette procédure.
+Cette procédure montre comment régler les transactions entre les comptes généraux et annuler un règlement comptable. La société fictive USMF sert d’exemple dans cette procédure.
 
 
 ## <a name="settle-transaction-between-ledger-accounts"></a>Régler une transaction entre des comptes généraux
@@ -38,7 +38,7 @@ Cette procédure montre comment régler les transactions entre les comptes gén�
 3. Cliquez sur Inclure.
 4. Cliquez sur Accepter.
 
-## <a name="cancel-a-ledger-settlement"></a>Annulation d'un règlement comptable
+## <a name="cancel-a-ledger-settlement"></a>Annulation d’un règlement comptable
 
 1. Accédez à Comptabilité > Recherches et états > Balance comptable.
 2. Cliquez sur Paramètres pour ouvrir la boîte de dialogue.

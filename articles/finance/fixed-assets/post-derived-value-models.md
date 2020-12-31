@@ -1,6 +1,6 @@
 ---
 title: Valider avec des registres dérivés
-description: Cet article décrit l'utilisation des registres déduits.
+description: Cet article décrit l’utilisation des registres déduits.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,43 +19,43 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2b58b2da949211f7eef804af98c866bf5074d47f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187128"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443031"
 ---
 # <a name="post-with-derived-books"></a>Valider avec des registres dérivés
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit l'utilisation des registres déduits.
+Cet article décrit l’utilisation des registres déduits.
 
 Si vous validez des transactions pour un registre contenant des registres déduits, les transactions de registres déduits sont validées automatiquement dans les journaux, les commandes fournisseur ou les factures financières. Toutefois, si vous préparez les transactions de registre principales dans le journal des immobilisations, vous pouvez afficher et modifier les montants des transactions dérivées avant de les valider.
--   Certains comptes (de taxe, client ou fournisseur) ne sont mis à jour qu'une seule fois par les validations du registre principal. Les transactions du registre déduit sont validées dans les comptes définis pour le registre déduit dans la page Profils de validation d'immobilisation.
--   L'acquisition est souvent utilisée comme type de transaction pour le registre déduit. Utilisez-le lorsque le registre et le registre des déduit doivent être appliqués à l'immobilisation à partir du moment de l'acquisition de l'immobilisation.
--   D'autres valeurs de type de transaction peuvent également s'appliquer. Par exemple, si le registre principal et les registres déduits ont les mêmes intervalles concernant la vente ou la cession, tous les types de transactions d'immobilisation sont disponibles pour le paramétrage d'un registre déduit.
+-   Certains comptes (de taxe, client ou fournisseur) ne sont mis à jour qu’une seule fois par les validations du registre principal. Les transactions du registre déduit sont validées dans les comptes définis pour le registre déduit dans la page Profils de validation d’immobilisation.
+-   L’acquisition est souvent utilisée comme type de transaction pour le registre déduit. Utilisez-le lorsque le registre et le registre des déduit doivent être appliqués à l’immobilisation à partir du moment de l’acquisition de l’immobilisation.
+-   D’autres valeurs de type de transaction peuvent également s’appliquer. Par exemple, si le registre principal et les registres déduits ont les mêmes intervalles concernant la vente ou la cession, tous les types de transactions d’immobilisation sont disponibles pour le paramétrage d’un registre déduit.
 
 > [!WARNING]
-> Un amortissement validé dans le registre déduit sera du même montant que celui validé pour le registre principal. Si les méthodes d'amortissement des registres diffèrent, vous ne devez pas générer de transactions d'amortissement à l'aide du processus déduit. |
+> Un amortissement validé dans le registre déduit sera du même montant que celui validé pour le registre principal. Si les méthodes d’amortissement des registres diffèrent, vous ne devez pas générer de transactions d’amortissement à l’aide du processus déduit. |
 
 ## <a name="example"></a>Exemple 
-Les informations suivantes décrivent le paramétrage des transactions d'acquisition avec la fonctionnalité de registre déduit.
+Les informations suivantes décrivent le paramétrage des transactions d’acquisition avec la fonctionnalité de registre déduit.
 
 1.  Créez des registres dans la page Registres.
     -   Registre pour la comptabilité : MV 1, couche de validation actuelle
     -   Registre pour les taxes : MV 2, couche de validation des taxes
 
-2.  Sous MV 1, cliquez sur l'onglet Registres dérivés. Sélectionnez MV 2 dans le champ Registre et Acquisition dans le champ Type de transaction.
+2.  Sous MV 1, cliquez sur l’onglet Registres dérivés. Sélectionnez MV 2 dans le champ Registre et Acquisition dans le champ Type de transaction.
 
 Les registres peuvent alors être associés à des immobilisations spécifiques. 
 
-Si une acquisition est validée pour une immobilisation avec le registre MV 1, elle est validée non seulement dans MV 1, mais également dans le registre dérivé MV 2. Le statut des deux registres d'immobilisation est mis à jour sur Ouvert.
+Si une acquisition est validée pour une immobilisation avec le registre MV 1, elle est validée non seulement dans MV 1, mais également dans le registre dérivé MV 2. Le statut des deux registres d’immobilisation est mis à jour sur Ouvert.
 
 > [!NOTE]                                                                                                         
-> Si vous n'utilisez pas de registre déduit, vous devez valider l'acquisition de l'immobilisation tant pour le registre MV 1 que pour le registre MV 2.
+> Si vous n’utilisez pas de registre déduit, vous devez valider l’acquisition de l’immobilisation tant pour le registre MV 1 que pour le registre MV 2.
 
-Pour plus d'informations, voir [Registres dérivés](derived-books.md).
+Pour plus d’informations, voir [Registres dérivés](derived-books.md).
 
 
 

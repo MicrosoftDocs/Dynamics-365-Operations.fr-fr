@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b3e18eac934eb109e8f3f509b2bd78f76dd5f74d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980912"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443175"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul Montant entier et Intervalle pour les codes taxe
 
@@ -31,18 +31,18 @@ ms.locfileid: "3980912"
 
 Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
 
-Vous pouvez paramétrer un code taxe à calculer en fonction d'un montant entier ou d'un intervalle. Dans la page Codes taxe, utilisez le champ Mode de calcul de l'organisateur Calcul pour sélectionner le mode de calcul du code taxe.
+Vous pouvez paramétrer un code taxe à calculer en fonction d’un montant entier ou d’un intervalle. Dans la page Codes taxe, utilisez le champ Mode de calcul de l’organisateur Calcul pour sélectionner le mode de calcul du code taxe.
 - Montant entier – Le taux de taxe est appliqué au montant imposable entier.
-- Intervalle – Le montant imposable est divisé en plusieurs parts s'inscrivant chacune dans une plage associée à un taux de taxe spécifique. La part du montant s'inscrivant dans un intervalle donné est taxée au taux correspondant. La taxe est égale à la somme des montants de taxe calculés pour chaque intervalle.
+- Intervalle – Le montant imposable est divisé en plusieurs parts s’inscrivant chacune dans une plage associée à un taux de taxe spécifique. La part du montant s’inscrivant dans un intervalle donné est taxée au taux correspondant. La taxe est égale à la somme des montants de taxe calculés pour chaque intervalle.
   > [!NOTE]                                                                                                                              
-  > L'option Intervalle est disponible uniquement si vous sélectionnez Ligne dans le champ Mode de calcul de la zone Taxe de la page Paramètres de comptabilité. 
+  > L’option Intervalle est disponible uniquement si vous sélectionnez Ligne dans le champ Mode de calcul de la zone Taxe de la page Paramètres de comptabilité. 
 
 Les intervalles sont paramétrés dans la page Valeurs de code taxe en entrant les montants limites minimal et maximal par taux de taxe. Pour que les taxes soient calculées sur tous les montants imposables (quelle que soit la méthode de calcul sélectionnée), les intervalles doivent être conformes aux règles suivantes :
 -   La limite minimale du premier intervalle doit être de zéro.
--   La limite maximale du dernier intervalle doit être de zéro, valeur correspondant à l'infini.
--   La limite maximale d'un intervalle doit également être la limite minimale de l'intervalle suivant.
+-   La limite maximale du dernier intervalle doit être de zéro, valeur correspondant à l’infini.
+-   La limite maximale d’un intervalle doit également être la limite minimale de l’intervalle suivant.
 
-Si un montant est égal à la limite maximale de l'intervalle précédent et à la limite minimale de l'intervalle suivant, le taux de taxe du premier intervalle s'applique. Si un montant ne s'inscrit dans aucun des intervalles définis par les limites supérieure et inférieure, un taux de taxe nul est appliqué.
+Si un montant est égal à la limite maximale de l’intervalle précédent et à la limite minimale de l’intervalle suivant, le taux de taxe du premier intervalle s’applique. Si un montant ne s’inscrit dans aucun des intervalles définis par les limites supérieure et inférieure, un taux de taxe nul est appliqué.
 
 ## <a name="example-whole-amount-method-of-calculation"></a>Exemple : mode de calcul Montant entier
 Dans la page Valeurs de code taxe, les taux de taxe sont paramétrés dans les intervalles suivants :
@@ -84,7 +84,7 @@ La taxe est égale à la somme des montants de taxe calculés pour chaque interv
 
 
 
-Pour plus d'informations, voir [Taux de taxe en fonction des champs Base marginale et Modes de calcul](marginal-base-field.md).
+Pour plus d’informations, voir [Taux de taxe en fonction des champs Base marginale et Modes de calcul](marginal-base-field.md).
 
 
 

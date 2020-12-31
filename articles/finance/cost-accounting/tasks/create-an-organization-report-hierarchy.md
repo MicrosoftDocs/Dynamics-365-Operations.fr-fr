@@ -1,6 +1,6 @@
 ---
-title: Créer une hiérarchie d'états d'organisation
-description: Utilisez cette procédure pour créer une hiérarchie d'état pour la génération d'états d'organisation.
+title: Créer une hiérarchie d’états d’organisation
+description: Utilisez cette procédure pour créer une hiérarchie d’état pour la génération d’états d’organisation.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
@@ -16,17 +16,17 @@ ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 57203a7ddbacd631cbf800fb3a98e35a485cb74f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976257"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443319"
 ---
-# <a name="create-an-organization-report-hierarchy"></a>Créer une hiérarchie d'états d'organisation
+# <a name="create-an-organization-report-hierarchy"></a>Créer une hiérarchie d’états d’organisation
 
 [!include [banner](../../includes/banner.md)]
 
-Utilisez cette procédure pour créer une hiérarchie d'état pour la génération d'états d'organisation. Cet enregistrement a pour but de vous guider dans la hiérarchie de dimension afin que vous puissiez continuer jusqu'à ce que la structure de génération d'états d'organisation soit créée. Cet enregistrement utilise la société fictive USP2.
+Utilisez cette procédure pour créer une hiérarchie d’état pour la génération d’états d’organisation. Cet enregistrement a pour but de vous guider dans la hiérarchie de dimension afin que vous puissiez continuer jusqu’à ce que la structure de génération d’états d’organisation soit créée. Cet enregistrement utilise la société fictive USP2.
 
 1. Accédez à Contrôle de gestion > Dimensions > Hiérarchies des dimensions.
 2. Cliquez sur Nouveau.
@@ -52,7 +52,7 @@ Utilisez cette procédure pour créer une hiérarchie d'état pour la générati
 20. Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 21. Cliquez sur Enregistrer.
-22. Dans l'arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du PDG.
+22. Dans l’arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du PDG.
 23. Cliquez sur Nouveau.
 24. Dans le champ Nom du nœud, entrez « Région ouest ».
 25. Cliquez sur Enregistrer.
@@ -61,7 +61,7 @@ Utilisez cette procédure pour créer une hiérarchie d'état pour la générati
 28. Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 29. Cliquez sur Enregistrer.
-30. Dans l'arborescence, sélectionnez « Organisation USP2\PDG ».
+30. Dans l’arborescence, sélectionnez « Organisation USP2\PDG ».
 31. Cliquez sur Nouveau.
 32. Dans le champ Nom du nœud, tapez « Centres de coût du directeur financier ».
 33. Cliquez sur Enregistrer.
@@ -74,7 +74,7 @@ Utilisez cette procédure pour créer une hiérarchie d'état pour la générati
 40. Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 41. Cliquez sur Enregistrer.
-42. Dans l'arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du directeur financier ».
+42. Dans l’arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du directeur financier ».
 43. Cliquez sur Nouveau.
 44. Dans le champ Nom du nœud, tapez « Salons commerciaux ».
 45. Cliquez sur Enregistrer.
@@ -83,11 +83,11 @@ Utilisez cette procédure pour créer une hiérarchie d'état pour la générati
 48. Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 49. Cliquez sur Enregistrer.
-50. Dans l'arborescence, sélectionnez « Organisation USP2\PDG ».
+50. Dans l’arborescence, sélectionnez « Organisation USP2\PDG ».
 51. Dans le champ Nom du nœud, tapez « Centres de coût du directeur informatique ».
 52. Cliquez sur Enregistrer.
 53. Cliquez sur Nouveau.
-54. Dans le champ Nom du nœud, tapez « Centres d'appel ».
+54. Dans le champ Nom du nœud, tapez « Centres d’appel ».
 55. Cliquez sur Enregistrer.
 56. Cliquez sur Nouveau.
 57. Dans la liste, marquez la ligne sélectionnée.

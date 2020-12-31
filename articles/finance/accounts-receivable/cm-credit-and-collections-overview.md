@@ -1,5 +1,5 @@
 ---
-title: Vue d'esemble des crédits et relances
+title: Vue d’esemble des crédits et relances
 description: Cette rubrique fournit un aperçu des fonctionnalités des crédits et des relances.
 author: mikefalkner
 manager: AnnBe
@@ -16,48 +16,48 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 67e0b3d1058e5fc085f51577ccf0b79e51546de0
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976593"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443140"
 ---
-# <a name="credit-and-collections-overview"></a>Vue d'esemble des crédits et relances
+# <a name="credit-and-collections-overview"></a>Vue d’esemble des crédits et relances
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez gérer les limites de crédit pour vos clients et effectuer des activités de collecte lorsqu'elles deviennent nécessaires.
+Vous pouvez gérer les limites de crédit pour vos clients et effectuer des activités de collecte lorsqu’elles deviennent nécessaires.
 
 ## <a name="credit-management"></a>Gestion du crédit
 
 La gestion du crédit client vous permet de gérer les limites de crédit et de contrôler le flux des commandes client via le processus de validation en fonction des règles de crédit que vous créez.
 
-Le processus de gestion des crédits peut inclure n'importe laquelle des étapes suivantes :
+Le processus de gestion des crédits peut inclure n’importe laquelle des étapes suivantes :
 
 - Mettre à jour des attributs de crédit pour des clients afin de fournir des informations supplémentaires sur leur solvabilité.
-- Créer des limites de crédit pour les clients à l'aide d'ajustements de limite de crédit.
-- Créer des limites de crédit temporaires pour les clients à l'aide d'ajustements de limite de crédit. De cette façon, vous pouvez augmenter ou diminuer temporairement les limites de crédit client, en fonction des besoins de l'entreprise.
+- Créer des limites de crédit pour les clients à l’aide d’ajustements de limite de crédit.
+- Créer des limites de crédit temporaires pour les clients à l’aide d’ajustements de limite de crédit. De cette façon, vous pouvez augmenter ou diminuer temporairement les limites de crédit client, en fonction des besoins de l’entreprise.
 - Ajouter des informations qui peuvent affecter la limite de crédit, telles que des informations sur les assurances et les garanties.
-- Créer des groupes de crédit client qui relient les clients afin qu'ils puissent partager une seule limite de crédit.
+- Créer des groupes de crédit client qui relient les clients afin qu’ils puissent partager une seule limite de crédit.
 - Attribuer des scores de risque aux clients, puis utiliser les scores pour générer automatiquement des limites de crédit pour ces clients via des ajustements de limite de crédit.
 - Créer des règles de blocage qui mettent une commande en attente pendant un ou plusieurs processus de validation en fonction de facteurs tels que le risque, les modalités de paiement, les limites de crédit, les montants en souffrance et le pourcentage de la limite de crédit utilisée.
 - Gérer une liste des commandes client en attente, examiner les motifs de la suspension et atténuer les problèmes.
-- Libérer des commandes client afin qu'elle poursuivent le processus de validation.
-- Paramétrer un workflow pour gérer l'approbation des modifications de limites de crédit et des validations de commandes client.
+- Libérer des commandes client afin qu’elle poursuivent le processus de validation.
+- Paramétrer un workflow pour gérer l’approbation des modifications de limites de crédit et des validations de commandes client.
 
 ## <a name="collections-management"></a>Gestion des recouvrements
 
-La page **Recouvrements** fournit une vue centralisée de l'emplacement où sont gérées les informations de recouvrements des comptes clients. Les directeurs des recouvrements peuvent utiliser cette vue centralisée pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l'aide de critères de recouvrement prédéfinis, soit à partir de la page **Clients**.
+La page **Recouvrements** fournit une vue centralisée de l’emplacement où sont gérées les informations de recouvrements des comptes clients. Les directeurs des recouvrements peuvent utiliser cette vue centralisée pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l’aide de critères de recouvrement prédéfinis, soit à partir de la page **Clients**.
 
 Avant de commencer à paramétrer ou utiliser des recouvrements, vous devez comprendre les concepts suivants :
 
 - Les instantanés de balance âgée des clients contiennent des informations sur les balances âgées à un moment donné.
 - Les regroupements de clients de recouvrement vous aident à organiser votre travail.
 - Les agents de recouvrement peuvent avoir leurs propres regroupements de clients.
-- Les pages de liste permettent d'organiser les clients, les activités et les demandes de devis de recouvrement.
-- Toutes les informations de recouvrement d'un client sont indiquées sur une seule page qui vous permet d'effectuer diverses opérations.
+- Les pages de liste permettent d’organiser les clients, les activités et les demandes de devis de recouvrement.
+- Toutes les informations de recouvrement d’un client sont indiquées sur une seule page qui vous permet d’effectuer diverses opérations.
 - Les intérêts et commissions peuvent être exonérés, rétablis ou contrepassés en une seule étape.
-- Des transactions d'annulation peuvent être créées en une seule étape.
+- Des transactions d’annulation peuvent être créées en une seule étape.
 - Les paiements de fonds insuffisants peuvent être traités en une seule étape.
 
 Pour une description de ces concepts, voir [Concepts clés de la gestion des recouvrements](./cm-collections-concepts.md).
@@ -68,7 +68,7 @@ Pour une description de ces concepts, voir [Concepts clés de la gestion des rec
 
 [Informations sur le paramétrage de la gestion du crédit client](./cm-setup-information.md)
 
-[Ajout d'informations sur la gestion du crédit pour un client](./cm-add-credit-mgmt-information-customer.md)
+[Ajout d’informations sur la gestion du crédit pour un client](./cm-add-credit-mgmt-information-customer.md)
 
 [Groupes de créditer du client](./cm-customer-credit-groups.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Importer la configuration du débit direct ISO20022
-description: Cette procédure montre comment importer une configuration de génération d'états électroniques pour un paiement client.
+description: Cette procédure montre comment importer une configuration de génération d’états électroniques pour un paiement client.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,35 +17,35 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e5d4256b155d3e06d63e425fab63b4025ef2577f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140016"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443216"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Importer la configuration du débit direct ISO20022
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure montre comment importer une configuration de génération d'états électroniques pour un paiement client. Cette procédure utilise le format de débit direct ISO 20022 comme exemple. 
+Cette procédure montre comment importer une configuration de génération d’états électroniques pour un paiement client. Cette procédure utilise le format de débit direct ISO 20022 comme exemple. 
 
 
 
-Cette procédure a été créée à l'aide de la société fictive DEMF, mais vous pouvez utiliser n'importe quelle société fictive à cet effet.
+Cette procédure a été créée à l’aide de la société fictive DEMF, mais vous pouvez utiliser n’importe quelle société fictive à cet effet.
 
 
 
-Il s'agit de la première des cinq procédures illustrant le processus de paiement client à l'aide des configurations de génération d'états électroniques.
+Il s’agit de la première des cinq procédures illustrant le processus de paiement client à l’aide des configurations de génération d’états électroniques.
 
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
+1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
 2. Dans la liste des fournisseurs de configuration disponibles, sélectionnez Microsoft.
 3. Cliquez sur Activer.
 4. Cliquez sur Référentiels.
 5. Cliquez sur Ouvrir.
 6. Cliquez sur Afficher les filtres.
-7. Appliquez les filtres suivants : entrez la valeur de filtre « Débit direct ISO20022 (Allemagne) » dans le champ « Nom de la configuration » à l'aide de l'opérateur de filtre « commence par ».
+7. Appliquez les filtres suivants : entrez la valeur de filtre « Débit direct ISO20022 (Allemagne) » dans le champ « Nom de la configuration » à l’aide de l’opérateur de filtre « commence par ».
     * Vous pouvez éventuellement rechercher la configuration dans la liste, la sélectionner et ignorer cette étape.  
 8. Cliquez sur Importer.
-    * Si le bouton Importer n'est pas disponible, cela signifie que la configuration a déjà été importée.  
+    * Si le bouton Importer n’est pas disponible, cela signifie que la configuration a déjà été importée.  
 9. Cliquez sur Oui.
 
