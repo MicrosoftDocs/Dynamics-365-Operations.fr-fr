@@ -1,6 +1,6 @@
 ---
 title: Rapport financier du relevé des revenus
-description: Cet article décrit l'état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état.
+description: Cet article décrit l’état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,25 +18,25 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6322001ea8ccbd2e06e15dc6bc8c273608de895b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 429283865c66ca5f03608e4a02c3aba5bb5ea7e3
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771774"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645575"
 ---
 # <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit l'état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
+Cet article décrit l’état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état. 
 
 <a name="default-income-statement-report"></a>Rapport par défaut du relevé des revenus
 -------------------------------
 
 | État par défaut             | Fonction                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| Relevé des revenus – Par défaut. | Permet d'afficher la rentabilité de l'organisation pour la période en cours ainsi que pour l'année en cours. |
+| Relevé des revenus – Par défaut. | Permet d’afficher la rentabilité de l’organisation pour la période en cours ainsi que pour l’année en cours. |
 
 ## <a name="building-blocks"></a>Blocs élémentaires
 Le rapport financier du relevé des revenus utilise les blocs élémentaires suivants.
@@ -47,27 +47,27 @@ Le rapport financier du relevé des revenus utilise les blocs élémentaires sui
 
 ### <a name="row-definition"></a>Définition de ligne
 
-La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d'un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d'établir cette définition de ligne. Par conséquent, n'importe qui peut générer le rapport sans avoir à apporter de modifications.
+La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d’un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d’établir cette définition de ligne. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications.
 
 ### <a name="column-definition"></a>Définition de colonne
 
-Les définitions de colonne contiennent différents types de colonnes afin d'offrir différents niveaux de détails et de données financières.
+Les définitions de colonne contiennent différents types de colonnes afin d’offrir différents niveaux de détails et de données financières.
 
 -   **Périodique et Année en cours – Types de colonne par défaut :**
     -   **DESC** : Description de la définition de ligne.
     -   **DF** – Données financières pour la période en cours
-    -   **DF** – Données financières pour l'année en cours
+    -   **DF** – Données financières pour l’année en cours
 
 
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble des états financiers](financial-reporting-getting-started.md)
+[Vue d’ensemble des états financiers](financial-reporting-getting-started.md)
 
 [Afficher les états financiers](view-financial-reports.md)
 
-[États financiers Dynamics (blog)](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[États financiers Dynamics (blog)](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
 
 
 

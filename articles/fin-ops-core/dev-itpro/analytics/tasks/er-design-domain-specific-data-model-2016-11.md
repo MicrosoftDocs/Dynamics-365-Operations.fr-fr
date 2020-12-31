@@ -1,6 +1,6 @@
 ---
 title: ER Concevoir un modèle de données spécifiques au domaine
-description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique.
+description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,29 +11,28 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2b93f74a121de4c23eb5dddfb94c6596b78544d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142660"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681947"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Concevoir un modèle de données spécifiques au domaine
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique. Ce modèle de données sera utilisé ultérieurement comme source de données quand vous créerez le format des documents de paiement.
+Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique. Ce modèle de données sera utilisé ultérieurement comme source de données quand vous créerez le format des documents de paiement.
 
-Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n'importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».
+Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans n’importe quelle société car les configurations ER sont partagées entre les sociétés. Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».
 
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
+1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
 
-    Sélectionnez le fournisseur de configuration pour la société fictive, « Litware, Inc ». Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».  
+    Sélectionnez le fournisseur de configuration pour la société fictive, « Litware, Inc ». Si vous ne voyez pas ce fournisseur de configuration, vous devez d’abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».  
     
 2. Cliquez sur Configurations des états.
 
@@ -44,7 +43,7 @@ Dans cet exemple, vous allez créer une configuration pour la société témoin,
 2. Tapez « Paiements (modèle simplifié) » dans le champ Nom.
 3. Tapez « Configuration du modèle de paiement » dans le champ Description.
 
-    Le fournisseur de configuration actif est automatiquement entré ici. Ce fournisseur pourra mettre à jour cette configuration. D'autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.  
+    Le fournisseur de configuration actif est automatiquement entré ici. Ce fournisseur pourra mettre à jour cette configuration. D’autres fournisseurs peuvent utiliser cette configuration, mais ne peuvent pas la mettre à jour.  
 
 4. Cliquez sur le bouton « Créer la configuration » pour terminer la tâche de création de la configuration.
 
@@ -52,13 +51,13 @@ Dans cet exemple, vous allez créer une configuration pour la société témoin,
 Vous créez un modèle de données pour la configuration sélectionnée. Cette version de configuration aura un statut de brouillon.  
 1. Cliquez sur Concepteur.
 
-## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>Définir la structure d'une partie qui participe à un processus de paiement
+## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>Définir la structure d’une partie qui participe à un processus de paiement
 1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 2. Dans le champ Nom, tapez « Partie ».
 3. Cliquez sur Ajouter.
 4. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 5. Tapez « Nom » dans le champ Nom.
-6. Sélectionnez « Chaîne » dans le champ Type d'article.
+6. Sélectionnez « Chaîne » dans le champ Type d’article.
 7. Cliquez sur Ajouter.
 8. Dans le champ Rechercher, tapez « Partie ».
 9. Cliquez sur Précédent
@@ -66,38 +65,38 @@ Vous créez un modèle de données pour la configuration sélectionnée. Cette v
 ## <a name="define-the-bank-structure-for-this-model"></a>Définir la structure de la banque pour ce modèle
 1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 2. Tapez « Agent » dans le champ Nom.
-3. Sélectionnez « Enregistrement » dans le champ Type d'article.
+3. Sélectionnez « Enregistrement » dans le champ Type d’article.
 4. Cliquez sur Ajouter.
-5. Dans le champ Description, entrez « Institution financière (une banque, par exemple) chargée d'un compte de la partie (débiteur/créditeur) ».
+5. Dans le champ Description, entrez « Institution financière (une banque, par exemple) chargée d’un compte de la partie (débiteur/créditeur) ».
 
-    Institution financière (une banque, par exemple) chargée d'un compte de la partie (débiteur/créditeur).  
+    Institution financière (une banque, par exemple) chargée d’un compte de la partie (débiteur/créditeur).  
 
 6. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 7. Tapez « Nom » dans le champ Nom. 
-8. Sélectionnez « Chaîne » dans le champ Type d'article.
+8. Sélectionnez « Chaîne » dans le champ Type d’article.
 9. Cliquez sur Ajouter.
 10. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 11. Tapez SWIFT dans le champ Nom.
 12. Cliquez sur Ajouter.
-13. Dans le champ Description, entrez « Code d'identification de la banque ». 
+13. Dans le champ Description, entrez « Code d’identification de la banque ». 
 14. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 15. Tapez « RoutingNumber » dans le champ Nom.
 16. Cliquez sur Ajouter.
-17. Dans le champ Description, entrez « Numéro d'acheminement ».
+17. Dans le champ Description, entrez « Numéro d’acheminement ».
 18. Cliquez sur Précédent
 
 ## <a name="define-the-bank-account-structure-for-this-model"></a>Définir la structure de compte de la banque pour ce modèle
 1. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 2. Tapez « Compte » dans le champ Nom. 
-3. Sélectionnez « Enregistrement » dans le champ Type d'article.
+3. Sélectionnez « Enregistrement » dans le champ Type d’article.
 4. Cliquez sur Ajouter.
-5. Dans le champ Description, entrez « Identification d'un compte d'une partie dans une institution financière (une banque, par exemple) ».
+5. Dans le champ Description, entrez « Identification d’un compte d’une partie dans une institution financière (une banque, par exemple) ».
 
-    Identification d'un compte d'une partie dans une institution financière (une banque, par exemple).  
+    Identification d’un compte d’une partie dans une institution financière (une banque, par exemple).  
 
 6. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 7. Tapez « Devise » dans le champ Nom. 
-8. Sélectionnez « Chaîne » dans le champ Type d'article.
+8. Sélectionnez « Chaîne » dans le champ Type d’article.
 9. Cliquez sur Ajouter.
 10. Dans le champ Description, entrez « Code devise ».
 11. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
@@ -118,13 +117,13 @@ Vous créez un modèle de données pour la configuration sélectionnée. Cette v
 7. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 8. Tapez « MessageIdentification » dans le champ Nom. 
 9. Cliquez sur Ajouter.
-10. Dans le champ Description, entrez « Référence point à point affectée par le donneur d'ordre (et envoyée à la partie suivante) afin d'identifier le message ».
+10. Dans le champ Description, entrez « Référence point à point affectée par le donneur d’ordre (et envoyée à la partie suivante) afin d’identifier le message ».
 
-    Référence point à point affectée par le donneur d'ordre et envoyée à la partie suivante dans la chaîne afin d'identifier le message.  
+    Référence point à point affectée par le donneur d’ordre et envoyée à la partie suivante dans la chaîne afin d’identifier le message.  
 
 11. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 12. Tapez « ProcessingDateTime » dans le champ Nom.
-13. Sélectionnez « DateTime » dans le champ Type d'article.
+13. Sélectionnez « DateTime » dans le champ Type d’article.
 14. Cliquez sur Ajouter.
 15. Dans le champ Description, entrez « Date et heure de création du message de paiement ». 
 16. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
@@ -132,15 +131,15 @@ Vous créez un modèle de données pour la configuration sélectionnée. Cette v
     Définir la structure de transaction de paiement pour ce modèle.  
 
 17. Tapez « Paiements » dans le champ Nom.
-18. Sélectionnez « Liste d'enregistrements » dans le champ Type d'article.
+18. Sélectionnez « Liste d’enregistrements » dans le champ Type d’article.
 19. Cliquez sur Ajouter.
 20. Dans le champ Description, entrez « Lignes de paiement du message actuel ».
 21. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 22. Tapez « Créancier » dans le champ Nom. 
-23. Sélectionnez « Enregistrement » dans le champ Type d'article.
+23. Sélectionnez « Enregistrement » dans le champ Type d’article.
 24. Cliquez sur Ajouter.
 25. Dans le champ Description, entrez « Partie à laquelle un montant est dû ». 
-26. Cliquez sur Basculer la référence d'élément.
+26. Cliquez sur Basculer la référence d’élément.
 27. Dans le champ Rechercher, tapez « Partie ».
 28. Cliquez sur Suivant
 29. Cliquez sur OK.
@@ -149,15 +148,15 @@ Vous créez un modèle de données pour la configuration sélectionnée. Cette v
 32. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 33. Tapez « Débiteur » dans le champ Nom. 
 34. Cliquez sur Ajouter.
-35. Dans le champ Description, entrez « Partie qui doit une somme d'argent au créancier (final) ».
-36. Cliquez sur Basculer la référence d'élément.
+35. Dans le champ Description, entrez « Partie qui doit une somme d’argent au créancier (final) ».
+36. Cliquez sur Basculer la référence d’élément.
 37. Dans le champ Rechercher, tapez « Partie ».
 38. Cliquez sur Suivant
 39. Cliquez sur OK.
 40. Cliquez sur Suivant
 41. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 42. Tapez « Description » dans le champ Nom.
-43. Sélectionnez « Chaîne » dans le champ Type d'article.
+43. Sélectionnez « Chaîne » dans le champ Type d’article.
 44. Cliquez sur Ajouter.
 45. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 46. Tapez « Devise » dans le champ Nom.
@@ -165,25 +164,25 @@ Vous créez un modèle de données pour la configuration sélectionnée. Cette v
 48. Dans le champ Description, entrez « Code devise ».
 49. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 50. Tapez « TransactionDate » dans le champ Nom. 
-51. Sélectionnez « Date » dans le champ Type d'article.
+51. Sélectionnez « Date » dans le champ Type d’article.
 52. Cliquez sur Ajouter.
 53. Dans le champ Description, entrez « Date de transaction ». 
 54. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 55. Tapez « InstructedAmount » dans le champ Nom.  
-56. Sélectionnez « Réel » dans le champ Type d'article.
+56. Sélectionnez « Réel » dans le champ Type d’article.
 57. Cliquez sur Ajouter.
-58. Dans le champ Description, entrez « Montant à transférer entre le débiteur et le créancier, avant déduction des frais. Le montant doit être exprimé dans la devise choisie par la partie qui prend l'initiative.
+58. Dans le champ Description, entrez « Montant à transférer entre le débiteur et le créancier, avant déduction des frais. Le montant doit être exprimé dans la devise choisie par la partie qui prend l’initiative.
 
-    Montant à transférer entre le débiteur et le créancier, avant déduction des frais. Le montant doit être exprimé dans la devise choisie par la partie qui prend l'initiative.  
+    Montant à transférer entre le débiteur et le créancier, avant déduction des frais. Le montant doit être exprimé dans la devise choisie par la partie qui prend l’initiative.  
 
 59. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 60. Tapez « End2EndID » dans le champ Nom. 
-61. Sélectionnez « Chaîne » dans le champ Type d'article.
+61. Sélectionnez « Chaîne » dans le champ Type d’article.
 62. Cliquez sur Ajouter.
-63. Dans le champ Description, entrez « Identification unique affectée par la partie qui prend l'initiative. Cette identification est transmise telle quelle tout au long de la chaîne de bout en bout. » 
+63. Dans le champ Description, entrez « Identification unique affectée par la partie qui prend l’initiative. Cette identification est transmise telle quelle tout au long de la chaîne de bout en bout. » 
 64. Tapez « PaymentModel » dans le champ Nom.
 
-    Le nom PaymentModel s'aligne avec les interfaces prédéfinies des écrans de paiement.  
+    Le nom PaymentModel s’aligne avec les interfaces prédéfinies des écrans de paiement.  
 
 65. Cliquez sur Enregistrer.
 66. Fermez la page.

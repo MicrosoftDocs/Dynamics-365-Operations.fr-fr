@@ -1,6 +1,6 @@
 ---
-title: ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format
-description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut utiliser une nouvelle configuration de format pour la génération d'états électronique (ER) pour générer des documents électroniques pour traiter les paiements.
+title: ER Générer les documents électroniques pour les paiements à l’aide d’une configuration de format
+description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut utiliser une nouvelle configuration de format pour la génération d’états électronique (ER) pour générer des documents électroniques pour traiter les paiements.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa39a9d459022e391f99e284d41d82215cc10e2b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142568"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681731"
 ---
-# <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Générer les documents électroniques pour les paiements à l'aide d'une configuration de format
+# <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Générer les documents électroniques pour les paiements à l’aide d’une configuration de format
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut utiliser une nouvelle configuration de format pour la génération d'états électronique (ER) pour générer des documents électroniques pour traiter les paiements. Ces étapes peuvent être effectuées dans la société fictive GBSI.
+Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut utiliser une nouvelle configuration de format pour la génération d’états électronique (ER) pour générer des documents électroniques pour traiter les paiements. Ces étapes peuvent être effectuées dans la société fictive GBSI.
 
 Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer une configuration avec le format du document de paiement ».
 
@@ -37,8 +36,8 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 2. Basculez la section de format de fichier pour la développer, si nécessaire.
 3. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez le champ Mode de paiement avec une valeur « Électronique ».
 4. Cliquez sur Modifier.
-5. Définissez le champ de génération d'états électroniques génériques sur Oui.
-    * Sélectionnez Oui pour utiliser le modèle de génération d'états électroniques génériques pour la génération des fichiers de paiement.  
+5. Définissez le champ de génération d’états électroniques génériques sur Oui.
+    * Sélectionnez Oui pour utiliser le modèle de génération d’états électroniques génériques pour la génération des fichiers de paiement.  
 6. Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 7. Sélectionnez la configuration de format BACS (nom fictif britannique).
 8. Cliquez sur Enregistrer.
@@ -61,15 +60,15 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
     * Paiement  
 11. Entrez un nombre dans le champ Débit.
     * 1 000  
-12. Cliquez sur l'onglet Paiement.
+12. Cliquez sur l’onglet Paiement.
 13. Dans le champ Mode de paiement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-14. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+14. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez la valeur électronique.  
 15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 16. Cliquez sur Enregistrer.
 17. Cliquez sur Générer les paiements.
 18. Dans le champ Mode de paiement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-19. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+19. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez la valeur électronique.  
 20. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Sélectionnez la valeur électronique.  

@@ -1,6 +1,6 @@
 ---
-title: Concept de société dans Common Data Service
-description: Cette rubrique décrit l’intégration des données de société entre Finance and Operations et Common Data Service.
+title: Concept de société dans Dataverse
+description: Cette rubrique décrit l’intégration des données de société entre Finance and Operations et Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 08/04/2020
@@ -18,85 +18,87 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 2f0e3950f2b35dd8b8dbf50601b7d6b6d624863e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997524"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683673"
 ---
-# <a name="company-concept-in-common-data-service"></a>Concept de société dans Common Data Service
+# <a name="company-concept-in-dataverse"></a>Concept de société dans Dataverse
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 Dans Finance and Operations, le concept d’une *société* est à la fois juridique et commercial. C’est également une limite de sécurité et de visibilité pour les données. Les utilisateurs travaillent toujours dans le contexte d’une seule société, et la plupart des données sont agrégées par bandes par la société.
 
-Common Data Service n’a pas de concept équivalent. Le concept le plus proche celui d’ *unité commerciale* , qui est principalement une limite de sécurité et de visibilité pour les données utilisateur. Ce concept n’a pas les mêmes implications juridiques ou commerciales que celui de société.
+Dataverse n’a pas de concept équivalent. Le concept le plus proche celui d’*unité commerciale*, qui est principalement une limite de sécurité et de visibilité pour les données utilisateur. Ce concept n’a pas les mêmes implications juridiques ou commerciales que celui de société.
 
-Comme les unités commerciales et la société ne sont pas des concepts équivalents, il est impossible de forcer une mise en correspondance un à un (1:1) entre elles dans le cadre de l’intégration de Common Data Service. Toutefois, comme les utilisateurs doivent, par défaut, être autorisés à consulter les mêmes enregistrements dans l’application et Common Data Service, Microsoft a introduit une entité dans Common Data Service nommée cdm\_Company. Cette entité est équivalente à l’entité Société dans l’application. Pour garantir que la visibilité des enregistrements est équivalente entre l’application et Common Data Service de manière prédéfinie, il est recommandé d’effectuer le paramétrage suivant pour les données dans Common Data Service:
+Comme les unités commerciales et la société ne sont pas des concepts équivalents, il est impossible de forcer une mise en correspondance un à un (1:1) entre elles dans le cadre de l’intégration de Dataverse. Toutefois, comme les utilisateurs doivent, par défaut, être autorisés à consulter les mêmes lignes dans l’application et Dataverse, Microsoft a introduit une entité dans Dataverse nommée cdm\_Company. Cette entité est équivalente à l’entité Société dans l’application. Pour garantir que la visibilité des lignes est équivalente entre l’application et Dataverse de manière prédéfinie, il est recommandé d’effectuer le paramétrage suivant pour les données dans Dataverse:
 
-+ Pour chaque enregistrement de société Finance and Operations activé en double écriture, un enregistrement cdm\_Company associé est créé.
-+ Lorsqu’un enregistrement cdm\_Company est créé et activé pour la double écriture, une unité commerciale par défaut ayant le même nom est créé. Bien qu’une équipe par défaut soit automatiquement créée pour cette unité commerciale, cette dernière n’est pas utilisée.
++ Pour chaque ligne de société Finance and Operations activé en double écriture, une ligne cdm\_Company associé est créée.
++ Lorsqu’une ligne cdm\_Company est créé et activé pour la double écriture, une unité commerciale par défaut ayant le même nom est créé. Bien qu’une équipe par défaut soit automatiquement créée pour cette unité commerciale, cette dernière n’est pas utilisée.
 + Une équipe avec un propriétaire distincte est créée avec le même nom. Elle est également associée à l’unité commerciale.
-+ Par défaut, le propriétaire de tout enregistrement créé et doublement écrit dans Common Data Service est défini sur l’équipe « Propriétaire de DW » liée à l’unité commerciale associée.
++ Par défaut, le propriétaire de toute ligne créée et doublement écrite dans Dataverse est défini sur l’équipe « Propriétaire de DW » liée à l’unité commerciale associée.
 
-L’illustration suivante montre un exemple de ce paramétrage de données dans Common Data Service.
+L’illustration suivante montre un exemple de ce paramétrage de données dans Dataverse.
 
-![Paramétrage des données dans Common Data Service](media/dual-write-company-1.png)
+![Paramétrage des données dans Dataverse](media/dual-write-company-1.png)
 
-En raison de cette configuration, tous les enregistrements liés à la société USMF sont détenu par une équipe liée à l’unité commerciale USMF dans Common Data Service. Par conséquent, tout utilisateur ayant accès à cette unité commerciale via un rôle de sécurité défini sur la visibilité au niveau de l’unité commerciale peut à présent voir ces enregistrements. L’exemple suivant montre comment les équipes peuvent être utilisées pour fournir un accès correct à ces enregistrements.
+En raison de cette configuration, toutes les lignes liées à la société USMF sont détenu par une équipe liée à l’unité commerciale USMF dans Dataverse. Par conséquent, tout utilisateur ayant accès à cette unité commerciale via un rôle de sécurité défini sur la visibilité au niveau de l’unité commerciale peut à présent voir ces lignes. L’exemple suivant montre comment les équipes peuvent être utilisées pour fournir un accès correct à ces lignes.
 
 + Le rôle « Responsable des ventes » est affecté aux membres de l’équipe « Ventes USMF ».
-+ Les utilisateurs qui disposent du rôle « Responsable des ventes » peuvent accéder à tous les enregistrements de compte membres de la même unité commerciale dont ils sont membres.
++ Les utilisateurs qui disposent du rôle « Responsable des ventes » peuvent accéder à toutes les lignes de compte membres de la même unité commerciale dont ils sont membres.
 + L’équipe « Ventes USMF » est liée à l’unité commerciale USMF mentionnée précédemment.
 + Par conséquent, les membres de l’équipe « Ventes USMF » peuvent voir les comptes qui appartiennent à l’utilisateur « DW USMF », provenant de l’entité Société USMF dans Finance and Operations.
 
 ![Utilisations possibles des équipes](media/dual-write-company-2.png)
 
-Comme le montre l’illustration précédente, cette correspondance 1:1 entre l’unité commerciale, la société et l’équipe est uniquement un point de départ. Dans cet exemple, une unité commerciale « Europe » est créée manuellement dans Common Data Service comme parent de DEMF et d’ESMF. Cette nouvelle unité commerciale racine est indépendante de la double écriture. Toutefois, elle peut être utilisée pour donner membres de l’équipe « Ventes EUR » l’accès aux données du compte dans DEMF et ESMF en définissant la visibilité des données sur **BU parent/enfant** dans le rôle de sécurité associé.
+Comme le montre l’illustration précédente, cette correspondance 1:1 entre l’unité commerciale, la société et l’équipe est uniquement un point de départ. Dans cet exemple, une unité commerciale « Europe » est créée manuellement dans Dataverse comme parent de DEMF et d’ESMF. Cette nouvelle unité commerciale racine est indépendante de la double écriture. Toutefois, elle peut être utilisée pour donner membres de l’équipe « Ventes EUR » l’accès aux données du compte dans DEMF et ESMF en définissant la visibilité des données sur **BU parent/enfant** dans le rôle de sécurité associé.
 
-Une rubrique finale pour expliquer comment la double écriture détermine à quelle l’équipe propriétaire elle doit affecter les enregistrements. Ce comportement est contrôlé par le champ **Équipe propriétaire par défaut** dans l’enregistrement cdm\_Company. Lorsqu’un enregistrement cdm\_Company est activé pour la double écriture, un plug-in crée automatiquement l’unité commerciale et l’équipe propriétaire associées (si elles n’existent pas encore), et définit le champ **Équipe propriétaire par défaut**. L’administrateur peut modifier ce champ avec une valeur différente. Toutefois, l’administrateur ne peut pas désactiver le champ tant que l’entité est activée pour la double écriture.
+Une rubrique finale pour expliquer comment la double écriture détermine à quelle l’équipe propriétaire elle doit affecter les lignes. Ce comportement est contrôlé par le champ **Équipe propriétaire par défaut** dans la ligne cdm\_Company. Lorsqu’une ligne cdm\_Company est activé pour la double écriture, un plug-in crée automatiquement l’unité commerciale et l’équipe propriétaire associées (si elles n’existent pas encore), et définit le champ **Équipe propriétaire par défaut**. L’administrateur peut modifier ce champ avec une valeur différente. Toutefois, l’administrateur ne peut pas désactiver le champ tant que l’entité est activée pour la double écriture.
 
 > [!div class="mx-imgBorder"]
 ![Champ d’équipe propriétaire par défaut](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Agrégation par bande et amorçage de la société
 
-L’intégration de Common Data Service apporte la parité de la société à l’aide d’un identificateur de société pour agréger les données par bande. Comme l’illustration suivante le montre, les entités spécifiques à la société sont développées de sorte qu’elles aient une relation plusieurs à un (N:1) avec l’entité cdm\_Company.
+L’intégration de Dataverse apporte la parité de la société à l’aide d’un identificateur de société pour agréger les données par bande. Comme l’illustration suivante le montre, les tables spécifiques à la société sont développées de sorte qu’elles aient une relation plusieurs à un (N:1) avec l’entité cdm\_Company.
 
 > [!div class="mx-imgBorder"]
 ![Relation plusieurs à un (N:1) entre une entité spécifique à la société et l’entité cdm_Company](media/dual-write-bootstrapping.png)
 
-+ Pour les enregistrements, une fois une société ajoutée et enregistrée, la valeur passe en lecture seule. Par conséquent, les utilisateurs doivent s’assurer de sélectionner la société adéquate.
-+ Seuls les enregistrements ayant des données de la société sont admissibles à la double écriture entre l’application et Common Data Service.
-+ Pour les données Common Data Service existantes, une expérience d’amorçage menée par l’administrateur sera disponible prochainement.
++ Pour les lignes, une fois une société ajoutée et enregistrée, la valeur passe en lecture seule. Par conséquent, les utilisateurs doivent s’assurer de sélectionner la société adéquate.
++ Seules les lignes ayant des données de la société sont admissibles à la double écriture entre l’application et Dataverse.
++ Pour les données Dataverse existantes, une expérience d’amorçage menée par l’administrateur sera disponible prochainement.
 
 
 ## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Renseigner automatiquement le nom de l’entreprise dans les applications Customer Engagement
 
 Il existe plusieurs façons de renseigner automatiquement le nom de l’entreprise dans les applications Customer Engagement.
 
-+ Si vous êtes administrateur système, vous pouvez définir l’entreprise par défaut en accédant à **Paramètres avancés > Système > Sécurité > Utilisateurs**. Ouvrez le formulaire **Utilisateur** , et dans la section **Informations sur l’organisation** , définissez la valeur **Société par défaut sur les formulaires**.
++ Si vous êtes administrateur système, vous pouvez définir l’entreprise par défaut en accédant à **Paramètres avancés > Système > Sécurité > Utilisateurs**. Ouvrez le formulaire **Utilisateur**, et dans la section **Informations sur l’organisation**, définissez la valeur **Société par défaut sur les formulaires**.
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Définissez la société par défaut dans la section Informations sur l’organisation.":::
 
-+ Si vous disposez d’un accès en **Écriture** à l’entité **SystemUser** pour le niveau **Unité commerciale** , vous pouvez modifier la société par défaut sur n’importe quel formulaire en sélectionnant une société dans le menu déroulant **Société**.
++ Si vous disposez d’un accès en **Écriture** à l’entité **SystemUser** pour le niveau **Unité commerciale**, vous pouvez modifier la société par défaut sur n’importe quel formulaire en sélectionnant une société dans le menu déroulant **Société**.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Modifier le nom de l’entreprise sur un nouveau compte.":::
 
-+ Si vous disposez d’un accès en **Écriture** aux données de plusieurs sociétés, vous pouvez alors modifier la société par défaut en choisissant un enregistrement appartenant à une société différente.
++ Si vous disposez d’un accès en **Écriture** aux données de plusieurs sociétés, vous pouvez alors modifier la société par défaut en choisissant une ligne appartenant à une société différente.
 
-    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Choisir un enregistrement modifie la société par défaut.":::
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Choisir une ligne modifie la société par défaut.":::
 
 + Si vous êtes configurateur ou administrateur système et que vous souhaitez renseigner automatiquement les données de l’entreprise sur un formulaire personnalisé, vous pouvez utiliser les [événements de formulaire](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Ajoutez une référence JavaScript à **msdyn_/DefaultCompany.js** et utilisez les événements suivants. Vous pouvez utiliser n’importe quel formulaire prêt à l’emploi, par exemple, **Compte**.
 
     + Événement **OnLoad** pour le formulaire : définissez le champ **defaultCompany**.
-    + Événement **OnCharge** pour le champ **Société**  : définissez le champ **updateDefaultCompany**.
+    + Événement **OnCharge** pour le champ **Société** : définissez le champ **updateDefaultCompany**.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Appliquer le filtrage en fonction du contexte de l’entreprise
 
-Pour appliquer un filtrage basé sur le contexte de l’entreprise sur vos formulaires personnalisés ou sur des champs de recherche personnalisés ajoutés aux formulaires standard, ouvrez le formulaire et utilisez la section **Filtrage des enregistrements associés** pour appliquer le filtre d’entreprise. Vous devez le définir pour chaque champ de recherche qui nécessite un filtrage basé sur la société sous-jacente sur un enregistrement donné. Le paramètre est affiché pour **Compte** dans l’illustration suivante.
+Pour appliquer un filtrage basé sur le contexte de l’entreprise sur vos formulaires personnalisés ou sur des champs de recherche personnalisés ajoutés aux formulaires standard, ouvrez le formulaire et utilisez la section **Filtrage des enregistrements associés** pour appliquer le filtre d’entreprise. Vous devez le définir pour chaque champ de recherche qui nécessite un filtrage basé sur la société sous-jacente sur une ligne donnée. Le paramètre est affiché pour **Compte** dans l’illustration suivante.
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Appliquer le contexte de l’entreprise":::
 

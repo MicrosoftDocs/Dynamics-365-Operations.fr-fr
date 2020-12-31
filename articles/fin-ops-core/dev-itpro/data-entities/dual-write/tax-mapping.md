@@ -1,6 +1,6 @@
 ---
 title: Taxe intégrée
-description: Cette rubrique décrit l'intégration des données de taxe entre les applications Finance and Operations et Common Data Service.
+description: Cette rubrique décrit l’intégration des données de taxe entre les applications Finance and Operations et Dataverse.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,30 +18,32 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997598"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679294"
 ---
 # <a name="integrated-tax"></a>Taxe intégrée
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Les données de paramétrage de la taxe définissent le paramétrage pour les taxes indirectes (TVA, GST, taxe) et la retenue à la source. Elles décrivent la règle de calcul de taxe, le taux de taxe, la comptabilité des taxes, le règlement et d'autres concepts.
+
+Les données de paramétrage de la taxe définissent le paramétrage pour les taxes indirectes (TVA, GST, taxe) et la retenue à la source. Elles décrivent la règle de calcul de taxe, le taux de taxe, la comptabilité des taxes, le règlement et d’autres concepts.
 
 ## <a name="templates"></a>Modèles
 
-Les données de taxe comprennent un ensemble de mappages d'entités qui fonctionnent ensemble pendant l'interaction des données client, comme indiqué dans le tableau suivant.
+Les données de taxe comprennent un ensemble de mappages de tables qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
 Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description |
 -------------------------|---------------------------------|----|
-Groupe de taxe d'article | msdyn_taxitemgroups |
+Groupe de taxe d’article | msdyn_taxitemgroups |
 Administrations fiscales | msdyn_taxauthorities |
-Entité Code d'exonération fiscale pour CDS | msdyn_taxexemptcodes |
+Entité Code d’exonération fiscale pour CDS | msdyn_taxexemptcodes |
 Groupes de taxe | msdyn_taxgroups |
 Groupes de validation dans la comptabilité des taxes V2 | msdyn_taxpostinggroups |
 Codes de retenue à la source | msdyn_withholdingtaxcodes |

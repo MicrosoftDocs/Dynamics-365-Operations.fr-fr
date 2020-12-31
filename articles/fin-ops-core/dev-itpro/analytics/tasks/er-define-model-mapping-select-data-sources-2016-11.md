@@ -1,6 +1,6 @@
 ---
-title: Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux
-description: Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques.
+title: Définir les mises en correspondance de modèles de gestion d’états électroniques et sélectionner des sources de données pour eux
+description: Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d’états électroniques peut sélectionner des sources de données pour un modèle de données de génération d’états électroniques.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142163"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682115"
 ---
-# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Définir les mises en correspondance de modèles de gestion d'états électroniques et sélectionner des sources de données pour eux
+# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Définir les mises en correspondance de modèles de gestion d’états électroniques et sélectionner des sources de données pour eux
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d'états électroniques peut sélectionner des sources de données pour un modèle de données de génération d'états électroniques (ER). Les sources de données seront liées aux composants du modèle de données sélectionné au moment de la création et des données commerciales seront renseignées dans ce modèle de données au moment de l'exécution. Dans cet exemple, vous allez sélectionner des sources de données pour un modèle de données existant qui a été créé pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d'abord accomplir celles de la procédure « Créer un modèle de données ».
+Les étapes suivantes expliquent comment un utilisateur doté du rôle Administrateur système ou Développeur d’états électroniques peut sélectionner des sources de données pour un modèle de données de génération d’états électroniques (ER). Les sources de données seront liées aux composants du modèle de données sélectionné au moment de la création et des données commerciales seront renseignées dans ce modèle de données au moment de l’exécution. Dans cet exemple, vous allez sélectionner des sources de données pour un modèle de données existant qui a été créé pour la société témoin, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord accomplir celles de la procédure « Créer un modèle de données ».
 
 
-## <a name="open-the-electronic-reporting-configurations-tree"></a>Ouvrir l'arborescence des configurations d'états électroniques
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
+## <a name="open-the-electronic-reporting-configurations-tree"></a>Ouvrir l’arborescence des configurations d’états électroniques
+1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
 2. Cliquez sur Configurations des états.
 
 ## <a name="insert-a-new-model-mapping"></a>Insérer une nouvelle mise en correspondance de modèle
-1. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) ».
+1. Dans l’arborescence, sélectionnez « Paiements (modèle simplifié) ».
 2. Cliquez sur Concepteur.
 3. Cliquez sur Mettre en correspondance le modèle à la source de données.
 4. Cliquez sur Nouveau.
@@ -51,7 +50,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Définir des sources de données pour la mise en correspondance de modèle existante
 1. Cliquez sur Concepteur.
-2. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
+2. Dans l’arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 3. Cliquez sur Ajouter racine.
     * Entrez cette source de données pour accéder à des transactions de paiement.  
 4. Dans le champ Nom, tapez « Transactions ».
@@ -66,27 +65,27 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
     * LedgerJournalTrans  
 9. Cliquez sur OK.
     * Sélectionnez la table LedgerJournalTrans comme source de données pour le modèle de données actuel.  
-10. Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».
+10. Dans l’arborescence, sélectionnez « Fonctions\Champ calculé ».
 11. Cliquez sur Ajouter.
     * Cliquez sur Ajouter pour ajouter un champ calculé.  
 12. Dans le champ Nom, tapez « $EndToEndID ».
     * $EndToEndID  
 13. Cliquez sur Modifier la formule.
-14. Dans l'arborescence, sélectionner « String\CONCATENATE ».
+14. Dans l’arborescence, sélectionner « String\CONCATENATE ».
 15. Cliquez sur Ajouter une fonction.
-16. Dans l'arborescence , développer « Transactions ».
-17. Dans l'arborescence, sélectionnez « Transactions\Document ».
+16. Dans l’arborescence , développer « Transactions ».
+17. Dans l’arborescence, sélectionnez « Transactions\Document ».
 18. Cliquez sur Ajouter une source de données.
 19. Dans le champ Formule, entrez « CONCATENATE(Transactions.Voucher, "-", ».
     * Tapez [ , "-", ] à la fin de la formule.  
-20. Dans l'arborescence , sélectionnez « Chaîne\TEXTE ».
+20. Dans l’arborescence , sélectionnez « Chaîne\TEXTE ».
 21. Cliquez sur Ajouter une fonction.
-22. Dans l'arborescence, sélectionnez « Transactions\ID enregistrement (RecId) ».
+22. Dans l’arborescence, sélectionnez « Transactions\ID enregistrement (RecId) ».
 23. Cliquez sur Ajouter une source de données.
 24. Dans le champ Formule, entrez « CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId)) ».
     * Tapez [))] à la fin de la formule.  
 25. Cliquez sur Enregistrer.
-    * Assurez-vous qu'aucune erreur n'a été découverte dans la formule créée. Voir l'onglet ERREURS en dessous du contrôle d'éditeur de formule.  
+    * Assurez-vous qu’aucune erreur n’a été découverte dans la formule créée. Voir l’onglet ERREURS en dessous du contrôle d’éditeur de formule.  
 26. Fermez la page.
 27. Cliquez sur OK.
     * Ajoutez le champ calculé à cette source de données.  
@@ -95,22 +94,22 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 29. Dans le champ Nom, tapez « $Amount ».
     * $Montant  
 30. Cliquez sur Modifier la formule.
-31. Dans l'arborescence , développer « Transactions ».
-32. Dans l'arborescence, sélectionnez « Transactions\Debit(AmountCurDebit) ».
+31. Dans l’arborescence , développer « Transactions ».
+32. Dans l’arborescence, sélectionnez « Transactions\Debit(AmountCurDebit) ».
 33. Cliquez sur Ajouter une source de données.
 34. Dans le champ Formule, entrez « Transactions.AmountCurDebit -  ».
     * Tapez [ - ] à la fin de la formule.  
-35. Dans l'arborescence, sélectionnez « Transactions\Credit(AmountCurCredit) ».
+35. Dans l’arborescence, sélectionnez « Transactions\Credit(AmountCurCredit) ».
 36. Cliquez sur Ajouter une source de données.
 37. Cliquez sur Enregistrer.
 38. Fermez la page.
 39. Cliquez sur OK.
     * Cela ajoutera le champ calculé de $Amount à la source de données sélectionnée pour le modèle de données actuel.  
-40. Dans l'arborescence, sélectionnez « Transactions\$Amount ».
-41. Dans l'arborescence , développer « Transactions ».
-42. Dans l'arborescence, développez ou réduisez « Transactions\$Amount ».
-43. Dans l'arborescence, développez ou réduisez « Transactions ».
-44. Dans l'arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
+40. Dans l’arborescence, sélectionnez « Transactions\$Amount ».
+41. Dans l’arborescence , développer « Transactions ».
+42. Dans l’arborescence, développez ou réduisez « Transactions\$Amount ».
+43. Dans l’arborescence, développez ou réduisez « Transactions ».
+44. Dans l’arborescence, sélectionnez « Dynamics 365 for Operations\Enregistrements de la table ».
 45. Cliquez sur Ajouter racine.
     * Entrez cette source de données pour accéder aux détails du compte bancaire de la société.  
 46. Dans le champ Nom, tapez « BankAccount ».
@@ -139,7 +138,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
     * CompanyInfo  
 58. Cliquez sur OK.
     * Sélectionnez la table CompanyInfo comme source de données pour le modèle de données actuel.  
-59. Dans l'arborescence, sélectionnez « Fonctions\Champ calculé ».
+59. Dans l’arborescence, sélectionnez « Fonctions\Champ calculé ».
 60. Cliquez sur Ajouter racine.
     * Insérez un champ calculé comme nouvelle source de données.  
 61. Tapez « ProcessingDateTime » dans le champ Nom.
@@ -147,7 +146,7 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 62. Dans le champ Étiquette, entrez « Date et heure de traitement ».
     * Date et heure de traitement  
 63. Cliquez sur Modifier la formule.
-64. Dans l'arborescence, sélectionnez « Date/time\SESSIONNOW ».
+64. Dans l’arborescence, sélectionnez « Date/time\SESSIONNOW ».
 65. Cliquez sur Ajouter une fonction.
 66. Cliquez sur Enregistrer.
 67. Fermez la page.

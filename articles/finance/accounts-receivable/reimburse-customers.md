@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022541"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644535"
 ---
 # <a name="reimburse-customers"></a>Rembourser les clients
 
@@ -33,22 +33,19 @@ Cet article explique la création des transactions de remboursement pour un grou
 
 Le tableau suivant indique la configuration requise qui doit être en place avant de commencer.
 
-| Logiciel requis                                                            | Description                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spécification du montant minimal de remboursement pour l'entité juridique.          | Dans la page **Paramètres de comptabilité client** , dans la zone **Général** , dans le champ **Remboursement minimal** , entrez le montant minimal qui peut être remboursé des trop-perçus client. |
-| Facultatif : ajoutez un compte fournisseur à chaque client qui peut être remboursé. | Sur la page **Client** , dans l'organisateur **Détails divers** , dans le champ **Compte fournisseur** , sélectionnez le compte fournisseur pour le client.                                           |
+| Logiciel requis                                                            | Description |
+|-------------------------------------------------------------------------|-------------|
+| Spécification du montant minimal de remboursement pour l’entité juridique.          | Dans la page **Paramètres de comptabilité client**, dans la zone **Général**, dans le champ **Remboursement minimal**, entrez le montant minimal qui peut être remboursé des trop-perçus client. |
+| Facultatif : ajoutez un compte fournisseur à chaque client qui peut être remboursé. | Sur la page **Client**, dans l’organisateur **Détails divers**, dans le champ **Compte fournisseur**, sélectionnez le compte fournisseur pour le client. |
 
 Lorsque vous créez des transactions de remboursement, une facture fournisseur est créée pour le montant du solde créditeur. Le processus de remboursement permet de supprimer le solde créditeur du compte client et crée un solde dû pour le compte fournisseur correspondant au client.
 
-1.  Dans Comptabilité client, exécutez le processus **Remboursement**.
-2.  Utilisez l'une des procédures suivantes :
-    -   Pour rembourser des comptes client spécifiques, cliquez sur **Sélectionner** et spécifiez les comptes client dans la requête.
-    -   Pour rembourser tous les comptes client, cliquez sur **OK**.
+1. Dans Comptabilité client, exécutez le processus **Remboursement** (**Comptabilité client \> Tâches périodiques \> Remboursement**).
+2. Pour regrouper toutes les transactions, quelles que soient les dimensions comptables, définissez l’option **Résumer le client** sur **Oui**. Pour regrouper uniquement les transactions qui ont des dimensions comptables similaires, définissez l’option sur **Non**.
+3. Sélectionnez **Inclure les clients avec des transactions de débit en cours** pour sélectionner les clients qui ont des montants débiteurs non réglés.
+4. Pour rembourser des comptes clients spécifiques, sur l’organisateur **Enregistrements à inclure**, sélectionnez **Filtrer**, puis spécifiez les comptes clients dans la requête.
 
-    Les montants de crédit sont transférés vers les comptes fournisseur des clients et sont traités comme des paiements ordinaires. Si un client n'a pas de compte fournisseur, un compte fournisseur occasionnel est créé automatiquement pour le client.
-3.  Pour afficher les transactions de remboursement créées, utilisez la page **Remboursement**.
-4.  Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement.
+    Les montants de crédit sont transférés vers les comptes fournisseur des clients et sont traités comme des paiements ordinaires. Si un client n’a pas de compte fournisseur, un compte fournisseur occasionnel est créé automatiquement pour le client.
 
-
-
-
+5. Pour afficher les opérations de remboursement qui ont été créées, utilisez l’état **Remboursement** (**Comptabilité client \> Demandes de renseignements et rapports \> Rapport de remboursement**).
+6. Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement. Pour plus d’informations sur la façon de payer les fournisseurs, voir [Aperçu du paiement du fournisseur](../accounts-payable/Vendor-payments-workspace.md).

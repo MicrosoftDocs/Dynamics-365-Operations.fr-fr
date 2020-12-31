@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678246"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680240"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 
@@ -142,10 +141,10 @@ En tant qu’utilisateur doté du rôle de développeur d’états électronique
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Configurer les paramètres de gestion des états électroniques
 
-1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
-2. Dans l’espace de travail **Génération des états électroniques** , sélectionnez **Paramètres de gestion des états électroniques**.
-3. Sur la page **Paramètres de gestion des états électroniques** , sous l’onglet **Général** , définissez l’option **Activer le mode de configuration** sur **Oui**.
-4. Dans l’onglet **Documents joints** , définissez les paramètres suivants :
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+2. Dans l’espace de travail **Génération des états électroniques**, sélectionnez **Paramètres de gestion des états électroniques**.
+3. Sur la page **Paramètres de gestion des états électroniques**, sous l’onglet **Général**, définissez l’option **Activer le mode de configuration** sur **Oui**.
+4. Dans l’onglet **Pièces jointes**, définissez les paramètres suivants :
 
     - Définissez le champ **Configurations** sur **Fichier** pour la société **USMF**.
     - Définissez les champs **Archive de tâche**, **Temporaire**, **Référence** et **Autres** sur **Fichier**.
@@ -161,28 +160,28 @@ Chaque configuration de gestion des états électroniques est marquée comme app
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>Consulter la liste des fournisseurs de configuration de gestion des états électroniques
 
-1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Dans l’espace de travail **Génération d’états électroniques**, dans la section **Liens connexes**, sélectionnez **Fournisseurs de configuration**.
 3. Sur la page **Fournisseurs de configuration**, chaque enregistrement de fournisseur de configuration a un nom et une URL uniques. Passez en revue le contenu de cette page. S’il existe déjà un enregistrement pour **Litware, Inc.** (`https://www.litware.com`), ignorez la procédure suivante, [Ajouter un nouveau fournisseur de configuration de gestion des états électroniques](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Ajouter un nouveau fournisseur de configuration de gestion des états électroniques
 
 1. Sur la page **Fournisseurs de configuration**, sélectionnez **Nouveau**.
-2. Dans le champ **Nom**, entrez **Litware, Inc.**
-3. Dans le champ **Adresse Internet**, entrez  `https://www.litware.com`.
-4. Sélectionnez **Enregistrer**.
+2. Dans le champ **Nom**, entrez **Litware, Inc.**
+3. Dans le champ **Adresse Internet**, entrez `https://www.litware.com`.
+4. Sélectionnez **Enregistrer**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Activer un fournisseur de configuration de gestion des états électroniques
 
-1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
+1. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 2. Dans l’espace de travail **États électroniques**, sélectionnez fournisseur de configuration **Litware, Inc.**.
-3. Sélectionnez **Activer**.
+3. Sélectionnez **Activer**.
 
 Pour plus d’informations sur les fournisseurs de configuration de gestion des états électroniques, voir [Créer des fournisseurs de configuration et les marquer comme actifs](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Concevoir un modèle de données spécifique à un domaine
 
-Vous devez créer une configuration de la gestion des états électroniques contenant un composant de [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) pour le domaine d’affaires **Questionnaire**. Ce modèle de données sera ultérieurement utilisé comme source de données lorsque vous concevez un format ER pour générer le rapport **Questionnaire**.
+Vous devez créer une configuration de la gestion des états électroniques contenant un composant de [modèle de données](general-electronic-reporting.md#data-model-and-model-mapping-components) pour le domaine d’affaires **Questionnaire**. Ce modèle de données sera ultérieurement utilisé comme source de données lorsque vous concevez un format ER pour générer le rapport **Questionnaire**.
 
 En suivant les étapes de la section [Importer une nouvelle configuration de modèle de données](#ImportDataModel), vous pouvez importer le modèle de données requis à partir du fichier XML fourni. Vous pouvez également suivre les étapes de la section [Créer un configuration de modèle de données](#DesignDataModel) pour concevoir ce modèle de données à partir de zéro.
 
@@ -811,7 +810,7 @@ Le statut de la version 1.1 de cette configuration est modifié de **Brouillon*
 
 En tant qu’utilisateur ayant le rôle d’administrateur système, vous devez développer une nouvelle logique afin que le format ER configuré puisse être appelé à partir de l’interface utilisateur (IU) de l’application pour générer votre rapport personnalisé. Actuellement, ER n’offre aucune capacité pour configurer ce type de logique. Par conséquent, certaines tâches d’ingénierie sont nécessaires. 
 
-Pour développer la nouvelle logique, vous devez déployer une topologie prenant en charge la génération continue. Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](../perf-test/continuous-build-test-automation.md). Vous devez également avoir accès à l’environnement de développement pour cette topologie. Pour plus d’informations sur l’API de gestion des états électroniques disponible, voir [API de la structure de gestion des états électroniques](er-apis-app73.md).
+Pour développer la nouvelle logique, vous devez déployer une topologie prenant en charge la génération continue. Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](../perf-test/continuous-build-test-automation.md). Vous devez également avoir accès à l’environnement de développement pour cette topologie. Pour plus d’informations sur l’API de gestion des états électroniques disponible, voir [API de la structure de gestion des états électroniques](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Modifier le code source
 
@@ -1060,9 +1059,9 @@ Créez votre projet pour rendre un nouvel élément de menu accessible aux utili
 5. Sélectionnez **OK** pour confirmer l’option de filtrage.
 6. Sélectionnez **OK** pour exécuter l’état.
 
-    ![Spécification des critères de sélection dans la boîte de dialogue État électronique](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Spécification des critères de sélection dans la boîte de dialogue État électronique](./media/er-quick-start1-report-run-dialog-page.png)
 
-7. Examinez l’état généré.
+7. Examinez l’état généré.
 
 ## <a name="tune-a-designed-er-solution"></a><a name="TuneSolution"></a>Ajuster une solution de gestion des états électroniques conçue
 
@@ -1175,11 +1174,11 @@ Le statut de la version 1.2 de cette configuration est modifié de **Brouillon*
 4. Dans la boîte de dialogue **Paramètres de gestion des états électroniques**, sur le raccourci **Enregistrements à inclure**, configurez l’option de filtrage de sorte que seul le questionnaire **SBCCrsExam** soit inclus.
 5. Sélectionnez **OK** pour confirmer l’option de filtrage.
 6. Sélectionnez **OK** pour exécuter l’état.
-7. Examinez le fichier généré dans le format Excel.
+7. Examinez le fichier généré dans le format Excel.
 
 Notez que le pied de page du rapport généré contient le nom du format ER qui a été utilisé pour le générer.
 
-![Fichier généré dans le format Excel](./media/er-quick-start1-report4.png)
+![Fichier généré dans le format Excel](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Exécuter un format à partir d’ER
 
@@ -1215,7 +1214,7 @@ Notez que le pied de page du rapport généré ne contient pas le nom du format 
     ![Boîte de dialogue d’exécution du rapport ER dans laquelle vous pouvez modifier la destination configurée](./media/er-quick-start1-run-settings.png)
 
 6. Sélectionnez **OK** pour exécuter l’état.
-7. Examinez le fichier généré dans le format PDF.
+7. Examinez le fichier généré dans le format PDF.
 
     ![Aperçu à l’écran du rapport généré dans le format PDF](./media/er-quick-start1-preview-PDF.png)
 

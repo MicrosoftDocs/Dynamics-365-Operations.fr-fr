@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040120"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679954"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou obsolètes dans les versions précédentes
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Cette rubrique n’est plus mise à jour. Pour afficher une liste actuelle des fonctionnalités qui ont été supprimées des applications Finance and Operations ou qui sont obsolètes, recherchez le contenu **« Fonctionnalités supprimées ou obsolètes »** qui est lié à l’application que vous utilisez.
@@ -79,7 +80,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Nous supprimons la méthode **setUtcString()** , car une meilleure méthode de remplacement est disponible. |
+| **Motif de l’abandon/de la suppression** | Nous supprimons la méthode **setUtcString()**, car une meilleure méthode de remplacement est disponible. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Plateforme |
 | **Option de déploiement**              | Tous |
@@ -119,7 +120,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **État**                         | Obsolète : à compter du 31 juillet 2024, nous prévoyons de ne plus fournir de mises à jour fiscales aux clients concernés par les salaires aux États-Unis. La fonctionnalité restera dans le produit, mais les améliorations ne la maintiendront plus à jour et les défauts du produit seront évalués au cas par cas. |
 
 >[!NOTE]
-> Cela représente un changement par rapport à la date d'arrêt initiale du 1er octobre 2021. Pour plus d’informations, voir [Retrait des mises à jour fiscales pour la fonctionnalité Paie États-Unis dans Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq).
+> Cela représente un changement par rapport à la date d’arrêt initiale du 1er octobre 2021. Pour plus d’informations, voir [Retrait des mises à jour fiscales pour la fonctionnalité Paie États-Unis dans Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq).
 
 
 ### <a name="data-management-staging-clean-up"></a>Nettoyage de la gestion des données
@@ -185,7 +186,7 @@ La prise en charge de la création de commandes client basées sur le projet où
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | La fonctionnalité demeure activée après la suppression du paramètre. |
 | **Remplacé par une autre fonctionnalité ?**   | N° La fonctionnalité de prise en charge des commandes client basée sur un projet avec plusieurs sources de financement sera toujours activée.   |
-| **Zones de produit affectées**         |Le paramètre **Autoriser les commandes client pour les projets avec plusieurs sources de financement** sera supprimé. Les méthodes suivantes seront modifiées lorsque le paramètre sera supprimé : méthode **ctrlSalesOrderTable** dans la classe **ProjStatusType** , méthode **validate** pour le champ **ProjId** , et méthode **run** dans l’écran **SalescreateOrder**. Les méthodes suivantes seront abandonnées lorsque le paramètre sera supprimé : **IsSalesOrderAllowedForMultipleFundingSources** dans le fichier de table **ProjTable** , méthode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** dans le fichier de table **ProjTable** , champ de données **AllowSalesOrdersForMultipleFundingSources** dans l’écran **ProjParameters** et les fichiers **ProjParameterEntity** , méthode privée **IsAssociatedToMultipleFundingSourcesContract** dans le fichier de table **ProjTable**. |
+| **Zones de produit affectées**         |Le paramètre **Autoriser les commandes client pour les projets avec plusieurs sources de financement** sera supprimé. Les méthodes suivantes seront modifiées lorsque le paramètre sera supprimé : méthode **ctrlSalesOrderTable** dans la classe **ProjStatusType**, méthode **validate** pour le champ **ProjId**, et méthode **run** dans l’écran **SalescreateOrder**. Les méthodes suivantes seront abandonnées lorsque le paramètre sera supprimé : **IsSalesOrderAllowedForMultipleFundingSources** dans le fichier de table **ProjTable**, méthode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** dans le fichier de table **ProjTable**, champ de données **AllowSalesOrdersForMultipleFundingSources** dans l’écran **ProjParameters** et les fichiers **ProjParameterEntity**, méthode privée **IsAssociatedToMultipleFundingSourcesContract** dans le fichier de table **ProjTable**. |
 | **Option de déploiement**              | Tous  |
 | **État**                         | L’abandon est prévu pour la vague de publication d’avril 2020. |
 
@@ -266,7 +267,7 @@ Les indicateurs de performance clé intégrés (KPI) peuvent être modélisés d
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Il est possible pour les définitions de métadonnées de table d’avoir des groupes de champs contenant des références de champs non valides. En cas de déploiement, cela peut provoquer des erreurs d’exécution dans Financial Reporting et SQL Server Reporting Services (SSRS). Ce problème est actuellement catégorisé comme *avertissement du compilateur* plutôt que comme *erreur* , ce qui signifie que la création et le déploiement d’un pack déployable peuvent survenir sans corriger ce problème. Pour résoudre ce problème :<br><br>1. Supprimez la référence de champ non valide de la définition du groupe de champs de table.<br><br>2. Recompilez.<br><br>3. Veillez à ce que tous les avertissements ou toutes les erreurs soient traitées. |
+| **Motif de l’abandon/de la suppression** | Il est possible pour les définitions de métadonnées de table d’avoir des groupes de champs contenant des références de champs non valides. En cas de déploiement, cela peut provoquer des erreurs d’exécution dans Financial Reporting et SQL Server Reporting Services (SSRS). Ce problème est actuellement catégorisé comme *avertissement du compilateur* plutôt que comme *erreur*, ce qui signifie que la création et le déploiement d’un pack déployable peuvent survenir sans corriger ce problème. Pour résoudre ce problème :<br><br>1. Supprimez la référence de champ non valide de la définition du groupe de champs de table.<br><br>2. Recompilez.<br><br>3. Veillez à ce que tous les avertissements ou toutes les erreurs soient traitées. |
 | **Remplacé par une autre fonctionnalité ?**   | Cet avertissement du compilateur sera remplacé par une erreur de compilation dans une prochaine version. |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tout |
@@ -374,12 +375,12 @@ Ces deux rapports ne sont plus pris en charge dans Finance and Operations. À la
 | **Statut**                       | Déconseillé : les options de menu des deux états ont été supprimées dans la version 7.3. Toutefois, le code des états est conservé dans le produit. L’objectif est de supprimer le code dans une prochaine version. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Packs de contenu Power BI disponibles sur AppSource
-Les packs de contenu **Gestion des coûts** , **Performances financières** et **Retail Channel Performance** , disponibles sur le site [Microsoft AppSource](https://appsource.microsoft.com), sont déconseillés suite aux mises à jour de produit dans Microsoft Power BI. Les écrans d’administration du système utilisés pour déployer ces packs de contenu sur PowerBI.com sont également déconseillés dans Finance and Operations.
+Les packs de contenu **Gestion des coûts**, **Performances financières** et **Retail Channel Performance**, disponibles sur le site [Microsoft AppSource](https://appsource.microsoft.com), sont déconseillés suite aux mises à jour de produit dans Microsoft Power BI. Les écrans d’administration du système utilisés pour déployer ces packs de contenu sur PowerBI.com sont également déconseillés dans Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Mises à jour de produit dans Microsoft Power BI. |
-| **Remplacé par une autre fonctionnalité ?**   | Les packs de contenu **Gestion des coûts** , **Performances financières** et **Retail Channel Performance** , disponibles sur le site [AppSource](https://appsource.microsoft.com), sont remplacés par des applications analytiques qui permettent l’intégration de solutions au niveau de la base de données. Pour plus d’informations sur les applications analytiques, voir [Power BI intégré dans les espaces de travail](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Remplacé par une autre fonctionnalité ?**   | Les packs de contenu **Gestion des coûts**, **Performances financières** et **Retail Channel Performance**, disponibles sur le site [AppSource](https://appsource.microsoft.com), sont remplacés par des applications analytiques qui permettent l’intégration de solutions au niveau de la base de données. Pour plus d’informations sur les applications analytiques, voir [Power BI intégré dans les espaces de travail](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Zones de produit affectées**         | Gestion des coûts, Finance et Vente au détail                                                                                               |
 | **Option de déploiement**              | Cloud uniquement (l’intégration à PowerBI.com n’est pas prise en charge dans les déploiements sur site.)                                                                                                            |
 | **Statut**                         | Déconseillé : le délai cible pour la suppression de la fonctionnalité est le deuxième trimestre 2018.    |
@@ -712,7 +713,7 @@ Informations sur les salaires dans Ressources humaines
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Cette fonctionnalité a été remplacée par les pages Paie et Ressources humaines principales.  |
-| **Remplacé par une autre fonctionnalité ?**   | Les pages **Avantages** , **Rémunérations** , et les autres pages associées qui étaient précédemment dans Paie États-Unis ont été reconfigurées et font désormais partie de la configuration du module Ressources humaines principal pour aider à prendre en charge le traitement externe de la paie. Cette fonctionnalité est accessible à l’aide de la clé de configuration **Ressources humaines 1** \> **Paie**. |
+| **Remplacé par une autre fonctionnalité ?**   | Les pages **Avantages**, **Rémunérations**, et les autres pages associées qui étaient précédemment dans Paie États-Unis ont été reconfigurées et font désormais partie de la configuration du module Ressources humaines principal pour aider à prendre en charge le traitement externe de la paie. Cette fonctionnalité est accessible à l’aide de la clé de configuration **Ressources humaines 1** \> **Paie**. |
 | **Zones de produit affectées**         | Ressources humaines, Paie   |
 | **Statut**                         | Supprimé à partir de Dynamics 365 for Operations version 1611.    |
 
@@ -1157,7 +1158,7 @@ La génération de notes préliminaires ne peut pas être effectuée à l’aide
 
 ### <a name="gl-ssrs-reports"></a>États GL SSRS
 
-Les états qui comprennent les options de menu suivantes ont été supprimés : **Synthèse de balance comptable** , **Balance comptable détaillée** , **Plan de comptes** , **Piste d’audit** , **Soldes** et **Liste des soldes**.
+Les états qui comprennent les options de menu suivantes ont été supprimés : **Synthèse de balance comptable**, **Balance comptable détaillée**, **Plan de comptes**, **Piste d’audit**, **Soldes** et **Liste des soldes**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1359,7 +1360,7 @@ L’application pour tablettes Windows 8 a fourni la fonctionnalité pour la sa
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Faible utilisation |
-| **Remplacé par une autre fonctionnalité ?**   | Non, mais la page **Relation de profil** , qui est ouverte sur la page **Groupes de profils** , prend en charge le même scénario que la page **Workplanner** abandonnée. |
+| **Remplacé par une autre fonctionnalité ?**   | Non, mais la page **Relation de profil**, qui est ouverte sur la page **Groupes de profils**, prend en charge le même scénario que la page **Workplanner** abandonnée. |
 | **Zones de produit affectées**         | Pointage     |
 | **Statut**                         | Le code n’a pas été supprimé. Toutefois, l’écran, JmgWorkPlanner, n’a pas été migré.    |
 

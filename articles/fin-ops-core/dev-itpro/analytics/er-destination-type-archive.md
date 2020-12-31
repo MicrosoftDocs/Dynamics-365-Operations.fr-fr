@@ -3,7 +3,7 @@ title: Type de destination pour l’archivage d’états électronique
 description: Cette rubrique fournit des informations sur la configuration d’une destination d’archive pour chaque composant DOSSIER ou FICHIER d’un format de rapport électronique (ER) configuré pour générer des documents sortants.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8797a68507a5116c6adbf1f2d805838fa507958c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745583"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679676"
 ---
-# <a name="archive-destination"></a>Destination de l’archive
+# <a name="archive-er-destination-type"></a>Type de destination pour l’archivage d’états électronique
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez configurer une destination d’archive pour chaque composant DOSSIER ou FICHIER d’un format de rapport électronique (ER) configuré pour générer des documents sortants. En fonction du paramètre de destination, un document généré est stocké en tant que pièce jointe d’un enregistrement de la liste de tâches d’état électronique.
+Vous pouvez configurer une destination d’archive pour chaque composant **Dossier** ou **Fichier** d’un format de rapport électronique (ER) configuré pour générer des documents sortants. En fonction du paramètre de destination, un document généré est stocké en tant que pièce jointe d’un enregistrement de la liste de tâches d’état électronique. Pour afficher les résultats, accédez à **Administration d’organisation** \> **Gestion des états électroniques** \> **Tâches de gestion des états électroniques**.
 
 Vous pouvez utiliser cette option pour envoyer le document généré vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les [types](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) de documents dans **Administration d’organisation** \> **Gestion de documents** \> **Types de documents**. La configuration des destinations d’états électroniques est identique à la configuration du système de gestion des documents.
 
@@ -49,6 +48,9 @@ Vous pouvez enregistrer un fichier dans un dossier SharePoint désigné. Pour d�
 ## <a name="azure-storage"></a>Stockage Azure
 
 Lorsque l’emplacement du type de document est défini sur **Stockage Azure**, vous pouvez enregistrer un fichier dans le stockage Azure.
+
+> [!NOTE] 
+> La structure de gestion des états électroniques stocke en permanence les fichiers dans le stockage Blob Azure contrairement à l’infrastructure de gestion des données qui applique la stratégie de rétention de sept jours pour les documents qui doivent être traités. Pour plus d’informations, voir [API pour obtenir le statut du message](../data-entities/recurring-integrations.md#api-for-getting-message-status) et [API de contrôle de statut](../data-entities/data-management-api.md#status-check-api). Les fichiers liés à ER seront stockés dans le stockage Blob Azure en tant que pièces jointes des enregistrements de table d’application aussi longtemps que nécessaire. Un seul fichier sera supprimé du stockage Blob Azure avec l’enregistrement de la table d’application auquel ce fichier était attaché.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

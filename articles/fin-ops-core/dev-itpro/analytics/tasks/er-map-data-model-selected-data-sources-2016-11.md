@@ -1,6 +1,6 @@
 ---
 title: ER Mapper le modèle de données aux sources de données sélectionnées
-description: Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de données Microsoft Dynamics 365 Finance sélectionnées.
+description: Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d’états électroniques peut mapper un modèle de données de génération d’états électronique (ER) vers des sources de données Microsoft Dynamics 365 Finance sélectionnées.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,120 +11,119 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142986"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684305"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapper le modèle de données aux sources de données sélectionnées
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d'états électroniques peut mapper un modèle de données de génération d'états électronique (ER) vers des sources de données sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes, vous devez tout d'abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
+Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d’états électroniques peut mapper un modèle de données de génération d’états électronique (ER) vers des sources de données sélectionnées. Cette mise en correspondance de modèles sera utilisée ultérieurement comme source de données dans la configuration du format à utiliser pour gérer des documents de paiement électronique. Dans cet exemple, vous mettez en correspondance un modèle de données pour la société témoin, Litware, Inc. avec des sources de données. Pour effectuer ces étapes, vous devez tout d’abord appliquer la procédure « Sélectionner des sources de données pour la mise en correspondance de modèles ».
 
 
-## <a name="open-er-configurations-tree"></a>Ouvrir l'arborescence de configurations d'ER
-1. Accédez à Administration d'organisation > Espaces de travail > États électroniques.
+## <a name="open-er-configurations-tree"></a>Ouvrir l’arborescence de configurations d’ER
+1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
 2. Cliquez sur Configurations.
 
 ## <a name="select-created-model-mapping"></a>Sélectionner une mise en correspondance de modèles créée
-1. Dans l'arborescence, sélectionnez « Paiements (modèle simplifié) ».
-    * Vérifiez que la configuration du modèle « Paiements (modèle simplifié) » a été créée à l'avance. Dans le cas contraire, arrêtez dès à présent et revenez après avoir effectué la section « Créer une configuration avec le modèle de données du domaine sélectionné » du Guide de tâche.  
+1. Dans l’arborescence, sélectionnez « Paiements (modèle simplifié) ».
+    * Vérifiez que la configuration du modèle « Paiements (modèle simplifié) » a été créée à l’avance. Dans le cas contraire, arrêtez dès à présent et revenez après avoir effectué la section « Créer une configuration avec le modèle de données du domaine sélectionné » du Guide de tâche.  
 2. Cliquez sur Concepteur de modèles.
 3. Cliquez sur Mettre en correspondance le modèle à la source de données.
-4. Sélectionnez l'enregistrement « Mise en correspondance de CT ».
+4. Sélectionnez l’enregistrement « Mise en correspondance de CT ».
     * Mise en correspondance VMT  
 
 ## <a name="bind-created-data-sources-to-data-model-elements"></a>Lier des sources de données créées à des éléments de modèles de données
 1. Cliquez sur Concepteur.
-2. Dans l'arborescence, sélectionnez « Date et heure de traitement(ProcessingDateTime) ».
-3. Dans l'arborescence, sélectionnez « Date de traitement(ProcessingDateTime) ».
+2. Dans l’arborescence, sélectionnez « Date et heure de traitement(ProcessingDateTime) ».
+3. Dans l’arborescence, sélectionnez « Date de traitement(ProcessingDateTime) ».
 4. Cliquez sur Lier.
-5. Dans l'arborescence, sélectionnez « Identification de message de paiement (MessageIdentification) ».
-6. Dans l'arborescence , développer « Transactions ».
-7. Dans l'arborescence, sélectionnez « Transactions\Numéro de lot du journal(JournalNum) ».
+5. Dans l’arborescence, sélectionnez « Identification de message de paiement (MessageIdentification) ».
+6. Dans l’arborescence , développer « Transactions ».
+7. Dans l’arborescence, sélectionnez « Transactions\Numéro de lot du journal(JournalNum) ».
 8. Cliquez sur Lier.
-9. Dans l'arborescence, sélectionnez « Paiements ».
-10. Dans l'arborescence, sélectionnez « Transactions ».
+9. Dans l’arborescence, sélectionnez « Paiements ».
+10. Dans l’arborescence, sélectionnez « Transactions ».
 11. Cliquez sur Lier.
-12. Dans l'arborescence , développez « Paiements=Transactions ».
-13. Dans l'arborescence , développez « Paiements=Transactions\Créditeur ».
-14. Dans l'arborescence , développez « Paiements=Transactions\Créditeur\Compte ».
-15. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code devise(Currency) ».
-16. Dans l'arborescence , développez « Transactions\vendBankAccountInTransactionCompany() ».
-17. Dans l'arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode) ».
+12. Dans l’arborescence , développez « Paiements=Transactions ».
+13. Dans l’arborescence , développez « Paiements=Transactions\Créditeur ».
+14. Dans l’arborescence , développez « Paiements=Transactions\Créditeur\Compte ».
+15. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code devise(Currency) ».
+16. Dans l’arborescence , développez « Transactions\vendBankAccountInTransactionCompany() ».
+17. Dans l’arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode) ».
 18. Cliquez sur Lier.
-19. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code IBAN(IBAN) ».
-20. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN) ».
+19. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Code IBAN(IBAN) ».
+20. Dans l’arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN) ».
 21. Cliquez sur Lier.
-22. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Numéro ».
-23. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de compte bancaire(AccountNum) ».
+22. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Compte\Numéro ».
+23. Dans l’arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de compte bancaire(AccountNum) ».
 24. Cliquez sur Lier.
-25. Dans l'arborescence , développez « Paiements=Transactions\Créditeur\Agent ».
-26. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Nom ».
-27. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Nom ».
+25. Dans l’arborescence , développez « Paiements=Transactions\Créditeur\Agent ».
+26. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Nom ».
+27. Dans l’arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Nom ».
 28. Cliquez sur Lier.
-29. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Numéro de routage(RoutingNumber) ».
-30. Dans l'arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de routage(RegistrationNum) ».
+29. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Numéro de routage(RoutingNumber) ».
+30. Dans l’arborescence , sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Numéro de routage(RegistrationNum) ».
 31. Cliquez sur Lier.
-32. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Code SWIFT(SWIFT) ».
-33. Dans l'arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Code SWIFT(SWIFTNo) ».
+32. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Agent\Code SWIFT(SWIFT) ».
+33. Dans l’arborescence, sélectionnez « Transactions\vendBankAccountInTransactionCompany()\Code SWIFT(SWIFTNo) ».
 34. Cliquez sur Lier.
-35. Dans l'arborescence, sélectionnez « Paiements=Transactions\Créditeur\Nom ».
-36. Dans l'arborescence , développez « Transactions\findVendTable() ».
-37. Dans l'arborescence , sélectionnez « Transactions\findVendTable()name() ».
+35. Dans l’arborescence, sélectionnez « Paiements=Transactions\Créditeur\Nom ».
+36. Dans l’arborescence , développez « Transactions\findVendTable() ».
+37. Dans l’arborescence , sélectionnez « Transactions\findVendTable()name() ».
 38. Cliquez sur Lier.
-39. Dans l'arborescence, sélectionnez « Paiements=Transactions\Code devise(Currency) ».
-40. Dans l'arborescence, développez « Transactions\>Relations ».
-41. Dans l'arborescence, développez « Transactions\>Relations\Table des devises(Currency) ».
-42. Dans l'arborescence, sélectionnez « Transactions\>Relations\Table des devises(Currency)\Code devis (CurrencyCodeISO) ».
+39. Dans l’arborescence, sélectionnez « Paiements=Transactions\Code devise(Currency) ».
+40. Dans l’arborescence, développez « Transactions\>Relations ».
+41. Dans l’arborescence, développez « Transactions\>Relations\Table des devises(Currency) ».
+42. Dans l’arborescence, sélectionnez « Transactions\>Relations\Table des devises(Currency)\Code devis (CurrencyCodeISO) ».
 43. Cliquez sur Lier.
-44. Dans l'arborescence , développez « Paiements=Transactions\Débiteur ».
-45. Dans l'arborescence , développez « Paiements=Transactions\Débiteur\Compte ».
-46. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code devise(Currency) ».
-47. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount) ».
-48. Dans l'arborescence, développez « Compte bancaire(BankAccount) ».
-49. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Devise(CurrencyCode) ».
+44. Dans l’arborescence , développez « Paiements=Transactions\Débiteur ».
+45. Dans l’arborescence , développez « Paiements=Transactions\Débiteur\Compte ».
+46. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code devise(Currency) ».
+47. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount) ».
+48. Dans l’arborescence, développez « Compte bancaire(BankAccount) ».
+49. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount)\Devise(CurrencyCode) ».
 50. Cliquez sur Lier.
-51. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\IBAN ».
-52. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code IBAN(IBAN) ».
+51. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount)\IBAN ».
+52. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Code IBAN(IBAN) ».
 53. Cliquez sur Lier.
-54. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Numéro ».
-55. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount\Numéro de compte bancaire(AccountNum) ».
+54. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Compte\Numéro ».
+55. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount)\Numéro de compte bancaire(AccountNum) ».
 56. Cliquez sur Lier.
-57. Dans l'arborescence , développez « Paiements=Transactions\Débiteur\Agent ».
-58. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Nom ».
-59. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Nom ».
+57. Dans l’arborescence , développez « Paiements=Transactions\Débiteur\Agent ».
+58. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Nom ».
+59. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount)\Nom ».
 60. Cliquez sur Lier.
-61. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Numéro de routage(RoutingNumber) ».
-62. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount\Numéro de routage(RegistrationNum) ».
+61. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Numéro de routage(RoutingNumber) ».
+62. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount)\Numéro de routage(RegistrationNum) ».
 63. Cliquez sur Lier.
-64. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Code SWIFT(SWIFT) ».
-65. Dans l'arborescence, sélectionnez « Compte bancaire(BankAccount)\Code SWIFT(SWIFTNo) ».
+64. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Agent\Code SWIFT(SWIFT) ».
+65. Dans l’arborescence, sélectionnez « Compte bancaire(BankAccount)\Code SWIFT(SWIFTNo) ».
 66. Cliquez sur Lier.
-67. Dans l'arborescence, sélectionnez « Paiements=Transactions\Débiteur\Nom ».
-68. Dans l'arborescence, sélectionnez « Informations sur la société(Company) ».
-69. Dans l'arborescence, développez « Informations sur la société(Company) ».
-70. Dans l'arborescence, sélectionnez « Informations sur la société(Company)\Nom ».
+67. Dans l’arborescence, sélectionnez « Paiements=Transactions\Débiteur\Nom ».
+68. Dans l’arborescence, sélectionnez « Informations sur la société(Company) ».
+69. Dans l’arborescence, développez « Informations sur la société(Company) ».
+70. Dans l’arborescence, sélectionnez « Informations sur la société(Company)\Nom ».
 71. Cliquez sur Lier.
-72. Dans l'arborescence, sélectionnez « Paiements=Transactions\Description ».
-73. Dans l'arborescence, sélectionnez « Transactions\Description(Txt) ».
+72. Dans l’arborescence, sélectionnez « Paiements=Transactions\Description ».
+73. Dans l’arborescence, sélectionnez « Transactions\Description(Txt) ».
 74. Cliquez sur Lier.
-75. Dans l'arborescence, sélectionnez « Transactions \Code d'identification de bout en bout(End2EndID) ».
-76. Dans l'arborescence, sélectionnez « Transactions\$EndToEndID ».
+75. Dans l’arborescence, sélectionnez « Transactions \Code d’identification de bout en bout(End2EndID) ».
+76. Dans l’arborescence, sélectionnez « Transactions\$EndToEndID ».
 77. Cliquez sur Lier.
-78. Dans l'arborescence, sélectionnez « Transactions\Montant instruit(InstructedAmount) ».
-79. Dans l'arborescence, sélectionnez « Transactions\$Amount ».
+78. Dans l’arborescence, sélectionnez « Transactions\Montant instruit(InstructedAmount) ».
+79. Dans l’arborescence, sélectionnez « Transactions\$Amount ».
 80. Cliquez sur Lier.
-81. Dans l'arborescence, sélectionnez « Transactions\Date de transaction(TransactionDate) ».
-82. Dans l'arborescence, sélectionnez « Transactions\Date(TransDate) ».
+81. Dans l’arborescence, sélectionnez « Transactions\Date de transaction(TransactionDate) ».
+82. Dans l’arborescence, sélectionnez « Transactions\Date(TransDate) ».
 83. Cliquez sur Lier.
 
 ## <a name="validate-created-mapping"></a>Valider une mise en correspondance créée

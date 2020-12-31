@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ProcessScheduleSeries
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: afbef26cb7b37bafb34f12cc20a88fb4aea9f343
-ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
+ms.openlocfilehash: 479f621ef05519f4f2c97112a0115dccdbf24c52
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3885249"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682507"
 ---
 # <a name="process-automation"></a>Automatisation des processus
 
@@ -47,4 +46,4 @@ Chaque occurrence peut être modifiée sans avoir d’incidence sur les autres o
 
 ## <a name="developer-documentation"></a>Documentation du développeur
 
-Le cadre d'automatisation des processus permet aux développeurs d'étendre le cadre d'automatisation des processus. La documentation sur le [Cadre d'automatisation des processus](../process-automation/process-automation-framework.md) fournira des informations sur la façon dont vous pouvez créer des processus personnalisés qui doivent être exécutés par le serveur de traitement par lots planifié avec l’assistant d’automatisation des processus et qui apparaissent automatiquement dans la vue calendrier.
+Le cadre d’automatisation des processus permet aux développeurs d’étendre le cadre d’automatisation des processus. La documentation sur le [Cadre d’automatisation des processus](../process-automation/process-automation-framework.md) fournira des informations sur la façon dont vous pouvez créer des processus personnalisés qui doivent être exécutés par le serveur de traitement par lots planifié avec l’assistant d’automatisation des processus et qui apparaissent automatiquement dans la vue calendrier.

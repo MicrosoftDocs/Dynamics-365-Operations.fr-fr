@@ -1,6 +1,6 @@
 ---
 title: ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
-description: Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML.
+description: Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/12/2019
@@ -11,56 +11,55 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142130"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681899"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d'états électroniques peut créer une configuration de format pour la génération d'états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML. Cette configuration sera utilisée pour traiter les paiements fournisseur.
+Cette rubrique explique comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle pour générer des documents électroniques au format OPENXML. Cette configuration sera utilisée pour traiter les paiements fournisseur.
 
 Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans la société GBSI.
 
-Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d'état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
+Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d’état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Téléchargez la configuration du modèle de données des paiements
-1. Dans le volet de navigation, accédez à **Modules > Administration d'organisation > Espaces de travail > Gestion des états électroniques**.
-2. Dans la liste, sélectionnez le fournisseur de configuration pour la société fictive Litware, Inc. Si vous ne voyez pas ce fournisseur de configuration, vous devez d'abord effectuer les étapes de la procédure dans [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
+1. Dans le volet de navigation, accédez à **Modules > Administration d’organisation > Espaces de travail > Gestion des états électroniques**.
+2. Dans la liste, sélectionnez le fournisseur de configuration pour la société fictive Litware, Inc. Si vous ne voyez pas ce fournisseur de configuration, vous devez d’abord effectuer les étapes de la procédure dans [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md).
 3. Sélectionnez **Activer**.
-4. Sélectionnez **Référentiels**. Sélectionnez un référentiel pour le type de ressources opérationnelles, si disponible. S'il n'est pas disponible, ignorez les étapes suivantes sur la création d'un référentiel.  
+4. Sélectionnez **Référentiels**. Sélectionnez un référentiel pour le type de ressources opérationnelles, si disponible. S’il n’est pas disponible, ignorez les étapes suivantes sur la création d’un référentiel.  
 5. Sélectionnez **Ajouter** pour ouvrir la boîte de dialogue.
 6. Dans le champ **Type du référentiel de configuration**, entrez `Operations resourcesdd`.
 7. Sélectionnez **Créer un référentiel**.
 8. Cliquez sur **OK**.
 9. Cliquez sur **Ouvrir**.
-10. Dans l'arborescence, sélectionnez **Modèle de paiement**.
+10. Dans l’arborescence, sélectionnez **Modèle de paiement**.
 11. Sélectionnez **Importer**. Importez ce modèle de données. Il est utilisé comme source de données dans une nouvelle configuration de format. Ignorez cette étape si cette configuration a déjà été importée.  
 12. Cliquez sur **Oui**.
-13. Fermez les pages jusqu'à ce que vous reveniez à la page de génération d'états électroniques.
+13. Fermez les pages jusqu’à ce que vous reveniez à la page de génération d’états électroniques.
 
 ## <a name="create-a-new-format-configuration"></a>Créer une configuration de format
 1. Sélectionnez **Configurations des états**.
-2. Dans l'arborescence, sélectionnez **Modèle de paiement**.
+2. Dans l’arborescence, sélectionnez **Modèle de paiement**.
 3. Cliquez sur **Créer la configuration** pour ouvrir la boîte de dialogue.
 4. Dans le champ **Nouveau**, entrez `Format based on data model PaymentModel`. Créez un format basé sur le modèle de données PaymentModel.
-5. Dans le champ **Nom**, saisissez `Sample worksheet report`. Exemple d'état sur les feuilles de calcul  
-6. Dans le champ **Description**, saisissez `Sample worksheet report for vendors' payments`. Exemple d'état sur les feuilles de calcul pour les paiements fournisseurs.  
+5. Dans le champ **Nom**, saisissez `Sample worksheet report`. Exemple d’état sur les feuilles de calcul  
+6. Dans le champ **Description**, saisissez `Sample worksheet report for vendors' payments`. Exemple d’état sur les feuilles de calcul pour les paiements fournisseurs.  
 7. Dans le champ **Définition du modèle de données**, entrez ou sélectionnez une valeur. Sélectionnez la définition **CustomerCreditTransferInitiation**.  
 8. Sélectionnez **Créer une configuration**.
 
 ## <a name="design-a-new-document-in-openxml-worksheet-format"></a>Créez un document dans le format de la feuille de calcul OPENXML
-1. Dans l'arborescence, sélectionnez **Modèle de paiement\Exemple d'état sur les feuilles de calcul**.
+1. Dans l’arborescence, sélectionnez **Modèle de paiement\Exemple d’état sur les feuilles de calcul**.
 2. Sélectionnez **Concepteur**.
 3. Dans la volet Actions, sélectionnez **Importer**.
 4. Sélectionnez **Importer depuis Excel**.
@@ -72,49 +71,49 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 10. Cliquez sur **OK**. Notez que les composants de format ER ont été créés dans le format de conception basé sur la structure du document MS Excel de référence (plages nommées).  
 
 ## <a name="create-a-new-data-source-to-calculate-totals-by-currency-codes"></a>Créer une nouvelle source de données pour calculer les totaux par codes devise
-1. Sélectionnez l'onglet **Mise en correspondance**.
+1. Sélectionnez l’onglet **Mise en correspondance**.
 2. Cliquez sur **Ajouter racine** pour ouvrir la boîte de dialogue.
-3. Dans l'arborescence, sélectionnez **Fonctions\Grouper par**.
+3. Dans l’arborescence, sélectionnez **Fonctions\Grouper par**.
 4. Dans le champ **Nom**, saisissez `PaymentByCurrency`.
 5. Cliquez sur **Modifier le groupe par**.
-6. Dans l'arborescence, développez **modèle**, puis sélectionnez **modèle\Paiements**.
+6. Dans l’arborescence, développez **modèle**, puis sélectionnez **modèle\Paiements**.
 7. Sélectionnez **Ajouter le champ à**.
 8. Cliquez sur **Éléments à grouper**.
-9. Dans l'arborescence, développez **modèle\Paiements**, puis sélectionnez **modèle\Paiement\Devise**.
+9. Dans l’arborescence, développez **modèle\Paiements**, puis sélectionnez **modèle\Paiement\Devise**.
 10. Sélectionnez **Ajouter le champ à**.
 11. Sélectionnez **Champs groupés**.
-12. Dans l'arborescence, sélectionnez **modèle\Paiements\Montant ordonné(InstructedAmount)**.
-13. Sélectionnez **Ajouter le champ à**, puis sélectionnez **Champs d'agrégation**.
-14. Sélectionnez une option dans le champ **Méthode**. Sélectionnez la fonction d'agrégation **SOMME**.  
+12. Dans l’arborescence, sélectionnez **modèle\Paiements\Montant ordonné(InstructedAmount)**.
+13. Sélectionnez **Ajouter le champ à**, puis sélectionnez **Champs d’agrégation**.
+14. Sélectionnez une option dans le champ **Méthode**. Sélectionnez la fonction d’agrégation **SOMME**.  
 15. Dans le champ **Nom**, saisissez `TotalInstructuredAmount`.
 16. Sélectionnez **Enregistrer**.
 17. Fermez la page.
 18. Cliquez sur **OK**.
 
 ## <a name="map-format-components-to-data-sources"></a>Mettre en correspondance des composants de format vers des sources de données
-1. Dans l'arborescence, sélectionnez **modèle\Paiements\Partie qui prend l'initiative\Nom** et **Excel\ReportHeader\CompanyName**.
+1. Dans l’arborescence, sélectionnez **modèle\Paiements\Partie qui prend l’initiative\Nom** et **Excel\ReportHeader\CompanyName**.
 2. Sélectionnez **Lier**.
-3. Dans l'arborescence, sélectionnez **modèle\Paiements\Créancier\Identification\Source ID(SourceID)** et **Excel\PaymLines\VendAccountName**.
+3. Dans l’arborescence, sélectionnez **modèle\Paiements\Créancier\Identification\Source ID(SourceID)** et **Excel\PaymLines\VendAccountName**.
 4. Sélectionnez **Lier**.
-5. Dans l'arborescence, sélectionnez **modèle\Paiements\Créditeur\Nom** et **Excel\PaymLines\VendName**.
+5. Dans l’arborescence, sélectionnez **modèle\Paiements\Créditeur\Nom** et **Excel\PaymLines\VendName**.
 6. Sélectionnez **Lier**.
-7. Dans l'arborescence, sélectionnez **modèle\Paiements\Créancier(CreditorAgent)\Nom** et **Excel\PaymLines\Banque**.
+7. Dans l’arborescence, sélectionnez **modèle\Paiements\Créancier(CreditorAgent)\Nom** et **Excel\PaymLines\Banque**.
 8. Sélectionnez **Lier**.
-9. Dans l'arborescence, sélectionnez **modèle\Paiements\Créancier(CreditorAgent)\Numéro d'acheminement(RoutingNumber)** et **Excel\PaymLines\RoutingNumber**.
+9. Dans l’arborescence, sélectionnez **modèle\Paiements\Créancier(CreditorAgent)\Numéro d’acheminement(RoutingNumber)** et **Excel\PaymLines\RoutingNumber**.
 10. Sélectionnez **Lier**.
-11. Dans l'arborescence, sélectionnez **modèle\Paiements\Créancier(CreditorAccount)\Identification\Numéro** et **Excel\PaymLines\AccountNumber**.
+11. Dans l’arborescence, sélectionnez **modèle\Paiements\Créancier(CreditorAccount)\Identification\Numéro** et **Excel\PaymLines\AccountNumber**.
 12. Sélectionnez **Lier**.
-13. Dans l'arborescence, sélectionnez **modèle\Paiements\Montant ordonné(InstructedAmount)** et **Excel\PaymLines\Débit**.
+13. Dans l’arborescence, sélectionnez **modèle\Paiements\Montant ordonné(InstructedAmount)** et **Excel\PaymLines\Débit**.
 14. Sélectionnez **Lier**.
-15. Dans l'arborescence, sélectionnez **modèle\Paiements\Devise** et **Excel\PaymLines\Devise**.
+15. Dans l’arborescence, sélectionnez **modèle\Paiements\Devise** et **Excel\PaymLines\Devise**.
 16. Sélectionnez **Lier**.
-17. Dans l'arborescence, sélectionnez **PaymentByCurrency\groupé\Devise** et **Excel\SummaryLines\SummaryCurrency**.
+17. Dans l’arborescence, sélectionnez **PaymentByCurrency\groupé\Devise** et **Excel\SummaryLines\SummaryCurrency**.
 18. Sélectionnez **Lier**.
-19. Dans l'arborescence, sélectionnez **PaymentByCurrency\agrégé\TotalInstructuredAmount** et **Excel\SummaryLines\SummaryAmount**.
+19. Dans l’arborescence, sélectionnez **PaymentByCurrency\agrégé\TotalInstructuredAmount** et **Excel\SummaryLines\SummaryAmount**.
 20. Sélectionnez **Lier**.
-21. Dans l'arborescence, sélectionnez **PaymentByCurrency** et **Excel\SummaryLines**.
+21. Dans l’arborescence, sélectionnez **PaymentByCurrency** et **Excel\SummaryLines**.
 22. Sélectionnez **Lier**.
-23. Dans l'arborescence, sélectionnez **model\Payments** et **Excel\PaymLines**.
+23. Dans l’arborescence, sélectionnez **model\Payments** et **Excel\PaymLines**.
 24. Sélectionnez **Lier**.
 25. Sélectionnez **Sauvegarder**, puis fermez la page.
 
@@ -127,7 +126,7 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 6. Sélectionnez **Modifier**.
 7. Développez la section **Formats de fichier**.
 8. Sélectionnez **Oui** dans le champ **États électroniques génériques**.
-9. Entrez ou sélectionnez une valeur dans le champ **Exporter la configuration du format**. Sélectionnez la configuration **Exemple d'état sur les feuilles de calcul**.  
+9. Entrez ou sélectionnez une valeur dans le champ **Exporter la configuration du format**. Sélectionnez la configuration **Exemple d’état sur les feuilles de calcul**.  
 10. Sélectionnez **Enregistrer**.
 11. Fermez la page.
 

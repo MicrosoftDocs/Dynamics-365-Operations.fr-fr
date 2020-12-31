@@ -1,9 +1,9 @@
 ---
 title: Exporter les écritures comptables
-description: Cette rubrique donne des informations sur l'exportation des soldes de compte général dans un fichier texte brut (ASCII) au format .CED pour la Belgique.
+description: Cette rubrique donne des informations sur l’exportation des soldes de compte général dans un fichier texte brut (ASCII) au format CED pour la Belgique.
 author: anasyash
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,20 +17,20 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 032677d434e847920fa837287df11df036ab5aa9
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4820e343604f314291146a12aa5903a85d3fe533
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981856"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668967"
 ---
 # <a name="export-ledger-transactions"></a>Exporter les écritures comptables
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité décrite dans cette rubrique permet d'exporter le solde total de chaque compte général pour une période spécifique dans un fichier texte brut (ASCII) au format .CED. Vous pouvez ensuite importer le fichier généré dans un logiciel tiers pour créer un état comptable en fonction des exigences spécifiques au pays/à la région.
+La fonctionnalité décrite dans cette rubrique permet d’exporter le solde total de chaque compte général pour une période spécifique dans un fichier texte brut (ASCII) au format CED. Vous pouvez ensuite importer le fichier généré dans un logiciel tiers pour créer un état comptable en fonction des exigences spécifiques au pays/à la région.
 
-Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse principale est en Belgique.
+Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en Belgique.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -41,23 +41,44 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l'adresse
 
 ## <a name="export-ledger-transactions-to-a-plain-text-file-in-ced-format"></a>Exporter les écritures comptables dans un fichier texte brut ASCII au format CED
 
-1. Dans [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2), dans la bibliothèque d'actifs partagés, téléchargez les dernières versions des configurations d'états électroniques pour le format d'état suivant :
+### <a name="setup"></a>Paramétrage
 
-    - Format d'exportation des écritures comptables (BE)
+1. Depuis le [référentiel global Microsoft](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md), importez les dernières versions des configurations de rapports électroniques (ER) pour le format de rapport suivant.
 
-    Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+    | **Version Dynamics 365 Finance**          | **Nom de la configuration**                                                                                           |
+    |-------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+    | Avant 10.0.16                            | **Format d’exportation des écritures comptables** sous **États comptables** >  **modèle Exportation des écritures comptables**. |
+    | À partir de 10.0.16                     | **Exportation des données de comptabilité générale** sous le modèle **Fichier d’audit standard (SAF-T)**.                                  |
 
-2. Dans Dynamics 365 Finance, allez dans **Comptabilité** \> **Tâches périodiques** \> **Exporter les écritures comptables**.
-3. Dans la boîte de dialogue **Exporter les écritures comptables dans un fichier ASCII au format CED**, dans le champ **Mappage de format**, sélectionnez le format **Format d'exportation des écritures comptables (BE)** que vous venez de télécharger, puis cliquez sur **OK**.
-4. Dans la boîte de dialogue **Paramètres des états électroniques**, définissez les champs suivants :
+    > ![Configurations ER](media/be-audit-er-configs.png)
 
-| **Champ**          | **Description**                                                             |
-|--------------------|-----------------------------------------------------------------------------|
-| Date de début          | Entrez le premier jour de la période de déclaration.                                |
-| Au            | Entrez le dernier jour de la période de déclaration.                                 |
-| Déclaration en euros | Définissez cette option sur **Oui** si la société utilise une devise autre que l'euro. |
+2. Après l’importation, vous devez disposer des versions suivantes, ou les versions ultérieures, des configurations ER :
 
-5. Cliquez sur **OK** pour générer et télécharger le fichier .txt.
+    | **Nom de la configuration ER**         | **Type**           | **Version** | **Description**                                                                                                             |
+    |-----------------------------------|--------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------|
+    | Fichier d’audit standard (SAF-T)       | Modèle              | 82          | Le modèle ER commun pour les fichiers d’audit standard.                                                                               |
+    | Mappage du modèle de données de la comptabilité | Mise en correspondance des modèles      | 82.13       | Le mappage de modèle qui définit les sources de données pour les données de comptabilité.                                                        |
+    | Exportation des données de comptabilité (BE)   | Format (exportation) | 82.8        | Le format de texte représentant les données de comptabilité pouvant être importées dans un logiciel tiers. |
+
+    > [!NOTE]
+    > Une fois toutes les configurations ER du tableau précédent importées, définissez l’option **Valeur par défaut pour le mappage de modèle** sur **Oui** pour la configuration **Mappage du modèle de données de comptabilité** sur la page **Configurations**.
+
+    > ![Valeur par défaut de l’option de modèle de mappage](media/be-audit-default-mm.png)
+
+3. À partir de la version 10.0.16, pour utiliser le format **Exportation des données du grand livre (BE)**, définissez le nom de la configuration ER dans un nouveau paramètre de comptabilité. Accédez à **Comptabilité** > **Paramétrage de la comptabilité** > **Paramètres de comptabilité**. 
+4. Développer le raccourci **Rapports électroniques**, puis sélectionnez l’onglet **Comptabilité**. 
+5. Dans le groupe **Exportation des écritures comptables**, dans le champ **Exportation des écritures comptables**, sélectionnez le format **Exportation des données de comptabilité**, puis enregistrez le nouveau paramètre.
+
+    ![Paramètre de comptabilité](media/be-audit-gl-parameter.png)
+
+### <a name="generate-the-export-ledger-transactions-report"></a>Générer le rapport Exportation des écritures comptables
+
+1. Dans Finance, allez dans **Comptabilité** \> **Tâches périodiques** \> **Exporter les écritures comptables**.
+2. Si votre version de Finance est antérieure à 10.0.16, dans la boîte de dialogue **Exporter les écritures comptables dans un fichier ASCII au format CED**, dans le champ **Mappage de format**, sélectionnez le format **Format d’exportation des écritures comptables (BE)** que vous venez de télécharger, puis cliquez sur **OK**. À partir de la version 10.0.16, spécifiez le format ER dans les paramètres comptables. Lorsque le format ER est défini dans les paramètres comptables, le système l’utilise pour générer des états.
+3. Spécifiez la période de déclaration dans les champs **Date de début** et **Date de fin** dans la boite de dialogue **Paramètres de rapport électronique**.
+4. Si la devise comptable de votre entité juridique n’est pas l’EURO et que vous souhaitez générer le rapport en EURO, sélectionnez **Recalculer en Euro** dans la boîte de dialogue. Lorsque la devise comptable n’est pas l’EURO mais que la devise de reporting l’est, et que vous sélectionnez **Recalculer en Euro**, un rapport est généré avec les montants stockés dans la comptabilité dans la devise de reporting. Lorsque ni les devises de comptabilité ni de reporting ne sont l’EURO et que vous sélectionnez **Recalculer en Euro**, le rapport recalcule automatiquement les montants dans la devise comptable en EURO en utilisant le taux de change stocké dans le système à la date de chaque écriture comptable. La génération du rapport peut prendre plus de temps qu’un rapport généré sans aucun recalcul.
+5. Lorsque vous générez le rapport **Exporter les écritures comptables** pour une période plus longue, exécutez-le par lots. Pour exécuter le rapport par lots, développez le raccourci **Exécuter en arrière-plan** dans la boîte de dialogue, marquez le paramètre **Traitement par lots** et spécifiez les autres paramètres du lot si nécessaire. Suivez la génération du rapport sur la page **Tâches de reporting électronique**.
+6. Cliquez sur **OK** pour générer et télécharger le fichier .txt.
 
     Par exemple, vous validez les écritures comptables suivantes dans la société DEMF.
 

@@ -1,6 +1,6 @@
 ---
 title: Fractionner une immobilisation
-description: Cette rubrique explique comment fractionner un pourcentage d'un registre d'immobilisations en un nouveau registre d'immobilisations.
+description: Cette rubrique explique comment fractionner un pourcentage d’un registre d’immobilisations en un nouveau registre d’immobilisations.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/06/2019
@@ -16,40 +16,40 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000291"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514324"
 ---
 # <a name="split-a-fixed-asset"></a>Fractionner une immobilisation
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment fractionner un pourcentage d'un registre d'immobilisations en un nouveau registre d'immobilisations. Il utilise le rôle de comptable et les données de démonstration de la société USMF fictive.
+Cette rubrique explique comment fractionner un pourcentage d’un registre d’immobilisations en un nouveau registre d’immobilisations. Il utilise le rôle de comptable et les données de démonstration de la société USMF fictive.
 
 ## <a name="create-a-new-fixed-asset"></a>Créer une nouvelle immobilisation
 
 1. Dans le volet de navigation, accédez à **Modules \> Immobilisations \> Immobilisations \> Immobilisations**.
 2. Sélectionnez **Nouveau**.
-3. Entrez ou sélectionnez une valeur dans le champ **Groupe d'immobilisations**. Notez le numéro d'immobilisation à utiliser dans le processus de fractionnement ultérieurement.
-4. Dans le champ **Nom** , entrez une valeur.
-5. Permet de fermer l'écran.
+3. Entrez ou sélectionnez une valeur dans le champ **Groupe d’immobilisations**. Notez le numéro d’immobilisation à utiliser dans le processus de fractionnement ultérieurement.
+4. Dans le champ **Nom**, entrez une valeur.
+5. Permet de fermer l’écran.
 
 ## <a name="split-a-fixed-asset"></a>Fractionner une immobilisation
 
-Avant qu'un actif entièrement amorti ne soit fractionné, le statut du registre des immobilisations doit être modifié manuellement de **Clôturé** à **En cours**. Cette étape est obligatoire car le statut du registre doit être **En cours** si vous devez valider des transactions pour l'immobilisation (par exemple, pour une vente de cession). Une fois le statut du registre des immobilisations modifié, procédez comme suit pour fractionner l'immobilisation.
+Avant qu’un actif entièrement amorti ne soit fractionné, le statut du registre des immobilisations doit être modifié manuellement de **Clôturé** à **En cours**. Cette étape est obligatoire car le statut du registre doit être **En cours** si vous devez valider des transactions pour l’immobilisation (par exemple, pour une vente de cession). Vous devez également activer le paramètre **Autoriser plusieurs transactions dans un seul N° document** sur l’onglet **Général** de la page **Paramètres comptables**. Une fois que le statut du registre d’actifs a été modifié et que plusieurs transactions au sein d’un même N° document ont été autorisées, procédez comme suit pour fractionner l’actif.
 
-1. Dans la liste, recherchez et sélectionnez le lien de l'immobilisation à fractionner.
+1. Dans la liste, recherchez et sélectionnez le lien de l’immobilisation à fractionner.
 2. Sélectionnez **Registres**. Sélectionnez le registre pour fractionner la nouvelle immobilisation.
 3. Sélectionnez **Fonctions**.
 4. Sélectionnez **Fractionner une immobilisation**.
-5. Dans le champ **À l'immobilisation** , entrez ou sélectionnez une valeur.
-6. Dans le champ **Vers le registre** , sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
+5. Dans le champ **À l’immobilisation**, entrez ou sélectionnez une valeur.
+6. Dans le champ **Vers le registre**, sélectionnez le bouton de liste déroulante pour ouvrir la recherche.
 7. Entrez une date dans le champ **Date de transaction**.
 8. Entrez un numéro dans le champ **Pourcentage**.
-9. Dans le champ **Nom de journal** , entrez ou sélectionnez une valeur.
+9. Dans le champ **Nom de journal**, entrez ou sélectionnez une valeur.
 10. Cliquez sur **OK**.
 
 ## <a name="post-the-journal-transaction"></a>Valider la transaction de journal
@@ -59,7 +59,7 @@ Avant qu'un actif entièrement amorti ne soit fractionné, le statut du registre
 3. Sélectionnez **Lignes**.
 
     - Vérifiez les lignes de journal créées.
-    - Une transaction d'ajustement d'acquisition est créée pour l'actif original pour diminuer la valeur par le pourcentage spécifié lors du processus de fractionnement.
-    - Une transaction d'acquisition est créée pour le nouvel actif pour le même montant.
+    - Une transaction d’ajustement d’acquisition est créée pour l’actif original pour diminuer la valeur par le pourcentage spécifié lors du processus de fractionnement.
+    - Une transaction d’acquisition est créée pour le nouvel actif pour le même montant.
 
 4. Sélectionnez **Valider**.

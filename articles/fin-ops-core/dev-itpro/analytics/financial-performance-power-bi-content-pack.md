@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771117"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682743"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solution PowerBI.com Performances financières
 
@@ -34,10 +33,10 @@ ms.locfileid: "2771117"
 Cette rubrique décrit la solution PowerBI.com **Performances financières**. Elle décrit le tableau de bord et les états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer la solution.
 
 ## <a name="main-account-setup"></a>Paramétrage des comptes principaux
-Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d'états via Power BI contrepasse les signes et affiche les montants comme positifs.
+Comme les organisations souhaitent que les passifs et les montants du produit apparaissent comme des montants positifs dans les états, le paramétrage des comptes principaux est important. Pour faire apparaître ces comptes principaux comme montants positifs, le type de compte principal doit être défini sur **Passif** ou **Produit**. Lorsque ces types de comptes sont utilisés, la génération d’états via Power BI contrepasse les signes et affiche les montants comme positifs.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Tableau de bord et états inclus dans la solution PowerBI.com
-Le tableau de bord contient les vignettes résumées des données basées sur les états sous-jacents. Chaque vignette contient des informations résumées pour l'année en cours dans toutes les sociétés d'une organisation. Voici quelques-unes des vignettes :
+Le tableau de bord contient les vignettes résumées des données basées sur les états sous-jacents. Chaque vignette contient des informations résumées pour l’année en cours dans toutes les sociétés d’une organisation. Voici quelques-unes des vignettes :
 
 - Espèces
 - Produit total de cette année
@@ -49,26 +48,26 @@ Le tableau de bord contient les vignettes résumées des données basées sur le
 - Dette sur le total des immobilisations
 - Produit réel par rapport à celui prévu
 - Produit facturé cette année
-- Taux de frais d'exploitation cette année
+- Taux de frais d’exploitation cette année
 - Marge bénéficiaire de cette année
 - Dépenses réelles par rapport à celles budgétées – Toutes les sociétés
 
-Chaque vignette est soutenue par un état de prise en charge. Ces états contiennent des graphiques et des tables qui fournissent plus d'informations. Le tableau suivant décrit ces états.
+Chaque vignette est soutenue par un état de prise en charge. Ces états contiennent des graphiques et des tables qui fournissent plus d’informations. Le tableau suivant décrit ces états.
 
-| Etat                      | Les informations que l'état doit contenir |
+| Etat                      | Les informations que l’état doit contenir |
 |-----------------------------|--------------------------------------|
-| Analyse des disponibilités               | Disponibilités par entité juridique, disponibilités par trimestre, disponibilités totales et disponibilités par compte<blockquote>[!NOTE] Les informations relatives aux disponibilités par trimestre n'incluent pas les soldes d'ouverture dans le total du premier trimestre. Il présente le total des nouvelles transactions validées dans chaque trimestre.</blockquote> |
+| Analyse des disponibilités               | Disponibilités par entité juridique, disponibilités par trimestre, disponibilités totales et disponibilités par compte<blockquote>[!NOTE] Les informations relatives aux disponibilités par trimestre n’incluent pas les soldes d’ouverture dans le total du premier trimestre. Il présente le total des nouvelles transactions validées dans chaque trimestre.</blockquote> |
 | Analyse du taux actuel      | Taux actuel par entité juridique, taux actuel par trimestre et soldes pour les immobilisations actuelles et le passif actuel. |
 | Analyse du taux rapide        | Taux rapide par entité juridique, taux rapide par trimestre et soldes pour les disponibilités, comptabilité client et passif actuel |
-| Analyse du coût des marchandises vendues | Coût des marchandises vendues (COGS) par entité juridique, coût des marchandises vendues cette année et l'année dernière par trimestre, coût des marchandises vendues par entité juridique, coût des marchandises vendues totales et coût des marchandises vendues en pourcentage des ventes |
+| Analyse du coût des marchandises vendues | Coût des marchandises vendues (COGS) par entité juridique, coût des marchandises vendues cette année et l’année dernière par trimestre, coût des marchandises vendues par entité juridique, coût des marchandises vendues totales et coût des marchandises vendues en pourcentage des ventes |
 | Analyse du fonds de roulement    | Fonds de roulement par entité juridique, fonds de roulement par trimestre, actifs actuels, passif en cours et fonds de roulement total |
-| Analyse des immobilisations et des créances     | Rendement du total des actifs et endettement sur total des actifs par entité juridique, ratio d'endettement sur total des actifs et rendement du total des actifs par trimestre jusqu'à présent, immobilisations et passif |
+| Analyse des immobilisations et des créances     | Rendement du total des actifs et endettement sur total des actifs par entité juridique, ratio d’endettement sur total des actifs et rendement du total des actifs par trimestre jusqu’à présent, immobilisations et passif |
 | Analyse de marge bénéficiaire      | Marge bénéficiaire budgétée et réelle par entité juridique, marquage du profit par trimestre, pourcentage de marge bénéficiaire et marge bénéficiaire |
-| Analyse du revenu net         | Revenu net réel et budgétaire par entité juridique, revenu net de cette année et de l'année dernière et dépenses en pourcentage de revenu net |
-| Analyse des bénéfices           | Recettes budgétaires et réelles avant intérêts et taxes (EBIT) par entité juridique, EBIT de cette année et de l'année dernière, dépenses en pourcentage de produit, et dépenses budgétaires et réelles du produit |
-| Analyse du produit            | Produit total, recettes budgétaires et réelles par entité juridique, produit total de cette année et de l'année dernière, écart du budget de produit par entité juridique, et produit total de cette période et de la période passée |
-| Analyse des dépenses            | Dépenses totales, dépenses totales budgétaires et réelles par entité juridique, dépenses réelles et budgétaires par trimestre, dépenses totales par catégorie de compte, et taux de frais d'exploitation |
-| Analyse de produit facturée     | Total de la comptabilité client, total de la comptabilité client par entité juridique, total de la comptabilité client par trimestre et soldes des comptes de ventes<blockquote>[!NOTE] Les informations n'incluent pas les soldes d'ouverture des comptes généraux du module Comptabilité client. Elles indiquent le total des nouvelles transactions validées dans la comptabilité client.</blockquote> |
+| Analyse du revenu net         | Revenu net réel et budgétaire par entité juridique, revenu net de cette année et de l’année dernière et dépenses en pourcentage de revenu net |
+| Analyse des bénéfices           | Recettes budgétaires et réelles avant intérêts et taxes (EBIT) par entité juridique, EBIT de cette année et de l’année dernière, dépenses en pourcentage de produit, et dépenses budgétaires et réelles du produit |
+| Analyse du produit            | Produit total, recettes budgétaires et réelles par entité juridique, produit total de cette année et de l’année dernière, écart du budget de produit par entité juridique, et produit total de cette période et de la période passée |
+| Analyse des dépenses            | Dépenses totales, dépenses totales budgétaires et réelles par entité juridique, dépenses réelles et budgétaires par trimestre, dépenses totales par catégorie de compte, et taux de frais d’exploitation |
+| Analyse de produit facturée     | Total de la comptabilité client, total de la comptabilité client par entité juridique, total de la comptabilité client par trimestre et soldes des comptes de ventes<blockquote>[!NOTE] Les informations n’incluent pas les soldes d’ouverture des comptes généraux du module Comptabilité client. Elles indiquent le total des nouvelles transactions validées dans la comptabilité client.</blockquote> |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

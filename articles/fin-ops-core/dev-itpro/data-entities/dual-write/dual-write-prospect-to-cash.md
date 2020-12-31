@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997398"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683645"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -43,7 +43,7 @@ Avant de pouvoir synchroniser les devis de vente, vous devez mettre à jour les 
 
 ### <a name="setup-in-sales"></a>Configuration dans Sales
 
-Dans Sales, accédez à **Paramètres \> Administration \> Paramètres système \> Sales** , et assurez-vous que les paramètres suivants sont utilisés :
+Dans Sales, accédez à **Paramètres \> Administration \> Paramètres système \> Sales**, et assurez-vous que les paramètres suivants sont utilisés :
 
 - L’option **Utiliser le système de calcul du prix du système** est définie **Oui**.
 - Le champ **Mode de calcul de remise** est défini sur **Ligne article**.
@@ -62,9 +62,9 @@ Par exemple, la souche de numéros dans Supply Chain Management est **1, 2, 3, 4
 
 Les devis sont créés dans Sales ou Supply Chain Management. Si vous créez un devis dans Sales, il est synchronisé avec Supply Chain Management en temps réel. De la même façon, si vous créez un devis dans Supply Chain Management, il est synchronisé avec Sales en temps réel. Notez les points suivants :
 
-+ Vous pouvez ajouter une remise sur le produit sur le devis. Dans ce cas, la remise sera synchronisée avec Supply Chain Management. Les champs **Remise** , **Frais** et **Taxe** sont de l’en-tête sont contrôlés par un paramétrage complexe dans Supply Chain Management. Ce paramétrage ne prend pas en charge la mise en correspondance d’intégration. En lieu et place, les champs **Prix** , **Remise** , **Charge** et **Taxe** sont préservés et gérés dans Supply Chain Management.
-+ Les champs **% de remise** , **Remise** et **Volume de transport** sur l’en-tête de devis sont en lecture seule uniquement.
-+ Les champs **Conditions de transport** , **Conditions de livraison** , **Méthode d’expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l’entité est synchronisée.
++ Vous pouvez ajouter une remise sur le produit sur le devis. Dans ce cas, la remise sera synchronisée avec Supply Chain Management. Les champs **Remise**, **Frais** et **Taxe** sont de l’en-tête sont contrôlés par un paramétrage complexe dans Supply Chain Management. Ce paramétrage ne prend pas en charge la mise en correspondance d’intégration. En lieu et place, les champs **Prix**, **Remise**, **Charge** et **Taxe** sont préservés et gérés dans Supply Chain Management.
++ Les champs **% de remise**, **Remise** et **Volume de transport** sur l’en-tête de devis sont en lecture seule uniquement.
++ Les champs **Conditions de transport**, **Conditions de livraison**, **Méthode d’expédition** et **Mode de distribution** ne font pas partie des mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l’entité est synchronisée.
 
 Si vous utilisez également la solution Field Service, assurez-vous de réactiver le paramètre **Création rapide de ligne de devis**. La réactivation du paramètre vous permet de continuer à créer des lignes de devis à l’aide de la fonction de création rapide.
 1. Accédez à votre application Dynamics 365 Sales.
@@ -98,7 +98,7 @@ Si vous synchronisez de Supply Chain Management vers Sales, vous obtenez le rés
 
 ## <a name="dual-write-solution-for-sales"></a>Solution en double écriture pour Sales
 
-De nouveaux champs sont ajoutés à l’entité **Commande** et s’affichent sur la page. La plupart de ces champs apparaissent sur l’onglet **Intégration** dans Sales. Pour en savoir plus sur le mappage des champs de statut, reportez-vous à la rubrique de la documentation pour [Configurer le mappage pour les champs de statut de la commande client](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
+De nouveaux champs sont ajoutés à l’entité **Commande** et s’affichent sur la page. La plupart de ces champs apparaissent sur l’onglet **Intégration** dans Sales. Pour en savoir plus sur le mappage des champs de statut, voir [Configurer le mappage pour les champs de statut de la commande client](sales-status-map.md).
 
 + Les boutons **Créer une facture** et **Annuler une commande** sur la page **Commande client** sont masquées dans Sales.
 + Le **Statut d’une commande client** restera **Actif** pour garantir que les modifications effectuées dans Supply Chain Management peuvent être répercutées dans la commande client avec Sales. Cette opération est contrôlée en définissant le paramètre par défaut **Statecode \[Statut\]** sur **Actif**.
@@ -110,11 +110,11 @@ Les factures sont créées dans Supply Chain Management et synchronisées vers S
 + Un champ **Numéro de facture** a été ajouté à l’entité **Facture** et apparaît sur la page.
 + Le bouton **Créer une facture** sur la page **Commande client** est masqué car les factures sont créées dans Supply Chain Management et synchronisées avec Sales. La page **Facture** ne peut pas être modifiée car les factures sont synchronisées à partir de Supply Chain Management.
 + La valeur **Statut de la commande client** passe automatiquement à **Facturé** lorsque la facture concernée dans Supply Chain Management a été synchronisée avec Sales. En outre, le propriétaire de la commande client pour laquelle la facture a été créée est désigné propriétaire de la facture. Par conséquent, le propriétaire de la commande client peut afficher la facture.
-+ Les champs **Conditions de transport** , **Conditions de livraison** et **Mode de distribution** ne sont pas inclus dans les mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l’entité est synchronisée.
++ Les champs **Conditions de transport**, **Conditions de livraison** et **Mode de distribution** ne sont pas inclus dans les mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l’entité est synchronisée.
 
 ## <a name="templates"></a>Modèles
 
-Prospect en disponibilité comprend un ensemble de mappages d’entités de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
+Prospect en disponibilité comprend un ensemble de mappages de tables de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
 | Applications Finance and Operations | Applications pilotées par modèle dans Dynamics 365 | Description |
 |-----------------------------|-----------------------------------|-------------|
@@ -126,7 +126,7 @@ Prospect en disponibilité comprend un ensemble de mappages d’entités de base
 | En-tête de devis de vente CDS  | devis                            |             |
 | Lignes de devis de vente CDS   | quotedetails                      |             |
 
-Voici les cartes des entités principales associées pour le prospect en disponibilités :
+Voici les cartes des tables principales associées pour le prospect en disponibilités :
 
 + [Clients V3 vers comptes](customer-mapping.md#customers-v3-to-accounts)
 + [Contacts CDS V2 vers contacts](customer-mapping.md#cds-contacts-v2-to-contacts)

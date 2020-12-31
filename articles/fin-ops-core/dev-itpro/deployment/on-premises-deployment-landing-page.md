@@ -1,37 +1,36 @@
 ---
-title: Page d'accueil de déploiement local
+title: Page d’accueil de déploiement local
 description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
 author: sericks007
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367056"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679342"
 ---
-# <a name="on-premises-deployment-home-page"></a>Page d'accueil de déploiement local
+# <a name="on-premises-deployment-home-page"></a>Page d’accueil de déploiement local
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d'un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
+Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque vous sélectionnez un type de déploiement sur site, la configuration système requise, le calibrage du matériel, et la fonctionnalité diffèrent d’un déploiement dans le cloud. Cette rubrique fournit des liens vers du contenu contenant des informations spécifiques sur les déploiements sur site.
 
 ## <a name="get-started"></a>Mise en route
-- [Vue d'ensemble de déploiement local](on-premises-overview.md)
+- [Vue d’ensemble de déploiement local](on-premises-overview.md)
 - [Planifier et préparer les déploiements locaux](plan-onprem-deployment.md)
 - [Configuration requise pour les déploiements locaux](../../fin-ops/get-started/system-requirements-on-prem.md)
 - [Configuration requise pour le calibrage de matériel pour les environnements sur site](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
@@ -41,7 +40,7 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 ## <a name="onboard"></a>Intégrer
 - [Paramétrer des projets sur site dans Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Paramétrer et déployer des environnements sur site (Platform update 12 et versions ultérieures)](setup-deploy-on-premises-pu12.md)
-- [Installer des périphériques d'impression réseau dans les environnements sur site](../analytics/install-network-printer-onprem.md)
+- [Installer des périphériques d’impression réseau dans les environnements sur site](../analytics/install-network-printer-onprem.md)
 - [Configurer SQL Server Reporting Services pour des déploiements sur site](../analytics/configure-ssrs-on-premises.md)
 - [Développer et déployer les modèles personnalisés sur les environnements sur site](develop-deploy-custom-models-on-premises.md)
 
@@ -58,7 +57,7 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 
 ## <a name="commerce"></a>Commerce
 - [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../retail/retail-onprem.md)
-- [Étapes d'installation des composants du canal de vente au détail dans un environnement sur site](deploy-retail-onprem.md)
+- [Étapes d’installation des composants du canal de vente au détail dans un environnement sur site](deploy-retail-onprem.md)
 - [Configurer, installer et activer Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
 - [Configurer et installer Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
@@ -70,7 +69,6 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Scripts pour résoudre les problèmes dans les environnements locaux](onprem-tsg-implementations.md)
 - [Rotation du certificat](certificate-rotation-on-prem.md)
 - [Diagnostics locaux](on-premises-diagnostics.md)
-- [Fonctions non implémentées dans les déploiements locaux](../../fin-ops/get-started/features-not-implemented-on-prem.md)
 - [Fonctionnalités supprimées ou obsolètes pour Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)
  

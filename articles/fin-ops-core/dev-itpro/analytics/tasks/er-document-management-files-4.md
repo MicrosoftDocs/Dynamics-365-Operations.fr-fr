@@ -1,6 +1,6 @@
 ---
 title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 4 - Exécuter le format)
-description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents dans la sortie ER.
+description: Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un format de génération d’états électroniques pour utiliser les fichiers de gestion des documents dans la sortie ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,30 +11,29 @@ ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142614"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681779"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 4 - Exécuter le format)
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur affecté au rôle d'administrateur système ou de développeur d'états électroniques peut configurer un format de génération d'états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER. Ces étapes peuvent être effectuées dans la société DEMF.
+Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un format de génération d’états électroniques pour utiliser les fichiers de gestion des documents (pièces jointes) dans la sortie ER. Ces étapes peuvent être effectuées dans la société DEMF.
 
-Pour effectuer ces étapes, vous devez d'abord effectuer les étapes de la procédure « ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Créer un format) ».
+Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la procédure « ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 : Créer un format) ».
 
-Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+Cette procédure s’applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 
-## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Ajoutez les pièces jointes nécessaires pour la commande client d'une facture unique
+## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Ajoutez les pièces jointes nécessaires pour la commande client d’une facture unique
 1. Accédez à Comptabilité client > Factures > Factures client en cours.
 2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez le champ Facture avec la valeur « CIV-000148 ».
     * CIV-000148  
@@ -42,7 +41,7 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
     * CIV-000148  
 4. Cliquez pour suivre le lien du champ Commande client.
     * 000148  
-5. Dans le champ Lignes ou en-tête, sélectionnez l'option En-tête.
+5. Dans le champ Lignes ou en-tête, sélectionnez l’option En-tête.
     * Sélectionnez En-tête pour indiquer que cette valeur désigne la cible pour ajouter des pièces jointes.  
 6. Cliquez Joindre.
     * Ajoutez quelques fichiers en pièces jointes pour cette commande client. Utilisez les fichiers des types de documents pris en charge par la gestion des documents (avec les extensions de fichier DOCX, DPF, XML, JPG, etc.). Parcourez et sélectionnez les fichiers à joindre et à traiter davantage avec la facture associée dans le message électronique ER.  
@@ -55,11 +54,11 @@ Cette procédure s'applique à une fonction qui a été ajoutée dans la version
 13. Fermez la page.
 14. Fermez la page.
 
-## <a name="run-the-designed-report-for-the-selected-invoice"></a>Exécuter l'état désigné pour la facture sélectionnée
-1. Accédez à Administration d'organisation > États électroniques > Configurations.
-2. Dans l'arborescence, développez « Modèle de facture client ».
-3. Dans l'arborescence, développez « Modèle de facture client\Modèle de facture client (personnalisé) ».
-4. Dans l'arborescence, sélectionnez « Modèle de facture client\Modèle de facture client (personnalisé)\Exemple de message de facture électronique ».
+## <a name="run-the-designed-report-for-the-selected-invoice"></a>Exécuter l’état désigné pour la facture sélectionnée
+1. Accédez à Administration d’organisation > États électroniques > Configurations.
+2. Dans l’arborescence, développez « Modèle de facture client ».
+3. Dans l’arborescence, développez « Modèle de facture client\Modèle de facture client (personnalisé) ».
+4. Dans l’arborescence, sélectionnez « Modèle de facture client\Modèle de facture client (personnalisé)\Exemple de message de facture électronique ».
 5. Cliquez sur Exécuter.
 6. Développez la section Enregistrements à inclure ().
 7. Cliquez sur Filtre.

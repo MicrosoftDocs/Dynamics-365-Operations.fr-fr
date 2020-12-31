@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
-ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3653774"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645767"
 ---
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
@@ -92,6 +92,11 @@ Les budgets créés à partir des modèles de budget peuvent être inclus dans l
 ### <a name="inventory-management"></a>Gestion des stocks
 
 Les approvisionnements et les prévisions de la demande de stock peuvent être inclus dans les prévisions des flux de trésorerie. Dans l’onglet **Gestion des stocks** de la page **Configuration des prévisions de flux de trésorerie**, sélectionnez le modèle de budget à inclure dans la prévision de flux de trésorerie. L’inclusion dans les prévisions des flux de trésorerie peut être remplacée sur chaque ligne d’approvisionnement et de prévision de la demande.
+
+### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Configuration des dimensions pour la prévision des flux de trésorerie
+Un nouvel onglet sur la page **Configuration des prévisions de flux de trésorerie** vous permet de contrôler les dimensions financières à utiliser pour le filtrage dans l’espace de travail **Prévision des flux de trésorerie**. Cet onglet n’apparaîtra que lorsque la fonction de prévision des flux de trésorerie est activée. 
+
+Sur l’onglet **Dimensions**, choisissez dans la liste des dimensions à utiliser pour le filtrage et utilisez les touches fléchées pour les déplacer vers la colonne de droite. Seules deux dimensions peuvent être sélectionnées pour filtrer les données de prévision des flux de trésorerie. 
 
 ### <a name="calculation"></a>Calcul
 

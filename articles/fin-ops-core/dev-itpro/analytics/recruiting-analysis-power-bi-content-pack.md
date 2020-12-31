@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b92078ca2bc89d752895bf3b4f2f3cdb2c2fd2f6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 524b1c29d204c1b013546008b1be7868cbf8db06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185219"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680560"
 ---
 # <a name="recruiting-power-bi-content"></a>Contenu Power BI Recrutement
 
@@ -32,26 +31,26 @@ ms.locfileid: "2185219"
 Cette rubrique décrit le contenu Microsoft Power BI **Recrutement**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Le contenu Power BI **Recrutement** s'affiche dans l'espace de travail **Gestion des recrutements**.
+Le contenu Power BI **Recrutement** s’affiche dans l’espace de travail **Gestion des recrutements**.
 
-## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>États et éléments visuels de l'espace de travail Gestion des recrutements
-L'espace de travail **Gestion des recrutements** contient un onglet **Analyses**. Cet onglet contient le contenu Power BI intégré pour le recrutement. Le contenu se compose d'un onglet Vue d'ensemble et d'onglets supplémentaires contenant des détails. Le tableau suivant décrit les états de chaque onglet.
+## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>États et éléments visuels de l’espace de travail Gestion des recrutements
+L’espace de travail **Gestion des recrutements** contient un onglet **Analyses**. Cet onglet contient le contenu Power BI intégré pour le recrutement. Le contenu se compose d’un onglet Vue d’ensemble et d’onglets supplémentaires contenant des détails. Le tableau suivant décrit les états de chaque onglet.
 
 | Etat               | Sommaire |
 |----------------------|----------|
-| Vue d'ensemble du recrutement | Résume d'autres états |
+| Vue d’ensemble du recrutement | Résume d’autres états |
 | Analyse du candidat   | Nombre total de candidats, candidats par tâche, sources de candidat, candidats femme et homme et candidats par emplacement |
 | Statut du candidat     | Candidats par type et statut, et statut du candidat |
-| Analyse de recrutement  | Taux net d'embauche, jours moyens d'embauche, pourcentage de mauvaises embauches, coûts de recrutement, nombre de projets de recrutement, d'embauches sur candidature, de candidats et d'ouvertures par projet de recrutement |
+| Analyse de recrutement  | Taux net d’embauche, jours moyens d’embauche, pourcentage de mauvaises embauches, coûts de recrutement, nombre de projets de recrutement, d’embauches sur candidature, de candidats et d’ouvertures par projet de recrutement |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Le tableau suivant indique les entités sur lesquelles le pack de contenu Power BI **Recrutement** est basé.
 
-| Entité               | Sommaire                                                         | Relations avec d'autres entités |
+| Entité               | Sommaire                                                         | Relations avec d’autres entités |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
-| Candidat            | Candidats, candidats engagés, Taux net d'embauche et coûts          | Nom du candidat, société, décalage de calendrier, date, emplacement géographique, démographie, tâche, support, projet de recrutement |
+| Candidat            | Candidats, candidats engagés, Taux net d’embauche et coûts          | Nom du candidat, société, décalage de calendrier, date, emplacement géographique, démographie, tâche, support, projet de recrutement |
 | Nom du candidat       | Prénom, nom et nom complet du candidat                   | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Décalage de calendrier      | Décalages de calendrier pour diviser les états                                | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Société              | Sociétés selon lesquelles filtrer les états                                   | Candidat, candidat employé, candidat dont le contrat est terminé |

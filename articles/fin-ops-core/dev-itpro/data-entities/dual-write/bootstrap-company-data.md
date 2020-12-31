@@ -1,6 +1,6 @@
 ---
 title: Démarrer la FAQ relative aux données de la société
-description: Procédure de démarrage de Common Data Service ou d'autres données de l'application Dynamics 365 avec les informations de l'entreprise avant d'activer la connexion en double écriture.
+description: Procédure de démarrage de Dataverse ou d’autres données de l’application Dynamics 365 avec les informations de l’entreprise avant d’activer la connexion en double écriture.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -18,49 +18,50 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 8cd753a5b0d63833a911e0692c83c653e0278153
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997574"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683769"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Démarrer la FAQ relative aux données de la société
  
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="why-do-i-need-bootstrapping"></a>Pourquoi ai-je besoin de procéder à un démarrage ? 
-Vous devriez avoir un Common Data Service existant ou autre instance d'application Dynamics 365 avec des données commerciales, et vous devez activer la connexion en double écriture. Dans ce cas, vous devez démarrer Common Data Service ou d'autres données de l'application Dynamics 365 avec les informations de l'entreprise avant d'activer la connexion en double écriture.  
+Vous devriez avoir un Dataverse existant ou autre instance d’application Dynamics 365 avec des données commerciales, et vous devez activer la connexion en double écriture. Dans ce cas, vous devez démarrer Dataverse ou d’autres données de l’application Dynamics 365 avec les informations de l’entreprise avant d’activer la connexion en double écriture.  
  
 ## <a name="when-should-i-use-bootstrapping"></a>Quand dois-je utiliser le démarrage ? 
-Vous devez utiliser le démarrage avant d'activer les cartes d'entité en double écriture (pendant l'étape n° 5).  
-1. Pour configurer la connexion en double écriture entre les instances de votre application Finance and Operations et de l'application Common Data Service ou de toute autre application Dynamics 365, connectez-vous à l'application Finance and Operations en tant qu'administrateur. 
-2. Accédez au module **Gestion des données** et cliquez sur le bouton **Double-écriture**. Cela lance l' **Intégrateur de données**. 
+Vous devez utiliser le démarrage avant d’activer les cartes de table en double écriture (pendant l’étape n° 5).  
+1. Pour configurer la connexion en double écriture entre les instances de votre application Finance and Operations et de l’application Dataverse ou de toute autre application Dynamics 365, connectez-vous à l’application Finance and Operations en tant qu’administrateur. 
+2. Accédez au module **Gestion des données** et cliquez sur le bouton **Double-écriture**. Cela lance l’**Intégrateur de données**. 
 3. Créez la connexion en double écriture pour une ou plusieurs sociétés.  
     > [!div class="mx-imgBorder"]
     > ![Créer la connexion en double écriture](media/dual-write-boot-1.png)
-4. Activez la carte d'entité **Cdm_companies**. Cela synchronise les entreprises de l'application Finance and Operations pour Common Data Service.  
+4. Activez la carte de table **Cdm_companies**. Cela synchronise les entreprises de l’application Finance and Operations pour Dataverse.  
     > [!div class="mx-imgBorder"]
-    > ![Activer la carte d'entité](media/dual-write-boot-2.png)
-5. Exécutez les exemples de code de démarrage sur Common Data Service ou toute autre instance d'application de Dynamics 365.  
-6. Une fois le démarrage effectué et le système prêt pour la synchronisation en direct, activez les cartes d'entité.  
+    > ![Activer la carte de table](media/dual-write-boot-2.png)
+5. Exécutez les exemples de code de démarrage sur Dataverse ou toute autre instance d’application de Dynamics 365.  
+6. Une fois le démarrage effectué et le système prêt pour la synchronisation en direct, activez les cartes de table.  
 
-    L'activation des cartes d'entité déclenche la synchronisation des données initiales pour les cartes d'entité activées. Les données correspondant aux sociétés sélectionnées sur la connexion en double écriture sont synchronisées entre l'application Finance and Operations et Common Data Service. 
+    L’activation des cartes de table déclenche la synchronisation des données initiales pour les cartes de table activées. Les données correspondant aux sociétés sélectionnées sur la connexion en double écriture sont synchronisées entre l’application Finance and Operations et Dataverse. 
  
-## <a name="how-to-i-use-the-code-sample"></a>Comment utiliser l'exemple de code ?
-L'exemple de code est une application C# que vous pouvez charger dans Visual Studio. Il prend des dépendances de pack NuGet sur le kit de développement logiciel Common Data Service, que vous pouvez actualiser via l'outillage standard de Visual Studio. 
+## <a name="how-to-i-use-the-code-sample"></a>Comment utiliser l’exemple de code ?
+L’exemple de code est une application C# que vous pouvez charger dans Visual Studio. Il prend des dépendances de pack NuGet sur le kit de développement logiciel Dataverse, que vous pouvez actualiser via l’outillage standard de Visual Studio. 
 
-Après avoir décompressé et ouvert la solution dans Visual Studio et avoir restauré les packs NuGet, recherchez **TODO** dans le code. Chaque décision que vous devez prendre sur la manière dont vous souhaitez démarrer les informations d'entreprise est indiquée par un **TODO** , avec un exemple de code pour mise en place canonique. 
+Après avoir décompressé et ouvert la solution dans Visual Studio et avoir restauré les packs NuGet, recherchez **TODO** dans le code. Chaque décision que vous devez prendre sur la manière dont vous souhaitez démarrer les informations d’entreprise est indiquée par un **TODO**, avec un exemple de code pour mise en place canonique. 
 
-L'exemple de code n'affiche qu'une des nombreuses façons dont vous pouvez catégoriser les enregistrements d'entité par entreprise. En modifiant la logique dans les sections **TODO** , vous pouvez créer votre catégorisation personnalisée. 
+L’exemple de code n’affiche qu’une des nombreuses façons dont vous pouvez catégoriser les lignes d’entité par entreprise. En modifiant la logique dans les sections **TODO**, vous pouvez créer votre catégorisation personnalisée. 
  
-## <a name="what-should-i-expect"></a>À quoi dois-je m'attendre ?
-Par défaut, l'exemple d'application vous permet de fournir un dictionnaire de mises en correspondance de code d'unité commerciale vers entreprise. Une entité que vous démarrez avec un champ **OwningBusinessUnit** est automatiquement définie pour utiliser la société spécifiée. Une entité sans champ **OwningBusinessUnit** , comme un produit, définira la société selon la mise en correspondance avec une valeur d'unité commerciale vide.
+## <a name="what-should-i-expect"></a>À quoi dois-je m’attendre ?
+Par défaut, l’exemple d’application vous permet de fournir un dictionnaire de mises en correspondance de code d’unité commerciale vers entreprise. Une entité que vous démarrez avec un champ **OwningBusinessUnit** est automatiquement définie pour utiliser la société spécifiée. Une entité sans champ **OwningBusinessUnit**, comme un produit, définira la société selon la mise en correspondance avec une valeur d’unité commerciale vide.
 
-L'application de la console anticipe un paramètre, **–simulate** ou **–apply**. Si vous utilisez le paramètre de ligne de commande **–simulate** , aucune donnée n'est mise à jour. Seuls les fichiers **<entityname>.csv** sont générés dans le même dossier que l'outil, un pour chaque entité qui aurait été mise à jour. Vous pouvez itérativement examiner ces fichiers tout en faisant en sorte de veiller à ce que le code mette à jour les valeurs d'entreprise, comme prévu. 
+L’application de la console anticipe un paramètre, **–simulate** ou **–apply**. Si vous utilisez le paramètre de ligne de commande **–simulate**, aucune donnée n’est mise à jour. Seuls les fichiers **<entityname>.csv** sont générés dans le même dossier que l’outil, un pour chaque entité qui aurait été mise à jour. Vous pouvez itérativement examiner ces fichiers tout en faisant en sorte de veiller à ce que le code mette à jour les valeurs d’entreprise, comme prévu. 
 
-Lorsque vous terminez les mises à jour simulées, alors utilisez le paramètre **–apply**. Cela met à jour tous les enregistrements qui ont actuellement une valeur d'entreprise incorrecte, en lots de 1 000 enregistrements à la fois (par défaut). Le code est idempotent comme indiqué. Autrement dit, vous pouvez le réexécuter et seules les entreprises mal affectées seront mises à jour. Lors de l'exécution avec **–apply** , le code génère des fichiers CSV des modifications apportées, qui sont intitulés **applied_<entityname>.csv**. 
+Lorsque vous terminez les mises à jour simulées, alors utilisez le paramètre **–apply**. Cela met à jour toutes les lignes qui ont actuellement une valeur d’entreprise incorrecte, en lots de 1 000 lignes à la fois (par défaut). Le code est idempotent comme indiqué. Autrement dit, vous pouvez le réexécuter et seules les entreprises mal affectées seront mises à jour. Lors de l’exécution avec **–apply**, le code génère des fichiers CSV des modifications apportées, qui sont intitulés **applied_<entityname>.csv**. 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;
@@ -76,13 +77,13 @@ using System.IO;
 namespace BootstrapCompany
 {
     /// <summary>
-    /// Application to bootstrap the company field on existing records in CDS in preparation for integration to Finance and Operations.
+    /// Application to bootstrap the company field on existing rows in CDS in preparation for integration to Finance and Operations.
     /// </summary>
     /// <remarks>
     /// This application assumes that the target companies already exist in the CDS environment in the cdm_Company table and are
-    /// identified by their company code. It also assumes that the current owning business unit of each record should be used
+    /// identified by their company code. It also assumes that the current owning business unit of each row should be used
     /// to categorize by company. This logic can easily be updated to utilize alternate sources of categorization including
-    /// custom entities, teams, custom fields on tables, or any other data. This code is provided only as a sample. 
+    /// custom tables, teams, custom fields on tables, or any other data. This code is provided only as a sample. 
     /// 
     /// To utilize this code, update each of the locations currently denoted with a TODO statement.
     /// 
@@ -91,7 +92,7 @@ namespace BootstrapCompany
     public class Program
     {
         /// <summary>
-        /// The number of records to query and update in CDS in a single operation.
+        /// The number of rows to query and update in CDS in a single operation.
         /// </summary>
         /// <remarks>
         /// The larger this number, the fewer calls will need to be made, so the faster the updates
@@ -115,12 +116,12 @@ namespace BootstrapCompany
         const int maxFaultThreshold = 100;
 
         /// <summary>
-        /// The maximum number of records per business unit to export when simulating.
+        /// The maximum number of rows per business unit to export when simulating.
         /// </summary>
         /// <remarks>
         /// During simulation, queries are not batched since doing so would require ordering and so be slightly
         /// different from the actual execution logic. To keep this the same between both paths, simulates are
-        /// not batched and so a separate maximum number of records per business unit can be specified.
+        /// not batched and so a separate maximum number of rows per business unit can be specified.
         /// </remarks>
         const int maxSimulateRecordsPerBusinessUnit = 10000;
 
@@ -130,8 +131,8 @@ namespace BootstrapCompany
         /// <remarks>
         /// This is different than setting maxFaultThreshold = 0, since the first batch of updates will be processed
         /// together. If continueOnError is true and maxFaultThreshold is 0, it is possible that multiple errors may
-        /// be encountered and at the same time some records successfully updated. In a healthy system when updating
-        /// a higher number of records, an occasional spurious error is expected, so it is recommended this be left as true.
+        /// be encountered and at the same time some rows successfully updated. In a healthy system when updating
+        /// a higher number of rows, an occasional spurious error is expected, so it is recommended this be left as true.
         /// </remarks>
         const bool continueOnError = true;
 
@@ -182,7 +183,7 @@ namespace BootstrapCompany
 
                 // TODO: Provide a mapping of OwningBusinessUnit name to cdm_Company company ID. You can reuse
                 // the same company ID for multiple business units if desired. In this example, it assumes that
-                // the business unit named "USMF" is related to the company "USMF". If all records were owned
+                // the business unit named "USMF" is related to the company "USMF". If all rows were owned
                 // by the same root business unit, then the first field in the dictionary should be set to the 
                 // name of the root business unit, usually the same value as the organization (eg, "Contoso").
                 Dictionary<string, string> businessUnitToCompanyMapping = new Dictionary<string, string>()
@@ -192,16 +193,16 @@ namespace BootstrapCompany
                     { "FRRT", "FRRT" },
                 };
 
-                // TODO: Provide a list of entities for which the company field should be backfilled based
-                // on owning business unit. The list below represents all existing entities for which a cdm_Company
+                // TODO: Provide a list of tables for which the company field should be backfilled based
+                // on owning business unit. The list below represents all existing tables for which a cdm_Company
                 // lookup field was added as part of the Finance and Operations dual write project.
                 BatchUpdateEntity(orgService, "account", "msdyn_company", businessUnitToCompanyMapping, true, isSimulate, "accountnumber", "name");
                 BatchUpdateEntity(orgService, "contact", "msdyn_company", businessUnitToCompanyMapping, true, isSimulate, "fullname");
                 // ... Add more here
 
-                // Note, the product entity does not have an owningbusinessunit field like most other entities, so
+                // Note, the product entity does not have an owningbusinessunit field like most other tables, so
                 // assigning company by Business Unit is not applicable. In this case, whichever mapping specifies an
-                // empty business unit will be used to categorize entities without an owningbusinessunit field.
+                // empty business unit will be used to categorize tables without an owningbusinessunit field.
                 BatchUpdateEntity(orgService, "product", "msdyn_companyid", businessUnitToCompanyMapping, false, isSimulate, "productnumber");
             }
             else
@@ -250,9 +251,9 @@ namespace BootstrapCompany
             // Process each mapped business unit individually
             foreach (string businessUnitName in businessUnitToCompanyMapping.Keys)
             {
-                Console.WriteLine("Updating any {0} records for business unit {1} to company {2}...", entityName, businessUnitName, businessUnitToCompanyMapping[businessUnitName]);
+                Console.WriteLine("Updating any {0} rows for business unit {1} to company {2}...", entityName, businessUnitName, businessUnitToCompanyMapping[businessUnitName]);
 
-                // The empty business unit value is only applicable for entities without an owning business unit field
+                // The empty business unit value is only applicable for tables without an owning business unit field
                 if (hasOwningBusinessUnit && string.IsNullOrEmpty(businessUnitName))
                 {
                     continue;
@@ -271,7 +272,7 @@ namespace BootstrapCompany
                 {
                     moreRecordsExist = false;
 
-                    // Find the first batch of records for this business unit with the wrong company ID. Ordering
+                    // Find the first batch of rows for this business unit with the wrong company ID. Ordering
                     // is not explicity specified, but SQL will most likely process based on the index starting with
                     // company ID, since all new company ID fields added for Finance and Operations integration have
                     // also added a new index starting with company ID. Explicitly specifying order would reduce the
@@ -291,16 +292,16 @@ namespace BootstrapCompany
 
                     if (isSimulate)
                     {
-                        // During simulation, get as a single block of records to avoid positioning complexities
+                        // During simulation, get as a single block of rows to avoid positioning complexities
                         query.TopCount = maxSimulateRecordsPerBusinessUnit;
                     }
                     else
                     {
-                        // Only batch records during actual application, otherwise retrieve all as a single operation
+                        // Only batch rows during actual application, otherwise retrieve all as a single operation
                         query.TopCount = requestBatchSize + faultedIds.Count;
                     }
 
-                    // For entities with an owning business unit, join based on business unit name
+                    // For tables with an owning business unit, join based on business unit name
                     if (hasOwningBusinessUnit)
                     {
                         // TODO: Replace this logic with different algorithms to determine the correct company
@@ -322,7 +323,7 @@ namespace BootstrapCompany
 
                     EntityCollection result = orgService.RetrieveMultiple(query);
 
-                    int recordsAddedToBatch = 0;
+                    int rowsAddedToBatch = 0;
 
                     foreach (var entity in result.Entities)
                     {
@@ -355,15 +356,15 @@ namespace BootstrapCompany
                             multipleRequest.Requests.Add(updateRequest);
                         }
 
-                        recordsAddedToBatch++;
+                        rowsAddedToBatch++;
                         Console.Write(".");
                     }
 
-                    totalRecordsProcessed += recordsAddedToBatch;
+                    totalRecordsProcessed += rowsAddedToBatch;
 
-                    if (recordsAddedToBatch > 0 && !isSimulate)
+                    if (rowsAddedToBatch > 0 && !isSimulate)
                     {
-                        Console.Write("Sending {0} updates in a batch", recordsAddedToBatch);
+                        Console.Write("Sending {0} updates in a batch", rowsAddedToBatch);
                         var updateResult = orgService.Execute(multipleRequest) as ExecuteMultipleResponse;
                         moreRecordsExist = true;
                         Console.WriteLine(" done");
@@ -389,7 +390,7 @@ namespace BootstrapCompany
                     }
                     else
                     {
-                        Console.WriteLine("No {0} records remain to be updated for {1}->{2}", entityName, businessUnitName, businessUnitToCompanyMapping[businessUnitName]);
+                        Console.WriteLine("No {0} rows remain to be updated for {1}->{2}", entityName, businessUnitName, businessUnitToCompanyMapping[businessUnitName]);
                     }
                 }
             }
@@ -398,7 +399,7 @@ namespace BootstrapCompany
             simulationWriter = null;
 
             stopwatch.Stop();
-            Console.WriteLine("Processed {0} records for the {1} entity in {2}ms.", totalRecordsProcessed, entityName, stopwatch.ElapsedMilliseconds);
+            Console.WriteLine("Processed {0} rows for the {1} entity in {2}ms.", totalRecordsProcessed, entityName, stopwatch.ElapsedMilliseconds);
 
             return (faultedIds.Count == 0);
         }

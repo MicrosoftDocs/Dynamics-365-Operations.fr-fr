@@ -1,6 +1,6 @@
 ---
-title: Accéder aux métadonnées d'application à l'aide des applications connectées
-description: Les étapes de cette rubrique expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d'états électroniques (ER) à l'aide des métadonnées de Finance and Operations.
+title: Accéder aux métadonnées d’application à l’aide des applications connectées
+description: Les étapes de cette rubrique expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques (ER) à l’aide des métadonnées de Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142199"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682139"
 ---
-# <a name="access-application-metadata-by-using-connected-applications"></a>Accéder aux métadonnées d'application à l'aide des applications connectées
+# <a name="access-application-metadata-by-using-connected-applications"></a>Accéder aux métadonnées d’application à l’aide des applications connectées
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d'administrateur système ou de développeur d'états électroniques peut créer une mise en correspondance de modèle de génération d'états électronique (ER) en utilisant les métadonnées de Finance and Operations. Les métadonnées d'application ne sons accessibles en ligne qu'à l'aide de l'application RCS connectée. L'exemple de mise en correspondance de modèle ER est configuré pour accéder à des transactions de commerce extérieur. Pour effectuer ces étapes, dans RCS vous devez commencer par effectuer les étapes de cette rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Si vous n'avez pas réalisé les étapes de la rubrique [Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques](access-application-metadata-er-configuration.md), ouvrez la [Page d'exemples de génération d'états électroniques](https://go.microsoft.com/fwlink/?linkid=862266) pour télécharger et enregistrer les configurations ER suivantes : Foreign trade metadata.xml ; Foreign trade model.xml ; Foreign trade mapping.xml ; puis exécutez les étapes de la procédure.
+Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une mise en correspondance de modèle de génération d’états électronique (ER) en utilisant les métadonnées de Finance and Operations. Les métadonnées d’application ne sons accessibles en ligne qu’à l’aide de l’application RCS connectée. L’exemple de mise en correspondance de modèle ER est configuré pour accéder à des transactions de commerce extérieur. Pour effectuer ces étapes, dans RCS vous devez commencer par effectuer les étapes de cette rubrique, [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). Si vous n’avez pas réalisé les étapes de la rubrique [Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques](access-application-metadata-er-configuration.md), ouvrez la [Page d’exemples de génération d’états électroniques](https://go.microsoft.com/fwlink/?linkid=862266) pour télécharger et enregistrer les configurations ER suivantes : Foreign trade metadata.xml ; Foreign trade model.xml ; Foreign trade mapping.xml ; puis exécutez les étapes de la procédure.
 
 ## <a name="prerequisites"></a>Conditions préalables
 1. Accédez à **Tous les espaces de travail** > **États électroniques**. 
-2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s'affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vérifiez que le fournisseur de configuration pour la société fictive, Litware, Inc., est disponible et marqué comme **Actif**. Si ce fournisseur de configuration ne s’affiche pas, effectuez les étapes de la procédure [Créer des fournisseurs de configuration et les marquer comme actifs](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="get-required-er-configurations"></a>Obtenir les configurations ER requises
 1. Cliquez sur **Configurations des états**. 
-2. Si vous avez déjà réalisé les étapes de la procédure [Accéder aux métadonnées d'application à l'aide de la configuration de la gestion des états électroniques](access-application-metadata-er-configuration.md), vous disposez déjà de toutes les configurations ER nécessaires (métadonnées de commerce extérieur, configurations de modèle et de mise en correspondance) dans l'instance RCS actuelle. Vous pouvez ignorer toutes les étapes restantes de cette sous-tâche. 
+2. Si vous avez déjà réalisé les étapes de la procédure [Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques](access-application-metadata-er-configuration.md), vous disposez déjà de toutes les configurations ER nécessaires (métadonnées de commerce extérieur, configurations de modèle et de mise en correspondance) dans l’instance RCS actuelle. Vous pouvez ignorer toutes les étapes restantes de cette sous-tâche. 
 3. Cliquez sur **Exchange**. 
 4. Cliquez sur **Charger depuis le fichier XML**. 
 5. Cliquez sur **Parcourir** et sélectionnez le fichier **Foreign trade metadata.xml**. 
@@ -54,63 +53,63 @@ Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulato
 2. Fermez la page. 
 3. Accédez à **Tous les espaces de travail** > **États électroniques**. 
 4. Cliquez sur **Applications connectées**. 
-5. Assurez-vous que l'application configurée est basée sur Azure et est accessible à l'utilisateur RCS actuel. Il est également nécessaire que l'utilisateur RCS actuel ait accès à l'application sélectionnée et ait été enregistré comme utilisateur de cette application avec un rôle lui accordant les privilèges d'accès aux métadonnées de l'application. 
+5. Assurez-vous que l’application configurée est basée sur Azure et est accessible à l’utilisateur RCS actuel. Il est également nécessaire que l’utilisateur RCS actuel ait accès à l’application sélectionnée et ait été enregistré comme utilisateur de cette application avec un rôle lui accordant les privilèges d’accès aux métadonnées de l’application. 
 6. Cliquez sur **Nouveau**. 
-7. Dans le champ **Nom**, tapez 'MyConnectedApp'. 
+7. Dans le champ **Nom**, tapez ’MyConnectedApp’. 
 8. Dans le champ **Application**, tapez « https:// mycompany.operations.dynamics.com. » 
 9. Dans le champ **Locataire**, tapez « mycompany.onmicrosoft.com ». 
 10. Cliquez sur **Enregistrer**. 
-11. Lorsque vous vérifiez la connexion à l'application configurée, dans la page **Se connecter à l'application distante** cliquez sur le lien **Cliquer ici pour vous connecter à l'application distante sélectionnée**. 
+11. Lorsque vous vérifiez la connexion à l’application configurée, dans la page **Se connecter à l’application distante** cliquez sur le lien **Cliquer ici pour vous connecter à l’application distante sélectionnée**. 
 12. Cliquez sur **Vérifier la connexion**. 
 13. Cliquez sur **Fermer**. 
-14. Lorsque le contrôle de connexion a réussi, les détails de la version et du client sont mis à jour pour l'application configurée dans la grille actuelle. 
+14. Lorsque le contrôle de connexion a réussi, les détails de la version et du client sont mis à jour pour l’application configurée dans la grille actuelle. 
 
 ## <a name="review-existing-model-mapping-configuration"></a>Examiner une configuration de mise en correspondance de modèle existante
 1. Fermez la page. 
 2. Cliquez sur **Configurations des états**. 
-3. Dans l'arborescence , développez **Modèle de commerce extérieur**. 
-4. Dans l'arborescence, sélectionnez **Modèle de commerce extérieur\Mise en correspondance de commerce extérieur**. 
+3. Dans l’arborescence , développez **Modèle de commerce extérieur**. 
+4. Dans l’arborescence, sélectionnez **Modèle de commerce extérieur\Mise en correspondance de commerce extérieur**. 
 5. Développez la section **Conditions préalables**. 
 
     > [!NOTE]
-    > Actuellement, cette mise en correspondance fait référence à la configuration de métadonnées. Les métadonnées d'application de cette configuration seront proposées lorsque cette mise en correspondance modèle sera conçue. 
+    > Actuellement, cette mise en correspondance fait référence à la configuration de métadonnées. Les métadonnées d’application de cette configuration seront proposées lorsque cette mise en correspondance modèle sera conçue. 
 
 6. Cliquez sur **Concepteur**. 
 7. Cliquez sur **Concepteur**. 
-8. Dans l'arborescence, sélectionnez **Dynamics 365 for Operations\Enregistrements de table**. 
+8. Dans l’arborescence, sélectionnez **Dynamics 365 for Operations\Enregistrements de table**. 
 9. Cliquez sur **Ajouter racine**. 
 10. Dans le champ **Table**, saisissez ou sélectionnez une valeur. 
 
     > [!NOTE]
-    > Actuellement, cette mise en correspondance fait référence à la configuration de métadonnées. Les métadonnées d'application de cette configuration seront proposées lorsque cette mise en correspondance modèle sera conçue. 
+    > Actuellement, cette mise en correspondance fait référence à la configuration de métadonnées. Les métadonnées d’application de cette configuration seront proposées lorsque cette mise en correspondance modèle sera conçue. 
 
 11. Cliquez sur **Annuler**. 
 12. Fermez la page. 
 13. Fermez la page. 
 
-## <a name="assign-connected-application-to-model-mapping"></a>Affecter l'application connectée à la mise en correspondance de modèle 
+## <a name="assign-connected-application-to-model-mapping"></a>Affecter l’application connectée à la mise en correspondance de modèle 
 1. Cliquez sur **Modifier**. 
-2. Sélectionnez l'application **MyConnectedApp**. 
+2. Sélectionnez l’application **MyConnectedApp**. 
 
     > [!NOTE]
-    > Actuellement, cette mise en correspondance fait référence aux métadonnées de l'application connectée sélectionnée. Lorsque la même mise en correspondance fait référence à la configuration des métadonnées et à l'application connectée en même temps, les métadonnées de l'application connectée sont utilisées. 
+    > Actuellement, cette mise en correspondance fait référence aux métadonnées de l’application connectée sélectionnée. Lorsque la même mise en correspondance fait référence à la configuration des métadonnées et à l’application connectée en même temps, les métadonnées de l’application connectée sont utilisées. 
 
 3. Cliquez sur **Concepteur**. 
 4. Cliquez sur **Concepteur**. 
-5. Dans l'arborescence, sélectionnez **Dynamics 365 for Operations\Enregistrements de table**. 
+5. Dans l’arborescence, sélectionnez **Dynamics 365 for Operations\Enregistrements de table**. 
 6. Cliquez sur **Ajouter racine**. 
 7. Dans le champ **Table**, saisissez ou sélectionnez une valeur. 
 
     > [!NOTE]
-    > Plus de deux tables d'application sont présentées actuellement, car cette mise en correspondance utilise toutes les métadonnées de l'application connectée qui lui a été affectée. 
+    > Plus de deux tables d’application sont présentées actuellement, car cette mise en correspondance utilise toutes les métadonnées de l’application connectée qui lui a été affectée. 
 
 8. Cliquez sur **Annuler**. 
 9. Cliquez sur **Valider**. 
 
     > [!NOTE]
-    > Nous avons lié avec succès les éléments de modèle de données avec les éléments des sources de données qui sont décrits à l'aide des informations des métadonnées de l'application connectée qui a été affectée à cette mise en correspondance. 
+    > Nous avons lié avec succès les éléments de modèle de données avec les éléments des sources de données qui sont décrits à l’aide des informations des métadonnées de l’application connectée qui a été affectée à cette mise en correspondance. 
 
 10. Fermez la page. 
 11. Fermez la page. 
 
-Lorsque vous devez évaluer cette mise en correspondance de modèle à l'aide de métadonnées d'une application d'une version différente, enregistrez une autre application connectée, affectez-la à cette mise en correspondance de modèle et validez-la par rapport aux nouvelles métadonnées.
+Lorsque vous devez évaluer cette mise en correspondance de modèle à l’aide de métadonnées d’une application d’une version différente, enregistrez une autre application connectée, affectez-la à cette mise en correspondance de modèle et validez-la par rapport aux nouvelles métadonnées.

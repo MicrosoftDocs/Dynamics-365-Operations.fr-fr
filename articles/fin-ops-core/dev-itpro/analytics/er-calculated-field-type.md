@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759909"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681254"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 
@@ -80,7 +79,7 @@ Dans cet exemple, vous allez créer une configuration pour l’exemple de socié
     - Récupérez la liste des codes taxe (source de données **Taxe**) se trouvant dans la table **TaxTable**.
     - Récupérez la liste des transactions de taxe (source de données **Trans**) se trouvant dans la table **TaxTrans**.
     
-        - Regroupez la liste des transactions extraites (source de données**Gr** ) par code taxe.
+        - Regroupez la liste des transactions extraites (source de données **Gr** ) par code taxe.
         - Calculer les transactions regroupées selon les valeurs cumulées par code taxe :
 
             - Somme des valeurs de base de taxe.

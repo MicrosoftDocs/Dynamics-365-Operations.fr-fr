@@ -1,6 +1,6 @@
 ---
-title: Planifier pour la fonctionnalité Secteur public
-description: Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
+title: Planifier la fonctionnalité Secteur public
+description: Cette rubrique suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,31 +19,31 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a633548ceb0f27ee9249b20456bc4cabd0c044eb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 760bce7983e07e61940d5091049b1ad1ceee935b
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770247"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646299"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 
 [!include [banner](../includes/banner.md)]
 
-Cet article suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
+Cette rubrique suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
 
 <a name="what-should-i-do-first"></a>Que dois-je faire en premier lieu ?
 -----------------------
 
-Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez prendre en compte les modules que vous devez paramétrer pour votre organisation du secteur public. La fonctionnalité Secteur public est intégrée aux modules Dynamics 365 Finance et produits Microsoft suivants :
+Avant de configurer le secteur public et de commencer à ajouter vos données, réfléchissez à la manière dont vous allez utiliser cette fonctionnalité. Votre considération doit identifier les modules qui doivent être configurés pour utiliser les fonctionnalités du secteur public. Le secteur public s’intègre aux éléments suivants : 
 
-### <a name="accounts-payable"></a>Comptabilité fournisseur
+### <a name="accounts-payable"></a>Module Comptabilité fournisseur
 
-page de garde de l'état de paiement générer Montants des lignes de commande fournisseur
+page de garde de l’état de paiement générer Montants des lignes de commande fournisseur
 
 ### <a name="accounts-receivable"></a>Module Comptabilité client
 
-Classification de facturation Champs personnalisés de code personnalisé de facturation Codes de facturation Champs personnalisés de facture financière Lignes d'intérêt Codes partenaires commerciaux
+Classification de facturation Champs personnalisés de code personnalisé de facturation Codes de facturation Champs personnalisés de facture financière Lignes d’intérêt Codes partenaires commerciaux
 
 ### <a name="budgeting"></a>Budget
 
@@ -51,17 +51,17 @@ Analyse de budget Analyse de budget pour les budgets révisés Analyse de budget
 
 ### <a name="french-regulatory-options"></a>Options de réglementation française
 
-**Remarque** Pour plus d'informations sur les options de réglementation françaises, consultez [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md). Les pages suivantes ne sont disponibles que si les trois conditions suivantes sont remplies :
+**Remarque** Pour plus d’informations sur les options de réglementation françaises, consultez [Comptabilité du secteur public en France](../localizations/emea-fra-public-sector-accounting.md). Les pages suivantes ne sont disponibles que si les trois conditions suivantes sont remplies :
 
 -   La clé de configuration **Secteur public** est sélectionnée.
 -   La sous-clé de configuration **Réglementation française** est sélectionnée.
--   L'option **Utiliser les règles comptables du secteur public français** est sélectionnée sur la page **Paramètres du budget**.
+-   L’option **Utiliser les règles comptables du secteur public français** est sélectionnée sur la page **Paramètres du budget**.
 
-Synthèse de solde Engagement Clôture d'engagement Tenir à jour les mandats de paiement Tenir à jour les titres de recette Accès du département au contrat d'achat Arborescence des contrats d'achat Seuils de dépense par catégorie Historique des blocages de paiements de factures fournisseur
+Synthèse de solde Clôture d’engagement Tenir à jour les mandats de paiement Tenir à jour les titres de recette Accès du département au contrat d’achat Arborescence des contrats d’achat Seuils de dépense par catégorie Historique des blocages de paiements de factures fournisseur
 
 ### <a name="general-ledger"></a>Comptabilité
 
-Écritures comptables avancées Associer des hiérarchies financières dérivées Hiérarchies financières Filtrer les résultats Types de fonds Fonds Aperçu des transactions de comptabilité de fin d'exercice
+Écritures comptables avancées Associer des hiérarchies financières dérivées Hiérarchies financières Filtrer les résultats Types de fonds Fonds Aperçu des transactions de comptabilité de fin d’exercice
 
 ### <a name="procurement-and-sourcing"></a>Approvisionnements
 
@@ -72,7 +72,7 @@ Type de certification Codes commande fournisseur de confirmation Montants des li
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Page d'accueil Secteur public](public-sector-functionality.md)
+[Page d’accueil Secteur public](public-sector-functionality.md)
 
 
 
