@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a577ab24aaf86c1f7a22953e03f397a2e8213c78
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184391"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685271"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenu Power BI Comparatif Réel/Budget
 
@@ -31,13 +30,13 @@ Cette rubrique décrit le contenu Power BI **Comparatif Réel/Budget**. Elle exp
 
 ## <a name="overview"></a>Présentation
 
-Le contenu Power BI **Comparatif Réel/Budget** a été créé pour les personnes chargées de surveiller le comparatif des performances de budget dans leur organisation. Le contenu Power BI **Comparatif Réel/Budget** fournit une visibilité dans les écarts de budget. Vous pouvez analyser le budget de l'année en cours par catégorie de compte, code budgétaire, compte principal, description de compte principal ou période fiscale pour obtenir une meilleure compréhension de la cause de tous les écarts.
+Le contenu Power BI **Comparatif Réel/Budget** a été créé pour les personnes chargées de surveiller le comparatif des performances de budget dans leur organisation. Le contenu Power BI **Comparatif Réel/Budget** fournit une visibilité dans les écarts de budget. Vous pouvez analyser le budget de l’année en cours par catégorie de compte, code budgétaire, compte principal, description de compte principal ou période fiscale pour obtenir une meilleure compréhension de la cause de tous les écarts.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Les états du contenu Power BI **Comparatif Réel/Budget** s'affichent dans les espaces de travail **Budget comptable et prévisions** et **CFO**.
+Les états du contenu Power BI **Comparatif Réel/Budget** s’affichent dans les espaces de travail **Budget comptable et prévisions** et **CFO**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
-Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d'état du contenu Power BI **Comparatif Réel/Budget**.
+Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d’état du contenu Power BI **Comparatif Réel/Budget**.
 
 | Etat                      | Métriques                                                                             |
 |-----------------------------|-------------------------------------------------------------------------------------|
@@ -55,6 +54,6 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 | Activités liées au budget         | Montants des transactions pour le registre budgétaire                                      |
 | Comptes principaux             | Comptes principaux en fonction desquels filtrer les états                                               |
 | Calendriers fiscaux          | Calendriers fiscaux en fonction desquels filtrer les états                                            |
-| Comptabilités                   | Comptabilité permettant de filtrer l'état dans la comptabilité actuelle              |
+| Comptabilités                   | Comptabilité permettant de filtrer l’état dans la comptabilité actuelle              |
 | Codes budgétaires              | Codes budgétaires selon lesquels filtrer les états                                                |
-| Entités juridiques            | Les entités juridiques permettant de filtrer l'état dans l'entité juridique actuelle |
+| Entités juridiques            | Les entités juridiques permettant de filtrer l’état dans l’entité juridique actuelle |

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90ff703a22c77967bc37e8ec2ccd0e0e4d147b58
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143970"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693110"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Embaucher des employés existants via le recrutement
 
@@ -31,13 +30,13 @@ Les postes vacants peuvent parfois être remplis par des candidats déjà employ
 1. Accédez à Ressources humaines > Recrutement > Candidatures > Candidatures.
 2. Dans la liste, localisez la candidature du collaborateur que vous voudriez embaucher. Exemple : John Emory 00002
 3. Cliquez sur Statut de la candidature.
-    * Le statut de la candidature indique sa progression dans le processus de recrutement.  Chacune de ces étapes est facultative. Généralement, une candidature déplacerait les statuts dans l'ordre suivant : reçu, confirmé, et interviewé. Après le processus d'entretien, une décision d'embauche devrait être prise.  
+    * Le statut de la candidature indique sa progression dans le processus de recrutement.  Chacune de ces étapes est facultative. Généralement, une candidature déplacerait les statuts dans l’ordre suivant : reçu, confirmé, et interviewé. Après le processus d’entretien, une décision d’embauche devrait être prise.  
 4. Cliquez sur Modifier le poste.
-5. Sélectionnez le poste pour lequel vous engagez l'employé.
-6. Dans le champ Nouvelle date de début d'affectation, entrez la date à laquelle l'employé commencera le travail au nouveau poste.  
-7. Dans le champ Date de fin d'affectation, entrez la date à laquelle l'employé cessera le travail à son poste actuel.
-    * La date de début du nouveau poste et celle de fin de l'ancien peuvent se chevaucher. Cela peut se produire lorsqu'une personne intervient sur les deux postes au cours d'une période de transition.  
+5. Sélectionnez le poste pour lequel vous engagez l’employé.
+6. Dans le champ Nouvelle date de début d’affectation, entrez la date à laquelle l’employé commencera le travail au nouveau poste.  
+7. Dans le champ Date de fin d’affectation, entrez la date à laquelle l’employé cessera le travail à son poste actuel.
+    * La date de début du nouveau poste et celle de fin de l’ancien peuvent se chevaucher. Cela peut se produire lorsqu’une personne intervient sur les deux postes au cours d’une période de transition.  
 8. Une autre solution consiste à sélectionner un code motif. Exemple : Réorganisation
 9. Cliquez sur Modifier le poste.
-    * Vous pouvez également modifier la rémunération à ce moment-là. Si vous n'affectez pas la rémunération à ce moment, vous pouvez la modifier en allant dans l'écran du collaborateur, en sélectionnant l'onglet Rémunération, et en choisissant « Régime fixe ». Après avoir sélectionné « Modifier le poste », le statut de la candidature est mis à jour sur « Employé ».  
+    * Vous pouvez également modifier la rémunération à ce moment-là. Si vous n’affectez pas la rémunération à ce moment, vous pouvez la modifier en allant dans l’écran du collaborateur, en sélectionnant l’onglet Rémunération, et en choisissant « Régime fixe ». Après avoir sélectionné « Modifier le poste », le statut de la candidature est mis à jour sur « Employé ».  
 

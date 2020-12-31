@@ -3,7 +3,7 @@ title: Capacités de grille
 description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. La nouvelle fonction de grille doit être activée pour avoir accès à ces capacités.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835084"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693772"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités utiles et puissantes qui peuvent être utilisées pour améliorer la productivité des utilisateurs, créer des vues plus intéressantes de vos données et obtenir des informations significatives sur vos données. Cet article couvrira les capacités suivantes : 
 
@@ -95,21 +95,23 @@ Pour booster la productivité, les utilisateurs peuvent entrer des formules math
 Pour que le système reconnaisse une valeur comme une expression, démarrez la valeur avec un signe égal (**=**). Pour en savoir plus sur les opérateurs et la syntaxe pris en charge, consultez [Symboles mathématiques pris en charge](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Regroupement des données tabulaires
-[!include [preview banner](../includes/preview-banner.md)]
+Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **Regroupement en grilles**, disponible généralement dans la version 10.0.16/Platform update 40 et dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finance and Operations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
 
-Les utilisateurs professionnels doivent souvent effectuer une analyse ad hoc des données. Bien que cela puisse être fait en exportant des données vers Microsoft Excel et en utilisant des tableaux croisés dynamiques, la fonctionnalité **(Version préliminaire) Regroupement en grilles**, dépendante de la nouvelle fonctionnalité de contrôle de grille, permet aux utilisateurs d’organiser leurs données tabulaires de manière intéressante dans les applications Finance and Operations. Du fait que cette fonctionnalité étend la fonctionnalité **Totaux**, le **Regroupement** vous permet également d’obtenir des informations significatives sur les données en fournissant des sous-totaux au niveau du groupe.
-
-Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon laquelle vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle **colonne Grouper par** au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe : 
+Pour utiliser cette fonction, cliquez avec le bouton droit sur la colonne selon laquelle vous souhaitez regrouper et sélectionnez **Regrouper par cette colonne**. Cette action triera les données selon la colonne sélectionnée, ajoutera une nouvelle colonne **Grouper par** au début de la grille et insérera des « lignes d’en-tête » au début de chaque groupe. Ces lignes d’en-tête fournissent les informations suivantes sur chaque groupe : 
 -  Valeur des données pour le groupe 
--  Nom de colonne (Ces informations seront particulièrement utiles une fois que plusieurs niveaux de regroupement seront pris en charge.)  
+-  Nom de colonne (ces informations sont particulièrement utiles lorsque vous avez plusieurs niveaux de regroupement)  
 -  Nombre de lignes de données dans ce groupe
 -  Sous-totaux pour toute colonne configurée pour afficher les totaux
 
 Lorsque [Vues enregistrées ](saved-views.md)est activé, ce regroupement peut être enregistré comme personnalisation dans le cadre d’une vue pour un accès rapide la prochaine fois que vous visiterez la page.  
 
-Si vous sélectionnez **Regrouper par cette colonne** pour une autre colonne, le regroupement d’origine est remplacé, car un seul niveau de regroupement est pris en charge à compter de la version 10.0.9/Plateform update 33.
+### <a name="multiple-levels-of-grouping"></a>Plusieurs niveaux de regroupement
+Après avoir regroupé les données dans une seule colonne, vous pouvez regrouper les données dans une colonne différente en sélectionnant **Regrouper selon cette colonne** sur la colonne souhaitée. Ce processus peut être répété jusqu’à ce que vous disposiez de 5 niveaux de regroupement imbriqués, ce qui correspond à la profondeur maximale prise en charge. À ce stade, vous ne pourrez plus regrouper par colonnes supplémentaires.  
 
-Pour annuler le regroupement dans une grille, cliquez avec le bouton droit sur la colonne de regroupement et sélectionnez **Dissocier**.  
+À tout moment, vous pouvez supprimer le regroupement sur n’importe quelle colonne en cliquant avec le bouton droit sur cette colonne et en sélectionnant **Dissocier**. Vous pouvez également supprimer le regroupement de toutes les colonnes en sélectionnant **Options de grille** puis **Dissocier tout**.   
+
+Notez qu’avant la version 10.0.16 / Platform update 40, un seul niveau de regroupement est pris en charge. Dans ces versions, si les données sont groupées et que vous sélectionnez **Regrouper par cette colonne** pour une colonne différente, le groupement d’origine est remplacé.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Développer et réduire les groupes
 Le regroupement initial de données aura tous les groupes développés. Vous pouvez créer des vues résumées des données en réduisant des groupes individuels, ou vous pouvez utiliser le développement et la réduction de groupe pour faciliter la navigation dans les données. Pour développer ou réduire un groupe, sélectionnez le bouton de chevron (>) dans la ligne d’en-tête de groupe correspondante. Notez que l’état de développement/réduction des groupes individuels **n’est pas** enregistré dans la personnalisation.
@@ -121,7 +123,7 @@ De la même manière que vous pouvez sélectionner (ou désélectionner) toutes 
 Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. À compter de la version 10.0.14/Platform update 38, vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
 
 ## <a name="pinned-system-columns"></a>Colonnes système épinglées
-La colonne de sélection de ligne et la colonne de statut de ligne dans la nouvelle grille sont épinglées ou figées dans la partie la plus à gauche de la grille. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour l'utilisateur, quelle que soit la position de défilement horizontal dans la grille.   
+La colonne de sélection de ligne et la colonne de statut de ligne dans la nouvelle grille sont épinglées ou figées dans la partie la plus à gauche de la grille. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour l’utilisateur, quelle que soit la position de défilement horizontal dans la grille.   
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 
@@ -151,10 +153,10 @@ Si votre organisation découvre une page qui n’arrive pas à utiliser la nouve
 
  ```this.forceLegacyGrid();```
 
-Cette API sera disponible jusqu’à la version d’octobre 2021, lorsque le nouveau contrôle de grille deviendra obligatoire. Si des problèmes nécessitent l'utilisation de cette API, signalez-les à Microsoft.
+Cette API sera disponible jusqu’à la version d’octobre 2021, lorsque le nouveau contrôle de grille deviendra obligatoire. Si des problèmes nécessitent l’utilisation de cette API, signalez-les à Microsoft.
 
 ## <a name="developer-size-to-available-width-columns"></a>[Développeur] Ajuster à disponible la largeur des colonnes
-Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l'intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu'elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s'étirent pour utiliser toute largeur supplémentaire disponible à l'intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l'intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l'une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s'étirera plus pour prendre la largeur de grille supplémentaire disponible.  
+Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l’intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu’elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s’étirent pour utiliser toute largeur supplémentaire disponible à l’intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l’intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l’une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s’étirera plus pour prendre la largeur de grille supplémentaire disponible.  
 
 ## <a name="known-issues"></a>Problèmes connus
 Cette section contient une liste des problèmes connus concernant le nouveau contrôle de grille lorsque la fonctionnalité est dans un état d’aperçu.  
@@ -165,10 +167,26 @@ Cette section contient une liste des problèmes connus concernant le nouveau con
     -  Il existe une liste de cartes groupée sur la page.
     -  Une colonne de grille avec un contrôle extensible non réactif.
 
-    Lorsqu’un utilisateur rencontre pour la première fois l’un de ces scénarios, un message concernant l’actualisation de la page s’affiche. Une fois ce message affiché, la page va continuer à utiliser la grille existante pour tous les utilisateurs jusqu’à la prochaine mise à jour de la version du produit. Une meilleure gestion de ces scénarios, afin de pouvoir utiliser la nouvelle grille, est envisagée pour une future mise à jour.     
+    Lorsqu’un utilisateur rencontre pour la première fois l’un de ces scénarios, un message concernant l’actualisation de la page s’affiche. Une fois ce message affiché, la page va continuer à utiliser la grille existante pour tous les utilisateurs jusqu’à la prochaine mise à jour de la version du produit. Une meilleure gestion de ces scénarios, afin de pouvoir utiliser la nouvelle grille, est envisagée pour une future mise à jour.    
+    
+-  [KB 4582758] Les enregistrements sont flous lorsque vous changez le zoom de 100 à tout autre pourcentage
+    
+### <a name="fixed-as-part-of-10015"></a>Corrigé dans le cadre de la version 10.0.15    
+
+-  [KB 4582723] Les options d’affichage ne s’affichent pas lorsqu’elles sont effectuées plus tard dans le cycle de vie du formulaire
+
+### <a name="fixed-as-part-of-10014"></a>Corrigé dans le cadre de la version 10.0.14
+
+-  (Mise à jour de la qualité) [KB 4584752] Erreur client inattendue avec la page de propositions de facture de projet
 
 ### <a name="fixed-as-part-of-10013"></a>Corrigé dans le cadre de la version 10.0.13
 
+-  (Mise à jour de qualité) [KB 4583880] Regression Suite Automation Tool (RSAT) échoue sur l’action OpenLookup avec "Impossible de lire la propriété RowIndex non définie"
+-  (Mise à jour de qualité) [KB 4583847] Erreur client inattendue lors de la navigation dans les recherches 
+-  (Mise à jour de qualité) [Bogue 471777] Impossible de sélectionner des champs dans une grille pour modifier ou créer une application mobile
+-  [Bogue 474851] Les liens hypertexte dans les contrôles du groupe de référence ne fonctionnent pas 
+-  [Bogue 474848] Les aperçus améliorés avec des grilles ne s’affichent pas
+-  [KB 4582726] La propriété RotateSign n’est pas respectée  
 -  [Bogue 470173] Les cases à cocher des lignes inactives basculent lorsque l’utilisateur clique sur l’espace blanc de la cellule
 -  [Bogue 474848] Les aperçus améliorés avec des grilles ne s’affichent pas
 -  [Bogue 474851] Les liens hypertexte dans les contrôles du groupe de référence ne fonctionnent pas 
@@ -176,6 +194,7 @@ Cette section contient une liste des problèmes connus concernant le nouveau con
 -  [KB 4569441] Problèmes d’affichage des listes de cartes à plusieurs colonnes, des info-bulles sur les images et des options d’affichage sur certains champs
 -  [KB 4575279] Toutes les lignes marquées ne sont pas supprimées dans le journal des opérations diverses
 -  [KB 4575233] Les options d’affichage ne sont pas restaurées après le déplacement vers une autre ligne
+-  [Bug 477884] Les recherches renvoient une valeur/un enregistrement incorrect si un nouveau contrôle de grille est activé
 -  [KB 4571095] La validation de l’accusé de réception de marchandises se produit lorsque vous appuyez accidentellement sur Entrée (gestion correcte de l’action par défaut d’une page)
 -  [KB 4575437] Les recherches avec des contrôles modifiables se ferment de manière inattendue
 -  [KB 4569418] Ligne en double créée dans le formulaire du plan de livraison
@@ -225,7 +244,7 @@ Cette section contient une liste des problèmes connus concernant le nouveau con
 - [KB 4558383] Les contrôles en dehors de la grille ne sont pas mis à jour après la suppression du dernier enregistrement.
 - [KB 4558587] Les groupes de référence qui ont des zones de liste modifiable pour les champs de remplacement n’ont pas de valeurs.
 - [KB 4562143] Les champs ne sont pas mis à jour après un changement de ligne/le traitement de la grille se bloque après la suppression de la ligne.
-- [KB 4562645] Une exception se produit lorsqu’une recherche est ouverte pendant l’exécution des tests RSAT (Remote Server Administration Tools).
+- [KB 4562645] Une exception se produit lorsqu’une recherche est ouverte pendant l’exécution des tests RSAT (Regression Suite Automation Tool).
 
 ### <a name="fixed-as-part-of-10010"></a>Corrigé dans le cadre de la version 10.0.10
 

@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f3e8e5f6676c26b8d604ed950470463f04c0473
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 8b347a7209ee543f6bd687c2864203eb632d6a4a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743877"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688411"
 ---
 # <a name="format-er-function"></a>Fonction FORMAT ER
 
 [!include [banner](../includes/banner.md)]
 
-La fonction `FORMAT` renvoie à la chaîne spécifiée comme valeur de *Chaîne* une fois qu’elle a été mise en forme en substituant toutes les occurrences de **%N** par le *N*ième argument.
+La fonction `FORMAT` renvoie à la chaîne spécifiée comme valeur de *Chaîne* une fois qu’elle a été mise en forme en substituant toutes les occurrences de **%N** par le *N* ième argument.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,7 +48,7 @@ Premier argument utilisé pour remplacer les occurrences de **%1**. Cet argument
 
 `argument N` : *Chaîne*
 
-*N*ième argument utilisé pour remplacer les occurrences de **%2**, **%3**, etc. Ces arguments supplémentaires sont facultatifs.
+*N* ième argument utilisé pour remplacer les occurrences de **%2**, **%3**, etc. Ces arguments supplémentaires sont facultatifs.
 
 ## <a name="return-values"></a>Valeurs de retour
 

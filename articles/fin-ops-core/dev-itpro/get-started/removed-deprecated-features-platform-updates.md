@@ -3,24 +3,23 @@ title: Fonctions de plateforme supprimées ou obsolètes
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer dans les mises à jour de plateforme des applications Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971443"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689564"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -37,8 +36,16 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.15 des applications Finance and Operations
 
-> [!NOTE]
-> La version 10.0.15 est une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d'informations sur les préversions, voir [FAQ sur les mises à jour de service à une version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La prise en charge d’Internet Explorer 11 pour Dynamics 365 est obsolète
+
+|   |  |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
+| **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
+| **Zones de produit affectées**         | Tous les produits Dynamics 365 |
+| **Option de déploiement**              | Tous|
+| **État**                         | Obsolète. Internet Explorer 11 ne sera plus pris en charge après août 2021.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Module complémentaire Visual Studio pour appliquer des correctifs de métadonnées
 
@@ -48,24 +55,20 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Les correctifs de métadonnées individuels ne sont pas disponibles pour les versions prises en charge. Les mises à jour qualité cumulatives sont appliquées à la place. |
 | **Zones de produit affectées**         | Modules complémentaires Visual Studio |
 | **Option de déploiement**              | Machines virtuelles de développement |
-| **État**                         | Avec la version 10.0.15, le complément n'est plus inclus dans les outils Visual Studio. |
+| **État**                         | Avec la version 10.0.15, le complément n’est plus inclus dans les outils Visual Studio. |
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.14 des applications Finance and Operations
-
-> [!NOTE]
-> La version 10.0.14 est une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d'informations sur les préversions, voir [Disponibilité des mises à jour de service](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>Page Utilisateurs en ligne 
 
 |   |  |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Il s'agit d'une page héritée qui a été créée pour l'architecture client / serveur précédente. Les informations sur cette page ne sont pas toujours exactes, ce qui peut être déroutant et trompeur. |
+| **Motif de l’abandon/de la suppression** | Il s’agit d’une page héritée qui a été créée pour l’architecture client / serveur précédente. Les informations sur cette page ne sont pas toujours exactes, ce qui peut être déroutant et trompeur. |
 | **Remplacé par une autre fonctionnalité ?**   | Nous fournirons une nouvelle page dans une future mise à jour.|
 | **Zones de produit affectées**         | Administration du système |
 | **Option de déploiement**              | Tous |
-| **État**                         | D'ici octobre 2021, cet écran sera supprimé.   |
+| **État**                         | D’ici octobre 2021, cet écran sera supprimé.   |
 
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Mises à jour de la plateforme pour la version 10.0.13 des applications Finance and Operations
@@ -143,8 +146,8 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Motif de l’abandon/de la suppression** | Pour prendre en charge les dernières versions de Visual Studio, certaines modifications doivent être apportées aux extensions X++ pour Visual Studio. Ces modifications sont incompatibles avec Visual Studio 2015. |
 | **Remplacé par une autre fonctionnalité ?**   | Visual Studio 2017 remplacera Visual Studio 2015 comme version déployée et requise. |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
-| **Option de déploiement**              | Tout |
-| **État**                         | Quand la disponibilité des nouvelles machines virtuelles (VM) avec Visual Studio 2017 sera annoncée, les machines virtuelles existantes avec seulement Visual Studio 2015 devront être redéployées lors du Plan de publication 1 de 2021. |
+| **Option de déploiement**              | Tous |
+| **État**                         | Les machines virtuelles déployées sur la version 10.0.13 (Platform update 37) ou ultérieure contiennent Visual Studio 2017. La version 10.0.16 (Platform update 40) est la version finale avec prise en charge de Visual Studio 2015. Les machines virtuelles avec uniquement Visual Studio 2015 ne pourront pas se mettre à jour vers la version 10.0.17 (Platform update 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Groupes de champ contenant des références de champs non valides
 

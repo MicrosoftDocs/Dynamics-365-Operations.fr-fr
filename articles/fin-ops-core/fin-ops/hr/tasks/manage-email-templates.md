@@ -1,6 +1,6 @@
 ---
-title: Gérer les modèles d'e-mails
-description: Cette rubrique explique comment gérer les modèles d'e-mail.
+title: Gérer les modèles d’e-mails
+description: Cette rubrique explique comment gérer les modèles d’e-mail.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/02/2019
@@ -11,37 +11,36 @@ ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 41777436a624f9b98956553243056b92a00c1ed6
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143694"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693868"
 ---
-# <a name="manage-email-templates"></a>Gérer les modèles d'e-mails
+# <a name="manage-email-templates"></a>Gérer les modèles d’e-mails
 
 [!include [banner](../../includes/banner.md)]
 
-Vous pouvez transférer des informations à partir de la base de données de votre organisation vers les signets d'un nouveau document et les utiliser dans des modèles qui vous aident à mieux communiquer avec les candidats. Pour ce faire, vous devez créer un modèle contenant du texte standard et certains signets où les données du système doivent être insérées. Par exemple, vous pouvez insérer les coordonnées d'un candidat dans un document Microsoft Word que vous pouvez utiliser lorsque vous communiquez avec ce candidat. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Vous pouvez transférer des informations à partir de la base de données de votre organisation vers les signets d’un nouveau document et les utiliser dans des modèles qui vous aident à mieux communiquer avec les candidats. Pour ce faire, vous devez créer un modèle contenant du texte standard et certains signets où les données du système doivent être insérées. Par exemple, vous pouvez insérer les coordonnées d’un candidat dans un document Microsoft Word que vous pouvez utiliser lorsque vous communiquez avec ce candidat. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 
-## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Sélectionnez les signets à utiliser dans vos modèles d'e-mail
+## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Sélectionnez les signets à utiliser dans vos modèles d’e-mail
 1. Dans le volet de navigation, accédez à **Modules > Ressources humaines > Recrutement > Communication > Signets de candidature**.
-2. Dans la liste, recherchez et sélectionnez l'action de correspondance souhaitée.
+2. Dans la liste, recherchez et sélectionnez l’action de correspondance souhaitée.
 3. Sélectionnez **Modifier**.
-4. Sélectionnez les champs que vous voulez pouvoir utiliser dans un modèle d'e-mail pour l'action de correspondance sélectionnée, puis déplacez-les dans les champs de signet.  
+4. Sélectionnez les champs que vous voulez pouvoir utiliser dans un modèle d’e-mail pour l’action de correspondance sélectionnée, puis déplacez-les dans les champs de signet.  
 5. Fermez la page.
 
-## <a name="create-an-email-template"></a>Créer un modèle d'e-mail
-1. Dans le volet de navigation, accédez à **Modules > Ressources humaines > Recrutement > Communication > Modèles d'e-mail de candidature**.
+## <a name="create-an-email-template"></a>Créer un modèle d’e-mail
+1. Dans le volet de navigation, accédez à **Modules > Ressources humaines > Recrutement > Communication > Modèles d’e-mail de candidature**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Entretien**, sélectionnez **Entretien**. Sélectionnez l'action de correspondance qui contient les signets à utiliser pour ce type de communication par e-mail.  
-4. Dans le champ **Modèle d'e-mail**, tapez une valeur.
+3. Dans le champ **Entretien**, sélectionnez **Entretien**. Sélectionnez l’action de correspondance qui contient les signets à utiliser pour ce type de communication par e-mail.  
+4. Dans le champ **Modèle d’e-mail**, tapez une valeur.
 5. Tapez une valeur dans le champ **Objet**.
 6. Tapez une valeur dans le champ **Texte**.
 7. Dans la liste, recherchez et sélectionnez le champ de signet souhaité.

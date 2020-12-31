@@ -3,26 +3,25 @@ title: Vidéos
 description: Cette page répertorie les vidéos du forum technique et des procédures créées par Microsoft concernant les applications Finance and Operations disponibles sur YouTube et autres sites.
 author: sericks007
 manager: AnnBe
-ms.date: 10/12/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
-ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
+ms.openlocfilehash: 4c34c539428563e69013e60ed3d0403b648c96bc
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3991450"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693567"
 ---
 # <a name="videos"></a>Vidéos 
 
@@ -82,7 +81,7 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 - [Comment utiliser l’enregistreur de tâches pour créer un scénario de test pour Regression Suite Automation Tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
 - [Comment créer un plan de test dans Azure DevOps afin de l’utiliser dans Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
 - [Comment utiliser Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
-- [L'expérience Excel améliorée dans Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
+- [L’expérience Excel améliorée dans Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vidéos pour Dynamics 365 Finance
@@ -147,6 +146,9 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 
 - [Approuver les commandes fournisseur sur un appareil mobile](https://youtu.be/gZ-gOlJe7H8)
 - [Intégrer un nouveau fournisseur](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+
+### <a name="product-information-management"></a>Gestion des informations sur les produits
+- [Modifier les capacités de gestion](https://youtu.be/N313FqvRuBc)
 
 ### <a name="production-control"></a>Contrôle de la production
 

@@ -1,6 +1,6 @@
 ---
 title: Syntaxe de requête et de filtrage avancée
-description: Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de correspondances dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
+description: Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 author: jasongre
 manager: AnnBe
 ms.date: 03/09/2020
@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: b867099b131594a64cad102e50ead7c355594f2b
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112189"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694541"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l'opérateur de **correspondances** dans le volet Filtre ou les filtres d'en-tête de colonne de la grille.
+Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de **correspondances** dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 
 ## <a name="advanced-query-syntax"></a>Syntaxe de requête avancée
 
@@ -50,9 +49,9 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <td><strong>Smith</strong> permet de rechercher &quot;Smith&quot;.</td>
 </tr>
 <tr>
-<td>!<em>valeur</em> (point d'exclamation)</td>
+<td>!<em>valeur</em> (point d’exclamation)</td>
 <td>Pas égal à la valeur entrée</td>
-<td>Tapez un point d'exclamation, puis la valeur à exclure.</td>
+<td>Tapez un point d’exclamation, puis la valeur à exclure.</td>
 <td><strong>!Smith</strong> permet de rechercher toutes les valeurs sauf &quot;Smith&quot;.</td>
 </tr>
 <tr>
@@ -104,9 +103,9 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <td><strong>*es*</strong> permet de rechercher les chaînes contenant &quot;es&quot;, telles que &quot;nord-est&quot; et &quot;sud-est&quot;.</td>
 </tr>
 <tr>
-<td>? (point d'interrogation)</td>
+<td>? (point d’interrogation)</td>
 <td>Contient un ou plusieurs caractères inconnus.</td>
-<td>Tapez un point d'interrogation à la place des caractères inconnus dans la valeur.</td>
+<td>Tapez un point d’interrogation à la place des caractères inconnus dans la valeur.</td>
 <td><strong>Sm?th</strong> permet de rechercher &quot;Smith&quot; et &quot;Smyth&quot;.</td>
 </tr>
 <tr>
@@ -124,9 +123,9 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <tr>
 <td>(<span class="code">Requête Finance and Operations</span>) (Requête Finance and Operations entre parenthèses)</td>
 <td>Correspond à une requête définie.</td>
-<td>Tapez une requête en tant qu'instruction SQL entre parenthèses à l'aide du langage de requête Finance and Operations.</td>
+<td>Tapez une requête en tant qu’instruction SQL entre parenthèses à l’aide du langage de requête Finance and Operations.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
-       en tant que syntaxe pour une condition de filtre sur un champ à partir de la source de données racine ainsi qu'un champ d'une autre source de données (pour la page Tous les clients)</td>
+       en tant que syntaxe pour une condition de filtre sur un champ à partir de la source de données racine ainsi qu’un champ d’une autre source de données (pour la page Tous les clients)</td>
 </tr>
 <tr>
 <td>Ma</td>
@@ -142,9 +141,9 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <ol>
 <li>Cliquez sur <strong>Comptabilité client</strong> &gt; <strong>Factures</strong> &gt; <strong>Factures client en cours</strong>.</li>
 <li>Appuyez sur Ctrl+Maj+F3 pour ouvrir la page <strong>Recherche</strong>.</li>
-<li>Sous l'onglet <strong>Plage</strong>, cliquez sur <strong>Ajouter</strong>.</li>
+<li>Sous l’onglet <strong>Plage</strong>, cliquez sur <strong>Ajouter</strong>.</li>
 <li>Dans le champ <strong>Table</strong>, sélectionnez <strong>Transactions client en cours</strong>.</li>
-<li>Dans le champ <strong>Champ</strong>, sélectionnez <strong>Date d'échéance</strong>.</li>
+<li>Dans le champ <strong>Champ</strong>, sélectionnez <strong>Date d’échéance</strong>.</li>
 <li>Dans le champ <strong>Critères</strong>, entrez <strong>(yearRange(-2,0))</strong>.</li>
 <li>Cliquez sur <strong>OK</strong>. La page de liste est mise à jour et répertorie les factures correspondant aux critères entrés. Pour cet exemple, les factures qui étaient dues dans les deux années précédentes sont répertoriées.</li>
 </ol>
@@ -196,7 +195,7 @@ Consultez le tableau de la section suivante pour obtenir des informations suppl�
 </tr>
 <tr>
 <td>GreaterThanUtcNow ()</td>
-<td>Permet de rechercher toutes les entrées de date/heure après l'heure actuelle.</td>
+<td>Permet de rechercher toutes les entrées de date/heure après l’heure actuelle.</td>
 <td>
 <ul>
 <li><strong>Toutes les dates/heures à venir</strong> – Entrez <strong>(GreaterThanUtcNow())</strong>.</li>
@@ -214,7 +213,7 @@ Consultez le tableau de la section suivante pour obtenir des informations suppl�
 </tr>
 <tr>
 <td>LessThanUtcNow ()</td>
-<td>Permet de rechercher toutes les entrées de date/heure avant l'heure actuelle.</td>
+<td>Permet de rechercher toutes les entrées de date/heure avant l’heure actuelle.</td>
 <td>
 <ul>
 <li><strong>Toutes les dates/heures passées</strong> – Entrez <strong>(LessThanUtcNow())</strong>.</li>
@@ -233,7 +232,7 @@ Consultez le tableau de la section suivante pour obtenir des informations suppl�
 </tr>
 <tr>
 <td>YearRange (_relativeFrom=0, _relativeTo=0)</td>
-<td>Permet de rechercher une plage de dates, en fonction des années relatives à l'année actuelle.</td>
+<td>Permet de rechercher une plage de dates, en fonction des années relatives à l’année actuelle.</td>
 <td>
 <ul>
 <li><strong>Année suivante</strong> – Entrez <strong>(YearRange(0, 1))</strong>.</li>

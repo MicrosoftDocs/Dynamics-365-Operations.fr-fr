@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 065981276f124da7b2d6196b5a0e8143e81cc10a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979086"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685703"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenu Power BI Gestionnaire de pratique
 
@@ -32,33 +31,33 @@ Cette rubrique décrit les données incluses dans le contenu Power BI **Gestionn
 
 ## <a name="overview"></a>Présentation
 
-Le contenu Power BI **Gestionnaire de pratique** a été créé pour les gestionnaires de pratique et les chefs de projet. Il fournit des mesures clés associées aux projets sur lesquels l'organisation travaille. Le tableau de bord fournit une vue d'ensemble des projets et des clients associés. Un filtre au niveau de l'état peut être utilisé pour générer un état pour des entités juridiques spécifiques. Ce contenu Power BI extrait des données des mesures globales comptables du projet.
+Le contenu Power BI **Gestionnaire de pratique** a été créé pour les gestionnaires de pratique et les chefs de projet. Il fournit des mesures clés associées aux projets sur lesquels l’organisation travaille. Le tableau de bord fournit une vue d’ensemble des projets et des clients associés. Un filtre au niveau de l’état peut être utilisé pour générer un état pour des entités juridiques spécifiques. Ce contenu Power BI extrait des données des mesures globales comptables du projet.
 
-Le contenu Power BI **Gestionnaire de pratique** contient cinq pages d'état : une page de vue d'ensemble et quatre pages qui fournissent des détails des coûts de projet, des produits, de la gestion de la valeur gagnée et des mesures horaires qui sont répartis sur différentes dimensions.
+Le contenu Power BI **Gestionnaire de pratique** contient cinq pages d’état : une page de vue d’ensemble et quatre pages qui fournissent des détails des coûts de projet, des produits, de la gestion de la valeur gagnée et des mesures horaires qui sont répartis sur différentes dimensions.
 
 Tous les montants du contenu sont indiqués dans la devise du système. Vous pouvez définir la devise du système dans la page **Paramètres système**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 
-Le contenu Power BI **Gestionnaire de pratique** s'affiche dans l'espace de travail **Gestion de projets**.
+Le contenu Power BI **Gestionnaire de pratique** s’affiche dans l’espace de travail **Gestion de projets**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 
-Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d'état du contenu Power BI **Gestionnaire de pratique**.
+Le tableau suivant fournit des détails sur les mesures disponibles sur chaque page d’état du contenu Power BI **Gestionnaire de pratique**.
 
-| Page d'état       | Métriques |
+| Page d’état       | Métriques |
 |-------------------|---------|
-| Vue d'ensemble des projets | <ul><li>Projets créés</li><li>Projets estimés</li><li>Projets en cours</li><li>Produit réel par client</li><li>Marge budgétaire brute par projet</li><li>Vue d'ensemble de la gestion de la valeur gagnée</li></ul> |
+| Vue d’ensemble des projets | <ul><li>Projets créés</li><li>Projets estimés</li><li>Projets en cours</li><li>Produit réel par client</li><li>Marge budgétaire brute par projet</li><li>Vue d’ensemble de la gestion de la valeur gagnée</li></ul> |
 | Charge              | <ul><li>Coût réel et budgété par mois</li><li>Coût réel et budgété par année</li><li>Coût réel et budgété par catégorie</li><li>Coût réel par type de transaction</li></ul> |
-| Produit           | <ul><li>Produit réel par mois</li><li>Produit réel par code postal</li><li>Produit réel et budgété par catégorie</li><li>Produit réel par secteur d'activité du client</li></ul> |
-| EVM               | Indice de performance des coûts et de l'échéancier par projet |
-| Heures             | <ul><li>Heures utilisées facturables réelles, heures non facturables réelles et heures budgétées</li><li>Heures utilisées facturables réelles et heures non facturables réelles par projet</li><li>Heures utilisées facturables réelles et heures non facturables réelles par ressource</li><li>Taux d'heures facturables réelles par projet</li><li>Taux d'heures facturables réelles par ressource</li></ul> |
+| Produit           | <ul><li>Produit réel par mois</li><li>Produit réel par code postal</li><li>Produit réel et budgété par catégorie</li><li>Produit réel par secteur d’activité du client</li></ul> |
+| EVM               | Indice de performance des coûts et de l’échéancier par projet |
+| Heures             | <ul><li>Heures utilisées facturables réelles, heures non facturables réelles et heures budgétées</li><li>Heures utilisées facturables réelles et heures non facturables réelles par projet</li><li>Heures utilisées facturables réelles et heures non facturables réelles par ressource</li><li>Taux d’heures facturables réelles par projet</li><li>Taux d’heures facturables réelles par ressource</li></ul> |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 
-Les données suivantes sont utilisées pour remplir les pages d'état dans le contenu Power BI **Gestionnaire de pratique**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d'informations, voir [Intégration de Power BI au magasin d'entité](power-bi-integration-entity-store.md).
+Les données suivantes sont utilisées pour remplir les pages d’état dans le contenu Power BI **Gestionnaire de pratique**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d’informations, voir [Intégration de Power BI au magasin d’entité](power-bi-integration-entity-store.md).
 
 Les sections suivantes décrivent les mesures globales utilisées dans chaque entité.
 
@@ -107,9 +106,9 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Mesure globale clé    | Champ | Description |
 |------------------------------|-------|-------------|
 | Indice de performances des coûts       | ProjectAccountingCube\_Projects\[Valeur gagnée\] ÷ ProjectAccountingCube\_Projects\[Coût réel total des tâches terminées\] | Calcul de la valeur gagnée totale divisée par le coût réel total. |
-| Indice de performances de l'échéancier   | ProjectAccountingCube\_Projects\[Valeur gagnée\] ÷ ProjectAccountingCube\_Projects\[Coût prévisionnel total des tâches terminées\] | Calcul de la valeur gagnée totale divisée par le coût prévu total. |
+| Indice de performances de l’échéancier   | ProjectAccountingCube\_Projects\[Valeur gagnée\] ÷ ProjectAccountingCube\_Projects\[Coût prévisionnel total des tâches terminées\] | Calcul de la valeur gagnée totale divisée par le coût prévu total. |
 | Pourcentage de travail terminé | Pourcentage de travail terminé = ProjectAccountingCube\_Projects\[Coût réel total des tâches terminées\] ÷ (ProjectAccountingCube\_Projects\[Coût réel total des tâches terminées\] + ProjectAccountingCube\_Projects\[Coût prévisionnel total du projet\] – ProjectAccountingCube\_Projects\[Coût prévisionnel total des tâches terminées\]) | Pourcentage total de travail terminé basé sur le coût réel total des tâches terminées et le coût prévisionnel du projet. |
-| Taux d'heures facturables réelles  | ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] ÷(ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] + ProjectAccountingCube\_Projects\[Heures non facturables réelles totales du projet\]) | Le nombre total d'heures facturables réelles, en fonction des heures d'utilisation et des heures de charge. |
+| Taux d’heures facturables réelles  | ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] ÷(ProjectAccountingCube\_Projects\[Heures utilisées facturables réelles totales du projet\] + ProjectAccountingCube\_Projects\[Heures non facturables réelles totales du projet\]) | Le nombre total d’heures facturables réelles, en fonction des heures d’utilisation et des heures de charge. |
 | Valeur gagnée                 | ProjectAccountingCube\_Projects\[Coût prévisionnel total du projet\] × ProjectAccountingCube\_Projects\[Pourcentage de travail terminé\] | Coût prévisionnel total multiplié par le pourcentage de travail terminé. |
 
 ### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entité : ProjectAccountingCube\_TotalEstimatedCosts 
@@ -117,4 +116,4 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 
 | Mesure globale clé       | Champ               | Description |
 |---------------------------------|---------------------|-------------|
-| Coût prévisionnel de l'activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
+| Coût prévisionnel de l’activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |

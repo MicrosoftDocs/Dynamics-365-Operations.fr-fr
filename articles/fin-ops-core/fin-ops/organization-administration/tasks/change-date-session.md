@@ -1,5 +1,5 @@
 ---
-title: Modification de la date d'une session
+title: Modification de la date d’une session
 description: Cette rubrique explique comment modifier la date d"une session.
 author: pvillads
 manager: AnnBe
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemDate
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33773725a1da38e017f660a4ccfc5bdd98de2b69
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 9b83d6044545467f7c7488a4b2a97be75d3e27f9
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140627"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694615"
 ---
-# <a name="change-the-date-for-a-session"></a>Modification de la date d'une session
+# <a name="change-the-date-for-a-session"></a>Modification de la date d’une session
 
 [!include [banner](../../includes/banner.md)]
 

@@ -1,7 +1,7 @@
 ---
 title: Configurer les règles de répartition des tâches
 description: Vous pouvez configurer des règles sur des tâches séparées qui doivent être effectuées par les utilisateurs.
-author: maertenm
+author: peakerbl
 manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47747cba7f83d0b43a284750cff232824e00053a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 57c7c436c91ab11404cac3ea056b028023a0617a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982404"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688171"
 ---
 # <a name="set-up-segregation-of-duties"></a>Configurer les règles de répartition des tâches
 
@@ -33,11 +32,11 @@ Vous pouvez configurer des règles sur des tâches séparées qui doivent être 
 2. Cliquez sur **Nouveau**.
 3. Dans le champ **Nom**, saisissez une valeur pour la règle.
 4. Dans le champ **Première responsabilité**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Sélectionnez la première tâche qui est contrôlée par la règle.
+5. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Sélectionnez la première tâche qui est contrôlée par la règle.
 6. Dans le champ **Deuxième responsabilité**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche. 
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Sélectionnez la deuxième tâche qui est contrôlée par la règle.
-10. Dans le champ **Gravité**, sélectionnez une option. Sélectionnez la gravité du risque qui se produit lorsqu'un même utilisateur ou rôle réalise les deux tâches.  
+7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Sélectionnez la deuxième tâche qui est contrôlée par la règle.
+10. Dans le champ **Gravité**, sélectionnez une option. Sélectionnez la gravité du risque qui se produit lorsqu’un même utilisateur ou rôle réalise les deux tâches.  
 11. Dans le champ **Risque de sécurité**, tapez une valeur. Entrez une description du risque de sécurité.  
-12. Dans le champ **Atténuation de sécurité**, tapez une valeur. Entrez une description des actions que vous prenez pour atténuer le risque de sécurité. Par exemple, vous pouvez atténuer le risque en conduisant des examens plus détaillés du processus, en conduisant une révision décisionnelle mensuelle, ou en partageant des ressources avec d'autres départements.     
+12. Dans le champ **Atténuation de sécurité**, tapez une valeur. Entrez une description des actions que vous prenez pour atténuer le risque de sécurité. Par exemple, vous pouvez atténuer le risque en conduisant des examens plus détaillés du processus, en conduisant une révision décisionnelle mensuelle, ou en partageant des ressources avec d’autres départements.     
 13. Cliquez sur **Enregistrer**.
 

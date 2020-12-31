@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: ''
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2018-04-10
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 30d308f3f85108784e48b66a98095c7926767bac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5f316746f7b606e25b3a3c7c6cb22cba62142611
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191222"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692940"
 ---
 # <a name="ax-40-content-that-has-been-retired"></a>Contenu AX 4.0 supprimé
 
 [!include[banner](../includes/banner.md)]
 
-Le contenu Microsoft Dynamics AX 4.0 a été supprimé de TechNet et MSDN. Pour plus d'informations, voir :
+Le contenu Microsoft Dynamics AX 4.0 a été supprimé de TechNet et MSDN. Pour plus d’informations, voir :
 
 - [Stratégie Microsoft Lifecycle](https://support.microsoft.com/lifecycle/search?alpha=Microsoft%20Dynamics%20AX%204.0)
 - [Chemins de mise à niveau pris en charge vers Dynamics AX 2012](https://technet.microsoft.com/library/dd362093.aspx)

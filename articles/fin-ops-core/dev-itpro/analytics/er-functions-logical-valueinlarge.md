@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 4630ec20e7cbca97c5e43093e6a888a5e09f41a3
-ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
+ms.openlocfilehash: 26a7148a4caa80a191688145bac625bdf0bf83b2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3705141"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686904"
 ---
 # <a name="valueinlarge-er-function"></a>Fonctions VALUEINLARGE ER
 
@@ -77,7 +76,7 @@ Vous définissez les sources de données suivantes dans la mise en correspondanc
 - Source de données **InFiltered** du type *Champ calculé*.
     - Cette source de données contient l’expression `FILTER (In, VALUEINLARGE(In.RecId, InMemory, InMemory.RecId)`.
 
-Lorsque la source de données **InFiltered**est appelée dans le contexte de l’entreprise **DEMF**, une table temporaire est créée dans la base de données de l’application, la liste des codes d’identification d’enregistrement collectée en mémoire est insérée dans cette table et l’instruction SQL suivante est générée pour renvoyer les enregistrements filtrés de la table **Déclaration d’échanges de biens**.
+Lorsque la source de données **InFiltered** est appelée dans le contexte de l’entreprise **DEMF**, une table temporaire est créée dans la base de données de l’application, la liste des codes d’identification d’enregistrement collectée en mémoire est insérée dans cette table et l’instruction SQL suivante est générée pour renvoyer les enregistrements filtrés de la table **Déclaration d’échanges de biens**.
 
 ```xpp
 SELECT … from Intrastat T1

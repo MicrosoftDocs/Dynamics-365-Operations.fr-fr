@@ -1,6 +1,6 @@
 ---
 title: Données principales client intégrées
-description: Cette rubrique décrit l’intégration des données client entre Finance and Operations et Common Data Service.
+description: Cette rubrique décrit l’intégration des données client entre Finance and Operations et Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,19 +18,21 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 36716c302d86bc5715798bf4cf4899f666d0872c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 801538e320ca78b0cc55bb4e4b8a80d38b9b48d6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997452"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685637"
 ---
 # <a name="integrated-customer-master"></a>Données principales client intégrées
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Les données client peuvent être gérées dans plusieurs applications Dynamics 365. Par exemple, un enregistrement client peut provenir d’une activité de vente dans Dynamics 365 Sales (une application basée sur un modèle dans Dynamics 365), ou un enregistrement peut provenir d’une activité de vente au détail dans Dynamics 365 Commerce (une application Finance and Operations). Peu importe d’où proviennent les données client, elles sont intégrées en arrière-plan. Le client principal intégré vous permet de gérer les données client dans n’importe quelle application Dynamics 365 et offre une vue complète du client dans la suite de l’application Dynamics 365.
+
+Les données client peuvent être gérées dans plusieurs applications Dynamics 365. Par exemple, une ligne client peut provenir d’une activité de vente dans Dynamics 365 Sales (une application basée sur un modèle dans Dynamics 365), ou une ligne peut provenir d’une activité de vente au détail dans Dynamics 365 Commerce (une application Finance and Operations). Peu importe d’où proviennent les données client, elles sont intégrées en arrière-plan. Le client principal intégré vous permet de gérer les données client dans n’importe quelle application Dynamics 365 et offre une vue complète du client dans la suite de l’application Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Flux de données client
 
@@ -38,17 +40,17 @@ Les données client peuvent être gérées dans plusieurs applications Dynamics�
 
 ![Flux de données client](media/dual-write-customer-data-flow.png)
 
-Les clients peuvent être classés largement en deux types : les clients commerciaux/organisationnels et les consommateurs/utilisateurs finaux. Ces deux types de clients sont stockés et gérés différemment dans Finance and Operations et dans Common Data Service.
+Les clients peuvent être classés largement en deux types : les clients commerciaux/organisationnels et les consommateurs/utilisateurs finaux. Ces deux types de clients sont stockés et gérés différemment dans Finance and Operations et dans Dataverse.
 
-Dans Finance and Operations, des clients commerciaux/organisationnels et des consommateurs/utilisateurs finaux sont gérés dans une table unique nommée **CustTable** (CustCustomerV3Entity), et ils sont classés selon l’attribut **Type**. (Si **Type** est défini sur **Organisation** , le client est commercial/organisationnel, et si **Type** est défini sur **Personne** , le client est client/utilisateur.) Les informations de principale personne à contacter sont traitées via l’entité de SMMContactPersonEntity.
+Dans Finance and Operations, des clients commerciaux/organisationnels et des consommateurs/utilisateurs finaux sont gérés dans une table unique nommée **CustTable** (CustCustomerV3Entity), et ils sont classés selon l’attribut **Type**. (Si **Type** est défini sur **Organisation**, le client est commercial/organisationnel, et si **Type** est défini sur **Personne**, le client est client/utilisateur.) Les informations de principale personne à contacter sont traitées via l’entité de SMMContactPersonEntity.
 
-Dans Common Data Service, les clients commerciaux/organisationnels sont gérés dans l’entité Compte et identifiés comme clients lorsque l’attribut **RelationshipType** est défini sur **Client**. Les consommateurs/utilisateurs finaux et la personne à contacter sont représentés par l’entité Contact. Pour fournir une séparation claire entre un consommateur/utilisateur final et une personne à contacter, l’entité **Contact** a un indicateur booléen nommé **Vendable**. Lorsque **Vendable** est **True** , le contact est un consommateur/utilisateur final, et des devis et des commandes peuvent être créés pour ce contact. Lorsque **Vendable** est **False** , le contact est simplement une principale personne à contacter d’un client.
+Dans Dataverse, les clients commerciaux/organisationnels sont gérés dans l’entité Compte et identifiés comme clients lorsque l’attribut **RelationshipType** est défini sur **Client**. Les consommateurs/utilisateurs finaux et la personne à contacter sont représentés par l’entité Contact. Pour fournir une séparation claire entre un consommateur/utilisateur final et une personne à contacter, l’entité **Contact** a un indicateur booléen nommé **Vendable**. Lorsque **Vendable** est **True**, le contact est un consommateur/utilisateur final, et des devis et des commandes peuvent être créés pour ce contact. Lorsque **Vendable** est **False**, le contact est simplement une principale personne à contacter d’un client.
 
 Lorsqu’un contact non vendable participe à un processus de devis ou de commande, **Vendable** est défini sur **True** pour indiquer que le contact est un contact de vente. Un contact qui devient un contact de vente reste un contact de vente.
 
 ## <a name="templates"></a>Modèles
 
-Les données client incluent toutes les informations sur le client, telles que le groupe de clients, les adresses, les informations de contact, le profil de paiement, le profil de facture, et le statut de fidélité. Un ensemble de mappages d’entités fonctionne ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
+Les données client incluent toutes les informations sur le client, telles que le groupe de clients, les adresses, les informations de contact, le profil de paiement, le profil de facture, et le statut de fidélité. Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
 Applications Finance and Operations | Autres applications Dynamics 365         | Description
 ----------------------------|---------------------------------|------------

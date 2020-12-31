@@ -1,6 +1,6 @@
 ---
-title: Embauche d'un candidat via le recrutement
-description: Cette procédure permet à un recruteur d'embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique.
+title: Embauche d’un candidat via le recrutement
+description: Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,32 +11,31 @@ ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c4367838bc334f18608e17f966397302c20aa06
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c2e10c56a2bd53b1bda9704e13324aa5a0d96848
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143625"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692866"
 ---
-# <a name="hiring-candidate-through-recruiting"></a>Embauche d'un candidat via le recrutement
+# <a name="hiring-candidate-through-recruiting"></a>Embauche d’un candidat via le recrutement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure permet à un recruteur d'embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l'enregistrement du candidat aura le statut Employé. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour terminer cette procédure, allez dans : Ressources humaines > Recrutement > Candidatures > Candidatures 
+Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé une candidature via un projet de recrutement spécifique. Lorsque vous engagez un candidat via un projet de recrutement, un nouvel enregistrement de collaborateur est créé et l’enregistrement du candidat aura le statut Employé. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour terminer cette procédure, allez dans : Ressources humaines > Recrutement > Candidatures > Candidatures 
 
 1. Sélectionner une candidature pour un candidat externe
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 3. Cliquez sur Statut de la candidature.
 4. Cliquez sur Engager un nouveau collaborateur.
-5. Entrez une date et une heure dans le champ Date de début de l'emploi.
+5. Entrez une date et une heure dans le champ Date de début de l’emploi.
 6. Dans le champ Poste, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Entrez une date et une heure dans le champ Début d'affectation.
+8. Entrez une date et une heure dans le champ Début d’affectation.
 9. Cliquez sur Engager un nouveau collaborateur.
 10. Développez le récapitulatif Historique des emplois.
 11. Développez le récapitulatif Postes actuels.

@@ -1,6 +1,6 @@
 ---
-title: Liste des fonctions ER dans la catégorie de date et d'heure
-description: Cette rubrique fournit des informations sur les fonctions de date et d'heure prises en charge dans les États électroniques (ER).
+title: Liste des fonctions ER dans la catégorie de date et d’heure
+description: Cette rubrique fournit des informations sur les fonctions de date et d’heure prises en charge dans les États électroniques (ER).
 author: NickSelin
 manager: kfend
 ms.date: 12/05/2019
@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa8e725ac6bd7d280dc0269a70e3f7abf1ad4d43
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 2745298ae1f6787c3de5a4aaf6a2a6350f5f3e85
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916566"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686217"
 ---
-# <a name="list-of-er-functions-in-the-date-and-time-category"></a>Liste des fonctions ER dans la catégorie de date et d'heure
+# <a name="list-of-er-functions-in-the-date-and-time-category"></a>Liste des fonctions ER dans la catégorie de date et d’heure
 
 [!include [banner](../includes/banner.md)]
 
-Les fonctions de date et d'heure d'états électroniques (ER) peuvent être utilisées pour extraire des informations des valeurs de date et d'heure et pour effectuer des opérations sur celles-ci. Cette rubrique fournit un résumé de ces fonctions.
+Les fonctions de date et d’heure d’états électroniques (ER) peuvent être utilisées pour extraire des informations des valeurs de date et d’heure et pour effectuer des opérations sur celles-ci. Cette rubrique fournit un résumé de ces fonctions.
 
 ## <a name="list-of-supported-functions"></a>Liste des fonctions prises en charge
 
@@ -38,21 +37,21 @@ Les fonctions de date et d'heure d'états électroniques (ER) peuvent être util
 | [AddDays](er-functions-datetime-adddays.md) | Cette fonction renvoie une valeur de *DateTime* qui est le nombre de jours spécifié avant ou après une date de début spécifiée. |
 | [DateFormat](er-functions-datetime-dateformat.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente une valeur de date donnée dans le format spécifié et dans une culture éventuellement spécifiée. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Cette fonction renvoie une valeur de *Chaîne* qui présente une valeur de date/heure donnée dans le format spécifié et dans une culture éventuellement spécifiée. |
-| [DateTimeValue](er-functions-datetime-datetimevalue.md) | Cette fonction renvoie une valeur *DateTime* qui est convertie à partir d'une valeur de texte donnée dans le format spécifié et dans une culture spécifiée en option sur une valeur de date/heure. |
-| [DateToDateTime](er-functions-datetime-datetodatetime.md) | Cette fonction renvoie une valeur de *DateTime* qui est convertie d'une valeur de date donnée en une valeur de date/heure en temps universel coordonné (Heure de Greenwich, \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | Cette fonction renvoie une valeur *Date* qui est convertie à partir d'une valeur de texte donnée dans le format spécifié et dans une culture spécifiée en option sur une valeur de date. |
+| [DateTimeValue](er-functions-datetime-datetimevalue.md) | Cette fonction renvoie une valeur *DateTime* qui est convertie à partir d’une valeur de texte donnée dans le format spécifié et dans une culture spécifiée en option sur une valeur de date/heure. |
+| [DateToDateTime](er-functions-datetime-datetodatetime.md) | Cette fonction renvoie une valeur de *DateTime* qui est convertie d’une valeur de date donnée en une valeur de date/heure en temps universel coordonné (Heure de Greenwich, \[GMT\]). |
+| [DateValue](er-functions-datetime-datevalue.md) | Cette fonction renvoie une valeur *Date* qui est convertie à partir d’une valeur de texte donnée dans le format spécifié et dans une culture spécifiée en option sur une valeur de date. |
 | [DayOfYear](er-functions-datetime-dayofyear.md) | Cette fonction renvoie une valeur *Entier* qui représente sous forme de nombre entier du nombre de jours entre le 1er janvier et la date spécifiée. |
 | [Jours](er-functions-datetime-days.md) | Cette fonction renvoie une valeur *Entier* qui représente sous forme de nombre entier du nombre de jours entre une date spécifiée et une autre date donnée. |
-| [Now](er-functions-datetime-now.md) | Cette fonction renvoie une valeur *DateTime* qui représente la date et l'heure actuelles du serveur d'applications. |
+| [Now](er-functions-datetime-now.md) | Cette fonction renvoie une valeur *DateTime* qui représente la date et l’heure actuelles du serveur d’applications. |
 | [NullDate](er-functions-datetime-nulldate.md) | Cette fonction renvoie une valeur *Date* qui représente la date **null** (1er janvier 1900). |
 | [NullDateTime](er-functions-datetime-nulldatetime.md) | Cette fonction renvoie une valeur de *DateTime* qui représente la valeur de date/heure **null** (1er janvier 1900) en temps universel coordonné. |
-| [SessionNow](er-functions-datetime-sessionnow.md) | Cette fonction renvoie une valeur *DateTime* qui représente la date et l'heure actuelles de la session de l'application. |
-| [SessionToday](er-functions-datetime-sessiontoday.md) | Cette fonction renvoie une valeur *Date* qui représente la date actuelle de la session de l'application. |
-| [Aujourd'hui](er-functions-datetime-today.md) | Cette fonction renvoie une valeur *Date* qui représente la date actuelle du serveur d'applications. |
+| [SessionNow](er-functions-datetime-sessionnow.md) | Cette fonction renvoie une valeur *DateTime* qui représente la date et l’heure actuelles de la session de l’application. |
+| [SessionToday](er-functions-datetime-sessiontoday.md) | Cette fonction renvoie une valeur *Date* qui représente la date actuelle de la session de l’application. |
+| [Aujourd’hui](er-functions-datetime-today.md) | Cette fonction renvoie une valeur *Date* qui représente la date actuelle du serveur d’applications. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des États électroniques](general-electronic-reporting.md)
+[Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 

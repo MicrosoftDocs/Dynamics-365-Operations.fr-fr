@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a087fa63bfdf4c2340f0fe9a8bdbd9195a7b90b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: fd54361f4397de75fbd578bc965cd90db963b2f8
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144062"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693457"
 ---
 # <a name="approve-application-inbox-records"></a>Approuver les enregistrements de la boîte de réception des candidatures
 
@@ -32,7 +31,7 @@ Cette procédure décrit comment réviser les candidatures reçues via les pages
 
 ## <a name="review-application-inbox-record"></a>Revoir les enregistrements de la boîte de réception des candidatures
 1. Allez dans Ressources humaines > Recrutement > Candidatures > Boîte de réception des candidatures.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Développez la section Adresses.
 4. Développez la section Informations de contact.
 5. Développez la section Documents joints.

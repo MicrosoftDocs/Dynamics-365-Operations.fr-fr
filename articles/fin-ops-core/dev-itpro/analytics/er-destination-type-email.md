@@ -1,9 +1,9 @@
 ---
 title: Type de destination pour l’envoi d’états électroniques par e-mail
-description: Cette rubrique fournit des informations sur la configuration d’une destination de messagerie pour chaque composant DOSSIER ou FICHIER d’un format d’état électronique (ER) configuré pour générer des documents sortants.
+description: Cette rubrique explique comment configurer une destination de messagerie pour chaque composant DOSSIER ou FICHIER d’un format d’état électronique (ER) configuré pour générer des documents sortants.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,64 +11,134 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72f67ad915ba2acc90ecb52bdb97e42504450a03
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745559"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690124"
 ---
-# <a name="email-destination"></a>Destination du courrier électronique
+# <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez configurer une destination de messagerie pour chaque composant DOSSIER ou FICHIER d’un format d’état électronique (ER) configuré pour générer des documents sortants. En fonction du paramètre de destination, un document généré est remis en tant que pièce jointe d’un courrier électronique.
+Lors de l’exécution d’un format de la génération d’états électronique (ER), un ou plusieurs documents sortants peuvent être générés. Les composants de format **Dossier** ou **Fichier** sont utilisés dans les formats ER pour spécifier la structure des documents sortants. Vous pouvez configurer une destination d’e-mail pour ces types de composants afin d’envoyer des documents sortants sous forme de pièces jointes à un e-mail.
 
-Définissez **Activé** sur **Oui** pour envoyer un fichier de sortie par courrier électronique. Une fois cette option activée, vous pouvez spécifier les destinataires du message et modifier l’objet et le corps du courrier électronique. Vous pouvez paramétrer des textes constants pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de génération d’états électroniques pour créer dynamiquement les textes de courrier électronique. 
+Vous pouvez configurer une destination d’e-mail pour chaque composant **Dossier** ou **Fichier** d’un format ER. Dans ce cas, **chaque document sortant est envoyé par e-mail individuellement**. En fonction de ce paramètre de destination, un document généré est remis en tant que pièce jointe d’un e-mail. 
 
-Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que pour la fonction de gestion de l’impression, ou vous pouvez résoudre une adresse e-mail en utilisant une référence directe à la configuration ER via une formule.
+> [!NOTE]
+> Si aucun document n’est généré, car l’expression **Activée** du composant **Fichier** pertinent a été configuré pour renvoyer une valeur booléenne **Faux**, aucun e-mail n’est envoyé, même si une destination d’e-mail est configurée et activée pour le composant.
 
-[![Activer la destination de l’e-mail](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+Vous pouvez aussi [grouper](#grouping) de nombreux composants **Dossier** ou **Fichier** ensemble, puis configurer une destination d’e-mail pour tous les composants du groupe. Dans ce cas, tous les documents sortants générés par des composants appartenant au groupe **sont envoyés sous forme de pièces jointes multiples d’un même e-mail**. En fonction de ce paramètre de destination, chaque document généré est remis en tant que pièce jointe d’un seul e-mail.
+
+> [!NOTE]
+> Si au moins un document est généré par un composant **Fichier** dans un groupe de composants, un e-mail est envoyé. Si aucun document n’est généré par des groupés composants, car l’expression **Activée** de chaque composant **Fichier** pertinent a été configuré pour renvoyer une valeur booléenne **Faux**, aucun e-mail n’est envoyé, même si une destination d’e-mail est configurée et activée pour le groupe de composants.
+>
+> **E-mail** est la seule destination pouvant être configurée pour un groupe de composants. Pour remettre un document envoyé par e-mail en fonction du paramètre de destination de l’e-mail d’un groupe, ajoutez un autre enregistrement de destination, sélectionnez le composant souhaité, puis configurez une autre destination pour cet enregistrement.
+
+Plusieurs groupes de composants peuvent être configurés pour une configuration de format ER unique. De cette manière, vous pouvez configurer une destination d’e-mail pour chaque groupe de composants et une destination d’e-mail pour chaque composant.
+
+## <a name="configure-an-email-destination"></a>Configurer une destination d’e-mail
+
+Pour envoyer un fichier de sortie ou plusieurs fichiers de sortie par e-mail, sur la page **Destination des rapports électroniques**, sur le raccourci **Destination du fichier**, sélectionnez un composant ou un groupe de composants dans la grille, puis sélectionnez **Paramètres**. Dans la boîte de dialogue **Paramètres de destination** qui apparaît, sur l’onglet **E-mail**, définissez l’option **Activée** sur **Oui**. Vous pouvez ensuite spécifier les destinataires du message et modifier l’objet et le corps du courrier électronique. Vous pouvez paramétrer un texte constant pour l’objet et le corps du courrier électronique, ou vous pouvez utiliser des [formules](er-formula-language.md) de génération d’états électroniques pour créer dynamiquement les textes de courrier électronique.
+
+Vous pouvez configurer les adresses électroniques pour les états électroniques de deux manières. La configuration peut être effectuée de la même manière que pour la fonction de Gestion de l’impression, ou vous pouvez résoudre une adresse e-mail en utilisant une référence directe à la configuration ER via une formule.
+
+[![Définition de l’option Activé sur Oui pour une destination de courrier électronique](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>Types d’adresses électroniques
 
-Lorsque vous sélectionnez **Modifier** dans les champs **À** ou **Cc**, la boîte de dialogue **E-mail à** s’affiche. Vous pouvez ensuite sélectionner le type d’adresse électronique à utiliser. Les types d’e-mail **E-mail de configuration** et **Gestion de l’impression** sont actuellement pris en charge.
+Si vous sélectionnez **Modifier** à côté du champ **À** ou **Cc** dans la boîte de dialogue **Paramètres de destination**, la boîte de dialogue **Envoyer à** apparaît. Sélectionnez **Ajouter**, puis sélectionnez le type d’adresse électronique à utiliser. Deux types sont actuellement pris en charge : **E-mail de configuration de l’impression** et **E-mail de configuration**.
 
-[![Sélectionner un type d’e-mail](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Sélection du type d’adresse e-mail](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
-### <a name="print-management"></a>Gestion de l’impression
+### <a name="print-management-email"></a>E-mail de gestion de l’impression
 
-Si vous sélectionnez le type d’e-mail **Gestion de l’impression**, vous pouvez entrer des adresses électroniques fixes dans le champ **À**. 
+Si vous sélectionnez **E-mail de gestion de l’impression** comme type d’adresse e-mail, vous pouvez saisir des adresses e-mail fixes dans la boîte de dialogue **Envoyer à** en définissant les champs suivants :
 
-[![Configurer des adresses e-mail fixes](./media/ER_Destinations-EmailFixedAddress.png)](./media/ER_Destinations-EmailFixedAddress.png)
+- Sélectionnez le champ **Source du message électronique**, puis **Aucune**.
+- Dans le champ **Adresses e-mail supplémentaires, séparées par ";"**, entrez les adresses e-mail fixes.
 
-Pour utiliser des adresses électroniques non fixes, vous devez sélectionner le type de source du courrier électronique pour une destination de fichier. Les valeurs suivantes sont prises en charge : **Client**, **Fournisseur**, **Prospect**, **Contact**, **Concurrent**, **Collaborateur**, **Candidat**, **Fournisseur potentiel** et **Fournisseur non autorisé**. Après avoir sélectionné un type de source de courrier électronique, utilisez le bouton en regard **Compte source de l’e-mail** pour ouvrir l’écran **Concepteur de formule**. Vous pouvez utiliser cet écran pour joindre une formule qui renvoie au moment de l’exécution le **compte de partie** du type de source sélectionné du document traité à la destination de l’e-mail.
+![Configuration d’une adresse e-mail fixe](./media/er_destinations-emailfixedaddress.png)
 
-[![Configurer le compte source de messagerie](./media/ER_Destinations-EmailDefineAddressSource.png)](./media/ER_Destinations-EmailDefineAddressSource.png)
+Vous pouvez également obtenir des adresses électroniques à partir des coordonnées du tiers pour lequel vous générez un document sortant. Pour utiliser des adresses électroniques non fixes dans el champ **Source de l’e-mail**, vous devez sélectionner le [rôle](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) du tiers pour une destination de fichier. Les rôles suivants sont pris en charge :
 
-Les formules sont spécifiques à la configuration de l’état électronique. Dans le champ **Formule**, entrez une référence spécifique au document pour un type de partie Client ou Fournisseur. Au lieu de taper, vous pouvez rechercher un nœud de source de données qui représente le compte client ou fournisseur, puis sélectionner **Ajouter une source de données** pour mettre la formule à jour. Par exemple, si vous utilisez la configuration **Virement bancaire ISO 20022**, le nœud représentant un compte fournisseur est : `'\$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
+- Client
+- Fournisseur
+- Prosp
+- Contact
+- Concurrent
+- Collaborateur
+- Candidat
+- Fournisseur potentiel
+- Fournisseur non autorisé
 
-Si vous entrez une valeur de chaîne, telle que `"DE-001"`, et enregistrez une formule, un e-mail sera envoyé à la personne de contact du vendeur, **DE-001**.
+Par exemple, pour configurer une destination de courrier électronique pour un format ER utilisé pour traiter les paiements fournisseur, sélectionnez le rôle **Fournisseur**.
 
+Après avoir sélectionné le rôle souhaité, sélectionnez le bouton **Lier** (symbole de chaîne) à côté du champ **Compte source de messagerie** pour ouvrir la page [Concepteur de formule](general-electronic-reporting-formula-designer.md). Vous pouvez ensuite utiliser cette page pour configurer une formule qui renvoie, au moment de l’exécution, le numéro de compte de la partie affectée au rôle configuré du document traité à la destination de l’e-mail.
 
-[![Page Concepteur de formule ER](./media/ER_Destinations-EmailDefineAddressSourceFormula.png)](./media/ER_Destinations-EmailDefineAddressSourceFormula.png)
+> [!NOTE]
+> Les formules sont spécifiques à la configuration de l’état électronique.
 
-[![Configurer le compte d’attributs de source de messagerie](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)
+Sur la page **Concepteur de formule**, dans le champ **Formule**, entrez une référence spécifique au document à un rôle pris en charge. Au lieu de taper la référence, dans le volet **Source de données**, recherchez et sélectionnez le nœud de source de données qui représente un compte du rôle configuré, puis sélectionnez **Ajouter une source de données** pour mettre à jour la formule. Par exemple, si vous configurez la destination de l’e-mail pour la configuration **Transfert de crédit ISO 20022** utilisée pour traiter les paiements fournisseur, le nœud qui représente un compte fournisseur est `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
+![Configuration d’un compte source de messagerie](./media/er_destinations-emaildefineaddresssource.gif)
 
+Si les numéros de compte du rôle configuré sont uniques pour toute l’instance de Microsoft Dynamics 365 Finance, le champ **Entreprise de la source de l’e-mail** dans la boîte de dialogue **Envoyer à** peut rester vide.
+
+![Champ Société de la source de l’e-mail](./media/er_destinations-emaildefineaddresssourceformula.png)
+
+Sinon, vous pourriez avoir une situation où différents tiers dans le [Carnet d’adresses global](../../fin-ops/organization-administration/overview-global-address-book.md) ont été enregistrés dans différentes sociétés ([entités juridiques](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) de telle manière qu’ils utilisent tous le même numéro de compte pour remplir le rôle configuré. Dans ce cas, les numéros de compte du rôle configuré ne sont pas uniques pour l’ensemble de l’instance Finance. Par conséquent, pour sélectionner explicitement un tiers, vous ne pouvez pas spécifier uniquement un numéro de compte. Vous devez également spécifier la société dans laquelle le tiers a été enregistré pour remplir le rôle configuré. Sélectionnez le rôle souhaité, sélectionnez le bouton **Lier** (symbole de chaîne) à côté du champ **Société de la source de messagerie** dans la boîte de dialogue **E-mail à** pour ouvrir la page [Concepteur de formule](general-electronic-reporting-formula-designer.md). Vous pouvez ensuite utiliser cette page pour configurer une formule qui renvoie, au moment de l’exécution, le code de la société dont la source souhaitée doit se trouver dans le périmètre.
+
+> [!TIP]
+> Si vous devez utiliser le code société pour exécuter un format ER, mais que le format ER ne fournit aucune source de données à partir de laquelle le code société peut être obtenu, configurez la formule `GetCurrentCompany()` en utilisant la fonction ER [GETCURRENTCOMPANY](er-functions-other-getcurrentcompany.md) intégrée.
+
+> [!NOTE]
+> Les formules sont spécifiques à la configuration de l’état électronique.
+
+Pour spécifier le type d’adresses e-mail à utiliser lors du runtime, dans la boîte de dialogue **E-mail à**, sélectionnez **Modifier** à côté du champ **À** pour ouvrir la boîte de dialogue déroulante **Attribuer une adresse e-mail**. Définissez ensuite les champs suivants :
+
+- Dans le champ **Objet**, sélectionnez les objets souhaités. Seules les adresses e-mail des objets sélectionnés provenant des contacts du tiers détecté seront utilisées.
+- Définissez l’option **Contact principal** pour **Oui** pour utiliser une adresse e-mail configurée pour le tiers détecté comme adresse e-mail principale.
+
+> [!NOTE]
+> Si des objectifs sont sélectionnés dans le champ **Objectif** et que l’option **Contact principal** est définie sur **Oui** en même temps, chaque e-mail qui satisfait au moins un critère configuré sera utilisé lors de l’exécution.
+
+![Configuration d’un compte d’attributs source d’e-mail](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>E-mail de configuration
 
-Utilisez ce type de courrier électronique si la configuration que vous utilisez a un nœud dans les sources de données qui retourne une **adresse électronique**. Vous pouvez utiliser les sources et fonctions de données du concepteur de formule pour obtenir une adresse électronique correctement mise en forme. Par exemple, si vous utilisez la configuration **Virement bancaire ISO 20022**, le nœud représentant l’adresse e-mail du contact du fournisseur est : `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Sélectionnez **E-mail de configuration** comme type d’adresse e-mail si la configuration que vous utilisez a un nœud dans les sources de données qui renvoie une seule adresse e-mail ou plusieurs adresses e-mail séparées par des points-virgules (;). Vous pouvez utiliser les [sources de données](general-electronic-reporting.md#FormatComponentOutbound) et les [fonctions](er-formula-language.md#functions) dans le concepteur de formule pour obtenir une adresse e-mail correctement mise en forme ou des adresses e-mail correctement mises en forme séparées par des points-virgules. Par exemple, si vous utilisez la configuration **Transfert de crédit ISO 20022**, le nœud qui représente l’adresse e-mail principale d’un fournisseur à partir des coordonnées du fournisseur auquel la lettre explicative doit être envoyée est `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![Configurer la source d’adresse de messagerie](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Configuration d’une source d’adresse e-mail](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+
+## <a name="group-format-components"></a><a id="grouping"></a>Grouper les composants de format
+
+Pour regrouper les composants de format, sur la page **Destination des rapports électroniques**, sur le raccourci **Destination du fichier**, sélectionnez les composants dans la grille, puis **Grouper**.
+
+**E-mail** est la seule destination précédemment configurée qui est encore disponible pour les composants sélectionnés. Aucune autre destination précédemment configurée n’est disponible, car elle est considérée comme non prise en charge pour un groupe de composants. Vous serez informé de ces changements le cas échéant.
+
+L’enregistrement que vous avez précédemment ajouté est considéré comme l’en-tête du groupe créé. Cet enregistrement d’en-tête contient les paramètres de destination des e-mails pour le groupe. Les autres enregistrements sont des membres du groupe qui utiliseront les paramètres de destination des e-mails de l’enregistrement d’en-tête du groupe.
+
+Pour dissocier des composants de format, sur le raccourci **Destination du fichier**, sélectionnez un enregistrement qui appartient au groupe, puis sélectionnez **Dissocier**.
+
+- Si vous sélectionnez un enregistrement d’en-tête, l’ensemble du groupe sera dissocié.
+- Si vous sélectionnez un enregistrement de membre et qu’il s’agit du dernier enregistrement de membre d’un groupe, l’ensemble du groupe sera dissocié.
+- Si vous sélectionnez un enregistrement de membre qui n’est pas le dernier enregistrement de membre d’un groupe, cet enregistrement sera exclu du groupe actuel.
+
+L’illustration suivante montre la structure d’un format ER qui a été configuré pour produire un fichier sortant compressé contenant une note de lettre de recouvrement et les factures client appropriées au format PDF.
+
+[![Structure d’un format ER qui génère des documents sortants](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+
+L’illustration suivante montre le processus, comme décrit dans cette rubrique, de regroupement de composants individuels et d’activation de la destination de l’**E-mail** du nouveau groupe, afin qu’une note de lettre de recouvrement soit envoyée avec les factures client appropriées sous forme de pièces jointes à un e-mail.
+
+[![Regrouper des composants individuels et activer la destination de l’e-mail](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

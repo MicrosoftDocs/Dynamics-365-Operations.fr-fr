@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013178"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693723"
 ---
 # <a name="keyboard-shortcuts"></a>Raccourcis clavier
 
@@ -33,7 +32,7 @@ Les raccourcis clavier suivants peuvent vous aider rapidement et efficacement à
 > [!NOTE]
 > Les raccourcis clavier décrits ici font référence au type de clavier en usage aux États-Unis. Il se peut que les touches des autres types de claviers ne correspondent pas exactement aux touches des claviers en usage aux États-Unis.
 
-Certains des raccourcis de cette page sont des *accords de touches* , ce qui signifie qu'ils nécessitent deux ensembles consécutifs de combinaisons de touches (séparées par une virgule) qui doivent être enfoncées indépendamment pour déclencher l'action requise. Par exemple, le raccourci « Alt + M, A » nécessite que l'utilisateur appuie d'abord sur « Alt + M », relâche les touches, puis appuie sur « A ». 
+Certains des raccourcis de cette page sont des *accords de touches*, ce qui signifie qu’ils nécessitent deux ensembles consécutifs de combinaisons de touches (séparées par une virgule) qui doivent être enfoncées indépendamment pour déclencher l’action requise. Par exemple, le raccourci « Alt + M, A » nécessite que l’utilisateur appuie d’abord sur « Alt + M », relâche les touches, puis appuie sur « A ». 
 
 ## <a name="finding-a-shortcut"></a>Recherche d’un raccourci
 
@@ -239,18 +238,18 @@ Certains des raccourcis de cette page sont des *accords de touches* , ce qui sig
 | Monter/descendre d’une page dans la recherche                                                                                       | Page précédente / Page suivante              |
 | Atteindre le haut ou le bas de la recherche                                                                                    | Début/Fin                       |
 
-## <a name="task-recorder-shortcuts"></a>Raccourcis de l'[Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md) 
+## <a name="task-recorder-shortcuts"></a>Raccourcis de l’[Enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md) 
 
 | Opération                                                                    | Appuyer sur                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| Arrêter l'enregistrement (pendant l'enregistrement)                                          | Alt + R, S                    |
-| Activer / désactiver la visibilité du volet de l'enregistreur de tâches (pendant l'enregistrement)             | Alt + R, T                    |
-| Basculer en mode Rails (lors de la lecture d'un guide de tâche)                                | Alt + R, L                    |
-| Passer à l'étape précédente (pendant la lecture d'un guide de tâche)                          | Alt + R, P                    |
-| Passer à l'étape suivante (pendant la lecture d'un guide de tâche)                              | Alt + R, N                    |
-| Basculer le focus entre la page et l'invite contextuelle animée (lors de la lecture d'un guide de tâche) | Alt + R, F               |
-| Développer/réduire l'invite contextuelle animée (lors de la lecture d'un guide de tâche)              | Alt + R, C                    |
-| Afficher plus/moins d'informations dans l'invite contextuelle animée (lors de la lecture d'un guide de tâche) | Alt + R, M                    |
+| Arrêter l’enregistrement (pendant l’enregistrement)                                          | Alt + R, S                    |
+| Activer / désactiver la visibilité du volet de l’enregistreur de tâches (pendant l’enregistrement)             | Alt + R, T                    |
+| Basculer en mode Rails (lors de la lecture d’un guide de tâche)                                | Alt + R, L                    |
+| Passer à l’étape précédente (pendant la lecture d’un guide de tâche)                          | Alt + R, P                    |
+| Passer à l’étape suivante (pendant la lecture d’un guide de tâche)                              | Alt + R, N                    |
+| Basculer le focus entre la page et l’invite contextuelle animée (lors de la lecture d’un guide de tâche) | Alt + R, F               |
+| Développer/réduire l’invite contextuelle animée (lors de la lecture d’un guide de tâche)              | Alt + R, C                    |
+| Afficher plus/moins d’informations dans l’invite contextuelle animée (lors de la lecture d’un guide de tâche) | Alt + R, M                    |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

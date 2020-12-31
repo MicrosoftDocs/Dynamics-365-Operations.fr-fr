@@ -1,6 +1,6 @@
 ---
-title: Configurer le carnet d'adresses global
-description: Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d'adresses global.
+title: Configurer le carnet d’adresses global
+description: Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d’adresses global.
 author: msftbrking
 manager: AnnBe
 ms.date: 07/23/2019
@@ -11,30 +11,29 @@ ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe68f926848c86843be04977f58d89e7a54509b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143879"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694663"
 ---
-# <a name="configure-the-global-address-book"></a>Configurer le carnet d'adresses global
+# <a name="configure-the-global-address-book"></a>Configurer le carnet d’adresses global
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d'adresses global. 
+Cette procédure permet de définir les valeurs par défaut et les stratégies de sécurité du carnet d’adresses global. 
 
-Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l'équipe de planification et de configuration.
+Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l’équipe de planification et de configuration.
 
-1. Dans le volet de navigation, accédez à **Modules > Administration d'organisation > Carnet d'adresses global > Paramètres du carnet d'adresses global**.
+1. Dans le volet de navigation, accédez à **Modules > Administration d’organisation > Carnet d’adresses global > Paramètres du carnet d’adresses global**.
 2. Dans le champ **Ordre des noms**, sélectionnez la manière dont les noms doivent être affichés.
-3. Dans le champ **Supprimer les parties sans rôles**, indiquez si vous souhaitez supprimer les parties avec lesquelles aucun rôle n'a été attribué.
-4. Dans le champ **Utiliser la vérification des doublons**, sélectionnez s'il faut vérifier les enregistrements en double.
+3. Dans le champ **Supprimer les parties sans rôles**, indiquez si vous souhaitez supprimer les parties avec lesquelles aucun rôle n’a été attribué.
+4. Dans le champ **Utiliser la vérification des doublons**, sélectionnez s’il faut vérifier les enregistrements en double.
 5. Dans **Afficher le numéro DUNS sur les adresses**, Sélectionnez si vous souhaitez afficher le numéro DUNS sur les adresses.
 6. Dans **Contrôle unicité DUNS**, sélectionnez si vous souhaitez rechercher des numéros DUN uniques.
 7. Dans le champ **Partie**, sélectionnez une option.
@@ -42,7 +41,7 @@ Les données fictives utilisées pour créer cette tâche correspondent à la so
 9. Dans le champ **Fournisseur**, sélectionnez une option.
 10. Dans le champ **Prospect**, sélectionnez une option.
 11. Dans le champ **Concurrent**, sélectionnez une option.
-12. Cliquez sur l'onglet **Sécurité de l'emplacement privé**.
-13. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Appuyez sur la touche Shift pour sélectionner plusieurs rôles à ajouter au volet **Rôles sélectionnés**, puis cliquez sur la flèche pour ajouter les rôles sélectionnés.   
+12. Cliquez sur l’onglet **Sécurité de l’emplacement privé**.
+13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Appuyez sur la touche Shift pour sélectionner plusieurs rôles à ajouter au volet **Rôles sélectionnés**, puis cliquez sur la flèche pour ajouter les rôles sélectionnés.   
 14. Cliquez sur **Enregistrer**.
 

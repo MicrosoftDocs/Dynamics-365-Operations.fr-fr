@@ -1,6 +1,6 @@
 ---
-title: Configurer des processus d'approbation dans un workflow
-description: La procédure suivante permet de configurer les propriétés du processus d'approbation.
+title: Configurer des processus d’approbation dans un workflow
+description: La procédure suivante permet de configurer les propriétés du processus d’approbation.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 01/24/2020
@@ -10,77 +10,76 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 927a41f39e9ba9c05a7af0b962972168afa7a1ea
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: b6f4f6a3fdf07ae267f92eedd312c6c721f18429
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698289"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692890"
 ---
-# <a name="configure-approval-processes-in-a-workflow"></a>Configurer des processus d'approbation dans un workflow
+# <a name="configure-approval-processes-in-a-workflow"></a>Configurer des processus d’approbation dans un workflow
 
 [!include [banner](../includes/banner.md)]
 
-La procédure suivante permet de configurer les propriétés du processus d'approbation.
+La procédure suivante permet de configurer les propriétés du processus d’approbation.
 
-Pour configurer un processus d'approbation, dans l'éditeur de workflow, cliquez avec le bouton droit sur l'élément d'approbation, puis cliquez sur **Propriétés** pour ouvrir l'écran **Propriétés**.
+Pour configurer un processus d’approbation, dans l’éditeur de workflow, cliquez avec le bouton droit sur l’élément d’approbation, puis cliquez sur **Propriétés** pour ouvrir l’écran **Propriétés**.
 
-## <a name="name-the-approval-process"></a>Saisie d'un nom pour le processus d'approbation
+## <a name="name-the-approval-process"></a>Saisie d’un nom pour le processus d’approbation
 
-Procédez comme suit pour entrer un nom pour le processus d'approbation.
+Procédez comme suit pour entrer un nom pour le processus d’approbation.
 
 1. Dans le volet gauche, cliquez sur **Paramètres de base**.
-2. Dans le champ **Nom**, entrez un nom unique pour le processus d'approbation.
+2. Dans le champ **Nom**, entrez un nom unique pour le processus d’approbation.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-document"></a>Indication du moment où le système agit automatiquement sur le document
 
-Vous pouvez configurer le système pour qu'il agisse automatiquement sur le document s'il répond à certaines conditions. Par exemple, le système peut approuver les états de dépenses dont le montant total est inférieur à USD 100. Procédez comme suit pour indiquer quand le système agit sur le document.
+Vous pouvez configurer le système pour qu’il agisse automatiquement sur le document s’il répond à certaines conditions. Par exemple, le système peut approuver les états de dépenses dont le montant total est inférieur à USD 100. Procédez comme suit pour indiquer quand le système agit sur le document.
 
 1. Dans le volet gauche, cliquez sur **Actions automatiques**.
 2. Activez la case à cocher **Activer les actions automatiques**.
 3. Cliquez sur **Ajouter une condition**.
-4. Permet d'entrer une condition.
-5. Entrez d'autres conditions, le cas échéant.
+4. Permet d’entrer une condition.
+5. Entrez d’autres conditions, le cas échéant.
 6. Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :
 
-    1. Cliquez sur **Test** pour ouvrir l'écran **Condition de workflow de test**.
-    2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l'écran.
-    3. Cliquez sur **Tester**. Le système évalue l'enregistrement pour déterminer s'il répond aux conditions que vous avez spécifiées.
-    4. Cliquez sur **OK** ou sur **Annuler** pour revenir à l'écran **Propriétés**.
+    1. Cliquez sur **Test** pour ouvrir l’écran **Condition de workflow de test**.
+    2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l’écran.
+    3. Cliquez sur **Tester**. Le système évalue l’enregistrement pour déterminer s’il répond aux conditions que vous avez spécifiées.
+    4. Cliquez sur **OK** ou sur **Annuler** pour revenir à l’écran **Propriétés**.
 
-7. Dans la liste **Action de saisie automatique**, sélectionnez l'action que le système doit appliquer au document.
+7. Dans la liste **Action de saisie automatique**, sélectionnez l’action que le système doit appliquer au document.
 
 ## <a name="specify-when-notifications-are-sent"></a>Spécification du moment où les notifications sont envoyées
 
-Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été approuvé, rejeté, délégué ou réaffecté, ou encore lorsqu'une modification a été demandée. Procédez comme suit pour indiquer quand les notifications sont envoyées, et à qui.
+Vous pouvez envoyer des notifications aux personnes lorsqu’un document a été approuvé, rejeté, délégué ou réaffecté, ou encore lorsqu’une modification a été demandée. Procédez comme suit pour indiquer quand les notifications sont envoyées, et à qui.
 
 1. Dans le volet gauche, cliquez sur **Notifications**.
 2. Activez la case à cocher en regard des événements pour lesquels envoyer des notifications :
 
-    - **Déléguer** – Lorsqu'un document a été affecté à un autre utilisateur pour approbation.
-    - **Réaffecter** – Lorsque l'utilisateur affecté n'a pas agi sur un document dans le délai imparti.
-    - **Approuver** – Lorsqu'un document a été approuvé.
-    - **Rejeter** – Lorsqu'un document a été rejeté.
-    - **Demander une modification** – Lorsque l'utilisateur affecté a demandé une modification du document envoyé.
+    - **Déléguer** – Lorsqu’un document a été affecté à un autre utilisateur pour approbation.
+    - **Réaffecter** – Lorsque l’utilisateur affecté n’a pas agi sur un document dans le délai imparti.
+    - **Approuver** – Lorsqu’un document a été approuvé.
+    - **Rejeter** – Lorsqu’un document a été rejeté.
+    - **Demander une modification** – Lorsque l’utilisateur affecté a demandé une modification du document envoyé.
 
-3. Sélectionnez la ligne pour un événement sélectionné à l'étape 2.
-4. Cliquez sur l'onglet **Texte de notification**.
+3. Sélectionnez la ligne pour un événement sélectionné à l’étape 2.
+4. Cliquez sur l’onglet **Texte de notification**.
 5. Dans la zone de texte, entrez le texte de la notification.
-6. Pour personnaliser le texte, vous pouvez insérer des espaces réservés qui seront remplacés par les données appropriées lorsqu'ils apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
+6. Pour personnaliser le texte, vous pouvez insérer des espaces réservés qui seront remplacés par les données appropriées lorsqu’ils apparaissent aux utilisateurs. Pour insérer un espace réservé, procédez comme suit :
 
-    1. Cliquez dans la zone de texte à l'endroit où l'espace réservé doit figurer.
+    1. Cliquez dans la zone de texte à l’endroit où l’espace réservé doit figurer.
     2. Cliquez sur **Insérer un espace réservé**.
-    3. Dans la liste affichée, sélectionnez l'espace réservé que vous souhaitez insérer.
+    3. Dans la liste affichée, sélectionnez l’espace réservé que vous souhaitez insérer.
     4. Cliquez sur **Insérer**
 
-7. Pour ajouter des traductions de la notification, cliquez sur **Traductions**. Dans l'écran affiché, procédez comme suit :
+7. Pour ajouter des traductions de la notification, cliquez sur **Traductions**. Dans l’écran affiché, procédez comme suit :
 
     1. Cliquez sur **Ajouter**.
     2. Dans la liste affichée, sélectionnez la langue dans laquelle vous allez saisir le texte.
@@ -88,8 +87,8 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     4. Pour personnaliser le texte, insérez des espaces réservés.
     5. Cliquez sur **Fermer**.
 
-8. Cliquez sur l'onglet **Destinataire**.
-9. Spécifiez à qui les notifications sont envoyées. Sélectionnez l'une des options du tableau suivant et suivez les étapes supplémentaires concernant l'option avant de passer à l'étape 10.
+8. Cliquez sur l’onglet **Destinataire**.
+9. Spécifiez à qui les notifications sont envoyées. Sélectionnez l’une des options du tableau suivant et suivez les étapes supplémentaires concernant l’option avant de passer à l’étape 10.
 
     <table>
     <thead>
@@ -105,7 +104,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     <td>Utilisateurs affectés à un groupe ou à un rôle spécifique</td>
     <td>
     <ol>
-    <li>Après avoir sélectionné <strong>Participant</strong>, cliquez sur l'onglet <strong>Basé sur les rôles</strong>.</li>
+    <li>Après avoir sélectionné <strong>Participant</strong>, cliquez sur l’onglet <strong>Basé sur les rôles</strong>.</li>
     <li>Dans la liste <strong>Type de participant</strong>, sélectionnez le type de groupe ou de rôle auquel envoyer les notifications.</li>
     <li>Dans la liste <strong>Participant</strong>, sélectionnez le type de groupe ou de rôle auquel envoyer les notifications.</li>
     </ol>
@@ -116,7 +115,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     <td>Utilisateurs participant au workflow actuel</td>
     <td>
     <ol>
-    <li>Sélectionnez <strong>Utilisateur du workflow</strong>, puis cliquez sur l'onglet <strong>Utilisateur du workflow</strong>.</li>
+    <li>Sélectionnez <strong>Utilisateur du workflow</strong>, puis cliquez sur l’onglet <strong>Utilisateur du workflow</strong>.</li>
     <li>Dans la liste <strong>Utilisateur du workflow</strong>, sélectionnez un utilisateur qui participe au workflow.</li>
     </ol>
     </td>
@@ -126,7 +125,7 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     <td>Utilisateurs spécifiques</td>
     <td>
     <ol>
-    <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l'onglet <strong>Utilisateur</strong>.</li>
+    <li>Sélectionnez <strong>Utilisateur</strong>, puis cliquez sur l’onglet <strong>Utilisateur</strong>.</li>
     <li>Sélectionnez les utilisateurs à qui envoyer les notifications, puis déplacez-les dans la liste <strong>Utilisateurs sélectionnés</strong>.</li>
     </ol>
     </td>
@@ -134,53 +133,53 @@ Vous pouvez envoyer des notifications aux personnes lorsqu'un document a été a
     </tbody>
     </table>
 
-10. Répétez les étapes 3 à 9 pour chaque événement que vous avez sélectionné à l'étape 2.
+10. Répétez les étapes 3 à 9 pour chaque événement que vous avez sélectionné à l’étape 2.
 
-## <a name="specify-a-final-approver"></a>Spécification d'un approbateur final
+## <a name="specify-a-final-approver"></a>Spécification d’un approbateur final
 
-Vous pouvez désigner un approbateur final pour les scénarios dans lesquels l'approbateur est la personne qui a soumis le document pour approbation et où « Ne pas autoriser l'approbation par l'auteur de l'envoi » est utilisé. Pour indiquer un approbateur final, procédez comme suit.
+Vous pouvez désigner un approbateur final pour les scénarios dans lesquels l’approbateur est la personne qui a soumis le document pour approbation et où « Ne pas autoriser l’approbation par l’auteur de l’envoi » est utilisé. Pour indiquer un approbateur final, procédez comme suit.
 
-1. Dans l'éditeur de workflow, cliquez avec le bouton droit sur l'élément d'approbation, puis sélectionnez **Propriétés** pour ouvrir l'écran **Propriétés**.
+1. Dans l’éditeur de workflow, cliquez avec le bouton droit sur l’élément d’approbation, puis sélectionnez **Propriétés** pour ouvrir l’écran **Propriétés**.
 2. Dans le volet gauche, cliquez sur **Paramètres avancés**.
-3. Activez la case à cocher **Utiliser l'approbateur final**.
-4. Dans la liste, sélectionnez un utilisateur qui sera l'approbateur final.
+3. Activez la case à cocher **Utiliser l’approbateur final**.
+4. Dans la liste, sélectionnez un utilisateur qui sera l’approbateur final.
 
-## <a name="set-a-time-limit"></a>Définition d'un délai limite
+## <a name="set-a-time-limit"></a>Définition d’un délai limite
 
-Si le processus d'approbation doit être exécuté dans un certain délai, procédez comme suit.
+Si le processus d’approbation doit être exécuté dans un certain délai, procédez comme suit.
 
 > [!NOTE]
-> Les options sélectionnées dans ces étapes remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de chaque étape d'approbation.
+> Les options sélectionnées dans ces étapes remplacent celles sélectionnées dans les zones **Affectation** et **Escalade** de chaque étape d’approbation.
 
 1. Dans le volet gauche, cliquez sur **Paramètres avancés**.
-2. Activez la case à cocher **Définir une limite de temps pour l'élément** **de workflow**.
-3. Dans le champ **Durée**, spécifiez quand le processus d'approbation doit être exécuté. Permet de sélectionner l'une des options suivantes :
+2. Activez la case à cocher **Définir une limite de temps pour l’élément** **de workflow**.
+3. Dans le champ **Durée**, spécifiez quand le processus d’approbation doit être exécuté. Permet de sélectionner l’une des options suivantes :
 
-    - **Heures** – Permet d'entrer le nombre d'heures accordé pour l'exécution du processus d'approbation. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    - **Jours** – Permet d'entrer le nombre de jours accordé pour l'exécution du processus d'approbation. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
-    - **Semaines** – Permet d'entrer le nombre de semaines accordé pour l'exécution du processus d'approbation.
-    - **Mois** – Permet de sélectionner le jour et la semaine limites d'exécution du processus d'approbation. Par exemple, vous voudrez peut-être que le processus d'approbation soit exécuté d'ici le vendredi de la troisième semaine du mois.
-    - **Années** – Permet de sélectionner la semaine et le mois limites d'exécution du processus d'approbation. Par exemple, vous voudrez peut-être que le processus d'approbation soit exécuté d'ici le vendredi de la troisième semaine de décembre.
+    - **Heures** – Permet d’entrer le nombre d’heures accordé pour l’exécution du processus d’approbation. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
+    - **Jours** – Permet d’entrer le nombre de jours accordé pour l’exécution du processus d’approbation. Sélectionnez ensuite le calendrier utilisé par votre organisation, puis entrez les informations relatives à la semaine de travail de votre organisation.
+    - **Semaines** – Permet d’entrer le nombre de semaines accordé pour l’exécution du processus d’approbation.
+    - **Mois** – Permet de sélectionner le jour et la semaine limites d’exécution du processus d’approbation. Par exemple, vous voudrez peut-être que le processus d’approbation soit exécuté d’ici le vendredi de la troisième semaine du mois.
+    - **Années** – Permet de sélectionner la semaine et le mois limites d’exécution du processus d’approbation. Par exemple, vous voudrez peut-être que le processus d’approbation soit exécuté d’ici le vendredi de la troisième semaine de décembre.
 
-4. Si le délai est dépassé, le système agit sur le document. Dans la liste **Action**, sélectionnez l'action que le système doit exécuter.
+4. Si le délai est dépassé, le système agit sur le document. Dans la liste **Action**, sélectionnez l’action que le système doit exécuter.
 
-## <a name="specify-which-actions-are-available-to-the-user"></a>Spécification des actions disponibles pour l'utilisateur
+## <a name="specify-which-actions-are-available-to-the-user"></a>Spécification des actions disponibles pour l’utilisateur
 
-Lorsqu'un document est affecté à un utilisateur pour approbation, ce dernier doit agir sur le document. Procédez comme suit pour indiquer les actions que l'utilisateur peut exécuter sur le document soumis.
+Lorsqu’un document est affecté à un utilisateur pour approbation, ce dernier doit agir sur le document. Procédez comme suit pour indiquer les actions que l’utilisateur peut exécuter sur le document soumis.
 
 1. Dans le volet gauche, cliquez sur **Paramètres avancés**.
-2. Activez la case à cocher **Approuver** si l'utilisateur peut approuver le document.
-3. Activez la case à cocher **Rejeter** si l'utilisateur peut rejeter le document.
-4. Activez la case à cocher **Demander une modification** si l'utilisateur peut demander des modifications du document.
-5. Activez la case à cocher **Déléguer** si l'utilisateur peut affecter le document à un autre utilisateur pour approbation.
+2. Activez la case à cocher **Approuver** si l’utilisateur peut approuver le document.
+3. Activez la case à cocher **Rejeter** si l’utilisateur peut rejeter le document.
+4. Activez la case à cocher **Demander une modification** si l’utilisateur peut demander des modifications du document.
+5. Activez la case à cocher **Déléguer** si l’utilisateur peut affecter le document à un autre utilisateur pour approbation.
 
 > [!NOTE]
 > La case à cocher **Activer des actions à partir de la liste de travail dans Enterprise Portal** a été supprimée.
 
-## <a name="configure-the-approval-steps"></a>Configuration des étapes d'approbation
+## <a name="configure-the-approval-steps"></a>Configuration des étapes d’approbation
 
-Un processus d'approbation comprend plusieurs étapes. Procédez comme suit pour ajouter des étapes au processus d'approbation et les configurer.
+Un processus d’approbation comprend plusieurs étapes. Procédez comme suit pour ajouter des étapes au processus d’approbation et les configurer.
 
-1. Dans l'éditeur de workflow, double-cliquez sur le processus d'approbation. L'éditeur de workflow affiche les étapes du processus d'approbation.
-2. Pour ajouter une étape d'approbation, faites glisser l'étape de la zone **Éléments du workflow** sur le canevas.
-3. Pour configurer une étape d'approbation, voir [Configurer les étapes d'approbation dans un workflow](configure-approval-step-workflow.md).
+1. Dans l’éditeur de workflow, double-cliquez sur le processus d’approbation. L’éditeur de workflow affiche les étapes du processus d’approbation.
+2. Pour ajouter une étape d’approbation, faites glisser l’étape de la zone **Éléments du workflow** sur le canevas.
+3. Pour configurer une étape d’approbation, voir [Configurer les étapes d’approbation dans un workflow](configure-approval-step-workflow.md).

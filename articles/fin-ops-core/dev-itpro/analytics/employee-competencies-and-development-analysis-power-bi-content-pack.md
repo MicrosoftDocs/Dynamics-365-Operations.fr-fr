@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263894
 ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1bc75da5deb6e0b40bb4f254f64b2f7f6d068a7a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bed461677cbdfa57b0a198b7179eccb9828dc944
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181655"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687124"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Contenu Power BI Compétences et développement des employés
 
@@ -31,20 +30,20 @@ ms.locfileid: "2181655"
 Cette rubrique décrit le contenu Power BI Compétences et développement des employés. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>États inclus dans le pack de contenu
-Après avoir connecté le pack de contenu à vos données, les données de votre organisation s'affichent dans les états. Si vous n'avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d'apprentissage guidé pour Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
+Après avoir connecté le pack de contenu à vos données, les données de votre organisation s’affichent dans les états. Si vous n’avez jamais utilisé Microsoft Power BI auparavant, consultez la [Page d’apprentissage guidé pour Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) pour en savoir plus. Les états inclus dans le pack de contenu contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.
 
 | Etat                            | Sommaire                                               |
 |-----------------------------------|--------------------------------------------------------|
-| Analyse des compétences et du développement | Types de qualification des membres de l'équipe et qualifications des membres de l'équipe par type |
-| Profil de qualification                     | Profil de qualification pour l'employé sélectionné                |
+| Analyse des compétences et du développement | Types de qualification des membres de l’équipe et qualifications des membres de l’équipe par type |
+| Profil de qualification                     | Profil de qualification pour l’employé sélectionné                |
 | Analyse des qualifications                    | Qualification par type et classement                              |
 
 Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et les épingler au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
-Les données de l'application sont utilisées pour remplir les états du pack de contenu Compétences et développement des employés. Le tableau suivant indique les entités sur lesquelles le pack de contenu est basé.
+Les données de l’application sont utilisées pour remplir les états du pack de contenu Compétences et développement des employés. Le tableau suivant indique les entités sur lesquelles le pack de contenu est basé.
 
-| Entité                            | Sommaire                                                                                                   | Relations avec d'autres entités |
+| Entité                            | Sommaire                                                                                                   | Relations avec d’autres entités |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Workforce\_CalendarOffset         | Décalages de calendrier pour diviser les états                                                                          | |
 | Workforce\_Company                | Sociétés selon lesquelles filtrer les états                                                                             | |
@@ -58,7 +57,7 @@ Les données de l'application sont utilisées pour remplir les états du pack de
 | Workforce\_GeographicLocation     | Ville, département, code postal et région ou province                                                           | |
 | Workforce\_Job                    | Fonction, type et titre                                                                                  | |
 | Workforce\_JobPreferredSkill      | Importance, classement, qualification et niveau de qualification                                                                 | Workforce\_Skill, Workforce\_Job |
-| Workforce\_PastPositionAssignment | Motif d'affectation, date de début, date de fin et tâche                                                           | Workforce\_CalendarOffset, Workforce\_Date, Workforce\_Job, Workforce\_Position |
+| Workforce\_PastPositionAssignment | Motif d’affectation, date de début, date de fin et tâche                                                           | Workforce\_CalendarOffset, Workforce\_Date, Workforce\_Job, Workforce\_Position |
 | Workforce\_Performance            | Classement, description et modèle de classement                                                                      | |
 | Workforce\_PersonSkill            | Niveau, date du niveau et qualification                                                                               | Workforce\_Skill |
 | Workforce\_PersonSkillAnalysis    | Certifié, niveau, date du niveau et qualification                                                                    | Workforce\_WorkerName, Workforce\_Skill |
@@ -68,5 +67,5 @@ Les données de l'application sont utilisées pour remplir les états du pack de
 | Workforce\_Skill                  | Qualification, type de qualification et évaluation                                                                              | |
 | Workforce\_TerminatedWorker       | Collaborateurs dont le contrat est terminé, date de fin du contrat, titre, poste et tâche                                             | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_Position |
 | Workforce\_WorkerName             | Prénom, nom et nom complet                                                                       | |
-| Workforce\_WorkerTitle            | Titre et date d'ancienneté                                                                                   | |
+| Workforce\_WorkerTitle            | Titre et date d’ancienneté                                                                                   | |
 | Workorce\_WorkerTrend             | Collaborateurs dans le temps, effectif, société et poste                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |

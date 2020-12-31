@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 002700ae7f6474b48fbe09cb3aaa72e9516b8224
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 61729d384b1a403f14ce1bcf227074aa28ab369a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143542"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693014"
 ---
 # <a name="manage-leave-of-absence"></a>Gérer les congés
 
@@ -31,12 +30,12 @@ Cette procédure décrit la création des enregistrements des congés des employ
 
 1. Accédez à Ressources humaines > Collaborateurs > Employés.
 2. Sélectionnez un employé dans la liste.
-3. Affichez les détails concernant l'employé sélectionné en sélectionnant le nom de l'employé.
-4. Cliquez sur l'onglet Emploi.
+3. Affichez les détails concernant l’employé sélectionné en sélectionnant le nom de l’employé.
+4. Cliquez sur l’onglet Emploi.
 5. Cliquez sur Congés.
 6. Cliquez sur Nouveau.
 7. Dans le champ Type de départ, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Vous pouvez associer un type de départ à un code de rémunération dans l'écran Types de départ. Si un type de départ est associé à un code de rémunération, une ligne de rémunération est générée avec le code de rémunération associé durant la période de congé que vous entrez.  
+    * Vous pouvez associer un type de départ à un code de rémunération dans l’écran Types de départ. Si un type de départ est associé à un code de rémunération, une ligne de rémunération est générée avec le code de rémunération associé durant la période de congé que vous entrez.  
 8. Dans la liste, sélectionnez un type de départ. 
     * Par exemple : Adoption  
 9. Entrez la date de début du congé. Exemple : 26-10-2015

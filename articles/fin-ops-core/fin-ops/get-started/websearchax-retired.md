@@ -1,6 +1,6 @@
 ---
 title: La page de WebSearchAX a été désactivée
-description: Nous avons dû désactiver la page WebSearchAX. Nous vous recommandons d'utiliser la recherche du site de votre moteur de recherche favori pour la remplacer.
+description: Nous avons dû désactiver la page WebSearchAX. Nous vous recommandons d’utiliser la recherche du site de votre moteur de recherche favori pour la remplacer.
 author: margoc
 manager: AnnBe
 ms.date: 10/12/2017
@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: ''
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: d4d2445a5de1308568218799d6b29d0c42df10ee
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4a4899ad01065b835a6a63a0a418b34d89c4cd3b
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190785"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693615"
 ---
 # <a name="websearchax-page-has-been-retired"></a>La page de WebSearchAX a été désactivée
 
 [!include [banner](../includes/banner.md)]
 
-Nous avons dû désactiver la page WebSearchAX. Nous vous recommandons d'utiliser la recherche du site de votre moteur de recherche favori pour la remplacer. Par exemple :
+Nous avons dû désactiver la page WebSearchAX. Nous vous recommandons d’utiliser la recherche du site de votre moteur de recherche favori pour la remplacer. Par exemple :
 
 site:technet.microsoft.com dynamics ax 2012 « terme de recherche »
 

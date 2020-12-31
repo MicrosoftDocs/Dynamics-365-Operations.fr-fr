@@ -1,6 +1,6 @@
 ---
 title: Entrer le candidat et les données de la candidature manuellement
-description: Cette procédure permet d'indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature.
+description: Cette procédure permet d’indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a897fc64ccd125263b30993c1e24a3c6c67bd63
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 2ea39e86ace40cd8e3ad2733b7f7f7a873a963e7
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144016"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693038"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Entrer le candidat et les données de la candidature manuellement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure permet d'indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature.   Vous pouvez entrer et tenir à jour des informations personnelles, les dates et heures d'entretien, les références, les compétences et les demandes de logement des candidats. Vous pouvez également mettre à jour le statut des candidatures d'emploi et créer à jour des lettres ou des messages e-mail pour communiquer avec des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d'adresses global.       Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Cette procédure permet d’indiquer comment mettre à jour manuellement les informations sur les candidats et leur candidature.   Vous pouvez entrer et tenir à jour des informations personnelles, les dates et heures d’entretien, les références, les compétences et les demandes de logement des candidats. Vous pouvez également mettre à jour le statut des candidatures d’emploi et créer à jour des lettres ou des messages e-mail pour communiquer avec des candidats. Lorsque vous créez un enregistrement de candidat, un enregistrement de personne pour ce candidat est créé dans le carnet d’adresses global.       Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 
 ## <a name="create-a-new-applicant-record"></a>Créer un enregistrement de candidature
@@ -36,7 +35,7 @@ Cette procédure permet d'indiquer comment mettre à jour manuellement les infor
 3. Tapez une valeur dans le champ Prénom.
 4. Tapez une valeur dans le champ Nom.
     * Vous pouvez entrer des informations supplémentaires sur le candidat si elles sont disponibles. Par exemple, le diplôme le plus élevé du candidat, sa fonction actuelle ou son précédent employeur.  
-5. Activez ou désactivez l'extension de la section Informations de contact.
+5. Activez ou désactivez l’extension de la section Informations de contact.
 6. Cliquez sur Ajouter.
 7. Tapez E-mail de communication dans le champ Description.
 8. Sélectionnez une option dans le champ Type.
@@ -46,7 +45,7 @@ Cette procédure permet d'indiquer comment mettre à jour manuellement les infor
 11. Dans le champ Description, entrez une valeur.
 12. Saisissez une valeur dans le champ Numéro/adresse du contact.
     * Informations personnelles sur le candidat.  
-    * Vous pouvez entrer des informations personnelles supplémentaires pour le candidat, si nécessaire. Par exemple, la date de naissance, l'origine ethnique, le genre, ou le statut marital.  
+    * Vous pouvez entrer des informations personnelles supplémentaires pour le candidat, si nécessaire. Par exemple, la date de naissance, l’origine ethnique, le genre, ou le statut marital.  
 13. Cliquez sur Compétences dans le volet Actions.
     * Vous pouvez entrer le profil de la qualification du candidat, notamment ses qualifications, ses expériences professionnelles, sa formation, ses tests ou ses certificats.  
     * Ces informations permettent de mettre en correspondance les qualifications du candidat avec les qualifications associées aux tâches définies dans vos données de la société.   
@@ -56,9 +55,9 @@ Cette procédure permet d'indiquer comment mettre à jour manuellement les infor
 2. Cliquez sur Nouveau.
 3. Dans le champ Projet de recrutement, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
     * En sélectionnant un projet de recrutement, le candidat sera associé à une ouverture spécifique incluse dans ce projet de recrutement.  
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Par défaut, la tâche et le département sont basés sur le projet de recrutement sélectionné.  
 6. Cliquez sur Enregistrer.
-    * Après l'enregistrement de l'application, vous pouvez y joindre des documents, notamment l'expérience du candidat, les primes, et la lettre d'accompagnement.  
+    * Après l’enregistrement de l’application, vous pouvez y joindre des documents, notamment l’expérience du candidat, les primes, et la lettre d’accompagnement.  
 
