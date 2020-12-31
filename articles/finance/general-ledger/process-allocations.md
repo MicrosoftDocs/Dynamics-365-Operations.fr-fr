@@ -1,0 +1,46 @@
+---
+title: Traiter les répartitions
+description: Cet article fournit des informations sur les répartitions, les options pour les traiter dans Microsoft Dynamics 365 Finance, et comment elles peuvent être utilisées dans la planification budgétaire. Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général. Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 17361
+ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
+ms.search.region: Global
+ms.author: peakerbl
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4443179"
+---
+# <a name="process-allocations"></a><span data-ttu-id="037eb-105">Traiter les répartitions</span><span class="sxs-lookup"><span data-stu-id="037eb-105">Process allocations</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="037eb-106">Cet article fournit des informations sur les répartitions, les options pour les traiter, et comment elles peuvent être utilisées dans la planification budgétaire.</span><span class="sxs-lookup"><span data-stu-id="037eb-106">This article provides information about allocations, the options for processing them, and how they can be used in budget planning.</span></span> <span data-ttu-id="037eb-107">Les répartitions sont utilisées pour répartir les montants entre plusieurs combinaisons de compte général.</span><span class="sxs-lookup"><span data-stu-id="037eb-107">Allocations are used to distribute amounts across multiple ledger account combinations.</span></span> <span data-ttu-id="037eb-108">Elles permettent de garantir que les dépenses sont facturées pour l’objet approprié dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="037eb-108">They help ensure that expenses or revenues are charged to the correct object in accounting.</span></span>
+
+<span data-ttu-id="037eb-109">Les fonctionnalités suivantes prennent en charge le processus suivant :</span><span class="sxs-lookup"><span data-stu-id="037eb-109">The following capabilities support this process:</span></span>
+
+-   <span data-ttu-id="037eb-110">Répartir manuellement les montants de transaction à l’aide de l’action Fractionnement dans les répartitions comptables, ou en appliquant les modèles par défaut de dimension financière à un document.</span><span class="sxs-lookup"><span data-stu-id="037eb-110">Manually allocate transaction amounts by using the Split action in accounting distributions, or by applying financial dimension default templates to a document.</span></span> <span data-ttu-id="037eb-111">Pour plus d’informations, consultez [Répartitions comptables](../accounts-payable/accounting-distributions.md).</span><span class="sxs-lookup"><span data-stu-id="037eb-111">For more information, see [Accounting distributions](../accounts-payable/accounting-distributions.md).</span></span>
+-   <span data-ttu-id="037eb-112">Répartir automatiquement les montants des transactions selon des conditions de répartition définies sur le compte principal individuel.</span><span class="sxs-lookup"><span data-stu-id="037eb-112">Automatically allocate transactions amounts based on allocation terms defined on individual main account.</span></span> <span data-ttu-id="037eb-113">Les écritures de compte de répartition seront générées pour chaque journal en fonction du pourcentage et du compte général de destination à chaque fois qu’une écriture comptable répond aux critères définis comme compte général source.</span><span class="sxs-lookup"><span data-stu-id="037eb-113">Allocation account entries will be generated for each journal based on the percentage and destination ledger account whenever an accounting entry meets the criteria defined as the source ledger account.</span></span> <span data-ttu-id="037eb-114">Pour plus d’informations, voir [Conditions de répartition sur un compte principal](../general-ledger/main-account-allocation-terms.md)</span><span class="sxs-lookup"><span data-stu-id="037eb-114">For more information, see [Main account allocation terms](../general-ledger/main-account-allocation-terms.md)</span></span>
+-   <span data-ttu-id="037eb-115">Répartir automatiquement les soldes de comptabilité ou les montants fixes en fonction des règles de répartition comptable.</span><span class="sxs-lookup"><span data-stu-id="037eb-115">Automatically allocate ledger balances or fixed amounts based on ledger allocation rules.</span></span> <span data-ttu-id="037eb-116">Les règles de répartition comptable sont traitées sur une base périodique à l’aide des journaux de répartition.</span><span class="sxs-lookup"><span data-stu-id="037eb-116">The ledger allocation rules are processed on a periodic basis using allocation journals.</span></span> <span data-ttu-id="037eb-117">Pour plus d’informations, voir la rubrique [Règles de répartition](../general-ledger/ledger-allocation-rules.md).</span><span class="sxs-lookup"><span data-stu-id="037eb-117">For more information, see [Allocation rules](../general-ledger/ledger-allocation-rules.md).</span></span>
+
+###  <a name="allocations-in-budget-planning"></a><span data-ttu-id="037eb-118">Répartitions dans la planification budgétaire</span><span class="sxs-lookup"><span data-stu-id="037eb-118">Allocations in budget planning</span></span>
+
+<span data-ttu-id="037eb-119">Les règles de répartition comptable peuvent être utilisées pour les plans budgétaires.</span><span class="sxs-lookup"><span data-stu-id="037eb-119">Ledger allocation rules can be used for budget plans.</span></span> <span data-ttu-id="037eb-120">Lorsque vous utilisez des règles de répartition comptable dans la planification budgétaire, les règles de répartition fonctionnent de la même manière que dans la comptabilité, mais les données sources et les données de destination proviennent du plan budgétaire.</span><span class="sxs-lookup"><span data-stu-id="037eb-120">When you use ledger allocation rules in budget planning, the allocation rules work the same way they would in the ledger, but the source data and destination data comes from the budget plan.</span></span> <span data-ttu-id="037eb-121">Vous pouvez sélectionner manuellement les règles de répartition comptable à utiliser pour les plans budgétaires.</span><span class="sxs-lookup"><span data-stu-id="037eb-121">You can manually select ledger allocation rules to use for budget plans.</span></span> <span data-ttu-id="037eb-122">Sinon, vous pouvez utiliser un programme de répartition qui s’exécute dans le cadre d’un processus de workflow.</span><span class="sxs-lookup"><span data-stu-id="037eb-122">Alternatively, you can use an allocation schedule that runs as part of a workflow process.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="037eb-123">Vous ne pouvez pas utiliser les règles de répartition comptable intersociétés pour la planification budgétaire.</span><span class="sxs-lookup"><span data-stu-id="037eb-123">You can’t use intercompany ledger allocation rules for budget planning.</span></span>
+
