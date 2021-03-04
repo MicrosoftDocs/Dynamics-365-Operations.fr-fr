@@ -5,6 +5,10 @@
       items:
         - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "28\_janvier\_2021"
+          href: hr-whats-new-2021-01-28.md
+        - name: "21\_janvier\_2021"
+          href: hr-whats-new-2021-01-21.md
         - name: "2\_décembre\_2020"
           href: hr-whats-new-2020-12-02.md
         - name: "22\_octobre\_2020"
@@ -79,12 +83,16 @@
           items:
             - name: Choisir une technologie d’intégration de données
               href: hr-admin-integration-choose-technology.md
-            - name: Configurer l’intégration Common Data Service
+            - name: FAQ sur la limitation de requêtes
+              href: hr-admin-integration-throttling-faq.md
+            - name: Configurer l’intégration Dataverse
               href: hr-admin-integration-common-data-service.md
-            - name: Entités Common Data Service
+            - name: Tables Dataverse
               href: hr-developer-entities.md
-            - name: Configurer des entités virtuelles Common Data Service
+            - name: Configurer des entités virtuelles Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: FAQ sur les entités virtuelles Human Resources
+              href: hr-admin-virtual-entity-faq.md
             - name: Configurer l’intégration avec Finance
               href: hr-admin-integration-finance.md
             - name: Configurer l’intégration avec Dayforce
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: Extension avec Power Apps et Power Automate
           href: hr-developer-power-apps.md
-        - name: Entités Common Data Service
+        - name: Tables Dataverse
           href: hr-developer-entities.md
         - name: Champs personnalisés
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Choisir une technologie d’intégration de données
               href: hr-admin-integration-choose-technology.md
-            - name: Configurer l’intégration Common Data Service
+            - name: Configurer l’intégration Dataverse
               href: hr-admin-integration-common-data-service.md
             - name: Configurer l’intégration avec Finance
               href: hr-admin-integration-finance.md
@@ -315,8 +323,94 @@
                   items:
                     - name: Vue d’ensemble de MyLeaveRequests
                       href: hr-developer-api-myleaverequests-overview.md
-                    - name: Soumettre une demande d’absence au workflow
+                    - name: Soumettre une demande d’absence au flux de travail
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: API d’intégration ATS
+          items:
+            - name: Introduction
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Demande de recrutement et entités associées
+              items:
+                - name: Demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Formation pour la demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Emplacement de la demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Poste de la demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Compétence de la demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Exemple de requête pour une demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Ensembles d’options pour la demande de recrutement
+              items:
+                - name: Statut de l’exonération
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Statut du poste de la demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Statut de la demande de recrutement
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Catégorie d’emploi réglementaire
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Candidat à l’embauche et entités liées
+              items:
+                - name: Candidat à l’embauche
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Type de certificat
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Contact de la partie
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Personne
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Adresse de la personne
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Certificat de la personne
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Formation de la personne
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Numéro d’identification de la personne
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Expérience professionnelle de la personne
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Filtrage de la personne
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Compétence de la personne
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Niveau de classement
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Types de filtrages
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Exemple de requête pour le candidat à embaucher
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Ensembles d’options des candidats
+              items:
+                - name: Résultat de l’intégration du candidat
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Vide Oui Non
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Statut d’achèvement
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Type de contact
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Base des crédits de formation
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Sexe
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Situation de famille
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Mois de l’année
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Non Oui
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Unité de période
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Fréquence de filtrage
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: La fréquence de dépistage est générée à partir de
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Type de niveau de compétence
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Guide de l’utilisateur
       items:
         - name: Vue d’ensemble
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Notifications d’alerte du client par e-mail
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Signatures électroniques
-              items:
-                - name: Vue d’ensemble des signatures électroniques
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Paramétrer les signatures électroniques
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Gestion des dossiers
               items:
                 - name: Vue d’ensemble de la gestion des dossiers
@@ -591,6 +679,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Traiter les modifications de taux
                       href: hr-benefits-process-rate-changes.md
+                - name: Génération d’états ACA
+                  href: hr-benefits-management-aca-reports.md
             - name: Définir et gérer un programme d’avantages
               href: hr-benefits-manage-program.md
             - name: Stratégies de droit aux avantages
@@ -617,7 +707,7 @@
               href: hr-leave-and-absence-parameters.md
             - name: Créer un calendrier du temps de travail
               href: hr-leave-and-absence-working-time-calendar.md
-            - name: Créer un workflow de demande de congé
+            - name: Créer un flux de travail de demande de congé
               href: hr-leave-and-absence-workflow.md
             - name: Configurer les types de congé et d’absence
               href: hr-leave-and-absence-types.md
@@ -683,13 +773,13 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Créer une question dépendante
               href: hr-learning-depending-question.md
-        - name: Configurer le libre service pour employés et pour responsables
+        - name: Configurer le libre-service pour employés et pour responsables
           items:
-            - name: Vue d’ensemble du libre service pour employés et pour responsables
+            - name: Vue d’ensemble du libre-service pour employés et pour responsables
               href: hr-employee-manager-self-service-overview.md
             - name: Créer des liens personnalisés dans le libre-service pour responsables
               href: hr-employee-manager-self-service-custom-links.md
-            - name: Modifier le nom de l’espace de travail du libre service pour employés
+            - name: Modifier le nom de l’espace de travail du libre-service pour employés
               href: hr-employee-self-service-workspace-name.md
             - name: Modifier les informations personnelles
               href: hr-employee-manager-self-service-edit-personal-information.md
