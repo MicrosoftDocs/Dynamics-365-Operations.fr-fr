@@ -94,12 +94,12 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: "Commerce\_10.0.17 (avril\_2021)"
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: "Commerce\_10.0.16 (février\_2021)"
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (janvier 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: "Commerce\_10.0.14 (novembre\_2020)"
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
                     - name: Fonctionnalités supprimées ou obsolètes dans Finance and Operations
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Comprendre Lifecycle Services
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: Gestion du cycle de vie de l’implémentation
+              items:
+                - name: Page d’accueil de gestion du cycle de vie de l’implémentation
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Architecture des applications Finance and Operations
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: Intégrer un projet d’implémentation
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Planification de l’environnement
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Préparation au lancement
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: FAQ sur le lancement
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Soumission d’une demande de service
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'FAQ sur les abonnements, les projets LCS et les locataires Azure AD'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Déplacer les environnements entre les centres de données
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Déplacer les licences entre les types de contrat
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Déplacer les projets de mise en œuvre du site vers le cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Implémenter des projets Finance and Operations Commerce
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Paramétrer de nouveaux environnements, Azure DevOps et branches pour les projets'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Mise à jour du code et des environnements pour les projets Commerce
+                  href: dev-itpro/updating-environments.md
+                - name: Problèmes de test et de performances
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Vue d’ensemble architecturale
           items:
             - name: Architecture
@@ -234,7 +272,7 @@
                   href: retail-modern-pos-device-activation.md
                 - name: Gérer les comptes et les périphériques depuis le siège
                   href: set-up-activation-accounts-validate-devices-hq.md
-                - name: Activation de périphérique POS
+                - name: Activation de périphérique de PDV
                   href: dev-itpro/retail-device-activation.md
                 - name: Aide à sécuriser CPOS dans les environnements partagés
                   href: dev-itpro/secure-retail-cloud-pos.md
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Initialisation des données d’origine dans de nouveaux environnements Commerce
                   href: enable-configure-retail-functionality.md
-            - name: Gestion du cycle de vie de l’implémentation
-              items:
-                - name: Page d’accueil de gestion du cycle de vie de l’implémentation
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Architecture des applications Finance and Operations
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Intégrer un projet d’implémentation
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: Planification de l’environnement
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Préparation au lancement
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: FAQ sur le lancement
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Soumission d’une demande de service
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 'FAQ sur les abonnements, les projets LCS et les locataires Azure AD'
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Déplacer les environnements entre les centres de données
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: Déplacer les licences entre les types de contrat
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: Déplacer les projets de mise en œuvre LCS vers différents locataires Azure AD
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Déplacer les projets de mise en œuvre du site vers le cloud
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: "Plusieurs projets et environnements de production\_LCS sur un même locataire\_Azure AD"
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Implémenter des projets Finance and Operations Commerce
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Paramétrer de nouveaux environnements, Azure DevOps et branches pour les projets Commerce'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: Mise à jour du code et des environnements pour les projets Commerce
-                  href: dev-itpro/updating-environments.md
-                - name: Problèmes de test et de performances
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Configurer vos canaux
           items:
             - name: Vue d’ensemble des canaux
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: Modes de paiement dans les centres d’appels
                       href: work-with-payments.md
+                    - name: Traitement des remboursements dans les centres d’appels
+                      href: call-center-refund-payments.md
                     - name: 'Paramétrage, autorisation et capture de carte de crédit'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Configurer les dénominations des espèces pour le PDV
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: "Activer les recommandations «\_acheter des aspects similaires\_»"
                   href: shop-similar-looks.md
+                - name: "Activer les recommandations «\_acheter des descriptions similaires\_»"
+                  href: shop-similar-description.md
                 - name: Expériences de PDV
                   items:
                     - name: Ajouter des recommandations produit sur PDV
@@ -712,7 +716,7 @@
           items:
             - name: Commandes client
               items:
-                - name: Commandes client dans le point de vente (PDV)
+                - name: Commandes client dans le PDV
                   href: customer-orders-overview.md
                 - name: Commandes client hybrides
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: Activer plusieurs modes de livraison de prélèvement
                   href: multiple-pickup-modes.md
+                - name: Traiter un retrait de commande client dans le PDV
+                  href: process-order-pickup-POS.md
             - name: Commandes client
               items:
                 - name: Créer des commandes de centre d’appels
@@ -858,6 +864,10 @@
                   href: add-cdn-support.md
                 - name: Activation de la détection du magasin selon l’emplacement
                   href: enable-store-detection.md
+                - name: Cartes-cadeaux numériques e-commerce
+                  href: digital-gift-cards.md
+                - name: Configuration requise du navigateur pour les sites Dynamics 365 Commerce
+                  href: browser-requirements.md
             - name: Vue d’ensemble d’un exemple de site
               items:
                 - name: Vue d’ensemble de la page d’accueil
@@ -948,6 +958,8 @@
                       href: enrich-category-page.md
                     - name: Vérifier l’accessibilité du contenu de la page
                       href: verify-accessibility.md
+                    - name: Créer des pages e-commerce dynamiques basées sur des paramètres d’URL
+                      href: create-dynamic-pages.md
                 - name: Navigation dans le site
                   items:
                     - name: Personnaliser la navigation dans le site
@@ -1058,6 +1070,8 @@
                   items:
                     - name: Modules de collecte de produits
                       href: product-collection-module-overview.md
+                    - name: Module de visualisation rapide
+                      href: quick-view-module.md
                 - name: Modules de navigation
                   items:
                     - name: Module de barre de navigation
@@ -1066,11 +1080,15 @@
                       href: nav-menu-module.md
                     - name: Module de sélection de site
                       href: site-selector.md
+                - name: Rechercher des modules
+                  items:
+                    - name: Module de résultats de recherche
+                      href: search-result-module.md
                 - name: Modules de conformité
                   items:
                     - name: Module de consentement aux cookies
                       href: cookie-consent-module.md
-            - name: Recherche
+            - name: Rechercher
               items:
                 - name: Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche
                   href: category-search-page-overview.md
@@ -1106,6 +1124,18 @@
           items:
             - name: Intégration de Dynamics 365 Fraud Protection à Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: E-commerce B2B
+          items:
+            - name: Mettre en place un site e-commerce B2B
+              href: b2b/set-up-b2b-site.md
+            - name: Créer des hiérarchies de modélisation organisationnelle pour les organisations B2B
+              href: b2b/org-model.md
+            - name: Gérer les utilisateurs des partenaires commerciaux sur les sites e-commerce B2B
+              href: b2b/manage-b2b-users.md
+            - name: Configurer le mode de paiement du compte client pour les sites e-commerce B2B
+              href: b2b/payment-method.md
+            - name: Définir des limites de quantité de produits pour les sites e-commerce B2B
+              href: b2b/quantity-limits.md
         - name: Surveillance et analyse
           items:
             - name: Surveiller les performances des ventes et des marges
@@ -1584,7 +1614,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
                         - name: "Texte\_: Text"
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes
+            - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations distinctes
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
             - name: Sélectionner des définitions de modèle de données lorsque vous créez des formats
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: Imiter l’état Connecté pendant le développement local
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Configurer les propriétés du module à afficher en fonction du contexte
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: Globaliser des modules à l’aide de la classe CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Configurer Azure Key Vault pour la gestion des clés sécurisées
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Prochaines modifications dans le kit de développement logiciel (SDK) Retail
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: "Modifications importantes du développement et d’ALM entre la version\_10.0.10 et la version\_10.0.13"
+                - name: "Développement et modifications d’ALM entre la version\_10.0.10 et la version\_10.0.13"
                   href: dev-itpro/dev-changes-10-13.md
                 - name: Fusionner les systèmes de génération pour Commerce et Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2220,7 +2252,7 @@
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Ajouter des contrôles personnalisés aux vues PDV basées sur un concepteur hors écran
                   href: dev-itpro/pos-control-non-screen.md
-                - name: Exécuter les exemples POS
+                - name: Exécuter les exemples de PDV
                   href: dev-itpro/pos-run-samples.md
                 - name: Conseils de mise en œuvre pour la gestion des périphériques
                   href: implementation-considerations-devices.md
@@ -2234,11 +2266,11 @@
                   href: dev-itpro/hardware-station-extensibility.md
                 - name: Intégrer un PDV à un nouveau périphérique matériel
                   href: dev-itpro/hardware-device-extension.md
-            - name: Extensibilité de Retail Server
+            - name: "Extensibilité de Retail\_Server"
               items:
                 - name: API client et consommateur de Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: "Créer une nouvelle API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions ultérieures)"
+                - name: "Créer une API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions ultérieures)"
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: "Créer une nouvelle API d’extension Retail Server (Kit de développement logiciel (SDK) Retail version\_10.0.11 et versions antérieures)"
                   href: dev-itpro/retail-server-extension.md
@@ -2300,7 +2332,7 @@
                   href: payment-connector-data-fields.md
                 - name: Activer la protection des paiements en double pour le connecteur de paiement
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Créer un package de paiement pour l’Explorateur d’application dans les déploiements Service Fabric
+                - name: Créer un package de paiement Commerce pour le déploiement de Finance and Operations
                   href: dev-itpro/payment-connector-package.md
             - name: Extensibilité du commerce électronique tiers
               items:

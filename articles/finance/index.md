@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 592808651037cb68c26d4c32307c8162efebc125
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459023"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975424"
 ---
 # <a name="finance-home-page"></a>Page d’accueil Finance
 
@@ -42,9 +41,9 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
     :::column-end:::
     :::column:::
         - [Gestion des dépenses](expense-management/expense-management.md)
-        - [États financiers](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Financial Reporting](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Immobilisations](fixed-assets/fixed-assets.md)
-        - [Comptabilité et états financiers](general-ledger/general-ledger.md) 
+        - [Comptabilité et Financial Reporting](general-ledger/general-ledger.md) 
         - [Gestion et comptabilité des projets](project-management/overview-project-management-accounting.md)
         - [Secteur public](public-sector/public-sector-functionality.md) 
     :::column-end:::

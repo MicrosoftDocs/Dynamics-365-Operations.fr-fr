@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685051"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154117"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
@@ -55,7 +55,7 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 
 #### <a name="regulatory-updates"></a>Mises à jour réglementaires
 -   [Mises à jour réglementaires](../../../finance/localizations/regulatory-updates.md)
--   [Portail de localisation](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (mis à jour toutes les semaines)
+-   [Portail de localisation](https://docs.microsoft.com/dynamics/s-e/) (mis à jour toutes les semaines)
 -   [Recherche d’incidents dans Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (mise à jour quotidiennement)
 
 #### <a name="communication-and-alerts"></a>Communication et alertes

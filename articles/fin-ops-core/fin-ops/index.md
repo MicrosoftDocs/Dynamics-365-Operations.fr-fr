@@ -13,23 +13,23 @@ audience: Application User
 ms.reviewer: rhaertle
 ms.custom: 62303
 ms.search.region: Global
-ms.author: margoc
+ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 413bdd2e7a817185829eb551380caf71d87af9b7
+ms.sourcegitcommit: 36d256bf5a832d2d70014d64044026f732b77831
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694383"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "5073105"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentation des applications Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Découvrez comment adapter les applications Finance and Operations à votre entreprise, en utilisant les ressources de cette rubrique pour rechercher des contenus utiles pour les utilisateurs, les développeurs et les professionnels de l'informatique. 
+Découvrez comment adapter les applications Finance and Operations à votre entreprise, en utilisant les ressources de cette rubrique pour rechercher des contenus utiles pour les utilisateurs, les développeurs et les professionnels de l’informatique. 
 
-La majeure partie de ce contenu s'applique également aux produits associés : Dynamics 365 Commerce et Dynamics 365 Human Resources. 
+La majeure partie de ce contenu s’applique également aux produits associés : Dynamics 365 Commerce et Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -40,14 +40,14 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 <tbody>
 <tr class="odd">
 <td>
-<h3><a href="get-started/before-you-buy.md">Avant d'acheter</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Souscrire un abonnement d'aperçu</a></p>
+<h3><a href="get-started/before-you-buy.md">Avant d’acheter</a></h3>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Souscrire un abonnement d’aperçu</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Choisir une option de déploiement</a></p>
  <p><a href="get-started/purchase-on-premises.md">Acheter Finance and Operations (on-premises)</a></p>
 
-<h3><a href="imp-lifecycle/implementation-lifecycle.md">Cycle de vie de l'implémentation</a></h3>
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Cycle de vie de l’implémentation</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-<p><a href="imp-lifecycle/onboard.md">Intégration d'un projet</a></p>
+<p><a href="imp-lifecycle/onboard.md">Intégration d’un projet</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Préparation au lancement</a></p>
 
 <h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Mises à jour de service à une version</a></h3>
@@ -67,7 +67,7 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Intégrations</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Événements commerciaux</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Entités de données</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Intégration à l'aide de Microsoft Power Automate</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Intégration à l’aide de Microsoft Power Automate</a></p>
 
 <h3><a href="../../finance/index.md">Gestion financière</a></h3>
 <p><a href="../../finance/accounts-payable/accounts-payable.md">Comptabilité fournisseur</a></p>
@@ -91,7 +91,7 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 
 </td>
 <td>
-<h3><a href="../../supply-chain/index.md">Gestion de la chaîne d'approvisionnement</a></h3>
+<h3><a href="../../supply-chain/index.md">Gestion de la chaîne d’approvisionnement</a></h3>
 <p><a href="../../supply-chain/cost-management/costing-sheets.md">Gestion des coûts</a></p>
 <p><a href="../../supply-chain/inventory/inventory-home-page.md">Gestion des stocks</a></p>
 <p><a href="../../supply-chain/master-planning/master-plans.md">Planification</a></p>
@@ -106,8 +106,8 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Intelligence</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Analyses</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">Documents commerciaux</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">États financiers</a></p>
-<p><a href="../dev-itpro/analytics/general-electronic-reporting.md">Génération d'états de réglementation</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Financial Reporting</a></p>
+<p><a href="../dev-itpro/analytics/general-electronic-reporting.md">Génération d’états de réglementation</a></p>
 
 
 
@@ -124,20 +124,20 @@ La majeure partie de ce contenu s'applique également aux produits associés : 
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Mise à niveau</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Maintenance</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
-<p><a href="organization-administration/organization-administration-home-page.md">Administration d'organisation</a></p>
+<p><a href="organization-administration/organization-administration-home-page.md">Administration d’organisation</a></p>
 </td>
 <td>
 <h3>Produits associés</h3>
 <h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Centre d'appels</p>
+<p><a href="../../retail/call-center-functionality.md">Centre d’appels</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Paramétrage et gestion de canal</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS et Cloud POS</p>
 <p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Développeur et administration Commerce</p>
 
 <h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Guide de l'administrateur</a></p>
+<p><a href="../../human-resources/hr-admin-overview.md">Guide de l’administrateur</a></p>
 <p><a href="../../human-resources/hr-developer-overview.md">Guide du développeur</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Guide de l'utilisateur</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Guide de l’utilisateur</a></p>
 
 
 </td>
