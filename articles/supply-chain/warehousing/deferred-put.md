@@ -110,3 +110,6 @@ L'espace de travail **Suivi des expéditions** a deux vignettes qui vous aident 
 ## <a name="deleting-completed-tasks"></a>Suppression des tâches terminées
 
 Vous pouvez supprimer les tâches de traitement différé des ventes terminées en les sélectionnant et en les supprimant depuis la page.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Vous pouvez consolider les données à l’aide de l’option **Exporter soldes 
 Pour plus d’informations, voir [Réévaluation de devise dans une société de consolidation](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Pour modifier les dimensions financières des transactions de vente au détail d
 [Créer un classeur Excel pour modifier les transactions de vente au détail](create-excel-edit.md)
 
 [Ajouter des champs à un classeur Excel pour modifier les transactions de vente au détail](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

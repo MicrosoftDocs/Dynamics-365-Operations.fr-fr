@@ -55,3 +55,6 @@ L’expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` renvoie la val
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

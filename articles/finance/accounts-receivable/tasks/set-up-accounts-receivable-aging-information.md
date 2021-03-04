@@ -59,3 +59,6 @@ Ce guide vous aidera à paramétrer une définition de plage âgée, des soldes 
 2. Sélectionnez un client avec un solde.
 3. Développez la zone de récapitulatif **Âgé** pour afficher les balances âgées. La définition de plage âgée pour le récapitulatif provient de celle par défaut spécifiée dans les paramètres. Vous pouvez la modifier à l’aide du menu Collecter.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Si la facture dépasse la limite de contrôle de disponibilités et que l’util
 - Un utilisateur disposant de droits de contournement renvoie la facture
 - La facture est modifiée afin qu’un autre compte de disponibilités soit utilisé
 - Le solde de contrôle de disponibilités est modifié
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

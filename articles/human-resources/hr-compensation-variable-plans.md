@@ -99,3 +99,6 @@ Les **Remplacements organisationnels** permettent de baser la prime d'un employ√
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

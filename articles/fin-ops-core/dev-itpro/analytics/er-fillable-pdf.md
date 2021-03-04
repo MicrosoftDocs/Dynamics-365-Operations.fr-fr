@@ -301,3 +301,6 @@ L’illustration suivante présente un exemple d’une autre page de l’état g
 
 - [ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [Créer des configurations de gestion d’états électroniques pour générer des états au format Word](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

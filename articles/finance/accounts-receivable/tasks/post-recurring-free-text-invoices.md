@@ -46,3 +46,6 @@ Les factures récurrentes permettent de facturer les clients régulièrement pou
 6. Cliquez sur Valider.
     * Permet de valider les factures sélectionnées.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

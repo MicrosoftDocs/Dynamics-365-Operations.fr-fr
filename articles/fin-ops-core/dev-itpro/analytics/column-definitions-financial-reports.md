@@ -599,3 +599,6 @@ Vous pouvez diviser le montant dans une colonne par un nombre de périodes spéc
 [Définitions de ligne dans le générateur d’états financiers](row-definitions-financial-reporting.md)
 
 [Options de mise en forme avancées dans les états financiers](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

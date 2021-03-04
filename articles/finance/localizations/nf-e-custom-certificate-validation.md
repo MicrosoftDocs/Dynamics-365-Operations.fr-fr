@@ -36,3 +36,6 @@ La propriété **Objectif de l’authentification du serveur** du certificat V5 
 Cette mise à jour permet une solution alternative pour la validation des certificats, ce qui signifie qu’il est possible d’établir une communication sécurisée.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Les résultats affichés dans le journal d’envoi dépendent du paramétrage de
 - [Démarrage du module complémentaire de facturation électronique pour le Mexique](e-invoicing-mex-get-started.md)
 - [Démarrage du module complémentaire de facturation électronique pour l’Italie](e-invoicing-ita-get-started.md)
 - [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

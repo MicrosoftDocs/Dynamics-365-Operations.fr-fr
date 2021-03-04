@@ -109,3 +109,6 @@ Pour désigner des approbateurs, procédez comme suit :
 1. Sur la page **Options**, sur l’onglet **Comptes**, cliquez sur **Désigner l’approbateur**.
 2. Dans le champ **ID utilisateur approbateur**, sélectionnez l’ID de l’utilisateur qui doit signer les modifications d’un autre utilisateur.
 3. Dans le champ **Signer pour l’ID utilisateur**, sélectionnez l’ID de l’utilisateur dont les modifications doivent être signées.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

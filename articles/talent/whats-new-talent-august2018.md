@@ -85,3 +85,6 @@ Des informations supplémentaires sur cette fonctionnalité sont disponibles dan
 ## <a name="other-fixes"></a>Autres correctifs
 
 Cette version inclut également plusieurs correctifs de bogue, l'ajout de nouvelles entités, des correctifs aux entités existantes et des modifications d'étiquette localisées.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

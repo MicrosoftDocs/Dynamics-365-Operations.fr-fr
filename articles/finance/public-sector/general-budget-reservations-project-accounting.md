@@ -60,3 +60,6 @@ Lorsque vous validez une réservation budgétaire générale pour un projet, un 
 3. Sélectionnez **Coûts engagés**. La page **Coûts engagés** s’affiche et indique les coûts engagés associés à la ligne sélectionnée.
 
     Les coûts engagés pour les réservations budgétaires générales sont basés sur le montant, peu importe si le coût engagé inclut une quantité et un coût unitaire distincts. La quantité du coût engagé est toujours 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

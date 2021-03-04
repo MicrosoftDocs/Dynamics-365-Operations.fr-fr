@@ -117,3 +117,6 @@ Le tableau suivant décrit les différentes options pour la publication des offr
 [Identifier des candidats avec LinkedIn Recruiter dans Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

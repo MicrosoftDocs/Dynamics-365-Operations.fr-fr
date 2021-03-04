@@ -42,3 +42,6 @@ La première année de service se terminera en décembre 2020, ce qui signifie 
    [![Plan d’amortissement pour la convention d’amortissement semestrielle](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Les périodes d’amortissement prolongées ajoutées par la convention semestrielle permettent une répartition plus précise de l’amortissement. La convention de six mois représente les dépenses d’amortissement de manière plus égale, ce qui est utile pour la présentation du compte de résultat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

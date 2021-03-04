@@ -39,3 +39,6 @@ Utilisez la page **Validation de la facture** pour imprimer le texte récupéré
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Pour mettre en service l'environnement d'évaluation de Commerce, voir [Mise en 
 [Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce](cpe-optional-features.md)
 
 [FAQ des environnements d'évaluation Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -514,3 +514,6 @@ Pour commencer à utiliser la nouvelle fonctionnalité de la version 3.3 du for
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Télécharger les configurations de gestion des états électroniques depuis Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Télécharger les configurations de gestion des états électroniques depuis le référentiel global du service de configuration](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Dans la version de cette semaine, la description s'affiche lorsque vous sélecti
 ### <a name="print-performance-reviews"></a>Imprimer les évaluations des performances
 
 Les employés, les responsables et les professionnels des RH peuvent imprimer l'examen des performances d'un employé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Le champ **Statut d’approbation** est utilisé lorsqu'une CF passe par un proc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

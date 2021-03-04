@@ -129,3 +129,6 @@ Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble
 - [Paramétrer le mode de paiement pour les virements ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Configurer le mode de paiement pour le débit direct ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

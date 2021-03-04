@@ -64,3 +64,6 @@ Le tableau suivant indique les entités sur lesquelles le pack de contenu Power 
 | Performances          | Classement, description et modèle de classement                            | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Projet de recrutement  | Description, statut du projet, et ouvertures de projet                | Candidat, candidat employé, candidat dont le contrat est terminé |
 | Candidat dont le contrat est terminé | Candidats terminés, motif, performances et date de fin de contrat | Société, décalage de calendrier, date, emplacement géographique, performances, démographie, emploi, support, projet de recrutement, nom du candidat |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Cette procédure décrit comment afficher la liste des fournisseurs de paiement 
 24. Activez la case à cocher Processeur par défaut pour les nouvelles cartes de crédit.
 25. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

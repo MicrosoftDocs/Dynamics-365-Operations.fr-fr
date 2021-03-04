@@ -122,3 +122,6 @@ Pour ajouter un script externe à un modèle dans le générateur de site, proc�
 [Ajouter un avis de droits d’auteur](add-copyright-notice.md)
 
 [Ajouter des langues à votre site](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

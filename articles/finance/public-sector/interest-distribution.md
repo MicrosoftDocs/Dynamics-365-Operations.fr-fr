@@ -81,3 +81,6 @@ Le processus de répartition de la distribution d’intérêts inclut des montan
 | Moyenne journalière totale   | Somme de tous les soldes quotidiens moyens, sauf les montants négatifs des comptes de disponibilités qui ne permettent pas des comptes d’intérêts et de disponibilités négatifs qui ne participent pas à la distribution d’intérêts. |
 | Pourcentage du total      | Montant du solde quotidien moyen divisé par le montant moyen quotidien total pour chaque combinaison de compte de disponibilité et de subvention. |
 | Intérêts affectés    | Montant total des intérêts de la page **Paramètres de distribution d’intérêts**, multiplié par le pourcentage du montant total du compte de disponibilités. Les intérêts ne sont pas répartis sur les comptes de disponibilités ayant des montants négatifs et qui ne permettent pas d’intérêts négatifs. Les intérêts ne sont également pas répartis sur les comptes de disponibilités qui ne participent pas à la distribution d’intérêts. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

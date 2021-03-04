@@ -51,3 +51,6 @@ Utilisez les étapes suivantes pour contrepasser les modifications non enregistr
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

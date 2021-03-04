@@ -39,3 +39,6 @@ La gestionnaire de rémunération et avantages peut affecter des employés à de
     * Si le régime de rémunération fixe est un régime à étapes, sélectionnez l'étape contenant le taux de salaire approprié pour l'employé. Si le régime de rémunération fixe est un régime de niveau, entrez le taux de salaire approprié pour l'employé. Le taux de salaire sera validé par rapport aux paramètres de tolérance pour le plan, et les points de référence minimum et maximum pour le niveau de rémunération de la tâche.  
 8. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

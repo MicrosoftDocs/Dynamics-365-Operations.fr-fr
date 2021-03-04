@@ -62,3 +62,6 @@ Cette rubrique décrit l'utilisation des fonctionnalités des modules de comptab
 [Vue d'ensemble de développement et d'établissement d'accords de service](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

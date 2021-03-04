@@ -79,3 +79,6 @@ Les modèles de temps de travail définissent les heures de travail au cours d'u
 3. Développez la section Dimanche.
 4. Sélectionnez Oui dans le champ Clôturé pour prélèvement.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

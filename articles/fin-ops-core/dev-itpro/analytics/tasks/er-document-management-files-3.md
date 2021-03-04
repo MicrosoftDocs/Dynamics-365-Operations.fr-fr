@@ -119,3 +119,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 23. Cliquez sur Enregistrer.
 24. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

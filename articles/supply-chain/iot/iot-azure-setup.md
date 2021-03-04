@@ -162,3 +162,6 @@ Pour enregistrer le secret de la chaîne de connexion du cache Redis, procédez 
 > Chaque fois que vous mettez à jour l’une des chaînes de connexion, vous devez également mettre à jour les valeurs secrètes.
 
 Vous avez maintenant terminé de provisionner les ressources Azure requises. La prochaine étape consiste à [installer le complément Intelligence IoT dans Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Cette procédure montre comment ajouter une nouvelle expression de contrainte à
 4. Cliquez sur Fermer.
 5. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

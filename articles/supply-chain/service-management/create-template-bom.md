@@ -111,3 +111,6 @@ Une nouvelle nomenclature des modèles est créée à l'aide de lignes correspon
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

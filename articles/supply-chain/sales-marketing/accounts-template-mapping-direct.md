@@ -117,3 +117,6 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 [Synchroniser les en-têtes et les lignes de facture client directement entre le module Supply Chain Management et Sales](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

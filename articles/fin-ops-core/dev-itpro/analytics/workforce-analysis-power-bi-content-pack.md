@@ -86,3 +86,6 @@ Le tableau suivant indique les entités sur lesquelles le contenu est basé.
 | Tendance de l’employé           | Collaborateurs dans le temps, effectif, société et poste                                 | Société, Emplacement géographique, Nom de l’employé, Génère un état pour, Décalage de calendrier, Date, Titre de l’employé, Démographie, Emploi, Tâche |
 | Projet d’embauche collective        | Nombre de projets d’embauche collective, propriétaire du projet et statut du projet                     | Société, ligne d’embauche collective |
 | Ligne d’embauche collective           | Département, type d’emploi et poste                                           | Date, tâche, projet d’embauche collective |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

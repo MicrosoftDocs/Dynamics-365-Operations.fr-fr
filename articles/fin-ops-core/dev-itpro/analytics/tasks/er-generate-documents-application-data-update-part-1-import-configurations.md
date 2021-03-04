@@ -75,3 +75,6 @@ Les étapes de cette procédure expliquent comment créer des configurations ER 
     * Examinez la structure du format utilisé pour générer l’état de déclaration d’échanges de biens. Notez qu’elle est conçue pour générer un fichier XML en remplissant les données du modèle de données, qui est basé sur l’élément racine « Pour le document sortant ». Vérifiez que le nom du fichier généré est défini sur l’écran Boîte de dialogue utilisateur (la source de données « fn » est utilisée à cet effet).   
 30. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Dans le champ **Groupe d'accords de service** dans la page **Paramètres de gest
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Création de groupes d'accords de service](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

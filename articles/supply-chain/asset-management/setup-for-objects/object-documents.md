@@ -50,3 +50,6 @@ Dans le module Gestion des actifs, vous pouvez paramétrer des documents afin qu
 
 4. Sélectionnez **Pièces jointes**. La page **Gestion de documents** standard s'affiche.
 5. Paramétrez les documents ou les notes qui doivent être joints à l'enregistrement de document d'actif. Après avoir joint des documents, le champ **Pièces jointes** affiche le nombre de documents associés à l'enregistrement.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

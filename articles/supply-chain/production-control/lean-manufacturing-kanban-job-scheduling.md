@@ -73,3 +73,6 @@ La page de liste **Planification de tâches de kanban** contient un Récapitulat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

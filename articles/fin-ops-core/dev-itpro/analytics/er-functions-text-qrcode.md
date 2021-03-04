@@ -61,3 +61,6 @@ Lorsque vous exécutez le format ER configuré, la valeur de texte du champ **La
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

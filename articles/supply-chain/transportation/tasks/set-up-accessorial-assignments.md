@@ -50,3 +50,6 @@ Cette procédure décrit comment paramétrer une affectation d'élément accesso
 14. Entrez un nombre dans le champ Frais accessoires.
 15. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

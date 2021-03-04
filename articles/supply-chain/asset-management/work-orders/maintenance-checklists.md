@@ -80,3 +80,6 @@ L'illustration ci-dessous présente un exemple de liste de contrôle de maintena
 
 ![Figure 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

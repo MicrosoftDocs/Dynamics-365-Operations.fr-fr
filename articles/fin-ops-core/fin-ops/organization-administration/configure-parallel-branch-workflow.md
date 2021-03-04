@@ -50,3 +50,6 @@ Pour concevoir et configurer les éléments d’une branche parallèle, procéde
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de création des workflows](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

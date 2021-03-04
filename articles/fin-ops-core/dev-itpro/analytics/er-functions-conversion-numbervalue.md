@@ -63,3 +63,6 @@ Valeur numérique résultante.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de conversion des types](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

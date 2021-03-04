@@ -57,3 +57,6 @@ Vous pouvez également paramétrer un code motif pour expliquer la raison pour l
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

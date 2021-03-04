@@ -48,3 +48,6 @@ Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction
 L’illustration suivante présente un exemple de l’état généré. Le rapport montre que le code de déclaration de taxe **101** a la devise **EUR** si le champ **Devise de la taxe** est défini sur **EUR** pour le code taxe auquel le code de déclaration est affecté.
 
 ![Exemple de l’état de déclaration de taxe par code](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

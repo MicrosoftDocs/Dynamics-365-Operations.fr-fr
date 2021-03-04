@@ -68,3 +68,6 @@ Vous pouvez filtrer les graphiques et les vignettes affichés sur ces états et 
 | Analyse des qualifications de l’employé  | Certifié, niveau, date du niveau et qualification                                                                    | Nom de l’employé, Qualification |
 | Performances              | Classement, description et modèle de classement                                                                      | Employé actuel, Poste actuel, Tendance de l’employé, Qualification préférée par tâche, Affectation antérieure de postes, Tendance du poste, Employé dont le contrat est terminé |
 | Qualification                    | Qualification, type de qualification et évaluation                                                                              | Analyse des qualifications de l’employé, Qualification préférée pour la tâche |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Le statut de tâche sera **Annulation en cours** jusqu'à ce que le service Opti
 [Afficher l'historique du plan et les journaux de planification](plan-history-logs.md)
 
 [Appliquer les filtres à un plan](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

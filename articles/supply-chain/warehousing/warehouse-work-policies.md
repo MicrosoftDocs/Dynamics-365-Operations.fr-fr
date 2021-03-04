@@ -301,3 +301,6 @@ Pour plus d’informations sur les éléments de menu des appareils mobiles, voi
 Pour plus d’informations sur la réception des contenants et les stratégies de travail, voir [Réception du contenant via l’application d’entrepôt](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Pour plus d’informations sur la gestion des chargements entrants, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

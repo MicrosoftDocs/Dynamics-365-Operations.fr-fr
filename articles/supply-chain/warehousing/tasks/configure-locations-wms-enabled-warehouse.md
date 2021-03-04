@@ -175,3 +175,6 @@ Ce guide vous indique comment configurer le paramétrage d'emplacement pour un n
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

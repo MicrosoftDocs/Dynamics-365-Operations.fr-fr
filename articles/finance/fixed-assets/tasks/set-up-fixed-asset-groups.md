@@ -39,3 +39,6 @@ Cette rubrique explique comment créer un groupe d’immobilisations. Il utilise
 8. Sélectionnez une option dans le champ **Convention d’amortissement**.
 9. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

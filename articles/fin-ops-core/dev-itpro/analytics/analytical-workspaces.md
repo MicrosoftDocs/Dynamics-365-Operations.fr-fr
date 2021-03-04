@@ -45,3 +45,6 @@ ms.locfileid: "4683136"
 - [Espace de travail des paiements fournisseur](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Contenu Power BI Performances d’entrepôt](warehouse-power-bi-content.md)
 - [Contenu Power BI Mesures de main d’œuvre](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

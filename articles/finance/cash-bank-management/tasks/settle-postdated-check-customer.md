@@ -56,3 +56,6 @@ La société fictive USMF sert d’exemple dans cette procédure.
 10. Cliquez Document.
 11. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

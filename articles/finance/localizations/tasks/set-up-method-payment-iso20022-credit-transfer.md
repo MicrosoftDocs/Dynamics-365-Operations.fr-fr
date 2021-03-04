@@ -48,3 +48,6 @@ Il s’agit de la troisième des cinq procédures illustrant le processus de pai
 10. Dans le champ Compte de paiement, indiquez les valeurs DEMF OPER.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

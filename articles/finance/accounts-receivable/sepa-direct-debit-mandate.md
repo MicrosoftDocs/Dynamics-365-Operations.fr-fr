@@ -54,3 +54,6 @@ Ressources supplémentaires
 
 [Créer un mandat de débit direct pour un client](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

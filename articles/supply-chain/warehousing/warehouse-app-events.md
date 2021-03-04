@@ -78,3 +78,6 @@ Pour réinitialiser un message d'événement d'application d'entreposage ayant �
 1. Continuez jusqu'à ce que tous les messages pertinents soient réinitialisés.
 
 Vous pouvez également supprimer un message d'événement **Échoué** à l'aide de l'option **Supprimer** de la barre d'outils **Messages d'événement de l'application d'entreposage**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

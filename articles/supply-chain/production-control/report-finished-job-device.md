@@ -239,3 +239,6 @@ Pour contrôler si les collaborateurs doivent réutiliser un contenant existant 
 
 > [!NOTE]
 > Pour configurer l’étiquette, accédez à **Gestion des entrepôts \> Paramétrage \> Acheminement de document \> Acheminement de document**. Pour plus d’informations, voir [Activer l’impression d’étiquette de contenant](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -536,3 +536,6 @@ Vous pouvez désormais supprimer ou mettre à jour le statut du message. Pour me
 ![Mettre à jour le statut du message](media/update-status.png)
 
 Le statut du message est mis jour sur **Préparé**, et vous pouvez désormais générer l’état en sélectionnant **Générer l’état**. L’état est généré, et le statut du message et le journal des actions sont mis à jour. Pour afficher l’état généré, sélectionnez le bouton **Pièce jointe** (le symbole du trombone) dans le coin supérieur droit de la page.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

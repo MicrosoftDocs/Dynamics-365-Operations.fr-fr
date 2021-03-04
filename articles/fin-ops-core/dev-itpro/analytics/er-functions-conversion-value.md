@@ -63,3 +63,6 @@ Les virgules et les points (.) sont considérés comme des séparateurs de nombr
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de conversion des types](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

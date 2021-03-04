@@ -52,3 +52,6 @@ Lorsque vous avez planifié des tâches de maintenance préventive, l'étape sui
 
 5. Cliquez sur **OK**. Un ou plusieurs ordres de travail sont alors créés.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

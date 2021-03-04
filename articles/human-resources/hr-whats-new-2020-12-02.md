@@ -92,3 +92,6 @@ Pour une liste complète des fonctionnalités planifiées et leurs lancements pl
 [Présentation de Dynamics 365 Human Resources 2020 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

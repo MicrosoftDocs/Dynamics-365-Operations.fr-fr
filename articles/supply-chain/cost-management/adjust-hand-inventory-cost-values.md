@@ -44,3 +44,6 @@ Cet article était paramétré avec le modèle de stock FIFO (premier entré, pr
 -   5 février : quantité de 1 à un coût de 13,00 EUR.
 
 Pour définir le coût de ces deux articles sur 15,00 EUR, utilisez l'option d'ajustement disponible et ajustez les quantités disponibles ouvertes à partir de la dernière période de clôture de stock. **Remarque :** la date de validation de la transaction d'ajustement disponible sera la date de la dernière clôture de stock. Cette date ne peut pas être modifiée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

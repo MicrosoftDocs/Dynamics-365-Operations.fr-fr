@@ -98,3 +98,6 @@ Utilisez le tableau suivant pour vous aider à décider où affecter les comptes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

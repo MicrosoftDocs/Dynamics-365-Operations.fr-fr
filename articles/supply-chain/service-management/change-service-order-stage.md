@@ -41,3 +41,6 @@ Procédez comme suit pour déplacer une commande de service au stade suivant dan
 4.  Dans l'écran **Modifier le stade du service**, sélectionnez le stade approprié.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

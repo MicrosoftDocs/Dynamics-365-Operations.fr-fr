@@ -103,3 +103,6 @@ Généralement, l'entrepôt de sortie et l'emplacement d'un groupe de ressources
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

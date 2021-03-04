@@ -51,3 +51,6 @@ Chaque règle de répartition contient quatre composants : général, source, de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

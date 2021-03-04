@@ -96,3 +96,6 @@ Les composants suivants la génération d’états financiers sont simples à ut
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Générer les états financiers](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

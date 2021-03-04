@@ -55,3 +55,6 @@ Le nouveau champ et les données doivent maintenant être disponibles afin d’�
 [Modifier les dimensions financières des transactions de vente au détail](edit-financial-dim.md)
 
 [Créer un classeur Excel pour modifier les transactions de vente au détail](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

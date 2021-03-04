@@ -59,3 +59,6 @@ Paramétrez les frais de paiement fournisseur. La société fictive USMF est cit
     * Cette devise est pour les frais. La devise de paiement est utilisée pour définir à quel moment la règle en matière de frais doit être évaluée selon la devise du paiement. Par exemple, votre banque peut facturer des frais lorsqu’un paiement est effectué en EUR, mais des frais ne sont pas imputés à tous les autres paiements.  
 18. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

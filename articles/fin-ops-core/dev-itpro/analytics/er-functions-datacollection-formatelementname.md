@@ -53,3 +53,6 @@ Pour plus d’informations sur l’utilisation de cette fonction, consultez le g
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de collecte des données](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

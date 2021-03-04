@@ -90,3 +90,6 @@ Ce guide de tâche montre comment créer un mandat de débit direct et l’utili
 3. Sélectionnez le client pour lequel vous avez ajouté le mandat.
 4. Entrez ou sélectionnez une valeur dans le champ **ID mandat de débit direct**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

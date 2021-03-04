@@ -99,3 +99,6 @@ Ouvrez ce document dans Word et procédez comme suit :
 16. Cliquez sur **OK**.
 17. Cliquez sur **OK**. Analysez la sortie générée. Notez que la sortie créée se présente sous le format Word et contient les détails des paiements traités.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

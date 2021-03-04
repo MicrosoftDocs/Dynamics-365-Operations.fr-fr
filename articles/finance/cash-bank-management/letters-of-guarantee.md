@@ -65,3 +65,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 [Paramétrer les établissements bancaires et les profils de validation pour les lettres de garantie](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

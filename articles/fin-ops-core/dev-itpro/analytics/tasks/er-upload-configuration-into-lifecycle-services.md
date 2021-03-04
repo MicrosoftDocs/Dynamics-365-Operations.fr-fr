@@ -145,3 +145,6 @@ Dans cet exemple, vous allez créer une configuration et la charger dans LCS pou
     La configuration ER que vous avez chargée doit être répertoriée.
 
     Notez que la configuration LCS chargée peut être importée dans une autre instance si les fournisseurs ont accès à ce projet LCS.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

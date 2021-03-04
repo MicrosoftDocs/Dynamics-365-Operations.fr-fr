@@ -51,3 +51,6 @@ Il est très important que vous compreniez comment fonctionne la case à cocher 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

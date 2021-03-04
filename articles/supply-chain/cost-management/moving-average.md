@@ -155,3 +155,6 @@ Dans cet exemple de moyenne de déplacement, l’état Valeur en stock est impri
 
 > [!NOTE]
 > Vous ne pouvez pas rapprocher la comptabilité avec le stock à l’aide de l’option de tri **Tri par heure de transaction**. L’état doit être imprimé à l’aide de l’option **Date de validation**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

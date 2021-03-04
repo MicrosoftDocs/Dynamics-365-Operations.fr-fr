@@ -478,3 +478,6 @@ Pour ce scénario, le réceptionnaire enregistrera en entrée une quantité qui 
     - **Qté** - Entrez _7_, qui est la quantité restante que le fournisseur soit autorisé à livrer dans le cadre de la quantité totale de commande de 12 (où 10 est la quantité de commande d’origine et 2 est la quantité de livraison excédentaire autorisée de 20 %). N’oubliez pas que 5 pièces ont déjà été enregistrées pour le premier chargement.
 
 Le deuxième chargement a maintenant été mis à jour avec la quantité de 7 et peut être mis à jour à la réception du produit en fonction de cette quantité.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

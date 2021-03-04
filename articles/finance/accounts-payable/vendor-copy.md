@@ -64,3 +64,6 @@ Vous pouvez également copier des fournisseurs à l’aide de la fonction de rec
 
 1. L’option **Copier un fournisseur** s’affiche. Par défaut, cette option est définie sur **Non**. Pour copier le fournisseur dans l’entité juridique actuelle, définissez l’option sur **Oui**.
 2. Cliquez sur **Sélectionner**. Le nouveau fournisseur est créé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

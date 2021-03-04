@@ -54,3 +54,6 @@ Cette procédure décrit la création de données principales annexes pour un te
 9. Cliquez sur Enregistrer.
 10. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

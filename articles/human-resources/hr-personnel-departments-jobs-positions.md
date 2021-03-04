@@ -165,3 +165,6 @@ Vous pouvez modifier les informations mentionnées dans le tableau précédent p
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

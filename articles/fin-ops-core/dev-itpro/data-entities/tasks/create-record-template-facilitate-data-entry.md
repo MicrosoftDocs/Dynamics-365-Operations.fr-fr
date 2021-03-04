@@ -43,3 +43,6 @@ Cette rubrique montre comment créer un modèle d’enregistrement pour ne pas a
 13. Cliquez sur **OK**.
 14. Sélectionnez **Fermer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

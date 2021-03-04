@@ -47,3 +47,6 @@ Pour plus d’informations sur cette fonction, lisez le guide de tâches, **ER F
 [Destinations de la gestion des états électroniques](electronic-reporting-destinations.md)
 
 [Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

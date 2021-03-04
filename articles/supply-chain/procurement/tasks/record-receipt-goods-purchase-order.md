@@ -49,3 +49,6 @@ Cette rubrique explique comment enregistrer la réception des marchandises direc
 6. Définissez le champ **Quantité** sur « 4 ». Ici vous pouvez spécifier manuellement la quantité reçue pour chaque ligne de la commande.  
 7. Cliquez sur **OK**. Les marchandises sont désormais enregistrées comme reçues sur la commande fournisseur, et un journal des accusés de réception de marchandises est créé comme document pour refléter ceci. Vous pouvez utiliser l'action Accusé de réception de marchandises pour passer en revue les journaux créés avec la commande fournisseur, et voir ce qui a été reçu, et quand.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

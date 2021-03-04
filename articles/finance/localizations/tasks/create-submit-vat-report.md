@@ -35,3 +35,6 @@ Cette procédure vous montre toutes les étapes requises pour la création et l�
 5. Sélectionnez Oui dans le champ Créer un document de taxe électronique.
 6. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

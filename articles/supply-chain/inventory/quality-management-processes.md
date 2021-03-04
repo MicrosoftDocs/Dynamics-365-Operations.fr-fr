@@ -101,3 +101,6 @@ Il est judicieux de définir un type de document unique pour les corrections à 
 [Configurer les ordres de qualité](tasks/set-up-quality-orders.md)
 
 [Inspecter la qualité des marchandises](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

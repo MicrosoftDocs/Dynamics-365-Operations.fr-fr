@@ -94,3 +94,5 @@ N'ajoutez pas des données personnelles (toute information susceptible de vous i
 
 - [Nouveautés dans Human Resources](hr-admin-whats-new.md)
 - [Notes de publication de la Power Platform et Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

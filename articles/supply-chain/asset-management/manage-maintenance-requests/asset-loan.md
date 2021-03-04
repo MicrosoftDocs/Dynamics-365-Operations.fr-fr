@@ -58,3 +58,6 @@ Dans la page **Financements actifs reposant sur l'actif**, vous pouvez afficher 
 3. Dans le champ **Retourné**, entrez de date et l'heure.
 4. Cliquez sur **OK**.
 5. Actualisez la page de liste **Financements actifs reposant sur l'actif**, et assurez-vous que l'emprunt d'actif n'apparaît plus dans la liste.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

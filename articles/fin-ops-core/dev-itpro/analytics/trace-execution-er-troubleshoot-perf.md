@@ -376,3 +376,6 @@ Notez que le navigateur web fournit un fichier zip à télécharger. Ce fichier 
 
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

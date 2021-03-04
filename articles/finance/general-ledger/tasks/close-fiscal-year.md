@@ -83,3 +83,6 @@ Cette procédure guide l’utilisateur tout au long du processus de clôture de 
 23. La clôture de fin d’exercice s’exécute par défaut en mode de traitement par lots. Il est recommandé d’exécuter les processus longs en mode de traitement par lots. Il s’agit généralement de l’un de ces processus, c’est la raison pour laquelle il est recommandé par défaut d’utiliser le mode de traitement par lots.  
 24. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -227,3 +227,6 @@ Lorsque vous sélectionnez **Transactions - clé de réduction** ou **Transactio
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des plans généraux](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Lorsque les transactions pour mars 2011 sont facturées, le prix de vente de 200
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

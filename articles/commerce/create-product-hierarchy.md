@@ -80,3 +80,6 @@ Des groupes d'attributs de catégorie peuvent également être affectés à chaq
 [Gérer les produits et catégories de produits ](category-management-product-creation.md)
 
 [Modifier l'ordre de tri pour les entités de promotion des ventes](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

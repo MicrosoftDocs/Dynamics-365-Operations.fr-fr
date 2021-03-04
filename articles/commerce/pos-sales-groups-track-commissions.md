@@ -88,3 +88,6 @@ Le PDV permet aux utilisateurs de configurer les groupes de boutons, qui sont in
 ## <a name="calculating-commissions"></a>Calcul des commissions
 
 La commission est calculée pour les collaborateurs aux groupes de ventes spécifiés lors de la validation du relevé ou de la validation d'une commande client. Le montant de la commission est déterminé sur le partage de la commission du collaborateur, comme défini dans le groupe de ventes et les paramètres associés de calcul de la commission pour le client et/ou les produits sur la transaction.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Si vous prévoyez d’utiliser cette approche pour une grande quantité de donn�
 [Fonction FIRSTORNULL ER](er-functions-list-firstornull.md)
 
 [Fonction WHERE ER](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

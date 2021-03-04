@@ -93,3 +93,6 @@ Vous pouvez également utiliser des niveaux doubles. Si vous sélectionnez **Niv
    | **Taux fumeur de crédit flexible** | Nombre de crédits flexibles des coûts des avantages, basé sur le calcul défini pour le niveau échelonné pour les fumeurs. |
 
 5. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

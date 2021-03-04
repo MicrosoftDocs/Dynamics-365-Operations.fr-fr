@@ -78,3 +78,6 @@ Lorsque vous essayez de régler une transaction, vous remarquerez peut-être un 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Solde de règlement](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

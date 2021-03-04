@@ -45,3 +45,6 @@ Le tableau suivant répertorie les types de hiérarchie de catégories disponibl
 | Hiérarchie de navigation   | Utilisez ce type de hiérarchie pour regrouper et organiser les produits en catégories afin de pouvoir les parcourir en ligne ou dans un point de vente. |
 
 À l'aide d'une hiérarchie de catégories pour structurer vos produits, vous pouvez configurer et tenir à jour les attributs de produit et les propriétés au niveau de la catégorie. Ces attributs et propriétés incluent des paramètres pour les dimensions de produit et les paramètres du point de vente. Tous les produits que vous affectez aux catégories héritent automatiquement des attributs et des propriétés que vous définissez. Vous pouvez également copier en même temps les paramètres de propriété de tout produit pour plusieurs produits dans une catégorie sélectionnée.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

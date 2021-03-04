@@ -54,3 +54,6 @@ Avant d'exécuter une conversion du coût standard, procédez comme suit :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

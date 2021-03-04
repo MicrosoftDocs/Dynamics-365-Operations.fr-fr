@@ -91,3 +91,6 @@ Si vous avez activé la fonction **Recherche étendue des configurations de form
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [AP du cadre des états électroniques (ER)](er-apis-app73.md)
 - [Gérer le cycle de vie des configurations des états électroniques (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

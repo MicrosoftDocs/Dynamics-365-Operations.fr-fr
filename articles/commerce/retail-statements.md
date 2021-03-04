@@ -88,3 +88,6 @@ Lorsque vous validez un relevé, les commandes client et les factures sont cré�
 - Les ventes pour lesquelles un client a été ajouté à la transaction dans le PDV génèrent des commandes client et des factures séparées, une pour chaque client unique.
 
 Les journaux de paiements sont automatiquement créés pour les paiements dans le relevé, et le stock est mis à jour pour le magasin du PDV.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

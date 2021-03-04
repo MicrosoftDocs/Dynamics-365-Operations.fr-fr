@@ -57,3 +57,6 @@ Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votr
     > Le formulaire n’inclut pas les sous-totaux définis dans la disposition de l’état.
 
 L’entité de données **État de la balance âgée** vous permet d’exporter le résultat d’un état **Stockage des états de balance âgée** en appliquant un filtre pour le champ **Identificateur de processus – Nom** à n’importe quel format pris en charge par la gestion des données.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

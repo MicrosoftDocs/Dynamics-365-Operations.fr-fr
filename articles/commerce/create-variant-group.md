@@ -73,3 +73,6 @@ L'image suivante montre un exemple de groupe de tailles pour « Tailles de chem
 [Paramétrer les produits vendus au détail](set-up-retail-products.md)
 
 [Dimensions de produit](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

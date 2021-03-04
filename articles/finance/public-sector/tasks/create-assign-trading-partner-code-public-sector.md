@@ -48,3 +48,6 @@ Créez un code partenaire commercial et affectez le à une agence gouvernemental
 6. Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.
 7. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ La durée de vie de l’ajustement d’acquisition est identique à celle de l�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

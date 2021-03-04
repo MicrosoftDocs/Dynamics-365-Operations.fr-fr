@@ -43,3 +43,6 @@ Cette rubrique explique comment identifier et résoudre les conflits de réparti
 1. Accédez à **Volet de navigation > Modules > Administration système > Sécurité > Répartition des tâches > Règles de répartition des tâches**. Sélectionnez une règle.  
 2. Sélectionnez **Vérifier les responsabilités et les rôles**. Si des rôles existants violent la règle sélectionnée, un message s’affiche, contenant le nom du rôle et les noms des tâches en conflit. L’administrateur doit indiquer la limitation des risques de sécurité ou modifier le rôle afin qu’il ne viole pas les règles de répartition des tâches. Si aucun rôle ne viole la règle sélectionnée, un message indique que tous les rôles sont en conformité.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

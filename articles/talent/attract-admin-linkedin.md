@@ -118,3 +118,6 @@ Cette fonctionnalité est actuellement en mode aperçu. Avant de suivre ces éta
 [Créer, approuver et publier des postes dans Attract](./creating-jobs-attract.md)
 
 [Résoudre les problèmes d'intégration avec LinkedIn et Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

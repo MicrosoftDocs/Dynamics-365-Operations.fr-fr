@@ -53,3 +53,6 @@ Cette modification ajoute une option de suppression dans le formulaire **Collabo
 5. Définissez l'autorisation **Supprimer** sur Accorder.
 6. Sélectionnez l'onglet **Objets non publiés**.
 7. Sélectionnez **Publier tous**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

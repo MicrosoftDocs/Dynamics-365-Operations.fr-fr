@@ -88,3 +88,6 @@ Cette rubrique décrit comment paramétrer et exécuter des règles de stratégi
 57. Développez la section **Associations**.
 58. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

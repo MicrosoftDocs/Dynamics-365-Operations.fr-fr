@@ -46,3 +46,6 @@ Par conséquent, vous pouvez créer des budgets distincts pour les comptes de tr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

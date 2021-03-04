@@ -115,3 +115,6 @@ Les entités suivantes seront activées pour les champs personnalisés dans Comm
 - **Type de départ**
 - **Compte bancaire du collaborateur**
 - **Calendrier de travail**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

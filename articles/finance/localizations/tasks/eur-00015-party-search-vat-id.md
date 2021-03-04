@@ -42,3 +42,6 @@ Cette procédure s’applique à tous les pays/régions européens. La procédur
 7. Cliquez sur Rechercher.
     * Toutes les parties avec cet ID d’enregistrement sont affichées.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

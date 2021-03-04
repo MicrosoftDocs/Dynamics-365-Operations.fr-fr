@@ -273,3 +273,6 @@ Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstat
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

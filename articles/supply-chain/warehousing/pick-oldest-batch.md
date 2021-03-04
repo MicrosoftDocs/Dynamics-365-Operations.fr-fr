@@ -41,3 +41,6 @@ Pour les articles définis pour utiliser le travail existant, **Prélever le tra
 **Avertir** et **Forcer** : Une liste des lots avec la date d'expiration la plus ancienne sera affichée au-dessus du contrôle du lot lorsque le collaborateur sélectionne un lot. Si l'emplacement est contrôlé par le contenant, une liste des contenants avec le lot le plus ancien sera affichée au-dessus du contrôle du contenant. 
 -   **Avertir** : Si un collaborateur choisit un contenant ou un lot qui ne s'affiche pas dans la liste, le contrôle sera grisé et un avertissement indiquera qu'il existe un lot plus ancien à sélectionner. Pour pouvoir poursuivre le travail, le collaborateur peut resélectionner le même contenant ou lot.  
 -   **Forcer** : Les collaborateurs continueront à recevoir le message qu'il existe un lot plus ancien à prélever.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

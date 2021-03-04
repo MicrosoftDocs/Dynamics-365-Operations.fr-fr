@@ -300,3 +300,6 @@ Pour plus d’informations sur les fournisseurs de configuration de gestion des 
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 - [Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

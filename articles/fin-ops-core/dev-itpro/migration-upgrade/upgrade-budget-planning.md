@@ -162,3 +162,6 @@ Plusieurs entités de données ont été ajoutées pour activer l’implémentat
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -182,3 +182,6 @@ Pour configurer des coffres-forts, procédez comme suit.
 
 [Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

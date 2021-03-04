@@ -70,3 +70,6 @@ Vous pouvez exécuter cette procédure dans la société fictive de démonstrati
     - L'action **Supprimer et soumettre** n'est applicable que si vous utilisez la fonctionnalité Centre d'appels.  
 8. Cliquez sur **Supprimer le blocage**. Le blocage a désormais été effacé de la commande et supprimé de la liste Blocages actifs. Pour afficher tous les blocages ou leur sous-ensemble défini selon un statut spécifique, modifiez la valeur du champ Afficher.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

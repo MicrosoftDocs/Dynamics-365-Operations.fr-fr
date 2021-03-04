@@ -57,3 +57,6 @@ Les fonctionnalités de répartition comptable générique fournissent les optio
 Dans la version 10.0.13, une fonctionnalité a été ajoutée qui valide la table de répartition comptable pour garantir que les nouveaux champs sont correctement configurés. Cette fonctionnalité est appelée **Permettre la validation supplémentaire des données des documents à l’aide de la structure comptable du document source**. Pour utiliser la fonctionnalité, vous devez l’activer en utilisant l’espace de travail **Gestion des fonctionnalités**. Pour activer la fonctionnalité, recherchez son nom dans le champ **Rechercher** de la page **Gestion des fonctionnalités**, puis sélectionnez **Activer maintenant**.
 
 Pour plus d’informations, voir [Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

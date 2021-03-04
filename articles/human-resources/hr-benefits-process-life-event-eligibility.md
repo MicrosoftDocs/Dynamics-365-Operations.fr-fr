@@ -48,3 +48,6 @@ Cet article vous montre comment exécuter le processus d’éligibilité aux év
    4. Cliquez sur **OK**. Le processus s’exécutera avec les paramètres que vous définissez.
 
 4. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

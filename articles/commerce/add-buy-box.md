@@ -136,3 +136,6 @@ Pour ajouter un module de zone d’achat à une nouvelle page et définir les pr
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
 
 [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

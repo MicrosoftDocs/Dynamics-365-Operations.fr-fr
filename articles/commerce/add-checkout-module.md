@@ -127,3 +127,6 @@ Pour ajouter un module de caisse à une nouvelle page et définir les propriét�
 [Module Détails de la commande](order-confirmation-module.md)
 
 [Module Carte cadeau](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Vous pouvez imprimer le poids des matières d'emballage sur une facture, et indi
 
 1. Accédez à **Comptabilité client \> Configuration \> Paramètres de la comptabilité client**.
 1. Dans l'onglet **Mises à jour**, dans le raccourci **Facture**, définissez l'option **Imprimer le poids des matières d'emballage** sur **Oui**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

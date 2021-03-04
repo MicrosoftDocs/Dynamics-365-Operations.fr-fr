@@ -40,3 +40,6 @@ Vous ne pouvez pas utiliser de rôle sauf celui d'administrateur pour accéder �
 ### <a name="issue-resolution"></a>Résolution du problème
 
 L'émulateur d'application pour appareil mobile est configuré pour fonctionner uniquement avec le compte administrateur. À toutes les fins de test et de processus en direct, nous vous recommandons d'utiliser l'application d'entrepôt elle-même.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ La quantité de la nomenclature est de 1, et la quantité de la production est d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

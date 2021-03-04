@@ -125,3 +125,6 @@ Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulato
 > [!NOTE]
 > Cette manière d’obtenir des informations sur les métadonnées d’application est la seule disponible pour les applications déployées localement (lorsqu’un modèle de déploiement de données métier local (LBD) ou sur site est utilisé).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

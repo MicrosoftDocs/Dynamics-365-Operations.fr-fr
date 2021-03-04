@@ -49,3 +49,6 @@ Les rubriques de cette section fournissent une vue d'ensemble du processus entre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

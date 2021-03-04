@@ -57,3 +57,6 @@ Par exemple, si aujourd’hui est le 1er février et que le 14 février, le co
    4. Cliquez sur **OK**. Le processus s’exécutera avec les paramètres que vous définissez.
 
 4. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

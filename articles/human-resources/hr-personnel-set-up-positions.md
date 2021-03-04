@@ -67,3 +67,6 @@ Les postes sont un élément important de niveau inférieur d'une hiérarchie d'
 30. Saisissez ou sélectionnez une valeur dans le champ Service.
 31. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

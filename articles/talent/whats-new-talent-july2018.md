@@ -57,3 +57,6 @@ Les titres ont été étendus dans cette mise à jour. Le champ comporte désorm
 ## <a name="benefit-enrollment-status-report"></a>Rapport du statut d'inscription de l'avantage
 
 La génération d'états intégrée sur l'inscription en cours pour les avantages vous aide à comprendre facilement où en sont vos employés sont dans le processus d'inscription en cours. Vous pouvez savoir combien d'employés ont terminé le processus, combien sont en train de le terminer et combien ne l'ont pas encore commencé. En outre, vous pouvez rapidement consulter les problèmes qui surviennent lors de l'inscription d'employé et un journal complet de toutes les soumissions d'employé. Par conséquent, vous pouvez facilement vérifier et auditer les soumissions d'employé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

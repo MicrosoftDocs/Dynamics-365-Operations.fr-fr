@@ -84,3 +84,6 @@ Le tableau suivant décrit les onglets dans une définition d’état, ainsi que
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

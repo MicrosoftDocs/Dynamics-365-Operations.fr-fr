@@ -62,3 +62,6 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Poste         | Poste, fonction et équivalent du temps plein                  | Emploi du temps du cours, Participants aux cours |
 | Nom de l’employé    | Prénom, nom et nom complet                             | Participants aux cours |
 | Titre de l’employé   | Titre et date d’ancienneté                                         | Participants aux cours |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

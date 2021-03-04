@@ -164,3 +164,6 @@ Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (
 | [Communauté Dynamics](https://community.dynamics.com/) | Ce site héberge des blogs, des forums et des vidéos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Ce site fournit une évaluation et des informations commerciales. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Ce site héberge certains ressources de formation, des états et des livres blancs téléchargeables, et est le principal site de support pour les titulaires d’un plan de services. L’accès à certaines ressources du site peut nécessiter un plan de services. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Vous exécuterez la mise en correspondance de modèle créée aux fins de test p
     * Cliquez sur Parcourir et sélectionnez le fichier Réponse4.xml.
 16. Cliquez sur OK.
     * Examinez la sortie générée. Le type de réponse a été correctement reconnu comme identique au fichier Réponse1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

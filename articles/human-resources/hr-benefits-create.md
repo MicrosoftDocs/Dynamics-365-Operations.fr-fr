@@ -53,3 +53,6 @@ Cette tâche vous indique comment créer des détails des avantages qui seront u
 6. Entrez une date et une heure dans le champ Date d'effet.
 7. Cliquez sur Créer un avantage.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Vous pouvez également configurer des options relatives à l'expérience du cand
 Vous pouvez également définir et appliquer une date d'expiration aux offres. Si vous définissez l'option **Une date d'expiration est obligatoire pour toutes les offres** sur **Oui**, les offres expirent après le nombre d'heures ou de jours spécifiés.
 
 Pour plus d'informations sur la gestion des offres, voir [Paramétrer la gestion des offres](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Lorsqu’un état ne correspond pas à vos attentes dans D365, voici quelques é
 2.  Exporter l’état vers Excel
 
 Vous devriez maintenant pouvoir copier les données de l’état Excel États financiers et de l’état Balance comptable D365 et comparer les colonnes « Solde de clôture ».
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

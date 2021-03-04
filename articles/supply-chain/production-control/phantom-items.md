@@ -73,3 +73,6 @@ Les nomenclatures fantômes peuvent également être utilisées pour une nomencl
 Dans l'illustration suivante, (a) est la nomenclature du produit G et de la pièce F, et (b) est la feuille de gamme du produit G et de la pièce F.
 
 ![Produit G et pièce F avec feuilles de gamme](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

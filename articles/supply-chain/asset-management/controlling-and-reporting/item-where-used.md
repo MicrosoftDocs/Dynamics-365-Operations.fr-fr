@@ -71,3 +71,6 @@ Dans la capture d'écran ci-dessous, vous verrez un exemple de calcul de cas d'e
 
 ![Exemple de calcul de cas d'emploi d'article](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

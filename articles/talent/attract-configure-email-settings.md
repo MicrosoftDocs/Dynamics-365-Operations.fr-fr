@@ -89,3 +89,6 @@ Vous pouvez charger une image du logo de votre société et d'autres information
     ![Ajouter des liens vers la politique de confidentialité et les conditions d'utilisation de votre société dans le pied de page d'e-mail](./media/attract-admin-email-footer.png)
 
 4. Sélectionnez **Enregistrer** pour enregistrer vos paramètres de modèle d'e-mail.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

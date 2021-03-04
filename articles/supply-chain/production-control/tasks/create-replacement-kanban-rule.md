@@ -56,3 +56,6 @@ Cette procédure se concentre sur le remplacement d'une règle de kanban existan
 1. Définissez la quantité maximale sur 100.
     * Développez l'organisateur Quantités pour voir le champ Quantité maximale. Le fait de définir la quantité maximale sur 100 permet de traiter jusqu'à 100 kanbans.    Il s'agit de la dernière étape de cette tâche.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Lorsque vous créez des commandes de service manuellement ou automatiquement à 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Cette procédure est orientée sur l'optimisation de la taille et des quantités
     * Notez qu'il s'agit de la quantité de 4 kanban fixe provenant du calcul de quantité de kanban.  
 5. Cliquez sur l'onglet ListPanel.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

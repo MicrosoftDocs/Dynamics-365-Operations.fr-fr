@@ -90,3 +90,6 @@ Procédez comme suit pour configurer la connexion en double écriture.
 
 > [!NOTE]
 > Vous ne pouvez pas dissocier des environnements à l’aide de LCS. Pour dissocier un environnement, ouvrez l’espace de travail **Intégration des données** dans l’environnement Finance and Operations, puis sélectionnez **Dissocier**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

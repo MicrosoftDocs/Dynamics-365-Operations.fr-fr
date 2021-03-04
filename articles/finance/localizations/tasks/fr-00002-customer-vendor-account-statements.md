@@ -50,3 +50,6 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 4. Dans le champ Évaluation, entrez une date.
 5. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

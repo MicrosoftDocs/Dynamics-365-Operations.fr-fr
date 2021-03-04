@@ -40,3 +40,6 @@ Cette procédure permet d'afficher les motifs pour l'écart élevé de productio
 6. Cliquez sur Afficher la comparaison du coût.
 7. Cliquez sur Fermer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

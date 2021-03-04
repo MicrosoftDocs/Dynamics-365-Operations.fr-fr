@@ -109,3 +109,6 @@ Le tableau suivant indique les types de listes disponibles pour la sélection da
 [Module de zone d'achat](add-buy-box.md)
 
 [Vue d'ensemble des recommandations produit](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

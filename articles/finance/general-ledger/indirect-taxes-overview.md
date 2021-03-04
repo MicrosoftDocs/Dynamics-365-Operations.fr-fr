@@ -97,3 +97,6 @@ Toutefois, si vous utilisez une taxe sur les encaissements, vous payez l’admin
 Si vous utilisez un chèque postdaté comme mode de paiement, lorsque le paiement est créé, le compte bancaire n’est pas effacé. Dans certains pays, la TVA devient un passif « réalisé » lorsque le paiement compense la banque, ce qui signifie que le chèque postdaté est réglé. Vous pouvez l’activer en sélectionnant **Réaliser la taxe conditionnelle lorsque les chèques postdatés sont débités** dans **Gestion de la trésorerie et de la banque > Paramétrage > Paramètres de gestion de la trésorerie et de la banque > Chèques postdatés**.
 
 Pour plus d’informations, voir [Paramétrer la retenue à la source](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

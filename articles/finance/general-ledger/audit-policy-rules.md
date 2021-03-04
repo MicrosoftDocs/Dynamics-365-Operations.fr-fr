@@ -101,3 +101,6 @@ L’ensemble des règles de stratégie pour une stratégie d’audit spécifique
 [Définir des stratégies d’audit pour les documents source](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Une que vous avez annulé les commandes fournisseur qui étaient dans un état *
 
 Ce problème se produit uniquement pour les commandes fournisseur faisant l'objet d'une gestion des modifications. Cela se produit parce que l'annulation est considérée comme un changement qui doit être approuvé. L'approbation peut être effectuée automatiquement par le système. Par conséquent, le processus consiste à soumettre la commande fournisseur annulée au workflow d'approbation afin qu'elle puisse passer à l'état *Approuvé*. À ce stade, la commande fournisseur n'apparaîtra plus dans la liste des brouillons de commande fournisseur dans l'espace de travail **Préparation de la commande fournisseur**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

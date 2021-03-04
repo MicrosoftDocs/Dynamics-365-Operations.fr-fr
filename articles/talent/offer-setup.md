@@ -209,3 +209,6 @@ Il existe plusieurs parties du processus de création d'offre qui peuvent être 
 
 
 Pour en savoir plus sur le processus de création d'offre, voir [Créer, approuver et signer des offres](./creating-offers.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

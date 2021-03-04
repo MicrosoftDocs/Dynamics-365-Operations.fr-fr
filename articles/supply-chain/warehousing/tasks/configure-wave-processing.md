@@ -61,3 +61,6 @@ Cette rubrique décrit la procédure de paramétrage des critères qui détermin
 Pour les commandes client et des commandes kanban, le stock doit être réservé avant que la commande ne soit libérée dans l'entrepôt. Sinon, les articles ou les lignes de répartition ne pourront pas être traités dans une vague. Pour les ordres de fabrication, vous avez également la possibilité de choisir Autoriser une réservation partielle. Par exemple, cela peut s'avérer utile si vous disposez des matières premières nécessaires pour démarrer une production, et si pouvez attendre jusqu'à ce que les matières premières supplémentaires deviennent disponibles pour terminer le processus. Si vous sélectionnez cette option, vous devez répéter manuellement le processus de libération dans l'entrepôt lorsque des matières premières supplémentaires deviennent disponibles.  
 25. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

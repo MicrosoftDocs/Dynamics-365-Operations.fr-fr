@@ -124,3 +124,6 @@ Les workflow d’**Ajustements de limite de crédit** peuvent être utilisés po
 
 > [!NOTE]
 > Lorsque vous créez le workflow **Ajustements de limite de crédit**, vous pouvez le paramétrer pour que les ajustements soient automatiquement validés une fois les lignes approuvées. Incluez simplement la tâche **Valider le journal automatiquement** dans le workflow.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

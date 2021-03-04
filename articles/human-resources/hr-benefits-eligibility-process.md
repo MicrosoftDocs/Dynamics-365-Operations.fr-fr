@@ -54,3 +54,6 @@ Cette procédure décrit le fonctionnement du processus d'admissibilité aux ava
 25. Ouvrez le filtre de colonne État.
 26. Trier de A à Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

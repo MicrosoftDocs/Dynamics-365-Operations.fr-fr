@@ -316,3 +316,6 @@ Actuellement, les deux ID de travail ont le même contenant cible. Pour effectue
 L'illustration suivante montre comment le travail de cross-docking terminé peut apparaître dans Microsoft Dynamics 365 Supply Chain Management.
 
 ![Travail de cross-docking terminé](media/PlannedCrossDockingWork.png "Travail de cross-docking terminé")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

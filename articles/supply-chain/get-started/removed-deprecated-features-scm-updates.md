@@ -73,3 +73,6 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annonces précédentes sur les fonctions supprimées ou obsolètes
 
 Pour en savoir plus sur les fonctionnalités supprimées ou obsolètes dans les versions précédentes, consultez [Fonctionnalités supprimées ou obsolètes dans les versions précédentes](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

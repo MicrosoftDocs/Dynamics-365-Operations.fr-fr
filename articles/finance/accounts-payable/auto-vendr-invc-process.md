@@ -69,3 +69,6 @@ L’espace de travail **Saisie de facture fournisseur** vous permet de vous conc
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatisation des factures fournisseur : reprendre le traitement de l’automatisation pour plusieurs factures
 Lorsqu’une facture importée n’est pas soumise avec succès au workflow via le processus automatisé, le système la supprimera du traitement automatisé ultérieur. Un commis au paiement de la comptabilité fournisseur peut passer en revue et modifier la facture avant que le processus automatisé ne la soumette à nouveau au workflow. Lorsqu’un motif d’échec peut être résolu par le même correctif pour plusieurs factures, vous pouvez redémarrer le processus automatisé sur la page **Reprendre le traitement automatisé des factures**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Pour désactiver l’évaluation de règles spécifiques, sélectionnez l’oppo
 [Créer des règles pour le conseiller en optimisation](./create-rules-optimization-advisor.md)
 
 [Conseiller en optimisation dans Dynamics 365 for Finance and Operations (vidéo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

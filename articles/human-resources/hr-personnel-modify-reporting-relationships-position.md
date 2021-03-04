@@ -44,3 +44,6 @@ Cette procédure illustre comment modifier la relation hiérarchique pour un emp
 12. Dans le champ Poste de référence, saisissez ou sélectionnez une valeur.  Exemple : 000437
 13. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Avant d’effectuer les procédures décrites dans cette rubrique, les étapes s
 [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
 [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

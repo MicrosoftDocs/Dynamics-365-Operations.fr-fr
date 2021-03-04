@@ -222,3 +222,6 @@ Si les utilisateurs remplacent manuellement les frais calculés ou ajoutent des 
 
 [Calcul au prorata des frais d'en-tête pour les lignes de vente correspondantes](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

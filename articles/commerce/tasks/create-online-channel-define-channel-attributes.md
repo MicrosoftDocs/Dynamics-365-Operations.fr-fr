@@ -67,3 +67,6 @@ Cette procédure décrit la création d'un canal en ligne et son ajout à la hi�
 3. Exécutez le programme de distribution 1070 pour synchroniser les modifications avec la base de données des canaux. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

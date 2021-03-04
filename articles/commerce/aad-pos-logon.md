@@ -74,3 +74,6 @@ Les champs **Alias**, **UPN** et **Sous-identifiant externe** de l’onglet **Co
 [Créer un profil de fonctionnalité de vente au détail](retail-functionality-profile.md)
 
 [Configurer un collaborateur](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

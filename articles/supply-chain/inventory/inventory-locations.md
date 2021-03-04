@@ -66,3 +66,6 @@ Il est possible de copier des emplacements d'un entrepôt à un autre et de cré
 --------
 
 [Créer une structure d'entrepôt](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

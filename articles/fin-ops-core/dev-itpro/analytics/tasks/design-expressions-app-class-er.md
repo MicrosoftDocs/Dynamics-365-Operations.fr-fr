@@ -157,3 +157,6 @@ Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la
 2. Cliquez sur OK.
     * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que seules 3 lignes du fichier TXT importé ont été traitées. Le code IBAN sur la ligne 4 qui n’est pas valide a été ignoré et un message d’erreur s’affiche dans la fenêtre Informations.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

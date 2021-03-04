@@ -66,3 +66,6 @@ Cette procédure montre comment calculer des propositions de couverture minimale
 5. Dans le **volet Actions**, cliquez sur Plan.
 6. Cliquez sur **Couverture de l'article**. Notez que la **quantité minimale** a été mise à jour avec la nouvelle quantité minimale du journal du stock de sécurité.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

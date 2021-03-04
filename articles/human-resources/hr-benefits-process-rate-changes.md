@@ -48,3 +48,6 @@ Traitez les modifications de taux de prestations dans Microsoft Dynamics 365 Hum
    4. Cliquez sur **OK**. Le processus s’exécutera avec les paramètres que vous définissez.
 
 4. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

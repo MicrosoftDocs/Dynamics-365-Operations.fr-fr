@@ -91,3 +91,6 @@ L'onglet **Postes** dans la page principale du collaborateur fournit une vue com
 
 [![Postes](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

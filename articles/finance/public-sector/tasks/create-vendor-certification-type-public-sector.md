@@ -36,3 +36,6 @@ Vous pouvez créer et affecter aux organisations de fournisseurs tout type de ce
 4. Dans le champ Description, entrez une valeur.
 5. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

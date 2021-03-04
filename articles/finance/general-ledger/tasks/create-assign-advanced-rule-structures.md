@@ -59,3 +59,6 @@ Cette rubrique explique comment créer et affecter une structure de règle avanc
 17. Fermez la page.
 18. Sélectionnez **Activer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

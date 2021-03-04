@@ -68,3 +68,6 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
 5. Développer la section Kanbans.
     * Notez qu'un kanban a été créé pour transférer le matériel nécessaire vers l'entrepôt 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

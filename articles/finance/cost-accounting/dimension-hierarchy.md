@@ -333,3 +333,6 @@ Les paramètres de la hiérarchie de la liste d’accès sont utilisés pour con
 > [!NOTE] 
 > - Avant que la hiérarchie de la liste d’accès puisse affecter des données Power BI, la hiérarchie de la liste d’accès et la sécurité au niveau de la ligne dans Power BI doivent être jumelées. Pour plus d’informations, voir [Paramétrer la sécurité pour le pack de contenu de gestion des coûts](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La hiérarchie de la liste d’accès ne permet pas de sécuriser l’exportation des données dans Excel. Par conséquent, cet outil de génération d’états doit uniquement être utilisé par les comptables et les responsables de coût qui doivent avoir un accès complet pour afficher les données.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

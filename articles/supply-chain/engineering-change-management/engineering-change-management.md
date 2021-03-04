@@ -185,3 +185,6 @@ La plupart des champs des ordres de modification technique sont les mêmes que l
 | Environnement, santé et sécurité | Précisez si les règles de santé et de sécurité environnementales sont applicables au changement. Si tel est le cas, vous pouvez sélectionner les règles applicables. |
 
 Vous pouvez utiliser le bouton **Tenir à jour/copier les informations de modification** pour copier les informations de modification entre les produits concernés.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

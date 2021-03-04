@@ -86,3 +86,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 7.  Sélectionnez **Documents joints** pour afficher les notes ou les fichiers associés à la facture.
 8.  Dans la page **Détails de la facture**, sélectionnez l’action de workflow appropriée pour compléter votre processus de révision.
 9.  Sélectionnez **Terminé**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Les options suivantes, disponibles dans l'onglet **Commerce** des produits lanc�
 > Ces paramètres ne limitent pas l'opération de remplacement de prix, car elle définit le prix de base et n'est pas considérée comme une remise.
 
 [![Champ Empêcher les remises](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

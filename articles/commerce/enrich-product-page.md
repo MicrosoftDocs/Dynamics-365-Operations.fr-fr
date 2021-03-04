@@ -73,3 +73,6 @@ Pour enrichir une page de produit, procédez comme suit.
 [Enrichir une page d'arrivée de catégorie](enrich-category-page.md)
 
 [Vérifier l'accessibilité du contenu de la page](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

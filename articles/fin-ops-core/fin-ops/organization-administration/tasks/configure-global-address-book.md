@@ -45,3 +45,6 @@ Les données fictives utilisées pour créer cette tâche correspondent à la so
 13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Appuyez sur la touche Shift pour sélectionner plusieurs rôles à ajouter au volet **Rôles sélectionnés**, puis cliquez sur la flèche pour ajouter les rôles sélectionnés.   
 14. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Pour créer de nouveaux processus de workflow à l’aide des modèles de proces
 4. Créez un processus de workflow pour l’entité **Contact** et sélectionnez **Mettre à jour des fournisseurs de type Personne dans la table Fournisseurs**.
 5. Vous pouvez configurer les workflows comme workflows en temps réel ou workflows d’arrière plan selon vos besoins. Pour configurer un workflow en tant que workflow d’arrière-plan, sélectionnez **Convertir en workflow d’arrière-plan**.
 6. Activez les workflows que vous avez créés sur les tables **Contact** et **Fournisseur** pour commencer à utiliser l’entité **Contact** pour enregistrer les informations fournisseur de type **Personne**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

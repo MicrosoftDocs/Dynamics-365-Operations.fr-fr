@@ -50,3 +50,6 @@ En outre, vous devez compléter le guide de tâche [ER Créer des configurations
 | Titre                  | Nom de fichier |
 |------------------------|-----------|
 | Configuration du modèle ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

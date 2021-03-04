@@ -38,3 +38,6 @@ Un code période indique l'étendue de la période des frais d'abonnement, ou le
 Le code période est défini dans le groupe de services récurrents. Il est défini pour les abonnements du groupe de services récurrents. Une date de début suggérée est associée à tout frais d'abonnement que vous créez. Il s'agit de la date de début de la période si c'est la première période créée, ou de la date de fin de la période précédente si c'est la deuxième période ou une période ultérieure.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

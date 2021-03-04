@@ -66,3 +66,6 @@ Sinon, procédez comme suit :
 2. Dans la barre d'outils, sélectionnez **Ajouter une application depuis Power Apps**.
 
     ![Ajouter une application depuis Power Apps à l'aide de la barre d'outils de personnalisation](media/powerapp-bar.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

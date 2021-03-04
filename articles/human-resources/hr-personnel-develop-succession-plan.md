@@ -60,3 +60,6 @@ ms.locfileid: "4418437"
 28. Cliquez sur État.
     * L'état indiquera les meilleures correspondances tout en haut.  Vous pouvez noter qu'un écart est répertorié.  Il s'agit de la différence entre le niveau qui était indiqué sur la mise en correspondance des qualifications, et le niveau de la qualification affectée à la personne.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

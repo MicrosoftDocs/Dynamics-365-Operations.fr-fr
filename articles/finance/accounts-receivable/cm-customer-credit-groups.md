@@ -39,3 +39,6 @@ Vous pouvez configurer des groupes de crédits client sur la page **Groupes de c
 Une fois la configuration d’un groupe de crédits client terminée, vous pouvez y ajouter des clients en spécifiant leur entité juridique et leur ID de compte client. Lorsque vous ajoutez un nouveau client à un groupe de crédits client, le système recherche le même compte client dans toutes les entités juridiques et vous invite à l’ajouter au groupe de crédits client.
 
 Utilisez le menu **Soldes échus** pour afficher les détails de balance âgée pour tous les clients facturés dans un groupe de crédits client. La page **Balance âgée** affiche un récapitulatif des soldes échus pour les comptes clients de facturation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

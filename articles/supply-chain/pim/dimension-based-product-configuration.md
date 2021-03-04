@@ -88,3 +88,6 @@ Les huit guides de tâches suivants sont répertoriés dans l'ordre dans lequel 
 7.  [Créer des règles de configuration](tasks/create-configuration-rules.md)
 8.  [Créer des configurations basées sur les dimensions](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

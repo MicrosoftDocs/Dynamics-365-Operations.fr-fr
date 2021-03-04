@@ -221,3 +221,6 @@ Pour exécuter la vérification de la compatibilité, procédez comme suit.
 1. Dans le volet Actions, sous l’onglet **Charges**, dans le groupe **Actions**, sélectionnez **Vérification de la compatibilité**.
 
 Vous recevez un message qui vous informe des résultats de la vérification.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

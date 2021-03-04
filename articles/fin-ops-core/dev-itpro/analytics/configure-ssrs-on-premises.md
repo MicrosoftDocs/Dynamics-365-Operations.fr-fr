@@ -93,3 +93,6 @@ Procédez comme indiqué dans cette rubrique pour Configurer SQL Server Reportin
 13. Cliquez sur **Quitter** pour fermer le **Gestionnaire de configuration de Reporting Services**.
 
     [![Fermer le Gestionnaire de configuration de Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

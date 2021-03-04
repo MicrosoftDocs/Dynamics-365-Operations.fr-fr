@@ -179,3 +179,6 @@ Recherchez l’apprentissage en ligne, les ateliers en personne et les événeme
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

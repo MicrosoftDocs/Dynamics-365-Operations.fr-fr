@@ -44,3 +44,6 @@ Cette procédure décrit la configuration et l'exécution d'un traitement par lo
 8. Cliquez sur OK.
 9. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

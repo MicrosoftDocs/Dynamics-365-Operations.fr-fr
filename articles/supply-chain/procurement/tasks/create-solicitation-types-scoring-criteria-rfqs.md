@@ -52,3 +52,6 @@ Ce guide montre comment créer un type de sollicitation et l'associer à une mé
 8. Cliquez sur OK.
 9. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

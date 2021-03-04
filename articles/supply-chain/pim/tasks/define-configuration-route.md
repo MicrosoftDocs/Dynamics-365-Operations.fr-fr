@@ -46,3 +46,6 @@ Cette procédure se focalise sur la définition d'une gamme de configuration qui
 15. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 16. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

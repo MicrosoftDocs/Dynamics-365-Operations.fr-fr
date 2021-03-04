@@ -145,3 +145,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 11. Affichez les performances des éléments de coût individuels.
 12. Vous pouvez également rechercher des éléments de coût spécifiques.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

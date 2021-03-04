@@ -50,3 +50,6 @@ Supply Chain Management calcule les types de précision de prévision suivants :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

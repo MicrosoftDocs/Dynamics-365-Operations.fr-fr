@@ -57,3 +57,6 @@ Deux jours plus tard, votre client appelle pour dire que l'abonnement doit être
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

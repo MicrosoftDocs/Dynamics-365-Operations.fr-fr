@@ -97,3 +97,6 @@ Sur les smartphones et autres petits écrans, les commandes et la disposition du
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Conseils pour aider les développeurs et les clients à incorporer une réflexion accessible dans leurs personnalisations
 
 Pour en savoir plus sur les pratiques recommandées de Microsoft pour activer l’accessibilité, voir [Accessibilité dans les écrans, les produits et les contrôles](../../dev-itpro/user-interface/enable-accessibility.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ Avant de valider une facture financière, vous pouvez afficher l’écriture de 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

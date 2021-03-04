@@ -59,3 +59,6 @@ Cette procédure permet de configurer l’espace de travail Contrôle des coûts
 27. Dans le champ Nœud de hiérarchie des dimensions d’objet de coût, entrez ou sélectionnez une valeur.
     * Après avoir sélectionné une hiérarchie Dimension d’objet de coût, développez la hiérarchie Dimension d’élément de coût pour afficher les valeurs de coût souhaitées. Par exemple, vous pouvez développer la hiérarchie des frais généraux de fabrication pour afficher la valeur.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

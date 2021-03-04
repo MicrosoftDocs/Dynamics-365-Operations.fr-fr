@@ -504,3 +504,6 @@ Vous devez définir une association de qualité pour chaque variation dans un pr
 [Gestion de la non-conformité](enable-nonconformance-management.md)
 
 [Gestion de la qualité pour les processus d'entrepôt](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1233,3 +1233,6 @@ Notez que le pied de page du rapport généré ne contient pas le nom du format 
 - [Fonction IF](er-functions-logical-if.md)
 - [Fonction ORDERBY](er-functions-list-orderby.md)
 - [Fonction SESSIONNOW](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

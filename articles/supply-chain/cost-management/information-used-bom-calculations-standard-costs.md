@@ -84,3 +84,6 @@ Plusieurs sources d'informations peuvent être spécifiées lors de l'élaborati
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

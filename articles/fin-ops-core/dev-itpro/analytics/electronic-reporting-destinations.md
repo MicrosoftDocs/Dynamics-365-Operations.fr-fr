@@ -238,3 +238,6 @@ Votre format doit tout d’abord être disponible dans les configurations d’é
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

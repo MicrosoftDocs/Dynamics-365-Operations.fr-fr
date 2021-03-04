@@ -187,3 +187,6 @@ Pour faciliter l’affichage des colonnes sur lesquelles vous travaillez dans la
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

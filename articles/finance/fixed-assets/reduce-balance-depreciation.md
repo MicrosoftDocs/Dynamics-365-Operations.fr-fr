@@ -85,3 +85,6 @@ En utilisant la méthode d’amortissement dégressif, les 30 % de la base d’a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

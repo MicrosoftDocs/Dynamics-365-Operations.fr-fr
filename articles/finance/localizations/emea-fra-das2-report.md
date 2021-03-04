@@ -110,3 +110,6 @@ Suivez les étapes pour générer l’état de déclaration fiscale.
 
 > [!NOTE]
 > L’état DAS-2 ne prend pas en charge les transactions créées et validées à partir d’une entrée de journal générale et du scénario de schéma de régularisation. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

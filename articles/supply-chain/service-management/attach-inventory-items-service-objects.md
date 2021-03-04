@@ -51,3 +51,6 @@ L'article est maintenant joint à l'objet de service et les dimensions de stock 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

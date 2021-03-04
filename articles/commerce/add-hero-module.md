@@ -107,3 +107,6 @@ Pour ajouter un module de bannière à une nouvelle page et définir les propri�
 [Module de bloc de texte](add-content-rich-block.md)
 
 [Module de lecture vidéo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

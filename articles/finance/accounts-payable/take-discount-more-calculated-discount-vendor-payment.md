@@ -51,3 +51,6 @@ Elle valide ensuite le journal des paiements. La facture est entièrement régl�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

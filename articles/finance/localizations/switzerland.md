@@ -31,3 +31,6 @@ Cette rubrique fournit des liens vers des ressources de documentation pour la Su
 
 - [Importation des paiements client ESR](emea-che-esr-customer-payments-import.md)
 - [Factures QR pour la Suisse](emea-che-swiss-qr-bills.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

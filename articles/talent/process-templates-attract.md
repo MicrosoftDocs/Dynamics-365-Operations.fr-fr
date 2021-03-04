@@ -71,3 +71,6 @@ Pour créer un modèle de processus d'embauche, procédez comme suit.
     - Pour supprimer une activité, développez-la, puis sélectionnez le bouton de poubelle dans l'en-tête de l'activité.
 
 8. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

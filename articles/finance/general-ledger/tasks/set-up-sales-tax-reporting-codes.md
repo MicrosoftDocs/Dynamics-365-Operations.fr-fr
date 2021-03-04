@@ -39,3 +39,6 @@ La société fictive DEMF sert d’exemple dans cet enregistrement.
 6. Dans le champ **Brève description**, entrez une description à des fins internes.
 7. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

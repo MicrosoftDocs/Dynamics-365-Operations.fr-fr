@@ -53,3 +53,6 @@ Pour plus d'informations sur la procédure d'affectation d'un travailleur à une
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

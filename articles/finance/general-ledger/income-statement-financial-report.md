@@ -71,3 +71,6 @@ Les définitions de colonne contiennent différents types de colonnes afin d’o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

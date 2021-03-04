@@ -60,3 +60,6 @@ Une nouvelle option permet aux responsables d'afficher les performances des éta
 ### <a name="platform-update-29-for-finance-and-operations"></a>Mise à jour de la plateforme 29 pour Finance and Operations
 
 Pour plus de détails sur la mise à jour de la plateforme 29 pour Finance and Operations, voir [Fonctionnalités en version préliminaire dans la mise à jour de la plateforme 29 de Dynamics 365 Finance and Operations (octobre 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

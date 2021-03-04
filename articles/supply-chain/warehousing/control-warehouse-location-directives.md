@@ -77,3 +77,6 @@ Les directives de localisation déterminent *où* les articles doivent être cho
 
 - Vidéo : [Analyse approfondie de la configuration de la gestion des entrepôts](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Rubrique d'aide : [Créer des instructions d’emplacement](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

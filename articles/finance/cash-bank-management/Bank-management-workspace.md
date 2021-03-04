@@ -64,3 +64,6 @@ La page **Analyses** fournit des mesures importantes sur les comptes bancaires d
 -   Solde par devise
 
 Vous pouvez afficher les analyses bancaires de toutes les sociétés à partir de l’espace de travail **Aperçu de la trésorerie - toutes les sociétés**. Pour plus d’informations, voir [Contenu Power BI - Vue d’ensemble des disponibilités](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

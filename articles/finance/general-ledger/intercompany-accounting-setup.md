@@ -50,3 +50,6 @@ Une relation réciproque peut être facilement définie sur la page **Comptabili
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

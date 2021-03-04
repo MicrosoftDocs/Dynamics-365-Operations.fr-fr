@@ -44,3 +44,6 @@ L'écran **Supprimer un ordre de retour** permet de supprimer plusieurs ordres d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

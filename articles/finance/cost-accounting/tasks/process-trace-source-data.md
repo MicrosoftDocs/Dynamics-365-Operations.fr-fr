@@ -45,3 +45,6 @@ Le traitement des données est exécuté par tâche. Pour chaque tâche et fourn
     * Pour cet exemple, sélectionnez Période fiscale 9 2017.  
 14. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

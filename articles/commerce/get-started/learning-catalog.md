@@ -141,3 +141,6 @@ Recherchez l’apprentissage en ligne approprié, des ateliers en personne et de
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

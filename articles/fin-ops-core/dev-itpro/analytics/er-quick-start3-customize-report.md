@@ -671,3 +671,6 @@ Le statut de la version 32.6.7.2 passe de **Brouillon** à **Terminé** et la v
 - [Télécharger les configurations de gestion des états électroniques depuis le référentiel global du service de configuration](er-download-configurations-global-repo.md)
 - [Créer une facture financière](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Créer et utiliser des champs personnalisés](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

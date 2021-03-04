@@ -42,3 +42,6 @@ La société fictive de démonstration utilisée pour créer cette procédure es
     * Joignez des informations supplémentaires au journal.  
     * Par exemple, liez une image scannée du certificat d’entrée de l’UE au journal.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

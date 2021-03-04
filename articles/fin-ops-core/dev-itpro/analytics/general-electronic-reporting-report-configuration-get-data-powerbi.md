@@ -196,3 +196,6 @@ Configurez l’intégration à Power BI. Pour plus d’informations, voir [Confi
 [Destinations de la gestion des états électroniques](electronic-reporting-destinations.md)
 
 [Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Si la première valeur de résultat et la *N* ième valeur de résultat sont des
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions logiques](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

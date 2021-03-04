@@ -303,3 +303,6 @@ Cependant, lorsque vous utilisez la source de données **Code-barres** pour prod
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Langage de formule dans la gestion des états électroniques](er-formula-language.md)
 - [Fonction NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Pour plus d’informations, voir [Méthodes et conventions d’amortissement](de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

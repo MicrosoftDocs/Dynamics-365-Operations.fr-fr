@@ -58,3 +58,6 @@ Vous pouvez créer des objectifs, ajouter des activités aux objectifs, suivre l
     * Il existe souvent plusieurs objectifs identiques ou similaires pour les membres de l'équipe ou tous les employés.     Votre administrateur ou responsable des ressources humaines peut créer des groupes d'objectif contenant un ou plusieurs modèles d'objectif. Vous pouvez ajouter des objectifs à partir d'un groupe d'objectifs, puis les modifier en fonction de vos chronologies.  
     * Lorsque vous créez une révision, vous pouvez ajouter des objectifs à cette révision. Reportez-vous au guide de tâche pour les révisions pour savoir comment ajouter des objectifs à vos révisions.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

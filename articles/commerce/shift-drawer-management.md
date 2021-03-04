@@ -158,3 +158,6 @@ Accédez à **Retail et Commerce \> Canaux \> Magasins \> Tous les magasins \> R
 Ce paramétrage permet de garantir que les relevés de l'arrière-guichet incluent les mêmes transactions que les équipes du POS, et que les données sont résumées en fonction de cette équipe.
 
 Pour plus d'informations sur les méthodes de relevé et de clôture, voir [Enregistrer les configurations pour les relevés de vente au détail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

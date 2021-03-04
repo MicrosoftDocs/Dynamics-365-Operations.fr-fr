@@ -86,3 +86,6 @@ Ces renseignements sont uniques, car ils permettent aux utilisateurs de personna
 - Définissez l’option **Afficher les segments dans des colonnes distinctes** sur **Oui** pour afficher les noms du compte pour chaque dimension en tant que colonnes distinctes dans la grille.
 - Pour filtrer les valeurs d’une dimension spécifique sélectionnée, sélectionnez les dimensions que vous souhaitez dans les champs sous le champ **Ensemble de dimensions financières**. Les choix parmi lesquels choisir dépendent de l’ensemble de dimensions financières sélectionné.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

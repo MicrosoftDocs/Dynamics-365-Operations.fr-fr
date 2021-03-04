@@ -149,3 +149,6 @@ Vous pouvez utiliser la page **Détails du travail** pour afficher le travail cr
 > Quand la boîte de dialogue **Changer de pool de travail** s'affiche, le champ **ID du pool de travail** peut être vide par défaut. Si le champ est vide lorsque vous sélectionnez **OK** pour appliquer les modifications, vous supprimerez complètement le pool de travail du travail.
 >
 > En plus de changer de pool de travail, vous pouvez utiliser cette procédure pour ajouter un pool de travail à tout élément de travail qui n'en a pas, ou pour supprimer un pool de travail de tout élément de travail qui en a.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

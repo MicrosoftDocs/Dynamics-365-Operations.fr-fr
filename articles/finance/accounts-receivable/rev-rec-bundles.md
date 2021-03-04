@@ -110,3 +110,6 @@ Le journal des factures qui est créé après la validation n’inclut pas l’a
 Il est important que le journal des factures n’inclue pas l’article parent du groupe, car tous les processus exécutés après la validation de la facture sont basés sur ce journal des factures. Par exemple, si vous créez une note de crédit à partir de l’onglet **Vendre** du volet Actions, la note de crédit créée inclura les éléments constitutifs mais pas l’élément parent.
 
 [![Note de crédit qui montre les éléments constitutifs mais pas l’élément parent](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

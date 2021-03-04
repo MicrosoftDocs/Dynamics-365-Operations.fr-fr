@@ -46,3 +46,6 @@ Cette version contient plusieurs correctifs de bogue supplémentaires.
 ## <a name="known-issue"></a>Problème connu
 
 -   **Problème** : lors de l'ajout d'une nouvelle pièce jointe à un collaborateur, les boutons **Nouveau** et **Modifier** sont grisés. **Solution de contournement** : avant d'ouvrir la page de la pièce jointe, vérifiez que les récapitulatifs de la page **Collaborateur** sont fermés. Si les récapitulatifs sont fermés lorsque la page **Collaborateur** est chargée, les boutons des pièces jointes sont activés. (Ce problème sera résolu dans la prochaine mise à jour de la plateforme.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

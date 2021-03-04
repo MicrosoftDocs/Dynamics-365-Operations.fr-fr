@@ -58,3 +58,6 @@ Cette procédure décrit comment créer une station matérielle. Un profil de st
 23. Dans le champ ID du terminal TEF, tapez une valeur.
 24. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

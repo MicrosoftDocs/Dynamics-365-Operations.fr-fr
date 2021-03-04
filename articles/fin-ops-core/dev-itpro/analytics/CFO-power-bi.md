@@ -43,3 +43,6 @@ Le tableau suivant présente le contenu Power BI à partir duquel les états son
 | [Vente et rentabilité](sales-profitability-performance-content-pack.md) | <ul><li>Produit par région</li><li>10 meilleurs clients par produit</li><li>10 meilleurs produits par produit</li></ul> |
 | [Gestion des crédits et des relances](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Client en retard</li><li>Clients dépassant la limite de crédit</li><li>Soldes chronologiques</li></ul> |
 | [Analyse des dépenses d’achat](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Achats par mois/jour</li><li>10 principaux fournisseurs par achats</li><li>10 principaux produits par achats</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

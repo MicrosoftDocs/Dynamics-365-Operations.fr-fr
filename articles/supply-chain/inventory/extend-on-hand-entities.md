@@ -69,3 +69,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Une fois ces étapes terminées, vous pouvez étendre le stock disponible par site et le stock disponible par entités de données d’entrepôt en ajoutant les nouveaux champs. De cette manière, vous vous assurez que les champs étendus sont reconnus et inclus lors de la migration de données qui utilise ces entités de données.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

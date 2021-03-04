@@ -48,3 +48,6 @@ ID poste technique / ID poste technique (s'il existe plusieurs postes techniques
 Si vous avez sélectionné un actif dans l'arborescence, vous pouvez sélectionner **Demandes actives** ou **Ordres de travail actifs** pour afficher les demandes de maintenance ou les ordres de travail associés à l'actif. Vous pouvez également sélectionner **Ouvrir** \>, **Poste technique**, **Actif** ou **Nomenclature des actifs** pour ouvrir la vue associée.
 
 L'option **Postes techniques des actifs** que vous pouvez sélectionner dans le champ **Vue** est également disponible dans toute recherche d'actif où vous pouvez sélectionner un actif. L'arborescence s'affiche sous un onglet **Vue des actifs**, par exemple, où vous [créez un actif](../objects/create-an-object.md), créez une demande de maintenance ou créez un ordre de travail.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

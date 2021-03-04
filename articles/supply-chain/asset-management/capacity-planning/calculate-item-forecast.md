@@ -60,3 +60,6 @@ Cela est utile si vous souhaitez obtenir une vue d'ensemble de la consommation d
 8. Cliquez sur le bouton **Afficher les dimensions** si vous souhaitez afficher le produit, le stockage, ou les dimensions de suivi associées aux articles. Cliquez sur la case à cocher appropriée, puis cliquez sur **OK**.
 
 ![Figure 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

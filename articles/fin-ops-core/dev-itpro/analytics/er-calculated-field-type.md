@@ -342,3 +342,6 @@ Vous pouvez importer des configurations révisées depuis RCS à l’aide du ré
 - [Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)
 - [Améliorer les performances des solutions ER en ajoutant des sources de données CHAMP CALCULÉ paramétrées](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

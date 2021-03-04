@@ -37,3 +37,6 @@ Vous pouvez utiliser le nouvel élément de format **XML BRUT** pour créer des 
 > Notez que la structure ne contrôle pas si le contenu XML placé dans le document généré à l’aide de l’élément de format **XML BRUT** est correct.
 
 Pour plus d’informations sur cette fonction, lisez les guides de tâches **ER Utiliser les données XML brutes pour générer des états XML (Partie 1 : Créer un modèle de données)** et **ER Utiliser les données XML brutes pour générer des états XML (Partie 2 : Créer et exécuter un état)**, qui font partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** et qui peuvent être téléchargés à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Ces guides de tâches vous guident tout au long du processus de configuration d’un format ER pour insérer des données XML brutes dans des fichiers générés.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

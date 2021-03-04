@@ -60,3 +60,6 @@ Cette rubrique explique comment paramétrer des fabricants d'actif et des modèl
 2. Dans la colonne **Actif**, sélectionnez le lien de l'actif. La page **Détails** s'affiche.
 3. Sélectionnez **Modifier**.
 4. Dans le raccourci **Général**, sélectionnez des valeurs dans les champs **Fabricant** et **Modèle**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ L'utilisateur qui configure les paramètres pour le processus d'appel d'offre pe
 - %createddate%
 
 Si une modification est requise et envoyée après l'envoi de l'appel d'offre, l'appel d'offre est renvoyé à tous les fournisseurs invités. Le document publié est également mis à jour sur la page **Appels d'offre publiés en cours**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

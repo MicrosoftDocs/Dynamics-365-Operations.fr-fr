@@ -77,3 +77,6 @@ Utilisez cette procédure pour configurer des signatures électroniques. Une sig
 10. Cliquez sur Enregistrer.
 11. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

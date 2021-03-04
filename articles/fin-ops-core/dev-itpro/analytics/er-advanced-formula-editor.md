@@ -171,3 +171,6 @@ L’éditeur est actuellement pris en charge dans les navigateurs Web suivants 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 - [Éditeur Monaco](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

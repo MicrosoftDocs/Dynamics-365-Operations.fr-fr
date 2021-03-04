@@ -86,3 +86,6 @@ Pour faire vos déclarations GST/HST et effectuer les paiements, vous pouvez gé
     > Pour faciliter l’identification du fichier GIFT, utilisez le format *GSTAAAAMMJJ.tax* pour le nom de fichier. (Autrement dit, entrez **GST** suivi de la date de déclaration, puis ajoutez l’extension de nom de fichier **.tax** .) Par exemple, si la date de génération d’états est le 28 juillet 2010, entrez **GST20100728.tax** comme nom du fichier GIFT.
 
 4. Sélectionnez **OK** pour exporter le fichier GIFT vers le chemin spécifié.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

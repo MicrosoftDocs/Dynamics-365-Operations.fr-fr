@@ -78,3 +78,6 @@ Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez
 >[!NOTE]
 >Vous pouvez également générer un [état d'ordre de travail](../work-orders/work-order-report.md), qui contient plus de détails sur les ordres de travail.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

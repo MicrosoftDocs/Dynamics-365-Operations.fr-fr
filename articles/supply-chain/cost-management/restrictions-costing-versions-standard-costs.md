@@ -51,3 +51,6 @@ Les données de coût de l'article pour les coûts standard peuvent être copié
 
 [Préparation de la mise à jour des coûts standard pour les articles fabriqués](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

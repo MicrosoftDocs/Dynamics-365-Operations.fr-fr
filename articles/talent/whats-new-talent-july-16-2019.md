@@ -142,3 +142,6 @@ Les organisations peuvent proposer plusieurs types de congés aux employés. Tou
 ### <a name="view-performance-information-for-direct-and-extended-reports-in-manager-self-service"></a>Afficher les informations de performances pour les états directs et étendus dans la gestion en libre service
 
 Une nouvelle option permet aux responsables d'afficher les performances des états directs et de leurs états étendus. Actuellement, les chefs hiérarchiques peuvent affecter et mettre à jour les objectifs de performances et publier de nouvelles révisions. En outre, les responsables directs et leurs employés peuvent gérer et tenir à jour les journaux de performances pour garantir que le processus d'examen des performances est fluide. Lorsque cette modification est mise en œuvre, les responsables peuvent afficher et tenir à jour les informations relatives aux performances pour leurs états étendus en plus de leurs états directs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

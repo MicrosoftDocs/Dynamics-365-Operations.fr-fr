@@ -69,3 +69,6 @@ Une fois l'initialisation terminée, vous devez configurer les données de Comme
 - Canaux de Commerce
 - Registres et périphériques
 - Assortiments
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

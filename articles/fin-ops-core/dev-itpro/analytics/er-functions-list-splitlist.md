@@ -81,3 +81,6 @@ L’illustration suivante présente le résultat de l’exécution du format con
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

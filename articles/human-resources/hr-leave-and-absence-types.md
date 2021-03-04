@@ -82,3 +82,6 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 - [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
 - [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

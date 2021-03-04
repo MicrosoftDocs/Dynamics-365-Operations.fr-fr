@@ -96,3 +96,6 @@ Sous l’onglet **Conversion de devises**, définissez l’entité juridique, le
 Pour plus d’informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d’ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d’informations sur les scénarios où vous pouvez générer des tableaux d’analyse consolidés, voir [Générer des tableaux d’analyse consolidés](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

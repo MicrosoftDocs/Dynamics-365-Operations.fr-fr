@@ -87,3 +87,6 @@ L'exemple suivant montre comment modifier la page d'accueil en modifiant la vid�
 [Enrichir une page d'arrivée de catégorie](enrich-category-page.md)
 
 [Vérifier l'accessibilité du contenu de la page](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

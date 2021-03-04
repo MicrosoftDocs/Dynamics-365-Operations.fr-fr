@@ -54,3 +54,6 @@ Avant de paramétrer des agents de maintenance responsables, vous devez paramét
 L'illustration suivante présente un exemple de la page **Agents de maintenance responsables**.
 
 ![Page Collaborateurs responsables de la maintenance](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

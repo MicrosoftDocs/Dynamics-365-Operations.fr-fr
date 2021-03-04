@@ -226,3 +226,6 @@ Pour activer l'exécution manuelle d'un enregistrement fiscal reporté, vous dev
     1. Permet de sélectionner la mise en page à mettre à jour.
     2. Ajoutez un nouveau bouton, puis définissez la propriété du bouton **Terminer le processus d'enregistrement fiscal**.
     3. Dans la page **Programme de distribution**, exécutez la tâche **1090** pour transférer vos modifications vers la base de données des canaux.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

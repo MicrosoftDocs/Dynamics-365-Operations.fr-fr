@@ -55,3 +55,6 @@ Le gestionnaire de production calcule les besoins en matériaux et en capacité 
 2. Cliquez sur Confirmer.
 3. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

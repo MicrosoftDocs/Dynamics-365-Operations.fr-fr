@@ -84,3 +84,6 @@ L'image suivante montre comment publier les mises à jour du canal.
 [Créer une hiérarchie de navigation du canal](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ La fonctionnalité d'intégration fiscale suivante est également disponible dan
 La fonctionnalité d'intégration fiscale héritée suivante, disponible dans le Kit de développement logiciel (SDK) Retail, n'utilise pas l'infrastructure d'intégration fiscale et sera rendue obsolète dans les mises à jour ultérieures :
 
 - [Exemple d'intégration de l'unité de contrôle pour la Suède (hérité)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ L'illustration suivante présente une vue d'ensemble graphique des différents p
 
 ![Figure 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -251,3 +251,6 @@ Pour assurer que les valeurs adéquates sont entrées pour votre entreprise, vou
 ## <a name="see-also"></a>Voir également :
 
 Pour plus de discussion, voir le billet de blog original [Plus d'informations sur les jours négatifs (dynamiques)](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Par conséquent, les écritures comptables suivantes sont créées automatiqueme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

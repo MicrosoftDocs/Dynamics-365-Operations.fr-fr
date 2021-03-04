@@ -43,3 +43,6 @@ Cette procédure indique comment afficher tous les ordres prévisionnels qui ser
 8. Développez la section Détails du besoin en amont.
     * Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée. Vous devrez attendre l'exécution de la planification dans la société d'approvisionnement avant de pouvoir consulter les informations supplémentaires ici.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

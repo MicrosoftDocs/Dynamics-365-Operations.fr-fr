@@ -105,3 +105,6 @@ Les calculs ne sont pas inclus dans le contrôle. Vous devez tester le modèle d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

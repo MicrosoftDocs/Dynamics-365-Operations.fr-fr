@@ -112,3 +112,6 @@ Lorsque vous utilisez le champ **N° de traitement de retours** d'une ligne d'or
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

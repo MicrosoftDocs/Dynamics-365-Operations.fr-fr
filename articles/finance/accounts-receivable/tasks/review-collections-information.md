@@ -143,3 +143,6 @@ Cette rubrique explique comment réviser les informations de recouvrement et uti
 5. Sélectionnez **Afficher la liste**.
 - Sélectionnez un compte client ou utilisez le compte par défaut. Par défaut, il s’agit du compte client sélectionné dans la page de liste ou l’écran à partir duquel vous avez ouvert cet écran. Si vous avez ouvert l’écran à partir d’une page de liste, les clients de la liste sont les clients inclus dans le regroupement de recouvrements utilisé dans la page de liste.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

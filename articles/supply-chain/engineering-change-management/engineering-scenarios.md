@@ -411,3 +411,6 @@ Le produit peut maintenant être lancé à nouveau dans la société *USMF*, pui
 1. Sélectionnez chaque entreprise pour laquelle vous souhaitez lancer des produits.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue **Versions** et revenir à l’ordre des modifications.
 1. Dans le volet Actions, sur l'onglet **Ordre des modifications**, dans le groupe **Sorties de produits**, sélectionnez **Processus** pour remettre les produits concernés aux entreprises sélectionnées. Sinon, sélectionnez **Lancer la structure du produit** pour démarrer le processus de publication.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

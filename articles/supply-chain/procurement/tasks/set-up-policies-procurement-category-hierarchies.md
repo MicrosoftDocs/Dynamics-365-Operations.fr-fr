@@ -52,3 +52,6 @@ Cette procédure permet de définir des règles pour commander des produits dans
 6. Sélectionnez une option dans le champ **Sélection de fournisseur**. Choisissez une règle pour contrôler le genre de fournisseur qui peut être choisi pour la catégorie quand des demandes sont créées.  
 7. Cliquez sur **Fermer**. Les règles de stratégie que vous avez définies concernaient des demandes de type Consommation. Pour définir des stratégies pour des demandes de type Réapprovisionnement, vous devez créer une règle pour le type de règle de stratégie appelé « Règle de stratégie d'accès à la catégorie de réapprovisionnement ».  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

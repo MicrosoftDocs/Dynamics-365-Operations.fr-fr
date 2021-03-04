@@ -101,3 +101,6 @@ Voici une explication des colonnes de ce fichier :
 
 > [!NOTE]
 > Pour valider les écritures comptables pour les factures client, allez dans **Comptabilité client** \> **Factures** \> **Toutes factures financières**. Pour les factures fournisseur, allez dans **Comptabilité fournisseur** \> **Factures** \> **Journal des factures**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

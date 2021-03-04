@@ -55,3 +55,6 @@ Cette procédure montre comment créer et publier un nouvel assortiment de produ
 1. Cliquez sur Publier.
 2. Cliquez sur Oui.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

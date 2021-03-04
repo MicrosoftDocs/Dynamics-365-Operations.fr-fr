@@ -496,3 +496,6 @@ Veillez à ce que la configuration de mise en correspondance de modèle partagé
 - Au moins une version de la configuration de mise en correspondance de modèle de gestion des états électroniques a un statut défini sur **Terminé** ou **Partagé**. Dans ce cas, la version avec le numéro de version le plus élevé sera utilisé pour l’exécution de format de gestion des états électroniques.
 - L’option **Exécuter le brouillon** pour la configuration de la mise en correspondance de modèle de gestion des états électroniques est activée. Dans ce cas, la version avec le statut **Brouillon** sera utilisé pour l’exécution de format de gestion des états électroniques.
 > L’option **Exécuter le brouillon** devient disponible sur la page **Configurations** pour chaque configuration de mise en correspondance de modèle de gestion des états électroniques lorsque le paramètre d’utilisateur de gestion des états électroniques **Exécuter le paramètre** est activé.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

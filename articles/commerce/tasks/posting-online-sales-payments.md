@@ -109,3 +109,6 @@ Cette procédure décrit la configuration et l'exécution d'un traitement par lo
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

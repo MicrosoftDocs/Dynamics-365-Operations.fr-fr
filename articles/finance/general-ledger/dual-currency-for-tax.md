@@ -145,3 +145,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 - [Devise double](dual-currency.md)
 - [Vue d’ensemble des taxes](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

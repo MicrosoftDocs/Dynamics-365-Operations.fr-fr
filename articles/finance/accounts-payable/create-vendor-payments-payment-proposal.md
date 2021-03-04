@@ -123,3 +123,6 @@ Vous pouvez définir un compte de paiement de débit standard par mode de paieme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

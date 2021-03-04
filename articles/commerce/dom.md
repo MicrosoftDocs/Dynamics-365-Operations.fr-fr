@@ -256,3 +256,6 @@ Voici quelques éléments à prendre en considération lorsque vous utilisez la 
 - Actuellement, DOM vérifie uniquement les commandes créées à partir des canaux commerciaux. Les commandes client sont identifiées en tant que commandes client lorsque l’option **Vente commerciale** est définie sur **Oui**.
 - Microsoft n’a pas testé DOM avec des fonctionnalités de gestion des entrepôts avancées. Les clients et les partenaires doivent déterminer avec précaution si DOM est compatible avec les capacités et les processus de gestion des entrepôts avancés qui leur sont appropriés.
 - DOM est disponible uniquement dans la version Cloud de Commerce. Il n’est pas pris en charge dans les déploiements locaux.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

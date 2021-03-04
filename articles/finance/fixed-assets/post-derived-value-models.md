@@ -59,3 +59,6 @@ Pour plus d’informations, voir [Registres dérivés](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

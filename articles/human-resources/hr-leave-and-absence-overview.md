@@ -54,3 +54,6 @@ Vos employés peuvent soumettre des demandes de congés et vous pouvez les gére
 [Demander un congé](hr-employee-self-service-request-time-off.md)
 [Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

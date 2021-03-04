@@ -49,3 +49,6 @@ Lorsque vous confirmez une commande planifiée, la boîte de dialogue **Confirma
 - **Non** – Aucun marquage de stock n'est appliqué.
 - **Standard** – Le marquage du stock est mis à jour en fonction de l'origine des demandes. Un ordre de besoins (demande) est marqué par rapport à un ordre d'exécution de commande (offre). S'il reste une quantité sur l'ordre d'exécution, elle n'est pas marquée et les informations de référence sont laissées vides. Par exemple, si une commande client de 100 unités est liée à une commande d'achat de 150 unités, les informations de référence ne seront affectées qu'à la commande client.
 - **Développé** - L'ordre de besoins (demande) et l'ordre d'exécution de commande (offre) sont marqués, indépendamment de la quantité restant dans l'ordre d'exécution de commande. Par exemple, si une commande client de 100 unités est liée à une commande d'achat de 150 unités, les informations de référence ne seront affectées qu'à la commande client et à la commande fournisseur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

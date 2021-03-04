@@ -59,3 +59,6 @@ Après avoir entré les modifications des coûts simulés, calculez les coûts d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Cette procédure décrit comment approuver des fournisseurs pour les produits sp
 31. Fermez la page.
 32. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'
 11. Fermez la page.
 12. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

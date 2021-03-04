@@ -78,3 +78,6 @@ Ce guide indique comment créer une affectation annexe, des frais annexes transp
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 7. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

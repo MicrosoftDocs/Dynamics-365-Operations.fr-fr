@@ -87,3 +87,6 @@ Pour l'entrée de ligne de commande client, le comportement par défaut est d'
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

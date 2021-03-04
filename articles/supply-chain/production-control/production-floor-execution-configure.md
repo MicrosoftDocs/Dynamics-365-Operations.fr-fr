@@ -94,3 +94,6 @@ Un traitement par lots nettoie périodiquement les entrées de la table des réf
 1. Dans le volet Actions, sélectionnez **Nettoyer les configurations du client**.
 1. Dans la boîte de dialogue **Nettoyer la configuration du client**, définissez le champ **Nombre de jours** sur le nombre de jours d'inactivité (avant aujourd'hui) à prendre en compte. Vous supprimerez toutes les configurations et les enregistrements de connexion pour les appareils qui n'ont pas été actifs pendant cette période.
 1. Sélectionnez **OK** pour nettoyer les configurations pertinentes, en fonction du paramètre **Nombre de jours**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

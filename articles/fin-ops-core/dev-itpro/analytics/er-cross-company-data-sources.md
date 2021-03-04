@@ -76,3 +76,6 @@ Téléchargez les fichiers suivants pour exécuter le guide de tâches :
 
 - [Configuration du modèle ER - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [Configuration du format ER - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

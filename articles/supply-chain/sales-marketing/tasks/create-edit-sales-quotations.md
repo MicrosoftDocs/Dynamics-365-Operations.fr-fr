@@ -70,3 +70,6 @@ Cette procédure illustre comment créer et mettre à jour un devis de vente. Vo
 13. Cliquez sur **Commandes client**.
 14. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

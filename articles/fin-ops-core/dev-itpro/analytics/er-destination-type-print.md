@@ -70,3 +70,6 @@ Pour utiliser une [orientation de la page](electronic-reporting-destinations.md#
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

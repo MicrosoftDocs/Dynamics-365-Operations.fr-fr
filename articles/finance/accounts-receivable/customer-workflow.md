@@ -60,3 +60,6 @@ Une fois que vous avez au moins une modification proposée, deux menus suppléme
     Le statut dans la page est remplacé par **Modifications en attente d’approbation**.
 
 Le flux de travail suit le processus de flux de travail standard dans l’application. L’approbateur est dirigé vers la page **Client**, où les modifications peuvent être vérifiées sur la page **Modifications proposées**, puis il doit sélectionner **Flux de travail \> Approuver** pour approuver le flux de travail. Une fois toutes les approbations effectuées, les champs sont mis à jour avec les valeurs que vous avez proposées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

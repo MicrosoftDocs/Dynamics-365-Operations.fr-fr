@@ -59,3 +59,6 @@ Ensuite, activez la clé de configuration **Gestion du changement d'ingénierie*
 1. Accédez à **Administration système \> Paramétrage \> Configuration des licences**.
 1. Développez le nœud **Commerce**, et cochez la case **Gestion du changement d'ingénierie**.
 1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

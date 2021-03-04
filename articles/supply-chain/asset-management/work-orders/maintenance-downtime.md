@@ -89,3 +89,6 @@ Pour afficher une vue d’ensemble de tous les enregistrements de temps d’arr�
 >[!NOTE]
 >Tous les calendriers qui sont utilisés dans le module **Gestion des actifs** sont configurés dans **Administration d’organisation** > **Configuration** > **Calendriers** > **Calendriers**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

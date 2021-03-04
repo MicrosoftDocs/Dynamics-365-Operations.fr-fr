@@ -233,3 +233,6 @@ Pour éviter les problèmes indésirables de futures règlements pour cette tran
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

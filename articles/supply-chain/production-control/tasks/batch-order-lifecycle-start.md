@@ -92,3 +92,6 @@ Les conditions préalables à l'exécution de la procédure avec un autre ensemb
 12. Fermez la page.
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

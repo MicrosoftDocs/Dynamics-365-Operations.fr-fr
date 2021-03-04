@@ -61,3 +61,6 @@ Cette rubrique indique comment utiliser la console de planification des chargeme
 5. Sélectionnez **Assigner**.
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Après avoir prévisualisé les modifications de votre disposition prédéfinie,
 [Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Utiliser des modèles](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

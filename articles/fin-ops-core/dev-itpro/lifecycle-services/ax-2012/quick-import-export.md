@@ -40,3 +40,6 @@ Nous avons ajouté la fonctionnalité d’importation/exportation rapide pour pe
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

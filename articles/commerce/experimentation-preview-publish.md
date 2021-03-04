@@ -60,3 +60,6 @@ Lorsque vous utilisez des groupes de publication avec des expériences, vous dev
 
 ## <a name="next-step"></a>Étape suivante
 [Exécuter et surveiller une expérience](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

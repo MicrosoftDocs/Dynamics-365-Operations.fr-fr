@@ -80,3 +80,6 @@ Si ces informations ne sont pas spécifiées correctement, vous recevez un messa
 3. Dans le champ **Type de commande**, sélectionnez **Prévu et confirmé**, **Prévu** ou **Confirmé** pour indiquer le type de commandes à projeter dans l'état.
 4. Dans le champ **Type de charge**, sélectionnez un type de charge pour spécifier si la capacité de la charge de travail est projetée pour le volume ou le poids.
 5. Dans le champ **Capacité de la charge de travail**, sélectionnez un paramétrage pour la capacité de la charge de travail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

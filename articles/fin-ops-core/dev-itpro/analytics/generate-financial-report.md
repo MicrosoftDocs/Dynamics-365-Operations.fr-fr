@@ -156,3 +156,6 @@ Lorsque vous exécutez une analyse de compte manquante, les raccourcis clavier s
 [États financiers](financial-reporting-intro.md)
 
 [Interface du Concepteur de rapports](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

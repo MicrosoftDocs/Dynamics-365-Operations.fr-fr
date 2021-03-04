@@ -153,3 +153,6 @@ Cet onglet met en surbrillance l'impact de l'alternative de livraison sélection
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

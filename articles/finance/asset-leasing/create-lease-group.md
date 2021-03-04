@@ -50,3 +50,6 @@ Après avoir créé des groupes de baux, vous pouvez attribuer des registres à 
 1. Accédez à **Location d’actifs \> Configuration \> Groupe de baux**.
 2. Sélectionnez un groupe de baux, puis sélectionnez **Registres**.
 3. Sélectionnez **Nouveau**, puis, dans le champ **Type de registre**, sélectionnez le registre à affecter au groupe de baux. Vous pouvez affecter plusieurs registres à un groupe de baux si un bail doit être comptabilisé de différentes manières.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

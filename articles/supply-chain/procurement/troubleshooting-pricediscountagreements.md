@@ -125,3 +125,6 @@ Ce comportement est attendu. Étant donné que les demandes d'approvisionnement 
 
 Vous pouvez créer des accords commerciaux pour toutes les réponses à un appel d'offres, qu'elles aient été acceptées ou rejetées. Pour plus d'informations, voir [Vue d’ensemble des appels d’offre](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

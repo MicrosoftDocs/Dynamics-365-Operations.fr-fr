@@ -55,3 +55,6 @@ Une fois que les données sont importées dans le Contrôle de gestion, vous pou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

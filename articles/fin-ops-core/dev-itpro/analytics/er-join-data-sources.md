@@ -289,3 +289,6 @@ Lorsque la source de données configurée est exécutée pendant que l’exécut
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Suivez l’exécution du format d’ER pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

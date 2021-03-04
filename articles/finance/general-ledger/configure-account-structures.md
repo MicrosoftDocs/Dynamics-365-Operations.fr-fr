@@ -107,3 +107,6 @@ Lors du paramétrage de vos structures de compte, certaines pratiques recommand�
 Lorsque vous êtes satisfait de vos nouveaux paramétrages ou des modifications de la structure de compte, vous devez les activer. Si une structure de compte est affectée à une comptabilité, cette activation peut prendre du temps, car toutes les transactions non validées dans le système doivent être synchronisées avec la nouvelle structure. Les transactions validées ne sont pas affectées par les modifications de la structure de compte.
 
 Pour plus d’informations, voir, [Planifier votre plan de comptes](plan-chart-of-accounts.md), [Dimensions financières](financial-dimensions.md) et [Entrer des combinaisons de compte et de dimensions (contrôle d’accès segmenté)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

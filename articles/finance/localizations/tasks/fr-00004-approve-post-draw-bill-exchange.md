@@ -46,3 +46,6 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 8. Cliquez sur Valider.
 9. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

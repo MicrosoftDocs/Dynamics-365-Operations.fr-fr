@@ -80,3 +80,6 @@ Utilisez cette rubrique pour activer les processus de gestion de la non-conformi
 4. Tapez une valeur dans le champ **Description**.
 5. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

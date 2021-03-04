@@ -55,3 +55,6 @@ Sur la page Caméra, lorsque vous cliquez sur le bouton Caméra, il apparaît es
 
 Lorsque vous dirigez la caméra vers un code-barres, conservez le code-barres aligné entre les crochets pour obtenir le meilleur résultat. Lorsqu’un code-barres est lu correctement, le résultat est traité et vous passez à l’étape suivante. Si l’étape suivante contient un autre champ de saisie dont le mode de saisie favori est défini sur Lecture, la page Caméra redémarrera. Si l’étape suivante n’est pas un champ de lecture, la page Caméra ne se lancera pas.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

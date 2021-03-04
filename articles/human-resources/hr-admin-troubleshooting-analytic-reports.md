@@ -43,3 +43,6 @@ Ce problème peut seulement être une question de temps. Procédez comme suit po
 1. Sélectionnez **Modifier** en haut de la page, puis définissez le date/heure de début prévue sur une valeur qui actualise les analyses au plus près de l'heure actuelle.
 
 ![Traitements par lots](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

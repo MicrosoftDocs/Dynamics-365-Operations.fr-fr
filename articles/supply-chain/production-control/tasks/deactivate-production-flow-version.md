@@ -46,3 +46,6 @@ Pour cette procédure, vous avez besoin d'un flux de production avec une version
     * Ne continuez pas si vous n'êtes pas sûr à 100 % que cette version de flux de production est obsolète. Lorsque vous cliquez sur OK, toutes les règles de kanban actives expirent et toutes les activités de production et de réapprovisionnement de cette version de flux de production sont immédiatement arrêtées.  
 6. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

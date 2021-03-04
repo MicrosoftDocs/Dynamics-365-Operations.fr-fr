@@ -146,3 +146,6 @@ Pour configurer le module de sélection de magasin afin d’afficher les magasin
 [API REST Bing Cartes](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Module Cartes](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

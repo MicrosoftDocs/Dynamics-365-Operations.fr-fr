@@ -84,3 +84,6 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
     * Entrez le type légal de l’entité juridique, tel que Organisation sans but lucratif, Entreprise industrielle ou Institution financière.  
 7. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

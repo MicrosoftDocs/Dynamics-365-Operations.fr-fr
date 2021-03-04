@@ -63,3 +63,6 @@ Un type de plan peut définir des options de couverture. Les options de couvertu
    | **Fenêtre de déclaration** | Spécifie la fenêtre de déclaration, en jours, de l'événement de vie. **Remarque** : si vous n'entrez pas de montant, le système suppose que la fenêtre de rapport est nulle et ne traitera pas l'événement de vie. |
 
 5. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

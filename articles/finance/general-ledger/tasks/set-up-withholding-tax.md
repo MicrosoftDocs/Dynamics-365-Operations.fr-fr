@@ -49,3 +49,6 @@ Cette rubrique explique comment paramétrer la retenue à la source. La *retenue
 18. Sélectionnez **Enregistrer**.
 19. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

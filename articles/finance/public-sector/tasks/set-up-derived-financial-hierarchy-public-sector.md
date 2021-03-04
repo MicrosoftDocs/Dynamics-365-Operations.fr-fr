@@ -71,3 +71,6 @@ Pour répondre aux exigences des principales classifications comptables applicab
 5. Cliquez sur Modifier le filtre.
     * Cliquez sur Ajouter de nouveaux critères pour commencer à ajouter des règles au filtre. Après avoir ajouté tous les critères, cliquez sur Activer le filtre.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -206,3 +206,6 @@ Vérifiez le code dans la classe `BankImport_RU` du modèle `Application Suite` 
 
 [Modifications de l’API de la structure de gestion des états électroniques pour Application update 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

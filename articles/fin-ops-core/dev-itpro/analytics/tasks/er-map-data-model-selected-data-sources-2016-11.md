@@ -146,3 +146,6 @@ Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle A
 5. Sélectionnez la version terminée de la configuration actuelle.
     * Notez que la configuration créée est enregistrée comme version 1 terminée.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

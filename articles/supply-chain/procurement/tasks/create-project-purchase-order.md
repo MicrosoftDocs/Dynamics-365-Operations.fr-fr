@@ -48,3 +48,6 @@ Cette procédure vous indique comment créer une commande fournisseur de projet.
     * Vérifiez que les ventes et les prix de revient sont disponibles. S'ils ne le sont pas, mais requis, entrez ces éléments.  
 14. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

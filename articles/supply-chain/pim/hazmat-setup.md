@@ -284,3 +284,6 @@ Pour configurer des valeurs pour cette spécification, accédez à **Gestion des
 La spécification *Tunnel de matières dangereuses* limite les types de tunnels dans lesquels une matière dangereuse peut être transportée en identifiant les types de tunnels qui doivent être utilisés. Les catégories de tunnels sont établies par les réglementations applicables pour le transport de matières dangereuses. Cette spécification s’applique généralement uniquement au transport routier.
 
 Pour configurer des valeurs pour cette spécification, accédez à **Gestion des informations sur les produits \> Configurer \> Documentation d’expédition de matières dangereuses \> Tunnel de matière dangereuse**. Sur la page **Tunnel de matière dangereuse**, vous pouvez créer n’importe quel nombre d’identificateurs de tunnels et configurer chacun avec un code d’identification et une brève description.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

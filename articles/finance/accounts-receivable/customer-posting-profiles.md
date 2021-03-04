@@ -140,3 +140,6 @@ Spécifiez les valeurs suivantes pour paramétrer votre profil de validation :
 
 Pour plus d’informations, voir [Vue d’ensemble des paiements client](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

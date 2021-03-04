@@ -51,3 +51,6 @@ Cette procédure illustre comment convertir des remises client approuvées et tr
     * Notez qu'une transaction pour un montant négatif, représentant le montant total de remise, sans référence de facture a été ajoutée au solde client.   
 15. Cliquez sur Annuler.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

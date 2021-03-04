@@ -112,3 +112,6 @@ Pour accéder au générateur de site Commerce, accédez à l'onglet **e-Commerc
 [Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

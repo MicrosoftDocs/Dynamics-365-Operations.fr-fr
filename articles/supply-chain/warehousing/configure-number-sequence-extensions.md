@@ -92,3 +92,6 @@ Pour créer et modifier des séquences numériques, procédez comme suit.
     | Chiffre de contrôle | Ce type de segment ajoute un chiffre de contrôle, qui est un calcul modulo 10. (Ce comportement correspond à la logique existante pour les ID de contenant.) Pour ce type de segment, le champ **Valeur** est toujours défini sur un symbole caret (*^*), et le champ **Longueur** est toujours défini sur *1*. |
 
 1. Pour voir un exemple de votre format de nombre final, inspectez le champ **Format** au bas de l’organisateur **Segments**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

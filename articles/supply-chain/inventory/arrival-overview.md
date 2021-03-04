@@ -121,3 +121,6 @@ Lorsque toutes les marchandises ont été enregistrées, le gestionnaire d'entre
 
 ## <a name="summary"></a>Synthèse
 La page **Vue d'ensemble des arrivées** donne au gestionnaire d'entrepôt et aux collaborateurs d'entrepôt une vue d'ensemble du travail prévu qui doit être effectué dans le cadre du processus entrant. La page peut également être utilisée pour démarrer le processus d'arrivée d'articles, pour garantir que les articles sont suivis à la première entrée dans l'entrepôt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

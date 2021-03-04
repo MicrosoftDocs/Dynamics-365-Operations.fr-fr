@@ -47,3 +47,6 @@ Après avoir sélectionné le nouveau mode de livraison, la page de transaction 
 [Créer des commandes de centre d'appels](tasks/create-call-center-orders.md)
 
 [Personnalisez les e-mails transactionnels par mode de livraison](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

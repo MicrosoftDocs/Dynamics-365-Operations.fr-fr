@@ -98,3 +98,6 @@ Vous pouvez définir plusieurs groupes de calcul de nomenclature, en fonction de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

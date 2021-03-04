@@ -47,3 +47,6 @@ La société A gère les états financiers de plusieurs petites entreprises. L'u
 
 [Créer des objets de service](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

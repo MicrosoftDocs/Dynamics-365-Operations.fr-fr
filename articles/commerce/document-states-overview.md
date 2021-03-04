@@ -61,3 +61,6 @@ Le tableau suivant indique les états de document possibles des éléments de pa
 [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Personnaliser la navigation dans le site](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

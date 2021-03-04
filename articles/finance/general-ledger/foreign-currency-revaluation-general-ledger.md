@@ -113,3 +113,6 @@ Vous pouvez contrepasser les résultats de l’ordre obsolète de réévaluation
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

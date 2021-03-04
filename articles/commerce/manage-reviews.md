@@ -132,3 +132,6 @@ Pour afficher les tendances des classements et des évaluations dans le généra
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
 
 [Synchronisation des évaluations de produit dans Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

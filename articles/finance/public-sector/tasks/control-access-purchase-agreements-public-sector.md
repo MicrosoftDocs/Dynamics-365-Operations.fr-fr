@@ -41,3 +41,6 @@ Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder
     * Ajoutez des départements supplémentaires jusqu’à ce que tous les départements autorisés aient été ajoutés au contrat d’achat.  
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

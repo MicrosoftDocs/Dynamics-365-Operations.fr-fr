@@ -205,3 +205,6 @@ Les relevés sont des vues pour les responsables chargés de contrôler les coû
 Les versions sont utilisées pour simuler, afficher, puis comparer différents résultats. Par défaut, tous les coûts réels sont affichés dans une version de base *réelle*. Pour les budgets et les calculs, vous pouvez utiliser autant de versions que vous le souhaitez. Par exemple, vous pouvez importer les données du budget dans une version d’origine puis modifier le budget d’une version modifiée. Pour les calculs, vous pouvez créer plusieurs versions. Dans ces différentes versions, vous pouvez créer des calculs à l’aide de différentes règles de calcul qui s’appliqueront pour la répartition des coûts.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

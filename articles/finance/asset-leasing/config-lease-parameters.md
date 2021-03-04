@@ -46,3 +46,6 @@ Plusieurs paramètres de configuration affectent le comportement de la location 
 
     > [!NOTE]
     > Nous vous recommandons de conserver cette option définie sur **Non**. Le paramétrage de cette option est utilisé comme une validation et un contrôle pour éviter qu’une version de registre clôturé ne soit accidentellement dépréciée. En gardant l’option définie sur **Non**, vous contribuez à maintenir la précision de la valeur nette et des calculs d’amortissement à venir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

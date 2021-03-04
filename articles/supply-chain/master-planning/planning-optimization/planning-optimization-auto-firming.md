@@ -67,3 +67,6 @@ L'option Optimisation de planification et le moteur de planification qui est int
 - La confirmation automatique est basée sur la date de besoin (date de fin).
 - Pour assurer que les ordres sont confirmés en temps voulu, la plage de confirmation doit être plus longue que le délai d'exécution.
 - Si vous souhaitez confirmer tous les ordres qui doivent commencer pendant la semaine en cours, la plage de confirmation doit être le délai d'exécution plus une semaine.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

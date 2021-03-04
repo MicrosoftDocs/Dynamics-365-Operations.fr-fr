@@ -43,3 +43,6 @@ La transaction de cession d’une immobilisation dans un regroupement de faible 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

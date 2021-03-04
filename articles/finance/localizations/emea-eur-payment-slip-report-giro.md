@@ -63,3 +63,6 @@ Après avoir paramétré le format du bordereau de paiement associé aux facture
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

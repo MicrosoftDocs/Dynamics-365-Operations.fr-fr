@@ -64,3 +64,6 @@ Cette procédure est orientée vers la création d'une nouvelle version de flux 
     * Entrez le nombre de jours dans la période pour la durée de cycle réelle. La période pour la durée de cycle réelle est le nombre de jours pendant lesquels les tâches sont regroupées à rebours à partir de la minute actuelle pour calculer la durée de cycle réelle. Cette valeur peut être modifiée à tout moment et n'est utilisée que pour le calcul des durées de cycle réelles.  
 13. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

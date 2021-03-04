@@ -40,3 +40,6 @@ Vous pouvez configurer des règles sur des tâches séparées qui doivent être 
 12. Dans le champ **Atténuation de sécurité**, tapez une valeur. Entrez une description des actions que vous prenez pour atténuer le risque de sécurité. Par exemple, vous pouvez atténuer le risque en conduisant des examens plus détaillés du processus, en conduisant une révision décisionnelle mensuelle, ou en partageant des ressources avec d’autres départements.     
 13. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

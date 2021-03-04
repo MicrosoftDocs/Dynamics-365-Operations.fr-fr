@@ -76,3 +76,6 @@ Les actifs internes incluent un ensemble de mappages de tables de base qui fonct
 [!include [models](includes/AssetManagementModels-msdyn-models.md)]
 
 [!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

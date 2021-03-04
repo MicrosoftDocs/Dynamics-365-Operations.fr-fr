@@ -101,3 +101,6 @@ Si le même état est traité pour le client **Litware Retail** le 17 décembre
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

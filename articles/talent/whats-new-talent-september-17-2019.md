@@ -59,3 +59,6 @@ Dans cette version, le champ Famille de tâches a été ajouté à la page **Ges
 Cette fonctionnalité est désormais disponible dans les environnements de bac à sable. Pour activer cette fonctionnalité, naviguez jusqu'à **Administration du système > Liens > Paramétrage > Paramètres système > Fonctionnalités en version préliminaire**. Sélectionnez **Formulaire Collaborateur et navigation améliorés**. Ces modifications seront activées pour tous les utilisateurs. Vous pouvez désactiver cette option à tout moment.
 
 Pour plus d'informations, voir [Navigation et entrée d'employé simplifiées](./streamlined-employee-entry.md). Pour voir les modifications, regardez la vidéo [Vue d'ensemble de Dynamics 365 for Talent 2019 2e vague de lancement](https://aka.ms/ROGT19RW2ROV).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

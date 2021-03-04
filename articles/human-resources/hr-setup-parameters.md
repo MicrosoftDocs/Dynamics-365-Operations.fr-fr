@@ -50,3 +50,6 @@ Les paramètres de l'onglet **Souche de numéros** déterminent les souches de n
 
 > [!NOTE]
 > Le nombre d'heures travaillées ne peut pas dépasser 1 250, et la durée de l'emploi ne peut pas dépasser 12 mois. Ces valeurs maximales sont conformes à la législation fédérale des États-Unis. Enfin, les paramètres de l'onglet **Libre-service employé** déterminent les informations que les responsables peuvent entrer au nom de leurs employés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

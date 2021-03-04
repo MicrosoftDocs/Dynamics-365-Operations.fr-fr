@@ -130,3 +130,6 @@ Vous pouvez également créer et utiliser des tableaux croisés dynamiques et de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

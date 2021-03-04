@@ -143,3 +143,6 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 [Prospect en disponibilités](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

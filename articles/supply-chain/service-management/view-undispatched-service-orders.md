@@ -61,3 +61,6 @@ Cette rubrique décrit le mode d'affichage des activités dans une commande de s
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Lorsque l'équipe de recrutement envoie un e-mail, elle peut utiliser les modèl
 
 > [!NOTE] 
 > Pour les e-mails envoyés automatiquement, plusieurs modèles peuvent être créés. Cependant, un seul modèle peut être défini comme modèle actif. Comme ce processus est déclenché par des événements, seul l'administrateur peut déterminer le modèle à utiliser, selon la combinaison des badges **Par défaut** et **Envoyé automatiquement** de la bibliothèque de modèles.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

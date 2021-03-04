@@ -182,3 +182,6 @@ Voici quelques-uns des scénarios de consolidation pris en charge par l’outil 
 
 ## <a name="generating-consolidated-financial-statements"></a>Génération de tableaux d’analyse consolidés
 Pour plus d’informations sur les scénarios où vous pouvez générer des tableaux d’analyse consolidés, voir [Générer des tableaux d’analyse consolidés](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

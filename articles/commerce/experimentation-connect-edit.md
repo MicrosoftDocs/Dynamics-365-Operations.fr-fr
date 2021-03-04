@@ -95,3 +95,6 @@ Si vous avez défini la portée de votre expérience comme **complète** dans l'
 
 ## <a name="next-step"></a>Étape suivante
 [Afficher un aperçu et publier une expérience](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

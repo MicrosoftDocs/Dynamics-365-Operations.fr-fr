@@ -44,3 +44,6 @@ Cette procédure décrit comment prêter un article à un collaborateur et comme
 2. Cliquez sur Modifier.
 3. Entrez une date dans le champ Retour réel.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Ce Guide de tâche transfèrera les informations financières pour un registre d
     * Réexaminez les résultats avant de transférer les registres d’immobilisation.  
 10. Cliquez sur **Transférer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

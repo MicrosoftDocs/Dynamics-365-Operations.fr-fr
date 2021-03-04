@@ -61,3 +61,6 @@ Par exemple, le produit X est affecté au groupe de propriétaires de produits 
 ## <a name="product-owners-and-approvals"></a>Propriétaires de produits et approbations
 
 Étant donné que les propriétaires de produits savent si des modifications techniques spécifiques bénéficieront à leurs produits, il est souvent judicieux de les inclure dans le processus d'approbation de la gestion des modifications techniques. Vous pouvez mettre en œuvre cette approche en configurant les propriétaires de produit en tant que fournisseurs participants dans les workflows utilisés pour la gestion des modifications techniques. Le système attribuera ensuite des tâches d'approbation dans les workflows, en fonction des produits qui sont dans les demandes de modification technique et les ordres de modification technique. Pour plus d'informations, voir [Gérer modifications des produits techniques](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

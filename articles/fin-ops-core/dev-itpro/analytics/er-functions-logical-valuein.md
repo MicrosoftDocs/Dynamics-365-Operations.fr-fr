@@ -119,3 +119,6 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 [Fonctions logiques](er-functions-category-logical.md)
 
 [Fonctions VALUEINLARGE](er-functions-logical-valueinlarge.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

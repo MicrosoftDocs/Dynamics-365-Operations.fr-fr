@@ -84,3 +84,6 @@ Vous pouvez créer manuellement des lignes d'article pour les actifs.
 5. Si l'article expire, dans le champ **Expiration**, entrez une date de fin.
 6. Dans le champ **Numéro d'article**, sélectionnez l'article. Le nom est automatiquement entré dans le champ **Nom du produit**.
 7. Dans le champ **Quantité**, entrez la quantité utilisée. Le champ **Unité** est mis à jour automatiquement.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

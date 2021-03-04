@@ -126,3 +126,6 @@ Vous devez exécuter la comptabilité à rebours régulièrement pour évaluer l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

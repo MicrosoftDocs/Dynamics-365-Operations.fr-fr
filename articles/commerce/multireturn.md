@@ -54,3 +54,6 @@ Lorsque les commandes sont sélectionnées, la liste de tous les produits retour
 
 Si l’ordre est retourné intégralement, le montant des taxes restitué au client sera égal au montant des taxes initialement facturées.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

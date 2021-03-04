@@ -55,3 +55,6 @@ Valeur numérique résultante.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

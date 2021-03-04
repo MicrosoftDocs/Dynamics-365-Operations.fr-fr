@@ -91,3 +91,6 @@ Pour ajouter une nouvelle page de site à votre site, procédez comme suit.
 [Enrichir une page d'arrivée de catégorie](enrich-category-page.md)
 
 [Vérifier l'accessibilité du contenu de la page](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ La chaîne retournée par cette fonction dépend de l’encodage sélectionné d
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

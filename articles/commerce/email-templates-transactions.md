@@ -203,3 +203,6 @@ Pour plus d'informations sur la configuration des e-mails dans Dynamics 365 Comm
 [Paramétrage des envois de tickets de caisse par e-mail](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Envoyer des tickets de caisse par e-mail depuis Modern POS](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Cette rubrique indique comment mettre une période en attente ou clôturer défi
 11. Sélectionnez **Mettre à jour le statut de la période** et définissez le statut sur **En attente**, **En cours** ou **Clôturé définitivement**. **En cours** indique la période pendant laquelle la validation est possible, pour autant que l’utilisateur ait accès. **En attente** signifie que la période ne peut faire l’objet d’aucune validation, mais elle peut être rouverte. **Clôturé définitivement** signifie que la période est clôturée et ne peut jamais être ouverte. Les ajustements ne peuvent pas être validés. Il n’est pas recommandé de définir une période comme **Définitivement clôturée** avant que tous les ajustements et audits soient terminés.  
 12. Sélectionnez **Mettre à jour**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

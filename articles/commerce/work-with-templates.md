@@ -150,3 +150,6 @@ Après avoir prévisualisé les modifications de votre modèle, suivez l'une de 
 [Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Utilisation des mises en page prédéfinies](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

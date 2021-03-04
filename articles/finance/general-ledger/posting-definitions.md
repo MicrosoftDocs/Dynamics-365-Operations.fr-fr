@@ -62,3 +62,6 @@ Les restrictions suivantes s’appliquent lorsque vous créez des liens dans les
 Pour plus d’informations, voir [Exemples de définition de validation](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

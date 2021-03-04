@@ -91,3 +91,6 @@ Vous pouvez choisir parmi les méthodes d’amortissement suivantes.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

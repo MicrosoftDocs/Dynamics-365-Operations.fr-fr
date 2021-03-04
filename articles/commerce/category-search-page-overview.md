@@ -111,3 +111,6 @@ Les composants suivants sont essentiels pour une page de résultats de recherche
 
 [Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

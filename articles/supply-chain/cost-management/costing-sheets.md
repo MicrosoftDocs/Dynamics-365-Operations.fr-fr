@@ -50,3 +50,6 @@ La feuille de coûts s’affiche dans la page **Calculer le coût de l’article
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

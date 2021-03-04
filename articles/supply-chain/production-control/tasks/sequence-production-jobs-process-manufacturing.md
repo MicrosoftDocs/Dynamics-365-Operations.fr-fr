@@ -71,3 +71,6 @@ Cette procédure utilise la peinture comme exemple pour indiquer comment séquen
 8. Utilisez le filtre rapide pour filtrer sur le champ Numéro d'article avec une valeur de « P300 ».
     * Notez que les commandes sont désormais séquencées selon la priorité en matière de couleur et de taille et les ordres prévisionnels démarrent à la date de commande et de livraison au plus tôt. Validez la colonne Date de commande ou la date de début dans le volet Détails du programme.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

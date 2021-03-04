@@ -58,3 +58,6 @@ L'état **Liste des demandes de maintenance** affiche une liste de toutes les de
 L'illustration suivante présente un exemple de l'état **Liste des demandes de maintenance** pour toutes les demandes de maintenance actives.
 
 ![États Liste des demandes de maintenance](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

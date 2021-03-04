@@ -79,3 +79,6 @@ Chaque ligne d'accord de service décrit précisément le contenu de la tâche d
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Création d'accords de service](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

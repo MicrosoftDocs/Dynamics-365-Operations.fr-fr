@@ -209,3 +209,6 @@ Les colonnes suivantes indiquent où les opérations peuvent être invoquées :
 § Lorsque le PDV est hors connexion, seules les transactions dans la base de données hors connexion peuvent être rappelées pour un retour.
 
 \*\* Lorsque le PDV est hors connexion, seules les transactions dans la base de données de canal hors connexion sont affichées dans le journal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

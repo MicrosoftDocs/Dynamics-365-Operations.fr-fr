@@ -75,3 +75,6 @@ Assurez-vous de ne pas ajouter de données personnelles (toute information susce
 - [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
 - [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

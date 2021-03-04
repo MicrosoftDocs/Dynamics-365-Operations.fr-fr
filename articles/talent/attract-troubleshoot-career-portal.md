@@ -72,3 +72,5 @@ Attribuez le rôle d'utilisateur Talent à l'équipe de relations Talent.
 
    1. Connectez-vous au portail des carrières à partir d'une nouvelle fenêtre de navigateur.
    2. Postulez à l'emploi depuis le portail carrière. 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

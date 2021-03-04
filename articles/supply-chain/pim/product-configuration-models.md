@@ -153,3 +153,6 @@ Vous pouvez voir si un produit lancé peut être utilisé comme composant ou sou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

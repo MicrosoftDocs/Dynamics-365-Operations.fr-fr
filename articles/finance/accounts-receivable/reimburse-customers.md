@@ -49,3 +49,6 @@ Lorsque vous créez des transactions de remboursement, une facture fournisseur e
 
 5. Pour afficher les opérations de remboursement qui ont été créées, utilisez l’état **Remboursement** (**Comptabilité client \> Demandes de renseignements et rapports \> Rapport de remboursement**).
 6. Dans Comptabilité fournisseur, créez un paiement pour les factures fournisseur créées par le processus de remboursement. Pour plus d’informations sur la façon de payer les fournisseurs, voir [Aperçu du paiement du fournisseur](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

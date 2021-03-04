@@ -41,3 +41,6 @@ Cette procédure permet d'indiquer comment lancer un ordre de fabrication. Les d
 6. Cliquez sur OK.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Avant d’utiliser cette procédure, assurez-vous qu’au moins un workflow d’
 
 8. Pour arrêter un workflow, sur la page **Historique du workflow**, sélectionnez **Rappeler**. Dans la boîte de dialogue qui s’affiche, entrez un commentaire, puis sélectionnez **OK**.
 9. Pour désactiver un workflow ou pour activer un workflow précédemment créé, accédez à **Location d’actifs \> Configurer \> Workflow de location**. Puis, sur la page **Workflow de location**, sélectionnez **Workflow \> Versions**. Pour rendre un workflow en cours inactif, sélectionnez le bail actif dans la boîte de dialogue de la version du bail, puis sélectionnez **Rendre inactif**. Pour rendre un workflow existant actif, sélectionnez le workflow, puis sélectionnez **Rendre actif**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

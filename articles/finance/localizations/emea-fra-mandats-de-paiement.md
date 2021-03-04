@@ -83,3 +83,6 @@ Utilisez les critères suivants dans la page de recherche dans la base de donné
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

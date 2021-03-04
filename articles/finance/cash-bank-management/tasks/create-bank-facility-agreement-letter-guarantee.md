@@ -57,3 +57,6 @@ Cette tâche crée un accord d’établissement bancaire pour traiter une lettre
 5. Cliquez sur Enregistrer.
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

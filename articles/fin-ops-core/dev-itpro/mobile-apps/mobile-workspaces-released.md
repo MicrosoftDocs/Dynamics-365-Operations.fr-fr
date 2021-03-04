@@ -41,3 +41,6 @@ Cette rubrique liste les espaces de travail mobiles qui peuvent être utilisés 
 | [Commandes client](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Vous pouvez rester à jour de vos commandes client.                                                                                                                          |  Janvier 2017                  |
 | [Collaboration du fournisseur](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Les fournisseurs peuvent être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour. |Janvier 2017    |
 | [Gestion des actifs](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Cet espace de travail permet aux utilisateurs de voir et de créer des demandes de maintenance et des ordres de travail. Les utilisateurs peuvent également afficher les tâches de l’ordre de travail attribuées dans un calendrier ou dans une vue de liste. Les actifs et les postes techniques peuvent également être affichés et recherchés. |2019 octobre    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

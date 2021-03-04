@@ -50,3 +50,6 @@ Créez une écriture comptable avancée, sélectionnez l’option **Entrée de c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

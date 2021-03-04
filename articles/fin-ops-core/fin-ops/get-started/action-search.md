@@ -75,3 +75,6 @@ Dans l’exemple précédent, la recherche d’action a donné les résultats du
 ## <a name="action-search-vs-navigation-search"></a>Recherche d’actions/recherche de navigation
 
 Alors que la recherche d’actions sert à rechercher et à exécuter des actions sur une page, il existe un mécanisme distinct pour rechercher des pages et les parcourir. Pour plus d’informations sur cette fonction, voir l’article [Recherche lors de la navigation](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

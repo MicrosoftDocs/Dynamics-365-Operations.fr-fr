@@ -50,3 +50,6 @@ Le journal **Modifications de propriété du stock** est utilisé pour enregistr
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Collaboration fournisseur dans les processus de consignation
 Si vos fournisseurs utilisent l'interface de collaboration fournisseur, ils peuvent utiliser cette option pour contrôler la consommation du stock sur votre site. Pour plus d'informations sur le paramétrage des fournisseurs pour utiliser la collaboration fournisseur, voir [Sécurité de l'utilisateur du portail de fournisseurs](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

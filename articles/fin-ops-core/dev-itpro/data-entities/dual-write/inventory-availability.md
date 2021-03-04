@@ -57,3 +57,6 @@ La boîte de dialogue renvoie les informations ATP de Supply Chain Management. C
 - Quantité de réception
 - Quantité de sortie
 - Quantité disponible
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

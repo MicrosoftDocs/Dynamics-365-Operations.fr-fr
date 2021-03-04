@@ -108,3 +108,6 @@ Le tableau suivant répertorie des exemples de définitions de mise en page tech
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

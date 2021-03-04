@@ -56,3 +56,6 @@ Cela entraîne la création par le système d'un ordre de contrôle. La personne
 
 [Spécification de la procédure de cession des articles retournés](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

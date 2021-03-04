@@ -183,3 +183,6 @@ Pour chaque code disposition défini, vous devez sélectionner une action de dis
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

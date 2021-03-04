@@ -80,3 +80,6 @@ Lorsque la sélection du groupement est appliqué, la confirmation d'article est
 1. Dans une option de menu de l'appareil mobile, ouvrez l'écran de paramétrage pour la confirmation du travail : **Gestion des entrepôts** \> **Gestion des entrepôts** \> **Paramétrage** \>  **Appareil mobile** \> **Options de menu d'appareil mobile**.
 
 1. Dans l'option de menu de l'appareil mobile, ouvrez **Paramétrage de la confirmation du travail**. L'option **Confirmation du produit** permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

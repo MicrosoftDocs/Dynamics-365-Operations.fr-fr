@@ -140,3 +140,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 
 - [Définir des dimensions financières](tasks/define-financial-dimensions.md)
 - [Tenir à jour les modèles par défaut de dimension financière](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

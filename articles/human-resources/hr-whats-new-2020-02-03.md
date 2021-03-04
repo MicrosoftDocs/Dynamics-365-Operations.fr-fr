@@ -65,3 +65,6 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

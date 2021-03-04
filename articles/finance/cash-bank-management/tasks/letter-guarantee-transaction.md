@@ -148,3 +148,6 @@ La société fictive USMF sert d’exemple dans cette procédure.
     * Vérifiez les écritures de journal validées.  
 16. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

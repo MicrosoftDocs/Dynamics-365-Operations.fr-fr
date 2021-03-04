@@ -53,3 +53,6 @@ Avec cette modification, les champs **Période d'essai** et **Calendrier** ont �
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Mise à jour de la plateforme 23 pour Finance and Operations
 Des correctifs de bogue mineur ont été inclus dans le cadre de Platform Update 23 de Finance and Operations. Pour en savoir plus, voir [Nouveautés ou modifications dans Dynamics 365 Finance and Operations Platform Update 23 (janvier 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

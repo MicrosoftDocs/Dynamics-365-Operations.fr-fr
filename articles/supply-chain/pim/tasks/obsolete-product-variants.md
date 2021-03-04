@@ -73,3 +73,6 @@ Cette procédure décrit comment rechercher des produits ou des variantes de pro
 
 8. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

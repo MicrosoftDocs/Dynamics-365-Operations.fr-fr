@@ -127,3 +127,6 @@ Une fois que le produit est déclaré terminé à la ligne de production, il est
 -   Le scénario de cross-docking est pris en charge pour les articles contrôlés par lot et de série, avec les dimensions de lot et de numéro de série définies au-dessus de l'emplacement dans la hiérarchie de réservation. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Cette rubrique explique comment effectuer la gestion de non-conformité, en fonc
 2. Sélectionnez **Clôturer la non-conformité**.
 3. Cliquez sur **Oui**.
 4. Fermez les pages.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

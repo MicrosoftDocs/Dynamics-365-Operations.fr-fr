@@ -62,3 +62,6 @@ Les rubriques répertoriées dans l'aide du tableau suivant vous permettent de c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

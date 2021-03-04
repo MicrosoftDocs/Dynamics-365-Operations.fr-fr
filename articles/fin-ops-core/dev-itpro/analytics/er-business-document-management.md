@@ -423,3 +423,6 @@ Vous êtes probablement connecté à l’instance actuelle de l’application du
 
 [Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

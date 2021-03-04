@@ -69,3 +69,6 @@ La [Double écriture](https://docs.microsoft.com/powerapps/maker/portals/overvie
 ![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
 
 Le portail client sert de point de départ pour les organisations qui souhaitent utiliser les portails Power Apps pour créer un site Web ouvert sur l'extérieur qui utilise les données de leur installation Supply Chain Management. Il aide les organisations à connecter la double écriture, Supply Chain Management et les portails Power Apps.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

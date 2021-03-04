@@ -73,3 +73,6 @@ Vous entrez une source de données **DS** du type *Champ calculé* et elle conti
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

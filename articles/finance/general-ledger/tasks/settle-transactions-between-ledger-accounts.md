@@ -49,3 +49,6 @@ Cette procédure montre comment régler les transactions entre les comptes gén�
 7. Cliquez sur Règlements comptables.
 8. Dans la liste, marquez la ligne sélectionnée.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

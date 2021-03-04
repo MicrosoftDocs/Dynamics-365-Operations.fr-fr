@@ -73,3 +73,6 @@ Cette rubrique explique comment paramétrer des politiques de facturation fourni
 16. Cliquez sur **OK**.
 17. Fermez les pages pour revenir à la page d’accueil.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

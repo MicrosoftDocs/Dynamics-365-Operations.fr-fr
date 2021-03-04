@@ -63,3 +63,6 @@ Ce guide de tâche décrit diverses méthodes permettent de créer des paiements
 33. Cliquez sur **OK** pour générer les paiements.
 34. Cliquez sur **Valider** si tous les paiements sont approuvés et générés. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

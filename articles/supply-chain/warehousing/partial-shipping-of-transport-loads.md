@@ -66,3 +66,6 @@ Ce paramétrage vous permet de confirmer un chargement de transport qui inclut u
 
 1. Sélectionnez **Gestion des entrepôts** \> **Charges** \> **Chargements de transport**.
 2. Dans le volet Actions, sous l'onglet **Expédier et recevoir**, dans le groupe **Confirmer**, sélectionnez **Transport**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

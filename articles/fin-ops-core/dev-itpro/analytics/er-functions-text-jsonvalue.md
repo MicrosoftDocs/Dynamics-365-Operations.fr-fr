@@ -59,3 +59,6 @@ La source de données **$JsonField** contient les données suivantes au format J
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

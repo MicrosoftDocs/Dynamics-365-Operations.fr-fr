@@ -44,3 +44,6 @@ Cette procédure consiste à créer un doublon d'une règle de kanban existante.
 3. Cliquez sur OK.
     * Notez qu'un doublon de la règle de kanban 000017 est créé.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

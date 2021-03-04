@@ -44,3 +44,6 @@ Des boutons supplémentaires sur la page **Catégories de coûts** vous donnent 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

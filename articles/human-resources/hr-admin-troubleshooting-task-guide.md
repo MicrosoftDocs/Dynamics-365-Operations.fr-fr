@@ -63,3 +63,6 @@ Procédez comme suit pour relire le guide de tâche sur LCS.
 2. Sélectionnez **Ouvrir depuis LCS**.
 3. Sélectionnez la bibliothèque et le nœud BPM dans lesquels se trouve le guide de tâche enregistré.
 4. Ouvrez le guide de tâche.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

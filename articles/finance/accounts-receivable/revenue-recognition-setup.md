@@ -193,3 +193,6 @@ La prise en compte de revenu peut également être utilisée pour les commandes 
 
 - **Produit différé de la facture** (sous **Comptes de produit**) – Entrez le compte principal pour le prix de produit qui est validé dans le produit différé (plutôt que dans le produit). Le prix de produit est différé si la ligne de commande client comporte un échéancier de produit.
 - **Coût différé** (sous **Comptes de coûts**) – Entrez le compte principal pour le montant du coût des marchandises vendues qui est validé dans le coût des marchandises vendues différé si le produit est également différé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

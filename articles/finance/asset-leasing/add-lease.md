@@ -89,3 +89,6 @@ Toutes les écritures de journal créées dans Leasing d’actifs sont contenues
 
 > [!NOTE]
 > Le journal de location d’actifs ne peut pas être créé manuellement. Il est automatiquement créé lors de la création des échéanciers de location.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

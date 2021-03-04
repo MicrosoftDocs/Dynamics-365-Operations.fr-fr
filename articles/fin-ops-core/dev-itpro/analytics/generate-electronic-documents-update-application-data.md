@@ -40,3 +40,6 @@ Pour en savoir plus sur cette fonction, consultez l’ensemble ER Générer des 
 - [Configuration du modèle de données ER : Déclaration d’échanges de biens (modèle)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du mappage de modèle ER : Déclaration d’échanges de biens (mappage)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du format ER : Déclaration d’échanges de biens (format)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

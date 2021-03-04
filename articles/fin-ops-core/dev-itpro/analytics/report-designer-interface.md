@@ -227,3 +227,6 @@ La barre d’outils du générateur d’états fournit l’accès rapide aux com
 [États financiers](financial-reporting-intro.md)
 
 [Générer les états financiers](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

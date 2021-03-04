@@ -56,3 +56,6 @@ Comme Dynamics 365 Commerce prend en charge des aperçus authentifiés « Tel �
 [Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
 
 [Gérer la stratégie de sécurité de contenu (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Sur la page **Compteurs d'actif** (**Gestion des actifs** > **Recherches** > **A
 >[!NOTE]
 >Vous pouvez paramétrer une plage pour définir des écarts entre les enregistrements de compteur manuels. Vous pouvez également spécifier le type de message qui s'affiche si les enregistrements se situent en dehors de la plage définie. Pour plus d'informations sur la configuration des compteurs, voir [Compteurs](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

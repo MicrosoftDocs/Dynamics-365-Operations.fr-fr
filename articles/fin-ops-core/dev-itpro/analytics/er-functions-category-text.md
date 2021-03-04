@@ -62,3 +62,6 @@ Les fonctions de texte des états électroniques (ER) peuvent être utilisées p
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Langage de formule dans la gestion des états électroniques](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

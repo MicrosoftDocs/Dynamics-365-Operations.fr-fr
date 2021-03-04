@@ -44,3 +44,6 @@ Cette rubrique explique comment traiter une demande de répartition. Utilisez la
 9. Sélectionnez **Valider**.
 10. Sélectionnez **Valider**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Depuis juillet 2019, les applications Finance and Operations, Power Apps et Pow
 Le déploiement des services Dynamics 365 en France s’appuient sur les principes fondamentaux de la sécurité, de la confidentialité, de la conformité, de la transparence et de la fiabilité, offrant ainsi aux organisations françaises une structure et une plateforme de cloud complètes, ainsi que des outils d’application de productivité et d’entreprise conviviaux. Toute cela signifie que les données client restent en France.
 
 Microsoft œuvre pour maintenir la parité fonctionnelle entre notre service disponible commercialement et les offres Dynamics 365 en France. Toutefois, il existe quelques exceptions affectées par un service dépendant ou la disponibilité d’une solution de partenaire, les priorités du marché ou les réglementations de conformité. Pour plus d’informations sur ces exceptions ou pour des questions sur les services en France, contactez le [Support Microsoft Dynamics Online](https://dynamics.microsoft.com/support/).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

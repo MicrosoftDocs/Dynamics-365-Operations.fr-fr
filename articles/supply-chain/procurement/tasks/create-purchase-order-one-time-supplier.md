@@ -39,3 +39,6 @@ Cette procédure vous indique comment créer une commande fournisseur pour un fo
 5. Cliquez sur OK.
     * La commande fournisseur peut maintenant être traitée comme n'importe quelle autre commande. Il n'y a aucune caractéristique spéciale liée à la façon dont ceci est fait. La facture va prendre en compte une transaction due sur le compte fournisseur qui a été créé avec la commande et le paiement sera alors traité.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

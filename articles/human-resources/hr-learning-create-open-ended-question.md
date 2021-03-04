@@ -38,3 +38,6 @@ Les questions ouvertes permettent aux personnes interrogées d'indiquer leur pro
     * Un type de saisie Texte ou Note est utilisé pour une question ouverte.  
 6. Entrez votre question dans le champ Texte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

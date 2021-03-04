@@ -110,3 +110,6 @@ Cette version corrige un problème qui se produit après qu'un journal des perfo
 ### <a name="print-performance-reviews"></a>Imprimer les évaluations des performances
 
 Voir [Imprimer les examens des performances](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) dans Dynamics 365 : 2e partie du lancement 2019.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

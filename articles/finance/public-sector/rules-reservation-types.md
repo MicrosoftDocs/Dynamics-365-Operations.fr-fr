@@ -162,3 +162,6 @@ Si vous n’avez pas accès aux pages qui vous permettent d’effectuer cette t�
 |---------------------------|---------------------------------------------------------------|
 | Clé de configuration des licences | Secteur public \> Réservation budgétaire générale                   |
 | Rôles de sécurité            | Vous devez être membre du rôle de sécurité **Responsable du budget**. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ La vidéo [Comment utiliser les alertes pour surveiller les données filtrées](
 La vidéo [Options de règle d’alerte](https://youtu.be/cpzimwOjicM) (présentée ci-dessus) est incluse dans la liste de lecture [Finance and Operations ](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible sur YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

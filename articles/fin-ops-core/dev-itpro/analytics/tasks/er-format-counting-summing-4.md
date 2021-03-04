@@ -103,3 +103,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 21. Cliquez sur Ouvrir.
     * Examinez le fichier XML créé qui contient les détails de comptage et de synthèse qui ont été collectés lors de l’exécution de la configuration sélectionnée.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

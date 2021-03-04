@@ -44,3 +44,6 @@ Les propriétés de la planification du temps de travail sont utilisées pour cl
 3. Tapez une valeur dans le champ Valeur.
 4. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

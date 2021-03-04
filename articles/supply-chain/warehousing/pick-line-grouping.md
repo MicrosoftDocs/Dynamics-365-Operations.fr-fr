@@ -131,3 +131,6 @@ Avant de pouvoir configurer le regroupement des lignes de prélèvement, vous de
 >    - Lignes de travail qui ont des travaux de réapprovisionnement inachevés.
 >    - Sur-prélèvement.
 >    - Prélèvement partiel avec réaffectation des articles
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

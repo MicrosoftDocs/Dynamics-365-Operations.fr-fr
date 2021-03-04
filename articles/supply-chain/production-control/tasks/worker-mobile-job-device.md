@@ -68,3 +68,6 @@ Pour cet exemple, vérifiez que le rôle Opérateur est affecté à l'utilisateu
 6. Dans le champ **Unité de production**, vous pouvez définir le filtre par défaut pour le collaborateur. Cela garantit que seules les tâches de production pour l'unité de production sélectionnée sont affichées lorsque le collaborateur se connecte au périphérique. Entrez la valeur souhaitée.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

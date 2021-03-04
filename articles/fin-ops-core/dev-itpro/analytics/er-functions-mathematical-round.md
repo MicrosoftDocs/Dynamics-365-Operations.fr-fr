@@ -75,3 +75,6 @@ Si la valeur de l’argument `decimals` est inférieure à 0 (zéro), le numér
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions mathématiques](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

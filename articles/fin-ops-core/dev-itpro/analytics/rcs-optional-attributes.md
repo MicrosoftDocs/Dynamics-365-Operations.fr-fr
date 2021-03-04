@@ -130,3 +130,6 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 3. Cliquez sur **Parcourir** et sélectionnez le fichier, **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Cliquez sur **OK**.
 5. Examinez le fichier généré. Notez que le même fichier a été importé car la conception de format considère désormais l’attribut « identification » de l’élément « document » comme facultatif.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,5 @@ Pour chaque organisation qui offre des avantages, vous devez configurer les para
    | **Adresse e-mail de l’expéditeur par défaut** | L'adresse e-mail à utiliser lors de l'envoi de l'e-mail de confirmation. |
 
 3. Sélectionnez **Enregistrer**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

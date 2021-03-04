@@ -77,3 +77,6 @@ Lorsque vous sélectionnez **Justificatif**, le journal des factures affiche l�
 Ensuite, ouvrez la page **Tous les clients** (**Comptabilité client \> Clients \> Tous les clients**), sélectionnez le client **US\_SI\_0003**, puis sélectionnez **Transactions**. La page **Transactions clients** affiche uniquement la facture d’origine (000008), ainsi que l’écriture comptable d’origine. Comme l’option **Valider les corrections des factures dans la comptabilité client** est définie sur **Non** sur la page **Paramètres de Comptabilité**, seule la Comptabilité est mise à jour. Par conséquent, la contrepassation et la mise à jour des écritures comptables ne sont pas affichées. Notez que les transactions de prise en compte de revenu créées dans le [scénario 3](rev-rec-reallocation-scenario-3.md) sont indiquées.
 
 [![Écriture comptable d’origine sur la page Transactions client](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Les N° document du journal validés peuvent être enregistrés comme Modèles d
 29. Dans le champ **Montant**, entrez le montant à appliquer au document. Le champ **Montant** est affiché uniquement si le type du modèle de n° document est Pourcentage.  
 30. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

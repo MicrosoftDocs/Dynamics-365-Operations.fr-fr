@@ -55,3 +55,6 @@ De la même manière, si la **Date de début** de la période de réduction est 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

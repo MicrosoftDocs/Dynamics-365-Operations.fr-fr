@@ -89,3 +89,6 @@ Commerce utilise des hiérarchies d'organisation pour structurer les canaux. Les
 > [!NOTE]
 > Pour utiliser la fonctionnalité de vente de Commerce, la clé de configuration pour **Expédition multiple** doit être activée. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de diverses validations basées sur l'adresse de livraison configurée au niveau de la ligne de commande client.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

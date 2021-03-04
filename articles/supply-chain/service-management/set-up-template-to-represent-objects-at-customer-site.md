@@ -55,3 +55,6 @@ Cette procédure permet de paramétrer un modèle représentant des objets sur u
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

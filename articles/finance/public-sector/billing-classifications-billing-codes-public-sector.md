@@ -90,3 +90,6 @@ Non, mais il existe tout de même une manière d’obtenir les résultats dont v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

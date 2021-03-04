@@ -56,3 +56,6 @@ Vous pouvez inclure un code motif et un commentaire lors de l’ajustement du so
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

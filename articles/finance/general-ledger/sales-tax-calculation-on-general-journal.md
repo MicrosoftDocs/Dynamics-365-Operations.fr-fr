@@ -157,3 +157,6 @@ Le tableau suivant présente la règle générique.
 | Taxe de Comptabilité client | Négatif              | Compte de taxe de comptabilité client | Négatif (crédit)  |
 | Taxe de Comptabilité fournisseur    | Positif              | Compte de Comptabilité fournisseur    | Négatif (crédit)  |
 | Taxe de Comptabilité fournisseur    | Négatif              | Compte de Comptabilité fournisseur    | Positif (débit)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

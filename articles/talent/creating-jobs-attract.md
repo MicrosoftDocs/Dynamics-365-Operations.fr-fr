@@ -157,3 +157,6 @@ Pour créer une mission, procédez comme suit.
 
 13. Pour activer la mission, sélectionnez **Activer**.
 14. Pour publier la mission, accédez à **Publications**, puis sélectionnez **Publier maintenant** sous le site Carrières Talent ou LinkedIn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

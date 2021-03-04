@@ -47,3 +47,6 @@ Le travail de traitement par lots exclut les registres fermés. Par exemple, dan
 La limite du nombre de registres est appliquée si les ID d’éléments en double n’existent pas dans le même journal. Cependant, si l’ID d’actif est le même que l’ID de registres, le nombre de registres par journal peut être dépassé pour conserver l’ID d’actif dans le même journal.
 
 Par exemple, il existe 5 001 ID d’immobilisation, trois registres sont associés à chaque ID d’immobilisation et chaque registre d’immobilisation est enregistré dans la même couche de comptabilisation. Vous exécutez l’amortissement pendant trois mois consécutifs, sans synthèse. Le journal d’amortissement sera créé via un traitement par lots, et le système créera sept journaux contenant 667 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Le résultat sera 2 001 registres. Par conséquent, dans trois mois, il y aura 6 003 lignes de journal pour conserver les mêmes ID d’actif dans le même journal. Le système créera également un journal contenant 332 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Dans trois mois, il y aura 2 988 lignes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Lorsque vous êtes prêts à enregistrer et à activer le workflow, procédez co
 
     - Pour activer cette version du workflow, cliquez sur **Activer la nouvelle version**. Lorsqu’un workflow est activé, les utilisateurs peuvent y soumettre des documents pour traitement.
     - Si vous ne souhaitez pas activer cette version, cliquez sur **Ne pas activer la nouvelle version**. Vous pouvez activer le workflow ultérieurement.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

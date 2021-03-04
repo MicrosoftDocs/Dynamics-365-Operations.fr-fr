@@ -599,3 +599,6 @@ Si le collaborateur ne va pas au travail pendant un jour de travail et si aucune
 - Insertion auto. absence
 
 Lorsque les enregistrements quotidiens sont calculés pour un collaborateur qui est activé pour les heures flexibles, le code absence spécifié dans le champ **Insertion auto. Flex-** est utilisé comme code absence par défaut. Si le collaborateur n'est pas activé pour les heures flexibles, le code absence spécifié dans le champ **Insertion auto. absence** est utilisé. Si une société a une combinaison de collaborateurs qui sont activés pour les heures flexibles et de collaborateurs qui ne sont pas activés pour les heures flexibles, les deux paramètres doivent être configurés.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

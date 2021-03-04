@@ -102,3 +102,6 @@ Vous pouvez créer des polices d’assurance et des garanties sur la page **Tou
     Dans ce cas, la limite de crédit effective est de 125 000 (= A + \[B × C\]).
     
     Cependant, si vous cochez la case **Inclus dans l’exposition**, la valeur **Mettre à jour la limite de crédit** de 50 000 (= 50,00 % de 100 000) est supprimée et la valeur d’exposition est de 75 000 (= A + \[B × C\] - B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

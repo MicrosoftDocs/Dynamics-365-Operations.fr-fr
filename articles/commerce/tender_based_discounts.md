@@ -72,3 +72,6 @@ Les détaillants choisissent souvent d'exclure certaines produits, tels que les 
 
 > [!NOTE]
 > Lorsque la configuration **Empêcher toutes les remises** est définie sur **Oui**, aucune remise n'est appliquée au produit. Même les remises basées sur le mode de paiement ne sont pas appliquées.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

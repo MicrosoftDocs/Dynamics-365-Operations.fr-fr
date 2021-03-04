@@ -205,3 +205,6 @@ Dans le menu **Actions**, vous pouvez également créer un processus en copiant 
 Une autre commande utile du menu **Actions** est **Afficher le statut de processus budgétaire**. Cette commande affiche graphiquement les plans budgétaires d’un processus, avec les données appropriées, comme le statut de workflow des plans, des synthèses par montant et par unité et la navigation en un clic vers les plans budgétaires.
 
 [![Statut de processus de planification budgétaire](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

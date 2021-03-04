@@ -49,3 +49,6 @@ Imaginez le scénario suivant : une plaque métallique est requise pour une opé
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

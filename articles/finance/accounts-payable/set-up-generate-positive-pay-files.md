@@ -165,3 +165,6 @@ Si vous devez modifier un fichier de paiement positif, vous pouvez le rappeler. 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

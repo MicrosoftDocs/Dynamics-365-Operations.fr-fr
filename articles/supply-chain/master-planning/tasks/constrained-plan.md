@@ -53,3 +53,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 3. Cliquez sur **OK**.
 4. Sélectionnez **Ordres prévisionnels**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

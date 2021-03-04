@@ -45,3 +45,6 @@ Les entreprises classent les clients et fournissent des services sophistiqués, 
 [!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

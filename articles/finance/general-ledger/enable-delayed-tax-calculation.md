@@ -65,3 +65,6 @@ Le système octroie la priorité au paramètre de l’en-tête du journal. Par d
 4. Dans l’onglet **Paramétrage**, définissez l’option **Calcul de la taxe différé** sur **Oui**.
 
 ![Image de la page du journal des opérations diverses](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

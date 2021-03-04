@@ -110,3 +110,6 @@ Vous pouvez envoyer des notifications aux personnes lorsqu’une tâche automati
     </table>
 
 8. Répétez les étapes 3 à 7 pour chaque événement que vous avez sélectionné à l’étape 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

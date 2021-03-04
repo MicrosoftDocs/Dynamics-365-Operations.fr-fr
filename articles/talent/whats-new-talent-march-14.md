@@ -71,3 +71,6 @@ Avec Platform Update 24 pour Finance and Operations, les utilisateurs peuvent c
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Vérification d'employé en double : modifications de l'interface
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom et un champ de statut affiche le nombre trouvé. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. L'écran des doublons ne s'ouvre pas automatiquement pour éviter d'interrompre la saisie des données.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

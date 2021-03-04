@@ -56,3 +56,6 @@ Cette rubrique se concentre sur la planification d’un ordre de fabrication ave
 6. Dans le volet Actions, sélectionnez **Ordre de fabrication**.
 7. Sélectionnez **Toutes les tâches**. Notez qu’en fonction de la gamme active, 5 tâches sont créées avec la planification des tâches.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

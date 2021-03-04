@@ -57,3 +57,6 @@ Lorsque l’emplacement du type de document est défini sur **Stockage Azure**, 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Un module Options de livraison ne peut être ajouté qu’à un module de caisse
 [Calcul au prorata des frais d’en-tête correspondent aux lignes de vente](pro-rate-charges-matching-lines.md)
 
 [Paramétrer des modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

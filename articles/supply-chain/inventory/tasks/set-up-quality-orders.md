@@ -136,3 +136,5 @@ Cette procédure décrit comment activer un processus de gestion de la qualité 
 
 > [!NOTE]
 > La fonctionnalité *Gestion de la qualité pour les processus d'entrepôt* fournit des options supplémentaires pour paramétrer les associations de qualité. Elle ajoute une nouvelle condition (**Type d'entrepôt applicable**) et un nouveau paramètre (**Stratégie de traitement de la qualité**). Si vous avez activé cette fonctionnalité, consultez [Gestion de la qualité pour les processus d'entrepôt](../quality-management-for-warehouses-processes.md) pour plus de détails.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

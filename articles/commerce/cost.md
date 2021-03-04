@@ -171,3 +171,6 @@ Vous devez paramétrer les champs suivants pour cette combinaison :
 
 > [!IMPORTANT]
 > Pour que DOM prenne en compte ces coûts au moment de l’exécution, vous devez ajouter le facteur de coût au profil d’exécution approprié.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

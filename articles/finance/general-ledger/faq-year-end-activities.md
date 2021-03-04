@@ -137,3 +137,6 @@ Dynamics 365 Finance n’imprime pas le formulaire 1096 Résumé annuel et trans
 Une nouvelle fonctionnalité du secteur public,**Mettre à jour les informations par compte principal 1099**, a été ajoutée. Vous pouvez l’activer dans l’espace de travail **Gestion des fonctionnalités**. Cette fonction vous permet d’associer les valeurs de déclaration d’honoraire pour un fournisseur par le compte principal dans la répartition comptable, plutôt que le compte par défaut sur l’enregistrement du fournisseur.
 
 Pour plus d’informations, voir [Paramétrer des fournisseurs pour la génération d’état 1099](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Avec autant de technologies d'intégration différentes disponibles, il peut par
 <sup>2</sup>Microsoft investit massivement dans l'augmentation de la couverture de données pour les entités Common Data Service. Nous vous recommandons d'utiliser Common Data Service lorsque la couverture est disponible. Actuellement, la couverture des données de Common Data Service est faible par rapport aux entités DMF et OData.
 
 <sup>3</sup>La base de données SQL est accessible par programme.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

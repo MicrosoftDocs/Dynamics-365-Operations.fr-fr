@@ -44,3 +44,6 @@ Cette procédure décrit comment créer un état du cycle de vie des produits qu
 5. Dans la liste, marquez la ligne sélectionnée.
 6. Dans le champ État du cycle de vie des produits, entrez ou sélectionnez une valeur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

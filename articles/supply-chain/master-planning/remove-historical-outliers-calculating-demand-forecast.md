@@ -51,3 +51,6 @@ Vous pouvez exclure les valeurs hors normes pour améliorer la précision de pr�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

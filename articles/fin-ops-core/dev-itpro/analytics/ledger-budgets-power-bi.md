@@ -57,3 +57,6 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 | Comptabilités                   | Comptabilité permettant de filtrer l’état dans la comptabilité actuelle              |
 | Codes budgétaires              | Codes budgétaires selon lesquels filtrer les états                                                |
 | Entités juridiques            | Les entités juridiques permettant de filtrer l’état dans l’entité juridique actuelle |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

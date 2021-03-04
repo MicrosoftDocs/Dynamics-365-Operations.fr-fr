@@ -151,3 +151,6 @@ Les mises en correspondance mises à jour doivent ressembler aux illustrations s
 ![Tâche Collaborateurs à Collaborateurs](./media/WorkerMapping.png)
 
 ![Transformation du champ Sexe](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

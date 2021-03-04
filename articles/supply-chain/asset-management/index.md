@@ -38,3 +38,6 @@ L'illustration ci-dessous présente les interfaces avec d'autres modules de Fina
 ![Vue d'ensemble de l'intégration de Gestion des actifs](media/overview-integrate2.jpg)
 
 Gestion des actifs vous permet de gérer et d'effectuer plus efficacement des tâches relatives à la gestion et à l'entretien de nombreux types d'équipements de votre société, par exemple, des machines, de l'équipement de production et des véhicules. Gestion des actifs prend en charge les solutions de nombreux secteurs.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

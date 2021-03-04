@@ -62,3 +62,6 @@ Les profils de mise en correspondance des qualifications vous permettent de rech
 Vous pouvez créer une analyse des profils de qualification pour afficher la liste des compétences d'un travailleur, d'un candidat ou d'une personne à contacter à une date spécifique. Vous pouvez créer une analyse des écarts de qualification pour comparer les qualifications d'une personne aux qualifications requises pour une tâche donnée.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

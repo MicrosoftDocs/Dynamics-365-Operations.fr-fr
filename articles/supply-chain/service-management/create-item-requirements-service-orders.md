@@ -72,3 +72,6 @@ Les demandes d'articles pour les commandes de service sont traitées au travers 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

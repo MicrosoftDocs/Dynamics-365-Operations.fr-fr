@@ -33,3 +33,6 @@ Pour configurer des remises pour la gestion du transport, accédez à **Gestion 
 Vous pouvez choisir de transmettre la remise à votre client (en définissant le type de remise sur client) ou de la conserver dans l'entreprise (en définissant le type de remise sur expéditeur). Cela vous permet de définir une configuration dans laquelle vous gagnez une marge sur les frais de transport calculés.
 
 Vous pouvez configurer plusieurs qualificatifs pour chaque remise, tels que le transporteur, le service de transporteur, les conditions de livraison, le client, la destination, etc.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Chaque version de format peut être configurée comme disponible pour l’utilis
 1. Développez la section Codes pays/région ISO.
     * Chaque accès au format peut être limité en identifiant les pays/régions particuliers dans lesquels un format s’applique. Lorsque la liste de pays/régions pour le format spécifique est vide, ce format peut être utilisé dans n’importe quelle société. Lorsque certains codes pays/région ISO sont insérés dans la liste de pays/régions, le format ne peut être utilisé que pour des sociétés pour lesquelles l’adresse principale se trouve dans le pays/la région.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

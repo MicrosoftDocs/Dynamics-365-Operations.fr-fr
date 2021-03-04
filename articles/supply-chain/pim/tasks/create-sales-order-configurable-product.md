@@ -53,3 +53,6 @@ Cette procédure explique comment appliquer un modèle de configuration à un pr
 
 ## <a name="select-the-product-configuration"></a>Sélectionner la configuration du produit
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

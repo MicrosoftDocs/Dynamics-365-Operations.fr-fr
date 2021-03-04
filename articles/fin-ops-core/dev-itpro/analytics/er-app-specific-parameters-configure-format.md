@@ -309,3 +309,6 @@ Pour savoir comment utiliser le format de gestion des états électroniques **Fo
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Définir les paramètres d’un format de gestion des états électroniques par entité juridique](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Les paramètres définis dans le carnet d'adresses global déterminent les rôle
     - Pour télécharger une image, sélectionnez **Télécharger une nouvelle image**.
     - Pour supprimer une image, sélectionnez-la, puis sélectionnez **Supprimer**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

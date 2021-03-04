@@ -50,3 +50,6 @@ Il s’agit de la cinquième des cinq procédures illustrant le processus de pai
     3.    Dans le champ **Nom du fichier**, saisissez une valeur. Pour cet exemple, en raison du paiement en EUR, le fichier généré sera conforme à la norme SEPA. Le transfert de crédit ISO20022 ainsi que tout autre format de paiement fournisseurs peut être également utilisé pour générer les paiements dans d’autres devises.
     4.    Dans le champ **Compte en banque**, saisissez ou sélectionnez une valeur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

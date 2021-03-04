@@ -100,3 +100,6 @@ Notez que l'UdM de prévision de la demande ne doit pas nécessairement avoir de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

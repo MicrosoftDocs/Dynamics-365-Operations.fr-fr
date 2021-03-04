@@ -56,3 +56,6 @@ Cette rubrique décrit le processus de création et de validation d'un journal d
 1. Sélectionnez le **stock**.
 2. Sélectionnez les **transactions**. Voici que vous pouvez afficher toutes les transactions associées qui seront créées lorsque vous validerez votre journal de comptage du stock.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

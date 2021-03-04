@@ -50,3 +50,6 @@ Pour importer et exporter des données de produit, vous devez utiliser des entit
 
 > [!NOTE]
 > Vous pouvez utiliser l'entité de données **Produits lancés V2** pour importer des produits dans le système uniquement si le produit partagé a déjà été créé. Sinon, pour importer des produits dans le système, vous devez utiliser l'entité de données **Création de produit**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

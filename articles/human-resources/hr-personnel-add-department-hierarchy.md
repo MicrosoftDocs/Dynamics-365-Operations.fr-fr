@@ -54,3 +54,6 @@ Pour ajouter un département à la hiérarchie des départements, procédez comm
 
 ## <a name="steps-for-creating-a-department"></a>Étapes pour créer un département
 Reportez-vous à l'article [Définir les nouveaux départements](../fin-and-ops/hr/tasks/define-new-departments.md) pour connaître la procédure pas à pas pour créer un département. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

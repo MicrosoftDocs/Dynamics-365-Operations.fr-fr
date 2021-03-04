@@ -36,3 +36,6 @@ La rétroaction de production fournit aux collaborateurs une rétroaction sur le
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

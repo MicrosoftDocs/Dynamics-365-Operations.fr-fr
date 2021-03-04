@@ -93,3 +93,6 @@ Les commandes fournisseur facturées enregistreront le passif dans le compte fou
 ## <a name="vendor-performance"></a>Performances du fournisseur
 
 Les performances et la révision de l'achat sont prises en charge par des *états d'approvisionnement et de comptabilité fournisseur* qui comprennent une analyse des dépenses et une analyse des performances des fournisseurs.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

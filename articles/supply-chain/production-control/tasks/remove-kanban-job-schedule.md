@@ -46,3 +46,6 @@ Cette procédure consiste à supprimer une tâche de kanban d'un processus plani
 4. Cliquez sur OK.
     * Cela va basculer le statut de la tâche actuel de « Planifié » à « Non planifié » et l'enlèvera du tableau de traitement.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

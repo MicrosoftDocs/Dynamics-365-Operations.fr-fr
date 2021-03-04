@@ -90,3 +90,6 @@ Conditions préalables :
 12. Cliquez sur Terminer.
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

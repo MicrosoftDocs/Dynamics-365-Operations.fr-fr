@@ -38,3 +38,6 @@ Si une facture importée est soumise au processus de soumission au workflow, vou
 - **Suspendu** - Les processus automatisés définis dans la page **Paramètres de la comptabilité fournisseur** ont été exécutées, mais au moins une étape du processus a échoué. Le statut **Suspendu** est également appliqué si le champ **Inclure dans le traitement automatisé** est défini sur **Non**. Vous pouvez afficher les défaillances en sélectionnant le bouton **Afficher les résultats les plus récents**.
 - **Dans le workflow** - La facture importée a été soumise au système de workflow, soit par le processus de flux de travail automatisé, soit manuellement.
 - **Workflow terminé** - Le processus de workflow est terminé pour la facture importée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ La vague est traitée et crée l'ordre de travail pour les quantités réservée
 Si une expédition a un statut **Traité par vagues** ou supérieur, les mises à jour de la quantité d'une ligne de commande client ne sont pas reflétées sur, ou validées par rapport à une ligne de chargement associée à l'expédition. Les modifications apportées à la quantité d'une ligne de chargement doivent être apportées directement sur la ligne de chargement.
 
 La validation a lieu une fois l'ordre de travail créé pour la ligne de chargement et une réservation a été effectuée. Une baisse de la quantité figurant sur la ligne de la commande vente est ensuite validée par rapport à la réservation de la ligne de travail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

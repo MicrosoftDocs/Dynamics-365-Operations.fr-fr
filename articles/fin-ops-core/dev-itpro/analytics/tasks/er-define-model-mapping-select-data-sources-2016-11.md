@@ -157,3 +157,6 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 71. Fermez la page.
 72. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

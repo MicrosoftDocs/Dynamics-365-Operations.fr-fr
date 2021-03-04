@@ -85,3 +85,6 @@ Après avoir copié des lignes, vous pouvez modifier les informations si nécess
 Vous pouvez créer une facture financière à partir d’un modèle. Lorsque vous sélectionnez **Nouveau à partir d’un modèle** sous l’onglet **Facture**, vous pouvez sélectionner un nom de modèle et le compte client pour la nouvelle facture financière. Les valeurs par défaut telles que les conditions de paiement et le mode de paiement peuvent être automatiquement renseignées à partir du client, ou vous pouvez utiliser les valeurs enregistrées dans le modèle.
 
 Une facture financière est créée et vous pouvez modifier les valeurs si nécessaire.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

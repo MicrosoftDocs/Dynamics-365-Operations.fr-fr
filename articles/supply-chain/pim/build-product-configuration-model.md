@@ -163,3 +163,6 @@ Si la configuration doit être effectuée sur un site, ou même au sein d'une so
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

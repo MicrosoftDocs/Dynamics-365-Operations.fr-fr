@@ -70,3 +70,6 @@ Pour régler le solde, procédez comme suit :
 7)  Vous pouvez également choisir de créer un journal des paiements avec le solde de règlement ou seulement le valider sans journal. Sélectionnez **Oui** pour **Modifier dans le journal** pour créer un journal des paiements. Vous pourrez modifier le journal des paiements que vous créez.
 8)  Cliquez sur **Solde de règlement**. Si vous choisissez de créer un journal, le bouton devient **Créer un journal**. Cliquez sur **Créer un journal** à la place.
 9)  Si vous avez créé un journal des paiements, la page du journal s’ouvre lorsque vous cliquez sur **Solde de règlement**. Une ligne de journal sera ajoutée au journal avec le montant du solde de règlement comme montant et le compte de montant de règlement comme compte de contrepartie. Si vous avez ajouté un client ou fournisseur afin de pouvoir déplacer le montant du règlement vers un autre client ou fournisseur, une ligne supplémentaire sera ajoutée au journal pour déplacer le montant du règlement vers ce client ou fournisseur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

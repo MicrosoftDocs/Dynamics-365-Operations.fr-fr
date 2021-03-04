@@ -53,3 +53,6 @@ Dans l'espace de travail **Gestion des données**, vous pouvez obtenir une vue d
 
     ![Figure 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

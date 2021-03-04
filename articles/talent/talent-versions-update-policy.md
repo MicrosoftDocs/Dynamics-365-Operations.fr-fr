@@ -66,3 +66,6 @@ Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en c
 
 Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

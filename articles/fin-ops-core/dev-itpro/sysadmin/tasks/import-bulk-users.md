@@ -58,3 +58,6 @@ Une fois l’importation terminée, il sera nécessaire d’attribuer des rôles
 ## <a name="run-in-a-sandbox-environment"></a>Exécuter dans un environnement de bac à sable
 1. Sélectionner **Importation par lots**.
 2. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

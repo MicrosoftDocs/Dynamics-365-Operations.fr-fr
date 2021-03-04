@@ -41,3 +41,6 @@ Cette procédure décrit la manière dont lancer un produit générique, qui ser
 7. Cliquez sur Suivant.
 8. Cliquez sur Terminer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

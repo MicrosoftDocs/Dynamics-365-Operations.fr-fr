@@ -76,3 +76,6 @@ Le total des pourcentages de tous les intervalles ne doit pas être 100. Toutef
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

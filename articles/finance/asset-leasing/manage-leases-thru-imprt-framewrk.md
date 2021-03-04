@@ -83,3 +83,6 @@ Si vous utilisez la structure d’importation de baux pour mettre à jour les ba
 
 1. Aller à **Location d’actifs \> Structure d’importation de bail \> Configurer \> Mettre à jour la sélection de champ**.
 2. Sur la page qui s’affiche, sélectionnez les champs à mettre à jour, puis sélectionnez la flèche verte pour les déplacer vers la liste **Champs sélectionnés**. Seuls les champs de la liste **Champs sélectionnés** peut être mise à jour à l’aide de la suite d’importation de bail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

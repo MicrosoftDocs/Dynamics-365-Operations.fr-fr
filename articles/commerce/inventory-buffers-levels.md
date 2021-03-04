@@ -149,3 +149,6 @@ Pour configurer la réponse des API de disponibilité des produits, procédez co
 [Appliquer les paramètres de stock](inventory-settings.md)
 
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

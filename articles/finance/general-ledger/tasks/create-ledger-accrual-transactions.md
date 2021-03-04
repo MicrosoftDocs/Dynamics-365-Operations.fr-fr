@@ -49,3 +49,6 @@ Ce guide accompagne l’utilisateur dans la génération de transactions de rég
 17. Cliquez sur OK.
 18. Cliquez sur Valider.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

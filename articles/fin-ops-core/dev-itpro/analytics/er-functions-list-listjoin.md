@@ -83,3 +83,6 @@ La structure de cette liste se compose d’un seul champ **Montant** de type `Re
 [Fonctions de liste](er-functions-category-list.md)
 
 [Déboguer les sources de données d’un format ER exécuté pour analyser le flux de données et la transformation](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

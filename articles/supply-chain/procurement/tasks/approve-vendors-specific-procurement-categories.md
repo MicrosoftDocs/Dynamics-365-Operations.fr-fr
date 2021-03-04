@@ -44,3 +44,6 @@ Cette rubrique explique comment approuver des fournisseurs pour des catégories 
 13. Choisissez **Non** dans le champ **Hériter des fournisseurs de la catégorie parente :**.
 14. Choisissez **Oui** dans le champ **Hériter des fournisseurs de la catégorie parente :**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

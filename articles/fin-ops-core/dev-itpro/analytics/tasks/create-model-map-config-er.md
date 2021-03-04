@@ -65,3 +65,6 @@ Ces étapes peuvent être effectuées à l’aide d’un ensemble de données qu
     * Exemple de mise en correspondance de déclaration d’échanges de biens  
 5. Cliquez sur Créer une configuration.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

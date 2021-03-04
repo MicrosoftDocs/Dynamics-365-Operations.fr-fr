@@ -119,3 +119,6 @@ Pour faciliter et accélérer la définition des actions associées à chaque li
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Cette rubrique explique comment un utilisateur affecté au rôle d’administrat
 2. Sélectionnez **Activer**.
 
 ![Page de l’espace de travail des états électroniques](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

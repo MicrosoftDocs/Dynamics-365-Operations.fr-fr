@@ -85,3 +85,6 @@ Il y a plusieurs raisons pour lesquelles vous ne pouvez pas afficher toutes les 
 
 - Votre collègue travaille avec une version d'essai ou une licence Attract avec le module complémentaire Recrutement complet, alors que vous utilisez la verison de base d'Attract.
 - Vous disposez d'Attract avec le module complémentaire Recrutement complet, mais vous avez pas affecté les rôles corrects pour utiliser toutes les fonctions. Pour plus d'informations voir [Gestion de la sécurité et des rôles dans Attract](security-attract.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

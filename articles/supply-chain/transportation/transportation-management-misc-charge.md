@@ -31,3 +31,6 @@ Comme pour tous les frais divers, les frais générés par le transport doivent 
 Aller à **Gestion des transports > Configurer > Classement > Frais divers** pour définir les critères de qualification qui déterminent quand un **Code des frais** est appliqué à des frais.
 
 Vous devez avoir au moins une configuration pour chaque paramètre **Module de frais** (*Client* et *Vendeur*) où le **Type de frais divers** est réglé sur *Aucun*. S'il manque, les frais divers ne seront *pas* ajouté à la commande.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

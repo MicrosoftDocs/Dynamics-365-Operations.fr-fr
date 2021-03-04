@@ -69,3 +69,6 @@ Le code intérêt peut être défini sur le code facturation, la classification 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

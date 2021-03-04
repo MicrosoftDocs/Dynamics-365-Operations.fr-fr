@@ -119,3 +119,6 @@ Les travailleurs dont les tâches ne nécessitent pas de commentaires immédiats
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

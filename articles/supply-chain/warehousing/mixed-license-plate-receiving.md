@@ -49,3 +49,6 @@ Vous devez créer une option de menu avec le mode de travail qui n'utilise pas l
 - Réception et rangement de contenant mixte
 
 Les options permettant d'identifier les lignes du document source sont Article de commande fournisseur, Ligne de commande fournisseur, Ordre de retour, Article d'ordre de transfert et Ligne d'ordre de transfert. Ces options peuvent modifier l'ordre de réception dans un contenant unique. La dernière option concerne le chargement d'articles. Vous pouvez ajouter plusieurs articles à un contenant, mais vous ne pouvez pas basculer entre plusieurs chargements.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

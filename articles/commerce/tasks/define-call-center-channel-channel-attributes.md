@@ -100,3 +100,6 @@ Cette procédure décrit la création d'un nouveau canal de Commerce et la défi
 65. Cliquez sur Enregistrer.
 66. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

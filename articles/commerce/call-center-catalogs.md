@@ -101,3 +101,6 @@ Sous l'onglet **Catalogues**, des options de configuration d'un **Échéancier d
 ## <a name="additional-notes"></a>Notes supplémentaires
 
 Actuellement, lorsqu'un ID code source est appliqué à une commande client du centre d'appels, il est utilisé pour piloter les prix, les promotions, les scripts et les articles de vente de gamme supérieure/croisée qui sont spécifiques au catalogue. Le système n'interdit pas, ni n'empêche la commande d'un produit qui ne figure pas dans le catalogue. Si un article commandé ne figure pas dans le catalogue, le système utilise d'abord l'option **Groupe de prix** définie dans le canal du centre d'appels (**Commerce et vente au détail** \> **Canaux** \> **Centres d'appels** \> **Tous les centres d'appels**) pour définir le prix de l'article ou les promotions. Si aucun prix de canal spécifique n'est trouvé, le prix de vente de base de l'article est utilisé.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

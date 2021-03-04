@@ -70,3 +70,6 @@ Vous pouvez spécifier quels statuts du stock sont des statuts de blocage à l'a
 [Processus de gestion de la qualité](quality-management-processes.md)
 
 [Inspecter la qualité des marchandises](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

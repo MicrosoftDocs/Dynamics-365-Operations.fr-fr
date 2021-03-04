@@ -209,3 +209,6 @@ Dans l'Assistant, les valeurs suivantes sont entrées pour le détaillant Contos
     - **Réponse :** « Oui, comme défini dans ce plan général. » **1 jour** est entré.
 
     Contoso utilise les demandes approuvées de ses magasins pour créer des commandes fournisseur prévisionnelles pour réapprovisionner ces magasins. Étant donné que la planification est exécutée chaque jour, les demandes du dernier jour sont incluses dans la planification.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

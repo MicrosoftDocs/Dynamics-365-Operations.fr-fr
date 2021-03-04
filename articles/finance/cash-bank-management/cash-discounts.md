@@ -66,3 +66,6 @@ Une facture de 1 000 USD avec des conditions d’escompte de règlement de 20D
 > [!NOTE]
 > Si l’option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

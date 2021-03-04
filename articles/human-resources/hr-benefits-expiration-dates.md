@@ -46,3 +46,6 @@ Cette procédure indique comment faire expirer ou prolonger un avantage et gére
 15. Cliquez sur Avantages.
 16. Recherchez et sélectionnez l'enregistrement dans la liste. Notez la nouvelle date de fin de la couverture.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

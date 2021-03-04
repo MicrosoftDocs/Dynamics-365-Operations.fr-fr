@@ -96,3 +96,6 @@ Pour ajouter un module de bannière promotionnelle à une page et définir les p
 [Module de bloc de contenu](add-hero-module.md)
 
 [Module de lecture vidéo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

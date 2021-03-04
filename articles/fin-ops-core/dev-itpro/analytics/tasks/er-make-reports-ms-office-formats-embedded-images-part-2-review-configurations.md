@@ -91,3 +91,6 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
     * Certains libellés présentés dans le formulaire de chèque pré-imprimé sont inclus dans l’état lorsqu’il est créé à des fins de test. Toutefois, ces libellés ne sont pas imprimés pendant l’impression réelle, car ils sont déjà présents dans le formulaire pré-imprimé.  
 15. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

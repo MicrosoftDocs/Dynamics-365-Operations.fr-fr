@@ -207,3 +207,6 @@ Les dimensions clés suivantes sont utilisées comme filtres pour diviser les me
 | Entités juridiques                                          | Noms d’entité juridique                              |
 | Calendriers fiscaux                                        | Calendrier fiscal, Année, Trimestre, Période, Mois   |
 | Site                                                    | ID, Nom, Adresse, Région, Pays               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

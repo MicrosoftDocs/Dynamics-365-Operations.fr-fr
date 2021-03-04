@@ -43,3 +43,6 @@ Par exemple, si le prix de base est de 1 000 EUR et l'indice 110, le prix de v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

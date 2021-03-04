@@ -67,3 +67,6 @@ Cette procédure explique comment créer un type de poste technique par défaut 
 
 >[!NOTE] 
 >Dans l'organisateur **Général**, vous pouvez obtenir une vue d'ensemble du nombre de types d'actifs, des plans de maintenance, des exigences d'attribut des actifs, des types autorisés, des attributs et du paramétrage de poste technique du type de poste technique. Le champ **Postes techniques** affiche le nombre de postes techniques qui utilisent le type de poste technique. Vous pouvez utiliser le bouton **Copier** pour copier les paramètres d'un type de poste technique sur le type de poste technique sélectionné.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

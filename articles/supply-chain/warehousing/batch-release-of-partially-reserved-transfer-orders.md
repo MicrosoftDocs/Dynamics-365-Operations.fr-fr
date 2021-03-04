@@ -64,3 +64,6 @@ Le paramètre **Quantité** spécifie si toute la quantité ou la quantité phys
 -   Pour définir les paramètres **Quantité** et **Autoriser la libération des commandes partiellement libérées** pour les ordres de transfert, cliquez sur **Gestion des entrepôts** \> **Libérer dans l'entrepôt** \> **Lancement automatique des ordres de transfert**.
 
 -   Pour définir les paramètres **Quantité** et **Autoriser la libération des commandes partiellement libérées** pour les commandes client, cliquez sur **Gestion des entrepôts** \> **Libérer dans l'entrepôt** \> **Lancement automatique de commandes client**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

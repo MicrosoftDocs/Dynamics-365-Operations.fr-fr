@@ -54,3 +54,6 @@ Cette procédure indique comment créer un critère de sélection de prix de ven
 4. Dans le champ Critères, sélectionnez Groupe de clients 10. 
 5. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

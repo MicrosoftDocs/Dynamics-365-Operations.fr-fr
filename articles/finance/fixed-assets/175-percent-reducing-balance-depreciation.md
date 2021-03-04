@@ -88,3 +88,6 @@ La méthode d’amortissement régressif de 175 % divise 175 % par le nombre d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Pour plus d’informations sur les recommandations personnalisées, voir [Active
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

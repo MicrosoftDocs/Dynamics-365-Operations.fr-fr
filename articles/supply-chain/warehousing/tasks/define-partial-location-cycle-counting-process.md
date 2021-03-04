@@ -73,3 +73,6 @@ Lorsque vous utilisez des plans d'inventaire tournant pour créer le travail d'i
 14. Cliquez sur OK.
 15. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

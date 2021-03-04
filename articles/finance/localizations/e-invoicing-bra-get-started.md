@@ -309,3 +309,6 @@ L’activation de la fonctionnalité BR-00053 (NF-e fédéral) peut nécessiter 
 - [Présentation du module complémentaire de facturation électronique](e-invoicing-service-overview.md)
 - [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md)
 - [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

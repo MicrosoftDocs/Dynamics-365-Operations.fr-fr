@@ -68,3 +68,6 @@ Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour le
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

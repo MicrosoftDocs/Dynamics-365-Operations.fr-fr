@@ -62,3 +62,6 @@ Les collaborateurs peuvent entrer plusieurs types d'enregistrements dans le modu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

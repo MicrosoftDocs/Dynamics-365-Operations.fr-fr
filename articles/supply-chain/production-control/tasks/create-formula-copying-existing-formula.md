@@ -57,3 +57,6 @@ Cette procédure illustre comment créer rapidement une nouvelle formule en copi
 3. Cliquez sur OK.
 4. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

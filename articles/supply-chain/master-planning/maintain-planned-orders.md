@@ -68,3 +68,6 @@ Si vous prévoyez de confirmer plusieurs commandes à la fois, la mise en parall
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

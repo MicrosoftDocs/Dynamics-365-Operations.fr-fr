@@ -108,3 +108,6 @@ La capture d'écran suivante présente un exemple des résultats des calculs dan
 ![Exemples de résultats de calcul dans Contrôle de la date de l'ordre de travail](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

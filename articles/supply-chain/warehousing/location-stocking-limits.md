@@ -104,3 +104,6 @@ Pour expliquer cet échec apparent, vous devez comprendre les critères de séle
 
 > [!NOTE]
 > Vous ne pouvez pas utiliser les limites de stockage des emplacements pour contrôler, par exemple, le réapprovisionnement d'articles qui ont des quantités différentes dans le même emplacement. Dans ce cas, utilisez un *modèle de réapprovisionnement*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

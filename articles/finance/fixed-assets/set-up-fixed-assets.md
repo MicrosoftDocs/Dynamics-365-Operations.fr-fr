@@ -84,3 +84,6 @@ Vous pouvez configurer les codes de motif afin qu’ils soient obligatoires pour
 Enfin, sous l’onglet **Souches de numéros**, vous définissez des souches de numéros pour les immobilisations. La souche de numéros **Immobilisation** peut être remplacée par la souche de numéros **Groupe d’immobilisations** si elle a été spécifiée.
 
 Pour plus d’informations, voir [Créer une immobilisation](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Les administrations fiscales sont des entités auprès desquelles les taxes doiv
 10. Entrez un nombre dans le champ Arrondi.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

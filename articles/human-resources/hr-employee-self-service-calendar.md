@@ -72,3 +72,6 @@ Vous pouvez également filtrer les calendriers par responsable ou service. L’a
 
 Pour plus d’informations sur les paramètres du calendrier, voir [Configurer les paramètres du calendrier](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

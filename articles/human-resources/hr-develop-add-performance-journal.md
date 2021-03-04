@@ -54,3 +54,6 @@ Le journal des performance contient des informations relatives à la réalisatio
 20. Dans le champ Description, entrez « Merci pour votre aide à la conférence ! ».
 21. Cliquez sur Envoyer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

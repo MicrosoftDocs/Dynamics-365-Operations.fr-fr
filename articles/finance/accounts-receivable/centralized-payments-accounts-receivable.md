@@ -296,3 +296,6 @@ Fabrikam reçoit un paiement de 75,00 de la part du client Fabrikam n° 4000, N
 | Ventes (Fabrikam West)    |              | 75,00         |
 | Dû par Fabrikam East (Fabrikam West) | 25,00        |               |
 | Ventes (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

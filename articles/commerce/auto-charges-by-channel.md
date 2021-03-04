@@ -128,3 +128,6 @@ En sélectionnant **Options de transaction \>Frais \>Gérer les frais** dans l'a
 [Frais automatiques avancés omnicanaux](omni-auto-charges.md)
 
 [Calcul au prorata des frais d'en-tête pour les lignes de vente correspondantes](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

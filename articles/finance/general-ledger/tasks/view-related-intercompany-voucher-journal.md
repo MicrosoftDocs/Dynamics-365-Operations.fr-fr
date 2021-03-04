@@ -54,3 +54,6 @@ La fenêtre associée de numéro de document affiche le numéro de document de l
 3. Dans la liste, marquez la ligne sélectionnée.
 4. Cliquez Document.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

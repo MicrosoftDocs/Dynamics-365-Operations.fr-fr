@@ -185,3 +185,6 @@ La société fictive USMF sert d’exemple dans cette procédure.
     * Vérifiez que l’état répertorie les transactions avec le numéro de document bancaire, la limite des services, le montant utilisé et le montant du solde d’établissement.  
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

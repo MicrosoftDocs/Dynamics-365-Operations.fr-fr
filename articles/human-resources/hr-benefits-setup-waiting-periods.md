@@ -45,3 +45,6 @@ Dans Microsoft Dynamics 365 Human Resources, les jours d'attente établissent un
    | **Jour d’attente** | Sélectionnez le jour d'attente à utiliser pour calculer la date d'attente. |
 
 4. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

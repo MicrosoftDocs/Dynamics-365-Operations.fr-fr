@@ -53,3 +53,6 @@ Lorsque vous créez une livraison directe, les articles que vous vendez n'arrive
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

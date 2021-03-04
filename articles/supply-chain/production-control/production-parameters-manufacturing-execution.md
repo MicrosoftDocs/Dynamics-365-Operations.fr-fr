@@ -154,3 +154,6 @@ Vous pouvez utiliser les paramètres suivants si des matières doivent être dé
 | Déclaration de fin |   Consommation de nomenclature automatique    | <strong>Jamais</strong>  |
 | Déclaration de fin | Mettre à jour déclaration de fin en ligne | <strong>Statut</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

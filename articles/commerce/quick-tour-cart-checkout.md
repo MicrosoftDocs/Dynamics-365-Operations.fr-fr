@@ -107,3 +107,6 @@ Pour plus d'informations sur la création d'une page de caisse, voir [Ajout d'un
 [Vue d'ensemble des pages de détails de produit](quick-tour-pdp.md)
 
 [Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

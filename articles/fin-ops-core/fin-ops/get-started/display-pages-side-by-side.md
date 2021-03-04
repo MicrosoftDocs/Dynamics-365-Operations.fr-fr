@@ -48,3 +48,6 @@ Avant d’utiliser la fonctionnalité **Ouvrir dans une nouvelle fenêtre**, vou
 La fonction **Ouvrir dans une nouvelle fenêtre** n’est disponible que lorsqu’il existe plusieurs page ouvertes dans la fenêtre. En outre, la fenêtre contextuelle se ferme automatiquement lorsqu’il n’y a plus de page ouverte (autrement dit, lorsque la dernière page dans cette fenêtre est fermée.) Le système ferme également les pages ouvertes lorsque vous accédez à une autre zone de l’application. Par conséquent, si vous avez des fenêtres contextuelles ouvertes et que vous accédez à une autre zone de l’application, les fenêtres contextuelles sont automatiquement fermées car les pages de ces fenêtres ont été fermées par le système.
 
 La barre supérieure dans les fenêtres contextuelles affiche des informations sur la société dans laquelle la page a été ouverte et est en lecture seule. Les fenêtres contextuelles s’appuient également sur les fenêtres du navigateur principal. Si la fenêtre principale est fermée ou actualisée, toutes les fenêtres contextuelles ouvertes passent en lecture seule. Si cette situation se produit, vous pouvez toujours voir les informations dans ces fenêtres, mais vous ne pourrez pas interagir avec.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

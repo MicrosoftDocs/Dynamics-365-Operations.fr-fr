@@ -42,3 +42,6 @@ Cette procédure indique comment créer un nouveau produit générique à l'aide
     * Sélectionnez la technologie de configuration basée sur les dimensions.  
 9. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

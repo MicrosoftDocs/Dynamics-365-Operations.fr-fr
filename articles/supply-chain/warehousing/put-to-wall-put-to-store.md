@@ -541,3 +541,6 @@ Si les positions de tri doivent être fermées manuellement, l'option **Fermer a
 
 > [!IMPORTANT]
 > Une fois que le travail de déplacement a été créé à partir de l'emplacement de tri, vous ne devez pas annuler le travail. Sinon, la position et les conteneurs qu'elle contient seront supprimés du système et ne seront pas disponibles pour un traitement ultérieur. Le stock sera également supprimé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

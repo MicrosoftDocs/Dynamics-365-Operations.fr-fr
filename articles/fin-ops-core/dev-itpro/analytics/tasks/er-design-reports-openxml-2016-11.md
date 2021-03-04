@@ -150,3 +150,6 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 17. Dans le champ **Compte bancaire**, saisissez `GBSI OPER`.
 18. Sélectionnez **OK**, puis à nouveau **OK**. Examinez la feuille de calcul créée, notamment les détails des lignes de paiement ainsi que les totaux pour chaque code devise utilisé dans ce message de paiement.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

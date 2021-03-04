@@ -254,3 +254,6 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 ```
 
 Pour plus d’informations, consultez la brève vidéo YouTube : [Conseiller en optimisation dans Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

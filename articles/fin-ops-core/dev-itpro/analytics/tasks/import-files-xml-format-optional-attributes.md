@@ -123,3 +123,6 @@ Les étapes suivantes expliquent comment un utilisateur dont le rôle est Admini
 
 > [!NOTE]
 > Le même fichier a été importé, car la conception de format considère désormais l’attribut « identification » de l’élément « document » comme facultatif.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

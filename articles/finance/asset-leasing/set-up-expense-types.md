@@ -59,3 +59,6 @@ Ensuite, vous devez associer les comptes aux types de dépenses. Ces comptes ser
 7. Dans les champs appropriés, sélectionnez le compte principal de contrat de location-financement et le compte principal de location simple.
 
 Lorsque vous avez terminé ces étapes, vous pouvez ajouter des dépenses via les lignes **l’échéancier de paiement des frais accessoires** sur la page **Détails du bail** d’un bail sélectionné. Vous pouvez également ajouter des dépenses lorsque vous créez un bail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

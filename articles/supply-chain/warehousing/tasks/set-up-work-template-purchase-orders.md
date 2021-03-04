@@ -61,3 +61,6 @@ Cette rubrique décrit comment paramétrer un modèle de travail simple à utili
 6. Dans le champ **ID classe de travail**, saisissez une valeur. Les instructions de prélèvement et de placement sont un ensemble. Chaque ensemble prélever/placer doit avoir la même classe de travail. Utilisez la même classe de travail que vous avez fournie pour l'instruction de prélèvement.  
 7. Sélectionnez **Enregistrer**. Notez que la case à cocher **Valide** est maintenant activée.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

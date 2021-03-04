@@ -175,3 +175,6 @@ Pour afficher une liste des fonctionnalités disponibles dans les déploiements 
 
 \* Dans les environnements sur site, PerfTimer affiche uniquement les résultats pour le client.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

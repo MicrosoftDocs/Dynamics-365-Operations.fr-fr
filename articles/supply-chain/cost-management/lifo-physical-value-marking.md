@@ -151,3 +151,6 @@ Les illustrations suivantes montrent les effets du modèle de stock LIFO sur cet
 - Les clôtures de stock sont représentées par une ligne pointillée verticale rouge et le libellé *Clôture du stock*.
 - Les règlements effectués par clôture de stock sont représentés par des flèches rouges en diagonale d'une réception vers une sortie.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Accès au Concepteur de nomenclatures à l'aide de la relation d'objets de servi
 
 Si vous créez automatiquement des commandes de service pour un accord de service, les relations d'objets de service dans l'accord sont également créées dans les commandes de service.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

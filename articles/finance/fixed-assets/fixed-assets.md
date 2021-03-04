@@ -60,3 +60,6 @@ Consultez les vidéos de procédure qui sont désormais disponibles sur la [cha�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

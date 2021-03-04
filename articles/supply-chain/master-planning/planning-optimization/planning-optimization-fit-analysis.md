@@ -114,3 +114,6 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 [Appliquer les filtres à un plan](plan-filters.md)
 
 [Annuler une tâche de planification](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Utilisez les domaines de responsabilité pour indiquer les rôles, les processus
 
 ## <a name="steps-for-creating-a-job"></a>Étapes pour créer une tâche
 Reportez-vous à l'article [Définir les nouvelles tâches](../fin-and-ops/hr/tasks/define-new-jobs.md) pour connaître la procédure pas à pas pour créer une tâche. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

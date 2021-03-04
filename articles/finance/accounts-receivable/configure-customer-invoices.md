@@ -167,3 +167,6 @@ Les champs suivants modifient le comportement du processus de validation.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ L’état sur le taux de retour de la moyenne pondérée répond au besoin de di
 |     Devise                          |     Abréviation de la devise transactionnelle utilisée. Tous les états convertissent la devise transactionnelle en devise de déclaration.  |
 |     Paiements de loyer restants          |     Le montant total des paiements de location impayés du calendrier de paiement restant à compter de la date **À partir du**.            |
 |     Paiements pondérés restants       |     Reste des paiements de location multipliés par le taux de retour utilisé.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

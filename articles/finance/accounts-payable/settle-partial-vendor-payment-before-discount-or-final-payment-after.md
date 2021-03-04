@@ -122,3 +122,6 @@ Elle valide ensuite le paiement. Lorsqu’elle ouvre la page **Transactions four
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Une façon d'améliorer les performances avec le moteur de planification intégr
 
 > [!NOTE]
 > Cela limitera la période des distributions effectuées pour ce plan à une seule journée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

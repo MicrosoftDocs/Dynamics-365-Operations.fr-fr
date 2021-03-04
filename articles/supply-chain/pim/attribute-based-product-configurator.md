@@ -141,3 +141,6 @@ La dernière étape consiste à spécifier les prix de vente basés sur les attr
 1. Dans le volet Action, ouvrez l'onglet **Modèle** et, dans le groupe **Détails du modèle de produit**, sélectionnez **Versions**.
 1. La page **Versions** s'ouvre. Assurez-vous que **Méthode de tarification** est défini sur **Basé sur les attributs**.
     ![Définir la méthode de tarification sur Basé sur les attributs](media/prod-config-versions.png "Définir la méthode de tarification sur Basé sur les attributs")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

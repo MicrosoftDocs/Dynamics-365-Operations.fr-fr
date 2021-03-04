@@ -236,3 +236,5 @@ Pour utiliser les questions conditionnelles pour créer une hiérarchie de quest
 Une entité juridique offre des articles et des services à ses clients. Comme dans la plupart des cas, certains clients achètent soit les articles, soit les services, tandis que d'autres achètent les deux. Par conséquent, si l'entité juridique veut mener une enquête de satisfaction, elle applique une structure conditionnelle au questionnaire pour empêcher les clients qui n'achètent que des services de devoir répondre aux questions sur les articles. 
 
 De la même manière, vous pouvez paramétrer un questionnaire afin que, si une personne interrogée sélectionne la Réponse A pour la Question 1, la Question 2 soit la suivante dans l'ordre des questions. Mais si la personne interrogée sélectionne la Réponse B pour la Question 1, alors la Question 5 est la suivante.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

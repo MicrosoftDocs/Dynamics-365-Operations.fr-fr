@@ -164,3 +164,6 @@ Pour tous les problèmes généraux, vous devez toujours consulter les journaux 
 [Enregistrement des instruments de paiement en ligne avec le connecteur Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Vue d'ensemble des paiements omnicanaux](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

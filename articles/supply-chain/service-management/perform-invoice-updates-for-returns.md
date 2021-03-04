@@ -57,3 +57,6 @@ Lorsque vous paramétrez la mise à jour de facture pour un traitements par lots
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

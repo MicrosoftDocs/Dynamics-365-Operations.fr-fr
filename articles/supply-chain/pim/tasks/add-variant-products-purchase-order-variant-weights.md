@@ -48,3 +48,6 @@ Cette procédure vous guide au long des étapes permettant d'utiliser les poids 
 17. Définir la Quantité sur « 1000 ».
 18. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

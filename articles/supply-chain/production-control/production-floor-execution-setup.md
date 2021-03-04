@@ -80,3 +80,6 @@ La partie supérieure de l'illustration suivante montre à quoi ressemble l'inte
 Par défaut, l'interface d'exécution de l'atelier de production se déconnecte automatiquement si personne ne l'utilise pendant 12 heures. Un utilisateur de Supply Chain Management doit ensuite se reconnecter. Cependant, vous pouvez prolonger le délai d'expiration jusqu'à 90 jours.
 
 Pour prolonger le délai d'expiration, connectez-vous à Supply Chain Management et accédez à **Administration système \> Utilisateurs \> Extensions de session**. Spécifiez le compte d'utilisateur de Supply Chain Management utilisé pour se connecter à l'appareil et le nombre d'heures pendant lesquelles la session doit rester active.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

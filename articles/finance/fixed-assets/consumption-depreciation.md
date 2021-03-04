@@ -68,3 +68,6 @@ La proposition d’amortissement du 31 janvier est la suivante : Quantité estim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

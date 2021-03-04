@@ -357,3 +357,6 @@ Il existe une option pour configurer séparément le planificateur. Cliquez sur 
 
 Pour activer la fonctionnalité spécifique à la France, vous devez configurer les extensions des composants de canal. Pour plus d’informations, voir les [instructions de déploiement](./emea-fra-deployment.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

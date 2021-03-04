@@ -36,3 +36,6 @@ Un avoir répertorie les produits, les quantités, et les prix conclus pour des 
 
 -   Au lieu d’afficher « facture », l’avoir indique « avoir » comme nom du document.
 -   L’avoir inclut les champs **N° de la facture principale** et **Motif de la correction**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

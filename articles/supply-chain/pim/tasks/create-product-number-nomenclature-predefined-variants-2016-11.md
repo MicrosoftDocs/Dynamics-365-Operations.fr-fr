@@ -58,3 +58,6 @@ Cette rubrique explique comment paramétrer une nomenclature de numéros de prod
 5. Entrez ou sélectionnez une valeur dans le champ **Nomenclature de numéros de variante de produit**.
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

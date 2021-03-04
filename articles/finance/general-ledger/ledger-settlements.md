@@ -75,3 +75,6 @@ Vous pouvez contrepasser un règlement effectué par erreur.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Mettre à jour la liste des comptes inclus dans la liste des transactions
 
 Sélectionnez **Comptes de règlement comptable** pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier les comptes inclus dans la liste des transactions. Sélectionnez **Nouveau** pour ajouter de nouveaux comptes à la liste. Cette liste est utilisée pour filtrer la liste des transactions qui apparaît sur la page **Règlements comptables**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Il s’agit de la deuxième des cinq procédures illustrant le processus de paie
 4. Dans le champ Compte en banque, saisissez ou sélectionnez une valeur.
 5. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

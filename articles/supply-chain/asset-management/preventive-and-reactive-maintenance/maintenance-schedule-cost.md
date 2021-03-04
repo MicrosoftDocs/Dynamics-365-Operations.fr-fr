@@ -54,3 +54,6 @@ L'illustration ci-dessous affiche les résultats d'un calcul de coût du program
 
 ![Figure 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Pour utiliser l’un des réviseurs de dépenses que vous paramétrez dans un wo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

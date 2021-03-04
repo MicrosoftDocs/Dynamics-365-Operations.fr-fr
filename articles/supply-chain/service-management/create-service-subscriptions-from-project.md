@@ -55,3 +55,6 @@ Vous pouvez désormais créer des transactions d'abonnement pour l'abonnement.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

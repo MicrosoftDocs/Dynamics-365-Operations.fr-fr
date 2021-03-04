@@ -61,3 +61,6 @@ Cela est utile si vous souhaitez obtenir une vue d'ensemble de la charge de la c
 >[!NOTE]
 >Si vous voulez vous concentrer uniquement sur la planification de la capacité associée aux ordres de travail planifiés,voir [Calculer la charge de la capacité sur les ordres de travail planifiés](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

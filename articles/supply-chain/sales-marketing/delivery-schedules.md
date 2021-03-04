@@ -57,3 +57,6 @@ Lorsque vous confirmez des devis de vente, les commandes client générées affi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 - Recherchez toutes les mises à jour réglementaires prévues et publiées sur [Lifecycle Services - Recherche d’incidents](https://lcs.dynamics.com/Logon/Index) (connexion obligatoire).
 - Pour obtenir la liste des localisations prises en charge, voir [Guide international de disponibilité](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

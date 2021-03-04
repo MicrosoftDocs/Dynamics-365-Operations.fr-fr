@@ -45,3 +45,6 @@ Une fois que le recruteur a créé un projet d'embauche collective et généré 
 8. Dans la liste, désactiver la ligne sélectionnée.
     * Sélectionnez le poste de projet suivant et continuez à entrer les informations pour chaque personne que vous engagez.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

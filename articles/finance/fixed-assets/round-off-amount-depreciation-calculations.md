@@ -50,3 +50,6 @@ Un amortissement sans arrondi est calculé comme égal à 2 444,44. Selon la man
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Dans Finance and Operations version 10.0.5, le stockage de sauvegarde de la fonc
 [Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
 
 [Configurer la structure de gestion des états électroniques](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

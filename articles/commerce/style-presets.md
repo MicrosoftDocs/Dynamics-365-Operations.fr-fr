@@ -128,3 +128,6 @@ Les valeurs de style du réglage prédéfini sont activées sur votre site web p
 [Ajouter des langues à votre site](add-languages-to-site.md)
 
 [Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

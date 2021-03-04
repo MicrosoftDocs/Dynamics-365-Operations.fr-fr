@@ -68,3 +68,6 @@ Les ordres de remplacement d'article sont généralement créés après le retou
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

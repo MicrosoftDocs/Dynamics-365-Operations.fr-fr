@@ -56,3 +56,6 @@ Vous pouviez les codes info de sorte à ce que lorsqu'un code info se déclenche
 **Exemple 2 : Lier des codes info à des groupes de codes info**
 
 Lorsque vous vendez certains produits, par exemple des appareils mobiles, vous souhaitez toujours collecter un ensemble d'informations spécifiques, tel que le numéro de téléphone, l'identificateur de l'équipement mobile (MEID), et le numéro de série. Toutefois, vous souhaitez également collecter des informations différentes pour une tablette/un téléphone portable. Vous pouvez paramétrer un groupe de codes info qui inclut des invites pour le numéro de téléphone, le MEID et le numéro de série, puis lier le groupe de codes info à un code info individuel. Lorsque le code info spécifique au produit est déclenché, le groupe de codes info peut être ensuite déclenché pour vous permettre de collecter les données communes sans devoir définir plusieurs ensembles de codes info liés pour chaque périphérique.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Vous pouvez également copier des clients à l’aide de la fonction de recherch
 
 1. L’option **Copier un client** s’affiche. Par défaut, cette option est définie sur **Non**. Pour copier le client dans l’entité juridique actuelle, définissez l’option sur **Oui**. 
 2. Cliquez sur **Sélectionner**. Le nouveau client est créé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

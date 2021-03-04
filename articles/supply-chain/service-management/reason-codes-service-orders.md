@@ -50,3 +50,6 @@ Les codes motif sont facultatifs. Vous pouvez décider s'il est nécessaire d'in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

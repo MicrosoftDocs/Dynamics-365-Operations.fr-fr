@@ -127,3 +127,6 @@ Les paramètres de cet état permettent beaucoup de flexibilité. Vous pouvez co
 L’état **Transactions de taxe sur les achats** affiche les transactions comportant des droits de douane sur les achats. Les droits de douane sur les achats sont calculés et validés avec les paiements de taxe. Les droits de douane sur les achats et les taxes sont déclarés pour la période de règlement. La période de règlement varie selon l’administration fiscale définie sur la page **Périodes de règlement de la taxe**. Les informations dans la section d’en-tête de l’état fournissent des détails tels que le numéro identifiant TVA, le numéro d’entreprise, la période. Ces informations de détail incluent le journal, le N° document, la date, le compte fournisseur, le nom, le montant taxte comprise, et les codes déclaration de taxe. Cet état est un rapport externe. Le comptable ou gestionnaire comptable le génère et la soumet périodiquement aux administrations appropriées. Pour imprimer l’état **Transactions de taxe sur les achats**, cliquez sur **Taxe** &gt; **Recherches et états** &gt; **Déclarations de taxe** &gt; **Transactions de taxe sur les achats**.
 
 ![État généré des transactions de taxe sur les achats](media/8_Purchase_sales_tax_transactions.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

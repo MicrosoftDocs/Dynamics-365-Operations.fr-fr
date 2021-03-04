@@ -64,3 +64,6 @@ Pour pouvoir effectuer cette procédure, vous devez paramétrer des ID de TVA. C
 25. Dans le champ Numéro identifiant TVA, entrez ou sélectionnez une valeur.
 26. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

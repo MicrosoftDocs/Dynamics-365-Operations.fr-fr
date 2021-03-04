@@ -64,3 +64,6 @@ Vous pouvez créer vos propres types d'attribut. En outre, vous pouvez transfér
 9. Enregistrez l'enregistrement.
 
     Le champ **Types de poste technique** affiche le nombre de postes techniques qui utilisent le type d'attribut. Le champ **Types d'actif** affiche le nombre de types d'actif qui l'utilisent.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

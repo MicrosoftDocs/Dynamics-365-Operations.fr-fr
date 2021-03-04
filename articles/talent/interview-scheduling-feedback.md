@@ -102,3 +102,6 @@ Si vous sélectionnez le champ **Hériter les participants aux commentaires de l
 L'activité d'entretien est une activité facultative avec trois composants : **Demande de disponibilité du candidat**, **Planification** et **Commentaires**. Utilisez l'activité d'entretien dans le modèle de poste si vous souhaitez inclure l'ensemble demande de disponibilité du candidat - programme - commentaires dans le cadre du processus plutôt que de les utiliser de manière individuelle.
 
 Pour inclure ou limiter les candidats à interviewer, sélectionnez une valeur dans le champ **Qui passe l'entretien**. Les options disponibles sont **Tous les candidats**, **Candidats externes** et **Candidats internes**. Par exemple, si vous souhaitez ignorer les candidats internes au premier tour d'entretien, définissez **Qui passe l'entretien** sur **Candidats externes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

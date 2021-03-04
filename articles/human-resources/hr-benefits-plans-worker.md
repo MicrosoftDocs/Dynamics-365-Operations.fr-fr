@@ -49,3 +49,6 @@ Vous pouvez créer des plans d'avantages pour les collaborateurs dans Microsoft 
    | Plans | L'onglet rapide Plans contient les plans qui répondent aux critères de filtre que vous avez spécifiés. Les options de configuration pertinentes définies par le personnel RH et les sélections d'inscription choisies par les employés sont incluses sur chaque ligne. Le champ Qualifié indique s'il existe un conflit de validation avec la sélection de plan. |
 
 4. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Le tableau suivant affiche les dimensions clés utilisées comme filtres pour di
 | Entités                  | ID et nom                                                   |
 | Ressources                 | ID de ressource, nom de la ressource, type de ressource et groupe de ressources |
 | Produits                  | Numéro de produit, nom du produit, ID d’article et groupe d’articles         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

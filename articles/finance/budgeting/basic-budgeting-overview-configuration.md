@@ -88,3 +88,6 @@ Une société qui utilise la fonctionnalité de planification budgétaire peut c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

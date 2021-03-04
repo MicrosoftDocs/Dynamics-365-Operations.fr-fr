@@ -38,3 +38,6 @@ L’enregistrement fournisseur utilise les valeurs du compte fournisseur occasio
 5. Cliquez sur Créer.
     * La page Facture fournisseur s’ouvre, affichant les informations relatives au fournisseur.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

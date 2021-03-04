@@ -90,3 +90,6 @@ La méthode d’amortissement dégressif de 200 % divise 200 % par le nombre d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

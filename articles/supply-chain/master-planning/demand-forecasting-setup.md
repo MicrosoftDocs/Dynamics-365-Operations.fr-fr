@@ -102,3 +102,6 @@ Dans l'onglet **Clés de répartition**, vous pouvez définir **Paramètres d'al
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Cette procédure explique comment modifier une configuration du format ER en ré
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Utiliser la version brouillon modifiée du format ER pour le traitement du journal des paiements
 
 Examinez la feuille de calcul créée, notamment les nouveaux détails des lignes de paiement – date de paiement.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Cette procédure montre comment créer un modèle de configuration de produit et
 17. Dans le champ Quantité de base, entrez un nombre.
 18. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

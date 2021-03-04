@@ -53,3 +53,6 @@ Lorsque les utilisateurs lancent un devis dans Sales, la structure à double éc
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Prospect en disponibilités en double écriture](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

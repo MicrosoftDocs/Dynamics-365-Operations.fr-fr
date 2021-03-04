@@ -91,3 +91,6 @@ Lorsque vous générez un rapport de nomenclature, vous pouvez inclure le pays d
 Un rapport contenant des informations sur le pays d’origine de chaque pièce est généré et affiché. Voici un exemple de rapport.
 
 ![Rapport de pays d’origine](media/country-of-origin-report.png "Rapport de pays d’origine")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

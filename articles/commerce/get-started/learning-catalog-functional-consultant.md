@@ -55,3 +55,6 @@ Pour un apprentissage des fonctionnalités partagées avec d’autres applicatio
 | Contenu  | Description | Format  | Longueur    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Configurer et utiliser le commerce électronique dans Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Les canaux en ligne et le site de commerce électronique de Dynamics 365 Commerce permettent aux détaillants de créer une présence en ligne de leur marque. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4 heures   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

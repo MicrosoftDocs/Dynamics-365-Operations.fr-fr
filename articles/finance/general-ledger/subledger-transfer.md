@@ -42,3 +42,6 @@ Les options suivantes sont disponibles pour le transfert par lots de la comptabi
 Dans la version 10.0.8, des améliorations ont été apportées pour améliorer les performances de l’option Asynchrone. Cette fonctionnalité est activée sous le nom **Optimisation des performances du transfert de la comptabilité auxiliaire vers la comptabilité**. 
  
 Cette fonctionnalité améliore le transfert de données de la comptabilité auxiliaire vers la comptabilité. Elle rend le processus plus efficace et regroupe des ensembles de transactions plus petites à transférer. Elle offre une utilisation plus efficace du serveur de traitement par lots. Pour que l’option de transfert Asynchrone fonctionne avec cette fonctionnalité, le serveur de traitement par lots doit être configuré, en ligne et fonctionnel. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

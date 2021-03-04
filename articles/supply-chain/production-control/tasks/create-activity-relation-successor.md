@@ -66,3 +66,6 @@ Conditions préalables :
 12. Fermez la page.
 13. Actualisez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

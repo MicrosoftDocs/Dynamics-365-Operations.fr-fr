@@ -164,3 +164,6 @@ Certaines formules ne peuvent pas être testées au moment de la conception. Par
 
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Langage de formule dans la gestion des états électroniques](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

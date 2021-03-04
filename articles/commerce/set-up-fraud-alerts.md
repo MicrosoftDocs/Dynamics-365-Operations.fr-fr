@@ -69,3 +69,6 @@ La commande est enregistrée, mais l'indicateur **Ne pas traiter** est défini. 
 Pour afficher et gérer les commandes mises en attente pour révision, accédez à **Retail et Commerce** \> **Clients** \> **Blocage de commandes**. Dans la page **Blocage de commandes**, sélectionnez une entrée dans la liste, puis cliquez sur **Blocage de commande** pour afficher une vue plus détaillée contenant des informations sur le motif du blocage. Dans l'organisateur **Détails de la fraude**, vous pouvez afficher les critères de fraude systématiques considérés comme une correspondance pour la commande et les scores appliqués. Si la commande est mise en attente manuelle, vous pouvez examiner les commentaires saisis par l'utilisateur qui a mis la commande en attente en consultant la section **Notes relatives à la fraude** dans l'organisateur **Notes**.
 
 Pour plus d'informations sur l'utilisation des commandes en attente, voir [Blocage de commandes](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

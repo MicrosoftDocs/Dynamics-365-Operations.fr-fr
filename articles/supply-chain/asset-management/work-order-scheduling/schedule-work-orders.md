@@ -138,3 +138,6 @@ Pour afficher et utiliser le diagramme de Gantt :
     - Pour replanifier un ordre de travail affiché, sélectionnez-le, puis faites-le glisser vers les nouvelles date et heure appropriées.
 
 1. Si vous avez apporté des modifications, cliquez sur **Enregistrer** dans le volet Actions pour les enregistrer.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

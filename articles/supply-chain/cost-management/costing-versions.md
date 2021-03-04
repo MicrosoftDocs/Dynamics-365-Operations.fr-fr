@@ -68,3 +68,6 @@ Les enregistrements de prix d'achat des articles servent également d'informatio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Cette procédure se concentre sur le paramétrage du code disposition qui peut �
 6. Dans le champ Disposition des retours, tapez une valeur.
     * Le code disposition de retour détermine le reste du processus d'ordre de retour pour les articles enregistrés. Dans cet exemple, le client doit recevoir un avoir. Ajoutez un code disposition de retours qui contient un crédit d'action.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

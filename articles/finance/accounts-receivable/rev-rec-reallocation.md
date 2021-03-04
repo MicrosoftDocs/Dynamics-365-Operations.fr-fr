@@ -114,3 +114,6 @@ Les rubriques suivantes traitent de différents scénarios de prise en compte de
 - [Réaffectation de la prise en compte de revenu - Scénario 2](rev-rec-reallocation-scenario-2.md) : Deux commandes client sont saisies, puis le client ajoute un article au contrat après la facturation de la première commande client.
 - [Réaffectation de la prise en compte de revenu - Scénario 3](rev-rec-reallocation-scenario-3.md) : Une nouvelle ligne est ajoutée à une commande client existante, facturée.
 - [Réaffectation de la prise en compte de revenu - Scénario 4](rev-rec-reallocation-scenario-4.md) : Une nouvelle ligne est supprimée d’une commande client existante partiellement facturée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

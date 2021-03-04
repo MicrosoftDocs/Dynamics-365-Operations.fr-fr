@@ -81,3 +81,6 @@ Par conséquent, la date d'expédition est définie sur 10 jours à compter d'a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Pour plus d’informations sur les éléments de menu des appareils mobiles, voi
 Pour plus d’informations sur le scénario de production *Déclarer comme terminé*, voir la [Vue d’ensemble des stratégies de travail d’entrepôt](warehouse-work-policies.md).
 
 Pour plus d’informations sur la gestion des chargements entrants, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

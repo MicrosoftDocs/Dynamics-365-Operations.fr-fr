@@ -81,3 +81,6 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 25. Cliquez sur OK.
     * Analysez le fichier de paiement créé au format XML. Comparez-le à la structure de document conçue et aux attributs de transaction de paiement définis.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

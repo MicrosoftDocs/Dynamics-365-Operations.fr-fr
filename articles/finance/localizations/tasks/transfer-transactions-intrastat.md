@@ -153,3 +153,6 @@ Cette procédure vous guide dans le paramétrage des paramètres de déclaration
     
 Examinez les données transférées, notamment pays\la région de destination/d’expédition, pays d’origine, poids, quantité, quantité en unités supplémentaires, marchandise, code de transaction, montants facturés et montants statistiques. Vous pouvez modifier les données, le cas échéant.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

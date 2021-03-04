@@ -117,3 +117,6 @@ Le tableau suivant indique les visualisations qui sont disponibles sur chaque pa
 | Factures dont l’importation a échoué | <ul><li>Factures dont l’importation a échoué</li><li>Factures dont l’importation a échoué par société</li></ul> |
 | Raisons de l’échec de l’automatisation | <ul><li>Factures ayant échoué</li><li>Factures ayant échoué par entreprise</li><li>Factures ayant échoué par groupe de fournisseurs</li></ul> |
 | Statut du flux de travail                | <ul><li>Factures dans le workflow</li><li>Instances de workflow de facture fournisseur</li><li>Affectation par approbateur</li><li>Workflow de facture fournisseur par entreprise</li><li>Nombre moyen de jours dans le workflow par approbateur</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

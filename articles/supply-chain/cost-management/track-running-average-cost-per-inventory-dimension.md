@@ -56,3 +56,6 @@ Le prix de revient moyen en vigueur pour l'entrepôt EG et le lot AAA est de 11,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

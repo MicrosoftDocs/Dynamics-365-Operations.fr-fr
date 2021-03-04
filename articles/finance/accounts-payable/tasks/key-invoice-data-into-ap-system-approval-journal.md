@@ -54,3 +54,6 @@ Cette rubrique explique comment utiliser le registre des factures pour créer de
 10. Sélectionnez **Valider**.
 11. Sélectionnez **N° document** pour afficher les entrées qui ont été validées. Le compte Factures en attente d’approbation est contrepassé et remplacé par le compte de dépenses actif.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

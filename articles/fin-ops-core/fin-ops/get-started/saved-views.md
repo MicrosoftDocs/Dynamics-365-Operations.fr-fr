@@ -253,3 +253,6 @@ Pour les pages ayant de grands sélecteurs de vue (les personnalisations et les 
 
 - Si vous accédez à une page depuis une vignette, la requête de la vignette sera exécutée indépendamment de la requête associée à la vue par défaut. Si vous avez créé cette vignette après avoir activé les vues, la sélection d’une vignette ouvre la page avec la vue associée à cette vignette.
 - Si vous accédez à une page et que le point d’entrée inclut une requête, la requête initiale s’exécutera initialement à la place de la requête par défaut de la vue. Dans ce cas, vous êtes averti par un message d’information lorsque la vue se charge. Vous pouvez confirmer également en basculant vers cette vue après le chargement de la page, car cela devrait permettre à la requête de vue de s’exécuter quand même.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

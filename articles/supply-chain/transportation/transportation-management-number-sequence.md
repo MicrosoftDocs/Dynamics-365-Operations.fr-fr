@@ -49,3 +49,6 @@ Pour lier une souche de numéros à un opérateur, procédez comme suit :
 1. Sélectionnez **Modifier**.
 1. Sur le raccourci **Aperçu**, sélectionnez une option dans le champ **Souche de numéros professionnels**.
 1. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -154,3 +154,6 @@ Les dimensions clés suivantes dans le contenu sont utilisées comme filtres pou
 | dates ;                  | Dates, Contrepartie de l’année                                    |
 
 Par défaut, le contenu affiche les données pour l’année civile en cours. Toutefois, vous pouvez modifier le filtre date dans la section de filtres d’état. Vous pouvez également modifier le filtre par société.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

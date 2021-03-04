@@ -93,3 +93,6 @@ La possibilité de suivre les congés des employés et de comprendre le calcul d
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Indiquer le type d'instance lors de la mise en service de Talent
 
 Lorsque de la mise en service d'une nouvelle instance de Talent, vous pourrez indiquer si le type d'instance est **Production** ou **Bac à sable (sandbox)**, ce qui permet de tester de nouvelles fonctionnalités. Toutes les instances de Talent existantes seront mises à jour avec le type d'instance Production. Si vous souhaitez que l'une de vos instances existantes soit mise à jour avec le type d'instance Bac à sable (sandbox), contactez le Support pour initier la demande de modification.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Si **Fournisseur** est configuré comme source de données d’états électroni
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

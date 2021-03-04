@@ -108,3 +108,6 @@ Après avoir paramétré les conditions préalables nécessaires, consultez [Fou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Ce guide accompagne l’utilisateur le long de la création d’une structure de
 29. Dans le volet **Actions**, cliquez sur **Activer**.
 30. Cliquez sur **Activer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

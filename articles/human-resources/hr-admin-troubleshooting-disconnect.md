@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Human Resources déconnecte les utilisateurs lorsque deux
 Assurez-vous qu'un seul environnement est ouvert à la fois pour un type de navigateur donné. Les utilisateurs peuvent ouvrir plusieurs sessions dans le même environnement (c'est-à-dire, plusieurs onglets dans le même navigateur).
 
 Les utilisateurs qui souhaitent passer d'un environnement à l'autre en même temps doivent ouvrir chaque environnement dans un type de navigateur différent. (Par exemple, l'utilisateur A peut afficher l'environnement 1 dans Chrome et l'environnement 2 dans Microsoft Edge.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

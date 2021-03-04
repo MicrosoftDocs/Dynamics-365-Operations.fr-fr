@@ -53,3 +53,6 @@ Pour ajouter de nouveaux articles de fabrication au cours de la période bloqué
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

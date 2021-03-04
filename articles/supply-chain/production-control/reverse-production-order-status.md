@@ -53,3 +53,6 @@ Lorsque vous contrepassez le statut d'un ordre de fabrication de **Commenc√©** √
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

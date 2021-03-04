@@ -57,3 +57,6 @@ Cette procédure illustre comment configurer un collaborateur en tant que commer
 6. Dans le champ Groupe par défaut, entrez ou sélectionnez une valeur.
 7. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Les pages HTML sont dans le référentiel, à l'adresse [https://github.com/Micr
 Une description de la création de vos propres ERD est accessible à l'adresse suivante : [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm)
 
 La solution se trouve à la racine du dossier AxErd [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Les engagements doivent être clôturés manuellement.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

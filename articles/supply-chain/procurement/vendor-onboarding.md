@@ -175,3 +175,6 @@ Les différents statuts de la demande d'enregistrement d'un fournisseur potentie
 |         Approbation         |                                                                               La demande fournisseur est approuvée.                                                                               |                                                                                                   La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.                                                                                                    |
 |         Rejeté         |                                                                               La demande fournisseur est rejetée.                                                                               |                                                                                                   La demande d'enregistrement du fournisseur potentiel, les données saisies dans l'assistant d'enregistrement du fournisseur et la demande fournisseur sont supprimées.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

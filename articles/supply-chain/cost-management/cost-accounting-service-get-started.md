@@ -111,3 +111,6 @@ Mettre en place l'intégration entre le service de contrôle de gestion et Dynam
 ## <a name="related-resources"></a>Ressources associées
 
 [Page d'accueil du service Contrôle de gestion](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

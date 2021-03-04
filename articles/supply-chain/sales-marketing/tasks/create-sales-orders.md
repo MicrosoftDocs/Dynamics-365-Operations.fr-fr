@@ -68,3 +68,6 @@ Les produits vendus par votre organisation peuvent se présenter sous différent
     La page **Totaux** affiche des détails sur la commande entière. Cela inclut le montant du sous-total (la somme des montants nets de toutes les lignes ajustée pour les éventuelles remises de ligne), le montant total de la facture (le montant du sous-total ajusté pour la remise de niveau commande), les frais et les taxes, la situation de limite de crédit du client, etc. Le montant de la facture correspond au montant qui s'affiche sur la facture du client.  
     
 3. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ En fonction des stratégies de l'entreprise, les articles de l'expédition de re
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

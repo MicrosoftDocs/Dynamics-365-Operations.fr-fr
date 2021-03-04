@@ -243,3 +243,6 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 - [Configurer le format pour effectuer le comptage et la synthèse](./tasks/er-format-counting-summing-1.md)
 - [Suivez l’exécution du format d’ER pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 - [Différer l’exécution des éléments de séquence aux formats ER](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

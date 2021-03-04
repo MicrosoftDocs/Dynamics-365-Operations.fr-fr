@@ -51,3 +51,6 @@ Vous pouvez identifier les factures d’annulation et les factures corrigées de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

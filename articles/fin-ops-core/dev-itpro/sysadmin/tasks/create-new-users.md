@@ -55,3 +55,6 @@ Les utilisateurs externes au client dans lequel l’environnement a été déplo
 4. Sélectionnez **Importer les utilisateurs**.
 5. Sélectionnez **Fermer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

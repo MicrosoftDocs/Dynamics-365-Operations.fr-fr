@@ -82,3 +82,6 @@ Pour rappeler rapidement et facilement une transaction suspendue, lisez le code-
 ### <a name="void-a-suspended-transaction"></a>Annuler une transaction suspendue
 
 Vous pouvez annuler des transactions suspendues en rappelant la transaction puis en effectuant l'opération **Annuler la transaction**, ou en sélectionnant la transaction dans la liste **Rappeler la transaction** et en sélectionnant **Annuler** sur la barre d'application. Sinon, le magasin peut être configuré pour inviter les utilisateurs à annuler les transactions suspendues lorsqu'ils clôturent leur équipe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

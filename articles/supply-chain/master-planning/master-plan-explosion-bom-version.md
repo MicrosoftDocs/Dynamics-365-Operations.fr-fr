@@ -48,3 +48,6 @@ L'illustration suivante présente le processus d'éclatement de la demande de pl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

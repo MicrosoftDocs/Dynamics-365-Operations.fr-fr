@@ -60,3 +60,6 @@ Cette procédure vous accompagne au long du processus de création et de validat
 5. Permet de fermer l'écran.
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

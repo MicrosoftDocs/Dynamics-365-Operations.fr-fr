@@ -47,3 +47,6 @@ Chaque occurrence peut être modifiée sans avoir d’incidence sur les autres o
 ## <a name="developer-documentation"></a>Documentation du développeur
 
 Le cadre d’automatisation des processus permet aux développeurs d’étendre le cadre d’automatisation des processus. La documentation sur le [Cadre d’automatisation des processus](../process-automation/process-automation-framework.md) fournira des informations sur la façon dont vous pouvez créer des processus personnalisés qui doivent être exécutés par le serveur de traitement par lots planifié avec l’assistant d’automatisation des processus et qui apparaissent automatiquement dans la vue calendrier.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

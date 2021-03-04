@@ -60,3 +60,6 @@ Notez la propriété **UserType** de l'utilisateur. Si **UserType** est vide, pa
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

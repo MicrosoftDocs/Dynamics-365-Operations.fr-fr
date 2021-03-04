@@ -79,3 +79,6 @@ Plusieurs statistiques de gestion du crédit sont incluses dans le récapitulati
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Paramètres de séquence de nombres partagés et séquences de nombres
 
 Un ID de journal est nécessaire pour traiter les ajustements de limite de crédit. Vous devez ajouter le numéro d’ajustement de limite de crédit qui doit être utilisé pour générer l’ID de journal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

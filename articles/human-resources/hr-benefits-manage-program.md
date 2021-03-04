@@ -64,3 +64,6 @@ Parfois, une organisation cesse d'offrir certains avantages. Dans ce cas, vous d
 De même, l'extension de l'avantage collectif vous permet de prolonger la date d'expiration d'un avantage ainsi que l'inscription des collaborateurs à cet avantage si vous décidez d'offrir un avantage plus longtemps que prévu.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

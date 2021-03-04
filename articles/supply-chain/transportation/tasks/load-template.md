@@ -54,3 +54,6 @@ Cette rubrique décrit comment paramétrer des modèles de charge et comment ass
 1. Dans le volet Actions, sous l'onglet **Approvisionnement et demande**, dans le groupe **Ajouter**, sélectionnez **Dans un nouveau chargement**.
 1. Dans la boîte de dialogue **Modèle de chargement**, dans le champ **ID modèle de chargement**, sélectionnez le modèle à appliquer.
 1. Sélectionnez **OK** pour appliquer le modèle.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

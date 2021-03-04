@@ -78,3 +78,6 @@ Pour sélectionner une disposition différente pour la page existante, procédez
 
 [Vérifier l'accessibilité du contenu de la page](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

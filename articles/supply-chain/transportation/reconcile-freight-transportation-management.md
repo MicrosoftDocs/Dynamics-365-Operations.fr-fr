@@ -47,3 +47,6 @@ Pour utiliser le rapprochement automatique, vous devez spécifier la planificati
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

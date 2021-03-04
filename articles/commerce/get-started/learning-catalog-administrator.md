@@ -48,3 +48,6 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | Contenu  | Description  | Format  | Longueur    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Configurer et utiliser le commerce électronique dans Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/)              | Les canaux en ligne et le site de commerce électronique de Dynamics 365 Commerce permettent aux détaillants de créer une présence en ligne de leur marque. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

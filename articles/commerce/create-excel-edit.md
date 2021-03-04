@@ -78,3 +78,6 @@ Pour créer et configurer un classeur Excel afin de pouvoir modifier les transac
 [Modifier les dimensions financières des transactions de vente au détail](edit-financial-dim.md)
 
 [Ajouter des champs à un classeur Excel pour modifier les transactions de vente au détail](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

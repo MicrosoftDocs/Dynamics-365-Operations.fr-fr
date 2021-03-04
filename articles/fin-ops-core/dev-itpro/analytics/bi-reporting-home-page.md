@@ -89,3 +89,6 @@ Les états suivants fournissent des informations de référence sur les objets 
 - [État des codes licence et des clés de configuration](../sysadmin/license-codes-configuration-keys-report.md)
 - [États SQL Server Reporting Services (SSRS) disponibles](SSRS-report.md)
 - [État sur les types de workflow](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

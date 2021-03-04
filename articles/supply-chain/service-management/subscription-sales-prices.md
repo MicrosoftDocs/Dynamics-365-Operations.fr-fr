@@ -380,3 +380,6 @@ Pour la première transaction d'abonnement 00020\_135, le prix de vente de 550 E
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

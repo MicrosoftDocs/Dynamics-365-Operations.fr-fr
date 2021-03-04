@@ -90,3 +90,6 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

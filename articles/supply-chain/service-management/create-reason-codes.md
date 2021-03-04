@@ -41,3 +41,6 @@ Lorsque vous êtes invité à indiquer un code motif pour expliquer la mise à j
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

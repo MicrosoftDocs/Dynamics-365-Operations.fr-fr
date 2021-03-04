@@ -62,3 +62,6 @@ La société fictive USMF sert d’exemple dans cette procédure. Les différent
 9. Cliquez sur **Revoir** dans le volet Actions.
 10. Cliquez sur **Mise en correspondance des détails**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

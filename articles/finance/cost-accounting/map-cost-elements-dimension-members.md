@@ -53,3 +53,6 @@ Vous pouvez mettre à jour les définitions de mappage pour une dimension d’ar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -173,3 +173,6 @@ Pour configurer un module de conteneur sur une page, procédez comme suit.
 
 [Utilisation de groupes de publication](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

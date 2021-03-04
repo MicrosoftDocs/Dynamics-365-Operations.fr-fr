@@ -147,3 +147,6 @@ Les états supplémentaires disponibles sont notamment l’état **Postes de pr�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

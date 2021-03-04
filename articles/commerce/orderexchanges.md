@@ -50,3 +50,6 @@ Pour fournir une meilleure visibilité sur les différents montants du chariot, 
 - **Dépôt appliqué** : Montant du dépôt qui est appliqué sur une transaction lorsque l’utilisateur effectue un prélèvement de commande client. S’il n’y a aucun remplacement de dépôt et qu’un dépôt de 10 % est configuré, le montant de ce champ correspond à 90 % du montant total de la commande client.
 - **Exécuter le montant** : Montant total des lignes dans lesquelles le mode de livraison a été défini sur **Exécuter** lorsque la commande client a été créée ou modifiée, ou lors d’un échange de commande client. Le montant de ce champ inclut des taxes et des frais.
 - **Montant du retour** : Montant total des lignes ayant des quantités négatives lors de l’échange de la commande client. Le montant de ce champ inclut des taxes et des frais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

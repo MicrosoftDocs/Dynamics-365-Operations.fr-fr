@@ -152,3 +152,6 @@ Si une variante de produit a déjà été lancée dans une entreprise A et que 
 Le bouton **Nouveau** sur la page **Variantes de produits lancées** crée la variante et la libère dans le contexte de l'entreprise. Si la variante a déjà été créée, vous ne pouvez pas utiliser le bouton **Nouveau** pour le libérer dans une autre entreprise.
 
 Pour résoudre le problème, ouvrez la page **Produit générique** et sélectionnez **Publier le produit** pour libérer la variante existante dans l'entreprise souhaitée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

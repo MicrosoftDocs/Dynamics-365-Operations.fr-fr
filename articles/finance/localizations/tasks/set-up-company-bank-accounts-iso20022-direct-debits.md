@@ -60,3 +60,6 @@ Il s’agit de la deuxième des cinq procédures illustrant le processus de paie
     * Par exemple, sélectionnez le compte bancaire « DEMF OPER ».  
 6. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

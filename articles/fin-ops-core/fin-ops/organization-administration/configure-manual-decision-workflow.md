@@ -350,3 +350,6 @@ Si la décision doit être prise dans un certain délai, procédez comme suit.
     - **Années** – Permet de sélectionner le jour, la semaine et le mois limites pour prendre la décision. Par exemple, vous pouvez décider que la décision soit prise d’ici le vendredi de la troisième semaine de décembre.
 
 4. Si le délai est dépassé, le système prend la décision. Dans la liste **Action**, sélectionnez l’option que le système doit sélectionner.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Cette procédure décrit la création d'un ajustement du prix de commerce. Un aj
 14. Fermez la page.
 15. Actualisez la page.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

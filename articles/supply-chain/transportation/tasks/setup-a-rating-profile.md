@@ -61,3 +61,6 @@ Sur la page **Profils de classement**, vous pouvez consulter tous les profils de
 
 > [!NOTE]
 > Les profils créés sur la page **Transporteurs** sont également affichés sur la page **profils de classement**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

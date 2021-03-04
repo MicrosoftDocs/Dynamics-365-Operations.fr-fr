@@ -41,3 +41,6 @@ En cas de conflit avec le plan de comptes, le délimiteur de plan de comptes et 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Procédure pour déterminer si votre environnement nécessite des délimiteurs mis à jour 
 Si les délimiteurs de votre environnement mis à niveau sont en conflit, vous pouvez rencontrer de l’instabilité en entrant des valeurs dans un contrôle d’accès segmenté et un contrôle d’entrée de dimension. Cela signifie que vous devez toujours utiliser les recherches ou un menu volant pour la saisie des combinaisons de compte et de dimensions.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

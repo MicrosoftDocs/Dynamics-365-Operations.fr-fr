@@ -83,3 +83,6 @@ Pour configurer une redirection de la page de réponse d'erreur du code statut, 
 [Ajouter une nouvelle page de site](add-new-page.md)
 
 [Créer une URL de page](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

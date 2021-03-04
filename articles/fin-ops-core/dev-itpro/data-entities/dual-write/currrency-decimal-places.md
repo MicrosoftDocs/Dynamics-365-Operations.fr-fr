@@ -95,3 +95,6 @@ Si vous souhaitez que la précision de la devise pour une devise spécifique dif
 ### <a name="tables-currency-field"></a>tables : champ Devise
 
 Le nombre de décimales pouvant être configuré pour des champs de devise spécifiques est limité à quatre.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

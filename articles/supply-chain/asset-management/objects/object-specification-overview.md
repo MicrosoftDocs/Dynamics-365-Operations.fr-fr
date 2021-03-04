@@ -40,3 +40,6 @@ La page **Vue d'ensemble des attributs d'actif** affiche une ligne distincte pou
 3. Cliquez sur **OK**. Une liste affiche tous les actifs qui utilisent le type d'actif sélectionné. Pour chaque actif, tous les types d'attribut d'actif associés s'affichent sur la même ligne.
 
 La page **Attribut d'actif** affiche une ligne distincte pour chaque type d'attribut utilisé sur un actif. Pour ouvrir cette page, sélectionnez **Gestion des actifs** \> **Recherches** \> **Actifs** \> **Attribut d'actif**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

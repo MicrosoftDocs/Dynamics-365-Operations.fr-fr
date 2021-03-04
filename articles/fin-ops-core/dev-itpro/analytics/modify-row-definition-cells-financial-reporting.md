@@ -529,3 +529,6 @@ Un ensemble de valeurs de dimension est un groupe de valeurs de dimension auquel
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

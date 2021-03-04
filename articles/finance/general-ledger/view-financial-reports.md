@@ -87,3 +87,6 @@ Pour exporter un état financier, dans le Volet Action, cliquez sur **Exporter**
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

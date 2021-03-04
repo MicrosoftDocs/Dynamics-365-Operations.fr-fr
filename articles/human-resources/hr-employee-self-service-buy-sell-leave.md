@@ -53,3 +53,6 @@ Vos soldes seront automatiquement mis à jour ou passer par un processus d’app
 
 [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
 [Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ La page **Écritures de coût** active le filtrage par ID et date de document.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

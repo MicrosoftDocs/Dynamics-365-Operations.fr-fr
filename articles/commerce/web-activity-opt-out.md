@@ -56,3 +56,6 @@ Les administrateurs peuvent laisser les utilisateurs authentifiés désactiver e
 ### <a name="custom-extensions"></a>Extensions personnalisées
 
 Les administrateurs peuvent créer leurs propres extensions pour gérer l'expérience de désinscription pour les utilisateurs. Pour plus d'informations, voir [Appeler les API Retail Server](e-commerce-extensibility/call-retail-server-apis.md) et [Extensibilité des canaux en ligne](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

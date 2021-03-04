@@ -54,3 +54,6 @@ Un traitement par lots est un groupe de tâches soumis à une instance Serveur d
     - **Retenir** : Définissez le traitement par lots comme **retenu** de sorte qu’il soit différé dans le planificateur de traitement par lots. Équivalent à *arrêter*.
     - **En attente** : Définissez le traitement par lots comme **en attente** pour qu’il attende d’être prélevé par le planificateur de traitement par lots. Équivalent à *lancer*.
 5. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

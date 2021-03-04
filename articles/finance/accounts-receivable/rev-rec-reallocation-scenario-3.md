@@ -81,3 +81,6 @@ La commande client est à nouveau facturée pour l’article qui a été ajouté
 [![Page Justificatif de transaction avec l’écriture comptable validée](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Étant donné que la somme du produit et des ventes est supérieure à 319,50 $, une différence de 14,48 $ est imputée. Ce montant efface le solde du compte de compensation des revenus de la facture partielle. Ce solde a été mis à jour dans la nouvelle écriture comptable qui a été comptabilisée après la réaffectation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

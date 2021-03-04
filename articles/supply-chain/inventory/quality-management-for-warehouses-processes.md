@@ -622,3 +622,6 @@ Vous avez configuré les données de travail et d’emplacement pour l’entrep�
 
 > [!NOTE]
 > Envisagez d’ajouter l’entrée de sortie de qualité à un élément de menu de l’appareil mobile où le code d’activité est *Afficher la liste de travail ouverte*. Pour obtenir un exemple, voir l’élément de menu d’appareil mobile nommé **Liste de travail** dans les données de démonstration. Ajoutez d’abord la classe de travail *Ordre de qualité* à un élément de menu dirigé par l’utilisateur, car cette classe de travail est nécessaire pour que le travail soit affiché dans la liste de travail. Ajoutez ensuite la classe de travail *Ordre de qualité* à l’élément du menu **Liste de travail**. Les utilisateurs qui ont accès à la liste des travaux pourront ensuite sélectionner et traiter le travail généré automatiquement par la validation de l’ordre de qualité.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

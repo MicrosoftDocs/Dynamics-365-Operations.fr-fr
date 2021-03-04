@@ -69,3 +69,6 @@ Les données fictives utilisées pour créer cet enregistrement correspondent à
 10. Cliquez sur Enregistrer.
 11. Permet de fermer l'écran.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

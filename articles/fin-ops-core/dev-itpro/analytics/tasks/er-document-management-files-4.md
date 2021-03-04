@@ -69,3 +69,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 11. Cliquez sur OK.
     * Examinez la sortie générée. Notez que pour chaque pièce jointe, un nœud XML simple a été créé. Le contenu de la pièce jointe est rempli avec la sortie XML au format MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

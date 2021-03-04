@@ -67,3 +67,6 @@ Pour éviter les écritures comptables supplémentaires, le débit et le crédit
 
 -   Les organisations utilisent souvent des dimensions fixes pour renseigner avec des zéros une dimension financière qui n’est pas requise. Cela est généralement le cas pour les comptes de bilan, tels que la comptabilité client/comptabilité fournisseur. Les structures de compte peuvent être utilisées pour ne pas suivre les dimensions financières qui sont généralement renseignées avec des zéros.  Vous pouvez supprimer la dimension financière pour les comptes de bilan, ce qui évite d’utiliser des dimensions fixes.
 -   Si votre organisation nécessite des dimensions fixes sur le compte principal de la comptabilité client/comptabilité fournisseur, trouvez un moyen de définir par défaut la dimension fixe sur le paiement, afin que la valeur de la dimension fixe soit enregistrée dans la transaction fournisseur pour le paiement. Cela permet au système de reconstruire le compte principal de la comptabilité client/comptabilité fournisseur pour inclure les valeurs de la dimension fixe. La valeur de la dimension fixe peut être définie comme valeur par défaut sur les fournisseurs ou le nom de journal pour le journal des paiements.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

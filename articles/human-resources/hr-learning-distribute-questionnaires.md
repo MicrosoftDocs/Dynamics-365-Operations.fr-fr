@@ -131,3 +131,6 @@ Une fois le questionnaire conçu et distribué, il peut être rempli par les per
 Les questionnaires peuvent être accessibles à des utilisateurs ou groupes d'utilisateurs spécifiques, ou à tous les utilisateurs d'un réseau.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

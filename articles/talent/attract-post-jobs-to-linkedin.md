@@ -80,3 +80,6 @@ Si vous avez des problèmes pour publier une offre d'emploi sur LinkedIn, voir [
 [Identifier des candidats avec LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Résoudre les problèmes d'intégration avec LinkedIn](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

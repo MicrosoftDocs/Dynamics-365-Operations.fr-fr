@@ -45,3 +45,6 @@ Avec cette modification, la valeur par défaut pour le champ **Action demandée 
 ### <a name="ideas-portal-updated"></a>Portail des idées mis à jour
 Dans l'application, les liens pour soumettre une idée pour Talent ont été mis à jour avec le nouveau portail Ideas. Toutes les idées saisies dans l'ancien portail ont été migrées, de telle sorte que toutes vos idées de génie soient encore là et disponibles pour être validées par d'autres.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

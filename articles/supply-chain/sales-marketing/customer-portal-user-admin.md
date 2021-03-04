@@ -96,3 +96,6 @@ Le tableau suivant montre quelles commandes client les utilisateurs de chaque r�
 
 > [!NOTE]
 > Même si Sam et Jane sont des contacts qui travaillent pour le client X, ils ne peuvent voir que les commandes qu’ils ont eux-mêmes passées et rien d’autre. Bien que May ait une commande dans le système, elle ne peut pas voir cette commande dans le portail client, car elle est un utilisateur non autorisé. (De plus, elle doit avoir passé la commande par un autre canal que le portail client.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

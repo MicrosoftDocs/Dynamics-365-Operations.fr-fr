@@ -430,3 +430,6 @@ Voici l’exemple d’une règle de répartition des coûts si la base de répar
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × Montant  |
 |    CC003    |     TS      | 13,250.00 | (13,250.00 ÷ 18,162.50) × Montant |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

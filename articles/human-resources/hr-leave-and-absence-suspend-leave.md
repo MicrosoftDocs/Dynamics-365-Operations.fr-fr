@@ -49,3 +49,6 @@ Si les régularisations sont traitées alors que le congé de l’employé est s
 - [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)
 - [Provisionner les plans de congé et d’absence](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

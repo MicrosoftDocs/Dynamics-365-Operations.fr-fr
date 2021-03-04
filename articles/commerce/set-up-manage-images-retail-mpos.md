@@ -209,3 +209,6 @@ Les images de catalogue, de catégorie, d'employé, et de client qui doivent êt
 5. Suivez un processus similaire pour d'autres entités, telles que Catégorie, Employé, et Client.
 
     [![Image en mode hors connexion](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

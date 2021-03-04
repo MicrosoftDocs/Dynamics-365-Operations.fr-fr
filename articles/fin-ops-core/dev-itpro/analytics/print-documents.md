@@ -74,3 +74,6 @@ Les diagramme suivant présente les composants de base permettant la prise en ch
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Notez qu’une seule imprimante peut être enregistrée avec plusieurs agents d’acheminement de document. Pour résoudre les préférences d’imprimante, le service hébergé utilise le chemin réseau identifiant de manière unique chaque imprimante réseau. Par conséquent, même si une imprimante est enregistrée par plusieurs clients, elle apparaît comme sélection unique dans la liste des imprimantes disponibles dans les applications.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

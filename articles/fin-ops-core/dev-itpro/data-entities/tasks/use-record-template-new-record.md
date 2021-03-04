@@ -35,3 +35,6 @@ La société fictive USMF sert d’exemple dans cette procédure.
 3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 4. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

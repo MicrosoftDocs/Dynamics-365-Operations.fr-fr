@@ -55,3 +55,6 @@ Après avoir créé des demandes de maintenance, vous pouvez facilement les conv
 
     ![Ouvrir le nouvel ordre de travail](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

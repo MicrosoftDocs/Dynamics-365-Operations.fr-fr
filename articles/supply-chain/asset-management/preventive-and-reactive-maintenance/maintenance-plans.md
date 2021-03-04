@@ -194,3 +194,6 @@ L'illustration suivante présente un exemple d'un plan de maintenance configuré
 
 ![Figure 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

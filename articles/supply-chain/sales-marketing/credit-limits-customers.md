@@ -138,3 +138,6 @@ Parfois, vous devez vérifier manuellement la limite de crédit d'un client. Par
 1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Commandes client** \> **Toutes les commandes client**. Double-cliquez sur une commande client.
 
 2.  Dans l'écran **Commande client**, dans le volet Actions, sous l'onglet **Gérer**, cliquez sur **Vérifier la limite de crédit**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

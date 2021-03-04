@@ -52,3 +52,6 @@ Cette procédure décrit comment empêcher le stock physique disponible d'être 
 2. Cliquez sur **Oui**.
 3. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

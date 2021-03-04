@@ -70,3 +70,6 @@ Cette procédure décrit la création d'accords commerciaux sur les prix de vent
 38. Cliquez sur Vendre dans le volet **Actions**.
 39. Cliquez sur **Prix de vente**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

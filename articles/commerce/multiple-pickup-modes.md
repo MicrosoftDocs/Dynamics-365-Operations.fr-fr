@@ -86,3 +86,6 @@ Lorsque plusieurs modes de livraison en retrait sont disponibles pour un canal, 
 ## <a name="considerations-for-distributed-order-management"></a>Considérations sur la gestion des commandes distribuées
 
 Les fonctionnalités de [gestion des commandes distribuées](https://docs.microsoft.com/dynamics365/commerce/dom) de Commerce ignorent toutes les lignes de vente marquées pour le retrait en magasin. Ces fonctionnalités ont été mises à jour pour garantir que les lignes de vente liées aux modes de livraison en retrait configurés contournent la logique DOM et ne seront pas réaffectées à un nouvel entrepôt d'exécution.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

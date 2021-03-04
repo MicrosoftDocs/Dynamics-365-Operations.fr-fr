@@ -139,3 +139,6 @@ Nous supprimerons les configurations créées du système et les téléchargeron
 26. Dans l’arborescence, développez « Exemple de modèle de données ».
     * Notez que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » a été téléchargée avec la configuration de modèle de données sélectionnée. Les deux fichiers sont téléchargés ensemble, car la configuration « Exemple de mise en correspondance » a été définie comme implémentant le modèle de données sélectionné et qu’elle s’applique à l’application. La configuration « Exemple de mise en correspondance (autre) » n’a pas été téléchargée, car la condition pour la version d’application requise n’est pas remplie.   
     * Si vous vous connectez à Finance and Operations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

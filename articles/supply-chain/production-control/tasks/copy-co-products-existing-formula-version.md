@@ -54,3 +54,6 @@ Cette procédure vous indique comment copier des coproduits à partir d'une vers
 6. Cliquez sur OK.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

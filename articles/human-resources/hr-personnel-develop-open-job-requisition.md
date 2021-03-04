@@ -66,3 +66,6 @@ Les projets de recrutement permettent de gérer le processus de recrutement. Pou
     * Le statut Démarré indique qu'il est possible d'envoyer des candidatures pour le projet.  
 33. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

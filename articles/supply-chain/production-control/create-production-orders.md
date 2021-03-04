@@ -45,3 +45,6 @@ Un ordre de fabrication peut être créé dans les scénarios suivants :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

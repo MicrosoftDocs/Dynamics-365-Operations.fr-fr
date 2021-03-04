@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Valeur booléenne qui indique si le volet de filtre doit être affiché (**vrai**) ou masqué (**faux**).     |
 | showNavPane      | Valeur booléenne qui indique si le volet de navigation doit être affiché (**vrai**) ou masqué (**faux**). |
 | defaultFilters   | Filtres par défaut pour l’état Power BI.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

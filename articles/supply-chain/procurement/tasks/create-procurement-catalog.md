@@ -66,3 +66,6 @@ Cette rubrique illustre la création d'un catalogue d'approvisionnement. Cette t
 7. Sélectionnez **Ajouter aux lignes**.
 8. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

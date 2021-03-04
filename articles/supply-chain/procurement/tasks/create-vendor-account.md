@@ -59,3 +59,6 @@ Cette procédure indique comment créer un compte fournisseur, puis ajouter une 
 7. Fermez la page.
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

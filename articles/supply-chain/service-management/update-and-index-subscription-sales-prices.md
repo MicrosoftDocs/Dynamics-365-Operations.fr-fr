@@ -55,3 +55,6 @@ Le prix de base ou l'index de l'abonnement est mis à jour avec la valeur spéci
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

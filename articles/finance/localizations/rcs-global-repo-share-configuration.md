@@ -75,3 +75,6 @@ La configuration est partagée avec l’organisation externe et est disponible p
 ![Configuration partagée avec une organisation externe](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Pour annuler le partage d’une configuration qui a été précédemment partagée avec une organisation externe, sélectionnez la configuration et cliquez sur **Annuler le partage**, puis cliquez sur **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

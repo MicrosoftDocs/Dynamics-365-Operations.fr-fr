@@ -142,3 +142,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 4.  Sélectionnez le client
 5.  Sélectionnez **Informations de contact** ou **Commandes client**. Si vous sélectionnez **Commandes client**, une liste des commandes client du client s'affiche.
 6.  Sélectionnez **Commandes client**. Vous pouvez maintenant afficher des informations sur les lignes de commande client, les expéditions, les informations de contact du client et les informations de contact de la personne qui a pris la commande.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

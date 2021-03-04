@@ -255,3 +255,5 @@ L'ID d'emplacement utilisé pour l'adresse du collaborateur ne fait pas partie d
 L'illustration suivante présente un exemple de modèle de mise en correspondance dans l'Intégrateur de données. 
 
 ![Mise en correspondance des modèles](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

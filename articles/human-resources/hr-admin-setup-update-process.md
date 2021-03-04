@@ -105,3 +105,6 @@ Lorsque vous testez des fonctionnalités d’aperçu ou essayez de nouvelles fon
 [Nouveautés ou modifications dans Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
 [Stratégie du cycle de vie de logiciel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

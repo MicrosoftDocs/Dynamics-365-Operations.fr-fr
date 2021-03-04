@@ -158,3 +158,6 @@ Ressources supplémentaires
 [Définir les droits d’accès des contrôleurs d’objet de coût](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

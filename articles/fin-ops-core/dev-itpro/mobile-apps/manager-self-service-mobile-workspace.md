@@ -97,3 +97,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 1.  Sélectionnez **Envoyer une récompense**. 
 1. Permet d’entrer le texte de la récompense à envoyer. 
 1. Sélectionnez **Terminé**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Cette rubrique décrit la procédure de création d'un nouveau produit partagé.
 3. Saisissez ou sélectionnez une valeur dans le champ **Groupe de dimension de suivi**. Le groupe de dimension de suivi détermine les dimensions de suivi que vous devez entrer pour chaque transaction pour le produit et la manière dont il sera géré dans le stock.  
 4. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

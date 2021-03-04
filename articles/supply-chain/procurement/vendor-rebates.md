@@ -167,3 +167,6 @@ Le processus de gestion des remises fournisseur implique plusieurs tâches de su
 - Génération de réclamations de remise précises
 - Accumulation de la créance et du gain intermédiaire attendus dans la comptabilité
 - Mise à jour du solde fournisseur et du compte de résultat avec la réduction due
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

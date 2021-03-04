@@ -67,3 +67,6 @@ Le service de connexion peut être étendu pour prendre en charge les périphér
 ## <a name="using-extended-logon"></a>Utilisation d'une connexion étendue
 
 Lorsque la connexion étendue est configurée, et qu'un collaborateur a été affecté à un code-barres ou une bande magnétique, celui-ci doit juste faire glisser ou scanner sa carte lorsque la page de connexion de PDV s'affiche. Si un mot de passe est également requis pour pouvoir continuer la connexion, le collaborateur est invité à entrer son mot de passe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

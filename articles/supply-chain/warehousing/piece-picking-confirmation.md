@@ -51,3 +51,6 @@ Les options suivantes sont disponibles pour la sélection lorsque le type de tra
 | Confirmation de prélèvement de pièces | Disponible pour les types de travail de prélèvement et d'inventaire. La confirmation de produit est automatiquement activée. Permet de confirmer chaque pièce du stock de l'appareil mobile. |
 |  Nombre maximal de pièces  |                   Disponible pour le travail de prélèvement si la confirmation de prélèvement de pièce est activée. Fixe une limite au nombre de pièces que vous devez confirmer.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

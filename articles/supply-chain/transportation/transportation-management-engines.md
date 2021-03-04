@@ -99,3 +99,6 @@ Les métadonnées des moteurs de gestion de transport sont configurées différe
 | 3        | Code postal du point de départ | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 4        | Code postal du point d'arrivée   | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 5        | Pays de destination           | Affectation | Chaîne    | Pays/Région |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

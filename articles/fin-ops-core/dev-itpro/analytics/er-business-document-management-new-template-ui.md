@@ -64,3 +64,6 @@ Suivez ces étapes pour activer cette fonctionnalité pour toutes les entités j
 Le bouton **Nouveau document** est utilisé pour créer et modifier un modèle dans une configuration au format ER fournie par un autre fournisseur. Dans cet exemple, le fournisseur est Microsoft. Lorsque vous sélectionnez **Nouveau document**, vous pouvez voir tous les modèles qui sont détenus par les fournisseurs actuels et autres fournisseurs. Après que vous avez sélectionné le modèle, il est ouvert pour modification. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
 
 Pour plus d’informations, voir [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Cette procédure illustre comment confirmer des commandes client. Vous découvri
 11. Cliquez sur **OK**.
 12. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

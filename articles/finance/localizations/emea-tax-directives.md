@@ -33,3 +33,6 @@ La Directive de l’UE prévoit une réglementation à suivre par tous les État
 
 > [!NOTE]
 > Vérifiez que le champ **Spécification de taxe** est défini sur **Devise d’enregistrement** ou **Devise d’enregistrement et de la société** sur la page **Paramétrage d’écran** de l’onglet **Général** (**Comptabilité client > Paramétrage > Écrans > Paramétrage d’écran** ou **Gestion et comptabilité des projets > Paramétrage > Paramétrage d’écran**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

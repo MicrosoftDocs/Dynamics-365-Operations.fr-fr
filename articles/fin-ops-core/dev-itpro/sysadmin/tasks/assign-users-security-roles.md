@@ -57,3 +57,6 @@ Les utilisateurs qui reçoivent des rôles de sécurité manuellement doivent é
 2. Dans l’arborescence, sélectionnez un rôle et dans le menu **Utilisateurs attribués au rôle**, sélectionnez **Affecter/exclure manuellement des utilisateurs**.
 4. Dans **Attribuer ou exclure des utilisateurs du rôle**, les utilisateurs auxquels le rôle n’a pas été attribué sont répertoriés avec le **Mode d’affectation** défini sur **Aucun**. Sélectionnez un ou plusieurs utilisateurs auxquels le rôle doit être attribué.
 5. Sous le **volet Actions**, sélectionnez **Affecter au rôle**. Le **Mode d’affectation** est mis à jour en **Manuel** et les utilisateurs se voient désormais attribuer un nouveau rôle.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

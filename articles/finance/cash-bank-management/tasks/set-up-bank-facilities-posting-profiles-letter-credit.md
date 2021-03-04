@@ -74,3 +74,6 @@ La société fictive « USMF » est utilisée dans cette tâche.
     * Ce compte est débité lorsque la marge d’ouverture est validée et crédité lorsque le paiement est validé.  
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Cette procédure montre comment déclarer un ordre de fabrication comme terminé
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Le journal Déclarer comme terminé est validé. Si vous souhaitez effectuer des ajustements du journal, vous pouvez créer manuellement un nouveau journal dans lequel vous pouvez apporter des modifications.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

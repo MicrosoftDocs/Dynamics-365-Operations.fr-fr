@@ -55,3 +55,6 @@ Lorsque la commande client est confirmée, un échéancier de produit prévu est
 Les détails de l’échéancier de prise en compte de revenu sont conservés pour chaque ligne de commande client. Par conséquent, le responsable de prise en compte de revenu peut afficher les détails et peut libérer des lignes du produit une fois l’obligation contractuelle accomplie. À la fin de chaque période, le responsable de prise en compte de revenu peut créer un journal de produit pour débloquer toutes les lignes de l’échéancier qui arrivent à échéance à cette date ou avant une date qu’il a définie. Ce journal de produit n’est pas validé immédiatement. Par conséquent, le responsable de prise en compte de revenu peut vérifier que des montants corrects sont bien émis entre le produit différé et le produit réel.
 
 Si une modification contractuelle entraîne l’ajout d’une nouvelle ligne de commande client à la commande client existante ou à une nouvelle commande client, un processus de redistribution peut être exécuté pour corriger le prix du produit dans toutes les lignes des commandes client.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

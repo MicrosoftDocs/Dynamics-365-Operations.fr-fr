@@ -98,3 +98,6 @@ La version de la configuration est supprimée et un message de confirmation s’
 > [!NOTE]
 > Les configurations ne peuvent être supprimées que par le fournisseur de configuration qui les a créées. Si la configuration a été partagée avec une autre organisation, le partage de la configuration devra être annulé avant que vous ne la supprimiez.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

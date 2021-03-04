@@ -109,3 +109,6 @@ Utilisez les critères suivants pour sélectionner et mettre à jour les produit
 - [Affecter un état du cycle de vie des produits à un produit lancé](tasks/product-lifecycle-state-released-product.md)
 - [Rechercher des variantes de produit obsolètes et affecter un état du cycle de vie des produits](tasks/obsolete-product-variants.md)
 - [Créer un état du cycle de vie des produits pour exclure des produits de la planification](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -202,3 +202,6 @@ Pour consolider les lignes de demande d'achat approuvées, procédez comme suit 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

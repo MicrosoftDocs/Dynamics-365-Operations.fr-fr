@@ -247,3 +247,6 @@ C. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

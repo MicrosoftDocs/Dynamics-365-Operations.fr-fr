@@ -119,3 +119,6 @@ Spécifier les valeurs suivantes pour paramétrer votre profil de validation
 | **Lettrage** | Sélectionnez cette option pour activer le règlement automatique des transactions bénéficiant de ce profil de validation. Si cette option est désactivée, vous devez régler manuellement les transactions à l’aide de la page **Régler les transactions en cours**. |
 | **Annuler**     | Sélectionnez cette option pour pouvoir annuler les transactions associées à ce profil de validation.                                                                                                               |
 | **Clôture**      | Permet de sélectionner un autre profil de validation à utiliser lors de la clôture des transactions présentant ce profil de validation. Une transaction est considérée comme clôturée si elle a été totalement réglée.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

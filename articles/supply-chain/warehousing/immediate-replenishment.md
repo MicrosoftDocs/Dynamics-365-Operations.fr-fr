@@ -57,3 +57,6 @@ Si le réapprovisionnement immédiat est sélectionné pour une ligne d'instruct
 
 - Assurez-vous que le modèle de réapprovisionnement de demande appliqué est paramétré pour utiliser les modèles d'emplacement corrects et les modèles de travail de type **Réapprovisionnement**.
 - Assurez-vous que le stock disponible est suffisant aux emplacements où les recherches de modèle de réapprovisionnement de demande de stock disponible pour le réapprovisionnement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Un contrat de garantie peut inclure plusieurs lignes de contrat pour couvrir la 
     4. Dans le champ **Pourcentage**, entrez le pourcentage de couverture pour la ligne de garantie. Le pourcentage indique l’étendue de la couverture par votre entreprise.
 
 ![Page Garantie](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

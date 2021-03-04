@@ -65,3 +65,6 @@ Cette procédure permet de démarrer et d'arrêter l'enregistrement d'heure pour
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

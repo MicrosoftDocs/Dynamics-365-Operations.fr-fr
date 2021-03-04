@@ -40,3 +40,6 @@ Lorsque vous créez les pages de couverture et de signature pour un état de pai
     * Si nécessaire, ajoutez des noms supplémentaires, puis sélectionnez les options que vous souhaitez.  
 8. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

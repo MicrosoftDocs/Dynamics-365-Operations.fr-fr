@@ -176,3 +176,6 @@ Pour poursuivre le processus de mise en service et de configuration de votre env
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site web Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

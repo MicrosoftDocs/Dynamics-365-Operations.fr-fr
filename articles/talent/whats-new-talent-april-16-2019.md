@@ -94,3 +94,6 @@ Avec cette modification, les doublons sont détectés au moment de renseigner le
 Avec Platform Update 25 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque les alertes sont déclenchées par un événement.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

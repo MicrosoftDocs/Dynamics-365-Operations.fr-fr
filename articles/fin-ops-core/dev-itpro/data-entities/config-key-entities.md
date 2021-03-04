@@ -94,3 +94,6 @@ Les validations des temps d’exécution sont effectuées dans les cas d’utili
 Lorsque vous mettez à jour les clés de configuration au niveau de l’entité, de la table ou du champ, la liste des entités de l’infrastructure de gestion des données doit être actualisée. Ce processus garantit que l’infrastructure sélectionne les paramètres de la clé de configuration les plus récents. Tant que la liste des entités n’est pas actualisée, l’avertissement suivant s’affiche sur la page Liste des entités. Les modifications de la clé de configuration prennent effet immédiatement après l’actualisation de la liste des entités. Nous vous recommandons de valider les tâches et les projets de données existants pour vous assurer qu’ils fonctionnent comme prévu une fois que les modifications des clés de configuration sont appliquées.
 
 ![Champs cibles](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

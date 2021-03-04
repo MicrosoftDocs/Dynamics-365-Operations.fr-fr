@@ -68,3 +68,6 @@ Cette rubrique explique comment obtenir de l’aide pour les applications Financ
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

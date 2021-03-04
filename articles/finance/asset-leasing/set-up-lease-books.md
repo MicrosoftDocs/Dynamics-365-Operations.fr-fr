@@ -53,3 +53,6 @@ Pour créer un registre de location, procédez comme suit.
     | Seuil à court terme                     | Saisissez le nombre de mois à utiliser comme seuil pour les baux à court terme. Si la durée du bail est inférieure ou égale au nombre de mois que vous entrez ici, le système classera le bail comme un bail à court terme et le traitement du loyer différé sera appliqué. |
     | Seuil de faible valeur                      | Saisissez un montant à utiliser comme seuil pour les baux de faible valeur. Si la juste valeur de l’actif est inférieure ou égale ou la valeur que vous entrez ici, le système classera le bail comme un bail de faible valeur et le traitement du loyer différé sera appliqué. |
     | Payer au fournisseur                            | Définissez cette option sur **Oui** pour permettre que les paiements de location soient imputés, sous forme de facture, sur le compte fournisseur spécifié sur chaque contrat de location. Lorsqu’un paiement de location est validé, le compte fournisseur est crédité. Si cette option est définie sur **Non**, le compte spécifié pour le type de validation **Paiement de location** sur la page **Paramètres d’affichage du bail** sera créditée à la place. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

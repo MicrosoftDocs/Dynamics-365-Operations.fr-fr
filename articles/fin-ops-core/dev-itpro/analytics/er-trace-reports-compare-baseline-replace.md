@@ -207,3 +207,6 @@ Pour importer des paramètres de référence à partir d’un fichier XML stock�
 
 - [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md)
 - [Ressources de l’enregistreur de tâches](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

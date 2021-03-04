@@ -47,3 +47,6 @@ Vous pouvez créer les codes-barres manuellement ou automatiquement. Pour créer
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Paramétrer des masques de codes-barres](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

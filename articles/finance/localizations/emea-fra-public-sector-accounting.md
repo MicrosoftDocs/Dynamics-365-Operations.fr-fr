@@ -53,3 +53,6 @@ Les étapes de paramétrage supplémentaires pour les fonctionnalités spécifiq
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Pour plus d’informations sur l’ajout d’un module de menu de navigation à 
 [Conformité des cookies](cookie-compliance.md)
 
 [Module En-tête](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

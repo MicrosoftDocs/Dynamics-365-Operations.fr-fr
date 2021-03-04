@@ -301,3 +301,6 @@ Cette séparation précise entre **Affectation des coûts** et **Stratégies de 
 -  [Dimensions d’éléments de coût](cost-elements.md)
 -  [Hiérarchie des dimensions](dimension-hierarchy.md)
 -  [Calcul des frais généraux](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

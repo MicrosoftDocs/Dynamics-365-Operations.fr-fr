@@ -58,3 +58,6 @@ Par défaut, le paramètre **Durée maximale d'exécution** n'est pas disponible
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Durée d'exécution maximale pour la tâche de nettoyage des entrées disponibles de gestion de l'entrepôt*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

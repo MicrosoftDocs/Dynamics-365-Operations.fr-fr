@@ -126,3 +126,6 @@ Lorsque vous générez des paiements, le fichier de paiement est généré, et v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

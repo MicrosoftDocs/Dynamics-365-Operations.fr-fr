@@ -35,3 +35,6 @@ Vous pouvez vérifier si les dimensions pour un poste de prévision sont correct
 Vous pouvez voir quand un poste de prévision a été validé pour la dernière fois dans la section **Contrôle de poste de prévision** sur le raccourci **Planification budgétaire** de la page **Poste de prévision**. Les champs de contrôle sont également inclus dans la page de liste **Postes prévisionnels**.
 
 Pour plus d’informations, voir [Prévision des postes](../budgeting/position-forecasting.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

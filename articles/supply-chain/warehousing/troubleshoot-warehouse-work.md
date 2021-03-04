@@ -50,3 +50,6 @@ La dimension de suivi **Propriétaire** est manquante lorsque l'application d'en
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité. Actuellement, les processus de gestion des entrepôts ne prennent en charge que les stocks appartenant à l'entité juridique.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

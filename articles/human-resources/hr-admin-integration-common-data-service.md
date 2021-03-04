@@ -118,3 +118,6 @@ Pour exécuter une synchronisation complète sur une entité entre Human Resourc
 [![Exécution d’une synchronisation complète](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

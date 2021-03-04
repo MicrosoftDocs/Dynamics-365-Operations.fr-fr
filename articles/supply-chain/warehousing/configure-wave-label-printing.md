@@ -932,3 +932,6 @@ Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages
 - Historique des étiquettes de la vague
 
 Pour la plupart de ces pages, vous pouvez trouver la fonction appropriée en sélectionnant **Étiquettes de vague** dans le groupe **Informations connexes** de l'onglet **Expéditions** du volet Actions.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Cette fonction est disponible pour tous les rôles pouvant tenir à jour des bon
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

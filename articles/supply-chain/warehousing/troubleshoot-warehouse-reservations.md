@@ -78,3 +78,6 @@ Toutefois, lorsque vous utilisez un article qui a une hiérarchie de réservatio
 Ce comportement est fait exprès. Si vous mettez une dimension au-dessus de la dimension **Emplacement** dans la hiérarchie de réservation, elle doit être spécifiée avant le lancement vers l'entrepôt. Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité lors des versions vers l'entrepôt à partir de l'atelier de planification de la charge. Les quantités partielles ne peuvent pas être libérées si une ou plusieurs dimensions au-dessus de **Emplacement** ne sont pas spécifiés.
 
 Pour plus d’informations, voir [Stratégie flexible de réservation de dimension au niveau de l’entrepôt](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

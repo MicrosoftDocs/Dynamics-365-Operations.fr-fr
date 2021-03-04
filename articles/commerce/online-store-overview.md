@@ -121,3 +121,6 @@ Pour plus d'informations sur la gestion d contenu du site, voir les rubriques su
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
 
 [Paramétrer des pages personnalisées pour les ouvertures de session utilisateur](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

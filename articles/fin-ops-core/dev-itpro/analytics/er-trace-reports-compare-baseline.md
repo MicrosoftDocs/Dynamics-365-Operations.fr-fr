@@ -243,3 +243,6 @@ La base de référence est ajoutée au format **Format pour l’apprentissage de
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Configurer la structure de gestion des états électroniques](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

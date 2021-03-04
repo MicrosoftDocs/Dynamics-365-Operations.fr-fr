@@ -88,3 +88,6 @@ L'une des fonctionnalités importantes de Power BI est la façon dont tous les v
 ## <a name="export-to-excel"></a>Exporter vers Excel
 
 Pour afficher les données d'un état dans Excel, vous pouvez cliquer sur le menu Options (trois points) d'un visuel et sélectionner **Exporter les données sous-jacentes**. Les données exportées s'exporteront filtrées, en fonction des autorisations de l'utilisateur dans Attract. Pour plus d'informations, voir [Exporter à partir des visualisations](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

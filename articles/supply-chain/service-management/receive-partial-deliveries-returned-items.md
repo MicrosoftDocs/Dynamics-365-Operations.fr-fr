@@ -51,3 +51,6 @@ Si une expédition de retour contient une quantité inférieure à celle indiqu�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

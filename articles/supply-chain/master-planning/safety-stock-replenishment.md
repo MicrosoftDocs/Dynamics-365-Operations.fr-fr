@@ -116,3 +116,6 @@ La transaction de demande de stock de sécurité n'est pas traitée en priorité
 Pendant la phase de couverture de la planification, le réapprovisionnement du stock de sécurité n'est plus dépriorisé. Le stock disponible peut être utilisé avant les autres types de demande. Lors du calcul du retard, une nouvelle logique est ajoutée pour parcourir les lignes de vente retardées, les demandes de ligne de nomenclature et tous les autres types de demande, pour déterminer si la livraison peut être effectuée à temps, à condition que le stock de sécurité soit utilisé. Si le système détermine qu'il peut réduire les retards à l'aide du stock de sécurité, les lignes de vente ou de nomenclature remplacent leur couverture d'origine par le stock de sécurité, et le système déclenche à la place le réapprovisionnement du stock de sécurité.
 
 Si le plan ou l'article n'est pas paramétré pour le calcul du retard, la contrainte du stock de sécurité a la même priorité que les autres types de demande. Cela signifie qu'il existe une réserve de stock disponible avant les autres types de demande.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

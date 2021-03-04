@@ -61,3 +61,6 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 | Modifications de l’entité **Adresse du collaborateur** | <ul><li>**Nom de la rue** ajouté</li><li>**Ligne d’adresse 1**, **Ligne d’adresse 2** et **Ligne d’adresse 3** marquées pour suppression</li></ul> |
 | Nouvelles entités de configuration de la rémunération variable | <ul><li>**Type de régime variable de rémunération**</li><li>**Régime variable de rémunération**</li><li>**Règles d’acquisition**</li><li>**Niveau de régime variable de rémunération**</li></ul> |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | <ul><li>**Entité de calendrier de travail** ajoutée</li></ul> |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

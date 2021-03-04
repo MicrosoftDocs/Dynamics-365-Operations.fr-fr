@@ -57,3 +57,6 @@ Dans **Paramètres de contrôle de production**, vous pouvez utiliser le champ *
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Cette rubrique décrit comment acquérir une immobilisation à l’aide de la pr
 - Seules les immobilisations dont la date et le prix d’acquisition sont définis sur le registre sont incluses dans la proposition d’acquisition.  
 11. Dans la page, sélectionnez l’onglet **Registres**.
 12. Sélectionnez **Valider**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

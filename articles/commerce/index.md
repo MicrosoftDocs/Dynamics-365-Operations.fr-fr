@@ -56,3 +56,6 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
 - [Gérer votre site de commerce électronique](online-store-overview.md)
 - [Protection contre la fraude](dev-itpro/DFP.md)
 - [Développement et extensibilité du commerce](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

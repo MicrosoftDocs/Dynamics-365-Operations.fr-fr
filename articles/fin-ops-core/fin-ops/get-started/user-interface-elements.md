@@ -86,3 +86,6 @@ Une *barre d’outils* contient des outils, tels que la possibilité d’ajouter
 Une *liste* est le nom donné à un ensemble d’enregistrements que vous pouvez faire défiler. Vous pouvez ajouter ces enregistrements à la page en les sélectionnant. Souvent, une grille s’ouvre.
 
 ![L’image suivante présente des exemples de barres d’outils, de grilles et de listes.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

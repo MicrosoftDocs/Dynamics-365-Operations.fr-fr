@@ -113,3 +113,6 @@ Vous ne pouvez pas affecter un régime de rémunération fixe à un employé tan
 
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

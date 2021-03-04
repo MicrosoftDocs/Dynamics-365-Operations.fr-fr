@@ -68,3 +68,6 @@ Vous pouvez exporter les listes des employés générées à l'aide des options 
 Si vous devez déclarer des personnes prises en charge par une couverte personnelle employeur, vous pouvez également consulter les personnes à charge couvertes par les régimes d'avantages sociaux avec la mention **Déclarer dans le cadre de la loi sur les soins abordables** en sélectionnant l'action Afficher la couverture des personnes à charge dans la bande du volet Actions.
 
 **Remarque :** seuls les avantages dont le régime dispose de la mention **Déclarer dans le cadre de la loi sur les soins abordables** s'affichent dans la fenêtre de recherche.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

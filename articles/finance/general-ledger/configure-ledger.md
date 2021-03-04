@@ -82,3 +82,6 @@ Si vous utilisez deux devises, ou si vous utilisez une seule devise, mais que le
 Les pertes et profits réalisés correspondent aux pertes et profits obtenus partir des transactions terminées. Ils sont enregistrés dans le compte de résultat. Les pertes et profits non réalisés correspondent aux pertes et profits matérialisés, mais la transaction n’est pas terminée. En d’autres termes, vous avez publié une facture, par exemple, mais la facture n’est pas encore réglée et payée. Les pertes et profits non réalisés sont enregistrés sur le bilan.
 
 Pour plus d’informations sur la manière d’utiliser deux devises, voir [Double devise](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

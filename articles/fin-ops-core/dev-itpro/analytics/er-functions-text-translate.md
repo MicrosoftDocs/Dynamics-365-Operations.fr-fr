@@ -77,3 +77,6 @@ La fonction `TRANSLATE` remplace un caractère à la fois. La fonction remplace 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

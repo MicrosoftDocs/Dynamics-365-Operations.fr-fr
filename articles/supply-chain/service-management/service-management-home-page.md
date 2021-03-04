@@ -71,3 +71,6 @@ Le module Gestion des services peut être intégré aux modules suivants :
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

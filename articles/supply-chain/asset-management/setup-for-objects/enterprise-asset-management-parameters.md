@@ -107,3 +107,6 @@ Sélectionnez les types de document qui doivent être disponibles pour imprimer 
 Lien **Souches de numéros**
 
 Sélectionnez les souches de numéros requises dans cette section. Il existe deux souches de numéros pour les actifs : une pour les actifs créés manuellement, et une pour les actifs créés via les actifs en attente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

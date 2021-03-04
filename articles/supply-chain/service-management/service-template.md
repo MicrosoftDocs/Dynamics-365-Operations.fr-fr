@@ -58,3 +58,6 @@ Il est plus facile de déterminer les lignes de modèle de service à copier si 
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Copie de lignes de modèles de service](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

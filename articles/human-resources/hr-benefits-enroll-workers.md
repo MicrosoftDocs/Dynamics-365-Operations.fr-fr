@@ -58,3 +58,6 @@ Cette procédure illustre comment un collaborateur peut être inscrit à un ou p
 14. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 15. Cette page vous permet de consulter quels employés ont été inscrits à l'avantage, ainsi que tous les employés qui n'ont pas été inscrits.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

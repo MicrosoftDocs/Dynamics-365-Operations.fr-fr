@@ -82,3 +82,6 @@ Les profils de ticket de caisse sont affectés directement aux imprimantes via l
 
 > [!NOTE]
 > Si deux imprimantes sont utilisées, une imprimante peut être utilisée pour imprimer des tickets de caisse thermiques standard à 40 colonnes. La deuxième imprimante est généralement utilisée pour imprimer les types de ticket de caisse sur une page complète qui nécessitent plus d'informations. Ces types de tickets de caisse incluent les reçus de commande client et les factures client.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

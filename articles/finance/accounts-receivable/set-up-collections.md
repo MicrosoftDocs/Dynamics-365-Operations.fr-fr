@@ -115,3 +115,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 
  - [Réviser les informations de recouvrement](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

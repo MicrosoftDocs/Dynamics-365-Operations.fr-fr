@@ -52,3 +52,6 @@ Les rubriques suivantes décrivent le fonctionnement du moteur de planification,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

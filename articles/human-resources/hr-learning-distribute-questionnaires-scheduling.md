@@ -129,3 +129,6 @@ La planification de questionnaire vous permet de planifier et répartir les ques
 2. Cliquez sur Fin.
 3. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

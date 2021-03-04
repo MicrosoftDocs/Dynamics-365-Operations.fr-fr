@@ -61,3 +61,6 @@ Lorsque vous rapprochez une facture du transporteur et une facture des frais de 
 5. Cliquez pour suivre le lien dans le champ Numéro du journal de référence.
 6. Cliquez sur Lignes.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

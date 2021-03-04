@@ -98,3 +98,6 @@ Vous pouvez lancer les matières premières pour une quantité partielle de prod
     Les unités disponibles sont définies dans l'ID de groupe de séquences d'unités du produit fini.
 
     Par exemple, un produit fini a la conversion d'unité suivante entre kilos (kg) et palette (PL) : 1 PL = 100 kg. Pour créer un ordre de fabrication pour 10 000 kg du produit fini, vous pouvez lancer les matières premières pour le nombre de palettes que vous prévoyez de produire. Sélectionnez **PL** comme unité, puis sélectionnez un nombre correspondant dans le champ **Quantité**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

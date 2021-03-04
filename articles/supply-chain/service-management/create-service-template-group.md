@@ -39,3 +39,6 @@ Vous pouvez utiliser des groupes de modèles de service pour trier et filtrer le
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

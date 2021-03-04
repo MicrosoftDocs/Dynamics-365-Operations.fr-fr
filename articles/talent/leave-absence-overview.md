@@ -66,3 +66,6 @@ La gestion des congés et des absences fournit les fonctions suivantes :
 - **Soumettre des demandes de congés.**
 
     Les employés peuvent envoyer des demandes de congés en fonction de leurs heures disponibles. Les demandes peuvent être des demandes simples d'un jour ou des demandes de plusieurs jours qui comprennent plusieurs types de congés et d'absences. Si un workflow n'est pas activé, les demandes sont automatiquement approuvées. Si un workflow est activé, l'approbation peut être automatique, ou elle peut exiger une approbation, en fonction de la configuration du workflow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

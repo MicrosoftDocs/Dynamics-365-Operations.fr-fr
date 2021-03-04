@@ -127,3 +127,6 @@ Une fois le contrôle budgétaire activé, les utilisateurs recevront des messag
 Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire** pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
 
 Si le contrôle budgétaire est activé pour les commandes fournisseur, le responsable du budget peut utiliser l’espace de travail **Budgets comptables et prévisions** pour passer en revue la file d’attente de toutes les commandes fournisseur non confirmées avec des avertissements ou des erreurs du contrôle budgétaire. Si le responsable du budget est autorisé à dépasser le budget, il peut confirmer les commandes fournisseur directement dans l’espace de travail.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

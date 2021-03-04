@@ -175,3 +175,6 @@ L’événement **AttachingFile ()** est déclenché lorsque les destinations de
 
 - [Destinations de la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Page d’accueil Extensibilité](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

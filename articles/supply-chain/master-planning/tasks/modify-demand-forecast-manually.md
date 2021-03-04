@@ -43,3 +43,6 @@ Cette procédure permet d'indiquer comment modifier la prévision pour un articl
 1. Cliquez sur **Ouvrir** dans Microsoft Office.
 2. Cliquez sur **Modifier la prévision de la demande** dans Excel. Dans Excel, vous pouvez ajouter, supprimer et modifier des lignes de prévision de la demande. Si vous ne pouvez pas afficher les données dans Excel, vous devez vous connecter avec l'option « Maintenir la connexion » activée et vous devez faire confiance à l'application de connexion de données.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

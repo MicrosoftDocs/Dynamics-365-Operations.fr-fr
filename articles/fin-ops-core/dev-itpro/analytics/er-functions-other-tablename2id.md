@@ -59,3 +59,6 @@ L’exécution de cette fonction peut avoir des résultats différents dans diff
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Autre fonctions (spécifiques au domaine d’affaires)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

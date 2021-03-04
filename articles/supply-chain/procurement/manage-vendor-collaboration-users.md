@@ -94,3 +94,6 @@ Pour demander que des rôles de sécurité sont modifiés pour un utilisateur :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

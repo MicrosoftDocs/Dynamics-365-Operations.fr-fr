@@ -124,3 +124,6 @@ Procédez comme suit pour configurer l'intégration.
     4. Vous pouvez avoir plusieurs environnements dans Customer Insights, tels que les environnements de production et de test. Dans le champ **ID d'instance de l'environnement**, saisissez l'environnement approprié.
     5. Dans le champ **Autre ID client**, entrez la propriété dans Customer Insights qui est mise en correspondance avec le numéro de compte client. (Dans Commerce, le numéro de compte client est l'ID client.)
     6. Les trois propriétés restantes sont les mesures qui seront indiquées sur la fiche client dans le registre des clients. Vous pouvez sélectionner jusqu'à trois mesures à afficher sur la fiche client. (Toutefois, vous n'avez pas à sélectionner de mesures.) Comme il a été mentionné précédemment, le système présente ces valeurs tout d'abord, puis il affiche les valeurs pour le groupe d'attributs du registre de clients.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

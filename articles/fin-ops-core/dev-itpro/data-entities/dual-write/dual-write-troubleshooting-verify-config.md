@@ -58,3 +58,6 @@ Lorsque vous créez des données, si vous voyez le champ **Société** sur les p
 Pour plus d’informations sur la résolution des problèmes lors de la création de données dans Dataverse, voir [Résoudre les problèmes de synchronisation en direct](dual-write-troubleshooting-live-sync.md).
 
 Pour plus d’informations sur la façon d’afficher les détails des erreurs si vous rencontrez des erreurs lors de la création de données dans Dataverse, voir [Activer et afficher le journal de suivi des plug-ins dans Dataverse pour afficher les détails de l’erreur](dual-write-troubleshooting.md#enable-view-trace).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

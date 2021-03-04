@@ -90,3 +90,6 @@ La deuxième commande client est désormais facturée. La facture totale présen
 [![Page Justificatif de transaction avec l’écriture comptable validée](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Étant donné que la somme des revenus et des ventes est supérieure à 1 170,44 $, la différence est validée pour -130,17 $. Ce montant efface le solde du compte de compensation des revenus de la facture partielle. Ce solde est validé dans la nouvelle écriture comptable après la réaffectation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

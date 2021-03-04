@@ -70,3 +70,6 @@ Après avoir créé les états du cycle de vie de l'actif requis, vous pouvez pa
 
 6. Sélectionnez **Mises à jour de l'état du cycle de vie** pour définir les états du cycle de vie de l'actif qui peuvent suivre un état du cycle de vie sélectionné.
 7. Vous utilisez le raccourci **État de l'actif** si vous gérez des actifs que vous recevez pour réparation. Dans la section **Entrant/Sortant**, vous pouvez sélectionner les états du cycle de vie de l'actif pour indiquer le workflow d'un actif que vous recevez pour réparation. Si vous offrez des actifs d'emprunt aux clients ou aux départements, dans la section **Emprunt**, vous pouvez sélectionner les états du cycle de vie pour les actifs d'emprunt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

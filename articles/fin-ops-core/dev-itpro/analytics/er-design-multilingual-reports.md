@@ -210,3 +210,6 @@ Comme décrit précédemment dans cette rubrique, les attributs **Étiquette** e
 
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Fonctions de génération d’états électroniques](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

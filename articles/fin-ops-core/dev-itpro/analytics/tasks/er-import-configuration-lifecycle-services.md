@@ -103,3 +103,6 @@ Dans cet exemple, vous allez sélectionner la version souhaitée de la configura
     Pour cet exemple, sélectionnez la version de la configuration dont le statut est **Partagé**.
 
     Notez que seule la version partagée 1 de la configuration de modèle de données sélectionnée est également disponible.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

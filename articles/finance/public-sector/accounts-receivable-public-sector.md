@@ -71,3 +71,6 @@ Vous pouvez utiliser les définitions de validation pour créer des lignes de jo
 [Créer et affecter un code partenaire commercial](tasks/create-assign-trading-partner-code-public-sector.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

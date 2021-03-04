@@ -45,3 +45,6 @@ Sous l'onglet **Postes**, indiquez si de nouveaux postes sont disponibles pour l
 
 -   **Toujours** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Lorsque des postes sont créés, la date et l'heure **Disponible pour affectation** de l'onglet **Général** de la page **Poste** sont automatiquement définis à la date et à l'heure de création.
 -   **Jamais** – Vous ne pouvez pas affecter de collaborateurs à de nouveaux postes lorsque des postes sont créés. Si vous sélectionnez cette option, vous devez ouvrir la page **Poste** pour chaque nouveau poste lorsqu'il devient disponible, puis sous l'onglet **Général**, entrez la date **Disponible pour affectation** afin d'activer l'affectation du collaborateur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

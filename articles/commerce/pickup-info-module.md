@@ -70,3 +70,6 @@ L'illustration suivante montre un exemple de page de paiement pour l'e-commerce 
 [Module de confirmation de commande](order-confirmation-module.md)
 
 [Module Détails de la commande](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

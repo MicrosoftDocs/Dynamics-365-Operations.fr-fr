@@ -43,3 +43,6 @@ Cette procédure indique comment utiliser la demande de transactions de N° docu
 12. Dans le volet Actions, cliquez sur **Document d’origine**.
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

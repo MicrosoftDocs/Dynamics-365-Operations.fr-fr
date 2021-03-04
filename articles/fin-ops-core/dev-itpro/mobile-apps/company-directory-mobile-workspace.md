@@ -89,3 +89,6 @@ Télécharger et installer l’application mobile Finance and Operations :
 1.  Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**.
 2.  Dans le champ **Rechercher**, entrez le prénom, le nom, le titre ou le département d’un employé pour démarrer la recherche.
 3.  Sélectionnez un employé. La page **Profil d’employé** s’affiche. Ces informations incluent dans cette page le prénom, le nom, le titre et le département de l’employé.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

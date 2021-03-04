@@ -60,3 +60,6 @@ Vous pouvez utiliser ce guide dans les données de démonstration de la sociét�
 6. Sélectionnez **Enregistrer**.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Le message de bienvenue apparaît désormais en haut de chaque page du site qui 
 
 [Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

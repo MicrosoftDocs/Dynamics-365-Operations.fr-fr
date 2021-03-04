@@ -211,3 +211,6 @@ Si des lignes de l’entité client ont des valeurs dans les champs **ContactPer
     La synchronisation initiale des lignes est maintenant terminée.
 
 8. Dans l’application Finance and Operations, réactivez le suivi des modifications pour l’entité **Clients V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

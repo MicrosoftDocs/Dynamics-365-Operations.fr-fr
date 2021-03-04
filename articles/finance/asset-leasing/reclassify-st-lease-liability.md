@@ -41,3 +41,6 @@ Pour créer et valider l’entrée de journal de reclassement de passif à court
 4. Activez le paramètre **valider**. Sinon, si l’écriture doit être créée mais pas publiée, laissez ce paramètre désactivé.
 5. Activez le paramètre **Aperçu avant de valider** pour afficher l’écriture avant sa validation.
 6. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

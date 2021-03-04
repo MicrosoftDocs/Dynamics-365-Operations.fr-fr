@@ -122,3 +122,6 @@ Vous pouvez traiter les paiements des impayés en sélectionnant **Paiement des 
 [Blocages pour les commandes client](./cm-sales-order-credit-holds.md)
 
 [Tâches périodiques de gestion des crédits client](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

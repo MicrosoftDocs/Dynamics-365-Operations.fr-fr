@@ -54,3 +54,6 @@ Une réservation budgétaire générale est exonérée différemment, en fonctio
 - Si le document est une commande fournisseur, la réservation est exonérée lorsque la commande fournisseur est *confirmée*.
 - Si le document est une facture et qu’il ne référence pas une commande fournisseur ou un contrat d’achat, la réservation budgétaire générale est exonérée lorsque la facture est *validée*.
 - Si le document est une demande d’achat, la réservation est exonérée lorsque la demande d’achat est *approuvée*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

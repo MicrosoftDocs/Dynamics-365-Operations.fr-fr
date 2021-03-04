@@ -36,3 +36,6 @@ En créant des lignes dans la page **Comptage des balises**, vous placez un num�
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Inventaire tournant](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

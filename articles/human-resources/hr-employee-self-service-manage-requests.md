@@ -39,3 +39,5 @@ Les gestionnaires peuvent gérer les demandes de congés dans l'espace de travai
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Création d'un plan de congé et d'absence](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

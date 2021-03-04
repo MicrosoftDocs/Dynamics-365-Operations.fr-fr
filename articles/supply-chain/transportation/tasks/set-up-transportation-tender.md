@@ -48,3 +48,6 @@ Cette procédure décrit comment paramétrer une offre de transport. Cette opér
 7. Cliquez sur Soumettre.
 8. Sélectionnez une gamme.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

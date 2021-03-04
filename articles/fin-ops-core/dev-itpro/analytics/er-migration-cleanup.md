@@ -57,3 +57,6 @@ Effectuez les étapes suivantes pour résoudre les problèmes avec les modèles 
 Un problème similaire peut se produire si vous migrez votre instance d’application vers un autre emplacement qui a été utilisé comme cible de migration plusieurs fois et pour lequel le stockage Blob contient déjà des fichiers de modèle ER.
 
 En raison des nombreuses configurations du format de gestion des états électroniques, ce processus peut se révéler chronophage. Par conséquent, en utilisant la fonctionnalité [stockage de sauvegarde des modèles ER](er-backup-storage-templates.md) pour récupérer automatiquement les modèles avec des références cassées est préférable.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

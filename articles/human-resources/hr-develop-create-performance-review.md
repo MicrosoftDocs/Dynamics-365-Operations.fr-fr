@@ -78,3 +78,6 @@ Cette rubrique explique comment créer une évaluation des performances et décr
 34. Sélectionnez **Révision**. Étant donné que la révision passe par les différents statuts, l'employé et le responsable peuvent ajouter des commentaires pour chaque objectif ou compétence.  
 35. Sélectionnez l'onglet **Validations**. Le collaborateur et le responsable peuvent valider la révision. Lorsque toutes les validations requises sont effectuées, le statut passe à **Terminé** et aucune autre modification n'est possible.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

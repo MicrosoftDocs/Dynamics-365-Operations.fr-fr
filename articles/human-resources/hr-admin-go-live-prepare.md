@@ -91,3 +91,5 @@ Après avoir soumis la liste de contrôle, votre architecte de solution FastTrac
 ## <a name="see-also"></a>Voir également :
 
 [FAQ sur le lancement](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

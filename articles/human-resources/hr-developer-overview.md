@@ -62,3 +62,6 @@ Ce guide du développeur fournit une référence à l'API et aux champs personna
 - [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
 - [Guide d'administrationl](hr-admin-overview.md)
 - [Guide de l'utilisateur](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

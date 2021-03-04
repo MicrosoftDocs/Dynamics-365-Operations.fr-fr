@@ -42,3 +42,6 @@ Dans Microsoft Dynamics 365 Human Resources, les jours d'attente établissent un
    | **Jour** | Jour du mois auquel le système doit définir la date de la période d'attente. |
    
 4. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

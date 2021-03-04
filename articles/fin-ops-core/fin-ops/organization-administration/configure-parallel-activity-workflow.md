@@ -53,3 +53,6 @@ Pour ajouter et configurer les branches de cette activité parallèle, procédez
     > L’ordre des branches est sans importance, car toutes les branches d’une activité parallèle s’exécutent simultanément.
 
 3. Pour configurer chaque branche, voir [Configuration de branches parallèles dans un workflow](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

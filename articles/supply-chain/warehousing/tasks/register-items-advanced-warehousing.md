@@ -76,3 +76,6 @@ Notez le numéro de la commande fournisseur que vous créez, et notez également
     * Après avoir cliqué sur OK, vérifiez la barre des messages. Il doit y avoir un message indiquant que l'opération a réussi.  
 5. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

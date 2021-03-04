@@ -310,3 +310,6 @@ Une instruction **IF/THEN/ELSE** permet à n’importe quel calcul de dépendre 
 Vous pouvez concevoir des états à l’aide de valeurs de dimension contenant une esperluette (&).
 
 Dans tout champ **Lier aux dimensions financières**, vous pouvez entrer une valeur comme **’Compte&Résultat’**. L’insertion d’apostrophes (’ ’) de part et d’autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l’esperluette (&).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Lors de la création automatique de commandes de service, vous pouvez utiliser l
 2. Dans l'onglet **Paramétrage**, sélectionnez **Par tâche de service** dans le champ **Combiner les commandes de service**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

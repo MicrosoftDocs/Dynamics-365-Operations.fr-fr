@@ -106,3 +106,6 @@ Pour ajouter un module de lecteur vidéo à une nouvelle page et définir les pr
 [Module de bloc de texte](add-content-rich-block.md)
 
 [Module de bloc de contenu](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

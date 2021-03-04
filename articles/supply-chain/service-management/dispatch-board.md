@@ -54,3 +54,6 @@ Pour plus d'informations sur l'exécution de tâches spécifiques dans un tablea
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ En outre, le lean manufacturing prend en charge les processus d'achat et de fact
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

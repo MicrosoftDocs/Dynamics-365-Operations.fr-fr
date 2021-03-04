@@ -174,3 +174,6 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Étendre la liste des fonctions de gestion des états électroniques](general-electronic-reporting-formulas-list-extension.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

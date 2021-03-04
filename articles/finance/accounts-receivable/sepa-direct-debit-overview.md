@@ -84,3 +84,6 @@ Dans les deux modèles de débit direct SEPA, les clients ont certains droits de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

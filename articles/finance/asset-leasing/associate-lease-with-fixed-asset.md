@@ -54,3 +54,6 @@ L’immobilisation peut désormais être amortie à l’aide de la fonctionnalit
 
 > [!NOTE]
 > Si vous associez une immobilisation à un bail, les boutons **Amortissement des actifs** et **Dépréciation du bail** sont désactivés dans la location d’actifs. Vous pouvez afficher les transactions d’amortissement des immobilisations et de dépréciation de location à partir des immobilisations. Le bouton **Transactions d’actif**, qui ouvre un formulaire de demande est également désactivé. Vous pouvez également ouvrir le formulaire de demande **Transactions d’actif** dans Immobilisations.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

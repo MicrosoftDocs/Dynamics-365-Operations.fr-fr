@@ -81,3 +81,6 @@ Cette rubrique décrit comment automatiser la mise en conteneur des charges dans
 11. Entrez ou sélectionnez une valeur dans le champ **Sélection de champ**.
 12. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

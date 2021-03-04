@@ -86,3 +86,6 @@ Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

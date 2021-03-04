@@ -54,3 +54,6 @@ Une ligne de facture sera exclue du traitement automatisé si l’une des condit
 - La valeur **Statut de la mise en correspondance automatique des réceptions** de la ligne de facture est **Échoué**.
 - La facture est utilisée.
 - La facture est dans le système de workflow.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

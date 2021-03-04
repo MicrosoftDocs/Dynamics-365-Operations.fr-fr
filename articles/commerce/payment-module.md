@@ -118,3 +118,6 @@ Si les deux connecteurs de paiement Adyen et Paypal sont nécessaires, ajoutez l
 [Connecteur de paiement Dynamics 365 pour Paypal](paypal.md)
 
 [Authentification rigoureuse des clients à l’aide d’Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

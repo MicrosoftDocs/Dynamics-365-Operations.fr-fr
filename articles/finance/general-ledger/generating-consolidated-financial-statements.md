@@ -224,3 +224,6 @@ Pour obtenir des montants correctement convertis lorsque des devises sont utilis
 Pour plus d’informations sur la consolidation et les conversions de devises, consultez la rubrique parent de cette rubrique [Vue d’ensemble des consolidations financières et conversion de devises](./financial-consolidations-currency-translation.md).
 
 Pour plus d’informations sur la saisie des détails des consolidations en ligne, voir [Consolidations financières en ligne](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

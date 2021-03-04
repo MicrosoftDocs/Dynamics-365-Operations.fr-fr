@@ -68,3 +68,6 @@ Avant de pouvoir configurer des plans d'avantages dans Microsoft Dynamics 365 Hu
 3. Sélectionnez **Enregistrer**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

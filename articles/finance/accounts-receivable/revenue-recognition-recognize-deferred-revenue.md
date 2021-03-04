@@ -108,3 +108,6 @@ Les modifications de contrat ont les effets suivants sur les détails de l’éc
 - Si le produit a été constaté pour le produit, une partie du produit n’a pas été correctement constatée car la constatation portait sur un échéancier de produit erroné. Ces lignes doivent être contrepassées et constatées à nouveau, selon le nouvel échéancier. Dans ce scénario, de nouvelles lignes d’échéancier sont créées, comportant des montants négatifs à la date de constatation d’origine. De nouvelles lignes sont alors créées pour constater les montants selon le nouvel échéancier de produit. Par exemple, le 8 août 2019, vous avez constaté un produit de 10,53 USD. Le 8 septembre 2019, vous avez identifié un produit de 13,16 USD. Par conséquent, deux lignes sont créées avec ces dates. Une ligne contient 10,53 USD, et l’autre ligne contient 13,16 USD. Vingt-quatre lignes sont alors créées, et le produit différé total de 160,61 USD est réparti entre elles. Vous pouvez valider les lignes de contrepassation en exécutant le processus **Créer un journal**.
 
 [![Echéancier de prise en compte de revenu](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

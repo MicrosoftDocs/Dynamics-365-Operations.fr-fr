@@ -54,3 +54,6 @@ Un type de groupe de coûts et un comportement pour une segmentation supplément
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Si vous utilisez des matières limitées, la planification dépend également de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

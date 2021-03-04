@@ -72,3 +72,6 @@ Le tableau suivant fournit des informations sur le lien entre cette clé de conf
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

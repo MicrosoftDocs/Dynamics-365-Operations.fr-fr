@@ -40,3 +40,6 @@ Cette procédure indique comment journaliser les entrées de journal validées. 
 9. Cliquez sur **OK** pour fermer la page de filtre.
 10. Cliquez sur **OK** pour démarrer le processus de journalisation. Un état est généré à la fin du processus.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

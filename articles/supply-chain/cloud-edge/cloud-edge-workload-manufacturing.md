@@ -110,3 +110,6 @@ Pour consulter l'historique des travaux de fabrication qui ont été traités su
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Hub de fabrication pour la tâche du processeur de messages de l'unité d'échelle
 
 La tâche _Hub de fabrication pour le processeur de messages de l'unité d'échelle_ traite les données du hub vers l'unité d'échelle. Ce travail est automatiquement démarré lorsque la charge de travail d'exécution de fabrication est déployée. Cependant, vous pouvez l'exécuter manuellement à tout moment en accédant à **Contrôle de production \> Tâches périodiques \> Gestion de la charge de travail backoffice \> Processeur de message du hub de fabrication vers l'unité d'échelle**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

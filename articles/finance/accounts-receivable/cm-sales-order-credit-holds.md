@@ -265,3 +265,6 @@ Les commandes client qui ont un motif de blocage forcé ne peuvent pas être lib
 La gestion des crédits ne peut actuellement être utilisée que pour les commandes client. Les factures financières, les commandes au point de vente et les commandes au centre d’appels utiliseront les limites de crédit temporaires et les assurances/garanties que vous ajoutez pour ajuster la limite de crédit. Ils n’utiliseront pas les règles de blocage et ne seront pas placés dans la liste de blocage en cas de problème avec la limite de crédit.
 
 Il n’y a pas de prise en charge des factures de projet dans la gestion du crédit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

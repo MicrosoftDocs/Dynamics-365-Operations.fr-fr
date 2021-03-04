@@ -83,3 +83,6 @@ Quelle que soit l’approche, le script de mise à niveau des données utilise �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

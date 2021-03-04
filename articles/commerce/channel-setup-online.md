@@ -134,3 +134,6 @@ L'image suivante montre un exemple de configuration d'affectation de groupe d'ex
 [Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
 
 [Connecteur de paiement Dynamics 365 pour Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

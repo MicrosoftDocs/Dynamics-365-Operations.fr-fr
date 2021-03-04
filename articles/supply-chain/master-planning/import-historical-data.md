@@ -59,3 +59,6 @@ Après avoir importé les données de demande d'historique, vous pouvez génére
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

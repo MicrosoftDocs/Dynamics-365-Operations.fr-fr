@@ -46,3 +46,6 @@ Vous pouvez affiner la recherche en sélectionnant le type de document, par exem
 [![Filtre appliqué et Importer pour le type de document commercial](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Les résultats filtrés peuvent être importés dans un référentiel RCS d’utilisateurs ou un environnement Dynamics 365 Finance, individuellement ou en tant qu’ensemble. Pour ce faire, sélectionnez le groupe de configurations et cliquez sur **Importer**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

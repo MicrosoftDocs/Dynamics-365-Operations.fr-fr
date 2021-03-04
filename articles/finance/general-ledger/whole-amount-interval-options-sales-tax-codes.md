@@ -90,3 +90,6 @@ Pour plus d’informations, voir [Taux de taxe en fonction des champs Base margi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

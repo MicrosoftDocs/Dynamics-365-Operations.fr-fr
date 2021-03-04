@@ -118,3 +118,6 @@ Le système évalue tout fournisseur où l’option **État 1099** sélectionn�
 
 > [!NOTE]
 > Une nouvelle colonne nommée **Créé par le processus de mise à jour 1099** a été ajouté à la page **Transactions taxe 1099**. Les cases à cocher de cette colonne sont sélectionnées pour indiquer que le nouveau processus de mise à jour a mis à jour du solde 1099. Si la case d’une ligne est décochée, la fonctionnalité standard a été utilisée pour créer la transaction. Pour ouvrir la page **Transactions taxe 1099**, allez à **Comptabilité fournisseur \> Tâches périodiques \> Règlement du fournisseur pour les 1099 \> Transactions 1099 du fournisseur**. Sinon, allez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**, sélectionnez un fournisseur, puis, dans le volet Actions, sur l’onglet **Fournisseur**, dans le groupe **Informations fiscales**, sélectionnez **Règlement du fournisseur pour les 1099 \> transactions 1099 du fournisseur**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

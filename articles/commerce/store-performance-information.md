@@ -45,3 +45,6 @@ Cet état fournit un instantané des synthèses suivantes dans le cadre des perf
 - Récapitulatif de la taxe
 - Synthèse du remplacement des prix
 - Synthèse des remises
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

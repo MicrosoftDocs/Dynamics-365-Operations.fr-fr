@@ -138,3 +138,6 @@ Pour obtenir des liens vers un exemple et une autre approche, consultez la secti
 Pour un exemple, voir [Activation de la carte des tables Clients V3 – Contacts](enable-entity-map.md#enable-table-map)
 
 Pour une approche alternative basée sur les volumes de données dans chaque entité qui doivent exécuter une synchronisation initiale, voir [Considérations relatives à la synchronisation initiale](initial-sync-guidance.md).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

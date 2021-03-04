@@ -157,3 +157,6 @@ Les candidats sont des personnes qui ont été ajoutées à un vivier de talents
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profil – détails du candidat | Créer, lire, mettre à jour et supprimer | Créer, lire, mettre à jour et supprimer | Pas d'accès   |
 | Documents                   | Créer, lire, mettre à jour et supprimer | Créer, lire, mettre à jour et supprimer | Pas d'accès   |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

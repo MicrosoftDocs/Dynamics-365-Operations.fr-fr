@@ -55,3 +55,6 @@ Pour ajouter des dimensions financières à un modèle, des modifications suppl�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

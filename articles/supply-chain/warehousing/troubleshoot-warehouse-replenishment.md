@@ -40,3 +40,6 @@ Le travail de prélèvement est bloqué en raison du travail de réapprovisionne
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Lorsque vous utilisez le réapprovisionnement de la demande de vague, si un site de prélèvement doit être réapprovisionné pour répondre à la demande de commande d'origine, le système crée à la fois le travail de réapprovisionnement et le travail de prélèvement. Cependant, il bloque le travail de prélèvement jusqu'à ce que le travail de réapprovisionnement soit terminé. Ce comportement est intentionnel, car l'emplacement de prélèvement n'aura pas suffisamment de stock tant que le travail de réapprovisionnement n'est pas terminé. Terminez le travail de réapprovisionnement, puis traitez le travail de prélèvement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

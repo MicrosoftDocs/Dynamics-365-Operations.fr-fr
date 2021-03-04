@@ -102,3 +102,6 @@ Cette procédure décrit comment paramétrer une nomenclature de numéros de pro
 43. Fermez la page.
 44. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

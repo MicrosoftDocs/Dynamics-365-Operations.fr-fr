@@ -53,3 +53,6 @@ Celles-ci ne doivent être utilisées que si l'annulation du travail de planific
 4. Dans **Tâches des traitements par lots**, sélectionnez les tâches à terminer.
 5. Cliquez sur **Modifier le statut**, choisissez **Annulation** et cliquez sur **OK**.
 6. Sur l'organisateur **Tâches des traitements par lots**, cliquez sur **Abandonner**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

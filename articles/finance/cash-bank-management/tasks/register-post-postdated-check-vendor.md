@@ -56,3 +56,6 @@ Le rôle de ces guides de tâches est Trésorier. La société fictive USMF est 
 16. Fermez la page.
 17. Cliquez sur l’onglet Chèques postdatés.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

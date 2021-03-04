@@ -145,3 +145,6 @@ Lorsque vous générez cet état, les paramètres par défaut suivants sont affi
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

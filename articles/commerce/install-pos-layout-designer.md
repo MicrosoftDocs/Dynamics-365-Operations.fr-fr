@@ -63,3 +63,6 @@ Le l'interface de conception graphique de MPOS ou PDV Cloud est contrôlée par 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Configurer, installer et activer Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -243,3 +243,6 @@ Pour télécharger l’historique d’exécution archivé, accédez à l’espac
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

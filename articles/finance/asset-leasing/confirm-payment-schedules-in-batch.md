@@ -42,3 +42,6 @@ Pour confirmer plusieurs échéanciers de paiement, procédez comme suit.
     - Pour confirmer tous les registres, activez le paramètre **Pour tous les registres**.
 
 Les informations relatives aux registres nouvellement confirmés sont affichées sur la page **Registres confirmés**. Une fois les échéanciers de paiement confirmés, les écritures de journal de reconnaissance initiale peuvent être imputées aux locations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -227,3 +227,6 @@ Délai d'exécution + jours négatifs + date du jour – date de besoin
 Le système utilise uniquement les ordres prévisionnels d'approvisionnement compris dans cette plage de gestion, et il crée un nouvel ordre prévisionnel en dehors de celle-ci. L'avantage des jours négatifs dynamiques est qu'ils incluent le délai d'exécution du produit individuel pour réutiliser les commandes existantes et éviter de créer de nouveaux ordres prévisionnels qui finiront par des jours de retard en raison des délais d'exécution. 
 
 Pour plus d'informations, voir [Jours négatifs et jours négatifs dynamiques](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

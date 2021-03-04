@@ -56,3 +56,6 @@ Ce guide de tâche décrit la création et l’acquisition d’une immobilisatio
 17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 18. Cliquez sur **Valider**. L’immobilisation est créée et acquise lors de la validation de la facture.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

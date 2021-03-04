@@ -87,3 +87,6 @@ Les configurations ER conçues dans l’environnement de développement peuvent 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

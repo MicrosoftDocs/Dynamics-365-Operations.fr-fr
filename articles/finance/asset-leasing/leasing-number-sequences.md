@@ -36,3 +36,6 @@ Cette rubrique explique comment créer des souches de N° pour les ID de bail. I
 3. Sélectionnez **Souches de N°** sous l’onglet latéral.
 4. Sélectionnez la souche de N° pour la référence **ID du bail**. Cette souche de N° sera utilisée pour générer l’identificateur unique de chaque bail.
 5. Sélectionnez la souche de N° pour la référence **ID processus**. Cette souche de N° sera utilisée pour générer l’identificateur unique de chaque processus de réévaluation de l’index.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

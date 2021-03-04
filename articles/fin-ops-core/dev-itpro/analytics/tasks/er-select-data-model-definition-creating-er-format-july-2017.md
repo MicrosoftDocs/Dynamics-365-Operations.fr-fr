@@ -98,3 +98,6 @@ Cette procédure est destinée aux utilisateurs auxquels le rôle Administrateur
     * Notez qu’un seul élément racine est désormais disponible pour la mise en correspondance avec les sources de données d’application. Si au moins une mise en correspondance de modèle est introduite, seuls les éléments racine du modèle qui sont mis en correspondance avec les sources de données d’application peuvent être sélectionnés comme définition de modèle lorsque le format ER est ajouté.   
 5. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

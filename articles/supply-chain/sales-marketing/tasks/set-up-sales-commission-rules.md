@@ -96,3 +96,6 @@ Cette procédure vous montre comment paramétrer et activer le calcul et le suiv
 17. Dans la liste, localisez et sélectionnez le groupe de commissions que vous avez créé précédemment.
 18. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

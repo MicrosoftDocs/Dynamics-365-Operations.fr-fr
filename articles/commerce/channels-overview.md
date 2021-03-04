@@ -89,3 +89,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
 
 [Configurer des hiérarchies d'organisation](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

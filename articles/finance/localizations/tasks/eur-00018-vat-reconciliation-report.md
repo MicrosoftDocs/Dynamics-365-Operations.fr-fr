@@ -41,3 +41,6 @@ Cette procédure indique comment générer l’état de rapprochement de la taxe
 6. Dans le champ Afficher les détails, sélectionnez Oui.
 7. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

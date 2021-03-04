@@ -145,3 +145,6 @@ Pour plus d’informations, voir [Vue d’ensemble du rapprochement de factures 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

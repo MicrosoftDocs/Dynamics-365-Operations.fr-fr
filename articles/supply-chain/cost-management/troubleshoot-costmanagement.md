@@ -62,3 +62,6 @@ N'oubliez pas d'exécuter une clôture de stock à partir du %3 (31-01-2019) cor
 ## <a name="inventory-aging-report-discrepancies"></a>Écarts des états de balance âgée
 
 Le **Rapport de vieillissement du stock** affiche des valeurs différentes lorsqu'elles sont visualisées à différentes dimensions de stockage (telles que le site ou l'entrepôt). Pour plus d'informations sur la logique de création de rapports, voir [Exemples de rapport de vieillissement du stock et logique](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

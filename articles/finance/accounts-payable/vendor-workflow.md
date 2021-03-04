@@ -61,3 +61,6 @@ Une fois que vous avez au moins une modification proposée, deux onglets supplé
     Le statut dans la page est remplacé par **Modifications en attente d’approbation**.
 
 Le workflow suit le processus de workflow standard. L’approbateur est dirigé vers la page **Fournisseur**, où les modifications peuvent être vérifiées sur la page **Modifications proposées**, puis il doit sélectionner **Workflow \> Approuver** pour approuver le workflow. Une fois toutes les approbations effectuées, les champs sont mis à jour avec les valeurs que vous avez proposées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

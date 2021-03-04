@@ -79,3 +79,6 @@ Une fois que vous avez conçu tous les onglets dont vous avez besoin, vous pouve
 1. Continuez à ajouter des onglets supplémentaires si nécessaire.
 
 1. Utilisez les boutons **Déplacer vers le haut** et **Déplacer vers le bas** de la barre d'outils pour organiser les onglets selon les besoins. Les onglets seront affichés de gauche à droite dans l'ordre indiqué dans la capture d'écran ci-dessus (l'onglet en haut est affiché à gauche).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

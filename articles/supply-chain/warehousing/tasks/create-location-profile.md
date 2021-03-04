@@ -43,3 +43,6 @@ Cette rubrique explique comment créer un profil d'emplacement dans Dynamics 365
 10. Sélectionnez **Oui** dans le champ **Autoriser l'inventaire tournant**.
 11. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

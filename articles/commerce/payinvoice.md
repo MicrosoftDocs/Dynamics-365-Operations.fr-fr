@@ -45,3 +45,6 @@ Pour activer ces scénarios, le profil de fonctionnalité pour les magasins doit
 
 > [!NOTE]
 > Le paiement ou le règlement des montants partiels n’est pas encore pris en charge.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

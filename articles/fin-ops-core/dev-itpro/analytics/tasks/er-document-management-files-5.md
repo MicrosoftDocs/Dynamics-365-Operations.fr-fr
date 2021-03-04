@@ -96,3 +96,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 7. Cliquez sur OK.
     * Examinez la sortie générée. Notez qu’en plus du message de la facture au format XML, un fichier unique a été créé pour chaque pièce jointe. Les fichiers joints sont renseignés avec la sortie compressée au format binaire.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

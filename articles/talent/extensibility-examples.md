@@ -79,3 +79,6 @@ Pour télécharger l'**Application de référence**, allez dans [Solution d'exte
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Migration d'application entre clients et environnements](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

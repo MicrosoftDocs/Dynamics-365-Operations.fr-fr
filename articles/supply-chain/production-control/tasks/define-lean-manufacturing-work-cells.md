@@ -100,3 +100,6 @@ Une cellule de travail est une forme spécifique des groupes de ressources qui p
 ## <a name="save"></a>Enregistrer
 1. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

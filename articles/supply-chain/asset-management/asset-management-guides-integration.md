@@ -114,3 +114,6 @@ Pour associer un guide à un modèle de liste de contrôle de maintenance, suive
 
 - [Vue d'ensemble de la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Vue d'ensemble de la gestion des actifs](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Cette rubrique vous montre comment créer des stratégies d'achat pour les align
 4. Sélectionnez **Fermer**.
 - Maintenant vous pouvez définir d'autres règles de stratégie pour la politique d'achat. Notez qu'un type de règle de stratégie ne peut pas avoir de règles superposées actives en même temps dans une stratégie d'approvisionnement unique.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

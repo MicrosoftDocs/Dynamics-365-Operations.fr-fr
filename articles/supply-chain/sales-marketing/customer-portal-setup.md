@@ -86,3 +86,6 @@ Pour gérer efficacement vos portails, vous devez comprendre les portails Power 
 - [Mettre à niveau un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrer la configuration d'un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestion du cycle de vie des solutions : applications Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

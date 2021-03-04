@@ -85,3 +85,6 @@ Pour utiliser le service [Informations sur l'accessibilité de Microsoft](https:
 [Enrichir une page de produit](enrich-product-page.md)
 
 [Enrichir une page d'arrivée de catégorie](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

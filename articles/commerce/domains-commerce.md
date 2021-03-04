@@ -173,3 +173,6 @@ L’instance d’Azure Front Door fournie par Commerce ne prend pas en charge le
   [Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
   [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

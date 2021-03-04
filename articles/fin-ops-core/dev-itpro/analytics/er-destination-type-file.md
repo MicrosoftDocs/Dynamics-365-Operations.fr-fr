@@ -38,3 +38,6 @@ Sur la page **Paramètres de destination**, si vous définissez **Activé** sur 
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

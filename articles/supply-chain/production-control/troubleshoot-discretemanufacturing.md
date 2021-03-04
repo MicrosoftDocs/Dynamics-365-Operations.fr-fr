@@ -142,3 +142,6 @@ Vous ne pouvez pas signaler la quantité d'erreur sur un ordre de fabrication, s
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Puis-je effectuer le suivi des numéros de série des produits finis par rapport aux numéros de série des produits consommés ?
 
 Vous ne pouvez pas effectuer le suivi des numéros de série des produits finis par rapport aux numéros de série des articles qu'un ordre de fabrication consomme pour fabriquer ces produits finis. Ce scénario n'est pas actuellement prise en charge. La solution consiste à créer des ordres de fabrication pour une quantité de 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

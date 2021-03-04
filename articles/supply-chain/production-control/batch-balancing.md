@@ -193,3 +193,6 @@ Il existe une exception à la règle selon laquelle les lots de commandes peuven
 Si une formule contient une substance active pour un produit qui est activé pour les processus de gestion des entrepôts, mais que le numéro de lot est situé sous à un emplacement dans la hiérarchie de réservation, le lot de commandes ne s'applique pas à l'équilibrage du lot.
 
 Un lot de commandes qui ne s'applique pas à l'équilibrage du lot passe par le cycle de processus habituel des lots de commandes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

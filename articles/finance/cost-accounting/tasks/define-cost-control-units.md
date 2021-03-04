@@ -41,3 +41,6 @@ Cette procédure indique comment définir des unités de contrôle des coûts da
 10. Dans le champ Dimension, entrez ou sélectionnez une valeur.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

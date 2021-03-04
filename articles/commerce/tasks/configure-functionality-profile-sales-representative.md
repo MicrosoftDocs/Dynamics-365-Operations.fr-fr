@@ -37,3 +37,6 @@ Cette procédure illustre comment configurer les paramètres du profil de foncti
 4. Dans le champ Invite du représentant, sélectionnez une option.
 5. Sélectionnez Oui dans le champ Demander un représentant.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

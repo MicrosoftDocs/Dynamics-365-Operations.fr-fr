@@ -115,3 +115,6 @@ Les résultats diffèrent en raison des informations disponibles lorsque vous cr
 [![Exemple 2](media/ReplenTemp_example_2.png "Exemple 2")](media/ReplenTemp_example_2_large.png)
 
 Par conséquent, pour obtenir la quantité maximale vers les emplacements réapprovisionnés, vous devez définir l'option **Autoriser le fractionnement** sur *Oui* sur les directives d'emplacement pour le prélèvement de réapprovisionnement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

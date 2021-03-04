@@ -169,3 +169,6 @@ Le modèle révisé est utilisé pour générer l’état de facture financière
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
 
 [Concevoir une configuration pour générer des états au format OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

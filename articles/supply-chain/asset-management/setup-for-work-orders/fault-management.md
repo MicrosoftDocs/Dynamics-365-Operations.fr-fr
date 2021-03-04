@@ -133,3 +133,6 @@ Procédez comme suit pour créer une liste de suggestions de résolution et de r
 
 > [!NOTE]
 > Vous pouvez modifier les noms des symptômes, zones, types, causes, et recours pour les défaillances dont vous disposez comme vous le souhaitez. Les modifications apportées au nom sont répercutées automatiquement dans les enregistrements de défaillance liés.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

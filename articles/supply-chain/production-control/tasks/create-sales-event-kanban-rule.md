@@ -74,3 +74,6 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
 2. Cliquez sur Afficher l'arborescence d'origine des besoins.
     * Notez qu'un kanban est créé avec la même quantité que la ligne de vente. Vous pouvez également afficher les sorties de matériel nécessaires pour produire le L0050. Il s'agit de la dernière étape de cette procédure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

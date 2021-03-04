@@ -54,3 +54,6 @@ Cette procédure indique comment créer un nouveau registre d’immobilisations 
     * Notez que les périodes d’amortissement sont calculées après la définition de la durée de vie.  
     * Vous pouvez définir la convention d’amortissement comme requis pour les besoins fiscaux.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

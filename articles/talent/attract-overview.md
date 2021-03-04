@@ -49,3 +49,6 @@ Dès qu'ils ont été ajoutés à un poste, les candidats reçoivent un e-mail a
 
 ## <a name="analytic-reports"></a>États analytiques
 Les équipes de recrutement peuvent utiliser des mesures de processus de recrutement clés de vue pour un seul poste ou des mesures globales pour tous les postes avec [les états analytiques dans Attract](analytic-reports.md). Cette fonction est actuellement en mode [aperçu](access-preview-feature.md) pour les clients avec [Quelle version de Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Les dates de la ligne d’élément de coût du poste de prévision doivent se t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

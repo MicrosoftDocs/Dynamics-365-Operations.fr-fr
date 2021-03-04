@@ -49,3 +49,6 @@ L'exemple utilise une version d'évaluation des coûts supplémentaire pour la g
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

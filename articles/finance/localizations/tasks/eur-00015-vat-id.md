@@ -61,3 +61,6 @@ Les informations ici s’appliquent à tous les pays/régions européens. La tâ
     * Affectez le type d’enregistrement que vous avez créé à une catégorie d’enregistrement prédéfinie.  
 22. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Cette procédure se concentre sur l'exécution des tâches de traitement de kanb
 6. Entrez un nombre dans le champ Quantité correcte.
 7. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

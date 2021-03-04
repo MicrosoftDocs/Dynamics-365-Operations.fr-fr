@@ -63,3 +63,6 @@ Avant qu’un actif entièrement amorti ne soit fractionné, le statut du regist
     - Une transaction d’acquisition est créée pour le nouvel actif pour le même montant.
 
 4. Sélectionnez **Valider**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

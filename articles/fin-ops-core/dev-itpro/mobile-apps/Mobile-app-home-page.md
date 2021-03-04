@@ -151,3 +151,6 @@ Le tableau suivant contient des liens vers des ressources qui vous aident à imp
 
 ## <a name="troubleshooting"></a>Dépannage
 [Ressources de plateforme mobile](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

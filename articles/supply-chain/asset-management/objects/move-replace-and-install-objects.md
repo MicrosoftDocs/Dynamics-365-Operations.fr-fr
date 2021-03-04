@@ -91,3 +91,6 @@ Utilisez la fonctionnalité **Installer l'actif** pour installer une structure d
 4. Dans le champ **Poste technique**, sélectionner le nouvel emplacement.
 5. Par défaut, le champ **Date d'effet** est défini sur la date et l'heure actuelles. Toutefois, vous pouvez sélectionner d'autres date et heure à partir desquelles l'installation sur la structure d'actif sera valide.
 6. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

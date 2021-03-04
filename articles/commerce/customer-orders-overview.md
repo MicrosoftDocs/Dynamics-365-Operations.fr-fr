@@ -170,3 +170,6 @@ Lorsque l’option **Créer une commande client en mode asynchrone** est défini
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Commandes client hybrides](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

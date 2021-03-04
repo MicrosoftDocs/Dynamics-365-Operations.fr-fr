@@ -46,3 +46,6 @@ Cette rubrique décrit les étapes pour afficher le statut d’un document qui a
     - Le bouton **Réaffecter** ouvre une boîte de dialogue dans laquelle vous pouvez réaffecter un élément de travail à un autre utilisateur.  
     - Assurez-vous que la section **Détails du suivi** est développée. Dans cette section, vous pouvez afficher l’historique du workflow du document sélectionné.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

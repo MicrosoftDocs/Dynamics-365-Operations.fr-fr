@@ -198,3 +198,6 @@ Au cours d'une étape du processus de configuration, le système suggère une va
 
 [Créer une nomenclature de numéros de produit pour des variantes de produit configurées](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

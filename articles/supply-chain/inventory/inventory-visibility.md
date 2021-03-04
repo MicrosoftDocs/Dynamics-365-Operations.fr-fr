@@ -500,3 +500,6 @@ Les requêtes présentées dans les exemples précédents peuvent renvoyer un r�
 ```
 
 Notez que les champs de quantités sont structurés comme un dictionnaire de mesures et de leurs valeurs associées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

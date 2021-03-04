@@ -160,3 +160,6 @@ Le diagramme de Gantt peut être ouvert à partir des pages suivantes.
 
 [Planification visuelle pour la production (script de démonstration)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

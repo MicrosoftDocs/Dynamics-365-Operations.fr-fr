@@ -59,3 +59,6 @@ Les articles empruntés sont des enregistrements qui permettent de suivre les ar
 14. Cliquez sur OK.
 15. Actualisez la page.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Dans les arguments des fonctions logiques, vous pouvez utiliser des références
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions logiques](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

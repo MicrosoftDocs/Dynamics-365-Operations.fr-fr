@@ -34,3 +34,6 @@ Procédez comme suit lors de la mise à niveau vers la version 1611 de Microsof
 1.  Avant la mise à niveau vers Finance and Operations, exécutez les processus de réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client. Définissez le champ **Méthode** sur **Date de facture**. Une transaction de réévaluation qui contrepasse la dernière réévaluation des comptes en devises. Par conséquent, les transactions en cours sont évaluées dans leur devise comptable d’origine.
 2.  Mettre à niveau vers version 1611.
 3.  Exécutez à nouveau la réévaluation des comptes en devises pour la comptabilité fournisseur et la comptabilité client. Cette fois, définissez le champ **Méthode** sur **Standard**. Une nouvelle transaction de réévaluation est créée d’après les taux de change actuels. Cette transaction enregistre les profits/pertes non réalisés et le compte général collectif approprié.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

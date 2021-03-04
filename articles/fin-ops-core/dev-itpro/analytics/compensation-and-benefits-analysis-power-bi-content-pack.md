@@ -66,3 +66,6 @@ Les données de l’application sont utilisées pour remplir les états du pack 
 | Workforce\_WorkerName             | Prénom, nom et nom complet                                                                       | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTitle            | Titre et date d’ancienneté                                                                                   | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTrend            | Collaborateurs dans le temps, effectif, société et poste                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_WorkerBenefit |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

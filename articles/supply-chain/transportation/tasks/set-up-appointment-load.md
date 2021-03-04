@@ -47,3 +47,6 @@ Cette procédure indique comment configurer et planifier un rendez-vous de quai 
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

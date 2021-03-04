@@ -67,3 +67,6 @@ Cette fonction se comporte comme [ROUND](er-functions-mathematical-round.md), ma
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions mathématiques](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

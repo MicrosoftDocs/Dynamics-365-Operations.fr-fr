@@ -147,3 +147,6 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 4. Cliquez sur Terminé.
 5. Cliquez sur OK.
 ![Page du concepteur de mise en correspondance des modèles ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Trois lignes de commande de service ont été créées dans le délai spécifié
 
 [Paramétrage des intervalles de services](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

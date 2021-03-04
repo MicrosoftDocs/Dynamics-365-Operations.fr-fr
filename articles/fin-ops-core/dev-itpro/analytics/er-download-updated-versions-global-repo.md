@@ -98,3 +98,6 @@ Cette rubrique explique comment importer des versions mises à jour des configur
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Télécharger les configurations ER depuis le référentiel global du service de configuration](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

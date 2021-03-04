@@ -107,3 +107,6 @@ Pour modifier le chemin de l'URL, procédez comme suit.
 [Rogner les images](dam-crop-images.md)
 
 [Personnaliser les points focaux de l’image](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

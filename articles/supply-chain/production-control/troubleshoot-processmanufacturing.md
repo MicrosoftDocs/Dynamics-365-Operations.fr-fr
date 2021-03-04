@@ -41,3 +41,6 @@ Dans les versions antérieures à la version 10.0.13, si vous n'utilisez pas le
 > Vous êtes sur le point d'exécuter une clôture de stock avec une date %1. Aucune exécution d'un calcul de comptabilité à rebours avec une date %1 correspondant à la fin de la période a été enregistrée. N'oubliez pas d'exécuter un calcul de comptabilité à rebours avec une date de %1 correspondant à la fin de la période. L'évaluation des stocks, le coût des marchandises vendues et les écarts peuvent ne pas être corrects dans la comptabilité auxiliaire ou la comptabilité tant que cela n'a pas été exécuté.
 
 Ce problème a été résolu dans la version 10.0.13 et ultérieure. Pour plus d'informations, voir [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

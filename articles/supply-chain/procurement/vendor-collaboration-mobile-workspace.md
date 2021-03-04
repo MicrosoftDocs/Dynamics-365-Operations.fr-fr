@@ -170,3 +170,6 @@ Toutes les modifications apportées à la réponse de la ligne de commande sont 
 
 ### <a name="open-confirmed-orders"></a>Commandes confirmées en cours
 Lorsque la commande fournisseur est confirmée par le client (son statut est passé à **Confirmé**), elle apparaît dans la liste des commandes confirmées en cours. Elle restera dans la liste jusqu'à ce qu'elle soit enregistrée comme reçue par le client.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

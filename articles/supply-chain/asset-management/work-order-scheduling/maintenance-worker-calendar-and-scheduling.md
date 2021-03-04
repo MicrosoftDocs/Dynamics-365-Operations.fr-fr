@@ -39,3 +39,6 @@ La capture d'écran ci-dessous présente l'exemple d'un agent de maintenance ass
 
 Le paramétrage du calendrier pour les outils et les actifs n'est pas nécessaire par rapport à la planification des ordres de travail. On suppose que les outils et les actifs sont disponibles 24 heures par jour pour maintenance.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

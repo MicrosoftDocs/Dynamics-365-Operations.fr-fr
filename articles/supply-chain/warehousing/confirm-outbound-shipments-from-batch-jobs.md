@@ -54,3 +54,6 @@ Pour paramétrer un traitement par lots planifié pour exécuter la confirmation
 1. Cliquez sur **OK** dans la boîte de dialogue **Confirmer l’expédition** pour ajouter le traitement par lots à la file d’attente des traitements par lots.
 
 Pour plus d’informations, voir [Vue d’ensemble du traitement par lots](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

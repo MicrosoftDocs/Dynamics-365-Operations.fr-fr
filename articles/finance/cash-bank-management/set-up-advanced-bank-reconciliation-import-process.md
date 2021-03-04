@@ -199,3 +199,6 @@ Si l’importation réussit, vous recevrez un message indiquant que votre relev�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

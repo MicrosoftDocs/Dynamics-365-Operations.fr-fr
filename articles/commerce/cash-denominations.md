@@ -52,3 +52,6 @@ Lors du règlement en espèces dans le PVD, l'utilisateur peut utiliser les dén
 
 - **Supérieur ou égal au montant dû** : par défaut, le PDV n'affiche que les dénominations de billet qui sont supérieures au montant dû, ce qui permet d'effectuer la transaction en une seule étape. Par exemple, si le montant dû est $7,50, le PDV affiche les dénominations suivantes : $10, $20, $50 et $100 Si vous touchez l'un de ces montants, la vente est automatiquement enregistrée pour ce montant. Les billets de $1 et $5 ne sont pas affichés, car ces montants sont inférieurs au montant dû.
 - **Toutes les dénominations** : sélectionnez cette option pour afficher systématiquement toutes les dénominations de billet dans le PDV, quel que soit le montant dû. Cela signifie que l'utilisateur peut utiliser une combinaison de billets pour atteindre le montant dû. Par exemple, si le montant dû est $25,00, l'utilisateur peut choisir $20 et $5 pour terminer la vente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

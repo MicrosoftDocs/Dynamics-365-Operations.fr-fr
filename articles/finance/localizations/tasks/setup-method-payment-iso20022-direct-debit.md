@@ -53,3 +53,6 @@ Il s’agit de la troisième des cinq procédures illustrant le processus de pai
     * Sélectionnez le paramètre Demander un mandat pour les formats de paiement client, qui nécessitent d’inclure les informations de mandat dans le message de paiement, par exemple le débit direct SEPA.  
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

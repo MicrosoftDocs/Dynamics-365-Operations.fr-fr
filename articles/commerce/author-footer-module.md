@@ -87,3 +87,6 @@ En ajoutant le fragment aux modèles de page, vous vous assurez que le pied de p
 [Module En-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

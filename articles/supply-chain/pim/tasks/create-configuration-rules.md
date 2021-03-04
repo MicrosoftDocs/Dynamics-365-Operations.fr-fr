@@ -55,3 +55,6 @@ Cette procédure crée les règles de configuration qui peuvent être utilisées
     * Sélectionnez le numéro d'article à sélectionner ou à désactiver en fonction de la méthode choisie.  
 18. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

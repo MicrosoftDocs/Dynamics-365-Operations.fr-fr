@@ -280,3 +280,6 @@ Lorsque vous devez évaluer cette mise en correspondance de modèle à l’aide 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 Sinon, vous pouvez lire le guide de tâche **Préparer les métadonnées d’application à utiliser dans RCS** dans l’application, ainsi que les guides de tâche **Accéder aux métadonnées d’application à l’aide d’une configuration de gestion des états électroniques** et **Accéder aux métadonnées d’application à l’aide des guides de tâche des applications connectées** dans RCS. Ces guides de tâche peuvent être téléchargés à partir de la page [Guides de tâches de la génération d’états électroniques pour Dynamics 365 for Finance and Operations 8,1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

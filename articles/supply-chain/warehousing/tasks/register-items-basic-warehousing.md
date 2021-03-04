@@ -58,3 +58,6 @@ Cette procédure décrit la manière dont vous enregistrez des articles à l'aid
 2. Cliquez sur Accusé de réception de marchandises.
 3. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

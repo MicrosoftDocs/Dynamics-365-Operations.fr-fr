@@ -139,3 +139,6 @@ Après avoir créé les états du cycle de vie de l'ordre de travail requis pour
 9. Enregistrez le modèle du cycle de vie de l'ordre de travail.
 
 ![Page Modèles du cycle de vie de l'ordre de travail](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

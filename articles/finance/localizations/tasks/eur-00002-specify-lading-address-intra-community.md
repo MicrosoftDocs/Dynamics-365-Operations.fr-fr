@@ -73,3 +73,6 @@ Cette procédure s’applique à tous les pays/régions européens. La tâche a 
 37. Cliquez sur l’onglet Général.
     * Recherchez une ligne nouvellement créée et vérifiez si l’expéditeur a expédié les marchandises depuis l’Italie.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

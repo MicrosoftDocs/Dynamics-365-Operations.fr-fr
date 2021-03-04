@@ -218,3 +218,6 @@ Pour afficher les plans budgétaires dans lesquels un poste de prévision a ét�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

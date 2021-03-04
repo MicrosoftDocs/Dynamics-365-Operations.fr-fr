@@ -58,3 +58,6 @@ Une fois le journal validé, les articles retournés sont enregistrés en stock 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

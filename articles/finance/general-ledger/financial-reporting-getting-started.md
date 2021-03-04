@@ -173,3 +173,6 @@ Problème 3 : vous pouvez continuer au-delà de la page de connexion ClickOnce
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Afficher les états financiers](view-financial-reports.md)
 - [Définitions d’arborescence de génération d’états dans les états financiers](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Cette rubrique illustre comment créer une livraison directe pour une commande c
     - La page Livraison directe sert de console qui fournit à l'acheteur une vue d'ensemble de toutes les lignes de commande client qui doivent être livrées directement et qui lui permet de créer les commandes fournisseur respectives. En outre, il peut ouvrir les bons de livraison directe et les commandes confirmées dans les onglets Confirmation et Livraison.  
     - Après avoir créé un bon de livraison directe, il est automatiquement déplacé vers l'onglet Confirmation. Vous pouvez choisir de confirmer la commande directement à partir de cette page. Lorsque l'achat est confirmé, il est automatiquement déplacé dans l'onglet Livraison, à partir duquel vous pouvez enregistrer sa réception.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Le format utilisé dans cet exemple est Virement ISO20022, mais vous pouvez util
 21. Tapez une valeur dans le champ Objet.
 22. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

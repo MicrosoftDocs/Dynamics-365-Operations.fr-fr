@@ -57,3 +57,6 @@ Cette procédure traite de la validation de l'arborescence d'origine des besoins
 5. Dans l'arborescence, sélectionnez « Ligne de vente 000832\Kanban 000558\Stock en sortie pour L0001\Kanban 000559 ».
     * La tâche pour le deuxième kanban est également planifiée, car l'intégralité de l'arborescence d'origine des besoins est planifiée. Notez que le statut de la tâche de kanban est passé de Non planifiée à Planifiée.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

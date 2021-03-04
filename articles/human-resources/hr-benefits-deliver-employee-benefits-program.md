@@ -68,3 +68,6 @@ Cette article montre comment créer des détails des avantages qui seront utilis
 16. Sélectionnez une option dans le champ Base.
 17. Entrez un nombre dans le champ Montant ou taux.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

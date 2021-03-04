@@ -64,3 +64,6 @@ Pour adhérer à l'utilisation des classements et évaluations sur votre site, p
 [Synchronisation des évaluations de produit dans Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

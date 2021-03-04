@@ -97,3 +97,6 @@ L’illustration ci-dessous présente un exemple de la vue des détails **Activi
 - Vous pouvez copier des actifs d’une activité de temps d’arrêt pour maintenance à une autre. Dans **Toutes les activités de temps d’arrêt pour maintenance**, sélectionnez le bouton **Copier les activités de temps d’arrêt pour maintenance**, puis effectuez vos sélections dans les champs **Des activités de temps d’arrêt pour maintenance** et **Aux activités de temps d’arrêt pour maintenance**, puis cliquez sur **OK**.
 - Dans **Toutes les activités de temps d’arrêt pour maintenance**, cliquez sur le bouton **Lignes du programme de maintenance** ou le bouton **Ordres de travail actifs** pour ouvrir les listes associées et afficher les lignes associées à l’activité de temps d’arrêt pour maintenance sélectionnée.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

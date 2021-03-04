@@ -48,3 +48,6 @@ Cette procédure décrit le processus de paramétrage d'un projet d'embauche col
     * Le cas échéant, sélectionnez le département pour les nouveaux postes.  
 13. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

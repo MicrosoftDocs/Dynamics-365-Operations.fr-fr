@@ -190,3 +190,6 @@ Vous pouvez désormais utiliser s entités de données **Entité d'identificateu
 ## <a name="related-topic"></a>Rubrique connexe
 
 [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

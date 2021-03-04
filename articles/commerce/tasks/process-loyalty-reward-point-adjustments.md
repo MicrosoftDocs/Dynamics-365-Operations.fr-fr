@@ -50,3 +50,6 @@ Cette procédure illustre comment rechercher des informations de carte de fidél
 15. Cliquez sur Transactions de carte.
 16. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

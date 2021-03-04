@@ -76,3 +76,6 @@ Les champs suivants sont disponibles pour chaque processus répertorié sur le r
 | Police | Sélectionnez l'une des valeurs suivantes pour contrôler si et comment le processus actuel sera autorisé pour les produits qui se trouvent dans cet état de cycle de vie :<ul><li>**Activé** – Le processus d'entreprise est autorisé.</li><li>**Bloqué** – Le processus n'est pas autorisé. Si un utilisateur tente d'utiliser le processus sur un produit qui est dans cet état de cycle de vie, le système bloquera la tentative et affichera une erreur à la place. Par exemple, vous pouvez bloquer l'achat de produits en fin de vie.</li><li>**Activé avec avertissement** – Le processus est autorisé, mais un avertissement sera affiché. Par exemple, vous souhaiterez peut-être qu'un produit prototype soit placé sur un ordre de fabrication créé par le service Recherche et développement. Cependant, les autres services doivent savoir qu'ils ne doivent pas encore fabriquer le produit.</li></ul> |
 
 Si vous ajoutez d'autres règles d'état du cycle de vie en tant que personnalisation, vous pouvez afficher ces règles dans l'interface utilisateur (IU) en sélectionnant **Actualiser les processus** dans le volet supérieur. Le bouton **Actualiser les processus** est disponible uniquement pour les administrateurs.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

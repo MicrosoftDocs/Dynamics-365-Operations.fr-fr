@@ -78,3 +78,6 @@ Si la prévision n'est pas générée pour un grand ensemble d'articles, mais, p
 - [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
 
 - [Autoriser un ajustement de la prévision de demande](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -276,3 +276,6 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
 
 5. Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l’ordre des utilisateurs.
 6. Si les utilisateurs du chemin de réaffectation ne répondent pas dans le délai imparti, le système traite automatiquement le document. Pour indiquer l’action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l’onglet **Terminer l’action**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

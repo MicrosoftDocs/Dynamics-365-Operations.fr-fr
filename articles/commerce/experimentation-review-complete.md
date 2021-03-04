@@ -61,3 +61,6 @@ Pour supprimer une expérience dans le générateur de site Commerce, procédez 
 
 ## <a name="previous-step"></a>Étape précédente
 [Exécuter et surveiller une expérience](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

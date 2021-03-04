@@ -89,3 +89,6 @@ Au cours du second semestre, le client décide que les visites de service sont t
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

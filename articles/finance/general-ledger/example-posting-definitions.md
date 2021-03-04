@@ -128,3 +128,6 @@ Dans cet exemple, toutes les parties de compte de la structure de compte - Résu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

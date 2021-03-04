@@ -250,3 +250,6 @@ Si l’écriture de journal de comptabilité auxiliaire est incorrecte lorsque v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

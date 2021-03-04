@@ -48,3 +48,6 @@ Cette procédure illustre la création des dimensions financières des caisses e
 17. Dans la liste, recherchez et sélectionnez la valeur de dimension correspondant à la caisse enregistreuse en cours de mise à jour.
 18. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

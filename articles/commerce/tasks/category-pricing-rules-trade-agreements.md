@@ -59,3 +59,6 @@ Cette procédure illustre comment créer des accords commerciaux sur les prix de
 24. Cliquez sur l'onglet Règles de prix de catégorie.
     * Les règles de tarification de catégorie spécifiques aux canaux s'affichent dans cette liste.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

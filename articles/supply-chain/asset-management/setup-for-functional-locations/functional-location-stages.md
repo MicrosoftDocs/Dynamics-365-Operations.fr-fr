@@ -63,3 +63,6 @@ Une fois que vous avez créé les états du cycle de vie requis pour vos postes 
 5. Si vous souhaitez sélectionner tous les états disponibles pour un modèle, cliquez sur le bouton ![Sélectionner toutes les phases disponibles](media/03-setup-for-functional-locations.png). Tous les états sont transférés vers la section **États du cycle de vie sélectionnés**.
 6. Pour supprimer un état sélectionné à partir du modèle, sélectionnez l'état dans la section **États du cycle de vie sélectionnés** puis sélectionnez le bouton ![flèche précédent](media/04-setup-for-functional-locations.png).
 7. Sélectionnez **Mises à jour de l'état du cycle de vie** pour définir quels états du cycle de vie peuvent suivre un état sélectionné.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

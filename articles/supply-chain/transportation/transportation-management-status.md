@@ -49,3 +49,6 @@ Pour mapper un statut de transport à un statut de transporteur, procédez comme
 1. Sélectionnez le code statut de transport que vous souhaitez mettre en correspondance avec le code du transporteur sélectionné.
 1. Entrez le code externe utilisé par le transporteur.
 1. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

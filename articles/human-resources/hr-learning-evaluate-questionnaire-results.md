@@ -72,3 +72,5 @@ Vous pouvez utiliser les statistiques de questionnaires pour analyser les résul
 -   Sélectionnez ou vérifiez les critères servant à analyser les résultats par personne interrogée ou questionnaire. Par exemple, en sélectionnant le **code postal**, vous pouvez analyser la corrélation entre l'emplacement d'une personne interrogée et les réponses correctes.
 
 Les paramètres que vous définissez sont enregistrés et peuvent servir à recalculer périodiquement les résultats.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

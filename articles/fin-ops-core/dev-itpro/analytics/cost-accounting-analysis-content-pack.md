@@ -123,3 +123,6 @@ Les dimensions clés suivantes sont utilisées comme filtres pour diviser les me
 | Calendriers fiscaux                   | Calendrier, description du calendrier                                                                                       |
 | Exercices                       | Année civile                                                                                                        |
 | Périodes fiscales                     | Période de l’année civile                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

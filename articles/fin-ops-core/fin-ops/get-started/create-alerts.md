@@ -102,3 +102,6 @@ Aucune alerte ne peut être créée pour certaines sources de données secondair
     ```
 2. Créez une alerte à partir du formulaire SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

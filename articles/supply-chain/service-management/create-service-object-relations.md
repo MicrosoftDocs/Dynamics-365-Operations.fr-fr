@@ -72,3 +72,6 @@ Procédez comme suit pour créer une relation d'objet de service pour une comman
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

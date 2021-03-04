@@ -60,3 +60,6 @@ Le nœud supérieur de l'arborescence représente la quantité disponible de l'a
 9. Cliquez sur **Commandes client non expédiées**.
 10. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

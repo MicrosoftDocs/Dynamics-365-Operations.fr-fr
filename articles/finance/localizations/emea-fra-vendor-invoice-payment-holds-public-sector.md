@@ -72,3 +72,6 @@ Si vous assumez le même rôle utilisateur que la personne qui a créé la mise 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

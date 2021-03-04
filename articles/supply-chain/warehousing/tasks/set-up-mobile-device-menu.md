@@ -69,3 +69,6 @@ Cette rubrique montre comment configurer une option du menu Appareil mobile. Dan
 5. Sélectionnez la flèche qui pointe vers la droite.
 6. Sélectionnez **Enregistrer**.
 7. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

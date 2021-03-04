@@ -160,3 +160,6 @@ Ce comportement s'applique uniquement lorsqu'un produit est directement sélecti
 Par exemple, le produit X est affecté au groupe de propriétaires de produits *Armoires design*. Le produit X fait également partie de la nomenclature du produit Y, qui est affectée au groupe de propriétaires de produits *Concevoir des haut-parleurs*. Si un utilisateur du groupe de propriétaires de produits *Concevoir des haut-parleurs* lance le produit Y et sa nomenclature, le produit X sera publié avec le produit Y.
 
 Pour plus d’informations, voir [Propriétaires du produit](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

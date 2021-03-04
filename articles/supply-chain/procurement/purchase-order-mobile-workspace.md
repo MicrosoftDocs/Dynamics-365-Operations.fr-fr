@@ -113,3 +113,6 @@ Après avoir affiché la commande fournisseur qui vous est affectée et avoir lu
 5. Sélectionnez l'action appropriée.
 6. Dans la page **Terminer la tâche**, entrez un commentaire. Notez que si vous sélectionnez l'action **Déléguer**, vous devez sélectionner un utilisateur auquel déléguer la tâche.
 7. Sélectionnez **Terminé**. Après avoir actualisé votre espace de travail, la commande fournisseur ne figurera plus dans votre liste. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

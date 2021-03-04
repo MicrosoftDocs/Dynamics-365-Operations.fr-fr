@@ -91,3 +91,6 @@ Si le problème n’est toujours pas résolu, procédez comme suit.
 4. Ouvrez la page **Mappage de tables** depuis la page **Double écriture** dans l’application Finance and Operations.
 5. Si l’attribut n’est pas renseigné automatiquement sur la carte, ajoutez-le manuellement en cliquant sur le bouton **Ajouter un attribut** puis sur **Enregistrer**. 
 6. Sélectionnez le mappage, puis cliquez sur **Exécuter**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

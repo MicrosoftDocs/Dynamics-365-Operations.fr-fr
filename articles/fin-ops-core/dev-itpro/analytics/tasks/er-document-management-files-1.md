@@ -74,3 +74,6 @@ Vous créerez votre propre configuration du modèle de facture client en la dér
 3. Dans le champ Nom, tapez « Modèle de facture client (personnalisé) ».
 4. Cliquez sur Créer une configuration.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

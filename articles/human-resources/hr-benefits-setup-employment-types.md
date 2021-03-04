@@ -41,3 +41,6 @@ Configurez les types d'emploi dans Dynamics 365 Human Resources pour qu'ils corr
    | **Description** | Description du type d'emploi. |
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

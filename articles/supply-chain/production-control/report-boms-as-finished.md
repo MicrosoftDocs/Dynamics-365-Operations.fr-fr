@@ -89,3 +89,6 @@ Dans ce cas, les deux pièces du numéro d'article COMP disponibles sont prises 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

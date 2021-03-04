@@ -38,3 +38,6 @@ Définissez **Activé** sur **Oui** pour utiliser la configuration de générati
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Il existe plusieurs types de remise :
 - **Remise sur l'expédition** – Une remise qui est appliquée lorsque le total de la transaction est supérieur à un montant spécifié et qu'un mode de livraison spécifique (par exemple, expédition sous deux jours ou livraison le lendemain) est utilisé sur la commande.
 
 Tant les ajustements de prix que les remises peuvent être associés à des groupes de prix. Les groupes de prix peuvent ensuite être associés à des canaux, catalogues, affiliations et programmes de fidélité.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

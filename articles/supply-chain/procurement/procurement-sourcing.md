@@ -104,3 +104,6 @@ Le module Approvisionnements couvre toutes les étapes : identification d’un b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

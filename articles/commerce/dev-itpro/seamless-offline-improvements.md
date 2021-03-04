@@ -56,3 +56,6 @@ Les paramètres Commerce sont généralement mis en cache. Par conséquent, une 
 
 - [Fonctionnalité de point de vente (PDV) en mode hors connexion](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Opérations du point de vente (PDV), en ligne et hors connexion](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Cette procédure crée une règle de kanban à l'aide du paramètre d'événemen
     * Notez qu'un kanban pour 27 a été créé pour traiter l'activité basée sur la règle de kanban créée.  
     * Il s'agit de la dernière étape.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

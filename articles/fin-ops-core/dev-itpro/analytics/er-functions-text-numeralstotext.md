@@ -88,3 +88,6 @@ Le code devise est facultatif. S’il est défini comme une chaîne vide, la dev
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions texte](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

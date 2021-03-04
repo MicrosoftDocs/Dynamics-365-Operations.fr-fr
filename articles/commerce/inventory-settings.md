@@ -93,3 +93,6 @@ L’image suivante montre un exemple de panier qui affiche un message de stock (
 [Module Sélection de magasin](store-selector.md)
 
 [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Une ressource opérationnelle réalise les activités d'un projet ou d'un proces
 4. Saisissez ou sélectionnez une valeur dans le champ Emplacement de l'entrée.
     * Spécifiez l'emplacement d'entrepôt d'où la ressource opérationnelle consomme des matières.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

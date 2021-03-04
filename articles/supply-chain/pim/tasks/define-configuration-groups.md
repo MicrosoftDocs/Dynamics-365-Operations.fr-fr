@@ -40,3 +40,6 @@ Cette procédure indique comment définir des groupes de configuration de produi
 7. Tapez une valeur dans le champ Nom.
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

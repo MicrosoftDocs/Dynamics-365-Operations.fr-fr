@@ -145,3 +145,6 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 46. Fermez la page.
 ![Page Concepteur d’opérations de gestion des états électroniques](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

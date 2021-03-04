@@ -55,3 +55,6 @@ Les étapes suivantes expliquent comment un utilisateur ayant le rôle d’admin
 5. Sélectionnez **Fermer**. 
 6. Sélectionnez la version souhaitée de la configuration ER et cliquez sur **Importer** pour l’importer dans l’instance actuelle.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

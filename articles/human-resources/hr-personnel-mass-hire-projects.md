@@ -82,3 +82,6 @@ Sur la page **Projet d'embauche collective**, cliquez sur **Ouvrir le projet** o
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

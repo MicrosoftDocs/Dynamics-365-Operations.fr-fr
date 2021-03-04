@@ -58,3 +58,6 @@ Pour terminer la réaffectation, sélectionnez **Processus**. Vous êtes invité
 > Pour expliquer pourquoi ces éléments supplémentaires sont affichés, vous pouvez ajouter d’autres colonnes à la grille, telles que **ID de réaffectation** et **Commande client**.
 > 
 > [![Colonnes supplémentaires sur la page Répartition de prix du produit](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -155,3 +155,6 @@ Actuellement, la fonctionnalité des groupes de publication ne prend en charge q
 [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Personnaliser la navigation dans le site](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

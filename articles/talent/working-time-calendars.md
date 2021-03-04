@@ -56,3 +56,6 @@ Pour paramétrer un calendrier, procédez comme suit :
 10. Pour affecter un calendrier aux employés, sélectionnez **Affecter aux employés** dans le volet Actions. Sélectionnez les employés auxquels vous souhaitez affecter ce calendrier, puis cliquez sur **Affecter**.
 
 Il n'est pas nécessaire d'affecter des calendriers aux employés. Si un calendrier de temps de travail est défini, les jours de congés sont automatiquement exclus de la demande. La quantité, en heures ou jours, indique par défaut les temps de travail définis dans le calendrier. Si un calendrier n'est pas affecté à un employé, tous les jours sont disponibles pour les congés et la quantité de congés n'est pas la valeur par défaut pour la demande. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

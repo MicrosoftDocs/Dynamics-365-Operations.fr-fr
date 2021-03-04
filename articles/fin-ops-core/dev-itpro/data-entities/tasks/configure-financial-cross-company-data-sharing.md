@@ -59,3 +59,6 @@ La plateforme Dynamics AX 7.1 ou ultérieure est requise pour ce guide de tâche
 27. Actualisez la page.
 28. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Les organisations du secteur public peuvent utiliser les classifications de fact
 10. Dans la liste, cliquez sur un code facturation à ajouter à cette classification de facturation.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

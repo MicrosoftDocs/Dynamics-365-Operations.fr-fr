@@ -49,3 +49,6 @@ Les capacités de ressource décrivent ce que les ressources opérationnelles pe
 5. Dans le champ Niveau, entrez un nombre.
     * Si vous spécifiez qu'une tâche ou une opération nécessite une capacité particulière, vous pouvez également spécifier le niveau minimal requis. Utilisez le niveau de la capacité pour différencier les ressources capables d'effectuer la même tâche, mais à des vitesses, des forces, des tailles, etc. différentes.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

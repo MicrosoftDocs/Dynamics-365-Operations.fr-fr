@@ -99,3 +99,6 @@ Pour signaler une interruption de l'environnement de production, suivez le proce
  ## <a name="see-also"></a>Voir également :
 
  [Préparation au lancement](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

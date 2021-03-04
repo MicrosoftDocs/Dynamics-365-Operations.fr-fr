@@ -78,3 +78,6 @@ Soit les commandes de service sélectionnées sont annulées, soit leur statut d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

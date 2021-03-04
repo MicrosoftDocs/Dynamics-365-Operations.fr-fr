@@ -138,3 +138,6 @@ Pour générer un rapport **Ventes par catégorie**, procédez comme suit.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Page d'accueil de Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

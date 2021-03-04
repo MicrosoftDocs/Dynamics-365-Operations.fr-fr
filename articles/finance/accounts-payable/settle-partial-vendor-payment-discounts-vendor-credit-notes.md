@@ -71,3 +71,6 @@ Elle peut revoir les transactions fournisseur dans la page **Transactions fourni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

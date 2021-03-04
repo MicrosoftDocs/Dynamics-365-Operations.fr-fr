@@ -113,3 +113,6 @@ Vous pouvez fermer la ligne de réparation une fois qu'une réparation est réso
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

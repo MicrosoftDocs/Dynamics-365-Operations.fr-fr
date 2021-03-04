@@ -93,3 +93,6 @@ Cette enregistrement de tâche traite les étapes de base permettant de créer u
 36. Cliquez sur Enregistrer.
     * Vous pouvez mettre à jour le statut du dossier à tout moment.  Si le traitement de la blessure ou de la maladie est en cours, définissez le dossier à En cours.  Une fois que vous clôturez l'incident, vous pouvez uniquement ajouter ou supprimer des coûts, des traitements ou des déclarations liés à l'incident.  Pour modifier d'autres informations, rouvrez le dossier.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

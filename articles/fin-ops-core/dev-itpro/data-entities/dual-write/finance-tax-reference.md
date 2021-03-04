@@ -37,3 +37,6 @@ Les données financières et fiscales sont intégrées à l’aide des mappages 
 
 + [Comptabilité intégrée](ledger-mapping.md)
 + [Données principales fiscales intégrées](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

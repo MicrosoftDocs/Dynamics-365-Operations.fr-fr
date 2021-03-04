@@ -46,3 +46,6 @@ Vous pouvez planifier des événements de vie futurs dans Dynamics 365 Human Res
    | Ligne | Numéro de ligne du futur événement de vie. |
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

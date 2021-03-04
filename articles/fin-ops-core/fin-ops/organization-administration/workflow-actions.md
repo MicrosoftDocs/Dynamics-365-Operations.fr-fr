@@ -141,3 +141,6 @@ Lorsqu’un approbateur demande la modification d’un document, ce dernier est 
 Supposons que Sam ait envoyé un état de dépenses de 12 000 EUR, et que ce document soit affecté à Sue. Si Sue demande une modification, l’état de dépenses est renvoyé à Sam.
 
 Sam peut soumettre de nouveau l’état de dépenses. Il peut effectuer les modifications demandées d’abord, ou soumettre de nouveau la version d’origine de l’état de dépenses. S’il soumet de nouveau l’état de dépenses, celui-ci est renvoyé à Frank pour approbation, car Frank est le premier approbateur dans le processus d’approbation.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

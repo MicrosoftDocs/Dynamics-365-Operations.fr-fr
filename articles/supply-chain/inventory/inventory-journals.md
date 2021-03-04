@@ -117,3 +117,6 @@ Ces deux journaux de stock prennent en charge uniquement le scénario *Initialis
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Entités de données](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

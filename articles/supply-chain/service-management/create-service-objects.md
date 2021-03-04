@@ -43,3 +43,6 @@ Les objets de service sont des actifs et des produits d'un client pour lesquels 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ La société fictive USRT sert d'exemple dans cet enregistrement.
     * Sélectionnez le compte sur lequel valider les montants de mise en coffre-fort.  
 8. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Vous pouvez utiliser les fenêtres Délai pour optimiser la planification des li
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Fenêtres Délai](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

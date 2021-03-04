@@ -65,3 +65,6 @@ Les employeurs doivent savoir si leurs employés sont victimes de blessures ou d
     * Les organismes déclarants sont les organismes auprès desquels l'incident doit être déclaré. Sélectionnez la case à cocher par défaut correspondant à l'organisme par défaut auprès duquel vous devez déclarer les blessures et la maladies.  
 23. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

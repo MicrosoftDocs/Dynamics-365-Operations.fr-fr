@@ -69,3 +69,6 @@ Lorsque les champs de Sales sont remplis, les limitations suivantes s’applique
 + La configuration des frais et des allocations de frais dans Supply Chain Management n’est pas répliquée dans Sales.
 + Les prix ne tiennent pas compte des prix de détail spéciaux spécifiés dans le **Canal de vente au détail** sur la page de ligne de commande client dans Supply Chain Management.
 + Les remises définies dans la section **Gestion des reprises** de Supply Chain Management ne sont pas prises en compte.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

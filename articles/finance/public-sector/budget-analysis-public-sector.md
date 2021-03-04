@@ -108,3 +108,6 @@ Après avoir modifié les paramètres en haut de la page, cliquez sur **Mettre �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Outre les états financiers, vous pouvez utiliser les états suivants de comptab
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

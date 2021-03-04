@@ -47,3 +47,6 @@ Cette procédure vous indique comment créer une méthode d'attribution de score
 14. Entrez un nombre dans le champ À.
 15. Entrez un nombre dans le champ De.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

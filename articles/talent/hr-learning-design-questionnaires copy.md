@@ -246,3 +246,6 @@ De la même manière, vous pouvez paramétrer un questionnaire afin que, si une 
 
 [Afficher et évaluer les résultats des questionnaires](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

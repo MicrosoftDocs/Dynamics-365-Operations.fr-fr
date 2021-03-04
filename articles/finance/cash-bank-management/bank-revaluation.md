@@ -88,3 +88,6 @@ La transaction de réévaluation des comptes en devises est également fractionn
 Si vous devez contrepasser la transaction de réévaluation, sélectionnez le bouton **Transaction de contrepassation** dans le volet Action de la page **Réévaluation des comptes en devises**. Un enregistrement historique de réévaluation des comptes en devises est créé pour tenir à jour le suivi d’audit historique du moment où la réévaluation s’est produite ou a été contrepassée.
 
 Pour contrepasser plusieurs réévaluations, vous devez contrepasser d’abord la réévaluation la plus actuelle. Continuez ensuite à contrepasser les réévaluations précédentes par ordre de date. Vous pouvez ensuite traiter de nouvelles réévaluations pour les périodes que vous avez contrepassées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

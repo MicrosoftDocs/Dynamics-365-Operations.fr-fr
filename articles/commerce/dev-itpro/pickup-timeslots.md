@@ -123,3 +123,6 @@ L'illustration suivante montre un exemple de commande e-commerce où un créneau
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Module d'information sur le retrait](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

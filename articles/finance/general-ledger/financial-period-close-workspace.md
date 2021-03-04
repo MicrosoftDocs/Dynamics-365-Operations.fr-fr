@@ -108,3 +108,6 @@ Une fois qu’un programme de clôture est terminé, sélectionnez l’option **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

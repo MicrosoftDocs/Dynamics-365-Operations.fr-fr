@@ -67,3 +67,6 @@ L'image suivante présente un exemple de profil de fonctionnalité en ligne.
 [Paramétrer un canal de vente au détail](channel-setup-retail.md)
 
 [Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

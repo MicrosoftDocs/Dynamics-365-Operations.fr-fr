@@ -76,3 +76,6 @@ Puisque les éléments de coûts représentent le niveau le plus bas des détail
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

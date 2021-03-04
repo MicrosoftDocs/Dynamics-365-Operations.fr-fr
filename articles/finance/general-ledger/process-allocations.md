@@ -44,3 +44,6 @@ Les règles de répartition comptable peuvent être utilisées pour les plans bu
 > [!NOTE]
 > Vous ne pouvez pas utiliser les règles de répartition comptable intersociétés pour la planification budgétaire.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Cette procédure a été créée à l’aide des données de la société fictiv
 4. Dans le champ Description, entrez une valeur.
 5. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Cette rubrique fournit des informations sur la façon d’analyser et de gérer 
     - Si **Rôle** est sélectionné, sélectionnez **Ajouter un rôle à l’utilisateur**. Cela ouvrira la page **Attribuer des utilisateurs aux rôles**. Pour plus d’informations, voir la page [Affecter des utilisateurs à des rôles de sécurité](assign-users-security-roles.md).
     - Si **Devoir** est sélectionné, sélectionnez **Ajouter le devoir au rôle**, sélectionnez les rôles auxquels le devoir doit être ajouté, puis sélectionnez **OK**.
     - Si **Privilège** est sélectionné, sélectionnez **Ajouter le privilège aux devoirs**, sélectionnez les rôles auxquels le devoir doit être ajouté, puis sélectionnez **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

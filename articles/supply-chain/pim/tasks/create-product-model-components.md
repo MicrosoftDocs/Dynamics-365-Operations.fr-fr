@@ -38,3 +38,6 @@ Les modèles de configuration de produit basés sur les contraintes utilisent de
 7. Dans le champ Description, entrez une valeur.
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

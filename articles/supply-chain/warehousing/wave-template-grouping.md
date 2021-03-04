@@ -201,3 +201,6 @@ Une vague a été créée pour cette expédition, car elle utilise un service de
 1. Sélectionnez l’ID de vague à partir duquel la troisième commande client a été créée.
 1. Sélectionnez le lien d’ID de vague pour ouvrir la page de détails de la vague.
 1. Notez que l’expédition a été ajoutée à l’organisateur **Lignes de la vague**, ainsi que l’expédition de la première commande client.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

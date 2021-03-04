@@ -65,3 +65,6 @@ Chacune des entités Common Data Service standard est étendue avec des référe
 7. Après avoir étendu entité **Devis**, appliquez un filtre avec `CUSTGROUP !=  "<company>"` comme chaîne de requête.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="En-tête de devis de vente, modifier la requête":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

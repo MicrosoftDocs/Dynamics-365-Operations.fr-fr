@@ -48,3 +48,6 @@ Cette procédure décrit comment réviser les candidatures reçues via les pages
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 3. Développez la section Documents joints.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

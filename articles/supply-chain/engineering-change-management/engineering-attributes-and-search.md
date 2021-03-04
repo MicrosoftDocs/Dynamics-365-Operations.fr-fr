@@ -94,3 +94,6 @@ Vous devez spécifier la catégorie d'ingénierie à laquelle appartient le prod
 Vous pouvez utiliser la recherche d'attributs d'ingénierie pour rechercher des produits en recherchant leurs valeurs d'attributs d'ingénierie. Par conséquent, vous pouvez facilement trouver des produits d'ingénierie, en fonction de leurs caractéristiques. Vous pouvez rechercher dans les produits appartenant à une catégorie de produits d'ingénierie, ou vous pouvez rechercher dans tous les produits d'ingénierie.
 
 La recherche est disponible sur les pages de données de base produit et à partir des postes transactionnels du système, tels que les commandes client. Pour un article transactionnel, vous pouvez utiliser la page **Recherche d'attributs d'ingénierie** pour rechercher un produit. Vous pouvez ensuite utiliser le bouton **Ajouter en tant que nouvelle ligne** pour ajouter le produit aux lignes de commande client. Les produits dans les résultats de la recherche peuvent également être ajoutés directement à la commande.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

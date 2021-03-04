@@ -68,3 +68,6 @@ Pour cette procédure, utilisez la société fictive USMF. Cette procédure est 
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Enregistrer une facture financière comme modèle
 Vous pouvez également enregistrer une facture financière existante comme modèle. Lorsque vous sélectionnez Enregistrer dans le modèle sous l’onglet Facture, entrez un nom et une description pour le modèle. Si un modèle portant le nom existe déjà, une notification s’affiche pour indiquer qu’un modèle portant ce nom existe déjà. Vous pouvez toujours cliquer sur OK pour le remplacer. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

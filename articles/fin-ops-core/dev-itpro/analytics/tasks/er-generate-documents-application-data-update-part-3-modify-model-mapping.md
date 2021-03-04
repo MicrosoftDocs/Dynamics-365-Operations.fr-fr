@@ -168,3 +168,6 @@ Les étapes de cette procédure expliquent comment créer des configurations ER 
 66. Fermez la page.
 67. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

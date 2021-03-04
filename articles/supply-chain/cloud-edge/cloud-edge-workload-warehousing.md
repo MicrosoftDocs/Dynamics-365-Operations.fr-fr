@@ -245,3 +245,6 @@ Sur la charge de travail dans les unités de mise à l'échelle, vous pouvez gé
 
 - Traiter les enregistrements de la table des vagues
 - Traiter les événements de transfert du contrôle d’exécution de la vague
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

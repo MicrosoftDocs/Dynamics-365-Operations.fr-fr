@@ -78,3 +78,6 @@ Si une erreur de validation est détectée, le seul moyen de corriger l’erreur
 
 > [!NOTE]
 > Des règles de validation supplémentaires pour prendre en charge d’autres scénarios seront ajoutées dans une prochaine version.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

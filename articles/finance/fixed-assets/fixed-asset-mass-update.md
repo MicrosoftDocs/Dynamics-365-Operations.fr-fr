@@ -42,3 +42,6 @@ Une fois la convention d’amortissement mise à jour pour les immobilisations, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

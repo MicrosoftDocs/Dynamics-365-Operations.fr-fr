@@ -57,3 +57,6 @@ Cette rubrique explique comment créer un contrat de vente qui incite l'un de vo
 11. Cliquez sur **OK**.
 12. Fermez la page. L'accord est désormais effectif. Vous pouvez commencer à lier les commandes du client à l'accord, à déduire de la cible de l'engagement.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

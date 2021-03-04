@@ -81,3 +81,6 @@ Lorsque vous créez une commande de service pour un accord de service auquel le 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

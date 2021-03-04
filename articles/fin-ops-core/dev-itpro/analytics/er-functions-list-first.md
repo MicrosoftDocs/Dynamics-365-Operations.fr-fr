@@ -59,3 +59,6 @@ L’expression `FIRST(SPLIT("",1)).Value` lève une exception lors de l’exécu
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de liste](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

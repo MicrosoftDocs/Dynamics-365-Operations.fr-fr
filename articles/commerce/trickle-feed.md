@@ -54,3 +54,6 @@ Avec la création de commandes basée sur un flux en continu introduite dans Ret
 > Les options de menu **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Calculer les relevés par lots** et **Retail et Commerce > IT vente au détail et commerce > Validation du PDV > Valider les relevés par lots** sont supprimées avec cette nouvelle fonctionnalité.
 
 Sinon, les types Relevé transactionnel et Tableau d’analyse peuvent être créés manuellement. Accédez à **Retail et Commerce > Canaux > Magasins** et cliquez sur **Relevés**. Cliquez sur **Nouveau**, puis choisissez le type de relevé à créer. Les champs de la page **Relevés** et les actions sous le champ **Groupe de relevés** de la page affichent des données et actions pertinentes selon le type de relevé sélectionné.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

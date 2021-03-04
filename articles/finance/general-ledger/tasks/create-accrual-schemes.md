@@ -41,3 +41,6 @@ Cette rubrique explique comment créer un plan de régularisation. La société 
 10. Entrez un nombre dans le champ **Occurrences par période**.
 11. Dans le champ **Valider les transactions**, sélectionnez à quel moment les transactions doivent être validées, comme **Mensuel**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ La rubrique explique comment configurer un workflow d’approbation qui s’exé
 14. Sur la page **Créer le workflow**, sélectionnez **Fermer**.
 14. Sélectionnez le nouveau workflow, puis sélectionnez **Versions**. Puis sélectionnez **Rendre actif** pour vous assurer que le workflow est actif.
 15. Sélectionnez **Fermer**. La nouvelle version active apparaît.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

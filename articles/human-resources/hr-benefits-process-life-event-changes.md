@@ -52,3 +52,6 @@ Traitez les changements d’événements de vie dans Microsoft Dynamics 365 Huma
    4. Cliquez sur **OK**. Le processus s’exécutera avec les paramètres que vous définissez.
 
 4. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Une fois les conditions préalables remplies, vous pouvez créer un assortiment 
 2. Sélectionner les canaux ou les groupes de canaux de niveau supérieur auxquels l'assortiment s'applique.
 3. Ajouter des catégories de produit, des produits individuels ou des variantes de produit à l'assortiment. Vous pouvez inclure tous les produits dans une catégorie spécifique ou exclure des produits sélectionnés d'une catégorie incluse dans l'assortiment.
 4. Publier l'assortiment. Lorsque vous publiez un assortiment, le planificateur de l'assortiment est exécuté automatiquement. Ce processus génère la liste des produits. Une fois le processus terminé, les produits deviennent accessibles aux canaux auxquels l'assortiment de produits est affecté. Si des modifications sont apportées à un assortiment qui a été publié ou aux canaux auxquels l'assortiment est affecté, l'assortiment doit être mis à jour. Pour mettre à jour l'assortiment lorsque des modifications sont apportées, exécutez le planificateur de l'assortiment en tant que traitement par lots.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

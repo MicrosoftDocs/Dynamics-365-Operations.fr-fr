@@ -197,3 +197,6 @@ Dans cet exercice, vous créerez un état. L’état est un relevé des revenus 
 [Afficher les états financiers](../../../finance/general-ledger/view-financial-reports.md)
 
 [Blog de Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

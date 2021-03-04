@@ -277,3 +277,6 @@ Pour afficher le contenu d'un accusé de réception ou d'une réponse d'erreur d
 
 - [Paramétrer un catalogue externe pour PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [Utiliser des catalogues externes pour PunchOut eProcurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Vous pouvez configurer des règles d'arrondi dans Dynamics 365 Human Resources p
 3. Spécifiez des valeurs pour **Arrondir au plus proche**, **Scénario** et **Type d'arrondi**.
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Pour que vous soyez en mesure d'exécuter cette procédure, le rôle Administrat
 29. Cliquez sur OK.
 30. Sélectionnez une raison pour laquelle vous pointez à la sortie de façon anticipée.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

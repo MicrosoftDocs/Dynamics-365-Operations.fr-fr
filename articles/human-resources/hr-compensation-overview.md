@@ -132,3 +132,6 @@ Après avoir exécuté un événement des traitements de données, vous pouvez r
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

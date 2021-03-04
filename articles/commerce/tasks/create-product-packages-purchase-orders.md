@@ -73,3 +73,6 @@ Cette procédure vous guide lors de la création d'un ensemble de produits et de
 17. Cliquez sur Créer.
 18. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

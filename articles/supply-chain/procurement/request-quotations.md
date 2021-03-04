@@ -247,3 +247,6 @@ L'exemple ci-dessous présente les statuts le plus élevé et le moins élevé d
 | Acceptez l'une des offres. (ou au moins une ligne) |                          Reçu(e)                           |                           Acceptée                           |                    Reçu(e)                    |                    Acceptée                     |                   Reçu(e)                   |                   Acceptée                    |
 |           Rejetez toutes les autres offres.           |                          Rejeté                           |                           Acceptée                           |                    Rejeté                    |                    Acceptée                     |                   Rejeté                   |                   Accepté(e)                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Le processus d'emballage vous permet de valider et conditionner les produits dan
 8. Saisissez ou sélectionnez une valeur dans le champ Unité de poids.
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

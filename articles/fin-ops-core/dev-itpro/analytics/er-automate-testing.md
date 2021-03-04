@@ -380,3 +380,6 @@ Par conséquent, comme vous avez vu, il est possible d’évaluer le fonctionnem
 - [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md)
 - [ER Mettre à niveau votre format en adoptant la nouvelle version de base de ce format](tasks/er-upgrade-format.md)
 - [ER Charger une configuration à partir de Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

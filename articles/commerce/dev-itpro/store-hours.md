@@ -78,3 +78,6 @@ Procédez comme suit pour ajouter des heures d'ouverture de magasin aux reçus d
 Les reçus du PDV incluent désormais les heures d'ouverture de magasin. Si des congés sont inclus dans le modèle, ils figurent sur le ticket de caisse.
 
 ![Exemple de ticket de caisse](../dev-itpro/media/Storehours3.png "Exemple de ticket de caisse")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

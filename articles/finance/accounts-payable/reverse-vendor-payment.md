@@ -83,3 +83,6 @@ Si le chèque contrepassé était émis pour un remboursement client, les évén
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

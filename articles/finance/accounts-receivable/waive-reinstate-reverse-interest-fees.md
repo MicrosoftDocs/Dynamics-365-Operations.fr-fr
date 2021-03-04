@@ -95,3 +95,6 @@ Vous pouvez contrepasser les transactions d’intérêt par l’intermédiaire d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

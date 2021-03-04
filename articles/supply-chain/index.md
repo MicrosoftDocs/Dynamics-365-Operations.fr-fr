@@ -106,3 +106,6 @@ Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisi
 ## <a name="elearning-courses"></a>Cours eLearning
 
 Pour les cours et formations en ligne, consultez [Dynamics 365 Supply Chain Management sur Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

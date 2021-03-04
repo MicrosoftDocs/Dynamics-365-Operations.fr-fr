@@ -62,3 +62,6 @@ Cette procédure vous guide dans la vente d'un programme périodique et le trait
     * Entrez le numéro de la commande client que vous avez noté précédemment dans la procédure. La durée de traitement sera maintenue à une valeur minimale pour cette procédure. Le champ Commande client est facultatif ; vous pouvez traiter toutes les commandes pour n'importe quel programme.  
 21. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

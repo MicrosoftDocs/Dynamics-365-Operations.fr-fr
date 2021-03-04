@@ -96,3 +96,6 @@ Pour plus d'informations sur les modules de gestion de compte et leur création,
 
 [Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

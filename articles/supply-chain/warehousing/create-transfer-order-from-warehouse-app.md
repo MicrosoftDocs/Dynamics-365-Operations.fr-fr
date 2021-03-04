@@ -334,3 +334,6 @@ Les ordres de transfert sont créés sans avaoir recours aux capacités **Contr�
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Puis-je utiliser un contenant dont le stock disponible est négatif ?
 
 La fonction ne prend en charge que les quantités de stock physique positives. Assurez-vous de disposer de quantités de stock physique positives au niveau de l'entrepôt et de l'état des stocks avant d'affecter des contenants à un ordre de transfert.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

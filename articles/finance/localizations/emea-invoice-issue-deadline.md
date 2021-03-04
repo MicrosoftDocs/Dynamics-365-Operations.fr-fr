@@ -122,3 +122,6 @@ Si vous n’avez pas accès aux pages qui vous permettent d’effectuer les tâc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

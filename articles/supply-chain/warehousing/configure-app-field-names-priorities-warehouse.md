@@ -144,3 +144,6 @@ Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées 
 --------
 
 [Vue d'ensemble de l'installation et de la configuration de l'application d'entrepôt](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

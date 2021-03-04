@@ -131,3 +131,6 @@ Ce scénario montre comment la fonctionnalité fonctionne pour les entrepôts d�
 
 > [!NOTE]
 > Le même résultat est attendu lorsque la deuxième ligne est partiellement réservée. Dans ce cas, le travail sera créé pour la quantité de ligne réservée mais pas pour la quantité non réservée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

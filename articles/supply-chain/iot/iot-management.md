@@ -62,3 +62,6 @@ Vous pouvez simuler des signaux de machine d’usine. Pour plus d’informations
 + [Connecter IoT DevKit AZ3166 au hub IoT Azure](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Connecter le simulateur Raspberry Pi en ligne au hub IoT Azure (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Présentation de l’accélérateur de solution de simulation de périphérique](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

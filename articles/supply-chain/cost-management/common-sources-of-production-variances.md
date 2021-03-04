@@ -63,3 +63,6 @@ Voici quelques sources typiques d'écart d'une **substitution de production** :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Pour plus d’informations, voir [Afficher les états financiers](view-financial
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

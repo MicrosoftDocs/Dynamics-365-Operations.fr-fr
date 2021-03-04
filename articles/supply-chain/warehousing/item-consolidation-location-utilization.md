@@ -208,3 +208,6 @@ Le scénario suivant utilise l'application d'entreposage sur un appareil mobile 
 
     > [!NOTE]
    > Le système crée un ID de travail pour chaque déplacement qui doit être effectué. Si vous spécifiez un emplacement qui contient déjà du stock, un seul ID de travail est créé. Si vous spécifiez un nouvel emplacement, deux ID de travail sont créés.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

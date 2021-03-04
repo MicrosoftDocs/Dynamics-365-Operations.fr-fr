@@ -99,3 +99,6 @@ Une aide supplémentaire est disponible sous forme de guides de tâche dans Fina
 #### <a name="videos"></a>Vidéos
 
 Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

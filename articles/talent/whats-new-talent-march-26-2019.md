@@ -97,3 +97,6 @@ Avec Platform Update 25 pour Finance and Operations, les utilisateurs peuvent c
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Vérification d'employé en double : modifications de l'interface utilisateur
 Avec cette modification, les doublons sont détectés au moment de renseigner les champs de nom. Un champ de statut affiche le nombre de doublons trouvés. Vous pouvez sélectionner le lien fourni pour ouvrir une nouvelle page pour évaluer s'il convient d'utiliser la correspondance détectée. Pour éviter d'interrompre la saisie des données, l'écran des doublons ne s'ouvre pas automatiquement.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches 
 [Paramétrer un canal de vente au détail](channel-setup-retail.md)
     
 [Paramétrer un canal en ligne](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

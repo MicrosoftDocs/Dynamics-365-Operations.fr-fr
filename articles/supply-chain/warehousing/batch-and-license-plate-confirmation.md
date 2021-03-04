@@ -48,3 +48,6 @@ Vous pouvez configurer la confirmation du lot et du contenant à l'aide des opti
 
 1. Dans les options de menu de l'appareil mobile, accédez à Paramétrage de la confirmation du travail.  
 1. Permet de sélectionner l'option pour la confirmation du lot ou du contenant. Les deux options sont disponibles pour les prélèvements de type travail qui n'ont pas la confirmation automatique activée.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

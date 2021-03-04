@@ -74,3 +74,6 @@ Cette procédure indique comment créer des documents de transfert pour le mouve
 10. Cliquez sur Bon de livraison.
 11. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

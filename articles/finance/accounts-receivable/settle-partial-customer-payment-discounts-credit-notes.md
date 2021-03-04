@@ -61,3 +61,6 @@ Le règlement sera de 100,00, et inclura un paiement de 99,00 et une remise de 1
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

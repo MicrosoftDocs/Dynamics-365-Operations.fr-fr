@@ -115,3 +115,6 @@ Sauf si des règlementations exigent l’utilisation de souches de numéros cont
 En cas de panne de courant, d’erreur de l’application ou de panne imprévue, le système ne peut pas recycler les numéros automatiquement pour les souches de numéros continues. Vous pouvez exécuter le processus de nettoyage manuellement ou automatiquement pour récupérer les numéros perdus.
 
 Veillez à tenir compte de l’utilisation du serveur lorsque vous planifiez le processus de nettoyage. Nous vous recommandons d’effectuer le nettoyage en tant que traitement par lots pendant les heures creuses.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

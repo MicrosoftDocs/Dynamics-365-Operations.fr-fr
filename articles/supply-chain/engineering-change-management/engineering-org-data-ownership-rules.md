@@ -67,3 +67,6 @@ Chaque catégorie de produits d'ingénierie appartient à une société d'ingén
 
     - Lorsque ces documents sont remis à d'autres entités juridiques, les documents sont protégés contre la suppression par la société opérationnelle.
     - D'autres entités juridiques peuvent ajouter des documents locaux entièrement nouveaux. La société opérationnelle possède et gère ces documents locaux.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

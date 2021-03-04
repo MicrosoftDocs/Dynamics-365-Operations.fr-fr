@@ -56,3 +56,6 @@ Les modifications de cette semaine corrigent un problème où les jours calendai
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Le rapport sur le solde actuel des congés PBI double le solde des employés (385581)
 
 Cette modification corrige le rapport de solde actuel dans ce scénario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Cette procédure décrit comment créer un périphérique et l'associer à une c
 9. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 10. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

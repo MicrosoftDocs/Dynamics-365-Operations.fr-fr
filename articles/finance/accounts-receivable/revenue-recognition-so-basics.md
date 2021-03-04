@@ -97,3 +97,6 @@ Le bouton **Répartition de prix du produit** est toujours disponible pour que v
 L’échéancier de prise en compte de revenu prévu est supprimé et remplacé par l’échéancier de prise en compte de revenu final. Les détails de l’échéancier de produit sont conservés pour chaque ligne de commande client et sont utilisés pour débloquer le produit différé vers le produit réel quand les obligations contractuelles sont satisfaites.
 
 [![Echéancier de prise en compte de revenu final](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

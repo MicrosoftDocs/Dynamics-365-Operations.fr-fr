@@ -72,3 +72,6 @@ Cette procédure indique comment paramétrer des données pour le rapprochement 
 11. Dans le champ Code motif du moins-perçu, entrez ou sélectionnez une valeur.
 12. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

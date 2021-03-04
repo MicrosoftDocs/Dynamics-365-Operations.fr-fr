@@ -70,3 +70,6 @@ Si une demande d'articles est créée sur une commande de service, vous ne pouve
 
 [Demandes d'articles (écran)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

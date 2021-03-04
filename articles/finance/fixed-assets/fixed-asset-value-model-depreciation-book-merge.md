@@ -71,3 +71,6 @@ La procédure de mise à niveau déplacera votre paramétrage actuel et toutes l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

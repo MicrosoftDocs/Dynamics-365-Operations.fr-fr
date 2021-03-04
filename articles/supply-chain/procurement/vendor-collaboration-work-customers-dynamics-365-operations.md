@@ -147,3 +147,6 @@ Les informations accessibles sont le nom du fournisseur, les adresses, les infor
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Vous pouvez également créer des groupes d'agents de maintenance et leur associ
 6. Si un groupe de ressources est associé au groupe d'agents de maintenance sélectionné, sélectionnez **Copier à partir du groupe de ressources**. Dans le champ **Groupe**, sélectionnez le groupe de ressources à partir duquel copier les paramètres de calendrier. Puis, dans le champ **Groupe d'agents**, sélectionnez le groupe d'agents vers lequel copier les paramètres de calendrier du groupe de ressources. Cette étape est utile que si vous souhaitez que les agents de maintenance utilisent le calendrier associé à une ressource (poste de charge) lors de la planification des ordres de travail.
 
     Le champ du raccourci **Détails** affiche le nombre d'agents de maintenance qui ont été paramétrés sur le groupe d'agents de maintenance sélectionné.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

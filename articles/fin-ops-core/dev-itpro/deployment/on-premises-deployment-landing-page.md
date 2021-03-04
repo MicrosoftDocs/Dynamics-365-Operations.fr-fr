@@ -72,3 +72,6 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 - [Fonctionnalités supprimées ou obsolètes pour Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Stratégie du cycle de vie de logiciel et versions sur site](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

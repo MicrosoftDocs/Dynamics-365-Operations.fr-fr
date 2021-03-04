@@ -175,3 +175,6 @@ Lorsque ce mode de calcul est utilisé dans un scénario de retour partiel, si l
 [Frais automatiques avancés omnicanaux](omni-auto-charges.md)
 
 [Activer et configurer les frais automatiques par canal](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

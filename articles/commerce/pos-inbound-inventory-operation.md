@@ -221,3 +221,6 @@ Une fois le document à l’état **Demandé(e)**, il est visible dans l’ongle
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Opération de stock sortant dans le PDV](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Cette rubrique présente comment activer l'impression automatique d'un code cont
 7. Sélectionnez **Enregistrer**.
 8. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

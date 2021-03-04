@@ -106,3 +106,6 @@ Supply Chain Management prend désormais en charge le calcul de nomenclature qui
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

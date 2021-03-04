@@ -33,3 +33,6 @@ Chaque semaine, de nouvelles versions sont publiées pour Talent. Ces versions s
 
 La table des matières continueront d'être mises à jour à chaque semaine. consultez la régulièrement pour connaître toutes les nouvelles fonctionnalités et modifications des versions les plus récentes de Talent.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

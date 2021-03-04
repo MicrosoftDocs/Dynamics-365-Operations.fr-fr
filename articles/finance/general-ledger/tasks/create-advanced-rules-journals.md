@@ -58,3 +58,6 @@ Cette procédure consiste à créer des règles avancées pour les journaux. Cel
 4. Dans l’arborescence, activez « Le groupe pour lequel vous souhaitez autoriser la validation pour ce nom de journal. ».
 5. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

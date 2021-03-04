@@ -85,3 +85,6 @@ Le stock qui n'a pas encore été réservé est réservé lors de la génératio
 Dès que toutes les lignes de prélèvement sont prélevées sur la page **Confirmation prélèvement**, l'expédition associée est terminée. Le processus pour les bons de livraison de commande client peut ensuite être initialisé selon le stock prélevé.
 
 [![Mettre à jour les expéditions sortantes](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

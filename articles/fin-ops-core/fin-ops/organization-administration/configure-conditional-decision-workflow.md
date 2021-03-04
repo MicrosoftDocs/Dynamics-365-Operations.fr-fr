@@ -52,3 +52,6 @@ Le système détermine la branche utilisée en évaluant si le document soumis r
     2. Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l’écran.
     3. Cliquez sur **Tester**. Le système évalue l’enregistrement pour déterminer s’il répond aux conditions que vous avez spécifiées.
     4. Cliquez sur **OK** ou sur **Annuler** pour revenir à l’écran **Propriétés**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

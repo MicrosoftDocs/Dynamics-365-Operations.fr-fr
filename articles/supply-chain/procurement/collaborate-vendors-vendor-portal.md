@@ -104,3 +104,6 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

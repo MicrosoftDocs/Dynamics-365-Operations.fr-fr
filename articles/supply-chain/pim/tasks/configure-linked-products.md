@@ -40,3 +40,6 @@ Cette procédure décrit la configuration de produits liés. Cette procédure ut
 10. Dans le champ Quantité, entrer un numéro.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

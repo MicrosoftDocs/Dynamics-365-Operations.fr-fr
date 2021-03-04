@@ -41,3 +41,6 @@ De nouvelles options ont été ajoutées aux congés et absences (paramètres **
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Les actions de recrutement d'employés sont répertoriées dans l'état « Workflow terminé ».
 Des modifications ont été apportées pour corriger un problème lorsqu'un petit nombre de workflows sont terminés avec un statut « Workflow terminé ». Les nouveaux workflows doivent se déplacer vers un état « Terminé » une fois qu'il est terminé. Tous les workflows ayant le statut Terminé seront transférés vers un statut d'erreur pour permettre la mise à jour ou la suppression, le cas échéant. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Il se peut que vous deviez retarder l’achèvement d’une CF. Par exemple, vou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

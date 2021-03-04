@@ -45,3 +45,6 @@ Sur la page **Double écriture**, vous pouvez recevoir un message d’erreur sem
 *L’entité avec un nom « msdyn \_dualwriteentitymap » avec namemapping=’Logical’ est introuvable dans le MetadataCache.*
 
 Pour résoudre le problème, assurez-vous que la solution principale de double écriture est installée dans Dataverse. La solution principale de double écriture est une condition préalable à la prise en charge des solutions.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

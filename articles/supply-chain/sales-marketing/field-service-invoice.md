@@ -108,3 +108,6 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Factures d'accord (Field Service vers Supply Chain Management) : Lignes de facture
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

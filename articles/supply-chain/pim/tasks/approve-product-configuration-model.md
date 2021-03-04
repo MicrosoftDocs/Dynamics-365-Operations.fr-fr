@@ -49,3 +49,6 @@ L'exécution de cette procédure nécessite qu'il existe au moins un modèle de 
     * Activez la version du modèle de produit. Il n'est possible d'avoir qu'un produit actif pour un modèle de produit à la fois.  
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

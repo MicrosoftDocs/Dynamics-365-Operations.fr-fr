@@ -47,3 +47,6 @@ Le montant calculé des coûts constants amortis d'un article fabriqué est appe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

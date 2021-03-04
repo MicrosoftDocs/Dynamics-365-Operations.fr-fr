@@ -154,3 +154,6 @@ Les collaborateurs du magasin sont invités à sélectionner une station matéri
 - [Paramétrer une application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Vue d’ensemble de la prise en charge des périphériques réseau](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

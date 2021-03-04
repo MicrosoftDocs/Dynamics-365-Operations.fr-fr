@@ -60,3 +60,6 @@ Valeur de l’enregistrement résultante.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions d’enregistrement](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

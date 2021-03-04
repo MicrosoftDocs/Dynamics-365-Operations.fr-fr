@@ -37,3 +37,6 @@ Le complément du service de contrôle de gestion pour Microsoft Dynamics 365 Su
 ## <a name="related-resources"></a>Ressources associées
 
 [Mise en route du service de contrôle de gestion](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

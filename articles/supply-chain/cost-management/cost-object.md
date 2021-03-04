@@ -82,3 +82,6 @@ Le tableau suivant présente ce qui est un objet de coût et ce qui est un objet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

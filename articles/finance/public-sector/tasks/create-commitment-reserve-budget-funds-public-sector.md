@@ -47,3 +47,6 @@ Les engagements sont des documents source de contrôle budgétaire utilisés par
 14. Cliquez sur Affichage des lignes.
 15. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

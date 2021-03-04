@@ -118,3 +118,6 @@ Vous devez sélectionner les comptes par défaut dans la page **Paramétrage du 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

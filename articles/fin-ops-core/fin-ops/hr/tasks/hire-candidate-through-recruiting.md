@@ -45,3 +45,6 @@ Cette procédure permet à un recruteur d’embaucher un candidat ayant déposé
 15. Développez ou réduisez la section la section Informations sur le contact.
 16. Développez ou réduisez la section la section Informations personnelles.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

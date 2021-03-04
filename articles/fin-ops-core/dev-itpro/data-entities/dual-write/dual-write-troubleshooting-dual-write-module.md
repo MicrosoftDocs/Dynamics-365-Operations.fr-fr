@@ -87,3 +87,6 @@ Le correctif de cette erreur dépend de la cause de l’erreur :
 
 + Si le mappage a des mappages dépendants, assurez-vous d’activer les mappages dépendants de ce mappage de table.
 + Le mappage peut ne pas contenir de champs sources ou de destination. Si un champ de l’application Finance and Operations est manquant, suivez les étapes de la section [Problème de champs d’entité manquants sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Si un champ dans Dataverse est manquant, cliquez sur **Actualiser les tables** sur le mappage afin que les champs soient automatiquement remplis à nouveau dans le mappage.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

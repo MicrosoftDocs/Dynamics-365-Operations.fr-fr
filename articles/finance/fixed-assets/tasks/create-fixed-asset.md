@@ -55,3 +55,6 @@ Si vous n’avez pas défini le numéro d’immobilisation dans le modèle du co
 
 > [!WARNING]
 > L’enregistrement d’immobilisation ne sera pas supprimé si les transactions ont été validées dans le registre associé ou si l’immobilisation créée est saisie sur une ligne de journal mais pas validée. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | Contenu  | Description  | Format |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Attestez que vous comprenez Microsoft Dynamics 365 ; Power Platform ; les concepts de cloud ; les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

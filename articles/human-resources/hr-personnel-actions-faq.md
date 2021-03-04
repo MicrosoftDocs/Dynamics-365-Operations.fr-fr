@@ -92,3 +92,6 @@ Exemple :
 - La date d'effet d'une action **Engager un collaborateur** est la date saisie dans le champ **Date de début de l'emploi**.
 - La date d'effet d'une action **Transférer un collaborateur** est la date saisie dans le champ **Date de début de l'affectation** du collaborateur.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

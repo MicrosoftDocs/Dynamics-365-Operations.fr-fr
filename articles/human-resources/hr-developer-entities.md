@@ -180,3 +180,6 @@ Les entités Human Resources suivantes sont disponibles dans Common Data Service
 
 [Choisir une technologie d'intégration de données](hr-admin-integration-choose-technology.md)</br>
 [Configuration de l'intégration Common Data Service](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

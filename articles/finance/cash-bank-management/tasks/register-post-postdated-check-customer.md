@@ -50,3 +50,6 @@ Vous pouvez enregistrer les informations relatives à un chèque postdaté reçu
 15. Cliquez sur Valider.
 16. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

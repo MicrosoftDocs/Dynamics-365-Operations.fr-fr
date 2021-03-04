@@ -47,3 +47,6 @@ Pour enregistrer un ajustement de transition conformément aux nouvelles normes 
 
 5. Pour afficher l’entrée de journal, sélectionnez **Journaux de location d’actifs**.
 6. Sélectionnez le nouveau journal, puis sélectionnez **Valider**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

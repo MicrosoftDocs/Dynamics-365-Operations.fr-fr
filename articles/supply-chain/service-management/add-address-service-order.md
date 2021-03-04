@@ -75,3 +75,6 @@ Pour ajouter une adresse alternative à une commande de service, procédez comme
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

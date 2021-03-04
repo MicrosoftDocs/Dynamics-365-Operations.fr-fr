@@ -49,3 +49,6 @@ Ce guide de tâche indique comment enregistrer des factures fournisseur qui ne s
 12. Cliquez sur **Valider**.
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

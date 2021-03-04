@@ -65,3 +65,6 @@ Les sections suivantes décrivent l’effet de ces paramètres. Elles expliquent
 - Si le champ **N° de document** est défini sur **Généré automatiquement**, l’importation ne réussira pas. Le paramètre **Généré automatiquement** pour le champ **N° de document** n’est pas pris en charge.
 
 Par défaut, l’entité de journal des opérations diverses utilise le traitement basé sur les jeux. Après avoir évalué les besoins commerciaux de votre organisation, vous pouvez modifier le paramètre **Traitement basé sur les jeux** en cliquant sur **Entités de données** dans l’espace de travail **Gestion des données**. Le traitement basé sur les jeux est utilisé pour accélérer le processus d’importation. Si vous n’utilisez pas le traitement basé sur les jeux, l’importation de l’entité de journal des opérations diverses sera plus lente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

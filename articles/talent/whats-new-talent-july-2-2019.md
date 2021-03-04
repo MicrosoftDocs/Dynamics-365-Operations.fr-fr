@@ -55,3 +55,6 @@ Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: 
 ## <a name="changes-in-core-hr"></a>Modifications apportées à Core HR
 
 Cette version inclut des correctifs de bogues mineurs pour Dynamics 365 Talent: Core HR.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

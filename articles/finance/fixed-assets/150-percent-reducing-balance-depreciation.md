@@ -88,3 +88,6 @@ La méthode d’amortissement dégressif de 150 % divise 150 % par le nombre d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

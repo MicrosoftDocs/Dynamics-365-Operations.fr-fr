@@ -101,3 +101,6 @@ La possibilité de suivre les congés des employés et de comprendre le calcul d
 ### <a name="email-support-for-alerts"></a>Prise en charge des alertes par e-mail
 
 Dans Platform Update 26 pour Finance and Operations, les utilisateurs peuvent créer des règles d'alerte qui envoient automatiquement des notifications par e-mail aux contacts lorsque des notifications sont déclenchées par un événement.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

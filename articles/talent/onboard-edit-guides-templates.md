@@ -189,3 +189,6 @@ Pour modifier une ressource, sélectionnez le bouton **Modifier** (le symbole de
 - [Nouveautés ou modifications dans Dynamics 365 Talent](./whats-new.md)
 - [Programmes de lancement](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Obtenir de l'aide sur Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

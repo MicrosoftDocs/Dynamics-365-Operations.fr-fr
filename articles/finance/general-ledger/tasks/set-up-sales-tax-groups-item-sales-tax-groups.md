@@ -50,3 +50,6 @@ Cet enregistrement de tâche décrit le paramétrage des groupes Taxe et Taxe d�
 19. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 20. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

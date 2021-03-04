@@ -73,3 +73,6 @@ La section principale de la page d'accueil peut mettre en évidence des produits
 [Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 
 [Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

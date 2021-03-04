@@ -52,3 +52,6 @@ Lorsque vous avez paramétré l’impression du texte récupéré du montant for
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

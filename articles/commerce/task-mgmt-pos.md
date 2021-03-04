@@ -64,3 +64,6 @@ L'illustration suivante présente l'onglet **Liste de tâches**.
 [Créer des listes de tâches et ajouter des tâches](task-mgmt-create-lists.md)
 
 [Affecter des listes de tâches à des magasins ou des employés](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

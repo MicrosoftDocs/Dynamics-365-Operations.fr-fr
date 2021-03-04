@@ -62,3 +62,6 @@ Pour plus d’informations sur la configuration des réglementations et des vale
 ## <a name="warehouse-management"></a>Gestion des entrepôts
 
 Lorsque vous préparez une expédition dans la Gestion des entrepôts, vous pourrez imprimer plusieurs nouveaux états qui utilisent les informations que vous avez configurées dans la Gestion des informations sur les produits. Pour plus d’informations sur les états disponibles et comment les utiliser, consultez [Demandes de renseignements et déclarations sur les matières dangereuses](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Cette procédure illustre comment traiter les remises client de la génération 
     - Le compte de régularisation Remise a été crédité pour représenter le futur passif du client.
     - Le compte de frais de remise a été débité pour représenter les coûts engagés dans le cadre de la vente.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

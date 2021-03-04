@@ -258,3 +258,6 @@ Après avoir créé des instructions d’emplacement, vous pouvez associer chaqu
 
 - Vidéo : [Analyse approfondie de la configuration de la gestion des entrepôts](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Rubrique d'aide : [Contrôler le travail d'entrepôt à l'aide de modèles de travail et d'instructions d'emplacement](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

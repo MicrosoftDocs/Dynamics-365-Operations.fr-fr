@@ -41,3 +41,6 @@ La gestionnaire de rémunération et avantages peut inscrire des employés dans 
 8. Activez ou désactivez l'extension de la section Remplacements organisationnels.
     * Si les performances de l'employé doivent prendre en compte les performances de différents départements ou d'un département autre que celui affecté au poste de l'employé, le département peut être remplacé. La colonne de pourcentage doit être égale à 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

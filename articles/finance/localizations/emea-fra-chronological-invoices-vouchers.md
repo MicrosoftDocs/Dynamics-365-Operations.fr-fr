@@ -69,3 +69,6 @@ Le système effectue un contrôle supplémentaire des dates de factures pour les
 
 - La validation de nouvelles factures avec des dates antérieures à la date de la dernière facture validée est interdite si aucun code motif n’est défini. Pour activer la validation, un code motif doit être saisi soit dans un en-tête de facture/commande, soit dans l’une des lignes.
 - Un avertissement est émis si la nouvelle date de facturation est postérieure à la date système.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

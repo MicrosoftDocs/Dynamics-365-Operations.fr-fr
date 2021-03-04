@@ -91,3 +91,6 @@ Les informations de remise s’affichent au bas de la page **Régler les transac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

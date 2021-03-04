@@ -439,3 +439,6 @@ Le tableau suivant décrit les différents types de travail avec lesquels vous p
 [Statuts du stock](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

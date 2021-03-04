@@ -74,3 +74,6 @@ Les organisations peuvent exiger des codes motif pour certains types d'absence l
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Fournir une liste de transactions de congé et d'absence pour les RH
 
 La possibilité de suivre les congés des employés et de comprendre le calcul des congés aide non seulement les RH à répondre aux questions des employés, mais aussi de s'assurer de l'attribution exacte des durées de congé aux employés. Les RH disposent désormais d'une nouvelle vision des transactions (dotations, cumuls, ajustements et demandes) afin que le personnel des RH puisse voir les causes des soldes de congés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

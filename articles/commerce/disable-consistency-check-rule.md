@@ -35,3 +35,6 @@ Pour afficher la liste des règles disponibles dans le vérificateur de cohéren
 Par défaut, le statut de chaque règle est défini sur **Activé**. Par conséquent, toutes les règles sont utilisées pour valider les transactions avant qu’elles soient extraites dans les relevés commerciaux. Pour désactiver une règle, modifiez son statut en **Désactivé**. Les règles désactivées ne sont pas prises en compte lorsque les transactions sont validées au cours du processus de calcul des relevés.
 
 Pour contourner l’ensemble du processus de validation, indépendamment des règles activées, accédez à **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres commerciaux**, puis, dans l’onglet **Validation de transaction**, définissez l’option **Désactiver le vérificateur de cohérence pour les transactions commerciales** sur **Oui**. Une fois cette option définie sur **Non**, elle ne peut pas être redéfinie sur **Oui** à partir de l’interface utilisateur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

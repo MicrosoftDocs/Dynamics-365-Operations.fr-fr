@@ -100,3 +100,6 @@ Des processus de rémunération permettent de déterminer de nouveaux montants e
 10. Cliquez sur Approuvé.
     * Une fois l'enregistrement approuvé, il peut être chargé vers l'enregistrement de rémunération officiel de l'employé. La nouvelle rémunération est effective dès la date de la transaction définie dans le processus de rémunération.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

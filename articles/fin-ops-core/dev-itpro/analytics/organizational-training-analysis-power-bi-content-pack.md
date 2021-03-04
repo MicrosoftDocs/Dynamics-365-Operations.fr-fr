@@ -57,3 +57,6 @@ Les données de l’application sont utilisées pour remplir les états du pack 
 | Training\_Position        | Poste, fonction et équivalent du temps plein                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Prénom, nom et nom complet                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Titre et date d’ancienneté                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

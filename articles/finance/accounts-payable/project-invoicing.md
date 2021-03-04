@@ -132,3 +132,6 @@ Vous pouvez créer une facture dont le montant est négatif ; cette facture est 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

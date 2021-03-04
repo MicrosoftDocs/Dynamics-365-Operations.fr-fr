@@ -77,3 +77,6 @@ Lorsque la culture n’est pas définie comme un argument de la fonction appelé
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions de date et d’heure](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

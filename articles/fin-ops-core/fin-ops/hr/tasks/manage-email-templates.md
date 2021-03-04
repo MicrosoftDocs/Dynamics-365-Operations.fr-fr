@@ -47,3 +47,6 @@ Vous pouvez transférer des informations à partir de la base de données de vot
 8. Continuez à taper votre message e-mail en insérant les champs de signet là où vous en avez besoin.
 9. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

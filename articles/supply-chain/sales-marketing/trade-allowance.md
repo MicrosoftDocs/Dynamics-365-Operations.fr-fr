@@ -200,3 +200,6 @@ Pour obtenir une vue d'ensemble plus analytique des différentes mesures de perf
 
 Pour obtenir une vue d'ensemble plus analytique des différentes mesures de performances pour la promotion, vous pouvez utiliser la vue Analyse. Pour accéder à la vue Analyse, cliquez sur **Ventes et marketing** \> **Reprises** \> **Accords de reprise**. Dans le volet Actions, cliquez sur **Analyse**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

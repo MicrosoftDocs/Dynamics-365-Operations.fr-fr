@@ -38,3 +38,6 @@ Si vous définissez **Activé** sur **Oui**, un aperçu de la sortie est créé.
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

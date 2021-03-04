@@ -145,3 +145,6 @@ La majeure partie de ce contenu s’applique également aux produits associés 
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

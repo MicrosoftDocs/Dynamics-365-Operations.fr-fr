@@ -81,3 +81,6 @@ Après avoir défini les informations de base sur votre appel d'offre, vous spé
 4. Fermez la page.
 5. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

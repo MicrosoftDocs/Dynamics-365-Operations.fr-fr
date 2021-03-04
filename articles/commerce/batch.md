@@ -45,3 +45,6 @@ Pour définir l’ID de lot par défaut utilisé pour la facturation des command
 
 > [!NOTE]
 > La prise en charge de la gestion améliorée des éléments suivis par lots pendant la validation des relevés pour les scénarios de gestion des entrepôts non avancés a été introduite dans Retail version 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

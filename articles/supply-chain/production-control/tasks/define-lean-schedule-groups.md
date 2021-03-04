@@ -56,3 +56,6 @@ Les groupes de calendriers de production au plus juste sont définis pour regrou
 3. Dans le champ Clé de répartition par article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

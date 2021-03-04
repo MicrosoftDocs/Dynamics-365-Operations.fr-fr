@@ -281,3 +281,6 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 6. Dans le champ **Compte bancaire**, sélectionnez **DEMF OPER**.
 7. Dans la boîte de dialogue **Générer des paiements**, sélectionnez **OK**.
 8. Dans la boîte de dialogue **Paramètres de gestion des états électroniques**, sélectionnez **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

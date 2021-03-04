@@ -65,3 +65,6 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
 20. Cliquez sur OK.
     * Vous pouvez être invité à entrer une date de traitement.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Cette procédure permet d'indiquer comment créer un ordre de fabrication. Les d
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

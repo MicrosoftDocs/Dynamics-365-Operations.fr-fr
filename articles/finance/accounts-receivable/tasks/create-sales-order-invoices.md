@@ -68,3 +68,6 @@ Ce guide de tâche décrit la facturation d’une commande client, notamment la 
 10. Cliquez sur **Annuler**.
 11. Cliquez sur **Oui**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

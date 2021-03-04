@@ -38,3 +38,6 @@ Dans la page **Chèques**, vous effectuez les tâches de maintenance concernant 
 Pour ouvrir la page **Chèques**, accédez à **Gestion de la trésorerie et de la banque \> Comptes bancaires \> Comptes bancaires**, puis, dans le volet Actions, sous l’onglet **Gérer les paiements**, dans le groupe **Informations associées**, sélectionnez **Chèques**. Sinon, accédez à **Gestion de la trésorerie et de la banque \> Recherches et états \> Chèques**.
 
 Ensuite, pour créer des chèques ayant le statut **Nul**, dans le volet Actions, sélectionnez **Créer des chèques nuls**. Pendant que le système crée les chèques nuls, le compte bancaire associé est temporairement désactivé. Ce comportement permet de réduire le risque que des paiements soient générés en même temps que des chèques nuls sont créés. Une fois le processus terminé, le compte bancaire associé est réactivé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

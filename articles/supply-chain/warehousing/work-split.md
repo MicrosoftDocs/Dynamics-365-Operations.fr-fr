@@ -155,3 +155,6 @@ Si vous essayez d'utiliser l'application d'entrepôt pour exécuter un travail d
 ## <a name="other-blocked-operations"></a>Autres opérations bloquées
 
 Toutes les opérations qui modifient les lignes de travail, les transactions de stock de travail ou les liens de réapprovisionnement liés au travail en cours de fractionnement échoueront et le message d'erreur suivant s'affichera : « Le travail avec l'ID \#\#\#\# est actuellement en cours de fractionnement. »
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

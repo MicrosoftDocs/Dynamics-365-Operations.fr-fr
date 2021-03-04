@@ -61,3 +61,6 @@ Pour plus de détails sur la mise à jour de la plateforme 29 pour Finance and 
 Les modifications des enregistrements des employés prennent rarement effet immédiatement. Vous devez mettre à jour les données à compter de la date de début de l'employé, qui se situe souvent dans le futur, et vous devez également mettre à jour les informations dans le passé. Avec ce modèle de navigation simplifié, vous pourrez mettre à jour les données futures et passées sans accéder à plusieurs formulaires ou sans modifier le contexte de date. Cette modification permet également d'afficher de manière dynamique des informations clés dans la zone de bannière supérieure de l'enregistrement de l'employé.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

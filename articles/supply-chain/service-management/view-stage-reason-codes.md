@@ -45,3 +45,6 @@ Affichez et modifiez la liste des motifs du stade pour une commande de service. 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

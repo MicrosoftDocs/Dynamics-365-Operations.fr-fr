@@ -79,3 +79,6 @@ Cette procédure décrit comment paramétrer un programme de fidélité à deux 
 39. Fermez la page.
 40. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

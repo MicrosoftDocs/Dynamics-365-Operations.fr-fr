@@ -109,3 +109,6 @@ Le tableau suivant indique comment les dates limites de saisie des commandes pou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
