@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b295000e132b8551045520df1af55a37673f131d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19b4f80c6afa2634c469a23dfcd8dd8f151dd6cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427609"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998701"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Créer une règle de kanban à l'aide d'un événement de stock minimal
 
@@ -68,6 +67,3 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
 5. Développer la section Kanbans.
     * Notez qu'un kanban a été créé pour transférer le matériel nécessaire vers l'entrepôt 12.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

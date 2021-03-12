@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 0bbebcc7b2ab89bf2f5db7294acfca1d8a5ad96e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d8c2288a18398f71a75dad6e51d51ba4b09561e6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412259"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997673"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Expédier des commandes depuis un autre magasin à l'aide de la fonction Facturer l'envoi
 
@@ -42,6 +41,3 @@ La fonction Facturer l'envoi utilise les opérations du PDV suivantes : Expédi
 La capacité de sélectionner des adresses d'« expédition » reste inchangée.
 
 Les méthodes d'expédition qui peuvent être utilisées pour honorer la ligne de commande sont basées sur la configuration de modes de livraison valides pour les produits et les adresses. Du fait que les règles sur les modes de livraison valides sont tenues à jour uniquement dans Siège, un client du PDV effectue un appel en temps réel pour extraire les modes de livraison valides pour une ligne d'expédition.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

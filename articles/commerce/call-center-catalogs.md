@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4412415"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997798"
 ---
 # <a name="call-center-catalogs"></a>Catalogues de centre d'appels
 
@@ -101,6 +100,3 @@ Sous l'onglet **Catalogues**, des options de configuration d'un **Échéancier d
 ## <a name="additional-notes"></a>Notes supplémentaires
 
 Actuellement, lorsqu'un ID code source est appliqué à une commande client du centre d'appels, il est utilisé pour piloter les prix, les promotions, les scripts et les articles de vente de gamme supérieure/croisée qui sont spécifiques au catalogue. Le système n'interdit pas, ni n'empêche la commande d'un produit qui ne figure pas dans le catalogue. Si un article commandé ne figure pas dans le catalogue, le système utilise d'abord l'option **Groupe de prix** définie dans le canal du centre d'appels (**Commerce et vente au détail** \> **Canaux** \> **Centres d'appels** \> **Tous les centres d'appels**) pour définir le prix de l'article ou les promotions. Si aucun prix de canal spécifique n'est trouvé, le prix de vente de base de l'article est utilisé.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427655"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996324"
 ---
 # <a name="confirm-and-transfer"></a>Confirmer et transférer
 
@@ -230,6 +229,3 @@ Vous pouvez également confirmer que les relations de transaction ont été mise
 - L'option **Fractionner la quantité dans un nouveau chargement** fonctionne également lorsque certains des en-têtes de travail restants présentent le statut *En cours*. Par conséquent, vous pouvez toujours utiliser la fonctionnalité même si les travailleurs exécutent déjà les ordres de prélèvement.
 - Si vous sélectionnez **Annuler la quantité non traitée** lorsqu'un travail restant présente le statut *Ouvert* ou *En cours*, vous recevez le message d'erreur suivant : « Impossible d'annuler la quantité restante pour le chargement. Il existe un travail pour le chargement. »
 - Si vous sélectionnez **Annuler la quantité non traitée** lorsqu'il n'existe aucun travail restant mais des lignes de chargement ne sont pas libérées sur le chargement, vous recevez le message d'erreur suivant : « L'expédition du chargement n'a pas pu être confirmée, car la quantité de l'article dépasse le pourcentage défini pour la livraison incomplète. » Pour éviter l'erreur, vous pouvez définir le pourcentage de **Livraison incomplète** sur la ligne de chargement non libérée sur 100 %. Les lignes non libérées ne seront pas déplacées vers un nouveau chargement, mais le chargement actuel sera confirmé avec une livraison incomplète. Dans ce cas, vous ne pourrez pas libérer à nouveau la commande d'origine. Par conséquent, vous devrez la gérer d'une autre manière.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

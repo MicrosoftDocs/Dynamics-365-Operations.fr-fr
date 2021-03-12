@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528921"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998501"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Synchroniser des bons de travail de Field Service sur des commandes client de Supply Chain Management
 
@@ -62,13 +61,13 @@ Les tâches suivantes de synchronisation sont requises avant que la synchronisat
 
 | **Field Service** | **Gestion de la chaîne d'approvisionnement** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | En-têtes de commande client CDS |
-| msdyn_workorderservices | Lignes de commande client CDS   |
-| msdyn_workorderproducts | Lignes de commande client CDS   |
+| msdyn_workorders        | En-têtes de commande client de Dataverse |
+| msdyn_workorderservices | Lignes de commande client de Dataverse   |
+| msdyn_workorderproducts | Lignes de commande client de Dataverse   |
 
 ## <a name="entity-flow"></a>Flux d'entité
 
-Les ordres d'exécution sont créés dans Field Service. Si les ordres de travail incluent uniquement des produits conservés en externe, et si la valeur de **Statut des ordres de travail** est différente de **En cours - Non planifié** et **Clôturé - Annulé**, les ordres de travail peuvent être synchronisés sur Supply Chain Management via un projet d'intégration de données Common Data Service. Les mises à jour sur les ordres de travail sont synchronisés comme commandes client dans Supply Chain Management. Ces mises à jour incluent les informations sur le type et le statut d'origine.
+Les ordres d'exécution sont créés dans Field Service. Si les ordres de travail incluent uniquement des produits conservés en externe, et si la valeur de **Statut des ordres de travail** est différente de **En cours - Non planifié** et **Clôturé - Annulé**, les ordres de travail peuvent être synchronisés sur Supply Chain Management via un projet d'intégration de données Microsoft Dataverse. Les mises à jour sur les ordres de travail sont synchronisés comme commandes client dans Supply Chain Management. Ces mises à jour incluent les informations sur le type et le statut d'origine.
 
 ## <a name="estimated-versus-used"></a>Estimé versus Utilisé
 
@@ -273,6 +272,3 @@ Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstat
 Filtre : (msdynce_headersystemstatus ne 690970005) et (msdynce_headersystemstatus ne 690970000) et (msdynce_orderhasexternalmaintainedproductsonly eq true) et ((msdyn_linestatus eq 690970001) ou (msdynce_headersystemstatus eq 690970004) ou (msdyn_allocated ne true))
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

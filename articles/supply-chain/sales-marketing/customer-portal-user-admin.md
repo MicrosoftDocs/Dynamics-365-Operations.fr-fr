@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528291"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996774"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Créer et gérer des utilisateurs du portail client
 
@@ -39,11 +38,11 @@ La vidéo [Inviter les clients à s’enregistrer et à utiliser votre portail c
 
 ## <a name="prerequisite-setup"></a>Paramétrage requis au préalable
 
-Les contacts dans les portails Power Apps sont stockés sous forme d’enregistrements dans l’entité **Contacts** dans Common Data Service. La double écriture synchronise ensuite ces enregistrements avec Microsoft Dynamics 365 Supply Chain Management, selon les besoins.
+Les contacts dans les portails Power Apps sont stockés sous forme d’enregistrements dans la table **Contacts** dans Microsoft Dataverse. La double écriture synchronise ensuite ces enregistrements avec Microsoft Dynamics 365 Supply Chain Management, selon les besoins.
 
 ![Schéma du système pour les contacts du portail client](media/customer-portal-contacts.png "Schéma du système pour les contacts du portail client")
 
-Avant de commencer à inviter de nouveaux clients, assurez-vous que vous avez activé le mappage de l’entité **Contact** en double écriture.
+Avant de commencer à inviter de nouveaux clients, assurez-vous que vous avez activé le mappage de la table **Contact** en double écriture.
 
 ## <a name="the-invitation-process"></a>Le processus d’invitation
 
@@ -58,15 +57,15 @@ Une fois le contact créé, vous devriez pouvoir le voir dans Supply Chain Manag
 
 Pour plus d’informations, voir [Configurer un contact à utiliser dans un portail](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) dans la documentation des portails Power Apps.
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Rôles web et autorisations d’entité prêts à l’emploi
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Rôles web et autorisations de table prêts à l’emploi
 
-Les rôles utilisateur dans les portails Power Apps sont définis par les [rôles web](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) et les [autorisations d’entité](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Quelques rôles sont définis et prêts à l’emploi pour le portail client. Vous pouvez créer de nouveaux rôles et modifier ou supprimer des rôles existants.
+Les rôles utilisateur dans les portails Power Apps sont définis par les [rôles web](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) et les [autorisations de table](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Quelques rôles sont définis et prêts à l’emploi pour le portail client. Vous pouvez créer de nouveaux rôles et modifier ou supprimer des rôles existants.
 
 ### <a name="out-of-box-web-roles"></a>Rôles web prêts à l’emploi
 
 Cette section décrit les rôles web fournis avec le portail client.
 
-Pour plus d’informations sur la modification des rôles d’utilisateur prêts à l’emploi, consultez [Créer des rôles web pour les portails](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) et [Ajouter une sécurité basée sur les enregistrements en utilisant des autorisations d’entité pour les portails](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) dans la documentation des portails Power Apps.
+Pour plus d’informations sur la modification des rôles d’utilisateur prêts à l’emploi, consultez [Créer des rôles web pour les portails](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) et [Ajouter une sécurité basée sur les enregistrements en utilisant des autorisations de table pour les portails](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) dans la documentation des portails Power Apps.
 
 #### <a name="administrator"></a>Administrator
 
@@ -96,6 +95,3 @@ Le tableau suivant montre quelles commandes client les utilisateurs de chaque r�
 
 > [!NOTE]
 > Même si Sam et Jane sont des contacts qui travaillent pour le client X, ils ne peuvent voir que les commandes qu’ils ont eux-mêmes passées et rien d’autre. Bien que May ait une commande dans le système, elle ne peut pas voir cette commande dans le portail client, car elle est un utilisateur non autorisé. (De plus, elle doit avoir passé la commande par un autre canal que le portail client.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
