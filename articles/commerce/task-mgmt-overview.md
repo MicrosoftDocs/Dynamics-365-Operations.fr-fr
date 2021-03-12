@@ -11,45 +11,44 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3891d846f51b5335809876a6557dfb5a031272c8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fbd0ead6d73f4b032bdc3805fce87ec9c802535
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412332"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006158"
 ---
-# <a name="task-management-overview"></a><span data-ttu-id="0f82a-103">Vue d'ensemble de la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="0f82a-103">Task management overview</span></span>
+# <a name="task-management-overview"></a><span data-ttu-id="aed6d-103">Vue d'ensemble de la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="aed6d-103">Task management overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="0f82a-104">Cette rubrique donne une vue d'ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="0f82a-104">This topic provides an overview of task management for managers and workers in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="aed6d-104">Cette rubrique donne une vue d'ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="aed6d-104">This topic provides an overview of task management for managers and workers in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="0f82a-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="0f82a-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="aed6d-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="aed6d-105">Overview</span></span>
 
-<span data-ttu-id="0f82a-106">Dans un environnement de vente au détail, il est toujours difficile de s'assurer que les tâches sont effectuées par la bonne personne au bon moment.</span><span class="sxs-lookup"><span data-stu-id="0f82a-106">In a retail environment, it's always difficult to make sure that tasks are performed by the right person at the right time.</span></span> <span data-ttu-id="0f82a-107">Les détaillants doivent être en mesure d'informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.</span><span class="sxs-lookup"><span data-stu-id="0f82a-107">Retailers must be able to notify workers about upcoming tasks and provide related business context, so that the tasks can be completed correctly and on time.</span></span>
+<span data-ttu-id="aed6d-106">Dans un environnement de vente au détail, il est toujours difficile de s'assurer que les tâches sont effectuées par la bonne personne au bon moment.</span><span class="sxs-lookup"><span data-stu-id="aed6d-106">In a retail environment, it's always difficult to make sure that tasks are performed by the right person at the right time.</span></span> <span data-ttu-id="aed6d-107">Les détaillants doivent être en mesure d'informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.</span><span class="sxs-lookup"><span data-stu-id="aed6d-107">Retailers must be able to notify workers about upcoming tasks and provide related business context, so that the tasks can be completed correctly and on time.</span></span>
 
-<span data-ttu-id="0f82a-108">La gestion des tâches est une fonctionnalité de productivité dans Dynamics 365 Commerce qui permet aux responsables et aux employés de créer des listes de tâches, de gérer les critères d'affectation, de suivre le statut des tâches et d'intégrer ces opérations entre le back-office Commerce et les applications PDV.</span><span class="sxs-lookup"><span data-stu-id="0f82a-108">Task management is a productivity feature in Dynamics 365 Commerce that lets managers and workers create task lists, manage assignment criteria, track task status, and integrate these operations between Commerce back office and point of sale (POS) applications.</span></span>
+<span data-ttu-id="aed6d-108">La gestion des tâches est une fonctionnalité de productivité dans Dynamics 365 Commerce qui permet aux responsables et aux employés de créer des listes de tâches, de gérer les critères d'affectation, de suivre le statut des tâches et d'intégrer ces opérations entre le back-office Commerce et les applications PDV.</span><span class="sxs-lookup"><span data-stu-id="aed6d-108">Task management is a productivity feature in Dynamics 365 Commerce that lets managers and workers create task lists, manage assignment criteria, track task status, and integrate these operations between Commerce back office and point of sale (POS) applications.</span></span>
 
-<span data-ttu-id="0f82a-109">Les personnes au siège peuvent utiliser la gestion des tâches pour créer des listes de tâches pour les magasins de vente au détail et pour suivre le statut par magasin ou par employé.</span><span class="sxs-lookup"><span data-stu-id="0f82a-109">Headquarters personas can use task management to create task lists for retail stores, and to track status by store or worker.</span></span> <span data-ttu-id="0f82a-110">Ils peuvent également créer des tâches récurrentes (par exemple, « Liste de contrôle pour la fermeture du jeudi soir »).</span><span class="sxs-lookup"><span data-stu-id="0f82a-110">They can also create recurrent tasks (for example, "Thursday night closing checklist").</span></span>
+<span data-ttu-id="aed6d-109">Les personnes au siège peuvent utiliser la gestion des tâches pour créer des listes de tâches pour les magasins de vente au détail et pour suivre le statut par magasin ou par employé.</span><span class="sxs-lookup"><span data-stu-id="aed6d-109">Headquarters personas can use task management to create task lists for retail stores, and to track status by store or worker.</span></span> <span data-ttu-id="aed6d-110">Ils peuvent également créer des tâches récurrentes (par exemple, « Liste de contrôle pour la fermeture du jeudi soir »).</span><span class="sxs-lookup"><span data-stu-id="aed6d-110">They can also create recurrent tasks (for example, "Thursday night closing checklist").</span></span>
 
-<span data-ttu-id="0f82a-111">Les responsables de magasin peuvent utiliser la gestion des tâches pour affecter des tâches à des employés individuels, envoyer des notifications sur les tâches à venir ou en retard, mettre à jour le statut des tâches et créer des tâches à but unique dans l'application PDV.</span><span class="sxs-lookup"><span data-stu-id="0f82a-111">Store managers can use task management to assign tasks to individual workers, send notifications about upcoming tasks or tasks that are past due, update task status, and create single-purpose tasks in the POS application.</span></span> <span data-ttu-id="0f82a-112">Les employés peuvent ensuite voir les notifications, afficher les détails des tâches et mettre à jour le statut des tâches dans le PDV.</span><span class="sxs-lookup"><span data-stu-id="0f82a-112">Workers can then see notifications, view task details, and update task status at the POS.</span></span>
+<span data-ttu-id="aed6d-111">Les responsables de magasin peuvent utiliser la gestion des tâches pour affecter des tâches à des employés individuels, envoyer des notifications sur les tâches à venir ou en retard, mettre à jour le statut des tâches et créer des tâches à but unique dans l'application PDV.</span><span class="sxs-lookup"><span data-stu-id="aed6d-111">Store managers can use task management to assign tasks to individual workers, send notifications about upcoming tasks or tasks that are past due, update task status, and create single-purpose tasks in the POS application.</span></span> <span data-ttu-id="aed6d-112">Les employés peuvent ensuite voir les notifications, afficher les détails des tâches et mettre à jour le statut des tâches dans le PDV.</span><span class="sxs-lookup"><span data-stu-id="aed6d-112">Workers can then see notifications, view task details, and update task status at the POS.</span></span>
 
-<span data-ttu-id="0f82a-113">L'illustration suivante présente l'architecture conceptuelle de la gestion des tâches dans Commerce.</span><span class="sxs-lookup"><span data-stu-id="0f82a-113">The following illustration shows the conceptual architecture of task management in Commerce.</span></span>
+<span data-ttu-id="aed6d-113">L'illustration suivante présente l'architecture conceptuelle de la gestion des tâches dans Commerce.</span><span class="sxs-lookup"><span data-stu-id="aed6d-113">The following illustration shows the conceptual architecture of task management in Commerce.</span></span>
 
 ![Architecture conceptuelle de la gestion des tâches](media/Tasks-management-conceptual-architecture.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="0f82a-115">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="0f82a-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="aed6d-115">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="aed6d-115">Additional resources</span></span>
 
-[<span data-ttu-id="0f82a-116">Configurer la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="0f82a-116">Configure task management</span></span>](task-mgmt-configure.md)
+[<span data-ttu-id="aed6d-116">Configurer la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="aed6d-116">Configure task management</span></span>](task-mgmt-configure.md)
 
-[<span data-ttu-id="0f82a-117">Créer des listes de tâches et ajouter des tâches</span><span class="sxs-lookup"><span data-stu-id="0f82a-117">Create task lists and add tasks</span></span>](task-mgmt-create-lists.md)
+[<span data-ttu-id="aed6d-117">Créer des listes de tâches et ajouter des tâches</span><span class="sxs-lookup"><span data-stu-id="aed6d-117">Create task lists and add tasks</span></span>](task-mgmt-create-lists.md)
 
-[<span data-ttu-id="0f82a-118">Affecter des listes de tâches à des magasins ou des employés</span><span class="sxs-lookup"><span data-stu-id="0f82a-118">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
+[<span data-ttu-id="aed6d-118">Affecter des listes de tâches à des magasins ou des employés</span><span class="sxs-lookup"><span data-stu-id="aed6d-118">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
 
-[<span data-ttu-id="0f82a-119">Gestion des tâches dans le PDV</span><span class="sxs-lookup"><span data-stu-id="0f82a-119">Task management in POS</span></span>](task-mgmt-POS.md)
+[<span data-ttu-id="aed6d-119">Gestion des tâches dans le PDV</span><span class="sxs-lookup"><span data-stu-id="aed6d-119">Task management in POS</span></span>](task-mgmt-POS.md)
