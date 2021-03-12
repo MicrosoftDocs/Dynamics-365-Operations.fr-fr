@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchRFQVendQuestionAnswer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: kamaybac
 ms.search.validFrom: 2020-1-22
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d0c53a626cb2a727c6578b306ba0d7ab2f612dba
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.openlocfilehash: 2f56d34a06a207767214204f79e9da0bafdd93d7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992106"
 ---
 # <a name="responding-to-vendor-questions-on-request-for-quotations"></a>Réponse aux questions des fournisseurs sur les appels d’offre
 
@@ -105,6 +104,3 @@ Pour les appels d’offres publiés, vous devez modifier un appel d’offre pour
 
 > [!IMPORTANT]
 > Si vous modifiez un appel d’offre existant dans le but d’autoriser les questions du fournisseur, le système effacera toutes les réponses existantes lorsque vous renvoyez l’appel d’offre.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56f063e24e2c332889191638b4f6ffcb2c08500d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443064"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990990"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Créer un code intérêt avec une plage
 
@@ -51,6 +50,3 @@ Vous pouvez paramétrer les codes intérêt de sorte à calculer différents mon
 21. Spécifiez le pourcentage d’intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
 22. Cliquez sur Fermer pour terminer le paramétrage.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.openlocfilehash: 9045d1db0a43e2aca9c79964dec026b22807e391
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654338"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991913"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaboration fournisseur avec des clients
 
@@ -147,6 +146,3 @@ Les informations accessibles sont le nom du fournisseur, les adresses, les infor
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

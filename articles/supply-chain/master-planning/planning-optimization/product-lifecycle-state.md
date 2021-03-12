@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 371d98eefa482fc3e430f2f0977ddffb9dd0d30e
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 02c31aa3862df8dabc2b8c065dc3a94877d237f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645090"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992418"
 ---
 # <a name="exclude-products-that-have-specific-product-lifecycle-states"></a>Exclure les produits avec des états du cycle de vie des produits spécifiques
 
@@ -42,6 +41,3 @@ Produits lancés et variantes où le champ **État du cycle de vie du produit** 
 Pour plus d’informations sur les états du cycle de vie du produit, voir [Vue d’ensemble des états du cycle de vie du produit](../../pim/product-lifecycle.md).
 
 Pour des informations détaillées avec étapes sur l'utilisation des états du cycle de vie des produits pour exclure des produits de la planification et des calculs au niveau de la nomenclature, voir [Créer un état du cycle du vie des produits pour exclure des produits de la planification](../../pim/tasks/exclude-products-master-planning.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

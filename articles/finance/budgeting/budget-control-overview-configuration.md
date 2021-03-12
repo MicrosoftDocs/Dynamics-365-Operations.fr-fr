@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4443390"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990941"
 ---
 # <a name="budget-control-overview"></a>Vue d’ensemble des contrôles budgétaires
 
@@ -127,6 +126,3 @@ Une fois le contrôle budgétaire activé, les utilisateurs recevront des messag
 Depuis cette page, les utilisateurs peuvent explorer la page **Statistiques du contrôle budgétaire par période** pour découvrir les détails concernant la disponibilité budgétaire et les réservations pour une combinaison de dimensions de contrôle budgétaire sélectionnée. Les utilisateurs peuvent également explorer la page **Statistiques de contrôle budgétaire** pour afficher la disponibilité budgétaire de toutes les combinaisons de dimensions financières utilisées dans le contrôle budgétaire. 
 
 Si le contrôle budgétaire est activé pour les commandes fournisseur, le responsable du budget peut utiliser l’espace de travail **Budgets comptables et prévisions** pour passer en revue la file d’attente de toutes les commandes fournisseur non confirmées avec des avertissements ou des erreurs du contrôle budgétaire. Si le responsable du budget est autorisé à dépasser le budget, il peut confirmer les commandes fournisseur directement dans l’espace de travail.    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

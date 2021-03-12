@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427666"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992243"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planification avec accords commerciaux d'achat
 
@@ -74,22 +73,19 @@ Une fois votre système préparé comme décrit dans la section précédente, vo
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Exemples de la façon dont l'optimisation de la planification trouve le fournisseur et les délais
 
-Le tableau suivant fournit des exemples qui montrent comment les différents paramètres d'un produit lancé et ses accords commerciaux d'achat associés affectent les valeurs trouvées pour la commande fournisseur prévisionnelle résultante. Les valeurs en **gras** des deux colonnes les plus à droite sont les valeurs sélectionnées par l'optimisation de la planification. Les valeurs en ***gras italique*** des autres colonnes sont les paramètres qui ont produit les valeurs résultantes pour chaque ligne.
+Le tableau suivant fournit des exemples qui montrent comment les différents paramètres d'un produit lancé et ses accords commerciaux d'achat associés affectent les valeurs trouvées pour la commande fournisseur prévisionnelle résultante. Les valeurs en **gras** des deux colonnes les plus à droite sont les valeurs sélectionnées par l'optimisation de la planification. Les valeurs en **_gras et italique_** des autres colonnes sont les paramètres qui ont produit les valeurs résultantes pour chaque ligne.
 
 | Produit lancé : Fournisseur | Paramètres de commande par défaut : Délai | Couverture de l'article : Remplacer le fournisseur | Couverture de l'article : Remplacer le délai | Accord commercial : Fournisseur | Accord commercial : Délai | Accord commercial : Ignorer le délai | Fournisseur résultant | Délai résultant |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | N° | N° | US003 | 3 | N° | **US001** | **1** |
-| US001 | 1 | ***Oui : US002*** | ***Oui : 2*** | US003 | 3 | N° | **US002** | **2** |
-| *(Vide)* | 1 | N° | N° | ***US003*** | ***3*** | N° | **US003** | **3** |
-| *(Vide)* | ***1*** | N° | N° | ***US003*** | 3 | Oui | **US003** | **1** |
-| *(Vide)* | ***1*** | ***Oui : US002*** | N° | US003 | 3 | N° | **US002** | **1** |
-| *(Vide)* | ***1*** | ***Oui : US002*** | N° | US003 | 3 | N° | **US002** | **1** |
-| *(Vide)* | 1 | N° | Oui : 2 | ***US003*** | ***3*** | N° | **US003** | **3** |
-| *(Vide)* | 1 | N° | ***Oui : 2*** | ***US003*** | 3 | Oui | **US003** | **2** |
+| _*_US001_*_ | _*_1_*_ | N° | N° | US003 | 3 | N° | **US001** | **1** |
+| US001 | 1 | **_Oui : US002_** | _*_Oui : 2_*_ | US003 | 3 | N° | **US002** | **2** |
+| *(Vide)* | 1 | N° | N° | ***US003** _ | _*_3_*_ | N° | **US003** | **3** |
+| *(Vide)* | ***1*** | N° | N° | _*_US003_*_ | 3 | Oui | **US003** | **1** |
+| *(Vide)* | ***1*** | _*_Oui : US002_*_ | N° | US003 | 3 | N° | **US002** | **1** |
+| *(Vide)* | ***1*** | _*_Oui : US002_*_ | N° | US003 | 3 | N° | **US002** | **1** |
+| *(Vide)* | 1 | N° | Oui : 2 | ***US003*** | _*_3_*_ | N° | **US003** | **3** |
+| *(Vide)* | 1 | N° | ***Oui : 2*** | _*_US003_*_ | 3 | Oui | **US003** | **2** |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Contrats d'achat](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

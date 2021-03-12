@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443043"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991241"
 ---
 # <a name="credit-management-setup"></a>Paramétrage de la gestion du crédit 
 
@@ -153,6 +152,3 @@ Suivez ces étapes pour ajouter des lignes qui représentent la limite de crédi
 2. Sélectionnez l’opérateur de comparaison qui définit la manière dont les informations du groupe de notation doivent être évaluées.
 3. Entrez la valeur qui doit être comparée à la valeur spécifiée pour le groupe de notation.
 4. Saisissez la limite de crédit à attribuer si les informations client correspondent à la valeur spécifiée pour le groupe de notation. Par exemple, vous créez une limite de crédit automatique pour le groupe de notation **Faible**. Si les années d’activité font partie des groupes de notation, vous pouvez définir une ligne qui affecte une limite de 100 000 crédits si le client est en activité depuis cinq ans et une autre ligne qui affecte une limite de 200 000 crédits si le client est en activité depuis 10 ans.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
