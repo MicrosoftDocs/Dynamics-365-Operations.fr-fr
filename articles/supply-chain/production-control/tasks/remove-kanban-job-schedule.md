@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, SysLookupMultiSelectGrid, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0236faa9b534678ed232ac3572c8172c62e5241f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcd9247e24323ba606377d7e51bd4447ab51c905
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427583"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961613"
 ---
-# <a name="remove-a-kanban-job-from-the-schedule"></a><span data-ttu-id="c9895-103">Supprimer une tâche de kanban du programme</span><span class="sxs-lookup"><span data-stu-id="c9895-103">Remove a kanban job from the schedule</span></span>
+# <a name="remove-a-kanban-job-from-the-schedule"></a><span data-ttu-id="2ed2d-103">Supprimer une tâche de kanban du programme</span><span class="sxs-lookup"><span data-stu-id="2ed2d-103">Remove a kanban job from the schedule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c9895-104">Cette procédure consiste à supprimer une tâche de kanban d'un processus planifié du programme en basculant le statut de la tâche sur Non planifié.</span><span class="sxs-lookup"><span data-stu-id="c9895-104">This procedure focuses on removing a planned process kanban job from the schedule by reverting the job status to Not planned.</span></span> <span data-ttu-id="c9895-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="c9895-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c9895-106">Cette procédure est destinée au superviseur d'atelier ou au responsable de production.</span><span class="sxs-lookup"><span data-stu-id="c9895-106">This procedure is intended for the shop floor supervisor or production planner.</span></span>
+<span data-ttu-id="2ed2d-104">Cette procédure consiste à supprimer une tâche de kanban d'un processus planifié du programme en basculant le statut de la tâche sur Non planifié.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-104">This procedure focuses on removing a planned process kanban job from the schedule by reverting the job status to Not planned.</span></span> <span data-ttu-id="2ed2d-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2ed2d-106">Cette procédure est destinée au superviseur d'atelier ou au responsable de production.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-106">This procedure is intended for the shop floor supervisor or production planner.</span></span>
 
 
-## <a name="find-a-planned-kanban-job"></a><span data-ttu-id="c9895-107">Rechercher une tâche de kanban planifiée</span><span class="sxs-lookup"><span data-stu-id="c9895-107">Find a planned kanban job</span></span>
-1. <span data-ttu-id="c9895-108">Accédez à Contrôle de la production > Kanban > Planification de tâches de kanban.</span><span class="sxs-lookup"><span data-stu-id="c9895-108">Go to Production control > Kanban > Kanban job scheduling.</span></span>
-2. <span data-ttu-id="c9895-109">Dans le champ Cellule de travail, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="c9895-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="c9895-110">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c9895-110">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="c9895-111">Sélectionnez la cellule de travail 1250.</span><span class="sxs-lookup"><span data-stu-id="c9895-111">Select work cell 1250.</span></span>  
-4. <span data-ttu-id="c9895-112">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="c9895-112">Click Select.</span></span>
-5. <span data-ttu-id="c9895-113">Sélectionnez « Planifié » dans le champ Afficher le statut de la tâche.</span><span class="sxs-lookup"><span data-stu-id="c9895-113">In the Display job status field, select 'Scheduled'.</span></span>
+## <a name="find-a-planned-kanban-job"></a><span data-ttu-id="2ed2d-107">Rechercher une tâche de kanban planifiée</span><span class="sxs-lookup"><span data-stu-id="2ed2d-107">Find a planned kanban job</span></span>
+1. <span data-ttu-id="2ed2d-108">Accédez à Contrôle de la production > Kanban > Planification de tâches de kanban.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-108">Go to Production control > Kanban > Kanban job scheduling.</span></span>
+2. <span data-ttu-id="2ed2d-109">Dans le champ Cellule de travail, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-109">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="2ed2d-110">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-110">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="2ed2d-111">Sélectionnez la cellule de travail 1250.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-111">Select work cell 1250.</span></span>  
+4. <span data-ttu-id="2ed2d-112">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-112">Click Select.</span></span>
+5. <span data-ttu-id="2ed2d-113">Sélectionnez « Planifié » dans le champ Afficher le statut de la tâche.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-113">In the Display job status field, select 'Scheduled'.</span></span>
 
-## <a name="remove-the-planned-kanban-job-from-the-schedule"></a><span data-ttu-id="c9895-114">Supprimer la tâche de kanban planifiée du programme</span><span class="sxs-lookup"><span data-stu-id="c9895-114">Remove the planned kanban job from the schedule</span></span>
-1. <span data-ttu-id="c9895-115">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c9895-115">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="c9895-116">Sélectionnez une tâche dont le statut est Planifié, par exemple, une tâche du 19 décembre 2012.</span><span class="sxs-lookup"><span data-stu-id="c9895-116">Select a job that has the Planned status, for example, a job from December 19, 2012.</span></span>  
-2. <span data-ttu-id="c9895-117">Cliquez sur Planifier dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="c9895-117">On the Action Pane, click Plan.</span></span>
-3. <span data-ttu-id="c9895-118">Cliquez sur Rétablir le statut de la tâche.</span><span class="sxs-lookup"><span data-stu-id="c9895-118">Click Revert job status.</span></span>
-4. <span data-ttu-id="c9895-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c9895-119">Click OK.</span></span>
-    * <span data-ttu-id="c9895-120">Cela va basculer le statut de la tâche actuel de « Planifié » à « Non planifié » et l'enlèvera du tableau de traitement.</span><span class="sxs-lookup"><span data-stu-id="c9895-120">This will revert the current job status from 'Planned' to 'Not planned' and remove it from the process board.</span></span>   
+## <a name="remove-the-planned-kanban-job-from-the-schedule"></a><span data-ttu-id="2ed2d-114">Supprimer la tâche de kanban planifiée du programme</span><span class="sxs-lookup"><span data-stu-id="2ed2d-114">Remove the planned kanban job from the schedule</span></span>
+1. <span data-ttu-id="2ed2d-115">Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="2ed2d-116">Sélectionnez une tâche dont le statut est Planifié, par exemple, une tâche du 19 décembre 2012.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-116">Select a job that has the Planned status, for example, a job from December 19, 2012.</span></span>  
+2. <span data-ttu-id="2ed2d-117">Cliquez sur Planifier dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-117">On the Action Pane, click Plan.</span></span>
+3. <span data-ttu-id="2ed2d-118">Cliquez sur Rétablir le statut de la tâche.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-118">Click Revert job status.</span></span>
+4. <span data-ttu-id="2ed2d-119">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-119">Click OK.</span></span>
+    * <span data-ttu-id="2ed2d-120">Cela va basculer le statut de la tâche actuel de « Planifié » à « Non planifié » et l'enlèvera du tableau de traitement.</span><span class="sxs-lookup"><span data-stu-id="2ed2d-120">This will revert the current job status from 'Planned' to 'Not planned' and remove it from the process board.</span></span>   
 

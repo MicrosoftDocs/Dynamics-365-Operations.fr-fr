@@ -16,39 +16,39 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 957246ac9a758de9f420b9c672520dcb07c43a69
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693952"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798877"
 ---
-# <a name="configure-conditional-decisions-in-a-workflow"></a><span data-ttu-id="83449-103">Configurer des décisions conditionnelles dans un workflow</span><span class="sxs-lookup"><span data-stu-id="83449-103">Configure conditional decisions in a workflow</span></span>
+# <a name="configure-conditional-decisions-in-a-workflow"></a><span data-ttu-id="7590b-103">Configurer des décisions conditionnelles dans un workflow</span><span class="sxs-lookup"><span data-stu-id="7590b-103">Configure conditional decisions in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="83449-104">La procédure suivante permet de configurer les propriétés d’une décision conditionnelle.</span><span class="sxs-lookup"><span data-stu-id="83449-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
+<span data-ttu-id="7590b-104">La procédure suivante permet de configurer les propriétés d’une décision conditionnelle.</span><span class="sxs-lookup"><span data-stu-id="7590b-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
 
-<span data-ttu-id="83449-105">Une décision conditionnelle est un point où le workflow se divise en deux branches.</span><span class="sxs-lookup"><span data-stu-id="83449-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="83449-106">Pour configurer une décision conditionnelle, dans l’éditeur de workflow, cliquez avec le bouton droit sur la décision conditionnelle, puis cliquez sur **Propriétés** pour ouvrir l’écran **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="83449-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="7590b-105">Une décision conditionnelle est un point où le workflow se divise en deux branches.</span><span class="sxs-lookup"><span data-stu-id="7590b-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="7590b-106">Pour configurer une décision conditionnelle, dans l’éditeur de workflow, cliquez avec le bouton droit sur la décision conditionnelle, puis cliquez sur **Propriétés** pour ouvrir l’écran **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="7590b-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
 
-## <a name="name-a-decision"></a><span data-ttu-id="83449-107">Nommer une décision</span><span class="sxs-lookup"><span data-stu-id="83449-107">Name a decision</span></span>
+## <a name="name-a-decision"></a><span data-ttu-id="7590b-107">Nommer une décision</span><span class="sxs-lookup"><span data-stu-id="7590b-107">Name a decision</span></span>
 
-<span data-ttu-id="83449-108">Procédez comme suit pour entrer un nom pour une décision conditionnelle.</span><span class="sxs-lookup"><span data-stu-id="83449-108">Follow these steps to enter a name for a conditional decision.</span></span>
+<span data-ttu-id="7590b-108">Procédez comme suit pour entrer un nom pour une décision conditionnelle.</span><span class="sxs-lookup"><span data-stu-id="7590b-108">Follow these steps to enter a name for a conditional decision.</span></span>
 
-1. <span data-ttu-id="83449-109">Dans le volet gauche, cliquez sur **Paramètres de base**.</span><span class="sxs-lookup"><span data-stu-id="83449-109">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="83449-110">Dans le champ **Nom**, entrez un nom unique pour la décision conditionnelle.</span><span class="sxs-lookup"><span data-stu-id="83449-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
+1. <span data-ttu-id="7590b-109">Dans le volet gauche, cliquez sur **Paramètres de base**.</span><span class="sxs-lookup"><span data-stu-id="7590b-109">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="7590b-110">Dans le champ **Nom**, entrez un nom unique pour la décision conditionnelle.</span><span class="sxs-lookup"><span data-stu-id="7590b-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
 
-## <a name="set-conditions"></a><span data-ttu-id="83449-111">Définition des conditions</span><span class="sxs-lookup"><span data-stu-id="83449-111">Set conditions</span></span>
+## <a name="set-conditions"></a><span data-ttu-id="7590b-111">Définition des conditions</span><span class="sxs-lookup"><span data-stu-id="7590b-111">Set conditions</span></span>
 
-<span data-ttu-id="83449-112">Le système détermine la branche utilisée en évaluant si le document soumis répond à des conditions spécifiques.</span><span class="sxs-lookup"><span data-stu-id="83449-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
+<span data-ttu-id="7590b-112">Le système détermine la branche utilisée en évaluant si le document soumis répond à des conditions spécifiques.</span><span class="sxs-lookup"><span data-stu-id="7590b-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
 
-1. <span data-ttu-id="83449-113">Dans le volet gauche, cliquez sur **Paramètres de base**.</span><span class="sxs-lookup"><span data-stu-id="83449-113">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="83449-114">Cliquez sur **Ajouter une condition**.</span><span class="sxs-lookup"><span data-stu-id="83449-114">Click **Add condition**.</span></span>
-3. <span data-ttu-id="83449-115">Permet d’entrer une condition.</span><span class="sxs-lookup"><span data-stu-id="83449-115">Enter a condition.</span></span>
-4. <span data-ttu-id="83449-116">Entrez des conditions supplémentaires, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="83449-116">Enter additional conditions, if they are required.</span></span>
-5. <span data-ttu-id="83449-117">Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="83449-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+1. <span data-ttu-id="7590b-113">Dans le volet gauche, cliquez sur **Paramètres de base**.</span><span class="sxs-lookup"><span data-stu-id="7590b-113">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="7590b-114">Cliquez sur **Ajouter une condition**.</span><span class="sxs-lookup"><span data-stu-id="7590b-114">Click **Add condition**.</span></span>
+3. <span data-ttu-id="7590b-115">Permet d’entrer une condition.</span><span class="sxs-lookup"><span data-stu-id="7590b-115">Enter a condition.</span></span>
+4. <span data-ttu-id="7590b-116">Entrez des conditions supplémentaires, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="7590b-116">Enter additional conditions, if they are required.</span></span>
+5. <span data-ttu-id="7590b-117">Pour vérifier que les conditions que vous avez entrées sont correctement configurées, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="7590b-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
 
-    1. <span data-ttu-id="83449-118">Cliquez sur **Test** pour ouvrir l’écran **Condition de workflow de test**.</span><span class="sxs-lookup"><span data-stu-id="83449-118">Click **Test** to open the **Test workflow condition** form.</span></span>
-    2. <span data-ttu-id="83449-119">Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l’écran.</span><span class="sxs-lookup"><span data-stu-id="83449-119">Select a record in the **Validate condition** area of the form.</span></span>
-    3. <span data-ttu-id="83449-120">Cliquez sur **Tester**.</span><span class="sxs-lookup"><span data-stu-id="83449-120">Click **Test**.</span></span> <span data-ttu-id="83449-121">Le système évalue l’enregistrement pour déterminer s’il répond aux conditions que vous avez spécifiées.</span><span class="sxs-lookup"><span data-stu-id="83449-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
-    4. <span data-ttu-id="83449-122">Cliquez sur **OK** ou sur **Annuler** pour revenir à l’écran **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="83449-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
+    1. <span data-ttu-id="7590b-118">Cliquez sur **Test** pour ouvrir l’écran **Condition de workflow de test**.</span><span class="sxs-lookup"><span data-stu-id="7590b-118">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2. <span data-ttu-id="7590b-119">Sélectionnez un enregistrement dans la zone **Contrôler la condition** de l’écran.</span><span class="sxs-lookup"><span data-stu-id="7590b-119">Select a record in the **Validate condition** area of the form.</span></span>
+    3. <span data-ttu-id="7590b-120">Cliquez sur **Tester**.</span><span class="sxs-lookup"><span data-stu-id="7590b-120">Click **Test**.</span></span> <span data-ttu-id="7590b-121">Le système évalue l’enregistrement pour déterminer s’il répond aux conditions que vous avez spécifiées.</span><span class="sxs-lookup"><span data-stu-id="7590b-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4. <span data-ttu-id="7590b-122">Cliquez sur **OK** ou sur **Annuler** pour revenir à l’écran **Propriétés**.</span><span class="sxs-lookup"><span data-stu-id="7590b-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>

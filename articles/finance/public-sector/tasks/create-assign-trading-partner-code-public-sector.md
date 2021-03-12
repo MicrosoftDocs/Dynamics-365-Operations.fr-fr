@@ -11,40 +11,39 @@ ms.technology: ''
 ms.search.form: CustGroup, CustTradingPartnerCode, CustTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 95f6f31906539abfd7935274484d1ca8cf288d0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0aea4ac41774ec0568a3c9e0a141dd07066a4e7d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407997"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962466"
 ---
-# <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a><span data-ttu-id="5dadd-103">Créer et affecter un code de partenaire commercial dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="5dadd-103">Create and assign a trading partner code in the public sector</span></span>
+# <a name="create-and-assign-a-trading-partner-code-in-the-public-sector"></a><span data-ttu-id="e3123-103">Créer et affecter un code de partenaire commercial dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="e3123-103">Create and assign a trading partner code in the public sector</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5dadd-104">Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.</span><span class="sxs-lookup"><span data-stu-id="5dadd-104">Create a trading partner code and assign it to a government agency that your organization does business with.</span></span> <span data-ttu-id="5dadd-105">Pour que vous puissiez effectuer cette tâche, l’enregistrement client pour l’agence doit exister.</span><span class="sxs-lookup"><span data-stu-id="5dadd-105">The customer record for the agency must exist before you can perform this task.</span></span> <span data-ttu-id="5dadd-106">Cette procédure a été créée à l’aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="5dadd-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="e3123-104">Créez un code partenaire commercial et affectez le à une agence gouvernementale avec laquelle votre organisation entretient des relations commerciales.</span><span class="sxs-lookup"><span data-stu-id="e3123-104">Create a trading partner code and assign it to a government agency that your organization does business with.</span></span> <span data-ttu-id="e3123-105">Pour que vous puissiez effectuer cette tâche, l’enregistrement client pour l’agence doit exister.</span><span class="sxs-lookup"><span data-stu-id="e3123-105">The customer record for the agency must exist before you can perform this task.</span></span> <span data-ttu-id="e3123-106">Cette procédure a été créée à l’aide des données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="e3123-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
 
-## <a name="create-a-trading-partner-code"></a><span data-ttu-id="5dadd-107">Créer un code partenaire commercial</span><span class="sxs-lookup"><span data-stu-id="5dadd-107">Create a trading partner code</span></span>
-1. <span data-ttu-id="5dadd-108">Accédez à Comptabilité client > Paramétrage > Codes partenaire commercial.</span><span class="sxs-lookup"><span data-stu-id="5dadd-108">Go to Accounts receivable > Setup > Trading partner codes.</span></span>
-2. <span data-ttu-id="5dadd-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="5dadd-109">Click New.</span></span>
-3. <span data-ttu-id="5dadd-110">Dans le champ Code partenaire commercial, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="5dadd-110">In the Trading partner code field, type a value.</span></span>
-    * <span data-ttu-id="5dadd-111">Les codes partenaire commercial pour les agences gouvernementales sont définis par le Département du Trésor des États-Unis.</span><span class="sxs-lookup"><span data-stu-id="5dadd-111">The trading partner codes for government agencies are defined by the United States Department of the Treasury.</span></span>  
-4. <span data-ttu-id="5dadd-112">Dans le champ Description, entrez le nom de l’agence utilisant ce code.</span><span class="sxs-lookup"><span data-stu-id="5dadd-112">In the Description field, type the name of the agency that uses this code..</span></span>
-5. <span data-ttu-id="5dadd-113">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="5dadd-113">Click Save.</span></span>
+## <a name="create-a-trading-partner-code"></a><span data-ttu-id="e3123-107">Créer un code partenaire commercial</span><span class="sxs-lookup"><span data-stu-id="e3123-107">Create a trading partner code</span></span>
+1. <span data-ttu-id="e3123-108">Accédez à Comptabilité client > Paramétrage > Codes partenaire commercial.</span><span class="sxs-lookup"><span data-stu-id="e3123-108">Go to Accounts receivable > Setup > Trading partner codes.</span></span>
+2. <span data-ttu-id="e3123-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e3123-109">Click New.</span></span>
+3. <span data-ttu-id="e3123-110">Dans le champ Code partenaire commercial, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e3123-110">In the Trading partner code field, type a value.</span></span>
+    * <span data-ttu-id="e3123-111">Les codes partenaire commercial pour les agences gouvernementales sont définis par le Département du Trésor des États-Unis.</span><span class="sxs-lookup"><span data-stu-id="e3123-111">The trading partner codes for government agencies are defined by the United States Department of the Treasury.</span></span>  
+4. <span data-ttu-id="e3123-112">Dans le champ Description, entrez le nom de l’agence utilisant ce code.</span><span class="sxs-lookup"><span data-stu-id="e3123-112">In the Description field, type the name of the agency that uses this code..</span></span>
+5. <span data-ttu-id="e3123-113">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e3123-113">Click Save.</span></span>
 
-## <a name="assign-a-trading-partner-code"></a><span data-ttu-id="5dadd-114">Affecter un code partenaire commercial</span><span class="sxs-lookup"><span data-stu-id="5dadd-114">Assign a trading partner code</span></span>
-1. <span data-ttu-id="5dadd-115">Accédez à Comptabilité client > Clients > Tous les clients.</span><span class="sxs-lookup"><span data-stu-id="5dadd-115">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="5dadd-116">Dans la liste, recherchez et sélectionnez l’agence à laquelle affecter un code partenaire commercial.</span><span class="sxs-lookup"><span data-stu-id="5dadd-116">In the list, find and select the agency to assign a trading partner code to.</span></span>
-3. <span data-ttu-id="5dadd-117">Cliquez pour suivre le lien dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="5dadd-117">Click to follow the link in the Name field.</span></span>
-4. <span data-ttu-id="5dadd-118">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="5dadd-118">Click Edit.</span></span>
-5. <span data-ttu-id="5dadd-119">Développez la section Détails divers.</span><span class="sxs-lookup"><span data-stu-id="5dadd-119">Expand the Miscellaneous details section.</span></span>
-6. <span data-ttu-id="5dadd-120">Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.</span><span class="sxs-lookup"><span data-stu-id="5dadd-120">In the Trading partner code field, select the trading partner code for this agency..</span></span>
-7. <span data-ttu-id="5dadd-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="5dadd-121">Click Save.</span></span>
+## <a name="assign-a-trading-partner-code"></a><span data-ttu-id="e3123-114">Affecter un code partenaire commercial</span><span class="sxs-lookup"><span data-stu-id="e3123-114">Assign a trading partner code</span></span>
+1. <span data-ttu-id="e3123-115">Accédez à Comptabilité client > Clients > Tous les clients.</span><span class="sxs-lookup"><span data-stu-id="e3123-115">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="e3123-116">Dans la liste, recherchez et sélectionnez l’agence à laquelle affecter un code partenaire commercial.</span><span class="sxs-lookup"><span data-stu-id="e3123-116">In the list, find and select the agency to assign a trading partner code to.</span></span>
+3. <span data-ttu-id="e3123-117">Cliquez pour suivre le lien dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="e3123-117">Click to follow the link in the Name field.</span></span>
+4. <span data-ttu-id="e3123-118">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="e3123-118">Click Edit.</span></span>
+5. <span data-ttu-id="e3123-119">Développez la section Détails divers.</span><span class="sxs-lookup"><span data-stu-id="e3123-119">Expand the Miscellaneous details section.</span></span>
+6. <span data-ttu-id="e3123-120">Dans le champ Code partenaire commercial, sélectionnez le code partenaire commercial pour cette agence.</span><span class="sxs-lookup"><span data-stu-id="e3123-120">In the Trading partner code field, select the trading partner code for this agency..</span></span>
+7. <span data-ttu-id="e3123-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e3123-121">Click Save.</span></span>
 
