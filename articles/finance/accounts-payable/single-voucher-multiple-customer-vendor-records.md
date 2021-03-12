@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cbc638b684ad6eb59b852e599cf36cbd0b66faf
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 01fd382a97f86e93e4ab91759d35c65fae7447c5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4443335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972002"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>N° de document unique avec plusieurs enregstrements client ou fournisseur
 
@@ -50,7 +49,7 @@ Lors de la validation d’un N° de document contenant plusieurs enregistrements
 
 Dans l’exemple suivant, plusieurs factures fournisseur sont enregistrées dans la comptabilité sur un N° de document unique sur la page **Journal des opérations diverses**. Ces factures sont distribuées entre plusieurs dimensions de compte.
 
-| N° document | Type de compte | Compte  | Description  | Débit | Crédit |
+| N° document | Type de compte | Compte  | Description | Débit | Crédit |
 |-------------|------------------|--------------|-----------------|-----------|------------|
 | GNJL001     | Fournisseur           | 1 001         | INV1            |           | 100,00     |
 | GNJL001     | Fournisseur           | 1 001         | INV2            |           | 200,00     |
@@ -88,7 +87,7 @@ Avec cet exemple, nous pouvons analyser l’impact de l’utilisation d’un N°
 
 Si l’utilisateur n’est pas satisfait de l’escompte de règlement allouée à toutes les répartitions de dépense de la facture d’origine, plutôt qu’un N° de document, plusieurs N° de documents doivent être utilisés pour enregistrer les factures. Voici un exemple de la procédure à utiliser pour entrer plusieurs N° de document dans la comptabilité, au lieu d’utiliser un N° de document, comme indiqué au début de cet exemple.
 
-| N° document | Type de compte | Compte  | Description  | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
+| N° document | Type de compte | Compte  | Description | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
 | GNJL001     | Fournisseur           | 1 001         | INV1            |           | 100,00     | Comptabilité          | &lt;vide&gt;      |
 | GNJL001     | Comptabilité           | 606300-001-- | INV1            |   50,00   |            | Comptabilité          | &lt;vide&gt;      |
@@ -107,7 +106,7 @@ Désormais, lorsque INV2 est payée, l’écriture suivante est effectuée. Note
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Un N° de document avec plusieurs fournisseurs et l’impact sur la comptabilité des gains/pertes réalisés
 
-| N° document | Type de compte | Compte | Description  | Débit | Crédit | Type de compte | Compte  |
+| N° document | Type de compte | Compte | Description | Débit | Crédit | Type de compte | Compte  |
 |-------------|------------------|-------------|-----------------|-----------|------------|------------------|--------------|
 | GNJL001     | Fournisseur           | 1 001        | INV1            |           | 100,00     | Comptabilité           | 606300-001-- |
 | GNJL001     | Fournisseur           | 1 001        | INV2            |           | 200,00     | Comptabilité           | 606300-002-- |
@@ -135,7 +134,7 @@ Avec cet exemple, nous pouvons analyser l’impact de l’utilisation d’un N°
 
 Si l’utilisateur n’est pas satisfait de la perte de taux de change allouée à toutes les répartitions de dépense de la facture d’origine, plutôt qu’un N° de document, plusieurs N° de documents doivent être utilisés pour enregistrer les factures. Voici un exemple de la procédure à utiliser pour entrer plusieurs N° de document dans la comptabilité, au lieu d’utiliser un N° de document, comme indiqué au début de cet exemple.
 
-| N° document | Type de compte | Compte | Description  | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
+| N° document | Type de compte | Compte | Description | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | GNJL002     | Fournisseur           | 1 001        | INV1            |           | 100,00     | Comptabilité          | 606300-001--       |
 | GNJL003     | Fournisseur           | 1 001        | INV2            |           | 200,00     | Comptabilité          | 606300-002--       |
@@ -165,7 +164,7 @@ Pour illustrer cela, supposons que la vente suivante est effectuée au client AC
 
 Ensuite, l’utilisateur transfère le solde dû d’ACME vers la compagnie d’assurance, dans un N° de document du journal des paiements de la Comptabilité fournisseur. La compagnie d’assurance est paramétrée comme assurance du client.
 
-| N° document | Type de compte | Compte | Description  | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
+| N° document | Type de compte | Compte | Description | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | ARPAYM001   | Client         | ACME        | Transfert        |           | 100,00     | Client        | Assurance          |
 
@@ -192,7 +191,7 @@ Dans le N° de document associé pour l’escompte de règlement, la valeur par 
 
 Si l’utilisateur n’est pas satisfait de la valeur par défaut des dimensions financières pour l’escompte de règlement, au lieu d’un N° de document, plusieurs N° de documents doivent être utilisés pour enregistrer le transfert de solde. Ce scénario doit être effectué lors de la création d’un avoir pour le client dont le solde est déplacé DE, et une note ou une facture de débit créée pour le client VERS lequel le solde est déplacé. L’exemple suivant montre comment plusieurs N° de documents peuvent être entrés dans le journal des paiements de la Comptabilité client pour transférer le solde, au lieu d’utiliser un N° de document, comme illustré précédemment dans cet exemple.
 
-| N° document | Type de compte | Compte | Description  | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
+| N° document | Type de compte | Compte | Description | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | ARPAYM001   | Client         | ACME        |                 |           | 100,00     | Comptabilité          | 401100-002-023-    |
 | ARPAYM002   | Client         | Assurance   |                 | 100,00    |            | Comptabilité          | 401100-002-023-    |
@@ -218,13 +217,13 @@ La compensation peut être utile lorsqu’une organisation achète et vend à la
 
 Pour illustrer cela, supposons que le fournisseur 1001 et le client US-008 soient la même entité, de sorte que votre organisation veut compenser les soldes client et fournisseur avant de payer/recevoir le solde restant. Supposons que l’enregistrement client doit 75,00 EUR et l’enregistrement fournisseur a un solde dû de 100,00 EUR, ce qui signifie que vous préfèrez compenser les soldes et payer uniquement 25,00 EUR au fournisseur. Supposons également que la devise comptable est USD. Dans ce cas, une transaction de compensation est entrée sur un N° de document dans le journal des paiements de la Comptabilité fournisseur.
 
-| N° document | Type de compte | Compte | Description  | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
+| N° document | Type de compte | Compte | Description | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | APPAYM001   | Fournisseur           | 1 001        | Compensation         |  75,00    |            | Client        | US-008             |
 
 Pour éviter les problèmes indésirables de futures règlements pour cette transaction, au lieu d’utiliser un N° de document, plusieurs N° de documents doivent être entrés dans le journal pour enregistrer la transaction de compensation. Notez que les soldes client et fournisseurs sont compensés par un compte de compensation unique afin d’éviter l’utilisation d’un N° de document contenant plusieurs soldes client et fournisseur.
 
-| N° document | Type de compte | Compte | Description  | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
+| N° document | Type de compte | Compte | Description | Débit | Crédit | Type de contrepartie | Compte de contrepartie |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|
 | 001         | Client         | US-008      |                 |           |  75,00     | Comptabilité          | 999999---          |
 | 002         | Fournisseur           | 1 001        |                 |  75,00    |            | Comptabilité          | 999999---          |
@@ -233,6 +232,3 @@ Pour éviter les problèmes indésirables de futures règlements pour cette tran
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

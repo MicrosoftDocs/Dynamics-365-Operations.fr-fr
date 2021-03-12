@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19641
 ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24a51347cc4b7a80d9de1b71a20792422d05bada
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4ba69bfe758e8d7e59281779de64b6dec8054a16
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407922"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971205"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
@@ -108,6 +107,3 @@ Après avoir modifié les paramètres en haut de la page, cliquez sur **Mettre �
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 9f243340da5d93182a3f42132018b3428a03a03d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98f49088ef71d597db7a67e959d6fad830199094
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407924"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971192"
 ---
 # <a name="budget-analysis-report"></a>État d’analyse budgétaire
 
@@ -79,13 +78,10 @@ L’état d’exploration couvre les informations suivantes :
 - Nom de l’entité juridique
 - Numéro de compte général
 - Date de la transaction
-- N° document
+- N° de justificatif
 - Informations sur le document pour la transaction
-- Description de la date de transaction du N° document
-- Détails du N° document
+- Description de la date de transaction du justificatif
+- Détails du justificatif
 - Détails de débit et de crédit pour le document des chiffres réels
 - Montants positifs et négatifs du budget, de l’engagement, et du N° document d’engagement préalable
 - Solde d’ouverture, de clôture et en cours pour le compte général
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

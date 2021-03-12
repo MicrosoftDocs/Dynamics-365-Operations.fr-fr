@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15391
 ms.assetid: 57b95899-7298-43c0-8034-45b5d993cbf2
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 904f1f9fb139248205b426aec5a0372f2edb1e59
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2d98ab6c4bc1d6f98a863a36bd35c19696ccd7b3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972203"
 ---
 # <a name="accounting-source-explorer"></a>Explorateur de comptabilité source
 
@@ -31,7 +30,7 @@ ms.locfileid: "4443328"
 
 Cet article fournit des informations sur l’explorateur de comptabilité source, que vous pouvez utiliser pour l’analyse détaillée d’informations sources à l’origine des écritures comptables.
 
-L’explorateur de comptabilité source est une nouvelle page qui affiche les informations source. Vous pouvez utiliser l’explorateur de comptabilité source comme un outil autonome ou pour analyser les détails à l’origine des écritures comptables. Par exemple, vous pouvez utiliser l’explorateur de comptabilité source pour obtenir les informations sources les plus détaillées pour un solde dans la balance comptable ou pour une transaction de N° document. Vous pouvez ensuite utiliser la fonctionnalité d’exportation de MS Excel pour découper davantage les informations dans Microsoft Excel (par exemple, dans un tableau croisé dynamique ou un état de tableau croisé dynamique).
+L’explorateur de comptabilité source est une nouvelle page qui affiche les informations source. Vous pouvez utiliser l’explorateur de comptabilité source comme un outil autonome ou pour analyser les détails à l’origine des écritures comptables. Par exemple, vous pouvez utiliser l’explorateur de comptabilité source pour obtenir les informations sources les plus détaillées pour un solde dans la balance comptable ou pour une pièce comptable. Vous pouvez ensuite utiliser la fonctionnalité d’exportation de MS Excel pour découper davantage les informations dans Microsoft Excel (par exemple, dans un tableau croisé dynamique ou un état de tableau croisé dynamique).
 
 L’explorateur de comptabilité source affiche toujours le même montant total par compte général comme la comptabilité l’indique (par exemple, dans la balance comptable). Comme dans la balance comptable, vous pouvez afficher les segments dans des colonnes distinctes. Il suffit de sélectionner un ensemble de dimensions financières approprié. 
 
@@ -51,6 +50,3 @@ Pour ces documents, vous pouvez également accéder au document source réel de 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

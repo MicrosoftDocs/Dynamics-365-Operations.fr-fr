@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412144"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972453"
 ---
 # <a name="retail-sales-price-management"></a>Gestion des prix de vente Retail
 
@@ -240,6 +239,3 @@ De plus, **seul** le moteur de tarification prend en charge les fonctionnalités
 Le prix est l'un des facteurs principaux qui régit les décisions de achat de nombreux clients, et de nombreux clients comparent les prix sur plusieurs sites avant qu'ils fassent un achat. Pour s'assurer qu'ils offrent des prix concurrentiels, les détaillants observent attentivement leurs concurrents et offrent des promotions fréquemment. Pour aider les détaillants à attirer des clients, il est primordial que la recherche de produit, la fonctionnalité Parcourir, les listes, et la page de détails des produits indiquent les prix les plus précis.
 
 Dans une version à venir de Commerce, l'interface de programmation d'application (API) **GetActivePrices** renverra les prix incluant des remises simples (par exemple, des remises à ligne unique qui ne dépendent pas d'autres articles dans le panier). Ainsi, les prix indiqués sont affichés aussi proches du montant réel que les clients payeront pour les articles. Cette API inclura tous les types de remises simples : remises basées sur l'affiliation, sur la fidélité, sur le catalogue, et sur le canal. En outre, l'API retournera les noms et des informations de validité sur les remises appliquées, de sorte que les détaillants puissent fournir une description plus détaillée du prix et créer un sentiment d'urgence si la validité de la remise expire prochainement.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

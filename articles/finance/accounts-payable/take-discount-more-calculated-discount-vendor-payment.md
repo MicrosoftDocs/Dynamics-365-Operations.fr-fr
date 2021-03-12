@@ -1,5 +1,5 @@
 ---
-title: Utilisation d’une remise supérieure à la remise calculée pour un paiement fournisseur
+title: Prendre plus que la remise calculée pour un paiement fournisseur
 description: Cet article vous fait parcourir un scénario où un escompte de règlement est pris pour un montant qui est supérieur à la remise qui était initialement disponible sur la facture. Ce scénario peut se produire si une organisation parvient à un accord avec le fournisseur pour payer un montant plus bas sur la facture.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b84b3d6ef1a86d8174823345a5ee9181c701c151
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7ee74bad071d546724f6ffe336bbe3bdf47e2a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443012"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971901"
 ---
-# <a name="take-a-discount-that-is-more-than-the-calculated-discount-for-a-vendor-payment"></a>Utilisation d’une remise supérieure à la remise calculée pour un paiement fournisseur
+# <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Prendre plus que la remise calculée pour un paiement fournisseur
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,6 +50,3 @@ Elle valide ensuite le journal des paiements. La facture est entièrement régl�
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

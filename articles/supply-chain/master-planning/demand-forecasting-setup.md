@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d0de588d54948d89f636cadeb66c3d9e6878015
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b7b0976494a8bb128ae6bb40cbcdf7c691185f23
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428132"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970504"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
@@ -84,7 +83,7 @@ Dans l'onglet **Clés de répartition**, vous pouvez définir **Paramètres d'al
 - **Pourcentage du niveau de confiance** : un intervalle de confiance comporte une plage de valeurs qui constitue une bonne estimation des prévisions de la demande. Un pourcentage de niveau de confiance à 95 % indique qu'il existe un risque de 5 % que la demande future se trouve en dehors de l'intervalle de confiance.
 - **Forcer le caractère saisonnier** : indique s'il convient de forcer le modèle pour utiliser un certain type de caractère saisonnier. S'applique à ARIMA et ETS uniquement. Options : AUTOMATIQUE (par défaut), AUCUN, ADDITIF, MULTIPLICATIF.
 - **Modèle de prévision** : Options : ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, TOUT. Pour sélectionner le modèle le mieux adapté, utilisez **TOUT**.
-- **Valeur maximale prévue** : indique la valeur maximale à utiliser pour les prévisions. Format : +1E[n] ou constante numérique.
+- **Valeur maximale prévue** : indique la valeur maximale à utiliser pour les prévisions. Format : +1E [n] ou constante numérique.
 - **Valeur minimale prévue** : indique la valeur minimale à utiliser pour les prévisions. Format : -1E[n] ou constante numérique.
 - **Substitution de valeur manquante** : indique comment les écarts dans les données historiques sont remplies. Options : valeur numérique, MOYENNE, PRÉCÉDENTE, INTERPOLATION LINÉAIRE, INTERPOLATION POLYNOMIALE.
 - **Substitution de valeur manquante** : indique si la valeur de substitution s'applique uniquement à la plage de données de chaque attribut de granularité individuelle, ou à l'intégralité de l'ensemble de données. Options : GRANULARITY_ATTRIBUTE (par défaut), GLOBAL.
@@ -102,6 +101,3 @@ Dans l'onglet **Clés de répartition**, vous pouvez définir **Paramètres d'al
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

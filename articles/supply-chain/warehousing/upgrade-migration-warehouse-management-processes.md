@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 123be2430f910dfbea438cb6a51be7203eb39fc8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427550"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970279"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management 
 
@@ -83,6 +82,3 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 6.  Dans la page **Modifier le groupe de dimensions de stockage pour les articles**, ajoutez les numéros d'article, les groupes de dimensions de stockage et les groupes de séquences d'unités. Vous pouvez effectuer cette étape directement sur la page, à l'aide de l'intégration Microsoft Office, ou en utilisant le traitement de l'entité de données dans [Gestion des données](../../dev-itpro/data-entities/data-entities.md).
 7.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l'intégrité des données se produisent. Dans le cadre d'un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l'implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 8.  Traitez les modifications. Une mise à jour de toutes les dimensions de stock peut prendre un certain temps. Vous pouvez surveiller la progression à l'aide des tâches de traitement par lots.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443301"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971276"
 ---
 # <a name="budget-planning"></a>Planification budgétaire
 
@@ -106,7 +105,7 @@ La planification budgétaire utilise des stratégies de sécurité spéciales po
 
 2.5. Sélectionnez « Accorder l’accès à des organisations spécifiques ». Choisissez une Hiérarchie d’organisation créée dans la première étape. Choisissez le nœud Finances et cliquez sur le bouton Accorder à l’organisation enfant. 
 
-***Important !*** *Assurez-vous que vous êtes dans le contexte d’entité juridique DEMF en effectuant cette tâche, car la Sécurité d’organisation est appliquée par entité juridique* 
+**_Important !_* _ _Assurez-vous que vous êtes dans le contexte d'entité juridique DEMF en effectuant cette tâche, car la Sécurité d'organisation est appliquée par entité juridique* 
 
 ### <a name="task-3-create-scenarios"></a>Tâche 3 : Créez des scénarios
 3.1. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &gt; Configuration de la planification budgétaire. Dans la page Scénarios notez les scénarios que nous allons utiliser plus loin dans cet atelier pratique : Chiffres réels de l’année précédente et Budgété. 
@@ -247,6 +246,3 @@ C. Accédez à Budgétisation &gt; Paramétrage &gt; Planification budgétaire &
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

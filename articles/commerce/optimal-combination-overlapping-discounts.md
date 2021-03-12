@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412280"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972705"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Déterminer la combinaison optimale de chevauchement les remises
 
@@ -84,6 +83,3 @@ Pour résoudre le problème d'un nombre exponentiel de combinaisons qui doivent 
 ![Formule de calcul de la valeur marginale](./media/overlapping-discount-combo-06.jpg)
 
 Après calcul de la valeur marginale de chaque remise sur un ensemble de produits partagés, les réductions s'appliquent aux produits partagés dans l'ordre, de manière exhaustive, de la valeur marginale la plus élevée à la valeur marginale la plus faible. Pour cette méthode, toutes les possibilités restantes de remise ne sont pas comparées à chaque fois qu'une seule instance d'une remise est appliquée. Au lieu de cela, les remises se chevauchant sont comparées une fois et ensuite appliquées dans l'ordre. Aucune comparaison supplémentaire n'est effectuée. Vous pouvez configurer le seuil pour basculer vers la méthode de valeur marginale dans l'onglet **Remise** de la page **Paramètres de commerce**. La durée acceptable pour calculer la remise totale varie entre différents secteurs au détail. Toutefois, la durée correspondante est en général une plage comprise entre des dizaines de millisecondes et une seconde.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

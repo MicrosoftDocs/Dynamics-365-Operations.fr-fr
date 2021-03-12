@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17b4b2f487fdeb9f1aa7d77bf87197885ba60e47
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b41b87cd3e2e80b87318c5c771d45a4d0e5d4b85
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443135"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971701"
 ---
 # <a name="periodic-credit-management-tasks"></a>Tâches périodiques de gestion du crédit
 
@@ -44,6 +43,3 @@ Cette rubrique décrit les tâches périodiques qui sont une partie nécessaire 
 Vous pouvez exécuter le processus **Mettre à jour les statistiques de solde client** pour mettre à jour le calcul des statistiques de solde indiquées sur la page **Demande de statistiques de solde**. Ces informations sont utilisées pour calculer les scores de risque et les valeurs qui sont affichées dans les récapitulatifs des statistiques de crédit de la page **Client**.
 
 Lorsque vous exécutez le processus, il met à jour les statistiques de solde client pour un seul client. Pour configurer un traitement par lots pour exécuter le processus pour plusieurs clients, vous pouvez utiliser la page **Calculer les statistiques de solde** (**Gestion de crédit \> Tâches périodiques \> Calculer les statistiques de solde**).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

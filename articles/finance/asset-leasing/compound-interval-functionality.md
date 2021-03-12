@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c37da09f50448c27b20dfacccf2e7134b828f13b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 5978abfd4341bbca76ff0211f029097c3d2d785c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4443379"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971451"
 ---
 # <a name="compounding-interval-functionality"></a>Fonctionnalité d’intervalle composé
 
@@ -45,7 +44,7 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
 
 **Onglet Général**
 
-| Champ                      | Valeur                         |
+| Champ                      | Valeur                        |
 |----------------------------|------------------------------|
 | Taux d’emprunt marginal | **5 %**                       |
 | Type d’annuité               | **Annuité ordinaire**         |
@@ -55,7 +54,7 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
 
 **Onglet Lignes d’échéancier de paiement**
 
-| Champ             | Valeur                         |
+| Champ             | Valeur                        |
 |-------------------|------------------------------|
 | Date de début        | **01/01/2020**                 |
 | Périodes           | **120**                      |
@@ -71,7 +70,7 @@ Le tableau suivant répertorie les 12 premiers mois de l’échéancier de paie
 - La valeur de la colonne « Période » augmente de 1 chaque mois, car chaque mois est un nouvel intervalle composé.
 - Dans la formule de la colonne « Valeur actuelle », le taux est divisé par 12, car il y a 12 périodes de composition par an. L’exposant (c’est-à-dire le chiffre en exposant) est égal à la valeur de la colonne « Période ».
 
-| Période  | Mois | Date       | Montant du paiement | Valeur actuelle                                       |
+| Période | Mois | Date       | Montant du paiement | Valeur actuelle                                       |
 |--------|-------|------------|----------------|-----------------------------------------------------|
 | 1      | 1     | 31/01/2020  | 50,000.00      | 50 000 ÷ (1 + \[5 % ÷ 12\])<sup>1</sup> = 49 792,53  |
 | 2      | 2     | 29/02/2020  | 50,000.00      | 50 000 ÷ (1 + \[5 % ÷ 12\])<sup>2</sup> = 49 585,92  |
@@ -93,7 +92,7 @@ Le tableau suivant répertorie les 12 premiers mois de l’échéancier de paie
 - La valeur de la colonne « Période » augmente de 1 chaque trimestre, car chaque trimestre est un nouvel intervalle composé.
 - Dans la formule de la colonne « Valeur actuelle », le taux est divisé par 4, car il y a quatre périodes de composition par an. L’exposant est égal à la valeur dans la colonne « Période ».
 
-| Période  | Mois | Date       | Montant du paiement | Valeur actuelle                                     |
+| Période | Mois | Date       | Montant du paiement | Valeur actuelle                                     |
 |--------|-------|------------|----------------|---------------------------------------------------|
 | 1      | 1     | 31/01/2020  | 0,00           | 0,00 ÷ (1 + \[5 % ÷ 4\])<sup>1</sup> = 0           |
 | 1      | 2     | 29/02/2020  | 0,00           | 0,00 ÷ (1 + \[5 % ÷ 4\])<sup>1</sup> = 0           |
@@ -118,7 +117,7 @@ Le tableau suivant répertorie les 12 premiers mois de l’échéancier de paie
 - La valeur de la colonne « Période » augmente de 1 tous les six mois, car chaque semestre est un nouvel intervalle composé.
 - Dans la formule de la colonne « Valeur actuelle », le taux est divisé par 2, car il y a deux périodes de composition par an. L’exposant est égal à la valeur dans la colonne « Période ».
 
-| Période  | Mois | Date       | Montant du paiement | Valeur actuelle                                     |
+| Période | Mois | Date       | Montant du paiement | Valeur actuelle                                     |
 |--------|-------|------------|----------------|---------------------------------------------------|
 | 1      | 1     | 31/01/2020  | 0,00           | 0,00 ÷ (1 + \[5 % ÷ 2\])<sup>1</sup> = 0           |
 | 1      | 2     | 29/02/2020  | 0,00           | 0,00 ÷ (1 + \[5 % ÷ 2\])<sup>1</sup> = 0           |
@@ -143,7 +142,7 @@ Le tableau suivant répertorie les 12 premiers mois de l’échéancier de paie
 - La valeur de la colonne « Période » augmente de 1 tous les 12 mois, car chaque année est un nouvel intervalle composé.
 - Dans la formule de la colonne « Valeur actuelle », le taux est divisé par 1, car il y a une période de composition par an. L’exposant est égal à la valeur dans la colonne « Période ».
 
-| Période  | Mois | Date       | Montant du paiement | Valeur actuelle                                     |
+| Période | Mois | Date       | Montant du paiement | Valeur actuelle                                     |
 |--------|-------|------------|----------------|---------------------------------------------------|
 | 1      | 1     | 31/01/2020  | 0,00           | 0,00 ÷ (1 + \[5 % ÷ 1\])<sup>1</sup> = 0           |
 | 1      | 2     | 29/02/2020  | 0,00           | 0,00 ÷ (1 + \[5 % ÷ 1\])<sup>1</sup> = 0           |
@@ -160,6 +159,3 @@ Le tableau suivant répertorie les 12 premiers mois de l’échéancier de paie
 
 > [!NOTE]
 > Si le type de rente passe sur la valeur **Rente due**, le paiement se fera en janvier plutôt qu’en décembre.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

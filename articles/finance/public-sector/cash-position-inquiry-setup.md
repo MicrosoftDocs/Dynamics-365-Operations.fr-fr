@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 586aa72808d51c800126e5189a0d7cbcd7789165
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62a3986e6a1aa5d4af9b829b07a0b3a2486b28ba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971182"
 ---
 # <a name="set-up-and-run-the-cash-position-inquiry"></a>Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
@@ -87,6 +86,3 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
     - Facultatif : Pour filtrer les valeurs d’une dimension spécifique sélectionnée, dans les champs sous le champ **Ensemble de dimensions financières**, sélectionnez les dimensions que vous souhaitez. Les options disponibles varient en fonction de l’ensemble de dimensions financières que vous avez sélectionné.
 
 3. Sélectionnez **Calculer les soldes** pour exécuter la recherche.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

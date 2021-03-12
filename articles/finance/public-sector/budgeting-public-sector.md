@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19471
 ms.assetid: 8cecf3cc-8916-44d7-8c73-d6254a61f62b
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0864e6e174e9c6ffc1ce193c9e7edbd4d285c14
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 60fd17fbd46b4385e6e9d0ffc4dadfcf4d52df86
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407920"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971200"
 ---
 # <a name="budgeting-in-the-public-sector-overview"></a>Vue d’ensemble de la budgétisation disponible pour le secteur public
 
@@ -69,6 +68,3 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

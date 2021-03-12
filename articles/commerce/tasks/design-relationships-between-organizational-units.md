@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner, OMNodeSelection,  HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b516d51210604a5813d637aa342dc7e269c60d89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412308"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972240"
 ---
-# <a name="design-the-relationships-between-organizational-units"></a> Créer les relations entre les unités de l'organisation
+# <a name="design-the-relationships-between-organizational-units"></a>Créer les relations entre les unités de l'organisation
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,6 +62,3 @@ Cette procédure décrit comment concevoir les relations entre les unités d'org
 29. Cliquez sur Publier.
 30. Cliquez sur Fermer.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

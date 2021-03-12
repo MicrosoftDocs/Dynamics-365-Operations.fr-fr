@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bab2b0b2b021266e50d6f4a1fad1cc4a1c1ae56e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 4bc4bac1a422a7505ef4c66b9c3b79a3d754cc4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4443375"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971476"
 ---
 # <a name="asset-leasing-reports"></a>États de location d’actifs
 
@@ -37,7 +36,7 @@ Cette rubrique répertorie et décrit brièvement les états disponibles dans la
 ## <a name="asset-movement"></a>Mouvement d’actif
 L’état sur les mouvements d’actifs sert d’état de récupération pour les soldes du droit d’utilisation de l’actif pour chaque bail. Avec cet état, visualisez les transactions d’actifs d’un bail pendant une période spécifiée. L’état couvre les champs suivants. 
 
-|     Champs d’état                  |     Description                                                                 |
+|     Champs d’état                  |     Description                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     Date d’entrée en vigueur              |     La date de début de la version la plus ancienne du bail.                     |   
 |     Durée du bail                     |     La durée du bail de la version la plus ancienne du bail.                            |
@@ -59,7 +58,7 @@ Les valeurs de l’état varient en fonction du bail sélectionné. L’état n�
 ## <a name="five-years-undiscounted-payment-forecast"></a>Prévision du paiement non remisé sur cinq ans
 L’état sur les prévisions de paiement non remisé sur cinq ans indique les paiements de location non remisés prévus à régler au cours des cinq prochaines années à compter de la date spécifiée dans les paramètres de l’état. L’état couvre les champs suivants. 
 
-|     Champs d’état         |     Description                                                                                        |
+|     Champs d’état         |     Description                                                                                       |
 |-------------------------- |---------------------------------------------------------------------------------------------------    |
 |     Description du bail     |     La description du bail depuis l’en-tête du bail.                                                      |
 |     ID de bail              |     ID de bail unique.                                                                              |
@@ -77,7 +76,7 @@ L’état sur les prévisions de paiement non remisé sur cinq ans indique les p
 ## <a name="gaap-cash-flows-report"></a>État des flux de trésorerie GAAP
 L’état des divulgations GAAP satisfait à l’exigence de divulgation US GAAP spécifiée dans 842-20-50-4(g)(1). Pour consulter cet état, accédez à **Location d’actifs > Recherches et états > Divulgations > GAAP - flux de trésorerie**. 
 
-|     Champs d’état                                 |     Description                                                                                                                                                |
+|     Champs d’état                                 |     Description                                                                                                                                               |
 |------------------------------------------------   |-----------------------------------------------------------------------------  |
 |     Date de début <br> Au                        |     Définit une plage de dates utilisée pour restreindre les informations incluses dans l’état.      |
 |     Entité juridique                                  |     Entité juridique liée aux baux.                                      |
@@ -95,7 +94,7 @@ L’état des divulgations GAAP satisfait à l’exigence de divulgation US GAAP
 ## <a name="lease-balances-forecast"></a>Prévision des soldes de loyer
 La prévision des soldes de location répertorie les informations directement à partir du programme d’amortissement du passif et du programme d’amortissement des actifs. L’état présente les montants prévus du passif de location prévu et du droit d’utilisation de l’actif sur une période donnée, y compris toutes les dépenses prévues pour ces baux. L’état couvre les champs suivants.
 
-|     Champs d’état                 |     Description                                                                                                                                                                                |
+|     Champs d’état                 |     Description                                                                                                                                                                               |
 |---------------------------------  |--------------------------------------------------------------------------------------------------------------------   |
 |     Solde d’ouverture             |     Le solde de début du programme d’amortissement du bail pour la période contenant la date de début de l’état.            |
 |     Reconnaissance initiale           |     Si la date de début du bail se situe dans la plage de dates définie pour l’état, cette colonne affiche la valeur du compte passif de l’entrée de journal de comptabilisation initiale.      |
@@ -113,7 +112,7 @@ La prévision des soldes de location répertorie les informations directement à
 ## <a name="lease-commencements-report"></a>État d’entrée en vigueur du bail
 L’état d’entrée en vigueur du bail présente tous les baux qui ont commencé dans une plage de date spécifique, y compris les soldes de passif initial et de droit d’utilisation de l’actif. L’état couvre les champs suivants. 
 
-|     Champs d’état                 |     Description                                                                                        |
+|     Champs d’état                 |     Description                                                                                       |
 |---------------------------------  |---------------------------------------------------------------------------------------------------    |
 |     Date d’entrée en vigueur             |     Date d’entrée de journal de comptabilisation initiale validée pour cette version de bail.         |
 |     Montant du passif locatif      |     Montant du passif depuis l’entrée de journal de comptabilisation initiale.                                  |
@@ -122,7 +121,7 @@ L’état d’entrée en vigueur du bail présente tous les baux qui ont commenc
 ## <a name="lease-modification-report"></a>État de modification du bail
 L’état de modification du bail présente tous les baux qui ont été modifiés dans une plage de date spécifiée. L’état montre également l’utilisateur ayant ajusté le bail et le montant total du passif ajusté. L’état couvre les champs suivants. 
 
-|     Champs d’état                 |     Description            |
+|     Champs d’état                 |     Description           |
 |---------------------------------  |-------------------------  |
 |     Ajusté par                   |     Le nom d’utilisateur de la personne qui a modifié le bail.                                |
 |     Destinée de l’ajustement               |     Date à laquelle l’entrée de journal d’ajustement a été validée.                        |
@@ -134,7 +133,7 @@ L’état de modification du bail présente tous les baux qui ont été modifié
 ## <a name="lease-movement-report"></a>État des mouvements du bail
 L’état des mouvements du bail sert d’état de récupération pour les soldes du droit d’utilisation de l’actif pour chaque bail. Cet état permet à l’utilisateur de voir les transactions de passif d’un bail pendant une période spécifiée.
 
-|     Champs d’état             |     Description                                                |
+|     Champs d’état             |     Description                                               |
 |----------------------------   |-------------------------------------------------------------- |
 |     Date d’entrée en vigueur         |     La date de début de la version la plus ancienne du bail.    |
 |     Durée du bail                |     La durée du bail de la version la plus ancienne du bail.           |
@@ -152,7 +151,7 @@ L’interrogation des transactions de location affiche toutes les entrées de jo
 ## <a name="weighted-average-discount-rate-report"></a>État sur le taux de retour de la moyenne pondérée
 L’état sur le taux de retour de la moyenne pondérée répond au besoin de divulgation US GAAP spécifié dans ASC 842-20-50-4(g)(4) pour un taux de retour de la moyenne pondérée. Pour consulter cet état, accédez à **Location d’actifs > Recherches et états > Divulgations > Taux de retour de la moyenne pondérée**. L’état couvre les champs suivants. 
 
-|     Champs d’état                     |     Description                                                            |
+|     Champs d’état                     |     Description                                                           |
 |------------------------------------   |------------------------------------------------------------------------   |
 |     Date de référence                        |     Cet état comprendra tous les baux qui ont débuté le ou avant le paramètre de date **À partir du**. Cet état doit être exécuté à compter du dernier jour de la période à divulguer.      |
 |     Entité juridique                      |     L’entité juridique qui est liée au bail.                           |
@@ -165,6 +164,3 @@ L’état sur le taux de retour de la moyenne pondérée répond au besoin de di
 |     Devise                          |     Abréviation de la devise transactionnelle utilisée. Tous les états convertissent la devise transactionnelle en devise de déclaration.  |
 |     Paiements de loyer restants          |     Le montant total des paiements de location impayés du calendrier de paiement restant à compter de la date **À partir du**.            |
 |     Paiements pondérés restants       |     Reste des paiements de location multipliés par le taux de retour utilisé.   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 9a033258feeccf172f1e2c03a9f49305054b24c2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665320"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972129"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Vue d’ensemble des processus de facturation automatisés des fournisseurs
 
@@ -69,6 +68,3 @@ L’espace de travail **Saisie de facture fournisseur** vous permet de vous conc
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatisation des factures fournisseur : reprendre le traitement de l’automatisation pour plusieurs factures
 Lorsqu’une facture importée n’est pas soumise avec succès au workflow via le processus automatisé, le système la supprimera du traitement automatisé ultérieur. Un commis au paiement de la comptabilité fournisseur peut passer en revue et modifier la facture avant que le processus automatisé ne la soumette à nouveau au workflow. Lorsqu’un motif d’échec peut être résolu par le même correctif pour plusieurs factures, vous pouvez redémarrer le processus automatisé sur la page **Reprendre le traitement automatisé des factures**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

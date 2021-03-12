@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d8aa4963026ad55ed3dfccb28b6cc68a872f326
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2500bdaa7107c24f7cb95249208b7ac2a2958fed
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443066"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971551"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Créer une série de lettres de relance
 
@@ -59,6 +58,3 @@ Utilisez ce guide de tâche pour créer une série de lettres de relance. La soc
 26. Développez l’organisateur **Note**.
 27. Entrez le texte tel que vous souhaitez qu’il apparaisse dans la lettre de relance pour le code lettre de relance sélectionné. Vous pouvez traduire ce texte dans plusieurs langues à l’aide du menu Traductions au-dessus de la zone de note.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

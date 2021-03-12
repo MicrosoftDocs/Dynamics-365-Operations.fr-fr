@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19851
 ms.assetid: 877eabf3-19c7-4897-b33e-c5a8a319cb35
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760bce7983e07e61940d5091049b1ad1ceee935b
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 31e4cb6c81c31052a3ccf210928ab4d103e1e216
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646299"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971152"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 
@@ -76,6 +75,3 @@ Type de certification Codes commande fournisseur de confirmation Montants des li
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

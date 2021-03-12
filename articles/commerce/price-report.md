@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 91c0a96abdd7df9e85e63ca6b1b47a57f3f401eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e14b029a1420eda6af6e83392f295a071a29842a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412143"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972428"
 ---
 # <a name="retail-price-reports"></a>États sur le prix de vente au détail
 
@@ -44,6 +43,3 @@ Pour activer l'état de prix, le paramètre **Activer l'état de prix pour le ma
 | Afficher les produits avec les modifications de prix | En définissant ce paramètre sur **Oui**, les prix s'affichent pour uniquement ces dates auxquelles le prix a été modifié. Le prix pour *un jour avant* la **Date de début** sélectionnée sera toujours affichée, de telle sorte que le responsable du magasin peut facilement identifier les produits dont les prix n'ont pas changé pendant l'intégralité de la durée, et peut également visualiser le prix actuel. |
 
 Une fois l'état généré, le fichier Excel peut être téléchargé pour tout besoin de filtre supplémentaire. L'état de prix peut être également utilisé pour vérifier les prix historiques des produits pour les dates passées.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

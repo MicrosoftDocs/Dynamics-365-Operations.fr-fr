@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5eed11cbe73ede71cabf83655fc1d37b1a979a4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ff2da881bb77bf7db2c443f3556b4255cd81e3d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972178"
 ---
 # <a name="configure-accounts-payable-overview"></a>Vue d’ensemble de la configuration du module Comptabilité fournisseur
 
@@ -47,7 +46,7 @@ Les pages suivantes permettent de paramétrer les fonctionnalités de base du mo
 1.  Sur la page Conditions de paiement, définissez les conditions de paiement à affecter aux commandes client, aux commandes fournisseur, aux clients et aux fournisseurs et qui déterminent les dates d’échéance des factures. Pour plus d’informations, voir [Définir les commissions de paiement fournisseur](tasks/define-vendor-payment-fees.md).
 2.  Sur la page Modes de paiement - fournisseurs, créez et tenez à jour les informations sur la manière dont l’organisation paie ses fournisseurs.
 3.  Sur la page Groupes de fournisseurs, créez et tenez à jour les groupes de fournisseurs qui partagent des paramètres importants pour la validation, le règlement et le paiement, la génération d’états et les prévisions.
-4.  Sur la page Profils de validation fournisseur, définissez comment les transactions fournisseur sont validés dans la comptabilité.
+4.  Sur la page Profils de validation fournisseur, définissez comment les transactions fournisseur sont imputées dans la comptabilité.
 5.  Sur la page Paramètres de la comptabilité fournisseur, définissez des paramètres par défaut qui sont appliqués si aucun paramétrage plus spécifique n’est spécifié, des paramètres pour différents types de fonctionnalités et les diverses souches de numéros pour la comptabilité fournisseur.
 6.  Sur la page Paramétrage d’écran, définissez le format de différents documents liés aux fournisseurs et que l’organisation utilise pour le suivi des réceptions des fournisseurs et pour entrer les motifs du flux de paiements adressés aux fournisseurs.
 7.  Sur la page Fournisseurs, créez et tenez à jour les comptes fournisseur, ainsi que les administrations fiscales auxquelles votre organisation déclare les taxes.
@@ -148,6 +147,3 @@ Les pages à paramétrer supplémentaires sont organisés selon leur fonction.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
