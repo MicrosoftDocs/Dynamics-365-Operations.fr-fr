@@ -1,5 +1,5 @@
 ---
-title: " Définir les points de récompense de fidélité"
+title: Définir les points de récompense de fidélité
 description: Cette procédure décrit la définition des points de récompense de fidélité.
 author: scott-tucker
 manager: AnnBe
@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: af217a5e756db571e3e351b743aa44b842f478f1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000482"
 ---
-# <a name="define-loyalty-reward-points"></a><span data-ttu-id="b0b36-103"> Définir les points de récompense de fidélité</span><span class="sxs-lookup"><span data-stu-id="b0b36-103">Define loyalty reward points</span></span>
+# <a name="define-loyalty-reward-points"></a><span data-ttu-id="88549-103">Définir les points de récompense de fidélité</span><span class="sxs-lookup"><span data-stu-id="88549-103">Define loyalty reward points</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b0b36-104">Cette procédure décrit la définition des points de récompense de fidélité.</span><span class="sxs-lookup"><span data-stu-id="b0b36-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="b0b36-105">Vous devez paramétrer les points de récompense de fidélité avant de paramétrer un programme de fidélité.</span><span class="sxs-lookup"><span data-stu-id="b0b36-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="b0b36-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b0b36-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="88549-104">Cette procédure décrit la définition des points de récompense de fidélité.</span><span class="sxs-lookup"><span data-stu-id="88549-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="88549-105">Vous devez paramétrer les points de récompense de fidélité avant de paramétrer un programme de fidélité.</span><span class="sxs-lookup"><span data-stu-id="88549-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="88549-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="88549-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="b0b36-107">Accédez à Commerce et vente au détail > Clients > Fidélité > Points de récompense de fidélité.</span><span class="sxs-lookup"><span data-stu-id="b0b36-107">Go to Retail and Commerce > Customers > Loyalty > Loyalty reward points.</span></span>
-2. <span data-ttu-id="b0b36-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="b0b36-108">Click New.</span></span>
-3. <span data-ttu-id="b0b36-109">Dans le champ ID de point de récompense, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b0b36-109">In the Reward point ID field, type a value.</span></span>
-4. <span data-ttu-id="b0b36-110">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="b0b36-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="b0b36-111">Dans le champ Type de point de récompense, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="b0b36-111">In the Reward point type field, select an option.</span></span>
-    * <span data-ttu-id="b0b36-112">Sélectionnez Quantité si vous souhaitez arrondir les points de récompense à l'entier le plus proche.</span><span class="sxs-lookup"><span data-stu-id="b0b36-112">Select Quantity if you want the reward points to be rounded to the nearest integer.</span></span> <span data-ttu-id="b0b36-113">Sélectionnez Montant si vous souhaitez arrondir les points de récompense en fonction des règles d'arrondi de devise.</span><span class="sxs-lookup"><span data-stu-id="b0b36-113">Select Amount if you want the reward points to be rounded according to currency rounding rules.</span></span> <span data-ttu-id="b0b36-114">Si vous sélectionnez Quantité, ignorez l'étape suivante de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="b0b36-114">If you select Quantity, skip the next step of this procedure..</span></span>  
-6. <span data-ttu-id="b0b36-115">Tapez une valeur dans le champ Devise.</span><span class="sxs-lookup"><span data-stu-id="b0b36-115">In the Currency field, type a value.</span></span>
-    * <span data-ttu-id="b0b36-116">Pour les points de récompense de type Montant, tous les points émis utilisent la devise sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="b0b36-116">For Amount type reward points, all points issued will have the selected currency.</span></span> <span data-ttu-id="b0b36-117">Pour les points de récompense de type Quantité, ce champ ne s'applique pas. Ignorez cette étape.</span><span class="sxs-lookup"><span data-stu-id="b0b36-117">For Quantity type reward points, this field doesn't apply—skip this step.</span></span>  
-7. <span data-ttu-id="b0b36-118">Activez ou désactivez la case à cocher Remboursable.</span><span class="sxs-lookup"><span data-stu-id="b0b36-118">Check or uncheck the Redeemable checkbox.</span></span>
-8. <span data-ttu-id="b0b36-119">Dans le champ Rembourser le classement, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="b0b36-119">In the Redeem ranking field, enter a number.</span></span>
-    * <span data-ttu-id="b0b36-120">Le classement de remboursement est utilisé lorsque deux ou plusieurs points de récompense remboursables peuvent être utilisés pour payer les produits.</span><span class="sxs-lookup"><span data-stu-id="b0b36-120">Redeem ranking is used when two or more redeemable reward points can be used to pay for products.</span></span> <span data-ttu-id="b0b36-121">Si les deux points de récompense ont le même classement de remboursement, celui qui doit réduire le nombre de points est utilisé.</span><span class="sxs-lookup"><span data-stu-id="b0b36-121">If the two reward points have the same redeem ranking, then the one that needs to lower number of points will be used.</span></span>  
-9. <span data-ttu-id="b0b36-122">Dans le champ Valeur - durée avant expiration, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="b0b36-122">In the Expiration time value field, enter a number.</span></span>
-    * <span data-ttu-id="b0b36-123">Les points de récompense expirent le nombre spécifié de jours, mois ou années après l'émission des points.</span><span class="sxs-lookup"><span data-stu-id="b0b36-123">The reward points will expire the specified number of days, months, or years after when the points are issued.</span></span> <span data-ttu-id="b0b36-124">La valeur « 0 » signifie que les points de récompense de fidélité n'expirent jamais.</span><span class="sxs-lookup"><span data-stu-id="b0b36-124">A value of '0' means the loyalty reward points will never expire.</span></span>  
-10. <span data-ttu-id="b0b36-125">Dans le champ Unité - durée avant expiration, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="b0b36-125">In the Expiration time unit field, select an option.</span></span>
-11. <span data-ttu-id="b0b36-126">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="b0b36-126">Click Save.</span></span>
+1. <span data-ttu-id="88549-107">Accédez à Commerce et vente au détail > Clients > Fidélité > Points de récompense de fidélité.</span><span class="sxs-lookup"><span data-stu-id="88549-107">Go to Retail and Commerce > Customers > Loyalty > Loyalty reward points.</span></span>
+2. <span data-ttu-id="88549-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="88549-108">Click New.</span></span>
+3. <span data-ttu-id="88549-109">Dans le champ ID de point de récompense, tapez une valeur.</span><span class="sxs-lookup"><span data-stu-id="88549-109">In the Reward point ID field, type a value.</span></span>
+4. <span data-ttu-id="88549-110">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="88549-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="88549-111">Dans le champ Type de point de récompense, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="88549-111">In the Reward point type field, select an option.</span></span>
+    * <span data-ttu-id="88549-112">Sélectionnez Quantité si vous souhaitez arrondir les points de récompense à l'entier le plus proche.</span><span class="sxs-lookup"><span data-stu-id="88549-112">Select Quantity if you want the reward points to be rounded to the nearest integer.</span></span> <span data-ttu-id="88549-113">Sélectionnez Montant si vous souhaitez arrondir les points de récompense en fonction des règles d'arrondi de devise.</span><span class="sxs-lookup"><span data-stu-id="88549-113">Select Amount if you want the reward points to be rounded according to currency rounding rules.</span></span> <span data-ttu-id="88549-114">Si vous sélectionnez Quantité, ignorez l'étape suivante de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="88549-114">If you select Quantity, skip the next step of this procedure..</span></span>  
+6. <span data-ttu-id="88549-115">Tapez une valeur dans le champ Devise.</span><span class="sxs-lookup"><span data-stu-id="88549-115">In the Currency field, type a value.</span></span>
+    * <span data-ttu-id="88549-116">Pour les points de récompense de type Montant, tous les points émis utilisent la devise sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="88549-116">For Amount type reward points, all points issued will have the selected currency.</span></span> <span data-ttu-id="88549-117">Pour les points de récompense de type Quantité, ce champ ne s'applique pas. Ignorez cette étape.</span><span class="sxs-lookup"><span data-stu-id="88549-117">For Quantity type reward points, this field doesn't apply—skip this step.</span></span>  
+7. <span data-ttu-id="88549-118">Activez ou désactivez la case à cocher Remboursable.</span><span class="sxs-lookup"><span data-stu-id="88549-118">Check or uncheck the Redeemable checkbox.</span></span>
+8. <span data-ttu-id="88549-119">Dans le champ Rembourser le classement, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="88549-119">In the Redeem ranking field, enter a number.</span></span>
+    * <span data-ttu-id="88549-120">Le classement de remboursement est utilisé lorsque deux ou plusieurs points de récompense remboursables peuvent être utilisés pour payer les produits.</span><span class="sxs-lookup"><span data-stu-id="88549-120">Redeem ranking is used when two or more redeemable reward points can be used to pay for products.</span></span> <span data-ttu-id="88549-121">Si les deux points de récompense ont le même classement de remboursement, celui qui doit réduire le nombre de points est utilisé.</span><span class="sxs-lookup"><span data-stu-id="88549-121">If the two reward points have the same redeem ranking, then the one that needs to lower number of points will be used.</span></span>  
+9. <span data-ttu-id="88549-122">Dans le champ Valeur - durée avant expiration, saisissez un nombre.</span><span class="sxs-lookup"><span data-stu-id="88549-122">In the Expiration time value field, enter a number.</span></span>
+    * <span data-ttu-id="88549-123">Les points de récompense expirent le nombre spécifié de jours, mois ou années après l'émission des points.</span><span class="sxs-lookup"><span data-stu-id="88549-123">The reward points will expire the specified number of days, months, or years after when the points are issued.</span></span> <span data-ttu-id="88549-124">La valeur « 0 » signifie que les points de récompense de fidélité n'expirent jamais.</span><span class="sxs-lookup"><span data-stu-id="88549-124">A value of '0' means the loyalty reward points will never expire.</span></span>  
+10. <span data-ttu-id="88549-125">Dans le champ Unité - durée avant expiration, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="88549-125">In the Expiration time unit field, select an option.</span></span>
+11. <span data-ttu-id="88549-126">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="88549-126">Click Save.</span></span>
 
