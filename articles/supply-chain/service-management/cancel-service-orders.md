@@ -11,68 +11,67 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce3cb9ebc3536ba1b333a7bef6b5c679e09d7516
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b60feec05e923c25e0f0bacb28b510906d5f73cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428065"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974683"
 ---
-# <a name="cancel-service-orders"></a><span data-ttu-id="50f0c-103">Annuler des commandes de service</span><span class="sxs-lookup"><span data-stu-id="50f0c-103">Cancel service orders</span></span>   
+# <a name="cancel-service-orders"></a><span data-ttu-id="6ba0a-103">Annuler des commandes de service</span><span class="sxs-lookup"><span data-stu-id="6ba0a-103">Cancel service orders</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="50f0c-104">Vous pouvez annuler une commande de service ou une ligne de commande de service à partir de la commande de service elle-même ou annuler plusieurs commandes de service en exécutant une tâche périodique.</span><span class="sxs-lookup"><span data-stu-id="50f0c-104">You can cancel a service order or service order line from the service order itself, or you can cancel multiple service orders by running a periodic job.</span></span>
+<span data-ttu-id="6ba0a-104">Vous pouvez annuler une commande de service ou une ligne de commande de service à partir de la commande de service elle-même ou annuler plusieurs commandes de service en exécutant une tâche périodique.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-104">You can cancel a service order or service order line from the service order itself, or you can cancel multiple service orders by running a periodic job.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="50f0c-105">Vous ne pouvez pas annuler une commande de service si son stade ne le permet pas, si elle contient des demandes d'articles ou si elle a déjà été validée.</span><span class="sxs-lookup"><span data-stu-id="50f0c-105">Service orders cannot be canceled if the stage of the service order does not allow cancelation, if the service order has item requirements, or if the service order has already been posted.</span></span></P>
+> <P><span data-ttu-id="6ba0a-105">Vous ne pouvez pas annuler une commande de service si son stade ne le permet pas, si elle contient des demandes d'articles ou si elle a déjà été validée.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-105">Service orders cannot be canceled if the stage of the service order does not allow cancelation, if the service order has item requirements, or if the service order has already been posted.</span></span></P>
 
 
-## <a name="cancel-a-service-order-in-the-service-orders-form"></a><span data-ttu-id="50f0c-106">Annulation d'une commande de service dans l'écran Commandes de service</span><span class="sxs-lookup"><span data-stu-id="50f0c-106">Cancel a service order in the Service orders form</span></span>
+## <a name="cancel-a-service-order-in-the-service-orders-form"></a><span data-ttu-id="6ba0a-106">Annulation d'une commande de service dans l'écran Commandes de service</span><span class="sxs-lookup"><span data-stu-id="6ba0a-106">Cancel a service order in the Service orders form</span></span>
 
-1.  <span data-ttu-id="50f0c-107">Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="50f0c-108">Sélectionnez la commande de service, puis dans le volet Actions, cliquez sur **Annuler la commande**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-108">Select the service order, and on the Action Pane, click **Cancel order**.</span></span>
+1.  <span data-ttu-id="6ba0a-107">Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="6ba0a-108">Sélectionnez la commande de service, puis dans le volet Actions, cliquez sur **Annuler la commande**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-108">Select the service order, and on the Action Pane, click **Cancel order**.</span></span>
 
-## <a name="cancel-a-service-order-line"></a><span data-ttu-id="50f0c-109">Annulation d'une ligne de commande de service</span><span class="sxs-lookup"><span data-stu-id="50f0c-109">Cancel a service order line</span></span>
+## <a name="cancel-a-service-order-line"></a><span data-ttu-id="6ba0a-109">Annulation d'une ligne de commande de service</span><span class="sxs-lookup"><span data-stu-id="6ba0a-109">Cancel a service order line</span></span>
 
-1.  <span data-ttu-id="50f0c-110">Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="50f0c-111">Double-cliquez sur la commande de service qui contient la ligne à annuler.</span><span class="sxs-lookup"><span data-stu-id="50f0c-111">Double-click the service order that contains the line you want to cancel.</span></span>
+1.  <span data-ttu-id="6ba0a-110">Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="6ba0a-111">Double-cliquez sur la commande de service qui contient la ligne à annuler.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-111">Double-click the service order that contains the line you want to cancel.</span></span>
 
-2.  <span data-ttu-id="50f0c-112">Sélectionnez la ligne de commande de service à annuler, puis cliquez sur **Annuler la ligne de commande** pour modifier le statut de la ligne sur **Annulé**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-112">Select the service order line that you want to cancel, and then click **Cancel order line** to change the status of the line to **Canceled**.</span></span>
+2.  <span data-ttu-id="6ba0a-112">Sélectionnez la ligne de commande de service à annuler, puis cliquez sur **Annuler la ligne de commande** pour modifier le statut de la ligne sur **Annulé**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-112">Select the service order line that you want to cancel, and then click **Cancel order line** to change the status of the line to **Canceled**.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="50f0c-113">Pour inverser l'annulation d'une ligne de commande de service et rétablir son statut sur <STRONG>Créé</STRONG>, cliquez sur <STRONG>Annuler l'annulation</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="50f0c-113">To reverse the cancellation of a service order line and change the status back to <STRONG>Created</STRONG>, click <STRONG>Revoke cancel</STRONG>.</span></span></P>
+> <P><span data-ttu-id="6ba0a-113">Pour inverser l'annulation d'une ligne de commande de service et rétablir son statut sur <STRONG>Créé</STRONG>, cliquez sur <STRONG>Annuler l'annulation</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-113">To reverse the cancellation of a service order line and change the status back to <STRONG>Created</STRONG>, click <STRONG>Revoke cancel</STRONG>.</span></span></P>
 
 
-## <a name="cancel-multiple-service-orders"></a><span data-ttu-id="50f0c-114">Annulation de plusieurs commandes de service</span><span class="sxs-lookup"><span data-stu-id="50f0c-114">Cancel multiple service orders</span></span>
+## <a name="cancel-multiple-service-orders"></a><span data-ttu-id="6ba0a-114">Annulation de plusieurs commandes de service</span><span class="sxs-lookup"><span data-stu-id="6ba0a-114">Cancel multiple service orders</span></span>
 
-1.  <span data-ttu-id="50f0c-115">Cliquez sur **Gestion des services** \> **Périodique** \> **Commandes de service** \> **Annuler des commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-115">Click **Service management** \> **Periodic** \> **Service orders** \> **Cancel service orders**.</span></span>
+1.  <span data-ttu-id="6ba0a-115">Cliquez sur **Gestion des services** \> **Périodique** \> **Commandes de service** \> **Annuler des commandes de service**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-115">Click **Service management** \> **Periodic** \> **Service orders** \> **Cancel service orders**.</span></span>
 
-2.  <span data-ttu-id="50f0c-116">Cliquez sur le bouton **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-116">Click the **Select** button.</span></span>
+2.  <span data-ttu-id="6ba0a-116">Cliquez sur le bouton **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-116">Click the **Select** button.</span></span>
 
-3.  <span data-ttu-id="50f0c-117">Dans l'écran **Recherche**, dans la colonne **Critères**, sélectionnez les commandes de service à annuler.</span><span class="sxs-lookup"><span data-stu-id="50f0c-117">In the **Inquiry** form, in the **Criteria** column, select the service orders that you want to cancel.</span></span>
+3.  <span data-ttu-id="6ba0a-117">Dans l'écran **Recherche**, dans la colonne **Critères**, sélectionnez les commandes de service à annuler.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-117">In the **Inquiry** form, in the **Criteria** column, select the service orders that you want to cancel.</span></span>
 
-4.  <span data-ttu-id="50f0c-118">Cliquez sur **OK** pour fermer l'écran **Recherche**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-118">Click **OK** to close the **Inquiry** form.</span></span>
+4.  <span data-ttu-id="6ba0a-118">Cliquez sur **OK** pour fermer l'écran **Recherche**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-118">Click **OK** to close the **Inquiry** form.</span></span>
 
-5.  <span data-ttu-id="50f0c-119">Activez la case à cocher **Afficher Infos** pour générer une fenêtre Infos répertoriant les commandes de service annulées.</span><span class="sxs-lookup"><span data-stu-id="50f0c-119">Select the **Show Infolog** check box to generate an Infolog that lists the canceled service orders.</span></span>
+5.  <span data-ttu-id="6ba0a-119">Activez la case à cocher **Afficher Infos** pour générer une fenêtre Infos répertoriant les commandes de service annulées.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-119">Select the **Show Infolog** check box to generate an Infolog that lists the canceled service orders.</span></span>
 
-6.  <span data-ttu-id="50f0c-120">Activez la case à cocher **Annuler l'annulation** pour inverser le statut **Annulé** d'une commande de service.</span><span class="sxs-lookup"><span data-stu-id="50f0c-120">Select the **Revoke cancel** check box if you want to reverse the **Canceled** status of a service order.</span></span>
+6.  <span data-ttu-id="6ba0a-120">Activez la case à cocher **Annuler l'annulation** pour inverser le statut **Annulé** d'une commande de service.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-120">Select the **Revoke cancel** check box if you want to reverse the **Canceled** status of a service order.</span></span>
 
-7.  <span data-ttu-id="50f0c-121">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-121">Click **OK**.</span></span>
+7.  <span data-ttu-id="6ba0a-121">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-121">Click **OK**.</span></span>
 
-<span data-ttu-id="50f0c-122">Soit les commandes de service sélectionnées sont annulées, soit leur statut de progression **Annulé** a été rétabli sur **En cours**.</span><span class="sxs-lookup"><span data-stu-id="50f0c-122">The selected service orders are either canceled or their progress status of **Canceled** has been reversed to **In process**.</span></span>
+<span data-ttu-id="6ba0a-122">Soit les commandes de service sélectionnées sont annulées, soit leur statut de progression **Annulé** a été rétabli sur **En cours**.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-122">The selected service orders are either canceled or their progress status of **Canceled** has been reversed to **In process**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="50f0c-123">Si vous activez la case à cocher <STRONG>Annuler l'annulation</STRONG>, les commandes de service dont le statut de progression est <STRONG>Annulé</STRONG> sont rétablies et celles dont le statut de progression est <STRONG>En cours</STRONG> ne sont pas annulées.</span><span class="sxs-lookup"><span data-stu-id="50f0c-123">If you select the <STRONG>Revoke cancel</STRONG> check box, service orders with a progress status of <STRONG>Canceled</STRONG> are reversed and service orders with a progress status of <STRONG>In process</STRONG> are not canceled.</span></span></P>
+> <P><span data-ttu-id="6ba0a-123">Si vous activez la case à cocher <STRONG>Annuler l'annulation</STRONG>, les commandes de service dont le statut de progression est <STRONG>Annulé</STRONG> sont rétablies et celles dont le statut de progression est <STRONG>En cours</STRONG> ne sont pas annulées.</span><span class="sxs-lookup"><span data-stu-id="6ba0a-123">If you select the <STRONG>Revoke cancel</STRONG> check box, service orders with a progress status of <STRONG>Canceled</STRONG> are reversed and service orders with a progress status of <STRONG>In process</STRONG> are not canceled.</span></span></P>
 
 
   
