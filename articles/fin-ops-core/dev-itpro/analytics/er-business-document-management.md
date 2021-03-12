@@ -3,7 +3,7 @@ title: Vue d’ensemble du module Gestion de document commercial
 description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b50a170bb9e584501fe780239228dc871ca7750
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681302"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740954"
 ---
 # <a name="business-document-management-overview"></a>Vue d’ensemble du module Gestion de document commercial
 
@@ -41,26 +41,19 @@ Actuellement, la fonctionnalité Gestion de document commercial est implémenté
 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 
-Pour utiliser le module Gestion de document commercial pour modifier les modèles dans des formats Excel ou Word à l’aide des applications de bureau Microsoft Office, Microsoft Office 2010 ou une version ultérieure doit être installé. Il n’est pas pris en charge dans le cloud et le déploiement local.
+Pour utiliser le module Gestion de document commercial pour modifier les modèles dans des formats Excel ou Word à l’aide des applications de bureau Microsoft Office, Microsoft Office 2010 ou une version ultérieure doit être installé. Il n’est pas pris en charge dans le cloud et les déploiements locaux.
+
+Pour utiliser le module Gestion de document commercial pour modifier les modèles dans des formats Excel ou Word à l’aide des applications Microsoft 365, vous devez avoir Microsoft 365 Office pour l’abonnement Internet. Ceci est pris en charge dans le déploiement cloud.
 
 ## <a name="business-document-availability"></a>Disponibilité de la gestion de document commercial
 
-Les états suivants, avec des modèles Excel, seront disponibles avec le lancement de la version préliminaire publique :
+Pour une liste complète de tous les états prévus pour le lancement d’octobre 2019, voir [Génération d’états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-**Comptabilité client** (août 2019)
+Pour une liste complète de tous les états prévus pour le lancement d’octobre 2020, voir [Documents commerciaux configurables - Modèles Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
-- Facture d’acompte de vente
-- Bon de livraison de commande client
+D’autres états seront disponibles dans les prochaines versions. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. Pour savoir comment consulter la liste des états actuellement disponibles, consultez la section [Liste des configurations de gestion des états électroniques qui ont été publiées dans Finance pour prendre en charge les documents commerciaux configurables](#list-of-configurations-cbd) ci-après.
 
-**Comptabilité fournisseur** (août 2019)
-
-- Facture d’acompte d’achat
-- Commande fournisseur
-- Bon de livraison de commande fournisseur
-
-Des états supplémentaires seront disponibles. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. 
-
-La liste complète de tous les états prévus pour le lancement d’octobre 2019 figure dans [Génération d’états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cette rubrique.
+Pour en savoir plus sur cette fonctionnalité, exécutez l’exemple décrit dans cette rubrique.
 
 ## <a name="configure-er-parameters"></a>Configurer les paramètres ER
 
@@ -74,24 +67,24 @@ Des exemples de configurations ER sont utilisés dans l’exemple de cette proc�
 
 **Exemple de solution de facturation de client d’ER**
 
-| **Fichier**                                  | **Contenu**                                |
-|-------------------------------------------|--------------------------------------------|
+| Fichier                                      | Contenu |
+|-------------------------------------------|---------|
 | Customer invoicing model.version.2.xml    | [Configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 | Customer FTI report (GER).version.2.3.xml | [Configurations de format ER de facture financière](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Exemple de solution de paiement par chèque d’ER**
 
-| **Fichier**                                  | **Contenu**                                |
-|-------------------------------------------|--------------------------------------------|
-| Model for cheques.version.10.xml          | [Configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Cheques printing format.version.10.9.xml  | [Configuration du format ER de paiement par chèque](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Fichier                                     | Contenu |
+|------------------------------------------|---------|
+| Model for cheques.version.10.xml         | [Configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Cheques printing format.version.10.9.xml | [Configuration du format ER de paiement par chèque](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 **Exemple de solution de commerce extérieur d’ER**
 
-| **Fichier**                                  | **Contenu**                                |
-|-------------------------------------------|--------------------------------------------|
-| Intrastat model.version.1.xml             | [Configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Intrastat report.version.1.9.xml          | [Configuration du format ER d’état de contrôle de déclaration d’échanges de biens](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Fichier                             | Contenu |
+|----------------------------------|---------|
+| Intrastat model.version.1.xml    | [Configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Intrastat report.version.1.9.xml | [Configuration du format ER d’état de contrôle de déclaration d’échanges de biens](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Procédez comme suit pour importer chaque fichier. Importez la configuration de *modèle de données* d’ER de chaque solution d’ER dans les tables ci-dessus avant d’importer la configuration de *format* d’ER correspondante.
 
@@ -101,15 +94,13 @@ Procédez comme suit pour importer chaque fichier. Importez la configuration de 
 4. Sélectionnez **Parcourir** pour charger le fichier XML requis.
 5. Sélectionnez **OK** pour confirmer l’importation de la configuration.
 
-![Page Configurations d’ER](./media/BDM-Overview-ERSolutions.png)
-
+![Page de configurations de gestion des états électroniques confirmant l’importation de la configuration](./media/BDM-Overview-ERSolutions.png)
 
 Sinon, vous pouvez importer les configurations officiellement au format ER publiées depuis Microsoft Dynamics Lifecycle Services (LCS). Par exemple, pour réexécuter cette procédure, vous pouvez importer la dernière version de la configuration de format ER **Facture financière (Excel)**. Le modèle de données de gestion des états électroniques correspondants et les configurations de mise en correspondance du modèle de gestion des états électroniques seront importés automatiquement.
 
 ![Page de contenu de bibliothèque d’actifs partagés LCS](./media/BDM-Overview-SharedAssetLibrary.png)
 
 Pour plus d’informations sur l’importation des configurations d’ER, voir [Gérer le cycle de vie de la configuration des états électroniques](general-electronic-reporting-manage-configuration-lifecycle.md).
-
 
 ## <a name="enable-business-document-management"></a>Activer le module Gestion de document commercial
 
@@ -122,7 +113,7 @@ Procédez comme suit pour activer la fonctionnalité Gestion de document commerc
 3. Sélectionnez **Activer maintenant** pour activer la fonctionnalité sélectionnée.
 4. Actualisez la page pour accéder à la nouvelle fonctionnalité.
 
->[!NOTE]
+> [!NOTE]
 > Pour plus d’informations sur l’utilisation de la nouvelle interface utilisateur dans Gestion des documents commerciaux, consultez [Nouvelle interface utilisateur de document dans la gestion des documents commerciaux](er-business-document-management-new-template-ui.md).
 
 ![Espace de travail Gestion des fonctionnalités](./media/BDM-Overview-FMEnabling.png)
@@ -134,21 +125,22 @@ Pour plus d’informations sur l’activation de nouvelles fonctionnalités, voi
 Utilisez les informations des sections suivantes pour paramétrer les paramètres de base pour le module Gestion de document commercial.
 
 ### <a name="prerequisites-for-parameter-setup"></a>Conditions requises pour le paramétrage
+
 Avant de paramétrer le module Gestion de document commercial, vous devez paramétrer le type de document requis dans la structure de gestion des documents. Ce type de document est utilisé pour spécifier un stockage temporaire de documents dans les formats Office (Excel et Word) utilisés en tant que modèles pour les états ER. Le modèle de stockage temporaire peut être modifié à l’aide des applications de bureau Office.
 
 Pour ce type de document, les valeurs d’attribut suivantes doivent être sélectionnées.
 
-| **Nom d’attribut**  | **Valeur d’attribut**   |
-|---------------------|-----------------------|
-| Classe               | Fichier joint           |
-| Regrouper               | Fichier                  |
-| Emplacement            | SharePoint            |
+| Nom d’attribut | Valeur d’attribut |
+|----------------|-----------------|
+| Classe          | Fichier joint     |
+| Regrouper          | Fichier            |
+| Emplacement       | SharePoint      |
 
 Pour plus d’informations sur la définition des paramètres et des types de document requis pour le module Gestion de document commercial, voir [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md).
 
 ![Paramétrer un type de document pour la gestion des documents](./media/BDM-Overview-DMSetting.png)
 
-### <a name=""></a><a name="SetupBdmParameters">Définir les paramètres</a>
+### <a name="set-up-parameters"></a><a name="SetupBdmParameters"></a>Définir les paramètres
 
 Les paramètres de base du module Gestion de document commercial peuvent être définis sur la page **Paramètres de document commercial**. Seuls certains utilisateurs peuvent accéder à la page. Notamment :
 
@@ -159,7 +151,7 @@ Suivez les procédures suivantes pour définir les paramètres de base pour tout
 
 1. Connectez-vous en tant qu’utilisateur avec accès à la page **Paramètres de document commercial**.
 2. Accédez à **Administration d’organisation** \> **Gestion des états électroniques** \> **Gestion de document commercial** \> **Paramètres de document commercial**.
-3.    Sur la page **Paramètres de document commercial**, sous l’onglet **Documents joints**, dans le champ **Type de document SharePoint**, définissez le type de document à utiliser pour stocker temporairement des modèles dans des formats Office lorsqu’ils sont modifiés à l’aide des applications de bureau Office. 
+3. Sur la page **Paramètres de document commercial**, sous l’onglet **Documents joints**, dans le champ **Type de document SharePoint**, définissez le type de document à utiliser pour stocker temporairement des modèles dans des formats Office lorsqu’ils sont modifiés à l’aide des applications de bureau Office. 
 
 > [!NOTE]
 > Seuls les types de documents configurés à l’aide d’un emplacement SharePoint sont disponibles pour ce paramètre.
@@ -175,7 +167,7 @@ Le type de document sélectionné est spécifique à la société et sera utilis
 
 Par défaut, lorsque l’accès aux autorisations du module Gestion de document commercial n’est pas activé, chaque utilisateur qui a accès à l’espace de travail de ce module voit tous les modèles de solution d’ER disponibles. L’espace de travail du module Gestion de document commercial n’affiche que les modèles résidant dans les configurations de format ER et marqués par une balise **Type de document commercial**.
 
-![Page Configurations d’ER](./media/BDM-Overview-ERFormatTags.png)
+![Page de configurations de gestion des états électroniques avec balise de type de document commercial](./media/BDM-Overview-ERFormatTags.png)
 
 La liste des modèles disponibles dans l’espace de travail du module Gestion de document commercial peut être restreinte en configurant des autorisations d’accès. Cela peut être important lorsque différents modèles sont utilisés pour produire des documents commerciaux pour différents domaines d’activité (zones fonctionnelles), et si vous voulez permettre à des utilisateurs spécifiques d’accéder à différents modèles à des fins de modification dans le module Gestion de document commercial.
 
@@ -197,13 +189,13 @@ Procédez comme suit pour configurer l’accès aux autorisations du module Gest
 
     L’illustration suivante indique ce qui est disponible dans l’espace de travail du module Gestion de document commercial pour les utilisateurs affectés au rôle **Commis à la comptabilité client**. Avec le paramètre des autorisations d’accès actuel, l’utilisateur peut modifier les modèles de documents commerciaux provenant de différentes zones fonctionnelles notamment la facturation, la génération d’états de réglementation, et les paiements.
 
-    ![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Page de l’espace de travail de gestion des documents commerciaux pour le commis à la comptabilité client](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Dans la page **Configurateur des autorisations d’accès**, sélectionnez **Paramètre des autorisations d’accès**.
 4. Dans la boîte de dialogue **Paramètres des autorisations d’accès pour modifier des modèles**, activez l’option **Appliquer des autorisations d’accès configurées**.
 5. Sélectionnez **OK** pour confirmer que les autorisations d’accès du module Gestion de document commercial ont été activées.
 
-    ![Configuration de la page des autorisations d’accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Confirmer les autorisations d’accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Sélectionnez **Ajouter** pour entrer un nouveau rôle métier pour lequel des autorisations d’accès aux modèles du module Gestion de document commercial doivent être configurées.
 7. Dans la boîte de dialogue **Rôles de sécurité**, sélectionnez le rôle **Commis à la comptabilité client**, puis sélectionnez **OK** pour confirmer la sélection du rôle.
@@ -215,7 +207,7 @@ Procédez comme suit pour configurer l’accès aux autorisations du module Gest
 
 11. Basculez le volet **Informations associées** à partir du côté droit de la page actuelle. Le volet **Informations associées** montre comment les autorisations d’accès configurées sont appliquées, notamment quels modèles de configuration d’ER sont disponibles pour les utilisateurs affectés au rôle de **Commis à la comptabilité client**.
 
-    ![Configuration de la page des autorisations d’accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Volet d’informations connexes sur la page Configurateur des autorisations d’accès](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Dans l’onglet **Accéder aux autorisations par configuration**, sélectionnez l’option **Ajouter**.
 13. Dans la boîte de dialogue **Sélectionner une configuration**, marquez la configuration de format ER **État de déclaration d’échanges de biens**.
@@ -226,11 +218,11 @@ Le paramètre actuel signifie que pour tout utilisateur affecté au rôle **Comm
 - Les modèles qui ont la valeur, **Facturation** pour la balise **Zone fonctionnelle**.
 - Les modèles des configurations de format d’ER répertoriés sous l’onglet **Accéder aux autorisations par configuration** (modèles provenant de la configuration du format **État de déclaration d’échanges de biens** du domaine **Génération d’état statutaire** dans cet exemple).
 
-![Configuration de la page des autorisations d’accès du module Gestion de document commercial](./media/BDM-Overview-TemplatesAccess4.png)
+![Organisateurs Autorisations d’accès sur la page Configurateur des autorisations d’accès](./media/BDM-Overview-TemplatesAccess4.png)
 
 L’illustration suivante indique ce qui est disponible dans l’espace de travail du module Gestion de document commercial pour un utilisateur affecté au rôle **Commis à la comptabilité client**. Avec le paramètre des autorisations d’accès du module Gestion de document commercial, l’utilisateur peut modifier les modèles de documents commerciaux à partir du domaine **Facturation** et de la configuration de format ER **État de déclaration d’échanges de biens**. Les modèles provenant du domaine **Paiements** ne sont pas disponibles pour le rôle **Commis à la comptabilité client**.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-TemplatesForAlice2.png)
+![Modification des modèles de document commercial sur la page de l’espace de travail Gestion des documents commerciaux](./media/BDM-Overview-TemplatesForAlice2.png)
 
 > [!NOTE]
 > Les règles **Accéder aux autorisations par configuration** sont enregistrées à l’aide de l’ID d’identification unique d’une configuration de format d’ER. Cela signifie que ces règles ne sont pas supprimées lorsqu’une configuration d’ER qui y fait référence est supprimée. Lorsque vous importez des configurations supprimées dans cette instance, ces règles s’y rapporteront de nouveau. Il n’est pas nécessaire de paramétrer les règles de nouveau une fois que les configurations supprimées sont importées de nouveau.
@@ -252,7 +244,7 @@ Quand la fonctionnalité **Expérience d’interface utilisateur de type bureau 
 - Les modèles appartenant à votre fournisseur de configuration de gestion des états électroniques (ER) (c’est-à-dire le fournisseur actuellement marqué comme actif dans l’espace de travail **Gestion des états électroniques**). Après avoir sélectionné l’un de ces modèles, vous pouvez sélectionner **Modifier le modèle** pour commencer ou continuer à le modifier.
 - Modèles qui sont détenus par d’autres fournisseurs de configuration de gestion des états électroniques (ER). Après avoir sélectionné l’un de ces modèles, vous pouvez sélectionner **Nouveau document** pour en créer une copie qui appartient à votre fournisseur de configuration de gestion des états électroniques (ER), puis commencer à modifier la copie.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate1.png)
+![Listes de modèles sur la page de l’espace de travail Gestion de documents commerciaux](./media/BDM-Overview-EditingTemplate1.png)
 
 L’onglet **Modèle** affiche le contenu du modèle sélectionné. Sélectionnez l’onglet **Détails** pour consulter les détails du modèle sélectionné ainsi que les détails d’une configuration de format d’ER dans lequel se trouve ce modèle. Notez que tous les modèles ont un statut **Publié**, et ne contiennent aucun détail dans la colonne **Révision**. Cela signifie que ces modèles n’ont pas encore été modifiés.
 
@@ -265,7 +257,7 @@ Pour travailler avec des modèles appartenant à d’autres fournisseurs de conf
 1. Dans l’espace de travail du module Gestion de document commercial, sélectionnez le modèle **Format d’impression de chèque** dans la liste.
 2. Sélectionnez l’onglet **Détails**.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate2.png)
+![Page de l’espace de travail du module Gestion de document commercial, onglet Détails](./media/BDM-Overview-EditingTemplate2.png)
 
 L’option **Modifier le modèle** est disponible pour le modèle sélectionné. Cette option est toujours disponible pour un modèle dans une configuration de format ER détenue par le fournisseur de configuration ER actif (**Litware, Inc.** dans cet exemple). Lorsque **Modifier le modèle** est sélectionné, le modèle existant de la version temporaire de la configuration sous-jacente de format ER peut être modifié.
 
@@ -273,14 +265,14 @@ L’option **Modifier le modèle** est disponible pour le modèle sélectionné.
 
 1. Dans l’espace de travail Gestion des documents commerciaux, sélectionnez le document que vous souhaitez utiliser comme modèle.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate3.png)
+    ![Sélectionnez un document sur la page de l’espace de travail Gestion des documents commerciaux](./media/BDM-Overview-EditingTemplate3.png)
 
-3. Sélectionnez **Nouveau document** et dans le champ **Titre**, modifiez le titre du modèle modifiable si nécessaire. Le texte sera utilisé pour nommer la configuration du format ER qui est automatiquement créée. Notez que la version temporaire de cette configuration (**Copie d’État FTI client (GER)**) qui contient le modèle modifié sera automatiquement marquée pour exécuter ce format ER pour l’utilisateur actuel. En même temps, le modèle d’origine non modifié de la configuration du format ER de base sera utilisé pour exécuter ce format ER pour tout autre utilisateur.
-4. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
-5. Dans le champ **Commentaire**, modifiez le commentaire de la révision créée automatiquement du modèle modifiable.
-6. Cliquez sur **OK** pour confirmer le début du processus de modification.
+2. Sélectionnez **Nouveau document** et dans le champ **Titre**, modifiez le titre du modèle modifiable si nécessaire. Le texte sera utilisé pour nommer la configuration du format ER qui est automatiquement créée. Notez que la version temporaire de cette configuration (**Copie d’État FTI client (GER)**) qui contient le modèle modifié sera automatiquement marquée pour exécuter ce format ER pour l’utilisateur actuel. En même temps, le modèle d’origine non modifié de la configuration du format ER de base sera utilisé pour exécuter ce format ER pour tout autre utilisateur.
+3. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
+4. Dans le champ **Commentaire**, modifiez le commentaire de la révision créée automatiquement du modèle modifiable.
+5. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate4.png)
+![Confirmer le début du processus de modification pour créer un modèle](./media/BDM-Overview-EditingTemplate4.png)
 
 L’option **Nouveau document** est toujours disponible pour un modèle dans une configuration au format ER fournie par un fournisseur actuel et un autre fournisseur (Microsoft dans cet exemple) qui n’a aucune révision. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
 
@@ -290,21 +282,21 @@ L’option **Nouveau document** est toujours disponible pour un modèle dans un
 2. Dans le champ **Nom**, modifiez le nom de la première révision du modèle modifiable qui sera créé automatiquement.
 3. Dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
 
-    ![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate5.png)
+    ![Modifier un modèle sur la page de l’espace de travail Gestion de documents commerciaux](./media/BDM-Overview-EditingTemplate5.png)
 
-5. Cliquez sur **OK** pour confirmer le début du processus de modification.
+4. Cliquez sur **OK** pour confirmer le début du processus de modification.
 
 La page **Éditeur de modèle BDM** s’ouvre. Le modèle sélectionné sera disponible pour la modification en ligne à l’aide de Microsoft 365.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout1.png)
+![Page de l’éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Modifier un modèle dans Microsoft 365</a>
+### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Modifier un modèle dans Microsoft 365
 
 Vous pouvez modifier le modèle en utilisant Microsoft 365. Par exemple, dans Office online, faites passer la police des invites de champ de l’en-tête de modèle de **Normal** à **Gras**. Ces modifications sont automatiquement stockées dans le modèle modifiable qui est stocké dans le principal stockage du modèle (par défaut, dans le stockage d’objets blob Azure). La configuration s’adresse à la structure ER.
 
-![Page de l’éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout2.png)
+![Modification de la police en gras dans l’en-tête du modèle sur la page de l’éditeur de modèle de gestion de documents commerciaux](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name=""></a><a name="EditInOfficeDesktopApp">Modifier un modèle dans l’application de bureau Office</a>
+### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Modifier un modèle dans l'application de bureau Office
 
 > [!NOTE]
 > Cette fonction n’est disponible que lorsque le paramètre **Type de document SharePoint** est correctement configuré. Pour plus d’informations, voir [Configurer les paramètres](#SetupBdmParameters).
@@ -312,15 +304,15 @@ Vous pouvez modifier le modèle en utilisant Microsoft 365. Par exemple, dans Of
 1. Sélectionnez l’option **Ouvrir dans l’application de bureau** pour modifier le modèle à l’aide de la fonctionnalité de l’application de bureau Office (Excel dans cet exemple). Le modèle modifiable est copié de la mémoire permanente vers le stockage temporaire configuré dans les paramètres du module Gestion de document commercial en tant que dossier SharePoint.
 2. Confirmez que vous souhaitez ouvrir le modèle à partir du stockage de fichier temporaire dans l’application de bureau Office Excel.
 
-    ![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingLayout3.png)
+    ![Modèle ouvert dans l’application de bureau Excel](./media/BDM-Overview-EditingLayout3.png)
 
 3. Modifiez le modèle. Par exemple, modifiez la police des invites de champ de l’en-tête de modèle en faisant passer la couleur de **Normal** à **Bleu**.
 
-    ![Page de l’éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout4.png)
+    ![Modifier la couleur de la police dans l’en-tête du modèle à l’aide de l’application de bureau Excel](./media/BDM-Overview-EditingLayout4.png)
 
 4. Sélectionnez **Enregistrer** dans l’application de bureau Excel pour enregistrer les modifications du modèle dans le stockage temporaire.
 
-    ![Page de l’éditeur de modèle du module Gestion de document commercial](./media/BDM-Overview-EditingLayout5.png)
+    ![Enregistrer les modifications dans la page de l’éditeur de modèle de gestion des documents commerciaux à l’aide de l’application de bureau Excel](./media/BDM-Overview-EditingLayout5.png)
 
 5. Fermez l’application de bureau Excel.
 6. Sélectionnez **Synchroniser la copie enregistrée** pour synchroniser le stockage temporaire de modèle avec le stockage permanent de modèle.
@@ -340,7 +332,7 @@ Vous pouvez modifier le modèle en utilisant Microsoft 365. Par exemple, dans Of
 
 Le modèle mis à jour est affiché dans l’onglet **Modèle** . Notez que le statut du modèle révisé est désormais **Brouillon** et la révision actuelle n’est plus vide. Cela signifie que le processus de modification de ce modèle a commencé.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-EditingTemplate5.png)
+![Afficher le modèle mis à jour sur la page de l’espace de travail Gestion de documents commerciaux](./media/BDM-Overview-EditingTemplate5.png)
 
 ### <a name="test-the-modified-template"></a>Tester le modèle modifié 
 
@@ -353,7 +345,7 @@ Le modèle mis à jour est affiché dans l’onglet **Modèle** . Notez que le s
     ![Page Paramètre de gestion de l’impression](./media/BDM-Overview-TestRun1.png)
 
 6. Appuyez sur **Échap** pour fermer la page actuelle.
-7. Sélectionnez **Imprimer**, puis cliquez sur **Sélectionné**.
+7. Sélectionnez **Imprimer**, puis **Sélectionné**.
 8. Téléchargez le document et ouvrez-le à l’aide de l’application de bureau Excel.
 
 ![Page Factures financières](./media/BDM-Overview-TestRun2.png)
@@ -367,7 +359,7 @@ Le modèle révisé est utilisé pour générer l’état de facture financière
 3. Si nécessaire, dans le champ **Nom**, modifiez le nom de la deuxième révision et basez-le sur la première révision active.
 4. Si nécessaire, dans le champ **Commentaire**, modifiez la remarque de la révision créée automatiquement du modèle modifiable.
 
-    ![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-AddRevision.png)
+    ![Créer des révisions sur le modèle mis à jour sur la page de l’espace de travail Gestion de documents commerciaux](./media/BDM-Overview-AddRevision.png)
 
     Vous avez créé une révision de votre modèle qui a été enregistrée dans le stockage du modèle permanent. Vous pouvez désormais continuer à modifier le modèle de la deuxième révision actuellement sélectionné comme actif.
 
@@ -385,22 +377,25 @@ Le modèle révisé est utilisé pour générer l’état de facture financière
 
 Lorsque vous modifiez le modèle provenant d’un format ER qui appartient au fournisseur actif, vous avez l’option d’annuler les modifications introduites pour le modèle.
 
-![Page de l’espace de travail du module Gestion de document commercial](./media/BDM-Overview-RevokeChanges.png)
+![Rejeter les modifications sur le modèle mis à jour sur la page de l’espace de travail Gestion de documents commerciaux](./media/BDM-Overview-RevokeChanges.png)
 
 1. Dans la page **Éditeur de modèle BDM**, sélectionnez l’onglet **Modèle**.
 2. Sélectionnez **Annuler**.
 3. Si vous sélectionnez **OK** pour annuler les modifications introduites pour le modèle, le modèle modifié est alors remplacé par le modèle d’origine et toutes les modifications sont supprimées. Lorsque vous annulez des modifications du modèle, vous pouvez supprimer le modèle. Sélectionnez **Annuler** pour explorer d’autres options.
 
 ### <a name="publish-a-modified-template"></a>Publier un modèle modifié
+
 1. Dans la page **Éditeur de modèle BDM**, sur l’onglet **Modèle**, sélectionnez **Publier**.
 2. Si vous sélectionnez **Ajouter** pour confirmer la publication, la version temporaire du format ER dérivé **Copie d’État FTI client (GER)** qui contient le modèle modifié est marquée comme terminée. Le modèle modifié devient disponible pour d’autres utilisateurs. Les versions terminées de ce format ER conserveront uniquement la dernière révision active de votre modèle. Les autres révisions seront supprimées. Sélectionnez **Annuler** pour explorer d’autres options.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>J’ai sélectionné **Modifier document**, mais plutôt que d’ouvrir la page **Éditeur de modèle BDM** dans Finance and Operations, je suis arrivé sur la page web Microsoft 365.
-Il s’agit d’un problème connu avec la redirection Microsoft 365. Cela se produit lorsque vous vous connectez à Microsoft 365 la première fois. Pour contourner ce problème, sélectionnez le bouton **Précédent** de votre navigateur pour revenir en arrière.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>J’ai sélectionné Modifier document, mais plutôt que d’ouvrir la page Éditeur de modèle BDM dans Finance, je suis arrivé sur la page web Microsoft 365.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Je sais comment modifier un modèle à l’aide de Microsoft 365 dans la première session d’application et utiliser le modèle dans la deuxième session d’application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je effectuer cette opération à l’aide de l’application de bureau Office ?
+Il s’agit d’un problème connu avec la redirection Microsoft 365. Cela se produit lorsque vous vous connectez à Microsoft 365 pour la première fois. Pour contourner ce problème, sélectionnez **Retour** dans votre navigateur pour revenir à la page précédente.
+
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Je sais comment modifier un modèle à l’aide de Microsoft 365 dans la première session d’application et utiliser le modèle dans la deuxième session d’application en modifiant le modèle pour voir comment mes modifications affectent le document commercial généré. Puis-je utiliser l’application de bureau Office de la même manière ?
+
 Oui, vous pouvez. Dans la première session de l’application, sélectionnez **Ouvrir dans l’application de bureau**. Votre modèle sera stocké dans le stockage de fichier temporaire et ouvert dans l’application de bureau Office. Procédez ensuite comme suit pour prévisualiser les modifications apportées au modèle dans le document commercial généré :
 
 1. Apportez des modifications dans le modèle à l’aide de l’application de bureau Office.
@@ -408,7 +403,8 @@ Oui, vous pouvez. Dans la première session de l’application, sélectionnez **
 3. Dans la page **Éditeur de modèle BDM** de la première session de l’application, sélectionnez **Synchroniser la copie enregistrée**.
 4. Exécutez ce format ER de modèle dans la deuxième session de l’application.
 
-#### <a name="i-get-the-error-value-cannot-be-null-parameter-name-externalid-when-i-select-open-in-desktop-app-how-do-i-work-around-this"></a>J’obtiens l’erreur « La valeur ne peut pas être nulle. Nom du paramètre : externalId » lorsque je sélectionne **Ouvrir dans l’application de bureau**. Comment résoudre cette erreur ? 
+### <a name="when-i-select-open-in-desktop-app-i-receive-the-following-error-message-value-cannot-be-null-parameter-name-externalid-how-do-i-work-around-this-issue"></a>Lorsque je sélectionne Ouvrir dans l’application de bureau, je reçois le message d’erreur suivant : « La valeur ne peut pas être nulle. Nom du paramètre : externalId. » Comment résoudre ce problème ?
+
 Vous êtes probablement connecté à l’instance actuelle de l’application du domaine Azure AD qui diffère du domaine Azure AD utilisé pour déployer cette instance de Finance and Operations. Comme le service SharePoint, qui permet d’enregistrer des modèles pour les rendre disponibles pour modification à l’aide des applications de bureau Office, appartient au même domaine, nous n’avons aucune autorisation pour accéder au service SharePoint. Pour résoudre ce problème, connectez-vous à l’instance actuelle en utilisant les informations d’identification d’un utilisateur ayant le domaine Azure AD approprié.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -421,8 +417,165 @@ Vous êtes probablement connecté à l’instance actuelle de l’application du
 
 [Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md)
 
-[Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[Configurer la gestion des états électroniques pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Liste des configurations de gestion des états électroniques qui ont été publiées dans Finance pour prendre en charge les documents commerciaux configurables
 
+La [liste](general-electronic-reporting.md#list-of-configurations) des configurations de gestion des états électroniques pour Finance est constamment mis à jour. Ouvrez le [référentiel global](er-download-configurations-global-repo.md) pour consulter la liste des configurations de gestion des états électroniques actuellement prises en charge. Vous pouvez [filtrer](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) le référentiel global pour examiner la liste des configurations de gestion des états électroniques utilisées pour prendre en charge les documents commerciaux configurables.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Filtrage du contenu du référentiel global sur la page Référentiel de configuration](./media/bdm-overview-filterglobalrepo.gif)
+
+Le tableau suivant présente la liste des configurations de gestion des états électroniques prenant en charge les documents commerciaux configurables et qui ont été publiées dans Finance jusqu’en décembre 2020.
+
+| Configuration de modèle de données    | Configurations de format                           |
+|-----------------------------|-------------------------------------------------|
+| Modèle de feuille de chargement        | Feuille de chargement (Excel)                          |
+|                             | Feuille de chargement (Word)                           |
+| Modèle de certificat d’origine | Certificat d’origine (Excel)                   |
+|                             | Certificat d’origine (Word)                    |
+| Modèle de facture               | Note de débit et de crédit client (Excel)          |
+|                             | Note de débit et de crédit client (Word)           |
+|                             | Facture financière (Excel)                       |
+|                             | Facture financière (Excel) (BH)                  |
+|                             | Facture financière (FR) (Excel)                  |
+|                             | Facture financière (LT) (Excel)                  |
+|                             | Facture financière (LV) (Excel)                  |
+|                             | Facture financière (PL) (Excel)                  |
+|                             | Facture financière (CZ) (Excel)                  |
+|                             | Facture financière (EE) (Excel)                  |
+|                             | Facture financière (HU) (Excel)                  |
+|                             | Facture financière (TH) (Excel)                  |
+|                             | Page Facture financière (Word)                        |
+|                             | Éléments de ligne de contrat de projet (Excel)             |
+|                             | Éléments de ligne de contrat de projet (CZ) (Excel)        |
+|                             | Éléments de ligne de contrat de projet (Excel) (BH)        |
+|                             | Éléments de ligne de contrat de projet (HU) (Excel)        |
+|                             | Éléments de ligne de contrat de projet (LT) (Excel)        |
+|                             | Éléments de ligne de contrat de projet (PL) (Excel)        |
+|                             | Éléments de ligne de contrat de projet (Word)              |
+|                             | Version de fidélisation des clients du projet (Excel)      |
+|                             | Version de fidélisation des clients du projet (CZ) (Excel) |
+|                             | Version de fidélisation des clients du projet (HU) (Excel) |
+|                             | Version de fidélisation des clients du projet (LT) (Excel) |
+|                             | Version de fidélisation des clients du projet (PL) (Excel) |
+|                             | Version de fidélisation des clients du projet (TH) (Excel) |
+|                             | Version de fidélisation des clients du projet (Word)       |
+|                             | Facture de projet (Excel)                         |
+|                             | Facture de projet (Word)                          |
+|                             | Facture de projet (AE) (Excel)                    |
+|                             | Facture de projet (CZ) (Excel)                    |
+|                             | Facture de projet (Excel) (BH)                    |
+|                             | Facture de projet (HU) (Excel)                    |
+|                             | Facture de projet (JP) (Excel)                    |
+|                             | Facture de projet (LT) (Excel)                    |
+|                             | Facture de projet (PL) (Excel)                    |
+|                             | Facture de projet (TH) (Excel)                    |
+|                             | Facture de projet complète (MY) (Excel)               |
+|                             | Facture de projet simple (MY) (Excel)             |
+|                             | Facture de gestion projet (Excel)                  |
+|                             | Facture de gestion projet (CZ) (Excel)             |
+|                             | Facture de gestion projet (Excel) (BH)             |
+|                             | Facture de gestion projet (HU) (Excel)             |
+|                             | Facture de gestion projet (JP) (Excel)             |
+|                             | Facture de gestion projet (LT) (Excel)             |
+|                             | Facture de gestion projet (PL) (Excel)             |
+|                             | Facture de gestion projet (Word)                   |
+|                             | Facture d’acompte d’achat (Excel)                |
+|                             | Facture d’acompte d’achat (Word)                 |
+|                             | Facture d’acompte de vente (Excel)                   |
+|                             | Facture d’acompte de vente (Word)                    |
+|                             | Facture d’acompte de vente (PL) (Excel)              |
+|                             | Facture de vente (Excel)                           |
+|                             | Facture de vente (Excel) (BH)                      |
+|                             | Facture de vente (Excel) (CZ)                      |
+|                             | Facture de vente (Excel) (EE)                      |
+|                             | Facture de vente (Excel) (FR)                      |
+|                             | Facture de vente (Excel) (HU)                      |
+|                             | Facture de vente (Excel) (IN)                      |
+|                             | Facture de vente (Excel) (LT)                      |
+|                             | Facture de vente (Excel) (LV)                      |
+|                             | Facture de vente (Excel) (PL)                      |
+|                             | Facture de vente (Excel) (TH)                      |
+|                             | Facture de vente (Word)                            |
+|                             | Facture commerciale TMS (Excel)                  |
+|                             | Facture commerciale TMS (Word)                   |
+|                             | Document à la facture fournisseur (Excel)                 |
+|                             | Document à la facture fournisseur (CZ) (Excel)            |
+|                             | Document à la facture fournisseur (HU) (Excel)            |
+|                             | Document à la facture fournisseur (IN) (Excel)            |
+|                             | Document à la facture fournisseur (LT) (Excel)            |
+|                             | Document à la facture fournisseur (LV) (Excel)            |
+|                             | Document à la facture fournisseur (MY) (Excel)            |
+|                             | Document à la facture fournisseur (Word)                  |
+| Modèle de commande                 | Confirmation de contrat (Excel)                  |
+|                             | Confirmation de contrat (Word)                   |
+|                             | Confirmation de contrat d’achat (Excel)         |
+|                             | Confirmation de contrat d’achat (Word)          |
+|                             | Commande fournisseur (Excel)                          |
+|                             | Commande fournisseur (CZ) (Excel)                     |
+|                             | Recherche de commande fournisseur (CZ) (Excel)             |
+|                             | Commande fournisseur (HU) (Excel)                     |
+|                             | Recherche de commande fournisseur (HU) (Excel)             |
+|                             | Commande fournisseur (Word)                           |
+|                             | Recherche de commande fournisseur (Excel)                  |
+|                             | Recherche de commande fournisseur (Word)                   |
+|                             | Confirmation de commande client (Excel)                |
+|                             | Confirmation de commande client (CZ) (Excel)           |
+|                             | Confirmation de commande client (HU) (Excel)           |
+|                             | Confirmation de commande client (Word)                 |
+| Modèle de liste d’emballage          | Contenu du conteneur (Excel)                      |
+|                             | Contenu du conteneur (Word)                       |
+|                             | Charger la liste (Excel)                               |
+|                             | Charger la liste (Word)                                |
+|                             | Prélèvement (Excel)                            |
+|                             | Prélèvement (CZ) (Excel)                       |
+|                             | Prélèvements (Word)                             |
+|                             | Prélèvements de production (Excel)                    |
+|                             | Prélèvements de production (Word)                     |
+|                             | Prélèvements d’expédition pour le chargement (Excel)             |
+|                             | Prélèvements d’expédition pour le chargement (Word)              |
+|                             | Prélèvements d’expédition pour l’expédition (Excel)         |
+|                             | Prélèvements d’expédition pour l’expédition (Word)          |
+|                             | Prélèvements d’expédition pour la vague (Excel)             |
+|                             | Prélèvements d’expédition pour la vague (Word)              |
+| Modèle de paiement               | Conseil de paiement client (Excel)                 |
+|                             | Conseil de paiement client (Word)                  |
+|                             | Conseil de paiement fournisseur (Excel)                   |
+|                             | Conseil de paiement fournisseur (Word)                    |
+| Modèle de devis             | Devis de projet (Excel)                       |
+|                             | Devis de projet (Word)                        |
+|                             | Appel d’offre (Excel)                   |
+|                             | Appel d’offre (Acceptation) (Excel)          |
+|                             | Appel d’offre (Acceptation) (Word)           |
+|                             | Appel d’offre (Rejet) (Excel)          |
+|                             | Appel d’offre (Rejet) (Word)           |
+|                             | Appel d’offre (Retour) (Excel)          |
+|                             | Appel d’offre (Retour) (Word)           |
+|                             | Appel d’offre (Word)                    |
+|                             | Lignes du devis de vente (Excel)                         |
+|                             | Lignes du devis de vente (CZ) (Excel)                    |
+|                             | Lignes du devis de vente (HU) (Excel)                    |
+|                             | Lignes du devis de vente (Word)                          |
+|                             | Confirmation des lignes du devis de vente (Excel)            |
+|                             | Confirmation des lignes du devis de vente (Word)             |
+| Modèle de rapprochement        | Relevé de compte client, ext. (Excel)             |
+|                             | Relevé de compte client, ext. (CN) (Excel)        |
+|                             | Relevé de compte client, ext. (Word)              |
+|                             | Relevé de compte client, France (Excel)          |
+| Modèle de rappel              | Note de lettre de relance (Excel)                  |
+|                             | Note de lettre de relance (CN) (Excel)             |
+|                             | Note de lettre de relance (Word)                   |
+|                             | Note d’intérêt client (Excel)                  |
+|                             | Note d’intérêt client (Word)                   |
+| Modèle de bordereau d’expédition               | Charger l’offre (Excel)                             |
+|                             | Charger l’offre (Word)                              |
+|                             | Bon de livraison de commande fournisseur (Excel)             |
+|                             | Bon de livraison de commande fournisseur (CZ) (Excel)        |
+|                             | Bon de livraison de commande fournisseur (Word)              |
+|                             | Gamme (Excel)                                   |
+|                             | Gamme (Word)                                    |
+|                             | Bon de livraison de commande client (Excel)                |
+|                             | Bon de livraison de commande client (CZ) (Excel)           |
+|                             | Bon de livraison de commande client (LT) (Excel)           |
+|                             | Bon de livraison de commande client (PL) (Excel)           |
+|                             | Bon de livraison de commande client (Word)                 |

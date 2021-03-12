@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 78a7cdc18476a1c523c83c92ca6f354c3ba806dc
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685663"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744851"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Conseils sur la configuration de la double écriture
 
@@ -36,7 +36,7 @@ ms.locfileid: "4685663"
 Vous pouvez configurer une connexion en double écriture entre un environnement Finance and Operations et un environnement Dataverse.
 
 + Un environnement **Finance and Operations** offre la plateforme sous-jacente pour les applications **Finance and Operations** (par exemple, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce et Dynamics 365 Human Resources).
-+ Un **environnement Dataverse** offre à la plateforme sous-jacente les **applications Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing et Dynamics 365 Project Service Automation).
++ Un **environnement Dataverse** offre à la plateforme sous-jacente les **applications Customer Engagement** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing et Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
 > Le module Human Resources dans Dynamics 365 Finance prend en charge les connexions en double écriture, mais l’application Dynamics 365 Human Resources, non.
@@ -138,6 +138,3 @@ Pour obtenir des liens vers un exemple et une autre approche, consultez la secti
 Pour un exemple, voir [Activation de la carte des tables Clients V3 – Contacts](enable-entity-map.md#enable-table-map)
 
 Pour une approche alternative basée sur les volumes de données dans chaque entité qui doivent exécuter une synchronisation initiale, voir [Considérations relatives à la synchronisation initiale](initial-sync-guidance.md).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

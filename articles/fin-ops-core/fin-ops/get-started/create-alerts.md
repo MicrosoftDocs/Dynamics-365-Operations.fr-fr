@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694493"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798425"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d’alerte
 
@@ -40,7 +40,7 @@ Les traitements par lots pour les alertes de modification des données et de dat
 
 L’événement qui déclenche une règle d’alerte peut être une date qui arrive ou une modification spécifique qui se produit. Les déclencheurs des événements sont définis dans l’organisateur **Alertez-moi quand** de la boîte de dialogue **Créer une règle d’alerte**. Les événements disponibles pour un champ spécifique dépendent du déclencheur sélectionné.
 
-Par exemple, si vous configurez une règle d’alerte pour le champ **Date de début**, les événements de date d’échéance sont appropriés. Par conséquent, le type d’événement **est prévue dans** est disponible pour ce champ. Toutefois, pour un champ tel que **Centre de coût**, un événement de date d’échéance n’est pas approprié. Par conséquent, le type d’événement **est prévue dans** n’est pas disponible. Le type d’événement **a été modifié** est disponible à la place.
+Par exemple, si vous configurez une règle d’alerte pour le champ **Date de début**, les événements de date d’échéance sont appropriés. Par conséquent, le type d’événement `is due in` est disponible pour ce champ. Toutefois, pour un champ tel que **Centre de coût**, un événement de date d’échéance n’est pas approprié. Par conséquent, le type d’événement `is due in` n’est pas disponible. Le type d’événement `has changed` est cependant disponible.
 
 ## <a name="event-types"></a>Types d’événement
 
@@ -77,7 +77,7 @@ Dans l’organisateur **Alertez-moi avec** de la boîte de dialogue **Créer une
 
 ## <a name="alerts-as-business-events"></a>Alertes en tant qu’événements commerciaux
 
-Les alertes peuvent être envoyées en externe à l’aide de la structure des événements commerciaux. Lors de la création d’une alerte, définissez **À l’échelle de l’organisation** sur **Non** et définissez **Envoyer en externe** sur **Oui**. Une fois que l’alerte déclenche l’événement commercial, vous pouvez déclencher un flux intégré dans Power Automate en utilisant le déclencheur **Quand un événement commercial se produit** sur le connecteur Finance and Operations, ou envoyer explicitement l’événement à un point de terminaison d’événements commerciaux via le **Catalogue des événements commerciaux**.
+Vous pouvez envoyer des alertes en externe à l’aide de la structure des événements commerciaux. Lors de la création d’une alerte, définissez **À l’échelle de l’organisation** sur **Non** et définissez **Envoyer en externe** sur **Oui**. Une fois que l’alerte déclenche l’événement commercial, vous pouvez déclencher un flux intégré dans Power Automate en utilisant le déclencheur **Quand un événement commercial se produit** sur le connecteur Finance and Operations, ou envoyer explicitement l’événement à un point de terminaison d’événements commerciaux via le **Catalogue des événements commerciaux**.
 
 ## <a name="create-an-alert-rule"></a>Créer une règle d’alerte
 
@@ -86,22 +86,19 @@ Les alertes peuvent être envoyées en externe à l’aide de la structure des �
 2. Dans le volet Actions, sous l’onglet **Options**, dans le groupe **Partager**, sélectionnez **Créer une règle d’alerte**.
 3. Dans la boîte de dialogue **Créer une règle d’alerte**, dans le champ **Champ**, sélectionnez le champ à contrôler.
 4. Dans le champ **Événement**, sélectionnez le type d’événement.
-5. Dans le raccourci **Alertez-moi pour**, sélectionnez l’option souhaitée. Si vous souhaitez envoyer l’alerte en tant qu’événement commercial, assurez-vous que **À l’échelle de l’organisation** est défini sur **Non**.
+5. Dans le raccourci **Alertez-moi pour**, sélectionnez l’option souhaitée. Si vous souhaitez envoyer l’alerte en tant qu’événement commercial, définissez la valeur **À l’échelle de l’organisation** sur **Non**.
 6. Si la règle d’alerte doit devenir inactive à une date spécifique, dans l’organisateur **Alertez-moi jusqu’à**, sélectionnez une date de fin.
-7. Dans l’organisateur **Alertez-moi avec**, dans le champ **Objet**, acceptez l’objet par défaut du message e-mail, ou entrez-en un nouveau. Le texte est utilisé comme objet pour le message e-mail que vous recevez en cas de déclenchement d’alerte. Si vous souhaitez envoyer l’alerte en tant qu’événement commercial, définissez **Envoyer en externe** sur **Oui**.
-8. Dans le champ **Message**, entrez un message facultatif. Le texte sera le message envoyé en cas de déclenchement d’alerte.
+7. Dans l’organisateur **Alertez-moi avec**, dans le champ **Objet**, acceptez l’objet par défaut du message e-mail, ou entrez-en un nouveau. Le texte devient l’objet pour le message e-mail que vous recevez en cas de déclenchement d’alerte. Si vous souhaitez envoyer l’alerte en tant qu’événement commercial, définissez **Envoyer en externe** sur **Oui**.
+8. Dans le champ **Message**, entrez un message facultatif. Le texte devient le message envoyé en cas de déclenchement d’alerte.
 9. Sélectionnez **OK** pour enregistrer les paramètres et créer la règle d’alerte.
 
 ## <a name="limitations-and-workarounds"></a>Limitations et solutions de contournement
 
 ### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Solution de contournement pour créer des alertes pour les sources de données secondaires d’un formulaire
-Aucune alerte ne peut être créée pour certaines sources de données secondaires sur les formulaires. Par exemple, lors de la création d’alertes sur le formulaire des profils de validation client ou fournisseur, seuls les champs de l’en-tête (CustLedger ou VendLedger) sont disponibles, alors que les comptes de dimension ne le sont pas. La solution de contournement pour cette limitation consiste à utiliser **SysTableBrowser** pour ouvrir cette table en tant que source de données principale. 
+Vous ne pouvez pas créer d’alerte pour certaines sources de données secondaires sur les formulaires. Par exemple, lors de la création d’alertes sur le formulaire des profils de validation client ou fournisseur, seuls les champs de l’en-tête (CustLedger ou VendLedger) sont disponibles, alors que les comptes de dimension ne le sont pas. La solution de contournement pour cette limitation consiste à utiliser **SysTableBrowser** pour ouvrir cette table en tant que source de données principale. 
 1. Ouvrez la table dans le formulaire **SysTableBrowser**.
     ```
         https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
     ```
 2. Créez une alerte à partir du formulaire SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

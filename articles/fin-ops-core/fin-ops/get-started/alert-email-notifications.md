@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693820"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798621"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notifications d’alerte du client par e-mail
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez définir des règles d’alerte personnalisées qui surveillent les vues filtrées des données et qui envoient automatiquement les notifications par e-mail lorsque des événements prédéfinis surviennent. L’option d’envoi de notifications par e-mail est disponible pour tous les types d’alerte pris en charge et peut être également activée pour les règles d’alerte existantes.
+Vous pouvez définir des règles d’alerte personnalisées qui surveillent les vues filtrées des données et qui envoient automatiquement les notifications par e-mail lorsque des événements prédéfinis surviennent. L’option d’envoi de notifications par e-mail est disponible pour tous les types d’alerte pris en charge et vous pouvez également les activer pour les règles d’alerte existantes.
 
 Vous pouvez utiliser les contrôles intégrés pour créer des règles d’alerte qui supervisent les vues filtrées des traitements par lots du système. En surveillant la valeur du champ **Statut**, vous pouvez également configurer les règles d’alerte qui envoient un e-mail en cas d’échec d’un traitement par lots. Une fois ces règles d’alerte créées, vous n’avez plus à vérifier les états relatifs aux modifications apportées aux données commerciales. Au lieu de cela, vous pouvez laisser le service de détection intelligente des modifications faire le contrôle pour vous.
 
@@ -50,6 +50,3 @@ Le service envoie des notifications par e-mail à l’aide de modèles d’e-mai
 L’image suivante présente la structure des notifications d’alerte lorsqu’elles sont reçues par e-mail.
 
 [![Notifications d’alerte basées sur un modèle pour la création des enregistrements, les modifications de champ et la suppression du modèle](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

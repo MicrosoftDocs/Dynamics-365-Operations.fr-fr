@@ -1,6 +1,6 @@
 ---
-title: Configurer le mappage pour les champs de statut de la commande client
-description: Cette rubrique explique comment configurer les champs de statut de la commande client pour la double écriture.
+title: Configurer le mappage des colonnes de statut des commandes client
+description: Cette rubrique explique comment configurer les colonnes de statut de la commande client pour la double écriture.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4452557"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744297"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurer le mappage pour les champs de statut de la commande client
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurer le mappage des colonnes de statut des commandes client
 
 [!include [banner](../../includes/banner.md)]
 
-Les champs qui indiquent le statut de la commande client ont des valeurs d’énumération différentes dans Microsoft Dynamics 365 Supply Chain Management et Dynamics 365 Sales. Une configuration supplémentaire est requise pour mapper ces champs en double écriture.
+Les colonnes qui indiquent le statut de la commande client ont des valeurs d’énumération différentes dans Microsoft Dynamics 365 Supply Chain Management et Dynamics 365 Sales. Une configuration supplémentaire est requise pour mapper ces colonnes en double écriture.
 
-## <a name="fields-in-supply-chain-management"></a>Champs dans Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>colonnes dans Supply Chain Management
 
-Dans Supply Chain Management, deux champs reflètent le statut de la commande client. Les champs que vous devez mapper sont **Statut** et **Statut du document**.
+Dans Supply Chain Management, deux colonnes reflètent le statut de la commande client. Les colonnes que vous devez mapper sont **Statut** et **Statut du document**.
 
 L’énumération de **Statut** spécifie le statut global de la commande. Ce statut est indiqué sur l’en-tête de la commande.
 
@@ -53,9 +53,9 @@ L’énumération de **Statut du document** a les valeurs suivantes :
 - Bon de livraison
 - Facture
 
-## <a name="fields-in-sales"></a>Champs dans Sales
+## <a name="columns-in-sales"></a>colonnes dans Sales
 
-Dans Sales, deux champs indiquent le statut de la commande. Les champs que vous devez mapper sont **Statut** et **Statut de traitement**.
+Dans Sales, deux colonnes indiquent le statut de la commande. Les colonnes que vous devez mapper sont **Statut** et **Statut de traitement**.
 
 L’énumération de **Statut** spécifie le statut global de la commande. Il présente les valeurs suivantes :
 
@@ -95,7 +95,7 @@ Le tableau suivant montre le mappage du **Statut de traitement** entre Sales et 
 
 ## <a name="setup"></a>Paramétrage
 
-Pour configurer le mappage des champs de statut de la commande client, vous devez activer les attributs **IsSOPIntegrationEnabled** et **isIntegrationUser**.
+Pour configurer le mappage des colonnes de statut de la commande client, vous devez activer les attributs **IsSOPIntegrationEnabled** et **isIntegrationUser**.
 
 Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
 
@@ -110,14 +110,14 @@ Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Pour activer l’attribut **IsSOPIntegrationEnabled**, procédez comme suit.
 
 Pour activer l’attribut **isIntegrationUser**, procédez comme suit.
 
-1. Dans Sales, accédez à **Paramètre \> Personnalisation \> Personnaliser le système**, sélectionnez **Entité utilisateur**, puis ouvrez **Écran \> Utilisateur**.
+1. Dans Sales, accédez à **Paramètre \> Personnalisation \> Personnaliser le système**, sélectionnez **Table utilisateur**, puis ouvrez **Écran \> Utilisateur**.
 
     ![Ouverture de l’écran utilisateur](media/sales-map-user.png)
 
 2. Dans Field Explorer, recherchez **Mode utilisateur de l’intégration** et double-cliquez dessus pour l’ajouter à l’écran. Enregistrez votre modification.
 
-    ![Ajout du champ Mode utilisateur de l’intégration à l’écran](media/sales-map-field-explorer.png)
+    ![Ajout de la colonne Mode utilisateur de l’intégration à l’écran](media/sales-map-field-explorer.png)
 
 3. Dans Sales, accédez à **Paramètre \> Sécurité \> Utilisateurs** et changez les vues de **Utilisateurs activés** à **Utilisateurs de l’application**.
 
@@ -145,11 +145,8 @@ Pour activer l’attribut **isIntegrationUser**, procédez comme suit.
 
     ![Liste des utilisateurs d’application](media/sales-map-user-mode.png)
 
-5. Changer la valeur du champ **Mode utilisateur de l’intégration** sur **Oui**.
+5. Changez la valeur de la colonne **Mode utilisateur de l’intégration** sur **Oui**.
 
-    ![Changement de la valeur du champ Mode utilisateur de l’intégration](media/sales-map-user-mode-yes.png)
+    ![Changement de la valeur de la colonne Mode utilisateur de l’intégration](media/sales-map-user-mode-yes.png)
 
 Vos commandes client sont maintenant mappées.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

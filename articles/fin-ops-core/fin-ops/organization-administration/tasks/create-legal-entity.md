@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694835"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796752"
 ---
 # <a name="create-a-legal-entity"></a>Créer une entité juridique
 
@@ -45,6 +45,3 @@ Une entité juridique est une organisation identifiée par son enregistrement au
 15. Développez la section **Immatriculation fiscale**. Dans la section **Immatriculation fiscale**, entrez les numéros d’enregistrement utilisés pour les déclarations aux administrations fiscales.
 16. Développez la section **Taxe sur les honoraires**. Dans la section **Taxe sur les honoraires**, entrez les informations de déclaration des honoraires associées à l’entité juridique.  
 17. Cliquez sur **Enregistrer**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688257"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744539"
 ---
 # <a name="general-troubleshooting"></a>Résolution générale des problèmes
 
@@ -65,23 +65,23 @@ Pour activer le journal de suivi, procédez comme suit.
 
 1. Connectez-vous à l’application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres**, puis, sous **Système**, sélectionnez **Administration**.
 2. Sur la page **Administration**, sélectionnez **Paramètres système**.
-3. Sur l’onglet **Personnalisation**, dans le champ **Suivi de plug-ins et d’activités de workflow personnalisées**, sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
+3. Sur l’onglet **Personnalisation**, dans la colonne **Suivi de plug-ins et d’activités de workflow personnalisées**, sélectionnez **Tout** pour activer le journal de suivi du plug-in. Si vous souhaitez consigner les journaux de suivi uniquement lorsque des exceptions se produisent, sélectionnez plutôt **Exception**.
 
 
 Pour afficher le journal de suivi, procédez comme suit.
 
 1. Connectez-vous à l’application pilotée par modèle dans Dynamics 365, ouvrez la page **Paramètres**, puis, sous **Personnalisation**, sélectionnez **Journal de suivi du plug-in**.
-2. Recherchez les journaux de suivi où le champ **Nom du type** est défini sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Recherchez les journaux de suivi où la colonne **Nom du type** est définie sur **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Double-cliquez sur un élément pour afficher le journal complet, puis, sur le raccourci **Exécution**, passez en revue le texte du **Bloc de message**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Activez le mode débogage pour résoudre les problèmes de synchronisation en direct dans les applications Finance and Operations
 
 **Rôle requis pour afficher les erreurs :** Les erreurs de double écriture d’administrateur système provenant de Dataverse peuvent s’afficher dans l’application Finance and Operations. Dans certains cas, le texte intégral du message d’erreur n’est pas disponible, car le message est trop long ou contient des informations d’identification personnelle (IIP). Vous pouvez activer la journalisation détaillée des erreurs en procédant comme suit.
 
-1. Toutes les configurations de projet dans les applications Finance and Operations ont une propriété **IsDebugMode** dans l’entité **DualWriteProjectConfiguration**. Ouvrez l’entité **DualWriteProjectConfiguration** à l’aide du module complémentaire Excel.
+1. Toutes les configurations de projet dans les applications Finance and Operations ont une propriété **IsDebugMode** dans la table **DualWriteProjectConfiguration**. Ouvrez la table **DualWriteProjectConfiguration** à l’aide du module complémentaire Excel.
 
     > [!TIP]
-    > Un moyen simple d’ouvrir l’entité consiste à activer le mode **Conception** dans le module complémentaire Excel, puis ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour en savoir plus, voir [Ouvrir des données d’entité dans Excel et les mettre à jour à l’aide du module complémentaire Excel](../../office-integration/use-excel-add-in.md).
+    > Un moyen simple d’ouvrir la table consiste à activer le mode **Conception** dans le module complémentaire Excel, puis ajoutez **DualWriteProjectConfigurationEntity** à la feuille de calcul. Pour en savoir plus, voir [Ouvrir des données de table dans Excel et les mettre à jour à l’aide du module complémentaire Excel](../../office-integration/use-excel-add-in.md).
 
 2. Définissez la propriété **IsDebugMode** sur **Oui** pour le projet.
 3. Exécutez le scénario qui génère des erreurs.
@@ -118,10 +118,7 @@ Vous pouvez maintenant lier un nouvel environnement.
 Lorsque vous créez une commande client dans Dynamics 365 Sales, cliquer sur **+ Ajouter des produits** peut vous rediriger vers le formulaire de ligne de commande Dynamics 365 Project Operations. Il n’y a aucun moyen à partir de ce formulaire pour afficher le formulaire de ligne de commande client **Informations**. L’option pour **Informations** n’apparaît pas dans la liste déroulante sous **Nouvelle ligne de commande**. Cela se produit car Project Operations a été installé dans votre environnement.
 
 Pour réactiver l’option de formulaire **Informations**, procédez comme suit :
-1. Accédez à l’entité **Ligne de commande**.
+1. Accédez à la table **Ligne de commande**.
 2. Recherchez le formulaire **Informations** sous le nœud de formulaires. 
 3. Sélectionnez le formulaire **Informations** et cliquez sur **Activer les rôles de sécurité**. 
 4. Modifiez le paramètre de sécurité sur **Afficher pour tout le monde**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

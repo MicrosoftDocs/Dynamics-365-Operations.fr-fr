@@ -1,6 +1,6 @@
 ---
 title: Filtrer les commandes intersociétés pour éviter de synchroniser les commandes et les lignes de commande
-description: Cette rubrique décrit comment filtrer les commandes intersociétés pour éviter de synchroniser les commandes et les lignes de commande.
+description: Cette rubrique explique comment filtrer les commandes intersociétés afin que les entités Orders et OrderLines ne soient pas synchronisées.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,52 +18,51 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4701031"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796604"
 ---
-# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a>Filtrer les commandes intersociétés pour éviter de synchroniser les commandes et les lignes de commande
+# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Filtrer les commandes intersociétés pour éviter de synchroniser les commandes et les lignes de commande
 
 [!include [banner](../../includes/banner.md)]
 
-Vous pouvez filtrer les commandes intersociétés pour éviter de synchroniser les entités **Orders** et **OrderLines**. Dans certains scénarios, les détails de la commande intersociétés ne sont pas nécessaires dans l’application d’engagement client.
+Vous pouvez filtrer les commandes intersociétés pour éviter de synchroniser les tables **Orders** et **OrderLines**. Dans certains scénarios, les détails de la commande intersociétés ne sont pas nécessaires dans l’application d’engagement client.
 
-Chacune des entités Common Data Service standard est étendue avec des références au champ **IntercompanyOrder** et les mappages à double écriture sont modifiés pour faire référence aux champs supplémentaires dans les filtres. Le résultat est que les commandes intersociétés ne sont plus synchronisées. Ce processus évite les données inutiles dans l’application d’engagement client.
+Chacune des tables Dataverse standard est étendue avec des références à la colonne **IntercompanyOrder** et les mappages à double écriture sont modifiés pour faire référence aux colonnes supplémentaires dans les filtres. Par conséquent, les commandes intersociétés ne sont plus synchronisées. Ce processus évite les données inutiles dans l’application d’engagement client.
 
-1. Ajouter une référence à **IntercompanyOrder** à **En-têtes de commande client CDS**. Il est renseigné uniquement sur les commandes intersociétés. Le champ **IntercompanyOrder** est disponible dans **SalesTable**.
+1. Développez la table **En-têtes de commande client CDS** en ajoutant une référence à la colonne **Commande intersociété**. Cette colonne est renseignée uniquement sur les commandes intersociétés. La colonne **IntercompanyOrder** est disponible dans la table **SalesTable**.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Mapper la mise en lots à la cible, SalesOrderHeader":::
-    
-2. Une fois **En-têtes de commande client CDS** étendu, le champ **IntercompanyOrder** est disponible dans le mappage. Appliquez un filtre avec `INTERCOMPANYORDER == ""` comme chaîne de requête.
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Mapper la mise en lots à la page cible pour les en-têtes de commande client CDS":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="En-têtes de commandes client, modifier la requête":::
+2. Une fois **En-têtes de commande client CDS** étendu, la colonne **IntercompanyOrder** est disponible dans le mappage. Appliquez un filtre avec `INTERCOMPANYORDER == ""` comme chaîne de requête.
 
-3. Ajouter une référence à **IntercompanyInventTransId** à **Lignes de commande client CDS**.  Il est renseigné uniquement sur les commandes intersociétés. Le champ **InterCompanyInventTransID** est disponible dans **SalesLine**.
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Modifier la boîte de dialogue pour les en-têtes de commande client CDS":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Mapper la mise en lots à la cible, SalesOrderLine":::
+3. Développez la table **Lignes de commande client CDS** en ajoutant une référence à la colonne **IntercompanyInventTransId**. Cette colonne est renseignée uniquement sur les commandes intersociétés. La colonne **InterCompanyInventTransId** est disponible dans la table **SalesLine**.
 
-4. Une fois **Lignes de commande client CDS** étendu, le champ **IntercompanyInventTransId** est disponible dans le mappage. Appliquez un filtre avec `INTERCOMPANYINVENTTRANSID == ""` comme chaîne de requête.
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Mapper la mise en lots à la page cible pour les lignes de commande client CDS":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Lignes de commande client, modifier la requête":::
+4. Une fois **Lignes de commande client CDS** étendu, la colonne **IntercompanyInventTransId** est disponible dans le mappage. Appliquez un filtre avec `INTERCOMPANYINVENTTRANSID == ""` comme chaîne de requête.
 
-5. Étendre **En-tête de facture de vente V2** et **Lignes de facture de vente V2** de la même manière que vous avez prolongé les entités Common Data Service aux étapes 1 et 2. Ajoutez ensuite les requêtes de filtre. La chaîne de filtre pour **En-tête de facture de vente V2** est `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")`. La chaîne de filtre pour **Lignes de facture de vente V2** est `INTERCOMPANYINVENTTRANSID == ""`.
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Modifier la boîte de dialogue pour les lignes de commande client CDS":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Mapper la mise en lots à la cible, En-têtes de factures client":::
+5. Répétez les étapes 1 et 2 pour développer la table **En-tête de facture de vente V2** et ajoutez une requête de filtre. Dans ce cas, utilisez `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` comme chaîne de requête pour le filtre.
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="En-têtes de factures client, modifier la requête":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Mapper la mise en lots à la page cible pour l’en-tête de facturation client V2":::
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Lignes de factures client, modifier la requête":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Modifier la boîte de dialogue pour l’en-tête de commande client V2":::
 
-6. L’entité **Citations** n’a pas de relation intersociétés. Si quelqu’un crée un devis pour l’un de vos clients intersociétés, vous pouvez placer tous ces clients dans un groupe de clients en utilisant le champ **CustGroup**.  L’en-tête et les lignes peuvent être étendus pour ajouter le champ **CustGroup** puis filtrez pour ne pas inclure ce groupe.
+6. Répétez les étapes 3 et 4 pour développer la table **Lignes de facture de vente V2** et ajoutez une requête de filtre. Dans ce cas, utilisez `INTERCOMPANYINVENTTRANSID == ""` comme chaîne de requête pour le filtre.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="Mapper la mise en lots à la cible, En-têtes de devis de vente":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Modifier la boîte de dialogue pour les lignes de commande client V2":::
 
-7. Après avoir étendu entité **Devis**, appliquez un filtre avec `CUSTGROUP !=  "<company>"` comme chaîne de requête.
+7. La table **Citations** n’a pas de relation intersociétés. Si quelqu’un crée un devis pour l’un de vos clients intersociétés, vous pouvez utiliser la colonne **CustGroup** pour placer tous ces clients dans un groupe de clients. Vous pouvez développer l’en-tête et les lignes en ajoutant la colonne **CustGroup**, puis filtrer de sorte que le groupe n’est pas inclus.
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="En-tête de devis de vente, modifier la requête":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="Mapper la mise en lots à la page cible pour l’en-tête de devis client CDS":::
 
+8. Après avoir développé **Devis**, appliquez un filtre avec `CUSTGROUP != "<company>"` comme chaîne de requête.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Modifier la boîte de dialogue pour l’en-tête de devis client CDS":::

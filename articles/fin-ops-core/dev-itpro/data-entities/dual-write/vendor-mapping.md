@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685483"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744513"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685483"
 
 
 
-Le terme *Fournisseur* désigne une organisation de fournisseurs ou un propriétaire unique qui fournit des biens ou des services à une entreprise. Bien que le *fournisseur* soit un concept établi dans les applications Microsoft Dynamics 365 Supply Chain Management, il n’existe aucun concept de fournisseur dans les applications pilotées par un modèle dans Dynamics 365. Cependant, vous pouvez surcharger l’entité **Compte/Contact** pour stocker les informations du fournisseur. Le fournisseur principal intégré introduit un concept de fournisseur explicite dans les applications pilotées par un modèle dans Dynamics 365. Vous pouvez utiliser la nouvelle conception du fournisseur ou stocker les données du fournisseur dans l’entité **Compte/Contact**. La double écriture prend en charge les deux approches.
+Le terme *Fournisseur* désigne une organisation de fournisseurs ou un propriétaire unique qui fournit des biens ou des services à une entreprise. Bien que le *fournisseur* soit un concept établi dans les applications Microsoft Dynamics 365 Supply Chain Management, il n’existe aucun concept de fournisseur dans les applications pilotées par un modèle dans Dynamics 365. Cependant, vous pouvez surcharger la table **Compte/Contact** pour stocker les informations fournisseur. Le fournisseur principal intégré introduit un concept de fournisseur explicite dans les applications pilotées par un modèle dans Dynamics 365. Vous pouvez utiliser le nouveau concept de fournisseur ou stocker les données fournisseur dans la table **Compte/Contact**. La double écriture prend en charge les deux approches.
 
 Dans les deux approches, les données du fournisseur sont intégrées entre Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service et les portails Power Apps. Dans Supply Chain Management, les données sont disponibles pour les workflows tels que les demandes d’achat et les commandes d’achat.
 
 ## <a name="vendor-data-flow"></a>Flux de données fournisseur
 
-Si vous ne souhaitez pas stocker les données fournisseur dans l’entité **Compte/Contact** dans Dataverse, vous pouvez utiliser le nouveau concept de fournisseur.
+Si vous ne souhaitez pas stocker les données fournisseur dans la table **Compte/Contact** dans Dataverse, vous pouvez utiliser le nouveau concept de fournisseur.
 
 ![Flux de données fournisseur](media/dual-write-vendor-data-flow.png)
 
-Si vous ne souhaitez pas continuer à stocker les données fournisseur dans l’entité **Compte/Contact**, vous pouvez utiliser le concept étendu de fournisseur. Pour utiliser le concept étendu de fournisseur, vous devez configurer les flux de travail du fournisseur dans le package de solution de double écriture. Pour plus d’informations, voir [Permuter entre les configurations de fournisseur](vendor-switch.md).
+Si vous ne souhaitez pas continuer à stocker les données fournisseur dans la table **Compte/Contact**, vous pouvez utiliser le concept étendu de fournisseur. Pour utiliser le concept étendu de fournisseur, vous devez configurer les flux de travail du fournisseur dans le package de solution de double écriture. Pour plus d’informations, voir [Permuter entre les configurations de fournisseur](vendor-switch.md).
 
 ![Flux de données fournisseur étendues](media/dual-write-vendor-detail.jpg)
 
@@ -54,9 +54,9 @@ Si vous ne souhaitez pas continuer à stocker les données fournisseur dans l’
 
 Les données fournisseur incluent toutes les informations sur le fournisseur, telles que le groupe de fournisseurs, les adresses, les informations de contact, le profil de paiement et le profil de facture. Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction des données fournisseur, comme indiqué dans le tableau suivant.
 
-Applications Finance and Operations | Autres applications Dynamics 365     | Description
+Applications Finance and Operations | Autres applications Dynamics 365     | Description 
 ----------------------------|-----------------------------|------------
-Vendor V2                   | Compte                     | Les sociétés qui utilisent l’entité Compte pour stocker les informations fournisseur peuvent continuer de l’utiliser de la même manière. Elles peuvent également tirer parti de la fonctionnalité de fournisseur explicite qui apparaît du fait de l’intégration des applications Finance and Operations.
+Vendor V2                   | Compte                     | Les sociétés qui utilisent la table Compte pour stocker les informations fournisseur peuvent continuer de l’utiliser de la même manière. Elles peuvent également tirer parti de la fonctionnalité de fournisseur explicite qui apparaît du fait de l’intégration des applications Finance and Operations.
 Vendor V2                   | Msdyn\_vendors              | Les sociétés qui utilisent une solution personnalisée pour les fournisseurs peuvent profiter du concept de fournisseur prêt à l’emploi introduit dans Dataverse du fait de l’intégration des applications Finance and Operations. 
 Groupes de fournisseurs               | msdyn\_vendorgroups         | Ce modèle synchronise les informations du groupe de fournisseurs.
 Mode de paiement fournisseur       | msdyn\_vendorpaymentmethods | Ce modèle synchronise les informations de la méthode de paiement des fournisseurs.
@@ -75,6 +75,3 @@ Affixes de nom                | msdyn\_nameaffixes          | Le modèle [Affixe
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

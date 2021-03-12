@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694186"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798645"
 ---
 # <a name="action-search"></a>Recherche d’actions
 
@@ -35,7 +35,7 @@ Les pages exposent principalement les commandes des volets Actions, le volet Act
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Les touches accélératrices ne sont plus disponibles, mais ont été remplacées par la fonctionnalité de recherche d’actions. Cette nouvelle fonctionnalité permet de rechercher rapidement et d’exécuter un bouton à partir de n’importe quel Volet Actions visible.
+La fonctionnalité de recherche d’actions remplace les touches accélératrices, qui ne sont plus disponibles. Cette nouvelle fonctionnalité permet de rechercher rapidement et d’exécuter un bouton à partir de n’importe quel Volet Actions visible.
 
 ## <a name="using-action-search"></a>Utilisation de la recherche d’actions
 
@@ -53,7 +53,7 @@ Vous pouvez également commencer la recherche d’actions en appuyant sur Ctrl+/
 
 ## <a name="understanding-the-results-list"></a>Présentation de la liste des résultats
 
-Souvent, vous devez connaître l’emplacement et le contexte d’un bouton pour bien comprendre l’objet de ce bouton. Par conséquent, des informations supplémentaires sont affichées pour chaque élément de la liste des résultats, pour vous aider à savoir précisément quels boutons apparaissent dans la liste. En particulier, le « chemin d’accès » du bouton est affiché. Ce chemin d’accès peut inclure les noms des éléments d’interface utilisateur suivants, le cas échéant :
+Souvent, vous devez connaître l’emplacement et le contexte d’un bouton pour bien comprendre l’objet de ce bouton. Par conséquent, la liste des résultats présente des informations supplémentaires pour vous aider à savoir précisément quels boutons apparaissent dans la liste. En particulier, le « chemin d’accès » du bouton est affiché. Ce chemin d’accès peut inclure les noms des éléments d’interface utilisateur suivants, le cas échéant :
 
 - Onglets du volet Actions
 - Groupe de boutons
@@ -65,7 +65,7 @@ Par exemple, vous avez tapé **tot** dans le champ **recherche d’actions** et 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-Dans l’exemple précédent, la recherche d’action a donné les résultats du volet Actions standard en haut d’une page. Toutefois, la recherche d’actions montre également les résultats des barres d’outils visibles qui sont situées dans d’autres endroits de la page. Par exemple, vous recherchez le bouton **Stock disponible** situé dans l’organisateur **Lignes de commande client**. Dans ce cas, le chemin d’accès du bouton dans la liste des résultats (**Lignes de commande client** &gt; **Stock** &gt; **Afficher**) vous informe que ce bouton est situé sous l’en-tête **Afficher** du bouton de menu **Stock** dans l’organisateur **Lignes de commande client**.
+Dans l’exemple précédent, la recherche d’action a donné les résultats du volet Actions standard en haut d’une page. Toutefois, la recherche d’actions montre également les résultats des barres d’outils visibles qui sont dans d’autres endroits de la page. Par exemple, vous recherchez le bouton **Stock disponible** dans l’organisateur **Lignes de commande client**. Dans ce cas, le chemin d’accès du bouton dans la liste des résultats (**Lignes de commande client** &gt; **Stock** &gt; **Afficher**) vous informe que ce bouton est sous l’en-tête **Afficher** du bouton de menu **Stock** dans l’organisateur **Lignes de commande client**.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
@@ -75,6 +75,3 @@ Dans l’exemple précédent, la recherche d’action a donné les résultats du
 ## <a name="action-search-vs-navigation-search"></a>Recherche d’actions/recherche de navigation
 
 Alors que la recherche d’actions sert à rechercher et à exécuter des actions sur une page, il existe un mécanisme distinct pour rechercher des pages et les parcourir. Pour plus d’informations sur cette fonction, voir l’article [Recherche lors de la navigation](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

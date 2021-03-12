@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683728"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744373"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migration de type de données de devise pour la double écriture
 
@@ -44,11 +44,11 @@ La migration est facultative. Si vous pouvez bénéficier de la prise en charge 
 
 ## <a name="requesting-migration-from-microsoft"></a>Demande de migration à partir de Microsoft
 
-Le stockage des champs de devises existants dans Dataverse ne peut pas prendre en charge plus de quatre décimales. Par conséquent, pendant le processus de migration, les valeurs monétaires sont copiées dans de nouveaux champs internes de la base de données. Ce processus se produit en continu jusqu’à ce que toutes les données aient été migrées. En interne, à la fin de la migration, les nouveaux types de stockage remplacent les anciens types de stockage, mais les valeurs des données restent inchangées. Les champs monétaires peuvent alors prendre en charge jusqu’à 10 décimales. Pendant le processus de migration, Dataverse peut continuer à être utilisé sans interruption.
+Le stockage des colonnes de devises existantes dans Dataverse ne peut pas prendre en charge plus de quatre décimales. Par conséquent, pendant le processus de migration, les valeurs monétaires sont copiées dans de nouvelles colonnes internes de la base de données. Ce processus se produit en continu jusqu’à ce que toutes les données aient été migrées. En interne, à la fin de la migration, les nouveaux types de stockage remplacent les anciens types de stockage, mais les valeurs des données restent inchangées. Les colonnes monétaires peuvent alors prendre en charge jusqu’à 10 décimales. Pendant le processus de migration, Dataverse peut continuer à être utilisé sans interruption.
 
 Dans le même temps, les taux de change sont modifiés de sorte qu’ils prennent en charge jusqu’à 12 décimales au lieu de la limite actuelle de 10. Cette modification est nécessaire pour que le nombre de décimales soit le même dans l’application Finance and Operations et Dataverse.
 
-La migration ne modifie aucune donnée. Une fois les champs de devise et de taux de change convertis, les administrateurs peuvent configurer le système pour utiliser jusqu’à 10 décimales pour les champs de devise en spécifiant le nombre de décimales pour chaque devise de transaction et pour la tarification.
+La migration ne modifie aucune donnée. Une fois les colonnes de devise et de taux de change converties, les administrateurs peuvent configurer le système pour utiliser jusqu’à 10 décimales pour les colonnes de devise en spécifiant le nombre de décimales pour chaque devise de transaction et pour la tarification.
 
 ### <a name="request-a-migration"></a>Demander une migration
 
@@ -72,29 +72,26 @@ Une fois la migration terminée, Dataverse peut stocker des nombres qui ont plus
 
 Pour effectuer cette modification, vous devez mettre à jour les paramètres suivants dans Power Apps :
 
-+ **Paramètres système : précision des devises pour la tarification** - Le champ **Définir la précision de la devise utilisée pour la tarification dans tout le système** définit le comportement de la devise pour l’organisation lorsque **Précision de tarification** est sélectionné.
-+ **Gestion d’entreprise : Devises** - Le champ **Précision des devises** vous permet de spécifier un nombre personnalisé de décimales pour une devise spécifique. Il y a un repli dans le cadre à l’échelle de l’organisation.
++ **Paramètres système : précision des devises pour la tarification** - La colonne **Définir la précision de la devise utilisée pour la tarification dans tout le système** définit le comportement de la devise pour l’organisation lorsque **Précision de tarification** est sélectionné.
++ **Gestion d’entreprise : Devises** - La colonne **Précision des devises** vous permet de spécifier un nombre personnalisé de décimales pour une devise spécifique. Il y a un repli dans le cadre à l’échelle de l’organisation.
 
 Il existe certaines limitations :
 
-+ Vous ne pouvez pas configurer le champ de devise sur une entité.
++ Vous ne pouvez pas configurer la colonne de devise sur une table.
 + Vous pouvez spécifier plus de quatre décimales uniquement aux niveaux **Tarification** et **Devise de la transaction**.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Paramètres système : précision des devises pour la tarification
 
-Une fois la migration terminée, les administrateurs peuvent définir la précision de la devise. Accédez à **Paramètres \> Administration** et sélectionnez **Paramètres système**. Ensuite, dans l’onglet **Général**, modifiez la valeur du champ **Définir la précision de la devise utilisée pour la tarification dans tout le système**, comme indiqué dans l’illustration suivante.
+Une fois la migration terminée, les administrateurs peuvent définir la précision de la devise. Accédez à **Paramètres \> Administration** et sélectionnez **Paramètres système**. Ensuite, dans l’onglet **Général**, modifiez la valeur de la colonne **Définir la précision de la devise utilisée pour la tarification dans tout le système**, comme indiqué dans l’illustration suivante.
 
 ![Paramètres système pour la devise](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gestion d’entreprise : Devises
 
-Si vous souhaitez que la précision de la devise pour une devise spécifique diffère de la précision de la devise utilisée pour la tarification, vous pouvez la modifier. Accédez à **Paramètres \> Gestion d’entreprise**, sélectionnez **Devises** et sélectionnez la devise à modifier. Ensuite définissez le champ **Précision des devises** sur le nombre de décimales souhaité, comme indiqué dans l’illustration suivante.
+Si vous souhaitez que la précision de la devise pour une devise spécifique diffère de la précision de la devise utilisée pour la tarification, vous pouvez la modifier. Accédez à **Paramètres \> Gestion d’entreprise**, sélectionnez **Devises** et sélectionnez la devise à modifier. Ensuite définissez la colonne **Précision des devises** sur le nombre de décimales souhaité, comme indiqué dans l’illustration suivante.
 
 ![Paramètres de devise pour un environnement local spécifique](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>tables : champ Devise
+### <a name="tables-currency-column"></a>tables : colonne Devise
 
-Le nombre de décimales pouvant être configuré pour des champs de devise spécifiques est limité à quatre.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Le nombre de décimales pouvant être configuré pour des colonnes de devise spécifiques est limité à quatre.

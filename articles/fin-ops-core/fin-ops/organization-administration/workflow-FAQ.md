@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694054"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797389"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -59,6 +59,3 @@ La valeur de champ par défaut pour le **Nombre d’éléments de workflow par t
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Qu’est-ce que la fonction Erreur de workflow améliorée ?
 La fonction Erreur de workflow améliorée de la version 10.0.13 ajoute des codes d’erreur pour différencier les différentes classes d’erreurs de workflow. Les messages d’erreur signalés seront pour la plupart similaires avec des différences mineures pour les rendre plus clairs.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

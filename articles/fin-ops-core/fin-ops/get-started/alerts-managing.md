@@ -14,26 +14,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4e34685731a09131d2ab49a0e04479c9c20f4da8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d57586cb18c581e4a462d93a64a88310e251a7af
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693796"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798585"
 ---
 # <a name="batch-processing-of-alerts"></a>Traitement par lots des alertes
 
 [!include [banner](../includes/banner.md)]
 
-Les alertes sont traitées par la fonction de traitement par lots. Vous devez paramétrer le traitement par lots avant que les alertes puissent être remises.
+Les alertes sont traitées par la fonction de traitement par lots. Vous devez paramétrer le traitement par lots avant le processus et remettre des alertes.
 
-Deux types d’évènements sont pris en charge :
+La fonctionnalité de traitement par lots prend en charge deux types d’événements :
 
 - Événements déclenchés par des événements basés sur des modifications. Ces événements sont également connus sous le nom d’événements de création/suppression et de mise à jour.
-- Événements déclenchés par les dates d’échéance.
+- Événements déclenchés par des dates d’échéance.
 
 Vous pouvez paramétrer les traitements par lots pour chaque type d’événement.
-        
+
 ## <a name="batch-processing-for-change-based-events"></a>Traitement par lots des événements basés sur des modifications
 
 Le système lit tous les événements basés sur des modifications qui se sont produits depuis la dernière exécution du traitement par lots. Les événements basés sur des modifications incluent les mises à jour des champs, la suppression des enregistrements et la création des enregistrements. Ces événements sont comparés avec les conditions définies dans les règles d’alerte. Lorsqu’un événement correspond aux conditions d’une règle, le traitement par lots génère une alerte.
@@ -50,7 +50,7 @@ Par conséquent, lors de la définition de la fréquence du traitement par lots 
 
 Si vous paramétrez une faible fréquence du traitement par lots des événements basés sur des modifications, les données appropriées aux conditions de la règle d’alerte peuvent être modifiées avant l’exécution du traitement par lots. Par conséquent, vous risquez de perdre des alertes.
 
-Par exemple, une règle d’alerte est définie pour déclencher une alerte lorsque l’événement est **modifications du contact client** et que la condition est **client = BB**. Autrement dit, lorsque le contact du client BB est modifié, l’événement est consigné. Toutefois, le système de traitement par lots est paramétré afin que le traitement par lots se produise moins souvent que la saisie de données. Si le nom du client passe de **BB** à **AA** avant que l’événement soit traité, les données de la base de données ne correspondent plus à la condition de la règle, **client = BB**. Donc, lorsque l’événement est finalement traité, aucune alerte n’est générée.
+Par exemple, vous créez une alerte à déclencher lorsque l’événement est **modifications du contact client** et que la condition est **client = BB**. Autrement dit, lorsque le contact du client BB est modifié, l’événement est consigné. Toutefois, le système de traitement par lots est paramétré afin que le traitement par lots se produise moins souvent que la saisie de données. Si le nom du client passe de **BB** à **AA** avant que l’événement soit traité, les données de la base de données ne correspondent plus à la condition de la règle (**client = BB**). Donc, lorsque l’événement est finalement traité, aucune alerte n’est générée.
 
 ### <a name="set-up-processing-for-change-based-alerts"></a>Paramétrage du traitement des alertes basées sur des modifications
 
@@ -82,6 +82,3 @@ Si vous paramétrez une fenêtre de traitement par lots, une alerte est envoyée
 
 1. Accédez à **Administration du système** &gt; **Tâches périodiques** &gt; **Alertes** &gt; **Alertes de date d’échéance**.
 2. Dans la boîte de dialogue **Alertes de date d’échéance**, entrez les informations appropriées.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

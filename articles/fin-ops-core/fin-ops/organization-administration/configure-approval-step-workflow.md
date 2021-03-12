@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71d51f137cc0e0fcc18b39f8b92ab5c44b359609
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694074"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797094"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurer des étapes d’approbation dans un workflow
 
@@ -276,6 +276,3 @@ Si un utilisateur ne traite pas un document dans le délai imparti, le document 
 
 5. Répétez les étapes 3 à 4 pour chaque utilisateur à ajouter au chemin de réaffectation. Vous pouvez modifier l’ordre des utilisateurs.
 6. Si les utilisateurs du chemin de réaffectation ne répondent pas dans le délai imparti, le système traite automatiquement le document. Pour indiquer l’action exécutée par le système, sélectionnez la ligne **Action**, puis sélectionnez une action sous l’onglet **Terminer l’action**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694713"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796628"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Paramétrer des souches de numéros sur une base individuelle
 
@@ -40,6 +40,3 @@ Cette rubrique explique comment paramétrer des souches de numéros sur une base
 8. Développez la section **Général**. Dans l’organisateur Général, indiquez si la souche de numéros est manuelle, continue ou discontinue. De plus, entrez le plus petit et le plus grand des numéros pouvant être utilisés dans la souche de numéros. Il n’est pas conseillé de modifier une souche de numéros non continue en une souche de numéros continue. La souche de numéros ne sera pas véritablement continue. Cette modification peut également entraîner des violations de clé dupliquée dans la base de données. En outre, les souches de numéros continues ont un plus grand effet sur les performances.   
 9. Cliquez sur **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

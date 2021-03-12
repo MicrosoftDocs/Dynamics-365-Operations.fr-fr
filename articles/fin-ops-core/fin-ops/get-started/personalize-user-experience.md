@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693230"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797488"
 ---
 # <a name="personalize-the-user-experience"></a>Personnaliser l’expérience de l’utilisateur
 
@@ -195,6 +195,3 @@ Pour les clients n’ayant pas encore activé la fonctionnalité [Vues enregistr
 Lorsque vous personnalisez le paramétrage des dimensions de stock sur une page, tenez compte des paramètres qui ont été créés à l’aide de l’option **Afficher les dimensions**. Par exemple, vous utilisez la personnalisation pour masquer une colonne de la dimension de stock Numéro de lot, mais la colonne s’affiche à la prochaine ouverture de la page. Ce comportement se produit car les paramètres **Affichage des dimensions** contrôlent les colonnes de la dimension de stock affichées. Les paramètres **Affichage des dimensions** s’appliquent à toutes les pages et remplacent tout paramétrage personnalisé des champs de la dimension de stock sur des pages individuelles.
 
 Par conséquent, dans l’exemple précédent, si vous ne souhaitez pas afficher la colonne de la dimension de stock Numéro de lot sur une page, vous devez désactiver cette dimension dans le cadre de l’option **Afficher les dimensions** pour cette page.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

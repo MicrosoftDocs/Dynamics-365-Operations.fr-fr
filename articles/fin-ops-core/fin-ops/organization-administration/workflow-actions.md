@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694285"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797600"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Actions dans les processus d’approbation d’un workflow
 
@@ -141,6 +141,3 @@ Lorsqu’un approbateur demande la modification d’un document, ce dernier est 
 Supposons que Sam ait envoyé un état de dépenses de 12 000 EUR, et que ce document soit affecté à Sue. Si Sue demande une modification, l’état de dépenses est renvoyé à Sam.
 
 Sam peut soumettre de nouveau l’état de dépenses. Il peut effectuer les modifications demandées d’abord, ou soumettre de nouveau la version d’origine de l’état de dépenses. S’il soumet de nouveau l’état de dépenses, celui-ci est renvoyé à Frank pour approbation, car Frank est le premier approbateur dans le processus d’approbation.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

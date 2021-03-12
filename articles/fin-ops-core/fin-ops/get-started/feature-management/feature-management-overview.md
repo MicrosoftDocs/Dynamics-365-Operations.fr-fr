@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692964"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798350"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -101,8 +101,8 @@ Toutes les fonctionnalités pouvant être activées sont activées. Si une fonct
 
 Par défaut, toutes les fonctionnalités ajoutées à votre environnement sont désactivées, à moins qu’elles soient obligatoires. Cependant, si vous souhaitez activer automatiquement toutes les nouvelles fonctionnalités, vous pouvez utiliser la liste déroulante sous le titre de l’espace de travail pour modifier ce qui se produit lorsque de nouvelles fonctionnalités sont ajoutées.
 
-- Sélectionnez **Activer les nouvelles fonctionnalités automatiquement** pour activer automatiquement toutes les nouvelles fonctionnalités lorsqu’elles sont ajoutées à votre environnement.
-- Sélectionnez **Ne pas activer les nouvelles fonctionnalités automatiquement** pour désactiver toutes les nouvelles fonctionnalités lorsqu’elles sont ajoutées à votre environnement.
+- Sélectionnez `Enable new features automatically` automatiquement pour activer automatiquement toutes les nouvelles fonctionnalités lorsqu’elles sont ajoutées à votre environnement.
+- Sélectionnez `Do not enable new features automatically` pour désactiver par défaut toutes les nouvelles fonctionnalités lorsqu’elles sont ajoutées à votre environnement.
 
 
 Lorsque vous activez toutes les fonctionnalités automatiquement, cela active toutes les fonctionnalités qui sont activées lorsque vous cliquez sur le bouton **Activer tout**. Cela n’active pas les fonctionnalités qui nécessitent une confirmation ou les fonctionnalités qui ne peut pas être activées tant qu’aucune action n’est effectuée.
@@ -159,7 +159,7 @@ Non, une fonctionnalité devenue obligatoire n’est pas une action automatique.
 ### <a name="when-do-features-become-mandatory"></a>Quand les fonctionnalités deviennent-elles obligatoires ? 
 La stratégie est que toutes les nouvelles fonctionnalités seront activées pour une période de 12 mois et ne nécessiteront aucune gestion des modifications jusqu’à ce que vous activiez la fonctionnalité. Les équipes de produits peuvent choisir de rendre une fonctionnalité obligatoire après la fin de cette période. 
 
-### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Pourquoi n’y a-t-il pas de "date activée obligatoire" spécifique ? 
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Pourquoi n’y a-t-il pas de « date activée obligatoire » spécifique ? 
 Le calendrier de publication des mises à jour est variable, le calendrier de mise à jour de l’environnement est variable et les clients peuvent choisir d’ignorer certaines mises à jour. Par conséquent, des dates précises sont difficiles à déterminer. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Où se trouve la documentation des fonctionnalités rendues obligatoires ? 
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Qu’est-ce que IFeatureLifecycle implémenté par certaines classes d’entités ?
 IFeatureLifecycle est un mécanisme interne à Microsoft pour indiquer l’étape du cycle de vie des fonctionnalités. Les fonctionnalités peuvent être de type :
-- PrivatePreview : nécessite un déploiement en mode Flighting pour être visible.
-- PublicPreview : affiché par défaut, mais avec un avertissement indiquant que la fonctionnalité est en aperçu.
-- Released : entièrement publié.
+- `PrivatePreview` : nécessite un déploiement en mode Flighting pour être visible.
+- `PublicPreview` : affichée par défaut, mais avec un avertissement indiquant que la fonctionnalité est en aperçu.
+- `Released` : entièrement lancée.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
