@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AgreementClassification
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4ea3addcd589069292341bec7207f8f9849bb26
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0acb2a10d420e401c3f4abf51bdb97f120255a4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407973"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984666"
 ---
 # <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a>Paramétrer les classifications de contrat d’achat dans le secteur public
 
@@ -44,6 +43,3 @@ Cette procédure a été créée pour le secteur public français, en utilisant 
 8. Facultatif : sélectionnez l’option Activités pour inclure des informations sur les tâches et les jalons.
 9. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

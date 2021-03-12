@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PSNLedgerInterestDistributionRules, PSNLedgerInterestDistributionResults
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: dd02e521c74888b81ae0d0b5f1a2fe3abdfce2dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d6ab44b7ddcbb3b7d3c394695e54398029654f78
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407987"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982033"
 ---
 # <a name="set-up-interest-distribution-for-cash-accounts"></a>Paramétrer la distribution d’intérêts pour les comptes de disponibilités
 
@@ -81,6 +80,3 @@ Le processus de répartition de la distribution d’intérêts inclut des montan
 | Moyenne journalière totale   | Somme de tous les soldes quotidiens moyens, sauf les montants négatifs des comptes de disponibilités qui ne permettent pas des comptes d’intérêts et de disponibilités négatifs qui ne participent pas à la distribution d’intérêts. |
 | Pourcentage du total      | Montant du solde quotidien moyen divisé par le montant moyen quotidien total pour chaque combinaison de compte de disponibilité et de subvention. |
 | Intérêts affectés    | Montant total des intérêts de la page **Paramètres de distribution d’intérêts**, multiplié par le pourcentage du montant total du compte de disponibilités. Les intérêts ne sont pas répartis sur les comptes de disponibilités ayant des montants négatifs et qui ne permettent pas d’intérêts négatifs. Les intérêts ne sont également pas répartis sur les comptes de disponibilités qui ne participent pas à la distribution d’intérêts. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

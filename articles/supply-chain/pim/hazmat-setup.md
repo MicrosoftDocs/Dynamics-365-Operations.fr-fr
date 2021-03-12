@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428073"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983339"
 ---
 # <a name="set-up-hazardous-materials"></a>Paramétrer les matières dangereuses
 
@@ -284,6 +283,3 @@ Pour configurer des valeurs pour cette spécification, accédez à **Gestion des
 La spécification *Tunnel de matières dangereuses* limite les types de tunnels dans lesquels une matière dangereuse peut être transportée en identifiant les types de tunnels qui doivent être utilisés. Les catégories de tunnels sont établies par les réglementations applicables pour le transport de matières dangereuses. Cette spécification s’applique généralement uniquement au transport routier.
 
 Pour configurer des valeurs pour cette spécification, accédez à **Gestion des informations sur les produits \> Configurer \> Documentation d’expédition de matières dangereuses \> Tunnel de matière dangereuse**. Sur la page **Tunnel de matière dangereuse**, vous pouvez créer n’importe quel nombre d’identificateurs de tunnels et configurer chacun avec un code d’identification et une brève description.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

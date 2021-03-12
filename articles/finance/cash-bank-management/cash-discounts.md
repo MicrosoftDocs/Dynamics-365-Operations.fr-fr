@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3741
 ms.assetid: c25f9d85-2702-46aa-8e61-0b4886e069b3
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 139fb4fdb7d4f8034bff5e9668dc794f29fb327e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9d4f6d5bdf4f2fdc4529d9f51515ed2ac4b5b3b5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443314"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985310"
 ---
 # <a name="cash-discounts"></a>Escomptes de règlement
 
@@ -43,7 +42,7 @@ Si une facture est réglée à temps pour justifier l’obtention d’un escompt
 3.  Le compte de validation principal de la page Escomptes de règlement dans le champ Compte principal pour les remises client ou le champ Compte principal pour les remises fournisseur pour le code d’escompte de règlement figurant sur la facture réglée.
 4.  Le compte principal pour les escomptes de règlement, tel que défini dans la page Comptes pour transactions automatiques.
 
-## <a name="example-series-of-cash-discounts"></a> Exemple : série d’escomptes de règlement
+## <a name="example-series-of-cash-discounts"></a>Exemple : série d’escomptes de règlement
 Paramétrez trois codes escompte de règlement comme suit :
 -   Code 5D10% : escompte de règlement de 10 % si le montant est réglé sous 5 jours.
 -   Code 10D5% : escompte de règlement de 5 % si le montant est réglé sous 10 jours.
@@ -56,7 +55,7 @@ Dans le champ Code remise suivant :
 
 Les trois escomptes de règlement se succèdent lorsque la date de paiement dépasse la date d’escompte de règlement précédente sur la facture. Un seul escompte de règlement est accordé lorsque la facture est payée, en fonction de la date d’escompte de règlement qui est respectée dans la séquence d’escomptes de règlement.
 
-## <a name="example-exchange-rates-for-cash-discounts"></a> Exemple : taux de change des escomptes de règlement
+## <a name="example-exchange-rates-for-cash-discounts"></a>Exemple : taux de change des escomptes de règlement
 La devise comptable de votre entité juridique est EUR et les taux de change suivants sont spécifiés pour la devise USD :
 -   1er février = 110
 -   1er mars = 80
@@ -66,6 +65,3 @@ Une facture de 1 000 USD avec des conditions d’escompte de règlement de 20D
 > [!NOTE]
 > Si l’option Calcule les escomptes de règlement pour les paiements partiels est sélectionnée dans les pages Paramètres de la comptabilité client ou Paramètres de la comptabilité fournisseur, le taux de change en vigueur à la date de chaque paiement partiel est utilisé. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428188"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983165"
 ---
 # <a name="automatic-allocation-of-charges"></a>Répartition automatique des frais
 
@@ -177,6 +176,3 @@ La procédure suivante montre comment répartir des frais au niveau de l'en-têt
         > Lorsque vous utilisez la grille **Choisir les lignes à exclure de la répartition**, veillez à laisser la grille ouverte jusqu'à ce que vous sélectionniez **Répartir**. Si vous fermez la grille avant de sélectionner **Répartir**, vos paramètres dans la grille seront perdus. Par conséquent, les frais seront répartis en fonction des critères que vous aviez définis précédemment.
 
 1. Sélectionnez **Répartir** pour appliquer vos paramètres et fermer la boîte de dialogue.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

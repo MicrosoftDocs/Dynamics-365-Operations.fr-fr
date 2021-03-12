@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a6179841259186c8438c72bb4a4f9cd2bf5dbaa8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443134"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985085"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
 
@@ -94,7 +93,7 @@ Cet exemple utilise le même paramétrage que le premier exemple. Cependant, nou
 
 [![Comptabilité](./media/ledger.png)](./media/ledger.png)
 
-Lorsque le même paramétrage d’en-tête de journal est utilisé, et que la même transaction est validée, la dimension fixe est appliquée en premier. Puis la logique d’équilibrage est appliquée pour garantir que chaque département a une entrée équilibrée. L’illustration suivante présente des transactions de N° document incluant l’entrée d’équilibrage après que la dimension fixe a été appliquée.
+Lorsque le même paramétrage d’en-tête de journal est utilisé, et que la même transaction est validée, la dimension fixe est appliquée en premier. Puis la logique d’équilibrage est appliquée pour garantir que chaque département a une entrée équilibrée. L’illustration suivante présente des pièces comptables incluant l’entrée d’équilibrage après que la dimension fixe a été appliquée.
 
 [![Pièces comptables](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
@@ -102,7 +101,7 @@ Lorsque le même paramétrage d’en-tête de journal est utilisé, et que la m�
 
 Dans cet exemple, nous ajoutons une règle avancée. La règle avancée spécifie que si le compte de vente 401100 et le département 022 (Ventes et marketing) sont utilisés, le système doit suivre un segment supplémentaire nommé Client.
 
-Cet exemple est important en raison de la commande. La structure de compte est déterminée une fois le compte principal entré. Si vous faites référence au paramétrage de la structure de compte, le système peut déterminer que le compte principal, les unités commerciales, le département, le centre de coût sont appropriés. À ce stade, la règle avancée n’a pas été déclenchée, car les dimensions fixes ne sont pas appliquées jusqu’à ce que les dimensions par défaut aient été appliquées pour le N° document de journal lors de la validation. Dans l’illustration suivante, le segment Client n’est pas présent, car les critères de la règle avancée n’ont pas été remplis.
+Cet exemple est important en raison de la commande. La structure de compte est déterminée une fois le compte principal entré. Si vous faites référence au paramétrage de la structure de compte, le système peut déterminer que le compte principal, les unités commerciales, le département, le centre de coût sont appropriés. À ce stade, la règle avancée n’a pas été déclenchée, car les dimensions fixes ne sont pas appliquées jusqu’à ce que les dimensions par défaut aient été appliquées pour le justificatif de journal lors de la validation. Dans l’illustration suivante, le segment Client n’est pas présent, car les critères de la règle avancée n’ont pas été remplis.
 
 [![Compte général](./media/drop-down.png)](./media/drop-down.png)
 
@@ -127,6 +126,3 @@ Certaines des ressources suivantes se réfèrent à une version antérieure de n
 [Utilisation de valeurs par défaut pour les dimensions dans les répartitions comptable](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Utilisation de valeurs par défaut pour les dimensions dans la structure de dimensions](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

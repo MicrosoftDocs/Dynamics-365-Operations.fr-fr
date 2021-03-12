@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
-ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
+ms.openlocfilehash: f777503c6161376afc933322b5d60054e2468b34
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2020
-ms.locfileid: "4428328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983414"
 ---
 # <a name="create-a-baseline-forecast"></a>Créer une prévision de base
 
@@ -82,6 +81,3 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
 5. Cliquez sur Détails des lignes de prévision.
     * Dans cette page, vous pouvez voir les valeurs de précision, la demande historique et la prévision. Vous pouvez également apporter des modifications aux prévisions.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

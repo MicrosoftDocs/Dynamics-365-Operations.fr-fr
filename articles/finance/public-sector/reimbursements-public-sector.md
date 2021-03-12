@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CustBillingClassification
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 27311
 ms.assetid: 9d61d1d8-1672-4bd0-ae0d-605b09240890
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f098d9c10b9dec5a38feebe602f664fd1ba1c61
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f70e9ff8c30fff239d0b98c35b6f9d5be7b7e3f1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981997"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
@@ -66,6 +65,3 @@ Non, pas directement. Toutefois, vous pouvez utiliser les entrées du journal de
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

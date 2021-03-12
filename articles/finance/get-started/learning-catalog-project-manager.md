@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443277"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984907"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catalogue d’apprentissage pour les chefs de projet d’implémentation qui utilisent Dynamics 365 Finance
 
@@ -90,11 +89,8 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="exams"></a>Examens<a name="exams"></a>
 
-| Contenu  | Description   | Format   |
+| Contenu  | Description  | Format   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Examen MB-300 : Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences pour accomplir les tâches techniques suivantes : utiliser la fonctionnalité courante et les outils d’implémentation ; configurer la sécurité, les processus et les options ; effectuer la migration des données ; et valider et prendre en charge le support de la solution. | Examen ; le coût varie selon la région | |
 | [Examen MB-310 : Microsoft Dynamics 365 for Finance and Operations, Financials](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences à accomplir les tâches techniques suivantes : configurer la gestion financière ; gérer et appliquer des processus courants ; implémenter et gérer la comptabilité client et la comptabilité fournisseur ; et gérer la budgétisation et les immobilisations. | Examen ; le coût varie selon la région | |
 | [Certifié Microsoft : Dynamics 365 for Finance and Operations, Associé Consultant technique Financials](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Certifié Microsoft : Dynamics 365 for Finance and Operations, les consultants techniques Financials harmonisent les finances et opérations mondiales et automatisent les tâches et les workflows, rationnalisent les commandes client, les ventes, la facturation et les rapports. | Certification ; le coût varie selon la région |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

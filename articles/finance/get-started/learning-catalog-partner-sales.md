@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 933f743b5b4fe9e97a80543478c1154ca290cbff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6f8bcd987bc3532aea4676f4e5494feaefbe324
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443225"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984932"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catalogue d’apprentissage pour les rôles de vente et de marketing des partenaires Microsoft pour Dynamics 365 Finance
 
@@ -39,9 +38,6 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
-| Contenu | Description   | Format  |
+| Contenu | Description  | Format  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Attestez que vous comprenez Microsoft Dynamics 365, Power Platform, les concepts de cloud, les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

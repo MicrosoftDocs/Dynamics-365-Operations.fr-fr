@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 86c6ecf9ef67ca3ac4ed3c44d930acaa965112b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f0801828086a7c5cc316895b5426a184a345ce1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412349"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982396"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vente et retourner des produits ne faisant pas partie de l'assortiment d'un magasin
 
@@ -46,6 +45,3 @@ Ces scénarios courants sont disponibles aux détaillants qui utilisent Commerce
 + Récupérer les produits dans le magasin actuel ou un autre magasin.
 + Annuler une commande dans le magasin actuel ou un autre magasin.
 + Retourner une commande avec ou sans l'accusé de réception dans le magasin actuel ou un autre magasin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

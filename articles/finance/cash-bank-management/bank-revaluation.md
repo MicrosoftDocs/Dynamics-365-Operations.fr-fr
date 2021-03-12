@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b7d2e33c1edb36227a76453d1981aec5babbf75
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985360"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Réévaluation des comptes en devises/bancaires
 
@@ -61,7 +60,7 @@ Vous devez activer la fonction pour chaque entité juridique qui utilise la ré�
 
 Une fois le paramétrage terminé, utilisez la page **Réévaluation des comptes en devises** du module Gestion de la trésorerie et de la banque pour réévaluer les soldes d’un ou plusieurs comptes bancaires parmi toutes les entités juridiques. Vous pouvez exécuter le processus en temps réel, ou le replanifier à l’aide d’un traitement par lots.
 
-La page **Réévaluation des comptes en devises** affiche l’historique de chaque processus de réévaluation. Elle montre le moment d’exécution du processus et les critères qui étaient définis, et fournit un lien vers le document qui a été créé pour la réévaluation. Elle affiche également si une réévaluation précédente a été contrepassée. Pour exécuter le processus de réévaluation, sélectionnez **Réévaluation des comptes en devises** dans le volet Actions pour ouvrir la boîte de dialogue **Réévaluation des comptes en devises - Banque**.
+La page **Réévaluation des comptes en devises** affiche l’historique de chaque processus de réévaluation. Elle montre le moment d’exécution du processus et les critères qui étaient définis, et fournit un lien vers le justificatif qui a été créé pour la réévaluation. Elle affiche également si une réévaluation précédente a été contrepassée. Pour exécuter le processus de réévaluation, sélectionnez **Réévaluation des comptes en devises** dans le volet Actions pour ouvrir la boîte de dialogue **Réévaluation des comptes en devises - Banque**.
 
 Le champ **Date de réévaluation** définit la date limite pour le calcul du solde en devise étrangère qui est réévalué. La somme de toutes les transactions bancaires qui ont eu lieu jusqu’à cette date est réévaluée.
 
@@ -88,6 +87,3 @@ La transaction de réévaluation des comptes en devises est également fractionn
 Si vous devez contrepasser la transaction de réévaluation, sélectionnez le bouton **Transaction de contrepassation** dans le volet Action de la page **Réévaluation des comptes en devises**. Un enregistrement historique de réévaluation des comptes en devises est créé pour tenir à jour le suivi d’audit historique du moment où la réévaluation s’est produite ou a été contrepassée.
 
 Pour contrepasser plusieurs réévaluations, vous devez contrepasser d’abord la réévaluation la plus actuelle. Continuez ensuite à contrepasser les réévaluations précédentes par ordre de date. Vous pouvez ensuite traiter de nouvelles réévaluations pour les périodes que vous avez contrepassées.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672185"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983489"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Marquage du stock avec optimisation de la planification
 
@@ -49,6 +48,3 @@ Lorsque vous confirmez une commande planifiée, la boîte de dialogue **Confirma
 - **Non** – Aucun marquage de stock n'est appliqué.
 - **Standard** – Le marquage du stock est mis à jour en fonction de l'origine des demandes. Un ordre de besoins (demande) est marqué par rapport à un ordre d'exécution de commande (offre). S'il reste une quantité sur l'ordre d'exécution, elle n'est pas marquée et les informations de référence sont laissées vides. Par exemple, si une commande client de 100 unités est liée à une commande d'achat de 150 unités, les informations de référence ne seront affectées qu'à la commande client.
 - **Développé** - L'ordre de besoins (demande) et l'ordre d'exécution de commande (offre) sont marqués, indépendamment de la quantité restant dans l'ordre d'exécution de commande. Par exemple, si une commande client de 100 unités est liée à une commande d'achat de 150 unités, les informations de référence ne seront affectées qu'à la commande client et à la commande fournisseur.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
