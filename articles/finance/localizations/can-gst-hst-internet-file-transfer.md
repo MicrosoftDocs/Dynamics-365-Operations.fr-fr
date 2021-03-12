@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: GST/HST, GIFT
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Canada
 ms.author: kfend
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d74f041f09eb9959bf2ddd2a6c5f86b2564bd6f7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bfe7793e3367a2b30e8cb2db16c09cf9fff0fba2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407938"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968343"
 ---
 # <a name="canada-gsthst-internet-file-transfer-gift"></a>Canada GST/GIFT (HST Internet File Transfer)
 
@@ -86,6 +85,3 @@ Pour faire vos déclarations GST/HST et effectuer les paiements, vous pouvez gé
     > Pour faciliter l’identification du fichier GIFT, utilisez le format *GSTAAAAMMJJ.tax* pour le nom de fichier. (Autrement dit, entrez **GST** suivi de la date de déclaration, puis ajoutez l’extension de nom de fichier **.tax** .) Par exemple, si la date de génération d’états est le 28 juillet 2010, entrez **GST20100728.tax** comme nom du fichier GIFT.
 
 4. Sélectionnez **OK** pour exporter le fichier GIFT vers le chemin spécifié.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

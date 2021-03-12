@@ -12,7 +12,6 @@ ms.search.form: PSNCanadianHSTTaxFeature
 audience: Application User
 ms.devlang: ''
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.tgt_pltfrm: ''
 ms.custom: ''
 ms.search.region: Global
@@ -20,12 +19,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 777429c616c7c198f60eec2475012fe831fd26fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9fce946fd997b0f6b3a86ff4e990700e23b54247
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407928"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968239"
 ---
 # <a name="calculating-canadian-harmonized-sales-tax"></a>Calcul de la taxe de vente harmonisée canadienne
 
@@ -86,6 +85,3 @@ Les codes de taxe sélectionnés pour la ligne de dimension sont les suivants si
 |   Fonds 101, Division 121                  | Taxe2, Taxe3      |
 |   Fonds 303, n’importe quelle division à l’exception de la division 141         | Taxe1, Taxe2, Taxe3|
 |   Fonds 303, Division 141                  | Taxe1            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

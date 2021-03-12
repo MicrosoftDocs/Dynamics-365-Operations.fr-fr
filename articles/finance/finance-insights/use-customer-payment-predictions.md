@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: aa4a4975fc2ccdd91d5beb32060d68f7e77dbcb7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: e0445046d8016dfa2c02c1ff1a05bdd148f9409a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645647"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969251"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Utiliser les prédictions de paiement des clients (version préliminaire)
 
@@ -110,6 +109,3 @@ Les fonctionnalités en version préliminaire publiques peuvent et doivent être
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
 Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

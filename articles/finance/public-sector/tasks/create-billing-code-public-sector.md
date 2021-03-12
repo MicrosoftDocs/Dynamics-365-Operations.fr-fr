@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustCustomField
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c200ab452fce730182ef8dfa510382ae4d8c41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 140437d5092e839f100b396718fa932118ec0efd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407995"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968229"
 ---
 # <a name="create-a-billing-code-for-the-public-sector"></a>Créer un code de facturation pour le secteur public
 
@@ -41,6 +40,3 @@ Les champs personnalisés du code facturation permettent de rassembler les valeu
 7. Ouvrez la section Références du code facturation. Lorsque vous affectez ce champ personnalisé à un code facturation, le code facturation est indiqué ici.
 8. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5af050fb6099b583be4e9c60ba56dacf38d31c08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443290"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969226"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 125 %
 
@@ -33,7 +32,7 @@ Cet article donne une vue d’ensemble de la méthode d’amortissement dégress
 
 Si vous définissez un profil d’amortissement d’immobilisation, puis sélectionnez **Amortissement dégressif de 125 %** dans le champ **Méthode** de la page **Profils d’amortissement**, les immobilisations affectées à ce profil d’amortissement sont amorties par le même pourcentage pour chaque période d’amortissement. Ce pourcentage est calculé sur la base de la durée de vie de l’immobilisation. Par exemple, si une immobilisation a une durée de vie de cinq ans, la valeur de pourcentage calculée est de 25 pourcent (125 % ÷ 5).
 
-Pour paramétrer un amortissement dégressif de 125 %, vous devez également sélectionner des options dans les champs **Année d’amortissement** et **Fréquence** sur la page **Profils d’amortissement**. Les options disponibles dans le champ **Fréquence** varient en fonction de la valeur sélectionnée dans le champ **Année d’amortissement**.
+Pour paramétrer un amortissement dégressif de 125 %, vous devez également sélectionner des options dans les champs **Année d’amortissement** et **Fréquence** sur la page **Profils d’amortissement**. Les options disponibles dans le champ **Fréquence** varient en fonction de la valeur sélectionnée dans le champ **Année d’amortissement**.
 
 ## <a name="select-a-depreciation-year"></a>Sélectionner une année d’amortissement
 Vous pouvez sélectionner soit **Calendrier** soit **Exercice** dans le champ **Année d’amortissement** de la page **Profils d’amortissement**. La valeur par défaut est **Calendrier**. 
@@ -75,7 +74,7 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 25 %    |
 
-La méthode d’amortissement dégressif de 125 % divise 125 % par le nombre d’années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
+La méthode d'amortissement dégressif de 125 % divise 125 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable                    | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|-------------------------------|---------------------------------------|
@@ -88,6 +87,3 @@ La méthode d’amortissement dégressif de 125 % divise 125 % par le nombre d
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

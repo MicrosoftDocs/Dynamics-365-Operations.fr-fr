@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443042"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969699"
 ---
 # <a name="collections-process-automation"></a>Automatisation du processus de recouvrement
 
@@ -118,6 +117,3 @@ Les tableaux suivants répertorient les pages et les champs à partir desquels l
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Valider automatiquement les lettres de relance           |     Les types d’action de lettre de relance publieront la lettre pendant l’automatisation.                                      |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Créer des activités d’automatisation                |     Créez et fermez des activités pour les types d’action non liés à une activité pour afficher toutes les étapes automatisées effectuées sur un compte.        |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Jours pour conserver l’automatisation des processus de recouvrement     |     Définit le nombre de jours pendant lesquels l’historique des recouvrements est stocké.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

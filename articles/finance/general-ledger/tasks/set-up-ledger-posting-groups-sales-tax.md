@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644895"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968452"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Paramétrage des groupes de validation dans la comptabilité de la taxe
 
@@ -42,6 +41,3 @@ La taxe est calculée et validée dans les comptes principaux spécifiés dans l
 11. Dans le champ **Client - Escompte de règlement**, sélectionnez le compte principal pour valider l’escompte de règlement pour les **codes taxe** associés à ce **groupe de validation dans la comptabilité**. Ceci est facultatif et si aucun compte n’est entré, le compte principal des **codes escompte de règlement** est alors utilisé. Il peut être utile d’utiliser différents comptes par **groupe de validation dans la comptabilité** si vous utilisez l’option Contrepasser la taxe sur l’escompte de règlement dans les **groupes de taxe**.  
 12. Cliquez sur **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

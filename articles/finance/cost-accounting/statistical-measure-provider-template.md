@@ -1,5 +1,5 @@
 ---
-title: Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
+title: Modèles de fournisseur pour les membres de la dimension statistique et les fournisseur de mesures statistiques
 description: Cette rubrique fournit des informations sur les membres de la dimension statistique et les modèles de fournisseur de modèles statistiques. Les membres de la dimension statistique peuvent être utilisés comme base de répartition dans les stratégies telles que la distribution et la répartition des coûts. Ils peuvent également être utilisés pour déclarer la consommation des coûts non monétaires.
 author: AndersGirke
 manager: AnnBe
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443281"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969451"
 ---
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membres de la dimension statistique et modèles de fournisseur de mesures statistiques
+# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modèles de fournisseur pour les membres de la dimension statistique et les fournisseur de mesures statistiques
 
 [!include [banner](../includes/banner.md)]
 
@@ -346,6 +345,3 @@ Si la base de répartition des membres de la dimension prédéfinie Électricit�
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Bases de répartition](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

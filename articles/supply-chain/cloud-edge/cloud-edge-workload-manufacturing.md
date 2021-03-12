@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 799c479c750fcaf296f3e2787fa38416af51963c
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 08c46655d3966ad1433935318c5e60667dd10bb6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516786"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967760"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail d'exécution de la fabrication pour les unités de mise à l'échelle du cloud et d'Edge
 
@@ -110,6 +109,3 @@ Pour consulter l'historique des travaux de fabrication qui ont été traités su
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Hub de fabrication pour la tâche du processeur de messages de l'unité d'échelle
 
 La tâche _Hub de fabrication pour le processeur de messages de l'unité d'échelle_ traite les données du hub vers l'unité d'échelle. Ce travail est automatiquement démarré lorsque la charge de travail d'exécution de fabrication est déployée. Cependant, vous pouvez l'exécuter manuellement à tout moment en accédant à **Contrôle de production \> Tâches périodiques \> Gestion de la charge de travail backoffice \> Processeur de message du hub de fabrication vers l'unité d'échelle**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

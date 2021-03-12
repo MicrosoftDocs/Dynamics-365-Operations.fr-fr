@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d27c5653d6305aad23142fa6f803134153661278
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4443367"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969501"
 ---
 # <a name="set-up-expense-types"></a>Configurer les types de dépenses
 
@@ -59,6 +58,3 @@ Ensuite, vous devez associer les comptes aux types de dépenses. Ces comptes ser
 7. Dans les champs appropriés, sélectionnez le compte principal de contrat de location-financement et le compte principal de location simple.
 
 Lorsque vous avez terminé ces étapes, vous pouvez ajouter des dépenses via les lignes **l’échéancier de paiement des frais accessoires** sur la page **Détails du bail** d’un bail sélectionné. Vous pouvez également ajouter des dépenses lorsque vous créez un bail.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

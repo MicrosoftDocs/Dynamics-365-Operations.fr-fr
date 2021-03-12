@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementFinDimensionAccess_PSN
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0774cfe1cfa7e00bc0dc448041c69d6369890377
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb5223d4c16d577ce1c65b140514f4956d6d7304
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407989"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968234"
 ---
 # <a name="control-access-to-purchase-agreements-in-the-public-sector"></a>Contrôler l’accès aux contrats d’achat dans le secteur public
 
@@ -41,6 +40,3 @@ Vous pouvez vous assurer que seuls les départements approuvés peuvent accéder
     * Ajoutez des départements supplémentaires jusqu’à ce que tous les départements autorisés aient été ajoutés au contrat d’achat.  
 9. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca05f6174541a6e97ec94db209a99424a87550eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443320"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969351"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurer les paramètres de l’espace de travail de contrôle des coûts
 
@@ -59,6 +58,3 @@ Cette procédure permet de configurer l’espace de travail Contrôle des coûts
 27. Dans le champ Nœud de hiérarchie des dimensions d’objet de coût, entrez ou sélectionnez une valeur.
     * Après avoir sélectionné une hiérarchie Dimension d’objet de coût, développez la hiérarchie Dimension d’élément de coût pour afficher les valeurs de coût souhaitées. Par exemple, vous pouvez développer la hiérarchie des frais généraux de fabrication pour afficher la valeur.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 259fd8f41eade1e873225f0d95c499c8cb8c1a6a
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 3e4908ddab2650e5ff7e4a28bf916604d165d08c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4443372"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969526"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Contrepasser les transactions de bail validées
 
@@ -56,6 +55,3 @@ Pour révoquer une transaction Contrepassée, procédez comme suit.
 Lorsque vous sélectionnez **Suivi de la Contrepassation**, une boîte de dialogue apparaît et affiche à la fois les transactions d’origine et les transactions annulées, ainsi qu’un numéro de trace.
 
 Vous pouvez également suivre les révocations en utilisant la page **Échéanciers**. Le champ **Contrepasser** est effacé, alors que le champ **Journal validé** est sélectionné. De plus, le champ **Dernier numéro de journal** est mis à jour avec le numéro de journal de la transaction de révocation et le champ **Numéro de journal** est mis à jour avec le numéro de journal de contrepassation.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

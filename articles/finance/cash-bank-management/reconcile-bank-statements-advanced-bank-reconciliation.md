@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92c04a47b134584280736f4d3d2fa401d2a2a9b7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443172"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969426"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Rapprochement de relevés bancaires à l’aide du rapprochement bancaire avancé
 
@@ -96,6 +95,3 @@ Les transactions de relevé bancaire qui vous avez marquées comme **Nouveau** s
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
