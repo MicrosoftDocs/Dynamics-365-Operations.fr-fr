@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412153"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976587"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Suivre les commissions dans le point de vente (PDV) avec des groupes de ventes
 
@@ -72,7 +71,7 @@ Prenez connaissance des paramètres de profil de fonctionnalité pour un magasin
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Afficher les informations du Commercial dans l'écran Transactions du PDV
 
-La mise en page de l'écran et du contenu de transaction PDV sont configurables à l'aide du concepteur de mise en page de l'écran et des mises en page de l'écran affectées aux magasins, aux registres ou aux collaborateurs. Le champ **Commercial** peut être ajouté à l'onglet Lignes du volet Reçu.  Il affiche l'ID du groupe de ventes spécifié pour chaque ligne de l'écran de transaction.
+La mise en page de l'écran et du contenu de transaction PDV sont configurables à l'aide du concepteur de mise en page de l'écran et des mises en page de l'écran affectées aux magasins, aux registres ou aux collaborateurs. Le champ **Commercial** peut être ajouté à l'onglet Lignes du volet Reçu.  Il affiche l'ID du groupe de ventes spécifié pour chaque ligne de l'écran de transaction.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Ajouter des opérations de commercial au groupe de boutons du PDV
 
@@ -80,14 +79,11 @@ Le PDV permet aux utilisateurs de configurer les groupes de boutons, qui sont in
 
 | Opération                                 | Description |
 |-------------------------------------------|-------------|
-| Définir le représentant sur la ligne          | Cette opération PDV affiche une liste de groupes de ventes admissibles (ID : Nom) pour le magasin. Sélectionner un groupe de ventes à partir de cette liste détermine la valeur de la ligne de transaction actuelle. |
+| Définir le représentant sur la ligne          | Cette opération PDV affiche une liste de groupes de ventes admissibles (ID : Nom) pour le magasin. Sélectionner un groupe de ventes à partir de cette liste détermine la valeur de la ligne de transaction actuelle. |
 | Effacer le représentant sur la ligne        | Cette opération du PDV supprime la valeur du groupe de ventes de la ligne de transaction actuelle. |
-| Définir le commercial sur la transaction   | Cette opération PDV affiche une liste de groupes de ventes admissibles (ID : Nom) pour le magasin. Sélectionner un groupe de ventes à partir de cette liste détermine la valeur par défaut de la transaction actuelle. Toutes les lignes existantes sans groupe de ventes affecté sont définies, ainsi que toutes les lignes ajoutées par la suite. |
+| Définir le commercial sur la transaction   | Cette opération PDV affiche une liste de groupes de ventes admissibles (ID : Nom) pour le magasin. Sélectionner un groupe de ventes à partir de cette liste détermine la valeur par défaut de la transaction actuelle. Toutes les lignes existantes sans groupe de ventes affecté sont définies, ainsi que toutes les lignes ajoutées par la suite. |
 | Effacer le commercial sur la transaction | Cette opération du PDV supprime la valeur du groupe de ventes par défaut actuel de la transaction actuelle. Aucune ligne n'existe dans la transaction. |
 
 ## <a name="calculating-commissions"></a>Calcul des commissions
 
-La commission est calculée pour les collaborateurs aux groupes de ventes spécifiés lors de la validation du relevé ou de la validation d'une commande client. Le montant de la commission est déterminé sur le partage de la commission du collaborateur, comme défini dans le groupe de ventes et les paramètres associés de calcul de la commission pour le client et/ou les produits sur la transaction.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+La commission est calculée pour les collaborateurs aux groupes de ventes spécifiés lors de la validation du relevé ou de la validation d'une commande client. Le montant de la commission est déterminé sur le partage de la commission du collaborateur, comme défini dans le groupe de ventes et les paramètres associés de calcul de la commission pour le client et/ou les produits sur la transaction.

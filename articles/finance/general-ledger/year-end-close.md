@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed15659d156427d0f591a63df7ed0a1ecd4f23c1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443260"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978409"
 ---
 # <a name="year-end-close"></a>Clôture de fin d’exercice
 
@@ -48,7 +47,7 @@ Dans la page **Paramètres de comptabilité** sous **Clôture d’exercice**:
 -   L’option **Supprimer les transactions de clôture d’exercice** sert à spécifier si la transaction d’ouverture générée par le système d’une clôture de fin d’exercice précédente doit être supprimée lors de la nouvelle exécution de la clôture de fin d’exercice. Si cette option est définie sur **Oui**, la transaction d’ouverture précédente est supprimée et une nouvelle transaction d’ouverture est créée sur la base des soldes actuels. Si cette option est définie sur **Non**, la transaction d’ouverture précédente est conservée et une transaction d’ouverture supplémentaire est créée pour transférer les soldes à partir des transactions d’ajustement validées après la clôture de fin d’exercice précédente.
 -   L’option **Créer des transactions de clôture lors du transfert** sert à créer des transactions de clôture dans l’exercice en cours de clôture afin de réduire à zéro les soldes des comptes de résultat. Si cette option est définie sur **Oui**, les transactions de clôture et d’ouverture sont toutes les deux créées. Si cette option est définie sur **Non**, seule la transaction d’ouverture est créée dans l’exercice suivant pour transférer les soldes. Les soldes de compte de résultat restent à la fin de l’exercice.
 -   L’option **Définir le statut de l’exercice sur définitivement clôturé** sert à affecter à l’exercice le statut Définitivement clôturé. Utilisez ce paramètre avec précaution, car toutes les périodes ayant le statut définitivement clôturé ne peuvent plus être ouvertes, ce qui empêche de valider les ajustements dans l’exercice. Il est recommandé de définir cette option sur **Non**.
--   L’option **Le N° document est obligatoire** sert à définir si un N° document est requis lors de l’exécution du processus de clôture de fin d’exercice. Il est recommandé de demander un N° document afin d’identifier facilement la transaction d’ouverture.
+-   L’option **Le N° de justificatif est obligatoire** sert à définir si un N° de justificatif est requis lors de l’exécution du processus de clôture de fin d’exercice. Il est recommandé de demander un N° de justificatif afin d’identifier facilement la transaction d’ouverture.
 
 Dans la page **Calendrier fiscal** :
 
@@ -78,7 +77,7 @@ Une fois les modèles de clôture de fin d’exercice créés, le processus de c
 
 Sélectionnez l’exercice pour lequel vous souhaitez exécuter le processus de clôture de fin d’exercice. S’il existe plusieurs périodes de clôture pour la dernière période de l’exercice, le champ **Nom de la période** devient disponible et vous pouvez choisir la période de clôture pour valider la transaction de clôture, si le paramétrage est défini de sorte à créer la transaction de clôture. 
 
-Entrez un N° document, lequel peut être obligatoire ou non, selon le paramétrage défini dans les paramètres de comptabilité. Le même N° document sera utilisé pour toutes les entités juridiques sélectionnées pour le processus de clôture de fin d’exercice. Le N° document n’est pas généré à l’aide d’une souche de numéros. Il est recommandé d’entrer un N° document, même s’il n’est pas obligatoire. L’entrée d’un N° document facilite la recherche de la transaction d’ouverture dans le nouvel exercice. Si un N° document n’est pas indiqué, le N° document sera vide pour la transaction d’ouverture. 
+Entrez un N° de justificatif, lequel peut être obligatoire ou non, selon le paramétrage défini dans les paramètres de comptabilité. Le même N° de justificatif sera utilisé pour toutes les entités juridiques sélectionnées pour le processus de clôture de fin d’exercice. Le N° de justificatif n’est pas généré à l’aide d’une souche de numéros. Il est recommandé d’entrer un N° de justificatif, même s’il n’est pas obligatoire. L’entrée d’un N° de justificatif facilite la recherche de la transaction d’ouverture dans le nouvel exercice. Si un N° document n’est pas indiqué, le N° de justificatif sera vide pour la transaction d’ouverture. 
 
 Si vous souhaitez annuler une clôture de fin d’exercice précédente pour l’exercice sélectionné, définissez l’option **Annuler la clôture précédente** sur **Oui**. La clôture de fin d’exercice sera annulée, mais le processus pourra être exécuté à nouveau à tout moment. Si vous annulez une clôture de fin d’exercice, la **Date de la dernière clôture de fin d’exercice** sera indisponible. 
 
@@ -88,6 +87,3 @@ Pour plus d’informations, voir [Clôture de la comptabilité en fin de périod
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529528"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977736"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installer, configurer et mettre à jour le portail client
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529528"
 Pour implémenter le portail client, vous devez disposer des licences suivantes :
 
 - **Portails Power Apps** – Cette licence est requise pour héberger le portail client. Les licences de portail sont délivrées selon l'utilisation. Pour plus d'informations, voir [Conditions des licences des portails Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Double écriture** – Vous devez disposer des licences nécessaires pour activer la double écriture pour les entités de Supply Chain Management. Pour plus d'informations, voir [Configuration requise pour la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Double écriture** – Vous devez disposer des licences nécessaires pour activer la double écriture pour les tables de Supply Chain Management. Pour plus d'informations, voir [Configuration requise pour la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dépendances à la double écriture et aux portails Power Apps
 
@@ -39,13 +38,13 @@ Le portail client dépend des portails Power Apps et de la double écriture, com
 
 ![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
 
-Contrairement aux autres fonctionnalités de Supply Chain Management, le modèle de portail client réside dans les portails Power Apps. Par conséquent, le portail client est limité par les fonctionnalités et capacités assurées par les portails Power Apps et les entités en double écriture.
+Contrairement aux autres fonctionnalités de Supply Chain Management, le modèle de portail client réside dans les portails Power Apps. Par conséquent, le portail client est limité par les fonctionnalités et capacités assurées par les portails Power Apps et les tables en double écriture.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuration requise pour activer le portail client
 
 Après vous être assuré que vous disposez des licences requises, vous pouvez configurer la double écriture comme décrit dans les [instructions de synchronisation initiale de la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
 
-Veillez à activer les mappages d'entités suivants en double écriture :
+Veillez à activer les mappages de table suivants en double écriture :
 
 - En-tête de commande client
 - Détails de la commande client
@@ -80,12 +79,9 @@ Pour savoir comment configurer et personnaliser le portail client, vous devez co
 - [Documentation des portails Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [Documentation de la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Pour gérer efficacement vos portails, vous devez comprendre les portails Power Apps et le cycle de vie de Common Data Service. Pour plus d’informations, voir les ressources suivantes (éventuellement en anglais) :
+Pour gérer efficacement vos portails, vous devez comprendre les portails Power Apps et le cycle de vie de Microsoft Dataverse. Pour plus d’informations, voir les ressources suivantes (éventuellement en anglais) :
 
 - [À propos du cycle de vie des portails](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [Mettre à niveau un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrer la configuration d'un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestion du cycle de vie des solutions : applications Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

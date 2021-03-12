@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3f376de75951e9468ce95a24e9393d9bdca66672
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d110c1371f743ca4df6d0f514a79e9f73503c75
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407936"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978199"
 ---
 # <a name="project-accounting-with-general-budget-reservations"></a>Comptabilité de projet avec des réservations budgétaires générales
 
@@ -60,6 +59,3 @@ Lorsque vous validez une réservation budgétaire générale pour un projet, un 
 3. Sélectionnez **Coûts engagés**. La page **Coûts engagés** s’affiche et indique les coûts engagés associés à la ligne sélectionnée.
 
     Les coûts engagés pour les réservations budgétaires générales sont basés sur le montant, peu importe si le coût engagé inclut une quantité et un coût unitaire distincts. La quantité du coût engagé est toujours 1.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

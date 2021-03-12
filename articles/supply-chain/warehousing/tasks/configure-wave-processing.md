@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters, whswavetablecreatenew, WHSWaveTable, WHSWaveAttributes, WHSKanbanWaveTable, WHSWaveTableListPage, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa193f6d62613893f9d5da4351d43a810dbf1596
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e22816b33739141fbcd188d631a07313db415959
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428276"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977286"
 ---
 # <a name="configure-wave-processing"></a>Configurer le traitement de la vague
 
@@ -61,6 +60,3 @@ Cette rubrique décrit la procédure de paramétrage des critères qui détermin
 Pour les commandes client et des commandes kanban, le stock doit être réservé avant que la commande ne soit libérée dans l'entrepôt. Sinon, les articles ou les lignes de répartition ne pourront pas être traités dans une vague. Pour les ordres de fabrication, vous avez également la possibilité de choisir Autoriser une réservation partielle. Par exemple, cela peut s'avérer utile si vous disposez des matières premières nécessaires pour démarrer une production, et si pouvez attendre jusqu'à ce que les matières premières supplémentaires deviennent disponibles pour terminer le processus. Si vous sélectionnez cette option, vous devez répéter manuellement le processus de libération dans l'entrepôt lorsque des matières premières supplémentaires deviennent disponibles.  
 25. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

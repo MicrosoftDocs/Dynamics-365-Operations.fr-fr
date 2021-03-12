@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427589"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977861"
 ---
 # <a name="define-production-flow-models"></a>Définir des modèles de flux de production
 
@@ -46,6 +45,3 @@ Les modèles de flux de production décrivent comment la capacité des cellules 
 8. Dans le champ Réaction de pénurie de capacité, sélectionnez une option.
     * Les options sont les suivantes : Ajourner - Ajourner la demande complète de l'événement de planification au prochain jour de production disponible, avec le débit disponible. Annuler - Terminer la planification automatique pour l'événement de planification et laisser les tâches connexes non planifiées.   Ajouter au jour demandé - Planifier les tâches demandées pour la période requise. Cela surcharge la cellule pour le jour en question et exige que le planificateur effectue un examen et une interaction manuelle.   Répartir sur les périodes disponibles - Distribuer les différentes tâches de l'événement de planification à tous les jours de production disponibles, à partir du premier jour disponible. La quantité de distribution minimum correspond à la quantité de tâches de kanban. La distribution affecte la quantité de planification minimale (quantité de kanban) à chaque jour doté de suffisamment de débit disponible.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

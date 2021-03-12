@@ -1,6 +1,6 @@
 ---
-title: Rôles de sécurité dans le secteur public
-description: Cet article décrit la fonctionnalité des rôles de sécurité du secteur public. Cette fonctionnalité inclut les rôles de chef de projet et d’acheteurs dans le secteur public.
+title: Rôles de sécurité (Secteur public)
+description: Cette rubrique fournit des informations sur les rôles de sécurité du secteur public, y compris les rôles de chef de projet et d'acheteur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: UserRequestListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 19721
 ms.assetid: e26a6d93-851e-46be-8543-de2798909350
 ms.search.region: Global
@@ -19,14 +18,14 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b22f48bc4324cec625bd465462ea92e6798ab99c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecba78ed0471e4540e7fa887edca357e6d9ec274
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407991"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978189"
 ---
-# <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité dans le secteur public
+# <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité (Secteur public)
 
 [!include [banner](../includes/banner.md)]
 
@@ -103,6 +102,3 @@ Une fois les utilisateurs créés, vous les affectez à des rôles sur la page *
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

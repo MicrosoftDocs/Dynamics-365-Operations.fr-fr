@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9acf6db9138a009527c6662f1cbb7e5fedc8778
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428099"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976861"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Paramétrer un modèle de travail pour les commandes fournisseur
 
@@ -61,6 +60,3 @@ Cette rubrique décrit comment paramétrer un modèle de travail simple à utili
 6. Dans le champ **ID classe de travail**, saisissez une valeur. Les instructions de prélèvement et de placement sont un ensemble. Chaque ensemble prélever/placer doit avoir la même classe de travail. Utilisez la même classe de travail que vous avez fournie pour l'instruction de prélèvement.  
 7. Sélectionnez **Enregistrer**. Notez que la case à cocher **Valide** est maintenant activée.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

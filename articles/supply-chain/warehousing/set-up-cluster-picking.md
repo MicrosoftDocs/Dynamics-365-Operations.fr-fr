@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: da11a474e1bb031fac26e04c91cbdbab5f62eb0b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428306"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977351"
 ---
 # <a name="set-up-cluster-picking"></a>Paramétrer le prélèvement de groupement
 
@@ -80,6 +79,3 @@ Lorsque la sélection du groupement est appliqué, la confirmation d'article est
 1. Dans une option de menu de l'appareil mobile, ouvrez l'écran de paramétrage pour la confirmation du travail : **Gestion des entrepôts** \> **Gestion des entrepôts** \> **Paramétrage** \>  **Appareil mobile** \> **Options de menu d'appareil mobile**.
 
 1. Dans l'option de menu de l'appareil mobile, ouvrez **Paramétrage de la confirmation du travail**. L'option **Confirmation du produit** permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443245"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976364"
 ---
 # <a name="reconcile-a-bank-account"></a>Rapprocher un compte bancaire
 
@@ -71,6 +70,3 @@ La fonctionnalité Annuler le rapprochement de relevé de bancaire vous permet d
 Les rapprochements de relevé bancaire ne peuvent être annulés que dans l’ordre chronologique dans lequel ils ont été entrés. Lorsqu’un rapprochement de relevé bancaire est annulé, de nouvelles transactions et corrections seront contrepassées et toutes les autres transactions seront marquées comme non rapprochées.
  
 Pour annuler le rapprochement de relevé bancaire, sélectionnez le relevé bancaire et sélectionnez **Relevé bancaire > Annuler le rapprochement bancaire**. Dans la page **Annuler le rapprochement bancaire**, renseignez les champs **Code motif**, **Commentaire du motif** et **Date d’annulation**. Sélectionnez **OK** pour démarrer l’annulation. Notez que la date d’annulation du relevé bancaire doit être égale ou postérieure à la date du relevé bancaire. Une fois le rapprochement de relevé de bancaire annulé, le champ **Date d’annulation** du relevé bancaire sera mis à jour avec la **Date d’annulation** fournie. Sélectionnez le bouton **Transactions** pour afficher les transactions pour lesquelles le rapprochement a été annulé.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0499f604049240a226b4002710817034598b1e66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529208"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977711"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Synchroniser directement les comptes provenant du module Sales sur les clients de Supply Chain Management
 
@@ -33,7 +32,7 @@ ms.locfileid: "4529208"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Avant d'utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Common Data Service pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Avant d'utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les comptes directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 
@@ -66,11 +65,11 @@ Les comptes sont gérés dans Sales et synchronisés sur Supply Chain Management
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect pour une solution de disponibilités pour Sales
 
-Le champ **Numéro de compte** est disponible sur la page **Compte**. Une clé naturelle et unique a été créée pour prendre en charge l'intégration. La fonction de clé naturelle de la solution de gestion de la relation client (CRM) peut affecter les clients utilisant déjà le champ **Numéro de compte**, mais qui n'utilisez pas des valeurs **Numéro de compte** uniques par compte. Actuellement, la solution d'intégration ne prend pas en charge ce cas.
+La colonne **Numéro de compte** est disponible sur la page **Compte**. Une clé naturelle et unique a été créée pour prendre en charge l'intégration. La fonction de clé naturelle de la solution de gestion de la relation client (CRM) peut affecter les clients utilisant déjà la colonne **Numéro de compte**, mais qui n’utilisez pas des valeurs **Numéro de compte** uniques par compte. Actuellement, la solution d'intégration ne prend pas en charge ce cas.
 
 Lorsqu'un compte est créé, si une valeur **Numéro de compte** n'existe pas encore, elle est automatiquement générée à l'aide d'une souche de numéros. La valeur est composée d'**ACC**, suivi d'une souche de numéros croissante et d'un suffixe de six caractères. Voici un exemple : **ACC-01000-BVRCPS**
 
-Lorsque la solution d'intégration pour Sales est appliquée, un script de mise à niveau définit le champ **Numéro de compte** sur les comptes existants dans Sales. S'il n'existe aucune valeur **Numéro de compte**, la souche de numéros qui a été mentionnée plus haut est utilisée.
+Lorsque la solution d’intégration pour Sales est appliquée, un script de mise à niveau définit la colonne **Numéro de compte** sur les comptes existants dans Sales. S'il n'existe aucune valeur **Numéro de compte**, la souche de numéros qui a été mentionnée plus haut est utilisée.
 
 ## <a name="preconditions-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -95,12 +94,12 @@ Lorsque la solution d'intégration pour Sales est appliquée, un script de mise 
 ## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
 
 > [!NOTE]
-> Les champs **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d'expédition** et **Mode de distribution** ne sont pas inclus dans les mises en correspondance par défaut. Pour mettre en correspondance ces champs, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles l'entité est synchronisée.
+> Les colonnes **Conditions de paiement**, **Conditions de transport**, **Conditions de livraison**, **Méthode d’expédition** et **Mode de distribution** ne sont pas inclus dans les mises en correspondance par défaut. Pour mettre en correspondance ces colonnes, vous devez paramétrer une mise en correspondance des valeurs spécifique aux données des organisations entre lesquelles la table est synchronisée.
 
 Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégration de données. 
 
 > [!NOTE]
-> La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Supply Chain Management.
+> La mise en correspondance indique quelles informations de la colonne sont synchronisées entre Sales et Supply Chain Management.
 
 ![Mise en correspondance de modèles dans l'intégration de données](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
@@ -117,6 +116,3 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 
 [Synchroniser les en-têtes et les lignes de facture client directement entre le module Supply Chain Management et Sales](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87455077c69834c9ace6409f4cc611ae6e14beb4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac4dcba153b8da3d62261326c3c4e169325c2210
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427679"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977386"
 ---
 # <a name="schedule-load-utilization"></a>Programmer l'utilisation de l'espace de chargement
 
@@ -72,6 +71,3 @@ Vous pouvez prévoir l'utilisation de l'espace en générant l'état **Utilisati
 
 4. Dans le champ **Type de charge**, sélectionnez **Volume** ou **Poids** pour spécifier l'unité opérationnelle d'entrepôt pour laquelle prévoir l'espace.
 5. Dans le champ **Paramétrage de l'utilisation de l'espace**, sélectionnez le paramétrage de l'utilisation de l'espace sur lequel la projection doit être basée.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
