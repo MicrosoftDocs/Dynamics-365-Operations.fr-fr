@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: 47fa7edeba81d826a00668a2da74113f552437f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428350"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974258"
 ---
 # <a name="set-up-rate-masters"></a>Paramétrer des tables maître des taux
 
@@ -97,6 +96,3 @@ Cette procédure décrit le processus de paramétrage des données principales d
     * Spécifiez le code postal à partir duquel cette affectation de base de taux doit être valide.
 10. Dans le champ **Région du pays d'enlèvement**, saisissez « USA ».
 11. Sélectionnez **Enregistrer**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

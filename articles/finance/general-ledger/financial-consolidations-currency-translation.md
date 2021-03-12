@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443289"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975762"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d’ensemble de consolidations financières et conversion de devises
 
@@ -35,7 +34,7 @@ Cette rubrique s’adresse aux utilisateurs et aux consultants fonctionnels, et 
 > Le terme *entité juridique* est utilisée dans Finance, et le terme *société* est utilisée dans l’outil États financiers. Ces deux termes sont utilisés dans cette rubrique. Toutefois, pour les besoins de cette rubrique, leurs significations sont identiques.
 
 ## <a name="audience"></a>Public
-Cette rubrique s’adresse aux utilisateurs chargés des finances et de la comptabilité et aux consultants en application qui souhaitent utiliser Finance and Operations et l’outil États financiers pour consolider les données de plusieurs sociétés et dans plusieurs devises.
+Cette rubrique s’adresse aux utilisateurs chargés des finances et de la comptabilité et aux consultants en application qui souhaitent utiliser Finance and Reporting et l’outil États financiers pour consolider les données de plusieurs sociétés et dans plusieurs devises.
 
 ## <a name="approach"></a>Approche
 Finance utilise une entité juridique distincte pour traiter une consolidation. Il prend en charge la consolidation d’une seule instance mais fournit une option permettant de regrouper les données d’autres sources. Le processus de consolidation doit être exécuté chaque fois que des modifications sont apportées aux entités juridiques source.
@@ -125,7 +124,7 @@ Vous pouvez définir la date d’effet de la règle d’élimination et sa date 
 
 Après avoir défini les propriétés de base, sélectionnez **Lignes** pour définir les règles de traitement réelles. Il existe deux options pour les éliminations : vous pouvez éliminer le montant de modification net ou définir un montant fixe.
 
-Sélectionnez les comptes source. Vous pouvez utiliser un astérisque (\*) comme caractère générique. Par exemple, **1\*** sélectionne tous les comptes qui commencent par **1** comme source de données pour la répartition.
+Sélectionnez les comptes source. Vous pouvez utiliser un astérisque (\*) comme caractère générique. Par exemple, **1\**_ sélectionne tous les comptes qui commencent par _* 1** comme source de données pour la répartition.
 
 Après avoir sélectionné les comptes source, utilisez le champ **Spécification de compte** pour spécifier le compte utilisé dans la société de destination. Sélectionnez **Source** pour utiliser le même compte principal que celui défini dans le compte source. Si vous sélectionnez **Défini par l’utilisateur**, vous devez spécifier un compte de destination.
 
@@ -182,6 +181,3 @@ Voici quelques-uns des scénarios de consolidation pris en charge par l’outil 
 
 ## <a name="generating-consolidated-financial-statements"></a>Génération de tableaux d’analyse consolidés
 Pour plus d’informations sur les scénarios où vous pouvez générer des tableaux d’analyse consolidés, voir [Générer des tableaux d’analyse consolidés](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

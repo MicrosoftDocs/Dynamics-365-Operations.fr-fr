@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: 24d57982981ca7b72e43c086ace381e420acb06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672442"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975684"
 ---
 # <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
@@ -45,9 +44,11 @@ Vous pouvez trouver le menu **États financiers** dans les endroits suivants :
 Pour créer et générer des états financiers pour une entité juridique, vous devez paramétrer les informations suivantes pour cette entité juridique :
 
 -   Calendrier fiscal
--   Comptabilité
--   Plan de comptes
+-   Registre
+-   Plan comptable
 -   Devise
+-   Imputer une transaction sur au moins un compte
+-   MainAccount est répertorié dans la colonne Sélectionné dans **Comptabilité > Configuration comptabilité > Configuration Financial Reporting**
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Accorder un accès sécurisé à Financial Reporting
 Les fonctions de génération d’états financiers sont disponibles aux utilisateurs ayant les droits et les devoirs appropriés par l’intermédiaire de leurs rôles de sécurité. Les sections suivantes décrivent ces privilèges et responsabilités, ainsi que les rôles associés.
@@ -173,6 +174,3 @@ Problème 3 : vous pouvez continuer au-delà de la page de connexion ClickOnce
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Afficher les états financiers](view-financial-reports.md)
 - [Définitions d’arborescence de génération d’états dans les états financiers](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

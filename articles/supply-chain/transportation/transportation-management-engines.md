@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428257"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973883"
 ---
 # <a name="transportation-management-engines"></a>Moteurs de gestion de transport
 
@@ -89,7 +88,7 @@ Les métadonnées des moteurs de gestion de transport sont configurées différe
 | **Moteur de zone**                                | Nécessite la configuration des métadonnées directement dans la table maître des zones.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Moteur de temps de transit** et **Moteur de kilométrage** | Récupère les métadonnées directement depuis l'écran paramétrage de la configuration du moteur de kilométrage.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Exemple de métadonnées pour un moteur de frais** Le moteur de gestion du transport nécessite l'identification de l'adresse d'origine, l'état et le pays/la région de destination et les points de départ et d'arrivée de l'expédition. Selon ces exigences, les métadonnées ressemblent aux données du tableau suivant. Le tableau répertorie également des informations sur le type de données d'entrée obligatoire.
+  **Exemple de métadonnées pour un moteur de frais** Le moteur de gestion du transport nécessite l'identification de l'adresse d'origine, l'état et le pays/la région de destination et les points de départ et d'arrivée de l'expédition. Selon ces exigences, les métadonnées ressemblent aux données du tableau suivant. Le tableau répertorie également des informations sur le type de données d'entrée obligatoire.
 -   Définissez ces informations dans **Gestion du transport** &gt; **Paramétrage** de la page **Type de base de taux**.
 
 | Ordre | Nom                          | Type de champ | Type de données | Type de recherche    | Obligatoire |
@@ -99,6 +98,3 @@ Les métadonnées des moteurs de gestion de transport sont configurées différe
 | 3        | Code postal du point de départ | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 4        | Code postal du point d'arrivée   | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 5        | Pays de destination           | Affectation | Chaîne    | Pays/Région |           |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

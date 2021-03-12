@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427845"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974783"
 ---
 # <a name="troubleshoot-sales-orders"></a>Résoudre les problèmes liés aux commandes client
 
@@ -59,6 +58,8 @@ Vous pouvez créer une commande fournisseur à partir d’une commande client. P
 Vous ne pouvez annuler que les commandes client et les ordres de retour qui se trouvent dans l'état *Créé*. Pour plus d'informations, voir [Annuler un ordre de retour](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Lorsque j'essaie d'annuler une commande client, je reçois le message d'erreur "Impossible de supprimer les réservations, car un travail qui a été créé repose sur ces réservations".
+
+Code d'erreur : WAX4661
 
 Si le travail est associé à une commande client, vous ne pouvez pas annuler la commande client tant que le travail n'est pas annulé et contrepassé. Cette exigence s'applique même si le travail associé à la commande client est clôturé.
 
@@ -110,7 +111,4 @@ Supply Chain Management ne prend actuellement pas en charge le calcul des commis
 
 L'élément d'offre groupée n'est pas disponible pour la commande fournisseur car, si vous examinez les lignes de commande client pour l'élément d'offre groupée, vous remarquerez que la quantité est *0* (zéro) et l'état est *Annulé*. Ce comportement est fait exprès. La commande client n'achète que les composants de l'élément d'offre groupée. Elle n'achète pas l'élément d'offre groupée lui-même.
 
-Si vous devez acheter une offre groupée, déterminez si vous devez la marquer comme élément d'offre groupée, car cette fonctionnalité est en fait conçue pour les scénarios de constatation du produit. Pour plus d'informations sur les éléments d'offre groupée, voir [Offres groupées](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Si vous devez acheter une offre groupée, déterminez si vous devez la marquer comme élément d'offre groupée, car cette fonctionnalité est conçue pour les scénarios de constatation du produit. Pour plus d'informations sur les éléments d'offre groupée, voir [Offres groupées](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).

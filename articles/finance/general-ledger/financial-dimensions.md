@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DimensionDetails, DimensionValueDetails, SysTranslationDetail
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 25871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0715d3e4e4cb167c55d9c7d98cdf599187bf3b43
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 455b676dcd186b84a0c429c1b0bab85796c0dbff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443287"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975737"
 ---
 # <a name="financial-dimensions"></a>Dimensions financières
 
@@ -140,6 +139,3 @@ Pour plus d’informations, voir les rubriques suivantes :
 
 - [Définir des dimensions financières](tasks/define-financial-dimensions.md)
 - [Tenir à jour les modèles par défaut de dimension financière](tasks/maintain-financial-dimension-default-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

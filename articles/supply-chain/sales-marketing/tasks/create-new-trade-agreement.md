@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43426e77c30e46f4dd1cc117c38cf6ba5437655b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e49793fc7f6b3f37bafae05770d4b23d24171329
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427693"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974883"
 ---
 # <a name="create-a-new-trade-agreement"></a>Créer un accord commercial
 
@@ -71,8 +70,10 @@ Cette procédure vous indique comment créer un accord commercial dans lequel vo
 5. Fermez la page.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
+
+### <a name="whitepaper"></a>Livre blanc
+Pour plus d’informations, téléchargez le livre blanc suivant (écrit pour prendre en charge AX2012, mais s’applique toujours à Dynamics 365 Supply Chain Management)
+- [Accords commerciaux](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
 ### <a name="community-blogs"></a>Blogs de la communauté
 - [Prix de vente dans Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

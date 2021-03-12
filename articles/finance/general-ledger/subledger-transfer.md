@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: de9328f69938151c5558d41263d36b873d117e4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645168"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975481"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transfert de la sous-comptabilité vers la comptabilité
 
@@ -42,6 +41,3 @@ Les options suivantes sont disponibles pour le transfert par lots de la comptabi
 Dans la version 10.0.8, des améliorations ont été apportées pour améliorer les performances de l’option Asynchrone. Cette fonctionnalité est activée sous le nom **Optimisation des performances du transfert de la comptabilité auxiliaire vers la comptabilité**. 
  
 Cette fonctionnalité améliore le transfert de données de la comptabilité auxiliaire vers la comptabilité. Elle rend le processus plus efficace et regroupe des ensembles de transactions plus petites à transférer. Elle offre une utilisation plus efficace du serveur de traitement par lots. Pour que l’option de transfert Asynchrone fonctionne avec cette fonctionnalité, le serveur de traitement par lots doit être configuré, en ligne et fonctionnel. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

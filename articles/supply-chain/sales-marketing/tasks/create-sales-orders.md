@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427692"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974808"
 ---
 # <a name="create-sales-orders"></a>Créer une commande client
 
@@ -68,6 +67,3 @@ Les produits vendus par votre organisation peuvent se présenter sous différent
     La page **Totaux** affiche des détails sur la commande entière. Cela inclut le montant du sous-total (la somme des montants nets de toutes les lignes ajustée pour les éventuelles remises de ligne), le montant total de la facture (le montant du sous-total ajusté pour la remise de niveau commande), les frais et les taxes, la situation de limite de crédit du client, etc. Le montant de la facture correspond au montant qui s'affiche sur la facture du client.  
     
 3. Cliquez sur **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

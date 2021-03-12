@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 97ac33d28a49ad0f2a3956ad65b159e4ec4785c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a595ca4ff9f6753631303b656d56735320a22a69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427593"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975083"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Définir une date d'expiration pour une version de flux de production
 
@@ -41,6 +40,3 @@ Pour terminer la validité et le traitement d'une version de flux de production 
 6. Entrez une date et une heure dans le champ Date d'expiration.
     * Pour la date d'expiration, une nouvelle version ne démarre pas ni n'est activée. Il n'est également plus possible de créer ou de démarrer des tâches pour ce flux de production. Vous pouvez toujours exécuter les tâches commencées après la date d'expiration.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
