@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528947"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994043"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management
 
@@ -33,9 +32,9 @@ ms.locfileid: "4528947"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Avant d'utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Common Data Service pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Avant d'utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les entités Contact (Contacts) et Contact (Clients) directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
+Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les tables Contact (Contacts) et Contact (Clients) directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
@@ -47,7 +46,7 @@ La solution Prospect en disponibilités utilise la fonction d'intégration de do
 
 Pour accéder à des modèles disponibles, ouvrez [Centre d'administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
 
-Les modèles et tâches sous-jacentes suivants sont utilisés pour synchroniser les entités Contacts (Contacts) de Sales avec les entités Contacts (Clients) de Supply Chain Management :
+Les modèles et tâches sous-jacentes suivants sont utilisés pour synchroniser les tables Contacts (Contacts) de Sales avec les tables Contacts (Clients) de Supply Chain Management :
 
 - **Noms des modèles dans l'intégration des données**
 
@@ -63,9 +62,9 @@ La tâche suivante de synchronisation est requise avant que la synchronisation d
 
 ## <a name="entity-sets"></a>Ensembles d'entités
 
-| Ventes    | Gestion de la chaîne d'approvisionnement |
+| Vente    | Gestion de la chaîne d'approvisionnement |
 |----------|------------------------|
-| Contacts | Contacts CDS           |
+| Contacts | Contacts Dataverse           |
 | Contacts | Clients V2           |
 
 ## <a name="entity-flow"></a>Flux d'entité
@@ -79,13 +78,13 @@ Un contact dans Sales peut devenir un contact ou un client dans Supply Chain Man
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect pour une solution de disponibilités pour Sales
 
-Un nouveau champ **Client actif** a été ajouté au contact. Ce champ permet de différencier les contacts qui disposent d'activités commerciales et les contacts qui n'ont pas d'activités commerciales. **Client actif** est défini sur **Oui** uniquement pour les contacts qui associés à des devis, des commandes, ou des factures. Seuls ces contacts sont synchronisés avec Supply Chain Management comme clients.
+Une nouvelle colonne **Client actif** a été ajoutée au contact. Cette colonne permet de différencier les contacts qui disposent d’activités commerciales et les contacts qui n’ont pas d’activités commerciales. **Client actif** est défini sur **Oui** uniquement pour les contacts qui associés à des devis, des commandes, ou des factures. Seuls ces contacts sont synchronisés avec Supply Chain Management comme clients.
 
-Un nouveau champ **IsCompanyAnAccount** a été ajouté au contact. Ce champ indique si un contact est lié à une société (compte parent/contact) du type **Compte**. Ces informations servent à identifier les contacts qui doivent être synchronisés avec Supply Chain Management comme contacts.
+Une nouvelle colonne **IsCompanyAnAccount** a été ajoutée au contact. Cette colonne indique si un contact est lié à une société (compte parent/contact) du type **Compte**. Ces informations servent à identifier les contacts qui doivent être synchronisés avec Supply Chain Management comme contacts.
 
-Un nouveau champ **Numéro de contact** a été ajouté au contact pour garantir une clé naturelle et unique pour l'intégration. Lorsqu'un nouveau contact est créé, une valeur **Numéro de contact** est automatiquement générée à l'aide d'une souche de numéros. La valeur est composée de **CON**, suivi d'une souche de numéros croissante et d'un suffixe de six caractères. Voici un exemple : **CON-01000-BVRCPS**
+Une nouvelle colonne **Numéro de contact** a été ajoutée au contact pour garantir une clé naturelle et unique pour l’intégration. Lorsqu'un nouveau contact est créé, une valeur **Numéro de contact** est automatiquement générée à l'aide d'une souche de numéros. La valeur est composée de **CON**, suivi d'une souche de numéros croissante et d'un suffixe de six caractères. Voici un exemple : **CON-01000-BVRCPS**
 
-Lorsque la solution d'intégration pour Sales est appliquée, un script de mise à niveau définit le champ **Numéro de contact** pour des contact existants à l'aide de la souche de numéros qui a été précédemment mentionnée. Le script de mise à niveau définit également le champ **Client actif** sur **Oui** pour tous les contacts qui disposent d'activités commerciales.
+Lorsque la solution d’intégration pour Sales est appliquée, un script de mise à niveau définit la colonne **Numéro de contact** pour des contact existants à l’aide de la souche de numéros qui a été précédemment mentionnée. Le script de mise à niveau définit également la colonne **Client actif** sur **Oui** pour tous les contacts qui disposent d’activités commerciales.
 
 ## <a name="in-supply-chain-management"></a>Dans Supply Chain Management
 
@@ -95,7 +94,7 @@ Les contacts sont étiquetés à l'aide de la propriété **IsContactPersonExter
 
 ### <a name="contact-to-customer"></a>Contact vers client
 
-- **CustomerGroup** est obligatoire dans Supply Chain Management. Pour éviter toute erreur de synchronisation, vous pouvez spécifier une valeur par défaut dans la mise en correspondance. Cette valeur par défaut est alors utilisée si le champ est laissé vide dans Sales.
+- **CustomerGroup** est obligatoire dans Supply Chain Management. Pour éviter toute erreur de synchronisation, vous pouvez spécifier une valeur par défaut dans la mise en correspondance. Cette valeur par défaut est alors utilisée si la colonne est laissée vide dans Sales.
 
     Le modèle de valeur par défaut est **10**.
 
@@ -118,7 +117,7 @@ Les contacts sont étiquetés à l'aide de la propriété **IsContactPersonExter
 Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégration de données. 
 
 > [!NOTE]
-> La mise en correspondance indique quelles informations du champ sont synchronisées entre Sales et Supply Chain Management.
+> La mise en correspondance indique quelles informations de la colonne sont synchronisées entre Sales et Supply Chain Management.
 
 ### <a name="contact-to-contact"></a>Contact vers contact
 
@@ -142,6 +141,3 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 [Synchroniser les en-têtes et les lignes de facture client directement entre le module Supply Chain Management et Sales](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

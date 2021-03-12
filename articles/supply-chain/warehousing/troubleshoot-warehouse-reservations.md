@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6151797001b1ccdb7e371c70b90c304a5ab422d8
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a1ea23059d56ebf387a95a1378e2a3cd47556d5f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645117"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993857"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Résoudre des problèmes de réservations dans la gestion des entrepôts
 
@@ -78,6 +77,3 @@ Toutefois, lorsque vous utilisez un article qui a une hiérarchie de réservatio
 Ce comportement est fait exprès. Si vous mettez une dimension au-dessus de la dimension **Emplacement** dans la hiérarchie de réservation, elle doit être spécifiée avant le lancement vers l'entrepôt. Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité lors des versions vers l'entrepôt à partir de l'atelier de planification de la charge. Les quantités partielles ne peuvent pas être libérées si une ou plusieurs dimensions au-dessus de **Emplacement** ne sont pas spécifiés.
 
 Pour plus d’informations, voir [Stratégie flexible de réservation de dimension au niveau de l’entrepôt](flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

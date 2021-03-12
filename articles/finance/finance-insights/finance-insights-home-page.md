@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995088"
 ---
 # <a name="finance-insights-home-page-preview"></a>Page d’accueil Informations financières (version préliminaire)
 
@@ -67,7 +66,7 @@ Des modifications seront apportées à Microsoft Dynamics 365 Finance, Microsoft
 - L’administrateur du client Active Directory devra autoriser l’application AI Builder à accéder au lac de données.
 - La fonctionnalité sera activée dans Dynamics 365.
 
-Une connaissance du processus de création et de gestion des ressources dans Azure, Common Data Service et LCS vous sera utile pendant que vous terminez ce processus.
+Une connaissance du processus de création et de gestion des ressources dans Azure, Microsoft Dataverse et LCS vous sera utile pendant que vous terminez ce processus.
 
 ## <a name="configure-finance-insights"></a>Configurer Finance Insights
 
@@ -130,6 +129,3 @@ Veuillez envoyer un e-mail à [Informations sur les paiements des clients (aper�
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
 Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

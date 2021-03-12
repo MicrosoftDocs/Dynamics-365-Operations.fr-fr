@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443232"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994303"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Partager des configurations d’états électroniques (ER) dans Regulatory Configuration Services (RCS)/le référentiel global avec des organisations externes.
 
@@ -50,7 +49,7 @@ Suivez ces étapes pour vérifier que la configuration que vous souhaitez partag
 
 1. Dans l’espace de travail **États électroniques**, sélectionnez **Référentiels** comme fournisseur de configuration.
 
-    ![Fournisseurs de configuration](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![Fournisseurs de configuration](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Select **Référentiel global** \> **Ouvrir**.
 3. Recherchez la configuration à partager. Vous pouvez utiliser le champ de filtre pour affiner votre recherche. Si vous ne trouvez pas la configuration dans le référentiel global, suivez les étapes indiquées dans [Créer et télécharger une nouvelle version d’une configuration d’état électronique (ER)](rcs-global-repo-upload.md).
@@ -64,17 +63,12 @@ Une fois qu’une configuration a été créée sous votre fournisseur de config
 3. Sélectionnez la configuration à partager.
 4. Dans le raccourci **Partagé avec**, sélectionnez **Organisation**.
 
-    ![Raccourci Partagé avec](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Raccourci Partagé avec](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Dans la boîte de dialogue, entrez le nom de domaine de l’organisation externe, puis sélectionnez **OK**.
 
-    ![Boîte de dialogue Partager la version de la configuration avec l’organisation externe](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Boîte de dialogue Partager la version de la configuration avec l’organisation externe](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 La configuration est partagée avec l’organisation externe et est disponible pour cette organisation dans le référentiel global. De là, elle peut être importée dans l’instance de RCS de l’organisation ou dans ses instances des applications Finance and Operations.
 
-![Configuration partagée avec une organisation externe](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. Pour annuler le partage d’une configuration qui a été précédemment partagée avec une organisation externe, sélectionnez la configuration et cliquez sur **Annuler le partage**, puis cliquez sur **OK**
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

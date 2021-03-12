@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 593ab5b45cc0c2e1a8b876aa89de014fd9df1a13
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b82cc7e4077a1bd50eab30f234c2f63c79e81d84
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443251"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994688"
 ---
 # <a name="close-the-fiscal-year"></a>Clôturer l’exercice
 
@@ -35,19 +34,19 @@ Cette procédure guide l’utilisateur tout au long du processus de clôture de 
 2. Développez la section **Clôture d’exercice**.
 3. Sélectionnez « Oui » ou « Non » pour l’option **Supprimer les transactions de clôture d’exercice lors du transfert**.
     
-    Si l’exercice a déjà été clôturé et la clôture de fin d’exercice est réexécutée, ce paramètre est important. S’il est défini sur Oui, le N° document pour la clôture de fin d’exercice précédente est supprimé, et un nouveau N° document est créé pour tous les soldes d’ouverture de compte. S’il est défini sur Non, le N° document précédent est conservé et un nouveau N° document est créé uniquement pour ajuster les entrées qui ont été validées après la dernière clôture de fin d’exercice.
+    Si l’exercice a déjà été clôturé et la clôture de fin d’exercice est réexécutée, ce paramètre est important. S’il est défini sur Oui, le justificatif pour la clôture de fin d’exercice précédente est supprimé, et un nouveau justificatif est créé pour tous les soldes d’ouverture de compte. S’il est défini sur Non, le justificatif précédent est conservé et un nouveau justificatif est créé uniquement pour ajuster les entrées qui ont été validées après la dernière clôture de fin d’exercice.
 
 4. Sélectionnez « Oui » ou « Non » pour l’option **Créer des transactions de clôture lors du transfert**.
 
-    Si l’option est définie sur Oui, deux transactions sont créées. Un N° document est créé dans l’exercice en cours de clôture pour remettre les soldes des comptes généraux à zéro et un second N°document est créé dans l’exercice suivant pour les soldes d’ouverture. Si l’option est définie sur Non, un N° document unique est créé dans l’exercice suivant pour les soldes d’ouverture.  
+    Si l’option est définie sur Oui, deux transactions sont créées. Un justificatif est créé dans l’exercice en cours de clôture pour remettre les soldes des comptes généraux à zéro et un second justificatif est créé dans l’exercice suivant pour les soldes d’ouverture. Si l’option est définie sur Non, un justificatif unique est créé dans l’exercice suivant pour les soldes d’ouverture.  
 
 5. Sélectionnez « Oui » ou « Non » selon que vous souhaitez définir le statut de l’exercice sur l’option **Définitivement clôturé**.
 
     Si l’option est définie sur Oui, le statut de l’exercice est défini sur Clôturé définitivement.  Comme une année définitivement clôturée ne peut pas être rouverte, il est recommandé de définir cette option sur Non.  
 
-6. Sélectionnez « Oui » ou « Non » pour l’option **Numéro de document doit être renseigné lors de la clôture de fin d’exercice**.
+6. Sélectionnez « Oui » ou « Non » pour l’option **Numéro de justificatif doit être renseigné lors de la clôture de fin d’exercice**.
 
-    Si l’option est définie sur Oui, un N° document doit être entré manuellement lors du processus de clôture de fin d’exercice. Une souche de numéros n’est pas utilisée pour générer ce N° document. Il est recommandé de définir cette option sur Oui.  
+    Si l’option est définie sur Oui, un N° de justificatif doit être entré manuellement lors du processus de clôture de fin d’exercice. Une souche de numéros n’est pas utilisée pour générer ce numéro de justificatif. Il est recommandé de définir cette option sur Oui.  
 
 7. Fermez la page.
 8. Accédez à **Comptabilité > Clôturer la période > Clôture de fin d’exercice**.
@@ -79,10 +78,7 @@ Cette procédure guide l’utilisateur tout au long du processus de clôture de 
 
 20. Cliquez sur **OK**.
 21. Sélectionnez l’exercice pour lequel exécuter la clôture de fin d’exercice.
-22. Dans le champ **N° document**, tapez une valeur. Il est recommandé d’inclure l’exercice dans le n° document pour faciliter la recherche du document de clôture de fin d’exercice créé.  
+22. Dans le champ **Justificatif**, tapez une valeur. Il est recommandé d’inclure l’exercice dans le n° de justificatif pour faciliter la recherche du justificatif de clôture de fin d’exercice créé.  
 23. La clôture de fin d’exercice s’exécute par défaut en mode de traitement par lots. Il est recommandé d’exécuter les processus longs en mode de traitement par lots. Il s’agit généralement de l’un de ces processus, c’est la raison pour laquelle il est recommandé par défaut d’utiliser le mode de traitement par lots.  
 24. Cliquez sur **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

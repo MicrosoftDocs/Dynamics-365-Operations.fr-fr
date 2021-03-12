@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 457be741dfd3b44cb963db37857d6a7bceecc14e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443249"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994663"
 ---
 # <a name="create-accrual-schemes"></a>Créer des plans de régularisation
 
@@ -33,14 +32,11 @@ Cette rubrique explique comment créer un plan de régularisation. La société 
 2. Sélectionnez **Nouveau**.
 3. Entrez une valeur dans le champ **Identification de la régularisation**.
 4. Entrez une valeur dans le champ **Description du plan de régularisation**.
-5. Dans le champ **Débit**, spécifiez les valeurs souhaitées. Le compte principal défini remplacera le compte principal de débit dans la ligne de N° document de journal et il sera également utilisé pour la contrepassation des différés en fonction des transactions de régularisation des comptes.  
+5. Dans le champ **Débit**, spécifiez les valeurs souhaitées. Le compte principal défini remplacera le compte principal de débit dans la ligne de justificatif de journal et il sera également utilisé pour la contrepassation des différés en fonction des transactions de régularisation des comptes.  
 6. Dans le champ **Crédit**, spécifiez les valeurs souhaitées. Le compte principal défini remplacera le compte principal de crédit dans la ligne de N° document de journal et il sera également utilisé pour la contrepassation des différés en fonction des transactions de régularisation des comptes.  
-7. Dans le champ **N° document**, sélectionnez la manière dont vous souhaitez que le N° document soit déterminé lorsque les transactions sont validées.
+7. Dans le champ **Justificatif**, sélectionnez la manière dont vous souhaitez que le justificatif soit déterminé lorsque les transactions sont validées.
 8. Dans le champ **Description**, entrez une valeur pour décrire les transactions qui seront validées.
 9. Dans le champ **Fréquence**, sélectionnez la fréquence à laquelle les transactions doivent se produire.
 10. Entrez un nombre dans le champ **Occurrences par période**.
 11. Dans le champ **Valider les transactions**, sélectionnez à quel moment les transactions doivent être validées, comme **Mensuel**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

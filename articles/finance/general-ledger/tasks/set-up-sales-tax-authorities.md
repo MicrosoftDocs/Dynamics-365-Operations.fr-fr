@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63b1b023181e1ead16571102c524a61edfdabdca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f4847b5f3f50cc74c5b4854e1f0daedd64785baf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443096"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994563"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Paramétrage des administrations fiscales
 
@@ -41,6 +40,3 @@ Les administrations fiscales sont des entités auprès desquelles les taxes doiv
 10. Entrez un nombre dans le champ Arrondi.
 11. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

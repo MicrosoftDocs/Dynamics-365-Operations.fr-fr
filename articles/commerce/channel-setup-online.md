@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 89a28d6d4f435b9cf0c39afc64c3caaf0b24ba19
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4412419"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993626"
 ---
 # <a name="set-up-an-online-channel"></a>Configurer un canal en ligne
 
@@ -134,6 +133,3 @@ L'image suivante montre un exemple de configuration d'affectation de groupe d'ex
 [Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
 
 [Connecteur de paiement Dynamics 365 pour Adyen](../retail/dev-itpro/adyen-connector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

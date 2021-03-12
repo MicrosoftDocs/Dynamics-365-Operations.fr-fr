@@ -10,17 +10,16 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d37b2b785dd29850dcd02d0905e5872445384990
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412246"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993726"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Activer et configurer les frais automatiques par canal
 
@@ -77,7 +76,7 @@ Après avoir activé la fonctionnalité **Activer le filtrage des frais automati
 
 Pour définir les frais automatiques par canal dans Commerce, procédez comme suit.
 
-1. Accédez à  **Comptabilité client \> Paramétrage des frais \> Frais automatiques**.
+1. Accédez à **Comptabilité client \> Paramétrage des frais \> Frais automatiques**.
 1. Dans le volet gauche, dans le champ **Niveau**, sélectionnez **En-tête** ou **Ligne**, en fonction des besoins de votre entreprise.
 1. Dans le champ **Code du canal de vente au détail**, sélectionnez le code de canal approprié (par exemple, **Table** ou **Groupe**). Si le paramètre par défaut, **Tout**, est utilisé, les règles de facturation sont appliquées à tous les canaux.
 
@@ -128,6 +127,3 @@ En sélectionnant **Options de transaction \>Frais \>Gérer les frais** dans l'a
 [Frais automatiques avancés omnicanaux](omni-auto-charges.md)
 
 [Calcul au prorata des frais d'en-tête pour les lignes de vente correspondantes](pro-rate-charges-matching-lines.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a21c315aa9a7193c20e4184da20d4d6d38386c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 82af2a810df4ea0ab8880eb2215e22e5818e178d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443209"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995038"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 175 %
 
@@ -75,19 +74,16 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 35 %.    |
 
-La méthode d’amortissement régressif de 175 % divise 175 % par le nombre d’années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
+La méthode d'amortissement régressif de 175 % divise 175 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable                  | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| Année 1 | (11 000 – 1 000) × 35 % = 3 500                | 11 000 – 3 500 = 7 500      | 11 000 – 1 000 – 3 500 = 6 500        |
-| Année 2 | 6 500 × 35 % = 2 275                           | 7 500 – 2 275 = 5 225       | 6 500 – 2 275 = 4 225                 |
-| Année 3 | 4 225 × 35 % = 1 478,75                        | 5 225 – 1 478,75 = 3 746,25 | 4 225 – 1 478,75 = 2 746,25           |
+| Année 1 | (11 000 – 1 000) × 35 % = 3 500                | 11 000 – 3 500 = 7 500      | 11 000 – 1 000 – 3 500 = 6 500        |
+| Année 2 | 6 500 × 35 % = 2 275                           | 7 500 – 2 275 = 5 225       | 6 500 – 2 275 = 4 225                 |
+| Année 3 | 4 225 × 35 % = 1 478,75                        | 5 225 – 1 478,75 = 3 746,25 | 4 225 – 1 478,75 = 2 746,25           |
 
 > [!NOTE] 
 > Généralement, si le montant calculé via la méthode d’amortissement dégressif de 175 % est inférieur au montant calculé via la méthode linéaire, passer à la méthode linéaire pour la durée de vie restante reste possible.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

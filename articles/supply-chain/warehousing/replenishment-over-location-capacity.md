@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f94053920b475ef9190b5ac65a5f9ca01dcd4a1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996121"
 ---
 # <a name="replenishment-over-location-capacity"></a>Réapprovisionnement sur la capacité de l’emplacement
 
@@ -408,6 +407,3 @@ Vous pouvez maintenant prélever la commande client 2. Elle a été débloquée
 - Vous pouvez remplacer manuellement la disponibilité du travail de réapprovisionnement pour chaque en-tête de travail à partir de la page **Détails du travail** si vous le souhaitez.
 - Lorsque le système définit la disponibilité du travail de réapprovisionnement, il prend en compte tout stock qui se trouve déjà à l’emplacement avant la fin des travaux
 - Chaque travail de commande client est lié à un travail de réapprovisionnement spécifique. Il n’existe pas de fonctionnalité de disponibilité du travail de vente correspondante.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

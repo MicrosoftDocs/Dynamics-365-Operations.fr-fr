@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3302738a05852dfb37f8266074386d9f2998994d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbee870848010f2dce9b6a5e2c6179849191f9cf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443171"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995263"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Configurer les règles de correspondance de rapprochement bancaire
 
@@ -49,6 +48,3 @@ Par défaut, les règles de mise en correspondance correspondent au premier docu
 | **Faire correspondre au document bancaire**       | Permet de créer des critères afin de spécifier comment les documents bancaires et les lignes de relevé bancaire sont mis en correspondance lorsque la règle de rapprochement est exécutée à partir de la page **Feuille de calcul de rapprochement bancaire**. Les lignes de transaction sont sélectionnées en fonction des critères supplémentaires paramétrés dans les organisateurs.                                | **Étape 1 : définir la règle de correspondance** : sélectionnez des critères pour spécifier les relevés bancaires qui doivent être mis en correspondance avec les transactions bancaires Finance. **Étape 2 (facultatif) : sélectionner les lignes de relevés pour exécuter les règles de correspondance sur cette base :** Appliquer un filtre sur les lignes de relevé pour exécuter les règles.                                                                                                                                                                                                                                                                                                               |
 | **Effacer les lignes de relevés de contrepassation** | Permet de créer des critères pour spécifier comment les lignes de relevé de contrepassation doivent être supprimées de la page **Feuille de calcul de rapprochement bancaire** lorsque la règle de rapprochement est exécutée. Cette option est utilisée lorsqu’une erreur bancaire survient et que deux lignes de relevé bancaire sont répertoriées dans le relevé bancaire importé et que ces lignes doivent être rapprochées. | **Étape 1** :**rechercher les lignes de relevés de contrepassation** Permet d’ajouter des critères de sélection pour sélectionner des lignes de relevé bancaire de contrepassation. Par exemple, pour sélectionner uniquement des chèques, sélectionnez **Code de transaction en banque** dans le champ Champ, sélectionnez le signe plus (+) dans le champ **Opérateur**, puis entrez **Chèques** dans le champ de valeur. **Étape 2 : rechercher les lignes de relevés d’origine** : Vous pouvez ajouter des critères de sélection pour faire correspondre les lignes de document bancaire aux lignes de relevé bancaire. **Étape 3 : rechercher les transactions bancaires Finance** : Vous pouvez ajouter des critères de sélection pour faire correspondre les transactions Finance aux lignes de relevé bancaire. |
 | **Marquer les nouvelles transactions**          | Permet de créer des critères pour spécifier comment les nouvelles transactions doivent être marquées sur la page **Feuille de calcul de rapprochement bancaire** lorsque la règle de rapprochement est exécutée.                                                                                                                                                                 | **Étape 1 : rechercher les lignes de relevé** : permet d’ajouter des champs de sélection pour spécifier les lignes de relevé bancaire qui doivent être sélectionnées dans la page **Feuille de calcul de rapprochement bancaire**. **Étape 2 : Rechercher Finance and Operations** : vous pouvez ajouter des critères de sélection pour rechercher des lignes de document bancaire. Si aucun document bancaire n’est trouvé, une ligne de relevé est marquée comme nouvelle transaction.                                                                                                                                                                                                                                             |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

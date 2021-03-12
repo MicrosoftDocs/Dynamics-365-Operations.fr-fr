@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1b73b104ed8a8a015cb97dcf3055a648cfb083d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443003"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994738"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Paramétrage des descriptions par défaut pour la validation automatique
 
@@ -87,6 +86,3 @@ Après avoir suivi les étapes de la section [Paramétrage des descriptions par 
 2. Dans le champ **Table de référence**, sélectionnez la table de base de données à partir de laquelle ajouter des données de paramétrage à la description.
 3. Dans le champ **Champ de référence**, sélectionnez le champ à partir duquel ajouter des données de paramétrage à la description.
 4. Répétez les étapes 1 à 3 pour ajouter d’autres paramètres.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

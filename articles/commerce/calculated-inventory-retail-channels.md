@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412255"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995818"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calculer la disponibilité du stock pour les canaux de vente au détail
 
@@ -114,6 +113,3 @@ Il est recommandé de ne pas exécuter ces tâches de traitement par lots trop f
 > Pour des raisons de performances, lorsque les calculs de la disponibilité du stock côté canal sont utilisés pour effectuer une demande de disponibilité du stock à l’aide des API de commerce électronique ou de la nouvelle logique de stock côté canal PDV, le calcul utilise un cache pour déterminer si un délai suffisant s’est écoulé pour justifier la réexécution de la logique de calcul. Le cache par défaut est défini sur 60 secondes. Par exemple, vous avez activé le calcul côté canal pour votre magasin et affiché le stock disponible pour un produit sur la page **Recherche de stock**. Si une unité du produit est ensuite vendue, la page **Recherche de stock** n’affiche pas le stock réduit tant que le cache n’a pas été effacé. Une fois que les utilisateurs valident des transactions dans le PDV, ils doivent attendre 60 secondes avant de vérifier que le stock disponible a été réduit.
 
 Si votre scénario d’entreprise nécessite un temps de mise en cache plus petit, contactez le réprésentant du support technique pour obtenir de l’aide.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

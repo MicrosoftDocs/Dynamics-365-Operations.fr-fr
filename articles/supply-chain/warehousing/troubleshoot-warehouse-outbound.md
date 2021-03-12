@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 56bd91d8a6fe895317021d806e180df3a2db302b
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 165ac8145ad75c2c6619764b9abe855b9d32eb46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645444"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993976"
 ---
 # <a name="troubleshoot-outbound-warehouse-operations"></a>Résoudre les problèmes des opérations d’entrepôt sortantes
 
@@ -62,6 +61,3 @@ Un article est ajouté à une ligne de vente pour une livraison directe à parti
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité. Actuellement, WMS ne prend pas en charge la livraison directe. Par conséquent, pour utiliser la livraison directe, vous devez sélectionner un article et un entrepôt non WMS.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

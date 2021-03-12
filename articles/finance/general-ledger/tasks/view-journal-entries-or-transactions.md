@@ -1,6 +1,6 @@
 ---
 title: Afficher les entrées de journal ou les transactions
-description: Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.
+description: Cette procédure indique comment utiliser la demande de pièces comptables pour rechercher des entrées ou des transactions de journal.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/01/2019
@@ -11,23 +11,22 @@ ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f463b7764288918609cba364acf342eed28ad929
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5863fcc677e6dcfedf32031a14354674255ea137
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443053"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994388"
 ---
 # <a name="view-journal-entries-or-transactions"></a>Afficher les entrées de journal ou les transactions
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment utiliser la demande de transactions de N° document pour rechercher des entrées ou des transactions de journal.
+Cette procédure indique comment utiliser la demande de pièces comptables pour rechercher des entrées ou des transactions de journal.
 
 1. Accédez au **Volet de navigation > Modules > Comptabilité > Recherches et états > Pièces comptables**.
 2. Sélectionnez le champ pour lequel vous souhaitez définir des critères de filtre.
@@ -43,6 +42,3 @@ Cette procédure indique comment utiliser la demande de transactions de N° docu
 12. Dans le volet Actions, cliquez sur **Document d’origine**.
 13. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

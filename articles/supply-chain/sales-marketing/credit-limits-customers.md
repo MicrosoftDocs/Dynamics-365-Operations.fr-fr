@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc991e03ba88846a8077fbebb7a7412c8abe1f18
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427984"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994078"
 ---
 # <a name="credit-limits-for-customers"></a>Limites de crédit pour les clients
 
@@ -138,6 +137,3 @@ Parfois, vous devez vérifier manuellement la limite de crédit d'un client. Par
 1.  Cliquez sur **Ventes et marketing** \> **Commun** \> **Commandes client** \> **Toutes les commandes client**. Double-cliquez sur une commande client.
 
 2.  Dans l'écran **Commande client**, dans le volet Actions, sous l'onglet **Gérer**, cliquez sur **Vérifier la limite de crédit**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
