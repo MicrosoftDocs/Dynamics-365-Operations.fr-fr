@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f881e8715d4a62bc753aefa0beebaf0cceafcc77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412345"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985709"
 ---
 # <a name="set-up-retail-products"></a>Paramétrer les produits vendus au détail
 
@@ -40,6 +39,3 @@ Avant de proposer des produits à la revente dans vos canaux de commerce, vous d
 4. **Ajout de produits aux assortiments.** Un assortiment représente un ensemble de produits que vous proposez dans vos canaux. Vous pouvez définir un ou plusieurs assortiment(s), et chaque produit peut être affecté à un ou plusieurs assortiment(s). Pour affecter des produits à des canaux, affectez les assortiments à ces canaux. Lorsque vous créez un assortiment, vous pouvez ajouter des produits qui n'ont pas encore été lancés dans une entité juridique. Toutefois, vous devez lancer les produits dans une entité juridique pour que ceux-ci soient accessibles sur les canaux.
 5. **Ajoutez des produits aux hiérarchies de navigation.** Pour pouvoir parcourir les produits en ligne ou dans un point de vente (PDV), ils doivent être classés par catégorie dans une hiérarchie de navigation Commerce.
 6. **Ajoutez des produits aux catalogues.** Bien que cette étape soit facultative pour le point de vente, les magasins en ligne exigent que les produits sont inclus dans au moins un catalogue.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428335"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987477"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versions d'ingénierie et catégories de produits d'ingénierie
 
@@ -162,6 +161,3 @@ Les nomenclatures et les gammes d'ingénierie sont créés à partir de la versi
 Pour les produits sur lesquels vous utilisez la dimension de produit *version* (avec l'impact logistique sur les transactions), la version est également ajoutée aux nomenclatures et aux gammes. Ce comportement permet de différencier les nomenclatures et les gammes des versions consécutives, quel que soit le paramètre **Applique la prise d'effet**.
 
 Pour les produits sur lesquels vous n'utilisez pas la dimension de produit *version* (sans l'impact logistique sur les transactions), la version n'est pas ajoutée aux nomenclatures ou aux gammes. Par conséquent, il n'y aura aucune différence entre les nomenclatures et les gammes des versions consécutives. Dans ce cas, nous vous recommandons vivement de définir l'option **Appliquer la prise d'effet** sur *Oui*. De cette manière, vous évitez le chevauchement des versions d'ingénierie et vous pouvez également activer la nomenclature et la gamme d'une version plus récente sans avoir à désactiver au préalable la nomenclature et la gamme de la version précédente. Si vous définissez l'option **Appliquer la prise d'effet** sur *Oui* dans ce cas, vous devez désactiver manuellement les nomenclatures et les gammes des anciennes versions avant de pouvoir activer la dernière version.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

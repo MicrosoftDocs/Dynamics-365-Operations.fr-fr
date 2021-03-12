@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, SysClientPolymorphicCreateSelector, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c43d7f768069c5ef201a2823a9aa626b38220073
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411e20bd8631b70df981c5785f502693d5ba3705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427902"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987127"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Ajouter une contrainte d'expression à un modèle de configuration de produit
 
@@ -44,13 +43,10 @@ Cette procédure montre comment ajouter une nouvelle expression de contrainte à
 ## <a name="enter-expression"></a>Entrer une expression
 1. Cliquez sur Modifier l'expression.
     * Si vous déverrouillez l'interface utilisateur dans l'enregistreur de tâche à cette étape, vous pouvez utiliser IntelliSense et la liste des symboles pour établir l'expression de contrainte.  
-2. Dans le champ ConstraintBody, entrez 'Implies[FrontGrill=="Metal", CornerProtection] '.
+2. Dans le champ ConstraintBody, entrez « Implies[FrontGrill=="Métal", CornerProtection] ».
     * Cette expression logique stipule : si la grille avant est en métal, il faut sélectionner l'option de protection des coins.  
 3. Cliquez sur Valider.
     * La fonction de validation fonctionne via l'expression de contrainte et vérifie les erreurs de syntaxe.  
 4. Cliquez sur Fermer.
 5. Cliquez sur OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: VendOpenInvoicesListPage, VendOneTimeVendInvoice_PSN
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b669001cd9665ccc26613c2af7ef09e2d8177426
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7435094304402193cce037b988d3e3f29748753e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407994"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987970"
 ---
 # <a name="create-a-one-time-vendor-and-invoice-in-the-public-sector"></a>Créer un fournisseur occasionnel et une facture dans le secteur public
 
@@ -38,6 +37,3 @@ L’enregistrement fournisseur utilise les valeurs du compte fournisseur occasio
 5. Cliquez sur Créer.
     * La page Facture fournisseur s’ouvre, affichant les informations relatives au fournisseur.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

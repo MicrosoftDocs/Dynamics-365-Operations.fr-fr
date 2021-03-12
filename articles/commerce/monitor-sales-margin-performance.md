@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 85123
 ms.assetid: ddd15820-c3e6-4607-819e-8cef744ce9c9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a7b2b6ba8115b43ef2e52e934bf8364e6f4044e7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51dc7c4b62a497e3dc9279b3c5a616057316c106
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985884"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>Surveiller les performances des ventes et des marges
 
@@ -49,6 +48,3 @@ En outre, deux états uniques qui tirent profit d'une structuration de la grille
 - Espace de travail **Gestion des catégories et des produits** &gt; **Retail et Commerce** &gt; **Produit et catégories** &gt; **Gestion du magasin** &gt; **États**
 - Espace de travail **Gestion de la tarification et des remises** &gt; **Retail et Commerce** &gt; **Tarification et remises** &gt; **Gestion du magasin** &gt; **États**
 - Section **Recherches et états** &gt; **Retail et Commerce** &gt; **Recherches et états** &gt; **États des ventes**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

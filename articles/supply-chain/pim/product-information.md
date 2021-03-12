@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527384"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987202"
 ---
 # <a name="product-information-overview"></a>Présentation des informations sur les produits
 
@@ -59,7 +58,7 @@ Un produit est principalement défini par un numéro, un nom, ainsi qu'une descr
 
 La définition de produit peut être créée dans Supply Chain Management. Elle peut également être importée des systèmes de gestion des cycles de vie des produits, des systèmes de gestion des données relatives aux produits ou des systèmes de gestion d'informations sur les produits. Lorsque plusieurs instances de Supply Chain Management sont utilisées, une instance est généralement utilisée comme base des données de produit pour toutes autres instances. Cette approche est prise en charge par un grand ensemble d'entités de données qui activent l'exportation ou l'importation de données de définition de produit d'une instance à une autre.
 
-Pour prendre en charge la distribution des données de produit sur plusieurs instances, Supply Chain Management vous permet d'utiliser Common Data Service. Les définitions de produit peuvent être exportées d'une instance de Supply Chain Management vers Common Data Service. Les définitions de produit peuvent être utilisées pour mettre en service d'autres applications de gestion, telles que Dynamics 365 Sales, avec les données de produit.
+Pour prendre en charge la distribution des données de produit sur plusieurs instances, Supply Chain Management vous permet d'utiliser Microsoft Dataverse. Les définitions de produit peuvent être exportées d'une instance de Supply Chain Management vers Microsoft Dataverse. Les définitions de produit peuvent être utilisées pour mettre en service d'autres applications de gestion, telles que Dynamics 365 Sales, avec les données de produit.
 
 Notez que, dans les organisations dynamiques et agiles, les informations sur le produit changent chaque jour. Par conséquent, la mise à jour des données de produit exactes et réelles est un processus d'entreprise critique en tant que tel.
 
@@ -96,6 +95,3 @@ L'espace de travail se compose d'une synthèse de vignettes et de deux listes. L
 ### <a name="manually-creating-a-new-released-product"></a>Créer manuellement un nouveau produit lancé
 
 Vous pouvez créer manuellement un produit lancé en une seule exécution, en fonction des processus de l'organisation et de toutes les règles d'entreprise indiquant si cette fonction doit être utilisée. Cette fonction permet de créer un nouveau produit et de le lancer automatiquement dans l'entité juridique actuelle. Pour créer un nouveau produit, cliquez sur **Produits lancés** dans l'espace de travail **Gestion des produits lancés** ou dans la page de liste **Produit lancé**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427864"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987551"
 ---
 # <a name="inventory-close"></a>Clôture du stock
 
@@ -60,7 +59,7 @@ Plusieurs tâches exécutables sur la page **Clôture et ajustement** engendrent
 Les comptes généraux mis à jour par ces tâches sont liés au mouvement de stock d'origine. Par exemple, si une commande client est réglée avec une commande fournisseur, les comptes généraux utilisés pour la commande client d'origine sont ajustés. Ce comportement se produit même si les comptes généraux pour le groupe d'articles affecté à cet article ont changé depuis la validation de la commande client. Après qu'une clôture de stock a créé un montant de règlement, le montant de règlement est toujours validé sur les comptes généraux d'origine, pas sur les nouveaux comptes généraux affectés à l'article. La comptabilité pourrait également être mise à jour si vous contrepassez une clôture de stock. 
 
 > [!NOTE] 
-> - La clôture des stocks est une étape obligatoire de la procédure de clôture de fin de mois pour tous les modèles de stock. Cela comprend les coûts moyens standard et mobiles. Vous ne pourrez pas clôturer l'exercice tant qu'une clôture du stock n'aura pas été effectuée à la date de fin de période.
+> - La clôture du stock est une étape obligatoire de la procédure de clôture de fin de mois pour tous les modèles de stock, à l'exception de la moyenne mobile.  Un message s'affichera si vous essayez de clôturer une période financière sans effectuer au préalable la clôture du stock à compter de la date de fin de la période.
 > - Avant d'exécuter la procédure de clôture, vous pouvez afficher une liste d'articles impossibles à régler lors de la mise à jour.
 > - Nous vous recommandons de clôturer le stock en dehors des heures de bureau afin de distribuer les ressources de calcul plus équitablement.
 
@@ -87,6 +86,3 @@ Il se peut que vous deviez occasionnellement contrepasser une clôture de stock 
 > [!NOTE] 
 > Seule la dernière période de stock clôturée peut être rouverte. Pour contrepasser une clôture de stock antérieure, vous devez contrepasser chaque clôture de stock une par une, en commençant par la plus récente.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

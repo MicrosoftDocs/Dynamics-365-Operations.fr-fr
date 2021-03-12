@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412347"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985784"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Paramétrer et utiliser les alertes pour fraude dans le centre d'appels
 
@@ -69,6 +68,3 @@ La commande est enregistrée, mais l'indicateur **Ne pas traiter** est défini. 
 Pour afficher et gérer les commandes mises en attente pour révision, accédez à **Retail et Commerce** \> **Clients** \> **Blocage de commandes**. Dans la page **Blocage de commandes**, sélectionnez une entrée dans la liste, puis cliquez sur **Blocage de commande** pour afficher une vue plus détaillée contenant des informations sur le motif du blocage. Dans l'organisateur **Détails de la fraude**, vous pouvez afficher les critères de fraude systématiques considérés comme une correspondance pour la commande et les scores appliqués. Si la commande est mise en attente manuelle, vous pouvez examiner les commentaires saisis par l'utilisateur qui a mis la commande en attente en consultant la section **Notes relatives à la fraude** dans l'organisateur **Notes**.
 
 Pour plus d'informations sur l'utilisation des commandes en attente, voir [Blocage de commandes](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
