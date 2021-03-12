@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654196"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006389"
 ---
 # <a name="advanced-load-building-during-wave"></a>Création de chargement avancée pendant une vague
 
@@ -250,6 +249,3 @@ Ce scénario montre comment les paramètres décrits précédemment dans cette r
 1. Dans la commande client que vous venez de créer, Dans l'organisateur **Lignes de commande client**, sélectionnez **Ajouter une ligne** pour ajouter une autre ligne.
 1. Sur la nouvelle ligne, définissez le champ **Numéro d'article** sur *M9200* et le champ **Quantité** sur *1*.
 1. Répétez les lignes 6 à 9 pour réserver la ligne et la libérer dans l'entrepôt. Comme précédemment, le système crée une **nouvelle** expédition pour la ligne que vous avez ajoutée. Cependant, comme l'article provient du groupe d'articles **CarAudio**, il **ne répond pas aux contraintes que vous avez définies pour le groupe de combinaisons de chargement**. Par conséquent, il est **ajouté à un nouveau chargement**. Si vous n'aviez pas spécifié de groupe de combinaisons de chargement sur le modèle de création de chargement, cette expédition aurait été ajoutée au premier chargement.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

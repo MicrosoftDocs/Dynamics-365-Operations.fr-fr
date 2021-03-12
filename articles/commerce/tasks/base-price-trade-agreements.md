@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db3a91807c0cfb51426c03eeaf7785168e6ad0de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006056"
 ---
-# <a name="base-price-and-trade-agreements"></a> Prix de base et accords commerciaux
+# <a name="base-price-and-trade-agreements"></a>Prix de base et accords commerciaux
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,6 +69,3 @@ Cette procédure décrit la création d'accords commerciaux sur les prix de vent
 38. Cliquez sur Vendre dans le volet **Actions**.
 39. Cliquez sur **Prix de vente**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

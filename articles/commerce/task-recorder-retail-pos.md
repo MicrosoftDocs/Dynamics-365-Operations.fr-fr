@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412329"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006133"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Enregistreur de tâches et aide pour Retail Modern POS (MPOS) et Cloud POS
 
@@ -32,9 +31,9 @@ ms.locfileid: "4412329"
 
 Cette rubrique décrit comment utiliser l'enregistreur de tâches dans Retail Modern POS et Cloud POS.
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
-L'enregistreur de tâches dans Retail Modern POS ou Cloud POS est une nouvelle solution qui met l'accent sur la réactivité élevée. Il fournit une interface de programmation d'applications flexible (API) pour l'extensibilité et l'intégration transparente avec les consommateurs d'enregistrements de processus d'entreprise. En outre, l'intégration de l'enregistreur de tâches avec l'outil Concepteur de processus d'entreprise (BPM) sur Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) a été mise en avant. Par conséquent, les utilisateurs peuvent continuer à produire des diagrammes de processus d'entreprise complets à partir des enregistrements pour analyser et créer leurs applications.
+L'enregistreur de tâches dans Retail Modern POS ou Cloud POS est une nouvelle solution qui met l'accent sur la réactivité élevée. Il fournit une interface de programmation d'applications flexible (API) pour l'extensibilité et l'intégration transparente avec les consommateurs d'enregistrements de processus d'entreprise. En outre, l'intégration de l'enregistreur de tâches avec l'outil Concepteur de processus d'entreprise (BPM) sur Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) a été mise en avant. Par conséquent, les utilisateurs peuvent continuer à produire des diagrammes de processus d'entreprise complets à partir des enregistrements pour analyser et créer leurs applications.
 
 ## <a name="architecture"></a>Architecture
 
@@ -146,6 +145,3 @@ Lorsque vous cliquez sur un guide de tâche dans les résultats de la recherche,
 
 > [!NOTE]
 > L'aide de Retail Modern POS et de Cloud POS n'affiche pas les guides de tâches en fonction de l'écran que vous affichez ou de l'opération que vous effectuez. Vous devez taper le nom du processus dans la zone de recherche et cliquer sur **Rechercher**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
