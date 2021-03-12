@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustFormletterParameters, CustInvoiceJournal
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 53161
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abd9c77a4680b705bbfe5b8694e0594b54ca9bed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 307a2a4bd282027abfec3ddd504dcab488c7eb21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407946"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002939"
 ---
 # <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 
@@ -39,6 +38,3 @@ Utilisez la page **Validation de la facture** pour imprimer le texte récupéré
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

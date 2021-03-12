@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PaymTerm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 27331
 ms.search.region: France
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e70085a277f1beeed5cd60d0a40e266d44a176eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ce4ee9b13cc1865afec3adef560834e43741c050
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407941"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002934"
 ---
 # <a name="vendor-invoice-payment-holds-in-the-public-sector-in-france"></a>Mises en attente du paiement d’une facture fournisseur dans le secteur public en France
 
@@ -72,6 +71,3 @@ Si vous assumez le même rôle utilisateur que la personne qui a créé la mise 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fb943cc245a16f8325ac5f3ff6b0a8508f7e2c2f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aed298f7c1952ca245941c59d596ed830ee70160
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407954"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002965"
 ---
 # <a name="prerequisites-for-iso-20022-credit-transfer-format"></a>Conditions préalables au format de virement ISO 20022
 
@@ -40,6 +39,3 @@ Pour plus d’informations sur le processus d’importation, voir [Importer la c
 - [Paramétrer le mode de paiement pour les virements ISO20022](tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](tasks/set-up-vendor-iso20022-credit-transfers.md)
 - [Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

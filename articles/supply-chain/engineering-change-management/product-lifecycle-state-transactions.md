@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005325"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>États et transactions du cycle de vie du produit
 
@@ -76,6 +75,3 @@ Les champs suivants sont disponibles pour chaque processus répertorié sur le r
 | Police | Sélectionnez l'une des valeurs suivantes pour contrôler si et comment le processus actuel sera autorisé pour les produits qui se trouvent dans cet état de cycle de vie :<ul><li>**Activé** – Le processus d'entreprise est autorisé.</li><li>**Bloqué** – Le processus n'est pas autorisé. Si un utilisateur tente d'utiliser le processus sur un produit qui est dans cet état de cycle de vie, le système bloquera la tentative et affichera une erreur à la place. Par exemple, vous pouvez bloquer l'achat de produits en fin de vie.</li><li>**Activé avec avertissement** – Le processus est autorisé, mais un avertissement sera affiché. Par exemple, vous souhaiterez peut-être qu'un produit prototype soit placé sur un ordre de fabrication créé par le service Recherche et développement. Cependant, les autres services doivent savoir qu'ils ne doivent pas encore fabriquer le produit.</li></ul> |
 
 Si vous ajoutez d'autres règles d'état du cycle de vie en tant que personnalisation, vous pouvez afficher ces règles dans l'interface utilisateur (IU) en sélectionnant **Actualiser les processus** dans le volet supérieur. Le bouton **Actualiser les processus** est disponible uniquement pour les administrateurs.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

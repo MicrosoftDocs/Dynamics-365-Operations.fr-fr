@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c4e42864bfde9ed0650a88961b5a71b33b34c89d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428211"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004600"
 ---
 # <a name="location-product-dimension-mixing"></a>Association de dimensions de produit dans un emplacement
 
@@ -239,5 +238,3 @@ Vous allez créer une commande fournisseur comprenant trois lignes : deux ligne
 
 > [!TIP]
 > Vous pouvez répéter ce scénario, mais cette fois-ci, définissez **Taille** - *Non* dans l'organisateur **Autoriser l'association de dimensions de produit** de la configuration **Profils d'emplacement** *BULK*, afin qu'aucune des dimensions de produit ne puisse être associée. Dans ce cas, lorsque vous recevez la commande fournisseur, chaque variante de produit est placée dans un nouvel emplacement.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

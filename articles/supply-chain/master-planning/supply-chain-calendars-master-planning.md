@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427911"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001797"
 ---
 # <a name="calendars-and-master-planning"></a>Calendriers et planification
 
@@ -143,6 +142,3 @@ Concernant le calendrier de groupe de couverture, il est important de tenir comp
 
 ### <a name="updating-scm-related-calendars"></a>Mise à jour des calendriers SCM
 Même s’il est important que tous les calendriers associés soient attribués à leur place respective (fournisseur, client, entrepôt, mode de livraison ou groupe de couverture), leur mise à jour l’est tout autant dans la mesure où ils reflètent les modifications. Le système définit les dates de production, de transfert, d’achat et de commande client selon l’association des calendriers assignés. Préciser qui est responsable d’attribuer et de mettre à jour les calendriers dans ses zones respectives reste une bonne pratique. En cas de panne ou de tout autre changement inhabituel les jours ouvrés, il est essentiel de mettre à jour les calendriers en conséquence. Toutes les tâches qui dépendent des calendriers, telles que la planification et la programmation de la production, doivent être relancées lors de la mise à jour des calendriers. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

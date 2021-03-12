@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 259ce229c18466b7d29fd231dc3f0be8a6906c6b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f97cccc0d27d1154d8f8cb5018cf5040efcf190a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001772"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Afficher le besoin prévisionnel intersociétés en sortie
 
@@ -43,6 +42,3 @@ Cette procédure indique comment afficher tous les ordres prévisionnels qui ser
 8. Développez la section Détails du besoin en amont.
     * Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée. Vous devrez attendre l'exécution de la planification dans la société d'approvisionnement avant de pouvoir consulter les informations supplémentaires ici.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

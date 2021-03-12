@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428216"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004800"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l’entrepôt
 
@@ -854,6 +853,3 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
     - Ordres de transfert et prélèvement des matières premières
 
 - La règle de consolidation des conteneurs pour l’emballage par unité de directive présente des limites. Pour les réservations validées par la commande, nous vous recommandons de ne pas utiliser de modèles de construction de conteneur où le cham **Pack par unité de directive** est activé. Dans la conception actuelle, les directives d’emplacement ne sont pas utilisées lors de la création d’un travail d’entrepôt. Par conséquent, seule l’unité la plus basse du groupe de séquences d’unités (l’unité d’inventaire) est appliquée pendant l’étape de vague de conteneurisation.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 380329cbeaa1fc2a2691c8165bc57483d1420aa1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428106"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005075"
 ---
 # <a name="improve-master-planning-performance"></a>Améliorer les performances de planification
 
@@ -162,6 +161,3 @@ Avant le début de l'étape de couverture, il existe une étape de pré-couvertu
 - **Une routine lourde à la fois** – N'exécutez pas la planification simultanément avec aucune autre routine lourde.
 - **Examiner le journal des sessions**.
 - **Filtrage des articles** – Utilisez l'état de cycle de vie pour exclure des articles de l'exécution de la planification. (N'utilisez pas les numéros d'article.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

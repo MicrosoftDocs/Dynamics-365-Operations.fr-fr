@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AssetRBSLFactorTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 30271
 ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f041d4c7c25e6b5118da875cf7146c60c865e0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f388e42b7a9f937d849489ef3610bb8c5315ac3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407942"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002921"
 ---
 # <a name="rbsl-depreciation"></a>Amortissement dégressif fiscal
 
@@ -54,6 +53,3 @@ Lorsque vous créez une configuration **Groupe d’immobilisations/modèle de va
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

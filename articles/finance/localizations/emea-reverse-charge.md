@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 247bc64bf0b90a641ead8a21971a6043691762fa
-ms.sourcegitcommit: f12ce34cc08cf1fa205c67f48669ea9a6566b526
+ms.openlocfilehash: 46b26fc1c0c45be894e226080a5aa9d5ae48b595
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4515049"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005993"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mécanisme de Taxe au preneur pour le régime TVA/TPS
 
@@ -137,6 +136,3 @@ Les pages et éléments de menu suivants liés à la configuration des fonctionn
  - **Paramètres du commerce extérieur** (**Taxe** > **Configurer** > **Taxe** > **Commerce extérieur** > **Paramètres du commerce extérieur**). Voir [Configurer les propriétés de pays/régions](#Set-up-Country/region-properties).
 
 La case à cocher **Taxe au preneur** sera disponible sur les pages **Groupe de taxes** et **Taxe validée**. Pour plus d’informations, consultez les sections, [Configurer des groupes de taxes et des groupes de taxe d’article](#sales-tax-item-sales-tax-groups), [Taxe au preneur sur une facture de vente](#reverse-charge-sale), et [Taxe au preneur sur une facture d’achat](#reverse-charge-purchase).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

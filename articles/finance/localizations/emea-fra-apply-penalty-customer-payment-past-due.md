@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 31221
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb81250a7c9ae106292dc9efb5faf050c23650ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b51074e7db4c1ac322a2222e99a85ce935b07dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407955"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002959"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 
@@ -52,6 +51,3 @@ Lorsque vous avez paramétré l’impression du texte récupéré du montant for
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

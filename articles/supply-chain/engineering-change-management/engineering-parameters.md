@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005375"
 ---
 # <a name="engineering-change-management-parameters"></a>Paramètres de gestion des modifications d’ingénierie
 
@@ -57,6 +56,3 @@ Le tableau suivant décrit les champs disponibles sur l'onglet **gestion des mod
 | Règle de gravité | Sélectionnez la manière dont la gravité d'un ordre de modification technique doit être établie. Sélectionnez *Manuel* si l'utilisateur doit entrer une valeur dans le champ **Gravité**. Sélectionnez *Calculer* pour que le système calcule la valeur du champ **Gravité** lorsque vous sélectionnez **Calculer la gravité** dans le volet Actions de la demande de modification technique. Dans ce cas, le système utilisera les règles de gravité définies sur la page **Ensemble de règles de gravité**. Sélectionnez *Calculer automatiquement* pour avoir la valeur du champ **Gravité** automatiquement calculé et rempli en fonction des ensembles de règles de gravité. |
 | Relancer les produits impactés | Ce champ s'applique lorsque vous lancez des produits via un ordre de modification technique. Vous pouvez choisir si tous les produits ou uniquement les produits concernés doivent être proposés dans la boite de dialogue **Versions**. |
 | Niveaux de nomenclature à lancer | La profondeur du niveau de nomenclature à lancer. Si la nomenclature a plus de niveaux (c'est-à-dire si elle est plus profonde) que la valeur spécifiée ici, seuls les niveaux supérieurs à la valeur spécifiée seront libérés. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4443393"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003576"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatiser les propositions de paiement fournisseur
 
@@ -144,6 +143,3 @@ Les responsabilités et privilèges suivants ont été ajoutés pour les automat
 | Rechercher des occurrences du programme | Commis au paiement de la comptabilité fournisseur, Commis au paiement centralisé de la comptabilité fournisseur | Cette responsabilité accorde les droits d’affichage des occurrences d’automatisation des propositions de paiement et via les privilèges suivants :<ul><li>Afficher les occurrences du programme</li><li>Afficher la vue hebdomadaire des occurrences</li></ul> |
 | Rechercher des séries du programme      | None                                                                       | Cette responsabilité accorde les droits d’affichage des paramètres de la série et des occurrences via les privilèges suivants :<ul><li>Afficher les occurrences du programme</li><li>Afficher la page de liste des occurrences</li><li>Afficher la vue hebdomadaire des occurrences</li></ul>|
 | Gérer les occurrences du programme     | None                                                                       | Cette responsabilité accorde les droits de création et de gestion d’une occurrence via les privilèges suivants :<ul><li>Gérer les occurrences du programme</li><li>Afficher la vue hebdomadaire des occurrences</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

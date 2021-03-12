@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c15a5cf8896c752369abd15d3fc7985ef8b6999
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0782ecb673392902898d016e00c9d8983d55094e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407903"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005801"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -61,6 +60,3 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

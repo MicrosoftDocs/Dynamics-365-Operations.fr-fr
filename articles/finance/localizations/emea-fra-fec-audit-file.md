@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c7440574d6bad6b6e709048ba36791ad841dcae
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02e648f15cfe3107a5e7c57a4d30e4a3978a7211
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407949"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002956"
 ---
 # <a name="generate-the-standard-audit-file-for-france-fec"></a>Génération du fichier d’audit standard pour la France (FEC)
 
@@ -30,7 +29,7 @@ Cette procédure vous montre comment générer le fichier d’audit standard (FE
 
 Avant de générer un fichier d’audit FEC, vous devez :
 
-1. Définir les souches des N° documents. Chaque souche de N° documents doit contenir une partie du texte considérée comme une valeur pour **JournalCode** dans l’état **Audit FEC**. Par exemple, configurez une souche de N° documents pour les journaux de facture fournisseur comme **FRSIFACF-########** pour obtenir la valeur « FRSIFACF » dans **JournalCode** dans le fichier FEC.txt.
+1. Définir les souches des N° documents. Chaque souche de N° de justificatif doit contenir une partie du texte considérée comme une valeur pour **JournalCode** dans l’état **Audit FEC**. Par exemple, configurez une souche de N° de justificatif pour les journaux de facture fournisseur comme **FRSIFACF-########** pour obtenir la valeur « FRSIFACF » dans **JournalCode** dans le fichier FEC.txt.
 2. Importer la dernière version du **Fichier d’audit FEC français** de la configuration de génération d’états électroniques. Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 3. Sur la page **Configurations**, développez **Modèle d’exportation des données**, sélectionnez **Mise en correspondance de modèle FEC français**, et paramétrez **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**.
 
@@ -58,6 +57,3 @@ Envisagez les informations suivantes pour certains champs suivants dans les éta
    - Dans les états **Solde fournisseur.txt** et **Solde client.txt**, cela doit être la valeur constante **Système**.
    - Dans les états **Fournisseur Stock en entrée.txt** et **Client Stock en entrée.txt**, c’est la valeur du champ **Type de transaction des états** à partir de la transaction fournisseur ou transaction client rapportée. Par exemple, les valeurs possibles peuvent être **Commande fournisseur** ou **Paiement**.
    - Dans l’état **FEC.txt**, c’est la valeur du champ **Type de transaction** de l’état Transaction de documents. Si le **Type de transaction** équivaut à **Feuille comptabilité**, c’est la valeur dans le champ **Description** du journal comptable qui est la source de la transaction de documents. Vérifiez en consultant la valeur sur la page **Noms de journal**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

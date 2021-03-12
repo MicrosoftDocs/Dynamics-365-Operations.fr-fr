@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428209"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004625"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Instruction d'emplacement relatif à l'âge du prélèvement du stock
 
@@ -120,7 +119,7 @@ La stratégie FIFO recherche l'emplacement qui contient la date d'âge la plus a
 1. Dans la page **Commande client**, dans le volet Actions, dans l'onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Lancer dans l'entrepôt**. Vous recevez des messages d'information. Le système crée une expédition, l’ajoute à un nouveau chargement et crée le travail requis.
 1. Dans l'organisateur **Lignes de commande client**, dans le menu **Entrepôt**, sélectionnez **Détails du travail** pour ouvrir le travail qui a été créé pour cette commande client. Notez que la ligne où la valeur **Type de travail** est *Prélever* présente une valeur **Emplacement** de *FL-002*. Cet emplacement contient le contenant ayant la date d'âge la plus ancienne (FIFO).
 1. Sélectionnez **Entrepôt \> Détails de l'expédition**.
-1. Dans l'organisateur **Général**, notez l'ID de la vague afin de pouvoir l'utiliser dans le scénario 2.
+1. Dans le raccourci **_Général_*, notez l'ID de la vague afin de pouvoir l'utiliser dans le scénario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scénario 2 : configurer et utiliser la stratégie LIFO par âge d'emplacement
 
@@ -140,6 +139,3 @@ La stratégie LIFO recherche l'emplacement qui contient la date d'âge la plus r
 1. Notez que la ligne où la valeur **Type de travail** est *Prélever* présente une valeur **Emplacement** de *FL-001*. Cet emplacement contient le contenant ayant la date d'âge la plus récente (LIFO).
 
 Dans ces scénarios, vous avez vu comment la stratégie par âge d'emplacement oriente le travail vers l'emplacement de stock qui contient le stock le plus ancien ou le plus récent, selon la stratégie sélectionnée.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

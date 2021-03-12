@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: AssetPosting, AssetBook, AssetBookTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 30321
 ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb23008f7c2cfc90cd67550607fcc1c396e3bd2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c0d416042aa3b02ed324f838df1dfa2725efb602
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407950"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002950"
 ---
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 
@@ -47,6 +46,3 @@ Dans la page **Profils de validation d’immobilisation**, paramétrez les compt
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

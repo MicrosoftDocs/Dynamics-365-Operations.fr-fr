@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3173e44df4ab95d77cf4e8227d95fe9cff34af00
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: dd692c7a25673783f9a3586a1527b3d36058245d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428357"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004850"
 ---
 # <a name="transportation-management-discounts"></a>Remises de gestion du transport
 
@@ -33,6 +32,3 @@ Pour configurer des remises pour la gestion du transport, accédez à **Gestion 
 Vous pouvez choisir de transmettre la remise à votre client (en définissant le type de remise sur client) ou de la conserver dans l'entreprise (en définissant le type de remise sur expéditeur). Cela vous permet de définir une configuration dans laquelle vous gagnez une marge sur les frais de transport calculés.
 
 Vous pouvez configurer plusieurs qualificatifs pour chaque remise, tels que le transporteur, le service de transporteur, les conditions de livraison, le client, la destination, etc.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

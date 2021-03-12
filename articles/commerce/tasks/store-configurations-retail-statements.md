@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: af4321cd9d6e15c82c4eef1f1ca218b8301ebf35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4412421"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003651"
 ---
-# <a name="store-configurations-for-retail-statements"></a> Enregistrer les configurations pour les relevés de vente au détail
+# <a name="store-configurations-for-retail-statements"></a>Enregistrer les configurations pour les relevés de vente au détail
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +48,3 @@ Cette procédure détaille les configurations du magasin qui affectent la créat
 17. Sélectionnez « Oui » dans **Fractionner par mode de relevé** pour que des relevés soient créés pour chaque méthode de relevé définie. Cette action peut s'avérer utile si les performances de la validation doit être améliorée pour les magasins affichant des volumes élevé de transactions, car cela créera de nombreux relevés plus petits qui peuvent être traités en parallèle.  
 18. Dans le FastTab **Général**, dans le champ **Client par défaut**, vous pouvez sélectionner le compte client à utiliser pour les ventes aux clients qui se rendent dans le magasin.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
