@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428344"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967256"
 ---
 # <a name="product-readiness"></a>Disponibilité du produit
 
@@ -148,6 +147,3 @@ Pour chaque ligne que vous ajoutez, définissez les champs suivants.
 | Questionnaire | Sélectionnez le questionnaire à utiliser pour la liste de contrôle. La liste de contrôle est une liste de contrôle locale dans l'entreprise où la vérification de la disponibilité est effectué. Le système doit être en mesure d'évaluer si la liste de contrôle a reçu une réponse correcte. Par conséquent, la liste de contrôle doit être établie de manière à ce qu'une évaluation soit faite sur la base de réponses correctes. Pour plus d'informations sur la création de questionnaires, voir [Utilisation de questionnaires](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) et ses sujets connexes. |
 | Approbation automatique | Les registres de vérification de la disponibilité comprennent une case à cocher **Approuvé** qui indique l'état d'approbation. Cochez la case **Approbation automatique** pour les vérification qui doivent être définis sur Approuvé immédiatement après que l'utilisateur affecté les a terminés. Décochez cette case pour exiger une approbation explicite comme étape supplémentaire. |
 | Obligatoire | Cochez cette case pour les vérifications qui doivent être effectuées par l'utilisateur affecté. Les vérifications obligatoires ne peuvent pas être ignorées. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

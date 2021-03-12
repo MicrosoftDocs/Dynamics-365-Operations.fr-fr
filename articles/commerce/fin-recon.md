@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5d0520f35391f76b52fd8a333033b0d7ba4f7fe1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412157"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965075"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Rapprochement financier dans les magasins de vente au détail
 
@@ -62,6 +61,3 @@ Lorsque la validation des relevés en flux continu est utilisée pour que la val
 Les détails du rapprochement financier pour une équipe de travail sont synchronisés avec Commerce headquarters à l'aide du travail P.
 
 Les tableaux d'analyse de la vente au détail dans Commece Headquarters ne calculent pas les totaux pour afficher les détails sur les lignes de relevé. À la place, les montants finalisés dans le client PDV sont utilisés pour créer et valider les tableaux d'analyse de la vente au détail.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

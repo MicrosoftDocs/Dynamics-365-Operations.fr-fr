@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645429"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965550"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisation de la charge de travail sortante
 
@@ -98,6 +97,3 @@ L'illustration suivante présente un exemple du graphique en résultant.
 ![Visualisation du statut de la zone et du travail](media/work-viz-chart.png "Visualisation du statut de la zone et du travail")
 
 Ce graphique montre deux zones nommées **ATELIER** et **VRAC**, plus une zone nommée **Vide**. La zone **Vide** représente toutes les lignes de travail qui ne sont membres d'aucune zone. Le graphique montre toujours toutes les données filtrées non liées comme **Vides**, pour offrir autant de visibilité que possible. Dans la zone **ATELIER**, le graphique montre trois lignes fermées et quatre lignes ouvertes. Dans la zone **VRAC**, le graphique montre quatre lignes fermées, une ligne ouverte et 24 lignes annulées. Enfin, le graphique montre huit lignes fermées qui ne font partie d'aucune zone et sont donc répertoriées comme **Vides**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

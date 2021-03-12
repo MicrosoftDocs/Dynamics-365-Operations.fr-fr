@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd4225d9e7ad65939c57cb770ba521377c87dea3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427678"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965575"
 ---
 # <a name="schedule-workload-capacity"></a>Planifier la capacité de charge de travail
 
@@ -80,6 +79,3 @@ Si ces informations ne sont pas spécifiées correctement, vous recevez un messa
 3. Dans le champ **Type de commande**, sélectionnez **Prévu et confirmé**, **Prévu** ou **Confirmé** pour indiquer le type de commandes à projeter dans l'état.
 4. Dans le champ **Type de charge**, sélectionnez un type de charge pour spécifier si la capacité de la charge de travail est projetée pour le volume ou le poids.
 5. Dans le champ **Capacité de la charge de travail**, sélectionnez un paramétrage pour la capacité de la charge de travail.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

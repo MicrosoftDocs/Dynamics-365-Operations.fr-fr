@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 137b699d5f60b9b62a5ce9501e3b2a262e60a88f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412175"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965450"
 ---
 # <a name="open-url-in-pos"></a>Ouvrir une URL dans le point de vente
 
@@ -83,6 +82,3 @@ Pour configurer l'ouverture d'une URL dans le PDV, procédez comme suit.
 5. Sélectionnez **Ouvrir l'URL** comme action.
 6. Entrez l'URL à utiliser.
 7. Indiquez si l'URL doit s'ouvrir dans une nouvelle fenêtre.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

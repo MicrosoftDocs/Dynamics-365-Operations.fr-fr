@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 305308b0e4ba99aae4bf6f8f94041db570a25893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: adbd5ef1cafe778cf897aafb05c77fca89be3e20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412324"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964918"
 ---
-# <a name="create-and-associate-a-hardware-station"></a> Créer et associer une station matérielle
+# <a name="create-and-associate-a-hardware-station"></a>Créer et associer une station matérielle
 
 [!include [banner](../includes/banner.md)]
 
@@ -58,6 +57,3 @@ Cette procédure décrit comment créer une station matérielle. Un profil de st
 23. Dans le champ ID du terminal TEF, tapez une valeur.
 24. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

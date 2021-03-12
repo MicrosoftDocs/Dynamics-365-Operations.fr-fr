@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428303"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966103"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Expédier des commandes en tant que livraisons directes
 
@@ -82,6 +81,3 @@ Cette rubrique illustre comment créer une livraison directe pour une commande c
     - La page Livraison directe sert de console qui fournit à l'acheteur une vue d'ensemble de toutes les lignes de commande client qui doivent être livrées directement et qui lui permet de créer les commandes fournisseur respectives. En outre, il peut ouvrir les bons de livraison directe et les commandes confirmées dans les onglets Confirmation et Livraison.  
     - Après avoir créé un bon de livraison directe, il est automatiquement déplacé vers l'onglet Confirmation. Vous pouvez choisir de confirmer la commande directement à partir de cette page. Lorsque l'achat est confirmé, il est automatiquement déplacé dans l'onglet Livraison, à partir duquel vous pouvez enregistrer sa réception.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

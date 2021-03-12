@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4308020d66995d857e547be47216cb82caacf035
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967331"
 ---
 # <a name="product-owners"></a>Propriétaires de produits
 
@@ -61,6 +60,3 @@ Par exemple, le produit X est affecté au groupe de propriétaires de produits 
 ## <a name="product-owners-and-approvals"></a>Propriétaires de produits et approbations
 
 Étant donné que les propriétaires de produits savent si des modifications techniques spécifiques bénéficieront à leurs produits, il est souvent judicieux de les inclure dans le processus d'approbation de la gestion des modifications techniques. Vous pouvez mettre en œuvre cette approche en configurant les propriétaires de produit en tant que fournisseurs participants dans les workflows utilisés pour la gestion des modifications techniques. Le système attribuera ensuite des tâches d'approbation dans les workflows, en fonction des produits qui sont dans les demandes de modification technique et les ordres de modification technique. Pour plus d'informations, voir [Gérer modifications des produits techniques](engineering-change-management.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

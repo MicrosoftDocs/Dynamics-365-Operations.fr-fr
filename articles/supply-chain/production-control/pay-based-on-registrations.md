@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8e92759bd567a973a0d3bce7b8b99be1edbc0e1e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98ca6f7713b2f605a49a97d391fb8485bea78c4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427874"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966378"
 ---
 # <a name="pay-based-on-registrations"></a>Salaire basé sur les enregistrements
 
@@ -599,6 +598,3 @@ Si le collaborateur ne va pas au travail pendant un jour de travail et si aucune
 - Insertion auto. absence
 
 Lorsque les enregistrements quotidiens sont calculés pour un collaborateur qui est activé pour les heures flexibles, le code absence spécifié dans le champ **Insertion auto. Flex-** est utilisé comme code absence par défaut. Si le collaborateur n'est pas activé pour les heures flexibles, le code absence spécifié dans le champ **Insertion auto. absence** est utilisé. Si une société a une combinaison de collaborateurs qui sont activés pour les heures flexibles et de collaborateurs qui ne sont pas activés pour les heures flexibles, les deux paramètres doivent être configurés.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

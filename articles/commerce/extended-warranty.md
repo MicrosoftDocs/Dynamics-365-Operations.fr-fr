@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965114"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Créer et configurer des extensions de garantie
 
@@ -77,7 +76,7 @@ Pour créer un article de garantie dans Commerce, procédez comme suit.
 1. Cliquez sur **OK**.
 1. Sur la page **Détails du produit**, dans le raccourci **Garantie**, définissez les champs **Unité de temps** et **Durée**.
 
-    | Nom du champ | Valeur  | Description |
+    | Nom du champ | Valeur | Description |
     |------------|-------|-------------|
     | Unité de temps | **Jour(s)**, **Semaine(s)**, **Mois(s)** ou **Année(s)** | Ce champ spécifie l’unité de temps utilisée pour la garantie. |
     | Durée | Valeur entière positive | Ce champ spécifie la durée de la garantie dans l’unité de temps sélectionnée. |
@@ -142,7 +141,7 @@ Un groupe de garanties est une relation entre les garanties et les articles sous
 
 Pour paramétrer un groupe de garanties dans Commerce, procédez comme suit.
 
-1. Accédez à **Retail et Commerce \> Produits et catégories \> Garantie \> Groupes de garanties**.
+1. Accédez à **Retail et Commerce \> Produits et catégories \> Garantie \> Groupes de garanties**.
 1. Sélectionnez **Nouveau** pour créer un groupe de garanties.
 1. Dans le champ **Nom**, entrez un nom pour le nouveau groupe.
 1. Dans le raccourci **Général**, dans le champ **Description**, saisissez une description du groupe.
@@ -202,7 +201,7 @@ Lorsqu’une extension de garantie est vendue, une entité de stratégie de gara
 
 Le tableau suivant décrit les propriétés de la stratégie de garantie et leurs valeurs. Dans Commerce Headquarters, la table de base de données est nommée WARRANTYPOLICY.
 
-| Nom de la propriété | Valeur  | Description |
+| Nom de la propriété | Valeur | Description |
 |---------------|-------|-------------|
 | PolicyNumber | Chaîne de caractères (20 caractères maximum) | Numéro de la stratégie de garantie |
 | WarrantiedItemId | Chaîne de caractères (20 caractères maximum) | ID de l’article sous garantie |
@@ -239,6 +238,3 @@ Une garantie est un service fourni pour un produit spécifique et unique. Dans D
 [Paramétrer des assortiments](set-up-assortments.md)
 
 [Vue d’ensemble des souches de numéros](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
