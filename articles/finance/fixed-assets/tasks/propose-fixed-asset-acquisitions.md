@@ -11,35 +11,34 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9259c9bbf52c1c09a7092db6976fc3fabca6601
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443027"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990437"
 ---
-# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="d17d2-103">Proposer des acquisitions d’immobilisations</span><span class="sxs-lookup"><span data-stu-id="d17d2-103">Propose fixed asset acquisitions</span></span>
+# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="2f925-103">Proposer des acquisitions d’immobilisations</span><span class="sxs-lookup"><span data-stu-id="2f925-103">Propose fixed asset acquisitions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d17d2-104">Cette rubrique décrit comment acquérir une immobilisation à l’aide de la proposition d’acquisition du journal des immobilisations.</span><span class="sxs-lookup"><span data-stu-id="d17d2-104">This topic describes how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="d17d2-105">Elle utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.</span><span class="sxs-lookup"><span data-stu-id="d17d2-105">It uses the accountant role and demo data for the USMF legal entity.</span></span> <span data-ttu-id="d17d2-106">Pour acquérir une immobilisation via un journal de proposition d’immobilisation, vous devez d’abord créer l’enregistrement d’immobilisation, puis définir le prix d’acquisition dans le registre des immobilisations.</span><span class="sxs-lookup"><span data-stu-id="d17d2-106">To acquire a fixed asset through a fixed asset proposal journal, you must first create the fixed asset record, and then define the acquisition price in the asset book.</span></span>
+<span data-ttu-id="2f925-104">Cette rubrique décrit comment acquérir une immobilisation à l’aide de la proposition d’acquisition du journal des immobilisations.</span><span class="sxs-lookup"><span data-stu-id="2f925-104">This topic describes how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="2f925-105">Elle utilise le rôle de comptable et les données de démonstration de l’entité juridique USMF.</span><span class="sxs-lookup"><span data-stu-id="2f925-105">It uses the accountant role and demo data for the USMF legal entity.</span></span> <span data-ttu-id="2f925-106">Pour acquérir une immobilisation via un journal de proposition d’immobilisation, vous devez d’abord créer l’enregistrement d’immobilisation, puis définir le prix d’acquisition dans le registre des immobilisations.</span><span class="sxs-lookup"><span data-stu-id="2f925-106">To acquire a fixed asset through a fixed asset proposal journal, you must first create the fixed asset record, and then define the acquisition price in the asset book.</span></span>
 
-1. <span data-ttu-id="d17d2-107">Dans le volet de navigation, accédez à **Modules > Immobilisations > Entrées de journal > Journal des immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
-2. <span data-ttu-id="d17d2-108">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-108">Select **New**.</span></span>
-3. <span data-ttu-id="d17d2-109">Dans le champ **Nom**, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d17d2-109">In the **Name** field, enter or select a value.</span></span>
-4. <span data-ttu-id="d17d2-110">Dans le volet Actions, sélectionnez **Lignes**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-110">In the action pane, select **Lines**.</span></span>
-5. <span data-ttu-id="d17d2-111">Sélectionnez **Propositions**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-111">Select **Proposals**.</span></span>
-6. <span data-ttu-id="d17d2-112">Sélectionnez **Proposition d’acquisition**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-112">Select **Acquisition proposal**.</span></span>
-7. <span data-ttu-id="d17d2-113">Sélectionnez **Filtrer**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-113">Select **Filter**.</span></span> <span data-ttu-id="d17d2-114">Sélectionnez **Réinitialiser** pour effacer les valeurs précédentes.</span><span class="sxs-lookup"><span data-stu-id="d17d2-114">Select **Reset** to clear out previous values.</span></span>
-8. <span data-ttu-id="d17d2-115">Sélectionnez la ligne **Numéro d’immobilisation**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-115">Select the **Fixed asset number** row.</span></span>
-9. <span data-ttu-id="d17d2-116">Dans le champ **Critères**, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="d17d2-116">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="d17d2-117">Définissez les critères restants pour les immobilisations à acquérir avec cette proposition.</span><span class="sxs-lookup"><span data-stu-id="d17d2-117">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
-10. <span data-ttu-id="d17d2-118">Sélectionnez **OK** deux fois pour quitter le volet.</span><span class="sxs-lookup"><span data-stu-id="d17d2-118">Select **OK** twice to exit out of the pane.</span></span>
-- <span data-ttu-id="d17d2-119">Vérifiez les lignes de transaction créées.</span><span class="sxs-lookup"><span data-stu-id="d17d2-119">Verify the transaction lines created.</span></span>  
-- <span data-ttu-id="d17d2-120">Seules les immobilisations dont la date et le prix d’acquisition sont définis sur le registre sont incluses dans la proposition d’acquisition.</span><span class="sxs-lookup"><span data-stu-id="d17d2-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
-11. <span data-ttu-id="d17d2-121">Dans la page, sélectionnez l’onglet **Registres**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-121">On the page, select the **Books** tab.</span></span>
-12. <span data-ttu-id="d17d2-122">Sélectionnez **Valider**.</span><span class="sxs-lookup"><span data-stu-id="d17d2-122">Select **Post**.</span></span>
+1. <span data-ttu-id="2f925-107">Dans le volet de navigation, accédez à **Modules > Immobilisations > Entrées de journal > Journal des immobilisations**.</span><span class="sxs-lookup"><span data-stu-id="2f925-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="2f925-108">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="2f925-108">Select **New**.</span></span>
+3. <span data-ttu-id="2f925-109">Dans le champ **Nom**, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="2f925-109">In the **Name** field, enter or select a value.</span></span>
+4. <span data-ttu-id="2f925-110">Dans le volet Actions, sélectionnez **Lignes**.</span><span class="sxs-lookup"><span data-stu-id="2f925-110">In the action pane, select **Lines**.</span></span>
+5. <span data-ttu-id="2f925-111">Sélectionnez **Propositions**.</span><span class="sxs-lookup"><span data-stu-id="2f925-111">Select **Proposals**.</span></span>
+6. <span data-ttu-id="2f925-112">Sélectionnez **Proposition d’acquisition**.</span><span class="sxs-lookup"><span data-stu-id="2f925-112">Select **Acquisition proposal**.</span></span>
+7. <span data-ttu-id="2f925-113">Sélectionnez **Filtrer**.</span><span class="sxs-lookup"><span data-stu-id="2f925-113">Select **Filter**.</span></span> <span data-ttu-id="2f925-114">Sélectionnez **Réinitialiser** pour effacer les valeurs précédentes.</span><span class="sxs-lookup"><span data-stu-id="2f925-114">Select **Reset** to clear out previous values.</span></span>
+8. <span data-ttu-id="2f925-115">Sélectionnez la ligne **Numéro d’immobilisation**.</span><span class="sxs-lookup"><span data-stu-id="2f925-115">Select the **Fixed asset number** row.</span></span>
+9. <span data-ttu-id="2f925-116">Dans le champ **Critères**, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="2f925-116">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="2f925-117">Définissez les critères restants pour les immobilisations à acquérir avec cette proposition.</span><span class="sxs-lookup"><span data-stu-id="2f925-117">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+10. <span data-ttu-id="2f925-118">Sélectionnez **OK** deux fois pour quitter le volet.</span><span class="sxs-lookup"><span data-stu-id="2f925-118">Select **OK** twice to exit out of the pane.</span></span>
+- <span data-ttu-id="2f925-119">Vérifiez les lignes de transaction créées.</span><span class="sxs-lookup"><span data-stu-id="2f925-119">Verify the transaction lines created.</span></span>  
+- <span data-ttu-id="2f925-120">Seules les immobilisations dont la date et le prix d’acquisition sont définis sur le registre sont incluses dans la proposition d’acquisition.</span><span class="sxs-lookup"><span data-stu-id="2f925-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+11. <span data-ttu-id="2f925-121">Dans la page, sélectionnez l’onglet **Registres**.</span><span class="sxs-lookup"><span data-stu-id="2f925-121">On the page, select the **Books** tab.</span></span>
+12. <span data-ttu-id="2f925-122">Sélectionnez **Valider**.</span><span class="sxs-lookup"><span data-stu-id="2f925-122">Select **Post**.</span></span>
