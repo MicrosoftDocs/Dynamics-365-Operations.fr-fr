@@ -1,6 +1,6 @@
 ---
 title: Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
-description: Lorsqu’une approbation ou un contrat sous forme d’une commande fournisseur n’est pas nécessaire, vous pouvez créer une facture pour un nouveau fournisseur avec vous n’entretenez pas de relation régulière, tout en créant un enregistrement pour le fournisseur.
+description: Cette rubrique fournit des informations sur la création simultanée d'une facture et d'un enregistrement pour un nouveau fournisseur lorsqu'aucune commande d'achat n'est requise.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: VendImportOneTimeVendFileUpload_PSN
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d608d01a291d4b0f0aab62b129b27a0a071aa59
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed14eeda8ecbfde256b1f132d39b8bdefdb564d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407992"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962456"
 ---
 # <a name="import-and-create-multiple-one-time-vendors-and-invoices-in-the-public-sector"></a>Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
 
@@ -40,6 +39,3 @@ Lorsqu’une approbation ou un contrat sous forme d’une commande fournisseur n
     * Les noms de fournisseur ou les ID de taxe fédérale en double feront l’objet d’une recherche.  Important : si vous choisissez de ne pas traiter les fournisseurs en double, les factures associées ne seront pas traitées non plus. Vous pouvez créer manuellement une facture à l’aide des informations du fichier csv.    
 7. Cliquez sur OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

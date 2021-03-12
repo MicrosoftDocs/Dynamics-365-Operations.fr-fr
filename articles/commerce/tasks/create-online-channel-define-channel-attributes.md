@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f15b035c01801041d637a2d315d8a3ddcc9d6540
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e92e28c721692ed92fa931ed899c48678622349
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412321"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964792"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Créer un canal en ligne et définir les attributs du canal
 
@@ -67,6 +66,3 @@ Cette procédure décrit la création d'un canal en ligne et son ajout à la hi�
 3. Exécutez le programme de distribution 1070 pour synchroniser les modifications avec la base de données des canaux. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

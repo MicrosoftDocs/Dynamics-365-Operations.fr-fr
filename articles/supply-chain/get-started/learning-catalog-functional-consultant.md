@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 601977cc5b8aa992b8576d30eb1412fb4e119154
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666792"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963633"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Catalogue d’apprentissage pour les consultants techniques de Dynamics 365 Supply Chain Management
 
@@ -31,7 +30,7 @@ Pour les consultants techniques, notre recherche d’analyse de tâche a montré
 
 ## <a name="get-started"></a>Mise en route<a name="get-started"></a>
 
-| Contenu| Description  | Format  | Longueur  |
+| Contenu| Description   | Format  | Longueur  |
 |---|---|---|---|
 | [Apprendre la valeur commerciale de Microsoft Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Souhaitez-vous en savoir plus sur les applications métier ? Peut-être que vous ne savez pas par où commencer avec Microsoft Dynamics 365 et les applications Power Platform ? Découvrez comment la puissance des applications d’entreprise peut aider à transformer votre entreprise. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7 heures |
 | [Principes fondamentaux de Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Souhaitez-vous en savoir plus sur les applications métier ? Commencez ce parcours d’apprentissage pour voir comment les applications Dynamics 365 sont utilisées. Découvrez les concepts du cloud, Power Platform, et comment prendre en main les applications Dynamics 365. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures |
@@ -114,6 +113,3 @@ Pour les consultants techniques, notre recherche d’analyse de tâche a montré
 | [Examen MB-300 : Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences pour accomplir les tâches techniques suivantes : utiliser la fonctionnalité courante et les outils d’implémentation ; configurer la sécurité, les processus et les options ; effectuer la migration des données ; et valider et prendre en charge le support de la solution. | Examen ; le coût varie selon la région |
 | [Examen MB-330 : Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences pour exécuter les tâches techniques suivantes : implémenter la gestion des informations de produit ; implémenter la gestion des stocks ; implémenter et gérer les processus de la chaîne d’approvisionnement ; et implémenter la gestion des entrepôts et des transports, sans oublier exécuter les processus métier. | Examen ; le coût varie selon la région |
 | [Examen MB-320 : Microsoft Dynamics 365 for Finance and Operations, Manufacturing](https://www.microsoft.com/learning/exam-MB-320.aspx) | Cet examen évalue vos compétences en matière d’accomplissement des tâches techniques suivantes : configurer la fabrication ; créer et gérer la production et les commandes au plus juste ; et créer, traiter et gérer les commandes de traitement par lots de production. | Examen ; le coût varie selon la région |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bd57319ed4ae6c57c106be1ad0fdc93fe1941d29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1420c6c11b59efe4d01c13f269a65bd02dd76d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964469"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 
@@ -54,6 +53,3 @@ Une réservation budgétaire générale est exonérée différemment, en fonctio
 - Si le document est une commande fournisseur, la réservation est exonérée lorsque la commande fournisseur est *confirmée*.
 - Si le document est une facture et qu’il ne référence pas une commande fournisseur ou un contrat d’achat, la réservation budgétaire générale est exonérée lorsque la facture est *validée*.
 - Si le document est une demande d’achat, la réservation est exonérée lorsque la demande d’achat est *approuvée*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

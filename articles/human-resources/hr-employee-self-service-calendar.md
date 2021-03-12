@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
+ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4418589"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "4962263"
 ---
 # <a name="view-team-and-company-calendars"></a>Afficher les calendriers des équipes et de la société
 
@@ -72,6 +72,3 @@ Vous pouvez également filtrer les calendriers par responsable ou service. L’a
 
 Pour plus d’informations sur les paramètres du calendrier, voir [Configurer les paramètres du calendrier](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

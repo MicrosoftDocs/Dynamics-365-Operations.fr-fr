@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412173"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963108"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurer les modes de livraison et les frais du centre d'appels
 
@@ -95,6 +94,3 @@ Vous pouvez éventuellement associer un code d'expédition à un mode de livrais
 Par exemple, pour les commandes à expédier par avion le lendemain, le prélèvement doit être effectué dans l'entrepôt avant 13h chaque jour. Dans ce cas, un code d'expédition peut être créé, et ce code peut être associé à tout mode de livraison le lendemain qui est configuré dans le système. Lorsque l'entrepôt crée sa vague de prélèvement, le code d'expédition approprié dans le champ **Expédition** peut être utilisé comme filtre, afin que le prélèvement soit exécuté uniquement pour les commandes dont les modes de livraison sont associés à ce code.
 
 En outre, lorsqu'une commande du centre d'appels est saisie, un code d'expédition peut être manuellement appliqué à l'en-tête de la commande client ou à une ligne individuelle de la commande client. Le code peut également être utilisé pour les besoins de tri ou de génération d'états. Une commande doit parfois être traitée avec précaution en raison d'un problème de service client. Dans ce cas, un code d'expédition spécifique peut être appliqué à l'en-tête ou aux lignes de la commande pour aider à identifier et hiérarchiser la commande lors du processus d'exécution.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

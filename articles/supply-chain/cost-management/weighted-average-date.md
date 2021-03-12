@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427703"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963736"
 ---
 # <a name="weighted-average-date"></a>Date moyenne pondérée
 
@@ -51,7 +50,7 @@ Les mouvements de sortie du stock, notamment les commandes client, les journaux 
 
 Les règlements correspondent à des validations de clôture du stock qui ajustent les sorties à la moyenne pondérée correcte depuis la date de clôture. 
 
-**Remarque :**  pour plus d'informations sur les règlements, voir l'article concernant la clôture de stock. Les exemples suivants illustrent l'impact du modèle de moyenne pondérée avec cinq configurations :
+**Remarque :** pour plus d'informations sur les règlements, voir l'article concernant la clôture de stock. Les exemples suivants illustrent l'impact du modèle de moyenne pondérée avec cinq configurations :
 
 -   Règlement direct à la date moyenne pondérée sans l'option **Inclure la valeur physique**
 -   Règlement récapitulatif à la date moyenne pondérée sans l'option **Inclure la valeur physique**
@@ -196,6 +195,3 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

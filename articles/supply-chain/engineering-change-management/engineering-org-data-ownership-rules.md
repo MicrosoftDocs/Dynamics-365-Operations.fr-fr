@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5cab02600e13a1a539b5ae0cd3ff66960430e826
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: ab5ca3bee65bb0ee8ce7f44ba97c00347fe38366
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4428336"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963661"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Règles des propriété des sociétés d'ingénierie et des données
 
@@ -67,6 +66,3 @@ Chaque catégorie de produits d'ingénierie appartient à une société d'ingén
 
     - Lorsque ces documents sont remis à d'autres entités juridiques, les documents sont protégés contre la suppression par la société opérationnelle.
     - D'autres entités juridiques peuvent ajouter des documents locaux entièrement nouveaux. La société opérationnelle possède et gère ces documents locaux.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CompanyNAFCode, CustTable, VendTable, smmBusRelTable, OMLegalEntity
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bbe68cece66e661c9114331d43ac9abc03cd4b8d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0209366b2cd00c9c9e68a49802a3f9d74b4c059f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407965"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964482"
 ---
 # <a name="fr-00003-naf-codes-and-siret-numbers"></a>FR-00003 Codes NAF et numéros Siret
 
@@ -84,6 +83,3 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
     * Entrez le type légal de l’entité juridique, tel que Organisation sans but lucratif, Entreprise industrielle ou Institution financière.  
 7. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

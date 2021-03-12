@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 5585ad96ec689b55c00e123fc465684436028823
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516667"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963608"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Catalogue d’apprentissage pour les chefs de projet d’implémentation qui utilisent Dynamics 365 Supply Chain Management
 
@@ -107,6 +106,3 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | [Examen MB-300 : Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences pour accomplir les tâches techniques suivantes : utiliser la fonctionnalité courante et les outils d’implémentation ; configurer la sécurité, les processus et les options ; effectuer la migration des données ; et valider et prendre en charge le support de la solution. | Examen ; le coût varie selon la région |
 | [Examen MB-320 : Microsoft Dynamics 365 for Finance and Operations, Manufacturing](https://docs.microsoft.com/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences en matière d’accomplissement des tâches techniques suivantes : configurer la fabrication ; créer et gérer la production et les commandes au plus juste ; et créer, traiter et gérer les commandes de traitement par lots de production. | Examen ; le coût varie selon la région |
 | [Examen MB-330 : Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Cet examen évalue vos compétences pour exécuter les tâches techniques suivantes : implémenter la gestion des informations de produit ; implémenter la gestion des stocks ; implémenter et gérer les processus de la chaîne d’approvisionnement ; et implémenter la gestion des entrepôts et des transports, sans oublier exécuter les processus métier. | Examen ; le coût varie selon la région |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

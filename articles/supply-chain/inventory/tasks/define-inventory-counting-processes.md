@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9df5db0e71f550e82820e15b1597d9e287071f83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3c8550e539a1b3299d89ec2b13550a13e284d807
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428151"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961369"
 ---
 # <a name="define-inventory-counting-processes"></a>Définir les processus de comptage d'inventaire
 
@@ -85,6 +84,3 @@ Cette rubrique décrit la configuration des processus de comptage d'inventaire b
 5. Dans le menu déroulant du champ **Groupe de comptage**, sélectionnez un groupe de comptage. Vous pouvez sélectionner un groupe de comptage spécifique devant être appliqué aux articles de l'entrepôt spécifique sélectionné. Lors du comptage dans cet entrepôt, cette stratégie de comptage remplace la stratégie de comptage générale pour l'article.  
 6. Sélectionnez **Enregistrer**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

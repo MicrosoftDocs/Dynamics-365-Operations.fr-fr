@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: d014fcd542462e092f6e88232dff8fd5ee2253c1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594524"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963458"
 ---
 # <a name="autofirming-with-planning-optimization"></a>Confirmation automatique avec l’optimisation de la planification
 
@@ -67,6 +66,3 @@ L'option Optimisation de planification et le moteur de planification qui est int
 - La confirmation automatique est basée sur la date de besoin (date de fin).
 - Pour assurer que les ordres sont confirmés en temps voulu, la plage de confirmation doit être plus longue que le délai d'exécution.
 - Si vous souhaitez confirmer tous les ordres qui doivent commencer pendant la semaine en cours, la plage de confirmation doit être le délai d'exécution plus une semaine.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

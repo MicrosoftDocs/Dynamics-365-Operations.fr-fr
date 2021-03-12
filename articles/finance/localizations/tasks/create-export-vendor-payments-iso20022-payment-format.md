@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff8a2858bfa96eb1d4b0afa1e48ebd1b578a4431
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1df738e3925dc23e7723d93f33acf6a9d811b113
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443271"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964539"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022
 
@@ -50,6 +49,3 @@ Il s’agit de la cinquième des cinq procédures illustrant le processus de pai
     3.    Dans le champ **Nom du fichier**, saisissez une valeur. Pour cet exemple, en raison du paiement en EUR, le fichier généré sera conforme à la norme SEPA. Le transfert de crédit ISO20022 ainsi que tout autre format de paiement fournisseurs peut être également utilisé pour générer les paiements dans d’autres devises.
     4.    Dans le champ **Compte en banque**, saisissez ou sélectionnez une valeur.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

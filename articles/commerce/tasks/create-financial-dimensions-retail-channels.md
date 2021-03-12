@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea36732023092f714b3a783d98b512c0fea7dade
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 86fc9c9a400bee1280b32f10b1e8f55e581e1984
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412319"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964743"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Créer des dimensions financières pour les canaux de vente au détail et configurer les valeurs de dimension pour les magasins
 
@@ -55,6 +54,3 @@ Cette procédure vous guide au cours de la création d'une dimension financière
 24. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 25. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

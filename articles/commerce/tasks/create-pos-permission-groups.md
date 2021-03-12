@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ffc64fd39a390af3ca7110178ef0999527106dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac03e1bfb7a2463b31feca0a4303c182a00ad259
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412318"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964818"
 ---
 # <a name="create-pos-permission-groups"></a>Créer des groupes d'autorisations PDV
 
@@ -48,6 +47,3 @@ Cette rubrique illustre la création d'un groupe d'autorisations du PDV. La soci
 16. Dans le champ Groupe d'autorisations du PDV, saisissez ou sélectionnez une valeur. Tous les collaborateurs affectés à des postes pour cette tâche utilisent les paramètres de ce groupe d'autorisations PDV sauf si les autorisations de PDV des collaborateurs ont été remplacées au niveau de leur poste.  
 17. Sélectionnez **Enregistrer**. Une fois vos modifications enregistrées, vous devez exécuter le programme de répartition du personnel pour que les modifications soient appliquées aux canaux.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea98367640ce7ba5937901ad58ee627a03d634fa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3bb1e50cd5f290b6e58ed01d10ade2836f36f69f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407966"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964485"
 ---
 # <a name="fr-00002-customer-and-vendor-account-statements"></a>FR-00002 Relevés de compte client et fournisseur
 
@@ -50,6 +49,3 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 4. Dans le champ Évaluation, entrez une date.
 5. Cliquez sur OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAdjInventOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53231
 ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc97db0f0b637e27ece904fe24e91a92044bc17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6a702a083d60bdb289712027fbaee5c0a72e60cb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428096"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963836"
 ---
 # <a name="adjust-on-hand-inventory-cost-values"></a>Ajustement des valeurs de coût du stock disponible
 
@@ -32,7 +31,7 @@ ms.locfileid: "4428096"
 
 Utilisez la page Ajustement du stock disponible pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté.
 
-Vous pouvez utiliser la page **Ajustement du stock disponible** pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté. **Remarque :** pour ouvrir la page **Ajustement du stock disponible**, dans la page **Clôture et ajustement**, sélectionnez l'enregistrement d'un processus de clôture de stock terminé, puis cliquez sur **Ajustement** &gt; **Disponible**. **Exemple :** les transactions suivantes ont lieu en février :
+Vous pouvez utiliser la page **Ajustement du stock disponible** pour ajuster le coût des quantités de stock disponible une fois qu'un processus de clôture de stock a été exécuté. **Remarque :** pour ouvrir la page **Ajustement du stock disponible**, dans la page **Clôture et ajustement**, sélectionnez l’enregistrement d’un processus de clôture de stock terminé, puis cliquez sur **Ajustement** &gt; **Disponible**. **Exemple :** les transactions suivantes ont lieu en février :
 
 -   1er février : réception financière de stock d'une quantité de 2 au coût de 10,00 EUR ;
 -   5 février : réception financière de stock d'une quantité de 1 au coût de 13,00 EUR ;
@@ -44,6 +43,3 @@ Cet article était paramétré avec le modèle de stock FIFO (premier entré, pr
 -   5 février : quantité de 1 à un coût de 13,00 EUR.
 
 Pour définir le coût de ces deux articles sur 15,00 EUR, utilisez l'option d'ajustement disponible et ajustez les quantités disponibles ouvertes à partir de la dernière période de clôture de stock. **Remarque :** la date de validation de la transaction d'ajustement disponible sera la date de la dernière clôture de stock. Cette date ne peut pas être modifiée.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

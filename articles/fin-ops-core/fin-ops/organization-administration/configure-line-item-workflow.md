@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a72719c9fd03f73b69b558fc0f08eed91ea94ee1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c19693151399fc02ea9562757af7fc24124c9b6c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694357"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798827"
 ---
 # <a name="configure-line-item-workflows"></a>Configuration des workflows pour ligne
 
@@ -54,6 +54,3 @@ Procédez comme suit pour indiquer si le même workflow est utilisé pour traite
     6. Pour vérifier que l’ensemble de conditions que vous avez entrées est correctement paramétré, cliquez sur **Tester**. Sur la page **Condition de workflow de test**, sélectionnez un enregistrement dans la zone **Contrôler la condition**, puis cliquez sur **Tester**. Le système évalue l’enregistrement pour déterminer s’il répond aux conditions que vous avez spécifiées. Cliquez sur **OK** ou sur **Annuler** pour revenir à la page **Propriétés**.
 
     Sous l’onglet **Workflow**, sélectionnez le workflow à utiliser pour traiter les articles de lignes qui remplissent l’ensemble de conditions que vous avez définies.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

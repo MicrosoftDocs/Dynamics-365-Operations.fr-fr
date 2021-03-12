@@ -3,7 +3,7 @@ title: Vue d’ensemble de déclaration d’échanges de biens
 description: Cette rubrique fournit des informations sur la génération d’états de déclaration d’échanges de biens pour le commerce de marchandises et, dans certains cas, pour les services entre les pays/régions de l’Union européenne (UE). Il fournit une vue d’ensemble du processus de déclaration, et décrit les paramètres et les conditions préalables requises.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408003"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962724"
 ---
 # <a name="intrastat-overview"></a>Vue d’ensemble de déclaration d’échanges de biens
 
@@ -197,7 +196,7 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 <td><ul>
 <li><strong>Général</strong> – Spécifiez les informations suivantes :
 <ul>
-<li>Les codes transaction par défaut pour les commandes client, les commandes fournisseur, les avoirs et les ordres de transfert. Le code transaction paramétré pour les avoirs est également utilisé comme code pour le retour des marchandises physiques et pour les écarts des retours physiques par rapport aux avoirs de correction.</li>
+<li>Les codes transaction par défaut pour les commandes client, les commandes fournisseur, les avoirs et les ordres de transfert. Le code transaction paramétré pour les avoirs est également utilisé comme code pour le retour des marchandises physiques et pour les écarts des retours physiques par rapport aux avoirs de correction. Les retours de biens physiques sont déclarés dans le transfert Intrastat avec une direction différente. Le retour d'arrivée est signalé comme expédition et le retour d'expédition est signalé comme arrivée.</li>
 <li>L’employé responsable de la préparation des états Intrastat.</li>
 </ul></li>
 <li><strong>Limite inférieure</strong> – Permet de spécifier les paramètres de mise à jour des transactions qui sont en dessous du seuil :
@@ -240,6 +239,3 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

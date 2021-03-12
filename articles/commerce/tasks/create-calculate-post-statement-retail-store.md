@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21f1b0a34205e192957405bc9d298c45c8bb4d25
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ef31bc02fe1761a587ff6bcbecf4a0f34daea9b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412322"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964868"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Créer, calculer et valider des relevés pour un magasin de vente au détail
 
@@ -48,6 +47,3 @@ Cette rubrique décrit les étapes manuelles pour créer, calculer et valider un
 12. Sur la page d'accueil, sélectionnez **Finances du magasin**.
 13. Sélectionnez l'onglet **Relevés validés**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
