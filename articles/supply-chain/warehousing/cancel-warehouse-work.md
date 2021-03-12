@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428250"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001196"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Annuler le travail d'entrepôt pour le traitement des exceptions
 
@@ -45,6 +44,3 @@ Seul le travail de type **Ventes**, **Sortie de transfert**, **Prélèvement de 
 Pour débloquer le travail, le système annule toutes les lignes de travail restantes et corrige les données d'entrepôt associées à l'ID travail que l'utilisateur a spécifié. Toutes les opérations de gestion en entrepôt standard qui impliquent la quantité d'article affectée peuvent alors continuer.
 
 Pour ranger l'article affecté à un emplacement spécifique une fois le travail annulé, l'utilisateur doit utiliser une opération de mouvement de stock ou d'ajustement de quantité sur un appareil mobile.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

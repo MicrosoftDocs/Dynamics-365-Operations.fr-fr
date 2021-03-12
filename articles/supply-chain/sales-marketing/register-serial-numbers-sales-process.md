@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable, InventSerial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 989dcca499f6d27ae9680f184978d5500397fa57
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e4f5a04e85d3cc34111b7421fbff6cbde413b7c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427815"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001522"
 ---
 # <a name="working-with-serialized-items"></a>Utilisation des articles en série
 
@@ -51,12 +50,12 @@ L'enregistrement des numéros de série pour tous les articles sur un bon de liv
 Vous pouvez créer des factures partielles et des bons de livraison partiels pour des commandes client, et n'enregistrer que les numéros de série pour les articles que ces factures et ces bons de livraison incluent. Si vous souhaitez créer une facture partielle et si vous avez plusieurs bons de livraison pour la commande client, vous pouvez inclure des numéros de série de plusieurs bons de livraison. Toutefois, il ne peut y avoir qu'un bon de livraison dans lequel tous les numéros de série ne sont pas inclus. Par exemple, si vous avez trois bons de livraison, et que chacun inclut deux articles fabriqués en série, vous ne pouvez pas créer une facture partielle pour un article de chaque bon de livraison.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Que faire si un numéro de série n'est pas lisible ?
-Si un numéro de série ne peut pas être lu ou scanné, vous pouvez créer une ligne vide pour l'article en cliquant sur la page **Non lisible** sur la page **Numéros de série**. Si le numéro de série devient disponible ultérieurement, vous pourrez mettre à jour la facture ou le bon de livraison. Pour plus d'informations, voir la section suivante, « Puis-je corriger ou modifier les numéros de série que j'ai enregistrés pour une commande client » ?
+Si un numéro de série ne peut pas être lu ou scanné, vous pouvez créer une ligne vide pour l'article en cliquant sur la page **Non lisible** sur la page **Numéros de série**. Si le numéro de série devient disponible ultérieurement, vous pourrez mettre à jour la facture ou le bon de livraison. Pour plus d'informations, voir la section suivante, « Puis-je corriger ou modifier les numéros de série que j'ai enregistrés pour une commande client ? »
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Puis-je corriger ou modifier les numéros de série que j'ai enregistrés pour une commande client ?
 Oui, vous pouvez modifier les numéros de série si les conditions suivantes sont remplies :
--   **Factures**  – Vous pouvez modifier les numéros de série pour les articles que vous n'avez pas encore facturés. Le bon de livraison est ensuite également mis à jour. Toutefois, si une ligne de commande client a été corrigée en enregistrant une quantité négative, vous ne pouvez pas modifier les numéros de série de la ligne de commande client.
--   **Bons de livraison**  – Vous pouvez corriger partiellement une ligne de bon de livraison qui contient des articles fabriqués en série. Vous devez contrepasser la totalité de la quantité pour la ligne. Si un bon de livraison a été annulé ou corrigé, vous ne devez pas enregistrer à nouveau les numéros de série contrepassés lors de la création d'un bon de livraison pour les mêmes articles fabriqués en série. Les numéros qui ont été enregistrés seront utilisés.
+-   **Factures** – Vous pouvez modifier les numéros de série des articles que vous n'avez pas encore facturés. Le bon de livraison est ensuite également mis à jour. Toutefois, si une ligne de commande client a été corrigée en enregistrant une quantité négative, vous ne pouvez pas modifier les numéros de série de la ligne de commande client.
+-   **Bons de livraison** – Vous pouvez corriger partiellement une ligne de bon de livraison qui contient des articles fabriqués en série. Vous devez contrepasser la totalité de la quantité pour la ligne. Si un bon de livraison a été annulé ou corrigé, vous ne devez pas enregistrer à nouveau les numéros de série contrepassés lors de la création d'un bon de livraison pour les mêmes articles fabriqués en série. Les numéros qui ont été enregistrés seront utilisés.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Puis-je afficher les numéros de série qui ont été expédiés avec un bon de livraison spécifique, ou qui étaient inclus dans une facture ?
 Oui, vous pouvez effectuer une recherche sur la ligne de journal des bons de livraison ou la ligne de journal des factures pour afficher une liste de tous les numéros de série qui ont été inclus dans le document.
@@ -65,11 +64,11 @@ Oui, vous pouvez effectuer une recherche sur la ligne de journal des bons de liv
 Non, vous ne pouvez pas afficher les articles fabriqués en série disponibles, car les numéros de série ne sont pas enregistrés pour les articles tant qu'ils ne sont pas vendus.
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Est-ce que je peux enregistrer les numéros de série pour les articles de poids variable ?
-Non, vous ne pouvez pas enregistrer des numéros de série pour les articles de poids variable dans le processus de vente. Vous ne pouvez pas non plus affecter un produit défini comme article de poids variable à un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
+Non, vous ne pouvez pas enregistrer des numéros de série pour les articles de poids variable dans le processus de vente. Vous ne pouvez pas non plus affecter un produit défini comme article de poids variable à un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
 
 ## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Puis-je enregistrer les numéros de série au point de vente au détail ?
 
-Oui, le point de vente au détail invitera l'utilisateur à saisir un numéro de série lorsque l'utilisateur vend un article affecté un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
+Oui, le point de vente au détail invitera l'utilisateur à saisir un numéro de série lorsque l'utilisateur vend un article affecté un groupe de dimensions de suivi paramétré pour utiliser des numéros de série uniquement lors du processus de vente.
 
 ## <a name="what-security-roles-are-required-in-order-to-register-serial-numbers-during-the-sales-process"></a>Quels rôles de sécurité sont nécessaires afin d'enregistrer des numéros de série lors du processus de vente ?
 Cette fonction est disponible pour tous les rôles pouvant tenir à jour des bons de livraison et des factures. Les responsabilités suivantes permettent aux collaborateurs de corriger les numéros de série, et d'enregistrer des entrées vides pour les numéros de série qui ne peuvent pas être affichés ou scannés :
@@ -80,6 +79,3 @@ Cette fonction est disponible pour tous les rôles pouvant tenir à jour des bon
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

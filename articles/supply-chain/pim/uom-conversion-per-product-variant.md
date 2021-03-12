@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428176"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001697"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversion d'unité de mesure selon la variante de produit
 
@@ -59,7 +58,7 @@ Pour configurer une fiche produit pour prendre en charge la conversion d'unités
     - **Produit :** Si vous sélectionnez cette valeur, vous pouvez paramétrer une conversion d'unité pour le produit générique. Cette conversion d'unité sera utilisée comme solution de rechange pour toutes les variantes de produit pour lesquelles aucune conversion d'unité n'est définie.
     - **Variante de produit :** Si vous sélectionnez cette valeur, vous pouvez paramétrer une conversion d'unités pour une variante de produit spécifique. Utilisez le champ **Variante de produit** pour sélectionner la variante.
 
-    ![![Ajout d'une nouvelle conversion d'unité](media/uom-new-conversion.png "Ajout d'une nouvelle conversion d'unité")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![Ajout d'une nouvelle conversion d'unité](media/uom-new-conversion.png "Ajout d'une nouvelle conversion d'unité")
 
 1. Utilisez les autres champs fournis pour configurer votre conversion d'unité.
 1. Cliquez sur **OK** pour enregistrer la nouvelle conversion d'unité.
@@ -107,6 +106,3 @@ Pour exporter des conversions d'unité vers Excel, sur la page **Conversions d'u
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Gérer l'unité de mesure](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

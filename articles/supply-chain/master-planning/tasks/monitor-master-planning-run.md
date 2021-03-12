@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1cbe2c55ef9e3ed35db30ca927f3472c750c1db5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427664"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999804"
 ---
 # <a name="monitor-a-master-planning-run"></a>Surveiller l'exécution d'une planification générale
 
@@ -127,6 +126,3 @@ La couleur est affichée uniquement sur le niveau le plus bas dans le diagramme 
 1. Dans la grille, sélectionnez la ligne où le champ **Champ** est défini sur **Numéro d’article**.
 1. Dans le champ **Critère**, entrez une valeur.
 1. Cliquez sur **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

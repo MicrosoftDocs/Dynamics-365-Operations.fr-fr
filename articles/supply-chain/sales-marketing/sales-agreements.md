@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage, SalesAgreementInvoiceJournal, SalesAgreementInvoicePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b848a0450c1cce1b3c6f7954397c75a44526d2b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7d86e7b9c6c2c21083ec79f798038a74b133577d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427814"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001472"
 ---
 # <a name="sales-agreements-overview"></a>Vue d'ensemble des contrats de vente
 
@@ -37,7 +36,7 @@ La période de validité d'un contrat de vente est définie par les champs **Dat
 
 Vous pouvez créer une commande client directement à partir d'un contrat de vente à l'aide de l'action **Lancer la commande**. Vous pouvez également sélectionner un contrat de vente en vigueur lorsque vous acceptez des commandes (voir la section « Application des contrats de vente dans le processus de commande » de cet article).  
 
-> [Remarque!] Dans les versions antérieures, les contrats de vente étaient nommés Commandes cadres client.
+> [Remarque!] Dans les versions antérieures, les contrats de vente étaient nommés Commandes ouvertes vente.
 
 ## <a name="commitment-types"></a>Types d'engagements
 Chaque ligne d'un accord de vente exprime un engagement à vendre quelque chose. En général il existe deux catégories d'engagement :
@@ -113,6 +112,3 @@ Vous pouvez copier les dimensions financières vers des en-têtes de document ou
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

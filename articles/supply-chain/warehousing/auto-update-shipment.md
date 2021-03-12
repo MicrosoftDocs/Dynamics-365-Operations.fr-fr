@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f75e9421ab9cac0b62e1cdee17ecf74796783cc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427686"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001222"
 ---
 # <a name="shipment-auto-updates"></a>Mises à jour automatiques de l'expédition
 
@@ -140,6 +139,3 @@ La vague est traitée et crée l'ordre de travail pour les quantités réservée
 Si une expédition a un statut **Traité par vagues** ou supérieur, les mises à jour de la quantité d'une ligne de commande client ne sont pas reflétées sur, ou validées par rapport à une ligne de chargement associée à l'expédition. Les modifications apportées à la quantité d'une ligne de chargement doivent être apportées directement sur la ligne de chargement.
 
 La validation a lieu une fois l'ordre de travail créé pour la ligne de chargement et une réservation a été effectuée. Une baisse de la quantité figurant sur la ligne de la commande vente est ensuite validée par rapport à la réservation de la ligne de travail.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

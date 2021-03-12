@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40779d1f8bc14072928767ae1c83fdda47476871
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428169"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998876"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Enregistrement de la consommation de matières à l'aide d'un appareil mobile
 
@@ -34,23 +33,23 @@ Cette rubrique décrit un workflow qui active l'enregistrement de la consommatio
 <a name="introduction"></a>Introduction
 ------------
 
-Ce workflow est utile s'il y a une obligation stricte de traçabilité des matières. Dans ces cas, pour assurer la traçabilité des matières, le temps et la quantité exacts doivent être déclarés pour la consommation. Ce processus peut être considéré comme opposé aux opérations de préconsommation ou postconsommation, où il existe un décalage entre le moment de l'enregistrement et le moment de la consommation réelle. Cela explique pourquoi une stratégie de consommation automatique ne peut pas être utilisée pour certaines matières soumises à des obligations de traçabilité. Examinons un scénario simple qui explique comment paramétrer un workflow pour activer l'enregistrement de la consommation de matières premières dans la production à l'aide d'un appareil portable. [![paramétrer un workflow pour activer l'enregistrement de la consommation de matières premières à l'aide d'un périphérique portable](./media/scenario3.png)](./media/scenario3.png)
+Ce workflow est utile s'il y a une obligation stricte de traçabilité des matières. Dans ces cas, pour assurer la traçabilité des matières, le temps et la quantité exacts doivent être déclarés pour la consommation. Ce processus peut être considéré comme opposé aux opérations de préconsommation ou postconsommation, où il existe un décalage entre le moment de l'enregistrement et le moment de la consommation réelle. Cela explique pourquoi une stratégie de consommation automatique ne peut pas être utilisée pour certaines matières soumises à des obligations de traçabilité. Examinons un scénario simple qui explique comment paramétrer un workflow pour activer l'enregistrement de la consommation de matières premières dans la production à l'aide d'un appareil portable. [![paramétrer un workflow pour activer l'enregistrement de la consommation de matières premières à l'aide d'un appareil portable](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Détails du scénario
 
 Un processus de production continue (5) consomme la matière première contrôlée par lots RM-100. La matière est disponible à l'emplacement Bulk-001 (1) sur le contenant PL-1 avec deux lots, B1 et B2, tous deux d'une quantité de 100 kilos. Le travail d'entrepôt (2) est lancé et traité pour RM-100, et la matière est prélevée de Bulk-001 vers l'emplacement d'entrée en production PIL-01 (3), qui est défini comme un emplacement qui ne fait pas l'objet d'un contrôle de contenant. L'opérateur pèse la matière dans l'emplacement d'entrée en production (3) et enregistre le poids et le numéro de lot comme étant consommés (4). Dans l'emplacement d'entrée en production, une partie de la matière est ajoutée manuellement au processus de production à des intervalles de temps définis. Lorsque l'opérateur ajoute la matière, elle est pesée sur une échelle et le numéro de lot est enregistré.
 
-## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Paramétrer le workflow pour enregistrer la consommation à l'aide d'un appareil portable
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Paramétrer le workflow pour enregistrer la consommation à l'aide d'un appareil portable
 Créez un produit fini, FG-100, avec une nomenclature contenant la matière première contrôlée par lots RM-100. Ajoutez deux lots, B1 et B2, de RM-100 d'une quantité de 100 à l'emplacement : Bulk-001 sur le contenant : PL-1. Le principe d'effacement sur la ligne de nomenclature pour RM-100 est défini sur **Manuel**. Définissez l'emplacement d'entrée en production sur PIL-01. Pour ce faire, sélectionnez cet emplacement comme emplacement d'entrée en production par défaut dans l'entrepôt 51.
 
 1.  Créez une option de menu d'appareil mobile : 
 
--    **Nom de l'option de menu** - Permet d'enregistrer la consommation de matières. 
--    **Titre** - Permet d'enregistrer la consommation de matières. 
+-    **Nom de l'option de menu** - Enregistrer la consommation de matières. 
+-    **Titre** - Enregistrer la consommation de matières. 
 -    **Mode** - Indirect. 
--    **Code d'activité** – Permet d'enregistrer la consommation de matières.
+-    **Code d'activité** - Enregistrer la consommation de matières.
 
-2.  Ajoutez l'option de menu au menu d'appareil mobile **Production mobile**.
+2.  Ajoutez l'option de menu au menu de l'appareil mobile **Production mobile**.
 3.  Créez un ordre de fabrication pour le produit fini : 
 
 -    **Numéro d'article** - FG-100 
@@ -68,7 +67,7 @@ Les matières sont transférées de l'emplacement de stockage en gros vers l'emp
 
 Une fois l'ordre de fabrication démarré, vous pouvez enregistrer la consommation de matières avec le workflow pour l'appareil portable. Commençons par enregistrer la consommation de 25 kilos du lot B1.
 
-6.  Sélectionnez l'option de menu  **Enregistrer la consommation de** **matières** et, dans le menu de l'appareil portable, entrez les informations suivantes : 
+6.  Sélectionnez l'option de menu **Enregistrer la consommation de** **matières** et, dans le menu de l'appareil portable, entrez les informations suivantes : 
 
 -    Numéro de l'ordre de fabrication. 
 -    Emplacement dans lequel les matières seront consommées, dans ce cas PIL-01. 
@@ -92,6 +91,3 @@ Après avoir terminé votre enregistrement, sélectionnez **Terminé** pour vali
 -   Les matières peuvent être surconsommées. Par exemple, si les matières sont estimées pour être utilisées avec la quantité de 100 kilos, elles peuvent être surconsommées avec une quantité de 105 kilos, par exemple.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

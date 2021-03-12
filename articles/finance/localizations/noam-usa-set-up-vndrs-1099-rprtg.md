@@ -12,7 +12,6 @@ ms.search.form: PSNCanadianHSTTaxFeature
 audience: Application User
 ms.devlang: ''
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.tgt_pltfrm: ''
 ms.custom: ''
 ms.search.region: Global
@@ -20,12 +19,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bc3f2cf1aec97fa7bb6505f3be721c56b20e9331
-ms.sourcegitcommit: ffe9ae98b347f78430926ca96c1061f25f698f53
+ms.openlocfilehash: 0c3f4a9e5d5e604a16e6d212f0a97521613b9a16
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4408015"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000418"
 ---
 # <a name="set-up-vendors-for-1099-reporting"></a>Paramétrer des fournisseurs pour l’état 1099
 
@@ -118,6 +117,3 @@ Le système évalue tout fournisseur où l’option **État 1099** sélectionn�
 
 > [!NOTE]
 > Une nouvelle colonne nommée **Créé par le processus de mise à jour 1099** a été ajouté à la page **Transactions taxe 1099**. Les cases à cocher de cette colonne sont sélectionnées pour indiquer que le nouveau processus de mise à jour a mis à jour du solde 1099. Si la case d’une ligne est décochée, la fonctionnalité standard a été utilisée pour créer la transaction. Pour ouvrir la page **Transactions taxe 1099**, allez à **Comptabilité fournisseur \> Tâches périodiques \> Règlement du fournisseur pour les 1099 \> Transactions 1099 du fournisseur**. Sinon, allez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**, sélectionnez un fournisseur, puis, dans le volet Actions, sur l’onglet **Fournisseur**, dans le groupe **Informations fiscales**, sélectionnez **Règlement du fournisseur pour les 1099 \> transactions 1099 du fournisseur**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

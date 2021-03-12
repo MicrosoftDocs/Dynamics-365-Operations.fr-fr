@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e8274890c581fffc7330538430c9b2ba060041bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428314"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999101"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Résoudre les problèmes liés aux workflows d’approvisionnements
 
@@ -80,6 +79,3 @@ Une que vous avez annulé les commandes fournisseur qui étaient dans un état *
 
 Ce problème se produit uniquement pour les commandes fournisseur faisant l'objet d'une gestion des modifications. Cela se produit parce que l'annulation est considérée comme un changement qui doit être approuvé. L'approbation peut être effectuée automatiquement par le système. Par conséquent, le processus consiste à soumettre la commande fournisseur annulée au workflow d'approbation afin qu'elle puisse passer à l'état *Approuvé*. À ce stade, la commande fournisseur n'apparaîtra plus dans la liste des brouillons de commande fournisseur dans l'espace de travail **Préparation de la commande fournisseur**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

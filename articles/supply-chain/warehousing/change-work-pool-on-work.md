@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66d110c3235e8a87b64bf160bdad8524fad6abe5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427926"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001147"
 ---
 # <a name="change-work-pool-on-work"></a>Modifier le pool de travail sur le travail
 
@@ -149,6 +148,3 @@ Vous pouvez utiliser la page **Détails du travail** pour afficher le travail cr
 > Quand la boîte de dialogue **Changer de pool de travail** s'affiche, le champ **ID du pool de travail** peut être vide par défaut. Si le champ est vide lorsque vous sélectionnez **OK** pour appliquer les modifications, vous supprimerez complètement le pool de travail du travail.
 >
 > En plus de changer de pool de travail, vous pouvez utiliser cette procédure pour ajouter un pool de travail à tout élément de travail qui n'en a pas, ou pour supprimer un pool de travail de tout élément de travail qui en a.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

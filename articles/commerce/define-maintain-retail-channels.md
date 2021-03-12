@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51524ad6918d962d70a8a700f135f96e236f7d34
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412185"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000873"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Définir et tenir à jour les canaux de vente au détail
 
@@ -89,6 +88,3 @@ Commerce utilise des hiérarchies d'organisation pour structurer les canaux. Les
 > [!NOTE]
 > Pour utiliser la fonctionnalité de vente de Commerce, la clé de configuration pour **Expédition multiple** doit être activée. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de diverses validations basées sur l'adresse de livraison configurée au niveau de la ligne de commande client.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

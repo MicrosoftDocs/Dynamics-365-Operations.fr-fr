@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428301"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001497"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Réserver le même lot pour une commande client
 
@@ -45,6 +44,3 @@ Lorsque vous réservez du stock pour un produit sur une ligne de commande client
 - Le lot a une durée de conservation en jours insuffisante, selon la date d'expiration/DLUO, plus les jours de vente du client.
 
 Pour les éléments associés à un groupe de dimensions de stockage avec l'option **Utiliser des processus de gestion des entrepôts** activée, vous pouvez réserver des numéros de lot spécifiques en utilisant une hiérarchie de réservation avec la dimension d'inventaire de numéro de lot définie au-dessus de la dimension d'emplacement. La page **Réservation de lot** des lignes de commande client et d'ordre de transfert vous permet également de sélectionner et de réserver plusieurs lignes en fonction des numéros de lot disponibles. Pour plus d'informations sur la procédure à suivre si vous utilisez une hiérarchie de réservation dont la dimension de numéro de lot se situe sous l'emplacement, voir [Stratégie flexible de réservation de dimension au niveau de l'entrepôt](../warehousing/flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
