@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 0561a3307f8b990c06dd25c9fc3fd7097254061f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4443351"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988464"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Paramétrer le module complémentaire de facturation électronique
 
@@ -120,11 +119,11 @@ Sur la page **Paramétrage de version de fonctionnalité**, dans l’onglet **Ac
 
 Le tableau suivant décrit les champs disponibles dans le raccourci **Actions**.
 
-| Champ        | Description  |
+| Champ        | Description |
 |--------------|-------------|
 | Action       | Il existe huit actions prédéfinies :<ul><li><strong>Signer le document</strong></li><li><strong>FileStoreActionName</strong></li><li><strong>Transformer le document</strong></li><li><strong>Réponse du processus</strong></li><li><strong>Appeler le service web REST</strong></li><li><strong>Appeler le service PAC mexicain</strong></li><li><strong>Appeler le service SEFAZ brésilien</strong></li><li><strong>Appeler le service SDI italien</strong></li></ul> |
 | Nom de l’action  | Nom de l’action et son ordre d’exécution. |
-| Description   | Description de l’action. |
+| Description  | Description de l’action. |
 | Activer la nouvelle tentative | Une case cochée indique que l’action peut être réexécutée si la tentative précédente a échoué. |
 | Réessayer l’action | En cas de nouvelle tentative, action à partir de laquelle la nouvelle tentative est lancée. La nouvelle tentative se termine sur l’action actuelle (nouvelle tentative inclusive). Pour les actions applicables, les paramétres **Interruption minimale** et **Interruption maximale** spécifient le nombre minimal et le nombre maximal de nouvelles tentatives. |
 
@@ -136,11 +135,11 @@ Le raccourci **Paramètres** répertorie les paramètres de l’action sélectio
 
 Le tableau suivant décrit les champs disponibles dans le raccourci **Paramètres**.
 
-| Champ       | Description  |
+| Champ       | Description |
 |-------------|-------------|
 | Nom        | Liste prédéfinie de paramètres. Pour plus d’informations, consultez la section [Liste des paramètres par action](#list-of-parameters-by-action). |
-| Description  | Description du paramètre. |
-| Valeur        | Valeur du paramètre. |
+| Description | Description du paramètre. |
+| Valeur       | Valeur du paramètre. |
 
 #### <a name="list-of-parameters-by-action"></a>Liste des paramètres par action
 
@@ -148,7 +147,7 @@ Les paramètres disponibles varient selon l’action sélectionnée dans le racc
 
 ###### <a name="action-sign-document"></a>Action : Signer le document
 
-| Paramètre                             | Description  |
+| Paramètre                             | Description |
 |---------------------------------------|-------------|
 | Fichier d’entrée                            | Fichier document XML d’entrée devant être signé à l’aide d’une signature électronique. |
 | Nom du certificat                      | Nom du certificat stocké. |
@@ -167,13 +166,13 @@ Les paramètres disponibles varient selon l’action sélectionnée dans le racc
 
 ###### <a name="action-filestoreactionname"></a>Action : FileStoreActionName
 
-| Paramètre  | Description  |
+| Paramètre  | Description |
 |------------|-------------|
 | Fichier d’entrée | Fichier d’entrée à stocker. |
 
 ###### <a name="action-transform-document"></a>Action : Transformer le document
 
-| Paramètre                       | Description  |
+| Paramètre                       | Description |
 |---------------------------------|-------------|
 | Fichier d’entrée                      | Fichier source qui fournit les données devant être exécutées pour l’action. |
 | Direction                       | Valeur indiquant si le format d’importation ou le format d’exportation doit être utilisé. |
@@ -183,14 +182,14 @@ Les paramètres disponibles varient selon l’action sélectionnée dans le racc
 
 ###### <a name="action-process-response"></a>Action : Réponse du processus
 
-| Paramètre                    | Description  |
+| Paramètre                    | Description |
 |------------------------------|-------------|
 | Fichier d’entrée                   | Réponse à analyser. |
 | Liste de configuration des rapports | Liste de configurations utilisée pour analyser les réponses. |
 
 ###### <a name="action-call-rest-web-service"></a>Action : Appeler le service web REST
 
-| Paramètre                   | Description  |
+| Paramètre                   | Description |
 |-----------------------------|-------------|
 | URL de service Web             | URL vers laquelle envoyer des requêtes. |
 | Délai d’expiration de la requête web         | Durée maximale (en millisecondes) d’attente d’une réponse du service web. |
@@ -208,7 +207,7 @@ Les paramètres disponibles varient selon l’action sélectionnée dans le racc
 
 ###### <a name="action-call-mexican-pac-service"></a>Action : Appeler le service PAC mexicain
 
-| Paramètre                | Description  |
+| Paramètre                | Description |
 |--------------------------|-------------|
 | Fichier d’entrée               | Fichier contenant les données XML qui seront envoyées au service web en tant que paramètre d’entrée de la méthode. |
 | Adresse URL              | Adresse du service web (point de terminaison). |
@@ -224,7 +223,7 @@ Les paramètres disponibles varient selon l’action sélectionnée dans le racc
 
 ###### <a name="action-call-brazilian-sefaz-service"></a>Action : Appeler le service SEFAZ brésilien
 
-| Paramètre                | Description  |
+| Paramètre                | Description |
 |--------------------------|-------------|
 | Fichier d’entrée               | Fichier contenant les données XML qui seront envoyées au service web en tant que paramètre d’entrée de la méthode. |
 | Adresse URL              | Adresse du service web (point de terminaison). |
@@ -240,7 +239,7 @@ Les paramètres disponibles varient selon l’action sélectionnée dans le racc
 
 ###### <a name="action-call-italian-sdi-service"></a>Action : Appeler le service SDI italien
 
-| Paramètre                | Description  |
+| Paramètre                | Description |
 |--------------------------|-------------|
 | Fichier d’entrée               | Fichier contenant les données XML qui seront envoyées au service web en tant que paramètre d’entrée de la méthode. |
 | Adresse URL              | Adresse du service web (point de terminaison). |
@@ -282,12 +281,12 @@ Pour dissocier des clauses, sélectionnez les clauses regroupées à dissocier, 
 
 Le tableau suivant décrit les champs disponibles dans l’onglet **Règles d’applicabilité**.
 
-| Champ         | Description  |
+| Champ         | Description |
 |---------------|-------------|
 | Et/ou        | Opérateur logique. |
 | Champ         | Champ à utiliser pour construire la règle. |
 | Type d’opérateur | Type d’opérateur :<ul><li>Egal</li><li>Différent</li><li>Supérieur à/Inférieur à</li><li>Supérieur ou égal à/Inférieur ou égal à</li><li>Contient</li><li>Commence par</li></ul> |
-| Valeur          | Critère de la règle. |
+| Valeur         | Critère de la règle. |
 
 ### <a name="variables"></a>Variables
 
@@ -301,13 +300,13 @@ Vous pouvez créer des variables, puis les utiliser comme valeur d’entrée pou
 
 Le tableau suivant décrit les champs disponibles dans l’onglet **Variables**.
 
-| Champ       | Description  |
+| Champ       | Description |
 |-------------|-------------|
 | Nom        | Nom de la variable. |
-| Description  | Courte description de la variable. |
+| Description | Courte description de la variable. |
 | Type        | Type de variable :<ul><li><strong>Constant</strong> : le contenu de la variable est fixe.</li><li><strong>À partir du client</strong> : le contenu de la variable est acquis à partir du client Microsoft Dynamics 365 pendant l’exécution du processus d’envoi.</li><li><strong>Vers le client</strong> : le contenu de la variable est disponible pour importation par le client Microsoft Dynamics 365 pendant l’exécution du processus d’envoi.</li></ul> |
 | Type de données   | Type de données de la variable :<ul><li>Booléen</li><li>Date</li><li>Nombre</li><li>UUID</li><li>Chaîne</li><li>Fichier</li></ul> |
-| Valeur        | Valeur de la variable ou nom de l’action qui définit la valeur de la variable. |
+| Valeur       | Valeur de la variable ou nom de l’action qui définit la valeur de la variable. |
 
 ### <a name="validate-the-feature-setup"></a>Valider le paramétrage de la fonctionnalité
 
@@ -361,6 +360,3 @@ Suivez les étapes ci-après pour gérer le cycle de vie de la fonctionnalité c
 
     > [!NOTE]
     > Lorsque vous sélectionnez **Oui**, le statut des versions de configuration est automatiquement modifié de **Terminé** à **Partagé**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

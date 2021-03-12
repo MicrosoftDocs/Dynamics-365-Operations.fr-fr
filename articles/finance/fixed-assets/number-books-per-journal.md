@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: cfb9a9e1456a7d9067e3c4369a7eb7150326655d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650660"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988950"
 ---
 # <a name="number-of-books-per-journal"></a>Nombre de registres par journal
 
@@ -46,7 +45,7 @@ Le travail de traitement par lots exclut les registres fermés. Par exemple, dan
 
 La limite du nombre de registres est appliquée si les ID d’éléments en double n’existent pas dans le même journal. Cependant, si l’ID d’actif est le même que l’ID de registres, le nombre de registres par journal peut être dépassé pour conserver l’ID d’actif dans le même journal.
 
-Par exemple, il existe 5 001 ID d’immobilisation, trois registres sont associés à chaque ID d’immobilisation et chaque registre d’immobilisation est enregistré dans la même couche de comptabilisation. Vous exécutez l’amortissement pendant trois mois consécutifs, sans synthèse. Le journal d’amortissement sera créé via un traitement par lots, et le système créera sept journaux contenant 667 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Le résultat sera 2 001 registres. Par conséquent, dans trois mois, il y aura 6 003 lignes de journal pour conserver les mêmes ID d’actif dans le même journal. Le système créera également un journal contenant 332 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Dans trois mois, il y aura 2 988 lignes.
+Par exemple, il existe 5 001 ID d’immobilisation, trois registres sont associés à chaque ID d’immobilisation et chaque registre d’immobilisation est enregistré dans la même couche de comptabilisation. Vous exécutez l’amortissement pendant trois mois consécutifs, sans synthèse.  Le journal d’amortissement sera créé via un traitement par lots, et le système créera sept journaux contenant 667 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Le résultat sera 2 001 registres. Par conséquent, dans trois mois, il y aura 6 003 lignes de journal pour conserver les mêmes ID d’actif dans le même journal. Le système créera également un journal contenant 332 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Dans trois mois, il y aura 2 988 lignes.
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [!Note] 
+> Si le paramètre **Cumuler l’amortissement** est activé lorsque vous créez une proposition d'amortissement, alors la valeur du champ **Nombre de registres par journal - Proposition d'amortissement** n'a aucun effet. Dans ce cas, le nombre de livres par journal est de 6000, qui est la limite interne définie.

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: b331d5caec6b479088c7892ab9f85a1da05e2828
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8958185ce13cad773f22239c74962ede142659eb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407986"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988331"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>États de rapprochement pour la Belgique
 
@@ -52,7 +51,7 @@ Pour imprimer l’état **Liste de taxe - Belgique**, allez dans **Taxe** \> **R
 ![État généré de la liste de taxe](media/2_Sales_tax_list.png)
 
 ## <a name="sales-tax-transactions---details--belgium"></a>Transactions de taxe - Détails - Belgique
-Utilisez le rapport **Transactions de taxe - Détails - Belgique** pour afficher et imprimer des informations sur les transactions de taxe validées pour une période donnée et une plage de codes taxe. Les transactions sont répertoriées par code taxe. Pour chaque transaction, vous pouvez voir le client ou le fournisseur, le N° document, le compte dans lequel le montant de base de la taxe est validé, le montant de base de la taxe (d’origine), le montant taxe comprise, le montant de la taxe, les dépenses de taxe et la direction de la taxe. Les montants sont additionnés pour chaque code taxe. Les montants des directions de taxe Taxe déductible et Taxe collectée sont additionnés dans un total général. L’état répertorie également les codes taxe avec d’autres directions de taxe, telles que la Taxe d’utilisation.
+Utilisez le rapport **Transactions de taxe - Détails - Belgique** pour afficher et imprimer des informations sur les transactions de taxe validées pour une période donnée et une plage de codes taxe. Les transactions sont répertoriées par code taxe. Pour chaque transaction, vous pouvez voir le client ou le fournisseur, le justificatif, le compte dans lequel le montant de base de la taxe est validé, le montant de base de la taxe (d’origine), le montant taxe comprise, le montant de la taxe, les dépenses de taxe et la direction de la taxe. Les montants sont additionnés pour chaque code taxe. Les montants des directions de taxe Taxe déductible et Taxe collectée sont additionnés dans un total général. L’état répertorie également les codes taxe avec d’autres directions de taxe, telles que la Taxe d’utilisation.
 
 Pour imprimer l’état **Transactions de taxe - Détails, Belgique**, allez dans **Taxe** \> **Recherches et états** \> **Déclarations de taxe** \> **Transactions de taxe - Détails, Belgique**.
 
@@ -71,9 +70,9 @@ Pour imprimer l’état **Transactions de taxe liées aux ventes**, allez dans *
 
 ## <a name="sales-tax-transactions---belgium"></a>Transactions de taxe - Belgique
 
-L’état **Transactions de taxe - Belgique** affiche les transactions de taxe belges validées. L’état fournit des détails sur la date, le n° document, les codes taxe, le nom, la source, la facture, le montant, la TVA nette dans la devise de la société, le montant TVA net dans la devise du document et la devise du document.
+L’état **Transactions de taxe - Belgique** affiche les transactions de taxe belges validées. L’état fournit des détails sur la date, le n° document, les codes taxe, le nom, la source, la facture, le montant, la TVA nette dans la devise de la société, le montant TVA net dans la devise du justificatif et la devise du justificatif.
 
-Vous pouvez trier l’état par N° document, date, devise de document, code taxe, et source. Les champs **N° document**, **Code taxe** et **Devise du N° document** fournissent l’extraction. Les paramètres de cet état permettent beaucoup de flexibilité. Vous pouvez consulter un état très détaillé en sélectionnant le document, la date, ou les paramètres de code taxe. Utilisez un filtre pour définir les paramètres de l’état.
+Vous pouvez trier l’état par N° document, date, devise de document, code taxe, et source. Les champs **N° document**, **Code taxe** et **Devise du justificatif** fournissent l’extraction. Les paramètres de cet état permettent beaucoup de flexibilité. Vous pouvez consulter un état très détaillé en sélectionnant le document, la date, ou les paramètres de code taxe. Utilisez un filtre pour définir les paramètres de l’état.
 
 Pour imprimer l’état **Transactions de taxe - Belgique**, allez dans **Taxe** \> **Recherches et états** \> **Déclarations de taxe** \> **Transactions de taxe - Belgique**.
 
@@ -127,6 +126,3 @@ Les paramètres de cet état permettent beaucoup de flexibilité. Vous pouvez co
 L’état **Transactions de taxe sur les achats** affiche les transactions comportant des droits de douane sur les achats. Les droits de douane sur les achats sont calculés et validés avec les paiements de taxe. Les droits de douane sur les achats et les taxes sont déclarés pour la période de règlement. La période de règlement varie selon l’administration fiscale définie sur la page **Périodes de règlement de la taxe**. Les informations dans la section d’en-tête de l’état fournissent des détails tels que le numéro identifiant TVA, le numéro d’entreprise, la période. Ces informations de détail incluent le journal, le N° document, la date, le compte fournisseur, le nom, le montant taxte comprise, et les codes déclaration de taxe. Cet état est un rapport externe. Le comptable ou gestionnaire comptable le génère et la soumet périodiquement aux administrations appropriées. Pour imprimer l’état **Transactions de taxe sur les achats**, cliquez sur **Taxe** &gt; **Recherches et états** &gt; **Déclarations de taxe** &gt; **Transactions de taxe sur les achats**.
 
 ![État généré des transactions de taxe sur les achats](media/8_Purchase_sales_tax_transactions.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

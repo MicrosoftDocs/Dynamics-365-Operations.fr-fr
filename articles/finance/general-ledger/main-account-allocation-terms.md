@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount, AllocationTerms
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 637e12f0deaa53811093a8745bc74dbc19e34f6b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f529852f63c3dd12064c74403a12f6f3041691e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443085"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988668"
 ---
 # <a name="allocation-terms"></a>Conditions de répartition
 
@@ -55,7 +54,7 @@ Dans l’organisateur **Compte général de destination**, le compte principal e
 5. Activez la case à cocher **Répartition**.
 6. Sélectionnez **Conditions de répartition**.
 7. Sélectionnez **Modifier** pour modifier l’enregistrement par défaut, ou sélectionnez **Nouveau** pour ajouter un enregistrement.
-8. Dans le champ **Pourcentage**, entrez le pourcentage de transactions de N° document que vous souhaitez répartir.
+8. Dans le champ **Pourcentage**, entrez le pourcentage de pièces comptables que vous souhaitez répartir.
 9. Dans l’organisateur **Dimension financière source**, dans le champ **Critères de sélection** de chaque dimension financière, sélectionnez une option.
     - Si vous sélectionnez **Spécifique**, sélectionnez la valeur de la dimension financière dans la liste déroulante à droite.
     - Si vous sélectionnez **Non spécifique**, aucune information supplémentaire n’est nécessaire pour la dimension financière.
@@ -70,6 +69,3 @@ Dans l’organisateur **Compte général de destination**, le compte principal e
 > Vous pouvez éventuellement utiliser le bouton **Copier** pour dupliquer la répartition sélectionnée.
 
 Lorsqu’une condition de répartition est créée pour un compte principal, le système va automatiquement valider un nouveau N° document lors de la validation d’un N° document, qui correspond aux dimensions financières source dans les conditions de répartition.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

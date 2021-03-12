@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15772
 ms.assetid: 3864e4da-853f-403d-b906-79631d80b363
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301f15f1d7d8f0e10bbaf2546fcf727aff284624
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 751be602b701ac7a5b593404bf655e1a9852f863
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443058"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990487"
 ---
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
@@ -47,7 +46,7 @@ Lorsque vous activez le processus d’engagement en sélectionnant **Activer le 
 
 Les définitions de validation des engagements sont paramétrées pour le module **Achat en cours** dans la page **Définitions de validation**. Puis, dans la zone **Achat en cours** de la page **Définitions de validation de transaction**, vous pouvez sélectionner le type de transaction **Commande fournisseur** pour associer la définition de validation aux commandes fournisseur. 
 
-Toutes les transactions de N° document pour les engagements de commandes fournisseur doivent être équilibrées (c’est-à-dire, le débit doit être égal au crédit) dans chaque dimension unique d’un N° document.
+Toutes les pièces comptables pour les engagements de commandes fournisseur doivent être équilibrées (c’est-à-dire, le débit doit être égal au crédit) dans chaque dimension unique d’un N° document.
 
 ### <a name="posting-definition--match-criteria"></a>Définition de validation – Critères de rapprochement
 
@@ -128,6 +127,3 @@ Dans cet exemple, toutes les parties de compte de la structure de compte - Résu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

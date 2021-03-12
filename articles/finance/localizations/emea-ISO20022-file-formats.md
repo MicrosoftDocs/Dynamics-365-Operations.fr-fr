@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b809ba8d92772d8f3f416d4854d4af322e6f954a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0645f473214dd4f8edf56e93c44ed4d734c64b1b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988428"
 ---
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
@@ -129,6 +128,3 @@ Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble
 - [Paramétrer le mode de paiement pour les virements ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Configurer le mode de paiement pour le débit direct ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

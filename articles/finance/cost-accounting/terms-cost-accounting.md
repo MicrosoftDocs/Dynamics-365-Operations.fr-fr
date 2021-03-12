@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 948beb7baa19c69530dca52b5d4c119b69f8f011
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2bd821fdfe62475849e6d3b80d3a2c377bbabf4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443302"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990615"
 ---
 # <a name="cost-accounting-terminology"></a>Terminologie du contrôle de gestion
 
@@ -205,6 +204,3 @@ Les relevés sont des vues pour les responsables chargés de contrôler les coû
 Les versions sont utilisées pour simuler, afficher, puis comparer différents résultats. Par défaut, tous les coûts réels sont affichés dans une version de base *réelle*. Pour les budgets et les calculs, vous pouvez utiliser autant de versions que vous le souhaitez. Par exemple, vous pouvez importer les données du budget dans une version d’origine puis modifier le budget d’une version modifiée. Pour les calculs, vous pouvez créer plusieurs versions. Dans ces différentes versions, vous pouvez créer des calculs à l’aide de différentes règles de calcul qui s’appliqueront pour la répartition des coûts.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

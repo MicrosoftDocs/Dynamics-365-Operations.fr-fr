@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87f93fd7c1c42045274d6b89847b27e93614d9a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f58b6896dd5b9e257bf6066e56142dcd2d8fb45
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443308"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990790"
 ---
 # <a name="create-cost-elements"></a>Créer des éléments de coût 
 
@@ -58,6 +57,3 @@ Il existe plusieurs façons de créer des éléments de coût dans le contrôle 
 1. Cliquez sur Afficher les membres de la dimension.
     * Affichez les comptes généraux importés en tant qu’éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

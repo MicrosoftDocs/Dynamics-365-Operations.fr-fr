@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3244d857a9135249130672501f8b766ff9a0680
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 697ca7557b26026783626e843ee1e5d1fd27db9a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990262"
 ---
 # <a name="reverse-journal-posting"></a>Contrepasser la validation du journal
 
@@ -70,6 +69,3 @@ Si le nombre de lignes de documents est inférieur ou égal à cent, le processu
 
 Les transactions peuvent être contrepassées que si elles sont conformes aux règles métier pour les contrepasser. Les paiements fournisseur ne peuvent pas être contrepassés en utilisant une capacité décrite dans cette rubrique. Les paiements fournisseur doivent être contrepassés en suivant les étapes indiquées dans [Contrepasser un paiement fournisseur](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

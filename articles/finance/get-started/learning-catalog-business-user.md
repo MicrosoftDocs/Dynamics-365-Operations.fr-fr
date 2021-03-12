@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443212"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990237"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catalogue d’apprentissage pour les utilisateurs de Dynamics 365 Finance
 
@@ -54,12 +53,10 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | [Configuration et utilisation de la budgétisation dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Chaque organisation, privée ou publique, définit des objectifs financiers et opérationnels en créant des budgets. Avec la nature de processus et collaborative de la planification budgétaire, vous pouvez rendre votre processus budgétaire plus efficace. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 3.5 heures |
 | [Configuration et gestion des immobilisations dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Vous pouvez définir et entrer des informations d’acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4.5 heures |
 | [Commencez avec le contrôle de gestion des chaînes d’approvisionnement dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Le contrôle de gestion vous permet de collecter des données de différentes sources, telles que la comptabilité, les comptabilités auxiliaires, les budgets, et les informations statistiques. Vous pouvez ensuite analyser, résumer, et évaluer les données de coût, de sorte que la gestion puisse prendre les meilleures décisions possibles concernant les mises à jour de prix, les budgets, le contrôle des coûts, et ainsi de suite.  | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 1 heure  |
+| [Utiliser le module Gestion des dépenses dans Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Maximisez la rentabilité et minimisez les coûts grâce à des capacités de gestion des dépenses précises dans Dynamics 365 Project Operations. Découvrez comment configurer le système, créer et approuver des notes de frais. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures  |
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
-| Contenu | Description   | Format  |
+| Contenu | Description  | Format  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Attestez que vous comprenez Microsoft Dynamics 365 ; Power Platform ; les concepts de cloud ; les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

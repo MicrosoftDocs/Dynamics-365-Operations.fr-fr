@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f9259c9bbf52c1c09a7092db6976fc3fabca6601
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443027"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990437"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proposer des acquisitions d’immobilisations
 
@@ -43,6 +42,3 @@ Cette rubrique décrit comment acquérir une immobilisation à l’aide de la pr
 - Seules les immobilisations dont la date et le prix d’acquisition sont définis sur le registre sont incluses dans la proposition d’acquisition.  
 11. Dans la page, sélectionnez l’onglet **Registres**.
 12. Sélectionnez **Valider**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

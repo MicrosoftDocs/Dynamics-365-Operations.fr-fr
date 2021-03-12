@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 27211
 ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47e79eb12e8f4563595507b0edafba7e056e476c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bcf68a5dd7602bb570a7bed61c8ed77ead8b8dd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408008"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989917"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 
@@ -65,6 +64,3 @@ Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5dbe0d822f7bdb1a62a99c43ef9f7170c889676
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443254"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988875"
 ---
 # <a name="import-currency-exchange-rates"></a>Importer les taux de change des devises
 
@@ -56,6 +55,3 @@ Vous pouvez importer des taux de change à partir de la source des fournisseurs 
 | **Remplacer les taux de change existants**   | Cette case à cocher permet de gérer la mise à jour du taux de change existant pour une paire de devises lorsque le taux de change pour une date spécifique existe déjà. Si vous n’activez pas cette case à cocher, le taux de change des dates spécifiques n’est pas importé si un autre taux de change existe déjà.                                                                                       |
 | **Éviter l’importation un jour de fête nationale** | Cette case à cocher gère l’importation du taux de change pour la date du jour férié. Par exemple, si vous activez cette case à cocher et utilisez la banque centrale européenne comme fournisseur de taux de change, le système ne met pas le taux de change à jour sur un jour férié associé à l’entité juridique actuelle. Cette option n’est peut-être pas disponible pour certains fournisseurs. |
 | **Taux du jour précédent** | Cette case à cocher est disponible si vous activez la fonctionnalité **Importation de la BCE à la date actuelle ou précédente** à la page **Gestion des fonctions**. Cette case à cocher n’est disponible que pour le fournisseur, *Banque centrale d’Europe*. Activez cette case à cocher pour importer le taux de change de la devise qui est publié par la Banque centrale européenne le jour ouvrable précédent vers 16h00 CET. Par défaut, cette case est cochée. Décochez cette case pour importer le taux de change de la devise publié le même jour ouvrable.  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

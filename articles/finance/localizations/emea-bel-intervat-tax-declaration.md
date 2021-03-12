@@ -3,7 +3,7 @@ title: Déclaration de taxe INTERVAT
 description: Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 author: anasyash
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273023
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 7c95a3f84ac95b51bc329d92150d6a7bf3796256
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1259fe9a62077c9e24671c5646ea5f7e4a71e31
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408006"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988351"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -80,7 +79,7 @@ Les conditions préalables suivantes doivent être configurées avant de commenc
 ### <a name="posting-journal"></a>Journal de validation
 
 1.  Allez dans **Comptabilité** \> **Paramétrage du journal** \> **Journaux de validation**.
-2.  Sur la page **Paramétrage du journal**, sélectionnez **Créer**. La souche de N° documents est créée automatiquement.
+2.  Sur la page **Paramétrage du journal**, sélectionnez **Créer**. La souche de N° de justificatif est créée automatiquement.
 
 ### <a name="sales-tax-authorities"></a>Administrations fiscales
 
@@ -104,7 +103,7 @@ Des exemples de code déclaration de taxe sont fournis dans la section [Paramét
 ### <a name="tax-exempt-number"></a>Numéro identifiant TVA
 
 1.  Allez dans **Taxe** \> **Paramétrage** \> **Taxe** \> **Numéros identifiant TVA**.
-2.  Pour chaque numéro identifiant TVA, créez un enregistrement comprenant les informations suivantes :
+2.  Pour chaque numéro d'identifiant TVA, créez un enregistrement comprenant les informations suivantes :
 
     -   Dans le champ **Pays/région**, sélectionnez l’enregistrement de taxe de la contrepartie.
     -   Dans le champ **Numéro identifiant TVA**, entrez le numéro identifiant TVA de la contrepartie.
@@ -116,7 +115,7 @@ Pour plus d’informations sur le paramétrage des déclarations de fin, voir [D
 
 ### <a name="set-up-intervat"></a>Paramétrer INTERVAT
 
-Créez des lignes sur la page **Paramétrage INTERVAT** (**Taxe \> Paramétrage \> Taxe \> Paramétrage INTERVAT**). Les informations que vous entrez dans cette page sont utilisées lorsque vous sélectionnez **Ouvrir le site web** sur la page **Déclaration de taxe INTERVAT**. Vous devez créer un élément pour chaque langue. Définissez les champs suivants : **Langue**, **Description** et **URL**.
+Créez des lignes sur la page **Paramétrage INTERVAT** (**Taxe \> Paramétrage \> Taxe \> Paramétrage INTERVAT**). Les informations que vous entrez dans cette page sont utilisées lorsque vous sélectionnez **Ouvrir le site web** sur la page **Déclaration de taxe INTERVAT**. Créez un élément pour chaque langue. Définissez les champs suivants : **Langue**, **Description** et **URL**.
 
 ![Page Paramétrage INTERVAT](media/1_Intervat_setup.png)
 
@@ -269,7 +268,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>81</p>
 </td>
 <td width="71%">
-<p>Montant de tous les achats de biens, matières premières et consommables, et coûts d’acquisition associés.</p>
+<p>Montant de tous les achats de biens, matières premières, et consommables, et coûts d'acquisition associés, à l'exclusion de la TVA déductible.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -280,7 +279,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>82</p>
 </td>
 <td width="71%">
-<p>Montant de marchandises diverses et de services, peu importe s’ils sont soumis à la TVA.</p>
+<p>Montant de marchandises diverses et de services, peu importe s'ils sont soumis à la TVA, à l'exclusion de la TVA déductible.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -291,7 +290,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>83</p>
 </td>
 <td width="71%">
-<p>Montant des achats de biens d’équipement, peu importe s’ils sont soumis à la TVA.</p>
+<p>Montant des achats de biens d’équipement, peu importe s'ils sont soumis à la TVA, à l'exclusion de la TVA déductible.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -335,7 +334,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>85</p>
 </td>
 <td width="71%">
-<p>Montant des crédits reçus et ajustements négatifs liés aux autres zones de la section III, « Entrées ».</p>
+<p>Montant des crédits reçus et ajustements négatifs liés aux autres zones de la section III, « Entrées », à l'exclusion du montant de la TVA (déductible et non déductible).</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -645,7 +644,7 @@ Suivez ces étapes pour entrer les montants de correction manuelle.
 > [!NOTE]
 > Les codes de déclaration composés qui sont utilisés pour les avoirs, comme le code **8185**, ne sont pas disponibles à la sélection. Il en va de même pour les codes **71**, **72** et **91**. Les codes **71** et **72** sont calculés automatiquement lorsque la déclaration de taxe belge est exécutée. Le code **91** est entré d’une autre manière (voir la description du champ **Décaissement** ci-dessus).
 >
-> Si une période fiscale est mise à jour, un N° document et une date s’affichent. (Pour plus d’informations, consultez la description de la case à cocher **Mettre à jour** dans la section [Générer une déclaration de taxe INTERVAT](#generate-an-intervat-tax-declaration) plus loin dans cette rubrique.) La période comportant un N° document et une date est une période de TVA clôturée pour la Belgique. Par conséquent, toutes les valeurs de l’onglet **Général** de la page **Corrections de taxe** sont en lecture seule. Lorsque de nouvelles transactions avec taxes sont entrées pour la période de TVA clôturée, les taxes sont transférées vers la prochaine période fiscale ouverte disponible.
+> Si une période fiscale est mise à jour, un N° de justificatif et une date s’affichent. (Pour plus d’informations, consultez la description de la case à cocher **Mettre à jour** dans la section [Générer une déclaration de taxe INTERVAT](#generate-an-intervat-tax-declaration) plus loin dans cette rubrique.) La période comportant un justificatif et une date est une période de TVA clôturée pour la Belgique. Par conséquent, toutes les valeurs de l’onglet **Général** de la page **Corrections de taxe** sont en lecture seule. Lorsque de nouvelles transactions avec taxes sont entrées pour la période de TVA clôturée, les taxes sont transférées vers la prochaine période fiscale ouverte disponible.
 
 
 ## <a name="generate-an-intervat-tax-declaration"></a>Générer une déclaration de taxe INTERVAT
@@ -789,7 +788,7 @@ Notez que le montant de l’avoir est indiqué dans le code **84**.
    -   **Mettre à jour :** Non
    -   **Mise en correspondance des formats :** Format INTERVAT (BE)
 
-![Page Déclaration de taxe INTERVAT](media/6_Intervat.png)
+![Nouvelle page Déclaration de taxe INTERVAT](media/6_Intervat.png)
 
 18.  Cliquez sur **OK**, ouvrez le fichier et examinez le rapport.
 
@@ -808,6 +807,3 @@ Pour plus d’informations sur les états de rapprochement pour la Belgique, voi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

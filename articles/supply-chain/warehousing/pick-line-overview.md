@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427769"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989691"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Configurer un élément de menu d'appareil mobile pour fournir un aperçu de la ligne de prélèvement
 
@@ -69,6 +68,3 @@ Pour configurer un élément de menu d'appareil mobile pour fournir un aperçu d
     - Utilisez les champs restants de **Champ d'affichage** pour ajouter jusqu'à sept champs d'affichage supplémentaires, selon vos besoins. Dans chaque champ de **Champ d'affichage**, sélectionnez le nom d'un champ de ligne de travail. Chaque ligne affichera alors une valeur pour ce champ. Les valeurs seront affichées dans l'ordre que vous sélectionnez ici. Vous pouvez laisser certains des champs de **Champ d'affichage** vides si vous n'avez pas besoin des sept valeurs.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**, puis fermez la page **Liste de champs**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

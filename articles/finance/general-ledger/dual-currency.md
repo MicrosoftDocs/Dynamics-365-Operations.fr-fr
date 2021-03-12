@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443019"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990462"
 ---
 # <a name="dual-currency"></a>Devise double
 
@@ -70,7 +69,7 @@ Pour divers états et requêtes, la logique étaient également ajoutée pour su
 
 ## <a name="financial-journals"></a>Journaux financiers
 
-Les journaux financiers, tels que le journal des opérations diverses et le journal des factures fournisseur, ont été mis à jour afin d’inclure des informations supplémentaires sur la devise de déclaration. Les totaux pour le N° document et le journal s’affichent désormais dans la devise de déclaration. En outre, des informations sur le taux de change de la devise de déclaration apparaissent désormais dans l’onglet **Général** des lignes de journal. Par conséquent, vous pouvez remplacer le taux de change de la devise de déclaration lorsque vous entrez des transactions.
+Les journaux financiers, tels que le journal des opérations diverses et le journal des factures fournisseur, ont été mis à jour afin d’inclure des informations supplémentaires sur la devise de déclaration. Les totaux pour le justificatif et le journal s’affichent désormais dans la devise de déclaration. En outre, des informations sur le taux de change de la devise de déclaration apparaissent désormais dans l’onglet **Général** des lignes de journal. Par conséquent, vous pouvez remplacer le taux de change de la devise de déclaration lorsque vous entrez des transactions.
 
 ## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Factures fournisseur, commandes client et contrats de vente
 Les factures fournisseur, les commandes client et les contrats de vente ont été mis à jour pour inclure un taux de change fixe pour la devise de déclaration. Un taux de change fixe peut être défini pour la devise comptable et la devise de déclaration lorsque la devise de transaction est différente. Lorsque la devise comptable et la devise de déclaration sont identiques, le taux de change fixe est conservé synchronisé à l’aide du taux fixe de la devise comptable comme taux fixe de la devise de déclaration. Le taux de change fixe de la devise de déclaration ne peut pas être modifié pour cette configuration. Lorsque la devise comptable et la devise de déclaration diffèrent, un taux de change fixe peut être défini pour la devise comptable et la devise de déclaration lors de la saisie de la transaction. Si la devise de déclaration n’a pas été définie dans la comptabilité, le champ **Taux de change fixe de la devise de déclaration** n’est pas activé, et aucun montant de devise de déclaration n’est calculé.
@@ -198,7 +197,7 @@ En outre, des modifications importantes ont été apportées au processus d’am
     - Les nouveaux champs sont disponibles uniquement lorsque le type de transaction est de l’un des quatre types d’amortissement : **Amortissement**, **Ajustement de l’amortissement**, **Amortissement exceptionnel**, ou **Provision spéciale pour amortissement**.
     - Si un type de transaction d’amortissement est entré dans le journal des immobilisations, les montants en devise de déclaration apparaissent dans les nouvelles colonnes. Ces montants peuvent être modifiés.
     - Si la devise comptable et les devises de déclaration dans la comptabilité sont identiques, les montants sont synchronisés. Si vous modifiez le montant du **Crédit**, le montant du **Crédit dans la devise de déclaration** sera automatiquement modifié afin qu’il lui corresponde.
-    - Si un autre type de transaction est entré dans le journal des immobilisations, les montants du **Débit dans la devise de déclaration** et du **Crédit dans la devise de déclaration** ne sont jamais affichés, avant ou après la validation. Les montants de la devise comptable et de la devise de déclaration sont toujours disponibles dans le N° document qui valide dans la comptabilité.
+    - Si un autre type de transaction est entré dans le journal des immobilisations, les montants du **Débit dans la devise de déclaration** et du **Crédit dans la devise de déclaration** ne sont jamais affichés, avant ou après la validation. Les montants de la devise comptable et de la devise de déclaration sont toujours disponibles dans le justificatif qui valide dans la comptabilité.
     
 ### <a name="consolidations"></a>Consolidations
     
@@ -209,6 +208,3 @@ Dans la consolidation dans le module Comptabilité, une nouvelle option a été 
 -  Vous pouvez désormais utiliser la devise comptable ou la devise de déclaration de la société source comme devise de transaction dans la société de consolidation.
 
 - Les montants de la devise comptable ou de la devise de déclaration de la société source sont copiés directement dans les montants de devise de déclaration et de comptabilité, si l’une ou l’autre est identique. Les montants de la devise comptable ou de la devise de déclaration dans la société de consolidation sont calculés à l’aide du taux de change si aucune des devises n’est identique.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
