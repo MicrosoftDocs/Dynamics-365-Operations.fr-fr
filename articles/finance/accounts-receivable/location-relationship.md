@@ -11,66 +11,65 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 00810576d36339bf7ce0657b1577e1e322c36bf0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979087"
 ---
-# <a name="add-location-and-party-relationship-types"></a><span data-ttu-id="d7bbd-103">Ajouter un emplacement et des types de relations de partie</span><span class="sxs-lookup"><span data-stu-id="d7bbd-103">Add location and party relationship types</span></span> 
+# <a name="add-location-and-party-relationship-types"></a><span data-ttu-id="fdad8-103">Ajouter un emplacement et des types de relations de partie</span><span class="sxs-lookup"><span data-stu-id="fdad8-103">Add location and party relationship types</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="add-location-roles"></a><span data-ttu-id="d7bbd-104">Ajouter des rôles d’emplacement</span><span class="sxs-lookup"><span data-stu-id="d7bbd-104">Add location roles</span></span>
+## <a name="add-location-roles"></a><span data-ttu-id="fdad8-104">Ajouter des rôles d’emplacement</span><span class="sxs-lookup"><span data-stu-id="fdad8-104">Add location roles</span></span>
 
-<span data-ttu-id="d7bbd-105">Vous pouvez ajouter un nouveau rôle d’emplacement pour les informations d’adresse et de contact de deux manières :</span><span class="sxs-lookup"><span data-stu-id="d7bbd-105">There are two ways to add a new location roles for address and contact information:</span></span>
+<span data-ttu-id="fdad8-105">Vous pouvez ajouter un nouveau rôle d’emplacement pour les informations d’adresse et de contact de deux manières :</span><span class="sxs-lookup"><span data-stu-id="fdad8-105">There are two ways to add a new location roles for address and contact information:</span></span>
 
--  <span data-ttu-id="d7bbd-106">Utilisez la page **Objet des informations d’adresse et de contact**.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-106">Add it through the **Address and contact information purpose** page.</span></span> <span data-ttu-id="d7bbd-107">Le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type = 0, qui indique que le rôle n’est pas un rôle système défini dans l’énumération **LogisticsLocationRoleType** et ses extensions.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-107">The new role will be saved to the **LogisticsLocationRole** table with type = 0, which indicates that the role is not a system role defined in the **LogisticsLocationRoleType** enum and its extensions.</span></span> <span data-ttu-id="d7bbd-108">Un utilisateur peut utiliser ce rôle lors de la création des informations d’adresse ou de contact.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-108">A user will be able to use this role when creating address or contact information.</span></span>
+-  <span data-ttu-id="fdad8-106">Utilisez la page **Objet des informations d’adresse et de contact**.</span><span class="sxs-lookup"><span data-stu-id="fdad8-106">Add it through the **Address and contact information purpose** page.</span></span> <span data-ttu-id="fdad8-107">Le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type = 0, qui indique que le rôle n’est pas un rôle système défini dans l’énumération **LogisticsLocationRoleType** et ses extensions.</span><span class="sxs-lookup"><span data-stu-id="fdad8-107">The new role will be saved to the **LogisticsLocationRole** table with type = 0, which indicates that the role is not a system role defined in the **LogisticsLocationRoleType** enum and its extensions.</span></span> <span data-ttu-id="fdad8-108">Un utilisateur peut utiliser ce rôle lors de la création des informations d’adresse ou de contact.</span><span class="sxs-lookup"><span data-stu-id="fdad8-108">A user will be able to use this role when creating address or contact information.</span></span>
 
     ![Objet des informations d’adresse et de contact](media/Address-Contact.PNG)
 
--  <span data-ttu-id="d7bbd-110">Ajoutez-le à l’extension de l’énumération **LogisticsLocationRoleType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-110">Add it to the **LogisticsLocationRoleType** enum extension, and let it populate through the database sync process.</span></span>
+-  <span data-ttu-id="fdad8-110">Ajoutez-le à l’extension de l’énumération **LogisticsLocationRoleType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.</span><span class="sxs-lookup"><span data-stu-id="fdad8-110">Add it to the **LogisticsLocationRoleType** enum extension, and let it populate through the database sync process.</span></span>
 
-    1.  <span data-ttu-id="d7bbd-111">Créez une extension à l’énumération **LogisticsLocationRoleType** et ajoutez le nouveau rôle dans l’extension.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-111">Create an extension to the **LogisticsLocationRoleType** enum and add the new role in the extension.</span></span> 
+    1.  <span data-ttu-id="fdad8-111">Créez une extension à l’énumération **LogisticsLocationRoleType** et ajoutez le nouveau rôle dans l’extension.</span><span class="sxs-lookup"><span data-stu-id="fdad8-111">Create an extension to the **LogisticsLocationRoleType** enum and add the new role in the extension.</span></span> 
   
         ![Extension à l’énumération LogisticsLocationRoleType](media/Logistics.PNG)
 
-    2. <span data-ttu-id="d7bbd-113">Créez un fichier de ressource pour le nouveau rôle, puis affectez une valeur pour ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-113">Create a new resource file for the new role, and then assign a value for its properties.</span></span>
+    2. <span data-ttu-id="fdad8-113">Créez un fichier de ressource pour le nouveau rôle, puis affectez une valeur pour ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="fdad8-113">Create a new resource file for the new role, and then assign a value for its properties.</span></span>
      
      ![Nouveau fichier de ressource](media/Resource.PNG)
         
-    3.  <span data-ttu-id="d7bbd-115">Créez une classe de remplissage des données et fournissez une méthode de gestionnaire pour renseigner le nouveau rôle.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-115">Create a data population class and provide a handler method to populate the new role.</span></span> 
+    3.  <span data-ttu-id="fdad8-115">Créez une classe de remplissage des données et fournissez une méthode de gestionnaire pour renseigner le nouveau rôle.</span><span class="sxs-lookup"><span data-stu-id="fdad8-115">Create a data population class and provide a handler method to populate the new role.</span></span> 
 
         ![Remplissage des données](media/Dirdata.PNG)
 
-    4.  <span data-ttu-id="d7bbd-117">Pour tester le remplissage du nouveau rôle d’emplacement, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertLogisticsLocationRoles() dans Main().</span><span class="sxs-lookup"><span data-stu-id="d7bbd-117">To test populating the new location role, you can create a runnable class, and call DirDataPopulation::insertLogisticsLocationRoles() in Main().</span></span> <span data-ttu-id="d7bbd-118">Une fois ce processus terminé, le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type \> 0.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-118">After this process is complete, you should see the new role populated in the **LogisticsLocationRole** table with type \> 0.</span></span> <span data-ttu-id="d7bbd-119">Le nouveau rôle s’affiche sur la page **Objet des informations d’adresse et de contact**.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-119">The new role will display on the **Address and contact information purpose** page.</span></span>
+    4.  <span data-ttu-id="fdad8-117">Pour tester le remplissage du nouveau rôle d’emplacement, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertLogisticsLocationRoles() dans Main().</span><span class="sxs-lookup"><span data-stu-id="fdad8-117">To test populating the new location role, you can create a runnable class, and call DirDataPopulation::insertLogisticsLocationRoles() in Main().</span></span> <span data-ttu-id="fdad8-118">Une fois ce processus terminé, le nouveau rôle est enregistré dans la table **LogisticsLocationRole** avec type \> 0.</span><span class="sxs-lookup"><span data-stu-id="fdad8-118">After this process is complete, you should see the new role populated in the **LogisticsLocationRole** table with type \> 0.</span></span> <span data-ttu-id="fdad8-119">Le nouveau rôle s’affiche sur la page **Objet des informations d’adresse et de contact**.</span><span class="sxs-lookup"><span data-stu-id="fdad8-119">The new role will display on the **Address and contact information purpose** page.</span></span>
 
         ![Insérer un nouvel emplacement](media/InsertNewLocation.PNG)
 
-## <a name="add-party-relationship-types"></a><span data-ttu-id="d7bbd-121">Ajouter des types de relation de partie</span><span class="sxs-lookup"><span data-stu-id="d7bbd-121">Add party relationship types</span></span> 
+## <a name="add-party-relationship-types"></a><span data-ttu-id="fdad8-121">Ajouter des types de relation de partie</span><span class="sxs-lookup"><span data-stu-id="fdad8-121">Add party relationship types</span></span> 
 
-<span data-ttu-id="d7bbd-122">Vous pouvez ajouter un nouveau type de relation de deux manières :</span><span class="sxs-lookup"><span data-stu-id="d7bbd-122">There are two ways to add a new relationship type:</span></span>
+<span data-ttu-id="fdad8-122">Vous pouvez ajouter un nouveau type de relation de deux manières :</span><span class="sxs-lookup"><span data-stu-id="fdad8-122">There are two ways to add a new relationship type:</span></span>
 
--   <span data-ttu-id="d7bbd-123">Utilisez la page **Types de relations**.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-123">Add it through the **Relationship types** page.</span></span> <span data-ttu-id="d7bbd-124">La nouvelle relation est enregistrée dans **DirRelationshipTypeTable** avec systemtype = 0.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-124">The new relationship will be saved to **DirRelationshipTypeTable** with systemtype = 0.</span></span>
+-   <span data-ttu-id="fdad8-123">Utilisez la page **Types de relations**.</span><span class="sxs-lookup"><span data-stu-id="fdad8-123">Add it through the **Relationship types** page.</span></span> <span data-ttu-id="fdad8-124">La nouvelle relation est enregistrée dans **DirRelationshipTypeTable** avec systemtype = 0.</span><span class="sxs-lookup"><span data-stu-id="fdad8-124">The new relationship will be saved to **DirRelationshipTypeTable** with systemtype = 0.</span></span>
 
     ![Types de relations](media/Relationship.PNG)
 
--  <span data-ttu-id="d7bbd-126">Ajoutez-le à l’extension de l’énumération **DirSystemRelationshipType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-126">Add it to the extension of the **DirSystemRelationshipType** enum, and let it populate through database sync process.</span></span>
+-  <span data-ttu-id="fdad8-126">Ajoutez-le à l’extension de l’énumération **DirSystemRelationshipType**, puis renseignez les valeurs via le processus de synchronisation de la base de données.</span><span class="sxs-lookup"><span data-stu-id="fdad8-126">Add it to the extension of the **DirSystemRelationshipType** enum, and let it populate through database sync process.</span></span>
 
-    1.  <span data-ttu-id="d7bbd-127">Créez une extension à l’énumération **DirSystemRelationshipType** et ajoutez le nouveau type de relation.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-127">Create an extension to the **DirSystemRelationshipType** enum and add the new relationship type.</span></span>
+    1.  <span data-ttu-id="fdad8-127">Créez une extension à l’énumération **DirSystemRelationshipType** et ajoutez le nouveau type de relation.</span><span class="sxs-lookup"><span data-stu-id="fdad8-127">Create an extension to the **DirSystemRelationshipType** enum and add the new relationship type.</span></span>
 
-    2. <span data-ttu-id="d7bbd-128">Créez un initialiseur pour ce nouveau type.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-128">Create an initializer for this new type.</span></span> <span data-ttu-id="d7bbd-129">Vous trouverez plusieurs exemples dans le code principal, l’un d’eux est **DirRelationshipTypeChildInitialize**.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-129">You can find several examples in the core code, one of them is  **DirRelationshipTypeChildInitialize**.</span></span> <span data-ttu-id="d7bbd-130">Il s’agit d’une classe d’initialiseur pour le type de relation de partie « Enfant ».</span><span class="sxs-lookup"><span data-stu-id="d7bbd-130">This is an initializer class for party relationship type “Child”.</span></span> <span data-ttu-id="d7bbd-131">Vous pouvez commencer par votre initialiseur en copiant-collant ce code et en mettant à jour les zones en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-131">You can start with your initializer by copying and pasting this code and then update the highlighted areas.</span></span>
+    2. <span data-ttu-id="fdad8-128">Créez un initialiseur pour ce nouveau type.</span><span class="sxs-lookup"><span data-stu-id="fdad8-128">Create an initializer for this new type.</span></span> <span data-ttu-id="fdad8-129">Vous trouverez plusieurs exemples dans le code principal, l’un d’eux est **DirRelationshipTypeChildInitialize**.</span><span class="sxs-lookup"><span data-stu-id="fdad8-129">You can find several examples in the core code, one of them is  **DirRelationshipTypeChildInitialize**.</span></span> <span data-ttu-id="fdad8-130">Il s’agit d’une classe d’initialiseur pour le type de relation de partie « Enfant ».</span><span class="sxs-lookup"><span data-stu-id="fdad8-130">This is an initializer class for party relationship type “Child”.</span></span> <span data-ttu-id="fdad8-131">Vous pouvez commencer par votre initialiseur en copiant-collant ce code et en mettant à jour les zones en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="fdad8-131">You can start with your initializer by copying and pasting this code and then update the highlighted areas.</span></span>
     
     ![Initialiseur DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  <span data-ttu-id="d7bbd-133">Pour tester le remplissage du nouveau type de relation, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertDirRelationshipTypes() dans Main().</span><span class="sxs-lookup"><span data-stu-id="d7bbd-133">To test populating the new relationship type, you can create a runnable class, and call DirDataPopulation::insertDirRelationshipTypes() in Main().</span></span> <span data-ttu-id="d7bbd-134">Le nouveau type de relation doit s’afficher dans la table **DirRelationshipTypeTable**, et il est disponible sur la page **Types de relations**.</span><span class="sxs-lookup"><span data-stu-id="d7bbd-134">You should see the new relationship type in the **DirRelationshipTypeTable**, and the new relationship type will be available on the **Relationship types** page.</span></span>
+    3.  <span data-ttu-id="fdad8-133">Pour tester le remplissage du nouveau type de relation, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertDirRelationshipTypes() dans Main().</span><span class="sxs-lookup"><span data-stu-id="fdad8-133">To test populating the new relationship type, you can create a runnable class, and call DirDataPopulation::insertDirRelationshipTypes() in Main().</span></span> <span data-ttu-id="fdad8-134">Le nouveau type de relation doit s’afficher dans la table **DirRelationshipTypeTable**, et il est disponible sur la page **Types de relations**.</span><span class="sxs-lookup"><span data-stu-id="fdad8-134">You should see the new relationship type in the **DirRelationshipTypeTable**, and the new relationship type will be available on the **Relationship types** page.</span></span>
 
         ![Classe exécutable](media/Runnable.PNG)
