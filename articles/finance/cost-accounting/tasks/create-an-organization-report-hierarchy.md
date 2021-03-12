@@ -10,88 +10,87 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57203a7ddbacd631cbf800fb3a98e35a485cb74f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51cd97ac2b78035224db543e3bcc5d606a16ffde
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443319"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969401"
 ---
-# <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="6c31d-103">Créer une hiérarchie d’états d’organisation</span><span class="sxs-lookup"><span data-stu-id="6c31d-103">Create an organization report hierarchy</span></span>
+# <a name="create-an-organization-report-hierarchy"></a><span data-ttu-id="a8321-103">Créer une hiérarchie d’états d’organisation</span><span class="sxs-lookup"><span data-stu-id="a8321-103">Create an organization report hierarchy</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6c31d-104">Utilisez cette procédure pour créer une hiérarchie d’état pour la génération d’états d’organisation.</span><span class="sxs-lookup"><span data-stu-id="6c31d-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="6c31d-105">Cet enregistrement a pour but de vous guider dans la hiérarchie de dimension afin que vous puissiez continuer jusqu’à ce que la structure de génération d’états d’organisation soit créée.</span><span class="sxs-lookup"><span data-stu-id="6c31d-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="6c31d-106">Cet enregistrement utilise la société fictive USP2.</span><span class="sxs-lookup"><span data-stu-id="6c31d-106">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="a8321-104">Utilisez cette procédure pour créer une hiérarchie d’état pour la génération d’états d’organisation.</span><span class="sxs-lookup"><span data-stu-id="a8321-104">Use this procedure to create a report hierarchy for organization reporting.</span></span> <span data-ttu-id="a8321-105">Cet enregistrement a pour but de vous guider dans la hiérarchie de dimension afin que vous puissiez continuer jusqu’à ce que la structure de génération d’états d’organisation soit créée.</span><span class="sxs-lookup"><span data-stu-id="a8321-105">The purpose of this recording is to guide you through the dimension hierarchy so that you can continue until the whole organization reporting structure is created.</span></span> <span data-ttu-id="a8321-106">Cet enregistrement utilise la société fictive USP2.</span><span class="sxs-lookup"><span data-stu-id="a8321-106">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="6c31d-107">Accédez à Contrôle de gestion > Dimensions > Hiérarchies des dimensions.</span><span class="sxs-lookup"><span data-stu-id="6c31d-107">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="6c31d-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-108">Click New.</span></span>
-3. <span data-ttu-id="6c31d-109">Dans le champ HierarchyTypeComboBox, sélectionnez « Hiérarchie de classification de dimension ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-109">In the HierarchyTypeComboBox field, select 'Dimension classification hierarchy'.</span></span>
-    * <span data-ttu-id="6c31d-110">Sélectionnez Hiérarchie de classification de dimension.</span><span class="sxs-lookup"><span data-stu-id="6c31d-110">Select Dimension classification hierarchy.</span></span> <span data-ttu-id="6c31d-111">Le type Hiérarchie de classification de dimension est utilisé pour définir les règles et les déclarations.</span><span class="sxs-lookup"><span data-stu-id="6c31d-111">The Dimension classification hierarchy type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="6c31d-112">Il prend en charge toutes les dimensions, comme les objets de coût, les éléments de coût et les dimensions statistiques.</span><span class="sxs-lookup"><span data-stu-id="6c31d-112">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span>  
-4. <span data-ttu-id="6c31d-113">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-113">Click Create.</span></span>
-5. <span data-ttu-id="6c31d-114">Dans le champ Nom de la hiérarchie des dimensions, tapez « Organisation USP2 ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-114">In the Dimension hierarchy name field, type 'Oganization USP2'.</span></span>
-6. <span data-ttu-id="6c31d-115">Dans le champ Dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6c31d-115">In the Dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c31d-116">Sélectionnez Centres de coût.</span><span class="sxs-lookup"><span data-stu-id="6c31d-116">Select Cost centers.</span></span>  
-7. <span data-ttu-id="6c31d-117">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-117">Click Save.</span></span>
-8. <span data-ttu-id="6c31d-118">Cliquez sur Afficher la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="6c31d-118">Click View hierarchy.</span></span>
-9. <span data-ttu-id="6c31d-119">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-119">Click New.</span></span>
-10. <span data-ttu-id="6c31d-120">Dans le champ Nom du nœud, tapez « PDG ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-120">In the Node name field, type 'CEO'.</span></span>
-11. <span data-ttu-id="6c31d-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-121">Click Save.</span></span>
-12. <span data-ttu-id="6c31d-122">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-122">Click New.</span></span>
-13. <span data-ttu-id="6c31d-123">Dans le champ Nom du nœud, entrez « Centres de coût du PDG ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-123">In the Node name field, type 'CEO cost centers'.</span></span>
-14. <span data-ttu-id="6c31d-124">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-124">Click Save.</span></span>
-15. <span data-ttu-id="6c31d-125">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-125">Click New.</span></span>
-16. <span data-ttu-id="6c31d-126">Dans le champ Nom du nœud, entrez « Région est ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-126">In the Node name field, type 'Region East'.</span></span>
-17. <span data-ttu-id="6c31d-127">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-127">Click Save.</span></span>
-18. <span data-ttu-id="6c31d-128">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-128">Click New.</span></span>
-19. <span data-ttu-id="6c31d-129">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6c31d-129">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="6c31d-130">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6c31d-130">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c31d-131">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="6c31d-131">Select the dimension member that corresponds to the node.</span></span>  
-21. <span data-ttu-id="6c31d-132">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-132">Click Save.</span></span>
-22. <span data-ttu-id="6c31d-133">Dans l’arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du PDG.</span><span class="sxs-lookup"><span data-stu-id="6c31d-133">In the tree, select 'Oganization USP2\CEO\CEO cost centers'.</span></span>
-23. <span data-ttu-id="6c31d-134">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-134">Click New.</span></span>
-24. <span data-ttu-id="6c31d-135">Dans le champ Nom du nœud, entrez « Région ouest ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-135">In the Node name field, type 'Region West'.</span></span>
-25. <span data-ttu-id="6c31d-136">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-136">Click Save.</span></span>
-26. <span data-ttu-id="6c31d-137">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-137">Click New.</span></span>
-27. <span data-ttu-id="6c31d-138">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6c31d-138">In the list, mark the selected row.</span></span>
-28. <span data-ttu-id="6c31d-139">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6c31d-139">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c31d-140">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="6c31d-140">Select the dimension member that corresponds to the node.</span></span>  
-29. <span data-ttu-id="6c31d-141">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-141">Click Save.</span></span>
-30. <span data-ttu-id="6c31d-142">Dans l’arborescence, sélectionnez « Organisation USP2\PDG ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-142">In the tree, select 'Oganization USP2\CEO'.</span></span>
-31. <span data-ttu-id="6c31d-143">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-143">Click New.</span></span>
-32. <span data-ttu-id="6c31d-144">Dans le champ Nom du nœud, tapez « Centres de coût du directeur financier ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-144">In the Node name field, type 'CFO cost centers'.</span></span>
-33. <span data-ttu-id="6c31d-145">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-145">Click Save.</span></span>
-34. <span data-ttu-id="6c31d-146">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-146">Click New.</span></span>
-35. <span data-ttu-id="6c31d-147">Dans le champ Nom du nœud, tapez « Campa marketing ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-147">In the Node name field, type 'Marketing campa'.</span></span>
-36. <span data-ttu-id="6c31d-148">Dans le champ Nom du nœud, tapez « Campagne marketing ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-148">In the Node name field, type 'Marketing campaign'.</span></span>
-37. <span data-ttu-id="6c31d-149">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-149">Click Save.</span></span>
-38. <span data-ttu-id="6c31d-150">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-150">Click New.</span></span>
-39. <span data-ttu-id="6c31d-151">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6c31d-151">In the list, mark the selected row.</span></span>
-40. <span data-ttu-id="6c31d-152">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6c31d-152">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c31d-153">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="6c31d-153">Select the dimension member that corresponds to the node.</span></span>  
-41. <span data-ttu-id="6c31d-154">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-154">Click Save.</span></span>
-42. <span data-ttu-id="6c31d-155">Dans l’arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du directeur financier ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-155">In the tree, select 'Organization USP2\CEO\CFO cost centers'.</span></span>
-43. <span data-ttu-id="6c31d-156">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-156">Click New.</span></span>
-44. <span data-ttu-id="6c31d-157">Dans le champ Nom du nœud, tapez « Salons commerciaux ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-157">In the Node name field, type 'Trade shows'.</span></span>
-45. <span data-ttu-id="6c31d-158">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-158">Click Save.</span></span>
-46. <span data-ttu-id="6c31d-159">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-159">Click New.</span></span>
-47. <span data-ttu-id="6c31d-160">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6c31d-160">In the list, mark the selected row.</span></span>
-48. <span data-ttu-id="6c31d-161">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6c31d-161">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c31d-162">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="6c31d-162">Select the dimension member that corresponds to the node.</span></span>  
-49. <span data-ttu-id="6c31d-163">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-163">Click Save.</span></span>
-50. <span data-ttu-id="6c31d-164">Dans l’arborescence, sélectionnez « Organisation USP2\PDG ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-164">In the tree, select 'Oganization USP2\CEO'.</span></span>
-51. <span data-ttu-id="6c31d-165">Dans le champ Nom du nœud, tapez « Centres de coût du directeur informatique ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-165">In the Node name field, type 'CIO cost centers'.</span></span>
-52. <span data-ttu-id="6c31d-166">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-166">Click Save.</span></span>
-53. <span data-ttu-id="6c31d-167">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-167">Click New.</span></span>
-54. <span data-ttu-id="6c31d-168">Dans le champ Nom du nœud, tapez « Centres d’appel ».</span><span class="sxs-lookup"><span data-stu-id="6c31d-168">In the Node name field, type 'Call centers'.</span></span>
-55. <span data-ttu-id="6c31d-169">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-169">Click Save.</span></span>
-56. <span data-ttu-id="6c31d-170">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="6c31d-170">Click New.</span></span>
-57. <span data-ttu-id="6c31d-171">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6c31d-171">In the list, mark the selected row.</span></span>
-58. <span data-ttu-id="6c31d-172">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6c31d-172">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c31d-173">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="6c31d-173">Select the dimension member that corresponds to the node.</span></span>  
-59. <span data-ttu-id="6c31d-174">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="6c31d-174">Click Save.</span></span>
+1. <span data-ttu-id="a8321-107">Accédez à Contrôle de gestion > Dimensions > Hiérarchies des dimensions.</span><span class="sxs-lookup"><span data-stu-id="a8321-107">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="a8321-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-108">Click New.</span></span>
+3. <span data-ttu-id="a8321-109">Dans le champ HierarchyTypeComboBox, sélectionnez « Hiérarchie de classification de dimension ».</span><span class="sxs-lookup"><span data-stu-id="a8321-109">In the HierarchyTypeComboBox field, select 'Dimension classification hierarchy'.</span></span>
+    * <span data-ttu-id="a8321-110">Sélectionnez Hiérarchie de classification de dimension.</span><span class="sxs-lookup"><span data-stu-id="a8321-110">Select Dimension classification hierarchy.</span></span> <span data-ttu-id="a8321-111">Le type Hiérarchie de classification de dimension est utilisé pour définir les règles et les déclarations.</span><span class="sxs-lookup"><span data-stu-id="a8321-111">The Dimension classification hierarchy type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="a8321-112">Il prend en charge toutes les dimensions, comme les objets de coût, les éléments de coût et les dimensions statistiques.</span><span class="sxs-lookup"><span data-stu-id="a8321-112">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span>  
+4. <span data-ttu-id="a8321-113">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="a8321-113">Click Create.</span></span>
+5. <span data-ttu-id="a8321-114">Dans le champ Nom de la hiérarchie des dimensions, tapez « Organisation USP2 ».</span><span class="sxs-lookup"><span data-stu-id="a8321-114">In the Dimension hierarchy name field, type 'Oganization USP2'.</span></span>
+6. <span data-ttu-id="a8321-115">Dans le champ Dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a8321-115">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8321-116">Sélectionnez Centres de coût.</span><span class="sxs-lookup"><span data-stu-id="a8321-116">Select Cost centers.</span></span>  
+7. <span data-ttu-id="a8321-117">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-117">Click Save.</span></span>
+8. <span data-ttu-id="a8321-118">Cliquez sur Afficher la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="a8321-118">Click View hierarchy.</span></span>
+9. <span data-ttu-id="a8321-119">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-119">Click New.</span></span>
+10. <span data-ttu-id="a8321-120">Dans le champ Nom du nœud, tapez « PDG ».</span><span class="sxs-lookup"><span data-stu-id="a8321-120">In the Node name field, type 'CEO'.</span></span>
+11. <span data-ttu-id="a8321-121">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-121">Click Save.</span></span>
+12. <span data-ttu-id="a8321-122">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-122">Click New.</span></span>
+13. <span data-ttu-id="a8321-123">Dans le champ Nom du nœud, entrez « Centres de coût du PDG ».</span><span class="sxs-lookup"><span data-stu-id="a8321-123">In the Node name field, type 'CEO cost centers'.</span></span>
+14. <span data-ttu-id="a8321-124">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-124">Click Save.</span></span>
+15. <span data-ttu-id="a8321-125">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-125">Click New.</span></span>
+16. <span data-ttu-id="a8321-126">Dans le champ Nom du nœud, entrez « Région est ».</span><span class="sxs-lookup"><span data-stu-id="a8321-126">In the Node name field, type 'Region East'.</span></span>
+17. <span data-ttu-id="a8321-127">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-127">Click Save.</span></span>
+18. <span data-ttu-id="a8321-128">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-128">Click New.</span></span>
+19. <span data-ttu-id="a8321-129">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8321-129">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="a8321-130">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a8321-130">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8321-131">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="a8321-131">Select the dimension member that corresponds to the node.</span></span>  
+21. <span data-ttu-id="a8321-132">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-132">Click Save.</span></span>
+22. <span data-ttu-id="a8321-133">Dans l’arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du PDG.</span><span class="sxs-lookup"><span data-stu-id="a8321-133">In the tree, select 'Oganization USP2\CEO\CEO cost centers'.</span></span>
+23. <span data-ttu-id="a8321-134">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-134">Click New.</span></span>
+24. <span data-ttu-id="a8321-135">Dans le champ Nom du nœud, entrez « Région ouest ».</span><span class="sxs-lookup"><span data-stu-id="a8321-135">In the Node name field, type 'Region West'.</span></span>
+25. <span data-ttu-id="a8321-136">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-136">Click Save.</span></span>
+26. <span data-ttu-id="a8321-137">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-137">Click New.</span></span>
+27. <span data-ttu-id="a8321-138">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8321-138">In the list, mark the selected row.</span></span>
+28. <span data-ttu-id="a8321-139">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a8321-139">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8321-140">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="a8321-140">Select the dimension member that corresponds to the node.</span></span>  
+29. <span data-ttu-id="a8321-141">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-141">Click Save.</span></span>
+30. <span data-ttu-id="a8321-142">Dans l’arborescence, sélectionnez « Organisation USP2\PDG ».</span><span class="sxs-lookup"><span data-stu-id="a8321-142">In the tree, select 'Oganization USP2\CEO'.</span></span>
+31. <span data-ttu-id="a8321-143">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-143">Click New.</span></span>
+32. <span data-ttu-id="a8321-144">Dans le champ Nom du nœud, tapez « Centres de coût du directeur financier ».</span><span class="sxs-lookup"><span data-stu-id="a8321-144">In the Node name field, type 'CFO cost centers'.</span></span>
+33. <span data-ttu-id="a8321-145">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-145">Click Save.</span></span>
+34. <span data-ttu-id="a8321-146">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-146">Click New.</span></span>
+35. <span data-ttu-id="a8321-147">Dans le champ Nom du nœud, tapez « Campa marketing ».</span><span class="sxs-lookup"><span data-stu-id="a8321-147">In the Node name field, type 'Marketing campa'.</span></span>
+36. <span data-ttu-id="a8321-148">Dans le champ Nom du nœud, tapez « Campagne marketing ».</span><span class="sxs-lookup"><span data-stu-id="a8321-148">In the Node name field, type 'Marketing campaign'.</span></span>
+37. <span data-ttu-id="a8321-149">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-149">Click Save.</span></span>
+38. <span data-ttu-id="a8321-150">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-150">Click New.</span></span>
+39. <span data-ttu-id="a8321-151">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8321-151">In the list, mark the selected row.</span></span>
+40. <span data-ttu-id="a8321-152">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a8321-152">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8321-153">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="a8321-153">Select the dimension member that corresponds to the node.</span></span>  
+41. <span data-ttu-id="a8321-154">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-154">Click Save.</span></span>
+42. <span data-ttu-id="a8321-155">Dans l’arborescence, sélectionnez « Organisation USP2\PDG\Centres de coût du directeur financier ».</span><span class="sxs-lookup"><span data-stu-id="a8321-155">In the tree, select 'Organization USP2\CEO\CFO cost centers'.</span></span>
+43. <span data-ttu-id="a8321-156">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-156">Click New.</span></span>
+44. <span data-ttu-id="a8321-157">Dans le champ Nom du nœud, tapez « Salons commerciaux ».</span><span class="sxs-lookup"><span data-stu-id="a8321-157">In the Node name field, type 'Trade shows'.</span></span>
+45. <span data-ttu-id="a8321-158">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-158">Click Save.</span></span>
+46. <span data-ttu-id="a8321-159">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-159">Click New.</span></span>
+47. <span data-ttu-id="a8321-160">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8321-160">In the list, mark the selected row.</span></span>
+48. <span data-ttu-id="a8321-161">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a8321-161">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8321-162">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="a8321-162">Select the dimension member that corresponds to the node.</span></span>  
+49. <span data-ttu-id="a8321-163">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-163">Click Save.</span></span>
+50. <span data-ttu-id="a8321-164">Dans l’arborescence, sélectionnez « Organisation USP2\PDG ».</span><span class="sxs-lookup"><span data-stu-id="a8321-164">In the tree, select 'Oganization USP2\CEO'.</span></span>
+51. <span data-ttu-id="a8321-165">Dans le champ Nom du nœud, tapez « Centres de coût du directeur informatique ».</span><span class="sxs-lookup"><span data-stu-id="a8321-165">In the Node name field, type 'CIO cost centers'.</span></span>
+52. <span data-ttu-id="a8321-166">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-166">Click Save.</span></span>
+53. <span data-ttu-id="a8321-167">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-167">Click New.</span></span>
+54. <span data-ttu-id="a8321-168">Dans le champ Nom du nœud, tapez « Centres d’appel ».</span><span class="sxs-lookup"><span data-stu-id="a8321-168">In the Node name field, type 'Call centers'.</span></span>
+55. <span data-ttu-id="a8321-169">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-169">Click Save.</span></span>
+56. <span data-ttu-id="a8321-170">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="a8321-170">Click New.</span></span>
+57. <span data-ttu-id="a8321-171">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8321-171">In the list, mark the selected row.</span></span>
+58. <span data-ttu-id="a8321-172">Dans le champ Membre de la dimension de départ, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="a8321-172">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8321-173">Sélectionnez le membre de dimension qui correspond au nœud.</span><span class="sxs-lookup"><span data-stu-id="a8321-173">Select the dimension member that corresponds to the node.</span></span>  
+59. <span data-ttu-id="a8321-174">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="a8321-174">Click Save.</span></span>
 
