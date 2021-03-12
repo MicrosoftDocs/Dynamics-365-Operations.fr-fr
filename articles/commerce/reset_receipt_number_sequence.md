@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412200"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979712"
 ---
 # <a name="reset-receipt-numbers"></a>Réinitialiser les numéros d'accusé de réception 
 
@@ -68,6 +67,3 @@ Utilisez la fonctionnalité **Effacer la date de réinitialisation** pour efface
 
 > [!NOTE]
 > Selon la date de réinitialisation sélectionnée et le format du ticket de caisse, vous pouvez avoir des numéros de ticket de caisse en double. Même si le système de point de vente (PDV) peut gérer ces situations, il augmente le temps requis pour traiter les retours car les vendeurs doivent sélectionner parmi les tickets de caisse en double. D'autres complications liées au nettoyage des données peuvent survenir si les tickets de caisse en double n'étaient pas prévus. Par conséquent, nous vous recommandons d'utiliser des caractères de date dynamiques (par exemple, **jjj**, **MM**, **JJ** et **AA**) pour éviter la duplication des numéros de ticket de caisse après une réinitialisation.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

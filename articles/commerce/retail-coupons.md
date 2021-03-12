@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412197"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979673"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Paramétrer des coupons pour les ventes au détail
 
@@ -82,6 +81,3 @@ La fonctionnalité de coupon comprend plusieurs fonctions distinctes. Commerce H
 - **Le siège est partiellement mis à jour, mais l'unité d'échelle commerciale et le PDV ne sont pas mis à jour.** Lors d'une mise à jour du siège, les pages de coupon et de remise sont mises à jour, et le moteur de prix de commerce est également mis à jour. Si un seul de ces deux composants est mis à jour, certaines pages dans Commerce ne correspondent pas aux données de calcul du prix. Par conséquent, des erreurs de remise inattendues peuvent se produire pendant les calculs de la remise.
 - **Le siège est mis à jour, mais l'unité d'échelle commerciale et le PDV ne sont pas mis à jour (N-1).** Tous les magasins ne pouvant pas être mis à jour simultanément, nous vous conseillons de mettre à jour le siège avant de mettre à jour les magasins. Dans le scénario N-1, la nouvelle fonctionnalité associée aux coupons n'est pas disponible dans les magasins qui n'ont pas encore été mis à jour. Par exemple, la fonctionnalité de coupon introduit des lignes d'« exclusion ». Si vous utilisez des lignes d'exclusion sur une remise, elles ne s'appliquent pas dans un magasin qui exécute une version antérieure.
 - **Le siège n'est pas mis à jour, mais l'unité d'échelle commerciale et le PDV sont mis à jour (N+1).** Le moteur de prix mis à jour dans l'unité d'échelle commerciale pouvant gérer les codes de remise hérités lors du calcul des prix, la mise à jour ne devrait avoir aucun impact fonctionnel dans ce scénario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

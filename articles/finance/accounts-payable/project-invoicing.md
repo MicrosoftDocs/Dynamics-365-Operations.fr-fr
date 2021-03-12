@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443124"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979585"
 ---
 # <a name="project-invoicing"></a>Facturation de projet
 
@@ -75,7 +74,7 @@ Si votre organisation exige que les propositions de facture soient révisées av
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Afficher les informations de subvention sur les pages de liste de factures de projet
 
-Les utilisateurs du secteur public peuvent ajouter **ID de subvention** et **Nom de la subvention** à aux pages de liste **Propositions de facture de projet** et **Factures de projet**. Ces colonnes sont activées à l’aide de la fonctionnalité **Ajouter des informations de subvention aux pages de liste de factures de projet**. Cette fonctionnalité est désactivée par défaut et peut être activée dans **Espaces de travail > Gestion des fonctionnalités**. Contactez votre administrateur système pour obtenir de l’assistance pour activer cette fonctionnalité.
+Les utilisateurs du secteur public peuvent ajouter **ID de subvention** et **Nom de la subvention** à aux pages de liste **Propositions de facture de projet** et **Factures de projet**. Ces colonnes sont activées à l’aide de la fonctionnalité **Ajouter des informations de subvention aux pages de liste de factures de projet**. Cette fonctionnalité est désactivée par défaut et peut être activée dans **Espaces de travail > Gestion des fonctionnalités**. Contactez votre administrateur système pour obtenir de l’assistance pour activer cette fonctionnalité.
 
 ## <a name="on-account-invoicing"></a>Facturation en compte
 Le montant entré pour un projet dans une facture en compte est basé sur l’échéance, le pourcentage d’achèvement, et sur d’autres conditions de facturation spécifiées dans le contrat de projet associé. Le montant n’est pas calculé en fonction des heures, des articles, des dépenses ou des frais validés dans le projet. 
@@ -132,6 +131,3 @@ Vous pouvez créer une facture dont le montant est négatif ; cette facture est 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

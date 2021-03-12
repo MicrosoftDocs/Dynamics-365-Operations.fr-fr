@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cd32ad1b745d1bfda25abf57330fb1385014e4fc
-ms.sourcegitcommit: f0f5545a8ff99583e0131f435d91c64bb68a1c38
+ms.openlocfilehash: 944139a8b3d7d549bd7be83918bd680717e6fdf0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4443388"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979037"
 ---
 # <a name="asset-leasing-home-page"></a>Page d’accueil de la location d’actifs
 
@@ -45,8 +44,8 @@ La rubrique suivante est disponible pour vous aider à configurer et à utiliser
   - [Paramétrer les registres de bail](set-up-lease-books.md)
   - [Créer un groupe de baux](create-lease-group.md)
   - [Configurer les taux d’indexation](set-up-index-rate-types.md)
-  - [Configurer les types de dépense](set-up-expense-types.md)
-  - [Paramétrer les noms de journal de bail](set-up-lease-journal-names.md)
+  - [Configurer les types de dépenses](set-up-expense-types.md)
+  - [Configurer les noms des registres des baux](set-up-lease-journal-names.md)
   - [Paramétrer des comptes de validation de bail](set-up-lease-posting-accts.md)
   - [Attribuer des souches de numéros](leasing-number-sequences.md)
   - [Affecter des rôles utilisateur](lease-user-roles.md)
@@ -96,6 +95,3 @@ Le [Blog de la communauté de partenaires Microsoft Dynamics Operations](https:/
 ### <a name="videos"></a>Vidéos
 
 Consultez les vidéos de procédure qui sont désormais disponibles sur la [chaîne YouTube Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

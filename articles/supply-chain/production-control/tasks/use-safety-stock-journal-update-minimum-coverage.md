@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d69daf3d307ba72ff6017d91849e3d22bd0bd85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b0985169f7ffadbf97ed4f237c8ec11120cfc3e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428118"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980983"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Utiliser le journal du stock de sécurité pour mettre à jour la couverture minimale
 
@@ -66,6 +65,3 @@ Cette procédure montre comment calculer des propositions de couverture minimale
 5. Dans le **volet Actions**, cliquez sur Plan.
 6. Cliquez sur **Couverture de l'article**. Notez que la **quantité minimale** a été mise à jour avec la nouvelle quantité minimale du journal du stock de sécurité.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412194"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979996"
 ---
 # <a name="assortment-management"></a>Gestion des assortiments
 
@@ -107,6 +106,3 @@ Tenez compte des exigences de mise en œuvre suivantes lorsque vous planifiez et
 - **Ventes et retours en dehors des assortiments** : cette capacité permet aux détaillants de gérer efficacement leurs assortiments en leur laissant limiter le nombre de produits disponibles aux produits appartenant au mix produit de base du magasin. Cette capacité permet également aux détaillants de gérer les situations au cours desquelles un produit a été omis par erreur d'un assortiment, ou lorsqu'un produit a été retourné en dehors des dates d'effet de l'assortiment.
 
 Si les données de produit n'existent pas dans la base de données du canal, le PDV effectue des appels en temps réel aux sièges sociaux pour récupérer les informations requises, de sorte que le produit pusse être vendu, retourné ou placé sur une commande client. Les informations sur le produit extraites de cette manière sont disponibles uniquement dans le cadre de cette transaction. Le produit n'est pas ajouté à la définition de l'assortiment. Par conséquent, les appels en temps réel consécutifs seront effectués au cas par cas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

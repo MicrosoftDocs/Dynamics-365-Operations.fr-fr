@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443126"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979536"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Factures d’acompte et acomptes
 
@@ -38,24 +37,24 @@ Les organisations peuvent verser des acomptes (paiements en avance) aux fourniss
 | Facturation d’acompte                                                                | Acomptes                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Définissez une valeur d’acompte sur la commande fournisseur.                                    | Aucune valeur d’acompte n’est définie sur la commande fournisseur.                    |
-| Une facture d’acompte et une facture finale doivent être validées.                       | Aucune facture d’acompte ne doit être validée.                                    |
+| Une facture d'acompte et une facture finale doivent être imputées.                       | Aucune facture d’acompte ne doit être validée.                                    |
 | Le passif de l’acompte est conservé dans le compte d’acompte, et non le compte d’achats. | Le passif de l’acompte est conservé dans le compte d’achats.                  |
 | Le solde fournisseur ne reflète pas la valeur d’acompte tout au long du processus.     | Le solde fournisseur reflète la valeur d’acompte tout au long du processus. |
 | La facturation d’acompte est disponible dans la Comptabilité fournisseur uniquement.                         | Les acomptes sont disponibles dans la Comptabilité fournisseur et la Comptabilité client.    |
 
 ## <a name="overview-of-the-prepayment-process"></a>Vue d’ensemble du processus d’acompte
-Les pratiques comptables dans plusieurs pays/régions requièrent que les acomptes d’un client ou à un fournisseur ne soient pas validés dans les comptes collectifs habituels pour le client ou le fournisseur. Au lieu de cela, ces acomptes sont validés dans des comptes généraux spéciaux pour les acomptes. Lorsqu’une commande client ou fournisseur est créée, une facture est émise pour le client ou par le fournisseur. Lorsque la facture est payée, l’acompte et le N° document d’acompte de taxe dans les comptes généraux des acomptes sont contrepassés et les montants de facture sont automatiquement validés dans les comptes collectifs habituels. Pour créer un acompte, procédez comme suit :
+Les pratiques comptables dans plusieurs pays/régions requièrent que les acomptes d'un client ou à un fournisseur ne soient pas imputés dans les comptes collectifs habituels pour le client ou le fournisseur. Au lieu de cela, ces acomptes sont validés dans des comptes généraux spéciaux pour les acomptes. Lorsqu'une commande client ou fournisseur est créée, une facture est émise pour le client ou par le fournisseur. Lorsque la facture est payée, l’acompte et le N° document d’acompte de taxe dans les comptes généraux des acomptes sont contrepassés et les montants de facture sont automatiquement validés dans les comptes collectifs habituels. Pour créer un acompte, procédez comme suit :
 
 1.  Paramétrez un profil de validation pour les acomptes.
 2.  Dans les paramètres de la comptabilité client et de la comptabilité fournisseur, sous **Comptabilité et taxe**, sélectionnez le nouveau profil de validation à l’aide du paramètre **Profil de validation du journal des paiements avec acompte**.
 3.  Créez un journal des paiements, puis créez le paiement.
-4.  Vous pouvez marquer le paiement comme acompte. Si un paiement est marqué comme acompte, il est validé dans les comptes généraux définis dans le profil de validation que vous paramétrez dans les étapes 1 et 2. En outre, si le paiement est marqué comme acompte, les taxes sont calculées. Certains gouvernements exigent le paiement de taxes lorsqu’un acompte est enregistré, même s’il n’y a pas de facture.
+4.  Vous pouvez marquer le paiement comme acompte. Si un paiement est marqué comme acompte, il est validé dans les comptes généraux définis dans le profil de validation que vous paramétrez dans les étapes 1 et 2. En outre, si le paiement est marqué comme acompte, les taxes sont calculées. Certains gouvernements exigent le paiement de taxes lorsqu'un acompte est enregistré, même s'il n'y a pas de facture.
 5.  Validez l’acompte.
-6.  Facultatif : vous pouvez régler l’acompte pour la commande fournisseur ou la commande client avant de créer la facture. Dans la page Commande client ou Commande fournisseur, dans le volet Actions, utilisez **Régler les transactions**.
-7.  Une fois que le fournisseur livre les biens ou services, enregistrez la facture. Si vous avez réglé l’acompte pour la commande fournisseur ou la commande client à l’étape 6, l’acompte est réglé automatiquement pour la facture créée. Si vous n’avez pas réglé l’acompte pour la commande fournisseur ou la commande client, vous pouvez le faire manuellement pour la facture à l’aide de l’option **Régler les transactions** dans la page du client ou du fournisseur. Le montant de l’acompte est ensuite contrepassé du compte créditeur/débiteur temporaire. En outre, si les taxes ont été calculées, elles sont contrepassés, car la facture indique les taxes réelles.
+6.  Facultatif : vous pouvez régler l’acompte pour la commande fournisseur ou la commande client avant de créer la facture. Dans la page Commande client ou Commande fournisseur, dans le volet Actions, utilisez **Régler les transactions**.
+7.  Une fois que le fournisseur livre les biens ou services, enregistrez la facture. Si vous avez réglé l’acompte pour la commande fournisseur ou la commande client à l’étape 6, l’acompte est réglé automatiquement pour la facture créée. Si vous n'avez pas réglé l'acompte pour la commande fournisseur ou la commande client, vous pouvez le faire manuellement pour la facture à l'aide de l'option **Régler les transactions** dans la page du client ou du fournisseur. Le montant de l’acompte est ensuite contrepassé du compte créditeur/débiteur temporaire. En outre, si les taxes ont été calculées, elles sont contrepassés, car la facture indique les taxes réelles.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Vue d’ensemble du processus de facturation d’acompte
-Les factures d’acompte sont une procédure commerciale courante. Un fournisseur émet des factures d’acompte pour demander un dépôt sur l’achat avant l’exécution de la commande fournisseur. Par exemple, certains fournisseurs peuvent demander un acompte pour des biens ou services personnalisés. Si un fournisseur émet une facture qui demande un acompte, vous pouvez utiliser la fonctionnalité de facturation d’acompte. Une valeur d’acompte peut être définie sur la commande fournisseur, une facture d’acompte est enregistrée et payée, puis la facture d’acompte est appliquée à la facture finale. Pour créer un acompte, procédez comme suit :
+Les factures d'acompte sont une procédure commerciale courante. Un fournisseur émet des factures d’acompte pour demander un dépôt sur l’achat avant l’exécution de la commande fournisseur. Par exemple, certains fournisseurs peuvent demander un acompte pour des biens ou services personnalisés. Si un fournisseur émet une facture qui demande un acompte, vous pouvez utiliser la fonctionnalité de facturation d’acompte. Une valeur d'acompte peut être définie sur la commande fournisseur, une facture d'acompte est enregistrée et payée, puis la facture d'acompte est appliquée à la facture finale. Pour créer un acompte, procédez comme suit :
 
 1.  L’acheteur crée, confirme et envoie une commande fournisseur pour laquelle le fournisseur a demandé un acompte. La valeur d’acompte est définie sur la commande fournisseur dans le cadre de l’accord.
 2.  Le fournisseur soumet une facture d’acompte.
@@ -66,6 +65,3 @@ Les factures d’acompte sont une procédure commerciale courante. Un fournisseu
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

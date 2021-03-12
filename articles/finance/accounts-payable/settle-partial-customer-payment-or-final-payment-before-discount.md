@@ -1,5 +1,5 @@
 ---
-title: Règlement d’un paiement client partiel et règlement total du paiement final avant la date de remise
+title: Règlement d’un paiement partiel et règlement total du paiement final avant la date de remise
 description: Cet article fournit des scénarios qui indiquent comment enregistrer des paiements partiels pour un client et prendre des escomptes de règlement pendant la période d’escompte de règlement.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 7c0c2c5db4f8169876be2bd98e36c4a8dbc35c35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4443337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979461"
 ---
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Règlement d’un paiement client partiel et règlement total du paiement final avant la date de remise
+# <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Règlement d’un paiement partiel et règlement total du paiement final avant la date de remise
 
 [!include [banner](../includes/banner.md)]
 
@@ -149,6 +148,3 @@ Arnie valide ce journal et consulte les transactions client sur la page **Transa
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

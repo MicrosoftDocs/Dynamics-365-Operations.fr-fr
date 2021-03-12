@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529576"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980804"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Présentation du portail client pour Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ Le portail client est fourni en tant que modèle de portails Power Apps. Il repo
 
 Les [portails Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) sont une fonctionnalité qui permet aux utilisateurs de créer un site web ouvert sur l'extérieur auquel des personnes extérieures à l'organisation peuvent se connecter. La création de portails requiert peu ou pas de code. Le portail client est l'un des nombreux [Modèles de portail Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) disponibles auprès de Microsoft.
 
-La [Double écriture](https://docs.microsoft.com/powerapps/maker/portals/overview) est un produit d'infrastructure prêt à l'emploi qui fournit une interaction en temps quasi réel entre les applications pilotées par modèle de Dynamics 365 et les applications Finance and Operations. La double écriture offre une intégration bidirectionnelle entre les applications Finance and Operations et Common Data Service. Par conséquent, elle offre une expérience utilisateur intégrée entre les différentes applications. Le portail client dépend des entités synchronisées par la double écriture. Avant que les données issues de Supply Chain Management puissent apparaître dans le portail client, la double écriture doit être activée pour toutes les entités appropriées.
+La [double écriture](https://docs.microsoft.com/powerapps/maker/portals/overview) est un produit d’infrastructure prêt à l’emploi qui fournit une interaction en temps quasi réel entre les applications Customer Engagement et les applications Finance and Operations. La double écriture offre une intégration bidirectionnelle entre les applications Finance and Operations et Microsoft Dataverse. Par conséquent, elle offre une expérience utilisateur intégrée entre les différentes applications. Le portail client dépend des tables synchronisées par la double écriture. Avant que les données issues de Supply Chain Management puissent apparaître dans le portail client, la double écriture doit être activée pour toutes les tables appropriées.
 
 ![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
 
 Le portail client sert de point de départ pour les organisations qui souhaitent utiliser les portails Power Apps pour créer un site Web ouvert sur l'extérieur qui utilise les données de leur installation Supply Chain Management. Il aide les organisations à connecter la double écriture, Supply Chain Management et les portails Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

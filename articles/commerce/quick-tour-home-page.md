@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7f9762b5e00a04f189874a3695c33fe989b579c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412375"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979851"
 ---
 # <a name="home-page-overview"></a>Vue d'ensemble de la page d'accueil
 
@@ -73,6 +72,3 @@ La section principale de la page d'accueil peut mettre en évidence des produits
 [Vue d'ensemble des pages de panier et de caisse](quick-tour-cart-checkout.md)
 
 [Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

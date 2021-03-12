@@ -1,5 +1,5 @@
 ---
-title: Définir et concevoir des formats de réception
+title: Définir et concevoir des formats de tickets de caisse
 description: Cet article décrit comment modifier des mises en page d'impression pour contrôler la manière dont les tickets de caisse, les factures et d'autres documents sont imprimés. Dynamics 365 Commerce comprend un concepteur de mise en page d'impression que vous pouvez utiliser pour créer et modifier facilement différents types de mises en page d'impression.
 author: rubencdelgado
 manager: AnnBe
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412372"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979751"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Définir et concevoir des formats de réception
 
@@ -46,6 +45,10 @@ Cet article décrit comment modifier des mises en page d'impression pour contrô
     - **Ne pas imprimer** – Le ticket de caisse n'est pas imprimé.
     - **Inviter l'utilisateur** – L'utilisateur est invité à imprimer le ticket de caisse.
     - **Si nécessaire** – Cette option est utilisée uniquement pour les tickets de caisse de cadeau. Lorsque cette option est sélectionnée, l'utilisateur peut imprimer un ticket de caisse de cadeau à partir de la page **Modifier**, si nécessaire.
+
+## <a name="print-images"></a>Imprimer des images
+
+Le concepteur de ticket de caisse comprend une variable **Logo** qui peut être utilisée pour spécifier les images à imprimer sur le ticket de caisse. Les images incluses dans les tickets de caisse à l'aide de la variable **Logo** doivent être de type fichier bitmap monochrome (.bmp). Si une image .bmp est spécifiée dans le concepteur de tickets de caisse, mais ne s'imprime pas lorsqu'elle est envoyée à l'imprimante, la taille du fichier est peut-être trop grande ou les dimensions en pixels de l'image ne sont pas compatibles avec l'imprimante. Si cela se produit, essayez de réduire la résolution du fichier image.   
 
 ## <a name="design-a-receipt-format"></a>Conception du format d'un ticket de caisse
 
@@ -82,6 +85,3 @@ Les profils de ticket de caisse sont affectés directement aux imprimantes via l
 
 > [!NOTE]
 > Si deux imprimantes sont utilisées, une imprimante peut être utilisée pour imprimer des tickets de caisse thermiques standard à 40 colonnes. La deuxième imprimante est généralement utilisée pour imprimer les types de ticket de caisse sur une page complète qui nécessitent plus d'informations. Ces types de tickets de caisse incluent les reçus de commande client et les factures client.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

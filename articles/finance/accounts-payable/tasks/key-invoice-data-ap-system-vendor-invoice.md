@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74065fa3177c8add29e64ce0f77461df036c8fe5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979311"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Données de facture clés dans la comptabilité fournisseur à l’aide d’une facture fournisseur
 
@@ -73,6 +72,3 @@ Ce guide de tâche vous aidera à créer une facture fournisseur à partir d’u
 19. Cliquez sur **Valider**.
 20. Permet de fermer l’écran. Notez que la commande fournisseur n’est plus répertoriée comme étant reçue mais non facturée.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

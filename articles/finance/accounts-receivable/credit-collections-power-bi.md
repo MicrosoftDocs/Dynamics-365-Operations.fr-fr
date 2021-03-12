@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4443355"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979137"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenu Power BI Gestion des crédits et des relances
 
@@ -77,6 +76,3 @@ Le contenu Power BI **CustCollectionsBICrossCompany** inclut un état composé d
 | Lettres de relance         | <ul><li>Montants de code relance</li><li>Détails sur les montants de code relance</li><li>Montants de lettres de relance par société</li><li>Montant de lettres de relance par groupe de clients</li><li>Montant de lettres de relance par région</li></ul> |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

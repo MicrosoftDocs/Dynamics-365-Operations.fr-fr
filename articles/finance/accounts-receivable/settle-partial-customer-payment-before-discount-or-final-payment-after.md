@@ -1,5 +1,5 @@
 ---
-title: Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise
+title: Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 description: Cet article détaille l’effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad922bc6c9378078012b7a838909e4074b48f263
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443069"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979062"
 ---
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Régler un paiement client partiel avant la date de remise avec un paiement final après la date de remise
+# <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 
 [!include [banner](../includes/banner.md)]
 
@@ -111,6 +110,3 @@ Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

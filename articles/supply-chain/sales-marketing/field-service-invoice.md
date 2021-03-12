@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f1790366cebf317472bc1ef9a5ecd2a19fe755d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528243"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980829"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Synchroniser des factures d'accord de Field Service sur des factures financières dans Supply Chain Management
 
@@ -55,23 +54,23 @@ La synchronisation suivante est requise avant que la synchronisation des facture
 
 | Field Service  | Gestion de la chaîne d'approvisionnement                 |
 |----------------|----------------------------------------|
-| factures       | En-têtes de facture financière client CDS |
-| invoicedetails | Lignes de facture financière client CDS   |
+| factures       | En-têtes de facture financière client Dataverse |
+| invoicedetails | Lignes de facture financière client Dataverse   |
 
 ## <a name="entity-flow"></a>Flux d'entité
 
-Les factures qui sont créées à partir d'un accord dans Field Service peuvent être synchronisées sur Supply Chain Management via un projet d'intégration de données Common Data Service. Les mises à jour à ces factures sont synchronisées sur les factures financières dans Supply Chain Management si le statut comptable des factures financières est **En cours**. Une fois les factures financières validées dans Supply Chain Management, et que le statut comptable est mis jour sur **Terminé**, vous ne pouvez plus synchroniser les mises à jour dans Field Service.
+Les factures qui sont créées à partir d'un accord dans Field Service peuvent être synchronisées sur Supply Chain Management via un projet d'intégration de données Microsoft Dataverse. Les mises à jour à ces factures sont synchronisées sur les factures financières dans Supply Chain Management si le statut comptable des factures financières est **En cours**. Une fois les factures financières validées dans Supply Chain Management, et que le statut comptable est mis jour sur **Terminé**, vous ne pouvez plus synchroniser les mises à jour dans Field Service.
 
 ## <a name="field-service-crm-solution"></a>Solution Field Service CRM
 
-Le champ **A des lignes provenant d'un accord** a été ajouté à l'entité **Facture**. Ce champ permet de garantir que seules les factures créées à partir d'un accord sont synchronisées. La valeur est **vrai** si la facture contient au moins une ligne de facture qui provient d'un accord.
+La colonne **A des lignes provenant d’un accord** a été ajoutée à la table **Facture**. Cette colonne permet de garantir que seules les factures créées à partir d’un accord sont synchronisées. La valeur est **vrai** si la facture contient au moins une ligne de facture qui provient d'un accord.
 
-Le champ **Provient d'un accord** a été ajouté à l'entité **Ligne de facture**. Ce champ permet de garantir que seules les lignes de facture créées à partir d'un accord sont synchronisées. La valeur est **vrai** si la ligne de facture provient d'un accord.
+La colonne **Provient d’un accord** a été ajoutée à la table **Ligne facture**. Cette colonne permet de garantir que seules les lignes factures créées à partir d’un accord sont synchronisées. La valeur est **vrai** si la ligne de facture provient d'un accord.
 
-**Date de facture** est un champ obligatoire dans Supply Chain Management. Par conséquent, le champ doit spécifier une valeur dans Field Service avant que la synchronisation se produise. Pour répondre à cette exigence, la logique suivante est ajoutée :
+**Date de facture** est un champ obligatoire dans Supply Chain Management. Par conséquent, la colonne doit spécifier une valeur dans Field Service avant que la synchronisation se produise. Pour répondre à cette exigence, la logique suivante est ajoutée :
 
-- Si le champ **Date de facture** est vide sur l'entité **Facture** (c'est-à-dire qu'il n'a pas de valeur), il est défini sur la date actuelle lorsqu'une une ligne de facture provenant d'un accord est ajoutée.
-- L'utilisateur peut modifier le champ **Date de facture**. Toutefois, lorsque l'utilisateur essaie d'enregistrer une facture qui provient d'un accord, il reçoit une erreur du processus d'entreprise si le champ **Date de facture** est vide sur la facture.
+- Si la colonne **Date de facture** est vide sur la table **Facture** (c’est-à-dire qu’il n’a pas de valeur), il est défini sur la date actuelle lorsqu’une une ligne de facture provenant d’un accord est ajoutée.
+- L’utilisateur peut modifier la colonne **Date de facture**. Toutefois, lorsque l’utilisateur essaie d’enregistrer une facture qui provient d’un accord, il reçoit une erreur du processus d’entreprise si la colonne **Date de facture** est vide sur la facture.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -108,6 +107,3 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Factures d'accord (Field Service vers Supply Chain Management) : Lignes de facture
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

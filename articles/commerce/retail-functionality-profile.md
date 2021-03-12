@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a53fc77a7d457534428929bd431175be7cf450f7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412138"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979645"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Créer un profil de fonctionnalité de vente au détail
 
@@ -64,6 +63,3 @@ L'image suivante présente un exemple de profil de fonctionnalité.
 [Aperçu de la mise en page de l'écran](pos-screen-layouts.md)       
 
 [Configuration et installation d'une Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

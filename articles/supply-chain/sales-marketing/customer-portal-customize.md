@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527361"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980854"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personnaliser et utiliser le portail client
 
@@ -40,9 +39,9 @@ Les rubriques suivantes vous aideront à apprendre les bases des portails Power 
 - [Gérer le contenu du portail](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – Cette rubrique explique comment gérer et personnaliser le contenu que vous faites apparaître dans votre portail.
 - [Éditer le CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – Cette rubrique vous aide à effectuer des personnalisations plus complexes de l'interface utilisateur (IU) de votre portail.
 - [Créer un thème pour votre portail](https://docs.microsoft.com/dynamics365/portals/create-theme) – Cette rubrique vous aide à créer un thème d'interface utilisateur pour votre portail.
-- [Créer et exposer facilement du contenu dans le portail](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – Cette rubrique vous aide à gérer les données et entités sous-jacentes que vous utilisez pour votre portail.
+- [Créer et exposer facilement du contenu dans le portail](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) : cette rubrique vous aide à gérer les données et tables sous-jacentes que vous utilisez pour votre portail.
 - [Configurer un contact à utiliser dans un portail](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – Cette rubrique explique comment créer et personnaliser les rôles d'utilisateur et comment fonctionnent la sécurité et l'authentification dans les portails Power Apps.
-- [Configurer des notes pour les formulaires d'entité et les formulaires web dans les portails](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – Cette rubrique explique comment ajouter des documents et du stockage supplémentaire à votre portail.
+- [Configurer des notes pour les formulaires de table et les formulaires web dans les portails](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) : cette rubrique explique comment ajouter des documents et du stockage supplémentaire à votre portail.
 - [Gestion des erreurs pour le site web du portail](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – Cette rubrique explique comment afficher les journaux d'erreurs du portail et les stocker dans votre compte de stockage d'objets blob Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Personnaliser le processus de création de commande
@@ -91,7 +90,7 @@ Voici les étapes standard pour soumettre une commande à partir du portail clie
 
 Pour garantir une expérience utilisateur fluide, le portail client remplit automatiquement les valeurs de plusieurs champs obligatoires. Ces valeurs sont basées sur les informations contenues dans l'enregistrement de contact du client qui soumet la commande.
 
-Pour chaque [enregistrement de contact](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) appartenant à un client qui utilisera le portail client pour soumettre des commandes, des valeurs doivent être spécifiées pour les champs obligatoires suivants. Sinon, des erreurs se produiront.
+Pour chaque [ligne de contact](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) appartenant à un client qui utilisera le portail client pour soumettre des commandes, des valeurs doivent être spécifiées pour les champs obligatoires suivants. Sinon, des erreurs se produiront.
 
 - **Société** – L'entité juridique à laquelle appartient la commande
 - **Client potentiel** – Le compte client associé à la commande
@@ -99,7 +98,7 @@ Pour chaque [enregistrement de contact](https://docs.microsoft.com/powerapps/mak
 - **Devise** – La devise du prix
 - **Expédier vers le pays/ la région** – Le pays ou la région où les articles seront livrés
 
-Les champs suivants sont automatiquement définis pour l'entité de commande client :
+Les champs suivants sont automatiquement définis pour la table de commande client :
 
 - **Langue** – La langue de la commande (Par défaut, la valeur est tirée de l'enregistrement du contact.)
 - **Expédier vers le pays/ la région** – Le pays ou la région où les articles seront livrés (par défaut, la valeur est tirée de l'enregistrement du contact.)
@@ -116,7 +115,7 @@ Les champs suivants sont automatiquement définis pour l'entité de commande cli
 
 Vous pouvez modifier librement l'apparence et l'interface utilisateur du portail client si vous ne modifiez pas le processus de création de commande de base. Si vous souhaitez modifier le processus de création de commande, vous devez garder à l'esprit quelques considérations.
 
-Ne supprimez pas les champs suivants de l'entité de commande client dans Common Data Service, car ils sont obligatoires pour créer une commande client en double écriture :
+Ne supprimez pas les colonnes suivantes de la table de commande client dans Microsoft Dataverse, car ils sont obligatoires pour créer une commande client en double écriture :
 
 - **Société** – L'entité juridique à laquelle appartient la commande
 - **Nom** – Le nom de la commande client
@@ -127,7 +126,7 @@ Ne supprimez pas les champs suivants de l'entité de commande client dans Common
 - **Langue** – La langue de la commande (Typiquement, cette langue est la langue du client potentiel.)
 - **Description de l'adresse de livraison** – L'adresse de livraison de la commande client
 
-Pour les articles, les champs suivants sont obligatoires :
+Pour les articles, les colonnes suivantes sont obligatoires :
 
 - **Produit** – Le produit à commander
 - **Quantité** – La quantité du produit sélectionné
@@ -135,11 +134,11 @@ Pour les articles, les champs suivants sont obligatoires :
 - **Expédier vers le pays/ la région** – Le pays ou la région de livraison
 - **Description de l'adresse de livraison** – L'adresse de livraison de la commande
 
-Vous devez vous assurer que votre portail client envoie des valeurs pour tous ces champs.
+Vous devez vous assurer que votre portail client envoie des valeurs pour toutes ces colonnes.
 
-Si vous souhaitez ajouter des champs à la page, ou supprimer des champs, consultez [Créer ou modifier des formulaires de création rapide pour faciliter la saisie des données](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Si vous souhaitez ajouter des colonnes à la page, ou supprimer des colonnes, consultez [Créer ou modifier des formulaires de création rapide pour faciliter la saisie des données](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Si vous souhaitez modifier la façon dont les champs sont prédéfinis et la façon dont les valeurs sont définies lors de l'enregistrement de la page, consultez les informations suivantes dans la documentation des portails Power Apps :
+Si vous souhaitez modifier la façon dont les colonnes sont prédéfinies et la façon dont les valeurs sont définies lors de l’enregistrement de la page, consultez les informations suivantes dans la documentation des portails Power Apps :
 
 - [Préremplir les champs](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Définir une valeur lors de l'enregistrement](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Pour en savoir plus sur la configuration et la personnalisation du portail clien
 - [Mettre à niveau un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrer la configuration d'un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestion du cycle de vie des solutions : applications Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
