@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566036c6361194d910a0fc34bd5d72147585ec4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427794"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016550"
 ---
 # <a name="asset-lifecycle-states"></a>États du cycle de vie de l'actif
 
@@ -70,6 +69,3 @@ Après avoir créé les états du cycle de vie de l'actif requis, vous pouvez pa
 
 6. Sélectionnez **Mises à jour de l'état du cycle de vie** pour définir les états du cycle de vie de l'actif qui peuvent suivre un état du cycle de vie sélectionné.
 7. Vous utilisez le raccourci **État de l'actif** si vous gérez des actifs que vous recevez pour réparation. Dans la section **Entrant/Sortant**, vous pouvez sélectionner les états du cycle de vie de l'actif pour indiquer le workflow d'un actif que vous recevez pour réparation. Si vous offrez des actifs d'emprunt aux clients ou aux départements, dans la section **Emprunt**, vous pouvez sélectionner les états du cycle de vie pour les actifs d'emprunt.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
