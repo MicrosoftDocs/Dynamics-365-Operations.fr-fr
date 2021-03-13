@@ -1,6 +1,6 @@
 ---
 title: Fonctions supprimées ou obsolètes dans les versions précédentes
-description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes de ce produit.
+description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679954"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154383"
 ---
-# <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctions supprimées ou obsolètes dans les versions précédentes
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ Cette rubrique décrit les fonctionnalités qui ont été supprimées de Dynamic
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://docs.microsoft.com/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 avec Platform update 31
 
@@ -970,7 +970,7 @@ Cet outil était utilisé pour faire passer des données clés de Microsoft Dyna
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Cette fonctionnalité a été remplacée par une autre. |
-| **Remplacé par une autre fonctionnalité ?**   | Common data service                                      |
+| **Remplacé par une autre fonctionnalité ?**   | Dataverse                                      |
 | **Zones de produit affectées**         | Connecteur pour Dynamics                         |
 | **État**                         | Supprimé à partir de Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ L’application pour tablettes Windows 8 a fourni la fonctionnalité pour la sa
 |     <strong>Zones de produit affectées</strong>     |                                              Comptabilité                                              |
 |             <strong>Statut</strong>             |                                      Supprimé à partir de Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695137"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154151"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -163,7 +163,4 @@ Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Ce site héberge le contenu des versions précédentes. |
 | [Communauté Dynamics](https://community.dynamics.com/) | Ce site héberge des blogs, des forums et des vidéos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Ce site fournit une évaluation et des informations commerciales. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Ce site héberge certains ressources de formation, des états et des livres blancs téléchargeables, et est le principal site de support pour les titulaires d’un plan de services. L’accès à certaines ressources du site peut nécessiter un plan de services. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Ce site héberge certains ressources de formation, des états et des livres blancs téléchargeables, et est le principal site de support pour les titulaires d’un plan de services. L’accès à certaines ressources du site peut nécessiter un plan de services. |

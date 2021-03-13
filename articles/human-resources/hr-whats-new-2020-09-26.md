@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527408"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152195"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 26 septembre 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527408"
 
 Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources. Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
-Pour plus d'informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de Dynamics 365 Human Resources 2020 2e vague de lancement](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Pour plus d'informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Dans cette version
 
@@ -58,7 +57,7 @@ Les correctifs de bogues suivants sont compris dans cette version.
 | 481401 | Le processus de régularisation se bloque lorsque la base de la date de régularisation est postérieure à la date de début de la régularisation et à la fin du mois | Le processus de régularisation est mis à jour pour ne pas avoir de retard lorsque la base de la date de régularisation est postérieure à la date de début de la régularisation et à la fin du mois. |
 | 447167 | Les listes d'enregistrements arrivant à expiration incluent les travailleurs inactifs | L'onglet **Enregistrements arrivant à expiration** dans **Gestion du personnel** inclus les travailleurs inactifs. Désormais, il ne comprend que les travailleurs actifs. |
 | 486840 | Une demande de congé incorrecte s'ouvre dans **Éléments de travail qui me sont affectés** | La sélection d'une demande de congé dans **Éléments de travail qui me sont affectés** n'ouvre plus la demande de congé la plus récente attribuée à l'utilisateur actuel. |
-| 506868 | Champ **Titre** de Common Data Service non défini pour l'entité **Poste** | Le champ **Titre** dans les entités **Emploi** et **Poste** est affiché comme non spécifié. Le champ **Titre** s'affiche maintenant. |
+| 506868 | Champ **Titre** de Dataverse non défini pour l'entité **Poste** | Le champ **Titre** dans les entités **Emploi** et **Poste** est affiché comme non spécifié. Le champ **Titre** s'affiche maintenant. |
 | 430359 | Impossible d'accéder aux tâches de la liste de contrôle de départ avec les rôles de responsable et d'employé attribués | Les travailleurs avec une date de fin de contrat à venir ne pouvaient pas accéder aux tâches de leur liste de contrôle s'ils n'avaient qu'un rôle d'employé ou de responsable. Désormais, les utilisateurs avec uniquement un rôle d'employé ou de responsable peuvent accéder aux tâches de départ avec une date de fin de contrat à venir. |
 | 458102 | Le nouvel employé n'apparaît pas sur l'entité **Informations sur la paie des collaborateurs** lors de sa création | Les nouveaux employés sont inclus dans l'entité d'informations sur la paie des collaborateur sans avoir à ouvrir les informations sur la paie de l'employé avant d'exporter l'entité. |
 
@@ -82,9 +81,6 @@ Pour une liste complète des fonctionnalités planifiées et leurs lancements pl
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
-[Vue d’ensemble de Dynamics 365 Human Resources 2020 2e vague de lancement](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+[Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Processus de mise à jour](hr-admin-setup-update-process.md)
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

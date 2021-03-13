@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ecc3a95fb422ca0ce95258b7ffe349eaba07233c
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427988"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154249"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramme de Gantt pour la planification des tâches
 
@@ -158,8 +157,5 @@ Le diagramme de Gantt peut être ouvert à partir des pages suivantes.
 ## <a name="additional-resources"></a>Ressources supplémentaires  
 [Planification visuelle avec le diagramme de Gantt pour les ordres de fabrication et les lots de commandes (vidéo)](https://youtu.be/BtbuShkGj4I)
 
-[Planification visuelle pour la production (script de démonstration)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
+[Planification visuelle pour la production (script de démonstration)](https://docs.microsoft.com/dynamics/s-e/)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
