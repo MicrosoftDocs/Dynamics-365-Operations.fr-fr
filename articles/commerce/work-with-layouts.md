@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 57dc0de64ce7536cf70c1f277d5212c3b8dd7480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412286"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009591"
 ---
 # <a name="work-with-preset-layouts"></a>Utilisation des mises en page prédéfinies
 
@@ -109,6 +108,3 @@ Après avoir prévisualisé les modifications de votre disposition prédéfinie,
 [Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Utiliser des modèles](work-with-templates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

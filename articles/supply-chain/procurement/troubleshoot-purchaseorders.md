@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007489"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Résoudre les problèmes liés aux commandes fournisseur
 
@@ -132,7 +131,7 @@ Vous ne pouvez prolonger que la période pour laquelle le fournisseur est agré�
 
 Pour l'exemple de scénario décrit dans la description du problème, où un enregistrement a une date d'effet au *11/01/2018* et une date d'expiration à *Jamais*, vous pouvez importer un nouvel enregistrement dont la date d'effet est le *10/01/2018* et la date d'expiration *Jamais*. Cependant, vous ne pouvez pas réduire la période pour que la date d'effet soit mise à jour au *12/01/2018* via la gestion des données. Vous devez effectuer cette modification via l'interface utilisateur.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Après avoir modifié l'adresse de livraison sur un en-tête de commande fournisseur, le nom de livraison n'est pas synchronisé.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Après avoir modifié l'adresse de livraison sur un en-tête de commande fournisseur, le nom de livraison n'est pas synchronisé.
 
 ### <a name="issue-description"></a>Description du problème
 
@@ -145,6 +144,3 @@ Ce comportement est fait exprès. L'adresse sélectionnée doit être classée c
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Puis-je trouver l'utilisateur qui a annulé une commande fournisseur ?
 
 Ces informations ne sont suivies que si la commande fournisseur fait l'objet d'une gestion des modifications. Si vous utilisez la gestion des modifications, vous pouvez voir qui a envoyé la modification (l'annulation) et qui l'a approuvée.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

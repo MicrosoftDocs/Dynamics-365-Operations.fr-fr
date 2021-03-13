@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f50318e0a955d8244ba854aa1fd73ad7532b9198
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f54c02fc828d60f4ddb28be932bbf8eb137ee92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427862"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008159"
 ---
 # <a name="inventory-value-storage-report"></a>État de stockage de la valeur de stock
 
@@ -106,6 +105,3 @@ L’exemple suivant montre comment exporter un état **Rapport sur la valeur de 
 1. Sur la page **Résumé de l’exécution** qui s’ouvre, vous pouvez afficher le statut de votre tâche d’exportation et la liste des entités exportées. Dans la section **Statut de traitement de l’entité**, sélectionnez l’entité **Valeur de stock**, puis sélectionnez **Télécharger le fichier** pour télécharger les données exportées depuis cette entité.
 
 Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

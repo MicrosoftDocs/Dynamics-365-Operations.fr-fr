@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 504433fba95893bc0af651d74f43dd112238e8c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 942ab3e8758bfb6ba1f1fa1a7f8c455e932120a0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412243"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009797"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Catalogue d’apprentissage pour les consultants techniques de Dynamics 365 Commerce
 
@@ -55,6 +54,3 @@ Pour un apprentissage des fonctionnalités partagées avec d’autres applicatio
 | Contenu  | Description | Format  | Longueur    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Configurer et utiliser le commerce électronique dans Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Les canaux en ligne et le site de commerce électronique de Dynamics 365 Commerce permettent aux détaillants de créer une présence en ligne de leur marque. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 4 heures   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

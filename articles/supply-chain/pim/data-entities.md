@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 20d067effc6139084c5d89b5d4698e1adf2bbf9f
-ms.sourcegitcommit: e9776095b92d19f214cd6765bbe9bf111432a699
+ms.openlocfilehash: e05d5febdd57a25d796fb3d085390758f5e7ceca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4428359"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007764"
 ---
 # <a name="product-data-entities"></a>Entités de données de produit
 
@@ -50,6 +49,3 @@ Pour importer et exporter des données de produit, vous devez utiliser des entit
 
 > [!NOTE]
 > Vous pouvez utiliser l'entité de données **Produits lancés V2** pour importer des produits dans le système uniquement si le produit partagé a déjà été créé. Sinon, pour importer des produits dans le système, vous devez utiliser l'entité de données **Création de produit**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

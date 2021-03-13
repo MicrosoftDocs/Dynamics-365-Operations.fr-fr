@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 87b04998889b86a79fd8dabde422147c5494b003
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 4c505ccfd1998acd40dbae715c7fa572e315af2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516785"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007514"
 ---
 # <a name="troubleshoot-product-information"></a>Résoudre les problèmes d'informations sur le produit
 
@@ -152,6 +151,3 @@ Si une variante de produit a déjà été lancée dans une entreprise A et que 
 Le bouton **Nouveau** sur la page **Variantes de produits lancées** crée la variante et la libère dans le contexte de l'entreprise. Si la variante a déjà été créée, vous ne pouvez pas utiliser le bouton **Nouveau** pour le libérer dans une autre entreprise.
 
 Pour résoudre le problème, ouvrez la page **Produit générique** et sélectionnez **Publier le produit** pour libérer la variante existante dans l'entreprise souhaitée.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

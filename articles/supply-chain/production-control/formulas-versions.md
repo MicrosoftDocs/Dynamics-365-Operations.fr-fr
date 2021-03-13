@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427822"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007154"
 ---
 # <a name="formulas-and-formula-versions"></a>Formules et versions de formule
 
@@ -71,6 +70,3 @@ La fonctionnalité Évolutive est disponible que si tous les composants de la fo
 
 ## <a name="use-step-consumption"></a>Utiliser la fonctionnalité Consommation de l'étape
 La fonctionnalité Consommation de l'étape élimine la condition que vous devez saisir une quantité dans l'onglet **Ligne de formule** pour un ingrédient. Au lieu de cela, la fonctionnalité Consommation de l'étape est configurée pour que les valeurs **Série de départ** et **Quantité** soient disponibles. Les informations de l'enregistrement Consommation de l'étape par série qui répond à la quantité du lot de commande sont sélectionnées. La fonctionnalité Consommation de l'étape est utile lorsque le taux de consommation n'est pas linéaire conformément à la taille du lot de commandes et augmente uniquement la demande lorsqu'un seuil de quantité spécifique est détecté. Pour activer cette fonction pour une nouvelle formule, sous le groupe **Calcul de la consommation**, remplacez le paramètre de formule pour l'ingrédient applicable **Standard** par **Étape**. Spécifiez cette méthode de consommation dans l'onglet **Paramétrage** de la page **Ligne de formule**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

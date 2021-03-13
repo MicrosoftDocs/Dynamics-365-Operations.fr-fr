@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: a4e158be2d20755e2380d573116383101fd6d07f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516617"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008156"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Supply Chain Management
 
@@ -51,7 +50,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="core-development"></a>Développement de base<a name="core-development"></a>
 
-| Contenu | Description  | Format | Longueur    |
+| Contenu | Description   | Format | Longueur    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Gestion des données (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Veuillez nous rejoindre pour ce forum technique sur la gestion des données. Découvrez-en plus sur les options disponibles et les scénarios pour lesquels elles sont recommandées. Nous couvrirons la structure de la gestion des données, les modèles, la copie de la base de données, le partage des données intersociétés et les performances. | Enregistrement libre d’une conférence Web | 58 minutes |
 
@@ -88,6 +87,3 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 | Contenu  | Description  | Format  |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------|
 | [Principes fondamentaux de Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Attestez que vous comprenez Microsoft Dynamics 365, Power Platform, les concepts de cloud, les options de licence et les options de lancement et de déploiement. | Examen ; le coût varie selon la région |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

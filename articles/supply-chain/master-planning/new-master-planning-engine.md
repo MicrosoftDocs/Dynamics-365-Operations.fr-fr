@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 8a55958a4b9573a7c3527d3d97cbcb818457b995
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645994"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007974"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migration vers l'Optimisation de la planification pour la planification
 
@@ -116,6 +115,3 @@ J'utilise la version 10.0.16 ou une version ultérieure et je reçois le messag
 > Remplissez le questionnaire suivant pour commencer et, le cas échéant, demander une exception pour la migration vers l'Optimisation de la planification.
 
 **Réponse :** Non, la planification n'est pas bloquée. Votre cycle de planification principale s'est terminé avec succès et vous pouvez utiliser le résultat de la manière habituelle. Toutefois, pour éviter de recevoir ce message d'erreur lors des futures exécutions de planification générale, vous devez soit migrer immédiatement vers l'Optimisation de la planification, soit demander une exception à l'aide du lien dans le message d'erreur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

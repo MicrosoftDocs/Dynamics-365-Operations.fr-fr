@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: c408c0b0c32292c074bcabf3822a50a24bbdd301
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428236"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007289"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docking des ordres de fabrication aux quais d’expédition
 
@@ -38,13 +37,13 @@ Le cross-docking de la production à un emplacement sortant est approprié pour 
 
 Dans le cas où il n'y aurait aucune demande immédiate d'un produit, il doit être mis précisément aux emplacements d'entrepôt du site de fabrication. Ce processus est également appelé, *cross-docking opportuniste* qui signifie que s'il existe une demande d'accélérer le produit, cette opportunité doit être utilisée au lieu de placer le produit supplémentaire en stockage interne.
 
-L'exemple suivant montre trois variations d'un flux qui commence à la fin de la ligne de production (2).
+L’exemple suivant montre trois variations d’un flux qui commence à la fin de la ligne de production (2).
 
-Un produit est déclaré terminé à l'emplacement de sortie de production (3) et un pilote du chariot élévateur déplacera la palette vers cet emplacement (3).
+Un produit est déclaré terminé à l’emplacement de sortie de production (3) et un pilote du chariot élévateur déplacera la palette vers cet emplacement (3).
 
--   S'il existe une activité prévue (6) pour transférer le produit de la fabrication (1) vers un centre de distribution (7), le pilote du camion sera dirigé par le système pour placer la palette à un emplacement de porte de baie (4).
+-   S’il existe une activité prévue (6) pour transférer le produit de la fabrication (1) vers un centre de distribution (7), le pilote du camion sera dirigé par le système pour placer la palette à un emplacement de porte de baie (4).
 -   Si une remorque est déjà affectée à la porte de baie, le conducteur du camion sera dirigée pour charger le produit directement sur la remorque.
--   S'il n'existe aucune activité planifiée pour transférer le produit, le conducteur du chariot élévateur sera dirigé pour mettre le produit précisément à un emplacement dans l'entrepôt interne (5).
+-   S’il n’existe aucune activité planifiée pour transférer le produit, le conducteur du chariot élévateur sera dirigé pour mettre le produit précisément à un emplacement dans l’entrepôt interne (5).
 
 [![Cross-docking d'opportunités](./media/scenario1.png)](./media/scenario1.png)
 
@@ -101,12 +100,12 @@ Une fois le produit déclaré terminé dans la ligne de production, il est trans
 3.  Créez une stratégie de travail. Accédez à la page **Stratégies de travail**, puis créez une nouvelle stratégie de travail nommée **Cross Dock L0101**.
 4.  Paramétrez les charges afin qu'elles soient créées automatiquement pour les ordres de transfert. Dans les paramètres d'entrepôt, le paramétrage effectue le chargement afin qu'ils soient créés automatiquement lorsque les ordres de transfert sont créés. Une charge est une condition préalable à effectuer pour que l'ordre de transfert soit éligible au cross-docking.
 5.  Configurez la mise en correspondance du chargement d'articles. Accédez à la page **Mise en correspondance de charge d'article**, puis paramétrez un modèle standard de charge du groupe d'élément **CarAudio**. Cette mise en correspondance insèrera automatiquement le modèle de charge sur la charge lorsque l'ordre de transfert est créé.
-6.  Créez un ordre de transfert. Créez l'ordre de transfert pour le numéro d'article L0101. Quantité = 20.
+6.  Créez un ordre de transfert. Créez l’ordre de transfert pour le numéro d’article L0101. Quantité = 20.
 7.  Lancez l'ordre de transfert depuis l'atelier de planification des chargements. Dans l'onglet **Expédier**, sélectionnez l'option de menu pour l'atelier de planification des chargements, puis dans le menu **Lancer** de la ligne de chargement, sélectionnez **Libérer dans l'entrepôt**. Une ligne de vague en cours du type **Sortie de transfert** existe désormais pour l'ordre de transfert.
 8.  Créez un ordre de fabrication. Accédez à la page de liste **Ordre de fabrication**, puis créez un ordre de fabrication pour le produit L0101. Quantité = 20. Estimez et démarrez l'ordre de fabrication. Notez que le champ **Valider immédiatement les prélèvements** reste défini sur **Non**.
 9.  Déclarer comme terminé à partir de l'appareil mobile. Accédez au portail de l'appareil mobile et sélectionnez l'option de menu **Déclarer comme terminé et ranger**. Maintenant, déclarez L0101 comme terminé à partir de l'appareil portable. Quantité = 10. Notez que l'emplacement de rangement est **BAYDOOR**. Cet emplacement se trouve dans l'instruction d'emplacement **Sortie de transfert** pour le type d'ordre de fabrication **Placer**. Notez également que ce travail du type **Sortie de transfert** a été créé et exécuté. Accédez aux détails du travail d'ordre de transfert pour vérifier le travail.
 10. Déclarez maintenant 10 pièces supplémentaires de l'appareil mobile. Notez que l'emplacement de rangement est à nouveau **BAYDOOR**. Notez également qu'un nouveau travail du type **Sortie de transfert** a été créé pour les 10 pièces.
-11. Essayez maintenant de commencer 20 pièces de plus sur l'ordre de production, puis essayez de déclarer 20 comme terminé en utilisant l'appareil portable. Cette fois, l'emplacement **LP-001** est suggéré comme emplacement de rangement. Cet emplacement figure dans l'instruction d'emplacement de **Rangement des produits finis**. Cette instruction d'emplacement est utilisée, car aucune opportunité pour le cross-docking n'existe. L'ordre de transfert pour LP-001 a été entièrement exécuté par les deux activités de cross-docking à l'étape 9 et 10. Notez que le travail du type **Rangement des produits finis** a été créé et traité.
+11. Essayez maintenant de commencer 20 pièces de plus sur l’ordre de production, puis essayez de déclarer 20 comme terminé en utilisant l’appareil portable. Cette fois, l'emplacement **LP-001** est suggéré comme emplacement de rangement. Cet emplacement figure dans l'instruction d'emplacement de **Rangement des produits finis**. Cette instruction d'emplacement est utilisée, car aucune opportunité pour le cross-docking n'existe. L'ordre de transfert pour LP-001 a été entièrement exécuté par les deux activités de cross-docking à l'étape 9 et 10. Notez que le travail du type **Rangement des produits finis** a été créé et traité.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Scénario 2 - Cross-docking entre les ordres de production et les ordres de transfert avec un programme de rendez-vous
 
@@ -117,7 +116,7 @@ Une fois que le produit est déclaré terminé à la ligne de production, il est
 3.  Ouvrez l'**Atelier de planification des chargements**.
 4.  Dans l'atelier de planification des chargements, accédez à la section **Charges**, puis sélectionnez **Planifier un rendez-vous** dans le menu **Transport** pour créer un nouveau programme de rendez-vous. Notez que le programme de rendez-vous a une référence à l'ordre de transfert dans le champ **Numéro de commande**. Dans le champ **Date/heure de début prévues à l'emplacement**, vous pouvez définir la date et l'heure du rendez-vous. Ces date et heure seront utilisées lorsque la demande de cross-docking est classée par priorité lors du processus de cross-docking. Les date et heure définies dans ce champ mettront à jour le champ **Date et heure prévue d'expédition** sur la charge correspondante. L'emplacement dans l'organisateur **Détails d'expédition** détermine l'emplacement vers lequel l'ordre de transfert est expédié.
 5.  Dans le champ **Atelier de planification des chargements**, libérez l'objet vers l'entrepôt.
-6.  Créez un ordre de fabrication pour le numéro d'article **L0101**, puis définissez le statut sur **Commencé**, avec une quantité de 20.
+6.  Créez un ordre de fabrication pour le numéro d’article **L0101**, puis définissez le statut sur **Commencé**, avec une quantité de 20.
 7.  Déclarer comme terminé à partir de l'appareil mobile.
 8.  Accédez au portail de l'appareil mobile et sélectionnez l'option de menu **Déclarer comme terminé et ranger**.
 9.  Déclarez le numéro d'article **L0101** comme terminé à partir de l'appareil portable. Notez que l'emplacement de rangement est maintenant **BAYDOOR 2**. Cet emplacement se trouve dans la planification des rendez-vous au lieu de l'instruction d'emplacement **Réception du transfert**.
@@ -127,6 +126,3 @@ Une fois que le produit est déclaré terminé à la ligne de production, il est
 -   Le scénario de cross-docking est pris en charge pour les articles contrôlés par lot et de série, avec les dimensions de lot et de numéro de série définies au-dessus de l'emplacement dans la hiérarchie de réservation. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646077"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009366"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Améliorer le modèle de prévision (version préliminaire)
 
@@ -42,19 +41,19 @@ Si votre organisation ne requiert que deux résultats, modifiez les seuils **En 
 
 ## <a name="select-fields"></a>Sélectionner des champs
 
-Lorsque vous sélectionnez des champs à inclure dans le modèle, sachez que la liste comprend tous les champs disponibles dans l’entité Common Data Service mappée aux données dans le lac de données Azure. Certains de ces champs devraient **ne pas** être sélectionnés. Les champs qui ne doivent pas être sélectionnés appartiennent à l’une des trois catégories suivantes :
+Lorsque vous sélectionnez des champs à inclure dans le modèle, sachez que la liste comprend tous les champs disponibles dans la table Microsoft Dataverse mappée aux données dans le lac de données Azure. Certains de ces champs devraient **ne pas** être sélectionnés. Les champs qui ne doivent pas être sélectionnés appartiennent à l’une des trois catégories suivantes :
 
-- Le champ est obligatoire pour l’entité Common Data Service, mais il n’y a pas de données de sauvegarde pour elle dans le lac de données.
+- Le champ est obligatoire pour la table Dataverse, mais il n’y a pas de données de sauvegarde pour elle dans le lac de données.
 - Le champ est un ID et n’a donc pas de sens pour une fonctionnalité de Machine Learning.
 - Le champ représente des informations qui ne seront pas disponibles pendant la prédiction.
 
 Les sections suivantes présentent les champs disponibles pour la facture et les entités client, et répertorient les champs qui doivent **ne pas** être sélectionné pour la formation. La catégorie spécifiée pour chacun de ces champs fait référence aux catégories de la liste précédente.
  
-### <a name="invoice-common-data-model-entity"></a>Entité Common Data Model de facture
+### <a name="invoice-dataverse-table"></a>Table Dataverse de facturation
 
-L’illustration suivante présente les champs disponibles pour l’entité de facture.
+L’illustration suivante présente les champs disponibles pour la table de facturation.
 
-[![Champs disponibles pour l’entité de facturation](./media/available-fields.png)](./media/available-fields.png)
+[![Champs disponibles pour la table de facturation](./media/available-fields.png)](./media/available-fields.png)
 
 Les champs suivants ne doivent pas être sélectionnés pour la formation :
 
@@ -65,11 +64,11 @@ Les champs suivants ne doivent pas être sélectionnés pour la formation :
 - **enregistrement source** (catégorie 2)
 - **Table source** (catégorie 2)
 
-### <a name="customer-common-data-model-entity"></a>Entité Common Data Model client
+### <a name="customer-dataverse-table"></a>Table Dataverse des clients
 
-L’illustration suivante présente les champs disponibles pour l’entité client.
+L’illustration suivante présente les champs disponibles pour la table client.
 
-[![Champs disponibles pour l’entité client](./media/related-entities.png)](./media/related-entities.png)
+[![Champs disponibles pour la table client](./media/related-entities.png)](./media/related-entities.png)
 
 Le champ suivant ne doit pas être sélectionné pour la formation :
 
@@ -83,6 +82,3 @@ Les filtres ne prennent actuellement pas en charge le scénario de prédicteur d
 
 #### <a name="privacy-notice"></a>Avis de confidentialité
 Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

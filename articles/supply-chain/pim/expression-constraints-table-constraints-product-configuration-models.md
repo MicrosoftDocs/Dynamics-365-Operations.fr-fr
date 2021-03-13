@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428086"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007700"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
 
@@ -117,7 +116,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 </ul></td>
 </tr>
 <tr class="even">
-<td>And</td>
+<td>Et</td>
 <td>Est vrai uniquement si toutes les conditions sont remplies. Si le nombre de conditions est 0 (zéro), le résultat est <strong>True</strong>.</td>
 <td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
@@ -159,7 +158,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td><strong>Opérateur :</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Temps</td>
+<td>Heures</td>
 <td>Prend le produit de ses conditions. Si le nombre de conditions est 0 (zéro), le résultat est <strong>1</strong>.</td>
 <td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
@@ -169,7 +168,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 </tr>
 <tr class="even">
 <td>Puissance</td>
-<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. (Autrement dit, elle est associative à droite.) Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
+<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. Autrement dit, elle est associative à droite. Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Power[x, 2] == y</li>
@@ -183,7 +182,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td><strong>Opérateur :</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Min</td>
+<td>Min.</td>
 <td>Produit la plus petite condition. Si le nombre de conditions est 0 (zéro), le résultat est <strong>Infinity</strong>.</td>
 <td>Min[args]</td>
 <td><strong>Opérateur :</strong> Min[x, y, 2] == z</td>
@@ -222,7 +221,7 @@ Les exemples du tableau suivant indiquent comment entrer une notation d'infixe.
 |        (x)        |                           Les parenthèses remplacent la priorité par défaut.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Pourquoi mes contraintes d'expression ne sont-elle pas validées correctement ?
-Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour les attributs, les composants ou les sous-composants dans un modèle de configuration de produit. Voici la liste des mots clés réservés que vous n'avez pas le droit d'utiliser :
+Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour les attributs, les composants ou les sous-composants dans un modèle de configuration de produit. Voici la liste des mots clés réservés que vous n’avez pas le droit d’utiliser :
 
 -   Plafond
 -   Elément
@@ -254,6 +253,3 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

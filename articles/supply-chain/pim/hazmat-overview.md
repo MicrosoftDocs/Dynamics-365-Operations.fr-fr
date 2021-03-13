@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff285e7e8bcdd2a3197f0ccae569ac880b796028
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007589"
 ---
 # <a name="hazardous-materials-overview"></a>Vue d’ensemble des matières dangereuses
 
@@ -62,6 +61,3 @@ Pour plus d’informations sur la configuration des réglementations et des vale
 ## <a name="warehouse-management"></a>Gestion des entrepôts
 
 Lorsque vous préparez une expédition dans la Gestion des entrepôts, vous pourrez imprimer plusieurs nouveaux états qui utilisent les informations que vous avez configurées dans la Gestion des informations sur les produits. Pour plus d’informations sur les états disponibles et comment les utiliser, consultez [Demandes de renseignements et déclarations sur les matières dangereuses](hazmat-reports.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

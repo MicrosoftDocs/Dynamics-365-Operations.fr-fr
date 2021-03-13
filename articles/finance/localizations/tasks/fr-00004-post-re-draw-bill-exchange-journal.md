@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustBillOfExchange, CustOpenTrans
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0beab796df2f037d321192835f090bbbb1386319
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e6ecbe8e81471a1a78cb0791c35049b383bff41
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4407961"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009067"
 ---
 # <a name="fr-00004-post-re-draw-bill-of-exchange-journal"></a>FR-00004 Valider le journal de renouvellement de lettres de change
 
@@ -53,6 +52,3 @@ Pour effectuer cette procédure, vous devez avoir le rôle de commis à la compt
 14. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
     * Vérifiez que le statut du journal récemment validé est Représenté. Si c’est le cas, le processus est terminé.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
