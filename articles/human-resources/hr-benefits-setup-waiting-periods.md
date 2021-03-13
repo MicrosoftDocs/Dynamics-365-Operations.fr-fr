@@ -2,7 +2,7 @@
 title: Configurer les périodes d'attente
 description: Dans Microsoft Dynamics 365 Human Resources, les jours d'attente établissent un jalon à utiliser pour les régimes d'avantages.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,30 +18,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1937ab54eb7898afe0fed6659c3ae676626e8ad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07ceed65a0346912d4be012a5cec502b0f0a6149
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418514"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112444"
 ---
-# <a name="configure-waiting-periods"></a><span data-ttu-id="0861a-103">Configurer les périodes d'attente</span><span class="sxs-lookup"><span data-stu-id="0861a-103">Configure waiting periods</span></span>
+# <a name="configure-waiting-periods"></a><span data-ttu-id="46244-103">Configurer les périodes d'attente</span><span class="sxs-lookup"><span data-stu-id="46244-103">Configure waiting periods</span></span>
 
-<span data-ttu-id="0861a-104">Dans Microsoft Dynamics 365 Human Resources, les jours d'attente établissent un jalon à utiliser pour les régimes d'avantages.</span><span class="sxs-lookup"><span data-stu-id="0861a-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a milestone to use for benefit plans.</span></span> <span data-ttu-id="0861a-105">Par exemple, trois mois à compter de la date d'embauche, le premier de chaque mois ou six mois.</span><span class="sxs-lookup"><span data-stu-id="0861a-105">For example, three months from hire date, the first of each month, or six months.</span></span>   
+<span data-ttu-id="46244-104">Dans Microsoft Dynamics 365 Human Resources, les jours d'attente établissent un jalon à utiliser pour les régimes d'avantages.</span><span class="sxs-lookup"><span data-stu-id="46244-104">In Microsoft Dynamics 365 Human Resources, waiting days establish a milestone to use for benefit plans.</span></span> <span data-ttu-id="46244-105">Par exemple, trois mois à compter de la date d'embauche, le premier de chaque mois ou six mois.</span><span class="sxs-lookup"><span data-stu-id="46244-105">For example, three months from hire date, the first of each month, or six months.</span></span>   
 
-1. <span data-ttu-id="0861a-106">Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Périodes d'attente**.</span><span class="sxs-lookup"><span data-stu-id="0861a-106">In the **Benefits management** workspace, under **Setup**, select **Waiting periods**.</span></span>
+1. <span data-ttu-id="46244-106">Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Périodes d'attente**.</span><span class="sxs-lookup"><span data-stu-id="46244-106">In the **Benefits management** workspace, under **Setup**, select **Waiting periods**.</span></span>
 
-2. <span data-ttu-id="0861a-107">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="0861a-107">Select **New**.</span></span>
+2. <span data-ttu-id="46244-107">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="46244-107">Select **New**.</span></span>
 
-3. <span data-ttu-id="0861a-108">Spécifiez les valeurs les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="0861a-108">Specify values for the following fields:</span></span>
+3. <span data-ttu-id="46244-108">Spécifiez les valeurs les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="46244-108">Specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="0861a-109">Champ</span><span class="sxs-lookup"><span data-stu-id="0861a-109">Field</span></span> | <span data-ttu-id="0861a-110">Description</span><span class="sxs-lookup"><span data-stu-id="0861a-110">Description</span></span> |
+   | <span data-ttu-id="46244-109">Champ</span><span class="sxs-lookup"><span data-stu-id="46244-109">Field</span></span> | <span data-ttu-id="46244-110">Description</span><span class="sxs-lookup"><span data-stu-id="46244-110">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="0861a-111">**Code d'attente**</span><span class="sxs-lookup"><span data-stu-id="0861a-111">**Waiting code**</span></span> | <span data-ttu-id="0861a-112">Identificateur unique pour la période d'attente.</span><span class="sxs-lookup"><span data-stu-id="0861a-112">A unique identifier for the waiting period.</span></span> |
-   | <span data-ttu-id="0861a-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="0861a-113">**Description**</span></span> | <span data-ttu-id="0861a-114">Description de la période d'attente.</span><span class="sxs-lookup"><span data-stu-id="0861a-114">A description of the waiting period.</span></span> |
-   | <span data-ttu-id="0861a-115">**Méthode d'attente**</span><span class="sxs-lookup"><span data-stu-id="0861a-115">**Waiting method**</span></span> | <span data-ttu-id="0861a-116">Sélectionnez la méthode d'attente appropriée dans la liste déroulante des valeurs.</span><span class="sxs-lookup"><span data-stu-id="0861a-116">Select the appropriate waiting method from the drop-down list of values.</span></span> <span data-ttu-id="0861a-117">Les options sont Net, Mois en cours, Trimestre en cours, Année en cours et Semaine en cours.</span><span class="sxs-lookup"><span data-stu-id="0861a-117">Options are Net, Current month, Current quarter, Current year, and Current week.</span></span> |
-   | <span data-ttu-id="0861a-118">**Mois**</span><span class="sxs-lookup"><span data-stu-id="0861a-118">**Months**</span></span> | <span data-ttu-id="0861a-119">Entrez le nombre de mois à ajouter à la méthode d'attente pour calculer la date d'attente.</span><span class="sxs-lookup"><span data-stu-id="0861a-119">Enter the number of months to add to the waiting method to calculate the waiting date.</span></span> |
-   | <span data-ttu-id="0861a-120">**Jours**</span><span class="sxs-lookup"><span data-stu-id="0861a-120">**Days**</span></span> | <span data-ttu-id="0861a-121">Entrez le nombre de jours à ajouter à la méthode d'attente pour calculer la date d'attente.</span><span class="sxs-lookup"><span data-stu-id="0861a-121">Enter the number of days to add to the waiting method to calculate the waiting date.</span></span> |
-   | <span data-ttu-id="0861a-122">**Jour d’attente**</span><span class="sxs-lookup"><span data-stu-id="0861a-122">**Waiting day**</span></span> | <span data-ttu-id="0861a-123">Sélectionnez le jour d'attente à utiliser pour calculer la date d'attente.</span><span class="sxs-lookup"><span data-stu-id="0861a-123">Select the waiting day to use to calculate the waiting date.</span></span> |
+   | <span data-ttu-id="46244-111">**Code d'attente**</span><span class="sxs-lookup"><span data-stu-id="46244-111">**Waiting code**</span></span> | <span data-ttu-id="46244-112">Identificateur unique pour la période d'attente.</span><span class="sxs-lookup"><span data-stu-id="46244-112">A unique identifier for the waiting period.</span></span> |
+   | <span data-ttu-id="46244-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="46244-113">**Description**</span></span> | <span data-ttu-id="46244-114">Description de la période d'attente.</span><span class="sxs-lookup"><span data-stu-id="46244-114">A description of the waiting period.</span></span> |
+   | <span data-ttu-id="46244-115">**Méthode d'attente**</span><span class="sxs-lookup"><span data-stu-id="46244-115">**Waiting method**</span></span> | <span data-ttu-id="46244-116">Sélectionnez la méthode d'attente appropriée dans la liste déroulante des valeurs.</span><span class="sxs-lookup"><span data-stu-id="46244-116">Select the appropriate waiting method from the drop-down list of values.</span></span> <span data-ttu-id="46244-117">Les options sont Net, Mois en cours, Trimestre en cours, Année en cours et Semaine en cours.</span><span class="sxs-lookup"><span data-stu-id="46244-117">Options are Net, Current month, Current quarter, Current year, and Current week.</span></span> |
+   | <span data-ttu-id="46244-118">**Mois**</span><span class="sxs-lookup"><span data-stu-id="46244-118">**Months**</span></span> | <span data-ttu-id="46244-119">Entrez le nombre de mois à ajouter à la méthode d'attente pour calculer la date d'attente.</span><span class="sxs-lookup"><span data-stu-id="46244-119">Enter the number of months to add to the waiting method to calculate the waiting date.</span></span> |
+   | <span data-ttu-id="46244-120">**Jours**</span><span class="sxs-lookup"><span data-stu-id="46244-120">**Days**</span></span> | <span data-ttu-id="46244-121">Entrez le nombre de jours à ajouter à la méthode d'attente pour calculer la date d'attente.</span><span class="sxs-lookup"><span data-stu-id="46244-121">Enter the number of days to add to the waiting method to calculate the waiting date.</span></span> |
+   | <span data-ttu-id="46244-122">**Jour d’attente**</span><span class="sxs-lookup"><span data-stu-id="46244-122">**Waiting day**</span></span> | <span data-ttu-id="46244-123">Sélectionnez le jour d'attente à utiliser pour calculer la date d'attente.</span><span class="sxs-lookup"><span data-stu-id="46244-123">Select the waiting day to use to calculate the waiting date.</span></span> |
 
-4. <span data-ttu-id="0861a-124">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="0861a-124">Select **Save**.</span></span>
+4. <span data-ttu-id="46244-124">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="46244-124">Select **Save**.</span></span>
