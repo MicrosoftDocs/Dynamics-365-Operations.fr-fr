@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669166"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080036"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 2 décembre 2020
 
@@ -31,7 +30,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifi
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
-Pour plus d'informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de Dynamics 365 Human Resources 2020 2e vague de lancement](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Pour plus d'informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Dans cette version
 
@@ -61,7 +60,7 @@ Les correctifs de bogues suivants sont compris dans cette version.
 | 514087 | BenefitEligibilityProcessResult doit inclure la date-heure qui a été utilisée dans le traitement. | Le résultat du traitement BenefitEligibity inclut désormais l'horodatage du dernier traitement, qui manquait auparavant. |
 | 526903 | L'inscription aux prestations échoue pour les régimes avec personnes à charge lorsque **Désignés à sélection automatique** est activé dans **Paramètres partagés des ressources humaines**. | Correction du problème où l'inscription aux prestations échouait pour les personnes à charge lorsque **Désignés à sélection automatique** l'option a été activée pour les personnes désignées par défaut. |
 | 521922 | Le paramètre **Montrer l'absence sans détail** affiche les détails des demandes de congé dans le calendrier des absences de l'équipe. | Le type de congé, la couleur du type de congé et les détails du jour étaient affichés dans le calendrier des absences de l'équipe lorsque **Montrer l'absence sans détail** était réglé sur **Oui** dans **Paramètres de congé et d'absence**. Ce problème a été résolu et maintenant le type de congé ne s'affiche pas et la couleur du type de congé par défaut (bleu foncé) est utilisée pour tous les types de congé du calendrier des absences de l'équipe. |
-| 527316 | Les changements de titre pour les notifications d'emploi, de poste et de collaborateur ne se synchronisent pas. | Une relation de titre a été précédemment ajoutée aux entités Emploi, Poste et Collaborateur. La synchronisation de cette relation fonctionne pour la synchronisation de Human Resources avec Common Data Service, mais ne fonctionnait pas pour les notifications de Common Data Service. Cela a été résolu. |
+| 527316 | Les changements de titre pour les notifications d'emploi, de poste et de collaborateur ne se synchronisent pas. | Une relation de titre a été précédemment ajoutée aux entités Emploi, Poste et Collaborateur. La synchronisation de cette relation fonctionne pour la synchronisation de Human Resources avec Dataverse, mais ne fonctionnait pas pour les notifications de Dataverse. Cela a été résolu. |
 | 512275 | Supprimer les options de couleur de **Paramètres de congé et d'absence**. | Maintenant que les couleurs sont définies sur le type de congé, les options de couleurs ne sont plus nécessaires dans **Paramètres de congé et d'absence**, ils ont donc été supprimés. |
 | 437112 | Texte du message d'erreur trompeur lors de l'affectation du poste d'un employé. | Mise à jour du message d'erreur lors de l'embauche d'un travailleur et de la tentative d'affecter le travailleur à un poste qui n'est pas actif. Message mis à jour **Le poste spécifié n'est pas actif à la date de début de l'emploi. Vérifier la durée de ce poste.** |
 | 527816 | Problèmes de performances avec la page **Congé**. | Les performances ont été améliorées sur la page **Congé**. |
@@ -92,6 +91,3 @@ Pour une liste complète des fonctionnalités planifiées et leurs lancements pl
 [Présentation de Dynamics 365 Human Resources 2020 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Espace de travail mobile Approbation des commandes fournisseur
 description: Cette rubrique fournit des informations sur l'espace de travail mobile Approbation des commandes fournisseur, qui permet d'afficher les commandes fournisseur et d'y répondre par des actions. Par exemple, vous pouvez approuver ou rejeter une commande fournisseur.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428057"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022304"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Espace de travail mobile Approbation des commandes fournisseur
 
@@ -79,11 +78,11 @@ Télécharger et installer l’application mobile Finance and Operations :
 - [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
 
-1. Démarrez l'application sur votre appareil mobile.
+1. Démarrez l’application sur votre appareil mobile.
 2. Saisissez votre URL Microsoft Dynamics 365.
-3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d’identification.
+3. Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe. Entrez vos informations d’identification.
 4. Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent. Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.
 
 ![Espace de travail Approbation des commandes fournisseur dans la liste des espaces de travail disponibles](./media/po-workspaces.png)
@@ -113,6 +112,3 @@ Après avoir affiché la commande fournisseur qui vous est affectée et avoir lu
 5. Sélectionnez l'action appropriée.
 6. Dans la page **Terminer la tâche**, entrez un commentaire. Notez que si vous sélectionnez l'action **Déléguer**, vous devez sélectionner un utilisateur auquel déléguer la tâche.
 7. Sélectionnez **Terminé**. Après avoir actualisé votre espace de travail, la commande fournisseur ne figurera plus dans votre liste. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

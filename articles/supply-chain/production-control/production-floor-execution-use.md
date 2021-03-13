@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4428198"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077629"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l'interface d'exécution de l'atelier de production par les collaborateurs
 
@@ -41,11 +40,11 @@ Les sections restantes de cette rubrique décrivent comment les travailleurs int
 
 ## <a name="all-jobs-tab"></a>Onglet Toutes les tâches
 
-L'onglet **Toutes les tâches** fournit une liste de tâches qui affiche toutes les tâches de production dont le statut est *Non commencé*, *Arrêté* ou *Commencé*.
+L'onglet **Toutes les tâches** fournit une liste de tâches qui affiche toutes les tâches de production dont le statut est *Non commencé*, *Arrêté* ou *Commencé*. (Ce nom d'onglet est personnalisable et peut être différent pour votre système.)
 
 ![Onglet Toutes les tâches](media/pfei-all-jobs-tab.png "Onglet Toutes les tâches")
 
-La liste des tâches comprend les colonnes suivantes. (Les numéros correspondent aux numéros dans l’illustration précédente.)
+La liste des tâches comprend les colonnes suivantes. Les numéros correspondent aux numéros dans l'illustration précédente.
 
 1. **Colonne de sélection** - La colonne la plus à gauche utilise des coches pour indiquer les tâches qui ont été sélectionnés par le travailleur. Les travailleurs peuvent sélectionner plusieurs tâches dans la liste en même temps. Pour sélectionner toutes les tâches de la liste, cochez la case dans l'en-tête de colonne. Lorsqu'une seule tâche est sélectionnée, les détails de cette tâche sont affichés dans la partie inférieure de la page.
 1. **Colonne de statut de la tâche** - Cette colonne utilise des symboles pour indiquer le statut de chaque tâche. Les tâche qui n'ont pas de symbole dans cette colonne ont un statut *Non commencé*. Un triangle vert indique les tâches dont le statut est *Commencé*. Deux lignes verticales jaunes indiquent les tâches dont le statut est *Arrêté*.
@@ -60,9 +59,11 @@ La liste des tâches comprend les colonnes suivantes. (Les numéros corresponden
 
 ## <a name="active-jobs-tab"></a>Onglet Tâches actives
 
+L'onglet **Tâches actives** affiche une liste de toutes les tâches que le collaborateur connecté a déjà commencées. (Ce nom d'onglet est personnalisable et peut être différent pour votre système.)
+
 ![Onglet Tâches actives](media/pfei-active-jobs-tab.png "Onglet Tâches actives")
 
-La liste des tâches sur l'onglet **Tâches actives** contient les colonnes suivantes :
+La liste des tâches actives comprend les colonnes suivantes :
 
 - **Colonne de sélection** - La colonne la plus à gauche utilise des coches pour indiquer les tâches qui ont été sélectionnés par le travailleur. Les travailleurs peuvent sélectionner plusieurs tâches dans la liste en même temps. Pour sélectionner toutes les tâches de la liste, cochez la case dans l'en-tête de colonne. Lorsqu'une seule tâche est sélectionnée, les détails de cette tâche sont affichés dans la partie inférieure de la page.
 - **Ordre** - Cette colonne affiche le numéro d'ordre de fabrication d'une tâche.
@@ -72,6 +73,28 @@ La liste des tâches sur l'onglet **Tâches actives** contient les colonnes suiv
 - **Terminé** - Cette colonne indique la quantité déjà terminée pour une tâche.
 - **Mis au rebut** - Cette colonne indique la quantité déjà mise au rebut pour une tâche.
 - **Restant** - Cette colonne indique la quantité qui reste à terminer pour une tâche.
+
+## <a name="my-machine-tab"></a>Onglet Ma machine
+
+L'onglet **Ma machine** permet aux collaborateurs de sélectionner un actif connecté à une ressource de machine dans le filtre défini sur l'onglet **Toutes les tâches**. Le collaborateur peut ensuite voir l'état et l'intégrité de l'actif sélectionné en lisant les valeurs de quatre compteurs sélectionnés au maximum et les listes des demandes de maintenance récentes et des temps d'arret enregistrés. Le collaborateur peut également demander la maintenance de l'actif sélectionné et enregistrer et modifier les temps d'arrêt de la machine. (Ce nom d'onglet est personnalisable et peut être différent pour votre système.)
+ 
+![Onglet Ma machine](media/pfei-my-machine-tab.png "Onglet Ma machine")
+
+L'onglet **Ma machine** contient les colonnes suivantes. Les numéros correspondent aux numéros dans l'illustration précédente.
+
+1. **Actif de machine** : sélectionnez l'actif de machine que vous souhaitez suivre. Commencez à saisir un nom pour choisir dans une liste d'actifs correspondants, ou sélectionnez l'icône en forme de loupe pour choisir dans une liste de tous les actifs associés aux ressources qui se trouvent dans le filtre de la liste de tâches.
+
+    > [!NOTE]
+    > Les utilisateurs de Supply Chain Management peuvent attribuer une ressource à chaque actif selon les besoins en utilisant la page **Tous les actifs** (dans l'onglet **Immobilisation**, en utilisant la liste déroulante **Ressource**). Pour plus d'informations, voir [Créer un actif](../asset-management/objects/create-an-object.md).
+
+1. **Paramètres** : sélectionnez l'icône d'engrenage pour ouvrir une boîte de dialogue dans laquelle vous pouvez choisir les compteurs à afficher pour l'actif de machine sélectionné. Les valeurs de ces compteurs sont affichées en haut de l'onglet **Gestion des actifs**. Le menu **Paramètres** (illustré dans la capture d'écran suivante) vous permet d'activer jusqu'à quatre compteurs. Pour chaque compteur que vous souhaitez activer, utilisez le champ de recherche en haut de la vignette pour sélectionner un compteur. Le champ de recherche répertorie tous les compteurs associés à l'actif sélectionné en haut de la page **Gestion des actifs**. Définissez chaque compteur pour surveiller la valeur **Agrégée** ou la valeur **Réelle** la plus récente du compteur. Par exemple, si vous définissez un compteur qui suit le nombre d'heures de fonctionnement de la machine, vous devez le définir sur **Agrégé**. Si vous définissez un compteur pour mesurer la dernière température ou pression mise à jour, vous devez le définir sur **Réel**. Sélectionnez **OK** pour enregistrer vos paramètres et fermer la boîte de dialogue.
+
+    ![Onglet Ma machine](media/pfei-my-machine-tab-settings.png "Onglet Ma machine")
+
+1. **Faire une demande de maintenance** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez créer une demande de maintenance. Vous pourrez fournir une description et une note. La demande sera présentée à un utilisateur de Supply Chain Management, qui pourra alors convertir la demande de maintenance en ordre de travail de maintenance.
+1. **Enregistrer les temps d'arrêt** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez enregistrer les temps d'arrêt de la machine. Vous pourrez sélectionner un code motif et entrer un intervalle de dates ou d'heures pour le temps d'arrêt. L'enregistrement des temps d'arrêt de la machine est utilisé pour calculer l'efficacité de l'actif de machine.
+1. **Afficher ou modifier** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez modifier ou afficher les enregistrements de temps d'arrêt existants.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Démarrer et terminer les tâches de production
 
@@ -124,7 +147,7 @@ Par exemple, Shannon, employé de l'atelier chez Contoso, souhaite assister à u
 
 Dans les deux scénarios, une fois que Shannon a confirmé sa sélection, elle accède soit à la page de connexion, soit à une page qui attendra qu'elle confirme qu'elle est revenue de son activité indirecte. La page qui s'affiche dépend de la configuration de l'interface d'exécution de l'atelier de production. (Pour plus d'informations, consultez [Configurer l'interface d'exécution de l'atelier de production](production-floor-execution-configure.md) .)
 
-## <a name="working-on-breaks"></a>Travailler sur les pauses
+## <a name="registering-breaks"></a>Enregistrement des pauses
 
 Les travailleurs peuvent enregistrer des pauses. Les pauses peuvent être définies de manière flexible, comme décrit dans [Salaire basé sur les enregistrements](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Les travailleurs peuvent ouvrir un document associé à une tâche en sélection
 1. Le travailleur parcourt le guide pour apprendre la tâche.
 
 Pour plus d'informations sur la création, l'attribution et l'utilisation de guides pour HoloLens, voir [Fournir des guides de réalité mixte aux collaborateurs de la production](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

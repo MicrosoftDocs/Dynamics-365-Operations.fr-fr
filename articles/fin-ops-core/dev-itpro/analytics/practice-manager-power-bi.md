@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Gestionnaire de pratique
-description: Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+description: Cette rubrique décrit les données incluses dans le contenu Power BI du gestionnaire de pratique.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685703"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092455"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenu Power BI Gestionnaire de pratique
 
@@ -117,6 +117,3 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Mesure globale clé       | Champ               | Description |
 |---------------------------------|---------------------|-------------|
 | Coût prévisionnel de l’activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

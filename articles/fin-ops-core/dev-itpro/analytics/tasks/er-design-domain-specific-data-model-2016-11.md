@@ -1,6 +1,6 @@
 ---
 title: ER Concevoir un modèle de données spécifiques au domaine
-description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut créer une configuration de format pour la génération d’états électronique (ER) qui contient un modèle de données pour les documents de paiement électronique.
+description: Cette rubrique décrit comment créer une nouvelle configuration de gestion des états électroniques contenant un modèle de données pour les documents de paiement électronique.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681947"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092689"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Concevoir un modèle de données spécifiques au domaine
 
@@ -187,6 +187,3 @@ Vous créez un modèle de données pour la configuration sélectionnée. Cette v
 65. Cliquez sur Enregistrer.
 66. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

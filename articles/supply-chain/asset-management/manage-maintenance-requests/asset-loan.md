@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cba680d0ad626e0275539d7478a83639a9d22635
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427952"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022330"
 ---
 # <a name="asset-loans"></a>Financements reposant sur l'actif
 
@@ -58,6 +57,3 @@ Dans la page **Financements actifs reposant sur l'actif**, vous pouvez afficher 
 3. Dans le champ **Retourné**, entrez de date et l'heure.
 4. Cliquez sur **OK**.
 5. Actualisez la page de liste **Financements actifs reposant sur l'actif**, et assurez-vous que l'emprunt d'actif n'apparaît plus dans la liste.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

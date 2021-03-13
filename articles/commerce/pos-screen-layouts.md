@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4412400"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032931"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurations visuelles de l'interface utilisateur de PDV
 
@@ -117,6 +116,9 @@ Dans les mises en page compactes du POS, les groupes de boutons sont automatique
 
 ![Groupes de boutons pour la mise en page compacte](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Les tailles des boutons dans le concepteur seront mises à l'échelle pour s'adapter à la taille de la fenêtre, par conséquent, elles peuvent ne pas refléter avec précision les boutons réels rendus dans PDV. Pour simuler au mieux la disposition de la grille des boutons, ajustez les fenêtres du concepteur à la même taille que le PDV.
+
 ### <a name="images"></a>Images
 
 Pour chaque taille de mise en page dans une mise en page de l'écran, vous pouvez spécifier des images à inclure dans l'interface utilisateur du POS. Pour les mises en page complètes du POS, une image peut être spécifiée pour l'écran d'accueil. Cette image s'affiche comme premier élément de l'interface utilisateur à gauche. Dans l'écran **Transaction**, des images peuvent être utilisées comme images d'onglet ou comme logo. Les mises en page compactes du POS n'utilisent pas ces images.
@@ -205,6 +207,3 @@ Le concepteur du groupe de boutons vous permet de configurer les groupes de bout
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Installer le concepteur de mise en page du Point de vente au détail (PDV)](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

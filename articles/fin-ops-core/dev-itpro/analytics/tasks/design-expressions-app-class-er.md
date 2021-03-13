@@ -1,6 +1,6 @@
 ---
 title: Concevoir des expressions de génération d’états électroniques pour appeler les méthodes de classe d’application
-description: Ce guide fournit des informations sur la procédure de réutilisation de la logique d’application existante dans les configurations d’états électroniques en appelant les méthodes requises des classes d’application des expressions ER.
+description: Cette rubrique décrit la procédure de réutilisation de la logique d’application existante dans les configurations d’états électroniques en appelant les méthodes requises des classes d’application des expressions ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682019"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092083"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Concevoir des expressions de génération d’états électroniques pour appeler les méthodes de classe d’application
 
@@ -157,6 +157,3 @@ Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la
 2. Cliquez sur OK.
     * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que seules 3 lignes du fichier TXT importé ont été traitées. Le code IBAN sur la ligne 4 qui n’est pas valide a été ignoré et un message d’erreur s’affiche dans la fenêtre Informations.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

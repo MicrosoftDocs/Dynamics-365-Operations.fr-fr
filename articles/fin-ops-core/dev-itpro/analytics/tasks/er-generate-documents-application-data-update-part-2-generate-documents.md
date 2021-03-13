@@ -1,6 +1,6 @@
 ---
 title: Concevoir des configurations pour générer des documents avec des données d’application
-description: Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, ER Générer des documents avec la mise à jour des données d’application (Partie 1 - Importer les configurations).
+description: Cette rubrique décrit comment créer des configurations d’états électroniques pour générer un document électronique entrant. (Partie 1 - Importer les configurations).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 417c419dc6925bac337fe74a2f057395316ec75d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684593"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092920"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Concevoir des configurations pour générer des documents avec des données d’application
 
@@ -58,6 +58,3 @@ Avant de commencer, modifiez le contexte de pays pour la société DEMF de DEU (
 10. Fermez la page.
 11. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664294"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077475"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l'interface d'exécution de l'atelier de production
 
@@ -65,6 +64,12 @@ Cette fonction ajoute un bouton à l'interface d'exécution de l'atelier de prod
 
 - Fonctionnalité de verrouillage des périphériques des bons de travail et des terminaux des bons de travail afin de procéder à leur désinfection
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production
+
+Cette fonctionnalité ajoute un onglet de gestion des actifs à l'interface d'exécution de l'atelier de production. Les collaborateurs peuvent utiliser cet onglet pour sélectionner un actif connecté à une ressource de machine qui se trouve dans le filtre sélectionné de la liste des tâches. Pour l'actif de machine sélectionné, le collaborateur peut afficher l'état et l'intégrité de l'actif à partir des valeurs de compteur de quatre compteurs sélectionnés au maximum. Si vous souhaitez utiliser cette fonctionnalité, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+
+- Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utiliser les configurations de l'exécution de l'atelier de production
 
 Pour créer et gérer des configurations de périphérique, accédez à **Contrôle de la production \> Configuration \> Contrôle et suivi de la production \> Configurer l'exécution de l'atelier de production**. La page **Configurer l'exécution de l'atelier de production** affiche une liste des configurations existantes. Sur cette page, vous pouvez effectuer l'une des actions suivantes :
@@ -94,6 +99,3 @@ Un traitement par lots nettoie périodiquement les entrées de la table des réf
 1. Dans le volet Actions, sélectionnez **Nettoyer les configurations du client**.
 1. Dans la boîte de dialogue **Nettoyer la configuration du client**, définissez le champ **Nombre de jours** sur le nombre de jours d'inactivité (avant aujourd'hui) à prendre en compte. Vous supprimerez toutes les configurations et les enregistrements de connexion pour les appareils qui n'ont pas été actifs pendant cette période.
 1. Sélectionnez **OK** pour nettoyer les configurations pertinentes, en fonction du paramètre **Nombre de jours**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

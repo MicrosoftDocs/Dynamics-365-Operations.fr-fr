@@ -1,6 +1,6 @@
 ---
 title: Charger une configuration dans Lifecycle Services
-description: Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur système ou de développeur d’états électroniques peut créer une nouvelle configuration de génération d’états électroniques (ER) et la charger dans Microsoft Dynamics Lifecycle Services (LCS).
+description: Cette rubrique explique comment créer une configuration pour la gestion des états électroniques à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684161"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092539"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Charger une configuration dans Lifecycle Services
 
@@ -145,6 +145,3 @@ Dans cet exemple, vous allez créer une configuration et la charger dans LCS pou
     La configuration ER que vous avez chargée doit être répertoriée.
 
     Notez que la configuration LCS chargée peut être importée dans une autre instance si les fournisseurs ont accès à ce projet LCS.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

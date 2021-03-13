@@ -1,6 +1,6 @@
 ---
-title: Définir la dépendance des configurations ER vis-à-vis d’autres composants
-description: Pour réaliser ces étapes, vous devez commencer par effectuer les étapes du guide de tâche, ER Gérer les configurations de mise en correspondance de modèle, et vous devez avoir accès à Microsoft Dynamics Lifecycle Services (LCS).
+title: Définir la dépendance des configurations ER sur d’autres composants
+description: Cette rubrique décrit comment concevoir une configuration de gestion des états électroniques et spécifier sa dépendance à d’autres composants logiciels.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681971"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092148"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER vis-à-vis d’autres composants
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Définir la dépendance des configurations ER sur d’autres composants
 
 [!include [banner](../../includes/banner.md)]
 
@@ -139,6 +139,3 @@ Nous supprimerons les configurations créées du système et les téléchargeron
 26. Dans l’arborescence, développez « Exemple de modèle de données ».
     * Notez que la configuration de mise en correspondance de modèle « Exemple de mise en correspondance » a été téléchargée avec la configuration de modèle de données sélectionnée. Les deux fichiers sont téléchargés ensemble, car la configuration « Exemple de mise en correspondance » a été définie comme implémentant le modèle de données sélectionné et qu’elle s’applique à l’application. La configuration « Exemple de mise en correspondance (autre) » n’a pas été téléchargée, car la condition pour la version d’application requise n’est pas remplie.   
     * Si vous vous connectez à Finance and Operations, enregistrez le même fournisseur, accédez au même projet LCS et téléchargez la même configuration de modèle de données, la configuration « Exemple de mise en correspondance (autre) » sera téléchargée, tandis que la configuration « Exemple de mise en correspondance » sera ignorée.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

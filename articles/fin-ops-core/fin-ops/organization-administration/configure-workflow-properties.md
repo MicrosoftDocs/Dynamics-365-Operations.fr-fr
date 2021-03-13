@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
+ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693280"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5067621"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
@@ -73,6 +73,9 @@ Vous pouvez fournir des instructions pour les utilisateurs qui soumettent des do
     4. Entrez le texte dans le champ **Texte traduit**.
     5. Pour personnaliser le texte, vous pouvez insérer des espaces réservés. Pour obtenir des instructions sur l’ajout d’un espace réservé, voir l’étape 3.
     6. Cliquez sur **Fermer**.
+
+> [!NOTE]
+> Les espaces réservés ne peuvent pas être ajoutés par copier-coller, car les informations cibles ne sont pas collées correctement. Utilisez l’interface pour ajouter des espaces réservés.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Spécifier quand ce flux de travail est utilisé via les conditions d’activation
 
@@ -179,6 +182,3 @@ Pour entrer des commentaires sur les modifications que vous avez apportées à c
 2. Entrez vos commentaires dans le champ **Entrer des commentaires sur le workflow**.
 3. Relisez vos commentaires. Une fois les commentaires entrés, il n’est plus possible de les modifier.
 4. Cliquez sur **Ajouter** pour ajouter vos commentaires dans la zone **Historique des commentaires**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594962"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053411"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Activer plusieurs modes de livraison de retrait pour les commandes des clients
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Dans Microsoft Dynamics 365 Commerce version 10.0.16 et ultérieure, les organisations peuvent définir plusieurs modes de livraison parmi lesquels les acheteurs ou les vendeurs peuvent choisir lorsqu'ils créent une commande qui sera retirée en magasin. De cette façon, les organisations peuvent offrir plusieurs options de retrait à leurs acheteurs. Par exemple, de nombreux détaillants offrent maintenant aux acheteurs le choix entre le retrait en magasin ou le retrait à des points relais pour leurs commandes. Commerce prend en charge la configuration de ces différents modes de livraison de retrait. Les utilisateurs peuvent ensuite en profiter lorsqu'ils créent des commandes client dans n'importe quel canal de commerce pris en charge (e-commerce, centre d'appels ou magasin).
 
@@ -86,6 +85,3 @@ Lorsque plusieurs modes de livraison en retrait sont disponibles pour un canal, 
 ## <a name="considerations-for-distributed-order-management"></a>Considérations sur la gestion des commandes distribuées
 
 Les fonctionnalités de [gestion des commandes distribuées](https://docs.microsoft.com/dynamics365/commerce/dom) de Commerce ignorent toutes les lignes de vente marquées pour le retrait en magasin. Ces fonctionnalités ont été mises à jour pour garantir que les lignes de vente liées aux modes de livraison en retrait configurés contournent la logique DOM et ne seront pas réaffectées à un nouvel entrepôt d'exécution.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

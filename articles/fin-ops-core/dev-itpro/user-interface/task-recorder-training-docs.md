@@ -1,6 +1,6 @@
 ---
 title: Créer une documentation ou une formation avec l’enregistreur de tâches
-description: Cette rubrique explique ce que sont l’enregistreur de tâches et les guides de tâche, comment créer des enregistrements de tâches, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d’aide.
+description: Cette rubrique explique ce que sont l’enregistreur de tâches et les guides de tâche, comment créer des enregistrements, et comment personnaliser les guides de tâches Microsoft et les inclure dans votre rubrique d’aide.
 author: josaw1
 manager: AnnBe
 ms.date: 03/24/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b92ef15fc9f3f6a5ebb6ba4ea4eae1a0f7488995
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1bc634a324e3cc12855a1b36b9a58a9cb38eb5d2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687790"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092867"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l’enregistreur de tâches
 
@@ -123,6 +123,3 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 [Enregistreur de tâches](task-recorder.md)
 
 [Création de rubriques d’aide enrichies grâce à l’enregistreur de tâches (lien externe)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

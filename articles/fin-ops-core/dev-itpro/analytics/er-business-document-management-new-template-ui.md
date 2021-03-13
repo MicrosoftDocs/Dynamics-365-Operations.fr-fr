@@ -1,6 +1,6 @@
 ---
 title: Nouvelle interface utilisateur de document dans la gestion des documents commerciaux
-description: Cette rubrique fournit des informations sur l’utilisation de la nouvelle interface utilisateur de document (UI) dans la fonctionnalité de gestion des documents commerciaux de l’infrastructure des états électroniques (ER).
+description: Cette rubrique fournit des informations sur l’utilisation de la nouvelle interface utilisateur de document dans la fonctionnalité de gestion des documents commerciaux de l’infrastructure de gestion des états électroniques.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681350"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092223"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>Nouvelle interface utilisateur de document dans la gestion des documents commerciaux
 
@@ -64,6 +64,3 @@ Suivez ces étapes pour activer cette fonctionnalité pour toutes les entités j
 Le bouton **Nouveau document** est utilisé pour créer et modifier un modèle dans une configuration au format ER fournie par un autre fournisseur. Dans cet exemple, le fournisseur est Microsoft. Lorsque vous sélectionnez **Nouveau document**, vous pouvez voir tous les modèles qui sont détenus par les fournisseurs actuels et autres fournisseurs. Après que vous avez sélectionné le modèle, il est ouvert pour modification. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
 
 Pour plus d’informations, voir [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

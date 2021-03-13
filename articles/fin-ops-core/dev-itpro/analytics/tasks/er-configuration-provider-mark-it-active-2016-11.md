@@ -1,6 +1,6 @@
 ---
 title: Créer des fournisseurs de configuration et les marquer comme actif
-description: Cette rubrique explique comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut créer un fournisseur de configuration pour la génération d’états électroniques (ER).
+description: Cette rubrique explique comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut créer un fournisseur de configuration.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/02/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 835e35ef233ba5734e5a4d47f624629e95ae5b89
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681995"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092058"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Créer des fournisseurs de configuration et les marquer comme actif
 
@@ -44,6 +44,3 @@ Cette rubrique explique comment un utilisateur affecté au rôle d’administrat
 2. Sélectionnez **Activer**.
 
 ![Page de l’espace de travail des états électroniques](../media/GER-Task-ActiveProvider-1.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
