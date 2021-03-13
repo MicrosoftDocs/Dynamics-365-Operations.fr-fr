@@ -2,7 +2,7 @@
 title: Gérer les demandes de congé dans Teams
 description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4418588"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128159"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congé dans Teams
 
@@ -196,7 +196,6 @@ L'application Ressources humaines dans Teams présente les problèmes d'accessib
 | --- | --- |
 | Le zoom à 400 % sur le bureau masque certains des boutons d'action de la vue. | Nous vous recommandons d'utiliser une loupe à la place jusqu'à ce que nous puissions prendre en charge ce niveau de zoom. |
 | Sur l'onglet **Congé**, la voix off annonce une action sur un bouton lors de la lecture de l'en-tête de la grille des congés. | L'en-tête et les éléments de la grille sont regroupés par année et sont réductibles. La voix off interprète cela comme un élément exploitable, mais ce n'est pas le cas. |
-| Si vous glissez alors qu'une fenêtre contextuelle ou un menu est ouvert, la voix off ignore la lecture du contenu de la fenêtre contextuelle ou du menu. | Explorez le contenu à l'aide de la reconnaissance digitale. |
 | Sur l'onglet **Congé**, il y a un geste de balayage supplémentaire lors de la navigation vers **Code motif** dans une nouvelle demande. | Il n'y a aucun contrôle caché auquel la navigation par balayage tente d'accéder. |
 | Sur l'onglet **Congé**, si vous faites glisser votre doigt pendant que le calendrier est ouvert, vous vous retrouvez hors du contrôle au lieu d'être en haut dans une nouvelle demande ou lors de la modification d'une demande. | Quand vous atteignez **Aller à aujourd'hui**, considérez que c'est la fin du contrôle et faites glisser votre doigt dans la direction inverse pour revenir en haut. |
 | VoiceOver ne lit pas les étiquettes des dates. | Les dates rencontrées par paires sont toujours **Date de début** et **Date de fin**. |
@@ -229,6 +228,3 @@ Pour limiter l'accès à l'application Human Resources dans Microsoft Teams pour
 [Télécharger er installer Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Centre d’aide Microsoft Teams](https://support.office.com/teams)</br>
 [Application Human Resources de Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

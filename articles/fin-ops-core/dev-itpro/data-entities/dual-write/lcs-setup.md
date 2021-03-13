@@ -1,6 +1,6 @@
 ---
-title: Configuration en double écriture à partir de Lifecycle Services
-description: Cette rubrique explique comment configurer une connexion en double écriture entre un nouvel environnement Finance and Operations et un nouvel environnement Dataverse de Microsoft Dynamics Lifecycle Services (LCS).
+title: Configuration en double écriture depuis Lifecycle Services
+description: Cette rubrique explique comment configurer une connexion de double écriture à partir de Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683522"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127591"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture à partir de Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Configuration en double écriture depuis Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Procédez comme suit pour configurer la connexion en double écriture.
     - Si un environnement Dataverse est déjà configuré pour votre client, vous pouvez le sélectionner.
 
         1. Définissez l’option **Configurer Dataverse** sur **Oui**.
-        2. Dans le champ **Environnements disponibles**, sélectionnez l’environnement à intégrer avec vos données Finance and Operations. La liste comprend tous les environnements dans lesquels vous disposez de privilèges d’administrateur.
+        2. Dans la colonne **Environnements disponibles**, sélectionnez l’environnement à intégrer avec vos données Finance and Operations. La liste comprend tous les environnements dans lesquels vous disposez de privilèges d’administrateur.
         3. Sélectionnez la case à cocher **Accepter** pour indiquer que vous acceptez les termes et conditions.
 
         ![Onglet Dataverse lorsqu’un environnement Dataverse est déjà configuré pour votre client.](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Procédez comme suit pour configurer la connexion en double écriture.
         ![Onglet Dataverse lorsque votre client n’a pas déjà un environnement Dataverse](../dual-write/media/lcs_setup_2.png)
 
 7. Suivez les étapes restantes de l’assistant **Paramètres de déploiement**.
-8. Une fois que l’environnement a le statut **Déployé**, ouvrez la page des détails de l’environnement. La section **Informations de l’environnement Dataverse** montre les noms de l’environnement Finance and Operations et de l’environnement Dataverse associés.
+8. Une fois que l’environnement a le statut **Déployé**, ouvrez la page des détails de l’environnement. La section **Intégration de Power Platform** montre les noms de l’environnement Finance and Operations et de l’environnement Dataverse associés.
 
-    ![Section Information d’environnement Dataverse](../dual-write/media/lcs_setup_3.png)
+    ![Section Intégration de Power Platform](../dual-write/media/lcs_setup_3.png)
 
 9. Un administrateur de l’environnement Finance and Operations doit se connecter à LCS et sélectionner **Lien vers CDS pour les applications** pour compléter le lien. La page des détails de l’environnement affiche les informations de contact de l’administrateur.
 
@@ -86,10 +84,8 @@ Procédez comme suit pour configurer la connexion en double écriture.
 
 10. Pour ouvrir l’espace de travail **Intégration de données** dans l’environnement Finance and Operations et contrôler les modèles disponibles, sélectionnez **Lien vers CDS pour les applications**.
 
-    ![Lien vers le bouton CDS pour les applications dans la section Informations d’environnement Dataverse](../dual-write/media/lcs_setup_4.png)
+    ![Bouton Lien vers CDS for Apps dans la section Intégration de Power Platform](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Vous ne pouvez pas dissocier des environnements à l’aide de LCS. Pour dissocier un environnement, ouvrez l’espace de travail **Intégration des données** dans l’environnement Finance and Operations, puis sélectionnez **Dissocier**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

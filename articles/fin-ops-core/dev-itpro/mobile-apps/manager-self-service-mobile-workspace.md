@@ -1,6 +1,6 @@
 ---
 title: Mon espace de travail mobile Équipe
-description: Cette rubrique fournit des informations sur l’espace de travail mobile Mon équipe, qui permet aux responsables d’afficher leurs rapports directs et leur personnel étendu. Les utilisateurs peuvent également envoyer des récompenses aux personnes de leur chaîne hiérarchique.
+description: Cette rubrique fournit des informations sur l’espace de travail mobile Mon équipe, qui permet aux responsables d’afficher leurs rapports directs et leur personnel étendu.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680968"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127543"
 ---
 # <a name="my-team-mobile-workspace"></a>Mon espace de travail mobile Équipe
 
@@ -97,6 +97,3 @@ Télécharger et installer l’application mobile Finance and Operations :
 1.  Sélectionnez **Envoyer une récompense**. 
 1. Permet d’entrer le texte de la récompense à envoyer. 
 1. Sélectionnez **Terminé**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

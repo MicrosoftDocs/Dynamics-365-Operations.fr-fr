@@ -1,8 +1,8 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (03 février 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 février 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527000"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128135"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (3 février 2020)
 
@@ -45,7 +45,7 @@ Les fonctionnalités d’aperçu suivantes sont disponibles le 3 février 2020
 
 ## <a name="coming-soon"></a>Prochainement
 
-Une nouvelle solution Common Data Service sera bientôt disponible avec les modifications suivantes :
+Une nouvelle solution Dataverse sera bientôt disponible avec les modifications suivantes :
 
 | Description | Monnaie |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 | Nouvelles entités de configuration de la rémunération variable | **Type de régime variable de rémunération**</br>**Régime variable de rémunération**</br>**Règles d’acquisition**</br>**Niveau de régime variable de rémunération** |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | **Entité de calendrier de travail** ajoutée |
 | Nouvelle entité **Détails du poste de paie** | **Détails du poste de paie** ajoutés |
-| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Common Data Service. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
+| Nouvelle entité **Titre** | **Titre** ajouté. La nouvelle entité **Titre** sera incluse dans le processus de synchronisation entre Human Resources et Dataverse. Elle ne sera pas référencée initialement à partir des entités **Poste** ou **Tâche**. |
 
 ## <a name="see-also"></a>Voir également :
 
@@ -65,6 +65,3 @@ Une nouvelle solution Common Data Service sera bientôt disponible avec les modi
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

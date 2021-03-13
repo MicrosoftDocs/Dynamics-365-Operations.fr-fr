@@ -1,8 +1,8 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (14 mai 2020)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 14 mai 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528495"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127847"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (14 mai 2020)
 
@@ -35,9 +35,9 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 Des modifications de plateforme sont incluses dans la version de cette semaine. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.10 des applications Finance and Operations (mai 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Cette version inclut des corrections de bugs et des modifications des vues enregistrées.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Garantir que les listes de sélection Common Data Service sont compatibles avec les énumérations relatives aux congés (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Garantir que les listes de sélection Dataverse sont compatibles avec les énumérations relatives aux congés (436343)
 
-Les listes de sélection Common Data Service sont désormais compatibles avec les énumérations relatives aux congés.
+Les listes de sélection Dataverse sont désormais compatibles avec les énumérations relatives aux congés.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Autoriser les utilisateurs à configurer le workflow de demande de congé en fonction du montant de la demande (300044)
 
@@ -75,7 +75,7 @@ Cette modification corrige une erreur lorsqu’un plan de congé a deux types de
 
 Avec cette modification, la bannière de mise en route est masquée pour les utilisateurs qui ne sont pas administrateurs système ou administrateurs de gestion des données. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>L’entité Adresse du collaborateur Common Data Service fonctionne différemment en termes de dates d’effet date-heure dans Human Resources (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>L’entité Adresse du collaborateur Dataverse fonctionne différemment en termes de dates d’effet date-heure dans Human Resources (425071)
 
 Cette modification maintient les informations d’adresse alignées dans certains scénarios, en fonction des dates de l’adresse.
 
@@ -119,5 +119,3 @@ Vous pouvez spécifier un type de congé de report pour les soldes de report où
 [Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

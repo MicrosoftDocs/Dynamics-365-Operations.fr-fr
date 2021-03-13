@@ -2,7 +2,7 @@
 title: Afficher et évaluer les résultats des questionnaires
 description: Cet article explique comment vous pouvez afficher et évaluer les résultats des questionnaires que les personnes interrogées remplissent.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418561"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116114"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Afficher et évaluer les résultats des questionnaires
 
@@ -44,7 +44,7 @@ Vous pouvez également générer divers états pour afficher les résultats tri�
 
 ## <a name="answer-session-results"></a>Résultats de session de réponse
 
-Dès que les personnes interrogées ont complété un questionnaire, vous pouvez afficher les résultats des sessions de réponse terminées. Une session de réponse est une réponse d'un utilisateur à un questionnaire. Vous pouvez afficher les détails des sessions de réponse terminées dans la page **Réponses**. Les sessions de réponse incluses dans la page **Réponses** sont filtrées de différentes manières, selon la façon dont vous ouvrez la page :
+Dès que les personnes interrogées ont complété un questionnaire, vous pouvez afficher les résultats des sessions de réponse terminées. Une session de réponse est une réponse d'un utilisateur à un questionnaire. Vous pouvez afficher les détails des sessions de réponse terminées dans la page **Réponses**. Les sessions de réponse incluses dans la page **Réponses** sont filtrées de différentes manières, selon la façon dont vous ouvrez la page :
 
 -   Tous les questionnaires
 -   Un questionnaire spécifique
@@ -52,7 +52,7 @@ Dès que les personnes interrogées ont complété un questionnaire, vous pouvez
 
 à partir de la page **Réponses**, vous pouvez afficher les détails sur les réponses, les points qui ont été gagnés, les réponses d'une personne interrogée dans chaque groupe de résultats, et la hiérarchie des questions utilisée dans le questionnaire sélectionné, si une hiérarchie a été utilisée. Vous pouvez également générer et imprimer les états suivants :
 
--   **État des résultats** – Cet état est une représentation graphique des points qui ont été obtenus par groupe de résultats pour la session de réponse sélectionnée.
+-   **État des résultats** – Cet état est une représentation graphique des points qui ont été obtenus par groupe de résultats pour la session de réponse sélectionnée.
 -   **État de réponse** – Cet état affiche les réponses que la personne interrogée a sélectionnées pour chaque question du questionnaire.
 -   **Réponses incorrectes** – Cet état affiche les informations liées aux réponses incorrectes que la personne interrogée a sélectionnées.
 
@@ -72,5 +72,3 @@ Vous pouvez utiliser les statistiques de questionnaires pour analyser les résul
 -   Sélectionnez ou vérifiez les critères servant à analyser les résultats par personne interrogée ou questionnaire. Par exemple, en sélectionnant le **code postal**, vous pouvez analyser la corrélation entre l'emplacement d'une personne interrogée et les réponses correctes.
 
 Les paramètres que vous définissez sont enregistrés et peuvent servir à recalculer périodiquement les résultats.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

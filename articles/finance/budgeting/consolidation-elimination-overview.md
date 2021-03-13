@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443292"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120477"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Vue d’ensemble de la consolidation et de l’élimination
 
@@ -60,6 +59,7 @@ L’option **États financiers** propose un nombre illimité de devises de décl
 L’option **États financiers** constitue la solution, car les détails de transaction peuvent être affichés pour autant de sociétés que celles incluses dans la définition d’arborescence de génération d’états.
 
 4.  Nous utilisons la planification ou le contrôle budgétaire, et il doit être consolidé.
+
 L’option **États financiers** constitue la solution pour consolider les données de planification budgétaire ou de contrôle budgétaire.
 
 5.  Nos filiales sont réparties à travers le monde, et nous avons plusieurs plans de comptes. Quelle est la meilleure méthode pour consolider nos données ?
@@ -86,10 +86,10 @@ L’option **États financiers** constitue la solution. Les hiérarchies d’org
 
 Vous pouvez consolider les données à l’aide de l’option **Exporter soldes de la société** pour exporter à partir d’une instance, puis l’option **Consolider avec importation** sur l’autre instance.
 
+11. Puis-je consolider mon budget si son statut est **BROUILLON** ? 
+            
+Vous ne pourrez pas traiter ou compléter vos budgets dans la société de consolidation. Nous avons recommandé d'utiliser Financial Reporting pour consolider les projets de budget.
 
 Pour plus d’informations, voir [Réévaluation de devise dans une société de consolidation](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

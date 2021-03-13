@@ -1,8 +1,8 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (24 mars 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 24 mars 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87b7ea660d94c6d564a8f09d4133b098e0ecedf9
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: d3f9595bd19026e0dad0a2a2ad3708bd4f8ca1ba
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526911"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127943"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (24 mars 2020)
 
@@ -59,7 +59,7 @@ Les fonctionnalités d’aperçu suivantes sont disponibles depuis le 3 févrie
 
 - **Fonction d’aperçu de la gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solution Common Data Service est désormais disponible avec les modifications suivantes :
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>La solution Dataverse est désormais disponible avec les modifications suivantes :
 
 | Description | Monnaie |
 | --- | --- |
@@ -71,12 +71,12 @@ Les fonctionnalités d’aperçu suivantes sont disponibles depuis le 3 févrie
 | Nouvelles entités de configuration de la rémunération variable | <ul><li>**Type de régime variable de rémunération**</li><li>**Régime variable de rémunération**</li><li>**Règles d’acquisition**</li><li>**Niveau de régime variable de rémunération**</li></ul> |
 | Nouvelle entité **Emploi du calendrier du collaborateur** | <ul><li>**Entité de calendrier de travail** ajoutée</li></ul> |
 | Nouvelle entité **Détails du poste de paie** | <ul><li>**Détails du poste de paie** ajoutés</li></ul> |
-| Nouvelle entité **Titre** | <ul><li>**Titre** ajouté</li></ul>La nouvelle entité **Titre** est incluse dans Common Data Service, mais n’est pas référencée depuis les entités **Poste** ou **Tâche** à ce moment même. |
+| Nouvelle entité **Titre** | <ul><li>**Titre** ajouté</li></ul>La nouvelle entité **Titre** est incluse dans Dataverse, mais n’est pas référencée depuis les entités **Poste** ou **Tâche** à ce moment même. |
 
 > [!NOTE]
-> Les dimensions financières des postes et de l’emploi offrent une intégration à sens unique pour les mises à jour des ressources humaines vers Common Data Service. Les mises à jour des dimensions financières ne sont actuellement pas synchronisées à partir de Common Data Service vers les ressources humaines.
+> Les dimensions financières des postes et de l’emploi offrent une intégration à sens unique pour les mises à jour des ressources humaines vers Dataverse. Les mises à jour des dimensions financières ne sont actuellement pas synchronisées à partir de Dataverse vers les ressources humaines.
 
-Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Common Data Service pour les ressources humaines :
+Au cours des prochaines semaines, ces modifications d’entités seront disponibles dans tous les environnements. Pour installer manuellement la dernière solution Dataverse pour les ressources humaines :
 
 1.  Accédez au [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -122,5 +122,3 @@ L’entité **Détail de l’emploi** a été mise à jour avec les champs suiva
 [Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

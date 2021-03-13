@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427661"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118679"
 ---
 # <a name="product-dimensions"></a>Dimensions de produit
 
@@ -122,7 +121,7 @@ Avant de pouvoir utiliser la dimension de version, vous devez l’activer sur vo
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Zones dans lesquelles la dimension de version n’est pas prise en charge
 
-Les zones suivantes ne prennent pas en charge la dimension de version, car l’introduction de cette dimension entraînerait des modifications radicales :
+Les zones suivantes ne prennent pas en charge la dimension de version (vous pouvez toujours utiliser ces zones, mais vous ne pourrez pas y ajouter des produits avec version (produits dans lesquels la dimension de version est utilisée)). Par exemple, vous ne pouvez pas ajouter un article avec version à un catalogue fournisseur. L'ajout de produits avec la dimension de version à ces zones provoquerait des changements importants.
 
 - Relevé mensuel de l’objet de coût
 - Cache du relevé des objets de coût
@@ -146,6 +145,3 @@ La dimension de version fonctionne comme les autres dimensions de produit. Cepen
 
 > [!IMPORTANT]
 > Si vous activez et utilisez la dimension de version, certaines solutions qui référencent les dimensions de stock peuvent cesser de fonctionner comme prévu. Pour confirmer et résoudre ces problèmes, contactez le fournisseur de logiciels indépendant (ISV) des solutions concernées. Pour plus d’informations, consultez [Activer la dimension de version](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
