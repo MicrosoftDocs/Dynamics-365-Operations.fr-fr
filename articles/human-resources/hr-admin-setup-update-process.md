@@ -2,7 +2,7 @@
 title: Processus de mise à jour
 description: Microsoft Dynamics 365 Human Resources est un véritable logiciel en tant que service (SaaS) qui fournit des mises à jour de service continues et sans contact pour les modifications de l’application et de la plateforme.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527803"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112495"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
@@ -43,7 +43,7 @@ Les mises à jour de Human Resources sont appliquées à tous les environnements
 
     Tous les centres de données pris en charge sont mis à jour toutes les deux semaines, sauf indication contraire. Les régions américaines, australiennes, européennes, britanniques, asiatiques et canadiennes sont incluses dans les mises à jour bihebdomadaires. 
 
-- **Mises à jour de la solution Common Data Service** : ces mises à jour ont lieu environ toutes les six semaines, selon les besoins. Elles incluent les nouvelles entités et les modifications apportées aux entités existantes dans Common Data Service. Ces mises à jour sont publiées dans les mêmes régions que les mises à jour bihebdomadaires et leur réplication dans tous les centres de données prend environ six semaines. Les mises à jour de la solution peuvent ou non correspondre aux mises à jour bihebdomadaires du service.
+- **Mises à jour de la solution Dataverse** : ces mises à jour ont lieu environ toutes les six semaines, selon les besoins. Elles incluent les nouvelles entités et les modifications apportées aux entités existantes dans Dataverse. Ces mises à jour sont publiées dans les mêmes régions que les mises à jour bihebdomadaires et leur réplication dans tous les centres de données prend environ six semaines. Les mises à jour de la solution peuvent ou non correspondre aux mises à jour bihebdomadaires du service.
 
 > [!NOTE]
 > Les mises à jour de la solution sont disponibles sur tous les centres de données une fois publiées. Si vous ne souhaitez pas attendre la réplication automatique des mises à jour, vous pouvez appliquer manuellement ces mises à jour sur n’importe quel environnement dans n’importe quel centre de données.
@@ -105,6 +105,3 @@ Lorsque vous testez des fonctionnalités d’aperçu ou essayez de nouvelles fon
 [Nouveautés ou modifications dans Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
 [Stratégie du cycle de vie de logiciel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

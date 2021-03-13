@@ -2,7 +2,7 @@
 title: Processus d'éligibilité à l'inscription
 description: Cet article explique comment exécuter le processus d'éligibilité à l'inscription.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 69ea23e4051a6975a5892cd027777c5a88472509
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418455"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112549"
 ---
 # <a name="process-enrollment-eligibility"></a>Processus d'éligibilité à l'inscription
 
@@ -38,7 +38,7 @@ Cet article explique comment exécuter le processus d'éligibilité à l'inscrip
    | **Période d'inscription** | La période d'inscription pour traiter l'éligibilité. |
    | **Entité juridique** | L'entité juridique pour laquelle traiter l'éligibilité. |
    | **Collaborateur** | Le collaborateur pour lequel traiter l'éligibilité. Si vous laissez ce champ vide, l'éligibilité à l'inscription sera traitée pour tous les collaborateurs. |
-   | **Plan d'avantage** | Le plan d'avantages pour lequel traiter l'éligibilité.
+   | **Plan d'avantage** | Le régime de prestations pour lequel traiter l'éligibilité.
 
 3. Si vous souhaitez exécuter le processus en arrière-plan, sélectionnez **Exécuter à l'arrière-plan** et effectuez les tâches suivantes :
 
@@ -67,11 +67,8 @@ Cet article explique comment afficher les résultats du processus d'éligibilit�
    | **Horodatage** | Heure à laquelle le processus d'éligibilité a été exécuté. |
    | **Entité juridique** | L'entité juridique spécifiée lors du processus d'inscription. |
    | **Collaborateur** | Collaborateur ayant été traité. |
-   | **Plan | Le plan d'avantages pour lequel l'inscription a été tentée. |
+   | **Plan | Le régime de prestations pour lequel l'inscription a été tentée. |
    | **Règle d'éligibilité** | La règle d'éligibilité qui a été traitée. Si une erreur s'est produite avant l'exécution de l'éligibilité, elle sera vide. Par exemple : si la rémunération n'a pas été définie pour un collaborateur, le processus d'éligibilité ne s'exécutera pas et ce champ sera laissé vide. |
-   | **Statut du résultat** | Il s'agit du statut Éligible ou Inéligible. Le statut du résultat est défini sur Ineligible si le collaborateur n'a pas répondu aux critères de règle d'éligibilité, si le collaborateur n'a pas les informations requises comme la fréquence de paiement ou la rémunération fixe, ou si des informations manquent sur le plan d'avantages qui empêche l'inscription des collaborateurs. |
-   | **Message de résultat** | Indique pourquoi un collaborateur n'est pas admissible à un régime d'avantages sociaux ou si la règle d'admissibilité a été adoptée. |
+   | **Statut du résultat** | Il s'agit du statut Éligible ou Inéligible. Le statut du résultat est défini sur Ineligible si le collaborateur n'a pas répondu aux critères de règle d'éligibilité, si le collaborateur n'a pas les informations requises comme la fréquence de paiement ou la rémunération fixe, ou si des informations manquent sur le régime de prestations qui empêche l'inscription des collaborateurs. |
+   | **Message de résultat** | Indique pourquoi un collaborateur n'est pas admissible à un régime de prestations sociales ou si la règle d'admissibilité a été adoptée. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

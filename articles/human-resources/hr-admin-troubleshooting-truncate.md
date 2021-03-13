@@ -2,7 +2,7 @@
 title: Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 description: Cet article explique comment résoudre un problème dans lequel les noms des personnes et les postes sont tronqués lorsque les clients affichent la hiérarchie des postes dans Microsoft Dynamics 365 Human Resources. La troncation de texte peut rendre difficile l'exécution d'une capture d'écran ou d'une impression de la hiérarchie.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418508"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112510"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Éviter la troncation de texte de la hiérarchie des postes et exporter dans Visio
 
@@ -104,6 +104,3 @@ Selon les champs sélectionnés à inclure dans le diagramme, chaque nœud affic
 **Option supplémentaire**
 
 Dans Human Resources, vous pouvez également pouvoir utiliser l'espace de travail **Personnes** pour afficher des informations associées à la hiérarchie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

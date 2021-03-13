@@ -1,8 +1,8 @@
 ---
 title: Création de plans d'avantages pour les collaborateurs
-description: Vous pouvez créer des plans d'avantages pour les collaborateurs dans Microsoft Dynamics 365 Human Resources pour sélectionner les plans d'avantages des employés et confirmer les choix de plans d'avantages.
+description: Vous pouvez créer des plans d'avantages pour les collaborateurs dans Microsoft Dynamics 365 Human Resources pour sélectionner les régimes de prestations des employés et confirmer les choix de régimes de prestations.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418453"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112560"
 ---
 # <a name="create-worker-benefit-plans"></a>Création de plans d'avantages pour les collaborateurs
 
@@ -49,6 +49,3 @@ Vous pouvez créer des plans d'avantages pour les collaborateurs dans Microsoft 
    | Plans | L'onglet rapide Plans contient les plans qui répondent aux critères de filtre que vous avez spécifiés. Les options de configuration pertinentes définies par le personnel RH et les sélections d'inscription choisies par les employés sont incluses sur chaque ligne. Le champ Qualifié indique s'il existe un conflit de validation avec la sélection de plan. |
 
 4. Sélectionnez **Enregistrer**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

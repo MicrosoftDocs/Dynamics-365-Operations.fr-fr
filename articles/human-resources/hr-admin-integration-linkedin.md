@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4fda9d85b459d233e6239f3fcffbb48e596d4085
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527883"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112587"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Intégration avec LinkedIn Talent Hub
 
@@ -127,14 +127,14 @@ Après avoir enregistré et fermé le nouvel utilisateur de l'application dans l
     - **Nom** : Saisissez le nom du rôle de sécurité Power Apps que vous avez créé précédemment, tel que **Intégration SIRH LinkedIn Talent Hub**.
     - **Identifiant utilisateur** : Sélectionnez un utilisateur autorisé à écrire des données dans Gestion du personnel.
 
-### <a name="create-the-entity-in-common-data-service"></a>Créer l'entité dans Common Data Service
+### <a name="create-the-table-in-dataverse"></a>Créer la table dans Dataverse
 
 > [!IMPORTANT]
-> L'intégration avec LinkedIn Talent Hub dépend des entités virtuelles dans Common Data Service pour Human Resources. Comme condition préalable à cette étape de la configuration, vous devez configurer des entités virtuelles. Pour plus d'informations sur la configuration des entités virtuelles, voir [Configurer des entités virtuelles Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> L'intégration avec LinkedIn Talent Hub dépend des tables virtuelles dans Dataverse pour Human Resources. Comme condition préalable à cette étape de la configuration, vous devez configurer des tables virtuelles. Pour plus d'informations sur la configuration des tables virtuelles, voir [Configurer des tables virtuelles Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. Dans Human Resources, ouvrez la page **Intégration Common Data Service (CDS)**.
+1. Dans Human Resources, ouvrez la page **Intégration Dataverse**.
 
-2. Sélectionnez l'onglet **Entités virtuelles**.
+2. Sélectionnez l'onglet **Tables virtuelles**.
 
 3. Filtrez la liste d'entités par étiquette d'entité pour trouver **Candidat exporté par LinkedIn**.
 
@@ -142,7 +142,7 @@ Après avoir enregistré et fermé le nouvel utilisateur de l'application dans l
 
 ## <a name="exporting-candidate-records"></a>Exporter les enregistrements de candidats
 
-Une fois la configuration terminée, les recruteurs et les professionnels des ressources humaines (RH) peuvent utiliser la fonction **Exporter vers SIRH** dans LinkedIn Talent Hub pour exporter les enregistrements des candidats embauchés de LinkedIn Talent Hub vers Human resources.
+Une fois la configuration terminée, les recruteurs et les professionnels des ressources humaines (RH) peuvent utiliser la fonction **Exporter vers SIRH** dans LinkedIn Talent Hub pour exporter les enregistrements des candidats embauchés de LinkedIn Talent Hub vers Human Resources.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Exporter des enregistrements depuis LinkedIn Talent Hub
 
@@ -188,8 +188,5 @@ Les détails suivants sont importés et inclus dans l'enregistrement d'un nouvel
 
 ## <a name="see-also"></a>Voir également :
 
-[Configurer les entités virtuelles Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Qu'est-ce que Common Data Service ?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Configurer des tables virtuelles Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Qu'est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

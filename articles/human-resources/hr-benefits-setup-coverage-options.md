@@ -1,8 +1,8 @@
 ---
 title: Créer des options de couverture
-description: Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture pour le choix d'un participant dans un régime ou un programme d'avantages.
+description: Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture pour le choix d'un participant dans un régime de prestations sociales.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418548"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112508"
 ---
 # <a name="create-coverage-options"></a>Créer des options de couverture
 
-Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture pour le choix d'un participant dans un régime ou un programme d'avantages. Par exemple, les options de couverture pourraient inclure **Employé seulement** pour un plan médical, ou **2x Salaire** pour un régime d'assurance-vie. Une fois défini, vous pouvez réutiliser les options de couverture des avantages. Vous pouvez associer une option avec un ou plusieurs plans.
+Les options de couverture dans Microsoft Dynamics 365 Human Resources sont les niveaux de couverture pour le choix d'un participant dans un régime de prestations sociales. Par exemple, les options de couverture pourraient inclure **Employé seulement** pour un plan médical, ou **2x Salaire** pour un régime d'assurance-vie. Une fois défini, vous pouvez réutiliser les options de couverture des avantages. Vous pouvez associer une option avec un ou plusieurs plans.
 
-Après avoir défini les options de couverture, associez les options de couverture à un type de régime d'avantages sociaux. Le type de plan est ensuite associé à un plan ou programme d'avantages. Les options de couverture associées à un type de plan sont disponibles pour tous les plans créés avec ce type de plan. 
+Après avoir défini les options de couverture, associez les options de couverture à un type de régime de prestations sociales. Le type de plan est ensuite associé à un régime de prestations sociales. Les options de couverture associées à un type de plan sont disponibles pour tous les plans créés avec ce type de plan. 
 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Options de couverture**.
 
@@ -55,10 +55,7 @@ Après avoir défini les options de couverture, associez les options de couvertu
 
    | Champ | Description |
    | --- | --- |
-   | **Autoriser le montant de la contribution de l'employé** | Indique s'il faut autoriser les employés à modifier le montant de la contribution sur le libre-service des avantages lorsqu'ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime d'avantages en fonction du montant de cotisation que l'employé saisit dans le libre-service des avantages. |
-   | **Autoriser le montant de la couverture de l'employé** | Indique s'il faut autoriser les employés à modifier le montant de la couverture sur le libre-service des avantages lorsqu'ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime d'avantages en fonction du montant de couverture que l'employé saisit dans le Libre-service employé. |
+   | **Autoriser le montant de la contribution de l'employé** | Indique s'il faut autoriser les employés à modifier le montant de la contribution sur le libre-service des avantages lorsqu'ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime de prestations en fonction du montant de cotisation que l'employé saisit dans le libre-service des avantages. |
+   | **Autoriser le montant de la couverture de l'employé** | Indique s'il faut autoriser les employés à modifier le montant de la couverture sur le libre-service des avantages lorsqu'ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime de prestations en fonction du montant de couverture que l'employé saisit dans le Libre-service employé. |
 
 6. Sélectionnez **Enregistrer**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

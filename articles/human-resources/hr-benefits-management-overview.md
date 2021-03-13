@@ -2,7 +2,7 @@
 title: Vue d'ensemble de la gestion des avantages
 description: Présentation de la fonction de gestion des avantages dans Dynamics 365 Human Resources. Offrez à vos employés des options d'avantages étendues avec une expérience en ligne facile à utiliser.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4ae4270f3185f8795753ecdb209515ecd6e86486
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418466"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112563"
 ---
 # <a name="benefits-management-overview"></a>Vue d'ensemble de la gestion des avantages
 
@@ -56,7 +56,7 @@ Avant de pouvoir inscrire des employés aux avantages sociaux, vous devez fourni
 
 Si vous avez un employé qui reçoit une rémunération supplémentaire, comme des commissions, vous pouvez ajouter un montant **Salaire annuel des avantages sociaux** depuis l'enregistrement de l'employé. Human Resources utilise le montant **Salaire annuel des avantages sociaux** lors de la détermination des montants de couverture, au lieu du montant annuel de la rémunération fixe. Le **Salaire annuel des avantages sociaux** doit être valide à la date de début de l'employé ou au début de la période de prestation, selon quelle date est la plus récente. Si une rémunération fixe et un montant de salaire annuel des avantages sociaux sont enregistrés pour un employé, le salaire annuel des avantages sociaux sera utilisé pour déterminer les montants de couverture.
 
-Lorsque vous créez un plan d'avantages qui utilise des taux basés sur le sexe ou l'âge, vous devez saisir une date de naissance et un sexe pour l'employé afin de calculer le coût des avantages.
+Lorsque vous créez un régime de prestations qui utilise des taux basés sur le sexe ou l'âge, vous devez saisir une date de naissance et un sexe pour l'employé afin de calculer le coût des avantages.
 
 ## <a name="configure-benefits-management"></a>Configurer la gestion des avantages
 
@@ -97,6 +97,3 @@ Vous devez traiter certaines de vos modifications pour les rendre actives.
 - [Processus d'éligibilité à un événement de vie](hr-benefits-process-life-event-eligibility.md)
 - [Traitement des modifications de taux](hr-benefits-process-rate-changes.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669167"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112445"
 ---
 # <a name="recruit-job-candidates"></a>Recruter des candidats à un poste
 
@@ -38,7 +38,7 @@ Dynamics 365 Human Resources vous aide à gérer les demandes de recrutement. Il
 Si vous n'utilisez pas d'application de recrutement distincte, vous pouvez également gérer manuellement les candidats dans Human Resources.
 
 >[!NOTE]
->Si vous êtes administrateur ou développeur et souhaitez intégrer Human Resources à une application de recrutement tierce, consultez [Configurer l'intégration de Common Data Service](hr-admin-integration-common-data-service.md) et [Configurer les entités virtuelles Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>Si vous êtes administrateur ou développeur et souhaitez intégrer Human Resources à une application de recrutement tierce, consultez [Configurer l'intégration de Dataverse](hr-admin-integration-common-data-service.md) et [Configurer les tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Vous pouvez également trouver des applications d'intégration de recrutement sur [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Si vous n'utilisez pas d'application de recrutement distincte, vous pouvez égal
 
 ## <a name="enable-recruiting-requests"></a>Activer les demandes de recrutement
 
-Si vous souhaitez soumettre des demandes de recrutement dans Human Resources, vous devez d'abord activer la fonctionnalité dans **Paramètres Human Resources**.
+Si vous souhaitez soumettre des demandes de recrutement dans Human Resources, vous devez d'abord activer la fonctionnalité dans **Paramètres partagés de Human Resources**.
 
 1. Dans l'espace de travail **Gestion du personnel**, sélectionnez **Liens**.
 
-2. Sous **Configuration**, sélectionnez **Paramètres des ressources humaines**.
+2. Sous **Configuration**, sélectionnez **Paramètres partagés des ressources humaines**.
 
-3. Sur l'onglet **Général**, sous **RECRUTEMENT**, définissez **Activer les demandes de recrutement** sur **Oui**.
-
-   ![Activer les demandes de recrutement](./media/hr-recruit-0-enable-requests.png)
+3. Sur l'onglet **Recrutement**, sous **RECRUTEMENT**, définissez **Activer les demandes de recrutement** sur **Oui**.
 
 ## <a name="add-a-recruiting-request-location"></a>Ajouter un emplacement de demande de recrutement
 
@@ -177,7 +175,7 @@ Si votre organisation s'est intégrée à une autre application pour gérer les 
    - **Formation**
    - **Compétences**
    - **Certificats**
-   - **Filtrages**
+   - **Présélections**
 
 8. Sélectionnez **Enregistrer**.
 
@@ -224,8 +222,6 @@ Si nécessaire, vous pouvez ignorer un candidat après l'avoir embauché. Par ex
 
 ## <a name="see-also"></a>Voir également :
 
-[Configurer les entités virtuelles Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Configurer des tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organisation du personnel](hr-personnel-departments-jobs-positions.md)<br>
 [Paramétrer les composants d’une tâche](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

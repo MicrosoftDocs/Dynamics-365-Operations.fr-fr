@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3bb6b809560688a7849b60c15a01fd89038e843
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 74a87ddb4ed14042dd4e716ad64bc844a800a0a0
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527432"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112581"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (16 septembre 2020)
 
@@ -63,7 +63,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 - Quand le champ **Supérieur hiérarchique** est vide, les détails du poste s'affichent toujours lorsque vous survolez le poste (433328).
 
-- Les employés peuvent désormais afficher les informations relatives au plan d'avantages dans le libre-service des employés (481676).
+- Les employés peuvent désormais afficher les informations relatives au régime de prestations dans le libre-service des employés (481676).
 
 - Les employés peuvent désormais voir tous les cours enregistrés (429048).
 
@@ -110,9 +110,9 @@ Cette version comprend des options de calendrier supplémentaires pour les calen
 
 ## <a name="coming-soon"></a>Prochainement
 
-### <a name="checklist-entities-included-in-common-data-service"></a>Entités de liste de contrôle incluses dans Common Data Service
+### <a name="checklist-entities-included-in-dataverse"></a>Entités de liste de contrôle incluses dans Dataverse
 
-Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Common Data Service.
+Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Dataverse.
 
 ### <a name="benefits-management-reason-codes"></a>Codes de motif de la gestion des avantages
 
@@ -124,6 +124,3 @@ Les codes de motif de gestion des avantages seront bientôt combinés aux codes 
 [Présentation de la 2e partie du lancement 2019 de Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Intégration avec Finance
 description: Cet article explique quelles données sont synchronisées dans le cadre d'une intégration de Human Resources et de Finance.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589061"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112522"
 ---
 # <a name="integration-with-finance-faq"></a>Intégration avec Finance
 
@@ -32,7 +32,7 @@ Cette rubrique répond aux questions fréquentes associées aux données synchro
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Puis-je modifier l'utilisateur de l'application Dynamics 365 Talent dans Power Apps ?
 
-N° Si vous modifiez l'utilisateur de l'application Talent, l'intégration entre Human Resources et Common Data Service pourrait échouer. Le tableau suivant présente les paramètres par défaut de l'utilisateur de l'application Talent.
+N° Si vous modifiez l'utilisateur de l'application Human Resources, l'intégration entre Human Resources et Dataverse pourrait échouer. Le tableau suivant présente les paramètres par défaut de l'utilisateur de l'application Talent.
 
 | Nom complet | ID candidature | ID objet Azure AD | URI ID application |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ N° Si vous modifiez l'utilisateur de l'application Talent, l'intégration entre
 
 Un sous-ensemble des données est synchronisé. Pour obtenir une liste de toutes les entités, voir [Intégration à Dynamics 365 Finance](hr-admin-integration-finance.md).
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Pourquoi ne vois-je aucune donnée synchronisée avec Common Data Service ?
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Pourquoi ne vois-je aucune donnée synchronisée avec Dataverse ?
 
-Par défaut, l'intégration de Common Data Service est désactivée dans les nouveaux environnements qui ne comprennent pas les données de démonstration fournies. Par défaut, elle est activée dans les nouveaux environnements qui incluent des données de démonstration, et la synchronisation des données démarre lorsque l'environnement est mis en service. Lorsque votre environnement est prêt à synchroniser les données, vous pouvez activer l'intégration. Pour plus d'informations, voir [Configuration de l'intégration de Common Data Service](hr-admin-integration-common-data-service.md).
+Par défaut, l'intégration de Dataverse est désactivée dans les nouveaux environnements qui ne comprennent pas les données de démonstration fournies. Par défaut, elle est activée dans les nouveaux environnements qui incluent des données de démonstration, et la synchronisation des données démarre lorsque l'environnement est mis en service. Lorsque votre environnement est prêt à synchroniser les données, vous pouvez activer l'intégration. Pour plus d'informations, voir [Configuration de l'intégration de Dataverse](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Puis-je créer une mise en correspondance sans utiliser les modèles ?
 
-Les modèles sont le point de départ. Vous pouvez créer votre propre modèle, mais un modèle est toujours requis lors de la création d'un projet d'intégration. Pour en savoir plus sur l'intégrateur des données (DI), les modèles et les projets, voir [Intégrer les données dans Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Les modèles sont le point de départ. Vous pouvez créer votre propre modèle, mais un modèle est toujours requis lors de la création d'un projet d'intégration. Pour en savoir plus sur l'intégrateur des données (DI), les modèles et les projets, voir [Intégrer les données dans Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Puis-je mettre en correspondance les dimensions financières à transférer entre Human Resources et Finance ?
 
-Les dimensions financières ne sont actuellement pas dans Common Data Service pour les applications et, par conséquent, ne font pas partie du modèle par défaut. Cette entité est prévue, mais actuellement, aucun calendrier de publication n'est disponible.
+Les dimensions financières ne sont actuellement pas dans Dataverse pour les applications et, par conséquent, ne font pas partie du modèle par défaut. Cette entité est prévue, mais actuellement, aucun calendrier de publication n'est disponible.
 
 Pour les données résidant dans Finance and Operations, mais qui n'existent pas dans Human Resources, associez les deux systèmes en utilisant **Configurer les liens** dans Human Resources.
 
@@ -76,7 +76,7 @@ En utilisant « Requête avancée », vous pouvez filtrer et reconstituer les 
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Puis-je préciser quels champs à envoyer à Finance pour une entité spécifique ?
 
-Les champs peuvent être ajoutés ou supprimés depuis la tâche d'intégration. Les champs de données qui existent dans l'entité Common Data Service ne sont pas tous renseignés depuis Human Resources.
+Les champs peuvent être ajoutés ou supprimés depuis la tâche d'intégration. Les champs de données qui existent dans la table Dataverse ne sont pas tous renseignés depuis Human Resources.
 Des informations supplémentaires peuvent être renseignées via Power Apps.
 
 ![Ajouter ou supprimer des champs depuis une tâche d'intégration](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ Non, l'intégrateur des données ne capture pas les enregistrements supprimés p
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Puis-je ré-exécuter l'exécution erronée ? Si oui, cela enverra-t-il un fichier complet ou uniquement les modifications ?
 
-La première exécution de l'intégrateur des données est toujours une exécution complète. Les exécutions suivantes sont basées sur le suivi des modifications. En cas d'erreur d'exécution, les enregistrements ressortant de l'exécution sont extraits et les modifications les plus récentes effectuées depuis Common Data Service sont envoyées.
+La première exécution de l'intégrateur des données est toujours une exécution complète. Les exécutions suivantes sont basées sur le suivi des modifications. En cas d'erreur d'exécution, les enregistrements ressortant de l'exécution sont extraits et les modifications les plus récentes effectuées depuis Dataverse sont envoyées.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Lorsque j'enregistre le projet, j'obtiens l'erreur suivante : « Le projet rencontre des erreurs de mise en correspondance. » Que puis-je faire ?
 
@@ -109,15 +109,15 @@ Oui, pour chaque entité juridique dans Finance, vous aurez besoin d'un projet d
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Je dois transférer les données qui ne font pas partie du modèle par défaut fourni par Microsoft. Puis-je le faire ?
 
-Oui, des champs peuvent être ajoutés ou supprimés depuis le modèle existant. Le modèle peut être modifié pour inclure des données supplémentaires depuis d'autres entités Common Data Service. L'entité doit être dans Common Data Service afin d'être incluse dans le modèle. 
+Oui, des champs peuvent être ajoutés ou supprimés depuis le modèle existant. Le modèle peut être modifié pour inclure des données supplémentaires depuis d'autres tables Dataverse. L'entité doit être dans Dataverse afin d'être incluse dans le modèle. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Je viens de créer de nouveaux environnements Finance et Human Resources, et j'obtiens l'erreur « La valeur des données enfreint l'intégrité des contraintes. » Pourquoi ?
 
 Parmi les causes de cette erreur peuvent figurer :
 
-- Le transfert des données a généré une extraction des doublons au niveau des enregistrements à la source (Common Data Service).
+- Le transfert des données a généré une extraction des doublons au niveau des enregistrements à la source (Dataverse).
 
-- Le transfert des données a des valeurs nulles pour les champs requis dans Finance and Operations. Vérifiez les données qui se trouvent dans Common Data Service et qui répondent aux exigences de Finance and Operations.
+- Le transfert des données a des valeurs nulles pour les champs requis dans Finance and Operations. Vérifiez les données qui se trouvent dans Dataverse et qui répondent aux exigences de Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>S'il existe des erreurs d'exécution et si l'ID d'employé ne s'est pas synchronisé, comment trouver la tâche de l'historique qui affiche l'enregistrement d'employé échoué ?
 
@@ -139,27 +139,27 @@ Retracez le temps d'exécution depuis l'historique d'exécution de l'intégrateu
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Après l'intégration de Human Resources et de Finance, je ne vois pas mes données Human Resources dans Finance. Que puis-je faire ?
 
-L'intégration à Finance est un processus en deux étapes. Tout d'abord, vérifiez que les données Human Resources sont mises à jour et disponibles dans Common Data Service. Il s'agit d'une synchronisation quasiment en temps réel et cela peut être vérifié dans Power Apps en observant les données dans les entités des données.
+L'intégration à Finance est un processus en deux étapes. Tout d'abord, vérifiez que les données Human Resources sont mises à jour et disponibles dans Dataverse. Il s'agit d'une synchronisation quasiment en temps réel et cela peut être vérifié dans Power Apps en observant les données dans les tables de données.
 
-![Données dans Common Data Service](media/DataInCDS.png)
+![Données dans Dataverse](media/DataInCDS.png)
 
-Si les données ne s'affichent pas comme prévu dans Common Data Service, vérifiez que l'entité est prise en charge dans l'intégration. Pour inclure des données supplémentaires dans Common Data Service, un modification sera requise du côté de Microsoft.
+Si les données ne s'affichent pas comme prévu dans Dataverse, vérifiez que l'entité est prise en charge dans l'intégration. Pour inclure des données supplémentaires dans Dataverse, un modification sera requise du côté de Microsoft.
 
-Si l'entité est prise en charge et si les données sont disponibles dans Common Data Service, vérifiez que la mise en correspondance est correcte dans l'intégrateur des données. Si la mise en correspondance de l'intégrateur semble appropriée, vérifiez que l'exécution des tâches de gestion des données est un succès. Des erreurs peuvent survenir pendant l'exécution des traitements par lots. Pour plus d'informations sur la gestion des données, voir [Gestion des données](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Si l'entité est prise en charge et si les données sont disponibles dans Dataverse, vérifiez que la mise en correspondance est correcte dans l'intégrateur des données. Si la mise en correspondance de l'intégrateur semble appropriée, vérifiez que l'exécution des tâches de gestion des données est un succès. Des erreurs peuvent survenir pendant l'exécution des traitements par lots. Pour plus d'informations sur la gestion des données, voir [Gestion des données](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Les adresses pour mes employés sont incorrectes après leur importation dans Finance. Que dois-je faire ?
 
-La souche de numéros pour **ID emplacement** utilise le même modèle dans Human Resources et Finance. La souche de numéros doit être unique des deux côtés afin qu'il n'y ait pas de conflit d'adresses lors de l'intégration des données de Common Data Service vers Finance and Operations.
+La souche de numéros pour **ID emplacement** utilise le même modèle dans Human Resources et Finance. La souche de numéros doit être unique des deux côtés afin qu'il n'y ait pas de conflit d'adresses lors de l'intégration des données de Dataverse vers Finance and Operations.
 
 Pendant la mise en place de Human Resources, vérifiez que les souches de numéros ne sont pas identiques dans Human Resources et Finance and Operations. Vérifiez que toutes les souches de numéros ne sont pas identiques lorsque les données doivent être conservées dans les deux systèmes.
 
-## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Lors de la création de mon ensemble de connexionx, la connexion n'apparaît pas dans la liste déroulante Connexion. Que puis-je faire ?
+## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Lors de la création de mon ensemble de connexions, la connexion n'apparaît pas dans la liste déroulante Connexion. Que puis-je faire ?
 
-Veillez, lors de la création de vos connexions, à choisir Dynamics 365 Finance et Common Data Service.
+Veillez, lors de la création de vos connexions, à choisir Dynamics 365 Finance et Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Lors de la synchronisation des emplois, j'obtiens les erreurs « CompanyInfo_FK doesn't exist » ou « The value '12/31/2154 11:59:59 pm » dans le champ « Date de fin de l'emploi » reste introuvable dans le tableau « Emploi » associé. Que dois-je faire ?
 
-Veillez à bien mettre en correspondance les entités juridiques appropriées. La synchronisation des entités juridiques ne fait pas partie du modèle par défaut. Aussi, il est prévu que chaque entité juridique présente dans Human Resources et Common Data Service soit également présente dans Finance.
+Veillez à bien mettre en correspondance les entités juridiques appropriées. La synchronisation des entités juridiques ne fait pas partie du modèle par défaut. Aussi, il est prévu que chaque entité juridique présente dans Human Resources et Dataverse soit également présente dans Finance.
 En outre, veillez à sélectionner les bonnes entités juridiques pour le jeu de connexions associé.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Après la configuration de mon projet, la mise en correspondance des champs pour Finance semble vide. Que dois-je faire ?
@@ -172,15 +172,12 @@ Actualisez les entités des données dans Finance en accédant à **Gestion des 
 
 - Intégrateur des données : 
 
-  - [Intégration de données dans Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Intégration de données dans Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [Gestion et dépannage des erreurs de l'intégrateur des données](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Répondre aux demandes DSR pour les journaux générés par le système dans Power Apps, Microsoft Power Automate et Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Répondre aux demandes DSR pour les journaux générés par le système dans Power Apps, Microsoft Power Automate et Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Gestion des données :
 
   - [Gestion des données](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

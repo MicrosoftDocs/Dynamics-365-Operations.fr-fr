@@ -2,7 +2,7 @@
 title: Création d'un plan d'avantages
 description: Configurez des plans d'avantages dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05d08862b880271fb4842bd7e77f04208f9c0bed
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418456"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112550"
 ---
 # <a name="create-a-benefits-plan"></a>Création d'un plan d'avantages
 
@@ -39,7 +39,7 @@ Cet article vous montre comment configurer des plans d'avantages sociaux dans Dy
    | --- | --- |
    | **Plan** | Identificateur unique d'un plan. |
    | **Description** | Description du plan. |
-   | **Type de plan** | Lorsque vous créez un nouveau plan, vous devez spécifier le type de plan. Un type de plan est un regroupement de haut niveau de types spécifiques d'avantages. Chaque type de plan spécifie si un employé peut souscrire à plusieurs plans de ce type, spécifie si les contacts sont des bénéficiaires ou des personnes à charge et définit les options de couverture. Vous pouvez créer de nouveaux types de plans personnalisés pour répondre aux besoins de vos offres d'avantages. Les principaux types de plans d'avantages sociaux sont les suivants : <ul><li>401K</li><li>ADD</li><li>Soins dentaires</li><li>Fitness</li><li>FSA</li><li>Vie</li><li>LTD</li><li>Assurance-maladie</li><li>Congés payés</li><li>STD</li><li>Vision</li></ul> |
+   | **Type de plan** | Lorsque vous créez un nouveau plan, vous devez spécifier le type de plan. Un type de plan est un regroupement de haut niveau de types spécifiques d'avantages. Chaque type de plan spécifie si un employé peut souscrire à plusieurs plans de ce type, spécifie si les contacts sont des bénéficiaires ou des personnes à charge et définit les options de couverture. Vous pouvez créer de nouveaux types de plans personnalisés pour répondre aux besoins de vos offres d'avantages. Les principaux types de régimes de prestations sociales sont les suivants : <ul><li>401K</li><li>ADD</li><li>Soins dentaires</li><li>Fitness</li><li>FSA</li><li>Vie</li><li>LTD</li><li>Assurance-maladie</li><li>Congés payés</li><li>STD</li><li>Vision</li></ul> |
    | **Code de type de plan** | Code du type de plan. |
    | **Programme** | Spécifie un programme auquel affecter éventuellement le plan. |
    | **Offre groupée** | Spécifie une offre groupée à laquelle affecter le plan. |
@@ -159,6 +159,3 @@ Vous pouvez fournir une description du plan pour aider les employés à choisir 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d'avantages**.
 
 2. Sélectionnez **Programmes de crédits flexibles**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

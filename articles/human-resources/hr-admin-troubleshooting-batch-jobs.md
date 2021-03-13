@@ -2,7 +2,7 @@
 title: Optimiser les performances en planifiant des traitements par lots après les heures de travail
 description: Cette rubrique explique comment résoudre les problèmes de performances avec Microsoft Dynamics 365 Human Resources en planifiant des traitements par lots de longue durée après les heures de travail.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 219537aab2015469b6ca6ebed5c00af0190c5187
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527763"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112552"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Optimiser les performances en planifiant des traitements par lots après les heures de travail
 
@@ -65,6 +65,3 @@ Les traitements par lots suivants doivent s'exécuter la nuit ou après les heur
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Créer des régimes de rémunération fixe
 description: La rémunération fixe fait référence au salaire brut normal des employés. Cet article décrit les composants qui doivent être définis avant de créer un régime de rémunération fixe et y inscrire des employés.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 06f4a335adfc1e6f438589613efec02f92bfd756
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa370ad5b873d707aba865b7f90e22acfc4825ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418518"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112457"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Création des régimes de rémunération fixe
 
@@ -98,6 +98,3 @@ Vous pouvez désormais affecter un employé à un régime de rémunération fixe
 
 Le système vérifie que le montant de rémunération spécifié pour un régime de rémunération du type niveau ou structure est compris dans les points de référence minimum et maximum pour le niveau de rémunération donné dans la tâche de l'employé. Si le montant de rémunération est en dehors de la plage autorisée, un avertissement ou un message d'erreur s'affiche, selon le niveau de tolérance défini dans le régime de rémunération fixe.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

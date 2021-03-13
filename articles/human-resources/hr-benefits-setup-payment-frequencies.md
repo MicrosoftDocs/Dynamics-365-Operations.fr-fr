@@ -2,7 +2,7 @@
 title: Configurer les fréquences de paiement
 description: Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d'avantages qu'un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5d562b64a161891bf34b0dfa94fbf68325e21b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f5a2ad19d9f9f3a6afa2574d9fdb8841c70d6e6e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418527"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112545"
 ---
 # <a name="set-up-payment-frequencies"></a>Configurer les fréquences de paiement
 
@@ -56,6 +56,3 @@ Les champs des facteurs de conversion identifient le facteur de conversion de la
    | **Facteur de conversion horaire** | Facteur de conversion annuel pour la fréquence de rémunération. Par exemple, le facteur de conversion annuel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 2 080 heures) = 0,005769
 
 4. Sélectionnez **Enregistrer**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

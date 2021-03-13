@@ -2,7 +2,7 @@
 title: Configuration des règles et des options d'admissibilité
 description: Définissez les règles et les options d'admissibilité dans la gestion des avantages de Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2920a03eaec226b306d03ebf8b899113128c410e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418454"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112507"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configuration des règles et des options d'admissibilité
 
@@ -33,7 +33,7 @@ Après avoir configuré les paramètres nécessaires pour la gestion des avantag
 
 Les règles d'admissibilité définissent quels employés peuvent adhérer à chaque plan d'avantages. Après avoir défini des règles d'admissibilité, vous les affectez à des plans d'avantages. Ensuite, vous pouvez traiter l'admissibilité à l'inscription pour voir quels employés sont admissibles pour chaque plan. 
 
-Pendant l'inscription ouverte, les employés peuvent sélectionner des plans d'avantages. S'ils deviennent inadmissibles à un plan d'avantages en fonction des règles d'admissibilité après leur inscription, ils ne sont pas automatiquement désinscrits. En règle générale, lorsqu'un événement de vie se produit et affecte l'admissibilité au plan, une période d'inscription est lancée pour que l'employé sélectionne les plans auxquels il est admissible. 
+Pendant l'inscription ouverte, les employés peuvent sélectionner des plans d'avantages. S'ils deviennent inadmissibles à un régime de prestations en fonction des règles d'admissibilité après leur inscription, ils ne sont pas automatiquement désinscrits. En règle générale, lorsqu'un événement de vie se produit et affecte l'admissibilité au plan, une période d'inscription est lancée pour que l'employé sélectionne les plans auxquels il est admissible. 
 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Règles et options d'admissibilité**.
 
@@ -89,7 +89,7 @@ Pendant l'inscription ouverte, les employés peuvent sélectionner des plans d'a
 
 ## <a name="configure-bundles"></a>Configuration des offres groupées
 
-Les offres groupées sont un ensemble de plans d'avantages connexes. Vous pouvez utiliser des offres groupées d'avantages pour regrouper les plans d'avantages qu'un employé doit choisir afin de souscrire à certains plans d'avantages qui peuvent dépendre d'autres souscriptions à des plans d'avantages. Voici des exemples de cas où vous souhaiterez peut-être utiliser une offre groupée :
+Les offres groupées sont un ensemble de plans d'avantages connexes. Vous pouvez utiliser des offres groupées d'avantages pour regrouper les plans d'avantages qu'un employé doit choisir afin de souscrire à certains plans d'avantages qui peuvent dépendre d'autres souscriptions à des régime de prestations. Voici des exemples de cas où vous souhaiterez peut-être utiliser une offre groupée :
 
 - Une offre groupée de plans de santé qui comprend une assurance santé à franchise élevée avec un compte d'épargne santé (HSA) associé.
 
@@ -113,7 +113,7 @@ Les offres groupées sont un ensemble de plans d'avantages connexes. Vous pouvez
 
 ## <a name="configure-periods"></a>Configuration de périodes
 
-Les périodes définissent quand les avantages sont en vigueur et quand les employés sont autorisés à s'inscrire. Vous pouvez créer autant de périodes que vous le souhaitez afin de maintenir les périodes d'inscription ouverte et de couverture des avantages. Les années du plan d'avantages peuvent suivre ou non une année civile. 
+Les périodes définissent quand les avantages sont en vigueur et quand les employés sont autorisés à s'inscrire. Vous pouvez créer autant de périodes que vous le souhaitez afin de maintenir les périodes d'inscription ouverte et de couverture des avantages. Les années du régime de prestations peuvent suivre ou non une année civile. 
 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Règles et options d'admissibilité**.
 
@@ -153,7 +153,7 @@ Vous pouvez utiliser des programmes de crédits flexibles pour inscrire les empl
    | Règle au prorata | Règle à utiliser pour la répartition proportionnelle des crédits flexibles lorsqu'un employé est embauché au milieu de la période de crédit flexible. </br></br><ul><li>**Aucun** - L'employé ne reçoit aucun crédit flexible s'il est embauché après le début de la période du programme de crédit flexible.</li><li>**Crédit total** - L'employé reçoit le montant total des crédits flexibles, quel que soit le moment de son embauche.</li><li>**Calculer au prorata** - L'employé reçoit un montant proportionnel de crédits flexibles en fonction de sa date de début.</li></ul> |
    | Formule de calcul au prorata des crédits flexibles | Règle à utiliser pour la répartition proportionnelle des crédits flexibles lorsque les employés sont embauchés au milieu d'une période d'avantage pour le programme de crédit flexible. La répartition est basée sur la date de début de l'emploi. Ce champ est uniquement utilisé si vous sélectionnez **Calculer au prorata** dans le champ **Règle au prorata**. </br></br><ul><li>**Quotidien** - Calcule au prorata le nombre de crédits flexibles qu'un employé reçoit au niveau quotidien. Le nombre total de crédits flexibles est divisé par le nombre de jours de la période. Par exemple, si votre période d'avantages est de 400 jours, le système divisera le nombre total de crédits flexibles par 400 pour calculer le nombre de crédits flexibles que les employés reçoivent par jour.</li><li>**Mois en cours** - Calcule au prorata le nombre de crédits flexibles qu'un employé reçoit au niveau du mois, arrondi au mois en cours. Le nombre total de crédits flexibles est divisé par le nombre de mois de la période. Par exemple, si votre période d'avantages est de 15 mois, le système divisera le nombre total de crédits flexibles par 15 pour calculer le nombre de crédits flexibles que les employés reçoivent par mois.</li><li>**Mois suivant** - Calcule au prorata le nombre de crédits flexibles qu'un employé reçoit au niveau du mois, arrondi au mois suivant. Le nombre total de crédits flexibles est divisé par le nombre de mois de la période. Par exemple, si votre période d'avantages est de 15 mois, le système divise le nombre total de crédits flexibles par 15 pour calculer le nombre de crédits flexibles que les employés reçoivent par mois.</li></ul> |
    
-   Assurez-vous que chaque plan d'avantages est inscrit à un seul programme de crédit flexible par période d'avantages. Sinon, le système ne saura pas quel programme de crédit flexible utiliser pour accorder des crédits flexibles et vous rencontrerez des problèmes. 
+   Assurez-vous que chaque régime de prestations est inscrit à un seul programme de crédit flexible par période d'avantages. Sinon, le système ne saura pas quel programme de crédit flexible utiliser pour accorder des crédits flexibles et vous rencontrerez des problèmes. 
 
 ## <a name="configure-programs"></a>Configuration des programmes
 
@@ -176,6 +176,3 @@ Les programmes sont un ensemble de plans d'avantages qui partagent un ensemble c
    | **Règles d'éligibilité** | Sélectionnez les règles d'éligibilité à appliquer au programme d'avantages. Vous définissez les règles d'éligibilité dans l'onglet **Règles d'éligibilité** sur cette page. |
    
 4. Sélectionnez **Enregistrer**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

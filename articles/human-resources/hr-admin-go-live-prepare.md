@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4418577"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112477"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Préparation au lancement de Human Resources
 
@@ -46,35 +46,43 @@ Le tableau suivant répertorie toutes les étapes du processus, la durée prévu
 | 5 | Importations de paquets de données | Dépend du projet | Partenaire / Client | Suivez les instructions de [Vue d’ensemble de la gestion des données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
 | 6 | Production prête | Une fois toutes les étapes précédentes terminées | Partenaire / Client | Le partenaire / client peut prendre le contrôle de l'environnement de production.|
 | 7 | Activités de basculement | Dépend du projet | Partenaire / Client | |
-| 8 | Lancement | Dépend du projet | Client  | |
+| 8 | Lancement | Dépend du projet | Client | |
 
 > [!IMPORTANT]
 > * Les étapes 3 et 4 ne sont effectuées que pour les clients éligibles à FastTrack.
 
 ## <a name="completing-the-lcs-methodology"></a>Compléter la méthodologie LCS
 
-Une étape importante dans chaque projet de mise en œuvre est le passage à l'environnement de production. 
-
-Pour garantir que l'environnement de production est utilisé pour les opérations en direct, Microsoft provisionne l'instance de production uniquement lorsque l'implémentation s'approche de la phase **Opérer**, une fois que les activités requises dans la méthodologie LCS sont terminées. Pour plus d'informations sur les environnements de votre abonnement, consultez le [Guide des licences Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
-
-Les clients doivent terminer les phases **Analyse**, **Concevoir et développer** et **Tester** de la méthodologie LCS pour que le bouton  **Configurer**  de demande de l'environnement de production devienne disponible. Pour terminer une phase dans LCS, vous devez d'abord terminer toutes les étapes requises dans cette phase. Lorsque toutes les étapes d'une phase sont terminées, vous pouvez terminer la phase entière. Vous pouvez toujours rouvrir une phase plus tard si vous devez apporter des modifications. Pour plus d’informations, voir [Lifecycle Services (LCS) pour les clients des applications Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
-
-Le processus de réalisation d'une étape comporte deux parties : 
+Une étape importante dans chaque projet de mise en œuvre est le passage à l'environnement de production. Le processus de réalisation d'une étape comporte deux parties : 
 
 - Effectuez le travail réel, comme une analyse des écarts/d'adéquation ou un test d'acceptation par l'utilisateur (UAT). 
 - Marquez l'étape correspondante dans la méthodologie LCS comme terminée. 
 
-Il est recommandé de terminer les étapes de la méthodologie au fur et à mesure que vous progressez dans la mise en œuvre. N'attendez pas la dernière minute. Ne vous contentez pas de cliquer sur toutes les étapes pour obtenir un environnement de production. Il est dans l'intérêt du client d'avoir une mise en œuvre solide. 
+Il est recommandé de terminer les étapes de la méthodologie au fur et à mesure que vous progressez dans la mise en œuvre. N'attendez pas la dernière minute. Il est dans l'intérêt du client d'avoir une mise en œuvre solide. 
 
 ## <a name="uat-for-your-solution"></a>UAT pour votre solution
 
 Pendant la phase UAT, vous devez tester tous les processus métier que vous avez mis en œuvre et toutes les personnalisations que vous avez effectuées dans un environnement de bac à sable du projet d'implémentation. Pour garantir un lancement réussi, vous devez tenir compte des éléments suivants lorsque vous terminez la phase UAT : 
 
+- Nous vous recommandons de démarrer le processus UAT avec un tout nouvel environnement dans lequel sont copiées les données de votre configuration GOLD avant le début du processus UAT. Nous vous recommandons d'utiliser l'environnement de production comme environnement GOLD jusqu'à la mise en service, moment auquel l'environnement passe en production.
 - Les cas de test couvrent l'ensemble des exigences. 
 - Testez à l'aide de données migrées. Ces données doivent inclure des données de base telles que les travailleurs, les emplois et les postes. Incluez également les soldes d'ouverture, comme les congés et les absences. Enfin, incluez les transactions en cours, telles que les adhésions aux avantages actuels. Effectuez des tests avec tous les types de données, même si le jeu de données n'est pas finalisé. 
 - Testez à l'aide des rôles de sécurité appropriés (rôles par défaut et rôles personnalisés) attribués aux utilisateurs. 
 - Assurez-vous que la solution est conforme à toutes les exigences réglementaires spécifiques à l'entreprise et au secteur. 
 - Documentez toutes les fonctionnalités et obtenez l'approbation et la validation du client. 
+
+## <a name="mock-go-live"></a>Simulacre de mise en service
+
+Avant la mise en service, vous devez effectuer une mise en service fictive pour tester les étapes requises pour passer de vos systèmes hérités au nouveau système. Vous devez effectuer votre mise en service fictive dans un environnement sandbox et inclure toutes les étapes dans votre plan de basculement.
+
+- Nous vous recommandons d'utiliser l'environnement de production comme environnement de configuration GOLD jusqu'à la mise en service.
+- Assurez-vous d'avoir mis en place un processus de gouvernance solide pour protéger l'environnement de production contre les transactions ou les mises à jour accidentelles avant la mise en service.
+- Lorsque vous êtes prêt à exécuter UAT ou la mise en service fictive, actualisez l'environnement sandbox à partir de l'environnement de production. Pour plus d’informations, consultez [Copier une instance](hr-admin-setup-copy-instance.md).
+- Testez chaque étape de votre plan de basculement dans l'environnement sandbox, puis validez celui-ci en effectuant des vérifications ponctuelles ou des tests à partir de vos scripts UAT dans l'environnement.
+  - Les tests doivent inclure toutes les migrations de données, y compris les transformations nécessaires pour la mise en service.
+  - Le processus devrait inclure un seuil de pratique de tout système hérité.
+  - Assurez-vous d'inclure toutes les étapes de basculement d'intégration ou les étapes système externes dans votre simulation de basculement.
+- Si vous rencontrez des problèmes lors de la transition fictive, une deuxième peut être nécessaire. Pour cette raison, nous vous recommandons de prévoir deux simulations de transition dans votre plan de projet.
 
 ## <a name="fasttrack-go-live-assessment"></a>Évaluation du lancement FastTrack
 
@@ -91,5 +99,3 @@ Après avoir soumis la liste de contrôle, votre architecte de solution FastTrac
 ## <a name="see-also"></a>Voir également :
 
 [FAQ sur le lancement](hr-admin-go-live-faq.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

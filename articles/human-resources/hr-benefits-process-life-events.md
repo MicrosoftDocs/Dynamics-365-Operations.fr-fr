@@ -2,7 +2,7 @@
 title: Traitement des événements de vie
 description: Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418451"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112485"
 ---
 # <a name="process-life-events"></a>Traitement des événements de vie
 
 Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie. Par exemple, mariage, changement d’emploi ou changement de personne à charge / bénéficiaire. Pour utiliser des événements de vie, vous devez activer les événements de vie dans l’écran des paramètres d’avantages, configurer les types d’événements de vie et configurer les options d’événements de vie pour les types de plan.
 
-Avant de pouvoir traiter des événements de vie, vous devez avoir déjà exécuté l’inscription ouverte au moins une fois au cours d’une période d’embauche. Aux États-Unis, l’inscription ouverte est généralement une fois par an. En dehors des États-Unis, l’inscription ouverte peut être exécutée au moment de l’embauche. Un collaborateur n’a pas besoin de sélectionner un régime d’avantages pour que les événements de vie soient traités, mais ils doivent avoir été inclus dans le processus d’inscription ouverte. 
+Avant de pouvoir traiter des événements de vie, vous devez avoir déjà exécuté l’inscription ouverte au moins une fois au cours d’une période d’embauche. Aux États-Unis, l’inscription ouverte est généralement une fois par an. En dehors des États-Unis, l’inscription ouverte peut être exécutée au moment de l’embauche. Un collaborateur n’a pas besoin de sélectionner un régime de prestations pour que les événements de vie soient traités, mais ils doivent avoir été inclus dans le processus d’inscription ouverte. 
 
 Utilisez le traitement des événements de vie lorsque vous avez des collaborateurs dont les événements de vie ont lieu à une date ultérieure. Cet événement traitera tous les événements de vie qui n’ont pas été traités (comme les événements de vie futurs ou les événements de vie ajoutés qui ne sont pas spécifiques à un collaborateur - un exemple est un nouvel avantage). Les événements de vie en temps réel sont cachés.
 
@@ -57,6 +57,3 @@ Par exemple, si aujourd’hui est le 1er février et que le 14 février, le co
    4. Cliquez sur **OK**. Le processus s’exécutera avec les paramètres que vous définissez.
 
 4. Cliquez sur **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

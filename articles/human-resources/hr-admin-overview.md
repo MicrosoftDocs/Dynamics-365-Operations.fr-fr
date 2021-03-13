@@ -1,8 +1,8 @@
 ---
-title: Vue d'ensemble
+title: Vue d'ensemble de l'administration
 description: Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527859"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112580"
 ---
-# <a name="overview"></a>Vue d'ensemble
+# <a name="administration-overview"></a>Vue d'ensemble de l'administration
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
 
 - Configurer l’intégration de données
   - [Choisir une technologie d'intégration de données](hr-admin-integration-choose-technology.md)
-  - [Configuration de l'intégration Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configuration de l'intégration Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurer l’intégration avec Finance](hr-admin-integration-finance.md)
   - [Configurer l’intégration avec Dayforce](hr-admin-integration-dayforce.md)
   - [Créer une application d’exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
 - [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
 - [Guide du développeur](hr-developer-overview.md)
 - [Guide de l'utilisateur](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

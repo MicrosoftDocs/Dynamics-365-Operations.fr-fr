@@ -2,7 +2,7 @@
 title: Configurer les types d’événements de vie
 description: Microsoft Dynamics 365 Human Resources utilise des types d’événements de vie pour définir les événements où il est valide de mettre à jour l’inscription aux avantages des employés.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418488"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112546"
 ---
 # <a name="configure-life-event-types"></a>Configurer les types d’événements de vie
 
@@ -86,8 +86,5 @@ Vous pouvez choisir parmi les événements de vie suivants lorsque vous créez u
 | **Nouveau remplacement des règles d’admissibilité (non spécifique aux États-Unis)** | Ressources humaines avancées > Avantages> Plans> Avantages> Remplacement des règles d’admissibilité | Utilisation du traitement des événements de vie | EhrBenefitEligibilityRuleOverride.ValidFrom |
 | **Modification du remplacement des règles d’admissibilité (non spécifique aux États-Unis)** | Ressources humaines avancées > Avantages> Plans> Avantages> Remplacement des règles d’admissibilité | Utilisation du traitement des événements de vie (ne détecte que les modifications apportées aux champs **Valide à partir du** et **ValidTo** pour le remplacement de la règle d’admissibilité) |
 | **Expiration du remplacement des règles d’admissibilité (non spécifique aux États-Unis)** | Ressources humaines avancées > Avantages> Plans> Avantages> Remplacement des règles d’admissibilité | Utilisation du traitement de modification des événements de vie. Par exemple, si vous modifiez la date d’expiration de la règle d’admissibilité d’un plan pour qu’elle soit aujourd’hui à 17 h, à tout moment après 17 h 00 ou les jours suivants, puis exécutez le traitement des modifications d’événement de vie, un message apparaît indiquant que le remplacement de la règle d’admissibilité a expiré. |
-| **Nouveau plan d’avantages (non spécifique aux États-Unis)** | Ressources humaines avancées > Avantages> Plans> Nouveau | <ul><li>Les options d’admissibilité sont ajoutées à un plan actuel</li><li>Un nouveau plan avec des options d’admissibilité associées est ajouté</li></ul></br></br>Dans ce cas, le personnel RH doit exécuter le traitement de l’admissibilité aux événements de vie. |
+| **Nouveau régime de prestations (non spécifique aux États-Unis)** | Ressources humaines avancées > Avantages> Plans> Nouveau | <ul><li>Les options d’admissibilité sont ajoutées à un plan actuel</li><li>Un nouveau plan avec des options d’admissibilité associées est ajouté</li></ul></br></br>Dans ce cas, le personnel RH doit exécuter le traitement de l’admissibilité aux événements de vie. |
 | **Modification des règles d’admissibilité (non spécifique aux États-Unis)** | Ressources humaines avancées > Avantages> Règles/options> Règles d’admissibilité | Utilisation du traitement d’admissibilité des événements de vie. Consigné lorsque les valeurs suivantes des enregistrements **EhrBenefitEligibilityRule** ont changé : **UseEmplCategory**, **UseEmplStatus** ou **UseEmplType**. Met à jour uniquement les transactions d’événements de vie qui existent déjà pour une règle ou des critères d’éligibilité modifiés. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

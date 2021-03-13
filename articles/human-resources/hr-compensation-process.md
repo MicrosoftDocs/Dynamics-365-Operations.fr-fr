@@ -2,7 +2,7 @@
 title: Traiter la rémunération
 description: Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d'augmentation au mérite et des performances.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5cf5b8cd297f1686998688979a736f47f7d100c4
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418498"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112559"
 ---
 # <a name="process-compensation"></a>Traiter la rémunération
 
@@ -77,6 +77,3 @@ Lorsque les montants de rémunération ont été revus pour un employé et que l
 Une fois qu'un ou que plusieurs événements d'employé ont reçu leur statut mis à jour et approuvé, ils peuvent être chargés dans les enregistrements de rémunération fixe des employés. Cela peut se faire, soit en sélectionnant chaque événement d'employé et en cliquant sur le bouton **Charger la rémunération d'employé** dans la page **Résultats des employés**, soit en cliquant sur **Charger la rémunération** dans la page **Résultats du processus** pour charger tous les événements d'employé approuvés simultanément.
 
 Cliquer sur **OK** dans la boîte de dialogue **Charger la rémunération** permet d'ajouter des lignes d'action de rémunération autre que zéro à la page **Rémunération fixe de l'employé**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

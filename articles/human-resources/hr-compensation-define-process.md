@@ -2,7 +2,7 @@
 title: Définir le processus de rémunération et calculer les résultats
 description: Des processus de rémunération permettent de déterminer de nouveaux montants et primes de rémunération pour les employés inscrits aux régimes de rémunération fixes et variables.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 254eb4f83cc734e43920b912e81c7a9230ca82dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e4f49d9167e6d96500c7dbf5c1a25e04796b33a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418529"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112484"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Définir le processus de rémunération et calculer les résultats
 
@@ -100,6 +100,3 @@ Des processus de rémunération permettent de déterminer de nouveaux montants e
 10. Cliquez sur Approuvé.
     * Une fois l'enregistrement approuvé, il peut être chargé vers l'enregistrement de rémunération officiel de l'employé. La nouvelle rémunération est effective dès la date de la transaction définie dans le processus de rémunération.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

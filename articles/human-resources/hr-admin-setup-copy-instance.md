@@ -2,7 +2,7 @@
 title: Copier une instance
 description: Vous pouvez utiliser Microsoft Dynamics Lifecycle Services (LCS) pour copier une base de données Microsoft Dynamics 365 Human Resources dans un environnement de bac à sable.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527835"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112511"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -41,7 +41,7 @@ Pour copier une instance, gardez à l’esprit les conseils suivants :
 
 - Lorsque vous copiez la base de données des ressources humaines, vous ne copiez pas les éléments (applications ou données) contenus dans un environnement Microsoft Power Apps. Pour plus d’informations sur la copie d’éléments dans un environnement Power Apps, voir [Copier un environnement](https://docs.microsoft.com/power-platform/admin/copy-environment). L’environnement Power Apps que vous souhaitez remplacer doit être un environnement de bac à sable. Vous devez être un administrateur de locataire global pour basculer un environnement Power Apps de production vers un environnement de bac à sable. Pour plus d’informations sur la modification d’un environnement Power Apps, voir [Basculer une instance](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Common Data Service, vous devez réappliquer les champs personnalisés aux entités Common Data Service. Voir [Appliquer des champs personnalisés à Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Dataverse, vous devez réappliquer les champs personnalisés aux tables Dataverse. Voir [Appliquer des champs personnalisés à Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Effets de la copie d’une base de données Human Resources
 
@@ -72,15 +72,15 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
 4. Dans le volet des tâches **Copier une instance**, sélectionnez l’instance à remplacer, puis sélectionnez **Copier**. Attendez que la valeur du champ **Statut de la copie** affiche **Terminé**.
 
-   ![[Sélectionner l’instance à remplacer](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Sélectionner l'instance à remplacer](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
-5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d’administration Microsoft Power Platform.
+5. Sélectionnez **Power Platform**, et aconnectez-vous au Centre d'administration Microsoft Power Platform.
 
    ![[Sélectionner Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
+6. Sélectionnez l'environnement Power Apps à copier, puis sélectionnez **Copier**.
 
-7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Common Data Service. Pour plus d’informations et instructions, voir [Configurer l’intégration Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Une fois le processus de copie terminé, connectez-vous à l'instance cible et activez l'intégration Dataverse. Pour plus d’informations et instructions, voir [Configurer l’intégration Dataverse](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Éléments de données et statuts
 
@@ -122,11 +122,11 @@ Tous les utilisateurs de l’environnement de bac à sable cible, y compris les 
 
 Tous les utilisateurs non administrateurs de l’environnement de bac à sable cible sont désactivés pour empêcher les connexions indésirables dans l’environnement de bac à sable. Les administrateurs peuvent réactiver les utilisateurs si nécessaire.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Appliquer des champs personnalisés à Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Appliquer des champs personnalisés à Dataverse
 
-Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Common Data Service, vous devez réappliquer les champs personnalisés aux entités Common Data Service.
+Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Dataverse, vous devez réappliquer les champs personnalisés aux tables Dataverse.
 
-Pour chaque champ personnalisé exposé sur des entités Common Data Service, procédez comme suit :
+Pour chaque champ personnalisé exposé sur des tables Dataverse, procédez comme suit :
 
 1. Accédez au champ personnalisé et sélectionnez **Modifier**.
 
@@ -140,7 +140,7 @@ Pour chaque champ personnalisé exposé sur des entités Common Data Service, pr
 
 6. Sélectionnez à nouveau **Appliquer les modifications**.
 
-Le processus de désélection, d’application des modifications, de resélection et de réapplication des modifications invite le schéma à se mettre à jour dans Common Data Service pour inclure les champs personnalisés.
+Le processus de désélection, d’application des modifications, de resélection et de réapplication des modifications invite le schéma à se mettre à jour dans Dataverse pour inclure les champs personnalisés.
 
 Pour plus d’informations sur la création de champs personnalisés, voir [Créer et utiliser des champs personnalisés](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ Pour plus d’informations sur la création de champs personnalisés, voir [Cré
 [Supprimer une instance](hr-admin-setup-remove-instance.md)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

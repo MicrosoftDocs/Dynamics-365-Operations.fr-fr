@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668943"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112503"
 ---
 # <a name="go-live-faq"></a>FAQ sur le lancement 
 
@@ -66,7 +66,7 @@ Bien que vous ne puissiez pas accéder à vos ressources Azure ou à l'environne
 
 - Vous pouvez déployer une base de données Azure SQL dans votre propre client Azure et utiliser la fonctionnalité Bring Your Own Database (BYOD) pour synchroniser les données. Pour plus d’informations, consultez [Apporter votre propre base de données (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- Vous pouvez utiliser l'intégration de Common Data Service pour synchroniser les entités sélectionnées dans la base de données Common Data Service. Pour plus d'informations, voir[Entités Common Data Service](hr-developer-entities.md). 
+- Vous pouvez utiliser l'intégration de Dataverse pour synchroniser les entités sélectionnées dans la base de données Dataverse. Pour plus d’informations, consultez les [tables Dataverse](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>À quelle fréquence ma base de données de production est-elle sauvegardée ? 
 
@@ -99,6 +99,3 @@ Pour signaler une interruption de l'environnement de production, suivez le proce
  ## <a name="see-also"></a>Voir également :
 
  [Préparation au lancement](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

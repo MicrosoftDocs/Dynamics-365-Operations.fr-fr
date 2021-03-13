@@ -2,7 +2,7 @@
 title: Inscrire un employé à un régime de rémunération fixe
 description: La gestionnaire de rémunération et avantages peut affecter des employés à des régimes de rémunération fixe pour gérer leur salaire de base.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3029e52a7cc1fb6dfda390f5d892c89f1eda8509
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc8373a4a39a1a212ab445b2b300fbddfe0e4a39
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418484"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112531"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Inscrire un employé à un régime de rémunération fixe
 
@@ -39,6 +39,3 @@ La gestionnaire de rémunération et avantages peut affecter des employés à de
     * Si le régime de rémunération fixe est un régime à étapes, sélectionnez l'étape contenant le taux de salaire approprié pour l'employé. Si le régime de rémunération fixe est un régime de niveau, entrez le taux de salaire approprié pour l'employé. Le taux de salaire sera validé par rapport aux paramètres de tolérance pour le plan, et les points de référence minimum et maximum pour le niveau de rémunération de la tâche.  
 8. Cliquez sur OK.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

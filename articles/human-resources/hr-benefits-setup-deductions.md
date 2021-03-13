@@ -2,7 +2,7 @@
 title: Configurer les déductions
 description: Utiliser les déductions dans Microsoft Dynamics 365 Human Resources pour déterminer combien, le cas échéant, déduire du salaire d'un employé pour chaque avantage.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c59fa09e83ca91e0ad866e5875ff06370b7491d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c84e44e784e18c82098d63909f198049ae5f995c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418419"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112519"
 ---
 # <a name="configure-deductions"></a>Configurer les déductions
 
@@ -52,6 +52,3 @@ Utiliser les déductions dans Microsoft Dynamics 365 Human Resources pour déter
 4. Pour effectuer le suivi et conserver les modifications apportées à la configuration du taux des avantages, sélectionnez **Actions**, puis sélectionnez **Tenir les versions à jour**.
 
 5. Sélectionnez **Enregistrer**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

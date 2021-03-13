@@ -2,7 +2,7 @@
 title: Créer des types de plan
 description: Un type de plan dans Microsoft Dynamics 365 Human Resources est un regroupement de haut niveau de types spécifiques d'avantages. Chaque type de plan possède un code de type de plan qui détermine les règles du type de plan.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418525"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112515"
 ---
 # <a name="create-plan-types"></a>Créer des types de plan
 
@@ -46,7 +46,7 @@ Un type de plan peut définir des options de couverture. Les options de couvertu
    | **Type de plan** | Nom unique qui identifie le type de plan. |
    | **Description** | Description du type de plan. |
    | **Code de type de plan** | Sélectionnez un code de type de plan dans la liste déroulante des valeurs. La liste des codes de type de plan affiche tous les types de plan pris en charge dans la version actuelle. |
-   | **Inscription simultanée** | Indique si un employé peut souscrire à plusieurs plans d'avantages du même type de plan ou à un seul plan d'avantages par type de plan. |
+   | **Inscription simultanée** | Indique si un employé peut souscrire à plusieurs régimes de prestations du même type de régime ou à un seul régime de prestations par type de régime. |
    | **Type de contact** | Indique le rôle du contact personnel. Les valeurs sont vides, Personne à charge et Bénéficiaire. Vous pouvez laisser le **Type de contact** vide si son type de plan ne nécessite pas de personne à charge ou de bénéficiaire en fonction de l'option de couverture. |
 
 4. Pour configurer les options d'événement de vie, sélectionnez **Actions**, puis sélectionnez **Options d'événement de vie**. Spécifiez les valeurs les champs suivants :
@@ -63,6 +63,3 @@ Un type de plan peut définir des options de couverture. Les options de couvertu
    | **Fenêtre de déclaration** | Spécifie la fenêtre de déclaration, en jours, de l'événement de vie. **Remarque** : si vous n'entrez pas de montant, le système suppose que la fenêtre de rapport est nulle et ne traitera pas l'événement de vie. |
 
 5. Sélectionnez **Enregistrer**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
