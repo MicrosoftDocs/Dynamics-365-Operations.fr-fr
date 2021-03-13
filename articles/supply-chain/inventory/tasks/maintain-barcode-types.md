@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BarcodeSetup, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 979726a1d094146b546bbc6d31963367de2c59f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 71bbc090d928cb80d19db33655ec9c9cc8e654bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428147"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011495"
 ---
 # <a name="maintain-barcode-types"></a>Tenir à jour les types de code-barres
 
@@ -46,6 +45,3 @@ Cette procédure montre comment paramétrer une nouvelle définition de code-bar
 12. Cliquez sur Enregistrer.
 13. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

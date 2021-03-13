@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4443363"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012059"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Réévaluer les paiements de location liés à un taux d’indexation
 
@@ -68,6 +67,3 @@ Pour afficher les effets du processus de réévaluation des baux sur les baux IF
 Vous pouvez afficher l’échéancier de paiement nouvellement généré qui commence à la date de réévaluation et afficher le montant total du règlement mis à jour. Un nouveau calendrier d’amortissement du passif locatif et un calendrier d’amortissement des actifs ont également été créés pour refléter l’échéancier de paiement ajusté.
 
 L’écriture de journal a automatiquement enregistré l’écriture de journal d’ajustement dans le compte pour la modification des paiements de location liée à la réévaluation de l’indice.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

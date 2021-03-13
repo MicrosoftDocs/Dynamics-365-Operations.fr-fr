@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529184"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011364"
 ---
 # <a name="product-identifiers"></a>Identificateurs du produit
 
@@ -44,7 +43,7 @@ Dans de nombreux cas, le numéro de produit n'est pas créé initialement dans D
 
 Lorsque vous implémentez Supply Chain Management, vous devez accorder un soin particulier à votre stratégie relative aux numéros de produit. Un bon système de numérotation améliore les flux de logistique et permet d'éviter les erreurs. Un bon identificateur de produit comporte au maximum 15 caractères. Idéalement, il comporte moins de 10 caractères et n'inclut pas plus de cinq caractères de classification. Vous pouvez également utiliser des noms de recherche pour activer les recherches rapides. Un nom de recherche est un nom supplémentaire qui représente les classifications d'un produit.
 
-Lorsque vous utilisez Common Data Service, le numéro de produit dans Supply Chain Management est également le numéro de produit dans Common Data Service. Les variantes de produit sont synchronisées avec Common Data Service en tant que produits distincts.
+Lorsque vous utilisez Microsoft Dataverse, le numéro de produit dans Supply Chain Management est également le numéro de produit dans Microsoft Dataverse. Les variantes de produit sont synchronisées avec Dataverse en tant que produits distincts.
 
 ## <a name="item-number-and-product-dimensions"></a>Numéro d'article et dimensions de produit
 
@@ -167,7 +166,7 @@ Le tableau suivant fournit une vue d'ensemble des résultats de l'importation et
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificateur d'entité de produit (Exporter tous les identificateurs de produit)
 
-Le modèle d'identificateur d'entité de produit a été créé pour activer la version 1.0 de CDS à provisionner avec tous les identificateurs utilisés pour faire référence à un produit. Pour simplifier cette tâche, tous les identificateurs sont regroupés dans une table globale d'identificateurs, de sorte qu'ils puissent être exportés en tant que modèle unique. Notez que cette version de CDS n'utilise pas de modèle d'identificateurs de produit. Par conséquent, l'entité **Entité d'identificateur du service de données communes d'entité de produit** et ce processus ont une utilisation pratique limitée et sont soumis vraisemblablement à une future modification.
+Le modèle d'identificateur d'entité de produit a été créé pour permettre la mise en service de la version 1.0 de Dataverse avec tous les identificateurs utilisés pour faire référence à un produit. Pour simplifier cette tâche, tous les identificateurs sont regroupés dans une table globale d'identificateurs, de sorte qu'ils puissent être exportés en tant que modèle unique. Notez que cette version de Dataverse n'utilise pas le modèle d'identificateurs de produit. Par conséquent, l'entité **Entité d'identificateur du service de données communes d'entité de produit** et ce processus ont une utilisation pratique limitée et sont soumis vraisemblablement à une future modification.
 
 La table d'identificateurs de produit est une table globale renseignée par toutes les tables de référence de l'entité juridique principale via un traitement par lots récurrent. Vous devez sélectionner une entité juridique et une hiérarchie de catégories de produit comme définition de la portée de produit générique globale. La génération de la table d'identificateurs de produit globale est limitée aux produits lancés dans l'entité juridique sélectionnée et aux produits membres de la hiérarchie de produits sélectionnée pour le rôle **Common data service** dans la hiérarchie de catégories de produits.
 
@@ -175,7 +174,7 @@ Cette procédure suppose que les données de produit générique sont principale
 
 Procédez comme suit pour configurer l'environnement.
 
-1. Sélectionner la hiérarchie de catégories de CDS. Sur la page **Associations de rôles de hiérarchie de catégories**, si aucune hiérarchie n'est associée au rôle **Common data service**, vous devez créer une association. Sélectionnez le rôle **Common data service**, puis associez la hiérarchie de catégories qui représente le portefeuille de produits qui doit être synchronisé sur CDS.
+1. Sélectionnez la hiérarchie de catégories de Dataverse. Sur la page **Associations de rôles de hiérarchie de catégories**, si aucune hiérarchie n'est associée au rôle **Common data service**, vous devez créer une association. Sélectionnez le rôle **Common Data Service**, puis associez la hiérarchie de catégories qui représente le portefeuille de produits qui doit être synchronisé avec Dataverse.
 2. Sélectionnez l'entité juridique pour les données principales du produit globales. Sur la page **Paramètres de gestion des informations sur les produits**, sous l'onglet **Attributs de produit**, sélectionnez la société principale où les identificateurs de produit et d'article sont généralement gérés.
 3. Définissez les types de codes d'identificateur et les codes à exporter. Accédez à **Gestion des informations sur les produits** &gt; **Paramétrage** &gt; **Codes d'identificateur de produit**. Pour générer les types de codes d'identificateur, sélectionnez **Générer des codes**. Une entrée de type de code est générée pour chaque type d'identificateur indiqué dans l'entité juridique sélectionnée.
 
@@ -190,6 +189,3 @@ Vous pouvez désormais utiliser s entités de données **Entité d'identificateu
 ## <a name="related-topic"></a>Rubrique connexe
 
 [Rechercher des produits et des variantes de produits lors de la saisie de commande](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

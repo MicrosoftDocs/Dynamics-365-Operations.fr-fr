@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 046204d36e2fc7a69129aaf7fe027b2abc7e8dd9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9f84e3ffc79920fc6ef49a6391f76acdd89252a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012467"
 ---
 # <a name="info-codes-and-info-code-groups"></a>Codes info et groupes de codes info
 
@@ -56,6 +55,3 @@ Vous pouviez les codes info de sorte à ce que lorsqu'un code info se déclenche
 **Exemple 2 : Lier des codes info à des groupes de codes info**
 
 Lorsque vous vendez certains produits, par exemple des appareils mobiles, vous souhaitez toujours collecter un ensemble d'informations spécifiques, tel que le numéro de téléphone, l'identificateur de l'équipement mobile (MEID), et le numéro de série. Toutefois, vous souhaitez également collecter des informations différentes pour une tablette/un téléphone portable. Vous pouvez paramétrer un groupe de codes info qui inclut des invites pour le numéro de téléphone, le MEID et le numéro de série, puis lier le groupe de codes info à un code info individuel. Lorsque le code info spécifique au produit est déclenché, le groupe de codes info peut être ensuite déclenché pour vous permettre de collecter les données communes sans devoir définir plusieurs ensembles de codes info liés pour chaque périphérique.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

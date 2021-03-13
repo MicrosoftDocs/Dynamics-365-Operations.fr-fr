@@ -1,7 +1,7 @@
 ---
 title: Paramétrer un catalogue externe pour PunchOut eProcurement
 description: Cette rubrique décrit l'utilisation d'un catalogue externe ou catalogue PunchOut pour collecter les informations de devis d'un fournisseur et les ajouter à une demande.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428265"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016375"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
@@ -54,19 +53,18 @@ Le catalogue externe permet à un employé qui entre une demande d'achat d'être
 Cette section fournit des informations supplémentaires sur la tâche 4 de la section précédente.
 
 1. Entrez le nom et la description du catalogue externe du fournisseur. Le nom que vous entrez s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Les employés peuvent cliquer sur le chariot pour ouvrir le catalogue sur le site du catalogue externe du fournisseur.
-2. Ajoutez une image à l'aide de l'action **Image du catalogue externe**. L'image s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Notez que la largeur et la hauteur de l'image doivent être égales. Sinon, l'image ne s'affichera pas correctement.
+2. Ajoutez une image à l'aide de l'action **Image du catalogue externe**. L'image s'affiche sur le chariot qui représente le catalogue externe visible par les employés qui créent une demande. Notez que la largeur et la hauteur de l'image doivent être égales. Sinon, l'image ne s'affichera pas correctement.
 3. Indiquez si le site Web du catalogue externe du fournisseur doit apparaître dans la même fenêtre de navigateur que celle où l'employé a créé la demande, ou s'il doit s'ouvrir dans une nouvelle fenêtre.
 4. Sélectionnez le fournisseur pour le catalogue. Dans la liste **Entités juridiques**, il existe une ligne pour chaque entité juridique dans laquelle le fournisseur est paramétré. Pour autoriser les utilisateurs à demander des produits directement à partir du catalogue du fournisseur dans certains entités juridiques mais pas dans d'autres, vous pouvez utiliser le bouton **Empêcher l'accès** ou **Autoriser l'accès** pour chaque entité juridique dans laquelle vous souhaitez que le catalogue soit disponible ou non.
 5. Dans le champ **Expiration par défaut (jours)**, entrez le nombre de jours pendant lesquels un devis reçu du catalogue externe est valide et peut être utilisé pour effectuer des achats auprès du fournisseur externe. Lorsqu'un devis est créé et extrait du site du catalogue externe du fournisseur, il est valide à partir de la date système actuelle, et reste valide pendant le nombre de jours entrés dans ce champ.
-6. Cliquez sur le bouton **Ajouter** pour commencer à mettre en correspondance les catégories d'approvisionnement avec le catalogue externe. Puis, dans la liste Nom de la catégorie, sélectionnez une catégorie. La liste des catégories est un superensemble de catégories d'approvisionnement avec lesquelles le fournisseur a été mis en correspondance dans toutes les entités juridiques paramétrées pour le fournisseur.
+6. Cliquez sur le bouton **Ajouter** pour commencer à mettre en correspondance les catégories d'approvisionnement avec le catalogue externe. Puis, dans la liste Nom de la catégorie, sélectionnez une catégorie. La liste des catégories est un superensemble de catégories d'approvisionnement avec lesquelles le fournisseur a été mis en correspondance dans toutes les entités juridiques paramétrées pour le fournisseur.
 
     > [!NOTE]
-    > Les stratégies d'approvisionnement sont utilisées pour autoriser ou limiter l'accès aux catégories pour l'entité juridique d'achat ou l'unité opérationnelle de réception. Le pointage vers un catalogue externe requiert que l'accès soit autorisé à au moins une des catégories d'approvisionnement mises en correspondance avec le catalogue.
+    > Les stratégies d'approvisionnement sont utilisées pour autoriser ou limiter l'accès aux catégories pour l'entité juridique d'achat ou l'unité opérationnelle de réception. Le pointage vers un catalogue externe requiert que l'accès soit autorisé à au moins une des catégories d'approvisionnement mises en correspondance avec le catalogue.
 
 7. Paramétrez le message de demande de paramétrage cXML qui est envoyé au fournisseur. Le format du message généré automatiquement est le modèle minimal requis pour démarrer une session. Renseignez les valeurs des balises.
 
-À tout moment, vous pouvez recharger le modèle de message généré par le système en cliquant sur **Restaurer le format du message**. 
-Notez que si vous restaurez le format du message, le message actuel sera remplacé par le format de message généré automatiquement, qui contient des balises vides.
+À tout moment, vous pouvez recharger le modèle de message généré par le système en cliquant sur **Restaurer le format du message**. Notez que si vous restaurez le format du message, le message actuel sera remplacé par le format de message généré automatiquement, qui contient des balises vides.
 
 ### <a name="cxml-setup-message"></a>Message de paramétrage cXML
 Vous trouverez ci-dessous une description des balises incluses dans le modèle :
@@ -91,7 +89,7 @@ Spécifiez un nom pour l'élément extrinsèque que le fournisseur peut identifi
 Pour plus d'informations sur le protocole cXML, voir le [site web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Message de publication
-Le message de publication est le message reçu du fournisseur lorsque l'utilisateur procède à la validation à partir du site externe et retourne dans Supply Chain Management. Les messages de publication ne peuvent pas être configurés. Les messages sont basés sur la définition du protocole cXML. Voici les informations qui peuvent faire partie du message de publication reçu sur une ligne de demande.
+Le message de publication est le message reçu du fournisseur lorsque l'utilisateur procède à la validation à partir du site externe et retourne dans Supply Chain Management. Les messages de publication ne peuvent pas être configurés. Les messages sont basés sur la définition du protocole cXML. Voici les informations qui peuvent faire partie du message de publication reçu sur une ligne de demande.
 
 | Message reçu du fournisseur | Copié vers la ligne de réquisition|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Si un produit figurant dans le catalogue fournisseur externe a été demandé, c
 
 - [Améliorations des cXML d’achat](purchasing-cxml-enhancements.md)
 - [Utiliser des catalogues externes pour PunchOut eProcurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

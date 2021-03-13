@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443044"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012261"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Blocages de crédit pour les commandes client
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ Les commandes client qui ont un motif de blocage forcé ne peuvent pas être lib
 La gestion des crédits ne peut actuellement être utilisée que pour les commandes client. Les factures financières, les commandes au point de vente et les commandes au centre d’appels utiliseront les limites de crédit temporaires et les assurances/garanties que vous ajoutez pour ajuster la limite de crédit. Ils n’utiliseront pas les règles de blocage et ne seront pas placés dans la liste de blocage en cas de problème avec la limite de crédit.
 
 Il n’y a pas de prise en charge des factures de projet dans la gestion du crédit.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

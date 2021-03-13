@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4428273"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014481"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Tâche de nettoyage des entrées disponibles de la gestion de l'entrepôt
 
@@ -50,7 +49,12 @@ Lorsque la tâche s'exécute, sa taille de validation est 100. Cela signifie qu'
 
 ## <a name="possible-user-impact"></a>Impact possible pour l'utilisateur
 
-Les utilisateurs peuvent être affectés si la tâche de nettoyage des entrées disponibles supprime tous les enregistrements d'un niveau donné (tel que le niveau de contenant). Dans ce cas, la fonctionnalité permettant de voir que le stock était auparavant disponible dans un contant peut ne pas fonctionner comme prévu, car les entrées disponibles pertinentes ne sont plus disponibles. (Cette fonctionnalité vérifie la condition **Quantité \<\> 0** dans les paramètres **Affichage des dimensions** lorsque les utilisateurs affichent les informations de disponibilité.) Cependant, l'amélioration des performances offerte par la tâche de nettoyage doit compenser cette petite perte de fonctionnalité.
+Les utilisateurs peuvent être affectés si la tâche de nettoyage des entrées disponibles supprime tous les enregistrements d'un niveau donné (tel que le niveau de contenant). Dans ce cas, la fonctionnalité permettant de voir que le stock était auparavant disponible dans un contenant peut ne pas fonctionner comme prévu, car les entrées disponibles pertinentes ne sont plus disponibles. Cela peut être expérimenté, par exemple, dans les situations suivantes :
+
+- Sur la page **Liste disponible**, lorsque l'utilisateur désélectionne la condition **Quantité \<\> 0** ou sélectionne la condition **Transactions clôturées** dans les paramètres **Affichage des dimensions**.
+- Dans un état **Stock physique par dimension de stock** pour les périodes passées, lorsque l'utilisateur définit le paramètre **Date de référence**.
+
+Cependant, l'amélioration des performances fournie par la tâche de nettoyage devrait compenser ces petites pertes de fonctionnalité.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Rendre disponible le paramètre Durée maximale d'exécution
 
@@ -58,6 +62,3 @@ Par défaut, le paramètre **Durée maximale d'exécution** n'est pas disponible
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Durée d'exécution maximale pour la tâche de nettoyage des entrées disponibles de gestion de l'entrepôt*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

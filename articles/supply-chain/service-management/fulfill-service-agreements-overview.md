@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 19d31cc3a651f4978a0f5f432c39579ccb871418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428110"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010645"
 ---
 # <a name="fulfill-service-agreements-overview"></a>Vue d'ensemble de la réalisation d'accords de service 
 
@@ -67,9 +66,9 @@ Le tableau suivant répertorie les écrans qui prennent en charge les composants
 <td><p>Permet de créer et de mettre à jour des services récurrents.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Surveillance et mise en œuvre d'un accord</p></td>
@@ -82,9 +81,9 @@ Le tableau suivant répertorie les écrans qui prennent en charge les composants
 <td><p>Permet de créer et de mettre à jour des commandes de service.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Mise à jour et évaluation du contrat</p></td>
@@ -107,6 +106,3 @@ Le tableau suivant répertorie les écrans qui prennent en charge les composants
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

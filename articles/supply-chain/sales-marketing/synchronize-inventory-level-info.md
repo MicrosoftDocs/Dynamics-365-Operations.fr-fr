@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 1228339c12d26f7b91875d15f0daa8da2869cba0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 828dd1324c2692b7b3f4bc15c5e50b3dbee8b72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427771"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010920"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Synchroniser les informations sur le niveau de stock depuis Supply Chain Management vers Field Service 
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
@@ -51,7 +52,7 @@ Les tâches de synchronisation suivantes sont requises avant que la synchronisat
 
 | Field Service                      | Gestion de la chaîne d'approvisionnement                |
 |------------------------------------|----------------------------------------|
-| msdynce_externalproductinventories | Stock CDS disponible par entrepôt     |
+| msdynce_externalproductinventories | Stock de Dataverse disponible par entrepôt     |
 
 ## <a name="entity-flow"></a>Flux d'entité
 Les informations sur le niveau de stock sont envoyées de Finance and Operations vers Field Service pour certains produits. Les informations de niveau de stock comprennent : 
@@ -91,6 +92,3 @@ Vous pouvez appliquer des filtres avec Requête et filtrage avancés afin de con
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Stock de produit (Supply Chain Management vers Field Service) : stock de produit
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

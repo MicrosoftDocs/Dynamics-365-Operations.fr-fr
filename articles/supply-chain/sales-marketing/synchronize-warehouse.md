@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 28445592d7a2a8964b1642ae52cff08be6feabbe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0c0c1bafb5b36bb9ddc00061e0040a199c8c033d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529504"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010845"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Synchroniser les entrepôts depuis Supply Chain Management vers Field Service
 
@@ -45,20 +44,20 @@ Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchronise
 **Tâche du projet d'intégration des données**
 - Entrepôt
 
-## <a name="entity-set"></a>Ensemble d'entités
+## <a name="table-set"></a>Ensemble de tables
 | Field Service    | Gestion de la chaîne d'approvisionnement                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Entrepôts                             |
 
-## <a name="entity-flow"></a>Flux d'entité
-Les entrepôts qui sont créés et tenus à jour dans Supply Chain Management peuvent être synchronisées sur Field Service via un projet d'intégration de données Common Data Service (CDS). Les entrepôts souhaités qui se synchronisent sur Field Service peuvent être contrôlés avec la fonctionnalité de requête et de filtrage avancée sur le projet. Les entrepôts qui se synchronisent sur Supply Chain Management sont créés dans Field Service avec le champ **Est géré en externe** défini sur **Oui** et l'enregistrement est rendu en lecture seule.
+## <a name="table-flow"></a>Flux de table
+Les entrepôts créés et tenus à jour dans Supply Chain Management peuvent être synchronisés avec Field Service via un projet d'intégration de données de Microsoft Dataverse. Les entrepôts souhaités qui se synchronisent sur Field Service peuvent être contrôlés avec la fonctionnalité de requête et de filtrage avancée sur le projet. Les entrepôts synchronisés depuis Supply Chain Management sont créés dans Field Service avec la colonne **Est géré en externe** définie sur **Oui** et l'enregistrement est en lecture seule.
 
 ## <a name="field-service-crm-solution"></a>Solution Field Service CRM
-Pour permettre l'intégration entre Field Service et Supply Chain Management, des fonctionnalités supplémentaires de la solution Field Service CRM sont requises. Dans la solution, le champ **Est géré en externe** a été ajouté à l'entité **Entrepôt (msdyn_warehouses)**. Ce champ permet d'identifier si l'entrepôt est géré depuis Supply Chain Management ou s'il existe uniquement dans Field Service. Les paramètres de ce champ sont :
+Pour permettre l'intégration entre Field Service et Supply Chain Management, des fonctionnalités supplémentaires de la solution Field Service CRM sont requises. Dans la solution, la colonne **Est géré en externe** a été ajoutée à la table **Entrepôt (msdyn_warehouses)**. Cette colonne aide à identifier si l'entrepôt est géré depuis Supply Chain Management ou s'il existe uniquement dans Field Service. Les paramètres de cette colonne sont :
 - **Oui** – L'entrepôt provient de Supply Chain Management et n'est pas modifiable dans Sales.
 - **Non** - l'entrepôt a été entré directement dans Field Service et y est géré.
 
-Le champ **Est géré en externe** permet de contrôler la synchronisation des niveaux de stock, des ajustements, des transferts et de l'utilisation sur les ordres d'exécution. Seuls les entrepôts avec **Est géré en externe** définis sur **Oui** peuvent être utilisés pour se synchroniser directement sur l'entrepôt de l'autre système. 
+La colonne **Est géré en externe** aide à contrôler la synchronisation des niveaux de stock, les ajustements, les transferts et l'utilisation sur les ordres d'exécution. Seuls les entrepôts avec **Est géré en externe** définis sur **Oui** peuvent être utilisés pour se synchroniser directement sur l'entrepôt de l'autre système. 
 
 > [!NOTE]
 > Vous pouvez créer plusieurs entrepôts dans Field Service (avec **Géré en externe** = Non), puis les mapper à un seul entrepôt, avec la fonctionnalité de requête et de filtrage avancée. Cela est utile dans les situations où vous souhaitez que Field Service serve de base au niveau de stock détaillé et d'envoyer uniquement des mises à jour à Supply Chain Management. Dans ce cas, Field Service ne reçoit pas les mises à jour de niveau de stock de Supply Chain Management. Pour en savoir plus, voir [Synchroniser les ajustements de stock entre Field Service et Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) et [Synchroniser des ordres de travail de Field Service sur des commandes client de  Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
@@ -81,6 +80,3 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Entrepôts (Supply Chain Management vers Field Service) : Entrepôt
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/Warehouse1.png)](./media/Warehouse1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

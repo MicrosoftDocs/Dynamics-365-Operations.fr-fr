@@ -1,5 +1,5 @@
 ---
-title: Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
+title: Répartitions comptables et écritures de journal pour les factures fournisseur
 description: Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l’immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 26891
 ms.assetid: 93dc608a-b5b4-4ec3-83c2-618e3d80a583
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e38e6a571bb7f08b32548bcb4af823807a4340
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da15f27c7fef6367eacc83271419b633c0cbb245
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443316"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012286"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal de comptabilité auxiliaire pour les factures fournisseur
+# <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal pour les factures fournisseur
 
 [!include [banner](../includes/banner.md)]
 
@@ -250,6 +249,3 @@ Si l’écriture de journal de comptabilité auxiliaire est incorrecte lorsque v
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

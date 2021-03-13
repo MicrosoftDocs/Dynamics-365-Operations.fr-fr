@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83a62966e343a9b1c073c2d6ec1c1b69b1daddbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 36f908e02c996c0d0a636fd9295b84fcc16b6b63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427966"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011770"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Calculer une nomenclature à l'aide d'une même structure de niveaux (février 2016)
 
@@ -44,6 +43,3 @@ Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'
     * Il vous faudra peut-être cliquer sur les points de suspension (…) pour afficher cette option du menu supérieur.    Voici la composition du coût :  *    10 est dérivé d'ITEM_A, 10 d'ITEM_B, 10 de BOM_2. Dans ce cas, il n'existe aucun détail pour BOM_2, car il a été entré comme coût standard de 10 mais n'a pas été obtenu via le calcul.  *    7 est dérivé du temps de réglage, qui est un coût constant, et le chiffre 7 supplémentaire est dérivé de l'opération d'exécution (processus).  *    Il existe également d'autres montants qui correspondent aux coûts indirects.  
 9. @SysTaskRecorder:_RequestClose
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

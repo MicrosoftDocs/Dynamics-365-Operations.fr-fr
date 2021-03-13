@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c00b6d18b036482cd96e2287119ddb7fd80bfa2d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428141"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011445"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transférer du stock physique au sein de l'entrepôt
 
@@ -59,6 +58,3 @@ Cette procédure vous accompagne dans le processus de création et de validation
 1. Cliquez sur **Stock**.
 2. Cliquez sur **Transactions**. Ici vous pouvez afficher les transactions créées lorsque vous avez validé votre journal.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

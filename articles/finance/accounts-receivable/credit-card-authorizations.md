@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0de35934e8bdb160f68f68dab118997d0141bf29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e615d13abf432705e40e5e33deb46ccab26192ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443037"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012224"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Paramétrage, autorisation et capture de carte de crédit
 
@@ -73,13 +72,10 @@ Vous pouvez spécifier le niveau de prise en charge des données pour chaque typ
 ## <a name="partial-payments"></a>Paiements partiels
 Si vous expédiez une partie d’une commande, le montant de la commande partielle est capturé, et l’autorisation, qui concernant le montant de la commande entière, est clôturée. Une nouvelle autorisation est ensuite soumise pour le montant restant de la commande qui n’a pas été expédié.
 
-## <a name="voiding-an-authorization"></a>Annulation d’une autorisation 
+## <a name="voiding-an-authorization"></a>Annulation d’une autorisation
 Pour annuler une autorisation de carte de crédit, vous pouvez modifier le mode de paiement avec un autre mode ne disposant pas d’un type de carte de crédit.
 
 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

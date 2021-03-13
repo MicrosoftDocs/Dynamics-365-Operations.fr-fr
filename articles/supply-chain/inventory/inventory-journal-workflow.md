@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427646"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011670"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Workflows d’approbation du journal de stock
 
@@ -31,6 +30,13 @@ Cette rubrique décrit comment paramétrer et utiliser des workflows d’approba
 
 > [!NOTE]
 > Les workflows d’approbation du journal de stock s’appliquent uniquement aux transactions enregistrées à l’aide du module Gestion des stocks. Ils ne fonctionnent pas avec les journaux de stock déclenchés à partir du module Gestion des entrepôts.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Activer la fonctionnalité de workflows d'approbation du journal de stock
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+
+- **Module :** *Gestion des stocks et des entrepôts*
+- **Nom de la fonctionnalité :** *Workflow d'approbation du journal de stock*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Créer vos workflows d’approbation du journal de stock
 
@@ -112,6 +118,3 @@ Pour consulter l’historique du workflow d’un journal :
 1. Dans le volet de navigation, développez **Gestion des stocks \> Entrées de journal \> Articles**, puis sélectionnez un type de journal de stock.
 1. Ouvrez le journal approprié.
 1. Cliquez sur le bouton **Workflow** dans le volet Actions pour ouvrir une boîte de dialogue déroulante. Sélectionnez **Historique du workflow**. Pour plus d’informations, voir [Afficher l’historique du worklow](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
