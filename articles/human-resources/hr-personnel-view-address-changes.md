@@ -2,7 +2,7 @@
 title: Afficher et gérer les changements d’adresse
 description: Cette rubrique explique comment afficher et gérer les modifications d’adresse dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418446"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152051"
 ---
 # <a name="view-and-manage-address-changes"></a>Afficher et gérer les changements d’adresse
 
@@ -125,9 +125,6 @@ Le personnel des RH peut visualiser et surveiller les changements d’adresse à
 Lorsque vous sélectionnez la vignette **Changements d’adresse**, une nouvelle page affiche les détails de tout changement d’adresse. Vous pouvez éventuellement sélectionner **Inclure les futurs changements d’adresse** dans le coin supérieur droit pour afficher les changements d’adresse avec une date future.
 
 > [!NOTE]
-> Si vous souhaitez recevoir une alerte ou un e-mail concernant ces changements d’adresse, vous pouvez créer une règle d’alerte sur l’onglet **Options** dans le volet Actions. Pour plus d’informations sur les règles d’alertes, voir [Créer des règles d’alertes](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> Si vous souhaitez recevoir une alerte ou un e-mail concernant ces changements d’adresse, vous pouvez créer une règle d’alerte sur l’onglet **Options** dans le volet Actions. Pour plus d’informations sur les règles d’alertes, voir [Créer des règles d’alertes](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> Si vous souhaitez configurer un workflow pour les changements d’adresse, vous pouvez sélectionner l’option **Envoyer en externe** sur votre règle d’alerte, puis utilisez Power Automate pour déclencher l’événement commercial et configurer un workflow. Pour plus d’informations, consultez [Alertes en tant qu’événements commerciaux](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Si vous souhaitez configurer un workflow pour les changements d’adresse, vous pouvez sélectionner l’option **Envoyer en externe** sur votre règle d’alerte, puis utilisez Power Automate pour déclencher l’événement commercial et configurer un workflow. Pour plus d’informations, consultez [Alertes en tant qu’événements commerciaux](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

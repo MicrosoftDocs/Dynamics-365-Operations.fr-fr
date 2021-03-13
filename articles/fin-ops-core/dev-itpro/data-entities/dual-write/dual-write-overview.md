@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la double écriture
-description: Cette rubrique donne une vue d’ensemble de la double écriture. La double écriture est une infrastructure qui fournit une interaction en temps quasi réel entre les applications pilotées par modèle de Microsoft Dynamics 365 et les applications Finance and Operations.
+description: Cette rubrique offre une présentation générale de la double écriture, qui est une infrastructure prête à l’emploi qui fournit une interaction en temps quasi réel entre les applications Customer Engagement et les applications Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685611"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130003"
 ---
 # <a name="dual-write-overview"></a>Vue d’ensemble de la double écriture
 
@@ -53,7 +53,7 @@ L’infrastructure de double écriture est extensible et fiable et comprend les 
 + Vue combinée des journaux d’activité et d’erreur pour les administrateurs de données
 + Possibilité de configurer des alertes et des seuils personnalisés et de s’abonner aux notifications
 + Interface utilisateur intuitive pour le filtrage et les transformations
-+ Possibilité de définir et d’afficher les dépendances et les relations entre les entités
++ Possibilité de définir et d’afficher les dépendances et les relations entre les tables
 + Extensibilité pour les tables et les mappages standard et personnalisés
 + Gestion fiable du cycle de vie des applications
 + Expérience de configuration initiale pour les nouveaux clients
@@ -93,7 +93,7 @@ La double écriture assure l’intégration des données entre les applications 
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Que signifie la double écriture pour les développeurs et les architectes d’applications Customer Engagement ?
 
-La double écriture automatise le flux de données entre les applications Finance and Operations et les applications Customer Engagement. La double écriture se compose de deux solutions AppSource installées sur Dataverse. Les solutions étendent le schéma d’entité, les plug-ins et les workflows sur Dataverse afin qu’ils puissent évoluer à la taille de l’ERP. Pour une mise en œuvre réussie, les développeurs et les architectes d’applications Customer Engagement doivent comprendre ces changements et collaborer avec leurs homologues sur les applications Finance and Operations.
+La double écriture automatise le flux de données entre les applications Finance and Operations et les applications Customer Engagement. La double écriture se compose de deux solutions AppSource installées sur Dataverse. Les solutions étendent le schéma de table, les plug-ins et les workflows sur Dataverse afin qu’ils puissent évoluer à la taille de l’ERP. Pour une mise en œuvre réussie, les développeurs et les architectes d’applications Customer Engagement doivent comprendre ces changements et collaborer avec leurs homologues sur les applications Finance and Operations.
 
 Pour créer la parité avec les applications Finance and Operations, la double écriture apporte des changements cruciaux dans le schéma Dataverse. Si vous comprenez le plan, vous pouvez éviter certaines retouches de conception et de développement à l’avenir.
 
@@ -103,12 +103,9 @@ Pour créer la parité avec les applications Finance and Operations, la double �
 
 + Pour éviter la perte de données lors de la transmission de devises entre les applications Finance and Operations et Dataverse, vous pourrez augmenter le nombre de décimales dans le type de données de devise des applications Customer Engagement. La fonctionnalité traduit automatiquement les lignes existants dans le nouvel état étendu au niveau de la couche de métadonnées. Au cours de ce processus, la valeur monétaire est convertie en données décimales plutôt qu’en données monétaires et la valeur monétaire prend en charge 10 décimales. Cette fonctionnalité est une adhésion, et les organisations qui n’ont pas besoin de plus de 4 décimales de précision n’ont pas besoin de l’activer. Pour plus d’informations, voir [Migration de type de données de devise pour la double écriture](currrency-decimal-places.md).
 
-+ [Prise d’effet de date](../../dev-tools/date-effectivity.md) sera ajouté à Dataverse. Elle prendra en charge les données passées, présentes et futures sur la même entité.
++ [Prise d’effet de date](../../dev-tools/date-effectivity.md) sera ajouté à Dataverse. Elle prendra en charge les données passées, présentes et futures sur la même table.
 
 + Les [conversions d’unités](../../../../supply-chain/pim/tasks/manage-unit-measure.md) de produit sont prises en charge pour les produits, les devis, les commandes et les factures.
 
 Pour plus d’informations sur les modifications à venir, voir [Nouveautés ou modifications dans la double écriture](whats-new-dual-write.md).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

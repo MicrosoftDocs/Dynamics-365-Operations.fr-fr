@@ -1,71 +1,68 @@
 ---
-title: Développer et ouvrir une demande de poste
-description: Les projets de recrutement permettent de gérer le processus de recrutement.
+title: Créer une offre d'emploi
+description: Les projets de recrutement permettent de gérer votre processus de recrutement.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+manager: tfehr
+ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3207d61536422255b574fd126f16075fcddc2c93
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418438"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129565"
 ---
-# <a name="develop-and-open-job-requisition"></a>Développer et ouvrir une demande de poste
+# <a name="create-and-open-job-requisition"></a>Créer une offre d'emploi
 
+Les projets de recrutement permettent de gérer votre processus de recrutement. Après avoir créé un projet de recrutement, vous pouvez effectuer les tâches suivantes :
 
+- Rédiger une offre d'emploi pour le projet.
+- Publier l'annonce sur les pages du Libre-service employé.
+- Associer les candidatures au poste au projet.
+- Suivre les activités de ce projet. 
 
-Les projets de recrutement permettent de gérer le processus de recrutement. Pour chaque projet de recrutement, vous pouvez paramétrer des informations, telles que l'emploi pour lequel vous recrutez, le nom du recruteur, le statut du projet et le département auquel l'employé sera rattaché. Après avoir créé un projet de recrutement, vous pouvez rédiger une annonce d'emploi pour le projet, la publier dans les pages Libre-service employé, associer des demandes d'emploi au projet et suivre les activités du projet. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour démarrer la procédure, allez dans Ressources humaines > Recrutement > Projets de recrutement > Projets de recrutement.
-
-1. Cliquez sur Nouveau.
-2. Tapez une valeur dans le champ Projet de recrutement.
-3. Dans le champ Description, entrez une valeur.
-4. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Recruteur.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-7. Cliquez sur Sélectionner.
-8. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Département.
-9. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-10. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Tâche.
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-12. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-13. Entrez un nombre dans le champ Nombre de postes à pourvoir.
-14. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Responsable de l'embauche.
-15. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-16. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-17. Cliquez sur Sélectionner.
-18. Entrez une date dans le champ Date limite de candidature.
-19. Cliquez sur Support.
-    * Les projets de recrutement offrent la possibilité de spécifier les établissements de communication à utiliser pour signaler des postes vacants.  
-20. Cliquez sur Nouveau.
-21. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Support.
-22. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-23. Entrez une date dans le champ Date de début.
-24. Entrez une date dans le champ Date de fin.
-25. Cliquez sur Enregistrer.
-26. Fermez la page.
-27. Cliquez sur Annonces d'emploi.
-28. Cliquez sur Enregistrer.
-29. Fermez la page.
-30. Activez ou désactivez la case à cocher Afficher dans le libre-service pour employés.
-    * Activez la case à cocher Afficher dans le libre-service pour employés pour que les employés puissent consulter le projet de recrutement dans les pages Libre-service employé.  
-31. Cliquez sur Statut du projet de recrutement.
-32. Cliquez sur Démarrer.
-    * Le statut Démarré indique qu'il est possible d'envoyer des candidatures pour le projet.  
-33. Cliquez sur OK.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+1. Accédez à **Ressources humaines > Recrutement > Projets de recrutement > Projets de recrutement**.
+2. Sélectionnez **Nouveau**.
+3. Saisissez une valeur dans le champ **Projet de recrutement**.
+4. Dans le champ **Description**, entrez une valeur.
+5. Dans le champ **Recruteur**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+6. Recherchez et sélectionnez votre dossier dans la liste.
+7. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+8. Choisissez **Sélectionner**.
+9. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Département.
+10. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+11. Dans le champ **Poste**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+12. Recherchez et sélectionnez votre dossier dans la liste.
+13. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+14. Entrez un nombre dans le champ **Nombre de postes à pourvoir**.
+15. Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ **Responsable du recrutement**.
+16. Recherchez et sélectionnez votre dossier dans la liste.
+17. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+18. Choisissez **Sélectionner**.
+19. Entrez une date dans le champ **Date limite de candidature**.
+20. Sélectionnez **Média**. Les projets de recrutement offrent la possibilité de spécifier les établissements de communication à utiliser pour signaler des postes vacants.  
+21. Sélectionnez **Nouveau**.
+22. Dans le champ **Média**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+23. Dans la liste, sélectionnez le lien dans la ligne sélectionnée.
+24. Entrez une date dans le champ **Date de début**.
+25. Entrez une date dans le champ **Date de fin**.
+26. Sélectionnez **Enregistrer**.
+27. Fermez la page.
+28. Cliquez sur Annonces d’emploi.
+29. Sélectionnez **Enregistrer**.
+30. Fermez la page.
+31. Activez ou désactivez la case à cocher **Afficher dans le libre-service pour employés**. Activez la case à cocher **Afficher dans le libre-service pour employés**. Cette sélection rend le projet de recrutement visible aux salariés sur les pages du libre-service pour employés.
+32. Sélectionnez **Statut du projet de recrutement**.
+33. Sélectionnez **Démarrer**. Le statut **Démarré** indique qu’il est possible d’envoyer des candidatures pour le projet.  
+34. Cliquez sur **OK**.

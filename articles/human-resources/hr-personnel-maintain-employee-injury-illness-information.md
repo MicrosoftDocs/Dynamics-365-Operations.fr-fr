@@ -2,7 +2,7 @@
 title: Mettre à jour des informations relatives aux blessures et aux maladies des employés
 description: Il est recommandé de terminer d'abord le guide de tâche « Paramétrer les informations sur les blessures et les maladies », car certaines des informations de paramétrage sont utilisées ici.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ae5a14879a9e182f6f4604204f1cd6dd12576a3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418467"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130107"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mettre à jour des informations relatives aux blessures et aux maladies des employés
 
@@ -93,6 +93,3 @@ Cette enregistrement de tâche traite les étapes de base permettant de créer u
 36. Cliquez sur Enregistrer.
     * Vous pouvez mettre à jour le statut du dossier à tout moment.  Si le traitement de la blessure ou de la maladie est en cours, définissez le dossier à En cours.  Une fois que vous clôturez l'incident, vous pouvez uniquement ajouter ou supprimer des coûts, des traitements ou des déclarations liés à l'incident.  Pour modifier d'autres informations, rouvrez le dossier.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

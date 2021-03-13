@@ -1,9 +1,9 @@
 ---
-title: Installer et connecter l'application d'entrepôt
-description: Cette rubrique explique comment installer l'application d'entrepôt sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
+title: Installer et connecter l'application mobile Gestion des entrepôts
+description: Cette rubrique explique comment installer l'application mobile Gestion des entrepôts sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
-ms.date: 05/25/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,51 +16,58 @@ ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: mafoge
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
+ms.search.validFrom: 2021-02-28
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
 ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142273"
+ms.locfileid: "5142321"
 ---
-# <a name="install-and-connect-the-warehouse-app"></a>Installer et connecter l’application d’entreposage
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l'application mobile Gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Cette rubrique décrit comment configurer l'ancienne application d'entrepôt. Si vous recherchez des informations sur la configuration de la nouvelle application mobile Gestion des entrepôts (actuellement en version préliminaire publique), voir [Installer et connecter l'application mobile Gestion des entrepôts](install-configure-warehouse-management-app.md).
+> Cette rubrique décrit comment configurer la nouvelle application mobile Gestion des entrepôts, qui est actuellement en version préliminaire publique. Si vous recherchez des informations sur la configuration de l'ancienne application d'entrepôt, voir [Installer et connecter l'application d'entrepôt](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-> [!NOTE]
-> Cette rubrique décrit comment configurer l'application d'entrepôt pour les déploiements dans le cloud. Si vous recherchez des informations sur la configuration de l'application d'entrepôt pour les déploiements sur site, voir [Entreposage pour les déploiements locaux](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+La version préliminaire publique de l'application mobile Gestion des entrepôts est téléchargeable sur Microsoft App Center. Elle est fournie en tant que composant autonome. Par conséquent, vous devez la télécharger sur chaque appareil, puis la configurer pour vous connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
 
-L'application d'entrepôt est disponible sur Google Play Store et Microsoft Store. Elle est fournie en tant que composant autonome. Par conséquent, vous devez la télécharger sur chaque appareil, puis la configurer pour vous connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
-
-Cette rubrique explique comment installer l'application d'entrepôt sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
+Cette rubrique explique comment installer l'application mobile Gestion des entrepôts sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
 
 ## <a name="system-requirements"></a>Configuration requise
 
-L'application d'entrepôt est disponible sur les systèmes d'exploitation Android et Windows. Pour utiliser la dernière version de cette application, vous devez avoir l'un des systèmes d'exploitation pris en charge suivants installés sur vos appareils mobiles.
+L'application mobile Gestion des entrepôts est disponible pour les systèmes d'exploitation Windows et Google Android. Pour utiliser l'application, l'un des systèmes d'exploitation suivants doit être installé sur vos appareils mobiles :
 
-- Windows 10 (Universal Windows Platform \[UWP\]) Mise à jour 1709 de l'automne (build 10.0.16299) ou version ultérieure
+- Windows 10 (Plateforme Windows universelle \[UWP\]), mise à jour 1809 d'octobre 2018 (build 10.0.17763) ou version ultérieure
 - Android 4.4 ou version ultérieure
 
-> [!NOTE]
-> Si vous devez prendre en charge des appareils Windows plus anciens qui ne peuvent pas exécuter la dernière version de Windows, vous pouvez toujours télécharger la version 1.6.3.0 de l'application d'entrepôt à partir du Microsoft Store. Cette version s'exécutera sur Windows 10 (UWP), mise à jour de novembre 1511 (build 10.0.10586) ou version ultérieure. Cependant, sachez que cette version de l'application d'entrepôt ne prend pas en charge le déploiement en masse des paramètres de connexion. Vous devez donc [configurer manuellement la connexion](#config-manually) sur chaque appareil qui exécute cette version de l'application.
+## <a name="turn-on-the-feature"></a>Activer la fonctionnalité
 
-## <a name="get-the-warehouse-app"></a>Obtenir l'application d'entrepôt
+Avant de pouvoir utiliser l'application, une fonctionnalité associée doit être activée dans votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+
+- **Module :** *Gestion des entrepôts*
+- **Nom de la fonctionnalité :** *Paramètres utilisateur, icônes et titres des étapes de la nouvelle application d'entrepôt*
+
+## <a name="get-the-warehouse-management-mobile-app"></a>Obtenir l'application mobile Gestion des entrepôts
 
 Utilisez l'un des liens suivants pour télécharger l'application :
 
-- **Windows (UWP) :** [Dynamics 365 for Finance and Operations - Warehousing sur Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
-- **Android :** [Warehousing - Dynamics 365 sur Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+- **Windows (UWP) :** [Programme en version préliminaire de App Center - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
 
-Pour les petits déploiements, vous souhaiterez peut-être installer l'application à partir du magasin approprié sur chaque appareil, puis configurer manuellement la connexion aux environnements que vous utilisez. Cependant, dans la version 1.7.0.0 et les versions ultérieures de l'application d'entrepôt, vous pouvez également automatiser le déploiement et/ou la configuration de l'application. Cette approche peut s'avérer pratique si vous gérez de nombreux appareils et si vous utilisez une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Pour plus d'informations sur l'utilisation d'Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+    Cette application étant en version préliminaire, quelques étapes supplémentaires sont nécessaires pour l'installer. Pour plus d'informations, voir [Installer une build depuis App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android :** [Programme en version préliminaire de App Center - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+
+    Cette application étant en version préliminaire, quelques étapes supplémentaires sont nécessaires pour l'installer. Pour plus d'informations, voir [Tester des applications Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+
+Pour les déploiements plus petits, vous souhaiterez peut-être installer l'application sur chaque appareil à partir du magasin approprié, puis configurer manuellement la connexion aux environnements que vous utilisez. Cependant, vous pouvez également automatiser le déploiement et/ou la configuration de l'application. Cette approche peut s'avérer pratique si vous gérez de nombreux appareils et si vous utilisez une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Pour plus d'informations sur l'utilisation d'Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Créer une application de service Web dans Azure Active Directory
 
-Pour permettre à l'application d'entrepôt d'interagir avec un serveur Supply Chain Management, vous devez enregistrer une application de service Web pour le client Supply Chain Management dans Azure Active Directory (Azure AD). La procédure suivante montre comment effectuer cette tâche. Pour des informations détaillées et des alternatives, consultez les liens après la procédure.
+Pour permettre à l'application mobile Gestion des entrepôts d'interagir avec un serveur Supply Chain Management spécifique, vous devez enregistrer une application de service web pour le client Supply Chain Management dans Azure Active Directory (Azure AD). La procédure suivante montre comment effectuer cette tâche. Pour des informations détaillées et des alternatives, consultez les liens après la procédure.
 
 1. Dans un navigateur Web, accédez à [https://portal.azure.com](https://portal.azure.com/).
 1. Entrez le nom et le mot de passe de l'utilisateur qui a accès à l'abonnement Azure.
@@ -84,7 +91,7 @@ Pour permettre à l'application d'entrepôt d'interagir avec un serveur Supply C
 
 1. Dans la liste **Gérer**, cliquez sur **Certificat et secrets**. Sélectionnez ensuite l'un des boutons suivants, selon la façon dont vous souhaitez configurer l'application pour l'authentification. (Pour plus d'informations, consultez la section [Authentification à l'aide d'un certificat ou un secret client](#authenticate) plus loin dans cette rubrique.)
 
-    - **Télécharger le certificat** : Téléchargez un certificat à utiliser comme secret. Nous recommandons cette approche, car elle est plus sécurisée et peut également être automatisée plus complètement. Si vous exécutez l'application d'entrepôt sur des appareils Windows, notez la valeur **Empreinte** affichée après le téléchargement du certificat. Vous aurez besoin de cette valeur lorsque vous configurerez le certificat sur les appareils Windows.
+    - **Télécharger le certificat** : Téléchargez un certificat à utiliser comme secret. Nous recommandons cette approche, car elle est plus sécurisée et peut également être automatisée plus complètement. Si vous exécutez l'application mobile Gestion des entrepôts sur des appareils Windows, notez la valeur **Empreinte** affichée après le chargement du certificat. Vous aurez besoin de cette valeur lorsque vous configurerez le certificat sur les appareils Windows.
     - **Nouveau secret client** : Créez une clé en saisissant une description et une durée dans la section **Mot de passe**, puis sélectionnez **Ajouter**. Faites une copie de la clé et conservez-la en lieu sûr.
 
     ![Certificat et secrets](media/app-connect-azure-authentication.png "Certificat et secrets")
@@ -101,7 +108,7 @@ Pour plus d'informations sur la configuration des applications de service Web da
 
 Pour permettre à Supply Chain Management d'utiliser votre application Azure AD, procédez comme suit.
 
-1. Créez un utilisateur qui correspond aux informations d'identification de l'utilisateur pour l'application d'entrepôt :
+1. Créez un utilisateur qui correspond aux informations d'identification de l'utilisateur pour l'application mobile Gestion des entrepôts :
 
     1. Dans Supply Chain Management, accédez à **Administration du système \> Utilisateurs \> Utilisateurs**.
     1. Créez un utilisateur.
@@ -109,11 +116,11 @@ Pour permettre à Supply Chain Management d'utiliser votre application Azure AD,
 
     ![Attribuer l'utilisateur de l'appareil mobile d'entreposage](media/app-connect-app-users.png "Attribuer l'utilisateur de l'appareil mobile d'entreposage")
 
-1. Associez votre application Azure AD à l'utilisateur de l'application d'entrepôt :
+1. Associez votre application Azure AD à l'utilisateur de l'application mobile Gestion des entrepôts :
 
     1. Accédez à **Administration système \> Paramétrage \> Applications Azure Active Directory**.
     1. Créez une ligne.
-    1. Entrez l'ID client que vous avez noté dans la section précédente, donnez-lui un nom et sélectionnez l'utilisateur que vous venez de créer. Nous vous recommandons de marquer tous vos appareils. Ensuite, s'ils sont perdus, vous pouvez facilement supprimer leur accès à Supply Chain Management à partir de cette page.
+    1. Entrez l'ID client que vous avez noté dans la section précédente, donnez-lui un nom et sélectionnez l'utilisateur que vous venez de créer. Nous vous recommandons de marquer tous vos appareils. Ensuite, si un appareil est perdu, vous pouvez facilement supprimer son accès à Supply Chain Management à partir de cette page.
 
     ![Applications Azure Active Directory](media/app-connect-aad-apps.png "Applications Azure Active Directory")
 
@@ -121,9 +128,9 @@ Pour permettre à Supply Chain Management d'utiliser votre application Azure AD,
 
 L'authentification avec Azure AD fournit un moyen sécurisé de connecter un appareil mobile à Supply Chain Management. Vous pouvez vous authentifier en utilisant un certificat ou un secret client. Si vous importez des paramètres de connexion, nous vous recommandons d'utiliser un certificat au lieu d'un secret client. Étant donné que le secret client doit toujours être stocké en toute sécurité, vous ne pouvez pas l'importer à partir d'un fichier de paramètres de connexion ou d'un code QR, comme décrit plus loin dans cette rubrique.
 
-Les certificats peuvent être utilisés comme secrets pour prouver l'identité de l'application lorsqu'un jeton est demandé. La partie publique du certificat est téléchargée dans l'inscription de l'application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l'application d'entrepôt est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
+Les certificats peuvent être utilisés comme secrets pour prouver l'identité de l'application lorsqu'un jeton est demandé. La partie publique du certificat est chargée dans l'inscription de l'application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l'application mobile Gestion des entrepôts est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
 
-Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l'application d'entrepôt. Pour plus d'informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l'authentification dans Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l'application mobile Gestion des entrepôts. Pour plus d'informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l'authentification dans Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurer l'application en important des paramètres de connexion
 
@@ -134,7 +141,7 @@ Pour faciliter la maintenance et le déploiement de l'application sur de nombreu
 Vous pouvez importer les paramètres de connexion à partir d'un fichier ou d'un code QR. Pour les deux approches, vous devez d'abord créer un fichier de paramètres qui utilise le format et la syntaxe JSON (JavaScript Object Notation). Le fichier doit inclure une liste de connexions contenant les connexions individuelles à ajouter. Le tableau suivant résume les paramètres que vous devez spécifier dans le fichier de paramètres de connexion.
 
 | Paramètre | Description |
-| --- | --- |
+|---|---|
 | ConnectionName | Permet d'indiquer le nom du paramètre de connexion. La longueur maximale est de 20 caractères. Étant donné que cette valeur est l'identificateur unique d'un paramètre de connexion, assurez-vous qu'il est unique dans la liste. Si une connexion portant le même nom existe déjà sur l'appareil, elle sera remplacée par les paramètres du fichier importé. |
 | ActiveDirectoryClientAppId | Spécifiez l'ID client que vous avez noté lors de la configuration Azure AD dans la section [Créer une application de service Web dans Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Spécifiez l'URL racine de Supply Chain Management. |
@@ -179,7 +186,7 @@ Vous pouvez soit enregistrer les informations sous forme de fichier JSON, soit g
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Enregistrer le fichier des paramètres de connexion sur chaque appareil
 
-En règle générale, vous utiliserez un outil ou un script de gestion des périphériques pour distribuer les fichiers de paramètres de connexion à chaque périphérique que vous gérez. Si vous utilisez le nom et l'emplacement par défaut lorsque vous enregistrez le fichier de paramètres de connexion sur chaque appareil, l'application d'entrepôt l'importera automatiquement, même lors de la première exécution après l'installation de l'application. Si vous utilisez un nom ou un emplacement personnalisé pour le fichier, l'utilisateur de l'application doit spécifier les valeurs lors de la première exécution. Cependant, l'application continuera à utiliser le nom et l'emplacement spécifiés par la suite.
+En règle générale, vous utiliserez un outil ou un script de gestion des périphériques pour distribuer les fichiers de paramètres de connexion à chaque périphérique que vous gérez. Si vous utilisez le nom et l'emplacement par défaut lorsque vous enregistrez le fichier de paramètres de connexion sur chaque appareil, l'application mobile Gestion des entrepôts l'importera automatiquement, même lors de la première exécution après l'installation de l'application. Si vous utilisez un nom ou un emplacement personnalisé pour le fichier, l'utilisateur de l'application doit spécifier les valeurs lors de la première exécution. Cependant, l'application continuera à utiliser le nom et l'emplacement spécifiés par la suite.
 
 Chaque fois que l'application est lancée, elle réimporte les paramètres de connexion depuis leur emplacement précédent pour déterminer s'il y a eu des modifications. L'application ne mettra à jour que les connexions portant les mêmes noms que les connexions du fichier de paramètres de connexion. Les connexions créées par l'utilisateur qui utilisent d'autres noms ne seront pas mises à jour.
 
@@ -187,8 +194,8 @@ Vous ne pouvez pas supprimer une connexion en utilisant le fichier de paramètre
 
 Comme cela a été mentionné, le nom de fichier par défaut est *connections.json*. L'emplacement de fichier par défaut varie selon que vous utilisez un appareil Windows ou Android :
 
-- **Windows :** `C:\Users\<User>\AppData\Local\Packages\Microsoft.Dynamics365forOperations-Warehousing_8wekyb3d8bbwe\LocalState`
-- **Android :** `Android\data\com.Microsoft.Dynamics365forOperationsWarehousing\files`
+- **Windows :** `C:\Users\<User>\AppData\Local\Packages\Microsoft.WarehouseManagement_8wekyb3d8bbwe\LocalState`
+- **Android :** `Android\data\com.Microsoft.WarehouseManagement\files`
 
 Habituellement, les chemins sont créés automatiquement après la première exécution de l'application. Cependant, vous pouvez les créer manuellement si vous devez transférer le fichier des paramètres de connexion sur l'appareil avant l'installation.
 
@@ -199,63 +206,69 @@ Habituellement, les chemins sont créés automatiquement après la première ex�
 
 Suivez ces étapes pour importer les paramètres de connexion à partir d'un fichier ou d'un code QR.
 
-1. Ouvrez l'application d'entrepôt sur votre appareil mobile.
-1. Accédez à **Paramètres de connexion**.
-1. Définissez l'option **Utiliser le mode démo** sur _Non_.
+1. Démarrez l'application mobile Gestion des entrepôts sur votre appareil mobile. La première fois que vous démarrez l'application, un message de bienvenue s'affiche. Sélectionnez **Sélectionner une connexion**.
 
-    ![Utiliser l'option du mode démo](media/app-connect-app-demo-mode.png "Utiliser l'option du mode démo")
+    ![Message de bienvenue](media/app-configure-welcome-screen.png "Message de bienvenue")
 
-1. Sélectionnez **Choisir le fichier** ou **Scanner le code QR**, selon la façon dont vous souhaitez importer les paramètres :
+1. Si vous importez les paramètres de connexion à partir d'un fichier et si le nom et l'emplacement par défaut ont été utilisés lors de l'enregistrement du fichier, l'application a peut-être déjà trouvé le fichier. Dans ce cas, passez à l'étape 4. Sinon, sélectionnez **Configurer la connexion**, puis passez à l'étape 3.
 
-    - Si vous importez les paramètres de connexion à partir d'un fichier, l'application a peut-être déjà trouvé le fichier si le nom par défaut et l'emplacement par défaut ont été utilisés lors de son enregistrement. Sinon, sélectionnez **Choisir le fichier**, recherchez le fichier sur votre appareil local et sélectionnez-le. Si vous sélectionnez un emplacement personnalisé, l'application le stockera et l'utilisera automatiquement la prochaine fois.
-    - Si vous importez les paramètres de connexion en scannant un code QR, sélectionnez **Scanner le code QR**. L'application vous demande l'autorisation d'utiliser l'appareil photo de l'appareil. Une fois que vous avez donné votre autorisation, l'appareil photo démarre, afin que vous puissiez l'utiliser pour la numérisation. Selon la qualité de l'appareil photo de l'appareil et la complexité du code QR, il peut être difficile d'obtenir une analyse correcte. Dans ce cas, essayez de réduire la complexité du code QR en générant une seule connexion par code QR. (Actuellement, vous ne pouvez utiliser que l'appareil photo de l'appareil pour numériser le code QR.)
+    ![Configurer la connexion](media/app-configure-set-up-connection.png "Configurer la connexion")
 
-    ![Importer les paramètres de connexion](media/app-connect-app-select-file.png "Importer les paramètres de connexion")
+1. Dans la boîte de dialogue **Configuration de la connexion**, sélectionnez **Ajouter à partir d'un fichier** ou **Ajouter à partir du code QR**, selon la manière dont vous souhaitez importer les paramètres :
 
-1. Une fois les paramètres de connexion chargés, sélectionnez le bouton **Précédent** (flèche gauche) dans le coin supérieur gauche de la page.
+    - Si vous importez les paramètres de connexion à partir d'un fichier, sélectionnez **Ajouter à partir d'un fichier**, recherchez le fichier sur votre appareil local et sélectionnez-le. Si vous sélectionnez un emplacement personnalisé, l'application le stockera et l'utilisera automatiquement la prochaine fois.
+    - Si vous importez les paramètres de connexion en scannant un code QR, sélectionnez **Ajouter à partir du code QR**. L'application vous demande l'autorisation d'utiliser l'appareil photo de l'appareil. Une fois que vous avez donné votre autorisation, l'appareil photo démarre, afin que vous puissiez l'utiliser pour la numérisation. Selon la qualité de l'appareil photo de l'appareil et la complexité du code QR, il peut être difficile d'obtenir une analyse correcte. Dans ce cas, essayez de réduire la complexité du code QR en générant une seule connexion par code QR. (Actuellement, vous ne pouvez utiliser que l'appareil photo de l'appareil pour numériser le code QR.)
 
-    ![Paramètres de connexion chargés](media/app-connect-app-settings-loaded.png "Paramètres de connexion chargés")
+    ![Menu de configuration de la connexion](media/app-configure-connection-setup-flyout.png "Menu de configuration de la connexion")
+
+1. Lorsque les paramètres de connexion sont correctement chargés, la connexion sélectionnée s'affiche.
+
+    ![Paramètres de connexion chargés](media/app-configure-select-connection.png "Paramètres de connexion chargés")
 
 1. Si vous utilisez un appareil Android et un certificat pour l'authentification, l'appareil vous invite à sélectionner le certificat.
 
-    ![Choisir une invite de certificat sur un appareil Android](media/app-connect-app-choose-cert.png "Choisir une invite de certificat sur un appareil Android")
+    ![Invite de sélection du certificat sur un appareil Android](media/app-configure-select-certificate.png "Invite de sélection du certificat sur un appareil Android")
 
 1. L'application se connecte à votre serveur Supply Chain Management et affiche la page de connexion.
 
-    ![Page de connexion](media/app-connect-sign-in.png "Page de connexion")
+    ![Page de connexion](media/app-configure-sign-in-page.png "Page de connexion")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurer manuellement l'application
 
-Vous pouvez configurer manuellement l'application sur l'appareil pour qu'il se connecte au serveur Supply Chain Management via l'application Azure AD.
+Si vous n'avez pas de fichier ou de code QR, vous pouvez configurer manuellement l'application sur l'appareil pour qu'elle se connecte au serveur Supply Chain Management via l'application Azure AD.
 
-1. Ouvrez l'application d'entrepôt sur votre appareil mobile.
-1. Accédez à **Paramètres de connexion**.
-1. Définissez l'option **Utiliser le mode démo** sur _Non_.
+1. Démarrez l'application mobile Gestion des entrepôts sur votre appareil mobile.
+1. Si l'application est démarrée en **Mode démonstration**, sélectionnez **Paramètres de connexion**. Si la page **Connexion** apparaît au démarrage de l'application, sélectionnez **Changer de connexion**.
+1. Sélectionnez **Configurer la connexion**.
 
-    ![Le mode démo est désactivé](media/app-connect-app-select-file.png "Le mode démo est désactivé")
+    ![Configurer la connexion](media/app-configure-set-up-connection.png "Configurer la connexion")
 
-1. Appuyez sur le champ **Sélectionner la connexion** pour développer les paramètres requis pour saisir manuellement les détails de la connexion.
+1. Sélectionnez **Saisie manuelle**.
 
-    ![Champs de connexion manuelle](media/app-connect-manual-connect.png "Champs de connexion manuelle")
+    ![Menu de configuration de la connexion](media/app-configure-connection-setup-flyout.png "Menu de configuration de la connexion")
+
+    La page **Nouvelle connexion** apparaît et affiche les paramètres nécessaires pour entrer manuellement les détails de la connexion.
+
+    ![Champs de connexion manuelle](media/app-configure-input-manually.png "Champs de connexion manuelle")
 
 1. Entrez les informations suivantes :
 
-    - **Utiliser le secret client** : Définissez cette option sur _Oui_ pour utiliser un secret client pour vous authentifier auprès de Supply Chain Management. Définissez-le sur _Non_ pour utiliser un certificat pour l'authentification. (Pour plus d'informations, voir [Créer une application de service Web dans Azure Active Directory](#create-service).)
-    - **Nom de la connexion** : Saisissez un nom pour la nouvelle connexion. Ce nom apparaîtra dans le champ **Sélectionner la connexion** la prochaine fois que vous ouvrirez les paramètres de connexion. Le nom que vous entrez doit être unique. (En d'autres termes, il doit différer de tous les autres noms de connexion stockés sur votre appareil, le cas échéant.).
+    - **Utiliser le secret client** : Définissez cette option sur _Oui_ pour utiliser un secret client pour vous authentifier auprès de Supply Chain Management. Définissez-le sur _Non_ pour utiliser un certificat pour l'authentification. (Pour plus d'informations, voir la section [Créer une application de service web dans Azure Active Directory](#create-service) plus haut dans cette rubrique.)
+    - **Nom de la connexion** : Saisissez un nom pour la nouvelle connexion. Ce nom apparaîtra dans le champ **Sélectionner la connexion** la prochaine fois que vous ouvrirez les paramètres de connexion. Le nom que vous entrez doit être unique. (En d'autres termes, il doit différer de tous les autres noms de connexion stockés sur votre appareil, le cas échéant.)
     - **ID du client Azure Active Directory** : Spécifiez l'ID client que vous avez noté lors de la configuration Azure AD dans la section [Créer une application de service Web dans Azure Active Directory](#create-service).
     - **Secret client Active Directory** : Ce champ n'est disponible que lorsque l'option **Utiliser le secret client** est définie sur _Oui_. Entrez le secret client que vous avez noté lors de la configuration Azure AD dans la section [Créer une application de service Web dans Azure Active Directory](#create-service).
-    - **Informations d'empreinte de certificat Active Directory** : Ce champ est disponible pour les appareils Windows uniquement si l'option **Utiliser le secret client** est définie sur _Non_. Entrez les informations d'empreinte de certificat que vous avez notées lors de la configuration Azure AD dans la section [Créer une application de service Web dans Azure Active Directory](#create-service).
+    - **Empreinte de certificat Active Directory** : ce champ n'est disponible que pour les appareils Windows et uniquement si l'option **Utiliser la clé secrète client** est définie sur _Non_. Entrez les informations d'empreinte de certificat que vous avez notées lors de la configuration Azure AD dans la section [Créer une application de service Web dans Azure Active Directory](#create-service).
     - **Ressource Active Directory** : Spécifiez l'URL racine de Supply Chain Management.
 
-        > [!NOTE]
+        > [!IMPORTANT]
         > Ne terminez pas cette valeur par une barre oblique (/).
 
     - **Client Active Directory** : Entrez le client Azure AD que vous utilisez avec le serveur Supply Chain Management. Cette valeur a la forme `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Voici un exemple : `https://login.windows.net/contosooperations.onmicrosoft.com`.
 
-        > [!NOTE]
+        > [!IMPORTANT]
         > Ne terminez pas cette valeur par une barre oblique (/).
 
-    - **Société** : Accédez à l'entité juridique de Supply Chain Management à laquelle vous souhaitez que l'application se connecte.
+    - **Société** : accédez à l'entité juridique (société) de Supply Chain Management à laquelle vous souhaitez que l'application se connecte.
 
 1. Sélectionnez le bouton **Enregistrer** dans le coin supérieur droit de la page.
 1. Si vous utilisez un appareil Android et un certificat pour l'authentification, l'appareil vous invite à sélectionner le certificat.
@@ -263,10 +276,10 @@ Vous pouvez configurer manuellement l'application sur l'appareil pour qu'il se c
 
 ## <a name="remove-access-for-a-device"></a>Suppression de l'accès pour un périphérique
 
-En cas de périphérique perdu ou compromis, vous devez supprimer l'accès à Supply Chain Management du périphérique. Les étapes suivantes décrivent le processus recommandé pour supprimer l'accès.
+Si un appareil est perdu ou compromis, vous devez supprimer son accès à Supply Chain Management. Les étapes suivantes décrivent le processus recommandé pour supprimer l'accès.
 
 1. Accédez à **Administration système \> Paramétrage \> Applications Azure Active Directory**.
-1. Supprimez la ligne correspondant au périphérique auquel vous souhaitez supprimer l'accès. Notez l'ID client utilisé pour le périphérique supprimé, car vous en aurez besoin plus tard.
+1. Supprimez la ligne correspondant au périphérique auquel vous souhaitez supprimer l'accès. Notez l'ID client utilisé pour l'appareil, car vous en aurez besoin plus tard.
 
     Si vous n'avez enregistré qu'un seul ID client et que plusieurs appareils utilisent le même ID client, vous devez pousser de nouveaux paramètres de connexion vers ces appareils. Sinon, ils perdront l'accès.
 

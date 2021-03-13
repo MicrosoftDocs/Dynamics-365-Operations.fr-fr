@@ -1,5 +1,5 @@
 ---
-title: Résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations
+title: Résoudre les problèmes de double écriture dans les applications Finance and Operations
 description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683621"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131243"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Résoudre les problèmes liés au module Double écriture dans les applications Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Résoudre les problèmes de double écriture dans les applications Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Si vous ne pouvez pas ouvrir la page **Double écriture** en sélectionnant la v
 
 **Informations d’identification requises pour résoudre le problème :** Le même utilisateur qui a configuré la double écriture.
 
-Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez de configurer une nouvelle entité pour la double écriture. Le seul utilisateur qui peut créer un mappage est celui qui a configuré la connexion à double écriture.
+Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez de configurer une nouvelle table pour la double écriture. Le seul utilisateur qui peut créer un mappage est celui qui a configuré la connexion à double écriture.
 
 *Le code d’état de réponse n’indique pas la réussite : 401 (Non autorisé).*
 
@@ -77,7 +77,7 @@ Cette erreur se produit lorsque l’environnement Dataverse associé n’est pas
 
 Pour résoudre le problème, créez un ticket pour l’équipe d’intégration de données. Associez le suivi du réseau afin que l’équipe d’intégration de données puisse marquer les cartes comme **Pas en cours d’exécution** à l’arrière-plan.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Erreur lors de la tentative de démarrage d’un mappage de tables
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Erreur lors de la tentative de démarrage d’un mappage de tables
 
 Vous pouvez recevoir une erreur comme celle-ci lorsque vous essayez de définir cet état d’un mappage sur **Exécution en cours** :
 
@@ -86,7 +86,4 @@ Vous pouvez recevoir une erreur comme celle-ci lorsque vous essayez de définir 
 Le correctif de cette erreur dépend de la cause de l’erreur :
 
 + Si le mappage a des mappages dépendants, assurez-vous d’activer les mappages dépendants de ce mappage de table.
-+ Le mappage peut ne pas contenir de champs sources ou de destination. Si un champ de l’application Finance and Operations est manquant, suivez les étapes de la section [Problème de champs d’entité manquants sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Si un champ dans Dataverse est manquant, cliquez sur **Actualiser les tables** sur le mappage afin que les champs soient automatiquement remplis à nouveau dans le mappage.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Le mappage peut ne pas contenir de colonnes sources ou de destination. Si une colonne de l’application Finance and Operations est manquant, suivez les étapes de la section [Problème de colonnes de table manquantes sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si une colonne dans Dataverse est manquante, cliquez sur **Actualiser les tables** sur le mappage afin que les colonnes soient automatiquement remplies à nouveau dans le mappage.

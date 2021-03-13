@@ -1,5 +1,5 @@
 ---
-title: Synchroniser avec le moteur de tarification Dynamics 365 Supply Chain Management à la demande
+title: Synchroniser à la demande avec le moteur de tarification de Supply Chain Management
 description: Cette rubrique décrit comment utiliser le moteur de tarification dans Microsoft Dynamics 365 Supply Chain Management depuis Dynamics 365 Sales.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4452623"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130651"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Synchroniser avec le moteur de tarification Dynamics 365 Supply Chain Management à la demande
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Synchroniser à la demande avec le moteur de tarification de Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management comprend un moteur de tarificatio
 3. Ajoutez une nouvelle ligne de commande.
 4. Si vous créez une commande, sélectionnez **Ordre de prix** sur le volet Action. Si vous mettez à jour une commande existante, sélectionnez **Recalculer** sur le volet Actions.
 
-    Les champs suivants sont complétés automatiquement dans :
+    Les colonnes suivantes sont complétées automatiquement :
 
     + Montant détaillé
     + Remise %
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management comprend un moteur de tarificatio
 
 ## <a name="how-it-works"></a>Comment ça fonctionne
 
-Lorsque vous sélectionnez **Ordre de prix** dans Sales, la fonction **Totaux** sur l’onglet **Commande client \> Vue** dans Supply Chain Management est appelé pour la commande client associée. Les valeurs du total de la commande dans Sales sont utilisées pour remplir les champs correspondants dans Supply Chain Management.
+Lorsque vous sélectionnez **Ordre de prix** dans Sales, la fonction **Totaux** sur l’onglet **Commande client \> Vue** dans Supply Chain Management est appelé pour la commande client associée. Les valeurs du total de la commande dans Sales sont utilisées pour remplir les colonnes correspondantes dans Supply Chain Management.
 
 Lorsque le total de la commande client est calculé dans Supply Chain Management, le calcul évalue les accords commerciaux et les accords de vente existants pour le client et les produits répertoriés dans la commande client. Ces informations sont utilisées pour calculer les totaux. Quand **Ordre de prix** est sélectionné, Sales reflète automatiquement toute la configuration effectuée dans Supply Chain Management.
 
 ## <a name="limitations"></a>Limitations
 
-Lorsque les champs de Sales sont remplis, les limitations suivantes s’appliquent :
+Lorsque les colonnes dans Sales sont remplies, les limitations suivantes s'appliquent :
 
 + La configuration des frais et des allocations de frais dans Supply Chain Management n’est pas répliquée dans Sales.
-+ Les prix ne tiennent pas compte des prix de détail spéciaux spécifiés dans le **Canal de vente au détail** sur la page de ligne de commande client dans Supply Chain Management.
++ Les prix ne tiennent pas compte des prix de détail spéciaux spécifiés dans la colonne **Canal de vente au détail** sur la page de ligne de commande client dans Supply Chain Management.
 + Les remises définies dans la section **Gestion des reprises** de Supply Chain Management ne sont pas prises en compte.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

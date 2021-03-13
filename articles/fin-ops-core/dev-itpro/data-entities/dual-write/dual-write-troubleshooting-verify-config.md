@@ -1,5 +1,5 @@
 ---
-title: Vérifier que la double écriture est configurée dans les applications Finance and Operations et Dataverse
+title: Vérifiez la configuration de la double écriture dans les applications Finance and Operations et Dataverse
 description: Cette rubrique explique comment déterminer si la double écriture est configurée dans les applications Finance and Operations et Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 361d6555b60e02832c337b6f416b2b3627b6d365
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685537"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129305"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Vérifier que la double écriture est configurée dans les applications Finance and Operations et Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Vérifiez la configuration de la double écriture dans les applications Finance and Operations et Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,13 +51,10 @@ Pour plus d’informations sur la résolution des problèmes lors de la créatio
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Vérifier que la double écriture est configurée dans Dataverse
 
-Lorsque vous créez des données, si vous voyez le champ **Société** sur les pages dans Dataverse, la double écriture est configurée.
+Lorsque vous créez des données, si vous voyez la colonne **Société** sur les pages dans Dataverse, la double écriture est configurée.
 
 ![Vérification de la connexion Dataverse](media/verify_cds.png)
 
 Pour plus d’informations sur la résolution des problèmes lors de la création de données dans Dataverse, voir [Résoudre les problèmes de synchronisation en direct](dual-write-troubleshooting-live-sync.md).
 
 Pour plus d’informations sur la façon d’afficher les détails des erreurs si vous rencontrez des erreurs lors de la création de données dans Dataverse, voir [Activer et afficher le journal de suivi des plug-ins dans Dataverse pour afficher les détails de l’erreur](dual-write-troubleshooting.md#enable-view-trace).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

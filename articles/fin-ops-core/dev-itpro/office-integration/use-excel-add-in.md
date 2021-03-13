@@ -1,9 +1,9 @@
 ---
-title: Ouvrir des données d’entité dans Excel et les mettre à jour à l’aide du module complémentaire Excel
-description: Cette rubrique explique comment ouvrir des données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Office pour Excel.
-author: ChrisGarty
+title: Afficher et mettre à jour les données d’entité avec Excel
+description: Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel.
+author: jasongre
 manager: AnnBe
-ms.date: 04/11/2018
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -13,38 +13,39 @@ ms.reviewer: sericks
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
-ms.author: cgarty
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a9486b3d700cdbe19fbcdba431f673d0a03014f
+ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688465"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141874"
 ---
-# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Ouvrir des données d’entité dans Excel et les mettre à jour à l’aide du module complémentaire Excel
+# <a name="view-and-update-entity-data-with-excel"></a>Afficher et mettre à jour les données d’entité avec Excel 
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique explique comment ouvrir des données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Office pour Excel. Pour ouvrir les données d’entité, vous pouvez commencer à partir d’Excel ou de Finance and Operations.
+Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel. Pour ouvrir les données d’entité, vous pouvez commencer à partir d’Excel ou des applications Finance and Operations.
 
-En ouvrant des données d’entité dans Excel, vous pouvez rapidement les étudier et les modifier à l’aide du module complémentaire pour Excel. Ce complément exige Microsoft Excel 2016.
+En ouvrant des données d’entité dans Excel, vous pouvez rapidement les étudier et les modifier à l’aide du module complémentaire pour Excel. Ce module complémentaire nécessite Microsoft Excel 2016 ou des versions ultérieures.
 
 > [!NOTE]
 > Remarque : si votre location Microsoft Azure Active Directory (Azure AD) est configurée pour utiliser les services AD FS (Active Directory Federation Services), vous devez vous assurer que la mise à jour de mai 2016 pour Office a été appliquée, de sorte de pouvoir vous connecter correctement au module complémentaire Excel.
 
-Pour en savoir plus sur l’utilisation du module complémentaire Excel, consultez la courte vidéo [Créer un modèle Excel pour les modèles d’en-tête et de ligne dans Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+Pour en savoir plus sur l’utilisation du module complémentaire Excel, consultez la courte vidéo [Créer un modèle Excel pour les modèles d’en-tête et de ligne](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Ouvrir les données d’entité dans Excel au démarrage à partir de Finance and Operations
-1. Sur une page de Finance and Operations, sélectionnez **Ouvrir dans Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Ouvrir les données d’entité dans Excel au démarrage à partir d’une application Finance and Operations
+1. Sur une page d’une application Finance and Operations, sélectionnez **Ouvrir dans Microsoft Office**.
 
     Si la source de données racine (tableau) de la page est identique à la source de données racine pour toutes les entités, les options par défaut **Ouvrir dans Excel** sont générées pour la page. Les options **Ouvrir dans Excel** se trouvent dans les pages fréquemment utilisées, telles que **Tous les fournisseurs** et **Tous les clients**.
  
 2. Cliquez sur l’option **Ouvrir dans Excel** et ouvrez le classeur généré. Ce classeur dispose des informations de liaison pour l’entité, d’un pointeur vers votre environnement, et d’un pointeur vers le module complémentaire Excel.
 3. Dans Excel, cliquez sur **Activer la modification** pour permettre l’exécution du module complémentaire Excel. Le module complémentaire Excel s’exécute dans un volet à droite de la fenêtre Excel.
 4. Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire**.
-5. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour Finance and Operations. Le module complémentaire Excel utilise un contexte de connexion antérieur issu d’Internet Explorer et vous connecte automatiquement si c’est possible. Par conséquent, vérifiez le nom d’utilisateur dans le coin supérieur droit du module complémentaire Excel.
+5. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour l’application Finance and Operations. Le module complémentaire Excel utilisera le contexte d'une connexion précédente depuis le navigateur et vous connectera automatiquement, si possible. (Pour plus d’informations sur le navigateur utilisé en fonction du système d’exploitation, voir [Navigateurs utilisés par les modules complémentaires Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Pour vous assurer que la connexion a réussi, vérifiez le nom d’utilisateur dans le coin supérieur droit du module complémentaire Excel. 
 
 Le module complémentaire Excel lit automatiquement les données de l’entité sélectionnée. Notez qu’il n’existe aucune donnée dans le classeur tant que le module complémentaire Excel n’en a pas lue.
 
@@ -53,7 +54,7 @@ Le module complémentaire Excel lit automatiquement les données de l’entité 
 2. Dans le magasin Office, recherchez le mot clé **Dynamics** et cliquez sur **Ajouter** en regard de **Microsoft Dynamics Office Add-in** (le complément Excel).
 3. Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire** pour permettre l’exécution du complément Excel. Le module complémentaire Excel s’exécute dans un volet à droite de la fenêtre Excel.
 4. Cliquez sur **Ajouter des informations sur le serveur** pour ouvrir le volet **Options**.
-5. Dans votre navigateur, copiez l’URL de votre instance Finance and Operations cible, collez-la dans le champ **URL du serveur**, puis supprimez tout ce qui suit le nom de l’hôte. L’URL obtenue doit comporter juste le nom d’hôte.
+5. Dans votre navigateur, copiez l’URL de votre instance d’application Finance and Operations cible, collez-la dans le champ **URL du serveur**, puis supprimez tout ce qui suit le nom de l’hôte. L’URL obtenue doit comporter juste le nom d’hôte.
 
     Par exemple, si l’URL est `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, supprimez tout excepté `https://xxx.dynamics.com`.
 
@@ -72,7 +73,7 @@ Le module complémentaire Excel lit automatiquement les données de l’entité 
 Après que le complément Excel a lu les données d’entité dans le classeur, vous pouvez mettre à jour les données à tout moment en cliquant sur **Actualiser** dans le complément Excel.
 
 ## <a name="edit-entity-data-in-excel"></a>Modifier des données d’entité dans Excel
-Vous pouvez modifier les données d’entité selon vos besoins, puis les publier en cliquant sur **Publier** dans le complément Excel. Pour modifier un enregistrement, sélectionnez une cellule de la feuille de calcul, puis modifiez sa valeur. Pour ajouter un nouvel enregistrement, suivez l’une des étapes suivantes :
+Vous pouvez modifier les données d’entité selon vos besoins, puis les publier sur les applications Finance and Operations en cliquant sur **Publier** dans le complément Excel. Pour modifier un enregistrement, sélectionnez une cellule de la feuille de calcul, puis modifiez sa valeur. Pour ajouter un nouvel enregistrement, suivez l’une des étapes suivantes :
 
 - Cliquez n’importe où dans la table des sources de données, puis sur **Nouveau** dans le complément Excel.
 - Cliquez n’importe où dans la dernière ligne de la table des sources de données, puis appuyez sur la touche Tabulation jusqu’à ce que le curseur sorte de la dernière colonne de cette ligne et crée une nouvelle ligne.
@@ -105,6 +106,21 @@ Vous pouvez utiliser le concepteur pour ajuster les colonnes qui sont automatiqu
 4. Pour appliquer les modifications à la source de données, cliquez sur **Mettre à jour**. Ensuite, cliquez sur **Terminé** pour quitter le concepteur.
 5. Si vous avez ajouté un champ (colonne), cliquez sur **Actualiser** pour extraire un jeu de données mis à jour.
 
+## <a name="change-the-publish-batch-size"></a>Modifier la taille du lot de publication
+Lorsque les utilisateurs publient les modifications des enregistrements de données à l’aide du complément Excel, les mises à jour sont envoyées par lots. La taille du lot de publication par défaut est de 100 lignes. Dans la version 10.0.17 et les versions ultérieures, la fonctionnalité **Autoriser la configuration de la taille du lot de publication dans le complément Excel** vous offre un contrôle flexible sur la taille du lot de publication.
+
+Les administrateurs système peuvent spécifier une limite à l’échelle du système de la taille du lot de publication pour les classeurs « Ouvrir dans Excel » en définissant le champ **Publier la limite du lot** dans la section **Paramètres de l'application** de la page **Paramètres de l’application Office**.
+
+La taille du lot de publication peut également être modifiée pour un classeur individuel à l’aide du complément Excel.
+
+1. Ouvrez le classeur dans Excel.
+2. Sélectionnez le bouton **Options** (engrenage) dans le coin supérieur droit du complément Excel.
+3. Définissez le champ **Publier la taille du lot** selon les besoins. La valeur que vous définissez doit être inférieure à la limite du lot de publication à l’échelle du système.
+4. Cliquez sur **OK**.
+5. Enregistrez le classeur. Si vous n’enregistrez pas le classeur une fois que vous avez modifié les paramètres du complément, ces modifications ne seront pas conservées lors de la réouverture du classeur.
+
+Les auteurs de modèles de classeur Excel peuvent utiliser la même procédure pour définir la taille du lot de publication des modèles avant de les charger dans le système.
+
 ## <a name="copy-environment-data"></a>Copier les données de l’environnement
 
 Les données qui sont lues dans le classeur à partir d’un environnement peuvent être copiées vers un autre environnement. Toutefois, vous ne pouvez pas uniquement modifier l’URL de connexion, car le cache de données dans le classeur continuera à traiter les données comme des données existantes. Au lieu de cela, vous devez utiliser la fonctionnalité Copier les données de l’environnement pour publier des données dans un nouvel environnement comme de nouvelles données.
@@ -123,6 +139,4 @@ Il existe quelques problèmes pouvant être résolus en quelques pas.
 - **Le bouton Charger les applets s’affiche** – Si le complément Excel comporte un bouton **Charger les applets** après la connexion, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour résoudre ce problème, vérifiez que le nom d’utilisateur approprié s’affiche dans le coin supérieur droit du complément Excel. Si un nom d’utilisateur incorrect s’affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
 - **Vous recevez un message « Interdit »** – Si vous recevez un message « Interdit » alors que le complément Excel charge les métadonnées, le compte qui est connecté dans le complément Excel ne dispose pas de l’autorisation d’utilisation du service, de l’instance ou de la base de données cible. Pour résoudre ce problème, vérifiez que le nom d’utilisateur approprié s’affiche dans le coin supérieur droit du complément Excel. Si un nom d’utilisateur incorrect s’affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
 - **Une page web vide s’affiche au-dessus d’Excel** – Si une page web vide s’affiche lors du processus de connexion, le compte nécessite AD FS, mais la version d’Excel qui exécute le complément n’est pas assez récente pour charger la boîte de dialogue de connexion. Pour résoudre ce problème, mettez à jour la version d’Excel que vous utilisez. Pour mettre à jour la version d’Excel lorsque vous êtes dans une entreprise se trouvant dans un canal différé, utilisez l’[Outil de déploiement Office](https://technet.microsoft.com/library/jj219422.aspx) pour [passer du canal différé au canal actuel](https://technet.microsoft.com/library/mt455210.aspx).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- **Vous recevez un message de dépassement du délai lorsque vous publiez des modifications de données** : si vous recevez des messages de dépassement du délai lorsque vous essayez de publier les modifications de données sur une entité, envisagez la possibilité de réduire la taille du lot de publication pour le classeur concerné. Les entités qui déclenchent de plus grandes quantités de logique lors des modifications d’enregistrement peuvent nécessiter l’envoi des mises à jour par lots plus petits pour éviter les dépassements de délai.

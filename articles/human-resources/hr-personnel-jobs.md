@@ -2,7 +2,7 @@
 title: Paramétrer les composants d'une tâche
 description: Cet article décrit les éléments conceptuels pouvant être inclus dans une tâche et fournit des exemples d'utilisation de ces éléments dans votre organisation.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,18 +12,18 @@ ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManage
 audience: Application User
 ms.author: anbichse
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22f147f85db1ef3423608578e64df7f522564e0d
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418491"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130179"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Paramétrer les composants d'une tâche
 
@@ -87,6 +87,3 @@ Utilisez les domaines de responsabilité pour indiquer les rôles, les processus
 
 ## <a name="steps-for-creating-a-job"></a>Étapes pour créer une tâche
 Reportez-vous à l'article [Définir les nouvelles tâches](../fin-and-ops/hr/tasks/define-new-jobs.md) pour connaître la procédure pas à pas pour créer une tâche. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

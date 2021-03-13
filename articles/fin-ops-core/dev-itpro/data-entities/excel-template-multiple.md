@@ -1,5 +1,5 @@
 ---
-title: Importer des données à partir des modèles d’entité de données Excel contenant plusieurs feuilles de calcul
+title: Modèles de données avec plusieurs feuilles de calcul
 description: Cette rubrique décrit la procédure d’importation de données à l’aide des modèles d’entité de données Excel dans Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688077"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130579"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Importer des données à partir des modèles d’entité de données Excel contenant plusieurs feuilles de calcul
+# <a name="data-templates-with-multiple-worksheets"></a>Modèles de données avec plusieurs feuilles de calcul
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Si une nouvelle version du même fichier ou d’un fichier entièrement nouveau 
 ## <a name="upload-a-file-using-run-project"></a>Télécharger un fichier à l’aide de l’option Exécuter le projet
 
 Vous pouvez télécharger un fichier Excel tout en utilisant l’option **Exécuter le projet** pour exécuter un projet d’importation. Vous devez veiller à télécharger uniquement les fichiers ayant les mêmes feuilles de calcul que les mises en correspondance existantes dans les entités de données du projet de données. Si une feuille de calcul est introuvable dans le nouveau fichier téléchargé, le système affiche un message d’erreur et arrête l’importation. Si la mise en correspondance avec la feuille de calcul doit être modifiée pour une entité, les mises en correspondance du projet de données doivent d’abord être mises à jour dans le projet de données avant d’utiliser le fichier dans l’expérience **Exécuter le projet**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

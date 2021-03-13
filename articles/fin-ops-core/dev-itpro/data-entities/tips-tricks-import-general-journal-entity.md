@@ -1,5 +1,5 @@
 ---
-title: Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses
+title: Importation de N° document à l’aide de l’entité de journal des opérations diverses
 description: Cette rubrique fournit des conseils pour l’importation de données dans le Journal des opérations diverses à l’aide de l’entité de Journal des opérations diverses.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687641"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129597"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bonnes pratiques pour l’importation de numéros document à l’aide de l’entité du journal des opérations diverses
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importation de N° document à l’aide de l’entité de journal des opérations diverses
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ Les sections suivantes décrivent l’effet de ces paramètres. Elles expliquent
 - Si le champ **N° de document** est défini sur **Généré automatiquement**, l’importation ne réussira pas. Le paramètre **Généré automatiquement** pour le champ **N° de document** n’est pas pris en charge.
 
 Par défaut, l’entité de journal des opérations diverses utilise le traitement basé sur les jeux. Après avoir évalué les besoins commerciaux de votre organisation, vous pouvez modifier le paramètre **Traitement basé sur les jeux** en cliquant sur **Entités de données** dans l’espace de travail **Gestion des données**. Le traitement basé sur les jeux est utilisé pour accélérer le processus d’importation. Si vous n’utilisez pas le traitement basé sur les jeux, l’importation de l’entité de journal des opérations diverses sera plus lente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

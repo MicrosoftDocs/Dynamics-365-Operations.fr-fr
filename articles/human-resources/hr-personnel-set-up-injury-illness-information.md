@@ -2,7 +2,7 @@
 title: Paramétrer les informations sur les blessures et les maladies
 description: Les employeurs doivent savoir si leurs employés sont victimes de blessures ou de maladies en raison de risques sur le lieu de travail.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 117ae1d690221dbbe0cf4287a3f986cdb3606623
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 39c569bb4f3f532feb9e716309878617c136989b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418516"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128207"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Paramétrer les informations sur les blessures et les maladies
 
@@ -65,6 +65,3 @@ Les employeurs doivent savoir si leurs employés sont victimes de blessures ou d
     * Les organismes déclarants sont les organismes auprès desquels l'incident doit être déclaré. Sélectionnez la case à cocher par défaut correspondant à l'organisme par défaut auprès duquel vous devez déclarer les blessures et la maladies.  
 23. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

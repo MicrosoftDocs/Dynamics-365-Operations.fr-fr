@@ -1,8 +1,8 @@
 ---
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (08 juillet 2020)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 8 juillet 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528471"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130395"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (8 juillet 2020)
 
@@ -71,9 +71,9 @@ Les champs système créés et modifiés sont désormais activés sur la table *
 
 Cette version corrige une erreur (une référence Null) dans l’entrée simplifiée de l’employé lors de l’embauche d’un employé en utilisant l’option **Embaucher et ajouter des détails**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Les modifications apportées à l’entité Employé de Common Data Service ne sont pas répercutées dans Human Resources (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Les modifications apportées à l’entité Employé de Dataverse ne sont pas répercutées dans Human Resources (455652)
 
-Les modifications apportées aux champs suivants de l’entité **Employé** dans Common Data Service apparaissent désormais dans Human Resources :
+Les modifications apportées aux champs suivants de l’entité **Employé** dans Dataverse apparaissent désormais dans Human Resources :
 
 - **Travaille à domicile**
 - **Date d’ancienneté**
@@ -131,9 +131,9 @@ Une entité DMF est désormais disponible pour les suspensions de régularisatio
 
 ## <a name="coming-soon"></a>Prochainement
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Entités de liste de contrôle incluses dans Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Entités de liste de contrôle incluses dans Dataverse
 
-Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Common Data Service.
+Les entités de liste de contrôle pour les processus d’intégration, de départ, de transfert et d’entreprise seront bientôt disponibles dans Dataverse.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -141,6 +141,3 @@ Les entités de liste de contrôle pour les processus d’intégration, de dépa
 [Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
