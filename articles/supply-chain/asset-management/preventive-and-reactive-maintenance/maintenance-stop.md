@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427920"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017948"
 ---
 # <a name="maintenance-downtime-activities"></a>Activités de temps d’arrêt pour maintenance
 
@@ -97,6 +96,3 @@ L’illustration ci-dessous présente un exemple de la vue des détails **Activi
 - Vous pouvez copier des actifs d’une activité de temps d’arrêt pour maintenance à une autre. Dans **Toutes les activités de temps d’arrêt pour maintenance**, sélectionnez le bouton **Copier les activités de temps d’arrêt pour maintenance**, puis effectuez vos sélections dans les champs **Des activités de temps d’arrêt pour maintenance** et **Aux activités de temps d’arrêt pour maintenance**, puis cliquez sur **OK**.
 - Dans **Toutes les activités de temps d’arrêt pour maintenance**, cliquez sur le bouton **Lignes du programme de maintenance** ou le bouton **Ordres de travail actifs** pour ouvrir les listes associées et afficher les lignes associées à l’activité de temps d’arrêt pour maintenance sélectionnée.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

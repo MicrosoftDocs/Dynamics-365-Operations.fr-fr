@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0d2f4e86b5dec84d4a24db6a4f9f9f16f6a765bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427782"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018469"
 ---
 # <a name="work-hour-control"></a>Contrôle de temps de travail
 
@@ -74,6 +73,3 @@ La capture d'écran suivante présente un exemple de calcul de **contrôle des h
 Une autre manière d'effectuer un calcul d'heures est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Ensuite vous cliquez sur le bouton **Contrôle d'heure** sur l'organisateur **Général**. Les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l'organisateur **Enregistrements à inclure**. Cliquez sur **OK** dans la boîte de dialogue **Contrôle des heures d'actif**, et le calcul pour les actifs sélectionnés s'affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

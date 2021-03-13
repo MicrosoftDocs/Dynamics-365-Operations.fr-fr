@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectReplace, EntAssetObjectInstallLookup, EntAssetObjectMove, EntAssetObjectTableEditSubObjects
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec150adb35eb0600844245b14cbec9e9632ab337
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 022ffc59b1b64913fedaf550f3fdb32141a94031
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427945"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020277"
 ---
 # <a name="move-replace-and-install-assets"></a>Déplacer, remplacer et installer des actifs
 
@@ -91,6 +90,3 @@ Utilisez la fonctionnalité **Installer l'actif** pour installer une structure d
 4. Dans le champ **Poste technique**, sélectionner le nouvel emplacement.
 5. Par défaut, le champ **Date d'effet** est défini sur la date et l'heure actuelles. Toutefois, vous pouvez sélectionner d'autres date et heure à partir desquelles l'installation sur la structure d'actif sera valide.
 6. Cliquez sur **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

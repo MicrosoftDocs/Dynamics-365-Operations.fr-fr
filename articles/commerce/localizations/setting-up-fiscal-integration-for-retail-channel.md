@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: b221bfede5d1db8d7970e1efede85e8dba7fe017
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 889340c13d150ce8e3ad49a08b3d7f0c25a4b77a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412148"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017891"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurer l'intégration fiscale pour les canaux de commerce
 
@@ -226,6 +225,3 @@ Pour activer l'exécution manuelle d'un enregistrement fiscal reporté, vous dev
     1. Permet de sélectionner la mise en page à mettre à jour.
     2. Ajoutez un nouveau bouton, puis définissez la propriété du bouton **Terminer le processus d'enregistrement fiscal**.
     3. Dans la page **Programme de distribution**, exécutez la tâche **1090** pour transférer vos modifications vers la base de données des canaux.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

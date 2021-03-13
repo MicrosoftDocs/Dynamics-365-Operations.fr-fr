@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 552b1b211460ae86af06e183af91c062a3ee569a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428084"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020202"
 ---
 # <a name="procurement"></a>Approvisionnement
 
@@ -100,6 +99,3 @@ L'illustration suivante présente un exemple de la page **Commande fournisseur**
 
 De même, pour afficher ou entrer le numéro d'activité associé à une ligne de demande d'achat d'ordre de travail, sur la page de liste **Demande d'achat d'ordre de travail**, sélectionnez l'enregistrement de la demande d'achat, puis, dans la colonne **Demande d'achat**, sélectionnez le lien vers la demande d'achat. Vous pouvez trouver le champ **Numéro d'activité** sur l'onglet **Projet** de l'organisateur **Détails de ligne**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

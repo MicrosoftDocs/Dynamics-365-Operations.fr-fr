@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18373ff16b63ea61a3a4bc38ee7fa0b5e33154b5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427786"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019073"
 ---
 # <a name="cost-and-date-control"></a>Contrôle de date et de coût
 
@@ -108,6 +107,3 @@ La capture d'écran suivante présente un exemple des résultats des calculs dan
 ![Exemples de résultats de calcul dans Contrôle de la date de l'ordre de travail](media/03-controlling-and-reporting.png)
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

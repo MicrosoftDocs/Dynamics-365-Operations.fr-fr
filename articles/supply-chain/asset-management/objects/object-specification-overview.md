@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectAttributeOverview
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b91e88292acf8e67de924a746b02858664ae9ec6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a092fac4f1b8648c2c93791f1c5efb90708c44e2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428022"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020177"
 ---
 # <a name="asset-attribute-overview"></a>Vue d'ensemble des attributs d'actif
 
@@ -40,6 +39,3 @@ La page **Vue d'ensemble des attributs d'actif** affiche une ligne distincte pou
 3. Cliquez sur **OK**. Une liste affiche tous les actifs qui utilisent le type d'actif sélectionné. Pour chaque actif, tous les types d'attribut d'actif associés s'affichent sur la même ligne.
 
 La page **Attribut d'actif** affiche une ligne distincte pour chaque type d'attribut utilisé sur un actif. Pour ouvrir cette page, sélectionnez **Gestion des actifs** \> **Recherches** \> **Actifs** \> **Attribut d'actif**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

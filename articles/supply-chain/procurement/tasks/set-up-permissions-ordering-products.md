@@ -1,7 +1,7 @@
 ---
 title: Paramétrer des autorisations permettant de commander des produits au nom d'un tiers
 description: Cette rubrique explique comment accorder à des collaborateurs l'autorisation de préparer des demandes d'achat au nom d'autres collaborateurs.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427936"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017290"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Paramétrer des autorisations permettant de commander des produits au nom d'un tiers
 
@@ -45,6 +44,3 @@ Cette rubrique explique comment accorder à des collaborateurs l'autorisation de
 2. Utilisez le filtre rapide pour trouver le collaborateur que vous venez d'ajouter en tant que demandeur.
 3. Sélectionnez le demandeur. La liste des préparateurs montre les personnes qui ont l'autorisation de commander des articles au nom du demandeur qui est choisi dans le volet gauche.  Vous pouvez ajouter des préparateurs supplémentaires ici. Cette vue vous laisse également accorder l'autorisation au demandeur de créer des demandes dans les entités juridiques et les unités opérationnelles qui ne sont pas l'entité juridique ou l'unité opérationnelle de cette personne.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

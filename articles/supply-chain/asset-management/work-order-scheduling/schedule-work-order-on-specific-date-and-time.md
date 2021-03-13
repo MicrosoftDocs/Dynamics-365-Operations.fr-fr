@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e81ea13a3463965c6e4785dac32f536d2e94a7ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427790"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017365"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Planifier un ordre de travail à une date et une heure spécifiques
 
@@ -56,6 +55,3 @@ Si un ordre de travail doit être programmé à une date *et* à une heure spéc
 >[!NOTE]
 >Afin de planifier un agent de maintenance pour l'ordre de travail, cet agent de maintenance doit être disponible aux dates de début et de fin prévues. La disponibilité de l'agent est paramétrée dans [calendrier de l'agent](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

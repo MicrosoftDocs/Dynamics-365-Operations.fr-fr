@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f91253c06fce6a52716f215411168179847379fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 81e5611cd1491ee0c119f049e992afb4b6299991
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427730"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019477"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Vue d'ensemble des tâches de maintenance actives d'ordre de travail
 
@@ -43,6 +42,3 @@ L'illustration ci-dessous présente un exemple de la liste de page **Tâches de 
 
 Pour une brève description des boutons sur la page de liste **Tâches de maintenance actives d'ordre de travail**, voir [Présentation des ordres de travail](../work-orders/introduction-to-work-orders.md) où les boutons identiques sont décrits.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

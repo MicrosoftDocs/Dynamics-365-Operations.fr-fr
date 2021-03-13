@@ -1,7 +1,7 @@
 ---
 title: Envoyer et approuver le budget du projet
 description: Cette procédure décrit comment créer et envoyer le budget d'un projet.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/13/2019
 ms.topic: business-process
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14683554c45db72061ecbbf4a528656df3132692
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427701"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018726"
 ---
 # <a name="submit-and-approve-project-budget"></a>Envoyer et approuver le budget du projet
 
@@ -57,6 +56,3 @@ Cette tâche a été créé à l'aide de l'ensemble de données USSI.
 21. Dans le champ **Commentaire**, tapez une valeur.
 22. Cliquez sur **Soumettre**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

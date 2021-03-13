@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427995"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020651"
 ---
 # <a name="asset-management-parameters"></a>Paramètres de gestion des actifs
 
@@ -34,25 +33,24 @@ Dans la gestion des actifs, des paramètres concernant les actifs, les ordres de
 > [!NOTE]
 > Si vous souhaitez configurer un système incluant des données de démonstration pour tester les fonctionnalités de gestion des actifs, consultez [Déployer un environnement de démonstration](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) pour obtenir des instructions.
 
-Lien **Actifs**
+## <a name="the-assets-tab"></a>Onglet Actifs
+
+L’onglet **Actifs** fournit les paramètres suivants :
 
 - **Poste technique par défaut** est le poste technique standard, qui est automatiquement sélectionné sur les actifs lors de la création d'actifs.  
 - Dans le champ **Calendrier standard**, sélectionnez un calendrier à utiliser pour le calcul des indicateurs de performance clés des actifs si aucune ressource n'est sélectionnée sur un actif.  
 - Dans le champ **Afficher**, sélectionnez la vue standard qui s'affiche lorsque vous ouvrez la page **Vue Actif** (**Gestion des actifs** > **Commun** > **Actifs** > **Vue Actifs**).
 - Le **Type de demande par défaut** est le type de demande de maintenance standard, qui est automatiquement sélectionné lorsque vous créez une demande.  
-- Si vous souhaitez créer des projets liés aux actifs, des relations de projet concernant la sélection du **Projet principal**, de la **Hiérarchie de projets**, et de l'option **Créer automatiquement des projets** sont configurés dans **Paramètres de gestion des actifs**.  
-- Dans le champ **Masque de projet des ordres de travail**, vous définissez le nombre de sous projets autorisés pour les ordres de travail et les sous-actifs. Un masque d'ordre de travail est utilisé pour définir le nombre d'ordres de travail pouvant être créés sur un actif et utilisés sur le projet de tâche de l'ordre de travail. Le masque d'ordre de travail est paramétré dans le champ **Masque d'ordre de travail associé** dans **Paramètres de gestion des actifs** (**Gestion des actifs** > **Paramétrage** > **Paramètres de gestion des actifs** > **Ordres de travail**).  
-    >[!NOTE]
-    >Le format d'un masque d'ordre de travail associé est un certain nombre de signes de hachage (#), selon le nombre maximal d'ordres de travail que vous envisagez de créer dans un actif. Exemple : ## permet de créer jusqu'à 99 sous-projets.  
 - Les prévisions sur les types de tâches sont stockées sur le projet sélectionné dans le champ **Projet de prévision**. Pour chaque type de tâche, une activité est automatiquement créée dans le projet de prévision. Les prévisions sur le type de tâche sont ensuite enregistrées dans le projet de prévision.  
-- Dans le champ **Modèle**, sélectionnez le modèle de prévision utilisé pour les prévisions de type de tâche et d'ordre de travail.  
+- Dans le champ **Modèle**, sélectionnez le modèle de prévision utilisé pour les prévisions de type de tâche et d'ordre de travail.
 
+## <a name="the-work-orders-tab"></a>Onglet Ordres de travail
 
-Lien **Ordres de travail**
+L’onglet **Ordres de travail** fournit les paramètres suivants :
 
 - **Type d'ordre de travail par défaut** définit les paramètres standard lors de la création d'un ordre de travail.  
 - **Type d'ordre de travail préventif** définit le type d'ordre de travail utilisé lors de la création d'ordres de travail à partir de plans de maintenance. Si ce champ est laissé vide, le type d'ordre de travail dans le champ **Type d'ordre de travail par défaut** est utilisé.  
-- Dans le champ **Masque d'ordre de travail associé**, définissez le nombre maximal d'ordres de travail qui peuvent être liés à un ordre de travail. Par exemple, ## vous permet d'avoir jusqu'à 99 ordres de travail associés. Si vous définissez un masque comme décrit dans cette rubrique, les ordres de travail associés sont comptabilisés [ID d'ordre de travail de l'ordre de travail auquel un ordre de travail est associé] -01, -02, -03, etc. Si vous ne définissez pas de masque dans ce champ, un ordre de travail associé obtient le prochain ID d'ordre de travail séquentiel.  
+- Dans le champ **Masque d'ordre de travail associé**, définissez le nombre maximal d'ordres de travail qui peuvent être liés à un ordre de travail. Par exemple, ## vous permet d'avoir jusqu'à 99 ordres de travail associés. Si vous définissez un masque comme décrit dans cette rubrique, les ordres de travail associés sont comptabilisés [ID d'ordre de travail de l'ordre de travail auquel un ordre de travail est associé]-01, -02, -03, etc. Si vous ne définissez pas de masque dans ce champ, un ordre de travail associé obtient le prochain ID d'ordre de travail séquentiel.  
 - Sélectionnez **Oui** pour **Copier les pannes** si vous souhaitez copier automatiquement les pannes enregistrées sur les ordres de travail dans les demandes de maintenance connexes. 
 - Dans le champ **Niveau**, vous définissez le niveau de poste technique automatiquement inséré sur un ordre de travail si toutes les tâches d'ordre de travail associées se réfèrent au même poste technique. Si toutes les tâches d'ordre de travail ne sont pas associées au même poste technique sur le niveau défini, le champ **Poste technique** reste vide sur l'ordre de travail. Par exemple, si vous insérez le nombre « 1 » dans ce champ, c'est le niveau supérieur d'une structure de poste technique. Si vous insérez le nombre « 0 » dans ce champ, vous n'avez pas défini de niveau de poste technique spécifique, uniquement que toutes les tâches d'ordre de travail sur un ordre de travail doivent être associées au même poste technique pour que celui-ci soit ajouté à l'ordre de travail.  
 - Les journaux utilisés lors de la validation de la consommation sur un ordre de travail peuvent être sélectionnés dans l'organisateur **Général** dans les champs **Heure**, **Article** et **Dépenses**.  
@@ -67,8 +65,9 @@ Lien **Ordres de travail**
     - Le paramétrage des visites de maintenance  
 - Dans l'organisateur **Catégorie**, les catégories par défaut en relation avec la consommation sur les ordres de travail peuvent être définies.  
 
+## <a name="the-work-order-scheduling-tab"></a>Onglet Planification des ordres de travail
 
-Lien **Planification d'ordre de travail**
+L’onglet **Planification des ordres de travail** fournit les paramètres suivants sur l’organisateur **Général** :
 
 - **Planifier la plage de gestion** définit la période en jours, calculée à partir de la date de début prévue de l'ordre de travail, pendant laquelle les tâches de l'ordre de travail sont planifiées.  
 - Le **Plan général** correspond aux ressources dans le module **Administration de l'organisation**. Si vous sélectionnez un plan général dans ce champ, vous pourrez consulter les réservations de capacité associées aux ordres de travail dans **Réservations de capacité** (**Administration de l'organisation** > **Ressources** > **Ressources** > sélectionnez la ressource > onglet **Ressource** > bouton **Réservations de capacité**). Si vous laissez le champ vide, vous pourrez consulter la charge de la capacité associée aux ordres de travail dans **Charge de la capacité** (**Administration de l'organisation** \> **Ressources** \> **Ressources** \> sélectionnez la ressource \> onglet **Ressource** \> bouton **Charge de la capacité**).  
@@ -100,13 +99,10 @@ Les champs décrits dans la liste suivante se rapportent tous aux scores calcul�
   - En supposant qu'aucun collaborateur responsable et groupe de collaborateurs responsables n'ont été sélectionnés sur un ordre de travail à planifier - vous additionnez et soustrayez les valeurs de score dans les exemples des champs **Collaborateur préféré**, **Groupe de collaborateurs préférés**, **Lieu de l'actif**, et **Date de début** ci-dessus, vous obtenez un total de 3 010,00. Cela signifie un score élevé pour le collaborateur déjà sélectionné en tant que collaborateur préféré ainsi que faisant partie du groupe de collaborateurs préférés sur l'ordre de travail, et le collaborateur est également situé au même établissement que l'actif pour lequel une tâche doit être planifiée. Cela signifie qu'il y a de fortes chances que le collaborateur en question soit sélectionné pour exécuter la tâche lors de la planification de l'ordre de travail.  
   - Si la valeur « 0,00 » est insérée dans l'un des huit champs ci-dessus, ce score n'est pas utilisé lors de la planification de l'ordre de travail.  
 
-Lien **Types de documents**
+## <a name="the-document-types-tab"></a>Onglet Types de document
 
 Sélectionnez les types de document qui doivent être disponibles pour imprimer des pièces jointes associées à un état d'ordre de travail. Cela s'effectue en sélectionnant un type de document dans la section **Disponible** et en sélectionnant ![flèche Suivant](media/15-setup-for-objects.png). Si vous souhaitez supprimer un type de document sélectionné, sélectionnez le type de document dans la section **Sélectionné** et sélectionnez ![flèche Précédent](media/16-setup-for-objects.png).
 
-Lien **Souches de numéros**
+## <a name="the-number-sequences-tab"></a>Onglet Souches de numéros
 
 Sélectionnez les souches de numéros requises dans cette section. Il existe deux souches de numéros pour les actifs : une pour les actifs créés manuellement, et une pour les actifs créés via les actifs en attente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

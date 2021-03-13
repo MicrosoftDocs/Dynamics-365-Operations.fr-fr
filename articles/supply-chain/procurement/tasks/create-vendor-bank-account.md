@@ -1,7 +1,7 @@
 ---
 title: Créer un compte bancaire fournisseur
 description: Cette procédure décrit comment créer un compte bancaire pour un fournisseur.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3523dec15363bd42219d40ed8048681c56829ac
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427754"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019251"
 ---
 # <a name="create-a-vendor-bank-account"></a>Créer un compte bancaire fournisseur
 
@@ -58,6 +57,3 @@ Cette procédure décrit comment créer un compte bancaire pour un fournisseur. 
 25. Choisissez le compte que vous venez de créer dans le champ **Compte bancaire**.
 26. Cliquez sur **Enregistrer**. L'adresse peut être héritée du groupe bancaire, s'il est spécifié, ou vous pouvez l'ajouter ici.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
