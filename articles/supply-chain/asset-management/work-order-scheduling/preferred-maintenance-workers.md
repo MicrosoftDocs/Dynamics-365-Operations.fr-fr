@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c0637609a34890360a3b81355a8d21ef1b9faf8c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427837"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021402"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Définir les agents de maintenance préférés
 
@@ -68,6 +67,3 @@ Vous pouvez également paramétrer les agents de maintenance *responsables* à s
 
 Lors de la planification des ordres de travail, différents scores sont calculés pour déterminer quels agents doivent effectuer les tâches associées à un ordre de travail (ces scores sont paramétrés dans le lien **Paramètres de la gestion des actifs** **Planification des ordres de travail** > ). Si au moins deux agents de maintenance préférés ou responsables obtiennent le même score lors de la planification des ordres de travail, un agent est sélectionné de manière aléatoire. Sinon, il s'agit toujours de l'agent ayant le score le plus élevé qui est affecté pour exécuter un ordre de travail.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

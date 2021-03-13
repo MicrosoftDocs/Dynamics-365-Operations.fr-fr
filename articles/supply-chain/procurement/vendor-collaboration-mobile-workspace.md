@@ -1,7 +1,7 @@
 ---
 title: Espace de travail de collaboration fournisseur sur téléphone mobile
 description: Cette rubrique fournit des informations sur l'espace de travail mobile Collaboration du fournisseur. Cet espace de travail permet aux fournisseurs d'être constamment informés des commandes fournisseur qui leur ont été envoyées pour approbation. Ils peuvent également afficher des informations sur les bons de commande et les contacts nouveaux et mis à jour.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: mkirknel
+ms.author: riluan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc73fe415ec2b9a266dda6b7f1b3469b7a77f256
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4428167"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020834"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
@@ -117,7 +116,7 @@ Télécharger et installer l'application mobile Finance and Operations :
 -   [Pour téléphones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Pour les iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Connexion à l'application mobile
+## <a name="sign-in-to-the-mobile-app"></a>Connexion à l’application mobile
 1.  Démarrez l'application sur votre appareil mobile.
 2.  Saisissez votre URL Microsoft Dynamics 365.
 4.  Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d'utilisateur et mot de passe. Entrez vos informations d'identification.
@@ -170,6 +169,3 @@ Toutes les modifications apportées à la réponse de la ligne de commande sont 
 
 ### <a name="open-confirmed-orders"></a>Commandes confirmées en cours
 Lorsque la commande fournisseur est confirmée par le client (son statut est passé à **Confirmé**), elle apparaît dans la liste des commandes confirmées en cours. Elle restera dans la liste jusqu'à ce qu'elle soit enregistrée comme reçue par le client.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

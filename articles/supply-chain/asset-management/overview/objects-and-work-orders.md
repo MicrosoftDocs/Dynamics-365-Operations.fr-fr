@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2500a695fcffe0d60ac13b1b74cda4322b0e14
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0cddb0a25286c8ce9d72aef0b835809705ad577a
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427930"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020937"
 ---
 # <a name="assets-and-work-orders"></a>Actifs et ordres de travail
 
@@ -55,6 +54,3 @@ Plusieurs étapes doivent être effectuées lorsque vous souhaitez planifier et 
 
 > [!NOTE]
 > En général, lorsque vous travaillez dans Dynamics 365 Supply Chain Management et le module **Gestion des actifs**, vous sélectionnez **Nouveau** pour créer un enregistrement, vous sélectionnez **Modifier** pour mettre à jour un enregistrement existant et vous sélectionnez **Enregistrer** pour enregistrer des données nouvelles ou modifiées.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

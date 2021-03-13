@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e43abd4644eec8c91606ec48bbecf30f12600856
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427951"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021021"
 ---
 # <a name="update-maintenance-budgets"></a>Mettre à jour les budgets de maintenance
 
@@ -75,6 +74,3 @@ Sur la page **Lignes du budget de maintenance**, vous pouvez ajouter manuellemen
 
 - Vous savez que le reconditionnement de certains actifs est actuellement en phase de planification, mais les tâches associées n'ont pas encore été créées dans le module Gestion des actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces tâches sont incluses dans le budget de maintenance.
 - De nouveaux actifs ou types d'actifs ont été créés depuis la réalisation du budget de maintenance, mais les plans de maintenance n'ont pas encore été configurés sur ces actifs ou types d'actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces types d'actifs sont incluses dans le budget de maintenance.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetCounter
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23a94415a662059ddbd41cc6a0ba9dab24aae44e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5318bac961682f88e192ac70c4993c62b69b399c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427706"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020879"
 ---
 # <a name="manual-update-of-asset-counters"></a>Mise à jour manuelle des compteurs d'actifs
 
@@ -64,6 +63,3 @@ Sur la page **Compteurs d'actif** (**Gestion des actifs** > **Recherches** > **A
 >[!NOTE]
 >Vous pouvez paramétrer une plage pour définir des écarts entre les enregistrements de compteur manuels. Vous pouvez également spécifier le type de message qui s'affiche si les enregistrements se situent en dehors de la plage définie. Pour plus d'informations sur la configuration des compteurs, voir [Compteurs](../setup-for-objects/counters.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

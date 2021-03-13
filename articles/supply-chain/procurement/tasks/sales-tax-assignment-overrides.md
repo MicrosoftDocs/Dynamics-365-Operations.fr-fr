@@ -1,7 +1,7 @@
 ---
 title: Affectation et remplacement des taxes
 description: Cette procédure explique comment affecter des groupes de taxes aux canaux de commerce.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTaxOverrideCode, RetailTaxOverrideGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74a7eed04648c63c0b19d5de26d2bdbef59aec7d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1c6e1de5046a3ce5d896ba3686a28d6d474d4268
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427938"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020726"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Affectation et remplacement des taxes
 
@@ -57,6 +56,3 @@ Cette procédure explique comment affecter des groupes de taxes aux canaux de co
 21. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 22. Cliquez sur Enregistrer.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

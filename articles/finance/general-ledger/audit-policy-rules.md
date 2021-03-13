@@ -1,7 +1,7 @@
 ---
 title: Règles de stratégie d’audit
 description: Les stratégies d’audit permettent d’évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d’audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d’un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois.
-author: ryansandness
+author: panolte
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 998d4dbabec74528b4acb9e797faef0c449e7c28
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443131"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021239"
 ---
 # <a name="audit-policy-rules"></a>Règles de stratégie d’audit
 
@@ -101,6 +100,3 @@ L’ensemble des règles de stratégie pour une stratégie d’audit spécifique
 [Définir des stratégies d’audit pour les documents source](tasks/define-audit-policies-source-documents.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
