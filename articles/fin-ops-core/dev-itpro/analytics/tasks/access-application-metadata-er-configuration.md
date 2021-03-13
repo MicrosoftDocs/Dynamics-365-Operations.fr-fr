@@ -1,6 +1,6 @@
 ---
 title: Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques
-description: Les étapes de cette rubrique expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques (ER) à l’aide des métadonnées de Finance and Operations.
+description: La rubrique décrit comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques à l’aide des métadonnées.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 58697148ecf83f4962bd64a221945b6d911e11a6
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682163"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093303"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Accéder aux métadonnées d’application à l’aide de la configuration de la gestion des états électroniques
 
@@ -125,6 +125,3 @@ Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulato
 > [!NOTE]
 > Cette manière d’obtenir des informations sur les métadonnées d’application est la seule disponible pour les applications déployées localement (lorsqu’un modèle de déploiement de données métier local (LBD) ou sur site est utilisé).
         
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

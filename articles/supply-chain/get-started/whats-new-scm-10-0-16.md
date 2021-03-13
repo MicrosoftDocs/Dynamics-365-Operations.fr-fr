@@ -1,5 +1,5 @@
 ---
-title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.16 (février 2021)
+title: Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.16 (février 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626800"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104987"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.16 (février 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.16 (février 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version préliminaire de Microsoft Dynamics 365 Supply Chain Management 10.0.16. Cette version a un numéro de build de 10.0.689 et est disponible comme suit :
+Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.16. Cette version a un numéro de build de 10.0.689 et est disponible comme suit :
 
 - **Version préliminaire de la version :** novembre 2020
 - **Disponibilité générale de la version (auto-mise à jour) :** janvier 2021
@@ -40,8 +38,11 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 Les fonctionnalités suivantes sont comprises dans cette version. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d'autres peuvent déjà être généralement disponibles. Suivez les liens vers le [programme de publication](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) pour voir les dates de lancement officiel de chaque fonctionnalité.
 
 - [Interface d'exécution de l'atelier personnalisable](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Pour plus d'informations, voir [Paramétrage d'un périphérique pour exécuter l'interface d'exécution de l'atelier de production](../production-control/production-floor-execution-setup.md).
+
 - [Complément de visibilité de stock pour Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Pour plus d'informations, voir [Complément de visibilité d'inventaire](../inventory/inventory-visibility.md)
+
 - [Valider les contenants sur les lignes de document source](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Pour plus d'informations, voir [Vue d’ensemble de la configuration de l’entrepôt](../warehousing/warehouse-configuration.md).
+
 - [Visualisation de la charge de travail sortante de la gestion d'entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Pour plus d’informations, voir [Visualisation de la charge de travail sortante](../warehousing/outbound-workload-visualization.md)
 
 La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
@@ -88,7 +89,7 @@ Nous avons récemment ajouté ou mis à jour de manière significative les rubri
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Mises à jour de plateforme pour les applications Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.16 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.16 des applications Finance and Operations (octobre 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.16 inclut les mises à jour de plateforme. Pour en savoir plus, consultez [Mises à jour de la plateforme pour la version 10.0.16 des applications Finance and Operations (février 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
 
@@ -110,6 +111,3 @@ La rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply
 Avant que toute fonctionnalité ne soit supprimée du produit, l’avis d’obsolescence sera annoncé dans la rubrique [Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mois avant le retrait.
 
 Pour les dernières modifications qui n’affectent que le temps de compilation, mais qui sont compatibles d’un point de vue binaire avec les environnements sandbox et de production, le temps d’obsolescence sera inférieur à 12 mois. Ce sont généralement des mises à jour fonctionnelles qui doivent être apportées au compilateur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

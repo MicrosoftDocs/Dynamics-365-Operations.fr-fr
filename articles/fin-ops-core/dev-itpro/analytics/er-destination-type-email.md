@@ -1,6 +1,6 @@
 ---
 title: Type de destination pour l’envoi d’états électroniques par e-mail
-description: Cette rubrique explique comment configurer une destination de messagerie pour chaque composant DOSSIER ou FICHIER d’un format d’état électronique (ER) configuré pour générer des documents sortants.
+description: Cette rubrique explique comment configurer une destination d’e-mail pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690124"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094102"
 ---
 # <a name="email-er-destination-type"></a>Type de destination pour l’envoi d’états électroniques par e-mail
 
@@ -65,8 +65,6 @@ Si vous sélectionnez **E-mail de gestion de l’impression** comme type d’adr
 - Sélectionnez le champ **Source du message électronique**, puis **Aucune**.
 - Dans le champ **Adresses e-mail supplémentaires, séparées par ";"**, entrez les adresses e-mail fixes.
 
-![Configuration d’une adresse e-mail fixe](./media/er_destinations-emailfixedaddress.png)
-
 Vous pouvez également obtenir des adresses électroniques à partir des coordonnées du tiers pour lequel vous générez un document sortant. Pour utiliser des adresses électroniques non fixes dans el champ **Source de l’e-mail**, vous devez sélectionner le [rôle](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) du tiers pour une destination de fichier. Les rôles suivants sont pris en charge :
 
 - Client
@@ -92,8 +90,6 @@ Sur la page **Concepteur de formule**, dans le champ **Formule**, entrez une ré
 
 Si les numéros de compte du rôle configuré sont uniques pour toute l’instance de Microsoft Dynamics 365 Finance, le champ **Entreprise de la source de l’e-mail** dans la boîte de dialogue **Envoyer à** peut rester vide.
 
-![Champ Société de la source de l’e-mail](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Sinon, vous pourriez avoir une situation où différents tiers dans le [Carnet d’adresses global](../../fin-ops/organization-administration/overview-global-address-book.md) ont été enregistrés dans différentes sociétés ([entités juridiques](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) de telle manière qu’ils utilisent tous le même numéro de compte pour remplir le rôle configuré. Dans ce cas, les numéros de compte du rôle configuré ne sont pas uniques pour l’ensemble de l’instance Finance. Par conséquent, pour sélectionner explicitement un tiers, vous ne pouvez pas spécifier uniquement un numéro de compte. Vous devez également spécifier la société dans laquelle le tiers a été enregistré pour remplir le rôle configuré. Sélectionnez le rôle souhaité, sélectionnez le bouton **Lier** (symbole de chaîne) à côté du champ **Société de la source de messagerie** dans la boîte de dialogue **E-mail à** pour ouvrir la page [Concepteur de formule](general-electronic-reporting-formula-designer.md). Vous pouvez ensuite utiliser cette page pour configurer une formule qui renvoie, au moment de l’exécution, le code de la société dont la source souhaitée doit se trouver dans le périmètre.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Pour spécifier le type d’adresses e-mail à utiliser lors du runtime, dans la
 
 > [!NOTE]
 > Si des objectifs sont sélectionnés dans le champ **Objectif** et que l’option **Contact principal** est définie sur **Oui** en même temps, chaque e-mail qui satisfait au moins un critère configuré sera utilisé lors de l’exécution.
-
-![Configuration d’un compte d’attributs source d’e-mail](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>E-mail de configuration
 
@@ -145,6 +139,3 @@ L’illustration suivante montre le processus, comme décrit dans cette rubrique
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

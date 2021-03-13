@@ -1,6 +1,6 @@
 ---
 title: Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
-description: Les étapes de cette rubrique donnent des informations sur la création de configurations d’états électroniques qui génèrent des documents électroniques aux formats Microsoft Office (Excel et Word) qui contiennent des images intégrées.
+description: Cette rubrique décrit comment créer des configurations pour générer des documents électroniques aux formats Excel et Word contenant des images intégrées.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684400"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093668"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
 
@@ -90,6 +90,3 @@ Pour réaliser les étapes de cette procédure, commencez par effectuer la proc�
  30. Sélectionnez Oui dans le champ Autoriser la création d’une note préliminaire sur des comptes bancaires inactifs.  
  31. Cliquez sur Enregistrer.  
  32. Fermez la page.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

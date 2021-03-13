@@ -1,6 +1,6 @@
 ---
 title: Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER
-description: L’outil de génération d’états électroniques (ER) permet aux utilisateurs de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies à l’aide des données et ses algorithmes existants dans l’application.
+description: L'outil de génération d'états électroniques vous permet de définir des structures de format électronique, puis de décrire la manière dont ces structures doivent être remplies.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 321a85c675439b91b99ec5988494d7514a5c53f4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687462"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093135"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER
 
@@ -57,6 +57,3 @@ Cette fonction n’empêche pas la compatibilité ascendante de la structure ER.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Langage des formules ER](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

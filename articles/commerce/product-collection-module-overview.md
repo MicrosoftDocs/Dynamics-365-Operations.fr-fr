@@ -3,35 +3,32 @@ title: Modules de collecte de produits
 description: Cette rubrique fournit une vue d'ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412139"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097101"
 ---
 # <a name="product-collection-modules"></a>Modules de collecte de produits
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique fournit une vue d'ensemble des modules de collecte de produits dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
 
 La découverte de produit est un outil principal que les détaillants utilisent pour communiquer avec leurs clients sur un site web de commerce électronique. Les modules de collecte de produits aident les détaillants à générer des expériences d'achat attrayantes en fournissant une interface visuelle intuitive pouvant être utilisée pour créer rapidement des collectes de produits.
 
@@ -67,6 +64,10 @@ Le tableau suivant décrit les différents types de modules de collecte de produ
 | Fréquemment achetés ensemble | Intelligence artificielle/Machine Learning | Ce module utilise le Machine Learning pour analyser des modèles d'achat des consommateurs et pour recommander des articles associés qui sont fréquemment achetés avec un produit donné. Cette liste peut afficher des résultats personnalisés pour un utilisateur connecté si l'auteur du site choisit cette option. |
 | Les personnes aiment également           | Intelligence artificielle/Machine Learning | Ce module utilise le Machine Learning pour analyser des modèles d'achat des consommateurs et pour recommander des articles associés à produit donné. Cette liste peut afficher des résultats personnalisés pour un utilisateur connecté si l'auteur du site choisit cette option. |
 | Nos choix pour vous              | Intelligence artificielle/Machine Learning | Ce module utilise le Machine Learning pour analyser les modèles d'achat de l'utilisateur connecté et fournir des recommandations personnalisées basées sur ces modèles d'achat. Pour un utilisateur invité, cette liste sera réduite. |
+
+## <a name="supported-modules"></a>Modules pris en charge 
+
+Le module de collecte de produits prend en charge le [module de visualisation rapide](quick-view-module.md), qui permet aux utilisateurs d'afficher des informations sur le produit et d'ajouter des articles au panier à partir d'une page de collecte de produits.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Ajout d'un module de collecte de produits à une page de catégorie
 
@@ -106,9 +107,8 @@ Le tableau suivant indique les types de listes disponibles pour la sélection da
 
 [Module Conteneur](add-container-module.md)
 
-[Module de zone d'achat](add-buy-box.md)
+[Module Zone d’achat](add-buy-box.md)
 
-[Vue d'ensemble des recommandations produit](product-recommendations.md)
+[Vue d’ensemble des recommandations produit](product-recommendations.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Module de visualisation rapide](quick-view-module.md)

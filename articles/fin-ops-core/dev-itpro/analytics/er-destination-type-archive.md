@@ -1,6 +1,6 @@
 ---
 title: Type de destination pour l’archivage d’états électronique
-description: Cette rubrique fournit des informations sur la configuration d’une destination d’archive pour chaque composant DOSSIER ou FICHIER d’un format de rapport électronique (ER) configuré pour générer des documents sortants.
+description: Cette rubrique fournit des informations sur la configuration d’une destination d’archive pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/30/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0067024d7a29e2a1db3b7fdba9ea3c6a63aad648
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679676"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094127"
 ---
 # <a name="archive-er-destination-type"></a>Type de destination pour l’archivage d’états électronique
 
@@ -57,6 +57,3 @@ Lorsque l’emplacement du type de document est défini sur **Stockage Azure**, 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

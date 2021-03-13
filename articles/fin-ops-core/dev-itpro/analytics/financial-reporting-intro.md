@@ -1,6 +1,6 @@
 ---
 title: États financiers
-description: La génération d’états financiers permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d’analyse. Elle dépasse les contraintes traditionnelles liées à la génération d’états pour vous aider à concevoir efficacement différents types d’états.
+description: La génération d’états financiers permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d’analyse.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7da0d1aa4bb10658c66fce996e00b5714125f100
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b1db953165bd745a00f68048767a2b19fcc2f38
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682694"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093949"
 ---
-# <a name="financial-reporting"></a>États financiers
+# <a name="financial-reporting"></a>Financial Reporting
 
 [!include [banner](../includes/banner.md)]
 
@@ -96,6 +96,3 @@ Les composants suivants la génération d’états financiers sont simples à ut
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Générer les états financiers](generate-financial-report.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

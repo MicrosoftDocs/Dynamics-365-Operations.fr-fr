@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4443349"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104227"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Créer un compte de stockage Azure et un coffre de clés
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Le service complémentaire de facturation électronique prend la responsabilité de stocker toutes vos données métier dans les ressources Microsoft Azure appartenant à votre société. Pour vous assurer que le service fonctionne correctement et que toutes les données métier nécessaires et générées par le module complémentaire de facturation électronique ne sont accessibles que par ce dernier, vous devez créer deux ressources Azure principales :
-
-- Un compte de stockage Azure (stockage Blob) pour stocker les factures électroniques
-- Un coffre de clés Azure pour stocker les certificats et l’Uniform Resource Identifier (URI) du compte de stockage
-
-> [!NOTE]
-> Une ressource de coffre de clés dédiée et un stockage Blob client doivent être alloués spécifiquement pour une utilisation avec le module complémentaire de facturation électronique.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -91,6 +80,3 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 9. Dans la boîte de dialogue **Principal**, sélectionnez le principal en ajoutant **Module complémentaire de facturation électronique**.
 10. Sélectionnez **Ajouter**, puis sélectionnez **Enregistrer les modifications du coffre de clés**.
 11. Sur la page **Vue d’ensemble**, copiez la valeur **Nom DNS** du coffre de clés. Cette valeur sera utilisée lors de la configuration du service dans RCS et sera désignée sous le nom *URI du coffre de clés*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

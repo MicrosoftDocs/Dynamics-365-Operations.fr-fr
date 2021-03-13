@@ -1,6 +1,6 @@
 ---
 title: Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données
-description: Cette procédure fournit des informations sur la création d’une configuration de mise en correspondance des modèles d’états électroniques et l’utilisation des fonctions ER intégrées pour effectuer des calculs globaux efficaces.
+description: Cette rubrique décrit comment créer une configuration de mise en correspondance de modèles d’états électroniques et utiliser les fonctions ER intégrées pour effectuer des calculs globaux efficaces.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6a392697f6b91bc6555d0d72d09ecd7da32e1a3f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684113"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094263"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Utiliser des configurations de mise en correspondance de modèles pour les calculs globaux au niveau de la base de données
 
@@ -116,6 +116,3 @@ Cette procédure est créée pour les utilisateurs auxquels le rôle Administrat
 68. Cliquez sur Enregistrer.
     * Notez que « exécution » dans le champ indique que ce regroupement est exécuté au moment de l’exécution dans la mémoire même s’il n’existe pas de regroupement défini et que la source de données sélectionnée de type « Enregistrements de table » fait référence à la même table « Déclaration d’échanges de biens ». Cela est dû au fait que la source de données contient certains champs calculés qui ne peuvent pas encore être convertis au niveau de base de données SQL.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

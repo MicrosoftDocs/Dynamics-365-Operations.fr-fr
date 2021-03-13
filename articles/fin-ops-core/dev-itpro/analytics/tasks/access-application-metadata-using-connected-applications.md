@@ -1,6 +1,6 @@
 ---
 title: Accéder aux métadonnées d’application à l’aide des applications connectées
-description: Les étapes de cette rubrique expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques (ER) à l’aide des métadonnées de Finance and Operations.
+description: Les étapes de cette rubrique expliquent comment un utilisateur du service RCS (Regulatory Configuration Service) peut créer une mise en correspondance de modèle de génération d’états électroniques à l’aide des métadonnées.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 457d5760fb704b7a93ce16c081b7c5e6d0ff19c1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682139"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093328"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Accéder aux métadonnées d’application à l’aide des applications connectées
 
@@ -113,6 +113,3 @@ Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulato
 11. Fermez la page. 
 
 Lorsque vous devez évaluer cette mise en correspondance de modèle à l’aide de métadonnées d’une application d’une version différente, enregistrez une autre application connectée, affectez-la à cette mise en correspondance de modèle et validez-la par rapport aux nouvelles métadonnées.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Options de mise en forme avancées dans les états financiers
-description: Lorsque vous créez un état dans les états financiers, les fonctions de mise en forme supplémentaires sont disponibles, notamment des filtres pour des dimensions, des restrictions pour des colonnes et des unités organisationnelles, des lignes non imprimées, et des instructions IF/THEN/ELSE dans les calculs.
-author: ryansandness
+description: Cette rubrique décrit les fonctions de mise en forme avancées, notamment les filtres, les restrictions, les lignes non imprimables et les instructions conditionnelles dans les calculs.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683161"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093160"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
@@ -310,6 +310,3 @@ Une instruction **IF/THEN/ELSE** permet à n’importe quel calcul de dépendre 
 Vous pouvez concevoir des états à l’aide de valeurs de dimension contenant une esperluette (&).
 
 Dans tout champ **Lier aux dimensions financières**, vous pouvez entrer une valeur comme **’Compte&Résultat’**. L’insertion d’apostrophes (’ ’) de part et d’autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l’esperluette (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Type de destination pour l’impression d’états électroniques
-description: Cette rubrique explique comment configurer une imprimante pour chaque composant DOSSIER ou FICHIER d’un format de rapport électronique (ER) configuré pour générer des documents sortants aux formats PDF ou Microsoft Office (Excel\Word).
+description: Cette rubrique explique comment configurer une destination d’imprimante pour chaque composant DOSSIER ou FICHIER d’un format de gestion des états électroniques.
 author: NickSelin
 manager: AnnBe
 ms.date: 03/17/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679604"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094077"
 ---
-# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destination de l’imprimante
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destination d’imprimante
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,6 +70,3 @@ Pour utiliser une [orientation de la page](electronic-reporting-destinations.md#
 
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

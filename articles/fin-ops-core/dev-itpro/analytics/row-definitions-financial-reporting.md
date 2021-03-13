@@ -1,6 +1,6 @@
 ---
 title: Définitions de ligne dans le générateur d’états financiers
-description: Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier. Une définition de ligne peut être combinée avec les définitions de colonne, les définitions d’arborescence de génération d’état et les définitions d’état pour créer un groupe de blocs élémentaires pouvant être utilisé par plusieurs sociétés.
+description: Une définition de ligne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu de chaque ligne d’un état financier.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 274fa4bd137407c504f74335291e4c8e7999625b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688281"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093263"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Définitions de ligne dans le générateur d’états financiers
 
@@ -187,6 +187,3 @@ Pour faciliter l’affichage des colonnes sur lesquelles vous travaillez dans la
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

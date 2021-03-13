@@ -1,9 +1,9 @@
 ---
 title: Destinations pour la gestion des états électroniques
-description: Cette rubrique fournit des informations sur la gestion des destinations de rapport électronique (ER), les types de destinations pris en charge et les considérations de sécurité.
+description: Cette rubrique fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687156"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097279"
 ---
-# <a name="electronic-reporting-er-destinations"></a>Destinations de la gestion des états électroniques
+# <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,7 +62,7 @@ Dans la boîte de dialogue **État de déclaration d’échanges de biens**, dan
 Si vous définissez l’option **Traitement par lots** sur **Oui**, un format ER est exécuté en mode [Traitement par lots](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Le traitement par lots approprié est créé, en fonction des paramètres que vous spécifiez dans l’onglet **Exécuter à l’arrière-plan** de la boîte de dialogue **Paramètres ER**.
 
 > [!NOTE]
-> La description de travail est lancée pour vous informer de l’exécution d’une mise en correspondance des formats ER. Il contient également le nom du composant ER exécuté.
+> La description de travail vous informe de l’exécution d’une mise en correspondance des formats de gestion des états électroniques. Il contient également le nom du composant de gestion des états électroniques exécuté.
 
 [![Exécution d’un format ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ Dans certaines versions de Finance **avant la version 10.0.9**, vous pouvez cré
 Par exemple, vous pouvez utiliser cette fonctionnalité pour configurer des destinations de fichier pour un composant de fichier utilisé pour générer un document sortant au format Excel. Une destination ([Archiver](er-destination-type-archive.md)) peut être configurée pour stocker le fichier Excel d’origine dans l’archive des tâches ER et une autre destination ([Email](er-destination-type-email.md)) peut être configurée pour [convertir](#OutputConversionToPDF) le fichier Excel au format PDF et envoyer le fichier PDF par e-mail.
 
 [![Configuration de plusieurs destinations pour un seul élément de format](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+Lorsque vous exécutez un format de gestion des états électroniques, toutes les destinations qui ont été configurées pour les composants du format sont toujours exécutées. De plus, dans Finance **version 10.0.17 et ultérieure**, la fonctionnalité des destinations de gestion des états électroniques a été améliorée et vous permet désormais de configurer différents ensembles de destinations pour un seul format de gestion des états électroniques. Cette configuration marque chaque ensemble comme configuré pour une action utilisateur particulière. L’API de gestion des états électroniques a été [étendue](er-apis-app10-0-17.md) afin qu’une action puisse être exécutée par l’utilisateur en exécutant un format de gestion des états électroniques. Le code d’action fourni est transmis aux destinations pour la gestion des états électroniques. Vous pouvez exécuter différentes destinations d’un format de gestion des états électroniques, en fonction du code d’action fourni. Pour plus d’informations, consultez [Configurer les destinations de gestion des états électroniques dépendant de l’action](er-action-dependent-destinations.md).
 
 ## <a name="destination-types"></a>Types de destinations
 
@@ -154,7 +156,7 @@ Si vous décochez la case **Arrêter le traitement en cas d’échec** pour le c
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Conversion de sortie en PDF
 
-Vous pouvez utiliser l’option de conversion PDF pour convertir la sortie au format Microsoft Office (Excel/Word) au format PDF.
+Vous pouvez utiliser l’option de conversion PDF pour convertir la sortie au format Microsoft Office (Excel ou Word) au format PDF.
 
 ### <a name="make-pdf-conversion-available"></a>Rendre la conversion PDF disponible
 
@@ -164,21 +166,20 @@ Pour rendre l’option de conversion PDF disponible dans l’instance Finance ac
 
 ### <a name="applicability"></a>Conditions d’application
 
-L’option de conversion PDF ne peut être activée que pour les composants de fichier utilisés pour générer une sortie au format Microsoft Office Excel ou Word (**fichier Excel**). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF.
+L’option de conversion PDF ne peut être activée que pour les composants de fichier utilisés pour générer une sortie au format Office (Excel ou Word) (**fichier Excel**). Lorsque cette option est activée, la sortie générée au format Office est automatiquement convertie au format PDF.
 
 ### <a name="limitations"></a>Limites
 
 > [!NOTE]
 > Cette fonctionnalité est une fonctionnalité d’aperçu et est soumise aux conditions d’utilisation décrites dans les [Conditions d’utilisation supplémentaires pour Microsoft Dynamics 365 (préversion)](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> L’option de conversion PDF n’est disponible que pour les déploiements cloud.
->
-> Le PDF produit est limité à un nombre maximum de 300 pages.
->
-> Dans Microsoft Dynamics 365 Finance version 10.0.9 (avril 2020) À l’heure actuelle, seule l’orientation de page Paysage est prise en charge dans le document PDF produit à partir d’une sortie Excel. Avec la sortie de Dynamics 365 Finance version 10.0.10 (mai 2020), vous pouvez [spécifier l’orientation de la page](#SelectPdfPageOrientation) dans le document PDF généré à partir d’une sortie Excel pendant que vous configurez une destination ER.
->
-> Seules les polices système courantes du système d’exploitation Windows sont utilisées pour la conversion d’une sortie qui ne contient aucune police intégrée.
+L’option de conversion PDF n’est disponible que pour les déploiements cloud.
+
+Le document PDF produit est limité à une longueur maximum de 300 pages.
+
+Dans Finance, **version 10.0.9**, seule l’orientation de la page au format paysage est prise en charge dans le document PDF généré depuis une sortie Excel. Dans Finance, **version 10.0.10 (mai 2020) et ultérieure**, vous pouvez [spécifier l’orientation de la page](#SelectPdfPageOrientation) dans le document PDF généré à partir d’une sortie Excel pendant que vous configurez une destination pour la gestion des états électroniques.
+
+Seules les polices système courantes du système d’exploitation Windows sont utilisées pour la conversion d’une sortie qui ne contient aucune police intégrée.
 
 ### <a name="use-the-pdf-conversion-option"></a>Utilisez l’option de conversion PDF
 
@@ -188,16 +189,16 @@ Pour activer la conversion PDF pour une destination de fichier, cochez la case *
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Sélectionner une orientation de page pour la conversion PDF</a>
 
-Si vous générez une configuration des états électroniques au format Excel et si vous souhaitez la convertir au format PDF, vous pouvez spécifier l’orientation de page du PDF. Lorsque vous cochez la case **Convertir en PDF** pour activer la conversion PDF pour une destination de fichier qui produit un fichier de sortie au format Excel, le champ **Orientation de la page** devient disponible sur le raccourci **Paramètres de conversion PDF**. Dans le champ **Orientation de la page**, sélectionnez l’orientation préférée.
+Si vous générez une configuration des états électroniques au format Excel et si vous souhaitez la convertir au format PDF, vous pouvez spécifier l’orientation de page du document PDF. Lorsque vous cochez la case **Convertir en PDF** pour activer la conversion PDF pour une destination de fichier qui produit un fichier de sortie au format Excel, le champ **Orientation de la page** devient disponible sur le raccourci **Paramètres de conversion PDF**. Dans le champ **Orientation de la page**, sélectionnez l’orientation préférée.
 
 [![Sélection d’une orientation de page pour la conversion PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Pour avoir la possibilité de sélectionner l’orientation de la page PDF, vous devez installer Microsoft Dynamics 365 Finance version 10.0.10 (mai 2020) ou ultérieure.
+> Pour avoir la possibilité de sélectionner l’orientation de la page PDF, vous devez installer Finance version 10.0.10 ou ultérieure.
 >
 > L’orientation de la page sélectionnée est appliquée à toutes les configurations des états électroniques générées au format Excel, puis converties au format PDF.
 >
-> Si un PDF converti est créé à partir d’une configuration des états électroniques au format Word, l’orientation de page du PDF provient du document Word.
+> Si une configuration des états électroniques au format Word est convertie au format PDF, l’orientation de page du document PDF provient du document Word.
 
 ## <a name="security-considerations"></a>Considérations de sécurité
 
@@ -225,7 +226,7 @@ N° Le stockage Blob Microsoft Azure par défaut défini et utilisé pour le sy
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Quel est l’objectif de la destination de fichier dans les paramètres de destination ? Que fait ce paramètre ?
 
-La destination **Fichier** est utilisée pour contrôler une boîte de dialogue. Si vous activez cette destination, ou si aucune destination n’est définie pour une configuration, une boîte de dialogue Ouvrir ou Enregistrer s’affiche après la création d’un fichier de sortie.
+La destination **Fichier** est utilisée pour contrôler une boîte de dialogue de votre navigateur Web lorsque vous exécutez un format de gestion des états électroniques en mode interactif. Si vous activez cette destination, ou si aucune destination n’est définie pour une configuration, une boîte de dialogue Ouvrir ou Enregistrer s’affiche dans votre navigateur Web après la création d’un fichier de sortie.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Pouvez-vous donner un exemple de la formule qui fait référence à un compte fournisseur à laquelle je peux envoyer des courriers électroniques ?
 
@@ -237,7 +238,6 @@ Votre format doit tout d’abord être disponible dans les configurations d’é
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
+[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Configurer les destinations pour la gestion des états électroniques dépendant de l’action](er-action-dependent-destinations.md)

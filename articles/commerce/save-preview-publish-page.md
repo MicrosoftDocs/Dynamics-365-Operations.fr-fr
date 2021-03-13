@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5eccf5409c41710585e3d69c7270faa4621f7715
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4412360"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097201"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Enregistrer, afficher un aperçu et publier une page
 
@@ -97,9 +96,8 @@ Pour publier une URL, procédez comme suit.
 
 [Enrichir une page de produit](enrich-product-page.md)
 
-[Enrichir une page d'arrivée de catégorie](enrich-category-page.md)
+[Enrichir une page d’arrivée de catégorie](enrich-category-page.md)
 
-[Vérifier l'accessibilité du contenu de la page](verify-accessibility.md)
+[Vérifier l’accessibilité du contenu de la page](verify-accessibility.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Créer des pages e-commerce dynamiques basées sur des paramètres d'URL](create-dynamic-pages.md)

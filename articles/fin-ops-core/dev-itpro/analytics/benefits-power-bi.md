@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Avantages
-description: Cette rubrique décrit le contenu Power BI Avantages. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+description: Cette rubrique décrit le contenu Power BI Avantages.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687253"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093079"
 ---
 # <a name="benefits-power-bi-content"></a>Contenu Power BI Avantages
 
@@ -69,6 +69,3 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l’employé            | Prénom, nom et nom complet                                                                       | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Titre de l’employé           | Titre et date d’ancienneté                                                                                   | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Tendance de l’employé           | Collaborateurs dans le temps, effectif, société et poste                                                        | Société, Rémunération, Emplacement géographique, Nom de l’employé, Génère un état pour, Décalage de calendrier, Date, Titre de l’employé, Démographie, Emploi, Tâche, Avantages |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
 title: Capacités de grille
-description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. La nouvelle fonction de grille doit être activée pour avoir accès à ces capacités.
+description: Cette rubrique décrit plusieurs fonctionnalités puissantes du contrôle de grille. Vous devez activer la nouvelle fonction de grille pour avoir accès à ces capacités.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693772"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104307"
 ---
 # <a name="grid-capabilities"></a>Capacités de grille
 
@@ -33,10 +33,10 @@ Le nouveau contrôle de grille fournit un certain nombre de fonctionnalités uti
 -  Saisie avant le système
 -  Évaluation des expressions mathématiques 
 -  Regroupement des données tabulaires (activé séparément à l’aide de la fonctionnalité **(Version préliminaire) Regroupement en grilles**)
--  Colonnes système épinglées
+-  Figer les colonnes
 
 ## <a name="calculating-totals"></a>Calcul des totaux
-Dans les applications Finance and Operations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Ces totaux sont indiqués dans une section de pied de page au bas de la grille. 
+Dans les applications Finance and Operations, les utilisateurs ont la possibilité de voir les totaux au bas des colonnes numériques dans les grilles. Une section de pied de page au bas de la grille affiche ces totaux. 
 
 ### <a name="showing-the-grid-footer"></a>Affichage du pied de page de la grille
 Une zone de pied de page se trouve au bas de chaque grille tabulaire dans les applications Finance and Operations. Le pied de page peut afficher des informations utiles relatives aux données qui s’affichent dans la grille. Voici quelques exemples de ces informations :
@@ -45,10 +45,10 @@ Une zone de pied de page se trouve au bas de chaque grille tabulaire dans les ap
 - Les totaux généraux au bas des colonnes numériques configurées
 - Le nombre de lignes dans le dataset 
 
-Ce pied de page est masqué par défaut, mais peut être facilement activé. Pour afficher le pied de page d’une grille, cliquez avec le bouton droit sur un en-tête de colonne dans la grille et sélectionnez l’option **Afficher le pied de page**. Une fois le pied de page activé pour une grille particulière, ce paramètre sera conservé jusqu’à ce que l’utilisateur choisisse de masquer le pied de page, ce qui peut être fait en cliquant avec le bouton droit sur un en-tête de colonne et en sélectionnant **Masquer le pied de page**.  Notez que l’emplacement de l’action **Afficher le pied de page / Masquer le pied de page** sera déplacé dans une future mise à jour. 
+Ce pied de page est masqué par défaut, mais peut être facilement activé. Pour afficher le pied de page d’une grille, cliquez avec le bouton droit sur un en-tête de colonne dans la grille et sélectionnez l’option **Afficher le pied de page**. Une fois que vous avez activé le pied de page pour une grille particulière, ce paramètre sera mémorisé jusqu’à ce que l’utilisateur choisisse de masquer le pied de page. Pour masquer le pied de page, cliquez avec le bouton droit sur un en-tête de colonne et sélectionnez **Masquer le pied de page**.  (L’emplacement de l’action **Afficher le pied de page/Masquer le pied de page** sera déplacé dans une future mise à jour. 
 
 ### <a name="specifying-columns-with-totals"></a>Spécification de colonnes avec des totaux
-Actuellement, aucune colonne ne sera configurée pour afficher les totaux par défaut. Cela est considéré comme une activité de configuration à part, similaire à l’ajustement de la largeur des colonnes dans les grilles. Une fois que vous avez spécifié que vous souhaitez voir les totaux d’une colonne, ce paramètre sera mémorisé lors de votre prochaine visite sur la page.  
+Actuellement, aucune colonne n’affiche les totaux par défaut. Cela est considéré comme une activité de configuration à part, similaire à l’ajustement de la largeur des colonnes dans les grilles. Une fois que vous avez spécifié que vous souhaitez voir les totaux d’une colonne, ce paramètre sera mémorisé lors de votre prochaine visite sur la page.  
 
 Il existe deux façons de configurer une colonne pour afficher un total : 
 
@@ -122,8 +122,14 @@ De la même manière que vous pouvez sélectionner (ou désélectionner) toutes 
 ### <a name="hiding-column-names"></a>Masquer les noms de colonnes
 Lors du regroupement de données, le comportement par défaut consiste à afficher le nom de la colonne dans la ligne d’en-tête de groupe. À compter de la version 10.0.14/Platform update 38, vous pouvez choisir de supprimer le nom de colonne dans les lignes d’en-tête de groupe en sélectionnant **Options de grille** > **Masquer le nom de la colonne du groupe**.
 
-## <a name="pinned-system-columns"></a>Colonnes système épinglées
-La colonne de sélection de ligne et la colonne de statut de ligne dans la nouvelle grille sont épinglées ou figées dans la partie la plus à gauche de la grille. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour l’utilisateur, quelle que soit la position de défilement horizontal dans la grille.   
+## <a name="freezing-columns"></a>Figer les colonnes
+Certaines colonnes d’une grille peuvent être suffisamment importantes en termes de contexte que vous ne souhaitez pas qu’elles défilent hors de la vue. Au lieu de cela, vous voulez que les valeurs de ces colonnes soient toujours visibles. Dans la version 10.0.17, la fonctionnalité **Figer les colonnes dans la grille** offre cette flexibilité aux utilisateurs. 
+
+Pour figer une colonne, cliquez avec le bouton droit sur l’en-tête de la colonne, puis sélectionnez **Figer la colonne**. La première fois que vous effectuez cette étape, la colonne sélectionnée devient la première colonne et ne défilera plus hors du champ visuel. Toute colonne suivante que vous figez sera ajoutée à droite de la dernière colonne figée. Vous pouvez utiliser la fonctionnalité Déplacer standard pour réorganiser les colonnes figées selon vos besoins. Cependant, les colonnes figées ne peuvent pas être déplacées de sorte qu’elles apparaissent dans l’ensemble des colonnes non figées. De même, les colonnes non figées ne peuvent pas être déplacées de sorte qu’elles apparaissent dans l’ensemble des colonnes figées.
+
+Pour libérer une colonne, cliquez avec le bouton droit sur l’en-tête de la colonne figée, puis sélectionnez **Libérer la colonne**. 
+
+Notez que les colonnes de sélection de ligne et d’état de ligne dans la nouvelle grille sont toujours figées comme les deux premières colonnes. Par conséquent, lorsque ces colonnes sont incluses dans une grille, elles seront toujours visibles pour les utilisateurs, quelle que soit la position de défilement horizontal dans la grille. Ces deux colonnes ne peuvent pas être réorganisées.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Comment activer le nouveau contrôle de grille dans mon environnement ? 
@@ -159,7 +165,7 @@ Cette API sera disponible jusqu’à la version d’octobre 2021, lorsque le nou
 Si un développeur définit la propriété **WidthMode** sur **Ajuster à disponible** pour les colonnes à l’intérieur de la nouvelle grille, ces colonnes ont initialement la même largeur qu’elles auraient si la propriété était définie sur **Ajuster à disponible**. Cependant, elles s’étirent pour utiliser toute largeur supplémentaire disponible à l’intérieur de la grille. Si la propriété est définie sur **Ajuster à disponible** pour plusieurs colonnes, toutes ces colonnes partagent la largeur supplémentaire disponible à l’intérieur de la grille. Cependant, si un utilisateur redimensionne manuellement l’une de ces colonnes, la colonne devient statique. Elle restera à cette largeur et ne s’étirera plus pour prendre la largeur de grille supplémentaire disponible.  
 
 ## <a name="known-issues"></a>Problèmes connus
-Cette section contient une liste des problèmes connus concernant le nouveau contrôle de grille lorsque la fonctionnalité est dans un état d’aperçu.  
+Cette section maintient une liste des problèmes connus pour le nouveau contrôle de grille.  
 
 ### <a name="open-issues"></a>Questions ouvertes
 -  Après avoir activé la fonctionnalité **Nouveau contrôle de grille**, certaines pages vont continuer à utiliser le contrôle de grille existant. Cela se produit dans les scénarios suivants :  
@@ -170,20 +176,44 @@ Cette section contient une liste des problèmes connus concernant le nouveau con
     Lorsqu’un utilisateur rencontre pour la première fois l’un de ces scénarios, un message concernant l’actualisation de la page s’affiche. Une fois ce message affiché, la page va continuer à utiliser la grille existante pour tous les utilisateurs jusqu’à la prochaine mise à jour de la version du produit. Une meilleure gestion de ces scénarios, afin de pouvoir utiliser la nouvelle grille, est envisagée pour une future mise à jour.    
     
 -  [KB 4582758] Les enregistrements sont flous lorsque vous changez le zoom de 100 à tout autre pourcentage
-    
+-  [KB 4592012] Erreur client inattendue dans IE11 lors du collage de plusieurs lignes à partir d’Excel
+    -  Microsoft ne cherche pas à résoudre ce problème
+
+### <a name="fixed-as-part-of-10016"></a>Corrigé dans le cadre de la version 10.0.16
+
+-  [KB 4598335] Les contrôles de chaîne multiligne ne respectent pas leurs DisplayHeights dans les listes/cartes 
+-  [KB 4591891] Les lignes de proposition de facture disparaissent lors de la suppression des lignes
+-  [KB 4592104] Impossible de modifier les enregistrements après avoir cliqué sur « Résoudre le problème » et être passé à une autre ligne sans résoudre le problème de validation
+-  [KB 4594449] Boutons « Jamais » et « Effacer » manquants dans le sélecteur de date 
+-  [KB 4594448] La saisie de l’heure est traitée différemment avec la nouvelle grille
+-  [KB 4600059] Erreur client inattendue avec limitation de requêtes par e-mail
+-  [KB 4574584] L’aperçu des pièces jointes des dépenses n’est pas disponible lorsque vous passez la souris sur l’icône du reçu
+
 ### <a name="fixed-as-part-of-10015"></a>Corrigé dans le cadre de la version 10.0.15    
 
+-  (Mise à jour de la qualité) [KB 4594444] Erreur client inattendue avec aperçu pour le contrôle des entrées segmentées
 -  [KB 4582723] Les options d’affichage ne s’affichent pas lorsqu’elles sont effectuées plus tard dans le cycle de vie du formulaire
+-  [KB 4591988] Problèmes d’utilisation du clavier pour sélectionner une valeur dans une recherche ReferenceGroup
+-  [KB 4588958] Regression Suite Automation Tool Le test (RSAT) échoue avec l’erreur : TypeError : Impossible de lire la propriété ’text’ non définie
+-  [KB 4591970] Erreur client inattendue lors du collage depuis Excel immédiatement après avoir cliqué dans la grille
+-  [KB 4591904] Les modifications de données ne sont pas enregistrées si, après la modification d’un contrôle, l’utilisateur a immédiatement cliqué et ouvert la recherche d’un contrôle différent
+-  [KB 4584752] Erreur client inattendue avec la page de propositions de facture de projet
+-  [KB 4584540] Impossible de quitter la grille après avoir collé une seule ligne dans une ligne de journal
+-  [KB 4591908] Lors de la création d’une nouvelle ligne, la mise au point reste dans la colonne dans laquelle vous étiez
 
 ### <a name="fixed-as-part-of-10014"></a>Corrigé dans le cadre de la version 10.0.14
 
 -  (Mise à jour de la qualité) [KB 4584752] Erreur client inattendue avec la page de propositions de facture de projet
+-  [KB 4583880] Regression Suite Automation Tool (RSAT) échoue sur l’action OpenLookup avec « Impossible de lire la propriété RowIndex non définie »
+-  [KB 4583847] Erreur client inattendue lors de la navigation dans les recherches
 
 ### <a name="fixed-as-part-of-10013"></a>Corrigé dans le cadre de la version 10.0.13
 
+-  (Mise à jour de la qualité) [KB 4584752] Erreur client inattendue avec la page de propositions de facture de projet
 -  (Mise à jour de qualité) [KB 4583880] Regression Suite Automation Tool (RSAT) échoue sur l’action OpenLookup avec "Impossible de lire la propriété RowIndex non définie"
 -  (Mise à jour de qualité) [KB 4583847] Erreur client inattendue lors de la navigation dans les recherches 
 -  (Mise à jour de qualité) [Bogue 471777] Impossible de sélectionner des champs dans une grille pour modifier ou créer une application mobile
+-  [KB 4582727] La grille se fige une fois que l’utilisateur obtient une boîte de dialogue pour les éléments avec plusieurs quantités
 -  [Bogue 474851] Les liens hypertexte dans les contrôles du groupe de référence ne fonctionnent pas 
 -  [Bogue 474848] Les aperçus améliorés avec des grilles ne s’affichent pas
 -  [KB 4582726] La propriété RotateSign n’est pas respectée  
@@ -263,6 +293,3 @@ Cette section contient une liste des problèmes connus concernant le nouveau con
 ### <a name="quality-update-for-1009platform-update-33"></a>Mise à jour de la qualité pour la version 10.0.9/Platform Update 33
 
 - [KB 4550367] Les valeurs d’heure ne sont pas mises en forme correctement.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

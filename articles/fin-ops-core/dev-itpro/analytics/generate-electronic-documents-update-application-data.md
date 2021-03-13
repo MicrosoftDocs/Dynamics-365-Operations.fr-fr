@@ -1,6 +1,6 @@
 ---
 title: Générer des documents électroniques et mettre à jour des données de l’application à l’aide de la gestion des états électroniques (ER)
-description: Vous pouvez concevoir des formats d’états électroniques (ER) qui peuvent être utilisés dans l’application pour générer des documents électroniques sortants. Vous pouvez également concevoir les formats ER qui analysent les documents électroniques entrants et utilisent le contenu de ces documents pour mettre à jour des données d’application.
+description: Vous pouvez concevoir des formats d’états électroniques (ER) qui peuvent être utilisés dans l’application pour générer des documents électroniques sortants.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688385"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093871"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Générer des documents électroniques et mettre à jour des données de l’application à l’aide de la gestion des états électroniques (ER)
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Générer des documents électroniques et mettre à jour les données d’application à l’aide des états électroniques
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ Pour en savoir plus sur cette fonction, consultez l’ensemble ER Générer des 
 - [Configuration du modèle de données ER : Déclaration d’échanges de biens (modèle)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du mappage de modèle ER : Déclaration d’échanges de biens (mappage)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du format ER : Déclaration d’échanges de biens (format)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

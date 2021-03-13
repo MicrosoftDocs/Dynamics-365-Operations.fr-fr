@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Rémunération
-description: Cette rubrique décrit le contenu Power BI Rémunération. Elle explique également comment accéder aux états, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+description: Cette rubrique décrit le contenu Power BI Rémunération. Elle explique comment accéder aux rapports et fournit des informations sur le modèle de données utilisé.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64b4f27b4a1fa3762169a18746c6b0933bddf3ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687179"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093054"
 ---
 # <a name="compensation-power-bi-content"></a>Contenu Power BI Rémunération
 
@@ -71,6 +71,3 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l’employé            | Prénom, nom et nom complet                                                                       | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Titre de l’employé           | Titre et date d’ancienneté                                                                                   | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Tendance de l’employé           | Collaborateurs dans le temps, effectif, société et poste                                                        | Société, Rémunération, Emplacement géographique, Nom de l’employé, Génère un état pour, Décalage de calendrier, Date, Titre de l’employé, Démographie, Emploi, Tâche, Avantages |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

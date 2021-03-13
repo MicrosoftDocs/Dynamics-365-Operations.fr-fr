@@ -1,6 +1,6 @@
 ---
 title: Définitions de colonne dans les états financiers
-description: Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, ou un bloc élémentaire, qui spécifie le contenu des colonnes d’un état. Comme les définitions de ligne, des définitions de colonne de base peuvent être utilisées dans plusieurs états.
+description: Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, qui spécifie le contenu des colonnes d’un état.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687228"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093107"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -226,7 +226,7 @@ Un utilisateur crée un état pour une prévision dynamique de six mois. Il veut
 | Largeur de colonne        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Contrôle d’impression       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-L’utilisateur double-clique sur une cellule d’en-tête de colonne pour ouvrir la boîte de dialogue **En-tête de colonne** et entre les informations suivantes.
+L’utilisateur double-clique ensuite sur une cellule d’en-tête de la colonne B pour ouvrir la boîte de dialogue **En-tête de colonne** et entre les informations suivantes.
 
 | Champ              | Valeur                  |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ L’utilisateur double-clique sur une cellule d’en-tête de colonne pour ouvri
 | Justification      | Aucune sélection n’est effectuée. |
 | Étendre à partir de        | o                     |
 | Étendre jusqu’à          | BASE                  |
-| En-tête de budget      | BASE+1 jusqu’à la colonne de fin  |
 
 Après avoir saisi les informations, l’utilisateur clique sur **OK**. L’utilisateur double-clique ensuite sur la cellule d’en-tête de la colonne C pour ouvrir la boîte de dialogue **En-tête de colonne** et entre les informations suivantes.
 
@@ -246,8 +245,8 @@ Après avoir saisi les informations, l’utilisateur clique sur **OK**. L’util
 | Insertion texte auto    | Aucune sélection n’est effectuée. |
 | Options de mise en forme     | Zone                   |
 | Justification      | Aucune sélection n’est effectuée. |
-| Étendre à partir de        | C                     |
-| Étendre jusqu’à          | BASE+2                |
+| Étendre à partir de        | BASE+1                |
+| Étendre jusqu’à          | F                     |
 
 À présent, à chaque fois que cet état est généré, le mot « Réel » est imprimé sur les colonnes contenant des données réelles, et le mot « Budget » est imprimé sur les colonnes qui contiennent les prévisions du budget. En outre, le nombre de colonnes sera ajusté chaque mois.
 
@@ -599,6 +598,3 @@ Vous pouvez diviser le montant dans une colonne par un nombre de périodes spéc
 [Définitions de ligne dans le générateur d’états financiers](row-definitions-financial-reporting.md)
 
 [Options de mise en forme avancées dans les états financiers](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

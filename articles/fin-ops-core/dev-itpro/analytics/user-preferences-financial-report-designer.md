@@ -1,6 +1,6 @@
 ---
 title: Préférences de l’utilisateur dans le générateur d’états financiers
-description: Cet article explique comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d’états financiers et de contrôler l’expérience de connexion initiale. Vous pouvez également contrôler comment les états individuels, la bibliothèque d’états et les emplacements de fichiers par défaut sont affichés.
+description: Cette rubrique décrit comment définir les préférences de l’utilisateur pour personnaliser vos interactions utilisateur dans le générateur d’états financiers et contrôler l’expérience de connexion initiale.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687375"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093185"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>Préférences de l’utilisateur dans le générateur d’états financiers
 
@@ -72,6 +72,3 @@ Cet article explique comment définir les préférences de l’utilisateur pour 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

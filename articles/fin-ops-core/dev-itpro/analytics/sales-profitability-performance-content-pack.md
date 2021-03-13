@@ -1,6 +1,6 @@
 ---
 title: Contenu Power BI Performances de rentabilité et de ventes
-description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI des performances de rentabilité et de vente. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI des performances de rentabilité et de vente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688233"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093561"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenu Power BI Performances de rentabilité et de ventes
 
@@ -107,6 +107,3 @@ Les dimensions clés suivantes du cube de vente sont utilisées comme filtres po
 | dates ;            | dates ;                                                |
 
 Par défaut, le contenu affiche les données pour l’année civile en cours. Toutefois, vous pouvez modifier le filtre date dans la section de filtres d’état. Vous pouvez également modifier le filtre par société.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

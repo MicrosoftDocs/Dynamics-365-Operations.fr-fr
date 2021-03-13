@@ -1,7 +1,7 @@
 ---
 title: Contenu Power BI Comparatif Réel/Budget
-description: Cette rubrique décrit le contenu Power BI Comparatif Réel/Budget. Elle explique également comment accéder aux états inclus dans le contenu, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
-author: ryansandness
+description: Cette rubrique décrit le contenu Power BI Comparatif Réel/Budget. Elle explique comment accéder aux rapports et fournit des informations sur le modèle de données.
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685271"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093846"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenu Power BI Comparatif Réel/Budget
 
@@ -57,6 +57,3 @@ Le tableau suivant fournit des détails sur les mesures disponibles sur chaque p
 | Comptabilités                   | Comptabilité permettant de filtrer l’état dans la comptabilité actuelle              |
 | Codes budgétaires              | Codes budgétaires selon lesquels filtrer les états                                                |
 | Entités juridiques            | Les entités juridiques permettant de filtrer l’état dans l’entité juridique actuelle |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

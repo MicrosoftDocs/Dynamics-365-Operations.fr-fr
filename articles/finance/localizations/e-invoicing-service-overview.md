@@ -3,7 +3,7 @@ title: Présentation du module complémentaire de facturation électronique
 description: Cette rubrique donne des informations sur le module complémentaire de facturation électronique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4443348"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104206"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Présentation du module complémentaire de facturation électronique
 
@@ -45,9 +44,9 @@ Le module complémentaire de facturation électronique peut vous aider à attein
 
 Pour utiliser le module complémentaire de facturation électronique, vous devez l’installer à partir de votre projet dans Microsoft Dynamics Lifecycle Services (LCS). Ensuite, suivez la procédure de configuration pour activer l’intégration avec Finance ou Supply Chain Management. Pour plus d’informations, voir [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Disponibilité
+## <a name="service-availability"></a><a name="availability"></a>Disponibilité du service
 
-Initialement, le module complémentaire de facturation électronique est disponible pour certains clients via un programme en version préliminaire. Par la suite, la version préliminaire sera ouverte à un plus large éventail de clients. Enfin, le service sera mis à la disposition générale. Étant donné que les fonctionnalités qui répondent aux exigences spécifiques au pays/à la région peuvent être limitées à différentes phases de la version, vous devez toujours consulter la documentation la plus récente qui met en évidence la couverture et l’étendue des solutions spécifiques au pays/à la région prises en charge.
+Actuellement, le module complémentaire de facturation électronique est disponible pour les clients via le programme en version préliminaire, et dans la phase suivante, le service sera disponible partout. Étant donné que les fonctionnalités qui répondent aux exigences spécifiques au pays/à la région peuvent être limitées à différentes phases de la version, vous devez toujours consulter la documentation la plus récente qui met en évidence la couverture et l’étendue des solutions spécifiques au pays/à la région prises en charge.
 
 Le module complémentaire de facturation électronique est déployé dans les zones géographiques Azure suivantes :
 
@@ -76,7 +75,7 @@ Le module complémentaire de facturation électronique peut être utilisé dans 
     - Intégration intégrée, facilement extensible et configurable avec du contenu supplémentaire pour plusieurs pays
 
     > [!NOTE]
-    > Actuellement, un nombre limité d’envois directs est pris en charge. Pour plus d’informations, voir la section [Disponibilité](#availability) plus haut dans cette rubrique. La prise en charge sera étendue à l’avenir.
+    > Actuellement, un nombre limité d’envois directs est pris en charge. Pour plus d’informations, voir la section [Disponibilité du service](#availability) plus haut dans cette rubrique. La prise en charge sera étendue à l’avenir.
 
 - Gestion des réponses des services web, y compris la gestion configurable des messages d’exception
 - Prise en charge des signatures électroniques (par exemple, en utilisant l’algorithme de signature XMLDSig)
@@ -104,15 +103,9 @@ L’illustration suivante montre comment les données sont envoyées vers et dep
 ![Flux de données pour le module complémentaire de facturation électronique](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
-L’activation et l’utilisation de la facturation électronique peuvent nécessiter l’envoi de données limitées, notamment l’ID d’enregistrement fiscal de l’organisation. Ces données seront transmises à des organismes tiers autorisés par les administrations fiscales aux fins d’envoi de factures électroniques dans les formats prédéfinis requis pour l’intégration avec les services web de ces gouvernements. Les données importées depuis ces systèmes externes vers ce service en ligne Dynamics 365 sont soumises à notre [déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=512132). Pour plus d’informations, consultez les sections Déclaration de confidentialité dans la documentation de la fonctionnalité spécifique au pays.
+L’activation et l’utilisation du module complémentaire de facturation électronique peuvent nécessiter l’envoi de données limitées, notamment l’ID d’enregistrement fiscal de l’organisation. Ces données seront transmises à des organismes tiers autorisés par les administrations fiscales aux fins d’envoi de factures électroniques dans les formats prédéfinis requis pour l’intégration avec les services web de ces gouvernements. Les données importées depuis ces systèmes externes vers ce service en ligne Dynamics 365 sont soumises à notre [déclaration de confidentialité](https://go.microsoft.com/fwlink/?LinkId=512132). Pour plus d’informations, consultez les sections Déclaration de confidentialité dans la documentation de la fonctionnalité spécifique au pays.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-
-- [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md)
-- [Démarrage du module complémentaire de facturation électronique pour le Brésil](e-invoicing-bra-get-started.md)
-- [Démarrage du module complémentaire de facturation électronique pour le Mexique](e-invoicing-mex-get-started.md)
-- [Démarrage du module complémentaire de facturation électronique pour l’Italie](e-invoicing-ita-get-started.md)
-- [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Administration du service](e-invoicing-service-administration.md)
+- [Configurer des factures électroniques dans RCS](e-invoicing-configuration-rcs.md)
+- [Émettre des factures électroniques dans Finance et Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

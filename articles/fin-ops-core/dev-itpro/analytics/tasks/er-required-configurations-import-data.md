@@ -1,6 +1,6 @@
 ---
 title: ER Créer des configurations pour importer des données d’un fichier externe
-description: Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut concevoir des configurations de format pour la génération d’états électroniques (ER) pour importer des données dans une application Microsoft Dynamics 365 Finance à partir d’un fichier externe.
+description: Cette rubrique décrit comment créer des configurations d’états électroniques pour importer des données dans l’application Microsoft Dynamics 365 Finance, à partir d’un fichier externe.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0492fae6cfad505fc9fee5cd20f483c9c6d2a061
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684280"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093721"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Créer des configurations pour importer des données d’un fichier externe
 
@@ -254,6 +254,3 @@ Exécutez cette mise en correspondance de formats à des fins de test. Utilisez 
 27. Fermez la page.
 28. Fermez la page.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Générer des états dans des formats Office avec des images intégrées
-description: Les étapes suivantes expliquent comment un utilisateur jouant le rôle de « Administrateur système » ou de « Développeur d’états électroniques » peut créer des configurations d’états électroniques (ER) pour générer des documents électroniques au format MS Office (Excel et Word) contenant des images intégrées.
+description: Cette rubrique décrit comment créer des configurations pour la gestion des états électroniques pour générer des documents électroniques dans Excel et Word contenant des images intégrées.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684377"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093821"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Générer des états dans des formats Office avec des images intégrées
 
@@ -119,6 +119,3 @@ Dans cet exemple, vous utiliserez les configurations ER créées pour la sociét
 23. Cliquez sur OK.
     * Examinez la sortie créée. La sortie a été générée en tant que document Word avec des images intégrées présentant le logo de la société, la signature d’une personne autorisée et le texte sélectionné du filigrane.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

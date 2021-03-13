@@ -1,6 +1,6 @@
 ---
 title: ER Mapper le modèle de données aux sources de données sélectionnées
-description: Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle Administrateur système ou Développeur d’états électroniques peut mapper un modèle de données de génération d’états électronique (ER) vers des sources de données Microsoft Dynamics 365 Finance sélectionnées.
+description: Cette rubrique décrit comment mapper un modèle de données pour la gestion des états électroniques à une sélection de sources de données Microsoft Dynamics 365 Finance.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3e2ba94c9ec3ecc33f0c697d9f18f763749e4ba1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684305"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093746"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapper le modèle de données aux sources de données sélectionnées
 
@@ -146,6 +146,3 @@ Les étapes suivantes expliquent comment un utilisateur bénéficiant du rôle A
 5. Sélectionnez la version terminée de la configuration actuelle.
     * Notez que la configuration créée est enregistrée comme version 1 terminée.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

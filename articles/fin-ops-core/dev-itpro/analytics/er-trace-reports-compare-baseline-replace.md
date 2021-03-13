@@ -1,6 +1,6 @@
 ---
 title: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de référence
-description: Cette rubrique fournit des informations sur l’utilisation de la fonction de référence ER, améliorée dans la version Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juin 2019).
+description: Cette rubrique décrit les améliorations apportées à la fonctionnalité de référence pour la gestion des états électroniques dans Microsoft Dynamics 365 for Finance and Operations version 10.0.3 (juin 2019).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682845"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094002"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de référence
 
@@ -59,7 +59,7 @@ Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les é
 
 La référence a été ajoutée pour le format **Format pour l’apprentissage des références ER** sélectionné, mais les règles de la référence n’ont pas encore été ajoutées à celle-ci.
 
-![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline2.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
+![Page Références de base du format de gestion des états électroniques, aucune règle configurée](media/GER-BaselineSample-AddBaseline2.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
 
 ### <a name="make-a-new-baseline-rule"></a>Établir une nouvelle règle de référence
 
@@ -72,7 +72,7 @@ La référence a été ajoutée pour le format **Format pour l’apprentissage d
 7. Cliquez sur **OK**.
 8. Sélectionnez **Références**.
 
-    ![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
+    ![Références de base de la gestion des états électroniques, références de base sélectionnées](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
 
     Le fichier de sortie généré a été associé automatiquement à la référence du format ER exécuté. La règle de référence a été ajoutée automatiquement à cette référence. Elle contient également la référence au fichier joint.
 
@@ -130,7 +130,7 @@ Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les é
 3. Dans la liste des références, sélectionnez celle qui a été configurée pour le format **Format pour l’apprentissage des références ER**.
 4. Dans l’organisateur **Références**, sélectionnez **Supprimer** pour supprimer la règle de référence que vous avez définie précédemment.
 
-![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline3.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
+![Page Références de base du format de gestion des états électroniques, supprimée](media/GER-BaselineSample-AddBaseline3.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Définir les substitutions de liaisons du format ER défini
 
@@ -138,7 +138,7 @@ Pour accomplir les étapes de cet exemple, vous devez d’abord réaliser les é
 2. Dans l’arborescence des composants de format, développez **Résultat**, développez **Résultat\\Document**, puis activez la case à cocher pour **Résultat\\Document\\ProcessingDateTime**.
 3. Cliquez sur **OK**.
 
-![Page Références de base du format de gestion des états électroniques](media/GER-BaselineSample-AddBaseline4.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
+![Page Références de base du format de gestion des états électroniques, composants](media/GER-BaselineSample-AddBaseline4.PNG "Capture d’écran de la page Références de base de la gestion des états électroniques")
 
 Le composant du format ER sélectionné a été ajouté à la liste des composants dans l’organisateur **Remplacements**. Lorsque le format ER de référence est exécuté en mode de débogage, la liaison du format pour chaque composant est remplacée par la liaison affichée dans la colonne **Liaison**. Pour modifier la liaison par défaut pour un composant répertorié dans l’organisateur **Remplacements**, sélectionnez **Éditer**.
 
@@ -207,6 +207,3 @@ Pour importer des paramètres de référence à partir d’un fichier XML stock�
 
 - [Suivre les résultats de rapport généré et les comparer avec des valeurs de base](er-trace-reports-compare-baseline.md)
 - [Ressources de l’enregistreur de tâches](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
