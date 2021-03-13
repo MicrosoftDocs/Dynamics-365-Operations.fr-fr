@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4427780"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022028"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installer des actifs à des postes techniques
 
@@ -83,6 +82,3 @@ Une fois les données de paramétrage disponibles, vous êtes prêt à créer un
 1. Sur la page **Tous les postes techniques**, assurez-vous que le poste technique auquel vous souhaitez que l'actif soit créé automatiquement utilise le type de poste technique créé à cet effet.
 2. Sélectionnez le poste technique dans la liste.
 3. Sélectionnez **Mettre à jour l'état du poste technique**, puis sélectionnez l'état du cycle de vie créé à cet effet. Un actif est désormais automatiquement installé au poste technique. Cet actif porte le même nom que celui du poste technique.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
