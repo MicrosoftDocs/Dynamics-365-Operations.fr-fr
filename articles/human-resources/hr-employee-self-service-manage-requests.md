@@ -2,7 +2,7 @@
 title: Gérer les demandes de congé et d'absence
 description: Affichez et approuvez les demandes de congé et d'absence dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 365d933a2d33b7e1929f9f68e02050b624e30839
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a47065a28f116cde5ce2983acada2f735f8c5edf
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418574"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115292"
 ---
-# <a name="manage-leave-and-absence-requests"></a>Gérer les demandes de congé et d'absence
+# <a name="manage-leave-and-absence-requests"></a>Gérer les demandes de congé et d’absence
 
-Les gestionnaires peuvent gérer les demandes de congés dans l'espace de travail **Libre-service employé** dans Dynamics 365 Human Resources. Les demandes peuvent être des demandes simples d'un jour ou des demandes de plusieurs jours qui comprennent plusieurs types de congés et d'absences. Si un workflow n'est pas activé, les demandes sont automatiquement approuvées. Si un workflow est activé, l'approbation peut être automatique, ou elle peut exiger une approbation, en fonction de la configuration du workflow.
+Gérer les demandes de congés dans l'espace de travail **Libre-service employé** dans Dynamics 365 Human Resources. Les demandes peuvent être des demandes simples d'un jour ou des demandes de plusieurs jours qui comprennent plusieurs types de congés et d'absences. Si un workflow n'est pas activé, les demandes sont automatiquement approuvées. Quand un workflow est activé, l'approbation peut être automatique ou elle peut exiger une approbation, en fonction de la configuration du workflow.
 
-1. Dans l'espace de travail **Libre-service employé**, sélectionnez **Mon équipe**.
+1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Mon équipe**.
 
 2. Sous **Informations sur mon équipe**, sélectionnez l'onglet **Congé et absence**. 
 
@@ -39,5 +39,3 @@ Les gestionnaires peuvent gérer les demandes de congés dans l'espace de travai
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Création d'un plan de congé et d'absence](hr-leave-and-absence-plans.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

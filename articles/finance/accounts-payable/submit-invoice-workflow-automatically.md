@@ -1,5 +1,5 @@
 ---
-title: Soumettre les factures au système de workflow et faire correspondre les lignes de réception de marchandises (version préliminaire)
+title: Soumettre les factures au système de workflow et mettre en correspondance des lignes d’accusé de réception de marchandises
 description: Cette rubrique explique le processus d’envoi des factures fournisseur au système de workflow et la mise en correspondance automatiques des lignes de réception des marchandises validées avec les factures fournisseur.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4443014"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115654"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Soumettre les factures au système de workflow et faire correspondre les lignes de réception de marchandises (version préliminaire)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Soumettre les factures au système de workflow et mettre en correspondance des lignes d’accusé de réception de marchandises
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique explique le processus d’envoi des factures fournisseur au système de workflow et la mise en correspondance automatiques des lignes de réception des marchandises validées avec les factures fournisseur.
 
@@ -47,13 +45,10 @@ Le processus s’exécutera jusqu’à ce que la quantité des marchandises reç
 
 Les lignes de facture qui ont une stratégie de rapprochement à trois facteurs, où la quantité de réception correspondante est inférieure à la quantité de la facture, seront incluses dans le processus automatisé de mise en correspondance avec les réceptions de marchandises.
 
-Pour voir le statut **Dernière correspondance** des factures qui ne font pas partie du processus automatisé de soumission au workflow, ouvrez la facture à partir de la page **Factures fournisseur**. Lorsque vous affichez la facture, les informations de validation correspondantes sont mises à jour.
+Pour voir le statut **Dernière correspondance** des factures qui ne font pas partie du processus automatisé de soumission au workflow, ouvrez la facture à partir de la page **Factures fournisseur**. Lorsque vous affichez la facture, les informations de validation correspondantes sont mises à jour. Le statut **Dernière correspondance** peut être mis à jour automatiquement à l'aide de la tâche en arrière-plan **Valider le rapprochement des factures**. Vous pouvez configurer le processus de mise à jour automatique du statut **Dernière correspondance** sur l'onglet **Processus en arrière-plan** de la page **Automatisations de processus** (**Administration système\> Configuration\> Automatisations de processus**).
 
 Une ligne de facture sera exclue du traitement automatisé si l’une des conditions suivantes est remplie :
 
 - La valeur **Statut de la mise en correspondance automatique des réceptions** de la ligne de facture est **Échoué**.
 - La facture est utilisée.
 - La facture est dans le système de workflow.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

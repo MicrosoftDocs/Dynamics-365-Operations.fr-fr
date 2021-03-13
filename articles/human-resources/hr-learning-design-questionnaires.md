@@ -2,7 +2,7 @@
 title: Créer des questionnaires
 description: Cet article décrit le processus de création d'un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l'enregistrement et l'organisation des réponses.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f7f7d68caf12c33059d2f871fe3f4a036c89f35
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418565"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115124"
 ---
-# <a name="design-questionnaires"></a>Créer des questionnaires
+# <a name="create-questionnaires"></a>Créer des questionnaires
 
 Cet article décrit le processus de création d'un questionnaire. La première étape consiste à concevoir le questionnaire. Lorsque vous créez un questionnaire, vous entrez non seulement les questions et les réponses, mais créez également la structure qui active l'enregistrement et l'organisation des réponses. 
 
@@ -91,7 +91,7 @@ Les codes souche de numéros servent à classer les questions et les réponses. 
 Vous devez définir tous les paramètres avant de commencer à créer vos données. Vous pouvez modifier les paramètres de questionnaire à tout moment.
 
 ## <a name="questionnaire-components"></a>Composants du questionnaire
-Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même  Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
+Les questionnaires incluent trois éléments principaux : les groupes de réponses contenant les réponses pour les questions à choix multiple, les questions et le questionnaire lui-même Vous pouvez également regrouper les questions à un questionnaire en groupes de résultats. Les groupes de résultats permettent de classer les questions et de fournir une analyse approfondie du questionnaire. 
 
 [![Composants du questionnaire](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -109,7 +109,7 @@ Les groupes de réponses et les réponses sont des composants qui constituent le
 Vous pouvez utiliser un groupe de réponses pour plusieurs questions d'un même questionnaire et pour plusieurs questionnaires. 
 
 > [!NOTE]
-> Si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l'existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
+> Si vous modifiez le texte de la réponse dans des groupes de réponses qui ont déjà été utilisés dans des questionnaires terminés, les données peuvent devenir difficiles à évaluer et les résultats du questionnaire peuvent plus être valides. Si vous devez modifier un groupe de réponses, envisagez de créer un nouveau groupe de réponses au lieu de modifier l'existant. Vous ne pouvez pas supprimer les groupes de réponses associés à une question ou à une réponse ou qui ont été complétés.
 
 ### <a name="questions"></a>Questions
 
@@ -156,14 +156,14 @@ Dans la page **Questionnaires**, cliquez sur **Valider** pour vérifier si le qu
 
 ### <a name="modify-a-questionnaire"></a>Modification d'un questionnaire
 
-Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** :
+Vous pouvez effectuer les opérations suivantes dans la page **Questionnaires** :
 
 -   modifier les informations du questionnaire, y compris ses groupes de résultats et questions ;
 -   supprimer et ajouter des questions ;
 -   apporter des modifications aux groupes de résultats et au numéro d'ordre. 
 
 > [!CAUTION]
-> Soyez prudent lorsque vous modifiez des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d'évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
+> Soyez prudent lorsque vous modifiez des questionnaires déjà complétés. Les modifications peuvent réduire la précision des statistiques et donc en faire une base d'évaluation médiocre. Songez à créer une question au lieu de modifier une question pour laquelle une réponse existe déjà.
 
 Dans un questionnaire, vous ne pouvez pas supprimer les types de questions suivants :
 
@@ -207,7 +207,7 @@ Vous utilisez un questionnaire pour un test de direction qui comporte 15 questio
 -   Aptitudes à diriger
 -   Aptitudes techniques
 
-Pour utiliser les messages motivés par les points, vous pouvez paramétrer des intervalles de texte pour chaque groupe de résultats. Deux points sont affectés à chaque question. Par conséquent, le nombre maximal de points total de chaque groupe de résultats est 10. 
+Pour utiliser les messages motivés par les points, vous pouvez paramétrer des intervalles de texte pour chaque groupe de résultats. Deux points sont affectés à chaque question. Par conséquent, le nombre maximal de points total de chaque groupe de résultats est 10. 
 
 Le tableau suivant indique les messages motivés par les points définis pour le groupe de résultats « capacités de leadership ».
 
@@ -236,5 +236,3 @@ Pour utiliser les questions conditionnelles pour créer une hiérarchie de quest
 Une entité juridique offre des articles et des services à ses clients. Comme dans la plupart des cas, certains clients achètent soit les articles, soit les services, tandis que d'autres achètent les deux. Par conséquent, si l'entité juridique veut mener une enquête de satisfaction, elle applique une structure conditionnelle au questionnaire pour empêcher les clients qui n'achètent que des services de devoir répondre aux questions sur les articles. 
 
 De la même manière, vous pouvez paramétrer un questionnaire afin que, si une personne interrogée sélectionne la Réponse A pour la Question 1, la Question 2 soit la suivante dans l'ordre des questions. Mais si la personne interrogée sélectionne la Réponse B pour la Question 1, alors la Question 5 est la suivante.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

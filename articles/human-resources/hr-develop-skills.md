@@ -2,7 +2,7 @@
 title: Aligner les qualifications du personnel sur les besoins de l'entreprise
 description: Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles. Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26493306a8bd810f936b15160b07263ca41f87ae
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418510"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115582"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Aligner les qualifications du personnel sur les besoins de l'entreprise
 
@@ -62,6 +62,3 @@ Les profils de mise en correspondance des qualifications vous permettent de rech
 Vous pouvez créer une analyse des profils de qualification pour afficher la liste des compétences d'un travailleur, d'un candidat ou d'une personne à contacter à une date spécifique. Vous pouvez créer une analyse des écarts de qualification pour comparer les qualifications d'une personne aux qualifications requises pour une tâche donnée.  
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

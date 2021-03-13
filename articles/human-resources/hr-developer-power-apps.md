@@ -2,7 +2,7 @@
 title: Étendre Talent avec Power Apps et Power Automate
 description: Cet article décrit quelques exemples de scénarios d’extensibilité pour Microsoft Dynamics 365 Human Resources utilisant Microsoft Power Apps et Microsoft Power Automate.
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e6885c67f42ead34b5e10cc1b1a80a88fd2d59b9
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527024"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115364"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Extension avec Power Apps et Power Automate
 
@@ -51,7 +51,7 @@ Pour télécharger l’application **Intégration à Microsoft 365, Power Automa
 
 Le modèle **Power Automate - Connexion et exécution SQL** se connecte à Microsoft SQL Server et active les requêtes SQL à exécuter.
 
-Bien que ce modèle lise et mette à jour les tables SQL, vous pouvez l’étendre et l’utiliser pour d’autres scénarios. Par exemple, vous pouvez l’utiliser pour remplir une table intermédiaire dans Common Data Service avec des enregistrements de SQL Server, et pour synchroniser périodiquement la table intermédiaire à l’aide d’un envoi incrémentiel de SQL Server.
+Bien que ce modèle lise et mette à jour les tables SQL, vous pouvez l’étendre et l’utiliser pour d’autres scénarios. Par exemple, vous pouvez l’utiliser pour remplir une table intermédiaire dans Dataverse avec des enregistrements de SQL Server, et pour synchroniser périodiquement la table intermédiaire à l’aide d’un envoi incrémentiel de SQL Server.
 
 Advanced Query est intégré à Flow pour permettre la transformation des données et la transmission incrémentielle.
 
@@ -60,5 +60,3 @@ Pour télécharger le modèle **Power Automate – Connexion et exécution SQL**
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

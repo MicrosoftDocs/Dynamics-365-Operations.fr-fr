@@ -2,7 +2,7 @@
 title: Créer des évaluations des performances
 description: Cette rubrique explique comment créer une évaluation des performances et décrit l'objet de chaque section de l'évaluation.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418495"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115798"
 ---
 # <a name="create-performance-reviews"></a>Créer des évaluations des performances
 
@@ -78,6 +78,3 @@ Cette rubrique explique comment créer une évaluation des performances et décr
 34. Sélectionnez **Révision**. Étant donné que la révision passe par les différents statuts, l'employé et le responsable peuvent ajouter des commentaires pour chaque objectif ou compétence.  
 35. Sélectionnez l'onglet **Validations**. Le collaborateur et le responsable peuvent valider la révision. Lorsque toutes les validations requises sont effectuées, le statut passe à **Terminé** et aucune autre modification n'est possible.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682769"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115726"
 ---
 # <a name="financial-insights"></a>Financial Insights
 
@@ -66,11 +66,12 @@ Les données de **Financial Insights** sont extraites du magasin des entités (*
 
 Vous devez mettre à jour les entités suivantes pour visualiser les données dans les espaces de travail **Financial Insights** et **Vue d’ensemble d’un processus CFO** :
 
-- Données de transaction d’états financiers version 2 (**Remarque :** il est nouveau avec la version 10.0.1 et remplace l’entité précédente.)
-- Données de transaction des états financiers
+- BudgetActivityMeasure
+- Données de transaction des états financiers version 3 
 - CustCollectionsBIMeasurements
+- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
-- Cube d’achat
+- Cube d'achat
 - Cube de vente
 
 Dans la version précédente, les entités LedgerActivityMeasure et VendPaymentBIMeasure étaient utilisées pour les données de l’espace de travail **Vue d’ensemble d’un processus CFO**. Toutefois, elles ne sont plus utilisées dans la version actuelle.
@@ -247,6 +248,3 @@ Les informations des ressources suivantes ne sont pas requises pour activer les 
 - [Accès aux espaces de travail analytiques et aux rapports dans un environnement 1-box](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

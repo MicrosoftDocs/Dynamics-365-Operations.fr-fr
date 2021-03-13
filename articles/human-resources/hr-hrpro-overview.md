@@ -2,7 +2,7 @@
 title: Vue d'ensemble
 description: Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instructions sur la configuration de Human Resources, la configuration de la rémunération et des avantages sociaux de vos employés et la gestion de votre personnel.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32a7ca7c74b3f84519145d26c6e0461f546dbee3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418569"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115244"
 ---
 # <a name="overview"></a>Vue d'ensemble
 
@@ -57,10 +57,9 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 [Définir les départements](hr-personnel-define-departments.md)</br>
 [Définir les tâches](hr-personnel-define-jobs.md)</br>
 [Utiliser des workflows pour gérer les informations relatives aux employés](hr-workflow-manage-employee-information.md)</br>
-[Modifier les relations hiérarchiques d'un poste](hr-personnel-modify-reporting-relationships-position.md)</br>
+[Modifier les relations hiérarchiques d’un poste](hr-personnel-modify-reporting-relationships-position.md)</br>
 [Saisir les informations du collaborateur](hr-personnel-enter-worker-information.md)</br>
 [Prêter des articles aux collaborateurs](hr-personnel-loan-item-worker.md)</br>
-[Saisir des feuilles de temps du projet](hr-personnel-enter-project-timesheets.md)</br>
 [Projets d'embauche collective](hr-personnel-mass-hire-projects.md)</br>
 [Paramétrer les postes](hr-personnel-set-up-positions.md)</br>
 [Paramétrer les informations sur les blessures et les maladies](hr-personnel-set-up-injury-illness-information.md)</br>
@@ -128,6 +127,3 @@ Le Guide de l'utilisateur Dynamics 365 Human Resources vous fournit des instruct
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

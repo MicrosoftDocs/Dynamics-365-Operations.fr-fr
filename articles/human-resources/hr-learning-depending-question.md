@@ -2,7 +2,7 @@
 title: Rendre une question dépendante de la réponse à la question précédente
 description: Les questions conditionnelles permettent de spécifier la question de suivi qui est présentée à la personne interrogée, selon la réponse à la question précédente.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67dac872d6dc3a5046f5d554b1f185aa6607d193
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418571"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115002"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Rendre une question dépendante de la réponse à la question précédente
 
@@ -56,6 +56,3 @@ Les questions conditionnelles permettent de spécifier la question de suivi qui 
 10. Dans l'arborescence, sélectionnez « Questions\Je suis assez payé pour mon travail ».
     * Notez que l'arborescence de questions est mise à jour pour indiquer la dépendance.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

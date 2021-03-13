@@ -1,7 +1,7 @@
 ---
 title: Complément de visibilité de stock
 description: Cette rubrique décrit comment installer et configurer le complément de visibilité de stock pour Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625063"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114668"
 ---
 # <a name="inventory-visibility-add-in"></a>Complément de visibilité de stock
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Le complément de visibilité de stock est un microservice indépendant et hautement évolutif qui permet un suivi des stocks en temps réel, offrant ainsi une vue globale de la visibilité du stock.
 
 Toutes les informations relatives à l'inventaire disponible sont exportées vers le service en temps quasi réel via une intégration SQL de bas niveau. Les systèmes externes accèdent au service via des API RESTful pour interroger les informations disponibles sur des ensembles de dimensions donnés, récupérant ainsi une liste des positions disponibles.
 
-La visibilité du stock est un microservice basé sur Common Data Service, ce qui signifie que vous pouvez l'étendre en créant Power Apps et en appliquant Power BI pour fournir des fonctionnalités personnalisées pour répondre aux besoins de votre entreprise. Il est également possible de mettre à niveau l'index pour effectuer des requêtes d'inventaire.
+La visibilité du stock est un microservice basé sur Microsoft Dataverse, ce qui signifie que vous pouvez l'étendre en créant des Power Apps et en appliquant Power BI pour fournir des fonctionnalités personnalisées pour répondre aux besoins de votre entreprise. Il est également possible de mettre à niveau l'index pour effectuer des requêtes d'inventaire.
 
 La visibilité du stock fournit des options de configuration qui lui permettent de s'intégrer à plusieurs systèmes tiers. Il prend en charge la dimension de stock normalisée, l'extensibilité personnalisée et les quantités calculées normalisées et configurables.
 
@@ -78,30 +78,57 @@ Pour pouvoir installer le complément Visibilité du stock, procédez comme suit
 
 ### <a name="get-a-security-service-token"></a>Obtenir un jeton de service de sécurité
 
-Pour obtenir un jeton de service de sécurité, procédez comme suit :
+Obtenez un jeton de service de sécurité en procédant comme suit :
 
-1. Obtenir votre `aadToken` et appelez le point de terminaison : https://securityservice.operations365.dynamics.com/token.
-1. Remplacez le `client_assertion` dans le corps avec votre `aadToken`.
-1. Remplacez le contexte dans le corps par l'environnement dans lequel vous souhaitez déployer le complément.
-1. Remplacez la portée dans le corps par ce qui suit :
+1. Connectez-vous au portail Azure et utilisez-le pour trouver le `clientId` et le `clientSecret` de votre application Supply Chain Management.
+1. Récupérez un jeton Azure Active Directory (`aadToken`) en envoyant une requête HTTP avec les propriétés suivantes :
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Méthode** - `GET`
+    - **Contenu du corps (données du formulaire)**  :
 
-    - Portée pour MCK – « https://inventoryservice.operations365.dynamics.cn/.default »  
-    (Vous pouvez trouver ID d'application et ID de locataire Azure Active Directory pour MCK dans `appsettings.mck.json`.)
-    - Portée pour PROD – « https://inventoryservice.operations365.dynamics.com/.default »  
-    (Vous pouvez trouver ID d'application et ID de locataire Azure Active Directory pour PROD dans `appsettings.prod.json`.)
+        | clé | valeur |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Vous devriez recevoir un `aadToken` en réponse, qui ressemble à l'exemple suivant.
 
-    Le résultat doit ressembler à l’exemple ci-dessous.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Formulez une requête JSON qui ressemble à ce qui suit :
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Où :
+    - La valeur `client_assertion` doit être le `aadToken` que vous avez reçu à l'étape précédente.
+    - La valeur `context` doit être l'ID d'environnement dans lequel vous souhaitez déployer le complément.
+    - Définissez toutes les autres valeurs comme indiqué dans l'exemple.
+
+1. Envoyez une requête HTTP avec les propriétés suivantes :
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Méthode** - `POST`
+    - **En-tête HTTP** : incluez la version de l'API (la clé est `Api-Version` et la valeur est `1.0`)
+    - **Contenu du corps** : incluez la requête JSON que vous avez créée à l'étape précédente.
 
 1. Vous obtiendrez un `access_token` en réponse. C'est ce dont vous avez besoin en tant que jeton de support pour appeler l'API de visibilité de stock. Voici un exemple :
 
@@ -500,6 +527,3 @@ Les requêtes présentées dans les exemples précédents peuvent renvoyer un r�
 ```
 
 Notez que les champs de quantités sont structurés comme un dictionnaire de mesures et de leurs valeurs associées.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

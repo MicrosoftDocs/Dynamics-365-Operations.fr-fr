@@ -2,7 +2,7 @@
 title: Champs personnalisés
 description: Vous pouvez ajouter des champs personnalisés aux pages dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 583e29d9b0bae34ffc2f519bb775b9e099682fe0
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: eb27808d72728e2e2ac98fdfb8fa0643ad8f3219
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529552"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115486"
 ---
 # <a name="custom-fields"></a>Champs personnalisés
 
@@ -31,14 +31,12 @@ ms.locfileid: "4529552"
 
 Vous pouvez ajouter des champs personnalisés aux pages dans Dynamics 365 Human Resources. Pour plus d'informations sur la création de champs personnalisés, voir [Création et utilisation des champs personnalisés](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).
 
-La plupart des entités Common Data Service prennent en charge les champs personnalisés. Pour une liste complète des entités Common Data Service, voir [Entités Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
+La plupart des tables Dataverse prennent en charge les champs personnalisés. Pour obtenir la liste complète des tables Dataverse, voir [Tables Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities). 
 
-Veillez à activer tous les champs personnalisés que vous créez afin de pouvoir les utiliser dans Common Data Service. Pour plus d'informations, voir [Affichage des champs personnalisés des entités de données](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
+Veillez à activer tous les champs personnalisés que vous créez afin de pouvoir les utiliser dans Dataverse. Pour plus d'informations, voir [Affichage des champs personnalisés des entités de données](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).
 
 ## <a name="see-also"></a>Voir également :
 
-[Entités Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[Tables Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Créer et utiliser des champs personnalisés](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Affichage des champs personnalisés des entités de données](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
