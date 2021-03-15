@@ -273,3 +273,6 @@ Une clé de réduction des prévisions doit être affectée au groupe de couvert
 ### <a name="reduce-a-forecast-by-transactions"></a>Réduction de la prévision par les transactions
 
 Lorsque vous sélectionnez **Transactions - clé de réduction** ou **Transactions - période dynamique** comme méthode de réduction des besoins prévisionnels, vous pouvez spécifier quelles transactions réduisent la prévision. Dans la page **Groupes de couverture**, sous l'organisateur **Autre**, dans le champ **Soustraire des prévisions**, sélectionnez **Toutes les transactions** si toutes les transactions doivent réduire la prévision ou **Commandes** si seules les commandes client doivent diminuer la prévision.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

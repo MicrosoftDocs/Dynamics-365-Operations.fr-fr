@@ -69,3 +69,6 @@ Les données suivantes sont utilisées pour remplir les états dans le contenu P
 | Nom de l’employé            | Prénom, nom et nom complet                                                                       | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Titre de l’employé           | Titre et date d’ancienneté                                                                                   | Employé actuel, Employé dont le contrat est terminé, Tendance de l’employé |
 | Tendance de l’employé           | Collaborateurs dans le temps, effectif, société et poste                                                        | Société, Rémunération, Emplacement géographique, Nom de l’employé, Génère un état pour, Décalage de calendrier, Date, Titre de l’employé, Démographie, Emploi, Tâche, Avantages |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

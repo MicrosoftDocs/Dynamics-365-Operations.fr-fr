@@ -41,3 +41,6 @@ Les données fictives utilisées pour créer cette tâche correspondent à la so
 7. Cliquez sur la flèche pour ajouter les équipes disponibles sélectionnées dans le carnet d’adresses.
 8. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

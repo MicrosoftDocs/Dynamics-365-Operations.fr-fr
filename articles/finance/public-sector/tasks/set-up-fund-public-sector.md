@@ -42,3 +42,6 @@ Vous devez créer des types de fonds avant de pouvoir paramétrer des fonds. Cha
 11. Si vous définissez l’option Ignorer l’option de fin d’exercice sélectionnée à Oui, sélectionnez une option de fin d’exercice.
 12. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Lorsque vous prévisualisez des pages basées sur le modèle auquel vous avez aj
 
 [Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

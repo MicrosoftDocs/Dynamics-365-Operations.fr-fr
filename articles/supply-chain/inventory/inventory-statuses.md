@@ -64,3 +64,6 @@ Vous pouvez modifier les statuts de stock en utilisant la page **Disponible par 
 > - Sur la page **Disponible par emplacement**, vous pouvez regrouper les lignes en fonction des dimensions affichées à l'aide de **Afficher les dimensions** et modifiez le statut des lignes sélectionnées.
 > - Sur la page **Disponible par emplacement**, vous pouvez sélectionner plusieurs enregistrements, puis utiliser le bouton **Changement du statut du stock** pour les changer tous à la fois.
 > - Sur la tâche périodique **Changement du statut du stock** vous pourrez filtrer en suivant les dimensions.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

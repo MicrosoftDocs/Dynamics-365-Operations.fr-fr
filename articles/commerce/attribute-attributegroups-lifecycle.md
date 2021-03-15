@@ -256,3 +256,6 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 
     > [!NOTE]
     > Si le support de produit partagé et les attributs de produit partagés sont créés, ils s'appliquent à tous les produits.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

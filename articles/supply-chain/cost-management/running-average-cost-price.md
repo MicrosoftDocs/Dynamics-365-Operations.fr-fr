@@ -75,3 +75,6 @@ En outre, souvenez-vous que la valeur maximale de votre stock physique est limit
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

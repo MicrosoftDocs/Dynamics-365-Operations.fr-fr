@@ -38,3 +38,6 @@ Cette procédure décrit la manière d'afficher les entrées de coût pour un ob
 7. Utiliser le filtre rapide pour appliquer un filtre au champ Nombre avec une valeur de « p000031 ».
     * Si les entrées de coût sont vides, définissez Date de début au 31 janvier 2012 et Date de fin au 31 décembre 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

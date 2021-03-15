@@ -61,3 +61,6 @@ Vous pouvez créer des classifications de contrat d’achat qui ajoutent des cha
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

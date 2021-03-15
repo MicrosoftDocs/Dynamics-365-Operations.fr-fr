@@ -38,3 +38,6 @@ L'illustration suivante offre une vue d'ensemble du flux de travail depuis la cr
 
 ![Figure 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Un groupe de ressources est un ensemble de ressources opérationnelles correspon
 6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Dans la page **Clients**, pour chaque client qui a accepté de payer à l’aide
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

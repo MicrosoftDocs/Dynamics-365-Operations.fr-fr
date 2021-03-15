@@ -134,3 +134,6 @@ Si un bail a été modifié, vous pouvez en afficher les différentes versions. 
 
 2. Pour afficher les horaires historiques, ouvrez le bail modifié à partir de la page **Récapitulatif du bail**, sélectionnez le livre souhaité, puis, dans le volet Actions, sélectionnez **Historique de version des baux**.
 3. Sur la page **Version des registres**, sélectionnez une version et l’échéancier à afficher.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

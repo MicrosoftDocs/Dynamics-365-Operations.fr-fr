@@ -65,3 +65,6 @@ Vous pouvez affecter des objets de service au groupe à l'aide de l'écran **Obj
 [Créer des objets de service](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

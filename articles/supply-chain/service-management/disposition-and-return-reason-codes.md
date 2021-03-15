@@ -53,3 +53,6 @@ Affectez un code disposition lors de la réception d'un article ou au cours de l
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

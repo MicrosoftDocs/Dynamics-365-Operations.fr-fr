@@ -137,3 +137,6 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 [Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management](contacts-template-mapping-direct.md)
 
 [Synchronisation des commandes client directement entre Sales et Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

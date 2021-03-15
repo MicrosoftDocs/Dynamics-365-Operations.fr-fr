@@ -56,3 +56,6 @@ Un ordre de fabrication pour le produit C est ensuite créé et le produit A est
     - **Produit C :** 2
 
 Ce comportement garantit que les modifications apportées aux nomenclatures des ordres de fabrication n'affectent pas les calculs de coûts ultérieurs.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

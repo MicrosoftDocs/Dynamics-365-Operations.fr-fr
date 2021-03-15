@@ -94,3 +94,6 @@ Vous pouvez éventuellement associer un code d'expédition à un mode de livrais
 Par exemple, pour les commandes à expédier par avion le lendemain, le prélèvement doit être effectué dans l'entrepôt avant 13h chaque jour. Dans ce cas, un code d'expédition peut être créé, et ce code peut être associé à tout mode de livraison le lendemain qui est configuré dans le système. Lorsque l'entrepôt crée sa vague de prélèvement, le code d'expédition approprié dans le champ **Expédition** peut être utilisé comme filtre, afin que le prélèvement soit exécuté uniquement pour les commandes dont les modes de livraison sont associés à ce code.
 
 En outre, lorsqu'une commande du centre d'appels est saisie, un code d'expédition peut être manuellement appliqué à l'en-tête de la commande client ou à une ligne individuelle de la commande client. Le code peut également être utilisé pour les besoins de tri ou de génération d'états. Une commande doit parfois être traitée avec précaution en raison d'un problème de service client. Dans ce cas, un code d'expédition spécifique peut être appliqué à l'en-tête ou aux lignes de la commande pour aider à identifier et hiérarchiser la commande lors du processus d'exécution.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

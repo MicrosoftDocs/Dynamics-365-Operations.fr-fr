@@ -298,3 +298,6 @@ La liste des configurations de gestion des états électroniques pour Finance es
 
 - [Créer des configurations de gestion des états électroniques](electronic-reporting-configuration.md)
 - [Gérer le cycle de vie de la configuration des états électroniques (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

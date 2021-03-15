@@ -135,3 +135,6 @@ Pour configurer un groupe de prix, procédez comme suit.
 [Paramétrer et utiliser les alertes pour fraude](set-up-fraud-alerts.md)
 
 [Paramétrer des programmes périodiques pour les centres d'appels](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

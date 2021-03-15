@@ -622,3 +622,6 @@ La définition de validation recherche un rapprochement avec toute partie du com
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

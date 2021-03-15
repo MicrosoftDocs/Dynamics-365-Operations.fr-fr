@@ -41,3 +41,6 @@ Pour éviter le calcul, sélectionnez l'indicateur **Arrêter l'éclatement** qu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

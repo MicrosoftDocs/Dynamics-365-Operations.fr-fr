@@ -298,3 +298,6 @@ L’activation des fonctionnalités MX-00010 et MX-00016 (Facture CFDI et Annula
 - [Présentation du module complémentaire de facturation électronique](e-invoicing-service-overview.md)
 - [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md)
 - [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

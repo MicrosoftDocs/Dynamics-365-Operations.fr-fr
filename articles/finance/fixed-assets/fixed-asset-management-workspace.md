@@ -73,3 +73,6 @@ Le tableau suivant indique les visualisations qui sont disponibles sur chaque pa
 | Cartes d’évaluations        | Détails de l’immobilisation |
 
 Pour afficher les analyses avec des données, vous devez actualiser la mesure de regroupement AssetTransactionMeasure sur la page **Magasin des entités**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

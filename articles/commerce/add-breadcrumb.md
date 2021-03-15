@@ -94,3 +94,6 @@ Pour ajouter un module de piste de navigation à une page PDP et définir les pr
 [Module Zone d’achat](add-buy-box.md)
 
 [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

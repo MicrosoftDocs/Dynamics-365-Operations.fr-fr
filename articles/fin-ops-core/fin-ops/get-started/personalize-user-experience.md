@@ -195,3 +195,6 @@ Pour les clients n’ayant pas encore activé la fonctionnalité [Vues enregistr
 Lorsque vous personnalisez le paramétrage des dimensions de stock sur une page, tenez compte des paramètres qui ont été créés à l’aide de l’option **Afficher les dimensions**. Par exemple, vous utilisez la personnalisation pour masquer une colonne de la dimension de stock Numéro de lot, mais la colonne s’affiche à la prochaine ouverture de la page. Ce comportement se produit car les paramètres **Affichage des dimensions** contrôlent les colonnes de la dimension de stock affichées. Les paramètres **Affichage des dimensions** s’appliquent à toutes les pages et remplacent tout paramétrage personnalisé des champs de la dimension de stock sur des pages individuelles.
 
 Par conséquent, dans l’exemple précédent, si vous ne souhaitez pas afficher la colonne de la dimension de stock Numéro de lot sur une page, vous devez désactiver cette dimension dans le cadre de l’option **Afficher les dimensions** pour cette page.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

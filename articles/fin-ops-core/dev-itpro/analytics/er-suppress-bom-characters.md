@@ -66,3 +66,6 @@ Pour examiner la fonctionnalité au moment de l’exécution, suivez la procédu
 ## <a name="see-also"></a>Voir également :
 
 - [Différer l’exécution des éléments XML aux formats ER](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Si un article est endommagé ou égaré, entrez un enregistrement de retour fict
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ La chronologie est mise à jour chaque fois que la page est ouverte. Elle contie
 - Ordres de travail, notamment l'article et les notes validés
 - Défaillances
 - Évaluations des conditions
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

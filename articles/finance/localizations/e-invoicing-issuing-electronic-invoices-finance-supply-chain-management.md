@@ -93,3 +93,6 @@ Les journaux d'envoi incluent les fonctions supplémentaires suivantes :
 - **Annuler les soumissions** - Cette fonction permet l'exécution d'un processus de soumission spécial dans les scénarios où la facture électronique doit être approuvée par un service Web externe. Elle demande au module complémentaire de facturation électronique d'envoyer au service Web un message spécifique destiné à annuler le statut d'une facture électronique approuvée dans la base de données du service Web.
 - **Soumettre à nouveau le document** - Soumettez à nouveau un document électronique qui a déjà été soumis au module complémentaire de facturation électronique. Un nouveau journal est créé sur la page **Détails de l'envoi**.
 - **Envoyer une soumission associée**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

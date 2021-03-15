@@ -87,3 +87,6 @@ Si vous devez déclarer des personnes prises en charge par une couverte personne
 
 > [!NOTE]
 > Seuls les avantages dont le régime dispose de la mention **Déclarer dans le cadre de la loi sur les soins abordables** s'affichent dans la fenêtre de recherche.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

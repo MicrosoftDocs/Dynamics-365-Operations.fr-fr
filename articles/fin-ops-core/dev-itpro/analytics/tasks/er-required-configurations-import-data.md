@@ -254,3 +254,6 @@ Exécutez cette mise en correspondance de formats à des fins de test. Utilisez 
 27. Fermez la page.
 28. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Cette tâche a été créé à l'aide de l'ensemble de données USSI.
 21. Dans le champ **Commentaire**, tapez une valeur.
 22. Cliquez sur **Soumettre**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

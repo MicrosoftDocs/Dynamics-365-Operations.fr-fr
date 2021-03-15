@@ -165,3 +165,6 @@ Créez des lignes de journal des paiements fournisseur en utilisant la fonctionn
 Pour les paiements liés aux factures QR, le fichier de virement est généré en fonction de la valeur de l’ID de paiement. Cette valeur est extraite du code QR.
 
 Vous pouvez importer les fichiers pain.002 et camt.054 à partir de la page **Transferts de paiement**. Pour plus d’informations, voir la section [Importation de fichiers ISO20022](emea-iso20022-file-formats.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

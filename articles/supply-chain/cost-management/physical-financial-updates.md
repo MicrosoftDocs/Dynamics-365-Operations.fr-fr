@@ -73,3 +73,6 @@ Lorsqu'une transaction financière est validée, le statut de l'enregistrement d
 -   Journaux de stock de quantité négative, tels que mouvement, résultat, inventaire, nomenclatures et transferts
 
 Les transactions qui diminuent la quantité sont validées au prix de revient moyen en vigueur. Aussi, la procédure de clôture du stock est requise pour régler les transactions de sorties en transactions de réception sur la base du modèle de stock affecté à chaque article.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

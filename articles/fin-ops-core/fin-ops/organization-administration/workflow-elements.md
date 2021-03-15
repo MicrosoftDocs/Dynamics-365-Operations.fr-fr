@@ -89,3 +89,6 @@ Une *activité parallèle* est un élément de workflow qui inclut deux branches
 ### <a name="subworkflow"></a>Sous-workflow
 
 Un *sous-workflow* est un workflow qui s’exécute dans le contexte d’un autre workflow.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

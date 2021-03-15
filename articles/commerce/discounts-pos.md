@@ -68,3 +68,6 @@ L’illustration suivante montre la logique utilisée lorsque le contrôle de si
 L’illustration suivante montre la logique utilisée lorsque le contrôle de simultanéité de la remise est défini sur **Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités**.
 
 ![Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités](./media/Model_2.png "Logique pour Meilleur prix uniquement dans la priorité, toujours composer dans plusieurs priorités").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

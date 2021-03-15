@@ -63,3 +63,6 @@ Cette rubrique vous guide dans le paramétrage d'un programme périodique (égal
     * Lorsque cet article est vendu dans un centre d'appels, une logique métier supplémentaire est appliquée à partir du programme périodique sélectionné.  
 7. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

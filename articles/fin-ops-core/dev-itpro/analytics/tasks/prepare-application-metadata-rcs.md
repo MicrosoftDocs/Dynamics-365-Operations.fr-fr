@@ -80,3 +80,6 @@ Nous avons ajouté des informations de métadonnées sur la table d’enregistre
 3.    Cliquez sur **OK**. 
     
 La configuration de métadonnées ER créée a été enregistrée comme fichier XML qui peut être importé dans RCS et utilisé comme source d’informations sur les métadonnées du domaine du commerce extérieur. Sur la base de ces informations, nous pouvons spécifier la mise en correspondance entre les métadonnées d’application et le modèle de données ER.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

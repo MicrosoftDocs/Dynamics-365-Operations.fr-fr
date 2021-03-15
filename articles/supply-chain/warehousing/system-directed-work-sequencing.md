@@ -304,3 +304,6 @@ Les requêtes de classement des travaux dirigés par le système sont *inclusive
 Par conséquent, dans l’exemple de ce scénario, l’ID de travail *4* a également été capturé par la requête. Lors de sa création, deux lignes ont été ajoutées : une pour 25 unités et une autre pour 10 unités. Le travail était toujours présenté à l’utilisateur, car au moins une ligne de travail a une quantité inférieure à 20 unités.
 
 Selon le scénario, vous pouvez empêcher ce comportement en utilisant des répartitions du travail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

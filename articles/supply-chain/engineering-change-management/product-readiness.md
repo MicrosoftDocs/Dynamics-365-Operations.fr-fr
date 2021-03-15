@@ -147,3 +147,6 @@ Pour chaque ligne que vous ajoutez, définissez les champs suivants.
 | Questionnaire | Sélectionnez le questionnaire à utiliser pour la liste de contrôle. La liste de contrôle est une liste de contrôle locale dans l'entreprise où la vérification de la disponibilité est effectué. Le système doit être en mesure d'évaluer si la liste de contrôle a reçu une réponse correcte. Par conséquent, la liste de contrôle doit être établie de manière à ce qu'une évaluation soit faite sur la base de réponses correctes. Pour plus d'informations sur la création de questionnaires, voir [Utilisation de questionnaires](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) et ses sujets connexes. |
 | Approbation automatique | Les registres de vérification de la disponibilité comprennent une case à cocher **Approuvé** qui indique l'état d'approbation. Cochez la case **Approbation automatique** pour les vérification qui doivent être définis sur Approuvé immédiatement après que l'utilisateur affecté les a terminés. Décochez cette case pour exiger une approbation explicite comme étape supplémentaire. |
 | Obligatoire | Cochez cette case pour les vérifications qui doivent être effectuées par l'utilisateur affecté. Les vérifications obligatoires ne peuvent pas être ignorées. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

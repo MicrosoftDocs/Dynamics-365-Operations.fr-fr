@@ -108,3 +108,6 @@ Le fragment peut maintenant être référencé dans le modèle pour d’autres p
 [Conformité des cookies](cookie-compliance.md)
 
 [Remplacer les ID utilisateur associés aux modifications de contenu suivies](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Sélectionnez le type de ligne **Vendor** si le processus de production utilise 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

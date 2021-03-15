@@ -59,3 +59,6 @@ Pour définir un point focal personnalisé pour une image, procédez comme suit.
 [Rogner les images](dam-crop-images.md)
 
 [Charger et diffuser des fichiers statiques](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

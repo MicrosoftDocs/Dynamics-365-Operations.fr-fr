@@ -106,3 +106,6 @@ L'image suivant présente un exemple de nœud avec des groupes d'attributs de pr
 [Paramétrer des assortiments](set-up-assortments.md)
 
 [Gérer les attributs et les groupes d'attributs](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Le module de sélecteur de sites peut être ajouté au [Module d'en-tête](autho
 [Module de barre de navigation](add-breadcrumb.md)
 
 [Module du menu de navigation](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

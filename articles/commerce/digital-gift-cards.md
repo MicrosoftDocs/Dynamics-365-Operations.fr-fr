@@ -100,3 +100,6 @@ Pour configurer un montant personnalisé pour une carte-cadeau numérique dans l
 [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md)
 
 [Prendre en charge des cartes cadeaux externes](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

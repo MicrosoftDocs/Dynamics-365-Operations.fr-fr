@@ -101,3 +101,6 @@ Les détails du délai saisis pour une ligne dans les pages **Contrat d’achat*
 
 > [!NOTE]
 > Pour les articles lancés, vous pouvez sélectionner un délai d’achat. Le délai d’achat calculera automatiquement la date de livraison lors de la création d’une commande fournisseur. La date de livraison ne sera pas recalculée si le délai sur la ligne de commande fournisseur est 0 (zéro).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

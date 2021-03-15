@@ -150,3 +150,6 @@ Pour activer l’attribut **isIntegrationUser**, procédez comme suit.
     ![Changement de la valeur de la colonne Mode utilisateur de l’intégration](media/sales-map-user-mode-yes.png)
 
 Vos commandes client sont maintenant mappées.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

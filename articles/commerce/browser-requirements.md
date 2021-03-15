@@ -47,3 +47,6 @@ Les navigateurs Web suivants assurent une prise en charge optimale des sites Dyn
 [Gérer les fichiers robots.txt](manage-robots-txt-files.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

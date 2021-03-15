@@ -82,3 +82,6 @@ Pour configurer l'ouverture d'une URL dans le PDV, procédez comme suit.
 5. Sélectionnez **Ouvrir l'URL** comme action.
 6. Entrez l'URL à utiliser.
 7. Indiquez si l'URL doit s'ouvrir dans une nouvelle fenêtre.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

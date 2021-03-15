@@ -1373,3 +1373,6 @@ L’application pour tablettes Windows 8 a fourni la fonctionnalité pour la sa
 |     <strong>Zones de produit affectées</strong>     |                                              Comptabilité                                              |
 |             <strong>Statut</strong>             |                                      Supprimé à partir de Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

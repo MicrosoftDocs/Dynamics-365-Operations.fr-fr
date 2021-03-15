@@ -95,3 +95,6 @@ Avant de pouvoir envoyer des e-mails, vous devez configurer votre service de cou
 [Conditions préalables au paramétrage du canal](channels-prerequisites.md)
 
 [Vue d'ensemble des organisations et des hiérarchies d'organisation](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

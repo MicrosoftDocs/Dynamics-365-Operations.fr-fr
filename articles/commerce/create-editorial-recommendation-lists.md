@@ -74,3 +74,6 @@ Pour créer une liste de recommandations de produits éditée, procédez comme s
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

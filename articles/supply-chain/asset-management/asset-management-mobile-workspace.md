@@ -239,3 +239,6 @@ Téléchargez et installez l'application mobile Dynamics 365 for Unified Operati
 1. Sélectionnez **Terminé**.
 
     ![Ajouter une pièce jointe à une demande de maintenance](media/am-mobile-10.png "Ajouter une pièce jointe à une demande de maintenance")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

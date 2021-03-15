@@ -133,3 +133,6 @@ Dans ce processus, vous allez créer une expédition basée sur les dimensions d
 1. Ouvrez l'appareil mobile, connectez-vous à l'entrepôt 63 et accédez à **Stock \> Ajuster dans**.
 1. Entrez **Loc** = *SHORT-01*. Créez un contenant avec **Article** = *A0001* et **Quantité** = *1 pc*.
 1. Cliquez sur **OK**. Vous recevrez l'erreur « L'emplacement SHORT-01 a échoué, car l'article A0001 ne correspond pas aux dimensions spécifiées de l'emplacement. » Les dimensions de type *Stockage* du produit sont plus grandes que les dimensions spécifiées sur le profil d'emplacement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

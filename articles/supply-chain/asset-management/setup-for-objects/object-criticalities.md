@@ -61,3 +61,6 @@ Pour paramétrer l'élément critique, commencez par créer les types d'élémen
 - L'élément critique sur un ordre de travail est recalculé chaque fois qu'une ligne d'ordre de travail est ajoutée ou supprimée de l'ordre de travail.
 - Si un ordre de travail contient plusieurs tâches d'ordre de travail, l'élément critique le plus élevé, selon le champ **Facteur** dans la page **Types d'élément critique**, est toujours utilisé sur l'ordre de travail.
 - En général, l'élément critique de l'actif peut changer sur une période. L'élément critique peut être affecté par l'achat d'un nouvel équipement, les rénovations, etc. Pensez à réévaluer vos éléments critiques d'actif à des intervalles réguliers (par exemple, une fois par an ou tous les deux ans) pour vous assurer que vos définitions d'élément critique correspondent à votre paramétrage de production actuel.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Dynamics 365 Human Resources utilise des codes de niveau avec des taux d'avantag
    | **Description** | Courte description du code de niveau d'avantage. |
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Cette procédure décrit la création d'un produit dans la hiérarchie des produ
 8. Dans le champ Numéro du produit, saisissez une valeur.
 9. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

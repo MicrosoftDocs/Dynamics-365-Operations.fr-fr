@@ -104,3 +104,6 @@ La capacité de rappeler un journal dans workflow dont le statut « Irrécupér
 
 ## <a name="delete-journal-lines"></a>Supprimer des lignes du journal
 La possibilité de supprimer rapidement toutes les lignes du journal est activée dans un journal sous **Fonctions** > **Supprimer des lignes du journal**. Pour activer cette fonction, dans **Gestion des fonctions**, sélectionnez **Supprimer les optimisations des performances du journal**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Vous pouvez affecter une étape d’approbation aux groupes suivants de particip
 - [Définition des flux de travail de processus entreprise pour les demandes d’achat (livre blanc)](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Workflow de demande d’achat](purchase-requisitions-workflow.md)
 - [Intégrer des fournisseurs](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

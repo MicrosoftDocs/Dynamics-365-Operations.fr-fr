@@ -66,3 +66,6 @@ Vous pouvez maintenant affecter la stratégie de création de charge à un modè
 1. Passez en revue les charges proposées et les lignes de charge proposées.
 1. Dans le volet Actions, sélectionnez **Créer des charges** pour créer des charges basées sur les lignes du document source sur le raccourci **Lignes de charge proposées**.
 1. Fermez la page **Atelier de création de charge**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

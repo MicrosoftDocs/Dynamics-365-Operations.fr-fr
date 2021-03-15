@@ -666,3 +666,6 @@ Vous devez terminer le travail de prélèvement du stock trié. Une fois termin�
     Le travail est terminé.
 
 À partir de ce stade, tous les autres processus d'entrepôt s'appliquent.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

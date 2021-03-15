@@ -79,3 +79,6 @@ Pour sélectionner une disposition différente pour la page existante, procédez
 
 [Créer des pages e-commerce dynamiques basées sur des paramètres d'URL](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

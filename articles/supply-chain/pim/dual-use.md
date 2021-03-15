@@ -107,3 +107,6 @@ Vous utilisez la page **Certificats de double usage** pour configurer et gérer 
     | Imprimer sur la facture | Cochez cette case pour imprimer le numéro de certificat sur les factures adressées au pays spécifié pendant la plage de dates spécifiée. |
     | Imprimer sur le bon de livraison | Cochez cette case pour imprimer le numéro de certificat sur les bons de livraison adressés au pays spécifié pendant la plage de dates spécifiée. |
     | Imprimer sur la commande client | Cochez cette case pour imprimer le numéro de certificat sur les commandes client adressées au pays spécifié pendant la plage de dates spécifiée. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

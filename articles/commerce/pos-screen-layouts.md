@@ -207,3 +207,6 @@ Le concepteur du groupe de boutons vous permet de configurer les groupes de bout
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Installer le concepteur de mise en page du Point de vente au détail (PDV)](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

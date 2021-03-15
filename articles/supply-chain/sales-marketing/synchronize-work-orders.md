@@ -76,3 +76,6 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Ordres de travail avec Projet (Field Service vers Supply Chain Management) : WorkOrderService
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

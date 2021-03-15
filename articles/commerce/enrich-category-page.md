@@ -66,3 +66,6 @@ Pour enrichir une page de catégorie, procédez comme suit.
 [Vérifier l’accessibilité du contenu de la page](verify-accessibility.md)
 
 [Créer des pages e-commerce dynamiques basées sur des paramètres d'URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

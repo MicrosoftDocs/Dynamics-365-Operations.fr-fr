@@ -89,3 +89,6 @@ Cette procédure montre comment honorer un contrat de vente en y associant des c
 23. Cliquez sur Contrat de vente joint.
 24. Cliquez sur l'onglet Exécution.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

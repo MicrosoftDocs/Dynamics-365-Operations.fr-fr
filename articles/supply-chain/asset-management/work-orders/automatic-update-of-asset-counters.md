@@ -69,3 +69,6 @@ Notez les points suivants :
 
 - Vous pouvez paramétrer les compteurs associés à un autre compteur. Dans ce cas, lorsqu'un compteur est mis à jour, les compteurs associés sont automatiquement mis à jour simultanément. Pour plus d'informations sur la configuration des compteurs associés, voir [Compteurs](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

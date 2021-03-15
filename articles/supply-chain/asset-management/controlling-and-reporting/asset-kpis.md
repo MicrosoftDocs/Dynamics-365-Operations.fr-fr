@@ -89,3 +89,6 @@ L'illustration suivante présente une capture d'écran d'un calcul de KPI pour q
 - Vous pouvez choisir plusieurs actifs dans **Tous les actifs** et cliquer sur le bouton **Indicateurs de performance clés de l'actif** sur l'onglet **Général**. Ensuite, cliquez sur **Ajouter** dans la boîte de dialogue **Calculer les indicateurs de performance clé de l'actif** pour calculer des indicateurs de performance clé pour les actifs sélectionnés.  
 - Les résultats d'un calcul de KPI peuvent inclure ou pas des [enregistrements de temps d'arrêt de maintenance](../work-orders/maintenance-downtime.md), selon le paramétrage et l'utilisation des codes motif de temps d'arrêt pour maintenance. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

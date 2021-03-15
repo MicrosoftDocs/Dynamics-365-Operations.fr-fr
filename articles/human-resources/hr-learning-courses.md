@@ -137,3 +137,6 @@ Les employés qui s'inscrivent à un cours via la page **Libre service employé*
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

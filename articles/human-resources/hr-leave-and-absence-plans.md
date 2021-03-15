@@ -383,3 +383,6 @@ Solde prévu (30) = Montant de régularisations (10 × 1) + Solde actuel (40) �
 - [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)
 - [Provisionner les plans de congé et d’absence](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

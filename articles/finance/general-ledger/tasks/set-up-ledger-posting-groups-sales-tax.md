@@ -41,3 +41,6 @@ La taxe est calculée et validée dans les comptes principaux spécifiés dans l
 11. Dans le champ **Client - Escompte de règlement**, sélectionnez le compte principal pour valider l’escompte de règlement pour les **codes taxe** associés à ce **groupe de validation dans la comptabilité**. Ceci est facultatif et si aucun compte n’est entré, le compte principal des **codes escompte de règlement** est alors utilisé. Il peut être utile d’utiliser différents comptes par **groupe de validation dans la comptabilité** si vous utilisez l’option Contrepasser la taxe sur l’escompte de règlement dans les **groupes de taxe**.  
 12. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

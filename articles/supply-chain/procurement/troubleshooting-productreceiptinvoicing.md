@@ -109,3 +109,6 @@ La procédure suivante montre comment reproduire le problème.
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Cela dépend des paramètres des factures et des groupes de factures. Pour plus d'informations, consultez l'article de blog suivant : [Comptabilité pour les frais d'achat et la variation des stocks](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

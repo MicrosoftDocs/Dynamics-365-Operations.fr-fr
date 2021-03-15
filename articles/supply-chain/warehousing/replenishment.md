@@ -78,3 +78,6 @@ Au lieu de devoir ajouter la demande à la fin d'un processus de répartition et
 |   Instructions d'emplacement   |                                                       Les instructions d’emplacement sont nécessaires pour guider le travail vers les emplacements où le réapprovisionnement est requis et vers les emplacements d'où est tiré le stock.                                                        |
 |     Modèles de travail      |                                                   Les modèles de travail du type <strong>Réapprovisionnement</strong> sont requis pour créer le travail de réapprovisionnement afin que le stock puisse être déplacé vers les emplacements souhaités.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

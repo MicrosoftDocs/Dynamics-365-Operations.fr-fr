@@ -56,3 +56,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 8. Dans l’arborescence, développez « Modèle de déclaration d’échanges de biens ».
 9. Dans l’arborescence, sélectionnez « Modèle de déclaration d’échanges de biens\Déclaration d’échanges de biens (Allemagne) ».
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

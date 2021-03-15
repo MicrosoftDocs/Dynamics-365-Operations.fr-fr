@@ -57,3 +57,6 @@ Cette procédure décrit comment créer un compte bancaire pour un fournisseur. 
 25. Choisissez le compte que vous venez de créer dans le champ **Compte bancaire**.
 26. Cliquez sur **Enregistrer**. L'adresse peut être héritée du groupe bancaire, s'il est spécifié, ou vous pouvez l'ajouter ici.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

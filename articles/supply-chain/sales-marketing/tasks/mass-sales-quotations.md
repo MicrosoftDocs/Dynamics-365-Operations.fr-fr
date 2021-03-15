@@ -100,3 +100,6 @@ Cette procédure illustre comment créer efficacement des devis offrant un ensem
 11. Accédez à Ventes et marketing > Devis de vente > Tous les devis.
     * Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l'indique le modèle sélectionné.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

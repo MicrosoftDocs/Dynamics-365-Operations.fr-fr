@@ -72,3 +72,6 @@ Les règles de distribution des coûts sont utilisées pour distribuer les coût
 5. Dans le champ Unité de contrôle des coûts, entrez ou sélectionnez une valeur.
 6. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

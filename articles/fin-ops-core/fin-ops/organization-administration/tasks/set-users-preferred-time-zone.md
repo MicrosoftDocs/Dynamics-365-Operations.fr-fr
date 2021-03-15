@@ -35,3 +35,6 @@ La rubrique suivante explique comment un utilisateur ayant un rôle d’administ
 5. Dans le champ **Fuseau horaire**, sélectionnez une option dans la liste déroulante.
 6. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

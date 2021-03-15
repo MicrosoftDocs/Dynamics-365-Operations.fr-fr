@@ -84,3 +84,6 @@ Pour activer la fonctionnalité de limites de quantité de commande B2B dans le 
 [Gérer les partenaires commerciaux sur les sites de commerce électronique B2B](manage-b2b-users.md)
 
 [Configurer le mode de paiement du compte client pour les sites de commerce électronique B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

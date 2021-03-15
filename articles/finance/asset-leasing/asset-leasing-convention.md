@@ -50,3 +50,6 @@ Pour afficher ou attribuer la convention de location, procédez comme suit.
 3. Sélectionnez **Enregistrer**.
 
 Lorsqu'un contrat de location est créé, la date de début de chaque registre est automatiquement saisie en fonction de la date de début qui est entrée pour le contrat de location et de la convention de location spécifiée pour le registre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

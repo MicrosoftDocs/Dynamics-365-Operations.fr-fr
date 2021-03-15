@@ -39,3 +39,6 @@ Si vous essayez de définir une quantité de vente (champ **QtéVente**) pour un
 
 Vous ne pouvez pas définir une quantité de vente pour les produits qui sont des articles de service. Par exemple, si vous proposez un service pour l'installation d'un élément, cela n'a pas de sens d'enregistrer une quantité, car il n'y a pas d'article physique. Il n'y a qu'un service.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

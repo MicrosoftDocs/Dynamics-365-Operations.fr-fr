@@ -235,3 +235,6 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
 - [Démarrage du module complémentaire de facturation électronique pour le Mexique](e-invoicing-mex-get-started.md)
 - [Démarrage du module complémentaire de facturation électronique pour l’Italie](e-invoicing-ita-get-started.md)
 - [Factures électroniques client en Égypte](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

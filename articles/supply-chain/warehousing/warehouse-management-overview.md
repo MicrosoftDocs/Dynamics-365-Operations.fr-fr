@@ -73,3 +73,6 @@ Vous trouverez des avis, des actualités et d'autres informations concernant la 
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

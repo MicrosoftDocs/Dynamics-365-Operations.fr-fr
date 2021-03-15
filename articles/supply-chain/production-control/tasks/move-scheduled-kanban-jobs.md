@@ -61,3 +61,6 @@ Cette procédure se concentre sur le déplacement des tâches de kanban d'un pro
 2. Cliquez sur **Suivant**. Notez que la tâche est déplacée une ligne vers le bas dans la liste. 
 
 3. Cliquez sur **Précédent**. Notez que la tâche est déplacée une ligne vers le haut dans la liste.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

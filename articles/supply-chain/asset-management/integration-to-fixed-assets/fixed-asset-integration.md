@@ -114,3 +114,6 @@ Pour supprimer une association existante entre une ressource en cours de mainten
 1. Recherchez et ouvrez l'immobilisation.
 1. Sur l'organisateur **Immobilisation**, effacez la valeur du champ **Poste technique**.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

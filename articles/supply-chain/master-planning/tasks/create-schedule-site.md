@@ -55,3 +55,6 @@ Cette procédure décrit comment planifier les ordres de fabrication qui n'ont p
 4. Cliquez sur Matériaux.
     * Dans cette page, vous pouvez voir la consommation de matériaux estimée pour les opérations sur l'ordre de fabrication et le stock disponible actuel.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

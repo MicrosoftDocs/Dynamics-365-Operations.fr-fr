@@ -69,3 +69,6 @@ Les statistiques de questionnaire permettent de calculer les moyennes, les totau
 2. Cliquez sur Résultat.
 3. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

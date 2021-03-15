@@ -71,3 +71,6 @@ Enrichissez le canal en ajoutant des attributs de canal et de produit. Vous deve
 33. Cliquez sur OK.
 34. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

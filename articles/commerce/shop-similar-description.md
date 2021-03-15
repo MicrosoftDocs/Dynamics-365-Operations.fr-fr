@@ -98,3 +98,6 @@ L’illustration suivante montre la case à cocher **Activer le lien Acheter des
 [Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
 
 [FAQ sur les recommandations de produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

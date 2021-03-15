@@ -62,3 +62,6 @@ Lors de la mise à jour d’une demande de congé existante, vous pouvez ajouter
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

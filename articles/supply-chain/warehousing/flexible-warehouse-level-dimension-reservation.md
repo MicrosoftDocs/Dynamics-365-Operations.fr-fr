@@ -853,3 +853,6 @@ Les tableaux suivants fournissent une vue d’ensemble qui montre comment le sys
     - Ordres de transfert et prélèvement des matières premières
 
 - La règle de consolidation des conteneurs pour l’emballage par unité de directive présente des limites. Pour les réservations validées par la commande, nous vous recommandons de ne pas utiliser de modèles de construction de conteneur où le cham **Pack par unité de directive** est activé. Dans la conception actuelle, les directives d’emplacement ne sont pas utilisées lors de la création d’un travail d’entrepôt. Par conséquent, seule l’unité la plus basse du groupe de séquences d’unités (l’unité d’inventaire) est appliquée pendant l’étape de vague de conteneurisation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

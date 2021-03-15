@@ -67,3 +67,6 @@ Vous pouvez sélectionner tout travailleur comme technicien préféré pour un a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

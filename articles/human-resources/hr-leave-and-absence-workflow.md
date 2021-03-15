@@ -81,3 +81,6 @@ Ces exemples montrent comment créer différents types de conditions de workflow
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

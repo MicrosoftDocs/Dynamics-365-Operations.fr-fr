@@ -54,3 +54,6 @@ Cette procédure vous guide au cours de la création d'une dimension financière
 24. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 25. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

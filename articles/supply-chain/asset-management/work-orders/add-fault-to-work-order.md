@@ -79,3 +79,6 @@ Dans la page de liste **Tous les actifs**, vous pouvez imprimer un état de déf
 >[!NOTE]
 >Pour imprimer un état de défaillance pour plusieurs actifs ou types d'actifs, sélectionnez **Gestion des actifs** > **États** > **Actifs** > **Défaillance des actifs**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

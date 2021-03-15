@@ -62,3 +62,6 @@ Cette procédure est orientée sur la création d'une stratégie de calcul de qu
 8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Sélectionnez la stratégie Speaker2016 que vous venez de créer dans la sous-tâche précédente.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

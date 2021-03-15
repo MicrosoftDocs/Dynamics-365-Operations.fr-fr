@@ -146,3 +146,6 @@ L'image suivante montre les détails d'un entrepôt configuré.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Ressources supplémentaires
 - [Espace de travail de contrôle des coûts](cost-control-workspace.md)
 - [Hiérarchie des dimensions](dimension-hierarchy.md)
 - [Paramétrer la sécurité du pack de contenu Contrôle de gestion](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

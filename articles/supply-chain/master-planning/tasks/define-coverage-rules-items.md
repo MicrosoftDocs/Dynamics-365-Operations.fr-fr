@@ -101,3 +101,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 11. Entrez « 5 » dans le champ **Délai d'achat**.
 12. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

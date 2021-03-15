@@ -56,3 +56,6 @@ Cette procédure explique comment affecter des groupes de taxes aux canaux de co
 21. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 22. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

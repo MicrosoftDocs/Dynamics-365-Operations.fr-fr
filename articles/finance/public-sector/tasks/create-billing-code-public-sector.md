@@ -40,3 +40,6 @@ Les champs personnalisés du code facturation permettent de rassembler les valeu
 7. Ouvrez la section Références du code facturation. Lorsque vous affectez ce champ personnalisé à un code facturation, le code facturation est indiqué ici.
 8. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Sélectionnez l'une des rubriques suivantes pour commencer.
 [États et cycle de vie des documents](document-states-overview.md)
 
 [Activer et utiliser le partage intercanal](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

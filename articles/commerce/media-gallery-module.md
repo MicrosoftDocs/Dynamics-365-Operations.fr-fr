@@ -103,3 +103,6 @@ Pour ajouter un module Galerie multimédia à une page marketing, procédez comm
 [Module Conteneur](add-container-module.md)
 
 [Importer des images](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

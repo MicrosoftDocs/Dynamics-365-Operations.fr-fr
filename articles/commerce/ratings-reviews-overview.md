@@ -58,3 +58,6 @@ La solution de classement et d'évaluations fournit également un modèle de Bus
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
 
 [Synchronisation des évaluations de produit dans Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

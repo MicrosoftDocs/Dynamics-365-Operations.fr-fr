@@ -43,3 +43,6 @@ Pour activer l'état de prix, le paramètre **Activer l'état de prix pour le ma
 | Afficher les produits avec les modifications de prix | En définissant ce paramètre sur **Oui**, les prix s'affichent pour uniquement ces dates auxquelles le prix a été modifié. Le prix pour *un jour avant* la **Date de début** sélectionnée sera toujours affichée, de telle sorte que le responsable du magasin peut facilement identifier les produits dont les prix n'ont pas changé pendant l'intégralité de la durée, et peut également visualiser le prix actuel. |
 
 Une fois l'état généré, le fichier Excel peut être téléchargé pour tout besoin de filtre supplémentaire. L'état de prix peut être également utilisé pour vérifier les prix historiques des produits pour les dates passées.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

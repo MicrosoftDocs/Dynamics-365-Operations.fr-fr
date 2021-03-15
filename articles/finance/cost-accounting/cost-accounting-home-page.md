@@ -52,3 +52,6 @@ Le programme de formation suivant montre les principaux concepts et tâches qui 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d'
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

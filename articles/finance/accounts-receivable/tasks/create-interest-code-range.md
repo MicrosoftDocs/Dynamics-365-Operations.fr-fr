@@ -50,3 +50,6 @@ Vous pouvez paramétrer les codes intérêt de sorte à calculer différents mon
 21. Spécifiez le pourcentage d’intérêt par mois qui sera utilisé pour calculer les intérêts à partir du mois 7. Dans notre exemple, la valeur est 2,5.
 22. Cliquez sur Fermer pour terminer le paramétrage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

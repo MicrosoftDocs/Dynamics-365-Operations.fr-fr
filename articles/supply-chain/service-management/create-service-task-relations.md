@@ -74,3 +74,6 @@ Les relations de tâches de service créées dans une commande de service sont d
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

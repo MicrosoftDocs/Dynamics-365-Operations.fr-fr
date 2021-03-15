@@ -59,3 +59,6 @@ L'illustration suivante présente un exemple de sélection d'expédition dans la
 [!NOTE]
 Si vous souhaitez supprimer le programme sur un ordre de travail, sélectionnez ce dernier dans **Tous les ordres de travail**, puis cliquez sur **Supprimer programme** dans l'onglet **Général**. N'oubliez pas de mettre à jour manuellement l'état du cycle de vie de l'ordre de travail si vous supprimez le programme.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

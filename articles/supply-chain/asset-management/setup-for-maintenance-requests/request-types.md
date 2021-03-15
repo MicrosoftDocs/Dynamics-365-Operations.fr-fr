@@ -44,3 +44,6 @@ Un type de demande de maintenance définit l'affiliation à un groupe d'états d
 L'illustration suivante présente un exemple de la page **Types de demandes de maintenance**.
 
 ![Page Types de demandes de maintenance](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

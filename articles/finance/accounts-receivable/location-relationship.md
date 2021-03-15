@@ -73,3 +73,6 @@ Vous pouvez ajouter un nouveau type de relation de deux manières :
     3.  Pour tester le remplissage du nouveau type de relation, vous pouvez créer une classe exécutable et appeler DirDataPopulation::insertDirRelationshipTypes() dans Main(). Le nouveau type de relation doit s’afficher dans la table **DirRelationshipTypeTable**, et il est disponible sur la page **Types de relations**.
 
         ![Classe exécutable](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

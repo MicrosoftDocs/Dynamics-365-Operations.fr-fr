@@ -49,3 +49,6 @@ Vous définissez la portée de la règle dans la stratégie. Par exemple, si vou
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

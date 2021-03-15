@@ -126,3 +126,6 @@ La couleur est affichée uniquement sur le niveau le plus bas dans le diagramme 
 1. Dans la grille, sélectionnez la ligne où le champ **Champ** est défini sur **Numéro d’article**.
 1. Dans le champ **Critère**, entrez une valeur.
 1. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Vous pouvez générer l'état **Expédié aux clients** pour identifier la quant
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Puis-je suivre des coproduits et des sous-produits ?
 Vous pouvez suivre des coproduits, mais pas des sous-produits, car ces derniers n'ont généralement pas de dimension de suivi. Lorsque vous suivez un article, les détails du suivi sont inclus dans tous les coproduits associés. Les détails d'un nœud contenant un coproduit incluent le mot « coproduit ». Vous pouvez également afficher des détails concernant un coproduit en sélectionnant le nœud dans les détails du suivi, puis en cliquant sur l'organisateur **Production**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

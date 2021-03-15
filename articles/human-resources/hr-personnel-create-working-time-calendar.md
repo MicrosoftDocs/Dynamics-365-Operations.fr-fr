@@ -43,3 +43,6 @@ Les calendriers décrivent la capacité et les heures de travail des ressources 
 12. Cliquez sur **OK**.
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

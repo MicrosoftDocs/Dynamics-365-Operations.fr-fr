@@ -66,3 +66,6 @@ Ce guide indique comment créer une région de l'index de carburant, un index de
 12. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 13. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

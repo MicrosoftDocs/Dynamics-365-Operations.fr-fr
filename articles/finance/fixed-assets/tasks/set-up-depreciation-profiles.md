@@ -39,3 +39,6 @@ Les profils d’amortissement déterminent le type et la fréquence d’amortiss
 7. Sélectionnez une option dans le champ **Fréquence de période**.
 8. Permet de fermer l’écran.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

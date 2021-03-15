@@ -40,3 +40,6 @@ Cette rubrique explique comment paramétrer des souches de numéros sur une base
 8. Développez la section **Général**. Dans l’organisateur Général, indiquez si la souche de numéros est manuelle, continue ou discontinue. De plus, entrez le plus petit et le plus grand des numéros pouvant être utilisés dans la souche de numéros. Il n’est pas conseillé de modifier une souche de numéros non continue en une souche de numéros continue. La souche de numéros ne sera pas véritablement continue. Cette modification peut également entraîner des violations de clé dupliquée dans la base de données. En outre, les souches de numéros continues ont un plus grand effet sur les performances.   
 9. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

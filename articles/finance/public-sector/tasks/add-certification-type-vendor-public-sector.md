@@ -43,3 +43,6 @@ Vous pouvez créer et affecter aux fournisseurs n’importe quel type de certifi
     * Compléter les détails.   
 12. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

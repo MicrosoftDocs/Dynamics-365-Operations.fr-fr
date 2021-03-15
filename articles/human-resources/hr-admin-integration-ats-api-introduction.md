@@ -137,3 +137,5 @@ Jeux d'options :
 [Qu'est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Utiliser l'API Web Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Créer et mettre à jour des ensembles d'options à l'aide de l'API Web](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

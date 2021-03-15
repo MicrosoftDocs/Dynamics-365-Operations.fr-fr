@@ -112,3 +112,6 @@ Le tableau suivant indique les types de listes disponibles pour la sélection da
 [Vue d’ensemble des recommandations produit](product-recommendations.md)
 
 [Module de visualisation rapide](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

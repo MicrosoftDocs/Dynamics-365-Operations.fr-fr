@@ -122,3 +122,6 @@ Pour envoyer une réservation budgétaire générale au système de workflow, su
     À mesure que la réservation progresse dans le workflow, le statut de la réservation et du workflow change et cette modification est répercutée dans l’en-tête de la réservation budgétaire générale.
 
 7. Une fois le workflow terminé et la statut de la réservation passé à **Approuvé**, vous pouvez valider le document.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

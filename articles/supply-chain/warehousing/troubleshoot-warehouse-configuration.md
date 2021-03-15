@@ -108,3 +108,6 @@ Pour permettre aux employés d'effectuer cette modification, vous pouvez créer 
 - **Afficher le statut de stock :** *Oui*
 
 Vous pouvez définir d'autres champs dans la page comme vous le souhaitez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

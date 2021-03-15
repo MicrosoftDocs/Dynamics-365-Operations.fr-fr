@@ -85,3 +85,6 @@ La société fictive USMF sert d’exemple dans cet enregistrement. Les différe
 24. Fermez la page.
 25. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

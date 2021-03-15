@@ -59,3 +59,6 @@ Une fois que le traitement des transactions de relevé bancaire est terminé, un
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

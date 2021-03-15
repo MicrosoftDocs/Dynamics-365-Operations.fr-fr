@@ -81,3 +81,6 @@ Ces exemples montrent comment créer différents types de conditions de workflow
 [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)<br>
 [Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

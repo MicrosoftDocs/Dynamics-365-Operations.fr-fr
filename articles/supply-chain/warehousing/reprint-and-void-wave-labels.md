@@ -217,3 +217,6 @@ Les exceptions de travail contrôlent le comportement du prélèvement partiel. 
 1. Sélectionnez **Prélèvement partiel**.
 1. Sélectionnez le code d'exception de travail que vous avez créé pour ce scénario.
 1. Si vous avez sélectionné l'exception correcte, la case à cocher **Annulation et réimpression** doit être disponible. Cochez cette case et confirmez. Une fois l'opération confirmée, la séquence de rouleau d'étiquettes identifiée par le champ **ID de build d'étiquette** est recalculée en fonction de la quantité de la ligne de travail modifiée. Elle est ensuite réimprimée sur l'imprimante spécifiée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

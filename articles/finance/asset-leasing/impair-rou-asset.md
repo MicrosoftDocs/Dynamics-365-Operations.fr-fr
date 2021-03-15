@@ -101,3 +101,6 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
 7. Pour voir l’effet net de la dépréciation, consultez les tableaux des transactions de passif et d’actif. Notez que la dépense de dépréciation a diminué le droit d’utilisation de l’actif, mais que la valeur comptable du passif locatif n’a pas changé.
 
 La dépréciation a un autre effet que vous devriez considérer. Étant donné que le montant du droit d’utilisation de l’actif est maintenant bien inférieur au passif locatif, le montant doit être amorti différemment qu’il ne l’était auparavant. Plus précisément, l’actif est désormais amorti de manière linéaire pendant les 84 mois restants du bail, à compter de la date de transaction.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

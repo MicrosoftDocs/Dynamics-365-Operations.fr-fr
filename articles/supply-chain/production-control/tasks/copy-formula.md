@@ -64,3 +64,6 @@ Cette procédure se focalise sur la création d'une formule incluant les mêmes 
 5. Cliquez sur Sélectionner.
 6. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

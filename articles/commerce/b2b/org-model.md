@@ -62,3 +62,6 @@ Les utilisateurs de Commerce Headquarters peuvent consulter les valeurs de propr
 [Configurer le mode de paiement du compte client pour les sites de commerce électronique B2B](payment-method.md)
 
 [Définir des limites de quantité de produits pour les sites de commerce électronique B2B](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

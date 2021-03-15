@@ -259,3 +259,6 @@ Par conséquent, lorsque l'activation est activée pour le chevauchement, le res
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

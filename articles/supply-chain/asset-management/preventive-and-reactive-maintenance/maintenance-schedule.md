@@ -67,3 +67,6 @@ L'illustration ci-dessous présente la page de liste **Tout le programme de main
 
 ![Figure 1](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

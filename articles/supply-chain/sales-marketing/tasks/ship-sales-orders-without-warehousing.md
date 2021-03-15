@@ -55,3 +55,6 @@ Cette rubrique explique comment mettre une commande client à jour lorsque les p
 19. Dans le volet Actions, cliquez sur **Prélever et emballer**.
 20. Sélectionnez **Bon de livraison**. La page **Journal des bons de livraison** contient tous les documents de bon de livraison générés pour votre commande. Vous pouvez réviser les détails de chaque document et les imprimer, si vous le souhaitez.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

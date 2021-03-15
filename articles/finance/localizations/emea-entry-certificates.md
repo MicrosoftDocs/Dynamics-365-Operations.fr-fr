@@ -125,3 +125,6 @@ Si vous n’avez pas accès aux pages qui vous permettent d’effectuer cette t�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

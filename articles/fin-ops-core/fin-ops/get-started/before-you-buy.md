@@ -93,3 +93,6 @@ Microsoft FastTrack for Dynamics 365 est notre service de réussite client conç
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Si vous mettez à niveau depuis Dynamics AX 2012 ou que vous effectuez une migration depuis AX 2009
 
 Si vous êtes un client qui effectue une mise à niveau depuis Microsoft Dynamics AX 2012 ou que vous effectuez une migration depuis Microsoft Dynamics AX 2009, vous pouvez être éligible pour un essai plus long. Contactez <daxcf@microsoft.com> pour plus d’informations.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

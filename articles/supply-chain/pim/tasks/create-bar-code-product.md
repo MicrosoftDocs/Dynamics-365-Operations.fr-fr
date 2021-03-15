@@ -42,3 +42,6 @@ Cette rubrique indique comment créer manuellement un code-barres en utilisant l
 12. Sélectionnez **Enregistrer**.
 13. Fermez la page. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

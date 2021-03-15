@@ -116,3 +116,6 @@ Cette procédure est créée pour les utilisateurs auxquels le rôle Administrat
 68. Cliquez sur Enregistrer.
     * Notez que « exécution » dans le champ indique que ce regroupement est exécuté au moment de l’exécution dans la mémoire même s’il n’existe pas de regroupement défini et que la source de données sélectionnée de type « Enregistrements de table » fait référence à la même table « Déclaration d’échanges de biens ». Cela est dû au fait que la source de données contient certains champs calculés qui ne peuvent pas encore être convertis au niveau de base de données SQL.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

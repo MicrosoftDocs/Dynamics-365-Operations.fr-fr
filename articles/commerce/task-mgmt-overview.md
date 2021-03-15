@@ -52,3 +52,6 @@ L'illustration suivante présente l'architecture conceptuelle de la gestion des 
 [Affecter des listes de tâches à des magasins ou des employés](task-mgmt-assign-lists.md)
 
 [Gestion des tâches dans le PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

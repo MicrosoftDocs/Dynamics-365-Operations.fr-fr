@@ -117,3 +117,6 @@ Dans une prochaine version de Commerce, les détaillants pourront définir le mo
 
 Pour empêcher les problèmes inattendus de performances, cette configuration est masquée derrière un indicateur de version d’évaluation nommé **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Par conséquent, pour afficher le paramètre **Mode de recherche de client par défaut** dans l’interface utilisateur (IU), le détaillant doit créer un ticket de support pour ses environnements de test d’acceptation par l’utilisateur (UAT) et de production. Une fois le ticket réceptionné, l’équipe d’ingénierie collaborera avec le détaillant pour s’assurer que celui-ci effectue le test dans un environnement autre que de production afin de pouvoir évaluer les performances et de mettre en œuvre toutes les optimisations requises.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

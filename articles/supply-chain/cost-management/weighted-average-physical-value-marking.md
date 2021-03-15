@@ -229,3 +229,6 @@ Le diagramme suivant illustre cette série de transactions avec les effets du ch
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

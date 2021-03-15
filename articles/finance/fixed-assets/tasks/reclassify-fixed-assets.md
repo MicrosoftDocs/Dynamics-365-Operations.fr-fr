@@ -45,3 +45,6 @@ Procédez comme suit pour reclassifier une immobilisation :
 5. Dans le champ **Date de reclassification**, entrez une date.
 6. Dans le champ **Souche de N° documents**, entrez ou sélectionnez une valeur.
 7. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

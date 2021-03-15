@@ -159,3 +159,6 @@ Le tableau suivant répertorie les 12 premiers mois de l’échéancier de paie
 
 > [!NOTE]
 > Si le type de rente passe sur la valeur **Rente due**, le paiement se fera en janvier plutôt qu’en décembre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Cette procédure décrit comment créer un état du cycle de vie des produits pa
 > [!NOTE]
 > Supposons que vous ayez paramétré un état actif, vous pouvez désormais sélectionner l'état actif pour pouvoir utiliser le produit dans la planification et le calcul au niveau de la nomenclature. Évidemment, cette utilisation n'a de sens que si tous les détails du produit nécessaires à une planification cohérente sont spécifiés.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

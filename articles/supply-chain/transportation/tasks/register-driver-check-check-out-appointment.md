@@ -45,3 +45,6 @@ Cette procédure montre comment enregistrer l'arrivée et le départ d'un chauff
 1. Cliquez sur Vérification au départ du chauffeur.
 2. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

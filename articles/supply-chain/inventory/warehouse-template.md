@@ -97,3 +97,6 @@ Pour en savoir plus sur l'utilisation du modèle d'entrepôt pour copier la conf
 ## <a name="related-topic"></a>Rubrique connexe
 
 [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

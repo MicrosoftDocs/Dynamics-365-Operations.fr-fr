@@ -45,3 +45,6 @@ Un lot de production consolidé peut contenir toute combinaison des commandes su
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

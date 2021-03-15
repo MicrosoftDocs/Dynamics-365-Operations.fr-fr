@@ -173,3 +173,6 @@ D'autres améliorations importantes visibles par les utilisateurs ont été appo
 
     - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l'onglet **Validation**, dans l'organisateur **Mise à jour du stock**, dans le champ **Niveau de détail**, sélectionnez **Synthèse**.
     - Accédez à **Commerce et vente au détail** \> **Configuration du siège** \> **Paramètres** \> **Paramètres Commerce**. Ensuite, sous l'onglet **Validation**, dans l'organisateur **Regroupement**, définissez l'option **Pièces comptables** sur **Oui**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

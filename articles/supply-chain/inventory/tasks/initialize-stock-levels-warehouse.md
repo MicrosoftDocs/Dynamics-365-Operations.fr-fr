@@ -59,3 +59,6 @@ Cette procédure décrit la manière dont vous obtenez le stock disponible mis �
 25. Fermez la page.
 26. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -189,3 +189,6 @@ Lorsqu’un document sortant dans un format du classeur Microsoft Excel est gén
 [Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md)
 
 [Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1414,3 +1414,6 @@ Dans la comptabilité financière, un coût de 10 000,00 pour l’électricité
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

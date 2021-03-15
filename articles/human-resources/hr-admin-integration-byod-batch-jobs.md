@@ -96,3 +96,6 @@ Cette fonctionnalité BYOD a les restrictions suivantes :
 [Apporter votre propre base de données (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
 [Vue d’ensemble de tâches d’importation et d’exportation de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
 [Activer le suivi des modifications pour les entités](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Pour en savoir plus sur chaque étape du processus d'expérimentation, reportez-
 
 ## <a name="next-step"></a>Étape suivante
 [Identifier une hypothèse et déterminer les métriques de réussite pour une expérience](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

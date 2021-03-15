@@ -65,3 +65,6 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 16. Cliquez sur Enregistrer.
 17. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

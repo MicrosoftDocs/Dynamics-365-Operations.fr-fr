@@ -87,3 +87,6 @@ Les étapes suivantes dans le cycle de vie de la production peuvent se produire 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

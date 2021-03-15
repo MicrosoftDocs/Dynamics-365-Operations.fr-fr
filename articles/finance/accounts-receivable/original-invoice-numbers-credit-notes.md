@@ -97,3 +97,6 @@ Lorsque vous imprimez du texte libre, des notes de crédit client et projet, ell
 
 > [!NOTE]
 > Assurez-vous que les formats imprimables des documents sont correctement configurés, en supposant que les références aux factures d'origine soient imprimées.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

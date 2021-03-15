@@ -46,3 +46,6 @@ Cette rubrique explique comment paramétrer des conditions de paiement pour les 
 16. Saisissez le compte principal sur lequel l’escompte de règlement sera imputé pour les factures clients, puis le compte principal sur lequel l’escompte de règlement sera imputé pour les factures fournisseurs. Si **Comptes de contrepartie pour les remises** est défini pour **utiliser le compte principal pour la remise fournisseur**, le compte principal est utilisé. Si l’option est définie sur **Comptes sur les lignes de facture**, l’escompte de règlement sera validé sur les comptes de dépense/d’actif sur les lignes de la facture.  
 17. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

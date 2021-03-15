@@ -812,3 +812,6 @@ Pour savoir comment la structure de format peut être synchronisée avec un mod�
 [Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Vous pouvez traiter les paiements des impayés en cliquant sur Paiement des impa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

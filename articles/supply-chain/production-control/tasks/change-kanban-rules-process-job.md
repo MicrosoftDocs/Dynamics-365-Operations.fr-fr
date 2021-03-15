@@ -48,3 +48,6 @@ Cette procédure traite de la modification de la règle de kanban utilisée pour
 7. Cliquez sur Terminer.
     * Actuellement, la tâche de kanban utilise une autre règle de kanban. Cela peut être utile pour l'équilibrage de charge des cellules de travail.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -353,3 +353,6 @@ Les scénarios suivants illustrent la façon dont vous pouvez utiliser les strat
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Stratégies de consolidation de l'expédition](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

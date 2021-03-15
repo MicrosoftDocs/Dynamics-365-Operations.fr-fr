@@ -39,3 +39,6 @@ La procédure suivante répertorie les étapes que les administrateurs système 
 6. Accédez au **volet de navigation > Modules > Commun > Commun > Tableau de bord par défaut**. Vous devez voir la nouvelle image de bannière ou de logo dans le tableau de bord.  
     
     Vous devez peut-être modifier votre société, à l’aide du sélecteur de société, pour faire figurer celle pour laquelle vous avez téléchargé la bannière.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérar
 4. Sélectionnez les produits à ajouter à la catégorie d'approvisionnement.
 5. Sélectionnez la flèche pour ajouter les produits à la table **Sélectionné**.
 6. Cliquez sur **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

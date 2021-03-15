@@ -46,3 +46,6 @@ Dans la page **Profils de validation d’immobilisation**, paramétrez les compt
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement](../fixed-assets/fixed-asset-value-model-depreciation-book-merge.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

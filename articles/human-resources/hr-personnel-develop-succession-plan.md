@@ -56,3 +56,6 @@ ms.locfileid: "5130203"
 27. Sélectionnez **Résultat**.
 28. Sélectionnez **Rapport**. Le rapport indique les meilleures correspondances tout en haut. Vous pouvez noter qu’un écart est répertorié. Un écart est la différence entre le niveau de cartographie des compétences et le niveau de compétence de la personne.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Les champs suivants sont ajoutés aux options du menu de l'appareil mobile si **
 - Code motif d'inventaire par défaut
 - Afficher le code motif d'inventaire
 - Modifier le code motif d'inventaire
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

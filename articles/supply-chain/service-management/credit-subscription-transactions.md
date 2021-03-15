@@ -55,3 +55,6 @@ Si le champ **Contrepasser les régularisations lors de l'opération de crédit*
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

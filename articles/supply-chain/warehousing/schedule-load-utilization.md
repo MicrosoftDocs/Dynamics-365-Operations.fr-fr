@@ -71,3 +71,6 @@ Vous pouvez prévoir l'utilisation de l'espace en générant l'état **Utilisati
 
 4. Dans le champ **Type de charge**, sélectionnez **Volume** ou **Poids** pour spécifier l'unité opérationnelle d'entrepôt pour laquelle prévoir l'espace.
 5. Dans le champ **Paramétrage de l'utilisation de l'espace**, sélectionnez le paramétrage de l'utilisation de l'espace sur lequel la projection doit être basée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

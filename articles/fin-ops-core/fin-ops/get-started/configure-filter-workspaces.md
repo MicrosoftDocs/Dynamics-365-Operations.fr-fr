@@ -63,3 +63,6 @@ Si les différentes sections de l’espace de travail ont des filtres, vous pouv
 [![workspace-section-filters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Comme avec un filtre valide pour l’espace de travail, sélectionnez une valeur dans le champ pour filtrer le contenu de la section.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

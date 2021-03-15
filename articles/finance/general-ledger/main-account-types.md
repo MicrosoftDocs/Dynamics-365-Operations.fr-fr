@@ -40,3 +40,6 @@ Pour plus d’informations, voir [Paramétrer les catégories de compte principa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

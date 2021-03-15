@@ -193,3 +193,6 @@ La bibliothèque unifiée APQC (mai 2016) contient les guides de tâches qui son
 [Guides de tâches nouveaux ou mis à jour (août 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Guides de tâches nouveaux ou mis à jour (novembre 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

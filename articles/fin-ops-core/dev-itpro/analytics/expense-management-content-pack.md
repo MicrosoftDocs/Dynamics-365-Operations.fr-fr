@@ -93,3 +93,6 @@ Le contenu comprend un ensemble de pages d’état. Chaque page contient un ense
 | Statistiques d’employé | États des dépenses par type de coût            |
 |                     | Dépenses personnelles                       |
 |                     | États des dépenses de groupe de statistiques     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

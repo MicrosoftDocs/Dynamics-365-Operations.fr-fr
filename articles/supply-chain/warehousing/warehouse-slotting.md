@@ -383,3 +383,6 @@ Une fois que tous les éléments requis sont en place, vous pouvez configurer l�
 1. Définissez la récurrence d’exécution automatique, si vous le souhaitez.
 
 Pour les exercices du scénario, **ne paramétrez pas** la création de créneau automatique.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

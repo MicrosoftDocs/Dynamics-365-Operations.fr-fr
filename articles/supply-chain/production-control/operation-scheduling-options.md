@@ -133,3 +133,6 @@ Vous pouvez enregistrer les valeurs actuelles comme des valeurs par défaut. Deu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

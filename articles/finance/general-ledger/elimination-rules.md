@@ -154,3 +154,6 @@ Sélectionnez la société qui est la source des données consolidées, puis cho
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

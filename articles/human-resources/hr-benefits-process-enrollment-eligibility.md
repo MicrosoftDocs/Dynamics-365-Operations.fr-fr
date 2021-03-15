@@ -72,3 +72,6 @@ Cet article explique comment afficher les résultats du processus d'éligibilit�
    | **Statut du résultat** | Il s'agit du statut Éligible ou Inéligible. Le statut du résultat est défini sur Ineligible si le collaborateur n'a pas répondu aux critères de règle d'éligibilité, si le collaborateur n'a pas les informations requises comme la fréquence de paiement ou la rémunération fixe, ou si des informations manquent sur le régime de prestations qui empêche l'inscription des collaborateurs. |
    | **Message de résultat** | Indique pourquoi un collaborateur n'est pas admissible à un régime de prestations sociales ou si la règle d'admissibilité a été adoptée. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

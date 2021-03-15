@@ -60,3 +60,5 @@ Pour télécharger le modèle **Power Automate – Connexion et exécution SQL**
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

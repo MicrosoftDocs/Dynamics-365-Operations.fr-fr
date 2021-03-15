@@ -101,3 +101,6 @@ Lors de l'exécution de la planification générale, deux ordres prévisionnels 
 > Une fois qu'un ordre prévisionnel lié à une demande d'achat est confirmé, le moteur de planification conserve le lien avec la demande d'achat. S'il s'avère par la suite que l'ordre confirmé n'indique pas une quantité nécessaire pour traiter la demande d'achat, le système crée un nouvel ordre prévisionnel pour la différence.
 
 Pour plus d'informations sur les demandes d'achat, voir [Présentation générale de la demande d'achat](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

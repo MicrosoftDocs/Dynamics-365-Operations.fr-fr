@@ -47,3 +47,6 @@ Pour plus d’informations, voir [Valider avec des registres déduits](post-deri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Envisagez les informations suivantes pour certains champs suivants dans les éta
    - Dans les états **Solde fournisseur.txt** et **Solde client.txt**, cela doit être la valeur constante **Système**.
    - Dans les états **Fournisseur Stock en entrée.txt** et **Client Stock en entrée.txt**, c’est la valeur du champ **Type de transaction des états** à partir de la transaction fournisseur ou transaction client rapportée. Par exemple, les valeurs possibles peuvent être **Commande fournisseur** ou **Paiement**.
    - Dans l’état **FEC.txt**, c’est la valeur du champ **Type de transaction** de l’état Transaction de documents. Si le **Type de transaction** équivaut à **Feuille comptabilité**, c’est la valeur dans le champ **Description** du journal comptable qui est la source de la transaction de documents. Vérifiez en consultant la valeur sur la page **Noms de journal**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

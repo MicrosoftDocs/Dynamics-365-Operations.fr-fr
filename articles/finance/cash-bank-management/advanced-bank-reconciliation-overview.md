@@ -50,3 +50,6 @@ La fonctionnalité de rapprochement bancaire avancé vous permet d’importer de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

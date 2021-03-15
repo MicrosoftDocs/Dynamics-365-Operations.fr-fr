@@ -69,3 +69,6 @@ Si le nombre de lignes de documents est inférieur ou égal à cent, le processu
 
 Les transactions peuvent être contrepassées que si elles sont conformes aux règles métier pour les contrepasser. Les paiements fournisseur ne peuvent pas être contrepassés en utilisant une capacité décrite dans cette rubrique. Les paiements fournisseur doivent être contrepassés en suivant les étapes indiquées dans [Contrepasser un paiement fournisseur](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 3. Dans le champ **Environnement**, entrez le nom de l’environnement complémentaire de facturation électronique.
 4. Sélectionnez **Sauvegarder**, puis fermez la page.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

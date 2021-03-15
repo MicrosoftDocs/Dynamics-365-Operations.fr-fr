@@ -76,3 +76,6 @@ Pour ajouter un module iframe à une page afin d’afficher une vidéo externe, 
 [Présentation de la bibliothèque de modules](starter-kit-overview.md)
 
 [Gérer la stratégie de sécurité de contenu (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

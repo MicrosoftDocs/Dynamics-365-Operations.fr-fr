@@ -118,3 +118,6 @@ Champ Finance and Operations | Type de mise en correspondance | Champ Customer E
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Plusieurs étapes doivent être effectuées lorsque vous souhaitez planifier et 
 
 > [!NOTE]
 > En général, lorsque vous travaillez dans Dynamics 365 Supply Chain Management et le module **Gestion des actifs**, vous sélectionnez **Nouveau** pour créer un enregistrement, vous sélectionnez **Modifier** pour mettre à jour un enregistrement existant et vous sélectionnez **Enregistrer** pour enregistrer des données nouvelles ou modifiées.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

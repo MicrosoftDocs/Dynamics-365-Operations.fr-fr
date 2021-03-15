@@ -51,3 +51,6 @@ Le rôle de cette procédure Trésorier. La société fictive USMF sert d’exem
 10. Cliquez Document.
 11. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

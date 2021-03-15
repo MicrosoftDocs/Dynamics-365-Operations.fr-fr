@@ -112,3 +112,6 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module Ges
 | Toutes les vagues | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d'ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour le traitement de la vague |
 | Atelier de planification des chargements | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d'ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour l'atelier de planification du travail |
 | Détails du travail | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d'ensemble plus rapide et un processus de travail simplifié. | Vue enregistrée pour la page des détails du travail |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

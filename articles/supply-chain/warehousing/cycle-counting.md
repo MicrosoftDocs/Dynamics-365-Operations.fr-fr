@@ -139,3 +139,6 @@ Ajustez les différences dans la valeur d'inventaire puis acceptez la valeur d'i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

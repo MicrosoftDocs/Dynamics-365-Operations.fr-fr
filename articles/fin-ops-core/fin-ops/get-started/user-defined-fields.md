@@ -162,3 +162,6 @@ Pour des raisons de performances et techniques, seules les tables qui répondent
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Puis-je référencer des champs personnalisés à partir des outils de développement ?  
 
 Les champs personnalisés ne peuvent être gérés que via l’interface utilisateur et ne peuvent pas être référencés par du code. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

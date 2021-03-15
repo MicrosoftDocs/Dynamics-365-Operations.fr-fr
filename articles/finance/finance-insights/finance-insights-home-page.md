@@ -129,3 +129,6 @@ Veuillez envoyer un e-mail à [Informations sur les paiements des clients (aper�
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
 Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

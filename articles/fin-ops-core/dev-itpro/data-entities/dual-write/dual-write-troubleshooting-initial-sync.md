@@ -211,3 +211,6 @@ Si des lignes de la table client ont des valeurs dans les colonnes **ContactPers
     La synchronisation initiale des lignes est maintenant terminée.
 
 8. Dans l’application Finance and Operations, réactivez le suivi des modifications pour la table **Clients V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

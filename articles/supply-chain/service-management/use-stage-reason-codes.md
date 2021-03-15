@@ -72,3 +72,6 @@ Si vous avez spécifié qu'un code motif est requis, vous devez entrer un code m
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

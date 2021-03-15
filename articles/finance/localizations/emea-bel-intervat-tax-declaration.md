@@ -807,3 +807,6 @@ Pour plus d’informations sur les états de rapprochement pour la Belgique, voi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

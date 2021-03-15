@@ -38,3 +38,6 @@ Découvrez comment rechercher des fournisseurs en fonction de critères spécifi
 6. Tapez une valeur dans le champ Pays/Région.
 7. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

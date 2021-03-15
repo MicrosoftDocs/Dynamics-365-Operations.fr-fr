@@ -109,3 +109,6 @@ Chaque état de balance comptable utilise une définition de colonne différente
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

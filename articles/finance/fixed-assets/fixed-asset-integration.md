@@ -94,3 +94,6 @@ Pour plus d’informations, voir [Acquérir les actifs via l’approvisionnement
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

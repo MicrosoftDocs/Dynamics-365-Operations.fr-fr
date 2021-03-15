@@ -161,3 +161,6 @@ Les nomenclatures et les gammes d'ingénierie sont créés à partir de la versi
 Pour les produits sur lesquels vous utilisez la dimension de produit *version* (avec l'impact logistique sur les transactions), la version est également ajoutée aux nomenclatures et aux gammes. Ce comportement permet de différencier les nomenclatures et les gammes des versions consécutives, quel que soit le paramètre **Applique la prise d'effet**.
 
 Pour les produits sur lesquels vous n'utilisez pas la dimension de produit *version* (sans l'impact logistique sur les transactions), la version n'est pas ajoutée aux nomenclatures ou aux gammes. Par conséquent, il n'y aura aucune différence entre les nomenclatures et les gammes des versions consécutives. Dans ce cas, nous vous recommandons vivement de définir l'option **Appliquer la prise d'effet** sur *Oui*. De cette manière, vous évitez le chevauchement des versions d'ingénierie et vous pouvez également activer la nomenclature et la gamme d'une version plus récente sans avoir à désactiver au préalable la nomenclature et la gamme de la version précédente. Si vous définissez l'option **Appliquer la prise d'effet** sur *Oui* dans ce cas, vous devez désactiver manuellement les nomenclatures et les gammes des anciennes versions avant de pouvoir activer la dernière version.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

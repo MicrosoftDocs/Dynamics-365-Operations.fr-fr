@@ -99,3 +99,6 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 
 - [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

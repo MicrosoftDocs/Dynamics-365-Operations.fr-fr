@@ -43,3 +43,6 @@ Une version de nomenclature valide (spécifique au site ou générale) doit sati
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

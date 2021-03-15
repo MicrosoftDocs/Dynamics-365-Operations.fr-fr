@@ -45,3 +45,6 @@ La procédure utilise le rôle de comptable et les données de démonstration po
     * Définissez **Augmente la durée de vie** sur **Oui** si le supplément augmente la durée de vie de l’actif.  
     * Ce champ est fourni uniquement à titre indicatif. Pour augmenter la durée de vie, modifiez la durée de vie sur les modèles de valeur et/ou les registres des amortissements pour l’actif.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

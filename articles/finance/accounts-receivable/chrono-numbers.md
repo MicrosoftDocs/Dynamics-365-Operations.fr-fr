@@ -105,3 +105,6 @@ Lorsque vous validez un document, le groupe de souches de numéros d’origine a
 
 > [!NOTE]
 > Pour certains pays, il existe déjà une logique spécifique pour la numérotation des documents. Dans ce cas, la logique propre au pays remplacera la fonctionnalité **Numérotation chronologique**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Cette rubrique se concentre sur le paramétrage d'un profil de vue d'ensemble de
 17. Sélectionnez **Enregistrer**.
 18. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

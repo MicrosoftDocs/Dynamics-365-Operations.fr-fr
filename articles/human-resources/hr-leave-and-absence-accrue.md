@@ -111,3 +111,6 @@ Supprimez les enregistrements de provisions pour un plan et une plage de dates s
 
 [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
 [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

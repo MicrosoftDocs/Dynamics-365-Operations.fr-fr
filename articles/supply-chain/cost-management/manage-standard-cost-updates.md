@@ -51,3 +51,6 @@ L'activation d'un nouveau prix standard réévaluera généralement la valeur du
 - **Aucun** : aucune dimension financière n'est validée sur les transactions de réévaluation. Si votre structure de compte inclut une dimension financière requise, le processus de réévaluation sera toujours exécuté, mais créera des écritures comptables sans dimension financière. Dans ce cas, les utilisateurs recevront d'abord un message d'avertissement, afin de pouvoir annuler la réévaluation si nécessaire.
 - **Table** : les dimensions financières de l'article sont validées sur les transactions de réévaluation. Ce paramètre par défaut est cohérent avec le comportement du système d'origine sans activer la fonctionnalité *Options des dimensions financières par défaut pour la réévaluation du coût standard du stock*.
 - **Validation** : les dimensions financières de la transaction en cours de réévaluation sont validées sur les transactions de réévaluation. Par défaut, les dimensions financières du compte de stock de la transaction d'origine seront utilisées à la fois pour le compte de stock et le compte de réévaluation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

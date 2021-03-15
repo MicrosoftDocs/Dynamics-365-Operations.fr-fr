@@ -129,3 +129,6 @@ La liste suivante de documents commerciaux est contrôlée par la fonctionnalit�
 [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
 [Modifications de l’API de la structure de gestion des états électroniques pour Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

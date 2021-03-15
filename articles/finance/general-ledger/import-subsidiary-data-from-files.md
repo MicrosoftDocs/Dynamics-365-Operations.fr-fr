@@ -60,3 +60,6 @@ Cette rubrique explique comment préparer les données de systèmes externes afi
 8. Définissez l'option **Traitement par lots** sur **Oui** pour exécuter la consolidation comme un traitement par lots à un moment précis. Pour exécuter la consolidation immédiatement, sélectionnez **OK**. 
 
 Les transactions et soldes spécifiés pour la consolidation dans les filiales sont ajoutés aux comptes appropriés dans l'entité juridique consolidée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Si une ligne de chariot est sélectionnée et que l'option **Prélever la sélec
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Commandes client dans Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Dans la vue **Lignes de commande d’entrepôt**, vous pouvez surveiller la prog
 
 - Accédez à **Gestion des entrepôts \> Recherches et états \> Lignes de commande d’entrepôt** et utilisez le filtre pour trouver les lignes que vous recherchez.
 - Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur** et ouvrez la commande fournisseur pertinente. Dans la section **Lignes de commande fournisseur**, sélectionnez une ou plusieurs lignes, puis, dans la barre d’outils, sélectionnez **Entrepôt \> Entrées de réception d’entrepôt**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

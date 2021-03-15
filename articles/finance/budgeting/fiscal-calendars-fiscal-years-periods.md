@@ -63,3 +63,6 @@ La page Calendrier comptable permet d’afficher les détails du calendrier fisc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

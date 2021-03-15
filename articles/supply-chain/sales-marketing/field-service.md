@@ -84,3 +84,6 @@ Pour utiliser la solution d'intégration Field Service, vous devez installer les
 - Field Service (version 8.2.0.286) ou version ultérieure sur Dynamics 365 9.1.x - Publiée en novembre 2018
 - Solution Prospect en disponibilités pour Dynamics 365, version 1.15.0.1 or ultérieure. La solution est disponible pour le téléchargement depuis [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Solution « Intégration Field Service, projet et stock » pour Dynamics 365 version 2.0.0.0 ou ultérieure. La solution est disponible pour le téléchargement depuis [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -193,3 +193,6 @@ Pour plus d’informations, voir [Stratégies de rapprochement à trois facteurs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Lorsque vous créez un ordre de travail, vous pouvez définir les niveaux de ser
 2. Sélectionnez **Nouveau**.
 3. Entrez la description dans le champ **Description**.
 4. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

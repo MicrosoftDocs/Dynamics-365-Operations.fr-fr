@@ -47,3 +47,6 @@ Cette rubrique illustre la création d'un groupe d'autorisations du PDV. La soci
 16. Dans le champ Groupe d'autorisations du PDV, saisissez ou sélectionnez une valeur. Tous les collaborateurs affectés à des postes pour cette tâche utilisent les paramètres de ce groupe d'autorisations PDV sauf si les autorisations de PDV des collaborateurs ont été remplacées au niveau de leur poste.  
 17. Sélectionnez **Enregistrer**. Une fois vos modifications enregistrées, vous devez exécuter le programme de répartition du personnel pour que les modifications soient appliquées aux canaux.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Pour effectuer cette procédure, vous devez avoir le rôle de responsable de la 
 20. Cochez ou décochez la case à cocher Exécuter le script d’exportation.
 21. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

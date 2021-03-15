@@ -97,3 +97,6 @@ Vous devez traiter certaines de vos modifications pour les rendre actives.
 - [Processus d'éligibilité à un événement de vie](hr-benefits-process-life-event-eligibility.md)
 - [Traitement des modifications de taux](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

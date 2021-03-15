@@ -46,3 +46,6 @@ Pour certains pays, vous devez utiliser l’infrastructure de gestion des donné
 Au lieu d’importer les codes, vous pouvez utiliser la page **Configuration de l’adresse** pour ajouter manuellement de nouveaux codes postaux.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

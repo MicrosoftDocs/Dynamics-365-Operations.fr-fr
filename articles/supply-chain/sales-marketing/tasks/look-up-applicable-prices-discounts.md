@@ -59,3 +59,6 @@ Vérifiez que le champ Compte client contient le numéro de client US-001
     * Il existe deux accords de remise de ligne pour le produit T0012, spécifiant une remise de 5 % pour une quantité de ligne de commande de 1 à 10 et de 7 % pour les quantités de commande au-dessus de 10. Notez que les remises sont appliquées à un groupe de produits, dans cet exemple, le code du groupe 01 auquel le produit T0012 appartient.  
 4. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

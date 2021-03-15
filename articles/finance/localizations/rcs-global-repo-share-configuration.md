@@ -72,3 +72,6 @@ Une fois qu’une configuration a été créée sous votre fournisseur de config
 La configuration est partagée avec l’organisation externe et est disponible pour cette organisation dans le référentiel global. De là, elle peut être importée dans l’instance de RCS de l’organisation ou dans ses instances des applications Finance and Operations.
 
 6. Pour annuler le partage d’une configuration qui a été précédemment partagée avec une organisation externe, sélectionnez la configuration et cliquez sur **Annuler le partage**, puis cliquez sur **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

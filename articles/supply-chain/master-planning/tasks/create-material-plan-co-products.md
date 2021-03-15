@@ -110,3 +110,6 @@ Le responsable de production organise les besoins en matières pour les articles
 19. Sélectionnez Non dans le champ Désactiver tous les processus de planification.
 20. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

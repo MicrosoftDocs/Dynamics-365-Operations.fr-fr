@@ -63,3 +63,6 @@ L'image suivante présente un exemple de profil de fonctionnalité.
 [Aperçu de la mise en page de l'écran](pos-screen-layouts.md)       
 
 [Configuration et installation d'une Retail Hardware Station](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

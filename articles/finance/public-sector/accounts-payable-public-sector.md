@@ -114,3 +114,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 [Importer et créer plusieurs fournisseurs occasionnels et factures](tasks/import-multiple-one-time-vendors.md)
 
 [Paramétrer des classifications de contrat d’achat](tasks/set-up-purchase-agreement-classifications-public-sector.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

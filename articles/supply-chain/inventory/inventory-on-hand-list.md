@@ -145,3 +145,6 @@ Voici la sortie qui en résulte.
 | IA0001 | 1 | 2 | 2 |
 
 Notez que les paramètres du volet **Filtres** s’appliquent à la table de stock détaillée (non regroupée) affichée au début de cette section. Par conséquent, le critère **Physique disponible** \| **inférieur ou égal à** \| _1_ trouve deux lignes dans cette table (les première et troisième lignes, chacune indiquant une valeur **Physique disponible** de _1_). Cependant, dans ce scénario, la page **Liste disponible** n’est pas configurée pour afficher la dimension **Entrepôt**. Par conséquent, elle regroupe les deux lignes d’origine en une seule ligne résultante, car les deux lignes ont des valeurs identiques dans toutes les dimensions affichées. Cette ligne semble enfreindre le critère de filtrage, car la valeur **Physique disponible** indique _2_. Cependant, le résultat est correct, car les paramètres du volet **Filtres** s’appliquent à la table source, et non à la table regroupée affichée sur la page **Liste disponible**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

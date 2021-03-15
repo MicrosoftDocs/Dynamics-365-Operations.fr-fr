@@ -45,3 +45,6 @@ Cette procédure permet d'indiquer comment mettre fin à un ordre de fabrication
 1. Cliquez sur Gérer les coûts dans le volet Actions.
 2. Cliquez sur Afficher la comparaison du coût.
     * Après avoir terminé l'ordre de fabrication, vous pouvez comparer le prix de revient estimé par rapport au prix de revient réel afin d'obtenir une vue d'ensemble des écarts de production.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

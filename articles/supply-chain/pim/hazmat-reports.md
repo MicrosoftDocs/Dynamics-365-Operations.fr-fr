@@ -109,3 +109,6 @@ Lorsque la fonctionnalité sur les matières dangereuses est activée dans votre
 ## <a name="packing-list-report"></a>État sur la liste d’emballage
 
 Lorsque la fonctionnalité de matières dangereuses est activée sur votre système, les listes d’emballage incluent des informations supplémentaires liées au texte d’impression d’expédition d’un article. Cet état est disponible sur la page **Toutes les charges**, comme d’habitude.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

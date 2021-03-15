@@ -94,3 +94,6 @@ Vous pouvez ouvrir la carte de programme du kanban à l'aide de l'option de menu
 
 [Planification des tâches de kanban pour Lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

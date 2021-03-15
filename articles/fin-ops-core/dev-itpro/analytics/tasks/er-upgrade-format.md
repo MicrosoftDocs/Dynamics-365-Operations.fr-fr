@@ -243,3 +243,6 @@ Pour cela, Proseware, Inc. doit modifier la version de configuration de base pou
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Tester le format personnalisé pour la génération des fichiers de paiement
 Suivez les étapes de la procédure « Utiliser le format créé pour générer des documents électroniques de paiement » dans une session parallèle de Finance and Operations. Sélectionnez le format BACS (nom personnalisé fictif britannique) créé dans les paramètres de mode de paiement électronique. Vérifiez que le fichier de paiement créé contient le nœud XML introduit récemment par Proseware, Inc. présentant le code de compte IBAN conformément aux besoins spécifiques. Le fichier doit également contenir le nœud de XML récemment introduit par Litware, Inc. présentant le code de banque SWIFT dans l’accord aux besoins de pays.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

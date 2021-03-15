@@ -90,3 +90,6 @@ Pour réaliser les étapes de cette procédure, commencez par effectuer la proc�
  30. Sélectionnez Oui dans le champ Autoriser la création d’une note préliminaire sur des comptes bancaires inactifs.  
  31. Cliquez sur Enregistrer.  
  32. Fermez la page.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

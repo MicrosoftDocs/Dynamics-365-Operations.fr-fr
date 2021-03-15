@@ -40,3 +40,6 @@ Cette double conversion fait changer les dates entre les applications. Par exemp
 4. Changez le champ **Fuseau horaire** sur **Fuseau horaire universel coordonné** et changez le champ **Langue** sur **Fr-FR**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Si vous sélectionnez les types de charge **Capacité** ou **Solde** pour votre 
 
 Pour plus d'informations sur le calcul de la charge maximale sur les lignes du programme de maintenance et non sur les ordres de travail planifiés, reportez-vous à [Calculer la charge maximale](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Produits Field Service avec unité de stock (Supply Chain Management vers Field Service) : Produits
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSProduct1.png)](./media/FSProduct1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

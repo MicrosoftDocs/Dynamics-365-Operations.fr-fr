@@ -126,3 +126,6 @@ Vous pouvez afficher les écritures de registre budgétaires pour le budget d’
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

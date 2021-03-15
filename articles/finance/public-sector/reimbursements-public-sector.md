@@ -65,3 +65,6 @@ Non, pas directement. Toutefois, vous pouvez utiliser les entrées du journal de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

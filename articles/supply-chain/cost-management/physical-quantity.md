@@ -146,3 +146,6 @@ Le tableau suivant donne le résultat du calcul pour un objet de stock. Vous pou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

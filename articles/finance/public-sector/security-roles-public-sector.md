@@ -102,3 +102,6 @@ Une fois les utilisateurs créés, vous les affectez à des rôles sur la page *
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

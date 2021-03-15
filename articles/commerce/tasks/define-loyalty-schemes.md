@@ -69,3 +69,6 @@ Cette procédure décrit comment définir un plan de fidélité. Les plans de fi
 27. Cliquez sur Enregistrer.
     * Lorsque vous modifiez les canaux d'un programme de fidélité, vous devez exécuter l'option Traiter les programmes de fidélité. Ainsi, les programmes de fidélité des canaux seront mis à jour.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

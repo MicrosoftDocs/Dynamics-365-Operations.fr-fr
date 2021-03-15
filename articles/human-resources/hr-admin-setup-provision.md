@@ -125,3 +125,6 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 ## <a name="grant-access-to-the-environment"></a>Autoriser l'accès à l'environnement
 
 Par défaut, l'administrateur global ayant créé l'environnement y a accès. Vous devez explicitement autoriser l'accès à d'autres utilisateurs d'application. Vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans l'environnement Human Resources. L'administrateur global qui a déployé Human Resources doit également lancer Attract et Onboard pour terminer l'initialisation et activer l'accès pour les autres utilisateurs. Sinon, les autres utilisateurs ne pourront pas accéder à Attract et Onboard et recevront des erreurs de violation de l'accès. Pour plus d'informations, voir [Création de nouveaux utilisateurs](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

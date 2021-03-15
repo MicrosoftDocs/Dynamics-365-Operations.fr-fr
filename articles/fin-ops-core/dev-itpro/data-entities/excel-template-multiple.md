@@ -49,3 +49,6 @@ Si une nouvelle version du même fichier ou d’un fichier entièrement nouveau 
 ## <a name="upload-a-file-using-run-project"></a>Télécharger un fichier à l’aide de l’option Exécuter le projet
 
 Vous pouvez télécharger un fichier Excel tout en utilisant l’option **Exécuter le projet** pour exécuter un projet d’importation. Vous devez veiller à télécharger uniquement les fichiers ayant les mêmes feuilles de calcul que les mises en correspondance existantes dans les entités de données du projet de données. Si une feuille de calcul est introuvable dans le nouveau fichier téléchargé, le système affiche un message d’erreur et arrête l’importation. Si la mise en correspondance avec la feuille de calcul doit être modifiée pour une entité, les mises en correspondance du projet de données doivent d’abord être mises à jour dans le projet de données avant d’utiliser le fichier dans l’expérience **Exécuter le projet**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

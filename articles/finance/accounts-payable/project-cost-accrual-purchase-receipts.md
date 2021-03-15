@@ -82,3 +82,6 @@ La facture fournisseur reste à l’état d’attente en attendant l’arrivée 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

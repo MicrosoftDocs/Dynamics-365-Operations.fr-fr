@@ -82,3 +82,6 @@ Des contrôles d'intégrité personnalisés peuvent également être créés pou
 ## <a name="related-articles"></a>Articles connexes
 
 [Déclencheurs et impression de Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

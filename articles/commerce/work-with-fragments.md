@@ -135,3 +135,6 @@ Vous pouvez également modifier un fragment en le sélectionnant dans une page, 
 [Utilisation des mises en page prédéfinies](work-with-layouts.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Cette procédure commence par la création d'un produit unique dans le contexte 
 12. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 13. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

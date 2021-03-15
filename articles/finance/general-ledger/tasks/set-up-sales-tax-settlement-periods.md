@@ -50,3 +50,6 @@ La société fictive USMF est citée en exemple dans cette tâche.
 16. Sélectionnez **Nouvel intervalle de périodes**. Une fois que le premier intervalle de périodes a été entré, de nouvelles périodes peuvent être créées automatiquement. Si nécessaire, vous pouvez revenir et ajouter de nouveaux intervalles de périodes.  
 17. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

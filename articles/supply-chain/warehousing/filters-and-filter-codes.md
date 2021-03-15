@@ -165,3 +165,6 @@ Pour paramétrer des codes filtre fournisseur, suivez les étapes suivantes.
 ## <a name="see-also"></a>Voir également :
 
 [Pour plus d’informations, consultez le billet de blog Codes de filtrage entrepôt compatible WMS](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

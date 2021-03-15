@@ -145,3 +145,6 @@ Lorsque vous cliquez sur un guide de tâche dans les résultats de la recherche,
 
 > [!NOTE]
 > L'aide de Retail Modern POS et de Cloud POS n'affiche pas les guides de tâches en fonction de l'écran que vous affichez ou de l'opération que vous effectuez. Vous devez taper le nom du processus dans la zone de recherche et cliquer sur **Rechercher**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

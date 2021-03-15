@@ -163,3 +163,5 @@ Les types de source du journal des performances décrivent l’origine des journ
 ### <a name="review-types"></a>Types de révision
 
 Les types de révision des performances permettent de contrôler le comportement d’une révision. Vous pouvez activer ou désactiver le workflow pour une révision. Si la révision n’utilise pas de workflow, vous pouvez définir le statut par défaut utilisé lorsque la révision est créée. Vous pouvez également décider si l’employé, le responsable, ou les deux sont nécessaires pour valider la révision.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

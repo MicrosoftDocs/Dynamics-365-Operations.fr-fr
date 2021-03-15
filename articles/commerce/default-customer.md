@@ -112,3 +112,6 @@ L'image suivant présente un exemple de configuration client.
 [Présentation des canaux](channels-overview.md)
 
 [Conditions préalables au paramétrage du canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

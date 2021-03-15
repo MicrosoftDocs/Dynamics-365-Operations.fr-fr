@@ -130,3 +130,6 @@ Le document ou journal est défini sur Montants, taxe incluse = Non Montant de l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

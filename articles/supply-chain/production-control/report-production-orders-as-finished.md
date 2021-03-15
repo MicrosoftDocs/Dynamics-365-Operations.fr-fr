@@ -47,3 +47,6 @@ Vous pouvez définir un ordre de fabrication sur **Déclaration de fini** via la
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

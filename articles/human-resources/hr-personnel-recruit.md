@@ -225,3 +225,6 @@ Si nécessaire, vous pouvez ignorer un candidat après l'avoir embauché. Par ex
 [Configurer des tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organisation du personnel](hr-personnel-departments-jobs-positions.md)<br>
 [Paramétrer les composants d’une tâche](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

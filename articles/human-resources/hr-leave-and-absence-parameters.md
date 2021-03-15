@@ -92,3 +92,6 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 ## <a name="see-also"></a>Voir également :
 
 - [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

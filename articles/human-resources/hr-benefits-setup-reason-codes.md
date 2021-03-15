@@ -79,3 +79,5 @@ Vous verrez une bannière sur la page **Liens** de l'espace de travail **Gestion
 Une fois les codes motif migrés vers Gestion du personnel, l'option permettant de les utiliser dans Gestion des avantages est automatiquement définie sur **Oui**.
 
 [![Utiliser le code motif dans Gestion des avantages](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -192,3 +192,6 @@ Les ordres de transfert entièrement expédiés sont déplacés vers l’onglet 
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Opération de stock entrant dans le PDV](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

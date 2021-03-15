@@ -45,3 +45,6 @@ La société fictive USMF sert d’exemple dans ce guide.
 6. Cliquez sur OK.
 7. Cliquez sur Oui.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

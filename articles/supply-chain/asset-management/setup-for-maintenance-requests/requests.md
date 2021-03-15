@@ -41,3 +41,6 @@ Vous pouvez paramétrer plusieurs types de demandes à utiliser dans votre soci�
 L'illustration suivante présente un exemple de la page de liste **Toutes les demandes de maintenance**.
 
 ![Page de liste Toutes les demandes de maintenance](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

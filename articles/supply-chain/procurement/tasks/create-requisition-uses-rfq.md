@@ -98,3 +98,6 @@ La prochaine tâche consiste à créer un appel d'offre pour obtenir des offres 
 8. Sélectionnez la page.
 9. Sélectionnez Terminer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

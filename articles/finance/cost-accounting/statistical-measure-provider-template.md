@@ -345,3 +345,6 @@ Si la base de répartition des membres de la dimension prédéfinie Électricit�
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Bases de répartition](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

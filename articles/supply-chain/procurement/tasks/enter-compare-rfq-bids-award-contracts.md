@@ -106,3 +106,6 @@ Vous pouvez entrer l'offre comme fournisseur ou professionnel des approvisionnem
 ## <a name="view-the-purchase-order-that-is-generated"></a>Afficher la commande fournisseur générée
 
 Dans le volet Actions, sous l'onglet **Général**, sélectionnez **Commande fournisseur**. La page qui s'affiche indique la commande fournisseur générée lorsque vous avez accepté l'offre.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

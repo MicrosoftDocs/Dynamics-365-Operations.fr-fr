@@ -86,3 +86,6 @@ Cette procédure indique comme autoriser un certificat d’entrée de l’UE, co
 4. Dans le volet Actions, cliquez sur Facture.
 5. Cliquez sur Afficher les certificats d’entrée émis.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

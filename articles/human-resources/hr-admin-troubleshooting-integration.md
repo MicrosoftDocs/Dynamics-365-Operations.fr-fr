@@ -181,3 +181,6 @@ Actualisez les entités des données dans Finance en accédant à **Gestion des 
 - Gestion des données :
 
   - [Gestion des données](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

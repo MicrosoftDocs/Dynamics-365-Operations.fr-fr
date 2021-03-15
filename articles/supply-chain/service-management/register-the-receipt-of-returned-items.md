@@ -112,3 +112,6 @@ Au lieu d'utiliser l'écran **Vue d'ensemble des arrivées**, vous pouvez utilis
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Cette procédure vous montre comment créer une commande fournisseur sur la base
     - Le **Lot de référence** garantit la facturation des coûts des achats en cours sur la commande client liée.  
     - Vous pouvez accéder à la commande client d'origine en ouvrant le lien dans le champ **Numéro de référence**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Cette procédure indique comment créer une provision spéciale pour amortisseme
     * La valeur par défaut du pourcentage ou du montant provient du paramétrage de la provision spéciale pour amortissement.  
 8. Dans le champ Priorité, entrer un numéro.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

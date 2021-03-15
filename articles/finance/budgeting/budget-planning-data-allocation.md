@@ -76,3 +76,6 @@ Enfin, ajoutez une tâche automatique pour le stade de planification budgétaire
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

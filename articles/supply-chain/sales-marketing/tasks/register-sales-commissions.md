@@ -70,3 +70,6 @@ Prenez note des numéros de client et d'article que vous avez choisis pour le pr
 3. Fermez la page.
 4. Sélectionnez **N° document**. Vous pouvez examiner les transactions du N° document pour les montants de commission qui ont été validés dans les comptes prédéfinis de dépense et de commission à payer.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

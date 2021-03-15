@@ -111,3 +111,6 @@ Pour commencer à utiliser les dispositions prédéfinies, voir [Utiliser des di
 [Utilisation des mises en page prédéfinies](work-with-layouts.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

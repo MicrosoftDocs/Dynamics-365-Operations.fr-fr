@@ -39,3 +39,6 @@ Avant de proposer des produits à la revente dans vos canaux de commerce, vous d
 4. **Ajout de produits aux assortiments.** Un assortiment représente un ensemble de produits que vous proposez dans vos canaux. Vous pouvez définir un ou plusieurs assortiment(s), et chaque produit peut être affecté à un ou plusieurs assortiment(s). Pour affecter des produits à des canaux, affectez les assortiments à ces canaux. Lorsque vous créez un assortiment, vous pouvez ajouter des produits qui n'ont pas encore été lancés dans une entité juridique. Toutefois, vous devez lancer les produits dans une entité juridique pour que ceux-ci soient accessibles sur les canaux.
 5. **Ajoutez des produits aux hiérarchies de navigation.** Pour pouvoir parcourir les produits en ligne ou dans un point de vente (PDV), ils doivent être classés par catégorie dans une hiérarchie de navigation Commerce.
 6. **Ajoutez des produits aux catalogues.** Bien que cette étape soit facultative pour le point de vente, les magasins en ligne exigent que les produits sont inclus dans au moins un catalogue.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

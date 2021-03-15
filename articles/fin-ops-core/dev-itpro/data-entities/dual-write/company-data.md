@@ -102,3 +102,6 @@ Pour appliquer un filtrage basé sur le contexte de l’entreprise sur vos formu
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Appliquer le contexte de l’entreprise":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

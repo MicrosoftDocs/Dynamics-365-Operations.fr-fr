@@ -86,3 +86,6 @@ Pour ajouter un module d’accordéon à une page de FAQ et définir ses propri�
 [Module Onglet](add-tab.md)
 
 [Module de bloc de texte](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

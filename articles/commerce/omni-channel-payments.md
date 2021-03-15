@@ -237,3 +237,6 @@ Lorsqu’une commande comporte plusieurs modes de paiement et que plusieurs lign
 - [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

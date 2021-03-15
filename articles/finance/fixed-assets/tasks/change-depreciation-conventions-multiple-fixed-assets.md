@@ -48,3 +48,6 @@ Cette tâche permet de mettre à jour la convention d’amortissement pour un gr
 15. Cliquez sur OK.
     *  Les résultats du processus sont affichés dans l’état Mise à jour collective.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

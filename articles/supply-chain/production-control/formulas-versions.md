@@ -70,3 +70,6 @@ La fonctionnalité Évolutive est disponible que si tous les composants de la fo
 
 ## <a name="use-step-consumption"></a>Utiliser la fonctionnalité Consommation de l'étape
 La fonctionnalité Consommation de l'étape élimine la condition que vous devez saisir une quantité dans l'onglet **Ligne de formule** pour un ingrédient. Au lieu de cela, la fonctionnalité Consommation de l'étape est configurée pour que les valeurs **Série de départ** et **Quantité** soient disponibles. Les informations de l'enregistrement Consommation de l'étape par série qui répond à la quantité du lot de commande sont sélectionnées. La fonctionnalité Consommation de l'étape est utile lorsque le taux de consommation n'est pas linéaire conformément à la taille du lot de commandes et augmente uniquement la demande lorsqu'un seuil de quantité spécifique est détecté. Pour activer cette fonction pour une nouvelle formule, sous le groupe **Calcul de la consommation**, remplacez le paramètre de formule pour l'ingrédient applicable **Standard** par **Étape**. Spécifiez cette méthode de consommation dans l'onglet **Paramétrage** de la page **Ligne de formule**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

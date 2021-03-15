@@ -238,3 +238,6 @@ Une garantie est un service fourni pour un produit spécifique et unique. Dans D
 [Paramétrer des assortiments](set-up-assortments.md)
 
 [Vue d’ensemble des souches de numéros](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

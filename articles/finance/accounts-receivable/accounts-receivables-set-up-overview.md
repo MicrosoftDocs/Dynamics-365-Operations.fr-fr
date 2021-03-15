@@ -109,3 +109,6 @@ Pour plus d’informations, voir [Crédit et recouvrements dans la Comptabilité
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

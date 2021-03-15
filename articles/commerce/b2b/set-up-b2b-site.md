@@ -302,3 +302,6 @@ Pour créer une page de détails de facture dans le générateur de site, procé
 [Module de bloc de contenu](../add-hero-module.md)
 
 [Collecte de produits](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

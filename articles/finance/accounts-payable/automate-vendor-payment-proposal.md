@@ -143,3 +143,6 @@ Les responsabilités et privilèges suivants ont été ajoutés pour les automat
 | Rechercher des occurrences du programme | Commis au paiement de la comptabilité fournisseur, Commis au paiement centralisé de la comptabilité fournisseur | Cette responsabilité accorde les droits d’affichage des occurrences d’automatisation des propositions de paiement et via les privilèges suivants :<ul><li>Afficher les occurrences du programme</li><li>Afficher la vue hebdomadaire des occurrences</li></ul> |
 | Rechercher des séries du programme      | None                                                                       | Cette responsabilité accorde les droits d’affichage des paramètres de la série et des occurrences via les privilèges suivants :<ul><li>Afficher les occurrences du programme</li><li>Afficher la page de liste des occurrences</li><li>Afficher la vue hebdomadaire des occurrences</li></ul>|
 | Gérer les occurrences du programme     | None                                                                       | Cette responsabilité accorde les droits de création et de gestion d’une occurrence via les privilèges suivants :<ul><li>Gérer les occurrences du programme</li><li>Afficher la vue hebdomadaire des occurrences</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

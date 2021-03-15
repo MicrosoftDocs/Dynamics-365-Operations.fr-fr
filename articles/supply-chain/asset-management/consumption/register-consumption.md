@@ -94,3 +94,6 @@ Lorsque vous effectuez des enregistrements de consommation, les dimensions finan
 >[!NOTE]
 >Pour tous les types d'enregistrement, la combinaison de dimensions financières est ajoutée et les combinaisons non valides sont grisées. Ceci est une configuration standard avec d'autres applications Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

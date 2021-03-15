@@ -57,3 +57,6 @@ Une fois que vous avez créé le carnet d’adresses global, vous pouvez créer 
 **Décision :**
 
 - Combien de carnets d’adresses supplémentaires allez-vous créer ?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

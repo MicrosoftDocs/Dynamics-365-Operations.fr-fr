@@ -87,3 +87,6 @@ Le correctif de cette erreur dépend de la cause de l’erreur :
 
 + Si le mappage a des mappages dépendants, assurez-vous d’activer les mappages dépendants de ce mappage de table.
 + Le mappage peut ne pas contenir de colonnes sources ou de destination. Si une colonne de l’application Finance and Operations est manquant, suivez les étapes de la section [Problème de colonnes de table manquantes sur les mappages](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Si une colonne dans Dataverse est manquante, cliquez sur **Actualiser les tables** sur le mappage afin que les colonnes soient automatiquement remplies à nouveau dans le mappage.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

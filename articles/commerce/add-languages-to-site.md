@@ -175,3 +175,6 @@ La langue que vous avez ajoutée est ensuite disponible afin de pouvoir configur
 [Ajouter un avis de droits d'auteur](add-copyright-notice.md)
 
 [Ajout d'un code de script aux pages de site pour prendre en charge la télémétrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

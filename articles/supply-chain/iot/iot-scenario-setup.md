@@ -142,3 +142,6 @@ Pour désactiver un scénario, procédez comme suit.
 2. Sur la vignette du scénario, sélectionnez **Configurer**.
 3. Cliquez sur **Suivant** pour accéder à la dernière page de l’Assistant.
 4. Définissez l’option sur désactiver le scénario.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

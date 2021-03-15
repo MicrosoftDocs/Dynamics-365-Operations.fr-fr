@@ -51,3 +51,6 @@ Cette procédure vous permet de créer une feuille de temps à l'aide d'un écra
 21. Cliquez sur **Soumettre**.
 22. Cliquez sur **Soumettre**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

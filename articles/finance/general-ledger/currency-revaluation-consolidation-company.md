@@ -88,3 +88,6 @@ Vous verrez des transactions supplémentaires pour les montants de devise de dé
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

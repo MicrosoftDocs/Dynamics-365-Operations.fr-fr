@@ -82,3 +82,6 @@ En l’absence de priorité de règlement définie par l’utilisateur, les tran
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

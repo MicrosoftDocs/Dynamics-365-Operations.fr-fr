@@ -116,3 +116,6 @@ Les deux illustrations ci-dessous présentent une tâche de programme dans la bo
 - Vous pouvez paramétrer un traitement par lots sur l'organisateur **Exécuter en arrière-plan** pour planifier les visites à des intervalles réguliers.  
 - Si une visite est incluse dans plusieurs regroupements d'ordres de travail (consultez [Regroupements des ordres de travail](../work-orders/work-order-pools.md)), un enregistrement est indiqué pour chaque regroupement dans **Ouvrir les regroupements du programme de maintenance**. Cela permet d'optimiser les options de filtrage pour les regroupements des ordres de travail.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

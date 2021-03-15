@@ -59,3 +59,6 @@ Lorsque vous assignez des utilisateurs à des rôles, les règles de séparation
 
 > [!NOTE]
 > Si plusieurs conflits sont répertoriés pour le même utilisateur, sélectionnez l’enregistrement utilisateur et évaluez les rôles attribués sur la page **Utilisateurs**. Pour éviter ce conflit, validez chaque règle après son ajout ou sa modification.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

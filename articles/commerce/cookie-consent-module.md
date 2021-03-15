@@ -61,3 +61,6 @@ Pour plus d’informations sur les fragments d’en-tête et les modules, voir [
 [Module En-tête](author-header-module.md) 
 
 [Conformité des cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

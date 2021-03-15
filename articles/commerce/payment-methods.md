@@ -48,3 +48,6 @@ Pour paramétrer les modes de paiement dans , vous devez effectuer les tâches s
 2. Création de types et de numéros de cartes pour l’organisation. Si les cartes de crédit ou de débit sont acceptées, vous devez créer un mode de paiement par carte, puis créer les types et numéros de cartes pour toute l’organisation.
 3. Paramétrer le mode de paiement du magasin. Associez les modes de paiement à chaque magasin, puis entrez les paramètres propres au magasin pour chaque mode de paiement de ce dernier.
 4. Paramétrer les modes de paiement par carte pour les magasins. Vous devez paramétrer la carte pour tous les modes de paiement par carte acceptés par le magasin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

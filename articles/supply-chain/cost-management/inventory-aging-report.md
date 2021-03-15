@@ -364,3 +364,6 @@ Le nouveau rapport ressemblera à l’exemple ci-dessous.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

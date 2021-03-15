@@ -42,3 +42,6 @@ Les groupes d'accords de service permettent de trier et de filtrer les accords d
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Vue d'ensemble des accords de service](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

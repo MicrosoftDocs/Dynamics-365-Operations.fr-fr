@@ -231,3 +231,6 @@ Les rôles suivants donnent un accès en lecture seule à la visionneuse de piè
 + **Commis à la comptabilité fournisseur** et **Responsable Comptabilité fournisseur** – Le droit Tenir à jour les factures fournisseur est affecté à ces rôles.
 
 Par défaut, si le rôle d’utilisateur donne des droits de modification sur n’importe quelle page, l’utilisateur aura également des droits de modification sur la visionneuse de pièce jointe pour les actions de mise en surbrillance, de blocage et d’ajout d’annotations. Toutefois, s’il existe des scénarios où un rôle spécifique doit avoir des droits de modification sur la page mais pas sur la visionneuse de pièce jointe, les privilèges appropriés de la liste précédente peuvent être utilisés pour respecter le cas d’utilisation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

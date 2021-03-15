@@ -170,3 +170,6 @@ Avant de pouvoir configurer le regroupement des lignes de prélèvement, vous de
 >   - Lignes de travail qui ont un travail de réapprovisionnement inachevé
 >   - Prélèvement excessif
 >   - Prélèvement partiel avec réaffectation des articles
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

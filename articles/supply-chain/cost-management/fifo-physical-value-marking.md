@@ -135,3 +135,6 @@ Le nouveau prix de revient moyen en vigueur reflète la moyenne des transactions
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

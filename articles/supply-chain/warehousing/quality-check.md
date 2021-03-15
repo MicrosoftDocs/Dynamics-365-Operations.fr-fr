@@ -396,3 +396,6 @@ Pour ce scénario, la palette 3 sera acceptée.
 1. Sélectionnez le bouton Menu (**≡**) en haut de la page, puis, dans le menu, sélectionnez **Annuler** pour revenir au menu.
 
 Vous pouvez maintenant fermer l’application mobile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

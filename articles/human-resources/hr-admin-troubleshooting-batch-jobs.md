@@ -65,3 +65,6 @@ Les traitements par lots suivants doivent s'exécuter la nuit ou après les heur
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

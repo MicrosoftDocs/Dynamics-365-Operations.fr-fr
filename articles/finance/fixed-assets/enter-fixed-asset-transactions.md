@@ -67,3 +67,6 @@ Vous pouvez valider tout type de transaction d’immobilisation dans la page Jou
 La valeur restante des périodes d’amortissement de l’immobilisation n’est pas mise à jour lorsqu’une ligne de journal de type transaction d’amortissement est créée manuellement ou importée via une entité des données. Cette valeur est mise à jour lorsque le processus de proposition d’amortissement est utilisé pour créer la ligne de journal.
 
 Pour plus d’informations, voir [Intégration des immobilisations](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

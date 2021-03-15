@@ -238,3 +238,5 @@ Vous allez créer une commande fournisseur comprenant trois lignes : deux ligne
 
 > [!TIP]
 > Vous pouvez répéter ce scénario, mais cette fois-ci, définissez **Taille** - *Non* dans l'organisateur **Autoriser l'association de dimensions de produit** de la configuration **Profils d'emplacement** *BULK*, afin qu'aucune des dimensions de produit ne puisse être associée. Dans ce cas, lorsque vous recevez la commande fournisseur, chaque variante de produit est placée dans un nouvel emplacement.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

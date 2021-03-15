@@ -110,3 +110,6 @@ Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Cette procédure permet de paramétrer les codes motif de retour que vous pouvez
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

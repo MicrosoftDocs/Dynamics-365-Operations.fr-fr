@@ -80,3 +80,6 @@ Si vous utilisez des gammes, les opérations doivent être définies pour chaque
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -676,3 +676,6 @@ Les employés peuvent déclarer des informations de passeport. Ces informations 
 
 Les employés peuvent déclarer plusieurs numéros d'identification de type d'identification **Passeport**. Toutefois, seule la saisie de passeport actif actuel est intégrée à Dayforce. Si toutes les entrées de passeport sont arrivées à expiration, le passeport émis le plus récemment est intégré dans Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

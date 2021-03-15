@@ -60,3 +60,6 @@ Pour commencer à configurer ces informations, créez une réglementation que vo
 ## <a name="warehouse-management"></a>Gestion des entrepôts
 
 Lorsqu’un envoi est préparé, plusieurs nouveaux rapports peuvent être imprimés. Ces rapports utilisent les informations que vous avez configurées dans la gestion des informations produit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

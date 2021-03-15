@@ -68,3 +68,6 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

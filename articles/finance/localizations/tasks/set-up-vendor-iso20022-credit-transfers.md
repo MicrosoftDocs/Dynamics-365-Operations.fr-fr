@@ -51,3 +51,6 @@ Il s’agit de la quatrième des cinq procédures illustrant le processus de pai
 4. Dans la liste, cliquez sur le lien dans la ligne SEPA CT.
 5. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

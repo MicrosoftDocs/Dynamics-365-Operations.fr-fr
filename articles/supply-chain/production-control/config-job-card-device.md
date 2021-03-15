@@ -94,3 +94,6 @@ Cependant, comme mentionné précédemment, lorsque vous utilisez une configurat
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Déclarer comme terminé à partir du périphérique de bon de travail](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

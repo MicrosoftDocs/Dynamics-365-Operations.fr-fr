@@ -58,3 +58,6 @@ Vous pouvez également créer un budget de maintenance en copiant un budget exis
 
 > [!NOTE]
 > Le budget de maintenance calcule seulement les coûts budgétaires selon les lignes du programme de maintenance. Pour calculer les coûts réels pour la même période, vous pouvez effectuer ce calcul dans la page **Contrôle des coûts d'actif**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

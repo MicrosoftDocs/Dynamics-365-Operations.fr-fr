@@ -186,3 +186,6 @@ Si une correction doit être effectuée dans le compte général Comptabilité c
 ### <a name="the-system-allows-it"></a>« Autorisation du système »
 
 Les organisations utilisent souvent la fonctionnalité N° document simplement parce que le système les y autorise, sans comprendre les implications.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

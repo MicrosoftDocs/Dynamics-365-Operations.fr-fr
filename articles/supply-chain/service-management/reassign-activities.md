@@ -57,3 +57,6 @@ Procédez comme suit pour réaffecter une activité à un autre collaborateur :
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

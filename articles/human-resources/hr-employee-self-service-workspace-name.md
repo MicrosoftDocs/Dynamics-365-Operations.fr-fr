@@ -45,3 +45,6 @@ Si vous avez des bénévoles ou d'autres personnels non-employés, vous voudrez 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Vue d'ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

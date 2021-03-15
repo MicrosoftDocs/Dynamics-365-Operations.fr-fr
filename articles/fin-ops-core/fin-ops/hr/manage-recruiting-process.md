@@ -103,3 +103,6 @@ Les champs **Mise en correspondance des qualifications** et **Profils de mise en
 ## <a name="hiring-applicants"></a>Embauche de candidats
 
 Utilisez la page **Candidatures** pour embaucher un candidat. Lorsque vous engagez un candidat, l’enregistrement de la candidature aura le statut **Employé** et l’enregistrement de personne du carnet d’adresses global du candidat est associé au nouvel enregistrement du collaborateur. Les modifications apportées aux informations du carnet d’adresses global pour le nouvel enregistrement de travailleur sont également affichées dans l’enregistrement de candidat. Cela permet de réduire la saisie de données si le nouveau collaborateur pose un jour une candidature pour un autre poste au sein de votre entreprise. Pour embaucher un collaborateur existant à un nouveau poste, cliquez sur **Modifier le poste** dans le menu déroulant **Statut de la candidature** pour lancer le processus de transfert.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

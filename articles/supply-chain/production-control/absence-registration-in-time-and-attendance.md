@@ -108,3 +108,6 @@ Par exemple, une travailleuse pointe à l'arrivée à 10 h 00 et sélectionne 
 ### <a name="calculate-and-approve-absence"></a>Calcul et approbation des absences
 
 - Sélectionnez **Pointage** &gt; **Révision et approbation** &gt; **Approbation ou calcul**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

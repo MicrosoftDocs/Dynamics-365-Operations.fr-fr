@@ -40,3 +40,6 @@ Avant que des tâche de kanban puissent être créées et des activités puissen
 5. Cliquez sur Activer.
 6. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

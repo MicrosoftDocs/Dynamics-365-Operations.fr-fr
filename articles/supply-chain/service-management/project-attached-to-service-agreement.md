@@ -36,3 +36,6 @@ Vous enregistrez et validez toutes les transactions de commande de service du pr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -171,3 +171,6 @@ Pour toute réservation budgétaire générale qui n’a pas expiré et qui comp
 Si vous avez activé le contrôle budgétaire, vous pouvez réduire le report de budget pour les réservations budgétaires générales reportées qui sont finalisées en ayant un solde restant. De cette manière, vous pouvez vérifier que les fonds de l’exercice précédent ne sont pas dépensés pour les achats au cours du nouvel exercice.
 
 Si l’option **Réduire le report de budget** est définie sur **Oui** sur le type de fonds ou de réservation associé, lorsque vous finalisez le document dans le nouvel exercice, le solde du document restant et le report de budget restant sont réduits à 0 (zéro).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

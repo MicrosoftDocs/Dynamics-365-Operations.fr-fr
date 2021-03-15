@@ -292,3 +292,6 @@ Sur la charge de travail dans les unités de mise à l’échelle, vous pouvez g
 - Traiter les enregistrements de la table des vagues
 - Point de transbordement de l’entrepôt du processeur de messages d’unité d’échelle
 - Traiter les demandes de mise à jour de la quantité pour les lignes de commande d’entrepôt
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

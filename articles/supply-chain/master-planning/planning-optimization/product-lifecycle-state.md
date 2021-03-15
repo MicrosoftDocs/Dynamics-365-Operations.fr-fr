@@ -41,3 +41,6 @@ Produits lancés et variantes où le champ **État du cycle de vie du produit** 
 Pour plus d’informations sur les états du cycle de vie du produit, voir [Vue d’ensemble des états du cycle de vie du produit](../../pim/product-lifecycle.md).
 
 Pour des informations détaillées avec étapes sur l'utilisation des états du cycle de vie des produits pour exclure des produits de la planification et des calculs au niveau de la nomenclature, voir [Créer un état du cycle du vie des produits pour exclure des produits de la planification](../../pim/tasks/exclude-products-master-planning.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

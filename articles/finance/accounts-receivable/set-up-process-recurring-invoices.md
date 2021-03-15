@@ -66,3 +66,6 @@ Une fois les factures récurrentes validées, vous pouvez imprimer les factures 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

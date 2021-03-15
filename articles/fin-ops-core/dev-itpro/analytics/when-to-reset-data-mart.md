@@ -54,3 +54,6 @@ Il est déconseillé de réinitialiser un mini-data warehouse dans certains circ
 > Les points suivants spécifient deux choses que la réinitialisation d'un mini-data warehouse *ne fait pas*. <br>
 > - Les réinitialisations n'effacent pas les conceptions de rapport. <br>
 > - Les réinitialisations n'effacent pas les données de la société ou les données de l'utilisateur, sauf si elles sont sélectionnées.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

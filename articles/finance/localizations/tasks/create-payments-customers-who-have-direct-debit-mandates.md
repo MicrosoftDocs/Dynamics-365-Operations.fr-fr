@@ -67,3 +67,6 @@ Il s’agit de la cinquième des cinq procédures illustrant le processus de pai
 11. Cliquez sur OK.
 12. Cliquez sur OK.
 13. Cliquez sur Créer des paiements.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

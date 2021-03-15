@@ -139,3 +139,6 @@ Préalablement à cette procédure, exécutez la procédure « Paramétrage des 
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Vérifiez que Statut de l’expédition = Paiement reçu et que le montant du solde = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

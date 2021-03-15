@@ -139,3 +139,6 @@ Pour intégrer des partenaires commerciaux et des utilisateurs directement dans 
 [Définir des limites de quantité de produits pour les sites de commerce électronique B2B](quantity-limits.md)
 
 [Vue d’ensemble des souches de numéros](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

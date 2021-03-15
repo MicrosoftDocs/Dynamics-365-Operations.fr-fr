@@ -124,3 +124,6 @@ Vous devez également télécharger et enregistrer localement les fichiers suiva
     * Examinez la sortie au format XML, qui représente les données importées depuis le fichier sélectionné et transférées vers le modèle de données. Notez que toutes les 7 lignes du fichier CSV importé ont été traitées. Les titres des champs sur la ligne 1 ont été ignorés, 4 transactions ont été correctement analysées et 2 transactions ont été reconnues comme non valides.
 3. Fermez la page.
 4. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

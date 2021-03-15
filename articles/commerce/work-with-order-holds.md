@@ -102,3 +102,6 @@ Si les utilisateurs souhaitent supprimer un blocage mais effectuer des modificat
 ## <a name="reporting-options"></a>Options de génération d'états
 
 Accédez à **Retail et Commerce** \> **Recherches et états** \> **États du centre d'appels** \> **État des commandes en attente** pour exécuter un état sur les blocages de commande par plage de dates, code de blocage ou d'autres critères associés.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

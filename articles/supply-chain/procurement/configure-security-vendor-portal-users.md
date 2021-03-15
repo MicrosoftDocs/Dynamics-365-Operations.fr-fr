@@ -49,3 +49,6 @@ Si la même personne a besoin d'accéder au portail Fournisseur pour plusieurs c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

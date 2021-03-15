@@ -381,3 +381,6 @@ Lorsque la tâche manuelle est affectée à un utilisateur, l’utilisateur doit
 5. Activez la case à cocher **Déléguer** si vous voulez que l’utilisateur puisse affecter la tâche à un autre utilisateur.
 6. Activez la case à cocher **Réaffecter** si vous voulez que l’utilisateur puisse réaffecter la tâche à un autre utilisateur de la file d’attente des éléments de travail.
 7. Activez la case à cocher **Lancer** si vous voulez que l’utilisateur puisse réaffecter la tâche à la file d’attente des éléments de travail. Un autre utilisateur peut effectuer la tâche.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

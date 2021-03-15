@@ -78,3 +78,6 @@ La valeur du champ **Facteur** est égale à **50**. Dans ce cas, l’amortissem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

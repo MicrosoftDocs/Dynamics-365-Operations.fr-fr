@@ -81,3 +81,6 @@ Pour modifier un identifiant utilisateur, vous devez renommer la clé dans la ba
 Pour plus d’options pour implémenter les utilisateurs B2B, voir [Exporter les utilisateurs B2B vers Azure AD](../implement-b2b.md).
 
 Pour plus d’informations sur les comptes système préconfigurés, voir [Comptes système préconfigurés](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

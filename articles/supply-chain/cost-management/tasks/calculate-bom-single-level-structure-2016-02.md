@@ -43,3 +43,6 @@ Cette procédure montre comment calculer le coût d'un produit fini à l'aide d'
     * Il vous faudra peut-être cliquer sur les points de suspension (…) pour afficher cette option du menu supérieur.    Voici la composition du coût :  *    10 est dérivé d'ITEM_A, 10 d'ITEM_B, 10 de BOM_2. Dans ce cas, il n'existe aucun détail pour BOM_2, car il a été entré comme coût standard de 10 mais n'a pas été obtenu via le calcul.  *    7 est dérivé du temps de réglage, qui est un coût constant, et le chiffre 7 supplémentaire est dérivé de l'opération d'exécution (processus).  *    Il existe également d'autres montants qui correspondent aux coûts indirects.  
 9. @SysTaskRecorder:_RequestClose
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

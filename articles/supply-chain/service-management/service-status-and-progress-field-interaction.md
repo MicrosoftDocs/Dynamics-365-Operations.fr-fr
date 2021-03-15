@@ -94,3 +94,6 @@ Si toutes les lignes d'une commande de service affichent le statut **Validé**, 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

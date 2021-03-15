@@ -95,3 +95,6 @@ L'espace de travail se compose d'une synthèse de vignettes et de deux listes. L
 ### <a name="manually-creating-a-new-released-product"></a>Créer manuellement un nouveau produit lancé
 
 Vous pouvez créer manuellement un produit lancé en une seule exécution, en fonction des processus de l'organisation et de toutes les règles d'entreprise indiquant si cette fonction doit être utilisée. Cette fonction permet de créer un nouveau produit et de le lancer automatiquement dans l'entité juridique actuelle. Pour créer un nouveau produit, cliquez sur **Produits lancés** dans l'espace de travail **Gestion des produits lancés** ou dans la page de liste **Produit lancé**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

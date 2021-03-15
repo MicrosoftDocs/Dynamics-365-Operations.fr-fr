@@ -47,3 +47,6 @@ Cette rubrique décrit les étapes manuelles pour créer, calculer et valider un
 12. Sur la page d'accueil, sélectionnez **Finances du magasin**.
 13. Sélectionnez l'onglet **Relevés validés**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

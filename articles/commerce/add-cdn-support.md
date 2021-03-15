@@ -162,3 +162,6 @@ Votre CDN doit être maintenant correctement configuré de sorte qu’il puisse 
 [Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

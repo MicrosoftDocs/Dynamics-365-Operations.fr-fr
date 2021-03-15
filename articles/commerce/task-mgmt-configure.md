@@ -110,3 +110,6 @@ L'illustration suivante présente un exemple de vignette **Tâches** sur une pag
 [Affecter des listes de tâches à des magasins ou des employés](task-mgmt-assign-lists.md)
 
 [Gestion des tâches dans le PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

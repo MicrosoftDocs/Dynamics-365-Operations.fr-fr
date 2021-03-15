@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Une fois que vous avez récupéré un jeton d'accès, vous passerez le jeton dans l'en-tête Autorisation en tant que jeton détenteur avec chaque demande que vous envoyez à l'API de données, comme décrit ci-dessus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

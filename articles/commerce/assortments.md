@@ -106,3 +106,6 @@ Tenez compte des exigences de mise en œuvre suivantes lorsque vous planifiez et
 - **Ventes et retours en dehors des assortiments** : cette capacité permet aux détaillants de gérer efficacement leurs assortiments en leur laissant limiter le nombre de produits disponibles aux produits appartenant au mix produit de base du magasin. Cette capacité permet également aux détaillants de gérer les situations au cours desquelles un produit a été omis par erreur d'un assortiment, ou lorsqu'un produit a été retourné en dehors des dates d'effet de l'assortiment.
 
 Si les données de produit n'existent pas dans la base de données du canal, le PDV effectue des appels en temps réel aux sièges sociaux pour récupérer les informations requises, de sorte que le produit pusse être vendu, retourné ou placé sur une commande client. Les informations sur le produit extraites de cette manière sont disponibles uniquement dans le cadre de cette transaction. Le produit n'est pas ajouté à la définition de l'assortiment. Par conséquent, les appels en temps réel consécutifs seront effectués au cas par cas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

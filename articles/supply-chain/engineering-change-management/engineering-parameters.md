@@ -56,3 +56,6 @@ Le tableau suivant décrit les champs disponibles sur l'onglet **gestion des mod
 | Règle de gravité | Sélectionnez la manière dont la gravité d'un ordre de modification technique doit être établie. Sélectionnez *Manuel* si l'utilisateur doit entrer une valeur dans le champ **Gravité**. Sélectionnez *Calculer* pour que le système calcule la valeur du champ **Gravité** lorsque vous sélectionnez **Calculer la gravité** dans le volet Actions de la demande de modification technique. Dans ce cas, le système utilisera les règles de gravité définies sur la page **Ensemble de règles de gravité**. Sélectionnez *Calculer automatiquement* pour avoir la valeur du champ **Gravité** automatiquement calculé et rempli en fonction des ensembles de règles de gravité. |
 | Relancer les produits impactés | Ce champ s'applique lorsque vous lancez des produits via un ordre de modification technique. Vous pouvez choisir si tous les produits ou uniquement les produits concernés doivent être proposés dans la boite de dialogue **Versions**. |
 | Niveaux de nomenclature à lancer | La profondeur du niveau de nomenclature à lancer. Si la nomenclature a plus de niveaux (c'est-à-dire si elle est plus profonde) que la valeur spécifiée ici, seuls les niveaux supérieurs à la valeur spécifiée seront libérés. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

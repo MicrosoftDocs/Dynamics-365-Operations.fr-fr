@@ -92,3 +92,6 @@ Les grilles de rémunération permettent de définir et de tenir à jour les str
 29. Dans la liste, cochez ou décochez toutes les lignes.
 30. Cliquez sur Appliquer à la grille.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

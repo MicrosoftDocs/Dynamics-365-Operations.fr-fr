@@ -52,3 +52,6 @@ Il s'agit de la troisième procédure (parmi les huit) qui explique comment cré
 20. Fermez la page.
 21. Fermez le formulaire **Détails des produits lancés**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

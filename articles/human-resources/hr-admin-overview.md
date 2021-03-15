@@ -102,3 +102,5 @@ Ce Guide de l'administrateur vous aide à configurer, gérer et dépanner Dynami
 - [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)
 - [Guide du développeur](hr-developer-overview.md)
 - [Guide de l'utilisateur](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
     - Facultatif : Pour filtrer les valeurs d’une dimension spécifique sélectionnée, dans les champs sous le champ **Ensemble de dimensions financières**, sélectionnez les dimensions que vous souhaitez. Les options disponibles varient en fonction de l’ensemble de dimensions financières que vous avez sélectionné.
 
 3. Sélectionnez **Calculer les soldes** pour exécuter la recherche.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

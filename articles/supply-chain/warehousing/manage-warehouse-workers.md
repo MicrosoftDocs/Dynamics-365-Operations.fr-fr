@@ -56,3 +56,6 @@ L'analyse du temps qui est utilisée pour traiter les éléments de travail perm
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

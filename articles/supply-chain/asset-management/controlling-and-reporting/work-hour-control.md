@@ -73,3 +73,6 @@ La capture d'écran suivante présente un exemple de calcul de **contrôle des h
 Une autre manière d'effectuer un calcul d'heures est de choisir plusieurs actifs dans **Tous les actifs** ou **Actifs actifs**. Ensuite vous cliquez sur le bouton **Contrôle d'heure** sur l'organisateur **Général**. Les actifs sélectionnés sont insérés automatiquement dans le champ **Actif** sur l'organisateur **Enregistrements à inclure**. Cliquez sur **OK** dans la boîte de dialogue **Contrôle des heures d'actif**, et le calcul pour les actifs sélectionnés s'affiche. La même procédure peut être effectuée pour les postes techniques dans **Tous les postes techniques** ou **Postes techniques actifs**, et pour les ordres de travail dans **Tous les ordres de travail** ou **Ordres de travail actifs**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

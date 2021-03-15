@@ -80,3 +80,6 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 9. Dans la boîte de dialogue **Principal**, sélectionnez le principal en ajoutant **Module complémentaire de facturation électronique**.
 10. Sélectionnez **Ajouter**, puis sélectionnez **Enregistrer les modifications du coffre de clés**.
 11. Sur la page **Vue d’ensemble**, copiez la valeur **Nom DNS** du coffre de clés. Cette valeur sera utilisée lors de la configuration du service dans RCS et sera désignée sous le nom *URI du coffre de clés*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

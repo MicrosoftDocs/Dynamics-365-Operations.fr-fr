@@ -55,3 +55,6 @@ Cette tâche nécessite un flux de production avec une version et des activités
 3. Dans le champ Activité, entrez ou sélectionnez une valeur.
 4. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

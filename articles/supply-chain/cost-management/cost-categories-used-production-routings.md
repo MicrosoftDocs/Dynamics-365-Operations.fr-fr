@@ -55,3 +55,6 @@ Certains types de travaux de production peuvent s'appliquer aux générations d'
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

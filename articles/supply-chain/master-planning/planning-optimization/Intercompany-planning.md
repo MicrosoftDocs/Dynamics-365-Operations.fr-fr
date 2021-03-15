@@ -87,3 +87,6 @@ Pour cet exemple, une commande fournisseur prévisionnelle est créé dans la so
 L'illustration suivante montre comment cet exemple peut apparaître sur la page **Origine des besoins à plusieurs niveaux** pour l'ordre de fabrication planifié.
 
 ![Exemple intersociétés impliquant trois entreprises](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

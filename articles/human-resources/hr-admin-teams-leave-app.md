@@ -134,3 +134,6 @@ Pour limiter l'accès à l'application Human Resources dans Microsoft Teams pour
 [Centre d’aide Microsoft Teams](https://support.office.com/teams)</br>
 [Gérer les demandes de congés dans Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

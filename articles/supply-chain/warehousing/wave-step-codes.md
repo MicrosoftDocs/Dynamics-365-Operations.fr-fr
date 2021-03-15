@@ -92,3 +92,6 @@ La procédure suivante permet de garantir que le modèle de réapprovisionnement
 6. Dans le champ **Code étape de vague**, sélectionnez le code étape de vague que vous avez sélectionné dans le modèle de réapprovisionnement.
 
 Vous effectuez ces étapes pour chaque entité juridique.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Dans l’organisateur **Compte général de destination**, le compte principal e
 > Vous pouvez éventuellement utiliser le bouton **Copier** pour dupliquer la répartition sélectionnée.
 
 Lorsqu’une condition de répartition est créée pour un compte principal, le système va automatiquement valider un nouveau N° document lors de la validation d’un N° document, qui correspond aux dimensions financières source dans les conditions de répartition.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

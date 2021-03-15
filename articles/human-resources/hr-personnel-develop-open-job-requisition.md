@@ -66,3 +66,5 @@ Les projets de recrutement permettent de gérer votre processus de recrutement. 
 32. Sélectionnez **Statut du projet de recrutement**.
 33. Sélectionnez **Démarrer**. Le statut **Démarré** indique qu’il est possible d’envoyer des candidatures pour le projet.  
 34. Cliquez sur **OK**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

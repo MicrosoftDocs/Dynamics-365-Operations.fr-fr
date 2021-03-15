@@ -45,3 +45,6 @@ Cette énumération fournit le jeu d'options pour les valeurs de statut d'une de
 
 [Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
 [Exemple de requête pour une demande de recrutement](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

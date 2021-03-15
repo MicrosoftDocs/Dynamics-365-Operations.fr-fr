@@ -139,3 +139,6 @@ L’illustration suivante montre le processus, comme décrit dans cette rubrique
 - [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 - [Concepteur de formule dans les états électroniques (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

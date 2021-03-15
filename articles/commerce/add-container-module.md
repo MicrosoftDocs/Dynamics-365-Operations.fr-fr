@@ -141,3 +141,6 @@ Pour ajouter un module de lecteur de conteneur à une nouvelle page et définir 
 [Module d'en-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

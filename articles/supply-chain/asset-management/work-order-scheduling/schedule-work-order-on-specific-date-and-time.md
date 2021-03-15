@@ -55,3 +55,6 @@ Si un ordre de travail doit être programmé à une date *et* à une heure spéc
 >[!NOTE]
 >Afin de planifier un agent de maintenance pour l'ordre de travail, cet agent de maintenance doit être disponible aux dates de début et de fin prévues. La disponibilité de l'agent est paramétrée dans [calendrier de l'agent](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

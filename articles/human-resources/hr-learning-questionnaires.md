@@ -44,3 +44,6 @@ Le tableau suivant fournit des liens vers des informations décrivant les tâche
 | [Concevoir un questionnaire](hr-learning-design-questionnaires.md) | cet article fournit des informations sur la façon de concevoir un questionnaire. Le processus de création implique de définir des conditions préalables, des réponses et des questions, puis de les combiner en un questionnaire. |
 | [Distribuer et programmer des questionnaires](hr-learning-distribute-questionnaires.md) | Cet article fournit des informations sur la façon de distribuer un questionnaire aux personnes interrogées et sur la manière de remplir les questionnaires. |
 | [Afficher et évaluer les résultats d'un questionnaire](hr-learning-evaluate-questionnaire-results.md) | Cet article fournit des informations sur l'affichage et l'évaluation des résultats à partir des questionnaires remplis. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

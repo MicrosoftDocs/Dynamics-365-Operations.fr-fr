@@ -45,3 +45,6 @@ Les configurations existantes ne sont pas concern√©es par les modifications ult√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

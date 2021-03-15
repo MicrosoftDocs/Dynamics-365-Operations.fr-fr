@@ -165,3 +165,6 @@ L'illustration suivante présente un exemple de la boîte de dialogue **Créer u
 >[!NOTE]
 >Si vous souhaitez que les ordres de travail soient créés automatiquement, vous pouvez planifier des tâches de plan de maintenance, ou paramétrer la « Création automatique » des [plans de maintenance](../preventive-and-reactive-maintenance/maintenance-plans.md) ou des [visites de maintenance](../preventive-and-reactive-maintenance/maintenance-rounds.md) sur un actif. Les ordres de travail créés depuis les demandes de maintenance sur la page de liste **Tout le programme de maintenance** sont des types de tâches de maintenance sélectionnés dans les demandes de maintenance.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

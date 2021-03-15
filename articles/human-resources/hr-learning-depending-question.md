@@ -56,3 +56,6 @@ Les questions conditionnelles permettent de spécifier la question de suivi qui 
 10. Dans l'arborescence, sélectionnez « Questions\Je suis assez payé pour mon travail ».
     * Notez que l'arborescence de questions est mise à jour pour indiquer la dépendance.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

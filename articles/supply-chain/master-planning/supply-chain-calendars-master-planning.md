@@ -142,3 +142,6 @@ Concernant le calendrier de groupe de couverture, il est important de tenir comp
 
 ### <a name="updating-scm-related-calendars"></a>Mise à jour des calendriers SCM
 Même s’il est important que tous les calendriers associés soient attribués à leur place respective (fournisseur, client, entrepôt, mode de livraison ou groupe de couverture), leur mise à jour l’est tout autant dans la mesure où ils reflètent les modifications. Le système définit les dates de production, de transfert, d’achat et de commande client selon l’association des calendriers assignés. Préciser qui est responsable d’attribuer et de mettre à jour les calendriers dans ses zones respectives reste une bonne pratique. En cas de panne ou de tout autre changement inhabituel les jours ouvrés, il est essentiel de mettre à jour les calendriers en conséquence. Toutes les tâches qui dépendent des calendriers, telles que la planification et la programmation de la production, doivent être relancées lors de la mise à jour des calendriers. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

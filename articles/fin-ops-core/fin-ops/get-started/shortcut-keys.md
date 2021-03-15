@@ -255,3 +255,6 @@ Certains des raccourcis de cette page sont des *accords de touches*, ce qui sign
 
 [Raccourcis clavier pour l’analyse de compte manquante](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

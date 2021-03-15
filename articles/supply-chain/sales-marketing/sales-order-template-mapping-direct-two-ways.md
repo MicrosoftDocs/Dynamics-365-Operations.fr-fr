@@ -208,3 +208,6 @@ Les illustrations suivantes présentent un exemple de modèle de mise en corresp
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Prospect en disponibilités](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Cette procédure indique comment créer une stratégie de repositionnement des c
     * Continuez jusqu’à ce que tous les centres de coût soient mis en correspondance avec leurs éléments de coût secondaires correspondants.  
 16. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Pour ajouter un module de bloc de texte à une nouvelle page et définir les pro
 
 [Module de lecture vidéo](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Cette tâche illustre la création d’un accord d’établissement bancaire pou
 18. Cliquez sur Étendre.
 19. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

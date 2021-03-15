@@ -65,3 +65,6 @@ Une nouvelle solution Dataverse sera bientôt disponible avec les modifications 
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ La figure suivante illustre les effets du modèle de stock LIFO lorsque le marqu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

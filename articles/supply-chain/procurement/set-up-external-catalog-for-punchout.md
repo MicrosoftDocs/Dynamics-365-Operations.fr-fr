@@ -112,3 +112,5 @@ Si un produit figurant dans le catalogue fournisseur externe a été demandé, c
 
 - [Améliorations des cXML d’achat](purchasing-cxml-enhancements.md)
 - [Utiliser des catalogues externes pour PunchOut eProcurement](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

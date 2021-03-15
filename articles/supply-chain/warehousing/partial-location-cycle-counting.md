@@ -61,3 +61,6 @@ Pour cet exemple, seul le numéro d’article A0001 doit être compté dans l’
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Inventaire tournant](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

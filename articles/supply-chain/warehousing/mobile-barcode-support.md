@@ -34,3 +34,6 @@ L'application d'entrepôt de Dynamics 365 Supply Chain Management a été testé
 
 En tant que client, nous vous recommandons de tester l'application de lecture mobile Entreposage sur du matériel sélectionné avant de prendre une décision concernant le matériel à acheter.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Lorsque vous définissez une activité telle qu'une opération de gamme ou une p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

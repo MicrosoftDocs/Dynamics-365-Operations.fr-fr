@@ -40,3 +40,6 @@ Les postes vacants peuvent parfois être remplis par des candidats déjà employ
 9. Cliquez sur Modifier le poste.
     * Vous pouvez également modifier la rémunération à ce moment-là. Si vous n’affectez pas la rémunération à ce moment, vous pouvez la modifier en allant dans l’écran du collaborateur, en sélectionnant l’onglet Rémunération, et en choisissant « Régime fixe ». Après avoir sélectionné « Modifier le poste », le statut de la candidature est mis à jour sur « Employé ».  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

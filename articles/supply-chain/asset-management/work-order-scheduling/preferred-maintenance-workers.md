@@ -67,3 +67,6 @@ Vous pouvez également paramétrer les agents de maintenance *responsables* à s
 
 Lors de la planification des ordres de travail, différents scores sont calculés pour déterminer quels agents doivent effectuer les tâches associées à un ordre de travail (ces scores sont paramétrés dans le lien **Paramètres de la gestion des actifs** **Planification des ordres de travail** > ). Si au moins deux agents de maintenance préférés ou responsables obtiennent le même score lors de la planification des ordres de travail, un agent est sélectionné de manière aléatoire. Sinon, il s'agit toujours de l'agent ayant le score le plus élevé qui est affecté pour exécuter un ordre de travail.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

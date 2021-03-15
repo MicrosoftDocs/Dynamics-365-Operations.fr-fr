@@ -99,3 +99,6 @@ Si vous souhaitez collaborer avec Microsoft sur des outils et de processus de pe
 [Ressources de l’enregistreur de tâches](../../dev-itpro/user-interface/task-recorder.md)  
 [Créer une documentation ou une formation à l’aide de l’enregistreur de tâches](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Référentiel GitHub d’aide personnalisée](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

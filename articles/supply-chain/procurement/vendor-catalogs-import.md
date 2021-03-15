@@ -69,3 +69,6 @@ Le modèle de fichier d'importation de catalogue est un fichier XSD que vous pou
 3. Dans la boîte de dialogue **Enregistrer sous**, sélectionnez l'emplacement de stockage du modèle de fichier de catalogue et enregistrez le fichier.
 
 Pour plus d'informations et pour obtenir des exemples, consultez ce billet de blog : [Catalogues fournisseur dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

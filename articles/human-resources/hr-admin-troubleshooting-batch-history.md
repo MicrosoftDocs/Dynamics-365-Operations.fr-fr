@@ -64,3 +64,6 @@ Planifiez une tâche automatique pour nettoyer votre historique des traitements 
 
 8. Modifiez les autres paramètres sous **Exécuter en arrière-plan** au besoin, et sélectionnez **OK**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

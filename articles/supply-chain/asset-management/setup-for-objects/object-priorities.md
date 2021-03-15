@@ -52,3 +52,6 @@ Pour plus d'informations sur le paramétrage lié au calcul des scores pour la p
 
 > [!NOTE]
 > Si vous modifiez un enregistrement de niveau de service d'actif dans la page **Niveaux de service d'actifs** après l'avoir déjà utilisé sur un ordre de travail, le niveau de service des demandes de maintenance et des ordres de travail n'est pas mis à jour en conséquence.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

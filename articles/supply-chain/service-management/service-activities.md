@@ -39,3 +39,6 @@ Vous pouvez afficher le statut des activités de service dans l'écran **Tableau
 
 [Tableau d'affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

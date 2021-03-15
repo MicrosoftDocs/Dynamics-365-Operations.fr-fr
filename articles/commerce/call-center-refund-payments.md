@@ -108,3 +108,6 @@ Une organisation peut également définir l'option **Autoriser le remplacement d
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Modes de paiement dans les centres d’appels](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

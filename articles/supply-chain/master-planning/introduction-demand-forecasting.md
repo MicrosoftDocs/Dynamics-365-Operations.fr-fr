@@ -102,3 +102,6 @@ Notez que l'UdM de prévision de la demande ne doit pas nécessairement avoir de
 [Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Prolonger la fonctionnalité de prévision de la demande](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

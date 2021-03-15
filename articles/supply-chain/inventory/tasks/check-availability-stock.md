@@ -59,3 +59,6 @@ Cette procédure vous indique comment contrôler le stock physique disponible po
 5. Cliquez sur **OK**.
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

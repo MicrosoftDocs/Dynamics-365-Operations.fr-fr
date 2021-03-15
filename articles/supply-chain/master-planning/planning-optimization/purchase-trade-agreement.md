@@ -89,3 +89,6 @@ Le tableau suivant fournit des exemples qui montrent comment les différents par
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Contrats d'achat](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

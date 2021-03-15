@@ -50,3 +50,6 @@ Cette procédure indique comment créer des objets de coût en important la dime
 ## <a name="view-the-imported-cost-centers"></a>Afficher les centres de coût importés
 1. Cliquez sur Afficher les membres de la dimension.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

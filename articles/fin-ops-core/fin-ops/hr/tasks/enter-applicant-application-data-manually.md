@@ -61,3 +61,6 @@ Cette procédure permet d’indiquer comment mettre à jour manuellement les inf
 6. Cliquez sur Enregistrer.
     * Après l’enregistrement de l’application, vous pouvez y joindre des documents, notamment l’expérience du candidat, les primes, et la lettre d’accompagnement.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

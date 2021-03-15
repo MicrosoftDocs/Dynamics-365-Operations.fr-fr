@@ -52,3 +52,6 @@ Cette procédure décrit les étapes pour créer et traiter un réassort magasin
 19. Cliquez sur Créer une commande.
 20. Cliquez sur Oui.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Les illustrations suivantes présentent la mise en correspondance de modèles da
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transfert de stock (Field Service vers Supply Chain Management) : transfert de stock
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

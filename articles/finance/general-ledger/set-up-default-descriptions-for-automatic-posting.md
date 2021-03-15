@@ -86,3 +86,6 @@ Après avoir suivi les étapes de la section [Paramétrage des descriptions par 
 2. Dans le champ **Table de référence**, sélectionnez la table de base de données à partir de laquelle ajouter des données de paramétrage à la description.
 3. Dans le champ **Champ de référence**, sélectionnez le champ à partir duquel ajouter des données de paramétrage à la description.
 4. Répétez les étapes 1 à 3 pour ajouter d’autres paramètres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

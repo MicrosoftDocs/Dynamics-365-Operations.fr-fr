@@ -92,3 +92,6 @@ Pour configurer une opération PDV afin qu'elle puisse être liée à une tâche
 [Affecter des listes de tâches à des magasins ou des employés](task-mgmt-assign-lists.md)
 
 [Gestion des tâches dans le PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

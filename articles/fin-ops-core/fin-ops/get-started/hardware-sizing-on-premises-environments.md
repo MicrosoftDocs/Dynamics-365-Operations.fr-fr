@@ -141,3 +141,6 @@ Le service Orchestrator est le service qui assure le déploiement et les communi
 ## <a name="virtualization-and-oversubscription"></a>Virtualisation et sursouscription
 
 Les services critiques pour la mission comme AOS doivent être hébergés sur des hôtes virtuels qui ont des ressources dédiées : des noyaux, de la mémoire et un disque.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

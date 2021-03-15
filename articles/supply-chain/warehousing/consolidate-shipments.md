@@ -38,3 +38,6 @@ Les scénarios suivants vous guideront tout au long du processus de consolidatio
 
 - [Stratégies de consolidation de l'expédition](about-shipment-consolidation-policies.md)
 - [Configurer les stratégies de consolidation de l'expédition](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

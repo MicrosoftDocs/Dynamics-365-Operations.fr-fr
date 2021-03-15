@@ -64,3 +64,5 @@ Vous trouverez des avis, des actualités et d’autres informations concernant l
 #### <a name="task-guides"></a>Guides de tâches
 
 Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton Aide de n’importe quelle page.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

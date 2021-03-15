@@ -78,3 +78,6 @@ Cette entité décrit le numéro d'identification du candidat. Elle permet au co
 [Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
 [Exemple de requête pour l'entité Candidat à l'embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

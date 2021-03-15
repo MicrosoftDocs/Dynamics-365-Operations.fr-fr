@@ -95,3 +95,6 @@ Les transactions de relevé bancaire qui vous avez marquées comme **Nouveau** s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

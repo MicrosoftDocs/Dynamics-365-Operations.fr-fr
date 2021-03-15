@@ -184,3 +184,6 @@ Cette modification se produit après le transfert car les heures flexibles ont �
 | 18 h 00 | 20 h 00 | 2    | 1,5       | 3            |
 | 20 h 00 | 21 h 00 | 1    | 2         | 2            |
 |          |          |      | **Total** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

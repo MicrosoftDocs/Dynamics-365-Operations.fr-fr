@@ -70,3 +70,6 @@ La prolongation du délai est une exception à la norme et est envisagée au cas
 [Configurer le BOPIS dans un environnement d'évaluation Dynamics 365 Commerce](cpe-bopis.md)
 
 [Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

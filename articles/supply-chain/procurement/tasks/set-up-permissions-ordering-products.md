@@ -44,3 +44,6 @@ Cette rubrique explique comment accorder à des collaborateurs l'autorisation de
 2. Utilisez le filtre rapide pour trouver le collaborateur que vous venez d'ajouter en tant que demandeur.
 3. Sélectionnez le demandeur. La liste des préparateurs montre les personnes qui ont l'autorisation de commander des articles au nom du demandeur qui est choisi dans le volet gauche.  Vous pouvez ajouter des préparateurs supplémentaires ici. Cette vue vous laisse également accorder l'autorisation au demandeur de créer des demandes dans les entités juridiques et les unités opérationnelles qui ne sont pas l'entité juridique ou l'unité opérationnelle de cette personne.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

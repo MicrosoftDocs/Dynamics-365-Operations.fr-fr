@@ -52,3 +52,6 @@ L’Atelier de création de chargement utilise les adresses des clients et les d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

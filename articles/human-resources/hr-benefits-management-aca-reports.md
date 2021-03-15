@@ -207,3 +207,6 @@ Les informations de couverture pour les personnes à charge de l'employé sont a
 
 > [!NOTE]
 > La page affiche uniquement les régimes d'avantages qui sont marqués comme **ACA déclarables**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

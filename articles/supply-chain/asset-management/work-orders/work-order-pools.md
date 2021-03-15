@@ -108,3 +108,6 @@ Comme décrit dans la section précédente, vous pouvez ajouter des ordres de tr
 
 Pour supprimer un ordre de travail depuis un regroupement d'ordres de travail, répétez ces étapes, mais sélectionnez **Supprimer** à l'étape 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

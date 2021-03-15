@@ -123,3 +123,6 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 [Enregistreur de tâches](task-recorder.md)
 
 [Création de rubriques d’aide enrichies grâce à l’enregistreur de tâches (lien externe)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

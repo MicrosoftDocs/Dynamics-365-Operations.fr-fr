@@ -51,3 +51,6 @@ Pour corriger, ajuster ou mettre à jour les coûts standard de nouveaux article
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

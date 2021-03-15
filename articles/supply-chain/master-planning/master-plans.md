@@ -56,3 +56,6 @@ Vous pouvez également définir le plan dynamique de démarrage de manière à c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

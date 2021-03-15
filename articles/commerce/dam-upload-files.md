@@ -97,3 +97,6 @@ Pour télécharger un fichier dans le générateur de site Commerce, procédez c
 [Personnaliser les points focaux de l’image](dam-custom-focal-point.md)
 
 [Charger et diffuser des fichiers statiques](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

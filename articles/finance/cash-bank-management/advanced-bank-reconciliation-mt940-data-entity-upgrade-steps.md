@@ -63,3 +63,6 @@ Les étapes suivantes vous permettent d’ajouter l’entité d’importation de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

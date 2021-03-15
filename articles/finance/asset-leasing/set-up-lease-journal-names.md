@@ -36,3 +36,6 @@ Pour configurer les noms des journaux de bail, procédez comme suit.
 2. Sur l’onglet **Général**, dans le champ **Nom du journal de reconnaissance initiale** et sélectionnez un journal. Toutes les entrées de journal de reconnaissance initiale seront enregistrées sous ce nom de journal.
 3. Dans le champ **Nom du journal des factures**, sélectionnez un journal. Si l’option **Payer au fournisseur** est définie sur **Oui** pour le registre de location, les factures de location et de paiement des dépenses seront imputées à ce nom de journal.
 4. Dans le champ **Nom du journal des baux**, sélectionnez un journal. Toutes les écritures d’amortissement, d’intérêts et de reclassement à court terme seront enregistrées sous ce nom de journal. Si l’option **Payer au fournisseur** est définie sur **Non** pour le registre de location, les entrées de paiements de location et de paiement des dépenses seront imputées à ce nom de journal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

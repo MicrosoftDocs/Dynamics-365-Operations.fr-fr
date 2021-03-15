@@ -61,3 +61,6 @@ Après avoir importé les données de demande d'historique, vous pouvez génére
 
 [Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)  
 [Vue d’ensemble de tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

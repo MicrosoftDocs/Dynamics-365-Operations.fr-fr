@@ -84,3 +84,6 @@ Cette rubrique décrit la configuration des processus de comptage d'inventaire b
 5. Dans le menu déroulant du champ **Groupe de comptage**, sélectionnez un groupe de comptage. Vous pouvez sélectionner un groupe de comptage spécifique devant être appliqué aux articles de l'entrepôt spécifique sélectionné. Lors du comptage dans cet entrepôt, cette stratégie de comptage remplace la stratégie de comptage générale pour l'article.  
 6. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

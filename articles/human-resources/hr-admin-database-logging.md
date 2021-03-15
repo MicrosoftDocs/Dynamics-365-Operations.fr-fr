@@ -87,3 +87,6 @@ Pour paramétrer le nettoyage des journaux de base de données, procédez comme 
    - Date et heure de création
 
 3. Utilisez l'onglet **Nettoyage des journaux de base de données** pour déterminer quand exécuter la tâche de nettoyage des journaux. Par défaut, les journaux de base de données sont disponibles pendant 30 jours.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Arnie valide ce journal et consulte les transactions client sur la page **Transa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

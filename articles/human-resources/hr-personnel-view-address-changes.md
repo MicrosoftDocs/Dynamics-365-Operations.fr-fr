@@ -128,3 +128,6 @@ Lorsque vous sélectionnez la vignette **Changements d’adresse**, une nouvelle
 > Si vous souhaitez recevoir une alerte ou un e-mail concernant ces changements d’adresse, vous pouvez créer une règle d’alerte sur l’onglet **Options** dans le volet Actions. Pour plus d’informations sur les règles d’alertes, voir [Créer des règles d’alertes](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
 > Si vous souhaitez configurer un workflow pour les changements d’adresse, vous pouvez sélectionner l’option **Envoyer en externe** sur votre règle d’alerte, puis utilisez Power Automate pour déclencher l’événement commercial et configurer un workflow. Pour plus d’informations, consultez [Alertes en tant qu’événements commerciaux](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

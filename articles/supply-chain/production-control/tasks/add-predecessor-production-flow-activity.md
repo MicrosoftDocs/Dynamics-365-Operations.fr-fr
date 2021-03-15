@@ -51,3 +51,6 @@ Pour en savoir plus, lisez le livre blanc « Production flows and activities in
     * Le ratio de durée de cycle par défaut d'une relation d'activité est 1. Cela suppose que les deux activités s'exécutent au même rythme ou takt time. Si un prédécesseur s'exécute à un rythme plus élevé (takt time inférieur), le ratio peut être inférieur à 1, si le prédécesseur s'exécute à un rythme plus lent (takt time supérieur), le ratio de durée de cycle est supérieur à 1.  
 5. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

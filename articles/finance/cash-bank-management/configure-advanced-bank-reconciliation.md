@@ -60,3 +60,6 @@ L’option **Rapprocher après l’importation** validera automatiquement le rel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

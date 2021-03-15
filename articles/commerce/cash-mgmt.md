@@ -61,3 +61,6 @@ Dans Retail version 10.0.3 et ultérieurement, les fonctionnalités suivantes r
 - Lors du rapprochement, si la transaction sélectionnée n'est pas équilibrée, l'utilisateur doit entrer une description du motif pour le rapprochement non équilibré. Les utilisateurs peuvent sélectionner une seule transaction et la rapprocher de la description du motif approprié au besoin.
 - Les utilisateurs peuvent continuer à rapprocher et annuler des rapprochements de transactions jusqu'à ce que l'équipe est clôturée. Une fois une équipe clôturée, le rapprochement des transactions ne peut pas être annulé.
 - Lorsqu'un utilisateur choisit de clôturer une équipe, Commerce valide qu'il n'y a aucune transaction non rapprochée dans les transactions de la gestion des disponibilités de l'équipe. Les utilisateurs ne peuvent pas clôturer une fois une équipe s'il reste des transactions non rapprochées.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Cette procédure permet d'afficher ou de supprimer l'historique d'un enregistrem
 2. Sur la page **Analyse RFM**, sélectionnez l'enregistrement à afficher.
 3. Pour afficher l'historique de l'enregistrement, sélectionnez l'organisateur **Historique**.
 4. Pour effacer l'historique de l'enregistrement, sélectionnez **Effacer l'historique**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

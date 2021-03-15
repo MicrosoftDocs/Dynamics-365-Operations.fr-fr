@@ -48,3 +48,6 @@ Cette procédure détaille les configurations du magasin qui affectent la créat
 17. Sélectionnez « Oui » dans **Fractionner par mode de relevé** pour que des relevés soient créés pour chaque méthode de relevé définie. Cette action peut s'avérer utile si les performances de la validation doit être améliorée pour les magasins affichant des volumes élevé de transactions, car cela créera de nombreux relevés plus petits qui peuvent être traités en parallèle.  
 18. Dans le FastTab **Général**, dans le champ **Client par défaut**, vous pouvez sélectionner le compte client à utiliser pour les ventes aux clients qui se rendent dans le magasin.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

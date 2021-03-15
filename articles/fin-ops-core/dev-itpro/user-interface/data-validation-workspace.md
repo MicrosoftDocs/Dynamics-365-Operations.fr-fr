@@ -56,3 +56,6 @@ Avant de pouvoir utiliser l’espace de travail **Liste de contrôle de contrôl
 Les zones de tâches permettent de regrouper les tâches de validation des données en zones logiques de propriété au sein de votre organisation. Par exemple, la Comptabilité fournisseur, la Comptabilité client ou la Comptabilité peuvent être utilisées comme des zones de tâches.
 
 Le **Nom de l’option de menu** est associé au travail correspondant à la tâche et peut être utilisé pour accéder directement à la page associée à partir du lien de tâche dans l’espace de travail. Par exemple, une tâche de contrôle de données pour exécuter le rapport **Balance âgée de Comptabilité fournisseur** pour la Comptabilité fournisseur peut être liée à la page de **État balance âgée de Comptabilité fournisseur**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

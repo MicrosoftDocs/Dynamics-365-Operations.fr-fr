@@ -58,3 +58,6 @@ Un filtre de plan est configuré. Il inclut des éléments A, B et C. Les exécu
 [Afficher l'historique du plan et les journaux de planification](plan-history-logs.md)
 
 [Annuler une tâche de planification](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

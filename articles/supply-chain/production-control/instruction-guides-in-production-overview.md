@@ -409,3 +409,6 @@ Lorsque Supply Chain Management génère les tâches pour l'atelier de productio
 - Si vous définissez plusieurs relations d'opération de gamme qui incluent la relation *Tout* et attribuez des guides à celles-ci, seuls les guides de la relation la plus spécifique seront affichés pour le travail.  
 
 ![Diagramme sur la résolution des guides pertinents](media/instruction-guides-Resolve.png "Diagramme sur la résolution des guides pertinents")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

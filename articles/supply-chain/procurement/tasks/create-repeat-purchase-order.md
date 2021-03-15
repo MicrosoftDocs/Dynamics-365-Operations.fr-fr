@@ -69,3 +69,6 @@ Au lieu de copier une commande complète, il est plus courant de créer une nouv
 4. Sélectionnez la ligne pour la ligne de commande fournisseur souhaitée. Notez que la ligne de commande unique qui est sur cette commande fournisseur est également sélectionnée.  
 5. Cliquez sur **OK**. La ligne de commande supplémentaire a été ajoutée à votre commande fournisseur.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

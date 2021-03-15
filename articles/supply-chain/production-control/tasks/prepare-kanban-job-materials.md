@@ -41,3 +41,6 @@ Cette tâche se concentre sur la préparation d'une tâche de kanban de processu
 6. Cliquez sur Préparer.
     * Le processus de préparation est désormais terminé. La case à cocher activée pour toutes les lignes des prélèvements indique que le statut d'approvisionnement est prélevé.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

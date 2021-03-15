@@ -86,3 +86,6 @@ Il se peut que vous deviez occasionnellement contrepasser une clôture de stock 
 > [!NOTE] 
 > Seule la dernière période de stock clôturée peut être rouverte. Pour contrepasser une clôture de stock antérieure, vous devez contrepasser chaque clôture de stock une par une, en commençant par la plus récente.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

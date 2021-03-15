@@ -51,3 +51,6 @@ La capture d'écran ci-dessous présente un exemple de la page **Tâches de main
 
 ![Figure 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

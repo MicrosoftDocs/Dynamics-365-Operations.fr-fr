@@ -43,3 +43,6 @@ Cette rubrique explique comment ajuster la taxe sur une facture fournisseur. Si 
 13. Cliquez sur **OK**.
 14. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

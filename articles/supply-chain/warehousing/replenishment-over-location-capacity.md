@@ -407,3 +407,6 @@ Vous pouvez maintenant prélever la commande client 2. Elle a été débloquée
 - Vous pouvez remplacer manuellement la disponibilité du travail de réapprovisionnement pour chaque en-tête de travail à partir de la page **Détails du travail** si vous le souhaitez.
 - Lorsque le système définit la disponibilité du travail de réapprovisionnement, il prend en compte tout stock qui se trouve déjà à l’emplacement avant la fin des travaux
 - Chaque travail de commande client est lié à un travail de réapprovisionnement spécifique. Il n’existe pas de fonctionnalité de disponibilité du travail de vente correspondante.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

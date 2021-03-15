@@ -61,3 +61,6 @@ Cette procédure se concentre sur des tâches de kanban du processus de planific
     * Notez que les deux tâches sont ajoutées à la période souhaitée.  
     * Dans la section Capacité de la période, vous pouvez afficher la charge pour chaque période. Le champ Consommation affiche la consommation prévue pendant cette période. Si la consommation prévue est supérieure à la capacité disponible pendant cette période, la consommation surchargée sera sélectionnée.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

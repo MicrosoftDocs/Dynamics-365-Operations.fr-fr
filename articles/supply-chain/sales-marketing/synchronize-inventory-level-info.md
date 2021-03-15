@@ -92,3 +92,6 @@ Vous pouvez appliquer des filtres avec Requête et filtrage avancés afin de con
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Stock de produit (Supply Chain Management vers Field Service) : stock de produit
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

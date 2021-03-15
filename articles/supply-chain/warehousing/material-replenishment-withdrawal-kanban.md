@@ -86,3 +86,6 @@ Dans le scénario suivant, l'activité de transfert du kanban de prélèvement e
 
 Dès qu'un kanban est consommé à l'emplacement d'entrée en production, celui-ci est indiqué comme étant vide et un nouveau kanban est ajouté au flux. Lorsque le kanban est créé, une ligne de vague est ajoutée à une vague de kanban. Lorsque la vague de kanban est traitée, le travail d'entrepôt pour le prélèvement de kanban est créé. Le collaborateur de l'entrepôt traite le travail de prélèvement de kanban et reçoit l'ordre de prélever les matières pour le kanban dans un entrepôt. Une fois que le collaborateur d'entrepôt confirme le prélèvement, le kanban est automatiquement exécuté, puis le collaborateur d'entrepôt reçoit l'instruction de disposer les matières à l'emplacement d'entrée en production.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

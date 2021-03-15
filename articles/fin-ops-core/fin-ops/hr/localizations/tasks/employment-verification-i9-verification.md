@@ -54,3 +54,6 @@ Aux États-Unis, l’IRCA (Immigration Reform and Control Act) requiert que les 
 22. Entrez ou sélectionnez une valeur dans le champ Numéro de référence.
 23. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

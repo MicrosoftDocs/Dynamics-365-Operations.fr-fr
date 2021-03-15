@@ -74,3 +74,6 @@ Lors du processus de règlement, les attributs de règlement sont considérés e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

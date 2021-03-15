@@ -75,3 +75,6 @@ Type de certification Codes commande fournisseur de confirmation Montants des li
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

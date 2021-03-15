@@ -49,3 +49,6 @@ Pour plus d’informations sur la configuration et la création de la déclarati
 - [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Fonctions locales et relatives aux réglementations](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Si une fonctionnalité ou un module de site d’e-commerce utilise un cookie non
 [Module de consentement aux cookies](cookie-consent-module.md) 
  
 [Module En-tête](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

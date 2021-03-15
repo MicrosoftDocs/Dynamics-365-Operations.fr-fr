@@ -149,3 +149,6 @@ En outre, vous pouvez afficher des données de prévision des flux de trésoreri
 - **Prévision d’approvisionnement** : Sélectionnez **Prévisions de flux de trésorerie** pour afficher les futurs flux de trésorerie associés à la prévision d’approvisionnement de l’article sélectionné.
 - **Prévision de la demande** : Sélectionnez **Prévisions de flux de trésorerie** pour afficher les futurs flux de trésorerie associés à la prévision de demande de l’article sélectionné.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

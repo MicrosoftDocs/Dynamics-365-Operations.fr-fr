@@ -41,3 +41,6 @@ Cette rubrique indique comment paramétrer les modèles de dimension financière
 11. Entrez les valeurs de dimension financière qui correspondent au pourcentage entré.
 12. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

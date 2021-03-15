@@ -51,3 +51,6 @@ Pour plus d'informations sur les états du cycle de vie de l'ordre de travail et
 8. Sélectionnez **Enregistrer**.
 
 ![Types d'ordre de travail](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

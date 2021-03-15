@@ -293,3 +293,6 @@ Cette section maintient une liste des problèmes connus pour le nouveau contrôl
 ### <a name="quality-update-for-1009platform-update-33"></a>Mise à jour de la qualité pour la version 10.0.9/Platform Update 33
 
 - [KB 4550367] Les valeurs d’heure ne sont pas mises en forme correctement.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

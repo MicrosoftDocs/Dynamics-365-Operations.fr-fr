@@ -41,3 +41,6 @@ La fonction Facturer l'envoi utilise les opérations du PDV suivantes : Expédi
 La capacité de sélectionner des adresses d'« expédition » reste inchangée.
 
 Les méthodes d'expédition qui peuvent être utilisées pour honorer la ligne de commande sont basées sur la configuration de modes de livraison valides pour les produits et les adresses. Du fait que les règles sur les modes de livraison valides sont tenues à jour uniquement dans Siège, un client du PDV effectue un appel en temps réel pour extraire les modes de livraison valides pour une ligne d'expédition.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

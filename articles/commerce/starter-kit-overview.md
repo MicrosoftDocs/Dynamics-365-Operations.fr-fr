@@ -65,3 +65,6 @@ Les types de modules suivants sont fournis dans la bibliothèque de modules :
 [Module En-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

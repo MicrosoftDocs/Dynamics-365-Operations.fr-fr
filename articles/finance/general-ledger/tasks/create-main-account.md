@@ -51,3 +51,6 @@ Ce guide accompagne l’utilisateur lors de l’ajout d’un compte principal à
 21. Dans le champ **Type de la conversion de devises**, sélectionnez le mode de calcul des de taux de change du compte.
 22. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

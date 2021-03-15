@@ -49,3 +49,6 @@ Les organisations du secteur public peuvent utiliser les écritures comptables a
     * Ajoutez un montant de débit ou de crédit à cette ligne. Si nécessaire, cliquez sur Ajouter une ligne pour ajouter des lignes supplémentaires.  
 17. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

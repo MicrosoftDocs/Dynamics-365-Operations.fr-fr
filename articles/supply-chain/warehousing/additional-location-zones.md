@@ -57,3 +57,6 @@ Avant de pouvoir utiliser la fonctionnalité *Zone d'emplacement supplémentaire
 7. Sélectionnez **Créer**.
 8. Vous recevez des messages indiquant que de nouveaux emplacements ont été ajoutés. Sélectionnez le bouton **Afficher les messages** pour afficher les messages.
 9. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements**. Les nouveaux emplacements s'affichent dans la liste et tous les champs de zone sont disponibles (c'est-à-dire le champ de zone existant et les nouveaux champs de zone supplémentaires).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

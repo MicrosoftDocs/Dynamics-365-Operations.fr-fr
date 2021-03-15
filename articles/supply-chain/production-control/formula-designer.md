@@ -120,3 +120,6 @@ Cliquez sur **Paramétrage** pour personnaliser les informations qui s'affichent
 |     Nomenclature     | Utilisez les cases à cocher pour sélectionner les critères affichés dans l'arborescence. Le concepteur de formule affiche les critères sélectionnés en bas des deux onglets. |
 |    Gamme    |                                           Utilisez les cases à cocher pour sélectionner les critères affichés pour les gammes.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

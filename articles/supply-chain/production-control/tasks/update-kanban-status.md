@@ -47,3 +47,6 @@ Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vo
 2. Dans la liste, marquez la ligne sélectionnée.
     * Notez que le statut de l'unité de manutention est Vidé.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Le groupe de retenue à la source par défaut et le groupe de retenue à la sour
 La retenue à la source est calculée et comptabilisée avec le **Journal des paiements client**. Vous pouvez ajuster manuellement le code de retenue à la source applicable, ainsi que le montant réel de la retenue à la source dans l'onglet **Retenue à la source** sur la page **Régler des transactions**.
 
 Le montant de la retenue à la source calculé sera déduit du paiement du client et imputé au compte **Compensation de la retenue à la source** dans un justificatif associé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

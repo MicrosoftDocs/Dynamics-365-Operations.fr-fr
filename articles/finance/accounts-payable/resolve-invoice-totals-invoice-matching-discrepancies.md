@@ -43,3 +43,6 @@ Après avoir identifié un écart, vous devrez peut-être prendre contact avec v
 Pour plus d’informations, voir [Rechercher/Résoudre les exceptions](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -151,3 +151,6 @@ Vous pouvez contrôler le nombre d'écritures comptables créées lorsque vous v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

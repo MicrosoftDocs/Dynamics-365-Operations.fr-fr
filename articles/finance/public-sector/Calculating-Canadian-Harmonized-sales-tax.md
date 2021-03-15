@@ -85,3 +85,6 @@ Les codes de taxe sélectionnés pour la ligne de dimension sont les suivants si
 |   Fonds 101, Division 121                  | Taxe2, Taxe3      |
 |   Fonds 303, n’importe quelle division à l’exception de la division 141         | Taxe1, Taxe2, Taxe3|
 |   Fonds 303, Division 141                  | Taxe1            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

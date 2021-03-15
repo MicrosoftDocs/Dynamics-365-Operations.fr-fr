@@ -48,3 +48,6 @@ Il s’agit de la première des cinq procédures illustrant le processus de paie
     * Si le bouton Importer n’est pas disponible, cela signifie que la configuration a déjà été importée.  
 9. Cliquez sur Oui.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

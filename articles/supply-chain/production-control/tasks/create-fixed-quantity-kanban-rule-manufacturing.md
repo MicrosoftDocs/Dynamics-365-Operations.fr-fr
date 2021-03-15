@@ -73,3 +73,6 @@ Cette procédure consiste à réaliser le paramétrage nécessaire pour créer u
     * Cette opération crée 5 kanbans.  
     * Notez que 5 kanbans, chacun pour 10 unités, ont été créés pour cette règle de kanban de fabrication. Il s'agit de la dernière étape de cette procédure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

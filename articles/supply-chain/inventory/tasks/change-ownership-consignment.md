@@ -54,3 +54,6 @@ Cette procédure indique comment faire passer le propriétaire du stock de consi
 2. Cliquez sur OK.
 3. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

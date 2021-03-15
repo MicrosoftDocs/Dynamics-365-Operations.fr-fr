@@ -83,3 +83,6 @@ Si vous avez terminé de configurer le canal de centre d'appels et de définir l
 > [!NOTE]
 > Pour utiliser la fonctionnalité de centre d'appels, la clé de configuration de **Expédition multiple** doit être activé. Cette clé de configuration se trouve dans les clés **Configuration Commerce** sous **Administration du système**\> **Configurer** \> **Configuration de licence**. Cela est nécessaire en raison de la fonctionnalité de centre d'appels qui effectue diverses validations en fonction de l'adresse de livraison configurée au niveau de la ligne de commande client. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

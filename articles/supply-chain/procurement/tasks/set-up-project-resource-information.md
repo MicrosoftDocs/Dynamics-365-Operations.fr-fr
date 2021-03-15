@@ -51,3 +51,6 @@ Cette procédure décrit comment paramétrer une ressource de projet. Cette tâc
 20. Cliquez sur Enregistrer.
 21. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

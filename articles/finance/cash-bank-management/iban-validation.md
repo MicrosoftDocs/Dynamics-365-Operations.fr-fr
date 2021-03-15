@@ -47,3 +47,6 @@ Les informations sur la structure IBAN sont enregistrées dans Microsoft Dynamic
     La validation vérifie également que le numéro de compte bancaire correspond à la partie de l’IBAN qui représente le numéro de compte bancaire. Si le numéro de compte bancaire ne correspond pas, vous recevrez un message d’avertissement. Ce message n’est qu’un avertissement. Vous pouvez continuer même si le numéro de compte bancaire ne correspond pas.
 
     La validation vérifie également que le numéro d’acheminement correspond à la partie de l’IBAN qui représente le numéro d’acheminement. Le numéro d’acheminement contient un numéro bancaire et souvent une agence bancaire supplémentaire. Si le numéro d’acheminement bancaire ne correspond pas, vous recevrez un message d’avertissement. Ce message n’est qu’un avertissement. Vous pouvez continuer même si le numéro d’acheminement bancaire ne correspond pas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Le tableau suivant décrit les raccourcis clavier qui peuvent être utilisés lo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

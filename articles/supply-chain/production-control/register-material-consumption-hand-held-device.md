@@ -91,3 +91,6 @@ Après avoir terminé votre enregistrement, sélectionnez **Terminé** pour vali
 -   Les matières peuvent être surconsommées. Par exemple, si les matières sont estimées pour être utilisées avec la quantité de 100 kilos, elles peuvent être surconsommées avec une quantité de 105 kilos, par exemple.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

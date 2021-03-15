@@ -76,3 +76,6 @@ Pour confirmer que le mode de paiement du compte client a été activé et publi
 [Définir des limites de quantité de produits pour les sites de commerce électronique B2B](quantity-limits.md)
 
 [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

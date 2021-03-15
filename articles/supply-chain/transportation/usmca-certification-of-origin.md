@@ -139,3 +139,6 @@ L'utilisateur qui signe la certification doit saisir manuellement le nombre de p
 ### <a name="page-numbers"></a>Numéros de page
 
 Page actuelle et nombre de pages imprimées au bas du document.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

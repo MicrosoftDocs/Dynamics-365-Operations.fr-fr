@@ -80,3 +80,6 @@ Indépendamment du fait que vous avez mis les comptes en correspondance, désact
 
 > [!NOTE]
 > Vous pouvez utiliser cette méthode pour créer un plan de comptes dans l'entité juridique consolidée à partir du plan de comptes d'une des entités juridiques filiales. (Pour plus d'informations, consultez [Groupes de comptes de consolidation et comptes de consolidation supplémentaires](../budgeting/consolidation-account-groups-consolidation-accounts.md).) Attribuez ensuite un principe de conversion de consolidation approprié à chaque compte principal consolidé et exécutez la consolidation pour toutes les entités juridiques filiales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

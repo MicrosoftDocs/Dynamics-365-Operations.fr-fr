@@ -81,3 +81,6 @@ Jusqu'à ce que Microsoft publie une solution pour résoudre le problème, envis
 - Évitez les valeurs décimales dans le coût standard. Essayez de définir le coût standard afin que le champ **Quantité de prix** soit défini sur *1*. Si vous devez spécifier une valeur **Quantité de prix** supérieure à *1*, essayez de réduire le nombre de décimales dans le coût standard unitaire. (Idéalement, il devrait y avoir moins de deux décimales.) Par exemple, évitez de définir des paramètres de coût standard tels que **Prix** = *10* et **Quantité de prix** = *3*, car ils produiront un coût standard unitaire de 3,333333 (où la valeur décimale se répète).
 - Dans la plupart des documents, évitez d'avoir plusieurs lignes contenant la même combinaison de dimensions de produit et de stock financier.
 - Réduisez le degré de parallélisation. (Dans ce cas, votre système peut devenir plus rapide, car moins de conflits de mise à jour et de nouvelles tentatives se produisent.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

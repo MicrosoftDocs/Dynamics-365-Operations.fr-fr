@@ -48,3 +48,6 @@ Pour plus d’informations, voir [Paramétrer et générer des fichiers de paiem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

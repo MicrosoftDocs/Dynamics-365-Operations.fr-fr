@@ -110,3 +110,6 @@ La page **Détails du travail planifié** (**Gestion des entrepôts \> Travail \
 Pour afficher les travaux par lots pour le traitement des vagues, sélectionnez **Tâches de traitement par lots** dans le volet Actions sur la page **Toutes les vagues**.
 
 À partir de là, vous pouvez afficher tous les détails de la tâche par lots pour chacun des ID de tâche de traitement par lots.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

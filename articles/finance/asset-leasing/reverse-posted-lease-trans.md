@@ -55,3 +55,6 @@ Pour révoquer une transaction Contrepassée, procédez comme suit.
 Lorsque vous sélectionnez **Suivi de la Contrepassation**, une boîte de dialogue apparaît et affiche à la fois les transactions d’origine et les transactions annulées, ainsi qu’un numéro de trace.
 
 Vous pouvez également suivre les révocations en utilisant la page **Échéanciers**. Le champ **Contrepasser** est effacé, alors que le champ **Journal validé** est sélectionné. De plus, le champ **Dernier numéro de journal** est mis à jour avec le numéro de journal de la transaction de révocation et le champ **Numéro de journal** est mis à jour avec le numéro de journal de contrepassation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

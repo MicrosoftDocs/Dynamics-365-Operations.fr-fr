@@ -176,3 +176,6 @@ Les programmes sont un ensemble de plans d'avantages qui partagent un ensemble c
    | **Règles d'éligibilité** | Sélectionnez les règles d'éligibilité à appliquer au programme d'avantages. Vous définissez les règles d'éligibilité dans l'onglet **Règles d'éligibilité** sur cette page. |
    
 4. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Si vous souhaitez que la précision de la devise pour une devise spécifique dif
 ### <a name="tables-currency-column"></a>tables : colonne Devise
 
 Le nombre de décimales pouvant être configuré pour des colonnes de devise spécifiques est limité à quatre.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

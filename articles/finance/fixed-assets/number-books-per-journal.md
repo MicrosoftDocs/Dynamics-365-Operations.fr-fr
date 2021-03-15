@@ -49,3 +49,6 @@ Par exemple, il existe 5 001 ID d’immobilisation, trois registres sont assoc
 
 > [!Note] 
 > Si le paramètre **Cumuler l’amortissement** est activé lorsque vous créez une proposition d'amortissement, alors la valeur du champ **Nombre de registres par journal - Proposition d'amortissement** n'a aucun effet. Dans ce cas, le nombre de livres par journal est de 6000, qui est la limite interne définie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

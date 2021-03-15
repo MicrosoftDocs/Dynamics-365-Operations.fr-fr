@@ -96,3 +96,6 @@ Cette procédure décrit le processus de paramétrage des données principales d
     * Spécifiez le code postal à partir duquel cette affectation de base de taux doit être valide.
 10. Dans le champ **Région du pays d'enlèvement**, saisissez « USA ».
 11. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

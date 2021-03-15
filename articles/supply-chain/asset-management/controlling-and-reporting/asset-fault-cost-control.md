@@ -61,3 +61,6 @@ Cet exemple affiche un calcul du contrôle des coûts de défaillance d'un actif
     ![Figure 1](media/05-controlling-and-reporting.png)
 
 Pour obtenir des informations sur la configuration de défaillances, consultez la rubrique [Gestion des défaillances](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

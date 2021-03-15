@@ -44,3 +44,6 @@ Seul le travail de type **Ventes**, **Sortie de transfert**, **Prélèvement de 
 Pour débloquer le travail, le système annule toutes les lignes de travail restantes et corrige les données d'entrepôt associées à l'ID travail que l'utilisateur a spécifié. Toutes les opérations de gestion en entrepôt standard qui impliquent la quantité d'article affectée peuvent alors continuer.
 
 Pour ranger l'article affecté à un emplacement spécifique une fois le travail annulé, l'utilisateur doit utiliser une opération de mouvement de stock ou d'ajustement de quantité sur un appareil mobile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

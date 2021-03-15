@@ -52,3 +52,6 @@ Vérifiez que les mesures « Mesure de flux de trésorerie V2 » et « Ledger
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Les entités du magasin d'entités ont-elles été actualisées ?
 
 Vous devez actualiser périodiquement vos entités pour vous assurer que les données sont à jour et exactes. Pour actualiser manuellement une entité spécifique, accédez à **Administration système \> Paramétrage \> Magasin des entités**, sélectionnez l'entité, puis sélectionnez **Actualiser**. Les données peuvent également être mises à jour automatiquement. Sur la page **Magasin des entités**, définissez l'option **Actualisation automatique activée** sur **Oui**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -182,3 +182,6 @@ Pour entrer des commentaires sur les modifications que vous avez apportées à c
 2. Entrez vos commentaires dans le champ **Entrer des commentaires sur le workflow**.
 3. Relisez vos commentaires. Une fois les commentaires entrés, il n’est plus possible de les modifier.
 4. Cliquez sur **Ajouter** pour ajouter vos commentaires dans la zone **Historique des commentaires**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

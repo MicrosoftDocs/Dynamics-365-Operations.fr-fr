@@ -50,3 +50,6 @@ L’amortissement d’immobilisation peut être exécuté dans les entités juri
 5. Cliquez sur Créer un journal.
 6. Accédez à Immobilisations > Entrées de journal > Journal des immobilisations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

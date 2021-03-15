@@ -136,3 +136,6 @@ Les pages et éléments de menu suivants liés à la configuration des fonctionn
  - **Paramètres du commerce extérieur** (**Taxe** > **Configurer** > **Taxe** > **Commerce extérieur** > **Paramètres du commerce extérieur**). Voir [Configurer les propriétés de pays/régions](#Set-up-Country/region-properties).
 
 La case à cocher **Taxe au preneur** sera disponible sur les pages **Groupe de taxes** et **Taxe validée**. Pour plus d’informations, consultez les sections, [Configurer des groupes de taxes et des groupes de taxe d’article](#sales-tax-item-sales-tax-groups), [Taxe au preneur sur une facture de vente](#reverse-charge-sale), et [Taxe au preneur sur une facture d’achat](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

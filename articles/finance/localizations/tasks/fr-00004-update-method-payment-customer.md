@@ -69,3 +69,6 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
     * Modifier le compte bancaire = 1  
 29. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Le contenu Power BI **CustCollectionsBICrossCompany** inclut un état composé d
 | Lettres de relance         | <ul><li>Montants de code relance</li><li>Détails sur les montants de code relance</li><li>Montants de lettres de relance par société</li><li>Montant de lettres de relance par groupe de clients</li><li>Montant de lettres de relance par région</li></ul> |
 
 Les graphiques et les vignettes sur tous ces états peuvent être filtrés et épinglés au tableau de bord. Pour savoir comment filtrer et épingler dans Power BI, voir [Créer et configurer un tableau de bord](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Vous pouvez également utiliser la fonctionnalité Exporter les données sous-jacentes pour exporter les données sous-jacentes qui sont résumées dans une visualisation.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

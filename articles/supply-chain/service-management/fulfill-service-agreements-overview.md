@@ -106,3 +106,6 @@ Le tableau suivant répertorie les écrans qui prennent en charge les composants
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

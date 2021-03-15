@@ -144,3 +144,6 @@ Ce comportement est fait exprès. L'adresse sélectionnée doit être classée c
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Puis-je trouver l'utilisateur qui a annulé une commande fournisseur ?
 
 Ces informations ne sont suivies que si la commande fournisseur fait l'objet d'une gestion des modifications. Si vous utilisez la gestion des modifications, vous pouvez voir qui a envoyé la modification (l'annulation) et qui l'a approuvée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -167,3 +167,6 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 Les [forums techniques FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) visent à fournir des informations techniques et des recommandations afin que les clients et les partenaires puissent avoir des connaissances détaillées spécifiques à leurs domaines d’intérêt.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

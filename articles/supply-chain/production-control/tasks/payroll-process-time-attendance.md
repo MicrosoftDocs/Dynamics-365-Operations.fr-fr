@@ -69,3 +69,6 @@ Cette procédure décrit comment activer le processus de paie pour le pointage. 
 7. Cliquez sur Modifier.
 8. Saisissez ou sélectionnez une valeur dans le champ Accord salarial.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

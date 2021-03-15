@@ -80,3 +80,6 @@ Après avoir créé les états du cycle de vie requis pour vos demandes de maint
 L'illustration suivante présente un exemple de la page **Modèles de cycle de vie de la demande de maintenance**.
 
 ![Page Modèles de cycle de vie de la demande de maintenance](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Au lieu de cela, l’utilisateur doit effacer la valeur du contrôle de recherch
 Une fois le filtre appliqué (voir l’image ci-dessous), l’utilisateur peut rechercher et sélectionner la ligne comme normalement.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

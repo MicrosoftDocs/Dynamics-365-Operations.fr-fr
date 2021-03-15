@@ -87,3 +87,6 @@ Pour plus d’informations, voir [Clôture de la comptabilité en fin de périod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

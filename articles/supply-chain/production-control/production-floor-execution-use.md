@@ -169,3 +169,6 @@ Les travailleurs peuvent ouvrir un document associé à une tâche en sélection
 1. Le travailleur parcourt le guide pour apprendre la tâche.
 
 Pour plus d'informations sur la création, l'attribution et l'utilisation de guides pour HoloLens, voir [Fournir des guides de réalité mixte aux collaborateurs de la production](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

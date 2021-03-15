@@ -71,3 +71,6 @@ Cette tâche se concentre sur la création d'une nouvelle tâche. Elle est effec
 33. Activez ou désactivez l'extension de la section Formation.
 34. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Cette procédure décrit la configuration et l'exécution de traitements par lot
 11. Cliquez sur OK.
 12. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

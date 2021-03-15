@@ -48,3 +48,6 @@ Pour utiliser cette fonctionnalité, activez **Liens personnalisés dans le libr
 ## <a name="see-also"></a>Voir également :
 
 [Vue d'ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

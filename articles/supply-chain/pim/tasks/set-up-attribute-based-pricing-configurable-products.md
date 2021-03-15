@@ -51,3 +51,6 @@ Cette rubrique explique comment paramétrer la tarification basée sur des attri
 8. Dans le champ **Expression**, saisissez une valeur. Par exemple, saisissez `50`. 
 9. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

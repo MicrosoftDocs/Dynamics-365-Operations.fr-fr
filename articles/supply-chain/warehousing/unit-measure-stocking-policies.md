@@ -49,3 +49,6 @@ Dans le cadre de la création des produits lancés, vous devez sélectionner les
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

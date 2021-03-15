@@ -67,3 +67,6 @@ Cette rubrique décrit comment utiliser le registre des factures pour créer des
 13. Sélectionnez les **transactions**.
 14. Sélectionnez la facture que vous avez créée. La régularisation du registre des factures a été contrepassée et validée dans le compte de dépenses approprié.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

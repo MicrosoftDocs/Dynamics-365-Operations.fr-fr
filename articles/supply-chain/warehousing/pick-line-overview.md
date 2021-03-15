@@ -68,3 +68,6 @@ Pour configurer un élément de menu d'appareil mobile pour fournir un aperçu d
     - Utilisez les champs restants de **Champ d'affichage** pour ajouter jusqu'à sept champs d'affichage supplémentaires, selon vos besoins. Dans chaque champ de **Champ d'affichage**, sélectionnez le nom d'un champ de ligne de travail. Chaque ligne affichera alors une valeur pour ce champ. Les valeurs seront affichées dans l'ordre que vous sélectionnez ici. Vous pouvez laisser certains des champs de **Champ d'affichage** vides si vous n'avez pas besoin des sept valeurs.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**, puis fermez la page **Liste de champs**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -241,3 +241,6 @@ Votre format doit tout d’abord être disponible dans les configurations d’é
 [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 
 [Configurer les destinations pour la gestion des états électroniques dépendant de l’action](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

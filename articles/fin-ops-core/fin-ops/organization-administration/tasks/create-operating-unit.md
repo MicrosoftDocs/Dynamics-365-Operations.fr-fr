@@ -41,3 +41,6 @@ Une section est une organisation utilisée pour partager le contrôle des ressou
     + Entrez les informations relatives aux modes de communication, notamment les adresses e-mail, les URL et les numéros de téléphone. Pour entrer un nouvel enregistrement de communication, cliquez sur Nouveau. Pour modifier un enregistrement de communication existant, cliquez sur **Plus d’options > Avancées**.   
 6. Le cas échéant, modifiez le **Numéro d’unité opérationnelle** si nécessaire. Notez que ce numéro est un identifiant unique pour l’enregistrement **Partie** correspondant et ne peut pas être identique à une autre unité opérationnelle.
 7. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

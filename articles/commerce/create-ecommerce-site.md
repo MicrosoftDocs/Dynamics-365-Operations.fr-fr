@@ -74,3 +74,6 @@ Lorsque votre site est créé, vous pouvez vérifier qu'il est associé à votre
 [Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

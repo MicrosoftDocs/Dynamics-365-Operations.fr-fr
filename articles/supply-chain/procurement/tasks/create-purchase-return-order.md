@@ -67,3 +67,6 @@ Cette procédure vous montre comment créer une commande fournisseur retournée 
 4. Dans le champ **Accusé de réception de marchandises**, tapez une valeur. Ce champ permet d'entrer une référence qui sera utilisée comme N° document pour le journal de réception de marchandises.  
 5. Cliquez sur **OK**. Les marchandises sont désormais enregistrées comme expédiées sur la commande fournisseur retournée et un journal des accusés de réception de marchandises est créé. Vous pouvez utiliser l'action Accusé de réception de marchandises pour passer en revue les journaux créés avec la commande fournisseur, et voir ce qui a été reçu ou retourné, et quand.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

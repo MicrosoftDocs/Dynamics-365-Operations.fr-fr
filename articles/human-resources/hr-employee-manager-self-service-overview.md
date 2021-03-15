@@ -214,3 +214,5 @@ Les responsables peuvent voir tous les objectifs de leur équipe via la vignette
 L’onglet **Révisions** récapitule les révisions du collaborateur selon chaque état : **En cours**, **Prêt pour la révision** et **Révision finale**. Pour accéder à la révision d’un employé, sélectionnez le bouton **Détails**, puis sélectionnez les révisions sur lesquelles collaborer. En fonction de l’emplacement de la révision dans le processus de workflow, vous pouvez voir si la révision est disponible pour la mise à jour. 
 
 Vous pouvez voir toutes les révisions de votre équipe via la vignette **Révisions des performances de l’équipe** dans la section **Synthèse** de **Mon équipe**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

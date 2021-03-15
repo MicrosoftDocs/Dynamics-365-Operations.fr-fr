@@ -54,3 +54,6 @@ Une nomenclature des modèles peut être liée à une relation d'objets de servi
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Il existe deux options liées aux réservations sur la page **Paramètres de ges
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Stratégies de réservation de stock sur la page Paramètres de production
 
 La valeur du champ **Réservation** sous l'onglet **Général** sur la page **Paramètres de production** détermine le moment par défaut du processus de production auquel le stock doit être réservé. Par exemple, le stock peut être réservé lorsque le travail est planifiée, ou lorsque le travail est lancé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

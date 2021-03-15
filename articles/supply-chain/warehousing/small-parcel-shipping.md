@@ -279,3 +279,6 @@ Procédez comme suit pour emballer l’expédition.
     ![Exemple d’étiquette d’expédition](media/sps-label-example.png "Exemple d’étiquette d’expédition")
 
 1. Notez que les valeurs **ID manifeste du conteneur** et **Transport total** ont été ajoutées telles qu’elles ont été reçues du transporteur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

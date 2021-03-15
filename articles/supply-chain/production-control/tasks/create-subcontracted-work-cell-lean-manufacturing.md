@@ -70,3 +70,6 @@ Pour modéliser le travail sous-traité pour lean manufacturing, vous devez cré
 24. Dans le champ Unité, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 25. Résolvez les modifications de l'unité.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Cette procédure vous guide dans le processus de création et de validation d'un
 2. Cliquez sur Transactions.
     * Ici vous pouvez afficher les transactions créées lorsque vous avez validé votre journal.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

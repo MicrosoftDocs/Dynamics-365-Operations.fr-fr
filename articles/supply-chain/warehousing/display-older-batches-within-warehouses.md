@@ -39,3 +39,6 @@ La configuration **Lots plus anciens d'affichage dans l'entrepôt** est disponib
 
 - Sous **Gestion des entrepôts** > **Paramétrage** > **Appareil mobile** > **Options de menu d'appareil mobile**, définissez **Utiliser un travail existant** sur **Oui** pour l'option de menu, et sélectionnez **Avertir** dans le champ **Prélever le traitement par lots le plus ancien**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

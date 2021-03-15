@@ -69,3 +69,6 @@ Vous pouvez exécuter un **nombre d'actifs en attente** pour vérifier les actif
 3. Vous pouvez configurer l'exécution de ce travail en tant que traitement par lots, par exemple une fois par jour.
 
 **Attention :** Si les données sont modifiées dans une commande fournisseur *une fois que* vous avez créé un actif en fonction de l'élément concerné, ces modifications ne sont pas répercutées sur l'actif.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

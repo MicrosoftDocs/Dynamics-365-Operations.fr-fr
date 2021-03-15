@@ -203,3 +203,6 @@ IFeatureLifecycle est un mécanisme interne à Microsoft pour indiquer l’étap
 - `PublicPreview` : affichée par défaut, mais avec un avertissement indiquant que la fonctionnalité est en aperçu.
 - `Released` : entièrement lancée.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Utilisez la fonctionnalité **Effacer la date de réinitialisation** pour efface
 
 > [!NOTE]
 > Selon la date de réinitialisation sélectionnée et le format du ticket de caisse, vous pouvez avoir des numéros de ticket de caisse en double. Même si le système de point de vente (PDV) peut gérer ces situations, il augmente le temps requis pour traiter les retours car les vendeurs doivent sélectionner parmi les tickets de caisse en double. D'autres complications liées au nettoyage des données peuvent survenir si les tickets de caisse en double n'étaient pas prévus. Par conséquent, nous vous recommandons d'utiliser des caractères de date dynamiques (par exemple, **jjj**, **MM**, **JJ** et **AA**) pour éviter la duplication des numéros de ticket de caisse après une réinitialisation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

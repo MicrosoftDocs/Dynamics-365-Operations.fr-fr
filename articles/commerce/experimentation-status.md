@@ -44,3 +44,6 @@ De même, dans la colonne **État du tiers**, les valeurs suivantes peuvent êtr
 Le diagramme ci-dessous montre les deux ensembles d'états et leurs liens.
 
 [ ![États de l'expérimentation](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

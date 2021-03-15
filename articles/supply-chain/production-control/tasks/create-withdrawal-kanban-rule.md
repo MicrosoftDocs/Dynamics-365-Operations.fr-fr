@@ -63,3 +63,6 @@ Cette procédure permet d'indiquer le paramétrage nécessaire pour créer une r
     * Cette opération crée deux kanbans.  
     * Notez que 2 kanbans, chacun pour 5 unités, ont été créés pour cette règle de kanban de prélèvement.  Il s'agit de la dernière étape de cette procédure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

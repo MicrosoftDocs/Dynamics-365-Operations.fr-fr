@@ -94,3 +94,6 @@ Pour en savoir plus sur l'intégration de Dynamics 365 Human Resources avec Micr
 [Vue d'ensemble de la 1re vague de lancement de Dynamics 365 Human Resources 2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

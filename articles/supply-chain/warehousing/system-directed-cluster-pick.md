@@ -206,3 +206,6 @@ Avant de pouvoir configurer le prélèvement de groupement dirigé par le systè
 1. La dernière étape sur l'appareil mobile consiste à **Placer** le groupement à l'emplacement final. Cliquez sur **OK**.
     - Lorsque l'opération de placement est confirmée, le groupement est fermé et rompu, en fonction de la valeur que vous avez définie pour le champ **Rompre le groupement à** dans le profil de groupement. Les ID travail sont également fermés.
 1. Un message « Groupement terminé » s'affiche sur l'appareil mobile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

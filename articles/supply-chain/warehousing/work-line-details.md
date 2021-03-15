@@ -127,3 +127,6 @@ Pour créer un travail de prélèvement, procédez comme suit.
 
 > [!IMPORTANT]
 > Si vous annulez une partie seulement de la quantité d’une ligne de travail, vous devez également supprimer la quantité obsolète de la ligne de chargement. Sinon, à moins que la sous-livraison ne soit correctement configurée, la ligne de chargement ne peut pas être confirmée par la livraison.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

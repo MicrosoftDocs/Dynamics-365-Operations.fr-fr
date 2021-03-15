@@ -159,3 +159,6 @@ Lorsque vous avez terminé le processus de génération d’états pour une pér
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

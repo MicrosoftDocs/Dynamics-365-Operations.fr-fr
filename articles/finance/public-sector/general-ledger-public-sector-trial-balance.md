@@ -202,3 +202,6 @@ Selon le type de transaction, comme une écriture comptable avancée (ALE) ou un
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

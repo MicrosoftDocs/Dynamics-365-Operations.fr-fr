@@ -36,3 +36,6 @@ Pour configurer un traitement par lots ou pour traiter les factures de paiement,
 > Les transactions ultérieures, telles que les calendriers d’amortissement du passif, les paiements, l’amortissement et les dépenses, ne seront comptabilisées qu’après la comptabilisation initiale des baux correspondants.
 >
 > Les écritures de journal sont créées, mais elles ne sont validées que lorsque vous sélectionnez la commande **Exécuter**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

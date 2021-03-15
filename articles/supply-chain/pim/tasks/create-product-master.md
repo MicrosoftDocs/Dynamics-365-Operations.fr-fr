@@ -60,3 +60,6 @@ Créez un produit générique pour les variantes prédéfinies. Les données fic
 10. Cliquez sur **Enregistrer**.
 11. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

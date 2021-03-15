@@ -178,3 +178,6 @@ Notez que les événements suivants surviennent :
 - Le lancement vers un entrepôt est déclenché pour la commande client liée.
 - Selon le lancement, le travail d'expédition et de cross-docking est créé. Ce travail guide l'opérateur pour prélever les quantités requises pour exécuter la ligne de commande client et pour les mettre à l'emplacement sortant spécifié dans l'instruction de l'entrepôt de cross-docking.
 - Si la quantité de l'ordre de fabrication est supérieure à la quantité requise par la commande client, un travail de rangement normal est créé. Ce travail guide l'opérateur à prélever la quantité de produits finis restant après cross-docking et la déplace vers le stockage habituel, en fonction de l'instruction sur l'emplacement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

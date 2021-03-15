@@ -945,3 +945,6 @@ Actuellement, Retail Modern POS est disponible uniquement en tant qu’applicati
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

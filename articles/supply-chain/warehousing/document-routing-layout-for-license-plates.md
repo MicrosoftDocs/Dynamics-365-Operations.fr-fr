@@ -135,3 +135,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>En savoir plus sur l’impression d’étiquettes
 
 Pour plus d’informations sur la configuration et l’impression d’étiquettes, voir [Activer l’impression d’étiquette de contenant](tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

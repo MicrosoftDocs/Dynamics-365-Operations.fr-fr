@@ -66,3 +66,6 @@ Lorsque la vignette est sélectionnée, la page **Toutes les vagues de productio
 La vignette **Travail d'entrepôt en cours nécessitant une attention** affiche le nombre de lignes de nomenclature et de formule qui ont été lancées dans l'entrepôt, dont le travail n'est pas traité et dont la date de consommation des matières premières est antérieure ou identique à la date de l'espace de travail. Les lignes doivent également être consommées par une ressource opérationnelle qui s'applique au filtre de l'espace de travail.
 
 Lorsque la vignette est sélectionnée, la page **Tout le travail** est ouverte. Cette page est filtrée en fonction du nombre d'en-têtes de travail en cours contenant des lignes de travail à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Tout le travail**, vous pouvez traiter manuellement le travail.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

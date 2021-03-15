@@ -61,3 +61,6 @@ Le champ **Répartition des coûts de sous-produit** dans la page **Coproduits**
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

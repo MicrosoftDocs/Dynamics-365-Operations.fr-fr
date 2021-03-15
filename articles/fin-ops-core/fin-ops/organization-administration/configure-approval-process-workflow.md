@@ -183,3 +183,6 @@ Un processus d’approbation comprend plusieurs étapes. Procédez comme suit po
 1. Dans l’éditeur de workflow, double-cliquez sur le processus d’approbation. L’éditeur de workflow affiche les étapes du processus d’approbation.
 2. Pour ajouter une étape d’approbation, faites glisser l’étape de la zone **Éléments du workflow** sur le canevas.
 3. Pour configurer une étape d’approbation, voir [Configurer les étapes d’approbation dans un workflow](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

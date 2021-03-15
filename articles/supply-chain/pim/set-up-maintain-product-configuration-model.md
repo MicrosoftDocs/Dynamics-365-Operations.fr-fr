@@ -52,3 +52,6 @@ Cet article décrit les étapes de paramétrage et de création d'un modèle de 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

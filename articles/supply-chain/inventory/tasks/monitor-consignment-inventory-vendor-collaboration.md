@@ -42,3 +42,6 @@ Cette procédure indique comment utiliser la collaboration du fournisseur pour a
 1. Allez dans Collaborateur du fournisseur > Stock de consignation > Stock de consignation disponible.
     * La page Stock de consignation disponible indique le stock que vous possédez dans l'entrepôt du client. Vous pouvez afficher des dimensions supplémentaires, telles que le site et l'entrepôt, en cliquant sur l'onglet Afficher les dimensions.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

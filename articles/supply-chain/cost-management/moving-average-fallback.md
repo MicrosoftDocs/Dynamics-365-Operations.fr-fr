@@ -45,3 +45,6 @@ Pour sélectionner la séquence de coût de secours pour les calculs de moyenne 
     - **Coût actif - Prix de l'article** - Les organisations peuvent rencontrer des problèmes de performances si elles utilisent des processus métier où le stock devient régulièrement négatif et si, en même temps, le volume de transactions est élevé. Ce paramètre peut aider à atténuer ces problèmes de performances.
 
 ![Paramètres de comptabilité de stock](media/inventory-accounting-parameters.png "Paramètres de comptabilité de stock")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

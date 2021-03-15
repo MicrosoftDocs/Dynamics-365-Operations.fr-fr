@@ -90,3 +90,6 @@ Pour ajouter un module de résultats de recherche à une page de catégorie, pro
 [Vue d’ensemble de la bibliothèque de modules](starter-kit-overview.md)
 
 [Module de visualisation rapide](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

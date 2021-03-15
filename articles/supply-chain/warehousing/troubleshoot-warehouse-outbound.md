@@ -61,3 +61,6 @@ Un article est ajouté à une ligne de vente pour une livraison directe à parti
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité. Actuellement, WMS ne prend pas en charge la livraison directe. Par conséquent, pour utiliser la livraison directe, vous devez sélectionner un article et un entrepôt non WMS.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

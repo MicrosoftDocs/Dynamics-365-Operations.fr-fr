@@ -60,3 +60,6 @@ Si vous prévoyez de vous absenter du bureau ou être indisponible d’une mani�
 8. Dans le champ **Date/heure de fin**, entrez une date et une heure.
 9. Activez la case à cocher **Activé** pour activer la règle de délégation. 
 10. Dans le champ **Commentaire**, entrez un commentaire expliquant le motif de la délégation des éléments de travail.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

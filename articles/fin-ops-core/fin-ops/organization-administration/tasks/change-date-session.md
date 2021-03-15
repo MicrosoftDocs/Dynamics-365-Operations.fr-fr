@@ -32,3 +32,6 @@ Cette rubrique explique comment modifier la date d"une session. Par défaut, la 
 2. Entrez une date dans le champ **Date**.
 3. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

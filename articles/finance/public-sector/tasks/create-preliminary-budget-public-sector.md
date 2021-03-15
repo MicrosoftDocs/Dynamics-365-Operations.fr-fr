@@ -52,3 +52,6 @@ Vous pouvez créer des écritures de registre budgétaires préliminaires pour u
 19. Cliquez sur Mise à jour.
     * Pour afficher les résultats de la mise à jour, cliquez sur Détails du message dans la barre bleue.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ L’amortissement de la prime est entré comme pourcentage ou montant fixe. Lors
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

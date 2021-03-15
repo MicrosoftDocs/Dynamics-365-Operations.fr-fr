@@ -111,3 +111,6 @@ Pour plus d’informations sur le traitement des ID d’enregistrement, notammen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

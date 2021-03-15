@@ -48,3 +48,6 @@ Lorsque vous mettez à jour un bon de livraison pour un article retourné dans l
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

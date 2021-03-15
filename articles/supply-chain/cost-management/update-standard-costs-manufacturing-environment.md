@@ -47,3 +47,6 @@ Chaque cas nécessite un examen attentif de la façon de mettre à jour les coû
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

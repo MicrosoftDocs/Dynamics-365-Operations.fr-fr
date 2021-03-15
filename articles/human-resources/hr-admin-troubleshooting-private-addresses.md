@@ -39,3 +39,6 @@ Pour résoudre ce problème, le client doit procéder comme suit pour le rôle d
 3. Sélectionnez **Enregistrer**.
 
 ![Page des paramètres du carnet d'adresses global](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

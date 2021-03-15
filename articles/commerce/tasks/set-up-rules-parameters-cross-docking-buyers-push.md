@@ -47,3 +47,6 @@ Cette procédure décrit les étapes pour créer des règles de réapprovisionne
 14. Dans le champ Poids, saisissez un nombre.
 15. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

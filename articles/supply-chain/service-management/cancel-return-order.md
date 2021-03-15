@@ -48,3 +48,6 @@ Vous pouvez annuler un ordre de retour, plutôt que de le supprimer, lorsque vou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

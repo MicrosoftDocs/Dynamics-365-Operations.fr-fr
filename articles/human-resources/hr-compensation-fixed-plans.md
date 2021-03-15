@@ -98,3 +98,6 @@ Vous pouvez désormais affecter un employé à un régime de rémunération fixe
 
 Le système vérifie que le montant de rémunération spécifié pour un régime de rémunération du type niveau ou structure est compris dans les points de référence minimum et maximum pour le niveau de rémunération donné dans la tâche de l'employé. Si le montant de rémunération est en dehors de la plage autorisée, un avertissement ou un message d'erreur s'affiche, selon le niveau de tolérance défini dans le régime de rémunération fixe.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

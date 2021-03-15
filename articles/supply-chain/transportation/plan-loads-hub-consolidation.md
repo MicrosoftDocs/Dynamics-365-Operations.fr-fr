@@ -38,3 +38,6 @@ Avant de pouvoir utiliser consolidation d epoint de transbordement, vous devez a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 8. Cliquez sur OK.
 9. Cliquez sur Oui.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

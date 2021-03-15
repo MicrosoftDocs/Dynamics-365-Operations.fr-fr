@@ -835,3 +835,6 @@ Les périphériques suivants ont été testés à l'aide d'une station matériel
 [Simulateur périphérique pour Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

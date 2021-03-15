@@ -119,3 +119,6 @@ Dans cet exemple, vous utiliserez les configurations ER créées pour la sociét
 23. Cliquez sur OK.
     * Examinez la sortie créée. La sortie a été générée en tant que document Word avec des images intégrées présentant le logo de la société, la signature d’une personne autorisée et le texte sélectionné du filigrane.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Cet organisateur met en surbrillance l’impact de l’alternative de livraison 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Promesse de commande](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

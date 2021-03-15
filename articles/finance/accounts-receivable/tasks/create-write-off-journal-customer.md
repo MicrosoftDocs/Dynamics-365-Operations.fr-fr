@@ -83,3 +83,6 @@ Ce guide de tâche vous indique comment définir les paramètres pour les annula
 5. Cliquez sur **OK**.
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

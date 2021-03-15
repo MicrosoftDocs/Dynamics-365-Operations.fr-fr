@@ -133,3 +133,6 @@ Pour utiliser les nomenclatures des modèles, vous devez paramétrer deux souche
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

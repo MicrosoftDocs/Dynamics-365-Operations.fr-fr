@@ -81,3 +81,6 @@ Pour les lignes de commande avec retrait en magasin ou retrait à un point-relai
 
 [Calcul de l’exonération fiscale](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

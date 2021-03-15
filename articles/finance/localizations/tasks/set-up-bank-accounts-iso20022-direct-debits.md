@@ -68,3 +68,6 @@ Il s’agit de la quatrième des cinq procédures illustrant le processus de pai
 8. Cliquez sur OK.
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

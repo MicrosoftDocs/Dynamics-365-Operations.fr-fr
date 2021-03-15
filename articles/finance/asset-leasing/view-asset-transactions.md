@@ -47,3 +47,6 @@ La page **Transaction d’actifs** affiche les transactions qui augmentent ou di
 Pour afficher les transactions de dépenses de location, sélectionnez un contrat de location dans la page **Résumé du bail**, puis sélectionnez **Registres** pour ouvrir les registres de locations joints à l’enregistrement de bail. Sélectionnez ensuite **Transactions de dépenses**.
 
 La page **Transactions de dépenses** affiche toutes les dépenses qui ont été imputées au contrat de location, telles que les frais d’intérêt, les frais d’amortissement et les frais exécutoires.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Télécharger et installer l’application mobile Finance and Operations :
     -   Par stock physique (cette vue représente la quantité totale.)
     -   Par quantité physique réservée (cette vue représente la quantité réservée.)
     -   Par quantité physique disponible (cette vue représente la quantité disponible qui n'est pas réservée.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

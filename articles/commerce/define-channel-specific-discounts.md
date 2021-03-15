@@ -61,3 +61,6 @@ L'exemple suivant illustre les tâches impliquées dans le paramétrage d'une re
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Ajustements de prix et remises](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

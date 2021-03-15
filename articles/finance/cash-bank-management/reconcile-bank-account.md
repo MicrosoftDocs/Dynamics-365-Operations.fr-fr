@@ -70,3 +70,6 @@ La fonctionnalité Annuler le rapprochement de relevé de bancaire vous permet d
 Les rapprochements de relevé bancaire ne peuvent être annulés que dans l’ordre chronologique dans lequel ils ont été entrés. Lorsqu’un rapprochement de relevé bancaire est annulé, de nouvelles transactions et corrections seront contrepassées et toutes les autres transactions seront marquées comme non rapprochées.
  
 Pour annuler le rapprochement de relevé bancaire, sélectionnez le relevé bancaire et sélectionnez **Relevé bancaire > Annuler le rapprochement bancaire**. Dans la page **Annuler le rapprochement bancaire**, renseignez les champs **Code motif**, **Commentaire du motif** et **Date d’annulation**. Sélectionnez **OK** pour démarrer l’annulation. Notez que la date d’annulation du relevé bancaire doit être égale ou postérieure à la date du relevé bancaire. Une fois le rapprochement de relevé de bancaire annulé, le champ **Date d’annulation** du relevé bancaire sera mis à jour avec la **Date d’annulation** fournie. Sélectionnez le bouton **Transactions** pour afficher les transactions pour lesquelles le rapprochement a été annulé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

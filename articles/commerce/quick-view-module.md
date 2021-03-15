@@ -77,3 +77,6 @@ Pour ajouter un module de visualisation rapide à un module de collecte de produ
 [Module de collecte de produits](product-collection-module-overview.md)
 
 [Module des résultats de recherche](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

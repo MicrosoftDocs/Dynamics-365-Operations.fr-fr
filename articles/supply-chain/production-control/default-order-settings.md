@@ -203,3 +203,6 @@ Pour définir l’option de validation :
 1. Dans l’onglet **Général**, définissez **Validation des quantités de commande par défaut** sur l’une des valeurs suivantes :
     - **Strict** : sélectionnez cette option pour que toutes les valeurs **Quantité de commande standard** soient un multiple de la valeur **Multiple** pour chaque organisateur (**Commande fournisseur**, **Stock** et **Commande client**).
     - **Standard** : sélectionnez cette option pour utiliser la validation standard (qui fonctionne de la même manière que lorsque cette fonctionnalité n’est pas activée).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

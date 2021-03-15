@@ -139,3 +139,6 @@ Le 20 juillet, April crée un paiement final de 200,00. Aucune escompte de règl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

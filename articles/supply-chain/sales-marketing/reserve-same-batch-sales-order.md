@@ -44,3 +44,6 @@ Lorsque vous réservez du stock pour un produit sur une ligne de commande client
 - Le lot a une durée de conservation en jours insuffisante, selon la date d'expiration/DLUO, plus les jours de vente du client.
 
 Pour les éléments associés à un groupe de dimensions de stockage avec l'option **Utiliser des processus de gestion des entrepôts** activée, vous pouvez réserver des numéros de lot spécifiques en utilisant une hiérarchie de réservation avec la dimension d'inventaire de numéro de lot définie au-dessus de la dimension d'emplacement. La page **Réservation de lot** des lignes de commande client et d'ordre de transfert vous permet également de sélectionner et de réserver plusieurs lignes en fonction des numéros de lot disponibles. Pour plus d'informations sur la procédure à suivre si vous utilisez une hiérarchie de réservation dont la dimension de numéro de lot se situe sous l'emplacement, voir [Stratégie flexible de réservation de dimension au niveau de l'entrepôt](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

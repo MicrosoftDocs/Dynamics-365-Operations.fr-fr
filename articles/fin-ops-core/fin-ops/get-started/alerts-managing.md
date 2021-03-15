@@ -82,3 +82,6 @@ Si vous paramétrez une fenêtre de traitement par lots, une alerte est envoyée
 
 1. Accédez à **Administration du système** &gt; **Tâches périodiques** &gt; **Alertes** &gt; **Alertes de date d’échéance**.
 2. Dans la boîte de dialogue **Alertes de date d’échéance**, entrez les informations appropriées.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

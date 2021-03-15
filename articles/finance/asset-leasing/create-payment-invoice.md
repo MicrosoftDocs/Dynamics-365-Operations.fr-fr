@@ -48,3 +48,6 @@ Vous pouvez créer des factures mensuelles pour des locations individuelles ou v
 6. Une fois la transaction enregistrée, vous pouvez afficher les informations de transaction et la valeur comptable du passif de location en sélectionnant **Transactions de passif** dans le registre de location.
 
     Dans l’échéancier de paiement, la case **Journal publié** sera cochée et la ligne affichera le numéro du journal de la facture. Après avoir créé un journal des paiements et une écriture pour ce journal, vous devez contrepasser l’écriture avant de pouvoir la recréer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

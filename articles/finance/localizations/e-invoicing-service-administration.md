@@ -138,3 +138,6 @@ L'environnement doit être configuré sur l'onglet **Services de soumission** de
 
 - [Configurer des factures électroniques dans RCS](e-invoicing-configuration-rcs.md)
 - [Émettre des factures électroniques dans Finance et Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -343,3 +343,6 @@ Voici quelques remarques et conseils pour utiliser la fonctionnalité :
 
 - Si vous utilisez des emplacements dynamiques, le travail de réapprovisionnement sera créé soit pour le premier emplacement disponible, soit pour un emplacement qui contient déjà du stock, si l’action de directive d’emplacement est configurée pour utiliser la stratégie **Consolider**.
 - Si vous utilisez des emplacements fixes au lieu de zones, vous devez utiliser le [réapprovisionnement min/max standard](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

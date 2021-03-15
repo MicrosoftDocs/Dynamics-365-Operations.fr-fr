@@ -113,3 +113,6 @@ Vous pouvez copier les dimensions financières vers des en-têtes de document ou
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

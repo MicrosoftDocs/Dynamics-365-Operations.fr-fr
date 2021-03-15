@@ -41,3 +41,6 @@ Vous pouvez configurer le système pour envoyer des messages e-mail aux utilisat
 
 > [!NOTE]
 > Les modèles d’e-mail de workflow proviendront des modèles d’e-mail système ou des modèles d’e-mail de l’organisation, selon que le workflow est un workflow de niveau système (non spécifique à la société) ou de niveau organisation (spécifique à la société).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Lorsque vous entrez un journal, vous pouvez cliquer sur **Régularisation des co
 
 
 Pour plus d’informations, voir [Créer des plans de régularisation](tasks/create-accrual-schemes.md) et [Créer des transactions de régularisation des comptes](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

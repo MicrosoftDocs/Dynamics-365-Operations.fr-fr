@@ -48,3 +48,6 @@ Cette procédure décrit les étapes pour créer et traiter un cross-docking afi
 15. Dans la liste, recherchez et sélectionnez un entrepôt qui a reçu des produits
 16. Cliquez sur Commande pour afficher les commandes créées pour l'entrepôt sélectionné
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

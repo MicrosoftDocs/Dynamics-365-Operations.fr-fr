@@ -177,3 +177,6 @@ Dans cette section, vous continuerez à travailler sur l’ordre de travail sur 
 1. Dans le volet Actions, sous l’onglet **Facturation**, sélectionnez **Nouvelle proposition de facture**.
 1. Dans la boîte de dialogue **Créer une proposition de facture**, dans la section **Transactions de projet**, cochez la case **Sélectionner** pour chaque ligne que vous souhaitez facturer.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue et afficher la nouvelle proposition de facture.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

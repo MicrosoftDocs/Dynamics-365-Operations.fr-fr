@@ -186,3 +186,6 @@ Les jetons suivants sont remplacés par des valeurs pour chaque produit de la co
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site web Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

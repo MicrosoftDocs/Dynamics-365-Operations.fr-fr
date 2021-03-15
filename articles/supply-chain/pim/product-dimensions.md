@@ -145,3 +145,6 @@ La dimension de version fonctionne comme les autres dimensions de produit. Cepen
 
 > [!IMPORTANT]
 > Si vous activez et utilisez la dimension de version, certaines solutions qui référencent les dimensions de stock peuvent cesser de fonctionner comme prévu. Pour confirmer et résoudre ces problèmes, contactez le fournisseur de logiciels indépendant (ISV) des solutions concernées. Pour plus d’informations, consultez [Activer la dimension de version](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

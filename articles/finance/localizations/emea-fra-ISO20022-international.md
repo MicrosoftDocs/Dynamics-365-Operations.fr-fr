@@ -39,3 +39,6 @@ Pour plus d’informations sur le processus d’importation, voir [Importer la c
 - [Paramétrer le mode de paiement pour les virements ISO20022](tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Paramétrer les fournisseurs et les comptes bancaires fournisseur pour les virements ISO20022](tasks/set-up-vendor-iso20022-credit-transfers.md)
 - [Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

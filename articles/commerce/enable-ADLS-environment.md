@@ -114,3 +114,6 @@ Si ce n'est déjà fait, suivez les étapes pour l'[activation des recommandatio
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

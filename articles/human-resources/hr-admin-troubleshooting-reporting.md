@@ -49,3 +49,6 @@ L'utilisateur ne peut pas personnaliser les états Microsoft Power BI intégrés
 **Solution à long terme**
 
 Des options Power BI supplémentaires seront disponibles, et des données et entités supplémentaires feront partie de Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

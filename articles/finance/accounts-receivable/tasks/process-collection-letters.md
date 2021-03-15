@@ -87,3 +87,6 @@ Pour ignorer les paiements et les avoirs lors du calcul du code lettre de relanc
 
 1. Accédez au **Volet de navigation > Modules > Crédit et relances > Paramétrage > Paramètres de la comptabilité client** et sélectionnez l’onglet **Recouvrements**. 
 2. Modifiez la valeur de **Ignorer les paiements et les avoirs lors du calcul du code lettre de relance** avec **Oui**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

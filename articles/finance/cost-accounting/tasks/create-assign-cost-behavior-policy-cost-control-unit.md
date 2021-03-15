@@ -85,3 +85,6 @@ Le comportement de coûts est la classification des coûts comme fixe ou variabl
 15. Dans le champ Unité de contrôle des coûts, entrez ou sélectionnez une valeur.
 16. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Cette rubrique décrit certains manières d’afficher les transactions fiscales
 2. Dans le volet Actions, cliquez sur **Code de taxe**.
 3. Sélectionnez **Taxe validée**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Cette procédure indique comment utiliser un contrat d'achat lorsque vous créez
 3. Fermez la page.
 4. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

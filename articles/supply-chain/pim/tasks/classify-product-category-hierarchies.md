@@ -42,3 +42,6 @@ Cette rubrique décrit la procédure de classification d'un produit à l'aide de
 11. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
 12. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

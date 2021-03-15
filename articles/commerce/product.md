@@ -91,3 +91,6 @@ Pour paramétrer les recommandations de produit, procédez comme suit :
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

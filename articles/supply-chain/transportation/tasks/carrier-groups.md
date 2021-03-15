@@ -37,3 +37,6 @@ Lorsque plusieurs transporteurs et services de transport existent pour le même 
 1. Dans le champ **Nom**, entrez un nom descriptif pour le groupe.
 1. Sur le raccourci **Détails**, ajoutez une ligne et sélectionnez un transporteur et un service de transporteur correspondant. Répétez cette étape jusqu'à ce que vous ayez ajouté autant de transporteurs que nécessaire pour le groupe.
 1. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Le nombre de conteneurs qui doit être pris en compte pour une charge est calcul
 -   Pour définir le poids et le volume pour un conteneur, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Conteneurs** \> **Types de conteneur**.
 
 -   Pour définir le pourcentage d'utilisation d'un conteneur, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Conteneurs** \> **Groupes de conteneur**, puis entrez une valeur dans le champ **Pourcentage d'utilisation du conteneur**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

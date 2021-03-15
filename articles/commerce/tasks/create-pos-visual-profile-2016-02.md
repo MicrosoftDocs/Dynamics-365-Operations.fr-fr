@@ -47,3 +47,6 @@ Cette procédure décrit la création d'un profil visuel de point de vente (PDV)
 17. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 18. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

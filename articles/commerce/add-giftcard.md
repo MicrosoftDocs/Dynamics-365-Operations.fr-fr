@@ -93,3 +93,6 @@ Pour obtenir des instructions sur la façon d’ajouter un module de carte cadea
 [Prendre en charge des cartes cadeaux externes](./dev-itpro/gift-card.md)
 
 [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

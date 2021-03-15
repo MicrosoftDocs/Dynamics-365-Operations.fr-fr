@@ -105,3 +105,6 @@ Une autre façon d'effectuer une correspondance manuelle pour cet exemple est de
 1. Mettez en correspondance Inv1 et Inv2 avec FB l'un après l'autre. FB est entièrement mis en correspondance.
 
 Comme le montre cet exemple, la mise en correspondance des factures de frais de transport avec des montants négatifs ne doit être effectuée que manuellement. Cela garantit qu'il est toujours possible de mettre en correspondre les factures de frais de transport avec des montants négatifs avec une facture de transport qui n'est pas entièrement mise en correspondance, car cela vous permet de contrôler la séquence de correspondance.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

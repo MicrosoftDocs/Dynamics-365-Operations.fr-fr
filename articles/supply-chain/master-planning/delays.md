@@ -58,3 +58,6 @@ Dans la page **Ordre prévisionnel**, sous l'onglet **Retards**, se trouve la **
 --------
 
 [Paramètres de couverture](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

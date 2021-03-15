@@ -37,3 +37,6 @@ Cette procédure indique comment afficher le relevé des travaux en cours d'un o
 6. Dans le champ Date de début, définissez la date sur « 01-12-2012 ».
 7. Dans le champ Date de fin, définissez la date sur « 31-12-2012 ».
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Pour plus d’informations, voir [Registres dérivés](derived-books.md) et [Pub
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

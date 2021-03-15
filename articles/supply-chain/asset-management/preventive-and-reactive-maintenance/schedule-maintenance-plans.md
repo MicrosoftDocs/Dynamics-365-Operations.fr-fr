@@ -75,3 +75,6 @@ Les exemples décrits ici indiquent que tous les enregistrements de compteur eff
 
 ![Figure 4](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

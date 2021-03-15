@@ -74,3 +74,6 @@ Ceci est lié à une fonctionnalité en attente qui est prévue dans le cadre de
 [Mise en route de l'optimisation de la planification](get-started.md)
 
 [Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

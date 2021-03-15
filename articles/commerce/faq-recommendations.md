@@ -99,3 +99,6 @@ Après avoir activé les recommandations de produits, vous devez ajouter le pann
 [Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
 
 [Créer des recommandations avec des données de démonstration](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

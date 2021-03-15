@@ -276,3 +276,6 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

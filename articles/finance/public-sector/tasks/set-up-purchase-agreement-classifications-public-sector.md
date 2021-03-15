@@ -43,3 +43,6 @@ Cette procédure a été créée pour le secteur public français, en utilisant 
 8. Facultatif : sélectionnez l’option Activités pour inclure des informations sur les tâches et les jalons.
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

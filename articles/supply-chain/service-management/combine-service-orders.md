@@ -112,3 +112,6 @@ Un regroupement supplémentaire de lignes de commande de service en commandes de
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

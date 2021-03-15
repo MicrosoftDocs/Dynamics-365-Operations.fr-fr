@@ -168,3 +168,6 @@ L’exemple de scénario nécessite que vous prépariez deux profils d’emplace
 
 > [!NOTE]
 > Les champs d’emplacement sont mis à jour uniquement par les transactions d’entrepôt. Si vous déplacez le stock à l’aide d’un journal ou d’autres processus non WHS, les champs ne seront pas mis à jour.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Un module Adresse de livraison ne peut être ajouté qu’à un module de caisse
 [Module Détails de la commande](order-confirmation-module.md)
 
 [Module Carte cadeau](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

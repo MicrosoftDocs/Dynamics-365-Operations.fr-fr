@@ -95,3 +95,6 @@ L'inventaire tournant est un processus d'entrepôt qui permet d'auditer les arti
 21. Cliquez sur **OK**.
 22. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

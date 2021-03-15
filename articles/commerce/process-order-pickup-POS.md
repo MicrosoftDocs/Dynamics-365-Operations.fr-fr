@@ -57,3 +57,6 @@ Si vous devez modifier la quantité à retirer après avoir sélectionné les ar
 Si la fonction **Expérience utilisateur améliorée pour le traitement des commandes à retirer dans le point de vente** est activée, les organisations peuvent ajouter un bouton pour l'opération **Changer les lignes de retrait** dans la mise en page de l'écran de la page de transaction. Après avoir créé le panier de transaction pour le retrait dans le PDV et sélectionné les articles, vous pouvez sélectionner **Changer les lignes de retrait** si vous devez changer les articles à retirer mais que vous ne voulez pas annuler toute la transaction. Dans la boîte de dialogue **Changer les lignes de retrait** qui apparaît, vous pouvez modifier les articles et les quantités à retirer. Le panier de transaction est ensuite mis à jour pour refléter vos modifications.
 
 ![Boîte de dialogue Modifier les éléments à retirer](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

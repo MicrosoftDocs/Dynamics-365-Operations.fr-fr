@@ -104,3 +104,6 @@ Pour les appels d’offres publiés, vous devez modifier un appel d’offre pour
 
 > [!IMPORTANT]
 > Si vous modifiez un appel d’offre existant dans le but d’autoriser les questions du fournisseur, le système effacera toutes les réponses existantes lorsque vous renvoyez l’appel d’offre.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

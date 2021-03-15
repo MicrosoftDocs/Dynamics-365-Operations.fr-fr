@@ -64,3 +64,6 @@ Une nouvelle fonctionnalité de gestion des charges entrantes, *À réception de
 1. Réception excédentaire des quantités de chargement
 
 Pour plus d'informations, consultez [Afficher les quantités de produits enregistrées par rapport aux commandes fournisseur](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

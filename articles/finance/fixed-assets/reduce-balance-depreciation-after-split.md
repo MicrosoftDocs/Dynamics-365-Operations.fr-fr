@@ -44,3 +44,6 @@ Par exemple, les conditions suivantes sont en vigueur :
 Le montant à amortir pour l’actif d’origine est 1 822,25 $. Ce montant correspond à la VN avant la validation de la transaction de fractionnement (9 111,25 USD), plus l’ajustement d’acquisition généré lors de la validation de la transaction de fractionnement (-8 000 USD), plus l’ajustement de dépréciation généré lors de la transaction de fractionnement (711 USD). Par conséquent, la dépréciation pour la deuxième année est (1 822,25 × 18 pour cent) ÷ 12 = 27,33 $.
 
 Le montant à amortir pour la nouvelle immobilisation la première année est (8 000 × 18 pour cent) ÷ 12 = 120 $.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

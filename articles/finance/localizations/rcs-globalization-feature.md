@@ -251,3 +251,6 @@ Les utilisateurs des services de globalisation peuvent gérer l’environnement 
 10. Sélectionnez **Publier** pour publier l’environnement.
 
     ![Environnement publié](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

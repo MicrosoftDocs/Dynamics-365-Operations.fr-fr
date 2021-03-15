@@ -127,3 +127,6 @@ Les traductions des informations relatives aux produits peuvent être gérées �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

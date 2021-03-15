@@ -42,3 +42,6 @@ Vous pouvez configurer des règles sur des tâches séparées qui doivent être 
 
 > [!IMPORTANT] 
 > La conformité avec les règles de séparation des tâches n'est pas vérifié lorsque vous créez une règle. Vous pouvez créer une règle qui crée un conflit pour les rôles existants. Les attributions de rôle utilisateur existantes peuvent également être en conflit avec la nouvelle règle. Vous devez valider la conformité une fois que vous avez créé ou modifié une règle. Pour plus d'informations, voir [Identifier et résoudre les conflits de séparation des tâches](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

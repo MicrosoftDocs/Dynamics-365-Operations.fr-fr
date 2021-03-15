@@ -67,3 +67,6 @@ Cette procédure permet d’indiquer comment créer, imprimer, et valider les no
 5. Cliquez sur **OK**.
 6. Dans le champ **Statut**, sélectionnez « Validé ».
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

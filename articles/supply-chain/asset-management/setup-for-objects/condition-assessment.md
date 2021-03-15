@@ -65,3 +65,6 @@ Après avoir effectué un enregistrement d'évaluation de la condition dans un a
 
 >[!NOTE]
 >Vous pouvez également enregistrer l'évaluation des conditions sur un ordre de travail (**Évaluation de la condition** > **Gestion des actifsCommun** > **Ordres de travail** > **Tous les ordres de travail** > **Bouton Évaluation de la condition**.)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

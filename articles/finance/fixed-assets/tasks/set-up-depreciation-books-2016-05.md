@@ -54,3 +54,6 @@ Cette procédure parcourt le processus de création d’un nouveau registre d’
 6. Entrez un nombre dans le champ Durée de vie.
     * Notez que la valeur du champ Périodes d’amortissement est calculée après la définition de la durée de vie.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

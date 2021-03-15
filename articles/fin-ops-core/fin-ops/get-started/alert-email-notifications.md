@@ -50,3 +50,6 @@ Le service envoie des notifications par e-mail à l’aide de modèles d’e-mai
 L’image suivante présente la structure des notifications d’alerte lorsqu’elles sont reçues par e-mail.
 
 [![Notifications d’alerte basées sur un modèle pour la création des enregistrements, les modifications de champ et la suppression du modèle](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

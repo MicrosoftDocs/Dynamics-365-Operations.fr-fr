@@ -64,3 +64,6 @@ Le paramètre de langue de l'utilisateur du PDV est défini à partir de **Tous 
 | **Société** | Valeur par défaut                    | Valeur par défaut                                                       |
 | **Magasin**   | Remplace la société          | Remplace la société                                             |
 | **Utilisateur**    | Remplace le magasin ou la société | Jamais                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

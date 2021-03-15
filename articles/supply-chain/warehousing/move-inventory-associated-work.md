@@ -58,3 +58,6 @@ Pour le collaborateur qui doit être autorisé à déplacer le stock réservé, 
 Cette fonction a également été ajoutée à Microsoft Dynamics AX 2012 R3 et est disponible dans le cadre de CU12.
 Elle peut être chargée individuellement via le numéro 3192548 de la Base de connaissances. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,5 @@ Lorsque la demande est prête, utilisez l'action **Workflow** > **Envoyer** pour
 
 - [Paramétrer un catalogue externe pour PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [Améliorations des cXML d’achat](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

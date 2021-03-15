@@ -153,3 +153,6 @@ Le compte sélectionné pour chaque type de dépense est débité lorsqu’un pa
 
 > [!NOTE]
 > Le compte de contrepartie est sélectionné au niveau du contrat de location sur les lignes de l’échéancier de paiement des coûts exécutoires. Ce compte de contrepartie peut être associé au fournisseur ou à un compte général.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Le tableau suivant fournit des recommandations sur la stratégie du solveur à u
 [Heuristique](https://techterms.com/definition/heuristic)
 
 [Problème de satisfaction de contraintes](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

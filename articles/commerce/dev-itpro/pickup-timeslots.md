@@ -127,3 +127,6 @@ Dans l'application du centre d'appels, les agents peuvent sélectionner le magas
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Module d'information sur le retrait](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

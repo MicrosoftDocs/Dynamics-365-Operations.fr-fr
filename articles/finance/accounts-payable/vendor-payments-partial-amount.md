@@ -53,3 +53,6 @@ Vous pouvez effectuer un paiement partiel lorsqu’il y a encore un très petit 
 
 
 Pour plus d’informations, voir [Vue d’ensemble des paiements fournisseurs](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

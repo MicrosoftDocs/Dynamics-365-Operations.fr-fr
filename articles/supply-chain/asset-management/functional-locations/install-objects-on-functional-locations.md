@@ -82,3 +82,6 @@ Une fois les données de paramétrage disponibles, vous êtes prêt à créer un
 1. Sur la page **Tous les postes techniques**, assurez-vous que le poste technique auquel vous souhaitez que l'actif soit créé automatiquement utilise le type de poste technique créé à cet effet.
 2. Sélectionnez le poste technique dans la liste.
 3. Sélectionnez **Mettre à jour l'état du poste technique**, puis sélectionnez l'état du cycle de vie créé à cet effet. Un actif est désormais automatiquement installé au poste technique. Cet actif porte le même nom que celui du poste technique.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

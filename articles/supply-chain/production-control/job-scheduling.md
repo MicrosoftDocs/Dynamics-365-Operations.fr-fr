@@ -76,3 +76,6 @@ La planification des tâches prend en compte les pourcentages de rendement spéc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

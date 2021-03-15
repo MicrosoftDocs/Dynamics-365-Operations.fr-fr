@@ -53,3 +53,6 @@ Cette procédure indique comment créer un plan intersociétés. Les données fi
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée. Cliquez sur le lien de StaticPlan. Vous devez être dans la société USMF.  
 3. Cliquez sur **Ordres prévisionnels**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

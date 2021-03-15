@@ -65,3 +65,6 @@ Un enregistrement est conservé chaque fois que vous exécutez la tâche périod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Ce guide de tâche va paramétrer les profils de validation d’immobilisation. 
 88. Spécifiez les valeurs souhaitées dans le champ **Compte principal**.
 89. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

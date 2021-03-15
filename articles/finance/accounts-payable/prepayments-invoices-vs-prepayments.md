@@ -65,3 +65,6 @@ Les factures d'acompte sont une procédure commerciale courante. Un fournisseur 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

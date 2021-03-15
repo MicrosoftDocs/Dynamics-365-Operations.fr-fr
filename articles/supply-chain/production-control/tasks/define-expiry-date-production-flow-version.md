@@ -40,3 +40,6 @@ Pour terminer la validité et le traitement d'une version de flux de production 
 6. Entrez une date et une heure dans le champ Date d'expiration.
     * Pour la date d'expiration, une nouvelle version ne démarre pas ni n'est activée. Il n'est également plus possible de créer ou de démarrer des tâches pour ce flux de production. Vous pouvez toujours exécuter les tâches commencées après la date d'expiration.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -302,3 +302,6 @@ Un ordre de fabrication de 10 pièces est créé pour le produit D8100, « Ence
     ![Graphiques de comparaison du coût](./media/subcontract35_cost-comparison-charts.png)
 
 Paramétrage manquant des données.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

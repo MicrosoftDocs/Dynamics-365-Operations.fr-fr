@@ -42,3 +42,6 @@ Cette procédure indique comment utiliser la demande de pièces comptables pour 
 12. Dans le volet Actions, cliquez sur **Document d’origine**.
 13. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

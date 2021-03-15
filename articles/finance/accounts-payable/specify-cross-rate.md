@@ -43,3 +43,6 @@ Par exemple, la devise comptable est USD, la devise de facturation est CAD, et l
 3.  Pour un client, dans la page de liste **Tous les clients**, accédez à **Collecter > Régler les transactions en cours**. Pour un fournisseur, dans la page de liste **Tous les fournisseurs**, accédez à **Facture > Régler les transactions en cours**. 
 4.  Sélectionnez la transaction qui est le paiement principal, puis cliquez sur **Marquer le paiement**. La case à cocher dans la colonne **Marquer** est activée et une icône d’information s’affiche dans la colonne **Paiement principal**. 
 5.  Dans le champ **Taux croisé**, entrez le taux de change entre la devise de la facture et la devise de paiement, à compter de la date de règlement. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Accédez à **Comptabilité fournisseur > Paramétrage > Paramétrage du rapproc
 
 1. Pour spécifier des tolérances pour des fournisseurs individuels qui remplacent la tolérance par défaut, sélectionnez un **Compte fournisseur**.
 2. Entrez le pourcentage d’écart que vous accepterez pour ce fournisseur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

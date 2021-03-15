@@ -53,3 +53,6 @@ Cette rubrique décrit la procédure de création d'une équipe de répartition.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

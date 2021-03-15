@@ -71,3 +71,6 @@ L’utilisation du système de workflow dans votre organisation présente plusie
 + [Configurer des branches parallèles dans un workflow](configure-parallel-branch-workflow.md)
 + [Configuration de workflows pour ligne](configure-line-item-workflow.md)
 + [FAQ sur les workflows](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

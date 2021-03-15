@@ -161,3 +161,6 @@ Comme les configurations ER sont partagées entre les sociétés, vous pouvez r�
 7. Cliquez sur OK.
     * La configuration de mise en correspondance de modèle par défaut est utilisée par cette configuration de format pour générer le document électronique (la sortie créée contient le code de la société).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

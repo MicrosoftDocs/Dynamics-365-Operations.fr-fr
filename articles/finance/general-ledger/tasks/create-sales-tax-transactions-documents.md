@@ -59,3 +59,6 @@ La taxe sur les documents est calculée en indiquant un groupe de taxe et un gro
 29. Cliquez sur Taxe.
 30. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

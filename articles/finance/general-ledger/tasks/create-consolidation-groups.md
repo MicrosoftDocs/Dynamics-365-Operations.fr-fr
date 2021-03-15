@@ -46,3 +46,6 @@ Cette procédure montre comment créer un groupe de comptes de consolidation pui
 8. Tapez une valeur dans le champ Compte de consolidation.
 9. Tapez une valeur dans le champ Nom du compte de consolidation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

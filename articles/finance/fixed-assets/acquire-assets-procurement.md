@@ -108,3 +108,6 @@ Pour plus d’informations, voir [Intégration des immobilisations](fixed-asset-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

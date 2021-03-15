@@ -98,3 +98,6 @@ Si une CF est sous gestion des modifications, tout changement, comme l'annulatio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

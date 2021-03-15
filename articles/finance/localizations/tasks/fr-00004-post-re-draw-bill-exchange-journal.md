@@ -52,3 +52,6 @@ Pour effectuer cette procédure, vous devez avoir le rôle de commis à la compt
 14. Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.
     * Vérifiez que le statut du journal récemment validé est Représenté. Si c’est le cas, le processus est terminé.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Les questions fermées permettent à la personne interrogée de choisir des opti
 5. Saisissez ou sélectionnez une valeur dans le champ Groupe de réponses.
 6. Tapez une valeur dans le champ Texte.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ La société fictive USMF est citée en exemple dans cette tâche.
 12. Fermez la page.
 13. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

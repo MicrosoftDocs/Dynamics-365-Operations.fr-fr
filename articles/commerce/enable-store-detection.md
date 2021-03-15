@@ -68,3 +68,6 @@ Pour activer la détection du magasin selon l’emplacement dans Commerce, proc�
 [Configurer plusieurs locataires B2C dans un environnement Commerce](configure-multi-B2C-tenants.md)
 
 [Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

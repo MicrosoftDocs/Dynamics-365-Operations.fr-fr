@@ -105,3 +105,6 @@ L’exemple suivant montre comment exporter un état **Rapport sur la valeur de 
 1. Sur la page **Résumé de l’exécution** qui s’ouvre, vous pouvez afficher le statut de votre tâche d’exportation et la liste des entités exportées. Dans la section **Statut de traitement de l’entité**, sélectionnez l’entité **Valeur de stock**, puis sélectionnez **Télécharger le fichier** pour télécharger les données exportées depuis cette entité.
 
 Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

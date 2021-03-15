@@ -35,3 +35,6 @@ La gestion des transports vous permet de diviser des emplacements géographiques
 - **Optimiser la planification d'itinéraire** – En attribuant des plans d'itinéraire spécifiques à des zones spécifiques.
 
 Vous définissez des zones en fonction des valeurs de champ de métadonnées (telles que le pays, la plage de codes postaux ou le service de l'opérateur) qui qualifient chaque zone. Les définitions de zone ne sont pas nécessaires si votre tarification de transport n'utilise pas de concept de zone.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

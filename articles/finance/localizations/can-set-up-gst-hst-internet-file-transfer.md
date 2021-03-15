@@ -105,3 +105,6 @@ Vous pouvez générer un fichier GST/GIFT (HST Internet File Transfer) de décla
    Pour faciliter l’identification, utilisez le format GSTAAAAMMJJ.tax (GST, suivi de la date de déclaration, puis de l’extension .tax) ; par exemple : GST20100728.tax.
 
 4. Cliquez sur **OK** pour exporter le fichier GIFT vers le chemin spécifié.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

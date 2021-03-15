@@ -113,3 +113,6 @@ Cette procédure a été créée à l’aide des données fictives de la sociét
     * Sélectionnez Répartitions, par exemple.  
 27. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

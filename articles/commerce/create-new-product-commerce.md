@@ -114,3 +114,6 @@ L'image suivante présente un exemple de configuration pour un produit lancé.
 [Créer des entités juridiques](channels-legal-entities.md)
 
 [Créer un groupe de variantes](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

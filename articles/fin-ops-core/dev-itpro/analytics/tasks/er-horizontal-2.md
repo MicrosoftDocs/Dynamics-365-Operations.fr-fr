@@ -51,3 +51,6 @@ Cette procédure s’applique à une fonction qui a été ajoutée dans la versi
 8. Cliquez sur OK.
     * Examinez la sortie générée. Notez que le fichier Excel nouvellement créé contient le même nombre de colonnes sélectionnées que pour les dimensions financières. L’en-tête d’état de ces colonnes représente les noms des dimensions financières. Les lignes de transactions de ces colonnes représentent les dimensions financières. Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l’état n’est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Cette tâche montre comment affecter un modèle de facture financière à un cli
     + Annuel : Sélectionnez cette option et entrez le nombre d’années dans le champ Par. Par exemple, si vous entrez 2, une facture est générée tous les 2 ans pour ce client.  
 14. Entrez un numéro dans le champ **Par**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

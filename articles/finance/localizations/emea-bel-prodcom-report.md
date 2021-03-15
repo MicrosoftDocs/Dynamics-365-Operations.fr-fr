@@ -60,3 +60,6 @@ Utilisez la page **PRODCOM** pour créer des périodes PRODCOM et transférer le
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Si vous devez modifier vos variantes, suivez les étapes ci-dessous.
 
 ## <a name="next-step"></a>Étape suivante
 [Promouvoir une variante et terminer une expérience](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

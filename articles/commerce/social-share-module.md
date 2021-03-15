@@ -81,3 +81,6 @@ Pour ajouter un module de partage social à un module de zone d’achat, procéd
 [Module Zone d’achat](add-buy-box.md)
 
 [Conformité des cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

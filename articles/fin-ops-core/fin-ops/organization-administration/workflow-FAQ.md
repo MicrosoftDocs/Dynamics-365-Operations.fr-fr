@@ -59,3 +59,6 @@ La valeur de champ par défaut pour le **Nombre d’éléments de workflow par t
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Qu’est-ce que la fonction Erreur de workflow améliorée ?
 La fonction Erreur de workflow améliorée de la version 10.0.13 ajoute des codes d’erreur pour différencier les différentes classes d’erreurs de workflow. Les messages d’erreur signalés seront pour la plupart similaires avec des différences mineures pour les rendre plus clairs.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

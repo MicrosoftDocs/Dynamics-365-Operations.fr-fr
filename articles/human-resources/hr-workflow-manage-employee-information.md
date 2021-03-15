@@ -73,3 +73,6 @@ Pour configurer un workflow de base qui démarre lorsque des employés demandent
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

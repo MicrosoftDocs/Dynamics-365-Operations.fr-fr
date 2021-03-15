@@ -158,3 +158,6 @@ Les tableaux suivants présentent les valeurs définies sur les onglets **Géné
 11. Pour voir l'effet net de la résiliation, où l'actif et le passif de location de ROU seront de 0 (zéro), ouvrez les tableaux des transactions de passif et d'actif.
 
 Le statut du bail doit maintenant être **Résilié**. Aucune écriture de journal supplémentaire ne sera imputée à ce bail à moins que la résiliation ne soit annulée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

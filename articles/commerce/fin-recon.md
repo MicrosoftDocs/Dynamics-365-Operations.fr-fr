@@ -61,3 +61,6 @@ Lorsque la validation des relevés en flux continu est utilisée pour que la val
 Les détails du rapprochement financier pour une équipe de travail sont synchronisés avec Commerce headquarters à l'aide du travail P.
 
 Les tableaux d'analyse de la vente au détail dans Commece Headquarters ne calculent pas les totaux pour afficher les détails sur les lignes de relevé. À la place, les montants finalisés dans le client PDV sont utilisés pour créer et valider les tableaux d'analyse de la vente au détail.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

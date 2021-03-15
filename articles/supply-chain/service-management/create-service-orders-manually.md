@@ -101,3 +101,6 @@ Vous pouvez créer une commande de service dans l'écran **Commandes client** à
 
 [Créer des commandes de service (écran classe)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

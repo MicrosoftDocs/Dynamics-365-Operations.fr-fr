@@ -83,3 +83,6 @@ Pour affecter des comptes aux registres et groupes de location qui ont été cr�
     > [!NOTE]
     > Le compte financier ou opérationnel sélectionné sera débité lors de la validation de la facture des dépenses prévues.
     > **Compensation des frais de location** sera utilisé comme type de comptabilisation pour les transactions de frais accessoires mais validé sur le **Compte de compensation** défini dans les **Lignes de échéancier de paiement des coûts exécutoires** dans les détails du bail ou le formulaire de registre de location.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

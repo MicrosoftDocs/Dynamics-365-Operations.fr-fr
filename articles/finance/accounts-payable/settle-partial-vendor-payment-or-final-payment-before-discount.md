@@ -141,3 +141,6 @@ April valide le journal des paiements et consulte les transactions fournisseur s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

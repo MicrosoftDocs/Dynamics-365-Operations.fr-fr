@@ -138,3 +138,6 @@ Un utilisateur de Commerce suit le flux de travail pour calculer, approuver et t
 - Enregistrer des absences
 
 Pour plus d'informations sur le traitement des enregistrements des heures et des présences, voir [Traitement des enregistrements de pointage](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ La procédure de la tâche de paiement de retenue à la source permet de régler
 7. Cliquez sur **OK**.
 
 ![Paramètres de paiement de la retenue à la source](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ La règle de création des commandes fournisseur et de consolidation de la deman
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

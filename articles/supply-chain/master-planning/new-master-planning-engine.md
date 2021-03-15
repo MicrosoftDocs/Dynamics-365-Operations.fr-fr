@@ -115,3 +115,6 @@ J'utilise la version 10.0.16 ou une version ultérieure et je reçois le messag
 > Remplissez le questionnaire suivant pour commencer et, le cas échéant, demander une exception pour la migration vers l'Optimisation de la planification.
 
 **Réponse :** Non, la planification n'est pas bloquée. Votre cycle de planification principale s'est terminé avec succès et vous pouvez utiliser le résultat de la manière habituelle. Toutefois, pour éviter de recevoir ce message d'erreur lors des futures exécutions de planification générale, vous devez soit migrer immédiatement vers l'Optimisation de la planification, soit demander une exception à l'aide du lien dans le message d'erreur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Cette rubrique décrit comment paramétrer les informations pour les emplacement
 7. Fermez la page.
 8. Actualisez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

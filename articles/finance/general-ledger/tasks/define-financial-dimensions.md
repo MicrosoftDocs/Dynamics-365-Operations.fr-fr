@@ -54,3 +54,6 @@ Ce guide illustre l’ajout d’une dimension financière soutenue par une entit
 9. Dans le champ **Valeur de la dimension**, entrez un nom pour décrire votre valeur de la dimension financière.
 10. Dans le champ **Description**, entrez une description qui décrit votre valeur de la dimension financière.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

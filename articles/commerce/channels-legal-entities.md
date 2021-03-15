@@ -85,3 +85,6 @@ L'image suivante présente les détails d'un exemple d'entité juridique.
 [Présentation des canaux](channels-overview.md)
 
 [Conditions préalables au paramétrage du canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Cette procédure se concentre sur la préparation d'une tâche de kanban de proc
 6. Cliquez sur Préparer.
     * Notez qu'une icône dans le statut de la tâche indique que la tâche est désormais prête.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ En outre, deux états uniques qui tirent profit d'une structuration de la grille
 - Espace de travail **Gestion des catégories et des produits** &gt; **Retail et Commerce** &gt; **Produit et catégories** &gt; **Gestion du magasin** &gt; **États**
 - Espace de travail **Gestion de la tarification et des remises** &gt; **Retail et Commerce** &gt; **Tarification et remises** &gt; **Gestion du magasin** &gt; **États**
 - Section **Recherches et états** &gt; **Retail et Commerce** &gt; **Recherches et états** &gt; **États des ventes**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

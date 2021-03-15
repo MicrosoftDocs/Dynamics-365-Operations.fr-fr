@@ -54,3 +54,6 @@ Afin de vous aider à vite évaluer l'urgence d'une commande de service, le diag
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

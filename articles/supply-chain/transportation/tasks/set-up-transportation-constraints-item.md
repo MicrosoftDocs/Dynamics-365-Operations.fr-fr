@@ -43,3 +43,6 @@ Cette procédure paramètrera une contrainte de transport pour empêcher un arti
 10. Cliquez sur Enregistrer.
 11. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

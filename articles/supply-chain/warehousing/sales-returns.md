@@ -330,3 +330,6 @@ Dans cet exemple, la ligne d'ordre de retour est créée à l'aide de la fonctio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Cette rubrique vous guide tout au long de la création d'un contrat d'achat. Cel
 5. Sélectionnez **Confirmations de contrat d'achat**. L'option **Aperçu/Imprimer** permet de générer un document pour le contrat d'achat que vous pouvez ensuite imprimer ou envoyer au fournisseur. Si vous mettez à jour l'accord ultérieurement et le confirmez à nouveau, les deux versions sont indiquées ici.  
 6. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

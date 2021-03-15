@@ -98,3 +98,6 @@ Comme les données de la table **Produits** sont conçues pour circuler dans un 
 ## <a name="quote-and-quote-product-tables"></a>Table Devis et Produit de devis
 
 Pour la table **Devis**, suivez les instructions de la section [Table Commande](#order-table) plus haut dans cette rubrique. Pour la table **Produit de devis**, suivez les instructions de la section [Table Produits de commande](#order-products-table) plus haut dans cette rubrique.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

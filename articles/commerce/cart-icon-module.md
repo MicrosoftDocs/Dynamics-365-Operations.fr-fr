@@ -65,3 +65,6 @@ Pour ajouter un module d’icône de panier, voir [Module d’en-tête](author-h
 [Module Détails de la commande](order-confirmation-module.md)
 
 [Module Carte cadeau](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

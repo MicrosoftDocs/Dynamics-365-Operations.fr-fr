@@ -368,3 +368,6 @@ Lorsqu’une ligne BPM est supprimée, le guide de tâches associé à la ligne 
 **Ligne BPM supprimée**
 
 - Déplacer les tâches de kanban planifiées
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

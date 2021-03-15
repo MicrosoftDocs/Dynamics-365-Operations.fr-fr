@@ -56,3 +56,6 @@ Cette procédure définit un escompte de règlement et une date d’échéance. 
 26. Dans **Compte principal pour les remises fournisseur**, entrez le compte principal dans lequel l’escompte de règlement validera les factures fournisseur.
 27. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

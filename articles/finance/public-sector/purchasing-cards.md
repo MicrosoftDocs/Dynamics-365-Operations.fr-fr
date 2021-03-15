@@ -130,3 +130,6 @@ La procédure suivante vous permet de créer une facture fournisseur pour enregi
 11. Pour spécifier des informations complémentaires concernant la ligne, sélectionnez l’organisateur **Détails sur le ligne** et entrez les informations.
 12. Facultatif : Envoyez la facture au système de workflow pour révision et approbation, puis validez la facture.
 13. Pour enregistrer la facture sans la valider, fermez la page. Vous pouvez afficher la facture sur la page de liste **Factures fournisseur en attente**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

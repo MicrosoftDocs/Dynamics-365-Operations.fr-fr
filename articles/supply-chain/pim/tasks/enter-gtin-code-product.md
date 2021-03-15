@@ -41,3 +41,6 @@ Les codes GTIN sont affectés par l'organisation GS1. Dans cet exemple, vous ent
 11. Tapez une valeur dans le champ GTIN.
 12. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

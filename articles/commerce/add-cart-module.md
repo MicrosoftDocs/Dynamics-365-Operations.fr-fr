@@ -117,3 +117,6 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 [Calculer la disponibilité des stocks pour les canaux de vente au détail](calculated-inventory-retail-channels.md)
 
 [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

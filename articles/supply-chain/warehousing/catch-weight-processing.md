@@ -209,3 +209,6 @@ Outre les restrictions qui s’appliquent actuellement aux produits en poids var
 
 > [!NOTE]
 > Les informations précédentes sur les balises à poids variable ne sont valides que si le produit à poids variable possède une méthode de suivi des dimensions de la balise à poids variable qui est entièrement suivie (c’est-à-dire si le paramètre **Méthode de suivi des dimensions de la balise en poids variable** de la stratégie de gestion des éléments en poids variable est défini sur **Dimensions du produit, dimensions de suivi et toutes les dimensions de stockage**). Si l’élément en poids variable n’est que partiellement suivi par balise (c’est-à-dire si le paramètre **Méthode de suivi des dimensions de la balise en poids variable** de la stratégie de gestion des éléments en poids variable est défini sur **Dimensions du produit, dimensions de suivi et statut du stock**), des restrictions supplémentaires s’appliquent. Dans la mesure où la visibilité est perdue entre la balise et le stock, certains scénarios supplémentaires ne sont pas pris en charge.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

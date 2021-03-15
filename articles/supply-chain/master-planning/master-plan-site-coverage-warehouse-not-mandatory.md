@@ -62,3 +62,6 @@ Le graphique suivant illustre l'exécution du calcul de planification. Les param
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

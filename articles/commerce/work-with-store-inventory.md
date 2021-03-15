@@ -71,3 +71,6 @@ Les inventaires peuvent être planifiés ou non planifiés. Les décomptes de st
 ## <a name="inventory-lookup"></a>Recherche de stock
 
 La quantité de produits disponible pour plusieurs magasins et entrepôts peut être affichée dans la page **Recherche de stock**. En plus de la quantité disponible, les futures quantités disponibles à la vente peuvent être affichées pour chaque magasin individuel. Sélectionnez le magasin pour afficher les quantités DAV, puis sélectionnez **Afficher la disponibilité du magasin**. Pour plus d'informations sur les options de configuration disponibles, consultez [Calculer la disponibilité des stocks pour les canaux de vente au détail](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

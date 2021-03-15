@@ -61,3 +61,6 @@ Cette procédure permet de créer une commande fournisseur dont la disponibilit�
 4. Cliquez sur Erreurs ou avertissements du contrôle budgétaire.
 5. Cliquez sur Fermer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

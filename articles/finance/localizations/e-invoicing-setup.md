@@ -360,3 +360,6 @@ Suivez les étapes ci-après pour gérer le cycle de vie de la fonctionnalité c
 
     > [!NOTE]
     > Lorsque vous sélectionnez **Oui**, le statut des versions de configuration est automatiquement modifié de **Terminé** à **Partagé**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Pour en savoir plus sur les principes de base utilisés par Microsoft, visitez l
 [Ajouter une page de stratégie de confidentialité](add-privacy-page.md)
 
 [Remplacer les ID utilisateur associés aux modifications de contenu suivies](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
 5. Cliquez sur Détails des lignes de prévision.
     * Dans cette page, vous pouvez voir les valeurs de précision, la demande historique et la prévision. Vous pouvez également apporter des modifications aux prévisions.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

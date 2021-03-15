@@ -118,3 +118,6 @@ Pour vous assurer qu’un en-tête apparaît sur chaque page, suivez ces étapes
 [Module de sélecteur de site](site-selector.md)
 
 [Module Sélection de magasin](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

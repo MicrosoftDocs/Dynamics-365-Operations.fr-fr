@@ -186,3 +186,6 @@ Il existe deux exceptions à la règle selon laquelle les lots de commandes peuv
 1. Si l’unité de mesure de la formule est différente de l’unité de mesure du stock de la substance active, l’ordre des lots n’est pas applicable pour l’équilibrage des lots.
 
 Un lot de commandes qui ne s'applique pas à l'équilibrage du lot passe par le cycle de processus habituel des lots de commandes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

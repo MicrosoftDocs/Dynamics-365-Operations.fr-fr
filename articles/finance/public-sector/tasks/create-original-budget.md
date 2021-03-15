@@ -50,3 +50,6 @@ Lorsque vous créez une écriture budgétaire d’origine et que vous utilisez l
     * Pour effectuer des sélections facultatives, cliquez sur l’icône de déverrouillage en haut de la page.  
 18. Cliquez sur Mise à jour.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Lorsque vous utilisez le processus *Sélection de cluster dirigée par le systè
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Pour résoudre ce problème, modifiez le profil du cluster et définissez l'option **Activer les positions** sur *Non*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

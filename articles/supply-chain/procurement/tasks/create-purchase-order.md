@@ -73,3 +73,6 @@ Cette rubrique vous indique comment créer une commande fournisseur manuellement
 
 2. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

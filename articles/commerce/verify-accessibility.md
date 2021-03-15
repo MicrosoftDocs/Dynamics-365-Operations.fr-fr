@@ -86,3 +86,6 @@ Pour utiliser le service [Informations sur l'accessibilité de Microsoft](https:
 [Enrichir une page d’arrivée de catégorie](enrich-category-page.md)
 
 [Créer des pages e-commerce dynamiques basées sur des paramètres d'URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

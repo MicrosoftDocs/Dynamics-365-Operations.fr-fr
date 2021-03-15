@@ -91,3 +91,6 @@ Pour suivre le statut de la liste de tâches pour toutes les tâches qui vous so
 [Créer des listes de tâches et ajouter des tâches](task-mgmt-create-lists.md)
 
 [Gestion des tâches dans le PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

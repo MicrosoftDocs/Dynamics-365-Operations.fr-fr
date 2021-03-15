@@ -50,3 +50,6 @@ Les transactions client/fournisseur marquées avec l’un des codes objectif de 
 17. Cliquez sur OK.
 18. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

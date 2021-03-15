@@ -79,3 +79,6 @@ Pour annuler une autorisation de carte de crédit, vous pouvez modifier le mode 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

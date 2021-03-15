@@ -113,3 +113,6 @@ Les étapes suivantes expliquent comment un utilisateur du service RCS (Regulato
 11. Fermez la page. 
 
 Lorsque vous devez évaluer cette mise en correspondance de modèle à l’aide de métadonnées d’une application d’une version différente, enregistrez une autre application connectée, affectez-la à cette mise en correspondance de modèle et validez-la par rapport aux nouvelles métadonnées.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

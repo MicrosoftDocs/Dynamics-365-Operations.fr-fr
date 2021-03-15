@@ -130,3 +130,6 @@ L'exécution des commandes dans le point de vente inclut le filtrage pour aider 
 - Date de création
 - Date de livraison
 - Date de réception
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

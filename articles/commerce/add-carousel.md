@@ -85,3 +85,6 @@ Pour ajouter un module de carrousel à une nouvelle page et définir les propri�
 [Module de bloc de contenu](add-hero-module.md)
 
 [Module de lecture vidéo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

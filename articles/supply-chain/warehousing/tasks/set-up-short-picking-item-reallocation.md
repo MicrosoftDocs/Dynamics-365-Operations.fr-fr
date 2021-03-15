@@ -63,3 +63,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 6. Dans la liste, sélectionnez un **Identifiant utilisateur**. Par exemple, 24.
 7. Développez l’organisateur **Travail**.
 8. Sélectionnez **Oui** dans le champ **Autoriser la réaffectation manuelle des articles**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

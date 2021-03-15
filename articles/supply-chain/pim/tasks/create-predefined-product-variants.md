@@ -71,3 +71,6 @@ Cette procédure décrit la création des variantes de produit pour un produit g
     * Vous pouvez générer des descriptions pour toutes les variantes selon la combinaison des valeurs de dimension de produit. La description est facultative.  
 5. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

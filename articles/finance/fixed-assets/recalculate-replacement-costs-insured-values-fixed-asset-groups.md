@@ -77,3 +77,6 @@ Le jour suivant, votre gestionnaire vous signale que les ordinateurs ont diminu√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

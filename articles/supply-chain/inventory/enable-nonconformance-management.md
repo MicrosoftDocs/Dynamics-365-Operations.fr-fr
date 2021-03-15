@@ -53,3 +53,6 @@ Pour activer la gestion de non-conformité, procédez comme suit :
 [Processus de gestion de la qualité](quality-management-processes.md)
 
 [Paramétrer des conditions préalables pour la gestion de la non-conformité](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Pour plus d’informations, voir [Règles de stratégie d’audit](audit-policy-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

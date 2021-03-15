@@ -86,3 +86,6 @@ Pour ajouter un module de confirmation de commande à une nouvelle page et défi
 [Module d'information sur le retrait](pickup-info-module.md)
 
 [Module Carte cadeau](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Cette procédure décrit comment affecter un état du cycle de vie des produits 
 2. Dans la liste, marquez la ligne sélectionnée.
 3. Dans le champ État du cycle de vie des produits, entrez ou sélectionnez une valeur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

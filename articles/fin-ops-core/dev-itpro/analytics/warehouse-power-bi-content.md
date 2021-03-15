@@ -111,3 +111,6 @@ Les mesures globales clés suivantes sont utilisées comme base du contenu.
 | Performances d’expédition        | Expéditions par produit                       | CustPackingSlipOnTimeStatus           | En avance, À temps, et En retard (voir les descriptions plus haut dans cette table). |
 | Performances d’expédition        | Expéditions par client                      | CustPackingSlipOnTimeStatus           | En avance, À temps, et En retard (voir les descriptions plus haut dans cette table). |
 | Performances d’expédition        | Expéditions par site/entrepôt              | CustPackingSlipOnTimeStatus           | En avance, À temps, et En retard (voir les descriptions plus haut dans cette table). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

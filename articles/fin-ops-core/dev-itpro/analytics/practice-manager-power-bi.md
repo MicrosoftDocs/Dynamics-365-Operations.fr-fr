@@ -117,3 +117,6 @@ Les sections suivantes décrivent les mesures globales utilisées dans chaque en
 | Mesure globale clé       | Champ               | Description |
 |---------------------------------|---------------------|-------------|
 | Coût prévisionnel de l’activité terminée | Sum(TotalCostPrice) | Prix de revient total pour les estimations pour tous les types de transactions de projet avec des tâches terminées. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

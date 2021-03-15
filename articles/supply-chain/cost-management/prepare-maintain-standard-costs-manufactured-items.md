@@ -72,3 +72,6 @@ Si vous souhaitez utiliser les informations de gamme à des fins d'évaluation d
 
 [Paramétrer les produits pouvant être produits ou approvisionnés](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

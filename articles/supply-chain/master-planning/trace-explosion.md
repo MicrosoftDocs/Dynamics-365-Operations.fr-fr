@@ -47,3 +47,6 @@ Vous pouvez afficher les détails sur les perspectives et les actions pour une c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

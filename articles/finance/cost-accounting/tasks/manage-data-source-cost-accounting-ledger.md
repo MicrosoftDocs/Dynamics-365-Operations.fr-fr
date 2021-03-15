@@ -47,3 +47,6 @@ Utilisez cette procédure pour gérer la source de données pour une comptabilit
 14. Dans le champ Couche de validation, sélectionnez Actuel.
 15. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Les souches de numéros permettent de générer des identificateurs uniques et c
 4. Sélectionnez **Suivant**.
 5. Sélectionnez **Terminer**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

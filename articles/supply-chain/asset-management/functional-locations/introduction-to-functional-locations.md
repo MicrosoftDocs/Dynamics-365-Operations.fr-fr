@@ -82,3 +82,6 @@ Les boutons du volet Actions sont organisés sur les onglets. Le tableau suivant
 | Défaillances                              | Ouvrez la page **Défaillances des actifs**, sur laquelle vous pouvez afficher une liste des enregistrements de défaillance des actifs associés au poste technique sélectionné. |
 | Mettre à jour l'état du poste technique    | Mise à jour de la phase du poste technique sélectionné.                                                                                        |
 | Journal d'état du cycle de vie                 | Affichage d'un journal indiquant les phases du poste technique sélectionné.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

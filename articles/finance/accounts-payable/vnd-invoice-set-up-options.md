@@ -62,3 +62,6 @@ Les paramètres disponibles sont les suivants :
 
 - **Nombre de tentatives de correspondance automatique** - Sélectionnez le nombre de fois que le système doit essayer de faire correspondre les réceptions de marchandises à une ligne de facture avant de conclure que le processus a échoué. Lorsque le nombre de tentatives spécifié est atteint, la facture est supprimée du traitement automatisé.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ L'illustration ci-dessous présente un exemple de la liste de page **Tâches de 
 
 Pour une brève description des boutons sur la page de liste **Tâches de maintenance actives d'ordre de travail**, voir [Présentation des ordres de travail](../work-orders/introduction-to-work-orders.md) où les boutons identiques sont décrits.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

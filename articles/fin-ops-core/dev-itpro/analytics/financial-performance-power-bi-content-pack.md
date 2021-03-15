@@ -88,3 +88,6 @@ Les entités suivantes ont été utilisées comme base de la solution PowerBI.co
 - ChartofAccounts
 
 Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Les entités calculées sont utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu. Par défaut, le contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). Ce classeur est le modèle de données par défaut utilisé pour créer le contenu.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

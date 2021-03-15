@@ -75,3 +75,6 @@ La retenue à la source est calculée dans le **Journal des paiements fournisseu
 Le montant de la retenue à la source dérivé sera déduit du paiement du fournisseur et imputé au compte **Compte de retenue à la source** dans un justificatif associé.
 
 ![Compte de retenue à la source montrant un justificatif associé](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Cette procédure montre comment ajouter un nouveau calcul à un modèle de confi
 4. Cliquez sur Fermer.
 5. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

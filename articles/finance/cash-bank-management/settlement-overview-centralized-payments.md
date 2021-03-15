@@ -107,3 +107,6 @@ Pour les paiements fournisseur, les transactions d’échéance dans l’entité
 
 ## <a name="withholding-tax"></a>Retenue à la source
 Le compte fournisseur associé à la facture est utilisé pour déterminer si la retenue à la source doit être calculée. Si la retenue à la source s’applique, elle est calculée dans l’entité juridique associée à la facture. Si les entités juridiques utilisent différentes monnaies, c’est le taux de change de l’entité juridique associée à la facture qui est utilisé.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

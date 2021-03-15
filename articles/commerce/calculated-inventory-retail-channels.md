@@ -113,3 +113,6 @@ Il est recommandé de ne pas exécuter ces tâches de traitement par lots trop f
 > Pour des raisons de performances, lorsque les calculs de la disponibilité du stock côté canal sont utilisés pour effectuer une demande de disponibilité du stock à l’aide des API de commerce électronique ou de la nouvelle logique de stock côté canal PDV, le calcul utilise un cache pour déterminer si un délai suffisant s’est écoulé pour justifier la réexécution de la logique de calcul. Le cache par défaut est défini sur 60 secondes. Par exemple, vous avez activé le calcul côté canal pour votre magasin et affiché le stock disponible pour un produit sur la page **Recherche de stock**. Si une unité du produit est ensuite vendue, la page **Recherche de stock** n’affiche pas le stock réduit tant que le cache n’a pas été effacé. Une fois que les utilisateurs valident des transactions dans le PDV, ils doivent attendre 60 secondes avant de vérifier que le stock disponible a été réduit.
 
 Si votre scénario d’entreprise nécessite un temps de mise en cache plus petit, contactez le réprésentant du support technique pour obtenir de l’aide.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

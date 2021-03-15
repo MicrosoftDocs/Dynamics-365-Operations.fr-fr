@@ -64,3 +64,6 @@ Des états séparés présentent des informations sur chaque type de transaction
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Cette rubrique explique comment créer une commande de réapprovisionnement avec
 3. Sélectionnez **Vue d'ensemble**. Les articles reçus comme stock de consignation appartenant au fournisseur sont disponibles. La quantité restante sur la commande de réapprovisionnement avec consignation est affichée dans le champ **Total commandé**.  
 4. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

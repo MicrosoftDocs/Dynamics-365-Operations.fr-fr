@@ -76,3 +76,6 @@ Cette fonctionnalité est disponible pour les entités juridiques dont l’adres
 10. Activez la case à cocher Inclure le paiement.
     * Notez que les transactions de paiement ne sont pas transférées vers l’étude de la balance des paiements par défaut. L’utilisateur doit activer le champ Inclure le paiement pour les codes objectif.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

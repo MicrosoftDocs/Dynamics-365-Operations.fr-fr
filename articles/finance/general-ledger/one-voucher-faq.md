@@ -51,3 +51,6 @@ Comme pour chaque nouvelle fonctionnalité, les clients doivent consulter le pla
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Lorsque la date de suppression est identifiée, où sera-t-elle communiquée ?
 
 La dépréciation de la fonctionnalité N° document est un changement important qui sera largement diffusé. Elle sera communiquée via la documentation du produit, un article de blog et des annonces lors des conférences Microsoft applicables, bien avant la date à laquelle la suppression prend effet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

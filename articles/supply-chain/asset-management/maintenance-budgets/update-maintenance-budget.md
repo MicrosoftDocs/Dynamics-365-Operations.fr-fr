@@ -74,3 +74,6 @@ Sur la page **Lignes du budget de maintenance**, vous pouvez ajouter manuellemen
 
 - Vous savez que le reconditionnement de certains actifs est actuellement en phase de planification, mais les tâches associées n'ont pas encore été créées dans le module Gestion des actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces tâches sont incluses dans le budget de maintenance.
 - De nouveaux actifs ou types d'actifs ont été créés depuis la réalisation du budget de maintenance, mais les plans de maintenance n'ont pas encore été configurés sur ces actifs ou types d'actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces types d'actifs sont incluses dans le budget de maintenance.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Cette rubrique décrit comment paramétrer une simple instruction d'emplacement.
 4. Tapez une valeur dans le champ **Critères**.
 5. Cliquez sur **OK**. Vous pouvez continuer à ajouter des lignes directives et des actions d'instruction jusqu'à ce que vous ayez couvert tous les scénarios possibles de votre entrepôt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

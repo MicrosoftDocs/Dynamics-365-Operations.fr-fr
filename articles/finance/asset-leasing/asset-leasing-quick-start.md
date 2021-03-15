@@ -252,3 +252,6 @@ Procédez comme suit pour créer un bail.
 
    La page **Transactions du passif locatif** affiche la comptabilisation initiale, le paiement des intérêts de location, le paiement de location et le solde du passif locatif. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

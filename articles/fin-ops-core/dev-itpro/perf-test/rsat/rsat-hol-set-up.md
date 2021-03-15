@@ -803,3 +803,6 @@ Dans cette section, vous allez créer une variable enregistrée dans le premier 
 2. Vérifiez que les deux scénarios de test sont réussis.
 
     ![Champ de résultat défini sur Réussi pour les deux scénarios de test](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

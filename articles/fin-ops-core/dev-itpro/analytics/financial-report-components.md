@@ -126,3 +126,6 @@ Lorsque vous ouvrez un bloc élémentaire, d’autres utilisateurs peuvent accé
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

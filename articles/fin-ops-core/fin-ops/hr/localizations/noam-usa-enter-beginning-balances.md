@@ -166,3 +166,6 @@ Il est possible de contrepasser et d’entrer de nouveau les transactions. Pour 
 2. Cliquez sur **Oui** lorsque le message « Lorsque vous contrepassez ce bordereau de paie, un bordereau de paie de contrepassation est créé pour contrebalancer ce bordereau de paie Aucun bordereau de paie ne peut être modifié. Voulez-vous contrepasser ce bordereau de paie ? s’affiche. 
 
 Après avoir contrepassé le bordereau de paie, vous pouvez générer un nouveau bordereau de paie pour le travailleur avec l’état des revenus que vous avez créé précédemment. Veillez à résoudre toutes les lignes incorrectes dans l’état des revenus avant de générer le nouveau bordereau de paie, puis générez de nouveaux bordereaux de paie avec les montants appropriés. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

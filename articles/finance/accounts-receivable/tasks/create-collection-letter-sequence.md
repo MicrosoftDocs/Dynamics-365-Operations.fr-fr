@@ -58,3 +58,6 @@ Utilisez ce guide de tâche pour créer une série de lettres de relance. La soc
 26. Développez l’organisateur **Note**.
 27. Entrez le texte tel que vous souhaitez qu’il apparaisse dans la lettre de relance pour le code lettre de relance sélectionné. Vous pouvez traduire ce texte dans plusieurs langues à l’aide du menu Traductions au-dessus de la zone de note.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

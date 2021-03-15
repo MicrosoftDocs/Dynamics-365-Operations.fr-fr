@@ -134,3 +134,6 @@ Le tableau suivant résume le fonctionnement de la consolidation de l'expéditio
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Configurer les stratégies de consolidation de l'expédition](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

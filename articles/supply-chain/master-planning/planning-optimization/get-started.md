@@ -132,3 +132,6 @@ Si l'Optimisation de la planification est activée, la planification est effectu
 [Appliquer les filtres à un plan](plan-filters.md)
 
 [Annuler une tâche de planification](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

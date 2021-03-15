@@ -58,3 +58,6 @@ Cette procédure montre comment créer une règle de kanban qui inclut des activ
     * Notez que le kanban a deux opérations de traitement à partir d'un flux de production. La première est SpeakerAssemblyAndPolish, et la deuxième est SpeakerTestAndPackaging.  
     * Il s'agit de la dernière étape.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

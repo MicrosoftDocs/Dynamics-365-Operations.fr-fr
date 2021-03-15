@@ -103,3 +103,6 @@ Suivez les étapes de l'un des exemples suivants pour afficher les types d'offre
 
 
 ![Liste des modes de paiement](media/Return-policy-page5.PNG "Types de remboursement autorisés")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

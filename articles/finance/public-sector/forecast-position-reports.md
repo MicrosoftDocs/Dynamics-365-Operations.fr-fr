@@ -47,3 +47,6 @@ Lorsque vous générez l’état, les paramètres par défaut suivants sont affi
 | Non exécuté uniquement | Définissez cette option sur Oui pour exclure des postes actuellement remplis. |
 | Supprimer le total | Définissez cette option sur Oui pour exclure les totaux de l’état. |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 8. Désactivez la case à cocher Emplacement.
 9. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

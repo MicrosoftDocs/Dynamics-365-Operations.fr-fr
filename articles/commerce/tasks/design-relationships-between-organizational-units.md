@@ -62,3 +62,6 @@ Cette procédure décrit comment concevoir les relations entre les unités d'org
 29. Cliquez sur Publier.
 30. Cliquez sur Fermer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

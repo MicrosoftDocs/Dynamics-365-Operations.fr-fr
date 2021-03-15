@@ -108,3 +108,6 @@ Dans le capture d'écran ci-dessous, **Type** a été ajouté, et le calcul le p
 >[!NOTE]
 >Pour obtenir une vue d'ensemble de tous les enregistrements de défaillance créés sur les ordres de travail et les demandes de maintenance, cliquez sur **Gestion des actifs** > **Recherches** > **Défaillance des actifs** > **Défaillance des actifs**. Dans la page **Défaillances des actifs**, sélectionnez un enregistrement de défaillance d'actif et développez le volet **Informations associées** pour afficher les informations concernant l'ordre de travail ou la demande de maintenance.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Pour configurer des modèles d'e-mail pour des modes de livraison spécifiques a
 [Créer des commandes de centre d'appels](tasks/create-call-center-orders.md)
 
 [Modifier le mode de livraison dans le PDV](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

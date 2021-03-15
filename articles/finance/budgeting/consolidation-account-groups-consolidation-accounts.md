@@ -53,3 +53,6 @@ Pour plus d’informations, voir [Créer des groupes de consolidation et comptes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

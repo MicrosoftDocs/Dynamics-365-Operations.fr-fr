@@ -253,3 +253,6 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Pour plus de détails sur le paramétrage des factures électroniques, vous pouv
 
 > [!NOTE] 
 > Bien que ces guides de tâches ont été créés pour le format de facture électronique spécifique au Danemark, *OIOUBL*, ils s’appliquent à d’autres pays/régions avec des variantes mineures.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

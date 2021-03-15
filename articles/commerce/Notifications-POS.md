@@ -76,3 +76,6 @@ Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer 
 L'illustration suivante présente les effets de la sélection de **Haut-Droite** par rapport à **Centré** dans le champ **Alignement de contenu** pour les boutons de différentes tailles.
 
 ![Contenu en direct sur les boutons du PDV](./media/ButtonsWithLiveContent.png "Contenu en direct sur les boutons du PDV")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

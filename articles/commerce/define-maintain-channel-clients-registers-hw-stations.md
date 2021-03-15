@@ -204,3 +204,6 @@ Les informations supplémentaires relatives à l’activation comprennent le tra
 ### <a name="client-data-synchronization"></a>Synchronisation des données client
 
 Toutes les modifications apportées à un client de PDV, à l’exception des modifications apportées à l’état d’activation du périphérique, doivent être synchronisées sur la base de données du canal pour être prises en compte. Pour synchroniser les modifications apportées à la base de données de canal, accédez à **Commerce et vente au détail** &gt; **Informatique Commerce et vente au détail** &gt; **Programme de distribution** et exécutez le programme de distribution requis. Pour les modifications du client, vous devez exécuter les programmes de distribution **Caisses enregistreuses** et **Configuration des canaux**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

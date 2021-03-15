@@ -59,3 +59,6 @@ Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d'affectati
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

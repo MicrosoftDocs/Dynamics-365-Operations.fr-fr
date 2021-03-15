@@ -63,3 +63,6 @@ Dans la barre des applications, un utilisateur peut sélectionner une opération
 - **Modifier** - Permet aux utilisateurs d'apporter des modifications à la commande client sélectionnée.
 
 - **Prélever** - Lance le flux de prélèvement, qui permet à l'utilisateur de choisir les produits à prélever et crée la transaction de prélèvement.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

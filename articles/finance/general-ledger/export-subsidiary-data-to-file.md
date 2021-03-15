@@ -70,3 +70,6 @@ Vous devez utiliser la page **Exporter** (**Administration du système \> Espace
 5. Sélectionnez **OK** pour lancer l'exportation.
 
 À la fin de l'exportation, vous recevez un message montrant le nombre d'enregistrements sauvegardés dans chaque fichier. Vous pouvez ensuite importer les fichiers dans l'entité juridique consolidée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

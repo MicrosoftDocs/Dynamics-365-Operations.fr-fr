@@ -64,3 +64,6 @@ Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en c
 > Bien que l'interface utilisateur soit localisée dans d'autres langues, toutes les données d'utilisateur sont stockées dans la langue dans laquelle elles ont été entrées. Vous pouvez créer des e-mails et des modèles dans d'autres langues, mais les données telles que les informations de planification sont uniquement disponibles en anglais à ce stade.
 
 Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

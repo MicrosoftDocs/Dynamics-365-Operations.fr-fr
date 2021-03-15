@@ -245,3 +245,6 @@ Vous pouvez afficher les journaux d’envoi pour tous les documents envoyés.
 - [Présentation du module complémentaire de facturation électronique](e-invoicing-service-overview.md)
 - [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md)
 - [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

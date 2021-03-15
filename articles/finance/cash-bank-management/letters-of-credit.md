@@ -52,3 +52,6 @@ Pour plus d’informations, voir les rubriques suivantes :
 [Créer un accord d’établissement bancaire pour une lettre de crédit](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

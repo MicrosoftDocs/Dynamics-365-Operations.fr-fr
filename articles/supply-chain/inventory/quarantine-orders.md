@@ -66,3 +66,6 @@ Dans le cadre du processus d'ordre de contrôle, vous pouvez mettre le stock au 
 --------
 
 [Blocage du stock](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

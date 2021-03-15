@@ -61,3 +61,6 @@ Ce guide de tâche présente un exemple de déclaration de fin à un emplacement
 18. Cliquez sur Détails du travail.
     * Lorsque l'ordre de fabrication a été déclaré comme terminé, aucune tâche de rangement n'a été générée. Cela se produit car une stratégie de travail est définie et empêche la tâche d'être générée lorsque le produit L0101 est déclaré comme terminé à l'emplacement 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

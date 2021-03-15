@@ -73,3 +73,6 @@ La commande fournisseur doit être confirmée avant que l'accusé de réception 
 6. Réduisez la section **Lignes**.
 7. Sélectionnez **OK** pour valider la réception.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

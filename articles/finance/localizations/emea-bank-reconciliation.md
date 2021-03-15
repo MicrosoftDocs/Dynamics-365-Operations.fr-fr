@@ -58,3 +58,6 @@ Outre un relevé bancaire, les banques peuvent fournir des messages spécifiques
 -   (SWE) Retour BankGirot – Format de retour des paiements fournisseur, qui correspond au format d’exportation Bankgirot
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

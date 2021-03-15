@@ -159,3 +159,6 @@ Vous pouvez fournir une description du plan pour aider les employés à choisir 
 1. Dans l'espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d'avantages**.
 
 2. Sélectionnez **Programmes de crédits flexibles**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

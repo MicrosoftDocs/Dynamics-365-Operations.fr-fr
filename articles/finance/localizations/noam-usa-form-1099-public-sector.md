@@ -58,3 +58,6 @@ Vous pouvez également utiliser la page **Règlement fournisseur pour les décla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Lorsque vous créez une configuration **Groupe d’immobilisations/modèle de va
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

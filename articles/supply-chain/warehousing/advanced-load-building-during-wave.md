@@ -249,3 +249,6 @@ Ce scénario montre comment les paramètres décrits précédemment dans cette r
 1. Dans la commande client que vous venez de créer, Dans l'organisateur **Lignes de commande client**, sélectionnez **Ajouter une ligne** pour ajouter une autre ligne.
 1. Sur la nouvelle ligne, définissez le champ **Numéro d'article** sur *M9200* et le champ **Quantité** sur *1*.
 1. Répétez les lignes 6 à 9 pour réserver la ligne et la libérer dans l'entrepôt. Comme précédemment, le système crée une **nouvelle** expédition pour la ligne que vous avez ajoutée. Cependant, comme l'article provient du groupe d'articles **CarAudio**, il **ne répond pas aux contraintes que vous avez définies pour le groupe de combinaisons de chargement**. Par conséquent, il est **ajouté à un nouveau chargement**. Si vous n'aviez pas spécifié de groupe de combinaisons de chargement sur le modèle de création de chargement, cette expédition aurait été ajoutée au premier chargement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

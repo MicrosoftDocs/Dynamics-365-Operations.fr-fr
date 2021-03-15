@@ -135,3 +135,6 @@ Les validations des numéros de série se produiront également lorsqu'un utilis
 [Opération de stock entrant dans le PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Opération de stock sortant dans le PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

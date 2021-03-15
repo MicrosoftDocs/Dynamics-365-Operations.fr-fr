@@ -67,3 +67,6 @@ Dans la capture d'écran ci-dessous, les informations concernant les postes tech
 
 ![Exemple de charge de travail mensuelle avec des postes techniques](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Cette procédure montre comment créer un registre de point de vente. La sociét
     * Le numéro TEF du TPV est utilisé pour informer le processeur de paiement du terminal de paiement qui envoie des demandes d'autorisation. Cette valeur s'appelle souvent « ID terminal » ou « TID ». On trouve généralement le terme TID sur un autocollant sur le dispositif de paiement.  
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

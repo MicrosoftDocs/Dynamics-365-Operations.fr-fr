@@ -38,3 +38,6 @@ Les dimensions financières et les comptes principaux sont des composants clés 
 - Évitez d’utiliser le séparateur de plan de comptes sélectionné dans les valeurs de dimension financière et de compte principal.
 
 Si vous suivez ces recommandations, vous vous assurez d’une représentation cohérente de l’ordre défini par l’utilisateur dans tout le système.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

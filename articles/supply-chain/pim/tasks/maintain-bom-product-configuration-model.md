@@ -57,3 +57,6 @@ L'exécution de cette procédure nécessite un modèle de configuration de produ
     * Vérifiez si des dimensions de produit sont actives ; elles doivent donc avoir une valeur ou un attribut affecté.  
 9. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

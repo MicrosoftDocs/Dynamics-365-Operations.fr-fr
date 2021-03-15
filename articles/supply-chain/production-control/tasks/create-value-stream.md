@@ -48,3 +48,6 @@ Les chaînes de valeur sont des unités opérationnelles qui regroupent un ou pl
 2. Fermez la page.
 3. Actualisez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

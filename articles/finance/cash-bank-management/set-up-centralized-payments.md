@@ -57,3 +57,6 @@ Vous pouvez définir des descriptions par défaut pour les N° document de règl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

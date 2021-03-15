@@ -43,3 +43,6 @@ Pour cette évaluation, vous pouvez utiliser l'état prêt à l'emploi **Princip
 - Espace de travail **Gestion du magasin** &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Gestion du magasin** &gt; **États** &gt; **État Principaux produits**
 - Espace de travail **Gestion des catégories et des produits** &gt; **Retail et Commerce** &gt; **Canaux** &gt; **Gestion du magasin** &gt; **États** &gt; **État des principaux produits**
 - Section **Recherches et états** &gt; **Commerce et vente au détail** &gt; **Recherches et états** &gt; **Etats des ventes** &gt; **État Principaux produits**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

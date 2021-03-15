@@ -99,3 +99,6 @@ L'illustration suivante présente un exemple de la page **Commande fournisseur**
 
 De même, pour afficher ou entrer le numéro d'activité associé à une ligne de demande d'achat d'ordre de travail, sur la page de liste **Demande d'achat d'ordre de travail**, sélectionnez l'enregistrement de la demande d'achat, puis, dans la colonne **Demande d'achat**, sélectionnez le lien vers la demande d'achat. Vous pouvez trouver le champ **Numéro d'activité** sur l'onglet **Projet** de l'organisateur **Détails de ligne**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ De plus, dans la structure de la catégorie de produits améliorée, un gestionn
 Vous pouvez utiliser la nouvelle structure améliorées pour les propriétés de produit afin de sélectionner les propriétés de produit mises à jour devant être incluses dans les produits associés. Dans la page **Hiérarchie des produits Commerce**, dans le volet Actions, sélectionnez **Catégorie**, puis **Mettre à jour les produits** pour ouvrir la boîte de dialogue **Mettre à jour les produits**.
 
 ![Boîte de dialogue Mettre à jour les produits](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

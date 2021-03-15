@@ -63,3 +63,6 @@ Le tableau suivant fournit un récapitulatif des termes avec lesquelles vous dev
 [Vue d’ensemble des modèles et dispositions](templates-layouts-overview.md)
 
 [Personnaliser la navigation dans le site](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

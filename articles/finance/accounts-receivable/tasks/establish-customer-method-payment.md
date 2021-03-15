@@ -45,3 +45,6 @@ Cette rubrique explique comment créer un mode de paiement pour les paiements cl
 15. Utilisez l’onglet **Attributs de paiement** pour indiquer les attributs de paiement que vous souhaitez utiliser pour ce mode de paiement.
 16. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

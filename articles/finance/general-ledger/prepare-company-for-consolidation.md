@@ -67,3 +67,6 @@ L'entité juridique consolidée est à présent paramétrée pour la tâche pér
 
 > [!NOTE]
 > Avant de traiter la consolidation, vous devez préparer les entités juridiques filiales à cette fin. Pour plus d'informations, voir [Paramétrer une entité juridique filiale pour la consolidation](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

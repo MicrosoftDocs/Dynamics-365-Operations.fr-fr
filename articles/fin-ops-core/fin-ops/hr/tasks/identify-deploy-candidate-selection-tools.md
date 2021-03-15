@@ -57,3 +57,6 @@ Il peut être difficile de trouver un groupe de candidats qualifiés pour pourvo
 24. Fermez la page.
 25. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

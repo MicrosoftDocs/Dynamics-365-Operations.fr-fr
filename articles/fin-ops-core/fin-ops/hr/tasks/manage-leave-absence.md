@@ -46,3 +46,6 @@ Cette procédure décrit la création des enregistrements des congés des employ
     * Par exemple : Congé pour adoption  
 12. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

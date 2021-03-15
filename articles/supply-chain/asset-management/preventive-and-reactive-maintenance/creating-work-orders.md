@@ -95,3 +95,6 @@ Pour configurer le regroupement pour les ordres de travail générés automatiqu
 1. Si vous souhaitez que les options s’appliquent lorsque vous n’exécutez que certains de vos plans de maintenance, sur l’organisateur **Enregistrements à inclure**, ajoutez des filtres selon vos besoins, comme vous pourriez le faire pour d’autres tâches de traitement par lots dans Microsoft Dynamics 365 Supply Chain Management.
 1. Sur l’organisateur **Exécuter à l’arrière-plan**, configurez les options de traitement par lots et de planification selon vos besoins, comme vous le feriez pour d’autres tâches de traitement par lots dans Supply Chain Management.
 1. Sélectionnez **OK** pour exécuter et/ou planifier les plans de maintenance sélectionnés.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Lorsque vous avez terminé la tâche de maintenance ou de réparation, vous pouv
 2. Sélectionnez l'actif ou la demande de maintenance.
 3. Sélectionnez **Livrer les actifs**.
 4. Dans le champ **Livré**, entrez de date et l'heure. Puis sélectionnez **OK**. L'enregistrement est supprimé de la page de liste **Actifs sortants**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

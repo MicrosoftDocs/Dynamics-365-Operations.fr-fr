@@ -191,3 +191,6 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

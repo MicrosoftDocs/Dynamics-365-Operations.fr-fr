@@ -57,3 +57,6 @@ Les journaux périodiques sont parfois appelés journaux récurrents car le mont
 27. Saisissez ou sélectionnez une valeur dans le champ **Numéro de journal périodique**.
 28. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 29. Cliquez sur **OK**. Le journal périodique peut désormais être révisé, approuvé ou validé selon les besoins et le paramétrage.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

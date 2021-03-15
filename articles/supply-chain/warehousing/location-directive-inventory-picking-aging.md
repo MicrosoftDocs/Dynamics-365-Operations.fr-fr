@@ -139,3 +139,6 @@ La stratégie LIFO recherche l'emplacement qui contient la date d'âge la plus r
 1. Notez que la ligne où la valeur **Type de travail** est *Prélever* présente une valeur **Emplacement** de *FL-001*. Cet emplacement contient le contenant ayant la date d'âge la plus récente (LIFO).
 
 Dans ces scénarios, vous avez vu comment la stratégie par âge d'emplacement oriente le travail vers l'emplacement de stock qui contient le stock le plus ancien ou le plus récent, selon la stratégie sélectionnée.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

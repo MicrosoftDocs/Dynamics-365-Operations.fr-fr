@@ -53,3 +53,6 @@ Après avoir importé le fichier de paiement, les lignes du journal des paiement
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

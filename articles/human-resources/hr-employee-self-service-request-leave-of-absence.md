@@ -53,3 +53,6 @@ Vous pouvez soumettre une demande de congé et voir l'état de vos demandes de c
 ## <a name="see-also"></a>Voir également :
 
 [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

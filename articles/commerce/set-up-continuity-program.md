@@ -49,3 +49,6 @@ Après avoir paramétré un programme périodique comme décrit ci-dessus, vous 
 - **Étendre les lignes périodiques** (le cas échéant) – Permet de prolonger le nombre de répétitions possibles d'un événement périodique. La récurrence des expéditions peut ensuite s'étendre au-delà de la limite qui a été définie dans le champ **Seuil de répétition de la périodicité** dans les paramètres du centre d'appels.
 - **Réaliser une mise à jour périodique** (le cas échéant) – Permet de synchroniser les modifications entre le programme périodique et des commandes client parentes périodiques.
 - **Clôturer les commandes et lignes parentes périodiques** – Permet de clôturer les commandes périodiques.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

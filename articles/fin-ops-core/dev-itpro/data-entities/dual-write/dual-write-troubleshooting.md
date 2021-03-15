@@ -122,3 +122,6 @@ Pour réactiver l’option de formulaire **Informations**, procédez comme suit�
 2. Recherchez le formulaire **Informations** sous le nœud de formulaires. 
 3. Sélectionnez le formulaire **Informations** et cliquez sur **Activer les rôles de sécurité**. 
 4. Modifiez le paramètre de sécurité sur **Afficher pour tout le monde**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

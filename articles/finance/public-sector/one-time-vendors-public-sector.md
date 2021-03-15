@@ -41,3 +41,6 @@ Pour créer plusieurs fournisseurs et factures occasionnels, commencez par crée
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ Cette procédure décrit la manière de paramétrer un nouveau processus de réa
 11. Cliquez sur **OK**.
 12. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

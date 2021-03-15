@@ -62,3 +62,6 @@ La liste des résultats de la recherche est limitée à 10 articles. Si vous ne 
 ## <a name="development"></a>Développement
 
 D’un point de vue du développement, la fonctionnalité de recherche de navigation est très accessible car il n’existe pratiquement aucun délai entre le déploiement des options de menu et leur capacité à s’afficher dans les résultats de la recherche. Tant que les options de menu sont liées au volet de navigation ou au tableau de bord, elles peuvent automatiquement faire l’objet d’une recherche.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Pour rejoindre le programme de fidélité, une page marketing peut être créée
 [Module En-tête](author-header-module.md)
 
 [Module Pied de page](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

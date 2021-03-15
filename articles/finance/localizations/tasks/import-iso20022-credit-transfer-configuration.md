@@ -44,3 +44,6 @@ Il s’agit de la première des cinq tâches illustrant le processus de paiement
     * Si le bouton Importer n’est pas disponible, cela signifie que la configuration a déjà été importée.  
 9. Cliquez sur Oui.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

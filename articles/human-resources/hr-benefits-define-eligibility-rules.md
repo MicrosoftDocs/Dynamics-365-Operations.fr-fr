@@ -67,3 +67,6 @@ Cette rubrique montre comment créer des règles et des stratégies de droit aux
 10. Sélectionnez **Enregistrer**.
 11. Permet de fermer l’écran.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

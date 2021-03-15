@@ -57,3 +57,6 @@ Cette fonction n’empêche pas la compatibilité ascendante de la structure ER.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Langage des formules ER](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

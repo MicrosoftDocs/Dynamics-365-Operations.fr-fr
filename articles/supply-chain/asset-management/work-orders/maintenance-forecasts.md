@@ -123,3 +123,6 @@ Si les coûts horaires, les coûts d'article et les dépenses sont mises à jour
 L'illustration suivante présente un exemple de la boîte de dialogue **Mettre à jour les prévisions de l'ordre de travail**.
 
 ![Figure 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

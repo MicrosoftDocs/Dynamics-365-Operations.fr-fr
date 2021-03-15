@@ -50,3 +50,6 @@ La société fictive USMF est citée en exemple dans cette tâche.
 18. Sélectionnez la devise des frais dans le champ **Devise des frais**. Il s’agit de la devise dans laquelle les frais seront créés.  
 19. Cliquez sur **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Déposez des paiements client. La société fictive USMF est citée en exemple d
 17. Cliquez sur **OK**. La première page permet de créer le bordereau de remise.  
 18. Cliquez sur **OK**. La deuxième étape consiste à imprimer le bordereau de remise, mais cette étape n’est pas nécessaire.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Cet article vous montre comment configurer les types de contacts personnels à u
    | **Âge** | Âge maximum d'un contact personnel éligible pour le plan d'avantages. Ce champ n'est actif que si vous sélectionnez une relation. Cet âge est comparé à l'âge calculé du contact personnel. L'âge calculé est le suivant : (date de couverture - date de naissance du contact personnel / 365). Ce nombre est toujours un entier. |
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

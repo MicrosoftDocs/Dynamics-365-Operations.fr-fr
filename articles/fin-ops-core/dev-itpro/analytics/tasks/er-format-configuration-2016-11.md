@@ -158,3 +158,6 @@ Cette rubrique explique comment un utilisateur ayant le rôle d’administrateur
 42. Cliquez sur **Enregistrer**.
 43. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

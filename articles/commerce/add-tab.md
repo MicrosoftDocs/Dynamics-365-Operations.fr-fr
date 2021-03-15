@@ -83,3 +83,6 @@ Pour ajouter un module d’onglet à une page et définir les propriétés requi
 [Module Accordéon](add-accordion.md)
 
 [Module de bloc de texte](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

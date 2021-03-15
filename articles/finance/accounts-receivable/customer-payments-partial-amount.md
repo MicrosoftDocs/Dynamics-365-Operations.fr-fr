@@ -59,3 +59,6 @@ Les clients peuvent effectuer un paiement partiel lorsque le montant restant n�
 
 
 Pour plus d’informations, voir [Déposer les paiements client](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

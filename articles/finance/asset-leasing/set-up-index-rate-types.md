@@ -42,3 +42,6 @@ Vous devez sélectionner soit **Différence de valeur de taux d’indexation** o
 
 - Sélectionnez la méthode **Différence de valeur de taux d’indexation** pour calculer un nouveau paiement de location, sur la base de la différence entre le taux d’indexation à la date de début et le taux d’indexation le plus récent. Le taux d’indexation est défini dans le champ **Taux d’indexation (%)**.
 - Sélectionnez la méthode **Valeur du taux d’indexation** pour calculer le paiement de location en utilisant le pourcentage spécifié dans le champ **Taux d’indexation (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

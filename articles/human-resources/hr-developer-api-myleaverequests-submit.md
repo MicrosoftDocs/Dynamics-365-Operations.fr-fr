@@ -108,3 +108,5 @@ Dans le cadre de l'appel à l'API de soumission, Human Resources effectue la val
 
 - [Vue d'ensemble de MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Authentification](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

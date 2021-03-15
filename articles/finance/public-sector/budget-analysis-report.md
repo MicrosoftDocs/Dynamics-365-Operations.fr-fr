@@ -85,3 +85,6 @@ L’état d’exploration couvre les informations suivantes :
 - Détails de débit et de crédit pour le document des chiffres réels
 - Montants positifs et négatifs du budget, de l’engagement, et du N° document d’engagement préalable
 - Solde d’ouverture, de clôture et en cours pour le compte général
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Même si la validation technique d’une application d’ERP ne peut pas être t
     - Validez uniquement après avoir filtré sur une transaction spécifique plutôt qu’une validation générique. Par exemple, pour le nombre d’enregistrements, filtrez le nombre de transactions ou la date de transaction de telle sorte que la validation exclut toutes les autres transactions. 
     - Si vous activez un solde client ou un contrôle budgétaire, enregistrez la valeur tout d’abord, puis ajoutez la valeur de votre transaction pour valider le résultat attendu au lieu de valider une valeur attendue fixe. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

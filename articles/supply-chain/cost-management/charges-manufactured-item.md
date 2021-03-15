@@ -39,3 +39,6 @@ Les frais d'un article fabriqué sont toujours inclus dans le coût unitaire à 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

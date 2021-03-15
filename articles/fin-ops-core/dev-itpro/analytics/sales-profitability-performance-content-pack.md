@@ -107,3 +107,6 @@ Les dimensions clés suivantes du cube de vente sont utilisées comme filtres po
 | dates ;            | dates ;                                                |
 
 Par défaut, le contenu affiche les données pour l’année civile en cours. Toutefois, vous pouvez modifier le filtre date dans la section de filtres d’état. Vous pouvez également modifier le filtre par société.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

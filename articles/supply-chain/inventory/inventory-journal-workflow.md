@@ -118,3 +118,6 @@ Pour consulter l’historique du workflow d’un journal :
 1. Dans le volet de navigation, développez **Gestion des stocks \> Entrées de journal \> Articles**, puis sélectionnez un type de journal de stock.
 1. Ouvrez le journal approprié.
 1. Cliquez sur le bouton **Workflow** dans le volet Actions pour ouvrir une boîte de dialogue déroulante. Sélectionnez **Historique du workflow**. Pour plus d’informations, voir [Afficher l’historique du worklow](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

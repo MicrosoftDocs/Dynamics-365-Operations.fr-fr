@@ -45,3 +45,6 @@ Si vous affectez un code commande fournisseur de confirmation à une commande fo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

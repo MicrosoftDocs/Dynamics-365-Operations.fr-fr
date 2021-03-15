@@ -45,3 +45,6 @@ Cette procédure décrit la définition des points de récompense de fidélité.
 10. Dans le champ Unité - durée avant expiration, sélectionnez une option.
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

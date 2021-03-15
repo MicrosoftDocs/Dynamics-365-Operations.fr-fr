@@ -36,3 +36,6 @@ Cette procédure décrit comment créer une option de menu d'appareil mobile pou
 5. Dans le champ Mode, sélectionnez « Indirect ».
 6. Dans le champ Code d'activité, sélectionnez « Consolider les contenants ».
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

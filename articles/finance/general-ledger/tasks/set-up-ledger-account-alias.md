@@ -40,3 +40,6 @@ Cette procédure montre comment créer un alias de compte qui fournit un raccour
 9. Dans le champ Vue initiale, sélectionnez la dimension sur laquelle sera centrée la vue quand l’alias sera utilisé.
     * Après avoir tapez le raccourci et que le compte et les dimensions sont remplis, le champ Vue initiale se trouve à l’endroit où se déplace le curseur ou la vue.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

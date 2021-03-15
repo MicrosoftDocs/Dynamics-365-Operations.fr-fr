@@ -70,3 +70,6 @@ Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.
 7. Cliquez sur Valider.
 8. Cliquez sur OK.
     * Dans le journal des fiches production, le temps passé sur les opérations individuelles est enregistré. Les quantités correctes et erronées peuvent également être déclarées.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

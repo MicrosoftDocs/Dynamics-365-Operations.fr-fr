@@ -51,3 +51,6 @@ Ce guide de tâche présente diverses méthodes utilisées pour entrer des paiem
 21. Dans le champ **Référence de paiement**, entrez une référence de paiement. La référence de paiement n’est requise que si vous choisissez d’inclure le paiement sur un bordereau de remise.  
 22. Sur le **volet Actions**, cliquez sur **Publier** pour publier les paiements client. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Cette procédure décrit la recherche d'un client, la création d'une commande, 
 
 [Modifier le mode de livraison dans le PDV](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ L'extension contient un fichier de données appelé 'RecoMockDataset.csv' qui vo
 [Créer manuellement des recommandations sélectionnées](create-editorial-recommendation-lists.md)
 
 [FAQ sur les recommandations produit](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

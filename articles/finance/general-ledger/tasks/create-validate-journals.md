@@ -42,3 +42,6 @@ Cette procédure crée et valide les journaux et les lignes de journal. Vous pou
 12. Cliquez sur **Valider**.
 13. Cliquez **N° document**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ La fonctionnalité de retenue à la source globale est améliorée pour les tran
 
 > [!NOTE]
 > La fonctionnalité de retenue à la source globale ne peut pas être activée pour les pays/régions où des solutions de retenue à la source localisées existent déjà. Ces pays comprennent, sans s'y limiter, l'Inde, le Brésil, la Thaïlande, l'Arabie saoudite, l'Irlande, la Grande-Bretagne et les États-Unis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

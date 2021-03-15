@@ -45,3 +45,6 @@ Ces scénarios courants sont disponibles aux détaillants qui utilisent Commerce
 + Récupérer les produits dans le magasin actuel ou un autre magasin.
 + Annuler une commande dans le magasin actuel ou un autre magasin.
 + Retourner une commande avec ou sans l'accusé de réception dans le magasin actuel ou un autre magasin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

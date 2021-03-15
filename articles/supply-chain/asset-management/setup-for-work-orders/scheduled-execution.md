@@ -42,3 +42,6 @@ La configuration de l'exécution planifiée, qui est associée aux ordres de tra
 6. Sélectionnez **Enregistrer**.
 
 ![Exécution planifiée](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -220,3 +220,6 @@ Les exemples suivants montrent les informations possiblement utilisées dans une
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [États financiers](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

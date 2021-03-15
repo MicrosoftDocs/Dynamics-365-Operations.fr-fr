@@ -47,3 +47,6 @@ Voici la documentation sur la rémunération :
 - Processus :
 
     - [Traiter la rémunération](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

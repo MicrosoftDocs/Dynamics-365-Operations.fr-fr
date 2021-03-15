@@ -87,3 +87,6 @@ L'image suivante montre une entité juridique ajoutée à la racine de la hiéra
 [Présentation des canaux](channels-overview.md)
 
 [Conditions préalables au paramétrage du canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

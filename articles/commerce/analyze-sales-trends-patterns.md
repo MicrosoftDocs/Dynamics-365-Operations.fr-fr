@@ -42,3 +42,6 @@ Les utilisateurs peuvent également étudier les évolutions et les modèles des
 - Espace de travail **Gestion du magasin** &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État des ventes de canal par heure**
 - Espace de travail **Finances du magasin** &gt; **Commerce et vente au détail** &gt; **Canaux** &gt; **Finances du magasin** &gt; **États** &gt; **État des ventes de canal par heure**
 - Section **Recherches et états** &gt; **Commerce et vente au détail** &gt; **Recherches et états** &gt; **États des ventes** &gt; **État des ventes de canal par heure**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

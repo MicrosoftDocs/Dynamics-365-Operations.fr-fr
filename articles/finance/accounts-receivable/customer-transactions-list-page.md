@@ -96,3 +96,6 @@ Chaque champ a un impact différent sur la transaction lorsque vous le modifiez�
 - **Modifier les conditions d’escompte de règlement** - Les escomptes de règlement sont modifiés, selon la date de référence et les conditions d’escompte de règlement.
 
 Lorsque vous avez terminé de modifier les paramètres de paiement, cliquez sur **Fermer** pour enregistrer vos modifications.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

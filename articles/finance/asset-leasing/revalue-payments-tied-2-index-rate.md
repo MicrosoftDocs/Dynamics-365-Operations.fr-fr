@@ -67,3 +67,6 @@ Pour afficher les effets du processus de réévaluation des baux sur les baux IF
 Vous pouvez afficher l’échéancier de paiement nouvellement généré qui commence à la date de réévaluation et afficher le montant total du règlement mis à jour. Un nouveau calendrier d’amortissement du passif locatif et un calendrier d’amortissement des actifs ont également été créés pour refléter l’échéancier de paiement ajusté.
 
 L’écriture de journal a automatiquement enregistré l’écriture de journal d’ajustement dans le compte pour la modification des paiements de location liée à la réévaluation de l’indice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Lorsque une commande client est validée, le montant du coût validé est de 10,
 
 > [!NOTE]
 > À des fins de comparaison, si vous activez la case à cocher **Inclure la valeur physique** pour cet article, lorsqu'une commande client est validée, le montant du coût validé sera de 12,00 EUR.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

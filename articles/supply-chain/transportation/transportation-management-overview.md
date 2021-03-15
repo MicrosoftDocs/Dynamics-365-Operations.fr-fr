@@ -86,3 +86,6 @@ Supply Chain Management fournit une stratégie de création de chargement qui es
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ L’option **Afficher les détails** est disponible de plusieurs manières :
 
 - Si un contrôle a des fonctionnalités **Afficher les détails**, et si le contrôle a une valeur, cette valeur est affichée comme lien hypertexte. Vous pouvez cliquer sur le lien hypertexte pour ouvrir une page qui contient des informations supplémentaires.
 - **Afficher les détails** est également une option des menus contextuels. Pour plus d’informations sur les affichage des menus contextuels après avoir cliqué sur le bouton droit, consultez la section précédente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

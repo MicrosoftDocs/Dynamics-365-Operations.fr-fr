@@ -66,3 +66,6 @@ Cette procédure indique comment créer une nouvelle hiérarchie de catégories 
 8. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 9. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

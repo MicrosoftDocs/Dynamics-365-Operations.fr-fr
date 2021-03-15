@@ -104,3 +104,6 @@ Selon les champs sélectionnés à inclure dans le diagramme, chaque nœud affic
 **Option supplémentaire**
 
 Dans Human Resources, vous pouvez également pouvoir utiliser l'espace de travail **Personnes** pour afficher des informations associées à la hiérarchie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

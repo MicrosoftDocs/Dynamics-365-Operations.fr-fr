@@ -182,3 +182,6 @@ Le mappage de modèle **Copie InvoiceProject** de la configuration **Mappage de 
 - [Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations ER distinctes](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays](er-country-dependent-model-mapping.md)
 - [Modifications de l’API du cadre des états électroniques](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

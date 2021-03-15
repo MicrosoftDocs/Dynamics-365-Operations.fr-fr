@@ -94,3 +94,6 @@ Un calcul de nomenclature spécifique à la commande représente une variation d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

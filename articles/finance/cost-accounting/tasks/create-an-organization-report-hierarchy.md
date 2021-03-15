@@ -94,3 +94,6 @@ Utilisez cette procédure pour créer une hiérarchie d’état pour la généra
     * Sélectionnez le membre de dimension qui correspond au nœud.  
 59. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

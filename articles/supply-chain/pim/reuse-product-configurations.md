@@ -44,3 +44,6 @@ Lorsque vous réinitialisez la réutilisation de configuration, les configuratio
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

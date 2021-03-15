@@ -150,3 +150,6 @@ En outre, les détaillants peuvent définir la limite de points de récompense d
 
     > [!NOTE]
     > Contrairement aux autres remises périodiques, telles que quantité, simple, mix and match et remises seuil, la remise d’expédition ne crée pas de lignes de remise, plutôt des mises à jour des frais d’expédition directement et ajoute le nom de la remise à la description des frais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

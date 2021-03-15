@@ -106,3 +106,6 @@ Suivez les procédures suivantes dans [Vue d’ensemble de la gestion des docume
 [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

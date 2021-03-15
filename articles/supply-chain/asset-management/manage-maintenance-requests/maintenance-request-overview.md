@@ -72,3 +72,6 @@ Les boutons du volet Actions sont organisés sur les onglets. Le tableau suivant
 | Envoyer l'actif d'emprunt                  | Sélectionnez un actif d'emprunt qui doit être le remplacement temporaire de l'actif sélectionné dans la demande de maintenance sélectionnée. |
 | Retourner un actif d'emprunt                | Enregistrer l'actif d'emprunt comme retourné. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

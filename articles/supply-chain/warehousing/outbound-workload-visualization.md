@@ -97,3 +97,6 @@ L'illustration suivante présente un exemple du graphique en résultant.
 ![Visualisation du statut de la zone et du travail](media/work-viz-chart.png "Visualisation du statut de la zone et du travail")
 
 Ce graphique montre deux zones nommées **ATELIER** et **VRAC**, plus une zone nommée **Vide**. La zone **Vide** représente toutes les lignes de travail qui ne sont membres d'aucune zone. Le graphique montre toujours toutes les données filtrées non liées comme **Vides**, pour offrir autant de visibilité que possible. Dans la zone **ATELIER**, le graphique montre trois lignes fermées et quatre lignes ouvertes. Dans la zone **VRAC**, le graphique montre quatre lignes fermées, une ligne ouverte et 24 lignes annulées. Enfin, le graphique montre huit lignes fermées qui ne font partie d'aucune zone et sont donc répertoriées comme **Vides**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

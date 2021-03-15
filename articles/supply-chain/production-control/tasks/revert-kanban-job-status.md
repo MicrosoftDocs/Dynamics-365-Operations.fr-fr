@@ -54,3 +54,6 @@ Cette procédure traite du rétablissement d'un statut de tâche de kanban incor
     * Sélectionnez la même tâche.  
     * Remarquez que le statut de la tâche de kanban est revenu à Planifiée, ce qui est signalé par une icône de kanban vide.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

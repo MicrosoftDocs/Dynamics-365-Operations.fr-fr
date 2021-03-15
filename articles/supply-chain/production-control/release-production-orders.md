@@ -63,3 +63,6 @@ Le travail pour le prélèvement des matières premières est généré lors du 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Vous pouvez effectuer une recherche dans les attributs de lot lorsque vous effec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

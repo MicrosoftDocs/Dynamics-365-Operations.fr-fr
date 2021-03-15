@@ -39,3 +39,6 @@ Pour valider une hypothèse, la réussite ou l'échec d'une expérience doit êt
 
 ## <a name="next-step"></a>Étape suivante
 [Paramétrer une expérience](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

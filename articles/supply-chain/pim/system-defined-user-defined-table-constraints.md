@@ -66,3 +66,6 @@ Avant qu'une contrainte de table puisse prendre effet dans un modèle de configu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

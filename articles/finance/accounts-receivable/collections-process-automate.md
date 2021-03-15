@@ -117,3 +117,6 @@ Les tableaux suivants répertorient les pages et les champs à partir desquels l
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Valider automatiquement les lettres de relance           |     Les types d’action de lettre de relance publieront la lettre pendant l’automatisation.                                      |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Créer des activités d’automatisation                |     Créez et fermez des activités pour les types d’action non liés à une activité pour afficher toutes les étapes automatisées effectuées sur un compte.        |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Jours pour conserver l’automatisation des processus de recouvrement     |     Définit le nombre de jours pendant lesquels l’historique des recouvrements est stocké.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

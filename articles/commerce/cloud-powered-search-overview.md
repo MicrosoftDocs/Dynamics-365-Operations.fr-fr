@@ -81,3 +81,6 @@ Le tri amélioré dans Dynamics 365 Commerce permet aux clients de trier, recher
 [Vue d'ensemble de la page d'arrivée de catégories et de la page des résultats de la recherche par défaut](category-search-page-overview.md)
 
 [Gestion des métadonnées SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

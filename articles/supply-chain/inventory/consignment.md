@@ -102,3 +102,6 @@ Si vos fournisseurs utilisent l'interface de collaboration fournisseur, ils peuv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

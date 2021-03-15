@@ -290,3 +290,6 @@ Lorsqu'une fonctionnalité de facturation électronique est dérivée d'une autr
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Émettre des factures électroniques dans Finance et Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

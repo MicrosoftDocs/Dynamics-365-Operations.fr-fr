@@ -71,3 +71,6 @@ Un modèle de plan budgétaire est créé par le responsable du budget dans Micr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

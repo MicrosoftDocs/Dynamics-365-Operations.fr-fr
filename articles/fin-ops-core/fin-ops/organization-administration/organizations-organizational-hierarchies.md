@@ -67,3 +67,6 @@ Paramétrez des hiérarchies organisationnelles pour afficher et créer des éta
 Un objet est affecté à chaque hiérarchie. L’objet d’une hiérarchie détermine les types d’organisations pouvant être inclus dans la hiérarchie. L’objet définit également dans quels scénarios d’application la hiérarchie peut être utilisée.
 
 Les organisations d’une hiérarchie peuvent partager des paramètres, des stratégies et des transactions. Une organisation peut hériter des paramètres de son organisation parent ou les remplacer. Cependant, les données principales partagées, telle que les produits et les carnets d’adresses, s’appliquent à l’ensemble de l’organisation et ne peuvent pas être remplacées pour les organisations individuelles. La création d’organisations et de hiérarchies nécessite une planification soignée. Pour plus d’informations voir [Planifier votre hiérarchie d’organisation](plan-organizational-hierarchy.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

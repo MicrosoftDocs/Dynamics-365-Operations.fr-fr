@@ -36,3 +36,6 @@ La procédure de la tâche Régler et valider la taxe permet de régler les sold
 5. Entrez une date dans le champ **Date de transaction**.
 6. Cliquez sur **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

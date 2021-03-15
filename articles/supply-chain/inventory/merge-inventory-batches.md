@@ -139,3 +139,6 @@ Vous pouvez approuver le journal de stock pour la fusion de traitements par lots
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Une fois que j'ai fusionné un article de poids variable, pourquoi est-ce que je ne peux pas afficher les informations de poids variable dans le journal de stock ?
 Vous pouvez fusionner des lots d'articles de poids variable comme tous les autres articles. Toutefois, les informations de poids variable ne sont pas affichées dans le journal de stock. Il est recommandé de vérifier les informations de poids variable avant de transférer la fusion de traitements par lots vers le journal de stock.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

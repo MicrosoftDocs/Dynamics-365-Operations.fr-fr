@@ -52,3 +52,6 @@ Les départements sont des unités opérationnelles qui représentent une zone f
 16. Tapez une valeur dans le champ Décrire les modifications.
 17. Cliquez sur Publier.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

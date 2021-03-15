@@ -157,3 +157,6 @@ Ce problème se produit lorsque la quantité de transactions de stock est spéci
 
 > [!IMPORTANT]
 > Il est vivement recommandé de modifier attentivement le script selon les besoins de votre environnement, de le tester dans un environnement de test, puis de vérifier les données résultantes avant d’exécuter le script dans un environnement de production.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

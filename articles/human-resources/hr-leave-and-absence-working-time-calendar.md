@@ -75,3 +75,6 @@ Si vous avez activé la fonction d'aperçu des corrections des jours fériés po
 
 - [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Configuration des types de congé et d'absence](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

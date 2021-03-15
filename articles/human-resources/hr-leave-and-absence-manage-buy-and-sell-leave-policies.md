@@ -80,3 +80,6 @@ Vous pouvez permettre aux employés de vendre et d’acheter des congés en cré
 [Régulariser les plans de congé et d’absence](hr-leave-and-absence-accrue.md)</br>
 [Achat et vente de congés](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

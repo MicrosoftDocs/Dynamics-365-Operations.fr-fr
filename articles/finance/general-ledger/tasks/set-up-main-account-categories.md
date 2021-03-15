@@ -41,3 +41,6 @@ Cette rubrique explique comment paramétrer les catégories de compte principale
 3. Activez ou désactivez l’option **Lié** pour choisir les comptes principaux.
 4. Cliquez sur **OK**.
 5. Cliquez sur **Oui**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

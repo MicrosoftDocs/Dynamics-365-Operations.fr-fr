@@ -64,3 +64,6 @@ Cette procédure illustre comment créer un calendrier de livraison pour une com
 22. Cliquez sur OK.
 23. Cliquez sur Oui.
 24. Fermez la page.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

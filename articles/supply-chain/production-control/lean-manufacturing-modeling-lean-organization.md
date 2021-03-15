@@ -66,3 +66,6 @@ Pour la mise en œuvre de Lean Manufacturing, nous avons choisi l'approche axée
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

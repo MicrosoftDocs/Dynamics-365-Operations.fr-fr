@@ -58,3 +58,6 @@ L'accord de service s'étend du 1er janvier 2012 au 31 décembre 2012. Deux 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

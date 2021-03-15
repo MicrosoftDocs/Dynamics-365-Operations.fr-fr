@@ -39,3 +39,6 @@ Vous pouvez paramétrer des numéros Siret pour les clients, les fournisseurs et
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

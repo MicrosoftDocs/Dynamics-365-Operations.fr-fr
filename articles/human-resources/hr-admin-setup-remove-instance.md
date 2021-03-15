@@ -85,3 +85,6 @@ Pour restaurer l’environnement :
 
 > [!Warning]
 > Les environnements Power Apps ne sont enregistrés que pendant sept jours après la suppression. Vous devez récupérer l’environnement dans le délai de sept jours.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

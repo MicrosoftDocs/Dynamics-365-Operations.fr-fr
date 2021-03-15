@@ -77,3 +77,6 @@ Lorsque les montants de rémunération ont été revus pour un employé et que l
 Une fois qu'un ou que plusieurs événements d'employé ont reçu leur statut mis à jour et approuvé, ils peuvent être chargés dans les enregistrements de rémunération fixe des employés. Cela peut se faire, soit en sélectionnant chaque événement d'employé et en cliquant sur le bouton **Charger la rémunération d'employé** dans la page **Résultats des employés**, soit en cliquant sur **Charger la rémunération** dans la page **Résultats du processus** pour charger tous les événements d'employé approuvés simultanément.
 
 Cliquer sur **OK** dans la boîte de dialogue **Charger la rémunération** permet d'ajouter des lignes d'action de rémunération autre que zéro à la page **Rémunération fixe de l'employé**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

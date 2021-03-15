@@ -100,3 +100,6 @@ Cette procédure est destinée aux comptables.
 7. Cliquez sur OK.
 8. Dans le champ Sélection, sélectionnez « Clôturé ».
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

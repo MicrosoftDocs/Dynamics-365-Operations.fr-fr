@@ -47,3 +47,6 @@ Cette rubrique répertorie les étapes de paramétrage de la retenue à la sourc
 7. Paramétrez les groupes de retenue à la source sur la page **Groupes de retenues à la source d'articles** pour un article ou un service.
 
 8. Paramétrez **Montant de facture minimal** sur la page **Paramètres de comptabilité > Retenue à la source**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

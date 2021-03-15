@@ -45,3 +45,6 @@ Une entité juridique est une organisation identifiée par son enregistrement au
 15. Développez la section **Immatriculation fiscale**. Dans la section **Immatriculation fiscale**, entrez les numéros d’enregistrement utilisés pour les déclarations aux administrations fiscales.
 16. Développez la section **Taxe sur les honoraires**. Dans la section **Taxe sur les honoraires**, entrez les informations de déclaration des honoraires associées à l’entité juridique.  
 17. Cliquez sur **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

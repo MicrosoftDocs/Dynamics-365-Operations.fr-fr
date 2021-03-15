@@ -295,3 +295,6 @@ Avant de pouvoir ranger les éléments du cluster, le cluster doit être fermé.
 ## <a name="notes-and-tips"></a>Remarques et conseils
 
 Dans les cas où l'ID de cluster devient le contenant parent d'une palette imbriquée, la position de rangement est automatiquement donnée lorsque l'ID de cluster est scanné. Aucun autre contenant ne doit être scanné, même si la génération de contenant est définie sur manuelle.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

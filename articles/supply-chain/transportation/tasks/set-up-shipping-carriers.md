@@ -72,3 +72,6 @@ Cette rubrique décrit comment paramétrer un transporteur et définir des déta
 9. Dans le champ **Moteur de temps de transit**, sélectionnez une option dans le menu déroulant.
 10. Sélectionnez **Enregistrer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

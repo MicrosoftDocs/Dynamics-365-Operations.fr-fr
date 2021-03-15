@@ -82,3 +82,6 @@ Vous pouvez également activer les champs **Date de début** et **Date de fin** 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Cette procédure décrit comment télécharger une station matérielle prédéfi
 5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
 6. Cliquez sur Télécharger.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

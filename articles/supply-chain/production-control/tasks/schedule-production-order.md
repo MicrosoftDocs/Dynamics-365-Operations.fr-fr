@@ -54,3 +54,6 @@ Cette procédure indique comment planifier un ordre de fabrication. Les données
 6. Fermez la page.
 7. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

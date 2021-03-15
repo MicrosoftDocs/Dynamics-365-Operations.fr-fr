@@ -88,3 +88,6 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous essayez d’acti
 *Échec de la double écriture - Échec de l’enregistrement du plugin : \[(Impossible d’obtenir la carte de partition pour le projet DWM - 1ae35e60-4bc2-4905-88ea-69efd3b29260 - 7f12cb89-1550-42e2-858e-4761fc1443ea. L’erreur dépasse le nombre maximal de partitions autorisé pour le mappage DWM - 1ae35e60-4bc2-4905-88ea-69efd3b29260 - 7f12cb89-1550-42e2-858e-4761fc1443ea) \], Une ou plusieurs erreurs se sont produites.*
 
 La limite actuelle lorsque vous liez les environnements est d’environ 40 tables juridiques. Cette erreur se produit si vous essayez d’activer des cartes et si plus de 40 tables juridiques sont liées entre les environnements.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

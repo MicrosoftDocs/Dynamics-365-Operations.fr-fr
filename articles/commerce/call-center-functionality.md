@@ -68,3 +68,6 @@ Cette page fournit des liens vers la documentation appropriée associée au para
 ## <a name="configure-continuity-programs"></a>Configurer les programmes de continuité
 
 [Paramétrer des programmes périodiques pour les centres d'appels](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

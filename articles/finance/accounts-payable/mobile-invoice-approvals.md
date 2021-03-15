@@ -534,3 +534,6 @@ Les modifications suivantes peuvent être effectuées pour le scénario 1, selon
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

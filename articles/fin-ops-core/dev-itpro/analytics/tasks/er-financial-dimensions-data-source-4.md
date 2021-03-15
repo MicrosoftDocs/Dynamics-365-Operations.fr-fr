@@ -49,3 +49,6 @@ Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la pro
 ![Page Configurations d’ER](../media/er-financial-dimensions-guides-run3.png)
     * Examinez la sortie générée. Pour chaque transaction du lot sélectionné, les dimensions financières de l’ensemble de dimensions correspondant sont présentées. Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l’état n’est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance.  
 ![Page Configurations d’ER](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Utilisez cette procédure pour configurer les droits d’accès d’un contrôle
     * Si vous sélectionnez Oui, un utilisateur affecté à l’un des quatre rôles suivants peut afficher les états dans l’espace de travail Contrôle des coûts : gestionnaire de contrôle de gestion, comptable, commis contrôleur de gestion et contrôleur d’objet de coût. Si vous sélectionnez Non, seul un utilisateur affecté à l’un des rôles suivants peut afficher les états : gestionnaire de contrôle de gestion, comptable et commis contrôleur de gestion.    
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

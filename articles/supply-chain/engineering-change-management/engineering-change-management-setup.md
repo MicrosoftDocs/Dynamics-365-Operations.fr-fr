@@ -90,3 +90,6 @@ Pour chaque ensemble de règles, définissez le champ suivant :
 - **Gravité** – Sélectionnez le niveau de gravité pour lequel établir des règles. Vous utilisez la page **Gravités des changements d'ingénierie** pour créer et nommer les niveaux. (Pour plus d'informations, voir la section précédente.)
 
 Utilisez les boutons du raccourci **Règles** pour ajouter ou supprimer une règle pour le paramètre de gravité actuel. Chaque règle a un champ **Règle** et un champ **Nom**. Les règles sont établies par le système et indiquent les types de modifications qu'un produit peut avoir. Le nom indique le type de modification.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

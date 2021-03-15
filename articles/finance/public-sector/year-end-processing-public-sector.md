@@ -59,3 +59,6 @@ Les définitions de validation régissent la comptabilité qui concerne les entr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -276,3 +276,6 @@ En cas de périphérique perdu ou compromis, vous devez supprimer l'accès à Su
 1. Assurez-vous que l'ID client de l'application correspond à l'ID client que vous avez noté à l'étape 2.
 1. Sélectionnez **Supprimer** dans la barre d'outils.
 1. Dans la boîte de message de confirmation qui apparaît, sélectionnez **Oui**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

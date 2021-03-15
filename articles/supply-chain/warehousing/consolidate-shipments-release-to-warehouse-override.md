@@ -83,3 +83,6 @@ Suivez ces étapes pour examiner les expéditions qui ont été créées.
 
 - [Stratégies de consolidation de l'expédition](about-shipment-consolidation-policies.md)
 - [Configurer les stratégies de consolidation de l'expédition](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

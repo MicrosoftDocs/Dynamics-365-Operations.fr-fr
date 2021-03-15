@@ -266,3 +266,6 @@ Dans le module Gestion des actifs, vous pouvez automatiquement mettre à jour le
 2. Dans la boîte de dialogue **Mettre à jour les prévisions de type de tâche de maintenance**, sous le raccourci **Enregistrements à inclure**, vous pouvez ajouter des sélections pour les types de tâches de maintenance spécifiques comme vous le souhaitez. Sélectionnez **Filtre**, puis sélectionnez **Sélection** pour effectuer les sélections.
 3. Sous le raccourci **Exécuter à l'arrière-plan**, vous pouvez configurer la mise à jour automatique comme traitement par lots comme vous le souhaitez.
 4. Cliquez sur **OK** pour démarrer la mise à jour des prévisions.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

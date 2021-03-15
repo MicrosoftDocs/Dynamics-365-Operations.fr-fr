@@ -61,3 +61,6 @@ Création et envoi de la liste des ventes intracommunautaires
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

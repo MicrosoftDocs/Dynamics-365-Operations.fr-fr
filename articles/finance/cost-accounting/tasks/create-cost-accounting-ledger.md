@@ -37,3 +37,6 @@ Une comptabilité de contrôle de gestion représente l’unité organisationnel
 8. Dans le champ Dimension statistique, entrez ou sélectionnez une valeur.
 9. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

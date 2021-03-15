@@ -134,3 +134,6 @@ L’illustration suivante montre un exemple de classements de produits dans les 
 [Gestion des évaluations et avis](manage-reviews.md)
 
 [Configuration des évaluations et avis](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

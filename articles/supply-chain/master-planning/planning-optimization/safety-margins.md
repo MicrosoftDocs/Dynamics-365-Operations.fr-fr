@@ -182,3 +182,6 @@ Par exemple, un article a un délai d’un jour et une marge de réception de tr
 [Prise en main de l’optimisation de la planification](get-started.md)
 
 [Analyse de concordance pour l’optimisation de la planification](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

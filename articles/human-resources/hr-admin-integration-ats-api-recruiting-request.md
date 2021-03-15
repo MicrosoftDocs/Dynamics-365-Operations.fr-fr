@@ -108,3 +108,6 @@ Décrit une demande de recrutement pour un emploi.
 
 [Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
 [Exemple de requête pour une demande de recrutement](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

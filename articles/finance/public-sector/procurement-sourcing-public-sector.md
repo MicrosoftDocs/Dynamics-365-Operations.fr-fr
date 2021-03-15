@@ -139,3 +139,6 @@ Pour plus d’informations, voir [Vue d’ensemble des approvisionnements](../..
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

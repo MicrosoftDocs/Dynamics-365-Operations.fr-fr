@@ -39,3 +39,6 @@ Lorsqu’une approbation ou un contrat sous forme d’une commande fournisseur n
     * Les noms de fournisseur ou les ID de taxe fédérale en double feront l’objet d’une recherche.  Important : si vous choisissez de ne pas traiter les fournisseurs en double, les factures associées ne seront pas traitées non plus. Vous pouvez créer manuellement une facture à l’aide des informations du fichier csv.    
 7. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

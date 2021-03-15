@@ -41,3 +41,6 @@ La vérification d'article pour la sélection du groupement fonctionne de la mê
 |        Option        |                                    Description                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Confirmation du produit | Permet de confirmer chaque pièce du stock de l'appareil mobile lors de la lecture. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

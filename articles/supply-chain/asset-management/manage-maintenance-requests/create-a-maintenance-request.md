@@ -73,3 +73,6 @@ Dans la vue Détails, vous pouvez mettre à jour diverses informations. Voici qu
 
 > [!NOTE]
 > Si vous sélectionnez un actif lorsque vous créez une demande de maintenance, vous pouvez ajouter un défaut à l'actif. Une fois la demande de maintenance créée, vous pouvez ajouter des défauts, comme vous le souhaitez. Pour ajouter des défauts, sélectionnez **Défaut d'actif** sur la page **Toutes les demandes de maintenance**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

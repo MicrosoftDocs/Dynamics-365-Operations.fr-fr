@@ -52,3 +52,6 @@ Utiliser les déductions dans Microsoft Dynamics 365 Human Resources pour déter
 4. Pour effectuer le suivi et conserver les modifications apportées à la configuration du taux des avantages, sélectionnez **Actions**, puis sélectionnez **Tenir les versions à jour**.
 
 5. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Après avoir défini les options de couverture, associez les options de couvertu
    | **Autoriser le montant de la couverture de l'employé** | Indique s'il faut autoriser les employés à modifier le montant de la couverture sur le libre-service des avantages lorsqu'ils sélectionnent des avantages. Si vous cochez cette case, le système calculera les paramètres du régime de prestations en fonction du montant de couverture que l'employé saisit dans le Libre-service employé. |
 
 6. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

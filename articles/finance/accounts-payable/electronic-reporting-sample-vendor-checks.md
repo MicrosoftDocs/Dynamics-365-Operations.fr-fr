@@ -43,3 +43,6 @@ Microsoft Dynamics 365 Finance inclut également un exemple de format dans leque
 - Lorsque vous générez des paiements pour le compte bancaire paramétré dans le journal des paiements, les chèques sont imprimés à l’aide du format spécifié.
 
 Pour plus d’informations, voir [Modifier un format de gestion d’états électroniques](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

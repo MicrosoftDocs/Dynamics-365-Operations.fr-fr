@@ -47,3 +47,6 @@ Cette rubrique décrit le fonctionnement des propositions de traitements par lot
 3. Sélectionnez **Lignes**.
 4. Sélectionnez **Valider**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

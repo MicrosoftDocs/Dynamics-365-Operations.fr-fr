@@ -57,3 +57,6 @@ La façon dont vous établissez votre hiérarchie des postes techniques dépend 
 La figure suivante présente un exemple des postes techniques basés sur les clients.
 
 ![Diagramme affichant des postes techniques basés sur des clients](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

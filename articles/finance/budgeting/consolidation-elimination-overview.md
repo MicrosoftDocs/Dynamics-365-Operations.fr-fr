@@ -93,3 +93,6 @@ Vous ne pourrez pas traiter ou compléter vos budgets dans la société de conso
 Pour plus d’informations, voir [Réévaluation de devise dans une société de consolidation](../general-ledger/currency-revaluation-consolidation-company.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

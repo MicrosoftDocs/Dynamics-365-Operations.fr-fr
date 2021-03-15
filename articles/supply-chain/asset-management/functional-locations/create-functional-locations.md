@@ -131,3 +131,6 @@ Un poste technique avec des sous-emplacements associés peut être supprimé si 
 
 >[!NOTE]
 >Si vous ne pouvez pas supprimer un poste technique, à la place vous pouvez gérer la suppression en paramétrant un état du cycle de vie de poste technique à cet effet. Par exemple, vous pouvez paramétrer le stade « Mis au rebut « ou « Supprimé », qui ne doit pas être un stade actif, dans l'écran **États du cycle de vie du poste technique**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Le résultat est une commande planifiée de 25 pcs (= 25 pcs &minus; 0 pcs) pour
 [Afficher l'historique du plan et les journaux de planification](plan-history-logs.md)
 
 [Annuler une tâche de planification](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

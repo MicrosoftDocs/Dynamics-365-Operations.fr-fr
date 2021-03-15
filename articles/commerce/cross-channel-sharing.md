@@ -136,3 +136,6 @@ Désormais, si vous utilisez l'URL de base du canal et accédez à l'URL de la p
 [États et cycle de vie des documents](document-states-overview.md)
 
 [Utilisation de groupes de publication](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

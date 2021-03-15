@@ -83,3 +83,6 @@ Pour résoudre le problème d'un nombre exponentiel de combinaisons qui doivent 
 ![Formule de calcul de la valeur marginale](./media/overlapping-discount-combo-06.jpg)
 
 Après calcul de la valeur marginale de chaque remise sur un ensemble de produits partagés, les réductions s'appliquent aux produits partagés dans l'ordre, de manière exhaustive, de la valeur marginale la plus élevée à la valeur marginale la plus faible. Pour cette méthode, toutes les possibilités restantes de remise ne sont pas comparées à chaque fois qu'une seule instance d'une remise est appliquée. Au lieu de cela, les remises se chevauchant sont comparées une fois et ensuite appliquées dans l'ordre. Aucune comparaison supplémentaire n'est effectuée. Vous pouvez configurer le seuil pour basculer vers la méthode de valeur marginale dans l'onglet **Remise** de la page **Paramètres de commerce**. La durée acceptable pour calculer la remise totale varie entre différents secteurs au détail. Toutefois, la durée correspondante est en général une plage comprise entre des dizaines de millisecondes et une seconde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

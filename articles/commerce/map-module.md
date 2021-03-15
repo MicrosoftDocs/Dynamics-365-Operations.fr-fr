@@ -81,3 +81,6 @@ Pour des informations détaillées sur la configuration d’un module Carte sur 
 [Gérer Bing Cartes pour votre organisation](./dev-itpro/manage-bing-maps.md)
 
 [Contrôle web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Vous pouvez consulter le total de la facture sur la page **Factures fournisseur 
 - [Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un journal d’approbation](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Indexer les données de facturation dans la comptabilité fournisseur à l’aide d’un registre de factures](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Enregistrer une facture fournisseur dans le journal des factures](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

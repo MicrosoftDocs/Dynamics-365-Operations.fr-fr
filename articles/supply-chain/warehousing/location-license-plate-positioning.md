@@ -280,3 +280,6 @@ Maintenant que la fonctionnalité *Positionnement des contenants dans un emplace
     ![Emplacement en position 1](media/LocationLicensePlatePositioning.png "Emplacement en position 1")
 
 1. Entrez l'ID de contenant que vous avez créé pour l'emplacement, puis suivez les invites pour sélectionner la commande client.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

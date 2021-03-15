@@ -328,3 +328,6 @@ La valeur **Délai des tentatives d'optimisation** contrôle le nombre maximal d
 
 > [!NOTE]
 > Les valeurs définies pour les délais seront appliquées à la fois pour la planification des ordres de fabrication lancés et des ordres planifiés dans le cadre de la MRP. Par conséquent, la définition de valeurs très élevées peut augmenter considérablement la durée d'exécution de la MRP lors de l'exécution d'un planification comportant de nombreux ordres de fabrication planifiés.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

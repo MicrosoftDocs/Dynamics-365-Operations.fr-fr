@@ -54,3 +54,6 @@ Cette procédure décrit comment créer un attribut de lot, affecter des plages 
 22. Cliquez sur Enregistrer.
 23. Fermez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

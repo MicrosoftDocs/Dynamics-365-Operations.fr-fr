@@ -101,3 +101,6 @@ Les modèles d’enregistrement vous aident à créer des enregistrements plus r
 - [Configurer la gestion des documents](configure-document-management.md)
 - [Configuration et envoi d’e-mail](configure-email.md)
 - [Données de date/d’heure et fuseaux horaires](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

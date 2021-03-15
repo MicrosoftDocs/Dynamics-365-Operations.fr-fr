@@ -110,3 +110,6 @@ Le coût horaire corrigé et le temps de tâche sont validés dans le journal de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

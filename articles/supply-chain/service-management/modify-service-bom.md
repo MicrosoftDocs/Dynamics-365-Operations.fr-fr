@@ -71,3 +71,6 @@ Vous pouvez enregistrer l'historique d'un élément dans une nomenclature des se
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

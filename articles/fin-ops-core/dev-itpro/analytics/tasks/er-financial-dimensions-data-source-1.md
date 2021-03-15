@@ -108,3 +108,6 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 
 ![Page du concepteur des modèles de gestion des états électroniques](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

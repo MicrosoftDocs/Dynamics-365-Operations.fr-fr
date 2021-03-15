@@ -43,3 +43,6 @@ Un contrôleur de coûts peut utiliser cette procédure pour mettre en correspon
     * Pour cet exemple, sélectionnez le membre de dimension 6001004 Telefono.  
 11. Cliquez sur Enregistrer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

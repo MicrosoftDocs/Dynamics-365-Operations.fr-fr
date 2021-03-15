@@ -61,3 +61,6 @@ Si un actif a des sous-actifs associés, vous pouvez le supprimer uniquement si 
 
 > [!NOTE]
 > Si vous ne pouvez pas supprimer un actif à l'aide de cette procédure, vous pouvez également paramétrer un état du cycle de vie de l'actif à cet effet. Par exemple, vous pouvez paramétrer un état du cycle de vie **Mis au rebut** ou **Supprimé** sur la page **États du cycle de vie de l'actif**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

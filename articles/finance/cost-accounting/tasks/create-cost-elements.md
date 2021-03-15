@@ -57,3 +57,6 @@ Il existe plusieurs façons de créer des éléments de coût dans le contrôle 
 1. Cliquez sur Afficher les membres de la dimension.
     * Affichez les comptes généraux importés en tant qu’éléments de coût de votre entreprise vers lesquels les coûts peuvent se diriger.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

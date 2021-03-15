@@ -65,3 +65,6 @@ Chaque méthode de réapprovisionnement se voit attribuer un des codes de couver
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d'ensemble des plans généraux](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

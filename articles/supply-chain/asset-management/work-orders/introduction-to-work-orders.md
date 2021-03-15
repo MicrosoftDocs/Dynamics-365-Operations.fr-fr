@@ -118,3 +118,6 @@ Les boutons du groupe **Projet** de l'onglet **Ordre de travail** du volet Actio
 >[!NOTE]
 >Pour inclure les prévisions créées sur un ordre de travail lors de l'exécution du calcul PDP/MRP, utilisez le modèle de prévision sélectionné sur la page écran **Paramètres de gestion des actifs**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

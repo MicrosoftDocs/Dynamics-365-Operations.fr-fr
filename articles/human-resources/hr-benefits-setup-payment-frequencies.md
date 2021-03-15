@@ -56,3 +56,6 @@ Les champs des facteurs de conversion identifient le facteur de conversion de la
    | **Facteur de conversion horaire** | Facteur de conversion annuel pour la fréquence de rémunération. Par exemple, le facteur de conversion annuel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 2 080 heures) = 0,005769
 
 4. Sélectionnez **Enregistrer**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

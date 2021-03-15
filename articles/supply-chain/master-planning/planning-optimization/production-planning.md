@@ -83,3 +83,6 @@ Pour les scénarios de planification incluant la production, nous vous recommand
 Bien que les articles enfants dépendants soient automatiquement détectés et inclus dans les exécutions de la planification générale lorsque le moteur de planification générale intégré est utilisé, l'optimisation de la planification n'exécute pas cette action.
 
 Par exemple, si un seul boulon de la structure de nomenclature du produit A est également utilisé pour produire le produit B, tous les produits de la structure de nomenclature des produits A et B doivent être inclus dans le filtre. Comme il peut être très complexe de s'assurer que tous les produits font partie du filtre, nous vous recommandons d'éviter les exécutions filtrées de la planification générale lorsque des ordres de fabrication sont impliqués.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

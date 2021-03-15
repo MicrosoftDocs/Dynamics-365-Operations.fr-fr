@@ -77,3 +77,6 @@ Les boutons du volet Actions sont organisés sur les onglets. Le tableau suivant
 | Pièces détachées          | Affichage de la liste des pièces détachées approuvées et de remplacement qui peuvent être utilisées sur l'actif.                                                                               |
 | Consommation des actifs    | Impression d'un état relatif aux enregistrements de consommation des actifs.                                                                                                |
 | Défaillance des actifs          | Impression d'un état relatif aux enregistrements de défaillances des actifs.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

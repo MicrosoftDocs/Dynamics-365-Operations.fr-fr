@@ -147,3 +147,6 @@ Les pages à paramétrer supplémentaires sont organisés selon leur fonction.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

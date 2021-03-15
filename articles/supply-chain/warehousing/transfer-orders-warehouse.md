@@ -52,3 +52,6 @@ Vous devez également paramétrer le délai de transport entre les entrepôts su
 2. Dans le champ **Point de réception**, sélectionnez **Entrepôt**.
 3. Sélectionnez **Entrepôt d'expédition**, **Entrepôt de réception** et **Jours de transport**. 
 4. (En option) Vous pouvez également définir la durée de transport, en fonction du mode de livraison, sous l'onglet **Jours de transport par mode de livraison**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

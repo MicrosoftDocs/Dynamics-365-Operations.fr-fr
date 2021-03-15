@@ -66,3 +66,6 @@ Chacune des tables Dataverse standard est étendue avec des références à la c
 8. Après avoir développé **Devis**, appliquez un filtre avec `CUSTGROUP != "<company>"` comme chaîne de requête.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Modifier la boîte de dialogue pour l’en-tête de devis client CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

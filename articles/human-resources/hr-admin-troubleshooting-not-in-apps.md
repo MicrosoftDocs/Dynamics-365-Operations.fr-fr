@@ -55,3 +55,6 @@ L'utilisateur doit être ajouté au rôle Créateur d'environnement pour l'envir
     ![Bouton Synchroniser](media/get-more.png)
 
     Une fois la synchronisation terminée, Human Resources apparaît sur la page d'accueil.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

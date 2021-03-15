@@ -43,3 +43,6 @@ Suivez ces étapes pour affecter les utilisateurs aux rôles utilisés dans la l
 1. Allez dans **Administration du système \> Sécurité \> Affecter des utilisateurs aux rôles**.
 2. Sélectionnez le rôle **Maintenir le bail**, **Commis de location**, ou **Voir le bail**, puis sélectionnez **Attribuer/exclure manuellement des utilisateurs**.
 3. Sélectionnez l’utilisateur à attribuer au rôle, puis sélectionnez **Attribuer au rôle**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

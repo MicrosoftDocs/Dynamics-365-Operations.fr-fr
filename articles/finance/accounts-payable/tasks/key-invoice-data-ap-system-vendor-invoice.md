@@ -72,3 +72,6 @@ Ce guide de tâche vous aidera à créer une facture fournisseur à partir d’u
 19. Cliquez sur **Valider**.
 20. Permet de fermer l’écran. Notez que la commande fournisseur n’est plus répertoriée comme étant reçue mais non facturée.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

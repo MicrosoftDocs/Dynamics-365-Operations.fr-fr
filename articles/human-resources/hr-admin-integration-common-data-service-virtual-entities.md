@@ -221,3 +221,6 @@ Le volet coulissant affiche les résultats d'exécution les plus récents du pro
 [Créer et modifier des tables virtuelles qui contiennent des données provenant d'une source de données externe](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Que sont les portails Power Apps ?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Présentation de la création d'applications dans Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

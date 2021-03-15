@@ -72,3 +72,6 @@ Si vous importez plusieurs types d'actifs simultanément (par exemple, des image
 [Personnaliser les points focaux de l’image](dam-custom-focal-point.md)
 
 [Charger et diffuser des fichiers statiques](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Dans Microsoft Dynamics 365 Human Resources, vous pouvez configurer des vignette
    | **Terminer** | Date et heure de fin auxquelles la vignette doit être disponible. |
 
 4. Sélectionnez **Enregistrer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

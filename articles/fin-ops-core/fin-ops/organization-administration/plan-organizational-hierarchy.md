@@ -241,3 +241,6 @@ Les pratiques suivantes sont recommandées lorsque vous implémentez une hiérar
 - Avant de modéliser des scénarios de restructuration majeurs, utilisez les dates d’effet de la hiérarchie pour réaliser une analyse des impacts et un test de contrôle.
 - Utilisez le mode brouillon pour modifier une hiérarchie avant de publier une nouvelle version dans un environnement de production.
 - Limitez le nombre d’utilisateurs disposant d’autorisations pour ajouter ou supprimer des organisations d’une hiérarchie dans un environnement de production. Ce nombre réduit permet d’éviter les erreurs coûteuses et la nécessité d’effectuer des corrections.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

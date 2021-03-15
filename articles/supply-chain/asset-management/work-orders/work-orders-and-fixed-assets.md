@@ -64,3 +64,6 @@ La procédure suivante décrit la relation entre les actifs, les bons de travail
 
 7. Pour afficher une vue d'ensemble des projets associés à une immobilisation, sélectionnez **Immobilisations** > **Immobilisations** > **Immobilisations**, puis, dans le champ **Numéro d'immobilisation**, sélectionnez le lien pour l'immobilisation pour ouvrir la vue détaillée. Développez le volet **Informations associées** à droite de la page, puis sélectionnez l'organisateur **Projets associés**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ L'ordre d'affichage pour la hiérarchie de navigation du canal apparaît dans le
 
 > [!NOTE]
 > Par défaut, la fonctionnalité d'ordre de tri personnalisé est désactivée. Pour savoir comment activer cette fonctionnalité et les autres, consultez [Gestion des fonctionnalités](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

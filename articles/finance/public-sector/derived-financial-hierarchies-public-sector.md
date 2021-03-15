@@ -49,3 +49,6 @@ Une organisation a un programme de bien-être des employés et un programme de f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Lorsque vous paramétrez un stade de service, vous pouvez créer des options mul
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

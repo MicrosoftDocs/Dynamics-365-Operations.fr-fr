@@ -82,3 +82,6 @@ Les masques de codes-barres doivent être affectés à des codes-barres pour pou
 5. Cliquez sur **Enregistrer**.
 
 Le masque de code-barres peut à présent être utilisé pour créer des codes-barres pour des produits. Les étapes ci-dessus sont des exemples de création de masques de codes-barres pour des produits, mais elles illustrent également comment créer des masques de codes-barres pour tous les autres types de codes-barres pris en charge. Les masques, les types et la longueur de codes-barres doivent être ajustés à l'utilisation dans votre environnement spécifique.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

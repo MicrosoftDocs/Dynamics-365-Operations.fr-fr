@@ -115,3 +115,6 @@ Sous cet organisateur, vous pouvez ajouter ou supprimer les visites de maintenan
 ## <a name="financial-dimensions"></a>Dimensions financières
 
 Vous pouvez sélectionner des dimensions financières pour l'actif.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

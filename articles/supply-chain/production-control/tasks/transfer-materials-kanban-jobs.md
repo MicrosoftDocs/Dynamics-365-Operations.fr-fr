@@ -65,3 +65,6 @@ Cette procédure traite de l'exécution d'une tâche de kanban de prélèvement 
 2. Cliquez sur Terminé.
     * Le transfert des deux tâches est alors terminé.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

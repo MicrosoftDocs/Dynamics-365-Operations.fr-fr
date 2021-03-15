@@ -66,3 +66,6 @@ Activer le suivi des modifications pour les projets d'entité de données
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projets (Supply Chain Management vers Field Service) : Projets
 
 [![Mise en correspondance de modèles dans l'intégration de données](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Cette rubrique décrit le processus de création d'une demande. Elle vous indiqu
 6. Fermez la page.
 7. Actualisez la page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

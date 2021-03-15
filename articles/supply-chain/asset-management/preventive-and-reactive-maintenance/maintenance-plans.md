@@ -238,3 +238,6 @@ Vous pouvez configurer le système pour réinitialiser automatiquement un compte
 1. Accédez à **Gestion des actifs \> Paramétrage \> Ordres de travail \> États du cycle de vie**.
 1. Dans le volet de liste, sélectionnez l'état du cycle de vie de l'ordre de travail sur lequel le compteur pertinent doit être réinitialisé.
 1. Dans le raccourci **Général**, définissez l'option **Réinitialiser le compteur** sur *Oui*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

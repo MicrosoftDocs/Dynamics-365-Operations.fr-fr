@@ -53,3 +53,6 @@ Une relance d’importation permet de garantir que le vendeur est payé lorsque 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

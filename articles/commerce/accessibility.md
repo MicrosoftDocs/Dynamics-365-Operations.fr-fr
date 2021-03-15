@@ -113,3 +113,6 @@ Pour définir l'attribut **Âge minimal** pour un actif vidéo, procédez comme 
 [Ajouter une page de stratégie de confidentialité](add-privacy-page.md)
 
 [Remplacer les ID utilisateur associés aux modifications de contenu suivies](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

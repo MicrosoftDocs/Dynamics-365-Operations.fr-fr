@@ -101,3 +101,6 @@ L'état **Relevé d'analyse d'écart** vous permet d'analyser l'écart de réév
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

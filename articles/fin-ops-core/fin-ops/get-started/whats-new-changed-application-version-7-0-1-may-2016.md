@@ -106,3 +106,6 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 [Page d’accueil Nouveautés ou modifications dans Finance and Operations](whats-new-changed.md)
 
 [Guides de tâches nouveaux ou mis à jour (mai 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

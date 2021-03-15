@@ -46,3 +46,6 @@ Outre le fait de voir l'heure de début et le statut des tâches, vous pouvez af
 [Appliquer les filtres à un plan](plan-filters.md)
 
 [Annuler une tâche de planification](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

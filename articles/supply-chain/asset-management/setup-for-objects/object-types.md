@@ -96,3 +96,6 @@ Dans la page **Pièces détachées**, vous pouvez également créer des pièces 
 
 Pour voir si la pièce détachée sur la ligne sélectionnée est utilisée ailleurs dans le module Gestion des actifs (par exemple, pour les actifs et les ordres de travail), sélectionnez **Cas d'emploi d'article** pour ouvrir la page **Cas d'emploi d'article**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -579,3 +579,6 @@ Le tableau suivant présente la liste des configurations de gestion des états �
 |                             | Bon de livraison de commande client (LT) (Excel)           |
 |                             | Bon de livraison de commande client (PL) (Excel)           |
 |                             | Bon de livraison de commande client (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

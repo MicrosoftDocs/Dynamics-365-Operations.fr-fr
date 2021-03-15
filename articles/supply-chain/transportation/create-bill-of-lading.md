@@ -42,3 +42,6 @@ S'il existe plusieurs expéditions dans un chargement, vous pouvez créer une fe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

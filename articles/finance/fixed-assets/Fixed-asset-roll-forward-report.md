@@ -66,3 +66,6 @@ Le tableau suivant décrit les champs disponibles dans l’état.
 |           Cessions : valeur de mise au rebut            |                                                                                               Valeur de mise au rebut pour le registre des immobilisations avec une cession (transaction de mise au rebut).                                                                                               |
 |           Cessions : résultat            |                                                                                 Valeur du résultat qui est calculée dans le cadre de la transaction de cession pour le registre des immobilisations.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

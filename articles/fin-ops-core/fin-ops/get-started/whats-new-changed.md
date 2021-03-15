@@ -50,3 +50,6 @@ Pour afficher les nouveautés ou les modifications dans Lifecycle Services, cons
 - [Nouveautés ou modifications dans Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

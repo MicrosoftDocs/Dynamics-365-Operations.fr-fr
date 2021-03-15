@@ -63,3 +63,6 @@ La société fictive utilisée pour créer cet enregistrement est USRT. Cet enre
 5. Cliquez sur Exporter.
 6. Cliquez sur PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

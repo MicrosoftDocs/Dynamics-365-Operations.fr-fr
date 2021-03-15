@@ -57,3 +57,6 @@ Lorsque vous générez l’état, les champs par défaut suivants sont disponibl
 Pour afficher uniquement les comptes hors taxe sur l’état, paramétrez une condition de filtre, comme un astérisque (\*), comme le montre l’illustration suivante.
 
 ![État affichant des comptes hors taxe](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

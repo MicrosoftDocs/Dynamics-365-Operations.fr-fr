@@ -82,3 +82,6 @@ Cette tâche se concentre sur le paramétrage nécessaire pour créer une règle
     * Notez le kanban créé pour fournir M0001 pour l'ordre de fabrication estimé.  
     * Il s'agit de la dernière étape.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Supply Chain Management ne prend actuellement pas en charge le calcul des commis
 L'élément d'offre groupée n'est pas disponible pour la commande fournisseur car, si vous examinez les lignes de commande client pour l'élément d'offre groupée, vous remarquerez que la quantité est *0* (zéro) et l'état est *Annulé*. Ce comportement est fait exprès. La commande client n'achète que les composants de l'élément d'offre groupée. Elle n'achète pas l'élément d'offre groupée lui-même.
 
 Si vous devez acheter une offre groupée, déterminez si vous devez la marquer comme élément d'offre groupée, car cette fonctionnalité est conçue pour les scénarios de constatation du produit. Pour plus d'informations sur les éléments d'offre groupée, voir [Offres groupées](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Le tableau suivant indique les visualisations qui sont disponibles sur chaque pa
 |    Solde fournisseur et client     |                                                                                                                   <ul><li>Solde fournisseur et client</li><li>Solde fournisseur et client par société</li><li>Détails du solde fournisseur et client</li></ul>                                                                                                                    |
 |    Factures avec mise en attente du paiement     |                                                                                         <ul><li>Factures avec mise en attente du paiement</li><li>Détails des factures avec mise en attente du paiement</li><li>Factures avec mise en attente du paiement par société</li><li>Factures avec mise en attente du paiement par groupe de fournisseurs</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

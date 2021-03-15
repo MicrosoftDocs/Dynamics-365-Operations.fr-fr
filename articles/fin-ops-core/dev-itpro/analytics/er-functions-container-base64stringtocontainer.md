@@ -80,3 +80,6 @@ Dans cet exemple, la source de données **\#MediaAsBase64String** code le conten
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fonctions Conteneur](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Pour exécuter la version brouillon du format modifiable, vous devez le rendre [
 
 - [Créer une configuration de gestion des états électroniques pour générer des états au format Word](../er-design-configuration-word.md)
 - [Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

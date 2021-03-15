@@ -121,3 +121,6 @@ Une fois l'outil de création chargé, vous pouvez sélectionner **Accueil** pou
 [Considérations relatives à l'optimisation de moteur de recherche (SEO) pour le site](search-engine-optimization-considerations.md)
 
 [Gérer la stratégie de sécurité de contenu (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

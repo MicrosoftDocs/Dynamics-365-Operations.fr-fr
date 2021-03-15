@@ -208,3 +208,6 @@ Dans la consolidation dans le module Comptabilité, une nouvelle option a été 
 -  Vous pouvez désormais utiliser la devise comptable ou la devise de déclaration de la société source comme devise de transaction dans la société de consolidation.
 
 - Les montants de la devise comptable ou de la devise de déclaration de la société source sont copiés directement dans les montants de devise de déclaration et de comptabilité, si l’une ou l’autre est identique. Les montants de la devise comptable ou de la devise de déclaration dans la société de consolidation sont calculés à l’aide du taux de change si aucune des devises n’est identique.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -138,3 +138,6 @@ Le montant de l’escompte de règlement est réduit de 10,50 à 10,00. Le paiem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

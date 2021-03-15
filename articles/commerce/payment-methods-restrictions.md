@@ -60,3 +60,6 @@ Lorsque **Limitation des remboursements sans réception** est défini sur **Acti
 
 Si une transaction a à la fois un retour avec reçu et un retour sans reçu, les conditions de restriction ne seront pas appliquées, car la transaction est un workflow de retour avec reçu. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

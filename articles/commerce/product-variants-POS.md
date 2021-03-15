@@ -114,3 +114,6 @@ Le tableau suivant fournit d'autres informations sur les actions supplémentaire
 | Disponibilité         | Affichez des informations DAV pour la combinaison de variables sélectionnée pour l'emplacement sélectionné. |
 | Afficher tous les emplacements   | Passez à la vue de recherche de stock standard, et mettez en surbrillance les informations de stock disponible pour la variante d'article dans tous les magasins du groupe de localisateurs de magasin, ainsi que dans les centres de distribution de type **Standard/Par défaut**. |
 | Afficher les détails du produit | Redirigez l'utilisateur vers la page **Détails du produit** du produit générique associé. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

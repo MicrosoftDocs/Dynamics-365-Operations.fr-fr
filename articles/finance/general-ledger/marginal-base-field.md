@@ -185,3 +185,6 @@ Pour plus d’informations, voir [Options de calcul de montant total et d’inte
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

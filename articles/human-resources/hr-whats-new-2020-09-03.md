@@ -120,3 +120,6 @@ Les codes de motif de gestion des avantages seront bientôt combinés aux codes 
 [Présentation de la 2e partie du lancement 2019 de Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

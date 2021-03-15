@@ -87,3 +87,6 @@ Si le contenu de marketing est unique à un produit spécifique, un module de ma
 [Vue d'ensemble des pages de gestion des comptes](quick-tour-account-management.md)
 
 [Enrichir une page de détails sur un produit](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Par exemple, une commande client comporte deux articles : un pour la livraison 
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Le statut de lancement s'applique uniquement aux lignes de commande où les articles sont activés pour la gestion de l'entrepôt. Par conséquent, le statut du lancement *Lancé partiellement* dans ce scénario. Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité. Une extension peut être ajoutée dans le cadre du bon de livraison et du processus de facturation pour mettre à jour le statut du lancement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

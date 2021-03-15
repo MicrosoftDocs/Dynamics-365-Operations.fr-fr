@@ -65,3 +65,6 @@ Une fois le rognage personnalisé terminé, les modifications d'image prendront 
 [Personnaliser les points focaux de l’image](dam-custom-focal-point.md)
 
 [Charger et diffuser des fichiers statiques](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

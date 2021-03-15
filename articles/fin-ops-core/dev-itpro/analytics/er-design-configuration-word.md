@@ -72,3 +72,6 @@ Lorsque vous exécutez le format pour la gestion des états électroniques confi
 
 - [Réutiliser les configurations pour la gestion des états électroniques avec des modèles Excel pour générer des rapports au format Word](./tasks/er-design-configuration-word-2016-11.md)
 - [Intégrer des images et des formes dans les documents que vous générez ER à l’aide de la gestion des états électroniques (ER)](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

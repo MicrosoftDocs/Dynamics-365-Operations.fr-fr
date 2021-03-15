@@ -58,3 +58,6 @@ Vous pouvez également afficher la date de début et de fin de l'enregistrement 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

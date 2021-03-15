@@ -55,3 +55,6 @@ Cette rubrique explique comment ajouter des dimensions financières à l’espac
 16. Générez votre projet, puis ouvrez l’application pour afficher les résultats.
 
     [![Espace de travail terminé](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

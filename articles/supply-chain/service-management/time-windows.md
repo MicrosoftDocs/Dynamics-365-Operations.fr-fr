@@ -44,3 +44,6 @@ Si vous n'indiquez aucune fenêtre Délai pour une ligne d'accord de service, la
 
 [Création de fenêtres Délai](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

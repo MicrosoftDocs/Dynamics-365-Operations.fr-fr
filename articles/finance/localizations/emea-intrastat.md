@@ -239,3 +239,6 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -161,3 +161,6 @@ Avant le début de l'étape de couverture, il existe une étape de pré-couvertu
 - **Une routine lourde à la fois** – N'exécutez pas la planification simultanément avec aucune autre routine lourde.
 - **Examiner le journal des sessions**.
 - **Filtrage des articles** – Utilisez l'état de cycle de vie pour exclure des articles de l'exécution de la planification. (N'utilisez pas les numéros d'article.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

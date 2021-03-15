@@ -152,3 +152,6 @@ Suivez ces étapes pour ajouter des lignes qui représentent la limite de crédi
 2. Sélectionnez l’opérateur de comparaison qui définit la manière dont les informations du groupe de notation doivent être évaluées.
 3. Entrez la valeur qui doit être comparée à la valeur spécifiée pour le groupe de notation.
 4. Saisissez la limite de crédit à attribuer si les informations client correspondent à la valeur spécifiée pour le groupe de notation. Par exemple, vous créez une limite de crédit automatique pour le groupe de notation **Faible**. Si les années d’activité font partie des groupes de notation, vous pouvez définir une ligne qui affecte une limite de 100 000 crédits si le client est en activité depuis cinq ans et une autre ligne qui affecte une limite de 200 000 crédits si le client est en activité depuis 10 ans.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

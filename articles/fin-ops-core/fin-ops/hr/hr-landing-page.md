@@ -93,3 +93,6 @@ Vous pouvez concevoir et administrer des questionnaires afin de recueillir des i
 - [Créer des questionnaires](../../../talent/design-questionnaires.md)
 - [Distribuer et programmer des questionnaires](../../../talent/distribute-questionnaires.md)
 - [Afficher et évaluer les résultats des questionnaires](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

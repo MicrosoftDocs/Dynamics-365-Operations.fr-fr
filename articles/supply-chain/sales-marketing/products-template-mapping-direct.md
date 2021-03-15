@@ -123,3 +123,6 @@ L'illustration suivante présente un exemple de modèle de mise en correspondanc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

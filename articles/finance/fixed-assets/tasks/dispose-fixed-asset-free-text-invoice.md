@@ -40,3 +40,6 @@ Cette rubrique explique comment céder une immobilisation à l’aide de la fact
 10. Entrez ou sélectionnez une valeur dans le champ **Immobilisation**.
 11. Sélectionnez **Valider**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

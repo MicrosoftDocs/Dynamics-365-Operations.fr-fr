@@ -59,3 +59,6 @@ Les lignes de modèle de service sont maintenant copiées dans la nouvelle comma
 [Modèles de service](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

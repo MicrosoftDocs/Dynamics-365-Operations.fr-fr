@@ -53,3 +53,6 @@ Cette rubrique explique comment paramétrer les garanties sur les actifs et les 
 
 > [!NOTE]
 > Lorsque vous créez un ordre de travail pour un actif couvert par une garantie fournisseur, si l'ordre de travail a une date de début prévue pendant la période de garantie, vous recevez une notification concernant le contrat de garantie. Vous pouvez ensuite annuler l'ordre de travail, si vous le souhaitez.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

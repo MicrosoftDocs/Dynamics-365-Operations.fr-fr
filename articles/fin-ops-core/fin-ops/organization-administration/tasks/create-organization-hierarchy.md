@@ -48,3 +48,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
     - Ajoutez des organisations, le cas échéant.  
     - Pour ajouter une organisation, cliquez sur **Modifier**, puis **Insérer** pour ajouter l’organisation. Lorsque vous avez apporté les modifications, vous pouvez **enregistrer** un brouillon et/ou **publier** les modifications.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

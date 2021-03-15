@@ -275,3 +275,6 @@ Dans ce scénario, le prélèvement de groupement est terminé et l’utilisateu
     Vous recevez un message « Groupement terminé ».
 
 Vous pouvez maintenant utiliser l’élément de menu **Prélèvement des ventes** pour prélever la quantité restante. Vous pouvez ensuite utiliser l’élément de menu **Chargement des ventes** pour déplacer les éléments de l’emplacement de préparation vers le quai de chargement.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ La principe d'effacement de fin indique que le matériel est automatiquement con
 
 ### <a name="available-at-location"></a>Disponible à l'emplacement
 Le principe d'effacement sur site disponible indique que les matières sont automatiquement consommées lorsqu'elles sont enregistrées comme prélevées pour la production. Les matières sont enregistrées comme prélevées de l'emplacement lorsque le prélèvement de matières premières est terminé, ou lorsque la matière est disponible à l'emplacement d'entrée en production et que la ligne de matière est lancée à l'entrepôt. Les prélèvements générés lors du processus sont validés dans un traitement par lots. Ce principe est utile si, par exemple, vous avez plusieurs activités de prélèvement pour un ordre de fabrication. Dans ce cas, vous ne devez pas mettre les prélèvements à jour manuellement, et vous pouvez obtenir une vue actuelle du solde des travaux en cours.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

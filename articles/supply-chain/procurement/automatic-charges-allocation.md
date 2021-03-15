@@ -176,3 +176,6 @@ La procédure suivante montre comment répartir des frais au niveau de l'en-têt
         > Lorsque vous utilisez la grille **Choisir les lignes à exclure de la répartition**, veillez à laisser la grille ouverte jusqu'à ce que vous sélectionniez **Répartir**. Si vous fermez la grille avant de sélectionner **Répartir**, vos paramètres dans la grille seront perdus. Par conséquent, les frais seront répartis en fonction des critères que vous aviez définis précédemment.
 
 1. Sélectionnez **Répartir** pour appliquer vos paramètres et fermer la boîte de dialogue.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Lorsque vous créez les entrées de journal des dotations aux amortissements par
 Le montant final de la dotation aux amortissements peut être calculé en utilisant un taux de change légèrement différent, de sorte que le droit d’utilisation de l’actif est entièrement amorti à la fois dans la devise comptable et dans la devise de déclaration.
 
 Si le bail a été reclassé en **Loyer différé**, le système efface automatiquement les taux de change des devises de comptabilité et de déclaration, s’ils ont déjà été définis.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

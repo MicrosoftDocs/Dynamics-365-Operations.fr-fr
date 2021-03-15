@@ -52,3 +52,6 @@ Cette procédure permet d'indiquer comment définir une configuration pour un pr
     * Entrez une description de la configuration pour expliquer ce qu'elle contient.  
 11. Cliquez sur OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

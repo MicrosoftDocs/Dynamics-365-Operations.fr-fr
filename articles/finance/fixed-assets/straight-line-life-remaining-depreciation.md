@@ -79,3 +79,6 @@ Le montant d’amortissement est le même chaque année : (Coût d’acquisition
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

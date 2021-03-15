@@ -92,3 +92,6 @@ Pour ajouter une nouvelle page de site à votre site, procédez comme suit.
 [Vérifier l’accessibilité du contenu de la page](verify-accessibility.md)
 
 [Créer des pages e-commerce dynamiques basées sur des paramètres d'URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 7. Entrez une date dans le champ Date de début.
 8. Entrez une date dans le champ Date de fin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

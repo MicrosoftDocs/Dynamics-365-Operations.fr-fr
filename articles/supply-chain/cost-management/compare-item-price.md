@@ -120,3 +120,6 @@ L’exemple suivant montre comment exporter un rapport **Comparer le stockage du
 1. La page **Résumé de l’exécution** s’ouvre pour vous permettre d’afficher le statut de votre tâche d’exportation et la liste des entités exportées. Sélectionnez l’entité **Comparer le prix des articles** répertoriée dans la zone **Statut de traitement de l’entité**, puis sélectionnez **Télécharger le fichier** pour télécharger les données exportées depuis cette entité.
 
 Pour plus d’informations sur l’utilisation de la gestion des données pour exporter des données, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
