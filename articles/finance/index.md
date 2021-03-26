@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 592808651037cb68c26d4c32307c8162efebc125
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975424"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218881"
 ---
 # <a name="finance-home-page"></a>Page d’accueil Finance
 
@@ -35,7 +35,7 @@ Sélectionnez une zone de fonctionnalités pour en savoir plus.
     :::column:::
         - [Comptabilité fournisseur](accounts-payable/accounts-payable.md) 
         - [Comptabilité client](accounts-receivable/accounts-receivable.md)
-        - [Budget](budgeting/budgeting-overview.md) 
+        - [Budgétisation](budgeting/budgeting-overview.md) 
         - [Gestion de la trésorerie et de la banque](cash-bank-management/cash-bank-management.md)
         - [Contrôle de gestion](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
