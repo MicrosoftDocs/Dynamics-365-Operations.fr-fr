@@ -16,22 +16,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: ccddb00ecb797c8f084778270d7cf70426ffaeb0
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: c1ba1541a05e5cf2874813efa8b6500bdf8adb49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129225"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242011"
 ---
-# <a name="welcome-to-dynamics-365-talent"></a><span data-ttu-id="17ca6-104">Bienvenue dans Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="17ca6-104">Welcome to Dynamics 365 Talent</span></span>
+# <a name="welcome-to-dynamics-365-talent"></a><span data-ttu-id="f43b8-104">Bienvenue dans Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="f43b8-104">Welcome to Dynamics 365 Talent</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="17ca6-105">Talent comprend l’application Attract, qui peut vous aider à identifier, interviewer et embaucher les candidats dotés des compétences requises.</span><span class="sxs-lookup"><span data-stu-id="17ca6-105">Talent includes Attract, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="17ca6-106">Lorsque vous passez du recrutement à l’embauche, l’application Onboard peut vous aider à intégrer vos nouveaux employés dans votre organisation en définissant des attentes précises, en leur fournissant les informations dont ils ont besoin pour démarrer, en les mettant en relation avec les collègues et en leur donnant les moyens de s’acquitter de leur nouveau rôle avec succès.</span><span class="sxs-lookup"><span data-stu-id="17ca6-106">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
+<span data-ttu-id="f43b8-105">Talent comprend l’application Attract, qui peut vous aider à identifier, interviewer et embaucher les candidats dotés des compétences requises.</span><span class="sxs-lookup"><span data-stu-id="f43b8-105">Talent includes Attract, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="f43b8-106">Lorsque vous passez du recrutement à l’embauche, l’application Onboard peut vous aider à intégrer vos nouveaux employés dans votre organisation en définissant des attentes précises, en leur fournissant les informations dont ils ont besoin pour démarrer, en les mettant en relation avec les collègues et en leur donnant les moyens de s’acquitter de leur nouveau rôle avec succès.</span><span class="sxs-lookup"><span data-stu-id="f43b8-106">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
 
-- [<span data-ttu-id="17ca6-107">Fonctionnalités de Microsoft Dynamics 365 Talent - Attract</span><span class="sxs-lookup"><span data-stu-id="17ca6-107">Microsoft Dynamics 365 Talent - Attract features and capabilities</span></span>](attract-overview.md)
-- [<span data-ttu-id="17ca6-108">Prise en main de Onboard</span><span class="sxs-lookup"><span data-stu-id="17ca6-108">Get started with Onboard</span></span>](create-onboarding-experience.md)
+- [<span data-ttu-id="f43b8-107">Fonctionnalités de Microsoft Dynamics 365 Talent - Attract</span><span class="sxs-lookup"><span data-stu-id="f43b8-107">Microsoft Dynamics 365 Talent - Attract features and capabilities</span></span>](attract-overview.md)
+- [<span data-ttu-id="f43b8-108">Prise en main de Onboard</span><span class="sxs-lookup"><span data-stu-id="f43b8-108">Get started with Onboard</span></span>](create-onboarding-experience.md)
 
 > [!IMPORTANT]
-> <span data-ttu-id="17ca6-109">La fonctionnalité dans Dynamics 365 Talent: Core HR fait maintenant partie de Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="17ca6-109">The functionality in Dynamics 365 Talent: Core HR is now part of Dynamics 365 Human Resources.</span></span> <span data-ttu-id="17ca6-110">Vous pouvez consulter la documentation de Human Resources dans [Bienvenue dans Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span><span class="sxs-lookup"><span data-stu-id="17ca6-110">You can view the documentation for Human Resources at [Welcome to Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span></span>
+> <span data-ttu-id="f43b8-109">La fonctionnalité dans Dynamics 365 Talent: Core HR fait maintenant partie de Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="f43b8-109">The functionality in Dynamics 365 Talent: Core HR is now part of Dynamics 365 Human Resources.</span></span> <span data-ttu-id="f43b8-110">Vous pouvez consulter la documentation de Human Resources dans [Bienvenue dans Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span><span class="sxs-lookup"><span data-stu-id="f43b8-110">You can view the documentation for Human Resources at [Welcome to Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,16 +70,20 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Nouveautés ou modifications dans Finance
                   items:
-                    - name: Nouveautés ou modifications dans la page d’accueil Finance
+                    - name: Page d’accueil des nouveautés ou modifications dans Finance
                       href: get-started/whats-new-home-page.md
-                    - name: "Finance\_10.0.17 (mars\_2021)"
+                    - name: "Finance\_10.0.18 (mai\_2021)"
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: "Finance\_10.0.17 (avril\_2021)"
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: "Finance\_10.0.16 (février\_2021)"
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (janvier 2021)
+                    - name: "Finance\_10.0.15 (janvier\_2021)"
                       href: get-started/whats-new-changed-10-0-15.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
+                - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: Fonctionnalités supprimées ou obsolètes dans Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Fonctionnalités supprimées ou obsolètes dans les versions précédentes
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Traiter les lettres de relance
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Traiter les exemples de lettres de relance
+              href: accounts-receivable/process-collection-letters-example.md
             - name: Paramétrer et générer des informations sur la plage âgée de la comptabilité client
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Balance âgée des clients
@@ -486,7 +492,9 @@
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
             - name: Numérotation chronologique des documents et des justificatifs
               href: accounts-receivable/chrono-numbers.md
-        - name: Budget
+            - name: Archiver les factures client imprimées avec des numéros de hachage
+              href: accounts-receivable/archive-printed-invoices.md
+        - name: Budgétisation
           items:
             - name: Page d’accueil de la fonctionnalité de budgétisation
               href: budgeting/budgeting-overview.md
@@ -668,7 +676,7 @@
               href: cost-accounting/tasks/configure-cost-control-workspace-parameters.md
             - name: Comprendre la sécurité des listes d’accès et RLS dans Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/finance/toc.json
-            - name: Utiliser le pack de contenu pour la génération d’états Microsoft Power BI
+            - name: Utiliser le pack de contenus pour les rapports Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/finance/toc.json
             - name: Utiliser l’espace de travail de contrôle des coûts pour l’application mobile
               href: cost-accounting/cost-controlling-mobile-workspace.md
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Restreindre la modification des répartitions comptables dans les factures
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: Planification pour les fournisseurs occasionnels (Secteur public)
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: Contrôler l’accès aux contrats d’achat dans le secteur public
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: Prise en main du module complémentaire de facturation électronique pour le Brésil
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Factures électroniques client en Égypte
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: Prise en main du module complémentaire de facturation électronique pour l’Egypte
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: Prise en main du module complémentaire de facturation électronique pour l’Italie
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: Prise en main du module complémentaire de facturation électronique pour le Mexique
@@ -1580,6 +1590,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Configurer les paramètres NF-e pour un établissement fiscal
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT2020.006 - Plateforme numérique de vente intermédiaire pour NF-e
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 - Avantages fiscaux et règles d’exonérations pour NF-e/NFC-e
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: Configurer la disposition des factures pour l’Égypte
                   href: localizations/emea-egy-invoice-layout.md
+                - name: Factures électroniques client en Égypte
+                  href: localizations/emea-egy-e-invoices.md
             - name: Estonie
               items:
                 - name: Vue d’ensemble de l’Estonie
@@ -2008,12 +2022,14 @@
                   items:
                     - name: Vue d’ensemble de fichier d’audit pour l’Allemagne
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Personnaliser la configuration du fichier d’audit
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Générer un fichier d’audit
-                      href: localizations/tasks/german-audit-file.md
                     - name: Importer la configuration du fichier d’audit
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: Générer un fichier d’audit
+                      href: localizations/tasks/german-audit-file.md
+                    - name: Personnaliser la configuration du fichier d’audit
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: Ajouter des filtres à la configuration d’un fichier d’audit
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Ajustements d’amortissement pour les acquisitions supplémentaires au cours de la deuxième année
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Transmission électronique de la déclaration de TVA (ELSTER)
@@ -2306,7 +2322,7 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: État de liste noire
                   href: localizations/emea-ita-black-list-report.md
-                - name: Date de compétence
+                - name: Date de compétence et journal fiscal
                   href: localizations/emea-ita-competence-date.md
                 - name: Amortissement des immobilisations
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Performances financières
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Informations financières
+                - name: Analyse financière
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: Gestion des immobilisations
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: Réutiliser les configurations des états électroniques avec des modèles Excel pour générer des rapports au format Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Supprimer les contrôles de contenu Word dans les rapports générés
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: Concevoir des configurations pour renseigner des modèles PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Inclure des images et des formes
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Partager des configurations dans le GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Interrompre les configurations dans le référentiel global RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Guides de démarrage rapide
               items:
                 - name: Ajuster un format d’état électronique pour générer un document électronique personnalisé
