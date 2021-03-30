@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5594b81d09eade263487244a14c0305d589ff94e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 91614cda804cae4574fce4c9cfb31c63d876f19b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009997"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238628"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identifier une hypothèse et déterminer les métriques de réussite pour une expérience
 La première phase du cycle de vie de l'expérimentation comprend l'identification de l'hypothèse de l'expérience et la détermination des métriques que vous suivrez pour évaluer la réussite. Le diagramme suivant montre toutes les étapes impliquées dans [la configuration et l'exécution d'une expérience](experimentation-overview.md) sur un site web d'e-commerce dans Dynamics 365 Commerce. Les étapes supplémentaires sont traitées dans d'autres rubriques. 

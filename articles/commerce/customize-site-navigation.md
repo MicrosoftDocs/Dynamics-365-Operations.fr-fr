@@ -1,6 +1,6 @@
 ---
 title: Personnaliser la navigation dans le site
-description: Cette rubrique décrit la procédure de création d'une hiérarchie de navigation en ligne personnalisée pour organiser vos produits à parcourir sur votre site Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit la procédure de création d’une hiérarchie de navigation en ligne personnalisée pour organiser vos produits à parcourir sur votre site Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
 ms.date: 09/15/2020
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d45f116acc19130e09108a246d276bb4b62a1e6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cfd0a9559eb2b596adb822b228929e6855711bb4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972905"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222607"
 ---
 # <a name="customize-site-navigation"></a>Personnaliser la navigation dans le site
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure de création d'une hiérarchie de navigation en ligne personnalisée pour organiser vos produits à parcourir sur votre site Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit la procédure de création d’une hiérarchie de navigation en ligne personnalisée pour organiser vos produits à parcourir sur votre site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Les vitrines en ligne permettent généralement aux clients de découvrir et parcourir des produits en navigant dans les catégories de produits. Cette fonctionnalité est généralement fournie par des onglets en haut de la page ou une barre de navigation à gauche. Dans Dynamics 365 Commerce, vous pouvez créer et gérer la structure hiérarchique de votre navigation par catégorie et les produits inclus dans les différentes catégories.
 

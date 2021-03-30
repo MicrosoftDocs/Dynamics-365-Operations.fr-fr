@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 03fe3d7fb64b2e9d0a06dc56654933f0c672782a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018866"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225743"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Profils de certificat définis par l’utilisateur pour les magasins de vente au détail
 
@@ -30,7 +30,7 @@ ms.locfileid: "5018866"
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Cette rubrique fournit une vue d'ensemble des profils de certificat disponibles dans Microsoft Dynamics 365 Commerce. Cette fonctionnalité étend la fonctionnalité [Gérer les secrets pour les canaux Retail](../dev-itpro/manage-secrets.md) en ajoutant la prise en charge des certificats locaux.
+Cette rubrique fournit une vue d’ensemble des profils de certificat disponibles dans Microsoft Dynamics 365 Commerce. Cette fonctionnalité étend la fonctionnalité [Gérer les secrets pour les canaux Retail](../dev-itpro/manage-secrets.md) en ajoutant la prise en charge des certificats locaux.
 
 Pendant que le point de vente (PDV) fonctionne en mode hors ligne, il ne peut pas accéder aux certificats stockés dans le coffre de clés. Le certificat local doit être utilisé à la place. Les capacités suivantes sont prises en charge :
 

@@ -1,6 +1,6 @@
 ---
-title: Présentation de la bibliothèque de modules
-description: Cette rubrique présente une vue d'ensemble de la bibliothèque de modules Microsoft Dynamics 365 Commerce.
+title: Vue d’ensemble de la bibliothèque de modules
+description: Cette rubrique présente une vue d’ensemble de la bibliothèque de modules Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b3440c046ff055c8afa012c80c56aba741fef27
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fcb0c2317315308de51d8247d23a930f10c3de6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234291"
 ---
-# <a name="module-library-overview"></a>Présentation de la bibliothèque de modules
+# <a name="module-library-overview"></a>Vue d’ensemble de la bibliothèque de modules
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique présente une vue d'ensemble de la bibliothèque de modules Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
+Cette rubrique présente une vue d’ensemble de la bibliothèque de modules Microsoft Dynamics 365 Commerce.
 
 La bibliothèque de modules Dynamics 365 Commerce est une collection de modules qui peuvent être utilisés pour créer un site Web de commerce électronique. Les modules ont des aspects de l'interface utilisateur et des aspects de comportement fonctionnel.
 
