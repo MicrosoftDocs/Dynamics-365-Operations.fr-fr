@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4c34aca043f10fef38f186800c429cac36c41ce7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207845"
 ---
 # <a name="create-a-variant-group"></a>Créer un groupe de variantes
 
@@ -31,7 +31,7 @@ ms.locfileid: "4965149"
 
 Cette rubrique décrit comment créer un groupe de variantes de taille, de style ou de couleur pour un produit dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce prend en charge plusieurs variantes pour les produits. Il est idéal de configurer des groupes de variantes pour différentes catégories de produits. Par exemple, un groupe de tailles peut être créé pour les t-shirts de tailles XS, S, M, L et XL, ou un groupe de couleurs peut être créé pour inclure toutes les couleurs disponibles d'un produit. Les groupes de variantes doivent être ajoutés avant l'ajout de produits.
 

@@ -1,6 +1,6 @@
 ---
 title: Module Paiement
-description: Cette rubrique couvre le modules Paiement et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique couvre le module Paiement et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 11/18/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 85b5d8306eb4e9f2a4b9df13d95ab88020c3591e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d9c0956e30d413f5ae695cf75b06fb58711b2944
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222488"
 ---
 # <a name="payment-module"></a>Module Paiement
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre le modules Paiement et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
+Cette rubrique couvre le module Paiement et explique comment le configurer dans Microsoft Dynamics 365 Commerce.
 
 Le module Paiement permet aux clients de payer leurs commandes en utilisant des cartes de crédit ou de débit. L’intégration du paiement pour ce module est fournie par le connecteur de paiement Dynamics 365 pour Adyen. Pour plus d’informations sur le paramétrage et la configuration du connecteur de paiement, voir [Connecteur de paiement Dynamics 365 pour Adyen](dev-itpro/adyen-connector.md).  
 

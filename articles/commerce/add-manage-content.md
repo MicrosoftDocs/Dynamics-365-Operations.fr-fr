@@ -1,6 +1,6 @@
 ---
 title: Manières d'ajouter du contenu
-description: Cette rubrique fournit une vue d'ensemble et sélectionne des liens indiquant où et comment commencer à gérer le contenu à l'aide de l'ensemble d'outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
+description: Cette rubrique fournit une vue d’ensemble et sélectionne des liens indiquant où et comment commencer à gérer le contenu à l’aide de l’ensemble d’outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 10/09/2020
@@ -16,20 +16,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d818ab91af7b1a74b580e145e4b602cca0ea1662
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980255"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208061"
 ---
-# <a name="ways-to-add-content"></a>Manières d'ajouter du contenu
+# <a name="ways-to-add-content"></a>Manières d’ajouter du contenu
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble et établit des liens vers la documentation concernant la manière de gérer le contenu à l'aide de l'ensemble d'outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
+Cette rubrique fournit une vue d’ensemble et établit des liens vers la documentation concernant la manière de gérer le contenu à l’aide de l’ensemble d’outils de création web du générateur de sites Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Il existe de nombreuses façons de modifier l'aspect et le contenu du site. Selon le niveau de personnalisation requis, bon nombre de ces modifications peuvent être mises en œuvre par des non-développeurs dans le générateur de site, l'ensemble d'outils de création web inclu avec Dynamics 365 Commerce. Le générateur de site vous permet de créer des modèles, de sélectionner des thèmes ainsi que de choisir et de configurer des modules sans écrire de code. En revanche, des qualifications en développement sont requises pour créer un thème ou module, car le kit de développement logiciel (SDK) de commerce électronique et le workflow de déploiement de Microsoft Dynamics Lifecycle Services doivent être utilisés.
 

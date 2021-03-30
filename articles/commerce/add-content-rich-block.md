@@ -1,6 +1,6 @@
 ---
 title: Module de bloc de texte
-description: Cette rubrique couvre les modules de bloc de texte et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique couvre les modules de bloc de texte et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cad6a26ea1858d6afac33ef8eab10e16b404035b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3926f23e4e762a49ef94ef0c8f3291e7e9a4a6a2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206389"
 ---
 # <a name="text-block-module"></a>Module de bloc de texte
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de bloc de texte et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique couvre les modules de bloc de texte et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Un module de bloc de texte est un module utilisé pour ajouter du contenu textuel. Ce contenu peut être informationnel ou promotionnel.
 

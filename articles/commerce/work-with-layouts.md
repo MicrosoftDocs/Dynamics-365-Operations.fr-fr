@@ -1,6 +1,6 @@
 ---
-title: Utilisation des mises en page prédéfinies
-description: Cette rubrique décrit l'utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
+title: Utilisation des dispositions prédéfinies
+description: Cette rubrique décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 04/14/2020
@@ -16,21 +16,21 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 57dc0de64ce7536cf70c1f277d5212c3b8dd7480
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a2539880e76ffb1861e0d18227a935a2ef35c120
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009591"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210873"
 ---
-# <a name="work-with-preset-layouts"></a>Utilisation des mises en page prédéfinies
+# <a name="work-with-preset-layouts"></a>Utilisation des dispositions prédéfinies
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit l'utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit l’utilisation des dispositions prédéfinies dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Avant d'exécuter les procédures décrites dans cette rubrique, assurez-vous de lire [Dispositions prédéfinies et personnalisées](templates-layouts-overview.md#preset-and-custom-layouts). Pour obtenir une vue d'ensemble générale, voir [Vue d'ensemble des modèles et dispositions](templates-layouts-overview.md).
 

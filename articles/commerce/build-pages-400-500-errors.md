@@ -1,6 +1,6 @@
 ---
 title: Établir des pages personnalisées de réponse pour les erreurs de code statut 4xx/5xx
-description: Cette rubrique décrit la procédure d'établir les pages de réponse personnalisées pour les erreurs de code statut 4xx et 5xx à l'aide des outils de création dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit la procédure de création de pages de réponse personnalisées pour les erreurs de code statut 4xx et 5xx à l’aide des outils de création dans Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 04/14/2020
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d21ce20b2c7ac8c656a718749dabd76f33893da8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee2f74581ded6020d075377f931c465d7c89f9e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991463"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211103"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Établir des pages personnalisées de réponse pour les erreurs de code statut 4xx/5xx
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure d'établir les pages de réponse personnalisées pour les erreurs de code statut 4xx et 5xx à l'aide des outils de création dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit la procédure de création de pages de réponse personnalisées pour les erreurs de code statut 4xx et 5xx à l’aide des outils de création dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Si une demande échoue, le serveur publie des réponses d'erreur du code statut HTTP. Le code statut 404 est capturé et renvoyé si une page est introuvable, et le code statut 500 est capturé et renvoyé si une erreur de serveur est produit. Dans Dynamics 365 Commerce, les utilisateurs de l'application peuvent générer les pages de réponse d'erreur du code statut personnalisées affichées aux utilisateurs pour ces réponses d'erreur du code statut.
 

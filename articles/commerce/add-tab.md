@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42c3cd99897627dbcdbdec91cfdb03d5743f7388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8375c33bd6ffd3004cfc9d7b686d9a0edc77cdef
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209225"
 ---
-# <a name="tab-module"></a>Module d’onglet
+# <a name="tab-module"></a>Module Onglet
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules d’onglet et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules d’onglets sont des modules de type conteneur utilisés pour organiser les informations d’une page de site dans des onglets. Ils peuvent être utilisés sur n’importe quelle page où les informations doivent être présentées dans des onglets.
 

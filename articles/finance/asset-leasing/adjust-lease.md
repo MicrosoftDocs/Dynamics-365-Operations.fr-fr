@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219985"
 ---
 # <a name="adjust-leases"></a>Ajuster les baux
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La rubrique explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent. La location d’actifs est conforme aux directives fournies par l’article 842 sur la codification des normes comptables (ASC 842) et la norme internationale en matière de génération des états financiers 16 (IFRS 16) concernant les modifications des baux. ASC 842-20-15-1 définit une modification de bail comme toute modification des termes et conditions d’un contrat qui entraîne une modification de la portée ou de la prise en compte d’un bail. Le paragraphe 39 d’IFRS 16 indique qu’un locataire doit réévaluer le passif locatif afin qu’il reflète les modifications des paiements de location.
 

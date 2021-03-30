@@ -1,6 +1,6 @@
 ---
-title: Créer des pages d'e-commerce dynamiques basées sur des paramètres d'URL
-description: Cette rubrique décrit comment configurer une page d'e-commerce Microsoft Dynamics 365 Commerce pouvant diffuser du contenu dynamique, en fonction des paramètres d'URL.
+title: Créer des pages e-commerce dynamiques basées sur des paramètres d’URL
+description: Cette rubrique décrit comment configurer une page d’e-commerce Microsoft Dynamics 365 Commerce pouvant diffuser du contenu dynamique, en fonction des paramètres d’URL.
 author: StuHarg
 manager: AnnBe
 ms.date: 01/28/2021
@@ -17,19 +17,19 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098625"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208013"
 ---
-# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Créer des pages d'e-commerce dynamiques basées sur des paramètres d'URL
+# <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Créer des pages e-commerce dynamiques basées sur des paramètres d’URL
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Cette rubrique décrit comment configurer une page d'e-commerce Microsoft Dynamics 365 Commerce pouvant diffuser du contenu dynamique, en fonction des paramètres d'URL.
+Cette rubrique décrit comment configurer une page d’e-commerce Microsoft Dynamics 365 Commerce pouvant diffuser du contenu dynamique, en fonction des paramètres d’URL.
 
 Une page d'e-commerce peut être configurée pour diffuser un contenu différent, en fonction d'un segment dans le chemin de l'URL. Par conséquent, la page est appelée page dynamique. Le segment est utilisé comme paramètre pour récupérer le contenu de la page. Par exemple, une page nommée **blog\_observateur** est créée et associée à l'URL `https://fabrikam.com/blog`. Cette page peut ensuite être utilisée pour afficher un contenu différent, en fonction du dernier segment du chemin de l'URL. Par exemple, le dernier segment de l'URL `https://fabrikam.com/blog/article-1` est **article-1**.
 

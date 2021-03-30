@@ -1,6 +1,6 @@
 ---
 title: Créer un hiérarchie de produit
-description: Cette rubrique décrit comment créer une hiérarchie de produit dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment créer une hiérarchie de produit dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 540a4a9c48ed958abb56a393e99b8060e1b7aa8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207869"
 ---
-# <a name="create-a-new-product-hierarchy"></a>Créer un hiérarchie de produit
+# <a name="create-a-new-product-hierarchy"></a>Créer une hiérarchie de produits
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer une hiérarchie de produit dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit comment créer une hiérarchie de produit dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce prend en charge plusieurs canaux de vente au détail. Ces canaux de vente au détail comprennent les magasins en ligne, les centres d'appels et les magasins de vente au détail (également appelés magasins traditionnels). Chaque canal de magasin de vente au détail peut proposer son propre mode de paiement, ses propres groupes de prix, ses propres caisses enregistreuses de PDV, ses propres comptes de revenus et de dépenses et son propre personnel. Vous devez paramétrer tous ces éléments avant de pouvoir créer un canal de magasin de vente au détail. 
 

@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f98fbc14fc2946499a9c003eb0bd0edb7f2017e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214721"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Traitement des remboursements dans les centres d'appels
 
 Cette rubrique explique comment les remboursements sont effectués via les centres d'appels en cas de retour ou d'annulation de commandes ou de lignes de commande.
 
-Un utilisateur qui crée un ordre de retour pour un client en tant qu'utilisateur du centre d'appels dans Microsoft Dynamics 365 Commerce Headquarters doit utiliser la page **Ordre de retour** pour créer l'autorisation initiale de retour marchandises (RMA). La RMA définit les produits que le client souhaite retourner ou échanger, et permet de créer un retour de la commande client ayant un type de commande de **Commande retournée**. Ce retour de commande est utilisé pour suivre l'enregistrement du retour d'inventaire et les notes de crédit ou remboursements de paiement qui sont enregistrés.
+Un utilisateur qui crée un ordre de retour pour un client en tant qu’utilisateur du centre d’appels dans Microsoft Dynamics 365 Commerce Headquarters doit utiliser la page **Ordre de retour** pour créer l’autorisation initiale de retour marchandises (RMA). La RMA définit les produits que le client souhaite retourner ou échanger, et permet de créer un retour de la commande client ayant un type de commande de **Commande retournée**. Ce retour de commande est utilisé pour suivre l'enregistrement du retour d'inventaire et les notes de crédit ou remboursements de paiement qui sont enregistrés.
 
 Si l'option **Activer l'achèvement de la commande** est définie sur **Oui** pour le canal du centre d'appels, l'utilisateur du centre d'appels qui crée le RMA doit exécuter le flux de traitement de fin de commande en sélectionnant **Terminer** sur la page **Ordre de retour**. La fonction **Terminer** fournit un récapitulatif de retour calculé qui décrit le montant du remboursement dû. De plus, lorsqu'elle est correctement configurée, elle crée systématiquement une ligne de remboursement en échange du retour de commande.
 

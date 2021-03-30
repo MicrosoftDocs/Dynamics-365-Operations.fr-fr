@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216673"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Contrôle sanitaire des périphériques et services de PDV
 
@@ -34,7 +34,7 @@ Cette rubrique décrit le contrôle d'intégrité dans le point de vente (PDV).
 
 Les magasins de détail peuvent être des environnements complexes où de nombreuses applications et appareils sont utilisés. Au fur et à mesure que les opérations se développent, il peut devenir difficile de garantir le bon déroulement des opérations, en raison de dépendances, par exemple, de périphériques qui peuvent tomber en panne ou se débrancher accidentellement au cours d'une journée. La résolution des problèmes liés aux appareils et services peut être coûteuse pour les grands commerçants et tout aussi frustrant pour les petites opérations.
 
-Les version 10.0.10 et ultérieures de Microsoft Dynamics 365 Commerce incluent un contrôle d'intégrité qui peut aider à éviter une partie de ce coût et de la frustration. Cette opération fournit une méthode pour tester les périphériques directement à partir du point de vente en dehors des opérations normales. Par conséquent, il peut aider les détaillants à détecter les problèmes avant qu'ils ne surviennent.
+Les version 10.0.10 et ultérieures de Microsoft Dynamics 365 Commerce incluent un contrôle d’intégrité qui peut aider à éviter une partie de ce coût et de la frustration. Cette opération fournit une méthode pour tester les périphériques directement à partir du point de vente en dehors des opérations normales. Par conséquent, il peut aider les détaillants à détecter les problèmes avant qu'ils ne surviennent.
 
 ## <a name="key-terms"></a>Termes clés
 

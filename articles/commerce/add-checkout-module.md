@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980504"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206461"
 ---
 # <a name="checkout-module"></a>Module Paiement
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment ajouter un module de caisse à une nouvelle page et définir les propriétés requises.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Module de validation est un conteneur spécial qui héberge tous les modules requis pour créer une commande. Il présente un flux pas-à-pas qu’un client utilise pour entrer toutes les informations appropriées pour faire un achat. Il capture l’adresse d’expédition, la méthode d’expédition et les informations de facturation. Il fournit également un résumé de commande et d’autres informations liées à une commande client.
 

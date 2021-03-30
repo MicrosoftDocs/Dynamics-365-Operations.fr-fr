@@ -1,6 +1,6 @@
 ---
 title: Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
-description: Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'évaluation de Microsoft Dynamics 365 Commerce.
+description: Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 07/16/2020
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213816"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctionnalités facultatives pour un environnement d'évaluation Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurer des fonctionnalités facultatives pour un environnement d’évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d'évaluation de Microsoft Dynamics 365 Commerce.
+Cette rubrique explique comment configurer des fonctionnalités facultatives pour un environnement d’évaluation Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -102,7 +102,7 @@ Pour chaque événement transactionnel pour lequel envoyer des e-mails vous deve
 
 Vous souhaiterez peut-être personnaliser les modèles d'e-mails afin qu'ils utilisent des images différentes. Ou vous souhaiterez peut-être mettre à jour les liens dans les modèles afin qu'ils accèdent à votre environnement d'évaluation. Cette procédure explique le téléchargement des modèles par défaut, leur personnalisation et la mise à jour des modèles à jour dans le système.
 
-1. Dans un navigateur web, téléchargez le [fichier .zip des modèles d'e-mails par défaut de Microsoft Dynamics 365 Commerce Évaluation](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) sur votre ordinateur local. Ce fichier contient les documents HTML suivants :
+1. Dans un navigateur web, téléchargez le [fichier .zip des modèles d’e-mails par défaut de l’environnement d’évaluation Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) sur votre ordinateur local. Ce fichier contient les documents HTML suivants :
 
     - Modèle de confirmation de commande
     - Émettre un modèle de carte cadeau
@@ -135,14 +135,14 @@ Les jetons suivants s'appliquent à la commande client globale.
 
 | Nom du jeton | Jeton |
 |-------------------|-------|
-| Numéro de la commande      | %salesid% |
+| Numéro d'ordre      | %salesid% |
 | Nom du client   | %customername% |
 | Adresse de livraison  | %deliveryaddress% |
 | Adresse de facturation   | %customeraddress% |
 | Date de commande        | %shipdate% |
 | Mode de distribution     | %modeofdelivery% |
 | Remise          | %discount% |
-| Taxe         | %tax% |
+| Taxe de vente         | %tax% |
 | Total de la commande       | %total% |
 
 #### <a name="sales-line"></a>Ligne de vente
@@ -157,12 +157,12 @@ Les jetons suivants sont remplacés par des valeurs pour chaque produit de la co
 | Liste de produits - début   | \<!--%tablebegin.salesline% --\> |
 | Liste de produits - fin     | \<!--%tableend.salesline%--\> |
 | Nom du produit           | %lineproductname% |
-| Description            | %lineproductdescription% |
+| Description             | %lineproductdescription% |
 | Quantité               | %linequantity% |
 | Prix unitaire de la ligne        | %lineprice% (vérifier) |
 | nombre total d'articles de ligne        | %linenetamount% |
 | remise ligne          | %linediscount% |
-| Date d'expédition              | %lineshipdate% |
+| Date d’expédition              | %lineshipdate% |
 | Méthode d'approvisionnement     | %linedeliverymode% |
 | adresse de livraison       | %linedeliveryaddress% |
 | Unité de vente de la ligne | %lineunit% |

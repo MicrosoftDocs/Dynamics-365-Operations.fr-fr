@@ -1,6 +1,6 @@
 ---
-title: Présentation des canaux
-description: Cette rubrique présente une vue d'ensemble des canaux dans Microsoft Dynamics 365 Commerce.
+title: Vue d’ensemble des canaux
+description: Cette rubrique présente une vue d’ensemble des canaux dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e060fe2a578296f079653244ed4d5676313e5ea8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8ac188832bdaeba430eed7f08e91a9c2214a0e15
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963058"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219099"
 ---
-# <a name="channels-overview"></a>Présentation des canaux
+# <a name="channels-overview"></a>Vue d’ensemble des canaux
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique présente une vue d'ensemble des canaux dans Microsoft Dynamics 365 Commerce. Elle inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré chaque canal.
+Cette rubrique présente une vue d’ensemble des canaux dans Microsoft Dynamics 365 Commerce. Elle inclut des informations sur les tâches que vous devez effectuer avant et après avoir paramétré chaque canal.
 
 ## <a name="types-of-channels"></a>Types de canaux
 
@@ -44,7 +44,7 @@ Les canaux de centre d'appels représentent la gestion des commandes et des clie
 
 ### <a name="online-channels"></a>Canaux en ligne
 
-Les canaux en ligne représentent les vitrines de commerce électronique en ligne. Une fois qu'un canal en ligne est créé, un site doit être créé à l'aide de l'outil générateur de site Microsoft Dynamics 365 Commerce ou d'une autre solution de commerce électronique tiers.
+Les canaux en ligne représentent les vitrines de commerce électronique en ligne. Une fois qu’un canal en ligne est créé, un site doit être créé à l’aide de l’outil générateur de site Microsoft Dynamics 365 Commerce ou d’une autre solution de commerce électronique tiers.
 
 ## <a name="channel-setup-basics"></a>Principes de base du paramétrage des canaux
 

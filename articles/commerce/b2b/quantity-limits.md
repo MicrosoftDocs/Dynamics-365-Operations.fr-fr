@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e70648da2cc1c526625b6e34fd0867d40abb5a85
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 1208b968e476ccbc7a726facf1db896c7bf3c36f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035907"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211175"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Définir des limites de quantité de produits pour les sites de commerce électronique B2B
 
@@ -31,7 +31,7 @@ Cette rubrique décrit comment définir des limites de quantité de produits pou
 
 La plupart des produits ont une unité de mesure qui définit leur regroupement. Le regroupement affecte la manière dont les produits peuvent être vendus. Certains produits peuvent avoir un regroupement supplémentaire pour les quantités. Ce regroupement détermine si les produits peuvent être vendus sous forme d'unités individuelles ou multiples, et s'il existe une limite de quantité de commande minimale ou maximale à respecter.
 
-La fonctionnalité de limitation de quantité garantit que les quantités minimales, maximales, multiples et standard configurées dans Microsoft Dynamics 365 Commerce (dans les paramètres de commande par défaut ou dans les paramètres du site de création de site Commerce) sont appliqués aux commandes des clients passées sur un site de commerce électronique. Les limites de quantité de produits ne sont actuellement pas prises en charge pour le point de vente (PDV) et les centres d'appels.
+La fonctionnalité de limitation de quantité garantit que les quantités minimales, maximales, multiples et standard configurées dans Microsoft Dynamics 365 Commerce (dans les paramètres de commande par défaut ou dans les paramètres du site de création de site Commerce) sont appliqués aux commandes des clients passées sur un site d’e-commerce. Les limites de quantité de produits ne sont actuellement pas prises en charge pour le point de vente (PDV) et les centres d'appels.
 
 De nombreux détaillants offrent la possibilité que les commandes client (également appelées commandes spéciales) répondent à diverses exigences de produit et de traitement. Voici quelques scénarios classiques :
 
@@ -81,7 +81,7 @@ Pour activer la fonctionnalité de limites de quantité de commande B2B dans le 
 
 [Créer des hiérarchies de modélisation organisationnelle pour les organisations B2B](org-model.md)
 
-[Gérer les partenaires commerciaux sur les sites de commerce électronique B2B](manage-b2b-users.md)
+[Gérer les utilisateurs des partenaires commerciaux sur les sites e-commerce B2B](manage-b2b-users.md)
 
 [Configurer le mode de paiement du compte client pour les sites de commerce électronique B2B](payment-method.md)
 

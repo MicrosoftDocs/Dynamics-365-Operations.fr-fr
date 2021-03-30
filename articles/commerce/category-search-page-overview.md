@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2a7eab8e7f5d300930f8a093afff2d848d8a2db7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7a40df479bffdc6fdee8f0a7f64fde980cbbdbab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997847"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215719"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Vue d'ensemble de la page d'arrivée de catégories et de la page des résultats de la recherche par défaut
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble de la page d'arrivée de catégories et la page des résultats de la recherche par défaut dans Microsoft Dynamics 365 Commerce e-Commerce.
+Cette rubrique fournit une vue d’ensemble de la page d’arrivée de catégories et la page des résultats de la recherche par défaut dans Microsoft Dynamics 365 Commerce e-Commerce.
 
 ## <a name="default-category-landing-page"></a>Page d'arrivée de catégorie par défaut
 

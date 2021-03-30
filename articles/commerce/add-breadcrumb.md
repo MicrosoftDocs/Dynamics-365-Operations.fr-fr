@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06f8ffdecd1f77468ed88043929f29b6957c2e6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986077"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206557"
 ---
-# <a name="breadcrumb-module"></a>Module de piste de navigation
+# <a name="breadcrumb-module"></a>Module de barre de navigation
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre les modules de piste de navigation et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les modules de piste de navigation sont utilisés pour offrir une navigation secondaire sur les pages du site. Ils sont généralement affichés en haut d’une page, sous l’en-tête. Bien que des modules de piste de navigation puissent être ajoutés à n’importe quelle page, ils sont le plus souvent utilisés sur les pages de détails du produit (PDP), pour afficher la hiérarchie de catégories de produits et fournir un moyen rapide de se déplacer sur un site. Un module de piste de navigation peut également être utilisé pour afficher un lien « Retour aux résultats » lorsque les utilisateurs ouvrent une page PDP à partir d’une page de recherche ou de liste. De cette façon, les utilisateurs peuvent retourner rapidement à leur page de liste filtrée pour continuer leurs achats.
 

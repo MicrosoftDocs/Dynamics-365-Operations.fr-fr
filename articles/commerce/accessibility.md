@@ -1,6 +1,6 @@
 ---
 title: Fonctionnalités d'accessibilité
-description: Cette rubrique fournit des informations sur les fonctionnalités d'accessibilité dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique fournit des informations sur les fonctionnalités d’accessibilité dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
 ms.date: 04/14/2020
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 427e82ab75ba16076a3f99ef7df28e9b419d2e7b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 094ad8d34e13051ce7596be462070ead4cbc4f14
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206653"
 ---
-# <a name="accessibility-features-and-capabilities"></a>Fonctionnalités d'accessibilité
+# <a name="accessibility-features-and-capabilities"></a>Fonctionnalités d’accessibilité
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit des informations sur les fonctionnalités d'accessibilité dans Microsoft Dynamics 365 Commerce.
+Cette rubrique fournit des informations sur les fonctionnalités d’accessibilité dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Les fonctionnalités d'accessibilité fournissent à tous les utilisateurs les moyens fonctionnels d'accéder et d'effectuer des actions afin qu'ils puissent atteindre leurs objectifs. Ce large éventail d'utilisateurs peut nécessiter des outils d'assistance pour l'audition, la vision, la mobilité ou la neurodiversité.
 

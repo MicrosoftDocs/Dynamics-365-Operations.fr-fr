@@ -1,6 +1,6 @@
 ---
 title: Module de bloc de contenu
-description: Cette rubrique couvre les modules de bloc de contenu et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique couvre les modules de bloc de contenu et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -17,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6359c915d053bb00c969b166325f675c0003ead
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206269"
 ---
 # <a name="content-block-module"></a>Module de bloc de contenu
 
-
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de bloc de contenu et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique couvre les modules de bloc de contenu et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
 Un module de bloc de contenu permet de publier des produits ou des promotions sur le marché via une combinaison des images et du texte. Par exemple, un détaillant peut ajouter un module de bloc de contenu à la page d'accueil d'un site de commerce électronique qui permet de promouvoir un nouveau produit et d'attirer l'attention des clients.
 

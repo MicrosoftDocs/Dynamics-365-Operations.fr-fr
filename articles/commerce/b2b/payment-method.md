@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 754e2f83d6c8ff5d3698d98062e54bba7ccd9836
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035906"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211199"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurer le mode de paiement du compte client pour les sites de commerce électronique B2B
 
@@ -29,7 +29,7 @@ ms.locfileid: "5035906"
 
 Cette rubrique décrit comment configurer le mode de paiement du compte client pour les sites de commerce électronique interentreprises (B2B).
 
-Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu’ils vendent dans un canal d'e-commerce. Chaque type de paiement accepté par le détaillant doit être configurée dans Microsoft Dynamics 365 Commerce lors du paramétrage du système. Le mode de paiement du compte client (ou « en compte ») doit être pris en charge sur les sites de commerce électronique B2B. 
+Les détaillants peuvent accepter différents types de paiement en échange des produits et des services qu’ils vendent dans un canal d'e-commerce. Chaque type de paiement accepté par un détaillant doit être configurée dans Microsoft Dynamics 365 Commerce lors du paramétrage du système. Le mode de paiement du compte client (ou « en compte ») doit être pris en charge sur les sites de commerce électronique B2B. 
 
 ## <a name="prerequisites"></a>Conditions préalables
 

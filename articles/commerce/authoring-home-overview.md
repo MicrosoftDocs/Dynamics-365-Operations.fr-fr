@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble de la page de création
-description: Cette rubrique offre une vue d'ensemble de la page de création dans Microsoft Dynamics 365 Commerce.
+title: Vue d’ensemble de la page de création
+description: Cette rubrique offre une vue d’ensemble de la page de création dans Microsoft Dynamics 365 Commerce.
 author: brendans
 manager: annbe
 ms.date: 10/31/2019
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d91857a9d1f0b1280a842b0a26578fbb561851
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989616"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211295"
 ---
-# <a name="authoring-page-overview"></a>Vue d'ensemble de la page de création
+# <a name="authoring-page-overview"></a>Vue d’ensemble de la page de création
 
   
  [!include [banner](includes/banner.md)]
 
-Cette rubrique offre une vue d'ensemble de la page de création dans Microsoft Dynamics 365 Commerce.
+Cette rubrique offre une vue d’ensemble de la page de création dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Les sites web peuvent être créés pour prendre en charge des besoins commerciaux. Ils peuvent représenter une entreprise entière, offrir un canal unique de l'entreprise, ou cibler une audience ou un segment d'audience spécifique. Par exemple, un fabricant de vêtements peut avoir un site web qui présente toutes les marques qu'il propose. Le même fabricant de vêtements peut alors avoir un site web distinct pour chacune de ces marques, et également un ensemble de sites web qui présentent une mode de luxe, un mode pour l'extérieur, et la mode des enfants.
 

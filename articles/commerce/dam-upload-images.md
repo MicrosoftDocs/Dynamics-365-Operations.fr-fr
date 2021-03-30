@@ -1,6 +1,6 @@
 ---
 title: Importer des images
-description: Cette rubrique décrit comment télécharger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment charger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 03/03/2020
@@ -17,20 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69b812c58739357dfdb3f9e65e34e5d54d890284
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963008"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213792"
 ---
 # <a name="upload-images"></a>Importer des images
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment télécharger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit comment charger des images dans le générateur de site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 La bibliothèque multimédia du générateur de site Commerce vous permet de télécharger des images, individuellement ou en bloc, à l'aide de dossiers. Vous devez toujours télécharger la version de l'image avec la résolution et la qualité les plus élevées, car le composant du redimensionneur d'image optimisera automatiquement l'image pour différentes fenêtres d'affichage et leurs points d'arrêt.
 
