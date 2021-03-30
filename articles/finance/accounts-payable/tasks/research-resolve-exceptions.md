@@ -15,73 +15,76 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 727676d060b77633d4ff4f31dabbd7825ca19aca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 63870aec130bc8b40f0f96c5c0d293993dbe0d49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214546"
 ---
-# <a name="research-or-resolve-exceptions"></a><span data-ttu-id="093d0-103">Rechercher ou résoudre les exceptions</span><span class="sxs-lookup"><span data-stu-id="093d0-103">Research or resolve exceptions</span></span>
+# <a name="research-or-resolve-exceptions"></a><span data-ttu-id="59f2e-103">Rechercher ou résoudre les exceptions</span><span class="sxs-lookup"><span data-stu-id="59f2e-103">Research or resolve exceptions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="093d0-104">Les stratégies de facture fournisseur sont exécutées lorsque vous validez une facture fournisseur à l’aide de la page Facture fournisseur et lorsque vous ouvrez la page Violations de stratégie de la facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="093d0-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="093d0-105">Vous pouvez également configurer le workflow de facture fournisseur de manière à exécuter des stratégies de facture fournisseur chaque fois que vous envoyez une facture dans le workflow.</span><span class="sxs-lookup"><span data-stu-id="093d0-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
+<span data-ttu-id="59f2e-104">Les stratégies de facture fournisseur sont exécutées lorsque vous validez une facture fournisseur à l’aide de la page Facture fournisseur et lorsque vous ouvrez la page Violations de stratégie de la facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="59f2e-105">Vous pouvez également configurer le workflow de facture fournisseur de manière à exécuter des stratégies de facture fournisseur chaque fois que vous envoyez une facture dans le workflow.</span><span class="sxs-lookup"><span data-stu-id="59f2e-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
 
-<span data-ttu-id="093d0-106">Les stratégies de facture fournisseur ne s’appliquent pas aux factures créées dans le registre des factures ou dans le journal des factures.</span><span class="sxs-lookup"><span data-stu-id="093d0-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
+<span data-ttu-id="59f2e-106">Les stratégies de facture fournisseur ne s’appliquent pas aux factures créées dans le registre des factures ou dans le journal des factures.</span><span class="sxs-lookup"><span data-stu-id="59f2e-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
 
-<span data-ttu-id="093d0-107">Le contrôle du rapprochement de factures ne fait pas appel aux stratégies de facture fournisseur. Au lieu de cela, il est paramétré sur la page Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="093d0-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
+<span data-ttu-id="59f2e-107">Le contrôle du rapprochement de factures ne fait pas appel aux stratégies de facture fournisseur. Au lieu de cela, il est paramétré sur la page Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
 
-<span data-ttu-id="093d0-108">La société fictive USMF sert d’exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="093d0-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="093d0-109">Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.</span><span class="sxs-lookup"><span data-stu-id="093d0-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="093d0-110">Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="093d0-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
+<span data-ttu-id="59f2e-108">La société fictive USMF sert d’exemple dans cet enregistrement.</span><span class="sxs-lookup"><span data-stu-id="59f2e-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="59f2e-109">Les différentes étapes seront effectuées par le responsable comptabilité fournisseur ou le gestionnaire comptable.</span><span class="sxs-lookup"><span data-stu-id="59f2e-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="59f2e-110">Avant de commencer, vérifiez que la clé de configuration Rapprochement de factures est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="59f2e-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
 
 
-## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="093d0-111">Préparation de la création des stratégies de facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="093d0-111">Prepare to create vendor invoice policies</span></span>
-1. <span data-ttu-id="093d0-112">Accédez à Comptabilité fournisseur > Paramétrage > Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="093d0-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
-2. <span data-ttu-id="093d0-113">Cliquez sur l’onglet Contrôle de la facture.</span><span class="sxs-lookup"><span data-stu-id="093d0-113">Click the Invoice validation tab.</span></span>
-3. <span data-ttu-id="093d0-114">Activez ou désactivez la case à cocher Mettre à jour automatiquement le statut d’en-tête des factures.</span><span class="sxs-lookup"><span data-stu-id="093d0-114">Select or clear the Automatically update invoice header status check box.</span></span>
-4. <span data-ttu-id="093d0-115">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="093d0-115">Click OK.</span></span>
-5. <span data-ttu-id="093d0-116">Sélectionnez une option dans le champ Valider la facture avec les non-correspondances.</span><span class="sxs-lookup"><span data-stu-id="093d0-116">In the Post invoice with discrepancies field, select an option.</span></span>
-6. <span data-ttu-id="093d0-117">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="093d0-117">Close the page.</span></span>
-7. <span data-ttu-id="093d0-118">Accédez à Comptabilité fournisseur > Paramétrage de la stratégie > Stratégies de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="093d0-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
-8. <span data-ttu-id="093d0-119">Cliquez sur Paramètres.</span><span class="sxs-lookup"><span data-stu-id="093d0-119">Click Parameters.</span></span>
-9. <span data-ttu-id="093d0-120">Cliquez sur btnAdd.</span><span class="sxs-lookup"><span data-stu-id="093d0-120">Click btnAdd.</span></span>
-10. <span data-ttu-id="093d0-121">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="093d0-121">Close the page.</span></span>
+## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="59f2e-111">Préparation de la création des stratégies de facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="59f2e-111">Prepare to create vendor invoice policies</span></span>
+1. <span data-ttu-id="59f2e-112">Accédez à Comptabilité fournisseur > Paramétrage > Paramètres de la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
+2. <span data-ttu-id="59f2e-113">Cliquez sur l’onglet Contrôle de la facture.</span><span class="sxs-lookup"><span data-stu-id="59f2e-113">Click the Invoice validation tab.</span></span>
+3. <span data-ttu-id="59f2e-114">Activez ou désactivez la case à cocher Mettre à jour automatiquement le statut d’en-tête des factures.</span><span class="sxs-lookup"><span data-stu-id="59f2e-114">Select or clear the Automatically update invoice header status check box.</span></span>
+4. <span data-ttu-id="59f2e-115">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="59f2e-115">Click OK.</span></span>
+5. <span data-ttu-id="59f2e-116">Sélectionnez une option dans le champ Valider la facture avec les non-correspondances.</span><span class="sxs-lookup"><span data-stu-id="59f2e-116">In the Post invoice with discrepancies field, select an option.</span></span>
+6. <span data-ttu-id="59f2e-117">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="59f2e-117">Close the page.</span></span>
+7. <span data-ttu-id="59f2e-118">Accédez à Comptabilité fournisseur > Paramétrage de la stratégie > Stratégies de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+8. <span data-ttu-id="59f2e-119">Cliquez sur Paramètres.</span><span class="sxs-lookup"><span data-stu-id="59f2e-119">Click Parameters.</span></span>
+9. <span data-ttu-id="59f2e-120">Cliquez sur btnAdd.</span><span class="sxs-lookup"><span data-stu-id="59f2e-120">Click btnAdd.</span></span>
+10. <span data-ttu-id="59f2e-121">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="59f2e-121">Close the page.</span></span>
 
-## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="093d0-122">Création de types de règles de stratégie pour les factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="093d0-122">Create policy rule types for vendor invoices</span></span>
-1. <span data-ttu-id="093d0-123">Accédez à Comptabilité fournisseur > Paramétrage de la stratégie > Types de règles de stratégie de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="093d0-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
-2. <span data-ttu-id="093d0-124">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="093d0-124">Click New.</span></span>
-3. <span data-ttu-id="093d0-125">Tapez une valeur dans le champ Nom de la règle.</span><span class="sxs-lookup"><span data-stu-id="093d0-125">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="093d0-126">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="093d0-126">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="093d0-127">Dans le champ Nom de la requête, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="093d0-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="093d0-128">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="093d0-128">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="093d0-129">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="093d0-129">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="093d0-130">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="093d0-130">Click Save.</span></span>
-9. <span data-ttu-id="093d0-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="093d0-131">Close the page.</span></span>
+## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="59f2e-122">Création de types de règles de stratégie pour les factures fournisseur</span><span class="sxs-lookup"><span data-stu-id="59f2e-122">Create policy rule types for vendor invoices</span></span>
+1. <span data-ttu-id="59f2e-123">Accédez à Comptabilité fournisseur > Paramétrage de la stratégie > Types de règles de stratégie de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
+2. <span data-ttu-id="59f2e-124">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="59f2e-124">Click New.</span></span>
+3. <span data-ttu-id="59f2e-125">Tapez une valeur dans le champ Nom de la règle.</span><span class="sxs-lookup"><span data-stu-id="59f2e-125">In the Rule name field, type a value.</span></span>
+4. <span data-ttu-id="59f2e-126">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-126">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="59f2e-127">Dans le champ Nom de la requête, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="59f2e-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="59f2e-128">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="59f2e-128">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="59f2e-129">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="59f2e-129">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="59f2e-130">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="59f2e-130">Click Save.</span></span>
+9. <span data-ttu-id="59f2e-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="59f2e-131">Close the page.</span></span>
 
-## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="093d0-132">Définition d’une stratégie de facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="093d0-132">Define a vendor invoice policy</span></span>
-1. <span data-ttu-id="093d0-133">Accédez à Comptabilité fournisseur > Paramétrage de la stratégie > Stratégies de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="093d0-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
-2. <span data-ttu-id="093d0-134">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="093d0-134">Click New.</span></span>
-3. <span data-ttu-id="093d0-135">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="093d0-135">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="093d0-136">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="093d0-136">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="093d0-137">Développez ou réduisez la section Organisations de stratégie.</span><span class="sxs-lookup"><span data-stu-id="093d0-137">Expand or collapse the Policy organizations section.</span></span>
-6. <span data-ttu-id="093d0-138">Dans l’arborescence, sélectionnez Contoso Entertainment System USA.</span><span class="sxs-lookup"><span data-stu-id="093d0-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
-7. <span data-ttu-id="093d0-139">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="093d0-139">Click Add.</span></span>
-8. <span data-ttu-id="093d0-140">Développez ou réduisez la section Règles de stratégie.</span><span class="sxs-lookup"><span data-stu-id="093d0-140">Expand or collapse the Policy rules section.</span></span>
-9. <span data-ttu-id="093d0-141">Cliquez sur Créer une règle de stratégie.</span><span class="sxs-lookup"><span data-stu-id="093d0-141">Click Create policy rule.</span></span>
-10. <span data-ttu-id="093d0-142">Tapez une valeur dans le champ Description de la règle de stratégie.</span><span class="sxs-lookup"><span data-stu-id="093d0-142">In the Policy rule description field, type a value.</span></span>
-11. <span data-ttu-id="093d0-143">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="093d0-143">Click Filter.</span></span>
-12. <span data-ttu-id="093d0-144">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="093d0-144">Click Add.</span></span>
-13. <span data-ttu-id="093d0-145">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="093d0-145">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="093d0-146">Dans le champ de table, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="093d0-146">In the Table field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="093d0-147">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="093d0-147">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="093d0-148">Dans le champ Table dérivée, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="093d0-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="093d0-149">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="093d0-149">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="093d0-150">Dans le champ Champ, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="093d0-150">In the Field field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="093d0-151">Tapez une valeur dans le champ Champ.</span><span class="sxs-lookup"><span data-stu-id="093d0-151">In the Field field, type a value.</span></span>
-20. <span data-ttu-id="093d0-152">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="093d0-152">Close the page.</span></span>
-21. <span data-ttu-id="093d0-153">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="093d0-153">In the Criteria field, type a value.</span></span>
-22. <span data-ttu-id="093d0-154">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="093d0-154">Click OK.</span></span>
-23. <span data-ttu-id="093d0-155">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="093d0-155">Click OK.</span></span>
-24. <span data-ttu-id="093d0-156">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="093d0-156">Close the page.</span></span>
-25. <span data-ttu-id="093d0-157">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="093d0-157">Close the page.</span></span>
+## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="59f2e-132">Définition d’une stratégie de facture fournisseur</span><span class="sxs-lookup"><span data-stu-id="59f2e-132">Define a vendor invoice policy</span></span>
+1. <span data-ttu-id="59f2e-133">Accédez à Comptabilité fournisseur > Paramétrage de la stratégie > Stratégies de facture fournisseur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+2. <span data-ttu-id="59f2e-134">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="59f2e-134">Click New.</span></span>
+3. <span data-ttu-id="59f2e-135">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="59f2e-135">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="59f2e-136">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="59f2e-136">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="59f2e-137">Développez ou réduisez la section Organisations de stratégie.</span><span class="sxs-lookup"><span data-stu-id="59f2e-137">Expand or collapse the Policy organizations section.</span></span>
+6. <span data-ttu-id="59f2e-138">Dans l’arborescence, sélectionnez Contoso Entertainment System USA.</span><span class="sxs-lookup"><span data-stu-id="59f2e-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
+7. <span data-ttu-id="59f2e-139">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="59f2e-139">Click Add.</span></span>
+8. <span data-ttu-id="59f2e-140">Développez ou réduisez la section Règles de stratégie.</span><span class="sxs-lookup"><span data-stu-id="59f2e-140">Expand or collapse the Policy rules section.</span></span>
+9. <span data-ttu-id="59f2e-141">Cliquez sur Créer une règle de stratégie.</span><span class="sxs-lookup"><span data-stu-id="59f2e-141">Click Create policy rule.</span></span>
+10. <span data-ttu-id="59f2e-142">Tapez une valeur dans le champ Description de la règle de stratégie.</span><span class="sxs-lookup"><span data-stu-id="59f2e-142">In the Policy rule description field, type a value.</span></span>
+11. <span data-ttu-id="59f2e-143">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="59f2e-143">Click Filter.</span></span>
+12. <span data-ttu-id="59f2e-144">Cliquez sur Ajouter.</span><span class="sxs-lookup"><span data-stu-id="59f2e-144">Click Add.</span></span>
+13. <span data-ttu-id="59f2e-145">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="59f2e-145">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="59f2e-146">Dans le champ de table, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="59f2e-146">In the Table field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="59f2e-147">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="59f2e-147">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="59f2e-148">Dans le champ Table dérivée, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="59f2e-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="59f2e-149">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="59f2e-149">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="59f2e-150">Dans le champ Champ, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="59f2e-150">In the Field field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="59f2e-151">Tapez une valeur dans le champ Champ.</span><span class="sxs-lookup"><span data-stu-id="59f2e-151">In the Field field, type a value.</span></span>
+20. <span data-ttu-id="59f2e-152">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="59f2e-152">Close the page.</span></span>
+21. <span data-ttu-id="59f2e-153">Tapez une valeur dans le champ Critères.</span><span class="sxs-lookup"><span data-stu-id="59f2e-153">In the Criteria field, type a value.</span></span>
+22. <span data-ttu-id="59f2e-154">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="59f2e-154">Click OK.</span></span>
+23. <span data-ttu-id="59f2e-155">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="59f2e-155">Click OK.</span></span>
+24. <span data-ttu-id="59f2e-156">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="59f2e-156">Close the page.</span></span>
+25. <span data-ttu-id="59f2e-157">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="59f2e-157">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,36 +15,39 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbda1c535aad63df55d40bcbadccffc3f35b455
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1722c72ebc5ea7c0f8704ba3761f971f5075744
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994638"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216447"
 ---
-# <a name="create-ledger-accrual-transactions"></a><span data-ttu-id="6f147-103">Création de transactions de régularisation des comptes</span><span class="sxs-lookup"><span data-stu-id="6f147-103">Create ledger accrual transactions</span></span>
+# <a name="create-ledger-accrual-transactions"></a><span data-ttu-id="0f780-103">Création de transactions de régularisation des comptes</span><span class="sxs-lookup"><span data-stu-id="0f780-103">Create ledger accrual transactions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6f147-104">Ce guide accompagne l’utilisateur dans la génération de transactions de régularisation des comptes fondées sur des plans de régularisation</span><span class="sxs-lookup"><span data-stu-id="6f147-104">This task guide steps through generating ledger accrual transactions that are based on accrual schemes</span></span>
+<span data-ttu-id="0f780-104">Ce guide accompagne l’utilisateur dans la génération de transactions de régularisation des comptes fondées sur des plans de régularisation</span><span class="sxs-lookup"><span data-stu-id="0f780-104">This task guide steps through generating ledger accrual transactions that are based on accrual schemes</span></span>
 
-1. <span data-ttu-id="6f147-105">Accédez à Comptabilité > Entrées de journal > Journaux des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="6f147-105">Go to General ledger > Journal entries > General journals.</span></span>
-2. <span data-ttu-id="6f147-106">Dans la liste, recherchez et sélectionnez le journal souhaité ou créez-en un.</span><span class="sxs-lookup"><span data-stu-id="6f147-106">In the list, find and select the desired journal or create a new one.</span></span>
-3. <span data-ttu-id="6f147-107">Cliquez pour suivre le lien dans le champ Numéro de lot du journal.</span><span class="sxs-lookup"><span data-stu-id="6f147-107">Click to follow the link in the Journal batch number field.</span></span>
-4. <span data-ttu-id="6f147-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6f147-108">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="6f147-109">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="6f147-109">In the Account field, specify the desired values.</span></span>
-    * <span data-ttu-id="6f147-110">Dans cet exemple, nous allons définir la dépense pour l’assurance.</span><span class="sxs-lookup"><span data-stu-id="6f147-110">In this example, we are defining the expense for the insurance.</span></span> <span data-ttu-id="6f147-111">Il s’agira d’un montant de dépense périodique.</span><span class="sxs-lookup"><span data-stu-id="6f147-111">It will be come periodic expense amount.</span></span>  
-6. <span data-ttu-id="6f147-112">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="6f147-112">In the Description field, type a value.</span></span>
-7. <span data-ttu-id="6f147-113">Entrez un nombre dans le champ Débit.</span><span class="sxs-lookup"><span data-stu-id="6f147-113">In the Debit field, enter a number.</span></span>
-8. <span data-ttu-id="6f147-114">Spécifiez les valeurs souhaitées dans le champ Compte de contrepartie.</span><span class="sxs-lookup"><span data-stu-id="6f147-114">In the Offset account field, specify the desired values.</span></span>
-9. <span data-ttu-id="6f147-115">Cliquez sur Fonctions.</span><span class="sxs-lookup"><span data-stu-id="6f147-115">Click Functions.</span></span>
-10. <span data-ttu-id="6f147-116">Cliquez sur Régularisation des comptes.</span><span class="sxs-lookup"><span data-stu-id="6f147-116">Click Ledger accruals.</span></span>
-11. <span data-ttu-id="6f147-117">Dans le champ Identification de régularisation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="6f147-117">In the Accrual identification field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="6f147-118">Dans la liste, localisez et sélectionnez le plan de régularisation que vous souhaitez appliquer.</span><span class="sxs-lookup"><span data-stu-id="6f147-118">In the list, find and select the accural scheme you want to apply.</span></span>
-13. <span data-ttu-id="6f147-119">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="6f147-119">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="6f147-120">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="6f147-120">In the Start date field, enter a date.</span></span>
-15. <span data-ttu-id="6f147-121">Cliquez sur Transactions.</span><span class="sxs-lookup"><span data-stu-id="6f147-121">Click Transactions.</span></span>
-16. <span data-ttu-id="6f147-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="6f147-122">Close the page.</span></span>
-17. <span data-ttu-id="6f147-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="6f147-123">Click OK.</span></span>
-18. <span data-ttu-id="6f147-124">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="6f147-124">Click Post.</span></span>
+1. <span data-ttu-id="0f780-105">Accédez à Comptabilité > Entrées de journal > Journaux des opérations diverses.</span><span class="sxs-lookup"><span data-stu-id="0f780-105">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="0f780-106">Dans la liste, recherchez et sélectionnez le journal souhaité ou créez-en un.</span><span class="sxs-lookup"><span data-stu-id="0f780-106">In the list, find and select the desired journal or create a new one.</span></span>
+3. <span data-ttu-id="0f780-107">Cliquez pour suivre le lien dans le champ Numéro de lot du journal.</span><span class="sxs-lookup"><span data-stu-id="0f780-107">Click to follow the link in the Journal batch number field.</span></span>
+4. <span data-ttu-id="0f780-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="0f780-108">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="0f780-109">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="0f780-109">In the Account field, specify the desired values.</span></span>
+    * <span data-ttu-id="0f780-110">Dans cet exemple, nous allons définir la dépense pour l’assurance.</span><span class="sxs-lookup"><span data-stu-id="0f780-110">In this example, we are defining the expense for the insurance.</span></span> <span data-ttu-id="0f780-111">Il s’agira d’un montant de dépense périodique.</span><span class="sxs-lookup"><span data-stu-id="0f780-111">It will be come periodic expense amount.</span></span>  
+6. <span data-ttu-id="0f780-112">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="0f780-112">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="0f780-113">Entrez un nombre dans le champ Débit.</span><span class="sxs-lookup"><span data-stu-id="0f780-113">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="0f780-114">Spécifiez les valeurs souhaitées dans le champ Compte de contrepartie.</span><span class="sxs-lookup"><span data-stu-id="0f780-114">In the Offset account field, specify the desired values.</span></span>
+9. <span data-ttu-id="0f780-115">Cliquez sur Fonctions.</span><span class="sxs-lookup"><span data-stu-id="0f780-115">Click Functions.</span></span>
+10. <span data-ttu-id="0f780-116">Cliquez sur Régularisation des comptes.</span><span class="sxs-lookup"><span data-stu-id="0f780-116">Click Ledger accruals.</span></span>
+11. <span data-ttu-id="0f780-117">Dans le champ Identification de régularisation, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.</span><span class="sxs-lookup"><span data-stu-id="0f780-117">In the Accrual identification field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="0f780-118">Dans la liste, localisez et sélectionnez le plan de régularisation que vous souhaitez appliquer.</span><span class="sxs-lookup"><span data-stu-id="0f780-118">In the list, find and select the accural scheme you want to apply.</span></span>
+13. <span data-ttu-id="0f780-119">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="0f780-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="0f780-120">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="0f780-120">In the Start date field, enter a date.</span></span>
+15. <span data-ttu-id="0f780-121">Cliquez sur Transactions.</span><span class="sxs-lookup"><span data-stu-id="0f780-121">Click Transactions.</span></span>
+16. <span data-ttu-id="0f780-122">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="0f780-122">Close the page.</span></span>
+17. <span data-ttu-id="0f780-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="0f780-123">Click OK.</span></span>
+18. <span data-ttu-id="0f780-124">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="0f780-124">Click Post.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

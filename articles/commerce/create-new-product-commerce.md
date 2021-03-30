@@ -1,6 +1,6 @@
 ---
 title: Créer un produit dans Commerce
-description: Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,101 +16,104 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb0137468d690649abb18b9d19673ff740d52e5d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965308"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207917"
 ---
-# <a name="create-a-new-product-in-commerce"></a><span data-ttu-id="7fee3-103">Créer un produit dans Commerce</span><span class="sxs-lookup"><span data-stu-id="7fee3-103">Create a new product in Commerce</span></span>
+# <a name="create-a-new-product-in-commerce"></a><span data-ttu-id="7f974-103">Créer un produit dans Commerce</span><span class="sxs-lookup"><span data-stu-id="7f974-103">Create a new product in Commerce</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="7fee3-104">Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="7fee3-104">This topic describes how to create a new product in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="7f974-104">Cette rubrique décrit comment créer un produit dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="7f974-104">This topic describes how to create a new product in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="7fee3-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="7fee3-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="7f974-105">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="7f974-105">Overview</span></span>
 
-<span data-ttu-id="7fee3-106">Un produit est principalement défini par un numéro, un nom, ainsi qu'une description du produit.</span><span class="sxs-lookup"><span data-stu-id="7fee3-106">A product is primarily defined by a product number, name, and description.</span></span> <span data-ttu-id="7fee3-107">Toutefois, d'autres données sont également nécessaires afin de décrire un produit ou un service :</span><span class="sxs-lookup"><span data-stu-id="7fee3-107">However, other data is also required in order to describe a product or service:</span></span>
+<span data-ttu-id="7f974-106">Un produit est principalement défini par un numéro, un nom, ainsi qu'une description du produit.</span><span class="sxs-lookup"><span data-stu-id="7f974-106">A product is primarily defined by a product number, name, and description.</span></span> <span data-ttu-id="7f974-107">Toutefois, d'autres données sont également nécessaires afin de décrire un produit ou un service :</span><span class="sxs-lookup"><span data-stu-id="7f974-107">However, other data is also required in order to describe a product or service:</span></span>
 
-## <a name="create-a-new-product"></a><span data-ttu-id="7fee3-108">Créer un nouveau produit</span><span class="sxs-lookup"><span data-stu-id="7fee3-108">Create a new product</span></span>
+## <a name="create-a-new-product"></a><span data-ttu-id="7f974-108">Créer un nouveau produit</span><span class="sxs-lookup"><span data-stu-id="7f974-108">Create a new product</span></span>
 
-1. <span data-ttu-id="7fee3-109">Dans le Volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Produits et catégories \> Produits lancés par catégorie**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-109">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Products by category**.</span></span>
-1. <span data-ttu-id="7fee3-110">Dans le volet Actions, sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-110">On the action pane, select **New**.</span></span>
-1. <span data-ttu-id="7fee3-111">Dans la liste déroulante **Type de produit**, sélectionnez **Article** ou **Service**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-111">In the **Product type** drop-down list, select either **Item** or **Service**.</span></span>
-1. <span data-ttu-id="7fee3-112">Dans la liste déroulante **Sous-type de produit**, sélectionnez **Produit** (si le produit n'aura pas de variantes) ou **Produit générique** (si le produit aura des variantes).</span><span class="sxs-lookup"><span data-stu-id="7fee3-112">In the **Product subtype** drop-down list, select either **Product** (if the product will have no variants) or **Product master** (if the product will have variants).</span></span>
-1. <span data-ttu-id="7fee3-113">Dans la zone **Numéro de produit**, entrez un numéro de produit s'il n'est pas déjà prérempli.</span><span class="sxs-lookup"><span data-stu-id="7fee3-113">In the **Product number** box, enter a product number if one is not already prepopulated.</span></span>
-1. <span data-ttu-id="7fee3-114">Dans la zone **Nom de produit**, entrez un nom de produit.</span><span class="sxs-lookup"><span data-stu-id="7fee3-114">In the **Product name** box, enter a product name.</span></span>
-1. <span data-ttu-id="7fee3-115">Dans la zone **Nom de recherche**, entrez un nom de recherche.</span><span class="sxs-lookup"><span data-stu-id="7fee3-115">In the **Search name** box, enter a search name.</span></span>
-1. <span data-ttu-id="7fee3-116">Dans la liste déroulante **Catégorie de vente au détail**, sélectionnez une catégorie appropriée.</span><span class="sxs-lookup"><span data-stu-id="7fee3-116">In the **Retail category** drop-down list, select an appropriate category.</span></span>
-1. <span data-ttu-id="7fee3-117">Si le produit est un kit, sélectionnez **Oui** pour **Kit de produits**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-117">If the product is a kit, select **Yes** for **Product kit**.</span></span>
-1. <span data-ttu-id="7fee3-118">Si le sous-type de produit est un produit générique, définissez le **Groupe de dimensions de produit** pour inclure les variantes prises en charge.</span><span class="sxs-lookup"><span data-stu-id="7fee3-118">If the product subtype is product master, set the **Product dimension group** to include the supported variants.</span></span> <span data-ttu-id="7fee3-119">Les options incluent les suivantes : **Couleur**, **Taille**, **Style** et **Configuration**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-119">Options include **Color**, **Size**, **Style**, and **Configuration**.</span></span> <span data-ttu-id="7fee3-120">Vous devrez peut-être créer des groupes de dimensions de produit supplémentaires si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="7fee3-120">You may need to create additional product dimension groups if needed.</span></span>
-1. <span data-ttu-id="7fee3-121">Dans la liste déroulante **Technologie de configuration**, sélectionnez une option appropriée.</span><span class="sxs-lookup"><span data-stu-id="7fee3-121">In the **Configuration technology** drop-down list, select an appropriate option.</span></span>
-1. <span data-ttu-id="7fee3-122">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-122">Select **OK**.</span></span>
+1. <span data-ttu-id="7f974-109">Dans le Volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Produits et catégories \> Produits lancés par catégorie**.</span><span class="sxs-lookup"><span data-stu-id="7f974-109">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Products by category**.</span></span>
+1. <span data-ttu-id="7f974-110">Dans le volet Actions, sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="7f974-110">On the action pane, select **New**.</span></span>
+1. <span data-ttu-id="7f974-111">Dans la liste déroulante **Type de produit**, sélectionnez **Article** ou **Service**.</span><span class="sxs-lookup"><span data-stu-id="7f974-111">In the **Product type** drop-down list, select either **Item** or **Service**.</span></span>
+1. <span data-ttu-id="7f974-112">Dans la liste déroulante **Sous-type de produit**, sélectionnez **Produit** (si le produit n'aura pas de variantes) ou **Produit générique** (si le produit aura des variantes).</span><span class="sxs-lookup"><span data-stu-id="7f974-112">In the **Product subtype** drop-down list, select either **Product** (if the product will have no variants) or **Product master** (if the product will have variants).</span></span>
+1. <span data-ttu-id="7f974-113">Dans la zone **Numéro de produit**, entrez un numéro de produit s'il n'est pas déjà prérempli.</span><span class="sxs-lookup"><span data-stu-id="7f974-113">In the **Product number** box, enter a product number if one is not already prepopulated.</span></span>
+1. <span data-ttu-id="7f974-114">Dans la zone **Nom de produit**, entrez un nom de produit.</span><span class="sxs-lookup"><span data-stu-id="7f974-114">In the **Product name** box, enter a product name.</span></span>
+1. <span data-ttu-id="7f974-115">Dans la zone **Nom de recherche**, entrez un nom de recherche.</span><span class="sxs-lookup"><span data-stu-id="7f974-115">In the **Search name** box, enter a search name.</span></span>
+1. <span data-ttu-id="7f974-116">Dans la liste déroulante **Catégorie de vente au détail**, sélectionnez une catégorie appropriée.</span><span class="sxs-lookup"><span data-stu-id="7f974-116">In the **Retail category** drop-down list, select an appropriate category.</span></span>
+1. <span data-ttu-id="7f974-117">Si le produit est un kit, sélectionnez **Oui** pour **Kit de produits**.</span><span class="sxs-lookup"><span data-stu-id="7f974-117">If the product is a kit, select **Yes** for **Product kit**.</span></span>
+1. <span data-ttu-id="7f974-118">Si le sous-type de produit est un produit générique, définissez le **Groupe de dimensions de produit** pour inclure les variantes prises en charge.</span><span class="sxs-lookup"><span data-stu-id="7f974-118">If the product subtype is product master, set the **Product dimension group** to include the supported variants.</span></span> <span data-ttu-id="7f974-119">Les options incluent les suivantes : **Couleur**, **Taille**, **Style** et **Configuration**.</span><span class="sxs-lookup"><span data-stu-id="7f974-119">Options include **Color**, **Size**, **Style**, and **Configuration**.</span></span> <span data-ttu-id="7f974-120">Vous devrez peut-être créer des groupes de dimensions de produit supplémentaires si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="7f974-120">You may need to create additional product dimension groups if needed.</span></span>
+1. <span data-ttu-id="7f974-121">Dans la liste déroulante **Technologie de configuration**, sélectionnez une option appropriée.</span><span class="sxs-lookup"><span data-stu-id="7f974-121">In the **Configuration technology** drop-down list, select an appropriate option.</span></span>
+1. <span data-ttu-id="7f974-122">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="7f974-122">Select **OK**.</span></span>
 
-<span data-ttu-id="7fee3-123">L'image suivant présente un exemple de produit ajouté.</span><span class="sxs-lookup"><span data-stu-id="7fee3-123">The following image shows an example product being added.</span></span>
+<span data-ttu-id="7f974-123">L'image suivant présente un exemple de produit ajouté.</span><span class="sxs-lookup"><span data-stu-id="7f974-123">The following image shows an example product being added.</span></span>
 
 ![Créer un produit](media/create-new-product.png)
 
-<span data-ttu-id="7fee3-125">Une fois qu'un produit est ajouté, des données supplémentaires peuvent être paramétrées pour lui, telles que **Description du produit**, **Groupes de variantes**, **Groupes de dimensions**, **Attributs du produit** et **Produits connexes**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-125">Once a product is added, additional data can be set for it, such as **Product description**, **Variant groups**, **Dimension groups**, **Product attributes**, and **Related products**.</span></span>
+<span data-ttu-id="7f974-125">Une fois qu'un produit est ajouté, des données supplémentaires peuvent être paramétrées pour lui, telles que **Description du produit**, **Groupes de variantes**, **Groupes de dimensions**, **Attributs du produit** et **Produits connexes**.</span><span class="sxs-lookup"><span data-stu-id="7f974-125">Once a product is added, additional data can be set for it, such as **Product description**, **Variant groups**, **Dimension groups**, **Product attributes**, and **Related products**.</span></span>
 
-<span data-ttu-id="7fee3-126">L'image suivante montre les détails supplémentaires d'un produit.</span><span class="sxs-lookup"><span data-stu-id="7fee3-126">The following image shows a product's additional details.</span></span>
+<span data-ttu-id="7f974-126">L'image suivante montre les détails supplémentaires d'un produit.</span><span class="sxs-lookup"><span data-stu-id="7f974-126">The following image shows a product's additional details.</span></span>
 
 ![Détails de produit](media/create-new-product-2.png)
 
-### <a name="create-product-variants"></a><span data-ttu-id="7fee3-128">Créer des variantes de produits</span><span class="sxs-lookup"><span data-stu-id="7fee3-128">Create product variants</span></span>
+### <a name="create-product-variants"></a><span data-ttu-id="7f974-128">Créer des variantes de produits</span><span class="sxs-lookup"><span data-stu-id="7f974-128">Create product variants</span></span>
 
-<span data-ttu-id="7fee3-129">Si le sous-type de produit est **Produit générique**, des variantes spécifiques devront être créées.</span><span class="sxs-lookup"><span data-stu-id="7fee3-129">If the product subtype is **Product master**, specific variants will need to be created.</span></span> 
+<span data-ttu-id="7f974-129">Si le sous-type de produit est **Produit générique**, des variantes spécifiques devront être créées.</span><span class="sxs-lookup"><span data-stu-id="7f974-129">If the product subtype is **Product master**, specific variants will need to be created.</span></span> 
 
-<span data-ttu-id="7fee3-130">Pour créer des variantes de produits, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="7fee3-130">To create product variants, follow these steps.</span></span>
+<span data-ttu-id="7f974-130">Pour créer des variantes de produits, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="7f974-130">To create product variants, follow these steps.</span></span>
 
-1. <span data-ttu-id="7fee3-131">Dans le volet Actions, sélectionnez **Variantes de produit**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-131">On the action pane, select **Product variants**.</span></span>
-1. <span data-ttu-id="7fee3-132">Si des groupes de variantes ont été sélectionnés dans le volet Actions, sélectionnez \**Suggestions de variantes*.</span><span class="sxs-lookup"><span data-stu-id="7fee3-132">If variant groups have been selected on the action pane, select \**Variant suggestions*.</span></span>
-1. <span data-ttu-id="7fee3-133">Sélectionnez les variantes que vous souhaitez prendre en charge pour le produit.</span><span class="sxs-lookup"><span data-stu-id="7fee3-133">Select the variants you would like to support for the product.</span></span>
-1. <span data-ttu-id="7fee3-134">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-134">Select **Create**.</span></span>
+1. <span data-ttu-id="7f974-131">Dans le volet Actions, sélectionnez **Variantes de produit**.</span><span class="sxs-lookup"><span data-stu-id="7f974-131">On the action pane, select **Product variants**.</span></span>
+1. <span data-ttu-id="7f974-132">Si des groupes de variantes ont été sélectionnés dans le volet Actions, sélectionnez \**Suggestions de variantes*.</span><span class="sxs-lookup"><span data-stu-id="7f974-132">If variant groups have been selected on the action pane, select \**Variant suggestions*.</span></span>
+1. <span data-ttu-id="7f974-133">Sélectionnez les variantes que vous souhaitez prendre en charge pour le produit.</span><span class="sxs-lookup"><span data-stu-id="7f974-133">Select the variants you would like to support for the product.</span></span>
+1. <span data-ttu-id="7f974-134">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="7f974-134">Select **Create**.</span></span>
 
-## <a name="release-a-product"></a><span data-ttu-id="7fee3-135">Lancement d'un produit</span><span class="sxs-lookup"><span data-stu-id="7fee3-135">Release a product</span></span>
+## <a name="release-a-product"></a><span data-ttu-id="7f974-135">Lancement d'un produit</span><span class="sxs-lookup"><span data-stu-id="7f974-135">Release a product</span></span>
 
-<span data-ttu-id="7fee3-136">Pour vendre un produit, il doit d'abord être remis à une entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7fee3-136">To sell a product it must first be released to a legal entity.</span></span>
+<span data-ttu-id="7f974-136">Pour vendre un produit, il doit d'abord être remis à une entité juridique.</span><span class="sxs-lookup"><span data-stu-id="7f974-136">To sell a product it must first be released to a legal entity.</span></span>
 
-1. <span data-ttu-id="7fee3-137">Sur la page du produit, sélectionnez **Lancer des produits**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-137">From the product page, select **Release products**.</span></span>
+1. <span data-ttu-id="7f974-137">Sur la page du produit, sélectionnez **Lancer des produits**.</span><span class="sxs-lookup"><span data-stu-id="7f974-137">From the product page, select **Release products**.</span></span>
 
     ![Lancer des produits](media/create-new-product-3.png)
 
-1. <span data-ttu-id="7fee3-139">Sélectionnez le produit à lancer, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-139">Select the product to release, and then select **Next**.</span></span>
+1. <span data-ttu-id="7f974-139">Sélectionnez le produit à lancer, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7f974-139">Select the product to release, and then select **Next**.</span></span>
 
     ![Choisissez le produit à lancer](media/create-new-product-4.png)
 
-1. <span data-ttu-id="7fee3-141">Sélectionnez le jeu de variantes de produit à lancer, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-141">Select the set of product variants to release, and then select **Next**.</span></span>
+1. <span data-ttu-id="7f974-141">Sélectionnez le jeu de variantes de produit à lancer, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7f974-141">Select the set of product variants to release, and then select **Next**.</span></span>
 
     ![Choisissez des variantes à lancer](media/create-new-product-5.png)
 
-1. <span data-ttu-id="7fee3-143">Sélectionnez l'entité juridique, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-143">Select the legal entity, and then select **Next**.</span></span>
+1. <span data-ttu-id="7f974-143">Sélectionnez l'entité juridique, puis sélectionnez **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="7f974-143">Select the legal entity, and then select **Next**.</span></span>
 
     ![Choisir une entité juridique](media/create-new-product-6.png)
 
-1. <span data-ttu-id="7fee3-145">Sélectionnez **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-145">Select **Finish**.</span></span>
+1. <span data-ttu-id="7f974-145">Sélectionnez **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="7f974-145">Select **Finish**.</span></span>
 
     ![Terminer le lancement de produit](media/create-new-product-7.png)
 
-## <a name="configure-a-released-product"></a><span data-ttu-id="7fee3-147">Configurer un produit lancé</span><span class="sxs-lookup"><span data-stu-id="7fee3-147">Configure a released product</span></span>
+## <a name="configure-a-released-product"></a><span data-ttu-id="7f974-147">Configurer un produit lancé</span><span class="sxs-lookup"><span data-stu-id="7f974-147">Configure a released product</span></span>
 
-<span data-ttu-id="7fee3-148">Une fois qu'un produit est lancé, il nécessitera alors une configuration supplémentaire qui comprend l'ajout d'un prix au produit.</span><span class="sxs-lookup"><span data-stu-id="7fee3-148">Once a product is released, it will then require further configuration that includes adding a price to the product.</span></span>
+<span data-ttu-id="7f974-148">Une fois qu'un produit est lancé, il nécessitera alors une configuration supplémentaire qui comprend l'ajout d'un prix au produit.</span><span class="sxs-lookup"><span data-stu-id="7f974-148">Once a product is released, it will then require further configuration that includes adding a price to the product.</span></span>
 
-1. <span data-ttu-id="7fee3-149">Dans le Volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Produits et catégories \> Produits lancés par catégorie**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-149">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Released products by category**.</span></span>
-1. <span data-ttu-id="7fee3-150">Sélectionnez le nœud de catégorie de produit pour le produit qui a été lancé, puis sélectionnez le produit dans la liste des produits.</span><span class="sxs-lookup"><span data-stu-id="7fee3-150">Select the product category node for the product that was released, and then select the product from the product list.</span></span>
-1. <span data-ttu-id="7fee3-151">Dans le volet Actions, sélectionnez **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-151">On the action pane, select **Edit**.</span></span>
-1. <span data-ttu-id="7fee3-152">Dans la section **Achat**, configurez toutes les propriétés requises, y compris **Unité**, **Prix**  et **Quantité**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-152">In the **Purchase** section, configure any required properties including **Unit**, **Price**,  and **Quantity**.</span></span>
-1. <span data-ttu-id="7fee3-153">Dans le volet Actions, sélectionnez **Valider** pour garantir qu'aucune erreur n'est signalée pour les champs manquants.</span><span class="sxs-lookup"><span data-stu-id="7fee3-153">On the action pane, select **Validate** to ensure that no errors are reported for missing fields.</span></span>
-1. <span data-ttu-id="7fee3-154">Dans le volet Actions, sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="7fee3-154">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="7f974-149">Dans le Volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Produits et catégories \> Produits lancés par catégorie**.</span><span class="sxs-lookup"><span data-stu-id="7f974-149">In the navigation pane, go to **Modules \> Retail and commerce \> Products and categories \> Released products by category**.</span></span>
+1. <span data-ttu-id="7f974-150">Sélectionnez le nœud de catégorie de produit pour le produit qui a été lancé, puis sélectionnez le produit dans la liste des produits.</span><span class="sxs-lookup"><span data-stu-id="7f974-150">Select the product category node for the product that was released, and then select the product from the product list.</span></span>
+1. <span data-ttu-id="7f974-151">Dans le volet Actions, sélectionnez **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="7f974-151">On the action pane, select **Edit**.</span></span>
+1. <span data-ttu-id="7f974-152">Dans la section **Achat**, configurez toutes les propriétés requises, y compris **Unité**, **Prix**  et **Quantité**.</span><span class="sxs-lookup"><span data-stu-id="7f974-152">In the **Purchase** section, configure any required properties including **Unit**, **Price**,  and **Quantity**.</span></span>
+1. <span data-ttu-id="7f974-153">Dans le volet Actions, sélectionnez **Valider** pour garantir qu'aucune erreur n'est signalée pour les champs manquants.</span><span class="sxs-lookup"><span data-stu-id="7f974-153">On the action pane, select **Validate** to ensure that no errors are reported for missing fields.</span></span>
+1. <span data-ttu-id="7f974-154">Dans le volet Actions, sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="7f974-154">On the action pane, select **Save**.</span></span>
 
-<span data-ttu-id="7fee3-155">L'image suivante présente un exemple de configuration pour un produit lancé.</span><span class="sxs-lookup"><span data-stu-id="7fee3-155">The following image shows an example configuration for a released product.</span></span>
+<span data-ttu-id="7f974-155">L'image suivante présente un exemple de configuration pour un produit lancé.</span><span class="sxs-lookup"><span data-stu-id="7f974-155">The following image shows an example configuration for a released product.</span></span>
 
 ![Configurer un produit lancé](media/create-new-product-8.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="7fee3-157">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="7fee3-157">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="7f974-157">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="7f974-157">Additional resources</span></span>
 
-[<span data-ttu-id="7fee3-158">Créer des entités juridiques</span><span class="sxs-lookup"><span data-stu-id="7fee3-158">Create legal entities</span></span>](channels-legal-entities.md)
+[<span data-ttu-id="7f974-158">Créer des entités juridiques</span><span class="sxs-lookup"><span data-stu-id="7f974-158">Create legal entities</span></span>](channels-legal-entities.md)
 
-[<span data-ttu-id="7fee3-159">Créer un groupe de variantes</span><span class="sxs-lookup"><span data-stu-id="7fee3-159">Create a variant group</span></span>](create-variant-group.md) 
+[<span data-ttu-id="7f974-159">Créer un groupe de variantes</span><span class="sxs-lookup"><span data-stu-id="7f974-159">Create a variant group</span></span>](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
