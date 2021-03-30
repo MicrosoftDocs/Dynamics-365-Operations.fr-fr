@@ -1,6 +1,6 @@
 ---
 title: Vue d'ensemble des pages de détails de produit
-description: Cette rubrique fournit une vue d'ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique fournit une vue d’ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 01/23/2020
@@ -16,20 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f50b4e7b78f4a5b9fe674a101476879923e10d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 020c2a72515eb112adb33c6b58e3a5084339d040
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979826"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243829"
 ---
-# <a name="product-details-pages-overview"></a>Vue d'ensemble des pages de détails de produit
+# <a name="product-details-pages-overview"></a>Vue d’ensemble des pages détaillées du produit
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
+Cette rubrique fournit une vue d’ensemble des pages de détails de produit dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Une page de détails de produit fournit des informations détaillées sur un produit, et permet aux clients de sélectionner des options de produit comme une taille, un style, et une couleur. Une page de détails de produit doit présenter toutes les informations sur le produit dont un client a besoin pour effectuer une décision d'achat.
 

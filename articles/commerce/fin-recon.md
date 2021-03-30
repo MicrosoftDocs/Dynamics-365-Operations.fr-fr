@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 99c238ecfbb6cb29f4fefefdca32525b99a01dc8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965075"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251329"
 ---
-# <a name="financial-reconciliation-in-retail-stores"></a>Rapprochement financier dans les magasins de vente au détail
+# <a name="financial-reconciliation-in-retail-stores"></a>Rapprochement financier dans les magasins de détail
 
 [!include [banner](includes/banner.md)]
 
-Dans Microsoft Dynamics 365 Commerce version 10.0.10 et les versions antérieures, la fonctionnalité que le client de point de vente (PDV) fournit pour les processus de clôture de caisse dans les magasins de vente au détail permet aux commis de magasin et aux directeurs de magasin d'effectuer les opérations de clôture de caisse. Par exemple, ils peuvent procéder aux comptages de caisse, clôturer des équipes de travail en aveugle, rapprocher les transactions des équipes de travail et clôturer des équipes de travail. Cependant, il n'existe aucune fonctionnalité dans le PDV permettant de finaliser les informations financières des équipes de travail, afin qu'elles puissent être utilisées pour valider les états financiers dans Commerce Headquarters. Généralement, les directeurs de magasin sont chargés d'exécuter cette tâche. Avant qu'ils puissent valider une équipe de travail, ils doivent vérifier les informations, apporter les corrections nécessaires et finaliser les totaux pour cette équipe de travail. Les totaux finalisés doivent ensuite être validés dans les modules financiers de Commerce Headquarters.
+Dans Microsoft Dynamics 365 Commerce version 10.0.10 et les versions antérieures, la fonctionnalité que le client de point de vente (PDV) fournit pour les processus de clôture de caisse dans les magasins de vente au détail permet aux commis de magasin et aux directeurs de magasin d’effectuer les opérations de clôture de caisse. Par exemple, ils peuvent procéder aux comptages de caisse, clôturer des équipes de travail en aveugle, rapprocher les transactions des équipes de travail et clôturer des équipes de travail. Cependant, il n'existe aucune fonctionnalité dans le PDV permettant de finaliser les informations financières des équipes de travail, afin qu'elles puissent être utilisées pour valider les états financiers dans Commerce Headquarters. Généralement, les directeurs de magasin sont chargés d'exécuter cette tâche. Avant qu'ils puissent valider une équipe de travail, ils doivent vérifier les informations, apporter les corrections nécessaires et finaliser les totaux pour cette équipe de travail. Les totaux finalisés doivent ensuite être validés dans les modules financiers de Commerce Headquarters.
 
 En outre, dans Commerce version 10.0.10 et les versions antérieures, les directeurs de magasin peuvent réviser les lignes de relevé et apporter les ajustements nécessaires dans Commerce Headquarters. Cependant, la fonctionnalité est limitée et les directeurs de magasin ont rarement accès au client Commerce Headquarters. En outre, la révision et l'ajustement des tableaux d'analyse de la vente au détail ne peuvent être effectués que lorsque les relevés sont créés dans Commerce Headquarters. Cependant, ce processus est généralement un processus nocturne. Par conséquent, les directeurs de magasin doivent attendre la validation des équipes de travail lorsque les tableaux d'analyse de la vente de détail sont créés dans Commerce Headquarters.
 

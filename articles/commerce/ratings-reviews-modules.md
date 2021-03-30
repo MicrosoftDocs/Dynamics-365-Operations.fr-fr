@@ -1,6 +1,6 @@
 ---
 title: Modules de classements et d'évaluations
-description: Cette rubrique couvre les modules de classements et d'évaluations utilisés sur les pages de détails des produits dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique couvre les modules de classements et d’évaluations utilisés sur les pages de détails des produits dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: b17e986c2e30134c334cd547a85a1dd682172a0e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243767"
 ---
-# <a name="ratings-and-reviews-modules"></a>Modules de classements et d'évaluations
+# <a name="ratings-and-reviews-modules"></a>Modules Classements et Évaluations
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique couvre les modules de classements et d'évaluations utilisés sur les pages de détails des produits dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique couvre les modules de classements et d’évaluations utilisés sur les pages de détails des produits dans Microsoft Dynamics 365 Commerce.
 
 Les classements et les évaluations des sites web de commerce électronique permettent aux clients d'en savoir plus sur les produits avant de prendre une décision d'achat. Ce sont également un mécanisme de collecte des commentaires des clients sur les produits. 
 
