@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3f74cc290617ce2b8401dbf8dc20fb8c2b2dacf8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90ba04e46d9755397b665dcdbd4355edea49eb18
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984957"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223852"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Catalogue d’apprentissage pour les consultants techniques de Dynamics 365 Finance
 
@@ -30,7 +30,7 @@ Pour les consultants techniques, notre recherche d’analyse de tâche a montré
 
 ## <a name="get-started"></a>Mise en route<a name="get-started"></a>
 
-| Contenu| Description  | Format  | Longueur  |
+| Contenu| Description   | Format  | Longueur  |
 |--------|--------------|---------|---------|
 | [Apprendre la valeur commerciale de Microsoft Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Souhaitez-vous en savoir plus sur les applications métier ? Peut-être que vous ne savez pas par où commencer avec Microsoft Dynamics 365 et les applications Power Platform ? Découvrez comment la puissance des applications d’entreprise peut aider à transformer votre entreprise. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7 heures |
 | [Principes fondamentaux de Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Souhaitez-vous en savoir plus sur les applications métier ? Commencez ce parcours d’apprentissage pour voir comment les applications Dynamics 365 sont utilisées. Découvrez les concepts du cloud, Power Platform, et comment prendre en main les applications Dynamics 365. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures |
