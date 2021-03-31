@@ -17,20 +17,20 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9c8fc9a1f944d24aff3ab2923ca2715209a674e4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972930"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222559"
 ---
-# <a name="customize-image-focal-points"></a>Personnaliser les points focaux de l'image
+# <a name="customize-image-focal-points"></a>Personnaliser les points focaux de l’image
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment personnaliser les points focaux des images dans le générateur de site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Lorsqu'une image est téléchargée dans la bibliothèque multimédia du générateur de site Commerce, le système tente de déterminer le point focal de l'image. Par exemple, si l'image contient une personne, le système définira le point focal sur le visage de la personne par défaut. Dans la plupart des cas, le point focal défini automatiquement fonctionne bien pour toutes les fenêtres, mais vous pouvez parfois souhaiter ajuster le point focal pour vous assurer qu'une partie spécifique de l'image est toujours visible.
 

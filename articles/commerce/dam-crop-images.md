@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cf8d43062ec527755fdf1a28f0ea3ceac1fbc15
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7af1378e26368c4f35f4661f41c066baeaa09803
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003826"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222583"
 ---
 # <a name="crop-images"></a>Rogner les images
 
@@ -30,7 +30,7 @@ ms.locfileid: "5003826"
 
 Cette rubrique décrit comment rogner des images dans le générateur de site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 La bibliothèque multimédia du générateur de site Commerce vous permet de rogner des images pour les optimiser pour différents types de module et fenêtres d'affichage.
 
