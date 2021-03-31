@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1769af6663a040c699449eb53841b3f72ab433e5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231030"
 ---
-# <a name="product-recommendations-overview"></a>Vue d'ensemble des recommandations produit
+# <a name="product-recommendations-overview"></a>Vue d’ensemble des recommandations produit
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Commerce peut être utilisé pour afficher les recommandations de produit sur le site web de commerce électronique et l'appareil du point de vente (PDV). Les recommandations de produit sont des articles qu'un client peut être intéressé dans. Les recommandations sont basés sur les tendances d'achat d'autres clients dans les magasins en ligne et traditionnels.
+Microsoft Dynamics 365 Commerce peut être utilisé pour afficher les recommandations de produit sur le site web d’e-Commerce et l’appareil du point de vente (PDV). Les recommandations de produit sont des articles qu'un client peut être intéressé dans. Les recommandations sont basés sur les tendances d'achat d'autres clients dans les magasins en ligne et traditionnels.
 
 Les recommandations de produit permettent aux clients de rechercher facilement et rapidement les produits qu'ils souhaitent tout en ayant une expérience qui les sert bien. La vente croisée et la vente incitative peuvent même être utilisées pour aider les clients à trouver des produits supplémentaires qu'ils n'avaient pas initialement prévu à acheter. Lorsque des recommandations sont utilisées pour aider à la découverte de produit, elles peuvent créer des opportunités de conversion supplémentaires, aider à augmenter le produit des ventes, et même à améliorer la satisfaction la rétention des clients.
 
