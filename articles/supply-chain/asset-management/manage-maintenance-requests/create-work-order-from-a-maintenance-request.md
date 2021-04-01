@@ -1,6 +1,6 @@
 ---
 title: Créer des ordres de travail à partir de demandes de maintenance
-description: Cette rubrique explique comment créer un ordre de travail à partir d'une demande de maintenance dans Gestion des actifs.
+description: Cette rubrique explique comment créer un ordre de travail à partir d’une demande de maintenance dans Gestion des actifs.
 author: josaw1
 manager: tfehr
 ms.date: 10/01/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23039306bb827beb861eaacc3177f4917fabc8bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 5bf147104909302173c32b8376f16c66784110cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018094"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253325"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Créer des ordres de travail à partir de demandes de maintenance
 
@@ -37,18 +37,18 @@ Après avoir créé des demandes de maintenance, vous pouvez facilement les conv
 > Chaque demande de maintenance peut être associée à un seul ordre de travail. Toutefois, plusieurs demandes de maintenance peuvent être incluses dans un même ordre de travail, même si les demandes de maintenance ont des actifs différents.
 
 1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Toutes les demandes de maintenance**.
-2. Avant de pouvoir créer un ordre de travail à partir de demandes de maintenance, vous devez au minimum sélectionner un type de travail de maintenance pour les demandes de maintenance, ainsi qu'une variante et un échange de type de travail de maintenance, si ces informations sont pertinentes. Dans la vue Grille, vous pouvez facilement mettre à jour les informations de mise à jour pour une demande de maintenance.
+2. Avant de pouvoir créer un ordre de travail à partir de demandes de maintenance, vous devez au minimum sélectionner un type de travail de maintenance pour les demandes de maintenance, ainsi qu’une variante et un échange de type de travail de maintenance, si ces informations sont pertinentes. Dans la vue Grille, vous pouvez facilement mettre à jour les informations de mise à jour pour une demande de maintenance.
 3. Lorsque vous êtes prêt(e) à créer un ordre de travail, sélectionnez les demandes de maintenance à inclure dans celui-ci.
 
     - Si vous sélectionnez plusieurs demandes de maintenance à convertir en ordre de travail, le champ **Actif** et le champ **Type de tâche de maintenance** doivent être définis avant de créer les ordres de travail.
-    - Si vous sélectionnez une demande de maintenance à convertir en ordre de travail, seul le champ **Actif** doit être défini avant de créer les ordres de travail. Toutefois, lorsque vous créez l'ordre de travail, vous pouvez sélectionner un type de travail de maintenance (et une variante de type de travail de maintenance et un échange associés, si cette information est pertinente) dans la boîte de dialogue **Créer un ordre de travail**.
+    - Si vous sélectionnez une demande de maintenance à convertir en ordre de travail, seul le champ **Actif** doit être défini avant de créer les ordres de travail. Toutefois, lorsque vous créez l’ordre de travail, vous pouvez sélectionner un type de travail de maintenance (et une variante de type de travail de maintenance et un échange associés, si cette information est pertinente) dans la boîte de dialogue **Créer un ordre de travail**.
 
 4. Sélectionnez **Ordre de travail**.
 5. Dans la boîte de dialogue **Créer un ordre de travail**, définissez les champs, puis les sélectionnez **OK**.
 
-    Une barre de message peut vous informer qu'un ordre de travail récent a été créé.
+    Une barre de message peut vous informer qu’un ordre de travail récent a été créé.
 
-    En outre, lorsque vous créez un ordre de travail basé sur une demande de maintenance, si l'actif associé à la demande de maintenance est inclus dans un contrat de garantie, une barre de message vous avertit du contrat de garantie.
+    En outre, lorsque vous créez un ordre de travail basé sur une demande de maintenance, si l’actif associé à la demande de maintenance est inclus dans un contrat de garantie, une barre de message vous avertit du contrat de garantie.
 
 6. Sélectionnez **Gestion des actifs** \> **Commun** \> **Ordres de travail** \> **Tous les ordres de travail**, puis ouvrez le nouvel ordre de travail.
 

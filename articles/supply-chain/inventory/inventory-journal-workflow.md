@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 596182dfd7430e4d1e35ffebb795fbcf98d45e33
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011670"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247908"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Workflows d’approbation du journal de stock
 
@@ -31,12 +31,12 @@ Cette rubrique décrit comment paramétrer et utiliser des workflows d’approba
 > [!NOTE]
 > Les workflows d’approbation du journal de stock s’appliquent uniquement aux transactions enregistrées à l’aide du module Gestion des stocks. Ils ne fonctionnent pas avec les journaux de stock déclenchés à partir du module Gestion des entrepôts.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Activer la fonctionnalité de workflows d'approbation du journal de stock
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Activer la fonctionnalité de workflows d’approbation du journal de stock
 
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des stocks et des entrepôts*
-- **Nom de la fonctionnalité :** *Workflow d'approbation du journal de stock*
+- **Nom de la fonctionnalité :** *Workflow d’approbation du journal de stock*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Créer vos workflows d’approbation du journal de stock
 

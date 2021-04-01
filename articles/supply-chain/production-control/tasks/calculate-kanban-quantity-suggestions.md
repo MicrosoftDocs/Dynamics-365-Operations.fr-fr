@@ -1,6 +1,6 @@
 ---
 title: Calculer des suggestions de quantité de kanban
-description: Cette procédure est orientée sur l'optimisation de la taille et des quantités de kanban pour une règle de kanban spécifique à l'aide du calcul de quantité de kanban.
+description: Cette procédure est orientée sur l’optimisation de la taille et des quantités de kanban pour une règle de kanban spécifique à l’aide du calcul de quantité de kanban.
 author: ChristianRytt
 manager: tfehr
 ms.date: 11/11/2016
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e7343d0a9ea3082a3fad90bdcbb8962e56c70a4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 409903740413994fead3f65b12afb414ca5c43ed
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981379"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255395"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Calculer des suggestions de quantité de kanban
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure est orientée sur l'optimisation de la taille et des quantités de kanban pour une règle de kanban spécifique à l'aide du calcul de quantité de kanban. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au responsable de la chaîne de valeur. Vous devez absolument avoir effectué la procédure Ajouter une stratégie de calcul de quantité kanban à une règle de kanban.
+Cette procédure est orientée sur l’optimisation de la taille et des quantités de kanban pour une règle de kanban spécifique à l’aide du calcul de quantité de kanban. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au responsable de la chaîne de valeur. Vous devez absolument avoir effectué la procédure Ajouter une stratégie de calcul de quantité kanban à une règle de kanban.
 
 
 ## <a name="create-a-kanban-quantity-calculation"></a>Créer un calcul de quantité de kanban
@@ -36,16 +36,16 @@ Cette procédure est orientée sur l'optimisation de la taille et des quantités
 4. Dans le champ Nom, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
     * Sélectionnez la stratégie que vous avez créée dans la procédure Ajouter une stratégie de calcul de quantité kanban à une règle de kanban. Par exemple, Speaker2016.  
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-6. Dans le champ Date d'activation de la règle, définissez la date et l'heure comme suit : « 17-12-2012T08:00:00 ».
+6. Dans le champ Date d’activation de la règle, définissez la date et l’heure comme suit : « 17-12-2012T08:00:00 ».
     * Cette date sert de base à la détermination des règles de kanban fixes à inclure dans le calcul de la quantité de kanban.  
-7. Dans le champ Date de début de la période pour les demandes satisfaites, définissez la date et l'heure comme suit « 17-11-2012T09:00:00 ».
+7. Dans le champ Date de début de la période pour les demandes satisfaites, définissez la date et l’heure comme suit « 17-11-2012T09:00:00 ».
     * La date à partir de laquelle les transactions des demandes passées sont incluses dans le calcul de la quantité de kanban.  
-8. Dans le champ Date de fin de la période pour les demandes satisfaites, définissez la date et l'heure comme suit « 17-12-2012T07:59:59 ».
-    * La date jusqu'à laquelle les transactions des demandes passées sont incluses dans le calcul de la quantité de kanban.  
-9. Dans le champ Date de début de la période de demande, définissez la date et l'heure comme suit « 17-12-2012T08:00:00 ».
+8. Dans le champ Date de fin de la période pour les demandes satisfaites, définissez la date et l’heure comme suit « 17-12-2012T07:59:59 ».
+    * La date jusqu’à laquelle les transactions des demandes passées sont incluses dans le calcul de la quantité de kanban.  
+9. Dans le champ Date de début de la période de demande, définissez la date et l’heure comme suit « 17-12-2012T08:00:00 ».
     * La date à partir de laquelle les transactions des demandes actuelles sont incluses dans le calcul de la quantité de kanban.  
-10. Dans le champ Date de fin de la période de demande, définissez la date et l'heure comme suit « 16-01-2013T07:59:59 ».
-    * La date jusqu'à laquelle les transactions des demandes actuelles sont incluses dans le calcul de la quantité de kanban.  
+10. Dans le champ Date de fin de la période de demande, définissez la date et l’heure comme suit « 16-01-2013T07:59:59 ».
+    * La date jusqu’à laquelle les transactions des demandes actuelles sont incluses dans le calcul de la quantité de kanban.  
 
 ## <a name="generate-kanban-quantity-proposal"></a>Générer une proposition de quantité de kanban
 1. Cliquez sur Enregistrer.
@@ -63,12 +63,12 @@ Cette procédure est orientée sur l'optimisation de la taille et des quantités
 1. Définissez la quantité de produit sur 5.
 2. Cliquez sur Calculer.
 3. Cliquez sur OK.
-    * Notez qu'avec une quantité de kanban de 5, la suggestion est alors une quantité de kanban de 4.  
-    * Cela est dû au fait qu'avec une quantité de produits moindre, il faut plus de kanbans pour répondre à la demande.  
+    * Notez qu’avec une quantité de kanban de 5, la suggestion est alors une quantité de kanban de 4.  
+    * Cela est dû au fait qu’avec une quantité de produits moindre, il faut plus de kanbans pour répondre à la demande.  
 
 ## <a name="update-kanban-rule"></a>Mettre à jour la règle de kanban
-1. Entrez une date et une heure dans le champ Date d'effet de la règle.
-    * Définissez « Date d'activation de la règle » sur une date dans le futur. Par exemple, la date du jour + un an.  
+1. Entrez une date et une heure dans le champ Date d’effet de la règle.
+    * Définissez « Date d’activation de la règle » sur une date dans le futur. Par exemple, la date du jour + un an.  
 2. Cliquez sur Mise à jour.
 3. Cliquez sur OK.
 4. Fermez la page.
@@ -76,13 +76,13 @@ Cette procédure est orientée sur l'optimisation de la taille et des quantités
 ## <a name="validate-change-on-kanban-rule"></a>Valider la modification de la règle de kanban
 1. Accédez à Gestion des informations sur les produits > Lean manufacturing > Règles de kanban.
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Sélectionnez la règle de kanban créée dans la tâche précédente. Il doit s'agir de la première règle de kanban de la liste triée par numéro.  
-3. Activez ou désactivez l'extension de la section Détails.
-    * Notez la date d'effet, qui indique que cette règle n'est pas activée jusqu'à cette date.  
-4. Activez ou désactivez l'extension de la section Quantités.
-    * Notez qu'il s'agit de la quantité par défaut entrée dans le calcul de quantité de kanban.  
-    * Notez qu'il s'agit de la quantité de 4 kanban fixe provenant du calcul de quantité de kanban.  
-5. Cliquez sur l'onglet ListPanel.
+    * Sélectionnez la règle de kanban créée dans la tâche précédente. Il doit s’agir de la première règle de kanban de la liste triée par numéro.  
+3. Activez ou désactivez l’extension de la section Détails.
+    * Notez la date d’effet, qui indique que cette règle n’est pas activée jusqu’à cette date.  
+4. Activez ou désactivez l’extension de la section Quantités.
+    * Notez qu’il s’agit de la quantité par défaut entrée dans le calcul de quantité de kanban.  
+    * Notez qu’il s’agit de la quantité de 4 kanban fixe provenant du calcul de quantité de kanban.  
+5. Cliquez sur l’onglet ListPanel.
 
 
 

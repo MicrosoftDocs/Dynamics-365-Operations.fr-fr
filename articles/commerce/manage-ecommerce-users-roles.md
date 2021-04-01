@@ -1,6 +1,6 @@
 ---
 title: Gestion des utilisateurs et des rôles de commerce électronique
-description: Cette rubrique explique comment autoriser les utilisateurs à accéder à l'environnement de création pour votre site Microsoft Dynamics 365 Commerce.
+description: Cette rubrique explique comment autoriser les utilisateurs à accéder à l’environnement de création pour votre site Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
 ms.date: 10/01/2019
@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d4987a824b786401c41c6ae63c8486ce7eb0c5d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a2235a43fd69adddeaba4c29305435db0fa39d64
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995689"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255917"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Gestion des utilisateurs et des rôles de commerce électronique
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment autoriser les utilisateurs à accéder à l'environnement de création pour votre site Microsoft Dynamics 365 Commerce.
+Cette rubrique explique comment autoriser les utilisateurs à accéder à l’environnement de création pour votre site Microsoft Dynamics 365 Commerce.
 
 Pour contrôler l'accès utilisateur et accorder l'autorisation d'effectuer des tâches spécifiques, l'environnement de création de site utilise des groupes de sécurité que vous créez dans Microsoft Azure Active Directory (Azure AD). Vous affectez d'abord un groupe de sécurité; nouveau ou existant, à partir d'Azure AD à chaque rôle de l'environnement de création. Ensuite, vous accordez ou annulez les autorisations d'utilisateurs individuels en ajoutant ces utilisateurs à un groupe de sécurité approprié ou en les supprimant d'un groupe de sécurité.
 

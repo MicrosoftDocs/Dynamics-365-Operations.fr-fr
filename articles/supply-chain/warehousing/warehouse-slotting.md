@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fb39daba393944471ee5d412b1eb61754843926f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0851af976dd73b7f13372880587187f546091bec
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993751"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248593"
 ---
-# <a name="warehouse-slotting"></a>Créneaux de l'entrepôt
+# <a name="warehouse-slotting"></a>Créneaux de l’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,33 +30,33 @@ Plusieurs fonctionnalités de créneaux d’entrepôt sont disponibles pour perm
 
 La *fonctionnalité de créneaux de l’entrepôt* vous permet de consolider la demande par article et unité de mesure à partir des commandes ayant le statut *Commandé*, *Réservé* ou *Validé*. La demande générée peut ensuite être appliquée aux emplacements qui seront utilisés pour le prélèvement, en fonction de la quantité, de l’unité, des dimensions physiques, des emplacements fixes, etc. Une fois le plan des créneaux établi, le travail de réapprovisionnement peut être créé pour apporter la quantité appropriée de stock à chaque emplacement.
 
-La fonctionnalité *Créneaux d'entrepôt pour les ordres de transfert* permet aux responsables d'entrepôt de réapprovisionner les emplacements de prélèvement, en fonction de la demande des ordres de transfert qui ne sont pas encore validés vers l'entrepôt. Cela garantit que les lieux de prélèvement incluront tous les articles requis pour les ordres de transfert après leur sortie dans l'entrepôt. Cette fonctionnalité nécessite que vous activiez également la fonctionnalité *Fonctionnalité de créneaux d'entrepôt*.
+La fonctionnalité *Créneaux d’entrepôt pour les ordres de transfert* permet aux responsables d’entrepôt de réapprovisionner les emplacements de prélèvement, en fonction de la demande des ordres de transfert qui ne sont pas encore validés vers l’entrepôt. Cela garantit que les lieux de prélèvement incluront tous les articles requis pour les ordres de transfert après leur sortie dans l’entrepôt. Cette fonctionnalité nécessite que vous activiez également la fonctionnalité *Fonctionnalité de créneaux d’entrepôt*.
 
-La fonctionnalité *Améliorations de l'allocation des créneaux d'entrepôt* ajoute une option pour les exemples de lignes utilisées par la fonctionnalité *Fonctionnalité de créneaux d'entrepôt*. L'option permet au système de prendre en compte le stock disponible existant à un emplacement cible. Par conséquent, moins de réapprovisionnements peuvent être générés pour les créneaux. La fonctionnalité *Améliorations de l'allocation des créneaux d'entrepôt* nécessite que vous activiez la fonctionnalité *Fonctionnalité de créneaux d'entrepôt*. Il peut éventuellement être utilisé avec la fonctionnalité *Créneaux d'entrepôt pour les ordres de transfert*.
+La fonctionnalité *Améliorations de l’allocation des créneaux d’entrepôt* ajoute une option pour les exemples de lignes utilisées par la fonctionnalité *Fonctionnalité de créneaux d’entrepôt*. L’option permet au système de prendre en compte le stock disponible existant à un emplacement cible. Par conséquent, moins de réapprovisionnements peuvent être générés pour les créneaux. La fonctionnalité *Améliorations de l’allocation des créneaux d’entrepôt* nécessite que vous activiez la fonctionnalité *Fonctionnalité de créneaux d’entrepôt*. Il peut éventuellement être utilisé avec la fonctionnalité *Créneaux d’entrepôt pour les ordres de transfert*.
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Activer les fonctionnalités de créneaux d’entrepôt
 
 Avant de pouvoir utiliser ces fonctionnalités, vous devez les activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut des fonctionnalités et les activer si nécessaire. Activez les fonctionnalités suivantes selon vos besoins :
 
 - Fonction Entreposage
-- Créneaux d'entrepôt pour les ordres de transfert
+- Créneaux d’entrepôt pour les ordres de transfert
 
     > [!IMPORTANT]
-    > La fonctionnalité *Fonctionnalité de créneaux d'entrepôt* doit être activée avant cette fonctionnalité.
+    > La fonctionnalité *Fonctionnalité de créneaux d’entrepôt* doit être activée avant cette fonctionnalité.
 
 - Améliorations de la répartition des créneaux d’entrepôt
 
     > [!IMPORTANT]
-    > La fonctionnalité *Fonctionnalité de créneaux d'entrepôt* doit être activée avant cette fonctionnalité.
+    > La fonctionnalité *Fonctionnalité de créneaux d’entrepôt* doit être activée avant cette fonctionnalité.
 
 ## <a name="set-up-warehouse-slotting"></a>Paramétrer les créneaux d’entrepôt
 
 Pour utiliser les créneaux d’entrepôt, configurez les éléments suivants dans votre système :
 
-- Barèmes d'unité de mesure des créneaux
+- Barèmes d’unité de mesure des créneaux
 - Codes instructions
 - Modèles de créneaux
-- Instructions d'emplacement
+- Instructions d’emplacement
 
 ### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a>Créer des niveaux d’unité de mesure pour les créneaux
 
@@ -64,7 +64,7 @@ Les niveaux d’unité de mesure permettent de regrouper plusieurs unités de me
 
 1. Allez à **Gestion des entrepôts \> Paramétrer \> Réapprovisionnement \> Unité de mesure des niveaux de créneaux**.
 1. Sélectionnez **Nouveau**.
-1. Dans l'en-tête, définissez les valeurs suivantes :
+1. Dans l’en-tête, définissez les valeurs suivantes :
 
     - **Niveau d’unité de mesure :** *EaBoxPl*
     - **Description :** *Chaque palette de boîte*
@@ -111,7 +111,7 @@ Chaque modèle de créneau contrôle la façon dont le stock est affecté aux em
 
 Ensuite, vous devez configurer l’en-tête du modèle, les spécifications de créneau et les directives d’emplacement, comme expliqué dans les sous-sections suivantes. La configuration des créneaux des ordres de transfert ressemble à la configuration des créneaux des commandes client, mais le champ **Type de demande** est défini sur *Ordres de transfert* au lieu de *Commande client*.
 
-#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>Configurer l'en-tête d'un modèle de créneau de commande client
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>Configurer l’en-tête d’un modèle de créneau de commande client
 
 1. Dans l’en-tête du modèle, définissez les valeurs suivantes :
 
@@ -120,7 +120,7 @@ Ensuite, vous devez configurer l’en-tête du modèle, les spécifications de c
     - **Type de demande :** *Commande client*
 
         > [!NOTE]
-        > Actuellement, les *Commandes client* et les *Ordres de transfert* sont les seuls types de demandes pris en charge. Vous pouvez sélectionner *Ordres de transfert* seulement si la fonctionnalité *Créneaux d'entrepôt pour les ordres de transfert* est activée.
+        > Actuellement, les *Commandes client* et les *Ordres de transfert* sont les seuls types de demandes pris en charge. Vous pouvez sélectionner *Ordres de transfert* seulement si la fonctionnalité *Créneaux d’entrepôt pour les ordres de transfert* est activée.
 
     - **Stratégie de demande :** _Commandé_
 
@@ -166,7 +166,7 @@ Pour chaque modèle de commande client que vous créez, procédez comme suit pou
 
         - **Supposer un emplacement vide** - Ce système doit supposer que tous les emplacements dans la zone de prélèvement sont vides et ne doit pas vérifier ces emplacements pour le stock.
         - **Tenir compte de la quantité** - Le système doit vérifier le stock des emplacements dans la zone de prélèvement et doit ignorer les emplacements non vides.
-        - **Considérer comme disponible** – Le système doit vérifier si un emplacement cible contient des quantités non réservées pour l'article sur la ligne de demande. Si la quantité est suffisamment grande pour satisfaire au moins une unité de la ligne de demande, l'enregistrement de plan de créneau généré est réduit du montant disponible. Par exemple, si la demande est de 10 cartons et qu'un carton est disponible, la demande localisée sera de neuf cartons. Si la demande est de 10 cartons et qu'un de chaque est disponible, la demande localisée sera de 10 cartons. Cette valeur n’est disponible que lorsque la fonctionnalité *Améliorations de la répartition des créneaux d’entrepôt* est activée.
+        - **Considérer comme disponible** – Le système doit vérifier si un emplacement cible contient des quantités non réservées pour l’article sur la ligne de demande. Si la quantité est suffisamment grande pour satisfaire au moins une unité de la ligne de demande, l’enregistrement de plan de créneau généré est réduit du montant disponible. Par exemple, si la demande est de 10 cartons et qu’un carton est disponible, la demande localisée sera de neuf cartons. Si la demande est de 10 cartons et qu’un de chaque est disponible, la demande localisée sera de 10 cartons. Cette valeur n’est disponible que lorsque la fonctionnalité *Améliorations de la répartition des créneaux d’entrepôt* est activée.
 
     - **Code de directive :** _Créneau_
 
@@ -189,7 +189,7 @@ Pour chaque modèle de commande client que vous créez, procédez comme suit pou
         - **N’utiliser des emplacements fixes que pour la variante de produit** - Le système ne doit créer des créneaux qu’aux emplacements qui sont fixes pour la variante de produit.
 
 > [!NOTE]
-> Si l'exemple de créneau contient au moins une ligne où le champ **Attribuer des critères de créneau** est défini sur *Considérer comme disponible*, les creux ne sont plus autorisés pour aucune ligne du modèle.
+> Si l’exemple de créneau contient au moins une ligne où le champ **Attribuer des critères de créneau** est défini sur *Considérer comme disponible*, les creux ne sont plus autorisés pour aucune ligne du modèle.
 
 1. Sélectionnez **Enregistrer**.
 1. Cliquez sur **Nouveau** pour créer une seconde ligne de modèle.
@@ -211,7 +211,7 @@ Pour chaque modèle de commande client que vous créez, procédez comme suit pou
 
 1. Sélectionnez la ligne où le champ **Séquence** est défini sur *2*.
 1. Sélectionnez **Modifier une requête**.
-1. Sous l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Emplacements*
@@ -225,7 +225,7 @@ Pour chaque modèle de commande client que vous créez, procédez comme suit pou
 
 Au moins une directive d’emplacement doit être configurée pour prendre en charge les choix de créneau. Utilisez les procédures de cette section pour configurer une nouvelle *directive sur l’emplacement de réapprovisionnement* pour les pics de créneaux.
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
+1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
 1. Dans le volet gauche, dans le champ **Type d’ordre de travail**, cliquez sur *Réapprovisionnement*.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans l’en-tête de la nouvelle directive d’emplacement, dans le champ **Nom**, entrez *Prélèvement de créneau 61*.
@@ -240,7 +240,7 @@ Au moins une directive d’emplacement doit être configurée pour prendre en ch
     - **Entrepôt :** _61_
     - **Code de directive :** _Créneau_
 
-1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Lignes** disponible.
+1. Sélectionnez **Enregistrer** pour rendre l’organisateur **Lignes** disponible.
 
 ##### <a name="configure-the-lines-fasttab"></a>Configurer l’organisateur Lignes
 
@@ -251,7 +251,7 @@ Au moins une directive d’emplacement doit être configurée pour prendre en ch
     - **Quantité d’arrivée :** _1000000_
 
 1. Acceptez les valeurs par défaut pour les champs restants.
-1. Sélectionnez **Enregistrer** pour rendre l'organisateur **Actions d'instruction d'emplacement** disponible.
+1. Sélectionnez **Enregistrer** pour rendre l’organisateur **Actions d’instruction d’emplacement** disponible.
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Configurer l’organisateur Actions des directives d’emplacement
 
@@ -268,7 +268,7 @@ Au moins une directive d’emplacement doit être configurée pour prendre en ch
 ##### <a name="edit-the-query"></a>Modifier la requête
 
 1. Dans l’organisateur **Actions de directive d’emplacement**, sélectionnez **Modifier la requête**.
-1. Sous l'onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
+1. Sous l’onglet **Plage**, sélectionnez **Ajouter** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Table :** *Emplacements*
@@ -350,9 +350,9 @@ Le plan de créneau indique l’emplacement auquel chaque article/quantité a é
 
 > [!NOTE]
 > - Les processus **Générer une demande**, **Localiser une demande**, et **Exécuter le réapprovisionnement** sont maintenant exécutés dans un bac à sable. (Ces processus sont disponibles dans le volet Actions sur la page **Exemples de créneaux**.)
-> - Les processus **Générer une demande**, **Localiser une demande**, et **Exécuter le réapprovisionnement** ont un verrou pour s'assurer qu'ils ne peuvent pas être déclenchés en même temps. Sinon, les données utilisées pourraient être supprimées.
-> - Les processus **Générer une demande** et **Localiser une demande** affichent un avertissement si l'exécution n'a pas généré d'enregistrements ou si les enregistrements ne contiennent pas d'informations.
-> - Lorsque vous sélectionnez **Plan de créneaux**, la page n'a pas les boutons **Nouveau**, **Modifier** ou **Supprimer** du volet Actions, car la source de données ne peut pas être modifiée.
+> - Les processus **Générer une demande**, **Localiser une demande**, et **Exécuter le réapprovisionnement** ont un verrou pour s’assurer qu’ils ne peuvent pas être déclenchés en même temps. Sinon, les données utilisées pourraient être supprimées.
+> - Les processus **Générer une demande** et **Localiser une demande** affichent un avertissement si l’exécution n’a pas généré d’enregistrements ou si les enregistrements ne contiennent pas d’informations.
+> - Lorsque vous sélectionnez **Plan de créneaux**, la page n’a pas les boutons **Nouveau**, **Modifier** ou **Supprimer** du volet Actions, car la source de données ne peut pas être modifiée.
 > - Lorsque vous sélectionnez **Exécuter le réapprovisionnement**, le système valide le modèle de créneau sélectionné et traite.
 
 #### <a name="create-replenishment"></a>Créer un réapprovisionnement

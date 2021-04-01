@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e1353b3576270e9f0c202b85628fae4f49c882f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ade35eee21585aed2f542f4c977788aa3fe8804b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256133"
 ---
 # <a name="service-templates"></a>Modèles de service
 
@@ -37,18 +37,18 @@ Un client pour lequel vous fournissez un service possède des ascenseurs de serv
 Vous souhaitez paramétrer cinq accords de service pour le client, un pour chaque site.
 Pour un travail répétitif de paramétrage et pour vous assurer que les informations de paramétrage sont identiques dans les accords de services, vous créez un accord de service et le spécifiez comme modèle pour la tâche de service sur les ascenseurs.
 
-À présent, vous pouvez copier les lignes de modèle dans les cinq nouveaux accords de service pour que chacun d'entre eux contienne les lignes du modèle.
+À présent, vous pouvez copier les lignes de modèle dans les cinq nouveaux accords de service pour que chacun d’entre eux contienne les lignes du modèle.
 
 ## <a name="create-a-template"></a>Créer un modèle
 
-Lorsque vous créez un modèle de service, créez un accord de service, ainsi que les lignes requises dans celui-ci, puis associez l'accord de service à un groupe de modèles de service.
+Lorsque vous créez un modèle de service, créez un accord de service, ainsi que les lignes requises dans celui-ci, puis associez l’accord de service à un groupe de modèles de service.
 
 > [!NOTE]
-> Un accord de service peut uniquement être défini comme un modèle si aucune commande de service ne lui est associée. De la même manière, aucune commande de service ne peut être générée à partir d'un accord de service qui est défini comme un modèle.
+> Un accord de service peut uniquement être défini comme un modèle si aucune commande de service ne lui est associée. De la même manière, aucune commande de service ne peut être générée à partir d’un accord de service qui est défini comme un modèle.
 
 ## <a name="copy-template-lines"></a>Copier les lignes de modèle
 
-Vous pouvez copier des lignes d'un modèle de service dans un autre accord de service ou dans une commande de service.
+Vous pouvez copier des lignes d’un modèle de service dans un autre accord de service ou dans une commande de service.
 
 Lorsque vous copiez des lignes de modèle dans vos commandes de service ou accords de service, vos groupes de modèles sont affichés dans une arborescence où chaque groupe peut être développé. Cet affichage vous permet de visualiser chaque modèle et ligne de modèle.
 

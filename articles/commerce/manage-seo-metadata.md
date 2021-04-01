@@ -1,6 +1,6 @@
 ---
 title: Gestion des métadonnées SEO
-description: Cette rubrique décrit la procédure de gestion des métadonnées d'optimisation de moteur de recherche (SEO) dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit la procédure de gestion des métadonnées d’optimisation de moteur de recherche (SEO) dans Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7cf9e76ffb30ee5c8bba318b2644e67c757bff0
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 00942befef9f9b6a878766bbbb5341426e31db2c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252604"
 ---
 # <a name="manage-seo-metadata"></a>Gestion des métadonnées SEO
 
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit la procédure de gestion des métadonnées d'optimisation de moteur de recherche (SEO) dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit la procédure de gestion des métadonnées d’optimisation de moteur de recherche (SEO) dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
+## <a name="overview"></a>Vue d’ensemble
 
 Les métadonnées SEO pour un site peuvent être gérées à l'aide des métadonnées de plans et de pages du site.
     

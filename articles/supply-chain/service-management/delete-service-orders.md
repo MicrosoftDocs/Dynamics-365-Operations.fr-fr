@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8970857814168334ce5b9936c96112568a488db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a141ec1574dbd1cbbf4640063999797c711a8d72
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974508"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247428"
 ---
 # <a name="delete-service-orders"></a>Supprimer des commandes de service 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4974508"
 
 1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Commandes de service** \> **Supprimer des commandes de service**.
 
-2.  Dans l'écran **Supprimer des commandes de service**, cliquez sur **Sélectionner** pour spécifier les critères de sélection des commandes de service à supprimer, puis cliquez sur **OK**.
+2.  Dans l’écran **Supprimer des commandes de service**, cliquez sur **Sélectionner** pour spécifier les critères de sélection des commandes de service à supprimer, puis cliquez sur **OK**.
 
 3.  Activez la case à cocher **Afficher Infos** pour générer une fenêtre Infos affichant les commandes de service supprimées.
 
@@ -39,7 +39,7 @@ ms.locfileid: "4974508"
 
 
 > [!NOTE]
-> <P>Si vous ne spécifiez pas de critères de sélection des commandes de service, toutes les commandes de service sont supprimées. Néanmoins, lorsque vous quittez l'écran <STRONG>Supprimer des commandes de service</STRONG>, vous avez la possibilité de supprimer toutes les commandes de service.</P>
+> <P>Si vous ne spécifiez pas de critères de sélection des commandes de service, toutes les commandes de service sont supprimées. Néanmoins, lorsque vous quittez l’écran <STRONG>Supprimer des commandes de service</STRONG>, vous avez la possibilité de supprimer toutes les commandes de service.</P>
 > <P>Par ailleurs, vous ne pouvez supprimer que les commandes de service dont le stade permet la suppression.</P>
 
 

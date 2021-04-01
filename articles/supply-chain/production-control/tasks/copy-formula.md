@@ -1,6 +1,6 @@
 ---
 title: Copier une formule
-description: Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures.
+description: Cette procédure se focalise sur la création d’une formule incluant les mêmes ingrédients qu’une formule existante, mais avec des différences mineures.
 author: ShylaThompson
 manager: tfehr
 ms.date: 11/11/2016
@@ -15,37 +15,37 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0643209f7ef5090684db693bea2483fadcf3760b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cdeeb760ab6bb00cefc6b358e53996dd652e5bc6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255323"
 ---
 # <a name="copy-a-formula"></a>Copier une formule
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure se focalise sur la création d'une formule incluant les mêmes ingrédients qu'une formule existante, mais avec des différences mineures. Pour créer les lignes de la formule, vous pouvez utiliser la fonction Copie pour copier une formule existante qui a la plupart des ingrédients dont vous avez besoin. Vous pouvez ensuite effectuer toutes les modifications nécessaires aux différentes lignes dans la nouvelle version. En utilisant la fonction Copie, il n'est pas nécessaire de créer plusieurs formules qui sont presque identiques. La société fictive de démonstration utilisée pour créer cette tâche est USP2.
+Cette procédure se focalise sur la création d’une formule incluant les mêmes ingrédients qu’une formule existante, mais avec des différences mineures. Pour créer les lignes de la formule, vous pouvez utiliser la fonction Copie pour copier une formule existante qui a la plupart des ingrédients dont vous avez besoin. Vous pouvez ensuite effectuer toutes les modifications nécessaires aux différentes lignes dans la nouvelle version. En utilisant la fonction Copie, il n’est pas nécessaire de créer plusieurs formules qui sont presque identiques. La société fictive de démonstration utilisée pour créer cette tâche est USP2.
 
 
-## <a name="create-a-formula"></a>Création d'une formule
-1. Accédez à Gestion d'informations sur les produits > Nomenclatures et formules > Formules.
+## <a name="create-a-formula"></a>Création d’une formule
+1. Accédez à Gestion d’informations sur les produits > Nomenclatures et formules > Formules.
 2. Cliquez sur Nouveau.
 3. Dans le champ Formule, tapez une valeur.
 4. Tapez une valeur dans le champ Nom.
     * Tapez un nom descriptif pour la formule.  
 5. Dans le champ Site, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-7. Dans le champ Groupe d'articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-8. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+7. Dans le champ Groupe d’articles, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+8. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 9. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 10. Cliquez sur Enregistrer.
 
 ## <a name="copy-formula-lines"></a>Copier des lignes de formule
 1. Dans le volet Actions, cliquez sur Formule.
 2. Cliquez sur Copier.
-3. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+3. Dans le champ Numéro d’article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 5. Dans le champ Version de la formule, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.

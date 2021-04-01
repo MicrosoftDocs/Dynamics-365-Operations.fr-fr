@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97cccc0d27d1154d8f8cb5018cf5040efcf190a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1bc3addb11d77a5098e80a5826bfea289d232548
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001772"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254285"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Afficher le besoin prévisionnel intersociétés en sortie
 
@@ -38,9 +38,9 @@ Cette procédure indique comment afficher tous les ordres prévisionnels qui ser
     * Cette opération peut prendre du temps.  
 6. Cliquez sur Besoin prévisionnel intersociétés.
 7. Cliquez sur Besoin prévisionnel intersociétés en sortie.
-    * Cette page fournit une vue d'ensemble de la demande planifiée qui sera honorée par un fournisseur de la chaîne d'approvisionnement interne.  
+    * Cette page fournit une vue d’ensemble de la demande planifiée qui sera honorée par un fournisseur de la chaîne d’approvisionnement interne.  
 8. Développez la section Détails du besoin en amont.
-    * Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée. Vous devrez attendre l'exécution de la planification dans la société d'approvisionnement avant de pouvoir consulter les informations supplémentaires ici.  
+    * Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée. Vous devrez attendre l’exécution de la planification dans la société d’approvisionnement avant de pouvoir consulter les informations supplémentaires ici.  
 
 
 

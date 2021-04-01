@@ -1,6 +1,6 @@
 ---
 title: Créer une règle de kanban pour des activités multiples
-description: Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d'un flux de production.
+description: Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d’un flux de production.
 author: ChristianRytt
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c25d47a78d1cc91ee2625ef628d7b9ba345b097
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcf507611d7f85800b2012e8372d5f91bbc8d724
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977911"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255179"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>Créer une règle de kanban pour des activités multiples
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d'un flux de production. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l'ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d'un produit nouveau ou modifié dans un environnement lean.
+Cette procédure montre comment créer une règle de kanban qui inclut des activités multiples à partir d’un flux de production. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à l’ingénieur processus ou au responsable de la chaîne de valeur, car ils préparent la production d’un produit nouveau ou modifié dans un environnement lean.
 
 
 ## <a name="create-a-new-kanban-rule"></a>Créer une règle de kanban
@@ -37,12 +37,12 @@ Cette procédure montre comment créer une règle de kanban qui inclut des activ
 4. Entrez ou sélectionnez une valeur dans le champ Première activité de plan.
     * Sélectionnez SpeakerAssemblyAndPolish.  
 5. Choisissez la case à cocher Plusieurs activités.
-    * Le but est d'inclure plus d'une activité dans la règle de kanban. Vous devez choisir un chemin dans le flux de production quand vous choisissez la dernière activité du plan.  
+    * Le but est d’inclure plus d’une activité dans la règle de kanban. Vous devez choisir un chemin dans le flux de production quand vous choisissez la dernière activité du plan.  
 6. Entrez ou sélectionnez une valeur dans le champ Dernière activité de plan.
-    * Sélectionnez « SpeakerTestAndPackaging ». Une page s'ouvre automatiquement quand vous avez sélectionné la valeur. Sélectionnez le flux kanban SpeakerAssemblyAndPolish > SpeakerTestAndPackaging. Cliquez sur OK.  
+    * Sélectionnez « SpeakerTestAndPackaging ». Une page s’ouvre automatiquement quand vous avez sélectionné la valeur. Sélectionnez le flux kanban SpeakerAssemblyAndPolish > SpeakerTestAndPackaging. Cliquez sur OK.  
 7. Développez la section Détails.
 8. Dans le champ Produit, saisissez ou sélectionnez une valeur.
-    * Sélectionner l'article L0006.  
+    * Sélectionner l’article L0006.  
 
 ## <a name="create-kanban-and-view-jobs"></a>Créer un kanban et afficher les tâches
 1. Développer la section Kanbans.
@@ -51,12 +51,12 @@ Cette procédure montre comment créer une règle de kanban qui inclut des activ
     * Cette opération crée un kanban.  
 4. Définissez la quantité de produit sur 3.
     * Kanban traitera 3 produits.  
-5. Entrez une date et une heure dans le champ Date/heure d'échéance.
-    * Vous pouvez entrer Aujourd'hui.  
+5. Entrez une date et une heure dans le champ Date/heure d’échéance.
+    * Vous pouvez entrer Aujourd’hui.  
 6. Cliquez sur Créer.
 7. Cliquez sur Détails.
-    * Notez que le kanban a deux opérations de traitement à partir d'un flux de production. La première est SpeakerAssemblyAndPolish, et la deuxième est SpeakerTestAndPackaging.  
-    * Il s'agit de la dernière étape.  
+    * Notez que le kanban a deux opérations de traitement à partir d’un flux de production. La première est SpeakerAssemblyAndPolish, et la deuxième est SpeakerTestAndPackaging.  
+    * Il s’agit de la dernière étape.  
 
 
 
