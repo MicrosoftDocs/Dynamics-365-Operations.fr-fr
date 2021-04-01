@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e0e1989bcc4ca02d097f9ebff40f21158f26546
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ba77197f51b871f452c2aa94320aa2a68cf314df
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981354"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255371"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Modifier les règles de kanban pour une tâche de traitement
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure traite de la modification de la règle de kanban utilisée pour un kanban donné. Cela est utile pour l'équilibrage de charge des ressources ou en cas de panne. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au planificateur, travaillant pour une société de lean manufacturing, responsable de la chaîne de valeur.
+Cette procédure traite de la modification de la règle de kanban utilisée pour un kanban donné. Cela est utile pour l’équilibrage de charge des ressources ou en cas de panne. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au planificateur, travaillant pour une société de lean manufacturing, responsable de la chaîne de valeur.
 
 
 ## <a name="copy-kanban-rule"></a>Copier une règle de kanban
 1. Accédez aux règles de kanban.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Sélectionnez la règle de kanban d'événement 000022 pour L0001.  
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+    * Sélectionnez la règle de kanban d’événement 000022 pour L0001.  
 3. Cliquez sur Dupliquer une règle de kanban.
 4. Cliquez sur OK.
 
@@ -44,9 +44,9 @@ Cette procédure traite de la modification de la règle de kanban utilisée pour
 4. Cliquez sur Utiliser une autre règle de kanban.
 5. Cliquez sur Suivant.
 6. Dans le champ Règle de kanban, saisissez ou sélectionnez une valeur.
-    * Sélectionnez la règle de kanban créée précédemment. Il s'agit de la règle de kanban avec le numéro le plus élevé.  
+    * Sélectionnez la règle de kanban créée précédemment. Il s’agit de la règle de kanban avec le numéro le plus élevé.  
 7. Cliquez sur Terminer.
-    * Actuellement, la tâche de kanban utilise une autre règle de kanban. Cela peut être utile pour l'équilibrage de charge des cellules de travail.  
+    * Actuellement, la tâche de kanban utilise une autre règle de kanban. Cela peut être utile pour l’équilibrage de charge des cellules de travail.  
 
 
 

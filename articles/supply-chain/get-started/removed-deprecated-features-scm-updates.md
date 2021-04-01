@@ -1,6 +1,6 @@
 ---
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
-description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu'il est prévu de supprimer de Dynamics 365 Supply Chain Management.
+description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Supply Chain Management.
 author: kamaybac
 manager: tfehr
 ms.date: 12/07/2020
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9d3faa34812130a040e625a6af4f047c2b8fca08
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154301"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259089"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 
@@ -27,8 +27,8 @@ ms.locfileid: "5154301"
 
 Cette rubrique sera mise à jour à mesure que de nouvelles fonctionnalités supprimées ou obsolètes sont documentées pour Dynamics 365 Supply Chain Management.
 
-- Une fonction *supprimée* n'est plus disponible dans le produit.
-- Une fonction *déconseillée* n'est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
+- Une fonction *supprimée* n’est plus disponible dans le produit.
+- Une fonction *déconseillée* n’est pas en développement actif et peut être supprimée dans une prochaine mise à jour.
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification.
 
@@ -37,7 +37,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.15
 
-### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La prise en charge d'Internet Explorer 11 pour Dynamics 365 est obsolète
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La prise en charge d’Internet Explorer 11 pour Dynamics 365 est obsolète
 
 |   |  |
 |------------|--------------------|
@@ -51,11 +51,11 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 |   |  |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Pour améliorer les performances et minimiser la charge de la base de données SQL lors des exécutions de planification, le moteur de planification de Supply Chain Management intégré est remplacé par l'Optimisation de la planification. Optimisation de la planification permet des cycles de planification rapides qui peuvent être effectués même pendant les heures de bureau. Cela permet aux planificateurs de réagir immédiatement aux changements de la demande ou des paramètres de planification. |
+| **Motif de l’abandon/de la suppression** | Pour améliorer les performances et minimiser la charge de la base de données SQL lors des exécutions de planification, le moteur de planification de Supply Chain Management intégré est remplacé par l’Optimisation de la planification. Optimisation de la planification permet des cycles de planification rapides qui peuvent être effectués même pendant les heures de bureau. Cela permet aux planificateurs de réagir immédiatement aux changements de la demande ou des paramètres de planification. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
-| **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n'est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er octobre 2021, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de fabrication, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d'informations, voir [Documentation relative à Optimisation de la planification](https://go.microsoft.com/fwlink/?linkid=2105830). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de fabrication après octobre 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
+| **État**                         | Obsolète. À partir du 1er octobre 2021, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de fabrication, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](https://go.microsoft.com/fwlink/?linkid=2105830). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de fabrication après octobre 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.11
 
@@ -63,11 +63,11 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 |   |  |
 |------------|--------------------|
-| **Motif de l'abandon/de la suppression** | Pour améliorer les performances et minimiser la charge de la base de données SQL lors des exécutions de planification, le moteur de planification de Supply Chain Management intégré est remplacé par l'Optimisation de la planification. Optimisation de la planification permet des cycles de planification rapides qui peuvent être effectués même pendant les heures de bureau. Cela permet aux planificateurs de réagir immédiatement aux changements de la demande ou des paramètres de planification. |
+| **Motif de l’abandon/de la suppression** | Pour améliorer les performances et minimiser la charge de la base de données SQL lors des exécutions de planification, le moteur de planification de Supply Chain Management intégré est remplacé par l’Optimisation de la planification. Optimisation de la planification permet des cycles de planification rapides qui peuvent être effectués même pendant les heures de bureau. Cela permet aux planificateurs de réagir immédiatement aux changements de la demande ou des paramètres de planification. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
-| **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n'est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er avril 2021, les scénarios de distribution ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de distribution, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d'informations, voir [Documentation relative à Optimisation de la planification](https://go.microsoft.com/fwlink/?linkid=2105830). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de distribution après avril 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
+| **État**                         | Obsolète. À partir du 1er avril 2021, les scénarios de distribution ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de distribution, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](https://go.microsoft.com/fwlink/?linkid=2105830). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de distribution après avril 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annonces précédentes sur les fonctions supprimées ou obsolètes
 

@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32ebea1092ef6d4b700f1c59c394f588e534b127
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 486cf752f6fbe369f867759e1f3957f081d0ed2e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964454"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258678"
 ---
 # <a name="create-a-commitment-to-reserve-budget-funds-for-the-public-sector"></a>Créer un engagement de réserver des fonds budgétaires pour le secteur public
 

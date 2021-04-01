@@ -1,6 +1,6 @@
 ---
 title: Amortissement des coûts constants pour un article fabriqué
-description: Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante.
+description: Les coûts constants d’un article fabriqué reflètent les temps de réglage de l’opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante.
 author: AndersGirke
 manager: tfehr
 ms.date: 04/20/2017
@@ -18,29 +18,29 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 70d2a308f801b1e58585f571355e3a860d99da95
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 765982c5a25ae99667766f7e8a3bd2010ec83b1b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011920"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254309"
 ---
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Amortissement des coûts constants pour un article fabriqué
 
 [!include [banner](../includes/banner.md)]
 
-Les coûts constants d'un article fabriqué reflètent les temps de réglage de l'opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante. 
+Les coûts constants d’un article fabriqué reflètent les temps de réglage de l’opération et les composants pour lesquels la quantité est constante ou la quantité de rebut est constante. 
 
-Le concept de taille du lot d'évaluation des coûts permet d'amortir ces coûts constants dans le coût calculé d'un article fabriqué. Ce concept a plusieurs synonymes, notamment celui de taille de lot comptable. Le concept d'amortissement des coûts constants a également plusieurs synonymes, notamment celui de coûts constants proportionnels.
+Le concept de taille du lot d’évaluation des coûts permet d’amortir ces coûts constants dans le coût calculé d’un article fabriqué. Ce concept a plusieurs synonymes, notamment celui de taille de lot comptable. Le concept d’amortissement des coûts constants a également plusieurs synonymes, notamment celui de coûts constants proportionnels.
 
-La quantité d'une taille de lot d'évaluation des coûts pour un article fabriqué est utilisée dans un calcul de nomenclature. La quantité dépend de la méthode d'initiation et d'exécution du calcul de nomenclature, comme illustré ci-après :
+La quantité d’une taille de lot d’évaluation des coûts pour un article fabriqué est utilisée dans un calcul de nomenclature. La quantité dépend de la méthode d’initiation et d’exécution du calcul de nomenclature, comme illustré ci-après :
 
--   Quantité de calcul par défaut dans le calcul de nomenclature d'un article : la quantité de commande standard de l'article pour le stock fait office de taille du lot d'évaluation des coûts, mais la valeur par défaut peut être égale à une quantité supérieure afin de refléter la quantité multiple de commande de l'article. La quantité commandée standard de l'article et la quantité multiple peuvent être définies dans les paramètres de commande par défaut ou dans les paramètres de commande spécifiques au site.
--   Quantité de calcul spécifiée dans le calcul de nomenclature d'un article : la quantité de calcul spécifiée fait office de taille du lot d'évaluation des coûts pour l'article. Au départ, la quantité de calcul utilise la quantité de commande standard de l'article, mais la valeur par défaut peut être remplacée manuellement. La quantité de commande spécifiée représente la taille du lot d'évaluation des coûts pour l'article spécifié ainsi que pour les composants fabriqués dont la ligne de nomenclature est du type production. Cela est dû au fait que le composant est censé être produit en quantité exacte. La taille du lot d'évaluation des coûts pour les autres composants fabriqués dont la ligne de nomenclature est du type article reflètera leur quantité de commande standard.
--   Quantité de calcul de fabrication à la commande spécifiée dans le calcul de nomenclature d'un article : la quantité de calcul spécifiée fait office de taille du lot d'évaluation des coûts pour l'article et ses composants fabriqués lorsque les calculs de nomenclature utilisent un mode d'éclatement de fabrication à la commande. Les composants fabriqués sont censés être produits en quantité exacte, comme un composant fabriqué dont la ligne de nomenclature est du type production.
--   Quantité de calcul spécifiée dans un calcul de nomenclature spécifique à une commande : un calcul de nomenclature spécifique à une commande peut être réalisé pour une ligne d'une commande client, d'un devis de vente ou d'une commande de service. Par défaut, la quantité de calcul spécifiée utilise la quantité de la ligne d'origine, mais la quantité par défaut peut être remplacée. Vous pouvez décider que le calcul de nomenclature spécifique à une commande utilise un mode d'éclatement de fabrication à la commande ou à plusieurs niveaux.
+-   Quantité de calcul par défaut dans le calcul de nomenclature d’un article : la quantité de commande standard de l’article pour le stock fait office de taille du lot d’évaluation des coûts, mais la valeur par défaut peut être égale à une quantité supérieure afin de refléter la quantité multiple de commande de l’article. La quantité commandée standard de l’article et la quantité multiple peuvent être définies dans les paramètres de commande par défaut ou dans les paramètres de commande spécifiques au site.
+-   Quantité de calcul spécifiée dans le calcul de nomenclature d’un article : la quantité de calcul spécifiée fait office de taille du lot d’évaluation des coûts pour l’article. Au départ, la quantité de calcul utilise la quantité de commande standard de l’article, mais la valeur par défaut peut être remplacée manuellement. La quantité de commande spécifiée représente la taille du lot d’évaluation des coûts pour l’article spécifié ainsi que pour les composants fabriqués dont la ligne de nomenclature est du type production. Cela est dû au fait que le composant est censé être produit en quantité exacte. La taille du lot d’évaluation des coûts pour les autres composants fabriqués dont la ligne de nomenclature est du type article reflètera leur quantité de commande standard.
+-   Quantité de calcul de fabrication à la commande spécifiée dans le calcul de nomenclature d’un article : la quantité de calcul spécifiée fait office de taille du lot d’évaluation des coûts pour l’article et ses composants fabriqués lorsque les calculs de nomenclature utilisent un mode d’éclatement de fabrication à la commande. Les composants fabriqués sont censés être produits en quantité exacte, comme un composant fabriqué dont la ligne de nomenclature est du type production.
+-   Quantité de calcul spécifiée dans un calcul de nomenclature spécifique à une commande : un calcul de nomenclature spécifique à une commande peut être réalisé pour une ligne d’une commande client, d’un devis de vente ou d’une commande de service. Par défaut, la quantité de calcul spécifiée utilise la quantité de la ligne d’origine, mais la quantité par défaut peut être remplacée. Vous pouvez décider que le calcul de nomenclature spécifique à une commande utilise un mode d’éclatement de fabrication à la commande ou à plusieurs niveaux.
 
-Le montant calculé des coûts constants amortis d'un article fabriqué est appelé frais.
+Le montant calculé des coûts constants amortis d’un article fabriqué est appelé frais.
 
 
 

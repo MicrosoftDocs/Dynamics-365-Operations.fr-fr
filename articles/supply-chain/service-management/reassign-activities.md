@@ -1,6 +1,6 @@
 ---
-title: Réaffectation d'activités
-description: Cette rubrique décrit la procédure de réaffectation des activités de service d'un collaborateur à un autre collaborateur.
+title: Réaffectation d’activités
+description: Cette rubrique décrit la procédure de réaffectation des activités de service d’un collaborateur à un autre collaborateur.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/01/2018
@@ -17,43 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 644d40da7dc39e751e625b5c0e2f9493287a3936
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 36631a770bb7970e879814c98a72104bae8db8be
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260971"
 ---
-# <a name="reassign-activities"></a>Réaffectation d'activités 
+# <a name="reassign-activities"></a>Réaffectation d’activités 
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit la procédure de réaffectation des activités de service d'un collaborateur à un autre collaborateur. Vous pouvez réaffecter des activités de service d'un collaborateur à un autre, même s'ils appartiennent à des équipes de répartition différentes.
+Cette rubrique décrit la procédure de réaffectation des activités de service d’un collaborateur à un autre collaborateur. Vous pouvez réaffecter des activités de service d’un collaborateur à un autre, même s’ils appartiennent à des équipes de répartition différentes.
 
 Procédez comme suit pour réaffecter une activité à un autre collaborateur :
 
-1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d'affectation**.
+1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d’affectation**.
 
 2.  Dans les champs **Date de début** et **Date de fin**, entrez les dates pour définir la période et afficher les activités.
 
 3.  Indiquez si vous souhaitez afficher les activités clôturées et les informations de répartition pour les équipes associées, puis cliquez sur **OK**.
 
-4.  Dans l'écran **Tableau d'affectation**, cliquez sur **Avancé** pour afficher uniquement le diagramme de Gantt en haut de la page. Cliquez sur **Simple** pour afficher le diagramme de Gantt et les onglets sur l'écran.
+4.  Dans l’écran **Tableau d’affectation**, cliquez sur **Avancé** pour afficher uniquement le diagramme de Gantt en haut de la page. Cliquez sur **Simple** pour afficher le diagramme de Gantt et les onglets sur l’écran.
 
-5.  Développez chaque liste d'équipe de répartition.
+5.  Développez chaque liste d’équipe de répartition.
 
-6.  Utilisez l'une des méthodes suivantes pour réaffecter une activité :
+6.  Utilisez l’une des méthodes suivantes pour réaffecter une activité :
     
-      - Sélectionnez le graphique à code de couleurs représentant l'activité de service à réattribuer. Appuyez sur la touche MAJ, puis déplacez le graphique à code de couleurs sur la ligne d'un autre employé.
+      - Sélectionnez le graphique à code de couleurs représentant l’activité de service à réattribuer. Appuyez sur la touche MAJ, puis déplacez le graphique à code de couleurs sur la ligne d’un autre employé.
     
-      - Sous l'un des onglets **Tous**, **Équipe**, **Non réparti** ou **Associé**, dans le champ **Collaborateur**, entrez le nom du collaborateur qui remplace le collaborateur actuel pour l'activité.
+      - Sous l’un des onglets **Tous**, **Équipe**, **Non réparti** ou **Associé**, dans le champ **Collaborateur**, entrez le nom du collaborateur qui remplace le collaborateur actuel pour l’activité.
 
 ## <a name="see-also"></a>Voir également :
 
 [Activités de service](service-activities.md)
 
-[Tableau d'affectation](dispatch-board.md)
+[Tableau d’affectation](dispatch-board.md)
 
 
 

@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cbd9d5098196bce18e4625814533fad1eb14654b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ed6131fffa67ff08086a454db1e394936fc9d391
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258137"
 ---
 # <a name="maintain-general-budget-reservations"></a>Tenir à jour les réservations budgétaires générales
 

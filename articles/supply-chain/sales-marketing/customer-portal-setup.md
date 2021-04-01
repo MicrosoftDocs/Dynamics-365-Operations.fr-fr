@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fa95995320a0f81c040eeebe6fd796200fbff13f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255035"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installer, configurer et mettre à jour le portail client
 
@@ -29,12 +29,12 @@ ms.locfileid: "4977736"
 
 Pour implémenter le portail client, vous devez disposer des licences suivantes :
 
-- **Portails Power Apps** – Cette licence est requise pour héberger le portail client. Les licences de portail sont délivrées selon l'utilisation. Pour plus d'informations, voir [Conditions des licences des portails Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
-- **Double écriture** – Vous devez disposer des licences nécessaires pour activer la double écriture pour les tables de Supply Chain Management. Pour plus d'informations, voir [Configuration requise pour la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
+- **Portails Power Apps** – Cette licence est requise pour héberger le portail client. Les licences de portail sont délivrées selon l’utilisation. Pour plus d’informations, voir [Conditions des licences des portails Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- **Double écriture** – Vous devez disposer des licences nécessaires pour activer la double écriture pour les tables de Supply Chain Management. Pour plus d’informations, voir [Configuration requise pour la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dépendances à la double écriture et aux portails Power Apps
 
-Le portail client dépend des portails Power Apps et de la double écriture, comme indiqué dans l'illustration suivante.
+Le portail client dépend des portails Power Apps et de la double écriture, comme indiqué dans l’illustration suivante.
 
 ![Dépendances du portail client](media/customer-portal-elements.png "Dépendances du portail client")
 
@@ -59,18 +59,18 @@ Une fois cette configuration terminée, vous pouvez provisionner le modèle de p
 Avant de commencer, assurez-vous que vous avez déjà terminé la [configuration requise](#required-setup). Suivez ensuite ces étapes pour provisionner le portail client.
 
 1. Accédez à [make.powerapps.com](https://make.powerapps.com/).
-2. Assurez-vous que vous utilisez l'environnement dans lequel vous avez activé la double écriture.
-3. Dans l'onglet **Créer**, défilez jusqu'à la section **Commencer à partir du modèle** et sélectionnez le modèle nommé **Portail client**.
-4. Suivez les instructions à l'écran.
+2. Assurez-vous que vous utilisez l’environnement dans lequel vous avez activé la double écriture.
+3. Dans l’onglet **Créer**, défilez jusqu’à la section **Commencer à partir du modèle** et sélectionnez le modèle nommé **Portail client**.
+4. Suivez les instructions à l’écran.
 
 Une fois le provisionnement terminé, vous pouvez accéder au portail client dans la section **Vos applis** de la page **Accueil**.
 
 > [!NOTE]
-> Si la solution de double écriture n'est pas installée dans l'environnement dans lequel vous travaillez, vous recevrez un message d'erreur et le portail client ne sera pas provisionné.
+> Si la solution de double écriture n’est pas installée dans l’environnement dans lequel vous travaillez, vous recevrez un message d’erreur et le portail client ne sera pas provisionné.
 
 ## <a name="update-the-customer-portal"></a>Mettre à jour le portail client
 
-D'autres fonctionnalités pourront être ajoutées au portail client ultérieurement. Toute modification apportée par Microsoft aux composants de la solution sous-jacente apparaîtra automatiquement dans votre environnement. Cependant, le site web provisionné dans votre environnement ne reflétera pas automatiquement les modifications apportées aux données de configuration. Vous devrez appliquer manuellement ces modifications en récupérant le code du nouveau modèle et en le fusionnant avec le site web provisionné.
+D’autres fonctionnalités pourront être ajoutées au portail client ultérieurement. Toute modification apportée par Microsoft aux composants de la solution sous-jacente apparaîtra automatiquement dans votre environnement. Cependant, le site web provisionné dans votre environnement ne reflétera pas automatiquement les modifications apportées aux données de configuration. Vous devrez appliquer manuellement ces modifications en récupérant le code du nouveau modèle et en le fusionnant avec le site web provisionné.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -83,7 +83,7 @@ Pour gérer efficacement vos portails, vous devez comprendre les portails Power 
 
 - [À propos du cycle de vie des portails](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [Mettre à niveau un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrer la configuration d'un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Migrer la configuration d’un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestion du cycle de vie des solutions : applications Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

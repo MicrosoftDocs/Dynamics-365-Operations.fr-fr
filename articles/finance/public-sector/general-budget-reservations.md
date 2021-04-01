@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1420c6c11b59efe4d01c13f269a65bd02dd76d4d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ae8365cb9f02c41b60be166e3a06d16bd6516163
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964469"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258144"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 

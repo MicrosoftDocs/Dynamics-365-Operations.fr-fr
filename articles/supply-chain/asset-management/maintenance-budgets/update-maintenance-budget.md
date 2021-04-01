@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 21aba6224bba98eb9bbb423847e123616003b5d9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021021"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253468"
 ---
 # <a name="update-maintenance-budgets"></a>Mettre à jour les budgets de maintenance
 
@@ -30,7 +30,7 @@ ms.locfileid: "5021021"
 
  
 
-La page **Lignes du budget de maintenance** présente toutes les lignes du budget créées pour le budget sélectionné sur la page **Budgets de maintenance**. (Pour plus d'informations, voir [Créer des budgets de maintenance](create-maintenance-budget.md).) Vous pouvez recalculer et ajuster les lignes du budget de maintenance jusqu'à ce que le budget de maintenance soit approuvé. Une fois la période du budget écoulée, et si les coûts ont été validés dans le module Gestion des actifs, vous pouvez également mettre à jour les lignes du budget avec les coûts réels.
+La page **Lignes du budget de maintenance** présente toutes les lignes du budget créées pour le budget sélectionné sur la page **Budgets de maintenance**. (Pour plus d’informations, voir [Créer des budgets de maintenance](create-maintenance-budget.md).) Vous pouvez recalculer et ajuster les lignes du budget de maintenance jusqu’à ce que le budget de maintenance soit approuvé. Une fois la période du budget écoulée, et si les coûts ont été validés dans le module Gestion des actifs, vous pouvez également mettre à jour les lignes du budget avec les coûts réels.
 
 ## <a name="recalculate-a-maintenance-budget"></a>Recalculer un budget de maintenance
 
@@ -43,7 +43,7 @@ De nouvelles lignes budgétaires sont créées conformément aux valeurs défini
 
 ## <a name="adjust-budget-lines"></a>Ajuster les lignes budgétaires
 
-Plutôt que de recalculer l'intégralité du budget de maintenance, vous pouvez ajuster les lignes sélectionnées associées aux coûts budgétaires.
+Plutôt que de recalculer l’intégralité du budget de maintenance, vous pouvez ajuster les lignes sélectionnées associées aux coûts budgétaires.
 
 1. Sur la page **Lignes du budget de maintenance**, sélectionnez les lignes pour mettre à jour le coût budgétaire.
 2. Sélectionnez **Ajuster**.
@@ -54,7 +54,7 @@ Plutôt que de recalculer l'intégralité du budget de maintenance, vous pouvez 
 
 5. Cliquez sur **OK**.
 
-Les lignes de budget sélectionnées sont mises à jour selon les valeurs que vous définissez à l'étape 3 ou 4.
+Les lignes de budget sélectionnées sont mises à jour selon les valeurs que vous définissez à l’étape 3 ou 4.
 
 ## <a name="update-actual-costs"></a>Mettre à jour les coûts réels
 
@@ -63,17 +63,17 @@ Une fois les dates des lignes budgétaires écoulées, et les coûts réels vali
 1. Sur la page **Lignes du budget de maintenance**, sélectionnez **Mettre à jour le coût**.
 2. Dans la boîte de dialogue **Calculer le coût réel**, sélectionnez **OK**.
 
-Les champs **Coût réel** sur les lignes du budget sont mis à jour si les coûts réels ont été validés. De nouvelles lignes budgétaires peuvent être générées si les nouveaux types d'actifs ont été créés depuis que vous avez créé le budget et si ces types d'actif ont été utilisés sur les actifs pour lesquels les ordres de travail ont été créés et pour lesquels les coûts associés ont été validés. Les nouvelles lignes budgétaires affichent uniquement les coûts réels, car aucun coût budgétaire n'a été calculé pour elles.
+Les champs **Coût réel** sur les lignes du budget sont mis à jour si les coûts réels ont été validés. De nouvelles lignes budgétaires peuvent être générées si les nouveaux types d’actifs ont été créés depuis que vous avez créé le budget et si ces types d’actif ont été utilisés sur les actifs pour lesquels les ordres de travail ont été créés et pour lesquels les coûts associés ont été validés. Les nouvelles lignes budgétaires affichent uniquement les coûts réels, car aucun coût budgétaire n’a été calculé pour elles.
 
 > [!NOTE]
-> Pour afficher une vue d'ensemble des coûts réels répartis en coûts préventifs, correctifs et d'investissement, vous pouvez effectuer un calcul pour la même période sur la page **Contrôle des coûts d'actifs**. 
+> Pour afficher une vue d’ensemble des coûts réels répartis en coûts préventifs, correctifs et d’investissement, vous pouvez effectuer un calcul pour la même période sur la page **Contrôle des coûts d’actifs**. 
 
 ## <a name="manually-add-budget-lines"></a>Ajouter manuellement des lignes budgétaires
 
 Sur la page **Lignes du budget de maintenance**, vous pouvez ajouter manuellement une nouvelle ligne de budget en sélectionnant **Nouveau**, puis en faisant des sélections sur la ligne. Voici quelques exemples de situations où cette approche peut être utile :
 
-- Vous savez que le reconditionnement de certains actifs est actuellement en phase de planification, mais les tâches associées n'ont pas encore été créées dans le module Gestion des actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces tâches sont incluses dans le budget de maintenance.
-- De nouveaux actifs ou types d'actifs ont été créés depuis la réalisation du budget de maintenance, mais les plans de maintenance n'ont pas encore été configurés sur ces actifs ou types d'actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces types d'actifs sont incluses dans le budget de maintenance.
+- Vous savez que le reconditionnement de certains actifs est actuellement en phase de planification, mais les tâches associées n’ont pas encore été créées dans le module Gestion des actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces tâches sont incluses dans le budget de maintenance.
+- De nouveaux actifs ou types d’actifs ont été créés depuis la réalisation du budget de maintenance, mais les plans de maintenance n’ont pas encore été configurés sur ces actifs ou types d’actifs. Toutefois, vous souhaitez que les coûts budgétaires pour ces types d’actifs sont incluses dans le budget de maintenance.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

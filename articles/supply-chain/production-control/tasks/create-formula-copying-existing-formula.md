@@ -1,5 +1,5 @@
 ---
-title: Créer une formule par la copie d'une formule existante
+title: Créer une formule par la copie d’une formule existante
 description: Cette procédure illustre comment créer rapidement une nouvelle formule en copiant sur une formule existante.
 author: ShylaThompson
 manager: tfehr
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d6d0f54e764940cd5f9a19ac165f0030bec00bc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d10d57fc924f73e1f03a1d59cd4a7c884f768631
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998726"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255227"
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Créer une formule par la copie d'une formule existante
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Créer une formule par la copie d’une formule existante
 
 [!include [banner](../../includes/banner.md)]
 
@@ -36,17 +36,17 @@ Cette procédure illustre comment créer rapidement une nouvelle formule en copi
 3. Dans le champ Formule, tapez une valeur.
 4. Tapez une valeur dans le champ Nom.
 5. Saisissez ou sélectionnez une valeur dans le champ Site.
-6. Dans le champ Groupe d'articles, entrez ou sélectionnez une valeur.
+6. Dans le champ Groupe d’articles, entrez ou sélectionnez une valeur.
 7. Cliquez sur Enregistrer.
 
-## <a name="copy-from-an-existing-formula"></a>Copier à partir d'une formule existante
+## <a name="copy-from-an-existing-formula"></a>Copier à partir d’une formule existante
 1. Cliquez sur Copier.
-2. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
+2. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
 3. Dans le champ Version de formule, saisissez ou sélectionnez une valeur.
 4. Cliquez sur OK.
 
 ## <a name="revise-the-copied-formula"></a>Modifier la formule copiée
-1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 2. Cliquez sur Supprimer.
 3. Cliquez sur Oui.
 

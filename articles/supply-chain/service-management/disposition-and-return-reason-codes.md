@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble des retours client
+title: Vue d’ensemble des retours client
 description: Créez et utilisez des codes motif de retour et des codes disposition pour prendre en charge le processus de retour de produits.
 author: ShylaThompson
 manager: tfehr
@@ -17,29 +17,29 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4728c90b37af6d536cd5a8b919be92f4a88c6489
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2c352c91ee9a6ae97d8cab12abb8a91e77a3d2b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996574"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247380"
 ---
-# <a name="customer-returns-overview"></a>Vue d'ensemble des retours client
+# <a name="customer-returns-overview"></a>Vue d’ensemble des retours client
 
 [!include [banner](../includes/banner.md)]
 
 
 Créez et utilisez des codes motif de retour et des codes disposition pour prendre en charge le processus de retour de produits.
 
-Utilisez le code motif de retour pour décrire la raison pour laquelle le client souhaite retourner un article. Vous pouvez affecter un code motif dans l'écran **Créer des ordres de retour**.
+Utilisez le code motif de retour pour décrire la raison pour laquelle le client souhaite retourner un article. Vous pouvez affecter un code motif dans l’écran **Créer des ordres de retour**.
 
-Affectez un code disposition lors de la réception d'un article ou au cours de l'inspection physique d'un article retourné. Vous pouvez utiliser des codes disposition pour décrire l'état de l'article. Vous pouvez également utiliser des codes disposition pour indiquer si une action supplémentaire est nécessaire pour la transaction. Par exemple, créez des codes disposition pour les actions suivantes :
+Affectez un code disposition lors de la réception d’un article ou au cours de l’inspection physique d’un article retourné. Vous pouvez utiliser des codes disposition pour décrire l’état de l’article. Vous pouvez également utiliser des codes disposition pour indiquer si une action supplémentaire est nécessaire pour la transaction. Par exemple, créez des codes disposition pour les actions suivantes :
 
-  - Mettre au rebut l'article retourné et remettre un article de remplacement au client.
+  - Mettre au rebut l’article retourné et remettre un article de remplacement au client.
 
-  - Renvoyer l'article en stock et créditer au client le coût de l'article.
+  - Renvoyer l’article en stock et créditer au client le coût de l’article.
 
-  - Réparer l'article et le renvoyer au client.
+  - Réparer l’article et le renvoyer au client.
 
 ## <a name="see-also"></a>Voir également :
 
