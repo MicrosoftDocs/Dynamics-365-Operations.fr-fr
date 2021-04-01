@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3811486a31d079cac7f7c27ea6323f16de4478d5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7db884a5cd62e1f44a2a86316fde6bf2d11a3376
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239132"
 ---
 # <a name="system-directed-work-sequencing"></a>Classement des travaux dirigés par le système
 
@@ -37,7 +37,7 @@ Par conséquent, cette fonctionnalité permet d’optimiser davantage les proces
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Activer la fonctionnalité de classement des travaux dirigés par le système à l’échelle de l’organisation
 
-Avant de pouvoir utiliser le classement des travaux dirigés par le système, la fonctionnalité doit être activée sur votre système. Les administrateurs peuvent utiliser l'espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser le classement des travaux dirigés par le système, la fonctionnalité doit être activée sur votre système. Les administrateurs peuvent utiliser l’espace de travail [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Classement des travaux dirigés par le système à l’échelle de l’organisation*
@@ -55,7 +55,7 @@ Pour utiliser le scénario à l’aide des valeurs présentées dans cette rubri
 
 ### <a name="set-up-a-mobile-device-menu-item"></a>Configurer un élément de menu d’appareil mobile
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d'appareil mobile**.
+1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Dans la liste des éléments de menu d’appareil mobile, sélectionnez **Prélèvement des ventes - Système**. L’élément de menu requis doit déjà exister. 
 1. Confirmez les paramètres suivants :
 

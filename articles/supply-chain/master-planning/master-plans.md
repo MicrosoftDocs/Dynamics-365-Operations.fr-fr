@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble des plans généraux
-description: Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients.
+title: Vue d’ensemble des plans généraux
+description: Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d’entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients.
 author: roxanadiaconu
 manager: tfehr
 ms.date: 05/28/2020
@@ -18,30 +18,30 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c41013cee8620e7961fae18da9fad308c9075e84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ca4708fa93294633acaf8de06adf5b39569bff7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248785"
 ---
-# <a name="master-plans-overview"></a>Vue d'ensemble des plans généraux
+# <a name="master-plans-overview"></a>Vue d’ensemble des plans généraux
 
 [!include [banner](../includes/banner.md)]
 
-Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d'entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients. 
+Utilisez différents plans généraux pour prendre en charge les opérations de travail quotidiennes de votre entreprise, simuler différentes stratégies de planification que vous souhaitez surveiller et mettre en œuvre une politique d’entreprise, par exemple en ce qui concerne les performances internes ou la satisfaction des clients. 
 
 Vous pouvez configurer des plans généraux dans la page **Plans généraux**.
 
 Il existe deux types de plans :
--   **Plan statique** – Le calcul de planification utilise les données actuelles pour générer un plan de besoins nets. Ce plan n'est pas modifié jusqu'à la prochaine exécution de la planification ou de la modification manuelle du plan. Il s'agit d'un plan opérationnel sur lequel différents types d'employés de l'entreprise, tels qu'un acheteur ou un gestionnaire de production, peuvent baser leurs décisions et qu'ils peuvent utiliser pour effectuer leurs tâches et activités quotidiennes.
--   **Plan dynamique** – Ce plan démarre avec le plan de besoins nets qui a été généré par la planification. Cependant, vous pouvez mettre à jour le plan dynamique chaque fois que les données générales changent. Cela peut être le cas lorsque vous créez une commande client, par exemple. Cela vous permet de surveiller le réseau de commandes et la disponibilité d'articles changeants sans déranger le plan statique que d'autres utilisent pour leurs processus de travail.
+-   **Plan statique** – Le calcul de planification utilise les données actuelles pour générer un plan de besoins nets. Ce plan n’est pas modifié jusqu’à la prochaine exécution de la planification ou de la modification manuelle du plan. Il s’agit d’un plan opérationnel sur lequel différents types d’employés de l’entreprise, tels qu’un acheteur ou un gestionnaire de production, peuvent baser leurs décisions et qu’ils peuvent utiliser pour effectuer leurs tâches et activités quotidiennes.
+-   **Plan dynamique** – Ce plan démarre avec le plan de besoins nets qui a été généré par la planification. Cependant, vous pouvez mettre à jour le plan dynamique chaque fois que les données générales changent. Cela peut être le cas lorsque vous créez une commande client, par exemple. Cela vous permet de surveiller le réseau de commandes et la disponibilité d’articles changeants sans déranger le plan statique que d’autres utilisent pour leurs processus de travail.
 
-Une entreprise peut choisir de travailler uniquement avec un plan dynamique ou d'utiliser à la fois un plan statique et un plan dynamique. De plus, vous pouvez configurer un plan général pour refléter une stratégie particulière ou résoudre un problème. Voici quelques exemples :
--   définition de niveaux de stock supérieurs pour s'assurer contre les ruptures de stock ;
+Une entreprise peut choisir de travailler uniquement avec un plan dynamique ou d’utiliser à la fois un plan statique et un plan dynamique. De plus, vous pouvez configurer un plan général pour refléter une stratégie particulière ou résoudre un problème. Voici quelques exemples :
+-   définition de niveaux de stock supérieurs pour s’assurer contre les ruptures de stock ;
 -   définition de marges de sécurité plus longues pour se protéger contre les fournisseurs peu fiables.
 
-Vous pouvez également définir le plan dynamique de démarrage de manière à ce qu'il soit mis à jour avec le nouveau plan de besoins à chaque fois que vous exécutez la planification. Vous pouvez spécifier ces paramètres dans la page **Paramètres de planification**.
+Vous pouvez également définir le plan dynamique de démarrage de manière à ce qu’il soit mis à jour avec le nouveau plan de besoins à chaque fois que vous exécutez la planification. Vous pouvez spécifier ces paramètres dans la page **Paramètres de planification**.
 
 
 

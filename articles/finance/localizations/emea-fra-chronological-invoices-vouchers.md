@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0e8770a8767b9f9239abac35b3691eb3bedd8cd1
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: b73e5ba68a275070b252ed36724d740c13e9af2b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237500"
 ---
 # <a name="chronological-invoice-and-voucher-numbers"></a>Facture et n° de justificatif chronologiques
 
@@ -38,14 +38,14 @@ Dans certains pays, il est obligatoire que toutes les factures et les documents 
 -   Facture client
 -   Document de facture client
 -   Avoir sur vente
--   N° document d'avoir sur vente
+-   N° document d’avoir sur vente
 
 ## <a name="prerequisites"></a>Conditions préalables
 
 | Catégorie            | Logiciel requis                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pays/région  | L'adresse principale de l'entité juridique doit être en France.|
-| Paramètres      | Définissez **Numérotation chronologique** sur **Oui** sur la page **Paramètres de la comptabilité client**, de l'onglet **Mises à jour**.                                                                                                                                                                                                |
+| Pays/région  | L’adresse principale de l’entité juridique doit être en France.|
+| Paramètres      | Définissez **Numérotation chronologique** sur **Oui** sur la page **Paramètres de la comptabilité client**, de l’onglet **Mises à jour**.                                                                                                                                                                                                |
 | Tâches associées de paramétrage | Dans la page **Souches de numéros**, définissez autant de souches de numéros qu’il est nécessaire pour couvrir les périodes fiscales affectées. Vous devez spécifier une société pour chaque souche de numéros. Les segments des souches de numéros doivent être définis de manière à fournir l’ordre chronologique des périodes. Par exemple, les noms de segment peuvent contenir un préfixe spécial qui identifie une période spécifique.  |
 
 ## <a name="set-up-chronological-numbering"></a>Paramétrer la numérotation chronologique

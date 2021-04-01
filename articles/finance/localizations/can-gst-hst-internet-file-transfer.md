@@ -17,12 +17,12 @@ ms.search.region: Canada
 ms.author: kfend
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: bfe7793e3367a2b30e8cb2db16c09cf9fff0fba2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7b9bc26f7e6bb50953deef8b33ee32a2416e9edf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232012"
 ---
 # <a name="canada-gsthst-internet-file-transfer-gift"></a>Canada GST/GIFT (HST Internet File Transfer)
 

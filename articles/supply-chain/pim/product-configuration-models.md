@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble des modèles de configuration de produit
+title: Vue d’ensemble des modèles de configuration de produit
 description: Cet article définit les conditions et les concepts pertinents pour les modèles de configuration de produit. Les modèles de configuration de produit permettent de créer une structure de produit générale pouvant être utilisée pour configurer plusieurs variantes de produit pour un produit unique.
 author: cvocph
 manager: tfehr
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e82eb3fcfe4347b7faa4c775e9909a792e2b9baf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 26abf7afbbe3c6d0b4e13639d9f57f6e82fc9ad3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983314"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233797"
 ---
-# <a name="product-configuration-models-overview"></a>Vue d'ensemble des modèles de configuration de produit
+# <a name="product-configuration-models-overview"></a>Vue d’ensemble des modèles de configuration de produit
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,46 +39,46 @@ Des modèles de configuration de produit sont créés pour représenter une stru
 <tbody>
 <tr class="odd">
 <td>Composants</td>
-<td>Les composants sont les éléments de construction principaux d'un modèle de configuration de produit. Les composants sont affichés dans une structure arborescente sur la page <strong>Détails du modèle de configuration de produits basée sur les contraintes</strong>. Les composants peuvent contenir les éléments suivants :
+<td>Les composants sont les éléments de construction principaux d’un modèle de configuration de produit. Les composants sont affichés dans une structure arborescente sur la page <strong>Détails du modèle de configuration de produits basée sur les contraintes</strong>. Les composants peuvent contenir les éléments suivants :
 <ul>
 <li>Attributs</li>
 <li>Contraintes</li>
 <li>Calculs</li>
 <li>Sous-composants</li>
-<li>Droits d'accès requis pour l'utilisateur</li>
+<li>Droits d’accès requis pour l’utilisateur</li>
 <li>Lignes de nomenclature</li>
 <li>Opérations de gamme</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Attributs</td>
-<td>Les attributs décrivent toutes les fonctionnalités du modèle de configuration de produit. Vous pouvez utiliser des attributs pour spécifier les fonctions pouvant être sélectionnées lorsqu'un produit distinct est configuré. Les attributs sont utilisés dans les contraintes et les conditions. Lorsque les attributs sont créés et ajoutés à un modèle de configuration de produit, les types d'attributs associés sont référencés. Une valeur par défaut peut être définie pour un attribut. La valeur par défaut est utilisée dans l'interface utilisateur (UI) de configuration lorsque le modèle de configuration de produit est configuré. Vous pouvez indiquer qu'un attribut est obligatoire, en lecture seule ou masqué.
+<td>Les attributs décrivent toutes les fonctionnalités du modèle de configuration de produit. Vous pouvez utiliser des attributs pour spécifier les fonctions pouvant être sélectionnées lorsqu’un produit distinct est configuré. Les attributs sont utilisés dans les contraintes et les conditions. Lorsque les attributs sont créés et ajoutés à un modèle de configuration de produit, les types d’attributs associés sont référencés. Une valeur par défaut peut être définie pour un attribut. La valeur par défaut est utilisée dans l’interface utilisateur (UI) de configuration lorsque le modèle de configuration de produit est configuré. Vous pouvez indiquer qu’un attribut est obligatoire, en lecture seule ou masqué.
 <ul>
-<li><strong>Obligatoire</strong> : Une valeur doit être définie pour l'attribut lorsque le produit est configuré.</li>
-<li><strong>En lecture seule :</strong> La valeur d'attribut est affichée lors d&#39;une session de configuration, mais elle ne peut pas être modifiée.</li>
-<li><strong>Masqué :</strong> La valeur d'attribut est incluse dans les contraintes et les conditions, mais n&#39;est pas affichée lors d'une session de configuration.</li>
+<li><strong>Obligatoire</strong> : Une valeur doit être définie pour l’attribut lorsque le produit est configuré.</li>
+<li><strong>En lecture seule :</strong> La valeur d’attribut est affichée lors d&#39;une session de configuration, mais elle ne peut pas être modifiée.</li>
+<li><strong>Masqué :</strong> La valeur d’attribut est incluse dans les contraintes et les conditions, mais n&#39;est pas affichée lors d’une session de configuration.</li>
 </ul>
-Vous pouvez également spécifier une condition pour les attributs. Si la condition est remplie, une valeur doit être entrée pour l'attribut obligatoire. Les conditions sont des expressions qui doivent être rencontrées pour les attributs, les lignes de nomenclature et les opérations de gamme à inclure dans un modèle de configuration de produit. Un attribut référencé dans une condition devient obligatoire. Nous vous recommandons de sélectionner les attributs comme obligatoires sous l'onglet <strong>Attributs</strong>. Cela peut faciliter l'identification des attributs obligatoires. Les valeurs d'attribut sont essentielles dans le cadre de la réutilisation des configurations. Le système utilise les valeurs d'attribut pour déterminer si une configuration existante correspond aux sélections d'un utilisateur lors d'une session de configuration.</td>
+Vous pouvez également spécifier une condition pour les attributs. Si la condition est remplie, une valeur doit être entrée pour l’attribut obligatoire. Les conditions sont des expressions qui doivent être rencontrées pour les attributs, les lignes de nomenclature et les opérations de gamme à inclure dans un modèle de configuration de produit. Un attribut référencé dans une condition devient obligatoire. Nous vous recommandons de sélectionner les attributs comme obligatoires sous l’onglet <strong>Attributs</strong>. Cela peut faciliter l’identification des attributs obligatoires. Les valeurs d’attribut sont essentielles dans le cadre de la réutilisation des configurations. Le système utilise les valeurs d’attribut pour déterminer si une configuration existante correspond aux sélections d’un utilisateur lors d’une session de configuration.</td>
 </tr>
 <tr class="odd">
-<td>Types d'attributs</td>
-<td>Les types d'attributs spécifient l'ensemble des types de données pour les attributs utilisés dans un modèle de configuration de produit. Les types d'attributs suivants sont utilisés :
+<td>Types d’attributs</td>
+<td>Les types d’attributs spécifient l’ensemble des types de données pour les attributs utilisés dans un modèle de configuration de produit. Les types d’attributs suivants sont utilisés :
 <ul>
 <li><strong>Entier</strong> avec ou sans plage</li>
 <li><strong>Décimal</strong></li>
 <li><strong>Texte</strong> avec ou sans liste fixe</li>
 <li><strong>Booléen</strong></li>
 </ul>
-Si le type d'attribut est <strong>Booléen</strong>, <strong>Entier</strong> avec une plage, ou <strong>Texte</strong> avec une liste fixe, l'ensemble de valeurs est disponible lorsqu'un modèle de configuration de produit est paramétré. <strong>Remarque :</strong> Le solveur de configuration de produit identifie les types d'attributs suivants : <strong>Booléen</strong>, <strong>Texte</strong> avec une liste fixe, et <strong>Entier</strong> avec une plage. Par conséquent, seuls ces types d'attributs peuvent être utilisés dans les contraintes et les conditions d'expression.</td>
+Si le type d’attribut est <strong>Booléen</strong>, <strong>Entier</strong> avec une plage, ou <strong>Texte</strong> avec une liste fixe, l’ensemble de valeurs est disponible lorsqu’un modèle de configuration de produit est paramétré. <strong>Remarque :</strong> Le solveur de configuration de produit identifie les types d’attributs suivants : <strong>Booléen</strong>, <strong>Texte</strong> avec une liste fixe, et <strong>Entier</strong> avec une plage. Par conséquent, seuls ces types d’attributs peuvent être utilisés dans les contraintes et les conditions d’expression.</td>
 </tr>
 <tr class="even">
 <td>Contraintes</td>
-<td>Les contraintes décrivent les restrictions de la configuration du modèle de produit. Les contraintes sont utilisées pour vous assurer que seules les valeurs valides sont sélectionnées lorsqu'un produit est configuré. Les contraintes peuvent être des contraintes d'expression ou des contraintes de table :
+<td>Les contraintes décrivent les restrictions de la configuration du modèle de produit. Les contraintes sont utilisées pour vous assurer que seules les valeurs valides sont sélectionnées lorsqu’un produit est configuré. Les contraintes peuvent être des contraintes d’expression ou des contraintes de table :
 <ul>
-<li>Les contraintes d'expression peuvent être utilisées uniquement pour le composant auquel elles sont associées. Les contraintes d&#39;expression pour un composant peuvent référencer des attributs des sous-composants du composant. Le solveur de configuration de produit permet de résoudre les contraintes, vous devez utiliser la syntaxe de solveur lorsque vous entrez les contraintes. Pour plus d'informations, voir le lien de rubrique sur les contraintes d'expression et de table.</li>
-<li>Les contraintes de table doivent être définies avant d'être appliquées à un composant dans un modèle de configuration de produit. Les contraintes de table peuvent être définies par l'utilisateur ou le système. Une contrainte de table définie par l'utilisateur est un type de matrice pouvant être utilisé pour décrire l'ensemble des combinaisons pour les valeurs d'attribut définies par les types d'attributs. Par exemple, si des haut-parleurs sont fabriqués, la matrice de la contrainte de table définie par l'utilisateur peut avoir des colonnes pour les finitions et les grilles.</li>
+<li>Les contraintes d’expression peuvent être utilisées uniquement pour le composant auquel elles sont associées. Les contraintes d&#39;expression pour un composant peuvent référencer des attributs des sous-composants du composant. Le solveur de configuration de produit permet de résoudre les contraintes, vous devez utiliser la syntaxe de solveur lorsque vous entrez les contraintes. Pour plus d’informations, voir le lien de rubrique sur les contraintes d’expression et de table.</li>
+<li>Les contraintes de table doivent être définies avant d’être appliquées à un composant dans un modèle de configuration de produit. Les contraintes de table peuvent être définies par l’utilisateur ou le système. Une contrainte de table définie par l’utilisateur est un type de matrice pouvant être utilisé pour décrire l’ensemble des combinaisons pour les valeurs d’attribut définies par les types d’attributs. Par exemple, si des haut-parleurs sont fabriqués, la matrice de la contrainte de table définie par l’utilisateur peut avoir des colonnes pour les finitions et les grilles.</li>
 </ul>
-<strong>Exemple</strong> Les haut-parleurs sont disponibles dans quatre finitions : noir, chêne, bois de rose, et blanc. Les haut-parleurs sont disponibles dans trois couleurs de grilles avant : noir, métal, ou blanc. La finition noire est disponible pour toutes les grilles, mais les autres finitions sont limitées à des grilles spécifiques. Le tableau suivant présente un exemple des informations affichées sous l'onglet <strong>Combinaisons autorisées</strong> sur la page <strong>Modifier une contrainte de table</strong>.
+<strong>Exemple</strong> Les haut-parleurs sont disponibles dans quatre finitions : noir, chêne, bois de rose, et blanc. Les haut-parleurs sont disponibles dans trois couleurs de grilles avant : noir, métal, ou blanc. La finition noire est disponible pour toutes les grilles, mais les autres finitions sont limitées à des grilles spécifiques. Le tableau suivant présente un exemple des informations affichées sous l’onglet <strong>Combinaisons autorisées</strong> sur la page <strong>Modifier une contrainte de table</strong>.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Si le type d'attribut est <strong>Booléen</strong>, <strong>Entier</strong> ave
 </tr>
 </tbody>
 </table>
-Une contrainte de table définie par le système constitue une mise en correspondance entre un attribut et un champ dans une table Supply Chain Management. Une contrainte de table définie par le système lie dynamiquement le type d'attribut au champ. Le lien permet à l'attribut dans un modèle de configuration de produit de refléter les données du champ de la table Supply Chain Management.</td>
+Une contrainte de table définie par le système constitue une mise en correspondance entre un attribut et un champ dans une table Supply Chain Management. Une contrainte de table définie par le système lie dynamiquement le type d’attribut au champ. Le lien permet à l’attribut dans un modèle de configuration de produit de refléter les données du champ de la table Supply Chain Management.</td>
 </tr>
 <tr class="odd">
 <td>Calculs</td>
-<td>Les calculs représentent un supplément aux contraintes. Vous pouvez utiliser un calcul pour effectuer des opérations arithmétiques sur les attributs de type <strong>Décimal</strong> et <strong>Entier</strong> ou les opérations logiques impliquant des attributs <strong>Texte</strong> avec une liste fixe et des types <strong>Booléens</strong>. Un calcul a un attribut cible qui maintiendra le résultat de l'expression de calcul. L'expression de calcul est conçue à l'aide de l'éditeur d'expressions.</td>
+<td>Les calculs représentent un supplément aux contraintes. Vous pouvez utiliser un calcul pour effectuer des opérations arithmétiques sur les attributs de type <strong>Décimal</strong> et <strong>Entier</strong> ou les opérations logiques impliquant des attributs <strong>Texte</strong> avec une liste fixe et des types <strong>Booléens</strong>. Un calcul a un attribut cible qui maintiendra le résultat de l’expression de calcul. L’expression de calcul est conçue à l’aide de l’éditeur d’expressions.</td>
 </tr>
 <tr class="even">
 <td>Sous-composants</td>
@@ -131,11 +131,11 @@ Une contrainte de table définie par le système constitue une mise en correspon
 <li>Sélectionnez <strong>Produit générique</strong> dans le champ <strong>Sous-type de produit</strong>.</li>
 <li>Dans le champ <strong>Technologie de configuration</strong>, sélectionnez <strong>Configuration basée sur les contraintes</strong>.</li>
 </ul>
-Vous pouvez voir si un produit lancé peut être utilisé comme composant ou sous-composant sous l'onglet <strong>Général</strong> de la page <strong>Détails des produits lancés</strong>. Si l'option <strong>Configuration basée sur les contraintes</strong> est sélectionnée dans le champ <strong>Technologie de configuration</strong>, le produit peut être utilisé en tant que composant ou sous-composant. Vous pouvez masquer les sous-composants afin qu&#39;ils ne soient pas affichés à l'utilisateur au cours d'une session de configuration. Les attributs, les sous-composants et les besoins des utilisateurs associés au sous-composant sont également masqués.</td>
+Vous pouvez voir si un produit lancé peut être utilisé comme composant ou sous-composant sous l’onglet <strong>Général</strong> de la page <strong>Détails des produits lancés</strong>. Si l’option <strong>Configuration basée sur les contraintes</strong> est sélectionnée dans le champ <strong>Technologie de configuration</strong>, le produit peut être utilisé en tant que composant ou sous-composant. Vous pouvez masquer les sous-composants afin qu&#39;ils ne soient pas affichés à l’utilisateur au cours d’une session de configuration. Les attributs, les sous-composants et les besoins des utilisateurs associés au sous-composant sont également masqués.</td>
 </tr>
 <tr class="odd">
-<td>Droits d'accès requis pour l'utilisateur</td>
-<td>Les besoins des utilisateurs représentent une abstraction entre les besoins des utilisateurs et les composants spécifiques et les attributs. Vous ne pouvez pas mettre en correspondance un besoin d&#39;utilisateur avec un article. Par exemple, un client souhaite acheter un système Home cinéma. Le commercial peut demander la taille de la pièce dans laquelle le client envisage d'installer le système pour déterminer le nombre de watts requis. Dans cet exemple, la taille de la pièce peut être un besoin d'utilisateur qui permet de déterminer la valeur de l'attribut appropriée pour un composant spécifique. Vous pouvez masquer les besoins d'utilisateur afin qu&#39;ils ne soient pas affichés à l'utilisateur au cours d'une session de configuration. Les attributs, les sous-composants et les besoins des utilisateurs associés au besoin d'utilisateur sont également masqués. Vous pouvez entrer une condition pour contrôler si un besoin d'utilisateur peut être masqué. Vous devez écrire la condition à l'aide de la syntaxe du langage de modélisation d'optimisation (OML).</td>
+<td>Droits d’accès requis pour l’utilisateur</td>
+<td>Les besoins des utilisateurs représentent une abstraction entre les besoins des utilisateurs et les composants spécifiques et les attributs. Vous ne pouvez pas mettre en correspondance un besoin d&#39;utilisateur avec un article. Par exemple, un client souhaite acheter un système Home cinéma. Le commercial peut demander la taille de la pièce dans laquelle le client envisage d’installer le système pour déterminer le nombre de watts requis. Dans cet exemple, la taille de la pièce peut être un besoin d’utilisateur qui permet de déterminer la valeur de l’attribut appropriée pour un composant spécifique. Vous pouvez masquer les besoins d’utilisateur afin qu&#39;ils ne soient pas affichés à l’utilisateur au cours d’une session de configuration. Les attributs, les sous-composants et les besoins des utilisateurs associés au besoin d’utilisateur sont également masqués. Vous pouvez entrer une condition pour contrôler si un besoin d’utilisateur peut être masqué. Vous devez écrire la condition à l’aide de la syntaxe du langage de modélisation d’optimisation (OML).</td>
 </tr>
 <tr class="even">
 <td>Lignes de nomenclature</td>
@@ -143,7 +143,7 @@ Vous pouvez voir si un produit lancé peut être utilisé comme composant ou sou
 </tr>
 <tr class="odd">
 <td>Opérations de gamme</td>
-<td>Vous pouvez sélectionner une valeur distincte sur la page <strong>Détails de l'opération de gamme</strong>. Sinon, vous pouvez effectuer une correspondance avec un attribut pour lequel la valeur est sélectionnée lorsque le modèle de configuration de produit est paramétré. Les conditions sont entrées comme des contraintes d'expression. Les conditions sont des expressions qui doivent être rencontrées pour les attributs, les lignes de nomenclature et les opérations de gamme à inclure dans un modèle de configuration de produit.</td>
+<td>Vous pouvez sélectionner une valeur distincte sur la page <strong>Détails de l’opération de gamme</strong>. Sinon, vous pouvez effectuer une correspondance avec un attribut pour lequel la valeur est sélectionnée lorsque le modèle de configuration de produit est paramétré. Les conditions sont entrées comme des contraintes d’expression. Les conditions sont des expressions qui doivent être rencontrées pour les attributs, les lignes de nomenclature et les opérations de gamme à inclure dans un modèle de configuration de produit.</td>
 </tr>
 </tbody>
 </table>

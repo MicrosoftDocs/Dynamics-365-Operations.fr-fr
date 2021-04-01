@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 88c75c67cadcde57f981f4e357b40855709d072d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966578"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246499"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Répartir du temps aux tâches figurant dans un regroupement de tâches
 
@@ -31,7 +31,7 @@ ms.locfileid: "4966578"
 
 Dans Contrôle et suivi de la production, vous pouvez regrouper des tâches. Vous pouvez ensuite démarrer plusieurs tâches simultanément dans la page Liste de tâches.
 
-Si vous regroupez des tâches, vous devez définir de quelle manière le total des heures enregistrées pour toutes les tâches doit être affecté à chaque tâche. Vous pouvez définir la répartition en sélectionnant l'une des options suivantes dans le champ **Type d'offre groupée** sur la page **Clés de répartition** :
+Si vous regroupez des tâches, vous devez définir de quelle manière le total des heures enregistrées pour toutes les tâches doit être affecté à chaque tâche. Vous pouvez définir la répartition en sélectionnant l’une des options suivantes dans le champ **Type d’offre groupée** sur la page **Clés de répartition** :
 
 -   **Estimation** – Division des heures entre les tâches sur la base de leur durée estimée.
 -   **Tâches** – Division des heures en fonction du nombre total de tâches groupées et du temps passé à leur accomplissement.
@@ -41,7 +41,7 @@ Si vous regroupez des tâches, vous devez définir de quelle manière le total d
 Les résultats des différentes clés de répartition sont illustrés dans les exemples suivants.
 
 ## <a name="example-scenario"></a>Exemple de scénario
-Trois tâches de votre file d'attente des tâches doivent être effectuées. Vous entamez la première tâche, puis la deuxième et la troisième pendant que la première est en cours. Vous regroupez ainsi les trois tâches. Le tableau suivant indique le délai de production estimé pour chaque tâche.
+Trois tâches de votre file d’attente des tâches doivent être effectuées. Vous entamez la première tâche, puis la deuxième et la troisième pendant que la première est en cours. Vous regroupez ainsi les trois tâches. Le tableau suivant indique le délai de production estimé pour chaque tâche.
 
 | tâche   | Délai de production |
 |-------|-----------------|
@@ -61,7 +61,7 @@ Le tableau suivant indique les heures de travail consacrées à chaque tâche.
 
 Les sections suivantes décrivent les résultats du temps calculé pour chaque clé de répartition.
 
-## <a name="estimation-allocation-key"></a>Clé de répartition de l'estimation
+## <a name="estimation-allocation-key"></a>Clé de répartition de l’estimation
 Le tableau suivant illustre la formule de calcul du délai imparti. Voici la formule : Temps par tâche = Temps groupé total × (Temps de la tâche estimé ÷ Temps total estimé)
 
 | Mission   | Formule           | Temps réparti |
@@ -90,7 +90,7 @@ Le tableau suivant illustre la formule de calcul du délai imparti. Voici la for
 | Tâche 3                        | Non applicable       | 1 ÷ 3 = 0,33 heure    | 2 ÷ 2 = 1 heure        | 2 ÷ 1 = 2 heures       | 3,33 heures     |
 
 ## <a name="real-time-allocation-key"></a>Clé de répartition en temps réel
-Si vous souhaitez autoriser le calcul des coûts de production en fonction des coûts réels, vous devez désactiver l'option **Catégorie de coûts** sur la page **Valeurs par défaut de l'ordre de fabrication**. Le tableau suivant illustre la formule de calcul du délai imparti. Voici la formule : Temps réel par tâche = Temps réel de l'offre groupée
+Si vous souhaitez autoriser le calcul des coûts de production en fonction des coûts réels, vous devez désactiver l’option **Catégorie de coûts** sur la page **Valeurs par défaut de l’ordre de fabrication**. Le tableau suivant illustre la formule de calcul du délai imparti. Voici la formule : Temps réel par tâche = Temps réel de l’offre groupée
 
 | Mission   | Heure réelle |
 |-------|-------------|
@@ -98,7 +98,7 @@ Si vous souhaitez autoriser le calcul des coûts de production en fonction des c
 | Tâche 2 | 3 heures     |
 | Tâche 3 | 5 heures     |
 
-Supposons que les 3 tâches sont réalisées par un collaborateur dont le salaire horaire a la valeur 12,00 EUR. Aucune prime ni aucun bonus pour heures supplémentaires n'est versé pour les tâches. Le collaborateur a travaillé sur ces 3 tâches groupées pour un total de 6 heures. Le coût du salaire est alors 6 × 12,00 EUR = 72,00 EUR. En utilisant une répartition en temps réel, le coût horaire est recalculé à l'aide du facteur de la formule Temps net. Le temps réel consacré à chaque tâche est ensuite transféré avec le prix de revient horaire corrigé. Dans l'exemple, 6 heures sont dépensées alors que 10 heures ont été réparties. Le tableau suivant illustre la formule de calcul du coût. Voici la formule : Coût horaire = (Temps total groupé par tâche (Temps net) ÷ Temps réel par tâche) × Coût horaire standard
+Supposons que les 3 tâches sont réalisées par un collaborateur dont le salaire horaire a la valeur 12,00 EUR. Aucune prime ni aucun bonus pour heures supplémentaires n’est versé pour les tâches. Le collaborateur a travaillé sur ces 3 tâches groupées pour un total de 6 heures. Le coût du salaire est alors 6 × 12,00 EUR = 72,00 EUR. En utilisant une répartition en temps réel, le coût horaire est recalculé à l’aide du facteur de la formule Temps net. Le temps réel consacré à chaque tâche est ensuite transféré avec le prix de revient horaire corrigé. Dans l’exemple, 6 heures sont dépensées alors que 10 heures ont été réparties. Le tableau suivant illustre la formule de calcul du coût. Voici la formule : Coût horaire = (Temps total groupé par tâche (Temps net) ÷ Temps réel par tâche) × Coût horaire standard
 
 | Mission   | Calcul du coût horaire corrigé | Coût horaire corrigé | Temps réparti | Coût total de la tâche |
 |-------|----------------------------------------|-------------------------|----------------|-------------------|
@@ -106,7 +106,7 @@ Supposons que les 3 tâches sont réalisées par un collaborateur dont le salair
 | Tâche 2 | (1,33 ÷ 3) × 12,00 EUR                 | 5,33 EUR                | 3 heures        | 16,00 EUR         |
 | Tâche 3 | (3,33 ÷ 5) × 12,00 EUR                 | 8,00 EUR                | 5 heures        | 40,00 EUR         |
 
-Le coût horaire corrigé et le temps de tâche sont validés dans le journal de production. **Remarque :** Si vous sélectionnez l'option **Catégorie de coûts** de l'onglet **Général** sur la page **Valeurs par défaut de l'ordre de fabrication**, le temps réel pour chaque tâche est transféré vers un journal de production, où le coût est appliqué à la catégorie de coûts de la tâche spécifique.
+Le coût horaire corrigé et le temps de tâche sont validés dans le journal de production. **Remarque :** Si vous sélectionnez l’option **Catégorie de coûts** de l’onglet **Général** sur la page **Valeurs par défaut de l’ordre de fabrication**, le temps réel pour chaque tâche est transféré vers un journal de production, où le coût est appliqué à la catégorie de coûts de la tâche spécifique.
 
 
 

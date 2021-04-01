@@ -1,6 +1,6 @@
 ---
 title: Prix de vente indexés
-description: L'indice pour un prix de vente d'abonnement doit être paramétré lors de la création de frais d'abonnement.
+description: L’indice pour un prix de vente d’abonnement doit être paramétré lors de la création de frais d’abonnement.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/01/2018
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2103bc79e2a9671a059657838245e2d60455e168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 540946a50e86e2e8933a9e045d911eac87b3270c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965878"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247334"
 ---
 # <a name="indexed-sales-prices"></a>Prix de vente indexés  
 
 [!include [banner](../includes/banner.md)]
 
 
-L'indice pour un prix de vente d'abonnement doit être paramétré lors de la création de frais d'abonnement.
+L’indice pour un prix de vente d’abonnement doit être paramétré lors de la création de frais d’abonnement.
 
-Dans l'écran **Créer des frais d'abonnement**, définissez le champ **Récupérer le prix de** sur **Prix de base indexé**, puis multipliez le prix de base par le pourcentage dans le champ **Changement de prix en pourcentage** pour obtenir le prix de vente de la transaction d'abonnement.
+Dans l’écran **Créer des frais d’abonnement**, définissez le champ **Récupérer le prix de** sur **Prix de base indexé**, puis multipliez le prix de base par le pourcentage dans le champ **Changement de prix en pourcentage** pour obtenir le prix de vente de la transaction d’abonnement.
 
-Par exemple, si le prix de base est de 1 000 EUR et l'indice 110, le prix de vente est de 1 100 EUR.
+Par exemple, si le prix de base est de 1 000 EUR et l’indice 110, le prix de vente est de 1 100 EUR.
 
 ## <a name="see-also"></a>Voir également :
 

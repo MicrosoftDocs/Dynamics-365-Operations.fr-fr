@@ -1,6 +1,6 @@
 ---
-title: Crédit de transactions d'abonnement
-description: Cette rubrique explique comment créditer des transactions de frais d'abonnement.
+title: Crédit de transactions d’abonnement
+description: Cette rubrique explique comment créditer des transactions de frais d’abonnement.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/01/2018
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff8dbf5cad2cc1fa2cd465420629e39c9ffb512b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4238c625930767990d28a206b10a4d71841f2ad8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974608"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247500"
 ---
-# <a name="credit-subscription-transactions"></a>Crédit de transactions d'abonnement 
+# <a name="credit-subscription-transactions"></a>Crédit de transactions d’abonnement 
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="credit-subscription-transactions"></a>Crédit de transactions d'abonnement
+## <a name="credit-subscription-transactions"></a>Crédit de transactions d’abonnement
 
 1.  Cliquez sur **Gestion des services** \> **Commun** \> **Services récurrents** \> **Tous les abonnements aux services**.
 
-2.  Sélectionnez l'abonnement lié à la transaction d'abonnement pour laquelle vous souhaitez créer un avoir.
+2.  Sélectionnez l’abonnement lié à la transaction d’abonnement pour laquelle vous souhaitez créer un avoir.
 
-3.  Sélectionnez l'onglet **Analyser**, puis cliquez sur le bouton **Transactions de frais** dans le volet Actions.
+3.  Sélectionnez l’onglet **Analyser**, puis cliquez sur le bouton **Transactions de frais** dans le volet Actions.
 
-4.  À partir de l'écran **Transactions de frais**, sélectionnez la transaction pour laquelle vous souhaitez créer un avoir.
+4.  À partir de l’écran **Transactions de frais**, sélectionnez la transaction pour laquelle vous souhaitez créer un avoir.
 
-5.  Cliquez sur **Fonctions** \> **Sélectionner pour l'avoir**.
+5.  Cliquez sur **Fonctions** \> **Sélectionner pour l’avoir**.
 
-6.  À partir de l'écran **Sélectionner pour l'avoir**, sélectionnez la transaction que vous voulez créditer, puis cliquez sur **OK**.
+6.  À partir de l’écran **Sélectionner pour l’avoir**, sélectionnez la transaction que vous voulez créditer, puis cliquez sur **OK**.
 
 
 > [!NOTE]
-> <P>Lors de la création d'un avoir, veillez à sélectionner l'option <STRONG>Avoirs</STRONG>. Celle-ci se trouve dans la liste <STRONG>Méthode de facturation</STRONG> de la boîte de dialogue <STRONG>Créer une facture</STRONG>.</P>
+> <P>Lors de la création d’un avoir, veillez à sélectionner l’option <STRONG>Avoirs</STRONG>. Celle-ci se trouve dans la liste <STRONG>Méthode de facturation</STRONG> de la boîte de dialogue <STRONG>Créer une facture</STRONG>.</P>
 
-Si le champ **Contrepasser les régularisations lors de l'opération de crédit** dans l'écran **Paramètres de gestion des services** est défini sur **Manuel**, vous devez contrepasser individuellement chaque transaction de produit à recevoir avant de créer une proposition d'avoir pour la transaction.
+Si le champ **Contrepasser les régularisations lors de l’opération de crédit** dans l’écran **Paramètres de gestion des services** est défini sur **Manuel**, vous devez contrepasser individuellement chaque transaction de produit à recevoir avant de créer une proposition d’avoir pour la transaction.
 
 ## <a name="see-also"></a>Voir également :
 
-[Facturation de transactions d'abonnement](invoice-subscription-transactions.md)
+[Facturation de transactions d’abonnement](invoice-subscription-transactions.md)
 
 
  

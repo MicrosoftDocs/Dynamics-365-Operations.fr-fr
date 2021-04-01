@@ -1,6 +1,6 @@
 ---
-title: Afficher les entrées de coût d'un objet de coût
-description: Cette procédure décrit la manière d'afficher les entrées de coût pour un objet de coût.
+title: Afficher les entrées de coût d’un objet de coût
+description: Cette procédure décrit la manière d’afficher les entrées de coût pour un objet de coût.
 author: AndersGirke
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62989c5a94a15578109b722d3f563f8b986e6e58
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 17e38d41ea31279c1318caba7a44a066811e80b0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239444"
 ---
-# <a name="view-cost-entries-for-a-cost-object"></a>Afficher les entrées de coût d'un objet de coût
+# <a name="view-cost-entries-for-a-cost-object"></a>Afficher les entrées de coût d’un objet de coût
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la manière d'afficher les entrées de coût pour un objet de coût. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au contrôleur de coûts.
+Cette procédure décrit la manière d’afficher les entrées de coût pour un objet de coût. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au contrôleur de coûts.
 
 1. Cliquez sur Administration des coûts.
 2. Cliquez sur Produits lancés.
-3. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, appliquez un filtre sur le champ Numéro d'article avec une valeur de « m0004 ».
+3. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, appliquez un filtre sur le champ Numéro d’article avec une valeur de « m0004 ».
 4. Cliquez sur Gérer les coûts dans le volet Actions.
 5. Cliquez sur Objets de coût.
 6. Cliquez sur Entrées de coût.

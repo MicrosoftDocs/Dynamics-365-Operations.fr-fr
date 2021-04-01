@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbfbbef3bd7c7398f0f17b6cddbbff8c4755638d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 100db102f74d477bcfde48a24828b817fd65e033
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963711"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239499"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Créer une commande fournisseur régie par budget
 
@@ -30,13 +30,13 @@ Cette procédure permet de créer une commande fournisseur dont la disponibilit�
 
 ## <a name="review-the-budget-control-configuration"></a>Examiner la configuration du contrôle budgétaire
 1. Accédez à Budgétisation > Paramétrage > Contrôle budgétaire > Configuration du contrôle budgétaire.
-2. Cliquez sur l'onglet Fonds budgétaires disponibles.
-3. Cliquez sur l'onglet Documents et journaux.
-4. Cliquez sur l'onglet Définir les règles de contrôle budgétaire.
-5. Cliquez sur l'onglet Définir des groupes budgétaires.
+2. Cliquez sur l’onglet Fonds budgétaires disponibles.
+3. Cliquez sur l’onglet Documents et journaux.
+4. Cliquez sur l’onglet Définir les règles de contrôle budgétaire.
+5. Cliquez sur l’onglet Définir des groupes budgétaires.
 6. Fermez la page.
 
-## <a name="create-the-purchase-order-header"></a>Créer l'en-tête de commande fournisseur
+## <a name="create-the-purchase-order-header"></a>Créer l’en-tête de commande fournisseur
 1. Accédez à Approvisionnements > Commandes fournisseur > Toutes les commandes fournisseur.
 2. Cliquez sur Nouveau.
 3. Dans le champ Compte fournisseur, saisissez ou sélectionnez une valeur.
@@ -45,7 +45,7 @@ Cette procédure permet de créer une commande fournisseur dont la disponibilit�
 6. Cliquez sur OK.
 
 ## <a name="add-a-purchase-order-line"></a>Ajouter une ligne de commande fournisseur
-1. Saisissez ou sélectionnez une valeur dans le champ Catégorie d'approvisionnement.
+1. Saisissez ou sélectionnez une valeur dans le champ Catégorie d’approvisionnement.
 2. Définissez la quantité sur 2.
 3. Saisissez ou sélectionnez une valeur dans le champ Unité.
 4. Définissez le prix unitaire sur « 10 000 ».

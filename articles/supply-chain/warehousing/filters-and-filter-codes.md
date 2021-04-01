@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 922ff818e069f41c139cc00db9161dc6e113888b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dbf92c5e199ecadb3e4f7c6130427d449ef5b6c8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973733"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251767"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurer les filtres de produit pour les transactions en entrepôt
 
@@ -71,7 +71,7 @@ Pour paramétrer des groupes de filtres, procédez comme suit.
 1. Dans le champ **Groupe d’articles**, sélectionnez le groupe d’articles auquel le filtre de produit doit s’appliquer.
 1. Dans les champs **Code 1** à **Code 10**, sélectionnez les codes de filtre à inclure dans le groupe, si nécessaire.
 
-    ![Groupe d'articles](media/ProdFilterGroup.png "Groupe d'articles")
+    ![Groupe d’articles](media/ProdFilterGroup.png "Groupe d’articles")
 
 > [!NOTE]
 > Si vous recevez un message d’erreur lorsque vous fermez la page, il est possible qu’un paramétrage de code soit manquant. Sur la page **Groupes d’articles**, vous pouvez rendre les codes obligatoires pour un groupe d’articles en sélectionnant les options **Attribuer le code de filtre 1 au groupe d’articles**, **Attribuer le code de filtre 2 au groupe d’articles**, et ainsi de suite.
@@ -90,7 +90,7 @@ Pour paramétrer des codes filtre sur des groupes d’articles, procédez comme 
 
     Pour mettre à jour un produit lancé, ouvrez sa page **Détails des produits lancés**, puis, dans le volet Actions, sélectionnez **Modifier**. Les filtres associés aux codes deviennent alors disponibles sur l’organisateur **Entrepôt**.
 
-    ![Groupes d'articles](media/ItemGroup10.png "Groupes d'articles")
+    ![Groupes d’articles](media/ItemGroup10.png "Groupes d’articles")
 
 1. Dans la section **Filtre de groupe d’articles**, cochez les cases des filtres qui doivent correspondre pour que le groupe de filtres soit le groupe de filtres par défaut pour un article.
 

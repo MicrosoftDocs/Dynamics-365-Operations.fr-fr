@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9befa52d27a1a12e7a2d9f2615c2ce8e5f1ebe53
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9686efb228e123671ba93a37480d2daac8d038a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017994"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252964"
 ---
 # <a name="maintenance-schedule-cost"></a>Coût du programme de maintenance
 
@@ -30,7 +30,7 @@ ms.locfileid: "5017994"
 
  
 
-Dans le module Gestion des actifs, vous pouvez calculer les coûts budgétaires sur les lignes du programme de maintenance. Cela est utile si vous souhaitez obtenir une vue d'ensemble des coûts prévisionnels, par exemple, les coûts associés aux tâches de maintenance préventive planifiées pour l'an prochain. Les calculs sont basés sur les lignes de programme de maintenance du type « Plans de maintenance » et « Visites de maintenance » et « Demandes de maintenance ».
+Dans le module Gestion des actifs, vous pouvez calculer les coûts budgétaires sur les lignes du programme de maintenance. Cela est utile si vous souhaitez obtenir une vue d’ensemble des coûts prévisionnels, par exemple, les coûts associés aux tâches de maintenance préventive planifiées pour l’an prochain. Les calculs sont basés sur les lignes de programme de maintenance du type « Plans de maintenance » et « Visites de maintenance » et « Demandes de maintenance ».
 
 1. Cliquez sur **Gestion des actifs** > **Recherches** > **Actifs** > **Coût du programme de maintenance**.
 
@@ -39,17 +39,17 @@ Dans le module Gestion des actifs, vous pouvez calculer les coûts budgétaires 
 >[!NOTE]
 >Les ensembles de dimensions financières sont paramétrés dans **Comptabilité générale** > **Plan de comptes** > **Dimensions** > **Ensembles de dimensions financières**.
 
-3. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes du programme de maintenance en fonction des postes techniques. Par exemple, si vous insérez le chiffre « 1 » dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes du programme de maintenance pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre « 0 » dans le champ **Niveau**, un résultat détaillé s'affiche et indique toutes les lignes du programme de maintenance sur tous les niveaux du poste technique auxquels ils sont liés.
+3. Vous pouvez utiliser le champ **Niveau** pour indiquer quel niveau de détail vous souhaitez dans les lignes du programme de maintenance en fonction des postes techniques. Par exemple, si vous insérez le chiffre « 1 » dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, toutes les lignes du programme de maintenance pour un poste technique s’affichent dans le niveau supérieur et il est donc possible d’ajouter des heures sur une ligne à partir des postes techniques situés à un niveau inférieur. Par exemple, si vous insérez le chiffre « 0 » dans le champ **Niveau**, un résultat détaillé s’affiche et indique toutes les lignes du programme de maintenance sur tous les niveaux du poste technique auxquels ils sont liés.
 
-4. Si vous souhaitez effectuer un calcul pour les actifs spécifiques, cliquez sur **Filtre** sur l'organisateur **Enregistrements à inclure**, et sélectionnez les actifs appropriés. Si nécessaire, vous pouvez également spécifier une date de **Début prévu** pour le calcul du coût ou sélectionner un autre **Statut** pour le calcul du coût
+4. Si vous souhaitez effectuer un calcul pour les actifs spécifiques, cliquez sur **Filtre** sur l’organisateur **Enregistrements à inclure**, et sélectionnez les actifs appropriés. Si nécessaire, vous pouvez également spécifier une date de **Début prévu** pour le calcul du coût ou sélectionner un autre **Statut** pour le calcul du coût
 
 5. Cliquez sur **OK** pour démarrer le calcul des coûts.
 
-6. Sur l'onglet **Coût du programme de maintenance** des groupes du volet Actions **Regrouper par…**, cliquez sur les boutons appropriés pour afficher le niveau requis de détail du calcul des coûts. Les boutons sélectionnés du groupe du volet Actions sont mis en surbrillance. Cliquez sur un bouton pour l'activer ou le désactiver.
+6. Sur l’onglet **Coût du programme de maintenance** des groupes du volet Actions **Regrouper par…**, cliquez sur les boutons appropriés pour afficher le niveau requis de détail du calcul des coûts. Les boutons sélectionnés du groupe du volet Actions sont mis en surbrillance. Cliquez sur un bouton pour l’activer ou le désactiver.
 
 7. Cliquez sur le bouton **Calculez le coût** si vous souhaitez effectuer un nouveau calcul des coûts.
 
-L'illustration ci-dessous affiche les résultats d'un calcul de coût du programme de maintenance.
+L’illustration ci-dessous affiche les résultats d’un calcul de coût du programme de maintenance.
 
 ![Figure 1](media/17-preventive-maintenance.png)
 

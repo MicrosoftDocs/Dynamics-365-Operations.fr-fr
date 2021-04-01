@@ -1,6 +1,6 @@
 ---
 title: Créer des transactions de redevance
-description: Cette rubrique explique comment créer des transactions de frais d'abonnement.
+description: Cette rubrique explique comment créer des transactions de frais d’abonnement.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/01/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcc5fc4e982be082991f875bd8f5b6b71ce82ad9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9286be7364570666e19354e2e9576efeb57e478b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974583"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247596"
 ---
 # <a name="create-subscription-fee-transactions"></a>Créer des transactions de redevance 
 
@@ -31,11 +31,11 @@ ms.locfileid: "4974583"
 
 1.  Cliquez sur **Gestion des services** \> **Commun** \> **Services récurrents** \> **Tous les abonnements aux services**.
 
-2.  Dans la page de liste **Tous les abonnements aux services**, sélectionnez l'abonnement pour lequel vous souhaitez créer une transaction de frais d'abonnement.
+2.  Dans la page de liste **Tous les abonnements aux services**, sélectionnez l’abonnement pour lequel vous souhaitez créer une transaction de frais d’abonnement.
 
-3.  Dans le volet **Actions**, sous l'onglet **Abonnement**, cliquez sur **Frais d'abonnement**.
+3.  Dans le volet **Actions**, sous l’onglet **Abonnement**, cliquez sur **Frais d’abonnement**.
 
-4.  Dans l'écran **Créer des frais d'abonnement**, entrez les informations appropriées dans les champs.
+4.  Dans l’écran **Créer des frais d’abonnement**, entrez les informations appropriées dans les champs.
 
 5.  Cliquez sur **OK**.
 
