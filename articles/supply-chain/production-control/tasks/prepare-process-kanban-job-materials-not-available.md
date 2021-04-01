@@ -1,6 +1,6 @@
 ---
 title: Préparer une tâche de kanban de processus lorsque les matières ne sont pas disponibles pour la cellule de travail
-description: Cette procédure se concentre sur la préparation d'une tâche de kanban de processus lorsque certaines matières sont disponibles pour la cellule de travail par conséquent, il est nécessaire de prélever des matières de l'entrepôt.
+description: Cette procédure se concentre sur la préparation d’une tâche de kanban de processus lorsque certaines matières sont disponibles pour la cellule de travail par conséquent, il est nécessaire de prélever des matières de l’entrepôt.
 author: ChristianRytt
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,40 +16,40 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df0396a1d00e61ad82e52fc07779e239cd811ab8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 742ac97c4b730d3552f532c53409ef54320b263a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204566"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Préparer une tâche de kanban de processus lorsque les matières ne sont pas disponibles pour la cellule de travail
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure se concentre sur la préparation d'une tâche de kanban de processus lorsque certaines matières sont disponibles pour la cellule de travail par conséquent, il est nécessaire de prélever des matières de l'entrepôt. La procédure « Préparer une tâche de kanban de processus lorsque les matières sont disponibles » est une étape préliminaire à la création de cette procédure. Cette procédure est destinée à l'opérateur. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+Cette procédure se concentre sur la préparation d’une tâche de kanban de processus lorsque certaines matières sont disponibles pour la cellule de travail par conséquent, il est nécessaire de prélever des matières de l’entrepôt. La procédure « Préparer une tâche de kanban de processus lorsque les matières sont disponibles » est une étape préliminaire à la création de cette procédure. Cette procédure est destinée à l’opérateur. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 1. Accédez à Contrôle de la production > Kanban > Tableau kanban pour les opérations de traitement.
 2. Dans le champ Cellule de travail, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
     * Sélectionnez la cellule de travail 1250.  
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez Kanban 000356.  
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Dans la liste, désélectionnez la ligne 4 ou sélectionnez-la si vous n'avez pas terminé la tâche « Préparer une tâche de kanban de processus lorsque les matières sont disponibles ».  
-6. Activez ou désactivez l'extension de la section Prélèvements.
-    * L'icône Aucune entrée dans le statut d'approvisionnement indique qu'il manque 48 ea dans l'article P0002 pour la cellule de travail.  
+5. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+    * Dans la liste, désélectionnez la ligne 4 ou sélectionnez-la si vous n’avez pas terminé la tâche « Préparer une tâche de kanban de processus lorsque les matières sont disponibles ».  
+6. Activez ou désactivez l’extension de la section Prélèvements.
+    * L’icône Aucune entrée dans le statut d’approvisionnement indique qu’il manque 48 ea dans l’article P0002 pour la cellule de travail.  
 
 ## <a name="transfer-materials-to-work-cell"></a>Transférer les matériaux à la cellule de travail
-1. Activez ou désactivez l'extension de la section Tâches de transfert.
-2. Utilisez le filtre rapide pour filtrer sur le champ Numéro d'article avec une valeur de « P0002 ».
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Activez ou désactivez l’extension de la section Tâches de transfert.
+2. Utilisez le filtre rapide pour filtrer sur le champ Numéro d’article avec une valeur de « P0002 ».
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 4. Cliquez sur Démarrer.
     * Le transfert est en cours.  
 5. Cliquez sur Terminé.
-    * L'article P0002 est à présent disponible dans les prélèvements pour la tâche de kanban. Cela signifie que nous pouvons préparer le kanban avec toutes les matériaux nécessaires.  
+    * L’article P0002 est à présent disponible dans les prélèvements pour la tâche de kanban. Cela signifie que nous pouvons préparer le kanban avec toutes les matériaux nécessaires.  
 6. Cliquez sur Préparer.
-    * Notez qu'une icône dans le statut de la tâche indique que la tâche est désormais prête.  
+    * Notez qu’une icône dans le statut de la tâche indique que la tâche est désormais prête.  
 
 
 

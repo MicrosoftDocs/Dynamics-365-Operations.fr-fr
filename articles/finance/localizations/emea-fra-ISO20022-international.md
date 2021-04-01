@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: v-lenest
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aed298f7c1952ca245941c59d596ed830ee70160
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9c78b1b1bc054f39dd9c8c462136fb4e9a2dda35
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209871"
 ---
 # <a name="prerequisites-for-iso-20022-credit-transfer-format"></a>Conditions préalables au format de virement ISO 20022
 

@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0209366b2cd00c9c9e68a49802a3f9d74b4c059f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e0172f11831e58ab21d9bb0fdb5f93ca8636361e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227877"
 ---
 # <a name="fr-00003-naf-codes-and-siret-numbers"></a>FR-00003 Codes NAF et numéros Siret
 

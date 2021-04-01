@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0e3b8b2087547ea93a16cd3eb43b2126e0e787b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994043"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215791"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Synchroniser directement les contacts provenant du module Sales sur les contacts ou clients de Supply Chain Management
 
@@ -32,42 +32,42 @@ ms.locfileid: "4994043"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Avant d'utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Avant d’utiliser le prospect pour une solution de disponibilités, vous devez bien connaître la rubrique [Intégrer des données dans Microsoft Dataverse pour applications](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les tables Contact (Contacts) et Contact (Clients) directement depuis Dynamics 365 Sales vers Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flux de données dans Prospect en disponibilités
 
-La solution Prospect en disponibilités utilise la fonction d'intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d'intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L'illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
+La solution Prospect en disponibilités utilise la fonction d’intégration de données pour synchroniser les données entre plusieurs instances de Supply Chain Management et Sales. Les modèles de prospects en disponibilités disponibles avec la fonction d’intégration de données activent le flux de données relatifs aux comptes, contacts, produits, devis de vente, commandes client et factures client entre Supply Chain Management et Sales. L’illustration ci-dessous indique comment les données sont synchronisées entre Supply Chain Management et Sales.
 
 [![Flux de données dans Prospect en disponibilités](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 
-Pour accéder à des modèles disponibles, ouvrez [Centre d'administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
+Pour accéder à des modèles disponibles, ouvrez [Centre d’administrateur PowerApps](https://preview.admin.powerapps.com/dataintegration). Sélectionnez **Projets**, puis, dans le coin supérieur droit, sélectionnez **Nouveau projet** pour sélectionner les modèles publics.
 
 Les modèles et tâches sous-jacentes suivants sont utilisés pour synchroniser les tables Contacts (Contacts) de Sales avec les tables Contacts (Clients) de Supply Chain Management :
 
-- **Noms des modèles dans l'intégration des données**
+- **Noms des modèles dans l’intégration des données**
 
     - Contacts (Sales vers Supply Chain Management) - Direct
     - Contacts vers Customer (Sales vers Supply Chain Management) - Direct
 
-- **Noms des tâches dans le projet d'intégration de données**
+- **Noms des tâches dans le projet d’intégration de données**
 
     - Contacts
     - ContactToCustomer
 
 La tâche suivante de synchronisation est requise avant que la synchronisation du contact puisse avoir lieu : Comptes (Sales vers Supply Chain Management)
 
-## <a name="entity-sets"></a>Ensembles d'entités
+## <a name="entity-sets"></a>Ensembles d’entités
 
-| Vente    | Gestion de la chaîne d'approvisionnement |
+| Vente    | Gestion de la chaîne d’approvisionnement |
 |----------|------------------------|
 | Contacts | Contacts Dataverse           |
 | Contacts | Clients V2           |
 
-## <a name="entity-flow"></a>Flux d'entité
+## <a name="entity-flow"></a>Flux d’entité
 
 Les contacts sont gérés dans Sales et synchronisés sur Supply Chain Management.
 
@@ -82,13 +82,13 @@ Une nouvelle colonne **Client actif** a été ajoutée au contact. Cette colonne
 
 Une nouvelle colonne **IsCompanyAnAccount** a été ajoutée au contact. Cette colonne indique si un contact est lié à une société (compte parent/contact) du type **Compte**. Ces informations servent à identifier les contacts qui doivent être synchronisés avec Supply Chain Management comme contacts.
 
-Une nouvelle colonne **Numéro de contact** a été ajoutée au contact pour garantir une clé naturelle et unique pour l’intégration. Lorsqu'un nouveau contact est créé, une valeur **Numéro de contact** est automatiquement générée à l'aide d'une souche de numéros. La valeur est composée de **CON**, suivi d'une souche de numéros croissante et d'un suffixe de six caractères. Voici un exemple : **CON-01000-BVRCPS**
+Une nouvelle colonne **Numéro de contact** a été ajoutée au contact pour garantir une clé naturelle et unique pour l’intégration. Lorsqu’un nouveau contact est créé, une valeur **Numéro de contact** est automatiquement générée à l’aide d’une souche de numéros. La valeur est composée de **CON**, suivi d’une souche de numéros croissante et d’un suffixe de six caractères. Voici un exemple : **CON-01000-BVRCPS**
 
 Lorsque la solution d’intégration pour Sales est appliquée, un script de mise à niveau définit la colonne **Numéro de contact** pour des contact existants à l’aide de la souche de numéros qui a été précédemment mentionnée. Le script de mise à niveau définit également la colonne **Client actif** sur **Oui** pour tous les contacts qui disposent d’activités commerciales.
 
 ## <a name="in-supply-chain-management"></a>Dans Supply Chain Management
 
-Les contacts sont étiquetés à l'aide de la propriété **IsContactPersonExternallyMaintained**. Cette propriété indique qu'un contact donné est conservé en externe. Dans ce cas, les contacts tenus à jour en externe sont tenus à jour dans Sales.
+Les contacts sont étiquetés à l’aide de la propriété **IsContactPersonExternallyMaintained**. Cette propriété indique qu’un contact donné est conservé en externe. Dans ce cas, les contacts tenus à jour en externe sont tenus à jour dans Sales.
 
 ## <a name="preconditions-and-mapping-setup"></a>Conditions préalables et paramétrage de mise en correspondance
 
@@ -102,30 +102,30 @@ Les contacts sont étiquetés à l'aide de la propriété **IsContactPersonExter
 
     - **SiteId** – Site par défaut qui peut également être défini dans Supply Chain Management. Un site est requis pour générer des lignes de devis et de commandes client dans Supply Chain Management.
 
-        Aucun modèle de valeur pour **SiteId** n'est défini.
+        Aucun modèle de valeur pour **SiteId** n’est défini.
 
     - **WarehouseId** – Entrepôt par défaut qui peut également être défini dans Supply Chain Management. Un entrepôt est requis pour générer des lignes de devis et de commandes client dans Supply Chain Management.
 
-        Aucun modèle de valeur pour **WarehouseId** n'est défini.
+        Aucun modèle de valeur pour **WarehouseId** n’est défini.
 
     - **LanguageId** – Un langage est requis pour générer des lignes de devis et de commande client dans Supply Chain Management.
     
         Le modèle de valeur par défaut **en-us**.
 
-## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l'intégration de données
+## <a name="template-mapping-in-data-integration"></a>Mise en correspondance de modèles dans l’intégration de données
 
-Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l'intégration de données. 
+Les illustrations suivantes présentent un exemple de modèle de mise en correspondance dans l’intégration de données. 
 
 > [!NOTE]
 > La mise en correspondance indique quelles informations de la colonne sont synchronisées entre Sales et Supply Chain Management.
 
 ### <a name="contact-to-contact"></a>Contact vers contact
 
-![Mise en correspondance de modèles dans l'intégrateur de données](./media/contacts-direct-template-mapping-data-integrator-1.png)
+![Mise en correspondance de modèles dans l’intégrateur de données](./media/contacts-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="contact-to-customer"></a>Contact vers client
 
-![Mise en correspondance de modèles dans l'intégrateur de données](./media/contacts-direct-template-mapping-data-integrator-2.png)
+![Mise en correspondance de modèles dans l’intégrateur de données](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
 ## <a name="related-topics"></a>Rubriques connexes

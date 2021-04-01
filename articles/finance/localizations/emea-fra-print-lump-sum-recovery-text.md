@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 307a2a4bd282027abfec3ddd504dcab488c7eb21
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 184a7eb77d6c4d9784a816e3a47d69728a1fcbd5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002939"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206075"
 ---
 # <a name="print-lump-sum-recovery-text-on-a-customer-invoice"></a>Impression du texte récupéré du montant forfaitaire sur une facture client
 

@@ -1,6 +1,6 @@
 ---
 title: Emplacement de la sortie de production
-description: Cette rubrique décrit la hiérarchie utilisée pour identifier l'emplacement de sortie de production.
+description: Cette rubrique décrit la hiérarchie utilisée pour identifier l’emplacement de sortie de production.
 author: johanhoffmann
 manager: tfehr
 ms.date: 04/04/2017
@@ -16,29 +16,29 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d28b9670d8752c1039684551d56b1779a10b20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8fa4f7d844c178ee603778fa2f1def6bfc33db97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209441"
 ---
 # <a name="production-output-location"></a>Emplacement de la sortie de production
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la hiérarchie utilisée pour identifier l'emplacement de sortie de production.
+Cette rubrique décrit la hiérarchie utilisée pour identifier l’emplacement de sortie de production.
 
-L'emplacement de sortie de production est l'emplacement où un produit fini est d'abord stocké après avoir été produit. Généralement, cet emplacement est près du processus de production qui produit le produit fini. L'emplacement de sortie de production est utilisé comme stockage intermédiaire pour le matériel avant qu'il soit déplacé dans la zone d'expédition, à un emplacement de stockage, à un emplacement d'entrée en production pour un processus de production en aval, et ainsi de suite. 
+L’emplacement de sortie de production est l’emplacement où un produit fini est d’abord stocké après avoir été produit. Généralement, cet emplacement est près du processus de production qui produit le produit fini. L’emplacement de sortie de production est utilisé comme stockage intermédiaire pour le matériel avant qu’il soit déplacé dans la zone d’expédition, à un emplacement de stockage, à un emplacement d’entrée en production pour un processus de production en aval, et ainsi de suite. 
 
 Un emplacement de sortie de production par défaut est paramétré lorsque des produits finis sont signalés sur un ordre de fabrication ou un lot de commandes. La hiérarchie suivante est utilisée pour identifier cet emplacement de sortie :
 
-1. Utilisez l'emplacement de sortie qui est défini dans l'en-tête de l'ordre de fabrication ou du lot de commandes.
-2. Si aucun emplacement n'est trouvé là, utilisez l'emplacement de sortie défini sur la ressource utilisée par la dernière opération définie dans la gamme de production.
-3. Si aucun emplacement n'est trouvé là, utilisez l'emplacement de sortie défini sur le groupe de ressources utilisé par la ressource pour la dernière opération définie dans la gamme de production.
-4. Si aucun entrepôt n'est trouvé là, utilisez l'emplacement de sortie défini dans l'entrepôt qui est défini pour l'ordre de fabrication.
+1. Utilisez l’emplacement de sortie qui est défini dans l’en-tête de l’ordre de fabrication ou du lot de commandes.
+2. Si aucun emplacement n’est trouvé là, utilisez l’emplacement de sortie défini sur la ressource utilisée par la dernière opération définie dans la gamme de production.
+3. Si aucun emplacement n’est trouvé là, utilisez l’emplacement de sortie défini sur le groupe de ressources utilisé par la ressource pour la dernière opération définie dans la gamme de production.
+4. Si aucun entrepôt n’est trouvé là, utilisez l’emplacement de sortie défini dans l’entrepôt qui est défini pour l’ordre de fabrication.
 
-Un emplacement de sortie de production par défaut est défini uniquement pour les produits qui sont paramétrés à l'aide des processus d'entrepôt avancés. Lorsque ce type d'article est déclaré terminé, le type de travail en entrepôt **Rangement des produits finis** ou **Rangement des coproduits et des sous-produits** est créé. Ce type de travail utilise l'emplacement de sortie de production comme emplacement de prélèvement. L'emplacement de rangement est déterminé par les instructions sur l'emplacement.
+Un emplacement de sortie de production par défaut est défini uniquement pour les produits qui sont paramétrés à l’aide des processus d’entrepôt avancés. Lorsque ce type d’article est déclaré terminé, le type de travail en entrepôt **Rangement des produits finis** ou **Rangement des coproduits et des sous-produits** est créé. Ce type de travail utilise l’emplacement de sortie de production comme emplacement de prélèvement. L’emplacement de rangement est déterminé par les instructions sur l’emplacement.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

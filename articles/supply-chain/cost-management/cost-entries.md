@@ -1,6 +1,6 @@
 ---
 title: Écritures de coût
-description: Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d'un événement donné.
+description: Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d’un événement donné.
 author: AndersGirke
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,39 +18,39 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12ff771cf44595420ca721605daabaa6b071a4ff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6ddd263852fc328756a6dc06bc3f02c661cbd40f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967804"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228633"
 ---
 # <a name="cost-entries"></a>Écritures de coût
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d'un événement donné.
+Cet article fournit des informations sur les entrées de coût et à quel moment elles sont créées. Une entrée de coût est un enregistrement qui enregistre la quantité et le coût d’un événement donné.
 
 Les entrées de coût sont des agrégations des mouvements de stock qui sont enregistrés sur les dimensions de stock financier actives.
 
 ## <a name="examples"></a>Exemples
-### <a name="example-1-no-cost-entries-are-created"></a>Exemple 1 : aucune écriture de coût n'est créée
+### <a name="example-1-no-cost-entries-are-created"></a>Exemple 1 : aucune écriture de coût n’est créée
 
-Un événement de journal de transfert est enregistré. L'événement transfère une pièce de l'article A de l'emplacement A à l'emplacement B. La dimension de stock d'emplacement n'est pas prise en considération dans l'objet de coût. Par conséquent, l'événement crée deux mouvements de stock et aucune écriture de coût.
+Un événement de journal de transfert est enregistré. L’événement transfère une pièce de l’article A de l’emplacement A à l’emplacement B. La dimension de stock d’emplacement n’est pas prise en considération dans l’objet de coût. Par conséquent, l’événement crée deux mouvements de stock et aucune écriture de coût.
 
 ### <a name="example-2-cost-entries-are-created"></a>Exemple 2 : des écritures de coût sont créées
 
-Un événement de journal de transfert est enregistré. L'événement transfère une pièce de l'article A du site 1 au site 2. La dimension de stock de site est prise en considération dans l'objet de coût. Par conséquent, l'événement crée deux mouvements de stock et deux écritures de coût.
+Un événement de journal de transfert est enregistré. L’événement transfère une pièce de l’article A du site 1 au site 2. La dimension de stock de site est prise en considération dans l’objet de coût. Par conséquent, l’événement crée deux mouvements de stock et deux écritures de coût.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Exemple 3 : une écriture de coût est créée
 
-Un événement d'accusé de réception de marchandises est enregistré pour une commande fournisseur. L'événement enregistre 100 pièces de l'article A à un coût unitaire de 10.00 dollars américain (USD). Étant donné que l'article A utilise un numéro de série aux fins du suivi de la Gestion des stocks, un numéro de série unique est créé pour chaque article reçu. Par conséquent, l'événement crée 100 mouvements de stock et une écriture de coût.
+Un événement d’accusé de réception de marchandises est enregistré pour une commande fournisseur. L’événement enregistre 100 pièces de l’article A à un coût unitaire de 10.00 dollars américain (USD). Étant donné que l’article A utilise un numéro de série aux fins du suivi de la Gestion des stocks, un numéro de série unique est créé pour chaque article reçu. Par conséquent, l’événement crée 100 mouvements de stock et une écriture de coût.
 
 ## <a name="cost-entries-page"></a>Page des écritures de coût
-La nouvelle page **Écritures de coût** permet d'afficher et contrôler les enregistrements des quantités et des coûts. Cette page complète les pâges **Mouvement de stock** et **Lettrage de stock**. Les enregistrements sont enregistrés dans l'ordre chronologique pour un événement. Par conséquent, vous pouvez rapidement trouver et contrôler les coûts cumulés d'un événement spécifique ou de tous les événements liés à un document. Voici un exemple :
+La nouvelle page **Écritures de coût** permet d’afficher et contrôler les enregistrements des quantités et des coûts. Cette page complète les pâges **Mouvement de stock** et **Lettrage de stock**. Les enregistrements sont enregistrés dans l’ordre chronologique pour un événement. Par conséquent, vous pouvez rapidement trouver et contrôler les coûts cumulés d’un événement spécifique ou de tous les événements liés à un document. Voici un exemple :
 
--   Un événement d'accusé de réception de marchandises est enregistré pour l'article A. Cent pièces sont reçues à un coût unitaire de 10,00 USD chacune.
--   Quelques jours après que l'événement de facture a été enregistré, le coût grimpe à 11,00 USD. Par conséquent, le montant total est de 1 100 €. Un deuxième N° document est créé pour expliquer la différence de 100 USD.
+-   Un événement d’accusé de réception de marchandises est enregistré pour l’article A. Cent pièces sont reçues à un coût unitaire de 10,00 USD chacune.
+-   Quelques jours après que l’événement de facture a été enregistré, le coût grimpe à 11,00 USD. Par conséquent, le montant total est de 1 100 €. Un deuxième N° document est créé pour expliquer la différence de 100 USD.
 -   Quelques jours plus tard, les frais divers de 15,00 USD pour couvrir le coût du transport sont enregistrés sur la commande fournisseur.
 
 | Pièce justificative | date ;       | Référence      | Nombre | N° de traitement  | Quantité | Montant  |

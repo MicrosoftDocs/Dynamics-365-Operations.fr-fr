@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fdedd3011bc707de785a5993244643347848d14
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f51d30a63cba9e9fa5c8319c8b7d713acea5f19c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970429"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214176"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement
 
@@ -40,14 +40,14 @@ Les modèles de travail se composent d’un en-tête et de lignes associées. Ch
 
 Utilisez les paramètres dans la définition d’en-tête de travail pour déterminer le moment où un nouveau travail doit être créé. Par exemple, vous pouvez définir un nombre maximal de lignes de prélèvement et un temps prévu de sélection maximal. Ensuite, si le travail pour un processus de prélèvement de commande client dépasse l’une de ces valeurs, ce travail est fractionné en deux travaux.
 
-Utilisez le bouton **Pauses d'en-tête de travail** pour définir quand le système doit créer des en-têtes de travail. Par exemple, pour créer un en-tête de travail pour chaque _numéro de commande_, sélectionnez **Modifier la requête** dans le volet Actions, puis ajoutez le champ **Numéro de commande** à l'onglet **Tri** de l'éditeur de requêtes. Les champs ajoutés à l'onglet **Tri** sont disponibles pour la sélection comme *champs de regroupement*. Pour définir vos champs de regroupement, sélectionnez **Pauses d'en-tête de travail** dans le volet Actions, puis, pour chaque champ que vous souhaitez utiliser comme champ de regroupement, cochez la case dans la colonne **Regrouper selon ce champ**.
+Utilisez le bouton **Pauses d’en-tête de travail** pour définir quand le système doit créer des en-têtes de travail. Par exemple, pour créer un en-tête de travail pour chaque _numéro de commande_, sélectionnez **Modifier la requête** dans le volet Actions, puis ajoutez le champ **Numéro de commande** à l’onglet **Tri** de l’éditeur de requêtes. Les champs ajoutés à l’onglet **Tri** sont disponibles pour la sélection comme *champs de regroupement*. Pour définir vos champs de regroupement, sélectionnez **Pauses d’en-tête de travail** dans le volet Actions, puis, pour chaque champ que vous souhaitez utiliser comme champ de regroupement, cochez la case dans la colonne **Regrouper selon ce champ**.
 
-Les lignes de travail représentent les tâches physiques requises pour traiter le travail. Par exemple, pour un processus sortant d’entrepôt, il peut y avoir une ligne de travail pour prélever les articles dans l’entrepôt et une autre ligne pour ranger ces articles dans une zone de transit. Il peut ensuite y avoir une ligne supplémentaire pour prélever les articles dans la zone de transit, et une autre ligne pour mettre les articles dans un camion dans le cadre du processus de chargement. Vous pouvez définir un *code directif* sur les lignes de modèle de travail. Un code directif est lié à une instruction d’emplacement et donc permet de s'assurer que le travail d’entrepôt est traité dans l’emplacement approprié de l’entrepôt.
+Les lignes de travail représentent les tâches physiques requises pour traiter le travail. Par exemple, pour un processus sortant d’entrepôt, il peut y avoir une ligne de travail pour prélever les articles dans l’entrepôt et une autre ligne pour ranger ces articles dans une zone de transit. Il peut ensuite y avoir une ligne supplémentaire pour prélever les articles dans la zone de transit, et une autre ligne pour mettre les articles dans un camion dans le cadre du processus de chargement. Vous pouvez définir un *code directif* sur les lignes de modèle de travail. Un code directif est lié à une instruction d’emplacement et donc permet de s’assurer que le travail d’entrepôt est traité dans l’emplacement approprié de l’entrepôt.
 
 Vous pouvez paramétrer une requête pour contrôler le moment où un modèle particulier de travail est utilisé. Par exemple, vous pouvez définir une limitation afin qu’un modèle spécifique puisse être utilisé pour le travail uniquement dans un entrepôt particulier. Sinon, vous pouvez avoir plusieurs modèles utilisés pour créer le travail pour le traitement de la commande client sortante, en fonction de l’origine des ventes. Le système utilise le champ **N° de souche** pour déterminer l’ordre dans lequel les modèles de travail disponibles sont évalués. Par conséquent, si vous avez une requête très spécifique pour un modèle particulier de travail, vous devez lui attribuer un faible numéro de souche. Cette requête sera alors évaluée avant d’autres requêtes plus générales.
 
 > [!NOTE]
-> Pour empêcher le système d'écraser automatiquement les *numéros de séquence* du modèle de travail après la suppression d'un modèle, activez la fonctionnalité *Conserver les numéros de séquence du modèle de travail lors de la suppression* dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Pour empêcher le système d’écraser automatiquement les *numéros de séquence* du modèle de travail après la suppression d’un modèle, activez la fonctionnalité *Conserver les numéros de séquence du modèle de travail lors de la suppression* dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Pour arrêter ou suspendre un processus de travail, vous pouvez utiliser le paramètre **Arrêter le travail** dans la ligne de travail. Dans ce cas, le collaborateur qui exécute le travail n’est pas invité à effectuer l’étape de la ligne de travail suivante. Pour passer à l’étape suivante, ce collaborateur ou un autre doit resélectionner le travail. Vous pouvez également séparer les tâches dans un travail en utilisant un autre *ID classe de travail* dans les lignes de modèle de travail.
 
@@ -67,15 +67,15 @@ Pour plus d’informations sur la création et la configuration des instructions
 
 ### <a name="how-location-directives-work"></a>Fonctionnement des instructions d’emplacement
 
-Les directives de localisation déterminent *où* les articles doivent être choisis et *où* ils devraient être mis. Le système évalue une directive d'emplacement par rapport à chaque ligne de travail, puis sélectionne un emplacement, en fonction des détails de la ligne de travail. Le système trouve d'abord toutes les directives d'emplacement qui correspondent à une ligne de travail particulière (par exemple, elles concernent le bon entrepôt et correspondent à la requête). Il évalue ensuite séquentiellement les directives qu'il a trouvées.
+Les directives de localisation déterminent *où* les articles doivent être choisis et *où* ils devraient être mis. Le système évalue une directive d’emplacement par rapport à chaque ligne de travail, puis sélectionne un emplacement, en fonction des détails de la ligne de travail. Le système trouve d’abord toutes les directives d’emplacement qui correspondent à une ligne de travail particulière (par exemple, elles concernent le bon entrepôt et correspondent à la requête). Il évalue ensuite séquentiellement les directives qu’il a trouvées.
 
 > [!NOTE]
-> Il existe des cas particuliers où l'emplacement de prélèvement ou l'emplacement de mise est présélectionné. Par exemple, pendant _l'inscription de l'achat_, le premier prélèvement est toujours à partir de l'emplacement où l'enregistrement a lieu. Un autre exemple est le *mouvement de stock par modèle*, où le magasinier sélectionne l'emplacement de prélèvement, et seuls les emplacements de vente sont trouvés via les directives d'emplacement.
+> Il existe des cas particuliers où l’emplacement de prélèvement ou l’emplacement de mise est présélectionné. Par exemple, pendant _l’inscription de l’achat_, le premier prélèvement est toujours à partir de l’emplacement où l’enregistrement a lieu. Un autre exemple est le *mouvement de stock par modèle*, où le magasinier sélectionne l’emplacement de prélèvement, et seuls les emplacements de vente sont trouvés via les directives d’emplacement.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - Vidéo : [Analyse approfondie de la configuration de la gestion des entrepôts](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Rubrique d'aide : [Créer des instructions d’emplacement](create-location-directive.md)
+- Rubrique d’aide : [Créer des instructions d’emplacement](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

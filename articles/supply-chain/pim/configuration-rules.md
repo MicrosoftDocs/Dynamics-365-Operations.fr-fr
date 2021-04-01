@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8b3de89235c6dac52f059af9665ea70f80d83a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ac3515837df45b65121ebec72a32ac98d740796a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007789"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221869"
 ---
 # <a name="configuration-rules"></a>Règles de configuration
 
@@ -30,18 +30,18 @@ ms.locfileid: "5007789"
 
 Cet article fournit des informations générales sur les règles de configuration. Les règles de configuration définissent les relations entre les articles dans une nomenclature (BOM) pour les produits qui utilisent la technologie de configuration basée sur les dimensions.
 
-Les règles de configuration sont disponibles lorsque vous définissez des modèles de configuration basés sur les dimensions. Les règles de configuration sont utilisées pour appliquer ou interdire des combinaisons d'article spécifiques dans une nomenclature. Une fois qu'une nomenclature a été créée et que les articles appropriés ont été affectés à leurs groupes de configuration respectifs, une ou plusieurs règles de configuration peuvent être définies. Si deux articles sont liés, l'opérateur **Sélectionner** est utilisé pour assurer l'inclusion. Si deux articles s'excluent mutuellement, l'opérateur **Désélectionner** est utilisé pour assurer l'exclusion.  
+Les règles de configuration sont disponibles lorsque vous définissez des modèles de configuration basés sur les dimensions. Les règles de configuration sont utilisées pour appliquer ou interdire des combinaisons d’article spécifiques dans une nomenclature. Une fois qu’une nomenclature a été créée et que les articles appropriés ont été affectés à leurs groupes de configuration respectifs, une ou plusieurs règles de configuration peuvent être définies. Si deux articles sont liés, l’opérateur **Sélectionner** est utilisé pour assurer l’inclusion. Si deux articles s’excluent mutuellement, l’opérateur **Désélectionner** est utilisé pour assurer l’exclusion.  
 
-**Remarque :** ces informations s'appliquent uniquement aux produits génériques qui utilisent la technologie de configuration basée sur les dimensions.  
+**Remarque :** ces informations s’appliquent uniquement aux produits génériques qui utilisent la technologie de configuration basée sur les dimensions.  
 
-Les configurations existantes ne sont pas concernées par les modifications ultérieures apportées aux règles de configuration. Cependant, il est important de définir les règles avant de définir une nouvelle configuration et de les vérifier si vous pensez qu'elles ont été modifiées.  
+Les configurations existantes ne sont pas concernées par les modifications ultérieures apportées aux règles de configuration. Cependant, il est important de définir les règles avant de définir une nouvelle configuration et de les vérifier si vous pensez qu’elles ont été modifiées.  
 
-**Remarque :** pour la méthode **Sélectionner**, le groupe de configurations déduit, le numéro d'article et la configuration sont automatiquement sélectionnés. Pour la méthode **Désélectionner**, le groupe de configurations déduit, le numéro d'article et la configuration ne peuvent pas être sélectionnés.
+**Remarque :** pour la méthode **Sélectionner**, le groupe de configurations déduit, le numéro d’article et la configuration sont automatiquement sélectionnés. Pour la méthode **Désélectionner**, le groupe de configurations déduit, le numéro d’article et la configuration ne peuvent pas être sélectionnés.
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Vue d'ensemble de la configuration des produits basée sur les dimensions](dimension-based-product-configuration.md)
+[Vue d’ensemble de la configuration des produits basée sur les dimensions](dimension-based-product-configuration.md)
 
 
 

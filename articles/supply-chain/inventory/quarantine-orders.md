@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a9004aae563959dd19276268b9f81aca4b0735
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 08bb75228c79a0575e8476f41c935d0a03e00f35
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011695"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209608"
 ---
 # <a name="quarantine-orders"></a>Ordres de contrôle
 
@@ -30,12 +30,12 @@ ms.locfileid: "5011695"
 
 Cette rubrique décrit la manière dont les ordres de contrôle sont utilisés pour bloquer le stock.
 
-Les ordres de contrôle peuvent être utilisés pour bloquer le stock. Par exemple, vous pouvez contrôler des articles à des fins de contrôle de la qualité. Le stock qui a été mis en contrôle est transféré vers un entrepôt de contrôle. **Remarque :** Si vous utilisez des processus de gestion avancée des entrepôts (dans le module gestion des entrepôts), le traitement d'ordre de contrôle n'est utilisé que pour les commandes client retournées.
+Les ordres de contrôle peuvent être utilisés pour bloquer le stock. Par exemple, vous pouvez contrôler des articles à des fins de contrôle de la qualité. Le stock qui a été mis en contrôle est transféré vers un entrepôt de contrôle. **Remarque :** Si vous utilisez des processus de gestion avancée des entrepôts (dans le module gestion des entrepôts), le traitement d’ordre de contrôle n’est utilisé que pour les commandes client retournées.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Contrôler des articles disponibles dans le stock
-Lorsque vous contrôlez des articles, vous pouvez créer des ordres de contrôle manuellement ou paramétrer le système pour que celui-ci crée des ordres de contrôle automatiquement lors du traitement entrant. Pour créer des ordres de contrôle automatiquement, sélectionnez l'option **Gestion des contrôles** dans l'onglet **Stratégies de stock** dans la page **Groupes de modèles d'article**. Vous devez également spécifier un entrepôt de contrôle par défaut dans le champ **Entrepôts de contrôle** pour les entrepôts de réception. Lorsque le stock physique disponible est enregistré dans une commande fournisseur ou un ordre de fabrication, les articles mis sous contrôle sont déplacés automatiquement dans des entrepôts de contrôle dans Supply Chain Management. Ce mouvement se produit car le statut de l'ordre de contrôle est changé en **Commencé**. Lorsque vous créez des ordres de contrôle manuellement, il n'est pas nécessaire que l'article actuel soit paramétré pour la gestion des contrôles dans le groupe de modèles d'article associé. Pour ce processus, vous devez spécifier le stock disponible qui doit être mis sous contrôle et l'entrepôt de contrôle qui doit être utilisé. Utilisez les statuts d'ordre de contrôle pour aider à planifier le processus.
+Lorsque vous contrôlez des articles, vous pouvez créer des ordres de contrôle manuellement ou paramétrer le système pour que celui-ci crée des ordres de contrôle automatiquement lors du traitement entrant. Pour créer des ordres de contrôle automatiquement, sélectionnez l’option **Gestion des contrôles** dans l’onglet **Stratégies de stock** dans la page **Groupes de modèles d’article**. Vous devez également spécifier un entrepôt de contrôle par défaut dans le champ **Entrepôts de contrôle** pour les entrepôts de réception. Lorsque le stock physique disponible est enregistré dans une commande fournisseur ou un ordre de fabrication, les articles mis sous contrôle sont déplacés automatiquement dans des entrepôts de contrôle dans Supply Chain Management. Ce mouvement se produit car le statut de l’ordre de contrôle est changé en **Commencé**. Lorsque vous créez des ordres de contrôle manuellement, il n’est pas nécessaire que l’article actuel soit paramétré pour la gestion des contrôles dans le groupe de modèles d’article associé. Pour ce processus, vous devez spécifier le stock disponible qui doit être mis sous contrôle et l’entrepôt de contrôle qui doit être utilisé. Utilisez les statuts d’ordre de contrôle pour aider à planifier le processus.
 
-## <a name="quarantine-order-statuses"></a>Statuts de l'ordre de contrôle
+## <a name="quarantine-order-statuses"></a>Statuts de l’ordre de contrôle
 Les ordres de contrôle peuvent avoir les statuts suivants :
 
 -   Créé
@@ -45,22 +45,22 @@ Les ordres de contrôle peuvent avoir les statuts suivants :
 
 ### <a name="created"></a>Créé
 
-Lorsqu'un ordre de contrôle a été créé manuellement, mais que l'article n'est pas encore placé dans l'entrepôt de contrôle, l'ordre de contrôle a le statut **Créé**. Deux mouvements de stock sont générés. La première transaction est une transaction de sortie qui peut être dotée du statut **En commande**, **Physique réservé** ou **Prélevé**. Le deuxième est une transaction de réception qui peut avoir les statuts **Commandé** ou **Enregistré** à l'entrepôt de contrôle. Vous pouvez réserver, prélever et enregistrer les mises à jour du stock à l'aide des processus habituels.
+Lorsqu’un ordre de contrôle a été créé manuellement, mais que l’article n’est pas encore placé dans l’entrepôt de contrôle, l’ordre de contrôle a le statut **Créé**. Deux mouvements de stock sont générés. La première transaction est une transaction de sortie qui peut être dotée du statut **En commande**, **Physique réservé** ou **Prélevé**. Le deuxième est une transaction de réception qui peut avoir les statuts **Commandé** ou **Enregistré** à l’entrepôt de contrôle. Vous pouvez réserver, prélever et enregistrer les mises à jour du stock à l’aide des processus habituels.
 
 ### <a name="started"></a>Commencé
 
-Quand un ordre de contrôle a le statut **Commencé**, le stock est transféré de l'entrepôt ordinaire vers l'entrepôt de contrôle et deux mouvements de stock sont générés. Une transaction a le statut **Déduit** et l'autre a le statut **Reçu**. En même temps, deux mouvements de stock sont créés pour gérer le transfert en retour. Ces transactions ne sont pas datées. Une transaction a le statut **Physique réservé** et l'autre a le statut **Commandé**.
+Quand un ordre de contrôle a le statut **Commencé**, le stock est transféré de l’entrepôt ordinaire vers l’entrepôt de contrôle et deux mouvements de stock sont générés. Une transaction a le statut **Déduit** et l’autre a le statut **Reçu**. En même temps, deux mouvements de stock sont créés pour gérer le transfert en retour. Ces transactions ne sont pas datées. Une transaction a le statut **Physique réservé** et l’autre a le statut **Commandé**.
 
 ### <a name="reported-as-finished"></a>Déclaré terminé
 
-Pour déclarer un ordre de contrôle commencé comme terminé, cliquez sur **Déclaration de fin**. L'article n'est plus sous contrôle mais il n'est pas encore replacé dans l'entrepôt ordinaire. Le mouvement vers l'entrepôt ordinaire peut être traité via un Journal des arrivées d'articles pouvant être initialisé lors de l'État dans le cadre du processus de déclaration de fin.
+Pour déclarer un ordre de contrôle commencé comme terminé, cliquez sur **Déclaration de fin**. L’article n’est plus sous contrôle mais il n’est pas encore replacé dans l’entrepôt ordinaire. Le mouvement vers l’entrepôt ordinaire peut être traité via un Journal des arrivées d’articles pouvant être initialisé lors de l’État dans le cadre du processus de déclaration de fin.
 
 ### <a name="ended"></a>Terminé
 
-Lorsqu'un ordre de contrôle prend fin, l'article est déplacé de l'entrepôt de contrôle vers l'entrepôt ordinaire. Le statut de la transaction d'article est défini sur **Vendu** au niveau de l'entrepôt de contrôle et sur **Acheté** au niveau de l'entrepôt ordinaire.
+Lorsqu’un ordre de contrôle prend fin, l’article est déplacé de l’entrepôt de contrôle vers l’entrepôt ordinaire. Le statut de la transaction d’article est défini sur **Vendu** au niveau de l’entrepôt de contrôle et sur **Acheté** au niveau de l’entrepôt ordinaire.
 
-## <a name="quarantine-order-scrap"></a>Rebut d'ordre de contrôle
-Dans le cadre du processus d'ordre de contrôle, vous pouvez mettre le stock au rebut. Lors du traitement d'une mise au rebut, le statut du stock sera défini sur **Vendu** par une transaction de sortie de l'entrepôt de contrôle.
+## <a name="quarantine-order-scrap"></a>Rebut d’ordre de contrôle
+Dans le cadre du processus d’ordre de contrôle, vous pouvez mettre le stock au rebut. Lors du traitement d’une mise au rebut, le statut du stock sera défini sur **Vendu** par une transaction de sortie de l’entrepôt de contrôle.
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------

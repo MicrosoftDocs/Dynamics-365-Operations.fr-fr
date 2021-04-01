@@ -1,6 +1,6 @@
 ---
 title: Comptage des balises de stock
-description: Cette rubrique fournit des informations sur l'inventaire de balises, que vous utilisez pour comparer le contenu réel d'un entrepôt au stock disponible.
+description: Cette rubrique fournit des informations sur l’inventaire de balises, que vous utilisez pour comparer le contenu réel d’un entrepôt au stock disponible.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/10/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11081324f6970813322fb2463a63a441d30185ee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 78402840ad86a0f43d30b3c80307b4646fffbaeb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992443"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216127"
 ---
 # <a name="inventory-tag-counting"></a>Comptage des balises de stock
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit des informations sur l'inventaire de balises, que vous utilisez pour comparer le contenu réel d'un entrepôt au stock disponible.
+Cette rubrique fournit des informations sur l’inventaire de balises, que vous utilisez pour comparer le contenu réel d’un entrepôt au stock disponible.
 
-En créant des lignes dans la page **Comptage des balises**, vous placez un numéro de balise sur chaque article en stock, comme un numéro de 1 à 500. Pendant le comptage, entrez le numéro d'article et la quantité sur une balise correspondante. Cette balise peut ensuite être utilisée comme base pour l'entrée dans le journal de comptage des balises. Après avoir validé le journal de balises, un nouveau journal d'inventaire est créé dans la page **Comptage**. Ce journal est basé sur les lignes du journal de comptage des balises que vous avez créé. Pour compter les balises des articles en fonction d'une dimension de stock particulière, sélectionnez la dimension dans la page **Affichage des dimensions** qui s'affiche lorsque vous créez le journal de comptage des balises. Par exemple, pour compter les articles dans un entrepôt particulier, activez la case à cocher **Entrepôt**. Si le curseur **Verrouiller les articles lors du comptage** est sélectionné dans la page **Paramètres de gestion des stocks et des entrepôts**, les articles ne peuvent pas être mis à jour physiquement lors du comptage. Toutefois, les articles dans les journaux de comptage des balises ne sont pas verrouillés lors du comptage. Les mouvements de stock ne sont pas créés tant que lorsque les lignes de comptage des balises ne sont pas validées et transférées vers un journal d'inventaire. Si les balises sont introduites dans le désordre et que vous voulez connaître les balises manquantes, cliquez sur l'en-tête de colonne **Balise** pour trier les lignes par balise.
+En créant des lignes dans la page **Comptage des balises**, vous placez un numéro de balise sur chaque article en stock, comme un numéro de 1 à 500. Pendant le comptage, entrez le numéro d’article et la quantité sur une balise correspondante. Cette balise peut ensuite être utilisée comme base pour l’entrée dans le journal de comptage des balises. Après avoir validé le journal de balises, un nouveau journal d’inventaire est créé dans la page **Comptage**. Ce journal est basé sur les lignes du journal de comptage des balises que vous avez créé. Pour compter les balises des articles en fonction d’une dimension de stock particulière, sélectionnez la dimension dans la page **Affichage des dimensions** qui s’affiche lorsque vous créez le journal de comptage des balises. Par exemple, pour compter les articles dans un entrepôt particulier, activez la case à cocher **Entrepôt**. Si le curseur **Verrouiller les articles lors du comptage** est sélectionné dans la page **Paramètres de gestion des stocks et des entrepôts**, les articles ne peuvent pas être mis à jour physiquement lors du comptage. Toutefois, les articles dans les journaux de comptage des balises ne sont pas verrouillés lors du comptage. Les mouvements de stock ne sont pas créés tant que lorsque les lignes de comptage des balises ne sont pas validées et transférées vers un journal d’inventaire. Si les balises sont introduites dans le désordre et que vous voulez connaître les balises manquantes, cliquez sur l’en-tête de colonne **Balise** pour trier les lignes par balise.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

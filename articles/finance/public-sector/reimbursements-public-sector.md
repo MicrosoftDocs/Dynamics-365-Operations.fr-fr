@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f70e9ff8c30fff239d0b98c35b6f9d5be7b7e3f1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8cac4440c2f61523c657c4e3a9292ffa88f5e1bc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981997"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231464"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 

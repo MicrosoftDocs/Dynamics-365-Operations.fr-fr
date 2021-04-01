@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble de la gestion des stocks
-description: Cette rubrique fournit une vue d'ensemble de la gestion des stocks.
+title: Vue d’ensemble de la gestion des stocks
+description: Cette rubrique fournit une vue d’ensemble de la gestion des stocks.
 author: ShylaThompson
 manager: tfehr
 ms.date: 07/25/2019
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f73c295c2fd0b48ea77c88e037b21a472744e55f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a76177a083aded953aab13fbb81681d7f117828d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000257"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225024"
 ---
-# <a name="inventory-management-overview"></a>Vue d'ensemble de la gestion des stocks
+# <a name="inventory-management-overview"></a>Vue d’ensemble de la gestion des stocks
 
 [!include [banner](../includes/banner.md)]
 
-La gestion des stocks vous permet d'effectuer les tâches suivantes :
+La gestion des stocks vous permet d’effectuer les tâches suivantes :
 
 -  [Opérations entrantes](arrival-overview.md)
 -  [Assurance qualité](quality-management-processes.md)
@@ -53,10 +53,10 @@ Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.
 Pour en savoir plus, voir [Clôture du stock](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs sur la fabrication et Supply Chain Management
-Vous trouverez des avis, des actualités et d'autres informations concernant la gestion des stocks et d'autres solutions sur le [Blog de l'équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l'équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des stocks et d’autres solutions sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guides de tâches
-Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n'importe quelle page.
+Une aide supplémentaire est disponible sous la forme de guides de tâche. Pour accéder aux guides de tâche, cliquez sur le bouton **Aide** de n’importe quelle page.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

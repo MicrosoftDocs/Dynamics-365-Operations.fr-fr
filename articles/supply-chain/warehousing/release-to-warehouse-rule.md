@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8c4775ca3f44486fd3cd557df49acd229048d186
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b23ef104b918f44eed6508319d9b58f2b8355ff1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996171"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228415"
 ---
 # <a name="release-to-warehouse-rule"></a>Règle de lancement dans l’entrepôt
 
@@ -32,7 +32,7 @@ La fonctionnalité *Règle de libération dans l’entrepôt* offre de la flexib
 
 ### <a name="turn-on-the-feature"></a>Activer la fonctionnalité
 
-Avant de pouvoir utiliser la fonctionnalité *Règle de libération dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Règle de libération dans l’entrepôt* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Règle de libération dans l’entrepôt*

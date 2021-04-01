@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77404694b3426f9ef051721191b607f91c908cc4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d9a9b60fbcf6de5377b44ca03d4ffc792a6a78f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206989"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Créer une commande client pour un produit configurable
 
@@ -35,19 +35,19 @@ Cette procédure explique comment appliquer un modèle de configuration à un pr
 3. Cliquez sur Commande client.
 4. Dans le champ Compte client, sélectionnez US-001. 
 5. Cliquez sur OK.
-6. Sélectionnez D0006 dans le champ Numéro d'article.
+6. Sélectionnez D0006 dans le champ Numéro d’article.
     * Pour cette tâche, vous devez sélectionner un produit configurable.  
 7. Cliquez sur Produit et approvisionnement.
 8. Cliquez sur Configurer la ligne.
     * Notez que le prix a été modifié sur la base de la configuration sélectionnée et que le champ Inclure le câble est désormais défini sur True.  
     * Notez le prix par défaut et les paramètres sélectionnés pour le câble.  
 9. Cliquez sur Charger un modèle.
-    * Cet exemple décrit comment appliquer un modèle pour sélectionner une configuration prédéfinie. Si vous utilisez cette procédure comme guide de tâche et souhaitez afficher les autres valeurs d'attribut disponibles, vous devez cliquer sur le bouton Déverrouiller.  
+    * Cet exemple décrit comment appliquer un modèle pour sélectionner une configuration prédéfinie. Si vous utilisez cette procédure comme guide de tâche et souhaitez afficher les autres valeurs d’attribut disponibles, vous devez cliquer sur le bouton Déverrouiller.  
 10. Cliquez sur OK.
 11. Cliquez sur OK.
 12. Développez la section Détails de ligne.
-13. Cliquez sur l'onglet Produit.
-    * La configuration de l'article est maintenant répertoriée sous les dimensions de produit.  
+13. Cliquez sur l’onglet Produit.
+    * La configuration de l’article est maintenant répertoriée sous les dimensions de produit.  
 14. Fermez la page.
 
 ## <a name="select-the-product-configuration"></a>Sélectionner la configuration du produit

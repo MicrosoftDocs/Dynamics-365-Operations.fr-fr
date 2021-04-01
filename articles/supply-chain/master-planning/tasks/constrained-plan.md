@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d4af946a8dd4e5311bcb90386c88d5e7f205c4eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d238ffd7ee76dcb782931312a132545a89f537b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999854"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214392"
 ---
 # <a name="generate-a-constrained-plan"></a>Générer un plan avec contrainte
 
@@ -32,9 +32,9 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 
 
 ## <a name="set-up-a-constrained-plan"></a>Paramétrer un plan avec contrainte
-1. Dans la page d'accueil, sélectionnez l'espace de travail **Planification**.
-2. Sélectionnez **Plans généraux** dans la liste des liens dans la partie droite de l'espace de travail.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Exemple : **StaticPlan**  
+1. Dans la page d’accueil, sélectionnez l’espace de travail **Planification**.
+2. Sélectionnez **Plans généraux** dans la liste des liens dans la partie droite de l’espace de travail.
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Exemple : **StaticPlan**  
 4. Sélectionnez **Oui** dans le champ **Capacité finie**.
 5. Entrez `30` dans le champ **Plage de gestion de la capacité finie**.
 6. Développez la section **Plages de gestion en jours**.

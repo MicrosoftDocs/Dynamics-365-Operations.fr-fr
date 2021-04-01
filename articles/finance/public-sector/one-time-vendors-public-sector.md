@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 810e2ea2b9ef833621696f29595fb3541615dfee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3c33ce4c84bb4d7b9120b4ffe86b0840a3e5fc42
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982002"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207183"
 ---
 # <a name="one-time-vendors-in-the-public-sector"></a>Fournisseurs occasionnels dans le secteur public
 

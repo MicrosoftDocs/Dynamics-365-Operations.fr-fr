@@ -1,6 +1,6 @@
 ---
 title: Créer un programme pour un site
-description: Cette procédure décrit comment planifier les ordres de fabrication qui n'ont pas encore commencé pour un site.
+description: Cette procédure décrit comment planifier les ordres de fabrication qui n’ont pas encore commencé pour un site.
 author: ShylaThompson
 manager: tfehr
 ms.date: 08/29/2018
@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 442826d6611ea4aaedee2e9bae5649ada1cc846d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f9e188c5059b3957f3c0291bc4b8c525aac4d399
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007889"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214272"
 ---
 # <a name="create-a-schedule-for-a-site"></a>Créer un programme pour un site
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment planifier les ordres de fabrication qui n'ont pas encore commencé pour un site.  Les données fictives de la société USMF sont utilisées pour réaliser cette procédure.
+Cette procédure décrit comment planifier les ordres de fabrication qui n’ont pas encore commencé pour un site.  Les données fictives de la société USMF sont utilisées pour réaliser cette procédure.
 
 
-## <a name="identify-production-orders-that-are-not-started"></a>Identifier les ordres de fabrication qui n'ont pas encore commencé
+## <a name="identify-production-orders-that-are-not-started"></a>Identifier les ordres de fabrication qui n’ont pas encore commencé
 1. Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.
 2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Site avec une valeur de « 1 ».
-    * 1 représente un site dans USMF. Si vous n'utilisez pas USMF, sélectionnez un site à partir de votre propre société.  
+    * 1 représente un site dans USMF. Si vous n’utilisez pas USMF, sélectionnez un site à partir de votre propre société.  
 3. Ouvrez le filtre de colonne Statut.
-4. Appliquez un filtre sur le champ « Statut » avec une valeur « Planifié », à l'aide de l'opérateur de filtre « est exactement ».
+4. Appliquez un filtre sur le champ « Statut » avec une valeur « Planifié », à l’aide de l’opérateur de filtre « est exactement ».
 
 ## <a name="create-a-schedule"></a>Créer un programme
 1. Dans la liste, cochez ou décochez toutes les lignes.
@@ -48,12 +48,12 @@ Cette procédure décrit comment planifier les ordres de fabrication qui n'ont p
 
 ## <a name="view-the-result-of-scheduled-production-orders"></a>Afficher le résultat des ordres de fabrication planifiés
 1. Dans la liste, marquez la ligne sélectionnée.
-    * Vous pouvez marquer n'importe quelle ligne.  
+    * Vous pouvez marquer n’importe quelle ligne.  
 2. Cliquez sur Ordre de fabrication dans le volet Actions.
 3. Cliquez sur Toutes les tâches.
-    * Dans cette page, vous pouvez afficher la liste de tâches. Sous l'onglet Planification, vous pouvez afficher la date de début et de fin d'une tâche.  
+    * Dans cette page, vous pouvez afficher la liste de tâches. Sous l’onglet Planification, vous pouvez afficher la date de début et de fin d’une tâche.  
 4. Cliquez sur Matériaux.
-    * Dans cette page, vous pouvez voir la consommation de matériaux estimée pour les opérations sur l'ordre de fabrication et le stock disponible actuel.  
+    * Dans cette page, vous pouvez voir la consommation de matériaux estimée pour les opérations sur l’ordre de fabrication et le stock disponible actuel.  
 
 
 

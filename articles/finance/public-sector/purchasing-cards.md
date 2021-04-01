@@ -15,12 +15,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: ac705f318b06919c14fc436e4caa2f1a706bd1ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06005e854ad449e78e83d402b13506150b353362
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987991"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206040"
 ---
 # <a name="purchasing-cards"></a>Cartes d’achat
 

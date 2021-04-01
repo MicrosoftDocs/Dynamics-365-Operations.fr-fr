@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes des opérations d’entrepôt sortantes
-description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors d'opérations d'entrepôts sortantes dans Microsoft Dynamics 365 Supply Chain Management.
+description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors d’opérations d’entrepôts sortantes dans Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
 manager: tfehr
 ms.date: 10/19/2020
@@ -17,50 +17,50 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 165ac8145ad75c2c6619764b9abe855b9d32eb46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1344a1c16bf72b31f7aaf18aaeb6e08c7bc9d87e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993976"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223264"
 ---
 # <a name="troubleshoot-outbound-warehouse-operations"></a>Résoudre les problèmes des opérations d’entrepôt sortantes
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors d'opérations d'entrepôts sortantes dans Microsoft Dynamics 365 Supply Chain Management.
+Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors d’opérations d’entrepôts sortantes dans Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="i-receive-the-following-error-message-sales-order-could-not-be-released"></a>Je reçois le message d'erreur suivant : "La commande client n'a pas pu être lancée".
-
-### <a name="issue-description"></a>Description du problème
-
-Ce problème peut se produire pour plusieurs raisons. Par exemple, la commande est en attente de gestion du crédit et aucune livraison ne peut être créée tant qu'une adresse postale valide n'est pas saisie pour toutes les lignes de vente associées à une commande client. Il existe également un blocage de commande qui doit être traité avant que la commande puisse être validée vers l'entrepôt. Ce blocage peut être lié à la commande ou au compte client.
-
-### <a name="issue-resolution"></a>Résolution du problème
-
-Ajoutez ou mettez à jour l'adresse sur la commande client et les lignes de commande, puis validez la commande vers l'entrepôt. Les commandes ne peuvent être validées dans l'entrepôt que si elles ont une adresse de livraison valide (selon le format d'adresse configuré dans le module **Administration de l'organisation**).
-
-Examinez le blocage de la commande et résolvez les problèmes. Supprimez ensuite le blocage de la commande ou du client et transférez la commande à l'entrepôt.
-
-## <a name="i-receive-the-following-message-the-shipment-for-load-1-has-been-confirmed-however-no-lines-are-posted"></a>Je reçois le message suivant : "L'expédition pour chargement 1% a été confirmée. » Cependant, aucune ligne n'est publiée.
+## <a name="i-receive-the-following-error-message-sales-order-could-not-be-released"></a>Je reçois le message d’erreur suivant : "La commande client n’a pas pu être lancée".
 
 ### <a name="issue-description"></a>Description du problème
 
-Un envoi sur un chargement a été confirmé, mais aucun autre enregistrement n'a eu lieu.
+Ce problème peut se produire pour plusieurs raisons. Par exemple, la commande est en attente de gestion du crédit et aucune livraison ne peut être créée tant qu’une adresse postale valide n’est pas saisie pour toutes les lignes de vente associées à une commande client. Il existe également un blocage de commande qui doit être traité avant que la commande puisse être validée vers l’entrepôt. Ce blocage peut être lié à la commande ou au compte client.
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-La confirmation d'expédition n'affecte pas la publication. Elle met simplement à jour le statut de l'expédition et du chargement. La publication doit avoir lieu dans un processus distinct.
+Ajoutez ou mettez à jour l’adresse sur la commande client et les lignes de commande, puis validez la commande vers l’entrepôt. Les commandes ne peuvent être validées dans l’entrepôt que si elles ont une adresse de livraison valide (selon le format d’adresse configuré dans le module **Administration de l’organisation**).
 
-## <a name="i-receive-the-following-error-message-direct-delivery-is-not-able-to-process-for-warehouse-1-as-it-has-warehouse-management-enabled-please-specify-another-warehouse-that-is-not-enabled-for-warehouse-management"></a>Je reçois le message d'erreur suivant : "La livraison directe ne peut pas être traitée pour l'entrepôt 1% car la gestion d'entrepôt est activée. Spécifiez un autre entrepôt qui n'est pas activé pour la gestion de l'entrepôt. »
+Examinez le blocage de la commande et résolvez les problèmes. Supprimez ensuite le blocage de la commande ou du client et transférez la commande à l’entrepôt.
+
+## <a name="i-receive-the-following-message-the-shipment-for-load-1-has-been-confirmed-however-no-lines-are-posted"></a>Je reçois le message suivant : "L’expédition pour chargement 1% a été confirmée. » Cependant, aucune ligne n’est publiée.
 
 ### <a name="issue-description"></a>Description du problème
 
-Un article est ajouté à une ligne de vente pour une livraison directe à partir d'un entrepôt activé pour la gestion des entrepôts (WMS). Vous recevez ce message d'erreur lorsque la ligne de vente est mise à jour. 
+Un envoi sur un chargement a été confirmé, mais aucun autre enregistrement n’a eu lieu.
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-Microsoft a évalué ce problème et a déterminé qu'il s'agissait d'une limitation de fonctionnalité. Actuellement, WMS ne prend pas en charge la livraison directe. Par conséquent, pour utiliser la livraison directe, vous devez sélectionner un article et un entrepôt non WMS.
+La confirmation d’expédition n’affecte pas la publication. Elle met simplement à jour le statut de l’expédition et du chargement. La publication doit avoir lieu dans un processus distinct.
+
+## <a name="i-receive-the-following-error-message-direct-delivery-is-not-able-to-process-for-warehouse-1-as-it-has-warehouse-management-enabled-please-specify-another-warehouse-that-is-not-enabled-for-warehouse-management"></a>Je reçois le message d’erreur suivant : "La livraison directe ne peut pas être traitée pour l’entrepôt 1% car la gestion d’entrepôt est activée. Spécifiez un autre entrepôt qui n’est pas activé pour la gestion de l’entrepôt. »
+
+### <a name="issue-description"></a>Description du problème
+
+Un article est ajouté à une ligne de vente pour une livraison directe à partir d’un entrepôt activé pour la gestion des entrepôts (WMS). Vous recevez ce message d’erreur lorsque la ligne de vente est mise à jour. 
+
+### <a name="issue-resolution"></a>Résolution du problème
+
+Microsoft a évalué ce problème et a déterminé qu’il s’agissait d’une limitation de fonctionnalité. Actuellement, WMS ne prend pas en charge la livraison directe. Par conséquent, pour utiliser la livraison directe, vous devez sélectionner un article et un entrepôt non WMS.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af614b7f29144d02a853ef15b008f2a21d3d3aa5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e591007a1330fe11b3f586185f9daca845798908
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019752"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218463"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflows d’approvisionnements
 
@@ -32,7 +32,7 @@ Certaines organisations demandent que les demandes d’achat et les commandes fo
 
 Un workflow représente un processus entreprise. Il définit le transfert d’un document dans le système et indique qui doit traiter une tâche ou approuver un document. L’utilisation du système de workflow dans votre organisation présente plusieurs avantages :
 
-- **Processus cohérents** — Vous pouvez définir le processus d'approbation pour des documents spécifiques, tels que des demandes d'achat ou des états de dépenses. Le système de workflow permet de s’assurer que les documents sont traités et approuvés de manière cohérente et efficace.
+- **Processus cohérents** — Vous pouvez définir le processus d’approbation pour des documents spécifiques, tels que des demandes d’achat ou des états de dépenses. Le système de workflow permet de s’assurer que les documents sont traités et approuvés de manière cohérente et efficace.
 - **Visibilité de processus** — Vous pouvez suivre le statut, l’historique et les mesures de performance d’une instance de workflow spécifique. Vous pouvez ainsi déterminer si des modifications doivent être apportées au workflow afin d’en optimiser l’efficacité.
 - **Liste de travail centralisée** — Les utilisateurs peuvent afficher une liste de travail centralisée pour consulter les tâches et les approbations de workflow qui leur sont affectées dans l’ensemble des workflows auxquels ils participent. Cette option est disponible dans la page Éléments de travail.
 
@@ -51,10 +51,10 @@ Les types de workflows suivants sont disponibles pour le module Approvisionnemen
 > [!IMPORTANT]
 > Lorsque vous ajoutez un nouveau workflow, vous pouvez également voir les workflows obsolètes suivants répertoriés dans la boite de dialogue **Créer un workflow**. Ceux-ci sont liés à la fonctionnalité *confirmation de réception* disponible dans [Dynamique AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mais qui est désormais obsolète. Ces workflows ne sont actuellement pas pris en charge.
 > 
-> - Flux de travail de notification de date d'échéance de livraison
+> - Flux de travail de notification de date d’échéance de livraison
 > - Flux de travail de notification de réception de facture
-> - Accusé de réception de marchandises - Flux de travail de notification d'échec
-> - Flux de travail de notification de rejet de l'accusé de réception de marchandises non confirmé
+> - Accusé de réception de marchandises - Flux de travail de notification d’échec
+> - Flux de travail de notification de rejet de l’accusé de réception de marchandises non confirmé
 
 ## <a name="creating-a-workflow"></a>Création d’un workflow
 

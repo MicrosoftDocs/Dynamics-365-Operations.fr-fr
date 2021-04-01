@@ -1,6 +1,6 @@
 ---
 title: Démarrer un ordre de fabrication
-description: Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.
+description: Cette procédure indique comment démarrer un ordre de fabrication à l’atelier.
 author: johanhoffmann
 manager: tfehr
 ms.date: 11/11/2016
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9822dd66876ef8ed6bbcd5846a39d69d2446d7a7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3934db907c137f25c39c5769f96f0807eb597e37
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981074"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231862"
 ---
 # <a name="start-a-production-order"></a>Démarrer un ordre de fabrication
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure indique comment démarrer un ordre de fabrication à l'atelier. La consommation de matières et de temps est déclarée dans ce processus. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Il s'agit de la cinquième des sept procédures expliquant le cycle de vie de l'ordre de fabrication.
+Cette procédure indique comment démarrer un ordre de fabrication à l’atelier. La consommation de matières et de temps est déclarée dans ce processus. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Il s’agit de la cinquième des sept procédures expliquant le cycle de vie de l’ordre de fabrication.
 
 
 ## <a name="start-a-production-order"></a>Démarrer un ordre de fabrication
@@ -35,8 +35,8 @@ Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.
     * Sélectionnez un ordre de fabrication ayant le statut Lancé.  
 2. Cliquez sur Ordre de fabrication dans le volet Actions.
 3. Cliquez sur Démarrer.
-    * Dans cette page, vous pouvez confirmer le début de l'ordre de fabrication.  
-4. Cliquez sur l'onglet Général.
+    * Dans cette page, vous pouvez confirmer le début de l’ordre de fabrication.  
+4. Cliquez sur l’onglet Général.
 5. Dans le champ Du n° opér., N° entrez 10.
 6. Dans le champ Consommation de gamme automatique, sélectionnez « Toujours ».
 7. Cochez la case Valider fiche production maintenant.
@@ -44,26 +44,26 @@ Cette procédure indique comment démarrer un ordre de fabrication à l'atelier.
 9. Cochez la case Valider les prélèvements maintenant.
 10. Cochez la case Imprimer les prélèvements.
 11. Cliquez sur OK.
-    * Il s'agit de la liste de prélèvements imprimée qui indique les matières utilisées pour l'ordre de fabrication.  
+    * Il s’agit de la liste de prélèvements imprimée qui indique les matières utilisées pour l’ordre de fabrication.  
 12. Fermez la page.
 
 ## <a name="validate-the-picking-list"></a>Valider les prélèvements.
 1. Cliquez sur Afficher dans le volet Actions.
 2. Cliquez sur Prélèvements.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 5. Cliquez sur Modifier.
 6. Entrez un nombre dans le champ Consommation.
 7. Cliquez sur Valider.
 8. Cliquez sur OK.
-    * Dans le journal des prélèvements, les matières consommées par l'ordre de fabrication sont validées. Avant de valider le journal, vous pouvez procéder à des ajustements s'il existe une différence entre la quantité estimée et la quantité réelle consommée.  
-9. Cliquez sur l'onglet Volet de grille.
+    * Dans le journal des prélèvements, les matières consommées par l’ordre de fabrication sont validées. Avant de valider le journal, vous pouvez procéder à des ajustements s’il existe une différence entre la quantité estimée et la quantité réelle consommée.  
+9. Cliquez sur l’onglet Volet de grille.
 10. Fermez la page.
 
 ## <a name="verify-the-route-card-journal"></a>Vérifier le journal des fiches production
 1. Cliquez sur Afficher dans le volet Actions.
 2. Cliquez sur Fiche production.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 5. Cliquez sur Modifier.
 6. Dans le champ Heures, entrez un nombre.

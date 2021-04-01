@@ -1,6 +1,6 @@
 ---
 title: Stades de commande de service
-description: En définissant les stades d'une commande de service et en les affectant aux collaborateurs, vous contrôlez le flux d'une commande de service via les tâches attribuées aux différents personnes dans l'organisation du service.
+description: En définissant les stades d’une commande de service et en les affectant aux collaborateurs, vous contrôlez le flux d’une commande de service via les tâches attribuées aux différents personnes dans l’organisation du service.
 author: ShylaThompson
 manager: tfehr
 ms.date: 04/30/2018
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d126b68bea8d2083fcf1d08e168b9ead1511b25c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7eab1b10e8c8782306c1c2d892f965dc0795c69a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224399"
 ---
 # <a name="service-order-stages"></a>Stades de commande de service   
 
 [!include [banner](../includes/banner.md)]
 
 
-Vous pouvez définir des stades pour une commande de service afin de définir les tâches qui doivent être effectuées, l'ordre dans lequel elles sont effectuées, et les collaborateurs chargés de les exécuter. En définissant les stades d'une commande de service et en les affectant aux collaborateurs, vous pouvez contrôler le flux d'une commande de service via les tâches attribuées aux différents personnes dans l'organisation du service. L'ordre des stades doit inclure un stade initial.
+Vous pouvez définir des stades pour une commande de service afin de définir les tâches qui doivent être effectuées, l’ordre dans lequel elles sont effectuées, et les collaborateurs chargés de les exécuter. En définissant les stades d’une commande de service et en les affectant aux collaborateurs, vous pouvez contrôler le flux d’une commande de service via les tâches attribuées aux différents personnes dans l’organisation du service. L’ordre des stades doit inclure un stade initial.
 
-Vous pouvez également définir les actions autorisées à chaque stade. Par exemple, si vous désactivez la case à cocher **Valider** pour tous les stades à l'exception du dernier, vous empêchez la validation des commandes de service avant que celles-ci ne soient passées par tous les stades de la séquence.
+Vous pouvez également définir les actions autorisées à chaque stade. Par exemple, si vous désactivez la case à cocher **Valider** pour tous les stades à l’exception du dernier, vous empêchez la validation des commandes de service avant que celles-ci ne soient passées par tous les stades de la séquence.
 
 ## <a name="branching-in-service-order-stages"></a>Création de branches dans les stades de commande de service
 

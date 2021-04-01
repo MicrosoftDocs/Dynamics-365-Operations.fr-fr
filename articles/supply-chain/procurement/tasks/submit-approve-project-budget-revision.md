@@ -1,6 +1,6 @@
 ---
 title: Envoyer et approuver la révision du budget du projet
-description: Cette procédure fournit des informations sur la révision d'un budget de projet.
+description: Cette procédure fournit des informations sur la révision d’un budget de projet.
 author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,23 +16,23 @@ ms.search.industry: Service industries
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de6faf9442834d5fcf75e5d6219387648edb6840
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cb17cffea70aefe117bdcdc727f807137bef1ee7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222871"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Envoyer et approuver la révision du budget du projet
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure fournit des informations sur la révision d'un budget de projet. Vous pouvez réviser un budget de projet autant de fois que nécessaire, mais vous ne pouvez pas afficher le montant d'une révision individuelle si le budget a été révisé à plusieurs reprises. 
+Cette procédure fournit des informations sur la révision d’un budget de projet. Vous pouvez réviser un budget de projet autant de fois que nécessaire, mais vous ne pouvez pas afficher le montant d’une révision individuelle si le budget a été révisé à plusieurs reprises. 
 
-Cette tâche utilise l'ensemble de données SSI.
+Cette tâche utilise l’ensemble de données SSI.
 
 1. Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Cliquez sur Planifier dans le volet Actions.
 5. Cliquez sur Budget de projet.

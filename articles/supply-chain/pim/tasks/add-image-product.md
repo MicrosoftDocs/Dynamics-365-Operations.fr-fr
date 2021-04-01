@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd18d93c53a213b1b110da27c601590cabd17d4d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f36ea345a436a4ea24e6a57f3b9364a9095beb4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987076"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218655"
 ---
 # <a name="add-an-image-to-a-product"></a>Ajouter une image à un produit
 
@@ -29,12 +29,12 @@ ms.locfileid: "4987076"
 Cette procédure indique comment ajouter une image à un produit. La société fictive utilisée pour créer cette tâche est USMF.
 
 1. Allez à Gestion des informations sur les produits > Produits > Produits lancés.
-2. Augmentez le récapitulatif de l'image du produit.
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Par exemple, sélectionnez le numéro d'article C0002.  
-4. Cliquez sur Modifier l'image.
+2. Augmentez le récapitulatif de l’image du produit.
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+    * Par exemple, sélectionnez le numéro d’article C0002.  
+4. Cliquez sur Modifier l’image.
 5. Cliquez sur Nouveau.
-    * Cliquez sur Parcourir. Recherchez l'image que vous souhaitez utiliser, sélectionnez-la, puis fermez la boîte de dialogue.    
+    * Cliquez sur Parcourir. Recherchez l’image que vous souhaitez utiliser, sélectionnez-la, puis fermez la boîte de dialogue.    
 
 
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3ffc8f96a0c85e032aa2c8e1a371d08b8877a88
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 983ff3ba174ee5b60c5e1e84b1450444a06cce24
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966303"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205951"
 ---
 # <a name="create-a-value-stream"></a>Créer une chaîne de valeur
 
@@ -30,7 +30,7 @@ ms.locfileid: "4966303"
 Les chaînes de valeur sont des unités opérationnelles qui regroupent un ou plusieurs flux de production. Pour définir un flux de production, vous devez définir une chaîne de valeur.
 
 
-## <a name="open-the-form"></a>Ouverture de l'écran
+## <a name="open-the-form"></a>Ouverture de l’écran
 1. Accédez à Contrôle de la production > Paramétrage > Flux de production lean > Chaînes de valeur.
 
 ## <a name="create-a-new-value-stream"></a>Créer une chaîne de valeur
@@ -39,8 +39,8 @@ Les chaînes de valeur sont des unités opérationnelles qui regroupent un ou pl
 
 ## <a name="select-a-value-stream-manager"></a>Sélectionner un responsable de la chaîne de valeur
 1. Dans le champ Responsable, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-    * Le responsable de la chaîne de valeur est défini pour documenter l'organisation.  
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+    * Le responsable de la chaîne de valeur est défini pour documenter l’organisation.  
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
 ## <a name="save-and-close"></a>Enregistrer et fermer

@@ -1,6 +1,6 @@
 ---
 title: Affichage des commandes de service non réparties
-description: Cette rubrique décrit le mode d'affichage des activités dans une commande de service sans aucun collaborateur affecté à partir d'une équipe de répartition.
+description: Cette rubrique décrit le mode d’affichage des activités dans une commande de service sans aucun collaborateur affecté à partir d’une équipe de répartition.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/07/2018
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81dfdfbac59d6dad7be515a12d9111070a9a8897
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 11c4c066b16d0a16472842ea0711fcac14b26ed8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010320"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222775"
 ---
 # <a name="view-undispatched-service-orders"></a>Affichage des commandes de service non réparties 
 
 [!include [banner](../includes/banner.md)]
 
 
-Cette rubrique décrit le mode d'affichage des activités dans une commande de service sans aucun collaborateur affecté à partir d'une équipe de répartition.
+Cette rubrique décrit le mode d’affichage des activités dans une commande de service sans aucun collaborateur affecté à partir d’une équipe de répartition.
 
-1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d'affectation**.
+1.  Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d’affectation**.
 
-2.  Dans la fenêtre **Tableau d'affectation**, entrez la date de début et de fin de la période d'activité à afficher.
+2.  Dans la fenêtre **Tableau d’affectation**, entrez la date de début et de fin de la période d’activité à afficher.
 
 3.  (Facultatif) Incluez les activités clôturées et les équipes associées dans les résultats.
 
@@ -41,21 +41,21 @@ Cette rubrique décrit le mode d'affichage des activités dans une commande de s
     
 
     > [!NOTE]
-    > <P>Dans l'écran <STRONG>Tableau d'affectation</STRONG>, la vue <STRONG>Avancé</STRONG> est automatiquement affichée. Dans cette vue sont affichés le diagramme de Gantt en haut de la page et les onglets en bas de la page. Cliquez sur <STRONG>Simple</STRONG> pour n'afficher que le diagramme de Gantt.</P>
+    > <P>Dans l’écran <STRONG>Tableau d’affectation</STRONG>, la vue <STRONG>Avancé</STRONG> est automatiquement affichée. Dans cette vue sont affichés le diagramme de Gantt en haut de la page et les onglets en bas de la page. Cliquez sur <STRONG>Simple</STRONG> pour n’afficher que le diagramme de Gantt.</P>
 
 
 
-5.  Pour afficher la liste des commandes de service qui n'ont aucune équipe de répartition attribuée, cliquez sur l'onglet **Non réparti**.
+5.  Pour afficher la liste des commandes de service qui n’ont aucune équipe de répartition attribuée, cliquez sur l’onglet **Non réparti**.
 
 ## <a name="see-also"></a>Voir également :
 
-[Tableau d'affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
+[Tableau d’affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
 [Activités de service](service-activities.md)
 
-[Tableau d'affectation](dispatch-board.md)
+[Tableau d’affectation](dispatch-board.md)
 
-[Réaffectation d'activités](reassign-activities.md)
+[Réaffectation d’activités](reassign-activities.md)
 
   
 

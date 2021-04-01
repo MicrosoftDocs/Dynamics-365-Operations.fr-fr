@@ -1,6 +1,6 @@
 ---
 title: Créer un type de certification fournisseur dans le secteur public
-description: Cette rubrique fournit des informations sur la création et l'attribution des types de certification pour les fournisseurs dans le secteur public.
+description: Cette rubrique fournit des informations sur la création et l’attribution des types de certification pour les fournisseurs dans le secteur public.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd5422ed806159747c3e1807020c1c46717fba65
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7b0c323405772a66d81e43b5e66aadc6734b7848
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009059"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227025"
 ---
 # <a name="create-a-vendor-certification-type-in-the-public-sector"></a>Créer un type de certification fournisseur dans le secteur public
 

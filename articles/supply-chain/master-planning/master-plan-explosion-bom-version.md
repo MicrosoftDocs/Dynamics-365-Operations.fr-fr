@@ -1,6 +1,6 @@
 ---
-title: Éclatement d'une version de nomenclature
-description: Cet article décrit un scénario de planification qui implique l'éclatement d'une version de nomenclature.
+title: Éclatement d’une version de nomenclature
+description: Cet article décrit un scénario de planification qui implique l’éclatement d’une version de nomenclature.
 author: roxanadiaconu
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,32 +18,32 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f50d9f2f7249ecb4090983e245d4700020e0886
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 617d9c3f05f2db30ec075a07b54c4827e668c20e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005175"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220846"
 ---
-# <a name="explosion-of-a-bom-version"></a>Éclatement d'une version de nomenclature
+# <a name="explosion-of-a-bom-version"></a>Éclatement d’une version de nomenclature
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit un scénario de planification qui implique l'éclatement d'une version de nomenclature.
+Cet article décrit un scénario de planification qui implique l’éclatement d’une version de nomenclature.
 
-Un éclatement de la demande d'une version de nomenclature crée une demande pour chaque ligne de nomenclature au niveau d'un site spécifique, et éventuellement d'un entrepôt spécifique. Dans une nomenclature spécifique à un site, un entrepôt spécifique peut être défini pour chaque ligne de nomenclature. En outre, pour chaque ligne de nomenclature, les paramètres de dimension de l'article déterminent si un entrepôt est requis ou non. La demande qui en résulte pour chaque ligne de nomenclature devient le point de départ d'un autre éclatement de la demande. Ce scénario de planification implique les conditions suivantes :
+Un éclatement de la demande d’une version de nomenclature crée une demande pour chaque ligne de nomenclature au niveau d’un site spécifique, et éventuellement d’un entrepôt spécifique. Dans une nomenclature spécifique à un site, un entrepôt spécifique peut être défini pour chaque ligne de nomenclature. En outre, pour chaque ligne de nomenclature, les paramètres de dimension de l’article déterminent si un entrepôt est requis ou non. La demande qui en résulte pour chaque ligne de nomenclature devient le point de départ d’un autre éclatement de la demande. Ce scénario de planification implique les conditions suivantes :
 
 -   La dimension de site est obligatoire et doit être entrée dans la transaction de demande.
 -   La dimension de site est cohérente. Le site pour la demande de niveau inférieur est donc identique au site de la transaction de demande initiale.
 
-L'illustration suivante présente le processus d'éclatement de la demande de planification. ![Éclatement de la demande à l'aide d'une version de nomenclature](./media/multisitedemandexplosionscenariousingbomversion.gif)
+L’illustration suivante présente le processus d’éclatement de la demande de planification. ![Éclatement de la demande à l’aide d’une version de nomenclature](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
 [Déterminer la version de nomenclature](master-plan-bom-version-determined.md)
 
-[Vue d'ensemble de planification générale et fonctionnalité multisite](master-plan-multisite-functionality.md)
+[Vue d’ensemble de planification générale et fonctionnalité multisite](master-plan-multisite-functionality.md)
 
 
 

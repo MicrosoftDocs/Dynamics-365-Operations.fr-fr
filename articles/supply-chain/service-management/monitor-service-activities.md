@@ -1,6 +1,6 @@
 ---
 title: Surveillance des activités du service
-description: L'écran Tableau d'affectation vous permet d'obtenir une mise à jour de statut instantanée des diverses activités de service planifiées, et vous donne accès à des outils pour le suivi du flux général des commandes de service dans votre société.
+description: L’écran Tableau d’affectation vous permet d’obtenir une mise à jour de statut instantanée des diverses activités de service planifiées, et vous donne accès à des outils pour le suivi du flux général des commandes de service dans votre société.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/04/2018
@@ -17,36 +17,36 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13659fd1505b4957e71384d08a8118df6fe68e6d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d2cd65140dd550d0bf4ae2fef4d5a50e1e2ab31c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006764"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204276"
 ---
 # <a name="monitor-service-activities"></a>Surveillance des activités du service 
 
 [!include [banner](../includes/banner.md)]
 
 
-L'écran **Tableau d'affectation** vous permet d'obtenir une mise à jour de statut instantanée des diverses activités de service planifiées, et vous donne accès à des outils pour le suivi du flux général des commandes de service dans votre société.
+L’écran **Tableau d’affectation** vous permet d’obtenir une mise à jour de statut instantanée des diverses activités de service planifiées, et vous donne accès à des outils pour le suivi du flux général des commandes de service dans votre société.
 
 
 > [!TIP]
-> <P>Pour afficher des détails sur une activité de service, sélectionnez-la dans le diagramme de Gantt en haut de l'écran <STRONG>Tableau d'affectation</STRONG>, cliquez avec le bouton droit, puis cliquez sur <STRONG>Informations</STRONG>.</P>
+> <P>Pour afficher des détails sur une activité de service, sélectionnez-la dans le diagramme de Gantt en haut de l’écran <STRONG>Tableau d’affectation</STRONG>, cliquez avec le bouton droit, puis cliquez sur <STRONG>Informations</STRONG>.</P>
 
 
-Les outils disponibles dans cet écran permettent de trier les commandes de service par date, priorité ou type d'activité du service, d'afficher les niveaux de priorité attribués aux commandes de service et de réviser les activités affectées à des commandes de service individuelles.
+Les outils disponibles dans cet écran permettent de trier les commandes de service par date, priorité ou type d’activité du service, d’afficher les niveaux de priorité attribués aux commandes de service et de réviser les activités affectées à des commandes de service individuelles.
 
-Si vous devez redistribuer des affectations d'activité du service, vous pouvez déplacer la représentation graphique d'une activité du service pour l'affecter à un autre employé ou à d'autres date et heure.
+Si vous devez redistribuer des affectations d’activité du service, vous pouvez déplacer la représentation graphique d’une activité du service pour l’affecter à un autre employé ou à d’autres date et heure.
 
 ## <a name="example"></a>Exemple
 
-En surveillant l'activité du service du jour, vous constatez que John, technicien de service, est en retard sur le planning des appels de service qui lui sont attribués. Vous constatez également que le dernier appel de la liste doit être accompli avant la fin de la journée pour satisfaire aux exigences du contrat SLA. La fonctionnalité glisser-déplacer du diagramme de Gantt vous permet de réaffecter cet appel de service à Meg, qui est en avance sur le planning de ses propres appels de service.
+En surveillant l’activité du service du jour, vous constatez que John, technicien de service, est en retard sur le planning des appels de service qui lui sont attribués. Vous constatez également que le dernier appel de la liste doit être accompli avant la fin de la journée pour satisfaire aux exigences du contrat SLA. La fonctionnalité glisser-déplacer du diagramme de Gantt vous permet de réaffecter cet appel de service à Meg, qui est en avance sur le planning de ses propres appels de service.
 
-## <a name="open-the-dispatch-board-form"></a>Ouverture de l'écran Tableau d'affectation
+## <a name="open-the-dispatch-board-form"></a>Ouverture de l’écran Tableau d’affectation
 
-Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d'affectation**.
+Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d’affectation**.
 
 ## <a name="see-also"></a>Voir également :
 
@@ -54,7 +54,7 @@ Cliquez sur **Gestion des services** \> **Périodique** \> **Tableau d'affectati
 
 [Affichage du statut des commandes de service](view-the-status-of-service-orders.md)
 
-[Tableau d'affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
+[Tableau d’affectation (écran)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
   
 

@@ -14,41 +14,41 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a9f8f519c54ffe4f1a2a44da51ac5d97c56182a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9a5d7f6532e3c0b61fcc5758f383257d4a9a09b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992218"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226735"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Affecter un état du cycle de vie des produits à un produit générique lancé
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment affecter un état du cycle de vie des produits à un produit générique lancé et ses variantes. Conditions préalables : vous devez d'abord lire le guide de tâche « Créer un état du cycle de vie des produits » pour vérifier qu'au moins un état du cycle de vie des produits a été créé avant de lire ce guide de tâche.
+Cette procédure décrit comment affecter un état du cycle de vie des produits à un produit générique lancé et ses variantes. Conditions préalables : vous devez d’abord lire le guide de tâche « Créer un état du cycle de vie des produits » pour vérifier qu’au moins un état du cycle de vie des produits a été créé avant de lire ce guide de tâche.
 
 
 ## <a name="find-a-released-product-master"></a>Rechercher un produit générique lancé
 1. Allez à Gestion des informations sur les produits > Produits > Produits lancés.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 
 > [!NOTE]
 > Un produit générique a le sous-type Produit.  
 
-## <a name="update-the-lifecycle-state"></a>Mettre à jour l'état du cycle de vie
+## <a name="update-the-lifecycle-state"></a>Mettre à jour l’état du cycle de vie
 1. Cliquez sur Modifier.
 2. Dans le champ État du cycle de vie des produits, entrez ou sélectionnez une valeur.
 3. Cliquez sur Enregistrer.
 4. Cliquez sur Oui.
 
 > [!NOTE]
-> Si Oui est sélectionné, toutes les variantes de produit associées ayant le même statut d'origine que le produit générique lancé sont également mises à jour vers le nouvel état du cycle de vie des produits. Si Non est sélectionné, toutes les variantes conservent leur état réel. Les variantes dont l'état du cycle de vie des produits est différent de celui du produit générique lancé ne sont pas mises à jour.  
+> Si Oui est sélectionné, toutes les variantes de produit associées ayant le même statut d’origine que le produit générique lancé sont également mises à jour vers le nouvel état du cycle de vie des produits. Si Non est sélectionné, toutes les variantes conservent leur état réel. Les variantes dont l’état du cycle de vie des produits est différent de celui du produit générique lancé ne sont pas mises à jour.  
 
-## <a name="verify-the-lifecycle-state-of-the-variants"></a>Vérifier l'état du cycle de vie des variantes
+## <a name="verify-the-lifecycle-state-of-the-variants"></a>Vérifier l’état du cycle de vie des variantes
 1. Cliquez sur Variantes de produit lancé.
 
 > [!NOTE]
-> Notez que toutes les variantes ont hérité l'état du cycle de vie sélectionné du produit générique lancé.  
+> Notez que toutes les variantes ont hérité l’état du cycle de vie sélectionné du produit générique lancé.  
 
 2. Dans la liste, marquez la ligne sélectionnée.
 3. Dans le champ État du cycle de vie des produits, entrez ou sélectionnez une valeur.

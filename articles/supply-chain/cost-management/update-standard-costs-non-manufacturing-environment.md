@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb4437078b2fd17a4edc6a66567da8c1741813f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b6d6fa8f067517ece85ce29516175fbb0c32b14b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219435"
 ---
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Mettre à jour des coûts standard dans un environnement hors fabrication
 
@@ -31,22 +31,22 @@ ms.locfileid: "4983773"
 
 Cet article fournit des instructions pour mettre à jour les coûts standard dans un environnement hors fabrication.
 
-Les instructions suivantes supposent que vous utilisez une approche à deux versions pour mettre à jour les coûts standard. Dans cette approche, une version d'évaluation des coûts contient les coûts standard définis à l'origine pour la période bloquée et l'autre version d'évaluation des coûts contient les mises à jour incrémentielles. Chaque mise à jour est entrée comme un enregistrement de coûts inclus dans la deuxième version d'évaluation des coûts, avant d'être finalement activée. Une autre approche à une version consiste à utiliser les coûts standard définis à l'origine. L'approche à deux versions demande que vous définissiez une deuxième version d'évaluation des coûts. Voici les instructions pour définir cette version d'évaluation des coûts :
+Les instructions suivantes supposent que vous utilisez une approche à deux versions pour mettre à jour les coûts standard. Dans cette approche, une version d’évaluation des coûts contient les coûts standard définis à l’origine pour la période bloquée et l’autre version d’évaluation des coûts contient les mises à jour incrémentielles. Chaque mise à jour est entrée comme un enregistrement de coûts inclus dans la deuxième version d’évaluation des coûts, avant d’être finalement activée. Une autre approche à une version consiste à utiliser les coûts standard définis à l’origine. L’approche à deux versions demande que vous définissiez une deuxième version d’évaluation des coûts. Voici les instructions pour définir cette version d’évaluation des coûts :
 
--   Affectez un type d'évaluation des **Coûts standard**.
--   Affectez un identificateur significatif qui communique le contenu de la version d'évaluation des coûts, tel que **2016-UPDATES**.
+-   Affectez un type d’évaluation des **Coûts standard**.
+-   Affectez un identificateur significatif qui communique le contenu de la version d’évaluation des coûts, tel que **2016-UPDATES**.
 -   Vérifiez que le contenu comprend des enregistrements de coûts.
--   Autorisez la saisie d'enregistrements des coûts à entrer pour tous les sites. Si vous spécifiez un site, les enregistrements de coûts peuvent être entrés uniquement pour ce site.
--   Définissez le principe de secours sur **Aucun**. Le principe de secours s'applique uniquement aux calculs de coûts des articles fabriqués.
+-   Autorisez la saisie d’enregistrements des coûts à entrer pour tous les sites. Si vous spécifiez un site, les enregistrements de coûts peuvent être entrés uniquement pour ce site.
+-   Définissez le principe de secours sur **Aucun**. Le principe de secours s’applique uniquement aux calculs de coûts des articles fabriqués.
 
 Pour corriger, ajuster ou mettre à jour les coûts standard de nouveaux articles, suivez ces étapes.
 
-1.  Utilisez la page **Version d'évaluation des coûts** **paramétrage** pour activer les données de coût à entrer dans la deuxième version d'évaluation des coûts. Empêchez éventuellement l'activation de coûts en attente de manière à ce que l'activation soit autorisée lorsque les coûts en attente ont été entièrement et précisément définis. Vous pouvez également éventuellement entrer une date dans le champ **Date de début**. En général, utilisez la date qui correspond à la période à laquelle vous souhaitez activer les mises à jour incrémentielles. Vous pouvez également laisser le champ **Date de début** vide pour la version d'évaluation des coûts, puis entrez une date dans le champ **Date de début** pour chaque enregistrement de coûts.
-2.  Utilisez la page **Prix de l'article** pour entrer des mises à jour comme les enregistrements de coûts d'article qui sont inclus dans la seconde version d'évaluation des coûts.
-3.  Utilisez l'état **Prix de l'article** pour vérifier que les enregistrements de coûts d'article inclus dans la seconde version d'évaluation des coûts sont complets et exacts.
-4.  Utilisez la page **Mise à jour de la version d'évaluation des coûts** pour modifier la balise de blocage afin d'autoriser l'activation des enregistrements de coûts en attente inclus dans la deuxième version d'évaluation des coûts.
-5.  Utilisez la page **Activer les prix** (que vous pouvez ouvrir à partir de la page **Mise à jour de la version d'évaluation des coûts**) pour activer tous les enregistrements de coûts d'article en attente inclus dans la deuxième version d'évaluation des coûts. Vous pouvez également activer les enregistrements des coûts en attente pour des articles individuels en cliquant sur le bouton **Activer les coûts en attente** dans la page **Prix d'article**.
-6.  Afin d'empêcher toute maintenance des données supplémentaire, utilisez la page **Paramétrage de la version d'évaluation des coûts** pour modifier les balises de blocage incluses dans la deuxième version d'évaluation des coûts. Les stratégies de blocage empêchent la saisie de nouveaux coûts en attente et l'activation de coûts en attente.
+1.  Utilisez la page **Version d’évaluation des coûts** **paramétrage** pour activer les données de coût à entrer dans la deuxième version d’évaluation des coûts. Empêchez éventuellement l’activation de coûts en attente de manière à ce que l’activation soit autorisée lorsque les coûts en attente ont été entièrement et précisément définis. Vous pouvez également éventuellement entrer une date dans le champ **Date de début**. En général, utilisez la date qui correspond à la période à laquelle vous souhaitez activer les mises à jour incrémentielles. Vous pouvez également laisser le champ **Date de début** vide pour la version d’évaluation des coûts, puis entrez une date dans le champ **Date de début** pour chaque enregistrement de coûts.
+2.  Utilisez la page **Prix de l’article** pour entrer des mises à jour comme les enregistrements de coûts d’article qui sont inclus dans la seconde version d’évaluation des coûts.
+3.  Utilisez l’état **Prix de l’article** pour vérifier que les enregistrements de coûts d’article inclus dans la seconde version d’évaluation des coûts sont complets et exacts.
+4.  Utilisez la page **Mise à jour de la version d’évaluation des coûts** pour modifier la balise de blocage afin d’autoriser l’activation des enregistrements de coûts en attente inclus dans la deuxième version d’évaluation des coûts.
+5.  Utilisez la page **Activer les prix** (que vous pouvez ouvrir à partir de la page **Mise à jour de la version d’évaluation des coûts**) pour activer tous les enregistrements de coûts d’article en attente inclus dans la deuxième version d’évaluation des coûts. Vous pouvez également activer les enregistrements des coûts en attente pour des articles individuels en cliquant sur le bouton **Activer les coûts en attente** dans la page **Prix d’article**.
+6.  Afin d’empêcher toute maintenance des données supplémentaire, utilisez la page **Paramétrage de la version d’évaluation des coûts** pour modifier les balises de blocage incluses dans la deuxième version d’évaluation des coûts. Les stratégies de blocage empêchent la saisie de nouveaux coûts en attente et l’activation de coûts en attente.
 
 
 

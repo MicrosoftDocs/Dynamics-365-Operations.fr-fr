@@ -15,12 +15,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fbf19d1f9282c1e2a22eded852035d5a3f0f96ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 83e9d798d4da7bd0afcebdc3cccd73d94c06b54e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971187"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225185"
 ---
 # <a name="use-cash-control-limits"></a>Savoir utiliser les limites de contrôle de disponibilités
 

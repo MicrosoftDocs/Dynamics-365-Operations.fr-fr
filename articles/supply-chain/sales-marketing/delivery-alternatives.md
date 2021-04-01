@@ -1,6 +1,6 @@
 ---
 title: Autres modes de livraison
-description: Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d'exécution de commande.
+description: Les responsables des commandes client peuvent utiliser la page Autres modes de livraison pour connaître les options alternatives d’exécution de commande.
 author: ChristianRytt
 manager: tfehr
 ms.date: 04/10/2017
@@ -18,20 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 829775e36a2d49ebbab5c719436cff4c92984635
-ms.sourcegitcommit: ca7fc46607ae9d07725e1486b43c66d39ec5cdb5
+ms.openlocfilehash: 783307ea5cc764f4a04d069dfd7d614a4f63dd2d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035264"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229253"
 ---
 # <a name="delivery-alternatives"></a>Autres modes de livraison
 
 [!include [banner](../includes/banner.md)]
 
-Les responsables des commandes client peuvent utiliser la page **Autres modes de livraison** pour connaître les options alternatives d'exécution de commande.
+Les responsables des commandes client peuvent utiliser la page **Autres modes de livraison** pour connaître les options alternatives d’exécution de commande.
 
-La mise en page **Autres modes de livraison** fournit une vue d'ensemble de toutes les options alternatives. Elle permet également aux responsables des commandes d'accéder à des informations autres que celles de la société actuelle pour saisir des occasions d'exécution de commande. Ils peuvent désormais afficher les opportunités intersociétés et les opportunités des fournisseurs externes. En triant les options par date de livraison, les responsables des commandes client peuvent afficher une liste intelligente répertoriant les alternatives de livraison. En outre, les paramètres les aident à mieux gérer les livraisons suggérées. Puisque le temps de transport peut affecter les dates de livraison, les responsables des commandes client peuvent explorer les différents choix de transport offerts par les transporteurs. Des informations détaillées sont affichées pour chaque suggestion, de sorte que les responsables des commandes peuvent prendre des décisions informées directement depuis la page **Autres modes de livraison**.
+La mise en page **Autres modes de livraison** fournit une vue d’ensemble de toutes les options alternatives. Elle permet également aux responsables des commandes d’accéder à des informations autres que celles de la société actuelle pour saisir des occasions d’exécution de commande. Ils peuvent désormais afficher les opportunités intersociétés et les opportunités des fournisseurs externes. En triant les options par date de livraison, les responsables des commandes client peuvent afficher une liste intelligente répertoriant les alternatives de livraison. En outre, les paramètres les aident à mieux gérer les livraisons suggérées. Puisque le temps de transport peut affecter les dates de livraison, les responsables des commandes client peuvent explorer les différents choix de transport offerts par les transporteurs. Des informations détaillées sont affichées pour chaque suggestion, de sorte que les responsables des commandes peuvent prendre des décisions informées directement depuis la page **Autres modes de livraison**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Ouvrir la page Autres modes de livraison
 
@@ -47,7 +47,7 @@ Vous pouvez également ouvrir la page **Autres modes de livraison** en ouvrant l
 
 ## <a name="delivery-date-control-methods"></a>Méthodes de contrôle de la date de livraison
 
-La méthode de contrôle de la date de livraison détermine comment le système crée des dates de livraison, la manière dont les alternatives de livraison sont calculées, et les informations affichées. Notez que le contrôle des dates de livraison prend en compte les calendriers. Par conséquent, les calendriers suivants peuvent affecter la date de réception suggérée : Calendrier d'entrepôt, Calendrier de transport, Calendrier du fournisseur, et Calendrier client. Le tableau suivant décrit chaque méthode de contrôle de la date de livraison.
+La méthode de contrôle de la date de livraison détermine comment le système crée des dates de livraison, la manière dont les alternatives de livraison sont calculées, et les informations affichées. Notez que le contrôle des dates de livraison prend en compte les calendriers. Par conséquent, les calendriers suivants peuvent affecter la date de réception suggérée : Calendrier d’entrepôt, Calendrier de transport, Calendrier du fournisseur, et Calendrier client. Le tableau suivant décrit chaque méthode de contrôle de la date de livraison.
 
 <table>
 <colgroup>
@@ -69,14 +69,14 @@ La méthode de contrôle de la date de livraison détermine comment le système 
 <td><strong>Délai de vente</strong></td>
 <td><ul>
 <li>Les alternatives de livraison sont calculées sur la base du délai de vente prédéfini. Les jours de transport sont calculés sur la base du mode de livraison.</li>
-<li>Les alternatives de livraison incluent les entrepôts avec du stock disponible, et les commandes d'approvisionnement/demande.</li>
+<li>Les alternatives de livraison incluent les entrepôts avec du stock disponible, et les commandes d’approvisionnement/demande.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>DAV</strong></td>
 <td><ul>
 <li>Les alternatives de livraison sont calculées en fonction de la logique « DAV » (ATP). La disponibilité actuelle et la disponibilité future prévue sont prises en compte. Les jours de transport sont calculés sur la base du mode de livraison.</li>
-<li>Les alternatives de livraison incluent les entrepôts avec du stock disponible, et les commandes d'approvisionnement/demande.</li>
+<li>Les alternatives de livraison incluent les entrepôts avec du stock disponible, et les commandes d’approvisionnement/demande.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -88,13 +88,13 @@ La méthode de contrôle de la date de livraison détermine comment le système 
 <tr class="even">
 <td><strong>CTP</strong></td>
 <td><ul>
-<li>Les alternatives de livraison sont calculées en fonction de la logique « capable to promise » (CTP). L'éclatement de production est utilisé pour déterminer la disponibilité. Notez que la logique CTP décale au minimum les dates de livraison en fonction du délai de vente. Les jours de transport sont calculés sur la base du mode de livraison.</li>
+<li>Les alternatives de livraison sont calculées en fonction de la logique « capable to promise » (CTP). L’éclatement de production est utilisé pour déterminer la disponibilité. Notez que la logique CTP décale au minimum les dates de livraison en fonction du délai de vente. Les jours de transport sont calculés sur la base du mode de livraison.</li>
 <li>Les alternatives de livraison incluent des suggestions pour les entrepôts suivants :
 <ul>
 <li>Entrepôt actuel</li>
 <li>Entrepôt par défaut</li>
 <li>Tous les entrepôts avec du stock disponible</li>
-<li>Tous les entrepôts avec des commandes d'approvisionnement</li>
+<li>Tous les entrepôts avec des commandes d’approvisionnement</li>
 <li>Tous les entrepôts avec des versions de nomenclature (BOM) actives</li>
 </ul></li>
 </ul></td>
@@ -114,38 +114,38 @@ Cet organisateur affiche une synthèse du produit et les détails de la ligne de
 
 Cet organisateur affiche une liste des alternatives de livraison triées par date de réception. Au-dessus de la liste, vous pouvez sélectionner les options sur lesquelles baser les suggestions. Vous pouvez également sélectionner le mode de livraison, qui détermine les jours de transport. Les options suivantes sont disponibles :
 
-- **Inclure d'autres variantes de produit** - Cette option est disponible pour les produits qui ont des variantes de produit. Les alternatives de livraison d'autres variantes de produit seront incluses. Cette option n'est pas disponible pour la logique CTP.
+- **Inclure d’autres variantes de produit** - Cette option est disponible pour les produits qui ont des variantes de produit. Les alternatives de livraison d’autres variantes de produit seront incluses. Cette option n’est pas disponible pour la logique CTP.
 - **Inclure une quantité partielle** - Par défaut, seules les suggestions conformes à la quantité complète de la ligne de vente sont incluses. Sélectionnez cette option pour inclure des suggestions qui ne remplissent que partiellement la ligne de commande. Cette option est utile lorsque le client demande une date de livraison anticipée et accepte une livraison partielle.
 - **Inclure des dates ultérieures** - Par défaut, seules les suggestions préférables (qui sont antérieures) aux dates actuelles sur la ligne de vente sont affichées. Sélectionnez cette option pour inclure des dates ultérieures. Cette option peut être utile dans les situations où des paramètres autres que la date sont prioritaires. Par exemple, un fournisseur ou un entrepôt spécifique peut être préféré.
-- **Mode de livraison** - Permet de sélectionner le mode de livraison préféré pour optimiser le temps et le coût de transport. Vous verrez immédiatement l'effet de cette option sur les alternatives de livraison suggérées. Par conséquent, elle vous permet de comparer les alternatives.
-- **Inclure l'approvisionnement** - Lorsque l'approvisionnement est activé, les alternatives de livraison suggérées incluent des options permettant de s'approvisionner chez les fournisseurs externes et d'autres sociétés de l'entreprise (intersociétés). L'option **Inclure l'approvisionnement** est prise en charge pour le contrôle de date de livraison DAV et DAV + Marge de sortie. Les options d'approvisionnement chez le fournisseur par défaut du produit et chez tous les fournisseurs approuvés pour le produit sont incluses.
-- Pour les fournisseurs externes, le calcul est basé sur le délai d'achat.
-- Pour les intersociétés, le calcul prend en considération ce qui est disponible chez la société d'approvisionnement, selon contrôle de date de livraison paramétré pour la société d'approvisionnement.
-- **Type de livraison** (Approprié pour l'approvisionnement)
-  - **Stock** - Les produits sont expédiés à partir de l'entrepôt d'approvisionnement vers le site/entrepôt indiqué sur la ligne de vente. Ils sont ensuite expédiés depuis cet entrepôt au client.
-  - **Livraison directe** - Les produits sont expédiés directement à partir de l'entrepôt d'approvisionnement vers le client.
+- **Mode de livraison** - Permet de sélectionner le mode de livraison préféré pour optimiser le temps et le coût de transport. Vous verrez immédiatement l’effet de cette option sur les alternatives de livraison suggérées. Par conséquent, elle vous permet de comparer les alternatives.
+- **Inclure l’approvisionnement** - Lorsque l’approvisionnement est activé, les alternatives de livraison suggérées incluent des options permettant de s’approvisionner chez les fournisseurs externes et d’autres sociétés de l’entreprise (intersociétés). L’option **Inclure l’approvisionnement** est prise en charge pour le contrôle de date de livraison DAV et DAV + Marge de sortie. Les options d’approvisionnement chez le fournisseur par défaut du produit et chez tous les fournisseurs approuvés pour le produit sont incluses.
+- Pour les fournisseurs externes, le calcul est basé sur le délai d’achat.
+- Pour les intersociétés, le calcul prend en considération ce qui est disponible chez la société d’approvisionnement, selon contrôle de date de livraison paramétré pour la société d’approvisionnement.
+- **Type de livraison** (Approprié pour l’approvisionnement)
+  - **Stock** - Les produits sont expédiés à partir de l’entrepôt d’approvisionnement vers le site/entrepôt indiqué sur la ligne de vente. Ils sont ensuite expédiés depuis cet entrepôt au client.
+  - **Livraison directe** - Les produits sont expédiés directement à partir de l’entrepôt d’approvisionnement vers le client.
 
 ### <a name="the-availability-information-fasttab"></a>Organisateur Informations de disponibilité
 
 Les informations de cet organisateur se rapportent à la ligne d’alternative de livraison sélectionnée. Les informations suivantes sont affichées, en fonction du contrôle de date de livraison pour la ligne de vente :
 
 - **Délai de vente**
-  - **Disponible aujourd'hui** - Affiche le stock physique disponible actuel, le stock physique réservé, et le stock physique disponible.
-  - **Paramètres** - Affiche l'unité de stock et le délai de vente.
+  - **Disponible aujourd’hui** - Affiche le stock physique disponible actuel, le stock physique réservé, et le stock physique disponible.
+  - **Paramètres** - Affiche l’unité de stock et le délai de vente.
 
 - **DAV et DAV + Marge de sortie**
-  - **Disponible aujourd'hui** - Affiche le stock physique disponible actuel, le stock physique réservé, et le stock physique disponible.
-  - **Paramètres** - Affiche l'unité de stock et le délai de vente.
-  - **Disponibilité future**  - Affiche une représentation graphique de la disponibilité actuelle et future pour le site et l'entrepôt sélectionnés sous **Autres modes de livraison**. Vous pouvez sélectionner les colonnes du tableau pour voir des informations plus détaillées sur la disponibilité future du produit. Le curseur affiche la liste des commandes d'approvisionnement et de demande appropriées dans la plage de gestion DAV.
+  - **Disponible aujourd’hui** - Affiche le stock physique disponible actuel, le stock physique réservé, et le stock physique disponible.
+  - **Paramètres** - Affiche l’unité de stock et le délai de vente.
+  - **Disponibilité future**  - Affiche une représentation graphique de la disponibilité actuelle et future pour le site et l’entrepôt sélectionnés sous **Autres modes de livraison**. Vous pouvez sélectionner les colonnes du tableau pour voir des informations plus détaillées sur la disponibilité future du produit. Le curseur affiche la liste des commandes d’approvisionnement et de demande appropriées dans la plage de gestion DAV.
 
 - **CTP**
-  - **Disponible aujourd'hui** - Affiche le stock physique disponible actuel, le stock physique réservé, et le stock physique disponible.
-  - **Paramètres** - Affiche l'unité de stock et le délai de vente.
-  - **Éclatement** - Affiche un éclatement d'approvisionnement pour l'alternative de livraison sélectionnée. Vous pouvez utiliser **Paramétrage** pour modifier les champs et les dimensions de stock qui sont affichés dans l'éclatement.
+  - **Disponible aujourd’hui** - Affiche le stock physique disponible actuel, le stock physique réservé, et le stock physique disponible.
+  - **Paramètres** - Affiche l’unité de stock et le délai de vente.
+  - **Éclatement** - Affiche un éclatement d’approvisionnement pour l’alternative de livraison sélectionnée. Vous pouvez utiliser **Paramétrage** pour modifier les champs et les dimensions de stock qui sont affichés dans l’éclatement.
 
 ### <a name="the-impact-of-selected-alternative-fasttab"></a>Organisateur Impact du remplacement sélectionné
 
-Cet organisateur met en surbrillance l’impact de l’alternative de livraison sélectionnée. Si vous sélectionnez **OK**, la ligne est mise à jour avec les valeurs en surbrillance dans les colonnes SÉLECTIONNÉES. Notez que, si la quantité de l'alternative de livraison sélectionnée est inférieure à la quantité de la ligne de vente, un plan de livraison est créé, et la ligne de commande est fractionnée en deux lignes : une ligne pour la quantité sélectionnée et une ligne pour la quantité restante. Vous pouvez également mettre à jour la ligne commerciale afin qu'elle corresponde aux lignes planifiées et affecte la tarification.
+Cet organisateur met en surbrillance l’impact de l’alternative de livraison sélectionnée. Si vous sélectionnez **OK**, la ligne est mise à jour avec les valeurs en surbrillance dans les colonnes SÉLECTIONNÉES. Notez que, si la quantité de l’alternative de livraison sélectionnée est inférieure à la quantité de la ligne de vente, un plan de livraison est créé, et la ligne de commande est fractionnée en deux lignes : une ligne pour la quantité sélectionnée et une ligne pour la quantité restante. Vous pouvez également mettre à jour la ligne commerciale afin qu’elle corresponde aux lignes planifiées et affecte la tarification.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

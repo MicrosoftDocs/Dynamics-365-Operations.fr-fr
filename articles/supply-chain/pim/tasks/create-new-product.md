@@ -1,6 +1,6 @@
 ---
 title: Créer un nouveau produit
-description: Cette rubrique décrit la procédure de création d'un nouveau produit partagé.
+description: Cette rubrique décrit la procédure de création d’un nouveau produit partagé.
 author: ShylaThompson
 manager: tfehr
 ms.date: 07/22/2019
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d313d76d40476bec5c8bc9c8ea5fc93b217e7e87
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90fdd0a3cbe90c7d3752c4ca2de1c2665968dc35
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007564"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218535"
 ---
 # <a name="create-a-new-product"></a>Créer un nouveau produit
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique décrit la procédure de création d'un nouveau produit partagé. Elle est généralement effectuée par un concepteur de produit. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
+Cette rubrique décrit la procédure de création d’un nouveau produit partagé. Elle est généralement effectuée par un concepteur de produit. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF.
 
 
 ## <a name="create-a-product"></a>Créer un produit
-1. Dans le volet de navigation, allez dans **Modules > Gestion d'informations sur les produits > Produits > Produits**.
+1. Dans le volet de navigation, allez dans **Modules > Gestion d’informations sur les produits > Produits > Produits**.
 2. Sélectionnez **Nouveau**.
-3. Dans le champ **Numéro du produit**, saisissez une valeur. Si une souche de numéros n'a pas été paramétrée pour le numéro de produit, elle doit être entrée manuellement.  
+3. Dans le champ **Numéro du produit**, saisissez une valeur. Si une souche de numéros n’a pas été paramétrée pour le numéro de produit, elle doit être entrée manuellement.  
 4. Dans le champ **Nom du produit**, saisissez une valeur. Le nom de produit est par défaut le nom de recherche. Vous pouvez la modifier si nécessaire.  
 5. Cliquez sur **OK**.
 

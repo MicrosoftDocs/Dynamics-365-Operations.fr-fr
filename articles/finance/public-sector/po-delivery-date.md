@@ -15,12 +15,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-9-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c6dd317f0f630afd938cd02790e7559c1decfe6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 89a9144a828121dc5360ebe2b7ed89605e1a0e1d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002642"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207150"
 ---
 # <a name="calculate-the-delivery-date-for-a-line-based-on-the-lead-time"></a>Calculer la date de livraison pour une ligne, en fonction du délai
 

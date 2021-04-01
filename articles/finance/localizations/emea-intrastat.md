@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8447cb644e7fe0a5ed55fd08091f42a57341f790
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212965"
 ---
 # <a name="intrastat-overview"></a>Vue d’ensemble de déclaration d’échanges de biens
 
@@ -196,7 +196,7 @@ La page **Paramètres de commerce extérieur** permet de définir les paramètre
 <td><ul>
 <li><strong>Général</strong> – Spécifiez les informations suivantes :
 <ul>
-<li>Les codes transaction par défaut pour les commandes client, les commandes fournisseur, les avoirs et les ordres de transfert. Le code transaction paramétré pour les avoirs est également utilisé comme code pour le retour des marchandises physiques et pour les écarts des retours physiques par rapport aux avoirs de correction. Les retours de biens physiques sont déclarés dans le transfert Intrastat avec une direction différente. Le retour d'arrivée est signalé comme expédition et le retour d'expédition est signalé comme arrivée.</li>
+<li>Les codes transaction par défaut pour les commandes client, les commandes fournisseur, les avoirs et les ordres de transfert. Le code transaction paramétré pour les avoirs est également utilisé comme code pour le retour des marchandises physiques et pour les écarts des retours physiques par rapport aux avoirs de correction. Les retours de biens physiques sont déclarés dans le transfert Intrastat avec une direction différente. Le retour d’arrivée est signalé comme expédition et le retour d’expédition est signalé comme arrivée.</li>
 <li>L’employé responsable de la préparation des états Intrastat.</li>
 </ul></li>
 <li><strong>Limite inférieure</strong> – Permet de spécifier les paramètres de mise à jour des transactions qui sont en dessous du seuil :

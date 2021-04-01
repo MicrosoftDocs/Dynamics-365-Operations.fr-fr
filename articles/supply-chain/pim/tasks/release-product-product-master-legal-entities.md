@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5157b782c64f3cc75f9842b36e3ded710126eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49f221736c1efd8314e6a137de5f0778386499da
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983195"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220774"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Lancer un produit/produit générique à destination des entités juridiques
 
@@ -32,7 +32,7 @@ Cette procédure indique comment lancer un produit ou un produit générique dan
 2. Dans la liste, marquer la ligne sélectionnée.
 3. Cliquez sur Produits lancés.
 4. Cliquez sur Suivant.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+5. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 6. Cliquez sur Suivant.
 7. Cliquez sur Terminer.
 

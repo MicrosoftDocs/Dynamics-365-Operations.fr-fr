@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e22c767a3de8fd937d9032a5bf285dfb4ced3d55
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d9ca04c140e7e7810e84a9efe73a6d97a7525ea1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231910"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Classer les tâches de production pour le traitement de la production
 
@@ -39,35 +39,35 @@ Cette procédure utilise la peinture comme exemple pour indiquer comment séquen
 
 ## <a name="view-planned-orders-for-the-paint-products"></a>Afficher les ordres prévisionnels pour la peinture
 1. Accédez à Planification > Planification > Ordres prévisionnels.
-2. Développez le récapitulatif Détails de l'article.
+2. Développez le récapitulatif Détails de l’article.
 3. Développez le récapitulatif Détails du programme.
 4. Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-5. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+5. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez Programme.  
 6. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-7. Utilisez le filtre rapide pour filtrer sur le champ Numéro d'article avec une valeur de « P300 ».
-    * Déverrouillez pour faire défiler vers la droite pour consulter la date de commande et la date de livraison. Notez que ces articles ont une date de commande définie sur Aujourd'hui et les dates de livraison pour les ordres prévisionnels ne sont pas séquencées après la priorité de couleur et la taille du colis, comme indiqué dans le nom de produit. Vous pouvez pointer sur un numéro d'article pour afficher le nom du produit et la priorité.  
+7. Utilisez le filtre rapide pour filtrer sur le champ Numéro d’article avec une valeur de « P300 ».
+    * Déverrouillez pour faire défiler vers la droite pour consulter la date de commande et la date de livraison. Notez que ces articles ont une date de commande définie sur Aujourd’hui et les dates de livraison pour les ordres prévisionnels ne sont pas séquencées après la priorité de couleur et la taille du colis, comme indiqué dans le nom de produit. Vous pouvez pointer sur un numéro d’article pour afficher le nom du produit et la priorité.  
 
 ## <a name="sequence-planned-orders-for-paint"></a>Séquencer les ordres prévisionnels pour la peinture
 1. Fermez la page.
 2. Accédez à Planification > Planification > Ordre prévisionnel séquencé.
-3. Développez le récapitulatif Détails de l'article.
+3. Développez le récapitulatif Détails de l’article.
 4. Développez le récapitulatif Détails du programme.
-    * Remarque : Ici vous voyez que la date/l'heure de début pour les ordres prévisionnels sont séquencées selon la couleur et la taille du colis dans un intervalle de 28 jours. Ces périodes sont définies par un numéro dans le champ Campagne. L'écran Ordres prévisionnels séquencés agit comme l'écran d'ordre prévisionnel classique, et le responsable de production peut y confirmer les ordres prévisionnels.  
+    * Remarque : Ici vous voyez que la date/l’heure de début pour les ordres prévisionnels sont séquencées selon la couleur et la taille du colis dans un intervalle de 28 jours. Ces périodes sont définies par un numéro dans le champ Campagne. L’écran Ordres prévisionnels séquencés agit comme l’écran d’ordre prévisionnel classique, et le responsable de production peut y confirmer les ordres prévisionnels.  
 5. Marquez toutes les lignes.
 6. Cliquez sur Accepter.
-    * Cela mettra les ordres prévisionnels à jour avec l'action de séquence sélectionnée, soit Ajourner soit Avancer.  
+    * Cela mettra les ordres prévisionnels à jour avec l’action de séquence sélectionnée, soit Ajourner soit Avancer.  
 
 ## <a name="verify-the-sequence-of-the-planned-orders"></a>Vérifier la séquence des ordres prévisionnels
 1. Fermez la page.
 2. Accédez à Planification > Planification > Ordres prévisionnels.
-3. Développez le récapitulatif Détails de l'article.
+3. Développez le récapitulatif Détails de l’article.
 4. Développez le récapitulatif Détails du programme.
 5. Dans le champ Régime, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez Programme.  
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Utilisez le filtre rapide pour filtrer sur le champ Numéro d'article avec une valeur de « P300 ».
+8. Utilisez le filtre rapide pour filtrer sur le champ Numéro d’article avec une valeur de « P300 ».
     * Notez que les commandes sont désormais séquencées selon la priorité en matière de couleur et de taille et les ordres prévisionnels démarrent à la date de commande et de livraison au plus tôt. Validez la colonne Date de commande ou la date de début dans le volet Détails du programme.  
 
 

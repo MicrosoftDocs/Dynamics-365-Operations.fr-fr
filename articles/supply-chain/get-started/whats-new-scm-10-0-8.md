@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a66f87800c1ec6734e89d5258e2d68db87a7f8cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 25dfcfffe3fc551f2b45dfe152b72e2d65061d8f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001921"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207109"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.8 (février 2020)
 
@@ -42,7 +42,7 @@ Les fonctionnalités suivantes sont comprises dans cette version. Les titres des
 - [Gestion des actifs](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Pour plus d’informations, voir [Vue d’ensemble de la gestion des actifs](../asset-management/index.md).
 - [Annuler le travail](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Pour en savoir plus, voir [Annuler le travail en entrepôt pour la gestion des exceptions](../warehousing/cancel-warehouse-work.md).
 - [Modifier le pool de travail sur le travail](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Pour plus d’informations, voir [Changer de pool de travail sur le travail](../warehousing/change-work-pool-on-work.md).
-- [Poste de groupement complet](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Pour plus d'informations, voir [Poste de groupement complet](../warehousing/cluster-position-full.md).
+- [Poste de groupement complet](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Pour plus d’informations, voir [Poste de groupement complet](../warehousing/cluster-position-full.md).
 - [Confirmer et transférer](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Pour plus d’informations, voir [Confirmer et transférer](../warehousing/confirm-and-transfer.md).
 - [Instruction d’emplacement relatif à l’âge du prélèvement du stock](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Pour plus d’informations, voir [Chronologie du prélèvement de stock des directives de localisation](../warehousing/location-directive-inventory-picking-aging.md).
 - [Statut de l’emplacement](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

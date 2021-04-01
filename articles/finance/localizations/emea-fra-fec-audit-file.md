@@ -14,12 +14,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02e648f15cfe3107a5e7c57a4d30e4a3978a7211
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4008b1b6a912fbb6c3a2d689923197bb93e657e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206082"
 ---
 # <a name="generate-the-standard-audit-file-for-france-fec"></a>Génération du fichier d’audit standard pour la France (FEC)
 

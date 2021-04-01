@@ -15,12 +15,12 @@ ms.search.region: Switzerland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4975081e4e2a7567fa2b4ccae40e5144856bcee5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0baa05b60666659a3b7250bd3ef36f28b8abf0f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012018"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228056"
 ---
 # <a name="switzerland-overview"></a>Vue d’ensemble de la Suisse
 

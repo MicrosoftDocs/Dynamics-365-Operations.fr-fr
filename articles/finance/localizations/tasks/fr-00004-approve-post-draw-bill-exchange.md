@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47b65b9799e90b357b39f93ecfa924d4527e1be3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b0c637d0ab346b592d80ee8debc10f28ae8286c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009070"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227875"
 ---
 # <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a>FR-00004 Approuver et valider la création des lettres de change client
 

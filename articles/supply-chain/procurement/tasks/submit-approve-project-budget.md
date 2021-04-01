@@ -1,6 +1,6 @@
 ---
 title: Envoyer et approuver le budget du projet
-description: Cette procédure décrit comment créer et envoyer le budget d'un projet.
+description: Cette procédure décrit comment créer et envoyer le budget d’un projet.
 author: RichardLuan
 manager: tfehr
 ms.date: 08/13/2019
@@ -16,40 +16,40 @@ ms.search.industry: Service industries
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 72ac6705ef8584ef41980a1cc9490227538de365
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018726"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222847"
 ---
 # <a name="submit-and-approve-project-budget"></a>Envoyer et approuver le budget du projet
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment créer et envoyer le budget d'un projet. 
+Cette procédure décrit comment créer et envoyer le budget d’un projet. 
 
-Lors de la création d'un budget de projet, vous pouvez entrer les produits et coûts estimés pour un projet, puis les utiliser pour contrôler les transactions de projet réelles. Dans la budgétisation de projet, tous les budgets d'origine et révisions doivent être transmis au workflow de projet pour approbation. Le workflow renforce le contrôle sur le processus et crée un enregistrement d'historique des modifications.
+Lors de la création d’un budget de projet, vous pouvez entrer les produits et coûts estimés pour un projet, puis les utiliser pour contrôler les transactions de projet réelles. Dans la budgétisation de projet, tous les budgets d’origine et révisions doivent être transmis au workflow de projet pour approbation. Le workflow renforce le contrôle sur le processus et crée un enregistrement d’historique des modifications.
 
-Cette tâche a été créé à l'aide de l'ensemble de données USSI.
+Cette tâche a été créé à l’aide de l’ensemble de données USSI.
 
 1. Dans le **volet de navigation**, accédez à **Modules > Gestion et comptabilité du projet > Projets > Tous les projets**.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Dans le **volet Action**, cliquez sur **Plan**.
 5. Cliquez sur **Budget de projet**.
 6. Tapez une valeur dans le champ **Description**.
-7. Développez l'organisateur **Coût**.
+7. Développez l’organisateur **Coût**.
 8. Cliquez sur **Nouveau**.
 9. Dans le champ **Type de transaction**, sélectionnez une option.
 10. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
-11. Dans le champ **Budget d'origine**, entrez un nombre.
-12. Développez l'organisateur **Produits**.
+11. Dans le champ **Budget d’origine**, entrez un nombre.
+12. Développez l’organisateur **Produits**.
 13. Cliquez sur **Nouveau**.
 14. Dans la liste, marquer la ligne sélectionnée.
 15. Dans le champ **Type de transaction**, sélectionnez une option.
 16. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
-17. Dans le champ **Budget d'origine**, entrez un nombre.
+17. Dans le champ **Budget d’origine**, entrez un nombre.
 18. Cliquez sur **Enregistrer**.
 19. Cliquez sur **Workflow**.
 20. Cliquez sur **Soumettre**.

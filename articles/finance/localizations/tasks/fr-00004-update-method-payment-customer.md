@@ -15,12 +15,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d63ce67b80bc7e5344b32824b9e9cf97898629b8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2742dfda18b028dedef016721ddb3170d09d0394
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997456"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227867"
 ---
 # <a name="fr-00004-update-method-of-payment-on-customer"></a>FR-00004 Mettre à jour un mode de paiement pour le client
 

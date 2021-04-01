@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3a22229106753d265a90f0ef05f5ac82dc745bbd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee1bfbf1b5aa736e1ee5bd38403b6c94c2bd036b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967153"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225000"
 ---
 # <a name="troubleshoot-inventory-operations"></a>Résoudre les problèmes des opérations d’inventaire
 
@@ -65,7 +65,7 @@ public final class InventJournalMovement_extension
 
 ### <a name="issue-resolution-3"></a>Résolution du problème 3
 
-Si le problème ne s’applique qu'à quelques utilisateurs spécifiques, ces utilisateurs peuvent ne pas disposer des privilèges de sécurité nécessaires pour exécuter des opérations de workflow sur les journaux d’inventaire. Vérifiez que chaque utilisateur affecté dispose du privilège de sécurité *Tenir à jour le workflow du journal d’inventaire*. Par défaut, ce privilège est attribué à un droit qui porte le même nom, et ce droit est appliqué aux rôles *Magasinier* et *Gestionnaire de l’entrepôt*.
+Si le problème ne s’applique qu’à quelques utilisateurs spécifiques, ces utilisateurs peuvent ne pas disposer des privilèges de sécurité nécessaires pour exécuter des opérations de workflow sur les journaux d’inventaire. Vérifiez que chaque utilisateur affecté dispose du privilège de sécurité *Tenir à jour le workflow du journal d’inventaire*. Par défaut, ce privilège est attribué à un droit qui porte le même nom, et ce droit est appliqué aux rôles *Magasinier* et *Gestionnaire de l’entrepôt*.
 
 ## <a name="my-inventory-journal-remains-in-system-locked-status-and-the-workflow-batch-job-doesnt-work"></a>Mon journal d’inventaire reste à l’état verrouillé par le système, et la tâche de traitement par lots du workflow ne fonctionne pas.
 

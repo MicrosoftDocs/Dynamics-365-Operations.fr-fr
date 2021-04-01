@@ -1,6 +1,6 @@
 ---
 title: Inclure la valeur physique
-description: Vous utilisez la case à cocher Inclure la valeur physique dans l'organisateur Modèle de stock de la page Groupes de modèles d'article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article.
+description: Vous utilisez la case à cocher Inclure la valeur physique dans l’organisateur Modèle de stock de la page Groupes de modèles d’article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article.
 author: AndersGirke
 manager: tfehr
 ms.date: 10/31/2019
@@ -18,18 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5685fd384e240c1bc6236dbddf678c8d6d9c8c66
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a769f9cb5b34581b9bd20b19bcd8bcd0b1c7bff8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005500"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205429"
 ---
 # <a name="include-physical-value"></a>Inclure la valeur physique
 
 [!include [banner](../includes/banner.md)]
 
-Vous utilisez la case à cocher Inclure la valeur physique dans l'organisateur Modèle de stock de la page Groupes de modèles d'article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article.
+Vous utilisez la case à cocher Inclure la valeur physique dans l’organisateur Modèle de stock de la page Groupes de modèles d’article pour spécifier si les transactions mises à jour physiquement sont considérées dans le calcul du prix de revient moyen en cours pour un article.
 
 La case à cocher **Inclure la valeur physique** possède les valeurs suivantes.
 
@@ -41,8 +41,8 @@ La case à cocher **Inclure la valeur physique** possède les valeurs suivantes.
 La case à cocher produit des résultats légèrement différents en fonction du modèle de stock que vous utilisez.
 
 -   Si vous activez la case à cocher **Inclure la valeur physique** lorsque vous utilisez les modèles de stock par date FIFO (Premier entré, premier sorti), LIFO (Dernier entré, premier sorti), ou LIFO, la clôture de stock engendre également des ajustements sur les transactions mises à jour physiquement.
--   Si vous n'activez pas la case à cocher **Inclure la valeur physique** lorsque vous utilisez ces modèles de stock, la clôture de stock engendre des règlements uniquement pour les transactions mises à jour financièrement.
--   Lorsque vous utilisez les modèles de stock de moyenne pondérée ou de date moyenne pondérée, la clôture de stock règle uniquement les transactions mises à jour financièrement, à moins que vous n'activiez la case à cocher **Inclure la valeur physique**.
+-   Si vous n’activez pas la case à cocher **Inclure la valeur physique** lorsque vous utilisez ces modèles de stock, la clôture de stock engendre des règlements uniquement pour les transactions mises à jour financièrement.
+-   Lorsque vous utilisez les modèles de stock de moyenne pondérée ou de date moyenne pondérée, la clôture de stock règle uniquement les transactions mises à jour financièrement, à moins que vous n’activiez la case à cocher **Inclure la valeur physique**.
 
 **Exemple 1** Vous avez activé la case à cocher **Inclure la valeur physique** et vous recevez les commandes fournisseur suivantes :
 
@@ -51,14 +51,14 @@ La case à cocher produit des résultats légèrement différents en fonction du
 
 Dans ce cas, le prix de revient moyen en cours sera de 11,20 EUR = (2x10+3x12)/(2+3), car les transactions mises à jour physiquement et financièrement sont utilisées pour calculer le prix de revient. 
 
-**Exemple 2** Vous n'avez pas activé la case à cocher **Inclure la valeur physique** et le prix de revient sur le paramétrage de l'article est de 10,00 EUR. 
+**Exemple 2** Vous n’avez pas activé la case à cocher **Inclure la valeur physique** et le prix de revient sur le paramétrage de l’article est de 10,00 EUR. 
 
 -   Vous recevez une commande fournisseur comportant 20 articles à un prix de revient de 12,00 EUR qui a été mise à jour par bon de livraison.
 
-Lorsque une commande client est validée, le montant du coût validé est de 10,00 EUR car le prix de revient moyen en cours n'inclut pas les transactions validées physiquement. 
+Lorsque une commande client est validée, le montant du coût validé est de 10,00 EUR car le prix de revient moyen en cours n’inclut pas les transactions validées physiquement. 
 
 > [!NOTE]
-> À des fins de comparaison, si vous activez la case à cocher **Inclure la valeur physique** pour cet article, lorsqu'une commande client est validée, le montant du coût validé sera de 12,00 EUR.
+> À des fins de comparaison, si vous activez la case à cocher **Inclure la valeur physique** pour cet article, lorsqu’une commande client est validée, le montant du coût validé sera de 12,00 EUR.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
