@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble de planification générale et fonctionnalité multisite
-description: La planification prend en compte les paramètres des dimensions de stock du site et de l'entrepôt.
+title: Vue d’ensemble de planification générale et fonctionnalité multisite
+description: La planification prend en compte les paramètres des dimensions de stock du site et de l’entrepôt.
 author: roxanadiaconu
 manager: tfehr
 ms.date: 07/25/2019
@@ -18,36 +18,39 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c42fbd42288a072803e4f5de46560d13129515db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: da8db87f44c974b3fee8e249e318669ca8e9f2b8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005150"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220822"
 ---
-# <a name="master-planning-and-multisite-functionality-overview"></a><span data-ttu-id="153d7-103">Vue d'ensemble de planification générale et fonctionnalité multisite</span><span class="sxs-lookup"><span data-stu-id="153d7-103">Master planning and multisite functionality overview</span></span>
+# <a name="master-planning-and-multisite-functionality-overview"></a><span data-ttu-id="ac933-103">Vue d’ensemble de planification générale et fonctionnalité multisite</span><span class="sxs-lookup"><span data-stu-id="ac933-103">Master planning and multisite functionality overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="153d7-104">La planification prend en compte les paramètres des dimensions de stock du site et de l'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="153d7-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
+<span data-ttu-id="ac933-104">La planification prend en compte les paramètres des dimensions de stock du site et de l’entrepôt.</span><span class="sxs-lookup"><span data-stu-id="ac933-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 
-<span data-ttu-id="153d7-105">La dimension de site est obligatoire, et vous pouvez définir la dimension d'entrepôt comme étant obligatoire.</span><span class="sxs-lookup"><span data-stu-id="153d7-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
+<span data-ttu-id="ac933-105">La dimension de site est obligatoire, et vous pouvez définir la dimension d’entrepôt comme étant obligatoire.</span><span class="sxs-lookup"><span data-stu-id="ac933-105">The site dimension is mandatory, and you can set the warehouse dimension to be mandatory.</span></span>
 
-<span data-ttu-id="153d7-106">Lorsqu'une dimension est obligatoire, une valeur de dimension doit être entrée pour tous les mouvements de stock.</span><span class="sxs-lookup"><span data-stu-id="153d7-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="153d7-107">Par conséquent, lors de la planification, le site et l'entrepôt pour la demande initiale sont connus.</span><span class="sxs-lookup"><span data-stu-id="153d7-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="153d7-108">La dimension de site est également cohérente afin que, lors de l'éclatement de la demande de niveau inférieur, la valeur du site ne change pas.</span><span class="sxs-lookup"><span data-stu-id="153d7-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
+<span data-ttu-id="ac933-106">Lorsqu’une dimension est obligatoire, une valeur de dimension doit être entrée pour tous les mouvements de stock.</span><span class="sxs-lookup"><span data-stu-id="ac933-106">When a dimension is mandatory, a dimension value must be entered on all inventory transactions.</span></span> <span data-ttu-id="ac933-107">Par conséquent, lors de la planification, le site et l’entrepôt pour la demande initiale sont connus.</span><span class="sxs-lookup"><span data-stu-id="ac933-107">Therefore, during master planning, the site and the warehouse for the initial demand are known.</span></span> <span data-ttu-id="ac933-108">La dimension de site est également cohérente afin que, lors de l’éclatement de la demande de niveau inférieur, la valeur du site ne change pas.</span><span class="sxs-lookup"><span data-stu-id="ac933-108">The site dimension is also consistent so that during the explosion of lower-level demand, the site value does not change.</span></span>
 
-<span data-ttu-id="153d7-109">Lorsque l'entrepôt n'est pas obligatoire, il se peut qu'il ne soit pas connu à partir de la demande initiale.</span><span class="sxs-lookup"><span data-stu-id="153d7-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="153d7-110">Le moteur de planification doit déterminer l'entrepôt à utiliser en fonction des paramètres définis pour l'article, les entrepôts individuels et les détails de la ligne de commande.</span><span class="sxs-lookup"><span data-stu-id="153d7-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
+<span data-ttu-id="ac933-109">Lorsque l’entrepôt n’est pas obligatoire, il se peut qu’il ne soit pas connu à partir de la demande initiale.</span><span class="sxs-lookup"><span data-stu-id="ac933-109">When the warehouse is not set to mandatory, it may not be known from the initial demand.</span></span> <span data-ttu-id="ac933-110">Le moteur de planification doit déterminer l’entrepôt à utiliser en fonction des paramètres définis pour l’article, les entrepôts individuels et les détails de la ligne de commande.</span><span class="sxs-lookup"><span data-stu-id="ac933-110">The planning engine must determine which warehouse to use based on the settings that are defined for the item, individual warehouses, and the details of the order line.</span></span>
 
-<span data-ttu-id="153d7-111">Les rubriques suivantes décrivent le fonctionnement du moteur de planification, lorsque différents paramètres sont définis, pour déterminer l'entrepôt à utiliser.</span><span class="sxs-lookup"><span data-stu-id="153d7-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
+<span data-ttu-id="ac933-111">Les rubriques suivantes décrivent le fonctionnement du moteur de planification, lorsque différents paramètres sont définis, pour déterminer l’entrepôt à utiliser.</span><span class="sxs-lookup"><span data-stu-id="ac933-111">The following topics describe how the planning engine works, when different settings are defined, to determine the warehouse to use.</span></span>
 
-[<span data-ttu-id="153d7-112">Planification de couverture de site et d'entrepôt, entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="153d7-112">Master planning for site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="ac933-112">Planification de couverture de site et d’entrepôt, entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="ac933-112">Master planning for site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="153d7-113">Planification pour couverture de site, entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="153d7-113">Master planning for site coverage, mandatory warehouse</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="ac933-113">Planification pour couverture de site, entrepôt obligatoire</span><span class="sxs-lookup"><span data-stu-id="ac933-113">Master planning for site coverage, mandatory warehouse</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="153d7-114">Planification de couverture de site et d'entrepôt, entrepôt non obligatoire</span><span class="sxs-lookup"><span data-stu-id="153d7-114">Master planning for site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="ac933-114">Planification de couverture de site et d’entrepôt, entrepôt non obligatoire</span><span class="sxs-lookup"><span data-stu-id="ac933-114">Master planning for site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="153d7-115">Planification pour couverture de site, entrepôt non obligatoire</span><span class="sxs-lookup"><span data-stu-id="153d7-115">Master planning for site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="ac933-115">Planification pour couverture de site, entrepôt non obligatoire</span><span class="sxs-lookup"><span data-stu-id="ac933-115">Master planning for site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="153d7-116">Déterminer la version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="153d7-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="ac933-116">Déterminer la version de nomenclature</span><span class="sxs-lookup"><span data-stu-id="ac933-116">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

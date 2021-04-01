@@ -15,52 +15,55 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14649602c3f775d43f694ba9e62c8471bc64e386
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0f332c85193b709e7644aaa6cff6b41de046c0be
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975212"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227873"
 ---
-# <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a><span data-ttu-id="7b151-103">FR-00004 Effets de commerce et billets à ordre français</span><span class="sxs-lookup"><span data-stu-id="7b151-103">FR-00004 French bills of exchange and promissory notes</span></span>
+# <a name="fr-00004-french-bills-of-exchange-and-promissory-notes"></a><span data-ttu-id="c1edb-103">FR-00004 Effets de commerce et billets à ordre français</span><span class="sxs-lookup"><span data-stu-id="c1edb-103">FR-00004 French bills of exchange and promissory notes</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7b151-104">L’état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.</span><span class="sxs-lookup"><span data-stu-id="7b151-104">The French bill of exchange remittance report displays details about remitted bills of exchange.</span></span> <span data-ttu-id="7b151-105">L’état inclut des informations sur le compte bancaire, l’entité juridique et le type de remise.</span><span class="sxs-lookup"><span data-stu-id="7b151-105">The report includes information about your bank account, legal entity, and remittance type.</span></span> <span data-ttu-id="7b151-106">Il fournit également la liste des transactions client qui sont affectées par la lettre de change.</span><span class="sxs-lookup"><span data-stu-id="7b151-106">It also provides a list of customer transactions that are affected by the bill of exchange.</span></span> <span data-ttu-id="7b151-107">Cet état est utilisé par les commis à la comptabilité client et les commis à la comptabilité fournisseur pour mettre à jour des paiements client.</span><span class="sxs-lookup"><span data-stu-id="7b151-107">This report is used by accounts receivable clerks and accounts payable clerks to maintain customer payments.</span></span> 
+<span data-ttu-id="c1edb-104">L’état de remise de lettre de change française affiche les détails sur les lettres de change renvoyées.</span><span class="sxs-lookup"><span data-stu-id="c1edb-104">The French bill of exchange remittance report displays details about remitted bills of exchange.</span></span> <span data-ttu-id="c1edb-105">L’état inclut des informations sur le compte bancaire, l’entité juridique et le type de remise.</span><span class="sxs-lookup"><span data-stu-id="c1edb-105">The report includes information about your bank account, legal entity, and remittance type.</span></span> <span data-ttu-id="c1edb-106">Il fournit également la liste des transactions client qui sont affectées par la lettre de change.</span><span class="sxs-lookup"><span data-stu-id="c1edb-106">It also provides a list of customer transactions that are affected by the bill of exchange.</span></span> <span data-ttu-id="c1edb-107">Cet état est utilisé par les commis à la comptabilité client et les commis à la comptabilité fournisseur pour mettre à jour des paiements client.</span><span class="sxs-lookup"><span data-stu-id="c1edb-107">This report is used by accounts receivable clerks and accounts payable clerks to maintain customer payments.</span></span> 
 
 
 
-<span data-ttu-id="7b151-108">Cette procédure vous fait parcourir les étapes de la création du journal de remise de lettre de change et de la génération de l’état de remise de lettre de change.</span><span class="sxs-lookup"><span data-stu-id="7b151-108">This procedure walks you through creating the bill of exchange remittance journal and generating the bill of exchange remittance report.</span></span>
+<span data-ttu-id="c1edb-108">Cette procédure vous fait parcourir les étapes de la création du journal de remise de lettre de change et de la génération de l’état de remise de lettre de change.</span><span class="sxs-lookup"><span data-stu-id="c1edb-108">This procedure walks you through creating the bill of exchange remittance journal and generating the bill of exchange remittance report.</span></span>
 
-<span data-ttu-id="7b151-109">Avant d’exécuter cette procédure, vous devez créer, approuver et valider la création du journal des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="7b151-109">Before you can complete this procedure, you must create, approve, and post draw the bill of exchange journal.</span></span>
+<span data-ttu-id="c1edb-109">Avant d’exécuter cette procédure, vous devez créer, approuver et valider la création du journal des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="c1edb-109">Before you can complete this procedure, you must create, approve, and post draw the bill of exchange journal.</span></span>
 
-<span data-ttu-id="7b151-110">Cette procédure a été créée à l’aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="7b151-110">This procedure was created using the demo data company FRSI.</span></span>
+<span data-ttu-id="c1edb-110">Cette procédure a été créée à l’aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="c1edb-110">This procedure was created using the demo data company FRSI.</span></span>
 
-1. <span data-ttu-id="7b151-111">Accédez à Comptabilité client > Paiements > Lettre de change > Journal des remises.</span><span class="sxs-lookup"><span data-stu-id="7b151-111">Go to Accounts receivable > Payments > Bill of exchange > Remittance journal.</span></span>
-2. <span data-ttu-id="7b151-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="7b151-112">Click New.</span></span>
-3. <span data-ttu-id="7b151-113">Saisissez ou sélectionnez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="7b151-113">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="7b151-114">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="7b151-114">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="7b151-115">Entrez RemiseBque, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7b151-115">For example, enter 'RemiseBque'.</span></span>  
-5. <span data-ttu-id="7b151-116">Cliquez sur l’onglet Lettre de change.</span><span class="sxs-lookup"><span data-stu-id="7b151-116">Click the Bill of exchange tab.</span></span>
-6. <span data-ttu-id="7b151-117">Dans le champ Compte en banque, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="7b151-117">In the Bank account field, enter or select a value.</span></span>
-7. <span data-ttu-id="7b151-118">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="7b151-118">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7b151-119">Sélectionnez FRN, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7b151-119">For example, select 'FRN'.</span></span>  
-8. <span data-ttu-id="7b151-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="7b151-120">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="7b151-121">Cliquez sur l’onglet Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="7b151-121">Click the Setup tab.</span></span>
-10. <span data-ttu-id="7b151-122">Sélectionnez Banque dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="7b151-122">In the Account type field, select 'Bank'.</span></span>
-11. <span data-ttu-id="7b151-123">Spécifiez les valeurs souhaitées dans le champ Compte de contrepartie.</span><span class="sxs-lookup"><span data-stu-id="7b151-123">In the Offset account field, specify the desired values.</span></span>
-    * <span data-ttu-id="7b151-124">Sélectionnez FRSI OPER, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7b151-124">For example, select 'FRSI OPER'.</span></span>  
-12. <span data-ttu-id="7b151-125">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="7b151-125">Click Lines.</span></span>
-13. <span data-ttu-id="7b151-126">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="7b151-126">In the Account field, specify the desired values.</span></span>
-    * <span data-ttu-id="7b151-127">Sélectionnez FR_SI_0020, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7b151-127">For example, select 'FR_SI_0020'.</span></span>  
-14. <span data-ttu-id="7b151-128">Cliquez sur Régler les transactions.</span><span class="sxs-lookup"><span data-stu-id="7b151-128">Click Settle transactions.</span></span>
-    * <span data-ttu-id="7b151-129">Sélectionnez les lignes à inclure.</span><span class="sxs-lookup"><span data-stu-id="7b151-129">Select the lines to include.</span></span>  
-15. <span data-ttu-id="7b151-130">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7b151-130">Click OK.</span></span>
-16. <span data-ttu-id="7b151-131">Cliquez sur Générer une remise.</span><span class="sxs-lookup"><span data-stu-id="7b151-131">Click Generate remittance.</span></span>
-17. <span data-ttu-id="7b151-132">Entrez ou sélectionnez une valeur dans le champ Mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="7b151-132">In the Method of payment field, enter or select a value.</span></span>
-18. <span data-ttu-id="7b151-133">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="7b151-133">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7b151-134">Sélectionnez BOEPDF, par exemple.</span><span class="sxs-lookup"><span data-stu-id="7b151-134">For example, select 'BOEPDF'.</span></span>  
-19. <span data-ttu-id="7b151-135">Tapez une valeur dans le champ Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="7b151-135">In the File name field, type a value.</span></span>
-20. <span data-ttu-id="7b151-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7b151-136">Click OK.</span></span>
-    * <span data-ttu-id="7b151-137">Vous pouvez être invité à entrer une date de traitement.</span><span class="sxs-lookup"><span data-stu-id="7b151-137">You might be asked to enter a processing date.</span></span>  
+1. <span data-ttu-id="c1edb-111">Accédez à Comptabilité client > Paiements > Lettre de change > Journal des remises.</span><span class="sxs-lookup"><span data-stu-id="c1edb-111">Go to Accounts receivable > Payments > Bill of exchange > Remittance journal.</span></span>
+2. <span data-ttu-id="c1edb-112">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="c1edb-112">Click New.</span></span>
+3. <span data-ttu-id="c1edb-113">Saisissez ou sélectionnez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="c1edb-113">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="c1edb-114">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c1edb-114">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="c1edb-115">Entrez RemiseBque, par exemple.</span><span class="sxs-lookup"><span data-stu-id="c1edb-115">For example, enter 'RemiseBque'.</span></span>  
+5. <span data-ttu-id="c1edb-116">Cliquez sur l’onglet Lettre de change.</span><span class="sxs-lookup"><span data-stu-id="c1edb-116">Click the Bill of exchange tab.</span></span>
+6. <span data-ttu-id="c1edb-117">Dans le champ Compte en banque, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="c1edb-117">In the Bank account field, enter or select a value.</span></span>
+7. <span data-ttu-id="c1edb-118">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c1edb-118">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c1edb-119">Sélectionnez FRN, par exemple.</span><span class="sxs-lookup"><span data-stu-id="c1edb-119">For example, select 'FRN'.</span></span>  
+8. <span data-ttu-id="c1edb-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="c1edb-120">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="c1edb-121">Cliquez sur l’onglet Paramétrage.</span><span class="sxs-lookup"><span data-stu-id="c1edb-121">Click the Setup tab.</span></span>
+10. <span data-ttu-id="c1edb-122">Sélectionnez Banque dans le champ Type de compte.</span><span class="sxs-lookup"><span data-stu-id="c1edb-122">In the Account type field, select 'Bank'.</span></span>
+11. <span data-ttu-id="c1edb-123">Spécifiez les valeurs souhaitées dans le champ Compte de contrepartie.</span><span class="sxs-lookup"><span data-stu-id="c1edb-123">In the Offset account field, specify the desired values.</span></span>
+    * <span data-ttu-id="c1edb-124">Sélectionnez FRSI OPER, par exemple.</span><span class="sxs-lookup"><span data-stu-id="c1edb-124">For example, select 'FRSI OPER'.</span></span>  
+12. <span data-ttu-id="c1edb-125">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="c1edb-125">Click Lines.</span></span>
+13. <span data-ttu-id="c1edb-126">Dans le champ Compte, spécifiez les valeurs souhaitées.</span><span class="sxs-lookup"><span data-stu-id="c1edb-126">In the Account field, specify the desired values.</span></span>
+    * <span data-ttu-id="c1edb-127">Sélectionnez FR_SI_0020, par exemple.</span><span class="sxs-lookup"><span data-stu-id="c1edb-127">For example, select 'FR_SI_0020'.</span></span>  
+14. <span data-ttu-id="c1edb-128">Cliquez sur Régler les transactions.</span><span class="sxs-lookup"><span data-stu-id="c1edb-128">Click Settle transactions.</span></span>
+    * <span data-ttu-id="c1edb-129">Sélectionnez les lignes à inclure.</span><span class="sxs-lookup"><span data-stu-id="c1edb-129">Select the lines to include.</span></span>  
+15. <span data-ttu-id="c1edb-130">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c1edb-130">Click OK.</span></span>
+16. <span data-ttu-id="c1edb-131">Cliquez sur Générer une remise.</span><span class="sxs-lookup"><span data-stu-id="c1edb-131">Click Generate remittance.</span></span>
+17. <span data-ttu-id="c1edb-132">Entrez ou sélectionnez une valeur dans le champ Mode de paiement.</span><span class="sxs-lookup"><span data-stu-id="c1edb-132">In the Method of payment field, enter or select a value.</span></span>
+18. <span data-ttu-id="c1edb-133">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="c1edb-133">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c1edb-134">Sélectionnez BOEPDF, par exemple.</span><span class="sxs-lookup"><span data-stu-id="c1edb-134">For example, select 'BOEPDF'.</span></span>  
+19. <span data-ttu-id="c1edb-135">Tapez une valeur dans le champ Nom du fichier.</span><span class="sxs-lookup"><span data-stu-id="c1edb-135">In the File name field, type a value.</span></span>
+20. <span data-ttu-id="c1edb-136">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c1edb-136">Click OK.</span></span>
+    * <span data-ttu-id="c1edb-137">Vous pouvez être invité à entrer une date de traitement.</span><span class="sxs-lookup"><span data-stu-id="c1edb-137">You might be asked to enter a processing date.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,38 +16,41 @@ ms.search.industry: Service industries
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0906b7c92f8288adf834ccd33f0ca0df40cd4f44
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: de74ed71f0c34935d05df996bdcd2d1901a50364
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017265"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226711"
 ---
-# <a name="set-up-project-resource-information"></a><span data-ttu-id="8cdb9-103">Définir des informations sur le projet de recrutement</span><span class="sxs-lookup"><span data-stu-id="8cdb9-103">Set up project resource information</span></span>
+# <a name="set-up-project-resource-information"></a><span data-ttu-id="5f66d-103">Définir des informations sur le projet de recrutement</span><span class="sxs-lookup"><span data-stu-id="5f66d-103">Set up project resource information</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8cdb9-104">Cette procédure décrit comment paramétrer une ressource de projet.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="8cdb9-105">Cette tâche utilise l'ensemble de données USMF.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-105">This task uses the USMF data set.</span></span>
+<span data-ttu-id="5f66d-104">Cette procédure décrit comment paramétrer une ressource de projet.</span><span class="sxs-lookup"><span data-stu-id="5f66d-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="5f66d-105">Cette tâche utilise l’ensemble de données USMF.</span><span class="sxs-lookup"><span data-stu-id="5f66d-105">This task uses the USMF data set.</span></span>
 
-1. <span data-ttu-id="8cdb9-106">Accédez à Gestion de projets et comptabilité > Ressources de projet > Liste des ressources.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
-2. <span data-ttu-id="8cdb9-107">Cliquez sur Nouvelle ressource.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-107">Click New resource.</span></span>
-3. <span data-ttu-id="8cdb9-108">Dans le champ Collaborateur, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-108">In the Worker field, enter or select a value.</span></span>
-4. <span data-ttu-id="8cdb9-109">Saisissez ou sélectionnez une valeur dans le champ Calendrier.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-109">In the Calendar field, enter or select a value.</span></span>
-5. <span data-ttu-id="8cdb9-110">Dans le champ Code période, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-110">In the Period code field, enter or select a value.</span></span>
-6. <span data-ttu-id="8cdb9-111">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-111">Click Create.</span></span>
-7. <span data-ttu-id="8cdb9-112">Cliquez sur Prix de revient.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-112">Click Cost prices.</span></span>
-8. <span data-ttu-id="8cdb9-113">Cliquez sur Prix de revient - heure</span><span class="sxs-lookup"><span data-stu-id="8cdb9-113">Click Cost price - hour.</span></span>
-9. <span data-ttu-id="8cdb9-114">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-114">Click New.</span></span>
-10. <span data-ttu-id="8cdb9-115">Entrez une date dans le champ Date d'effet.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-115">In the Effective date field, enter a date.</span></span>
-11. <span data-ttu-id="8cdb9-116">Dans le champ Prix de revient, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-116">In the Cost price field, enter a number.</span></span>
-12. <span data-ttu-id="8cdb9-117">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-117">Click Save.</span></span>
-13. <span data-ttu-id="8cdb9-118">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-118">Close the page.</span></span>
-14. <span data-ttu-id="8cdb9-119">Cliquez sur Prix de vente.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-119">Click Sales prices.</span></span>
-15. <span data-ttu-id="8cdb9-120">Cliquez sur Prix de vente - heure.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-120">Click Sales price - hour.</span></span>
-16. <span data-ttu-id="8cdb9-121">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-121">Click New.</span></span>
-17. <span data-ttu-id="8cdb9-122">Entrez une date dans le champ Date d'effet.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-122">In the Effective date field, enter a date.</span></span>
-18. <span data-ttu-id="8cdb9-123">Dans le champ Tarification, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-123">In the Pricing field, enter a number.</span></span>
-19. <span data-ttu-id="8cdb9-124">Dans le champ Valide pour, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-124">In the Valid for field, select an option.</span></span>
-20. <span data-ttu-id="8cdb9-125">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-125">Click Save.</span></span>
-21. <span data-ttu-id="8cdb9-126">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="8cdb9-126">Close the page.</span></span>
+1. <span data-ttu-id="5f66d-106">Accédez à Gestion de projets et comptabilité > Ressources de projet > Liste des ressources.</span><span class="sxs-lookup"><span data-stu-id="5f66d-106">Go to Project management and accounting > Project resources > Resources list.</span></span>
+2. <span data-ttu-id="5f66d-107">Cliquez sur Nouvelle ressource.</span><span class="sxs-lookup"><span data-stu-id="5f66d-107">Click New resource.</span></span>
+3. <span data-ttu-id="5f66d-108">Dans le champ Collaborateur, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="5f66d-108">In the Worker field, enter or select a value.</span></span>
+4. <span data-ttu-id="5f66d-109">Saisissez ou sélectionnez une valeur dans le champ Calendrier.</span><span class="sxs-lookup"><span data-stu-id="5f66d-109">In the Calendar field, enter or select a value.</span></span>
+5. <span data-ttu-id="5f66d-110">Dans le champ Code période, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="5f66d-110">In the Period code field, enter or select a value.</span></span>
+6. <span data-ttu-id="5f66d-111">Cliquez sur Créer.</span><span class="sxs-lookup"><span data-stu-id="5f66d-111">Click Create.</span></span>
+7. <span data-ttu-id="5f66d-112">Cliquez sur Prix de revient.</span><span class="sxs-lookup"><span data-stu-id="5f66d-112">Click Cost prices.</span></span>
+8. <span data-ttu-id="5f66d-113">Cliquez sur Prix de revient - heure</span><span class="sxs-lookup"><span data-stu-id="5f66d-113">Click Cost price - hour.</span></span>
+9. <span data-ttu-id="5f66d-114">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="5f66d-114">Click New.</span></span>
+10. <span data-ttu-id="5f66d-115">Entrez une date dans le champ Date d’effet.</span><span class="sxs-lookup"><span data-stu-id="5f66d-115">In the Effective date field, enter a date.</span></span>
+11. <span data-ttu-id="5f66d-116">Dans le champ Prix de revient, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="5f66d-116">In the Cost price field, enter a number.</span></span>
+12. <span data-ttu-id="5f66d-117">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="5f66d-117">Click Save.</span></span>
+13. <span data-ttu-id="5f66d-118">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="5f66d-118">Close the page.</span></span>
+14. <span data-ttu-id="5f66d-119">Cliquez sur Prix de vente.</span><span class="sxs-lookup"><span data-stu-id="5f66d-119">Click Sales prices.</span></span>
+15. <span data-ttu-id="5f66d-120">Cliquez sur Prix de vente - heure.</span><span class="sxs-lookup"><span data-stu-id="5f66d-120">Click Sales price - hour.</span></span>
+16. <span data-ttu-id="5f66d-121">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="5f66d-121">Click New.</span></span>
+17. <span data-ttu-id="5f66d-122">Entrez une date dans le champ Date d’effet.</span><span class="sxs-lookup"><span data-stu-id="5f66d-122">In the Effective date field, enter a date.</span></span>
+18. <span data-ttu-id="5f66d-123">Dans le champ Tarification, entrez un nombre.</span><span class="sxs-lookup"><span data-stu-id="5f66d-123">In the Pricing field, enter a number.</span></span>
+19. <span data-ttu-id="5f66d-124">Dans le champ Valide pour, sélectionnez une option.</span><span class="sxs-lookup"><span data-stu-id="5f66d-124">In the Valid for field, select an option.</span></span>
+20. <span data-ttu-id="5f66d-125">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="5f66d-125">Click Save.</span></span>
+21. <span data-ttu-id="5f66d-126">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="5f66d-126">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

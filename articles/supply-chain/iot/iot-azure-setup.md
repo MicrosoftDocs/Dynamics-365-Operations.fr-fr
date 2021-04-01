@@ -16,148 +16,151 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cd06410dd6260e6a371b0044546be7f8c9957c80
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f728f3b5736bc7368ffb39bf2be398fb91fb373e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989819"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224952"
 ---
-# <a name="set-up-azure-resources-for-iot-intelligence"></a><span data-ttu-id="a7fca-103">Configurer des ressources Azure pour l’intelligence IoT</span><span class="sxs-lookup"><span data-stu-id="a7fca-103">Set up Azure resources for IoT Intelligence</span></span>
+# <a name="set-up-azure-resources-for-iot-intelligence"></a><span data-ttu-id="96658-103">Configurer des ressources Azure pour l’intelligence IoT</span><span class="sxs-lookup"><span data-stu-id="96658-103">Set up Azure resources for IoT Intelligence</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a7fca-104">Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l’intelligence IoT.</span><span class="sxs-lookup"><span data-stu-id="a7fca-104">This topic explains how to create and configure the Microsoft Azure resources that you require for IoT Intelligence.</span></span>
+<span data-ttu-id="96658-104">Cette rubrique explique comment créer et configurer les ressources Microsoft Azure dont vous avez besoin pour l’intelligence IoT.</span><span class="sxs-lookup"><span data-stu-id="96658-104">This topic explains how to create and configure the Microsoft Azure resources that you require for IoT Intelligence.</span></span>
 
-## <a name="create-azure-resources"></a><span data-ttu-id="a7fca-105">Créer des ressources Azure</span><span class="sxs-lookup"><span data-stu-id="a7fca-105">Create Azure resources</span></span>
+## <a name="create-azure-resources"></a><span data-ttu-id="96658-105">Créer des ressources Azure</span><span class="sxs-lookup"><span data-stu-id="96658-105">Create Azure resources</span></span>
 
-<span data-ttu-id="a7fca-106">Suivez ces étapes pour créer un hub IoT, un cache Redis et un coffre de clés accessibles par Microsoft Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="a7fca-106">Follow these steps to create an IoT hub, a Redis cache, and a key vault that can be accessed by Microsoft Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="96658-106">Suivez ces étapes pour créer un hub IoT, un cache Redis et un coffre de clés accessibles par Microsoft Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="96658-106">Follow these steps to create an IoT hub, a Redis cache, and a key vault that can be accessed by Microsoft Dynamics 365 Supply Chain Management.</span></span>
 
-### <a name="verify-that-the-microsoft-dynamics-erp-microservices-first-party-app-id-is-in-your-tenant"></a><span data-ttu-id="a7fca-107">Vérifiez que l’ID d’application pour l’application propriétaire Microservices ERP Microsoft Dynamics est dans votre client</span><span class="sxs-lookup"><span data-stu-id="a7fca-107">Verify that the Microsoft Dynamics ERP Microservices first-party app ID is in your tenant</span></span>
+### <a name="verify-that-the-microsoft-dynamics-erp-microservices-first-party-app-id-is-in-your-tenant"></a><span data-ttu-id="96658-107">Vérifiez que l’ID d’application pour l’application propriétaire Microservices ERP Microsoft Dynamics est dans votre client</span><span class="sxs-lookup"><span data-stu-id="96658-107">Verify that the Microsoft Dynamics ERP Microservices first-party app ID is in your tenant</span></span>
 
-<span data-ttu-id="a7fca-108">Pour vérifier que l’ID d’application pour l’application propriétaire Microservices ERP Microsoft Dynamics est dans votre client, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="a7fca-108">To verify that the app ID for the Microsoft Dynamics ERP Microservices first-party app is in your tenant, follow these steps.</span></span>
+<span data-ttu-id="96658-108">Pour vérifier que l’ID d’application pour l’application propriétaire Microservices ERP Microsoft Dynamics est dans votre client, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="96658-108">To verify that the app ID for the Microsoft Dynamics ERP Microservices first-party app is in your tenant, follow these steps.</span></span>
 
-1. <span data-ttu-id="a7fca-109">Connectez-vous au portail Azure à l’adresse suivante : <https://portal.azure.com>.</span><span class="sxs-lookup"><span data-stu-id="a7fca-109">Sign in to the Azure portal at <https://portal.azure.com>.</span></span>
-2. <span data-ttu-id="a7fca-110">Atteindre **Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-110">Go to **Azure Active Directory**.</span></span>
-3. <span data-ttu-id="a7fca-111">Accédez à **Applications d’entreprise**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-111">Go to **Enterprise applications**.</span></span>
-4. <span data-ttu-id="a7fca-112">Dans le champ **Type d’application**, sélectionnez **Applications Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-112">In the **Application type** field, select **Microsoft applications**.</span></span>
-5. <span data-ttu-id="a7fca-113">Dans le champ de recherche, entrez **Microservices ERP Microsoft Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-113">In the search field, enter **Microsoft Dynamics ERP Microservices**.</span></span>
-6. <span data-ttu-id="a7fca-114">Vérifiez que **Microservices ERP Microsoft Dynamics** est bien dans la liste.</span><span class="sxs-lookup"><span data-stu-id="a7fca-114">Verify that **Microsoft Dynamics ERP Microservices** is in the list.</span></span> <span data-ttu-id="a7fca-115">D’autres applications ont des noms similaires.</span><span class="sxs-lookup"><span data-stu-id="a7fca-115">Other applications have similar names.</span></span> <span data-ttu-id="a7fca-116">Par conséquent, veillez à disposer de l’application correcte.</span><span class="sxs-lookup"><span data-stu-id="a7fca-116">Therefore, make sure that you find the correct application.</span></span> <span data-ttu-id="a7fca-117">L’ID de l’application est **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-117">The app ID is **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span></span>
+1. <span data-ttu-id="96658-109">Connectez-vous au portail Azure à l’adresse suivante : <https://portal.azure.com>.</span><span class="sxs-lookup"><span data-stu-id="96658-109">Sign in to the Azure portal at <https://portal.azure.com>.</span></span>
+2. <span data-ttu-id="96658-110">Atteindre **Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="96658-110">Go to **Azure Active Directory**.</span></span>
+3. <span data-ttu-id="96658-111">Accédez à **Applications d’entreprise**.</span><span class="sxs-lookup"><span data-stu-id="96658-111">Go to **Enterprise applications**.</span></span>
+4. <span data-ttu-id="96658-112">Dans le champ **Type d’application**, sélectionnez **Applications Microsoft**.</span><span class="sxs-lookup"><span data-stu-id="96658-112">In the **Application type** field, select **Microsoft applications**.</span></span>
+5. <span data-ttu-id="96658-113">Dans le champ de recherche, entrez **Microservices ERP Microsoft Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="96658-113">In the search field, enter **Microsoft Dynamics ERP Microservices**.</span></span>
+6. <span data-ttu-id="96658-114">Vérifiez que **Microservices ERP Microsoft Dynamics** est bien dans la liste.</span><span class="sxs-lookup"><span data-stu-id="96658-114">Verify that **Microsoft Dynamics ERP Microservices** is in the list.</span></span> <span data-ttu-id="96658-115">D’autres applications ont des noms similaires.</span><span class="sxs-lookup"><span data-stu-id="96658-115">Other applications have similar names.</span></span> <span data-ttu-id="96658-116">Par conséquent, veillez à disposer de l’application correcte.</span><span class="sxs-lookup"><span data-stu-id="96658-116">Therefore, make sure that you find the correct application.</span></span> <span data-ttu-id="96658-117">L’ID de l’application est **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span><span class="sxs-lookup"><span data-stu-id="96658-117">The app ID is **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span></span>
 
-    <span data-ttu-id="a7fca-118">Si l’application ne figure pas dans la liste, vous devez l’ajouter à votre client :</span><span class="sxs-lookup"><span data-stu-id="a7fca-118">If the application isn't in the list, you must add it to your tenant:</span></span>
+    <span data-ttu-id="96658-118">Si l’application ne figure pas dans la liste, vous devez l’ajouter à votre client :</span><span class="sxs-lookup"><span data-stu-id="96658-118">If the application isn't in the list, you must add it to your tenant:</span></span>
 
-    1. <span data-ttu-id="a7fca-119">Dans le portail Azure, dans la barre d’outils, sélectionnez le bouton pour ouvrir Azure Cloud Shell.</span><span class="sxs-lookup"><span data-stu-id="a7fca-119">In the Azure portal, on the toolbar, select the button to open Azure Cloud Shell.</span></span>
-    2. <span data-ttu-id="a7fca-120">Exécutez la commande **Module d’installation AzureAD**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-120">Run the command **Install-Module AzureAD**.</span></span> <span data-ttu-id="a7fca-121">Entrer **O** pour installer le module.</span><span class="sxs-lookup"><span data-stu-id="a7fca-121">Enter **Y** to install the module.</span></span>
-    3. <span data-ttu-id="a7fca-122">Exécutez la commande **Get-InstalledModule -Name "AzureAD"** pour vérifier que le module est installé.</span><span class="sxs-lookup"><span data-stu-id="a7fca-122">Run the command **Get-InstalledModule -Name "AzureAD"** to verify that the module is installed.</span></span>
-    4. <span data-ttu-id="a7fca-123">Exécutez la commande **Connect-AzureAD -Confirm** pour exécuter l’authentification.</span><span class="sxs-lookup"><span data-stu-id="a7fca-123">Run the command **Connect-AzureAD -Confirm** to run the authentication.</span></span>
-    5. <span data-ttu-id="a7fca-124">Exécutez la commande **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-124">Run the command **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span></span>
+    1. <span data-ttu-id="96658-119">Dans le portail Azure, dans la barre d’outils, sélectionnez le bouton pour ouvrir Azure Cloud Shell.</span><span class="sxs-lookup"><span data-stu-id="96658-119">In the Azure portal, on the toolbar, select the button to open Azure Cloud Shell.</span></span>
+    2. <span data-ttu-id="96658-120">Exécutez la commande **Module d’installation AzureAD**.</span><span class="sxs-lookup"><span data-stu-id="96658-120">Run the command **Install-Module AzureAD**.</span></span> <span data-ttu-id="96658-121">Entrer **O** pour installer le module.</span><span class="sxs-lookup"><span data-stu-id="96658-121">Enter **Y** to install the module.</span></span>
+    3. <span data-ttu-id="96658-122">Exécutez la commande **Get-InstalledModule -Name "AzureAD"** pour vérifier que le module est installé.</span><span class="sxs-lookup"><span data-stu-id="96658-122">Run the command **Get-InstalledModule -Name "AzureAD"** to verify that the module is installed.</span></span>
+    4. <span data-ttu-id="96658-123">Exécutez la commande **Connect-AzureAD -Confirm** pour exécuter l’authentification.</span><span class="sxs-lookup"><span data-stu-id="96658-123">Run the command **Connect-AzureAD -Confirm** to run the authentication.</span></span>
+    5. <span data-ttu-id="96658-124">Exécutez la commande **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span><span class="sxs-lookup"><span data-stu-id="96658-124">Run the command **New-AzureADServicePrincipal -AppId 0cdb527f-a8d1-4bf8-9436-b352c68682b2**.</span></span>
 
-    <span data-ttu-id="a7fca-125">Vous pouvez maintenant répéter les étapes 1 à 6 pour vérifier que l’ID d’application se trouve dans votre client.</span><span class="sxs-lookup"><span data-stu-id="a7fca-125">You can now repeat steps 1 through 6 to verify that the app ID is in your tenant.</span></span>
+    <span data-ttu-id="96658-125">Vous pouvez maintenant répéter les étapes 1 à 6 pour vérifier que l’ID d’application se trouve dans votre client.</span><span class="sxs-lookup"><span data-stu-id="96658-125">You can now repeat steps 1 through 6 to verify that the app ID is in your tenant.</span></span>
 
-### <a name="create-a-key-vault-resource"></a><span data-ttu-id="a7fca-126">Créer une ressource de coffre de clés</span><span class="sxs-lookup"><span data-stu-id="a7fca-126">Create a key vault resource</span></span>
+### <a name="create-a-key-vault-resource"></a><span data-ttu-id="96658-126">Créer une ressource de coffre de clés</span><span class="sxs-lookup"><span data-stu-id="96658-126">Create a key vault resource</span></span>
 
-<span data-ttu-id="a7fca-127">Pour créer une ressource de coffre de clés, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="a7fca-127">To create a key vault resource, follow these steps.</span></span>
+<span data-ttu-id="96658-127">Pour créer une ressource de coffre de clés, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="96658-127">To create a key vault resource, follow these steps.</span></span>
 
-1. <span data-ttu-id="a7fca-128">Dans le portail Azure, créez ou accédez à un groupe de ressources.</span><span class="sxs-lookup"><span data-stu-id="a7fca-128">In the Azure portal, create or go to a resource group.</span></span>
-2. <span data-ttu-id="a7fca-129">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-129">Select **Add**.</span></span>
-3. <span data-ttu-id="a7fca-130">Sur la page **Nouveau**, entrez **Coffre de clés** dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="a7fca-130">On the **New** page, in the search field, enter **Key vault**.</span></span> <span data-ttu-id="a7fca-131">Ensuite, sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-131">Then select **Create**.</span></span>
-4. <span data-ttu-id="a7fca-132">Sur la page **Créer un coffre de clés**, entrez un nom dans le champ **Nom du coffre de clés**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-132">On the **Create key vault** page, in the **Key vault name** field, enter a name.</span></span>
-5. <span data-ttu-id="a7fca-133">Vérifiez les valeurs par défaut, puis sélectionnez **Vérifier + créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-133">Review the default values, and then select **Review + create**.</span></span>
-6. <span data-ttu-id="a7fca-134">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-134">Select **Create**.</span></span>
+1. <span data-ttu-id="96658-128">Dans le portail Azure, créez ou accédez à un groupe de ressources.</span><span class="sxs-lookup"><span data-stu-id="96658-128">In the Azure portal, create or go to a resource group.</span></span>
+2. <span data-ttu-id="96658-129">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="96658-129">Select **Add**.</span></span>
+3. <span data-ttu-id="96658-130">Sur la page **Nouveau**, entrez **Coffre de clés** dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="96658-130">On the **New** page, in the search field, enter **Key vault**.</span></span> <span data-ttu-id="96658-131">Ensuite, sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-131">Then select **Create**.</span></span>
+4. <span data-ttu-id="96658-132">Sur la page **Créer un coffre de clés**, entrez un nom dans le champ **Nom du coffre de clés**.</span><span class="sxs-lookup"><span data-stu-id="96658-132">On the **Create key vault** page, in the **Key vault name** field, enter a name.</span></span>
+5. <span data-ttu-id="96658-133">Vérifiez les valeurs par défaut, puis sélectionnez **Vérifier + créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-133">Review the default values, and then select **Review + create**.</span></span>
+6. <span data-ttu-id="96658-134">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-134">Select **Create**.</span></span>
 
-<span data-ttu-id="a7fca-135">Le coffre de clés est créé en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="a7fca-135">The key vault is created in the background.</span></span>
+<span data-ttu-id="96658-135">Le coffre de clés est créé en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="96658-135">The key vault is created in the background.</span></span>
 
-### <a name="create-an-iot-hub-resource"></a><span data-ttu-id="a7fca-136">Créer une ressource hub IoT</span><span class="sxs-lookup"><span data-stu-id="a7fca-136">Create an IoT hub resource</span></span>
+### <a name="create-an-iot-hub-resource"></a><span data-ttu-id="96658-136">Créer une ressource hub IoT</span><span class="sxs-lookup"><span data-stu-id="96658-136">Create an IoT hub resource</span></span>
 
-<span data-ttu-id="a7fca-137">Pour créer une ressource hub IoT, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="a7fca-137">To create an IoT hub resource, follow these steps.</span></span>
+<span data-ttu-id="96658-137">Pour créer une ressource hub IoT, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="96658-137">To create an IoT hub resource, follow these steps.</span></span>
 
-1. <span data-ttu-id="a7fca-138">Créez ou accédez à un groupe de ressources.</span><span class="sxs-lookup"><span data-stu-id="a7fca-138">Create or go to a resource group.</span></span>
-2. <span data-ttu-id="a7fca-139">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-139">Select **Add**.</span></span>
-3. <span data-ttu-id="a7fca-140">Sur la page **Nouveau**, entrez **Hub IoT** dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="a7fca-140">On the **New** page, in the search field, enter **Iot Hub**.</span></span> <span data-ttu-id="a7fca-141">Ensuite, sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-141">Then select **Create**.</span></span>
-4. <span data-ttu-id="a7fca-142">Entrez un nom dans le champ **Nom du hub IoT**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-142">In the **IoT hub name** field, enter a name.</span></span>
-5. <span data-ttu-id="a7fca-143">Vérifiez les valeurs par défaut, puis sélectionnez **Vérifier + créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-143">Review the default values, and then select **Review + create**.</span></span>
-6. <span data-ttu-id="a7fca-144">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-144">Select **Create**.</span></span>
+1. <span data-ttu-id="96658-138">Créez ou accédez à un groupe de ressources.</span><span class="sxs-lookup"><span data-stu-id="96658-138">Create or go to a resource group.</span></span>
+2. <span data-ttu-id="96658-139">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="96658-139">Select **Add**.</span></span>
+3. <span data-ttu-id="96658-140">Sur la page **Nouveau**, entrez **Hub IoT** dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="96658-140">On the **New** page, in the search field, enter **Iot Hub**.</span></span> <span data-ttu-id="96658-141">Ensuite, sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-141">Then select **Create**.</span></span>
+4. <span data-ttu-id="96658-142">Entrez un nom dans le champ **Nom du hub IoT**.</span><span class="sxs-lookup"><span data-stu-id="96658-142">In the **IoT hub name** field, enter a name.</span></span>
+5. <span data-ttu-id="96658-143">Vérifiez les valeurs par défaut, puis sélectionnez **Vérifier + créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-143">Review the default values, and then select **Review + create**.</span></span>
+6. <span data-ttu-id="96658-144">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-144">Select **Create**.</span></span>
 
-<span data-ttu-id="a7fca-145">Le hub IoT est créé en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="a7fca-145">The IoT hub is created in the background.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="a7fca-146">Nous vous recommandons de créer une seule ressource hub IoT par environnement.</span><span class="sxs-lookup"><span data-stu-id="a7fca-146">We recommend that you create only one IoT hub resource per environment.</span></span>
-
-### <a name="create-a-redis-cache-resource"></a><span data-ttu-id="a7fca-147">Créer une ressource de cache Redis</span><span class="sxs-lookup"><span data-stu-id="a7fca-147">Create a Redis cache resource</span></span>
-
-<span data-ttu-id="a7fca-148">Pour créer une ressource de cache Redis, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="a7fca-148">To create a Redis cache resource, follow these steps.</span></span>
-
-1. <span data-ttu-id="a7fca-149">Créez ou accédez à un groupe de ressources.</span><span class="sxs-lookup"><span data-stu-id="a7fca-149">Create or go to a resource group.</span></span>
-2. <span data-ttu-id="a7fca-150">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-150">Select **Add**.</span></span>
-3. <span data-ttu-id="a7fca-151">Sur la page **Nouveau**, entrez **Cache Azure pour Redis** dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="a7fca-151">On the **New** page, in the search field, enter **Azure Cache for Redis**.</span></span> <span data-ttu-id="a7fca-152">Ensuite, sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-152">Then select **Create**.</span></span>
-4. <span data-ttu-id="a7fca-153">Entrez un nom dans le champ **Nom DNS**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-153">In the **DNS name** field, enter a name.</span></span>
-5. <span data-ttu-id="a7fca-154">Vérifiez les valeurs par défaut, puis sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-154">Review the default values, and then select **Create**.</span></span>
-
-<span data-ttu-id="a7fca-155">Le cache Redis est créé en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="a7fca-155">The Redis cache is created in the background.</span></span>
+<span data-ttu-id="96658-145">Le hub IoT est créé en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="96658-145">The IoT hub is created in the background.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a7fca-156">Nous vous recommandons de créer un seul cache Redis par environnement.</span><span class="sxs-lookup"><span data-stu-id="a7fca-156">We recommend that you create only one Redis cache per environment.</span></span>
+> <span data-ttu-id="96658-146">Nous vous recommandons de créer une seule ressource hub IoT par environnement.</span><span class="sxs-lookup"><span data-stu-id="96658-146">We recommend that you create only one IoT hub resource per environment.</span></span>
 
-<span data-ttu-id="a7fca-157">Toutes les ressources sont maintenant créées.</span><span class="sxs-lookup"><span data-stu-id="a7fca-157">All the resources have now been created.</span></span>
+### <a name="create-a-redis-cache-resource"></a><span data-ttu-id="96658-147">Créer une ressource de cache Redis</span><span class="sxs-lookup"><span data-stu-id="96658-147">Create a Redis cache resource</span></span>
 
-## <a name="configure-the-azure-resources"></a><span data-ttu-id="a7fca-158">Configurer les ressources Azure</span><span class="sxs-lookup"><span data-stu-id="a7fca-158">Configure the Azure resources</span></span>
+<span data-ttu-id="96658-148">Pour créer une ressource de cache Redis, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="96658-148">To create a Redis cache resource, follow these steps.</span></span>
 
-### <a name="configure-the-iot-hub"></a><span data-ttu-id="a7fca-159">Configurer le hub IoT</span><span class="sxs-lookup"><span data-stu-id="a7fca-159">Configure the IoT hub</span></span>
+1. <span data-ttu-id="96658-149">Créez ou accédez à un groupe de ressources.</span><span class="sxs-lookup"><span data-stu-id="96658-149">Create or go to a resource group.</span></span>
+2. <span data-ttu-id="96658-150">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="96658-150">Select **Add**.</span></span>
+3. <span data-ttu-id="96658-151">Sur la page **Nouveau**, entrez **Cache Azure pour Redis** dans le champ de recherche.</span><span class="sxs-lookup"><span data-stu-id="96658-151">On the **New** page, in the search field, enter **Azure Cache for Redis**.</span></span> <span data-ttu-id="96658-152">Ensuite, sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-152">Then select **Create**.</span></span>
+4. <span data-ttu-id="96658-153">Entrez un nom dans le champ **Nom DNS**.</span><span class="sxs-lookup"><span data-stu-id="96658-153">In the **DNS name** field, enter a name.</span></span>
+5. <span data-ttu-id="96658-154">Vérifiez les valeurs par défaut, puis sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-154">Review the default values, and then select **Create**.</span></span>
 
-<span data-ttu-id="a7fca-160">Procédez comme suit pour configurer le hub IoT.</span><span class="sxs-lookup"><span data-stu-id="a7fca-160">To configure the IoT hub, follow these steps.</span></span>
-
-1. <span data-ttu-id="a7fca-161">Dans vos ressources, sélectionnez la ressource hub IoT.</span><span class="sxs-lookup"><span data-stu-id="a7fca-161">In your resources, select the IoT hub resource.</span></span>
-2. <span data-ttu-id="a7fca-162">Dans le volet de navigation de gauche, sélectionnez **Points de terminaison intégrés**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-162">In the left navigation pane, select **Built-in endpoints**.</span></span>
-3. <span data-ttu-id="a7fca-163">Collez les groupes de consommateurs suivants sous **Groupes de consommateurs**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-163">Under **Consumer groups**, paste the following consumer groups.</span></span> <span data-ttu-id="a7fca-164">Ces groupes de consommateurs correspondent aux scénarios prêts à l’emploi.</span><span class="sxs-lookup"><span data-stu-id="a7fca-164">These consumer groups correspond to the out-of-box scenarios.</span></span>
-
-    + <span data-ttu-id="a7fca-165">microsoft.dynamics.iotintelligence-1</span><span class="sxs-lookup"><span data-stu-id="a7fca-165">microsoft.dynamics.iotintelligence-1</span></span>
-    + <span data-ttu-id="a7fca-166">microsoft.dynamics.iotintelligence-2</span><span class="sxs-lookup"><span data-stu-id="a7fca-166">microsoft.dynamics.iotintelligence-2</span></span>
-    + <span data-ttu-id="a7fca-167">microsoft.dynamics.iotintelligence-3</span><span class="sxs-lookup"><span data-stu-id="a7fca-167">microsoft.dynamics.iotintelligence-3</span></span>
-
-### <a name="configure-the-key-vault"></a><span data-ttu-id="a7fca-168">Configurer le coffre de clés</span><span class="sxs-lookup"><span data-stu-id="a7fca-168">Configure the key vault</span></span>
-
-<span data-ttu-id="a7fca-169">Procédez comme suit pour configurer le coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="a7fca-169">To configure the key vault, follow these steps.</span></span>
-
-1. <span data-ttu-id="a7fca-170">Sélectionnez la ressource de coffre de clés parmi vos ressources.</span><span class="sxs-lookup"><span data-stu-id="a7fca-170">In your resources, select the key vault resource.</span></span>
-2. <span data-ttu-id="a7fca-171">Sélectionnez **Stratégies d’accès** dans le volet de navigation de gauche.</span><span class="sxs-lookup"><span data-stu-id="a7fca-171">In the left navigation pane, select **Access policies**.</span></span>
-3. <span data-ttu-id="a7fca-172">Sélectionnez **Ajouter une stratégie d’accès**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-172">Select **Add an access policy**.</span></span>
-4. <span data-ttu-id="a7fca-173">Sur la page **Ajouter une stratégie d’accès**, dans le champ **Autorisations secrètes**, sélectionnez **Obtenir** et **Liste**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-173">On the **Add access policy** page, in the **Secret permissions** field, select **Get** and **List**.</span></span>
-5. <span data-ttu-id="a7fca-174">Cliquez dans le **Sélectionner le principal**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-174">Click in the **Select principal**.</span></span>
-6. <span data-ttu-id="a7fca-175">Dans la boîte de dialogue **Principal**, recherchez et sélectionnez **Microservices ERP Microsoft Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-175">In the **Principal** dialog box, search for and select **Microsoft Dynamics ERP Microservices**.</span></span> <span data-ttu-id="a7fca-176">Cliquez ensuite sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-176">Then select **Select**.</span></span>
-7. <span data-ttu-id="a7fca-177">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-177">Select **Add**.</span></span>
-8. <span data-ttu-id="a7fca-178">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-178">Select **Save**.</span></span>
-
-<span data-ttu-id="a7fca-179">L’application a désormais accès aux secrets du coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="a7fca-179">The app now has access to the secrets in the key vault.</span></span>
-
-### <a name="save-the-iot-hub-connection-string-secret"></a><span data-ttu-id="a7fca-180">Enregistrer le secret de la chaîne de connexion du hub IoT</span><span class="sxs-lookup"><span data-stu-id="a7fca-180">Save the IoT hub connection string secret</span></span>
-
-<span data-ttu-id="a7fca-181">Pour enregistrer le secret de la chaîne de connexion du hub IoT, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="a7fca-181">To save the secret for the IoT hub connection string, follow these steps.</span></span>
-
-1. <span data-ttu-id="a7fca-182">Dans vos ressources, sélectionnez la ressource hub IoT.</span><span class="sxs-lookup"><span data-stu-id="a7fca-182">In your resources, select the IoT hub resource.</span></span>
-2. <span data-ttu-id="a7fca-183">Dans le volet de navigation de gauche, sélectionnez **Points de terminaison intégrés**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-183">In the left navigation pane, select **Built-in endpoints**.</span></span>
-3. <span data-ttu-id="a7fca-184">Copiez la valeur dans le champ **Point de terminaison compatible avec Event Hub**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-184">Copy the value in the **Event Hub-compatible endpoint** field.</span></span>
-4. <span data-ttu-id="a7fca-185">Accédez à la ressource de coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="a7fca-185">Go to the key vault resource.</span></span>
-5. <span data-ttu-id="a7fca-186">Dans le volet de navigation de gauche, sélectionnez **Secrets**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-186">In the left navigation pane, select **Secrets**.</span></span>
-6. <span data-ttu-id="a7fca-187">Sélectionnez **Générer/Importer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-187">Select **Generate/Import**.</span></span>
-7. <span data-ttu-id="a7fca-188">Dans le champ **Nom**, entrez un nom.</span><span class="sxs-lookup"><span data-stu-id="a7fca-188">In the **Name** field, enter a name.</span></span>
-8. <span data-ttu-id="a7fca-189">Dans le champ **Valeur**, collez la valeur de point de terminaison que vous avez copiée précédemment.</span><span class="sxs-lookup"><span data-stu-id="a7fca-189">In the **Value** field, paste the endpoint value that you copied earlier.</span></span>
-9. <span data-ttu-id="a7fca-190">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-190">Select **Create**.</span></span>
-
-### <a name="save-the-redis-cache-connection-string-secret"></a><span data-ttu-id="a7fca-191">Enregistrer le secret de la chaîne de connexion du cache Redis</span><span class="sxs-lookup"><span data-stu-id="a7fca-191">Save the Redis cache connection string secret</span></span>
-
-<span data-ttu-id="a7fca-192">Pour enregistrer le secret de la chaîne de connexion du cache Redis, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="a7fca-192">To save the secret for the Redis cache connection string, follow these steps.</span></span>
-
-1. <span data-ttu-id="a7fca-193">Sélectionnez la ressource de cache Redis parmi vos ressources.</span><span class="sxs-lookup"><span data-stu-id="a7fca-193">In your resources, select the Redis cache resource.</span></span>
-2. <span data-ttu-id="a7fca-194">Sélectionnez **Clés d’accès**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-194">Select **Access keys**.</span></span>
-3. <span data-ttu-id="a7fca-195">Copiez la valeur dans le champ **Chaîne de connexion principale**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-195">Copy the value in the **Primary connection string** field.</span></span>
-4. <span data-ttu-id="a7fca-196">Accédez à la ressource de coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="a7fca-196">Go to the key vault resource.</span></span>
-5. <span data-ttu-id="a7fca-197">Dans le volet de navigation de gauche, sélectionnez **Secrets**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-197">In the left navigation pane, select **Secrets**.</span></span>
-6. <span data-ttu-id="a7fca-198">Sélectionnez **Générer/Importer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-198">Select **Generate/Import**.</span></span>
-7. <span data-ttu-id="a7fca-199">Dans le champ **Nom**, entrez un nom.</span><span class="sxs-lookup"><span data-stu-id="a7fca-199">In the **Name** field, enter a name.</span></span>
-8. <span data-ttu-id="a7fca-200">Dans le champ **Valeur**, collez la chaîne de connexion que vous avez copiée précédemment.</span><span class="sxs-lookup"><span data-stu-id="a7fca-200">In the **Value** field, paste the connection string that you copied earlier.</span></span>
-9. <span data-ttu-id="a7fca-201">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="a7fca-201">Select **Create**.</span></span>
+<span data-ttu-id="96658-155">Le cache Redis est créé en arrière-plan.</span><span class="sxs-lookup"><span data-stu-id="96658-155">The Redis cache is created in the background.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a7fca-202">Chaque fois que vous mettez à jour l’une des chaînes de connexion, vous devez également mettre à jour les valeurs secrètes.</span><span class="sxs-lookup"><span data-stu-id="a7fca-202">Whenever you update one of the connection strings, you must also update the secret values.</span></span>
+> <span data-ttu-id="96658-156">Nous vous recommandons de créer un seul cache Redis par environnement.</span><span class="sxs-lookup"><span data-stu-id="96658-156">We recommend that you create only one Redis cache per environment.</span></span>
 
-<span data-ttu-id="a7fca-203">Vous avez maintenant terminé de provisionner les ressources Azure requises.</span><span class="sxs-lookup"><span data-stu-id="a7fca-203">You've now finished provisioning the required Azure resources.</span></span> <span data-ttu-id="a7fca-204">La prochaine étape consiste à [installer le complément Intelligence IoT dans Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).</span><span class="sxs-lookup"><span data-stu-id="a7fca-204">The next step is to [install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).</span></span>
+<span data-ttu-id="96658-157">Toutes les ressources sont maintenant créées.</span><span class="sxs-lookup"><span data-stu-id="96658-157">All the resources have now been created.</span></span>
+
+## <a name="configure-the-azure-resources"></a><span data-ttu-id="96658-158">Configurer les ressources Azure</span><span class="sxs-lookup"><span data-stu-id="96658-158">Configure the Azure resources</span></span>
+
+### <a name="configure-the-iot-hub"></a><span data-ttu-id="96658-159">Configurer le hub IoT</span><span class="sxs-lookup"><span data-stu-id="96658-159">Configure the IoT hub</span></span>
+
+<span data-ttu-id="96658-160">Procédez comme suit pour configurer le hub IoT.</span><span class="sxs-lookup"><span data-stu-id="96658-160">To configure the IoT hub, follow these steps.</span></span>
+
+1. <span data-ttu-id="96658-161">Dans vos ressources, sélectionnez la ressource hub IoT.</span><span class="sxs-lookup"><span data-stu-id="96658-161">In your resources, select the IoT hub resource.</span></span>
+2. <span data-ttu-id="96658-162">Dans le volet de navigation de gauche, sélectionnez **Points de terminaison intégrés**.</span><span class="sxs-lookup"><span data-stu-id="96658-162">In the left navigation pane, select **Built-in endpoints**.</span></span>
+3. <span data-ttu-id="96658-163">Collez les groupes de consommateurs suivants sous **Groupes de consommateurs**.</span><span class="sxs-lookup"><span data-stu-id="96658-163">Under **Consumer groups**, paste the following consumer groups.</span></span> <span data-ttu-id="96658-164">Ces groupes de consommateurs correspondent aux scénarios prêts à l’emploi.</span><span class="sxs-lookup"><span data-stu-id="96658-164">These consumer groups correspond to the out-of-box scenarios.</span></span>
+
+    + <span data-ttu-id="96658-165">microsoft.dynamics.iotintelligence-1</span><span class="sxs-lookup"><span data-stu-id="96658-165">microsoft.dynamics.iotintelligence-1</span></span>
+    + <span data-ttu-id="96658-166">microsoft.dynamics.iotintelligence-2</span><span class="sxs-lookup"><span data-stu-id="96658-166">microsoft.dynamics.iotintelligence-2</span></span>
+    + <span data-ttu-id="96658-167">microsoft.dynamics.iotintelligence-3</span><span class="sxs-lookup"><span data-stu-id="96658-167">microsoft.dynamics.iotintelligence-3</span></span>
+
+### <a name="configure-the-key-vault"></a><span data-ttu-id="96658-168">Configurer le coffre de clés</span><span class="sxs-lookup"><span data-stu-id="96658-168">Configure the key vault</span></span>
+
+<span data-ttu-id="96658-169">Procédez comme suit pour configurer le coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="96658-169">To configure the key vault, follow these steps.</span></span>
+
+1. <span data-ttu-id="96658-170">Sélectionnez la ressource de coffre de clés parmi vos ressources.</span><span class="sxs-lookup"><span data-stu-id="96658-170">In your resources, select the key vault resource.</span></span>
+2. <span data-ttu-id="96658-171">Sélectionnez **Stratégies d’accès** dans le volet de navigation de gauche.</span><span class="sxs-lookup"><span data-stu-id="96658-171">In the left navigation pane, select **Access policies**.</span></span>
+3. <span data-ttu-id="96658-172">Sélectionnez **Ajouter une stratégie d’accès**.</span><span class="sxs-lookup"><span data-stu-id="96658-172">Select **Add an access policy**.</span></span>
+4. <span data-ttu-id="96658-173">Sur la page **Ajouter une stratégie d’accès**, dans le champ **Autorisations secrètes**, sélectionnez **Obtenir** et **Liste**.</span><span class="sxs-lookup"><span data-stu-id="96658-173">On the **Add access policy** page, in the **Secret permissions** field, select **Get** and **List**.</span></span>
+5. <span data-ttu-id="96658-174">Cliquez dans le **Sélectionner le principal**.</span><span class="sxs-lookup"><span data-stu-id="96658-174">Click in the **Select principal**.</span></span>
+6. <span data-ttu-id="96658-175">Dans la boîte de dialogue **Principal**, recherchez et sélectionnez **Microservices ERP Microsoft Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="96658-175">In the **Principal** dialog box, search for and select **Microsoft Dynamics ERP Microservices**.</span></span> <span data-ttu-id="96658-176">Cliquez ensuite sur **Sélectionner**.</span><span class="sxs-lookup"><span data-stu-id="96658-176">Then select **Select**.</span></span>
+7. <span data-ttu-id="96658-177">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="96658-177">Select **Add**.</span></span>
+8. <span data-ttu-id="96658-178">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="96658-178">Select **Save**.</span></span>
+
+<span data-ttu-id="96658-179">L’application a désormais accès aux secrets du coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="96658-179">The app now has access to the secrets in the key vault.</span></span>
+
+### <a name="save-the-iot-hub-connection-string-secret"></a><span data-ttu-id="96658-180">Enregistrer le secret de la chaîne de connexion du hub IoT</span><span class="sxs-lookup"><span data-stu-id="96658-180">Save the IoT hub connection string secret</span></span>
+
+<span data-ttu-id="96658-181">Pour enregistrer le secret de la chaîne de connexion du hub IoT, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="96658-181">To save the secret for the IoT hub connection string, follow these steps.</span></span>
+
+1. <span data-ttu-id="96658-182">Dans vos ressources, sélectionnez la ressource hub IoT.</span><span class="sxs-lookup"><span data-stu-id="96658-182">In your resources, select the IoT hub resource.</span></span>
+2. <span data-ttu-id="96658-183">Dans le volet de navigation de gauche, sélectionnez **Points de terminaison intégrés**.</span><span class="sxs-lookup"><span data-stu-id="96658-183">In the left navigation pane, select **Built-in endpoints**.</span></span>
+3. <span data-ttu-id="96658-184">Copiez la valeur dans le champ **Point de terminaison compatible avec Event Hub**.</span><span class="sxs-lookup"><span data-stu-id="96658-184">Copy the value in the **Event Hub-compatible endpoint** field.</span></span>
+4. <span data-ttu-id="96658-185">Accédez à la ressource de coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="96658-185">Go to the key vault resource.</span></span>
+5. <span data-ttu-id="96658-186">Dans le volet de navigation de gauche, sélectionnez **Secrets**.</span><span class="sxs-lookup"><span data-stu-id="96658-186">In the left navigation pane, select **Secrets**.</span></span>
+6. <span data-ttu-id="96658-187">Sélectionnez **Générer/Importer**.</span><span class="sxs-lookup"><span data-stu-id="96658-187">Select **Generate/Import**.</span></span>
+7. <span data-ttu-id="96658-188">Dans le champ **Nom**, entrez un nom.</span><span class="sxs-lookup"><span data-stu-id="96658-188">In the **Name** field, enter a name.</span></span>
+8. <span data-ttu-id="96658-189">Dans le champ **Valeur**, collez la valeur de point de terminaison que vous avez copiée précédemment.</span><span class="sxs-lookup"><span data-stu-id="96658-189">In the **Value** field, paste the endpoint value that you copied earlier.</span></span>
+9. <span data-ttu-id="96658-190">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-190">Select **Create**.</span></span>
+
+### <a name="save-the-redis-cache-connection-string-secret"></a><span data-ttu-id="96658-191">Enregistrer le secret de la chaîne de connexion du cache Redis</span><span class="sxs-lookup"><span data-stu-id="96658-191">Save the Redis cache connection string secret</span></span>
+
+<span data-ttu-id="96658-192">Pour enregistrer le secret de la chaîne de connexion du cache Redis, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="96658-192">To save the secret for the Redis cache connection string, follow these steps.</span></span>
+
+1. <span data-ttu-id="96658-193">Sélectionnez la ressource de cache Redis parmi vos ressources.</span><span class="sxs-lookup"><span data-stu-id="96658-193">In your resources, select the Redis cache resource.</span></span>
+2. <span data-ttu-id="96658-194">Sélectionnez **Clés d’accès**.</span><span class="sxs-lookup"><span data-stu-id="96658-194">Select **Access keys**.</span></span>
+3. <span data-ttu-id="96658-195">Copiez la valeur dans le champ **Chaîne de connexion principale**.</span><span class="sxs-lookup"><span data-stu-id="96658-195">Copy the value in the **Primary connection string** field.</span></span>
+4. <span data-ttu-id="96658-196">Accédez à la ressource de coffre de clés.</span><span class="sxs-lookup"><span data-stu-id="96658-196">Go to the key vault resource.</span></span>
+5. <span data-ttu-id="96658-197">Dans le volet de navigation de gauche, sélectionnez **Secrets**.</span><span class="sxs-lookup"><span data-stu-id="96658-197">In the left navigation pane, select **Secrets**.</span></span>
+6. <span data-ttu-id="96658-198">Sélectionnez **Générer/Importer**.</span><span class="sxs-lookup"><span data-stu-id="96658-198">Select **Generate/Import**.</span></span>
+7. <span data-ttu-id="96658-199">Dans le champ **Nom**, entrez un nom.</span><span class="sxs-lookup"><span data-stu-id="96658-199">In the **Name** field, enter a name.</span></span>
+8. <span data-ttu-id="96658-200">Dans le champ **Valeur**, collez la chaîne de connexion que vous avez copiée précédemment.</span><span class="sxs-lookup"><span data-stu-id="96658-200">In the **Value** field, paste the connection string that you copied earlier.</span></span>
+9. <span data-ttu-id="96658-201">Sélectionnez **Créer**.</span><span class="sxs-lookup"><span data-stu-id="96658-201">Select **Create**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="96658-202">Chaque fois que vous mettez à jour l’une des chaînes de connexion, vous devez également mettre à jour les valeurs secrètes.</span><span class="sxs-lookup"><span data-stu-id="96658-202">Whenever you update one of the connection strings, you must also update the secret values.</span></span>
+
+<span data-ttu-id="96658-203">Vous avez maintenant terminé de provisionner les ressources Azure requises.</span><span class="sxs-lookup"><span data-stu-id="96658-203">You've now finished provisioning the required Azure resources.</span></span> <span data-ttu-id="96658-204">La prochaine étape consiste à [installer le complément Intelligence IoT dans Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).</span><span class="sxs-lookup"><span data-stu-id="96658-204">The next step is to [install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

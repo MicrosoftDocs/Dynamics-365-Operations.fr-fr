@@ -15,33 +15,36 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47b65b9799e90b357b39f93ecfa924d4527e1be3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b0c637d0ab346b592d80ee8debc10f28ae8286c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009070"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227875"
 ---
-# <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a><span data-ttu-id="ae3db-103">FR-00004 Approuver et valider la création des lettres de change client</span><span class="sxs-lookup"><span data-stu-id="ae3db-103">FR-00004 Approve and post draw bill of exchange</span></span>
+# <a name="fr-00004-approve-and-post-draw-bill-of-exchange"></a><span data-ttu-id="278af-103">FR-00004 Approuver et valider la création des lettres de change client</span><span class="sxs-lookup"><span data-stu-id="278af-103">FR-00004 Approve and post draw bill of exchange</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ae3db-104">Cette procédure vous guide dans l’approbation et la validation des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="ae3db-104">This procedure walks you through approval and posting Bill of Exchange.</span></span>
+<span data-ttu-id="278af-104">Cette procédure vous guide dans l’approbation et la validation des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="278af-104">This procedure walks you through approval and posting Bill of Exchange.</span></span>
 
-<span data-ttu-id="ae3db-105">Cette procédure a été créée à l’aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="ae3db-105">This procedure was created using the demo data company FRSI.</span></span> 
+<span data-ttu-id="278af-105">Cette procédure a été créée à l’aide des données fictives de la société FRSI.</span><span class="sxs-lookup"><span data-stu-id="278af-105">This procedure was created using the demo data company FRSI.</span></span> 
 
-<span data-ttu-id="ae3db-106">Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="ae3db-106">This functionality is available for legal entities whose primary address is in France.</span></span>
+<span data-ttu-id="278af-106">Cette fonctionnalité est disponible pour les entités juridiques dont l’adresse principale est en France.</span><span class="sxs-lookup"><span data-stu-id="278af-106">This functionality is available for legal entities whose primary address is in France.</span></span>
 
 
 
-1. <span data-ttu-id="ae3db-107">Accédez à Comptabilité client > Paiements > Lettre de change > Journal de création des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="ae3db-107">Go to Accounts receivable > Payments > Bill of exchange > Draw bill of exchange journal.</span></span>
-2. <span data-ttu-id="ae3db-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ae3db-108">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="ae3db-109">Sélectionnez le numéro de lot du journal le plus élevé.</span><span class="sxs-lookup"><span data-stu-id="ae3db-109">Select the highest journal batch number</span></span>  
-3. <span data-ttu-id="ae3db-110">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="ae3db-110">Click Lines.</span></span>
-4. <span data-ttu-id="ae3db-111">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ae3db-111">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="ae3db-112">Cliquez sur Statut de paiement.</span><span class="sxs-lookup"><span data-stu-id="ae3db-112">Click Payment status.</span></span>
-6. <span data-ttu-id="ae3db-113">Cliquez sur Approuvé.</span><span class="sxs-lookup"><span data-stu-id="ae3db-113">Click Approved.</span></span>
-7. <span data-ttu-id="ae3db-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ae3db-114">Click OK.</span></span>
-8. <span data-ttu-id="ae3db-115">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="ae3db-115">Click Post.</span></span>
-9. <span data-ttu-id="ae3db-116">Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="ae3db-116">Go to Accounts receivable > Inquiries and reports > Payments > Bill of exchange journal.</span></span>
+1. <span data-ttu-id="278af-107">Accédez à Comptabilité client > Paiements > Lettre de change > Journal de création des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="278af-107">Go to Accounts receivable > Payments > Bill of exchange > Draw bill of exchange journal.</span></span>
+2. <span data-ttu-id="278af-108">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="278af-108">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="278af-109">Sélectionnez le numéro de lot du journal le plus élevé.</span><span class="sxs-lookup"><span data-stu-id="278af-109">Select the highest journal batch number</span></span>  
+3. <span data-ttu-id="278af-110">Cliquez sur Lignes.</span><span class="sxs-lookup"><span data-stu-id="278af-110">Click Lines.</span></span>
+4. <span data-ttu-id="278af-111">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="278af-111">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="278af-112">Cliquez sur Statut de paiement.</span><span class="sxs-lookup"><span data-stu-id="278af-112">Click Payment status.</span></span>
+6. <span data-ttu-id="278af-113">Cliquez sur Approuvé.</span><span class="sxs-lookup"><span data-stu-id="278af-113">Click Approved.</span></span>
+7. <span data-ttu-id="278af-114">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="278af-114">Click OK.</span></span>
+8. <span data-ttu-id="278af-115">Cliquez sur Valider.</span><span class="sxs-lookup"><span data-stu-id="278af-115">Click Post.</span></span>
+9. <span data-ttu-id="278af-116">Accédez à Comptabilité client > Recherches et états > Paiements > Journal des lettres de change.</span><span class="sxs-lookup"><span data-stu-id="278af-116">Go to Accounts receivable > Inquiries and reports > Payments > Bill of exchange journal.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
