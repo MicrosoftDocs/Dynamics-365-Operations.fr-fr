@@ -1,6 +1,6 @@
 ---
 title: Lancement par lots des ordres de transfert partiellement réservés
-description: Cette rubrique explique comment configurer et appliquer le lancement par lots des ordres de transfert partiellement réservés à partir d'un appareil mobile.
+description: Cette rubrique explique comment configurer et appliquer le lancement par lots des ordres de transfert partiellement réservés à partir d’un appareil mobile.
 author: pjacobse
 manager: tfehr
 ms.date: 05/26/2017
@@ -16,53 +16,53 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 173e003fbddb0b021f87a8e28a553f4578b16e9b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b13e3525049c893a7193b549f5b4ba63b8841b87
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233269"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Lancement par lots des ordres de transfert partiellement réservés
 
 [!include [banner](../includes/banner.md)]
 
-La fonctionnalité de lancement par lots des ordres de transfert partiellement réservés permet de lancer partiellement des ordres de transfert à l'attention à un entrepôt à l'aide d'un traitement par lots.
-Comme vous avez la possibilité de lancer une quantité partielle, vous ne devez pas attendre que la quantité de la commande entière soit disponible dans l'entrepôt avant de lancer un ordre.
+La fonctionnalité de lancement par lots des ordres de transfert partiellement réservés permet de lancer partiellement des ordres de transfert à l’attention à un entrepôt à l’aide d’un traitement par lots.
+Comme vous avez la possibilité de lancer une quantité partielle, vous ne devez pas attendre que la quantité de la commande entière soit disponible dans l’entrepôt avant de lancer un ordre.
 
-Le lancement des commandes à un entrepôt est un processus de gestion des entrepôts avancé. Ce processus implique des activités, comme le prélèvement, l'emballage et l'expédition, auxquelles un employé d'entrepôt peut procéder à l'aide d'un périphérique mobile.
+Le lancement des commandes à un entrepôt est un processus de gestion des entrepôts avancé. Ce processus implique des activités, comme le prélèvement, l’emballage et l’expédition, auxquelles un employé d’entrepôt peut procéder à l’aide d’un périphérique mobile.
 
 ## <a name="where-it-applies"></a>Dans ce cas
 
-Pour cette fonctionnalité, les ordres de transfert sont lancés à un entrepôt à l'aide d'un traitement par lots. Cette fonctionnalité est utile si vous n'avez pas suffisamment de stock dans l'entrepôt, mais que vous souhaitez toujours transférer des articles d'un entrepôt à un autre.
+Pour cette fonctionnalité, les ordres de transfert sont lancés à un entrepôt à l’aide d’un traitement par lots. Cette fonctionnalité est utile si vous n’avez pas suffisamment de stock dans l’entrepôt, mais que vous souhaitez toujours transférer des articles d’un entrepôt à un autre.
 
 ## <a name="how-it-is-set-up"></a>Comment elle est paramétrée
 
-### <a name="specify-fulfillment-criteria-for-transfer-orders-and-sales-orders"></a>Spécifier les critères d'exécution pour les ordres de transfert et les commandes client
+### <a name="specify-fulfillment-criteria-for-transfer-orders-and-sales-orders"></a>Spécifier les critères d’exécution pour les ordres de transfert et les commandes client
 
-Avant qu'un ordre puisse être partiellement lancé à un entrepôt dans un lot, les critères d'exécution doivent être remplis. Ces critères d'exécution sont déterminés par la stratégie d'exécution.
+Avant qu’un ordre puisse être partiellement lancé à un entrepôt dans un lot, les critères d’exécution doivent être remplis. Ces critères d’exécution sont déterminés par la stratégie d’exécution.
 
-Les stratégies d'exécution pour les ordres de transfert et les commandes client sont spécifiées pour la société. En fonction du paramétrage de la stratégie d'exécution, le lancement des commandes dans un lot est accepté ou rejeté. Les commandes sont ensuite traitées en conséquence.
+Les stratégies d’exécution pour les ordres de transfert et les commandes client sont spécifiées pour la société. En fonction du paramétrage de la stratégie d’exécution, le lancement des commandes dans un lot est accepté ou rejeté. Les commandes sont ensuite traitées en conséquence.
 
--   Pour créer des stratégies d'exécution pour les ordres de transfert et les commandes client, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Libérer dans l'entrepôt** \> **Stratégie d'exécution**, puis créez une stratégie d'exécution de commande en entrant un nom et une description.
+-   Pour créer des stratégies d’exécution pour les ordres de transfert et les commandes client, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Libérer dans l’entrepôt** \> **Stratégie d’exécution**, puis créez une stratégie d’exécution de commande en entrant un nom et une description.
 
--   Pour spécifier un taux d'exécution, un type de valeur et le message qui s'affichent si la stratégie d'exécution n'est pas respectée, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Libérer dans l'entrepôt** \> **Stratégie d'exécution**, puis définissez les champs **Taux d'exécution**, **Type de valeur** et **Message de violation d'exécution**.
+-   Pour spécifier un taux d’exécution, un type de valeur et le message qui s’affichent si la stratégie d’exécution n’est pas respectée, cliquez sur **Gestion des entrepôts** \> **Paramétrage** \> **Libérer dans l’entrepôt** \> **Stratégie d’exécution**, puis définissez les champs **Taux d’exécution**, **Type de valeur** et **Message de violation d’exécution**.
 
-### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Définir les stratégies d'exécution pour les ordres de transfert et les commandes client
+### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Définir les stratégies d’exécution pour les ordres de transfert et les commandes client
 
--   Pour définir les stratégies d'exécution pour les ordres de transfert, cliquez sur **Gestion des stocks** \> **Paramétrage** \> **Paramètres de gestion des stocks et des entrepôts** \> **Ordres de transfert** \> **Gestion des entrepôts**, puis sélectionnez une stratégie d'exécution d'ordre de transfert.
+-   Pour définir les stratégies d’exécution pour les ordres de transfert, cliquez sur **Gestion des stocks** \> **Paramétrage** \> **Paramètres de gestion des stocks et des entrepôts** \> **Ordres de transfert** \> **Gestion des entrepôts**, puis sélectionnez une stratégie d’exécution d’ordre de transfert.
 
--   Pour définir les stratégies d'exécution de commande pour les commandes client, cliquez sur **Ventes** \> **Paramétrage** \> **Paramètres des ventes** \> **Gestion des entrepôts**, puis sélectionnez une stratégie d'exécution de commande client.
+-   Pour définir les stratégies d’exécution de commande pour les commandes client, cliquez sur **Ventes** \> **Paramétrage** \> **Paramètres des ventes** \> **Gestion des entrepôts**, puis sélectionnez une stratégie d’exécution de commande client.
 
 ## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-release-in-a-batch"></a>Autoriser le lancement dans un lot et spécifier la quantité qui doit être lancée dans un lot
 
 Un traitement par lots est utilisé pour lancer des ordres à un entrepôt dans un lot. Les paramètres qui distinguent les ordres qui doivent être exécutés dans un traitement par lots sont définis dans le traitement par lots lui-même.
 
-Le paramètre **Quantité** spécifie si toute la quantité ou la quantité physiquement réservée doit être lancée dans le lot. Le paramètre **Autoriser la libération des commandes partiellement libérées** détermine si les ordres du lot doivent être acceptés ou rejetés s'ils ont été partiellement lancés précédemment.
+Le paramètre **Quantité** spécifie si toute la quantité ou la quantité physiquement réservée doit être lancée dans le lot. Le paramètre **Autoriser la libération des commandes partiellement libérées** détermine si les ordres du lot doivent être acceptés ou rejetés s’ils ont été partiellement lancés précédemment.
 
--   Pour définir les paramètres **Quantité** et **Autoriser la libération des commandes partiellement libérées** pour les ordres de transfert, cliquez sur **Gestion des entrepôts** \> **Libérer dans l'entrepôt** \> **Lancement automatique des ordres de transfert**.
+-   Pour définir les paramètres **Quantité** et **Autoriser la libération des commandes partiellement libérées** pour les ordres de transfert, cliquez sur **Gestion des entrepôts** \> **Libérer dans l’entrepôt** \> **Lancement automatique des ordres de transfert**.
 
--   Pour définir les paramètres **Quantité** et **Autoriser la libération des commandes partiellement libérées** pour les commandes client, cliquez sur **Gestion des entrepôts** \> **Libérer dans l'entrepôt** \> **Lancement automatique de commandes client**.
+-   Pour définir les paramètres **Quantité** et **Autoriser la libération des commandes partiellement libérées** pour les commandes client, cliquez sur **Gestion des entrepôts** \> **Libérer dans l’entrepôt** \> **Lancement automatique de commandes client**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

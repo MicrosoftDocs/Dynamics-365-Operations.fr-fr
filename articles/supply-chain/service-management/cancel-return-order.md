@@ -1,5 +1,5 @@
 ---
-title: Annulation d'un ordre de retour
+title: Annulation d’un ordre de retour
 description: Vous pouvez annuler un ordre de retour, plutôt que de le supprimer, lorsque vous souhaitez sauvegarder un enregistrement de retour planifié.
 author: ShylaThompson
 manager: tfehr
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55f6a8a2d42826cc80f0db3251d804655d1566ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 796ae8b396eaf1f078ee7ede9f477a401c20f494
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232084"
 ---
-# <a name="cancel-a-return-order"></a>Annulation d'un ordre de retour 
+# <a name="cancel-a-return-order"></a>Annulation d’un ordre de retour 
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Vous pouvez annuler un ordre de retour, plutôt que de le supprimer, lorsque vou
     
     Cliquez sur **Ventes et marketing** \> **Commun** \> **Ordres de retour** \> **Ordres de retour créés**.
 
-2.  Sélectionnez l'ordre de retour à annuler.
+2.  Sélectionnez l’ordre de retour à annuler.
 
 3.  Cliquez sur **Annuler la commande**.
 

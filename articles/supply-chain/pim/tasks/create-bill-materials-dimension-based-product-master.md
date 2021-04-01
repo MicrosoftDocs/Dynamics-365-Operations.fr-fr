@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffe30f1b5aae3e954b527e84648f4dbb4b181513
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 799479c4b4cdf5b61b1f55a61454823558b9013b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986902"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237422"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Créer une nomenclature pour un produit générique fondé sur les dimensions
 
@@ -41,32 +41,32 @@ Pour cette procédure, vous devez avoir déjà suivi les 4 premiers guides de ce
 1. Cliquez sur Nouveau.
 2. Cliquez sur Nomenclature et version de nomenclature.
 3. Tapez une valeur dans le champ Nom.
-    * Paramétrage d'un site  
+    * Paramétrage d’un site  
     * Dans cette procédure, nous ne définissons pas de site spécifique pour la nomenclature.  
 4. Cliquez sur OK.
 5. Cliquez sur Nouveau.
     * Dans cette procédure, nous ajouterons quatre lignes à la nomenclature. Deux lignes représentent les options de câble et deux lignes représentent les options de meuble.  
 6. Dans la liste, marquez la ligne sélectionnée.
-7. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Sélectionnez le numéro d'article A0001, câbles HDMI 6'.  
+7. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
+    * Sélectionnez le numéro d’article A0001, câbles HDMI 6’.  
 8. Saisissez ou sélectionnez une valeur dans le champ Groupe de configurations.
     * Sélectionnez le groupe de configuration de câble créé dans le guide 4 de cette séquence.  
 9. Cliquez sur Nouveau.
-    * Sélectionnez le numéro d'article A0002, câbles HDMI 12'.  
+    * Sélectionnez le numéro d’article A0002, câbles HDMI 12’.  
 10. Dans la liste, marquez la ligne sélectionnée.
-11. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
+11. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
 12. Saisissez ou sélectionnez une valeur dans le champ Groupe de configurations.
     * Sélectionnez à nouveau le groupe de configuration de câble.  
 13. Cliquez sur Nouveau.
 14. Dans la liste, marquez la ligne sélectionnée.
-15. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Sélectionnez le numéro d'article Meuble D0002.  
+15. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
+    * Sélectionnez le numéro d’article Meuble D0002.  
 16. Saisissez ou sélectionnez une valeur dans le champ Groupe de configurations.
     * Sélectionnez le groupe de configurations Meuble pour cette ligne de nomenclature.  
 17. Cliquez sur Nouveau.
 18. Dans la liste, marquez la ligne sélectionnée.
-19. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Sélectionnez le numéro d'article Meuble standard M0007 comme dernière ligne de nomenclature.  
+19. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
+    * Sélectionnez le numéro d’article Meuble standard M0007 comme dernière ligne de nomenclature.  
 20. Saisissez ou sélectionnez une valeur dans le champ Groupe de configurations.
     * Sélectionnez le groupe de configurations Meuble pour la dernière ligne de nomenclature.  
 

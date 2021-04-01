@@ -1,6 +1,6 @@
 ---
 title: Déclaration de fin des ordres de fabrication
-description: La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock.
+description: La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l’ordre de fabrication au stock.
 author: johanhoffmann
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,32 +18,32 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f044b7640bda168485798316171fdd0b66c4c84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40b2856e2495d2139664b75f747f023334a80d8c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235458"
 ---
 # <a name="report-production-orders-as-finished"></a>Déclaration de fin des ordres de fabrication
 
 [!include [banner](../includes/banner.md)]
 
-La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l'ordre de fabrication au stock.
+La déclaration de fin correspond à un stade de production. À ce stade, un produit fini est signalé et passé de l’ordre de fabrication au stock.
 
-Lorsqu'un ordre de fabrication est déclaré terminé, la quantité des produits finis déclarés terminés est mise à jour comme disponible dans le stock. Des quantités partielles de la quantité de l'ordre prévisionnel peuvent être déclarées terminées. Il est également possible de déclarer terminées les quantités d'erreur avec un motif d'erreur associé. Lorsque l'ordre de fabrication atteint le stade Déclaré terminé, cela indique qu'aucune quantité supplémentaire ne sera déclarée à l'ordre de fabrication.
+Lorsqu’un ordre de fabrication est déclaré terminé, la quantité des produits finis déclarés terminés est mise à jour comme disponible dans le stock. Des quantités partielles de la quantité de l’ordre prévisionnel peuvent être déclarées terminées. Il est également possible de déclarer terminées les quantités d’erreur avec un motif d’erreur associé. Lorsque l’ordre de fabrication atteint le stade Déclaré terminé, cela indique qu’aucune quantité supplémentaire ne sera déclarée à l’ordre de fabrication.
 Les caractéristiques suivantes sont également associées au processus de **Déclaration de fin** :
 -   Il est possible de paramétrer la consommation des matières premières et du temps proportionnelles à la quantité déclarée (post-consommation)
--   Le travail de rangement peut être généré pour les articles activés pour les processus de l'entrepôt.
+-   Le travail de rangement peut être généré pour les articles activés pour les processus de l’entrepôt.
 -   La valeur du coût standard ou prévisionnel des produits finis peut être paramétrée pour être déclarée aux comptes généraux.
--   Un ordre de qualité peut être créé pour la quantité déclarée selon la configuration d'une association de qualité.
+-   Un ordre de qualité peut être créé pour la quantité déclarée selon la configuration d’une association de qualité.
 
-La quantité est déclarée à l'emplacement de sortie. Le travail d'entrepôt est alors généré pour déplacer la quantité depuis l'emplacement de sortie vers sa destination finale définie par la directive d'emplacement pour le travail de rangement.
+La quantité est déclarée à l’emplacement de sortie. Le travail d’entrepôt est alors généré pour déplacer la quantité depuis l’emplacement de sortie vers sa destination finale définie par la directive d’emplacement pour le travail de rangement.
 
--   Un ordre de qualité peut être créé lorsqu'un ordre de fabrication est déclaré terminé si une association de qualité a été paramétrée.
+-   Un ordre de qualité peut être créé lorsqu’un ordre de fabrication est déclaré terminé si une association de qualité a été paramétrée.
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Définir un ordre de fabrication sur Déclaration de fin
-Vous pouvez définir un ordre de fabrication sur **Déclaration de fini** via la fonction standard de mise à jour de l'ordre de fabrication ou via les journaux de gammes et de bons de travail, ou encore via le journal des **déclarations de fin**. Vous pouvez également mettre à jour le stade **Déclaration de fin** via les pages Terminal des bons de travail et Périphérique pour le bon de travail lorsque vous faites une déclaration concernant la dernière tâche de l'ordre de fabrication. Enfin, vous pouvez activer l'option **Déclaration de fin** comme processus pour la solution de l'appareil portable d'entrepôt.  
+Vous pouvez définir un ordre de fabrication sur **Déclaration de fini** via la fonction standard de mise à jour de l’ordre de fabrication ou via les journaux de gammes et de bons de travail, ou encore via le journal des **déclarations de fin**. Vous pouvez également mettre à jour le stade **Déclaration de fin** via les pages Terminal des bons de travail et Périphérique pour le bon de travail lorsque vous faites une déclaration concernant la dernière tâche de l’ordre de fabrication. Enfin, vous pouvez activer l’option **Déclaration de fin** comme processus pour la solution de l’appareil portable d’entrepôt.  
 
 
 

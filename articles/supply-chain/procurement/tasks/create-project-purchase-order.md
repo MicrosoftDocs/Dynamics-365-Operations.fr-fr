@@ -16,18 +16,18 @@ ms.search.industry: Service industries
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 825e374e9d450ee187e7ddb1ce5925c3d7e15f25
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1eef6f4e0ef4b0c33572156b702c182456e3360d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016425"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237225"
 ---
 # <a name="create-project-purchase-order"></a>Créer une commande fournisseur de projet
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure vous indique comment créer une commande fournisseur de projet. Cette tâche utilise l'ensemble de données USSI.
+Cette procédure vous indique comment créer une commande fournisseur de projet. Cette tâche utilise l’ensemble de données USSI.
 
 1. Accédez à Gestion et comptabilité des projets > Projets > Tous les projets.
 2. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
@@ -40,11 +40,11 @@ Cette procédure vous indique comment créer une commande fournisseur de projet.
 8. Dans le champ Entrepôt, saisissez ou sélectionnez une valeur.
 9. Cliquez sur OK.
 10. Dans la liste, marquez la ligne sélectionnée.
-11. Entrez ou sélectionnez une valeur dans le champ Numéro d'article.
-    * Ce peut être le numéro d'article ou une catégorie d'approvisionnement.  
+11. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
+    * Ce peut être le numéro d’article ou une catégorie d’approvisionnement.  
 12. Développez la section Détails de ligne.
-13. Cliquez sur l'onglet Projet.
-    * Vérifiez que les ventes et les prix de revient sont disponibles. S'ils ne le sont pas, mais requis, entrez ces éléments.  
+13. Cliquez sur l’onglet Projet.
+    * Vérifiez que les ventes et les prix de revient sont disponibles. S’ils ne le sont pas, mais requis, entrez ces éléments.  
 14. Cliquez sur Enregistrer.
 
 

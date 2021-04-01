@@ -18,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 811e7fa4d3746bd659dcbba0b5606ac304ddf00d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f45526b4c726b279867a2d3249f6e6c62eee8cd2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005764"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236172"
 ---
 # <a name="form-1099-in-the-public-sector"></a>Écran 1099 dans le secteur public
 

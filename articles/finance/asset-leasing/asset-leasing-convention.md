@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237514"
 ---
 # <a name="asset-leasing-conventions"></a>Conventions de location d’actifs
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit les conventions d’actifs loués. Les conventions de location sont utilisées pour déterminer la date de début d'un registre des baux. Si la convention de location est définie sur **Aucun**, la date de début est la même que la date de début du bail (c'est-à-dire la valeur du champ **Date de début du bail**). Si la convention de location est définie sur **Mois complet**, la date de début est le premier jour du mois où tombe la date de début du bail.
 

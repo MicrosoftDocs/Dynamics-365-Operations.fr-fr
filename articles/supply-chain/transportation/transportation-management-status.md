@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9d3ed4b73f909b50e97c971a37c548c8c4a9e620
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb0d98729046330037f96ab7e13a1bf897e35a1e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006464"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233341"
 ---
 # <a name="transportation-management-statuses"></a>Statuts sur la gestion du transport
 
 [!include [banner](../includes/banner.md)]
 
-Paramétrez les codes données principales pour les statuts de transport afin d'interpréter les codes fournis par vos transporteurs. Cela vous permet de vous intégrer aux transporteurs pour fournir un statut. Le statut de transport que vous fournissez un pour code données principales de statut de transport peut vous aider à suivre le statut d'une charge, d'une expédition, ou d'un conteneur. Le statut de transport spécifique d'un chargement, d'une expédition ou d'un conteneur ne peut être mis à jour que par le biais de l'intégration des données et non manuellement par le biais de l'interface utilisateur.
+Paramétrez les codes données principales pour les statuts de transport afin d’interpréter les codes fournis par vos transporteurs. Cela vous permet de vous intégrer aux transporteurs pour fournir un statut. Le statut de transport que vous fournissez un pour code données principales de statut de transport peut vous aider à suivre le statut d’une charge, d’une expédition, ou d’un conteneur. Le statut de transport spécifique d’un chargement, d’une expédition ou d’un conteneur ne peut être mis à jour que par le biais de l’intégration des données et non manuellement par le biais de l’interface utilisateur.
 
 ## <a name="create-a-transportation-status"></a>Créer un statut de transport
 
@@ -44,7 +44,7 @@ Pour mapper un statut de transport à un statut de transporteur, procédez comme
 
 1. Accédez à **Gestion du transport \> Configurer \> Transporteurs \> Statut du transporteur**.
 1. Cliquez sur **Nouveau** pour mettre en correspondance un transporteur et un code données principales de statut de transport.
-1. Sélectionnez l'ID unique pour le transporteur et le service de transporteur.
+1. Sélectionnez l’ID unique pour le transporteur et le service de transporteur.
 1. Sélectionnez le code statut de transport que vous souhaitez mettre en correspondance avec le code du transporteur sélectionné.
 1. Entrez le code externe utilisé par le transporteur.
 1. Fermez la page.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b7d855914e59d90dd082c9e9a027604579a2f411
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004800"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235410"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Politique de réservation de dimension flexible au niveau de l’entrepôt
 
@@ -234,7 +234,7 @@ Si un élément de travail d’entrepôt se compose de lignes correspondant à u
 Comme la fonctionnalité **Traiter par contenant** ne prend pas en charge les travaux couvrant plusieurs palettes, il est préférable d’avoir un élément de travail distinct pour les différents contenants. Pour utiliser cette approche, ajoutez le champ **ID contenant validé par commande** en tant que décomposition de l’en-tête de travail sur la page **Modèle de travail**.
 
 > [!NOTE]
-> Pour le processus de création de travaux validés par commande, une valeur « order-committed inventory dimension » sera attribuée aux lignes de travail de prélèvement et il ne sera pas possible d'afficher directement la valeur de la plaque d'immatriculation. Seul le processus *Dirigé par l'utilisateur* est pris en charge lors de la configuration d'un élément de menu d'appareil mobile.
+> Pour le processus de création de travaux validés par commande, une valeur « order-committed inventory dimension » sera attribuée aux lignes de travail de prélèvement et il ne sera pas possible d’afficher directement la valeur de la plaque d’immatriculation. Seul le processus *Dirigé par l’utilisateur* est pris en charge lors de la configuration d’un élément de menu d’appareil mobile.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Exemple de scénario : configurer et traiter une réservation de contenant validée par commande
 

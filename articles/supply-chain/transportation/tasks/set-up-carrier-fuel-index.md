@@ -1,6 +1,6 @@
 ---
 title: Paramétrer un index de carburant du transporteur
-description: Ce guide indique comment créer une région de l'index de carburant, un index de carburant et un index de carburant du transporteur.
+description: Ce guide indique comment créer une région de l’index de carburant, un index de carburant et un index de carburant du transporteur.
 author: ShylaThompson
 manager: tfehr
 ms.date: 11/14/2016
@@ -16,23 +16,23 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 772468fa73e18a02331f877a375a5bd089ece6be
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 09dc948e673bb8be49ac81e5ad2b20bc6c62b286
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004925"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233653"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Paramétrer un index de carburant du transporteur
 
 [!include [banner](../../includes/banner.md)]
 
-Ce guide indique comment créer une région de l'index de carburant, un index de carburant et un index de carburant du transporteur. La région d'index de carburant spécifie à quelle région l'index doit s'appliquer, et l'index de carburant spécifie un prix du carburant pour une période spécifique. Pour refléter la modification des prix du carburant au fil du temps, vous pouvez associer une région à plusieurs index de carburant à un transporteur.  Ces tâches sont normalement effectuées par un coordinateur de transport. Vous pouvez utiliser cette procédure dans les données de démonstration de la société fictive USMF ou utiliser vos propres données.
+Ce guide indique comment créer une région de l’index de carburant, un index de carburant et un index de carburant du transporteur. La région d’index de carburant spécifie à quelle région l’index doit s’appliquer, et l’index de carburant spécifie un prix du carburant pour une période spécifique. Pour refléter la modification des prix du carburant au fil du temps, vous pouvez associer une région à plusieurs index de carburant à un transporteur.  Ces tâches sont normalement effectuées par un coordinateur de transport. Vous pouvez utiliser cette procédure dans les données de démonstration de la société fictive USMF ou utiliser vos propres données.
 
 
-## <a name="create-a-fuel-index-region"></a>Créer la région de l'index de carburant
-1. Allez dans Gestion du transport > Configuration > Index de carburant > Régions de l'index de carburant.
-    * Vous devez tout d'abord créer différentes régions, dans lesquelles vous allez traiter et calculer différents suppléments de carburant.  
+## <a name="create-a-fuel-index-region"></a>Créer la région de l’index de carburant
+1. Allez dans Gestion du transport > Configuration > Index de carburant > Régions de l’index de carburant.
+    * Vous devez tout d’abord créer différentes régions, dans lesquelles vous allez traiter et calculer différents suppléments de carburant.  
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ Région.
 4. Tapez une valeur dans le champ Nom.
@@ -62,7 +62,7 @@ Ce guide indique comment créer une région de l'index de carburant, un index de
 9. Entrez un nombre dans le champ Pourcentage.
     * Dans cet exemple, vous pouvez définir le pourcentage sur 3.  
 10. Dans le champ Devise, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-11. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+11. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 12. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 13. Cliquez sur Enregistrer.
 

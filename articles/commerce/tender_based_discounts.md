@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98631d8f9fb2c05621f69fa67c9b60472198ee6b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962933"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232565"
 ---
 # <a name="tender-based-discounts"></a>Remises basées sur le mode de paiement
 
@@ -34,7 +34,7 @@ Il s'agit d'une pratique courante entre les détaillants d'émettre des cartes d
 
 Sinon, les détaillants qui ne fournissent pas de cartes de crédit au nom de leur marque peuvent souhaiter encourager les clients à payer à l'aide d'autres modes de paiement, par exemple les disponibilités, les cartes cadeaux, ou les points de fidélité. Ainsi, ils peuvent permettre de réduire la dépenses des frais de traitement des cartes de crédit. Par conséquent, les détaillants peuvent fournir des remises aux clients qui utilisent ces autres modes de paiement.
 
-Dans Microsoft Dynamics 365 Commerce 365 Retail, les détaillants peuvent configurer un pourcentage de remise appliqué aux lignes qualifiées si le client paie à l'aide du mode de paiement recommandé. Le client peut choisir d'effectuer un paiement partiel ou un paiement complet, et Commerce détermine le montant de remise approprié. Notez que la remise est toujours donnée selon le montant avant taxes des articles qualifiés.
+Dans Microsoft Dynamics 365 Commerce 365 Retail, les détaillants peuvent configurer un pourcentage de remise appliqué aux lignes qualifiées si le client paie à l’aide du mode de paiement recommandé. Le client peut choisir d'effectuer un paiement partiel ou un paiement complet, et Commerce détermine le montant de remise approprié. Notez que la remise est toujours donnée selon le montant avant taxes des articles qualifiés.
 
 Les remises basées sur le mode de paiement ne concurrencent pas les remises basées sur l'article, telles que les remises exceptionnelles ou manuelles. Elles sont toujours cumulées aux remises d'article. Par conséquent, même si une remise périodique exclusive est appliquée à un article, la remise basée sur le mode de paiement est toujours appliquée sur la remise périodique exclusive. De même, si une remise seuil est appliquée à la transaction, et que la remise basée sur un mode de paiement diminue le total sous le seuil, la remise seuil est toujours appliquée à la transaction.
 

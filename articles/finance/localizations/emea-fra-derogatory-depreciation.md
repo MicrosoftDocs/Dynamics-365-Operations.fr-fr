@@ -16,12 +16,12 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0d416042aa3b02ed324f838df1dfa2725efb602
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9a30f6583b472e49277dff19f72e7f6dadc93a42
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5002950"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237493"
 ---
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 

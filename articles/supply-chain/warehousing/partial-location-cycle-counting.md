@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f228f10c5aeaca3f4fc9b97bf7b6cc4af1592b8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973608"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234679"
 ---
 # <a name="partial-location-cycle-counting"></a>Inventaire tournant de l’emplacement partiel
 
@@ -48,7 +48,7 @@ Avant que le travail d’inventaire tournant partiel puisse être traité, vous 
 Pour le processus d’inventaire tournant partiel, la date et l’heure du **Dernier inventaire tournant** ne seront pas mises à jour pour l’emplacement, même si tous les articles disponibles à un emplacement donné sont comptés. L’inventaire tournant partiel ne prend pas en compte le paramètre **Jours entre l’inventaire tournant** sur la page **Plans d’inventaire tournant**. L’inventaire tournant partiel ne prend pas en charge l’inventaire simultané de plusieurs articles au même endroit. La fonctionnalité d’inventaire tournant partiel peut entraîner l’inventaire du même emplacement plusieurs fois pour un article lorsque **Traiter le plan d’inventaire tournant** est exécuté. Pour éviter ce scénario, spécifiez des filtres dans le champ **Sélectionnez des emplacements**.
 
 > [!NOTE]
-> L'application d'entrepôt ne fournit pas le bouton **Ajouter un LP ou un article** lorsque vous utilisez le processus de comptage partiel du cycle.
+> L’application d’entrepôt ne fournit pas le bouton **Ajouter un LP ou un article** lorsque vous utilisez le processus de comptage partiel du cycle.
 
 ## <a name="example"></a>Exemple
 

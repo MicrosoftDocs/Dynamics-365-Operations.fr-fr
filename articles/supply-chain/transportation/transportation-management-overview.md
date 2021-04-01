@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble de la gestion du transport
-description: Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Supply Chain Management.
+title: Vue d’ensemble de la gestion du transport
+description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de gestion du transport dans Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fca83ef2c80ed6df9cfbdedd2805e453df3f737a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 511cc3459ce5d99f0a3e6dae0a70af0109326118
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006489"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233389"
 ---
-# <a name="transportation-management-overview"></a>Vue d'ensemble de la gestion du transport
+# <a name="transportation-management-overview"></a>Vue d’ensemble de la gestion du transport
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble de la fonctionnalité de gestion du transport dans Supply Chain Management.
+Cette rubrique fournit une vue d’ensemble de la fonctionnalité de gestion du transport dans Supply Chain Management.
 
-La Gestion du transport vous permet d'utiliser les transports de votre société et d'identifier les solutions utilisant des fournisseurs et des prestataires d'acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la Gestion du transport.
+La Gestion du transport vous permet d’utiliser les transports de votre société et d’identifier les solutions utilisant des fournisseurs et des prestataires d’acheminement spécifiques pour les commandes entrantes et sortantes. Par exemple, vous pouvez identifier le parcours le plus rapide ou le moins cher pour une expédition. Le tableau suivant décrit les principaux scénarios utilisés pour la Gestion du transport.
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ La Gestion du transport vous permet d'utiliser les transports de votre société
 </tr>
 <tr class="even">
 <td>La propre flotte de la société est disponible pour la livraison/le chargement et les frais de livraison sont transférés aux clients.</td>
-<td>Pour les processus sortants, vous pouvez utiliser la Gestion du transport pour déterminer les frais de transport et les transférer aux clients. Toutefois, le processus de rapprochement de la facture du transporteur n'est nécessaire.</td>
+<td>Pour les processus sortants, vous pouvez utiliser la Gestion du transport pour déterminer les frais de transport et les transférer aux clients. Toutefois, le processus de rapprochement de la facture du transporteur n’est nécessaire.</td>
 </tr>
 <tr class="odd">
 <td>La propre flotte de la société est disponible pour la livraison/le chargement, mais des frais de livraison ne sont pas transférés aux clients, car les prix des produits comprennent le transport.</td>
@@ -59,8 +59,8 @@ La Gestion du transport vous permet d'utiliser les transports de votre société
 <tr class="even">
 <td>Le service logistique est fourni par une autre entité juridique dans la même société.</td>
 <td><ul>
-<li>Utilisez la Gestion du transport en traitant l'autre entité juridique comme n'importe quel transporteur. Vous ne pouvez pas automatiser les transactions économiques entre les entités juridiques. Par conséquent, vous devez gérer ces transactions manuellement (par exemple, en créant une commande fournisseur).</li>
-<li>Dans l'entité juridique qui fournit les services logistiques, la Gestion du transport peut être utilisée pour déterminer les taux de transport.</li>
+<li>Utilisez la Gestion du transport en traitant l’autre entité juridique comme n’importe quel transporteur. Vous ne pouvez pas automatiser les transactions économiques entre les entités juridiques. Par conséquent, vous devez gérer ces transactions manuellement (par exemple, en créant une commande fournisseur).</li>
+<li>Dans l’entité juridique qui fournit les services logistiques, la Gestion du transport peut être utilisée pour déterminer les taux de transport.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -77,12 +77,12 @@ Lorsque vous commandez des articles à un fournisseur et que ces articles doiven
 ![Flux de processus entreprise pour le transport de chargement entrant](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Transport sortant
-Vous pouvez planifier et traiter une charge sortante pour expédier des articles spécifiques de l'entrepôt d'une société à un client. Utilisez Supply Chain Management pour planifier le transport et l'expédition de la charge sortante. La figure suivante indique le flux du processus entreprise de planification et le traitement des charges sortantes pour l'expédition. 
+Vous pouvez planifier et traiter une charge sortante pour expédier des articles spécifiques de l’entrepôt d’une société à un client. Utilisez Supply Chain Management pour planifier le transport et l’expédition de la charge sortante. La figure suivante indique le flux du processus entreprise de planification et le traitement des charges sortantes pour l’expédition. 
 
 ![Planification et traitement des charges sortantes](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Création de chargement
-Supply Chain Management fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume. Cette stratégie vous permet d'utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs. Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l'organisateur **Paramétrage** sur la page **Atelier de création de chargement**. En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l'arbre d'objets d'application (AOA).
+Supply Chain Management fournit une stratégie de création de chargement qui est nommée Stratégie de création de chargement basée sur le volume. Cette stratégie vous permet d’utiliser les valeurs maximales spécifiées pour la hauteur et le poids dans le modèle de chargement, sinon vous pouvez remplacer les paramètres en entrant de nouvelles valeurs. Pour utiliser cette stratégie, sélectionnez-la dans le champ **Stratégie de création de chargement** dans l’organisateur **Paramétrage** sur la page **Atelier de création de chargement**. En outre, vous pouvez ajouter vos propres stratégies de création de chargement en créant une nouvelle classe dans l’arbre d’objets d’application (AOA).
 
 
 
