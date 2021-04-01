@@ -1,6 +1,6 @@
 ---
 title: Choix d'utilisation des évaluations et avis
-description: Cette rubrique explique comment adhérer à l'utilisation des classements et des évaluations de votre site Microsoft Dynamics 365 Commerce.
+description: Cette rubrique explique comment adhérer à l’utilisation des classements et des évaluations de votre site Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 01/30/2020
@@ -17,49 +17,52 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 481a8750b2333d5dd5de2c05e175569804a6046f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6c54a8fa01badb6a383c41dc979e71d82a25ef97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985834"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251233"
 ---
-# <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="52c0c-103">Choix d'utilisation des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="52c0c-103">Opt in to use ratings and reviews</span></span>
+# <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="4b991-103">Choix d’utilisation des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="4b991-103">Opt in to use ratings and reviews</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="52c0c-104">Cette rubrique explique comment adhérer à l'utilisation des classements et des évaluations de votre site Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="52c0c-104">This topic explains how to opt in to use ratings and reviews on your Microsoft Dynamics 365 Commerce site.</span></span>
+<span data-ttu-id="4b991-104">Cette rubrique explique comment adhérer à l’utilisation des classements et des évaluations de votre site Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="4b991-104">This topic explains how to opt in to use ratings and reviews on your Microsoft Dynamics 365 Commerce site.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="52c0c-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="52c0c-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="4b991-105">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="4b991-105">Overview</span></span>
 
-<span data-ttu-id="52c0c-106">La solution de classements et d'évaluations est une solution omnicanale que vous pouvez rendre disponible dans Dynamics 365 Commerce en utilisant Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="52c0c-106">The ratings and reviews solution is an omni-channel solution that you can make available in Dynamics 365 Commerce by using Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="52c0c-107">LCS est un portail d'administration que les détaillants utilisent pour gérer leurs environnements de la mise en service jusqu'à la mise hors service.</span><span class="sxs-lookup"><span data-stu-id="52c0c-107">LCS is an administration portal that retailers use to manage their environments from provisioning to decommissioning.</span></span>
+<span data-ttu-id="4b991-106">La solution de classements et d'évaluations est une solution omnicanale que vous pouvez rendre disponible dans Dynamics 365 Commerce en utilisant Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="4b991-106">The ratings and reviews solution is an omni-channel solution that you can make available in Dynamics 365 Commerce by using Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="4b991-107">LCS est un portail d'administration que les détaillants utilisent pour gérer leurs environnements de la mise en service jusqu'à la mise hors service.</span><span class="sxs-lookup"><span data-stu-id="4b991-107">LCS is an administration portal that retailers use to manage their environments from provisioning to decommissioning.</span></span>
 
-<span data-ttu-id="52c0c-108">Pour utiliser la solution de classements et d'évaluations sur votre site web Commerce, activez les classements et les évaluations lors du déploiement de votre site de commerce électronique sur Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="52c0c-108">If you want to use the ratings and reviews solution on your Commerce website, you must opt in for ratings and reviews during deployment of your e-Commerce site on Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="4b991-108">Pour utiliser la solution de classements et d'évaluations sur votre site web Commerce, activez les classements et les évaluations lors du déploiement de votre site de commerce électronique sur Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="4b991-108">If you want to use the ratings and reviews solution on your Commerce website, you must opt in for ratings and reviews during deployment of your e-Commerce site on Dynamics 365 Commerce.</span></span>
 
-## <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="52c0c-109">Choix d'utilisation des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="52c0c-109">Opt in to use ratings and reviews</span></span>
+## <a name="opt-in-to-use-ratings-and-reviews"></a><span data-ttu-id="4b991-109">Choix d'utilisation des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="4b991-109">Opt in to use ratings and reviews</span></span>
 
-<span data-ttu-id="52c0c-110">Pour adhérer à l'utilisation des classements et évaluations sur votre site, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="52c0c-110">To opt in to use ratings and reviews on your site, follow these steps.</span></span>
+<span data-ttu-id="4b991-110">Pour adhérer à l'utilisation des classements et évaluations sur votre site, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="4b991-110">To opt in to use ratings and reviews on your site, follow these steps.</span></span>
 
-1. <span data-ttu-id="52c0c-111">Suivez les étapes dans [Déployer un nouveau site de commerce électronique](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="52c0c-111">Follow the steps in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span>
-1. <span data-ttu-id="52c0c-112">Lorsque vous êtes toujours dans LCS, accédez à **Paramétrage du déploiement de la vente au détail \> Autres paramètres**.</span><span class="sxs-lookup"><span data-stu-id="52c0c-112">While you're still in LCS, go to **Retail deployment setup \> Other settings**.</span></span>
-1. <span data-ttu-id="52c0c-113">Définissez l'option **Activer le service de classements et évaluations** sur **Activé**.</span><span class="sxs-lookup"><span data-stu-id="52c0c-113">Set the **Enable ratings and reviews service** option to **Yes**.</span></span>
-1. <span data-ttu-id="52c0c-114">Dans le champ **Groupe de sécurité AAD pour le modérateur de classements et d'évaluations (ID objet du groupe de sécurité)**, entrez l'ID du groupe de sécurité Microsoft Azure Active Directory (Azure AD) qui inclut les modérateurs des classements et évaluations.</span><span class="sxs-lookup"><span data-stu-id="52c0c-114">In the **AAD security group for ratings and review moderator (security group object id)** field, enter the ID of the Microsoft Azure Active Directory (Azure AD) security group that includes the ratings and reviews moderators.</span></span>
+1. <span data-ttu-id="4b991-111">Suivez les étapes dans [Déployer un nouveau site de commerce électronique](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="4b991-111">Follow the steps in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span>
+1. <span data-ttu-id="4b991-112">Lorsque vous êtes toujours dans LCS, accédez à **Paramétrage du déploiement de la vente au détail \> Autres paramètres**.</span><span class="sxs-lookup"><span data-stu-id="4b991-112">While you're still in LCS, go to **Retail deployment setup \> Other settings**.</span></span>
+1. <span data-ttu-id="4b991-113">Définissez l'option **Activer le service de classements et évaluations** sur **Activé**.</span><span class="sxs-lookup"><span data-stu-id="4b991-113">Set the **Enable ratings and reviews service** option to **Yes**.</span></span>
+1. <span data-ttu-id="4b991-114">Dans le champ **Groupe de sécurité AAD pour le modérateur de classements et d'évaluations (ID objet du groupe de sécurité)**, entrez l'ID du groupe de sécurité Microsoft Azure Active Directory (Azure AD) qui inclut les modérateurs des classements et évaluations.</span><span class="sxs-lookup"><span data-stu-id="4b991-114">In the **AAD security group for ratings and review moderator (security group object id)** field, enter the ID of the Microsoft Azure Active Directory (Azure AD) security group that includes the ratings and reviews moderators.</span></span>
 
     ![Choix d'utilisation des évaluations et avis](media/LCS_RnR_Preference.png)
 
-1. <span data-ttu-id="52c0c-116">Terminez le processus d'initialisation de commerce électronique.</span><span class="sxs-lookup"><span data-stu-id="52c0c-116">Complete the e-Commerce initialization process.</span></span>
+1. <span data-ttu-id="4b991-116">Terminez le processus d'initialisation de commerce électronique.</span><span class="sxs-lookup"><span data-stu-id="4b991-116">Complete the e-Commerce initialization process.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="52c0c-117">Si vous êtes un client Dynamics 365 Commerce existant, qui a déjà déployé un site de commerce électronique sans choisir les classements et les évaluations, mais que vous souhaitez maintenant les utiliser à partir du progiciel Dynamics 365 Commerce, veuillez envoyer une demande de service.</span><span class="sxs-lookup"><span data-stu-id="52c0c-117">If you are an existing Dynamics 365 Commerce customer who has already deployed an e-Commerce site without having opted in for ratings and reviews and now want to use ratings and reviews from the Dynamics 365 Commerce package, please submit a service request.</span></span> <span data-ttu-id="52c0c-118">Pour des informations sur l'envoi d'une demande de service, voir [Soumettre des demandes de service](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json).</span><span class="sxs-lookup"><span data-stu-id="52c0c-118">For information about how to submit a service request, see [Submit service requests process](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json).</span></span> 
+> <span data-ttu-id="4b991-117">Si vous êtes un client Dynamics 365 Commerce existant, qui a déjà déployé un site de commerce électronique sans choisir les classements et les évaluations, mais que vous souhaitez maintenant les utiliser à partir du progiciel Dynamics 365 Commerce, veuillez envoyer une demande de service.</span><span class="sxs-lookup"><span data-stu-id="4b991-117">If you are an existing Dynamics 365 Commerce customer who has already deployed an e-Commerce site without having opted in for ratings and reviews and now want to use ratings and reviews from the Dynamics 365 Commerce package, please submit a service request.</span></span> <span data-ttu-id="4b991-118">Pour des informations sur l'envoi d'une demande de service, voir [Soumettre des demandes de service](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json).</span><span class="sxs-lookup"><span data-stu-id="4b991-118">For information about how to submit a service request, see [Submit service requests process](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json).</span></span> 
 
-## <a name="additional-resources"></a><span data-ttu-id="52c0c-119">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="52c0c-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4b991-119">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="4b991-119">Additional resources</span></span>
 
-[<span data-ttu-id="52c0c-120">Vue d'ensemble des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="52c0c-120">Ratings and reviews overview</span></span>](ratings-reviews-overview.md)
+[<span data-ttu-id="4b991-120">Vue d'ensemble des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="4b991-120">Ratings and reviews overview</span></span>](ratings-reviews-overview.md)
 
-[<span data-ttu-id="52c0c-121">Gestion des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="52c0c-121">Manage ratings and reviews</span></span>](manage-reviews.md)
+[<span data-ttu-id="4b991-121">Gestion des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="4b991-121">Manage ratings and reviews</span></span>](manage-reviews.md)
 
-[<span data-ttu-id="52c0c-122">Configuration des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="52c0c-122">Configure ratings and reviews</span></span>](configure-ratings-reviews.md)
+[<span data-ttu-id="4b991-122">Configuration des évaluations et avis</span><span class="sxs-lookup"><span data-stu-id="4b991-122">Configure ratings and reviews</span></span>](configure-ratings-reviews.md)
 
-[<span data-ttu-id="52c0c-123">Synchronisation des évaluations de produit dans Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="52c0c-123">Sync product ratings in Dynamics 365 Commerce</span></span>](sync-product-ratings.md)
+[<span data-ttu-id="4b991-123">Synchronisation des évaluations de produit dans Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4b991-123">Sync product ratings in Dynamics 365 Commerce</span></span>](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

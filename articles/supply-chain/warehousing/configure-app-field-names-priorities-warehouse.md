@@ -1,6 +1,6 @@
 ---
-title: Configurer des noms de champ d'application dans l'application d'entrepôt
-description: Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 Supply Chain Management.
+title: Configurer des noms de champ d’application dans l’application d’entrepôt
+description: Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d’application d’entrepôt dans Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,25 +18,25 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963433"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232957"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a><span data-ttu-id="23877-103">Configurer des noms de champ d'application dans l'application d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="23877-103">Configure app field names in the warehouse app</span></span>
+# <a name="configure-app-field-names-in-the-warehouse-app"></a><span data-ttu-id="c4252-103">Configurer des noms de champ d’application dans l’application d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="c4252-103">Configure app field names in the warehouse app</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="23877-104">Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d'application d'entrepôt dans Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="23877-104">This topic describes how to define and configure warehouse app field names and priorities in Dynamics 365 Supply Chain Management.</span></span> 
+<span data-ttu-id="c4252-104">Cette rubrique décrit comment définir et configurer les noms et les priorités de champ d’application d’entrepôt dans Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="c4252-104">This topic describes how to define and configure warehouse app field names and priorities in Dynamics 365 Supply Chain Management.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="23877-105">Cette rubrique s'applique aux fonctionnalités du module Gestion des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="23877-105">This topic applies to features in Warehouse management.</span></span> <span data-ttu-id="23877-106">Elle ne s'applique pas aux fonctionnalités du module Gestion des stocks.</span><span class="sxs-lookup"><span data-stu-id="23877-106">It doesn’t apply to features in Inventory management.</span></span> <span data-ttu-id="23877-107">Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d'entrepôt.</span><span class="sxs-lookup"><span data-stu-id="23877-107">Warehousing is an application that you can use to perform warehouse tasks.</span></span> <span data-ttu-id="23877-108">Vous pouvez définir et configurer les noms de champ utilisés dans l'application, et aussi configurer la priorité d'affectation des noms de champ.</span><span class="sxs-lookup"><span data-stu-id="23877-108">You can define and configure the field names that are used in the app, as well as configure the priority to which the field names should be assigned.</span></span> <span data-ttu-id="23877-109">Cette rubrique explique comment définir et configurer ces noms et priorités de champ d'application d'entrepôt, et comment les utiliser dans Entreposage.</span><span class="sxs-lookup"><span data-stu-id="23877-109">This topic explains how to define and configure these warehouse app field names and priorities, and how they are used in Warehousing.</span></span> <span data-ttu-id="23877-110">Pour des informations détaillées sur la configuration de la connexion à Entreposage, reportez-vous au didacticiel [Vue d'ensemble de l'installation et de la configuration de l'application d'entrepôt](install-configure-warehousing-app.md).</span><span class="sxs-lookup"><span data-stu-id="23877-110">For detailed information about how to configure the connection to FWarehousing, refer to the tutorial [Install and configure the warehouse app overview](install-configure-warehousing-app.md).</span></span>
+> <span data-ttu-id="c4252-105">Cette rubrique s’applique aux fonctionnalités du module Gestion des entrepôts.</span><span class="sxs-lookup"><span data-stu-id="c4252-105">This topic applies to features in Warehouse management.</span></span> <span data-ttu-id="c4252-106">Elle ne s’applique pas aux fonctionnalités du module Gestion des stocks.</span><span class="sxs-lookup"><span data-stu-id="c4252-106">It doesn’t apply to features in Inventory management.</span></span> <span data-ttu-id="c4252-107">Entreposage est une application que vous pouvez utiliser pour effectuer des tâches d’entrepôt.</span><span class="sxs-lookup"><span data-stu-id="c4252-107">Warehousing is an application that you can use to perform warehouse tasks.</span></span> <span data-ttu-id="c4252-108">Vous pouvez définir et configurer les noms de champ utilisés dans l’application, et aussi configurer la priorité d’affectation des noms de champ.</span><span class="sxs-lookup"><span data-stu-id="c4252-108">You can define and configure the field names that are used in the app, as well as configure the priority to which the field names should be assigned.</span></span> <span data-ttu-id="c4252-109">Cette rubrique explique comment définir et configurer ces noms et priorités de champ d’application d’entrepôt, et comment les utiliser dans Entreposage.</span><span class="sxs-lookup"><span data-stu-id="c4252-109">This topic explains how to define and configure these warehouse app field names and priorities, and how they are used in Warehousing.</span></span> <span data-ttu-id="c4252-110">Pour des informations détaillées sur la configuration de la connexion à Entreposage, reportez-vous au didacticiel [Vue d’ensemble de l’installation et de la configuration de l’application d’entrepôt](install-configure-warehousing-app.md).</span><span class="sxs-lookup"><span data-stu-id="c4252-110">For detailed information about how to configure the connection to FWarehousing, refer to the tutorial [Install and configure the warehouse app overview](install-configure-warehousing-app.md).</span></span>
 
-## <a name="configure-warehouse-app-field-names"></a><span data-ttu-id="23877-111">Configurer les noms de champ d'application d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="23877-111">Configure warehouse app field names</span></span>
+## <a name="configure-warehouse-app-field-names"></a><span data-ttu-id="c4252-111">Configurer les noms de champ d’application d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="c4252-111">Configure warehouse app field names</span></span>
 
-<span data-ttu-id="23877-112">Lorsque vous utilisez Entreposage sur votre appareil mobile, vous pouvez configurer l'affichage des métadonnées sur votre appareil dans la page **Noms de champ d'application d'entrepôt**.</span><span class="sxs-lookup"><span data-stu-id="23877-112">When you use Warehousing on your mobile device, you can configure how metadata should be displayed on your device on the **Warehouse app field names** page.</span></span> <span data-ttu-id="23877-113">Dans une nouvelle société, sélectionnez **Créer un paramétrage par défaut** pour générer tous les noms de champ qui seront utilisés dans les workflows d'appareil mobile d'entrepôt, puis affectez-leur un mode et un type de saisie favoris.</span><span class="sxs-lookup"><span data-stu-id="23877-113">In a new company, select **Create default setup** to generate all field names that will be used in the warehouse mobile device workflows, and then assign a preferred input mode and input type to them.</span></span> <span data-ttu-id="23877-114">Après avoir généré tous les noms de champ, vous pouvez sélectionner les options de saisie suivantes.</span><span class="sxs-lookup"><span data-stu-id="23877-114">After you have generated all field names, you can select the following input options.</span></span>
+<span data-ttu-id="c4252-112">Lorsque vous utilisez Entreposage sur votre appareil mobile, vous pouvez configurer l’affichage des métadonnées sur votre appareil dans la page **Noms de champ d’application d’entrepôt**.</span><span class="sxs-lookup"><span data-stu-id="c4252-112">When you use Warehousing on your mobile device, you can configure how metadata should be displayed on your device on the **Warehouse app field names** page.</span></span> <span data-ttu-id="c4252-113">Dans une nouvelle société, sélectionnez **Créer un paramétrage par défaut** pour générer tous les noms de champ qui seront utilisés dans les workflows d’appareil mobile d’entrepôt, puis affectez-leur un mode et un type de saisie favoris.</span><span class="sxs-lookup"><span data-stu-id="c4252-113">In a new company, select **Create default setup** to generate all field names that will be used in the warehouse mobile device workflows, and then assign a preferred input mode and input type to them.</span></span> <span data-ttu-id="c4252-114">Après avoir généré tous les noms de champ, vous pouvez sélectionner les options de saisie suivantes.</span><span class="sxs-lookup"><span data-stu-id="c4252-114">After you have generated all field names, you can select the following input options.</span></span>
 
 <table>
 <colgroup>
@@ -45,31 +45,31 @@ ms.locfileid: "4963433"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23877-115">Option</span><span class="sxs-lookup"><span data-stu-id="23877-115">Option</span></span></th>
-<th><span data-ttu-id="23877-116">description ;</span><span class="sxs-lookup"><span data-stu-id="23877-116">Description</span></span></th>
+<th><span data-ttu-id="c4252-115">Option</span><span class="sxs-lookup"><span data-stu-id="c4252-115">Option</span></span></th>
+<th><span data-ttu-id="c4252-116">description ;</span><span class="sxs-lookup"><span data-stu-id="c4252-116">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="23877-117">Mode de saisie favori</span><span class="sxs-lookup"><span data-stu-id="23877-117">Preferred input mode</span></span></td>
-<td><span data-ttu-id="23877-118">Cette option définit si un champ de lecture ou un champ de saisie manuelle doit être affiché pour le nom de champ sélectionné.</span><span class="sxs-lookup"><span data-stu-id="23877-118">This option defines whether a scanning field or a manual entry input field should be shown for the selected field name.</span></span> <span data-ttu-id="23877-119">Cela est utile pour distinguer les champs selon que des codes-barres sont utilisés pour le champ.</span><span class="sxs-lookup"><span data-stu-id="23877-119">This is useful to distinguish fields depending on if barcodes are used for the field.</span></span> <span data-ttu-id="23877-120"><strong>Remarque :</strong> pour les noms de champ dont le mode de saisie favori est défini sur <strong>Lecture</strong>, vous pouvez entrer les informations manuellement si le code-barres est illisible ou endommagé.</span><span class="sxs-lookup"><span data-stu-id="23877-120"><strong>Note:</strong> For field names with preferred input mode set to <strong>Scanning</strong>, you can enter information manually if the barcode is unreadable or damaged.</span></span></td>
+<td><span data-ttu-id="c4252-117">Mode de saisie favori</span><span class="sxs-lookup"><span data-stu-id="c4252-117">Preferred input mode</span></span></td>
+<td><span data-ttu-id="c4252-118">Cette option définit si un champ de lecture ou un champ de saisie manuelle doit être affiché pour le nom de champ sélectionné.</span><span class="sxs-lookup"><span data-stu-id="c4252-118">This option defines whether a scanning field or a manual entry input field should be shown for the selected field name.</span></span> <span data-ttu-id="c4252-119">Cela est utile pour distinguer les champs selon que des codes-barres sont utilisés pour le champ.</span><span class="sxs-lookup"><span data-stu-id="c4252-119">This is useful to distinguish fields depending on if barcodes are used for the field.</span></span> <span data-ttu-id="c4252-120"><strong>Remarque :</strong> pour les noms de champ dont le mode de saisie favori est défini sur <strong>Lecture</strong>, vous pouvez entrer les informations manuellement si le code-barres est illisible ou endommagé.</span><span class="sxs-lookup"><span data-stu-id="c4252-120"><strong>Note:</strong> For field names with preferred input mode set to <strong>Scanning</strong>, you can enter information manually if the barcode is unreadable or damaged.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="23877-121">Type de saisie</span><span class="sxs-lookup"><span data-stu-id="23877-121">Input type</span></span></td>
-<td><span data-ttu-id="23877-122">Cette option définit le type de saisie à utiliser pour le nom de champ sélectionné.</span><span class="sxs-lookup"><span data-stu-id="23877-122">This option defines what input type should be used for the selected field name.</span></span> <span data-ttu-id="23877-123">Quatre options sont disponibles :</span><span class="sxs-lookup"><span data-stu-id="23877-123">Four options are available:</span></span>
+<td><span data-ttu-id="c4252-121">Type de saisie</span><span class="sxs-lookup"><span data-stu-id="c4252-121">Input type</span></span></td>
+<td><span data-ttu-id="c4252-122">Cette option définit le type de saisie à utiliser pour le nom de champ sélectionné.</span><span class="sxs-lookup"><span data-stu-id="c4252-122">This option defines what input type should be used for the selected field name.</span></span> <span data-ttu-id="c4252-123">Quatre options sont disponibles :</span><span class="sxs-lookup"><span data-stu-id="c4252-123">Four options are available:</span></span>
 <ul>
-<li><span data-ttu-id="23877-124"><strong>Sélection</strong> - Contient une liste d'options parmi lesquelles choisir.</span><span class="sxs-lookup"><span data-stu-id="23877-124"><strong>Selection</strong> - Contains a list of options to choose from.</span></span> <span data-ttu-id="23877-125">Les noms de champ avec cette option ne sont pas modifiables.</span><span class="sxs-lookup"><span data-stu-id="23877-125">Field names with this option are not editable.</span></span></li>
-<li><span data-ttu-id="23877-126"><strong>Date</strong> - Les noms de champs spécifiés comme date affichent un format de date avec l'étiquette.</span><span class="sxs-lookup"><span data-stu-id="23877-126"><strong>Date</strong> - Field names specified as date will show a date format with the label.</span></span> <span data-ttu-id="23877-127">Cela permet aux magasiniers de déterminer le format de saisie de la date.</span><span class="sxs-lookup"><span data-stu-id="23877-127">This helps warehouse workers see in which format to enter the date.</span></span> <span data-ttu-id="23877-128">Les noms de champ avec cette option ne sont pas modifiables.</span><span class="sxs-lookup"><span data-stu-id="23877-128">Field names with this option are not editable.</span></span></li>
-<li><span data-ttu-id="23877-129"><strong>Alpha</strong> - Si cette option est sélectionnée, le clavier du périphérique est utilisé lors de la saisie manuelle d'informations dans l'application.</span><span class="sxs-lookup"><span data-stu-id="23877-129"><strong>Alpha</strong> - If selected, the device keyboard will be used when entering information manually in the app.</span></span> <span data-ttu-id="23877-130">L'expérience au clavier peut être modifiée selon le périphérique utilisé.</span><span class="sxs-lookup"><span data-stu-id="23877-130">The keyboard experience can be changed depending on which device is used.</span></span></li>
-<li><span data-ttu-id="23877-131"><strong>Numérique</strong> - Pour les noms de champ qui utilisent la saisie numérique uniquement, vous pouvez sélectionner cette option pour afficher un pavé numérique personnalisé avec le champ de saisie au lieu du clavier du périphérique.</span><span class="sxs-lookup"><span data-stu-id="23877-131"><strong>Numeric</strong> - For field names that use numeric input only, you can select this option to display a custom numeric keypad with the input field instead of the device keyboard.</span></span></li>
+<li><span data-ttu-id="c4252-124"><strong>Sélection</strong> - Contient une liste d’options parmi lesquelles choisir.</span><span class="sxs-lookup"><span data-stu-id="c4252-124"><strong>Selection</strong> - Contains a list of options to choose from.</span></span> <span data-ttu-id="c4252-125">Les noms de champ avec cette option ne sont pas modifiables.</span><span class="sxs-lookup"><span data-stu-id="c4252-125">Field names with this option are not editable.</span></span></li>
+<li><span data-ttu-id="c4252-126"><strong>Date</strong> - Les noms de champs spécifiés comme date affichent un format de date avec l’étiquette.</span><span class="sxs-lookup"><span data-stu-id="c4252-126"><strong>Date</strong> - Field names specified as date will show a date format with the label.</span></span> <span data-ttu-id="c4252-127">Cela permet aux magasiniers de déterminer le format de saisie de la date.</span><span class="sxs-lookup"><span data-stu-id="c4252-127">This helps warehouse workers see in which format to enter the date.</span></span> <span data-ttu-id="c4252-128">Les noms de champ avec cette option ne sont pas modifiables.</span><span class="sxs-lookup"><span data-stu-id="c4252-128">Field names with this option are not editable.</span></span></li>
+<li><span data-ttu-id="c4252-129"><strong>Alpha</strong> - Si cette option est sélectionnée, le clavier du périphérique est utilisé lors de la saisie manuelle d’informations dans l’application.</span><span class="sxs-lookup"><span data-stu-id="c4252-129"><strong>Alpha</strong> - If selected, the device keyboard will be used when entering information manually in the app.</span></span> <span data-ttu-id="c4252-130">L’expérience au clavier peut être modifiée selon le périphérique utilisé.</span><span class="sxs-lookup"><span data-stu-id="c4252-130">The keyboard experience can be changed depending on which device is used.</span></span></li>
+<li><span data-ttu-id="c4252-131"><strong>Numérique</strong> - Pour les noms de champ qui utilisent la saisie numérique uniquement, vous pouvez sélectionner cette option pour afficher un pavé numérique personnalisé avec le champ de saisie au lieu du clavier du périphérique.</span><span class="sxs-lookup"><span data-stu-id="c4252-131"><strong>Numeric</strong> - For field names that use numeric input only, you can select this option to display a custom numeric keypad with the input field instead of the device keyboard.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a><span data-ttu-id="23877-132">Configurer la priorité du champ d'application d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="23877-132">Configure warehouse app field priority</span></span>
+## <a name="configure-warehouse-app-field-priority"></a><span data-ttu-id="c4252-132">Configurer la priorité du champ d’application d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="c4252-132">Configure warehouse app field priority</span></span>
 
-<span data-ttu-id="23877-133">Sur la page **Priorité du champ d'application d'entrepôt**, vous pouvez classer les noms de champ dans différents groupes de priorité.</span><span class="sxs-lookup"><span data-stu-id="23877-133">On the **Warehouse app field priority** page, you can put field names into different priority groups.</span></span> <span data-ttu-id="23877-134">Cela permet de déterminer quelles informations doivent être affichées sur la page de tâches principale lorsque les magasiniers effectuent des tâches via l'application.</span><span class="sxs-lookup"><span data-stu-id="23877-134">This makes it possible to decide what information should be displayed on the main task page when warehouse workers perform tasks using the app.</span></span> <span data-ttu-id="23877-135">Si vous cliquez sur **Créer un paramétrage par défaut**, un ensemble de groupes de priorité par défaut est généré.</span><span class="sxs-lookup"><span data-stu-id="23877-135">If you click **Create default setup**, a default set of priority groups will be generated.</span></span> <span data-ttu-id="23877-136">Vous pouvez créer autant de groupes de priorité que nécessaire, mais seuls trois groupes de priorité seront affichés sur la page de tâches.</span><span class="sxs-lookup"><span data-stu-id="23877-136">It is possible to create as many priority groups as needed, but only three priority groups will be shown on the task page.</span></span> <span data-ttu-id="23877-137">Lorsque le système envoie des métadonnées à l'application, il affecte à chaque champ une priorité relative selon son groupe de priorité, et l'application affiche les trois premiers groupes de priorité contenus dans les métadonnées de la page de tâches.</span><span class="sxs-lookup"><span data-stu-id="23877-137">When the system sends metadata to the app, it will assign each field a relative priority depending on its priority group, and the app will display the first three priority groups contained in the metadata on the task page.</span></span> <span data-ttu-id="23877-138">Les métadonnées restantes seront affichées sur une page de détails secondaire.</span><span class="sxs-lookup"><span data-stu-id="23877-138">The rest of the overflowing metadata will be displayed on a secondary details page.</span></span> <span data-ttu-id="23877-139">Le tableau ci-dessous présente un exemple de cinq groupes de priorité.</span><span class="sxs-lookup"><span data-stu-id="23877-139">The following table shows an example of five priority groups.</span></span>
+<span data-ttu-id="c4252-133">Sur la page **Priorité du champ d’application d’entrepôt**, vous pouvez classer les noms de champ dans différents groupes de priorité.</span><span class="sxs-lookup"><span data-stu-id="c4252-133">On the **Warehouse app field priority** page, you can put field names into different priority groups.</span></span> <span data-ttu-id="c4252-134">Cela permet de déterminer quelles informations doivent être affichées sur la page de tâches principale lorsque les magasiniers effectuent des tâches via l’application.</span><span class="sxs-lookup"><span data-stu-id="c4252-134">This makes it possible to decide what information should be displayed on the main task page when warehouse workers perform tasks using the app.</span></span> <span data-ttu-id="c4252-135">Si vous cliquez sur **Créer un paramétrage par défaut**, un ensemble de groupes de priorité par défaut est généré.</span><span class="sxs-lookup"><span data-stu-id="c4252-135">If you click **Create default setup**, a default set of priority groups will be generated.</span></span> <span data-ttu-id="c4252-136">Vous pouvez créer autant de groupes de priorité que nécessaire, mais seuls trois groupes de priorité seront affichés sur la page de tâches.</span><span class="sxs-lookup"><span data-stu-id="c4252-136">It is possible to create as many priority groups as needed, but only three priority groups will be shown on the task page.</span></span> <span data-ttu-id="c4252-137">Lorsque le système envoie des métadonnées à l’application, il affecte à chaque champ une priorité relative selon son groupe de priorité, et l’application affiche les trois premiers groupes de priorité contenus dans les métadonnées de la page de tâches.</span><span class="sxs-lookup"><span data-stu-id="c4252-137">When the system sends metadata to the app, it will assign each field a relative priority depending on its priority group, and the app will display the first three priority groups contained in the metadata on the task page.</span></span> <span data-ttu-id="c4252-138">Les métadonnées restantes seront affichées sur une page de détails secondaire.</span><span class="sxs-lookup"><span data-stu-id="c4252-138">The rest of the overflowing metadata will be displayed on a secondary details page.</span></span> <span data-ttu-id="c4252-139">Le tableau ci-dessous présente un exemple de cinq groupes de priorité.</span><span class="sxs-lookup"><span data-stu-id="c4252-139">The following table shows an example of five priority groups.</span></span>
 
 <table>
 <colgroup>
@@ -78,68 +78,71 @@ ms.locfileid: "4963433"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23877-140">Groupe de priorité</span><span class="sxs-lookup"><span data-stu-id="23877-140">Priority group</span></span></th>
-<th><span data-ttu-id="23877-141">Champs affectés</span><span class="sxs-lookup"><span data-stu-id="23877-141">Assigned fields</span></span></th>
+<th><span data-ttu-id="c4252-140">Groupe de priorité</span><span class="sxs-lookup"><span data-stu-id="c4252-140">Priority group</span></span></th>
+<th><span data-ttu-id="c4252-141">Champs affectés</span><span class="sxs-lookup"><span data-stu-id="c4252-141">Assigned fields</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td> <span data-ttu-id="23877-142">Priorité 10</span><span class="sxs-lookup"><span data-stu-id="23877-142">Priority 10</span></span></td>
+<td> <span data-ttu-id="c4252-142">Priorité 10</span><span class="sxs-lookup"><span data-stu-id="c4252-142">Priority 10</span></span></td>
 <td><ul>
-<li><span data-ttu-id="23877-143">Article</span><span class="sxs-lookup"><span data-stu-id="23877-143">Item</span></span></li>
-<li><span data-ttu-id="23877-144">Quantité</span><span class="sxs-lookup"><span data-stu-id="23877-144">Quantity</span></span></li>
-<li><span data-ttu-id="23877-145">Unité de mesure</span><span class="sxs-lookup"><span data-stu-id="23877-145">Unit of measure</span></span></li>
+<li><span data-ttu-id="c4252-143">Article</span><span class="sxs-lookup"><span data-stu-id="c4252-143">Item</span></span></li>
+<li><span data-ttu-id="c4252-144">Quantité</span><span class="sxs-lookup"><span data-stu-id="c4252-144">Quantity</span></span></li>
+<li><span data-ttu-id="c4252-145">Unité de mesure</span><span class="sxs-lookup"><span data-stu-id="c4252-145">Unit of measure</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> <span data-ttu-id="23877-146">Priorité 20</span><span class="sxs-lookup"><span data-stu-id="23877-146">Priority 20</span></span></td>
+<td> <span data-ttu-id="c4252-146">Priorité 20</span><span class="sxs-lookup"><span data-stu-id="c4252-146">Priority 20</span></span></td>
 <td><ul>
-<li><span data-ttu-id="23877-147">Poste de groupement</span><span class="sxs-lookup"><span data-stu-id="23877-147">Cluster position</span></span></li>
-<li><span data-ttu-id="23877-148">Groupement</span><span class="sxs-lookup"><span data-stu-id="23877-148">Cluster</span></span></li>
+<li><span data-ttu-id="c4252-147">Poste de groupement</span><span class="sxs-lookup"><span data-stu-id="c4252-147">Cluster position</span></span></li>
+<li><span data-ttu-id="c4252-148">Groupement</span><span class="sxs-lookup"><span data-stu-id="c4252-148">Cluster</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> <span data-ttu-id="23877-149">Priorité 30</span><span class="sxs-lookup"><span data-stu-id="23877-149">Priority 30</span></span></td>
+<td> <span data-ttu-id="c4252-149">Priorité 30</span><span class="sxs-lookup"><span data-stu-id="c4252-149">Priority 30</span></span></td>
 <td><ul>
-<li><span data-ttu-id="23877-150">Description de l'article</span><span class="sxs-lookup"><span data-stu-id="23877-150">Item description</span></span></li>
+<li><span data-ttu-id="c4252-150">Description de l’article</span><span class="sxs-lookup"><span data-stu-id="c4252-150">Item description</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> <span data-ttu-id="23877-151">Priorité 40</span><span class="sxs-lookup"><span data-stu-id="23877-151">Priority 40</span></span></td>
+<td> <span data-ttu-id="c4252-151">Priorité 40</span><span class="sxs-lookup"><span data-stu-id="c4252-151">Priority 40</span></span></td>
 <td><ul>
-<li><span data-ttu-id="23877-152">Configuration</span><span class="sxs-lookup"><span data-stu-id="23877-152">Configuration</span></span></li>
-<li><span data-ttu-id="23877-153">Couleur</span><span class="sxs-lookup"><span data-stu-id="23877-153">Color</span></span></li>
-<li><span data-ttu-id="23877-154">Taille</span><span class="sxs-lookup"><span data-stu-id="23877-154">Size</span></span></li>
-<li><span data-ttu-id="23877-155">Style</span><span class="sxs-lookup"><span data-stu-id="23877-155">Style</span></span></li>
+<li><span data-ttu-id="c4252-152">Configuration</span><span class="sxs-lookup"><span data-stu-id="c4252-152">Configuration</span></span></li>
+<li><span data-ttu-id="c4252-153">Couleur</span><span class="sxs-lookup"><span data-stu-id="c4252-153">Color</span></span></li>
+<li><span data-ttu-id="c4252-154">Taille</span><span class="sxs-lookup"><span data-stu-id="c4252-154">Size</span></span></li>
+<li><span data-ttu-id="c4252-155">Style</span><span class="sxs-lookup"><span data-stu-id="c4252-155">Style</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> <span data-ttu-id="23877-156">Priorité 50</span><span class="sxs-lookup"><span data-stu-id="23877-156">Priority 50</span></span></td>
+<td> <span data-ttu-id="c4252-156">Priorité 50</span><span class="sxs-lookup"><span data-stu-id="c4252-156">Priority 50</span></span></td>
 <td><ul>
-<li><span data-ttu-id="23877-157">Entrepôt</span><span class="sxs-lookup"><span data-stu-id="23877-157">Location</span></span></li>
-<li><span data-ttu-id="23877-158">Contenant</span><span class="sxs-lookup"><span data-stu-id="23877-158">License plate</span></span></li>
+<li><span data-ttu-id="c4252-157">Entrepôt</span><span class="sxs-lookup"><span data-stu-id="c4252-157">Location</span></span></li>
+<li><span data-ttu-id="c4252-158">Contenant</span><span class="sxs-lookup"><span data-stu-id="c4252-158">License plate</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="23877-159">Par exemple, lorsqu'un magasinier effectue une tâche sur un appareil mobile, si les métadonnées qui seront affichées dans l'application comprennent les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="23877-159">For example, when a warehouse worker is performing a task on a mobile device, if the metadata that will be displayed in the app consists of the following fields:</span></span>
+<span data-ttu-id="c4252-159">Par exemple, lorsqu’un magasinier effectue une tâche sur un appareil mobile, si les métadonnées qui seront affichées dans l’application comprennent les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="c4252-159">For example, when a warehouse worker is performing a task on a mobile device, if the metadata that will be displayed in the app consists of the following fields:</span></span>
 
--   <span data-ttu-id="23877-160">Article</span><span class="sxs-lookup"><span data-stu-id="23877-160">Item</span></span>
--   <span data-ttu-id="23877-161">Quantité</span><span class="sxs-lookup"><span data-stu-id="23877-161">Quantity</span></span>
--   <span data-ttu-id="23877-162">Unité de mesure</span><span class="sxs-lookup"><span data-stu-id="23877-162">Unit of measure</span></span>
--   <span data-ttu-id="23877-163">Description de l'article</span><span class="sxs-lookup"><span data-stu-id="23877-163">Item description</span></span>
--   <span data-ttu-id="23877-164">Taille et emplacement</span><span class="sxs-lookup"><span data-stu-id="23877-164">Size and Location</span></span>
+-   <span data-ttu-id="c4252-160">Article</span><span class="sxs-lookup"><span data-stu-id="c4252-160">Item</span></span>
+-   <span data-ttu-id="c4252-161">Quantité</span><span class="sxs-lookup"><span data-stu-id="c4252-161">Quantity</span></span>
+-   <span data-ttu-id="c4252-162">Unité de mesure</span><span class="sxs-lookup"><span data-stu-id="c4252-162">Unit of measure</span></span>
+-   <span data-ttu-id="c4252-163">Description de l’article</span><span class="sxs-lookup"><span data-stu-id="c4252-163">Item description</span></span>
+-   <span data-ttu-id="c4252-164">Taille et emplacement</span><span class="sxs-lookup"><span data-stu-id="c4252-164">Size and Location</span></span>
 
-<span data-ttu-id="23877-165">Selon la priorité du champ d'application d'entrepôt paramétrée dans le tableau ci-dessus, les 3 lignes d'informations ci-après seront affichées sur la page de tâches :</span><span class="sxs-lookup"><span data-stu-id="23877-165">Based on the warehouse app field priority set up in the table above, the following 3 rows of information will be displayed on the task page:</span></span>
+<span data-ttu-id="c4252-165">Selon la priorité du champ d’application d’entrepôt paramétrée dans le tableau ci-dessus, les 3 lignes d’informations ci-après seront affichées sur la page de tâches :</span><span class="sxs-lookup"><span data-stu-id="c4252-165">Based on the warehouse app field priority set up in the table above, the following 3 rows of information will be displayed on the task page:</span></span>
 
--   <span data-ttu-id="23877-166">Ligne 1 : Article, Quantité, Unité de mesure</span><span class="sxs-lookup"><span data-stu-id="23877-166">Row 1: Item, Quantity, Unit of measure</span></span>
--   <span data-ttu-id="23877-167">Ligne 2 : Description de l'article</span><span class="sxs-lookup"><span data-stu-id="23877-167">Row 2: Item description</span></span>
--   <span data-ttu-id="23877-168">Ligne 3 : Taille</span><span class="sxs-lookup"><span data-stu-id="23877-168">Row 3: Size</span></span>
+-   <span data-ttu-id="c4252-166">Ligne 1 : Article, Quantité, Unité de mesure</span><span class="sxs-lookup"><span data-stu-id="c4252-166">Row 1: Item, Quantity, Unit of measure</span></span>
+-   <span data-ttu-id="c4252-167">Ligne 2 : Description de l’article</span><span class="sxs-lookup"><span data-stu-id="c4252-167">Row 2: Item description</span></span>
+-   <span data-ttu-id="c4252-168">Ligne 3 : Taille</span><span class="sxs-lookup"><span data-stu-id="c4252-168">Row 3: Size</span></span>
 
-<span data-ttu-id="23877-169">Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails.</span><span class="sxs-lookup"><span data-stu-id="23877-169">The remaining metadata, for example, Location, will not be displayed on the task page, but will be displayed on a details page.</span></span> <span data-ttu-id="23877-170">Pour en savoir plus et pour consulter des exemples de l'interface utilisateur, reportez-vous à la publication de blog [Annonce de Finance and Operations - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span><span class="sxs-lookup"><span data-stu-id="23877-170">To learn more and see examples of the user interface, refer to the blog post [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span></span>
+<span data-ttu-id="c4252-169">Les métadonnées restantes, par exemple, Emplacement, ne seront pas affichées sur la page de tâches, mais sur une page de détails.</span><span class="sxs-lookup"><span data-stu-id="c4252-169">The remaining metadata, for example, Location, will not be displayed on the task page, but will be displayed on a details page.</span></span> <span data-ttu-id="c4252-170">Pour en savoir plus et pour consulter des exemples de l’interface utilisateur, reportez-vous à la publication de blog [Annonce de Finance and Operations - Entreposage](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span><span class="sxs-lookup"><span data-stu-id="c4252-170">To learn more and see examples of the user interface, refer to the blog post [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="23877-171">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="23877-171">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="c4252-171">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="c4252-171">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="23877-172">Vue d'ensemble de l'installation et de la configuration de l'application d'entrepôt</span><span class="sxs-lookup"><span data-stu-id="23877-172">Install and configure the warehouse app overview</span></span>](install-configure-warehousing-app.md)
+[<span data-ttu-id="c4252-172">Vue d’ensemble de l’installation et de la configuration de l’application d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="c4252-172">Install and configure the warehouse app overview</span></span>](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
