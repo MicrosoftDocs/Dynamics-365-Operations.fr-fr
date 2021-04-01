@@ -1,5 +1,5 @@
 ---
-title: Projet lié à l'accord de service
+title: Projet lié à l’accord de service
 description: Vous pouvez associer des accords de service à des projets de tout type, sauf au type Projet de temps.
 author: ShylaThompson
 manager: tfehr
@@ -17,22 +17,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d28219698896e6515eecac5214f3cac1d8f5f034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5ca83d1920a61093012600ff453f35496b96b5e1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006589"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258540"
 ---
-# <a name="project-attached-to-service-agreement"></a><span data-ttu-id="3e7f6-103">Projet lié à l'accord de service</span><span class="sxs-lookup"><span data-stu-id="3e7f6-103">Project attached to service agreement</span></span> 
+# <a name="project-attached-to-service-agreement"></a><span data-ttu-id="1b619-103">Projet lié à l’accord de service</span><span class="sxs-lookup"><span data-stu-id="1b619-103">Project attached to service agreement</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="3e7f6-104">Vous pouvez associer des accords de service à des projets de tout type, sauf au type **Projet de temps**.</span><span class="sxs-lookup"><span data-stu-id="3e7f6-104">You can attach service agreements to projects of every type except the **Time project** type.</span></span>
+<span data-ttu-id="1b619-104">Vous pouvez associer des accords de service à des projets de tout type, sauf au type **Projet de temps**.</span><span class="sxs-lookup"><span data-stu-id="1b619-104">You can attach service agreements to projects of every type except the **Time project** type.</span></span>
 
-<span data-ttu-id="3e7f6-105">Vous enregistrez et validez toutes les transactions de commande de service du projet associé à l'accord de service.</span><span class="sxs-lookup"><span data-stu-id="3e7f6-105">You register and post all service order transactions through the project that you attach to the service agreement.</span></span> <span data-ttu-id="3e7f6-106">Vous spécifiez les journaux dans lesquels ces transactions sont enregistrées et validées sous le lien **Journaux** de l'écran **Paramètres de gestion des services**.</span><span class="sxs-lookup"><span data-stu-id="3e7f6-106">You specify the journals in which these transactions are registered and posted on the **Journals** link in the **Service management parameters** form.</span></span>
+<span data-ttu-id="1b619-105">Vous enregistrez et validez toutes les transactions de commande de service du projet associé à l’accord de service.</span><span class="sxs-lookup"><span data-stu-id="1b619-105">You register and post all service order transactions through the project that you attach to the service agreement.</span></span> <span data-ttu-id="1b619-106">Vous spécifiez les journaux dans lesquels ces transactions sont enregistrées et validées sous le lien **Journaux** de l’écran **Paramètres de gestion des services**.</span><span class="sxs-lookup"><span data-stu-id="1b619-106">You specify the journals in which these transactions are registered and posted on the **Journals** link in the **Service management parameters** form.</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
