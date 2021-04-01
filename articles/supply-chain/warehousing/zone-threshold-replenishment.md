@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6aaa139fb206c035b25b7056e681d086fde6447f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965500"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245056"
 ---
 # <a name="zone-threshold-replenishment"></a>Réapprovisionnement du seuil de zone
 
@@ -40,7 +40,7 @@ Contrairement au réapprovisionnement min/max basé sur l’emplacement, le réa
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Activer la fonctionnalité de réapprovisionnement du seuil de zone
 
-Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de zone* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l'activer si nécessaire. Dans l'espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
+Avant de pouvoir utiliser la fonctionnalité *Réapprovisionnement du seuil de zone* doit être activée sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des entrepôts*
 - **Nom de la fonctionnalité :** *Réapprovisionnement du seuil de zone*
@@ -151,7 +151,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
 ##### <a name="create-a-replenishment-pick-directive"></a>Créer une directive de prélèvement de réapprovisionnement
 
 1. Sélectionnez l’entité juridique **USMF** pour travailler avec les données de démonstration.
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d'emplacements**.
+1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
 1. Dans le volet gauche, définissez le champ **Type d’ordre de travail** sur _Réapprovisionnement_.
 1. Dans le volet Actions, sélectionnez **Nouveau** pour créer une directive.
 1. Définissez les valeurs suivantes :
@@ -165,7 +165,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **SKU multiple :** Définissez cette option sur _Non_.
 
 1. Sélectionnez **Enregistrer** pour créer une directive contenant les paramètres que vous avez configurés jusqu’à présent.
-1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l’organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.
@@ -217,7 +217,7 @@ Pour préparer des données de démonstration afin qu’elles puissent être uti
     - **SKU multiple :** Définissez cette option sur _Non_.
 
 1. Sélectionnez **Enregistrer** pour créer une directive contenant les paramètres que vous avez configurés jusqu’à présent.
-1. Dans l'organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
+1. Dans l’organisateur **Lignes**, sélectionnez **Nouveau** pour ajouter une ligne à la grille.
 1. Sur la nouvelle ligne, définissez les valeurs suivantes :
 
     - **Numéro de séquence :** Entrez _1_.

@@ -1,6 +1,6 @@
 ---
-title: Consolider les expéditions à l'aide du champ Lancement dans l'entrepôt depuis l'atelier de planification des chargements
-description: Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l'entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
+title: Consolider les expéditions à l’aide du champ Lancement dans l’entrepôt depuis l’atelier de planification des chargements
+description: Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
 author: GarmMSFT
 manager: tfehr
 ms.date: 05/12/2020
@@ -15,30 +15,30 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c0af6764742532cbe181c8a20e7bf783b0e6d7cf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2fd13c2ceb8843b79b9dbc87acf77f219f0244f5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242251"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolider les expéditions à l'aide du champ Lancement dans l'entrepôt depuis l'atelier de planification des chargements
+# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolider les expéditions à l’aide du champ Lancement dans l’entrepôt depuis l’atelier de planification des chargements
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l'entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
+Cette rubrique présente un scénario dans lequel plusieurs commandes sont lancées dans l’entrepôt dans le même chargement et sont ensuite automatiquement consolidées en expéditions.
 
 ## <a name="make-demo-data-available"></a>Rendre les données de démonstration disponibles
 
-Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l'entité juridique sur **USMF** avant de commencer.
+Le scénario de cette rubrique fait référence à des valeurs et des enregistrements inclus dans les données de démonstration standard fournies pour Microsoft Dynamics 365 Supply Chain Management. Pour utiliser les valeurs fournies ici lorsque vous effectuez les exercices, assurez-vous de travailler dans un environnement où les données de démonstration sont installées et définissez l’entité juridique sur **USMF** avant de commencer.
 
-## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurer des stratégies de consolidation d'expédition et des filtres de produits
+## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Configurer des stratégies de consolidation d’expédition et des filtres de produits
 
-Le scénario décrit ici suppose que vous avez déjà activé la fonctionnalité, effectué les exercices de la rubrique [Configurer les stratégies de consolidation de l'expédition](configure-shipment-consolidation-policies.md) et créé les stratégies et autres enregistrements qui y sont décrits. Assurez-vous de faire ces exercices avant de continuer avec ce scénario.
+Le scénario décrit ici suppose que vous avez déjà activé la fonctionnalité, effectué les exercices de la rubrique [Configurer les stratégies de consolidation de l’expédition](configure-shipment-consolidation-policies.md) et créé les stratégies et autres enregistrements qui y sont décrits. Assurez-vous de faire ces exercices avant de continuer avec ce scénario.
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Créez les commandes client pour ce scénario
 
-Commencez par créer une collection de commandes client avec lesquelles vous pouvez travailler. Vous devez travailler avec un entrepôt activé pour les processus d'entrepôt avancés (WMS). À moins qu'un autre entrepôt ne soit explicitement mentionné, ce même entrepôt doit être utilisé pour chacun des ensembles de commandes suivants.
+Commencez par créer une collection de commandes client avec lesquelles vous pouvez travailler. Vous devez travailler avec un entrepôt activé pour les processus d’entrepôt avancés (WMS). À moins qu’un autre entrepôt ne soit explicitement mentionné, ce même entrepôt doit être utilisé pour chacun des ensembles de commandes suivants.
 
 Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** et créez une collection de commandes client dont les paramètres sont décrits dans les sous-sections suivantes.
 
@@ -53,7 +53,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -67,7 +67,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -81,13 +81,13 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 1. Ajoutez une deuxième ligne de commande avec les paramètres suivants :
 
-    - **Numéro d'article :** *A0002* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0002* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
     - **Mode de livraison :** *Airwa-Air*
 
@@ -103,13 +103,13 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable*)
+    - **Numéro d’article :** *M9200* (un article où le filtre **Code 4** est défini sur *Inflammable*)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 1. Ajoutez une deuxième ligne de commande avec les paramètres suivants :
 
-    - **Numéro d'article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif*)
+    - **Numéro d’article :** *M9201* (un article où le filtre **Code 4** est défini sur *Explosif*)
     - **Quantité :** *1.00*
     - **Mode de livraison :** *Airwa-Air*
 
@@ -126,7 +126,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -140,7 +140,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -155,7 +155,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -168,7 +168,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -184,7 +184,7 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
@@ -200,22 +200,22 @@ Allez dans **Comptabilité client \> Commandes \> Toutes les commandes client** 
 
 1. Ajoutez une ligne de commande possédant les paramètres suivants :
 
-    - **Numéro d'article :** *A0001* (un article auquel aucun filtre **Code 4** n'est affecté)
+    - **Numéro d’article :** *A0001* (un article auquel aucun filtre **Code 4** n’est affecté)
     - **Quantité :** *1.00*
 
 1. Sélectionnez **Stock \> Réservation**, puis, dans le volet Actions, sélectionnez **Réserver un lot** pour réserver la ligne de commande.
 
-## <a name="use-the-load-planning-workbench-to-create-loads-and-release-them-to-the-warehouse"></a>Utilisez l'atelier de planification des chargements pour créer des chargements et les lancer dans l'entrepôt
+## <a name="use-the-load-planning-workbench-to-create-loads-and-release-them-to-the-warehouse"></a>Utilisez l’atelier de planification des chargements pour créer des chargements et les lancer dans l’entrepôt
 
-Suivez ces étapes pour créer un chargement pour chaque jeu de commandes que vous avez créé pour ce scénario, puis lancez-le dans l'entrepôt.
+Suivez ces étapes pour créer un chargement pour chaque jeu de commandes que vous avez créé pour ce scénario, puis lancez-le dans l’entrepôt.
 
 1. Allez dans **Gestion des entrepôts \> Chargements \> Atelier de planification des chargements**.
-1. Sur l'onglet **Lignes de vente**, recherchez et sélectionnez toutes les lignes de commande client dans l'un des jeux de commandes que vous avez créés pour ce scénario.
-1. Sur le volet Actions, sur l'onglet **Approvisionnement et demande**, sélectionnez **Ajouter \> Dans un nouveau chargement** pour ajouter les lignes de commande sélectionnées à un nouveau chargement.
+1. Sur l’onglet **Lignes de vente**, recherchez et sélectionnez toutes les lignes de commande client dans l’un des jeux de commandes que vous avez créés pour ce scénario.
+1. Sur le volet Actions, sur l’onglet **Approvisionnement et demande**, sélectionnez **Ajouter \> Dans un nouveau chargement** pour ajouter les lignes de commande sélectionnées à un nouveau chargement.
 1. Dans la boîte de dialogue **Affectation des modèles de chargement**, dans le champ **ID du modèle de chargement**, sélectionnez un modèle de chargement, tel que *Modèle de chargement standard*.
 1. Sélectionnez **OK** pour fermer la boîte de dialogue. 
 1. Dans la section **Chargements**, recherchez et sélectionnez le chargement que vous venez de créer.
-1. Sélectionnez **Lancer \> Lancement dans l'entrepôt** pour lancer le chargement sélectionné dans l'entrepôt.
+1. Sélectionnez **Lancer \> Lancement dans l’entrepôt** pour lancer le chargement sélectionné dans l’entrepôt.
 1. Répétez cette procédure pour les trois autres jeux de commandes que vous avez créés pour ce scénario.
 
 ## <a name="verify-the-shipments"></a>Vérifier les expéditions
@@ -223,22 +223,22 @@ Suivez ces étapes pour créer un chargement pour chaque jeu de commandes que vo
 La procédure suivante vous permet de vérifier les expéditions qui ont été créées ou mises à jour suite à la consolidation des expéditions. Utilisez-la pour passer en revue chaque jeu de commandes que vous avez créé pour ce scénario, puis passez en revue les sous-sections qui suivent pour vous assurer que vous avez obtenu les résultats attendus.
 
 1. Allez dans **Gestion des entrepôts \> Expéditions \> Toutes les expéditions**.
-1. Recherchez et sélectionnez l'expédition requise.
-1. Si une stratégie de consolidation a été utilisée lors de la création ou de la mise à jour de l'expédition, elle doit apparaître dans le champ **Stratégie de consolidation d'expédition**.
+1. Recherchez et sélectionnez l’expédition requise.
+1. Si une stratégie de consolidation a été utilisée lors de la création ou de la mise à jour de l’expédition, elle doit apparaître dans le champ **Stratégie de consolidation d’expédition**.
 
 ### <a name="release-order-set-1-in-one-load"></a>Lancer le jeu de commandes 1 dans un chargement
 
 Deux expéditions sont normalement créées :
 
-- La première expédition contient trois lignes et a été créée à l'aide de la stratégie de consolidation des expéditions *CustomerMode*.
-- Le deuxième envoi, qui n'utilise pas le moyen de transport *Avion*, a été créé en utilisant la stratégie de consolidation des expéditions *CustomerOrderNo*.
+- La première expédition contient trois lignes et a été créée à l’aide de la stratégie de consolidation des expéditions *CustomerMode*.
+- Le deuxième envoi, qui n’utilise pas le moyen de transport *Avion*, a été créé en utilisant la stratégie de consolidation des expéditions *CustomerOrderNo*.
 
 ### <a name="release-order-set-2-in-one-load"></a>Lancer le jeu de commandes 2 dans un chargement
 
 Trois expéditions sont normalement créées :
 
 - La première expédition contient les articles *Inflammables*.
-- Chacune des deux autres expéditions contient une ligne avec l'article *Explosif*.
+- Chacune des deux autres expéditions contient une ligne avec l’article *Explosif*.
 
 ### <a name="release-order-set-3-in-one-load"></a>Lancer le jeu de commandes 3 dans un chargement
 
@@ -251,15 +251,15 @@ Deux expéditions sont normalement créées :
 
 Quatre expéditions sont normalement créées :
 
-- Les lignes des deux commandes pour le compte *US-003* ont été regroupées en une seule expédition à l'aide de la stratégie de consolidation des expéditions *Regroupement de commandes*.
-- Les lignes des deux commandes pour le compte *US-004* ont été regroupées en une seule expédition à l'aide de la stratégie de consolidation des expéditions *Regroupement de commandes*.
-- Les lignes des commandes client 4-5 et 4-6 pour le compte *US-007* ont été regroupées en une seule expédition à l'aide de la stratégie de consolidation des expéditions *Regroupement de commandes*.
-- Les lignes des commandes client 4-7 et 4-8 pour le compte *US-007* ont été regroupées en une seule expédition à l'aide de la stratégie de consolidation des expéditions *CrossOrder*.
+- Les lignes des deux commandes pour le compte *US-003* ont été regroupées en une seule expédition à l’aide de la stratégie de consolidation des expéditions *Regroupement de commandes*.
+- Les lignes des deux commandes pour le compte *US-004* ont été regroupées en une seule expédition à l’aide de la stratégie de consolidation des expéditions *Regroupement de commandes*.
+- Les lignes des commandes client 4-5 et 4-6 pour le compte *US-007* ont été regroupées en une seule expédition à l’aide de la stratégie de consolidation des expéditions *Regroupement de commandes*.
+- Les lignes des commandes client 4-7 et 4-8 pour le compte *US-007* ont été regroupées en une seule expédition à l’aide de la stratégie de consolidation des expéditions *CrossOrder*.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Stratégies de consolidation de l'expédition](about-shipment-consolidation-policies.md)
-- [Configurer les stratégies de consolidation de l'expédition](configure-shipment-consolidation-policies.md)
+- [Stratégies de consolidation de l’expédition](about-shipment-consolidation-policies.md)
+- [Configurer les stratégies de consolidation de l’expédition](configure-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

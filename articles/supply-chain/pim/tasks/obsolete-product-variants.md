@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b212a6b4268776893d4e018cab605e6441080fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 33f16cf8c731dc1a954ed94229b2a833510dac4f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986852"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245177"
 ---
 # <a name="find-obsolete-product-variants"></a>Rechercher les variantes de produit obsolètes 
 
@@ -29,7 +29,7 @@ Cette procédure décrit comment rechercher des produits ou des variantes de pro
 
 
 ## <a name="run-a-simulation"></a>Exécuter une simulation
-1. Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l'état du cycle de vie des produits obsolètes.
+1. Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l’état du cycle de vie des produits obsolètes.
 2. Dans le champ Nouvel état du cycle de vie des produits, entrez ou sélectionnez une valeur.
 3. Sélectionnez Oui dans le champ Exécuter la simulation sans mettre à jour les données du produit.
 4. Dans le champ Exclure les produits créés dans ce nombre de jours, entrez un nombre.
@@ -42,35 +42,35 @@ Cette procédure décrit comment rechercher des produits ou des variantes de pro
 11. Cliquez sur OK.
 
 > [!NOTE]
-> Nous vous recommandons d'exécuter la simulation par lots si vous comptez rechercher un grand nombre de produits. En outre, vérifiez que la simulation n'est pas exécutée pendant le temps de travail le plus actif de la société.  
+> Nous vous recommandons d’exécuter la simulation par lots si vous comptez rechercher un grand nombre de produits. En outre, vérifiez que la simulation n’est pas exécutée pendant le temps de travail le plus actif de la société.  
 
 ## <a name="review-the-simulation-results"></a>Examiner les résultats de la simulation
-1. Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l'état du cycle de vie des produits.
+1. Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l’état du cycle de vie des produits.
    
 > [!NOTE]
-> Sur cette page, vous pouvez examiner les résultats de la simulation et effectuer une évaluation du nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l'exécution de la mise à jour sans simulation.  
+> Sur cette page, vous pouvez examiner les résultats de la simulation et effectuer une évaluation du nombre de produits et de variantes de produit à associer à un nouvel état du cycle de vie des produits lors de l’exécution de la mise à jour sans simulation.  
 
-## <a name="run-the-update-of-the-product-lifecycle-state-for-obsolete-products"></a>Exécuter la mise à jour de l'état du cycle de vie des produits pour les produits obsolètes
+## <a name="run-the-update-of-the-product-lifecycle-state-for-obsolete-products"></a>Exécuter la mise à jour de l’état du cycle de vie des produits pour les produits obsolètes
 1. Fermez la page.
-2. Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l'état du cycle de vie des produits obsolètes.
+2. Accédez à Gestion des informations sur les produits > Tâches périodiques > Modifier l’état du cycle de vie des produits obsolètes.
 3. Développez les enregistrements pour inclure la section.
 
 > [!NOTE]
 > Notez que la dernière sélection a été enregistrée.  
 
 4. Sélectionnez Non dans le champ Exécuter la simulation sans mettre à jour les données du produit.
-5. Développez la section Exécuter à l'arrière-plan.
+5. Développez la section Exécuter à l’arrière-plan.
 
 > [!NOTE]
-> Selon le nombre de produits et de variantes de produit affectés, envisagez d'exécuter cette tâche par lots. Vérifiez que vous n'exécutez pas une tâche de mise à jour volumineuse pendant les heures de travail les plus actives de la société.  
+> Selon le nombre de produits et de variantes de produit affectés, envisagez d’exécuter cette tâche par lots. Vérifiez que vous n’exécutez pas une tâche de mise à jour volumineuse pendant les heures de travail les plus actives de la société.  
 
 6. Cliquez sur OK.
-7. Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l'état du cycle de vie des produits.
+7. Accédez à Gestion des informations sur les produits > Recherches et états > Historique de maintenance de l’état du cycle de vie des produits.
 
 > [!NOTE]
 > Examinez les modifications des produits et des variantes de produits lancés.  
 
-8. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+8. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Créer une classe de travail
-description: Cette procédure décrit le processus de paramétrage d'une classe de travail.
+description: Cette procédure décrit le processus de paramétrage d’une classe de travail.
 author: ShylaThompson
 manager: tfehr
 ms.date: 11/14/2016
@@ -16,27 +16,27 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e06cd5fc6dc27f79eb39bbd78932a166e9d442
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49b110b93e6f0f886d180f9f2725245faad7afab
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977211"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239036"
 ---
 # <a name="create-a-work-class"></a>Créer une classe de travail
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit le processus de paramétrage d'une classe de travail. Les classes de travail sont utilisées pour diriger et/ou limiter le type de lignes de commande de travail qu'un employé de l'entrepôt peut traiter sur un périphérique portable. Les lignes qu'un employé peut traiter sont déterminées à partir des classes de travail sur les éléments du menu du périphérique portable auquel l'employé de l'entrepôt a accès et de la classe de travail spécifiée sur les lignes de travail. Les classes de travail peuvent également être utilisées pour valider l'emplacement de rangement d'une ligne de commande de travail. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Cette procédure est destinée au gestionnaire d'entrepôts.
+Cette procédure décrit le processus de paramétrage d’une classe de travail. Les classes de travail sont utilisées pour diriger et/ou limiter le type de lignes de commande de travail qu’un employé de l’entrepôt peut traiter sur un périphérique portable. Les lignes qu’un employé peut traiter sont déterminées à partir des classes de travail sur les éléments du menu du périphérique portable auquel l’employé de l’entrepôt a accès et de la classe de travail spécifiée sur les lignes de travail. Les classes de travail peuvent également être utilisées pour valider l’emplacement de rangement d’une ligne de commande de travail. Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Cette procédure est destinée au gestionnaire d’entrepôts.
 
 1. Accédez à Gestion des entrepôts > Configuration > Travail > Classes de travail.
 2. Cliquez sur Nouveau.
 3. Tapez une valeur dans le champ ID classe de travail.
 4. Dans le champ Description, entrez une valeur.
-5. Sélectionnez une option dans le champ Type d'ordre d'exécution.
+5. Sélectionnez une option dans le champ Type d’ordre d’exécution.
 6. Cliquez sur Nouveau.
 7. Dans le champ Emplacement, tapez une valeur.
-    * Si vous sélectionnez un type d'emplacement, ceci définit une restriction quant au lieu dans lequel les articles peuvent être mis une fois qu'ils ont été prélevés. Ce paramètre est utilisé lors de tentatives d'une directive d'emplacement pour résoudre l'emplacement, ou si un employé de l'entrepôt fournit manuellement l'emplacement pour l'élément du menu du périphérique portable.  
+    * Si vous sélectionnez un type d’emplacement, ceci définit une restriction quant au lieu dans lequel les articles peuvent être mis une fois qu’ils ont été prélevés. Ce paramètre est utilisé lors de tentatives d’une directive d’emplacement pour résoudre l’emplacement, ou si un employé de l’entrepôt fournit manuellement l’emplacement pour l’élément du menu du périphérique portable.  
 8. Fermez la page.
 
 

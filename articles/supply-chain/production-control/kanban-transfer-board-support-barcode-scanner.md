@@ -1,6 +1,6 @@
 ---
 title: Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
-description: La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
+description: La tableau de transfert kanban prend en charge l’entrée de scanneur à partir d’un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
 author: ChristianRytt
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,45 +18,45 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8b6d65430d09c293fd5bca032b8b0e88c971d5a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007064"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246091"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
 
 [!include [banner](../includes/banner.md)]
 
-La tableau de transfert kanban prend en charge l'entrée de scanneur à partir d'un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
+La tableau de transfert kanban prend en charge l’entrée de scanneur à partir d’un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
 
-<a name="registration-modes"></a>Modes d'enregistrement
+<a name="registration-modes"></a>Modes d’enregistrement
 ------------------
 
-Dans l'organisateur **Enregistrement du scanneur**, vous pouvez sélectionner le mode d'enregistrement, qui contrôle l'action lorsque vous numérisez un numéro de carte kanban ou entrez manuellement le numéro dans le champ Numéro de carte kanban.
+Dans l’organisateur **Enregistrement du scanneur**, vous pouvez sélectionner le mode d’enregistrement, qui contrôle l’action lorsque vous numérisez un numéro de carte kanban ou entrez manuellement le numéro dans le champ Numéro de carte kanban.
 
-| Définir le mode d'enregistrement | Description                                                                                     |
+| Définir le mode d’enregistrement | Description                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Commencer                 | Enregistre une opération de transfert de kanban avec le statut « En cours ».                                                 |
 | Terminée              | Enregistre une opération de transfert de kanban avec le statut « Terminé ».                                                   |
-| Vide                 | Enregistre l'unité de manutention du matériel référencée par une carte kanban avec le statut « Vide ».              |
-| Sélectionner                | Enregistre un numéro de carte kanban et sélectionne automatiquement l'opération référencée dans la liste du kanban. |
+| Vide                 | Enregistre l’unité de manutention du matériel référencée par une carte kanban avec le statut « Vide ».              |
+| Sélectionner                | Enregistre un numéro de carte kanban et sélectionne automatiquement l’opération référencée dans la liste du kanban. |
 
  
-<a name="registration-mode-select"></a>Sélection du mode d'enregistrement
+<a name="registration-mode-select"></a>Sélection du mode d’enregistrement
 ------------------------
 
-Lorsque vous utilisez un lecteur de codes-barres pour sélectionner une tâche, le mode d'affichage du tableau kanban change. Dans ce mode, les conditions suivantes s'appliquent :
+Lorsque vous utilisez un lecteur de codes-barres pour sélectionner une tâche, le mode d’affichage du tableau kanban change. Dans ce mode, les conditions suivantes s’appliquent :
 
--   Seule la tâche de kanban numérisée s'affiche.
--   Les détails de la tâche sélectionnée s'affichent dans l'organisateur **Détails**.
--   L'organisateur **Messages** affiche les messages uniquement pour la tâche sélectionnée.
--   Vous pouvez modifier le statut de la tâche à l'aide des fonctions disponibles dans le volet Actions. Le tableau de transfert kanban continue à n'afficher qu'une seule tâche pendant ce temps.
--   Vous pouvez mettre à jour les informations de la liste de tâches manuellement en cliquant sur **Actualiser** (Maj+F5) dans le volet Actions. Après avoir actualisé les informations, les résultats complets pour le filtre de tâches s'affichent à nouveau.
+-   Seule la tâche de kanban numérisée s’affiche.
+-   Les détails de la tâche sélectionnée s’affichent dans l’organisateur **Détails**.
+-   L’organisateur **Messages** affiche les messages uniquement pour la tâche sélectionnée.
+-   Vous pouvez modifier le statut de la tâche à l’aide des fonctions disponibles dans le volet Actions. Le tableau de transfert kanban continue à n’afficher qu’une seule tâche pendant ce temps.
+-   Vous pouvez mettre à jour les informations de la liste de tâches manuellement en cliquant sur **Actualiser** (Maj+F5) dans le volet Actions. Après avoir actualisé les informations, les résultats complets pour le filtre de tâches s’affichent à nouveau.
 
 ## <a name="job-status-and-possible-actions"></a>Statut de tâche et actions possibles
-Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kanbans d'événement déterminent si vous pouvez poursuivre le traitement de la tâche. Le tableau suivant affiche des informations sur ces statuts et tâches :
+Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kanbans d’événement déterminent si vous pouvez poursuivre le traitement de la tâche. Le tableau suivant affiche des informations sur ces statuts et tâches :
 -   Statuts disponibles pour les tâches ou pour les unités de manutention référencées par les tâches.
 -   Chaque tâche que vous pouvez exécuter pour la tâche.
 
@@ -74,13 +74,13 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 <thead>
 <tr class="header">
 <th>Type de tâche</th>
-<th>Statut de la tâche ou statut de l'unité de manutention</th>
+<th>Statut de la tâche ou statut de l’unité de manutention</th>
 <th>Mettre à jour les prélèvements</th>
 <th>Commencer</th>
-<th>Mettre à jour l'enregistrement</th>
+<th>Mettre à jour l’enregistrement</th>
 <th>Terminée</th>
 <th>Vide</th>
-<th>Créer des kanbans d'événement</th>
+<th>Créer des kanbans d’événement</th>
 </tr>
 </thead>
 <tbody>
@@ -101,7 +101,7 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 <td>Transfert</td>
 <td><ul>
 <li>Non planifié</li>
-<li>La tâche liée n'est pas terminée</li>
+<li>La tâche liée n’est pas terminée</li>
 </ul></td>
 <td>Oui</td>
 <td>Non</td>
@@ -152,7 +152,7 @@ Le statut de la tâche sélectionnée et le statut de toute tâche liée aux kan
 </tr>
 <tr class="odd">
 <td>Transfert ou processus</td>
-<td>Une carte kanban est détectée, mais elle n'est pas affectée à un kanban</td>
+<td>Une carte kanban est détectée, mais elle n’est pas affectée à un kanban</td>
 <td>Non</td>
 <td>Non</td>
 <td>Non</td>

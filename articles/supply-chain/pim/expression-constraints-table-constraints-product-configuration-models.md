@@ -1,6 +1,6 @@
 ---
-title: Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
-description: Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
+title: Contraintes d’expression et contraintes de table dans les modèles de configuration de produit
+description: Cette rubrique décrit l’utilisation des contraintes d’expression et de table. Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
 author: cvocph
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,32 +18,32 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 989981e6ca8c1075367776ceafe5b88429e004d2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243223"
 ---
-# <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d'expression et contraintes de table dans les modèles de configuration de produit
+# <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Contraintes d’expression et contraintes de table dans les modèles de configuration de produit
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit l'utilisation des contraintes d'expression et de table. Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
+Cette rubrique décrit l’utilisation des contraintes d’expression et de table. Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. 
 
-Les contraintes permettent de contrôler les valeurs d'attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
+Les contraintes permettent de contrôler les valeurs d’attribut que vous pouvez sélectionner lorsque vous configurez des produits pour une commande client, un devis de vente, une commande fournisseur ou un ordre de fabrication. Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes.
 
-## <a name="what-are-expression-constraints"></a>Que sont les contraintes d'expression ?
-Les contraintes d'expression sont caractérisées par une expression utilisant l'arithmétique, les opérateurs booléens et les fonctions. Une contrainte d'expression est entrée pour un composant spécifique dans un modèle de configuration de produit. Elle ne peuvent pas être réutilisées ni partagées avec un autre composant. Toutefois, les contraintes d'expression pour un composant peuvent référencer des attributs des sous-composants du composant.
+## <a name="what-are-expression-constraints"></a>Que sont les contraintes d’expression ?
+Les contraintes d’expression sont caractérisées par une expression utilisant l’arithmétique, les opérateurs booléens et les fonctions. Une contrainte d’expression est entrée pour un composant spécifique dans un modèle de configuration de produit. Elle ne peuvent pas être réutilisées ni partagées avec un autre composant. Toutefois, les contraintes d’expression pour un composant peuvent référencer des attributs des sous-composants du composant.
 
 ## <a name="what-are-table-constraints"></a>Que sont les contraintes de table ?
-Les contraintes de table répertorient les combinaisons de valeurs autorisées pour les attributs lorsque vous configurez un produit. Les définitions de contrainte de table peuvent être utilisées génériquement. Lorsque vous créez une contrainte de table pour un composant dans un modèle de configuration de produit, vous sélectionnez une définition de contrainte de table. Pour créer les combinaisons autorisées, vous ajoutez des attributs de types spécifiques aux composants. Chaque type d'attribut a une valeur spécifique.
+Les contraintes de table répertorient les combinaisons de valeurs autorisées pour les attributs lorsque vous configurez un produit. Les définitions de contrainte de table peuvent être utilisées génériquement. Lorsque vous créez une contrainte de table pour un composant dans un modèle de configuration de produit, vous sélectionnez une définition de contrainte de table. Pour créer les combinaisons autorisées, vous ajoutez des attributs de types spécifiques aux composants. Chaque type d’attribut a une valeur spécifique.
 
 ### <a name="example-of-a-table-constraint"></a>Exemple de contrainte de table
 
-Cet exemple décrit la manière dont vous pouvez limiter la configuration d'un haut-parleur à des finitions et des grilles avant spécifiques. Le premier tableau indique les finitions du meuble et les grilles avant qui sont généralement disponibles pour la configuration. Les valeurs sont définies pour les types d'attribut **Finitions du meuble** et **Grille avant**.
+Cet exemple décrit la manière dont vous pouvez limiter la configuration d’un haut-parleur à des finitions et des grilles avant spécifiques. Le premier tableau indique les finitions du meuble et les grilles avant qui sont généralement disponibles pour la configuration. Les valeurs sont définies pour les types d’attribut **Finitions du meuble** et **Grille avant**.
 
-| Type d'attribut | Valeurs                      |
+| Type d’attribut | Valeurs                      |
 |----------------|-----------------------------|
 | Finitions du meuble | Noir, chêne, bois de rose, blanc |
 | Grille avant    | Noir, métal, blanc         |
@@ -59,15 +59,15 @@ Le tableau suivant indique les combinaisons définies par la contrainte de table
 | Noir          | Noir                       |
 | Noir          | Métal                       | 
 
-Vous pouvez créer des contraintes de table définies par le système et par l'utilisateur. Pour plus d'informations, voir [Contraintes de table définies par l'utilisateur et par le système](system-defined-user-defined-table-constraints.md).
+Vous pouvez créer des contraintes de table définies par le système et par l’utilisateur. Pour plus d’informations, voir [Contraintes de table définies par l’utilisateur et par le système](system-defined-user-defined-table-constraints.md).
 
 ## <a name="what-syntax-should-be-used-to-write-constraints"></a>Quelle syntaxe doit être utilisée pour écrire des contraintes ?
-Vous devez utiliser la syntaxe du langage de modélisation d'optimisation (OML, Optimization Modeling Language) lorsque vous entrez des contraintes. Le système utilise le solveur de contrainte Microsoft Solver Foundation pour résoudre les contraintes.
+Vous devez utiliser la syntaxe du langage de modélisation d’optimisation (OML, Optimization Modeling Language) lorsque vous entrez des contraintes. Le système utilise le solveur de contrainte Microsoft Solver Foundation pour résoudre les contraintes.
 
-## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Dois-je utiliser des contraintes de table ou des contraintes d'expression ?
-Vous pouvez utiliser des contraintes d'expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. Vous créez une contrainte de table comme une matrice, alors qu'une contrainte d'expression est un relevé individuel. Lorsque vous configurez un produit, la contrainte utilisée n'a pas d'importance. L'exemple suivant montre comment les deux méthodes diffèrent.  
+## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Dois-je utiliser des contraintes de table ou des contraintes d’expression ?
+Vous pouvez utiliser des contraintes d’expression ou des contraintes de table selon la façon dont vous préférez créer les contraintes. Vous créez une contrainte de table comme une matrice, alors qu’une contrainte d’expression est un relevé individuel. Lorsque vous configurez un produit, la contrainte utilisée n’a pas d’importance. L’exemple suivant montre comment les deux méthodes diffèrent.  
 
-Lorsque vous configurez un produit à l'aide des paramétrages de contrainte suivants, les combinaisons ci-dessous sont autorisées :
+Lorsque vous configurez un produit à l’aide des paramétrages de contrainte suivants, les combinaisons ci-dessous sont autorisées :
 
 -   Un produit de couleur noire et en taille 30 ou 50
 -   Un produit de couleur rouge et en taille 20
@@ -80,15 +80,15 @@ Lorsque vous configurez un produit à l'aide des paramétrages de contrainte sui
 | Noir | 50   |
 | Rouge   | 20   |
 
-### <a name="expression-constraint-setup"></a>Paramétrage de contraintes d'expression
+### <a name="expression-constraint-setup"></a>Paramétrage de contraintes d’expression
 
 (Color == "Noir" & (size == "30" | size == "50")) | (color == "Rouge" & size = "20")
 
-## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Dois-je utiliser des opérateurs ou la notation d'infixe lorsque j'écris des contraintes d'expression ?
-Vous pouvez entrer une contrainte d'expression à l'aide des opérateurs de préfixe disponibles ou de la notation d'infixe. Pour les opérateurs **Min**, **Max** et **ABS**, vous ne pouvez pas utiliser de notation d'infixe. Ces opérateurs sont inclus comme opérateurs standard dans la plupart des langages de programmation.
+## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Dois-je utiliser des opérateurs ou la notation d’infixe lorsque j’écris des contraintes d’expression ?
+Vous pouvez entrer une contrainte d’expression à l’aide des opérateurs de préfixe disponibles ou de la notation d’infixe. Pour les opérateurs **Min**, **Max** et **ABS**, vous ne pouvez pas utiliser de notation d’infixe. Ces opérateurs sont inclus comme opérateurs standard dans la plupart des langages de programmation.
 
-## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Quels opérateurs ou quelle notation d'infixe dois-je utiliser lorsque j'écris des contraintes d'expression ?
-Les tableaux suivants répertorient les opérateurs et la notation d'infixe que vous pouvez utiliser lorsque vous entrez une contrainte d'expression pour un composant dans un modèle de configuration de produit. Les exemples du premier tableau montrent comment écrire une expression à l'aide de la notation d'infixe ou d'opérateurs.
+## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Quels opérateurs ou quelle notation d’infixe dois-je utiliser lorsque j’écris des contraintes d’expression ?
+Les tableaux suivants répertorient les opérateurs et la notation d’infixe que vous pouvez utiliser lorsque vous entrez une contrainte d’expression pour un composant dans un modèle de configuration de produit. Les exemples du premier tableau montrent comment écrire une expression à l’aide de la notation d’infixe ou d’opérateurs.
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Implies[x != 0, y &gt;= 0]</li>
-<li><strong>Notation d'infixe :</strong> x != 0 -: y &gt;= 0</li>
+<li><strong>Notation d’infixe :</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -121,16 +121,16 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> And[x == 2, y &lt;= 2]</li>
-<li><strong>Notation d'infixe :</strong> x == 2 &amp; y &lt;= 2</li>
+<li><strong>Notation d’infixe :</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Ou</td>
-<td>Est vrai si n'importe quelle condition est remplie. Si le nombre de conditions est 0 (zéro), le résultat est <strong>False</strong>.</td>
+<td>Est vrai si n’importe quelle condition est remplie. Si le nombre de conditions est 0 (zéro), le résultat est <strong>False</strong>.</td>
 <td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Or[x == 2, y &lt;= 2]</li>
-<li><strong>Notation d'infixe :</strong> x == 2 -| y &lt;= 2</li>
+<li><strong>Notation d’infixe :</strong> x == 2 -| y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -139,7 +139,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Plus[x, y, 2] == z</li>
-<li><strong>Notation d'infixe :</strong> x + y + 2 == z</li>
+<li><strong>Notation d’infixe :</strong> x + y + 2 == z</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -148,7 +148,7 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td>Minus[expr], infix: -expr</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Minus[x] == y</li>
-<li><strong>Notation d'infixe :</strong> -x == y</li>
+<li><strong>Notation d’infixe :</strong> -x == y</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -163,16 +163,16 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 <td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Times[x, y, 2] == z</li>
-<li><strong>Notation d'infixe :</strong> x * y * 2 == z</li>
+<li><strong>Notation d’infixe :</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Puissance</td>
-<td>Prend un exponentiel. L'exponentiation est appliquée de droite à gauche. Autrement dit, elle est associative à droite. Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l'exposant est une constante positive.</td>
+<td>Prend un exponentiel. L’exponentiation est appliquée de droite à gauche. Autrement dit, elle est associative à droite. Par conséquent, <strong>Power[a, b, c]</strong> est équivalent à <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> peut être utilisé uniquement si l’exposant est une constante positive.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Power[x, 2] == y</li>
-<li><strong>Notation d'infixe :</strong> x ^ 2 == y</li>
+<li><strong>Notation d’infixe :</strong> x ^ 2 == y</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -189,24 +189,24 @@ Les tableaux suivants répertorient les opérateurs et la notation d'infixe que 
 </tr>
 <tr class="odd">
 <td>Non</td>
-<td>Produit l'inverse logique de sa condition. Il doit avoir précisément une condition.</td>
+<td>Produit l’inverse logique de sa condition. Il doit avoir précisément une condition.</td>
 <td>Not[expr], infix: !expr</td>
 <td><ul>
 <li><strong>Opérateur :</strong> Not[x] &amp; Not[y == 3]</li>
-<li><strong>Notation d'infixe :</strong> !x!(y == 3)</li>
+<li><strong>Notation d’infixe :</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-Les exemples du tableau suivant indiquent comment entrer une notation d'infixe.
+Les exemples du tableau suivant indiquent comment entrer une notation d’infixe.
 
 
-|  Notation d'infixe   |                                          description ;                                          |
+|  Notation d’infixe   |                                          description ;                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
 |     x + y + z     |                                           Addition                                            |
 |    x \* y \* z    |                                        Multiplication                                         |
-|       x - y       | La soustraction binaire est traduite de la même façon que l'addition binaire avec un second négatif. |
+|       x - y       | La soustraction binaire est traduite de la même façon que l’addition binaire avec un second négatif. |
 |     x ^ y ^ z     |                          Exponentiation avec associativité à droite                          |
 |        !x         |                                          Non booléen                                          |
 |      x -: y       |                                      Implication booléenne                                      |
@@ -220,7 +220,7 @@ Les exemples du tableau suivant indiquent comment entrer une notation d'infixe.
 | x &gt;= y &gt;= z |                                   Supérieur ou égal à                                    |
 |        (x)        |                           Les parenthèses remplacent la priorité par défaut.                            |
 
-## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Pourquoi mes contraintes d'expression ne sont-elle pas validées correctement ?
+## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Pourquoi mes contraintes d’expression ne sont-elle pas validées correctement ?
 Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour les attributs, les composants ou les sous-composants dans un modèle de configuration de produit. Voici la liste des mots clés réservés que vous n’avez pas le droit d’utiliser :
 
 -   Plafond
@@ -247,7 +247,7 @@ Vous ne pouvez pas utiliser de mots clés réservés comme nom de solveur pour l
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[Création d'un contrainte d'expression](tasks/add-expression-constraint-product-configuration-model.md)
+[Création d’un contrainte d’expression](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Ajouter un calcul à un modèle de configuration de produit](tasks/add-calculation-product-configuration-model.md)
 

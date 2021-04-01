@@ -1,5 +1,5 @@
 ---
-title: Collaborer avec les clients de la chaîne d'approvisionnement interne
+title: Collaborer avec les clients de la chaîne d’approvisionnement interne
 description: Cette procédure indique comment afficher tous les ordres prévisionnels qui seront honorés par un fournisseur intersociétés.
 author: ShylaThompson
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f39f487ea29bf923c82c08aff56ff5350da0810e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a6fd306d21097cdc850b7e9ae14f9a292fe0d4db
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987227"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246739"
 ---
-# <a name="collaborate-with-internal-supply-chain-customers"></a>Collaborer avec les clients de la chaîne d'approvisionnement interne
+# <a name="collaborate-with-internal-supply-chain-customers"></a>Collaborer avec les clients de la chaîne d’approvisionnement interne
 
 [!include [banner](../../includes/banner.md)]
 
@@ -38,9 +38,9 @@ Cette procédure indique comment afficher tous les ordres prévisionnels qui ser
     * Cette opération peut prendre du temps.  
 6. Cliquez sur Besoin prévisionnel intersociétés.
 7. Cliquez sur Besoin prévisionnel intersociétés en sortie.
-    * Cette page fournit une vue d'ensemble de la demande planifiée qui sera honorée par un fournisseur de la chaîne d'approvisionnement interne.  
+    * Cette page fournit une vue d’ensemble de la demande planifiée qui sera honorée par un fournisseur de la chaîne d’approvisionnement interne.  
 8. Développez la section Détails du besoin en amont.
-    * Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée. Vous devrez attendre l'exécution de la planification dans la société d'approvisionnement avant de pouvoir consulter les informations supplémentaires ici.  
+    * Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée. Vous devrez attendre l’exécution de la planification dans la société d’approvisionnement avant de pouvoir consulter les informations supplémentaires ici.  
 
 
 
