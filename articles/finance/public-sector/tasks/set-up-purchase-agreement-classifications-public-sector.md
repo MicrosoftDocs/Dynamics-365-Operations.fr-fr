@@ -16,30 +16,33 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0acb2a10d420e401c3f4abf51bdb97f120255a4d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a12470aef5cb56ca0f1569e78629bb24bc0007b5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984666"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239605"
 ---
-# <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a><span data-ttu-id="988d0-103">Paramétrer les classifications de contrat d’achat dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="988d0-103">Set up purchase agreement classifications in the public sector</span></span>
+# <a name="set-up-purchase-agreement-classifications-in-the-public-sector"></a><span data-ttu-id="3cc60-103">Paramétrer les classifications de contrat d’achat dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="3cc60-103">Set up purchase agreement classifications in the public sector</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="988d0-104">La classification de contrat d’achat vous permet de contrôler les informations administratives disponibles dans les contrats d’achat.</span><span class="sxs-lookup"><span data-stu-id="988d0-104">The purchase agreement classification allows you to control the administrative information that is available on purchase agreements.</span></span> 
+<span data-ttu-id="3cc60-104">La classification de contrat d’achat vous permet de contrôler les informations administratives disponibles dans les contrats d’achat.</span><span class="sxs-lookup"><span data-stu-id="3cc60-104">The purchase agreement classification allows you to control the administrative information that is available on purchase agreements.</span></span> 
 
-<span data-ttu-id="988d0-105">Cette procédure a été créée pour le secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="988d0-105">This procedure was created for the French public sector using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="3cc60-105">Cette procédure a été créée pour le secteur public français, en utilisant les données de la société fictive PSUS dans la partition du secteur public.</span><span class="sxs-lookup"><span data-stu-id="3cc60-105">This procedure was created for the French public sector using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="988d0-106">Accédez à Approvisionnements > Paramétrage > ..</span><span class="sxs-lookup"><span data-stu-id="988d0-106">Go to Procurement and sourcing > Setup > ..</span></span> <span data-ttu-id="988d0-107">> Classifications du contrat d’achat.</span><span class="sxs-lookup"><span data-stu-id="988d0-107">> Purchase agreement classification.</span></span>
-2. <span data-ttu-id="988d0-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="988d0-108">Click New.</span></span>
-3. <span data-ttu-id="988d0-109">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="988d0-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="988d0-110">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="988d0-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="988d0-111">Facultatif : sélectionnez l’option Sous-traitants pour inclure des informations sur les sous-traitants.</span><span class="sxs-lookup"><span data-stu-id="988d0-111">Optional: Select the Subcontractors option to include information about subcontractors.</span></span>
-    * <span data-ttu-id="988d0-112">Un contrat d’achat peut avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants.</span><span class="sxs-lookup"><span data-stu-id="988d0-112">A purchase agreement can have a prime contractor, co-contractors, and subcontractors.</span></span> <span data-ttu-id="988d0-113">Vous pouvez affecter le fournisseur principal au contrat d’achat parent et un fournisseur secondaire ou un sous-traitant à des contrats enfants spécifiques.</span><span class="sxs-lookup"><span data-stu-id="988d0-113">You can assign the prime contractor to the parent purchase agreement and a co-contractor or subcontractor to specific child agreements.</span></span>  
-6. <span data-ttu-id="988d0-114">Facultatif : sélectionnez l’option Certifications pour inclure des informations sur les certifications des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="988d0-114">Optional: Select the Certifications option to include information about certifications for vendors.</span></span>
-    * <span data-ttu-id="988d0-115">Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.</span><span class="sxs-lookup"><span data-stu-id="988d0-115">Certification information can be used to generate a report that lets you monitor vendor compliance with certification requirements.</span></span>  
-7. <span data-ttu-id="988d0-116">Facultatif : sélectionnez l’option Exiger une facturation directe pour empêcher l’utilisation d’ordres de lancement.</span><span class="sxs-lookup"><span data-stu-id="988d0-116">Optional: Select the Require direct invoicing option to prevent the use of release orders.</span></span>
-8. <span data-ttu-id="988d0-117">Facultatif : sélectionnez l’option Activités pour inclure des informations sur les tâches et les jalons.</span><span class="sxs-lookup"><span data-stu-id="988d0-117">Optional: Select the Activities option to include information about tasks and milestones.</span></span>
-9. <span data-ttu-id="988d0-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="988d0-118">Click Save.</span></span>
+1. <span data-ttu-id="3cc60-106">Accédez à Approvisionnements > Paramétrage > ..</span><span class="sxs-lookup"><span data-stu-id="3cc60-106">Go to Procurement and sourcing > Setup > ..</span></span> <span data-ttu-id="3cc60-107">> Classifications du contrat d’achat.</span><span class="sxs-lookup"><span data-stu-id="3cc60-107">> Purchase agreement classification.</span></span>
+2. <span data-ttu-id="3cc60-108">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="3cc60-108">Click New.</span></span>
+3. <span data-ttu-id="3cc60-109">Tapez une valeur dans le champ Nom.</span><span class="sxs-lookup"><span data-stu-id="3cc60-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="3cc60-110">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="3cc60-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3cc60-111">Facultatif : sélectionnez l’option Sous-traitants pour inclure des informations sur les sous-traitants.</span><span class="sxs-lookup"><span data-stu-id="3cc60-111">Optional: Select the Subcontractors option to include information about subcontractors.</span></span>
+    * <span data-ttu-id="3cc60-112">Un contrat d’achat peut avoir un fournisseur principal, des fournisseurs secondaires et des sous-traitants.</span><span class="sxs-lookup"><span data-stu-id="3cc60-112">A purchase agreement can have a prime contractor, co-contractors, and subcontractors.</span></span> <span data-ttu-id="3cc60-113">Vous pouvez affecter le fournisseur principal au contrat d’achat parent et un fournisseur secondaire ou un sous-traitant à des contrats enfants spécifiques.</span><span class="sxs-lookup"><span data-stu-id="3cc60-113">You can assign the prime contractor to the parent purchase agreement and a co-contractor or subcontractor to specific child agreements.</span></span>  
+6. <span data-ttu-id="3cc60-114">Facultatif : sélectionnez l’option Certifications pour inclure des informations sur les certifications des fournisseurs.</span><span class="sxs-lookup"><span data-stu-id="3cc60-114">Optional: Select the Certifications option to include information about certifications for vendors.</span></span>
+    * <span data-ttu-id="3cc60-115">Les informations de certification permettent de générer un état que vous pouvez utiliser pour vérifier que les fournisseurs répondent bien aux exigences en matière de certification.</span><span class="sxs-lookup"><span data-stu-id="3cc60-115">Certification information can be used to generate a report that lets you monitor vendor compliance with certification requirements.</span></span>  
+7. <span data-ttu-id="3cc60-116">Facultatif : sélectionnez l’option Exiger une facturation directe pour empêcher l’utilisation d’ordres de lancement.</span><span class="sxs-lookup"><span data-stu-id="3cc60-116">Optional: Select the Require direct invoicing option to prevent the use of release orders.</span></span>
+8. <span data-ttu-id="3cc60-117">Facultatif : sélectionnez l’option Activités pour inclure des informations sur les tâches et les jalons.</span><span class="sxs-lookup"><span data-stu-id="3cc60-117">Optional: Select the Activities option to include information about tasks and milestones.</span></span>
+9. <span data-ttu-id="3cc60-118">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="3cc60-118">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

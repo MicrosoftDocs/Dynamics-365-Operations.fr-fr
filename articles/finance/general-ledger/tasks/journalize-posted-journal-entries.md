@@ -15,27 +15,30 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad18063e0a66a4aac0ebef7f0ce45c73137abcc7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca1aed3a77da66ef336942b2c178abdd425d3c25
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5240664"
 ---
-# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="e65a0-103">Journaliser les entrées de journal validées</span><span class="sxs-lookup"><span data-stu-id="e65a0-103">Journalize posted journal entries</span></span>
+# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="9e843-103">Journaliser les entrées de journal validées</span><span class="sxs-lookup"><span data-stu-id="9e843-103">Journalize posted journal entries</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e65a0-104">Cette procédure indique comment journaliser les entrées de journal validées.</span><span class="sxs-lookup"><span data-stu-id="e65a0-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="e65a0-105">La société fictive USMF sert d’exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e65a0-105">This procedure uses the USMF demo data company.</span></span>
+<span data-ttu-id="9e843-104">Cette procédure indique comment journaliser les entrées de journal validées.</span><span class="sxs-lookup"><span data-stu-id="9e843-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="9e843-105">La société fictive USMF sert d’exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="9e843-105">This procedure uses the USMF demo data company.</span></span>
 
-1. <span data-ttu-id="e65a0-106">Dans le **Volet de navigation**, accédez à **Modules > Comptabilité > Paramétrage de la comptabilité > Paramètres de comptabilité**.</span><span class="sxs-lookup"><span data-stu-id="e65a0-106">In the **Navigation pane**, go to **Modules > General ledger > Ledger setup > General ledger parameters**.</span></span>
-2. <span data-ttu-id="e65a0-107">Le champ **Journal comptable étendu** peut être défini sur Oui ou Non.</span><span class="sxs-lookup"><span data-stu-id="e65a0-107">The **Extended ledger journal** field can be set to Yes or No.</span></span> <span data-ttu-id="e65a0-108">S’il est défini sur Oui, la sortie d’état est différente.</span><span class="sxs-lookup"><span data-stu-id="e65a0-108">If Yes, the report output will be different.</span></span>
-3. <span data-ttu-id="e65a0-109">Indiquez si la période peut être clôturée si le processus de journalisation n’a pas été exécuté.</span><span class="sxs-lookup"><span data-stu-id="e65a0-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span> <span data-ttu-id="e65a0-110">Si cette option est définie Oui, la période ne peut pas être clôturée tant que le processus de journalisation n’a pas été terminé pour cette période.</span><span class="sxs-lookup"><span data-stu-id="e65a0-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
-4. <span data-ttu-id="e65a0-111">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e65a0-111">Close the page.</span></span>
-5. <span data-ttu-id="e65a0-112">Dans le **Volet de navigation**, accédez à **Modules > Comptabilité > Tâches périodiques > Journalisation**.</span><span class="sxs-lookup"><span data-stu-id="e65a0-112">In the **Navigation pane**, go to **Modules > General ledger > Periodic tasks > Journalizing**.</span></span>
-6. <span data-ttu-id="e65a0-113">Cliquez sur **Filtre**.</span><span class="sxs-lookup"><span data-stu-id="e65a0-113">Click **Filter**.</span></span>
-7. <span data-ttu-id="e65a0-114">Mettez en surbrillance la ligne avec les critères de filtre que vous souhaitez définir.</span><span class="sxs-lookup"><span data-stu-id="e65a0-114">Highlight the row with the filter criteria that you want to define.</span></span>
-8. <span data-ttu-id="e65a0-115">Dans le champ **Critères**, entrez ou sélectionnez les critères de filtre.</span><span class="sxs-lookup"><span data-stu-id="e65a0-115">In the **Criteria** field, enter or select the filter criteria..</span></span>
-9. <span data-ttu-id="e65a0-116">Cliquez sur **OK** pour fermer la page de filtre.</span><span class="sxs-lookup"><span data-stu-id="e65a0-116">Click **OK** to close the filter page.</span></span>
-10. <span data-ttu-id="e65a0-117">Cliquez sur **OK** pour démarrer le processus de journalisation.</span><span class="sxs-lookup"><span data-stu-id="e65a0-117">Click **OK** to start the journalizing process.</span></span> <span data-ttu-id="e65a0-118">Un état est généré à la fin du processus.</span><span class="sxs-lookup"><span data-stu-id="e65a0-118">A report will be generated after the process is complete.</span></span>  
+1. <span data-ttu-id="9e843-106">Dans le **Volet de navigation**, accédez à **Modules > Comptabilité > Paramétrage de la comptabilité > Paramètres de comptabilité**.</span><span class="sxs-lookup"><span data-stu-id="9e843-106">In the **Navigation pane**, go to **Modules > General ledger > Ledger setup > General ledger parameters**.</span></span>
+2. <span data-ttu-id="9e843-107">Le champ **Journal comptable étendu** peut être défini sur Oui ou Non.</span><span class="sxs-lookup"><span data-stu-id="9e843-107">The **Extended ledger journal** field can be set to Yes or No.</span></span> <span data-ttu-id="9e843-108">S’il est défini sur Oui, la sortie d’état est différente.</span><span class="sxs-lookup"><span data-stu-id="9e843-108">If Yes, the report output will be different.</span></span>
+3. <span data-ttu-id="9e843-109">Indiquez si la période peut être clôturée si le processus de journalisation n’a pas été exécuté.</span><span class="sxs-lookup"><span data-stu-id="9e843-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span> <span data-ttu-id="9e843-110">Si cette option est définie Oui, la période ne peut pas être clôturée tant que le processus de journalisation n’a pas été terminé pour cette période.</span><span class="sxs-lookup"><span data-stu-id="9e843-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
+4. <span data-ttu-id="9e843-111">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="9e843-111">Close the page.</span></span>
+5. <span data-ttu-id="9e843-112">Dans le **Volet de navigation**, accédez à **Modules > Comptabilité > Tâches périodiques > Journalisation**.</span><span class="sxs-lookup"><span data-stu-id="9e843-112">In the **Navigation pane**, go to **Modules > General ledger > Periodic tasks > Journalizing**.</span></span>
+6. <span data-ttu-id="9e843-113">Cliquez sur **Filtre**.</span><span class="sxs-lookup"><span data-stu-id="9e843-113">Click **Filter**.</span></span>
+7. <span data-ttu-id="9e843-114">Mettez en surbrillance la ligne avec les critères de filtre que vous souhaitez définir.</span><span class="sxs-lookup"><span data-stu-id="9e843-114">Highlight the row with the filter criteria that you want to define.</span></span>
+8. <span data-ttu-id="9e843-115">Dans le champ **Critères**, entrez ou sélectionnez les critères de filtre.</span><span class="sxs-lookup"><span data-stu-id="9e843-115">In the **Criteria** field, enter or select the filter criteria..</span></span>
+9. <span data-ttu-id="9e843-116">Cliquez sur **OK** pour fermer la page de filtre.</span><span class="sxs-lookup"><span data-stu-id="9e843-116">Click **OK** to close the filter page.</span></span>
+10. <span data-ttu-id="9e843-117">Cliquez sur **OK** pour démarrer le processus de journalisation.</span><span class="sxs-lookup"><span data-stu-id="9e843-117">Click **OK** to start the journalizing process.</span></span> <span data-ttu-id="9e843-118">Un état est généré à la fin du processus.</span><span class="sxs-lookup"><span data-stu-id="9e843-118">A report will be generated after the process is complete.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
