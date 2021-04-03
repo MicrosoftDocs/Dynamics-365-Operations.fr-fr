@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680852"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562332"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compresser des documents volumineux générés dans les états électroniques 
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez utiliser la [Structure des états électroniques (ER)](general-electronic-reporting.md) pour configurer une solution qui extrait des données transactionnelles pour générer un document sortant. Ce document généré peut être assez volumineux. Lorsque ce type de document est généré, la mémoire du [Serveur d’objets d’application (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) est utilisée pour le contenir. À un moment donné, le document doit ensuite être téléchargé à partir de votre application Microsoft Dynamics 365 Finance. Actuellement, la taille maximale d’un seul document généré dans ER est limitée à 2 gigaoctets (Go). En outre, Finance [limite](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) actuellement la taille d’un fichier téléchargé à 1 Go. Par conséquent, vous devez configurer une solution ER qui réduit la probabilité de dépasser ces limitations et de recevoir une exception **Le flux était trop long** ou **Il y a eu un dépassement de capacité positif ou négatif dans l’opération arithmétique**.
+Vous pouvez utiliser la [Structure des états électroniques (ER)](general-electronic-reporting.md) pour configurer une solution qui extrait des données transactionnelles pour générer un document sortant. Ce document généré peut être assez volumineux. Lorsque ce type de document est généré, la mémoire du [Serveur d’objets d’application (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) est utilisée pour le contenir. À un moment donné, le document doit ensuite être téléchargé à partir de votre application Microsoft Dynamics 365 Finance. Actuellement, la taille maximale d’un seul document généré dans ER est limitée à 2 gigaoctets (Go). En outre, Finance [limite](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) actuellement la taille d’un fichier téléchargé à 1 Go. Par conséquent, vous devez configurer une solution ER qui réduit la probabilité de dépasser ces limitations et de recevoir une exception **Le flux était trop long** ou **Il y a eu un dépassement de capacité positif ou négatif dans l’opération arithmétique**.
 
 Lorsque vous configurez une solution, vous pouvez ajuster votre format ER dans le concepteur d’opérations en ajoutant un élément racine du type **Dossier** pour compresser le contenu généré par l’un de ses éléments imbriqués. La compression fonctionne « juste à temps », afin que l’utilisation maximale de la mémoire et la taille du fichier téléchargé puissent être réduites.
 

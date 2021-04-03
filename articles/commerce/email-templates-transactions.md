@@ -1,9 +1,9 @@
 ---
 title: Créer des modèles d'e-mail pour les événements transactionnels
-description: Cette rubrique décrit comment créer, télécharger et configurer des modèles d'e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000781"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555243"
 ---
-# <a name="create-email-templates-for-transactional-events"></a>Créer des modèles d'e-mail pour les événements transactionnels
+# <a name="create-email-templates-for-transactional-events"></a>Créer des modèles de messages électroniques pour les événements transactionnels
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer, télécharger et configurer des modèles d'e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit comment créer, charger et configurer des modèles d’e-mail pour les événements transactionnels dans Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -39,7 +39,7 @@ Avant de pouvoir mapper un événement transactionnel spécifique à un modèle 
 
 Pour créer un modèle d'e-mail, procédez comme suit.
 
-1. Dans Commerce Headquarters, accédez à **Modèles d'e-mail de l'organisation**, qui se trouve sous **Retail and Commerce \> Paramétrage Headquarters \> Modèles d'e-mail de l'organisation** ou sous **Administration d'organisation \> Paramétrage \> Modèles d'e-mail de l'organisation**.
+1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Paramétrage Headquarters \> Modèles d’e-mail de l’organisation** ou **Administration d’organisation \> Paramétrage \> Modèles d’e-mail de l’organisation**.
 1. Sélectionnez **Nouveau**.
 1. Définissez les champs suivants sous **Général** :
 
@@ -78,28 +78,29 @@ Voici un exemple :
 
 Les espaces réservés suivants récupèrent et affichent les données définies au niveau de la commande client (par opposition au niveau de la ligne de vente).
 
-| Nom de l'espace réservé    | Valeur de l'espace réservé                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Le nom du client ayant passé la commande.                   |
-| salesid             | L'ID ventes de la commande.                                       |
-| deliveryaddress     | L'adresse de livraison des commandes expédiées.                         |
-| customeraddress     | L'adresse du client.                                     |
-| deliverydate        | La date de livraison.                                               |
-| shipdate            | La date d'expédition.                                                   |
-| modeofdelivery      | Le mode de livraison de la commande.                                  |
-| frais             | Le total des frais pour la commande.                                 |
-| taxe                 | Le montant total de la taxe pour la commande.                                     |
-| total               | Le montant total de la commande.                                  |
-| ordernetamount      | Le montant total de la commande, moins le montant total de la taxe.             |
-| Remise            | La remise totale pour la commande.                                |
-| storename           | Le nom du magasin où la commande a été passée.                |
-| storeaddress        | L'adresse du magasin ayant passé la commande.                  |
-| storeopenfrom       | L'heure d'ouverture du magasin ayant passé la commande.             |
-| storeopento         | L'heure de fermeture du magasin ayant passé la commande.             |
-| pickupstorename     | Le nom du magasin où la commande sera récupérée.         |
-| pickupstoreaddress  | L'adresse du magasin où la commande sera récupérée.      |
-| pickupopenstorefrom | L'heure d'ouverture du magasin où la commande sera récupérée. |
-| pickupopenstoreto   | L'heure de fermeture du magasin où la commande sera récupérée. |
+| Nom de l'espace réservé     | Valeur de l'espace réservé                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Le nom du client ayant passé la commande.               |
+| salesid              | L'ID ventes de la commande.                                   |
+| deliveryaddress      | L'adresse de livraison des commandes expédiées.                     |
+| customeraddress      | L'adresse du client.                                 |
+| customeremailaddress | L’adresse e-mail que le client a saisie lors du paiement.     |
+| deliverydate         | La date de livraison.                                           |
+| shipdate             | La date d'expédition.                                               |
+| modeofdelivery       | Le mode de livraison de la commande.                              |
+| frais              | Le total des frais pour la commande.                             |
+| taxe                  | Le montant total de la taxe pour la commande.                                 |
+| total                | Le montant total de la commande.                              |
+| ordernetamount       | Le montant total de la commande, moins le montant total de la taxe.         |
+| Remise             | La remise totale pour la commande.                            |
+| storename            | Le nom du magasin où la commande a été passée.            |
+| storeaddress         | L'adresse du magasin ayant passé la commande.              |
+| storeopenfrom        | L'heure d'ouverture du magasin ayant passé la commande.         |
+| storeopento          | L'heure de fermeture du magasin ayant passé la commande.         |
+| pickupstorename      | Le nom du magasin où la commande sera récupérée.     |
+| pickupstoreaddress   | L'adresse du magasin où la commande sera récupérée.  |
+| pickupopenstorefrom  | L'heure d'ouverture du magasin où la commande sera récupérée. |
+| pickupopenstoreto    | L'heure de fermeture du magasin où la commande sera récupérée. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Espaces réservés de la ligne de commande (au niveau de la ligne de vente)
 
@@ -169,11 +170,8 @@ Voici un exemple :
 
 Les tickets de caisse peuvent être envoyés par e-mail aux clients qui effectuent des achats dans un point de vente au détail (PDV). En général, les étapes de création du modèle de ticket de caisse envoyé par e-mail sont les mêmes que celles de création de modèles pour d'autres événements transactionnels. Cependant, les modifications suivantes sont requises :
 
-- L'ID e-mail du modèle d'e-mail doit être **emailRecpt**.
-- Le texte du ticket de caisse est inséré dans l'e-mail en utilisant l'espace réservé **%message%**. Pour vous assurer que le corps du ticket de caisse s'affiche correctement, entourez l'espace réservé **%message%** avec des balises **&lt;pre&gt;** et **&lt;/pre&gt;** HTML.
-- Les sauts de ligne dans le HTML pour l'en-tête et le pied de page de l'e-mail sont convertis en balises **&lt;br /&gt;** HTML pour que le corps du ticket de caisse s'affiche correctement. Pour éliminer l'espace vertical indésirable dans vos e-mails de ticket de caisse, supprimez les sauts de ligne de tout endroit du HTML où l'espace vertical n'est pas requis.
-
-Pour plus d'informations sur la configuration des tickets de caisse par e-mail, consultez la rubrique [Paramétrage des tickets de caisse par e-mail](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- Le texte du ticket de caisse est inséré dans l’e-mail en utilisant l’espace réservé **%message%**. Pour vous assurer que le corps du ticket de caisse s’affiche correctement, entourez l’espace réservé **%message%** avec des balises **&lt;pre&gt;** et **&lt;/pre&gt;** HTML.
+- L’espace réservé **%receiptid%** peut être utilisé pour afficher un code QR ou un code barres représentant l’ID du ticket de caisse. (Les codes QR et les codes barres sont générés de manière dynamique et diffusés par un service tiers.) Pour plus d’informations sur la façon d’afficher un code QR ou un code barres dans un ticket de caisse envoyé par e-mail, voir [Ajouter un code QR ou un code barres aux e-mails transactionnels et de ticket de caisse](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Télécharger l'e-mail au format HTML
 

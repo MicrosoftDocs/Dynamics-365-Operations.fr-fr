@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115678"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560457"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -92,9 +91,13 @@ Comme le produit est représenté par un SKU, les concepts des produits distinct
 
 Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d’autres produits Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de la table juridique dans laquelle le produit est lancé dans une application Finance and Operations. S'il n'y a pas de liste de prix pour la devise donnée, une liste de prix sera automatiquement créée et le produit lui sera attribué. 
 
+L’implémentation actuelle des plugins à double écriture qui associent la liste de prix par défaut à l’unité recherche la devise associée à l’application Finance and Operations et identifie la première liste de prix dans l’application Customer Engagement en utilisant le tri alphabétique sur le nom de la liste de prix. Pour définir une liste de prix par défaut pour une devise spécifique lorsque vous avez plusieurs listes de prix pour cette devise, vous devez mettre à jour le nom de la liste de prix avec un nom commençant par une lettre antérieure dans l’ordre alphabétique par rapport aux autres listes de prix pour cette même devise.
+
 Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l’état **Actif**, afin de pouvoir l’utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l’état actif = Oui**. 
 
 Lorsque les produits sont synchronisés, vous devez entrer une valeur pour le champ **Unité de vente** de l'application Finance and Operations, car il s'agit d'un champ obligatoire dans Sales.
+
+La création de familles de produits à partir de Dynamics 365 Sales n’est pas prise en charge avec la synchronisation en double écriture des produits.
 
 La synchronisation des produits se produit de l'application Finance and Operations vers Dataverse. Cela signifie que les valeurs des colonnes de table du produit peuvent être modifiées dans Dataverse, mais lorsque la synchronisation est déclenchée (lorsqu'une colonne de produit est modifié dans une application Finance and Operations), les valeurs seront remplacées dans Dataverse. 
 
