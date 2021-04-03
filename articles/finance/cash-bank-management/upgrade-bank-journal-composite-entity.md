@@ -16,41 +16,44 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e6c990208f26dde26b7adc306198f7cd16e0e69b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18137ca8cecc43b4269f14b36df2eb8063192e52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978912"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236345"
 ---
-# <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="fae7a-103">Mise à jour de l’entité composite du journal des banques</span><span class="sxs-lookup"><span data-stu-id="fae7a-103">Update the bank journal composite entity</span></span>
+# <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="0c4c9-103">Mise à jour de l’entité composite du journal des banques</span><span class="sxs-lookup"><span data-stu-id="0c4c9-103">Update the bank journal composite entity</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="fae7a-104">Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.</span><span class="sxs-lookup"><span data-stu-id="fae7a-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
+<span data-ttu-id="0c4c9-104">Les étapes suivantes sont requises pour ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 
-<span data-ttu-id="fae7a-105">Les étapes suivantes permettent d’ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.</span><span class="sxs-lookup"><span data-stu-id="fae7a-105">Use the following steps to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
+<span data-ttu-id="0c4c9-105">Les étapes suivantes permettent d’ajouter le champ BankTransactionType supplémentaire au BankJournalEntity composite.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-105">Use the following steps to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 
-1.  <span data-ttu-id="fae7a-106">Compilez et de synchroniser les entités composites de journal des banques, entités, et tables intermédiaires suivantes :</span><span class="sxs-lookup"><span data-stu-id="fae7a-106">Compile and synchronize the following bank journal composite entities, entities, and staging tables:</span></span>
-    -   <span data-ttu-id="fae7a-107">Composite Entity\\BankJournalEntity</span><span class="sxs-lookup"><span data-stu-id="fae7a-107">Composite Entity\\BankJournalEntity</span></span>
-    -   <span data-ttu-id="fae7a-108">Entity\\BankJournalHeaderEntity</span><span class="sxs-lookup"><span data-stu-id="fae7a-108">Entity\\BankJournalHeaderEntity</span></span>
-    -   <span data-ttu-id="fae7a-109">Entity\\BankJournalLineEntity</span><span class="sxs-lookup"><span data-stu-id="fae7a-109">Entity\\BankJournalLineEntity</span></span>
-    -   <span data-ttu-id="fae7a-110">Table\\BankJournalHeaderStaging</span><span class="sxs-lookup"><span data-stu-id="fae7a-110">Table\\BankJournalHeaderStaging</span></span>
-    -   <span data-ttu-id="fae7a-111">Table\\BankJournalLineStaging</span><span class="sxs-lookup"><span data-stu-id="fae7a-111">Table\\BankJournalLineStaging</span></span>
+1.  <span data-ttu-id="0c4c9-106">Compilez et de synchroniser les entités composites de journal des banques, entités, et tables intermédiaires suivantes :</span><span class="sxs-lookup"><span data-stu-id="0c4c9-106">Compile and synchronize the following bank journal composite entities, entities, and staging tables:</span></span>
+    -   <span data-ttu-id="0c4c9-107">Composite Entity\\BankJournalEntity</span><span class="sxs-lookup"><span data-stu-id="0c4c9-107">Composite Entity\\BankJournalEntity</span></span>
+    -   <span data-ttu-id="0c4c9-108">Entity\\BankJournalHeaderEntity</span><span class="sxs-lookup"><span data-stu-id="0c4c9-108">Entity\\BankJournalHeaderEntity</span></span>
+    -   <span data-ttu-id="0c4c9-109">Entity\\BankJournalLineEntity</span><span class="sxs-lookup"><span data-stu-id="0c4c9-109">Entity\\BankJournalLineEntity</span></span>
+    -   <span data-ttu-id="0c4c9-110">Table\\BankJournalHeaderStaging</span><span class="sxs-lookup"><span data-stu-id="0c4c9-110">Table\\BankJournalHeaderStaging</span></span>
+    -   <span data-ttu-id="0c4c9-111">Table\\BankJournalLineStaging</span><span class="sxs-lookup"><span data-stu-id="0c4c9-111">Table\\BankJournalLineStaging</span></span>
 
-2.  <span data-ttu-id="fae7a-112">Data management\\data projects</span><span class="sxs-lookup"><span data-stu-id="fae7a-112">Data management\\data projects</span></span>
-    -   <span data-ttu-id="fae7a-113">Exposez le type **Transaction bancaire** sur la mise en page **Données sources**.</span><span class="sxs-lookup"><span data-stu-id="fae7a-113">Expose the **Bank Transaction** type on **Source Data** layout.</span></span>
-        -   <span data-ttu-id="fae7a-114">Format de données source = Élément XML</span><span class="sxs-lookup"><span data-stu-id="fae7a-114">Source data format = XML-Element</span></span>
-        -   <span data-ttu-id="fae7a-115">Nom de l’entité = Journal des banques</span><span class="sxs-lookup"><span data-stu-id="fae7a-115">Entity name = Bank Journal</span></span>
-        -   <span data-ttu-id="fae7a-116">Télécharger le fichier de données = nouvelle version de SampleBankJournalCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="fae7a-116">Upload data file = new version SampleBankJournalCompositeEntity.xml</span></span>
-        -   <span data-ttu-id="fae7a-117">Cliquez sur **Oui** pour remplacer le fichier existant.</span><span class="sxs-lookup"><span data-stu-id="fae7a-117">Click **Yes** to overwrite the existing file.</span></span>
-        -   <span data-ttu-id="fae7a-118">Cliquez sur **Oui** pour générer un mappage à partir du début.</span><span class="sxs-lookup"><span data-stu-id="fae7a-118">Click **Yes** to generate mapping from scratch.</span></span>
-        -   <span data-ttu-id="fae7a-119">Vérifiez que le type de transaction bancaire en mappé.</span><span class="sxs-lookup"><span data-stu-id="fae7a-119">Verify that the Bank Transaction Type is mapped.</span></span>
-            -   <span data-ttu-id="fae7a-120">Cliquez sur **Afficher la carte** sur l’entité de ligne.</span><span class="sxs-lookup"><span data-stu-id="fae7a-120">Click **View map** on Line entity.</span></span>
-            -   <span data-ttu-id="fae7a-121">Vérifiez que le type de transaction bancaire est mappé entre Source et Intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="fae7a-121">Verify that Bank Transaction type is mapped from Source to Staging.</span></span>
+2.  <span data-ttu-id="0c4c9-112">Data management\\data projects</span><span class="sxs-lookup"><span data-stu-id="0c4c9-112">Data management\\data projects</span></span>
+    -   <span data-ttu-id="0c4c9-113">Exposez le type **Transaction bancaire** sur la mise en page **Données sources**.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-113">Expose the **Bank Transaction** type on **Source Data** layout.</span></span>
+        -   <span data-ttu-id="0c4c9-114">Format de données source = Élément XML</span><span class="sxs-lookup"><span data-stu-id="0c4c9-114">Source data format = XML-Element</span></span>
+        -   <span data-ttu-id="0c4c9-115">Nom de l’entité = Journal des banques</span><span class="sxs-lookup"><span data-stu-id="0c4c9-115">Entity name = Bank Journal</span></span>
+        -   <span data-ttu-id="0c4c9-116">Télécharger le fichier de données = nouvelle version de SampleBankJournalCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="0c4c9-116">Upload data file = new version SampleBankJournalCompositeEntity.xml</span></span>
+        -   <span data-ttu-id="0c4c9-117">Cliquez sur **Oui** pour remplacer le fichier existant.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-117">Click **Yes** to overwrite the existing file.</span></span>
+        -   <span data-ttu-id="0c4c9-118">Cliquez sur **Oui** pour générer un mappage à partir du début.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-118">Click **Yes** to generate mapping from scratch.</span></span>
+        -   <span data-ttu-id="0c4c9-119">Vérifiez que le type de transaction bancaire en mappé.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-119">Verify that the Bank Transaction Type is mapped.</span></span>
+            -   <span data-ttu-id="0c4c9-120">Cliquez sur **Afficher la carte** sur l’entité de ligne.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-120">Click **View map** on Line entity.</span></span>
+            -   <span data-ttu-id="0c4c9-121">Vérifiez que le type de transaction bancaire est mappé entre Source et Intermédiaire.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-121">Verify that Bank Transaction type is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="fae7a-122">Importez le nouveau relevé.</span><span class="sxs-lookup"><span data-stu-id="fae7a-122">Import the new statement.</span></span>
-
-
+3.  <span data-ttu-id="0c4c9-122">Importez le nouveau relevé.</span><span class="sxs-lookup"><span data-stu-id="0c4c9-122">Import the new statement.</span></span>
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
