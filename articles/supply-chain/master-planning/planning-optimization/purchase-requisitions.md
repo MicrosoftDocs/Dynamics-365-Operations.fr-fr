@@ -1,6 +1,6 @@
 ---
-title: Demandes d'achat
-description: Cette rubrique décrit comment les demandes d'achat sont prises en charge dans Optimisation de la planification.
+title: Demandes d’achat
+description: Cette rubrique décrit comment les demandes d’achat sont prises en charge dans Optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
 ms.date: 01/04/2021
@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ReqCreatePlanWorkspace
+ms.search.form: ReqPlanSched, ReqGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,16 +18,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 8075f8d7c3868c6d6012edbce17dbbb4749209ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 20b4012e054a25d7d21c6f017d8ebcf18f6ee28d
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992342"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501076"
 ---
-# <a name="purchase-requisitions"></a>Demandes d'achat
+# <a name="purchase-requisitions"></a>Demandes d’achat
 
-La planification générale peut réapprovisionner les demandes d'achat approuvées. Par conséquent, pour couvrir les demandes d'achat, les utilisateurs n'ont pas besoin d'utiliser un workflow pour créer des commandes fournisseur À la place, les demandes d'achat peuvent être couvertes par la planification générale. En raison de cette fonctionnalité, une demande d'achat peut produire une commande fournisseur, un ordre de transfert ou un ordre de fabrication, selon la valeur de **Type d'ordre prévisionnel** définie pour le produit associé.
+La planification générale peut réapprovisionner les demandes d’achat approuvées. Par conséquent, pour couvrir les demandes d’achat, les utilisateurs n’ont pas besoin d’utiliser un workflow pour créer des commandes fournisseur À la place, les demandes d’achat peuvent être couvertes par la planification générale. En raison de cette fonctionnalité, une demande d’achat peut produire une commande fournisseur, un ordre de transfert ou un ordre de fabrication, selon la valeur de **Type d’ordre prévisionnel** définie pour le produit associé.
 
 ## <a name="enable-master-plans-to-include-requisitions"></a>Activer les plans généraux pour inclure des demandes
 
@@ -35,16 +35,16 @@ Pour inclure des demandes lors du calcul de la couverture pour un plan général
 
 1. Accédez à **Planification générale** \> **Paramétrage** \> **Plans** \> **Plans généraux**.
 1. Créez ou sélectionnez un plan général.
-1. Dans le raccourci **Général**, définissez l'option **Inclure les demandes** sur *Oui*.
+1. Dans le raccourci **Général**, définissez l’option **Inclure les demandes** sur *Oui*.
 1. Répétez les étapes 2 et 3 pour chaque plan général supplémentaire dans lequel vous souhaitez inclure des demandes.
 
 ## <a name="approved-requisitions-time-fence"></a>Plage de gestion des demandes approuvées
 
-La *plage de gestion des demandes approuvées* établit jusqu'où dans le temps (en jours) un plan général inclura la demande des demandes de réapprovisionnement approuvées. Vous pouvez définir une plage de gestion des demandes approuvées à la fois au niveau du groupe de couverture et au niveau du plan général.
+La *plage de gestion des demandes approuvées* établit jusqu’où dans le temps (en jours) un plan général inclura la demande des demandes de réapprovisionnement approuvées. Vous pouvez définir une plage de gestion des demandes approuvées à la fois au niveau du groupe de couverture et au niveau du plan général.
 
 ### <a name="set-the-approved-requisitions-time-fence-for-a-coverage-group"></a>Définir la plage de gestion des demandes approuvées pour un groupe de couverture
 
-1. Accédez à **Planification générale** \> **Paramétrage** \> **Couverture** \> **Groupe de couverture**.
+1. Accédez à **Planification** \> **Paramétrage** \> **Couverture** \> **Groupes de couverture**.
 1. Créez ou sélectionnez un groupe de couverture.
 1. Dans le raccourci **Autre**, définissez le champ **Plage de gestion des demandes approuvées (jours)** sur le nombre de jours à inclure dans la plage de gestion.
 1. Répétez les étapes 2 et 3 pour chaque groupe de couverture supplémentaire dans lequel vous souhaitez définir une plage de gestion des demandes approuvées.
@@ -59,11 +59,11 @@ Lorsque vous définissez une plage de gestion des demandes approuvées pour un p
 1. Répétez les étapes 2 et 3 pour chaque plan général supplémentaire dans lequel vous souhaitez définir une plage de gestion des demandes approuvées.
 
 > [!IMPORTANT]
-> **Prochainement :** les plages de gestion des demandes approuvées ne sont pas encore prises en charge pour l'optimisation de la planification. Jusqu'à ce qu'elles soient prises en charge, toutes les valeurs que vous entrez dans le champ **Plage de gestion des demandes approuvées (jours)** seront ignorées.
+> **Prochainement :** les plages de gestion des demandes approuvées ne sont pas encore prises en charge pour l’optimisation de la planification. Jusqu’à ce qu’elles soient prises en charge, toutes les valeurs que vous entrez dans le champ **Plage de gestion des demandes approuvées (jours)** seront ignorées.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Approvisionnement indépendant, indépendamment du code de couverture
 
-Les demandes d'achat sont toujours couvertes par les ordres prévisionnels indépendants, quel que soit le code de couverture. Ce comportement garantit une traçabilité et des workflows précis entre les demandes d'achat et les ordres de réapprovisionnement.
+Les demandes d’achat sont toujours couvertes par les ordres prévisionnels indépendants, quel que soit le code de couverture. Ce comportement garantit une traçabilité et des workflows précis entre les demandes d’achat et les ordres de réapprovisionnement.
 
 ### <a name="example-1"></a>Exemple 1
 
@@ -72,9 +72,9 @@ Un produit est configuré pour avoir une valeur de **Code de couverture** de *Mi
 - Quantité de stock disponible= 10.
 - Quantité de stock minimale = 15.
 - Quantité de stock maximale = 20.
-- Il existe une demande d'achat pour une pièce. La date demandée est Aujourd'hui.
+- Il existe une demande d’achat pour une pièce. La date demandée est Aujourd’hui.
 
-Lors de l'exécution de la planification générale, deux ordres prévisionnels sont créés : un pour 10 pièces pour réapprovisionner le stock à la quantité maximale et un pour une pièce pour réapprovisionner la demande d'achat.
+Lors de l’exécution de la planification générale, deux ordres prévisionnels sont créés : un pour 10 pièces pour réapprovisionner le stock à la quantité maximale et un pour une pièce pour réapprovisionner la demande d’achat.
 
 ### <a name="example-2"></a>Exemple 2
 
@@ -83,24 +83,24 @@ Un produit est configuré pour avoir une valeur de **Code de couverture** de *Mi
 - Quantité de stock disponible= 17.
 - Quantité de stock minimale = 15.
 - Quantité de stock maximale = 20.
-- Il existe une demande d'achat pour une pièce. La date demandée est Aujourd'hui.
+- Il existe une demande d’achat pour une pièce. La date demandée est Aujourd’hui.
 
-Lors de l'exécution de la planification générale, un ordre prévisionnel pour une pièce est créé pour réapprovisionner la demande d'achat.
+Lors de l’exécution de la planification générale, un ordre prévisionnel pour une pièce est créé pour réapprovisionner la demande d’achat.
 
 ### <a name="example-3"></a>Exemple 3
 
 Un produit est configuré pour avoir une valeur de **Code de couverture** de *Période* et une période de sept jours. Il a les statuts de stock, de commande client et de demande suivants :
 
 - Quantité de stock disponible= 0.
-- Il existe une commande client de cinq pièces. La date d'expédition prévue est Aujourd'hui plus un jour.
-- Il existe une demande d'achat pour trois pièces. La date demandée est Aujourd'hui plus trois jours.
+- Il existe une commande client de cinq pièces. La date d’expédition prévue est Aujourd’hui plus un jour.
+- Il existe une demande d’achat pour trois pièces. La date demandée est Aujourd’hui plus trois jours.
 
-Lors de l'exécution de la planification générale, deux ordres prévisionnels sont créés : un pour trois pièces pour réapprovisionner la demande d'achat et un pour cinq pièces pour réapprovisionner la demande de commande client.
+Lors de l’exécution de la planification générale, deux ordres prévisionnels sont créés : un pour trois pièces pour réapprovisionner la demande d’achat et un pour cinq pièces pour réapprovisionner la demande de commande client.
 
 > [!NOTE]
-> Une fois qu'un ordre prévisionnel lié à une demande d'achat est confirmé, le moteur de planification conserve le lien avec la demande d'achat. S'il s'avère par la suite que l'ordre confirmé n'indique pas une quantité nécessaire pour traiter la demande d'achat, le système crée un nouvel ordre prévisionnel pour la différence.
+> Une fois qu’un ordre prévisionnel lié à une demande d’achat est confirmé, le moteur de planification conserve le lien avec la demande d’achat. S’il s’avère par la suite que l’ordre confirmé n’indique pas une quantité nécessaire pour traiter la demande d’achat, le système crée un nouvel ordre prévisionnel pour la différence.
 
-Pour plus d'informations sur les demandes d'achat, voir [Présentation générale de la demande d'achat](../../procurement/purchase-requisitions-overview.md).
+Pour plus d’informations sur les demandes d’achat, voir [Présentation générale de la demande d’achat](../../procurement/purchase-requisitions-overview.md).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Conditions préalables au paramétrage du canal
-description: Cette rubrique présente une vue d'ensemble des conditions préalables au paramétrage des canaux dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique présente une vue d’ensemble des conditions préalables au paramétrage des canaux dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 02/21/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0705efac4659f96ebca1c67f6f0ab8d23c99d81e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 270f751e860e56a03e20df720c088f275d0298e7
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997698"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477922"
 ---
-# <a name="channel-setup-prerequisites"></a>Conditions préalables au paramétrage du canal
-
+# <a name="channel-setup-prerequisites"></a>Conditions préalables à la configuration de canal
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique présente une vue d'ensemble des conditions préalables au paramétrage du canal dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique présente une vue d’ensemble des conditions préalables au paramétrage de canal dans Microsoft Dynamics 365 Commerce.
 
 Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches prérequises doivent être effectuées. Les listes de tâches prérequises suivantes sont organisées par type de canal.
 

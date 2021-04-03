@@ -1,6 +1,6 @@
 ---
-title: Création d'une ressource opérationnelle
-description: Une ressource opérationnelle réalise les activités d'un projet ou d'un processus de production.
+title: Création d’une ressource opérationnelle
+description: Une ressource opérationnelle réalise les activités d’un projet ou d’un processus de production.
 author: sorenva
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b91d5ea7618010ab9d4006d643c59a7f995eb0c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 514b0b27065b4318891a84f364b39e8e378d6a4a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981229"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255083"
 ---
-# <a name="create-an-operations-resource"></a>Création d'une ressource opérationnelle
+# <a name="create-an-operations-resource"></a>Création d’une ressource opérationnelle
 
 [!include [banner](../../includes/banner.md)]
 
-Une ressource opérationnelle réalise les activités d'un projet ou d'un processus de production. Ces procédures vous indiquent comment définir une ressource opérationnelle. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
+Une ressource opérationnelle réalise les activités d’un projet ou d’un processus de production. Ces procédures vous indiquent comment définir une ressource opérationnelle. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 
 1. Allez dans Ressources.
 2. Cliquez sur Nouveau.
@@ -39,17 +39,17 @@ Une ressource opérationnelle réalise les activités d'un projet ou d'un proces
 2. Entrez un nombre dans le champ Pourcentage de rebut.
 3. Saisissez ou sélectionnez une valeur dans le champ Catégorie de paramétrage.
     * Spécifiez la catégorie de coûts qui définit comment prendre en compte le coût du paramétrage.  
-4. Saisissez ou sélectionnez une valeur dans le champ Catégorie de temps d'exécution.
-    * Spécifiez la catégorie de coûts qui définit comment prendre en compte le coût du temps d'exécution.  
+4. Saisissez ou sélectionnez une valeur dans le champ Catégorie de temps d’exécution.
+    * Spécifiez la catégorie de coûts qui définit comment prendre en compte le coût du temps d’exécution.  
 5. Saisissez ou sélectionnez une valeur dans le champ Catégorie de quantité.
     * Spécifiez la catégorie de coûts qui définit comment prendre en compte le coût de la ressource selon la quantité produite.  
 6. Sélectionnez une option dans le champ Capacité disponible.
-    * Spécifiez l'unité dans laquelle exprimer la capacité de la ressource opérationnelle.  
+    * Spécifiez l’unité dans laquelle exprimer la capacité de la ressource opérationnelle.  
 7. Entrez un nombre dans le champ Capacité.
 8. Entrez un nombre dans le champ Pourcentage de rendement.
-    * Spécifiez le rendement attendu de la ressource opérationnelle. Le pourcentage d'efficacité règle le débit de la ressource opérationnelle et affecte le temps réservé pour celle-ci.  
-9. Entrez un nombre dans le champ Pourcentage d'ordonnancement.
-    * Spécifiez le pourcentage maximal de la capacité de la ressource opérationnelle à utiliser dans la planification d'opérations.  
+    * Spécifiez le rendement attendu de la ressource opérationnelle. Le pourcentage d’efficacité règle le débit de la ressource opérationnelle et affecte le temps réservé pour celle-ci.  
+9. Entrez un nombre dans le champ Pourcentage d’ordonnancement.
+    * Spécifiez le pourcentage maximal de la capacité de la ressource opérationnelle à utiliser dans la planification d’opérations.  
 10. Sélectionnez Oui dans le champ Capacité finie.
     * Définissez cette option sur Oui si la ressource opérationnelle est planifiée en fonction de la capacité réelle disponible, et si les réservations de capacité existantes sont prises en compte. Si cette option est définie sur Non, la ressource opérationnelle est supposée avoir une capacité infinie, et elle peut être surréservée.  
 11. Sélectionnez Oui dans le champ Ressource critique.
@@ -59,13 +59,13 @@ Une ressource opérationnelle réalise les activités d'un projet ou d'un proces
 2. Cliquez sur Ajouter.
 3. Saisissez ou sélectionnez une valeur dans le champ Calendrier.
     * Spécifiez le calendrier de temps de travail qui définit la capacité (en heures) de la ressource.  
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
 ## <a name="define-resource-capabilities"></a>Définir des capacités de ressources
 1. Développez la section Capacités.
 2. Cliquez sur Ajouter.
-    * Une capacité est la capacité d'une ressource opérationnelle à exercer une activité spécifique. Le moteur de planification alloue les ressources en faisant correspondre les demandes de ressources de chaque activité aux capacités des ressources opérationnelles disponibles.  
+    * Une capacité est la capacité d’une ressource opérationnelle à exercer une activité spécifique. Le moteur de planification alloue les ressources en faisant correspondre les demandes de ressources de chaque activité aux capacités des ressources opérationnelles disponibles.  
 3. Saisissez ou sélectionnez une valeur dans le champ Capacité.
 4. Dans le champ Niveau, entrez un nombre.
     * Spécifiez le niveau de qualification utilisé par la ressource pour traiter la capacité.  
@@ -75,10 +75,10 @@ Une ressource opérationnelle réalise les activités d'un projet ou d'un proces
 ## <a name="assign-resource-to-resource-group"></a>Affecter une ressource au groupe de ressources
 1. Développez la section Groupes de ressources.
 2. Cliquez sur Ajouter.
-    * Le groupe de ressources définit le site, l'unité de production et le contexte d'entrepôt pour les ressources opérationnelles. Les ressources opérationnelles peuvent uniquement être attribuées à un groupe de ressources et uniquement sur le site où se trouve le groupe de ressources.  
+    * Le groupe de ressources définit le site, l’unité de production et le contexte d’entrepôt pour les ressources opérationnelles. Les ressources opérationnelles peuvent uniquement être attribuées à un groupe de ressources et uniquement sur le site où se trouve le groupe de ressources.  
 3. Saisissez ou sélectionnez une valeur dans le champ Groupe de ressources.
-4. Saisissez ou sélectionnez une valeur dans le champ Emplacement de l'entrée.
-    * Spécifiez l'emplacement d'entrepôt d'où la ressource opérationnelle consomme des matières.  
+4. Saisissez ou sélectionnez une valeur dans le champ Emplacement de l’entrée.
+    * Spécifiez l’emplacement d’entrepôt d’où la ressource opérationnelle consomme des matières.  
 
 
 

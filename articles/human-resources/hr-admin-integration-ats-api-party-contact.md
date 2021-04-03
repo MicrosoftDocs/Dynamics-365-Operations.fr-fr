@@ -1,6 +1,6 @@
 ---
 title: Contact du tiers
-description: Cette rubrique décrit l'entité Contact du tiers pour Dynamics 365 Human Resources.
+description: Cette rubrique décrit l’entité Contact du tiers pour Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,16 +16,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 38f53d402ebe9f9f358281dd3996797a20923056
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: f5a942ef93af4348404c74d8b15d98ae6fa796ff
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125471"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466733"
 ---
 # <a name="party-contact"></a>Contact du tiers
 
-Cette rubrique décrit l'entité Contact du tiers pour Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette rubrique décrit l’entité Contact du tiers pour Dynamics 365 Human Resources.
 
 Nom physique : mshr_dirpartycontactentities
 
@@ -59,26 +61,26 @@ Cette entité décrit les informations de contact du candidat, y compris les adr
 
 | Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
-| **ID d'entité de contact tiers**<br>mshr_dirpartycontactentityid<br>*Chaîne* | Lecture seule<br>Requis | Identificateur unique généré par le système pour l'enregistrement d'entité. |
-| **Numéro tiers**<br>mshr_partynumber<br>*Chaîne* | Lecture/écriture<br>Requis | L'ID de l'enregistrement de tiers (personne) associé. |
-| **Valeur de l'ID de personne**<br>_mshr_fk_person_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_dirpersonentityid de l'entité mshr_dirpersonentity | Identificateur généré par le système de l'enregistrement de l'entité de tiers (personne). |
-| **ID emplacement**<br>mshr_locationid<br>*Chaîne* | Lecture/écriture<br>Requis | ID d'emplacement de l'enregistrement d'adresse. Configuré dans l'entité mshr_logisticspostaladdresslocationcdsentity. |
+| **ID d’entité de contact tiers**<br>mshr_dirpartycontactentityid<br>*Chaîne* | Lecture seule<br>Requis | Identificateur unique généré par le système pour l’enregistrement d’entité. |
+| **Numéro tiers**<br>mshr_partynumber<br>*Chaîne* | Lecture/écriture<br>Requis | L’ID de l’enregistrement de tiers (personne) associé. |
+| **Valeur de l’ID de personne**<br>_mshr_fk_person_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_dirpersonentityid de l’entité mshr_dirpersonentity | Identificateur généré par le système de l’enregistrement de l’entité de tiers (personne). |
+| **ID emplacement**<br>mshr_locationid<br>*Chaîne* | Lecture/écriture<br>Requis | ID d’emplacement de l’enregistrement d’adresse. Configuré dans l’entité mshr_logisticspostaladdresslocationcdsentity. |
 | **Description**<br>mshr_description<br>*Chaîne* | Lecture/écriture<br>Requis | Description des coordonnées. |
-| **Type**<br>mshr_type<br>*Jeu d'options mshr_logisticselectronicaddressmethodtype* | Lecture/écriture<br>Requis | Type de détail du contact. |
-| **Code Pay Région**<br>mshr_countryregioncode<br>*Chaîne* | Lecture/écriture<br>Facultatif | Pays ou région de l'adresse. |
-| **Localisateur**<br>mshr_locator<br>*Chaîne* | Lecture/écriture<br>Facultatif | Détails du contact. Par exemple, si le type est **Adresse e-mail**, alors ce champ contient l'adresse e-mail du candidat. |
-| **Extension de localisateur**<br>mshr_locatorextension<br>*Chaîne* | Lecture/écriture<br>Facultatif | Extension du localisateur. Par exemple, si le type est **Téléphone**, alors cette propriété contiendra l'extension du numéro de téléphone. |
-| **Est un portable**<br>mshr_ismobile<br>*Jeu d'options mshr_noyes* | Lecture/écriture<br>Requis | Spécifie si le téléphone est un numéro de mobile. |
-| **Est un message instantané**<br>mshr_isinstantmessage<br>*Jeu d'options mshr_noyes* | Lecture/écriture<br>Requis | Spécifie si le téléphone est activé pour la messagerie instantanée. |
-| **Est principal**<br>mshr_isprimary<br>*Jeu d'options mshr_noyes* | Lecture/écriture<br>Requis | Détermine le contact principal du type de contact. Il ne doit y avoir qu'un seul enregistrement principal par type de contact. |
-| **Est privé**<br>mshr_isprivate<br>*Jeu d'options mshr_noyes* | Lecture/écriture<br>Requis | Identifie si cette adresse est une adresse privée pour la personne. |
+| **Type**<br>mshr_type<br>*Jeu d’options mshr_logisticselectronicaddressmethodtype* | Lecture/écriture<br>Requis | Type de détail du contact. |
+| **Code Pay Région**<br>mshr_countryregioncode<br>*Chaîne* | Lecture/écriture<br>Facultatif | Pays ou région de l’adresse. |
+| **Localisateur**<br>mshr_locator<br>*Chaîne* | Lecture/écriture<br>Facultatif | Détails du contact. Par exemple, si le type est **Adresse e-mail**, alors ce champ contient l’adresse e-mail du candidat. |
+| **Extension de localisateur**<br>mshr_locatorextension<br>*Chaîne* | Lecture/écriture<br>Facultatif | Extension du localisateur. Par exemple, si le type est **Téléphone**, alors cette propriété contiendra l’extension du numéro de téléphone. |
+| **Est un portable**<br>mshr_ismobile<br>*Jeu d’options mshr_noyes* | Lecture/écriture<br>Requis | Spécifie si le téléphone est un numéro de mobile. |
+| **Est un message instantané**<br>mshr_isinstantmessage<br>*Jeu d’options mshr_noyes* | Lecture/écriture<br>Requis | Spécifie si le téléphone est activé pour la messagerie instantanée. |
+| **Est principal**<br>mshr_isprimary<br>*Jeu d’options mshr_noyes* | Lecture/écriture<br>Requis | Détermine le contact principal du type de contact. Il ne doit y avoir qu’un seul enregistrement principal par type de contact. |
+| **Est privé**<br>mshr_isprivate<br>*Jeu d’options mshr_noyes* | Lecture/écriture<br>Requis | Identifie si cette adresse est une adresse privée pour la personne. |
 | **Objectif**<br>mshr_purpose<br>*Chaîne* | Lecture/écriture<br>Facultatif | Objectif/rôle des coordonnées. |
-| **Champ primaire**<br>mshr_primaryfield<br>*Chaîne* | Lecture seule<br>Requis | Champ utilisé comme identifiant principal de l'enregistrement d'entité. Combinaison de numéro de tiers, type, description et localisateur. |
+| **Champ primaire**<br>mshr_primaryfield<br>*Chaîne* | Lecture seule<br>Requis | Champ utilisé comme identifiant principal de l’enregistrement d’entité. Combinaison de numéro de tiers, type, description et localisateur. |
 
 ## <a name="see-also"></a>Voir également :
 
-[Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
-[Exemple de requête pour l'entité Candidat à l'embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+[Introduction à l’API d’intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
+[Exemple de requête pour l’entité Candidat à l’embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b9b548212c6f1f3faac56cd7ca182d84cc339bd2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0d41d8665252a978962bf6a2e307dce3dad64a5b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973908"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233437"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Modes et méthodes de gestion des transports
 
@@ -27,7 +27,7 @@ ms.locfileid: "4973908"
 
 Le mode de gestion du transport représente le type de transport que le transporteur utilise pour les livraisons de transport, telles que Chargement partiel (LTL), Chargement complet (TL), ou Colis. La méthode de transport représente la forme de transport que le transporteur utilise pour les livraisons de transport, telles que par avion, camion, bateau ou train.
 
-Les modes et méthodes de transport sont utilisés dans plusieurs contextes. Seuls les modes sont utilisés dans les plans d'itinéraire, tandis que les modes et les méthodes de transport sont utilisés lors de la configuration des transporteurs et des services de transporteur. Aucune relation ou hiérarchie explicite n'existe entre les modes et les méthodes de transport.
+Les modes et méthodes de transport sont utilisés dans plusieurs contextes. Seuls les modes sont utilisés dans les plans d’itinéraire, tandis que les modes et les méthodes de transport sont utilisés lors de la configuration des transporteurs et des services de transporteur. Aucune relation ou hiérarchie explicite n’existe entre les modes et les méthodes de transport.
 
 ## <a name="create-a-mode"></a>Créer un mode
 

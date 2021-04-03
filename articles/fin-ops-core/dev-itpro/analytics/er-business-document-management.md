@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e657ffbad88aeb9fd238112954f5555496ac329
-ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.openlocfilehash: 139da8bf6f6b6c826445740427469c1636f7cc5a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4740954"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569247"
 ---
 # <a name="business-document-management-overview"></a>Vue d’ensemble du module Gestion de document commercial
 
@@ -405,7 +404,7 @@ Oui, vous pouvez. Dans la première session de l’application, sélectionnez **
 
 ### <a name="when-i-select-open-in-desktop-app-i-receive-the-following-error-message-value-cannot-be-null-parameter-name-externalid-how-do-i-work-around-this-issue"></a>Lorsque je sélectionne Ouvrir dans l’application de bureau, je reçois le message d’erreur suivant : « La valeur ne peut pas être nulle. Nom du paramètre : externalId. » Comment résoudre ce problème ?
 
-Vous êtes probablement connecté à l’instance actuelle de l’application du domaine Azure AD qui diffère du domaine Azure AD utilisé pour déployer cette instance de Finance and Operations. Comme le service SharePoint, qui permet d’enregistrer des modèles pour les rendre disponibles pour modification à l’aide des applications de bureau Office, appartient au même domaine, nous n’avons aucune autorisation pour accéder au service SharePoint. Pour résoudre ce problème, connectez-vous à l’instance actuelle en utilisant les informations d’identification d’un utilisateur ayant le domaine Azure AD approprié.
+Vous êtes probablement connecté à l’instance actuelle de l’application du domaine Azure AD qui diffère du domaine Azure AD utilisé pour déployer cette instance. Comme le service SharePoint, qui permet d’enregistrer des modèles pour les rendre disponibles pour modification à l’aide des applications de bureau Office, appartient au même domaine, nous n’avons aucune autorisation pour accéder au service SharePoint. Pour résoudre ce problème, connectez-vous à l’instance actuelle en utilisant les informations d’identification d’un utilisateur ayant le domaine Azure AD approprié.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -1,0 +1,122 @@
+---
+title: Archiver les mouvements de stock
+description: Cette rubrique décrit comment archiver les données de transaction d’inventaire pour améliorer les performances du système.
+author: sherry-zheng
+manager: tfehr
+ms.date: 03/01/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: InventTransArchiveProcessForm
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: chuzheng
+ms.search.validFrom: 2021-03-01
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: 3a0fa65eb728e4ce96bdfc3f7a0f04901551ccea
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556419"
+---
+# <a name="archive-inventory-transactions"></a>Archiver les mouvements de stock
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+Au fil du temps, le tableau des transactions d’inventaire (`InventTrans`) continuera de croître et de consommer plus d’espace de base de données. Par conséquent, les requêtes effectuées sur la table deviendront progressivement plus lentes. Cette rubrique décrit comment utiliser la fonctionnalité *Archivage des transactions d’inventaire* pour archiver les données sur les transactions d’inventaire afin d’améliorer les performances du système.
+
+> [!NOTE]
+> Seules les transactions de stock mises à jour financièrement peuvent être archivées dans une période comptable fermée sélectionnée. Pour être archivées, les mouvements de stock sortants mis à jour financièrement doivent avoir un statut de sortie de *Vendu*, et les transactions d’inventaire entrantes doivent avoir un statut de réception de *Acheté*.
+
+Lorsque vous archivez des transactions d’inventaire, toutes les transactions associées sont déplacées vers la table `InventTransArchive`. Les transactions de sortie de stock et les transactions de réception de stock sont archivées séparément, en fonction de la combinaison de l’ID article (`itemId`) et l’ID de la dimension d’inventaire (`inventDimId`), et ils sont placés dans le numéro récapitulé et dans les transactions de réception récapitulées.
+
+Si une combinaison de `itemId` et de `inventDimId` ne contient qu’une seule transaction de réception ou de sortie, la transaction ne sera pas archivée.
+
+## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
+
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Archivage des transactions d’inventaire*.
+
+## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Éléments à prendre en compte avant d’archiver les transactions d’inventaire
+
+Avant d’archiver les transactions d’inventaire, vous devez envisager les scénarios commerciaux suivants, car ils seront affectés par l’opération :
+
+- Lorsque vous auditez des transactions d’inventaire à partir de documents associés, tels que des lignes de commande fournisseur, elles sont affichées comme archivées. Pour consulter les transactions archivées, vous devez aller à **Gestion de l’inventaire \> Tâches périodiques \> Nettoyer \> Archive des transactions d’inventaire**.
+- La clôture de l’inventaire ne peut pas être annulée pour les périodes archivées. Avant de pouvoir annuler une clôture de stock, vous devez contrepasser l’archive des mouvements de stock pour la période concernée.
+- La conversion des coûts standard ne peut pas être effectuée pour les périodes archivées. Avant de pouvoir effectuer une conversion de coût standard, vous devez contrepasser l’archive des mouvements de stock pour la période concernée.
+- Les rapports d’inventaire issus des transactions d’inventaire seront affectés lorsque vous archiverez les transactions d’inventaire. Ces rapports comprennent le rapport sur le vieillissement des stocks et les rapports sur la valeur des stocks.
+- Les prévisions d’inventaire peuvent être affectées si elles sont exécutées pendant l’horizon temporel des périodes archivées.
+
+## <a name="prerequisites"></a>Conditions préalables
+
+Les transactions de stock ne peuvent être archivées que pendant les périodes où les conditions suivantes sont remplies :
+
+- La période comptable doit être clôturée.
+- La clôture de l’inventaire doit être exécutée à la date de fin de période de l’archive ou après cette date.
+- La période doit être au moins un an avant la date de la période de début de l’archive.
+- Il ne doit y avoir aucun recalcul d’inventaire existant.
+
+## <a name="archive-inventory-transactions"></a>Archiver les mouvements de stock
+
+Pour archiver les transactions de stock, procédez comme suit.
+
+1. Aller à **Gestion des stocks** \> **Tâches périodiques** \> **Nettoyer** \> **Archive des transactions d’inventaire**.
+
+    La page **Archive des transactions d’inventaire** apparaît et affiche une liste des enregistrements de processus archivés.
+
+    ![Page Archive des transactions de stock](media/archive-inventory-empty.png "Page Archive des transactions de stock")
+
+1. Dans le volet Actions, sélectionnez **Archive des transactions d’inventaire** pour créer une archive de transactions d’inventaire.
+1. Dans la boîte de dialogue **Archive des transactions d’inventaire**, sur le raccourci **Paramètres**, définissez les champs suivants :
+
+    - **De la date dans la période comptable fermée** – Sélectionnez la date de transaction la plus récente à inclure dans l’archive.
+    - **À la date dans la période comptable fermée** – Sélectionnez la date de transaction la plus ancienne à inclure dans l’archive.
+
+    ![Boîte de dialogue Archive des transactions de stock](media/archive-inventory-dates.png "Boîte de dialogue Archive des transactions de stock")
+
+    > [!NOTE]
+    > Seules les périodes qui respectent les [conditions préalables](#prerequisites) sera disponible pour la sélection.
+
+1. Sur le raccourci **Exécuter en arrière-plan**, configurez les détails du traitement par lots selon vos besoins. Suivez les étapes habituelles pour les travaux par lots dans Microsoft Dynamics 365 Supply Chain Management.
+1. Cliquez sur **OK**.
+1. Vous recevez un message qui vous invite à confirmer que vous souhaitez continuer. Lisez attentivement le message, puis sélectionnez **Oui** pour continuer.
+
+    Vous recevez un message indiquant que votre travail d’archivage des transactions d’inventaire a été ajouté à la file d’attente par lots. Le travail commencera maintenant à archiver les transactions d’inventaire de la période sélectionnée.
+
+## <a name="view-archived-inventory-transactions"></a>Afficher les transactions de stock archivées
+
+La page **Archive des transactions d’inventaire** affiche votre historique d’archivage complet. Chaque ligne de la grille affiche des informations telles que la date de création de l’archive, l’utilisateur qui l’a créée et son statut.
+
+![Page Historique de l’archivage des transactions d’inventaire](media/archive-inventory-full.png "Page Historique de l’archivage des transactions d’inventaire")
+
+Dans la liste déroulante en haut de la page, sélectionnez l’une des valeurs suivantes pour filtrer les archives affichées dans la grille :
+
+- **Actif** – Afficher uniquement les archives actives, pas les archives inversées.
+- **Tout** – Afficher toutes les archives, actives et inversées.
+
+Pour chaque archive de la grille, les informations suivantes sont fournies :
+
+- **Actif** – Une coche indique que l’archive est active.
+- **Date de début** – La date de la transaction la plus ancienne pouvant être incluse dans l’archive.
+- **Date de fin** – La date de la transaction la plus récente pouvant être incluse dans l’archive.
+- **Programmé par** – Le compte utilisateur qui a créé l’archive.
+- **Exécuté** – Date de création de l’archive.
+- **Annuler** – Une coche indique que l’archive a été annulée.
+- **Arrêter la mise à jour actuelle** – Une coche indique que l’archive est en cours, mais qu’elle a été suspendue.
+- **État** – Le statut de traitement de l’archive. Les valeurs possibles sont *Attente*, *En cours*, et *Terminé*.
+
+La barre d’outils au-dessus de la grille fournit les boutons suivants que vous pouvez utiliser pour travailler avec une archive sélectionnée :
+
+- **Transactions archivées** – Afficher les détails complets de l’archive sélectionnée. La page **Transactions archivées** qui apparaît montre toutes les transactions dans l’archive.
+
+    ![Page des transactions archivées](media/archive-inventory-transactions.png "Page des transactions archivées")
+
+    Pour afficher plus d’informations sur une transaction spécifique sur la page **Transactions archivées**, sélectionnez-le dans la grille, puis, dans le volet Actions, sélectionnez **Détails de la transaction archivée**. La page **Détails de la transaction archivés** qui apparaît affiche des informations telles que l’écriture comptable, les références de comptabilité auxiliaire associées et les dimensions financières.
+
+- **Suspendre l’archivage** – Suspend une archive sélectionnée en cours de traitement. La pause prend effet uniquement après la génération de la tâche d’archivage. Par conséquent, il peut y avoir un court délai avant que la pause ne prenne effet. Si une archive a été mise en pause, une coche apparaît dans son champ **Arrêter la mise à jour actuelle**.
+- **Reprendre l’archivage** – Reprendre le traitement d’une archive sélectionnée en cours de suspension.
+- **Annuler** – Annulez l’archive sélectionnée. Vous ne pouvez annuler une archive que si son champ **État** est défini sur *Terminé*. Si une archive a été annulée, une coche apparaît dans son champ **Annuler**.

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 08bdcef865c1e4904f32ce01f2956ac7acf55bf1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4a15b1c3df5de1dc5a55cfaa08686ee85ed50ba3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987302"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236025"
 ---
 # <a name="safety-margins"></a>Marges de sécurité
 
@@ -161,7 +161,7 @@ Les règles suivantes sont appliquées pour déterminer si le moteur de planific
 
 #### <a name="calendar-setup-overview-matrix"></a>Matrice de présentation de la configuration du calendrier
 
-L’illustration suivante présente une matrice qui résume les calendriers qui s’appliquent lorsque les marges de sécurité sont calculées. (Sélectionnez l'image pour en ouvrir une version haute résolution.) Les abréviations et couleurs suivantes sont utilisées pour indiquer où chaque type de calendrier est spécifié :
+L’illustration suivante présente une matrice qui résume les calendriers qui s’appliquent lorsque les marges de sécurité sont calculées. (Sélectionnez l’image pour en ouvrir une version haute résolution.) Les abréviations et couleurs suivantes sont utilisées pour indiquer où chaque type de calendrier est spécifié :
 
 - **Groupe de couverture (GC) :** Vert
 - **Entrepôt (WH) :** Jaune

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: ca7ccb7959eab6f8a9bdc0292e28c3126cb0364c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4962263"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466446"
 ---
 # <a name="view-team-and-company-calendars"></a>Afficher les calendriers des équipes et de la société
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Vous pouvez afficher les calendriers des équipes et des entreprises dans Dynamics 365 Human Resources. Les calendriers d’équipe affichent uniquement les subordonnés directs, tels que définis dans la hiérarchie des lignes.
 
@@ -66,9 +68,9 @@ La configuration du calendrier dans les paramètres de congé et d’absence dé
 Vous pouvez également filtrer les calendriers par responsable ou service. L’affectation du poste principal détermine les employés affichés lorsque ces filtres sont définis. 
 
 >[!IMPORTANT]
->L'affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l'activer dans votre environnement de **bac à sable**. Pour plus d’informations sur l'activation des fonctionnalités d'évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).<br><br>
->Ensuite, vous devez activer la fonctionnalité dans **Paramètres partagés des ressources humaines** pour afficher le filtre d'entité juridique dans les calendriers. Pour plus d’informations, voir [Configurer les paramètres de congé et d’absence](hr-leave-and-absence-parameters.md).<br><br>
->Vous pouvez filtrer le calendrier par entité juridique. Si vous voulez voir tous les employés quelle que soit l'entité juridique, décochez la case de filtre et sélectionnez Entrée. 
+>L’affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l’activer dans votre environnement de **bac à sable**. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).<br><br>
+>Ensuite, vous devez activer la fonctionnalité dans **Paramètres partagés des ressources humaines** pour afficher le filtre d’entité juridique dans les calendriers. Pour plus d’informations, voir [Configurer les paramètres de congé et d’absence](hr-leave-and-absence-parameters.md).<br><br>
+>Vous pouvez filtrer le calendrier par entité juridique. Si vous voulez voir tous les employés quelle que soit l’entité juridique, décochez la case de filtre et sélectionnez Entrée. 
 
 Pour plus d’informations sur les paramètres du calendrier, voir [Configurer les paramètres du calendrier](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

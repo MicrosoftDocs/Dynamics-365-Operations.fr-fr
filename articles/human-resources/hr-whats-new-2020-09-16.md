@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74a87ddb4ed14042dd4e716ad64bc844a800a0a0
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 14a4c08b0d223bc7fd8044354f5976388af9176b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112581"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467455"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (16 septembre 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,39 +37,39 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modi
 
 -  [Vues enregistrées - disponibilité générale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)<br>- Pour plus d’informations, voir [Vues enregistrées](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/saved-views). 
 
-- L'écran **Actions liées aux postes** a une grille de dimensions mise à jour et une nouvelle boîte de dialogue (469495).
+- L’écran **Actions liées aux postes** a une grille de dimensions mise à jour et une nouvelle boîte de dialogue (469495).
 
-- Si vous définissez **Restreindre l'accès aux informations sur les collaborateurs** sur Oui dans **Accès avancé** dans **Paramètres partagés Human Resources**, les écrans des avantages n'indiquent plus que les collaborateurs appropriés (393384).
+- Si vous définissez **Restreindre l’accès aux informations sur les collaborateurs** sur Oui dans **Accès avancé** dans **Paramètres partagés Human Resources**, les écrans des avantages n’indiquent plus que les collaborateurs appropriés (393384).
 
-- Nouvelles options de génération de calendrier dans l'entité **WorkCalendar** (477055) :<br>- Heure de fin par défaut<br>- Heure de démarrage par défaut<br>- Est le vendredi jour ouvrable<br>- Est le lundi jour ouvrable<br>- Est le samedi jour ouvrable<br>- Est le dimanche jour ouvrable<br>- Est le jeudi jour ouvrable<br>- Est le mardi jour ouvrable<br>- Est le vendredi jour ouvrable<br>- ID Congés du calendrier de travail
+- Nouvelles options de génération de calendrier dans l’entité **WorkCalendar** (477055) :<br>- Heure de fin par défaut<br>- Heure de démarrage par défaut<br>- Est le vendredi jour ouvrable<br>- Est le lundi jour ouvrable<br>- Est le samedi jour ouvrable<br>- Est le dimanche jour ouvrable<br>- Est le jeudi jour ouvrable<br>- Est le mardi jour ouvrable<br>- Est le vendredi jour ouvrable<br>- ID Congés du calendrier de travail
 
-- L'entité **LeaveBankTransactionV1** inclut désormais le code motif (477823).
+- L’entité **LeaveBankTransactionV1** inclut désormais le code motif (477823).
 
 - Vous pouvez maintenant sauvegarder les enregistrements de tâches (492923).
 
 - Les données sont maintenant publiées avec succès depuis **HCMWorkerContactEntity** (427620).
 
-- L'organisateur **Rémunération** s'affiche maintenant pour le type de travailleur Fournisseur dans l'écran **Actions de collaborateur** (482494).
+- L’organisateur **Rémunération** s’affiche maintenant pour le type de travailleur Fournisseur dans l’écran **Actions de collaborateur** (482494).
 
-- Les champs **Niveau** et **Plan** sont désormais obligatoires si vous définissez **Rémunération fixe**. Un message d'erreur s'affiche si vous laissez ces champs vides (482497).
+- Les champs **Niveau** et **Plan** sont désormais obligatoires si vous définissez **Rémunération fixe**. Un message d’erreur s’affiche si vous laissez ces champs vides (482497).
 
 - Le champ **Type de plan** dans **Avantages** est maintenant une liste déroulante (488768).
 
 - Les administrateurs système reçoivent désormais une notification si un champ personnalisé est supprimé de Human Resources (481408).
 
-- Pendant le processus de licenciement des employés, Human Resources se comporte comme prévu et ne modifie pas l'entreprise sélectionnée après avoir semblé se verrouiller (479877). 
+- Pendant le processus de licenciement des employés, Human Resources se comporte comme prévu et ne modifie pas l’entreprise sélectionnée après avoir semblé se verrouiller (479877). 
 
 - Les managers ne peuvent plus ajouter de colonne numérique via la personnalisation (485317).
 
-- Les managers ne peuvent plus supprimer le filtre de plage de données des numéros d'identification arrivant à expiration (485321).
+- Les managers ne peuvent plus supprimer le filtre de plage de données des numéros d’identification arrivant à expiration (485321).
 
-- Quand le champ **Supérieur hiérarchique** est vide, les détails du poste s'affichent toujours lorsque vous survolez le poste (433328).
+- Quand le champ **Supérieur hiérarchique** est vide, les détails du poste s’affichent toujours lorsque vous survolez le poste (433328).
 
 - Les employés peuvent désormais afficher les informations relatives au régime de prestations dans le libre-service des employés (481676).
 
 - Les employés peuvent désormais voir tous les cours enregistrés (429048).
 
-- Vous pouvez désormais restreindre les options d'affichage pour la page **Certificats professionnels**. Vous pouvez restreindre les options d'affichage à l'entité juridique actuelle, par statut de collaborateur et par type de collaborateur (451501). 
+- Vous pouvez désormais restreindre les options d’affichage pour la page **Certificats professionnels**. Vous pouvez restreindre les options d’affichage à l’entité juridique actuelle, par statut de collaborateur et par type de collaborateur (451501). 
 
 
 ## <a name="in-preview"></a>En version préliminaire
@@ -106,7 +108,7 @@ Cette fonctionnalité favorise également les options de workflow qui apparaisse
 
 ### <a name="leave-and-absence-calendar"></a>Calendrier des congés et des absences
 
-Cette version comprend des options de calendrier supplémentaires pour les calendriers de congé et d'absence. Pour plus d’informations, voir [Afficher les calendriers des équipes et des sociétés](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar).
+Cette version comprend des options de calendrier supplémentaires pour les calendriers de congé et d’absence. Pour plus d’informations, voir [Afficher les calendriers des équipes et des sociétés](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-calendar).
 
 ## <a name="coming-soon"></a>Prochainement
 
