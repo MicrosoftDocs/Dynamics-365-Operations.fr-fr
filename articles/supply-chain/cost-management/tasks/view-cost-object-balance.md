@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ea74aa6efd4cd29c6c5deca9917224f8cfd605c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8a5cb08c8b6f7464dc6b04a6641225526d07d3c2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239420"
 ---
 # <a name="view-cost-object-balance"></a>Afficher le solde des objets de coût
 
@@ -31,7 +31,7 @@ Les données fictives utilisées pour créer cette procédure correspondent à l
 
 1. Cliquez sur Administration des coûts.
 2. Cliquez sur Produits lancés.
-3. Utiliser le filtre rapide pour appliquer un filtre au champ Numéro d'article avec une valeur de « m0004 ».
+3. Utiliser le filtre rapide pour appliquer un filtre au champ Numéro d’article avec une valeur de « m0004 ».
 4. Cliquez sur Gérer les coûts dans le volet Actions.
 5. Cliquez sur Objets de coût.
 6. Cliquez sur Quantité physique.

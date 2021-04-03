@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: f3e2f62b666559ba9a356e4948c2033da9cc95d5
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093846"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568571"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Contenu Power BI Comparatif Réel/Budget
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Power BI **Comparatif Réel/Budget**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit le contenu Microsoft Power BI **Comparatif Réel/Budget**. Elle explique également comment accéder aux états Power BI, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="overview"></a>Présentation
 

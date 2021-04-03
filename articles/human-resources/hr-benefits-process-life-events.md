@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: cfb0fc54e3904655cea0c795a46c540bd2a529a2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112485"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466252"
 ---
 # <a name="process-life-events"></a>Traitement des événements de vie
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie. Par exemple, mariage, changement d’emploi ou changement de personne à charge / bénéficiaire. Pour utiliser des événements de vie, vous devez activer les événements de vie dans l’écran des paramètres d’avantages, configurer les types d’événements de vie et configurer les options d’événements de vie pour les types de plan.
 

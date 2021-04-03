@@ -15,12 +15,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 3be4613912bece767e52668079841419757e7724
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d10c52e66b06e9ff52417bd49b178c44376ce42a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971177"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264081"
 ---
 # <a name="cash-position-inquiry"></a>Renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]

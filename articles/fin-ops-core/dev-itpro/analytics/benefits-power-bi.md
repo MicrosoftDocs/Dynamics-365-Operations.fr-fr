@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 8bbd1e35c0a6efd8feae80cb0010b84bbbf5cd6a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093079"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559915"
 ---
 # <a name="benefits-power-bi-content"></a>Contenu Power BI Avantages
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Microsoft Power BI **Avantage**. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
+Cette rubrique décrit le contenu Microsoft Power BI **Avantages**. Elle explique également comment accéder aux états inclus, et fournit des informations sur le modèle de données et les entités qui permettent de créer le contenu.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
 Le contenu Power BI **Avantages** s’affiche dans l’espace de travail **Gestion des avantages** si vous utilisez l’un des produits suivants :

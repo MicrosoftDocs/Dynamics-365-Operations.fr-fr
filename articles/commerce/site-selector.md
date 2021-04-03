@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ed00836c435bd391e5edef1f6a99889c80f45211
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e24590d4a8f172809704aab0d761f6db0fb0e11b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985584"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234339"
 ---
-# <a name="site-selector-module"></a>Module Sélecteur de sites
+# <a name="site-selector-module"></a>Module de sélection de site
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique couvre le module de sélecteur de sites et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Lorsqu'une entreprise possède différents sites sur des marchés, des régions et des paramètres régionaux, les utilisateurs des sites ont besoin d'un moyen simple de basculer entre les sites et de sélectionner leur site d'achat préféré. Pour s'adapter à ce scénario, le module de sélecteur de sites permet aux utilisateurs de parcourir plusieurs sites.
 

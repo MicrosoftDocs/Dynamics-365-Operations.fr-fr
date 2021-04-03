@@ -1,6 +1,6 @@
 ---
 title: Paramétrer un entrepôt
-description: Cette rubrique décrit comment paramétrer un entrepôt à utiliser avec un nouveau canal dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment paramétrer un entrepôt à utiliser avec un nouveau canal dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 67c0bb169bee8a7ea90edb4db7233111a8ee6e34
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993651"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477632"
 ---
 # <a name="warehouse-set-up"></a>Paramétrer un entrepôt
 
-
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment paramétrer un entrepôt à utiliser avec un nouveau canal dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique décrit comment paramétrer un entrepôt à utiliser avec un nouveau canal dans Microsoft Dynamics 365 Commerce.
 
 Chaque canal Commerce requiert un entrepôt configuré pour lui être associé. Les procédures suivantes fournissent la configuration minimale requise pour paramétrer un entrepôt pour un canal Commerce. Pour plus d'informations sur le paramétrage de l'entrepôt, veuillez consulter la [Vue d'ensemble de gestion des entrepôts](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 

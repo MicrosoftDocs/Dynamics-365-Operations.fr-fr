@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 68e72bc17005c11f28f572114357f906098cc045
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993342"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478138"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurer un locataire B2C dans Commerce
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment configurer vos locataires Azure Active Directory (Azure AD) B2C pour l’authentification du site de l’utilisateur dans Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce fait appel à Azure AD B2C pour prendre en charge les flux d’informations d’identification et d’authentification des utilisateurs. Un utilisateur peut s’inscrire, se connecter et réinitialiser son mot de passe via ces flux. Azure AD B2C stocke les informations d’authentification sensibles d’un utilisateur, telles que son nom d’utilisateur et son mot de passe. L’enregistrement utilisateur du locataire B2C stocke un enregistrement de compte local B2C ou un enregistrement de fournisseur d’identité sociale B2C. Ces enregistrements B2C seront liés à l’enregistrement client dans l’environnement Commerce.
 

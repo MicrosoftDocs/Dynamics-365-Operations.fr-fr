@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d54ced21de112288c2f98c0bc895ca0d49c217e3
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 10b87d01fd1172f4509f6fa803522eb25e73f9f5
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093353"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559673"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Paramétrage de la sécurité pour l’analyse de contrôle de gestion - Contenu Power BI
 
@@ -29,7 +28,7 @@ ms.locfileid: "5093353"
 
 Cette rubrique explique comment propager la sécurité au niveau des accès dans le contrôle de gestion à la sécurité au niveau des lignes dans Microsoft Power BI. Cette fonctionnalité permet de garantir que les utilisateurs n’affichent que les données Power BI auxquelles ils sont autorisés à accéder.
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Le contenu **Analyse du contrôle de gestion** Microsoft Power BI utilise la sécurité au niveau des lignes de Power BI pour restreindre l’accès des utilisateurs. La sécurité est basée sur la hiérarchie organisationnelle au niveau des accès qui est définie dans les paramètres du contrôle de gestion. Pour plus d’informations sur le contenu Power BI **Analyse du contrôle de gestion**, voir [Contenu Power BI d’analyse du contrôle de gestion](cost-accounting-analysis-content-pack.md).
 

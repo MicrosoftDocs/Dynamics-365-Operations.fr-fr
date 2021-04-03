@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2202b6b50d4b4b675759275379023a182b01af17
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fef622b05c56844b8927a4efcffd5a1944726cd4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007264"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246259"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Paramètres de commande par défaut pour les dimensions et les variantes de produits
 
@@ -49,12 +49,12 @@ Il existe trois types de paramètres de commande par défaut pour les achats, le
 - Lignes de commande fournisseur
 - Lignes de contrat d’achat
 - Lignes d’appel d’offre
-- Lignes de demande d'achat
+- Lignes de demande d’achat
 - Lignes de réapprovisionnement avec consignation (partiellement prises en charge, voir la note)
 - Commandes fournisseur prévisionnelles
 
 > [!NOTE]
-> Pour les lignes de commande de réapprovisionnement avec consignation, les seuls paramètres du raccourci **Commande fournisseur** de la page **Paramètres de commande par défaut** qui s'appliquent sont le champ **Site par défaut**, le champ **Entrepôt par défaut** et la case à cocher **Arrêté**.
+> Pour les lignes de commande de réapprovisionnement avec consignation, les seuls paramètres du raccourci **Commande fournisseur** de la page **Paramètres de commande par défaut** qui s’appliquent sont le champ **Site par défaut**, le champ **Entrepôt par défaut** et la case à cocher **Arrêté**.
 
 Les paramètres de commande par défaut pour les ventes sont utilisés lors de la création de :
 
