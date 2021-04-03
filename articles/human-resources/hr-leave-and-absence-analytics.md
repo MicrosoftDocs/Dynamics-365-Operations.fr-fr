@@ -18,30 +18,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 488745388312f0a2ef936dac2f8252431123fe33
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: c20d0da62724202e5b6c750e646bc205542191aa
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116066"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468153"
 ---
-# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="b4d2e-103">Affichage des analyses des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="b4d2e-103">View analytics for leave and absence</span></span>
+# <a name="view-analytics-for-leave-and-absence"></a><span data-ttu-id="c95f4-103">Affichage des analyses des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="c95f4-103">View analytics for leave and absence</span></span>
 
-<span data-ttu-id="b4d2e-104">Dynamics 365 Human Resources fournit des analyses pour vous donner un aperçu des tendances de congé et d'absence de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="b4d2e-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="b4d2e-105">Affichage des analyses des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="b4d2e-105">View Leave and absence analytics</span></span>
+<span data-ttu-id="c95f4-104">Dynamics 365 Human Resources fournit des analyses pour vous donner un aperçu des tendances de congé et d’absence de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="c95f4-104">Dynamics 365 Human Resources provides analytics to help give you insight into your organization's leave and absence trends.</span></span>
 
-1. <span data-ttu-id="b4d2e-106">Dans l'espace de travail **Congé et absence**, sélectionnez l'onglet **Analyses**.</span><span class="sxs-lookup"><span data-stu-id="b4d2e-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
+## <a name="view-leave-and-absence-analytics"></a><span data-ttu-id="c95f4-105">Affichage des analyses des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="c95f4-105">View Leave and absence analytics</span></span>
 
-2. <span data-ttu-id="b4d2e-107">Choisissez l'une des vues suivantes dans les onglets en bas :</span><span class="sxs-lookup"><span data-stu-id="b4d2e-107">Choose one of the following views from the tabs along the bottom:</span></span>
+1. <span data-ttu-id="c95f4-106">Dans l’espace de travail **Congé et absence**, sélectionnez l’onglet **Analyses**.</span><span class="sxs-lookup"><span data-stu-id="c95f4-106">In the **Leave and absence** workspace, select the **Analytics** tab.</span></span>
 
-   - <span data-ttu-id="b4d2e-108">**Vue d'ensemble des congés et des absences** - Affichez les pourcentages d'inscription et les taux d'utilisation de vos plans de congé, les régularisations et soldes mensuels et les soldes de congés par responsable.</span><span class="sxs-lookup"><span data-stu-id="b4d2e-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
+2. <span data-ttu-id="c95f4-107">Choisissez l’une des vues suivantes dans les onglets en bas :</span><span class="sxs-lookup"><span data-stu-id="c95f4-107">Choose one of the following views from the tabs along the bottom:</span></span>
 
-   - <span data-ttu-id="b4d2e-109">**Analyse du solde actuel** - Affichez des informations détaillées sur les soldes de congés et les régularisations.</span><span class="sxs-lookup"><span data-stu-id="b4d2e-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
+   - <span data-ttu-id="c95f4-108">**Vue d’ensemble des congés et des absences** - Affichez les pourcentages d’inscription et les taux d’utilisation de vos plans de congé, les régularisations et soldes mensuels et les soldes de congés par responsable.</span><span class="sxs-lookup"><span data-stu-id="c95f4-108">**Leave and Absence Overview** - View enrollment percentages and utilization rates for your leave plans, monthly accruals and balances, and time-off balances by manager.</span></span>
 
-   - <span data-ttu-id="b4d2e-110">**Analyse des tendances des soldes** - Affichez les tendances des soldes de congés par mois et par année, et affichez les tendances au cours des 12 derniers mois.</span><span class="sxs-lookup"><span data-stu-id="b4d2e-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
+   - <span data-ttu-id="c95f4-109">**Analyse du solde actuel** - Affichez des informations détaillées sur les soldes de congés et les régularisations.</span><span class="sxs-lookup"><span data-stu-id="c95f4-109">**Current Balance Analysis** - View detailed information about leave balances and accruals.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b4d2e-111">Voir également :</span><span class="sxs-lookup"><span data-stu-id="b4d2e-111">See also</span></span>
+   - <span data-ttu-id="c95f4-110">**Analyse des tendances des soldes** - Affichez les tendances des soldes de congés par mois et par année, et affichez les tendances au cours des 12 derniers mois.</span><span class="sxs-lookup"><span data-stu-id="c95f4-110">**Balance Trend Analysis** - View trends in leave balances by month and by year, and view trends over the past 12 months.</span></span>
 
-- [<span data-ttu-id="b4d2e-112">Vue d'ensemble des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="b4d2e-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="b4d2e-113">Création d'un plan de congé et d'absence</span><span class="sxs-lookup"><span data-stu-id="b4d2e-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+## <a name="see-also"></a><span data-ttu-id="c95f4-111">Voir également :</span><span class="sxs-lookup"><span data-stu-id="c95f4-111">See also</span></span>
+
+- [<span data-ttu-id="c95f4-112">Vue d’ensemble des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="c95f4-112">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="c95f4-113">Création d’un plan de congé et d’absence</span><span class="sxs-lookup"><span data-stu-id="c95f4-113">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
