@@ -18,38 +18,43 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22c2db7e97ab77b453c2d132ef614f0bd2b0b2c7
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: d5f5880391115f683b4148886aa09e1095b521f9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115268"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463476"
 ---
-# <a name="request-a-leave-of-absence"></a><span data-ttu-id="a4ff0-103">Demander un congé</span><span class="sxs-lookup"><span data-stu-id="a4ff0-103">Request a leave of absence</span></span>
+# <a name="request-a-leave-of-absence"></a><span data-ttu-id="2d33a-103">Demander un congé</span><span class="sxs-lookup"><span data-stu-id="2d33a-103">Request a leave of absence</span></span>
 
-<span data-ttu-id="a4ff0-104">Vous pouvez soumettre une demande de congé et voir l'état de vos demandes de congé dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-104">You can submit a request for a leave of absence and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="request-a-leave-of-absence"></a><span data-ttu-id="a4ff0-105">Demander un congé</span><span class="sxs-lookup"><span data-stu-id="a4ff0-105">Request a leave of absence</span></span>
+<span data-ttu-id="2d33a-104">Vous pouvez soumettre une demande de congé et voir l’état de vos demandes de congé dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="2d33a-104">You can submit a request for a leave of absence and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
 
-1. <span data-ttu-id="a4ff0-106">Dans l'espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-106">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+## <a name="request-a-leave-of-absence"></a><span data-ttu-id="2d33a-105">Demander un congé</span><span class="sxs-lookup"><span data-stu-id="2d33a-105">Request a leave of absence</span></span>
 
-2. <span data-ttu-id="a4ff0-107">Pour soumettre une demande de congé, sélectionnez **Demander un congé**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-107">To submit a leave of absence request, select **Request leave of absence**.</span></span>
+1. <span data-ttu-id="2d33a-106">Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-106">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-3. <span data-ttu-id="a4ff0-108">Entrez des informations pour **Type de congé**, **Date de début** et **Date de fin**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-108">Enter information for **Leave type**, **Start date**, and **End date**.</span></span>
+2. <span data-ttu-id="2d33a-107">Pour soumettre une demande de congé, sélectionnez **Demander un congé**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-107">To submit a leave of absence request, select **Request leave of absence**.</span></span>
 
-4. <span data-ttu-id="a4ff0-109">Si vous devez soumettre des pièces justificatives, sélectionnez **Charger** sous **Pièces jointes**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
+3. <span data-ttu-id="2d33a-108">Entrez des informations pour **Type de congé**, **Date de début** et **Date de fin**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-108">Enter information for **Leave type**, **Start date**, and **End date**.</span></span>
 
-5. <span data-ttu-id="a4ff0-110">Entrez les informations dans **Commentaire**, si besoin.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-110">Enter information in **Comment**, if needed.</span></span>
+4. <span data-ttu-id="2d33a-109">Si vous devez soumettre des pièces justificatives, sélectionnez **Charger** sous **Pièces jointes**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
 
-6. <span data-ttu-id="a4ff0-111">Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="a4ff0-112">Sinon, sélectionnez **Enregistrer en tant que brouillon**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-112">Otherwise, select **Save draft**.</span></span>
+5. <span data-ttu-id="2d33a-110">Entrez les informations dans **Commentaire**, si besoin.</span><span class="sxs-lookup"><span data-stu-id="2d33a-110">Enter information in **Comment**, if needed.</span></span>
+
+6. <span data-ttu-id="2d33a-111">Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande.</span><span class="sxs-lookup"><span data-stu-id="2d33a-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="2d33a-112">Sinon, sélectionnez **Enregistrer en tant que brouillon**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-112">Otherwise, select **Save draft**.</span></span>
 
 
-## <a name="view-leave-of-absence-request-status"></a><span data-ttu-id="a4ff0-113">Afficher le statut des demandes de congé</span><span class="sxs-lookup"><span data-stu-id="a4ff0-113">View leave of absence request status</span></span>
+## <a name="view-leave-of-absence-request-status"></a><span data-ttu-id="2d33a-113">Afficher le statut des demandes de congé</span><span class="sxs-lookup"><span data-stu-id="2d33a-113">View leave of absence request status</span></span>
 
-1. <span data-ttu-id="a4ff0-114">Dans l'espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-114">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="2d33a-114">Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-114">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="a4ff0-115">Pour visualiser vos demandes de congé, sélectionnez **Afficher les congés**.</span><span class="sxs-lookup"><span data-stu-id="a4ff0-115">To view your leave of absence requests, select **View leave of absence**.</span></span>
+2. <span data-ttu-id="2d33a-115">Pour visualiser vos demandes de congé, sélectionnez **Afficher les congés**.</span><span class="sxs-lookup"><span data-stu-id="2d33a-115">To view your leave of absence requests, select **View leave of absence**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a4ff0-116">Voir également :</span><span class="sxs-lookup"><span data-stu-id="a4ff0-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2d33a-116">Voir également :</span><span class="sxs-lookup"><span data-stu-id="2d33a-116">See also</span></span>
 
-[<span data-ttu-id="a4ff0-117">Suspendre les congés</span><span class="sxs-lookup"><span data-stu-id="a4ff0-117">Suspend leave</span></span>](hr-leave-and-absence-suspend-leave.md)
+[<span data-ttu-id="2d33a-117">Suspendre les congés</span><span class="sxs-lookup"><span data-stu-id="2d33a-117">Suspend leave</span></span>](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

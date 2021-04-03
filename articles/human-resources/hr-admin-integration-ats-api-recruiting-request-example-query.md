@@ -1,6 +1,6 @@
 ---
 title: Exemple de requête pour une demande de recrutement
-description: Cette rubrique fournit un exemple de requête pour l'entité Demande de recrutement dans Dynamics 365 Human Resources.
+description: Cette rubrique fournit un exemple de requête pour l’entité Demande de recrutement dans Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,26 +16,28 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42028b175d717bec01180dc9a6bc4cb7b289be05
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: ec8b881282d3e79f83cc7205e4742f7e6c5c3464
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125928"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465988"
 ---
-# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="6f549-103">Exemple de requête pour une demande de recrutement</span><span class="sxs-lookup"><span data-stu-id="6f549-103">Example query for Recruiting request</span></span>
+# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="66dd4-103">Exemple de requête pour une demande de recrutement</span><span class="sxs-lookup"><span data-stu-id="66dd4-103">Example query for Recruiting request</span></span>
 
-<span data-ttu-id="6f549-104">Cette rubrique fournit un exemple de requête pour l'entité Demande de recrutement dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="6f549-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="6f549-105">La requête suivante montre comment utiliser l'option de requête $expand dans une opération GET pour récupérer un dossier de recrutement spécifié et tous les postes associés, les compétences requises et les exigences en matière de formation pour la demande spécifiée.</span><span class="sxs-lookup"><span data-stu-id="6f549-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="6f549-106">L'exemple de réponse montre une demande de recrutement pour deux postes, ainsi que les compétences et la formation requises pour les postes demandés.</span><span class="sxs-lookup"><span data-stu-id="6f549-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+<span data-ttu-id="66dd4-104">Cette rubrique fournit un exemple de requête pour l’entité Demande de recrutement dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="66dd4-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="6f549-107">**Demande**</span><span class="sxs-lookup"><span data-stu-id="6f549-107">**Request**</span></span>
+<span data-ttu-id="66dd4-105">La requête suivante montre comment utiliser l’option de requête $expand dans une opération GET pour récupérer un dossier de recrutement spécifié et tous les postes associés, les compétences requises et les exigences en matière de formation pour la demande spécifiée.</span><span class="sxs-lookup"><span data-stu-id="66dd4-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="66dd4-106">L’exemple de réponse montre une demande de recrutement pour deux postes, ainsi que les compétences et la formation requises pour les postes demandés.</span><span class="sxs-lookup"><span data-stu-id="66dd4-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+
+<span data-ttu-id="66dd4-107">**Demande**</span><span class="sxs-lookup"><span data-stu-id="66dd4-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruiting request entity ID>)?$expand=mshr_FK_HcmRecruitingRequestPositionEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestSkillEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestEducationEntity_RecruitingRequest
 ```
 
-<span data-ttu-id="6f549-108">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="6f549-108">**Response**</span></span>
+<span data-ttu-id="66dd4-108">**Réponse**</span><span class="sxs-lookup"><span data-stu-id="66dd4-108">**Response**</span></span>
 
 ```json
 {
@@ -180,6 +182,8 @@ GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruitin
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6f549-109">Voir également :</span><span class="sxs-lookup"><span data-stu-id="6f549-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="66dd4-109">Voir également :</span><span class="sxs-lookup"><span data-stu-id="66dd4-109">See also</span></span>
 
-[<span data-ttu-id="6f549-110">Introduction à l'API d'intégration du système de suivi des candidats</span><span class="sxs-lookup"><span data-stu-id="6f549-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="66dd4-110">Introduction à l’API d’intégration du système de suivi des candidats</span><span class="sxs-lookup"><span data-stu-id="66dd4-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
