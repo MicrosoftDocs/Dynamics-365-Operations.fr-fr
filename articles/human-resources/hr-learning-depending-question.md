@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67dac872d6dc3a5046f5d554b1f185aa6607d193
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 0a76220647417b6ff69e2f0ab5b2fa5297db5c49
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115002"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467841"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Rendre une question dépendante de la réponse à la question précédente
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -38,23 +40,23 @@ Les questions conditionnelles permettent de spécifier la question de suivi qui 
 1. Cliquez sur Questions.
 2. Cliquez sur Nouveau.
 3. Dans le champ Question, sélectionnez la question 00016.
-4. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
 
-## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Définir l'ordre du questionnaire sur Conditionnel et rendre la question dépendante de la question appropriée
+## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Définir l’ordre du questionnaire sur Conditionnel et rendre la question dépendante de la question appropriée
 1. Cliquez sur Modifier.
 2. Développez la section Paramétrage.
 3. Dans le champ Ordre des questions, sélectionnez « Conditionnelle ».
 4. Cliquez sur Question conditionnelle.
-5. Dans l'arborescence, sélectionnez « Questions\Expliquez pourquoi vous avez répondu cela à la question précédente ? ».
+5. Dans l’arborescence, sélectionnez « Questions\Expliquez pourquoi vous avez répondu cela à la question précédente ? ».
 6. Dans le champ Question principale, sélectionnez la question 00009.
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Dans le champ Réponse, entrez l'ID de séquence de réponse de l'option de réponse dont doit dépendre la question. Par exemple, entrez 1 pour la première option de réponse.
+8. Dans le champ Réponse, entrez l’ID de séquence de réponse de l’option de réponse dont doit dépendre la question. Par exemple, entrez 1 pour la première option de réponse.
 9. Cliquez sur Enregistrer.
-10. Dans l'arborescence, sélectionnez « Questions\Je suis assez payé pour mon travail ».
-    * Notez que l'arborescence de questions est mise à jour pour indiquer la dépendance.  
+10. Dans l’arborescence, sélectionnez « Questions\Je suis assez payé pour mon travail ».
+    * Notez que l’arborescence de questions est mise à jour pour indiquer la dépendance.  
 
 
 

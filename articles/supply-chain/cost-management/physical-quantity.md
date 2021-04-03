@@ -1,6 +1,6 @@
 ---
-title: Valeurs d'un objet de stock
-description: Cet article fournit des informations sur la manière dont les valeurs d'un objet de stock sont calculées.
+title: Valeurs d’un objet de stock
+description: Cet article fournit des informations sur la manière dont les valeurs d’un objet de stock sont calculées.
 author: AndersGirke
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,28 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f14248ffa8f9f5a460b090ca5754442cd50bf45a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967431"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263540"
 ---
-# <a name="inventory-object-values"></a>Valeurs d'un objet de stock
+# <a name="inventory-object-values"></a>Valeurs d’un objet de stock
 
 [!include [banner](../includes/banner.md)]
 
-Cet article fournit des informations sur la manière dont les valeurs d'un objet de stock sont calculées. 
+Cet article fournit des informations sur la manière dont les valeurs d’un objet de stock sont calculées. 
 
-Une nouvelle fonctionnalité nommée **quantité physique** vous permet de consulter les valeurs d'un objet de stock spécifique. 
+Une nouvelle fonctionnalité nommée **quantité physique** vous permet de consulter les valeurs d’un objet de stock spécifique. 
 
-Un objet de coût représente le niveau d'entité où est effectué le comptage d'inventaire. Pour plus d'informations sur les objets de coût, consultez [Objets de coût](cost-object.md). 
+Un objet de coût représente le niveau d’entité où est effectué le comptage d’inventaire. Pour plus d’informations sur les objets de coût, consultez [Objets de coût](cost-object.md). 
 
-Pour afficher les valeurs d'un objet de stock spécifique, cliquez sur **Quantité physique** dans la page **Objet de coût**. Spécifiez comment la valeur d'un objet de stock est calculée : 
+Pour afficher les valeurs d’un objet de stock spécifique, cliquez sur **Quantité physique** dans la page **Objet de coût**. Spécifiez comment la valeur d’un objet de stock est calculée : 
 
 Objet de stock. Valeur = Objet de coût.Coût unitaire moyen × Objet de stock.Quantité 
 
-L'exemple suivant montre comment les valeurs d'un objet de stock et d'un objet de coût sont calculées. Deux événements d'accusé de réception de marchandises sont enregistrés pour l'article A :
+L’exemple suivant montre comment les valeurs d’un objet de stock et d’un objet de coût sont calculées. Deux événements d’accusé de réception de marchandises sont enregistrés pour l’article A :
 
 -   Accusé de réception de marchandises 1 : Quantité = 100., pcs, Montant = 1 000.00 USD, Site = 1, Entrepôt =11, N° de lot. = B1
 -   Accusé de réception de marchandises 2 : Quantité = 50., pcs, Montant = 800.00 USD, Site = 1, Entrepôt =11, N° de lot. = B2
@@ -58,8 +58,8 @@ Le tableau suivant donne le résultat du calcul pour un objet de coût. Vous pou
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type d'objet</th>
-<th>Numéro d'article</th>
+<th>Type d’objet</th>
+<th>Numéro d’article</th>
 <th>site ;</th>
 <th>Quantité</th>
 <th>Unité de stock</th>
@@ -96,8 +96,8 @@ Le tableau suivant donne le résultat du calcul pour un objet de stock. Vous pou
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type d'objet</th>
-<th>Numéro d'article</th>
+<th>Type d’objet</th>
+<th>Numéro d’article</th>
 <th>site ;</th>
 <th>Entrepôt</th>
 <th>N° de lot</th>

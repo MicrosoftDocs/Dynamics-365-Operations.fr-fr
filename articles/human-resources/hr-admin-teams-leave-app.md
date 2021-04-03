@@ -3,7 +3,7 @@ title: Application Human Resources de Teams
 description: Cette rubrique vous présente l’application Microsoft Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112525"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487871"
 ---
 # <a name="human-resources-app-in-teams"></a>Application Human Resources de Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams permet aux employés de demander rapidement des congés et d’afficher les informations sur leur solde de congés dans Microsoft Teams. Les employés peuvent interagir avec un bot pour demander des informations. L’onglet **Congés** fournit des informations plus détaillées. En outre, il permet d'envoyer des informations aux personnes sur le prochain congé dans les équipes et dans les chats en dehors de l'application Human Resources.
+L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams permet aux employés de demander rapidement des congés et d’afficher les informations sur leur solde de congés dans Microsoft Teams. Les employés peuvent interagir avec un bot pour demander des informations. L’onglet **Congés** fournit des informations plus détaillées. En outre, il permet d’envoyer des informations aux personnes sur le prochain congé dans les équipes et dans les chats en dehors de l’application Human Resources.
 
-![Bot d’application de congé Human Resources de Teams](./media/hr-admin-teams-leave-app-bot.png)
+![Bot d’application de congé Human Resources de Teams](./media/hr-teams-leave-app-bot.png)
 
 ![Onglet Congés de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ L’application Microsoft Dynamics 365 Human Resources de Microsoft Teams permet
 
 ## <a name="install-and-setup"></a>Installer et configurer
 
-Vous pouvez trouver l’application Human Resources dans la boutique Teams. Pour plus d’informations sur l’installation de l’application Teams, voir [Gérer les demandes de congé dans Teams](hr-teams-leave-app.md).
+Vous pouvez trouver l’application Dynamics 365 Human Resources dans la boutique Teams. Pour plus d’informations sur l’installation de l’application Teams, voir [Gérer les demandes de congé dans Teams](hr-teams-leave-app.md).
 
 Pour plus d’informations sur la gestion des autorisations d’application dans Teams, consultez [Gérer les stratégies d’autorisation des applications dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Si vous souhaitez que vos utilisateurs voient le calendrier des congés et absences dans l’application, vous devez activer le **Calendrier des congés et absences dans Teams** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités, consultez [Gérer les fonctionnalités](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Activer les notifications pour l’application Human Resources dans Teams
 
-Si vous souhaitez que les utilisateurs reçoivent des notifications de demande de congé dans l’application Teams, vous devez activer les notifications dans Human Resources.
+Si vous souhaitez que les utilisateurs reçoivent des notifications de demande de congé dans l’application Teams, vous devez activer les notifications dans Dynamics 365 Human Resources.
 
 >[!NOTE]
->Seuls les utilisateurs connectés à Teams et utilisant l’application Human Resources Teams recevront des notifications.
+>Seuls les utilisateurs connectés à Teams et utilisant l’application Dynamics 365 Human Resources Teams recevront des notifications.
 
 1. Dans Human Resources, sélectionnez **Administration du système**.
 
@@ -66,7 +68,7 @@ Si vous souhaitez que les utilisateurs reçoivent des notifications de demande d
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Activer ou désactiver les notifications Teams pour les utilisateurs individuels
 
-Une fois que vous avez activé les notifications pour l’application Human Resources de Teams, vous pouvez activer ou désactiver les notifications pour des utilisateurs individuels.
+Une fois que vous avez activé les notifications pour l’application Dynamics 365 Human Resources de Teams, vous pouvez activer ou désactiver les notifications pour des utilisateurs individuels.
 
 1. Dans Human Resources, sélectionnez **Administration du système**.
 
@@ -82,9 +84,28 @@ Une fois que vous avez activé les notifications pour l’application Human Reso
 
 6. Sélectionnez **Enregistrer**.
 
-## <a name="known-issues"></a>Problèmes connus
+## <a name="supported-languages"></a>Langues prises en charge
 
-| Sortie | Statut |
+L’application Dynamics 365 Human Resources dans Teams prend en charge les langues suivantes :
+
+| ID de paramètres régionaux | Langue |
+| --- | --- |
+| de-DE | Allemand (Allemagne) |
+| es-ES | Espagnol (Espagne) |
+| es-MX | Espagnol (Mexique) |
+| fr-CA | Français (Canada) |
+| fr-FR | Français (France) |
+| it-IT | Italien (Italie) |
+| nl-NL | Néerlandais (Pays-Bas) |
+| pt-BR | Portugais (Brésil) |
+| tr-TR | Turc (Turquie) |
+| zh-CN | Chinois (simplifié) |
+
+## <a name="notes"></a>Notes
+
+Les éléments de travail suivants sont prévus pour les prochaines versions :
+
+| Élément de travail | État |
 | --- | --- |
 | Le solde est incorrect lors de la soumission de congés pour une date future. | Les prévisions ne sont pas encore disponibles. Le solde affiche la date actuelle. |
 | Impossible d’annuler une demande **En cours de révision**. | Cette fonctionnalité n’est actuellement pas prise en charge et sera ajoutée dans une prochaine version. |
@@ -92,19 +113,19 @@ Une fois que vous avez activé les notifications pour l’application Human Reso
 
 ## <a name="troubleshooting"></a>Dépannage
 
-Si un utilisateur rencontre des problèmes pour se connecter ou utiliser l'application Teams de Human Resources, essayez de suivre ces instructions de dépannage. Si vous rencontrez toujours des problèmes après la résolution des problèmes, contactez l'assistance. Pour plus d’informations, voir [Obtenir de l’aide](hr-admin-troubleshooting-support.md).
+Si un utilisateur rencontre des problèmes pour se connecter ou utiliser l’application Teams de Human Resources, essayez de suivre ces instructions de dépannage. Si vous rencontrez toujours des problèmes après la résolution des problèmes, contactez l’assistance. Pour plus d’informations, voir [Obtenir de l’aide](hr-admin-troubleshooting-support.md).
 
-### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Impossible de se connecter à l'application Human Resources dans Teams
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Impossible de se connecter à l’application Human Resources dans Teams
 
-Si un utilisateur vous contacte car il ne peut pas se connecter à l'application, vérifiez que cet utilisateur dispose d'un enregistrement d'employé associé dans Human Resources.
+Si un utilisateur vous contacte car il ne peut pas se connecter à l’application, vérifiez qu’il dispose d’un enregistrement d’employé associé dans Human Resources.
 
-### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erreur lors de l'approbation des demandes de congé dans l'application Human Resources dans Teams
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erreur lors de l’approbation des demandes de congé dans l’application Human Resources dans Teams
 
-Si un utilisateur reçoit une erreur lors de la tentative d'approbation des demandes de congé dans l'application Teams, effectuez les étapes de dépannage suivantes :
+Si un utilisateur reçoit une erreur lors de la tentative d’approbation des demandes de congé dans l’application Teams, essayez les étapes de résolution des problèmes suivantes :
 
 1. Vérifiez que leur compte Teams est le même que celui utilisé pour accéder à Human Resources.
 
-2. Vérifiez qu'il s'agit d'un approbateur valide pour la demande en vérifiant les paramètres de flux de travail pour l'approbation de congé. Pour plus d'informations sur les workflows de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
+2. Vérifiez qu’il s’agit d’un approbateur valide pour la demande en vérifiant les paramètres de flux de travail pour l’approbation de congé. Pour plus d’informations sur les workflows de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 
@@ -120,13 +141,13 @@ Pour gérer les paramètres d’administration des applications dans Microsoft T
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid et Azure Cosmos DB
 
-Lorsque vous utilisez l'application Dynamics 365 Human Resources dans Microsoft Teams, certaines données client peuvent circuler en dehors de la zone géographique où le service Human Resources de votre client est déployé.
+Lorsque vous utilisez l’application Dynamics 365 Human Resources dans Microsoft Teams, certaines données client peuvent circuler en dehors de la zone géographique où le service Human Resources de votre client est déployé.
 
-Dynamics 365 Human Resources transmet la demande de congé de l'employé et les détails de la tâche de flux de travail à Microsoft Azure Event Grid et Microsoft Teams. Ces données peuvent être stockées dans Microsoft Azure Event Grid jusqu’à 24 heures et seront traitées aux États-Unis, elles sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour la formation ou l’amélioration des services. Pour comprendre où vos données sont stockées dans Teams, veuillez consulter : [Emplacement des données dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Dynamics 365 Human Resources transmet la demande de congé de l’employé et les détails de la tâche de flux de travail à Microsoft Azure Event Grid et Microsoft Teams. Ces données peuvent être stockées dans Microsoft Azure Event Grid jusqu’à 24 heures et seront traitées aux États-Unis, elles sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour la formation ou l’amélioration des services. Pour comprendre où vos données sont stockées dans Teams, veuillez consulter : [Emplacement des données dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
 
-Lors d'une conversation avec le chat bot dans l'application Human Resources, le contenu de la conversation peut être stocké dans Azure Cosmos DB et transmis à Microsoft Teams. Ces données peuvent être stockées dans Azure Cosmos DB jusqu'à 24 heures et peuvent être traitées en dehors de la région géographique où le service Human Resources de votre client est déployé, sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour amélioration de la formation ou du service. Pour comprendre où vos données sont stockées dans Teams, veuillez consulter : [Emplacement des données dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+Lors d’une conversation avec le chat bot dans l’application Human Resources, le contenu de la conversation peut être stocké dans Azure Cosmos DB et transmis à Microsoft Teams. Ces données peuvent être stockées dans Azure Cosmos DB jusqu’à 24 heures et peuvent être traitées en dehors de la région géographique où le service Human Resources de votre client est déployé, sont chiffrées en transit et au repos, et ne sont pas utilisées par Microsoft ou ses sous-traitants pour amélioration de la formation ou du service. Pour comprendre où vos données sont stockées dans Teams, veuillez consulter : [Emplacement des données dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
  
-Pour limiter l'accès à l'application Human Resources dans Microsoft Teams pour votre organisation ou les utilisateurs au sein de votre organisation, consultez [Gérer les stratégies d'autorisation des applications dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
+Pour limiter l’accès à l’application Human Resources dans Microsoft Teams pour votre organisation ou les utilisateurs au sein de votre organisation, consultez [Gérer les stratégies d’autorisation des applications dans Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Voir également : 
 

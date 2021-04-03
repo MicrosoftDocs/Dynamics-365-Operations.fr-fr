@@ -1,6 +1,6 @@
 ---
-title: Mettre en service un environnement d'évaluation Dynamics 365 Commerce
-description: Cette rubrique explique comment mettre en service un environnement d'évaluation Microsoft Dynamics 365 Commerce.
+title: Mettre en service un environnement d’évaluation Dynamics 365 Commerce
+description: Cette rubrique explique comment mettre en service un environnement d’évaluation Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 12/17/2020
@@ -17,25 +17,23 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a57cc02c6d62f288f14b65191c2f4927a019963c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969899"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478162"
 ---
-# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Mettre en service un environnement d'évaluation Dynamics 365 Commerce
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Mettre en service un environnement d’évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment mettre en service un environnement d'évaluation Microsoft Dynamics 365 Commerce.
+Cette rubrique explique comment mettre en service un environnement d’évaluation Microsoft Dynamics 365 Commerce.
 
 Avant de commencer, nous vous conseillons de parcourir rapidement cette rubrique pour avoir une idée de ce que le processus nécessite.
 
 > [!NOTE]
 > Les environnements d'évaluation de Commerce ne sont pas en disponibilité générale et sont accordés aux partenaires et aux clients sur demande. Pour plus d'informations, contactez votre partenaire Microsoft.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Pour configurer correctement votre environnement d'évaluation Commerce, vous devez créer un projet qui a un nom et un type de produit spécifiques. L'environnement et Commerce Scale Unit (CSU) ont aussi des paramètres spécifiques que vous devez utiliser si vous envisagez de mettre en service le commerce électronique ultérieurement. Les instructions de cette rubrique décrivent toutes les étapes requises pour terminer la mise en service et indiquent également les paramètres à utiliser.
 

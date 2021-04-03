@@ -1,6 +1,6 @@
 ---
-title: Créer des catégories d'emploi
-description: Les catégories d'emploi peuvent être configurés dans Dynamics 365 Human Resources pour qu'elles correspondent à vos collaborateurs.
+title: Créer des catégories d’emploi
+description: Les catégories d’emploi peuvent être configurés dans Dynamics 365 Human Resources pour qu’elles correspondent à vos collaborateurs.
 author: andreabichsel
 manager: tfehr
 ms.date: 04/06/2020
@@ -18,22 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27e8b229833205de75825fbb1c4634e883d24fc1
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 723f2c2c42e9529169fc70358b235fad967a1b79
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112517"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466084"
 ---
-# <a name="create-employment-categories"></a>Créer des catégories d'emploi
+# <a name="create-employment-categories"></a>Créer des catégories d’emploi
 
-Configurez les catégories d'emploi dans Dynamics 365 Human Resources pour qu'elles correspondent à vos collaborateurs.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Catégories d'emploi**.
+Configurez les catégories d’emploi dans Dynamics 365 Human Resources pour qu’elles correspondent à vos collaborateurs.
+
+1. Dans l’espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Catégories d’emploi**.
 
 2. Sélectionnez **Nouveau**.
 
-3. Spécifiez des valeurs pour **Type de collaborateur**, **Catégorie d'emploi** et **Description**.
+3. Spécifiez des valeurs pour **Type de collaborateur**, **Catégorie d’emploi** et **Description**.
 
 4. Sélectionnez **Enregistrer**. 
 

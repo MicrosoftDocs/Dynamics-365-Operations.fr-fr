@@ -1,6 +1,6 @@
 ---
-title: Groupes d'objets de service
-description: Les groupes d'objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques.
+title: Groupes d’objets de service
+description: Les groupes d’objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/11/2018
@@ -17,48 +17,48 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a8e050afb44787072f78e2c971394956cb1026f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f9d19e29dbddb0bccf3221cc82e6dbb2c05f7e85
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977586"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266077"
 ---
-# <a name="service-object-groups"></a>Groupes d'objets de service 
+# <a name="service-object-groups"></a>Groupes d’objets de service 
 
 [!include [banner](../includes/banner.md)]
 
-Les groupes d'objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques. Par exemple, vous pouvez regrouper des objets par emplacement géographique ou par type.
+Les groupes d’objets permettent de trier et de filtrer les données relatives à des objets pour générer des états et des statistiques. Par exemple, vous pouvez regrouper des objets par emplacement géographique ou par type.
 
 ## <a name="group-by-geographical-location"></a>Regroupement par emplacement géographique
 
-Cette méthode de regroupement permet d'afficher l'emplacement des différents objets pour lesquels votre société offre un service. Le regroupement d'objets par emplacement géographique peut également être utile, par exemple, si vous devez identifier les objets pour lesquels votre société offre déjà un service dans une région ou un pays particulier.
+Cette méthode de regroupement permet d’afficher l’emplacement des différents objets pour lesquels votre société offre un service. Le regroupement d’objets par emplacement géographique peut également être utile, par exemple, si vous devez identifier les objets pour lesquels votre société offre déjà un service dans une région ou un pays particulier.
 
 ## <a name="example"></a>Exemple
 
-Un client basé en Belgique désireux de créer une accord de service pour un objet ABC appelle votre centre de service. Vous avez associé un groupe d'objets pour un emplacement géographique nommé Belgique à tous les objets bénéficiant d'un service en Belgique. En utilisant ce groupe comme filtre, vous pouvez rapidement vérifier si ABC existe déjà en tant qu'enregistrement dans le programme ou si vous devez paramétrer un nouvel objet. 
+Un client basé en Belgique désireux de créer une accord de service pour un objet ABC appelle votre centre de service. Vous avez associé un groupe d’objets pour un emplacement géographique nommé Belgique à tous les objets bénéficiant d’un service en Belgique. En utilisant ce groupe comme filtre, vous pouvez rapidement vérifier si ABC existe déjà en tant qu’enregistrement dans le programme ou si vous devez paramétrer un nouvel objet. 
 
 ## <a name="group-by-type"></a>Regroupement par type
 
-Cette méthode de regroupement permet d'afficher les types d'objets pour lesquels votre société offre un service. Le regroupement d'objets par type peut également être utile, par exemple, pour créer un objet basé sur des objets similaires existants dans le programme.
+Cette méthode de regroupement permet d’afficher les types d’objets pour lesquels votre société offre un service. Le regroupement d’objets par type peut également être utile, par exemple, pour créer un objet basé sur des objets similaires existants dans le programme.
 
 ## <a name="example"></a>Exemple
 
-Un client appelle pour conclure un accord de service concernant un appareil de conditionnement d'air, HIJ. Vous n'avez pas encore d'enregistrement pour cet appareil. Toutefois, vous avez paramétré un groupe d'objets nommé Conditionnement d'air que vous avez associé à tous les objets de conditionnement d'air. Vous pouvez donc rapidement rechercher et identifier tous les autres appareils de conditionnement d'air et utiliser les informations modèles de ces derniers comme base pour les lignes d'accord de service de HIJ. L'utilisation de groupes d'objets de cette manière permet de paramétrer rapidement de nouveaux objets et de déterminer les tâches de service à exécuter sur ces derniers. 
+Un client appelle pour conclure un accord de service concernant un appareil de conditionnement d’air, HIJ. Vous n’avez pas encore d’enregistrement pour cet appareil. Toutefois, vous avez paramétré un groupe d’objets nommé Conditionnement d’air que vous avez associé à tous les objets de conditionnement d’air. Vous pouvez donc rapidement rechercher et identifier tous les autres appareils de conditionnement d’air et utiliser les informations modèles de ces derniers comme base pour les lignes d’accord de service de HIJ. L’utilisation de groupes d’objets de cette manière permet de paramétrer rapidement de nouveaux objets et de déterminer les tâches de service à exécuter sur ces derniers. 
 
-## <a name="create-service-object-groups"></a>Créer des groupes d'objets de service
+## <a name="create-service-object-groups"></a>Créer des groupes d’objets de service
 
-Créez des groupes auxquels vous pouvez affecter des objets de service. Les objets de service sont des articles en stock et d'autres produits pour lesquels des services sont assurés. En regroupant des objets de service, vous pouvez créer des états pour des objets de service similaires et connexes. Par exemple, un groupe d'objets de service peut comporter deux objets de service : un objet de service qui correspond à un kit, et un deuxième objet de service qui est le service d'installation du kit.
+Créez des groupes auxquels vous pouvez affecter des objets de service. Les objets de service sont des articles en stock et d’autres produits pour lesquels des services sont assurés. En regroupant des objets de service, vous pouvez créer des états pour des objets de service similaires et connexes. Par exemple, un groupe d’objets de service peut comporter deux objets de service : un objet de service qui correspond à un kit, et un deuxième objet de service qui est le service d’installation du kit.
 
-Pour créer des groupes d'objets de service, procédez comme suit :
+Pour créer des groupes d’objets de service, procédez comme suit :
 
-1. Cliquez sur **Gestion des services > Paramétrage > Objets du service > Groupes d'objets de service**.
+1. Cliquez sur **Gestion des services > Paramétrage > Objets du service > Groupes d’objets de service**.
 
-2. Cliquez sur **Nouveau** pour créer un groupe d'objets de service.
+2. Cliquez sur **Nouveau** pour créer un groupe d’objets de service.
 
-3. Entrez un nom unique pour le groupe d'objets de service, et éventuellement une description.
+3. Entrez un nom unique pour le groupe d’objets de service, et éventuellement une description.
 
-Vous pouvez affecter des objets de service au groupe à l'aide de l'écran **Objets de service**. 
+Vous pouvez affecter des objets de service au groupe à l’aide de l’écran **Objets de service**. 
 
 ## <a name="see-also"></a>Voir également :
 

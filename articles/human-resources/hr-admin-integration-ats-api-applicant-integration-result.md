@@ -1,6 +1,6 @@
 ---
 title: Résultat de l’intégration du candidat
-description: Cette rubrique décrit l'option Résultat de l'intégration du candidat définie pour Dynamics 365 Human Resources.
+description: Cette rubrique décrit l’option Résultat de l’intégration du candidat définie pour Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,32 +16,34 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 157864cd0eee879013724615ce31306c99c5aa68
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: dd25eca9cccf46ec4e4bb2a1d948ca98985e73e4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125807"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467551"
 ---
 # <a name="applicant-integration-result"></a>Résultat de l’intégration du candidat
 
-Cette rubrique décrit l'option Résultat de l'intégration du candidat définie pour Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette rubrique décrit l’option Résultat de l’intégration du candidat définie pour Dynamics 365 Human Resources.
 
 Nom physique : mshr_hcmapplicantintegrationresult
 
-Cette énumération fournit le statut d'un dossier de candidature.
+Cette énumération fournit le statut d’un dossier de candidature.
 
 | Valeur  | Étiquette | Description  |
 | --- | --- | --- |
-| 200000000 | Non traité | La candidature est toujours à l'étude. |
+| 200000000 | Non traité | La candidature est toujours à l’étude. |
 | 200000001 | Embauché | Le candidat a été embauché. |
 | 200000002 | Non embauché | Il a été décidé de ne pas embaucher le candidat. |
-| 200000003 | Ignoré | La candidature n'a pas été retenue. |
+| 200000003 | Ignoré | La candidature n’a pas été retenue. |
 
 ## <a name="see-also"></a>Voir également :
 
-[Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
-[Exemple de requête pour l'entité Candidat à l'embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+[Introduction à l’API d’intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
+[Exemple de requête pour l’entité Candidat à l’embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

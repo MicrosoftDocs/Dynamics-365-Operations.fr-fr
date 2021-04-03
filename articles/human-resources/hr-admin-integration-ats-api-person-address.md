@@ -1,6 +1,6 @@
 ---
 title: Adresse de la personne
-description: Cette rubrique décrit l'entité Adresse de la personne pour Dynamics 365 Human Resources.
+description: Cette rubrique décrit l’entité Adresse de la personne pour Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,16 +16,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9911362ff8260860864cfe24f0b60f59adb77186
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0bca48c9e980f95e4dd72a075b34824331ae05dc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125880"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466542"
 ---
 # <a name="person-address"></a>Adresse de la personne
 
-Cette rubrique décrit l'entité Adresse de la personne pour Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette rubrique décrit l’entité Adresse de la personne pour Dynamics 365 Human Resources.
 
 Nom physique : mshr_hcmpersonaddressentities
 
@@ -60,27 +62,27 @@ Cette entité contient la liste des adresses postales des dossiers de candidatur
 
 | Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
-| **ID d'entité d'adresse de personne**<br>mshr_hcmpersonaddressentityid<br>*Chaîne* | Lecture seule<br>Requis | Identificateur unique généré par le système pour l'enregistrement d'entité. |
-| **Numéro tiers**<br>mshr_partynumber<br>*Chaîne* | Lecture/écriture<br>Requis | L'ID de l'enregistrement de tiers (personne) associé. |
-| **Valeur de l'ID de personne**<br>_mshr_fk_person_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_dirpersonentityid de l'entité mshr_dirpersonentity | Identificateur généré par le système de l'enregistrement de l'entité de tiers (personne). |
-| **ID emplacement**<br>mshr_locationid<br>*Chaîne* | Lecture/écriture<br>Requis | ID d'emplacement de l'enregistrement d'adresse. Configuré dans l'entité mshr_logisticspostaladdresslocationcdsentity. |
-| **Description**<br>mshr_description<br>*Chaîne* | Lecture/écriture<br>Requis | Description de l'adresse du candidat. |
-| **Rôles**<br>mshr_roles<br>*Chaîne* | Lecture/écriture<br>Requis | Rôles attribués à cette adresse. Plusieurs rôles peuvent être attribués. Chaque rôle doit être séparé par un point-virgule. Valeurs valides contenues dans l'entité mshr_logisticslocationroleentity. |
+| **ID d’entité d’adresse de personne**<br>mshr_hcmpersonaddressentityid<br>*Chaîne* | Lecture seule<br>Requis | Identificateur unique généré par le système pour l’enregistrement d’entité. |
+| **Numéro tiers**<br>mshr_partynumber<br>*Chaîne* | Lecture/écriture<br>Requis | L’ID de l’enregistrement de tiers (personne) associé. |
+| **Valeur de l’ID de personne**<br>_mshr_fk_person_id_value<br>*GUID* | Lecture seule<br>Requis<br>Clé étrangère : mshr_dirpersonentityid de l’entité mshr_dirpersonentity | Identificateur généré par le système de l’enregistrement de l’entité de tiers (personne). |
+| **ID emplacement**<br>mshr_locationid<br>*Chaîne* | Lecture/écriture<br>Requis | ID d’emplacement de l’enregistrement d’adresse. Configuré dans l’entité mshr_logisticspostaladdresslocationcdsentity. |
+| **Description**<br>mshr_description<br>*Chaîne* | Lecture/écriture<br>Requis | Description de l’adresse du candidat. |
+| **Rôles**<br>mshr_roles<br>*Chaîne* | Lecture/écriture<br>Requis | Rôles attribués à cette adresse. Plusieurs rôles peuvent être attribués. Chaque rôle doit être séparé par un point-virgule. Valeurs valides contenues dans l’entité mshr_logisticslocationroleentity. |
 | **Rue**<br>mshr_street<br>*Chaîne* | Lecture/écriture<br>Facultatif | Numéro de la rue. |
-| **Ville**<br>mshr_city<br>*Chaîne* | Lecture/écriture<br>Facultatif | Ville de l'adresse. Configuré dans l'entité mshr_logisticsaddresscityentity. |
-| **État**<br>mshr_state<br>*Chaîne* | Lecture/écriture<br>Facultatif | État de l'adresse. Configuré dans l'entité mshr_logisticsaddressstateentity. |
-| **Département**<br>mshr_county<br>*Chaîne* | Lecture/écriture<br>Facultatif | Département de l'adresse. Configuré dans l'entité mshr_logisticsaddresscountyentity. |
-| **Code postal**<br>mshr_zipcode<br>*Chaîne* | Lecture/écriture<br>Facultatif | Code postal de l'adresse. Configuré dans l'entité mshr_logisticsaddresspostalcodeentity. |
-| **ID pays/région**<br>mshr_countryregionid<br>*Chaîne* | Lecture/écriture<br>Facultatif | Pays ou région de l'adresse. |
-| **Valeur de l'ID pays/région**<br>_mshr_fk_countriregion_id_value<br>*GUID* | Lecture seule<br>Facultatif<br>Clé étrangère : mshr_logisticaddresscountryregionentityid de l'entité mshr_logisticsaddresscountryregionentity | Identificateur unique généré par le système du pays ou de la région de l'adresse. |
-| **Est principal**<br>mshr_isprimary<br>*Jeu d'options mshr_noyes* | Lecture/écriture<br>Requis | Identifie si cette adresse est l'adresse principale de la personne du rôle défini. |
-| **Est privé**<br>mshr_isprivate<br>*Jeu d'options mshr_noyes* | Lecture/écriture<br>Requis | Identifie si cette adresse est une adresse privée pour la personne. |
-| **Champ primaire**<br>mshr_primaryfield<br>*Chaîne* | Lecture seule<br>Requis | Champ utilisé comme identifiant principal de l'enregistrement d'entité. Combinaison du numéro de tiers et de l'ID d'emplacement. |
+| **Ville**<br>mshr_city<br>*Chaîne* | Lecture/écriture<br>Facultatif | Ville de l’adresse. Configuré dans l’entité mshr_logisticsaddresscityentity. |
+| **État**<br>mshr_state<br>*Chaîne* | Lecture/écriture<br>Facultatif | État de l’adresse. Configuré dans l’entité mshr_logisticsaddressstateentity. |
+| **Département**<br>mshr_county<br>*Chaîne* | Lecture/écriture<br>Facultatif | Département de l’adresse. Configuré dans l’entité mshr_logisticsaddresscountyentity. |
+| **Code postal**<br>mshr_zipcode<br>*Chaîne* | Lecture/écriture<br>Facultatif | Code postal de l’adresse. Configuré dans l’entité mshr_logisticsaddresspostalcodeentity. |
+| **ID pays/région**<br>mshr_countryregionid<br>*Chaîne* | Lecture/écriture<br>Facultatif | Pays ou région de l’adresse. |
+| **Valeur de l’ID pays/région**<br>_mshr_fk_countriregion_id_value<br>*GUID* | Lecture seule<br>Facultatif<br>Clé étrangère : mshr_logisticaddresscountryregionentityid de l’entité mshr_logisticsaddresscountryregionentity | Identificateur unique généré par le système du pays ou de la région de l’adresse. |
+| **Est principal**<br>mshr_isprimary<br>*Jeu d’options mshr_noyes* | Lecture/écriture<br>Requis | Identifie si cette adresse est l’adresse principale de la personne du rôle défini. |
+| **Est privé**<br>mshr_isprivate<br>*Jeu d’options mshr_noyes* | Lecture/écriture<br>Requis | Identifie si cette adresse est une adresse privée pour la personne. |
+| **Champ primaire**<br>mshr_primaryfield<br>*Chaîne* | Lecture seule<br>Requis | Champ utilisé comme identifiant principal de l’enregistrement d’entité. Combinaison du numéro de tiers et de l’ID d’emplacement. |
 
 ## <a name="see-also"></a>Voir également :
 
-[Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
-[Exemple de requête pour l'entité Candidat à l'embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+[Introduction à l’API d’intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
+[Exemple de requête pour l’entité Candidat à l’embauche](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
 
 

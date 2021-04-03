@@ -1,6 +1,6 @@
 ---
 title: Créer un client par défaut
-description: Cette rubrique décrit comment créer un client par défaut à utiliser lors de la création d'un canal dans Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit comment créer un client par défaut à utiliser lors de la création d’un canal dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1dd4dfc5b8ca7af66941d081b4c20be0f5d6001d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993398"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477898"
 ---
 # <a name="create-a-default-customer"></a>Créer un client par défaut
 
-
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un client par défaut à utiliser lors de la création d'un canal dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique décrit comment créer un client par défaut à utiliser lors de la création d’un canal dans Microsoft Dynamics 365 Commerce.
 
 Lors de la création d'un canal, vous devrez indiquer un client par défaut. Un client par défaut peut facilement être créé après avoir d'abord créé le groupe de clients et le carnet d'adresses client.
 

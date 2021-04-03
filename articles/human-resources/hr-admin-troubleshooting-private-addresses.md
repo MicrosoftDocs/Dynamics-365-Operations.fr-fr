@@ -17,28 +17,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6598094e7877a30c35e1b03794f82c8a4ec001a7
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 49f9f50b774df8e215c084bbb493a6be9de6b234
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112493"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463934"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>Accès aux adresses privées selon les rôles de sécurité
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 **Problème**
 
-Une fois qu'un client duplique un rôle de sécurité et se connecte avec ce nouveau rôle, le client ne peut pas afficher les adresses marquées comme privées.
+Une fois qu’un client duplique un rôle de sécurité et se connecte avec ce nouveau rôle, le client ne peut pas afficher les adresses marquées comme privées.
 
 **Résolution**
 
 Pour résoudre ce problème, le client doit procéder comme suit pour le rôle de sécurité dupliqué.
 
-1. Accédez à **Administration d'organisation \> Carnet d'adresses global \> Paramètres du carnet d'adresses global**.
-2. Sous l'onglet **Sécurité de l'emplacement privé**, déplacez le nouveau rôle de sécurité de la liste **Rôles disponibles** vers la liste **Rôles sélectionnés**.
+1. Accédez à **Administration d’organisation \> Carnet d’adresses global \> Paramètres du carnet d’adresses global**.
+2. Sous l’onglet **Sécurité de l’emplacement privé**, déplacez le nouveau rôle de sécurité de la liste **Rôles disponibles** vers la liste **Rôles sélectionnés**.
 3. Sélectionnez **Enregistrer**.
 
-![Page des paramètres du carnet d'adresses global](media/GAD-parameters.png)
+![Page des paramètres du carnet d’adresses global](media/GAD-parameters.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

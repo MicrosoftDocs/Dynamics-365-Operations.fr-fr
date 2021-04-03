@@ -1,5 +1,5 @@
 ---
-title: Distribuer des questionnaires à l'aide d'une planification
+title: Distribuer des questionnaires à l’aide d’une planification
 description: La planification de questionnaire vous permet de planifier et répartir les questionnaires entre plusieurs personnes interrogées.
 author: andreabichsel
 manager: tfehr
@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115460"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465004"
 ---
-# <a name="distribute-questionnaires-using-scheduling"></a>Distribuer des questionnaires à l'aide d'une planification
+# <a name="distribute-questionnaires-using-scheduling"></a>Distribuer des questionnaires à l’aide d’une planification
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 La planification de questionnaire vous permet de planifier et répartir les questionnaires entre plusieurs personnes interrogées. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
@@ -37,11 +39,11 @@ La planification de questionnaire vous permet de planifier et répartir les ques
 
 4. Dans le champ Description, entrez une valeur.
     * Définissez le programme sur Anonyme si les réponses doivent être enregistrées sans noms associés à la réponse.  
-    * L'option Autoriser les résultats anonymes doit être définie dans les paramètres HR.  
+    * L’option Autoriser les résultats anonymes doit être définie dans les paramètres HR.  
 
 5. Dans le champ Type, sélectionnez le type de planification.  Dans cet exemple, nous utiliserons le type Satisfaction.
 
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 
@@ -55,7 +57,7 @@ La planification de questionnaire vous permet de planifier et répartir les ques
 
 11. Dans le champ Texte, tapez le corps de votre message électronique. Notez que la variable peut être utilisée pour remplacer les valeurs du système.
 
-    * Exemple : cher/chère %P%, connectez-vous au Libre-service employé pour compléter le questionnaire sur la santé du personnel.  Contoso  
+    * Exemple : Cher/chère %P%, connectez-vous au Libre-service employé pour compléter le questionnaire sur la santé du personnel.  Contoso  
 
 12. Cliquez sur Enregistrer.
 
@@ -81,11 +83,11 @@ La planification de questionnaire vous permet de planifier et répartir les ques
 
 7. Cliquez sur OK.
 
-8. Cliquez sur l'onglet Questionnaires.
+8. Cliquez sur l’onglet Questionnaires.
 
-9. Dans l'arborescence, développez le nœud du type de questionnaire Enquête de satisfaction.
+9. Dans l’arborescence, développez le nœud du type de questionnaire Enquête de satisfaction.
 
-10. Dans l'arborescence, cochez « Évaluation de la santé du personnel ».
+10. Dans l’arborescence, cochez « Évaluation de la santé du personnel ».
 
 11. Cliquez sur OK.
 

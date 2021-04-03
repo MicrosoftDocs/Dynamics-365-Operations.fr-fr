@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 95e4246d6c5f9ac5bc86b626be0d971f756c5130
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0b3585ce326e47b119b3f6c41436b9e6494ec87
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985609"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478090"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Activer les recommandations « acheter des aspects similaires »
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment activer les recommandations de produits « Acheter des aspects similaires » dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 La fonctionnalité de recommandations « Acheter des aspects similaires » dans Dynamics 365 Commerce utilise la puissance de l’intelligence artificielle et du Machine Learning (IA-ML) pour fournir des recommandations pour des produits visuellement similaires aux clients. En mettant à disposition des recommandations de type « acheter des aspects similaires » pour tous les canaux de vente au détail dans Commerce, les détaillants peuvent accroître la satisfaction de leurs clients en aidant les clients à trouver facilement ce qu’ils veulent.
 

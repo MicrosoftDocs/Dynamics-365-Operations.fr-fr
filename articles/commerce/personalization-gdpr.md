@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e822d0097443d7da347c29ebfa63ad6a2d7cbf8b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e65fc54f87664caec95b2bc2c579d0820ae08c0f
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000635"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477682"
 ---
-# <a name="opt-out-of-personalized-recommendations"></a>Refuser les recommandations personnalisées
+# <a name="opt-out-of-personalized-recommendations"></a>Désactiver les recommandations personnalisées
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment vous pouvez laisser les clients refuser la réception des recommandations personnalisées dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
 
 Lors de la création d'un compte, la réception des recommandations personnalisées est automatiquement configurée pour les nouveaux clients. Toutefois, Dynamics 365 Commerce offre aux détaillants diverses manières d'autoriser les utilisateurs à refuser de recevoir ces recommandations et de limiter le traitement de leurs données personnelles. Les utilisateurs authentifiés qui refusent de recevoir les recommandations personnalisées cessent immédiatement de voir les listes personnalisées. De plus, toutes les données personnelles collectées pour la personnalisation sont supprimées des modèles de recommandations personnalisées.
 

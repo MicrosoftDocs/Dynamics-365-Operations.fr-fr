@@ -16,26 +16,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da578c57be57b55e9175600461549416faa1298
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 5b93f68790a72af28130d80ed189538f9c5c87ab
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130347"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467098"
 ---
 # <a name="create-loan-items"></a>Créer des articles empruntés
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Les articles empruntés sont des enregistrements qui permettent de suivre les articles physiques (comme des téléphones ou des ordinateurs) que votre société prête aux collaborateurs. Chaque article physique doit avoir un article de prêt correspondant. Chaque enregistrement d'article emprunté doit décrire la nature de l'emprunt, le responsable de l'emprunt et le nombre de jours d'emprunt de l'article. Vous pouvez créer plusieurs articles empruntés, tels que des clés, cartes d'accès ou uniformes, simultanément. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+
+Les articles empruntés sont des enregistrements qui permettent de suivre les articles physiques (comme des téléphones ou des ordinateurs) que votre société prête aux collaborateurs. Chaque article physique doit avoir un article de prêt correspondant. Chaque enregistrement d’article emprunté doit décrire la nature de l’emprunt, le responsable de l’emprunt et le nombre de jours d’emprunt de l’article. Vous pouvez créer plusieurs articles empruntés, tels que des clés, cartes d’accès ou uniformes, simultanément. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 
-## <a name="create-loan-types"></a>Créer des types d'emprunt
-1. Allez dans Ressources humaines > Collaborateurs > Articles empruntés > Types d'emprunt.
+## <a name="create-loan-types"></a>Créer des types d’emprunt
+1. Allez dans Ressources humaines > Collaborateurs > Articles empruntés > Types d’emprunt.
 2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Type d'emprunt.
+3. Tapez une valeur dans le champ Type d’emprunt.
 4. Dans le champ Description, entrez une valeur.
-5. Entrez le nombre de jours pendant lesquels les articles associés à ce type d'emprunt peuvent être en retard. 
+5. Entrez le nombre de jours pendant lesquels les articles associés à ce type d’emprunt peuvent être en retard. 
 6. Cliquez sur Enregistrer.
 7. Fermez la page.
 8. Actualisez la page.
@@ -45,10 +47,10 @@ Les articles empruntés sont des enregistrements qui permettent de suivre les ar
 2. Cliquez sur Créer des articles empruntés.
 3. Dans le champ Qté, saisissez un nombre.
 4. Dans le champ Description, entrez une valeur.
-5. Dans le champ Type d'emprunt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+5. Dans le champ Type d’emprunt, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 7. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-8. Permet d'entrer le nombre de jours pendant lesquels un article peut être emprunté.
+8. Permet d’entrer le nombre de jours pendant lesquels un article peut être emprunté.
     * La valeur par défaut du champ Retour prévu de la page Équipement emprunté est calculée comme suit : date du jour plus ce nombre.  
 9. Dans le champ Responsable, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 10. Cliquez sur Sélectionner.
