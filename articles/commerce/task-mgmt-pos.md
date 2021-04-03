@@ -1,6 +1,6 @@
 ---
 title: Gestion des tâches dans le PDV
-description: Cette rubrique décrit la gestion des tâches dans l'application PDV de Microsoft Dynamics 365 Commerce.
+description: Cette rubrique décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 02/10/2020
@@ -15,51 +15,52 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006183"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478360"
 ---
-# <a name="task-management-in-pos"></a><span data-ttu-id="6b58c-103">Gestion des tâches dans le PDV</span><span class="sxs-lookup"><span data-stu-id="6b58c-103">Task management in POS</span></span>
+# <a name="task-management-in-pos"></a><span data-ttu-id="a7f98-103">Gestion des tâches dans le PDV</span><span class="sxs-lookup"><span data-stu-id="a7f98-103">Task management in POS</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6b58c-104">Cette rubrique décrit la gestion des tâches dans l'application PDV de Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="6b58c-104">This topic describes task management in the Microsoft Dynamics 365 Commerce point of sale (POS) application.</span></span>
+<span data-ttu-id="a7f98-104">Cette rubrique décrit la gestion des tâches dans l’application PDV de Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="a7f98-104">This topic describes task management in the Microsoft Dynamics 365 Commerce point of sale (POS) application.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="6b58c-105">Vue d'ensemble</span><span class="sxs-lookup"><span data-stu-id="6b58c-105">Overview</span></span>
+<span data-ttu-id="a7f98-105">L'application PDV de Dynamics 365 Commerce dispose de fonctionnalités de gestion des tâches qui permettent aux responsables de magasin et aux employés de gérer les tâches et de mettre à jour leur statut.</span><span class="sxs-lookup"><span data-stu-id="a7f98-105">The Dynamics 365 Commerce POS application has task management features that let store managers and workers manage tasks and update task status.</span></span> <span data-ttu-id="a7f98-106">Les employés du magasin peuvent accéder aux tâches en sélectionnant la vignette **Tâches** sur la page d'accueil PDV ou en sélectionnant les notifications de tâche.</span><span class="sxs-lookup"><span data-stu-id="a7f98-106">Store workers can access tasks either by selecting the **Tasks** tile on the POS home page or by selecting task notifications.</span></span> <span data-ttu-id="a7f98-107">Par défaut, les employés du magasin sont redirigés vers l'onglet **Mes tâches**, où ils peuvent afficher les tâches qui leur sont affectées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-107">By default, store workers are taken to the **My tasks** tab, where they can view the tasks that are assigned to them.</span></span> <span data-ttu-id="a7f98-108">Cependant, ils peuvent facilement basculer vers les onglets **Tâches en retard**, **Tâches en cours** et **Listes de tâches**.</span><span class="sxs-lookup"><span data-stu-id="a7f98-108">However, they can easily switch to the **Overdue tasks**, **Open tasks**, and **Task lists** tabs.</span></span>
 
-<span data-ttu-id="6b58c-106">L'application PDV de Dynamics 365 Commerce dispose de fonctionnalités de gestion des tâches qui permettent aux responsables de magasin et aux employés de gérer les tâches et de mettre à jour leur statut.</span><span class="sxs-lookup"><span data-stu-id="6b58c-106">The Dynamics 365 Commerce POS application has task management features that let store managers and workers manage tasks and update task status.</span></span> <span data-ttu-id="6b58c-107">Les employés du magasin peuvent accéder aux tâches en sélectionnant la vignette **Tâches** sur la page d'accueil PDV ou en sélectionnant les notifications de tâche.</span><span class="sxs-lookup"><span data-stu-id="6b58c-107">Store workers can access tasks either by selecting the **Tasks** tile on the POS home page or by selecting task notifications.</span></span> <span data-ttu-id="6b58c-108">Par défaut, les employés du magasin sont redirigés vers l'onglet **Mes tâches**, où ils peuvent afficher les tâches qui leur sont affectées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-108">By default, store workers are taken to the **My tasks** tab, where they can view the tasks that are assigned to them.</span></span> <span data-ttu-id="6b58c-109">Cependant, ils peuvent facilement basculer vers les onglets **Tâches en retard**, **Tâches en cours** et **Listes de tâches**.</span><span class="sxs-lookup"><span data-stu-id="6b58c-109">However, they can easily switch to the **Overdue tasks**, **Open tasks**, and **Task lists** tabs.</span></span>
+## <a name="task-operations-for-store-managers"></a><span data-ttu-id="a7f98-109">Opérations de tâche pour les responsables de magasin</span><span class="sxs-lookup"><span data-stu-id="a7f98-109">Task operations for store managers</span></span>
 
-## <a name="task-operations-for-store-managers"></a><span data-ttu-id="6b58c-110">Opérations de tâche pour les responsables de magasin</span><span class="sxs-lookup"><span data-stu-id="6b58c-110">Task operations for store managers</span></span>
+<span data-ttu-id="a7f98-110">Les responsables de magasin peuvent effectuer les opérations de tâche suivantes dans l'application PDV à l'aide des boutons de la barre de commandes :</span><span class="sxs-lookup"><span data-stu-id="a7f98-110">Store managers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
 
-<span data-ttu-id="6b58c-111">Les responsables de magasin peuvent effectuer les opérations de tâche suivantes dans l'application PDV à l'aide des boutons de la barre de commandes :</span><span class="sxs-lookup"><span data-stu-id="6b58c-111">Store managers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
+- <span data-ttu-id="a7f98-111">**Affecter** : permet d'affecter les tâches sélectionnées à un employé du magasin.</span><span class="sxs-lookup"><span data-stu-id="a7f98-111">**Assign** – Assign selected tasks to a store worker.</span></span>
+- <span data-ttu-id="a7f98-112">**Statut de la tâche** : permet de modifier le staut des tâches sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-112">**Task status** – Change the status of selected tasks.</span></span>
+- <span data-ttu-id="a7f98-113">**Filtrer** : par défaut, seules les tâches actives sont affichées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-113">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="a7f98-114">Cependant, en appliquant des filtres, les responsables peuvent afficher toutes les tâches, même les tâches terminées ou annulées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-114">However, by applying filters, managers can view all tasks, even tasks that have been completed or canceled.</span></span>
+- <span data-ttu-id="a7f98-115">**Nouvelle tâche** : permet de créer une tâche dans une liste de tâches existante ou de créer une tâche à but unique.</span><span class="sxs-lookup"><span data-stu-id="a7f98-115">**New task** – Create a task under an existing task list, or create an single-purpose task.</span></span>
 
-- <span data-ttu-id="6b58c-112">**Affecter** : permet d'affecter les tâches sélectionnées à un employé du magasin.</span><span class="sxs-lookup"><span data-stu-id="6b58c-112">**Assign** – Assign selected tasks to a store worker.</span></span>
-- <span data-ttu-id="6b58c-113">**Statut de la tâche** : permet de modifier le staut des tâches sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-113">**Task status** – Change the status of selected tasks.</span></span>
-- <span data-ttu-id="6b58c-114">**Filtrer** : par défaut, seules les tâches actives sont affichées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-114">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="6b58c-115">Cependant, en appliquant des filtres, les responsables peuvent afficher toutes les tâches, même les tâches terminées ou annulées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-115">However, by applying filters, managers can view all tasks, even tasks that have been completed or canceled.</span></span>
-- <span data-ttu-id="6b58c-116">**Nouvelle tâche** : permet de créer une tâche dans une liste de tâches existante ou de créer une tâche à but unique.</span><span class="sxs-lookup"><span data-stu-id="6b58c-116">**New task** – Create a task under an existing task list, or create an single-purpose task.</span></span>
+<span data-ttu-id="a7f98-116">Les employés du magasin peuvent effectuer les opérations de tâche suivantes dans l'application PDV à l'aide des boutons de la barre de commandes :</span><span class="sxs-lookup"><span data-stu-id="a7f98-116">Store workers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
 
-<span data-ttu-id="6b58c-117">Les employés du magasin peuvent effectuer les opérations de tâche suivantes dans l'application PDV à l'aide des boutons de la barre de commandes :</span><span class="sxs-lookup"><span data-stu-id="6b58c-117">Store workers can perform the following task operations in the POS application by using the buttons on the command bar:</span></span>
+- <span data-ttu-id="a7f98-117">**Statut de la tâche** : permet de modifier le staut des tâches sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-117">**Task status** – Change the status of selected tasks.</span></span>
+- <span data-ttu-id="a7f98-118">**Filtrer** : par défaut, seules les tâches actives sont affichées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-118">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="a7f98-119">Cependant, en appliquant des filtres, les employés peuvent afficher toutes les tâches, même les tâches terminées ou annulées.</span><span class="sxs-lookup"><span data-stu-id="a7f98-119">However, by applying filters, workers can view all tasks, even tasks that have been completed or canceled.</span></span>
 
-- <span data-ttu-id="6b58c-118">**Statut de la tâche** : permet de modifier le staut des tâches sélectionnées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-118">**Task status** – Change the status of selected tasks.</span></span>
-- <span data-ttu-id="6b58c-119">**Filtrer** : par défaut, seules les tâches actives sont affichées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-119">**Filter** – By default, only active tasks are shown.</span></span> <span data-ttu-id="6b58c-120">Cependant, en appliquant des filtres, les employés peuvent afficher toutes les tâches, même les tâches terminées ou annulées.</span><span class="sxs-lookup"><span data-stu-id="6b58c-120">However, by applying filters, workers can view all tasks, even tasks that have been completed or canceled.</span></span>
-
-<span data-ttu-id="6b58c-121">L'illustration suivante présente l'onglet **Mes tâches** dans l'application PDV de Commerce.</span><span class="sxs-lookup"><span data-stu-id="6b58c-121">The following illustration shows the **My tasks** tab in the Commerce POS application.</span></span>
+<span data-ttu-id="a7f98-120">L'illustration suivante présente l'onglet **Mes tâches** dans l'application PDV de Commerce.</span><span class="sxs-lookup"><span data-stu-id="a7f98-120">The following illustration shows the **My tasks** tab in the Commerce POS application.</span></span>
 
 ![Onglet Mes tâches dans l'application PDV de Commerce](media/POS-task-management.png)
 
-<span data-ttu-id="6b58c-123">L'illustration suivante présente l'onglet **Liste de tâches**.</span><span class="sxs-lookup"><span data-stu-id="6b58c-123">The following illustration shows the **Task lists** tab.</span></span>
+<span data-ttu-id="a7f98-122">L'illustration suivante présente l'onglet **Liste de tâches**.</span><span class="sxs-lookup"><span data-stu-id="a7f98-122">The following illustration shows the **Task lists** tab.</span></span>
 
 ![Onglet Listes de tâches dans l'application PDV de Commerce](media/POS-task-lists-management.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="6b58c-125">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="6b58c-125">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a7f98-124">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="a7f98-124">Additional resources</span></span>
 
-[<span data-ttu-id="6b58c-126">Vue d'ensemble de la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="6b58c-126">Task management overview</span></span>](task-mgmt-overview.md)
+[<span data-ttu-id="a7f98-125">Vue d'ensemble de la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="a7f98-125">Task management overview</span></span>](task-mgmt-overview.md)
 
-[<span data-ttu-id="6b58c-127">Configurer la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="6b58c-127">Configure task management</span></span>](task-mgmt-configure.md)
+[<span data-ttu-id="a7f98-126">Configurer la gestion des tâches</span><span class="sxs-lookup"><span data-stu-id="a7f98-126">Configure task management</span></span>](task-mgmt-configure.md)
 
-[<span data-ttu-id="6b58c-128">Créer des listes de tâches et ajouter des tâches</span><span class="sxs-lookup"><span data-stu-id="6b58c-128">Create task lists and add tasks</span></span>](task-mgmt-create-lists.md)
+[<span data-ttu-id="a7f98-127">Créer des listes de tâches et ajouter des tâches</span><span class="sxs-lookup"><span data-stu-id="a7f98-127">Create task lists and add tasks</span></span>](task-mgmt-create-lists.md)
 
-[<span data-ttu-id="6b58c-129">Affecter des listes de tâches à des magasins ou des employés</span><span class="sxs-lookup"><span data-stu-id="6b58c-129">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
+[<span data-ttu-id="a7f98-128">Affecter des listes de tâches à des magasins ou des employés</span><span class="sxs-lookup"><span data-stu-id="a7f98-128">Assign task lists to stores or employees</span></span>](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
