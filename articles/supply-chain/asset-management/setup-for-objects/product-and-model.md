@@ -1,6 +1,6 @@
 ---
-title: Fabricants et modèles d'actif
-description: Cette rubrique explique comment paramétrer des fabricants d'actif et des modèles associés dans le module Gestion des actifs.
+title: Fabricants et modèles d’actif
+description: Cette rubrique explique comment paramétrer des fabricants d’actif et des modèles associés dans le module Gestion des actifs.
 author: josaw1
 manager: tfehr
 ms.date: 06/26/2019
@@ -17,46 +17,46 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1eca3112b95bc7d1a049f101fc1d461272a63aa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cec4f644af4a087464635d9a7ca825eb354747eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259960"
 ---
-# <a name="asset-manufacturers-and-models"></a>Fabricants et modèles d'actif
+# <a name="asset-manufacturers-and-models"></a>Fabricants et modèles d’actif
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Cette rubrique explique comment paramétrer des fabricants d'actif et des modèles associés dans le module Gestion des actifs. Les modèles peuvent être associés à des types d'actif.
+Cette rubrique explique comment paramétrer des fabricants d’actif et des modèles associés dans le module Gestion des actifs. Les modèles peuvent être associés à des types d’actif.
 
 ## <a name="set-up-product-model-relations"></a>Définir les relations entre le produit et le modèle
 
 1. Sélectionnez **Gestion des actifs** \> **Paramétrage** \> **Actifs** \> **Fabricant et modèle**.
 2. Sélectionnez **Nouveau** pour créer un produit.
-3. Dans le champ **Fabricant**, entrez un nom pour le fabricant d'actif.
+3. Dans le champ **Fabricant**, entrez un nom pour le fabricant d’actif.
 4. Entrez une description dans le champ **Description**.
-5. Dans le raccourci **Modèles**, sélectionnez **Ajouter** pour créer un modèle d'actif qui doit être associé au fabricant d'actif.
-6. Dans le champ **Modèle**, entrez un nom pour le modèle d'actif.
+5. Dans le raccourci **Modèles**, sélectionnez **Ajouter** pour créer un modèle d’actif qui doit être associé au fabricant d’actif.
+6. Dans le champ **Modèle**, entrez un nom pour le modèle d’actif.
 7. Entrez une description dans le champ **Description**.
-8. Dans le champ **Type d'actif**, sélectionnez le type d'actif auquel le modèle de fabricant doit être associé.
+8. Dans le champ **Type d’actif**, sélectionnez le type d’actif auquel le modèle de fabricant doit être associé.
 
     > [!NOTE]
-    > Vous pouvez également définir des relations pour les types, les fabricants et les modèles d'actif dans la recherche **Types d'actif**. Pour plus d'informations, voir [Types d'actif](../setup-for-objects/object-types.md).
+    > Vous pouvez également définir des relations pour les types, les fabricants et les modèles d’actif dans la recherche **Types d’actif**. Pour plus d’informations, voir [Types d’actif](../setup-for-objects/object-types.md).
 
-    Dans le raccourci **Détails**, le champ **Modèles** affiche le nombre de modèles d'actif qui sont paramétrés sur le fabricant d'actif sélectionné. Le champ **Actifs** affiche le nombre d'actifs qui utilisent le fabricant sélectionné.
+    Dans le raccourci **Détails**, le champ **Modèles** affiche le nombre de modèles d’actif qui sont paramétrés sur le fabricant d’actif sélectionné. Le champ **Actifs** affiche le nombre d’actifs qui utilisent le fabricant sélectionné.
     
-    Le champ **Actifs** affiche le nombre d'objets qui utilisent le modèle de fabricant.
+    Le champ **Actifs** affiche le nombre d’objets qui utilisent le modèle de fabricant.
 
 > [!NOTE]
-> Un type d'actif peut ne pas avoir de relations de modèle de fabricant, il peut être associé à un modèle de fabricant d'actif ou il peut être associé à plusieurs modèles de fabricant d'actif. Si un type d'actif est associé à au moins un modèle de fabricant, seules les combinaisons paramétrées dans la recherche **Modèle de fabricant** peuvent être sélectionnées dans les pages Gestion des actifs où une combinaison d'un type, d'un fabricant et d'un modèle d'actif peut être paramétrée. Ces pages incluent **Tous les actifs**, **Niveaux de service d'actifs**, **Valeurs par défaut du type de tâche** et **Lignes de budget de maintenance**. Si certains types d'actif ne sont associés à aucun modèle de fabricant, seuls les types d'actif et les modèles de fabricant qui n'ont aucun relation avec les types d'actif, s'affichent sur les pages.
+> Un type d’actif peut ne pas avoir de relations de modèle de fabricant, il peut être associé à un modèle de fabricant d’actif ou il peut être associé à plusieurs modèles de fabricant d’actif. Si un type d’actif est associé à au moins un modèle de fabricant, seules les combinaisons paramétrées dans la recherche **Modèle de fabricant** peuvent être sélectionnées dans les pages Gestion des actifs où une combinaison d’un type, d’un fabricant et d’un modèle d’actif peut être paramétrée. Ces pages incluent **Tous les actifs**, **Niveaux de service d’actifs**, **Valeurs par défaut du type de tâche** et **Lignes de budget de maintenance**. Si certains types d’actif ne sont associés à aucun modèle de fabricant, seuls les types d’actif et les modèles de fabricant qui n’ont aucun relation avec les types d’actif, s’affichent sur les pages.
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>Sélectionnez un fabricant et un modèle sur un objet
 
 1. Sélectionnez **Gestion des actifs** \> **Commun** \> **Actifs** \> **Tous les actifs**.
-2. Dans la colonne **Actif**, sélectionnez le lien de l'actif. La page **Détails** s'affiche.
+2. Dans la colonne **Actif**, sélectionnez le lien de l’actif. La page **Détails** s’affiche.
 3. Sélectionnez **Modifier**.
 4. Dans le raccourci **Général**, sélectionnez des valeurs dans les champs **Fabricant** et **Modèle**.
 

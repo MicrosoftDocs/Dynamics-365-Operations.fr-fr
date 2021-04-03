@@ -1,5 +1,5 @@
 ---
-title: Vue d'ensemble du module Gestion des services
+title: Vue d’ensemble du module Gestion des services
 description: Utilisez le module Gestion des services pour établir des accords de service et des services récurrents, traiter des commandes de service et des demandes de renseignements des clients, ainsi que pour gérer et analyser la fourniture de services aux clients.
 author: ShylaThompson
 manager: tfehr
@@ -17,37 +17,37 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70c0a6c82e0227319c4e95ad7b60a97c7b03401a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a7d39b65644a5673987dc12c34b42c72813412b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010495"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258777"
 ---
-# <a name="service-management-overview"></a>Vue d'ensemble du module Gestion des services
+# <a name="service-management-overview"></a>Vue d’ensemble du module Gestion des services
 
 [!include [banner](../includes/banner.md)]
 
 
-Utilisez le module **Gestion des services** pour établir des accords de service et des services récurrents, traiter des commandes de service et des demandes de renseignements des clients, ainsi que pour gérer et analyser la fourniture de services aux clients. Les accords de service permettent de définir les ressources utilisées dans une visite de service classique. Vous pouvez également utiliser les accords de service pour visualiser la façon dont les ressources sont facturées au client. En outre, un accord de service peut inclure un contrat de niveau de service spécifiant les durées de réponse standard et offrant des outils permettant d'enregistrer l'heure réelle.
+Utilisez le module **Gestion des services** pour établir des accords de service et des services récurrents, traiter des commandes de service et des demandes de renseignements des clients, ainsi que pour gérer et analyser la fourniture de services aux clients. Les accords de service permettent de définir les ressources utilisées dans une visite de service classique. Vous pouvez également utiliser les accords de service pour visualiser la façon dont les ressources sont facturées au client. En outre, un accord de service peut inclure un contrat de niveau de service spécifiant les durées de réponse standard et offrant des outils permettant d’enregistrer l’heure réelle.
 
 Vous pouvez créer des commandes de service pour gérer les informations relatives aux visites prévues et non prévues sur un site client par un technicien de service. Les commandes de service incluent notamment les informations suivantes :
 
-1.  le nombre d'heures de travail qu'un technicien de service doit effectuer ;
+1.  le nombre d’heures de travail qu’un technicien de service doit effectuer ;
 
 2.  le type de service ou de réparation ;
 
-3.  l'article à réparer, avec des détails sur les symptômes et le diagnostic ;
+3.  l’article à réparer, avec des détails sur les symptômes et le diagnostic ;
 
 4.  les dépenses et les frais associés au service ou à la réparation.
 
-Vous pouvez recevoir, traiter et répartir les demandes de service. Après avoir créé une commande de service, vous pouvez utiliser les stades du service pour surveiller sa progression et spécifier des règles contrôlant les actions mises en œuvre à chaque stade. À la fin d'une commande de service, vous pouvez fermer la session de la commande afin de confirmer qu'elle est terminée, puis la valider afin de lancer le processus de facturation.
+Vous pouvez recevoir, traiter et répartir les demandes de service. Après avoir créé une commande de service, vous pouvez utiliser les stades du service pour surveiller sa progression et spécifier des règles contrôlant les actions mises en œuvre à chaque stade. À la fin d’une commande de service, vous pouvez fermer la session de la commande afin de confirmer qu’elle est terminée, puis la valider afin de lancer le processus de facturation.
 
-Utilisez les outils de génération d'états pour surveiller les marges de commande de service et les transactions d'abonnement, ainsi que pour imprimer les descriptions de travail et les accusés de réception des travaux.
+Utilisez les outils de génération d’états pour surveiller les marges de commande de service et les transactions d’abonnement, ainsi que pour imprimer les descriptions de travail et les accusés de réception des travaux.
 
 ## <a name="business-processes"></a>Processus entreprise
 
-Le schéma suivant présente les processus entreprise généraux associés au module **Gestion des services** et indique à quel niveau les processus de service s'intègrent avec d'autres modules.
+Le schéma suivant présente les processus entreprise généraux associés au module **Gestion des services** et indique à quel niveau les processus de service s’intègrent avec d’autres modules.
 
 [![Diagramme de processus entreprise de gestion des services](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
@@ -55,17 +55,17 @@ Le schéma suivant présente les processus entreprise généraux associés au mo
 
 |Tâches importantes           | Pages principales                         |États courants              |
 |--------------------------|---------------------------------------|-----------------------------|
-|Réalisation d'accords de service|Accords de service                     |Marge de commande de service         |
+|Réalisation d’accords de service|Accords de service                     |Marge de commande de service         |
 |Traitement des demandes des clients |Commandes de service                         |Description du travail             |
-|                          |Tableau d'affectation                         |Transaction - Abonnement   |
-|                          |                                       |Transactions de frais d'abonnement|
+|                          |Tableau d’affectation                         |Transaction - Abonnement   |
+|                          |                                       |Transactions de frais d’abonnement|
 
 
 ## <a name="integration-of-service-management"></a>Intégration du module Gestion des services
 
 Le module Gestion des services peut être intégré aux modules suivants :
 
-  - [Vue d'ensemble de Ventes et marketing](../sales-marketing/overview-sales-marketing.md)
+  - [Vue d’ensemble de Ventes et marketing](../sales-marketing/overview-sales-marketing.md)
   - [Ressources humaines](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bb18f876e7d279624f60f01c5fbf4e449e9ab27
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fc24aad05499adf9bfb2db3613c7f134c3a70770
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986877"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264696"
 ---
 # <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a>Créer un état du cycle de vie des produits pour exclure des produits de la planification
 
@@ -35,7 +35,7 @@ Cette procédure décrit comment créer un état du cycle de vie des produits qu
 4. Sélectionnez Non dans le champ Est actif pour la planification.
 5. Dans le champ Description, entrez une valeur.
 
-## <a name="associate-the-obsolete-state-to-a-released-product"></a>Associer l'état obsolète à un produit lancé
+## <a name="associate-the-obsolete-state-to-a-released-product"></a>Associer l’état obsolète à un produit lancé
 1. Fermez la page.
 2. Allez à Gestion des informations sur les produits > Produits > Produits lancés.
 3. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez le champ Nom de recherche avec la valeur « M00 ».

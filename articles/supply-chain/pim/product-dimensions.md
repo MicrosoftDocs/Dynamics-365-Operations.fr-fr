@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118679"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260645"
 ---
 # <a name="product-dimensions"></a>Dimensions de produit
 
@@ -121,7 +121,7 @@ Avant de pouvoir utiliser la dimension de version, vous devez l’activer sur vo
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Zones dans lesquelles la dimension de version n’est pas prise en charge
 
-Les zones suivantes ne prennent pas en charge la dimension de version (vous pouvez toujours utiliser ces zones, mais vous ne pourrez pas y ajouter des produits avec version (produits dans lesquels la dimension de version est utilisée)). Par exemple, vous ne pouvez pas ajouter un article avec version à un catalogue fournisseur. L'ajout de produits avec la dimension de version à ces zones provoquerait des changements importants.
+Les zones suivantes ne prennent pas en charge la dimension de version (vous pouvez toujours utiliser ces zones, mais vous ne pourrez pas y ajouter des produits avec version (produits dans lesquels la dimension de version est utilisée)). Par exemple, vous ne pouvez pas ajouter un article avec version à un catalogue fournisseur. L’ajout de produits avec la dimension de version à ces zones provoquerait des changements importants.
 
 - Relevé mensuel de l’objet de coût
 - Cache du relevé des objets de coût

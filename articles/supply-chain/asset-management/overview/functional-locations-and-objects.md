@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f93a68f19b0b952eb2964b404bb957865c625cd
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 53091f2e3c159f73f11b3dfcefd597f2c1494d19
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018044"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253084"
 ---
 # <a name="functional-locations-and-assets"></a>Actifs et postes techniques
 
@@ -34,23 +34,23 @@ Cette rubrique décrit les postes techniques et les actifs dans Gestion des acti
 
 ## <a name="overview"></a>Présentation
 
-Gestion des actifs est intégré de façon transparente à plusieurs modules avec d'autres applications Finance and Operations. L'illustration suivante présente les interfaces avec d'autres modules.
+Gestion des actifs est intégré de façon transparente à plusieurs modules avec d’autres applications Finance and Operations. L’illustration suivante présente les interfaces avec d’autres modules.
 
-![Diagramme affichant comment le module Gestion d'actifs se connecte par interface aux autres modules](media/01-overview-image.png)
+![Diagramme affichant comment le module Gestion d’actifs se connecte par interface aux autres modules](media/01-overview-image.png)
 
-Gestion des actifs vous permet de gérer et d'exécuter plus efficacement toutes les tâches relatives à la gestion et à la maintenance de nombreux types d'équipements de votre société. Cet équipement inclut les machines, l'équipement de production et les véhicules. Gestion des actifs prend également en charge les solutions de nombreux secteurs.
+Gestion des actifs vous permet de gérer et d’exécuter plus efficacement toutes les tâches relatives à la gestion et à la maintenance de nombreux types d’équipements de votre société. Cet équipement inclut les machines, l’équipement de production et les véhicules. Gestion des actifs prend également en charge les solutions de nombreux secteurs.
 
-L'illustration suivante présente une vue d'ensemble de la fonctionnalité principale couverte par Gestion des actifs.
+L’illustration suivante présente une vue d’ensemble de la fonctionnalité principale couverte par Gestion des actifs.
 
 ![Diagramme affichant la fonctionnalité principale du module Gestion des actifs](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Actifs et emplacements fonctionnels
 
-Les postes techniques permettent de gérer des actifs à des postes. Cette gestion inclut le suivi des coûts d'actif à des postes techniques. Les postes techniques sont structurés hiérarchiquement, et les postes peuvent avoir des sous-postes. La structure des postes techniques est statique. Autrement dit, les postes ne peuvent pas changer d'emplacement. Les actifs peuvent être installés à des postes techniques et, au besoin, être installés à d'autres postes techniques ultérieurement.
+Les postes techniques permettent de gérer des actifs à des postes. Cette gestion inclut le suivi des coûts d’actif à des postes techniques. Les postes techniques sont structurés hiérarchiquement, et les postes peuvent avoir des sous-postes. La structure des postes techniques est statique. Autrement dit, les postes ne peuvent pas changer d’emplacement. Les actifs peuvent être installés à des postes techniques et, au besoin, être installés à d’autres postes techniques ultérieurement.
 
-Les coûts d'actifs suivent toujours le poste de l'actif. En d'autres termes, si vous installez un actif à un nouveau poste technique, l'actif utilise automatiquement les dimensions financières associées au nouveau poste technique. Par conséquent, les coûts d'actif sont toujours liés au poste technique sur lequel l'actif est actuellement installé. Ce traitement automatique des dimensions financières garantit le suivi complet des coûts lorsque votre société fait le projet de contrôler et de générer des états sur les postes techniques.
+Les coûts d’actifs suivent toujours le poste de l’actif. En d’autres termes, si vous installez un actif à un nouveau poste technique, l’actif utilise automatiquement les dimensions financières associées au nouveau poste technique. Par conséquent, les coûts d’actif sont toujours liés au poste technique sur lequel l’actif est actuellement installé. Ce traitement automatique des dimensions financières garantit le suivi complet des coûts lorsque votre société fait le projet de contrôler et de générer des états sur les postes techniques.
 
-La façon dont vous établissez votre hiérarchie des postes techniques dépend des exigences de votre société pour la maintenance de l'équipement interne ou l'entretien de l'équipement du client. La figure suivante présente un exemple des postes techniques basés sur des emplacements géographiques.
+La façon dont vous établissez votre hiérarchie des postes techniques dépend des exigences de votre société pour la maintenance de l’équipement interne ou l’entretien de l’équipement du client. La figure suivante présente un exemple des postes techniques basés sur des emplacements géographiques.
 
 ![Diagramme affichant des postes techniques basés sur des emplacements géographiques](media/03-overview-image.png)
 

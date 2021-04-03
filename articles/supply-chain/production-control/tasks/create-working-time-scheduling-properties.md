@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4fe3538f692361470b12e724cda342cc0ef37667
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c9cb42b99a409a4e6509e180e4140064273adb32
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257385"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Créer les propriétés de la planification du temps de travail
 
 [!include [banner](../../includes/banner.md)]
 
-Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte. Cette procédure permet d'indiquer comment définir une propriété de planification du temps de travail et les valeurs de propriété associées. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
+Les propriétés de la planification du temps de travail sont utilisées pour classer les intervalles de temps de travail et définir les paramètres que les opérateurs doivent prendre en compte. Cette procédure permet d’indiquer comment définir une propriété de planification du temps de travail et les valeurs de propriété associées. Vous pouvez parcourir cette procédure dans la société fictive USMF ou utiliser vos propres données.
 
 1. Accédez à Tous les espaces de travail > Gestion des cycles de vie des ressources.
 2. Cliquez sur Propriétés.

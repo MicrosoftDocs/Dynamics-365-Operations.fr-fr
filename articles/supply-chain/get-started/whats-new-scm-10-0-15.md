@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b84aaef5348d2cb6bdd6d35e7e26bca9a4e0f6b
-ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
+ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258897"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.15 (janvier 2021)
 
@@ -35,25 +35,25 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les fonctionnalités suivantes sont comprises dans cette version. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d'autres peuvent déjà être généralement disponibles. Suivez les liens vers le [programme de publication](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) pour voir les dates de lancement officiel de chaque fonctionnalité.
+Les fonctionnalités suivantes sont comprises dans cette version. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d’autres peuvent déjà être généralement disponibles. Suivez les liens vers le [programme de publication](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) pour voir les dates de lancement officiel de chaque fonctionnalité.
 
-- Gestion des unités d'échelle en cloud et en périphérie avec les charges de travail d'exécution de la fabrication et de l'entreposage<br> - Pour plus d'informations, voir [Unités d'échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d'entrepôt](../cloud-edge/cloud-edge-landing-page.md).
+- Gestion des unités d’échelle en cloud et en périphérie avec les charges de travail d’exécution de la fabrication et de l’entreposage<br> - Pour plus d’informations, voir [Unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt](../cloud-edge/cloud-edge-landing-page.md).
 
-- [Créer et traiter les ordres de transfert à partir de l’application d’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Pour plus d'informations, voir [Créer des ordres de transfert depuis l'application d'entreposage](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [Créer et traiter les ordres de transfert à partir de l’application d’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Pour plus d’informations, voir [Créer des ordres de transfert depuis l’application d’entreposage](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [Champs de réponse à l'appel d'offres par défaut pour les offres fournisseur](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Pour plus d'informations, voir [Vue d’ensemble des appels d’offre](../procurement/request-quotations.md).
+- [Champs de réponse à l’appel d’offres par défaut pour les offres fournisseur](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Pour plus d’informations, voir [Vue d’ensemble des appels d’offre](../procurement/request-quotations.md).
 
-- [Module complémentaire Gestion du changement technologique pour Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Pour plus d'informations, consultez [Vue d'ensemble de la gestion des modifications techniques](../engineering-change-management/product-engineering-overview.md).
+- [Module complémentaire Gestion du changement technologique pour Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Pour plus d’informations, consultez [Vue d’ensemble de la gestion des modifications techniques](../engineering-change-management/product-engineering-overview.md).
 
-- [Guides de réalité mixte pour la fabrication](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Pour plus d'informations, voir [Fournir des guides de réalité mixte aux employés de la production](../production-control/instruction-guides-in-production-overview.md).
+- [Guides de réalité mixte pour la fabrication](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Pour plus d’informations, voir [Fournir des guides de réalité mixte aux employés de la production](../production-control/instruction-guides-in-production-overview.md).
 
-- [Nouvelle expérience utilisateur pour l'exécution en production](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Pour plus d'informations, consultez [Utilisation de l'interface d'exécution de l'atelier de production par les collaborateurs](../production-control/production-floor-execution-use.md).
+- [Nouvelle expérience utilisateur pour l’exécution en production](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Pour plus d’informations, consultez [Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs](../production-control/production-floor-execution-use.md).
 
-- [Traiter les événements d’application d’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Pour plus d'informations, voir [Traitement des événements de l'application d'entreposage](../warehousing/warehouse-app-events.md).
+- [Traiter les événements d’application d’entrepôt](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Pour plus d’informations, voir [Traitement des événements de l’application d’entreposage](../warehousing/warehouse-app-events.md).
 
 - [Vues enregistrées pour la page Produits lancés](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Pour plus d’informations, voir [Vues enregistrées](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
-- Certification USMCA du document d’origine<br> - Pour plus d'informations, voir [Certification d'origine USMCA](../transportation/usmca-certification-of-origin.md).
+- Certification USMCA du document d’origine<br> - Pour plus d’informations, voir [Certification d’origine USMCA](../transportation/usmca-certification-of-origin.md).
 
 La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 

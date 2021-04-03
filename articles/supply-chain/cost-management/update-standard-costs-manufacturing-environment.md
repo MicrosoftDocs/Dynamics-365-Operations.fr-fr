@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bc203176967fbe6c20f4f687fe36fdcf3157b20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 726eccdc8a9350a292ba719784b5db99afdfad4f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983823"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262427"
 ---
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Mise à jour des coûts standard dans un environnement de fabrication
 
@@ -35,12 +35,12 @@ Les mises à jour peuvent refléter les nouveaux articles, les catégories de co
 
 -   Entrez les modifications prévues des coûts standard pour les articles achetés, puis modifiez le statut des enregistrements des coûts des articles à **Actif** à la date appropriée. Toutefois, ne recalculez pas les coûts des articles fabriqués qui utilisent les articles achetés.
 -   Entrez les coûts standard pour un nouvel article acheté mais ne recalculez pas les coûts des articles fabriqués avec une version de nomenclature qui contient le nouvel article acheté comme composant.
--   Corrigez ou modifiez le coût d'un article acheté ou modifiez le groupe de coûts attribué à un article acheté et calculez le coût de tous les articles fabriqués avec une version de nomenclature qui contient l'article acheté comme composant.
+-   Corrigez ou modifiez le coût d’un article acheté ou modifiez le groupe de coûts attribué à un article acheté et calculez le coût de tous les articles fabriqués avec une version de nomenclature qui contient l’article acheté comme composant.
 -   Modifiez le coût pour une catégorie de coûts et calculez le coût de tous les articles fabriqués avec une version de gamme qui contient les opérations de gamme qui utilisent la catégorie de coûts.
 -   Modifiez les catégories de coûts qui sont affectées aux opérations de gamme ou au groupe de coûts affecté aux catégories de coûts. Puis calculez le coût de tous les articles fabriqués avec une version de gamme qui contient les opérations de gamme qui utilisent la catégorie de coûts.
 -   Modifiez une formule de calcul de coûts indirects et calculez le coût de tous les articles fabriqués concernés par la modification.
--   Modifiez ou ajoutez un site de fabrication pour un article fabriqué et calculez le coût de fabrication de l'article pour le site.
--   Calculez, ou recalculez, le coût d'un article fabriqué et recalculez le coût de tous les articles fabriqués avec une version de nomenclature qui contient l'article fabriqué comme composant.
+-   Modifiez ou ajoutez un site de fabrication pour un article fabriqué et calculez le coût de fabrication de l’article pour le site.
+-   Calculez, ou recalculez, le coût d’un article fabriqué et recalculez le coût de tous les articles fabriqués avec une version de nomenclature qui contient l’article fabriqué comme composant.
 -   Calculez les coûts pour un nouvel article fabriqué sur la base de sa nomenclature définie, approuvée et active et de ses informations de gamme.
 
 Chaque cas nécessite un examen attentif de la façon de mettre à jour les coûts standard.

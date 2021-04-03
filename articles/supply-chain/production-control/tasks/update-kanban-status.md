@@ -1,6 +1,6 @@
 ---
-title: Mettre à jour le statut d'opération kanban
-description: Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.
+title: Mettre à jour le statut d’opération kanban
+description: Lorsqu’un kanban est vidé par erreur ou qu’un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.
 author: ChristianRytt
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,36 +16,36 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1161e642f8b3b1cd0a2568e0745caa6db5fe5afb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 055765452579b1de74f1c2158de9c6cb4ee80f16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252820"
 ---
-# <a name="update-kanban-status"></a>Mettre à jour le statut d'opération kanban
+# <a name="update-kanban-status"></a>Mettre à jour le statut d’opération kanban
 
 [!include [banner](../../includes/banner.md)]
 
-Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au responsable de magasin.
+Lorsqu’un kanban est vidé par erreur ou qu’un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure est destinée au responsable de magasin.
 
 
 ## <a name="find-the-kanban"></a>Recherchez le kanban.
 1. Accédez à Contrôle de la production > Kanban > Kanbans.
-2. Ouvrez le filtre de colonnes Statut de l'unité de manutention.
+2. Ouvrez le filtre de colonnes Statut de l’unité de manutention.
 3. Cliquez sur Effacer.
     * Cela réinitialise les filtres.  
 4. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Numéro de carte avec une valeur de « 000149 ».
 
 ## <a name="change-emptied-status-to-received-status"></a>Remplacer le statut vidé par le statut reçu
-1. Cliquez sur Contrepasser l'unité de manutention vide.
+1. Cliquez sur Contrepasser l’unité de manutention vide.
 2. Cliquez sur OK.
-    * Notez que le statut de l'unité de manutention est Reçu.  
+    * Notez que le statut de l’unité de manutention est Reçu.  
 
 ## <a name="change-received-status-to-emptied-status"></a>Remplacer le statut reçu par le statut vidé
 1. Cliquez sur Kanban vide.
 2. Dans la liste, marquez la ligne sélectionnée.
-    * Notez que le statut de l'unité de manutention est Vidé.  
+    * Notez que le statut de l’unité de manutention est Vidé.  
 
 
 

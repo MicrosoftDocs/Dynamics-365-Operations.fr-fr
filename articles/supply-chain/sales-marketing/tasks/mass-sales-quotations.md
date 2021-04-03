@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ea50500ed52069ab9f6aae0dfb2d6cffc47cbff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f7aaa4e1fee12092be0389f0641e64712e869e6a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006838"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260357"
 ---
 # <a name="mass-create-sales-quotations"></a>Création en masse de devis de vente
 
@@ -41,10 +41,10 @@ Cette procédure illustre comment créer efficacement des devis offrant un ensem
 9. Sélectionnez « Client » dans le champ Type de compte.
 10. Entrez ou sélectionnez une valeur dans le champ Compte client.
 11. Cliquez sur OK.
-    * Pour qu'un devis devienne un modèle, vous devez effectuer des étapes de paramétrage dans l'en-tête du devis. Cela doit être effectué avant d'ajouter des lignes au devis.   
+    * Pour qu’un devis devienne un modèle, vous devez effectuer des étapes de paramétrage dans l’en-tête du devis. Cela doit être effectué avant d’ajouter des lignes au devis.   
 12. Dans le volet Actions, cliquez sur Options.
 13. Cliquez sur Changer de vue.
-14. Cliquez sur Vue de l'en-tête.
+14. Cliquez sur Vue de l’en-tête.
 15. Développez la section Paramétrage.
 16. Saisissez ou sélectionnez une valeur dans le champ ID groupe.
 17. Tapez une valeur dans le champ Nom de modèle.
@@ -98,7 +98,7 @@ Cette procédure illustre comment créer efficacement des devis offrant un ensem
 9. Cliquez sur OK.
 10. Cliquez sur OK.
 11. Accédez à Ventes et marketing > Devis de vente > Tous les devis.
-    * Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l'indique le modèle sélectionné.  
+    * Vérifiez que des devis ont été créés pour tous les clients spécifiés dans la routine de mise à jour collective, comme l’indique le modèle sélectionné.  
 
 
 

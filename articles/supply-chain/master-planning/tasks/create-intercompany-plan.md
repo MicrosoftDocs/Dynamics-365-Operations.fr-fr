@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c368e461860a41d0110f5aed79c2aac49c437d68
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5b64ababa618d58feb6095704e5978295060c96f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011405"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261115"
 ---
 # <a name="create-an-intercompany-plan"></a>Créer un plan intersociétés
 
@@ -33,7 +33,7 @@ Cette procédure indique comment créer un plan intersociétés. Les données fi
 1. Dans le **Volet de navigation**, allez dans **Modules > Planification > Paramétrage > Groupes de planification intersociétés**. 
 2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Nom avec une valeur de « 10 ».
 3. Dans la liste, marquez la ligne sélectionnée.
-4. Cliquez sur **Supprimer**. Cette étape est nécessaire pour raccourcir l'exécution de la planification intersociétés.   La planification intersociétés exécute la planification dans toutes les sociétés d'un groupe de planification, en commençant par la séquence de planification la plus faible.  
+4. Cliquez sur **Supprimer**. Cette étape est nécessaire pour raccourcir l’exécution de la planification intersociétés.   La planification intersociétés exécute la planification dans toutes les sociétés d’un groupe de planification, en commençant par la séquence de planification la plus faible.  
 5. Cliquez sur **Oui**.
 6. Fermez la page.
 
@@ -42,7 +42,7 @@ Cette procédure indique comment créer un plan intersociétés. Les données fi
 2. Cliquez sur **Planification intersociétés**.  
 3. Dans le champ **Groupe de planification intersociétés**, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 4. Dans la liste, cliquer sur le lien dans la ligne sélectionnée. Sélectionnez le groupe de planification intersociétés 10.  
-5. Entrez « 2 » dans le champ **Nombre d'itérations de planification intersociétés**. Le groupe de planification intersociétés 10 a deux membres. Afin de propager les retards de la société source (USMF) à la société cliente (DEMF), vous devez exécuter deux fois le module intersociétés dans les deux sociétés. La première itération propage la demande et identifie les retards dans la société source (USMF). La deuxième itération propage les retards d'USMF à DEMF.  
+5. Entrez « 2 » dans le champ **Nombre d’itérations de planification intersociétés**. Le groupe de planification intersociétés 10 a deux membres. Afin de propager les retards de la société source (USMF) à la société cliente (DEMF), vous devez exécuter deux fois le module intersociétés dans les deux sociétés. La première itération propage la demande et identifie les retards dans la société source (USMF). La deuxième itération propage les retards d’USMF à DEMF.  
 6. Sélectionnez « Régénération » dans le champ **Première itération**.
 7. Sélectionnez « Régénération » dans le champ **Itérations suivantes**.
 8. Entrez un nombre dans le champ **Nombre de threads**. Représente le nombre de threads parallèles utilisés pour la planification.  
