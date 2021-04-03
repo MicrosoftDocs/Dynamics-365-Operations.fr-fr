@@ -1,6 +1,6 @@
 ---
-title: Mettre à jour le statut d'opération kanban
-description: Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.
+title: Mettre à jour le statut d’opération kanban
+description: Lorsqu’un kanban est vidé par erreur ou qu’un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.
 author: ChristianRytt
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,34 +16,37 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1161e642f8b3b1cd0a2568e0745caa6db5fe5afb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 055765452579b1de74f1c2158de9c6cb4ee80f16
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980992"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252820"
 ---
-# <a name="update-kanban-status"></a><span data-ttu-id="36cbd-103">Mettre à jour le statut d'opération kanban</span><span class="sxs-lookup"><span data-stu-id="36cbd-103">Update kanban status</span></span>
+# <a name="update-kanban-status"></a><span data-ttu-id="1160e-103">Mettre à jour le statut d’opération kanban</span><span class="sxs-lookup"><span data-stu-id="1160e-103">Update kanban status</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="36cbd-104">Lorsqu'un kanban est vidé par erreur ou qu'un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.</span><span class="sxs-lookup"><span data-stu-id="36cbd-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="36cbd-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="36cbd-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="36cbd-106">Cette procédure est destinée au responsable de magasin.</span><span class="sxs-lookup"><span data-stu-id="36cbd-106">This procedure is intended for the shop supervisor.</span></span>
+<span data-ttu-id="1160e-104">Lorsqu’un kanban est vidé par erreur ou qu’un kanban reçu doit être vidé, vous devez mettre le statut du kanban à jour.</span><span class="sxs-lookup"><span data-stu-id="1160e-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="1160e-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="1160e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1160e-106">Cette procédure est destinée au responsable de magasin.</span><span class="sxs-lookup"><span data-stu-id="1160e-106">This procedure is intended for the shop supervisor.</span></span>
 
 
-## <a name="find-the-kanban"></a><span data-ttu-id="36cbd-107">Recherchez le kanban.</span><span class="sxs-lookup"><span data-stu-id="36cbd-107">Find the kanban.</span></span>
-1. <span data-ttu-id="36cbd-108">Accédez à Contrôle de la production > Kanban > Kanbans.</span><span class="sxs-lookup"><span data-stu-id="36cbd-108">Go to Production control > Kanban > Kanbans.</span></span>
-2. <span data-ttu-id="36cbd-109">Ouvrez le filtre de colonnes Statut de l'unité de manutention.</span><span class="sxs-lookup"><span data-stu-id="36cbd-109">Open Handling unit status column filter.</span></span>
-3. <span data-ttu-id="36cbd-110">Cliquez sur Effacer.</span><span class="sxs-lookup"><span data-stu-id="36cbd-110">Click Clear.</span></span>
-    * <span data-ttu-id="36cbd-111">Cela réinitialise les filtres.</span><span class="sxs-lookup"><span data-stu-id="36cbd-111">This resets the filters.</span></span>  
-4. <span data-ttu-id="36cbd-112">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="36cbd-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="36cbd-113">Par exemple, filtrez sur le champ Numéro de carte avec une valeur de « 000149 ».</span><span class="sxs-lookup"><span data-stu-id="36cbd-113">For example, filter on the Card number field with a value of '000149'.</span></span>
+## <a name="find-the-kanban"></a><span data-ttu-id="1160e-107">Recherchez le kanban.</span><span class="sxs-lookup"><span data-stu-id="1160e-107">Find the kanban.</span></span>
+1. <span data-ttu-id="1160e-108">Accédez à Contrôle de la production > Kanban > Kanbans.</span><span class="sxs-lookup"><span data-stu-id="1160e-108">Go to Production control > Kanban > Kanbans.</span></span>
+2. <span data-ttu-id="1160e-109">Ouvrez le filtre de colonnes Statut de l’unité de manutention.</span><span class="sxs-lookup"><span data-stu-id="1160e-109">Open Handling unit status column filter.</span></span>
+3. <span data-ttu-id="1160e-110">Cliquez sur Effacer.</span><span class="sxs-lookup"><span data-stu-id="1160e-110">Click Clear.</span></span>
+    * <span data-ttu-id="1160e-111">Cela réinitialise les filtres.</span><span class="sxs-lookup"><span data-stu-id="1160e-111">This resets the filters.</span></span>  
+4. <span data-ttu-id="1160e-112">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="1160e-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="1160e-113">Par exemple, filtrez sur le champ Numéro de carte avec une valeur de « 000149 ».</span><span class="sxs-lookup"><span data-stu-id="1160e-113">For example, filter on the Card number field with a value of '000149'.</span></span>
 
-## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="36cbd-114">Remplacer le statut vidé par le statut reçu</span><span class="sxs-lookup"><span data-stu-id="36cbd-114">Change emptied status to received status</span></span>
-1. <span data-ttu-id="36cbd-115">Cliquez sur Contrepasser l'unité de manutention vide.</span><span class="sxs-lookup"><span data-stu-id="36cbd-115">Click Reverse empty handling unit.</span></span>
-2. <span data-ttu-id="36cbd-116">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="36cbd-116">Click OK.</span></span>
-    * <span data-ttu-id="36cbd-117">Notez que le statut de l'unité de manutention est Reçu.</span><span class="sxs-lookup"><span data-stu-id="36cbd-117">Notice that the Handling unit status is Received.</span></span>  
+## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="1160e-114">Remplacer le statut vidé par le statut reçu</span><span class="sxs-lookup"><span data-stu-id="1160e-114">Change emptied status to received status</span></span>
+1. <span data-ttu-id="1160e-115">Cliquez sur Contrepasser l’unité de manutention vide.</span><span class="sxs-lookup"><span data-stu-id="1160e-115">Click Reverse empty handling unit.</span></span>
+2. <span data-ttu-id="1160e-116">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="1160e-116">Click OK.</span></span>
+    * <span data-ttu-id="1160e-117">Notez que le statut de l’unité de manutention est Reçu.</span><span class="sxs-lookup"><span data-stu-id="1160e-117">Notice that the Handling unit status is Received.</span></span>  
 
-## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="36cbd-118">Remplacer le statut reçu par le statut vidé</span><span class="sxs-lookup"><span data-stu-id="36cbd-118">Change received status to emptied status</span></span>
-1. <span data-ttu-id="36cbd-119">Cliquez sur Kanban vide.</span><span class="sxs-lookup"><span data-stu-id="36cbd-119">Click Empty kanban.</span></span>
-2. <span data-ttu-id="36cbd-120">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="36cbd-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="36cbd-121">Notez que le statut de l'unité de manutention est Vidé.</span><span class="sxs-lookup"><span data-stu-id="36cbd-121">Notice that the Handling unit status is Emptied.</span></span>  
+## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="1160e-118">Remplacer le statut reçu par le statut vidé</span><span class="sxs-lookup"><span data-stu-id="1160e-118">Change received status to emptied status</span></span>
+1. <span data-ttu-id="1160e-119">Cliquez sur Kanban vide.</span><span class="sxs-lookup"><span data-stu-id="1160e-119">Click Empty kanban.</span></span>
+2. <span data-ttu-id="1160e-120">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="1160e-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="1160e-121">Notez que le statut de l’unité de manutention est Vidé.</span><span class="sxs-lookup"><span data-stu-id="1160e-121">Notice that the Handling unit status is Emptied.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
