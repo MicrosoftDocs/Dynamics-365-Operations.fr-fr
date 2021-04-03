@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112546"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466036"
 ---
 # <a name="configure-life-event-types"></a>Configurer les types d’événements de vie
 
-Microsoft Dynamics 365 Human Resources utilise des types d’événements de vie pour définir les événements où il est valide de mettre à jour l’inscription aux avantages des employés. Par exemple, se marier ou avoir un enfant. Chaque ID de type d’événement de vie ne peut être associé qu’à un seul type d’événement de vie. Par exemple, si vous créez un ID d’événement de vie appelé Changement d’adresse qui est associé au type d’événement de vie Changement d’adresse d’employé, vous ne pouvez pas créer un autre ID intitulé Changement d’adresse d’employé et l’associer au type d’événement de vie Changement d’adresse d’employé. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Dynamics 365 Human Resources utilise des types d’événements de vie pour définir les événements où il est valide de mettre à jour l’inscription aux avantages des employés. Par exemple, se marier ou avoir un enfant. Chaque ID de type d’événement de vie ne peut être associé qu’à un seul type d’événement de vie. Par exemple, si vous créez un ID d’événement de vie appelé Changement d’adresse qui est associé au type d’événement de vie Changement d’adresse d’employé, vous ne pouvez pas créer un autre ID intitulé Changement d’adresse d’employé et l’associer au type d’événement de vie Changement d’adresse d’employé. 
 
 Après avoir créé des types d’événements de vie, vous devez les associer aux types de plan. Pour plus d’informations, voir [Création de types de plan](hr-benefits-setup-plan-types.md).
 

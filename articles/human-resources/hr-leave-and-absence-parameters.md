@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: db96073f0a16f1c710fbfebb2d08a1d693eab1e1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4997099"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463380"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configuration des paramètres de congé et d’absence
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human Resources, il est judicieux de vérifier la configuration de tous les paramètres des ressources humaines associés, notamment :
 
@@ -49,15 +51,15 @@ Avant de configurer des plans de congé et d’absence dans Dynamics 365 Human R
 7. Sélectionnez **Enregistrer**.
 
 >[!IMPORTANT]
->L'affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l'activer dans votre environnement de **bac à sable** pour afficher l'option de congé et d'absence. Pour plus d’informations sur l'activation des fonctionnalités d'évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
+>L’affichage des congés et des absences dans les entreprises est actuellement en version préliminaire. Vous devrez l’activer dans votre environnement de **bac à sable** pour afficher l’option de congé et d’absence. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
 
 ## <a name="view-and-change-human-resources-shared-parameters"></a>Afficher et modifier les paramètres partagés des ressources humaines
 
-1. Sur la page **Gestion du personnel**, sélectionnez l'onglet **Liens**.
+1. Sur la page **Gestion du personnel**, sélectionnez l’onglet **Liens**.
 
 2. Sous **Configuration**, sélectionnez **Paramètres partagés des ressources humaines**.
 
-3. Sur l'onglet **Accès anticipé**, sélectionnez **Oui** pour **Activer l'affichage des congés intersociétés** pour permettre la visualisation des congés dans toute l'entreprise.
+3. Sur l’onglet **Accès anticipé**, sélectionnez **Oui** pour **Activer l’affichage des congés intersociétés** pour permettre la visualisation des congés dans toute l’entreprise.
 
 4. Sélectionnez **Enregistrer**.
 

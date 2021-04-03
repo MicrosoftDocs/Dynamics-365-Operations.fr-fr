@@ -18,28 +18,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2943d0095e4c9421725b90e579b7cbb841038ab7
-ms.sourcegitcommit: d02fae79d5c02a4bc4f4b16a410c2f5ce026c204
+ms.openlocfilehash: 31f30c3d268132327074e931b714b5b2ee3ec5ac
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "4984598"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466638"
 ---
 # <a name="configure-benefits-management-parameters-per-company"></a>Configurer les paramètres de gestion des avantages par entreprise
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Pour chaque organisation qui offre des avantages, vous devez configurer les paramètres des e-mails de confirmation des avantages.
 
 ## <a name="configure-confirmation-email-settings"></a>Configurer la confirmation des paramètres d’e-mail
 
-1. Dans l'espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
+1. Dans l’espace de travail **Gestion des avantages**, sous **Configuration**, sélectionnez **Paramètres Human Resources**.
 
-2. Dans l'onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants : 
+2. Dans l’onglet **Gestion des avantages**, spécifiez les valeurs pour les champs suivants : 
 
    | Champ | Description |
    | --- | --- |
-   | **Envoyer un e-mail de confirmation** | Lorsque cette fonction est activée, un e-mail de confirmation est envoyé aux employés lorsqu'ils quittent l'expérience d'inscription aux avantages dans le libre-service des employés. |
-   | **Modèle d’e-mail de confirmation** | Sélectionnez le modèle d'e-mail de l'organisation à utiliser lors de l'envoi de la confirmation d'inscription. Si vous ne sélectionnez pas de modèle, l'e-mail générique suivant sera envoyé :<br><br>%EmployeeFirstName%,<br><br>Félicitations ! Vous avez terminé votre inscription aux avantages.<br><br>Merci,<br><Nom de l'entreprise/organisation> Avantages. |
-   | **Adresse e-mail de l’expéditeur par défaut** | L'adresse e-mail à utiliser lors de l'envoi de l'e-mail de confirmation. |
+   | **Envoyer un e-mail de confirmation** | Lorsque cette fonction est activée, un e-mail de confirmation est envoyé aux employés lorsqu’ils quittent l’expérience d’inscription aux avantages dans le libre-service des employés. |
+   | **Modèle d’e-mail de confirmation** | Sélectionnez le modèle d’e-mail de l’organisation à utiliser lors de l’envoi de la confirmation d’inscription. Si vous ne sélectionnez pas de modèle, l’e-mail générique suivant sera envoyé :<br><br>%EmployeeFirstName%,<br><br>Félicitations ! Vous avez terminé votre inscription aux avantages.<br><br>Merci,<br><Nom de l’entreprise/organisation> Avantages. |
+   | **Adresse e-mail de l’expéditeur par défaut** | L’adresse e-mail à utiliser lors de l’envoi de l’e-mail de confirmation. |
 
 3. Sélectionnez **Enregistrer**.
 

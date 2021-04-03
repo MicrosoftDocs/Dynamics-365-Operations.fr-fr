@@ -1,6 +1,6 @@
 ---
 title: Configurer les fréquences de paiement
-description: Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d'avantages qu'un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
+description: Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d’avantages qu’un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
 author: andreabichsel
 manager: tfehr
 ms.date: 04/06/2020
@@ -18,22 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f5a2ad19d9f9f3a6afa2574d9fdb8841c70d6e6e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 5f98559901ad22930b669d56b533adcac9a0f231
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112545"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466590"
 ---
 # <a name="set-up-payment-frequencies"></a>Configurer les fréquences de paiement
 
-Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d'avantages qu'un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Les fréquences de paiement des avantages utilisent des facteurs de conversion pour convertir les périodes de paiement des avantages entre les fréquences de paiement mensuelles, bimensuelles, bihebdomadaires, hebdomadaires et quotidiennes. Cela permet aux entreprises de définir l'interdépendance entre les fréquences de paiement au sein d'un plan d'avantages.
+Microsoft Dynamics 365 Human Resources utilise les fréquences de paiement pour calculer le salaire annuel des avantages, déterminer le montant de la prime d’avantages qu’un employé paie à chaque période de paie et la fréquence de paiement des fournisseurs.
 
-Les champs des facteurs de conversion identifient le facteur de conversion de la fréquence de paiement aux périodes de paiement standard et permettent au système d'effectuer des calculs entre les fréquences de paiement. Le montant du facteur de conversion détermine également le montant de la prime d'avantages qu'un employé doit payer à chaque fréquence de rémunération.
+Les fréquences de paiement des avantages utilisent des facteurs de conversion pour convertir les périodes de paiement des avantages entre les fréquences de paiement mensuelles, bimensuelles, bihebdomadaires, hebdomadaires et quotidiennes. Cela permet aux entreprises de définir l’interdépendance entre les fréquences de paiement au sein d’un plan d’avantages.
 
-1. Dans l'espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Fréquences de paiement**.
+Les champs des facteurs de conversion identifient le facteur de conversion de la fréquence de paiement aux périodes de paiement standard et permettent au système d’effectuer des calculs entre les fréquences de paiement. Le montant du facteur de conversion détermine également le montant de la prime d’avantages qu’un employé doit payer à chaque fréquence de rémunération.
+
+1. Dans l’espace de travail **Gestion des avantages**, sous **Installer**, sélectionnez **Fréquences de paiement**.
 
 2. Sélectionnez **Nouveau**.
 
@@ -43,8 +45,8 @@ Les champs des facteurs de conversion identifient le facteur de conversion de la
    | --- | --- |
    | **Fréquence de paiement** | Nom de fréquence de paiement unique. |
    | **Description** | Description de la fréquence de paiement. |
-   | **Période** | Période appropriée qui correspond le mieux à la fréquence de paiement du fournisseur et de l'employé. La liste des périodes est composée des périodes de paiement standard. |
-   | **Nombre de périodes de paiement :** | Nombre de périodes de paiement qui représente la fréquence de paiement du fournisseur ou des employés. Ce montant sera utilisé pour calculer le salaire des avantages annuels de l'employé. |
+   | **Période** | Période appropriée qui correspond le mieux à la fréquence de paiement du fournisseur et de l’employé. La liste des périodes est composée des périodes de paiement standard. |
+   | **Nombre de périodes de paiement :** | Nombre de périodes de paiement qui représente la fréquence de paiement du fournisseur ou des employés. Ce montant sera utilisé pour calculer le salaire des avantages annuels de l’employé. |
    | **Facteur de conversion annuel** | Facteur de conversion annuel pour la fréquence de rémunération. Par exemple, le facteur de conversion annuel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 1 an) = 12 |
    | **Facteur de conversion semi-annuel** | Facteur de conversion semestriel pour la fréquence de rémunération. Par exemple, le facteur de conversion semestriel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 2 fois par an) = 6 |
    | **Facteur de conversion trimestriel** | Facteur de conversion trimestriel pour la fréquence de rémunération. Par exemple, le facteur de conversion trimestriel pour la fréquence de rémunération mensuelle est : </br></br>(12 mensualités / 4 trimestres) = 3 |

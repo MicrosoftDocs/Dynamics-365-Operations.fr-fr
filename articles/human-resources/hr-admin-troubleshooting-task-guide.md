@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c81c345932e0e3dce4b13104222ed9f668a3c460
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7d6102bafc9b55f9eff05bfc4a63c177c6548694
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112586"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463260"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Enregistrer les guides de tâches dans LCS et les rediffuser
 
-**Détails de l'environnement** 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+**Détails de l’environnement** 
 
 Microsoft Dynamics 365 Human Resources, qui a été déployé via Microsoft Dynamics Lifecycle Services (LCS)
 
@@ -39,15 +41,15 @@ Le client souhaite enregistrer des enregistrements de tâches dans son projet LC
 Pour enregistrer un enregistrement de tâche dans LCS, procédez comme suit.
 
 1. Connectez-vous à LCS, puis sélectionnez le projet.
-2. Sélectionnez la vignette **Concepteur de processus d'entreprise**.
-3. Affichez la page dans « l'expérience BPM mise à jour ».
+2. Sélectionnez la vignette **Concepteur de processus d’entreprise**.
+3. Affichez la page dans « l’expérience BPM mise à jour ».
 4. Sélectionnez une bibliothèque, puis cliquez sur **Copier**.
-5. Entrez un nom pour le modèle de Concepteur de processus d'entreprise (BPM).
+5. Entrez un nom pour le modèle de Concepteur de processus d’entreprise (BPM).
 6. Connectez-vous à Human Resources à partir de LCS.
-7. Dans le champ **Recherche**, entrer **aide**. L'aide Lifecycle Services s'ouvre.
-8. Sélectionnez le bouton **Actualiser** pour la configuration de l'aide Lifecycle Services.
+7. Dans le champ **Recherche**, entrer **aide**. L’aide Lifecycle Services s’ouvre.
+8. Sélectionnez le bouton **Actualiser** pour la configuration de l’aide Lifecycle Services.
 
-    Votre nouvelle bibliothèque BPM doit s'afficher, et être active.
+    Votre nouvelle bibliothèque BPM doit s’afficher, et être active.
 
 9. Fermez la page.
 10. Créez un enregistrement de tâche.
@@ -55,11 +57,11 @@ Pour enregistrer un enregistrement de tâche dans LCS, procédez comme suit.
 
     ![Enregistrer sur Lifecycle Services](media/task-guides.png)
 
-12. Sélectionnez la bibliothèque et le nœud BPM dans lesquels enregistrer l'enregistrement de tâche.
+12. Sélectionnez la bibliothèque et le nœud BPM dans lesquels enregistrer l’enregistrement de tâche.
 
 Procédez comme suit pour relire le guide de tâche sur LCS.
 
-1. Démarrez l'enregistreur de tâches.
+1. Démarrez l’enregistreur de tâches.
 2. Sélectionnez **Ouvrir depuis LCS**.
 3. Sélectionnez la bibliothèque et le nœud BPM dans lesquels se trouve le guide de tâche enregistré.
 4. Ouvrez le guide de tâche.

@@ -1,5 +1,5 @@
 ---
-title: Ajouter à votre journal de performances et envoyer l'éloge à une personne
+title: Ajouter à votre journal de performances et envoyer l’éloge à une personne
 description: Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période.
 author: andreabichsel
 manager: tfehr
@@ -16,16 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 574925f0e278ad7bd3c654432fd0f862fd3c3259
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115870"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465628"
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l'éloge à une personne
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Ajouter à votre journal de performances et envoyer l’éloge à une personne
 
-Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période. Vous pouvez également récompenser les actions d'un collaborateur à partir du journal. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure s'applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Le journal des performance contient des informations relatives à la réalisation de vos objectifs ou à vos performances pendant une période. Vous pouvez également récompenser les actions d’un collaborateur à partir du journal. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Cette procédure s’applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 
 1. Accédez à Tous les espaces de travail > Libre-service employé.
 2. Cliquez sur Journal des performances.
@@ -42,9 +44,9 @@ Le journal des performance contient des informations relatives à la réalisatio
 10. Cliquez sur Ajouter un lien externe.
 11. Dans le champ Description, tapez « Envision ».
 12. Dans le champ Adresse Internet, tapez « https://www.microsoft.com/en/envision/default ».
-13. Cliquez sur la légende sous le bouton d'enregistrement intitulée « Journal des performances » pour revenir à la grille.
-    * Vous pouvez ajouter le ou les journaux sélectionnés à un objectif pour qu'ils s'affichent lorsque vous ouvrez l'objectif. Un lien est ajouté dans l'organisateur Liens.    Si vous ajoutez un journal à un objectif et ajoutez l'objectif à une révision, le journal apparaît automatiquement dans la révision.  
-    * Vous pouvez ajouter le ou les journaux sélectionnés à une révision pour qu'ils s'affichent lorsque vous ouvrez la révision.    Un lien est ajouté dans l'organisateur Liens.  
+13. Cliquez sur la légende sous le bouton d’enregistrement intitulée « Journal des performances » pour revenir à la grille.
+    * Vous pouvez ajouter le ou les journaux sélectionnés à un objectif pour qu’ils s’affichent lorsque vous ouvrez l’objectif. Un lien est ajouté dans l’organisateur Liens.    Si vous ajoutez un journal à un objectif et ajoutez l’objectif à une révision, le journal apparaît automatiquement dans la révision.  
+    * Vous pouvez ajouter le ou les journaux sélectionnés à une révision pour qu’ils s’affichent lorsque vous ouvrez la révision.    Un lien est ajouté dans l’organisateur Liens.  
 14. Cliquez sur Ajout rapide.
 15. Tapez une valeur dans le champ Titre.
 16. Dans le champ Description, entrez une valeur.

@@ -1,6 +1,6 @@
 ---
 title: Exemple de requête pour une demande de recrutement
-description: Cette rubrique fournit un exemple de requête pour l'entité Demande de recrutement dans Dynamics 365 Human Resources.
+description: Cette rubrique fournit un exemple de requête pour l’entité Demande de recrutement dans Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42028b175d717bec01180dc9a6bc4cb7b289be05
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: ec8b881282d3e79f83cc7205e4742f7e6c5c3464
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125928"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465988"
 ---
 # <a name="example-query-for-recruiting-request"></a>Exemple de requête pour une demande de recrutement
 
-Cette rubrique fournit un exemple de requête pour l'entité Demande de recrutement dans Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La requête suivante montre comment utiliser l'option de requête $expand dans une opération GET pour récupérer un dossier de recrutement spécifié et tous les postes associés, les compétences requises et les exigences en matière de formation pour la demande spécifiée. L'exemple de réponse montre une demande de recrutement pour deux postes, ainsi que les compétences et la formation requises pour les postes demandés.
+Cette rubrique fournit un exemple de requête pour l’entité Demande de recrutement dans Dynamics 365 Human Resources.
+
+La requête suivante montre comment utiliser l’option de requête $expand dans une opération GET pour récupérer un dossier de recrutement spécifié et tous les postes associés, les compétences requises et les exigences en matière de formation pour la demande spécifiée. L’exemple de réponse montre une demande de recrutement pour deux postes, ainsi que les compétences et la formation requises pour les postes demandés.
 
 **Demande**
 
@@ -182,6 +184,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruitin
 
 ## <a name="see-also"></a>Voir également :
 
-[Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
+[Introduction à l’API d’intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

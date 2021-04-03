@@ -1,6 +1,6 @@
 ---
 title: Définir les nouveaux départements
-description: Les départements sont des unités opérationnelles qui représentent une zone fonctionnelle d'une entreprise, comme les ventes ou la comptabilité.
+description: Les départements sont des unités opérationnelles qui représentent une zone fonctionnelle d’une entreprise, comme les ventes ou la comptabilité.
 author: andreabichsel
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13511b1cdf56716de635602720a343e9593adf61
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 06b93e9b7bd4d68aa5d6f6c377991963e37579ae
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130260"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464402"
 ---
 # <a name="define-new-departments"></a>Définir les nouveaux départements
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Les départements sont des unités opérationnelles qui représentent une zone fonctionnelle d'une entreprise, comme les ventes ou la comptabilité. De nombreuses sociétés ont des hiérarchies organisationnelles qui affichent les divers départements d'une entreprise. Cette procédure illustre le processus de création des départements et l'ajout de ces départements à une hiérarchie de société. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+
+Les départements sont des unités opérationnelles qui représentent une zone fonctionnelle d’une entreprise, comme les ventes ou la comptabilité. De nombreuses sociétés ont des hiérarchies organisationnelles qui affichent les divers départements d’une entreprise. Cette procédure illustre le processus de création des départements et l’ajout de ces départements à une hiérarchie de société. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 1. Accédez à Ressources humaines > Départements > Départements.
 2. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
@@ -43,12 +45,12 @@ Les départements sont des unités opérationnelles qui représentent une zone f
 9. Cliquez sur Modifier.
 10. Cliquez sur Insérer
 11. Cliquez sur Département.
-12. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+12. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Exemple : Facturation de projet  
 13. Cliquez sur OK.
-14. Cliquez sur Publier pour ouvrir l'écran de boîte de dialogue.
-15. Entrez une date et une heure dans le champ Date d'effet.
-    * Lorsque vous publiez la hiérarchie des départements, vous pouvez sélectionner le moment auquel les modifications entrent en vigueur. Les modifications peuvent être postdatées. Par exemple, vous pouvez savoir qu'au début de votre exercice, vous ajouterez un département supplémentaire. Vous pouvez définir la date d'effet au début de l'exercice, et les modifications apportées à la hiérarchie entreront en vigueur cette date.  
+14. Cliquez sur Publier pour ouvrir l’écran de boîte de dialogue.
+15. Entrez une date et une heure dans le champ Date d’effet.
+    * Lorsque vous publiez la hiérarchie des départements, vous pouvez sélectionner le moment auquel les modifications entrent en vigueur. Les modifications peuvent être postdatées. Par exemple, vous pouvez savoir qu’au début de votre exercice, vous ajouterez un département supplémentaire. Vous pouvez définir la date d’effet au début de l’exercice, et les modifications apportées à la hiérarchie entreront en vigueur cette date.  
 16. Tapez une valeur dans le champ Décrire les modifications.
 17. Cliquez sur Publier.
 

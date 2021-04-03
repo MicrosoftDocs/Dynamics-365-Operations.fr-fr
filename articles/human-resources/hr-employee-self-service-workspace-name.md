@@ -1,6 +1,6 @@
 ---
-title: Modifier le nom de l'espace de travail en libre service des employés
-description: Cette rubrique décrit comment modifier le nom d'affichage de l'espace de travail en libre service des employés dans Dynamics 365 Human Resources.
+title: Modifier le nom de l’espace de travail en libre service des employés
+description: Cette rubrique décrit comment modifier le nom d’affichage de l’espace de travail en libre service des employés dans Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
 ms.date: 07/09/2020
@@ -18,33 +18,35 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 383af930e7ea5b14584069dff09e45b92808df23
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b6df9391f8b97573f7874f8bc19450db3fdadd88
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115196"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463212"
 ---
-# <a name="change-employee-self-service-workspace-name"></a>Modifier le nom de l'espace de travail en libre service des employés
+# <a name="change-employee-self-service-workspace-name"></a>Modifier le nom de l’espace de travail en libre service des employés
 
-Si vous avez des bénévoles ou d'autres personnels non-employés, vous voudrez peut-être changer le nom de l'espace de travail **Libre service des employés**. Vous pouvez modifier cet espace de travail en **Libre service**.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Si vous avez des bénévoles ou d’autres personnels non-employés, vous voudrez peut-être changer le nom de l’espace de travail **Libre service des employés**. Vous pouvez modifier cet espace de travail en **Libre service**.
 
 > [!NOTE]
-> Changer le nom de l'espace de travail **Libre service des employés** modifie également l'élément de menu utilisé en interne par Dynamics 365 Human Resources. Si vous avez précédemment appliqué des personnalisations de sécurité à l'élément de menu **HcmEmployeeSelfServiceWorkspace**, nous vous recommandons d'appliquer les mêmes modifications à **HcmSelfServiceWorkspace** pour conserver la parité.
+> Changer le nom de l’espace de travail **Libre service des employés** modifie également l’élément de menu utilisé en interne par Dynamics 365 Human Resources. Si vous avez précédemment appliqué des personnalisations de sécurité à l’élément de menu **HcmEmployeeSelfServiceWorkspace**, nous vous recommandons d’appliquer les mêmes modifications à **HcmSelfServiceWorkspace** pour conserver la parité.
 
 1. Dans Human Resources, sélectionnez **Gestion du personnel**, sélectionnez **Liens**, puis sélectionnez **Paramètres Human Resources**.
 
-2. Sélectionnez l'onglet **Libre service des employés**.
+2. Sélectionnez l’onglet **Libre service des employés**.
 
-3. Sous **Nom d'affichage**, sélectionnez **Libre service**.
+3. Sous **Nom d’affichage**, sélectionnez **Libre service**.
 
-   ![Modifier le nom de l'espace de travail en libre service des employés en Libre service](./media/hr-employee-self-service-workspace-name.png)
+   ![Modifier le nom de l’espace de travail en libre service des employés en Libre service](./media/hr-employee-self-service-workspace-name.png)
 
 4. Sélectionnez **Enregistrer**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d'ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)
+- [Vue d’ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

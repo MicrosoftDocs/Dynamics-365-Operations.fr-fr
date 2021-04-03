@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c5bb0a363a3094626d81af3d5ffea38d9a1b12a8
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 923ec7d3940124da4ada50d23f88e3ab3646a5a0
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129801"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463500"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utiliser des workflows pour gérer les informations relatives aux employés
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Cet article explique comment les Ressources humaines peuvent utiliser la capacité de workflow pour gérer les informations des employés. Par exemple, vous pouvez associer un workflow avec un poste et configurer un workflow d’approbation qui démarre lorsque les employés modifient leur enregistrement.
 

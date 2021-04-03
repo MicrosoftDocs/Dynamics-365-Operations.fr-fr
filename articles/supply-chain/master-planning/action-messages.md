@@ -1,6 +1,6 @@
 ---
-title: Messages d'action
-description: Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
+title: Messages d’action
+description: Un message d’action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
 author: ChristianRytt
 manager: tfehr
 ms.date: 10/14/2019
@@ -17,36 +17,36 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9efebbe5cfea1bb2c9beedfea4fa0492040ddc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8e87c5188ff3b598ee1b53ce26e1ce4acf96a93d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989766"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264768"
 ---
-# <a name="action-messages"></a>Messages d'action
+# <a name="action-messages"></a>Messages d’action
 
 [!include [banner](../includes/banner.md)]
 
-Un message d'action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
+Un message d’action est une suggestion générée par le système visant à modifier un ordre prévisionnel ou confirmé existant.
 
 ## <a name="introduction"></a>Introduction
 
-Les messages d'action sont générés par le calcul de planification principal en réponse à la modification des demandes. Il est par exemple possible que la date d'expédition ou la quantité ait été modifié sur une commande client pour laquelle vous avez déjà créé une commande fournisseur pour honorer la demande. Dans ce cas, un ou plusieurs messages d'action sont générés par le calcul de planification principal pour mettre la commande fournisseur à jour. Vous devez décider d'apporter ou non les modifications suggérées.
+Les messages d’action sont générés par le calcul de planification principal en réponse à la modification des demandes. Il est par exemple possible que la date d’expédition ou la quantité ait été modifié sur une commande client pour laquelle vous avez déjà créé une commande fournisseur pour honorer la demande. Dans ce cas, un ou plusieurs messages d’action sont générés par le calcul de planification principal pour mettre la commande fournisseur à jour. Vous devez décider d’apporter ou non les modifications suggérées.
 
-Vous pouvez configurer le mode de calcul des messages d'action pour un groupe de couverture que vous liez à un article.
+Vous pouvez configurer le mode de calcul des messages d’action pour un groupe de couverture que vous liez à un article.
 
-## <a name="select-action-messages"></a>Sélection des messages d'action
+## <a name="select-action-messages"></a>Sélection des messages d’action
 
-Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d'action que vous voulez que le système génère, et les groupes de couverture ou les articles auxquels les messages s'appliquent. Vous pouvez sélectionner les messages d'action suivants.
+Sur la page **Groupes de couverture**, vous pouvez sélectionner les messages d’action que vous voulez que le système génère, et les groupes de couverture ou les articles auxquels les messages s’appliquent. Vous pouvez sélectionner les messages d’action suivants.
 
 | Message             | Description                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Avance**         | Si vous sélectionnez ce message, le système génèrera des messages d'action, si nécessaire, pour déplacer les commandes à une date plus rapprochée. Dans le champ **Marge d'avance**, vous pouvez également spécifier le nombre maximal de jours entre la réception et la sortie sans avance. |
-| **Ajourner**        | Si vous sélectionnez ce message, le système génèrera les messages d'action, si nécessaire, pour déplacer les commandes à une date ultérieure. Dans le champ **Marge d'ajournement**, vous pouvez également spécifier le nombre maximal de jours entre la réception et la sortie sans ajournement.       |
-| **Diminution**        | Si vous sélectionnez ce message, des commandes fournisseur et d'autres transactions de réception doivent être diminués afin d'éviter des dépassements de niveaux de stock.                                                                                                   |
-| **Augmentation**        | Si vous sélectionnez ce message, des commandes fournisseur et d'autres transactions de réception doivent être augmentés afin d'éviter des ruptures de stock.                                                                                                    |
-| **Actions déduites** | Si vous sélectionnez ce message, des messages d'action sont créés pour les besoins déduits, par exemple, les actions pour les commandes de composants accomplissant la production.                                                                                                   |
+| **Avance**         | Si vous sélectionnez ce message, le système génèrera des messages d’action, si nécessaire, pour déplacer les commandes à une date plus rapprochée. Dans le champ **Marge d’avance**, vous pouvez également spécifier le nombre maximal de jours entre la réception et la sortie sans avance. |
+| **Ajourner**        | Si vous sélectionnez ce message, le système génèrera les messages d’action, si nécessaire, pour déplacer les commandes à une date ultérieure. Dans le champ **Marge d’ajournement**, vous pouvez également spécifier le nombre maximal de jours entre la réception et la sortie sans ajournement.       |
+| **Diminution**        | Si vous sélectionnez ce message, des commandes fournisseur et d’autres transactions de réception doivent être diminués afin d’éviter des dépassements de niveaux de stock.                                                                                                   |
+| **Augmentation**        | Si vous sélectionnez ce message, des commandes fournisseur et d’autres transactions de réception doivent être augmentés afin d’éviter des ruptures de stock.                                                                                                    |
+| **Actions déduites** | Si vous sélectionnez ce message, des messages d’action sont créés pour les besoins déduits, par exemple, les actions pour les commandes de composants accomplissant la production.                                                                                                   |
 
 
 

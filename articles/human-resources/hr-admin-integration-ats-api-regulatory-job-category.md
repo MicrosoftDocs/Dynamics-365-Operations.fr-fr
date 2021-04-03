@@ -1,6 +1,6 @@
 ---
-title: Catégorie d'emploi réglementaire
-description: Cette rubrique décrit l'option Catégorie d'emploi réglementaire définie pour Dynamics 365 Human Resources.
+title: Catégorie d’emploi réglementaire
+description: Cette rubrique décrit l’option Catégorie d’emploi réglementaire définie pour Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,20 +16,22 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b68103bafae4b963ba4ece3f288c6398b343edc
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 416df7d700a63a48bfe827d735ac68d9464246e5
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126120"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464596"
 ---
-# <a name="regulatory-job-category"></a>Catégorie d'emploi réglementaire
+# <a name="regulatory-job-category"></a>Catégorie d’emploi réglementaire
 
-Cette rubrique décrit l'option Catégorie d'emploi réglementaire définie pour Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette rubrique décrit l’option Catégorie d’emploi réglementaire définie pour Dynamics 365 Human Resources.
 
 Nom physique : mshr_hcmregulatoryjobcategory
 
-Cette énumération spécifie le jeu d'options pour les valeurs du jeu d'options de catégorie de travail réglementaire. Ceci est fourni dans le jeu d'options mshr_hcmregulatoryjobcategory existant.
+Cette énumération spécifie le jeu d’options pour les valeurs du jeu d’options de catégorie de travail réglementaire. Ceci est fourni dans le jeu d’options mshr_hcmregulatoryjobcategory existant.
 
 | Valeur | Étiquette | Description |
 | --- | --- | --- |
@@ -47,7 +49,7 @@ Cette énumération spécifie le jeu d'options pour les valeurs du jeu d'options
 
 ## <a name="see-also"></a>Voir également :
 
-[Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
+[Introduction à l’API d’intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
 [Exemple de requête pour une demande de recrutement](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
 
