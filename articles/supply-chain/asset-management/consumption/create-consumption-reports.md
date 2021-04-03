@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e32924c71fd221caee4a7f413908120014ec8c5
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0cda21addfdc524537177740ebba6414ef8b4b96
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022531"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260008"
 ---
 # <a name="create-consumption-reports"></a>Créer des états de consommation
 
@@ -35,47 +35,47 @@ Lorsque vous avez créé et validé les enregistrements de consommation sur les 
 
 ## <a name="asset-consumption-report"></a>État relatif à la consommation des actifs
 
-Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez imprimer un état relatif à la consommation des actifs. L'état affiche les heures, le coût des heures, le coût des articles, et les dépenses validées sur des actifs.
+Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez imprimer un état relatif à la consommation des actifs. L’état affiche les heures, le coût des heures, le coût des articles, et les dépenses validées sur des actifs.
 
-1. Cliquez sur **Gestion des actifs** > **États** > **Actifs** > **Consommation d'actifs**.
+1. Cliquez sur **Gestion des actifs** > **États** > **Actifs** > **Consommation d’actifs**.
 
-2. Dans la boîte de dialogue **Consommation d'actifs**, sélectionnez les paramètres et le niveau de détail que vous souhaitez afficher en sélectionnant **Oui** sur les boutons bascule appropriés, puis en entrant le niveau du poste technique dans la section **Afficher**.
-    - Vous pouvez utiliser le champ **Niveaux** pour indiquer quel niveau de détail vous souhaitez dans les lignes d'actif en fonction des postes techniques. 
+2. Dans la boîte de dialogue **Consommation d’actifs**, sélectionnez les paramètres et le niveau de détail que vous souhaitez afficher en sélectionnant **Oui** sur les boutons bascule appropriés, puis en entrant le niveau du poste technique dans la section **Afficher**.
+    - Vous pouvez utiliser le champ **Niveaux** pour indiquer quel niveau de détail vous souhaitez dans les lignes d’actif en fonction des postes techniques. 
     
-        Par exemple, si vous entrez le chiffre « 1 » dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, tous les actifs pour un poste technique s'affichent dans le niveau supérieur et il est donc possible d'ajouter une ligne à partir des postes techniques situés à un niveau inférieur. 
+        Par exemple, si vous entrez le chiffre « 1 » dans le champ, et que vous avez une structure de poste technique à plusieurs niveaux, tous les actifs pour un poste technique s’affichent dans le niveau supérieur et il est donc possible d’ajouter une ligne à partir des postes techniques situés à un niveau inférieur. 
         
-        Par exemple, si vous entrez le chiffre « 0 » dans le champ **Niveaux**, un résultat détaillé s'affiche et indique tous les actifs sur tous les niveaux du poste technique auxquels ils sont liés. 
+        Par exemple, si vous entrez le chiffre « 0 » dans le champ **Niveaux**, un résultat détaillé s’affiche et indique tous les actifs sur tous les niveaux du poste technique auxquels ils sont liés. 
         
-    - Sélectionnez **Oui** sur le bouton bascule **Somme de tous les sous-actifs** pour afficher les sommes des chaque sous-actif de l'état.
+    - Sélectionnez **Oui** sur le bouton bascule **Somme de tous les sous-actifs** pour afficher les sommes des chaque sous-actif de l’état.
 
 3. Sélectionnez un intervalle de dates dans la section **Dates**.
 
-4. Dans l'organisateur **Destination**, indiquez si vous souhaitez afficher l'état à l'écran, l'imprimer ou l'enregistrer en tant que fichier ou e-mail.
+4. Dans l’organisateur **Destination**, indiquez si vous souhaitez afficher l’état à l’écran, l’imprimer ou l’enregistrer en tant que fichier ou e-mail.
 
-5. Si nécessaire, vous pouvez sélectionner des actifs spécifiques à afficher dans l'état. Dans l'organisateur **Enregistrements à inclure**, cliquez sur **Filtre**, puis ajoutez des actifs à inclure dans l'état.
+5. Si nécessaire, vous pouvez sélectionner des actifs spécifiques à afficher dans l’état. Dans l’organisateur **Enregistrements à inclure**, cliquez sur **Filtre**, puis ajoutez des actifs à inclure dans l’état.
 
-6. Cliquez sur **OK** pour générer l'état.
+6. Cliquez sur **OK** pour générer l’état.
 
 
-## <a name="work-order-consumption-report"></a>État de consommation de l'ordre de travail
+## <a name="work-order-consumption-report"></a>État de consommation de l’ordre de travail
 
-Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez imprimer un état relatif à cette consommation. L'état affiche les heures, le coût des heures, le coût des articles, et les dépenses validées sur des ordres de travail.
+Lorsque vous avez validé la consommation sur les ordres de travail, vous pouvez imprimer un état relatif à cette consommation. L’état affiche les heures, le coût des heures, le coût des articles, et les dépenses validées sur des ordres de travail.
 
-1. Cliquez sur **Gestion des actifs** > **États** > **Ordres de travail** > **Consommation de l'ordre de travail**.
+1. Cliquez sur **Gestion des actifs** > **États** > **Ordres de travail** > **Consommation de l’ordre de travail**.
 
-2. Dans la boîte de dialogue **Consommation de l'ordre de travail**, sélectionnez les paramètres que vous souhaitez inclure dans l'état en sélectionnant **Oui** sur les boutons à bascule dans la section **Afficher**.
+2. Dans la boîte de dialogue **Consommation de l’ordre de travail**, sélectionnez les paramètres que vous souhaitez inclure dans l’état en sélectionnant **Oui** sur les boutons à bascule dans la section **Afficher**.
 
 3. Sélectionnez un intervalle de dates dans la section **Dates**.
 
-4. Dans l'organisateur **Destination**, indiquez si vous souhaitez afficher l'état à l'écran, l'imprimer ou l'enregistrer en tant que fichier ou e-mail.
+4. Dans l’organisateur **Destination**, indiquez si vous souhaitez afficher l’état à l’écran, l’imprimer ou l’enregistrer en tant que fichier ou e-mail.
 
-5. Si nécessaire, vous pouvez sélectionner des ordres de travail spécifiques à afficher dans l'état. Dans l'organisateur **Enregistrements à inclure**, cliquez sur **Filtre**, puis ajoutez des ordres de travail à inclure dans l'état.
+5. Si nécessaire, vous pouvez sélectionner des ordres de travail spécifiques à afficher dans l’état. Dans l’organisateur **Enregistrements à inclure**, cliquez sur **Filtre**, puis ajoutez des ordres de travail à inclure dans l’état.
 
-6. Cliquez sur **OK** pour générer l'état.
+6. Cliquez sur **OK** pour générer l’état.
 
 
 >[!NOTE]
->Vous pouvez également générer un [état d'ordre de travail](../work-orders/work-order-report.md), qui contient plus de détails sur les ordres de travail.
+>Vous pouvez également générer un [état d’ordre de travail](../work-orders/work-order-report.md), qui contient plus de détails sur les ordres de travail.
 
 
 

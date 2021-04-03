@@ -1,5 +1,5 @@
 ---
-title: Création d'ordres de travail
+title: Création d’ordres de travail
 description: Cette rubrique explique comment créer des ordres de travail dans le module Gestion des actifs.
 author: johanhoffmann
 manager: tfehr
@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131791"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500572"
 ---
-# <a name="creating-work-orders"></a>Création d'ordres de travail
+# <a name="creating-work-orders"></a>Création d’ordres de travail
 
 [!include [banner](../../includes/banner.md)]
 
@@ -62,8 +62,7 @@ Pour créer des ordres de travail basés sur votre programme de maintenance, pro
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Regrouper les lignes d’ordre de travail qui sont automatiquement créées lors de l’exécution d’un plan de maintenance
 
-> [!IMPORTANT]
-> La fonctionnalité décrite dans cette section est disponible dans le cadre d'une version préliminaire. Le contenu et la fonctionnalité peuvent faire l’objet de modifications. Pour plus d'informations sur les préversions, voir [FAQ sur les mises à jour de service à une version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Cette fonction vous permet de définir des règles de regroupement des lignes d’ordre de travail sous un seul ordre de travail lorsque le système est configuré pour générer automatiquement des ordres de travail, en fonction d’un plan de maintenance. Auparavant, les ordres de travail générés automatiquement ne pouvaient contenir qu’une seule ligne. Cependant, vous pouvez désormais regrouper les ordres de travail par exemple, par actif, par type d’actif ou par emplacement fonctionnel. (Les ordres de travail générés manuellement peuvent déjà être regroupés de cette manière, comme décrit dans la section précédente de cette rubrique.)
 

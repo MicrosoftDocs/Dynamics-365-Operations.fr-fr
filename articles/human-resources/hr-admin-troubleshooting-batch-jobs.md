@@ -17,50 +17,52 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 219537aab2015469b6ca6ebed5c00af0190c5187
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 0b13853598bbdec239bce98029e534991a53876b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112552"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467215"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Optimiser les performances en planifiant des traitements par lots après les heures de travail
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>Sortie
 
-Microsoft Dynamics 365 Human Resources peut rencontrer des problèmes de performances si des traitements par lots de longue durée s'exécutent pendant les heures de bureau normales.
+Microsoft Dynamics 365 Human Resources peut rencontrer des problèmes de performances si des traitements par lots de longue durée s’exécutent pendant les heures de bureau normales.
 
 ## <a name="resolution"></a>Résolution
 
-Planifiez les traitements par lots suivants pendant les heures creuses. Nous vous recommandons également de revoir la fréquence des traitements par lots qui s'exécutent souvent. Si possible, réduisez la périodicité du traitement par lots. Dans de nombreux cas, la fréquence par défaut est suffisante.
+Planifiez les traitements par lots suivants pendant les heures creuses. Nous vous recommandons également de revoir la fréquence des traitements par lots qui s’exécutent souvent. Si possible, réduisez la périodicité du traitement par lots. Dans de nombreux cas, la fréquence par défaut est suffisante.
 
-Les traitements par lots suivants doivent s'exécuter la nuit ou après les heures de travail. Assurez-vous de vérifier le fuseau horaire de ces traitements par lots périodiques. Certains traitements par lots peuvent utiliser l'heure standard du Pacifique (PST).
+Les traitements par lots suivants doivent s’exécuter la nuit ou après les heures de travail. Assurez-vous de vérifier le fuseau horaire de ces traitements par lots périodiques. Certains traitements par lots peuvent utiliser l’heure standard du Pacifique (PST).
 
 | Traitement par lots | Occurrence par défaut |
 | --- | --- |
-| Nettoyage de l'historique des traitements par lots | 1 fois par mois |
+| Nettoyage de l’historique des traitements par lots | 1 fois par mois |
 | Exporter le nettoyage intermédiaire | 1 fois par jour |
-| Sync de demande d'intégration manquée Common Data Service | 1 fois par jour |
-| Tâche système de compression de la base de données qui doit s'exécuter régulièrement pendant les heures creuses | 1 fois par jour |
-| Tâche système de recréation de l'index de la base de données qui doit s'exécuter régulièrement pendant les heures creuses | 1 fois par jour |
+| Sync de demande d’intégration manquée Common Data Service | 1 fois par jour |
+| Tâche système de compression de la base de données qui doit s’exécuter régulièrement pendant les heures creuses | 1 fois par jour |
+| Tâche système de recréation de l’index de la base de données qui doit s’exécuter régulièrement pendant les heures creuses | 1 fois par jour |
 
 1. Dans Human Resources, sélectionnez **Administration du système**.
 
-2. Dans la barre de **Recherche**, recherchez l'un des traitements par lots ci-dessus.
+2. Dans la barre de **Recherche**, recherchez l’un des traitements par lots ci-dessus.
 
-3. Sélectionnez **Exécuter à l'arrière-plan**, puis sélectionnez **Récurrence**.
+3. Sélectionnez **Exécuter à l’arrière-plan**, puis sélectionnez **Récurrence**.
 
    ![Définir la récurrence](media/talent-batch-history-cleanup-recurrence.png)
 
-4. Sous **Définir la récurrence**, définissez **Date de début** et **Heure de début** pour qu'elles se produisent pendant les heures creuses ou le week-end. Sélectionnez **Aucune date de fin**. 
+4. Sous **Définir la récurrence**, définissez **Date de début** et **Heure de début** pour qu’elles se produisent pendant les heures creuses ou le week-end. Sélectionnez **Aucune date de fin**. 
 
    ![Définir la date et heure de début de la récurrence](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Cliquez sur **OK**.
 
-6. Si nécessaire, modifiez les autres paramètres sous **Exécuter à l'arrière-plan**, puis cliquez sur **OK**.
+6. Si nécessaire, modifiez les autres paramètres sous **Exécuter à l’arrière-plan**, puis cliquez sur **OK**.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

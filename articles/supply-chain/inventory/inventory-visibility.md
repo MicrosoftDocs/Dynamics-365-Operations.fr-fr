@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114668"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574220"
 ---
 # <a name="inventory-visibility-add-in"></a>Complément de visibilité de stock
 
@@ -29,54 +29,172 @@ ms.locfileid: "5114668"
 
 Le complément de visibilité de stock est un microservice indépendant et hautement évolutif qui permet un suivi des stocks en temps réel, offrant ainsi une vue globale de la visibilité du stock.
 
-Toutes les informations relatives à l'inventaire disponible sont exportées vers le service en temps quasi réel via une intégration SQL de bas niveau. Les systèmes externes accèdent au service via des API RESTful pour interroger les informations disponibles sur des ensembles de dimensions donnés, récupérant ainsi une liste des positions disponibles.
+Toutes les informations relatives à l’inventaire disponible sont exportées vers le service en temps quasi réel via une intégration SQL de bas niveau. Les systèmes externes accèdent au service via des API RESTful pour interroger les informations disponibles sur des ensembles de dimensions donnés, récupérant ainsi une liste des positions disponibles.
 
-La visibilité du stock est un microservice basé sur Microsoft Dataverse, ce qui signifie que vous pouvez l'étendre en créant des Power Apps et en appliquant Power BI pour fournir des fonctionnalités personnalisées pour répondre aux besoins de votre entreprise. Il est également possible de mettre à niveau l'index pour effectuer des requêtes d'inventaire.
+La visibilité du stock est un microservice basé sur Microsoft Dataverse, ce qui signifie que vous pouvez l’étendre en créant des Power Apps et en appliquant Power BI pour fournir des fonctionnalités personnalisées pour répondre aux besoins de votre entreprise. Il est également possible de mettre à niveau l’index pour effectuer des requêtes d’inventaire.
 
-La visibilité du stock fournit des options de configuration qui lui permettent de s'intégrer à plusieurs systèmes tiers. Il prend en charge la dimension de stock normalisée, l'extensibilité personnalisée et les quantités calculées normalisées et configurables.
+La visibilité du stock fournit des options de configuration qui lui permettent de s’intégrer à plusieurs systèmes tiers. Il prend en charge la dimension de stock normalisée, l’extensibilité personnalisée et les quantités calculées normalisées et configurables.
 
-Cette rubrique décrit comment installer et configurer le complément de visibilité de stock pour Dynamics 365 Supply Chain Management, et comment utiliser son interface de programmation d'application (API).
+Cette rubrique décrit comment installer et configurer le complément de visibilité de stock pour Dynamics 365 Supply Chain Management, et comment utiliser son interface de programmation d’application (API).
 
 ## <a name="install-the-inventory-visibility-add-in"></a>Installer le complément de visibilité de stock
 
-Vous devez installer le complément de visibilité de stock à l'aide de Microsoft Dynamics Lifecycle Services (LCS). LCS est un portail de collaboration qui fournit un environnement et un ensemble de services régulièrement mis à jour qui vous aident à gérer le cycle de vie des applications de vos applications Dynamics 365 Finance and Operations.
+Vous devez installer le complément de visibilité de stock à l’aide de Microsoft Dynamics Lifecycle Services (LCS). LCS est un portail de collaboration qui fournit un environnement et un ensemble de services régulièrement mis à jour qui vous aident à gérer le cycle de vie des applications de vos applications Dynamics 365 Finance and Operations.
 
-Pour plus d'informations, voir [Ressources Lifecycle Services](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Pour plus d’informations, voir [Ressources Lifecycle Services](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
 
 ### <a name="prerequisites"></a>Conditions préalables
 
 Avant de pouvoir installer le complément Visibilité du stock, vous devez procéder comme suit :
 
-- Obtenez un projet d'implémentation LCS avec au moins un environnement déployé.
-- Générez les clés bêta de votre offre dans LCS.
-- Activez les clés bêta de votre offre pour votre utilisateur dans LCS.
-- Contactez l'équipe produit de la visibilité du stock Microsoft et fournissez un ID d'environnement dans lequel vous souhaitez déployer le complément de visibilité de stock.
+- Obtenez un projet d’implémentation LCS avec au moins un environnement déployé.
+- Assurez-vous que les conditions préalables à la configuration des compléments fournies dans la [Présentation des compléments](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) ont été remplies. La visibilité de l’inventaire ne nécessite pas de liaison en double écriture.
+- Contactez l’équipe de visibilité de l’inventaire à [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) pour obtenir les trois fichiers requis suivants :
 
-Si vous avez des questions sur ces conditions préalables, contactez l'équipe produit de visibilité du stock.
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (si la version de Supply Chain Management que vous exécutez est antérieure à la version 10.0.18)
+
+> [!NOTE]
+> Les régions actuellement pris en charge comprennent le Canada, les États-Unis et l’Union européenne (UE).
+
+Si vous avez des questions sur ces conditions préalables, contactez l’équipe produit de visibilité du stock.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Paramétrer Dataverse
+
+Pour configurer Dataverse, procédez comme suit.
+
+1. Ajoutez un principe de service à votre locataire :
+
+    1. Installer Azure AD PowerShell Module v2 comme décrit dans [Installer Azure Active Directory PowerShell pour Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Exécutez la commande suivante PowerShell.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Créer un utilisateur d’application pour la visibilité de l’inventaire dans Dataverse :
+
+    1. Ouvrez l’URL de votre environnement Dataverse.
+    1. Aller à **Paramètre avancé \> Système \> Sécurité \> Utilisateurs** et créez un utilisateur d’application. Utilisez le menu de la vue pour changez la vue de la page sur **Utilisateurs de l’application**.
+    1. Sélectionnez **Nouveau**. Définissez l’ID application sur *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (L’ID d’objet sera automatiquement chargé lorsque vous enregistrez vos modifications.) Vous pouvez personnaliser le nom. Par exemple, vous pouvez le changer en *Visibilité de l’inventaire*. Lorsque vous avez terminé, sélectionnez **Enregistrer**.
+    1. Sélectionner **Attribuer un rôle**, puis **Administrateur système**. S’il y a un rôle nommé **Utilisateur Common Data Service**, sélectionnez-le aussi.
+
+    Pour plus d’informations, voir [Créer un utilisateur d’application](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Importez le fichier `Inventory Visibility Dataverse Solution.zip`, qui comprend entités liées à la configuration Dataverse et Power Apps :
+
+    1. Allez sur la page **Solutions**.
+    1. Sélectionnez **Importer**.
+
+1. Importez le flux de déclenchement de la mise à niveau de la configuration :
+
+    1. Allez sur la page Microsoft Flow.
+    1. Assurez-vous que la connexion nommée *Dataverse (héritée)* existe. (S’il n’existe pas, créez-le.)
+    1. Importer le fichier `Inventory Visibility Configuration Trigger.zip`. Une fois importé, le déclencheur apparaîtra sous **Mes flux**.
+    1. Initialisez les quatre variables suivantes, en fonction des informations d’environnement :
+
+        - ID de locataire Azure
+        - ID client application Azure
+        - Clé secrète client application Azure
+        - Point de terminaison de la visibilité du stock
+
+            Pour plus d’informations sur cette variable, consultez la section [Configurer l’intégration de la visibilité de l’inventaire](#setup-inventory-visibility-integration) plus loin dans cette rubrique.
+
+        ![déclencheur de configuration](media/configuration-trigger.png "déclencheur de configuration")
+
+    1. Sélectionnez **Activer**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Installer le complément
 
 Pour pouvoir installer le complément Visibilité du stock, procédez comme suit :
 
 1. Connectez-vous au portail [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index).
-1. Sur la page d'accueil, sélectionnez le projet dans lequel votre environnement est déployé.
-1. Sur la page du projet, sélectionnez l'environnement dans lequel vous souhaitez installer le complément.
-1. Sur la page d'environnement, faites défiler vers le bas jusqu'à ce que vous voyiez la section **Compléments d'environnement**. Si la section n'est pas visible, assurez-vous que les clés bêta prérequises ont été entièrement traitées.
-1. Dans la section **Compléments de l'environnement**, sélectionnez **Installer un nouveau complément**.
-    ![Page de l'environnement dans LCS](media/inventory-visibility-environment.png "Page de l'environnement dans LCS")
-1. Sélectionnez le lien **Installer un nouveau complément**. Une liste des compléments disponibles s'ouvre.
-1. Sélectionnez **Service d'inventaire** dans la liste. (Notez que cela peut maintenant être répertorié comme **Complément de visibilité de stock pour Dynamics 365 Supply Chain Management**.)
+1. Sur la page d’accueil, sélectionnez le projet dans lequel votre environnement est déployé.
+1. Sur la page du projet, sélectionnez l’environnement dans lequel vous souhaitez installer le complément.
+1. Sur la page d’environnement, faites défiler vers le bas jusqu’à ce que vous voyiez la section **Compléments d’environnement** dans la section **Intégration Power Platform**, où vous pouvez trouver le nom de l’environnement Dataverse.
+1. Dans la section **Compléments de l’environnement**, sélectionnez **Installer un nouveau complément**.
+
+    ![Page de l’environnement dans LCS](media/inventory-visibility-environment.png "Page de l’environnement dans LCS")
+
+1. Sélectionnez le lien **Installer un nouveau complément**. Une liste des compléments disponibles s’ouvre.
+1. Dans la liste, sélectionnez **visibilité de stock**.
 1. Saisissez des valeurs pour les champs suivants pour votre environnement :
 
-    - **ID application AAD**
+    - **ID application AAD (client)**
     - **ID locataire AAD**
 
     ![Ajouter dans la page de configuration](media/inventory-visibility-setup.png "Page de configuration de complément")
 
 1. Acceptez les termes et conditions en cochant la case **Termes et conditions**.
-1. Sélectionnez **Installer**. Le statut du complément s'affichera comme **Installation en cours**. Une fois terminé, actualisez la page pour voir le statut changer en **Installé**.
+1. Sélectionnez **Installer**. Le statut du complément s’affichera comme **Installation en cours**. Une fois terminé, actualisez la page pour voir le statut changer en **Installé**.
 
-### <a name="get-a-security-service-token"></a>Obtenir un jeton de service de sécurité
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Désinstaller le complément
+
+Pour désinstaller le complément, sélectionnez **Désinstaller**. Lorsque vous actualisez LCS et le complément de visibilité de stock seront supprimés. Le processus de désinstallation supprime l’inscription du complément et lance également une tâche pour nettoyer toutes les données d’entreprise stockées dans le service.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Consommez les données d’inventaire disponibles à partir de Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Déployer le package d’intégration de la visibilité d’inventaire
+
+Si vous exécutez la version 10.0.17 ou antérieure de Supply Chain Management, contactez l’équipe d’assistance intégrée de la visibilité d’inventaire à l’adresse [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) pour obtenir le fichier de package. Déployez ensuite le package dans LCS.
+
+> [!NOTE]
+> Si une erreur de non-concordance de version se produit pendant le déploiement, vous devez importer manuellement le projet X++ dans votre environnement de développement. Créez ensuite le package déployable dans votre environnement de développement et déployez-le dans votre environnement de production.
+> 
+> Le code est inclus dans la version 10.0.18 de Supply Chain Management. Si vous exécutez cette version ou une version ultérieure, le déploiement n’est pas requis.
+
+Assurez-vous que les fonctionnalités suivantes sont activées dans votre environnement Supply Chain Management. (Par défaut, ils sont identiques.)
+
+| Description de fonctionnalité | Version du code | Basculer la classe |
+|---|---|---|
+| Activer ou désactiver l’utilisation des dimensions d’inventaire sur le tableau InventSum | 10.0.11 | InventUseDimOfInventSumToggle |
+| Activer ou désactiver l’utilisation des dimensions d’inventaire sur le tableau InventSumDelta | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurer l’intégration de la visibilité du stock
+
+1. Dans Supply Chain Management, ouvrez l’espace de travail **[Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** et activez la fonctionnalité **Intégration de la visibilité de l’inventaire**.
+1. Aller à **Gestion de l’inventaire \> Installation \> Paramètres d’intégration de la visibilité de l’inventaire** et entrez l’URL de l’environnement dans lequel vous exécutez la visibilité de l’inventaire.
+
+    Recherchez la région Azure de votre environnement LCS, puis entrez l’URL. L’URL a le format suivant :
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Par exemple, si vous êtes en Europe, votre environnement aura l’une des URL suivantes :
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Les régions suivantes sont disponibles actuellement.
+
+    | Région Azure | Nom abrégé de la région |
+    |---|---|
+    | Est de l’Australie | eau |
+    | Sud-est de l’Australie | seau |
+    | Centre du Canada | cca |
+    | Canada Est | eca |
+    | Nord de l’Europe | neu |
+    | Ouest de l’Europe | weu |
+    | Est des États-Unis | eus |
+    | Ouest des États-Unis | wus |
+
+1. Aller à **Gestion de l’inventaire \> Périodique \> Intégration de la visibilité de l’inventaire** et activez le travail. Tous les événements de changement d’inventaire de Supply Chain Management seront désormais publiés dans la visibilité des stocks.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>L’API publique du complément de visibilité de stock
+
+L’API REST publique du complément de visibilité de stock présente plusieurs points de terminaison d’intégration spécifiques. Elle prend en charge trois types d’interactions principaux :
+
+- Publication des modifications de stock disponibles du complément à partir d’un système externe
+- Interrogation des quantités en stock actuelles à partir d’un système externe
+- Synchronisation automatique avec le stock Supply Chain Management à portée de main
+
+La synchronisation automatique ne fait pas partie de l’API publique. Au lieu de cela, il est géré en arrière-plan pour les environnements dans lesquels le complément de visibilité d’inventaire est activé.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Authentification
+
+Le jeton de sécurité de la plateforme est utilisé pour appeler le complément de visibilité d’inventaire. Par conséquent, vous devez générer un jeton *Azure Active Directory (Azure AD)* en utilisant votre application Azure AD. Vous devez ensuite utiliser le jeton Azure AD pour obtenir le *jeton d’accès* du service de sécurité.
 
 Obtenez un jeton de service de sécurité en procédant comme suit :
 
@@ -92,7 +210,7 @@ Obtenez un jeton de service de sécurité en procédant comme suit :
         | client_secret | ${aadAppSecret} |
         | grant_type | client_credentials |
         | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
-1. Vous devriez recevoir un `aadToken` en réponse, qui ressemble à l'exemple suivant.
+1. Vous devriez recevoir un `aadToken` en réponse, qui ressemble à l’exemple suivant.
 
     ```json
     {
@@ -120,17 +238,17 @@ Obtenez un jeton de service de sécurité en procédant comme suit :
     ```
 
     Où :
-    - La valeur `client_assertion` doit être le `aadToken` que vous avez reçu à l'étape précédente.
-    - La valeur `context` doit être l'ID d'environnement dans lequel vous souhaitez déployer le complément.
-    - Définissez toutes les autres valeurs comme indiqué dans l'exemple.
+    - La valeur `client_assertion` doit être le `aadToken` que vous avez reçu à l’étape précédente.
+    - La valeur `context` doit être l’ID d’environnement dans lequel vous souhaitez déployer le complément.
+    - Définissez toutes les autres valeurs comme indiqué dans l’exemple.
 
 1. Envoyez une requête HTTP avec les propriétés suivantes :
     - **URL** - `https://securityservice.operations365.dynamics.com/token`
     - **Méthode** - `POST`
-    - **En-tête HTTP** : incluez la version de l'API (la clé est `Api-Version` et la valeur est `1.0`)
-    - **Contenu du corps** : incluez la requête JSON que vous avez créée à l'étape précédente.
+    - **En-tête HTTP** : incluez la version de l’API (la clé est `Api-Version` et la valeur est `1.0`)
+    - **Contenu du corps** : incluez la requête JSON que vous avez créée à l’étape précédente.
 
-1. Vous obtiendrez un `access_token` en réponse. C'est ce dont vous avez besoin en tant que jeton de support pour appeler l'API de visibilité de stock. Voici un exemple :
+1. Vous obtiendrez un `access_token` en réponse. C’est ce dont vous avez besoin en tant que jeton de support pour appeler l’API de visibilité de stock. Voici un exemple :
 
     ```json
     {
@@ -140,29 +258,9 @@ Obtenez un jeton de service de sécurité en procédant comme suit :
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Désinstaller le complément
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Configurer l’API de visibilité de stock
 
-Pour désinstaller le complément, sélectionnez **Désinstaller**. Actualiser LCS et le complément de visibilité de stock seront supprimés. Le processus de désinstallation supprimera l'inscription du complément et lancera également une tâche pour nettoyer toutes les données d'entreprise stockées dans le service.
-
-## <a name="inventory-visibility-add-in-public-api"></a>API publique du complément de visibilité de stock
-
-L'API REST publique du complément de visibilité de stock présente plusieurs points de terminaison d'intégration spécifiques. Elle prend en charge trois types d'interactions principaux :
-
-- Publication des modifications disponibles du complément à partir d'un système externe.
-- Interrogation des quantités en stock actuelles à partir d'un système externe.
-- Synchronisation automatique avec Supply Chain Management à portée de main.
-
-La synchronisation automatique ne fait pas partie de l'API publique, mais est plutôt gérée en arrière-plan pour les environnements qui ont activé le complément de visibilité d'inventaire.
-
-### <a name="authentication"></a>Authentification
-
-Le jeton de sécurité de la plateforme est utilisé pour appeler le complément de visibilité d'inventaire, vous devez donc générer un jeton Azure Active Directory en utilisant votre application Azure Active Directory.
-
-Pour plus d'informations sur la façon d'obtenir le jeton de sécurité, consultez [Installer le complément de visibilité de stock](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Configurer l'API de visibilité de stock
-
-Avant d'utiliser le service, vous devez effectuer les configurations décrites dans les sous-sections suivantes. La configuration peut varier en fonction des détails de votre environnement. Il comprend principalement quatre parties :
+Avant d’utiliser le service, vous devez effectuer les configurations décrites dans les sous-sections suivantes. La configuration peut varier en fonction des détails de votre environnement. Il comprend principalement quatre parties :
 
 - [Partitionnement](#partitioning)
 - [Configurations des dimensions](#dimension-configurations)
@@ -171,18 +269,18 @@ Avant d'utiliser le service, vous devez effectuer les configurations décrites d
 
 #### <a name="partitioning"></a>Partitionnement
 
-Le partitionnement peut influencer considérablement les performances de l'API de visibilité d'inventaire. C'est une bonne idée de définir un schéma qui permet de petits regroupements de données tout en permettant des requêtes de données significatives.
+Le partitionnement peut influencer considérablement les performances de l’API de visibilité d’inventaire. C’est une bonne idée de définir un schéma qui permet de petits regroupements de données tout en permettant des requêtes de données significatives.
 
-L'`organizationId` (`dataAreaId` dans Supply Chain Management) fera toujours partie du partitionnement et, par défaut, la visibilité du stock est définie pour partitionner par dimensions comme *Site + Localisation*. Cela signifie que le service doit toujours être interrogé avec ces dimensions définies sur les filtres.
+L’`organizationId` (`dataAreaId` dans Supply Chain Management) fera toujours partie du partitionnement et, par défaut, la visibilité du stock est définie pour partitionner par dimensions comme *Site + Localisation*. Cela signifie que le service doit toujours être interrogé avec ces dimensions définies sur les filtres.
 
 > [!NOTE]
 > *Site* et *Emplacement* sont deux dimensions générales par défaut dans la visibilité du stock. Dans Supply Chain Management, ces dimensions sont appelées *Site* (`InventSiteId`) et *Entrepôt* (`InventLocationId`)
 
 ### <a name="dimension-configurations"></a>Configurations des dimensions
 
-La visibilité du stock fournira une liste de dimensions générales par défaut pour permettre l'intégration du système source multiple.
+La visibilité du stock fournira une liste de dimensions générales par défaut pour permettre l’intégration du système source multiple.
 
-Le tableau suivant répertorie les dimensions d'inventaire qui seront les noms de dimension par défaut dans la visibilité du stock.
+Le tableau suivant répertorie les dimensions d’inventaire qui seront les noms de dimension par défaut dans la visibilité du stock.
 
 | Type de dimension | Nom de dimension |
 |---|---|
@@ -195,23 +293,23 @@ Le tableau suivant répertorie les dimensions d'inventaire qui seront les noms d
 | Entrepôt | `LocationId` |
 | Entrepôt | `SiteId` |
 | Statut du stock | `StatusId` |
-| Spécifique à l'entrepôt | `WMSLocationId` |
-| Spécifique à l'entrepôt | `WMSPalletId` |
-| Spécifique à l'entrepôt | `LicensePlateId` |
+| Spécifique à l’entrepôt | `WMSLocationId` |
+| Spécifique à l’entrepôt | `WMSPalletId` |
+| Spécifique à l’entrepôt | `LicensePlateId` |
 
 > [!NOTE]
-> Le type de dimension répertorié dans le tableau précédent est à titre indicatif uniquement. Vous n'avez pas besoin de définir le type de dimension dans la visibilité du stock.
+> Le type de dimension répertorié dans le tableau précédent est à titre indicatif uniquement. Vous n’avez pas besoin de définir le type de dimension dans la visibilité du stock.
 
-Si une dimension personnalisée existe et doit passer à une valeur par défaut lorsqu'elle est utilisée par la visibilité du stock, vous pouvez configurer le nom **Dimension personnalisée** dans la visibilité du stock.
+Si une dimension personnalisée existe et doit passer à une valeur par défaut lorsqu’elle est utilisée par la visibilité du stock, vous pouvez configurer le nom **Dimension personnalisée** dans la visibilité du stock.
 
-Les systèmes externes accèdent à la visibilité du stock via des API RESTful qui permettent d'interroger des informations disponibles sur des ensembles de dimensions donnés. Pour l'intégration, la visibilité du stock vous permet de configurer la *source de données de canal externe* et la dimension source des *dimensions cibles* dans la visibilité du stock.
+Les systèmes externes accèdent à la visibilité du stock via des API RESTful qui permettent d’interroger des informations disponibles sur des ensembles de dimensions donnés. Pour l’intégration, la visibilité du stock vous permet de configurer la *source de données de canal externe* et la dimension source des *dimensions cibles* dans la visibilité du stock.
 
-Les dimensions cibles doivent être l'une des suivantes :
+Les dimensions cibles doivent être l’une des suivantes :
 
 - Dimensions par défaut dans la visibilité du stock
 - Dimensions personnalisées
 
-Le but de la configuration des dimensions est de standardiser l'intégration multi-système pour la requête sur les dimensions et l'événement de publication avec les dimensions.
+Le but de la configuration des dimensions est de standardiser l’intégration multi-système pour la requête sur les dimensions et l’événement de publication avec les dimensions.
 
 #### <a name="indexing"></a>Indexation
 
@@ -220,7 +318,7 @@ La plupart du temps, la requête de stock disponible sera non seulement au nivea
 La visibilité du stock offre une certaine flexibilité en vous permettant de configurer les index, qui sont basés sur la dimension ou la combinaison des dimensions.
 
 > [!NOTE]
-> Actuellement, vous ne pouvez configurer les index que jusqu'à un maximum de cinq. Vous devez examiner attentivement la dimension ou la combinaison de dimensions que vous utiliserez avant la mise en œuvre pour vous assurer qu'elle répondra aux besoins de votre entreprise. Par exemple, si vous souhaitez interroger les produits comme suit :
+> Actuellement, vous ne pouvez configurer les index que jusqu’à un maximum de cinq. Vous devez examiner attentivement la dimension ou la combinaison de dimensions que vous utiliserez avant la mise en œuvre pour vous assurer qu’elle répondra aux besoins de votre entreprise. Par exemple, si vous souhaitez interroger les produits comme suit :
 
 - Recherchez le produit agrégé disponible par les dimensions *Couleur* et *Taille*.
 - Dans certains cas, vous souhaitez simplement interroger le produit au total.
@@ -230,9 +328,9 @@ Vous auriez deux index définis comme suit :
 - `["ColorId", "SizeId"]`
 - `[]`
 
-Le crochet vide sera agrégé en fonction de l'ID de produit dans la partition.
+Le crochet vide sera agrégé en fonction de l’ID de produit dans la partition.
 
-L'indexation définit comment vous pouvez regrouper vos résultats en fonction du paramètre de requête `groupBy`. Dans ce cas, si vous ne définissez aucune valeur `groupBy`, vous obtiendrez les totaux par `productid`. Sinon si vous définissez `groupBy` comme `groupBy=ColorId&groupBy=SizeId`, vous obtiendrez plusieurs lignes renvoyées, en fonction des différentes combinaisons de couleurs et de tailles du système.
+L’indexation définit comment vous pouvez regrouper vos résultats en fonction du paramètre de requête `groupBy`. Dans ce cas, si vous ne définissez aucune valeur `groupBy`, vous obtiendrez les totaux par `productid`. Sinon, si vous définissez `groupBy` comme `groupBy=ColorId&groupBy=SizeId`, vous obtiendrez plusieurs lignes renvoyées, en fonction des différentes combinaisons de couleurs et de tailles du système.
 
 Vous pouvez mettre vos critères de requête dans le corps de la requête.
 
@@ -257,7 +355,7 @@ Voici un exemple de requête sur le produit avec une combinaison de couleur et d
 
 #### <a name="custom-measurement"></a>Mesure personnalisée
 
-Les quantités de mesure par défaut sont liées à Supply Chain Management, mais vous souhaiterez peut-être avoir une quantité composée d'une combinaison des mesures par défaut. Pour ce faire, vous pouvez avoir une configuration de quantités personnalisées, qui seront ajoutées à la sortie des requêtes en main.
+Les quantités de mesure par défaut sont liées à Supply Chain Management. Cependant, vous souhaiterez peut-être avoir une quantité composée d’une combinaison des mesures par défaut. Pour ce faire, vous pouvez avoir une configuration de quantités personnalisées, qui seront ajoutées à la sortie des requêtes en main.
 
 La fonctionnalité vous permet simplement de définir un ensemble de mesures qui seront ajoutées, et/ou un ensemble de mesures qui seront soustraites, afin de la mesure personnalisée.
 
@@ -344,13 +442,13 @@ La sortie `MyCustomAvailableforReservation` est basée sur le paramètre de calc
 
 ### <a name="posting-on-hand-changes"></a>Publication des modifications en stock
 
-L'URL exacte sur laquelle l'événement sera publié dépendra de votre région géographique. Il prendra la forme :
+L’URL exacte sur laquelle l’événement sera publié dépendra de votre région géographique. Il prendra la forme :
 
 `https://{serviceURL}/api/environment/{environmentId}/onhand`
 
 Une fois authentifiée, cette URL peut être utilisée avec la méthode HTTP `POST` pour envoyer des événements de modification en main au service.
 
-Un en-tête spécial est utilisé pour communiquer avec les services Dynamics 365 via des requêtes HTTP, indiquant l'ID d'environnement de l'instance Supply Chain Management à laquelle les données sont liées. Par exemple :
+Un en-tête spécial est utilisé pour communiquer avec les services Dynamics 365 via des requêtes HTTP, indiquant l’ID d’environnement de l’instance Supply Chain Management à laquelle les données sont liées. Par exemple :
 
 `x-ms-environment-id: 2db79622-f97a-4d64-9844-d12efed41796`
 
@@ -393,7 +491,7 @@ Vous pouvez maintenant spécifier la `dimensionDataSource` et utilisez des dimen
 
 #### <a name="posting-on-hand-changes-query-example-2"></a>Exemple de requête de publication de modifications en main 2
 
-Cet exemple montre un scénario dans lequel aucun mappage n'est configuré pour la configuration de dimension dans Power Apps, donc la publication doit également utiliser les dimensions de base. Toutes les dimensions doivent être des dimensions de base lorsque le champ `dimensionDataSource` est nul, vide ou espace.
+Cet exemple montre un scénario dans lequel aucun mappage n’est configuré pour la configuration de dimension dans Power Apps, donc la publication doit également utiliser les dimensions de base. Toutes les dimensions doivent être des dimensions de base lorsque le champ `dimensionDataSource` est nul, vide ou espace.
 
 ```json
 {
@@ -420,12 +518,12 @@ Les champs des exemples de requête JSON fournis précédemment ont les proprié
 
 | ID champ | Description |
 |---|---|
-| `id` | Un ID unique pour l'événement de modification spécifique. Cet ID est utilisé pour garantir qu'en cas d'échec de la communication avec le service pendant la comptabilisation, la soumission à nouveau de l'événement n'entraînerait pas le comptage du même événement deux fois dans le système. |
-| `organizationId` | L'identificateur de l'organisation liée à l'événement. Cela correspond aux organisations de gestion de Supply Chain Management ou aux ID de zone de données. |
+| `id` | Un ID unique pour l’événement de modification spécifique. Cet ID est utilisé pour garantir qu’en cas d’échec de la communication avec le service pendant la comptabilisation, la soumission à nouveau de l’événement n’entraînerait pas le comptage du même événement deux fois dans le système. |
+| `organizationId` | L’identificateur de l’organisation liée à l’événement. Cela correspond aux organisations de gestion de Supply Chain Management ou aux ID de zone de données. |
 | `productId` | Identificateur du produit en question. |
-| `quantity` | La quantité dont le stock doit être changé. Si, par exemple, 10 nouveaux bagels étaient ajoutés à une étagère, cette valeur serait de 10. Si 3 bagels étaient ensuite retirés de l'étagère ou vendus, cette valeur serait de -3. |
-| `dimensionDataSource` | Source de données des dimensions utilisées dans l'événement et la requête de modification de publication. Si vous spécifiez la source de données, vous pouvez utiliser les dimensions personnalisées de la source de données spécifiée. Avec la configuration des dimensions, la visibilité du stock peut mapper les dimensions personnalisées aux dimensions générales par défaut. Si la `dimensionDataSource` n'est pas spécifié, vous ne pouvez utiliser que les dimensions générales par défaut dans vos requêtes.   |
-| `dimensions` | Un sac dynamique de paires clé/valeur. Celles-ci correspondront à certaines des dimensions de Supply Chain Management, mais vous pouvez également ajouter des dimensions personnalisées (comme *Source*) qui peut indiquer si l'événement provenait de Supply Chain Management ou d'un système externe. |
+| `quantity` | La quantité dont le stock doit être changé. Si, par exemple, 10 nouveaux bagels étaient ajoutés à une étagère, cette valeur serait de 10. Si 3 bagels étaient ensuite retirés de l’étagère ou vendus, cette valeur serait de -3. |
+| `dimensionDataSource` | Source de données des dimensions utilisées dans l’événement et la requête de modification de publication. Si vous spécifiez la source de données, vous pouvez utiliser les dimensions personnalisées de la source de données spécifiée. Avec la configuration des dimensions, la visibilité du stock peut mapper les dimensions personnalisées aux dimensions générales par défaut. Si la `dimensionDataSource` n’est pas spécifié, vous ne pouvez utiliser que les dimensions générales par défaut dans vos requêtes.   |
+| `dimensions` | Un sac dynamique de paires clé/valeur. Celles-ci correspondront à certaines des dimensions de Supply Chain Management, mais vous pouvez également ajouter des dimensions personnalisées (comme *Source*) qui peut indiquer si l’événement provenait de Supply Chain Management ou d’un système externe. |
 
 ### <a name="querying-current-on-hand"></a>Interrogation actuellement disponible
 
@@ -437,7 +535,7 @@ Il sera interrogé avec la méthode HTTP `POST`.
 
 #### <a name="current-on-hand-query-example-1"></a>Exemple de requête en main actuel 1
 
-Cet exemple montre un scénario dans lequel vous disposez déjà d'une configuration de dimension terminée dans Power Apps.
+Cet exemple montre un scénario dans lequel vous disposez déjà d’une configuration de dimension terminée dans Power Apps.
 
 Utilisez la requête suivante pour configurer le mappage de dimension dans Power Apps :
 
@@ -472,7 +570,7 @@ Vous pouvez maintenant spécifier la `dimensionDataSource` et utilisez des dimen
 
 #### <a name="current-on-hand-query-example-2"></a>Exemple de requête en main actuel 2
 
-Cet exemple montre un scénario dans lequel aucun mappage n'est configuré pour la configuration de dimension dans Power Apps, donc la publication doit également utiliser les dimensions de base. Toutes les dimensions doivent être des dimensions de base lorsque le champ `dimensionDataSource`, sous `filters`, est nul, vide ou espace.
+Cet exemple montre un scénario dans lequel aucun mappage n’est configuré pour la configuration de dimension dans Power Apps, donc la publication doit également utiliser les dimensions de base. Toutes les dimensions doivent être des dimensions de base lorsque le champ `dimensionDataSource`, sous `filters`, est nul, vide ou espace.
 
 ```json
 {

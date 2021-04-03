@@ -3,10 +3,9 @@ title: Planification de votre hiérarchie d’organisation
 description: Avant de paramétrer des organisations et des hiérarchies d’organisation, assurez-vous de bien comprendre comment modéliser votre entreprise.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154407"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569359"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planification de votre hiérarchie d’organisation
 
@@ -166,7 +165,7 @@ Les entités juridiques utilisent le contexte de pays de l’entité juridique p
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si l’organisation est modélisée comme entité juridique
 
-Pour les pays/régions pris en charge, la plupart des états statutaires peuvent être créés. Pour plus d’informations sur les états disponibles pour chaque pays/région, voir [Portail de localisation Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/). (Un identifiant de connexion CustomerSource est requis.)
+Pour les pays/régions pris en charge, la plupart des états statutaires peuvent être créés. 
 
 > [!NOTE]
 > Une couche de validation dans la comptabilité vous permet d’effectuer des entrées d’ajustement pour une société mère qui utilise un standard de comptabilité différent de celui de la société enfant. Par exemple, pour une société qui utilise la pratique comptable actuelle du Royaume-Uni (GAAP BRITANNIQUE), vous pouvez effectuer les entrées d’ajustement dans la couche de validation. Ces entrées peuvent être consolidées dans une société mère qui utilise les principes comptables généraux des États-Unis (GAAP). Les entrées d’ajustement n’affectent pas la génération d’états GAAP BRITANNIQUE.

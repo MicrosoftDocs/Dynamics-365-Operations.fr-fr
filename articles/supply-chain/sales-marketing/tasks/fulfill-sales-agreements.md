@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fca2f8777f5ce3b6a96be7fcab4f011aefd9d80b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 31c86ae556789ecf04dc303ddd9510458c1f6d01
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991762"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260381"
 ---
 # <a name="fulfill-sales-agreements"></a>Fournir des contrats de vente
 
@@ -33,32 +33,32 @@ Cette procédure montre comment honorer un contrat de vente en y associant des c
 
 ## <a name="release-a-sales-order-from-the-agreement"></a>Lancer une commande client à partir du contrat
 1. Accédez à Ventes et marketing > Contrats de vente > Contrats de vente.
-2. Dans la liste, ouvrez l'accord avec lequel vous souhaitez lancer la commande.
+2. Dans la liste, ouvrez l’accord avec lequel vous souhaitez lancer la commande.
 3. Dans le volet Actions, cliquez sur Contrats de vente.
 4. Cliquez sur Lancer la commande.
-    * Comme l'indique le texte en haut de la page Créer un ordre de lancement, les détails requis pour les lignes de commande client seront différents selon que l'accord est fondé sur la quantité ou sur la valeur.  
-    * Dans ce guide, l'accord est du type « Engagement à la valeur du produit ». C'est pourquoi la section Lignes de cette page est vide. Si l'engagement était fondé sur la quantité, les informations de ligne seraient copiées à partir de l'accord.  
+    * Comme l’indique le texte en haut de la page Créer un ordre de lancement, les détails requis pour les lignes de commande client seront différents selon que l’accord est fondé sur la quantité ou sur la valeur.  
+    * Dans ce guide, l’accord est du type « Engagement à la valeur du produit ». C’est pourquoi la section Lignes de cette page est vide. Si l’engagement était fondé sur la quantité, les informations de ligne seraient copiées à partir de l’accord.  
 5. Cliquez sur Créer.
-    * Le message vous indique qu'une commande fournisseur a été créée. Étant donné que la commande ne contient aucune ligne, vous devez ajouter des détails de ligne de commande pour compléter le processus de lancement.   
+    * Le message vous indique qu’une commande fournisseur a été créée. Étant donné que la commande ne contient aucune ligne, vous devez ajouter des détails de ligne de commande pour compléter le processus de lancement.   
 6. Fermez la page.
 7. Fermez la page.
 8. Allez dans Ventes et marketing > Commandes client > Toutes les commandes client.
 9. Dans la liste, cherchez et ouvrez la commande qui a été créée suite au lancement de commande de la tâche précédente.
 10. Cliquez sur Ajouter une ligne.
-11. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-12. Dans le champ Numéro d'article, tapez ou sélectionnez l'article spécifié dans le contrat de vente associé.
+11. Dans le champ Numéro d’article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+12. Dans le champ Numéro d’article, tapez ou sélectionnez l’article spécifié dans le contrat de vente associé.
 13. Dans le champ Quantité, entrer un numéro.
-    * Assurez-vous d'entrer une quantité qui porte le montant HT sous la valeur du contrat de vente associé.  
-    * Notez que, comme la commande client est liée à l'accord, le pourcentage de remise négocié est appliqué à la ligne de commande.  
+    * Assurez-vous d’entrer une quantité qui porte le montant HT sous la valeur du contrat de vente associé.  
+    * Notez que, comme la commande client est liée à l’accord, le pourcentage de remise négocié est appliqué à la ligne de commande.  
 14. Cliquez sur Mettre à jour la ligne.
 15. Cliquez sur Joint.
-    * La page Accord joint affiche l'ID et les conditions de l'accord à partir duquel la ligne est lancée.  
+    * La page Accord joint affiche l’ID et les conditions de l’accord à partir duquel la ligne est lancée.  
 16. Fermez la page.
 17. Cliquez sur Général dans le volet Actions.
 18. Cliquez sur Contrat de vente joint.
 19. Développez la section Détails de ligne.
-20. Cliquez sur l'onglet Exécution.
-    * L'onglet Exécution indique un récapitulatif de toutes les lignes de commande client associées à cet engagement et leur état d'exécution, ainsi que le montant ou la quantité qui n'ont pas encore été lancés.   
+20. Cliquez sur l’onglet Exécution.
+    * L’onglet Exécution indique un récapitulatif de toutes les lignes de commande client associées à cet engagement et leur état d’exécution, ainsi que le montant ou la quantité qui n’ont pas encore été lancés.   
 21. Fermez la page.
 22. Fermez la page.
 23. Fermez la page.
@@ -75,8 +75,8 @@ Cette procédure montre comment honorer un contrat de vente en y associant des c
 9. Cliquez sur Oui.
 10. Cliquez sur OK.
 11. Dans la liste, marquez la ligne sélectionnée.
-12. Dans le champ Numéro d'article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
-13. Dans le champ Numéro d'article, tapez ou sélectionnez l'article spécifié dans le contrat de vente associé.
+12. Dans le champ Numéro d’article, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
+13. Dans le champ Numéro d’article, tapez ou sélectionnez l’article spécifié dans le contrat de vente associé.
 14. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 15. Cliquez sur Enregistrer.
 16. Cliquez sur Prélever et emballer dans le volet Actions.
@@ -87,7 +87,7 @@ Cette procédure montre comment honorer un contrat de vente en y associant des c
 21. Cliquez sur OK.
 22. Cliquez sur Général dans le volet Actions.
 23. Cliquez sur Contrat de vente joint.
-24. Cliquez sur l'onglet Exécution.
+24. Cliquez sur l’onglet Exécution.
 
 
 
