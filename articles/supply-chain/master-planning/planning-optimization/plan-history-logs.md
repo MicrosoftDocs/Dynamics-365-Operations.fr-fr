@@ -1,6 +1,6 @@
 ---
-title: Afficher l'historique du plan et les journaux de planification
-description: Cette rubrique explique comment afficher l'historique des tâches de planification déclenchées par la fonctionnalité d'Optimisation de la planification.
+title: Afficher l’historique du plan et les journaux de planification
+description: Cette rubrique explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification.
 author: ChristianRytt
 manager: tfehr
 ms.date: 10/30/2019
@@ -18,30 +18,30 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d2616c613e5f6b99c19afad33860aaf0e84d16fe
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7cf79b5754f507e90aeb501508d76c7afcf656a6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4999904"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5239372"
 ---
-# <a name="view-plan-history-and-planning-logs"></a>Afficher l'historique du plan et les journaux de planification
+# <a name="view-plan-history-and-planning-logs"></a>Afficher l’historique du plan et les journaux de planification
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment afficher l'historique des tâches de planification déclenchées par la fonctionnalité d'Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
+Cette rubrique explique comment afficher l’historique des tâches de planification déclenchées par la fonctionnalité d’Optimisation de la planification dans Microsoft Dynamics 365 Supply Chain Management.
 
-Pour afficher l'historique d'un plan, ouvrez le plan en accédant à **Planification** \> **Paramétrage** \> **Plans** \> **Plans généraux** et en sélectionnant **Historique**. L'historique répertorie toutes les tâches du plan sélectionné. La liste inclut les tâches terminées et actives.
+Pour afficher l’historique d’un plan, ouvrez le plan en accédant à **Planification** \> **Paramétrage** \> **Plans** \> **Plans généraux** et en sélectionnant **Historique**. L’historique répertorie toutes les tâches du plan sélectionné. La liste inclut les tâches terminées et actives.
 
-Outre le fait de voir l'heure de début et le statut des tâches, vous pouvez afficher le journal pour une tâche spécifique. Le journal inclut des informations supplémentaires et des avertissements. Toutes les tâches n'ont pas un journal. Pour afficher le journal pour une tâche, sélectionnez **Journal**.
+Outre le fait de voir l’heure de début et le statut des tâches, vous pouvez afficher le journal pour une tâche spécifique. Le journal inclut des informations supplémentaires et des avertissements. Toutes les tâches n’ont pas un journal. Pour afficher le journal pour une tâche, sélectionnez **Journal**.
 
 ## <a name="related-resources"></a>Ressources associées
 
-[Vue d'ensemble de l'optimisation de la planification](planning-optimization-overview.md)
+[Vue d’ensemble de l’optimisation de la planification](planning-optimization-overview.md)
 
-[Prise en main de l'Optimisation de la planification](get-started.md)
+[Prise en main de l’Optimisation de la planification](get-started.md)
 
-[Analyse de concordance d'optimisation de la planification](planning-optimization-fit-analysis.md)
+[Analyse de concordance d’optimisation de la planification](planning-optimization-fit-analysis.md)
 
 [Appliquer les filtres à un plan](plan-filters.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b6efbd4248932129e5d615b0511deb873fb52ea
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5956629332547022068e7e9420b87bb6c8276adf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243007"
 ---
 # <a name="change-the-service-order-stage"></a>Modifier le stade de la commande de service 
 
@@ -33,11 +33,11 @@ Procédez comme suit pour déplacer une commande de service au stade suivant dan
 
 1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**.
 
-2.  Sélectionnez la commande de service, puis cliquez sur l'onglet **Répartir**.
+2.  Sélectionnez la commande de service, puis cliquez sur l’onglet **Répartir**.
 
 3.  Dans le volet **Actions**, cliquez sur **Stade suivant** ou **Stade précédent**.
 
-4.  Dans l'écran **Modifier le stade du service**, sélectionnez le stade approprié.
+4.  Dans l’écran **Modifier le stade du service**, sélectionnez le stade approprié.
 
 
 

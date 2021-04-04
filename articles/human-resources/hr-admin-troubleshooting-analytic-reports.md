@@ -1,6 +1,6 @@
 ---
 title: Dépannage des états analytiques
-description: Cet article explique comment procéder si les modifications des données d'un client n'apparaissent pas dans les espaces de travail du client.
+description: Cet article explique comment procéder si les modifications des données d’un client n’apparaissent pas dans les espaces de travail du client.
 author: andreabichsel
 manager: tfehr
 ms.date: 02/03/2020
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5e1a1d7044567a07acedf71e65ed244275acfd9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: e0befe1a35aa46b2eabb4516559fe07ce27e9f18
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112524"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466662"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Dépannage des états analytiques
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 **Sortie**
 
-Les modifications des données d'un client n'apparaissent pas dans les onglets **Analyses** des espaces de travail du client.
+Les modifications des données d’un client n’apparaissent pas dans les onglets **Analyses** des espaces de travail du client.
 
 **Cause**
 
@@ -36,11 +38,11 @@ Par défaut, les états Microsoft Power BI sont actualisés toutes les quatre he
 
 **Résolution**
 
-Ce problème peut seulement être une question de temps. Procédez comme suit pour démarrer le traitement par lots et mettre à jour les espaces de travail d'analyses.
+Ce problème peut seulement être une question de temps. Procédez comme suit pour démarrer le traitement par lots et mettre à jour les espaces de travail d’analyses.
 
 1. Ouvrez la page **Traitements par lots** dans **Administration du système \> Liens \> Traitements par lots \> Traitements par lots**. Sinon, utilisez la recherche, et entrez **Traitements par lots**.
 1. Recherchez la tâche **Mesure du déploiement** dans la liste.
-1. Sélectionnez **Modifier** en haut de la page, puis définissez le date/heure de début prévue sur une valeur qui actualise les analyses au plus près de l'heure actuelle.
+1. Sélectionnez **Modifier** en haut de la page, puis définissez le date/heure de début prévue sur une valeur qui actualise les analyses au plus près de l’heure actuelle.
 
 ![Traitements par lots](media/batch-jobs.png)
 

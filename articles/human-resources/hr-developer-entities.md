@@ -1,6 +1,6 @@
 ---
 title: Tables Dataverse
-description: Microsoft Dynamics 365 Human Resources utilise Dataverse pour permettre des scénarios d'extensibilité et d'intégration.
+description: Microsoft Dynamics 365 Human Resources utilise Dataverse pour permettre des scénarios d’extensibilité et d’intégration.
 author: andreabichsel
 manager: tfehr
 ms.date: 01/25/2021
@@ -18,19 +18,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f075a8e96af55b1363d2d51db377c5b25c38775
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: caf8b0a5d0b24ef3619f45a6d236acae6d29c8ab
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112558"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465220"
 ---
 # <a name="dataverse-tables"></a>Tables Dataverse
 
-Microsoft Dynamics 365 Human Resources utilise Dataverse pour permettre des scénarios d'extensibilité et d'intégration.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Microsoft Dynamics 365 Human Resources utilise Dataverse pour permettre des scénarios d’extensibilité et d’intégration.
 
 > [!NOTE]
-> Les entités Human Resources correspondent aux tables Dataverse. Pour plus d'informations sur Dataverse (auparavant Common Data Service) et les mises à jour terminologiques, voir [Qu'est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Les entités Human Resources correspondent aux tables Dataverse. Pour plus d’informations sur Dataverse (auparavant Common Data Service) et les mises à jour terminologiques, voir [Qu’est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
 
 Les tables Dataverse suivantes sont disponibles dans les entités Human Resources.
 
@@ -42,18 +44,18 @@ Les tables Dataverse suivantes sont disponibles dans les entités Human Resource
 | Fréquence de calcul des avantages de la période de rémunération | cdm_benefitcalculationfrequencypayperiod |
 | Taux de calcul des avantages | cdm_benefitcalculationrate |
 | Détails du taux de calcul des avantages | cdm_benefitcalculationratedetail |
-| Option d'avantage | cdm_benefitoption |
-| Plan d'avantages | cdm_benefitplan (Non activé pour la prise en charge des champs personnalisés) |
-| Type d'avantage | cdm_benefittype |
+| Option d’avantage | cdm_benefitoption |
+| Plan d’avantages | cdm_benefitplan (Non activé pour la prise en charge des champs personnalisés) |
+| Type d’avantage | cdm_benefittype |
 
-## <a name="business-process-tasks-tables"></a>Tables des tâches de processus d'entreprise
+## <a name="business-process-tasks-tables"></a>Tables des tâches de processus d’entreprise
 
 | Nom | Enregistrement |
 | --- | --- |
-| Calendrier pour le processus d'entreprise | cdm_businessprocesscalendar |
-| Affectation du groupe de processus d'entreprise | cdm_businessprocessgroupassignment |
-| Groupe de tâches de la bibliothèque de processus d'entreprise | cdm_businessprocesslibrarytaskgroup |
-| Phase du processus d'entreprise | cdm_businessprocessstage |
+| Calendrier pour le processus d’entreprise | cdm_businessprocesscalendar |
+| Affectation du groupe de processus d’entreprise | cdm_businessprocessgroupassignment |
+| Groupe de tâches de la bibliothèque de processus d’entreprise | cdm_businessprocesslibrarytaskgroup |
+| Phase du processus d’entreprise | cdm_businessprocessstage |
 | En-tête de modèle de liste de contrôle | cdm_businessprocesstemplateheader |
 | Tâche du modèle de liste de contrôle | cdm_businessprocesstemplatetask |
 
@@ -73,10 +75,10 @@ Les tables Dataverse suivantes sont disponibles dans les entités Human Resource
 | Niveau du régime de rémunération variable | cdm_compensationvariableplanlevel |
 | Type du régime rémunération variable | cdm_compensationvariableplantype |
 | Événement de rémunération fixe | cdm_fixedcompensationevent |
-| Règle d'acquisition | cdm_vestingrule |
+| Règle d’acquisition | cdm_vestingrule |
 | Rémunération fixe du collaborateur | cdm_workerfixedcompensation |
 
-## <a name="organization-tables"></a>Tables d'organisation
+## <a name="organization-tables"></a>Tables d’organisation
 
 | Nom | Enregistrement |
 | --- | --- |
@@ -96,7 +98,7 @@ Les tables Dataverse suivantes sont disponibles dans les entités Human Resource
 > [!NOTE]
 > Les dimensions financières pour **Type de poste**, **Affectation du collaborateur au poste** et **Emploi** fournissent une intégration unidirectionnelle vers Dataverse. Les mises à jour des dimensions financières ne peuvent actuellement pas se synchroniser de Dataverse vers Human Resources. 
 
-## <a name="leave-and-absence-tables"></a>Tables de congés et d'absences
+## <a name="leave-and-absence-tables"></a>Tables de congés et d’absences
 
 | Nom | Enregistrement |
 | --- | --- |
@@ -125,8 +127,8 @@ Les tables Dataverse suivantes sont disponibles dans les entités Human Resource
 | Collaborateur | cdm_worker |
 | Adresse du collaborateur | cdm_workeraddress |
 | Détails personnels du collaborateur | cdm_workerpersonaldetail |
-| Numéro d'identification personnel du collaborateur | cdm_workerpersonidentificationnumber |
-| Type d'identification personnel du collaborateur | cdm_workerpersonidentificationtype |
+| Numéro d’identification personnel du collaborateur | cdm_workerpersonidentificationnumber |
+| Type d’identification personnel du collaborateur | cdm_workerpersonidentificationtype |
 | Calendrier de travail | cdm_workcalendar |
 | Jours de calendrier de travail | cdm_workcalendarday |
 | Congé du calendrier de travail |cdm_workcalendarholiday |
@@ -141,7 +143,7 @@ Les tables Dataverse suivantes sont disponibles dans les entités Human Resource
 | Statut de vétéran | cdm_veteranstatus |
 | Origine ethnique | cdm_ethnicorigin |
 | Code motif | cdm_reasoncode |
-| Agence émettrice de l'identification de la personne | cdm_personidentificationissuingagency |
+| Agence émettrice de l’identification de la personne | cdm_personidentificationissuingagency |
 
 ## <a name="competency-tables"></a>Tables des compétences
 
@@ -178,10 +180,10 @@ Les tables Dataverse suivantes sont disponibles dans les entités Human Resource
 ## <a name="see-also"></a>Voir également :
 
 [Choisir une technologie d’intégration de données](hr-admin-integration-choose-technology.md)<br>
-[Configuration de l'intégration Dataverse](hr-admin-integration-common-data-service.md)<br>
+[Configuration de l’intégration Dataverse](hr-admin-integration-common-data-service.md)<br>
 [Configurer des tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [FAQ sur les tables virtuelles Human Resources](hr-admin-virtual-entity-faq.md)<br>
-[Qu'est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
+[Qu’est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Mises à jour de la terminologie](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 

@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012425"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478386"
 ---
-# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurer les marges de stock et les niveaux de stock
+# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurer des marges de stock et des niveaux de stock
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment configurer les marges de stock et les niveaux de stock qui déterminent les messages de disponibilité du stock sur les sites Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Dynamics 365 Commerce Headquarters comporte les données de stock et divers canaux tels que les applications de point de vente (PDV), les vitrines de commerce électronique et d’autres applications personnalisées intégrées qui extraient et reçoivent du stock d’une manière asynchrone. Par conséquent, les valeurs de stock disponibles qui sont obtenues via la page de stock disponible dans Commerce Headquarters, via l’interface utilisateur des PDV et via les API de disponibilité des stocks de commerce électronique ne sont pas toujours précises à 100 % en temps réel.
 

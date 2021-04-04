@@ -1,6 +1,6 @@
 ---
 title: Créer un avantage
-description: Cette tâche vous indique comment créer des détails des avantages qui seront utilisés lors de la création d'un nouvel avantage.
+description: Cette tâche vous indique comment créer des détails des avantages qui seront utilisés lors de la création d’un nouvel avantage.
 author: andreabichsel
 manager: tfehr
 ms.date: 02/03/2020
@@ -16,27 +16,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 2c64bd4eddab0de9db457c6d8d4464303917c438
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 857fb7d6860d050fb0be50f2559e3998dacad458
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112490"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468009"
 ---
 # <a name="create-a-new-benefit"></a>Créer un avantage
 
-Cette tâche vous indique comment créer des détails des avantages qui seront utilisés lors de la création d'un nouvel avantage. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à un gestionnaire de rémunération et avantages.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Cette tâche vous indique comment créer des détails des avantages qui seront utilisés lors de la création d’un nouvel avantage. Les données fictives utilisées pour créer cette tâche correspondent à la société USMF. Cette tâche est destinée à un gestionnaire de rémunération et avantages.
 
 
 ## <a name="create-benefit-elements"></a>Créer des détails des avantages
 1. Allez dans Ressources humaines > Avantages > Paramétrage > Détails des avantages.
 2. Cliquez sur Nouveau.
-3. Dans le champ Type, entrez le nom du type d'avantage que vous créez.
+3. Dans le champ Type, entrez le nom du type d’avantage que vous créez.
 4. Dans le champ Description, entrez une valeur.
 5. Sélectionnez une option dans le champ Inscription simultanée.
     * Pour ne pas que les employés puissent adhérer à plusieurs régimes santé, sélectionnez Une inscription par type.  
 6. Sélectionnez une option dans le champ Catégorie de salaire.
-7. Cliquez sur l'onglet Plans.
+7. Cliquez sur l’onglet Plans.
 8. Cliquez sur Nouveau.
 9. Dans le champ Plan, tapez une valeur.
 10. Dans le champ Description, entrez une valeur.
@@ -50,7 +52,7 @@ Cette tâche vous indique comment créer des détails des avantages qui seront u
 3. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 4. Dans le champ Régime, saisissez ou sélectionnez une valeur.
 5. Saisissez ou sélectionnez une valeur dans le champ Option.
-6. Entrez une date et une heure dans le champ Date d'effet.
+6. Entrez une date et une heure dans le champ Date d’effet.
 7. Cliquez sur Créer un avantage.
 
 

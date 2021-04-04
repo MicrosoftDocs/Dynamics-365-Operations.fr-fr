@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c93697921e6199587da6e3f3a116e55d4b079e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9e10327ad65b712cf7713eb3e25713ac5dae950e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019602"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253300"
 ---
 # <a name="maintenance-request-reports"></a>États de demande de maintenance
 
@@ -30,31 +30,31 @@ ms.locfileid: "5019602"
 
  
 
-Dans Gestion des actifs, vous pouvez générer deux états associés aux demandes de maintenance. Un état affiche des détails et l'autre état fournit une liste qui peut être utilisée pour la planification et le suivi.
+Dans Gestion des actifs, vous pouvez générer deux états associés aux demandes de maintenance. Un état affiche des détails et l’autre état fournit une liste qui peut être utilisée pour la planification et le suivi.
 
 ## <a name="create-a-maintenance-request-details-report"></a>Créer un état des détails de la demande de maintenance
 
-L'état **Détails de la demande de maintenance** affiche différentes informations liées à la demande de maintenance.
+L’état **Détails de la demande de maintenance** affiche différentes informations liées à la demande de maintenance.
 
 1. Sélectionnez **Gestion des actifs** \> **États** \> **Demandes de maintenance** \> **Détails de la demande de maintenance**.
-2. Dans l'organisateur **Enregistrements à inclure**, vous pouvez sélectionner des demandes de maintenance spécifiques à inclure dans l'état.
-3. Dans l'organisateur **Exécuter en arrière-plan**, vous pouvez paramétrer la génération d'état comme un traitement par lots, comme vous le souhaitez.
-4. Sélectionnez **OK** pour générer l'état.
+2. Dans l’organisateur **Enregistrements à inclure**, vous pouvez sélectionner des demandes de maintenance spécifiques à inclure dans l’état.
+3. Dans l’organisateur **Exécuter en arrière-plan**, vous pouvez paramétrer la génération d’état comme un traitement par lots, comme vous le souhaitez.
+4. Sélectionnez **OK** pour générer l’état.
 
-L'illustration suivante présente un exemple de l'état **Détails de la demande de maintenance**.
+L’illustration suivante présente un exemple de l’état **Détails de la demande de maintenance**.
 
 ![État Détails de la demande de maintenance](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Créer un état de la liste des demandes de maintenance
 
-L'état **Liste des demandes de maintenance** affiche une liste de toutes les demandes de maintenance du même type.
+L’état **Liste des demandes de maintenance** affiche une liste de toutes les demandes de maintenance du même type.
 
 1. Sélectionnez **Gestion des actifs** \> **États** \> **Demandes de maintenance** \> **Liste des demandes de maintenance**.
-2. Dans l'organisateur **Enregistrements à inclure**, vous pouvez effectuer des sélections pour définir les demandes de maintenance à inclure dans l'état.
-3. Dans l'organisateur **Exécuter en arrière-plan**, vous pouvez paramétrer la génération d'état comme un traitement par lots, comme vous le souhaitez.
-4. Sélectionnez **OK** pour générer l'état.
+2. Dans l’organisateur **Enregistrements à inclure**, vous pouvez effectuer des sélections pour définir les demandes de maintenance à inclure dans l’état.
+3. Dans l’organisateur **Exécuter en arrière-plan**, vous pouvez paramétrer la génération d’état comme un traitement par lots, comme vous le souhaitez.
+4. Sélectionnez **OK** pour générer l’état.
 
-L'illustration suivante présente un exemple de l'état **Liste des demandes de maintenance** pour toutes les demandes de maintenance actives.
+L’illustration suivante présente un exemple de l’état **Liste des demandes de maintenance** pour toutes les demandes de maintenance actives.
 
 ![États Liste des demandes de maintenance](media/10-manage-maintenance-requests.png)
 

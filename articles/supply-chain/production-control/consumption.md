@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acccc677c855fc675d52814d7f6f0a5141bbc8af
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fc39df69a22b90a805aa9967d52dafea27c78c2b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001665"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246331"
 ---
 # <a name="calculate-material-consumption"></a>Calculer la consommation de matières
 
@@ -31,13 +31,13 @@ ms.locfileid: "5001665"
 
 Cet article fournit des informations sur les différentes options relatives au calcul de la consommation de matières. 
 
-Les options suivantes relatives au calcul de la consommation de matières sont disponibles sous les onglets **Paramétrage** et **Consommation de l'étape** sur l'organisateur **Détails de ligne** de la page **Nomenclatures**.
+Les options suivantes relatives au calcul de la consommation de matières sont disponibles sous les onglets **Paramétrage** et **Consommation de l’étape** sur l’organisateur **Détails de ligne** de la page **Nomenclatures**.
 
 ## <a name="variable-and-constant-consumption"></a>Consommation variable et constante
 Dans le champ **Type de consommation**, vous pouvez sélectionner si la consommation doit être calculée comme quantité constante ou comme quantité variable. Sélectionnez **Constante** si une quantité ou un volume fixe est requis pour la production, peu importe la quantité produite. Sélectionnez **Variable**, qui est le paramètre par défaut, si la quantité de matières requises dans des produits finis est proportionnelle au nombre de produits finis fabriqués.
 
-## <a name="calculating-consumption-from-a-formula"></a>Calcul de la consommation à partir d'une formule
-Dans le champ **Formule**, vous pouvez paramétrer diverses formules pour calculer la consommation de matières. Si vous utilisez la valeur par défaut, **Standard**, la consommation n'est pas calculée à partir d'une formule. Les formules suivantes s'associent aux champs **Hauteur**, **Largeur**, **Profondeur**, **Densité** et  **Constante** :
+## <a name="calculating-consumption-from-a-formula"></a>Calcul de la consommation à partir d’une formule
+Dans le champ **Formule**, vous pouvez paramétrer diverses formules pour calculer la consommation de matières. Si vous utilisez la valeur par défaut, **Standard**, la consommation n’est pas calculée à partir d’une formule. Les formules suivantes s’associent aux champs **Hauteur**, **Largeur**, **Profondeur**, **Densité** et  **Constante** :
 
 -   Hauteur \* Constante
 -   Hauteur \* Largeur \* Constante
@@ -45,15 +45,15 @@ Dans le champ **Formule**, vous pouvez paramétrer diverses formules pour calcul
 -   (Hauteur \* Largeur \* Profondeur / Densité) \* Constante
 
 ## <a name="rounding-up-and-multiples"></a>Arrondi et multiples
-Associés, les champs **Arrondi** et **Multiples** permettent d'arrondir la valeur de consommation des matières. Par exemple, vous pouvez arrondir la valeur en fonction de l'unité de manutention dans laquelle la matière première est prélevée pour la production. Les options suivantes sont disponibles dans le champ **Arrondi** : **Quantité** **Mesure** et **Consommation**.
+Associés, les champs **Arrondi** et **Multiples** permettent d’arrondir la valeur de consommation des matières. Par exemple, vous pouvez arrondir la valeur en fonction de l’unité de manutention dans laquelle la matière première est prélevée pour la production. Les options suivantes sont disponibles dans le champ **Arrondi** : **Quantité** **Mesure** et **Consommation**.
 
 ### <a name="quantity"></a>Quantité
 
-Si vous sélectionnez **Quantité** comme mécanisme d'arrondi, la quantité doit être un multiple de la quantité spécifiée. Par exemple, si des nombres entiers sont requis, sélectionnez **1** dans le champ **Multiples**. Les numéros sont ensuite arrondis jusqu'à une quantité divisible par 1.
+Si vous sélectionnez **Quantité** comme mécanisme d’arrondi, la quantité doit être un multiple de la quantité spécifiée. Par exemple, si des nombres entiers sont requis, sélectionnez **1** dans le champ **Multiples**. Les numéros sont ensuite arrondis jusqu’à une quantité divisible par 1.
 
 ### <a name="measurement"></a>Mesure
 
-En général, vous sélectionnez **Mesure** comme mécanisme d'arrondi lorsque la matière première a des dimensions spécifiques. Par exemple, un tube métallique de 2 mètres est requis pour fabriquer un produit fini, et le tube en métal est disponible en longueur de 4,5 mètres. Dans ce cas, le mécanisme d'arrondi **Mesure** peut être utilisé pour calculer le nombre de tubes métalliques nécessaires pour fabriquer une quantité spécifique de produits finis. Pour cet exemple, le champ **Formule** est défini sur **Hauteur \* Constante**. Le champ **Hauteur** est défini sur **2** pour indiquer la longueur du tube requise pour obtenir le produit fini. Le champ **Multiple** est défini sur **4,5** pour indiquer que le tube est disponible dans une longueur de 4,5 mètres. Voici le calcul :
+En général, vous sélectionnez **Mesure** comme mécanisme d’arrondi lorsque la matière première a des dimensions spécifiques. Par exemple, un tube métallique de 2 mètres est requis pour fabriquer un produit fini, et le tube en métal est disponible en longueur de 4,5 mètres. Dans ce cas, le mécanisme d’arrondi **Mesure** peut être utilisé pour calculer le nombre de tubes métalliques nécessaires pour fabriquer une quantité spécifique de produits finis. Pour cet exemple, le champ **Formule** est défini sur **Hauteur \* Constante**. Le champ **Hauteur** est défini sur **2** pour indiquer la longueur du tube requise pour obtenir le produit fini. Le champ **Multiple** est défini sur **4,5** pour indiquer que le tube est disponible dans une longueur de 4,5 mètres. Voici le calcul :
 
 1.  Nombre de multiples nécessaires pour 10 pièces de produits finis : 10 ÷ 2 = 5 pièces
 2.  Consommation totale : 4,5 × 5 = 22,5 mètres de tube métallique
@@ -62,14 +62,14 @@ On suppose que 0,5 mètre de tube est mis au rebut pour chaque lot de 5 pièces 
 
 ### <a name="consumption"></a>Consommation
 
-En général, vous sélectionnez **Consommation** comme mécanisme d'arrondi lorsque la matière première doit être prélevée selon des quantités d'une unité de manutention spécifique du produit. Par exemple, 2 litres de peinture sont utilisés pour produire une pièce de produit fini, et la peinture est prélevée par boîtes de 25 l. Dans ce cas, le mécanisme d'arrondi **Consommation** peut être utilisé pour arrondir la consommation de la totalité des boîtes de 25 l. Voici le calcul de la quantité de peinture requise si 180 pièces de produits finis doivent être fabriquées :
+En général, vous sélectionnez **Consommation** comme mécanisme d’arrondi lorsque la matière première doit être prélevée selon des quantités d’une unité de manutention spécifique du produit. Par exemple, 2 litres de peinture sont utilisés pour produire une pièce de produit fini, et la peinture est prélevée par boîtes de 25 l. Dans ce cas, le mécanisme d’arrondi **Consommation** peut être utilisé pour arrondir la consommation de la totalité des boîtes de 25 l. Voici le calcul de la quantité de peinture requise si 180 pièces de produits finis doivent être fabriquées :
 
 1.  Peinture requise, hormis mise au rebut : 180 × 2 = 360 litres
 2.  Nombre de boîtes : 360 ÷ 25 = 14,4, qui est arrondi à 15
 3.  Peinture requise, mise au rebut incluse : 15 × 25 = 375 litres
 
-## <a name="step-consumption"></a>Consommation de l'étape
-L'option Consommation de l'étape est utilisée pour calculer la consommation constante selon des intervalles de quantité. Si vous sélectionnez **Consommation de l'étape** dans le champ **Formule** sur l'onglet **Paramétrage**, vous pouvez ajouter des informations sur les étapes dans l'onglet **Consommation de l'étape**. La quantité consommée fixe peut être paramétrée selon des intervalles de quantité produite. Par exemple, la consommation de l'étape est paramétrée comme indiqué dans le tableau suivant.
+## <a name="step-consumption"></a>Consommation de l’étape
+L’option Consommation de l’étape est utilisée pour calculer la consommation constante selon des intervalles de quantité. Si vous sélectionnez **Consommation de l’étape** dans le champ **Formule** sur l’onglet **Paramétrage**, vous pouvez ajouter des informations sur les étapes dans l’onglet **Consommation de l’étape**. La quantité consommée fixe peut être paramétrée selon des intervalles de quantité produite. Par exemple, la consommation de l’étape est paramétrée comme indiqué dans le tableau suivant.
 
 | Série de départ | Quantité |
 |-------------|----------|

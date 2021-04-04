@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0359e7d314610901c331419ab49a3d1cb446dc5e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 79caf95cf33697dfd3156b2a7a1fa66acf37f111
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965728"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259600"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Affichage de la conformité avec les contrats SLA    
 
@@ -31,9 +31,9 @@ ms.locfileid: "4965728"
 
 ## <a name="view-compliance-with-a-service-level-agreement"></a>Affichage de la conformité avec un contrat SLA
 
-1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l'écran indiquant les détails relatifs à la commande.
+1.  Cliquez sur **Gestion des services** \> **Commun** \> **Commandes de service** \> **Commandes de service**. Sélectionnez une commande de service et double-cliquez dessus pour ouvrir l’écran indiquant les détails relatifs à la commande.
 
-2.  Sous l'onglet **Général**, dans le champ **Conformité**, voyez le pourcentage de temps consacré à la commande de service par rapport au délai spécifié dans le contrat SLA.
+2.  Sous l’onglet **Général**, dans le champ **Conformité**, voyez le pourcentage de temps consacré à la commande de service par rapport au délai spécifié dans le contrat SLA.
 
 
 > [!TIP]
@@ -43,7 +43,7 @@ ms.locfileid: "4965728"
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d'ensemble de des contrats de niveau de service](service-level-agreements.md)
+[Vue d’ensemble de des contrats de niveau de service](service-level-agreements.md)
 
   
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f90e49c6191134a99b306fdc9de6b46c07844dea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115946"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463404"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Création d’un plan de congé et d’absence
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Définissez les plans de congé et d’absence dans Dynamics 365 Human Resources pour chaque type de congé que vous offrez. Les plans de congé et d’absence peuvent se provisionner à différentes fréquences, notamment annuellement, mensuellement ou semestriellement. Vous pouvez également définir un plan comme subvention, où une seule régularisation se produit à une date spécifique. Par exemple, vous pouvez créer un plan qui accorde des congés flottants chaque année.
 
