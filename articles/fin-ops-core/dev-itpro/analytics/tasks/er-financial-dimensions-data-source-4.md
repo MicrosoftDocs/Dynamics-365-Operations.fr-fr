@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
@@ -15,37 +14,40 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1fe332de84339d3369ba495ca13f50c4901f366
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: ae7cc1a60234ef09b80950cbf0c7f18b0d65709d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092273"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5565212"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a><span data-ttu-id="060ef-104">ER Utiliser les dimensions financières comme source de données (Partie 4 - Exécuter le rapport)</span><span class="sxs-lookup"><span data-stu-id="060ef-104">ER Use financial dimensions as a data source (Part 4 - Run the report)</span></span>
+# <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a><span data-ttu-id="e9652-104">ER Utiliser les dimensions financières comme source de données (Partie 4 - Exécuter le rapport)</span><span class="sxs-lookup"><span data-stu-id="e9652-104">ER Use financial dimensions as a data source (Part 4 - Run the report)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="060ef-105">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un modèle de génération d’états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.</span><span class="sxs-lookup"><span data-stu-id="060ef-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="060ef-106">Ces étapes peuvent être effectuées dans la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="060ef-106">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="e9652-105">Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’administrateur système ou de développeur d’états électroniques peut configurer un modèle de génération d’états électroniques (ER) pour utiliser les dimensions financières comme source de données pour les états ER.</span><span class="sxs-lookup"><span data-stu-id="e9652-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="e9652-106">Ces étapes peuvent être effectuées dans la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="e9652-106">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="060ef-107">Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la procédure « ER Utiliser les dimensions financières comme source de données (Partie 3 : créer l’état) ».</span><span class="sxs-lookup"><span data-stu-id="060ef-107">To complete these steps, you must first complete the steps in the "ER Use financial dimensions as a data source (Part 3: Design the report)" procedure.</span></span> <span data-ttu-id="060ef-108">Vous devez également configurer les types de document par défaut sur la page Paramètres de gestion des états électroniques.</span><span class="sxs-lookup"><span data-stu-id="060ef-108">You must also configure default document types on the Electronic reporting parameters page.</span></span> <span data-ttu-id="060ef-109">Les types de document par défaut sont également définis lorsque vous téléchargez et importez une configuration ER.</span><span class="sxs-lookup"><span data-stu-id="060ef-109">Default document types are also set when you download and import any ER configuration.</span></span> 
+<span data-ttu-id="e9652-107">Pour effectuer ces étapes, vous devez d’abord effectuer les étapes de la procédure « ER Utiliser les dimensions financières comme source de données (Partie 3 : créer l’état) ».</span><span class="sxs-lookup"><span data-stu-id="e9652-107">To complete these steps, you must first complete the steps in the "ER Use financial dimensions as a data source (Part 3: Design the report)" procedure.</span></span> <span data-ttu-id="e9652-108">Vous devez également configurer les types de document par défaut sur la page Paramètres de gestion des états électroniques.</span><span class="sxs-lookup"><span data-stu-id="e9652-108">You must also configure default document types on the Electronic reporting parameters page.</span></span> <span data-ttu-id="e9652-109">Les types de document par défaut sont également définis lorsque vous téléchargez et importez une configuration ER.</span><span class="sxs-lookup"><span data-stu-id="e9652-109">Default document types are also set when you download and import any ER configuration.</span></span> 
 
 
-## <a name="run-report"></a><span data-ttu-id="060ef-110">Exécuter l’état</span><span class="sxs-lookup"><span data-stu-id="060ef-110">Run report</span></span>
-1. <span data-ttu-id="060ef-111">Accédez à Administration d’organisation > États électroniques > Configurations.</span><span class="sxs-lookup"><span data-stu-id="060ef-111">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="060ef-112">Dans l’arborescence, développez « Exemple de modèle de dimensions financières ».</span><span class="sxs-lookup"><span data-stu-id="060ef-112">In the tree, expand 'Financial dimensions sample model'.</span></span>
-3. <span data-ttu-id="060ef-113">Dans l’arborescence, sélectionnez « Exemple de modèle de dimensions financières\État du journal comptable ».</span><span class="sxs-lookup"><span data-stu-id="060ef-113">In the tree, select 'Financial dimensions sample model\Ledger journal report'.</span></span>
-4. <span data-ttu-id="060ef-114">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="060ef-114">Click Run.</span></span>
-<span data-ttu-id="060ef-115">![Page Configurations d’ER](../media/er-financial-dimensions-guides-run1.png)</span><span class="sxs-lookup"><span data-stu-id="060ef-115">![ER configurations page](../media/er-financial-dimensions-guides-run1.png)</span></span>
-5. <span data-ttu-id="060ef-116">Dans le champ Nom de dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="060ef-116">In the Dimension name field, enter or select a value.</span></span>
-    * <span data-ttu-id="060ef-117">Pour sélectionner toutes les dimensions de la société actuelle, entrez les informations suivantes : BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span><span class="sxs-lookup"><span data-stu-id="060ef-117">To select all dimensions in the current company, enter the following information:  BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span></span>  
+## <a name="run-report"></a><span data-ttu-id="e9652-110">Exécuter l’état</span><span class="sxs-lookup"><span data-stu-id="e9652-110">Run report</span></span>
+1. <span data-ttu-id="e9652-111">Accédez à Administration d’organisation > États électroniques > Configurations.</span><span class="sxs-lookup"><span data-stu-id="e9652-111">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="e9652-112">Dans l’arborescence, développez « Exemple de modèle de dimensions financières ».</span><span class="sxs-lookup"><span data-stu-id="e9652-112">In the tree, expand 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="e9652-113">Dans l’arborescence, sélectionnez « Exemple de modèle de dimensions financières\État du journal comptable ».</span><span class="sxs-lookup"><span data-stu-id="e9652-113">In the tree, select 'Financial dimensions sample model\Ledger journal report'.</span></span>
+4. <span data-ttu-id="e9652-114">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="e9652-114">Click Run.</span></span>
+<span data-ttu-id="e9652-115">![Page Configurations d’ER](../media/er-financial-dimensions-guides-run1.png)</span><span class="sxs-lookup"><span data-stu-id="e9652-115">![ER configurations page](../media/er-financial-dimensions-guides-run1.png)</span></span>
+5. <span data-ttu-id="e9652-116">Dans le champ Nom de dimension, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e9652-116">In the Dimension name field, enter or select a value.</span></span>
+    * <span data-ttu-id="e9652-117">Pour sélectionner toutes les dimensions de la société actuelle, entrez les informations suivantes : BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span><span class="sxs-lookup"><span data-stu-id="e9652-117">To select all dimensions in the current company, enter the following information:  BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project</span></span>  
 ![Page Configurations d’ER](../media/er-financial-dimensions-guides-run2.png)
-6. <span data-ttu-id="060ef-119">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="060ef-119">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="060ef-120">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="060ef-120">Click Filter.</span></span>
-8. <span data-ttu-id="060ef-121">Sélectionnez la ligne de la table Journaux comptables et du champ Numéro de lot du journal.</span><span class="sxs-lookup"><span data-stu-id="060ef-121">Select the row for the Ledger journal table and the Journal batch number field.</span></span>
-9. <span data-ttu-id="060ef-122">Dans le champ Critères, tapez « 00057 ».</span><span class="sxs-lookup"><span data-stu-id="060ef-122">In the Criteria field, type '00057'.</span></span>
-10. <span data-ttu-id="060ef-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="060ef-123">Click OK.</span></span>
-11. <span data-ttu-id="060ef-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="060ef-124">Click OK.</span></span>
-<span data-ttu-id="060ef-125">![Page Configurations d’ER](../media/er-financial-dimensions-guides-run3.png)</span><span class="sxs-lookup"><span data-stu-id="060ef-125">![ER configurations page](../media/er-financial-dimensions-guides-run3.png)</span></span>
-    * <span data-ttu-id="060ef-126">Examinez la sortie générée.</span><span class="sxs-lookup"><span data-stu-id="060ef-126">Review the generated output.</span></span> <span data-ttu-id="060ef-127">Pour chaque transaction du lot sélectionné, les dimensions financières de l’ensemble de dimensions correspondant sont présentées.</span><span class="sxs-lookup"><span data-stu-id="060ef-127">For each transaction of the selected batch, the financial dimensions from the corresponding dimensions set are presented.</span></span> <span data-ttu-id="060ef-128">Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l’état n’est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance.</span><span class="sxs-lookup"><span data-stu-id="060ef-128">Run this report and select different dimensions to see that the report is not dependent on the number of selected dimensions or the number of dimensions configured for this instance.</span></span>  
+6. <span data-ttu-id="e9652-119">Développez les enregistrements pour inclure la section.</span><span class="sxs-lookup"><span data-stu-id="e9652-119">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="e9652-120">Cliquez sur Filtre.</span><span class="sxs-lookup"><span data-stu-id="e9652-120">Click Filter.</span></span>
+8. <span data-ttu-id="e9652-121">Sélectionnez la ligne de la table Journaux comptables et du champ Numéro de lot du journal.</span><span class="sxs-lookup"><span data-stu-id="e9652-121">Select the row for the Ledger journal table and the Journal batch number field.</span></span>
+9. <span data-ttu-id="e9652-122">Dans le champ Critères, tapez « 00057 ».</span><span class="sxs-lookup"><span data-stu-id="e9652-122">In the Criteria field, type '00057'.</span></span>
+10. <span data-ttu-id="e9652-123">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e9652-123">Click OK.</span></span>
+11. <span data-ttu-id="e9652-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e9652-124">Click OK.</span></span>
+<span data-ttu-id="e9652-125">![Page Configurations d’ER](../media/er-financial-dimensions-guides-run3.png)</span><span class="sxs-lookup"><span data-stu-id="e9652-125">![ER configurations page](../media/er-financial-dimensions-guides-run3.png)</span></span>
+    * <span data-ttu-id="e9652-126">Examinez la sortie générée.</span><span class="sxs-lookup"><span data-stu-id="e9652-126">Review the generated output.</span></span> <span data-ttu-id="e9652-127">Pour chaque transaction du lot sélectionné, les dimensions financières de l’ensemble de dimensions correspondant sont présentées.</span><span class="sxs-lookup"><span data-stu-id="e9652-127">For each transaction of the selected batch, the financial dimensions from the corresponding dimensions set are presented.</span></span> <span data-ttu-id="e9652-128">Exécutez cet état et sélectionnez différentes dimensions pour vérifier que l’état n’est pas dépendant du nombre de dimensions sélectionnées ou du nombre de dimensions configurées pour cette instance.</span><span class="sxs-lookup"><span data-stu-id="e9652-128">Run this report and select different dimensions to see that the report is not dependent on the number of selected dimensions or the number of dimensions configured for this instance.</span></span>  
 ![Page Configurations d’ER](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

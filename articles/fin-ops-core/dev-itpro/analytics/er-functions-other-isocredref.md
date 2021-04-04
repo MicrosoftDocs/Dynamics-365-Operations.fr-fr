@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,46 +16,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c9a75cedcf543b318df2850df3e4a60bac2dc6b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a9378028a4b308aae7796b861b37a5f89ddfe49c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680684"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563406"
 ---
-# <a name="isocredref-er-function"></a><span data-ttu-id="728a7-103">Fonction ISOCREDREF ER</span><span class="sxs-lookup"><span data-stu-id="728a7-103">ISOCREDREF ER function</span></span>
+# <a name="isocredref-er-function"></a><span data-ttu-id="f6194-103">Fonction ISOCREDREF ER</span><span class="sxs-lookup"><span data-stu-id="f6194-103">ISOCREDREF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="728a7-104">La fonction `ISOCREDREF` renvoie une valeur de *Chaîne* qui représente une référence créditeur ISO (Organisation internationale de normalisation), en fonction des chiffres et des symboles alphabétiques du numéro de facture spécifié.</span><span class="sxs-lookup"><span data-stu-id="728a7-104">The `ISOCREDREF` function returns a *String* value that represents an International Organization for Standardization (ISO) creditor reference, based on the digits and alphabetic symbols of the specified invoice number.</span></span>
+<span data-ttu-id="f6194-104">La fonction `ISOCREDREF` renvoie une valeur de *Chaîne* qui représente une référence créditeur ISO (Organisation internationale de normalisation), en fonction des chiffres et des symboles alphabétiques du numéro de facture spécifié.</span><span class="sxs-lookup"><span data-stu-id="f6194-104">The `ISOCREDREF` function returns a *String* value that represents an International Organization for Standardization (ISO) creditor reference, based on the digits and alphabetic symbols of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="728a7-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="728a7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f6194-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f6194-105">Syntax</span></span>
 
 ```vb
 ISOCREDREF (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="728a7-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="728a7-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="f6194-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="f6194-106">Arguments</span></span>
 
-<span data-ttu-id="728a7-107">`invoice number digits` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="728a7-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="f6194-107">`invoice number digits` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="f6194-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="728a7-108">Valeur de texte qui représente les chiffres d’un numéro de facture.</span><span class="sxs-lookup"><span data-stu-id="728a7-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="f6194-108">Valeur de texte qui représente les chiffres d’un numéro de facture.</span><span class="sxs-lookup"><span data-stu-id="f6194-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="728a7-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="728a7-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f6194-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="f6194-109">Return values</span></span>
 
-<span data-ttu-id="728a7-110">*Chaîne*</span><span class="sxs-lookup"><span data-stu-id="728a7-110">*String*</span></span>
+<span data-ttu-id="f6194-110">*Chaîne*</span><span class="sxs-lookup"><span data-stu-id="f6194-110">*String*</span></span>
 
-<span data-ttu-id="728a7-111">Valeur de texte résultante.</span><span class="sxs-lookup"><span data-stu-id="728a7-111">The resulting text value.</span></span>
+<span data-ttu-id="f6194-111">Valeur de texte résultante.</span><span class="sxs-lookup"><span data-stu-id="f6194-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="728a7-112">Notes d’utilisation</span><span class="sxs-lookup"><span data-stu-id="728a7-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="f6194-112">Notes d’utilisation</span><span class="sxs-lookup"><span data-stu-id="f6194-112">Usage notes</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="728a7-113">Pour éliminer des symboles de l’alphabet qui ne sont pas conformes à la norme ISO, l’argument `invoice number digits` doit être traduit avant d’être transmis à cette fonction.</span><span class="sxs-lookup"><span data-stu-id="728a7-113">To eliminate symbols from alphabets that are't ISO-compliant, the `invoice number digits` argument must be translated before it's passed to this function.</span></span>
+> <span data-ttu-id="f6194-113">Pour éliminer des symboles de l’alphabet qui ne sont pas conformes à la norme ISO, l’argument `invoice number digits` doit être traduit avant d’être transmis à cette fonction.</span><span class="sxs-lookup"><span data-stu-id="f6194-113">To eliminate symbols from alphabets that are't ISO-compliant, the `invoice number digits` argument must be translated before it's passed to this function.</span></span>
 
-## <a name="example"></a><span data-ttu-id="728a7-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="728a7-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f6194-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="f6194-114">Example</span></span>
 
-<span data-ttu-id="728a7-115">`ISOCredRef ("VEND-200002")` renvoie **« RF23VEND-200002 »**.</span><span class="sxs-lookup"><span data-stu-id="728a7-115">`ISOCredRef ("VEND-200002")` returns **"RF23VEND-200002"**.</span></span>
+<span data-ttu-id="f6194-115">`ISOCredRef ("VEND-200002")` renvoie **« RF23VEND-200002 »**.</span><span class="sxs-lookup"><span data-stu-id="f6194-115">`ISOCredRef ("VEND-200002")` returns **"RF23VEND-200002"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="728a7-116">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="728a7-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f6194-116">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="f6194-116">Additional resources</span></span>
 
-[<span data-ttu-id="728a7-117">Autre fonctions (spécifiques au domaine d’affaires)</span><span class="sxs-lookup"><span data-stu-id="728a7-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="f6194-117">Autre fonctions (spécifiques au domaine d’affaires)</span><span class="sxs-lookup"><span data-stu-id="f6194-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,63 +16,66 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02f9ac4697a4d65417e522bffb5f40ebfdc237a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ff48170247130a03b10dc8fe2973f8d774046944
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681230"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561396"
 ---
-# <a name="collectedlist-er-function"></a><span data-ttu-id="47c90-103">Fonction COLLECTEDLIST ER</span><span class="sxs-lookup"><span data-stu-id="47c90-103">COLLECTEDLIST ER function</span></span>
+# <a name="collectedlist-er-function"></a><span data-ttu-id="3b341-103">Fonction COLLECTEDLIST ER</span><span class="sxs-lookup"><span data-stu-id="3b341-103">COLLECTEDLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="47c90-104">La fonction `COLLECTEDLIST` a une valeur de *Liste des enregistrements* qui contient la liste des valeurs qui ont été renvoyées par la propriété **Valeur de clé de données collectées** des éléments de format et collectée lorsque les éléments de format ont été utilisés pour générer des documents sortants pendant l’exécution du format, et qui remplissent les conditions spécifiées.</span><span class="sxs-lookup"><span data-stu-id="47c90-104">The `COLLECTEDLIST` function a *Record list* value that contains the list of values that were returned by the **Collected data key value** property of format elements and collected when the format elements were used to generate outbound documents during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="47c90-105">Chaque condition se compose d’une plage de clés et d’une valeur de clé.</span><span class="sxs-lookup"><span data-stu-id="47c90-105">Each condition consists of a key range and a key value.</span></span>
+<span data-ttu-id="3b341-104">La fonction `COLLECTEDLIST` a une valeur de *Liste des enregistrements* qui contient la liste des valeurs qui ont été renvoyées par la propriété **Valeur de clé de données collectées** des éléments de format et collectée lorsque les éléments de format ont été utilisés pour générer des documents sortants pendant l’exécution du format, et qui remplissent les conditions spécifiées.</span><span class="sxs-lookup"><span data-stu-id="3b341-104">The `COLLECTEDLIST` function a *Record list* value that contains the list of values that were returned by the **Collected data key value** property of format elements and collected when the format elements were used to generate outbound documents during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="3b341-105">Chaque condition se compose d’une plage de clés et d’une valeur de clé.</span><span class="sxs-lookup"><span data-stu-id="3b341-105">Each condition consists of a key range and a key value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="47c90-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="47c90-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3b341-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3b341-106">Syntax</span></span>
 
 ```vb
 COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="47c90-107">Arguments</span><span class="sxs-lookup"><span data-stu-id="47c90-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="3b341-107">Arguments</span><span class="sxs-lookup"><span data-stu-id="3b341-107">Arguments</span></span>
 
-<span data-ttu-id="47c90-108">`condition 1 range` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="47c90-108">`condition 1 range`: *String*</span></span>
+<span data-ttu-id="3b341-108">`condition 1 range` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="3b341-108">`condition 1 range`: *String*</span></span>
 
-<span data-ttu-id="47c90-109">Valeur retournée par l’expression configurée dans la propriété **Nom de clé de données collectées** d’un composant au format d’états électroniques (ER).</span><span class="sxs-lookup"><span data-stu-id="47c90-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="47c90-110">Cet argument est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="47c90-110">This argument is mandatory.</span></span>
+<span data-ttu-id="3b341-109">Valeur retournée par l’expression configurée dans la propriété **Nom de clé de données collectées** d’un composant au format d’états électroniques (ER).</span><span class="sxs-lookup"><span data-stu-id="3b341-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="3b341-110">Cet argument est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="3b341-110">This argument is mandatory.</span></span>
 
-<span data-ttu-id="47c90-111">`condition 1 value` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="47c90-111">`condition 1 value`: *String*</span></span>
+<span data-ttu-id="3b341-111">`condition 1 value` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="3b341-111">`condition 1 value`: *String*</span></span>
 
-<span data-ttu-id="47c90-112">Valeur retournée par l’expression configurée dans la propriété **Valeur de clé de données collectées** d’un composant au format ER.</span><span class="sxs-lookup"><span data-stu-id="47c90-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="47c90-113">Cet argument est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="47c90-113">This argument is mandatory.</span></span>
+<span data-ttu-id="3b341-112">Valeur retournée par l’expression configurée dans la propriété **Valeur de clé de données collectées** d’un composant au format ER.</span><span class="sxs-lookup"><span data-stu-id="3b341-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="3b341-113">Cet argument est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="3b341-113">This argument is mandatory.</span></span>
 
-<span data-ttu-id="47c90-114">`condition N range` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="47c90-114">`condition N range`: *String*</span></span>
+<span data-ttu-id="3b341-114">`condition N range` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="3b341-114">`condition N range`: *String*</span></span>
 
-<span data-ttu-id="47c90-115">Valeur retournée par l’expression configurée dans la propriété **Nom de clé de données collectées** d’un composant au format ER.</span><span class="sxs-lookup"><span data-stu-id="47c90-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="47c90-116">Ces arguments supplémentaires sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="47c90-116">These additional arguments are optional.</span></span>
+<span data-ttu-id="3b341-115">Valeur retournée par l’expression configurée dans la propriété **Nom de clé de données collectées** d’un composant au format ER.</span><span class="sxs-lookup"><span data-stu-id="3b341-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="3b341-116">Ces arguments supplémentaires sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="3b341-116">These additional arguments are optional.</span></span>
 
-<span data-ttu-id="47c90-117">`condition N value` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="47c90-117">`condition N value`: *String*</span></span>
+<span data-ttu-id="3b341-117">`condition N value` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="3b341-117">`condition N value`: *String*</span></span>
 
-<span data-ttu-id="47c90-118">Valeur retournée par l’expression configurée dans la propriété **Valeur de clé de données collectées** d’un composant au format ER.</span><span class="sxs-lookup"><span data-stu-id="47c90-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="47c90-119">Ces arguments supplémentaires sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="47c90-119">These additional arguments are optional.</span></span>
+<span data-ttu-id="3b341-118">Valeur retournée par l’expression configurée dans la propriété **Valeur de clé de données collectées** d’un composant au format ER.</span><span class="sxs-lookup"><span data-stu-id="3b341-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="3b341-119">Ces arguments supplémentaires sont facultatifs.</span><span class="sxs-lookup"><span data-stu-id="3b341-119">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="47c90-120">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="47c90-120">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="3b341-120">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="3b341-120">Return values</span></span>
 
-<span data-ttu-id="47c90-121">*Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="47c90-121">*Record list*</span></span>
+<span data-ttu-id="3b341-121">*Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="3b341-121">*Record list*</span></span>
 
-<span data-ttu-id="47c90-122">Liste des enregistrements résultante.</span><span class="sxs-lookup"><span data-stu-id="47c90-122">The resulting list of records.</span></span>
+<span data-ttu-id="3b341-122">Liste des enregistrements résultante.</span><span class="sxs-lookup"><span data-stu-id="3b341-122">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="47c90-123">Notes d’utilisation</span><span class="sxs-lookup"><span data-stu-id="47c90-123">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="3b341-123">Notes d’utilisation</span><span class="sxs-lookup"><span data-stu-id="3b341-123">Usage notes</span></span>
 
-<span data-ttu-id="47c90-124">Les propriétés **Nom de clé de données collectées** et **Valeur de clé de données collectées** peuvent être configurées pour le composant **Séquence** ou le composant **Élément XML** d’un composant de format ER qui réside sous le composant **Commun\\Fichier** où l’option **Collecter les détails de sortie** est activée.</span><span class="sxs-lookup"><span data-stu-id="47c90-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="3b341-124">Les propriétés **Nom de clé de données collectées** et **Valeur de clé de données collectées** peuvent être configurées pour le composant **Séquence** ou le composant **Élément XML** d’un composant de format ER qui réside sous le composant **Commun\\Fichier** où l’option **Collecter les détails de sortie** est activée.</span><span class="sxs-lookup"><span data-stu-id="3b341-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-<span data-ttu-id="47c90-125">Cette fonction renvoie une liste vide lorsque l’option **Collecter les détails sur les sorties** du composant **Commun\\Fichier** actuel est désactivé.</span><span class="sxs-lookup"><span data-stu-id="47c90-125">This function returns an empty list when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
+<span data-ttu-id="3b341-125">Cette fonction renvoie une liste vide lorsque l’option **Collecter les détails sur les sorties** du composant **Commun\\Fichier** actuel est désactivé.</span><span class="sxs-lookup"><span data-stu-id="3b341-125">This function returns an empty list when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
 
-<span data-ttu-id="47c90-126">Dans les arguments `condition range`, le caractère générique **« \* »** peut être utilisé pour représenter plusieurs caractères.</span><span class="sxs-lookup"><span data-stu-id="47c90-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="3b341-126">Dans les arguments `condition range`, le caractère générique **« \* »** peut être utilisé pour représenter plusieurs caractères.</span><span class="sxs-lookup"><span data-stu-id="3b341-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-<span data-ttu-id="47c90-127">Dans les arguments `condition value`, le caractère générique **« \* »** peut être utilisé pour représenter plusieurs caractères.</span><span class="sxs-lookup"><span data-stu-id="47c90-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="3b341-127">Dans les arguments `condition value`, le caractère générique **« \* »** peut être utilisé pour représenter plusieurs caractères.</span><span class="sxs-lookup"><span data-stu-id="3b341-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="47c90-128">Exemple</span><span class="sxs-lookup"><span data-stu-id="47c90-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3b341-128">Exemple</span><span class="sxs-lookup"><span data-stu-id="3b341-128">Example</span></span>
 
-<span data-ttu-id="47c90-129">Pour plus d’informations sur l’utilisation de cette fonction, consultez le guide de tâche [ER Utiliser les données de la sortie du format pour compter et additionner](tasks/er-format-counting-summing-1.md), qui fait partie du processus d’entreprise **Acquérir/Développer des composants de services/solutions informatiques**.</span><span class="sxs-lookup"><span data-stu-id="47c90-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="3b341-129">Pour plus d’informations sur l’utilisation de cette fonction, consultez le guide de tâche [ER Utiliser les données de la sortie du format pour compter et additionner](tasks/er-format-counting-summing-1.md), qui fait partie du processus d’entreprise **Acquérir/Développer des composants de services/solutions informatiques**.</span><span class="sxs-lookup"><span data-stu-id="3b341-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="47c90-130">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="47c90-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="3b341-130">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="3b341-130">Additional resources</span></span>
 
-[<span data-ttu-id="47c90-131">Fonctions de collecte des données</span><span class="sxs-lookup"><span data-stu-id="47c90-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="3b341-131">Fonctions de collecte des données</span><span class="sxs-lookup"><span data-stu-id="3b341-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
