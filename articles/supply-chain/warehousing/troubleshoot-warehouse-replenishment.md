@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7748a18d2b6f612b3ac9ac1a75efb6ae5f13859a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8dfb58c9156df106f58dfdc0ee2e0ef8defb9d9f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993873"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263202"
 ---
 # <a name="troubleshoot-warehouse-replenishment"></a>Résoudre les problèmes de réapprovisionnement de l’entrepôt
 
@@ -38,7 +38,7 @@ Le travail de prélèvement est bloqué en raison du travail de réapprovisionne
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-Lorsque vous utilisez le réapprovisionnement de la demande de vague, si un site de prélèvement doit être réapprovisionné pour répondre à la demande de commande d'origine, le système crée à la fois le travail de réapprovisionnement et le travail de prélèvement. Cependant, il bloque le travail de prélèvement jusqu'à ce que le travail de réapprovisionnement soit terminé. Ce comportement est intentionnel, car l'emplacement de prélèvement n'aura pas suffisamment de stock tant que le travail de réapprovisionnement n'est pas terminé. Terminez le travail de réapprovisionnement, puis traitez le travail de prélèvement.
+Lorsque vous utilisez le réapprovisionnement de la demande de vague, si un site de prélèvement doit être réapprovisionné pour répondre à la demande de commande d’origine, le système crée à la fois le travail de réapprovisionnement et le travail de prélèvement. Cependant, il bloque le travail de prélèvement jusqu’à ce que le travail de réapprovisionnement soit terminé. Ce comportement est intentionnel, car l’emplacement de prélèvement n’aura pas suffisamment de stock tant que le travail de réapprovisionnement n’est pas terminé. Terminez le travail de réapprovisionnement, puis traitez le travail de prélèvement.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

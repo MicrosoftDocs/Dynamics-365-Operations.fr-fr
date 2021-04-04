@@ -3,7 +3,7 @@ title: Émettre des factures électroniques dans Finance et Supply Chain Managem
 description: Cette rubrique explique comment émettre des factures électroniques dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management via le module complémentaire de facturation électronique.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104379"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486951"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Émettre des factures électroniques dans Finance et Supply Chain Management
 
@@ -35,25 +35,35 @@ Cette rubrique explique comment émettre des factures électroniques dans Micros
 
 ## <a name="feature-activation"></a>Activation des fonctionnalités
 
-Pour commencer à émettre des factures électroniques via le module complémentaire de facturation électronique, il est nécessaire d'activer la référence de fonctionnalité dans Finance et Supply Chain Management.
+Pour émettre des factures électroniques via le module complémentaire de facturation électronique, vous devez activer la fonctionnalité dans Finance et Supply Chain Management.
 
-Chaque référence de fonctionnalité correspond à une fonctionnalité de facturation électronique spécifique conforme aux exigences de facturation électronique d'un pays/d'une région.
+Chaque fonctionnalité correspond à une fonctionnalité de facturation électronique spécifique conforme aux exigences de facturation électronique pour un pays/une région.
 
-Le tableau suivant présente la liste des références de fonctionnalités prises en charge par le module complémentaire de facturation électronique.
+Le tableau suivant présente la liste des fonctionnalités qui peuvent être prises en charge par le module complémentaire de facturation électronique.
 
-| Référence de la fonctionnalité | Nom                                              | Pays/région |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e Federal - Facture électronique pour le Brésil       | Brésil         |
-| BR-00095          | NFS-e Factures électroniques pour le Brésil               | Brésil         |
-| DK-00001          | Facturation électronique du secteur public (OIOUBL) - DK    | Danemark        |
-| EG-00008          | Facturation électronique pour l’Égypte                             | Égypte          |
-| ES-00025          | Facture électronique du secteur public           | Espagne          |
-| EUR-00023         | Union européenne Facturation électronique du secteur public       | Europe         |
-| ITA-00036         | IT - Facturation électronique du secteur public (FatturaPA) | Italie          |
-| MX-00010          | Facturation électronique de CFDI                                  | Mexique         |
-| MX-00016          | Facturation électronique CFDI - procédure d'annulation           | Mexique         |
+| Nom                                              | Pays/région |
+|---------------------------------------------------|----------------|
+|Facture électronique autrichienne                        |Autriche         |
+|Facture électronique belge                         |Belgique         |
+|NF-e  Federal - facture électronique brésilienne       |Brésil          |
+|NFS-e - Facture électronique du service brésilien (ville)|Brésil          |
+|Facture électronique danoise                          |Danemark         |
+|Facture électronique égyptienne                        |Égypte           |
+|Facture électronique estonienne                        |Estonie         |
+|Facture électronique finlandaise                         |Finlande         |
+|Facture électronique française                          |France          |
+|Facture électronique allemande                          |Allemagne         |
+|PEPPOL - Facture électronique globale                 |Général          |
+|Facture électronique italienne                         |Italie           |
+|CFDI - Facture électronique italienne                  |Mexique          |
+|Facture électronique néerlandaise                           |Pays-Bas     |
+|Facture électronique norvégienne                       |Norvège          |
+|Facture électronique espagnole                         |Espagne           |
 
-Lorsqu'il existe une fonctionnalité de facturation électronique héritée (prise en charge par l'ensemble des pays), l'activation de la référence de fonctionnalité permet d'émettre des factures électroniques via le module complémentaire de facturation électronique et de désactiver l'ancienne fonctionnalité.
+Lorsqu’il existe une fonctionnalité de facturation électronique héritée prise en charge dans l’ensemble des localisations d’un pays/d’une région, l’activation de l’une de ces fonctionnalités désactive la fonctionnalité héritée et permet d’émettre des factures électroniques via le module complémentaire de facturation électronique.
+
+> [!IMPORTANT]
+> Une fois que la fonctionnalité d’intégration du module complémentaire de facturation électronique est activée, la nouvelle expérience de facturation électronique est désactivée par défaut. Vous pouvez utiliser le concept de fonctionnalité pour activer de manière sélective de nouvelles expériences pour les entités juridiques à l’aide de fonctionnalités spécifiques au pays/à la région. L’option **Global** contrôle la nouvelle expérience pour les pays ou les régions restants qui ne sont pas spécifiquement répertoriés dans le tableau.
 
 ## <a name="submit-electronic-documents"></a>Soumettre des documents électroniques
 
