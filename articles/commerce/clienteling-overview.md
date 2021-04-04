@@ -3,7 +3,7 @@ title: Vue d'ensemble de la gestion des clients
 description: Cette rubrique fournit une vue d'ensemble des nouvelles fonctionnalités de gestion des clients qui sont disponibles dans l'application.
 author: bebeale
 manager: AnnBe
-ms.date: 01/29/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 206031f5ddbaedb2b581a452fe8979252647f0c4
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8f3135d0a34086b67c6e5ce11a5af47a51479c92
+ms.sourcegitcommit: 8a14eac1c27f10c2b1b02ac9ad82339f5e127602
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097253"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5554992"
 ---
 # <a name="clienteling-overview"></a>Vue d'ensemble de la gestion des clients
 
@@ -34,7 +34,7 @@ De nombreux détaillants, notamment les détaillants spécialisés haut de gamme
 
 ## <a name="client-book"></a>Registre clients
 
-Dans Microsoft Dynamics 365 Commerce, les détaillants peuvent utiliser la fonctionnalité de registre des clients pour aider les associés du magasin à constituer des relations à long terme avec les clients clés.
+Dans Microsoft Dynamics 365 Commerce, les détaillants peuvent utiliser la fonctionnalité de registre des clients pour aider les collaborateurs du magasin à constituer des relations à long terme avec les clients clés.
 
 Le registre des clients comprend les fiches client qui présentent les informations de contact de chaque client, ainsi que trois propriétés supplémentaires définies par le détaillant et configurées dans Headquarters. Les détaillants peuvent décider des trois choses les plus importantes que les associés des ventes doivent connaître concernant les clients. Par exemple, un détaillant en bijoux pourrait souhaiter inclure des dates importantes comme des anniversaires, car ces dates sont des occasions où les individus achètent davantage de bijoux. De même, un détaillant dans la mode pourrait souhaiter inclure les intérêts et marques préférés du client en matière de shopping.
 

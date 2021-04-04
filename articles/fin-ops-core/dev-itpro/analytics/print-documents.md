@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c349e50826aa577ce6a3b8a68676d549f7fed1b1
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680094"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564403"
 ---
 # <a name="document-printing-overview"></a>Vue d’ensemble de l’impression de document
 
@@ -54,7 +53,7 @@ Comme la solution varie, selon le scénario, les applications fournissent des se
 - Le **Scénario 2** utilise des applications client et des services Microsoft 365.
 - Le **Scénario 3** requiert la prise en charge des applications client et des services hébergés dans Microsoft Azure.
 
-Outre la plateforme déployée dans l’abonnement Azure, les applications Finances and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
+Outre la plateforme déployée dans l’abonnement Azure, les applications Finance and Operations fournissent aux clients une application Azuré intégrée qui les aide à utiliser plus facilement les périphériques hébergés dans le domaine pour l’impression de documents.
 
 ## <a name="service-overview"></a>Vue d’ensemble du service
 Pendant que les documents qui sont produits par les applications hébergées attendent d’être imprimés sur un périphérique réseau connecté, ils sont stockés dans le stockage des objets blobs Azure. L’option [Installer l’agent d’acheminement de document pour activer l’impression réseau](install-document-routing-agent.md) utilise l’authentification Azure pour établir un canal sécurisé vers les services Azure.

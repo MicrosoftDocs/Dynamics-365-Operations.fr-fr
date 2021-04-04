@@ -16,16 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 203dbc5463bfcc4249e9ed73802a9a1fc153f260
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 4e4b33e72d1d1dd9cb78a251281abd3e125c3665
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130203"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466326"
 ---
 # <a name="develop-a-succession-plan"></a>Développer un plan de succession
 
-À mesure que votre organisation se développe, vous devez planifier la relève. Lors de la planification de la relève, vous voudrez peut-être trouver quelqu'un qui possède des compétences similaires à celles d'une autre personne. La mise en correspondance des qualifications vous permet d'analyser les employés et les candidats existants pour voir s'ils ont les mêmes compétences que les bons employés. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+À mesure que votre organisation se développe, vous devez planifier la relève. Lors de la planification de la relève, vous voudrez peut-être trouver quelqu’un qui possède des compétences similaires à celles d’une autre personne. La mise en correspondance des qualifications vous permet d’analyser les employés et les candidats existants pour voir s’ils ont les mêmes compétences que les bons employés. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
 1. Accédez à **Ressources humaines > Compétences > Analyse des qualifications > Profils de mise en correspondance des qualifications**.
 2. Sélectionnez **Nouveau**.
@@ -40,7 +42,7 @@ ms.locfileid: "5130203"
 11. Développez le raccourci **Qualifications** pour afficher ou modifier les qualifications à inclure.
 12. Marquez la première ligne de la liste. Exemple : Comptabilité.
 13. Activez la case à cocher **Facultatif**.
-14. Sélectionnez une option dans le champ **Importance**. Lorsque vous marquez une qualification comme facultative, vous devez sélectionner son niveau d'importance.  
+14. Sélectionnez une option dans le champ **Importance**. Lorsque vous marquez une qualification comme facultative, vous devez sélectionner son niveau d’importance.  
 15. Sélectionnez la ligne 2 dans la liste.
 16. Activez la case à cocher **Facultatif**.
 17. Sélectionnez une option dans le champ **Importance**.

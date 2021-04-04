@@ -15,27 +15,27 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e45ed2090fe0e8ee1d128d1ed448844bd6741791
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 786083e4befdb9ebe081b1238c5eb2179b32e01a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983196"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258612"
 ---
 # <a name="release-a-dimension-based-product-master"></a>Lancer un produit générique fondé sur les dimensions
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la manière dont lancer un produit générique, qui sera utilisé pour les configurations basées sur les dimensions. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Vous devez préalablement avoir créé un produit générique à l'aide de la technologie basée sur les dimensions. Il s'agit de la deuxième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
+Cette procédure décrit la manière dont lancer un produit générique, qui sera utilisé pour les configurations basées sur les dimensions. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Vous devez préalablement avoir créé un produit générique à l’aide de la technologie basée sur les dimensions. Il s’agit de la deuxième procédure (parmi les huit) qui explique comment créer des combinaisons pour la configuration basée sur les dimensions.
 
 1. Accédez à Gestion des informations sur les produits > Produits > Produits génériques.
     * Filtrez la colonne Technologie de configuration de sorte que seule la configuration basée sur les dimensions soit affichée. Par exemple, vous pouvez filtrer la colonne en tapant Dimension.    
 2. Dans la liste, marquez la ligne sélectionnée.
 3. Cliquez sur Produits lancés.
 4. Cliquez sur Suivant.
-    * Pour les produits qui sont créés à l'aide de la technologie de configuration basée sur les dimensions, les variantes de produit doivent être créées dans la société dans laquelle la nomenclature sera créée.  
+    * Pour les produits qui sont créés à l’aide de la technologie de configuration basée sur les dimensions, les variantes de produit doivent être créées dans la société dans laquelle la nomenclature sera créée.  
 5. Cliquez sur Suivant.
-6. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+6. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez la société fictive USMF pour cette procédure.  
 7. Cliquez sur Suivant.
 8. Cliquez sur Terminer.

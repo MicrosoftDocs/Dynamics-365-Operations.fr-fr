@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f5eac47448835dae5837b31c59a72833652f63bf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249651"
 ---
 # <a name="set-up-lease-books"></a>Configurer les registres des baux
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Les registres de location contiennent les méthodes comptables qui déterminent la façon dont une location est comptabilisé dans le système. En plus de la comptabilité de caisse, la location d’actifs prend en charge les normes suivantes :
 

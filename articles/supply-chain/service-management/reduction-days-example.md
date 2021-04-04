@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 509d1a9e2abd79938376209d8feab1b935394833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: df528bf7e95ee7ea74a792894b5e1c2f50c57730
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234751"
 ---
 # <a name="reduction-days-example"></a>Exemple de jours de réduction 
 
 [!include [banner](../includes/banner.md)]
 
 
-Vous avez créé une transaction d'abonnement pour un abonnement de maintenance d'un client, comme décrit dans le tableau suivant.
+Vous avez créé une transaction d’abonnement pour un abonnement de maintenance d’un client, comme décrit dans le tableau suivant.
 
 <table>
 <colgroup>
@@ -47,7 +47,7 @@ Vous avez créé une transaction d'abonnement pour un abonnement de maintenance 
 <th><p>Du</p></th>
 <th><p>Au</p></th>
 <th><p>Abonnement</p></th>
-<th><p>Type d'abonnement</p></th>
+<th><p>Type d’abonnement</p></th>
 <th><p>Projet</p></th>
 <th><p>Catégorie</p></th>
 <th><p>Devise de vente</p></th>
@@ -69,7 +69,7 @@ Vous avez créé une transaction d'abonnement pour un abonnement de maintenance 
 </table>
 
 
-Le client signale qu'il n'a pas besoin d'une couverture de service pendant deux jours (10 et 11 mars). Vous acceptez de réduire l'abonnement pour ces deux jours.
+Le client signale qu’il n’a pas besoin d’une couverture de service pendant deux jours (10 et 11 mars). Vous acceptez de réduire l’abonnement pour ces deux jours.
 
 Vous créez une nouvelle transaction de type **Jours de réduction**, telle que décrite dans le tableau suivant.
 
@@ -89,7 +89,7 @@ Vous créez une nouvelle transaction de type **Jours de réduction**, telle que 
 <th><p>Date de début</p></th>
 <th><p>Au</p></th>
 <th><p>Abonnement</p></th>
-<th><p>Type d'abonnement</p></th>
+<th><p>Type d’abonnement</p></th>
 <th><p>Projet</p></th>
 <th><p>Catégorie</p></th>
 <th><p>Devise de vente</p></th>
@@ -111,11 +111,11 @@ Vous créez une nouvelle transaction de type **Jours de réduction**, telle que 
 </table>
 
 
-Lorsque les transactions pour mars 2011 sont facturées, le prix de vente de 200 EUR est réduit de 12,90 EUR. Le montant facturable pour la transaction d'abonnement est donc de 187,10 EUR et deux transactions sont facturées pour un total de 187,10 EUR.
+Lorsque les transactions pour mars 2011 sont facturées, le prix de vente de 200 EUR est réduit de 12,90 EUR. Le montant facturable pour la transaction d’abonnement est donc de 187,10 EUR et deux transactions sont facturées pour un total de 187,10 EUR.
 
 ## <a name="see-also"></a>Voir également :
 
-[Réduction des jours sur les frais d'abonnement](reduce-the-days-on-subscription-fees.md)
+[Réduction des jours sur les frais d’abonnement](reduce-the-days-on-subscription-fees.md)
 
   
 

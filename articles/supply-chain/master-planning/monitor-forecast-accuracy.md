@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a21e9d6199229438b73bfdf8307030eed60c21bb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8548fa9f64a579816e51bbd7ad9f63db290eaa38
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977936"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244205"
 ---
 # <a name="monitor-forecast-accuracy"></a>Contrôler la précision de la prévision
 
@@ -37,7 +37,7 @@ Supply Chain Management calcule les types de précision de prévision suivants :
 -   La précision estimée du modèle de prévision utilisé pour générer les prévisions. Vous pouvez afficher le pourcentage de précision sous **Détails du modèle - MAPE** dans la page **Détails de prévision de la demande**. 
 
 > [!NOTE]
-> Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, le calcul de la précision du modèle interne est basé sur l'ensemble de données de test. Pour spécifier la taille de l'ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
+> Si vous utilisez Microsoft Azure Machine Learning pour la prévision de la demande, le calcul de la précision du modèle interne est basé sur l’ensemble de données de test. Pour spécifier la taille de l’ensemble de données de test, définissez le paramètre **TEST\_SET\_SIZE\_PERCENT** dans la page **Paramètres de prévision de la demande**. Par exemple, si vous définissez la valeur sur **20**, les derniers 20 % des données historiques seront utilisés pour calculer la précision du modèle interne.
 
 
 <a name="additional-resources"></a>Ressources supplémentaires
@@ -45,7 +45,7 @@ Supply Chain Management calcule les types de précision de prévision suivants :
 
 [Autoriser un ajustement de la prévision de demande](authorize-adjusted-forecast.md)
 
-[Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d'une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
+[Supprimer les valeurs hors norme des données de transaction historiques lors du calcul d’une prévision de la demande](remove-historical-outliers-calculating-demand-forecast.md)
 
 
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1aadd17b35992af1e79750427fae62e9bd4ff7a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6cda6166bff926e362ee35221b9c204c2ead5503
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112498"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464150"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Vue d’ensemble du libre-service pour employés et pour responsables
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Cet article fournit une vue d’ensemble de l’espace de travail libre-service pour employés et pour responsables.
 
@@ -193,9 +195,9 @@ Vous pouvez afficher les données de poste pour les subordonnés directs et éte
 
 #### <a name="compensation-tab"></a>Onglet Rémunération
 
-L’onglet **Rémunération** affiche le salaire annuel de l’employé. Un identifiant d’entreprise s’affiche sous le montant du salaire. Si un employé a plusieurs emplois et est payé par plusieurs entités juridiques, l’employé aura plusieurs plans de rémunération. Pour voir tous les plans de rémunération des entités juridiques sans changer d'entreprise, vous devez activer la rémunération croisée sous **Human Resources > Paramètres partagés > Accès avancé > Activer la rémunération intersociétés**.
+L’onglet **Rémunération** affiche le salaire annuel de l’employé. Un identifiant d’entreprise s’affiche sous le montant du salaire. Si un employé a plusieurs emplois et est payé par plusieurs entités juridiques, l’employé aura plusieurs plans de rémunération. Pour voir tous les plans de rémunération des entités juridiques sans changer d’entreprise, vous devez activer la rémunération croisée sous **Human Resources > Paramètres partagés > Accès avancé > Activer la rémunération intersociétés**.
 
-Pour afficher l’historique des rémunérations, sélectionnez le montant du salaire pour ouvrir le formulaire **Détails**. Seuls les enregistrements de rémunération fixes et variables actuels et historiques s’affichent dans le formulaire **Rémunération**. Si un employé a plusieurs emplois, vous pouvez basculer entre les sociétés pour afficher l'historique de rémunération dans chaque société ou activer la rémunération intersociétés dans les paramètres partagés de Human Resources pour afficher tous les plans de rémunération.
+Pour afficher l’historique des rémunérations, sélectionnez le montant du salaire pour ouvrir le formulaire **Détails**. Seuls les enregistrements de rémunération fixes et variables actuels et historiques s’affichent dans le formulaire **Rémunération**. Si un employé a plusieurs emplois, vous pouvez basculer entre les sociétés pour afficher l’historique de rémunération dans chaque société ou activer la rémunération intersociétés dans les paramètres partagés de Human Resources pour afficher tous les plans de rémunération.
 
 Vous pouvez afficher la rémunération pour les subordonnés directs et étendus.
 

@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 616fb8975543344657c00c419ce7279658694675
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43625d17e0e2827396edb69a1d1d73a8472294ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252532"
 ---
 # <a name="commerce-inventory-management"></a>Gestion des stocks dans Commerce
 
 [!include [banner](includes/banner.md)]
 
-Lorsque vous travaillez avec un inventaire dans Microsoft Dynamics 365 Commerce et que vous utilisez l'une des applications Commerce connectées à Commerce Scale Unit (CSU), il est important de savoir que la logique de traitement des commandes dans CSU fournit une prise en charge limitée pour certaines dimensions d'inventaire et certains types d'articles d'inventaire. Les applications Commerce ne prennent pas en charge la gamme complète des fonctionnalités de configuration des éléments disponibles via les options de configuration des éléments dans Dynamics 365 Supply Chain Management.
+Lorsque vous travaillez avec un inventaire dans Microsoft Dynamics 365 Commerce et que vous utilisez l’une des applications Commerce connectées à Commerce Scale Unit (CSU), il est important de savoir que la logique de traitement des commandes dans CSU fournit une prise en charge limitée pour certaines dimensions d’inventaire et certains types d’articles d’inventaire. Les applications Commerce ne prennent pas en charge la gamme complète des fonctionnalités de configuration des éléments disponibles via les options de configuration des éléments dans Dynamics 365 Supply Chain Management.
 
 Les applications Commerce qui s'exécutent sur CSU ne prennent pas en charge les dimensions de produit et les configurations d'articles suivantes :
 

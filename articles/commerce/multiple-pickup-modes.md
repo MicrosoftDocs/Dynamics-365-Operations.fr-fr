@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
-ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
+ms.openlocfilehash: 38413f96eec97e93beb6998871a40c7ef755073c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5053411"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251281"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Activer plusieurs modes de livraison de retrait pour les commandes des clients
 
 [!include [banner](includes/banner.md)]
 
 
-Dans Microsoft Dynamics 365 Commerce version 10.0.16 et ultérieure, les organisations peuvent définir plusieurs modes de livraison parmi lesquels les acheteurs ou les vendeurs peuvent choisir lorsqu'ils créent une commande qui sera retirée en magasin. De cette façon, les organisations peuvent offrir plusieurs options de retrait à leurs acheteurs. Par exemple, de nombreux détaillants offrent maintenant aux acheteurs le choix entre le retrait en magasin ou le retrait à des points relais pour leurs commandes. Commerce prend en charge la configuration de ces différents modes de livraison de retrait. Les utilisateurs peuvent ensuite en profiter lorsqu'ils créent des commandes client dans n'importe quel canal de commerce pris en charge (e-commerce, centre d'appels ou magasin).
+Dans Microsoft Dynamics 365 Commerce version 10.0.16 et ultérieure, les organisations peuvent définir plusieurs modes de livraison parmi lesquels les acheteurs ou les vendeurs peuvent choisir lorsqu’ils créent une commande qui sera retirée en magasin. De cette façon, les organisations peuvent offrir plusieurs options de retrait à leurs acheteurs. Par exemple, de nombreux détaillants offrent maintenant aux acheteurs le choix entre le retrait en magasin ou le retrait à des points relais pour leurs commandes. Commerce prend en charge la configuration de ces différents modes de livraison de retrait. Les utilisateurs peuvent ensuite en profiter lorsqu'ils créent des commandes client dans n'importe quel canal de commerce pris en charge (e-commerce, centre d'appels ou magasin).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Activer et configurer des modes de livraison de retrait
 

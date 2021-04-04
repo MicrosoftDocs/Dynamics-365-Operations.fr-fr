@@ -1,6 +1,6 @@
 ---
 title: Créer des variantes de produits prédéfinies
-description: Cette procédure décrit la création des variantes de produit pour un produit générique à l'aide des combinaisons de dimensions de produit.
+description: Cette procédure décrit la création des variantes de produit pour un produit générique à l’aide des combinaisons de dimensions de produit.
 author: ShylaThompson
 manager: tfehr
 ms.date: 08/29/2018
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c33bbc7fa0ef7c3ce9768dd3688f9d1d575a513e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966928"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259864"
 ---
 # <a name="create-predefined-product-variants"></a>Créer des variantes de produits prédéfinies
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la création des variantes de produit pour un produit générique à l'aide des combinaisons de dimensions de produit. La société fictive de démonstration utilisée pour créer cette procédure est USMF.
+Cette procédure décrit la création des variantes de produit pour un produit générique à l’aide des combinaisons de dimensions de produit. La société fictive de démonstration utilisée pour créer cette procédure est USMF.
 
 
 ## <a name="create-a-product-master"></a>Créer un produit générique
 1. Accédez à Gestion des informations sur les produits > Produits > Produits génériques.
 2. Cliquez sur Nouveau.
 3. Dans le champ Numéro du produit, saisissez une valeur.
-    * La saisie manuelle d'un numéro de produit est obligatoire uniquement si aucune souche de numéros n'a été paramétrée pour le champ du numéro de produit. Autrement dit, ignorez l'étape si la souche de numéros a été définie pour le champ.  
+    * La saisie manuelle d’un numéro de produit est obligatoire uniquement si aucune souche de numéros n’a été paramétrée pour le champ du numéro de produit. Autrement dit, ignorez l’étape si la souche de numéros a été définie pour le champ.  
 4. Dans le champ Nom du produit, saisissez une valeur.
 5. Saisissez ou sélectionnez une valeur dans le champ Groupe de dimensions de produit.
     * Sélectionnez le groupe de dimensions de produit SizeCol (taille et couleur).  
@@ -41,7 +41,7 @@ Cette procédure décrit la création des variantes de produit pour un produit g
 
 ## <a name="add-product-dimensions"></a>Ajouter des dimensions de produit
 1. Cliquez sur Dimensions de produit.
-    * Cet exemple décrit la manière d'entrer manuellement les dimensions de produit. Vous pouvez également choisir de sélectionner un groupe de tailles, de couleurs ou de styles incluant les valeurs de dimension de produit à utiliser.  
+    * Cet exemple décrit la manière d’entrer manuellement les dimensions de produit. Vous pouvez également choisir de sélectionner un groupe de tailles, de couleurs ou de styles incluant les valeurs de dimension de produit à utiliser.  
 2. Cliquez sur Nouveau.
 3. Dans la liste, marquez la ligne sélectionnée.
 4. Saisissez ou sélectionnez une valeur dans le champ Taille.
@@ -50,7 +50,7 @@ Cette procédure décrit la création des variantes de produit pour un produit g
 7. Dans la liste, marquez la ligne sélectionnée.
 8. Saisissez ou sélectionnez une valeur dans le champ Taille.
 9. Tapez une valeur dans le champ Nom.
-10. Cliquez sur l'onglet Couleurs.
+10. Cliquez sur l’onglet Couleurs.
 11. Cliquez sur Nouveau.
 12. Dans la liste, marquez la ligne sélectionnée.
 13. Dans le champ Couleur, saisissez ou sélectionnez une valeur.

@@ -18,36 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8662035235aa9b4788ced83c2c0efc0e4862e2a6
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: ab6b212efca7fa69d74d06ce2dbbab09d50f044c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112578"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467191"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Créer des liens personnalisés dans le libre-service des responsables
 
-Vous pouvez ajouter des liens personnalisés sur l'onglet **Mon équipe** dans le libre-service des responsables. Cette fonction vous permet d'accéder rapidement aux informations importantes. Elle est similaire à l'ajout de liens personnalisés dans l'onglet **Mes informations** dans le libre-service des employés.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Vous pouvez ajouter des liens personnalisés sur l’onglet **Mon équipe** dans le libre-service des responsables. Cette fonction vous permet d’accéder rapidement aux informations importantes. Elle est similaire à l’ajout de liens personnalisés dans l’onglet **Mes informations** dans le libre-service des employés.
 
 ## <a name="enable-the--feature"></a>Activer la fonctionnalité
 
-Pour utiliser cette fonctionnalité, activez **Liens personnalisés dans le libre service des responsables** dans l'espace de travail **Gestion des fonctionnalités**. Pour plus d’informations sur l'activation des fonctionnalités d'évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
+Pour utiliser cette fonctionnalité, activez **Liens personnalisés dans le libre service des responsables** dans l’espace de travail **Gestion des fonctionnalités**. Pour plus d’informations sur l’activation des fonctionnalités d’évaluation, voir [Gérer les fonctionnalités](hr-admin-manage-features.md).
 
 ## <a name="set-up-custom-links"></a>Configurer des liens personnalisés
 
 1. Dans **Paramètres de Human Resources**, sélectionnez **Libre-service des responsables**.
 
-2. Sous **Configurer des liens pour les responsables**, vous pouvez ajouter, modifier ou supprimer un lien. Vous pouvez également regrouper les liens afin qu'ils s'affichent dans un groupe dans le libre-service des responsables.
+2. Sous **Configurer des liens pour les responsables**, vous pouvez ajouter, modifier ou supprimer un lien. Vous pouvez également regrouper les liens afin qu’ils s’affichent dans un groupe dans le libre-service des responsables.
 
    ![Configurer des liens personnalisés dans le libre-service des responsables](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. Pour voir les liens, accédez à l'onglet **Mon équipe** dans le libre-service des employés.
+3. Pour voir les liens, accédez à l’onglet **Mon équipe** dans le libre-service des employés.
 
    ![Afficher des liens personnalisés dans le libre-service des responsables](./media/hr-employee-manager-self-service-custom-links-view.png)
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d'ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)
+[Vue d’ensemble du libre-service pour employés et pour responsables](hr-employee-manager-self-service-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
