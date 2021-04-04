@@ -16,12 +16,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: d1259fe9a62077c9e24671c5646ea5f7e4a71e31
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 177f0cda9cb80e55ea96b97a7f5355cd403ed333
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988351"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236331"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -103,7 +103,7 @@ Des exemples de code déclaration de taxe sont fournis dans la section [Paramét
 ### <a name="tax-exempt-number"></a>Numéro identifiant TVA
 
 1.  Allez dans **Taxe** \> **Paramétrage** \> **Taxe** \> **Numéros identifiant TVA**.
-2.  Pour chaque numéro d'identifiant TVA, créez un enregistrement comprenant les informations suivantes :
+2.  Pour chaque numéro d’identifiant TVA, créez un enregistrement comprenant les informations suivantes :
 
     -   Dans le champ **Pays/région**, sélectionnez l’enregistrement de taxe de la contrepartie.
     -   Dans le champ **Numéro identifiant TVA**, entrez le numéro identifiant TVA de la contrepartie.
@@ -268,7 +268,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>81</p>
 </td>
 <td width="71%">
-<p>Montant de tous les achats de biens, matières premières, et consommables, et coûts d'acquisition associés, à l'exclusion de la TVA déductible.</p>
+<p>Montant de tous les achats de biens, matières premières, et consommables, et coûts d’acquisition associés, à l’exclusion de la TVA déductible.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -279,7 +279,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>82</p>
 </td>
 <td width="71%">
-<p>Montant de marchandises diverses et de services, peu importe s'ils sont soumis à la TVA, à l'exclusion de la TVA déductible.</p>
+<p>Montant de marchandises diverses et de services, peu importe s’ils sont soumis à la TVA, à l’exclusion de la TVA déductible.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -290,7 +290,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>83</p>
 </td>
 <td width="71%">
-<p>Montant des achats de biens d’équipement, peu importe s'ils sont soumis à la TVA, à l'exclusion de la TVA déductible.</p>
+<p>Montant des achats de biens d’équipement, peu importe s’ils sont soumis à la TVA, à l’exclusion de la TVA déductible.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -334,7 +334,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>85</p>
 </td>
 <td width="71%">
-<p>Montant des crédits reçus et ajustements négatifs liés aux autres zones de la section III, « Entrées », à l'exclusion du montant de la TVA (déductible et non déductible).</p>
+<p>Montant des crédits reçus et ajustements négatifs liés aux autres zones de la section III, « Entrées », à l’exclusion du montant de la TVA (déductible et non déductible).</p>
 </td>
 <td width="10%">
 <p>Base</p>

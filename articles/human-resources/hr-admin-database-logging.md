@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 50346cc495fe08f49137dba59dbcbb3f7f838c7b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129277"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467647"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurer et gérer la journalisation de la base de données
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Vous pouvez suivre les modifications apportées aux tables et aux champs dans Dynamics 365 Human Resources avec la journalisation de la base de données. Cette rubrique décrit comment :
 
@@ -35,20 +37,20 @@ Vous pouvez suivre les modifications apportées aux tables et aux champs dans Dy
 
 ## <a name="overview-of-database-logging"></a>Présenter la journalisation de la base de données
 
-La journalisation de la base de données effectue le suivi des modifications apportées aux tables et aux champs dans Microsoft Dynamics 365 Human Resources. Ces modifications incluent l'insertion, la mise à jour ou la suppression. La journalisation de la base de données stocke un enregistrement des modifications apportées aux tables ou aux champs dans la table de journal de la base de données.
+La journalisation de la base de données effectue le suivi des modifications apportées aux tables et aux champs dans Microsoft Dynamics 365 Human Resources. Ces modifications incluent l’insertion, la mise à jour ou la suppression. La journalisation de la base de données stocke un enregistrement des modifications apportées aux tables ou aux champs dans la table de journal de la base de données.
 
 Les utilisations commerciales de la journalisation de la base de données comprennent :
 
-- Création d'un enregistrement d'audit des modifications apportées à des tables spécifiques contenant des informations sensibles.
-- Suivi des transactions uniques. La journalisation de la base de données n'est pas destinée au suivi des transactions automatisées qui s'exécutent dans des travaux par lots.
+- Création d’un enregistrement d’audit des modifications apportées à des tables spécifiques contenant des informations sensibles.
+- Suivi des transactions uniques. La journalisation de la base de données n’est pas destinée au suivi des transactions automatisées qui s’exécutent dans des travaux par lots.
 
 ## <a name="security-for-database-logging"></a>Sécurité pour la journalisation de la base de données
 
-Les journaux de base de données peuvent contenir des données confidentielles. Limitez l'accès pour inclure uniquement les rôles de sécurité qui ont besoin d'accéder aux données du journal.
+Les journaux de base de données peuvent contenir des données confidentielles. Limitez l’accès pour inclure uniquement les rôles de sécurité qui ont besoin d’accéder aux données du journal.
 
 ## <a name="database-logging-and-performance"></a>Journalisation et performances de la base de données
 
-Bien que précieuse d'un point de vue commercial, la journalisation de la base de données peut être coûteuse en termes d'utilisation et de gestion des ressources. Les implications de performance de la journalisation de la base de données comprennent :
+Bien que précieuse d’un point de vue commercial, la journalisation de la base de données peut être coûteuse en termes d’utilisation et de gestion des ressources. Les implications de performance de la journalisation de la base de données comprennent :
 
 - La table des journaux de la base de données peut croître rapidement et entraîner une augmentation de la taille de la base de données. La croissance dépend de la quantité de données enregistrées que vous décidez de conserver. Par défaut, la table des journaux de la base de données ne conserve que 30 jours de données de journal. 
 
@@ -63,30 +65,30 @@ Pour améliorer les performances, limitez les entrées de journal en sélectionn
 
 ## <a name="set-up-database-logging"></a>Paramétrer la connexion de la base de données
 
-Vous pouvez utiliser l'assistant **Consignation des modifications de base de données** pour configurer la journalisation de la base de données. L'assistant offre un moyen flexible de configurer la journalisation des tables ou des champs.
+Vous pouvez utiliser l’assistant **Consignation des modifications de base de données** pour configurer la journalisation de la base de données. L’assistant offre un moyen flexible de configurer la journalisation des tables ou des champs.
 
-1. Accédez à **Administration système> liens> Base de données> Configuration du journal de base de données**. Sélectionnez **Nouveau** pour démarrer l'assistant **Consignation des modifications de base de données**.
-2. Suivez les instructions de l'Assistant.
+1. Accédez à **Administration système> liens> Base de données> Configuration du journal de base de données**. Sélectionnez **Nouveau** pour démarrer l’assistant **Consignation des modifications de base de données**.
+2. Suivez les instructions de l’Assistant.
 
 ## <a name="clean-up-database-logs"></a>Nettoyer les journaux de base de données
 
-Vous pouvez supprimer tout ou partie des journaux de la base de données à l'aide des options suivantes :
+Vous pouvez supprimer tout ou partie des journaux de la base de données à l’aide des options suivantes :
 
 - Sélectionnez tous les journaux pour une table particulière.
 - Sélectionnez des types spécifiques de journal de base de données.
-- Sélectionnez une date et une heure de création d'un journal.
+- Sélectionnez une date et une heure de création d’un journal.
 
 Pour paramétrer le nettoyage des journaux de base de données, procédez comme suit : 
 
 1. Accédez à **Administration système> liens> Base de données> Journal de base de données**. Sélectionnez **Nettoyer le journal**.
 
-2. Choisissez une méthode de sélection des journaux à supprimer en entrant l'une des options suivantes :
+2. Choisissez une méthode de sélection des journaux à supprimer en entrant l’une des options suivantes :
 
    - ID table
    - Type de journal
    - Date et heure de création
 
-3. Utilisez l'onglet **Nettoyage des journaux de base de données** pour déterminer quand exécuter la tâche de nettoyage des journaux. Par défaut, les journaux de base de données sont disponibles pendant 30 jours.
+3. Utilisez l’onglet **Nettoyage des journaux de base de données** pour déterminer quand exécuter la tâche de nettoyage des journaux. Par défaut, les journaux de base de données sont disponibles pendant 30 jours.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

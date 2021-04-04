@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e52b7a5aff3e86e845484e1e84b4003cc4a52c95
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 07922a20d5c99640f32bb28ddddaffe846440667
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258873"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Créer une nomenclature de numéro de produit pour les variantes de produit configurées
 
@@ -57,12 +57,12 @@ Cette procédure décrit comment paramétrer une nomenclature de numéros de pro
 
 ## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Créer une nomenclature pour un composant du modèle de configuration de produit
 1. Cliquez sur Modèles de configuration de produit.
-2. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+2. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Cliquez sur Modifier.
 5. Sélectionnez Oui dans le champ Utiliser la nomenclature de configuration.
 6. Cliquez sur Ajouter.
-7. Cliquez sur Valeur d'attribut.
+7. Cliquez sur Valeur d’attribut.
 8. Dans la liste, marquez la ligne sélectionnée.
 9. Dans le champ Attribut, entrez ou sélectionnez une valeur.
 10. Cliquez sur Ajouter.
@@ -70,7 +70,7 @@ Cette procédure décrit comment paramétrer une nomenclature de numéros de pro
 12. Dans la liste, marquez la ligne sélectionnée.
 13. Tapez une valeur dans le champ Texte.
 14. Cliquez sur Ajouter.
-15. Cliquez sur Valeur d'attribut.
+15. Cliquez sur Valeur d’attribut.
 16. Dans la liste, marquez la ligne sélectionnée.
 17. Dans le champ Attribut, entrez ou sélectionnez une valeur.
 18. Cliquez sur Ajouter.
@@ -78,7 +78,7 @@ Cette procédure décrit comment paramétrer une nomenclature de numéros de pro
 20. Dans la liste, marquez la ligne sélectionnée.
 21. Tapez une valeur dans le champ Texte.
 22. Cliquez sur Ajouter.
-23. Cliquez sur Valeur d'attribut.
+23. Cliquez sur Valeur d’attribut.
 24. Dans la liste, marquez la ligne sélectionnée.
 25. Dans le champ Attribut, entrez ou sélectionnez une valeur.
 26. Cliquez sur Ajouter.
@@ -86,7 +86,7 @@ Cette procédure décrit comment paramétrer une nomenclature de numéros de pro
 28. Dans la liste, marquez la ligne sélectionnée.
 29. Tapez une valeur dans le champ Texte.
 30. Cliquez sur Ajouter.
-31. Cliquez sur Valeur d'attribut.
+31. Cliquez sur Valeur d’attribut.
 32. Dans la liste, marquez la ligne sélectionnée.
 33. Dans le champ Attribut, entrez ou sélectionnez une valeur.
 34. Cliquez sur Ajouter.

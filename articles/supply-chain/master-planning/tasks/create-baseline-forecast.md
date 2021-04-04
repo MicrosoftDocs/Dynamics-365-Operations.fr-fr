@@ -1,6 +1,6 @@
 ---
 title: Créer une prévision de base
-description: Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique.
+description: Un responsable de production peut créer une prévision de base à l’aide des modèles de prévision de série chronologiques ou en copiant la demande historique.
 author: ShylaThompson
 manager: tfehr
 ms.date: 08/29/2018
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f777503c6161376afc933322b5d60054e2468b34
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f18da9563421e7e092869451376e53a450abdf7e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983414"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246715"
 ---
 # <a name="create-a-baseline-forecast"></a>Créer une prévision de base
 
 [!include [banner](../../includes/banner.md)]
 
-Un responsable de production peut créer une prévision de base à l'aide des modèles de prévision de série chronologiques ou en copiant la demande historique. Cette procédure indique comment copier la demande historique pour créer une prévision de base pour tous les produits à l'aide d'une clé de répartition par article. 
+Un responsable de production peut créer une prévision de base à l’aide des modèles de prévision de série chronologiques ou en copiant la demande historique. Cette procédure indique comment copier la demande historique pour créer une prévision de base pour tous les produits à l’aide d’une clé de répartition par article. 
 
 
 ## <a name="set-up-an-item-allocation-key"></a>Paramétrer une clé de répartition par article
 1. Accédez à Planification > Paramétrage > Groupes de planification intersociétés.
 2. Utilisez le Filtre rapide pour rechercher les enregistrements. Par exemple, filtrez sur le champ Nom avec une valeur de « 10 ».
-    * Les prévisions de la demande fonctionnent dans les entités juridiques. C'est pourquoi vous devez paramétrer toutes les sociétés pour lesquelles vous souhaitez générer des prévisions à un groupe de planification intersociétés.  
-3. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+    * Les prévisions de la demande fonctionnent dans les entités juridiques. C’est pourquoi vous devez paramétrer toutes les sociétés pour lesquelles vous souhaitez générer des prévisions à un groupe de planification intersociétés.  
+3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
 4. Cliquez sur Clés de répartition par article.
     * Sélectionnez toutes les clés de répartition par article pour lesquelles vous souhaitez créer des prévisions.  
 5. Dans la liste, marquez la ligne sélectionnée.
@@ -44,14 +44,14 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
 
 ## <a name="set-up-the-demand-forecasting-parameters"></a>Définir des paramètres de prévision de la demande
 1. Accédez à Planification > Paramétrage> Prévision de la demande > Paramètres de prévision de la demande.
-2. Développez la section Paramètres de l'algorithme de prévision.
+2. Développez la section Paramètres de l’algorithme de prévision.
 3. Dans le champ Stratégie de génération de la prévision, sélectionnez Copier sur la demande historique.
 4. Cliquez sur Enregistrer.
 
 ## <a name="create-a-baseline-forecast"></a>Créer une prévision de base
 1. Accédez à Planification > Prévisions > Prévision de la demande > Générer des prévisions de base statistiques.
 2. Entrez une date dans le champ Date de début.
-    * Si vous avez des commandes client à partir du 1er janvier 2015, entrez cette date. Si ce n'est pas le cas, entrez la date de vos commandes client la plus proche.  
+    * Si vous avez des commandes client à partir du 1er janvier 2015, entrez cette date. Si ce n’est pas le cas, entrez la date de vos commandes client la plus proche.  
 3. Entrez une date dans le champ Date de fin.
     * Entrez la dernière date de vos commandes client, par exemple « 31-03-2015 ».  
 4. Entrez une date dans le champ Date de début.
@@ -62,7 +62,7 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
     * Marquez la ligne où Champ = Groupe de planification intersociétés.  
 8. Tapez une valeur dans le champ Critères.
     * Tapez le groupe de planification intersociétés, par exemple, 10, que vous avez utilisé dans la première tâche.  
-9. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+9. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
     * Sélectionnez la ligne de champ = clé de répartition par article.  
 10. Tapez une valeur dans le champ Critères.
 11. Cliquez sur OK.
@@ -74,10 +74,10 @@ Un responsable de production peut créer une prévision de base à l'aide des mo
 
 ## <a name="visualize-the-demand-forecast"></a>Visualiser la prévision de la demande
 1. Accédez à Planification > Prévisions > Prévision de la demande > Prévision de la demande ajustée.
-2. Dans la table de vue d'ensemble regroupée, sélectionnez la cellule de la ligne 1, colonne 2. Il s'agit de la cellule pour le deuxième mois pour lequel vous avez créé une prévision.
+2. Dans la table de vue d’ensemble regroupée, sélectionnez la cellule de la ligne 1, colonne 2. Il s’agit de la cellule pour le deuxième mois pour lequel vous avez créé une prévision.
 3. Définissez QtyCell sur « 400 ".
     * Dans la cellule, entrez un nombre différent de celui qui a été planifié, par exemple, 400.  
-4. Vous avez effectué un ajustement manuel dans la prévision. Notez l'indication graphique dans l'étape suivante.
+4. Vous avez effectué un ajustement manuel dans la prévision. Notez l’indication graphique dans l’étape suivante.
 5. Cliquez sur Détails des lignes de prévision.
     * Dans cette page, vous pouvez voir les valeurs de précision, la demande historique et la prévision. Vous pouvez également apporter des modifications aux prévisions.  
 

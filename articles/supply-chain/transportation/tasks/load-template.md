@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0a4070a1dd5d53bb502ba2ab0c91dbdc90ded34d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 80004b5d22e1cf81c1ffa9f74c2c479e1561df72
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005050"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247212"
 ---
 # <a name="load-templates"></a>Modèles de chargement
 
-Lorsque vous créez une charge, vous pouvez attribuer un modèle de charge. Le modèle de chargement contient des informations sur l'équipement et sur des mesures telles que la hauteur, la largeur, la profondeur et le volume de la charge.
+Lorsque vous créez une charge, vous pouvez attribuer un modèle de charge. Le modèle de chargement contient des informations sur l’équipement et sur des mesures telles que la hauteur, la largeur, la profondeur et le volume de la charge.
 
 Cette rubrique décrit comment paramétrer des modèles de charge et comment associer un modèle de charge à une nouvelle charge.
 
@@ -36,21 +36,21 @@ Cette rubrique décrit comment paramétrer des modèles de charge et comment ass
 1. Dans la ligne du modèle nouveau ou existant, définissez les champs suivants :
 
     - **ID de modèle de chargement** – Entrez un identificateur (ID) unique pour la charge.
-    - **Équipement** – Sélectionnez l'équipement à utiliser pour expédier le chargement.
+    - **Équipement** – Sélectionnez l’équipement à utiliser pour expédier le chargement.
     - **Hauteur de chargement**, **Largeur de chargement**, et **Profondeur de chargement** – Entrez les dimensions de la charge.
     - **Volume de chargement autorisé max.** et **Poids de charge autorisé max.** – Entrez le volume et le poids maximum autorisés de la charge.
     - **Poids brut autorisé maximum** – Entrez le poids brut autorisé maximum de la charge. Un poids brut de la charge comprend le poids de la tare et le poids de la charge.
     - **Nombre maximum de pièces de fret autorisé** – Entrez le nombre maximum de pièces de fret que le chargement peut contenir.
-    - **Empiler la charge au sol**–- Cochez cette case pour utiliser le chargement au sol. Dans un scénario de chargement au sol, les boîtes sont empilées du sol au plafond et d'un mur à l'autre dans le conteneur afin de maximiser la capacité.
+    - **Empiler la charge au sol**–- Cochez cette case pour utiliser le chargement au sol. Dans un scénario de chargement au sol, les boîtes sont empilées du sol au plafond et d’un mur à l’autre dans le conteneur afin de maximiser la capacité.
 
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 ## <a name="associate-a-load-template-with-a-new-load"></a>Associer un modèle de charge à une nouvelle charge
 
 1. Accédez à **Gestion du transport \> Planning \> Console de planification des charges**.
-1. Dans la partie supérieure de la page, sélectionnez l'un des onglets suivants, en fonction du type de document source pour lequel vous créez une charge : **Expéditions**, **Lignes de vente**, **Lignes de transfert**, ou **Lignes de commande d'achat**. 
+1. Dans la partie supérieure de la page, sélectionnez l’un des onglets suivants, en fonction du type de document source pour lequel vous créez une charge : **Expéditions**, **Lignes de vente**, **Lignes de transfert**, ou **Lignes de commande d’achat**. 
 1. Sélectionnez le document spécifique pour lequel planifier le chargement.
-1. Dans le volet Actions, sous l'onglet **Approvisionnement et demande**, dans le groupe **Ajouter**, sélectionnez **Dans un nouveau chargement**.
+1. Dans le volet Actions, sous l’onglet **Approvisionnement et demande**, dans le groupe **Ajouter**, sélectionnez **Dans un nouveau chargement**.
 1. Dans la boîte de dialogue **Modèle de chargement**, dans le champ **ID modèle de chargement**, sélectionnez le modèle à appliquer.
 1. Sélectionnez **OK** pour appliquer le modèle.
 

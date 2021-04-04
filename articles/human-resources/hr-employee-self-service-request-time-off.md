@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1bbd662d5d1044e77514318eda00b3dd29dd63b6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 031dcfe6f2f88f65c9eeefe2b81171a8dfcb85d5
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115220"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466398"
 ---
 # <a name="request-time-off"></a>Demande de congés
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Vous pouvez soumettre des demandes de congés, consulter vos soldes de vacances et de congés, et voir l’état de vos demandes de congés dans Dynamics 365 Human Resources.
 

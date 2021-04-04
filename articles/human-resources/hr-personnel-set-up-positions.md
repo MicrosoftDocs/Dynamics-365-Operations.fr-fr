@@ -1,6 +1,6 @@
 ---
 title: Paramétrer les postes
-description: Les postes sont un élément important de niveau inférieur d'une hiérarchie d'organisation.
+description: Les postes sont un élément important de niveau inférieur d’une hiérarchie d’organisation.
 author: andreabichsel
 manager: tfehr
 ms.date: 08/29/2018
@@ -16,35 +16,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 335031731a02980cba24d2424c1505df64effbac
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 88acf6325a0513d75a5ea0a6b463b93a1b9f56fe
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130469"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467383"
 ---
 # <a name="set-up-positions"></a>Paramétrer les postes
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
-Les postes sont un élément important de niveau inférieur d'une hiérarchie d'organisation. Un poste est une instance individuelle d'une tâche. Par exemple, le poste « Responsable des ventes (est) » est l'un des postes associé à la tâche « Responsable des ventes ». Un poste existe dans un département et il ne peut y être associé qu'un seul employé. Dans cette tâche, vous allez parcourir les étapes requises pour créer un poste. Cette procédure est destinée aux spécialistes en ressources humaines.
+
+Les postes sont un élément important de niveau inférieur d’une hiérarchie d’organisation. Un poste est une instance individuelle d’une tâche. Par exemple, le poste « Responsable des ventes (est) » est l’un des postes associé à la tâche « Responsable des ventes ». Un poste existe dans un département et il ne peut y être associé qu’un seul employé. Dans cette tâche, vous allez parcourir les étapes requises pour créer un poste. Cette procédure est destinée aux spécialistes en ressources humaines.
 
 1. Cliquez sur Gestion du personnel.
 2. Cliquez sur Postes vacants.
 3. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 4. Saisissez ou sélectionnez une valeur dans le champ Tâche.
-    * La description de la tâche, le titre et le facteur d'emploi équivalent temps plein sont automatiquement copiés à partir de la tâche sélectionnée dans le poste.  
+    * La description de la tâche, le titre et le facteur d’emploi équivalent temps plein sont automatiquement copiés à partir de la tâche sélectionnée dans le poste.  
 5. Résolvez les modifications de la tâche.
 6. Cliquez sur Créer un poste.
 7. Saisissez ou sélectionnez une valeur dans le champ Service.
 8. Saisissez ou sélectionnez une valeur dans le champ Type de poste.
 9. Sélectionnez ou entrez une valeur dans le champ Région de rémunération.
-    * Le champ Région de rémunération détermine les règles d'admissibilité de rémunération et les budgets d'augmentation fixes qui s'appliquent à un employé dans ce poste.  
+    * Le champ Région de rémunération détermine les règles d’admissibilité de rémunération et les budgets d’augmentation fixes qui s’appliquent à un employé dans ce poste.  
 10. Entrez une date et une heure dans le champ Disponible pour affectation.
 11. Développez la section Durée du poste.
-    * La durée du poste est entrée par défaut selon les dates d'activation et de suppression entrées précédemment  
+    * La durée du poste est entrée par défaut selon les dates d’activation et de suppression entrées précédemment  
 12. Développez la section Poste de référence.
-    * Lorsque vous affectez un travailleur à un poste qui dépend d'un autre poste, vous créez une relation hiérarchique directe entre les travailleurs affectés aux deux postes.  
+    * Lorsque vous affectez un travailleur à un poste qui dépend d’un autre poste, vous créez une relation hiérarchique directe entre les travailleurs affectés aux deux postes.  
 13. Cliquez sur Nouveau pour ouvrir la boîte de dialogue.
 14. Dans le champ Référence, saisissez ou sélectionnez une valeur.
 15. Cliquez sur Créer.
@@ -59,7 +61,7 @@ Les postes sont un élément important de niveau inférieur d'une hiérarchie d'
 23. Saisissez ou sélectionnez une valeur dans le champ Cycle de paie.
 24. Saisissez ou sélectionnez une valeur dans le champ Payé par.
 25. Entrez un nombre dans le champ Durée annuelle normale.
-    * Il s'agit du nombre d'heures rémunérées régulières pendant lesquelles le collaborateur à ce poste va normalement travailler chaque année.  
+    * Il s’agit du nombre d’heures rémunérées régulières pendant lesquelles le collaborateur à ce poste va normalement travailler chaque année.  
 26. Développez la section Syndicat.
 27. Réduisez la section Syndicat.
 28. Développez la section Dimensions financières.
