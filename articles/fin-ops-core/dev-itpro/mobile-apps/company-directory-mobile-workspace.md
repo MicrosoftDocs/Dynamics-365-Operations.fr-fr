@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,78 +13,81 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6f48d369d5cd9d5ee0b234ce924ec0b80388c792
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683429"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570114"
 ---
-# <a name="company-directory-mobile-workspace"></a><span data-ttu-id="93550-103">Espace de travail mobile Répertoire de la société</span><span class="sxs-lookup"><span data-stu-id="93550-103">Company directory mobile workspace</span></span>
+# <a name="company-directory-mobile-workspace"></a><span data-ttu-id="faf4f-103">Espace de travail mobile Répertoire de la société</span><span class="sxs-lookup"><span data-stu-id="faf4f-103">Company directory mobile workspace</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="93550-104">Cette rubrique fournit des informations sur l’espace de travail mobile **Répertoire de la société**.</span><span class="sxs-lookup"><span data-stu-id="93550-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="93550-105">Cet espace de travail permet de visualiser et de contacter d’autres employés de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="93550-105">This workspace lets users view and contact other employees in their organization.</span></span>
+<span data-ttu-id="faf4f-104">Cette rubrique fournit des informations sur l’espace de travail mobile **Répertoire de la société**.</span><span class="sxs-lookup"><span data-stu-id="faf4f-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="faf4f-105">Cet espace de travail permet de visualiser et de contacter d’autres employés de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="faf4f-105">This workspace lets users view and contact other employees in their organization.</span></span>
 
-<span data-ttu-id="93550-106">Cet espace de travail mobile peut être utilisé avec l’application mobile Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="93550-106">This mobile workspace can be used with the Finance and Operations mobile app.</span></span>
+<span data-ttu-id="faf4f-106">Cet espace de travail mobile peut être utilisé avec l’application mobile Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="faf4f-106">This mobile workspace can be used with the Finance and Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="93550-107">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="93550-107">Overview</span></span>
-<span data-ttu-id="93550-108">L’espace de travail mobile **Répertoire de la société** permet aux utilisateurs d’effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="93550-108">The **Company directory** mobile workspace lets users perform these tasks:</span></span>
+## <a name="overview"></a><span data-ttu-id="faf4f-107">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="faf4f-107">Overview</span></span>
+<span data-ttu-id="faf4f-108">L’espace de travail mobile **Répertoire de la société** permet aux utilisateurs d’effectuer les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="faf4f-108">The **Company directory** mobile workspace lets users perform these tasks:</span></span>
 
-- <span data-ttu-id="93550-109">Afficher la liste des employés de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="93550-109">View a list of employees in the organization.</span></span>
-- <span data-ttu-id="93550-110">Rechercher des employés de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="93550-110">Search for employees in the organization.</span></span>
-- <span data-ttu-id="93550-111">Afficher les coordonnées des employés.</span><span class="sxs-lookup"><span data-stu-id="93550-111">View contact information for employees.</span></span>
-- <span data-ttu-id="93550-112">Contacter des employés à partir des informations de profil.</span><span class="sxs-lookup"><span data-stu-id="93550-112">Contact employees from the profile information.</span></span>
+- <span data-ttu-id="faf4f-109">Afficher la liste des employés de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="faf4f-109">View a list of employees in the organization.</span></span>
+- <span data-ttu-id="faf4f-110">Rechercher des employés de l’organisation.</span><span class="sxs-lookup"><span data-stu-id="faf4f-110">Search for employees in the organization.</span></span>
+- <span data-ttu-id="faf4f-111">Afficher les coordonnées des employés.</span><span class="sxs-lookup"><span data-stu-id="faf4f-111">View contact information for employees.</span></span>
+- <span data-ttu-id="faf4f-112">Contacter des employés à partir des informations de profil.</span><span class="sxs-lookup"><span data-stu-id="faf4f-112">Contact employees from the profile information.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="93550-113">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="93550-113">Prerequisites</span></span>
-<span data-ttu-id="93550-114">Avant d’utiliser cet espace de travail mobile, les conditions requises suivantes doivent être remplies.</span><span class="sxs-lookup"><span data-stu-id="93550-114">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="faf4f-113">Conditions préalables</span><span class="sxs-lookup"><span data-stu-id="faf4f-113">Prerequisites</span></span>
+<span data-ttu-id="faf4f-114">Avant d’utiliser cet espace de travail mobile, les conditions requises suivantes doivent être remplies.</span><span class="sxs-lookup"><span data-stu-id="faf4f-114">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="93550-115">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="93550-115">Prerequisite</span></span></th>
-<th><span data-ttu-id="93550-116">Rôle</span><span class="sxs-lookup"><span data-stu-id="93550-116">Role</span></span></th>
-<th><span data-ttu-id="93550-117">Description</span><span class="sxs-lookup"><span data-stu-id="93550-117">Description</span></span></th>
+<th><span data-ttu-id="faf4f-115">Logiciel requis</span><span class="sxs-lookup"><span data-stu-id="faf4f-115">Prerequisite</span></span></th>
+<th><span data-ttu-id="faf4f-116">Rôle</span><span class="sxs-lookup"><span data-stu-id="faf4f-116">Role</span></span></th>
+<th><span data-ttu-id="faf4f-117">Description</span><span class="sxs-lookup"><span data-stu-id="faf4f-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="93550-118">Un des produits suivants doit être déployés dans votre organisation :</span><span class="sxs-lookup"><span data-stu-id="93550-118">One of the following products must be deployed in your organization:</span></span>
-<ul><li><span data-ttu-id="93550-119">Une application Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="93550-119">A Finance and Operations app</span></span></li>
-<li><span data-ttu-id="93550-120">Microsoft Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="93550-120">Microsoft Dynamics 365 Human Resources</span></span></li>
+<td><span data-ttu-id="faf4f-118">Un des produits suivants doit être déployés dans votre organisation :</span><span class="sxs-lookup"><span data-stu-id="faf4f-118">One of the following products must be deployed in your organization:</span></span>
+<ul><li><span data-ttu-id="faf4f-119">Une application Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="faf4f-119">A Finance and Operations app</span></span></li>
+<li><span data-ttu-id="faf4f-120">Microsoft Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="faf4f-120">Microsoft Dynamics 365 Human Resources</span></span></li>
 </ul>
 </td>
-<td><span data-ttu-id="93550-121">Administrateur système</span><span class="sxs-lookup"><span data-stu-id="93550-121">System administrator</span></span></td>
-<td><span data-ttu-id="93550-122">Si vous n’avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.</span><span class="sxs-lookup"><span data-stu-id="93550-122">If you don&#39;t already have a Finance and Operations app deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="93550-123">Si vous n’avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.</span><span class="sxs-lookup"><span data-stu-id="93550-123">If you don&#39;t already have Human Resources deployed in your organization, the system administrator can access a trial version from the <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources webpage</a>.</span></span>
+<td><span data-ttu-id="faf4f-121">Administrateur système</span><span class="sxs-lookup"><span data-stu-id="faf4f-121">System administrator</span></span></td>
+<td><span data-ttu-id="faf4f-122">Si vous n&#39;avez pas encore une application Finance and Operations déployée dans votre organisation, voir <a href="../deployment/deploy-demo-environment.md">Déployer un environnement de démonstration</a>.</span><span class="sxs-lookup"><span data-stu-id="faf4f-122">If you don&#39;t already have a Finance and Operations app deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="faf4f-123">Si vous n’avez pas encore Ressources humaines déployé dans votre organisation, l’administrateur système peut accéder à une version de test de la <a href="https://dynamics.microsoft.com/human-resources/overview/">Page web Ressources humaines</a>.</span><span class="sxs-lookup"><span data-stu-id="faf4f-123">If you don&#39;t already have Human Resources deployed in your organization, the system administrator can access a trial version from the <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources webpage</a>.</span></span>
 </td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="93550-124">L’espace de travail mobile <strong>Répertoire de la société</strong> doit être publié.</span><span class="sxs-lookup"><span data-stu-id="93550-124">The <strong>Company directory</strong> mobile workspace must be published.</span></span></td>
-<td><span data-ttu-id="93550-125">Administrateur système</span><span class="sxs-lookup"><span data-stu-id="93550-125">System administrator</span></span></td>
-<td><span data-ttu-id="93550-126">Voir <a href="publish-mobile-workspace.md">Publier un espace de travail mobile</a>.</span><span class="sxs-lookup"><span data-stu-id="93550-126">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="faf4f-124">L’espace de travail mobile <strong>Répertoire de la société</strong> doit être publié.</span><span class="sxs-lookup"><span data-stu-id="faf4f-124">The <strong>Company directory</strong> mobile workspace must be published.</span></span></td>
+<td><span data-ttu-id="faf4f-125">Administrateur système</span><span class="sxs-lookup"><span data-stu-id="faf4f-125">System administrator</span></span></td>
+<td><span data-ttu-id="faf4f-126">Voir <a href="publish-mobile-workspace.md">Publier un espace de travail mobile</a>.</span><span class="sxs-lookup"><span data-stu-id="faf4f-126">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="93550-127">Télécharger et installer l’application mobile</span><span class="sxs-lookup"><span data-stu-id="93550-127">Download and install the mobile app</span></span>
-<span data-ttu-id="93550-128">Télécharger et installer l’application mobile Finance and Operations :</span><span class="sxs-lookup"><span data-stu-id="93550-128">Download and install the Finance and Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="faf4f-127">Télécharger et installer l’application mobile</span><span class="sxs-lookup"><span data-stu-id="faf4f-127">Download and install the mobile app</span></span>
+<span data-ttu-id="faf4f-128">Télécharger et installer l’application mobile Finance and Operations :</span><span class="sxs-lookup"><span data-stu-id="faf4f-128">Download and install the Finance and Operations mobile app:</span></span>
 
--   [<span data-ttu-id="93550-129">Pour téléphones Android</span><span class="sxs-lookup"><span data-stu-id="93550-129">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="93550-130">Pour les iPhones</span><span class="sxs-lookup"><span data-stu-id="93550-130">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="faf4f-129">Pour téléphones Android</span><span class="sxs-lookup"><span data-stu-id="faf4f-129">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="faf4f-130">Pour les iPhones</span><span class="sxs-lookup"><span data-stu-id="faf4f-130">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="93550-131">Connexion à l’application mobile</span><span class="sxs-lookup"><span data-stu-id="93550-131">Sign in to the mobile app</span></span>
-1.  <span data-ttu-id="93550-132">Démarrez l’application sur votre appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="93550-132">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="93550-133">Saisissez votre URL Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="93550-133">Enter your Microsoft Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="93550-134">Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe.</span><span class="sxs-lookup"><span data-stu-id="93550-134">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="93550-135">Entrez vos informations d’identification.</span><span class="sxs-lookup"><span data-stu-id="93550-135">Enter your credentials.</span></span>
-4.  <span data-ttu-id="93550-136">Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent.</span><span class="sxs-lookup"><span data-stu-id="93550-136">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="93550-137">Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.</span><span class="sxs-lookup"><span data-stu-id="93550-137">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="faf4f-131">Connexion à l’application mobile</span><span class="sxs-lookup"><span data-stu-id="faf4f-131">Sign in to the mobile app</span></span>
+1.  <span data-ttu-id="faf4f-132">Démarrez l’application sur votre appareil mobile.</span><span class="sxs-lookup"><span data-stu-id="faf4f-132">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="faf4f-133">Saisissez votre URL Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="faf4f-133">Enter your Microsoft Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="faf4f-134">Lorsque vous vous connectez pour la première fois, vous êtes invité à entrer vos nom d’utilisateur et mot de passe.</span><span class="sxs-lookup"><span data-stu-id="faf4f-134">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="faf4f-135">Entrez vos informations d’identification.</span><span class="sxs-lookup"><span data-stu-id="faf4f-135">Enter your credentials.</span></span>
+4.  <span data-ttu-id="faf4f-136">Une fois que vous êtes connecté, les espaces de travail disponibles pour votre société s’affichent.</span><span class="sxs-lookup"><span data-stu-id="faf4f-136">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="faf4f-137">Notez que si votre administrateur système publie un nouvel espace de travail ultérieurement, vous devrez actualiser la liste des espaces de travail mobiles.</span><span class="sxs-lookup"><span data-stu-id="faf4f-137">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="93550-138">[![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="93550-138">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="faf4f-138">[![Extraire pour actualiser](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="faf4f-138">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="93550-139">Afficher le répertoire de la société à l’aide de l’espace de travail mobile</span><span class="sxs-lookup"><span data-stu-id="93550-139">View the company directory by using the mobile workspace</span></span>
-1.  <span data-ttu-id="93550-140">Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**.</span><span class="sxs-lookup"><span data-stu-id="93550-140">In the mobile app, select the **Company directory** workspace.</span></span> <span data-ttu-id="93550-141">La liste des employés s’affiche.</span><span class="sxs-lookup"><span data-stu-id="93550-141">A list of employees is shown.</span></span>
-3.  <span data-ttu-id="93550-142">Sélectionnez un employé.</span><span class="sxs-lookup"><span data-stu-id="93550-142">Select an employee.</span></span> <span data-ttu-id="93550-143">La page **Profil d’employé** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="93550-143">The **Employee profile** page appears.</span></span> <span data-ttu-id="93550-144">Ces informations incluent dans cette page le prénom, le nom, le titre et le département de l’employé.</span><span class="sxs-lookup"><span data-stu-id="93550-144">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="faf4f-139">Afficher le répertoire de la société à l’aide de l’espace de travail mobile</span><span class="sxs-lookup"><span data-stu-id="faf4f-139">View the company directory by using the mobile workspace</span></span>
+1.  <span data-ttu-id="faf4f-140">Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**.</span><span class="sxs-lookup"><span data-stu-id="faf4f-140">In the mobile app, select the **Company directory** workspace.</span></span> <span data-ttu-id="faf4f-141">La liste des employés s’affiche.</span><span class="sxs-lookup"><span data-stu-id="faf4f-141">A list of employees is shown.</span></span>
+3.  <span data-ttu-id="faf4f-142">Sélectionnez un employé.</span><span class="sxs-lookup"><span data-stu-id="faf4f-142">Select an employee.</span></span> <span data-ttu-id="faf4f-143">La page **Profil d’employé** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="faf4f-143">The **Employee profile** page appears.</span></span> <span data-ttu-id="faf4f-144">Ces informations incluent dans cette page le prénom, le nom, le titre et le département de l’employé.</span><span class="sxs-lookup"><span data-stu-id="faf4f-144">The information on this page includes the employee's first name, last name, title, and department.</span></span>
 
-## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="93550-145">Rechercher le répertoire de la société à l’aide de l’espace de travail mobile</span><span class="sxs-lookup"><span data-stu-id="93550-145">Search the company directory by using the mobile workspace</span></span>
-1.  <span data-ttu-id="93550-146">Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**.</span><span class="sxs-lookup"><span data-stu-id="93550-146">In the mobile app, select the **Company directory** workspace.</span></span>
-2.  <span data-ttu-id="93550-147">Dans le champ **Rechercher**, entrez le prénom, le nom, le titre ou le département d’un employé pour démarrer la recherche.</span><span class="sxs-lookup"><span data-stu-id="93550-147">In the **Search** field, enter an employee's first name, last name, title, or department to start the search.</span></span>
-3.  <span data-ttu-id="93550-148">Sélectionnez un employé.</span><span class="sxs-lookup"><span data-stu-id="93550-148">Select an employee.</span></span> <span data-ttu-id="93550-149">La page **Profil d’employé** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="93550-149">The **Employee profile** page appears.</span></span> <span data-ttu-id="93550-150">Ces informations incluent dans cette page le prénom, le nom, le titre et le département de l’employé.</span><span class="sxs-lookup"><span data-stu-id="93550-150">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+## <a name="search-the-company-directory-by-using-the-mobile-workspace"></a><span data-ttu-id="faf4f-145">Rechercher le répertoire de la société à l’aide de l’espace de travail mobile</span><span class="sxs-lookup"><span data-stu-id="faf4f-145">Search the company directory by using the mobile workspace</span></span>
+1.  <span data-ttu-id="faf4f-146">Dans l’application mobile, sélectionnez l’espace de travail **Répertoire de la société**.</span><span class="sxs-lookup"><span data-stu-id="faf4f-146">In the mobile app, select the **Company directory** workspace.</span></span>
+2.  <span data-ttu-id="faf4f-147">Dans le champ **Rechercher**, entrez le prénom, le nom, le titre ou le département d’un employé pour démarrer la recherche.</span><span class="sxs-lookup"><span data-stu-id="faf4f-147">In the **Search** field, enter an employee's first name, last name, title, or department to start the search.</span></span>
+3.  <span data-ttu-id="faf4f-148">Sélectionnez un employé.</span><span class="sxs-lookup"><span data-stu-id="faf4f-148">Select an employee.</span></span> <span data-ttu-id="faf4f-149">La page **Profil d’employé** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="faf4f-149">The **Employee profile** page appears.</span></span> <span data-ttu-id="faf4f-150">Ces informations incluent dans cette page le prénom, le nom, le titre et le département de l’employé.</span><span class="sxs-lookup"><span data-stu-id="faf4f-150">The information on this page includes the employee's first name, last name, title, and department.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

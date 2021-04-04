@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,53 +16,56 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c46f945a9caae2836886d051da820658e8be9af
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c31722537e2a6bae502800953939ca01da4527b9
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687694"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567566"
 ---
-# <a name="fa_sum-er-function"></a><span data-ttu-id="d8818-103">Fonction FA_SUM ER</span><span class="sxs-lookup"><span data-stu-id="d8818-103">FA_SUM ER function</span></span>
+# <a name="fa_sum-er-function"></a><span data-ttu-id="1f5a6-103">Fonction FA_SUM ER</span><span class="sxs-lookup"><span data-stu-id="1f5a6-103">FA_SUM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d8818-104">La fonction `FA_SUM` renvoie une valeur de *Conteneur (enregistrement)* constituée des données des montants des immobilisations pour l’élément d’immobilisation spécifié, le code du modèle de valeur et la période des dates.</span><span class="sxs-lookup"><span data-stu-id="d8818-104">The `FA_SUM` function returns a *Container (record)* value that consists of data for the fixed asset amounts for the specified fixed asset item, value model code, and period of dates.</span></span>
+<span data-ttu-id="1f5a6-104">La fonction `FA_SUM` renvoie une valeur de *Conteneur (enregistrement)* constituée des données des montants des immobilisations pour l’élément d’immobilisation spécifié, le code du modèle de valeur et la période des dates.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-104">The `FA_SUM` function returns a *Container (record)* value that consists of data for the fixed asset amounts for the specified fixed asset item, value model code, and period of dates.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d8818-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d8818-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1f5a6-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1f5a6-105">Syntax</span></span>
 
 ```vb
 FA_SUM (fixed asset code, value model code, start date, end date)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d8818-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="d8818-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="1f5a6-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="1f5a6-106">Arguments</span></span>
 
-<span data-ttu-id="d8818-107">`fixed asset code` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="d8818-107">`fixed asset code`: *String*</span></span>
+<span data-ttu-id="1f5a6-107">`fixed asset code` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="1f5a6-107">`fixed asset code`: *String*</span></span>
 
-<span data-ttu-id="d8818-108">Valeur de *Chaîne* qui représente le code d’un élément d’immobilisation pour lequel le solde est calculé.</span><span class="sxs-lookup"><span data-stu-id="d8818-108">A *String* value that represents the code of a fixed asset item that the balance is calculated for.</span></span>
+<span data-ttu-id="1f5a6-108">Valeur de *Chaîne* qui représente le code d’un élément d’immobilisation pour lequel le solde est calculé.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-108">A *String* value that represents the code of a fixed asset item that the balance is calculated for.</span></span>
 
-<span data-ttu-id="d8818-109">`value model code` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="d8818-109">`value model code`: *String*</span></span>
+<span data-ttu-id="1f5a6-109">`value model code` : *Chaîne*</span><span class="sxs-lookup"><span data-stu-id="1f5a6-109">`value model code`: *String*</span></span>
 
-<span data-ttu-id="d8818-110">Valeur de *Chaîne* qui représente le code d’un modèle de valeur pour lequel le solde est calculé.</span><span class="sxs-lookup"><span data-stu-id="d8818-110">A *String* value that represents the code of a value model that the balance is calculated for.</span></span>
+<span data-ttu-id="1f5a6-110">Valeur de *Chaîne* qui représente le code d’un modèle de valeur pour lequel le solde est calculé.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-110">A *String* value that represents the code of a value model that the balance is calculated for.</span></span>
 
-<span data-ttu-id="d8818-111">`start date` : *Date*</span><span class="sxs-lookup"><span data-stu-id="d8818-111">`start date`: *Date*</span></span>
+<span data-ttu-id="1f5a6-111">`start date` : *Date*</span><span class="sxs-lookup"><span data-stu-id="1f5a6-111">`start date`: *Date*</span></span>
 
-<span data-ttu-id="d8818-112">Valeur de *Date* qui représente la date de début d’une période pour laquelle les montants des immobilisations sont calculés.</span><span class="sxs-lookup"><span data-stu-id="d8818-112">A *Date* value that represents the start date of a period that the fixed asset amounts are calculated for.</span></span>
+<span data-ttu-id="1f5a6-112">Valeur de *Date* qui représente la date de début d’une période pour laquelle les montants des immobilisations sont calculés.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-112">A *Date* value that represents the start date of a period that the fixed asset amounts are calculated for.</span></span>
 
-<span data-ttu-id="d8818-113">`end date` : *Date*</span><span class="sxs-lookup"><span data-stu-id="d8818-113">`end date`: *Date*</span></span>
+<span data-ttu-id="1f5a6-113">`end date` : *Date*</span><span class="sxs-lookup"><span data-stu-id="1f5a6-113">`end date`: *Date*</span></span>
 
-<span data-ttu-id="d8818-114">Valeur de *Date* qui représente la date de fin d’une période pour laquelle les montants des immobilisations sont calculés.</span><span class="sxs-lookup"><span data-stu-id="d8818-114">A *Date* value that represents the end date of a period that the fixed asset amounts are calculated for.</span></span>
+<span data-ttu-id="1f5a6-114">Valeur de *Date* qui représente la date de fin d’une période pour laquelle les montants des immobilisations sont calculés.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-114">A *Date* value that represents the end date of a period that the fixed asset amounts are calculated for.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d8818-115">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="d8818-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="1f5a6-115">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="1f5a6-115">Return values</span></span>
 
-<span data-ttu-id="d8818-116">*Conteneur (enregistrement)*</span><span class="sxs-lookup"><span data-stu-id="d8818-116">*Container (record)*</span></span>
+<span data-ttu-id="1f5a6-116">*Conteneur (enregistrement)*</span><span class="sxs-lookup"><span data-stu-id="1f5a6-116">*Container (record)*</span></span>
 
-<span data-ttu-id="d8818-117">Valeur de l’enregistrement résultante.</span><span class="sxs-lookup"><span data-stu-id="d8818-117">The resulting record value.</span></span>
+<span data-ttu-id="1f5a6-117">Valeur de l’enregistrement résultante.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-117">The resulting record value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d8818-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="d8818-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1f5a6-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="1f5a6-118">Example</span></span>
 
-<span data-ttu-id="d8818-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` renvoie le conteneur de données pour l’immobilisation **COMP-000001** qui a été préparée pour le modèle de valeur **Current** et pour une période de **Date1** à **Date2**.</span><span class="sxs-lookup"><span data-stu-id="d8818-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` returns the data container for fixed asset **COMP-000001** that has been prepared for the **Current** value model and for a period from **Date1** to **Date2**.</span></span>
+<span data-ttu-id="1f5a6-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` renvoie le conteneur de données pour l’immobilisation **COMP-000001** qui a été préparée pour le modèle de valeur **Current** et pour une période de **Date1** à **Date2**.</span><span class="sxs-lookup"><span data-stu-id="1f5a6-119">`FA_SUM ("COMP-000001", "Current", Date1, Date2)` returns the data container for fixed asset **COMP-000001** that has been prepared for the **Current** value model and for a period from **Date1** to **Date2**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d8818-120">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="d8818-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="1f5a6-120">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="1f5a6-120">Additional resources</span></span>
 
-[<span data-ttu-id="d8818-121">Autre fonctions (spécifiques au domaine d’affaires)</span><span class="sxs-lookup"><span data-stu-id="d8818-121">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="1f5a6-121">Autre fonctions (spécifiques au domaine d’affaires)</span><span class="sxs-lookup"><span data-stu-id="1f5a6-121">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
