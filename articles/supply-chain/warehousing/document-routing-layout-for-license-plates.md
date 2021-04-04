@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973758"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558260"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d’acheminement de document pour les étiquettes de contenant
 
 [!include [banner](../includes/banner.md)]
+
 
 La mise en page d’acheminement de document définit la mise en page des étiquettes de contenant et les données y sont imprimées. Vous configurez les points de déclenchement d’impression lorsque vous configurez les articles de menu d’appareil mobile et les modèles de travail.
 
@@ -51,6 +52,10 @@ Dans le cadre du processus d’impression d’étiquettes, le texte `$LicensePla
 Pour voir les valeurs qui seront imprimées, accédez à **Gestion d’entrepôt \> Demandes de renseignements et rapports \> Étiquettes de contenants**.
 
 Plusieurs outils de génération d’étiquettes largement disponibles peuvent vous aider à formater le texte pour la mise en page de l’étiquette. Nombre de ces outils prennent en charge le format `$FieldName$`. De plus, Microsoft Dynamics 365 Supply Chain Management utilise une logique de formatage spéciale dans le cadre du mappage de champ pour la mise en page d’acheminement de document.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
+
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Mises en page améliorées des étiquettes de contenant*.
 
 ## <a name="custom-number-formats"></a>Formats de numéro personnalisés
 

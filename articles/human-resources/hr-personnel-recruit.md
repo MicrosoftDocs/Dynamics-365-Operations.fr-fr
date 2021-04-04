@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6aca285133495dfe023dfd18bdeb050aabcafee6
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112445"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478282"
 ---
 # <a name="recruit-job-candidates"></a>Recruter des candidats à un poste
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources vous aide à gérer les demandes de recrutement. Il vous aide également à faire la transition transparente des candidats aux employés. Si votre organisation utilise une application de recrutement distincte, votre processus de recrutement peut inclure les étapes suivantes :
 
 - Saisissez votre demande de recrutement dans Human Resources.
-- Recevez des références de candidats dans Human Resources à partir de l'application de recrutement.
-- Terminez le processus d'approbation des candidats dans Human Resources.
+- Recevez des références de candidats dans Human Resources à partir de l’application de recrutement.
+- Terminez le processus d’approbation des candidats dans Human Resources.
 
-Si vous n'utilisez pas d'application de recrutement distincte, vous pouvez également gérer manuellement les candidats dans Human Resources.
+Si vous n’utilisez pas d’application de recrutement distincte, vous pouvez également gérer manuellement les candidats dans Human Resources.
 
 >[!NOTE]
->Si vous êtes administrateur ou développeur et souhaitez intégrer Human Resources à une application de recrutement tierce, consultez [Configurer l'intégration de Dataverse](hr-admin-integration-common-data-service.md) et [Configurer les tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
+>Si vous êtes administrateur ou développeur et souhaitez intégrer Human Resources à une application de recrutement tierce, consultez [Configurer l’intégration de Dataverse](hr-admin-integration-common-data-service.md) et [Configurer les tables virtuelles Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
-> Vous pouvez également trouver des applications d'intégration de recrutement sur [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
+> Vous pouvez également trouver des applications d’intégration de recrutement sur [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-> Pour essayer notre fonctionnalité d'évaluation pour l'intégration avec LinkedIn Talent Hub, voir [Intégrer avec LinkedIn Talent Hub](hr-admin-integration-linkedin.md).
+> Pour essayer notre fonctionnalité d’évaluation pour l’intégration avec LinkedIn Talent Hub, voir [Intégrer avec LinkedIn Talent Hub](hr-admin-integration-linkedin.md).
 
 ## <a name="enable-recruiting-requests"></a>Activer les demandes de recrutement
 
-Si vous souhaitez soumettre des demandes de recrutement dans Human Resources, vous devez d'abord activer la fonctionnalité dans **Paramètres partagés de Human Resources**.
+Si vous souhaitez soumettre des demandes de recrutement dans Human Resources, vous devez d’abord activer la fonctionnalité dans **Paramètres partagés de Human Resources**.
 
-1. Dans l'espace de travail **Gestion du personnel**, sélectionnez **Liens**.
+1. Dans l’espace de travail **Gestion du personnel**, sélectionnez **Liens**.
 
 2. Sous **Configuration**, sélectionnez **Paramètres partagés des ressources humaines**.
 
-3. Sur l'onglet **Recrutement**, sous **RECRUTEMENT**, définissez **Activer les demandes de recrutement** sur **Oui**.
+3. Sur l’onglet **Recrutement**, sous **RECRUTEMENT**, définissez **Activer les demandes de recrutement** sur **Oui**.
 
 ## <a name="add-a-recruiting-request-location"></a>Ajouter un emplacement de demande de recrutement
 
-Si votre organisation possède plusieurs emplacements, vous pouvez les ajouter afin que les demandeurs puissent sélectionner un emplacement où la nouvelle recrue travaillera. L'emplacement sera inclus dans l'offre d'emploi.
+Si votre organisation possède plusieurs emplacements, vous pouvez les ajouter afin que les demandeurs puissent sélectionner un emplacement où la nouvelle recrue travaillera. L’emplacement sera inclus dans l’offre d’emploi.
 
 1. Dans la barre de recherche, saisissez **emplacement de la demande de recrutement**.
 
 2. Sélectionnez **Nouveau**.
 
-3. Dans le champ **Emplacement de la demande de recrutement**, entrez le nom de l'emplacement.
+3. Dans le champ **Emplacement de la demande de recrutement**, entrez le nom de l’emplacement.
 
    ![Ajouter un emplacement de demande de recrutement](./media/hr-recruit-0a-add-location.png)
 
-4. Dans **Description**, entrez une description de l'emplacement.
+4. Dans **Description**, entrez une description de l’emplacement.
 
-5. Sous **Emplacement**, sélectionnez **Ajouter**. Si la fenêtre contextuelle **Nouvelle adresse** apparaît, entrez l'adresse de l'emplacement.
+5. Sous **Emplacement**, sélectionnez **Ajouter**. Si la fenêtre contextuelle **Nouvelle adresse** apparaît, entrez l’adresse de l’emplacement.
 
-   ![Entrer l'adresse](./media/hr-recruit-0b-address.png)
+   ![Entrer l’adresse](./media/hr-recruit-0b-address.png)
 
 6. Sous **Informations de contact**, entrez les informations du contact du lieu.
 
@@ -82,7 +82,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
 1. Sélectionnez **Libre service employé**.
 
-2. Sélectionnez l'onglet **Mon équipe**.
+2. Sélectionnez l’onglet **Mon équipe**.
 
 3. Sélectionnez **Demande de recrutement**.
 
@@ -100,7 +100,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
    ![Créer des détails à partir de la tâche](./media/hr-recruit-3-create-details-from-job.png)
 
-   Le reste de la demande de recrutement sera rempli avec les informations par défaut pour l'emploi que vous avez entré.
+   Le reste de la demande de recrutement sera rempli avec les informations par défaut pour l’emploi que vous avez entré.
 
 8. Sous **Description externe**, saisissez une description de poste externe.
 
@@ -110,7 +110,7 @@ Les managers peuvent soumettre des demandes de recrutement dans Human Resources.
 
 10. Sous **Compétences**, sélectionnez **Ajouter**, puis sélectionnez une compétence.
 
-11. Sous **Exigences scolaires**, sélectionnez **Ajouter**, puis sélectionnez des valeurs dans les listes déroulantes **Éducation** et **Niveau d'instruction requis**.
+11. Sous **Exigences scolaires**, sélectionnez **Ajouter**, puis sélectionnez des valeurs dans les listes déroulantes **Éducation** et **Niveau d’instruction requis**.
 
    ![Ajouter des exigences scolaires](./media/hr-recruit-5-select-educational-requirements.png)
 
@@ -130,11 +130,11 @@ Si vous êtes un responsable et souhaitez consulter vos propres demandes :
 
 1. Sélectionnez **Libre service employé**.
 
-2. Sélectionnez l'onglet **Mon équipe**.
+2. Sélectionnez l’onglet **Mon équipe**.
 
-3. Sous **Informations sur mon équipe**, sélectionnez l'onglet **Demandes de recrutement**.
+3. Sous **Informations sur mon équipe**, sélectionnez l’onglet **Demandes de recrutement**.
 
-   ![Sélectionnez l'onglet Demandes de recrutement](./media/hr-recruit-7-recruiting-requests.png)
+   ![Sélectionnez l’onglet Demandes de recrutement](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Pour afficher ou modifier une demande de recrutement, sélectionnez-la dans la grille.
 
@@ -150,7 +150,7 @@ Si vous êtes un professionnel des RH et que vous souhaitez consulter toutes les
 
 ## <a name="add-or-edit-a-candidate-profile"></a>Ajouter ou modifier un profil de candidat
 
-Si votre organisation s'est intégrée à une autre application pour gérer les demandes de recrutement, les demandes de recrutement sont transmises à cette application. La candidature de recrutement renvoie ensuite les informations du candidat à Human Resources. Sinon, vous pouvez suivre vos propres processus de recrutement internes et saisir manuellement les informations sur le candidat.
+Si votre organisation s’est intégrée à une autre application pour gérer les demandes de recrutement, les demandes de recrutement sont transmises à cette application. La candidature de recrutement renvoie ensuite les informations du candidat à Human Resources. Sinon, vous pouvez suivre vos propres processus de recrutement internes et saisir manuellement les informations sur le candidat.
 
 1. Sélectionnez **Gestion du personnel**.
 
@@ -193,12 +193,12 @@ Lorsque vous êtes prêt à embaucher un candidat, suivez cette procédure pour 
 
 3. Sous **Détails du poste**, vérifiez et modifiez les informations si nécessaire.
 
-4. Sous **Listes de contrôle de l'intégration**, sélectionnez les listes de contrôle d'intégration pertinentes pour cet employé.
+4. Sous **Listes de contrôle de l’intégration**, sélectionnez les listes de contrôle d’intégration pertinentes pour cet employé.
 
-5. Sélectionnez **Continuer** pour créer la fiche de l'employé.
+5. Sélectionnez **Continuer** pour créer la fiche de l’employé.
 
    >[!NOTE]
-   >En fonction des workflows de votre organisation, l'enregistrement de candidat peut passer par des étapes d'approbation supplémentaires avant de devenir un enregistrement d'employé.
+   >En fonction des workflows de votre organisation, l’enregistrement de candidat peut passer par des étapes d’approbation supplémentaires avant de devenir un enregistrement d’employé.
 
 ## <a name="decide-not-to-hire-a-candidate"></a>Décider de ne pas embaucher de candidat
 
@@ -214,7 +214,7 @@ Si vous décidez de ne pas embaucher un candidat, suivez cette procédure pour l
 
 ## <a name="dismiss-a-candidate"></a>Ignorer un candidat
 
-Si nécessaire, vous pouvez ignorer un candidat après l'avoir embauché. Par exemple, un candidat peut rejeter votre offre ou ne pas se présenter le premier jour.
+Si nécessaire, vous pouvez ignorer un candidat après l’avoir embauché. Par exemple, un candidat peut rejeter votre offre ou ne pas se présenter le premier jour.
 
 - Sur le formulaire de candidature, sélectionnez **Ignorer un candidat**.
 

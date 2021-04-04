@@ -16,16 +16,17 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 350193a0054ef879ece3dd2dfcc4105476981837
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078261"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501172"
 ---
 # <a name="small-parcel-shipping"></a>Expédition de petits colis
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La fonctionnalité d’expédition de petits colis (SPS) permet à Microsoft Dynamics 365 Supply Chain Management d’interagir directement avec les transporteurs en fournissant un cadre de communication via les API du transporteur. Cette fonctionnalité est utile lorsque vous expédiez des commandes client individuelles via des transporteurs commerciaux au lieu d’utiliser l’expédition par conteneur ou l’expédition par chargement partiel (LTL).
 
@@ -39,7 +40,7 @@ Avant de pouvoir commencer à utiliser la fonctionnalité SPS, vous devez l’ac
 
 ### <a name="turn-on-the-sps-feature"></a>Activer la fonctionnalité SPS
 
-Avant de pouvoir utiliser la fonctionnalité SPS, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l'espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
+Avant de pouvoir utiliser la fonctionnalité SPS, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Là, la fonctionnalité est répertoriée de la manière suivante :
 
 - **Module :** *Vidéos sur la gestion du transport*
 - **Nom de la fonctionnalité :** *Expédition de petits colis*
@@ -102,7 +103,7 @@ Procédez comme suit pour configurer un transporteur.
     - **Nom :** *Transporteur de démonstration*
     - **Mode :** *Terrestre*
 
-1. Dans l'organisateur **Vue d'ensemble**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Vue d’ensemble**, définissez les valeurs suivantes :
 
     - **Activer le transporteur :** *Oui*
     - **Activer le classement du transporteur :** *Oui*
@@ -152,13 +153,13 @@ Procédez comme suit pour définir une stratégie d’emballage de conteneur.
 
 1. Si vous n’avez pas encore configuré de définition d’imprimante ZPL, utilisez l’application Agent d’acheminement de documents pour la configurer. Pour plus d’informations, voir [Vue d’ensemble de l’impression de documents](../../fin-ops-core/dev-itpro/analytics/print-documents.md) et les rubriques connexes.
 1. Accédez à **Gestion des entrepôts \> Configuration \> Conteneurs \> Stratégies d’emballage de conteneur**.
-1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter une stratégie d'emballage de conteneur.
+1. Dans le volet Actions, sélectionnez **Nouveau** pour ajouter une stratégie d’emballage de conteneur.
 1. Dans l’en-tête de la nouvelle stratégie, définissez les valeurs suivantes :
 
     - **Stratégie d’emballage de conteneur :** *Stratégie d’emballage de démonstration*
     - **Description :** description de la stratégie
 
-1. Dans l'organisateur **Vue d'ensemble**, définissez les valeurs suivantes :
+1. Dans l’organisateur **Vue d’ensemble**, définissez les valeurs suivantes :
 
     - **Entrepôt :** *62*
     - **Emplacement par défaut pour l’expédition finale :** *Baydoor*
@@ -188,7 +189,7 @@ Procédez comme suit pour configurer un profil d’emballage.
     - **ID profil d’emballage :** *Profil d’emballage de démonstration*
     - **Description :** description du profil
     - **Stratégie d’emballage de conteneur :** *Stratégie d’emballage de démonstration*
-    - **Mode d'identification du conteneur :** *Auto*
+    - **Mode d’identification du conteneur :** *Auto*
     - **Type de conteneur :** *Petite boîte*
 
 #### <a name="set-up-a-customer-to-use-the-sps-carrier"></a>Configurer un client pour utiliser le transporteur SPS
@@ -266,7 +267,7 @@ Procédez comme suit pour emballer l’expédition.
 1. La page **Emballage** s’affiche. Dans un scénario de production, un collaborateur numérise un contenant ou un ID d’expédition. Cependant, pour ce scénario, ouvrez la page **Toutes les expéditions** et recherchez le numéro de l’expédition que vous venez de créer. Ensuite, entrez cette valeur dans le champ **Contenant ou expédition** de la page **Emballage**. Vous pouvez également entrer l’ID d’expédition que vous avez noté précédemment.
 1. Dans le volet Actions, sélectionnez **Nouveau conteneur**.
 1. La boîte de dialogue qui apparaît affiche des détails sur le nouveau conteneur. Conservez les valeurs par défaut, puis sélectionnez **OK**.
-1. Sur la page **Emballage**, dans le raccourci **Emballage de l’article**, dans le champ **Identifiant**, sélectionnez *A0002* pour emballer cet article. L'article est ajouté au conteneur.
+1. Sur la page **Emballage**, dans le raccourci **Emballage de l’article**, dans le champ **Identifiant**, sélectionnez *A0002* pour emballer cet article. L’article est ajouté au conteneur.
 1. Dans le volet Actions, sélectionnez **Conteneur pour expédition**.
 
     La page **Conteneurs pour expédition** qui apparaît a une ligne pour le conteneur que vous venez de créer. Cependant, le champ **ID manifeste du conteneur** de cette ligne est actuellement vide, car vous n’avez pas encore reçu l’étiquette d’expédition et le numéro de suivi du transporteur.
@@ -274,7 +275,7 @@ Procédez comme suit pour emballer l’expédition.
 1. Dans le volet Actions, sélectionnez **Fermer le conteneur**.
 1. Dans la boîte de dialogue **Fermer le conteneur**, définissez le champ **Poids brut** sur *1 kg*, puis sélectionnez **OK**.
 
-    L'étiquette d'expédition doit maintenant être imprimée sur l’imprimante ZPL que vous avez sélectionnée précédemment. Elle doit ressembler à l’exemple ci-dessous.
+    L’étiquette d’expédition doit maintenant être imprimée sur l’imprimante ZPL que vous avez sélectionnée précédemment. Elle doit ressembler à l’exemple ci-dessous.
 
     ![Exemple d’étiquette d’expédition](media/sps-label-example.png "Exemple d’étiquette d’expédition")
 

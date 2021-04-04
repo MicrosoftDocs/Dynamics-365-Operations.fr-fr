@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105706"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556360"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Commandes d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -51,6 +51,8 @@ Pour créer une commande d’entrepôt, procédez comme suit.
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Actions**, sélectionnez **Libérer dans l’entrepôt**.
 1. Pour afficher les lignes de la commande d’entrepôt associé, ouvrez la commande fournisseur pertinente, sélectionnez une ligne dans la section **Lignes de la commande fournisseur**, et sur la barre d’outils, sélectionnez **Entrepôt \> Lignes de la commande d’entrepôt**. Pour afficher toutes les lignes, accédez à **Gestion des entrepôts \> Recherches et états \> Lignes de commande d’entrepôt**.
+
+Vous pouvez également déclencher le processus *Libération dans l’entrepôt* à partir d’un traitement par lots en accédant à **Gestion des entrepôts > Libération vers l’entrepôt > Libération automatique des commandes fournisseur**. Lors de la configuration du traitement par lots, vous pouvez sélectionner des lignes de commande fournisseur spécifiques en fonction d’une requête. Un scénario typique serait de configurer un traitement par lots récurrent qui libère toutes les lignes de commande fournisseur confirmées qui devraient arriver le jour suivant.
 
 ## <a name="cancel-a-warehouse-order"></a>Annuler une commande d’entrepôt
 

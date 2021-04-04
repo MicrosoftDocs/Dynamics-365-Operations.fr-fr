@@ -1,5 +1,5 @@
 ---
-title: Créer une offre d'emploi
+title: Créer une offre d’emploi
 description: Les projets de recrutement permettent de gérer votre processus de recrutement.
 author: andreabichsel
 manager: tfehr
@@ -16,19 +16,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da6f9caaabcba81549eddf5cafcf02dc2b0dc2cd
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 858c97e1563dac59f3dd5aff7191427f104d7aed
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5129565"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467769"
 ---
-# <a name="create-and-open-job-requisition"></a>Créer une offre d'emploi
+# <a name="create-and-open-job-requisition"></a>Créer une offre d’emploi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Les projets de recrutement permettent de gérer votre processus de recrutement. Après avoir créé un projet de recrutement, vous pouvez effectuer les tâches suivantes :
 
-- Rédiger une offre d'emploi pour le projet.
-- Publier l'annonce sur les pages du Libre-service employé.
+- Rédiger une offre d’emploi pour le projet.
+- Publier l’annonce sur les pages du Libre-service employé.
 - Associer les candidatures au poste au projet.
 - Suivre les activités de ce projet. 
 

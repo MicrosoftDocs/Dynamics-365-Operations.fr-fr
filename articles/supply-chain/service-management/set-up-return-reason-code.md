@@ -17,33 +17,33 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991713"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470666"
 ---
-# <a name="set-up-return-reason-codes"></a>Paramétrage de codes motif de retour   
+# <a name="set-up-return-reason-codes"></a>Paramétrer les codes motif de retour   
 
 [!include [banner](../includes/banner.md)]
 
 
 ## <a name="set-up-return-reason-code-groups"></a>Paramétrage de groupes de codes motif de retour 
 
-1.  Cliquez sur **Ventes et marketing** \> **Paramétrage** \> **Commandes client** \> **Retours** \> **Groupes de codes motif retour**.
+1.  Accédez à **Ventes et marketing** \> **Paramétrage** \> **Commandes client** \> **Retours** \> **Groupes de codes motif retour**.
 
-2.  Appuyez sur Ctrl+N pour créer une ligne pour un groupe de codes motif retour.
+2.  Cliquez sur **Nouveau** pour créer une ligne pour un groupe de codes motif retour.
 
 3.  Dans le champ **Groupe de codes motif de retour**, tapez un identificateur pour ce groupe.
 
-4.  Dans le champ **Description**, tapez une brève description de l'utilisation de ce groupe.
+4.  Dans le champ **Description**, tapez une brève description de l’utilisation de ce groupe.
 
 ## <a name="set-up-return-reason-codes"></a>Paramétrage de codes motif de retour 
 
 Cette procédure permet de paramétrer les codes motif de retour que vous pouvez utiliser pour indiquer la raison pour laquelle un produit a été retourné par le client.
 
-1.  Cliquez sur **Ventes et marketing** \> **Paramétrage** \> **Commandes client** \> **Retours** \> **Codes motif retour**.
+1.  Accédez à **Ventes et marketing** \> **Paramétrage** \> **Commandes client** \> **Retours** \> **Codes motif retour**.
 
 2.  Appuyez sur Ctrl+N pour créer une ligne de code motif de retour.
 

@@ -16,18 +16,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965311"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477802"
 ---
-# <a name="set-up-order-fulfillment-for-stores"></a>Paramétrer l'exécution des commandes pour les magasins
+# <a name="set-up-order-fulfillment-for-stores"></a>Paramétrer l’exécution des commandes pour les magasins
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Vue d'ensemble
 
 De nombreuses détaillants souhaitent optimiser l'exécution des commandes en autorisant les magasins à exécuter les commandes. L'exécution des commandes au niveau du magasin permet de faciliter les scénarios de surstock pour un magasin spécifique, ou peut être nécessaire d'un point de vue logistique dans les cas où un magasin a des capacités supplémentaires ou est situé à une distance d'expédition proche du client. Pour répondre à ce besoin, une opération d'exécution de commandes unifiée est disponible dans le point de vente.
 

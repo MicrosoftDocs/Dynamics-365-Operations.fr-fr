@@ -1,6 +1,6 @@
 ---
-title: Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce
-description: Cette rubrique fournit une vue d'ensemble de l'environnement d'évaluation Microsoft Dynamics 365 Commerce.
+title: Vue d’ensemble d’un environnement d’évaluation Dynamics 365 Commerce
+description: Cette rubrique fournit une vue d’ensemble de l’environnement d’évaluation Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 07/16/2020
@@ -16,23 +16,21 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e08c2f327771d7731b836840006d63b6ecb7dfc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cc6bffba6ee402c6b48d6a3c8f8356eb32b5423b
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000948"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478018"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Vue d'ensemble d'un environnement d'évaluation Dynamics 365 Commerce
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Vue d’ensemble d’un environnement d’évaluation Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique fournit une vue d'ensemble de l'environnement d'évaluation Microsoft Dynamics 365 Commerce.
+Cette rubrique fournit une vue d’ensemble de l’environnement d’évaluation Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Les environnements d'évaluation de Commerce ne sont pas en disponibilité générale et sont accordés aux partenaires et aux clients sur demande. Pour plus d'informations, contactez votre partenaire Microsoft.
-
-## <a name="overview"></a>Vue d’ensemble
 
 L'environnement d'évaluation de Commerce est un environnement facultatif de bout en bout de Dynamics 365 Commerce qui permet aux partenaires et aux clients potentiels d'essayer le produit Commerce.
 

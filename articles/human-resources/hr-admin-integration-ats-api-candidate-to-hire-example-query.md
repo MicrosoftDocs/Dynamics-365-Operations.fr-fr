@@ -1,6 +1,6 @@
 ---
-title: Exemple de requête pour l'entité Candidat à l'embauche
-description: Cette rubrique fournit un exemple de requête pour l'entité Candidat à l'embauche dans Dynamics 365 Human Resources.
+title: Exemple de requête pour l’entité Candidat à l’embauche
+description: Cette rubrique fournit un exemple de requête pour l’entité Candidat à l’embauche dans Dynamics 365 Human Resources.
 author: jaredha
 manager: tfehr
 ms.date: 02/05/2021
@@ -16,27 +16,29 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 963e12e9114664a995b92ffe22063c14f904da35
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: d2fc08586914fd3815b0da062f24d83ac550302f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125759"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467623"
 ---
-# <a name="example-query-for-candidate-to-hire"></a>Exemple de requête pour l'entité Candidat à l'embauche
+# <a name="example-query-for-candidate-to-hire"></a>Exemple de requête pour l’entité Candidat à l’embauche
 
-Cette rubrique fournit un exemple de requête pour l'entité Candidat à l'embauche dans Dynamics 365 Human Resources.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Cette rubrique fournit un exemple illustrant comment vous pouvez utiliser les *insertions profondes* pour créer tous les détails d'un nouveau dossier de candidature en une seule opération d'API. Pour plus d'informations sur les insertions profondes, voir [Créer des enregistrements d'entité associés en une seule opération](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Cette rubrique fournit un exemple de requête pour l’entité Candidat à l’embauche dans Dynamics 365 Human Resources.
 
-L'entité **mshr_hcmcandidatetohireentity** est unique en raison de sa relation avec l'entité **mshr_dirpersonentity**. De nombreuses propriétés de **mshr_hcmcandidatetohireentity** (par exemple, **mshr_firstname**, **mshr_lastname**, et **mshr_birthdate**) sont dérivées du dossier **mshr_dirpersonentity**. Si vous publiez un nouveau dossier de candidature sur **mshr_hcmcandidatetohireentity** sans utiliser d'insertions profondes, vous pouvez définir des valeurs pour ces propriétés directement sur le dossier **mshr_hcmcandidatetohireentity**. Le dossier **mshr_dirpersonentity** associé est créé implicitement avec les valeurs définies pour les propriétés. Vous pouvez ensuite créer tout autre enregistrement d'entité associé (comme des compétences ou une formation) en tant qu'appels d'API distincts.
+Cette rubrique fournit un exemple illustrant comment vous pouvez utiliser les *insertions profondes* pour créer tous les détails d’un nouveau dossier de candidature en une seule opération d’API. Pour plus d’informations sur les insertions profondes, voir [Créer des enregistrements d’entité associés en une seule opération](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
-Si, toutefois, vous souhaitez utiliser des insertions profondes pour créer toutes les entités associées en une seule opération, les propriétés spécifiques à l'entité **mshr_dirpersonentity** doivent être définies à ce niveau imbriqué de l'opération.
+L’entité **mshr_hcmcandidatetohireentity** est unique en raison de sa relation avec l’entité **mshr_dirpersonentity**. De nombreuses propriétés de **mshr_hcmcandidatetohireentity** (par exemple, **mshr_firstname**, **mshr_lastname**, et **mshr_birthdate**) sont dérivées du dossier **mshr_dirpersonentity**. Si vous publiez un nouveau dossier de candidature sur **mshr_hcmcandidatetohireentity** sans utiliser d’insertions profondes, vous pouvez définir des valeurs pour ces propriétés directement sur le dossier **mshr_hcmcandidatetohireentity**. Le dossier **mshr_dirpersonentity** associé est créé implicitement avec les valeurs définies pour les propriétés. Vous pouvez ensuite créer tout autre enregistrement d’entité associé (comme des compétences ou une formation) en tant qu’appels d’API distincts.
 
-Cet exemple montre comment créer un dossier de candidature, le dossier de la personne associée, ainsi que les compétences et la formation de la personne dans trois niveaux imbriqués à l'aide d'insertions profondes dans une seule opération d'API.
+Si, toutefois, vous souhaitez utiliser des insertions profondes pour créer toutes les entités associées en une seule opération, les propriétés spécifiques à l’entité **mshr_dirpersonentity** doivent être définies à ce niveau imbriqué de l’opération.
+
+Cet exemple montre comment créer un dossier de candidature, le dossier de la personne associée, ainsi que les compétences et la formation de la personne dans trois niveaux imbriqués à l’aide d’insertions profondes dans une seule opération d’API.
 
 > [!NOTE]
-> L'exemple n'inclut pas toutes les propriétés de chacune des entités API. Il est simplifié à des fins de démonstration.
+> L’exemple n’inclut pas toutes les propriétés de chacune des entités API. Il est simplifié à des fins de démonstration.
 
 **Demande**
 
@@ -112,7 +114,7 @@ OData-EntityId: [Organization URI]/api/data/v9.1/mshr_hcmcandidatetohireentities
 
 ## <a name="see-also"></a>Voir également :
 
-[Introduction à l'API d'intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
+[Introduction à l’API d’intégration du système de suivi des candidats](hr-admin-integration-ats-api-introduction.md)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

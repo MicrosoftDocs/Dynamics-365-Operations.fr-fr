@@ -1,9 +1,9 @@
 ---
 title: Paramétrer un profil de notification par e-mail
-description: Cette rubrique décrit comment créer un profil de notification par e-mail dans Microsoft Dynamics 365 Commerce.
-author: samjarawan
+description: Cette rubrique décrit comment créer un profil de notification par e-mail dans Microsoft Dynamics 365 Commerce.
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000822"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555305"
 ---
-# <a name="set-up-an-email-notification-profile"></a>Paramétrer un profil de notification par e-mail
-
+# <a name="set-up-an-email-notification-profile"></a>Configurer un profil de notification par e-mail
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment créer un profil de notification par e-mail dans Microsoft Dynamics 365 Commerce.
+Cette rubrique décrit comment créer un profil de notification par e-mail dans Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d'ensemble
-
-Avant de créer des canaux, vous souhaiterez configurer un profil pour vous assurer que les notifications par e-mail peuvent être envoyées pour divers événements, tels que la création de commande, l'état d'expédition de la commande et l'échec du paiement.
+Lorsque vous créez des canaux, vous pouvez configurer un profil de notification par e-mail. De cette manière, des e-mails peuvent être envoyés aux clients pour divers événements transactionnels, tels que la création d’une commande, le statut d’expédition d’une commande et l’échec de paiement.
 
 Pour plus d'informations sur la configuration de l'e-mail, consultez la rubrique [Configurer et envoyer un e-mail](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Pour créer un profil de notification par e-mail, procédez comme suit.
 
 ### <a name="create-an-email-template"></a>Créer un modèle d'e-mail
 
-Avant de pouvoir créer une notification par e-mail, vous devez créer un modèle de courrier électronique pour l'organisation qui contient les informations d'e-mail de l'expéditeur et le modèle d'e-mail.
+Avant qu’un type de notification par e-mail puisse être activé, vous devez créer un modèle d’e-mail d’organisation dans Commerce Headquarters. Ce modèle définit l’objet de l’e-mail, l’expéditeur, la langue par défaut et le corps de l’e-mail pour chaque langue que vous souhaitez prendre en charge.
 
 Pour créer un modèle d'e-mail, procédez comme suit.
 
@@ -58,7 +55,7 @@ Pour créer un modèle d'e-mail, procédez comme suit.
 1. Entrez le nom des expéditeurs dans le champ **Nom des expéditeurs**.
 1. Entrez une description pertinente dans le champ **Description de l'e-mail**.
 1. Dans le champ **E-mail de l'expéditeur**, entrez l'adresse e-mail des expéditeurs.
-1. Dans la section **Général**, remplissez toutes les informations facultatives nécessaires (telles que la priorité des e-mails).
+1. Dans la section **Général**, sélectionnez une langue par défaut pour le modèle d’e-mail. La langue par défaut sera utilisée lorsqu’aucun modèle localisé n’existe pour la langue spécifiée.
 1. Élargissez la section **Contenu du message électronique** et sélectionnez **Nouveau** pour créer le contenu du modèle. Pour chaque élément de contenu, sélectionnez la langue et indiquez la ligne d'objet de l'e-mail. Si l'e-mail va avoir un corps, assurez-vous que la case **A un corps** est cochée.
 1. Dans le volet Actions, sélectionnez **Message électronique** pour fournir un modèle de corps d'e-mail.
 

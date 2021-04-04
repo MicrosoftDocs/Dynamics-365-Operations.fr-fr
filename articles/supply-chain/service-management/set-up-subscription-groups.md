@@ -1,6 +1,6 @@
 ---
-title: Paramétrer des groupes d'abonnements
-description: Paramétrer des groupes d'abonnements.
+title: Paramétrer des groupes d’abonnements
+description: Paramétrer des groupes d’abonnements.
 author: ShylaThompson
 manager: tfehr
 ms.date: 05/07/2018
@@ -17,33 +17,33 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd9f6dfdf17ffd506fff21763388ee0ca7526681
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbc991c22271ccc3d9c50ade635a80c635b35f73
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991588"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470880"
 ---
-# <a name="set-up-subscription-groups"></a>Paramétrer des groupes d'abonnements 
+# <a name="set-up-subscription-groups"></a>Paramétrer des groupes d’abonnements 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Cliquez sur **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d'abonnements**.
+1.  Accédez à **Gestion des services** \> **Paramétrage** \> **Services récurrents** \> **Groupes d’abonnements**.
 
-2.  Appuyez sur Ctrl+N ou cliquez sur **Nouveau** pour créer un groupe d'abonnements.
+2.  Sélectionnez **Nouveau** pour créer un groupe d’abonnements.
 
-3.  Dans le champ **Groupe d'abonnements**, entrez un nom pour le groupe d'abonnements.
+3.  Dans le champ **Groupe d’abonnements**, entrez un nom pour le groupe d’abonnements.
 
-4.  Dans le champ **Facturation**, sélectionnez une fréquence de facturation pour l'abonnement. La fréquence de facturation est indiquée par un code période paramétré dans l'écran **Types de période**.
+4.  Dans le champ **Facturation**, sélectionnez une fréquence de facturation pour l’abonnement. La fréquence de facturation est indiquée par un code période paramétré dans l’écran **Types de période**.
 
-5.  Pour provisionner le produit pour des transactions d'abonnement, activez la case à cocher **Provisionner le produit**, puis, dans le champ **Régularisation**, sélectionnez une fréquence. La fréquence de régularisation est basée sur un code période paramétré dans l'écran **Périodes**.
+5.  Pour provisionner le produit pour des transactions d’abonnement, activez la case à cocher **Provisionner le produit**, puis, dans le champ **Régularisation**, sélectionnez une fréquence. La fréquence de régularisation est basée sur un code période paramétré dans l’écran **Périodes**.
 
 ## <a name="see-also"></a>Voir également :
 
-[Groupes d'abonnements (écran)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))
+[Groupes d’abonnements (écran)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))
 
-[Groupes d'abonnements](subscription-groups.md)
+[Groupes d’abonnements](subscription-groups.md)
 
   
 

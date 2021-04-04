@@ -16,27 +16,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc8373a4a39a1a212ab445b2b300fbddfe0e4a39
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: a129bf9a6cb6a3ef92597e2ff9d126e3e5ce973b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112531"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468249"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Inscrire un employé à un régime de rémunération fixe
 
-La gestionnaire de rémunération et avantages peut affecter des employés à des régimes de rémunération fixe pour gérer leur salaire de base. Cette procédure suppose qu'un régime fixe ait été créé et activé, et que des règles d'admissibilité aient été définies pour le régime. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour démarrer le processus, allez dans Ressources humaines > Collaborateurs > Employés > Rémunération > Régime fixe
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+La gestionnaire de rémunération et avantages peut affecter des employés à des régimes de rémunération fixe pour gérer leur salaire de base. Cette procédure suppose qu’un régime fixe ait été créé et activé, et que des règles d’admissibilité aient été définies pour le régime. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF. Pour démarrer le processus, allez dans Ressources humaines > Collaborateurs > Employés > Rémunération > Régime fixe
 
 1. Cliquez sur Nouveau.
-2. Dans le champ Action, sélectionnez une action de rémunération fixe de type Embaucher/Rembaucher pour décrire la modification en matière de rémunération de l'employé.
+2. Dans le champ Action, sélectionnez une action de rémunération fixe de type Embaucher/Rembaucher pour décrire la modification en matière de rémunération de l’employé.
 3. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
 4. Dans le champ Poste, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 5. Dans la liste, cliquer sur le lien dans la ligne sélectionnée.
-    * Le niveau qui s'affiche provient du niveau de rémunération de la tâche sur le poste. Le niveau doit être défini sur cette tâche pour que la rémunération puisse être affectée à l'employé.  
-6. Dans le champ Régime, sélectionnez le régime de rémunération fixe pour l'employé. La recherche est filtrée pour afficher uniquement les régimes auxquels l'employé peut prétendre en fonction des règles d'admissibilité.
-7. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-    * Les dates d'effet et d'expiration pour la valeur de rémunération sont définies par défaut entre la date de début et de fin de l'affectation de poste du travailleur. Vous pouvez modifier ces dates si nécessaire.  
-    * Si le régime de rémunération fixe est un régime à étapes, sélectionnez l'étape contenant le taux de salaire approprié pour l'employé. Si le régime de rémunération fixe est un régime de niveau, entrez le taux de salaire approprié pour l'employé. Le taux de salaire sera validé par rapport aux paramètres de tolérance pour le plan, et les points de référence minimum et maximum pour le niveau de rémunération de la tâche.  
+    * Le niveau qui s’affiche provient du niveau de rémunération de la tâche sur le poste. Le niveau doit être défini sur cette tâche pour que la rémunération puisse être affectée à l’employé.  
+6. Dans le champ Régime, sélectionnez le régime de rémunération fixe pour l’employé. La recherche est filtrée pour afficher uniquement les régimes auxquels l’employé peut prétendre en fonction des règles d’admissibilité.
+7. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+    * Les dates d’effet et d’expiration pour la valeur de rémunération sont définies par défaut entre la date de début et de fin de l’affectation de poste du travailleur. Vous pouvez modifier ces dates si nécessaire.  
+    * Si le régime de rémunération fixe est un régime à étapes, sélectionnez l’étape contenant le taux de salaire approprié pour l’employé. Si le régime de rémunération fixe est un régime de niveau, entrez le taux de salaire approprié pour l’employé. Le taux de salaire sera validé par rapport aux paramètres de tolérance pour le plan, et les points de référence minimum et maximum pour le niveau de rémunération de la tâche.  
 8. Cliquez sur OK.
 
 

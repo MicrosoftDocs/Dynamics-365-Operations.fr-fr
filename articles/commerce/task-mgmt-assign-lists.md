@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ee924f5bf95d47814e7ca09b392a3d10b5e9b9dc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3d249809f15b50c59620d69a901a427dc3ecb2f0
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006258"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477582"
 ---
-# <a name="assign-task-lists-to-stores-or-employees"></a>Affecter des listes de tâches à des magasins ou des employés
+# <a name="assign-task-lists-to-stores-or-employees"></a>Affecter des listes de tâches aux magasins ou aux employés
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment affecter des listes de tâches à des magasins ou des employés dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
 
 La gestion des tâches dans Dynamics 365 Commerce vous permet d'affecter une liste de tâches à plusieurs magasins ou employés, ou à une combinaison de magasins et d'employés. Par exemple, un responsable régional de 20 magasins peut être amené à affecter la liste de tâches **Préparation de la période des fêtes** à tous les 20 magasins.
 

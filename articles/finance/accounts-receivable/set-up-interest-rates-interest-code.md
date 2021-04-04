@@ -3,7 +3,7 @@ title: Paramétrage des taux d’intérêt pour un code intérêt
 description: Les codes intérêt contiennent des paramètres qui déterminent quand les intérêts sont facturés et comment ils sont calculés sur les comptes qui présentent des retards.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971626"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555363"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Paramétrage des taux d’intérêt pour un code intérêt
 
@@ -46,10 +46,19 @@ Vous pouvez paramétrer des taux d’intérêt qui calculent un pourcentage spé
 
 - Le montant des intérêts s’applique à toutes les devises.
 - Vous pouvez spécifier des limites du montant des intérêts facultatives.
-- L’option <strong>Pourcentage</strong> est sélectionnée** <strong>dans le champ **Calculer les intérêts sur base de</strong> de la page <strong>Paramétrer les codes intérêt</strong>.
+- L’option **Pourcentage** est sélectionnée dans le champ **Calculer les intérêts sur base de** de la page **Paramétrer les codes intérêt**.
 
 Par exemple, pour paramétrer un code intérêt qui évalue 5 % d’intérêts pour chaque période de deux mois après la date d’échéance de la transaction pour le paiement de la facture, entrez 2 dans le champ **Calculer les intérêts tous les** et sélectionnez **Mois**.
 
+> [!NOTE] 
+> Le nouvel algorithme de calcul des notes d’intérêt est ajouté à l’aide de la gestion des fonctionnalités. Pour utiliser cet algorithme, activez la fonctionnalité **(GBL) Permet de calculer les intérêts par jour en pourcentage annuel divisé par 365**. Pour obtenir des informations sur l’activation de la fonctionnalité, voir [Présentation de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> La formule de calcul du montant de la note d’intérêt est la suivante : 
+>  
+> Montant de la note d’intérêt = Montant dû * % Intérêt annuel / 365 * Nombre de jours de retard
+>  
+> Cette fonctionnalité est disponible dans la version 10.0.18 et les versions ultérieures.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Taux d’intérêt basés sur des montants
 Vous pouvez paramétrer des taux d’intérêt qui calculent un montant spécifié par devise.
 - Un montant des intérêts est spécifié pour chaque devise dans le code intérêt.

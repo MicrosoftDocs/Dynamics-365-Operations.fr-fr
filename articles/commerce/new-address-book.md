@@ -1,6 +1,6 @@
 ---
-title: Créer un carnet d'adresses
-description: Cette rubrique explique comment créer des carnets d'adresses dans Microsoft Dynamics 365 Commerce.
+title: Créer un carnet d’adresses
+description: Cette rubrique explique comment créer des carnets d’adresses dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b25e4d560d94c3481b717939e28f1eaa2f2ecde
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976637"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477847"
 ---
 # <a name="create-new-address-book"></a>Créer un carnet d'adresses
 
-
 [!include [banner](includes/banner.md)]
 
-Cette rubrique explique comment créer un carnet d'adresses dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d'ensemble
+Cette rubrique explique comment créer un carnet d’adresses dans Microsoft Dynamics 365 Commerce.
 
 Les carnets d'adresses sont utilisés dans Commerce pour diverses raisons, notamment pour stocker les listes de clients et les listes d'employés pour un canal. Les carnets d'adresses peuvent être utilisés pour un seul canal ou partagés entre les canaux.
 

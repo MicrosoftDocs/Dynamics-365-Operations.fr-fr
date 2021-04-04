@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997598"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477754"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurer plusieurs locataires B2C dans un environnement Commerce
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit quand et comment configurer plusieurs clients Microsoft Azure Active Directory (Azure AD) B2C par canal pour l'authentification de l'utilisateur dans un environnement Dynamics 365 Commerce dédié.
-
-## <a name="overview"></a>Vue d'ensemble
 
 Dynamics 365 Commerce utilise le service d'identité du cloud Azure AD B2C pour prendre en charge les identifiants utilisateur et les flux d'authentification. Les utilisateurs peuvent utiliser les flux d'authentification pour s'inscrire, se connecter et réinitialiser leur mot de passe. Azure AD B2C stocke les informations d'authentification sensibles d'un utilisateur, telles que son nom d'utilisateur et son mot de passe. L'enregistrement d'utilisateur est propre à chaque client B2C et utilise soit les identifiants du nom d'utilisateur (adresse électronique) ou les identifiants du fournisseur d'identité sociale.
 
