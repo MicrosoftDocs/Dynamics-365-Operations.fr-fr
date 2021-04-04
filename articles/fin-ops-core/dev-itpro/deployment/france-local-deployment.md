@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: France
 ms.author: tfehr
 ms.search.validFrom: 2019-07-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cb418761b83c91b9fc998689349bb02041a0a85
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4033ef33cc93d43424ea74181c85af2f9e22f31f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680530"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567434"
 ---
 # <a name="finance-and-operations-apps-in-france"></a>Applications Finance and Operations en France
 

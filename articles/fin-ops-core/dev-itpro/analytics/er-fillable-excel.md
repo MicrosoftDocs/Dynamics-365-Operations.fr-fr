@@ -3,10 +3,9 @@ title: Créer une configuration pour générer des documents au format Excel
 description: Cette rubrique décrit comment concevoir un format pour la gestion des états électroniques pour renseigner un modèle Excel, puis générer des documents sortants au format Excel.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094027"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574171"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -54,7 +53,7 @@ Vous devez ajouter un composant de **fichier\\Excel** au format ER configuré po
 Pour spécifier la mise en page du document sortant, attachez un classeur Excel doté de l’extension .xlsx au composant **Fichier\\Excel** comme modèle pour les documents sortants.
 
 > [!NOTE]
-> Lorsque vous joignez manuellement un modèle, vous devez utiliser un [type de document](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) configuré à cet effet dans les [Paramètres ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Lorsque vous joignez manuellement un modèle, vous devez utiliser un [type de document](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) configuré à cet effet dans les [Paramètres ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Ajout d’une pièce jointe au composant Fichier\Excel](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Pour en savoir plus sur l’incorporation d’images et de formes, consultez [In
 
 Le composant **Saut de page** oblige Excel à démarrer une nouvelle page. Ce composant n’est pas requis lorsque vous souhaitez utiliser la pagination par défaut d’Excel, mais vous devez l’utiliser lorsque vous souhaitez qu’Excel suive votre format ER pour structurer la pagination.
 
+## <a name="footer-component"></a>Composant Pied de page
+
+Le composant **Pied de page** est utilisé pour remplir les pieds de page au bas d’une feuille de calcul générée dans un classeur Excel.
+
+> [!NOTE]
+> Vous pouvez ajouter ce composant pour chaque composant **Feuille** afin de spécifier différents pieds de page pour différentes feuilles de calcul dans un classeur Excel généré.
+
+Lorsque vous configurez un composant **Pied de page** individuel, vous pouvez utiliser la propriété **Apparence en-tête/pied de page** pour spécifier les pages pour lesquelles le composant est utilisé. Les valeurs disponibles sont les suivantes :
+
+- **Tout** – Exécutez le composant **Pied de page** configuré pour n’importe quelle page de la feuille de calcul Excel parente.
+- **Premier** – Exécutez le composant **Pied de page** configuré uniquement pour la première page de la feuille de calcul Excel parente.
+- **Pair** – Exécutez le composant **Pied de page** configuré uniquement pour les pages paires de la feuille de calcul Excel parente.
+- **Impair** – Exécutez le composant **Pied de page** configuré uniquement pour les pages impaires de la feuille de calcul Excel parente.
+
+Pour un même composant **Feuille**, vous pouvez ajouter plusieurs composants **Pied de page**, chacun ayant une valeur différente pour la propriété **Apparence en-tête/pied de page**. De cette façon, vous pouvez générer différents pieds de page pour différents types de pages dans une feuille de calcul Excel.
+
+> [!NOTE]
+> Assurez-vous que chaque composant **Pied de page** que vous ajoutez à un même composant **Feuille**, a une valeur différente pour la propriété **Apparence en-tête/pied de page**. Sinon, une [erreur de validation](er-components-inspections.md#i16) se produit. Le message d’erreur que vous recevez vous avertit de l’incohérence.
+
+Sous le composant **Pied de page** ajouté, ajoutez les composants imbriqués requis de type **Texte\\Chaîne**, **Texte\\DateTime** ou d’un autre type. Configurez les liaisons de ces composants pour spécifier la manière dont votre pied de page est rempli.
+
+Vous pouvez également utiliser des [codes de mise en forme](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) pour mettre en forme correctement le contenu d’un pied de page généré. Pour apprendre à utiliser cette approche, suivez les étapes de la section [Exemple 1](#example-1), plus loin dans cette rubrique.
+
+> [!NOTE]
+> Lorsque vous configurez des formats ER, assurez-vous de prendre en compte la [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) Excel et le nombre maximum de caractères pour un seul en-tête ou pied de page.
+
+## <a name="header-component"></a>Composant d’en-tête
+
+Le composant **En-tête** est utilisé pour remplir les en-têtes en haut d’une feuille de calcul générée dans un classeur Excel. Il est utilisé de la même manière que le composant **Pied de page**.
+
 ## <a name="edit-an-added-er-format"></a>Modifier un format ER ajouté
 
 ### <a name="update-a-template"></a>Mettre à jour un modèle
@@ -175,6 +204,48 @@ Lorsqu’un document sortant dans un format du classeur Microsoft Excel est gén
     >[!NOTE]
     > Le recalcul de la formule est forcé manuellement lorsqu’un document généré est ouvert pour un aperçu à l’aide d’Excel.
     > N’utilisez pas cette option si vous configurez une destination ER qui suppose l’utilisation d’un document généré sans son aperçu dans Excel (conversion PDF, envoi par e-mail, etc.) car le document généré peut ne pas contenir de valeurs dans des cellules contenant des formules.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Exemple 1 : Mettre en forme le contenu d’un pied de page
+
+1. Utilisez les configurations ER fournies pour [générer](er-generate-printable-fti-forms.md) une facture financière imprimable.
+2. Vérifiez le pied de page du document généré. Notez qu’il contient des informations sur le numéro de page actuel et le nombre total de pages dans le document.
+
+    ![Vérifier le pied de page d’un document généré au format Excel](./media/er-fillable-excel-footer-1.gif)
+
+3. Dans le concepteur de format ER, [ouvrez](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) l’exemple de format ER afin de le vérifier.
+
+    Le pied de page de la feuille de calcul **Facture** est généré en fonction des paramètres de deux composants **Chaîne** qui se trouvent sous le composant **Pied de page** :
+
+    - Le premier composant **Chaîne** remplit les codes de mise en forme spéciaux suivants pour forcer Excel à appliquer une mise en forme spécifique :
+
+        - **&C** – Alignez le texte du pied de page au centre.
+        - **&"Segoe UI,Regular"&8** – Présentez le texte du pied de page dans la police "Segoe UI Regular" en taille 8 points.
+
+    - Le deuxième composant **Chaîne** remplit le texte contenant le numéro de page actuel et le nombre total de pages dans le document actuel.
+
+    ![Vérifier le composant de format ER Pied de page sur la page Concepteur de format](./media/er-fillable-excel-footer-2.png)
+
+4. Personnalisez l’exemple de format ER pour modifier le pied de page actuel :
+
+    1. [Créez](er-quick-start2-customize-report.md#DeriveProvidedFormat) un format ER **Facture financière (Excel) personnalisé** dérivé basé sur l’exemple de format ER.
+    2. Ajoutez la première nouvelle paire de composants **Chaîne** pour le composant **Pied de page** de la feuille de calcul **Facture** :
+
+        1. Ajoutez un composant **Chaîne** qui aligne le nom de l’entreprise sur la gauche et le présente en police "Segoe UI Regular" de taille 8 points (**"&L&"Segoe UI,Regular"&8**).
+        2. Ajoutez un composant **Chaîne** qui remplit le nom de l’entreprise (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Ajoutez la seconde nouvelle paire de composants **Chaîne** pour le composant **Pied de page** de la feuille de calcul **Facture** :
+
+        1. Ajoutez un composant **Chaîne** qui aligne la date de traitement sur la droite et la présente en police "Segoe UI Regular" de taille 8 points (**""&R&"Segoe UI,Regular"&8**).
+        2. Ajouter un composant **Chaîne** qui remplit la date de traitement dans un format personnalisé (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![Vérification du composant de format ER Pied de page sur la page Concepteur de format](./media/er-fillable-excel-footer-3.png)
+
+    4. [Complétez](er-quick-start2-customize-report.md#CompleteDerivedFormat) la version brouillon du format ER **Facture financière (Excel) personnalisé** dérivé.
+
+5. [Configurez](er-generate-printable-fti-forms.md#configure-print-management) la gestion de l’impression pour utiliser le format ER **Facture financière (Excel) personnalisé** dérivé au lieu de l’exemple de format ER.
+6. Générez un document FTI imprimable et consultez le pied de page du document généré.
+
+    ![Vérification du pied de page d’un document généré au format Excel](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

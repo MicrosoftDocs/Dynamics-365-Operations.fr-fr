@@ -1,12 +1,11 @@
 ---
-title: Financial Insights
-description: Financial Insights utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d’analyse.
+title: Analyse financière
+description: L’analyse financière utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d’analyse.
 author: kweekley
 manager: AnnBe
 ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
+ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115726"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5572364"
 ---
-# <a name="financial-insights"></a>Financial Insights
+# <a name="financial-analysis"></a>Analyse financière
 
 [!include [banner](../includes/banner.md)]
 
-**Financial Insights** utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d’analyse. Power BI est intégré dans l’application. **Financial Insights** est axé sur la génération d’états analytiques. Les employés d’une organisation peuvent afficher, rechercher, comprendre et agir. 
+L’**analyse financière** utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d’analyse. Power BI est intégré dans l’application. L’**analyse financière** est axée sur la génération d’états analytiques. Les employés d’une organisation peuvent afficher, rechercher, comprendre et agir. 
 
-**Financial Insights** combine les données de la comptabilité et des comptabilités auxiliaires pour donner une vue plus complète de la santé financière d’une organisation.
+L’**analyse financière** combine les données de la comptabilité et des comptabilités auxiliaires pour donner une vue plus complète de la santé financière d’une organisation.
 
 > [!NOTE]
 > Ce document utilise la terminologie Power BI suivante :
@@ -38,14 +37,14 @@ ms.locfileid: "5115726"
 > - **Page** – Onglet dans un fichier .pbix unique. Chaque page peut contenir un ou plusieurs éléments visuels.
 > - **Élément visuel** – Source de données unique, telle qu’une carte, un indicateur de performance clé, un graphique, une matrice ou un tableau d’analyse. Une page contenant un tableau d’analyse comme élément visuel ne peut pas avoir d’autres éléments visuels, en raison de la taille des données générées.
 
-Actuellement, **Financial Insights** est utilisé pour afficher les données de l’entité juridique active ou de toutes les entités juridiques. Dans les prochaines versions, l’espace de travail deviendra le lieu où vous pourrez utiliser Power BI pour modifier et créer des éléments visuels.
+Actuellement, l’**analyse financière** est utilisée pour afficher les données de l’entité juridique active ou de toutes les entités juridiques. Dans les prochaines versions, l’espace de travail deviendra le lieu où vous pourrez utiliser Power BI pour modifier et créer des éléments visuels.
 
-L’espace de travail **Vue d’ensemble d’un processus CFO** affiche les mêmes éléments visuels que l’espace de travail **Financial Insights**, mais vous permet essentiellement d’afficher et de filtrer les données des états existants. Dans les prochaines versions, vous pourrez ajouter de nouveaux éléments visuels à l’espace de travail **Financial Insights**. Les nouveaux éléments visuels peuvent également être disponibles dans les espaces de travail axés sur d’autres rôles, comme les responsables de projets ou les responsables de la comptabilité fournisseur. L’espace de travail **Vue d’ensemble d’un processus CFO** continue d’afficher les données de toutes les entités juridiques, quelles que soient les entités juridiques auxquelles le rôle a accès.
+L’espace de travail **Vue d’ensemble d’un processus CFO** affiche les mêmes éléments visuels que l’espace de travail **Analyse financière**, mais vous permet essentiellement d’afficher et de filtrer les données des états existants. Dans les prochaines versions, vous pourrez ajouter de nouveaux éléments visuels à l’espace de travail **Analyse financière**. Les nouveaux éléments visuels peuvent également être disponibles dans les espaces de travail axés sur d’autres rôles, comme les responsables de projets ou les responsables de la comptabilité fournisseur. L’espace de travail **Vue d’ensemble d’un processus CFO** continue d’afficher les données de toutes les entités juridiques, quelles que soient les entités juridiques auxquelles le rôle a accès.
 
 ## <a name="dynamics-365-finance-setup"></a>Configuration Dynamics 365 Finance
 **Comptabilité**
 
-Le type de compte principal et les catégories de compte principal permettent de renseigner les comptes principaux par défaut appropriés dans le tableau d’analyse **Bilan** et les différents tableaux d’analyse **Compte de résultat** dans **Financial Insights**.
+Le type de compte principal et les catégories de compte principal permettent de renseigner les comptes principaux par défaut appropriés dans le tableau d’analyse **Bilan** et les différents tableaux d’analyse **Compte de résultat** dans l’**analyse financière**.
 
 Dans la page **Comptes principaux**, vous devez définir votre compte principal afin que l’un des types suivants lui soit affecté :
 
@@ -57,14 +56,14 @@ Dans la page **Comptes principaux**, vous devez définir votre compte principal 
 
 N’affectez aucun autre type de compte principal, par exemple **Bilan** ou **Résultat**, à vos comptes principaux. Les états ne peuvent pas déterminer le type de compte principal lorsque d’autres types de comptes principaux sont affectés, car ils ne sont pas assez précis. Le type de compte principal doit être déterminé pour afficher le passif et le produit sous forme de montants positifs dans les états financiers.
 
-Pour apparaître dans les tableaux d’analyse et être inclus dans d’autres éléments visuels, tels que les indicateurs de performance clés, chaque compte principal doit se voir affecter une catégorie de compte principal. Les catégories de compte principal ont été améliorées afin d’inclure un ordre d’affichage. L’ordre d’affichage est utilisé spécifiquement dans les tableaux d’analyse de **Financial Insights**. Une fois que vous avez modifié ou ajouté une nouvelle catégorie de compte principal, vous pouvez modifier la valeur **Ordre d’affichage** pour définir l’ordre d’affichage des catégories de compte principal dans un tableau d’analyse. Si vous devez modifier l’ordre d’affichage de plusieurs catégories de compte principal, vous pouvez utiliser la fonction Ouvrir dans Excel pour modifier et publier rapidement les modifications dans l’application.
+Pour apparaître dans les tableaux d’analyse et être inclus dans d’autres éléments visuels, tels que les indicateurs de performance clés, chaque compte principal doit se voir affecter une catégorie de compte principal. Les catégories de compte principal ont été améliorées afin d’inclure un ordre d’affichage. L’ordre d’affichage est utilisé spécifiquement dans les tableaux d’analyse de l’**analyse financière**. Une fois que vous avez modifié ou ajouté une nouvelle catégorie de compte principal, vous pouvez modifier la valeur **Ordre d’affichage** pour définir l’ordre d’affichage des catégories de compte principal dans un tableau d’analyse. Si vous devez modifier l’ordre d’affichage de plusieurs catégories de compte principal, vous pouvez utiliser la fonction Ouvrir dans Excel pour modifier et publier rapidement les modifications dans l’application.
 
 ## <a name="entity-store"></a>Magasin des entités
-Les données de **Financial Insights** sont extraites du magasin des entités (**Administration du système** \> **Paramétrage** \> **Magasin des entités**). Si vous ouvrez l’espace de travail **Vue d’ensemble d’un processus CFO** ou **Financial Insights** et que le message d’avertissement suivant s’affiche dans les éléments visuels, vous devez mettre à jour les entités.
+Les données de l’**analyse financière** sont extraites du magasin des entités (**Administration du système** \> **Paramétrage** \> **Magasin des entités**). Si vous ouvrez l’espace de travail **Vue d’ensemble d’un processus CFO** ou de l’**analyse financière** et que le message d’avertissement suivant s’affiche dans les éléments visuels, vous devez mettre à jour les entités.
 
 ![Avertissement](./media/Cantdisplay.png)
 
-Vous devez mettre à jour les entités suivantes pour visualiser les données dans les espaces de travail **Financial Insights** et **Vue d’ensemble d’un processus CFO** :
+Vous devez mettre à jour les entités suivantes pour visualiser les données dans les espaces de travail de l’**analyse financière** :
 
 - BudgetActivityMeasure
 - Données de transaction des états financiers version 3 
@@ -74,31 +73,28 @@ Vous devez mettre à jour les entités suivantes pour visualiser les données da
 - Cube d'achat
 - Cube de vente
 
-Dans la version précédente, les entités LedgerActivityMeasure et VendPaymentBIMeasure étaient utilisées pour les données de l’espace de travail **Vue d’ensemble d’un processus CFO**. Toutefois, elles ne sont plus utilisées dans la version actuelle.
-
 Vous pouvez définir un traitement par lots récurrent pour mettre à jour régulièrement les données des entités. Comme chaque entité est complètement recréée pendant une mise à jour, sélectionnez avec précaution l’heure et la fréquence des mises à jour d’entité. L’entité principale utilisée pour les tableaux d’analyse est l’entité FinancialReportingTransactionData. Par conséquent, vous pouvez choisir de mettre à jour cette entité plus souvent.
 
 ## <a name="security"></a>Sécurité
 Actuellement, les données des états Power BI intégrés ne peuvent pas être limitées aux entités juridiques auxquelles l’utilisateur a accès. Par conséquent, les états Power BI intégrés sont contrôlés par des droits dans le paramétrage de la sécurité. Les droits définis permettent d’accéder aux données de toutes les entités juridiques ou de l’entité active uniquement. Le tableau suivant présente les droits existants et les rôles auxquels ils sont affectés. Les droits peuvent être supprimés ou affectés à différents rôles, selon les besoins de votre organisation.
 
-| Droits de douane                                    | Rôles | Description |
+| Droits de douane                                    | Rôles | Description  |
 |-----------------------------------------|-------|------------|
-| Afficher l’espace de travail Vue d’ensemble d’un processus CFO             | Directeur financier | Ce droit permet d’accéder à l’espace de travail Vue d’ensemble d’un processus CFO. Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l’utilisateur ait accès ou non aux autres entités juridiques. |
-| Afficher les informations financières sur la société actuelle | <ul><li>Comptable</li><li>Responsable comptabilité</li><li>Chef comptable</li><li>Auditeur</li><li>Responsable du budget</li><li>Président directeur général</li><li>Directeur financier</li><li>Contrôleur financier</li></ul> | Ce droit permet d’accéder à Financial Insights. Par défaut, la société active est utilisée comme filtre. Vous ne pouvez pas ajouter d’autres entités juridiques. |
-| Afficher les informations financières entre sociétés   | Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, cette responsabilité n’est pas affectée à un rôle. Dans la prochaine version, ce droit sera affecté au rôle Directeur financier. | Ce droit permet d’accéder à l’option de menu de l’espace de travail Vue d’ensemble d’un processus CFO. Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l’utilisateur ait accès ou non aux autres entités juridiques. |
+| Afficher l’analyse financière pour la société actuelle | <ul><li>Comptable</li><li>Responsable comptabilité</li><li>Chef comptable</li><li>Auditeur</li><li>Responsable du budget</li><li>Président directeur général</li><li>Directeur financier</li><li>Contrôleur financier</li></ul> | Ce droit permet d’accéder à l’analyse financière. Par défaut, la société active est utilisée comme filtre. Vous ne pouvez pas ajouter d’autres entités juridiques. |
+| Afficher l’analyse financière pour toutes les sociétés   | Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, cette responsabilité n’est pas affectée à un rôle. Dans la prochaine version, ce droit sera affecté au rôle Directeur financier. | Ce droit permet d’accéder à l’option de menu de l’espace de travail Vue d’ensemble d’un processus CFO. Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l’utilisateur ait accès ou non aux autres entités juridiques. |
 
 
-## <a name="financial-reporting-vs-financial-insights"></a>Comparaison entre l’outil États financiers et Financial Insights
-Bien que **Financial Insights** contienne des tableaux d’analyse, il ne remplace pas l’outil États financiers dans l’application. Les tableaux d’analyse par défaut dans **Financial Insights** sont limités en portée et n’incluent pas tous les types de tableaux d’analyse. Financial Reporting est toujours l’outil principal pour la conception, la création et la génération de tableaux d’analyse statutaires.
+## <a name="financial-reporting-vs-financial-analysis"></a>Comparaison entre Financial Reporting et l’analyse financière
+Bien que l’**analyse financière** contienne des tableaux d’analyse, elle ne remplace pas Financial reporting dans l’application. Les tableaux d’analyse par défaut dans l’**analyse financière** sont limités en portée et n’incluent pas tous les types de tableaux d’analyse. Financial Reporting est toujours l’outil principal pour la conception, la création et la génération de tableaux d’analyse statutaires.
 
 Le tableau de comparaison suivant permet de différencier les deux options :
 
 
-|                                                          | Outil États financiers                                               | Financial Insights |
+|                                                          | Financial Reporting                                               | Analyse financière |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Modifier les états par défaut**                                 | Oui                                                               | Non |
-| **Créer des rapports**                                   | Oui                                                               | Non |
-| **Imprimer des rapports**                                        | Oui                                                               | Non |
+| **Modifier les états par défaut**                                 | Oui                                                               | N° |
+| **Créer des rapports**                                   | Oui                                                               | N° |
+| **Imprime les états**                                        | Oui                                                               | Non |
 | **Exporter vers Excel**                                      | Oui                                                               | Exportations limitées de données brutes vers Excel, et non dans un état formaté |
 | **Prise en charge de la hiérarchie/hiérarchie d’organisation de génération d’états**   | Oui                                                               | Non |
 | **État sur les données de comptabilité auxiliaire**                             | Oui Limité uniquement au fournisseur, client                              | Oui Fournisseur, client, fournisseur/groupes de clients, adresses fournisseur/client, et ainsi de suite. |
@@ -108,7 +104,7 @@ Le tableau de comparaison suivant permet de différencier les deux options :
 | **état sur les données externes**                              | Non                                                                | Non |
 | **Prendre en charge les consolidations**                               | Oui                                                               | Limité Peut générer des rapports sur plusieurs sociétés mais utiliser la devise comptable uniquement |
 
-Outre l’interface utilisateur de l’espace de travail **Vue d’ensemble d’un processus CFO** d’origine, de nouveaux indicateurs de performance clés, graphiques et tableaux d’analyse sont désormais disponibles. Les tableaux d’analyse suivants sont disponibles :
+Les tableaux d’analyse suivants sont disponibles :
 
 - Balance comptable
 - Bilan
@@ -121,7 +117,7 @@ Outre l’interface utilisateur de l’espace de travail **Vue d’ensemble d’
 - Ventes par client
 
 ## <a name="edit-visuals"></a>Modifier les éléments visuels
-Dans la version initiale de **Financial Insights**, aucun élément visuel ne peut être modifié. Dans les prochaines versions, les utilisateurs disposant des autorisations de sécurité appropriées pourront créer des éléments visuels, copier des éléments visuels existants et modifier des éléments visuels. Bien que les fichiers .pbix contenant les états soient disponibles comme ressources, il n’est pas recommandé de modifier les états par défaut. Des modifications supplémentaires seront apportées au modèle de données, aux états par défaut et aux éléments visuels personnalisés utilisés pour créer les tableaux d’analyse. Par conséquent, pour bénéficier des nouvelles fonctionnalités et modifications du modèle de données dans la prochaine version, vous devez ignorer les modifications apportées aux états par défaut via Microsoft Power BI Desktop.
+Dans les versions précédentes de l’**analyse financière**, aucun des visuels ne pouvait être modifié. Dans les prochaines versions, les utilisateurs disposant des autorisations de sécurité appropriées pourront créer des éléments visuels, copier des éléments visuels existants et modifier des éléments visuels. Bien que les fichiers .pbix contenant les états soient disponibles comme ressources, il n’est pas recommandé de modifier les états par défaut. Des modifications supplémentaires seront apportées au modèle de données, aux états par défaut et aux éléments visuels personnalisés utilisés pour créer les tableaux d’analyse. Par conséquent, pour profiter des nouvelles fonctionnalités et modifications du modèle de données dans la prochaine version, vous devez ignorer les modifications apportées aux états par défaut via Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Filtrage
 Les utilisateurs peuvent filtrer l’état à l’aide du volet **Filtre** à gauche. Ce volet est identique à celui disponible via Power BI Desktop. Il existe différents niveaux de filtrage, dont certains peuvent ne pas être disponibles, selon votre sélection dans une page (onglet) ou selon que vous utilisez les fonctionnalités d’extraction :
@@ -168,7 +164,7 @@ Les dimensions suivantes sont utilisées dans les états par défaut. Aucune de 
 - Ville
 
 > [!IMPORTANT] 
-> Si vous synthétisez les transactions de plusieurs fournisseurs ou clients dans un seul document à l’aide des journaux financiers, les données seront incorrectes. Les états ne peuvent pas déterminer quel fournisseur ou client est associé à un compte général spécifique dans une entrée de journal, car ces informations ne sont pas tenues à jour. Par conséquent, il n’est pas recommandé d’entrer plusieurs fournisseurs, clients, immobilisations ou projets dans un seul document.
+> Si vous synthétisez les transactions de plusieurs fournisseurs ou clients dans un seul document à l’aide des journaux financiers, les données seront incorrectes. Le processus de génération d’états ne peut pas déterminer quel fournisseur ou client est associé à un compte général spécifique dans une entrée de journal, car ces informations ne sont pas tenues à jour. Par conséquent, il n’est pas recommandé d’entrer plusieurs fournisseurs, clients, immobilisations ou projets dans un seul document.
 
 ## <a name="drill-on-data"></a>Explorer les données
 
@@ -243,7 +239,7 @@ Power BI ne fournit pas une option pour masquer et afficher les lignes vides. Si
 
 ## <a name="additional-resources-for-power-bi"></a>Ressources supplémentaires pour Power BI
 
-Les informations des ressources suivantes ne sont pas requises pour activer les états intégrés de l’espace de travail **Vue d’ensemble d’un processus CFO** ou **Financial Insights** dans un environnement de production. Elles sont utiles pour les environnements de développement et si vous souhaitez intégrer vos propres états Power BI.
+Les informations des ressources suivantes ne sont pas requises pour activer les états intégrés de l’espace de travail **Analyse financière** dans un environnement de production. Elles sont utiles pour les environnements de développement et si vous souhaitez intégrer vos propres états Power BI.
 
 - [Accès aux espaces de travail analytiques et aux rapports dans un environnement 1-box](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 

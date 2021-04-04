@@ -1,9 +1,9 @@
 ---
 title: Automatisation du processus de recouvrement
-description: Cette rubrique décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement (comme un appel téléphonique) ou une lettre de recouvrement à envoyer au client.
+description: Cette rubrique décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement ou une lettre de recouvrement à envoyer au client.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,23 +15,25 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969699"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582749"
 ---
-# <a name="collections-process-automation"></a>Automatisation du processus de recouvrement
+# <a name="collections-process-automation"></a>Automatisation du processus de recouvrements
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement (comme un appel téléphonique) ou une lettre de recouvrement à envoyer au client. 
 
-Les organisations passent beaucoup de temps à rechercher des états de solde chronologiques, des comptes client et des factures ouvertes pour déterminer quels clients doivent être contactés au sujet d’une facture ouverte ou d’un solde de compte. Cette recherche réduit le temps passé par un agent de recouvrement à communiquer avec les clients pour recouvrer les soldes en souffrance ou résoudre les litiges relatifs aux factures. L’automatisation du processus de recouvrement vous permet de définir une approche stratégique de votre processus de recouvrement. Cela vous aide à appliquer les activités de recouvrement de manière cohérente en fournissant des rappels par e-mail personnalisés ou un processus programmé pour l’envoi de lettres de recouvrement. 
+Les organisations passent beaucoup de temps à effectuer des recherches dans des états de solde chronologiques, des comptes client et des factures ouvertes pour savoir quels clients doivent être contactés au sujet d’une facture ouverte ou d’un solde de compte. Cette recherche réduit le temps passé par un agent de recouvrement à communiquer avec les clients pour recouvrer les soldes en souffrance ou résoudre les litiges relatifs aux factures. L’automatisation du processus de recouvrement vous permet de définir une approche stratégique de votre processus de recouvrement. Cela vous aide à appliquer les activités de recouvrement de manière cohérente en fournissant des rappels par e-mail personnalisés ou un processus programmé pour l’envoi de lettres de recouvrement. 
 
 ## <a name="collections-process-setup"></a>Configuration du processus de recouvrement
 Vous pouvez utiliser la page **Configuration du processus de recouvrement** (**Crédits et recouvrements > Configuration > Configuration du processus de recouvrement**) pour créer un processus de recouvrement automatisé qui planifiera des activités, enverra des e-mails et créera et publiera des lettres de recouvrement de clients. Les étapes du processus sont basées sur la facture ouverte principale ou la plus ancienne. Chaque étape utilise cette facture pour déterminer quelle communication ou activité doit avoir lieu avec un client spécifique.  
+
+Les équipes de recouvrement envoient généralement un préavis relatif à chaque facture impayée afin qu’un client soit averti lorsque la facture est sur le point d’être échue. La sélection **Prérelance** peut être définie pour permettre d’appliquer une étape de chaque hiérarchie de processus pour chaque facture lorsque l’échéance des factures atteint cette étape.
 
 ### <a name="process-hierarchy"></a>Hiérarchie des processus
 Chaque regroupement de clients ne peut être affecté qu’à une seule hiérarchie de processus. Le rang hiérarchique de cette étape identifie le processus qui aura la priorité si un client est inclus dans plus d’un pool auquel une hiérarchie de processus est attribuée. L’ID de pool détermine quels clients seront affectés au processus. 
@@ -82,6 +84,7 @@ Les tableaux suivants répertorient les pages et les champs à partir desquels l
 |                                                           |     Document commercial                           |     Définit l’activité ou le modèle d’e-mail utilisé lors de l’étape de processus.                                                                        |
 |                                                           |     Si                                          |     Définit si l’étape du processus se produira avant ou après la date d’échéance de la facture principale avec le champ **Jours par rapport à la date d’échéance de la facture**.        |
 |                                                           |     Jours par rapport à la date d’échéance de la facture        |     Avec le champ **Quand**, il identifie le moment de l’étape du processus.                                                                          |
+|                                                           |     Pré-relance                                   |     Cette sélection permet de définir et d’exécuter une étape par hiérarchie de processus sur chaque facture lorsqu’elle atteint les critères d’échéance.                                                |
 |                                                           |     Destinataire                                     |     Identifie si un e-mail sera envoyé à un contact Client, groupe de vente ou agent de recouvrement.                                                   |
 |                                                           |     Contact à des fins commerciales                    |     Détermine l’adresse e-mail du destinataire utilisée dans les communications par e-mail.                                                                                 |
 
@@ -100,23 +103,29 @@ Les tableaux suivants répertorient les pages et les champs à partir desquels l
 ### <a name="collections-history"></a>Historique des recouvrements 
 |     Page                              |     Champ     |      Description                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Configuration du processus de recouvrement       |               |     Afficher l’historique récent de la hiérarchie de processus sélectionnée.     |
+|     Configuration du processus de recouvrement       |               |     Affichez l’historique récent de la hiérarchie de processus sélectionnée.       |
 
 ### <a name="collection-process-assignment"></a>Affectation du processus de recouvrement
 |     Page                              |     Champ     |      Description                                                  |
 |------------------------------------   |-------------- |-----------------------------------------------------------    |
-|     Configuration du processus de recouvrement       |               |     Afficher les clients affectés à un processus de recouvrement.  
+|     Configuration du processus de recouvrement       |               |     Affichez les clients affectés à un processus de recouvrement.  
 |     Affectation manuelle               |               |     Affichez les clients qui ont été affectés manuellement à un processus ou sélectionnez les clients à affecter à un processus. |
 |     Afficher un aperçu de l’affectation de processus      |               |     Prévisualisez les clients qui seront affectés à une stratégie lors de son exécution.   |
 |     Afficher un aperçu de l’affectation de client     |               |     Affichez la stratégie attribuée à un client spécifique.    |
  
+ ### <a name="process-simulation"></a>Traiter la simulation
+|     Page                              |     Champ     |      Description                                                   |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Traiter la simulation                 |               |     Prévisualisez les actions qui seront créées si l’automatisation de processus sélectionnée est exécutée à ce moment. |
+
 ### <a name="parameters"></a>Paramètres
-|     Page                                                                  |     Champ                                             |      Description                              |
+|     Page                                                                  |     Champ                                             |      Description                               |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Pourcentage de clients par tâche de traitement par lots          |     Paramètre pour déterminer le nombre de tâches de traitement par lots par processus d’automatisation.                                          |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Valider automatiquement les lettres de relance           |     Les types d’action de lettre de relance publieront la lettre pendant l’automatisation.                                      |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Créer des activités d’automatisation                |     Créez et fermez des activités pour les types d’action non liés à une activité pour afficher toutes les étapes automatisées effectuées sur un compte.        |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Jours pour conserver l’automatisation des processus de recouvrement     |     Définit le nombre de jours pendant lesquels l’historique des recouvrements est stocké.                                                       |
+|     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Exclure la facture après l’activation de la dernière étape du processus    |     Une facture qui atteint la dernière étape du processus de recouvrement ne sera pas utilisée pour créer de futurs types d’action d’automatisation de processus. La facture la plus ancienne suivante déterminera l’étape d’automatisation du processus suivante pour garantir la poursuite des actions d’automatisation du processus de collecte.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

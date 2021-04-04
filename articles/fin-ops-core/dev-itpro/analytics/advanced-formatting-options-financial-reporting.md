@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093160"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568464"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Options de mise en forme avancées dans les états financiers
 
@@ -283,10 +282,10 @@ Pour limiter un calcul à une seule unité de génération dans une arborescence
 > [!NOTE]
 > Pour utiliser cette fonction, une arborescence de génération d’états doit être associée à la définition de ligne.
 
-La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule **Formules/lignes/unités associées** de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction **IF @Unit**. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l’état, mais uniquement pour l’unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d’entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n’apparaît pas dans les unités de l’arborescence. Vous pouvez également limiter le montant à une seule colonne de l’état, comme la colonne H par exemple, à l’aide d’une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l’état. Vous pouvez inclure des combinaisons **OR** dans une instruction **IF**. Voici un exemple : IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Vous pouvez spécifier une unité dans une restriction de type de calcul de l’une des manières suivantes :
+La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne de données financières. Le calcul est enregistré dans la cellule **Formules/lignes/unités associées** de la définition de ligne et de la restriction financière du type de données. Le calcul doit utiliser un calcul conditionnel commençant par la construction **IF \@Unit**. Voici un exemple : IF @Unit(SALES) THEN @100 ELSE 0 Ce calcul comprend le montant à partir de la ligne 100 dans chaque colonne de l’état, mais uniquement pour l’unité de vente. Si plusieurs unités sont nommées SALES, le montant apparaît dans chacune d’entre elles. En outre, la ligne 100 peut être une ligne de données financières et peut être définie comme non imprimée. Dans ce cas, le montant n’apparaît pas dans les unités de l’arborescence. Vous pouvez également limiter le montant à une seule colonne de l’état, comme la colonne H par exemple, à l’aide d’une restriction de colonne pour imprimer la valeur uniquement dans cette colonne de l’état. Vous pouvez inclure des combinaisons **OR** dans une instruction **IF**. Voici un exemple : **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. Vous pouvez spécifier une unité dans une restriction de type de calcul de l’une des manières suivantes :
 
-- Entrez un nom d’unité pour inclure les unités qui correspondent. Par exemple, **IF @Unit(SALES)** active le calcul pour toute unité nommée SALES, même s’il existe plusieurs unités de vente dans l’arborescence de génération d’états.
-- Entrez le nom d’unité et la société pour limiter le calcul aux unités spécifiques d’une société spécifique. Par exemple, entrez **IF @Unit(ACME:SALES**) pour limiter le calcul aux unités de vente de la société ACME.
+- Entrez un nom d’unité pour inclure les unités qui correspondent. Par exemple, **IF \@Unit(SALES) active** le calcul pour toute unité nommée SALES, même s’il existe plusieurs unités de vente dans l’arborescence de génération d’états.
+- Entrez le nom d’unité et la société pour limiter le calcul aux unités spécifiques d’une société spécifique. Par exemple, entrez **IF @Unit (ACME:SALES)** pour limiter le calcul aux unités de vente de la société ACME.
 - Entrez le code hiérarchique complet à partir de l’arborescence de génération d’états pour limiter le calcul à une unité spécifique. Par exemple, entrez **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +295,7 @@ La ligne de calcul peut faire référence à une ligne de calcul ou à une ligne
 
 1. Dans le Concepteur de rapports, cliquez sur **Définitions de ligne** puis ouvrez la définition de ligne à modifier.
 2. Double-cliquez sur la cellule **Code de format**, puis sélectionnez **CAL**.
-3. Cliquez sur la cellule **Formules/lignes/unités associées**, puis entrez un calcul conditionnel commençant par une construction **IF @Unit**.
+3. Cliquez sur la cellule **Formules/lignes/unités associées**, puis entrez un calcul conditionnel commençant par une construction **IF \@Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instructions IF/THEN/ELSE dans une définition de colonne
 
@@ -310,6 +309,5 @@ Une instruction **IF/THEN/ELSE** permet à n’importe quel calcul de dépendre 
 Vous pouvez concevoir des états à l’aide de valeurs de dimension contenant une esperluette (&).
 
 Dans tout champ **Lier aux dimensions financières**, vous pouvez entrer une valeur comme **’Compte&Résultat’**. L’insertion d’apostrophes (’ ’) de part et d’autre de la valeur de la dimension indique que vous utilisez la valeur littérale, par exemple en incluant l’esperluette (&).
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

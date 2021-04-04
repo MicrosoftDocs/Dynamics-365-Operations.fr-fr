@@ -3,7 +3,7 @@ title: Démarrage du module complémentaire de facturation électronique
 description: Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111218"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592548"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Démarrage du module complémentaire de facturation électronique
 
@@ -38,7 +38,6 @@ Le tableau suivant répertorie les fonctionnalités de facturation électronique
 | Facture électronique belge (BE)      | <p>Facture client</p><p>Facture de projet</p> |
 | NF-e (BR) pour le Brésil                  | <p>Modèle 55 du document fiscal</p><p>Lettre de correction</p> |
 | NFS-e ABRASF Curitiba (BR) pour le Brésil | Document fiscal |
-| NFS-e São Paulo (BR) pour le Brésil       | Document fiscal |
 | Facture électronique danoise (DK)       | <p>Facture client</p><p>Facture de projet</p> |
 | Facture électronique pour l'Égypte (EG)     | <p>Facture client</p><p>Facture de projet</p> |
 | Facture électronique estonienne (EE)     | <p>Facture client</p><p>Facture de projet</p> |
@@ -64,14 +63,14 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importer une fonctionnalité de facturation électronique à partir du fournisseur de configuration Microsoft 
 
 1. Connectez-vous à votre compte RCS (Regulatory Configuration Service).
-2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Fonctionnalités**, sélectionnez la vignette **Facturation électronique**.
+2. Dans l’espace de travail **Fonctionnalité de globalisation**, dans la section **Fonctionnalités**, sélectionnez la vignette **Module complémentaire de facturation électronique**.
 3. Sélectionnez **Importer**, puis **Synchroniser**.
 4. Filtrez la colonne **Fournisseur de configuration** par le terme **Microsoft**.
 5. Sélectionnez le nom d'une fonction de facturation électronique dans le tableau au début de cette rubrique, puis sélectionnez **Importer**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Créer une fonctionnalité de facturation électronique sous votre fournisseur d'organisation
 
-1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalité de globalisation**, sélectionnez la vignette **Facturation électronique**.
+1. Dans RCS, dans la section **Fonctionnalités** de l’espace de travail **Fonctionnalités de globalisation**, sélectionnez la vignette **Module complémentaire de facturation électronique**.
 2. Sélectionnez **Ajouter** > **Basé sur la fonctionnalité existante**, et dans le champ **Nom**, entrez le nom de la fonctionnalité de facturation électronique.
 3. Dans le champ **Description**, entrez la description de la fonctionnalité.
 4. Dans le **Champ de fonction de base**, sélectionnez la fonction de facturation électronique importée à partir du fournisseur de configuration Microsoft.
@@ -79,7 +78,9 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>Configurer la fonctionnalité de facturation électronique
 
-Selon le pays ou la région, la fonctionnalité de facturation électronique peut nécessiter une configuration supplémentaire. Pour connaître les étapes spécifiques, consultez la documentation de mise en route disponible pour votre pays ou région.
+Selon le pays ou la région, la fonctionnalité de facturation électronique peut nécessiter une configuration supplémentaire. 
+
+Pour connaître les étapes spécifiques, consultez la documentation de mise en route disponible pour votre pays ou région.
 
 ## <a name="configure-the-application-setup"></a>Configurer le paramétrage de l'application
 
@@ -100,7 +101,6 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
     | Facture électronique belge (BE)      | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
     | NF-e (BR) pour le Brésil                  | <p>Document fiscal</p><p>Lettre de correction</p> | Document fiscal |
     | NFS-e ABRASF Curitiba (BR) pour le Brésil | Document fiscal | Document fiscal |
-    | NFS-e São Paulo (BR) pour le Brésil       | Document fiscal | Document fiscal |
     | Facture électronique danoise (DK)       | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
     | Facture électronique pour l'Égypte (EG)     | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
     | Facture électronique estonienne (EE)     | <p>Facture client</p><p>Facture de projet</p> | <p>Journal des factures client</p><p>Facture de projet</p> |
@@ -121,8 +121,7 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
     | Factures électroniques autrichiennes (AT)    | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | Facture électronique belge (BE)      | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | NF-e (BR) pour le Brésil                  | <p>Document fiscal</p><p>Lettre de correction</p> | <p>Modèle de contexte de facture client – Contexte du document fiscal</p><p>Modèle de contexte de facture client - Contexte de lettre de correction FD</p> |
-    | NFS-e ABRASF Curitiba (BR) pour le Brésil | Document fiscal du service| Modèle de contexte de facture client – Contexte du document fiscal |
-    | NFS-e São Paulo (BR) pour le Brésil       | Document fiscal du service| Modèle de contexte de facture client – Contexte du document fiscal |
+    | NFS-e ABRASF Curitiba (BR) pour le Brésil | Document fiscal| Modèle de contexte de facture client – Contexte du document fiscal |
     | Facture électronique danoise (DK)       | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | Facture électronique pour l'Égypte (EG)     | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
     | Facture électronique estonienne (EE)     | <p>Facture client</p><p>Facture de projet</p> | <p>Modèle de contexte de facture client – Contexte de la facture client</p><p>Modèle de contexte de facture client – Contexte de la facture de projet</p> |
@@ -143,8 +142,7 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
     | Factures électroniques autrichiennes (AT)    | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
     | Facture électronique belge (BE)      | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
     | NF-e (BR) pour le Brésil                  | <p>Document fiscal</p><p>Lettre de correction</p> | <p>Mappage des documents fiscaux - Mappage des documents fiscaux</p><p>Mappage des documents fiscaux - Mappage des lettres de correction</p> |
-    | NFS-e ABRASF Curitiba (BR) pour le Brésil | Document fiscal du service | Mappage des documents fiscaux - Mappage des documents fiscaux |
-    | NFS-e São Paulo (BR) pour le Brésil       | Document fiscal du service | Mappage des documents fiscaux - Mappage des documents fiscaux |
+    | NFS-e ABRASF Curitiba (BR) pour le Brésil | Document fiscal | Mappage des documents fiscaux - Mappage des documents fiscaux |
     | Facture électronique danoise (DK)       | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
     | Facture électronique pour l'Égypte (EG)     | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
     | Facture électronique estonienne (EE)     | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
@@ -158,7 +156,9 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
     | Facture électronique espagnole (ES)      | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
     | Facture électronique PEPPOL            | <p>Facture client</p><p>Facture de projet</p> | <p>Mappage de modèle de facture - Facture client</p><p>Mappage de modèle de facture - Facture projet</p> |
 
-Selon le pays ou la région, la fonctionnalité de facturation électronique peut nécessiter une configuration supplémentaire. Pour connaître les étapes spécifiques, consultez la documentation de mise en route disponible pour votre pays ou région.
+Selon le pays ou la région, la fonctionnalité de facturation électronique peut nécessiter une configuration supplémentaire.
+
+Pour connaître les étapes spécifiques, consultez la documentation de mise en route disponible pour votre pays ou région.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>Déployer la fonctionnalité de facturation électronique
 
@@ -177,27 +177,26 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
 
 1. Connectez-vous à Finance ou Supply Chain Management et vérifiez que vous êtes dans la bonne entité juridique.
 2. Allez dans **Administration de l’organisation** \> **Paramétrage** \> **Paramètres des documents électroniques**.
-3. Sur l'onglet **Fonctionnalités**, sélectionnez la ou les références de fonctionnalité répertoriées dans le tableau suivant pour activer la fonctionnalité de facturation électronique pour Finance ou Supply Chain Management.
+3. Dans l’onglet **Fonctionnalités**, sélectionnez la fonctionnalité spécifique au pays/à la région pour activer la fonctionnalité de facturation électronique pour Finance ou Supply Chain Management. Le tableau suivant fournit une liste des fonctionnalités de facturation électronique disponibles pour des pays/régions spécifiques. 
 
-    | Nom de la fonction                         | Pays/région  | Référence de la fonctionnalité |
-    |--------------------------------------|-----------------|-------------------|
-    | Factures électroniques autrichiennes (AT)    | Autriche         | EUR-00023 |
-    | Facture électronique belge (BE)      | Belgique         | EUR-00023 |
-    | NF-e (BR) pour le Brésil                  | Brésil          | BR-00053 |
-    | NFS-e ABRASF Curitiba (BR) pour le Brésil | Brésil          | BR-00095 |
-    | NFS-e São Paulo (BR) pour le Brésil       | Brésil          | BR-00095 |
-    | Facture électronique danoise (DK)       | Danemark         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Facture électronique néerlandaise (NL)        | Pays-Bas | EUR-00023 |
-    | Facture électronique pour l'Égypte (EG)     | Égypte           | EG-00008 |
-    | Facture électronique estonienne (EE)     | Estonie         | EUR-00023 |
-    | Facture électronique finlandaise (DK)      | Finlande         | EUR-00023 |
-     Facture électronique française (FR)       | France           | EUR-00023 |
-    | Facture électronique allemande (DE)       | Allemagne         | EUR-00023 |
-    | CFDI Interfactura (MX) pour le Mexique       | Mexique          | <p>MX-00010</p><p>MX-00016</p> |
-    | Facture électronique norvégienne (NO)    | Norvège          | <p>EUR-00023</p><p>NO-00010</p> |
-    | Facture électronique espagnole (ES)      | Espagne           | <p>EUR-00023</p><p>ES-00025</p> |
-    | Facture électronique italienne (IT)      | Italie           | <p>EUR-00023</p><p>IT-00036</p> |
-    | Facture électronique PEPPOL            | Europe          | EUR-00023 |
+    | Nom de la fonction                                          | Pays/région  |
+    |-------------------------------------------------------|-----------------|
+    | Factures électroniques autrichiennes (AT)                     | Autriche         |
+    | Facture électronique belge (BE)                       | Belgique         |
+    | Facture électronique CFDI pour le Mexique (MX)                  | Mexique          |
+    | Facture électronique danoise (DK)                        | Danemark         |
+    | Facture électronique néerlandaise (NL)                         | Pays-Bas |
+    | Facture électronique pour l'Égypte (EG)                      | Égypte           |
+    | Facture électronique estonienne (EE)                      | Estonie         |
+    | Facture électronique finlandaise (DK)                       | Finlande         |
+    | Facture électronique française (FR)                        | France          |
+    | Facture électronique allemande (DE)                        | Allemagne         |
+    | Facture électronique italienne (IT)                       | Italie           |
+    | NF-e Federal - Facture électronique pour le Brésil (BR)      | Brésil          |
+    | NFS-e - Facture électronique du service brésilien (ville)   | Brésil          |
+    | Facture électronique norvégienne (NO)                     | Norvège          |
+    | Facture électronique PEPPOL                             | Général          |
+    | Facture électronique espagnole (ES)                       | Espagne           |
 
 4. Sélectionnez **Enregistrer**.
 
@@ -226,11 +225,11 @@ Selon le pays ou la région, la fonctionnalité de facturation électronique peu
 
 3. Sélectionnez une facture dans la grille, puis sélectionnez **Recherches** \> **Détails de l’envoi**.
 
-Selon le pays ou la région, la fonctionnalité de facturation électronique peut nécessiter une configuration supplémentaire. Pour connaître les étapes spécifiques, consultez la documentation de mise en route disponible pour votre pays ou région.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 - [Vue d’ensemble du module complémentaire de facturation électronique](e-invoicing-service-overview.md)
+- [Mise en route de l’administration du service du module complémentaire de facturation électronique](e-invoicing-get-started-service-administration.md)
 - [Démarrage du module complémentaire de facturation électronique pour le Brésil](e-invoicing-bra-get-started.md)
 - [Démarrage du module complémentaire de facturation électronique pour le Mexique](e-invoicing-mex-get-started.md)
 - [Démarrage du module complémentaire de facturation électronique pour l’Italie](e-invoicing-ita-get-started.md)

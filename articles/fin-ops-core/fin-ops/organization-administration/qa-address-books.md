@@ -3,10 +3,9 @@ title: FAQ relatif aux carnets d’adresses
 description: Cette rubrique donne des réponses aux questions fréquentes relatives aux carnets d’adresses.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796896"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559939"
 ---
 # <a name="address-books-faq"></a>FAQ sur les carnets d’adresses
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Comment rechercher les enregistrements en double ?
 
@@ -68,5 +68,10 @@ Vous pouvez entrer des enregistrements de parties soit dans le carnet d’adress
 
 Vous pouvez paramétrer des traductions des informations d’adresse afin que les informations s’affichent dans votre langue d’utilisateur (langue du système) dans votre programme, mais dans une autre langue sur les documents tels que les commandes client. Vous pouvez entrer des traductions pour les noms de pays/régions, les objets d’adresse et les séquences de nom. Par exemple, la langue du système est le Danois et vous créez une commande client pour un client en France. Dans ce cas, vous pouvez afficher l’enregistrement client en danois dans le programme mais afficher les informations d’adresse en français sur la commande client imprimée. Lorsque vous paramétrez des traductions, vous devez entrer une traduction pour chaque article de la liste. Tout article pour lequel vous n’entrez pas de traduction s’affichera dans la langue du système. Par exemple, la langue du système est le Danois et vous envoyez un document à un client en Espagne. Si vous n’avez pas entré de traductions en espagnol (ESP) pour les informations d’adresse, ces informations s’affichent en danois dans le programme et sur le document imprimé.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Après avoir importé des adresses, lorsque j’accède aux enregistrements, pourquoi ne puis-je pas modifier les adresses importées ?
+
+Lors de l’importation d’adresses, un champ intitulé **IsLocationOwner** indique si la partie associée à l’emplacement (adresse) est le propriétaire de l’adresse. Si la partie est le propriétaire de l’adresse, l’adresse peut être modifiée lorsque vous y accédez à l’aide de la partie dans le carnet d’adresses global ou à partir du formulaire d’enregistrement principal (tel que client, fournisseur ou collaborateur). Si la partie n’est pas le propriétaire de l’adresse, l’enregistrement ne peut pas être modifié à partir des formulaires précédemment répertoriés. Lors de l’importation d’adresses, **IsLocationOwner** doit être défini sur **Oui** si vous souhaitez que l’adresse soit modifiable à l’aide de la partie associée. Cependant, il arrive que ce champ soit importé de manière incorrecte. Pour résoudre ce problème, le propriétaire de l’emplacement peut être mis à jour dans le carnet d’adresses global à partir de l’enregistrement de partie ou de la page **Confirmer les propriétaires d’emplacement**. Pour mettre à jour un enregistrement de partie unique, accédez à **Carnet d’adresses global > Adresse**. Sélectionnez **Modifier** pour lancer la page **Modifier l’adresse** afin de modifier le propriétaire de l’emplacement. Sélectionnez **Changer le propriétaire de l’emplacement** pour voir le propriétaire de l’emplacement précédent, la partie actuellement sélectionnée étant le nouveau propriétaire de l’emplacement. Si le propriétaire de l’emplacement précédent est vide, cela signifie qu’aucun propriétaire de l’emplacement n’a été établi. Si vous sélectionnez l’option **Avancé**, la page **Gérer les adresses** s’ouvre. Vous pouvez également y définir le propriétaire de l’emplacement. Sélectionnez l’emplacement à mettre à jour, puis sélectionnez **Définir le propriétaire de l’emplacement** dans le menu. Pour mettre à jour le propriétaire de l’emplacement pour plusieurs enregistrements, accédez à **Carnet d’adresses global > Emplacements> Confirmer les propriétaires d’emplacement**. La liste contient des emplacements qui sont liés à une seule partie, mais cette partie n’est pas le propriétaire. Si vous sélectionnez **Confirmer le propriétaire**, **ID du propriétaire proposé** est défini comme le propriétaire de l’adresse liée. Une fois que la partie est définie comme propriétaire, l’adresse liée sera modifiable à partir de l’enregistrement de partie. Afin de modifier le propriétaire de l’emplacement, vous devez disposer du privilège **Définir le propriétaire de l’emplacement** sur la page **Configuration de la sécurité**.  L’administrateur système dispose de ce privilège par défaut.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

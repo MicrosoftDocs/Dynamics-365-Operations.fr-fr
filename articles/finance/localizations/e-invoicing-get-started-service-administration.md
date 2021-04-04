@@ -3,7 +3,7 @@ title: Prise en main de l'administration du service du module complémentaire de
 description: Cette rubrique explique comment démarrer avec le module complémentaire de facturation électronique.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104378"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592524"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Prise en main de l'administration du service du module complémentaire de facturation électronique
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104378"
 Avant d’effectuer les étapes de cette rubrique, les conditions préalables suivantes doivent être remplies :
 
 - Vous devez avoir accès à votre compte Microsoft Dynamics Lifecycle Services (LCS).
-- Vous devez avoir un projet LCS qui inclut la version 10.0.13 ou ultérieure de Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management. En outre, ces applications doivent être déployées dans l'une des zones géographiques Azure suivantes :
+- Vous devez avoir un projet LCS qui inclut la version 10.0.17 ou ultérieure de Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management. En outre, ces applications doivent être déployées dans l'une des zones géographiques Azure suivantes :
 
     - Est des États-Unis
     - Ouest des États-Unis
@@ -52,6 +52,13 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 2. Sélectionnez la vignette **Gestion des fonctionnalités d'aperçu**.
 3. Dans la section **Fonctionnalités de version préliminaire**, sélectionnez **Service de facturation électronique**.
 4. Veillez à ce que l'option **Fonctionnalité de version préliminaire activée** soit définie sur **Oui**.
+5. Sur votre tableau de bord LCS, sélectionnez votre projet de déploiement LCS. Le projet LCS doit être en cours d’exécution.
+7. Dans l’onglet **Compléments d’environnement**, sélectionnez **Installer un nouveau complément**.
+8. Sélectionnez **Services de facturation électronique** et dans le champ **ID application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
+10. Dans le champ **ID client AAD**, entrez l’ID client de votre compte d’abonnement Azure.
+11. Passez en revue les conditions générales, puis cochez la case.
+12. Sélectionnez **Installer**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Définir les paramètres pour l’intégration RCS avec le module complémentaire de facturation électronique
 
@@ -73,7 +80,7 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 ## <a name="create-key-vault-secret"></a>Créer un secret Key Vault
 
 1. Connectez-vous à votre compte RCS.
-2. Dans l’espace de travail **Fonctionnalité de globalisation**, dans la section **Environnement**, sélectionnez la vignette **Facturation électronique**.
+2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Environnement**, sélectionnez la vignette **Module complémentaire de facturation électronique**.
 3. Sur la page **Configurations d'environnement**, dans le volet Actions, sélectionnez **Environnement de service**, puis sélectionnez **Paramètres Key Vault**.
 4. Sélectionnez **Nouveau** pour créer un secret de Key Vault.
 5. Dans le champ **Nom**, entrez le nom du secret Key Vault. Entrez une description dans le champ **Description**.
@@ -82,22 +89,31 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 ## <a name="create-storage-account-secret"></a>Créer un secret de compte de stockage
 
-1. Sur la page **Paramètres du coffre de clés**, dans la section **Certificats**, sélectionnez **Ajouter**.
-2. Dans le champ **Nom**, entrez le nom du secret du compte de stockage. Entrez une description dans le champ **Description**.
-3. Dans le champ **Type**, sélectionnez **Certificat**.
-4. Sélectionnez **Sauvegarder**, puis fermez la page.
+1. Accédez à **Administration du système** > **Paramétrage** > **Paramètres du coffre de clés** et sélectionnez un secret pour le coffre de clés.
+2. Dans la section **Certificats**, sélectionnez **Ajouter**.
+3. Dans le champ **Nom**, entrez le nom du secret du compte de stockage et dans le champ **Description**, entrez une description.
+4. Dans le champ **Type**, sélectionnez **Certificat**.
+5. Sélectionnez **Sauvegarder**, puis fermez la page.
+
+## <a name="create-a-digital-certificate-secret"></a>Créer un secret de certificat numérique
+
+1. Accédez à **Administration du système** > **Paramétrage** > **Paramètres du coffre de clés** et sélectionnez un secret pour le coffre de clés.
+2. Dans la section **Certificats**, sélectionnez **Ajouter**.
+3. Dans le champ **Nom**, entrez le nom du secret du certificat numérique et dans le champ **Description**, entrez une description.
+4. Dans le champ **Type**, sélectionnez **Certificat**.
+5. Sélectionnez **Sauvegarder**, puis fermez la page.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Créer un environnement complémentaire de facturation électronique
 
 1. Connectez-vous à votre compte RCS.
-2. Dans l’espace de travail **Fonctionnalité de globalisation**, dans la section **Environnement**, sélectionnez la vignette **Facturation électronique**.
+2. Dans l’espace de travail **Fonctionnalités de globalisation**, dans la section **Environnement**, sélectionnez la vignette **Module complémentaire de facturation électronique**.
 
 ## <a name="create-a-service-environment"></a>Créer un environnement de service
 
-1. Sur la page **Configurations d'environnement**, dans le volet Actions, sélectionnez **Environnement de service**.
+1. Sur la page **Configurations d’environnement**, dans le volet Actions, sélectionnez **Environnement de service**.
 2. Sélectionnez **Nouveau** pour créer un environnement de service.
 3. Dans le champ **Nom**, entrez le nom de l’environnement de facturation électronique. Entrez une description dans le champ **Description**.
-4. Dans le champ **Secret de jeton SAS de stockage**, sélectionnez le nom du certificat qui doit être utilisé pour authentifier l'accès au compte de stockage.
+4. Dans le champ **Secret de jeton SAS de stockage**, sélectionnez le secret du compte de stockage qui doit être utilisé pour authentifier l’accès au compte de stockage.
 5. Dans la section **Utilisateurs**, sélectionnez **Ajouter** pour ajouter un utilisateur autorisé à soumettre des factures électroniques via l'environnement et à se connecter également au compte de stockage.
 6. Entrez l'alias de l'utilisateur dans le champ **Identifiant utilisateur**. Entrez l'adresse e-mail de l'utilisateur dans le champ **E-mail**.
 7. Sélectionnez **Enregistrer**.

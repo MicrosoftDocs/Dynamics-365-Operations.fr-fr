@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,18 +13,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 41e2f8b1dc5f86220a4a2edeab24f82883e5157f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1091357f1d86bac17c860a41daaa2577035163ca
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687100"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569661"
 ---
 # <a name="employee-development-power-bi-content"></a>Contenu Power BI Perfectionnement de l’employé
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit le contenu Power BI **Perfectionnement de l’employé**.
+Cette rubrique décrit le contenu Microsoft Power BI **Perfectionnement de l’employé**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>États inclus dans le pack de contenu Power BI
 Les états inclus dans le contenu Power BI **Perfectionnement de l’employé** contiennent des graphiques et des tables qui fournissent des informations supplémentaires. Le tableau suivant décrit ces états.

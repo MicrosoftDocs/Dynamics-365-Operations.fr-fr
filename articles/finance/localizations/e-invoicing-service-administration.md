@@ -3,7 +3,7 @@ title: Composants d'administration du module complémentaire de facturation éle
 description: Cette rubrique fournit des informations sur les composants liés à l'administration du module complémentaire de facturation électronique.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104380"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592572"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Composants d'administration du module complémentaire de facturation électronique
 
@@ -39,11 +39,15 @@ Utilisez Microsoft Azure pour créer les secrets du coffre de clés et du compte
 
 Utilisez Microsoft Dynamics Lifecycle Services (LCS) pour activer le module complémentaire pour les microservices de votre projet de déploiement LCS.
 
-Dans LCS, sélectionnez la vignette **Gestion des fonctionnalités d'aperçu**, puis activez la fonctionnalité **Service de facturation électronique**.
+> [!NOTE]
+> L’installation du module complémentaire de microservice dans LCS nécessite au moins une machine virtuelle de niveau 2. Pour plus d’informations sur la planification de l’environnement, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) est l'interface utilisée pour configurer le module complémentaire de facturation électronique. Des ressources telles que des environnements et des fonctionnalités de facturation électronique sont créées, gérées et hébergées dans RCS. Lorsque les ressources sont prêtes, elles sont publiées dans le service du module complémentaire de facturation électronique.
+
+Pour l’inscription au RCS, voir [Regulatory services](https://marketing.configure.global.dynamics.com/).
 
 Pour plus d’informations sur RCS, voir [Regulatory Configuration Services (RCS) - Fonctionnalités de globalisation](rcs-globalization-feature.md).
 
@@ -53,22 +57,14 @@ Avant de pouvoir utiliser RCS pour configurer des factures électroniques, vous 
 
 #### <a name="service-endpoint"></a>Point de terminaison de service
 
-L'URL du point de terminaison du module complémentaire de facturation électronique peut varier en fonction de l'emplacement géographique du centre de données Azure. Le tableau suivant répertorie la disponibilité par région :
+Le module complémentaire de facturation électronique est disponible dans plusieurs emplacements géographiques du centre de données Azure. Le tableau suivant répertorie la disponibilité par région.
 
-| Emplacement géographique du centre de données Azure | URL du point de terminaison de service                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| Est des États-Unis                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| Ouest des États-Unis                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Nord de l'UE                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Ouest de l'UE                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>ID candidature
-
-L'ID de l'application est l'ID de l'application du module complémentaire de facturation électronique. Dans le cas présent, la valeur est fixe : **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>ID d'environnement LCS
-
-L'ID d'environnement LCS est l'ID de l'abonnement LCS de votre organisation.
+| Emplacement géographique du centre de données Azure |
+|----------------------------|
+| Est des États-Unis                    |
+| Ouest des États-Unis                    |
+| Nord de l'UE                   |
+| Ouest de l'UE                    |
 
 ### <a name="service-environments"></a>Environnements de service
 
