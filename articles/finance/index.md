@@ -2,11 +2,9 @@
 title: Page d’accueil Finance
 description: Cette rubrique fournit une liste de ressources et d’autres informations pour les fonctionnalités de gestion financière dans Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813457"
 ---
 # <a name="finance-home-page"></a>Page d’accueil Finance
 
@@ -71,8 +69,10 @@ Les réglementations spécifiques à un pays/une région affectent le paramétra
 
 ### <a name="additional-content"></a>Contenu supplémentaire
 
-La fonctionnalité Supply Chain Management couvre des parties du processus Approvisionnement au paiement incluant la demande, la commande, la réception, la facturation et le paiement pour les biens et services achetés par votre organisation. Reportez-vous à la [page d’accueil de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) pour obtenir des informations sur les fonctionnalités de gestion des achats, du stock et de la fabrication. 
+La fonctionnalité Supply Chain Management couvre des parties du processus Approvisionnement au paiement incluant la demande, la commande, la réception, la facturation et le paiement pour les biens et services achetés par votre organisation. Reportez-vous à la [page d’accueil de Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) pour obtenir des informations sur les fonctionnalités de gestion des achats, du stock et de la fabrication.
 
+## <a name="elearning-courses"></a>Cours eLearning
 
+Pour les cours et formations en ligne, consultez [Dynamics 365 Finance sur Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

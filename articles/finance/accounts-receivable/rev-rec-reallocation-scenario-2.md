@@ -2,11 +2,9 @@
 title: Réaffectation de la prise en compte de revenu - Scénario 2
 description: Cette rubrique passe par un scénario de réaffectation dans lequel deux commandes client sont saisies, puis le client ajoute un article au contrat après la facturation de la première commande client. Lorsqu’un nouvel article est ajouté à un contrat, il peut être ajouté soit à une nouvelle commande client, soit à la commande client existante.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: aed5e30f09b69ffa70025b8339b0f1782afe587a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 31a0b26fbf2383c90caaa8c1ea0e56ab5f377609
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238350"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814198"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Réaffectation de la prise en compte de revenu - Scénario 2
 

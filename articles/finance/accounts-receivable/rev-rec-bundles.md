@@ -2,11 +2,9 @@
 title: Offres groupées dans la prise en compte de revenu
 description: Cette rubrique décrit la fonctionnalité d’offre groupée incluse dans la fonction de prise en compte de revenu en Comptabilité client. Une offre groupée comprend un article parent et plusieurs éléments constitutifs.
 author: kweekley
-manager: aolson
 ms.date: 01/04/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 857078e0b97bd136f5236c999a939d3fd263c39f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238374"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816266"
 ---
 # <a name="revenue-recognition-bundles"></a>Offres groupées dans la prise en compte de revenu
 
