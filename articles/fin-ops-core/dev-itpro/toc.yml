@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: "Mises à jour de la plateforme pour 10.0.18 (mai\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: "Mises à jour de la plateforme pour 10.0.17 (août\_2021)"
+                - name: "Mises à jour de la plateforme pour\_10.0.17 (août\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: "Mises à jour de la plateforme pour 10.0.16 (février\_2021)"
+                - name: "Mises à jour de la plateforme pour\_10.0.16 (février\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: "Mises à jour de la plateforme pour 10.0.15 (janvier\_2021)"
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Collaborateur, tâche et poste intégrés'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Carnet d’adresses global et de la partie
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Utilisation de Power Portal avec le modèle de données de partie
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Intégration de notes
                               href: data-entities/dual-write/notes-integration.md
                             - name: Référence de mappage
@@ -526,13 +528,15 @@
                   items:
                     - name: Paramétrer des projets locaux dans LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Paramétrer et déployer les environnements locaux
+                    - name: "Configurer et déployer des environnements locaux (Mise à jour de plateforme\_41 et ultérieures)"
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: "Configurer et déployer des environnements locaux (Mises à jour de plateforme 12\_à\_40)"
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Étapes d’installation des composants du canal de vente au détail dans un environnement sur site
+                    - name: Étapes d’installation des composants du canal Retail dans un environnement sur site
                       href: deployment/deploy-retail-onprem.md
                     - name: Développer et déployer les modèles personnalisés sur les environnements sur site
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Entretien de l’environnement
+                - name: Opérations sur les environnements
                   items:
                     - name: Appliquer des mises à jour à un déploiement sur site
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Configurer des nœuds AOS par lots uniquement et interactifs uniquement dans les déploiements locaux
                       href: deployment/onprem-batchonly.md
+                    - name: Configurer la haute disponibilité pour les nœuds SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Configurer les proxys pour les environnements sur site
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnostics locaux
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Intégration de Microsoft Power Platform
           items:
-            - name: Intégration de Microsoft Power Platform à Finance and Operations
-              href: power-platform/overview.md
-            - name: Présentation des modules complémentaires
-              href: power-platform/add-ins-overview.md
-            - name: Modélisation d’entités
-              href: power-platform/entity-modeling.md
-            - name: Gestion du cycle de vie de l’application
-              href: power-platform/application-lifecycle-management.md
-            - name: Référence de l’administrateur de Finance and Operations et Dataverse
-              href: power-platform/admin-reference.md
-            - name: Portails Power Apps avec Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: FAQ sur les entités virtuelles de Finance and Operations
-              href: power-platform/faq.md
+            - name: Entités virtuelles
+              items:
+                - name: Intégration de Microsoft Power Platform à Finance and Operations
+                  href: power-platform/overview.md
+                - name: Modélisation d’entités
+                  href: power-platform/entity-modeling.md
+                - name: Gestion du cycle de vie de l’application
+                  href: power-platform/application-lifecycle-management.md
+                - name: Référence de l’administrateur de Finance and Operations et Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Portails Power Apps avec Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: FAQ sur les entités virtuelles de Finance and Operations
+                  href: power-platform/faq.md
+            - name: Compléments
+              items:
+                - name: Présentation des compléments
+                  href: power-platform/add-ins-overview.md
         - name: Plateforme mobile
           items:
             - name: Ressources de plateforme mobile
@@ -1390,7 +1400,9 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Didacticiel Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
-            - name: Utilisation optimale
+            - name: Configurer les utilisateurs non administrateurs
+              href: perf-test/rsat/rsat-configure-nonadmin.md
+            - name: Bonnes pratiques
               href: perf-test/rsat/rsat-best-practices.md
             - name: Test de données agnostique à l’aide de Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md

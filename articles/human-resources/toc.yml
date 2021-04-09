@@ -3,8 +3,10 @@
   items:
     - name: Nouveautés
       items:
-        - name: Nouveautés ou modifications dans Human Resources
+        - name: "Nouveautés ou modifications dans Human\_Resources"
           href: hr-admin-whats-new.md
+        - name: "22\_mars\_2021"
+          href: hr-whats-new-2021-03-22.md
         - name: "8\_mars\_2021"
           href: hr-whats-new-2021-03-08.md
         - name: "22\_février\_2021"
@@ -265,9 +267,11 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Optimiser les performances grâce aux tâches automatiques de nettoyage
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Réinitialiser les traitements par lots bloqués
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Les états analytiques ne sont pas mis à jour
               href: hr-admin-troubleshooting-analytic-reports.md
-            - name: Impossible de créer un environnement dans le centre d’administration Power Apps
+            - name: Impossible de créer un environnement dans le centre d’administration de Power Apps
               href: hr-admin-troubleshooting-power-apps.md
             - name: Déconnexion du client
               href: hr-admin-troubleshooting-disconnect.md
