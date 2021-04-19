@@ -2,11 +2,9 @@
 title: Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 description: Cette rubrique décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235338"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835628"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
@@ -66,7 +64,7 @@ Lorsqu’un chargement entrant arrive pour la première fois dans l’entrepôt,
 
 - **Un menu d’appareil mobile configuré pour prendre en charge la réception du chargement**
 
-    L’[application d’entrepôt](install-configure-warehousing-app.md) pour les appareils mobiles prend en charge les processus de création de travail suivants :
+    L’[application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md) pour les appareils mobiles prend en charge les processus de création de travail suivants :
 
     - Réception des articles du chargement
     - Réception et rangement des articles du chargement
@@ -126,7 +124,7 @@ Utilisez le champ **Réception excédentaire du chargement** pour que les option
 
 Le tableau suivant décrit les options disponibles pour le champ **Réception excédentaire du chargement**.
 
-| Valeur  | Description |
+| Valeur | Description |
 |---|---|
 | Autoriser | Les collaborateurs peuvent enregistrer la réception des quantités qui dépassent la quantité non enregistrée restante pour un chargement sélectionné, mais uniquement si la quantité totale enregistrée ne dépasse pas la quantité de la ligne de la commande fournisseur qui est associée au chargement (après ajustement du pourcentage de livraison excédentaire). |
 | Bloquer | <p>Les collaborateurs ne peuvent pas enregistrer la réception de quantités supérieures à la quantité non enregistrée restante pour un chargement sélectionné (ajusté pour le pourcentage de livraison excédentaire). Un collaborateur qui essaie d’enregistrer les réceptions reçoit une erreur et n’est pas en mesure de continuer tant qu’il n’enregistre pas une quantité inférieure ou égale à la quantité de chargement non enregistrée restante.</p><p>Par défaut, la valeur du pourcentage de livraison excédentaire sur la ligne de chargement est copiée depuis la ligne de la commande fournisseur associée. Quand le champ <b>Réception excédentaire du chargement</b> est défini sur <i>Bloquer</i>, le système utilise la valeur de pourcentage de livraison excédentaire pour calculer la quantité totale qui peut être enregistrée pour une ligne de chargement. Cependant, cette valeur peut être modifiée pour des chargements individuels selon les besoins. Ce comportement devient pertinent lorsque la réception de flux où une certaine quantité de l’excédent, ou toute la quantité excédentaire, qui représente le pourcentage de livraison excédentaire de la ligne de commande est répartie de manière disproportionnelle sur différents chargements. Voici un exemple de scénario :</p><ul><li>Il existe plusieurs chargements pour une ligne de commande fournisseur.</li><li>La ligne de commande fournisseur a un pourcentage de livraison excédentaire supérieur à 0 (zéro).</li><li>Des quantités ont déjà été enregistrées pour un ou plusieurs chargements sans tenir compte du pourcentage de livraison excédentaire.</li><li>La quantité de livraisons excédentaires arrive au dernier chargement.</li></ul><p>Dans ce scénario, un appareil mobile peut être utilisé pour enregistrer la quantité excédentaire pour le dernier chargement uniquement si le superviseur de l’entrepôt augmente le pourcentage de livraison excédentaire pour la ligne de chargement pertinente depuis la valeur par défaut vers une valeur suffisamment large pour que la livraison excédentaire complète puisse être enregistrée avec le chargement final.</p> |
@@ -285,7 +283,7 @@ Pour utiliser ces scénarios à l’aide des exemples d’enregistrements et de 
 
 Avant que les commis de réception d’entrepôt puissent utiliser un appareil mobile pour enregistrer le stock entrant lié à un chargement, vous devez créer une option de menu d’appareil mobile à cet effet.
 
-Dans cette section, vous allez créer une option de menu d’appareil mobile et l’ajouter à un menu existant. Un magasinier peut ensuite sélectionner l’option de menu dans l’application d’entrepôt.
+Dans cette section, vous allez créer une option de menu d’appareil mobile et l’ajouter à un menu existant. Un magasinier peut ensuite sélectionner l’option de menu dans l’application mobile Gestion des entrepôts.
 
 1. Accédez à **Gestion des entrepôts \> Configurer \> Appareil mobile \> Options de menu d’appareil mobile** et assurez-vous que le menu de votre appareil mobile comprend un élément de menu qui présente les paramètres suivants :
 

@@ -2,11 +2,9 @@
 title: Statut de l’emplacement de l’entrepôt
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de statut de l’emplacement de l’entrepôt.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248617"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837343"
 ---
 # <a name="warehouse-location-status"></a>Statut de l’emplacement de l’entrepôt
 
@@ -53,7 +51,7 @@ Avant de pouvoir utiliser la fonctionnalité *Statut de l’emplacement dans l�
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Préparer les exemples de données requis pour l’exemple de scénario
 
-Avant de commencer à travailler sur le scénario, vous devez activer des exemples de données et configurer la fonctionnalité comme décrit dans cette section. Pour terminer l’exemple de scénario, vous devez utiliser l’application d’entrepôt ou l’émulateur basé sur un navigateur. La procédure fournie ici est basée sur l’application d’entrepôt. La procédure de l’émulateur basé sur un navigateur est similaire.
+Avant de commencer à travailler sur le scénario, vous devez activer des exemples de données et configurer la fonctionnalité comme décrit dans cette section. Pour terminer l’exemple de scénario, vous devez utiliser l’application mobile Gestion des entrepôts ou l’émulateur basé sur un navigateur. La procédure fournie ici est basée sur l’application mobile Gestion des entrepôts. La procédure de l’émulateur basé sur un navigateur est similaire.
 
 #### <a name="use-the-usmf-legal-entity"></a>Utiliser l’entité juridique USMF
 

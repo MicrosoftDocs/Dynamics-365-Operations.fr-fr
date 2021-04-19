@@ -2,11 +2,9 @@
 title: Fractionnement du travail
 description: Cette rubrique fournit des informations sur la fonctionnalité de fractionnement du travail. Cette fonctionnalité vous permet de diviser les ordres de travail volumineux en plusieurs ordres de travail plus petits que vous pouvez ensuite affecter à plusieurs magasiniers. De cette manière, le même travail peut être prélevé simultanément par plusieurs magasiniers.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245080"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830760"
 ---
 # <a name="work-split"></a>Fractionnement du travail
 
@@ -69,7 +67,7 @@ La fonctionnalité *Fractionnement du travail* ajoute les deux boutons suivants 
 >
 > - Le travail est actuellement fractionné par un autre utilisateur. Si vous essayez d’ouvrir la page de fractionnement pour le travail déjà fractionné par un autre utilisateur, vous recevez le message d’erreur suivant : « Le travail avec l’ID \#\#\#\# est actuellement en cours de fractionnement. Réessayez dans quelques minutes. Si vous continuez à recevoir ce message, contactez un superviseur. »
 
-Une nouvelle raison de blocage du travail, *Travail fractionné*, indique quand l’ID de travail est en cours de fractionnement. Il est montré à la fois sur la page **Travail fractionné** et dans l’application d’entrepôt si un utilisateur tente d’exécuter le travail. Lorsque des motifs de blocage sont utilisés, le nom du champ **Vague bloquée** de l’ID de travail est remplacé par **Bloqué**.
+Une nouvelle raison de blocage du travail, *Travail fractionné*, indique quand l’ID de travail est en cours de fractionnement. Il est montré à la fois sur la page **Travail fractionné** et dans l’application mobile Gestion des entrepôts si un utilisateur tente d’exécuter le travail. Lorsque des motifs de blocage sont utilisés, le nom du champ **Vague bloquée** de l’ID de travail est remplacé par **Bloqué**.
 
 ## <a name="initiate-a-work-split"></a>Initier un fractionnement de travail
 
@@ -147,9 +145,9 @@ Pour terminer le travail de fractionnement, la raison de blocage *Travail fracti
 
 Une fois la raison de blocage *Travail fractionné* supprimée, le travail peut être exécuté sur l’appareil mobile, à condition que le statut du travail **Bloqué** est défini sur *Non* sur l’ID de travail.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Blocage des utilisateurs sur l’application d’entrepôt
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Blocage d’utilisateur dans l’application mobile Gestion des entrepôts
 
-Si vous essayez d’utiliser l’application d’entrepôt pour exécuter un travail de prélèvement par rapport à un ID de travail en cours de fractionnement, vous recevez le message d’erreur suivant : « Le travail avec l’ID \#\#\#\# est actuellement en cours de fractionnement. » Si vous recevez ce message, sélectionnez **Annuler**. Vous pouvez ensuite continuer à traiter d’autres travaux.
+Si vous essayez d’utiliser l’application mobile Gestion des entrepôts pour exécuter un travail de prélèvement par rapport à un ID de travail en cours de fractionnement, vous recevez le message d’erreur suivant : « Le travail avec l’ID \#\#\#\# est actuellement en cours de fractionnement. » Si vous recevez ce message, sélectionnez **Annuler**. Vous pouvez ensuite continuer à traiter d’autres travaux.
 
 ## <a name="other-blocked-operations"></a>Autres opérations bloquées
 

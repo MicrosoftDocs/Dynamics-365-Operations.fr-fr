@@ -2,11 +2,9 @@
 title: Installer et connecter l’application mobile Gestion des entrepôts
 description: Cette rubrique explique comment installer l’application mobile Gestion des entrepôts sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,20 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487023"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835604"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Cette rubrique décrit comment configurer la nouvelle application mobile Gestion des entrepôts. Si vous recherchez des informations sur la configuration de l’ancienne application d’entrepôt, voir [Installer et connecter l’application d’entrepôt](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Cette rubrique décrit comment configurer la nouvelle application mobile Gestion des entrepôts. Si vous recherchez des informations sur la configuration de l’ancienne application d’entrepôt (désormais obsolète), voir [Installer et connecter l’application d’entrepôt](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Cette rubrique explique comment télécharger et installer l’application mobile Gestion des entrepôts sur chacun de vos appareils mobiles et configurer l’application pour se connecter à votre environnement Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
 

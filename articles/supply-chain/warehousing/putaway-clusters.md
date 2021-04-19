@@ -2,11 +2,9 @@
 title: Clusters de rangement
 description: Les cluster de rangement offrent un moyen de choisir plusieurs contenants en même temps, puis de les transférer pour les ranger à différents emplacements. Ils peuvent être très utiles pour les commerces de détail, où les contenants ne sont généralement pas des palettes complètes de stock.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228439"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840363"
 ---
 # <a name="putaway-clusters"></a>Clusters de rangement
 
@@ -230,7 +228,7 @@ Ce scénario simule le traitement de cluster rangé.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Recevoir et trier le stock dans un cluster
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur configuré pour l’entrepôt *61*.
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur configuré pour l’entrepôt *61*.
 1. Dans le menu principal, sélectionnez **Entrant**.
 1. Sur le menu **Entrant**, sélectionnez **Recevoir et trier le cluster**.
 1. Dans le champ **Ponum**, entrez le numéro de commande fournisseur.
@@ -272,7 +270,7 @@ Avant de pouvoir ranger les éléments du cluster, le cluster doit être fermé.
 
 #### <a name="put-the-cluster-away"></a>Ranger le cluster
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur configuré pour l’entrepôt *61*.
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur configuré pour l’entrepôt *61*.
 1. Dans le menu principal, sélectionnez **Entrant**.
 1. Dans le menu **Entrant**, sélectionnez **Rangement du cluster**.
 1. Sélectionnez **ID de cluster** et entrez l’ID de cluster que vous avez entré précédemment pour le cluster fermé.

@@ -1,12 +1,10 @@
 ---
-title: Configurer et utiliser l’impression d’étiquettes de vague
+title: Impression d’étiquettes de la vague
 description: Cette rubrique décrit l’impression d’étiquettes de vague et explique comment la configurer.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a08f10c1f5c3ff5b9023f37614c4e113b3a6b30d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211764"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840435"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Configurer et utiliser l’impression d’étiquettes de vague
+# <a name="wave-label-printing"></a>Impression d’étiquettes de la vague
 
 [!include [banner](../includes/banner.md)]
 
@@ -932,5 +930,8 @@ Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages
 
 Pour la plupart de ces pages, vous pouvez trouver la fonction appropriée en sélectionnant **Étiquettes de vague** dans le groupe **Informations connexes** de l’onglet **Expéditions** du volet Actions.
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Réimpression et annulation des étiquettes de vague](reprint-and-void-wave-labels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

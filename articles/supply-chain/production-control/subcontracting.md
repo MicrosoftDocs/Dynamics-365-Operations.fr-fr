@@ -2,11 +2,9 @@
 title: Sous-traitance
 description: Cette rubrique vous aidera à établir une présentation de la sous-traitance en production dans Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255539"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825180"
 ---
 # <a name="subcontracting"></a>Sous-traitance
 
@@ -210,7 +208,7 @@ Un ordre de fabrication de 10 pièces est créé pour le produit D8100, « Ence
 
     ![Deux ensembles de travail pour le prélèvement des matières premières dans la page Travail](./media/subcontract22_work-page.png)
 
-26. Démarrez l’application d’entrepôt pour traiter le travail d’entrepôt pour l’opération 10.
+26. Démarrez l’application mobile Gestion des entrepôts pour traiter le travail d’entrepôt pour l’opération 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Un ordre de fabrication de 10 pièces est créé pour le produit D8100, « Ence
     - Dans le champ **Du n° opér.**, sélectionnez **10**.
     - Dans le champ **Au n° opér.**, sélectionnez **10**.
 
-    ![Valeurs définies dans l’onglet Général](./media/subcontract23_start-dialog.png)
+    ![Valeurs définies dans l’onglet Général 1](./media/subcontract23_start-dialog.png)
 
 31. Cliquez sur **OK** pour fermer la boîte de dialogue **Démarrer** et revenir à la page **Tous les ordres de fabrication**.
 
     Notez que l’ordre de fabrication a maintenant le statut **Commencé**. Les matières pour l’opération 10 sont consommées par une validation automatique du journal des prélèvements. La consommation de temps pour l’opération 10 est comptabilisée par une validation automatique du journal des fiches productions.
 
-32. Démarrez l’application d’entrepôt pour traiter le travail d’entrepôt pour l’opération 20.
+32. Démarrez l’application mobile Gestion des entrepôts pour traiter le travail d’entrepôt pour l’opération 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Un ordre de fabrication de 10 pièces est créé pour le produit D8100, « Ence
     - Dans le champ **Quantité**, entrez **10**.
     - Définissez l’option **Valider immédiatement les prélèvements** sur **Non**.
 
-    ![Valeurs définies dans l’onglet Général](./media/subcontract24_general-tab.png)
+    ![Valeurs définies dans l’onglet Général 2](./media/subcontract24_general-tab.png)
 
 35. Cliquez sur **OK** pour fermer la boîte de dialogue **Démarrer** et revenir à la page **Tous les ordres de fabrication**.
 

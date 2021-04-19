@@ -2,11 +2,9 @@
 title: Lancement automatique de l’expédition pour le cross-docking
 description: Cette rubrique décrit une stratégie de cross-docking qui vous permet de lancer automatiquement un ordre de demande à l’entrepôt lorsque l’ordre de fabrication qui fournit la quantité de la demande est déclaré terminé, de sorte que la quantité soit déplacée directement depuis l’emplacement de sortie de production à l’emplacement sortant.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233173"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831432"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Lancement automatique de l’expédition pour le cross-docking
 
@@ -163,7 +161,7 @@ Pour que la quantité de produits finis fasse l’objet d’un cross-docking à 
 8. Dans la page **Ordre de fabrication**, dans le volet Actions, sous l’onglet **Ordre de fabrication**, dans le groupe **Traitement**, sélectionnez **Estimer**, puis **OK**. La commande est estimé, et la quantité de matières premières est réservée pour la production.
 9. Dans le volet Actions, sous l’onglet **Ordre de fabrication**, dans le groupe **Traitement**, sélectionnez **Lancer**, puis **OK**. Le travail de prélèvement à l’entrepôt est créé pour les matières premières.
 10. Ouvrez et vérifiez le travail. Dans le volet Actions, sous l’onglet **Entrepôt**, dans le groupe **Général**, cliquez sur **Détails du travail**. Prenez note de l’ID du travail.
-11. Connectez-vous à l’application d’entrepôt pour exécuter le travail dans l’entrepôt 51.
+11. Connectez-vous à l’application mobile Gestion des entrepôts pour exécuter le travail dans l’entrepôt 51.
 12. Accédez à **Production** \> **Prélèvement de la production**.
 13. Entrez l’ID travail pour commencer et effectuer le prélèvement de matières premières. 
 

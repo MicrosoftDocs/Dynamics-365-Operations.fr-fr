@@ -2,11 +2,9 @@
 title: Consolidation des articles - Utilisation de l’emplacement
 description: Cette rubrique fournit des informations sur les fonctionnalités qui permettent aux responsables d’entrepôt d’afficher et de filtrer facilement l’utilisation volumétrique des emplacements dans l’entrepôt. Les responsables peuvent sélectionner des emplacements et créer un travail de mouvement des stocks directement à partir de la page Consolidation des articles afin de regrouper des articles et ainsi mieux utiliser l’espace de l’entrepôt.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217003"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835567"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidation des articles - Utilisation de l’emplacement
 
@@ -149,7 +147,7 @@ Cette section décrit comment préparer votre système à utiliser la consolidat
 
 ## <a name="example-scenario"></a>Exemple de scénario
 
-Le scénario suivant utilise l’application d’entreposage sur un appareil mobile pour faire un *ajustement intérieur* le stock à deux emplacements dans l’entrepôt.
+Le scénario suivant utilise l’application mobile Gestion des entrepôts sur un appareil mobile pour faire un *ajustement intérieur* sur le stock à deux emplacements dans l’entrepôt.
 
 ### <a name="add-inventory-to-locations"></a>Ajouter du stock dans des emplacements
 

@@ -2,11 +2,9 @@
 title: Planification pour couverture de site, entrepôt obligatoire
 description: Cette rubrique décrit comment un article disposant du site comme dimension de couverture est planifié. L’entrepôt est une dimension obligatoire.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe48ca9ab4fe8f905efa9c7186ace697c17891
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eaac165865b04a7c4ad2f08ca758b07fd41eaaa0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220798"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833543"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Planification pour couverture de site, entrepôt obligatoire
 

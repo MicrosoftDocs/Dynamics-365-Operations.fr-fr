@@ -2,11 +2,9 @@
 title: Stratégies de travail
 description: Cette rubrique explique comment paramétrer des politiques de travail.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3e7814790bce0aee648421e3a69d702fd0012404
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248545"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838128"
 ---
 # <a name="work-policies"></a>Stratégies de travail
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer le système et l’application d’entrepôt afin qu’ils prennent en charge les stratégies de travail. Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement un stock sans créer de travail de rangement lorsque vous recevez des commandes fournisseur ou de transfert, ou lorsque vous terminez des processus de fabrication. Cette rubrique fournit des informations générales. Pour obtenir des informations détaillées sur la réception des contenants, consultez [Réception du contenant via l’application d’entrepôt](warehousing-mobile-device-app-license-plate-receiving.md).
+Cette rubrique explique comment configurer le système et l’application mobile Gestion des entrepôts afin qu’ils prennent en charge les stratégies de travail. Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement un stock sans créer de travail de rangement lorsque vous recevez des commandes fournisseur ou de transfert, ou lorsque vous terminez des processus de fabrication. Cette rubrique fournit des informations générales. Pour obtenir des informations détaillées sur la réception des contenants, consultez [Réception du contenant via l’application mobile Gestion des entrepôts](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Une stratégie de travail contrôle si le travail d’entrepôt est créé lorsqu’un article manufacturé est déclaré comme terminé ou lorsque les marchandises sont reçues à l’aide de l’application d’entrepôt. Vous configurez chaque stratégie de travail en définissant les conditions dans lesquelles elle s’applique : les types et processus d’ordre de travail, l’emplacement du stock et (éventuellement) les produits. Par exemple, une commande fournisseur pour un produit *A0001* doit être reçue à l’emplacement *RECV* dans l’entrepôt *24*. Plus tard, le produit est consommé dans un autre processus à l’emplacement *RECV*. Dans ce cas, vous pouvez configurer une stratégie de travail pour empêcher la création du travail de rangement lorsqu’un collaborateur signale un produit *A0001* reçu à l’emplacement *RECV*.
+Une stratégie de travail contrôle si le travail d’entrepôt est créé lorsqu’un article manufacturé est déclaré comme terminé ou lorsque les marchandises sont reçues à l’aide de l’application mobile Gestion des entrepôts. Vous configurez chaque stratégie de travail en définissant les conditions dans lesquelles elle s’applique : les types et processus d’ordre de travail, l’emplacement du stock et (éventuellement) les produits. Par exemple, une commande fournisseur pour un produit *A0001* doit être reçue à l’emplacement *RECV* dans l’entrepôt *24*. Plus tard, le produit est consommé dans un autre processus à l’emplacement *RECV*. Dans ce cas, vous pouvez configurer une stratégie de travail pour empêcher la création du travail de rangement lorsqu’un collaborateur signale un produit *A0001* reçu à l’emplacement *RECV*.
 
 > [!NOTE]
 > - Pour qu’une stratégie de travail soit active, vous devez définir au moins un emplacement pour elle sur l’organisateur **Emplacements de stock** de la page **Stratégies de travail**. 
@@ -297,7 +295,7 @@ Lorsque l’ordre de fabrication est signalé comme terminé, aucun travail de r
 
 Pour plus d’informations sur les éléments de menu des appareils mobiles, voir [Configurer des appareils mobiles pour le travail en entrepôt](configure-mobile-devices-warehouse.md).
 
-Pour plus d’informations sur la réception des contenants et les stratégies de travail, voir [Réception du contenant via l’application d’entrepôt](warehousing-mobile-device-app-license-plate-receiving.md).
+Pour plus d’informations sur la réception des contenants et les stratégies de travail, voir [Réception du contenant via l’application mobile Gestion des entrepôts](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Pour plus d’informations sur la gestion des chargements entrants, voir [Gestion en entrepôt des chargements entrants pour les commandes fournisseur](inbound-load-handling.md).
 

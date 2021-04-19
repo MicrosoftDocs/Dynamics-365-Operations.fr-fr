@@ -2,11 +2,9 @@
 title: Gestion des unités d’échelle du Cloud et de Edge avec les charges de travail de fabrication et de gestion de l’entreposage
 description: Cette rubrique fournit des informations sur les unités d’échelle de Cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240435"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836708"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Gestion des unités d’échelle du Cloud et de Edge avec les charges de travail de fabrication et de gestion de l’entreposage
 
@@ -124,10 +122,10 @@ Pour plus d’informations, consultez les [détails de la charge de travail de l
 Pour la gestion d’unité d’échelle, les unités à l’échelle du cloud et de Edge offrent les capacités suivantes, même lorsque les unités de Edge ne sont pas connectées au cloud :
 
 - Le traitement des méthodes de vague sélectionnées est activé pour les commandes client et le réapprovisionnement de la demande.
-- Les employés de l’entrepôt peuvent exécuter les ventes et demander le travail d’entrepôt de réapprovisionnement à l’aide de l’application d’entrepôt.
-- Les employés de l’entrepôt peuvent se renseigner sur les stocks disponibles à l’aide de l’application d’entrepôt.
-- Les employés de l’entrepôt peuvent créer et exécuter des mouvements de stock à l’aide de l’application d’entrepôt.
-- Les employés des entrepôts peuvent enregistrer des commandes fournisseur et faire du rangement en utilisant l’application d’entrepôt.
+- Les employés de l’entrepôt peuvent exécuter les ventes et demander le travail d’entrepôt de réapprovisionnement à l’aide de l’application mobile Gestion des entrepôts.
+- Les employés de l’entrepôt peuvent se renseigner sur les stocks disponibles à l’aide de l’application mobile Gestion des entrepôts.
+- Les employés de l’entrepôt peuvent créer et exécuter des mouvements de stock à l’aide de l’application mobile Gestion des entrepôts.
+- Les employés des entrepôts peuvent enregistrer des commandes fournisseur et faire du rangement en utilisant l’application mobile Gestion des entrepôts.
 
 Pour plus d’informations, voir les [détails de la charge de travail de l’unité d’échelle de l’entrepôt](cloud-edge-workload-warehousing.md).
 

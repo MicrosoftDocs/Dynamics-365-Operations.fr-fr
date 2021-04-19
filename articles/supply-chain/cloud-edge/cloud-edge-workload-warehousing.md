@@ -2,11 +2,9 @@
 title: Charges de travail de gestion de l’entreposage pour les unités de mise à l’échelle du cloud et d’Edge
 description: Cette rubrique fournit des informations sur la fonctionnalité qui permet aux unités de mise à l’échelle d’exécuter des processus sélectionnés à partir de votre charge de travail de gestion d’entrepôt.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580963"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832392"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -70,7 +68,7 @@ Le hub possède les données suivantes :
 - Allocation des commandes et traitement des charges sortantes
 - Les processus de lancement dans l’entrepôt, de création d’expédition, création de vagues et processus de finalisation de vagues
 
-Les unités d’échelle sont propriétaires du traitement de la vague réelle (tel que la répartition du travail, le travail de réapprovisionnement et la création de la demande de travail) après le lancement de la vague. Par conséquent, les employés d’entrepôt peuvent traiter le travail sortant à l’aide d’une application d’entrepôt connectée à l’unité de mise à l’échelle.
+Les unités d’échelle sont propriétaires du traitement de la vague réelle (tel que la répartition du travail, le travail de réapprovisionnement et la création de la demande de travail) après le lancement de la vague. Par conséquent, les employés d’entrepôt peuvent traiter le travail sortant à l’aide d’une application mobile Gestion des entrepôts connectée à l’unité de mise à l’échelle.
 
 ![Flux de traitement de vague](./media/wes-wave-processing-ga.png "Flux de traitement de vague")
 
@@ -94,7 +92,7 @@ Vous devez vous connecter au hub pour utiliser le processus *Libération dans l�
 
 Lors de l’utilisation de **Libération automatique des commandes fournisseur**, vous pouvez sélectionner des lignes de commande fournisseur spécifiques en fonction d’une requête. Un scénario typique serait de configurer un traitement par lots récurrent qui libère toutes les lignes de commande fournisseur confirmées qui devraient arriver le jour suivant.
 
-Le collaborateur peut exécuter le processus de réception à l’aide d’une application d’entrepôt connectée à l’unité de mise à l’échelle. Les données sont ensuite enregistrées par l’unité de mise à l’échelle et rapportées à la commande magasin entrante. La création et le traitement de la mise en stock ultérieure seront également gérés par l’unité de mise à l’échelle.
+Le collaborateur peut exécuter le processus de réception à l’aide d’une application mobile Gestion des entrepôts connectée à l’unité de mise à l’échelle. Les données sont ensuite enregistrées par l’unité de mise à l’échelle et rapportées à la commande magasin entrante. La création et le traitement de la mise en stock ultérieure seront également gérés par l’unité de mise à l’échelle.
 
 Si vous n’utilisez pas le processus de *lancement dans l’entrepôt*, et n’utilisent donc pas les *commandes d’entrepôt*, le hub peut traiter la réception en entrepôt et le traitement du travail indépendamment des unités de mise à l’échelle.
 
@@ -117,10 +115,10 @@ Les utilisateurs qui agissent en tant que gestionnaires d’entrepôt sur le hub
 Les processus d’exécution d’entrepôt suivants peuvent être activés pour une charge de travail WES sur une unité de mise à l’échelle :
 
 - Méthodes de vague sélectionnées pour les commandes client et les ordres de transfert (affectation, réapprovisionnement de la demande, mise en conteneur, création de travail et impression d’étiquettes de vague)
-- Traitement des tâches d’entrepôt des ordres de transfert et de commande avec l’application d’entreposage (y compris la tâche de réapprovisionnement)
-- Interrogation du stock disponible à l’aide de l’application d’entrepôt
-- Création et exécution des mouvements de stock à l’aide de l’application d’entrepôt
-- Enregistrement des commandes fournisseur et travaux de rangement en utilisant l’application d’entrepôt
+- Traitement des tâches d’entrepôt des ordres de transfert et de commande avec l’application mobile Gestion des entrepôts (y compris la tâche de réapprovisionnement)
+- Interrogation du stock disponible à l’aide de l’application mobile Gestion des entrepôts
+- Création et exécution des mouvements de stock à l’aide de l’application mobile Gestion des entrepôts
+- Enregistrement des commandes fournisseur et travaux de rangement en utilisant l’application mobile Gestion des entrepôts
 
 Les types d’ordre de travail suivants sont actuellement pris en charge pour les charges de travail WES sur les déploiements d’unités de mise à l’échelle :
 
@@ -133,7 +131,7 @@ Les types d’ordre de travail suivants sont actuellement pris en charge pour le
 Aucun autre traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail WES sur une unité de mise à l’échelle, vous ne pouvez pas effectuer de processus de réception d’ordre de transfert (réception de transfert) ou traiter un travail d’inventaire tournant.
 
 > [!NOTE]
-> Les éléments de menu et les boutons de l’appareil mobile pour les fonctionnalités non prises en charge ne sont pas affichés dans l’_application d’entreposage_ lorsqu’il est connecté à un déploiement d’unité d’échelle.
+> Les éléments de menu et les boutons de l’appareil mobile pour les fonctionnalités non prises en charge ne sont pas affichés dans l’_application mobile Gestion des entrepôts_ lorsqu’elle est connecté à un déploiement d’unité d’échelle.
 
 > [!WARNING]
 > Lorsque vous exécutez une charge de travail sur une unité de mise à l’échelle, vous ne pouvez pas exécuter de processus non pris en charge pour l’entrepôt spécifique sur le hub. Les tables indiquées ultérieurement dans cette rubrique documentent les fonctionnalités prises en charge.
@@ -164,7 +162,7 @@ La fonctionnalité de gestion d’entrepôt suivante n’est actuellement pas pr
 - Traitement du travail en entrepôt avec notes d’expédition
 - Traitement du travail en entrepôt avec déclenchement du seuil d’inventaire tournant
 - Traitement du travail en entrepôt avec manutention des matières/Warehouse Automation
-- Utilisation de l’image des données principales du produit (par exemple, sur l’application d’entreposage)
+- Utilisation de l’image des données principales du produit (par exemple, sur l’application mobile Gestion des entrepôts)
 
 > [!WARNING]
 > Certaines fonctionnalités d’entrepôt ne seront pas disponibles pour les entrepôts exécutant les charges de travail de gestion d’entrepôt sur une unité d’échelle et ne sont pas non plus prises en charge sur le hub ou sur la charge de travail de l’unité d’échelle.
@@ -252,9 +250,9 @@ Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepô
 | Modifier l’entrepôt                                   | Oui | Oui                          |
 | Mouvement                                           | Oui | Oui                          |
 | Mouvement par modèle                               | Oui | Oui                          |
-| Transfert d’entrepôt                                 | Oui | Non                           |
-| Créer un ordre de transfert depuis l’application d’entreposage           | Oui | Non                           |
-| Ajustement (entrée/sortie)                                | Oui | Non                           |
+| Transfert d’entrepôt                                 | Oui | N°                           |
+| Créer un ordre de transfert depuis l’application mobile Gestion des entrepôts           | Oui | N°                           |
+| Ajustement (entrée/sortie)                                | Oui | N°                           |
 | Modification du statut du stock                            | Oui | Non                           |
 | Comptage cyclique et traitement des écarts de comptage | Oui | Non                           |
 | Réimpression d’étiquette (impression de contenant)             | Oui | Oui                          |

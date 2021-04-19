@@ -2,11 +2,9 @@
 title: Résoudre des problèmes de réservations dans la gestion des entrepôts
 description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors du travail de réservations en entrepôts dans Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828104"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Résoudre des problèmes de réservations dans la gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
 
 Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors du travail de réservations en entrepôts dans Microsoft Dynamics 365 Supply Chain Management.
+
+Pour les rubriques liées aux enregistrements de lots et de numéros de série, voir [Résoudre les problèmes liés aux hiérarchies de réservation de lots et de série en entrepôt](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md).
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>Je reçois le message d’erreur suivant : "Impossible de supprimer les réservations, car un travail qui a été créé repose sur ces réservations."
 
@@ -63,20 +63,6 @@ Ce problème peut se produire si le système ne peut pas mettre à jour une quan
 ### <a name="issue-resolution"></a>Résolution du problème
 
 Ce problème est probablement dû à un travail ouvert. Soit terminer le travail, soit recevez sans création de travail. Assurez-vous qu’aucune transaction de stock ne réserve physiquement la quantité. Par exemple, ces transactions peuvent être des commandes de qualité ouvertes, des enregistrements de blocage des stocks ou des commandes de sortie.
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>Je reçois le message d’erreur suivant : "Pour être affectés à la vague, les lignes de charge doivent spécifier les dimensions au-dessus de l’emplacement. Pour attribuer ces dimensions, réservez et recréez la ligne de charge. »
-
-### <a name="issue-description"></a>Description du problème
-
-Lorsque vous utilisez un article qui a une hiérarchie de réservation "lot au-dessus" (avec la dimension **Numéro de lot** placée *au dessus* de la dimension **Emplacement**), l’ordre **Lancement dans l’entrepôt** sur la page **Atelier de planification de charge** pour une quantité partielle ne fonctionne pas. Vous recevez ce message d’erreur et aucun travail n’est créé pour la quantité partielle.
-
-Toutefois, lorsque vous utilisez un article qui a une hiérarchie de réservation "lot en dessous" (avec la dimension **Numéro de lot** placée *en dessous* de la dimension **Emplacement**), vous pouvez lancer une charge sur la page **Atelier de planification de charge** pour une quantité partielle.
-
-### <a name="issue-resolution"></a>Résolution du problème
-
-Ce comportement est fait exprès. Si vous mettez une dimension au-dessus de la dimension **Emplacement** dans la hiérarchie de réservation, elle doit être spécifiée avant le lancement vers l’entrepôt. Microsoft a évalué ce problème et a déterminé qu’il s’agissait d’une limitation de fonctionnalité lors des versions vers l’entrepôt à partir de l’atelier de planification de la charge. Les quantités partielles ne peuvent pas être libérées si une ou plusieurs dimensions au-dessus de **Emplacement** ne sont pas spécifiés.
-
-Pour plus d’informations, voir [Stratégie flexible de réservation de dimension au niveau de l’entrepôt](flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

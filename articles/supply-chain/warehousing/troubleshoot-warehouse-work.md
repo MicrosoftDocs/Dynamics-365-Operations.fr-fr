@@ -2,11 +2,9 @@
 title: Résoudre les problèmes de travail d’entrepôt
 description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors du travail de réservations en entrepôts dans Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237057"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837439"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Résoudre les problèmes de travail d’entrepôt
 
@@ -40,11 +38,11 @@ Vous ne pouvez pas déplacer un contenant à l’aide d’un élément de menu *
 
 Ce problème sera résolu par les modifications déployées dans [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687). Ces changements rendront le champ **Numéro de série** facultatif lorsqu’un reçu vierge et une émission vierge sont autorisés.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Je reçois le message d’erreur suivant dans l’application d’entrepôt lorsque je traite des mouvements : "Le propriétaire du stock %1 n’est pas autorisé dans ce processus. »
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Je reçois le message d’erreur suivant dans l’application mobile Gestion des entrepôts lorsque je traite des mouvements : « Le propriétaire du stock %1 n’est pas autorisé dans ce processus. »
 
 ### <a name="issue-description"></a>Description du problème
 
-La dimension de suivi **Propriétaire** est manquante lorsque l’application d’entrepôt est utilisée pour effectuer des mouvements. Un journal de transfert d’inventaire régulier du client Supply Chain Management semble fonctionner comme prévu et ne peut être enregistré que si la dimension **Propriétaire** est remplie.
+La dimension de suivi **Propriétaire** est manquante lorsque l’application mobile Gestion des entrepôts est utilisée pour effectuer des mouvements. Un journal de transfert d’inventaire régulier du client Supply Chain Management semble fonctionner comme prévu et ne peut être enregistré que si la dimension **Propriétaire** est remplie.
 
 ### <a name="issue-resolution"></a>Résolution du problème
 

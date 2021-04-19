@@ -2,11 +2,9 @@
 title: Créer des codes motifs
 description: Vous pouvez créer des codes motif pour expliquer la raison pour laquelle vous mettez à jour un stade d’une commande de service.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAReasonCodeTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 8ce97d95a26f96cc763f65b494e069a08b81167b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470975"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831561"
 ---
 # <a name="create-reason-codes"></a>Créer des codes motifs
 

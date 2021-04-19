@@ -2,11 +2,9 @@
 title: Expédition de petits colis
 description: Cette rubrique fournit des informations sur la fonctionnalité d’expédition de petits colis (SPS). Cette fonctionnalité permet à Microsoft Dynamics 365 Supply Chain Management d’envoyer des détails sur un conteneur emballé au transporteur, puis de recevoir une étiquette d’expédition, des frais d’expédition et un numéro de suivi de ce transporteur.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501172"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831168"
 ---
 # <a name="small-parcel-shipping"></a>Expédition de petits colis
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La fonctionnalité d’expédition de petits colis (SPS) permet à Microsoft Dynamics 365 Supply Chain Management d’interagir directement avec les transporteurs en fournissant un cadre de communication via les API du transporteur. Cette fonctionnalité est utile lorsque vous expédiez des commandes client individuelles via des transporteurs commerciaux au lieu d’utiliser l’expédition par conteneur ou l’expédition par chargement partiel (LTL).
 

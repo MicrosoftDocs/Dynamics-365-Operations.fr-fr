@@ -2,11 +2,9 @@
 title: Attributs d’ingénierie et recherche d’attributs d’ingénierie
 description: Cette rubrique explique comment utiliser les attributs d’ingénierie pour spécifier toutes les caractéristiques non standard, afin de garantir que toutes les données de base produit peuvent être enregistrées dans le système. Il explique également comment vous pouvez utiliser la recherche d’attributs d’ingénierie pour trouver facilement des produits en fonction de ces caractéristiques enregistrées.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ddb271535f0f2151f46a37a3ab3f3742e67ca87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 01752bfc9bab662064baf30635ae6879358c5bbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262379"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830074"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Attributs d’ingénierie et recherche d’attributs d’ingénierie
 

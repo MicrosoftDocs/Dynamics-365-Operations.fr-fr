@@ -2,11 +2,9 @@
 title: Planification de la production
 description: Cette rubrique décrit la planification de la production et explique comment modifier les ordres de fabrication prévisionnels à l’aide de l’optimisation de la planification.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,18 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470831"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839221"
 ---
 # <a name="production-planning"></a>Planification de la production
 
 L’optimisation de la planification prend en charge plusieurs scénarios de production. Si vous effectuez une migration depuis le moteur de planification générale intégré existant, il est important de connaître certains changements de comportement.
 
 La vidéo suivante donne une brève introduction à certains des concepts abordés dans cette rubrique : [Dynamics 365 Supply Chain Management : Améliorations de l’optimisation de la planification](https://youtu.be/u1pcmZuZBTw).
+
+## <a name="turn-on-this-feature-for-your-system"></a>Activez cette fonctionnalité pour votre système
+
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Ordres de fabrication prévisionnels pour l’optimisation de la planification*.
 
 ## <a name="planned-production-orders"></a>Ordres de fabrication prévisionnels
 

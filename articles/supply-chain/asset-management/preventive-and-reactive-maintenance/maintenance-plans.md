@@ -1,12 +1,10 @@
 ---
 title: Plans de maintenance
 description: Cette rubrique explique les plans de maintenance dans le module Gestion des actifs.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500812"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839605"
 ---
 # <a name="maintenance-plans"></a>Plans de maintenance
 
@@ -195,8 +193,6 @@ L’illustration suivante présente un exemple d’un plan de maintenance config
 
 ## <a name="counter-based-maintenance-enhancements"></a>Améliorations de la maintenance basée sur un compteur
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 La fonctionnalité *Améliorations de la maintenance basée sur un compteur* introduit les fonctionnalités suivantes :
 
 - Option pour insérer automatiquement un compteur qui a une valeur de *0* (zéro) lors de la création d’un actif. Cette option peut être utile lorsque vous utilisez la maintenance prédictive basée sur des compteurs. Lorsque la fonctionnalité *Améliorations de la maintenance basée sur un compteur* n’est pas utilisée, les compteurs qui ont une valeur de *0* (zéro) doivent être insérés manuellement.
@@ -209,7 +205,7 @@ La fonctionnalité *Améliorations de la maintenance basée sur un compteur* int
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Gestion des actifs*
-- **Nom de la fonctionnalité :** *(Version préliminaire) Améliorations de la maintenance basée sur un compteur*
+- **Nom de la fonctionnalité :** *Améliorations de la maintenance basée sur un compteur*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Créer et initialiser des compteurs lors de la création d’un actif
 

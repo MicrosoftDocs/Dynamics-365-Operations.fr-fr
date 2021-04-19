@@ -2,11 +2,9 @@
 title: Résoudre les problèmes de réapprovisionnement de l’entrepôt
 description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors du travail de réapprovisionnement en entrepôts dans Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8dfb58c9156df106f58dfdc0ee2e0ef8defb9d9f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8940f729e1115405e8d6e50eccc92d9fffe37f3e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263202"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828080"
 ---
 # <a name="troubleshoot-warehouse-replenishment"></a>Résoudre les problèmes de réapprovisionnement de l’entrepôt
 

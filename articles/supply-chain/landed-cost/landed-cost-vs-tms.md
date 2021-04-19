@@ -2,7 +2,6 @@
 title: Coût au débarquement et gestion du transport
 description: Microsoft Dynamics 365 Supply Chain Management fournit deux modules différents pour travailler avec le transport, la gestion du transport (TMS) et le coût au débarquement. Cette rubrique résume les fonctionnalités que les deux modules ont en commun et met en évidence les différences entre eux.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500716"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833855"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Coût au débarquement et gestion du transport
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management fournit deux modules différents pour travailler avec le transport : **la gestion du transport (TMS)** et **le coût au débarquement**. Cette rubrique résume les fonctionnalités que les deux modules ont en commun et met en évidence les différences entre eux. Vous pouvez utiliser ces informations pour décider quel module correspond le mieux à vos pratiques commerciales. Vous constaterez peut-être que certaines pratiques commerciales fonctionnent mieux avec TMS, tandis que d’autres fonctionnent mieux avec le Coût au débarquement. Ensuite, en fonction des besoins de votre entreprise, vous pouvez choisir d’utiliser un module exclusivement, ou vous pouvez combiner les deux modules.
 
@@ -158,15 +156,15 @@ Le TMS et le coût au débarquement fournissent des fonctionnalités pour gérer
 
 ### <a name="tms-receiving-by-container-features"></a>Fonctionnalité Réception par conteneur TMS
 
-TMS prend en charge les ASN entrants, toutes les variantes de réception via l’application d’entrepôt et toutes les méthodes de réception via le client Supply Chain Management.
+TMS prend en charge les ASN entrants, toutes les variantes de réception via l’application mobile Gestion des entrepôts et toutes les méthodes de réception via le client Supply Chain Management.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Fonctionnalité Réception par Coût au débarquement TMS
 
 Pour prendre en charge la réception par conteneur, Landed cost crée des enregistrements de conteneur d’expédition et associe les commande fournisseur à un conteneur d’expédition spécifique en utilisant son ID de conteneur. Les frais généraux peuvent ensuite être appliqués à ce conteneur d’expédition et ventilés de manière à être associés aux commande fournisseur concernés.
 
-Les conteneurs au coût au débarquement peuvent être reçus via un nouveau type de reçu appelé *marchandises en transit*, via les journaux d’arrivée ou via la réception d’appareils mobiles. Lorsque les journaux d’arrivée sont utilisés, les quantités peuvent être initialisées à partir des marchandises en ordre de transit ou des lignes de commande fournisseur d’origine dans le conteneur. Le coût au débarquement fournit deux types de travail pour la réception via l’application d’entrepôt.
+Les conteneurs au coût au débarquement peuvent être reçus via un nouveau type de reçu appelé *marchandises en transit*, via les journaux d’arrivée ou via la réception d’appareils mobiles. Lorsque les journaux d’arrivée sont utilisés, les quantités peuvent être initialisées à partir des marchandises en ordre de transit ou des lignes de commande fournisseur d’origine dans le conteneur. Le coût au débarquement fournit deux types de travail pour la réception via l’application mobile Gestion des entrepôts.
 
-Le coût au débarquement ne fournit pas d’ASN pour la réception électronique des marchandises. De plus, il ne prend pas en charge les flux d’applications d’entrepôt qui traitent la réception de la charge, la réception de contenants ou la réception mixte de contenants.
+Le coût au débarquement ne fournit pas d’ASN pour la réception électronique des marchandises. De plus, il ne prend pas en charge les flux de l’application mobile Gestion des entrepôts qui traitent la réception de la charge, la réception de contenants ou la réception mixte de contenants.
 
 ## <a name="rate-shopping-by-vendor"></a>Évaluer les achats par fournisseur
 

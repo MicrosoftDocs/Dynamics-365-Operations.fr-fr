@@ -1,25 +1,23 @@
 ---
 title: Paramétrage d’une hiérarchie des catégories d’approvisionnement
 description: Cette procédure vous indique comment créer de nouveaux nœuds dans une hiérarchie des catégories d’approvisionnement et comment configurer une catégorie d’approvisionnement à utiliser dans processus d’approvisionnement.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44fd02d37ec4e6431ca25dc980ed1d1785e45fac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 206dd5dc8f332268fe7665d84b005b5a7bfd1f9a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239348"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837703"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Paramétrage d’une hiérarchie des catégories d’approvisionnement
 

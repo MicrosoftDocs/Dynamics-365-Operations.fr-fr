@@ -2,11 +2,9 @@
 title: Utiliser des instructions d’emplacement
 description: Cette rubrique décrit comment utiliser les instructions d’emplacement. Les instructions d’emplacement sont des règles définies par l’utilisateur qui aident à identifier les emplacements de prélèvement et de rangement pour le mouvement du stock.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470517"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838392"
 ---
 # <a name="work-with-location-directives"></a>Utiliser des instructions d’emplacement
 
@@ -152,7 +150,7 @@ Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au
     > [!IMPORTANT]
     > Pour pouvoir effectuer à la fois des rangements de plusieurs articles et des rangements d’un seul SKU, vous devez spécifier deux lignes qui ont la même structure et la même configuration, mais vous devez définir l’option **SKU multiples** sur *Oui* pour une ligne et *Non* pour l’autre. Par conséquent, pour les opérations de rangement, les instructions d’emplacement doivent avoir deux instruction d’emplacement identiques, même si vous ne faites pas la distinction entre les SKU uniques et multiples sur l’ID d’un travail. Souvent, si vous ne configurez pas ces deux instruction d’emplacement, des emplacements de processus d’entreprise inattendus proviendront de l’instruction d’emplacement appliquée. Vous devez utiliser une configuration similaire pour les instructions d’emplacement qui ont un **Type de travail** de *Rangement* si vous devez traiter des commandes comprenant plusieurs SKU.
 
-    Utilisez l’option **SKU multiples** pour les lignes de travail qui traitent plus d’un numéro d’article. (Le numéro d’article sera vide dans les détails du travail, et il sera défini sur **Plusieurs** sur les pages de traitement de l’application d’entrepôt.)
+    Utilisez l’option **SKU multiples** pour les lignes de travail qui traitent plus d’un numéro d’article. (Le numéro d’article sera vide dans les détails du travail, et il sera défini sur **Plusieurs** sur les pages de traitement de l’application mobile Gestion des entrepôts.)
 
     Dans un exemple de scénario typique, un modèle de travail est configuré de sorte qu’il comporte plusieurs paires de prélèvement/rangement. Dans ce cas, vous souhaiterez peut-être rechercher un emplacement de préparation spécifique à utiliser pour les lignes avec un **Type de travail** de *Rangement*.
 
@@ -171,7 +169,7 @@ Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au
     > [!NOTE]
     > Ce champ est disponible uniquement pour les types d’ordres de travail sélectionnés où le réapprovisionnement est autorisé. Pour une liste complète, consultez la section [Champs spécifiques aux types d’ordres de travail](#fields-specific-types).
 
-- **Code de disposition** – Ce champ est utilisé pour les instructions d’emplacement qui ont un type d’ordre de travail *Acheter en ligne*, *Rangement des produits finis*, ou *Ordres de retour*, et un type de travail de *Rangement*. Utilisez-le pour guider le flux afin d’utiliser une instructions d’emplacement spécifique, en fonction du code d’instruction sélectionné par un collaborateur dans l’application d’entrepôt. Par exemple, vous pouvez diriger les marchandises retournées vers un site d’inspection avant qu’elles ne soient renvoyées en stock. Un code disposition peut être lié à un statut de stock. De cette manière, il peut être utilisé pour modifier le statut du stock dans le cadre d’un processus de réception. Par exemple, vous avez un code de disposition, *CQ*, qui définit le statut du stock sur *CQ*. Vous pouvez ensuite avoir une directive d’emplacement distincte pour déplacer ce stock vers un emplacement de quarantaine.
+- **Code de disposition** – Ce champ est utilisé pour les instructions d’emplacement qui ont un type d’ordre de travail *Acheter en ligne*, *Rangement des produits finis*, ou *Ordres de retour*, et un type de travail de *Rangement*. Utilisez-le pour guider le flux afin d’utiliser une instructions d’emplacement spécifique, en fonction du code d’instruction sélectionné par un collaborateur dans l’application mobile Gestion des entrepôts. Par exemple, vous pouvez diriger les marchandises retournées vers un site d’inspection avant qu’elles ne soient renvoyées en stock. Un code disposition peut être lié à un statut de stock. De cette manière, il peut être utilisé pour modifier le statut du stock dans le cadre d’un processus de réception. Par exemple, vous avez un code de disposition, *CQ*, qui définit le statut du stock sur *CQ*. Vous pouvez ensuite avoir une directive d’emplacement distincte pour déplacer ce stock vers un emplacement de quarantaine.
 
     > [!NOTE]
     > Ce champ est disponible uniquement pour les types d’ordres de travail sélectionnés où le réapprovisionnement est autorisé. Pour une liste complète, consultez la section [Champs spécifiques aux types d’ordres de travail](#fields-specific-types).

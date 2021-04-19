@@ -2,11 +2,9 @@
 title: Présentation de lean manufacturing
 description: Cet article fournit une vue d’ensemble et la description des fonctionnalités de lean manufacturing dans Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b333b1bf5842211641c946730c5c6582a221b5b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3da372e4e110b87322a7f2e974bd999c4c085234
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246019"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825793"
 ---
 # <a name="lean-manufacturing-overview"></a>Vue d’ensemble du Lean manufacturing
 
@@ -56,7 +54,7 @@ Un système de traction ne produit des marchandises que lorsqu’elles sont néc
 
 Lorsque des kanbans sont créés, une ou plusieurs tâches de kanban sont générées en fonction des activités du flux kanban définies dans les règles de kanban.
 
-## <a name="monitoring-and-maintaining-kanban-jobs"></a> Surveillance et mise à jour des tâches de kanban
+## <a name="monitoring-and-maintaining-kanban-jobs"></a>Surveillance et mise à jour des tâches de kanban
 Le lean manufacturing fournit une visibilité vis-à-vis du statut actuel des activités de fabrication et logistiques qui sont régies par les règles de kanban. Par conséquent, vous pouvez planifier et octroyer une priorité aux tâches suivantes :
 
 -   Obtention d’une vue d’ensemble du programme actuel des tâches de kanban.

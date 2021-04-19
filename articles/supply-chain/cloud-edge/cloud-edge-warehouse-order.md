@@ -2,11 +2,9 @@
 title: Commandes d’entrepôt pour les unités d’échelle Cloud et périphérie
 description: Cette rubrique fournit des informations sur la capacité de commandes d’entrepôt dans le cadre de la charge de travail de l’unité d’échelle d’entrepôt.
 author: perlynne
-manager: tfeyr
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556360"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836684"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Commandes d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -38,7 +36,7 @@ ms.locfileid: "5556360"
 
 Les *commandes d’entrepôt* désignent un type de commande créée pour prendre en charge les déploiements en entrepôt de l’unité d’échelle et du hub. Ils vous permettent de recevoir un inventaire lorsque vous exécutez une charge de travail d’entrepôt sur une unité d’échelle. Actuellement, ils sont utilisés uniquement avec les commandes fournisseur.
 
-Les commandes d’entrepôt sont utilisées dans le cadre du traitement de la gestion en entrepôt, comme lorsque l’application d’entreposage est utilisée pour enregistrer l’inventaire physique disponible pendant le traitement d’une commande fournisseur entrante. Les commandes d’entrepôt sont créées dans le cadre du processus *Libération dans l’entrepôt* disponible pour les commandes fournisseur qui précisent un entrepôt d’unité d’échelle et des éléments qui sont activés pour utiliser les processus de gestion de l’entrepôt.
+Les commandes d’entrepôt sont utilisées dans le cadre du traitement de la gestion en entrepôt, comme lorsque application mobile Gestion des entrepôts est utilisée pour enregistrer l’inventaire physique disponible pendant le traitement d’une commande fournisseur entrante. Les commandes d’entrepôt sont créées dans le cadre du processus *Libération dans l’entrepôt* disponible pour les commandes fournisseur qui précisent un entrepôt d’unité d’échelle et des éléments qui sont activés pour utiliser les processus de gestion de l’entrepôt.
 
 > [!IMPORTANT]
 > Les commandes d’entrepôt sont disponibles uniquement dans les déploiements qui utilisent les [charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie](cloud-edge-workload-warehousing.md).
@@ -70,7 +68,7 @@ Pour ce faire, procédez comme suit.
 
 ## <a name="monitor-a-warehouse-order"></a>Surveiller une commande d’entrepôt
 
-Dans la vue **Lignes de commande d’entrepôt**, vous pouvez surveiller la progression de la réception entrante en examinant les valeurs dans la colonne **Quantité en attente de réception**. Pour afficher les détails liés au travail effectué à l’aide de l’application d’entreposage, suivez l’une de ces étapes.
+Dans la vue **Lignes de commande d’entrepôt**, vous pouvez surveiller la progression de la réception entrante en examinant les valeurs dans la colonne **Quantité en attente de réception**. Pour afficher les détails liés au travail effectué à l’aide de l’application mobile Gestion des entrepôts, suivez l’une de ces étapes.
 
 - Accédez à **Gestion des entrepôts \> Recherches et états \> Lignes de commande d’entrepôt** et utilisez le filtre pour trouver les lignes que vous recherchez.
 - Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur** et ouvrez la commande fournisseur pertinente. Dans la section **Lignes de commande fournisseur**, sélectionnez une ou plusieurs lignes, puis, dans la barre d’outils, sélectionnez **Entrepôt \> Entrées de réception d’entrepôt**.

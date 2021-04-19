@@ -2,11 +2,9 @@
 title: Limites de stockage de l’emplacement
 description: Cette rubrique décrit la fonctionnalité pour les limites de stockage des emplacements.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216979"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831264"
 ---
 # <a name="location-stocking-limits"></a>Limites de stockage de l’emplacement
 
@@ -83,7 +81,7 @@ Dans cet exemple, vous exécuterez un flux de réception de commande fournisseur
 
 Vous recevrez d’abord une quantité de *4* de l’unité *PL* en taille *S* et vous examinerez les emplacements des lignes de rangement pour le travail créé. Vous recevrez ensuite une quantité de *4* de l’unité *PL* en taille *L* et vous examinerez les emplacements des lignes de rangement pour le travail créé.
 
-1. Dans l’application d’entrepôt, connectez-vous en utilisant *24* comme ID d’utilisateur et *1* comme mot de passe.
+1. Dans l’application mobile Gestion des entrepôts, connectez-vous en utilisant *24* comme ID d’utilisateur et *1* comme mot de passe.
 1. Sélectionnez **Entrant** \> **Réception d’achat**.
 1. Recevez *4* *PL* du numéro d’article *D0013* en taille *S*.
 1. Passez en revue le travail de rangement qui a été créé. Le résultat suivant devrait s’afficher :

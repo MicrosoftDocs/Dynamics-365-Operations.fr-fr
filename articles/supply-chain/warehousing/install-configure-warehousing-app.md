@@ -2,11 +2,9 @@
 title: Installer et connecter l’application d’entrepôt
 description: Cette rubrique explique comment installer l’application d’entrepôt sur chacun de vos appareils mobiles et la configurer pour se connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management. Vous pouvez configurer chaque appareil manuellement, ou vous pouvez importer les paramètres de connexion via un fichier ou en scannant un code QR.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486975"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835562"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installer et connecter l’application d’entreposage
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Cette rubrique décrit comment configurer l’ancienne application d’entrepôt. Si vous recherchez des informations sur la configuration de la nouvelle application mobile Gestion des entrepôts, voir [Installer et connecter l’application mobile Gestion des entrepôts](install-configure-warehouse-management-app.md).
+> Cette rubrique décrit comment configurer l’ancienne application d’entrepôt (qui est désormais obsolète). Si vous recherchez des informations sur la configuration de la nouvelle application mobile Gestion des entrepôts, voir [Installer et connecter l’application mobile Gestion des entrepôts](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Cette rubrique décrit comment configurer l’application d’entrepôt pour les déploiements dans le cloud. Si vous recherchez des informations sur la configuration de l’application d’entrepôt pour les déploiements sur site, voir [Entreposage pour les déploiements locaux](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

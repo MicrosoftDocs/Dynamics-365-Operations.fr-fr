@@ -2,11 +2,9 @@
 title: Statuts du stock
 description: Cet article décrit la manière dont vous pouvez utiliser les statuts du stock pour classer et faire le suivi du stock.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476697"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829858"
 ---
 # <a name="inventory-statuses"></a>Statuts du stock
 
@@ -45,10 +43,14 @@ Le statut du stock est l’une des dimensions dans le groupe de dimensions de st
 
 Vous pouvez utiliser des articles d’entrepôt dont les statuts de stock sont disponibles ou non disponibles pour un travail entrant. Par exemple, vous créez un statut disponible nommé *Prêt*, un statut non disponible nommé *Endommagé* et un statut bloqué nommé *Bloqué*. Lorsque vous créez une commande fournisseur pour des articles reçus ou retournés, si les articles sont endommagés ou arrêtés, vous pouvez modifier le statut de stock de ces articles sur *Endommagé* sur la ligne de commande fournisseur. Une fois ces articles reçus, le statut est automatiquement défini sur *Bloqué*. Si vous numérisez les articles endommagés à l’aide d’un appareil mobile, Supply Chain Management peut utiliser des directives d’emplacement et des modèles de travail pour afficher des informations sur un emplacement adapté ou une plage d’emplacements pour ranger ces articles. Pour les articles retournés, un type de sortie de *Réservation* est créé dans la page **Mouvements de stock**.
 
+Vous pouvez spécifier quels statuts du stock sont des statuts de blocage à l’aide des cases à cocher **Blocage du stock** sur la page **Statuts du stock**. Vous ne pouvez pas utiliser les statuts de stock comme statuts de blocage pour les commandes client, les ordres de transfert ou les intégrations de projets.
+
+Pour le travail sortant, vous pouvez utiliser différents statuts d’inventaire non bloquants pour contrôler l’inventaire à réserver. Si vous avez des articles ayant un statut *Blocage*, et que la planification est effectuée sur ces articles, les articles sont considérés comme manquants et le stock est automatiquement réapprovisionné. De plus, pour les ordres de qualité associés au travail sortant, il n’est pas possible de mettre à jour le **Statut du stock** dans le cadre de la validation de l’ordre de qualité.
+
 > [!NOTE]
 > Vous ne pouvez pas modifier l’état de l’inventaire dans les emplacements où il existe des travaux ouverts. Par exemple, si vous avez effectué un achat reçu pour un article, mais que vous n’avez pas effectué l’étape de mise en stock, un travail ouvert existerait pour l’emplacement de réception et vous obtiendrez une erreur si vous tentiez de modifier l’état de l’inventaire à cet emplacement. L’achèvement ou l’annulation du travail associé vous permettrait de modifier le statut.
- 
-Pour un travail sortant, utilisez les articles qui ont un statut de stock disponible. Si vous avez des articles ayant un statut *Cassé*, et la planification est effectuée sur ces articles, les articles sont considérés comme manquants et le stock est automatiquement réapprovisionné.
+>
+> Habituellement, le statut du stock disponible lié au travail en entrepôt ouvert n’est modifié que par les travailleurs utilisant l’application mobile Gestion des entrepôts, par exemple lors de l’exécution d’un processus de mouvement.
 
 Après avoir paramétré des statuts de stock, vous pouvez définir le statut du stock par défaut pour un site, un article, et un entrepôt. Vous pouvez également définir un statut par défaut pour les ventes, le transfert, les commandes fournisseur. Le statut par défaut pour les commandes client et l’ordre de transfert sortant ne peut pas avoir l’option **Blocage du stock** définie sur *Oui*. Le statut de stock qui est hérité des paramètres par défaut sur un site, un entrepôt, un article, une commande fournisseur, un ordre de transfert ou une commande client peut être modifié à l’aide de l’appareil mobile, ou sur la ligne de la commande fournisseur, de la commande client, ou de l’ordre de transfert.
 

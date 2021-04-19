@@ -2,11 +2,9 @@
 title: Prix de revient moyen en cours
 description: La clôture du stock règle les transactions de sortie avec des transactions de réception sur la base du modèle d’évaluation du stock sélectionné dans le groupe de modèles d’article associé à l’article. Toutefois, avant d’exécuter la clôture du stock, le système calcule un prix de revient moyen en cours qui est généralement utilisé lorsque les transactions de sortie sont validées.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d91422dfece5af70abbcf9f051ec5706517d0155
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 75dfd2f23034bbd222e020b532027e60ef215241
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231934"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830265"
 ---
 # <a name="running-average-cost-price"></a>Prix de revient moyen en cours
 
