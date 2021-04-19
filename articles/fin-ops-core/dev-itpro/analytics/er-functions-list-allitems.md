@@ -2,7 +2,6 @@
 title: Fonction ALLITEMS ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction ALLITEMS États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
@@ -16,54 +15,54 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eae005a71f50a08c1ef85a7a93c3b2c407c8848
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5ddcf989bdfd1d1f5d0a412a2ffefe0e3037ca79
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559222"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746721"
 ---
-# <a name="allitems-er-function"></a><span data-ttu-id="0c114-103">Fonction ALLITEMS ER</span><span class="sxs-lookup"><span data-stu-id="0c114-103">ALLITEMS ER function</span></span>
+# <a name="allitems-er-function"></a><span data-ttu-id="07a3c-103">Fonction ALLITEMS ER</span><span class="sxs-lookup"><span data-stu-id="07a3c-103">ALLITEMS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0c114-104">La fonction `ALLITEMS` s’exécute comme une sélection en mémoire et retourne une nouvelle valeur *Liste des enregistrements* aplatie comme une liste d’enregistrements qui représente tous les éléments qui correspondent au chemin spécifié.</span><span class="sxs-lookup"><span data-stu-id="0c114-104">The `ALLITEMS` function runs as an in-memory selection and returns a new flattened *Record list* value as a list of records that represents all items that match the specified path.</span></span>
+<span data-ttu-id="07a3c-104">La fonction `ALLITEMS` s’exécute comme une sélection en mémoire et retourne une nouvelle valeur *Liste des enregistrements* aplatie comme une liste d’enregistrements qui représente tous les éléments qui correspondent au chemin spécifié.</span><span class="sxs-lookup"><span data-stu-id="07a3c-104">The `ALLITEMS` function runs as an in-memory selection and returns a new flattened *Record list* value as a list of records that represents all items that match the specified path.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0c114-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0c114-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="07a3c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="07a3c-105">Syntax</span></span>
 
 ```vb
 ALLITEMS (path)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="0c114-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="0c114-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="07a3c-106">Arguments</span><span class="sxs-lookup"><span data-stu-id="07a3c-106">Arguments</span></span>
 
-<span data-ttu-id="0c114-107">`path` : *Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="0c114-107">`path`: *Record list*</span></span>
+<span data-ttu-id="07a3c-107">`path` : *Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="07a3c-107">`path`: *Record list*</span></span>
 
-<span data-ttu-id="0c114-108">Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="0c114-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="07a3c-108">Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="07a3c-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="0c114-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="0c114-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="07a3c-109">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="07a3c-109">Return values</span></span>
 
-<span data-ttu-id="0c114-110">*Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="0c114-110">*Record list*</span></span>
+<span data-ttu-id="07a3c-110">*Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="07a3c-110">*Record list*</span></span>
 
-<span data-ttu-id="0c114-111">Liste des enregistrements résultante.</span><span class="sxs-lookup"><span data-stu-id="0c114-111">The resulting list of records.</span></span>
+<span data-ttu-id="07a3c-111">Liste des enregistrements résultante.</span><span class="sxs-lookup"><span data-stu-id="07a3c-111">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="0c114-112">Notes d’utilisation</span><span class="sxs-lookup"><span data-stu-id="0c114-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="07a3c-112">Notes d’utilisation</span><span class="sxs-lookup"><span data-stu-id="07a3c-112">Usage notes</span></span>
 
-<span data-ttu-id="0c114-113">Le chemin doit être défini comme le chemin d’accès valide de la source de données vers un élément de source de données d’un type de données de *Liste des enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="0c114-113">The path must be defined as a valid data source path of a data source element of the *Record list* data type.</span></span> <span data-ttu-id="0c114-114">Les éléments de données tels que la chaîne de chemin d’accès et la date doivent déclencher une erreur dans le générateur d’expression États électroniques ER au moment de la conception.</span><span class="sxs-lookup"><span data-stu-id="0c114-114">Data elements such as the path string and date should raise an error in the Electronic reporting (ER) expression builder at design time.</span></span>
+<span data-ttu-id="07a3c-113">Le chemin doit être défini comme le chemin d’accès valide de la source de données vers un élément de source de données d’un type de données de *Liste des enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="07a3c-113">The path must be defined as a valid data source path of a data source element of the *Record list* data type.</span></span> <span data-ttu-id="07a3c-114">Les éléments de données tels que la chaîne de chemin d’accès et la date doivent déclencher une erreur dans le générateur d’expression États électroniques ER au moment de la conception.</span><span class="sxs-lookup"><span data-stu-id="07a3c-114">Data elements such as the path string and date should raise an error in the Electronic reporting (ER) expression builder at design time.</span></span>
 
-<span data-ttu-id="0c114-115">Nous vous déconseillons d’utiliser cette fonction pour les sources de données transactionnelles pouvant contenir un grand volume de données.</span><span class="sxs-lookup"><span data-stu-id="0c114-115">We don't recommend that you use this function for transactional data sources that might contain a large volume of data.</span></span> <span data-ttu-id="0c114-116">Au lieu de cela, envisagez d’utiliser la fonction [ALLTEMSQUERY](er-functions-list-allitemsquery.md).</span><span class="sxs-lookup"><span data-stu-id="0c114-116">Instead, consider using the [ALLTEMSQUERY](er-functions-list-allitemsquery.md) function.</span></span>
+<span data-ttu-id="07a3c-115">Nous vous déconseillons d’utiliser cette fonction pour les sources de données transactionnelles pouvant contenir un grand volume de données.</span><span class="sxs-lookup"><span data-stu-id="07a3c-115">We don't recommend that you use this function for transactional data sources that might contain a large volume of data.</span></span> <span data-ttu-id="07a3c-116">Au lieu de cela, envisagez d’utiliser la fonction [ALLTEMSQUERY](er-functions-list-allitemsquery.md).</span><span class="sxs-lookup"><span data-stu-id="07a3c-116">Instead, consider using the [ALLTEMSQUERY](er-functions-list-allitemsquery.md) function.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="0c114-117">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="0c114-117">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="07a3c-117">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="07a3c-117">Example 1</span></span>
 
-<span data-ttu-id="0c114-118">Si vous entrez `SPLIT("abcdef" , 2)` comme source de données **DS**, l’expression `COUNT( ALLITEMS (DS))` renvoie **3**.</span><span class="sxs-lookup"><span data-stu-id="0c114-118">If you enter `SPLIT("abcdef" , 2)` as data source **DS**, the expression `COUNT( ALLITEMS (DS))` returns **3**.</span></span>
+<span data-ttu-id="07a3c-118">Si vous entrez `SPLIT("abcdef" , 2)` comme source de données **DS**, l’expression `COUNT( ALLITEMS (DS))` renvoie **3**.</span><span class="sxs-lookup"><span data-stu-id="07a3c-118">If you enter `SPLIT("abcdef" , 2)` as data source **DS**, the expression `COUNT( ALLITEMS (DS))` returns **3**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="0c114-119">Exemple 2</span><span class="sxs-lookup"><span data-stu-id="0c114-119">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="07a3c-119">Exemple 2</span><span class="sxs-lookup"><span data-stu-id="07a3c-119">Example 2</span></span>
 
-<span data-ttu-id="0c114-120">Si vous entrez **Vend** comme source de données du type de données *Liste des enregistrements* qui fait référence à la table d’application VendTable, l’expression `ALLITEMS (Vend.'<Relations'.ContactPerson)` renvoie une liste d’enregistrements aplatie qui a la structure de la table **ContactPerson** et contient toutes les personnes de contact qui sont accessibles en utilisant la relation **ContactPerson.ContactForParty == VendTable.Party** et qui est disponible pour tous les fournisseurs à partir de la table des fournisseurs référencés.</span><span class="sxs-lookup"><span data-stu-id="0c114-120">If you enter **Vend** as the data source of the *Record list* data type that refers to the VendTable application table, the expression `ALLITEMS (Vend.'<Relations'.ContactPerson)` returns a flattened list of records that has the **ContactPerson** table structure and contains all contact persons that can be accessed by using the **ContactPerson.ContactForParty == VendTable.Party** relation, and that is available for all vendors from the referenced vendor table.</span></span>
+<span data-ttu-id="07a3c-120">Si vous entrez **Vend** comme source de données du type de données *Liste des enregistrements* qui fait référence à la table d’application VendTable, l’expression `ALLITEMS (Vend.'<Relations'.ContactPerson)` renvoie une liste d’enregistrements aplatie qui a la structure de la table **ContactPerson** et contient toutes les personnes de contact qui sont accessibles en utilisant la relation **ContactPerson.ContactForParty == VendTable.Party** et qui est disponible pour tous les fournisseurs à partir de la table des fournisseurs référencés.</span><span class="sxs-lookup"><span data-stu-id="07a3c-120">If you enter **Vend** as the data source of the *Record list* data type that refers to the VendTable application table, the expression `ALLITEMS (Vend.'<Relations'.ContactPerson)` returns a flattened list of records that has the **ContactPerson** table structure and contains all contact persons that can be accessed by using the **ContactPerson.ContactForParty == VendTable.Party** relation, and that is available for all vendors from the referenced vendor table.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="0c114-121">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="0c114-121">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="07a3c-121">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="07a3c-121">Additional resources</span></span>
 
-[<span data-ttu-id="0c114-122">Fonctions de liste</span><span class="sxs-lookup"><span data-stu-id="0c114-122">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="07a3c-122">Fonctions de liste</span><span class="sxs-lookup"><span data-stu-id="07a3c-122">List functions</span></span>](er-functions-category-list.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

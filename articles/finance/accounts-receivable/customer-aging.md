@@ -2,11 +2,9 @@
 title: Balance âgée des clients
 description: L’état Balance âgée des clients affiche les soldes dus par les clients, triés par intervalle de dates ou plage âgée.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 384e44ef07771a174aaed4f8fb893e75b0206da7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b80345513d355115a182c108bf3843963e9a59d9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236984"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840339"
 ---
-# <a name="customer-aging-report"></a><span data-ttu-id="9841d-103">Balance âgée des clients</span><span class="sxs-lookup"><span data-stu-id="9841d-103">Customer aging report</span></span> 
+# <a name="customer-aging-report"></a><span data-ttu-id="3b94f-103">Balance âgée des clients</span><span class="sxs-lookup"><span data-stu-id="3b94f-103">Customer aging report</span></span> 
 
-<span data-ttu-id="9841d-104">L’état **Balance âgée des clients** affiche les soldes dus par les clients, triés par intervalle de dates ou plage âgée.</span><span class="sxs-lookup"><span data-stu-id="9841d-104">The **Customer aging** report displays the balances that are due from customers, sorted by date interval, or aging period.</span></span>
+<span data-ttu-id="3b94f-104">L’état **Balance âgée des clients** affiche les soldes dus par les clients, triés par intervalle de dates ou plage âgée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-104">The **Customer aging** report displays the balances that are due from customers, sorted by date interval, or aging period.</span></span>
 
-<span data-ttu-id="9841d-105">Lorsque vous générez cet état, les paramètres par défaut suivants sont affichés.</span><span class="sxs-lookup"><span data-stu-id="9841d-105">When you generate this report, the following default parameters are displayed.</span></span> <span data-ttu-id="9841d-106">Ces paramètres permettent de filtrer les données qui seront affichées dans l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-106">You can use these parameters to filter the data that will be displayed on the report.</span></span> <span data-ttu-id="9841d-107">Pour plus d’informations, voir [Paramétrer des recouvrements](set-up-collections.md).</span><span class="sxs-lookup"><span data-stu-id="9841d-107">For more information, see [Set up collections](set-up-collections.md).</span></span>
+<span data-ttu-id="3b94f-105">Lorsque vous générez cet état, les paramètres par défaut suivants sont affichés.</span><span class="sxs-lookup"><span data-stu-id="3b94f-105">When you generate this report, the following default parameters are displayed.</span></span> <span data-ttu-id="3b94f-106">Ces paramètres permettent de filtrer les données qui seront affichées dans l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-106">You can use these parameters to filter the data that will be displayed on the report.</span></span> <span data-ttu-id="3b94f-107">Pour plus d’informations, voir [Paramétrer des recouvrements](set-up-collections.md).</span><span class="sxs-lookup"><span data-stu-id="3b94f-107">For more information, see [Set up collections](set-up-collections.md).</span></span>
 
 <table>
 <colgroup>
@@ -37,86 +35,86 @@ ms.locfileid: "5236984"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9841d-108">Champ</span><span class="sxs-lookup"><span data-stu-id="9841d-108">Field</span></span></p></th>
-<th><p><span data-ttu-id="9841d-109">Description</span><span class="sxs-lookup"><span data-stu-id="9841d-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="3b94f-108">Champ</span><span class="sxs-lookup"><span data-stu-id="3b94f-108">Field</span></span></p></th>
+<th><p><span data-ttu-id="3b94f-109">Description</span><span class="sxs-lookup"><span data-stu-id="3b94f-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-110"><strong>Classification de facturation</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-110"><strong>Billing classification</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-111">Sélectionnez une ou plusieurs classifications de facturation à inclure dans l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-111">Select one or more billing classifications to include on the report.</span></span></p>
+<td><p><span data-ttu-id="3b94f-110"><strong>Classification de facturation</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-110"><strong>Billing classification</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-111">Sélectionnez une ou plusieurs classifications de facturation à inclure dans l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-111">Select one or more billing classifications to include on the report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="9841d-112">**Remarque :** ce contrôle n’est disponible que si la clé de configuration <STRONG>Secteur public</STRONG> est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9841d-112">**Note:** This control is available only if the <STRONG>Public Sector</STRONG> configuration key is selected.</span></span></P>
+<span data-ttu-id="3b94f-112">**Remarque :** ce contrôle n’est disponible que si la clé de configuration <STRONG>Secteur public</STRONG> est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-112">**Note:** This control is available only if the <STRONG>Public Sector</STRONG> configuration key is selected.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-113"><strong>Ajouter des transactions sans classification de facturation</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-113"><strong>Include transactions without a billing classification</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-114">Lorsque cette case à cocher est activée, les transactions sans classification de facturation affectée sont affichées dans l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-114">If this check box is selected, all transactions that do not have a billing classification assigned to them will be displayed on the report.</span></span></p>
+<td><p><span data-ttu-id="3b94f-113"><strong>Ajouter des transactions sans classification de facturation</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-113"><strong>Include transactions without a billing classification</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-114">Lorsque cette case à cocher est activée, les transactions sans classification de facturation affectée sont affichées dans l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-114">If this check box is selected, all transactions that do not have a billing classification assigned to them will be displayed on the report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="9841d-115">**Remarque :** ce contrôle n’est disponible que si la clé de configuration <STRONG>Secteur public</STRONG> est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="9841d-115">**Note:** This control is available only if the <STRONG>Public sector</STRONG> configuration key is selected.</span></span></P>
+<span data-ttu-id="3b94f-115">**Remarque :** ce contrôle n’est disponible que si la clé de configuration <STRONG>Secteur public</STRONG> est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-115">**Note:** This control is available only if the <STRONG>Public sector</STRONG> configuration key is selected.</span></span></P>
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-116"><strong>Agé tel que</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-116"><strong>Aging as of</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-117">Entrez la date utilisée sur la plage âgée actuelle.</span><span class="sxs-lookup"><span data-stu-id="9841d-117">Enter the date used on the current aging bucket.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-116"><strong>Agé tel que</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-116"><strong>Aging as of</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-117">Entrez la date utilisée sur la plage âgée actuelle.</span><span class="sxs-lookup"><span data-stu-id="3b94f-117">Enter the date used on the current aging bucket.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-118"><strong>Solde en date du</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-118"><strong>Balance as of</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-119">Entrez la date pour laquelle afficher les soldes du client.</span><span class="sxs-lookup"><span data-stu-id="9841d-119">Enter the date to view the customer balances for.</span></span> <span data-ttu-id="9841d-120">Elle est également appelée date limite pour les transactions.</span><span class="sxs-lookup"><span data-stu-id="9841d-120">This is also known as a cutoff date for transactions.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-118"><strong>Solde en date du</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-118"><strong>Balance as of</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-119">Entrez la date pour laquelle afficher les soldes du client.</span><span class="sxs-lookup"><span data-stu-id="3b94f-119">Enter the date to view the customer balances for.</span></span> <span data-ttu-id="3b94f-120">Elle est également appelée date limite pour les transactions.</span><span class="sxs-lookup"><span data-stu-id="3b94f-120">This is also known as a cutoff date for transactions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-121"><strong>Date de début</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-121"><strong>Start date</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-122">Entrez une date comprise dans le premier intervalle de périodes ou dans la plage âgée à inclure dans l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-122">Enter a date that is in the first period interval or aging period to include on the report.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-121"><strong>Date de début</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-121"><strong>Start date</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-122">Entrez une date comprise dans le premier intervalle de périodes ou dans la plage âgée à inclure dans l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-122">Enter a date that is in the first period interval or aging period to include on the report.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-123"><strong>Critères</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-123"><strong>Criteria</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-124">Sélectionnez le type de date sur lequel baser l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-124">Select the type of date to base the report on.</span></span></p>
+<td><p><span data-ttu-id="3b94f-123"><strong>Critères</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-123"><strong>Criteria</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-124">Sélectionnez le type de date sur lequel baser l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-124">Select the type of date to base the report on.</span></span></p>
 <ul>
-<li><p><span data-ttu-id="9841d-125"><strong>Date de transaction</strong> – Date de validation des transactions.</span><span class="sxs-lookup"><span data-stu-id="9841d-125"><strong>Transaction date</strong> – The posting date of the transactions.</span></span> <span data-ttu-id="9841d-126">Par exemple, il peut s’agir d’une date de facture qui sert de base au calcul de date d’échéance.</span><span class="sxs-lookup"><span data-stu-id="9841d-126">For example, this might be an invoice date that is the basis for the calculation of the due date.</span></span></p></li>
-<li><p><span data-ttu-id="9841d-127"><strong>Date d’échéance</strong> – Date d’échéance des transactions, basée sur les conditions de paiement.</span><span class="sxs-lookup"><span data-stu-id="9841d-127"><strong>Due date</strong> – The due date of the transactions, based on the terms of payment.</span></span></p></li>
-<li><p><span data-ttu-id="9841d-128"><strong>Date de document</strong> – Date de document définie par l’utilisateur, qui sert de base de calcul de la date d’échéance.</span><span class="sxs-lookup"><span data-stu-id="9841d-128"><strong>Document date</strong> – A user-defined document date that is the basis for the calculation of the due date.</span></span></p></li>
+<li><p><span data-ttu-id="3b94f-125"><strong>Date de transaction</strong> – Date de validation des transactions.</span><span class="sxs-lookup"><span data-stu-id="3b94f-125"><strong>Transaction date</strong> – The posting date of the transactions.</span></span> <span data-ttu-id="3b94f-126">Par exemple, il peut s’agir d’une date de facture qui sert de base au calcul de date d’échéance.</span><span class="sxs-lookup"><span data-stu-id="3b94f-126">For example, this might be an invoice date that is the basis for the calculation of the due date.</span></span></p></li>
+<li><p><span data-ttu-id="3b94f-127"><strong>Date d’échéance</strong> – Date d’échéance des transactions, basée sur les conditions de paiement.</span><span class="sxs-lookup"><span data-stu-id="3b94f-127"><strong>Due date</strong> – The due date of the transactions, based on the terms of payment.</span></span></p></li>
+<li><p><span data-ttu-id="3b94f-128"><strong>Date de document</strong> – Date de document définie par l’utilisateur, qui sert de base de calcul de la date d’échéance.</span><span class="sxs-lookup"><span data-stu-id="3b94f-128"><strong>Document date</strong> – A user-defined document date that is the basis for the calculation of the due date.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-129"><strong>Définition de la période de balance âgée</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-129"><strong>Aging period definition</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-130">Sélectionnez une définition de période de balance âgée.</span><span class="sxs-lookup"><span data-stu-id="9841d-130">Select an aging period definition.</span></span> <span data-ttu-id="9841d-131">Le champ <strong>Intervalle</strong> n’est pas utilisé si vous sélectionnez une définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="9841d-131">The <strong>Interval</strong> field is not used if you select an aging period definition.</span></span></p>
-<p><span data-ttu-id="9841d-132">Les définitions de plage âgée comprenant plus de six plages âgées ne peuvent pas être utilisées dans l’état imprimé.</span><span class="sxs-lookup"><span data-stu-id="9841d-132">Aging period definitions that have more than six aging periods cannot be used on the printed report.</span></span></p>
+<td><p><span data-ttu-id="3b94f-129"><strong>Définition de la période de balance âgée</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-129"><strong>Aging period definition</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-130">Sélectionnez une définition de période de balance âgée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-130">Select an aging period definition.</span></span> <span data-ttu-id="3b94f-131">Le champ <strong>Intervalle</strong> n’est pas utilisé si vous sélectionnez une définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-131">The <strong>Interval</strong> field is not used if you select an aging period definition.</span></span></p>
+<p><span data-ttu-id="3b94f-132">Les définitions de plage âgée comprenant plus de six plages âgées ne peuvent pas être utilisées dans l’état imprimé.</span><span class="sxs-lookup"><span data-stu-id="3b94f-132">Aging period definitions that have more than six aging periods cannot be used on the printed report.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="9841d-133">**Remarque :** vous pouvez configurer des plages âgées sur la page <STRONG>Définitions des plages âgées</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="9841d-133">**Note:** You can set up aging periods on the <STRONG>Aging period definitions</STRONG> page.</span></span></P>
+<span data-ttu-id="3b94f-133">**Remarque :** vous pouvez configurer des plages âgées sur la page <STRONG>Définitions des plages âgées</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="3b94f-133">**Note:** You can set up aging periods on the <STRONG>Aging period definitions</STRONG> page.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-134"><strong>Imprimer la description de la période de balance âgée</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-134"><strong>Print aging period description</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-135">Sélectionnez <strong>Oui</strong> pour inclure des descriptions de plage âgée en haut de chaque colonne de plage âgée de l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-135">Select <strong>Yes</strong> to include aging period descriptions at the top of each aging period column on the report.</span></span> <span data-ttu-id="9841d-136">Sélectionnez <strong>Non</strong> pour imprimer l’état sans les en-têtes de colonnes.</span><span class="sxs-lookup"><span data-stu-id="9841d-136">Select <strong>No</strong> to print the report without column headers.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-134"><strong>Imprimer la description de la période de balance âgée</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-134"><strong>Print aging period description</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-135">Sélectionnez <strong>Oui</strong> pour inclure des descriptions de plage âgée en haut de chaque colonne de plage âgée de l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-135">Select <strong>Yes</strong> to include aging period descriptions at the top of each aging period column on the report.</span></span> <span data-ttu-id="3b94f-136">Sélectionnez <strong>Non</strong> pour imprimer l’état sans les en-têtes de colonnes.</span><span class="sxs-lookup"><span data-stu-id="3b94f-136">Select <strong>No</strong> to print the report without column headers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-137"><strong>Intervalle</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-137"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-138">Permet de définir la période à utiliser en entrant le nombre d’unités de jours ou de mois dans chaque période.</span><span class="sxs-lookup"><span data-stu-id="9841d-138">Define the period to use by entering the number of the day or month units in each period.</span></span> <span data-ttu-id="9841d-139">Par exemple, pour afficher des informations de balance âgée par semaine, entrez 7 dans ce champ, puis sélectionnez <strong>Jour</strong> dans le champ <strong>Jour/mois</strong>.</span><span class="sxs-lookup"><span data-stu-id="9841d-139">For example, to view aging information by week, enter 7 in this field and select <strong>Day</strong> in the <strong>Day/Mth</strong> field.</span></span></p>
+<td><p><span data-ttu-id="3b94f-137"><strong>Intervalle</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-137"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-138">Permet de définir la période à utiliser en entrant le nombre d’unités de jours ou de mois dans chaque période.</span><span class="sxs-lookup"><span data-stu-id="3b94f-138">Define the period to use by entering the number of the day or month units in each period.</span></span> <span data-ttu-id="3b94f-139">Par exemple, pour afficher des informations de balance âgée par semaine, entrez 7 dans ce champ, puis sélectionnez <strong>Jour</strong> dans le champ <strong>Jour/mois</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b94f-139">For example, to view aging information by week, enter 7 in this field and select <strong>Day</strong> in the <strong>Day/Mth</strong> field.</span></span></p>
 <div class="alert">
 
-<span data-ttu-id="9841d-140">**Remarque :** les informations entrées dans ce champ ne sont utilisées que si vous n’avez pas sélectionné de définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="9841d-140">**Note:** The information that you enter in this field is used only if you have not selected an aging period definition.</span></span> <span data-ttu-id="9841d-141">Sinon, le sens d’impression est défini sur la définition de la plage âgée.</span><span class="sxs-lookup"><span data-stu-id="9841d-141">Otherwise, the printing direction is defined on the aging period definition.</span></span></P>
+<span data-ttu-id="3b94f-140">**Remarque :** les informations entrées dans ce champ ne sont utilisées que si vous n’avez pas sélectionné de définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-140">**Note:** The information that you enter in this field is used only if you have not selected an aging period definition.</span></span> <span data-ttu-id="3b94f-141">Sinon, le sens d’impression est défini sur la définition de la plage âgée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-141">Otherwise, the printing direction is defined on the aging period definition.</span></span></P>
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-142"><strong>Jour/mois</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-142"><strong>Day/Mth</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-143">Permet de sélectionner l’unité, soit <strong>Jour</strong> soit <strong>Mois</strong>, utilisée pour définir la période dans le champ <strong>Intervalle</strong>.</span><span class="sxs-lookup"><span data-stu-id="9841d-143">Select the unit, either <strong>Day</strong> or <strong>Month</strong>, that is used to define the period in the <strong>Interval</strong> field.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-142"><strong>Jour/mois</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-142"><strong>Day/Mth</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-143">Permet de sélectionner l’unité, soit <strong>Jour</strong> soit <strong>Mois</strong>, utilisée pour définir la période dans le champ <strong>Intervalle</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b94f-143">Select the unit, either <strong>Day</strong> or <strong>Month</strong>, that is used to define the period in the <strong>Interval</strong> field.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-144"><strong>Sens d’impression</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-144"><strong>Printing direction</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-145">Sélectionnez si les soldes doivent être calculés et si l’état de plage âgée doit être imprimée pour des périodes passées et futures.</span><span class="sxs-lookup"><span data-stu-id="9841d-145">Select whether to calculate balances and print the aging report for past or future periods.</span></span> <span data-ttu-id="9841d-146">Les dates sont évaluées par rapport à la date sélectionnée dans le champ <strong>Solde à la date</strong>.</span><span class="sxs-lookup"><span data-stu-id="9841d-146">The dates are evaluated relative to the date that is selected in the <strong>Balance as on</strong> field.</span></span> <span data-ttu-id="9841d-147">Sélectionnez <strong>En arrière</strong> pour afficher les informations pour les périodes passées.</span><span class="sxs-lookup"><span data-stu-id="9841d-147">Select <strong>Backward</strong> to show information for past periods.</span></span> <span data-ttu-id="9841d-148">Sélectionnez <strong>En avant</strong> pour afficher les informations pour les périodes futures.</span><span class="sxs-lookup"><span data-stu-id="9841d-148">Select <strong>Forward</strong> to show information for future periods.</span></span></p>
-<div class="alert"><span data-ttu-id="9841d-149">
+<td><p><span data-ttu-id="3b94f-144"><strong>Sens d’impression</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-144"><strong>Printing direction</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-145">Sélectionnez si les soldes doivent être calculés et si l’état de plage âgée doit être imprimée pour des périodes passées et futures.</span><span class="sxs-lookup"><span data-stu-id="3b94f-145">Select whether to calculate balances and print the aging report for past or future periods.</span></span> <span data-ttu-id="3b94f-146">Les dates sont évaluées par rapport à la date sélectionnée dans le champ <strong>Solde à la date</strong>.</span><span class="sxs-lookup"><span data-stu-id="3b94f-146">The dates are evaluated relative to the date that is selected in the <strong>Balance as on</strong> field.</span></span> <span data-ttu-id="3b94f-147">Sélectionnez <strong>En arrière</strong> pour afficher les informations pour les périodes passées.</span><span class="sxs-lookup"><span data-stu-id="3b94f-147">Select <strong>Backward</strong> to show information for past periods.</span></span> <span data-ttu-id="3b94f-148">Sélectionnez <strong>En avant</strong> pour afficher les informations pour les périodes futures.</span><span class="sxs-lookup"><span data-stu-id="3b94f-148">Select <strong>Forward</strong> to show information for future periods.</span></span></p>
+<div class="alert"><span data-ttu-id="3b94f-149">
   
-<STRONG>Remarque :</STRONG> les informations entrées dans ce champ ne sont utilisées que si vous n’avez pas sélectionné de définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="9841d-149">
+<STRONG>Remarque :</STRONG> les informations entrées dans ce champ ne sont utilisées que si vous n’avez pas sélectionné de définition de plage âgée.</span><span class="sxs-lookup"><span data-stu-id="3b94f-149">
   
 <STRONG>Note:</STRONG> The information that you enter in this field is used only if you have not selected an aging period definition.</span></span></P>
 
@@ -124,24 +122,24 @@ ms.locfileid: "5236984"
 </div></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-150"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-150"><strong>Details</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-151">Sélectionnez cette option pour répertorier les transactions comprises dans les soldes affichés dans l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-151">Select to list the transactions that are included in the balances that are shown on the report.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-150"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-150"><strong>Details</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-151">Sélectionnez cette option pour répertorier les transactions comprises dans les soldes affichés dans l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-151">Select to list the transactions that are included in the balances that are shown on the report.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-152"><strong>Inclure les montants en devise de transaction</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-152"><strong>Include amounts in transaction currency</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-153">Sélectionnez cette option pour inclure les montants dans la devise de transaction, en plus des montants dans la devise comptable.</span><span class="sxs-lookup"><span data-stu-id="9841d-153">Select to include amounts in the transaction currency in addition to amounts in the accounting currency.</span></span> <span data-ttu-id="9841d-154">Si cette case à cocher n’est pas activée, les montants de l’état ne sont affichés que dans la devise comptable.</span><span class="sxs-lookup"><span data-stu-id="9841d-154">If this check box is not selected, the amounts on the report are displayed only in the accounting currency.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-152"><strong>Inclure les montants en devise de transaction</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-152"><strong>Include amounts in transaction currency</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-153">Sélectionnez cette option pour inclure les montants dans la devise de transaction, en plus des montants dans la devise comptable.</span><span class="sxs-lookup"><span data-stu-id="3b94f-153">Select to include amounts in the transaction currency in addition to amounts in the accounting currency.</span></span> <span data-ttu-id="3b94f-154">Si cette case à cocher n’est pas activée, les montants de l’état ne sont affichés que dans la devise comptable.</span><span class="sxs-lookup"><span data-stu-id="3b94f-154">If this check box is not selected, the amounts on the report are displayed only in the accounting currency.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-155"><strong>Solde négatif</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-155"><strong>Negative balance</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-156">Sélectionnez pour inclure les comptes client qui ont des soldes négatifs.</span><span class="sxs-lookup"><span data-stu-id="9841d-156">Select to include customer accounts that have negative balances.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-155"><strong>Solde négatif</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-155"><strong>Negative balance</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-156">Sélectionnez pour inclure les comptes client qui ont des soldes négatifs.</span><span class="sxs-lookup"><span data-stu-id="3b94f-156">Select to include customer accounts that have negative balances.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9841d-157"><strong>Exclure les comptes à solde nul</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-157"><strong>Exclude zero balance accounts</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-158">Sélectionnez pour exclure les comptes client qui ont un solde nul.</span><span class="sxs-lookup"><span data-stu-id="9841d-158">Select to exclude customer accounts that have a zero balance.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-157"><strong>Exclure les comptes à solde nul</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-157"><strong>Exclude zero balance accounts</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-158">Sélectionnez pour exclure les comptes client qui ont un solde nul.</span><span class="sxs-lookup"><span data-stu-id="3b94f-158">Select to exclude customer accounts that have a zero balance.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9841d-159"><strong>Positionnement des paiements</strong></span><span class="sxs-lookup"><span data-stu-id="9841d-159"><strong>Payment positioning</strong></span></span></p></td>
-<td><p><span data-ttu-id="9841d-160">Sélectionnez pour afficher les paiements non réglés.</span><span class="sxs-lookup"><span data-stu-id="9841d-160">Select to display payments that have not been settled.</span></span> <span data-ttu-id="9841d-161">Ceux-ci sont affichés dans la première colonne de l’état.</span><span class="sxs-lookup"><span data-stu-id="9841d-161">These are displayed in the first column of the report.</span></span></p></td>
+<td><p><span data-ttu-id="3b94f-159"><strong>Positionnement des paiements</strong></span><span class="sxs-lookup"><span data-stu-id="3b94f-159"><strong>Payment positioning</strong></span></span></p></td>
+<td><p><span data-ttu-id="3b94f-160">Sélectionnez pour afficher les paiements non réglés.</span><span class="sxs-lookup"><span data-stu-id="3b94f-160">Select to display payments that have not been settled.</span></span> <span data-ttu-id="3b94f-161">Ceux-ci sont affichés dans la première colonne de l’état.</span><span class="sxs-lookup"><span data-stu-id="3b94f-161">These are displayed in the first column of the report.</span></span></p></td>
 </tr>
 </tbody>
 </table>
