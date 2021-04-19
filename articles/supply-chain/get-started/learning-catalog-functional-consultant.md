@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 435b68af76d290a2b8b1f3bc9f3c4ff7f6626299
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 50ae26931ee648404a9def54c4772e991ac06682
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245225"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637310"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Catalogue d’apprentissage pour les consultants techniques de Dynamics 365 Supply Chain Management
 
@@ -30,7 +29,7 @@ Pour les consultants techniques, notre recherche d’analyse de tâche a montré
 
 ## <a name="get-started"></a>Mise en route<a name="get-started"></a>
 
-| Contenu| Description   | Format  | Longueur  |
+| Contenu| Description  | Format  | Longueur  |
 |---|---|---|---|
 | [Apprendre la valeur commerciale de Microsoft Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Souhaitez-vous en savoir plus sur les applications métier ? Peut-être que vous ne savez pas par où commencer avec Microsoft Dynamics 365 et les applications Power Platform ? Découvrez comment la puissance des applications d’entreprise peut aider à transformer votre entreprise. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7 heures |
 | [Principes fondamentaux de Dynamics 365 et Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Souhaitez-vous en savoir plus sur les applications métier ? Commencez ce parcours d’apprentissage pour voir comment les applications Dynamics 365 sont utilisées. Découvrez les concepts du cloud, Power Platform, et comment prendre en main les applications Dynamics 365. | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 5.5 heures |

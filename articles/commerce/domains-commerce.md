@@ -2,11 +2,9 @@
 title: Domaines dans Dynamics 365 Commerce
 description: Cette rubrique décrit comment les domaines sont gérés dans Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225787"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792797"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domaines dans Dynamics 365 Commerce
 
@@ -40,7 +38,7 @@ Lors de l’approvisionnement d’un environnement d’e-commerce dans [Microsof
 
 L’illustration suivante montre l’écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôtes pris en charge** en surbrillance. 
 
-![Écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôte pris en charge** en surbrillance](./media/Domains_ProvisioningeCommerceScreen.png)
+![Écran d’approvisionnement d’e-commerce LCS avec la zone **Noms d’hôte pris en charge** en surbrillance](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Vous pouvez créer une demande de service pour ajouter des domaines supplémentaires à un environnement si l’approvisionnement a déjà eu lieu. Pour créer une demande de service dans LCS, dans votre environnement, accédez à **Support \> Problèmes de support** et sélectionnez **Soumettre un incident**.
 

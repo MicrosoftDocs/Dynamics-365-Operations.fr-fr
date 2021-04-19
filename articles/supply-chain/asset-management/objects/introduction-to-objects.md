@@ -1,12 +1,10 @@
 ---
 title: Présentation des actifs
 description: Cette rubrique donne une vue d’ensemble des actifs dans Gestion des actifs.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afdb9b3ba1130727235f931437f617dff4fa6d21
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 91c4ad4a96ce94c911066604794420c335a491b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253252"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808566"
 ---
 # <a name="introduction-to-assets"></a>Présentation des actifs
 
@@ -44,7 +42,7 @@ Les boutons du volet Actions sont organisés sur les onglets. Le tableau suivant
 
 | Nom du bouton          | Description                                                                                                                                                       |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Modifier                  | Modification de l’actif sélectionné.                                                                                                                                         |
+| Modifier                 | Modification de l’actif sélectionné.                                                                                                                                         |
 | Nouveau                  | Création d’un actif.                                                                                                                                                |
 | Retirer               | Suppression de l’actif sélectionné.                                                                                                                                       |
 | Déplacer l’actif           | Déplacement des actifs vers une autre structure d’actif, ou vers un autre emplacement dans la même structure d’actif.                                                                                         |

@@ -2,11 +2,9 @@
 title: Analyse des performances de magasin
 description: Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Dynamics 365 Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailChannelReport, RetailChannelManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aced862e279135e25ca7380b746ae19b97227d10
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d70012051ebd78913be17ad359714f81fa137b7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234243"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795283"
 ---
 # <a name="analyze-store-performance"></a>Analyse des performances de magasin
 
@@ -31,7 +29,7 @@ ms.locfileid: "5234243"
 
 Cet article détaille la manière dont vous pouvez utiliser les analyses en mémoire et en temps réel pour accéder, explorer et obtenir un aperçu des performances des magasins, selon vos données Dynamics 365 Commerce.
 
-Dans le cadre de Retail, les utilisateurs peuvent étudier les performances d'un magasin en temps réel entre différents niveaux de la hiérarchie d'organisation sur une période sélectionnée en ouvrant l'état **Synthèse du canal** à partir de l'un des emplacements suivants :
+Dans le cadre de Retail, les utilisateurs peuvent étudier les performances d’un magasin en temps réel entre différents niveaux de la hiérarchie d’organisation sur une période sélectionnée en ouvrant l’état **Synthèse du canal** à partir de l’un des emplacements suivants :
 
 - Espace de travail **Gestion du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Gestion du magasin de vente au détail** &gt; **États** &gt; **État de synthèse du canal**
 - Espace de travail **Finances du magasin de vente au détail** &gt; **Vente au détail** &gt; **Canaux** &gt; **Finances du magasin de vente au détail** &gt; **États** &gt; **État de synthèse du canal**

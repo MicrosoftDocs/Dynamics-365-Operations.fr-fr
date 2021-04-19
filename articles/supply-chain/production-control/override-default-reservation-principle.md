@@ -2,11 +2,9 @@
 title: Remplacer le principe de réservation par défaut pour les articles en production
 description: Cette rubrique décrit comment définir un principe de réservation par défaut pour chaque groupe de modèles d’article, afin que différents principes de réservation puissent être automatiquement appliqués pour chaque article faisant partie d’une nomenclature de production ou d’une formule de commande par lots.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501100"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814800"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Remplacer le principe de réservation par défaut pour les articles en production
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 La fonctionnalité *Remplacer la réservation de production par défaut* vous permet de définir un principe de réservation par défaut pour chaque groupe de modèles d’article. Par conséquent, différents principes de réservation peuvent être automatiquement appliqués pour chaque article faisant partie d’une nomenclature de production ou d’une formule de commande par lots. Vous pouvez choisir si chaque groupe de modèles d’article doit remplacer le principe de réservation par défaut défini pour une commande, et quel principe de réservation doit être utilisé à la place (*manuel*, *estimation*, *planification*, *lancement* ou *démarrage*).
 

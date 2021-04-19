@@ -2,11 +2,9 @@
 title: Ajouter une icône de favori
 description: Cette rubrique explique comment ajouter une icône de favori à votre site.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 786ba02c312b7cdb3cf7f0689737084887d536bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206341"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797717"
 ---
 # <a name="add-a-favicon"></a>Ajouter une icône de favori
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique explique comment ajouter une icône de favori à votre site.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Une icône de favori est un petit fichier graphique affiché sous un onglet du navigateur web, dans la barre d’adresse, dans l’historique de navigation, et dans les signets ou les favoris, entre autres. Nous vous recommandons d’ajouter une icône de favori à votre site, car elle représente et renforce votre marque, et aide à distinguer votre site d’autres sites que vos clients visitent.
 

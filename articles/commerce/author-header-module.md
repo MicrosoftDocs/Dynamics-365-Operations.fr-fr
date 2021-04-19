@@ -2,11 +2,9 @@
 title: Module d’en-tête
 description: Cette rubrique couvre les modules d’en-tête et décrit comment créer des en-têtes de page dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 569fb5ac3d30be30044ef9b928ecf1f6dde20aab
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211422"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799907"
 ---
 # <a name="header-module"></a>Module En-tête
 
@@ -57,12 +55,12 @@ Les modules suivants peuvent être utilisés dans un module d’en-tête :
 
 - **Sélecteur de site** - Le module de sélecteur de site permet aux utilisateurs de parcourir différents sites prédéfinis, en fonction du marché, des régions et des paramètres régionaux. Pour plus d’informations, voir [Module Sélecteur de site](site-selector.md).
 
-- **Sélecteur de magasin** - Le module de sélecteur de magasin peut être inclus dans l'emplacement de sélecteur de magasin d'un module d'en-tête. Il permet aux utilisateurs de parcourir et de trouver des magasins à proximité. Les utilisateurs peuvent également spécifier un magasin préféré. Ce magasin sera alors affiché dans l'en-tête. Lorsque le module de sélecteur de magasin est inclus dans le module d'en-tête, sa propriété **Mode** doit être définie sur **Rechercher des magasins**. Pour plus d’informations, voir [Module Sélecteur de magasin](store-selector.md).
+- **Sélecteur de magasin** - Le module de sélecteur de magasin peut être inclus dans l’emplacement de sélecteur de magasin d’un module d’en-tête. Il permet aux utilisateurs de parcourir et de trouver des magasins à proximité. Les utilisateurs peuvent également spécifier un magasin préféré. Ce magasin sera alors affiché dans l’en-tête. Lorsque le module de sélecteur de magasin est inclus dans le module d’en-tête, sa propriété **Mode** doit être définie sur **Rechercher des magasins**. Pour plus d’informations, voir [Module Sélecteur de magasin](store-selector.md).
 
 > [!NOTE]
-> - La prise en charge de l'utilisation du module d'icônes de panier dans les modules d'en-tête est disponible dans Dynamics 365 Commerce Version 10.0.11.
-> - La prise en charge de l'utilisation du module de sélecteur de site dans les modules d'en-tête est disponible dans Dynamics 365 Commerce Version 10.0.14.
-> - La prise en charge de l'utilisation du module de sélecteur de magasin dans les modules d'en-tête est disponible dans Dynamics 365 Commerce Version 10.0.15.
+> - La prise en charge de l’utilisation du module d’icônes de panier dans les modules d’en-tête est disponible dans Dynamics 365 Commerce Version 10.0.11.
+> - La prise en charge de l’utilisation du module de sélecteur de site dans les modules d’en-tête est disponible dans Dynamics 365 Commerce Version 10.0.14.
+> - La prise en charge de l’utilisation du module de sélecteur de magasin dans les modules d’en-tête est disponible dans Dynamics 365 Commerce Version 10.0.15.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Créer un fragment d’en-tête pour une page
 

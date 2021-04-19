@@ -1,12 +1,10 @@
 ---
-title: Vue d'ensemble de la gestion des actifs numériques
+title: Vue d’ensemble de la gestion des actifs numériques
 description: Cette rubrique fournit une vue d’ensemble des pages de gestion des actifs numériques dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b5e134c70ad81876beacd38eb58442d3784d57d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 46a61db1add12bb90f3915cf0390dc78c8dce033
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222503"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799275"
 ---
 # <a name="digital-asset-management-overview"></a>Vue d’ensemble de la gestion des actifs numériques
 
@@ -30,21 +28,19 @@ ms.locfileid: "5222503"
 
 Cette rubrique fournit une vue d’ensemble des pages de gestion des actifs numériques dans le générateur de site Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Vue d’ensemble
-
 La bibliothèque multimédia du générateur de site Dynamics 365 Commerce propose une riche fonctionnalité de gestion des actifs numériques, notamment la prise en charge des éléments suivants :
-- Données d'image
+- Données d’image
 - Éléments vidéo
-- Autres types d'actifs binaires, tels que les documents Office et les fichiers PDF
+- Autres types d’actifs binaires, tels que les documents Office et les fichiers PDF
 - Images localisées
 - Téléchargements de dossier
-- Rognage d'images
-- Personnalisation des points focaux de l'image
-- Ressources d'image omnicanal (images de produit, variantes de produit, catalogue, catégorie, collaborateur et client)
+- Rognage d’images
+- Personnalisation des points focaux de l’image
+- Ressources d’image omnicanal (images de produit, variantes de produit, catalogue, catégorie, collaborateur et client)
 
-Les actifs numériques sont spécifiques aux canaux, à l'exception des actifs omnicanaux, qui sont par défaut à l'échelle de l'environnement. 
+Les actifs numériques sont spécifiques aux canaux, à l’exception des actifs omnicanaux, qui sont par défaut à l’échelle de l’environnement. 
 
-Les actifs numériques et les fonctionnalités de gestion sont situés dans le générateur de site sous **Bibliothèque multimédia** dans le volet de navigation gauche d'un site.
+Les actifs numériques et les fonctionnalités de gestion sont situés dans le générateur de site sous **Bibliothèque multimédia** dans le volet de navigation gauche d’un site.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -1,12 +1,10 @@
 ---
 title: Surveiller les performances des ventes et des marges
-description: Vous pouvez surveiller les performances des ventes et des marges en temps réel à l'aide de Dynamics 365 Commerce.
+description: Vous pouvez surveiller les performances des ventes et des marges en temps réel à l’aide de Dynamics 365 Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailSales
 audience: Application User
@@ -18,20 +16,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4d8d6a99e0ed3f331051d504e3a1ce2bd403cc17
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a7ea2bd9388e2fcfc6ae5f17d61054092cbac58c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251305"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796944"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>Surveiller les performances des ventes et des marges
 
 [!include [banner](includes/banner.md)]
 
-Vous pouvez surveiller les performances des ventes et des marges en temps réel à l'aide de Dynamics 365 Commerce.
+Vous pouvez surveiller les performances des ventes et des marges en temps réel à l’aide de Dynamics 365 Commerce.
 
-Dans le cadre de Commerce, les utilisateurs peuvent surveiller les performances des ventes et des marges en temps réel entre différents niveaux de la hiérarchie d'organisation pour les dimensions suivantes :
+Dans le cadre de Commerce, les utilisateurs peuvent surveiller les performances des ventes et des marges en temps réel entre différents niveaux de la hiérarchie d’organisation pour les dimensions suivantes :
 
 - Produits
 - Catégories
@@ -42,7 +40,7 @@ Dans le cadre de Commerce, les utilisateurs peuvent surveiller les performances 
 - Clients
 - Unités opérationnelles
 
-En outre, deux états uniques qui tirent profit d'une structuration de la grille hiérarchique permettent aux utilisateurs de contrôler les performances des ventes et des marges en descendant dans la hiérarchie des catégories de produits par défaut, du nœud de catégorie supérieur jusqu'à chaque nœud terminal de catégorie. Les utilisateurs peuvent également descendre dans la hiérarchie d'organisation définie en tant que hiérarchie d'organisation par défaut pour la génération d'états, de l'unité opérationnelle supérieure vers chaque canal. Vous pouvez ouvrir ces états à partir de tous les emplacements suivants :
+En outre, deux états uniques qui tirent profit d’une structuration de la grille hiérarchique permettent aux utilisateurs de contrôler les performances des ventes et des marges en descendant dans la hiérarchie des catégories de produits par défaut, du nœud de catégorie supérieur jusqu’à chaque nœud terminal de catégorie. Les utilisateurs peuvent également descendre dans la hiérarchie d’organisation définie en tant que hiérarchie d’organisation par défaut pour la génération d’états, de l’unité opérationnelle supérieure vers chaque canal. Vous pouvez ouvrir ces états à partir de tous les emplacements suivants :
 
 - Espace de travail **Gestion du magasin** &gt; **Retail et Commerce** &gt; **Canaux** &gt; **Gestion du magasin** &gt; **États**
 - Espace de travail **Gestion des catégories et des produits** &gt; **Retail et Commerce** &gt; **Produit et catégories** &gt; **Gestion du magasin** &gt; **États**

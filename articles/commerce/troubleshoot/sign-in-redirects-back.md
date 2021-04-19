@@ -2,7 +2,6 @@
 title: Le lien de connexion redirige vers un site d’e-commerce
 description: Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsqu’un lien de connexion redirige vers le site d’e-commerce au lieu d’accéder à la page de connexion.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 36f10c9f68570a6c67da6b4b6e4155f4634f633a
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: ee2ac8636dad8d31719971b2cc17c8b923f07959
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585313"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801457"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Le lien de connexion redirige vers un site d’e-commerce
 
@@ -30,7 +29,7 @@ ms.locfileid: "5585313"
 
 Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsqu’un lien de connexion redirige vers le site d’e-commerce au lieu d’accéder à la page de connexion.
 
-## <a name="description"></a>Description 
+## <a name="description"></a>Description
 
 Après avoir configuré un nouveau locataire Microsoft Azure Active Directory B2C (Azure AD B2C) dans le générateur de site Commerce, les utilisateurs qui sélectionnent le lien **Connexion** sont redirigés vers la page de destination principale e-commerce sans accéder à la page de connexion.
 

@@ -2,11 +2,9 @@
 title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205120"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798631"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
@@ -64,7 +62,7 @@ L’image suivante montre un exemple de module du sélecteur de magasins utilis�
 ![Exemple d’un module du sélecteur de magasins utilisé sur un PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Dans la version 10.0.16 et ultérieure, une nouvelle fonctionnalité peut être activée qui permet à une organisation de définir plusieurs modes de ramassage d'options de livraison pour les clients.  Si cette fonctionnalité est activée, le sélecteur de magasin et d'autres modules d'e-commerce seront améliorés pour permettre à l'acheteur de choisir parmi plusieurs options de livraison de ramassage potentielles si elles sont configurées.  Pour en savoir plus sur cette fonctionnalité, reportez-vous à [cette documentation](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Dans la version 10.0.16 et ultérieure, une nouvelle fonctionnalité peut être activée qui permet à une organisation de définir plusieurs modes de ramassage d’options de livraison pour les clients.  Si cette fonctionnalité est activée, le sélecteur de magasin et d’autres modules d’e-commerce seront améliorés pour permettre à l’acheteur de choisir parmi plusieurs options de livraison de ramassage potentielles si elles sont configurées.  Pour en savoir plus sur cette fonctionnalité, reportez-vous à [cette documentation](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Mode Recherche de magasins
 
@@ -72,7 +70,7 @@ Le module de sélection de magasin prend également en charge un mode **Recherch
 
 L’illustration suivante montre un exemple de module de sélection de magasin utilisé avec un module de carte sur une page d’emplacements de magasin.
 
-![Exemple d'un module de sélection de magasin et d'un module de carte sur une page d'emplacements de magasin](./media/ecommerce-Storelocator.PNG)
+![Exemple d’un module de sélection de magasin et d’un module de carte sur une page d’emplacements de magasin](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Afficher une carte
 

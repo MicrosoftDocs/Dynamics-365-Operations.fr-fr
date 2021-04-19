@@ -2,11 +2,9 @@
 title: Mettre au mur - Mettre en magasin
 description: Cette rubrique fournit des informations sur la fonctionnalité Mettre au mur - Mettre en magasin. Cette fonctionnalité vous permet de gérer des scénarios dans lesquels vous devez regrouper un produit dans une zone de préparation à l’emballage, en fonction de critères configurables. Elle accélère le prélèvement car elle permet de sélectionner un seul contenant cible et peut utiliser plus de positions de placement que le prélèvement de groupement.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823285"
 ---
 # <a name="put-to-wall---put-to-store"></a>Mettre au mur - Mettre en magasin
 
@@ -524,7 +522,7 @@ Maintenant que tout le stock a été placé à l’emplacement de tri, il doit �
 
 Si les positions de tri doivent être fermées manuellement, l’option **Fermer automatiquement la position de tri** pour le modèle de tri sortant doit être définie sur *Non*, et la fermeture doit être effectuée avant que le stock ne puisse être déplacé vers la zone de la porte de la baie. Il est possible de fermer les positions de différentes manières :
 
-- Via l’application d’entrepôt :
+- Via l’application mobile Gestion des entrepôts :
 
     - L’utilisateur peut scanner l’un des articles qui sont déjà sur la position, puis sélectionner **Fermer** pour fermer la position.
     - Si l’utilisateur scanne un conteneur qui a déjà été trié, un message d’erreur s’affiche. Cependant, l’utilisateur peut continuer à fermer la position.

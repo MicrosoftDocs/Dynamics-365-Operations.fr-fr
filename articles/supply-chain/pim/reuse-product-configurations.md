@@ -2,11 +2,9 @@
 title: Réutiliser des configurations de produit
 description: Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu’un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l’utilisateur existe déjà. Si une configuration correspondante est trouvée, l’ID configuration, la nomenclature correspondante et la gamme sont réutilisés.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21dc25b878ff65b57b060fe3d74b5d120fa4b5cd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260597"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812785"
 ---
 # <a name="reuse-product-configurations"></a>Réutiliser des configurations de produit
 

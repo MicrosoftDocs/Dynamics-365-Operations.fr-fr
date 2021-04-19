@@ -2,11 +2,9 @@
 title: Déclarer comme terminé à partir du périphérique de bon de travail
 description: Cette rubrique décrit comment configurer le système afin que les utilisateurs d’un périphérique de bon de travail puissent déclarer les produits finis depuis un ordre de fabrication vers le stock.
 author: johanhoffmann
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262139"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811628"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Déclarer comme terminé à partir du périphérique de bon de travail
 
@@ -64,7 +62,7 @@ Le périphérique de bon de travail prend en charge trois scénarios pour la dé
 Pour permettre aux périphériques de bon de travail d’accepter un numéro de lot lors de la déclaration de fin, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes (dans cet ordre) :
 
 1. Amélioration de l’expérience utilisateur pour la boîte de dialogue Connaître l’état de progression dans le périphérique des bons de travail
-1. Permet d’entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique de bons de travail (version préliminaire)
+1. Ce bouton permet d’entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique de bons de travail
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Configurer les produits qui nécessitent un rapport de numéro de lot
 
@@ -142,7 +140,7 @@ Le périphérique de bon de travail prend en charge trois scénarios pour la dé
 Pour permettre aux périphériques de bon de travail d’accepter un numéro de série lors de la déclaration de fin, vous devez utiliser la [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités suivantes (dans cet ordre) :
 
 1. Amélioration de l’expérience utilisateur pour la boîte de dialogue Connaître l’état de progression dans le périphérique des bons de travail
-1. Permet d’entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique de bons de travail (version préliminaire)
+1. Ce bouton permet d’entrer des numéros de lot et de série lors de la déclaration de fin à partir du périphérique de bons de travail
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Configurer les produits qui nécessitent un rapport de numéro de série
 

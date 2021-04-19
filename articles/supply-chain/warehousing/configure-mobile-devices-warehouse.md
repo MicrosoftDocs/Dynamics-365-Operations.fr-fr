@@ -2,11 +2,9 @@
 title: Configuration des appareils mobiles pour le travail d’entrepôt
 description: Cette rubrique décrit la procédure de configuration des éléments de menu utilisés par les magasiniers pour effectuer le travail nécessaire sur un appareil mobile.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232981"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808796"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d’entrepôt
 
@@ -64,7 +62,7 @@ Si le champ **Mode** d’une option de menu est défini sur **Indirect**, vous p
 | Effacer le cache de souche de numéros | Supprimer les numéros de souche du cache de souche de numéros. Cette activité est généralement exécutée par un administrateur système pour résoudre les problèmes de mise en cache lors de l’utilisation d’appareils mobiles. |
 | Modifier la disposition de traitement par lots | Permettre à un collaborateur de spécifier le code disposition de lot d’un article et d’un lot. Cette sélection met à jour le code disposition spécifié pour le lot. |
 | Afficher la liste des travaux en cours | Afficher la liste des travaux disponibles à un utilisateur donné. L’utilisateur peut ensuite sélectionner le travail à effectuer et être dirigé vers celui-ci. Cette liste peut être affichée sur les tablettes dont la taille d’écran est d’au moins 7 pouces. Lorsque vous sélectionnez cette option, les options de menu **Modifier la requête** et **Liste de champs** deviennent disponibles. La page **Modifier la requête** permet de paramétrer les critères pour le travail qui s’affiche dans la liste. La page **Liste de champs** permet de sélectionner les champs qui s’affichent dans la liste des travaux. Par exemple, vous pouvez réduire le nombre de champs qui s’affichent pour permettre à l’utilisateur de sélectionner plus rapidement l’élément de travail le plus approprié. Dans le raccourci **Général**, dans le champ **Enregistrements par page**, vous pouvez également sélectionner le nombre d’enregistrements de travail visibles par page. Si l’option **Autoriser les utilisateurs à filtrer le travail par type de transaction** est sélectionnée, la liste des travaux inclut un contrôle supplémentaire **Filtrer le travail** qui permet à l’utilisateur de filtrer le travail par type de transaction. Dans la liste des travaux, seul le travail auquel les utilisateurs sont autorisés à accéder est visible. Vous devez vous assurer que les utilisateurs disposent d’autorisations pour une ou plusieurs options de menu dirigées par l’utilisateur qui prennent en charge les types de classe de travail spécifiques auxquels ils doivent pouvoir accéder. Les autorisations sont vérifiées lorsqu’un utilisateur tente d’effectuer un travail de la liste.|
-| Créer un ordre de transfert à partir des contenants | Permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l’application d’entreposage. Les magasiniers commencent par sélectionner l’entrepôt de destination et peuvent ensuite analyser un ou plusieurs contenants à l’aide de l’application. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l’ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants. Pour plus d’informations, voir [Créer des ordres de transfert depuis l’application d’entreposage](create-transfer-order-from-warehouse-app.md)
+| Créer un ordre de transfert à partir des contenants | Permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l’application mobile Gestion des entrepôts. Les magasiniers commencent par sélectionner l’entrepôt de destination et peuvent ensuite analyser un ou plusieurs contenants à l’aide de l’application. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l’ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants. Pour plus d’informations, voir [Créer des ordres de transfert depuis l’application d’entreposage](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurer des options de menu pour créer un travail pour un autre collaborateur ou un autre processus

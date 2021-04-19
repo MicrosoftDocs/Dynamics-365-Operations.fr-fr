@@ -2,11 +2,9 @@
 title: Présentation des paiements omnicanaux
 description: Cette rubrique fournit une vue d’ensemble des paiements omnicanaux dans Dynamics 365 Commerce.
 author: rubendel
-manager: AnnBe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 3fe64dad3c60560363428d76566d910868b87111
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244909"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791124"
 ---
 # <a name="omni-channel-payments-overview"></a>Présentation des paiements omnicanaux
 
@@ -93,7 +91,7 @@ Les scénarios de paiement omnicanaux suivants sont pris en charge :
 - Acheter dans un magasin A, expédier au client
 
     > [!NOTE]
-    > Les paiements effectués dans le centre d'appels qui correspondent à la fonction de paiement "Normal" doivent être marqués comme **Prépayer** = **Oui** pour être reflétés dans le montant dû lors du rappel de la commande dans le PDV. Les paiements sans prépaiement de type "Normal" ne sont pas reconnus lors du rappel de la commande dans le PDV. 
+    > Les paiements effectués dans le centre d’appels qui correspondent à la fonction de paiement "Normal" doivent être marqués comme **Prépayer** = **Oui** pour être reflétés dans le montant dû lors du rappel de la commande dans le PDV. Les paiements sans prépaiement de type "Normal" ne sont pas reconnus lors du rappel de la commande dans le PDV. 
 
 Des variations de ces scénarios sont également prises en charge. Par exemple, une commande en ligne peut inclure des lignes qui seront expédiées au client et des lignes qui sont prélevées dans un magasin. Toutes les options d’exécution de commande sont prises en charge par les paiements omnicanaux. 
 
@@ -193,7 +191,7 @@ Procédez comme suit pour exécuter le scénario.
 3. Ajoutez une ou plusieurs ligne à la transaction.
 4. Sélectionnez **Commandes** pour afficher les options de commande.
 5. Sélectionnez **Expédier tout** et, lorsque vous y êtes invité, sélectionnez **Commande client**.
-6. Dans la page du mode d'expédition, sélectionnez **Standard jour suivant**, puis sélectionnez **OK** pour accepter la date du jour comme date d'expédition. 
+6. Dans la page du mode d’expédition, sélectionnez **Standard jour suivant**, puis sélectionnez **OK** pour accepter la date du jour comme date d’expédition. 
 7. Sélectionnez **OK** pour accepter la date actuelle comme date de prélèvement.
 8. Sélectionner **Carte de paiement** pour initier le paiement.
 9. Entrez le paiement par carte pour le montant dû pour l’acompte. 

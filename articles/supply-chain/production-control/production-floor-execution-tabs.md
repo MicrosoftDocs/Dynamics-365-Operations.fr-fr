@@ -2,11 +2,9 @@
 title: Concevoir l’interface d’exécution de l’atelier de production
 description: Cette rubrique décrit comment concevoir le contenu de l’interface utilisateur pour chaque configuration.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501028"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814678"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Concevoir l’interface d’exécution de l’atelier de production
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Vous pouvez concevoir le contenu de l’interface utilisateur pour chaque configuration utilisée par l’interface d’exécution de l’atelier de production. Par exemple, les collaborateurs d’une cellule de travail peuvent avoir besoin de pouvoir ouvrir des instructions de travail dans l’atelier de production, tandis que dans une autre cellule de travail, les instructions ne sont pas nécessaires. Dans ce cas, deux configurations doivent être créées, l’une avec un bouton pour ouvrir les pièces jointes et l’autre sans ce bouton.
 

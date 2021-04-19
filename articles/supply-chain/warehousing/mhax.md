@@ -2,7 +2,6 @@
 title: Interface de l’équipement de manutention du matériel (MHAX)
 description: Cette rubrique décrit comment configurer l’Interface de l’équipement de manutention du matériel (MHAX) afin que vous puissiez vous connecter à des systèmes de manutention physique (MH) externes.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571840"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810508"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface de l’équipement de manutention du matériel (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Vous pouvez utiliser *l’interface d’équipement de manutention de matériel* (MHAX) pour connecter des systèmes de manutention physique (MH) externes à un entrepôt géré par la gestion avancée des entrepôts (WMS) dans Microsoft Dynamics 365 Supply Chain Management. L’interface entre les systèmes WMS et MH se compose de deux files d’attente : une pour les événements sortants (WMS vers MH) et une pour les événements entrants (MH vers WMS). Le système WMS génère des événements sortants basés sur des lignes de travail créées lors de divers processus de création et d’exécution de travaux. Le système MH interroge ensuite régulièrement le système WMS à la recherche de nouveaux événements et traite les réponses. Une fois que le système MH a fini de traiter les événements conformément aux instructions de travail, il envoie des événements entrants, tels que l’achèvement de la ligne de travail et le prélèvement court.
 

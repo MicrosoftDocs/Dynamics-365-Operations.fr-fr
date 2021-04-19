@@ -2,11 +2,9 @@
 title: Poste de groupement complet
 description: Cette rubrique fournit des informations sur la fonctionnalité Poste de groupement complet. Cette fonctionnalité offre une alternative à une application plus rigide des règles de pause de travail lorsque le prélèvement de groupement est utilisé, car elle permet une plus grande marge d’erreur dans les contraintes volumétriques des conteneurs ou des bacs.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808844"
 ---
 # <a name="cluster-position-full"></a>Poste de groupement complet
 
@@ -213,7 +211,7 @@ Deux ID de travail doivent avoir été créés, chacun ayant deux lignes de pré
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Exécution du flux d’appareil mobile – Configuration de la confirmation de travail pour le produit
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *61*.
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur de l’entrepôt *61*.
 1. Aller à **Sortant \> Création de prélèvement de groupement**.
 
     La page **TÂCHE : Attribuer le travail au groupement** apparaît.

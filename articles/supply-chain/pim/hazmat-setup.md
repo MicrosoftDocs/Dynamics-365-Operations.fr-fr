@@ -2,11 +2,9 @@
 title: Paramétrer les matières dangereuses
 description: Cette rubrique explique comment configurer les données requises pour classer les articles en tant que matières dangereuses. Lorsque vous créez une commande client qui comprend un article classé comme matière dangereuse, le système génère une documentation sur les matières dangereuses pour cette commande client lors de son expédition.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0f0b706568048480cf5bf85cfcb4388666432212
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf323272926936ba6397a9f98cfff8d8a31d091
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266101"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820344"
 ---
 # <a name="set-up-hazardous-materials"></a>Paramétrer les matières dangereuses
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Pour utiliser la fonctionnalité de matières dangereuses, vous devez d’abord configurer les données requises pour classer les articles comme matières dangereuses. Ensuite, lorsque vous créez une commande client qui comprend un article classé comme matière dangereuse, le système génère une documentation sur les matières dangereuses pour cette commande client lors de son expédition.
 

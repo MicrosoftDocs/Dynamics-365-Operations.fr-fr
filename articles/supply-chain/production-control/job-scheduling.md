@@ -2,11 +2,9 @@
 title: Planification de tâche
 description: Cet article fournit des informations sur la planification des tâches, qui constitue une forme plus détaillée de planification que la planification d’opérations. La planification des tâches permet de programmer des tâches ou ordres d’atelier, et de contrôler l’environnement de fabrication.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c71f85cac11c4f11d63ba8f55932ec8f0520d924
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4ac3602d765a87cccff8bfb26db5b7b63cbccb8e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246115"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811724"
 ---
 # <a name="job-scheduling"></a>Planification de tâche
 
@@ -64,7 +62,7 @@ La planification des tâches planifie toutes les productions référencées par 
 Le moteur de planification examine les combinaisons de ressources pour identifier celles qui sont conformes aux demandes. Vous pouvez spécifier des critères de sélection en sélectionnant l’une des valeurs suivantes dans le champ **Sélection de ressource primaire** sur la page **Paramètres de planification** :
 
 -   **Durée** - Le moteur de planification sélectionne la ressource avec le délai le plus court. **Remarque :** La planification par durée peut réduire les performances lorsque le même groupe de ressources contient de nombreuses ressources et que des opérations secondaires sont utilisées. Vous pouvez planifier un nombre maximal de 32 ressources par opération. Si vous dépassez cette quantité, un message Infos s’affiche et le système de planification des tâches ne trouve pas la meilleure ressource de remplacement.
--   **Priorité** -  Le moteur de planification sélectionne la ressource dotée de la priorité la plus élevée lorsqu’au moins deux ressources ont des capacités et des niveaux identiques. La ressource dont la valeur numérique est la plus basse dans ce champ a la priorité la plus élevée.
+-   **Priorité** - Le moteur de planification sélectionne la ressource dotée de la priorité la plus élevée lorsqu’au moins deux ressources ont des capacités et des niveaux identiques. La ressource dont la valeur numérique est la plus basse dans ce champ a la priorité la plus élevée.
 
 Lors de l’exécution de la planification des tâches, le système planifie les ressources sur la base des limites définies dans les paramètres de ressource. Vous pouvez contrôler la capacité des ressources à l’aide des paramètres de calendrier. Le système calcule les charges relatives aux ressources lors du processus de planification. **Remarque :** Pour les productions utilisant la fonction d’ordonnancement, vous pouvez exécuter la planification des tâches après l’ordonnancement. Si vous n’utilisez pas l’ordonnancement, vous pouvez exécuter la planification des tâches seule.
 

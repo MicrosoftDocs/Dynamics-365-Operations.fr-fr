@@ -2,11 +2,9 @@
 title: Suivi des articles et des matières premières dans le stock, la production et les ventes
 description: Cette rubrique décrit la manière dont vous pouvez utiliser le suivi d’article pour identifier où les articles ou les matières premières ont été, sont ou seront utilisés dans les processus de production et de vente.
 author: perlynne
-manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab690d24f05779fdb6924794ad77c5183705a88e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7c809962b120832fd340d9970b234ce1e087fcf0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244229"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808086"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Suivi des articles et des matières premières dans le stock, la production et les ventes
 

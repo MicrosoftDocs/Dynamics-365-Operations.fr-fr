@@ -2,11 +2,9 @@
 title: Sélectionner des dispositions de page
 description: Cette rubrique explique comment créer et sélectionner des dispositions de page dans Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22c5d0cba477ea7f254c3dfd74810cc248d39afe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a87128e3e6802781a89274d3f601b8ed4b1c7cd0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254743"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794089"
 ---
 # <a name="select-page-layouts"></a>Sélectionner des dispositions de page
 
@@ -33,32 +31,32 @@ Cette rubrique explique comment créer et sélectionner des dispositions de page
 ## <a name="create-layouts-for-an-existing-page"></a>Créer des dispositions pour une page existante
 
 > [!NOTE]
-> Vous pouvez créer des dispositions pour une existante uniquement si cette page a au moins deux modules dans l'emplacement principal.
+> Vous pouvez créer des dispositions pour une existante uniquement si cette page a au moins deux modules dans l’emplacement principal.
 
 Pour créer des dispositions pour la page existante, procédez comme suit.
 
 1. Accédez à **Pages**, puis recherchez la page existante dans la liste. Utilisez la fonctionnalité de recherche comme vous le souhaitez.
-1. Sélectionnez la page, cliquez sur **Edition** pour la consulter, puis sélectionnez le nom de la page pour l'ouvrir. Prenez note de l'ordre du module.
+1. Sélectionnez la page, cliquez sur **Edition** pour la consulter, puis sélectionnez le nom de la page pour l’ouvrir. Prenez note de l’ordre du module.
 1. Sélectionnez **Enregistrer comme nouvelle disposition**.
 1. Entrez un nom pour la disposition et sélectionnez **OK**.
 1. Sélectionnez **Convertir en disposition intégrée**.
-1. Modifiez l'ordre des modules comme vous le souhaitez, puis prenez note du nouvel ordre.
+1. Modifiez l’ordre des modules comme vous le souhaitez, puis prenez note du nouvel ordre.
 1. Sélectionnez **Enregistrer comme nouvelle disposition**.
 1. Entrez un nom pour la disposition et sélectionnez **OK**.
-1. Sélectionnez **Modifier la disposition**, sélectionnez la première disposition que vous avez créée, puis sélectionnez **OK**. Prenez note de l'ordre du module. Modifiez-la afin qu'elle corresponde à l'ordre de module qui a été enregistré avec la disposition.
+1. Sélectionnez **Modifier la disposition**, sélectionnez la première disposition que vous avez créée, puis sélectionnez **OK**. Prenez note de l’ordre du module. Modifiez-la afin qu’elle corresponde à l’ordre de module qui a été enregistré avec la disposition.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Sélectionner une disposition différente pour une page existante
 
 > [!NOTE]
-> Vous ne pouvez sélectionner une disposition différente pour une page existante que si le modèle utilisé pour créer cette page a plus d'une dispositions.
+> Vous ne pouvez sélectionner une disposition différente pour une page existante que si le modèle utilisé pour créer cette page a plus d’une dispositions.
 
 Pour sélectionner une disposition différente pour la page existante, procédez comme suit.
 
 1. Accédez à **Pages**, puis recherchez la page existante dans la liste. Utilisez la fonctionnalité de recherche comme vous le souhaitez.
-1. Sélectionnez la page, cliquez sur **Edition** pour la consulter, puis sélectionnez le nom de la page pour l'ouvrir.
+1. Sélectionnez la page, cliquez sur **Edition** pour la consulter, puis sélectionnez le nom de la page pour l’ouvrir.
 1. Sélectionner **Modifier la disposition**.
-1. Sélectionnez la nouvelle disposition de la page, puis sélectionnez **OK**. L'éditeur de page est actualisé pour afficher la nouvelle disposition.
+1. Sélectionnez la nouvelle disposition de la page, puis sélectionnez **OK**. L’éditeur de page est actualisé pour afficher la nouvelle disposition.
 1. Sélectionnez **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
@@ -77,7 +75,7 @@ Pour sélectionner une disposition différente pour la page existante, procédez
 
 [Vérifier l’accessibilité du contenu de la page](verify-accessibility.md)
 
-[Créer des pages e-commerce dynamiques basées sur des paramètres d'URL](create-dynamic-pages.md)
+[Créer des pages e-commerce dynamiques basées sur des paramètres d’URL](create-dynamic-pages.md)
 
 
 

@@ -1,12 +1,10 @@
 ---
-title: Création d’un site d'e-commerce
-description: Cette rubrique décrit les étapes et les informations requises pour créer un site d'e-commerce dans le générateur de site de Dynamics 365 Commerce.
+title: Création d’un site d’e-commerce
+description: Cette rubrique décrit les étapes et les informations requises pour créer un site d’e-commerce dans le générateur de site de Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,40 +16,40 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 465154ef7209547481c8598d5eaefb434359b1fd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 61fe44df7165780be2dd00be3f210ab2da05ddfe
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207972"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795785"
 ---
-# <a name="create-an-e-commerce-site"></a>Création d’un site d'e-commerce
+# <a name="create-an-e-commerce-site"></a>Création d’un site d’e-commerce
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit les étapes et les informations requises pour créer un site d'e-commerce dans le générateur de site de Dynamics 365 Commerce.
+Cette rubrique décrit les étapes et les informations requises pour créer un site d’e-commerce dans le générateur de site de Dynamics 365 Commerce.
 
-Lorsque vous utilisez sous licence les fonctionnalités Dynamics 365 Commerce, le générateur de site sera configuré avec un site de démarrage que vous pouvez utiliser comme base pour votre propre site. Toutefois, si vous souhaitez partir de zéro ou si vous souhaitez créer un deuxième site, vous devrez créer un nouveau site dans l'environnement de création de site. 
+Lorsque vous utilisez sous licence les fonctionnalités Dynamics 365 Commerce, le générateur de site sera configuré avec un site de démarrage que vous pouvez utiliser comme base pour votre propre site. Toutefois, si vous souhaitez partir de zéro ou si vous souhaitez créer un deuxième site, vous devrez créer un nouveau site dans l’environnement de création de site. 
 
 ## <a name="set-up-your-site"></a>Configurer votre site
 
 Pour paramétrer votre site, procédez comme suit.
 
-1. Ouvrez l'environnement du générateur de site. Vous pouvez trouver un lien vers le générateur de site dans Microsoft Lifecycle Services (LCS) sur la page des fonctionnalités d'environnement pour Commerce.
-1. Sur la page d'accueil de l'environnement de création de site, sélectionnez **Nouveau site**.
+1. Ouvrez l’environnement du générateur de site. Vous pouvez trouver un lien vers le générateur de site dans Microsoft Lifecycle Services (LCS) sur la page des fonctionnalités d’environnement pour Commerce.
+1. Sur la page d’accueil de l’environnement de création de site, sélectionnez **Nouveau site**.
 1. Dans la boîte de dialogue **Nouveau site**, fournissez les informations suivantes.
 
 | Champ                               | Description |
 |-------------------------------------|-------------|
-| Nom du site                           | Entrez le nom d'affichage qui doit être utilisé pour votre site dans l'environnement de création de site. Ce nom est visible uniquement dans l'environnement de création et n'est pas affiché aux clients. |
-| Groupe de sécurité de l'administrateur de site | Spécifiez le groupe de sécurité Microsoft Azure Active Directory (Azure AD) qui gère les utilisateurs qui disposent du rôle Administrateur de site dans ce site. |
-| Canal par défaut (numéro d’unité opérationnelle) | Sélectionnez le magasin en ligne auquel ce site sert de vitrine web. Si vous souhaitez que votre site d'e-commerce prenne en charge des magasins en ligne, vous devez associer les magasins à votre site dans **Paramètres du site** une fois le site paramétré. |
+| Nom du site                           | Entrez le nom d’affichage qui doit être utilisé pour votre site dans l’environnement de création de site. Ce nom est visible uniquement dans l’environnement de création et n’est pas affiché aux clients. |
+| Groupe de sécurité de l’administrateur de site | Spécifiez le groupe de sécurité Microsoft Azure Active Directory (Azure AD) qui gère les utilisateurs qui disposent du rôle Administrateur de site dans ce site. |
+| Canal par défaut (numéro d’unité opérationnelle) | Sélectionnez le magasin en ligne auquel ce site sert de vitrine web. Si vous souhaitez que votre site d’e-commerce prenne en charge des magasins en ligne, vous devez associer les magasins à votre site dans **Paramètres du site** une fois le site paramétré. |
 | Langue par défaut                            | Spécifiez la langue par défaut pour ces magasin et marché en ligne. Un magasin en ligne peut prendre en charge plusieurs langues. Si vous souhaitez prendre en charge plusieurs langues pour un ce magasin en ligne ou un magasin en ligne différent, vous pouvez configurer cette prise en charge dans **Paramètres du site** une fois le site paramétré.  |
-| Domaine                              | Sélectionnez un nom de domaine qui servira de domaine à ce magasin enligne. Si vous n'avez configuré aucun domaine dans LCS, vous pouvez laisser ce champ vide. Une fois votre domaine configuré dans LCS, vous devez l'ajouter à votre magasin en ligne dans **Paramètres du site**.  |
-| Chemin                              | Lorsque votre site prend en charge plusieurs langues pour un nom de domaine donné, utilisez le champ de chemin d'accès pour créer une seul URL de site pour cette combinaison de domaine et de langue. Si la langue spécifiée dans le champ **Langue par défaut** est la seule langue vous avez prise en charge pour ce domaine, ou reste la langue par défaut après avoir localisé votre site dans des langues supplémentaires, nous recommandons de laisser ce champ vide. |
+| Domaine                              | Sélectionnez un nom de domaine qui servira de domaine à ce magasin enligne. Si vous n’avez configuré aucun domaine dans LCS, vous pouvez laisser ce champ vide. Une fois votre domaine configuré dans LCS, vous devez l’ajouter à votre magasin en ligne dans **Paramètres du site**.  |
+| Chemin                              | Lorsque votre site prend en charge plusieurs langues pour un nom de domaine donné, utilisez le champ de chemin d’accès pour créer une seul URL de site pour cette combinaison de domaine et de langue. Si la langue spécifiée dans le champ **Langue par défaut** est la seule langue vous avez prise en charge pour ce domaine, ou reste la langue par défaut après avoir localisé votre site dans des langues supplémentaires, nous recommandons de laisser ce champ vide. |
 
 
-Lorsque votre site est créé, vous pouvez vérifier qu'il est associé à votre magasin en ligne en sélectionnant l'onglet **Produits**. Vous devez voir l'assortiment des produits affecté au magasin en ligne. Vous pouvez également utiliser le menu déroulant situé dans la partie supérieure gauche de la page pour accéder aux produits alloués par catégorie.
+Lorsque votre site est créé, vous pouvez vérifier qu’il est associé à votre magasin en ligne en sélectionnant l’onglet **Produits**. Vous devez voir l’assortiment des produits affecté au magasin en ligne. Vous pouvez également utiliser le menu déroulant situé dans la partie supérieure gauche de la page pour accéder aux produits alloués par catégorie.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

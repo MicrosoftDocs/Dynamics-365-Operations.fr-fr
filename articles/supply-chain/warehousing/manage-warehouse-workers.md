@@ -1,12 +1,10 @@
 ---
 title: Gestion des magasiniers
-description: Cet article décrit la manière dont vous pouvez utiliser l’application d’entrepôt pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
+description: Cet article décrit la manière dont vous pouvez utiliser l’application mobile Gestion des entrepôts pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216833"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818966"
 ---
 # <a name="manage-warehouse-workers"></a>Gestion des magasiniers
 
 [!include [banner](../includes/banner.md)]
 
-Cet article décrit la manière dont vous pouvez utiliser l’application d’entrepôt pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
+Cet article décrit la manière dont vous pouvez utiliser l’application mobile Gestion des entrepôts pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 
 Si vous utilisez la fonctionnalité de gestion des entrepôts, toutes les opérations des magasiniers sont appelées *travail*. Les travaux tels que le prélèvement, le déplacement, et l’inventaire du stock disponible sont enregistrés en utilisant des périphériques mobiles. Pour qu’un magasinier puisse effectuer le travail, il doit être associé à un collaborateur dans les Ressources humaines. Chaque compte de **Collaborateur** peut être associé à plusieurs utilisateurs de travail d’entrepôt. Ces utilisateurs de travail peuvent travailler dans différents entrepôts et avoir des niveaux d’accès différents aux menus du périphérique portable. Vous pouvez penser aux utilisateurs de travail d’entrepôt comme plusieurs connexions pour le collaborateur sélectionné. Chaque utilisateur de travail a un entrepôt par défaut, et des workflows spécifiques sont exposés par les articles de menus qui sont accessibles à cet utilisateur de travail. 
 

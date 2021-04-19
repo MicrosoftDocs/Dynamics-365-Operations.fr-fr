@@ -2,11 +2,9 @@
 title: Créer manuellement des recommandations sélectionnées
 description: Cette rubrique explique comment les spécialistes du marketing peuvent créer et gérer manuellement des listes de produits pour les clients Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7dd9de055a020d7171aa2dea45714933b0987d49
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 00f7d076d745cb750dbfdd3a95130196edd888bc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207974"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795760"
 ---
 # <a name="manually-create-curated-recommendations"></a>Créer manuellement des recommandations sélectionnées
 
@@ -41,10 +39,10 @@ Pour créer une liste de recommandations de produits éditée, procédez comme s
 1. Sélectionnez **Nouveau**.
 1. Dans le champ **ID liste**, entrez une valeur.
 1. Dans le champ **Nom de la liste**, entrez une valeur.
-    - Le **Nom de la liste** est le titre de la liste qui s'affichera dans la section des listes éditées du module **Collection de produits**.
+    - Le **Nom de la liste** est le titre de la liste qui s’affichera dans la section des listes éditées du module **Collection de produits**.
 1. Pour ajouter des produits à la liste, sélectionnez **Ajouter des produits**.
-1. Pour modifier l'ordre des produits dans la liste, entrez une valeur dans la colonne **Ordre d'affichage**.
-    - Si deux produits ont la même valeur d'ordre d'affichage, l'ordre final de ces deux résultats peut différer du back-office.
+1. Pour modifier l’ordre des produits dans la liste, entrez une valeur dans la colonne **Ordre d’affichage**.
+    - Si deux produits ont la même valeur d’ordre d’affichage, l’ordre final de ces deux résultats peut différer du back-office.
 1. Sélectionnez **Enregistrer** pour enregistrer la liste.
 
 ## <a name="example-list"></a>Exemple de liste
@@ -53,7 +51,7 @@ Pour créer une liste de recommandations de produits éditée, procédez comme s
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des recommandations produit](product-recommendations.md)
+[Vue d’ensemble des recommandations produit](product-recommendations.md)
 
 [Activer Azure Data Lake Storage dans un environnement Dynamics 365 Commerce](enable-adls-environment.md)
 

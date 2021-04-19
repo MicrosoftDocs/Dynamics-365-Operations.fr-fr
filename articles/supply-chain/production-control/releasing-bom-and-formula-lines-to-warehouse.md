@@ -2,11 +2,9 @@
 title: Lancer les lignes de nomenclature et de formule dans l’entrepôt
 description: Cette rubrique décrit le processus de lancement des matières premières des lignes de nomenclature et de formule dans l’entrepôt.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 62808c2e488e2c38b7dedfc258d9f2bf3e78c23c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209297"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811676"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l’entrepôt
 
@@ -82,7 +80,7 @@ L’illustration suivante présente un ordre de fabrication contenant deux opér
 
 ![Exemple de lancement de matières par numéro d’opération](media/two-operations.PNG)
 
-Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d’un ordre de fabrication](https://www.youtube.com/watch?v=Rm3ojAz6Zu0). 
+Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d’un ordre de fabrication](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Lancer les matières sur la base de la quantité de produits finis
 

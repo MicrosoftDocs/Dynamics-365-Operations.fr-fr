@@ -2,7 +2,6 @@
 title: Traitement de marchandises en transit
 description: Cette rubrique décrit l’utilisation des commandes de marchandises en transit. Lorsqu’une commande ou un voyage est configuré pour utiliser le traitement des marchandises en transit, les marchandises peuvent être facturées avant d’avoir été reçues dans l’entrepôt pour consommation.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500402"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823407"
 ---
 # <a name="goods-in-transit-processing"></a>Traitement de marchandises en transit
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit l’utilisation des commandes de marchandises en transit. Ce type de commande n’est utilisé que par le module **Prix au débarquement**. Lorsqu’une commande ou un voyage est configuré pour utiliser le traitement des marchandises en transit, vous n’avez pas besoin d’attendre que les marchandises soient reçues en entrepôt pour les facturer. Au lieu de cela, les marchandises sont facturées lorsqu’elles quittent l’entrepôt ou le port d’origine du vendeur, et les coûts financiers sont comptabilisés au début du voyage. Cette fonctionnalité vous permet de prendre correctement possession du stock, car les marchandises deviennent souvent la propriété de votre organisation lorsqu’elles quittent le port d’expédition.
 
@@ -135,7 +133,7 @@ Le coût au débarquement ajoute les processus de création de travail suivants 
 
 Les paramètres de configuration de ces processus ressemblent aux paramètres des [processus de réception et de création des travaux de mise en stock des commandes fournisseur](https://technet.microsoft.com/library/dn553216.aspx). Cependant, le processus *réception et mise en stock des articles de marchandises en transit* ajoute également le champ suivant.
 
-- **Activer le conteneur d’expédition terminé** – Si cette option est définie sur *Oui*, lorsque le travail de mise en stock est terminé, l’application d’entrepôt fournira une option supplémentaire nommée **Conteneur d’expédition complet**. Lorsque cette option est sélectionnée, le collaborateur sera invité à confirmer que le conteneur est complet. À ce stade, tous les reçus courts seront traités comme une sous-transaction.
+- **Activer le conteneur d’expédition terminé** – Si cette option est définie sur *Oui*, lorsque le travail de mise en stock est terminé, l’application mobile Gestion des entrepôts fournira une option supplémentaire nommée **Conteneur d’expédition complet**. Lorsque cette option est sélectionnée, le collaborateur sera invité à confirmer que le conteneur est complet. À ce stade, tous les reçus courts seront traités comme une sous-transaction.
 
 ### <a name="location-directives"></a>Instructions d’emplacement
 

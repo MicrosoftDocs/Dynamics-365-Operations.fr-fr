@@ -2,7 +2,6 @@
 title: Estimer et gérer les coûts au débarquement
 description: Le système utilise votre configuration de coût automatique pour déterminer une estimation de votre coût au débarquement. Cette rubrique explique comment vous pouvez définir divers scénarios pour fournir une estimation plus précise.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501268"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823431"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Estimer et gérer les coûts au débarquement
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Le système utilise votre [configuration de coût automatique](auto-cost-setup.md) pour déterminer une estimation de votre coût au débarquement. De plus, vous pouvez définir divers scénarios pour fournir une estimation plus précise. Ces scénarios sont stockés. Par conséquent, vous pouvez les consulter ultérieurement et les comparer aux chiffres réels sur un rapport. Vous pouvez également mettre à jour le prix de l’article.
 

@@ -2,11 +2,9 @@
 title: Configuration requise du navigateur pour les sites Dynamics 365 Commerce
 description: Cette rubrique couvre les exigences du navigateur pour des sites Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bce35e38e02dbd437ed33e994697c42a4f6042ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fcfed3ba6fe9cee225762e3b2ede4427c14cbc62
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211127"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799731"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>Configuration requise du navigateur pour les sites Dynamics 365 Commerce
 
@@ -32,13 +30,13 @@ Cette rubrique couvre les exigences du navigateur pour des sites Microsoft Dynam
 
 Les navigateurs Web suivants assurent une prise en charge optimale des sites Dynamics 365 Commerce. Pour trouver la dernière version pour chaque navigateur Web, accédez au site Internet du fournisseur logiciel.
 
-- [Microsoft Edge](https://www.microsoft.com/edge) (jusqu'à la version actuelle moins 1)
-- [Mozilla Firefox](https://www.mozilla.org/firefox/new) (jusqu'à la version actuelle moins 1)
-- [Google Chrome](https://www.google.com/chrome) (jusqu'à la version actuelle moins 1)
-- [Apple Safari](https://support.apple.com/downloads/safari) (jusqu'à la version actuelle moins 1)
+- [Microsoft Edge](https://www.microsoft.com/edge) (jusqu’à la version actuelle moins 1)
+- [Mozilla Firefox](https://www.mozilla.org/firefox/new) (jusqu’à la version actuelle moins 1)
+- [Google Chrome](https://www.google.com/chrome) (jusqu’à la version actuelle moins 1)
+- [Apple Safari](https://support.apple.com/downloads/safari) (jusqu’à la version actuelle moins 1)
 
 > [!NOTE]
-> Internet Explorer n’est pas pris en charge. Si vous utilisez Internet Explorer, certaines fonctionnalités risquent de ne pas fonctionner et l'expérience utilisateur risque d'être médiocre.
+> Internet Explorer n’est pas pris en charge. Si vous utilisez Internet Explorer, certaines fonctionnalités risquent de ne pas fonctionner et l’expérience utilisateur risque d’être médiocre.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

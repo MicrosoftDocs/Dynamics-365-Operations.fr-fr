@@ -2,11 +2,9 @@
 title: Module Zone d’achat
 description: Cette rubrique couvre les modules de zone d’achat et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddaf34ed2dec882310e5363db643bb522be1238
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dce3c8adcd2926e60d001bddb5c278fac6860268
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206533"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796220"
 ---
 # <a name="buy-box-module"></a>Module Zone d’achat
 
@@ -72,7 +70,7 @@ Les paramètres de module de zone d’achat suivants peuvent être configurés s
 - **Ajouter le produit au panier** – Cette propriété est utilisée pour spécifier le comportement après l’ajout d’un article au panier. Les valeurs possibles sont **Page Accéder au panier**, **Page Ne pas accéder au panier** et **Afficher la notification**. Lorsque la valeur est définie sur **Page Accéder au panier**, les utilisateurs sont envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Page Ne pas accéder au panier**, les utilisateurs ne sont pas envoyés à la page du panier après avoir ajouté un article. Lorsque la valeur est définie sur **Afficher la notification**, les utilisateurs reçoivent une notification de confirmation et peuvent continuer à naviguer sur la page des détails du produit. 
 
 > [!IMPORTANT]
-> Les paramètres de site **Ajouter un article au panier** sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d'une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Les paramètres de site **Ajouter un article au panier** sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
 L’image suivante montre un exemple de notification de confirmation « ajouté au panier » sur le site Fabrikam.
 

@@ -2,11 +2,9 @@
 title: Créer des dimensions financières pour les caisses de PDV et configurer les valeurs de dimension dans les registres
 description: Cette procédure illustre la création des dimensions financières des caisses enregistreuses des points de vente (PDV), et montre comment configurer les valeurs de dimension financière des caisses enregistreuses.
 author: jashanno
-manager: AnnBe
 ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4042fb9da0fe38de50ad7e0c8e64b98925ea1188
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eecb126ae550d67310ada22bd7d91438f7a20cf2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5265957"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790956"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Créer des dimensions financières pour les caisses de PDV et configurer les valeurs de dimension dans les registres
 
 [!include [banner](../includes/banner.md)]
 
-Cette procédure illustre la création des dimensions financières des caisses enregistreuses des points de vente (PDV), et montre comment configurer les valeurs de dimension financière des caisses enregistreuses. Cette procédure n'inclut pas d'autres étapes associées, telles que la création d'ensembles de dimensions et de structures de compte. Ces tâches sont traitées dans d'autres rubriques. La société fictive USRT sert d'exemple dans cet enregistrement.
+Cette procédure illustre la création des dimensions financières des caisses enregistreuses des points de vente (PDV), et montre comment configurer les valeurs de dimension financière des caisses enregistreuses. Cette procédure n’inclut pas d’autres étapes associées, telles que la création d’ensembles de dimensions et de structures de compte. Ces tâches sont traitées dans d’autres rubriques. La société fictive USRT sert d’exemple dans cet enregistrement.
 
 1. Accédez à Comptabilité > Plan de comptes > Dimensions > Dimensions financières.
 2. Cliquez sur Nouveau.
@@ -40,8 +38,8 @@ Cette procédure illustre la création des dimensions financières des caisses e
 10. Cliquez sur Enregistrer.
 11. Fermez la page.
 12. Accédez à Commerce et vente au détail > Paramétrage du canal > Paramétrage du PD > Caisses enregistreuses.
-13. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
-14. Activez ou désactivez l'extension de la section Dimensions financières.
+13. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+14. Activez ou désactivez l’extension de la section Dimensions financières.
 15. Cliquez sur Modifier.
 16. Dans le champ Terminal, cliquez sur le bouton de liste déroulante pour ouvrir la recherche.
 17. Dans la liste, recherchez et sélectionnez la valeur de dimension correspondant à la caisse enregistreuse en cours de mise à jour.

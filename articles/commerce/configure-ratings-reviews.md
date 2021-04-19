@@ -2,11 +2,9 @@
 title: Configuration des évaluations et avis
 description: Cette rubrique décrit la procédure de configuration de votre site de commerce électronique pour afficher les classements et les évaluations des clients dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 130c80c1d68c7fb207a4fa073fe2b0476cbdd409
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5161755b9e15e93fbb5eeb6404ea0820f7068ea7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220532"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796073"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configuration des évaluations et avis
 
@@ -31,38 +29,38 @@ Cette rubrique décrit la procédure de configuration de votre site de commerce 
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Les classements et les évaluations des sites web de commerce électronique permettent aux clients d'en savoir plus sur les produits avant de prendre une décision d'achat, en leur affichant ce que d'autres clients pensent de ces produits. Pour les sites web de commerce électronique, les classements et les évaluations sont également un mécanisme de collecte des commentaires des clients sur les produits. 
+Les classements et les évaluations des sites web de commerce électronique permettent aux clients d’en savoir plus sur les produits avant de prendre une décision d’achat, en leur affichant ce que d’autres clients pensent de ces produits. Pour les sites web de commerce électronique, les classements et les évaluations sont également un mécanisme de collecte des commentaires des clients sur les produits. 
 
-## <a name="configure-a-site-to-show-ratings-and-reviews"></a>Configuration d'un site pour afficher des classements et des évaluations
+## <a name="configure-a-site-to-show-ratings-and-reviews"></a>Configuration d’un site pour afficher des classements et des évaluations
 
-Les valeurs de configuration pour les classements et les évaluations, telles que l'ID client, vérifier la longueur du texte, et analyser la longueur du titre, sont configurées au niveau de le site. 
+Les valeurs de configuration pour les classements et les évaluations, telles que l’ID client, vérifier la longueur du texte, et analyser la longueur du titre, sont configurées au niveau de le site. 
 
-Pour configurer un site afin d'afficher des classements et des évaluations, procédez comme suit. 
+Pour configurer un site afin d’afficher des classements et des évaluations, procédez comme suit. 
 
 1. Accédez à **Accueil \> Sites**.
 1. Sélectionnez le nom de votre site. 
 1. Accédez à **Paramètres du site \> Extensions**. 
-1. Dans le champ **Vérifier la longueur maximale du texte**, entrez le nombre maximal de caractères que le texte d'évaluation peut comporter (par exemple, **1 000**). 
-1. Dans le champ **Vérifier la longueur maximale du titre**, entrez le nombre maximal de caractères que les titres d'évaluation peuvent comporter (par exemple, **55**). 
+1. Dans le champ **Vérifier la longueur maximale du texte**, entrez le nombre maximal de caractères que le texte d’évaluation peut comporter (par exemple, **1 000**). 
+1. Dans le champ **Vérifier la longueur maximale du titre**, entrez le nombre maximal de caractères que les titres d’évaluation peuvent comporter (par exemple, **55**). 
 1. Sélectionnez **Enregistrer et publier**. 
 
-L'illustration suivante présente à quoi cette configuration ressemble dans Dynamics 365 Commerce.
+L’illustration suivante présente à quoi cette configuration ressemble dans Dynamics 365 Commerce.
 
-![Configuration d'un site pour afficher des classements et des évaluations](media/rnr-eCommerce-site-appsettings.png)
+![Configuration d’un site pour afficher des classements et des évaluations](media/rnr-eCommerce-site-appsettings.png)
 
-## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Association d'un classement de produit à la section Évaluation d'une page de détails de produit
+## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Association d’un classement de produit à la section Évaluation d’une page de détails de produit
 
-Un classement de produit apparaît sous le titre de produit en haut de la page de détails de produit. Le classement de produit peut être configuré pour qu'il soit lié à la section **Évaluations** de la même page de détails du produit. 
+Un classement de produit apparaît sous le titre de produit en haut de la page de détails de produit. Le classement de produit peut être configuré pour qu’il soit lié à la section **Évaluations** de la même page de détails du produit. 
 
 Pour lier un classement de produit à la section **Évaluations** de la page de détails de produit, procédez comme suit.
 
 1. Ouvrez le modèle de page de détails de produit. 
-1. Accédez à **Paramètres du module de conteneur Zone d'achat**.
-1. Sous **Zone d'achat**, sélectionnez **Classements de produit**, puis activez la case à cocher **Lier le clic au module complet d'évaluations**.
+1. Accédez à **Paramètres du module de conteneur Zone d’achat**.
+1. Sous **Zone d’achat**, sélectionnez **Classements de produit**, puis activez la case à cocher **Lier le clic au module complet d’évaluations**.
 
-L'illustration suivante présente à quoi cette configuration ressemble dans Dynamics 365 Commerce.
+L’illustration suivante présente à quoi cette configuration ressemble dans Dynamics 365 Commerce.
 
-![Association d'un classement de produit à la section Évaluation d'une page de détails de produit](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Association d’un classement de produit à la section Évaluation d’une page de détails de produit](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Configurer le lien de la page de confidentialité et de politique
 
@@ -71,27 +69,27 @@ Pour configurer le lien de la page de confidentialité et de politique, procéde
 1. Accédez à **Accueil \> Sites**.
 1. Sélectionnez le nom de votre site. 
 1. Accédez à **Paramètres du site \> Extensions**.
-1. Dans l'onglet **Acheminements**, sous **Confidentialité et politique RNR**, sélectionnez **Ajouter un lien**. Si un lien est déjà entré, et si vous souhaitez le remplacer, sélectionnez le lien. 
+1. Dans l’onglet **Acheminements**, sous **Confidentialité et politique RNR**, sélectionnez **Ajouter un lien**. Si un lien est déjà entré, et si vous souhaitez le remplacer, sélectionnez le lien. 
 1. Dans la boîte de dialogue **Ajouter un lien**, sélectionnez le lien de la page de confidentialité et de politique, puis sélectionnez **OK**. 
 1. Sélectionnez **Enregistrer et publier**. 
 
-L'illustration suivante présente à quoi cette configuration ressemble dans Dynamics 365 Commerce.
+L’illustration suivante présente à quoi cette configuration ressemble dans Dynamics 365 Commerce.
 
 ![Configuration du lien de la page de confidentialité et de politique](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
-## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Configurer les modules de classements et d'évaluations sur les pages de détails des produits
+## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Configurer les modules de classements et d’évaluations sur les pages de détails des produits
 
-Pour plus d'informations sur la configuration des modules de classements et d'évaluations sur les pages de détails des produits, voir [Modules de classements et d'évaluations](ratings-reviews-modules.md).
+Pour plus d’informations sur la configuration des modules de classements et d’évaluations sur les pages de détails des produits, voir [Modules de classements et d’évaluations](ratings-reviews-modules.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des évaluations et avis](ratings-reviews-overview.md)
+[Vue d’ensemble des évaluations et avis](ratings-reviews-overview.md)
 
-[Choix d'utilisation des évaluations et avis](opt-in-ratings-reviews.md)
+[Choix d’utilisation des évaluations et avis](opt-in-ratings-reviews.md)
 
 [Gestion des évaluations et avis](manage-reviews.md)
 
-[Configurer les modules de classements et d'évaluations sur les pages de détails des produits](ratings-reviews-modules.md)
+[Configurer les modules de classements et d’évaluations sur les pages de détails des produits](ratings-reviews-modules.md)
 
 [Synchronisation des évaluations de produit dans Dynamics 365 Retail](sync-product-ratings.md)
 

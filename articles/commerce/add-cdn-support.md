@@ -2,11 +2,9 @@
 title: Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)
 description: Cette rubrique décrit la procédure d’ajout d’un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582717"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797837"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ajouter la prise en charge d’un réseau de distribution de contenu (CDN)
 
@@ -29,9 +27,9 @@ ms.locfileid: "5582717"
 
 Cette rubrique décrit la procédure d’ajout d’un réseau de diffusion de contenu (CDN) à votre environnement Microsoft Dynamics 365 Commerce.
 
-Lorsque vous paramétrez un environnement d'e-commerce dans Dynamics 365 Commerce, vous pouvez le configurer pour travailler avec votre service CDN. 
+Lorsque vous paramétrez un environnement d’e-commerce dans Dynamics 365 Commerce, vous pouvez le configurer pour travailler avec votre service CDN. 
 
-Votre domaine personnalisé peut être activé lors de le processus de mise en service pour votre environnement d'e-commerce. Sinon, vous pouvez utiliser une demande de service pour le configurer une fois le processus de mise en service terminé. Le processus de mise en service de l’environnement d'e-commerce génère un nom d’hôte associé à l’environnement. Ce nom d’hôte a le format suivant, où \<*e-commerce-tenant-name*\> est le nom de votre environnement :
+Votre domaine personnalisé peut être activé lors de le processus de mise en service pour votre environnement d’e-commerce. Sinon, vous pouvez utiliser une demande de service pour le configurer une fois le processus de mise en service terminé. Le processus de mise en service de l’environnement d’e-commerce génère un nom d’hôte associé à l’environnement. Ce nom d’hôte a le format suivant, où \<*e-commerce-tenant-name*\> est le nom de votre environnement :
 
 &lt;nom-client-e-commerce&gt;.commerce.dynamics.com
 
@@ -41,11 +39,7 @@ En outre, les *statistiques* (fichiers Javascript ou de feuilles de style en cas
 
 ## <a name="set-up-ssl"></a>Paramétrer SSL
 
-Pour garantir que le protocole SSL est paramétré, et que ces statistiques sont mises en cache, vous devez configurer votre CDN afin qu’il soit associé au nom de l’hôte que Commerce a généré pour votre environnement. Vous devez également mettre en cache le schéma suivant pour les statistiques uniquement : 
-
-/\_msdyn365/\_scnr/\*
-
-Après avoir mis votre environnement Commerce en service avec le domaine personnalisé qui est fourni, ou après que vous ayez fourni le domaine personnalisé pour votre environnement à l’aide d’une requête de service, indiquez votre domaine personnalisé au nom d’hôte ou au point de terminaison que Commerce a généré.
+Après avoir mis votre environnement Commerce en service avec le domaine personnalisé qui est fourni, ou après que vous ayez fourni le domaine personnalisé pour votre environnement à l’aide d’une requête de service, il vous faut collaborer avec l’équipe d’intégration de Commerce pour prévoir les modifications DNS.
 
 Comme précédemment mentionné, le nom d’hôte ou le point de terminaison généré prend en charge un certificat SSL uniquement pour \*.commerce.dynamics.com. Il ne prend pas en charge le protocole SSL pour les domaines personnalisés.
 
@@ -62,7 +56,7 @@ Le processus de paramétrage de CDN se compose de ces étapes générales :
 
 1. Ajoutez un hôte frontal.
 1. Configurez un regroupement principal.
-1. Paramétrez les règles d’acheminement et de mise en cache.
+1. Paramétrez des règles d’acheminement.
 
 ### <a name="add-a-front-end-host"></a>Ajoutez un hôte frontal
 
@@ -74,8 +68,9 @@ Pour plus d’informations sur la configuration du Azure Front Door Service, voi
 
 Pour configurer un regroupement principal dans Azure Front Door Service, procédez comme suit.
 
-1. Ajoutez **&lt;nom-client-ecom&gt;.commerce.dynamics.com** à un regroupement principal comme serveur personnalisé qui a un en-tête d’hôte principal vide.
+1. Ajoutez **&lt;nom-du-locataire-ecom&gt;.commerce.dynamics.com** à un pool back-end en tant qu’hôte personnalisé qui a un en-tête d’hôte back-end identique à **&lt;nom-du-locataire-ecom&gt;.commerce.dynamics.com**.
 1. Sous **Équilibrage de la charge**, laissez les valeurs par défaut.
+1. Désactivez les contrôles d’intégrité du pool back-end.
 
 L’illustration suivante présente la boîte de dialogue **Ajouter un regroupement principal** dans Azure Front Door Service avec le nom d’hôte principal entré.
 
@@ -84,6 +79,10 @@ L’illustration suivante présente la boîte de dialogue **Ajouter un regroupem
 L’illustration suivante présente la boîte de dialogue **Ajouter un regroupement principal** dans Azure Front Door Service avec les valeurs d’équilibrage de charge par défaut.
 
 ![Boîte de dialogue Ajouter un regroupement principal](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Assurez-vous de désactiver les **Tests d’intégrité** lors de la configuration de votre propre service Azure Front Door pour Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Paramétrer des règles dans Azure Front Door Service
 
@@ -100,24 +99,6 @@ Pour paramétrer une règle d’acheminement dans Azure Front Door Service, proc
 1. Définissez l’option **Réécriture de l’URL** sur **Désactivé**.
 1. Définissez l’option **Mise en cache** sur **Désactivé**.
 
-Pour paramétrer une règle de mise en cache dans Azure Front Door Service, procédez comme suit.
-
-1. Ajoutez une règle de mise en cache.
-1. Dans le champ **Nom**, entrez **statistiques**.
-1. Dans le champ **Protocole accepté**, sélectionnez **HTTP et HTTPS**.
-1. Dans le champ **Hôtes frontaux**, entrez **dynamics-ecom-tenant-name.azurefd.net**.
-1. Sous **Modèles à respecter**, dans le champ supérieur, entrez **/\_msdyn365/\_scnr/\***.
-1. Sous **Détails de l’acheminement**, définissez l’option **Type d’acheminement** sur **Suivant**.
-1. Dans le champ **Regroupement principal**, sélectionnez **ecom-principal**.
-1. Dans le groupe de champ **Protocole de transfert**, sélectionnez l’option **Demande de mise en correspondance**.
-1. Définissez l’option **Réécriture de l’URL** sur **Désactivé**.
-1. Définissez l’option **Mise en cache** sur **Désactivé**.
-1. Dans le champ **Comportement de mise en cache de la chaîne de requête**, sélectionnez **Mettre en cache chaque URL unique**.
-1. Dans le groupe de champ **Compression dynamique**, sélectionnez l’option **Activé**.
-
-L’illustration suivante présente la boîte de dialogue **Ajouter une règle** à Azure Front Door Service.
-
-![Boîte de dialogue Ajouter une règle](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Si le domaine que vous utilisez est déjà actif et en service, créez un ticket de support à partir de la vignette **Support** dans [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) pour obtenir de l’aide pour vos prochaines étapes. Pour plus d’informations, voir [Obtenir de l’aide sur les applications Finance and Operations ou Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).

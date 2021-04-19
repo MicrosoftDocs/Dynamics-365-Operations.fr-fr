@@ -1,12 +1,10 @@
 ---
-title: Réception du contenant via l’application d’entrepôt
-description: Cette rubrique explique comment configurer l’application d’entrepôt pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
+title: Réception du contenant via l’application mobile Gestion des entrepôts
+description: Cette rubrique explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245152"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823189"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Réception du contenant via l’application d’entrepôt
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Réception du contenant via l’application mobile Gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment configurer l’application d’entrepôt pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
+Cette rubrique explique comment configurer l’application mobile Gestion des entrepôts pour prendre en charge l’utilisation d’un processus de réception de contenant pour recevoir le stock physique.
 
 Vous pouvez utiliser cette fonctionnalité pour enregistrer rapidement la réception du stock entrant lié à un avis préalable d’expédition (APE). Le système crée automatiquement un APE lorsque des processus de gestion d’entrepôt sont utilisés pour expédier un ordre de transfert. Pour le processus de commande fournisseur, un APE peut être enregistré manuellement ou il peut être automatiquement importé à l’aide d’un processus d’entité de données APE entrant.
 
@@ -72,7 +70,7 @@ Pour rendre cette fonctionnalité disponible sur votre système, vous devez acti
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Afficher ou ignorer la page récapitulative de réception
 
-Vous pouvez utiliser la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* pour bénéficier d’un flux d’application Entrepôt détaillé supplémentaire dans le cadre du processus de réception des contenants.
+Vous pouvez utiliser la fonctionnalité *Contrôler s’il faut afficher une page récapitulative de réception sur les appareils mobiles* pour bénéficier d’un flux de l’application mobile Gestion des entrepôts détaillé supplémentaire dans le cadre du processus de réception des contenants.
 
 Lorsque cette fonction est activée, les options de menu d’appareil mobile pour la réception des contenants ou la réception et le rangement des contenants fourniront un paramètre **Afficher la page récapitulative de réception**. Ce paramètre a les options suivantes :
 

@@ -1,12 +1,10 @@
 ---
-title: Vue d'ensemble de la gestion des tâches
+title: Vue d’ensemble de la gestion des tâches
 description: Cette rubrique donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0b7756aebac2b8f0881c95b27e5a7c845557be4c
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: bc33a8b21c75a308aea738f0db1f3786695f0633
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477558"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791724"
 ---
 # <a name="task-management-overview"></a>Vue d’ensemble de la gestion des tâches
 
@@ -29,15 +27,15 @@ ms.locfileid: "5477558"
 
 Cette rubrique donne une vue d’ensemble de la gestion des tâches pour les responsables et les employés dans Microsoft Dynamics 365 Commerce.
 
-Dans un environnement de vente au détail, il est toujours difficile de s'assurer que les tâches sont effectuées par la bonne personne au bon moment. Les détaillants doivent être en mesure d'informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.
+Dans un environnement de vente au détail, il est toujours difficile de s’assurer que les tâches sont effectuées par la bonne personne au bon moment. Les détaillants doivent être en mesure d’informer les employés des tâches à venir et de fournir le contexte connexe, afin que les tâches puissent être effectuées correctement et dans les délais.
 
-La gestion des tâches est une fonctionnalité de productivité dans Dynamics 365 Commerce qui permet aux responsables et aux employés de créer des listes de tâches, de gérer les critères d'affectation, de suivre le statut des tâches et d'intégrer ces opérations entre le back-office Commerce et les applications PDV.
+La gestion des tâches est une fonctionnalité de productivité dans Dynamics 365 Commerce qui permet aux responsables et aux employés de créer des listes de tâches, de gérer les critères d’affectation, de suivre le statut des tâches et d’intégrer ces opérations entre le back-office Commerce et les applications PDV.
 
 Les personnes au siège peuvent utiliser la gestion des tâches pour créer des listes de tâches pour les magasins de vente au détail et pour suivre le statut par magasin ou par employé. Ils peuvent également créer des tâches récurrentes (par exemple, « Liste de contrôle pour la fermeture du jeudi soir »).
 
-Les responsables de magasin peuvent utiliser la gestion des tâches pour affecter des tâches à des employés individuels, envoyer des notifications sur les tâches à venir ou en retard, mettre à jour le statut des tâches et créer des tâches à but unique dans l'application PDV. Les employés peuvent ensuite voir les notifications, afficher les détails des tâches et mettre à jour le statut des tâches dans le PDV.
+Les responsables de magasin peuvent utiliser la gestion des tâches pour affecter des tâches à des employés individuels, envoyer des notifications sur les tâches à venir ou en retard, mettre à jour le statut des tâches et créer des tâches à but unique dans l’application PDV. Les employés peuvent ensuite voir les notifications, afficher les détails des tâches et mettre à jour le statut des tâches dans le PDV.
 
-L'illustration suivante présente l'architecture conceptuelle de la gestion des tâches dans Commerce.
+L’illustration suivante présente l’architecture conceptuelle de la gestion des tâches dans Commerce.
 
 ![Architecture conceptuelle de la gestion des tâches](media/Tasks-management-conceptual-architecture.png)
 

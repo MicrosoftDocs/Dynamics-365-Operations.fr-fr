@@ -2,11 +2,9 @@
 title: Module Panier
 description: Cette rubrique couvre les modules de panier et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5b0ce69f57e6ba691803752280466b41ced7c521
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206485"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797861"
 ---
 # <a name="cart-module"></a>Module Panier
 
@@ -66,7 +64,7 @@ Les paramètres de module de panier suivants peuvent être configurés sur **Par
 - **Revenir aux achats** - Cette propriété est utilisée pour spécifier l’itinéraire pour le lien **Revenir aux achats**. L’itinéraire peut être configuré au niveau du site, permettant aux détaillants de ramener le client à la page d’accueil ou vers toute autre page du site.
 
 > [!IMPORTANT]
-> Dans Dynamics 365 Commerce version 10.0.14 et versions ultérieures, les articles du panier sont agrégés en fonction des paramètres définis dans le profil de fonctionnalité en ligne de la boutique en ligne dans Commerce Headquarters. Pour plus d'informations sur la création d'un profil de fonctionnalité en ligne et la définition des propriétés requises pour l'agrégation, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
+> Dans Dynamics 365 Commerce version 10.0.14 et versions ultérieures, les articles du panier sont agrégés en fonction des paramètres définis dans le profil de fonctionnalité en ligne de la boutique en ligne dans Commerce Headquarters. Pour plus d’informations sur la création d’un profil de fonctionnalité en ligne et la définition des propriétés requises pour l’agrégation, voir [Créer un profil de fonctionnalité en ligne](online-functionality-profile.md).
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
 
@@ -106,7 +104,7 @@ Pour ajouter un module de panier à une nouvelle page et définir les propriét�
 
 [Module Options de livraison](delivery-options-module.md)
 
-[Module d'information sur le retrait](pickup-info-module.md)
+[Module d’information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 

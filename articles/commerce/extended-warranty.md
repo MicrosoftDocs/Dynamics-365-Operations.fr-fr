@@ -2,11 +2,9 @@
 title: Créer et configurer des extensions de garantie
 description: Cette rubrique couvre les extensions de garantie et décrit leur création et configuration dans Microsoft Dynamics 365 Commerce.
 author: sijoshi
-manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2457f2cf1d6bfb228aae63a0aebaca0d159b7323
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209075"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792461"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Créer et configurer des garanties étendues
 
@@ -89,7 +87,7 @@ Pour créer un article de garantie dans Commerce, procédez comme suit.
 1. Remettez le produit sous garantie à l’entreprise afin qu’il puisse être vendu. Pour plus d’informations, voir [Paramétrage des produits vendus au détail](set-up-retail-products.md).
 1. Sur la page **Détails du produit lancé**, dans le raccourci **Garantie**, définissez les champs **Base de gamme de prix**, **Limite inférieure** et **Limite supérieure**.
 
-    | Nom du champ | Valeur  | Description |
+    | Nom du champ | Valeur | Description |
     |------------|-------|-------------|
     | Base de la plage de prix | **Aucun**, **Prix de base** ou **Prix de vente** | <ul><li>**Aucun** - Les valeurs **Limite inférieure** et **Limite supérieure** des gammes de prix ne sont pas applicables.</li><li>**Prix de base** - Une garantie donnée sera applicable si le prix de base (c’est-à-dire le prix sans remise) de l’article sous garantie se situe entre les valeurs **Limite inférieure** et **Limite supérieure** spécifiées ici, en fonction du prix de l’article sous garantie.</li><li>**Prix de vente** - Cette valeur est réservée pour une utilisation future.</li></ul> |
     | Limite inférieure, Limite supérieure | Valeur entière positive | Ces champs définissent les limites de prix supérieures et inférieures de l’article sous garantie et la manière dont la garantie actuelle s’applique à l’article sous garantie. Ces limites peuvent être basées sur le prix de base de l’article sous garantie (également appelé prix de détail suggéré par le fabricant \[MSRP\]). Si le champ **Base de gamme de prix** est défini sur **Prix de base**, uniquement un article sous garantie (produit) dont le prix de base est compris entre les valeurs **Limite inférieure** et **Limite supérieure** déclenchera une invite pour ajouter la garantie au point de vente. |

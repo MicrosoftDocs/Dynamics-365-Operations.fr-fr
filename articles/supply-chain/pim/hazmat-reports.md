@@ -2,11 +2,9 @@
 title: Demandes de renseignements et déclarations de matières dangereuses
 description: Cette rubrique explique comment utiliser les différents états relatifs aux matières dangereuses. Bon nombre de ces états sont nécessaires pour que vous restiez en conformité avec diverses réglementations sur les matières dangereuses pendant le transport et le stockage.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cee824e9e8f7577d1d4a6c0a21c7341608e1f588
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243127"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820320"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Demandes de renseignements et déclarations de matières dangereuses
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management fournit divers états relatifs aux matières dangereuses. Bon nombre de ces états sont nécessaires pour que vous restiez en conformité avec diverses réglementations sur les matières dangereuses pendant le transport et le stockage.
 

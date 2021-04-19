@@ -2,11 +2,9 @@
 title: Définir différentes dimensions pour l’emballage et le stockage
 description: Cette rubrique montre comment spécifier le processus (emballage, stockage ou emballage imbriqué) pour lequel chaque dimension spécifiée est utilisée.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501292"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818918"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Définir différentes dimensions pour l’emballage et le stockage
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Certains articles sont emballés ou stockés de telle sorte que vous devrez peut-être effectuer le suivi des dimensions physiques de manière différente pour chacun des différents processus. La fonctionnalité *Dimensions d’emballage du produit* vous permet de configurer un ou plusieurs types de dimensions pour chaque produit. Chaque type de dimension fournit un ensemble de mesures physiques (poids, largeur, profondeur et hauteur) et établit le processus dans lequel ces valeurs de mesure physique s’appliquent. Lorsque cette fonctionnalité est activée, votre système prend en charge les types de dimensions suivants :
 

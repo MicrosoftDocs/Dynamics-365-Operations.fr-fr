@@ -2,11 +2,9 @@
 title: Opération de stock entrant dans le PDV
 description: Cette rubrique décrit les fonctionnalités de l’opération de stock entrant dans le point de vente (PDV).
 author: hhaines
-manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2254453201817d906de9805e2cfd3c9e74c9497c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234483"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804329"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -135,15 +133,15 @@ La réception excessive n’est pas autorisée pour les documents d’ordre de t
 
 ### <a name="close-purchase-order-lines"></a>Fermer des lignes de commandes fournisseur
 
-Vous pouvez clôturer la quantité restante sur une commande d'achat entrante pendant le processus de réception si l'expéditeur a confirmé qu'il ne peut pas expédier la quantité totale demandée. Pour ce faire, la société doit être configurée pour autoriser les livraisons incomplètes des commandes fournisseur. De plus, un pourcentage de tolérance de livraison incomplète doit être défini pour la ligne de commande fournisseur.
+Vous pouvez clôturer la quantité restante sur une commande d’achat entrante pendant le processus de réception si l’expéditeur a confirmé qu’il ne peut pas expédier la quantité totale demandée. Pour ce faire, la société doit être configurée pour autoriser les livraisons incomplètes des commandes fournisseur. De plus, un pourcentage de tolérance de livraison incomplète doit être défini pour la ligne de commande fournisseur.
 
-Pour configurer l'entreprise afin qu'elle autorise la livraison incomplète des commandes fournisseur, au siège de Commerce, accédez à **Approvisionnements** > **Configuration** > **Paramètres d'approvisionnement**. Dans l'onglet **Livraison**, activez le paramètre **Accepter les livraisons incomplètes**. Exécutez ensuite la tâche de programme de distribution **1070** (**Configuration de canal**) pour synchroniser les modifications du paramètre entre les canaux.
+Pour configurer l’entreprise afin qu’elle autorise la livraison incomplète des commandes fournisseur, au siège de Commerce, accédez à **Approvisionnements** > **Configuration** > **Paramètres d’approvisionnement**. Dans l’onglet **Livraison**, activez le paramètre **Accepter les livraisons incomplètes**. Exécutez ensuite la tâche de programme de distribution **1070** (**Configuration de canal**) pour synchroniser les modifications du paramètre entre les canaux.
 
 Les pourcentages de tolérance de livraison incomplète pour une ligne de commande fournisseur peuvent être prédéfinis sur les produits dans le cadre des configurations de produit au siège de Commerce. Ils peuvent également être définis ou remplacés sur une ligne de commande fournisseur spécifique au siège de Commerce.
 
-Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l'**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d'erreur s'affiche et l'utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
+Une fois qu’une organisation a terminé les configurations de livraison incomplète des commandes fournisseur, les utilisateurs du PDV voient une nouvelle option **Clôturer la quantité restante** dans le volet **Détails** lorsqu’ils sélectionnent une ligne de commande fournisseur entrant dans l’**Opération de stock entrant**. Si l’utilisateur clôture la quantité restante, le PDV effectue une validation pour vérifier que la quantité qui est fermée se situe dans la tolérance de pourcentage de livraison incomplète définie sur la ligne de commande fournisseur. En cas de dépassement de la tolérance de livraison incomplète, un message d’erreur s’affiche et l’utilisateur ne peut pas fermer la quantité restante tant que la quantité précédemment reçue plus la quantité **Recevoir maintenant** atteint ou dépasse la quantité minimale qui doit être reçue en fonction du pourcentage de tolérance de livraison incomplète. 
 
-Quand l'option **Clôturer la quantité restante** est activée pour une ligne de commande fournisseur, lorsque l'utilisateur achève la réception à l'aide de l'action **Terminer la réception**, une demande de clôture est également envoyée au siège de Commerce, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
+Quand l’option **Clôturer la quantité restante** est activée pour une ligne de commande fournisseur, lorsque l’utilisateur achève la réception à l’aide de l’action **Terminer la réception**, une demande de clôture est également envoyée au siège de Commerce, et toute quantité non reçue de cette ligne de commande sera annulée. À ce stade, la ligne est considérée comme entièrement reçue. 
 
 ### <a name="receiving-location-controlled-items"></a>Articles contrôlés par l’emplacement de réception
 

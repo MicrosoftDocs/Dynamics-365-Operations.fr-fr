@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 139abc1081fc3f79e5afe4889ab54ee7d5475816
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3da2293e36fb2092e2b02796fcaacea7b3ca53f6
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250952"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5637384"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Supply Chain Management
 
@@ -50,7 +49,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="core-development"></a>Développement de base<a name="core-development"></a>
 
-| Contenu | Description   | Format | Longueur    |
+| Contenu | Description  | Format | Longueur    |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|----------------------------------------------------------|
 | [Gestion des données (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Veuillez nous rejoindre pour ce forum technique sur la gestion des données. Découvrez-en plus sur les options disponibles et les scénarios pour lesquels elles sont recommandées. Nous couvrirons la structure de la gestion des données, les modèles, la copie de la base de données, le partage des données intersociétés et les performances. | Enregistrement libre d’une conférence Web | 58 minutes |
 

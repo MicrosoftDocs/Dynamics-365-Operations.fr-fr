@@ -2,11 +2,9 @@
 title: Créer un profil de fonctionnalité en ligne
 description: Cette rubrique décrit comment créer un profil de fonctionnalité en ligne dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cb9d78a945132c913dcb8a5d5b41eaacd1a6db3b
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: be78b92858979b8bb009a4699eff96379ef7cef3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477730"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791100"
 ---
 # <a name="create-an-online-functionality-profile"></a>Créer un profil de fonctionnalité en ligne
 
@@ -33,24 +31,24 @@ Le profil de fonctionnalité en ligne fournit divers paramètres utilisés pour 
 
 ## <a name="create-an-online-functionality-profile"></a>Créer un profil de fonctionnalité en ligne
 
-La procédure suivante explique comment créer un profil de fonctionnalité en ligne à partir de l'application Commerce Headquarters.
+La procédure suivante explique comment créer un profil de fonctionnalité en ligne à partir de l’application Commerce Headquarters.
 
 1. Dans le volet de navigation, accédez à **Modules \> Paramétrage du canal \> Paramétrage du magasin en ligne \> Profils de fonctionnalité**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans le champ **Profil**, saisissez un ID pour le profil.
-1. Dans le champ **Description**, saisissez une valeur (« Profil Adventure Works » dans l'exemple d'image ci-dessous).
+1. Dans le champ **Description**, saisissez une valeur (« Profil Adventure Works » dans l’exemple d’image ci-dessous).
 1. Dans la section **Fonctions**, modifiez les paramètres **PANIER**, **CLIENTS DE VENTE AU DÉTAIL** ou **CAISSE** si nécessaire.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
-L'image suivante présente un exemple de profil de fonctionnalité en ligne.
+L’image suivante présente un exemple de profil de fonctionnalité en ligne.
   
 ![Exemple de profil de fonctionnalité en ligne](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>Fonctions
 
 - **Produits agrégés** : si activée, cette fonction permet au panier de mettre à jour la quantité lorsque le même article est ajouté plusieurs fois.
-- **Autoriser l'extraction sans paiement** : si activée, cette fonction gère le scénario lorsque les articles ajoutés au panier atteignent 0,00 $.
-- **Créer un client en mode asynchrone** : paramètre hérité qui s'applique aux canaux de commerce électronique tiers et ne s'applique pas au site de commerce électronique Dynamics 365.
+- **Autoriser l’extraction sans paiement** : si activée, cette fonction gère le scénario lorsque les articles ajoutés au panier atteignent 0,00 $.
+- **Créer un client en mode asynchrone** : paramètre hérité qui s’applique aux canaux de commerce électronique tiers et ne s’applique pas au site de commerce électronique Dynamics 365.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -62,7 +60,7 @@ L'image suivante présente un exemple de profil de fonctionnalité en ligne.
 
 [Paramétrer un canal de vente au détail](channel-setup-retail.md)
 
-[Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
+[Paramétrer un canal de centre d’appels](channel-setup-callcenter.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

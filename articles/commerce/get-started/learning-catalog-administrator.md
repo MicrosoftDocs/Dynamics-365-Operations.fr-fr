@@ -1,24 +1,23 @@
 ---
 title: Catalogue d’apprentissage pour administrateurs de Dynamics 365 Commerce
-description: Trouvez toutes les options de formation pour le rôle d'administrateur dans Dynamics 365 Commerce.
+description: Trouvez toutes les options de formation pour le rôle d’administrateur dans Dynamics 365 Commerce.
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: be3e54e412cf8fc4b19f0b6c72908e01ff32d18a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cab21f51f64039156fc74017ed9afd78534afffd
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251451"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5609237"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Catalogue d’apprentissage pour les administrateurs de Dynamics 365 Commerce
 

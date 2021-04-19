@@ -2,11 +2,9 @@
 title: Configurer l’interface d’exécution de l’atelier de production
 description: Cette rubrique décrit comment créer une ou plusieurs configurations pour l’interface d’exécution de l’atelier de production. Lorsque vous ouvrez l’interface d’exécution de l’atelier de production, elle charge automatiquement une configuration sélectionnée et un filtre de tâches spécifiques au navigateur et à l’appareil. Dans la configuration, vous définissez les stratégies qui doivent être applicables pour une utilisation spécifique.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556312"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814728"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les collaborateurs de l’atelier utilisent l’interface d’exécution de l’atelier de production pour enregistrer leur travail quotidien : heure de début d’une tâche, générer des commentaires sur les tâches, enregistrer des activités indirectes et signaler des absences. Ces enregistrements servent de base pour suivre l’avancement et le coût des ordres de fabrication et pour calculer la base de la rémunération des collaborateurs.
 
@@ -67,6 +64,8 @@ Cette fonction ajoute un bouton à l’interface d’exécution de l’atelier d
 - Fonctionnalité de verrouillage des périphériques des bons de travail et des terminaux des bons de travail afin de procéder à leur désinfection
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Cette fonctionnalité ajoute un onglet de gestion des actifs à l’interface d’exécution de l’atelier de production. Les collaborateurs peuvent utiliser cet onglet pour sélectionner un actif connecté à une ressource de machine qui se trouve dans le filtre sélectionné de la liste des tâches. Pour l’actif de machine sélectionné, le collaborateur peut afficher l’état et l’intégrité de l’actif à partir des valeurs de compteur de quatre compteurs sélectionnés au maximum. Si vous souhaitez utiliser cette fonctionnalité, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
 

@@ -2,7 +2,6 @@
 title: Restreindre l’accès à une vitrine pendant les tests ou le développement
 description: Cette rubrique explique comment restreindre l’accès à une vitrine Microsoft Dynamics 365 Commerce pendant les tests ou le développement internes.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2cdf131048e0fac940475322294ed99e76c0a53b
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: f5cba6b7ff3aa65441c932e72fa458bda0d0fc69
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585325"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801529"
 ---
 # <a name="restrict-access-to-a-storefront-during-testing-or-development"></a>Restreindre l’accès à une vitrine pendant les tests ou le développement
 
@@ -30,7 +29,7 @@ ms.locfileid: "5585325"
 
 Cette rubrique explique comment restreindre l’accès à une vitrine Microsoft Dynamics 365 Commerce pendant les tests ou le développement internes.
 
-## <a name="description"></a>Description 
+## <a name="description"></a>Description
 
 Pendant les tests internes ou le développement actif, vous souhaiterez peut-être restreindre l’accès à votre site pour empêcher les utilisateurs externes d’accéder aux pages de vitrine publiées.
 

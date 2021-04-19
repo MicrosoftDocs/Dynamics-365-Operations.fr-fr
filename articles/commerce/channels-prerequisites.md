@@ -2,11 +2,9 @@
 title: Conditions préalables au paramétrage du canal
 description: Cette rubrique présente une vue d’ensemble des conditions préalables au paramétrage des canaux dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 270f751e860e56a03e20df720c088f275d0298e7
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 33fcead6c0b08db17f24b638376a23b8b6024a5b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477922"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800517"
 ---
 # <a name="channel-setup-prerequisites"></a>Conditions préalables à la configuration de canal
 
@@ -29,7 +27,7 @@ ms.locfileid: "5477922"
 
 Cette rubrique présente une vue d’ensemble des conditions préalables au paramétrage de canal dans Microsoft Dynamics 365 Commerce.
 
-Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches prérequises doivent être effectuées. Les listes de tâches prérequises suivantes sont organisées par type de canal.
+Avant qu’un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches prérequises doivent être effectuées. Les listes de tâches prérequises suivantes sont organisées par type de canal.
 
 > [!NOTE]
 > Certains documents sont en cours de rédaction et les liens seront mis à jour au fur et à mesure que de nouveaux contenus seront publiés.
@@ -40,13 +38,13 @@ Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches 
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>Prérequis globaux requis pour tous les types de canaux
 
-- [Définissez et configurez votre structure d'entité juridique](channels-legal-entities.md) 
-- [Configurer votre hiérarchie d'organisation](channels-org-hierarchies.md)
+- [Définissez et configurez votre structure d’entité juridique](channels-legal-entities.md) 
+- [Configurer votre hiérarchie d’organisation](channels-org-hierarchies.md)
 - [Paramétrer un entrepôt](channels-setup-warehouse.md)
 - [Configurer la taxe de vente](../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Paramétrer un profil de notification par e-mail](email-notification-profiles.md)
 - [Définir des souches de numéros](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json)
-- [Paramétrer un client et un carnet d'adresses par défaut](default-customer.md)
+- [Paramétrer un client et un carnet d’adresses par défaut](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
 -->
@@ -55,15 +53,15 @@ Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches 
 
 - [Codes info et groupes de codes info](info-codes-retail.md)
 - [Paramétrer un profil de fonctionnalité de la vente au détail](retail-functionality-profile.md)
-- [Paramétrer un carnet d'adresses d'employé](new-address-book.md)
-- [Paramétrer une mise en page d'écran](pos-screen-layouts.md)
+- [Paramétrer un carnet d’adresses d’employé](new-address-book.md)
+- [Paramétrer une mise en page d’écran](pos-screen-layouts.md)
 - [Paramétrer une station matérielle](retail-hardware-station-configuration-installation.md)
 
-## <a name="call-center-channel-prerequisites"></a>Conditions préalables du canal de centre d'appels
+## <a name="call-center-channel-prerequisites"></a>Conditions préalables du canal de centre d’appels
 
-- Paramètres du centre d'appels
-- [Commande au centre d'appels et modes de paiement des remboursements](work-with-payments.md)
-- [Modes de livraison et frais du centre d'appels](configure-call-center-delivery.md)
+- Paramètres du centre d’appels
+- [Commande au centre d’appels et modes de paiement des remboursements](work-with-payments.md)
+- [Modes de livraison et frais du centre d’appels](configure-call-center-delivery.md)
 
 ## <a name="online-channel-prerequisites"></a>Conditions préalables pour les canaux en ligne
 
@@ -73,9 +71,9 @@ Avant qu'un canal Dynamics 365 Commerce puisse être créé, plusieurs tâches 
 
 [Présentation des canaux](channels-overview.md)
 
-[Vue d'ensemble des organisations et des hiérarchies d'organisation](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[Vue d’ensemble des organisations et des hiérarchies d’organisation](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
-[Configurer des hiérarchies d'organisation](channels-org-hierarchies.md)
+[Configurer des hiérarchies d’organisation](channels-org-hierarchies.md)
 
 [Créer des entités juridiques](channels-legal-entities.md)
 

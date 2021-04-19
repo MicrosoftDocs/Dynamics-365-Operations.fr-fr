@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 Retail
 description: Cette page vous indique des ressources qui vous permettent de connaître les nouvelles fonctions des dernières versions de Microsoft Dynamics 365 Retail.
 author: sericks007
-manager: AnnBe
 ms.date: 10/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 690e73bfe24be3ba3cf6d25b361b2afb0938d02f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0bbbe8ba0fa2616fa3d93a30a3f53d74c1b746d9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206202"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797092"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Nouveautés et modifications dans Dynamics 365 Retail
 
@@ -43,7 +41,7 @@ Cette page vous indique des ressources qui vous permettent de connaître les nou
 | Dynamics 365 for Finance & Operations - Retail - 8.0.2 | 8.0.35.15211 | 2018 juin | [KB 4340414 Microsoft Dynamics 365 for Finance and Operations - Version 8.0.2, (partie binaire)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4340414&bugId=219341&qc=e2713468c8e09c07d63f960acde805dd89f05409b2f44f8d47ba8b4d8d24491b), [KB 4340413 Microsoft Dynamics 365 for Finance and Operations - Version 8.0.2. (partie X++)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4340413&bugId=219344&qc=977f9cae5b13b9ed618351108bfb5f02e8d0366a28ed0d99a472d9c9941560a3) |
 | Dynamics 365 for Retail - 7.3.2.5 | 7.3.21971.64091 | 2018 juin | [KB 4342134 Microsoft Dynamics 365 for Retail - Version 7.3.2.5 - Package de correctif de bogues 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
-\* Le lien pointe vers un article de la Base de connaissances. Vous devez vous connecter à Lifecycle Services (LCS) pour afficher l'article de la Base de connaissances.
+\* Le lien pointe vers un article de la Base de connaissances. Vous devez vous connecter à Lifecycle Services (LCS) pour afficher l’article de la Base de connaissances.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

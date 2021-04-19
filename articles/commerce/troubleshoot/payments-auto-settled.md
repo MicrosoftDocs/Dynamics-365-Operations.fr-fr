@@ -2,7 +2,6 @@
 title: Les paiements sont automatiquement réglés avant que les commandes ne soient facturées ou expédiées
 description: Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsqu’un paiement est réglé dans le portail Adyen immédiatement lorsqu’une commande est passée, même si la commande client n’a pas été facturée ou expédiée.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 788854a3119eb9ffaf839beb93a5bc15cdcd6387
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 43fe90cf99ddbe42dc89685e7fc747ded5a285c0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585321"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801649"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>Les paiements sont automatiquement réglés avant que les commandes ne soient facturées ou expédiées
 
@@ -30,7 +29,7 @@ ms.locfileid: "5585321"
 
 Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsqu’un paiement est réglé dans le portail Adyen immédiatement lorsqu’une commande est passée, même si la commande client n’a pas été facturée ou expédiée.
 
-## <a name="description"></a>Description 
+## <a name="description"></a>Description
 
 Une fois la commande passée, le paiement est immédiatement réglé sur le portail Adyen, même si la commande client n’a pas été facturée ni expédiée.
 

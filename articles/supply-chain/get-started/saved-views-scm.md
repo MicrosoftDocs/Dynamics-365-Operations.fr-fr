@@ -2,11 +2,9 @@
 title: Vues enregistrées standard pour Supply Chain Management
 description: Cette rubrique décrit les vues enregistrées standard disponibles et explique comment les activer.
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500692"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821247"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Vues enregistrées standard pour Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management comprend plusieurs vues enregistrées que vous pouvez activer et utiliser selon vos besoins. Certaines de ces vues enregistrées standard sont optimisées et nommées pour un rôle ou une tâche spécifique (par exemple, « Contrôle qualité » ou « Réception »). D’autres sont optimisées pour n’inclure que les champs et les paramètres les plus souvent utilisés par les clients selon les statistiques d’utilisation de Microsoft. Ces vues enregistrées sont généralement appelées vues *simplifiées*. Cette rubrique décrit les vues enregistrées standard disponibles et explique comment les activer et les personnaliser.
 
@@ -82,14 +79,16 @@ Le tableau suivant décrit les vues enregistrées disponibles pour le module App
 
 ## <a name="saved-views-for-the-production-control-module"></a>Vues enregistrées pour le module Contrôle de la production
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Le tableau suivant décrit les vues enregistrées disponibles pour le module Contrôle de la production.
 
 | Page | Nom de vue | Afficher la description | Nom de la fonction |
 |---|---|---|---|
-| Page de nomenclature de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production |
-| Page de détails de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production |
-| Page de liste de prélèvements de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production |
-| Page de liste d’ordres de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | Vues enregistrées pour le contrôle de la production |
+| Page de nomenclature de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | (Version préliminaire) Vues enregistrées pour le contrôle de la production |
+| Page de détails de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | (Version préliminaire) Vues enregistrées pour le contrôle de la production |
+| Page de liste de prélèvements de l’ordre de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | (Version préliminaire) Vues enregistrées pour le contrôle de la production |
+| Page de liste d’ordres de fabrication | Simplifié | Cette vue simplifiée ne comprend que les champs les plus souvent utilisés. De cette manière, elle offre une vue d’ensemble plus rapide et un processus de travail simplifié. | (Version préliminaire) Vues enregistrées pour le contrôle de la production |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Vues enregistrées pour le module Vente et marketing
 
