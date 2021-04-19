@@ -2,7 +2,6 @@
 title: Les taxes sur les commandes en ligne ne sont pas correctement calculées
 description: Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsque les taxes sur les commandes en ligne ne sont pas correctement calculées ou lorsque le groupe de taxe sur la ligne de vente n’est pas correctement défini.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 421df7545e285950ef8a3c4b753c8c6dc5f26422
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585317"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801409"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Les taxes sur les commandes en ligne ne sont pas correctement calculées
 
@@ -30,7 +29,7 @@ ms.locfileid: "5585317"
 
 Cette rubrique fournit des conseils de résolution des problèmes qui peuvent aider lorsque les taxes sur les commandes en ligne ne sont pas correctement calculées ou lorsque le groupe de taxe sur la ligne de vente n’est pas correctement défini.
 
-## <a name="description"></a>Description 
+## <a name="description"></a>Description
 
 Lorsqu’une commande e-commerce est passée, les taxes ne sont pas correctement calculées ou le groupe de taxe sur la ligne de vente est défini de manière incorrecte.
 
@@ -69,7 +68,7 @@ Pour configurer les groupes de taxe générale dans Commerce Headquarters, proc�
 1. Sur le raccourci **Taxe selon la destination de vente au détail**, configurez les taxes pour le groupe de taxe.
 
 > [!NOTE]
-> Pour les expéditions qui n’impliquent pas de taxe sur l’adresse du client, l’adresse de livraison de la ligne et les taxes selon la destination qui sont configurées pour le groupe de taxe déterminent le groupe de taxe. Pour plus d'informations, voir [Configurer les taxes pour les magasins en ligne en fonction de la destination](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> Pour les expéditions qui n’impliquent pas de taxe sur l’adresse du client, l’adresse de livraison de la ligne et les taxes selon la destination qui sont configurées pour le groupe de taxe déterminent le groupe de taxe. Pour plus d’informations, voir [Configurer les taxes pour les magasins en ligne en fonction de la destination](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

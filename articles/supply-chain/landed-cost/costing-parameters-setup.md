@@ -2,7 +2,6 @@
 title: Configuration des valeurs des paramètres d’évaluation des coûts
 description: Lorsque vous configurez le module de coût au débarquement, vous pouvez définir plusieurs ensembles de valeurs communes qui seront disponibles lorsque vous sélectionnez des types spécifiques de valeurs de paramètres d’évaluation des coûts dans d’autres parties de l’application. Cette rubrique explique comment configurer ces ensembles de valeurs.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500476"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841933"
 ---
 # <a name="costing-parameter-values-setup"></a>Configuration des valeurs des paramètres d’évaluation des coûts
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Lorsque vous configurez le module **Prix au débarquement**, vous pouvez définir plusieurs ensembles de valeurs communes et de paramètres associés par valeur. Ces valeurs seront ensuite disponibles lorsque vous sélectionnez des types spécifiques de valeurs de paramètres d’évaluation des coûts dans d’autres parties de l’application. Cette rubrique explique comment configurer ces ensembles de valeurs.
 

@@ -2,13 +2,11 @@
 title: Visibilité des exceptions de matières
 description: Cette rubrique décrit comment vous pouvez obtenir une meilleure visibilité des exceptions de matières premières pour les ordres de fabrication et les lots de commandes.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246163"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831984"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilité des exceptions de matières
 
@@ -59,7 +57,11 @@ Lorsque vous sélectionnez la vignette, la page **Libérer dans l’entrepôt** 
 
 Lorsqu’une ligne de nomenclature ou de formule est lancée, elle est ajoutée à une nouvelle vague de production ou à une vague en cours existante, en fonction de la configuration du modèle de vague de production. À l’aide de la configuration du modèle de vague, vous pouvez également paramétrer une vague afin qu’elle soit automatiquement traitée lorsqu’une ligne de nomenclature ou de formule est lancée. Lorsque la vague est traitée, le travail d’entrepôt pour le prélèvement des matières premières est généré. Si le modèle de vague est configuré de manière à ce que les vagues ne soient pas traités au moment du lancement, le vague reste dans un état non traité. La vignette **Vagues non traitées nécessitant une attention** affiche le nombre de lignes de nomenclature et de formule qui ont été lancées dans l’entrepôt pour les vagues non traitées et dont la date de consommation des matières premières est antérieure ou identique à la date de l’espace de travail. Les lignes doivent également être consommées par une ressource opérationnelle qui s’applique au filtre de l’espace de travail.
 
-Lorsque la vignette est sélectionnée, la page **Toutes les vagues de production** est ouverte. Cette page est filtrée en fonction du nombre de vagues en cours contenant des lignes de vague à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette. Dans la page **Toutes les vagues de production**, vous pouvez traiter manuellement la vague.
+Lorsque la vignette est sélectionnée, la page **Toutes les vagues de production** s’ouvre. Cette page est filtrée en fonction du nombre de vagues en cours contenant des lignes de vague à partir des lignes de nomenclature et de formule lancées qui répondent aux critères de la vignette.
+
+### <a name="manually-maintain-production-waves"></a>Tenir à jour manuellement les vagues de production
+
+Sur la page **Toutes les vagues de production**, vous pouvez utiliser les boutons de l’onglet **Vague** du volet Actions pour manuellement **Traiter** et **Lancer** une vague. Vous pouvez également utiliser l’option **Tenir à jour les productions** pour afficher et tenir à jour les données **Pool de nomenclature de production**, qui sont utilisées pour gérer le processus de vague.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Travail d’entrepôt en cours nécessitant une attention
 

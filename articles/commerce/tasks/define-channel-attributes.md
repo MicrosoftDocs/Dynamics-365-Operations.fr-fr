@@ -2,11 +2,9 @@
 title: Définir les attributs de canal
 description: Enrichissez le canal en ajoutant des attributs de canal et de produit.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,29 +14,29 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f0c774c6fca47bf046fc4f73baac18319e0d125
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256923"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791581"
 ---
 # <a name="define-channel-attributes"></a>Définir les attributs de canal
 
 [!include [banner](../includes/banner.md)]
 
-Enrichissez le canal en ajoutant des attributs de canal et de produit. Vous devez ajouter le canal à la hiérarchie par défaut de l'organisation pour être en mesure de définir les attributs.
+Enrichissez le canal en ajoutant des attributs de canal et de produit. Vous devez ajouter le canal à la hiérarchie par défaut de l’organisation pour être en mesure de définir les attributs.
 
 
-## <a name="define-channel-product-attribute"></a>Définissez l'attribut de produit de canal.
+## <a name="define-channel-product-attribute"></a>Définissez l’attribut de produit de canal.
 1. Accédez à Commerce et vente au détail > Paramétrage du canal > Catégories de canal et attributs de produit.
-2. Dans l'arborescence, sélectionnez « Contoso Retail\Fashion\Houston ».
+2. Dans l’arborescence, sélectionnez « Contoso Retail\Fashion\Houston ».
 3. Cliquez sur Modifier.
 4. Dans le champ Hiérarchie de catégories, saisissez ou sélectionnez une valeur.
     * La hiérarchie de navigation sera utilisée pour déplacer le produit au sein de vos canaux.  
-5. Développez la section Groupe d'attributs.
+5. Développez la section Groupe d’attributs.
 6. Cliquez sur Ajouter.
-    * Le groupe d'attributs sera affiché dans les détails du produit, et sera également utile lors de l'utilisation du filtre de produits.  
+    * Le groupe d’attributs sera affiché dans les détails du produit, et sera également utile lors de l’utilisation du filtre de produits.  
 7. Saisissez ou sélectionnez une valeur dans le champ Nom.
 8. Cliquez sur Afficher les attributs.
 9. Développer la section Attributs.
@@ -67,7 +65,7 @@ Enrichissez le canal en ajoutant des attributs de canal et de produit. Vous deve
 30. Fermez la page.
 31. Cliquez sur Enregistrer.
 32. Cliquez sur Publier les mises à jour du canal.
-    * Après la publication, les données seront prêtes pour la synchronisation avec les tables des canaux. Si vous n'avez pas effectué la publication, les données modifiées ne seront pas synchronisées avec les tables des canaux.  
+    * Après la publication, les données seront prêtes pour la synchronisation avec les tables des canaux. Si vous n’avez pas effectué la publication, les données modifiées ne seront pas synchronisées avec les tables des canaux.  
 33. Cliquez sur OK.
 34. Cliquez sur Enregistrer.
 

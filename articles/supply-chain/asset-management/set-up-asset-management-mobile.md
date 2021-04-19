@@ -2,11 +2,9 @@
 title: Configurer l’espace de travail mobile Gestion des actifs
 description: Cette rubrique décrit comment configurer Microsoft Dynamics 365 Supply Chain Management et l’application mobile Finance and Operations (Dynamics 365) pour exécuter un espace de travail mobile Gestion des actifs que les collaborateurs peuvent utiliser pour effectuer des tâches de gestion des actifs.
 author: johanhoffmann
-manager: tfehr
 ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 54da27a022dcc800438b96224370228aa8eed261
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226145"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837775"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurer l’espace de travail mobile Gestion des actifs
 

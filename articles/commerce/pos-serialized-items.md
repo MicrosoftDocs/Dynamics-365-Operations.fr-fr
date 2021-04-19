@@ -2,11 +2,9 @@
 title: Utiliser des articles en séries dans le PDV
 description: Cette rubrique explique comment gérer les articles en série dans l’application de point de vente (PDV).
 author: boycezhu
-manager: annbe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ee79fef3300ebea476ea37adc4cc61a9bbadb5d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39135111a8e7bf16d1e56ca42726ae8a8e130c5d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231246"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798679"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Utiliser des articles en séries dans le PDV
 
@@ -91,44 +89,44 @@ Pour activer cette validation, vous devez au préalable planifier l’exécution
 
 ## <a name="sell-serialized-items-in-pos"></a>Vendre des articles sérialisés dans le PDV
 
-Bien que l'application de PDV ait toujours pris en charge la vente d'articles sérialisés, dans Commerce version 10.0.17 et ultérieure, les organisations peuvent activer des fonctionnalités qui améliorent la logique métier déclenchée lors de la vente de produits configurés pour le suivi du numéro de série.
+Bien que l’application de PDV ait toujours pris en charge la vente d’articles sérialisés, dans Commerce version 10.0.17 et ultérieure, les organisations peuvent activer des fonctionnalités qui améliorent la logique métier déclenchée lors de la vente de produits configurés pour le suivi du numéro de série.
 
-Quand la fonction **Validation améliorée du numéro de série dans la capture des commandes du PDV et l'exécution des commandes** est activée, les configurations de produit suivantes sont évaluées lors de la vente de produits sérialisés dans le PDV :
+Quand la fonction **Validation améliorée du numéro de série dans la capture des commandes du PDV et l’exécution des commandes** est activée, les configurations de produit suivantes sont évaluées lors de la vente de produits sérialisés dans le PDV :
 
 - **Type de série** configuré pour le produit (**actif** ou **actif dans les ventes**).
 - Paramètres **Sortie nulle autorisée** pour le produit.
-- Paramètres **Stock physique négatif** pour le produit et/ou l'entrepôt de vente.
+- Paramètres **Stock physique négatif** pour le produit et/ou l’entrepôt de vente.
 
 ### <a name="active-serial-configurations"></a>Configurations en série actives
 
-Lorsque des articles sont vendus dans des PDV configurés avec une dimension de suivi du numéro de série **Active**, le PDV lance une logique de validation qui empêche les utilisateurs de terminer la vente d'un article sérialisé avec un numéro de série introuvable dans l'inventaire actuel de l'entrepôt de vente. Il existe deux exceptions à cette règle de validation :
+Lorsque des articles sont vendus dans des PDV configurés avec une dimension de suivi du numéro de série **Active**, le PDV lance une logique de validation qui empêche les utilisateurs de terminer la vente d’un article sérialisé avec un numéro de série introuvable dans l’inventaire actuel de l’entrepôt de vente. Il existe deux exceptions à cette règle de validation :
 
-- Si l'élément est également configuré avec l'option **Sortie nulle autorisée** activée, les utilisateurs peuvent ignorer l'entrée du numéro de série et vendre l'article sans désignation de numéro de série.
-- Si l'article et/ou l'entrepôt de vente est configuré avec l'option **Stock physique négatif** activée, l'application accepte et vend un numéro de série qui ne peut pas être confirmé comme étant en stock dans l'entrepôt auquel il est vendu. Cette configuration permet à la transaction d'inventaire pour cet article/ce numéro de série spécifique d'être négatif et, par conséquent, le système autorisera les ventes de numéros de série inconnus.
+- Si l’élément est également configuré avec l’option **Sortie nulle autorisée** activée, les utilisateurs peuvent ignorer l’entrée du numéro de série et vendre l’article sans désignation de numéro de série.
+- Si l’article et/ou l’entrepôt de vente est configuré avec l’option **Stock physique négatif** activée, l’application accepte et vend un numéro de série qui ne peut pas être confirmé comme étant en stock dans l’entrepôt auquel il est vendu. Cette configuration permet à la transaction d’inventaire pour cet article/ce numéro de série spécifique d’être négatif et, par conséquent, le système autorisera les ventes de numéros de série inconnus.
 
 > [!IMPORTANT]
-> Pour s'assurer que l'application PDV peut valider correctement que les numéros de série vendus pour les articles de type série **actifs** sont bien en stock dans l'entrepôt de vente, il est nécessaire que les organisations exécutent la tâche **Disponibilité du produit avec dimensions de suivi** dans Commerce Headquarters et la tâche de distribution de disponibilité des produits **1130** associée via Commerce Headquarters sur une base fréquente. Au fur et à mesure que le nouvel inventaire sérialisé est reçu dans les entrepôts de vente, pour que le PDV valide la disponibilité en stock des numéros de série vendus, le stock principal doit fréquemment mettre à jour la base de données des canaux avec les données de disponibilité les plus à jour. La tâche **Disponibilité du produit avec dimensions de suivi** prend un instantané du stock principal, y compris les numéros de série, pour tous les entrepôts de l'entreprise. La tâche de distribution **1130** prend cet instantané du stock et le partage avec toutes les bases de données de canaux configurées.
+> Pour s’assurer que l’application PDV peut valider correctement que les numéros de série vendus pour les articles de type série **actifs** sont bien en stock dans l’entrepôt de vente, il est nécessaire que les organisations exécutent la tâche **Disponibilité du produit avec dimensions de suivi** dans Commerce Headquarters et la tâche de distribution de disponibilité des produits **1130** associée via Commerce Headquarters sur une base fréquente. Au fur et à mesure que le nouvel inventaire sérialisé est reçu dans les entrepôts de vente, pour que le PDV valide la disponibilité en stock des numéros de série vendus, le stock principal doit fréquemment mettre à jour la base de données des canaux avec les données de disponibilité les plus à jour. La tâche **Disponibilité du produit avec dimensions de suivi** prend un instantané du stock principal, y compris les numéros de série, pour tous les entrepôts de l’entreprise. La tâche de distribution **1130** prend cet instantané du stock et le partage avec toutes les bases de données de canaux configurées.
 
 ### <a name="active-in-sales-process-serial-configurations"></a>Configurations en série Actif dans le processus de vente
 
-Les articles configurés avec la dimension de série **Actif dans le processus de vente** ne passent par aucune logique de validation de l'inventaire, car cette configuration implique que les numéros de série d'inventaire ne sont pas pré-enregistrés en stock et que les numéros de série ne sont capturés qu'au moment de la vente.  
+Les articles configurés avec la dimension de série **Actif dans le processus de vente** ne passent par aucune logique de validation de l’inventaire, car cette configuration implique que les numéros de série d’inventaire ne sont pas pré-enregistrés en stock et que les numéros de série ne sont capturés qu’au moment de la vente.  
 
-Si l'option **Sortie nulle autorisée** est également configurée pour les éléments configurés **Actif dans le processus de vente**, l'entrée du numéro de série peut être ignorée. Si l'option **Sortie nulle autorisée** n'est pas configurée, l'application demande à l'utilisateur de saisir un numéro de série, même s'il ne sera pas validé par rapport à l'inventaire disponible.
+Si l’option **Sortie nulle autorisée** est également configurée pour les éléments configurés **Actif dans le processus de vente**, l’entrée du numéro de série peut être ignorée. Si l’option **Sortie nulle autorisée** n’est pas configurée, l’application demande à l’utilisateur de saisir un numéro de série, même s’il ne sera pas validé par rapport à l’inventaire disponible.
 
 ### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Appliquer les numéros de série lors de la création des transactions du PDV
 
-L'application du PDV invite immédiatement les utilisateurs à saisir le numéro de série lors de la vente d'un article sérialisé, mais l'application permet aux utilisateurs d'ignorer la saisie de numéros de série jusqu'à un certain point du processus de vente. Lorsque l'utilisateur commence à capturer le paiement, l'application applique et exige la saisie du numéro de série pour tous les articles qui ne sont pas configurés pour être traités par des expéditions ou des collectes futures. Tous les articles sérialisés configurés pour le cash and carry et le report exigent que l'utilisateur saisisse le numéro de série (ou accepte de le laisser vide si la configuration de l'article le permet) avant de conclure la vente.
+L’application du PDV invite immédiatement les utilisateurs à saisir le numéro de série lors de la vente d’un article sérialisé, mais l’application permet aux utilisateurs d’ignorer la saisie de numéros de série jusqu’à un certain point du processus de vente. Lorsque l’utilisateur commence à capturer le paiement, l’application applique et exige la saisie du numéro de série pour tous les articles qui ne sont pas configurés pour être traités par des expéditions ou des collectes futures. Tous les articles sérialisés configurés pour le cash and carry et le report exigent que l’utilisateur saisisse le numéro de série (ou accepte de le laisser vide si la configuration de l’article le permet) avant de conclure la vente.
 
 Pour les articles sérialisés vendus pour un retrait ou une expédition future, les utilisateurs du PDV peuvent ignorer la saisie initiale du numéro de série et terminer la création de la commande client.   
 
 > [!NOTE]
-> Lors de la vente ou de l'exécution de produits sérialisés via l'application du PDV, une quantité de « 1 » est appliquée pour les articles sérialisés sur la transaction de vente. Cela résulte de la manière dont les informations du numéro de série sont suivies sur la ligne de vente. Lors de la vente ou de l'exécution d'une transaction pour plusieurs articles sérialisés via le PDV, chaque ligne de vente doit être configurée uniquement avec une quantité de « 1 ». 
+> Lors de la vente ou de l’exécution de produits sérialisés via l’application du PDV, une quantité de « 1 » est appliquée pour les articles sérialisés sur la transaction de vente. Cela résulte de la manière dont les informations du numéro de série sont suivies sur la ligne de vente. Lors de la vente ou de l’exécution d’une transaction pour plusieurs articles sérialisés via le PDV, chaque ligne de vente doit être configurée uniquement avec une quantité de « 1 ». 
 
-### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Appliquer les numéros de série lors de l'exécution ou du retrait de la commande client
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Appliquer les numéros de série lors de l’exécution ou du retrait de la commande client
 
-Lors du traitement des lignes de commande client pour les produits sérialisés à l'aide de l'opération **Exécution des commandes** dans le PDV, le PDV applique la capture du numéro de série avant l'exécution finale. Par conséquent, si un numéro de série n'a pas été fourni lors de la capture initiale de la commande, il doit être capturé lors des processus de retrait, d'emballage ou d'expédition dans le PDV. Une validation est effectuée à chaque étape et l'utilisateur ne sera invité à saisir les données du numéro de série que si elles sont manquantes ou ne sont plus valides. Par exemple, si un utilisateur ignore les étapes de retrait ou d'emballage et lance immédiatement un envoi, et qu'un numéro de série n'a pas été enregistré pour la ligne, le PDV exigera que le numéro de série soit entré avant la fin de l'étape de facturation finale. Lors de la capture du numéro de série lors des opérations de traitement des commandes dans le PDV, toutes les règles mentionnées précédemment dans cette rubrique s'appliquent toujours. Seuls les éléments sérialisés configurés comme **Actif** passent par une validation de stock d'inventaire de numéro de série. Les éléments configurés comme **Actif dans le processus de vente** ne seront pas validés. Si **Stock physique négatif** est autorisé pour les produits **Actif**, tout numéro de série est accepté, quelle que soit la disponibilité des stocks. Pour les articles **Actif** et **Actif dans le processus de vente**, si **Sortie nulle autorisée** est configuré, un utilisateur peut laisser les numéros de série vides s'il le souhaite pendant les étapes de retrait, d'emballage et d'expédition.
+Lors du traitement des lignes de commande client pour les produits sérialisés à l’aide de l’opération **Exécution des commandes** dans le PDV, le PDV applique la capture du numéro de série avant l’exécution finale. Par conséquent, si un numéro de série n’a pas été fourni lors de la capture initiale de la commande, il doit être capturé lors des processus de retrait, d’emballage ou d’expédition dans le PDV. Une validation est effectuée à chaque étape et l’utilisateur ne sera invité à saisir les données du numéro de série que si elles sont manquantes ou ne sont plus valides. Par exemple, si un utilisateur ignore les étapes de retrait ou d’emballage et lance immédiatement un envoi, et qu’un numéro de série n’a pas été enregistré pour la ligne, le PDV exigera que le numéro de série soit entré avant la fin de l’étape de facturation finale. Lors de la capture du numéro de série lors des opérations de traitement des commandes dans le PDV, toutes les règles mentionnées précédemment dans cette rubrique s’appliquent toujours. Seuls les éléments sérialisés configurés comme **Actif** passent par une validation de stock d’inventaire de numéro de série. Les éléments configurés comme **Actif dans le processus de vente** ne seront pas validés. Si **Stock physique négatif** est autorisé pour les produits **Actif**, tout numéro de série est accepté, quelle que soit la disponibilité des stocks. Pour les articles **Actif** et **Actif dans le processus de vente**, si **Sortie nulle autorisée** est configuré, un utilisateur peut laisser les numéros de série vides s’il le souhaite pendant les étapes de retrait, d’emballage et d’expédition.
 
-Les validations des numéros de série se produiront également lorsqu'un utilisateur effectue les opérations de retrait sur les commandes des clients dans le PDV. L'application de PDV ne permet pas de finaliser un retrait de produit sérialisé sauf s'il obtient les validations mentionnées précédemment. Les validations sont toujours basées sur la dimension de suivi du produit et la vente de configurations d'entrepôt. 
+Les validations des numéros de série se produiront également lorsqu’un utilisateur effectue les opérations de retrait sur les commandes des clients dans le PDV. L’application de PDV ne permet pas de finaliser un retrait de produit sérialisé sauf s’il obtient les validations mentionnées précédemment. Les validations sont toujours basées sur la dimension de suivi du produit et la vente de configurations d’entrepôt. 
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -2,11 +2,9 @@
 title: Résoudre les problèmes de mise à niveau et de migration vers la gestion avancée des entrepôts
 description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors de la mise à niveau et la migration vers la gestion des entrepôts avancée.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208085"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826393"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Résoudre les problèmes de mise à niveau et de migration vers la gestion avancée des entrepôts
 
@@ -34,11 +32,11 @@ Cette rubrique décrit comment résoudre les problèmes courants que vous pourri
 
 ### <a name="issue-description"></a>Description du problème
 
-Vous recevez ce message d’erreur dans l’application d’entrepôt, car les certificats auto-signés ne sont pas approuvés sur Android 8+ dans les environnements sur site.
+Vous recevez ce message d’erreur dans l’application mobile Gestion des entrepôts, car les certificats auto-signés ne sont pas approuvés sur Android 8+ dans les environnements sur site.
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-Utilisez une autorité de certification (CA) externe (publique). Un correctif pour ce problème est disponible dans la version 1.9.0.0 de l’application d’entrepôt. Pour plus d’informations sur ce problème et comment le résoudre, voir [Résoudre les problèmes de connexion de l’application d’entrepôt](troubleshoot-warehouse-app-connection.md).
+Utilisez une autorité de certification (CA) externe (publique). Un correctif pour ce problème est disponible dans la version 1.9.0.0 de l’application d’entrepôt. Pour plus d’informations sur ce problème et comment le résoudre, voir [Résoudre les problèmes de connexion de l’application mobile Gestion des entrepôts](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Quel est le processus approuvé pour passer de l’entreposage de base à l’entreposage avancé ?
 

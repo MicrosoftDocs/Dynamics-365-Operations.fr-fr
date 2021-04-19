@@ -2,11 +2,9 @@
 title: État de stockage de la valeur de stock
 description: Cette rubrique explique comment exécuter un état de stockage des valeurs des stocks et rendre la sortie disponible au format numérique, soit en tant que page interactive dans Microsoft Dynamics 365 Supply Chain Management ou en tant que document exporté dans l’un des différents formats.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6f0c382c56ea0c576134f2871cba7a71b44e6528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f32e175319d93ed1323129f1ea2896a435d8081c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262475"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821559"
 ---
 # <a name="inventory-value-storage-report"></a>État de stockage de la valeur de stock
 

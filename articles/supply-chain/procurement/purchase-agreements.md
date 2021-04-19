@@ -1,12 +1,10 @@
 ---
 title: Contrats d’achat
 description: Cet article fournit des informations sur les contrats d’achat. Un contrat d’achat est un contrat par lequel une organisation s’engage à acheter une quantité ou un montant spécifique au moyen de plusieurs commandes fournisseur sur une certaine période. En échange de cet engagement, l’acheteur a droit à des prix spéciaux et des remises.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9d97461efb39154e1e9b63c20669985aad349d0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247764"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825444"
 ---
 # <a name="purchase-agreements"></a>Contrats d’achat
 

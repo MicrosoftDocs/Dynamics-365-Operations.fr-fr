@@ -2,7 +2,6 @@
 title: Transactions de dépassement/d’insuffisance
 description: Cette rubrique fournit des informations qui vous aideront à configurer les détails des stratégies pour les transactions de sur/sous-traitance, afin que le système puisse déterminer comment gérer le sur-traitement et le sous-traitement des marchandises au moment de la réception.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500980"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833735"
 ---
 # <a name="overunder-transactions"></a>Transactions de dépassement/d’insuffisance
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Lorsque les commandes d’un voyage sont traitées, le système s’attend à ce que la quantité d’articles reçus dans l’entrepôt de destination finale pour consommation corresponde à la quantité spécifiée sur les lignes de commande fournisseur associées au voyage. Cependant, comme la quantité exacte sur les lignes de commande fournisseur n’est pas toujours reçue dans l’entrepôt, le module **Coût au débarquement** définit un ensemble de règles utilisées pour gérer la sur-réception et la sous-réception de marchandises. Ces règles sont particulièrement importantes car la commande fournisseur d’origine a été facturé et ne peut plus être modifié. En configurant les détails des stratégies pour les transactions de sur/sous-traitement, vous permettez au système de déterminer comment gérer le sur-traitement et le sous-traitement des marchandises au moment de la réception. Vous pouvez également gérer manuellement le sur et le sous-stock en utilisant la page **Plus/moins de transactions**.
 

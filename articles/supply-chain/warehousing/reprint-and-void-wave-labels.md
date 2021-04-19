@@ -2,10 +2,8 @@
 title: Réimpression et annulation d’étiquettes de vague
 description: Cette rubrique explique comment annuler et réimprimer des étiquettes de vague existantes.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
@@ -13,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3d67052d47cf23acbb51354773fbd306545bbfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228367"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817363"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Réimpression et annulation d’étiquettes de vague
 
@@ -218,5 +216,8 @@ Les exceptions de travail contrôlent le comportement du prélèvement partiel. 
 1. Sélectionnez le code d’exception de travail que vous avez créé pour ce scénario.
 1. Si vous avez sélectionné l’exception correcte, la case à cocher **Annulation et réimpression** doit être disponible. Cochez cette case et confirmez. Une fois l’opération confirmée, la séquence de rouleau d’étiquettes identifiée par le champ **ID de build d’étiquette** est recalculée en fonction de la quantité de la ligne de travail modifiée. Elle est ensuite réimprimée sur l’imprimante spécifiée.
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Impression d’étiquettes de la vague](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Vue d’ensemble de l’enregistrement de pointage
 description: 'Les collaborateurs qualifiés pour l’enregistrement des heures peuvent entrer plusieurs types d’enregistrements d’heures : par exemple, le pointage à l’arrivée, le pointage à la sortie, l’enregistrement des activités indirectes et l’enregistrement des absences. Cette rubrique décrit les enregistrements, leur calcul, leur approbation, et l’utilisation du workflow pour ajouter la structure et l’approbation automatisée au processus d’approbation des feuilles de temps.'
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22ad53e333e6c85f8e55f04c27c6573c5738ec84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ed7a596ef0c8a17cdc2e8b943d3f73d00340f26e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226687"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840819"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Vue d’ensemble de l’enregistrement de pointage
 
