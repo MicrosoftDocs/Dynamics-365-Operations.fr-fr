@@ -2,11 +2,9 @@
 title: Terminer un ordre de fabrication
 description: Cette procédure permet d’indiquer comment mettre fin à un ordre de fabrication.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,36 +13,36 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 994f4ca578de970876f714bb397afeea1f39c15c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 577b026c950885524b726b09eb4df1ee7cf06837
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240339"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828680"
 ---
-# <a name="end-a-production-order"></a><span data-ttu-id="7bcee-103">Terminer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="7bcee-103">End a production order</span></span>
+# <a name="end-a-production-order"></a><span data-ttu-id="c2c7b-103">Terminer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="c2c7b-103">End a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7bcee-104">Cette procédure permet d’indiquer comment mettre fin à un ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="7bcee-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="7bcee-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="7bcee-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7bcee-106">Il s’agit de la dernière des sept procédures expliquant le cycle de vie de l’ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="7bcee-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="c2c7b-104">Cette procédure permet d’indiquer comment mettre fin à un ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="c2c7b-105">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c2c7b-106">Il s’agit de la dernière des sept procédures expliquant le cycle de vie de l’ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="end-a-production-order"></a><span data-ttu-id="7bcee-107">Terminer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="7bcee-107">End a production order</span></span>
-1. <span data-ttu-id="7bcee-108">Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="7bcee-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="7bcee-109">Sélectionnez un ordre de fabrication dont le statut est Déclaré terminé.</span><span class="sxs-lookup"><span data-stu-id="7bcee-109">Select a production order that has the status Reported as finished.</span></span>  
-2. <span data-ttu-id="7bcee-110">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="7bcee-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="7bcee-111">Cliquez sur Fin.</span><span class="sxs-lookup"><span data-stu-id="7bcee-111">Click End.</span></span>
-    * <span data-ttu-id="7bcee-112">Dans cette page, vous pouvez confirmer que vous voulez mettre fin à l’ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="7bcee-112">On this page, you can confirm that you want to end the production order.</span></span>  
-4. <span data-ttu-id="7bcee-113">Cliquez sur l’onglet Général.</span><span class="sxs-lookup"><span data-stu-id="7bcee-113">Click the General tab.</span></span>
-5. <span data-ttu-id="7bcee-114">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="7bcee-114">In the Date field, enter a date.</span></span>
-6. <span data-ttu-id="7bcee-115">Dans le champ Mode de mise au rebut, sélectionnez « Répartition ».</span><span class="sxs-lookup"><span data-stu-id="7bcee-115">In the Scrap method field, select 'Allocation'.</span></span>
-    * <span data-ttu-id="7bcee-116">Lorsque vous sélectionnez la méthode de répartition, les coûts des matières mises au rebut sont ajoutés à ceux des produits finis.</span><span class="sxs-lookup"><span data-stu-id="7bcee-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
-7. <span data-ttu-id="7bcee-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="7bcee-117">Click OK.</span></span>
+## <a name="end-a-production-order"></a><span data-ttu-id="c2c7b-107">Terminer un ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="c2c7b-107">End a production order</span></span>
+1. <span data-ttu-id="c2c7b-108">Accédez à Contrôle de la production > Ordres de fabrication > Tous les ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="c2c7b-109">Sélectionnez un ordre de fabrication dont le statut est Déclaré terminé.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-109">Select a production order that has the status Reported as finished.</span></span>  
+2. <span data-ttu-id="c2c7b-110">Cliquez sur Ordre de fabrication dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="c2c7b-111">Cliquez sur Fin.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-111">Click End.</span></span>
+    * <span data-ttu-id="c2c7b-112">Dans cette page, vous pouvez confirmer que vous voulez mettre fin à l’ordre de fabrication.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-112">On this page, you can confirm that you want to end the production order.</span></span>  
+4. <span data-ttu-id="c2c7b-113">Cliquez sur l’onglet Général.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-113">Click the General tab.</span></span>
+5. <span data-ttu-id="c2c7b-114">Entrez une date dans le champ Date.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-114">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="c2c7b-115">Dans le champ Mode de mise au rebut, sélectionnez « Répartition ».</span><span class="sxs-lookup"><span data-stu-id="c2c7b-115">In the Scrap method field, select 'Allocation'.</span></span>
+    * <span data-ttu-id="c2c7b-116">Lorsque vous sélectionnez la méthode de répartition, les coûts des matières mises au rebut sont ajoutés à ceux des produits finis.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
+7. <span data-ttu-id="c2c7b-117">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-117">Click OK.</span></span>
 
-## <a name="validate-calculation-results"></a><span data-ttu-id="7bcee-118">Valider les résultats du calcul</span><span class="sxs-lookup"><span data-stu-id="7bcee-118">Validate calculation results</span></span>
-1. <span data-ttu-id="7bcee-119">Cliquez sur Gérer les coûts dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="7bcee-119">On the Action Pane, click Manage costs.</span></span>
-2. <span data-ttu-id="7bcee-120">Cliquez sur Afficher la comparaison du coût.</span><span class="sxs-lookup"><span data-stu-id="7bcee-120">Click View cost comparison.</span></span>
-    * <span data-ttu-id="7bcee-121">Après avoir terminé l’ordre de fabrication, vous pouvez comparer le prix de revient estimé par rapport au prix de revient réel afin d’obtenir une vue d’ensemble des écarts de production.</span><span class="sxs-lookup"><span data-stu-id="7bcee-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
+## <a name="validate-calculation-results"></a><span data-ttu-id="c2c7b-118">Valider les résultats du calcul</span><span class="sxs-lookup"><span data-stu-id="c2c7b-118">Validate calculation results</span></span>
+1. <span data-ttu-id="c2c7b-119">Cliquez sur Gérer les coûts dans le volet Actions.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-119">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="c2c7b-120">Cliquez sur Afficher la comparaison du coût.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-120">Click View cost comparison.</span></span>
+    * <span data-ttu-id="c2c7b-121">Après avoir terminé l’ordre de fabrication, vous pouvez comparer le prix de revient estimé par rapport au prix de revient réel afin d’obtenir une vue d’ensemble des écarts de production.</span><span class="sxs-lookup"><span data-stu-id="c2c7b-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
