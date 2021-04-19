@@ -2,11 +2,9 @@
 title: Configurer le mode de paiement pour le débit direct ISO20022
 description: Cette procédure indique comment paramétrer le mode de paiement client pour le débit direct ISO20022 ou un autre type de paiement en utilisant les états électroniques.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode
 audience: Application User
@@ -15,42 +13,42 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2ce4e1e960e04c0033990f99eb71897c7ea730f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9c6a692553867d7e8679099210dc44b9d9e4d0f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208405"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838680"
 ---
-# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="2c435-103">Configurer le mode de paiement pour le débit direct ISO20022</span><span class="sxs-lookup"><span data-stu-id="2c435-103">Setup method of payment for ISO20022 direct debit</span></span>
+# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="b7007-103">Configurer le mode de paiement pour le débit direct ISO20022</span><span class="sxs-lookup"><span data-stu-id="b7007-103">Setup method of payment for ISO20022 direct debit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="2c435-104">Cette procédure indique comment paramétrer le mode de paiement client pour le débit direct ISO20022 ou un autre type de paiement en utilisant les états électroniques.</span><span class="sxs-lookup"><span data-stu-id="2c435-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
+<span data-ttu-id="b7007-104">Cette procédure indique comment paramétrer le mode de paiement client pour le débit direct ISO20022 ou un autre type de paiement en utilisant les états électroniques.</span><span class="sxs-lookup"><span data-stu-id="b7007-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
 
 
 
-<span data-ttu-id="2c435-105">Avant d’effectuer cette tâche, vous devez paramétrer les configurations du format d’exportation et les comptes de paiement.</span><span class="sxs-lookup"><span data-stu-id="2c435-105">Before you complete this task, you must set up export format configurations and payment accounts.</span></span>
+<span data-ttu-id="b7007-105">Avant d’effectuer cette tâche, vous devez paramétrer les configurations du format d’exportation et les comptes de paiement.</span><span class="sxs-lookup"><span data-stu-id="b7007-105">Before you complete this task, you must set up export format configurations and payment accounts.</span></span>
 
 
 
-<span data-ttu-id="2c435-106">Cette procédure a été créée à l’aide des données fictives de la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="2c435-106">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="b7007-106">Cette procédure a été créée à l’aide des données fictives de la société DEMF.</span><span class="sxs-lookup"><span data-stu-id="b7007-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
 
-<span data-ttu-id="2c435-107">Il s’agit de la troisième des cinq procédures illustrant le processus de paiement client à l’aide des configurations de génération d’états électroniques.</span><span class="sxs-lookup"><span data-stu-id="2c435-107">This is the third of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="b7007-107">Il s’agit de la troisième des cinq procédures illustrant le processus de paiement client à l’aide des configurations de génération d’états électroniques.</span><span class="sxs-lookup"><span data-stu-id="b7007-107">This is the third of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
-1. <span data-ttu-id="2c435-108">Accédez à Comptabilité client > Paramétrage des paiements > Modes de paiement.</span><span class="sxs-lookup"><span data-stu-id="2c435-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
-2. <span data-ttu-id="2c435-109">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="2c435-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="2c435-110">Par exemple, filtrez sur le champ Mode de paiement. avec une valeur de « ÉLECTRONIQUE ».</span><span class="sxs-lookup"><span data-stu-id="2c435-110">For example, filter on the Method of payment field with a value of 'ELECTRONIC'.</span></span>
-3. <span data-ttu-id="2c435-111">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="2c435-111">Click Edit.</span></span>
-4. <span data-ttu-id="2c435-112">Dans le champ Compte de paiement, indiquez les valeurs DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="2c435-112">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
-5. <span data-ttu-id="2c435-113">Développez la section Formats de fichier.</span><span class="sxs-lookup"><span data-stu-id="2c435-113">Expand the File formats section.</span></span>
-6. <span data-ttu-id="2c435-114">Sélectionnez Oui dans le champ États électroniques génériques.</span><span class="sxs-lookup"><span data-stu-id="2c435-114">Select Yes in the Generic electronic reporting field.</span></span>
-7. <span data-ttu-id="2c435-115">Entrez ou sélectionnez une valeur dans le champ Exporter la configuration du format.</span><span class="sxs-lookup"><span data-stu-id="2c435-115">In the Export format configuration field, enter or select a value.</span></span>
-    * <span data-ttu-id="2c435-116">Dans la liste, sélectionnez Débit direct ISO20022 (Allemagne).</span><span class="sxs-lookup"><span data-stu-id="2c435-116">In the list, select ISO20022 Direct debit (DE).</span></span>  <span data-ttu-id="2c435-117">Si cette liste est vide, la configuration du format d’exportation de paiement client n’est pas importée et active.</span><span class="sxs-lookup"><span data-stu-id="2c435-117">If the list is empty, the customer payment export format configuration has not been imported and active.</span></span>  
-8. <span data-ttu-id="2c435-118">Sélectionnez Oui dans le champ Demander un mandat.</span><span class="sxs-lookup"><span data-stu-id="2c435-118">Select Yes in the Require mandate field.</span></span>
-    * <span data-ttu-id="2c435-119">Sélectionnez le paramètre Demander un mandat pour les formats de paiement client, qui nécessitent d’inclure les informations de mandat dans le message de paiement, par exemple le débit direct SEPA.</span><span class="sxs-lookup"><span data-stu-id="2c435-119">Select the Require mandate parameter for customer payment formats, which require including mandate information in the payment message, like SEPA direct debit.</span></span>  
-9. <span data-ttu-id="2c435-120">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="2c435-120">Click Save.</span></span>
+1. <span data-ttu-id="b7007-108">Accédez à Comptabilité client > Paramétrage des paiements > Modes de paiement.</span><span class="sxs-lookup"><span data-stu-id="b7007-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="b7007-109">Utilisez le Filtre rapide pour rechercher les enregistrements.</span><span class="sxs-lookup"><span data-stu-id="b7007-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="b7007-110">Par exemple, filtrez sur le champ Mode de paiement. avec une valeur de « ÉLECTRONIQUE ».</span><span class="sxs-lookup"><span data-stu-id="b7007-110">For example, filter on the Method of payment field with a value of 'ELECTRONIC'.</span></span>
+3. <span data-ttu-id="b7007-111">Cliquez sur Modifier.</span><span class="sxs-lookup"><span data-stu-id="b7007-111">Click Edit.</span></span>
+4. <span data-ttu-id="b7007-112">Dans le champ Compte de paiement, indiquez les valeurs DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="b7007-112">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
+5. <span data-ttu-id="b7007-113">Développez la section Formats de fichier.</span><span class="sxs-lookup"><span data-stu-id="b7007-113">Expand the File formats section.</span></span>
+6. <span data-ttu-id="b7007-114">Sélectionnez Oui dans le champ États électroniques génériques.</span><span class="sxs-lookup"><span data-stu-id="b7007-114">Select Yes in the Generic electronic reporting field.</span></span>
+7. <span data-ttu-id="b7007-115">Entrez ou sélectionnez une valeur dans le champ Exporter la configuration du format.</span><span class="sxs-lookup"><span data-stu-id="b7007-115">In the Export format configuration field, enter or select a value.</span></span>
+    * <span data-ttu-id="b7007-116">Dans la liste, sélectionnez Débit direct ISO20022 (Allemagne).</span><span class="sxs-lookup"><span data-stu-id="b7007-116">In the list, select ISO20022 Direct debit (DE).</span></span>  <span data-ttu-id="b7007-117">Si cette liste est vide, la configuration du format d’exportation de paiement client n’est pas importée et active.</span><span class="sxs-lookup"><span data-stu-id="b7007-117">If the list is empty, the customer payment export format configuration has not been imported and active.</span></span>  
+8. <span data-ttu-id="b7007-118">Sélectionnez Oui dans le champ Demander un mandat.</span><span class="sxs-lookup"><span data-stu-id="b7007-118">Select Yes in the Require mandate field.</span></span>
+    * <span data-ttu-id="b7007-119">Sélectionnez le paramètre Demander un mandat pour les formats de paiement client, qui nécessitent d’inclure les informations de mandat dans le message de paiement, par exemple le débit direct SEPA.</span><span class="sxs-lookup"><span data-stu-id="b7007-119">Select the Require mandate parameter for customer payment formats, which require including mandate information in the payment message, like SEPA direct debit.</span></span>  
+9. <span data-ttu-id="b7007-120">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="b7007-120">Click Save.</span></span>
 
 
 

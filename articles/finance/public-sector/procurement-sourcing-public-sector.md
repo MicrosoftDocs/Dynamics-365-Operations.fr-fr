@@ -2,11 +2,9 @@
 title: Approvisionnements dans le secteur public
 description: Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public. Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, BudgetParameters, ProcCategoryHierarchyManagement, PurchTableListPage, smmActivities, VendCertificationType, VendTableListPage
 audience: Application User
@@ -18,75 +16,75 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be0b3287eabcea8d7bd5877665d2c5b95451d577
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2014a3f08c3f5993fca46173245bf5c7e349d522
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219836"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823540"
 ---
-# <a name="procurement-and-sourcing-in-the-public-sector"></a><span data-ttu-id="38ace-104">Approvisionnements dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="38ace-104">Procurement and sourcing in the public sector</span></span>
+# <a name="procurement-and-sourcing-in-the-public-sector"></a><span data-ttu-id="5be0b-104">Approvisionnements dans le secteur public</span><span class="sxs-lookup"><span data-stu-id="5be0b-104">Procurement and sourcing in the public sector</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="38ace-105">Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="38ace-105">This overview introduces you to the public sector Procurement and sourcing functionality.</span></span> <span data-ttu-id="38ace-106">Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="38ace-106">This includes purchase order codes, vendor certification types, purchase agreement classification functionality, and purchase order line amounts.</span></span>
+<span data-ttu-id="5be0b-105">Cette vue d’ensemble présente la fonctionnalité d’approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="5be0b-105">This overview introduces you to the public sector Procurement and sourcing functionality.</span></span> <span data-ttu-id="5be0b-106">Cela inclut les codes de commande fournisseur, les types de certification des fournisseurs, la fonctionnalité de classification de contrat d’achat, et les montants de ligne de commande fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5be0b-106">This includes purchase order codes, vendor certification types, purchase agreement classification functionality, and purchase order line amounts.</span></span>
 
-<span data-ttu-id="38ace-107">Cet article décrit la fonctionnalité d’approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="38ace-107">This article describes the Procurement and sourcing functionality that is available for the public sector.</span></span> 
+<span data-ttu-id="5be0b-107">Cet article décrit la fonctionnalité d’approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="5be0b-107">This article describes the Procurement and sourcing functionality that is available for the public sector.</span></span> 
 
-## <a name="what-are-the-prerequisites-for-setting-up-procurement-and-sourcing-in-the-public-sector"></a><span data-ttu-id="38ace-108">Quelles sont les conditions préalables au paramétrage des approvisionnements dans le secteur public ?</span><span class="sxs-lookup"><span data-stu-id="38ace-108">What are the prerequisites for setting up Procurement and sourcing in the public sector?</span></span>
-<span data-ttu-id="38ace-109">Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="38ace-109">Before you begin to adjust the settings and input your data, you should:</span></span>
+## <a name="what-are-the-prerequisites-for-setting-up-procurement-and-sourcing-in-the-public-sector"></a><span data-ttu-id="5be0b-108">Quelles sont les conditions préalables au paramétrage des approvisionnements dans le secteur public ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-108">What are the prerequisites for setting up Procurement and sourcing in the public sector?</span></span>
+<span data-ttu-id="5be0b-109">Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez effectuer les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="5be0b-109">Before you begin to adjust the settings and input your data, you should:</span></span>
 
--   <span data-ttu-id="38ace-110">Paramétrage des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="38ace-110">Set up vendors</span></span>
--   <span data-ttu-id="38ace-111">Paramétrer le système de numérotation pour les fournisseurs, les commandes fournisseur, etc.</span><span class="sxs-lookup"><span data-stu-id="38ace-111">Set up the numbering system for vendors, purchase orders, and so on</span></span>
--   <span data-ttu-id="38ace-112">Spécifier les types de certification des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="38ace-112">Specify vendor certification types</span></span>
+-   <span data-ttu-id="5be0b-110">Paramétrage des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="5be0b-110">Set up vendors</span></span>
+-   <span data-ttu-id="5be0b-111">Paramétrer le système de numérotation pour les fournisseurs, les commandes fournisseur, etc.</span><span class="sxs-lookup"><span data-stu-id="5be0b-111">Set up the numbering system for vendors, purchase orders, and so on</span></span>
+-   <span data-ttu-id="5be0b-112">Spécifier les types de certification des fournisseurs</span><span class="sxs-lookup"><span data-stu-id="5be0b-112">Specify vendor certification types</span></span>
 
-<span data-ttu-id="38ace-113">Vous devez peut-être paramétrer les fonctionnalités d’approvisionnement suivantes pour les organisations du secteur public :</span><span class="sxs-lookup"><span data-stu-id="38ace-113">You may need to set up the following Procurement and sourcing features for public sector organizations:</span></span>
+<span data-ttu-id="5be0b-113">Vous devez peut-être paramétrer les fonctionnalités d’approvisionnement suivantes pour les organisations du secteur public :</span><span class="sxs-lookup"><span data-stu-id="5be0b-113">You may need to set up the following Procurement and sourcing features for public sector organizations:</span></span>
 
--    <span data-ttu-id="38ace-114">[Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="38ace-114">[Purchase order codes in the public sector](purchase-order-codes-public-sector.md): Create codes and special messages for confirming purchase orders.</span></span> <span data-ttu-id="38ace-115">Une commande fournisseur de confirmation permet de contourner le processus d’achat habituel.</span><span class="sxs-lookup"><span data-stu-id="38ace-115">A confirming purchase order circumvents the typical purchasing process.</span></span>
+-    <span data-ttu-id="5be0b-114">[Codes de commandes fournisseur dans le secteur public](purchase-order-codes-public-sector.md) – Créer des codes et des messages spéciaux pour la confirmation des commandes fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5be0b-114">[Purchase order codes in the public sector](purchase-order-codes-public-sector.md): Create codes and special messages for confirming purchase orders.</span></span> <span data-ttu-id="5be0b-115">Une commande fournisseur de confirmation permet de contourner le processus d’achat habituel.</span><span class="sxs-lookup"><span data-stu-id="5be0b-115">A confirming purchase order circumvents the typical purchasing process.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="38ace-116">Cela s’applique également à la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="38ace-116">This also applies to Accounts payable.</span></span>
+> <span data-ttu-id="5be0b-116">Cela s’applique également à la comptabilité fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5be0b-116">This also applies to Accounts payable.</span></span>
 
--   [<span data-ttu-id="38ace-117">Comptabilité du secteur public en France</span><span class="sxs-lookup"><span data-stu-id="38ace-117">Public sector accounting in France</span></span>](../localizations/emea-fra-public-sector-accounting.md) 
+-   [<span data-ttu-id="5be0b-117">Comptabilité du secteur public en France</span><span class="sxs-lookup"><span data-stu-id="5be0b-117">Public sector accounting in France</span></span>](../localizations/emea-fra-public-sector-accounting.md) 
 
-<span data-ttu-id="38ace-118">Pour les organisations françaises, des étapes supplémentaires peuvent être nécessaires pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="38ace-118">For French organizations, additional steps may be required for the public sector.</span></span>
+<span data-ttu-id="5be0b-118">Pour les organisations françaises, des étapes supplémentaires peuvent être nécessaires pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="5be0b-118">For French organizations, additional steps may be required for the public sector.</span></span>
 
-<span data-ttu-id="38ace-119">Les sections suivantes décrivent les fonctionnalités d’approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="38ace-119">The following sections describe the Procurement and sourcing features that are available for the public sector.</span></span>
+<span data-ttu-id="5be0b-119">Les sections suivantes décrivent les fonctionnalités d’approvisionnements disponible pour le secteur public.</span><span class="sxs-lookup"><span data-stu-id="5be0b-119">The following sections describe the Procurement and sourcing features that are available for the public sector.</span></span>
 
-## <a name="what-are-vendor-certification-types"></a><span data-ttu-id="38ace-120">Que sont les types de certification des fournisseurs ?</span><span class="sxs-lookup"><span data-stu-id="38ace-120">What are vendor certification types?</span></span>
-<span data-ttu-id="38ace-121">Vous pouvez créer et affecter aux organisations de fournisseurs n’importe quels types de certification que les fournisseurs détiennent.</span><span class="sxs-lookup"><span data-stu-id="38ace-121">You can create and assign to vendor organizations any types of certification that the vendors hold.</span></span> <span data-ttu-id="38ace-122">Il s’agit non seulement d’informations d’identification professionnelles, comme la licence d’un ingénieur professionnel ou la certification Microsoft SQL Server, mais aussi de l’assurance du passif, du statut minoritaire ou de la conformité avec diverses normes de sécurité relatives à l’environnement ou au consommateur.</span><span class="sxs-lookup"><span data-stu-id="38ace-122">This includes not only professional credentials, such as a professional engineer’s license or Microsoft SQL Server Certification, but also whether they have liability insurance, minority status, or are in compliance with various environmental or consumer safety standards.</span></span> 
+## <a name="what-are-vendor-certification-types"></a><span data-ttu-id="5be0b-120">Que sont les types de certification des fournisseurs ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-120">What are vendor certification types?</span></span>
+<span data-ttu-id="5be0b-121">Vous pouvez créer et affecter aux organisations de fournisseurs n’importe quels types de certification que les fournisseurs détiennent.</span><span class="sxs-lookup"><span data-stu-id="5be0b-121">You can create and assign to vendor organizations any types of certification that the vendors hold.</span></span> <span data-ttu-id="5be0b-122">Il s’agit non seulement d’informations d’identification professionnelles, comme la licence d’un ingénieur professionnel ou la certification Microsoft SQL Server, mais aussi de l’assurance du passif, du statut minoritaire ou de la conformité avec diverses normes de sécurité relatives à l’environnement ou au consommateur.</span><span class="sxs-lookup"><span data-stu-id="5be0b-122">This includes not only professional credentials, such as a professional engineer’s license or Microsoft SQL Server Certification, but also whether they have liability insurance, minority status, or are in compliance with various environmental or consumer safety standards.</span></span> 
 
-<span data-ttu-id="38ace-123">La page **Type de certification** de la comptabilité fournisseur vous permet de spécifier le type et la description de la certification.</span><span class="sxs-lookup"><span data-stu-id="38ace-123">You use the **Certification type** page in Accounts payable to enter the certification type and the description.</span></span>
+<span data-ttu-id="5be0b-123">La page **Type de certification** de la comptabilité fournisseur vous permet de spécifier le type et la description de la certification.</span><span class="sxs-lookup"><span data-stu-id="5be0b-123">You use the **Certification type** page in Accounts payable to enter the certification type and the description.</span></span>
 
-## <a name="what-do-i-need-to-know-about-purchase-or-sales-agreement-classifications"></a><span data-ttu-id="38ace-124">Que dois-je savoir sur les classifications de contrat d’achat ou de vente ?</span><span class="sxs-lookup"><span data-stu-id="38ace-124">What do I need to know about purchase or sales agreement classifications?</span></span>
-<span data-ttu-id="38ace-125">Lorsque les utilisateurs créent un contrat d’achat ou de vente, ils doivent toujours sélectionner son type.</span><span class="sxs-lookup"><span data-stu-id="38ace-125">When users create a new purchase agreement or sales agreement, they must always select the type of purchase agreement or sales agreement.</span></span> <span data-ttu-id="38ace-126">Les contrôles supplémentaires du secteur public sont disponibles sur les pages **Classifications de contrat**.</span><span class="sxs-lookup"><span data-stu-id="38ace-126">Additional public sector controls are available on the **Agreement classifications** pages.</span></span> 
+## <a name="what-do-i-need-to-know-about-purchase-or-sales-agreement-classifications"></a><span data-ttu-id="5be0b-124">Que dois-je savoir sur les classifications de contrat d’achat ou de vente ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-124">What do I need to know about purchase or sales agreement classifications?</span></span>
+<span data-ttu-id="5be0b-125">Lorsque les utilisateurs créent un contrat d’achat ou de vente, ils doivent toujours sélectionner son type.</span><span class="sxs-lookup"><span data-stu-id="5be0b-125">When users create a new purchase agreement or sales agreement, they must always select the type of purchase agreement or sales agreement.</span></span> <span data-ttu-id="5be0b-126">Les contrôles supplémentaires du secteur public sont disponibles sur les pages **Classifications de contrat**.</span><span class="sxs-lookup"><span data-stu-id="5be0b-126">Additional public sector controls are available on the **Agreement classifications** pages.</span></span> 
 
-<span data-ttu-id="38ace-127">Pour créer et spécifier des classifications de contrat, utilisez la page **Classification de contrat d’achat** dans le module Approvisionnements ou la page **Classification de contrat de vente** dans le module Ventes et marketing.</span><span class="sxs-lookup"><span data-stu-id="38ace-127">To create and specify agreement classifications, you use the **Purchase agreement classification** page in Procurement and sourcing or the **Sales agreement classification** page in Sales and marketing.</span></span> 
+<span data-ttu-id="5be0b-127">Pour créer et spécifier des classifications de contrat, utilisez la page **Classification de contrat d’achat** dans le module Approvisionnements ou la page **Classification de contrat de vente** dans le module Ventes et marketing.</span><span class="sxs-lookup"><span data-stu-id="5be0b-127">To create and specify agreement classifications, you use the **Purchase agreement classification** page in Procurement and sourcing or the **Sales agreement classification** page in Sales and marketing.</span></span> 
 
-<span data-ttu-id="38ace-128">Prenez en compte les informations suivantes lorsque vous spécifiez les détails des classifications de contrat d’achat ou de vente.</span><span class="sxs-lookup"><span data-stu-id="38ace-128">Take the following information into account when specifying details for purchase or sales agreement classifications.</span></span>
+<span data-ttu-id="5be0b-128">Prenez en compte les informations suivantes lorsque vous spécifiez les détails des classifications de contrat d’achat ou de vente.</span><span class="sxs-lookup"><span data-stu-id="5be0b-128">Take the following information into account when specifying details for purchase or sales agreement classifications.</span></span>
 
-### <a name="how-do-i-enter-information-about-subcontractors-on-purchase-agreements"></a><span data-ttu-id="38ace-129">Comment saisir les informations sur les sous-traitants dans les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="38ace-129">How do I enter information about subcontractors on purchase agreements?</span></span>
+### <a name="how-do-i-enter-information-about-subcontractors-on-purchase-agreements"></a><span data-ttu-id="5be0b-129">Comment saisir les informations sur les sous-traitants dans les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-129">How do I enter information about subcontractors on purchase agreements?</span></span>
 
-<span data-ttu-id="38ace-130">Sélectionnez l’option **Sous-traitants**.</span><span class="sxs-lookup"><span data-stu-id="38ace-130">Select the **Subcontractors** option.</span></span>
+<span data-ttu-id="5be0b-130">Sélectionnez l’option **Sous-traitants**.</span><span class="sxs-lookup"><span data-stu-id="5be0b-130">Select the **Subcontractors** option.</span></span>
 
-### <a name="how-do-i-enter-information-about-insurance-policies-and-bonds-on-purchase-agreements"></a><span data-ttu-id="38ace-131">Comment spécifier les informations sur les polices d’assurance et les obligations dans les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="38ace-131">How do I enter information about insurance policies and bonds on purchase agreements?</span></span>
+### <a name="how-do-i-enter-information-about-insurance-policies-and-bonds-on-purchase-agreements"></a><span data-ttu-id="5be0b-131">Comment spécifier les informations sur les polices d’assurance et les obligations dans les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-131">How do I enter information about insurance policies and bonds on purchase agreements?</span></span>
 
-<span data-ttu-id="38ace-132">Sélectionnez l’option **Certifications**.</span><span class="sxs-lookup"><span data-stu-id="38ace-132">Select the **Certifications** option.</span></span> <span data-ttu-id="38ace-133">Les informations peuvent servir à générer un état qui vous permet de contrôler la conformité des fournisseurs avec les conditions de certification.</span><span class="sxs-lookup"><span data-stu-id="38ace-133">The information can be used to generate a report that you can use to monitor vendor compliance with certification requirements.</span></span> <span data-ttu-id="38ace-134">(Pour générer l’état, accéder accédez à la page **Conformité de la certification des contrats d’achat**.)</span><span class="sxs-lookup"><span data-stu-id="38ace-134">(To generate the report, go to the **Purchase agreement certification compliance** page.)</span></span>
+<span data-ttu-id="5be0b-132">Sélectionnez l’option **Certifications**.</span><span class="sxs-lookup"><span data-stu-id="5be0b-132">Select the **Certifications** option.</span></span> <span data-ttu-id="5be0b-133">Les informations peuvent servir à générer un état qui vous permet de contrôler la conformité des fournisseurs avec les conditions de certification.</span><span class="sxs-lookup"><span data-stu-id="5be0b-133">The information can be used to generate a report that you can use to monitor vendor compliance with certification requirements.</span></span> <span data-ttu-id="5be0b-134">(Pour générer l’état, accéder accédez à la page **Conformité de la certification des contrats d’achat**.)</span><span class="sxs-lookup"><span data-stu-id="5be0b-134">(To generate the report, go to the **Purchase agreement certification compliance** page.)</span></span>
 
-### <a name="how-do-i-enter-information-about-milestones-and-tasks-on-purchase-agreements"></a><span data-ttu-id="38ace-135">Comment saisir les informations sur les jalons et les tâches dans les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="38ace-135">How do I enter information about milestones and tasks on purchase agreements?</span></span>
+### <a name="how-do-i-enter-information-about-milestones-and-tasks-on-purchase-agreements"></a><span data-ttu-id="5be0b-135">Comment saisir les informations sur les jalons et les tâches dans les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-135">How do I enter information about milestones and tasks on purchase agreements?</span></span>
 
-<span data-ttu-id="38ace-136">Sélectionnez l’option **Activités**.</span><span class="sxs-lookup"><span data-stu-id="38ace-136">Select the **Activities** option.</span></span>
+<span data-ttu-id="5be0b-136">Sélectionnez l’option **Activités**.</span><span class="sxs-lookup"><span data-stu-id="5be0b-136">Select the **Activities** option.</span></span>
 
-### <a name="how-do-i-require-direct-invoicing-and-prevent-the-use-of-release-orders-with-purchase-agreements"></a><span data-ttu-id="38ace-137">Comment imposer une facturation directe et empêcher l’utilisation d’ordres de lancement pour les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="38ace-137">How do I require direct invoicing and prevent the use of release orders with purchase agreements?</span></span>
+### <a name="how-do-i-require-direct-invoicing-and-prevent-the-use-of-release-orders-with-purchase-agreements"></a><span data-ttu-id="5be0b-137">Comment imposer une facturation directe et empêcher l’utilisation d’ordres de lancement pour les contrats d’achat ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-137">How do I require direct invoicing and prevent the use of release orders with purchase agreements?</span></span>
 
-<span data-ttu-id="38ace-138">Sélectionnez l’option **Exiger une facturation directe**.</span><span class="sxs-lookup"><span data-stu-id="38ace-138">Select the **Require direct invoicing** option.</span></span> 
+<span data-ttu-id="5be0b-138">Sélectionnez l’option **Exiger une facturation directe**.</span><span class="sxs-lookup"><span data-stu-id="5be0b-138">Select the **Require direct invoicing** option.</span></span> 
 
-## <a name="can-i-view-purchase-order-line-amounts"></a><span data-ttu-id="38ace-139">Puis-je afficher les montants de la ligne de commande fournisseur ?</span><span class="sxs-lookup"><span data-stu-id="38ace-139">Can I view purchase order line amounts?</span></span>
-<span data-ttu-id="38ace-140">Oui.</span><span class="sxs-lookup"><span data-stu-id="38ace-140">Yes.</span></span> <span data-ttu-id="38ace-141">Vous pouvez afficher les montants de ligne d’une commande fournisseur (notamment le montant commandé actuel, les montants reçus ou facturés).</span><span class="sxs-lookup"><span data-stu-id="38ace-141">Line amounts for a purchase order can be viewed, including the current ordered amount and any amounts that have been received or invoiced.</span></span> <span data-ttu-id="38ace-142">Vous pouvez également afficher les montants restant à facturer ou ceux des factures en attente.</span><span class="sxs-lookup"><span data-stu-id="38ace-142">They can also view any amounts that remain to be invoiced or amounts for pending invoices.</span></span>
+## <a name="can-i-view-purchase-order-line-amounts"></a><span data-ttu-id="5be0b-139">Puis-je afficher les montants de la ligne de commande fournisseur ?</span><span class="sxs-lookup"><span data-stu-id="5be0b-139">Can I view purchase order line amounts?</span></span>
+<span data-ttu-id="5be0b-140">Oui.</span><span class="sxs-lookup"><span data-stu-id="5be0b-140">Yes.</span></span> <span data-ttu-id="5be0b-141">Vous pouvez afficher les montants de ligne d’une commande fournisseur (notamment le montant commandé actuel, les montants reçus ou facturés).</span><span class="sxs-lookup"><span data-stu-id="5be0b-141">Line amounts for a purchase order can be viewed, including the current ordered amount and any amounts that have been received or invoiced.</span></span> <span data-ttu-id="5be0b-142">Vous pouvez également afficher les montants restant à facturer ou ceux des factures en attente.</span><span class="sxs-lookup"><span data-stu-id="5be0b-142">They can also view any amounts that remain to be invoiced or amounts for pending invoices.</span></span>
 
-### <a name="tip"></a><span data-ttu-id="38ace-143">Conseil</span><span class="sxs-lookup"><span data-stu-id="38ace-143">Tip</span></span>
+### <a name="tip"></a><span data-ttu-id="5be0b-143">Conseil</span><span class="sxs-lookup"><span data-stu-id="5be0b-143">Tip</span></span>
 
-<span data-ttu-id="38ace-144">Supposons que vous affichiez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="38ace-144">Let’s say you view a purchase order line with purchases posted to two ledger accounts.</span></span> <span data-ttu-id="38ace-145">Le premier inclut le mobilier de bureau commandé auprès d’un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="38ace-145">One ledger account is for office furniture ordered from a vendor.</span></span> <span data-ttu-id="38ace-146">Le second inclut les fournitures de bureau.</span><span class="sxs-lookup"><span data-stu-id="38ace-146">The second ledger account is for office supplies.</span></span> <span data-ttu-id="38ace-147">Le montant commandé est égal à la somme des montants facturés, des montants des factures en attente, et des montants restants à facturer.</span><span class="sxs-lookup"><span data-stu-id="38ace-147">The ordered amount is equal to the sum of the invoiced amounts, pending invoice amounts, and invoice remaining amounts.</span></span> <span data-ttu-id="38ace-148">Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="38ace-148">The received amount is the portion of the ordered amount that has been received from the vendor.</span></span>
+<span data-ttu-id="5be0b-144">Supposons que vous affichiez une ligne de commande fournisseur contenant des achats validés dans deux comptes généraux.</span><span class="sxs-lookup"><span data-stu-id="5be0b-144">Let’s say you view a purchase order line with purchases posted to two ledger accounts.</span></span> <span data-ttu-id="5be0b-145">Le premier inclut le mobilier de bureau commandé auprès d’un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5be0b-145">One ledger account is for office furniture ordered from a vendor.</span></span> <span data-ttu-id="5be0b-146">Le second inclut les fournitures de bureau.</span><span class="sxs-lookup"><span data-stu-id="5be0b-146">The second ledger account is for office supplies.</span></span> <span data-ttu-id="5be0b-147">Le montant commandé est égal à la somme des montants facturés, des montants des factures en attente, et des montants restants à facturer.</span><span class="sxs-lookup"><span data-stu-id="5be0b-147">The ordered amount is equal to the sum of the invoiced amounts, pending invoice amounts, and invoice remaining amounts.</span></span> <span data-ttu-id="5be0b-148">Le montant reçu correspond à la partie du montant commandé reçu du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="5be0b-148">The received amount is the portion of the ordered amount that has been received from the vendor.</span></span>
 
 <table style="width:100%;">
 
@@ -99,43 +97,43 @@ ms.locfileid: "5219836"
 
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="38ace-149"><strong>Compte général</strong></span><span class="sxs-lookup"><span data-stu-id="38ace-149"><strong>Ledger account</strong></span></span></td>
-<td><span data-ttu-id="38ace-150"><strong>Commandé</strong></span><span class="sxs-lookup"><span data-stu-id="38ace-150"><strong>Ordered</strong></span></span></td>
-<td><span data-ttu-id="38ace-151"><strong>Reçu</strong></span><span class="sxs-lookup"><span data-stu-id="38ace-151"><strong>Received</strong></span></span></td>
-<td><span data-ttu-id="38ace-152"><strong>Facturé</strong></span><span class="sxs-lookup"><span data-stu-id="38ace-152"><strong>Invoiced</strong></span></span></td>
-<td><span data-ttu-id="38ace-153"><strong>Facture en attente</strong></span><span class="sxs-lookup"><span data-stu-id="38ace-153"><strong>Pending invoice</strong></span></span></td>
-<td><span data-ttu-id="38ace-154"><strong>Reste de la facture</strong></span><span class="sxs-lookup"><span data-stu-id="38ace-154"><strong>Invoice remaining</strong></span></span></td>
+<td><span data-ttu-id="5be0b-149"><strong>Compte général</strong></span><span class="sxs-lookup"><span data-stu-id="5be0b-149"><strong>Ledger account</strong></span></span></td>
+<td><span data-ttu-id="5be0b-150"><strong>Commandé</strong></span><span class="sxs-lookup"><span data-stu-id="5be0b-150"><strong>Ordered</strong></span></span></td>
+<td><span data-ttu-id="5be0b-151"><strong>Reçu</strong></span><span class="sxs-lookup"><span data-stu-id="5be0b-151"><strong>Received</strong></span></span></td>
+<td><span data-ttu-id="5be0b-152"><strong>Facturé</strong></span><span class="sxs-lookup"><span data-stu-id="5be0b-152"><strong>Invoiced</strong></span></span></td>
+<td><span data-ttu-id="5be0b-153"><strong>Facture en attente</strong></span><span class="sxs-lookup"><span data-stu-id="5be0b-153"><strong>Pending invoice</strong></span></span></td>
+<td><span data-ttu-id="5be0b-154"><strong>Reste de la facture</strong></span><span class="sxs-lookup"><span data-stu-id="5be0b-154"><strong>Invoice remaining</strong></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="38ace-155">60010 (mobilier de bureau)</span><span class="sxs-lookup"><span data-stu-id="38ace-155">60010 (office furniture)</span></span></td>
-<td><p><span data-ttu-id="38ace-156">1 200,00</span><span class="sxs-lookup"><span data-stu-id="38ace-156">1,200.00</span></span></p></td>
-<td><span data-ttu-id="38ace-157">250,00</span><span class="sxs-lookup"><span data-stu-id="38ace-157">250.00</span></span></td>
-<td><span data-ttu-id="38ace-158">350,00</span><span class="sxs-lookup"><span data-stu-id="38ace-158">350.00</span></span></td>
-<td><span data-ttu-id="38ace-159">200,00</span><span class="sxs-lookup"><span data-stu-id="38ace-159">200.00</span></span></td>
-<td><p><span data-ttu-id="38ace-160">650,00</span><span class="sxs-lookup"><span data-stu-id="38ace-160">650.00</span></span></p></td>
+<td><span data-ttu-id="5be0b-155">60010 (mobilier de bureau)</span><span class="sxs-lookup"><span data-stu-id="5be0b-155">60010 (office furniture)</span></span></td>
+<td><p><span data-ttu-id="5be0b-156">1 200,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-156">1,200.00</span></span></p></td>
+<td><span data-ttu-id="5be0b-157">250,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-157">250.00</span></span></td>
+<td><span data-ttu-id="5be0b-158">350,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-158">350.00</span></span></td>
+<td><span data-ttu-id="5be0b-159">200,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-159">200.00</span></span></td>
+<td><p><span data-ttu-id="5be0b-160">650,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-160">650.00</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="38ace-161">60020 (fournitures de bureau)</span><span class="sxs-lookup"><span data-stu-id="38ace-161">60020 (office supplies)</span></span></td>
-<td><p><span data-ttu-id="38ace-162">750,00</span><span class="sxs-lookup"><span data-stu-id="38ace-162">750.00</span></span></p></td>
-<td><span data-ttu-id="38ace-163">150,00</span><span class="sxs-lookup"><span data-stu-id="38ace-163">150.00</span></span></td>
-<td><span data-ttu-id="38ace-164">400,00</span><span class="sxs-lookup"><span data-stu-id="38ace-164">400.00</span></span></td>
+<td><span data-ttu-id="5be0b-161">60020 (fournitures de bureau)</span><span class="sxs-lookup"><span data-stu-id="5be0b-161">60020 (office supplies)</span></span></td>
+<td><p><span data-ttu-id="5be0b-162">750,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-162">750.00</span></span></p></td>
+<td><span data-ttu-id="5be0b-163">150,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-163">150.00</span></span></td>
+<td><span data-ttu-id="5be0b-164">400,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-164">400.00</span></span></td>
 <td></td>
-<td><p><span data-ttu-id="38ace-165">350,00</span><span class="sxs-lookup"><span data-stu-id="38ace-165">350.00</span></span></p></td>
+<td><p><span data-ttu-id="5be0b-165">350,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-165">350.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="38ace-166">Totaux</span><span class="sxs-lookup"><span data-stu-id="38ace-166">Totals</span></span></td>
-<td><p><span data-ttu-id="38ace-167">1 950,00</span><span class="sxs-lookup"><span data-stu-id="38ace-167">1,950.00</span></span></p></td>
-<td><span data-ttu-id="38ace-168">400,00</span><span class="sxs-lookup"><span data-stu-id="38ace-168">400.00</span></span></td>
-<td><span data-ttu-id="38ace-169">750,00</span><span class="sxs-lookup"><span data-stu-id="38ace-169">750.00</span></span></td>
-<td><span data-ttu-id="38ace-170">200,00</span><span class="sxs-lookup"><span data-stu-id="38ace-170">200.00</span></span></td>
-<td><p><span data-ttu-id="38ace-171">1,000.00</span><span class="sxs-lookup"><span data-stu-id="38ace-171">1,000.00</span></span></p></td>
+<td><span data-ttu-id="5be0b-166">Totaux</span><span class="sxs-lookup"><span data-stu-id="5be0b-166">Totals</span></span></td>
+<td><p><span data-ttu-id="5be0b-167">1 950,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-167">1,950.00</span></span></p></td>
+<td><span data-ttu-id="5be0b-168">400,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-168">400.00</span></span></td>
+<td><span data-ttu-id="5be0b-169">750,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-169">750.00</span></span></td>
+<td><span data-ttu-id="5be0b-170">200,00</span><span class="sxs-lookup"><span data-stu-id="5be0b-170">200.00</span></span></td>
+<td><p><span data-ttu-id="5be0b-171">1,000.00</span><span class="sxs-lookup"><span data-stu-id="5be0b-171">1,000.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<span data-ttu-id="38ace-172">Pour plus d’informations, voir [Vue d’ensemble des approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Vue d’ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="38ace-172">For more information, see [Procurement and sourcing overview](../../supply-chain/procurement/procurement-sourcing-overview.md) and [Accounts payable in the public sector overview](accounts-payable-public-sector.md).</span></span>
+<span data-ttu-id="5be0b-172">Pour plus d’informations, voir [Vue d’ensemble des approvisionnements](../../supply-chain/procurement/procurement-sourcing-overview.md) et [Vue d’ensemble de la comptabilité fournisseur dans le secteur public](accounts-payable-public-sector.md).</span><span class="sxs-lookup"><span data-stu-id="5be0b-172">For more information, see [Procurement and sourcing overview](../../supply-chain/procurement/procurement-sourcing-overview.md) and [Accounts payable in the public sector overview](accounts-payable-public-sector.md).</span></span>
 
 
 

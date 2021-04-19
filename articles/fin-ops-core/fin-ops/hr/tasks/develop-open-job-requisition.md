@@ -2,7 +2,6 @@
 title: Développer et ouvrir une demande de poste
 description: Les projets de recrutement permettent de gérer le processus de recrutement.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,55 +13,55 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d23f180c1afcfa6d24c0b44f69fba9b40c114e1b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ca271450bfa534105caabbd45be98d929a3986b8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564649"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752028"
 ---
-# <a name="develop-and-open-job-requisition"></a><span data-ttu-id="e8c30-103">Développer et ouvrir une demande de poste</span><span class="sxs-lookup"><span data-stu-id="e8c30-103">Develop and open job requisition</span></span>
+# <a name="develop-and-open-job-requisition"></a><span data-ttu-id="ecbd9-103">Développer et ouvrir une demande de poste</span><span class="sxs-lookup"><span data-stu-id="ecbd9-103">Develop and open job requisition</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="e8c30-104">Les projets de recrutement permettent de gérer le processus de recrutement.</span><span class="sxs-lookup"><span data-stu-id="e8c30-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="e8c30-105">Pour chaque projet de recrutement, vous pouvez paramétrer des informations, telles que l’emploi pour lequel vous recrutez, le nom du recruteur, le statut du projet et le département auquel l’employé sera rattaché.</span><span class="sxs-lookup"><span data-stu-id="e8c30-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="e8c30-106">Après avoir créé un projet de recrutement, vous pouvez rédiger une annonce d’emploi pour le projet, la publier dans les pages Libre-service employé, associer des demandes d’emploi au projet et suivre les activités du projet.</span><span class="sxs-lookup"><span data-stu-id="e8c30-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="e8c30-107">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="e8c30-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e8c30-108">Pour démarrer la procédure, allez dans Ressources humaines > Recrutement > Projets de recrutement > Projets de recrutement.</span><span class="sxs-lookup"><span data-stu-id="e8c30-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
+<span data-ttu-id="ecbd9-104">Les projets de recrutement permettent de gérer le processus de recrutement.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="ecbd9-105">Pour chaque projet de recrutement, vous pouvez paramétrer des informations, telles que l’emploi pour lequel vous recrutez, le nom du recruteur, le statut du projet et le département auquel l’employé sera rattaché.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="ecbd9-106">Après avoir créé un projet de recrutement, vous pouvez rédiger une annonce d’emploi pour le projet, la publier dans les pages Libre-service employé, associer des demandes d’emploi au projet et suivre les activités du projet.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="ecbd9-107">Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ecbd9-108">Pour démarrer la procédure, allez dans Ressources humaines > Recrutement > Projets de recrutement > Projets de recrutement.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 
-1. <span data-ttu-id="e8c30-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e8c30-109">Click New.</span></span>
-2. <span data-ttu-id="e8c30-110">Tapez une valeur dans le champ Projet de recrutement.</span><span class="sxs-lookup"><span data-stu-id="e8c30-110">In the Recruitment project field, type a value.</span></span>
-3. <span data-ttu-id="e8c30-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e8c30-111">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="e8c30-112">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Recruteur.</span><span class="sxs-lookup"><span data-stu-id="e8c30-112">In the Recruiter field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="e8c30-113">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e8c30-113">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="e8c30-114">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8c30-114">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="e8c30-115">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="e8c30-115">Click Select.</span></span>
-8. <span data-ttu-id="e8c30-116">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Département.</span><span class="sxs-lookup"><span data-stu-id="e8c30-116">In the Department field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="e8c30-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8c30-117">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="e8c30-118">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Tâche.</span><span class="sxs-lookup"><span data-stu-id="e8c30-118">In the Job field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="e8c30-119">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e8c30-119">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="e8c30-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8c30-120">In the list, click the link in the selected row.</span></span>
-13. <span data-ttu-id="e8c30-121">Entrez un nombre dans le champ Nombre de postes à pourvoir.</span><span class="sxs-lookup"><span data-stu-id="e8c30-121">In the Number of openings field, enter a number.</span></span>
-14. <span data-ttu-id="e8c30-122">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Responsable de l’embauche.</span><span class="sxs-lookup"><span data-stu-id="e8c30-122">In the Hiring manager field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="e8c30-123">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="e8c30-123">In the list, find and select the desired record.</span></span>
-16. <span data-ttu-id="e8c30-124">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8c30-124">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="e8c30-125">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="e8c30-125">Click Select.</span></span>
-18. <span data-ttu-id="e8c30-126">Entrez une date dans le champ Date limite de candidature.</span><span class="sxs-lookup"><span data-stu-id="e8c30-126">In the Application deadline field, enter a date.</span></span>
-19. <span data-ttu-id="e8c30-127">Cliquez sur Support.</span><span class="sxs-lookup"><span data-stu-id="e8c30-127">Click Media.</span></span>
-    * <span data-ttu-id="e8c30-128">Les projets de recrutement offrent la possibilité de spécifier les établissements de communication à utiliser pour signaler des postes vacants.</span><span class="sxs-lookup"><span data-stu-id="e8c30-128">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
-20. <span data-ttu-id="e8c30-129">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="e8c30-129">Click New.</span></span>
-21. <span data-ttu-id="e8c30-130">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Support.</span><span class="sxs-lookup"><span data-stu-id="e8c30-130">In the Media field, click the drop-down button to open the lookup.</span></span>
-22. <span data-ttu-id="e8c30-131">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e8c30-131">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="e8c30-132">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="e8c30-132">In the Start date field, enter a date.</span></span>
-24. <span data-ttu-id="e8c30-133">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="e8c30-133">In the End date field, enter a date.</span></span>
-25. <span data-ttu-id="e8c30-134">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e8c30-134">Click Save.</span></span>
-26. <span data-ttu-id="e8c30-135">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e8c30-135">Close the page.</span></span>
-27. <span data-ttu-id="e8c30-136">Cliquez sur Annonces d’emploi.</span><span class="sxs-lookup"><span data-stu-id="e8c30-136">Click Job ads.</span></span>
-28. <span data-ttu-id="e8c30-137">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="e8c30-137">Click Save.</span></span>
-29. <span data-ttu-id="e8c30-138">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e8c30-138">Close the page.</span></span>
-30. <span data-ttu-id="e8c30-139">Activez ou désactivez la case à cocher Afficher dans le libre-service pour employés.</span><span class="sxs-lookup"><span data-stu-id="e8c30-139">Check or uncheck the Display on employee self service checkbox.</span></span>
-    * <span data-ttu-id="e8c30-140">Activez la case à cocher Afficher dans le libre-service pour employés pour que les employés puissent consulter le projet de recrutement dans les pages Libre-service employé.</span><span class="sxs-lookup"><span data-stu-id="e8c30-140">Select the Display on employee self service check box to make the recruitment project visible to employees on their Employee self-service pages.</span></span>  
-31. <span data-ttu-id="e8c30-141">Cliquez sur Statut du projet de recrutement.</span><span class="sxs-lookup"><span data-stu-id="e8c30-141">Click Recruitment project status.</span></span>
-32. <span data-ttu-id="e8c30-142">Cliquez sur Démarrer.</span><span class="sxs-lookup"><span data-stu-id="e8c30-142">Click Start.</span></span>
-    * <span data-ttu-id="e8c30-143">Le statut Démarré indique qu’il est possible d’envoyer des candidatures pour le projet.</span><span class="sxs-lookup"><span data-stu-id="e8c30-143">The Started status means that the project is ready to receive applications.</span></span>  
-33. <span data-ttu-id="e8c30-144">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e8c30-144">Click OK.</span></span>
+1. <span data-ttu-id="ecbd9-109">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-109">Click New.</span></span>
+2. <span data-ttu-id="ecbd9-110">Tapez une valeur dans le champ Projet de recrutement.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-110">In the Recruitment project field, type a value.</span></span>
+3. <span data-ttu-id="ecbd9-111">Dans le champ Description, entrez une valeur.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-111">In the Description field, type a value.</span></span>
+4. <span data-ttu-id="ecbd9-112">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Recruteur.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-112">In the Recruiter field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="ecbd9-113">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-113">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="ecbd9-114">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-114">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="ecbd9-115">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-115">Click Select.</span></span>
+8. <span data-ttu-id="ecbd9-116">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Département.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-116">In the Department field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="ecbd9-117">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-117">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="ecbd9-118">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Tâche.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-118">In the Job field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="ecbd9-119">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-119">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="ecbd9-120">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-120">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="ecbd9-121">Entrez un nombre dans le champ Nombre de postes à pourvoir.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-121">In the Number of openings field, enter a number.</span></span>
+14. <span data-ttu-id="ecbd9-122">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Responsable de l’embauche.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-122">In the Hiring manager field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="ecbd9-123">Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-123">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="ecbd9-124">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-124">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="ecbd9-125">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-125">Click Select.</span></span>
+18. <span data-ttu-id="ecbd9-126">Entrez une date dans le champ Date limite de candidature.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-126">In the Application deadline field, enter a date.</span></span>
+19. <span data-ttu-id="ecbd9-127">Cliquez sur Support.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-127">Click Media.</span></span>
+    * <span data-ttu-id="ecbd9-128">Les projets de recrutement offrent la possibilité de spécifier les établissements de communication à utiliser pour signaler des postes vacants.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-128">Recruitment projects include the option to specify media outlets to use to advertise open positions.</span></span>  
+20. <span data-ttu-id="ecbd9-129">Cliquez sur Nouveau.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-129">Click New.</span></span>
+21. <span data-ttu-id="ecbd9-130">Cliquez sur le bouton de liste déroulante pour ouvrir la recherche dans le champ Support.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-130">In the Media field, click the drop-down button to open the lookup.</span></span>
+22. <span data-ttu-id="ecbd9-131">Dans la liste, cliquer sur le lien dans la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-131">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="ecbd9-132">Entrez une date dans le champ Date de début.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-132">In the Start date field, enter a date.</span></span>
+24. <span data-ttu-id="ecbd9-133">Entrez une date dans le champ Date de fin.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-133">In the End date field, enter a date.</span></span>
+25. <span data-ttu-id="ecbd9-134">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-134">Click Save.</span></span>
+26. <span data-ttu-id="ecbd9-135">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-135">Close the page.</span></span>
+27. <span data-ttu-id="ecbd9-136">Cliquez sur Annonces d’emploi.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-136">Click Job ads.</span></span>
+28. <span data-ttu-id="ecbd9-137">Cliquez sur Enregistrer.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-137">Click Save.</span></span>
+29. <span data-ttu-id="ecbd9-138">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-138">Close the page.</span></span>
+30. <span data-ttu-id="ecbd9-139">Activez ou désactivez la case à cocher Afficher dans le libre-service pour employés.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-139">Check or uncheck the Display on employee self service checkbox.</span></span>
+    * <span data-ttu-id="ecbd9-140">Activez la case à cocher Afficher dans le libre-service pour employés pour que les employés puissent consulter le projet de recrutement dans les pages Libre-service employé.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-140">Select the Display on employee self service check box to make the recruitment project visible to employees on their Employee self-service pages.</span></span>  
+31. <span data-ttu-id="ecbd9-141">Cliquez sur Statut du projet de recrutement.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-141">Click Recruitment project status.</span></span>
+32. <span data-ttu-id="ecbd9-142">Cliquez sur Démarrer.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-142">Click Start.</span></span>
+    * <span data-ttu-id="ecbd9-143">Le statut Démarré indique qu’il est possible d’envoyer des candidatures pour le projet.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-143">The Started status means that the project is ready to receive applications.</span></span>  
+33. <span data-ttu-id="ecbd9-144">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="ecbd9-144">Click OK.</span></span>
 
 
 

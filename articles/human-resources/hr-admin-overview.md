@@ -2,11 +2,9 @@
 title: Vue d’ensemble de l’administration
 description: Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,91 +16,91 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f55977fc45424ea7e514a741f9dd7f8f9306b015
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466926"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801141"
 ---
-# <a name="administration-overview"></a><span data-ttu-id="820b9-103">Vue d’ensemble de l’administration</span><span class="sxs-lookup"><span data-stu-id="820b9-103">Administration overview</span></span>
+# <a name="administration-overview"></a><span data-ttu-id="61ad3-103">Vue d’ensemble de l’administration</span><span class="sxs-lookup"><span data-stu-id="61ad3-103">Administration overview</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="820b9-104">Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="820b9-104">This Administrator Guide helps you set up, manage, and troubleshoot Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="61ad3-104">Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="61ad3-104">This Administrator Guide helps you set up, manage, and troubleshoot Dynamics 365 Human Resources.</span></span>
 
-- [<span data-ttu-id="820b9-105">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="820b9-105">System requirements</span></span>](hr-admin-system-requirements.md)
+- [<span data-ttu-id="61ad3-105">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="61ad3-105">System requirements</span></span>](hr-admin-system-requirements.md)
 
-- <span data-ttu-id="820b9-106">Paramétrer et gérer des instances</span><span class="sxs-lookup"><span data-stu-id="820b9-106">Set up and manage instances</span></span>
-  - [<span data-ttu-id="820b9-107">Provision de Human Resources</span><span class="sxs-lookup"><span data-stu-id="820b9-107">Provision Human Resources</span></span>](hr-admin-setup-provision.md)
-  - [<span data-ttu-id="820b9-108">Copier une instance</span><span class="sxs-lookup"><span data-stu-id="820b9-108">Copy an instance</span></span>](hr-admin-setup-copy-instance.md)
-  - [<span data-ttu-id="820b9-109">Supprimer une instance</span><span class="sxs-lookup"><span data-stu-id="820b9-109">Remove an instance</span></span>](hr-admin-setup-remove-instance.md)
-  - [<span data-ttu-id="820b9-110">Processus de mise à jour</span><span class="sxs-lookup"><span data-stu-id="820b9-110">Update process</span></span>](hr-admin-setup-update-process.md)
+- <span data-ttu-id="61ad3-106">Paramétrer et gérer des instances</span><span class="sxs-lookup"><span data-stu-id="61ad3-106">Set up and manage instances</span></span>
+  - [<span data-ttu-id="61ad3-107">Provision de Human Resources</span><span class="sxs-lookup"><span data-stu-id="61ad3-107">Provision Human Resources</span></span>](hr-admin-setup-provision.md)
+  - [<span data-ttu-id="61ad3-108">Copier une instance</span><span class="sxs-lookup"><span data-stu-id="61ad3-108">Copy an instance</span></span>](hr-admin-setup-copy-instance.md)
+  - [<span data-ttu-id="61ad3-109">Supprimer une instance</span><span class="sxs-lookup"><span data-stu-id="61ad3-109">Remove an instance</span></span>](hr-admin-setup-remove-instance.md)
+  - [<span data-ttu-id="61ad3-110">Processus de mise à jour</span><span class="sxs-lookup"><span data-stu-id="61ad3-110">Update process</span></span>](hr-admin-setup-update-process.md)
 
-- <span data-ttu-id="820b9-111">Configurer l’intégration de données</span><span class="sxs-lookup"><span data-stu-id="820b9-111">Set up data integration</span></span>
-  - [<span data-ttu-id="820b9-112">Choisir une technologie d’intégration de données</span><span class="sxs-lookup"><span data-stu-id="820b9-112">Choose a data integration technology</span></span>](hr-admin-integration-choose-technology.md)
-  - [<span data-ttu-id="820b9-113">Configuration de l’intégration Dataverse</span><span class="sxs-lookup"><span data-stu-id="820b9-113">Configure Dataverse integration</span></span>](hr-admin-integration-common-data-service.md)
-  - [<span data-ttu-id="820b9-114">Configurer l’intégration avec Finance</span><span class="sxs-lookup"><span data-stu-id="820b9-114">Configure integration with Finance</span></span>](hr-admin-integration-finance.md)
-  - [<span data-ttu-id="820b9-115">Configurer l’intégration avec Dayforce</span><span class="sxs-lookup"><span data-stu-id="820b9-115">Configure integration with Dayforce</span></span>](hr-admin-integration-dayforce.md)
-  - [<span data-ttu-id="820b9-116">Créer une application d’exportation de données récurrentes</span><span class="sxs-lookup"><span data-stu-id="820b9-116">Create a recurring data export app</span></span>](hr-admin-integration-recurring-data-export.md)
-  - <span data-ttu-id="820b9-117">Intégration avec Office</span><span class="sxs-lookup"><span data-stu-id="820b9-117">Integrate with Office</span></span>
-    - [<span data-ttu-id="820b9-118">Didacticiel pour l’intégration Office</span><span class="sxs-lookup"><span data-stu-id="820b9-118">Office integration tutorial</span></span>](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [<span data-ttu-id="820b9-119">Mettre à jour des données d’entité dans Excel</span><span class="sxs-lookup"><span data-stu-id="820b9-119">Update entity data in Excel</span></span>](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [<span data-ttu-id="820b9-120">Créer des expériences Ouvrir dans Excel</span><span class="sxs-lookup"><span data-stu-id="820b9-120">Create Open in Excel experiences</span></span>](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [<span data-ttu-id="820b9-121">Résoudre les problèmes d’intégration Office</span><span class="sxs-lookup"><span data-stu-id="820b9-121">Troubleshoot Office integration</span></span>](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+- <span data-ttu-id="61ad3-111">Configurer l’intégration de données</span><span class="sxs-lookup"><span data-stu-id="61ad3-111">Set up data integration</span></span>
+  - [<span data-ttu-id="61ad3-112">Choisir une technologie d’intégration de données</span><span class="sxs-lookup"><span data-stu-id="61ad3-112">Choose a data integration technology</span></span>](hr-admin-integration-choose-technology.md)
+  - [<span data-ttu-id="61ad3-113">Configuration de l’intégration Dataverse</span><span class="sxs-lookup"><span data-stu-id="61ad3-113">Configure Dataverse integration</span></span>](hr-admin-integration-common-data-service.md)
+  - [<span data-ttu-id="61ad3-114">Configurer l’intégration avec Finance</span><span class="sxs-lookup"><span data-stu-id="61ad3-114">Configure integration with Finance</span></span>](hr-admin-integration-finance.md)
+  - [<span data-ttu-id="61ad3-115">Configurer l’intégration avec Dayforce</span><span class="sxs-lookup"><span data-stu-id="61ad3-115">Configure integration with Dayforce</span></span>](hr-admin-integration-dayforce.md)
+  - [<span data-ttu-id="61ad3-116">Créer une application d’exportation de données récurrentes</span><span class="sxs-lookup"><span data-stu-id="61ad3-116">Create a recurring data export app</span></span>](hr-admin-integration-recurring-data-export.md)
+  - <span data-ttu-id="61ad3-117">Intégration avec Office</span><span class="sxs-lookup"><span data-stu-id="61ad3-117">Integrate with Office</span></span>
+    - [<span data-ttu-id="61ad3-118">Didacticiel pour l’intégration Office</span><span class="sxs-lookup"><span data-stu-id="61ad3-118">Office integration tutorial</span></span>](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [<span data-ttu-id="61ad3-119">Mettre à jour des données d’entité dans Excel</span><span class="sxs-lookup"><span data-stu-id="61ad3-119">Update entity data in Excel</span></span>](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [<span data-ttu-id="61ad3-120">Créer des expériences Ouvrir dans Excel</span><span class="sxs-lookup"><span data-stu-id="61ad3-120">Create Open in Excel experiences</span></span>](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [<span data-ttu-id="61ad3-121">Résoudre les problèmes d’intégration Office</span><span class="sxs-lookup"><span data-stu-id="61ad3-121">Troubleshoot Office integration</span></span>](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
-- [<span data-ttu-id="820b9-122">Gérer les fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="820b9-122">Manage features</span></span>](hr-admin-manage-features.md)
+- [<span data-ttu-id="61ad3-122">Gérer les fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="61ad3-122">Manage features</span></span>](hr-admin-manage-features.md)
 
-- [<span data-ttu-id="820b9-123">Configurer et gérer la journalisation de la base de données</span><span class="sxs-lookup"><span data-stu-id="820b9-123">Configure and manage database logging</span></span>](hr-admin-database-logging.md)
+- [<span data-ttu-id="61ad3-123">Configurer et gérer la journalisation de la base de données</span><span class="sxs-lookup"><span data-stu-id="61ad3-123">Configure and manage database logging</span></span>](hr-admin-database-logging.md)
 
-- <span data-ttu-id="820b9-124">Explorer l’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="820b9-124">Explore the user interface</span></span>
-  - [<span data-ttu-id="820b9-125">Éléments de l’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="820b9-125">User interface elements</span></span>](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-126">Fonctions d’accessibilité</span><span class="sxs-lookup"><span data-stu-id="820b9-126">Accessibility features</span></span>](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-127">Vue d’ensemble de la gestion des fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="820b9-127">Feature management overview</span></span>](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-128">FAQ sur le client</span><span class="sxs-lookup"><span data-stu-id="820b9-128">Client FAQ</span></span>](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-129">Recherche d’actions</span><span class="sxs-lookup"><span data-stu-id="820b9-129">Action search</span></span>](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-130">Syntaxe de requête et de filtrage avancée</span><span class="sxs-lookup"><span data-stu-id="820b9-130">Advanced filtering and query syntax</span></span>](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-131">Configurer et filtrer les espaces de travail</span><span class="sxs-lookup"><span data-stu-id="820b9-131">Configure and filter workspaces</span></span>](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)
-  - [<span data-ttu-id="820b9-132">Afficher côte à côte des pages à l’aide de la fonction Ouvrir dans une nouvelle fenêtre</span><span class="sxs-lookup"><span data-stu-id="820b9-132">Show pages side by side by using the Open in new window feature</span></span>](../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-133">Raccourcis clavier</span><span class="sxs-lookup"><span data-stu-id="820b9-133">Keyboard shortcuts</span></span>](../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-134">Modifier les bannières ou les images de logo pour les entités juridiques</span><span class="sxs-lookup"><span data-stu-id="820b9-134">Change the banners or logo images for legal entities</span></span>](../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-135">Recherche de navigation</span><span class="sxs-lookup"><span data-stu-id="820b9-135">Navigation search</span></span>](../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-136">Personnaliser l’expérience de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="820b9-136">Personalize the user experience</span></span>](../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-137">Vues enregistrées</span><span class="sxs-lookup"><span data-stu-id="820b9-137">Saved views</span></span>](../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-138">Créer et utiliser des champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="820b9-138">Create and work with custom fields</span></span>](../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-139">Intégrer Microsoft Power Apps</span><span class="sxs-lookup"><span data-stu-id="820b9-139">Embed Microsoft Power Apps</span></span>](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-140">Rechercher des informations à l’aide des recherches</span><span class="sxs-lookup"><span data-stu-id="820b9-140">Find information by using lookups</span></span>](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-141">Modification de la date d’une session</span><span class="sxs-lookup"><span data-stu-id="820b9-141">Change the date for a session</span></span>](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-142">Configurer un fuseau horaire préféré de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="820b9-142">Set a user's preferred time zone</span></span>](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-143">Comprendre Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="820b9-143">Understand Lifecycle Services</span></span>](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
+- <span data-ttu-id="61ad3-124">Explorer l’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="61ad3-124">Explore the user interface</span></span>
+  - [<span data-ttu-id="61ad3-125">Éléments de l’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="61ad3-125">User interface elements</span></span>](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-126">Fonctions d’accessibilité</span><span class="sxs-lookup"><span data-stu-id="61ad3-126">Accessibility features</span></span>](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-127">Vue d’ensemble de la gestion des fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="61ad3-127">Feature management overview</span></span>](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-128">FAQ sur le client</span><span class="sxs-lookup"><span data-stu-id="61ad3-128">Client FAQ</span></span>](../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-129">Recherche d’actions</span><span class="sxs-lookup"><span data-stu-id="61ad3-129">Action search</span></span>](../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-130">Syntaxe de requête et de filtrage avancée</span><span class="sxs-lookup"><span data-stu-id="61ad3-130">Advanced filtering and query syntax</span></span>](../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-131">Configurer et filtrer les espaces de travail</span><span class="sxs-lookup"><span data-stu-id="61ad3-131">Configure and filter workspaces</span></span>](../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json)
+  - [<span data-ttu-id="61ad3-132">Afficher côte à côte des pages à l’aide de la fonction Ouvrir dans une nouvelle fenêtre</span><span class="sxs-lookup"><span data-stu-id="61ad3-132">Show pages side by side by using the Open in new window feature</span></span>](../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-133">Raccourcis clavier</span><span class="sxs-lookup"><span data-stu-id="61ad3-133">Keyboard shortcuts</span></span>](../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-134">Modifier les bannières ou les images de logo pour les entités juridiques</span><span class="sxs-lookup"><span data-stu-id="61ad3-134">Change the banners or logo images for legal entities</span></span>](../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-135">Recherche de navigation</span><span class="sxs-lookup"><span data-stu-id="61ad3-135">Navigation search</span></span>](../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-136">Personnaliser l’expérience de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="61ad3-136">Personalize the user experience</span></span>](../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-137">Vues enregistrées</span><span class="sxs-lookup"><span data-stu-id="61ad3-137">Saved views</span></span>](../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-138">Créer et utiliser des champs personnalisés</span><span class="sxs-lookup"><span data-stu-id="61ad3-138">Create and work with custom fields</span></span>](../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-139">Intégrer Microsoft Power Apps</span><span class="sxs-lookup"><span data-stu-id="61ad3-139">Embed Microsoft Power Apps</span></span>](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-140">Rechercher des informations à l’aide des recherches</span><span class="sxs-lookup"><span data-stu-id="61ad3-140">Find information by using lookups</span></span>](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-141">Modification de la date d’une session</span><span class="sxs-lookup"><span data-stu-id="61ad3-141">Change the date for a session</span></span>](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-142">Configurer un fuseau horaire préféré de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="61ad3-142">Set a user's preferred time zone</span></span>](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-143">Comprendre Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="61ad3-143">Understand Lifecycle Services</span></span>](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 
-- <span data-ttu-id="820b9-144">Ressources documentaires</span><span class="sxs-lookup"><span data-stu-id="820b9-144">Documentation resources</span></span>
-  - [<span data-ttu-id="820b9-145">Système d’aide</span><span class="sxs-lookup"><span data-stu-id="820b9-145">Help system</span></span>](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-146">Connexion au système d’aide</span><span class="sxs-lookup"><span data-stu-id="820b9-146">Connect the Help system</span></span>](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-147">Afficher et exporter les descriptions de champ</span><span class="sxs-lookup"><span data-stu-id="820b9-147">View and export field descriptions</span></span>](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-148">Enregistreur de tâches</span><span class="sxs-lookup"><span data-stu-id="820b9-148">Task Recorder</span></span>](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
-  - [<span data-ttu-id="820b9-149">Créer une documentation ou une formation à l’aide de l’enregistreur de tâches</span><span class="sxs-lookup"><span data-stu-id="820b9-149">Create documentation or training with Task Recorder</span></span>](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
+- <span data-ttu-id="61ad3-144">Ressources documentaires</span><span class="sxs-lookup"><span data-stu-id="61ad3-144">Documentation resources</span></span>
+  - [<span data-ttu-id="61ad3-145">Système d’aide</span><span class="sxs-lookup"><span data-stu-id="61ad3-145">Help system</span></span>](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-146">Connexion au système d’aide</span><span class="sxs-lookup"><span data-stu-id="61ad3-146">Connect the Help system</span></span>](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-147">Afficher et exporter les descriptions de champ</span><span class="sxs-lookup"><span data-stu-id="61ad3-147">View and export field descriptions</span></span>](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-148">Enregistreur de tâches</span><span class="sxs-lookup"><span data-stu-id="61ad3-148">Task Recorder</span></span>](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
+  - [<span data-ttu-id="61ad3-149">Créer une documentation ou une formation à l’aide de l’enregistreur de tâches</span><span class="sxs-lookup"><span data-stu-id="61ad3-149">Create documentation or training with Task Recorder</span></span>](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- <span data-ttu-id="820b9-150">Résoudre les problèmes liés à Human Resources</span><span class="sxs-lookup"><span data-stu-id="820b9-150">Troubleshoot Human Resources</span></span>
-  - [<span data-ttu-id="820b9-151">Obtenir de l’aide</span><span class="sxs-lookup"><span data-stu-id="820b9-151">Get support</span></span>](hr-admin-troubleshooting-support.md)
-  - [<span data-ttu-id="820b9-152">Optimiser les performances grâce aux tâches automatiques de nettoyage</span><span class="sxs-lookup"><span data-stu-id="820b9-152">Optimize performance with auto cleanup tasks</span></span>](hr-admin-troubleshooting-batch-history.md)
-  - [<span data-ttu-id="820b9-153">Les états analytiques ne sont pas mis à jour</span><span class="sxs-lookup"><span data-stu-id="820b9-153">Analytic reports aren't updated</span></span>](hr-admin-troubleshooting-analytic-reports.md)
-  - [<span data-ttu-id="820b9-154">Impossible de créer un environnement dans le centre d’administration Power Apps</span><span class="sxs-lookup"><span data-stu-id="820b9-154">Can't create an environment in the Power Apps Admin center</span></span>](hr-admin-troubleshooting-power-apps.md)
-  - [<span data-ttu-id="820b9-155">Déconnexion du client</span><span class="sxs-lookup"><span data-stu-id="820b9-155">Client disconnects</span></span>](hr-admin-troubleshooting-disconnect.md)
-  - [<span data-ttu-id="820b9-156">Éviter le texte tronqué dans la hiérarchie des postes</span><span class="sxs-lookup"><span data-stu-id="820b9-156">Avoid truncated text in position hierarchy</span></span>](hr-admin-troubleshooting-truncate.md)
-  - [<span data-ttu-id="820b9-157">Exécuter le processus de rémunération</span><span class="sxs-lookup"><span data-stu-id="820b9-157">Run the compensation process</span></span>](hr-admin-troubleshooting-compensation.md)
-  - [<span data-ttu-id="820b9-158">Enregistrer un guide de tâches dans LCS</span><span class="sxs-lookup"><span data-stu-id="820b9-158">Save a task guide to LCS</span></span>](hr-admin-troubleshooting-task-guide.md)
-  - [<span data-ttu-id="820b9-159">Accéder aux adresses privées selon les rôles de sécurité</span><span class="sxs-lookup"><span data-stu-id="820b9-159">Access private addresses by security role</span></span>](hr-admin-troubleshooting-private-addresses.md)
-  - [<span data-ttu-id="820b9-160">Human Resources n’apparaissent pas dans les applications Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="820b9-160">Human Resources doesn't appear in Dynamics 365 apps</span></span>](hr-admin-troubleshooting-not-in-apps.md)
-  - [<span data-ttu-id="820b9-161">Options de génération d’états</span><span class="sxs-lookup"><span data-stu-id="820b9-161">Reporting options</span></span>](hr-admin-troubleshooting-reporting.md)
-  - [<span data-ttu-id="820b9-162">FAQ sur l’intégration</span><span class="sxs-lookup"><span data-stu-id="820b9-162">Integration FAQ</span></span>](hr-admin-troubleshooting-integration.md)
+- <span data-ttu-id="61ad3-150">Résoudre les problèmes liés à Human Resources</span><span class="sxs-lookup"><span data-stu-id="61ad3-150">Troubleshoot Human Resources</span></span>
+  - [<span data-ttu-id="61ad3-151">Obtenir de l’aide</span><span class="sxs-lookup"><span data-stu-id="61ad3-151">Get support</span></span>](hr-admin-troubleshooting-support.md)
+  - [<span data-ttu-id="61ad3-152">Optimiser les performances grâce aux tâches automatiques de nettoyage</span><span class="sxs-lookup"><span data-stu-id="61ad3-152">Optimize performance with auto cleanup tasks</span></span>](hr-admin-troubleshooting-batch-history.md)
+  - [<span data-ttu-id="61ad3-153">Les états analytiques ne sont pas mis à jour</span><span class="sxs-lookup"><span data-stu-id="61ad3-153">Analytic reports aren't updated</span></span>](hr-admin-troubleshooting-analytic-reports.md)
+  - [<span data-ttu-id="61ad3-154">Impossible de créer un environnement dans le centre d’administration Power Apps</span><span class="sxs-lookup"><span data-stu-id="61ad3-154">Can't create an environment in the Power Apps Admin center</span></span>](hr-admin-troubleshooting-power-apps.md)
+  - [<span data-ttu-id="61ad3-155">Déconnexion du client</span><span class="sxs-lookup"><span data-stu-id="61ad3-155">Client disconnects</span></span>](hr-admin-troubleshooting-disconnect.md)
+  - [<span data-ttu-id="61ad3-156">Éviter le texte tronqué dans la hiérarchie des postes</span><span class="sxs-lookup"><span data-stu-id="61ad3-156">Avoid truncated text in position hierarchy</span></span>](hr-admin-troubleshooting-truncate.md)
+  - [<span data-ttu-id="61ad3-157">Exécuter le processus de rémunération</span><span class="sxs-lookup"><span data-stu-id="61ad3-157">Run the compensation process</span></span>](hr-admin-troubleshooting-compensation.md)
+  - [<span data-ttu-id="61ad3-158">Enregistrer un guide de tâches dans LCS</span><span class="sxs-lookup"><span data-stu-id="61ad3-158">Save a task guide to LCS</span></span>](hr-admin-troubleshooting-task-guide.md)
+  - [<span data-ttu-id="61ad3-159">Accéder aux adresses privées selon les rôles de sécurité</span><span class="sxs-lookup"><span data-stu-id="61ad3-159">Access private addresses by security role</span></span>](hr-admin-troubleshooting-private-addresses.md)
+  - [<span data-ttu-id="61ad3-160">Human Resources n’apparaissent pas dans les applications Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="61ad3-160">Human Resources doesn't appear in Dynamics 365 apps</span></span>](hr-admin-troubleshooting-not-in-apps.md)
+  - [<span data-ttu-id="61ad3-161">Options de génération d’états</span><span class="sxs-lookup"><span data-stu-id="61ad3-161">Reporting options</span></span>](hr-admin-troubleshooting-reporting.md)
+  - [<span data-ttu-id="61ad3-162">FAQ sur l’intégration</span><span class="sxs-lookup"><span data-stu-id="61ad3-162">Integration FAQ</span></span>](hr-admin-troubleshooting-integration.md)
 
-## <a name="see-also"></a><span data-ttu-id="820b9-163">Voir également :</span><span class="sxs-lookup"><span data-stu-id="820b9-163">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="61ad3-163">Voir également :</span><span class="sxs-lookup"><span data-stu-id="61ad3-163">See also</span></span>
 
-- [<span data-ttu-id="820b9-164">Nouveautés ou modifications dans Human Resources</span><span class="sxs-lookup"><span data-stu-id="820b9-164">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)
-- [<span data-ttu-id="820b9-165">Guide du développeur</span><span class="sxs-lookup"><span data-stu-id="820b9-165">Developer Guide</span></span>](hr-developer-overview.md)
-- [<span data-ttu-id="820b9-166">Guide de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="820b9-166">User Guide</span></span>](hr-hrpro-overview.md)
+- [<span data-ttu-id="61ad3-164">Nouveautés ou modifications dans Human Resources</span><span class="sxs-lookup"><span data-stu-id="61ad3-164">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)
+- [<span data-ttu-id="61ad3-165">Guide du développeur</span><span class="sxs-lookup"><span data-stu-id="61ad3-165">Developer Guide</span></span>](hr-developer-overview.md)
+- [<span data-ttu-id="61ad3-166">Guide de l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="61ad3-166">User Guide</span></span>](hr-hrpro-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
