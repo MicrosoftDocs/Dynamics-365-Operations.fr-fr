@@ -2,7 +2,6 @@
 title: Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 description: Cette rubrique explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568699"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750080"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
@@ -72,7 +71,7 @@ Vous devez disposer d’un modèle de données ER comme source de données comme
 [![Page Configurations](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Concevoir une configuration de format ER
-Vous devez créer une configuration de format ER en utilisant le modèle de données **Déclaration d’échanges de biens** comme source de données commerciales. Cette configuration de format doit générer des résultats de sortie en tant que documents électroniques dans le format OpenXML (fichier Excel). Pour plus d’informations, lisez le Guide de tâche **ER Créer une configuration pour des états au format OPENXML**. Nommez la nouvelle configuration **Activités d’importation/d’exportation**, comme le montre l’illustration suivante. Utilisez le fichier Excel [Données ER - Détails de l’importation de et de l’exportation](https://go.microsoft.com/fwlink/?linkid=845208) comme modèle lorsque vous concevez le format ER. (Pour plus d’informations sur l’importation d’un modèle de format, lisez le Guide de tâche.)
+Vous devez créer une configuration de format ER en utilisant le modèle de données **Déclaration d’échanges de biens** comme source de données commerciales. Cette configuration de format doit générer des résultats de sortie en tant que documents électroniques dans le format OpenXML (fichier Excel). Pour plus d’informations, lisez le Guide de tâche **ER Créer une configuration pour des états au format OPENXML**. Nommez la nouvelle configuration **Activités d’importation/d’exportation**, comme le montre l’illustration suivante. Utilisez le fichier Excel [Données ER – Détails de l’importation de et de l’exportation](https://go.microsoft.com/fwlink/?linkid=845208) comme modèle lorsque vous concevez le format ER. (Pour plus d’informations sur l’importation d’un modèle de format, lisez le Guide de tâche.)
 
 [![Configuration des activités d’importation/d’exportation](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 

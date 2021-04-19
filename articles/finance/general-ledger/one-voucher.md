@@ -2,11 +2,9 @@
 title: N° document
 description: La fonctionnalité N° document pour les journaux financiers (journal des opérations diverses, journal des immobilisations, journal des paiements fournisseur, etc.) permet d’entrer plusieurs transactions de comptabilité auxiliaire dans le contexte d’un justificatif unique.
 author: kweekley
-manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 6b1fbf75904a869fa51d6a5938d3e808b3d6624c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230272"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834498"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -67,11 +65,11 @@ En raison des problèmes qui peuvent survenir lorsque la fonctionnalité N° doc
 - **Version du printemps 2018** – Cette fonctionnalité a été désactivée par défaut via le paramètre **Autoriser plusieurs transactions dans un justificatif** sous l’onglet **Général** de la page **Paramètres de comptabilité**. Toutefois, vous pouvez réactiver la fonctionnalité si votre organisation a un scénario qui s’inscrit dans l’un des écarts de scénario fonctionnels répertoriés plus loin dans cette rubrique.
 
     - Si votre scénario commercial ne nécessite pas N° document, nous vous recommandons de laisser la fonctionnalité désactivée. Si vous utilisez cette fonctionnalité même si une autre solution existe, Microsoft ne corrigera pas les « bogues » dans les zones identifiées plus loin dans cette rubrique.
-    - Nous vous recommandons d'arrêter d'utiliser la fonctionnalité N° document pour les intégrations dans , sauf si elle est requise pour l'un des écarts fonctionnels.
+    - Nous vous recommandons d’arrêter d’utiliser la fonctionnalité N° document pour les intégrations dans , sauf si elle est requise pour l’un des écarts fonctionnels.
 
-- **Versions ultérieures** - Certaines de ces exigences métier peuvent être remplies uniquement à l’aide de la fonctionnalité N° document. Microsoft doit s'assurer que toutes les exigences métier identifiées peuvent toujours être satisfaites dans le système une fois la fonctionnalité obsolète. Par conséquent, de nouvelles fonctionnalités devront probablement être ajoutées pour combler les lacunes fonctionnelles. Microsoft ne peut pas fournir de solution spécifique, car chaque lacune de fonctionnalités est différente et doit être évaluée en fonction des exigences de l'entreprise. Certaines lacunes fonctionnelles seront probablement remplacées par des fonctionnalités qui permettent de répondre à des exigences métier spécifiques. Cependant, d'autres lacunes peuvent être comblées en continuant à autoriser la saisie dans un journal, comme lorsque la fonctionnalité N° document est utilisée, mais en améliorant le système pour suivre plus de détails si nécessaire.
+- **Versions ultérieures** – Certaines de ces exigences métier peuvent être remplies uniquement à l’aide de la fonctionnalité N° document. Microsoft doit s’assurer que toutes les exigences métier identifiées peuvent toujours être satisfaites dans le système une fois la fonctionnalité obsolète. Par conséquent, de nouvelles fonctionnalités devront probablement être ajoutées pour combler les lacunes fonctionnelles. Microsoft ne peut pas fournir de solution spécifique, car chaque lacune de fonctionnalités est différente et doit être évaluée en fonction des exigences de l’entreprise. Certaines lacunes fonctionnelles seront probablement remplacées par des fonctionnalités qui permettent de répondre à des exigences métier spécifiques. Cependant, d’autres lacunes peuvent être comblées en continuant à autoriser la saisie dans un journal, comme lorsque la fonctionnalité N° document est utilisée, mais en améliorant le système pour suivre plus de détails si nécessaire.
 
-Une fois que toutes les lacunes fonctionnelles sont comblées, Microsoft indiquera que la fonctionnalité est obsolète. Cependant, la suppression ne sera effective qu'au bout d'au moins un an après ce message. Bien que Microsoft ne puisse pas fournir une estimation du moment où la fonctionnalité N° document sera obsolète, il faudra probablement au moins deux ans avant que cela ne se produise. La politique de Microsoft est de laisser au moins 12 mois entre l'annonce de l'obsolescence de la fonctionnalité et la dépréciation réelle, afin que les clients et les éditeurs de logiciels indépendants (ISV) aient le temps de réagir au changement. Par exemple, une organisation peut devoir mettre ses processus d’entreprise, entités, et intégrations à jour.
+Une fois que toutes les lacunes fonctionnelles sont comblées, Microsoft indiquera que la fonctionnalité est obsolète. Cependant, la suppression ne sera effective qu’au bout d’au moins un an après ce message. Bien que Microsoft ne puisse pas fournir une estimation du moment où la fonctionnalité N° document sera obsolète, il faudra probablement au moins deux ans avant que cela ne se produise. La politique de Microsoft est de laisser au moins 12 mois entre l’annonce de l’obsolescence de la fonctionnalité et la dépréciation réelle, afin que les clients et les éditeurs de logiciels indépendants (ISV) aient le temps de réagir au changement. Par exemple, une organisation peut devoir mettre ses processus d’entreprise, entités, et intégrations à jour.
 
 La dépréciation de la fonctionnalité N° document est un changement important qui sera largement diffusé. Dans le cadre de cette communication, Microsoft mettra à jour cette rubrique, publiera un billet de blog sur le site Microsoft Dynamics 365 Finance, mettra à jour la rubrique « Fonctionnalités supprimées ou obsolètes », indiquera la modification lors des conférences Microsoft appropriées, etc.
 

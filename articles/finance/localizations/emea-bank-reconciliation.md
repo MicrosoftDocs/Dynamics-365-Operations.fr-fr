@@ -2,11 +2,9 @@
 title: Rapprochement des relevés bancaires et des paiements pour l’UE
 description: Cette rubrique donne une vue d’ensemble de la fonctionnalité permettant de rapprocher les informations de paiement des banques dans les formats utilisés par les pays européens.
 author: neserovleo
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustPaymMode, VendPaymMode
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium, Norway, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5410cd29c59c6c655c22e82eca43b5132b98ff0f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 41f294539d9b906df8ddcc0851d7facd1f7d46d2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209877"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839910"
 ---
 # <a name="bank-statement-and-payment-reconciliation-for-the-eu"></a>Rapprochement des relevés bancaires et des paiements pour l’UE
 
@@ -46,15 +44,15 @@ Outre un relevé bancaire, les banques peuvent fournir des messages spécifiques
 ### <a name="import-formats"></a>Formats d’importation
 
 -   Message de notification bancaire [ISO 20022 camt.054](emea-ISO20022-file-formats.md)
--   [Format d’importation Nets](emea-nor-nets-import-format.md) - Fonction complexe pour les formats de paiement norvégiens
+-   [Format d’importation Nets](emea-nor-nets-import-format.md) – Fonction complexe pour les formats de paiement norvégiens
 -   [Importation des paiements client ESR](emea-che-esr-customer-payments-import.md) 
--   Formats de paiement d’importation pour la Suède - Formats OCR BankGirot Max et BankGirot
+-   Formats de paiement d’importation pour la Suède – Formats OCR BankGirot Max et BankGirot
 
 ### <a name="return-formats"></a>Formats de retour
 
 -   État du statut de paiement [ISO 20022 pain.002](emea-ISO20022-file-formats.md)
 -   (DNK) BetalingsserviceBasis-returformat – Format de retour pour le format d’exportation Betalingsservice client
--   [Formats de paiement d’importation pour la Suède](emea-swe-payment-formats-import.md) - Retours Bankgirot Autogiro
+-   [Formats de paiement d’importation pour la Suède](emea-swe-payment-formats-import.md) – Retours Bankgirot Autogiro
 -   (SWE) Retour BankGirot – Format de retour des paiements fournisseur, qui correspond au format d’exportation Bankgirot
 
 

@@ -2,7 +2,6 @@
 title: Configuration des propriétés de workflow
 description: Cette rubrique explique comment configurer les différentes propriétés d’un workflow.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40118f329a676ffb30870eb882d127e3eb258599
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8d55665df9efdc87f8a7c42a132bad11b4c4426e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566965"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747781"
 ---
 # <a name="configure-workflow-properties"></a>Configuration des propriétés de workflow
 
@@ -101,11 +100,11 @@ Lorsqu’un document est soumis pour traitement, une instance de workflow est cr
 1. Dans le volet gauche, cliquez sur **Notifications**.
 2. Activez la case à cocher correspondant à chaque événement qui doit déclencher des notifications :
 
-    - **Commencé** - Permet d’envoyer des notifications lorsqu’une instance de workflow démarre.
-    - **Bloqué** - Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur.
-    - **Terminée** - Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
-    - **Irrécupérable** - Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur irrécupérable.
-    - **Terminé** - Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
+    - **Commencé** – Permet d’envoyer des notifications lorsqu’une instance de workflow démarre.
+    - **Bloqué** – Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur.
+    - **Terminée** – Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
+    - **Irrécupérable** – Permet d’envoyer des notifications lorsqu’une instance de workflow est bloquée en raison d’une erreur irrécupérable.
+    - **Terminé** – Permet d’envoyer des notifications lorsqu’une instance de workflow est terminée.
 
 3. Sélectionnez la ligne pour un événement sélectionné à l’étape 2.
 4. Entrez le texte de la notification dans l’onglet **Texte de notification**.

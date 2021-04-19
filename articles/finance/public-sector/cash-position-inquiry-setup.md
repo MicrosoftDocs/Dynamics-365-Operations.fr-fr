@@ -2,11 +2,9 @@
 title: Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 description: Cette rubrique fournit des informations sur les renseignements sur l’emplacement des disponibilités. Ces renseignements vous permettent de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
 author: velofog
-manager: AnnBe
 ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 26e831d032c106cb5e54336d181064180e69e82c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e69f059c65cf84e1ea60408b20dabd428cabb4b5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264084"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809893"
 ---
 # <a name="set-up-and-run-the-cash-position-inquiry"></a>Configurer et exécuter les renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]
@@ -61,7 +59,7 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
 
 5. Dans le groupe **Colonne Cinq**, entrez un libellé pour l’en-tête de la cinquième colonne (par exemple, **Solde de clôture**).
 
-    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les quatre premières colonnes. Pour cet exemple, le calcul est Solde de départ + Encaissements - Décaissements - Transferts interfonds.
+    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les quatre premières colonnes. Pour cet exemple, le calcul est Solde de départ + Encaissements – Décaissements – Transferts interfonds.
 
 6. Dans les groupes **Colonne Six** et **Colonne Sept**, procédez comme suit :
 
@@ -70,7 +68,7 @@ Ces renseignements diffèrent des autres renseignements, car ils permettent aux 
 
 7. Dans le groupe **Colonne Huit**, entrez un libellé pour l’en-tête de la huitième colonne (par exemple, **Solde non engagé**).
 
-    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les colonnes cinq à sept. Pour cet exemple, le calcul est Solde final - Engagements - Pré-engagements.
+    Un résultat est automatiquement calculé à partir des comptes que vous avez spécifiés dans les colonnes cinq à sept. Pour cet exemple, le calcul est Solde final – Engagements – Pré-engagements.
 
 8. Sélectionnez **Enregistrer**.
 

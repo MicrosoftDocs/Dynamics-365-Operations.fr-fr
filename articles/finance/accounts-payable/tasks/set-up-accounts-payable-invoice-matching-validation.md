@@ -2,11 +2,9 @@
 title: Configurer la validation du rapprochement de factures de la comptabilité fournisseur
 description: Cette rubrique fournit des informations sur le paramétrage de la validation du rapprochement de factures de la comptabilité fournisseur.
 author: abruer
-manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8913e0b6919c26c0d81b1513bad9624690ed3ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15fbb5481e3ff8760f536f1d5eeff76370216b37
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214570"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827744"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurer la validation du rapprochement de factures de la comptabilité fournisseur
 
@@ -34,7 +32,7 @@ Il existe quatre types de validation du rapprochement.
 - **Rapprochement au niveau ligne** – Le type le plus courant de rapprochement est le rapprochement au niveau ligne. Le rapprochement au niveau ligne peut être à deux ou trois facteurs. Le rapprochement au niveau ligne par défaut peut être spécifié pour une entité juridique sur la page **Paramètres de la comptabilité fournisseur**. Le rapprochement à deux facteurs compare le prix unitaire de la facture avec celui de la commande fournisseur. Le rapprochement à trois facteurs compare la quantité de la facture à la quantité de l’accusé de réception correspondant.
 - **Rapprochement des totaux des factures** – Rapproche les montants totaux de la facture avec ceux de la commande fournisseur Ce type de rapprochement de factures inclut un minimum d’informations afin que vous puissiez utiliser cette option pour paramétrer des contrôles qui réduisent le temps de travail requis pour réviser les informations de rapprochement de factures. Six totaux sont comparés, notamment le sous-total, la remise totale, les frais, les taxes, l’arrondi et le montant de la facture. Le système valide si l’une de ces valeurs sur la facture s’écarte du montant prévu de plus que l’écart acceptable.
 - **Rapprochement des frais** – Rapproche les informations de frais (montants) de la facture avec celles de la commande fournisseur.
-- **Rapprochement des prix totaux par ligne article** – Ce type de rapprochement est utile pour les sociétés qui reçoivent généralement plusieurs factures pour une seule ligne de commande fournisseur. Si vous recevez généralement une seule facture par ligne de commande fournisseur, ce type de rapprochement n’est pas nécessaire. Ce rapprochement nécessite que le rapprochement à deux ou trois facteurs soit activé et sert de validation du montant net à ne pas dépasser, selon les pourcentages et les montants de tolérance.  Ce type de rapprochement compare les informations de prix relatives au montant net de chaque ligne de la facture et de toutes les lignes de facture en attente et précédemment validées avec le montant net de la ligne de commande fournisseur correspondante. Le montant net est déterminé par la formule suivante : (Prix unitaire * Quantité de la ligne) + Frais de la ligne - Remises de la ligne. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l’aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l’aide de la devise comptable.
+- **Rapprochement des prix totaux par ligne article** – Ce type de rapprochement est utile pour les sociétés qui reçoivent généralement plusieurs factures pour une seule ligne de commande fournisseur. Si vous recevez généralement une seule facture par ligne de commande fournisseur, ce type de rapprochement n’est pas nécessaire. Ce rapprochement nécessite que le rapprochement à deux ou trois facteurs soit activé et sert de validation du montant net à ne pas dépasser, selon les pourcentages et les montants de tolérance.  Ce type de rapprochement compare les informations de prix relatives au montant net de chaque ligne de la facture et de toutes les lignes de facture en attente et précédemment validées avec le montant net de la ligne de commande fournisseur correspondante. Le montant net est déterminé par la formule suivante : (Prix unitaire * Quantité de la ligne) + Frais de la ligne – Remises de la ligne. Lors du rapprochement des totaux des prix par pourcentage, le système compare les valeurs à l’aide de la devise de transaction. Lors du rapprochement des totaux des prix par montant, le système compare les valeurs à l’aide de la devise comptable.
 
 ## <a name="set-up-parameters-to-enable-invoice-matching-validation"></a>Configurer les paramètres pour activer la validation du rapprochement de factures
 1. Accédez à **Comptabilité fournisseur > Configuration > Paramètres de la comptabilité fournisseur**.

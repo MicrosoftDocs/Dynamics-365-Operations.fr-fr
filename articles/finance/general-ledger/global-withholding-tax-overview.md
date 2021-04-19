@@ -1,12 +1,10 @@
 ---
 title: Retenue à la source globale
-description: Cette rubrique fournit des informations sur la fonctionnalité de retenue à la source globale et sur la manière de la configurer. La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l'article.
+description: Cette rubrique fournit des informations sur la fonctionnalité de retenue à la source globale et sur la manière de la configurer. La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l’article.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 25fc503d6145872b8e9f28b8d9a4d7b9c1ba53a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9a73d34fb4fbf007cbb5a996cfa6e9719532869c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249165"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826664"
 ---
 # <a name="global-withholding-tax"></a>Retenue à la source globale
 
@@ -30,7 +28,7 @@ ms.locfileid: "5249165"
 
 Cette rubrique fournit des informations sur la fonctionnalité de retenue à la source globale et explique comment la configurer. Cette nouvelle fonctionnalité est disponible dans la version 10.0.17 et ultérieures.
 
-La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l'article. Le solde du compte de retenue à la source provenant des transactions d'achat peut être réglé en exécutant la tâche de paiement de la retenue à la source sur le compte de règlement de la retenue à la source.
+La fonctionnalité de retenue à la source globale est améliorée pour les transactions fournisseur et client, de sorte que la retenue à la source est calculée au niveau de l’article. Le solde du compte de retenue à la source provenant des transactions d’achat peut être réglé en exécutant la tâche de paiement de la retenue à la source sur le compte de règlement de la retenue à la source.
 
 > [!NOTE]
 > La retenue à la source globale ne prend pas en charge la fonction **Tenir les frais à jour** sur les pages de bon de commande, de facture fournisseur et de commande client.
@@ -38,12 +36,12 @@ La fonctionnalité de retenue à la source globale est améliorée pour les tran
 ## <a name="turn-on-global-withholding-tax"></a>Activer la retenue à la source globale
 
 1. Dans l’espace de travail **Gestion des fonctionnalités**, sélectionnez **Retenue à la source globale**, puis sélectionnez **Activer maintenant**.
-2. Accédez à **Taxe \> Paramétrage \> Paramètres \> Paramètres de comptabilité**, puis dans l'onglet **Retenue à la source**, définissez l'option **Activer la retenue à la source globale** sur **Oui**.
+2. Accédez à **Taxe \> Paramétrage \> Paramètres \> Paramètres de comptabilité**, puis dans l’onglet **Retenue à la source**, définissez l’option **Activer la retenue à la source globale** sur **Oui**.
 3. Sélectionnez **Enregistrer**.
 4. Actualisez la page dans votre navigateur Web.
 
 > [!NOTE]
-> La fonctionnalité de retenue à la source globale ne peut pas être activée pour les pays/régions où des solutions de retenue à la source localisées existent déjà. Ces pays comprennent, sans s'y limiter, l'Inde, le Brésil, la Thaïlande, l'Arabie saoudite, l'Irlande, la Grande-Bretagne et les États-Unis.
+> La fonctionnalité de retenue à la source globale ne peut pas être activée pour les pays/régions où des solutions de retenue à la source localisées existent déjà. Ces pays comprennent, sans s’y limiter, l’Inde, le Brésil, la Thaïlande, l’Arabie saoudite, l’Irlande, la Grande-Bretagne et les États-Unis.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

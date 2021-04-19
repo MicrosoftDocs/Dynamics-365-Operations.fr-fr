@@ -2,11 +2,9 @@
 title: Régimes de rémunération
 description: Les gestionnaires de rémunération et avantages peuvent utiliser la gestion des rémunérations pour tenir à jour et traiter les régimes de rémunération fixes et variables des employés de l’organisation.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d537f17dad7e511400c48c6e624f7644048d1c6d
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 1be212cae4b0df136bb19b9521fd80aa29f7e094
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465724"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793751"
 ---
 # <a name="compensation-plans"></a>Régimes de rémunération
 
@@ -64,7 +62,7 @@ Le tableau suivant répertorie les composants du processus de rémunération pou
 </tr>
 <tr class="odd">
 <td>Matrice d’utilisation de tranche</td>
-<td>Une matrice de plage d’utilisation vous permet de faire passer les employés au point de contrôle pour leurs tâches. Vous pouvez également vous servir de la plage d’utilisation pour contrôler l’équité des niveaux de rémunération au sein de la société sans tenir compte des performances individuelles de l’employé ou des performances globales de la société. Par exemple, les employés qui ont les salaires les plus bas de leur plage bénéficient d’augmentations supérieures en termes de pourcentage que les employés de la même plage qui sont payés davantage. De cette manière, il est possible d’atténuer les différences de manière systématique. La plage d’utilisation est calculée comme suit : (taux de salaire fixe - plage minimale) ÷ (plage maximale - plage minimale).</td>
+<td>Une matrice de plage d’utilisation vous permet de faire passer les employés au point de contrôle pour leurs tâches. Vous pouvez également vous servir de la plage d’utilisation pour contrôler l’équité des niveaux de rémunération au sein de la société sans tenir compte des performances individuelles de l’employé ou des performances globales de la société. Par exemple, les employés qui ont les salaires les plus bas de leur plage bénéficient d’augmentations supérieures en termes de pourcentage que les employés de la même plage qui sont payés davantage. De cette manière, il est possible d’atténuer les différences de manière systématique. La plage d’utilisation est calculée comme suit : (taux de salaire fixe – plage minimale) ÷ (plage maximale – plage minimale).</td>
 </tr>
 <tr class="even">
 <td>Paramétrages de point de référence</td>

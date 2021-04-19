@@ -2,11 +2,9 @@
 title: FR-00004 Mettre à jour un mode de paiement pour le client
 description: Cette procédure vous guide dans l’ajout d’un compte bancaire pour un enregistrement client en France et dans la mise à jour d’un mode de paiement pour le même client.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, LogisticsPostalAddress, LogisticsPostalAddressGrid, SysLookupMultiSelectGrid
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2742dfda18b028dedef016721ddb3170d09d0394
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 275621dd2fd9853671350f818895f1a1a004bca8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811261"
 ---
 # <a name="fr-00004-update-method-of-payment-on-customer"></a>FR-00004 Mettre à jour un mode de paiement pour le client
 

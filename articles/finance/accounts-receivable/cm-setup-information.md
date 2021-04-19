@@ -2,11 +2,9 @@
 title: Paramétrage de la gestion du crédit
 description: Cette rubrique décrit la configuration requise pour la gestion des crédits.
 author: mikefalkner
-manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cd6d2f23a68ad3d7308d40a2638866dde7a7a81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 640d81920dad391a77b58942972660b01f11b003
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224763"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830638"
 ---
 # <a name="credit-management-setup"></a>Paramétrage de la gestion du crédit 
 
@@ -97,8 +95,8 @@ Vous pouvez créer des groupes de notation sur la page **Groupes de notation** (
 3. Sélectionnez un type de groupe. Il existe huit types prédéfinis. Vous pouvez également sélectionner **Défini par l’utilisateur** pour définir un type de groupe mieux adapté à votre organisation.
 4. Sélectionnez un type de score pour définir comment le groupe de notation calcule le score de risque. Les options suivantes sont disponibles :
 
-    - **Plage** - Utilisez cette option pour définir une plage de valeurs à utiliser pour calculer un score.
-    - **Défini par l’utilisateur** - Utilisez cette option pour définir manuellement une liste de valeurs à utiliser pour le score.
+    - **Plage** – Utilisez cette option pour définir une plage de valeurs à utiliser pour calculer un score.
+    - **Défini par l’utilisateur** – Utilisez cette option pour définir manuellement une liste de valeurs à utiliser pour le score.
 
 5. Si vous avez sélectionné **Plage** comme type de score, ajoutez des lignes pour définir la plage de valeurs et les scores correspondants.
 

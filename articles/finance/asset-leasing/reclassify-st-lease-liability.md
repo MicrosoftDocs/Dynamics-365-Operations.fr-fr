@@ -2,11 +2,9 @@
 title: Reclasser la partie à court terme d’un passif locatif
 description: Cette rubrique explique comment créer une entrée de journal mensuelle pour reclasser une partie du passif locatif comme à court terme.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254081"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823093"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Reclasser la partie à court terme du passif locatif
 
@@ -38,8 +36,7 @@ Pour créer et valider l’entrée de journal de reclassement de passif à court
 2. Dans la boîte de dialogue **Création de journaux par lots**, dans le champ **Sélectionner un échéancier**, sélectionnez **Reclassement du passif locatif à court terme**.
 3. Dans le champ **Groupe de location**, sélectionnez un groupe de locations. Alternativement, dans le champ **ID du registre**, sélectionnez l’ID du registre.
 4. Activez le paramètre **valider**. Sinon, si l’écriture doit être créée mais pas publiée, laissez ce paramètre désactivé.
-5. Activez le paramètre **Aperçu avant de valider** pour afficher l’écriture avant sa validation.
-6. Cliquez sur **OK**.
+5. Cliquez sur **OK**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

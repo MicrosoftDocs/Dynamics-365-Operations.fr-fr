@@ -2,11 +2,9 @@
 title: Poste de la demande de recrutement
 description: Cette rubrique décrit l’entité Poste de la demande de recrutement pour Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4892dc0801a47ab7c219df00b997fa469f56b7fc
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: cd19cce4b3e1d057585de3368076a5e7b913e50d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464692"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805200"
 ---
 # <a name="recruiting-request-position"></a>Poste de la demande de recrutement
 
@@ -31,7 +29,7 @@ Cette rubrique décrit l’entité Poste de la demande de recrutement pour Dynam
 
 Nom physique : mshr_hcmrecruitingrequestpositionentity
 
-### <a name="description"></a>Description 
+### <a name="description"></a>Description
 
 Décrit le ou les postes à pourvoir pour une demande de recrutement. L’ajout d’un poste à la demande de recrutement est facultatif. Les propriétés du poste sont en lecture seule, car elles doivent être identiques sur la demande de recrutement et sur la fiche de poste. Si des changements de propriétés sont nécessaires, ils doivent être faits sur la fiche de poste avant d’ajouter le poste à la demande de recrutement.
 
@@ -62,7 +60,7 @@ Décrit le ou les postes à pourvoir pour une demande de recrutement. L’ajout 
 
 ### <a name="properties"></a>Propriétés
 
-| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description  |
+| Propriété<br>**Nom physique**<br>**_Type_** | Cas d’emploi | Description |
 | --- | --- | --- |
 | **ID de l’entité Poste de la demande de recrutement**<br>mshr_hcmrecruitingrequestpositionentityid<br>*GUID* | Lecture seule<br>Requis |    Identificateur généré par le système pour le dossier du poste de la demande de recrutement. |
 | **ID demande de recrutement**<br>mshr_recruitingrequestid<br>*Chaîne* | Écriture unique<br>Requis | Identificateur unique lisible par l’utilisateur de la demande de recrutement. |

@@ -1,12 +1,10 @@
 ---
 title: Prévision des flux de trésorerie
 description: Cette rubrique fournit une vue d’ensemble du processus de prévisions des flux de trésorerie. Elle décrit également comment les prévisions des flux de trésorerie sont intégrées avec d’autres modules dans le système.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232463"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819648"
 ---
 # <a name="cash-flow-forecasting"></a>Prévision des flux de trésorerie
 
@@ -45,8 +43,7 @@ La prévision des flux de trésorerie peut être intégrée avec les modules Com
 - **Écritures de registre budgétaires** – Écritures de registre budgétaires qui sont sélectionnées pour les prévisions des flux de trésorerie.
 - **Prévisions de la demande** – Lignes de modèle de prévisions de stock sélectionnées pour les prévisions des flux de trésorerie.
 - **Prévisions d’approvisionnement** – Lignes de modèle de prévisions de stock sélectionnées pour les prévisions des flux de trésorerie.
-
-Bien qu’il n’y a pas d’intégration directe avec le module Gestion de projets et Comptabilité, il existe plusieurs façons d’inclure les transactions de projet dans les prévisions des flux de trésorerie. Les factures de projet validées sont incluses dans la prévision dans le cadre des transactions client en cours. Les commandes client et fournisseur créées pour un projet sont incluses dans la prévision comme les commandes en cours après leur saisie dans le système. Vous pouvez également transférer des prévisions de projet vers un modèle de budget comptable. Ce modèle de budget comptable est ensuite inclus dans les prévisions des flux de trésorerie dans les écritures de registre budgétaires.
+- **Prévisions de projet** – Gestion de projet et prévisions comptables à l’aide d’un modèle de prévision.
 
 ## <a name="configuration"></a>Configuration
 
@@ -97,6 +94,14 @@ Un nouvel onglet sur la page **Configuration des prévisions de flux de trésore
 
 Sur l’onglet **Dimensions**, choisissez dans la liste des dimensions à utiliser pour le filtrage et utilisez les touches fléchées pour les déplacer vers la colonne de droite. Seules deux dimensions peuvent être sélectionnées pour filtrer les données de prévision des flux de trésorerie. 
 
+### <a name="project-management-and-accounting"></a>Gestion et comptabilité du projet
+
+Dans la version 10.0.17, une nouvelle fonctionnalité permet l’intégration avec la Gestion et comptabilité des projet et la Prévision des flux de trésorerie. Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonctionnalité **Prévision des flux de trésorerie de projet** pour inclure les coûts et recettes prévus dans les prévisions de flux de trésorerie. Sur l’onglet **Gestion et comptabilité des projets** de la page **Configuration des prévisions de flux de trésorerie**, sélectionnez les types de projet et les types de transaction à inclure dans la prévision des flux de trésorerie. Sélectionnez ensuite le modèle de prévision du projet. Un sous-modèle de type réduction est le plus approprié. Les comptes de liquidité saisis dans la configuration de la comptabilité client sont utilisés comme comptes de liquidité par défaut. Par conséquent, vous n’êtes pas obligé de saisir des comptes de liquidité par défaut lorsque vous configurez la prévision des flux de trésorerie. Un modèle de budget peut également être utilisé, mais un seul type peut être sélectionné sur la page **Configuration des prévisions de flux de trésorerie** pour la Gestion et comptabilité des projets. Un modèle de prévision offre la plus grande flexibilité lorsque la Gestion et comptabilité des projets ou Project Operations sont utilisés.
+
+Une fois la fonctionnalité Prévision des flux de trésorerie de projet activée, la prévision de flux de trésorerie peut être affichée pour chaque projet sur la page **Tous les projets**. Dans le volet Actions, sous l’onglet **Planifier**, dans le groupe **Prévision**, sélectionnez **Prévisions de flux de trésorerie**. Dans les espaces de travail **Vue d’ensemble des disponibilités** (voir la section [Génération d’états](#reporting) plus loin dans cette rubrique), le type de transaction de la Prévision de projet affiche les entrées (recettes de la prévision de projet) et les sorties (coûts de la prévision de projet). Les montants ne peuvent être inclus que si le champ **Stade du projet** dans les espaces de travail **Vue d’ensemble des disponibilités** est défini sur **En cours**.
+
+Les transactions du projet sont toujours incluses dans les prévisions de flux de trésorerie de plusieurs manières, indépendamment du fait que la fonctionnalité **Prévision des flux de trésorerie de projet** est activée. Les factures de projet validées sont incluses dans la prévision dans le cadre des transactions client en cours. Les commandes client et fournisseur créées pour un projet sont incluses dans la prévision comme les commandes en cours après leur saisie dans le système. Vous pouvez également transférer des prévisions de projet vers un modèle de budget comptable. Ce modèle de budget comptable est ensuite inclus dans les prévisions des flux de trésorerie dans les écritures de registre budgétaires. Si vous avez activé la fonctionnalité **Prévision des flux de trésorerie de projet**, ne transférez pas les prévisions de projet vers un modèle de budget comptable, car cette action entraînera le comptage des prévisions de projet deux fois.
+
 ### <a name="calculation"></a>Calcul
 
 Avant de pouvoir afficher les analyses de prévisions des flux de trésorerie, vous devez exécuter le processus de calcul du flux de trésorerie. Le processus de calcul projettera les effets de trésorerie futurs des transactions qui ont été saisies.
@@ -121,13 +126,13 @@ Une fois les prévisions des flux de trésorerie calculées, vous devez actualis
 
 Il existe deux espaces de travail contenant des données de prévision de flux de trésorerie. L’un des espaces de travail contient des données concernant toutes les sociétés, et l’autre espace de travail contient les données de la société actuelle.
 
-L’accès à l’espace de travail pour toutes les sociétés est contrôlé par le droit **Afficher l’espace de travail de toutes les sociétés du flux de trésorerie**. Par défaut, l’espace de travail **Aperçu de la trésorerie - toutes les sociétés** est disponible pour les rôles suivants :
+L’accès à l’espace de travail pour toutes les sociétés est contrôlé par le droit **Afficher l’espace de travail de toutes les sociétés du flux de trésorerie**. Par défaut, l’espace de travail **Aperçu de la trésorerie – toutes les sociétés** est disponible pour les rôles suivants :
 
 - Président directeur général
 - Directeur financier
 - Contrôleur financier
 
-L’accès à l’espace de travail pour la société actuelle est contrôlé par le droit **Afficher l’espace de travail de la société actuelle du flux de trésorerie**. Par défaut, l’espace de travail **Aperçu de la trésorerie - société actuelle** est disponible pour les rôles suivants :
+L’accès à l’espace de travail pour la société actuelle est contrôlé par le droit **Afficher l’espace de travail de la société actuelle du flux de trésorerie**. Par défaut, l’espace de travail **Aperçu de la trésorerie – société actuelle** est disponible pour les rôles suivants :
 
 - Comptable
 - Responsable comptabilité
@@ -135,9 +140,9 @@ L’accès à l’espace de travail pour la société actuelle est contrôlé pa
 - Responsable Comptabilité fournisseur
 - Responsable Comptabilité client
 
-L’espace de travail **Aperçu de la trésorerie - toutes les sociétés** affiche les analyses de prévisions de flux de trésorerie dans la devise du système. La devise système et le type de taux de change du système utilisés pour les analyses sont définis dans la page **Paramètres système**. Cet espace de travail affiche une vue d’ensemble des prévisions des flux de trésorerie et les soldes du compte bancaire pour toutes les sociétés. Un graphique des encaissements et décaissements fournit une vue d’ensemble des futurs mouvements et soldes de disponibilités dans la devise du système, ainsi que des informations détaillées sur les transactions de prévision. Vous pouvez également afficher les soldes de devise prévus.
+L’espace de travail **Aperçu de la trésorerie – toutes les sociétés** affiche les analyses de prévisions de flux de trésorerie dans la devise du système. La devise système et le type de taux de change du système utilisés pour les analyses sont définis dans la page **Paramètres système**. Cet espace de travail affiche une vue d’ensemble des prévisions des flux de trésorerie et les soldes du compte bancaire pour toutes les sociétés. Un graphique des encaissements et décaissements fournit une vue d’ensemble des futurs mouvements et soldes de disponibilités dans la devise du système, ainsi que des informations détaillées sur les transactions de prévision. Vous pouvez également afficher les soldes de devise prévus.
 
-L’espace de travail **Aperçu de la trésorerie - société actuelle** affiche les analyses de prévisions des flux de trésorerie dans la devise comptable définie pour la société. La devise comptable utilisée pour les analyses est définie sur la page **Comptabilité**. Cet espace de travail affiche une vue d’ensemble des prévisions des flux de trésorerie et les soldes du compte bancaire pour la société actuelle. Un graphique des encaissements et décaissements fournit une vue d’ensemble des futurs mouvements et soldes de disponibilités dans la devise comptable, ainsi que des informations détaillées sur les transactions de prévision. Vous pouvez également afficher les soldes de devise prévus.
+L’espace de travail **Vue d’ensemble des disponibilités – société actuelle** affiche les analyses de prévisions des flux de trésorerie dans la devise comptable définie pour la société. La devise comptable utilisée pour les analyses est définie sur la page **Comptabilité**. Cet espace de travail affiche une vue d’ensemble des prévisions des flux de trésorerie et les soldes du compte bancaire pour la société actuelle. Un graphique des encaissements et décaissements fournit une vue d’ensemble des futurs mouvements et soldes de disponibilités dans la devise comptable, ainsi que des informations détaillées sur les transactions de prévision. Vous pouvez également afficher les soldes de devise prévus.
 
 Pour plus d’informations sur les analyses de prévisions des flux de trésorerie, voir la rubrique [Contenu Power BI Vue d’ensemble des disponibilités](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 

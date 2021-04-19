@@ -2,11 +2,9 @@
 title: Méthodes de calcul de la taxe dans le champ Origine
 description: Cet article décrit les options du champ Origine dans la page de codes taxe et la manière dont la taxe est calculée selon l’option sélectionnée pour un code taxe.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be935b80e06158d9634989ba03747f4a59247f8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204928"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815354"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
@@ -36,7 +34,7 @@ Pour chaque code taxe créé dans la page Codes taxe, vous devez sélectionner l
 La méthode de calcul Pourcentage du montant HT est la valeur par défaut dans le champ Origine. La taxe est calculée comme un pourcentage du montant d’achat ou de vente (hors taxe).
 ### <a name="example"></a>Exemple
 
-Le taux de taxe est de 25 %. La ligne de facture affiche une quantité de 10 articles à 1 € pièce et le client peut prétendre à 10 % de remise ligne. Montant HT : (10 x 1,00) - 10 % = 9,00 Taxe : 9,00 x 25 % = 2,25 Montant total : 9,00 + 2,25 = 11,25
+Le taux de taxe est de 25 %. La ligne de facture affiche une quantité de 10 articles à 1 € pièce et le client peut prétendre à 10 % de remise ligne. Montant HT : (10 x 1,00) – 10 % = 9,00 Taxe : 9,00 x 25 % = 2,25 Montant total : 9,00 + 2,25 = 11,25
 
 ## <a name="percentage-of-gross-amount"></a>Pourcentage du montant brut
 Si vous sélectionnez la méthode Pourcentage du montant brut, la taxe est calculée comme un pourcentage du chiffre d’affaires brut. Le montant brut est le montant HT de la ligne plus l’ensemble des taxes et frais pour la ligne à l’exception de la taxe indiquant Origine = Pourcentage du montant brut.
@@ -113,11 +111,11 @@ Les résultats des exemples 1 et 3 sont les mêmes car il n’impliquent pas plu
 Le pourcentage calculé du montant HT gère le calcul de la taxe différemment selon la définition du paramètre Montants, taxe incluse pour le document ou le journal.
 ### <a name="example-1"></a>Exemple 1
 
-Le document ou journal est défini sur Montants, taxe incluse = Oui Montant de la ligne de transaction = 10,00 Taux de taxe = Taxe de 25 % Montant de la ligne de transaction x taux de taxe (10,00 x 25 %) = 2,50 Montant de base de la taxe (montant d’origine) = Montant de la ligne de transaction - Taxe (10,00 - 2,50) = 7,50
+Le document ou journal est défini sur Montants, taxe incluse = Oui Montant de la ligne de transaction = 10,00 Taux de taxe = Taxe de 25 % Montant de la ligne de transaction x taux de taxe (10,00 x 25 %) = 2,50 Montant de base de la taxe (montant d’origine) = Montant de la ligne de transaction – Taxe (10,00 – 2,50) = 7,50
 
 ### <a name="example-2"></a>Exemple 2
 
-Le document ou journal est défini sur Montants, taxe incluse = Non Montant de la ligne de transaction = 10,00 Taux de taxe = Taxe de 25 % (Montant de la ligne de transaction x taux de taxe) / (100 - taux de taxe) (10,00 x 25 %) / (100 % - 25 %) = 3,33 Montant de base de la taxe (montant d’origine) = Montant de la ligne de transaction = 10,00
+Le document ou journal est défini sur Montants, taxe incluse = Non Montant de la ligne de transaction = 10,00 Taux de taxe = Taxe de 25 % (Montant de la ligne de transaction x taux de taxe) / (100 – taux de taxe) (10,00 x 25 %) / (100 % – 25 %) = 3,33 Montant de base de la taxe (montant d’origine) = Montant de la ligne de transaction = 10,00
 
 
 

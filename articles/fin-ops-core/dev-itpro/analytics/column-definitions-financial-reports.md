@@ -2,7 +2,6 @@
 title: Définitions de colonne dans les états financiers
 description: Cet article fournit des informations sur les définitions de colonne. Une définition de colonne est un composant de l’état, qui spécifie le contenu des colonnes d’un état.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3fb41234d255ff9b5ad3756156eeadca2c94546b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2b3b45b155528c6037b332f2dc381bfe7bea0ed1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559843"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754455"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Définitions de colonne dans les états financiers
 
@@ -81,9 +80,9 @@ Ces informations s’affichent dans les zones suivantes de la définition de col
     | Formule                                                               | Spécifie une formule de calcul pour les colonnes du type **CALC**.                                        |
     | Largeur de colonne Espaces supplémentaires avant la colonne Remplacement de format Contrôle d’impression | Spécifie les options spéciales de format.                                                                        |
     | Restrictions de colonne                                                   | Permet de limiter les données.                                                                                         |
-    | Unité de déclaration                                                        | Permet de restreindre la colonne de sorte qu’elle ne présente que les données de l’unité de déclaration spécifiée.                      |
+    | Unité organisationnelle                                                        | Permet de restreindre la colonne de sorte qu’elle ne présente que les données de l’unité organisationnelle spécifiée.                      |
     | Afficher la devise Filtre de devise                                      | Devise de format.                                                                                       |
-    | Filtre de dimension                                                      | Spécifie un filtre pour limiter les données à certaines unités de déclaration de données financières.                           |
+    | Filtre de dimension                                                      | Spécifie un filtre pour limiter les données à certaines unités organisationnelles de données financières.                           |
     | Filtre d’attribut                                                      | Spécifie un filtre pour restreindre les données financières.                                                       |
     | Date de début Date de fin                                                   | Restreint les données financières à des dates spécifiques.                                                         |
     | Justification                                                         | Alignement à gauche, centrage ou alignement à droite du texte de description spécifié dans la définition de ligne. |
@@ -120,12 +119,12 @@ Le tableau suivant décrit les codes de restriction de colonne.
 | TP                      | Restreint les montants dans la colonne, de sorte que seules les transactions validées sont incluses, si ces transactions sont disponibles. |
 | UPT                     | Restreint les montants dans la colonne, de sorte que seules les transactions non validées sont incluses, si ces transactions sont disponibles.<p><strong>Remarque :</strong> tous les fournisseurs de données ne prennent pas en charge les transactions non validées. </p> |
 
-### <a name="restrict-a-column-to-a-reporting-unit"></a>Restreindre une colonne à une unité de déclaration
+### <a name="restrict-a-column-to-a-reporting-unit"></a>Restreindre une colonne à une unité organisationnelle
 
 1. Dans le générateur d’état, ouvrez la définition de colonne à modifier.
-2. Double-cliquez sur la cellule **Unité de déclaration** de la colonne à limiter.
-3. Dans la boîte de dialogue **Sélectionner une unité de déclaration**, dans la liste **Arborescence de génération d’états**, sélectionnez une arborescence.
-4. Développez ou réduisez la liste des unités, sélectionnez une unité de déclaration, puis cliquez sur **OK**.
+2. Double-cliquez sur la cellule **Unité organisationnelle** de la colonne à limiter.
+3. Dans la boîte de dialogue **Sélectionner une unité organisationnelle**, dans la liste **Arborescence de génération d’états**, sélectionnez une arborescence.
+4. Développez ou réduisez la liste des unités, sélectionnez une unité organisationnelle, puis cliquez sur **OK**.
 
 ## <a name="format-column-headers"></a>Mettre en forme les en-têtes de colonne
 Vous pouvez ajouter, modifier et supprimer les en-têtes affichés en haut des colonnes de l’état. Vous pouvez également configurer des en-têtes de colonne à étendue conditionnelle, selon le champ **Période** des définitions de colonne et du champ **Période de base** des définitions d’état. La fonctionnalité de période de base vous fait gagner du temps lorsque vous créez des états de prévision à court terme.
@@ -227,7 +226,7 @@ Un utilisateur crée un état pour une prévision dynamique de six mois. Il veut
 
 L’utilisateur double-clique ensuite sur une cellule d’en-tête de la colonne B pour ouvrir la boîte de dialogue **En-tête de colonne** et entre les informations suivantes.
 
-| Champ              | Valeur                  |
+| Champ              | Valeur                 |
 |--------------------|-----------------------|
 | Texte d’en-tête de colonne | Réel                |
 | Insertion texte auto    | Aucune sélection n’est effectuée. |
@@ -238,7 +237,7 @@ L’utilisateur double-clique ensuite sur une cellule d’en-tête de la colonne
 
 Après avoir saisi les informations, l’utilisateur clique sur **OK**. L’utilisateur double-clique ensuite sur la cellule d’en-tête de la colonne C pour ouvrir la boîte de dialogue **En-tête de colonne** et entre les informations suivantes.
 
-| Champ              | Valeur                  |
+| Champ              | Valeur                 |
 |--------------------|-----------------------|
 | Texte d’en-tête de colonne | Budget                |
 | Insertion texte auto    | Aucune sélection n’est effectuée. |
@@ -543,7 +542,7 @@ Le tableau suivant présente les résultats de l’état qui peuvent exister pou
 |----------------------------------------------|----------------------|---------------|
 | Devise de la transaction                 | **YEN**              | **Y6 000** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY. |
 | Devise comptable de la comptabilité | **YEN**              |**$60** – Le résultat affiche uniquement les transactions qui ont été entrées en JPY et affiche ces transactions en USD.<p><strong>Remarque :</strong> le taux de conversion est approximativement 100 JPY pour 1 USD.</p> |
-| Devise comptable de la comptabilité | Vide                | **2 310 USD** - Le résultat affiche toutes les données dans la devise comptable spécifiée en comptabilité.<p><strong>Remarque :</strong> Ce montant correspond à la somme de toutes les transactions dans la devise comptable.</p> |
+| Devise comptable de la comptabilité | Vide                | **2 310 USD** – Le résultat affiche toutes les données dans la devise comptable spécifiée en comptabilité.<p><strong>Remarque :</strong> Ce montant correspond à la somme de toutes les transactions dans la devise comptable.</p> |
 | Devise de la transaction                 | Vide                | **$2 250** – Le résultat affiche tous les montants dans la devise dans laquelle la transaction a été exécutée. Autrement dit, le total est ajouté aux montants de différentes devises. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonne de calcul dans une définition de colonne

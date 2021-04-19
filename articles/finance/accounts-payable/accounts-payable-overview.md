@@ -2,11 +2,9 @@
 title: Vue d’ensemble de la configuration du module Comptabilité fournisseur
 description: Cet article décrit les pages que vous utilisez pour paramétrer les fonctionnalités de base et facultatives pour la Comptabilité fournisseur. Il décrit également les étapes de paramétrage que vous devez effectuer avant de commencer à configurer la Comptabilité fournisseur.
 author: abruer
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efaf1d4d9d6b8764597f267de9d545b7d9301b52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266466"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820881"
 ---
 # <a name="configure-accounts-payable-overview"></a>Vue d’ensemble de la configuration du module Comptabilité fournisseur
 
@@ -44,7 +42,7 @@ Avant d’être en mesure de configurer le module Comptabilité fournisseur, vou
 
 Les pages suivantes permettent de paramétrer les fonctionnalités de base du module Comptabilité fournisseur pour chaque entité juridique. Elles sont répertoriées dans l’ordre de paramétrage recommandé. Pour simplifier le processus de paramétrage, vous pouvez créer des modèles à partir des premiers enregistrements que vous créez. Dans un modèle, les valeurs sont généralement entrées dans de nombreux champs de sorte à refléter les fonctionnalités que l’organisation veut mettre en œuvre pour un type de fournisseur particulier.
 1.  Sur la page Conditions de paiement, définissez les conditions de paiement à affecter aux commandes client, aux commandes fournisseur, aux clients et aux fournisseurs et qui déterminent les dates d’échéance des factures. Pour plus d’informations, voir [Définir les commissions de paiement fournisseur](tasks/define-vendor-payment-fees.md).
-2.  Sur la page Modes de paiement - fournisseurs, créez et tenez à jour les informations sur la manière dont l’organisation paie ses fournisseurs.
+2.  Sur la page Modes de paiement – fournisseurs, créez et tenez à jour les informations sur la manière dont l’organisation paie ses fournisseurs.
 3.  Sur la page Groupes de fournisseurs, créez et tenez à jour les groupes de fournisseurs qui partagent des paramètres importants pour la validation, le règlement et le paiement, la génération d’états et les prévisions.
 4.  Sur la page Profils de validation fournisseur, définissez comment les transactions fournisseur sont imputées dans la comptabilité.
 5.  Sur la page Paramètres de la comptabilité fournisseur, définissez des paramètres par défaut qui sont appliqués si aucun paramétrage plus spécifique n’est spécifié, des paramètres pour différents types de fonctionnalités et les diverses souches de numéros pour la comptabilité fournisseur.
@@ -85,8 +83,8 @@ Les pages à paramétrer supplémentaires sont organisés selon leur fonction.
 
 **Articles supplémentaires**
 
--   Sur la page Groupes d’articles supplémentaires - Fournisseur , créez et tenez à jour des groupes d’articles supplémentaires pour les fournisseurs.
--   Sur la page Groupes d’articles supplémentaires - Stock, créez et tenez à jour des groupes d’articles supplémentaires pour les articles.
+-   Sur la page Groupes d’articles supplémentaires – Fournisseur , créez et tenez à jour des groupes d’articles supplémentaires pour les fournisseurs.
+-   Sur la page Groupes d’articles supplémentaires – Stock, créez et tenez à jour des groupes d’articles supplémentaires pour les articles.
 
 **Distribution**
 

@@ -2,11 +2,9 @@
 title: Titres de recette dans le secteur public en France
 description: Le titre de recette est utilisé par le directeur utilise le titre de recette pour aviser et autoriser le comptable à collecter et à déposer un montant déterminé d’une autre entité.
 author: rschloma
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ff9e61b03fcef59bad11ccb91ff33a65f9095b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c556dad72f2054859c25cbc923e63d6172f1361e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248867"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823650"
 ---
 # <a name="titres-de-recette-in-the-public-sector-in-france"></a>Titres de recette dans le secteur public en France
 

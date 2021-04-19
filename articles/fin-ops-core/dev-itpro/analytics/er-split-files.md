@@ -2,7 +2,6 @@
 title: Fractionner les fichiers XML générés selon la taille et la quantité de contenu
 description: Cette rubrique fournit des informations sur le fractionnement des fichiers générés selon la taille de fichier et la quantité d’éléments de contenu.
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d347bd0decf3ab274157d75ec29b0c9dc376e96b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f39cb93f4ba2d41b145ed7cfa52da287ccac3df5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570812"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743555"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Fractionner les fichiers XML générés selon la taille et la quantité de contenu
 
@@ -39,8 +38,8 @@ Si vous avez configuré les destinations de fichier d’un élément de format F
 
 Pour plus d’informations sur cette fonction, lisez le guide de tâches, **ER Fractionner les fichiers XML selon la taille de fichier ou la quantité d’éléments de contenu**, qui fait partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)** et qui peut être téléchargé à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Ce guide de tâches vous guide tout au long du processus de configuration d’un format ER pour fractionner les fichiers générés selon la taille de fichier et la quantité d’éléments de contenu. Pour exécuter le guide de tâches, vous devez télécharger les fichiers suivants :
 
-- [Configuration du modèle ER - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [Configuration du format ER - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Configuration du modèle ER – XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Configuration du format ER – XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 [Destinations de la gestion des états électroniques](electronic-reporting-destinations.md)

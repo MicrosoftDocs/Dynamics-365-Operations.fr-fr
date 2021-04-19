@@ -2,7 +2,6 @@
 title: Liste des fonctions ER dans la catégorie Conteneur
 description: Cette rubrique fournit des informations sur les fonctions Conteneur prises en charge dans les États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b7e7d770c334647f8f11338d49b39a2e9cb5c04c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 95f207538ea4f0f7df775bf28d0dcf6529d1a91c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561756"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753238"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>Liste des fonctions ER dans la catégorie Conteneur
 
@@ -31,7 +30,7 @@ Les [fonctions](er-formula-language.md#functions) de conteneur [pour la gestion 
 
 ## <a name="list-of-supported-functions"></a>Liste des fonctions prises en charge
 
-| Fonction | Description  |
+| Fonction | Description |
 |----------|-------------|
 | [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Cette fonction renvoie une valeur *Conteneur* qui consiste en un contenu binaire décodé à partir de la chaîne ASCII spécifiée qui représente un groupe Base64 de schémas de codage binaire en texte. |
 

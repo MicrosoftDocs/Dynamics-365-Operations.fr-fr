@@ -2,7 +2,6 @@
 title: Intégration d’une note
 description: Cette rubrique décrit l’intégration des données d’une note en double écriture.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 221be52b4d66aaa47f9a1919d5d0b9f8459b7ff9
-ms.sourcegitcommit: db9b35ce6968cad8874b3c13d4c02d84e2617c8b
+ms.openlocfilehash: beab7f2fc4fd96ce7a28734d2449445b3b5d4451
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5577604"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750834"
 ---
 # <a name="note-integration"></a>Intégration d’une note
 
@@ -118,7 +117,7 @@ Vous pouvez également créer une URL.
 
 L’intégration de notes comprend un ensemble de mappages de tables qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| Application Finance and Operations | Application Customer Engagement | Description  |
+| Application Finance and Operations | Application Customer Engagement | Description |
 |----------------------------|-------------------------|-------------|
 | [Pièces jointes clients](mapping-reference.md#230) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux clients (pour les organisations et les personnes). |
 | [Pièces jointes de document fournisseur](mapping-reference.md#231) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux fournisseurs (pour les organisations et les personnes). |

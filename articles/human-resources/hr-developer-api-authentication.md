@@ -2,11 +2,9 @@
 title: Authentification
 description: Cet article fournit des informations générales sur la façon de s’authentifier auprès de l’interface de programmation d’application de données (API) de Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 60774d162d733404166e710932291a736eb0d8b4
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3dffe1db98ba39fde2229e69bc70bdbf113ff6ad
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465532"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793679"
 ---
 # <a name="authentication"></a>Authentification
 
@@ -79,7 +77,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         | Comptes dans un répertoire organisationnel | Sélectionnez cette option pour cibler tous les clients professionnels et éducatifs.<p>Cette option est mappée sur **Multi-locataire Azure AD seulement**.</p><p>Si vous avez enregistré l’application en tant que **Locataire unique Azure AD seulement**, vous pouvez utiliser le panneau **Authentification** pour la mettre à jour sur **Multi-locataire Azure AD seulement** puis revenir à **Locataire unique Azure AD seulement**.</p> |
         | Comptes dans n’importe quel répertoire organisationnel et comptes Microsoft personnels | Sélectionnez cette option pour cibler le plus grand nombre de clients.<p>Cette option est mappée sur **Comptes Microsoft multi-locataires et personnels Azure AD**.</p><p>Si vous avez enregistré l’application en tant que **Comptes Microsoft multi-locataires et personnels Azure AD**, vous ne pouvez pas modifier ce paramètre dans l’interface utilisateur (UI). Au lieu de cela, vous devez utiliser l’éditeur de manifeste d’application pour modifier les types de compte pris en charge.</p> |
 
-    - **URI de redirection (facultatif)** - Sélectionnez le type d’application que vous créez : **Web** ou **Client public (mobile et bureau)**. Saisissez ensuite l’URI de redirection (ou l’URL de réponse) pour l’application.
+    - **URI de redirection (facultatif)** – Sélectionnez le type d’application que vous créez : **Web** ou **Client public (mobile et bureau)**. Saisissez ensuite l’URI de redirection (ou l’URL de réponse) pour l’application.
 
         - Pour les applications Web, indiquez l’URL de base de l’application. Par exemple, `http://localhost:31544`peut être l’URL d’une application Web qui s’exécute sur votre ordinateur local. Les utilisateurs utilisent ensuite cette URL pour se connecter à une application client Web.
         - Pour les applications clientes publiques, fournissez l’URI qu’Azure AD utilise pour renvoyer des réponses à jeton. Entrez une valeur spécifique à votre application, telle que `myapp://auth`.

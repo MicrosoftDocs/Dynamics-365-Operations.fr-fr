@@ -2,11 +2,9 @@
 title: Budgets préliminaires et répartitions dans le secteur public
 description: Cette rubrique couvre la création d’un budget préliminaire, et le paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions et un budget préliminaire.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetBalancesActuals, BudgetControlConfiguration, BudgetTransactionCode
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89edf658c1270740cea16bd81111ba0cf93f6b2e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 481df7c2f811424b0b1e0f5c43320ef3a206b123
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255676"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814894"
 ---
 # <a name="preliminary-budgets-and-apportionments-in-the-public-sector"></a>Budgets préliminaires et répartitions dans le secteur public
 
@@ -33,9 +31,9 @@ Cette rubrique couvre la création d’un budget préliminaire, et le paramétra
 
 Les sections suivantes de cette rubrique décrivent les fonctionnalités de budgétisation disponibles pour le secteur public.  Avant de lire cette rubrique, vous devez également lire [Budgétisation dans le secteur public](budgeting-public-sector.md).
 
--   Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions - Vous pouvez définir un ou plusieurs codes budget pour le type de budget Répartition et configurer le contrôle budgétaire pour les répartitions.
--   Paramétrage de la budgétisation et du contrôle budgétaire pour un budget préliminaire - Vous pouvez définir des codes budget pour le type de budget Préliminaire et configurer le contrôle budgétaire pour les budgets préliminaires.
--   Création, affichage et contrepassation d’un budget préliminaire - Vous pouvez créer des écritures budgétaires préliminaires, ainsi que des écritures budgétaires d’origine.
+-   Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions – Vous pouvez définir un ou plusieurs codes budget pour le type de budget Répartition et configurer le contrôle budgétaire pour les répartitions.
+-   Paramétrage de la budgétisation et du contrôle budgétaire pour un budget préliminaire – Vous pouvez définir des codes budget pour le type de budget Préliminaire et configurer le contrôle budgétaire pour les budgets préliminaires.
+-   Création, affichage et contrepassation d’un budget préliminaire – Vous pouvez créer des écritures budgétaires préliminaires, ainsi que des écritures budgétaires d’origine.
 
 
 ## <a name="set-up-budgeting-and-budget-control-for-apportionments"></a>Paramétrage de la budgétisation et du contrôle budgétaire pour les répartitions
@@ -80,7 +78,7 @@ Vous pouvez également effectuer le suivi et l’audit des activités budgétair
 -   La page **Statistiques de contrôle budgétaire** affiche les soldes budgétaires pour un cycle budgétaire et un modèle de budget. Pour afficher des détails supplémentaires, sélectionnez une ligne dans la grille, puis cliquez sur **Répartitions**. Une fois les demandes d’achat et les commandes fournisseur validées, la page **Statistiques de contrôle budgétaire** vous permet d’afficher les réservations budgétaires pour les engagements et les engagements préalables. **Remarque :** Les champs **Répartitions** et **Budget préliminaire** apparaissent uniquement si vous avez sélectionné **Budget préliminaire** et **N’utiliser que le montant réparti** dans la section **Fonds budgétaires disponibles** de la page **Configuration du contrôle budgétaire**.
 -   La page **Comparatif Réel/Budget par période** affiche le comparatif des dépenses réelles et de la somme des écritures de registre budgétaires pour la période :
     -   Le champ **Répartitions** contient la somme de toutes les écritures de registre budgétaires de répartition pour le modèle de budget et les valeurs de dimension.
-    -   La colonne **Montant de l’écart** affiche le résultat du calcul suivant : Répartition pour la période - réel pour la période = montant de l’écart pour la période.
+    -   La colonne **Montant de l’écart** affiche le résultat du calcul suivant : Répartition pour la période – réel pour la période = montant de l’écart pour la période.
     -   Le champ **Budget préliminaire** contient la somme de toutes les écritures de registre budgétaires préliminaires pour le modèle de budget et les valeurs de dimension.
 
 ## <a name="set-up-budgeting-and-budget-control-for-a-preliminary-budget"></a>Paramétrage de la budgétisation et du contrôle budgétaire pour un budget préliminaire

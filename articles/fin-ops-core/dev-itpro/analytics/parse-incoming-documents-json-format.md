@@ -2,7 +2,6 @@
 title: Analyser les documents entrants au format JSON
 description: Cette rubrique explique comment configurer des formats de génération d’états électroniques (ER) pour analyser des documents entrants au format JSON (JavaScript Object Notation).
 author: kfend
-manager: AnnBe
 ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d39a697876641b4c9647dc1a55243ac2ca7cb9e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4e598dc15b619c2f6a0525ea18c371484ca26fa4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564493"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755152"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Analyser les documents entrants au format JSON
 

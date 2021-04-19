@@ -2,11 +2,9 @@
 title: Créer un code de facturation pour le secteur public
 description: Les champs personnalisés du code facturation permettent de rassembler les valeurs des champs de code facturation lors de la création de factures financières.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCustomField
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2fc90010890a4ae55dead4ff4a90e8e8391397d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cd86909767e8b61adfe443f78478b3e371abea76
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246830"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816817"
 ---
 # <a name="create-a-billing-code-for-the-public-sector"></a>Créer un code de facturation pour le secteur public
 

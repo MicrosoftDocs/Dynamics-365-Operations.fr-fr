@@ -2,11 +2,9 @@
 title: Vue d’ensemble des factures fournisseur
 description: Cette rubrique fournit des informations générales sur les factures fournisseur.
 author: abruer
-manager: AnnBe
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1799fb18a1dd4b7c532259ab198e1ba30a89c09d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264129"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841259"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d’ensemble des factures fournisseur
 
@@ -34,7 +32,7 @@ Cette rubrique fournit des informations générales sur les factures fournisseur
 
 Une facture fournisseur basée sur une commande fournisseur est produite lorsque des produits ou des services sont reçus suite à une commande fournisseur passée auprès d’un fournisseur. La facture fournisseur contient un en-tête et une ou plusieurs lignes pour des articles ou services. Une facture fournisseur termine le cycle de la commande fournisseur à la réception des produits et à la facture fournisseur.
 
-Bien que certaines factures fournisseur soient liées à une commande fournisseur, les factures fournisseur peuvent également contenir des lignes qui ne correspondent pas aux lignes de commande fournisseur. Vous pouvez également créer des factures fournisseur qui ne sont associées à aucune commande fournisseur. Ces factures fournisseur peuvent représenter des services en cours, comme une facture de service. Vous n'avez pas à référencer un bon de commande lorsque vous ajoutez un service en cours.
+Bien que certaines factures fournisseur soient liées à une commande fournisseur, les factures fournisseur peuvent également contenir des lignes qui ne correspondent pas aux lignes de commande fournisseur. Vous pouvez également créer des factures fournisseur qui ne sont associées à aucune commande fournisseur. Ces factures fournisseur peuvent représenter des services en cours, comme une facture de service. Vous n’avez pas à référencer un bon de commande lorsque vous ajoutez un service en cours.
 
 Il existe plusieurs manières d’entrer une facture fournisseur :
 
@@ -63,17 +61,17 @@ Vous pouvez ajouter à la facture fournisseur une ligne qui ne figurait pas sur 
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Soumission d’une facture fournisseur pour révision
 
-Votre organisation peut utiliser des workflows pour gérer le processus de révision des factures fournisseur. La révision via workflow peut être nécessaire pour l’en-tête de facture, la ligne de facture ou les deux. Les contrôles de workflow s’appliquent à l’en-tête ou à la ligne, selon l’emplacement de la vue lorsque vous sélectionnez le contrôle. À la place du bouton **Valider**, un bouton **Soumettre** s'affiche et permet d’envoyer la facture fournisseur dans le processus de révision.
+Votre organisation peut utiliser des workflows pour gérer le processus de révision des factures fournisseur. La révision via workflow peut être nécessaire pour l’en-tête de facture, la ligne de facture ou les deux. Les contrôles de workflow s’appliquent à l’en-tête ou à la ligne, selon l’emplacement de la vue lorsque vous sélectionnez le contrôle. À la place du bouton **Valider**, un bouton **Soumettre** s’affiche et permet d’envoyer la facture fournisseur dans le processus de révision.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Empêcher la soumission de la facture au flux de travail 
 
 Voici plusieurs façons d’empêcher une facture d’être soumise à un flux de travail.
 
-- **Le total de la facture et le total enregistré ne sont pas identiques.** La personne qui a soumis la facture recevra une alerte indiquant que les totaux ne sont pas égaux. L'alerte offre la possibilité de corriger les soldes avant de soumettre à nouveau la facture au workflow. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le total de la facture et le total de la facture enregistrée ne sont pas identiques** sur la page **Gestion des fonctionnalités** est activé. 
+- **Le total de la facture et le total enregistré ne sont pas identiques.** La personne qui a soumis la facture recevra une alerte indiquant que les totaux ne sont pas égaux. L’alerte offre la possibilité de corriger les soldes avant de soumettre à nouveau la facture au workflow. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le total de la facture et le total de la facture enregistrée ne sont pas identiques** sur la page **Gestion des fonctionnalités** est activé. 
 
 - **La facture contient des frais non alloués.** La personne qui a soumis la facture recevra une alerte indiquant que la facture a des frais non attribués afin de pouvoir corriger la facture avant de la soumettre à nouveau au flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail en cas de charges non attribuées sur une facture fournisseur** de la page **Gestion des fonctionnalités** est activé.
 
-- **La facture contient le même numéro de facture qu’une autre facture validée.** La personne qui a soumis la facture recevra une alerte indiquant qu’une facture avec un numéro en double a été décelée afin de pouvoir la corriger avant de la soumettre à nouveau au flux de travail. Cette alerte s'affiche lorsque le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.  
+- **La facture contient le même numéro de facture qu’une autre facture validée.** La personne qui a soumis la facture recevra une alerte indiquant qu’une facture avec un numéro en double a été décelée afin de pouvoir la corriger avant de la soumettre à nouveau au flux de travail. Cette alerte s’affiche lorsque le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Rapprochement des factures fournisseur avec les accusés de réception de marchandises
 
@@ -81,7 +79,7 @@ Vous pouvez entrer et enregistrer des informations pour les factures fournisseur
 
 Vous pouvez créer une facture fournisseur basée sur les lignes d’accusé de réception de marchandises qui ont été reçues jusqu’à la date actuelle, même si tous les articles d’une commande fournisseur spécifique n’ont pas encore été reçus. Vous pouvez utiliser cette option si, par exemple, un fournisseur envoie une facture par mois pour couvrir toutes les livraisons qu’il a expédiées au cours du mois. Chaque accusé de réception de marchandises représente une livraison partielle ou complète des articles de la commande fournisseur.
 
-Lorsqu'une facture se trouve dans le workflow, l'approbateur peut mettre à jour les quantités afin qu'elles correspondent à la valeur du champ **Quantité de l'accusé de réception de marchandises à mettre en correspondance**. Pour ce faire, sélectionnez la fonctionnalité **Mettre à jour les quantités facturées pour qu'elles correspondent aux quantités de produit reçues dans le workflow** dans l'espace de travail **Gestion des fonctionnalités** et sélectionnez **Activer**. Si un approbateur dans le processus de workflow a supprimé toutes les correspondances de tous les accusés de réception de marchandises de la ligne de facture, elle sera supprimée. Lorsque cette fonctionnalité n'est pas activée, les quantités facturées ne sont pas mises à jour pour les factures dans le workflow.
+Lorsqu’une facture se trouve dans le workflow, l’approbateur peut mettre à jour les quantités afin qu’elles correspondent à la valeur du champ **Quantité de l’accusé de réception de marchandises à mettre en correspondance**. Pour ce faire, sélectionnez la fonctionnalité **Mettre à jour les quantités facturées pour qu’elles correspondent aux quantités de produit reçues dans le workflow** dans l’espace de travail **Gestion des fonctionnalités** et sélectionnez **Activer**. Si un approbateur dans le processus de workflow a supprimé toutes les correspondances de tous les accusés de réception de marchandises de la ligne de facture, elle sera supprimée. Lorsque cette fonctionnalité n’est pas activée, les quantités facturées ne sont pas mises à jour pour les factures dans le workflow.
 
 Lorsque vous validez la facture, la quantité **Solde de la facture** de chaque article est mise à jour avec le total des quantités reçues pour les accusés de réception de marchandises sélectionnés. Si la quantité **Solde de la facture** et la quantité **Livrer quantité restante** pour tous les articles de la commande fournisseur ont la valeur 0 (zéro), le statut de la commande fournisseur passe à **Facturé**. Si la quantité **Solde de la facture** n’a pas la valeur 0 (zéro), le statut de la commande fournisseur reste inchangé et des factures supplémentaires peuvent être entrées pour celle-ci.
 

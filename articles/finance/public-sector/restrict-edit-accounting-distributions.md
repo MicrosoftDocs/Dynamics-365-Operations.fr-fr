@@ -2,7 +2,6 @@
 title: Restreindre la modification des répartitions comptables dans les factures
 description: Cette rubrique explique comment exiger que les dimensions financières d’une commande fournisseur (CF) correspondent aux dimensions de la facture fournisseur correspondante.
 author: v-kiarnd
-manager: AnnBe
 ms.date: 10/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 56ad3ac4a883a6b75183f559c4e1f71a5c6a4e44
-ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
+ms.openlocfilehash: ffda4c2ff6c95f66df8caa43c065d3e6c837b832
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "5555439"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821747"
 ---
 # <a name="restrict-editing-of-accounting-distributions-on-invoices"></a>Restreindre la modification des répartitions comptables dans les factures
 

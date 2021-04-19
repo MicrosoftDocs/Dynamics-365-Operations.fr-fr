@@ -2,8 +2,7 @@
 title: Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
 description: Cette rubrique explique comment vous pouvez configurer des formats de gestion des états électroniques pour utiliser les paramètres propres à une entité juridique.
 author: NickSelin
-manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9253191f9cd10e0b3c87d61991598f9b791c35d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570732"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751176"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
 
@@ -48,14 +47,14 @@ Nous vous recommandons d’effectuer les étapes de la rubrique [Prendre en char
 
 ## <a name="import-er-configurations-into-rcs"></a>Importer les configurations de gestion des états électroniques dans RCS
 
-Dans le [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=851448), téléchargez le fichier archivé (compressé) **Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type CHAMP CALCULÉ**. Ce fichier compressé contient les configurations de gestion des états électroniques suivants qui doivent être extraites et stockées localement.
+Téléchargez et stockez localement les configurations ER suivantes.
 
 | **Description du contenu**                        | **Nom de fichier**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| Exemple de fichier de configuration **Modèle de données de gestion des états électroniques**    | Model to learn parameterized calls.version.1.xml     |
-| Exemple de fichier de configuration **Métadonnées de gestion des états électroniques**      | Metadata to learn parameterized calls.version.1.xml  |
-| Exemple de fichier de configuration **Mise en correspondance de modèle de gestion des états électroniques** | Mapping to learn parameterized calls.version.1.1.xml |
-| Exemple de configuration **Format de gestion des états électroniques**             | Format to learn parameterized calls.version.1.1.xml  |
+| Exemple de fichier de configuration **Modèle de données de gestion des états électroniques**    | [Model to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
+| Exemple de fichier de configuration **Métadonnées de gestion des états électroniques**      | [Metadata to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Exemple de fichier de configuration **Mise en correspondance de modèle de gestion des états électroniques** | [Mapping to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Exemple de configuration **Format de gestion des états électroniques**             | [Format to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 Ensuite, connectez-vous à votre instance RCS.
 
@@ -79,17 +78,17 @@ Dans cet exemple, vous créerez une configuration pour la société fictive, Lit
 
     Le format de gestion des états électroniques **Format pour apprendre les appels paramétrés** est conçu pour générer une déclaration de taxe au format XML qui présente plusieurs niveaux d’imposition (normale, réduite et aucune). Chaque niveau se distingue par un nombre différent de détails.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Plusieurs niveaux de format ER, Format pour l’apprentissage des appels paramétrés](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Dans l’onglet **Mise en correspondance**, développez **Modèle**, **Données**, et les éléments **Synthèse**.
 
     La source de données **Model.Data.Summary** renvoie la liste des transactions de taxe. Ces transactions sont répertoriées par code taxe. Pour cette source de données, le champ calculé **Model.Data.Summary.Level** a été configuré pour renvoyer le code pour le niveau d’imposition de chaque enregistrement résumé. Pour tout code taxe qui peut être récupéré depuis la source de données **Model.Data.Summary** au moment de l’exécution, le champ calculé renvoie le code du niveau d’imposition (**Normale**, **Réduite**, **Aucune** ou **Autre**) comme valeur de texte. Le champ calculé **Model.Data.Summary.Level** permet de filtrer les enregistrements de la source de données **Model.Data.Summary** et de saisir les données filtrées dans chaque élément XML qui représente un niveau d’imposition à l’aide des champs **Model.Data2.Level1**, **Model.Data2.Level2** et **Model.Data2.Level3**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![La liste des transactions de taxe de la source de données Model.Data.Summary](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Le champ calculé **Model.Data.Summary.Level** a été configuré de manière à ce que il contienne une expression de gestion des états électroniques. Notez que les codes taxe (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** et **InVAT0**) sont codés en dur dans cette configuration. Par conséquent, ce format de gestion des états électroniques dépend de l’entité juridique où ces codes taxe ont été configurés.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Le champ calculé Model.Data.Summary.Level avec des codes taxe codés en dur](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Pour prendre en charge un ensemble de différents codes taxe pour chaque entité juridique, procédez comme suit :
 
@@ -129,7 +128,7 @@ Ensuite, vous ajoutez une nouvelle énumération de format de gestion des états
 12. Sélectionnez à nouveau **Ajouter**.
 13. Dans le champ **Nom**, entrez **Autre**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Nouvel enregistrement sur la page Énumérations de format](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Comme les utilisateurs professionnels peuvent utiliser différentes langues pour spécifier les ensembles de codes taxe dépendant de l’entité juridique, nous vous recommandons de traduire les valeurs de cette énumération dans les langues qui sont configurées comme langues préférées pour ces utilisateurs de Finance.
 
@@ -142,7 +141,7 @@ Ensuite, vous ajoutez une nouvelle énumération de format de gestion des états
 20. Entrez le texte dans le champ **Texte traduit**, saisissez **keine Besteuerung**.
 21. Sélectionnez **Traduire**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Menu coulissant de traduction de texte](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Sélectionnez **Enregistrer**.
 23. Fermez la page **Énumérations de format**.
@@ -169,13 +168,13 @@ Ensuite, vous ajouterez une nouvelle source de données pour préciser comment l
 10. Sélectionnez l’article **Model.Data.Tax.Code**.
 11. Sélectionnez le bouton **Ajouter** (la flèche droite).
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Menu coulissant de colonnes](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Vous venez de spécifier que, pour chaque règle qui est spécifiée dans cette source de données pour identifier le niveau d’imposition, un utilisateur professionnel doit sélectionner une des valeurs de l’énumération de format comme condition. La liste des codes taxe que l’utilisateur professionnel peut sélectionner sera renvoyée par la source de données **Model.Data.Tax**. Parce que cette source de données contient le champ **Nom**, le nom du code taxe est affiché pour chaque valeur de code taxe dans la recherche qui est présentée à l’utilisateur professionnel.
     
 12. Cliquez sur **OK**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Page du concepteur de recherche](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Les utilisateurs professionnels peuvent ajouter plusieurs règles en tant qu’enregistrements de cette source de données. Chaque enregistrement sera calculé par un code de ligne. Les règles seront évaluées afin d’augmenter le numéro de ligne.
 
@@ -189,13 +188,13 @@ Ensuite, vous ajouterez une nouvelle source de données pour préciser comment l
 
     Notez que vous avez ajouté une nouvelle source de données qui renvoie le niveau d’imposition comme valeur de l’énumération de format **Liste des niveaux d’imposition** pour tout code taxe transmis à la source de données comme argument du paramètre **Code** du type de données **Chaîne**.
     
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Page du concepteur de format avec une nouvelle source de données](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Notez que l’évaluation des règles configurées dépend du type de données des champs sélectionnés pour définir les conditions de ces règles. Lorsque vous sélectionnez un champ qui est configuré comme un champ de type **Numérique** ou **Date**, les critères différeront des critères qui ont été décrits plus tôt pour le type de données **Chaîne**. Pour les champs **Numérique** et **Date**, la règle doit être spécifiée comme plage de valeurs. La condition de la règle sera alors considérée remplie lorsqu’une valeur transmise à la source de données est comprise dans la plage de configuration.
     
     L’illustration suivante montre un exemple de ce type de configuration. Outre le champ **Model.Data.Tax.Code** du type de données **Chaîne**, le champ **Model.Tax.Summary.Base** du type de données **Réel** permet de spécifier des conditions pour une source de données de recherche.
     
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Page du concepteur de recherche avec des colonnes supplémentaires](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Parce que les champs **Model.Data.Tax.Code** et **Model.Tax.Summary.Base** sont sélectionnés pour cette source de données de recherche, chaque règle de cette source de données est configurée de la façon suivante :
     
@@ -224,7 +223,7 @@ Comme les utilisateurs professionnels peuvent utiliser différentes langues pour
 9.  Sélectionnez **Traduire**.
 10. Cliquez sur **OK**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Menu coulissant de propriétés de la source de données](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Ajouter un nouveau champ pour utiliser la recherche configurée
 
@@ -237,16 +236,16 @@ Comme les utilisateurs professionnels peuvent utiliser différentes langues pour
 7.  Dans le **champ Formule**, entrez **Model.Selector(Model.Data.Summary.Code)**.
 8.  Sélectionnez **Enregistrer**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Ajout de Model.Selector (Model.Data.Summary.Code) à la page Concepteur de formule](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Fermez la page **Éditeur de formule**.
 10. Cliquez sur **OK**.
 
-    ![Page Concepteur d’opération de gestion des états électroniques](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Page du concepteur de format avec une nouvelle formule ajoutée](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Notez que le champ calculé **LevelByLookup** que vous avez ajouté renverra le niveau d’imposition comme valeur de l’énumération de format **Liste des niveaux d’imposition** pour chaque enregistrement résumé des transactions de taxe. Le code taxe de l’enregistrement sera transmis à la source de données de recherche **Model.Selector**, ainsi que l’ensemble de règles pour cette source de données sera utilisé pour sélectionner le niveau d’imposition approprié.
 
-### <a name="add-a-new-format-enumeration-based-data-source"></a>Ajouter une nouvelle source de données basée sur l’énumération de format
+### <a name="add-a-new-format-enumeration-based-data-source&quot;></a>Ajouter une nouvelle source de données basée sur l’énumération de format
 
 Ensuite, vous ajouterez une nouvelle source de données qui fait référence à l’énumération de format que vous avez entrée précédemment. Les valeurs de cette source de données seront utilisées dans une expression de format de gestion des états électroniques ultérieurement.
 
@@ -256,7 +255,7 @@ Ensuite, vous ajouterez une nouvelle source de données qui fait référence à 
 4.  Dans le champ **Énumération de format**, sélectionnez **Liste des niveaux d’imposition**.
 5.  Sélectionnez **Enregistrer**.
 
-### <a name="modify-an-existing-field-to-start-to-use-the-lookup"></a>Modifier un champ existant pour commencer à utiliser la recherche
+### <a name=&quot;modify-an-existing-field-to-start-to-use-the-lookup&quot;></a>Modifier un champ existant pour commencer à utiliser la recherche
 
 Ensuite, vous modifierez le champ calculé existant afin qu’il utilise la source de données de recherche configurée pour qu’elle renvoie la bonne valeur de niveau d’imposition, selon le code taxe.
 
@@ -266,7 +265,7 @@ Ensuite, vous modifierez le champ calculé existant afin qu’il utilise la sour
 
     Notez que l’expression actuelle du champ **Model.Data.Summary.Level** inclut les codes taxe codés en dur suivants :
     
-    CASE (@.Code, "VAT19", "Regular", "InVAT19", "Regular", "VAT7", "Reduced", "InVAT7", "Reduced", "THIRD", "None", "InVAT0", "None", "Other")
+    CASE (@.Code, &quot;VAT19&quot;, &quot;Regular&quot;, &quot;InVAT19&quot;, &quot;Regular&quot;, &quot;VAT7&quot;, &quot;Reduced&quot;, &quot;InVAT7&quot;, &quot;Reduced&quot;, &quot;THIRD&quot;, &quot;None&quot;, &quot;InVAT0&quot;, &quot;None&quot;, &quot;Other")
 
 4.  Dans le champ **Formule**, saisissez **CASE(@.LevelByLookup, TaxationLevel.’Regular taxation’, "Regular", TaxationLevel.’Reduced taxation’, "Reduced", TaxationLevel.’No taxation’, "None", "Other")**.
 
@@ -282,14 +281,14 @@ Ensuite, vous modifierez le champ calculé existant afin qu’il utilise la sour
 
 ## <a name="complete-the-draft-version-of-a-derived-format"></a>Terminer la version brouillon d’un format dérivé
 
-1.  Dans l’organisateur **Versions**, sélectionnez **Modifier le statut**.
+1.  Dans le raccourci **Versions**, sélectionnez **Modifier le statut**.
 2.  Sélectionnez **Terminer**.
 3.  Cliquez sur **OK**.
 
 ## <a name="export-completed-version-of-modified-format"></a>Exporter la version terminée d’un format modifié
 
 1.  Dans l’arborescence des configurations, sélectionnez l’article **Format pour apprendre comment rechercher les données LE**.
-2.  Dans l’organisateur **Versions**, sélectionnez l’enregistrement ayant un statut **Terminé**.
+2.  Dans le raccourci **Versions**, sélectionnez l’enregistrement ayant un statut **Terminé**.
 3.  Sélectionnez **Exchange**.
 4.  Sélectionnez **Exporter en tant que fichier XML**.
 5.  Cliquez sur **OK**.

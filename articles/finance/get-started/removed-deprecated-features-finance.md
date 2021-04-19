@@ -2,11 +2,9 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836911"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Référentiel LCS comme option de stockage pour les configurations de gestion des états électroniques
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par le nouveau référentiel global RCS (Regulatory Configuration Service) |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
@@ -51,17 +49,17 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formats de gestion des états électroniques « Déclaration de TVA (CZ) » et « Exportation des déclarations de contrôle (CZ) » pour la République tchèque
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par de nouveaux formats |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : d'ici le 22 janvier 2022, nous prévoyons de ne plus prendre en charge les formats de déclaration électronique (ER) « Déclaration de TVA (CZ) » et « Exportation des déclarations de contrôle (CZ) ». De nouveaux formats de déclaration de TVA XML (CZ), de déclaration de TVA Excel (CZ), de déclaration de contrôle de TVA XML (CZ) sont introduits à la place sous le modèle « Déclaration de taxe ». |
+| **État**                         | Obsolète : d’ici le 22 janvier 2022, nous prévoyons de ne plus prendre en charge les formats de déclaration électronique (ER) « Déclaration de TVA (CZ) » et « Exportation des déclarations de contrôle (CZ) ». De nouveaux formats de déclaration de TVA XML (CZ), de déclaration de TVA Excel (CZ), de déclaration de contrôle de TVA XML (CZ) sont introduits à la place sous le modèle « Déclaration de taxe ». |
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>« Format d’exportation des transactions comptables (BE) » Format de déclaration électronique et modèle correspondant « Exportation des transactions comptables (BE) » pour la Belgique
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par le nouveau format ER sous le modèle "fichier d’audit standard (SAF-T)».  |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
@@ -71,7 +69,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Déclaration "VAT 100" pour le Royaume-Uni au format SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par le nouveau format ER – format "Déclaration de TVA Excel (UK) » sous "Modèle de déclaration fiscale".  |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
@@ -83,7 +81,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La prise en charge d’Internet Explorer 11 pour Dynamics 365 est obsolète
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
 | **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
@@ -95,7 +93,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>États SSRS polonais : Registre de la TVA d’aval, Registre de la TVA sur les achats, Synthèse du registre de la TVA de l’UE - Référence de fonctionnalité PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Pas autorisé légalement.  |
 | **Remplacé par une autre fonctionnalité ?**   | Oui (format Excel pour fichier d’audit standard avec déclaration de TVA - JPK_VDEK) |
@@ -107,7 +105,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="norwegian-standard-main-accounts"></a>Comptes principaux standard pour la Norvège
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Refonte  |
 | **Remplacé par une autre fonctionnalité ?**   | Oui (remplacé par des paramètres spécifiques à l’application au format de gestion des états électroniques) |
@@ -118,7 +116,8 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.7
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>La boîte de dialogue de demande de modification du workflow n’inclut plus de liste déroulante de sélection de l’utilisateur
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Remplacé par la fonctionnalité avec sélection de groupes de comptes.  |
 | **Remplacé par une autre fonctionnalité ?**   | Oui |

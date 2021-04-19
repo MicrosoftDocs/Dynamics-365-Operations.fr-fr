@@ -2,11 +2,9 @@
 title: Vue d’ensemble du libre-service pour employés et pour responsables
 description: Cet article fournit une vue d’ensemble de l’espace de travail libre-service pour employés et pour responsables.
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cda6166bff926e362ee35221b9c204c2ead5503
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 6d7c68d22347861978eccff356139bab4fbc723b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464150"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790810"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Vue d’ensemble du libre-service pour employés et pour responsables
 
@@ -186,10 +184,10 @@ Selon les paramètres de votre organisation, vous pouvez soit apporter des modif
 
 L’onglet **Postes** fournit une vue récapitulative des employés dans leur poste principal. Le nom, la vignette et le département s’affichent dans la zone d’en-tête de chaque carte. Cette carte comprend :
 
-- **Date d’ancienneté** - Affichée à partir de la section récapitulative du collaborateur du formulaire de collaborateur
-- **Années de service** - Calculées en fonction de la date de début d’emploi de l’employé
-- **Nombre de postes précédents** - En fonction de l’historique des postes, si vous sélectionnez ce numéro, vous ouvrez la vue détaillée de tous les postes précédemment occupés
-- **Date de naissance** - Le mois et le jour de la date de naissance de l’employé
+- **Date d’ancienneté** – Affichée à partir de la section récapitulative du collaborateur du formulaire de collaborateur
+- **Années de service** – Calculées en fonction de la date de début d’emploi de l’employé
+- **Nombre de postes précédents** – En fonction de l’historique des postes, si vous sélectionnez ce numéro, vous ouvrez la vue détaillée de tous les postes précédemment occupés
+- **Date de naissance** – Le mois et le jour de la date de naissance de l’employé
 
 Vous pouvez afficher les données de poste pour les subordonnés directs et étendus.
 

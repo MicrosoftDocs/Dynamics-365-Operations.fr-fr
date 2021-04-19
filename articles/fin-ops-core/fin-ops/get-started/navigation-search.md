@@ -2,7 +2,6 @@
 title: Recherche de navigation
 description: Cette rubrique explique comment utiliser la fonctionnalité de recherche pour accéder aux pages.
 author: aneesmsft
-manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6b99c677af0d20ea04f65f5b17cf07a2a45cf99
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2fc57579f817d2735aaa94a5f6834185961dab39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565383"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750226"
 ---
 # <a name="navigation-search"></a>Recherche de navigation
 
@@ -43,7 +42,7 @@ La fonctionnalité de recherche de navigation est également très utile pour ac
 
 Les résultats de la recherche affichent le titre de la page et son chemin de navigation. Indique l’emplacement de la page dans l’application. Cela vous aide également à différencier deux ou plusieurs pages similaires dans les résultats.
 
-Lorsque vous recherchez une page, votre entrée est mise en correspondance avec le titre de la page, ainsi qu’avec son chemin de navigation. Par exemple, si vous entrez « client » dans la zone **Recherche**, vous verrez les résultats des pages disponibles dans la section Comptabilité client - même si les titres de la page ne comprennent pas le mot « client ».
+Lorsque vous recherchez une page, votre entrée est mise en correspondance avec le titre de la page, ainsi qu’avec son chemin de navigation. Par exemple, si vous entrez « client » dans la zone **Recherche**, vous verrez les résultats des pages disponibles dans la section Comptabilité client – même si les titres de la page ne comprennent pas le mot « client ».
 
 ## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>Accéder rapidement à une page en fonction de son nom technique
 

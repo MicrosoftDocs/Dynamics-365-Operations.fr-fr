@@ -2,7 +2,6 @@
 title: Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics AX 7.0. Cette version contient des fonctions de plateforme et d’application et a été publiée en février 2016.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5631f65ab0a687671320dc1649bc83946074dc85
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6539bf6acf0216f1491cbf852f2c9a7063fbe26e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566608"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752864"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Nouveautés ou modifications apportées à Dynamics AX 7.0 (février 2016)
 
@@ -484,7 +483,7 @@ Aucune nouvelle fonctionnalité n’a été ajoutée :
 <td>Cette modification unifie la configuration des règles d’application de la taxe au preneur et prend en charge l’adoption des règlements nationaux sur la taxe au preneur par pays/régions d’Europe.</td>
 </tr>
 <tr>
-<td>(DE) Générer le fichier d’audit allemand - GDPdUGoBD</td>
+<td>(DE) Générer le fichier d’audit allemand – GDPdUGoBD</td>
 <td>Les utilisateurs peuvent configurer la définition de tables contenant des données financières à exporter dans un format accepté par les autorités et les auditeurs allemands.</td>
 <td>La fonctionnalité a été implémentée comme configuration de génération d’états électroniques. Cette fonctionnalité est disponible pour l’Allemagne et l’Autriche.</td>
 <td>Cette modification offre à l’utilisateur beaucoup plus de possibilités de formatage des données, de transformations, ainsi que tous les avantages provenant de la gestion du cycle de vie de la configuration des états électroniques, comme l’échange de configuration, le contrôle des versions, etc..</td>

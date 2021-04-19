@@ -2,7 +2,6 @@
 title: Espace de travail Liste de contrôle de contrôle des données
 description: L’espace de travail Liste de contrôle de contrôle des données vous permet de suivre les processus de validation des données pour les sociétés, les secteurs et les individus.
 author: bking
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 1fdc2ae0363690984544c59a356540a9b737956d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96385f94ac8e3f3d16924c079af0d6d258d5ec39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569095"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752638"
 ---
 # <a name="data-validation-checklist-workspace"></a>Espace de travail Liste de contrôle de validation des données
 

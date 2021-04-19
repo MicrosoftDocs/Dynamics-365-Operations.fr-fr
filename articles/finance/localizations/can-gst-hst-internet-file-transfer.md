@@ -2,11 +2,9 @@
 title: Canada GST/GIFT (HST Internet File Transfer)
 description: Cette rubrique explique comment configurer et utiliser la fonction GIFT (Internet File Transfer) sur les biens et services ou de taxe harmonisée (GST/HST) du Canada.
 author: ericwang
-manager: Ann Beebe
 ms.date: 08/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GST/HST, GIFT
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Canada
 ms.author: kfend
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 7b9bc26f7e6bb50953deef8b33ee32a2416e9edf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7dfb0c5cdd2f11a3b066647193fe77befd996bf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232012"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840314"
 ---
 # <a name="canada-gsthst-internet-file-transfer-gift"></a>Canada GST/GIFT (HST Internet File Transfer)
 

@@ -2,11 +2,9 @@
 title: Imprimer l’état de déclaration de taxe par code
 description: Cette rubrique fournit des informations sur les paramètres et les actions nécessaires pour imprimer l’état de déclaration de taxe par code dans la devise du code comptable ou fiscal.
 author: anasyash
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6f66db74867bdd3e9b4364e247058e0534191f2e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eb3ee4a12d2d29c2769f1ae22e11dc05608b47c1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205058"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815450"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Imprimer l’état de déclaration de taxe par code 
 
@@ -39,8 +37,8 @@ Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction
 1. Accédez à **Taxe** \> **Recherches et états** \> **États de taxe** \> **Paiement de taxe par code**.
 2. Dans le champ **Devise du rapport**, sélectionnez l’une des valeurs suivantes :
 
-    - **Devise comptable** - Imprimez les montants du rapport dans la devise comptable.
-    - **Devise du code taxe** - Imprimer les montants du rapport dans les devises des codes taxe.
+    - **Devise comptable** – Imprimez les montants du rapport dans la devise comptable.
+    - **Devise du code taxe** – Imprimer les montants du rapport dans les devises des codes taxe.
 
     ![Boîte de dialogue Déclaration de taxe par code](media/Sales-tax-payment-by-code.png)
 

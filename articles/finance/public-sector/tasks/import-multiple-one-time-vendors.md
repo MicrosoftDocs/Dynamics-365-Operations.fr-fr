@@ -2,11 +2,9 @@
 title: Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
 description: Cette rubrique fournit des informations sur la création simultanée d’une facture et d’un enregistrement pour un nouveau fournisseur lorsqu’aucune commande d’achat n’est requise.
 author: twheeloc
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendImportOneTimeVendFileUpload_PSN
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52fa26c2e7f9272eebab021df03f957022d40230
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56814317a430f7dd456f0f2c7833c69185ad6bb3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227022"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811203"
 ---
 # <a name="import-and-create-multiple-one-time-vendors-and-invoices-in-the-public-sector"></a>Importer et créer plusieurs fournisseurs et factures occasionnels dans le secteur public
 

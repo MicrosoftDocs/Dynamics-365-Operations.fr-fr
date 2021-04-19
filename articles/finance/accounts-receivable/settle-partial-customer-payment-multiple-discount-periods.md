@@ -2,11 +2,9 @@
 title: Règlement d’un paiement client partiel avec plusieurs périodes de remise
 description: Cet article décrit la manière dont les paiements client partiels sont réglés lorsqu’il existe plusieurs périodes de remise.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241712"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835098"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d’un paiement client partiel avec plusieurs périodes de remise
 
@@ -56,7 +54,7 @@ Le 28 juin, le client 4031 fait un paiement partiel à hauteur de 294,00. Comme 
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. Si vous ne modifiez pas la valeur du **Montant à régler** par **294,00**, les valeurs du **Montant de l’escompte de règlement** qui s’affichent seront différentes. Toutefois, 6,00 seront prélevés comme escompte de règlement une fois le paiement validé, car le règlement ajuste automatiquement pour vous la valeur du **Montant à régler**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 6/30/2015 |
 | Montant de l’escompte de règlement         | 20,00     |
@@ -75,7 +73,7 @@ Le 8 juillet, le client paie le reste du montant de la facture. Une remise de 7,
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
 | Montant de l’escompte de règlement         | 30,00     |

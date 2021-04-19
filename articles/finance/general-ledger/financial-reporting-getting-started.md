@@ -2,11 +2,9 @@
 title: Présentation des états financiers
 description: Cette rubrique explique où accéder aux états financiers dans Microsoft Dynamics 365 Finance et comment utiliser les fonctionnalités de génération d’états financiers.
 author: aprilolson
-manager: AnnBe
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5cc47ce54bd60b6c8c23cae09609f6b275e3fa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249287"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811285"
 ---
 # <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
@@ -126,8 +124,8 @@ Les états financiers fournissent 22 états financiers par défaut. Chaque rappo
 | Bilan côte à côte bilan – Par défaut                      | Permet d’afficher la position financière de l’organisation pour l’année. Cet état affiche les actifs et passifs et les capitaux propres des actionnaires côte à côte.                                                                                                                                                                                |
 | [Synthèse de balance comptable– Par défaut](trial-balance-financial-reports.md)| Permet d’afficher les informations du solde pour tous les comptes ayant des soldes d’ouverture et de clôture, et les soldes de débit et de crédit ensemble avec leur différence nette.                                                                                                                                                                  |
 | [Synthèse de balance comptable d’une année à l’autre – Par défaut](trial-balance-financial-reports.md)| Permet d’afficher les informations du solde pour tous les comptes ayant des soldes d’ouverture et de clôture, et les soldes de débit et de crédit ensemble avec leur différence nette pour l’année courante et l’année précédente.                                                                                                                           |
-| Ventes et remises hebdomadaires - Par défaut                     | renseigne sur les ventes et les remises de chaque semaine d’un mois. Cet état inclut un total sur quatre semaines.                                                                                                                                                                                                              |
-| Fonds budgétaires disponibles - Par défaut                         | Permet d’afficher une comparaison détaillée du budget révisé, des dépenses réelles, des réservations budgétaires et des fonds budgétaires disponibles pour tous les comptes                                                                                                                                                                                  |
+| Ventes et remises hebdomadaires – Par défaut                     | renseigne sur les ventes et les remises de chaque semaine d’un mois. Cet état inclut un total sur quatre semaines.                                                                                                                                                                                                              |
+| Fonds budgétaires disponibles – Par défaut                         | Permet d’afficher une comparaison détaillée du budget révisé, des dépenses réelles, des réservations budgétaires et des fonds budgétaires disponibles pour tous les comptes                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Ouverture d’états financiers
 Lorsque vous sélectionnez le menu **États financiers**, la liste des états financiers par défaut pour la société s’affiche. Vous pouvez ensuite ouvrir ou modifier un état. Pour ouvrir un des états par défaut, sélectionnez le nom de l’état. La première fois que l’état est ouvert, il est automatiquement généré pour le mois précédent. Par exemple, si vous ouvrez un état pour la première fois en août 2019, l’état est généré pour le 31 juillet 2019. Après l’ouverture d’un état, vous pouvez démarrer l’exploration en accédant à des ensembles de données spécifiques et en modifiant les options d’état.
@@ -136,7 +134,7 @@ Lorsque vous sélectionnez le menu **États financiers**, la liste des états fi
 Dans la liste des états financiers, vous pouvez créer un nouvel état ou modifier un état existant. Si vous disposez des autorisations appropriées, vous pouvez créer un état financier en sélectionnant **Nouveau** dans le volet Actions. Un programme de concepteur d’états est téléchargé sur votre périphérique. Une fois que le concepteur d’états démarre, vous pouvez créer l’état. Après avoir enregistré le nouvel état, il apparaît dans la liste des états financiers. La liste affiche uniquement les états créés pour la société utilisés dans Dynamics 365 Finance. 
 
 ## <a name="reporting-tree-definitions"></a>Définitions d’organigramme d’entreprise 
-L’un des composants utilisés pour générer des états financiers est une définition d’arborescence de génération d’états. Une définition de l’arborescence de génération d’états permet de définir la structure et la hiérarchie de votre organisation. Il s’agit d’une hiérarchie inter-dimensionnelles basée sur des relations dimensionnelles dans vos données financières. Elle fournit des informations au niveau de l’unité de génération d’états et à un niveau synthétique pour toutes les unités dans l’arborescence.
+L’un des composants utilisés pour générer des états financiers est une définition d’arborescence de génération d’états. Une définition de l’arborescence de génération d’états permet de définir la structure et la hiérarchie de votre organisation. Il s’agit d’une hiérarchie inter-dimensionnelles basée sur des relations dimensionnelles dans vos données financières. Elle fournit des informations au niveau de l’unité organisationnelle et à un niveau synthétique pour toutes les unités dans l’arborescence.
 
 Vous pouvez créer un nombre illimité d’arborescences de génération d’état pour afficher les données de votre organisation de différentes manières. Chaque arborescence de génération d’états peut contenir n’importe quelle combinaison de services et d’unités de synthèse, mais une définition d’état ne peut être liée qu’à une seule arborescence de génération d’états à la fois. 
 
@@ -162,8 +160,8 @@ Problème 2 : l’utilisateur n’a pas reçu les autorisations requises pour 
 
 * Pour vérifier si l’utilisateur n’a pas l’autorisation, sélectionnez **Oui** sur l’erreur « Impossible de se connecter au serveur Financial Reporting. Sélectionnez Oui si vous souhaitez continuer et spécifier une adresse de serveur différente. » Sélectionnez ensuite **Tester la connexion**. Si vous n’avez pas l’autorisation, vous verrez un message indiquant : « La tentative de connexion a échoué. L’utilisateur ne dispose pas des autorisations appropriées pour se connecter au serveur. Contactez votre administrateur système. »
 * Les autorisations requises sont répertoriées ci-dessus dans [Accorder un accès sécurisé à Financial Reporting](#granting-security-access-to-financial-reporting). La sécurité dans Financial Reporting repose sur ces privilèges. Vous n’aurez pas accès à moins que ces privilèges (ou un autre rôle de sécurité qui inclut ces privilèges) ne vous soient attribués. 
-* La tâche d’intégration **Fournisseur des utilisateurs de l’entreprise - Entreprise** (qui correspond également à l’intégration utilisateur) s’exécute selon un intervalle de 5 minutes. Il peut s’écouler jusqu’à 10 minutes pour que les modifications d’autorisation prennent effet dans Financial Reporting. 
-  Si un autre utilisateur peut ouvrir le Concepteur de rapports, sélectionnez **Outils**, puis sélectionnez **Statut de l’intégration**. Vérifiez que la mappe d’intégration, « Fournisseur des utilisateurs de l’entreprise - Entreprise », s’est exécutée correctement car vous avez reçu l’autorisation d’utiliser Financial Reporting. 
+* La tâche d’intégration **Fournisseur des utilisateurs de l’entreprise – Entreprise** (qui correspond également à l’intégration utilisateur) s’exécute selon un intervalle de 5 minutes. Il peut s’écouler jusqu’à 10 minutes pour que les modifications d’autorisation prennent effet dans Financial Reporting. 
+  Si un autre utilisateur peut ouvrir le Concepteur de rapports, sélectionnez **Outils**, puis sélectionnez **Statut de l’intégration**. Vérifiez que la mappe d’intégration, « Fournisseur des utilisateurs de l’entreprise – Entreprise », s’est exécutée correctement car vous avez reçu l’autorisation d’utiliser Financial Reporting. 
 * Il est possible qu’une autre erreur ait empêché l’achèvement de l’**intégration entre utilisateur Dynamics et utilisateur Financial Reporting**. Ou il est possible qu’une réinitialisation des données ait été lancée et ne soit pas encore terminée, ou qu’une autre erreur système se soit produite. Réessayez d’exécuter le processus plus tard. Si le problème persiste, contactez votre administrateur système.
 
 Problème 3 : vous pouvez continuer au-delà de la page de connexion ClickOnce du Concepteur de rapports, mais vous ne parvenez pas à terminer la connexion dans Report Designer. 

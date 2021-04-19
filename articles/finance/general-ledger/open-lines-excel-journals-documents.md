@@ -2,11 +2,9 @@
 title: Publier des lignes de journal et les documents d’Excel
 description: Cette rubrique explique comment entrer et publier des lignes de journaux d’opérations diverses issues de Microsoft Excel. Elle inclut des informations sur les différents modèles que vous pouvez utiliser, en fonction du type de transactions que vous entrez.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f87ce1dcbae779f875abcbffd1781bbf076b1b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2211f666b2b1dc7600639007794ab8133b58b2cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230248"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834474"
 ---
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publier des lignes de journal et les documents d’Excel
 
@@ -32,9 +30,8 @@ Cette rubrique explique comment entrer et publier des lignes de journaux d’op�
 
 Les utilisateurs peuvent entrer et publier des lignes pour les journaux financiers provenant de Microsoft Excel. Une fois qu’un utilisateur crée un journal, le bouton **Ouvrir les lignes dans Excel** indique les modèles disponibles. Les modèles sont conçus pour prendre en charge des scénarios spécifiques, mais toutes les combinaisons de type de compte ne sont pas prises en charge dans le journal. Le tableau suivant indique les modèles disponibles et les types de comptes pris en charge.
 
-|                          |                                                                                                                         |                                                                                         |
+| Modèle             | Types de compte pris en charge | Procédure d’accès au modèle                                                          |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Modèle**             | **Types de compte pris en charge**                                                                                             | **Procédure d’accès au modèle**                                                          |
 | Lignes de journal comptable     | Compte : Comptabilité, Client, Fournisseur, Compte de contrepartie bancaire : Comptabilité, Client, Fournisseur, Intersociétés bancaires est pris en charge.       | Journal des opérations diverses                                                                         |
 | Registre des factures         | Compte : Compte de contrepartie fournisseur : Comptabilité Intersociétés n’est pas pris en charge.                                                    | Registre des factures AP                                                                     |
 | Journal des factures          | Comptes : Compte de contrepartie fournisseur : Comptabilité intersociétés est pris en charge.                                                      | Journal des factures de Comptabilité fournisseur                                                                      |

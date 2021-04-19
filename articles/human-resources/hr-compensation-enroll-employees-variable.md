@@ -2,11 +2,9 @@
 title: Inscription d’un employé à un régime de rémunération variable
 description: La gestionnaire de rémunération et avantages peut inscrire des employés dans des régimes de rémunération variable pour calculer des primes en espèces ou non pour les employés.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl, HcmCompensationWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f10164b4002d3cb83a2332e913adcb25506ffdd2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f31790dc9389eaed125f69e4039d06a8b28bcc8b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468225"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793727"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Inscription d’un employé à un régime de rémunération variable
 

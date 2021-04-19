@@ -2,7 +2,6 @@
 title: Contenu Power BI Vue d’ensemble d’un processus CFO
 description: Cette rubrique décrit le contenu Microsoft Power BI Vue d’ensemble d’un processus CFO.
 author: kweekley
-manager: AnnBe
 ms.date: 10/02/2010
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7f97187f4afb228ad2028e0be7cf55b6154372f8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c59e85cd8f2b5cedd65b47ef2ef0818c13ddc328
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568516"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754622"
 ---
 # <a name="cfo-overview-power-bi-content"></a>Contenu Power BI Vue d’ensemble d’un processus CFO
 
@@ -37,7 +36,7 @@ Le tableau suivant présente le contenu Power BI à partir duquel les états son
 
 | Contenu Power BI qui est inclus | Etats |
 |-----------------------------------|---------|
-| [Performances financières](financial-performance-power-bi-content-pack.md) | <ul><li>Produit</li><li>Dépenses</li><li>Revenu net</li><li>Marge brute</li><li>Taux actuel</li><li>Montant total de la comptabilité fournisseur</li><li>Montant total de la comptabilité client</li><li>Dépenses par catégorie de compte</li><li>Dépenses - comparatif Réel/Budget</li><li>Produit - Comparatif Réel/Budget</li></ul> |
+| [Performances financières](financial-performance-power-bi-content-pack.md) | <ul><li>Produit</li><li>Dépenses</li><li>Revenu net</li><li>Marge brute</li><li>Taux actuel</li><li>Montant total de la comptabilité fournisseur</li><li>Montant total de la comptabilité client</li><li>Dépenses par catégorie de compte</li><li>Dépenses – comparatif Réel/Budget</li><li>Produit – Comparatif Réel/Budget</li></ul> |
 | [Vue d’ensemble des disponibilités](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md) | <ul><li>Prévisions de flux de trésorerie</li><li>Solde de compte bancaire</li><li>Solde par devise</li></ul> |
 | [Vente et rentabilité](sales-profitability-performance-content-pack.md) | <ul><li>Produit par région</li><li>10 meilleurs clients par produit</li><li>10 meilleurs produits par produit</li></ul> |
 | [Gestion des crédits et des relances](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Client en retard</li><li>Clients dépassant la limite de crédit</li><li>Soldes chronologiques</li></ul> |

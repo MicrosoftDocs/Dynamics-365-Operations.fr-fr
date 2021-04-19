@@ -2,11 +2,9 @@
 title: Définir les commissions de paiement fournisseur
 description: Paramétrez les frais de paiement fournisseur.
 author: abruer
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0705cdae069b687a141b0a85280eaed0fa207a89
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5e0871e0889b078c08e4bcbd86bf749bcfe39463
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227254"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837260"
 ---
 # <a name="define-vendor-payment-fees"></a>Définir les commissions de paiement fournisseur
 
@@ -40,7 +38,7 @@ Paramétrez les frais de paiement fournisseur. La société fictive USMF est cit
 7. Entrez un compte principal pour lequel les frais seront imputés.
     * Cette option n’est disponible que si Comptabilité est sélectionné comme option de frais.  
 8. Sélectionnez le journal dans lequel ces frais peuvent être utilisés. 
-    * Pour les frais de paiement fournisseur, vous devez sélectionner le journal « Fournisseur - Paiements ».  
+    * Pour les frais de paiement fournisseur, vous devez sélectionner le journal « Fournisseur – Paiements ».  
 9. Cliquez sur Enregistrer.
 10. Cliquez sur Paramétrage des frais de paiement.
     * Passez au paramétrage des frais de paiement pour définir à quel moment les frais doivent être définis par défaut dans le journal sélectionné.  

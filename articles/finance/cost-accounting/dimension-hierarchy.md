@@ -2,11 +2,9 @@
 title: Hiérarchie des dimensions
 description: Cette rubrique fournit des informations sur les hiérarchies de dimensions. Vous utilisez une hiérarchie de dimensions pour définir la structure d’entreprise, les stratégies de coût et le paramétrage de la sécurité dans le contrôle de gestion.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217384"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810172"
 ---
 # <a name="dimension-hierarchy"></a>Hiérarchie des dimensions
 
@@ -124,12 +122,13 @@ Une hiérarchie de dimensions qui répond aux conditions de génération d’ét
 
 La hiérarchie de dimensions pour générer un état peut être paramétrée comme indiqué ici.
 
-|                   | Plages de membres de la dimension   |                         |
+**Plages de membres de la dimension**
+
+|   Nœuds           |   Membre de la dimension de départ   |   Membre de la dimension de fin   |
 |-------------------|---------------------------|-------------------------|
-| **Nœuds**         | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Organisation      |                           |                         |
 | &nbsp;&nbsp;Admin         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finances   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finances   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;RH        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Production    |                           |                         |
@@ -146,12 +145,13 @@ Une hiérarchie de dimensions qui répond aux exigences de stratégie peut être
 
 La hiérarchie de dimensions pour générer la stratégie peut être paramétrée comme indiqué ici.
 
-|                   | Plages de membres de la dimension   |                         |
+**Plages de membres de la dimension**
+
+|   Nœuds           |   Membre de la dimension de départ   |   Membre de la dimension de fin   |
 |-------------------|---------------------------|-------------------------|
-| **Nœuds**         | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Comportement de coûts     |                           |                         |
 | &nbsp;&nbsp;Coût fixe    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Coût variable | 40001                     | 40010                   |
+| &nbsp;&nbsp;Coût variable | 40001                     | 40010                   |
 
 > [!NOTE]
 > Sous **Plages de membres de la dimension**, un nœud peut contenir des plages membres de dimension de 1:_n_. Vous pouvez insérer des ID membre de dimension qui n’existent pas encore comme membres de la dimension. Cette approche rend la hiérarchie résiliente pour l’avenir.  
@@ -202,7 +202,7 @@ Si vous créez des états à l’aide d’Excel ou de Power BI, seuls les 15 pr
 
 L’exemple suivant montre la structure d’une hiérarchie de dimensions dans la structure hiérarchique.
 
-| Hiérarchie de dimensions d’objet de coût - Niveau 1 | Hiérarchie de dimensions d’objet de coût - Niveau 2 | Hiérarchie de dimensions d’objet de coût - Niveau 3 | Hiérarchie de dimensions d’objet de coût - Niveau 4 | Hiérarchie de dimensions d’objet de coût - Niveau 15 |
+| Hiérarchie de dimensions d’objet de coût – Niveau 1 | Hiérarchie de dimensions d’objet de coût – Niveau 2 | Hiérarchie de dimensions d’objet de coût – Niveau 3 | Hiérarchie de dimensions d’objet de coût – Niveau 4 | Hiérarchie de dimensions d’objet de coût – Niveau 15 |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
 | Organisation                              | Admin                                     | Finances                                   | CC002                                     |                                            |
 | Organisation                              | Admin                                     | Finances                                   | CC003                                     |                                            |
@@ -297,9 +297,10 @@ Potentiellement, tous les responsables pourront accéder aux données commercial
 
 Un nouvel organisateur **Utilisateurs** est disponible dans le concepteur de hiérarchies. Ici, vous pouvez ajouter un ou plusieurs ID utilisateur à chaque nœud dans la hiérarchie.
 
-|                 | Utilisateurs            | Plages de membres de la dimension   |                         |
+**Plages d’utilisateurs et de membres de dimension**
+
+|   Nœuds         |   ID d’utilisateur        |   Membre de la dimension de départ   |   Membre de la dimension de fin   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Nœuds**       | **ID utilisateur**      | **Membre de la dimension de départ** | **Membre de la dimension de fin** |
 | Organisation    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Admin         | Avril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finances   | Alicia           | CC002                     | CC003                   |

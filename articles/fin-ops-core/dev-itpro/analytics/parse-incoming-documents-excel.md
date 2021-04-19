@@ -2,7 +2,6 @@
 title: Analyser les documents entrants au format Excel
 description: Cette rubrique fournit des informations sur la création de formats de gestion des états électroniques pour analyser le contenu des fichiers Microsoft Excel entrants.
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 847b3309a3e0daf7b341c4ba4a58a8ea0902e61c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0c41a062d817307adb2889d3678764f1ea4066e2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564517"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755178"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Analyser les documents entrants au format Excel
 
@@ -37,8 +36,8 @@ Téléchargez les fichiers suivants pour exécuter les guides de tâches mention
 
 | Description du contenu                         | Fichier                                                                       |
 |---------------------------------------------|----------------------------------------------------------------------------|
-| Fichier entrant au format .XLSX - modèle    | [1099import-template.xlsx](https://go.microsoft.com/fwlink/?linkid=862266) |
-| Fichier entrant au format .XLSX - exemple de données | [1099import-data.xlsx](https://go.microsoft.com/fwlink/?linkid=862266)     |
+| Fichier entrant au format .XLSX – modèle    | [1099import-template.xlsx](https://go.microsoft.com/fwlink/?linkid=862266) |
+| Fichier entrant au format .XLSX – exemple de données | [1099import-data.xlsx](https://go.microsoft.com/fwlink/?linkid=862266)     |
 
 Si vous n’avez pas encore lu le guide de tâche suivant, [ER Créer des configurations requises pour importer des données à partir d’un fichier externe](./tasks/er-required-configurations-import-data.md), dans l’application Finance and Operations actuelle, téléchargez le fichier suivant.
 

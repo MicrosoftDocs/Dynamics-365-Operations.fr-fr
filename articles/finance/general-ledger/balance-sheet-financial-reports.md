@@ -2,11 +2,9 @@
 title: États financiers du bilan
 description: Cet article décrit les états par défaut des bilans. Il décrit également les blocs de construction associés à ces états.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcfb8e8fd28224ac9fe9a4919f4252dcd01ce360
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212395"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821935"
 ---
 # <a name="balance-sheet-financial-reports"></a>États financiers du bilan
 
@@ -45,8 +43,8 @@ Les rapports financiers du relevé des revenus utilisent les blocs élémentaire
 
 | État par défaut                       | Définition de ligne                       | Définition de colonne             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| Bilan - Par défaut              | Bilan - Par défaut              | Année en cours et écart - Par défaut    |
-| Bilan côte à côte bilan – Par défaut | Bilan côte à côte bilan – Par défaut | Colonne Année en cours - Par défaut |
+| Bilan – Par défaut              | Bilan – Par défaut              | Année en cours et écart – Par défaut    |
+| Bilan côte à côte bilan – Par défaut | Bilan côte à côte bilan – Par défaut | Colonne Année en cours – Par défaut |
 
 ### <a name="row-definition"></a>Définition de ligne
 

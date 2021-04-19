@@ -2,11 +2,9 @@
 title: Vue d’ensemble du contrôle budgétaire
 description: Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire dans Microsoft Dynamics 365 Finance afin de pouvoir gérer les ressources financières.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08b2ee99f32628935552c5be166bdcd77291a6dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34d7fd7f4f583ef15bac73ac64cf47dd213880e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249507"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822249"
 ---
 # <a name="budget-control-overview"></a>Vue d’ensemble des contrôles budgétaires
 
@@ -45,11 +43,11 @@ Le graphique suivant illustre la place du contrôle budgétaire dans les étapes
 
 Vous pouvez configurer le contrôle budgétaire en fonction de plusieurs facteurs :
 
--   **Dimensions financières** - Quelles dimensions financières doivent être utilisées pour déclarer l’activité budgétaire et l’activité réelle, et quelles dimensions financières sont requises pour contrôler le budget ? Certaines combinaisons de dimensions spécifiques ou certains comptes principaux nécessitent-ils une attention particulière ? Par exemple, faut-il suivre l’activité budgétaire par rapport à l’activité réelle par centre de coût et programme ? Les dépenses de déplacement requièrent-elles une attention particulière ?
--   **Temps** - Quel cadre temporel (période fiscale, période fiscale en cours, etc.) sera utilisé pour évaluer les fonds budgétaires disponibles ?
+-   **Dimensions financières** – Quelles dimensions financières doivent être utilisées pour déclarer l’activité budgétaire et l’activité réelle, et quelles dimensions financières sont requises pour contrôler le budget ? Certaines combinaisons de dimensions spécifiques ou certains comptes principaux nécessitent-ils une attention particulière ? Par exemple, faut-il suivre l’activité budgétaire par rapport à l’activité réelle par centre de coût et programme ? Les dépenses de déplacement requièrent-elles une attention particulière ?
+-   **Temps** – Quel cadre temporel (période fiscale, période fiscale en cours, etc.) sera utilisé pour évaluer les fonds budgétaires disponibles ?
 -   **Documents sources** – Quels documents source doivent être évalués à des fins de contrôle budgétaire ? Les documents doivent-ils être évalués par ligne ou par document ?
--   **Calcul des fonds disponibles** - Les documents tels que les demandes d’achat (engagements préalables) et les commandes fournisseur (engagements) doivent-ils être pris en compte dans le calcul des fonds disponibles ? Les documents présentant le statut de Brouillon doivent-ils être pris en compte dans le calcul ?
--   **Autorisation de dépassement** - Qui est autorisé à dépasser le budget disponible ?
+-   **Calcul des fonds disponibles** – Les documents tels que les demandes d’achat (engagements préalables) et les commandes fournisseur (engagements) doivent-ils être pris en compte dans le calcul des fonds disponibles ? Les documents présentant le statut de Brouillon doivent-ils être pris en compte dans le calcul ?
+-   **Autorisation de dépassement** – Qui est autorisé à dépasser le budget disponible ?
 
 Le contrôle budgétaire fait partie intégrante de l’application. Par conséquent, vous pouvez évaluer le budget disponible pour les achats prévisionnels et les achats réels. Les demandes et les états budgétaires sont disponibles. Par conséquent, les utilisateurs peuvent évaluer le budget durant le cycle budgétaire, et faire les ajutsements requis sous la forme de révisions ou de transferts budgétaires. Un responsable du budget peut également exporter l’activité budgétaire et l’activité réelle dans Microsoft Excel pour une analyse et des prévisions plus pointues au besoin.
 

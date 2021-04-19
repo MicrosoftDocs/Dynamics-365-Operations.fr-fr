@@ -2,11 +2,9 @@
 title: Savoir utiliser les limites de contrôle de disponibilités
 description: Cette rubrique explique comment utiliser le contrôle de disponibilités pour définir des limites de transaction lorsqu’il n’y a aucun solde de disponibilités ou qu’une transaction fait chuter le solde des disponibilités sous un montant prédéfini.
 author: v-kiarnd
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2019-8-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 83e9d798d4da7bd0afcebdc3cccd73d94c06b54e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08e3bf5caa28328d29d17fbee3ad44411872c4ee
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225185"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837964"
 ---
 # <a name="use-cash-control-limits"></a>Savoir utiliser les limites de contrôle de disponibilités
 

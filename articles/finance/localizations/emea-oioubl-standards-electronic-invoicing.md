@@ -2,11 +2,9 @@
 title: Normes prises en charge pour la facturation électronique en Europe
 description: Cette rubrique décrit le niveau de couverture qui existe pour la facturation électronique pour Europe.
 author: mrolecki
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b25dedca6d8d6726be60d1943ade0865eaf6b0ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9aa3e1f6fc14d2c0c8f35307f1084d09399c08f5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262814"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832708"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Normes prises en charge pour la facturation électronique en Europe
 
@@ -85,10 +83,10 @@ Le modèle de données **Modèle de facture**, le mappage du modèle de facture 
 -   Facture de projet (IT)
 -   Facture client DE
 -   Facture de projet DE
--   Facture client Peppol - pour l’UE
--   Avoir sur vente Peppol - pour l’UE
--   Facture de projet Peppol - pour l’UE
--   Avoir sur le projet Peppol - pour l’UE
+-   Facture client Peppol – pour l’UE
+-   Avoir sur vente Peppol – pour l’UE
+-   Facture de projet Peppol – pour l’UE
+-   Avoir sur le projet Peppol – pour l’UE
 -   Facture client (EE)
 -   Facture de projet (EE)
 -   Facture client (FI)

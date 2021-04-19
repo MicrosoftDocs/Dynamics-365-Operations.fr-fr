@@ -2,11 +2,9 @@
 title: Répartitions comptables et écritures de journal pour les factures fournisseur
 description: Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l’immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables.
 author: abruer
-manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0ad3124963dda33f44cf8ba6e6bb466029b2651
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252191"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820982"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal pour les factures fournisseur
 
@@ -103,8 +101,8 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 <td>Projet défini sur la ligne de facture fournisseur.</td>
 <td><ol>
 <li>La répartition comptable pour la ligne de commande fournisseur, si la ligne de facture fait référence à une ligne de commande fournisseur.</li>
-<li>Si Solde est sélectionné dans le champ Valider les coûts - Article de la page Groupes de projets, le champ Compte principal lorsque Coût est sélectionné dans la page Paramétrage de la validation dans la comptabilité.</li>
-<li>Si Résultats est sélectionné dans le champ Valider les coûts - Article de la page Groupes de projets, le champ Compte principal lorsque Coût - Article est sélectionné dans la page Paramétrage de la validation dans la comptabilité.</li>
+<li>Si Solde est sélectionné dans le champ Valider les coûts – Article de la page Groupes de projets, le champ Compte principal lorsque Coût est sélectionné dans la page Paramétrage de la validation dans la comptabilité.</li>
+<li>Si Résultats est sélectionné dans le champ Valider les coûts – Article de la page Groupes de projets, le champ Compte principal lorsque Coût – Article est sélectionné dans la page Paramétrage de la validation dans la comptabilité.</li>
 </ol></td>
 <td><ol>
 <li>Si la ligne de facture fait référence à une ligne de commande fournisseur, utilisez la répartition comptable pour la ligne de commande fournisseur.</li>

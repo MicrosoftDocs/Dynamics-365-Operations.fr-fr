@@ -2,11 +2,9 @@
 title: Mécanisme de Taxe au preneur pour le régime TVA/TPS
 description: Cette rubrique explique comment paramétrer la taxe sur la valeur ajoutée au preneur (TVA) pour les pays européens, l’Arabie saoudite et Singapour.
 author: epodkolz
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 007fab0594c443a3060d6b6640b032ec270f5298
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236245"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818304"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mécanisme de Taxe au preneur pour le régime TVA/TPS
 
@@ -94,7 +92,7 @@ Dans la page **Règles pour la taxe au preneur** (**Taxe** &gt; **Paramétrage**
 - **Type de document** – Sélectionnez **Commande fournisseur**, **Journal des factures fournisseur**, **Commande client**, **Facture financière**, **Journal des factures client** et/ou **Facture fournisseur**.
 - **Type de pays/région du partenaire** – Sélectionnez **Local**, **UE**, **GCC** ou **Étranger**. Ou, si la règle peut être appliquée à tous les partenaires commerciaux, indépendamment du pays ou de la région de leur adresse, sélectionnez **Tous**.
 - **Adresse de livraison locale** – Activez cette case à cocher pour appliquer la règle aux livraisons dans le même pays ou la même région. Cette case à cocher ne peut pas être activée pour les types de document **Journal des factures fournisseur** et **Journal des factures client**.
-- **Groupe d’articles soumis à la taxe au preneur** - Sélectionnez le groupe auquel la règle peut être appliquée.
+- **Groupe d’articles soumis à la taxe au preneur** – Sélectionnez le groupe auquel la règle peut être appliquée.
 - **Montant seuil** – Le schéma au preneur est appliqué à une facture uniquement si la valeur des articles et/ou des services inclus dans le groupe d’articles au preneur dépasse la limite que vous spécifiez ici.
 
 Vous pouvez également utiliser les champs **Date d’effet** et **Date d’expiration** pour définir la période à laquelle la règle est effective.

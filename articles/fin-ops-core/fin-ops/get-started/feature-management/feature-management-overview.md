@@ -2,7 +2,6 @@
 title: Présentation de la gestion des fonctionnalités
 description: Cette rubrique décrit la fonctionnalité de gestion des fonctionnalités et son utilisation.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 6226fc69048b724a96f3de516c26829fdf50e7a2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570919"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754798"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -179,7 +178,7 @@ Les vols de fonctionnalités sont des commutateurs marche/arrêt en temps réel 
 Oui, si une fonctionnalité a un impact sur le fonctionnement d’un environnement qui n’a pas d’impact fonctionnel, elle peut être activée par défaut.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Comment l’activation des fonctionnalités peut-elle être vérifiée dans le code ?
-Utilisez la méthode **isFeatureEnabled** sur la classe **FeatureStateProvider**, en lui passant une instance de la classe d’entités. Exemple : 
+Utilisez la méthode **isFeatureEnabled** sur la classe **FeatureStateProvider**, en lui passant une instance de la classe d’entités. Exemple :
 
 ```xpp
 if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
@@ -189,7 +188,7 @@ if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::ins
 La propriété **FeatureClass** peut être utilisée pour indiquer que certaines métadonnées sont associées à une fonctionnalité. Le nom de classe utilisé pour la fonctionnalité doit être utilisé, tel que **BatchContentionPreventionFeature**. Ces métadonnées ne sont visibles que dans cette fonctionnalité. La propriété **FeatureClass** est disponible dans les menus, les éléments de menu, les valeurs d’énumération et les champs de table/vue.
 
 ### <a name="what-is-a-feature-class"></a>Qu’est-ce qu’une classe de fonctionnalité ?
-Les fonctionnalités dans Gestion des fonctionnalités sont définies en tant que *classes de fonctionnalité*. Une classe de fonctionnalité **implémente IFeatureMetadata** et utilise l’attribut de classe de fonctionnalité pour s’identifier dans l’espace de travail Feature Management. Il existe de nombreux exemples de classes de fonctionnalité disponibles dont l’activation dans le code peut être vérifiée à l’aide de l’API **FeatureStateProvider** et dans les métadonnées à l’aide de la propriété **FeatureClass**. Exemple : 
+Les fonctionnalités dans Gestion des fonctionnalités sont définies en tant que *classes de fonctionnalité*. Une classe de fonctionnalité **implémente IFeatureMetadata** et utilise l’attribut de classe de fonctionnalité pour s’identifier dans l’espace de travail Feature Management. Il existe de nombreux exemples de classes de fonctionnalité disponibles dont l’activation dans le code peut être vérifiée à l’aide de l’API **FeatureStateProvider** et dans les métadonnées à l’aide de la propriété **FeatureClass**. Exemple :
 
 ```xpp
 [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]

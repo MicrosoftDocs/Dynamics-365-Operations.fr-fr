@@ -2,11 +2,9 @@
 title: Exemples de définition de validation
 description: Cet article fournit des exemples décrivant la manière dont les définitions de validation sont utilisées pour les engagements de commande fournisseur et les affectations budgétaires.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dbbc727120f5292a3ad94711cf79138b35593bf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3f8875fd0f1894d7848b3afc76a55d052233b4c5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235135"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817075"
 ---
 # <a name="posting-definition-examples"></a>Exemples de définitions de validation
 
@@ -52,7 +50,7 @@ Toutes les pièces comptables pour les engagements de commandes fournisseur doiv
 
 | Structure de compte       | Numéro de compte de rapprochement | Priorité |
 |-------------------------|----------------------|----------|
-| Structure de compte - Résultat | \*                   | 1        |
+| Structure de compte – Résultat | \*                   | 1        |
 
 <em>Une valeur vide dans le champ **Numéro de compte de rapprochement</em>* signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -60,8 +58,8 @@ Toutes les pièces comptables pour les engagements de commandes fournisseur doiv
 
 | Structure de compte | Numéro de compte généré                    | Débit/crédit généré |
 |-------------------|---------------------------------------------|------------------------|
-| Solde           | 300143 - -(Compte d’engagement)             | Idem                   |
-| Solde           | 300144 - -(Réserver pour le compte d’engagement) | Balancement              |
+| Solde           | 300143 – -(Compte d’engagement)             | Idem                   |
+| Solde           | 300144 – -(Réserver pour le compte d’engagement) | Balancement              |
 
 ### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transactions avec les comptes, valeurs de dimension et montants
 
@@ -80,7 +78,7 @@ Les écritures comptables générées sont créées pour enregistrer les engagem
 | 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Toutefois, lors de l’évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.
+Dans cet exemple, toutes les parties de compte de la structure de compte – Résultat correspondent aux critères de définition de validation. Toutefois, lors de l’évaluation de 606500-OU\_1-OU\_3566-Training, les écritures générées sont créées pour les comptes définis dans le volet **Entrées générées** pour la définition de validation.
 
 ## <a name="example-budget-appropriations"></a>Exemple : affectations du budget
 Lorsque vous activez l’affectation budgétaire en sélectionnant **Activer l’affectation budgétaire** dans la page **Paramètres de comptabilité**, vous devez utiliser les définitions de validation pour enregistrer les écritures de registre budgétaires dans la comptabilité. Lorsqu’une configuration de contrôle budgétaire est active, vous pouvez utiliser les définitions de validation et les définitions de validation de transaction pour prendre en charge l’enregistrement des écritures d’affectations, de révisions, de transferts, de projets, d’immobilisations, d’approvisionnements et de prévisions de la demande dans la comptabilité. 
@@ -93,7 +91,7 @@ Lorsque les définitions de validation et les affectations budgétaires sont act
 
 | Structure de compte       | Numéro de compte de rapprochement | Priorité |
 |-------------------------|----------------------|----------|
-| Structure de compte - Résultat | \*                   | 1        |
+| Structure de compte – Résultat | \*                   | 1        |
 
 <em>Une valeur vide dans le champ **Numéro de compte de rapprochement</em>* signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -101,8 +99,8 @@ Lorsque les définitions de validation et les affectations budgétaires sont act
 
 | Structure de compte | Numéro de compte généré              | Débit/crédit généré |
 |-------------------|---------------------------------------|------------------------|
-| Structure de compte | 300145 - -(Compte Produit estimé) | Idem                   |
-| Structure de compte | 300146 - -(Compte Affectations)     | Balancement              |
+| Structure de compte | 300145 – -(Compte Produit estimé) | Idem                   |
+| Structure de compte | 300146 – -(Compte Affectations)     | Balancement              |
 
 ### <a name="transactions-with-the-accounts-dimension-values-and-amounts"></a>Transactions avec les comptes, valeurs de dimension et montants
 
@@ -121,7 +119,7 @@ Les écritures comptables générées sont créées pour enregistrer le budget d
 | 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
 | 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-Dans cet exemple, toutes les parties de compte de la structure de compte - Résultat correspondent aux critères de définition de validation. Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.
+Dans cet exemple, toutes les parties de compte de la structure de compte – Résultat correspondent aux critères de définition de validation. Donc, lorsque 606400-OU\_1-OU\_3566-Training est évalué, les écritures comptables générées sont créées.
 
 
 

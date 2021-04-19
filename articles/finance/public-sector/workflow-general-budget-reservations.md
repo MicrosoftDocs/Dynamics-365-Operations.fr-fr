@@ -2,11 +2,9 @@
 title: Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 description: Cette rubrique explique la procédure de paramétrage des réservations budgétaires générales et comment les envoyer à un workflow pour le secteur public.
 author: AlexRenney
-manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN, BudgetReservationType_PSN
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 573a31f1131a0ca46183e9c2c31b6ee5e74f1a96
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fad5756a028b7a5d61918da6eb75d95f1aee6398
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256558"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811197"
 ---
 # <a name="set-up-general-budget-reservations-and-submit-them-to-a-workflow"></a>Paramétrer les réservations budgétaires générales et les envoyer à un workflow
 

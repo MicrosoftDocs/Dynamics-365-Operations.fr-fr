@@ -2,11 +2,9 @@
 title: Réévaluer une devise pour la comptabilité fournisseur et la comptabilité client
 description: Des fluctuations des taux de change entraînent une variation de la valeur théorique (valeur comptable) des transactions en cours en devises étrangères avec le temps. Cet article fournit des informations sur le processus de réévaluation des comptes en devises que vous exécutez pour mettre à jour la valeur des transactions en cours dans Comptabilité fournisseur et Comptabilité client.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a95e446184b48be6d48347155ce14554602accbe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254009"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815906"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Réévaluer une devise pour la comptabilité fournisseur et la comptabilité client
 
@@ -47,7 +45,7 @@ Utilisez la page **Réévaluation des comptes en devises** sous **Tâches pério
 
 Un enregistrement est conservé chaque fois que vous exécutez la tâche périodique pour la réévaluation des comptes en devises. Depuis l’enregistrement sur la page **Évaluation des comptes en devises**, sélectionnez **Transactions** pour afficher la liste détaillée des transactions créées en raison de la réévaluation. Chaque transaction de document représente la transaction en cours qui a été réévaluée. Si une transaction ouverte a été réévaluée plusieurs fois, vous voyez deux enregistrements qui utilisent le même document. Un enregistrement se rapporte à la contrepassation du profit/de la perte non réalisé(e) précédent(e), et l’autre enregistrement se rapporte au nouveau profit ou à la nouvelle perte non réalisé(e). Pour exécuter le processus de réévaluation, cliquez sur le bouton **Réévaluation des comptes en devises**. Définissez les paramètres appropriés pour les paramètres suivants :
 
--   **Méthode** - Méthode utilisée lors de la tâche de réévaluation des comptes en devises sélectionnée :
+-   **Méthode** – Méthode utilisée lors de la tâche de réévaluation des comptes en devises sélectionnée :
     -   **Standard** – Les tâches de réévaluation des comptes en devises sont validées, que le résultat soit un profit ou une perte.
     -   **Minimum** – Les tâches de réévaluation des comptes en devises sont validées uniquement si le résultat est une perte.
     -   **Date de facture** – Les tâches de réévaluation des comptes en devises utilisent le taux de change d’origine des transactions, qui sont réévaluées à leur valeur d’origine dans la devise comptable. L’effet de toute réévaluation des comptes en devises antérieure est annulé.

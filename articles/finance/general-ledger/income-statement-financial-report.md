@@ -2,11 +2,9 @@
 title: Rapport financier du relevé des revenus
 description: Cet article décrit l’état par défaut des comptes de résultats. Il décrit également les blocs de construction associés à cet état.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fab0e9d5e550b1848c3483b3172836e258353ebb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249069"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838835"
 ---
 # <a name="income-statement-financial-report"></a>Rapport financier du relevé des revenus
 
@@ -42,11 +40,11 @@ Le rapport financier du relevé des revenus utilise les blocs élémentaires sui
 
 | Rapport par défaut             | Définition de ligne                     | Définition de colonne          |
 |----------------------------|------------------------------------|----------------------------|
-| Relevé des revenus - Par défaut | Récapitulatif du relevé des revenus - Par défaut | Périodique et Année en cours - Par défaut |
+| Relevé des revenus – Par défaut | Récapitulatif du relevé des revenus – Par défaut | Périodique et Année en cours – Par défaut |
 
 ### <a name="row-definition"></a>Définition de ligne
 
-La définition de ligne, Récapitulatif du relevé des revenus - Par défaut, contient une section pour chaque partie d’un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d’établir cette définition de ligne. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications.
+La définition de ligne, Récapitulatif du relevé des revenus – Par défaut, contient une section pour chaque partie d’un relevé de revenus traditionnel. La dimension Catégorie de compte principal est utilisée afin d’établir cette définition de ligne. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications.
 
 ### <a name="column-definition"></a>Définition de colonne
 

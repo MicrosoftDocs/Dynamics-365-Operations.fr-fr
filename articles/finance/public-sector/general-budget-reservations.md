@@ -2,11 +2,9 @@
 title: Réservations budgétaires générales
 description: Cette rubrique fournit des informations sur les réservations budgétaires générales pour le secteur public.
 author: AlexRenney
-manager: AnnBe
 ms.date: 04/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ae8365cb9f02c41b60be166e3a06d16bd6516163
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 935c08ed136521887d58e9524f8f34bf87df1ddc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258144"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839721"
 ---
 # <a name="general-budget-reservations"></a>Réservations budgétaires générales
 

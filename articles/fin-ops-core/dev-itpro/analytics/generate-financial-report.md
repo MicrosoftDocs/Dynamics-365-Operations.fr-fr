@@ -2,7 +2,6 @@
 title: Générer les états financiers
 description: Cette rubrique fournit des informations sur la génération d’un état financier.
 author: jinniew
-manager: AnnBe
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 742361162c2f502bf479a9ab518054020617af93
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: c6cde37124d4a3337bca2a9b445af5fdfd87f453
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572419"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750008"
 ---
 # <a name="generate-financial-reports"></a>Générer les états financiers
 
@@ -146,7 +145,7 @@ Les états qui ont des plages des valeurs sont moins susceptibles d’avoir des 
 ## <a name="keyboard-shortcuts-for-missing-account-analysis"></a>Raccourcis clavier pour l’analyse de compte manquante
 Lorsque vous exécutez une analyse de compte manquante, les raccourcis clavier suivants sont disponibles.
 
-| Opération                           | Appuyer sur  |
+| Opération                           | Appuyer sur |
 |--------------------------------------|----------------------------|
 | Filtrer par société                    | Alt+C                      |
 | Filtre de dimension                  | Alt + D                      |

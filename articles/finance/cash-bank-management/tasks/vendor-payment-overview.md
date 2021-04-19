@@ -2,11 +2,9 @@
 title: Vue d’ensemble des paiements fournisseurs
 description: Ce guide de tâche décrit diverses méthodes permettent de créer des paiements fournisseurs, notamment l’utilisation d’une proposition de paiement ou la saisie manuelle d’un paiement unique.
 author: kweekley
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3216e0479851e58b345508e27c97b69d8a1077b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4402be4be52f71bf346a1f85155aad4b9890b3bc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236369"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827288"
 ---
 # <a name="vendor-payment-overview"></a>Vue d’ensemble des paiements fournisseurs
 

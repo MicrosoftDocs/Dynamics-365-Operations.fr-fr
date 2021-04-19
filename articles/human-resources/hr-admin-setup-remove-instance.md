@@ -2,11 +2,9 @@
 title: Supprimer une instance
 description: Cet article décrit le processus de suppression d’un pilote test ou d’un environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1e6d1eff32b6f925541760f0c0408238f3c4d947
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466854"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795019"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
 
@@ -37,7 +35,7 @@ Les tests Human Resources sont provisionnés avec une stratégie d’expiration 
 
 1. Accédez au [centre d’administration Power Apps](https://admin.businessplatform.microsoft.com/).
 2. Sélectionner **Environnements**.
-3. Sélectionnez l’environnement de test, avec un modèle de dénomination similaire à ceci : TestDrive - alias@domain
+3. Sélectionnez l’environnement de test, avec un modèle de dénomination similaire à ceci : TestDrive – alias@domain
 4. Sélectionnez **Supprimer** et confirmez la décision. 
 
 L’environnement de test existant est supprimé. Une fois supprimé, vous pouvez vous inscrire à un nouvel environnement de test. 

@@ -2,11 +2,9 @@
 title: Pénalités pour les paiements client en retard en France
 description: En France, vous pouvez appliquer une pénalité lorsqu’un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d’échéance du paiement.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInvoiceJournal, CustFormletterParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e6efb8b081d6050d6c68a6f3896aa45ce59281e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9dc1e1d82d95036f38d46145bd5a3b1028a6dbd4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260171"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826091"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 

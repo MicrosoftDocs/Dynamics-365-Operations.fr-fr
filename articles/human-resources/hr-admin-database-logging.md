@@ -2,11 +2,9 @@
 title: Configurer et gérer la journalisation de la base de données
 description: Vous pouvez suivre les modifications apportées aux tables et aux champs dans Dynamics 365 Human Resources avec la journalisation de la base de données.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467647"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801333"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurer et gérer la journalisation de la base de données
 
@@ -68,7 +66,22 @@ Pour améliorer les performances, limitez les entrées de journal en sélectionn
 Vous pouvez utiliser l’assistant **Consignation des modifications de base de données** pour configurer la journalisation de la base de données. L’assistant offre un moyen flexible de configurer la journalisation des tables ou des champs.
 
 1. Accédez à **Administration système> liens> Base de données> Configuration du journal de base de données**. Sélectionnez **Nouveau** pour démarrer l’assistant **Consignation des modifications de base de données**.
-2. Suivez les instructions de l’Assistant.
+2. Sélectionnez **Suivant**. 
+3. Sur la page **Tables et champs** de l’assistant, sélectionnez les tables et les champs sur lesquels vous souhaitez activer la journalisation de la base de données, puis sélectionnez **Suivant**.
+
+   > [!Note]
+   > La journalisation de la base de données n’est pas disponible sur toutes les tables de la base de données Human Resources. Le fait de sélectionner **Afficher toutes les tables** sous la liste développe la liste des tables et des champs ; cela affiche toutes les tables de base de données pour lesquelles la journalisation de base de données est disponible, mais il s’agit d’un sous-ensemble de la liste complète des tables de base de données.
+
+4. Sur la page **Types de modification** de l’assistant, sélectionnez les opérations de données pour lesquelles vous souhaitez suivre les modifications pour chacune des tables et chacun des champs, puis sélectionnez **Suivant**. Consultez le tableau ci-dessous pour voir une description des opérations sur les données disponibles pour la journalisation.
+5. Sur la page **Terminer**, passez en revue les modifications qui seront apportées, puis sélectionnez **Terminer**.
+
+| Opération | Description |
+| -- | -- |
+| Suivre les nouvelles transactions | Créez un journal pour les nouveaux enregistrements créés dans la table. |
+| Mise à jour | Créez un journal pour les mises à jour des enregistrements de la table ou les mises à jour des champs sélectionnés individuellement dans la table. Si vous choisissez de consigner les mises à jour de la table, un enregistrement de journal est créé chaque fois qu’une mise à jour est effectuée sur n’importe quel champ de n’importe quel enregistrement de la table. Si vous choisissez de consigner les mises à jour pour des champs spécifiques, un enregistrement de journal est créé uniquement lorsque des mises à jour sont effectuées sur ces champs des enregistrements de la table. |
+| Retirer | Créez un journal pour les enregistrements supprimés de la table. |
+| Renommer la clé | Créez un enregistrement de journal lorsqu’une clé de table est renommée. |
+
 
 ## <a name="clean-up-database-logs"></a>Nettoyer les journaux de base de données
 

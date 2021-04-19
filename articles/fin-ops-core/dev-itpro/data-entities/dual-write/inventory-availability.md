@@ -2,7 +2,6 @@
 title: Disponibilité du stock en double écriture
 description: Cette rubrique fournit des informations sur la consultation de la disponibilité du stock en double écriture.
 author: yijialuan
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 48e54c043967ea5db15938857bd8f020dd4dfc64
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9d9b7970720218fbcf2f512345ade672810440b4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566737"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748563"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilité du stock en double écriture
 
@@ -59,7 +58,7 @@ La boîte de dialogue renvoie les informations ATP de Supply Chain Management. C
 
 ## <a name="how-it-works"></a>Comment ça fonctionne
 
-Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**, **Commandes** ou **Factures**, un appel de double écriture en direct est effectué vers l'API **Stock disponible**. L'API calcule le stock disponible pour le produit donné. Le résultat est stocké dans les tables **InventCDSInventoryOnHandRequestEntity** et **InventCDSInventoryOnHandEntryEntity** , puis est écrit dans Dataverse par la double écriture. Pour utiliser cette fonctionnalité, vous devez exécuter les mappages de double écriture suivants. Ignorez la synchronisation initiale lorsque vous exécutez les mappages.
+Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**, **Commandes** ou **Factures**, un appel de double écriture en direct est effectué vers l’API **Stock disponible**. L’API calcule le stock disponible pour le produit donné. Le résultat est stocké dans les tables **InventCDSInventoryOnHandRequestEntity** et **InventCDSInventoryOnHandEntryEntity** , puis est écrit dans Dataverse par la double écriture. Pour utiliser cette fonctionnalité, vous devez exécuter les mappages de double écriture suivants. Ignorez la synchronisation initiale lorsque vous exécutez les mappages.
 
 - Entrées de stock CDS disponibles (msdyn_inventoryonhandentries)
 - Demandes de stock CDS disponibles (msdyn_inventoryonhandrequests)
@@ -67,7 +66,7 @@ Lorsque vous sélectionnez le bouton **Stock disponible** sur la page **Devis**,
 ## <a name="templates"></a>Modèles
 Les modèles suivants sont disponibles pour exposer les données de stock disponibles.
 
-Applications Finance and Operations | Application Customer Engagement | Description  
+Applications Finance and Operations | Application Customer Engagement | Description 
 ---|---|---
 [Entrées disponibles dans le stock CDS](#145) | msdyn_inventoryonhandentries |
 [Demandes disponibles dans le stock CDS](#147) | msdyn_inventoryonhandrequests |

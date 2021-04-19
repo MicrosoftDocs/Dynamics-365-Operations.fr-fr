@@ -2,11 +2,9 @@
 title: Renseignements sur l’emplacement des disponibilités
 description: Cette rubrique fournit des informations sur la façon de déterminer les emplacements de disponibilités correspondants pour les ensembles de dimensions financières contenant des dimensions en équilibre.
 author: velofog
-manager: AnnBe
 ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: public sector
 ms.author: roschlom
 ms.search.validFrom: 2019-10-24
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d10c52e66b06e9ff52417bd49b178c44376ce42a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bcec909e13eefbc999ffef794544dae1d482fcfa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264081"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811257"
 ---
 # <a name="cash-position-inquiry"></a>Renseignements sur l’emplacement des disponibilités
 [!include [banner](../includes/banner.md)]

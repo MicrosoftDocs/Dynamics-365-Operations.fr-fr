@@ -6,19 +6,18 @@ ms.topic: article
 ms.date: 07/27/2020
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 68eb7c80927ffb4acb7d1cd36b13ba70870ddc8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5c6ac311a50270e0f1e172bfd4c2c6604c474b55
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223900"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5633818"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catalogue d’apprentissage pour les utilisateurs de Dynamics 365 Finance
 
@@ -44,7 +43,7 @@ Le catalogue suivant est constitué de connaissances fondamentales de base et av
 
 ## <a name="financial-management"></a>Gestion financière<a name="financial-management"></a>
 
-| Contenu | Description   | Format  | Longueur |
+| Contenu | Description  | Format  | Longueur |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Configuration et utilisation de la comptabilité dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-general-ledger-dyn365-finance/) | Dynamics 365 Finance permet aux utilisateurs professionnels de contrôler les finances et de gérer les fonds avec des informations précises à tout moment pour la planification et les prévisions financières, et de rester à jour avec les analyses. Puisque la finance est au cœur des affaires, et puisque le module Comptabilité est au cœur de la gestion financière, ce parcours d’apprentissage vous indique comment configurer la fonctionnalité dans le module Comptabilité. Il couvre également comment exécuter les procédures de clôture pour une période ou année.    | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 13.5 heures  |
 | [Configuration et utilisation de la gestion de la trésorerie et de la banque, et de la taxe dans Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/ )    | Vous pouvez utiliser le module Gestion de la trésorerie et de la banque dans Dynamics 365 Finance pour mettre à jour les comptes bancaires d’une organisation et les instruments financiers qui y sont associés. Toutes les entreprises doivent recueillir et payer les taxes auprès des différentes autorités fiscales. Ce parcours d’apprentissage vous permettra d’apprendre à configurer et à utiliser ces domaines de Dynamics 365 Finance | Parcours d’apprentissage en ligne, gratuit et à son propre rythme | 7.5 heures |

@@ -2,11 +2,9 @@
 title: État du bordereau de paiement pour l’Europe
 description: Cette rubrique fournit des informations sur les états de bordereau de paiement pour l’Europe.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntities, ProjFormletterParameters, CustFormletterParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31cff0eca98aa04f8813eebdae345f05b286894e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 82d399821eaa5317702b2ed419f706578322496d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258180"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826118"
 ---
 # <a name="payment-slip-report-for-europe"></a>État du bordereau de paiement pour l’Europe
 

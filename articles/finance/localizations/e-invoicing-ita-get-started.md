@@ -1,12 +1,10 @@
 ---
-title: Démarrage du module complémentaire de facturation électronique pour l’Italie
-description: Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique pour l’Italie dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
+title: Mise en route de la facturation électronique pour l’Italie
+description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Italie.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259218"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840098"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Démarrage du module complémentaire de facturation électronique pour l’Italie
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Mise en route de la facturation électronique pour l’Italie
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> Le module complémentaire de facturation électronique pour l’Italie peut ne pas prendre actuellement en charge toutes les fonctions disponibles pour les factures électroniques dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management. 
+> La Facturation électronique pour l’Italie peut ne pas prendre actuellement en charge toutes les fonctions disponibles pour les factures électroniques dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management. 
 
-Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique pour l’Italie. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Services (RCS) et Finance. Elle vous guide également tout au long du processus d’envoi de factures électroniques générées au format **FatturaPA** propre à l’Italie via le service. Elle explique aussi comment passer en revue les résultats du traitement.
+Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour l’Italie. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Services (RCS) et Finance. Elle vous guide également tout au long du processus d’envoi de factures électroniques générées au format **FatturaPA** propre à l’Italie via le service. Elle explique aussi comment passer en revue les résultats du traitement.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant d’effectuer les étapes de cette rubrique, vous devez effectuer les étapes de la rubrique [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md).
+Avant d’effectuer les étapes de cette rubrique, vous devez effectuer les étapes de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>Paramétrage RCS
 
@@ -48,7 +46,7 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 4. Publier la fonctionnalité de facturation électronique.
 
 > [!NOTE]
-> La « Fonctionnalité de facturation électronique » est le nom générique de la ressource configurée et publiée pour utiliser le serveur complémentaire de facturation électronique. Dans ce cas, l’exportation des factures électroniques client est la fonctionnalité de facturation électronique que vous allez paramétrer.
+> La « Fonctionnalité de Facturation électronique » est le nom générique de la ressource configurée et publiée pour utiliser le serveur de Facturation électronique. Dans ce cas, l’exportation des factures électroniques client est la fonctionnalité de facturation électronique que vous allez paramétrer.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importer la fonctionnalité de facturation électronique
 
@@ -153,7 +151,7 @@ Vous pouvez publier la fonctionnalité de facturation électronique en modifiant
 
 ![Modification du statut de la fonctionnalité de facturation électronique](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Paramétrer l’intégration du module complémentaire de facturation électronique dans Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Paramétrer l’intégration de la facturation électronique dans Finance
 
 Lors du paramétrage de Finance, vous effectuerez les tâches suivantes :
 
@@ -193,17 +191,17 @@ Lors du paramétrage de Finance, vous effectuerez les tâches suivantes :
 
 Lors du traitement dans Finance, vous effectuerez les tâches suivantes :
 
-1. Générer des factures électroniques italiennes via le module complémentaire de facturation électronique
+1. Générer des factures électroniques italiennes via la Facturation électronique
 2. Afficher les journaux d’exécution et passer en revue les résultats du traitement
 
 ### <a name="generate-electronic-invoices"></a>Générer des factures électroniques
 
-Après avoir activé la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable** et activé la fonctionnalité **IT00036**, l’ancien processus Finance de génération de factures électroniques italiennes ne peut plus être utilisé. Il est remplacé par un nouveau processus appelé **Envoyer des documents électroniques**.
+Après avoir activé la fonctionnalité **Intégration de la Facturation électronique configurable** et activé la fonctionnalité **IT00036**, l’ancien processus Finance de génération de factures électroniques italiennes ne peut plus être utilisé. Il est remplacé par un nouveau processus appelé **Envoyer des documents électroniques**.
 
 Vous pouvez envoyer les documents manuellement, en fonction de votre demande de documents de facture électronique.
 
 > [!NOTE]
-> Avant de continuer, vérifiez que la configuration nécessaire pour les factures électroniques italiennes a été effectuée. Pour plus d’informations, voir [Factures électroniques client](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Notez que certaines des étapes de configuration décrites dans cette rubrique peuvent ne pas être disponibles en raison de l’activation du module complémentaire de facturation électronique.
+> Avant de continuer, vérifiez que la configuration nécessaire pour les factures électroniques italiennes a été effectuée. Pour plus d’informations, voir [Factures électroniques client](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Notez que certaines des étapes de configuration décrites dans cette rubrique peuvent ne pas être disponibles en raison de l’activation de la Facturation électronique.
 
 1. Allez dans **Administration de l’organisation \> Périodique \> Documents électroniques \> Envoyer des documents électroniques**.
 2. Pour le premier envoi d’un document, définissez l’option **Envoyer de nouveau les documents** sur **Non**. Si vous devez envoyer à nouveau un document via le service, définissez cette option sur **Oui**.
@@ -220,7 +218,7 @@ Vous pouvez envoyer les documents manuellement, en fonction de votre demande de 
 2. Cliquez sur **OK** pour fermer la boîte de dialogue **Recherche**.
 3. Cliquez sur **OK** pour envoyer les documents sélectionnés.
 
-> ![REMARQUE] Lors de votre première tentative d’envoi d’un document via le service, vous serez invité à confirmer la connexion avec le module complémentaire de facturation électronique. Sélectionnez **Cliquez ici pour vous connecter au service d’envoi de document électronique**.
+> ![REMARQUE] Lors de votre première tentative d’envoi d’un document via le service, vous serez invité à confirmer la connexion avec la Facturation électronique. Sélectionnez **Cliquez ici pour vous connecter au service d’envoi de document électronique**.
 
 #### <a name="view-submission-logs"></a>Afficher les journaux d’envoi
 
@@ -242,9 +240,9 @@ Vous pouvez afficher les journaux d’envoi pour tous les documents envoyés.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Présentation du module complémentaire de facturation électronique](e-invoicing-service-overview.md)
-- [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md)
-- [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
+- [Vue d’ensemble de la Facturation électronique](e-invoicing-service-overview.md)
+- [Mise en route de la Facturation électronique](e-invoicing-get-started.md)
+- [Paramétrer la Facturation électronique](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

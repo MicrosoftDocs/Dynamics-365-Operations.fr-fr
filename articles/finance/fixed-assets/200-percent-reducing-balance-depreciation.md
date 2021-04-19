@@ -2,11 +2,9 @@
 title: Amortissements dégressifs de 200 %
 description: Cet article propose une vue d’ensemble de la méthode d’amortissement dégressif de 200 %.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b761a14f44be292e9dd21eb580473bd0981d9044
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0e5a548f7963fad2b249c36c90ac19b812131d56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230320"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827072"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Amortissements dégressifs de 200 %
 
@@ -76,12 +74,12 @@ Si vous sélectionnez **Fiscal** comme année d’amortissement, les options sui
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 40 %    |
 
-La méthode d'amortissement dégressif de 200 % divise 200 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
+La méthode d’amortissement dégressif de 200 % divise 200 % par le nombre d’années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable             | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) × 40 % = 4 000                | 11 000 - 4 000 = 7 000 | 11 000 - 1 000 - 4 000 = 6 000        |
-| Année 2 | 6 000 × 40 % = 2 400                           | 7 000 - 2 400 = 4 600  | 6 000 - 2 400 = 3 600                 |
+| Année 1 | (11 000 – 1 000) × 40 % = 4 000                | 11 000 – 4 000 = 7 000 | 11 000 – 1 000 – 4 000 = 6 000        |
+| Année 2 | 6 000 × 40 % = 2 400                           | 7 000 – 2 400 = 4 600  | 6 000 – 2 400 = 3 600                 |
 | Année 3 | 3 600 × 40 % = 1 440                           | 4 600 – 1 440 = 3 160  | 3 600 – 1 440 = 2 160                 |
 
 > [!NOTE] 

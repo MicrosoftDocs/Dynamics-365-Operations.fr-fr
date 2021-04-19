@@ -2,11 +2,9 @@
 title: Vue d’ensemble de la gestion des avantages
 description: Présentation de la fonction de gestion des avantages dans Dynamics 365 Human Resources. Offrez à vos employés des options d’avantages étendues avec une expérience en ligne facile à utiliser.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba6623102431eb45bf5d0c96b6583615663d1081
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 34b0916e0bf618590bcc56a9a3bc7c61576361cc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464324"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805776"
 ---
 # <a name="benefits-management-overview"></a>Vue d’ensemble de la gestion des avantages
 

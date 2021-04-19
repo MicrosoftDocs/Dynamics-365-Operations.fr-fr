@@ -2,7 +2,6 @@
 title: Expérience produit unifiée
 description: Cette rubrique décrit l’intégration des données de produit entre les applications Finance and Operations et Dataverse.
 author: t-benebo
-manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560457"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750738"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -64,42 +63,42 @@ Couleurs | msdyn\_productcolors
 Tailles | msdyn\_productsizes
 Styles | msdyn\_productsytles
 Configurations | msdyn\_productconfigurations
-Couleurs de produit générique | msdyn_sharedproductcolors | La table **Couleur de produit partagée** indique les couleurs qu'un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
-Tailles de produit générique | msdyn_sharedproductsizes | La table **Taille de produit partagée** indique les tailles qu'un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
-Styles de produit générique | msdyn_sharedproductstyles | La table **Style de produit partagé** indique les styles qu'un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
-Configurations de produit générique | msdyn_sharedproductconfigurations | La table **Configuration de produit partagée** indique les configurations qu'un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
+Couleurs de produit générique | msdyn_sharedproductcolors | La table **Couleur de produit partagée** indique les couleurs qu’un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
+Tailles de produit générique | msdyn_sharedproductsizes | La table **Taille de produit partagée** indique les tailles qu’un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
+Styles de produit générique | msdyn_sharedproductstyles | La table **Style de produit partagé** indique les styles qu’un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
+Configurations de produit générique | msdyn_sharedproductconfigurations | La table **Configuration de produit partagée** indique les configurations qu’un produit générique spécifique peut avoir. Ce concept effectue une migration vers Dataverse pour préserver la cohérence des données.
 Tous les produits | msdyn_globalproducts | La table Tous les produits contient tous les produits disponibles dans les applications Finance and Operations, à la fois les produits lancés et les produits non lancés.
 Unité | UM
 Conversion d’unités | msdyn_ unitofmeasureconversions
 Conversion de l’unité de mesure spécifique au produit | msdyn_productspecificunitofmeasureconversion
 Catégories de produits | msdyn_productcategories | Chacune des catégories de produit et des informations sur sa structure et ses caractéristiques sont contenues dans la table de catégorie de produit. 
-Hiérarchie de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez les hiérarchies de produits pour classer par catégorie ou regrouper les produits. Les hiérarchies de catégories sont disponibles dans Dataverse à l'aide de la table de hiérarchie des catégories de produits. 
+Hiérarchie de catégories de produit | msdyn_productcategoryhierarhies | Vous utilisez les hiérarchies de produits pour classer par catégorie ou regrouper les produits. Les hiérarchies de catégories sont disponibles dans Dataverse à l’aide de la table de hiérarchie des catégories de produits. 
 Rôles de hiérarchie de catégories de produit | msdyn_productcategoryhierarchies | Les hiérarchies de produits peuvent être utilisées pour plusieurs rôles dans D365 Finance and Operations. Pour indiquer quelle catégorie est utilisée dans chaque rôle, la table de rôle de catégorie du produit est utilisée. 
 Affectations de catégorie de produit | msdyn_productcategoryassignments | Pour affecter un produit à une catégorie, la table d’affectations de catégorie de produit peut être utilisée.
 
 ## <a name="integration-of-products"></a>Intégration des produits
 
-Dans ce modèle, le produit est représenté par la combinaison des deux tables dans Dataverse : **Produit** et **msdyn\_sharedproductdetails**. Tandis que la première table contient la définition d'un produit (l'identificateur unique du produit, le nom du produit et la description), la deuxième table contient les colonnes stockées au niveau du produit. La combinaison de ces deux tables est utilisée pour définir le produit selon le concept de l'unité de gestion de stock (SKU). Chaque produit lancé a ses informations dans les tables mentionnées (Produit et Détails du produit partagés). Pour mettre à jour tous les produits (lancés et non lancés), la table **Produits globaux** est utilisée. 
+Dans ce modèle, le produit est représenté par la combinaison des deux tables dans Dataverse : **Produit** et **msdyn\_sharedproductdetails**. Tandis que la première table contient la définition d’un produit (l’identificateur unique du produit, le nom du produit et la description), la deuxième table contient les colonnes stockées au niveau du produit. La combinaison de ces deux tables est utilisée pour définir le produit selon le concept de l’unité de gestion de stock (SKU). Chaque produit lancé a ses informations dans les tables mentionnées (Produit et Détails du produit partagés). Pour mettre à jour tous les produits (lancés et non lancés), la table **Produits globaux** est utilisée. 
 
 Comme le produit est représenté par un SKU, les concepts des produits distincts, les produits génériques, et des variantes de produit peuvent être capturés dans Dataverse de la façon suivante :
 
-- **Produits avec le produit de sous-type** sont des produits définis par eux-mêmes. Aucune dimension ne doit être définie. Un exemple est un registre spécifique. Pour ces produits, une ligne est créée dans la table **Produit**, et une ligne est créée dans la table **msdyn\_sharedproductdetails**. Aucune ligne de famille de produits n'est créée.
-- Les **Produits génériques** sont utilisés pour mettre à jour la définition et les règles qui déterminent le comportement dans les processus métier. En fonction de ces définitions, les produits distincts qui sont connus comme variantes de produit peuvent être générés. Par exemple, le t-shirt est le produit générique, et il sa couleur et sa taille sont ses dimensions. Les variantes peuvent être lancées avec différentes combinaisons de ces dimensions, comme un t-shirt bleu taille S ou un t-shirt vert taille M. Lors de l'intégration, une ligne par variante est créée dans la table du produit. Cette ligne contient les informations propres à la variante, comme les différentes dimensions. Les informations génériques pour le produit sont enregistrées dans la table **msdyn\_sharedproductdetails**. (Ces informations génériques sont répertoriées dans le produit générique.) Les informations de produit générique sont synchronisées vers Dataverse dès que le produit générique lancé est créé (mais avant le lancement des variantes).
+- **Produits avec le produit de sous-type** sont des produits définis par eux-mêmes. Aucune dimension ne doit être définie. Un exemple est un registre spécifique. Pour ces produits, une ligne est créée dans la table **Produit**, et une ligne est créée dans la table **msdyn\_sharedproductdetails**. Aucune ligne de famille de produits n’est créée.
+- Les **Produits génériques** sont utilisés pour mettre à jour la définition et les règles qui déterminent le comportement dans les processus métier. En fonction de ces définitions, les produits distincts qui sont connus comme variantes de produit peuvent être générés. Par exemple, le t-shirt est le produit générique, et il sa couleur et sa taille sont ses dimensions. Les variantes peuvent être lancées avec différentes combinaisons de ces dimensions, comme un t-shirt bleu taille S ou un t-shirt vert taille M. Lors de l’intégration, une ligne par variante est créée dans la table du produit. Cette ligne contient les informations propres à la variante, comme les différentes dimensions. Les informations génériques pour le produit sont enregistrées dans la table **msdyn\_sharedproductdetails**. (Ces informations génériques sont répertoriées dans le produit générique.) Les informations de produit générique sont synchronisées vers Dataverse dès que le produit générique lancé est créé (mais avant le lancement des variantes).
 - Les **Produits distincts** font référence à tous les sous-types et à toutes les variantes de produit. 
 
 ![Modèle de données pour les produits](media/dual-write-product.png)
 
-Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d’autres produits Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de la table juridique dans laquelle le produit est lancé dans une application Finance and Operations. S'il n'y a pas de liste de prix pour la devise donnée, une liste de prix sera automatiquement créée et le produit lui sera attribué. 
+Si la fonctionnalité de double écriture est activée, les produits de Finance and Operations seront synchronisés dans d’autres produits Dynamics 365 en mode **Brouillon**. Elles sont ajoutées à la première liste de prix avec la même devise. Autrement dit, elles sont ajoutées à la première liste de prix dans une application Dynamics 365 qui correspond à la devise de la table juridique dans laquelle le produit est lancé dans une application Finance and Operations. S’il n’y a pas de liste de prix pour la devise donnée, une liste de prix sera automatiquement créée et le produit lui sera attribué. 
 
 L’implémentation actuelle des plugins à double écriture qui associent la liste de prix par défaut à l’unité recherche la devise associée à l’application Finance and Operations et identifie la première liste de prix dans l’application Customer Engagement en utilisant le tri alphabétique sur le nom de la liste de prix. Pour définir une liste de prix par défaut pour une devise spécifique lorsque vous avez plusieurs listes de prix pour cette devise, vous devez mettre à jour le nom de la liste de prix avec un nom commençant par une lettre antérieure dans l’ordre alphabétique par rapport aux autres listes de prix pour cette même devise.
 
 Par défaut, les produits en provenance des applications Finance and Operations sont synchronisés avec les autres applications Dynamics 365 en mode **Brouillon**. Pour synchroniser le produit à l’état **Actif**, afin de pouvoir l’utiliser directement dans les devis de commande client, par exemple, le paramètre suivant doit être choisi : sous **Système > Adminstration > Administration système > Paramètres système > Ventes** sélectionnez **Créer des produits à l’état actif = Oui**. 
 
-Lorsque les produits sont synchronisés, vous devez entrer une valeur pour le champ **Unité de vente** de l'application Finance and Operations, car il s'agit d'un champ obligatoire dans Sales.
+Lorsque les produits sont synchronisés, vous devez entrer une valeur pour le champ **Unité de vente** de l’application Finance and Operations, car il s’agit d’un champ obligatoire dans Sales.
 
 La création de familles de produits à partir de Dynamics 365 Sales n’est pas prise en charge avec la synchronisation en double écriture des produits.
 
-La synchronisation des produits se produit de l'application Finance and Operations vers Dataverse. Cela signifie que les valeurs des colonnes de table du produit peuvent être modifiées dans Dataverse, mais lorsque la synchronisation est déclenchée (lorsqu'une colonne de produit est modifié dans une application Finance and Operations), les valeurs seront remplacées dans Dataverse. 
+La synchronisation des produits se produit de l’application Finance and Operations vers Dataverse. Cela signifie que les valeurs des colonnes de table du produit peuvent être modifiées dans Dataverse, mais lorsque la synchronisation est déclenchée (lorsqu’une colonne de produit est modifié dans une application Finance and Operations), les valeurs seront remplacées dans Dataverse. 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
@@ -171,7 +170,7 @@ Premièrement, il est important de noter que la clé d’intégration de l’uni
 
 Pour que les unités se mettent en correspondance/se chevauchent dans les applications Finance and Operations et les autres applications Dynamics 365 :
 
-+ **L’unité appartient à un groupe d’unités dans les autres applications Dynamics 365 qui correspond à la classe d’unités associée dans les applications Finance and Operations**. Dans ce cas, la colonne msdyn_symbol dans les autres applications Dynamics 365 doit être renseigné avec le symbole d'unité des applications Finance and Operations. Par conséquent, lorsque les données seront mises en correspondance, et lorsque le groupe d’unités sera défini comme « Géré en externe » dans d’autres applications Dynamics 365.
++ **L’unité appartient à un groupe d’unités dans les autres applications Dynamics 365 qui correspond à la classe d’unités associée dans les applications Finance and Operations**. Dans ce cas, la colonne msdyn_symbol dans les autres applications Dynamics 365 doit être renseigné avec le symbole d’unité des applications Finance and Operations. Par conséquent, lorsque les données seront mises en correspondance, et lorsque le groupe d’unités sera défini comme « Géré en externe » dans d’autres applications Dynamics 365.
 + **L’unité appartient à un groupe d’unités dans les autres applications Dynamics 365 qui ne correspond pas à la classe d’unités associée dans les applications Finance and Operations (aucune classe d’unités existante dans les applications Finance and Operations pour la classe d’unités dans les autres applications Dynamics 365).** Dans ce cas, le msdyn_symbol doit être renseigné avec une chaîne aléatoire. Notez que cette valeur doit être unique dans d’autres applications Dynamics 365.
 
 Pour les unités et les classes d’unités dans Finance and Operations n’existant pas dans les autres applications Dynamics 365 :
@@ -207,7 +206,7 @@ Les stratégies de produit désignent des ensembles de stratégies utilisées po
 
 Pour identifier de manière unique les produits entre Dynamics 365 for Finance and Operations et les produits dans Dataverse, les clés d’intégration sont utilisées. Pour les produits, le **(numérodeproduit)** est la clé unique qui identifie un produit dans Dataverse. Il est composé par la concaténation de : **(société, msdyn_productnumber)**. Le champ **Société** indique l’entité juridique dans Finance and Operations et le champ **msdyn_productnumber** indique le numéro de produit pour le produit donné dans Finance and Operations. 
 
-Pour les utilisateurs d'autres applications Dynamics 365, le produit est reconnu dans l'interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé de la colonne est **Numéro de produit**). Dans l’écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, la colonne (numérodeproduit), la clé unique pour un produit, n'apparaît pas. 
+Pour les utilisateurs d’autres applications Dynamics 365, le produit est reconnu dans l’interface utilisateur avec le champ **msdyn_productnumber** (notez que le libellé de la colonne est **Numéro de produit**). Dans l’écran de produit les champs de société et de msydn_productnumber sont affichés. Toutefois, la colonne (numérodeproduit), la clé unique pour un produit, n’apparaît pas. 
 
 Si vous créez des applications sur Dataverse, vous devez veiller à utiliser le **numéro de produit** (l’ID de produit unique) comme clé d’intégration. N’utilisez pas **msdyn_productnumber**, car il n’est pas unique. 
 
@@ -219,8 +218,8 @@ Lorsque la double écriture est activée, les produits des applications Finance 
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Mise en correspondance des données de produit à partir de Finance and Operations et des autres applications Dynamics 365
 
-Si les mêmes produits sont conservés (chevauchement/correspondance) dans Finance and Operations et dans Dataverse et les autres applications Dynamics 365, lors de l'application de la double écriture, la synchronisation des produits de Finance and Operations a lieu et des doublons de ligne apparaissent dans Dataverse pour le même produit.
-Pour éviter la situation précédente, si d'autres applications Dynamics 365 contiennent des produits qui se chevauchent/sont mis en correspondance avec Finance and Operations, l'administrateur activant la double écriture doit amorcer les colonnes **Société** (par ex. : « USMF ») et **msdyn_productnumber** (par ex. : « 1234:Black:S ») avant la synchronisation des produits. Autrement dit, ces deux colonnes au niveau du produit dans Dataverse doivent être renseignées avec la société concernée dans Finance and Operations avec laquelle le produit doit être mis en correspondance et avec son numéro de produit. 
+Si les mêmes produits sont conservés (chevauchement/correspondance) dans Finance and Operations et dans Dataverse et les autres applications Dynamics 365, lors de l’application de la double écriture, la synchronisation des produits de Finance and Operations a lieu et des doublons de ligne apparaissent dans Dataverse pour le même produit.
+Pour éviter la situation précédente, si d’autres applications Dynamics 365 contiennent des produits qui se chevauchent/sont mis en correspondance avec Finance and Operations, l’administrateur activant la double écriture doit amorcer les colonnes **Société** (par ex. : « USMF ») et **msdyn_productnumber** (par ex. : « 1234:Black:S ») avant la synchronisation des produits. Autrement dit, ces deux colonnes au niveau du produit dans Dataverse doivent être renseignées avec la société concernée dans Finance and Operations avec laquelle le produit doit être mis en correspondance et avec son numéro de produit. 
 
 Puis, lorsque la synchronisation est activée et survient, les produits en provenance de Finance and Operations sont synchronisés avec les produits associés dans Dataverse et les autres applications Dynamics 365. Ce champ s’applique aux produits distincts et des variantes de produit. 
 

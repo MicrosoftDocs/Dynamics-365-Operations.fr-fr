@@ -2,11 +2,9 @@
 title: Amortissement dérogatoire pour la France
 description: Cet article fournit des informations sur l’amortissement dérogatoire et la manière de le paramétrer. Dans l’amortissement dérogatoire, un montant d’amortissement supplémentaire est calculé comme étant la différence entre le montant d’amortissement du modèle de valeur de taxe et le montant d’amortissement du modèle de valeur comptable pendant la durée de vie d’une immobilisation.
 author: Anasyash
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting, AssetBook, AssetBookTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a30f6583b472e49277dff19f72e7f6dadc93a42
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e53752257e4a6f632ccf4950786d302c4b123437
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237493"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826082"
 ---
 # <a name="derogatory-depreciation-for-france"></a>Amortissement dérogatoire pour la France
 

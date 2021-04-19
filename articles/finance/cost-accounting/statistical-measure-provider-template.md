@@ -2,11 +2,9 @@
 title: Modèles de fournisseur pour les membres de la dimension statistique et les fournisseur de mesures statistiques
 description: Cette rubrique fournit des informations sur les membres de la dimension statistique et les modèles de fournisseur de modèles statistiques. Les membres de la dimension statistique peuvent être utilisés comme base de répartition dans les stratégies telles que la distribution et la répartition des coûts. Ils peuvent également être utilisés pour déclarer la consommation des coûts non monétaires.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208821"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833064"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modèles de fournisseur pour les membres de la dimension statistique et les fournisseur de mesures statistiques
 
@@ -136,7 +134,7 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 
 | Nom        | Connecteur de données                                                                     | Membre de la dimension statistique |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| ETP D365FO | Dynamics 365 Finance - Mesures statistiques | ETP                         |
+| ETP D365FO | Dynamics 365 Finance – Mesures statistiques | ETP                         |
 
 **Configuration du fournisseur de données**
 
@@ -160,9 +158,9 @@ Une fois que la source de données pour la mesure statistique est traitée, les 
 | 31-01-2017      | 2.00      | ETP                | Employés à temps plein | CC002       |
 | 31-01-2017      | 2.00      | ETP                | Employés à temps plein | CC003       |
 
-**Entrées statistiques**
+**Écritures statistiques**
 
-| Objet de coût |    | Date comptable | Membre de la dimension statistique |  Description        | Ampleur |
+| Objet de coût |  Description  | Date comptable | Membre de la dimension statistique |  Description        | Ampleur |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | RH | 31-01-2017      | ETP                         | Employés à temps plein | 1,00      |
 | CC002       | FI | 31-01-2017      | ETP                         | Employés à temps plein | 2.00      |
@@ -224,7 +222,7 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 
 | Nom           | Connecteur de données                                                                     | Membre de la dimension statistique |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| CC emballage D365FO | Dynamics 365 Finance - Mesures statistiques | CC emballage                      |
+| CC emballage D365FO | Dynamics 365 Finance – Mesures statistiques | CC emballage                      |
 
 Le système identifie que ProdRouteTrans est une table où chaque enregistrement appartient à une entité juridique distincte. Par conséquent, vous devez sélectionner l’entité juridique à partir de laquelle les transactions doivent être importées.
 
@@ -326,9 +324,9 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 | 31-01-2017      | 4,100.00   | Électricité  | Consommation électrique | CC002       |
 | 31-01-2017      | 15 000,00  | Électricité  | Consommation électrique | CC003       |
 
-**Entrées statistiques**
+**Écritures statistiques**
 
-| Objet de coût |    | Date comptable | Membre de la dimension statistique |      Description                   | Ampleur  |
+| Objet de coût | Description | Date comptable | Membre de la dimension statistique |      Description                   | Ampleur  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | RH | 31-01-2017      | Électricité                  | Consommation électrique | 2,450.00   |
 | CC002       | FI | 31-01-2017      | Électricité                  | Consommation électrique | 4,100.00   |
@@ -336,11 +334,11 @@ Accédez à **Comptabilité de contrôle de gestion** \> **Version réelle** \> 
 
 Si la base de répartition des membres de la dimension prédéfinie Électricité est affectée comme base de répartition dans une règle de distribution des coûts, le coût est distribué à l’aide du facteur de répartition suivant.
 
-| Objet de coût |    | Ampleur | Facteur de répartition          |
-|-------------|----|-----------|----------------------------|
-| CC001       | RH | 2,450.00  | (2,450 ÷ 21,550) × Montant  |
-| CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × Montant  |
-| CC003       | TS | 15 000,00 | (15,000 ÷ 21,550) × Montant |
+| Objet de coût | Description   | Ampleur | Facteur de répartition          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | RH            | 2,450.00  | (2,450 ÷ 21,550) × Montant  |
+| CC002       | FI            | 4,100.00  | (4,100 ÷ 21,550) × Montant  |
+| CC003       | TS            | 15 000,00 | (15,000 ÷ 21,550) × Montant |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

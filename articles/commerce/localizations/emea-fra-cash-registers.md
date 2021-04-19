@@ -2,11 +2,9 @@
 title: Fonctionnalité de caisse enregistreuse pour la France
 description: Cette rubrique fournit une vue d’ensemble de la fonctionnalité de caisse enregistreuse disponible pour la France. Elle fournit également des instructions pour paramétrer la fonctionnalité.
 author: EvgenyPopovMBS
-manager: vastrup
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: c112a16fd1d0e3d9f92c0f9a044e1909ab97c7b2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bb92dd807dcd4d58994ffe14b2e3988cbafea46f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225699"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798811"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -327,9 +325,9 @@ Puis, sur la page **Paramètres du coffre de clés**, vous devez spécifier les 
 
 Enfin, dans la page **Paramètres Commerce**, vous devez spécifier les paramètres des signatures numériques :
 
-- **Certificat** - Sélectionnez le certificat que vous avez configuré à l’étape précédente.
-- **Fonction de hachage** - Spécifiez l’un des algorithmes de hachage cryptographique pris en charge par Microsoft .NET, tel que **SHA1**.
-- **Encodage** - Spécifiez l’encodage des données signées, tel que **UTF-8**.
+- **Certificat** – Sélectionnez le certificat que vous avez configuré à l’étape précédente.
+- **Fonction de hachage** – Spécifiez l’un des algorithmes de hachage cryptographique pris en charge par Microsoft .NET, tel que **SHA1**.
+- **Encodage** – Spécifiez l’encodage des données signées, tel que **UTF-8**.
 
 ### <a name="configure-the-archive-export-format"></a>Configurez le format d’exportation d’archive
 

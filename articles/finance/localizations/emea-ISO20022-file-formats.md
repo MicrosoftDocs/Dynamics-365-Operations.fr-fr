@@ -2,11 +2,9 @@
 title: Importer des fichiers ISO20022
 description: Cette rubrique explique comment importer des fichiers de paiement au format camt.054 et pain.002 de la norme ISO 20022 dans Microsoft Dynamics 365 Finance.
 author: neserovleo
-manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 48738f6af67bf40cac084d65aa4ff01935259c85
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209924"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839958"
 ---
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
@@ -87,7 +85,7 @@ Vous devez effectuer les tâches préalables suivantes avant d’importer les me
 
 ## <a name="import-the-pain002-status-return-or-camt054-debit-advice-files-into-the-vendor-payment-journal"></a>Importez les fichiers de retour de statut pain.002 ou d’avis de débit camt.054 dans le journal des paiements fournisseur
 1. Ouvrez la page **Transferts de paiement** dans le menu Comptabilité fournisseur.
-2. Dans la page **Transferts de paiement**, cliquez sur **Fichier retourné - fournisseur**.
+2. Dans la page **Transferts de paiement**, cliquez sur **Fichier retourné – fournisseur**.
 3. Sélectionnez le mode de paiement incluant les paramètres requis pour les fichiers ISO20022, puis cliquez sur **OK**.
 4. Sélectionnez le format de fichier que vous envisagez d’importer, puis cliquez sur **OK**.
 5. Indiquez les paramètres requis et le chemin d’accès du fichier, puis cliquez sur **OK**.

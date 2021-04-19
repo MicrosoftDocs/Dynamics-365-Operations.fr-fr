@@ -2,11 +2,9 @@
 title: Créer un compte de stockage Azure et un coffre de clés
 description: Cette rubrique explique comment créer un compte de stockage Azure et un coffre de clés.
 author: gionoder
-manager: AnnBe
 ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
-ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
+ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2021
-ms.locfileid: "5479343"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840218"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Créer un compte de stockage Azure et un coffre de clés
 
@@ -44,7 +42,7 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Configurer le compte de stockage Azure pour obtenir l’URI du compte de stockage
 
-1. Ouvrez le compte de stockage que vous prévoyez d’utiliser avec le module complémentaire de facturation électronique.
+1. Ouvrez le compte de stockage que vous prévoyez d’utiliser avec la Facturation électronique.
 2. Allez dans **Service Blob** \> **Conteneurs** et créez un nouveau conteneur.
 3. Entrez un nom pour le conteneur et définissez le champ **Niveau d’accès public** sur **Privé (pas d’accès anonyme)**.
 4. Ouvrez le conteneur et accédez à **Paramètres \> Stratégie d’accès**.
@@ -63,12 +61,12 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configurer le coffre de clés pour stocker l’URI du compte de stockage
 
-1. Ouvrez le coffre de clés que vous souhaitez utiliser avec le module complémentaire de facturation électronique.
+1. Ouvrez le coffre de clés que vous souhaitez utiliser avec la Facturation électronique.
 2. Allez dans **Paramètres** \> **Secrets**, puis sélectionnez **Générer/Importer** pour créer un nouveau secret.
 3. Sur la page **Créer un secret**, dans le champ **Options de téléchargement**, sélectionnez **Manuel**.
 4. Entrez le nom du secret. Ce nom sera utilisé lors de la configuration du service dans Regulatory Configuration Service (RCS) et sera appelé *nom du secret du coffre de clés*.
 5. Dans le champ **Valeur**, sélectionnez **URI de la signature d’accès partagé**, puis sélectionnez **Créer**.
-6. Configurez la stratégie d’accès pour accorder au module complémentaire de facturation électronique le niveau correct d’accès sécurisé au secret que vous avez créé. Allez dans **Paramètres \> Stratégie d’accès** et sélectionnez **Ajouter une stratégie d’accès**.
+6. Configurez la stratégie d’accès pour accorder à la Facturation électronique le niveau correct d’accès sécurisé au secret que vous avez créé. Allez dans **Paramètres \> Stratégie d’accès** et sélectionnez **Ajouter une stratégie d’accès**.
 7. Définissez les autorisations du secret pour les opérations **Obtenir** et **Lister**.
 
     ![Autorisation de l’accès au service](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)

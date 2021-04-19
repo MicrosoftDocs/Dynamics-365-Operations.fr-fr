@@ -2,7 +2,6 @@
 title: Générer des documents électroniques et mettre à jour des données de l’application à l’aide de la gestion des états électroniques (ER)
 description: Vous pouvez concevoir des formats d’états électroniques (ER) qui peuvent être utilisés dans l’application pour générer des documents électroniques sortants.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf595548ac1e67b99018495d2f0278dc305254d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 863c69446e9a7d447847483ec129788e85a8fd58
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568651"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750032"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Générer des documents électroniques et mettre à jour les données d’application à l’aide des états électroniques
 
@@ -34,7 +33,7 @@ Avec cette fonctionnalité, un format ER simple peut être utilisé pour génér
 - Pour empêcher toute utilisation répétée des données d’application dans les processus suivants, vous pouvez marquer les données d’une application immédiatement après la génération des documents électroniques. Par exemple, vous pouvez marquer les transactions de paiement comme effectué immédiatement après leur ajout à un message de paiement généré.
 - Pour enregistrer les détails de traitement des documents électroniques générés à l’aide de la logique ER. Par exemple, une identification de message de paiement qui est générée avec l’expression ER. L’expression est basée sur les informations entrées dans la boîte de dialogue ER lorsque le format ER est exécuté pour générer des documents.
 
-Pour en savoir plus sur cette fonction, consultez l’ensemble ER Générer des documents avec la mise à jour des données d’application - Guides de tâches (qui fait partie du processus d’entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)) qui vous guidera dans les détails de la génération et l’archivage d’états de déclaration d’échanges de biens. Les fichiers suivants sont nécessaires pour exécuter certaines étapes de ces guides de tâche. Téléchargez et enregistrez ces fichiers sur votre ordinateur local.
+Pour en savoir plus sur cette fonction, consultez l’ensemble ER Générer des documents avec la mise à jour des données d’application – Guides de tâches (qui fait partie du processus d’entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)) qui vous guidera dans les détails de la génération et l’archivage d’états de déclaration d’échanges de biens. Les fichiers suivants sont nécessaires pour exécuter certaines étapes de ces guides de tâche. Téléchargez et enregistrez ces fichiers sur votre ordinateur local.
 
 - [Configuration du modèle de données ER : Déclaration d’échanges de biens (modèle)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuration du mappage de modèle ER : Déclaration d’échanges de biens (mappage)](https://go.microsoft.com/fwlink/?linkid=849038)

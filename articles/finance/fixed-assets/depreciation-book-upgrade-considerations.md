@@ -2,11 +2,9 @@
 title: Vue d’ensemble de la mise à niveau du registre des amortissements
 description: 'Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 016787fa0636b0a3c0d17d2e4fd890cf56d8f519
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d42936a94e0f4d50ae227d760d5bee6e1e3a12e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241232"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826976"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Vue d’ensemble de la mise à niveau des registres des amortissements
 
@@ -33,7 +31,7 @@ La procédure de mise à niveau déplacera votre paramétrage actuel et toutes l
 
 Avant d’exécuter la mise à niveau des données, vous devez comprendre les deux options disponibles pour mettre à niveau des lignes du journal du registre des amortissements vers les N° de documents de transaction, et la souche de numéros qui sera utilisée pour la souche de N° de justificatif. 
 
-Option 1 :  **Souche de numéros définie par le système** - Il s’agit de l’option par défaut pour optimiser les performances de mise à niveau. La mise à niveau n’utilise pas la structure de souches de numéros, mais à la place répartit les N° de documents avec une approche basée sur les jeux. Après la mise à niveau, la nouvelle souche de numéros est créée avec le **Jeu de numéros suivant** basé comme il se doit sur les transactions mises à niveau. Par défaut, la souche de numéros utilisée est au format FADBUpgr\#\#\#\#\#\#\#\#\#. Il existe quelques paramètres disponibles pour ajuster le format en utilisant cette approche :
+Option 1 :  **Souche de numéros définie par le système** – Il s’agit de l’option par défaut pour optimiser les performances de mise à niveau. La mise à niveau n’utilise pas la structure de souches de numéros, mais à la place répartit les N° de documents avec une approche basée sur les jeux. Après la mise à niveau, la nouvelle souche de numéros est créée avec le **Jeu de numéros suivant** basé comme il se doit sur les transactions mises à niveau. Par défaut, la souche de numéros utilisée est au format FADBUpgr\#\#\#\#\#\#\#\#\#. Il existe quelques paramètres disponibles pour ajuster le format en utilisant cette approche :
 
 -   **Code de souche de numéros** – Code pour identifier la souche de numéros. Ce code de souche de numéros ne peut pas exister, car il sera créé par la mise à niveau.
     -   Nom constant : **NumberSequenceDefaultCode**
@@ -44,11 +42,11 @@ Option 1 :  **Souche de numéros définie par le système** - Il s’agit de l�
 -   **Longueur alphanumérique** – Longueur du segment alphanumérique de la souche de numéros.
     -   Nom constant : **NumberSequenceDefaultParameterAlpanumericLength**
     -   Valeur par défaut : 9
--   **Numéro de début** - Premier numéro à être utilisé dans la souche de numéros.
+-   **Numéro de début** – Premier numéro à être utilisé dans la souche de numéros.
     -   Nom constant : **NumberSequenceDefaultParameterStartNumber**
     -   Valeur par défaut : 1
 
-Option 2 : **Souche de numéros définie par l’utilisateur existante** - Cette option vous permet de définir la souche de numéros à utiliser pour la mise à niveau. Envisagez d’utiliser cette option si vous avez besoin de la configuration de souche de numéros avancée. Pour utiliser une souche de numéros, vous devez modifier la classe de mise à niveau ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans avec les informations suivantes :
+Option 2 : **Souche de numéros définie par l’utilisateur existante** – Cette option vous permet de définir la souche de numéros à utiliser pour la mise à niveau. Envisagez d’utiliser cette option si vous avez besoin de la configuration de souche de numéros avancée. Pour utiliser une souche de numéros, vous devez modifier la classe de mise à niveau ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans avec les informations suivantes :
 
 -   **Code de souche de numéros** – Code de la souche de numéros.
     -   Nom constant : **NumberSequenceExistingCode**

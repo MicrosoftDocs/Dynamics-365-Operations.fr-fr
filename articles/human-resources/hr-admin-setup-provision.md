@@ -2,11 +2,9 @@
 title: Mettre en service Human Resources
 description: Cet article décrit le processus de mise à disposition d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 43aacf454d6a2c9eb8cda5bb54a2bf8e8965070d
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466878"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805007"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -113,11 +111,11 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 
 5. Vous ne pouvez pas utiliser les environnements Power Apps suivants pour Human Resources. Ils sont filtrés à partir de la liste de sélection dans LCS :
  
-    - **Environnements Power Apps par défaut** - Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production lors des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
+    - **Environnements Power Apps par défaut** – Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production lors des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
    
-    - **Environnements d’essai** - Ces environnements sont créés avec une date d’expiration. À l’expiration, votre environnement et toutes les instances de Human Resources qu’il contient seront supprimés automatiquement.
+    - **Environnements d’essai** – Ces environnements sont créés avec une date d’expiration. À l’expiration, votre environnement et toutes les instances de Human Resources qu’il contient seront supprimés automatiquement.
    
-    - **Zones non prises en charge** - Actuellement, Human Resources n’est pris en charge que dans les zones suivantes : États-Unis, Europe, Royaume-Uni, Australie, Canada et Asie.
+    - **Zones non prises en charge** – Actuellement, Human Resources n’est pris en charge que dans les zones suivantes : États-Unis, Europe, Royaume-Uni, Australie, Canada et Asie.
 
     > [!NOTE]
     > L’environnement Human Resources est fourni dans la même région où l’environnement Power Apps est proposé. La migration d’un environnement Human Resources vers une autre région n’est pas prise en charge.

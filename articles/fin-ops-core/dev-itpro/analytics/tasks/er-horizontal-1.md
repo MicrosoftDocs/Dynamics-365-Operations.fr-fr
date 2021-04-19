@@ -1,8 +1,7 @@
 ---
-title: ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 - Créer un format)
+title: ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 – Créer un format)
 description: Cette rubrique décrit comment configurer un format pour la gestion des états électroniques pour générer des rapports sous forme de fichiers de feuilles de calcul OPENXML (Excel). (Partie 1)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5119255b119a99f3809d2d75bbfdc7b3bad9932
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e9eef9ffaadbd7010129cc9850ded1ba67bc281d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569555"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745009"
 ---
-# <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 - Créer un format)
+# <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 – Créer un format)
 
 [!include [banner](../../includes/banner.md)]
 
@@ -29,7 +28,7 @@ Les étapes suivantes expliquent comment un utilisateur affecté au rôle d’ad
 
 Pour réaliser ces étapes, vous devez d’abord effectuer les étapes des trois guides de tâche suivants : 
 
-« Génération d’états électroniques - Créer un fournisseur de configuration et le marquer comme actif »
+« Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif »
 
 « ER Utiliser les dimensions financières comme source de données (Partie 1 : Créer un modèle de données) »
 

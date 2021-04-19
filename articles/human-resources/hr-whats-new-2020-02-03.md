@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (03 février 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 3 février 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6901550097a3fa08e08409be46860409c7efb98
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 87e58cc551455734912d8195290ae7953617c9aa
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463860"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790498"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (3 février 2020)
 
@@ -41,9 +39,9 @@ Vous pouvez maintenant supprimer les activités sélectionnées à l’aide du b
 
 Les fonctionnalités d’aperçu suivantes sont disponibles le 3 février 2020 :
 
-- **Fonctionnalités d’aperçu de congé et d’absence** - Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
+- **Fonctionnalités d’aperçu de congé et d’absence** – Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonctionnalités en version préliminaire de gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonctionnalités en version préliminaire de gestion des avantages** – Pour plus d’informations, y compris les problèmes connus, voir [Vue d’ensemble de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="coming-soon"></a>Prochainement
 

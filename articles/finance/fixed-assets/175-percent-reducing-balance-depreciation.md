@@ -2,11 +2,9 @@
 title: Amortissement dégressif de 175 %
 description: Cette rubrique donne une vue d’ensemble de la méthode d’amortissement dégressif de 175 %.
 author: saraschi2
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0747c34a4b28340227209adadf367f672deb1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230344"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827144"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 175 %
 
@@ -66,15 +64,15 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Exemple d’amortissement dégressif de 175 %
 
-|                                |        |
+| Champ                          | Valeur  |
 |--------------------------------|--------|
-| Prix d’acquisition               | 11 000 |
-| Valeur résiduelle                  | 1 000  |
+| Prix d’acquisition               | 11,000 |
+| Valeur résiduelle                  | 1 000  |
 | Base d’amortissement              | 10 000 |
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 35 %.    |
 
-La méthode d'amortissement régressif de 175 % divise 175 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
+La méthode d’amortissement régressif de 175 % divise 175 % par le nombre d’années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable                  | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|

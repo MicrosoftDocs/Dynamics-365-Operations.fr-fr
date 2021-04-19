@@ -2,11 +2,9 @@
 title: Traitement de fin d’exercice dans le secteur public
 description: Cet article fournit des informations sur le processus de fin d’exercice pour des organisations du secteur public.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchYearEndClose
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88dcb76c825ff9f0487d8cebbd01458d42271606
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 55394bcd302de9a7463f1e6c4dc966a0a11641d9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245530"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820457"
 ---
 # <a name="year-end-processing-in-the-public-sector"></a>Traitement de fin d’exercice dans le secteur public
 
@@ -52,7 +50,7 @@ Vous devez sélectionner un type de clôture pour chaque compte dans votre plan 
 
 -   **Réel** – Le solde est utilisé pour établir des soldes d’ouverture dans la nouvelle année.
 -   **Nominal** – Le compte est clôturé par le processus de fin d’exercice.
--   **Nominal - pas de clôture** – Le compte est géré par d’autres processus de clôture, comme les comptes d’engagement pour la clôture de commande fournisseur.
+-   **Nominal – pas de clôture** – Le compte est géré par d’autres processus de clôture, comme les comptes d’engagement pour la clôture de commande fournisseur.
 -   **Non applicable** – Le compte n’est pas inclus dans le traitement de fin d’exercice.
 
 Les définitions de validation régissent la comptabilité qui concerne les entrées de clôture, et elles permettent également de créer des transactions d’ouverture pour la nouvelle année. Pour plus d’informations, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).

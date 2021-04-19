@@ -2,11 +2,9 @@
 title: Personne
 description: Cette rubrique décrit l’entité Personne pour Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a13222317ba59868686be5ce24c970d6a068f8bc
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 448be7ada2825d3cdd846650821579d1d6797d00
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464176"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800355"
 ---
 # <a name="person"></a>Personne
 
@@ -153,7 +151,7 @@ Cette entité fournit les informations personnelles de l’individu qui est le c
 | **Suffixe professionnel**<br>mshr_professionalsuffix<br>*Chaîne* | Lecture/écriture<br>Facultatif | Suffixe professionnel. |
 | **Fonction professionnelle**<br>mshr_professionaltitle<br>*Chaîne* | Lecture/écriture<br>Facultatif | Fonction professionnelle. |
 | **Adresse principale complète**<br>mshr_fullprimaryaddress<br>*Chaîne* | Lecture/écriture<br>Facultatif | L’adresse principale complète de la personne, une concaténation des champs d’adresse principale. |
-| **Adresse - Ville**<br>mshr_addresscity<br>*Chaîne* | Lecture/écriture<br>Facultatif | La ville de l’adresse principale de la personne. Configuré dans l’entité mshr_logisticsaddresscityentity. |
+| **Adresse – Ville**<br>mshr_addresscity<br>*Chaîne* | Lecture/écriture<br>Facultatif | La ville de l’adresse principale de la personne. Configuré dans l’entité mshr_logisticsaddresscityentity. |
 | **Adresse Pays Région**<br>mshr_addresscountryregionid<br>*Chaîne* | Lecture/écriture<br>Facultatif | Pays/région de l’adresse principale de la personne. Valeurs valides dans l’entité mshr_logisticsaddresscountryregionentity. |
 | **Code ISO Adresse Pays Région**<br>mshr_addresscountryregionisocode<br>*Chaîne* | Lecture/écriture<br>Facultatif | Code ISO de l’adresse principale de la personne. |
 | **Adresse Département**<br>mshr_addresscounty<br>*Chaîne* | Lecture/écriture<br>Facultatif | Le département de l’adresse principale de la personne. Configuré dans l’entité mshr_logisticsaddresscountyentity. |

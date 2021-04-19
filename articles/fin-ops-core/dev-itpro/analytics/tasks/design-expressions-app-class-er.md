@@ -2,7 +2,6 @@
 title: Concevoir des expressions de génération d’états électroniques pour appeler les méthodes de classe d’application
 description: Cette rubrique décrit la procédure de réutilisation de la logique d’application existante dans les configurations d’états électroniques en appelant les méthodes requises des classes d’application des expressions ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11b4d185703731d8491ad10bdeedea40ce811f5d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 37cf01ac4b23717ebddaaefe6bcb06be0ff82dc6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564092"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752506"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Concevoir des expressions de génération d’états électroniques pour appeler les méthodes de classe d’application
 
@@ -28,7 +27,7 @@ Ce guide fournit des informations sur la procédure de réutilisation de la logi
 
 Ces étapes peuvent être effectuées à l’aide d’un ensemble de données quelconque. Vous devez également télécharger et enregistrer localement le fichier suivant : (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
-Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la procédure « Génération d’états électroniques - Créer un fournisseur de configuration et le marquer comme actif ».
+Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la procédure « Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif ».
 
 1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.
     * Vérifiez que le fournisseur de la configuration pour la société fictive Litware, Inc. est disponible et marqué comme actif. Si vous ne voyez pas ce fournisseur de configuration, vous devez d’abord effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ».   
@@ -59,15 +58,15 @@ Pour réaliser ces étapes, vous devez commencer par effectuer les étapes de la
 6. Sélectionnez Oui dans le champ Prend en charge l’importation de données.
 7. Cliquez sur Créer une configuration.
 
-## <a name="design-the-er-format-configuration---format"></a>Créer la configuration du format ER - format
+## <a name="design-the-er-format-configuration---format"></a>Créer la configuration du format ER – format
 1. Cliquez sur Concepteur.
     * Le format conçu représente la structure attendue du fichier externe au format TXT.  
 2. Cliquez sur Ajouter racine pour ouvrir le menu associé.
 3. Dans l’arborescence, sélectionnez « Texte\Souche ».
 4. Dans le champ Nom, tapez « Racine ».
     * Racine  
-5. Dans le champ Caractères spéciaux, sélectionnez « Nouvelle ligne - Windows (CR LF) ».
-    * L’option « Nouvelle ligne - Windows (CR LF) » a été sélectionné dans le champ « Caractères spéciaux ». Selon ce paramètre, chaque ligne du fichier d’analyse est considérée comme un enregistrement distinct.  
+5. Dans le champ Caractères spéciaux, sélectionnez « Nouvelle ligne – Windows (CR LF) ».
+    * L’option « Nouvelle ligne – Windows (CR LF) » a été sélectionné dans le champ « Caractères spéciaux ». Selon ce paramètre, chaque ligne du fichier d’analyse est considérée comme un enregistrement distinct.  
 6. Cliquez sur OK.
 7. Cliquez sur Ajouter pour ouvrir la boîte de dialogue.
 8. Dans l’arborescence, sélectionnez « Texte\Souche ».

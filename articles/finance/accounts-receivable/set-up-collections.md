@@ -2,11 +2,9 @@
 title: Paramétrage des recouvrements
 description: Cet article décrit la procédure de paramétrage de la fonctionnalité de recouvrement.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd20b984d0e47ceb7660be763b7d1ae886bfdd8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228123"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835218"
 ---
 # <a name="set-up-collections"></a>Paramétrage des recouvrements
 
@@ -64,9 +62,9 @@ Paramétrez les noms des journaux utilisés lorsque les transactions sont trait�
 
 | Description | Type de journal     |
 |-------------|------------------|
-| Lettrage  | Client - Paiements |
+| Lettrage  | Client – Paiements |
 | Annulation   | Quotidienne            |
-| Impayés         | Client - Paiements |
+| Impayés         | Client – Paiements |
 
 ## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Paramétrage d’un code motif pour les transactions d’annulation
 Paramétrez le code motif par défaut utilisé lorsque les transactions sont annulées sur la page **Recouvrements**. Vous pouvez modifier le code lors du processus d’annulation.

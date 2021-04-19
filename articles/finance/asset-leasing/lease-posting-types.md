@@ -2,11 +2,9 @@
 title: Types de validations de baux
 description: Cette rubrique décrit les types de validation utilisés pour les transactions de crédit-bail.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229500"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841139"
 ---
 # <a name="lease-posting-types"></a>Types de validations de baux
 
@@ -90,15 +88,6 @@ Le compte est associé au compte de contre-actif du droit d’utilisation de l�
 **Exemples d’écritures de journal :** régularisation d’amortissement<br>
 **Débit :** Dépenses d’amortissement XXX<br>
 **Crédit :** Dépense d’amortissement XXX
-
-## <a name="retained-earnings"></a>Bénéfices non répartis
-
-Compte associé à la facture aux bénéfices non répartis. Ce compte peut être débité ou crédité dans une écriture de journal d’ajustement de transition en utilisant la méthode rétrospective complète ou la méthode de l’option de rattrapage cumulatif A. La différence entre le droit d’utilisation de l’actif initial et le passif locatif est comptabilisée en bénéfices non répartis. Dans de rares cas, les bénéfices non répartis peuvent également être affectés lors de la modification du contrat de location, si la classification d’un contrat de location est modifiée de financement en exploitation pour déprécier le droit d’utilisation de l’actif à la hausse ou à la baisse de sorte qu’il équivaut au passif de location.
-
-**Exemples d’écritures de journal :** Ajustement de transition (méthode rétrospective complète ou de rattrapage cumulatif option A)<br>
-**Débit :** Passif locatif XXX<br>
-**Crédit :** Actif de location XXX<br>
-**Crédit :** Bénéfices non répartis XXX
 
 ## <a name="variable-payment"></a>Paiement variable
 

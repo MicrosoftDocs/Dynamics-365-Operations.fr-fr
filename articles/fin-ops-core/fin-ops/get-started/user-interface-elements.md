@@ -2,7 +2,6 @@
 title: Éléments de l’interface utilisateur
 description: Cette rubrique décrit les éléments de l’interface utilisateur utilisés dans l’application.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: aa858c800e3432b0cb9c4b3c4eea57bbbed0f624
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: feb6d5751bc22c05dbd2f01f47d5a0f99fca07a0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566244"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754726"
 ---
 # <a name="user-interface-elements"></a>Éléments de l’interface utilisateur
 
@@ -26,16 +25,16 @@ Cette rubrique décrit les éléments de l’interface utilisateur utilisée dan
 
 ## <a name="overview"></a>Présentation
 
-- **Volet Actions** - La barre sous la barre de navigation. Ici, vous pouvez sélectionner des onglets pour modifier les enregistrements affichés sur la page. Vous pouvez modifier et enregistrer les enregistrements ici.  
-- **Récapitulatif** - Vous pouvez voir les informations et suivre les activités de certains enregistrements dans ce volet.  
+- **Volet Actions** – La barre sous la barre de navigation. Ici, vous pouvez sélectionner des onglets pour modifier les enregistrements affichés sur la page. Vous pouvez modifier et enregistrer les enregistrements ici.  
+- **Récapitulatif** – Vous pouvez voir les informations et suivre les activités de certains enregistrements dans ce volet.  
 - **Volet Récapitulatif** Ici, vous pouvez parcourir différents aspects d’un enregistrement à afficher dans le récapitulatif.  
-- **Volet de filtre** - Sur certaines pages, vous pouvez sélectionner **Afficher les filtres** pour ouvrir ce volet. Il vous permet d’affiner les résultats visibles pour vous sur la page.  
-- **Barre de navigation** - La barre en haut de l’interface. Elle contient **Portail Dynamics 365**, **Recherche**, **Sélecteur de société**, **Centre d’action**, **Paramètres**, **Aide et support**, et le profil utilisateur.  
-- **Liste de navigation** - Sur certaines pages, vous pouvez parcourir ce volet pour rechercher un enregistrement spécifique. Lorsque cette option est sélectionnée, les détails de l’enregistrement apparaissent sur la page.  
-- **Volet de navigation** - Le volet le plus à gauche. Ici, vous pouvez rechercher toute page du produit.  
-- **Page** - La vue centrale de l’interface. Les sélections apportées aux autres composants de l’interface utilisateur affecteront quels enregistrements sont affichés ici.  
-- **Volet** - Le volet le plus à droite. Il s’ouvre dans certains cas lorsque des aspects d’un enregistrement doivent être modifiés et enregistrés.  
-- **Onglet** - Pour faire référence au volet Actions, il s’agit d’un menu des options qui apparaît lorsque vous sélectionnez une option indiquée dans le volet Actions.  
+- **Volet de filtre** – Sur certaines pages, vous pouvez sélectionner **Afficher les filtres** pour ouvrir ce volet. Il vous permet d’affiner les résultats visibles pour vous sur la page.  
+- **Barre de navigation** – La barre en haut de l’interface. Elle contient **Portail Dynamics 365**, **Recherche**, **Sélecteur de société**, **Centre d’action**, **Paramètres**, **Aide et support**, et le profil utilisateur.  
+- **Liste de navigation** – Sur certaines pages, vous pouvez parcourir ce volet pour rechercher un enregistrement spécifique. Lorsque cette option est sélectionnée, les détails de l’enregistrement apparaissent sur la page.  
+- **Volet de navigation** – Le volet le plus à gauche. Ici, vous pouvez rechercher toute page du produit.  
+- **Page** – La vue centrale de l’interface. Les sélections apportées aux autres composants de l’interface utilisateur affecteront quels enregistrements sont affichés ici.  
+- **Volet** – Le volet le plus à droite. Il s’ouvre dans certains cas lorsque des aspects d’un enregistrement doivent être modifiés et enregistrés.  
+- **Onglet** – Pour faire référence au volet Actions, il s’agit d’un menu des options qui apparaît lorsque vous sélectionnez une option indiquée dans le volet Actions.  
 
 ![L’image suivante présente l’emplacement de ces éléments sur l’interface.](media/user-interface-01.png)
 
@@ -67,14 +66,14 @@ Certaines modifications apportées aux objets que vous observez s’affichent co
 
 Les notifications apparaissent de plusieurs façons.
 - **Légende de fonction** Elle s’affiche en regard d’un champ, d’un onglet, ou tout autre bouton pour offrir une explication de l’utilisation de la fonctionnalité. 
-- **Centre d’action** - Une zone contenant la notification s’affiche en regard du bouton du centre d’action dans la barre de navigation. Vous pouvez voir les détails de la notification en sélectionnant **Centre d’action**.  
-- **Barre de message** - Elle s’affiche sous le volet Actions.  
+- **Centre d’action** – Une zone contenant la notification s’affiche en regard du bouton du centre d’action dans la barre de navigation. Vous pouvez voir les détails de la notification en sélectionnant **Centre d’action**.  
+- **Barre de message** – Elle s’affiche sous le volet Actions.  
 
 L’image suivante présente des exemples de ces types de notifications.
 
 ![L’image suivante présente des exemples de notifications.](media/user-interface-06.png)
 
-- **Zone du message** - Elle s’affiche sur l’interface pour une interaction avec l’utilisateur avant de poursuivre l’utilisation du produit.  
+- **Zone du message** – Elle s’affiche sur l’interface pour une interaction avec l’utilisateur avant de poursuivre l’utilisation du produit.  
 
 ![Le schéma suivant présente un exemple de zone de message.](media/user-interface-07.png)
 

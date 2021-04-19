@@ -2,11 +2,9 @@
 title: Afficher les résultats de l’automatisation des factures fournisseur (version préliminaire)
 description: Cette rubrique explique comment afficher le statut des factures fournisseur qui sont dans le processus automatisé de soumission au flux de travail.
 author: abruer
-manager: AnnBe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b87af4c64f8021a1b23cca5d8f38ac21c8efbd4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 872ec404da0cce41c4ea0f882a3fa8af56316ce3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248086"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837223"
 ---
 # <a name="view-vendor-invoice-automation-results"></a>Afficher les résultats de l’automatisation des factures fournisseur
 
@@ -33,10 +31,10 @@ Avant de pouvoir modifier une facture qui a été soumise, vous devez suspendre 
 
 Si une facture importée est soumise au processus de soumission au workflow, vous pouvez afficher la valeur de son **Statut d’automatisation** dans la page **Factures fournisseur**. Les statuts suivants sont suivis :
 
-- **Inclus** - Les processus automatisés définis dans la page **Paramètres de la comptabilité fournisseur** fonctionnent correctement mais ne sont pas encore terminés.
-- **Suspendu** - Les processus automatisés définis dans la page **Paramètres de la comptabilité fournisseur** ont été exécutées, mais au moins une étape du processus a échoué. Le statut **Suspendu** est également appliqué si le champ **Inclure dans le traitement automatisé** est défini sur **Non**. Vous pouvez afficher les défaillances en sélectionnant le bouton **Afficher les résultats les plus récents**.
-- **Dans le workflow** - La facture importée a été soumise au système de workflow, soit par le processus de flux de travail automatisé, soit manuellement.
-- **Workflow terminé** - Le processus de workflow est terminé pour la facture importée.
+- **Inclus** – Les processus automatisés définis dans la page **Paramètres de la comptabilité fournisseur** fonctionnent correctement mais ne sont pas encore terminés.
+- **Suspendu** – Les processus automatisés définis dans la page **Paramètres de la comptabilité fournisseur** ont été exécutées, mais au moins une étape du processus a échoué. Le statut **Suspendu** est également appliqué si le champ **Inclure dans le traitement automatisé** est défini sur **Non**. Vous pouvez afficher les défaillances en sélectionnant le bouton **Afficher les résultats les plus récents**.
+- **Dans le workflow** – La facture importée a été soumise au système de workflow, soit par le processus de flux de travail automatisé, soit manuellement.
+- **Workflow terminé** – Le processus de workflow est terminé pour la facture importée.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

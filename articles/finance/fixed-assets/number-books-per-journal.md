@@ -2,11 +2,9 @@
 title: Nombre de registres par journal
 description: Cette rubrique décrit la relation entre les journaux et les registres d’immobilisations lorsque vous créez une acquisition d’immobilisations ou une proposition d’amortissement via un traitement par lots. Vous pouvez définir le nombre maximum de registres inclus pour chaque acquisition et pour l’amortissement.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822031"
 ---
 # <a name="number-of-books-per-journal"></a>Nombre de registres par journal
 
@@ -43,12 +41,15 @@ Vous pouvez utiliser le traitement par lots pour exécuter l’amortissement pou
 
 Le travail de traitement par lots exclut les registres fermés. Par exemple, dans un traitement par lots pour l’amortissement, 10 des 2 000 premiers registres sont fermés. Dans le cas, le premier journal contiendra des registres associés aux immobilisations numérotées de 1 à 2 011. Le second journal contiendra alors des registres associés aux immobilisations numérotées de 2 012 à 4 000.
 
+> [!NOTE]
+> Si vous avez des ID d’immobilisation avec des séparateurs différents (tels que – ou /) et que vous créez des transactions d’immobilisation dans des traitements par lots, vous devez exécuter un traitement par lots distinct pour chaque type de séparateur. Le système ne peut pas traiter différents séparateurs dans le même traitement par lots.
+
 La limite du nombre de registres est appliquée si les ID d’éléments en double n’existent pas dans le même journal. Cependant, si l’ID d’actif est le même que l’ID de registres, le nombre de registres par journal peut être dépassé pour conserver l’ID d’actif dans le même journal.
 
 Par exemple, il existe 5 001 ID d’immobilisation, trois registres sont associés à chaque ID d’immobilisation et chaque registre d’immobilisation est enregistré dans la même couche de comptabilisation. Vous exécutez l’amortissement pendant trois mois consécutifs, sans synthèse.  Le journal d’amortissement sera créé via un traitement par lots, et le système créera sept journaux contenant 667 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Le résultat sera 2 001 registres. Par conséquent, dans trois mois, il y aura 6 003 lignes de journal pour conserver les mêmes ID d’actif dans le même journal. Le système créera également un journal contenant 332 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Dans trois mois, il y aura 2 988 lignes.
 
-> [!Note] 
-> Si le paramètre **Cumuler l’amortissement** est activé lorsque vous créez une proposition d'amortissement, alors la valeur du champ **Nombre de registres par journal - Proposition d'amortissement** n'a aucun effet. Dans ce cas, le nombre de livres par journal est de 6000, qui est la limite interne définie.
+> [!NOTE] 
+> Si le paramètre **Cumuler l’amortissement** est activé lorsque vous créez une proposition d’amortissement, alors la valeur du champ **Nombre de registres par journal – Proposition d’amortissement** n’a aucun effet. Dans ce cas, le nombre de livres par journal est de 6000, qui est la limite interne définie.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

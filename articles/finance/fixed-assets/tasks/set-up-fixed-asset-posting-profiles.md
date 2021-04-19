@@ -2,11 +2,9 @@
 title: Paramétrage de profils de validation d’immobilisation
 description: Ce guide de tâche va paramétrer les profils de validation d’immobilisation.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2041a8cb36d106bfe3b5a858725c83d278f666a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f02aa936b7d485dd8c76225b5c4de02a238f9352
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219913"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813553"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Paramétrage de profils de validation d’immobilisation
 
@@ -49,11 +47,11 @@ Ce guide de tâche va paramétrer les profils de validation d’immobilisation. 
 19. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 20. Spécifiez les valeurs souhaitées dans le champ **Compte principal**.
 21. Dans le champ **Compte de contrepartie**, spécifiez les valeurs souhaitées.
-22. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession - Vente ».
+22. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession – Vente ».
 23. Cliquez sur **Ajouter**.
 24. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 25. Spécifiez les valeurs souhaitées dans le champ **Compte principal**. Pour les cessions, vous pouvez entrer un compte de contrepartie ou le laisser vide et le renseigner pour la transaction spécifique.  
-26. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession - Mise au rebut ». Utilisez les mêmes comptes pour « Cession - Vente » et « Cession - Mise au rebut ».  
+26. Dans le menu déroulant sous le raccourci **Comptes généraux**, sélectionnez « Cession – Mise au rebut ». Utilisez les mêmes comptes pour « Cession – Vente » et « Cession – Mise au rebut ».  
 27. Cliquez sur **Ajouter**.
 28. Dans le champ **Registre**, entrez ou sélectionnez une valeur.
 29. Spécifiez les valeurs souhaitées dans le champ **Compte principal**. Pour les cessions, vous pouvez entrer un compte de contrepartie ou le laisser vide et le renseigner pour la transaction spécifique.  

@@ -1,8 +1,7 @@
 ---
-title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 - Créer un format)
+title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 – Créer un format)
 description: Cette rubrique décrit comment configurer un format de gestion des états électroniques pour utiliser les fichiers de gestion des documents dans la sortie de gestion des états électroniques. (Partie 3)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1ebc15cd980734aebec63d6758404868c1e36
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99a286b4e40ddeb7f4ff37c1ece3c678b26c838b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559747"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755008"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 - Créer un format)
+# <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 3 – Créer un format)
 
 [!include [banner](../../includes/banner.md)]
 

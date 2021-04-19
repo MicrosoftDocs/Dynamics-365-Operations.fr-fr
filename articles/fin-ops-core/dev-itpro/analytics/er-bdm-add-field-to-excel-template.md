@@ -2,7 +2,6 @@
 title: Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
 description: Cette rubrique fournit des informations sur l’ajout de nouveaux champs à un modèle de document commercial dans Microsoft Excel à l’aide de la fonction de gestion de documents commerciaux.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/15/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6368d763f44c015a6e85652b1880cfd86ff5ba09
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569019"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751128"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Ajouter de nouveaux champs à un modèle de document commercial dans Microsoft Excel
 
@@ -147,7 +146,7 @@ Dans l’espace de travail **Gestion de document commercial**, l’onglet **Mod�
 
 1.  Dans l’application, modifiez la société **USMF**, puis accédez à **Comptabilité client \> Factures \> Toutes les factures financières**.
 2.  Sélectionnez la facture **FTI-00000002**, puis sélectionnez **Gestion de l’impression**.
-3.  Dans le volet gauche, développez **Module - Comptabilité client \> Documents \> Facture financière**.
+3.  Dans le volet gauche, développez **Module – Comptabilité client \> Documents \> Facture financière**.
 4.  Sous **Facture financière**, sélectionnez le niveau **Document d’origine** pour préciser le champ des factures à traiter.
 5.  Dans le volet droit, dans le champ **Format de l’état**, sélectionnez le modèle **Facture financière (Excel) Contoso** pour le niveau spécifié de document.
 

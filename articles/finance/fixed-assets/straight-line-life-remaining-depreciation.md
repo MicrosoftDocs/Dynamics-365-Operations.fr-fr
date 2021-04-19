@@ -2,11 +2,9 @@
 title: Amortissement linéaire sur la durée de vie restante
 description: Cet article propose une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823b2569670adfbf04038abca656e34f0199fce1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd7bc6d773d85a1ba02151b96bf80f970845d4a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210093"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818510"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Amortissement linéaire sur la durée de vie restante
 
@@ -37,7 +35,7 @@ Vous pouvez sélectionner soit **Calendrier** soit **Exercice** dans le champ **
 
 ### <a name="calendar"></a>Calendrier
 
-Si vous sélectionnez **Calendrier** dans le champ **_Année d'amortissement_*_, l’exercice supposé s’étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. L'option _* Calendrier** met à jour la base d’amortissement le 1er janvier de chaque année. Généralement, la base d’amortissement est la valeur nette moins la valeur résiduelle. Dans l’exemple plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. Si vous sélectionnez **Calendrier** comme année d’amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
+Si vous sélectionnez **Calendrier** dans le champ **_Année d’amortissement_*_, l’exercice supposé s’étend sur la période du 1er janvier au 31 décembre, même si vous avez défini le calendrier fiscal différemment. L’option _* Calendrier** met à jour la base d’amortissement le 1er janvier de chaque année. Généralement, la base d’amortissement est la valeur nette moins la valeur résiduelle. Dans l’exemple plus loin dans cette rubrique, la base d’amortissement est le numérateur de la première expression de la colonne Calcul. Si vous sélectionnez **Calendrier** comme année d’amortissement, les options suivantes sont disponibles dans le champ **Fréquence** :
 
 -   **Annuel** valide un montant le 31 décembre.
 -   **Mensuel** valide un montant mensuel à la fin de chaque mois du calendrier.
@@ -57,10 +55,10 @@ Si vous sélectionnez **Fiscal** dans le champ **Année d’amortissement**, l�
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Exemple d’amortissement linéaire d’une immobilisation inchangée
 Une immobilisation possède les caractéristiques suivantes :
 
-|                     |        |
+| Champ               | Valeur  |
 |---------------------|--------|
-| Coût d’acquisition    | 11 000 |
-| Valeur résiduelle       | 1 000  |
+| Prix d’acquisition    | 11,000 |
+| Valeur résiduelle       | 1 000  |
 | Base d’amortissement   | 10 000 |
 | Années de durée de vie  | 5      |
 | Amortissement annuel | 2 000  |

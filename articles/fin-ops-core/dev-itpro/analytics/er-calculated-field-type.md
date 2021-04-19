@@ -2,7 +2,6 @@
 title: Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 description: Cette rubrique offre des informations concernant l’utilisation du type Champ calculé pour les sources de données de gestion des états électroniques.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569199"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749487"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Prise en charge des appels paramétrés des sources de données de gestion des états électroniques (ER) de type Champ calculé
 
@@ -194,7 +193,7 @@ Sur la page **Concepteur de format**, le champ calculé paramétré configuré *
 
 ![Liste développée des niveaux de champ calculé](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Utiliser le champ calculé configuré pour lier les éléments de format
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Utiliser le champ calculé configuré pour lier les éléments de format
 
 1. Sélectionnez **Model.Data2.Levels** pour sélectionner le champ calculé configuré.
 2. Sélectionnez l’élément de format **Statement.Taxation.Regular**.
@@ -215,7 +214,7 @@ Sur la page **Concepteur de format**, le champ calculé paramétré configuré *
 9. Sélectionnez **Lier**.
 10. Sélectionnez **Oui** pour confirmer le remplacement de la source de données utilisée actuellement, **Level3**, par la nouvelle source de données, **Niveaux**, dans tous les éléments de format imbriqués de l’élément de format sélectionné.
 
-   Lorsque vous spécifiez l’argument du champ calculé paramétré pour l’élément XML représentant le niveau de taxation (par exemple, la valeur **Model.Data2.Levels("Reduced")** comme valeur de texte), il est inutile de faire de même pour les attributs XML imbriqués. Leurs liaisons hériteront automatiquement de la valeur de l’argument définie sur le niveau parent (**Model.Data2.Levels.aggregated.Base**, **Model.Data2.Levels("Reduced").aggregated.Base**).
+   Lorsque vous spécifiez l’argument du champ calculé paramétré pour l’élément XML représentant le niveau de taxation (par exemple, la valeur **Model.Data2.Levels(&quot;Reduced")** comme valeur de texte), il est inutile de faire de même pour les attributs XML imbriqués. Leurs liaisons hériteront automatiquement de la valeur de l’argument définie sur le niveau parent (**Model.Data2.Levels.aggregated.Base**, **Model.Data2.Levels("Reduced").aggregated.Base**).
 
 Les appels récurrents de tout champ calculé paramétré ne sont pas pris en charge.
 

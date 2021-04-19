@@ -2,11 +2,9 @@
 title: Céder une immobilisation comme mise au rebut
 description: La rubrique décrit le processus afin d’éliminer les transactions pour une immobilisation qui a été cédée comme mise au rebut.
 author: moaamer
-manager: Ann Beebe
 ms.date: 08/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 20f5fe0f8f2654df5027c363ebf5922f8344d928
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241120"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826273"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Céder une immobilisation comme mise au rebut
 
@@ -56,9 +54,9 @@ Pour l’exemple suivant, une immobilisation a été acquise le 1er janvier 2018
 
 La VN d’une immobilisation est calculée à l’aide de la formule suivante :
 
-Valeur nette = Prix d’achat - amortissement
+Valeur nette = Prix d’achat – amortissement
 
-Dans cet exemple, l’immobilisation a été acquise et amortie sur 15 mois, de janvier 2018 à mars 2019. Par conséquent, la VN de l’actif est 9 000 EUR (24 000 EUR - 15 000 EUR).
+Dans cet exemple, l’immobilisation a été acquise et amortie sur 15 mois, de janvier 2018 à mars 2019. Par conséquent, la VN de l’actif est 9 000 EUR (24 000 EUR – 15 000 EUR).
 
 [![Exemple d’amortissement des immobilisations](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 

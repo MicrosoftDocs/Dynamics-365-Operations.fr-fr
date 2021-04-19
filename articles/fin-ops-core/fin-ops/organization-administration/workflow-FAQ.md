@@ -2,7 +2,6 @@
 title: FAQ Workflow
 description: Cette rubrique répond à des questions fréquentes sur le système de workflow.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98d67e240cdd5e64fef1aaf24b4907d1af42056a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567977"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747199"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -51,7 +50,7 @@ Voici quelques points clés à noter en ce qui concerne l’ajout d’alertes au
 En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d’actions lorsqu’un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Pourquoi l’éditeur de workflow ne peut-il pas démarrer dans AD FS ?
-Lors de l’exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l’éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l’URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises - Workflow - Application native** dans les paramètres ADFS.
+Lors de l’exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l’éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l’URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises – Workflow – Application native** dans les paramètres ADFS.
 
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Pourquoi des blocages SQL se produisent-ils lors du traitement du workflow ? 
 La valeur de champ par défaut pour le **Nombre d’éléments de workflow par traitement par lots** sur la page **Paramètres de workflow** est 0. Une valeur de 0 entraîne la modification de la valeur par défaut à 20 éléments par traitement par lots. Soyez prudent lorsque vous ajustez cette valeur, car un nombre élevé d’éléments par traitement par lots (> 40) peut entraîner des blocages SQL.

@@ -2,7 +2,6 @@
 title: Hiérarchie d’organisation dans Dataverse
 description: Cette rubrique décrit l’intégration des données organisationnelles entre les applications Finance and Operations et Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f265d49a87383e2abf129b8d1d67567fc4b9e0de
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8b147c27b9309b1b3597f1194c415fbb2e2b7ad2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750810"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hiérarchie d’organisation dans Dataverse
 
@@ -49,8 +48,8 @@ Les informations de produit contiennent toutes les informations associées au pr
 Applications Finance and Operations | Autres applications Dynamics 365 | Description
 -----------------------|--------------------------------|---
 Objectifs de la hiérarchie d’organisation | msdyn_internalorganizationhierarchypurposes | Ce modèle fournit une synchronisation unidirectionnelle de la table Objectif de la hiérarchie d’organisation.
-Type de la hiérarchie d'organisation | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de la table Type de hiérarchie d’organisation.
-Hiérarchie d'organisation - publiée | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de la table Hiérarchie d’organisation publiée.
+Type de la hiérarchie d’organisation | msdyn_internalorganizationhierarchytypes | Ce modèle fournit une synchronisation unidirectionnelle de la table Type de hiérarchie d’organisation.
+Hiérarchie d’organisation – publiée | msdyn_internalorganizationhierarchies | Ce modèle fournit une synchronisation unidirectionnelle de la table Hiérarchie d’organisation publiée.
 Unité opérationnelle | msdyn_internalorganizations |
 Entités juridiques | msdyn_internalorganizations |
 Entités juridiques | cdm_companies | Fournit la synchronisation bidirectionnelle d’informations sur l’entité juridique (société).

@@ -2,7 +2,6 @@
 title: Concevoir des états multilingues dans les états électroniques
 description: Cette rubrique explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
 author: NickSelin
-manager: AnnBe
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e765b450f626abb3dee4a70419176568eeb62d7e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562068"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753550"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Concevoir des états multilingues dans les états électroniques
 
@@ -147,16 +146,16 @@ Si une étiquette référencée n’a pas de traduction pour la langue du contex
 
 ER prend en charge différentes façons de spécifier une langue pour un état généré. Dans le champ **Préférences linguistiques** sur l’onglet **Format**, vous pouvez sélectionner les valeurs suivantes :
 
-- **Préférence de l’entreprise** - Générez un état dans une langue spécifiée par l’entreprise.
+- **Préférence de l’entreprise** – Générez un état dans une langue spécifiée par l’entreprise.
 
     ![Spécifier dans le concepteur d’opérations ER la langue préférée de l’entreprise comme langue d’un état généré](./media/er-multilingual-labels-language-context-company.png)
 
-- **Préférence utilisateur** - Générez un état dans la langue préférée de l’utilisateur.
-- **Défini explicitement** - Générez un état dans une langue spécifiée au moment de la conception.
+- **Préférence utilisateur** – Générez un état dans la langue préférée de l’utilisateur.
+- **Défini explicitement** – Générez un état dans une langue spécifiée au moment de la conception.
 
     ![Spécifier dans le concepteur d’opérations ER la langue définie au moment de la conception comme langue d’un état généré](./media/er-multilingual-labels-language-context-fixed.png)
 
-- **Défini lors de l’exécution** - Générez un état dans une langue spécifiée au moment de l’exécution. Si vous sélectionnez cette valeur, dans le champ **Langue**, configurez une expression ER qui renvoie le code de langue pour la langue, comme la langue du client correspondant.
+- **Défini lors de l’exécution** – Générez un état dans une langue spécifiée au moment de l’exécution. Si vous sélectionnez cette valeur, dans le champ **Langue**, configurez une expression ER qui renvoie le code de langue pour la langue, comme la langue du client correspondant.
 
     ![Spécifier dans le concepteur d’opérations ER la langue définie au moment de l’exécution comme langue d’un état généré](./media/er-multilingual-labels-language-context-runtime.png)
 

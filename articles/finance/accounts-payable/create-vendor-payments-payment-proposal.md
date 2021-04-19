@@ -2,11 +2,9 @@
 title: Création de paiements fournisseur via une proposition de paiement
 description: Cette rubrique fournit une vue d’ensemble des options de proposition de paiement et il inclut quelques exemples qui indiquent comment les propositions de paiement sont exécutées.
 author: abruer
-manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17dc55245128d0986532c993507af5046e5e0f69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 95862a0dc55ec1d77b7d1a53209ba41fed48f82a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212992"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820759"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Création de paiements fournisseur via une proposition de paiement
 
@@ -75,7 +73,7 @@ April sélectionne **Escompte de règlement** comme type de proposition. Pour la
 
 Les factures suivantes ne sont pas incluses dans la proposition :
 
--   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n'est plus éligible pour l'escompte de règlement.
+-   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n’est plus éligible pour l’escompte de règlement.
 -   1003, car la facture n’a pas de date de remise.
 
 ### <a name="option-2-by-due-date"></a>Option 2 : Par date d’échéance
@@ -100,18 +98,18 @@ April sélectionne **Échéance et escompte de règlement** comme type de propos
 
 Les factures suivantes ne sont pas incluses dans la proposition :
 
--   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n'est plus éligible à l'escompte de règlement, et la date d'échéance du 15 juillet est également en dehors de la période.
+-   1001, car la date de remise du 29 juin a déjà expiré, aussi cette facture n’est plus éligible à l’escompte de règlement, et la date d’échéance du 15 juillet est également en dehors de la période.
 
 ## <a name="country-specific-considerations"></a>Considérations spécifique au pays
 ### <a name="norway"></a>Norvège
 
 #### <a name="dimension-control"></a>Contrôle de la dimension
 
-Le contrôle des dimensions vous permet de contrôler le regroupement de lignes générées par la proposition de paiement et de définir par défaut des dimensions en fonction des dimensions financières utilisées pour les factures appliquées. Pour la Norvège, pour chaque mode de paiement il existe un onglet de dimension financière dans lequel vous pouvez activer le contrôle des dimensions ainsi qu'activer le regroupement de chaque dimension. Les options disponibles sont :
+Le contrôle des dimensions vous permet de contrôler le regroupement de lignes générées par la proposition de paiement et de définir par défaut des dimensions en fonction des dimensions financières utilisées pour les factures appliquées. Pour la Norvège, pour chaque mode de paiement il existe un onglet de dimension financière dans lequel vous pouvez activer le contrôle des dimensions ainsi qu’activer le regroupement de chaque dimension. Les options disponibles sont :
 
 -   Le champ **Contrôle de dimension** est désactivé. La proposition de paiement se comporte comme pour tout autre pays.
 -   Le champ **Contrôle de dimension** est activé sans définir davantage les dimensions. La proposition de paiement est créée sans prendre en considération les dimensions. La transaction créée n’hérite d’aucune dimension de l’entrée appliquée.
--   Le champ **Contrôle de dimension** est activé et d'autres dimensions sont activées. Maintenant vous définissez comment les dimensions seront copiées dans le journal. Par exemple : • Activez la case à cocher **BusinessUnit** pour créer une proposition de paiement par unité commerciale pour le mode de paiement, • Activez la case à cocher **CostCenter** pour créer une proposition de paiement par centre de coût pour le mode de paiement
+-   Le champ **Contrôle de dimension** est activé et d’autres dimensions sont activées. Maintenant vous définissez comment les dimensions seront copiées dans le journal. Par exemple : • Activez la case à cocher **BusinessUnit** pour créer une proposition de paiement par unité commerciale pour le mode de paiement, • Activez la case à cocher **CostCenter** pour créer une proposition de paiement par centre de coût pour le mode de paiement
 
 > [[!NOTE]
 > Si vous sélectionnez plusieurs dimensions dans la troisième option, une proposition de paiement est créée pour une combinaison de dimensions.

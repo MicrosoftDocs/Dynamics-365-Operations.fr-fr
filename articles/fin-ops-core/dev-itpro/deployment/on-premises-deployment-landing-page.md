@@ -2,8 +2,7 @@
 title: Page d’accueil de déploiement local
 description: Cette rubrique fournit des informations et des liens vers du contenu sur les déploiements sur site.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564058"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749303"
 ---
 # <a name="on-premises-deployment-home-page"></a>Page d’accueil de déploiement local
 
@@ -38,14 +37,16 @@ Vous pouvez déployer Dynamics 365 Finance + Operations (on-premises). Lorsque v
 
 ## <a name="onboard"></a>Intégrer
 - [Paramétrer des projets sur site dans Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Paramétrer et déployer des environnements sur site (Platform update 12 et versions ultérieures)](setup-deploy-on-premises-pu12.md)
+- [Paramétrer et déployer des environnements sur site (Platform update 41 et versions ultérieures)](setup-deploy-on-premises-pu41.md)
+- [Configurer et déployer des environnements locaux (Mises à jour de plateforme 12 à 40)](setup-deploy-on-premises-pu12.md)
 - [Installer des périphériques d’impression réseau dans les environnements sur site](../analytics/install-network-printer-onprem.md)
 - [Configurer SQL Server Reporting Services pour des déploiements sur site](../analytics/configure-ssrs-on-premises.md)
 - [Développer et déployer les modèles personnalisés sur les environnements sur site](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Travail dans votre déploiement sur site
+- [Configurer la haute disponibilité pour les nœuds SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Configurer la gestion des documents](../../fin-ops/organization-administration/configure-document-management.md)
-- [Importer des configurations de gestion des états électroniques (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Importer des configurations de gestion des états électroniques](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Génération, publication et impression de documents dans les déploiements sur site](../analytics/printing-capabilities-on-premises.md)
 - [Configurer les proxys pour les environnements sur site](onprem-reverseproxy.md)
 - [Configurer le support technique pour les applications Finance and Operations](../lifecycle-services/support-experience.md)

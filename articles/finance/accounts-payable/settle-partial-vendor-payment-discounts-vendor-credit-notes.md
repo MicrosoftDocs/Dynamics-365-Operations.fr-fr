@@ -2,11 +2,9 @@
 title: Régler un paiement partiel fournisseur ayant des remises sur les avoirs
 description: Cet article vous fait parcourir les étapes d’un scénario dans lequel un avoir est réglé grâce à une facture.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227302"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827840"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel fournisseur ayant des remises sur les avoirs
 
@@ -42,10 +40,10 @@ Le 29 juin, April crée une facture de 1 000,00 pour le fournisseur 3050. Le 
 
 Les informations de remise pour l’avoir s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 13/7/2015 |
-| Montant de l’escompte de règlement         | 2,00      |
+| Montant de l’escompte de règlement         | 2.00      |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l’escompte de règlement à accepter | 2,00      |

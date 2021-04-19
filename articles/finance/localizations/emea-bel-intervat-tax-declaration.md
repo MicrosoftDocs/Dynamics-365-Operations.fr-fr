@@ -2,11 +2,9 @@
 title: Déclaration de taxe INTERVAT
 description: Cette rubrique fournit les informations spécifiques au pays/à la région pour la configuration et la création de la déclaration de taxe INTERVAT pour les entités juridiques en Belgique uniquement.
 author: anasyash
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 177f0cda9cb80e55ea96b97a7f5355cd403ed333
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7dda9ae45966c166468d87a7816077c385166856
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236331"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839902"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -575,7 +573,7 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 > [!NOTE]
 > Il n’est pas nécessaire d’entrer les codes **71**, **72** et **91**, car ils sont générés automatiquement.
 
-Pour paramétrer l’affectation de codes déclaration de taxe aux codes taxe, allez dans **Codes taxe \> Paramétrage d’état/Paramétrage d’état - Avoir**. Tenez compte des relations suivantes entre les codes déclaration de taxe :
+Pour paramétrer l’affectation de codes déclaration de taxe aux codes taxe, allez dans **Codes taxe \> Paramétrage d’état/Paramétrage d’état – Avoir**. Tenez compte des relations suivantes entre les codes déclaration de taxe :
 
 -   S’il y a un montant dans le code **01**, **02** ou **03**, il devrait également y avoir un montant dans le code **54**.
 -   S’il y a un montant dans le code **54**, il devrait également y avoir un montant dans le code **01**, **02** ou **03**.
@@ -759,8 +757,8 @@ Au lieu des codes **55** et **59**, vous pouvez utiliser les codes correctifs **
 | **Date**         | **Type de transaction**  | **Montant net** | **Montant de la TVA** | **Code taxe** | **Base de taxe prévue – code de déclaration**                 | **Montant de taxe prévu – code de déclaration** |
 |------------------|-----------------------|----------------|----------------|--------------------|--------------------------------------------------------|------------------------------------------|
 | 1 février 2020 | Facture client      | 1,100          | 132            | BE12               | 02                                                     | 54                                       |
-| 1 février 2020 | Facture fournisseur (UE)   | 1 000          | 210            | BEEU21             | 86 - Base à payer 81 - Déduction de base                  | 55 - Taxe à payer 59 - Déduction de taxe      |
-| 2 février 2020 | Facture fournisseur (UE)   | \-200          | \-42           | BEEU21             | 86 - Base à payer 81 - Déduction de base 84 - Base de crédit | 55 - Taxe à payer 59 - Déduction de taxe      |
+| 1 février 2020 | Facture fournisseur (UE)   | 1 000          | 210            | BEEU21             | 86 – Base à payer 81 – Déduction de base                  | 55 – Taxe à payer 59 – Déduction de taxe      |
+| 2 février 2020 | Facture fournisseur (UE)   | \-200          | \-42           | BEEU21             | 86 – Base à payer 81 – Déduction de base 84 – Base de crédit | 55 – Taxe à payer 59 – Déduction de taxe      |
 | 1 février 2020 | Facture client (UE) | 100            | 0              | BEEUS              | 46                                                     | Non applicable                           |
 
 8.  Allez dans **Taxe \> Déclarations \> Taxe \> État de la taxe pour la période de règlement**.

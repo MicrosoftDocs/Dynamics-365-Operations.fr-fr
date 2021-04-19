@@ -1,8 +1,7 @@
 ---
 title: Guides de tâches nouveaux ou mis à jour (décembre 2017)
-description: Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (décembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
+description: Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (décembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations. Aucune nouvelle Bibliothèque de mise en route n’a été publiée.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,18 +12,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4a5057ad0546478d64c06d68cc4ae693719adf94
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c4301c31a5152dce73497208f02efb1da4611e1c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566502"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750326"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Guides de tâches nouveaux ou mis à jour (décembre 2017)
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (décembre 2016 - toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations.
+Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont été publiés dans la bibliothèque unifiée APQC (décembre 2016 – toutes les langues) de Microsoft pour Microsoft Dynamics 365 for Operations.
 
 ## <a name="new-task-guides"></a>Nouveaux guides de tâches
 
@@ -50,7 +49,7 @@ Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont ét
 - Définir les taux d’amortissement par poste (décembre 2017)
 - Créer un groupe de modèles de stock pour les éléments de capital (décembre 2017)
 - Associer un calendrier journalier à un registre des immobilisations (décembre 2017)
-- IN - Transfert des éléments de capital vers l’immobilisation (décembre 2017)
+- IN – Transfert des éléments de capital vers l’immobilisation (décembre 2017)
 
 ## <a name="task-guides-updated"></a>Guides de tâches mis à jour
 
@@ -153,7 +152,7 @@ Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont ét
 - BR-00067 Gestion des paiements électroniques pour les paiements fournisseur (juillet 2017)
 - BR-00061 Retenues à la source sur les paiements de fournisseurs (juillet 2017)
 - BR-00024 Recevoir un document fiscal fournisseur (produits) (juillet 2017)
-- BR-00082 Recevoir un document fiscal fournisseur (immobilisations - ICMS récupérables à long terme) (juillet 2017)
+- BR-00082 Recevoir un document fiscal fournisseur (immobilisations – ICMS récupérables à long terme) (juillet 2017)
 - BR-00014 Recevoir un document fiscal fournisseur (immobilisations - PIS et COFINS récupérables à long terme) (juillet 2017)
 - BR-00033 Publier un document fiscal pour les fournisseurs (juillet 2017)
 - BR-00002 Attributs fiscaux de taxe d’établissement (juillet 2017)
@@ -207,7 +206,7 @@ Cette rubrique répertorie les guides de tâches nouveaux ou mis à jour ont ét
 - MX-00010 Rechercher et imprimer une facture électronique (février 2016)
 - MX-00010 Annuler une facture électronique (février 2016)
 - MX-00010 Valider une facture financière (février 2016)
-- MY-00010 GST - Générer des fichiers de GAF au format requis (février 2016)
+- MY-00010 GST – Générer des fichiers de GAF au format requis (février 2016)
 - Afficher les transactions de composant de taxe validées (février 2016)
 - Définir les nouvelles tâches (février 2016)
 - Configurer les comptes principaux pour la validation des obligations de suppression des actifs et les taux de remise sur le marché (février 2016)

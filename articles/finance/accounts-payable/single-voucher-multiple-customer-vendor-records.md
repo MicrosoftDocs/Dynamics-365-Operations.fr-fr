@@ -2,11 +2,9 @@
 title: N° de document unique avec plusieurs enregstrements client ou fournisseur
 description: Cette rubrique fournit une vue d’ensemble de ce qui se produit lorsque vous validez un N° de document unique avec plusieurs enregistrements client ou fournisseur. Cette fonctionnalité sera arrêtée dans les futures versions de Microsoft Dynamics 365 Finance, par conséquent, il n’est pas recommandé d’utiliser cette méthode de validation en raison de l’impact comptable qu’elle a sur le traitement des règlements.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bca422d7c79bef2155b84e3da964c5e47af8ac8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231588"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837295"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>N° de document unique avec plusieurs enregstrements client ou fournisseur
 
@@ -79,10 +77,10 @@ Avec cet exemple, nous pouvons analyser l’impact de l’utilisation d’un N°
 |-------------|--------------|----------------------|-----------|------------|
 | APPAYM001   | 200110-001-  | Solde fournisseur       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Banque                 |           | 197.00     |
-| 14000056    | 520200-001-- | Fournisseur - Escompte de règlement |           | 0.25       |
-| 14000056    | 520200-002-- | Fournisseur - Escompte de règlement |           | 0.25       |
-| 14000056    | 520200-003-- | Fournisseur - Escompte de règlement |           | 1,00       |
-| 14000056    | 520200-004-- | Fournisseur - Escompte de règlement |           | 1.50       |
+| 14000056    | 520200-001-- | Fournisseur – Escompte de règlement |           | 0.25       |
+| 14000056    | 520200-002-- | Fournisseur – Escompte de règlement |           | 0.25       |
+| 14000056    | 520200-003-- | Fournisseur – Escompte de règlement |           | 1,00       |
+| 14000056    | 520200-004-- | Fournisseur – Escompte de règlement |           | 1.50       |
 | 14000056    | 200110-001-  | Solde fournisseur       | 3,00      |            |
 
 Si l’utilisateur n’est pas satisfait de l’escompte de règlement allouée à toutes les répartitions de dépense de la facture d’origine, plutôt qu’un N° de document, plusieurs N° de documents doivent être utilisés pour enregistrer les factures. Voici un exemple de la procédure à utiliser pour entrer plusieurs N° de document dans la comptabilité, au lieu d’utiliser un N° de document, comme indiqué au début de cet exemple.
@@ -101,7 +99,7 @@ Désormais, lorsque INV2 est payée, l’écriture suivante est effectuée. Note
 |-------------|--------------|----------------------|-----------|------------|
 | APPAYM001   | 200110-001-  | Solde fournisseur       | 197.00    |            |
 | APPAYM001   | 110110-001-  | Banque                 |           | 197.00     |
-| 14000056    | 520200-003-- | Fournisseur - Escompte de règlement |           | 3,00       |
+| 14000056    | 520200-003-- | Fournisseur – Escompte de règlement |           | 3,00       |
 | 14000056    | 200110-001-  | Solde fournisseur       | 3,00      |            |
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-realized-gainloss-accounting"></a>Un N° de document avec plusieurs fournisseurs et l’impact sur la comptabilité des gains/pertes réalisés
@@ -160,7 +158,7 @@ Pour illustrer cela, supposons que la vente suivante est effectuée au client AC
 | Compte général | Type de validation | Débit | Crédit |
 |--------------------|------------------|-----------|------------|
 | 401100-002-023-    | Produit          |           | 100        |
-| 130100-002-        | Client - Solde | 100       |            |
+| 130100-002-        | Client – Solde | 100       |            |
 
 Ensuite, l’utilisateur transfère le solde dû d’ACME vers la compagnie d’assurance, dans un N° de document du journal des paiements de la Comptabilité fournisseur. La compagnie d’assurance est paramétrée comme assurance du client.
 
@@ -172,22 +170,22 @@ Notez que l’entrée ci-dessus est contenue dans un N° de document. Ce N° de 
 
 | N° document | Compte | Type de validation | Montant dans la devise de transaction |
 |-------------|-------------|------------------|------------------------------------|
-| ARPAYM001   | 130100-002- | Client - Solde | 100,00                             |
-| ARPAYM001   | 130100-002- | Client - Solde | -100,00                            |
+| ARPAYM001   | 130100-002- | Client – Solde | 100,00                             |
+| ARPAYM001   | 130100-002- | Client – Solde | -100,00                            |
 
 Ensuite, supposez que vous recevez un paiement du client d’assurance pour 98,00 et que vous décidez de régler le paiement avec la facture créée par le transfert de solde. Cela entraîne la validation du N° de document suivant. Il peut y avoir une attente que le règlement utilise les dimensions financières de la facture d’origine, mais ce n’est pas possible car il n’y a pas de document de facture pour le client d’assurance. Notez que par défaut, les dimensions de répartition sur l’escompte de règlement proviennent de la transaction client créée lors du transfert, pas du compte de produit de la facture d’origine. La valeur par défaut est le résultat de l’utilisation d’un N° de document pour transférer les soldes.
 
 | N° document | Compte | Type de validation | Débit | Crédit |
 |-------------|-------------|------------------|-----------|------------|
 | ARPAYM002   | 110110-002- | Banque             | 98.00     |            |
-| ARPAYM002   | 130100-002- | Client - Solde |           | 98.00      |
+| ARPAYM002   | 130100-002- | Client – Solde |           | 98.00      |
 
 Dans le N° de document associé pour l’escompte de règlement, la valeur par défaut de la dimension financière provient de la transaction client créée lors du transfert, car le transfert comporte plusieurs clients.
 
 | N° document | Compte | Type de validation       | Débit | Crédit |
 |-------------|-------------|------------------------|-----------|------------|
-| ARP-00001   | 403300-002- | Client - Escompte de règlement | 2.00      |            |
-| ARP-00001   | 130100-002- | Client - Solde       |           | 2.00       |
+| ARP-00001   | 403300-002- | Client – Escompte de règlement | 2.00      |            |
+| ARP-00001   | 130100-002- | Client – Solde       |           | 2.00       |
 
 Si l’utilisateur n’est pas satisfait de la valeur par défaut des dimensions financières pour l’escompte de règlement, au lieu d’un N° de document, plusieurs N° de documents doivent être utilisés pour enregistrer le transfert de solde. Ce scénario doit être effectué lors de la création d’un avoir pour le client dont le solde est déplacé DE, et une note ou une facture de débit créée pour le client VERS lequel le solde est déplacé. L’exemple suivant montre comment plusieurs N° de documents peuvent être entrés dans le journal des paiements de la Comptabilité client pour transférer le solde, au lieu d’utiliser un N° de document, comme illustré précédemment dans cet exemple.
 
@@ -201,14 +199,14 @@ Cela signifie que lorsque le client d’assurance paie 98,00 avec le N° de docu
 | N° document | Compte | Type de validation | Débit | Crédit |
 |-------------|-------------|------------------|-----------|------------|
 | ARPAYM003   | 110110-002- | Banque             | 98.00     |            |
-| ARPAYM003   | 130100-002  | Client - Solde |           | 98.00      |
+| ARPAYM003   | 130100-002  | Client – Solde |           | 98.00      |
 
 Sur le N° de document associé de l’escompte de règlement, les dimensions financières sont utilisées dans le compte de produit de compensation affiché sur le N° de document ARPAYM002.
 
 | N° document | Compte     | Type de validation       | Débit | Crédit |
 |-------------|-----------------|------------------------|-----------|------------|
-| ARP-00001   | 403300-002-023- | Client - Escompte de règlement | 2.00      |            |
-| ARP-00001   | 130100-002-     | Client - Solde       |           | 2.00       |
+| ARP-00001   | 403300-002-023- | Client – Escompte de règlement | 2.00      |            |
+| ARP-00001   | 130100-002-     | Client – Solde       |           | 2.00       |
 
 ### 
 

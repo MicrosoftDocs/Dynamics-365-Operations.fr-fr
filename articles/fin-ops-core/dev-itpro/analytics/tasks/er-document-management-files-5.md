@@ -1,8 +1,7 @@
 ---
-title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 - Modifier et exécuter le format)
+title: ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 – Modifier et exécuter le format)
 description: Cette rubrique décrit comment configurer un format de gestion des états électroniques pour utiliser les fichiers de gestion des documents dans la sortie de gestion des états électroniques (pièces jointes). (Partie 5)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6062945dfea0eec02e5055e9ebe697189267e051
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f954b76a09bf7c5edd4c608d400318fbd9386778
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564808"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749091"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 - Modifier et exécuter le format)
+# <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Utiliser les fichiers de gestion des documents dans les sorties de format (Partie 5 – Modifier et exécuter le format)
 
 [!include [banner](../../includes/banner.md)]
 

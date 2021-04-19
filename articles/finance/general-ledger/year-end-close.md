@@ -2,11 +2,9 @@
 title: Clôture de fin d’exercice
 description: Cette rubrique décrit le paramétrage et les étapes nécessaires pour exécuter le processus de clôture de fin d’exercice dans la comptabilité.
 author: kweekley
-manager: AnnBe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f31258b610e56249355fb84291b864e318a6e174
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cdb81df1701851330b0501c03e41eb10e639bc77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842318"
 ---
 # <a name="year-end-close"></a>Clôture de fin d’exercice
 
@@ -68,7 +66,7 @@ Une fois les entités juridiques ajoutées, définissez les comptes principaux d
 
 L’onglet **Dimension financière** sert à définir les dimensions financières utilisées dans la transaction d’ouverture. Notez que les paramètres que vous définissez ne sont pertinents que dans l’entité juridique sélectionnée dans la grille **Entités juridiques**. Vous répèterez le paramétrage pour chaque entité juridique de la grille. 
 
-L’option **Transférer les dimensions du bilan** sert à définir si les dimensions financières dans les transactions validées dans les comptes de bilan doivent être conservées dans la transaction d’ouverture. Il est recommandé de définir cette option sur **Oui**. L’option **Transférer les dimensions du résultat** sert à définir quelles dimensions financières des transactions validées dans le compte de résultat seront transférées vers le compte principal de bénéfices non répartis. Tout d’abord, identifiez les dimensions financières concernant l’entité juridique sélectionnée. Cela inclut toutes les dimensions financières validées au cours de l’année, même si la dimension financière ne fait pas partie d’une structure de compte active. Ensuite, définissez chaque dimension comme **Clôturer individuellement** ou **Clôturer tout**.  La valeur par défaut est **Clôturer tout**, qui conserve les valeurs d’origine de dimension financière des transactions validées et les utilise pour créer les soldes d’ouverture pour le compte des bénéfices non répartis. Des soldes de départ distincts des bénéfices non répartis seront créés pour chaque combinaison unique de valeurs de dimension financière. Si **Clôturer individuellement** est sélectionné, toutes les transactions validées avec cette dimension financière sont résumées dans un solde d’ouverture de bénéfices non répartis pour la valeur de dimension entrée dans le champ après **Clôturer individuellement**. Par exemple, supposons que toutes les transactions pour l’exercice ont été validées avec la structure de compte Compte principal - Département. Dans la dimension financière Département dans le modèle, **Clôturer individuellement** est sélectionné, et la valeur 100 est entrée. Si le revenu total de toutes les transactions validées dans les départements 200, 300 et 400 est de 100 000 euros, un solde d’ouverture est créé pour les bénéfices non répartis - 100. Si vous sélectionnez **Clôturer individuellement** et laissez vierge la valeur de dimension financière, toutes les transactions seront validées dans les bénéfices non répartis avec cette valeur de dimension vierge. 
+L’option **Transférer les dimensions du bilan** sert à définir si les dimensions financières dans les transactions validées dans les comptes de bilan doivent être conservées dans la transaction d’ouverture. Il est recommandé de définir cette option sur **Oui**. L’option **Transférer les dimensions du résultat** sert à définir quelles dimensions financières des transactions validées dans le compte de résultat seront transférées vers le compte principal de bénéfices non répartis. Tout d’abord, identifiez les dimensions financières concernant l’entité juridique sélectionnée. Cela inclut toutes les dimensions financières validées au cours de l’année, même si la dimension financière ne fait pas partie d’une structure de compte active. Ensuite, définissez chaque dimension comme **Clôturer individuellement** ou **Clôturer tout**.  La valeur par défaut est **Clôturer tout**, qui conserve les valeurs d’origine de dimension financière des transactions validées et les utilise pour créer les soldes d’ouverture pour le compte des bénéfices non répartis. Des soldes de départ distincts des bénéfices non répartis seront créés pour chaque combinaison unique de valeurs de dimension financière. Si **Clôturer individuellement** est sélectionné, toutes les transactions validées avec cette dimension financière sont résumées dans un solde d’ouverture de bénéfices non répartis pour la valeur de dimension entrée dans le champ après **Clôturer individuellement**. Par exemple, supposons que toutes les transactions pour l’exercice ont été validées avec la structure de compte Compte principal – Département. Dans la dimension financière Département dans le modèle, **Clôturer individuellement** est sélectionné, et la valeur 100 est entrée. Si le revenu total de toutes les transactions validées dans les départements 200, 300 et 400 est de 100 000 euros, un solde d’ouverture est créé pour les bénéfices non répartis – 100. Si vous sélectionnez **Clôturer individuellement** et laissez vierge la valeur de dimension financière, toutes les transactions seront validées dans les bénéfices non répartis avec cette valeur de dimension vierge. 
 
 Le processus de clôture de fin d’exercice ne s’applique pas aux structures de compte. Cela est dû au fait que les structures de compte peuvent changer tout au long d’un exercice et qu’il n’est pas toujours possible d’identifier la structure de compte concernée en raison de ces modifications.  Lorsque des transactions d’ouverture sont créées, les soldes seront transférés avec les dimensions financières telles qu’elles ont été définies dans le modèle de clôture de fin d’exercice. Les entrées de soldes d’ouverture ne peuvent plus inclure de dimensions financières dans la structure de compte actuelle et dans les combinaisons de segments qui ne sont plus valides dans la structure de compte actuelle. Si votre organisation souhaite exclure une dimension financière pour le solde d’ouverture du compte de bénéfices non répartis, définissez la dimension financière sur **Clôturer individuellement** et laissez vierge la valeur de la dimension.
 

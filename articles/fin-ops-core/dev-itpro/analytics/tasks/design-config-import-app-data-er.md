@@ -2,7 +2,6 @@
 title: Créer des configurations d’états électroniques pour analyser des documents entrants
 description: Cette procédure décrit comment créer des configurations d’états électroniques pour analyser un document électronique entrant.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7235d75aee3b8fdf39492cfbc1760bf6eae4b82e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5b503c17b395c2ef45ca4d74c8573d859509c503
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562854"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745059"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Créer des configurations d’états électroniques pour analyser des documents entrants
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit comment créer des configurations d’états électroniques pour analyser un document électronique entrant. Dans cette procédure, vous importerez les configurations ER requises qui ont été créées pour la société fictive, Litware, Inc., puis les utiliserez pour l’analyse des documents électroniques entrants. Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « Génération d’états électroniques - Créer un fournisseur de configuration et le marquer comme actif ».
+Cette procédure décrit comment créer des configurations d’états électroniques pour analyser un document électronique entrant. Dans cette procédure, vous importerez les configurations ER requises qui ont été créées pour la société fictive, Litware, Inc., puis les utiliserez pour l’analyse des documents électroniques entrants. Pour réaliser les étapes de cette procédure, vous devez commencer par effectuer la procédure, « Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif ».
 
 Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté.
 

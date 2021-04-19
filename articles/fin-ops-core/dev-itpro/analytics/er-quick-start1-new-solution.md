@@ -2,7 +2,6 @@
 title: Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 description: Cette rubrique explique comment concevoir une solution de gestion des états électroniques (ER) pour imprimer un rapport personnalisé.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562609"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743725"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 
@@ -751,7 +750,7 @@ Par défaut, un document généré est nommé en utilisant l’alias de l’util
 
 1. Dans la page **Concepteur de formats**, sélectionnez l’élément racine **Rapport**.
 2. Sur l’onglet **Mise en correspondance**, sélectionnez **Modifier le nom du fichier**.
-3. Dans le champ **Formule**, entrez **CONCATENATE (\@"GER\_LABEL:ReportTitle", " - ", DATETIMEFORMAT(SESSIONNOW(), "yyyy-MM-dd hh-mm-ss"))**.
+3. Dans le champ **Formule**, entrez **CONCATENATE (\@"GER\_LABEL:ReportTitle", " – ", DATETIMEFORMAT(SESSIONNOW(), "yyyy-MM-dd hh-mm-ss"))**.
 4. Sélectionnez **Enregistrer**, puis fermez l’éditeur de formule.
 5. Sélectionnez **Enregistrer**.
 

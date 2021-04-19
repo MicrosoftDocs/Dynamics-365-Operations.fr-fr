@@ -2,7 +2,6 @@
 title: Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version 7.0.1 de l’application Microsoft Dynamics AX. Cette version a été publiée en mai 2016 et a pour numéro de version 7.0.1265.23014.
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7da0eba072aba08b4da655cf680af9282278f34f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f1d0361da03f2fc4aaaa749d632192265483db2d
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564673"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752816"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nouveautés ou modifications apportées à la version 7.0.1 de l’application Dynamics AX (mai 2016)
 
@@ -38,7 +37,7 @@ Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifi�
 | Configurez un état électronique pour entrer des données dans les colonnes générées de manière dynamique d’un document électronique qui est créé au format de feuille de calcul OPENXML. | Un état électronique peut entrer des données dans une feuille de calcul OPENXML qui est générée, par la réplication des colonnes horizontalement. Par conséquent, la même configuration d’états électroniques peut être réutilisée pour générer des documents électroniques ayant un nombre différent de colonnes générées de façon dynamique. |
 | Configurez les destinations d’états électroniques afin que le résultat d’un format de sortie soit dirigé vers une destination spécifique : fichier, courrier électronique ou archive (dossier Microsoft SharePoint ou stockage Microsoft Azure). | Auparavant, lorsque vous exécutiez une configuration d’état électronique, une zone de message apparaissait nécessitant une de l’utilisateur pour enregistrer ou ouvrir un fichier. Vous pouvez maintenant configurer une destination pour chaque configuration de format et pour chaque composant de sortie (un dossier ou un fichier) séparément. Les utilisateurs qui disposent des droits d’accès appropriés peuvent également modifier les paramètres de destination au moment de l’exécution. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV - Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV – Microsoft Dynamics AX Retail
 
 | Que pouvez-vous faire ? | Pourquoi est-ce important ? |
 |------------------|------------------------|

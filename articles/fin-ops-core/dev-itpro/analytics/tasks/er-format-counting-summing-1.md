@@ -1,8 +1,7 @@
 ---
-title: ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 - Créer un format)
+title: ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 – Créer un format)
 description: Cette rubrique décrit comment configurer un format de gestion des états électroniques pour effectuer le comptage et la somme en fonction des données de la sortie de texte déjà générée. (Partie 1)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 64bf9f48319029e835f9e3fe2b888625100cc408
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3f1db144b2bfafa72abeaa92c6b21de717e4acbf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565140"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749043"
 ---
-# <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 - Créer un format)
+# <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER Configurer le format pour effectuer le comptage et la synthèse (Partie 1 – Créer un format)
 
 [!include [banner](../../includes/banner.md)]
 

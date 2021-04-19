@@ -2,7 +2,6 @@
 title: Applications Finance and Operations en France
 description: Cette rubrique fournit des informations sur la disponibilité des applications Finance and Operations dans les centres de données de France.
 author: tfehr
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: France
 ms.author: tfehr
 ms.search.validFrom: 2019-07-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4033ef33cc93d43424ea74181c85af2f9e22f31f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d4c1f77e511c1d23029cb2b75ba5dfcb02fa5c3e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567434"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744815"
 ---
 # <a name="finance-and-operations-apps-in-france"></a>Applications Finance and Operations en France
 

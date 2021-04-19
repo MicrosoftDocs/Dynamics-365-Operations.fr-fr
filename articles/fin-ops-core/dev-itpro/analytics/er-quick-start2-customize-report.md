@@ -2,7 +2,6 @@
 title: Ajuster un format de gestion des états électroniques pour générer un document électronique personnalisé
 description: Cette rubrique explique comment ajuster un format de gestion des états électroniques fourni par Microsoft afin de générer un document électronique personnalisé.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c643c913d9bc9233c891709593dff995284e2e5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568995"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743651"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajuster un format de gestion des états électroniques pour générer un document électronique personnalisé
 
@@ -216,12 +215,12 @@ Vous devez entrer un nouveau paiement fournisseur en utilisant une [proposition 
 Vous devez configurer le mode de paiement électronique afin qu’il utilise la configuration du format de gestion des états électroniques importée.
 
 1. Accédez à **Comptabilité fournisseur** \> **Paramétrage des paiements** \> **Modes de paiement**.
-2. Sur la page **Modes de paiement - fournisseurs**, sélectionnez le mode de paiement **Électronique** dans le volet gauche.
+2. Sur la page **Modes de paiement – fournisseurs**, sélectionnez le mode de paiement **Électronique** dans le volet gauche.
 3. Sélectionnez **Modifier**.
 4. Dans l’organisateur **Formats de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK)**.
 
-    ![Page Modes de paiement - fournisseurs](./media/er-quick-start2-method-of-payment1.png)
+    ![Page Modes de paiement – fournisseurs](./media/er-quick-start2-method-of-payment1.png)
 
 6. Sélectionnez **Enregistrer**.
 
@@ -343,12 +342,12 @@ Pour utiliser la version provisoire d’un format de gestion des états électro
 Vous devez configurer le mode de paiement électronique afin que votre format de gestion des états électroniques personnalisé soit utilisé pour traiter les paiements fournisseur.
 
 1. Accédez à **Comptabilité fournisseur** \> **Paramétrage des paiements** \> **Modes de paiement**.
-2. Sur la page **Modes de paiement - fournisseurs**, sélectionnez le mode de paiement **Électronique** dans le volet gauche.
+2. Sur la page **Modes de paiement – fournisseurs**, sélectionnez le mode de paiement **Électronique** dans le volet gauche.
 3. Sélectionnez **Modifier**.
 4. Dans l’organisateur **Format de fichier**, définissez l’option **Format d’exportation électronique général** sur **Oui**.
 5. Dans le champ **Exporter la configuration du format**, sélectionnez la configuration de format **BACS (UK custom)**.
 
-    ![Page Modes de paiement - fournisseurs](./media/er-quick-start2-method-of-payment2.png)
+    ![Page Modes de paiement – fournisseurs](./media/er-quick-start2-method-of-payment2.png)
 
 6. Sélectionnez **Enregistrer**.
 

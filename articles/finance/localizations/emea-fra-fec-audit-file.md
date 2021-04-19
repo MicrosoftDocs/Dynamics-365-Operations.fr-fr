@@ -2,11 +2,9 @@
 title: Génération du fichier d’audit standard pour la France (FEC)
 description: Cette rubrique décrit le processus de génération du fichier d’audit standard pour la France (FEC) dans Microsoft Dynamics 365 Finance.
 author: anasyash
-manager: AnnBe
 ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4008b1b6a912fbb6c3a2d689923197bb93e657e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cb2324ad158b548c4a35e6a74e110058e0326c32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206082"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826080"
 ---
 # <a name="generate-the-standard-audit-file-for-france-fec"></a>Génération du fichier d’audit standard pour la France (FEC)
 
@@ -37,7 +35,7 @@ Avant de générer un fichier d’audit FEC, vous devez :
 1. Accédez à **Comptabilité générale** > **Tâches périodiques** > **Exportation de données** pour ouvrir la page **Exportation de données**.
 2. Dans le champ **Mise en correspondance des formats**, sélectionnez **Fichier d’audit FEC français**.
 3. Cliquez sur **OK**.
-4. Dans la page **Paramètres de génération d’états électroniques**, entrez les dates de début et de fin pour la période dans les champs **Période - date de début** et **Période - Date de fin**. Cliquez sur **OK**.
+4. Dans la page **Paramètres de génération d’états électroniques**, entrez les dates de début et de fin pour la période dans les champs **Période – date de début** et **Période – Date de fin**. Cliquez sur **OK**.
 5. Examinez le fichier généré.
 
 ## <a name="review-the-standard-audit-file"></a>Consultez le fichier d’audit standard

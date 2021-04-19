@@ -2,11 +2,9 @@
 title: Amortissement dégressif fiscal
 description: La méthode d’amortissement dégressif fiscal est une méthode d’amortissement utilisée en France. Les montants d’amortissement sont calculés à l’aide de la méthode d’amortissement dégressif et de la méthode d’amortissement linéaire. Le plus grand des deux montants d’amortissement calculés est ensuite utilisé comme montant d’amortissement dégressif fiscal.
 author: Anasyash
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetRBSLFactorTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: France
 ms.author: anasyash
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a471398ace210bb7751d9c56a89873c3e21a93bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d4e5d30bbd4a90e987de5315b5792c7d9fc356be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836855"
 ---
 # <a name="rbsl-depreciation"></a>Amortissement dégressif fiscal
 

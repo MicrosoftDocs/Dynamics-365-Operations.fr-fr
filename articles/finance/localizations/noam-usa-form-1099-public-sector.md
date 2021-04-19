@@ -2,11 +2,9 @@
 title: Écran 1099 dans le secteur public
 description: Cet article donne des conseils et des informations sur la manière de configurer la fonctionnalité du formulaire 1099 de déclaration d’honoraires pour la comptabilité fournisseur dans le secteur public.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransVoucher, SysConfiguration, Tax1099Summary, VendTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45526b4c726b279867a2d3249f6e6c62eee8cd2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f185b09f42145c8ae019479d6226533505d3d448
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236172"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813956"
 ---
 # <a name="form-1099-in-the-public-sector"></a>Écran 1099 dans le secteur public
 

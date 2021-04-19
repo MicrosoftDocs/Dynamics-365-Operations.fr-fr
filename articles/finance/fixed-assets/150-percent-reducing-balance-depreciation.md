@@ -2,11 +2,9 @@
 title: Amortissement dégressif de 150 %
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif de 150 %.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4edc868b76d466c41be8036b962730db90eeb68a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1c6b7e92ea8b20123c0b1c1747c49847b0e2420
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249435"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827168"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Amortissement dégressif de 150 %
 
@@ -66,7 +64,7 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Exemple d’amortissement dégressif de 150 %
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Prix d’acquisition               | 11 000 |
 | Valeur résiduelle                  | 1 000  |
@@ -74,7 +72,7 @@ Si vous sélectionnez **Exercice** comme année d’amortissement, les options s
 | Années de durée de vie             | 5      |
 | Pourcentage d’amortissement annuel | 30 %    |
 
-La méthode d'amortissement dégressif de 150 % divise 150 % par le nombre d'années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
+La méthode d’amortissement dégressif de 150 % divise 150 % par le nombre d’années de durée de vie. Le pourcentage ainsi obtenu est multiplié par la valeur comptable nette de l’actif afin de déterminer le montant d’amortissement pour chaque année.
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable             | Valeur comptable nette à la fin de l’exercice |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|

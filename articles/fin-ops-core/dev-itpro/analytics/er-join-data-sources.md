@@ -2,7 +2,6 @@
 title: Utilisation des sources de données JOIN dans des mises en correspondance de modèle ER pour obtenir des données de plusieurs tables d’application
 description: Cette rubrique explique comment utiliser les sources de données de type JOIN dans la gestion des états électroniques (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: e872ff38d2115273fe76f5a2f54197c55cc7a2e0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565539"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743975"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilisation des sources de données JOIN pour obtenir des données de plusieurs tables d’application dans des mises en correspondance de modèle de gestion des états électroniques (ER)
 
@@ -100,7 +99,7 @@ Au préalable, vous devez également télécharger sur le [Centre de télécharg
     3. Sélectionnez **Parcourir** pour rechercher le fichier **Mise en forme pour apprendre les sources de données JOIN.version.1.1.xml**.
     4. Cliquez sur **OK**.
 5. Dans l’arborescence de configurations, développez l’élément **Modèle pour apprendre les sources de données JOIN** ainsi que d’autres éléments de modèle (le cas échéant).
-6. Observez la liste des configurations ER dans l’arborescence, ainsi que les détails de la version sur l’organisateur **Versions** - ils seront utilisés comme source de données pour votre exemple d’état.
+6. Observez la liste des configurations ER dans l’arborescence, ainsi que les détails de la version sur l’organisateur **Versions** – ils seront utilisés comme source de données pour votre exemple d’état.
 
     ![Page des configurations de gestion des états électroniques](./media/GER-JoinDS-ConfigurationsTree.PNG)
 

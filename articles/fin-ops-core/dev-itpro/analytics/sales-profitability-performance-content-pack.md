@@ -2,7 +2,6 @@
 title: Contenu Power BI Performances de rentabilité et de ventes
 description: Cette rubrique décrit ce qui est inclus dans le contenu Power BI des performances de rentabilité et de vente.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6eb5a78c6ac4ad13ad1d263c557359ad2f789cc0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a876be357bdeea485643aeeebdbc308bb8cf54df
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569910"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754318"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenu Power BI Performances de rentabilité et de ventes
 
@@ -92,7 +91,7 @@ Le tableau suivant indique comment les mesures globales clés de l’entité Lig
 | Mesure           | Calcul                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
 | Profit brut      | SUM(Produit – COGS – Commission –Taxe (y compris dans le montant de la ligne de la facture client))          |
-| Marge brute      | SOMME(Produit brut / (Produit - Taxe (y compris dans le montant de la ligne de la facture client)))             |
+| Marge brute      | SOMME(Produit brut / (Produit – Taxe (y compris dans le montant de la ligne de la facture client)))             |
 | Produit l’année dernière | Produit l’année dernière = CALCULATE(SUM(’Lignes de facture’\[Produit\]), SAMEPERIODLASTYEAR(Dates\[Date\]) |
 
 Les dimensions clés suivantes du cube de vente sont utilisées comme filtres pour diviser les mesures globales afin d’atteindre une meilleure granularité et d’obtenir une analyse plus approfondie.

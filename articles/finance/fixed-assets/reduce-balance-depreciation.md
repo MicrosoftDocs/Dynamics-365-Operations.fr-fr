@@ -2,11 +2,9 @@
 title: Effectuer un amortissement dégressif
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement dégressif.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69228aec217826780ceb91771028a6a5a180d037
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25d34392819d9f687c306c1bf52153e0d074371a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826225"
 ---
 # <a name="reduce-balance-depreciation"></a>Effectuer un amortissement dégressif
 
@@ -73,9 +71,9 @@ En utilisant la méthode d’amortissement dégressif, les 30 % de la base d’a
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable nette à la fin de l’exercice |
 |--------|-------------------------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) \* 30 % = 3 000           | (11 000 - 1 000) - 3 000 = 7 000      |
-| Année 2 | (7 000 - 1 000) \* 30 % = 1 800            | (7 000 -1 800) = 5 200                |
-| Année 3 | (5 200 - 1 000) \* 30 % = 1 260            | (5 200 - 1 260) = 3 940               |
+| Année 1 | (11 000 – 1 000) \* 30 % = 3 000           | (11 000 – 1 000) – 3 000 = 7 000      |
+| Année 2 | (7 000 – 1 000) \* 30 % = 1 800            | (7 000 -1 800) = 5 200                |
+| Année 3 | (5 200 – 1 000) \* 30 % = 1 260            | (5 200 – 1 260) = 3 940               |
 
 
 -

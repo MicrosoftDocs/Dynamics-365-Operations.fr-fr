@@ -2,11 +2,9 @@
 title: Automatisation du processus de recouvrement
 description: Cette rubrique décrit le processus de configuration des stratégies de processus de recouvrement qui identifient automatiquement les factures client qui nécessitent un rappel par e-mail, une activité de recouvrement ou une lettre de recouvrement à envoyer au client.
 author: panolte
-manager: AnnBe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: ce83b8e66abece2c40ca0a7ca3bf67894b97c287
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582749"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827624"
 ---
 # <a name="collections-process-automation"></a>Automatisation du processus de recouvrements
 
@@ -114,12 +112,12 @@ Les tableaux suivants répertorient les pages et les champs à partir desquels l
 |     Afficher un aperçu de l’affectation de client     |               |     Affichez la stratégie attribuée à un client spécifique.    |
  
  ### <a name="process-simulation"></a>Traiter la simulation
-|     Page                              |     Champ     |      Description                                                   |
+|     Page                              |     Champ     |      Description                                                  |
 |------------------------------------   |-------------- |-----------------------------------------------------------    |
 |    Traiter la simulation                 |               |     Prévisualisez les actions qui seront créées si l’automatisation de processus sélectionnée est exécutée à ce moment. |
 
 ### <a name="parameters"></a>Paramètres
-|     Page                                                                  |     Champ                                             |      Description                               |
+|     Page                                                                  |     Champ                                             |      Description                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Pourcentage de clients par tâche de traitement par lots          |     Paramètre pour déterminer le nombre de tâches de traitement par lots par processus d’automatisation.                                          |
 |     Paramètres Comptabilité client > Automatisation du processus de recouvrement     |     Valider automatiquement les lettres de relance           |     Les types d’action de lettre de relance publieront la lettre pendant l’automatisation.                                      |

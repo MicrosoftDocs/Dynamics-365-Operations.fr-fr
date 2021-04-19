@@ -2,7 +2,6 @@
 title: États financiers
 description: La génération d’états financiers permet aux professionnels financiers et commerciaux de créer, tenir à jour, déployer et afficher les tableaux d’analyse.
 author: aprilolson
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b6682295aa53acd5d3d6964c56ff7bcfcd59379d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0dbe9621760fbb56eb8123d58f72e2fb0080c4f4
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568797"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743401"
 ---
 # <a name="financial-reporting"></a>Financial Reporting
 
@@ -36,8 +35,8 @@ La page **Configuration des états financiers** contient une liste de toutes les
 
 La page **Configuration des états financiers** comporte deux sections qui déterminent les données pour lesquelles vous générez un état dans les états financiers :
 
-- **Onglet Dimensions** - Comme chaque société utilise des dimensions et des structures de compte différentes, il n’existe aucun moyen de déterminer l’ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l’ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
-- **Onglet Attributs** - Permet d’indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d’états. La génération d’un état sur le fournisseur et le client n’est utile que si vous n’entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l’intégration.
+- **Onglet Dimensions** – Comme chaque société utilise des dimensions et des structures de compte différentes, il n’existe aucun moyen de déterminer l’ordre dans lequel les utilisateurs souhaitent afficher toutes les dimensions financières dans les états. Cette page vous permet de définir l’ordre dans lequel les dimensions financières doivent apparaître lorsque vous créez et affichez un état dans les états financiers.
+- **Onglet Attributs** – Permet d’indiquer si vous souhaitez utiliser **Fournisseurs** et **Clients** comme attributs pour le filtrage et la conception d’états. La génération d’un état sur le fournisseur et le client n’est utile que si vous n’entrez pas plusieurs fournisseurs ou clients dans un document unique lors de la validation des transactions. Si vous sélectionnez Fournisseur et/ou Client, cela ajoute du temps supplémentaire à l’intégration.
 
 ## <a name="financial-reporting-components"></a>Composants de la génération d’états financiers
 Les composants suivants la génération d’états financiers sont simples à utiliser pour créer, afficher et planifier les rapports.

@@ -2,7 +2,6 @@
 title: Configurer l’importation des données à partir de SharePoint
 description: Cette rubrique décrit la procédure d’importation des données à partir de Microsoft SharePoint.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 5cf136f40a1f787b2388d648c475d4fdf1a0f9ca
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562308"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753790"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurer l’importation des données à partir de SharePoint
 
@@ -73,9 +72,9 @@ Pour stocker des fichiers d’état électroniques dans un emplacement SharePoin
 
 4. (Facultatif) Créez les dossiers suivants dans lesquels les fichiers peuvent être stockés après l’importation. 
 
-    - Dossier d’archivage de fichiers - Ce dossier serait dédié aux fichiers importés avec succès.
-    - Dossier d’avertissement de fichiers - Ce dossier serait dédié aux fichiers importés avec un avertissement.
-    - Dossier d’erreur de fichiers - Ce dossier serait dédié aux fichiers dont l’importation aurait échoué.
+    - Dossier d’archivage de fichiers – Ce dossier serait dédié aux fichiers importés avec succès.
+    - Dossier d’avertissement de fichiers – Ce dossier serait dédié aux fichiers importés avec un avertissement.
+    - Dossier d’erreur de fichiers – Ce dossier serait dédié aux fichiers dont l’importation aurait échoué.
 
 4. Accédez à **Administration d’organisation > Gestion des documents > Types de documents**.
 5. Créez les types de documents suivants qui seront utilisés pour accéder aux dossiers SharePoint que vous avez créé. Pour obtenir des instructions, voir [Configurer les types de documents](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).

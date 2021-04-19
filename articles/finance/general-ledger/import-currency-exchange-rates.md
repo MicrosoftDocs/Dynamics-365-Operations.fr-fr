@@ -2,11 +2,9 @@
 title: Importer les taux de change des devises
 description: Cette rubrique fournit des informations sur les exigences en matière d’importation des taux de référence de change publiés par les fournisseurs de taux de change.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249117"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823738"
 ---
 # <a name="import-currency-exchange-rates"></a>Importer les taux de change des devises
 
@@ -35,9 +33,8 @@ Les sections suivantes décrivent le flux global d’informations utilisé pour 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurer un fournisseur de taux de change
 Avant de pouvoir importer des taux de change, vous devez paramétrer les informations requises par les fournisseurs qui offrent des taux de change. Utilisez la page **Configurer les fournisseurs de taux de change** pour sélectionner les fournisseurs de taux de change. Certains fournisseurs de taux de change sont inclus avec les données de démonstration dans Dynamics 365 Finance. Le tableau suivant décrit les contrôles de cette page.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Champ** | **Description**                                                                                                                                                                                                             |
+| Champ | Description                   |
+|-----------|-----------------------------------|
 | **Nom**  | Nom du fournisseur de taux de change.                                                                                                                                                                                     |
 | **Clé**   | Identificateur unique d’une partie des informations de configuration requise par le fournisseur. Ces informations sont automatiquement ajoutées pour chaque fournisseur de taux de change que vous ajoutez. |
 | **Value** | Informations pour chaque clé. Ces informations sont ajoutées pour chaque fournisseur de taux de change que vous ajoutez.                                                                                         |
@@ -45,9 +42,8 @@ Avant de pouvoir importer des taux de change, vous devez paramétrer les informa
 ## <a name="import-currency-exchange-rates"></a>Importer les taux de change des devises
 Vous pouvez importer des taux de change à partir de la source des fournisseurs de taux de change, puis les ajouter à la page **Taux de change des devises**. Utilisez la page **Importer les taux de change des devises** pour importer les taux de change. Le tableau suivant fournit des descriptions des champs obligatoires pour exécuter correctement l’importation.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Champ**                              | **Description**                                                                                                                                                                                                                                                                                                                                                             |
+| Champ | Description                   |
+|-----------|-----------------------------------|
 | **Type de taux de change**                 | Type de taux de change.                                                                                                                                                                                                                                                                                                                                                      |
 | **Fournisseur de taux de change**             | Fournisseur de taux de change.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importer à compter de**                       | Ce paramètre gère si l’importation doit s’effectuer à partir de la date actuelle ou à partir d’une plage de dates donnée. Si vous voulez utiliser une plage de dates, entrez ou sélectionnez les dates de début et de fin.                                                                                                                                                                                                                |

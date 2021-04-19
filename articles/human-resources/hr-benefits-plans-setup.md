@@ -2,11 +2,9 @@
 title: Création d’un plan d’avantages
 description: Configurez des plans d’avantages dans Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: da11799d3340798067fc03061159896f44750c77
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464276"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805728"
 ---
-# <a name="create-a-benefits-plan"></a>Création d’un plan d’avantages
+# <a name="create-a-benefit-plan"></a>Créer un régime de prestations
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -46,9 +44,8 @@ Cet article vous montre comment configurer des plans d’avantages sociaux dans 
    | **Programme** | Spécifie un programme auquel affecter éventuellement le plan. |
    | **Offre groupée** | Spécifie une offre groupée à laquelle affecter le plan. |
    | **Élément maître** | Spécifie si le plan est le plan général de l’offre groupée à laquelle il est affecté. |
-   | **État** | Indique l’état actuel du plan d’avantages. La valeur par défaut est Actif. Si vous modifiez le statut sur Inactif, le plan ne sera pas disponible en tant que sélection lors de l’inscription. |
    | **Valide à partir d’une date et heure** | Date et l’heure de début du plan. La date par défaut est la date système actuelle. |
-   | **Valide jusqu’à une date et heure** | Date et heure de fin du plan (le statut est défini sur Inactif). La valeur par défaut est 12/31/2154, ce qui signifie jamais. |
+   | **Valide jusqu’à une date et heure** | La date et l’heure de fin du plan. La valeur par défaut est 12/31/2154, ce qui signifie jamais. |
 
 4. Dans l’onglet **Configuration**, spécifiez des valeurs pour les champs suivants, selon le type de plan que vous créez :
 
@@ -56,18 +53,18 @@ Cet article vous montre comment configurer des plans d’avantages sociaux dans 
    | --- | --- | --- |
    | Médical (médical, dentaire, vision, HMO) | COBRA | Spécifie si le plan est éligible à COBRA (Consolidated Omnibus Budget Reconciliation Act). |
    | Médical (médical, dentaire, vision, HMO) | HIPAA | Spécifie si le plan est éligible à HIPAA (Health Insurance Portability and Accountability Act). |
-   | <ul><li>Médical (médical, dentaire, vision, HMO)</li><li>Autre (PTO, Fitness)</li><li>Other</li><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li><li>Épargne (par exemple, 401 (k))</li><li>FSA</li></ul> | Option avant impôt éligible | Spécifie si des contributions peuvent être versées au plan avant que les taxes soient appliquées. |
-   | <ul><li>Médical (médical, dentaire, vision, HMO)</li><li>Autre (PTO, Fitness)</li><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li><li>Épargne (par exemple, 401 (k))</li><li>FSA</li></ul> | Valider la taxe éligible | Spécifie si des contributions peuvent être versées au plan après que les taxes ont été appliquées. |
-   | <ul><li>Médical (médical, dentaire, vision, HMO)</li><li>Autre (PTO, Fitness)</li><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li><li>Épargne (par exemple, 401 (k))</li><li>FSA</li></ul> | Contributeur | Spécifie qui contribue au plan - l’employé, l’employeur ou les deux. |
-   | <ul><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li></ul> | Couverture minimale | Montant minimum de couverture d’assurance requis pour le plan. |
-   | <ul><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li></ul> | Couverture maximale | Montant maximum de couverture d’assurance requis pour le plan. |
-   | <ul><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li></ul> | Utiliser les incréments de couverture | Spécifie s’il faut valider que le montant de couverture correspond à un montant incrémentiel valide. |
-   | <ul><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li></ul> | Montant incrémentiel | Montant incrémentiel de couverture d’assurance pour le plan. Par exemple, si le montant incrémentiel est de 1 000, un employé ne peut pas avoir 200 500 $ d’assurance, il faudra arrondir à 201 000 $ ou descendre à 200 000 $. |
-   | <ul><li>Invalidité à long terme</li><li>ADD (assurance-vie de base, assurance-vie volontaire)</li></ul> | Sens incrémentiel | Spécifie le sens de l’arrondi, soit vers le haut soit vers le bas, lorsque le montant de la couverture n’est pas conforme à la valeur du montant incrémentiel. |
+   | Médical (médical, dentaire, vision, HMO)<br><br>Autre (PTO, Fitness)<br><br>Other<br><br>Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire)<br><br>Épargne (par exemple, 401 (k))<br><br>FSA | Option avant impôt éligible | Spécifie si des contributions peuvent être versées au plan avant que les taxes soient appliquées. |
+   | Médical (médical, dentaire, vision, HMO)<br><br>Autre (PTO, Fitness)<br><br>Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire)<br><br>Épargne (par exemple, 401 (k))<br><br>FSA | Valider la taxe éligible | Spécifie si des contributions peuvent être versées au plan après que les taxes ont été appliquées. |
+   | Médical (médical, dentaire, vision, HMO)<br><br>Autre (PTO, Fitness)<br><br>Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire)<br><br>Épargne (par exemple, 401 (k))<br><br>FSA | Contributeur | Spécifie qui contribue au plan – l’employé, l’employeur ou les deux. |
+   | Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire) | Couverture minimale | Montant minimum de couverture d’assurance requis pour le plan. |
+   | Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire) | Couverture maximale | Montant maximum de couverture d’assurance requis pour le plan. |
+   | Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire) | Utiliser les incréments de couverture | Spécifie s’il faut valider que le montant de couverture correspond à un montant incrémentiel valide. |
+   | Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire) | Montant incrémentiel | Montant incrémentiel de couverture d’assurance pour le plan. Par exemple, si le montant incrémentiel est de 1 000, un employé ne peut pas avoir 200 500 $ d’assurance, il faudra arrondir à 201 000 $ ou descendre à 200 000 $. |
+   | Invalidité à long terme<br><br>ADD (assurance-vie de base, assurance-vie volontaire) | Sens incrémentiel | Spécifie le sens de l’arrondi, soit vers le haut soit vers le bas, lorsque le montant de la couverture n’est pas conforme à la valeur du montant incrémentiel. |
    | ADD (assurance-vie de base, assurance-vie volontaire) | Preuve d’assurabilité | Spécifie si un employé doit fournir une preuve d’assurabilité. |
    | ADD (assurance-vie de base, assurance-vie volontaire) | Montant | Montant en devise comptable. Ce champ n’est actif que si la case à cocher Preuve d’assurabilité est cochée. |
-   | <ul><li>Épargne (par exemple, 401 (k))</li><li>FSA</li></ul> | Contribution annuelle minimale | Montant de contribution minimum requis pour le plan. |
-   | <ul><li>Épargne (par exemple, 401 (k))</li><li>FSA</li></ul> | Contribution annuelle maximale | Montant de contribution maximum requis pour le plan. |
+   | Épargne (par exemple, 401 (k))<br><br>FSA | Contribution annuelle minimale | Montant de contribution minimum requis pour le plan. |
+   | Épargne (par exemple, 401 (k))<br><br>FSA | Contribution annuelle maximale | Montant de contribution maximum requis pour le plan. |
    | Épargne (par exemple, 401 (k)) | Montant annuel maximal de l’employeur | Montant maximal qu’un employeur est autorisé à cotiser à un plan d’épargne salariale pendant une période d’avantages. Vous devez cocher la case Correspondance employeur pour utiliser ce champ. |
    | Épargne (par exemple, 401 (k)) | Correspondance employeur | Spécifie si l’employeur cotise au plan d’épargne salariale. |
    | Épargne (par exemple, 401 (k)) | Pourcentage de correspondance de l’employeur | Pourcentage d’une cotisation salariale que l’employeur égalera. |
@@ -122,7 +119,7 @@ Vous pouvez afficher les collaborateurs inscrits à un plan d’avantages sélec
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages**.
 
-2. Sélectionnez **Collaborateurs inscrits**.
+2. Sur l’onglet **Avantages** dans la barre de navigation, sélectionnez **Collaborateurs inscrits**.
 
 ## <a name="attach-coverage-options"></a>Joindre les options de couverture
 
@@ -130,7 +127,7 @@ Vous pouvez ajouter des options de couverture au plan d’avantages sélectionn�
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages**.
 
-2. Sélectionnez **Associer des options de couverture**.
+2. Sur l’onglet **Avantages** dans la barre de navigation, sélectionnez **Associer des options de couverture**.
 
 ## <a name="override-eligibility-rules"></a>Remplacement des règles d’éligibilité
 
@@ -138,7 +135,7 @@ Vous pouvez ajouter des collaborateurs à un plan en tant qu’exceptions aux r�
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages**.
 
-2. Sélectionnez **Remplacement des règles d’éligibilité**.
+2. Sur l’onglet **Avantages** dans la barre de navigation, sélectionnez **Remplacement des règles d’éligibilité**.
 
 ## <a name="view-attached-periods"></a>Affichages des périodes associées
 
@@ -146,21 +143,21 @@ Vous pouvez afficher une liste des périodes d’avantages disponibles.
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages**.
 
-2. Sélectionnez **Périodes**.
+2. Sélectionnez l’onglet **Périodes** dans la barre de navigation latérale.
 
-## <a name="view-plan-information"></a>Affichage d’informations sur le plan
+## <a name="view-plan-description"></a>Afficher la description du plan
 
-Vous pouvez fournir une description du plan pour aider les employés à choisir leurs avantages. Les informations sur le plan que vous saisissez ici s’affichent dans Libre-service employé lorsque vous survolez le plan dans la liste des options de couverture.
+Vous pouvez fournir une description du plan pour aider les employés à choisir leurs avantages. La description du plan que vous saisissez ici s’affiche dans le Libre service employé lorsque vous survolez le plan dans la liste des options de couverture.
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages**.
 
-2. Sélectionnez **Informations sur le plan**.
+2. Sur l’onglet **Avantages** dans la barre de navigation, sélectionnez **Description du plan**.
 
 ## <a name="view-flex-credit-programs"></a>Afficher les programmes de crédit flexible
 
 1. Dans l’espace de travail **Gestion des avantages**, sous **Plans**, sélectionnez **Plans d’avantages**.
 
-2. Sélectionnez **Programmes de crédits flexibles**.
+2. Sur l’onglet **Avantages** dans la barre de navigation, sélectionnez **Programmes de crédit flexible**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Terminologie du contrôle de gestion
 description: Cette rubrique définit les termes clés utilisées dans le contrôle de gestion.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6090cb50b603bbfe3947f579e072627e08730a10
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 66fe9b62c207338c8a34ec49a0299312d9f27c0d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208629"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841019"
 ---
 # <a name="cost-accounting-terminology"></a>Terminologie du contrôle de gestion
 
@@ -78,11 +76,11 @@ La classification des coûts regroupe les coûts en fonction de leurs caractéri
 
 Le comportement de coût classifie les coûts en fonction de leur comportement en relation aux modifications des activités professionnelles clées. Pour contrôler les coûts efficacement, la gestion doit comprendre le comportement de coût. Il existe trois types de modèles de comportement de coût : fixes, variables, et semi-variables.
 
-- **Coût fixe** - Un coût fixe est un coût qui ne varie pas à court terme, indépendamment des modifications au niveau de l’activité. Par exemple, un coût fixe peut être une dépense d’exploitation de base d’une entreprise, comme le loyer, qui n’est pas affecté si le niveau d’activité augmente ou diminue.
+- **Coût fixe** – Un coût fixe est un coût qui ne varie pas à court terme, indépendamment des modifications au niveau de l’activité. Par exemple, un coût fixe peut être une dépense d’exploitation de base d’une entreprise, comme le loyer, qui n’est pas affecté si le niveau d’activité augmente ou diminue.
 
-- **Coût variable** - Un coût variable change en fonction des modifications de niveau d’activité. Par exemple, un coût de matières direct spécifique est associé à chaque produit qui est vendu. Plus les produits sont vendus, plus il y a de coûts de matières directs.
+- **Coût variable** – Un coût variable change en fonction des modifications de niveau d’activité. Par exemple, un coût de matières direct spécifique est associé à chaque produit qui est vendu. Plus les produits sont vendus, plus il y a de coûts de matières directs.
 
-- **Coût semi-variable** - Les coûts semi-variables sont des coûts en partie fixes et en partie variables. Par exemple, les frais d’accès à Internet incluent des frais mensuels d’accès standard et des frais d’utilisation de la bande passante. Les frais mensuels d’accès standard sont un coût fixe, alors que les frais d’utilisation de la bande passante sont un coût variable.
+- **Coût semi-variable** – Les coûts semi-variables sont des coûts en partie fixes et en partie variables. Par exemple, les frais d’accès à Internet incluent des frais mensuels d’accès standard et des frais d’utilisation de la bande passante. Les frais mensuels d’accès standard sont un coût fixe, alors que les frais d’utilisation de la bande passante sont un coût variable.
 
 **Unité de contrôle des coûts**
 

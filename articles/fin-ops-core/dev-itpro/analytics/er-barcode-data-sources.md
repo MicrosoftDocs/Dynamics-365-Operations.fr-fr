@@ -2,7 +2,6 @@
 title: Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 description: Cette rubrique explique comment utiliser des sources de données de codes-barres pour générer des images de codes-barres.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: bf71caf2ff14fb815999e63d6b7ee91afccbdd1b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 08b9d03517a600cf46b1093cfa3bc454621eabd0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563677"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748363"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 
@@ -67,11 +66,11 @@ En utilisant une source de données du type **Code-barres**, vous pouvez génér
 
 Lorsque vous configurez une source de données **Code-barres**, vous pouvez définir des paramètres de rendu spécifiques qui sont utilisés pour générer une image :
 
-- **Largeur** - Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
-- **Hauteur** - Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
-- **Marge** - Spécifiez la taille de la marge du code-barres en pixels. La marge est la zone de chaque côté d’un code-barres qui doit être dégagée (zone silencieuse). Une valeur de **0** (zéro) indique que la marge par défaut est utilisée. La signification peut varier pour différents formats.
-- **Contenu de sortie** - Paramétrez la valeur sur **Oui** pour générer une image de code-barres qui contient les informations codées sous forme de texte. La valeur par défaut est **Non**.
-- **Codage** - Spécifiez le type de caractères qui sont encodés dans l’image de code-barres générée. Par défaut, l’encodage **UTF-8** est utilisé.
+- **Largeur** – Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
+- **Hauteur** – Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
+- **Marge** – Spécifiez la taille de la marge du code-barres en pixels. La marge est la zone de chaque côté d’un code-barres qui doit être dégagée (zone silencieuse). Une valeur de **0** (zéro) indique que la marge par défaut est utilisée. La signification peut varier pour différents formats.
+- **Contenu de sortie** – Paramétrez la valeur sur **Oui** pour générer une image de code-barres qui contient les informations codées sous forme de texte. La valeur par défaut est **Non**.
+- **Codage** – Spécifiez le type de caractères qui sont encodés dans l’image de code-barres générée. Par défaut, l’encodage **UTF-8** est utilisé.
 
 > [!IMPORTANT]
 > Lorsque vous ajoutez une nouvelle source de données **Code-barres**, vous devez la placer sous un autre élément (conteneur) en tant qu’élément imbriqué.
@@ -161,7 +160,7 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 7. Dans le volet Actions, sélectionnez **Test d’impression**.
 8. Dans la boîte de dialogue, définissez l’option **Format de chèque négociable** sur **Oui**, puis sélectionnez **OK**.
 
-    ![Boîte de dialogue Mise en page des chèques - Test d’impression](./media/er-barcode-data-source-check-layout.png)
+    ![Boîte de dialogue Mise en page des chèques – Test d’impression](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Examiner le chèque de paiement généré.
 

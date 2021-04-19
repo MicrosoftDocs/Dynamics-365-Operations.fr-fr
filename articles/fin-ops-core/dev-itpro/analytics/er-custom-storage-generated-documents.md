@@ -2,7 +2,6 @@
 title: Spécifier un emplacement personnalisé de stockage pour les documents générés
 description: Cette rubrique explique comment étendre la liste des emplacements de stockage pour les documents générés aux formats des états électroniques.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b71ad5a9701922eb94b1d611e2d3f6a945ce6c06
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562236"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753718"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Spécifier un emplacement personnalisé de stockage pour les documents générés
 
@@ -111,14 +110,14 @@ public DocuRef insertFile(
 
 L’événement **AttachingFile ()** est déclenché lorsque les destinations des états électroniques suivantes sont traitées :
 
-- **Archive** - Lorsque cette destination est utilisée, un nouvel enregistrement pour le format d’états électroniques exécuté est créé dans la table ERFormatMappingRunJobTable. Le champ **Archivé** dans cet enregistrement est défini sur **Faux**. Si le format d’états électroniques est exécuté avec succès, le document généré est joint à cet enregistrement, et l’événement **AttachingFile()** est déclenché. Le type de document sélectionné dans cette destination d’états électroniques détermine l’emplacement de stockage du fichier joint (stockage Microsoft Azure ou dossier Microsoft SharePoint ).
-- **Archive Tâche** - Lorsque cette destination est utilisée, un nouvel enregistrement pour le format d’états électronique exécuté est créé dans la table ERFormatMappingRunJobTable. Le champ **Archivé** dans cet enregistrement est défini sur **Vrai**. Si le format d’états électroniques est exécuté avec succès, le document généré est joint à cet enregistrement, et l’événement **AttachingFile()** est déclenché. Le type de document configuré dans les paramètres des états électroniques détermine l’emplacement de stockage du fichier joint (stockage Azure ou dossier Microsoft SharePoint).
+- **Archive** – Lorsque cette destination est utilisée, un nouvel enregistrement pour le format d’états électroniques exécuté est créé dans la table ERFormatMappingRunJobTable. Le champ **Archivé** dans cet enregistrement est défini sur **Faux**. Si le format d’états électroniques est exécuté avec succès, le document généré est joint à cet enregistrement, et l’événement **AttachingFile()** est déclenché. Le type de document sélectionné dans cette destination d’états électroniques détermine l’emplacement de stockage du fichier joint (stockage Microsoft Azure ou dossier Microsoft SharePoint ).
+- **Archive Tâche** – Lorsque cette destination est utilisée, un nouvel enregistrement pour le format d’états électronique exécuté est créé dans la table ERFormatMappingRunJobTable. Le champ **Archivé** dans cet enregistrement est défini sur **Vrai**. Si le format d’états électroniques est exécuté avec succès, le document généré est joint à cet enregistrement, et l’événement **AttachingFile()** est déclenché. Le type de document configuré dans les paramètres des états électroniques détermine l’emplacement de stockage du fichier joint (stockage Azure ou dossier Microsoft SharePoint).
 
 ![Page Paramètres de la gestion des états électroniques](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Configurer une destination des états électroniques
 
-1. Configurez la destination archivée pour un des éléments précédemment mentionnés (fichier, dossier, fusion, ou pièce jointe) du format des états électroniques que vous avez créé ou importé. Pour obtenir de l’aide, voir [États électroniques - Configurer des destinations](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Configurez la destination archivée pour un des éléments précédemment mentionnés (fichier, dossier, fusion, ou pièce jointe) du format des états électroniques que vous avez créé ou importé. Pour obtenir de l’aide, voir [États électroniques – Configurer des destinations](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Utilisez le type de document que vous avez ajouté plus tôt pour la destination configurée. (Pour l’exemple dans cette rubrique, le type de document est **FileX**.)
 
 ![Boîte de dialogue Paramètres de destination](media/er-extend-file-storages-destination.png)

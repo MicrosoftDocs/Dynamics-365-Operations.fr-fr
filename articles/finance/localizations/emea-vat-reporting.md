@@ -2,11 +2,9 @@
 title: Déclaration de TVA pour l’Europe
 description: Cette rubrique fournit des informations générales sur le paramétrage et la génération de la déclaration de TVA pour certains pays européens.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444726e6295fb127316af9c8382ccb4d25d28ce3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 743298a1c32f5fc706ad7a47d9b559569946889b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232004"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832662"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l’Europe
 
@@ -262,7 +260,7 @@ La déclaration de TVA pour chaque pays doit répondre aux exigences de la légi
 |----------------|---------------------------------------------------------------------------------|
 | Autriche        |  [Détails de la déclaration de TVA pour l’Autriche](emea-aut-vat-statement-details.md)         |
 | Belgique        |                                                                                 |
-| République tchèque |  [Relevé de TVA - République tchèque](emea-cze-vat-statement-details.md)   |
+| République tchèque |  [Relevé de TVA – République tchèque](emea-cze-vat-statement-details.md)   |
 | Estonie        |  [Détails de la déclaration de TVA pour l’Estonie](emea-est-vat-statement-details.md) |
 | Finlande        | [Déclaration de taxe pour la Finlande](emea-fin-sales-tax-payment-report-finland.md)          |
 | Allemagne        | [Déclaration de TVA pour l’Allemagne](emea-de-vat-declaration.md)                       |

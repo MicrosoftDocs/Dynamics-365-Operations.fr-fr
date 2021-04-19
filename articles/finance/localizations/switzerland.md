@@ -2,11 +2,9 @@
 title: Vue d’ensemble de la Suisse
 description: Cette rubrique fournit des liens vers des ressources de documentation pour la Suisse.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Switzerland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0baa05b60666659a3b7250bd3ef36f28b8abf0f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e77c92a73c2b52cb18038d62275ec124c01e934d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228056"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832575"
 ---
 # <a name="switzerland-overview"></a>Vue d’ensemble de la Suisse
 

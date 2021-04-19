@@ -2,7 +2,6 @@
 title: Données principales fournisseur intégrées
 description: Cette rubrique décrit l’intégration des données fournisseur entre les applications Finance and Operations et Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 272962b58d8d654c2640a51ef2dbdcd1b05cf8c9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560311"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750616"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 
@@ -53,7 +52,7 @@ Si vous ne souhaitez pas continuer à stocker les données fournisseur dans la t
 
 Les données fournisseur incluent toutes les informations sur le fournisseur, telles que le groupe de fournisseurs, les adresses, les informations de contact, le profil de paiement et le profil de facture. Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction des données fournisseur, comme indiqué dans le tableau suivant.
 
-Applications Finance and Operations | Autres applications Dynamics 365     | Description 
+Applications Finance and Operations | Autres applications Dynamics 365     | Description
 ----------------------------|-----------------------------|------------
 Vendor V2                   | Compte                     | Les sociétés qui utilisent la table Compte pour stocker les informations fournisseur peuvent continuer de l’utiliser de la même manière. Elles peuvent également tirer parti de la fonctionnalité de fournisseur explicite qui apparaît du fait de l’intégration des applications Finance and Operations.
 Vendor V2                   | Msdyn\_vendors              | Les sociétés qui utilisent une solution personnalisée pour les fournisseurs peuvent profiter du concept de fournisseur prêt à l’emploi introduit dans Dataverse du fait de l’intégration des applications Finance and Operations. 

@@ -2,11 +2,9 @@
 title: Création d’un plan de congé et d’absence
 description: Créez des plans de congé dans Dynamics 365 Human Resources pour différents types de congés.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f90e49c6191134a99b306fdc9de6b46c07844dea
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 8bda1e8cb9ed778b87adf9973620fa0e54cf28c8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463404"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794611"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Création d’un plan de congé et d’absence
 
@@ -113,25 +111,25 @@ Les nouvelles entités sont :
    
     1. Sélectionnez une option dans la liste déroulante **Type de régularisation** :
 
-      - **Mois de service** - Basez le calendrier de régularisation sur les mois de service.
+      - **Mois de service** – Basez le calendrier de régularisation sur les mois de service.
 
-      - **Heures travaillées** - Basez le calendrier de régularisation sur les heures travaillées. Pour plus d’informations sur les régularisations des heures travaillées, voir [Accorder des congés sur la base des heures travaillées](hr-leave-and-absence-plans.md?accrue-time-off-based-on-hours-worked).
+      - **Heures travaillées** – Basez le calendrier de régularisation sur les heures travaillées. Pour plus d’informations sur les régularisations des heures travaillées, voir [Accorder des congés sur la base des heures travaillées](hr-leave-and-absence-plans.md?accrue-time-off-based-on-hours-worked).
 
       Pour plus d’informations sur les régularisations des avantages, voir [Accorder des congés sur la base des heures travaillées](hr-leave-and-absence-plans.md?enrollments-and-balances).
 
     2. Entrez des valeurs dans le tableau du programme de régularisation :
 
-      - **Mois de service** - Nombre de mois minimal que les employés doivent travailler pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
+      - **Mois de service** – Nombre de mois minimal que les employés doivent travailler pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
 
-      - **Heures travaillées** - Nombre d’heures minimal que les employés doivent travailler par période de régularisation pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
+      - **Heures travaillées** – Nombre d’heures minimal que les employés doivent travailler par période de régularisation pour avoir droit aux régularisations. Si vous n’avez pas besoin d’un minimum, définissez la valeur sur 0.
 
-      - **Montant de régularisation** - Nombre d’heures ou de jours que les employés provisionneront par période. La période est basée sur la fréquence de régularisation.
+      - **Montant de régularisation** – Nombre d’heures ou de jours que les employés provisionneront par période. La période est basée sur la fréquence de régularisation.
 
-      - **Solde minimum** - Vous pouvez utiliser une valeur négative pour le solde minimal si les employés peuvent demander davantage de congés que ceux dont ils disposent.
+      - **Solde minimum** – Vous pouvez utiliser une valeur négative pour le solde minimal si les employés peuvent demander davantage de congés que ceux dont ils disposent.
 
-      - **Reports maximaux** - Le processus de régularisation ajuste les soldes d’absence qui dépassent le solde de report maximal sur l’anniversaire de la date de début.
+      - **Reports maximaux** – Le processus de régularisation ajuste les soldes d’absence qui dépassent le solde de report maximal sur l’anniversaire de la date de début.
 
-      - **Montant accordé** - Nombre d’heures ou de jours initial accordé aux employés lorsqu’ils s’inscrivent pour la première fois au plan de congé. Le montant ne provisionne pas pour chaque période de régularisation.
+      - **Montant accordé** – Nombre d’heures ou de jours initial accordé aux employés lorsqu’ils s’inscrivent pour la première fois au plan de congé. Le montant ne provisionne pas pour chaque période de régularisation.
       
 Si la fonction **Configurer plusieurs types de congé pour un seul plan de congé et d’absence** est activée, sélectionnez une option depuis **Type de congé**. 
 

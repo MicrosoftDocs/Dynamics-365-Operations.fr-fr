@@ -2,7 +2,6 @@
 title: Vue d’ensemble du module Gestion de document commercial
 description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 139da8bf6f6b6c826445740427469c1636f7cc5a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569247"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749535"
 ---
 # <a name="business-document-management-overview"></a>Vue d’ensemble du module Gestion de document commercial
 
@@ -48,7 +47,7 @@ Pour utiliser le module Gestion de document commercial pour modifier les modèle
 
 Pour une liste complète de tous les états prévus pour le lancement d’octobre 2019, voir [Génération d’états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Pour une liste complète de tous les états prévus pour le lancement d’octobre 2020, voir [Documents commerciaux configurables - Modèles Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Pour une liste complète de tous les états prévus pour le lancement d’octobre 2020, voir [Documents commerciaux configurables – Modèles Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 D’autres états seront disponibles dans les prochaines versions. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. Pour savoir comment consulter la liste des états actuellement disponibles, consultez la section [Liste des configurations de gestion des états électroniques qui ont été publiées dans Finance pour prendre en charge les documents commerciaux configurables](#list-of-configurations-cbd) ci-après.
 
@@ -295,7 +294,7 @@ Vous pouvez modifier le modèle en utilisant Microsoft 365. Par exemple, dans Of
 
 ![Modification de la police en gras dans l’en-tête du modèle sur la page de l’éditeur de modèle de gestion de documents commerciaux](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Modifier un modèle dans l'application de bureau Office
+### <a name="edit-a-template-in-the-office-desktop-application"></a><a name="EditInOfficeDesktopApp"></a>Modifier un modèle dans l’application de bureau Office
 
 > [!NOTE]
 > Cette fonction n’est disponible que lorsque le paramètre **Type de document SharePoint** est correctement configuré. Pour plus d’informations, voir [Configurer les paramètres](#SetupBdmParameters).
@@ -338,7 +337,7 @@ Le modèle mis à jour est affiché dans l’onglet **Modèle** . Notez que le s
 1. Dans l’application, passez à la société, **USMF**.
 2. Allez dans **Comptabilité client** \> **Factures** \> **Toutes factures financières**.
 3. Sélectionnez la facture **FTI-00000002**, puis sélectionnez **Gestion de l’impression**.
-4. Sélectionnez le niveau de document **Module - Comptabilité client** \> **Documents** \> **Facture financière** \> **Document d’origine** pour spécifier la portée des factures aux fins de traitement.
+4. Sélectionnez le niveau de document **Module – Comptabilité client** \> **Documents** \> **Facture financière** \> **Document d’origine** pour spécifier la portée des factures aux fins de traitement.
 5. Dans le champ **Format de l’état**, sélectionnez le format ER **Copie d’État FTI client (GER)** pour le niveau de document spécifié.
 
     ![Page Paramètre de gestion de l’impression](./media/BDM-Overview-TestRun1.png)

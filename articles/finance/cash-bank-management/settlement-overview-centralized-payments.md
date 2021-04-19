@@ -2,11 +2,9 @@
 title: Vue d’ensemble des règlements des paiements centralisés
 description: Cette rubrique décrit le règlement pour les paiements centralisés pour Microsoft Dynamics 365 Finance.
 author: abruer
-manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 682df83e2685e82b68ae5aa4fcaa7997ee942dca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: febe29500714e5cbe9e364a79f128a55b23defa8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241392"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834882"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Vue d’ensemble des règlements des paiements centralisés
 
@@ -84,7 +82,7 @@ Les escomptes de règlement générés pendant le processus de règlement de soc
 
 Les tolérances concernant les trop-perçus, les moins-perçus et les différences minimes sont déterminées en fonction de l’entité juridique de paiement des trop-perçus et de celle des moins-perçus. Le compte de validation utilisé est déterminé par le paramètre du champ **Administration d’escompte de règlement** de la page **Paramètres de la Comptabilité client** pour les clients, et le champ **Administration d’escompte de règlement** de la page **Paramètres de la Comptabilité fournisseur** pour les fournisseurs.
 
--   Si le paramètre d’administration d’escompte de règlement est Spécifique ou Non spécifique et que l’escompte de règlement applicable est validé dans une autre entité juridique que celle du trop-perçu, le compte automatique pour Client - Escompte de règlement, Fournisseur - Escompte de règlement ou Différence minime dans la devise comptable est utilisé. Vous pouvez spécifier ces comptes sur la page **Comptes pour transactions automatiques**.
+-   Si le paramètre d’administration d’escompte de règlement est Spécifique ou Non spécifique et que l’escompte de règlement applicable est validé dans une autre entité juridique que celle du trop-perçu, le compte automatique pour Client – Escompte de règlement, Fournisseur – Escompte de règlement ou Différence minime dans la devise comptable est utilisé. Vous pouvez spécifier ces comptes sur la page **Comptes pour transactions automatiques**.
 -   Si le paramètre d’administration d’escompte de règlement est Non spécifique et que l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu (l’entité juridique de paiement et l’entité juridique de la facture sont identiques), le compte d’escompte de règlement est ajusté. Par exemple, si une facture de 100,00 avec un escompte de règlement disponible de 3,00 est réglée avec un paiement pour 98,00, le compte d’escompte de règlement est ajusté pour 1,00. Le montant net de l’escompte est 2,00.
 -   Si le paramètre d’administration d’escompte de règlement est Non spécifique, l’escompte de règlement est validé dans la même entité juridique que celle du trop-perçu, le trop-perçu ou le moins-perçu est réglé avec plusieurs factures comportant des escomptes de règlement et le compte d’escompte de règlement de la dernière facture est ajusté.
 
@@ -93,7 +91,7 @@ Si la sélection d’administration d’escompte de règlement est Non spécifiq
 -   trop-perçu réglé avec une ou plusieurs factures comportant un escompte de règlement ;
 -   escompte de règlement validé dans la même entité juridique que celle du trop-perçu.
 
-Dans tous les autres cas, les trop-perçus ou les moins-perçus sont validés dans le compte automatique pour Client - Escompte de règlement, Fournisseur - Escompte de règlement ou Différence minime dans la devise comptable.
+Dans tous les autres cas, les trop-perçus ou les moins-perçus sont validés dans le compte automatique pour Client – Escompte de règlement, Fournisseur – Escompte de règlement ou Différence minime dans la devise comptable.
 
 ## <a name="sales-tax"></a>Taxe
 Les transactions de taxe restent dans l’entité juridique dans laquelle elles ont été validées à l’origine. 

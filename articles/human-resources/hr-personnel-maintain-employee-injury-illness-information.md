@@ -2,11 +2,9 @@
 title: Mettre à jour des informations relatives aux blessures et aux maladies des employés
 description: Il est recommandé de terminer d’abord le guide de tâche « Paramétrer les informations sur les blessures et les maladies », car certaines des informations de paramétrage sont utilisées ici.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a2f53acaa65589c30546e31739abc38941eb795
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 0ec14287f5dd4d45cf26deaf5acc4f4d5e91ba04
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465436"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791339"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mettre à jour des informations relatives aux blessures et aux maladies des employés
 
@@ -73,7 +71,7 @@ Cette enregistrement de tâche traite les étapes de base permettant de créer u
 21. Cliquez sur Ajouter.
 22. Entrez une date dans le champ Date.
 23. Dans le champ Type de coût, saisissez ou sélectionnez une valeur.
-    * Exemple : thérapie - Vous pouvez également spécifier un montant, et joindre au coût tout document justificatif, comme des factures ou des notes du docteur.  
+    * Exemple : thérapie – Vous pouvez également spécifier un montant, et joindre au coût tout document justificatif, comme des factures ou des notes du docteur.  
 24. Cliquez sur Ajouter.
 25. Entrez une date dans le champ Date.
 26. Dans le champ Type de coût, saisissez ou sélectionnez une valeur.

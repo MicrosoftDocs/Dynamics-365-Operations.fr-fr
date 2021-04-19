@@ -2,11 +2,9 @@
 title: Régler un paiement partiel avant la date de remise et règlement final après la date de remise
 description: Cet article vous fait parcourir un scénario où plusieurs paiements partiels sont effectués, certains au cours de la période d’escompte de règlement et d’autres en dehors de la période d’escompte de règlement.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227326"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810340"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise et règlement final après la date de remise
 
@@ -48,7 +46,7 @@ Le 2 juillet, April souhaite régler 300,00 de cette facture. Le paiement peut p
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
 | Montant de l’escompte de règlement         | -10,00    |
@@ -73,7 +71,7 @@ April paie le reste de la facture le 15 juillet, soit après la période de remi
 
 Les informations de remise s’affichent au bas de la page **Règlement des transactions**. April peut voir qu’elle a déjà bénéficié d’une remise de 3,00.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
 | Montant de l’escompte de règlement         | 0,00      |
@@ -99,10 +97,10 @@ Si le fournisseur accorde à April une remise même si elle paie après la date 
 
 Les informations de remise s’affichent au bas de la page **Règlement des transactions**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
-| Montant de l’escompte de règlement         | 7,00      |
+| Montant de l’escompte de règlement         | 7.00      |
 | Utiliser un escompte de règlement            | Toujours    |
 | Escompte de règlement appliqué          | -3,00.     |
 | Montant de l’escompte de règlement à accepter | -7,00.     |

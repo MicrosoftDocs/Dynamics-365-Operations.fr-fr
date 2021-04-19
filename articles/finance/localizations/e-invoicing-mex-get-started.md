@@ -1,12 +1,10 @@
 ---
-title: Démarrage du module complémentaire de facturation électronique pour le Mexique
-description: Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique pour le Mexique dans Microsoft Dynamics 365 Finance et Dynamics 365 Supply Chain Management.
+title: Mise en route de la Facturation électronique pour le Mexique
+description: Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour le Mexique.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,25 +15,25 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592644"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840050"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Démarrage du module complémentaire de facturation électronique pour le Mexique
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Mise en route de la Facturation électronique pour le Mexique
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Le module complémentaire de facturation électronique pour le Mexique peut ne pas prendre en charge actuellement toutes les fonctions disponibles dans le document Comprobante Fiscal Digital por Internet (CFDI) et dans l’intégration associée intégrée dans Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.
+> La Facturation électronique pour le Mexique peut ne pas prendre en charge actuellement toutes les fonctions disponibles dans le document Comprobante Fiscal Digital por Internet (CFDI) et dans l’intégration associée intégrée dans Microsoft Dynamics 365 Finance ou Dynamics 365 Supply Chain Management.
 
-Cette rubrique donne des informations qui vous aideront à démarrer le module complémentaire de facturation électronique pour le Mexique. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Services (RCS) et Finance. Elle vous guide également tout au long des étapes que vous devez suivre dans Finance pour envoyer des factures CFDI via le service. Elle explique aussi comment passer en revue les résultats du traitement et le statut des factures CFDI.
+Cette rubrique donne des informations qui vous aideront à démarrer la Facturation électronique pour le Mexique. Elle vous guide tout au long des étapes de configuration spécifiques au pays dans Regulatory Configuration Services (RCS) et Finance. Elle vous guide également tout au long des étapes que vous devez suivre dans Finance pour envoyer des factures CFDI via le service. Elle explique aussi comment passer en revue les résultats du traitement et le statut des factures CFDI.
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Avant d’effectuer les étapes de cette rubrique, vous devez effectuer les étapes de la rubrique [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md).
+Avant d’effectuer les étapes de cette rubrique, vous devez effectuer les étapes de la rubrique [Mise en route de la Facturation électronique](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>Paramétrage RCS
 
@@ -47,7 +45,7 @@ Lors du paramétrage de RCS, vous effectuerez les tâches suivantes :
 4. Publier la fonctionnalité de facturation électronique pour les factures CFDI.
 
 > [!NOTE]
-> La « Fonctionnalité de facturation électronique » est le nom générique de la ressource configurée et publiée pour utiliser le serveur complémentaire de facturation électronique. Dans ce cas, les factures CFDI (MX) sont la fonctionnalité de facturation électronique que vous allez paramétrer.
+> La « Fonctionnalité de Facturation électronique » est le nom générique de la ressource configurée et publiée pour utiliser le serveur de Facturation électronique. Dans ce cas, les factures CFDI (MX) sont la fonctionnalité de facturation électronique que vous allez paramétrer.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importer la fonctionnalité de facturation électronique
 
@@ -153,9 +151,9 @@ Pour envoyer une annulation de facture CFDI, le paramétrage des fonctionnalité
 
 ![Modification du statut de la fonctionnalité de facturation électronique](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Paramétrer l’intégration du module complémentaire de facturation électronique dans Finance
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Paramétrer l’intégration de la Facturation électronique dans Finance
 
-Pour paramétrer le module complémentaire de facturation électronique dans Finance, vous effectuerez les tâches suivantes :
+Pour paramétrer la Facturation électronique dans Finance, vous effectuerez les tâches suivantes :
 
 1. Importer le modèle de données ER, le mappage du modèle de données ER et les formats requis pour les factures CFDI.
 2. Configurer les types de réponse pour mettre à jour les factures CFDI. Ces types de réponse sont utilisés pour la réponse du serveur du fournisseur de certification autorisé (PAC).
@@ -194,19 +192,19 @@ Pour paramétrer le module complémentaire de facturation électronique dans Fin
     - Pour **Journal des factures client**, entrez **Contexte de la facture client**.
     - Pour **Facture de projet**, entrez **Contexte de la facture de projet**.
 
-4. Sélectionnez **Types de réponse** pour configurer les types de réponse pouvant être renvoyés à partir du module complémentaire de facturation électronique et inclus dans un journal des factures client ou une facture de projet.
+4. Sélectionnez **Types de réponse** pour configurer les types de réponse pouvant être renvoyés à partir de la Facturation électronique et inclus dans un journal des factures client ou une facture de projet.
 5. Sélectionnez **Nouveau**, puis, dans dans le champ **Type de réponse**, sélectionnez **Réponse**.
 6. Dans le champ **Statut d’envoi**, sélectionnez **En attente**.
-7. Dans le champ **Mappage de modèle**, sélectionnez **Format d’importation du message de réponse - Mappage de modèle à partir du message de réponse**.
+7. Dans le champ **Mappage de modèle**, sélectionnez **Format d’importation du message de réponse – Mappage de modèle à partir du message de réponse**.
 8. Sélectionnez **Enregistrer**.
 9. Sélectionnez **Nouveau**, puis, dans dans le champ **Type de réponse**, sélectionnez **ResponseData**.
 10. Dans le champ **Statut d’envoi**, sélectionnez **En attente**.
-11. Dans le champ **Mappage de modèle**, sélectionnez **Format d’importation des données de réponse CFDI (détails) - Importation des données de réponse**.
+11. Dans le champ **Mappage de modèle**, sélectionnez **Format d’importation des données de réponse CFDI (détails) – Importation des données de réponse**.
 12. Sélectionnez **Enregistrer**.
 
 ## <a name="process-electronic-invoices-in-finance"></a>Traiter les factures électroniques dans Finance 
 
-Lors du traitement des factures CFDI dans Finance via le module complémentaire de facturation électronique, vous pouvez effectuer les tâches suivantes :
+Lors du traitement des factures CFDI dans Finance via la Facturation électronique, vous pouvez effectuer les tâches suivantes :
 
 - Envoyer des factures CFDI.
 - Afficher les journaux d’exécution de l’envoi.
@@ -214,7 +212,7 @@ Lors du traitement des factures CFDI dans Finance via le module complémentaire 
 
 ### <a name="submit-cfdi-invoices"></a>Envoyer des factures CFDI
 
-Après avoir activé la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**, le processus **Exporter/Importer la facture électronique** (**Comptabilité client \> Factures \> Factures électroniques**) pour l’envoi des factures CFDI n’est plus utilisé. Il est remplacé par un nouveau processus appelé **Envoyer des documents électroniques**.
+Après avoir activé la fonctionnalité **Intégration de la Facturation électronique configurable**, le processus **Exporter/Importer la facture électronique** (**Comptabilité client \> Factures \> Factures électroniques**) pour l’envoi des factures CFDI n’est plus utilisé. Il est remplacé par un nouveau processus appelé **Envoyer des documents électroniques**.
 
 > [!NOTE]
 > Avant d’utiliser le nouveau processus **Envoyer des documents électroniques**, vérifiez que le paramétrage requis pour les factures électroniques mexicaines a été effectué. Pour plus d’informations, voir [Version 3.3 de la disposition CFDI](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
@@ -226,7 +224,7 @@ Après avoir activé la fonctionnalité **Intégration du module complémentaire
 ![Envoyer un document CFDI](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> Lors de votre première tentative d’envoi d’un document via le service, vous serez invité à confirmer la connexion avec le module complémentaire de facturation électronique. Sélectionnez **Cliquez ici pour vous connecter au service d’envoi de document électronique**.
+> Lors de votre première tentative d’envoi d’un document via le service, vous serez invité à confirmer la connexion avec la Facturation électronique. Sélectionnez **Cliquez ici pour vous connecter au service d’envoi de document électronique**.
 
 ### <a name="view-submission-logs"></a>Afficher les journaux d’envoi
 
@@ -234,7 +232,7 @@ Vous pouvez afficher les journaux d’envoi pour tous les documents envoyés ou 
 
 #### <a name="view-all-submission-logs"></a>Afficher tous les journaux d’envoi
 
-Après avoir activé la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**, une nouvelle page vous permet de suivre le processus d’envoi de document. Vous pouvez utiliser cette page pour afficher les journaux d’envoi de tous les documents envoyés.
+Après avoir activé la fonctionnalité **Intégration de la Facturation électronique configurable**, une nouvelle page vous permet de suivre le processus d’envoi de document. Vous pouvez utiliser cette page pour afficher les journaux d’envoi de tous les documents envoyés.
 
 1. Allez dans **Administration de l’organisation \> Périodique \> Documents électroniques \> Journal d’envoi de documents électroniques**.
 2. Dans le champ **Type de document**, sélectionnez **Journal des factures client** pour filtrer les documents électroniques requis.
@@ -249,26 +247,26 @@ Les informations des journaux d’envoi sont réparties en trois raccourcis :
 
 - **Actions de traitement** : ce raccourci affiche le journal d’exécution des actions configurées dans la version de fonctionnalité paramétrée dans RCS. La colonne **Statut** indique si l’exécution de l’action a réussi.
 - **Fichiers d’action** : ce raccourci affiche les fichiers intermédiaires générés lors de l’exécution des actions. Vous pouvez sélectionner **Afficher** pour télécharger et afficher le fichier.
-- **Journal des actions de traitement** : ce raccourci affiche les résultats de la communication entre le module complémentaire de facturation électronique et le service web cible. Il indique également ce qui a été renvoyé par le traitement du service web. La colonne **Code d’erreur** affiche le code de retour renvoyé par le service web d’autorisation.
+- **Journal des actions de traitement** : ce raccourci affiche les résultats de la communication entre la Facturation électronique et le service web cible. Il indique également ce qui a été renvoyé par le traitement du service web. La colonne **Code d’erreur** affiche le code de retour renvoyé par le service web d’autorisation.
 
 Lorsque la facture CFDI envoyée est autorisée, son statut est mis à jour sur **Approuvé**.
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Afficher les journaux d’envoi à partir des factures CFDI
 
-Après avoir activé la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**, vous pouvez également afficher les journaux d’envoi à partir des documents fiscaux.
+Après avoir activé la fonctionnalité **Intégration de la Facturation électronique configurable**, vous pouvez également afficher les journaux d’envoi à partir des documents fiscaux.
 
 1. Allez dans **Comptabilité client \> Recherches et états \> CFDI (factures électroniques)**.
-2. Sélectionnez une facture CFDI qui a été envoyée après l’activation de la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**.
+2. Sélectionnez une facture CFDI qui a été envoyée après l’activation de la fonctionnalité **Intégration de la Facturation électronique configurable**.
 3. Dans le volet Actions, dans l’onglet **Historique**, sélectionnez **Journal des documents électroniques**.
 
 ![Affichage des journaux d’envoi à partir des factures CFDI](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> Pour les factures CFDI envoyées avant l’activation de la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**, le bouton **Historique** est disponible. Le bouton **Historique** n’est pas disponible pour les factures CFDI envoyées après l’activation de la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**.
+> Pour les factures CFDI envoyées avant l’activation de la fonctionnalité **Intégration de la Facturation électronique configurable**, le bouton **Historique** est disponible. Le bouton **Historique** n’est pas disponible pour les factures CFDI envoyées après l’activation de la fonctionnalité **Intégration de la Facturation électronique configurable**.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>Envoyer l’annulation des factures CFDI
 
-Après avoir activé la fonctionnalité **Intégration du module complémentaire de facturation électronique configurable**, l’ancien processus d’annulation des factures CFDI ne peut plus être utilisé. Il est remplacé par un nouveau processus d’annulation intégré à la page **Journal d’envoi de documents électroniques**.
+Après avoir activé la fonctionnalité **Intégration de la Facturation électronique configurable**, l’ancien processus d’annulation des factures CFDI ne peut plus être utilisé. Il est remplacé par un nouveau processus d’annulation intégré à la page **Journal d’envoi de documents électroniques**.
 
 1. Allez dans **Comptabilité client \> Recherches et états \> CFDI (factures électroniques)**.
 2. Si la facture CFDI a le statut **Approuvé**, sélectionnez **Fonctions \> Annuler CFDI**.
@@ -295,9 +293,9 @@ L’activation de la fonctionnalité **Facture électronique CFDI pour le Mexiqu
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Présentation du module complémentaire de facturation électronique](e-invoicing-service-overview.md)
-- [Démarrage du module complémentaire de facturation électronique](e-invoicing-get-started.md)
-- [Paramétrer le module complémentaire de facturation électronique](e-invoicing-setup.md)
+- [Vue d’ensemble de la Facturation électronique](e-invoicing-service-overview.md)
+- [Mise en route de la Facturation électronique](e-invoicing-get-started.md)
+- [Paramétrer la Facturation électronique](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

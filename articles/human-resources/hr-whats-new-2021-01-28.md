@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (28 janvier 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources au 28 janvier 2021.
 author: marcelbf
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9a28ceb74a6cf90e72ccdc91186b685d7d838cb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 36509cc5663073fd1e3b7f41a600c7816bfbdff6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463356"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791243"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-28-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (28 janvier 2021)
 
@@ -55,7 +53,7 @@ Les correctifs de bogues suivants sont compris dans cette version.
 > Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
 
 
-| Numéro du problème | Sortie |  Description  |
+| Numéro du problème | Sortie |  Description |
 | --- | --- | --- |
 | 539456 | Le calendrier affiche le type de congé dans le texte de survol lorsque le paramètre **Afficher uniquement l’absence sans détails** est activé. | Quand le paramètre **Afficher uniquement l’absence sans détails** est activé, la date de la demande s’affiche maintenant au survol. |
 | 528907 | En accordant l’accès à une entité juridique sur le rôle d’employé, les responsables ne peuvent pas voir l’activité du solde des congés des employés dans la zone **Mon équipe** du libre-service des employés. |La définition de cette option permet désormais aux responsables de continuer à voir l’activité du solde des congés. |

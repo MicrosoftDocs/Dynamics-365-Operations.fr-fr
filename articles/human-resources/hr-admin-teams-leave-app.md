@@ -2,11 +2,9 @@
 title: Application Human Resources de Teams
 description: Cette rubrique vous présente l’application Microsoft Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 7b44cee0574794ae4b3cfd1987934aa4933b46b2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487871"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803991"
 ---
 # <a name="human-resources-app-in-teams"></a>Application Human Resources de Teams
 
@@ -105,7 +103,7 @@ L’application Dynamics 365 Human Resources dans Teams prend en charge les lang
 
 Les éléments de travail suivants sont prévus pour les prochaines versions :
 
-| Élément de travail | État |
+| Élément de travail | Statut |
 | --- | --- |
 | Le solde est incorrect lors de la soumission de congés pour une date future. | Les prévisions ne sont pas encore disponibles. Le solde affiche la date actuelle. |
 | Impossible d’annuler une demande **En cours de révision**. | Cette fonctionnalité n’est actuellement pas prise en charge et sera ajoutée dans une prochaine version. |

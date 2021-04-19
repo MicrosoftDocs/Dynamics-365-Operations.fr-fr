@@ -2,7 +2,6 @@
 title: Vue d’ensemble des états électroniques (ER)
 description: Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques. Elle décrit les concepts clés, les scénarios pris en charge et les formats qui font partie de la solution.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 259a4c3778f547903e1349edbf26f19b478aa232
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568675"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750056"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -158,7 +157,7 @@ Une configuration d’état électronique est partagée pour les sociétés de l
 
 Le fournisseur d’états électroniques est l’identificateur de partie utilisé pour indiquer l’auteur (propriétaire) de chaque configuration d’état électronique. L’état électronique vous permet de gérer la liste des fournisseurs de configuration. Les configurations de format émises pour les documents électroniques dans le cadre de la solution Finance and Operations sont marquées comme détenues par le fournisseur de configuration **Microsoft**.
 
-Pour savoir comment enregistrer un nouveau fournisseur d’états électroniques, consultez le Guide de tâche, **Génération d’états électroniques - Créer un fournisseur de configuration et le marquer comme actif** (qui fait partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
+Pour savoir comment enregistrer un nouveau fournisseur d’états électroniques, consultez le Guide de tâche, **Génération d’états électroniques – Créer un fournisseur de configuration et le marquer comme actif** (qui fait partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**).
 
 #### <a name="repository"></a><a name="Repository"></a>Référentiel
 

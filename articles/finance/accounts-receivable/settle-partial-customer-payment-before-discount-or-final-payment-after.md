@@ -2,11 +2,9 @@
 title: Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 description: Cet article détaille l’effet de la réception des paiements sur les factures pour les clients. Le scénario se concentre sur les effets dans la comptabilité auxiliaire et non dans la comptabilité.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250552"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835145"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 
@@ -48,10 +46,10 @@ Le 2 juillet, le client 4027 effectue un paiement partiel de 297,00 pour la fact
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. Si vous ne remplacez pas la valeur du **Montant à régler** par 297,00, les valeurs du **Montant de l’escompte de règlement** qui s’affichent sont différentes. Toutefois, 3,00 sont prélevés comme escompte de règlement une fois le paiement validé, car le règlement ajuste automatiquement pour vous la valeur du **Montant à régler**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
-| Montant de l’escompte de règlement         | 10,00     |
+| Montant de l’escompte de règlement         | 10.00     |
 | Utiliser un escompte de règlement            | Standard    |
 | Escompte de règlement appliqué          | 0,00      |
 | Montant de l’escompte de règlement à accepter | 3,00      |
@@ -73,7 +71,7 @@ Le 11 juillet, soit après la période de remise, le client 4027 paie le reste d
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
 | Montant de l’escompte de règlement         | 0,00      |
@@ -89,10 +87,10 @@ Si Arnie remplace la valeur du champ **Utiliser un escompte de règlement** par 
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/09/2015 |
-| Montant de l’escompte de règlement         | 7h00      |
+| Montant de l’escompte de règlement         | 7.00      |
 | Utiliser un escompte de règlement            | Toujours    |
 | Escompte de règlement appliqué          | 3,00      |
 | Montant de l’escompte de règlement à accepter | 7h00      |

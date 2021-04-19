@@ -2,7 +2,6 @@
 title: Liste des fonctions ER dans la catégorie de collecte de données
 description: Cette rubrique fournit des informations sur les fonctions de collecte de données prises en charge dans les États électroniques (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba3a1f031a4a98592081b04a4128450aeb8218ef
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 31b5e7b08a3de77d461fff5e42164975e53dfe1e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561732"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748061"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>Liste des fonctions ER dans la catégorie de collecte de données
 

@@ -2,11 +2,9 @@
 title: Création de plans d’avantages pour les collaborateurs
 description: Vous pouvez créer des plans d’avantages pour les collaborateurs dans Microsoft Dynamics 365 Human Resources pour sélectionner les régimes de prestations des employés et confirmer les choix de régimes de prestations.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanEmployee, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ac357bbef4bf84b9eaf153834bc7a609240c45e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: baa131b3bcab73d29c7059f6595f1e8943f8164f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464224"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804934"
 ---
 # <a name="create-worker-benefit-plans"></a>Création de plans d’avantages pour les collaborateurs
 
@@ -44,7 +42,7 @@ Vous pouvez créer des plans d’avantages pour les collaborateurs dans Microsof
    | Entité juridique | Spécifie une entité juridique à utiliser pour filtrer les plans dans l’onglet rapide Plans. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
    | Option de couverture | Spécifie une option de couverture à utiliser pour filtrer les plans dans l’onglet rapide Plans. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
    | Par défaut | Filtre les plans d’avantages selon qu’ils sont un plan par défaut. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
-   | État  | Filtre les plans d’avantages en fonction de leur état. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
+   | Statut | Filtre les plans d’avantages en fonction de leur état. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
    | Confirmation | Spécifie l’état de confirmation à utiliser pour filtrer les plans dans l’onglet rapide Plans. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
    | Annulation | Spécifie l’état d’annulation à utiliser pour filtrer les plans dans l’onglet rapide Plans. Filtrez les plans pour vous aider à sélectionner un sous-ensemble de tous les enregistrements de plan afin de pouvoir confirmer le sous-ensemble. |
    | Filtre de date effective | Filtre les plans selon qu’ils sont arrivés à expiration, actifs ou seront actifs à l’avenir. Cochez les cases correspondant aux plans que vous souhaitez voir dans l’onglet rapide Plans. |

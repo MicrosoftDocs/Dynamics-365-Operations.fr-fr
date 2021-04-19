@@ -2,11 +2,9 @@
 title: Processus de mise à jour
 description: Microsoft Dynamics 365 Human Resources est un véritable logiciel en tant que service (SaaS) qui fournit des mises à jour de service continues et sans contact pour les modifications de l’application et de la plateforme.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466830"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791531"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
@@ -58,14 +56,14 @@ Au besoin, Human Resources fournit également les types de correctifs suivants 
 
 Les versions sont examinées, testées et validées sur un environnement interne. Une fois les versions approuvées, elles sont ensuite déployées en production.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Exceptions des cadences de versions en 2020
+## <a name="release-cadence-exceptions-in-2021"></a>Exceptions des cadences de versions en 2021
 
-Pour tenir compte des jours fériés, le calendrier des lancements pour novembre et décembre 2020 est le suivant :
+Pour tenir compte des jours fériés, le calendrier des lancements pour novembre et décembre 2021 est le suivant :
 
-- Lancement de novembre : 2 novembre au 13 novembre
-- Lancement de décembre : 30 novembre au 11 décembre
+- Lancement de novembre : 1 novembre au 14 novembre
+- Lancement de décembre : 29 novembre au 12 décembre
  
-La cadence de sortie de deux semaines reprendra comme d’habitude le 11 janvier 2021.
+La cadence de sortie de deux semaines reprendra comme d’habitude le 10 janvier 2022.
 
 ## <a name="communications"></a>Communications
 

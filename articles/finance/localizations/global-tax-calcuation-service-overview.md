@@ -1,0 +1,116 @@
+---
+title: Service de calcul des taxes (Version préliminaire)
+description: Cette rubrique explique la portée et les fonctionnalités générales du service de calcul des taxes.
+author: wangchen
+ms.date: 03/02/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application user
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.search.region: Global
+ms.author: wangchen
+ms.search.validFrom: 2021-04-01
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 518d3fda7b97e55d23beea6a1ba0e50b44a7aa0e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818222"
+---
+# <a name="tax-calculation-service-preview"></a>Service de calcul des taxes (Version préliminaire)
+
+[!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
+
+Le service de calcul des taxes est un service multi-locataire hyper évolutif qui permet au moteur Global Tax Engine d’automatiser et de simplifier le processus de détermination et de calcul des taxes. Le moteur de taxe est entièrement configurable. Les éléments qui peuvent être configurés incluent, mais sans s’y limiter, le modèle de données taxables, le code taxe, la matrice d’applicabilité de la taxe et la formule de calcul de la taxe. Le moteur de taxe fonctionne sur la plateforme des services essentiels Microsoft Azure, et offre une technologie moderne et une évolutivité exponentielle.
+
+Le service de calcul des taxes s’intègre à Dynamics 365 Finance et Dynamics 365 Supply Chain Management. À terme, il s’intégrera également avec Dynamics 365 Project Operations, Dynamics 365 Commerce et d’autres applications propriétaires et tierces.
+
+Le service de calcul des taxes est un moteur de taxe Microsoft qui offre une évolutivité exponentielle. Il peut vous aider à exécuter les tâches suivantes :
+
+- Configurer le service de calcul des taxes via Regulatory Configuration Service (RCS). RCS est une version améliorée du concepteur de rapports électroniques (ER) et est disponible en tant que service autonome.
+- Configurer la matrice de taxe pour déterminer automatiquement les codes et les taux de taxe.
+- Configurer la matrice de taxe pour déterminer automatiquement le numéro d’immatriculation fiscale.
+- Configurer le concepteur de calcul de taxe pour définir des formules et des conditions.
+- Partager la solution de détermination et de calcul des taxes entre les entités juridiques.
+
+Pour utiliser le service de calcul des taxes, installez le complément de service de calcul des taxes à partir de votre projet dans Microsoft Dynamics Lifecycle Services (LCS). Terminez ensuite la configuration dans RCS et activez le service de calcul des taxes dans Finance and Supply Chain Management. Pour plus d’informations, voir [Prise en main du service de taxe](https://go.microsoft.com/fwlink/?linkid=2138482).
+
+## <a name="availability"></a>Disponibilité
+
+Le service de calcul des taxes est disponible uniquement dans les environnements bac à sable et pour certains clients, via un programme de version préliminaire publique. À terme, il deviendra généralement disponible pour tous les clients et dans les environnements de production.
+
+De nouvelles fonctionnalités continueront d’être fournies dans le service de calcul des taxes. Par conséquent, assurez-vous de consulter régulièrement la documentation la plus à jour pour en savoir plus sur la couverture et l’étendue des fonctionnalités prises en charge.
+
+Le service de calcul des taxes est déployé dans les zones géographiques Azure suivantes. Il sera également déployé dans davantage de zones géographiques Azure, en fonction des besoins des clients :
+
+- Etats-Unis
+- Europe
+- France
+- Royaume-Uni
+
+> [!NOTE]
+> Le service de calcul des taxes ne prend pas en charge les déploiements sur site de Dynamics 365. Il ne prend pas non plus en charge les versions antérieures, telles que Dynamics AX 2012.
+
+## <a name="feature-highlights"></a>Principales fonctionnalités
+
+- Une matrice de taxe configurable pour déterminer et calculer automatiquement les taxes
+- Prise en charge de plusieurs numéros d’immatriculation de taxe sur la valeur ajoutée (TVA)
+- Prise en charge des ordres de transfert pour la détermination et le calcul des taxes
+- Prise en charge des ordres de transfert pour la détermination de plusieurs numéros d’immatriculation de TVA
+
+## <a name="supported-transactions"></a>Transactions prises en charge
+
+Le service de calcul des taxes peut être activé par entité juridique et par transaction. Les transactions suivantes sont prises en charge :
+
+- Processus de vente
+
+    - Devis de vente
+    - Commandes client
+    - Confirmation
+    - Prélèvements
+    - Bon de livraison
+    - Facture client
+    - Avoir
+    - Ordre de retour
+    - Frais divers d’en-tête
+    - Frais divers de ligne
+
+- Processus d’achat
+
+    - Commande fournisseur
+    - Confirmation
+    - Préparation de réception
+    - Accusé de réception des produits
+    - Facture d’achat
+    - Frais divers d’en-tête
+    - Frais divers de ligne
+    - Avoir
+    - Ordre de retour
+    - Demande d’achat
+    - Frais divers de ligne de demande d’achat
+    - Appel d’offre
+    - Frais divers d’en-tête d’appel d’offre
+    - Frais divers de ligne d’appel d’offre
+
+- Processus d’inventaire
+
+    - Ordre de transfert – Expédition
+    - Ordre de transfert – Réception
+
+## <a name="related-resources"></a>Ressources associées
+
+[Prise en main du service de taxe](https://go.microsoft.com/fwlink/?linkid=2138482)
+
+[Plusieurs numéros d’immatriculation de TVA](https://go.microsoft.com/fwlink/?linkid=2153387)
+
+[Prise en charge de la fonction de taxe pour les ordres de transfert](https://go.microsoft.com/fwlink/?linkid=2153388)
+
+[Comment créer une extension dans le service de taxe](https://go.microsoft.com/fwlink/?linkid=2138483)

@@ -2,11 +2,9 @@
 title: Priorité de règlement (Secteur public)
 description: Cette rubrique fournit des informations sur la manière dont le secteur public peut hiérarchiser automatiquement ou manuellement les règlements à l’aide des classifications de facturation.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustBillingClassification, CustBillingCode, CustParameters, CustSettlementPrioritySetup, LedgerParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f059f0c48d0821296ca5a2a3356e606f707a9977
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e47e3001205bd51f42b3c2270a56d71df9c4dd88
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259204"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816832"
 ---
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 

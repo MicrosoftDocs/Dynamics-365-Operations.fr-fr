@@ -1,8 +1,7 @@
 ---
 title: Nouveaux guides des tâches (février 2016)
-description: Cette rubrique répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.  Les bibliothèques qui ont été publiées incluent la bibliothèque unifiée APQC (février 2016) pour Microsoft Dynamics 365 for Operations et Mise en route (février 2016).
+description: Cette rubrique répertorie les tâches qui ont été publiées dans les bibliothèques Microsoft BPM à compter de février 2016.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9caad79ab5c5b8796116f54ceead0097481c42e9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87c7b92b31456afc4c44427949bb2ae4dbbbf5c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566550"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749800"
 ---
 # <a name="new-task-guides-february-2016"></a>Nouveaux guides des tâches (février 2016)
 
@@ -221,7 +220,7 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | MX-00010 Rechercher et imprimer une facture électronique                                                       | Mexique                          |
 | MX-00010 Valider une facture financière                                                                      | Mexique                          |
 | MX-00010 Définir les paramètres d’une facture électronique                                                      | Mexique                          |
-| MX-00020 - Spécifier l’ID enregistrement RFC des comptes bancaires mexicains                                   | Mexique                          |
+| MX-00020 – Spécifier l’ID enregistrement RFC des comptes bancaires mexicains                                   | Mexique                          |
 | MX-00020 Produire l’état de comptabilité générale électronique version 1.1                               | Mexique                          |
 | MX-00020 Paramétrer le plan de comptes d’une entité juridique au Mexique                                     | Mexique                          |
 | NL-00003 Intégration Semansys XBRL                                                                     | Pays-Bas                     |
@@ -231,7 +230,7 @@ La bibliothèque unifiée APQC (février 2016) contient les guides de tâches q
 | MY-00006 01 Définir les clauses d’allègement GST                                                                  | Singapour Malaisie et Thaïlande |
 | MY-00006 02 Imprimer les factures client de GST avec une clause d’allègement                                           | Singapour Malaisie et Thaïlande |
 | MY-00007 Autofacturation                                                                          | Singapour Malaisie et Thaïlande |
-| MY-00010 GST - générer des fichiers de GAF au format requis                                               | Singapour Malaisie et Thaïlande |
+| MY-00010 GST – générer des fichiers de GAF au format requis                                               | Singapour Malaisie et Thaïlande |
 | MY-00011 02 Générer la note de débit client pour les ventes de projet                                             | Singapour Malaisie et Thaïlande |
 | MY-00011 03 Générer l’avoir client pour les ventes de projet                                            | Singapour Malaisie et Thaïlande |
 | GB-00002 Création d’une commande fournisseur qui inclut des articles soumis à la TVA au preneur                     | Royaume-Uni                  |

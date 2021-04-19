@@ -1,8 +1,7 @@
 ---
-title: ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)
+title: ER Utiliser les dimensions financières comme source de données (Partie 2 – Mise en correspondance des modèles)
 description: Cette rubrique décrit comment configurer un modèle de gestion des états électroniques pour utiliser les dimensions financières comme source de données pour les rapports de gestion des états électroniques. (Partie 2)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59f65962ef8f6ae79190b6595a313831eca53830
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1e6f5ffbebdfcd9f945e6237904d80e8734b0220
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570166"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752434"
 ---
-# <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utiliser les dimensions financières comme source de données (Partie 2 - Mise en correspondance des modèles)
+# <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utiliser les dimensions financières comme source de données (Partie 2 – Mise en correspondance des modèles)
 
 [!include [banner](../../includes/banner.md)]
 

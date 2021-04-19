@@ -2,11 +2,9 @@
 title: Générer des tableaux d’analyse consolidés
 description: Cette rubrique décrit les différents scénarios où vous pouvez générer des tableaux d’analyse consolidés.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0078d536e55da0bfd3d8b808eb05c8273aba792d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249141"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826688"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Générer des tableaux d’analyse consolidés
 
@@ -73,7 +71,7 @@ Les hiérarchies d’organisation contenant des dimensions ou des entités jurid
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidations impliquant des éliminations
 Les transactions d’élimination font communément partie du processus de consolidation. Dans cet exemple, cinq comptes sont éliminés pendant la consolidation : 142600, 211400, 401420, 401180 et 510820. Les sociétés peuvent paramétrer leurs comptes intersociétés différemment. Par exemple, certaines sociétés définissent le dernier chiffre sur 9 si le compte est utilisé dans les transactions intersociétés. Quelle que soit la méthode, si vous connaissez les comptes intersociétés, vous pouvez afficher les éliminations dans vos tableaux d’analyse consolidés.
 
-L’illustration suivante présente une définition de colonne pour un compte de résultat consolidé. Trois comptes intersociétés de résultat sont définis pour chaque société à l’aide du filtre de dimension. Les colonnes F, G et H incluent les comptes d'élimination uniquement pour les sociétés USMF, USRT et DEMF. Ces colonne sont paramétrées de manière à **ne pas** être imprimées sur le tableau d’analyse.
+L’illustration suivante présente une définition de colonne pour un compte de résultat consolidé. Trois comptes intersociétés de résultat sont définis pour chaque société à l’aide du filtre de dimension. Les colonnes F, G et H incluent les comptes d’élimination uniquement pour les sociétés USMF, USRT et DEMF. Ces colonne sont paramétrées de manière à **ne pas** être imprimées sur le tableau d’analyse.
 
 ![Définition de colonne pour un compte de résultat consolidé](./media/column-definition-consolidated-income-statement.png "Définition de colonne pour un compte de résultat consolidé")
 
@@ -152,7 +150,7 @@ Dans l’illustration suivante, la société USMF est spécifiée dans le champ 
 
 L’illustration suivante présente les options de la définition d’état qui vous permettent de spécifier si le numéro de la période ou la date de fin de la période est utilisé pour la consolidation.
 
-![Options de la définition d’état - Numéro de la période](./media/options-report-definition-period-number.png "Options de la définition d’état - Numéro de la période")
+![Options de la définition d’état – Numéro de la période](./media/options-report-definition-period-number.png "Options de la définition d’état – Numéro de la période")
 
 ## <a name="business-unit-consolidations"></a>Consolidations d’unité commerciale
 Cette rubrique porte sur l’utilisation des définitions d’organigramme d’entreprise et des hiérarchies d’organisation dans l’outil États financiers à des fins de consolidation. Vous pouvez également utiliser l’organigramme d’entreprise pour créer des états de consolidation d’unité commerciale, tels que des états sur les ventes ou les opérations dans le monde entier. Ces états sont une exigence courante. Pour les créer, sélectionnez une société et une dimension pour chaque unité que vous souhaitez consolider. Par exemple, dans l’illustration suivante, le cumul des unités commerciales est obtenu en répétant chaque société dans la colonne **Société** (colonne A) et en identifiant un groupe de valeurs de dimension de département par société dans la colonne **Dimensions** (colonne D).
@@ -201,7 +199,7 @@ L’ajustement de la conversion de devises (CTA) est la différence entre les ta
 
 - Utilisez la page **Ajustements d’arrondi** dans la définition de ligne, comme indiqué dans l’illustration suivante.
 
-    ![Ajustement de la conversion de devises - Ajustements d’arrondi](./media/Currency-translation-adjustment-rounding-adjustments.png "Ajustement de la conversion de devises - Ajustements d’arrondi")
+    ![Ajustement de la conversion de devises – Ajustements d’arrondi](./media/Currency-translation-adjustment-rounding-adjustments.png "Ajustement de la conversion de devises – Ajustements d’arrondi")
 
     Lorsque vous spécifiez la ligne qui doit afficher l’ajustement d’arrondi (CTA), la ligne du total des immobilisations, la ligne du total des passifs et des capitaux propres et le seuil approprié, l’outil États financiers calcule la différence et place le montant sur la ligne souhaitée. Une ligne nommée **Ajustement d’arrondi** sera créée et affichée lorsque vous effectuerez un zoom avant, comme indiqué dans l’illustration suivante.
 

@@ -2,11 +2,9 @@
 title: Planifier la fonctionnalité Secteur public
 description: Cette rubrique suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06481f4ef179e0e0441e71b9c826a21caa2816d9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a18cb26b075a4ed96a15c3e6b49effb4178a7783
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207177"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823556"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 

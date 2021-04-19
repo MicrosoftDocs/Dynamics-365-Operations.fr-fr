@@ -2,7 +2,6 @@
 title: Afficher et mettre à jour les données d’entité avec Excel
 description: Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel.
 author: jasongre
-manager: AnnBe
 ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
@@ -15,19 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b7da9867ed86921f3487077081ec63e8b44e92c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562547"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752964"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Afficher et mettre à jour les données d’entité avec Excel 
 
 [!include [applies to](../includes/applies-to-commerce-finance-scm.md)]
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+
 
 Cette rubrique explique comment ouvrir les données d’entité dans Microsoft Excel, puis les étudier, les mettre à jour et les modifier à l’aide du module complémentaire Microsoft Dynamics Excel. Pour ouvrir les données d’entité, vous pouvez commencer à partir d’Excel ou des applications Finance and Operations.
 
@@ -46,7 +45,7 @@ Pour en savoir plus sur l’utilisation du module complémentaire Excel, consult
 2. Cliquez sur l’option **Ouvrir dans Excel** et ouvrez le classeur généré. Ce classeur dispose des informations de liaison pour l’entité, d’un pointeur vers votre environnement, et d’un pointeur vers le module complémentaire Excel.
 3. Dans Excel, cliquez sur **Activer la modification** pour permettre l’exécution du module complémentaire Excel. Le module complémentaire Excel s’exécute dans un volet à droite de la fenêtre Excel.
 4. Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire**.
-5. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour l’application Finance and Operations. Le module complémentaire Excel utilisera le contexte d'une connexion précédente depuis le navigateur et vous connectera automatiquement, si possible. (Pour plus d’informations sur le navigateur utilisé en fonction du système d’exploitation, voir [Navigateurs utilisés par les modules complémentaires Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Pour vous assurer que la connexion a réussi, vérifiez le nom d’utilisateur dans le coin supérieur droit du module complémentaire Excel. 
+5. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour l’application Finance and Operations. Le module complémentaire Excel utilisera le contexte d’une connexion précédente depuis le navigateur et vous connectera automatiquement, si possible. (Pour plus d’informations sur le navigateur utilisé en fonction du système d’exploitation, voir [Navigateurs utilisés par les modules complémentaires Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Pour vous assurer que la connexion a réussi, vérifiez le nom d’utilisateur dans le coin supérieur droit du module complémentaire Excel. 
 
 Le module complémentaire Excel lit automatiquement les données de l’entité sélectionnée. Notez qu’il n’existe aucune donnée dans le classeur tant que le module complémentaire Excel n’en a pas lue.
 
@@ -64,8 +63,8 @@ Le module complémentaire Excel lit automatiquement les données de l’entité 
     Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour plus d’informations, voir « Le bouton Charger les applets s’affiche » dans la section [Dépannage](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) de cette rubrique.
 
 7. Sélectionnez **Design**. Le complément Excel récupère les métadonnées d’entité.
-8. Sélectionnez **Ajouter une table**. La liste des entités apparaît. Les entités sont répertoriées dans le format « Nom - Étiquette ».
-9. Sélectionnez une entité dans la liste, telle que **Client - Clients**, puis cliquez sur **Suivant**.
+8. Sélectionnez **Ajouter une table**. La liste des entités apparaît. Les entités sont répertoriées dans le format « Nom – Étiquette ».
+9. Sélectionnez une entité dans la liste, telle que **Client – Clients**, puis cliquez sur **Suivant**.
 10. Pour ajouter un champ à partir de la liste **Champs disponibles** à la liste **Champs sélectionnés**, cliquez sur le champ, puis cliquez sur **Ajouter**. Sinon, double-cliquez sur le champ dans la liste **Champs disponibles**.
 11. Après avoir ajouté les champs souhaités à la liste **Champs sélectionnés**, vérifiez que le curseur est à l’emplacement correct dans la feuille de calcul (par exemple, la cellule A1), puis cliquez sur **Terminé**. Ensuite, cliquez sur **Terminé** pour quitter le concepteur.
 12. Cliquez sur **Actualiser** pour extraire un jeu de données.
@@ -110,7 +109,7 @@ Vous pouvez utiliser le concepteur pour ajuster les colonnes qui sont automatiqu
 ## <a name="change-the-publish-batch-size"></a>Modifier la taille du lot de publication
 Lorsque les utilisateurs publient les modifications des enregistrements de données à l’aide du complément Excel, les mises à jour sont envoyées par lots. La taille du lot de publication par défaut est de 100 lignes. Dans la version 10.0.17 et les versions ultérieures, la fonctionnalité **Autoriser la configuration de la taille du lot de publication dans le complément Excel** vous offre un contrôle flexible sur la taille du lot de publication.
 
-Les administrateurs système peuvent spécifier une limite à l’échelle du système de la taille du lot de publication pour les classeurs « Ouvrir dans Excel » en définissant le champ **Publier la limite du lot** dans la section **Paramètres de l'application** de la page **Paramètres de l’application Office**.
+Les administrateurs système peuvent spécifier une limite à l’échelle du système de la taille du lot de publication pour les classeurs « Ouvrir dans Excel » en définissant le champ **Publier la limite du lot** dans la section **Paramètres de l’application** de la page **Paramètres de l’application Office**.
 
 La taille du lot de publication peut également être modifiée pour un classeur individuel à l’aide du complément Excel.
 

@@ -1,12 +1,10 @@
 ---
-title: Composants d'administration du module complémentaire de facturation électronique
-description: Cette rubrique fournit des informations sur les composants liés à l'administration du module complémentaire de facturation électronique.
+title: Composants d’administration de la Facturation électronique
+description: Cette rubrique fournit des informations sur les composants liés à l’administration de la Facturation électronique.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,118 +15,118 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592572"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840026"
 ---
-# <a name="electronic-invoicing-add-on-administration-components"></a>Composants d'administration du module complémentaire de facturation électronique
+# <a name="electronic-invoicing-administration-components"></a>Composants d’administration de la Facturation électronique
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Cette rubrique fournit des informations sur les composants liés à l'administration du module complémentaire de facturation électronique. Elle fournit également des informations sur la configuration du service du module complémentaire de facturation électronique.
+
+Cette rubrique fournit des informations sur les composants liés à l’administration de la Facturation électronique. Elle fournit également des informations sur la configuration du service de Facturation électronique.
 
 ## <a name="azure"></a>Azure
 
-Utilisez Microsoft Azure pour créer les secrets du coffre de clés et du compte de stockage. Utilisez ensuite les secrets dans la configuration du module complémentaire de facturation électronique.
+Utilisez Microsoft Azure pour créer les secrets du coffre de clés et du compte de stockage. Utilisez ensuite les secrets dans la configuration de la Facturation électronique.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Utilisez Microsoft Dynamics Lifecycle Services (LCS) pour activer le module complémentaire pour les microservices de votre projet de déploiement LCS.
+Utilisez Microsoft Dynamics Lifecycle Services (LCS) pour activer les microservices de votre projet de déploiement LCS.
 
 > [!NOTE]
-> L’installation du module complémentaire de microservice dans LCS nécessite au moins une machine virtuelle de niveau 2. Pour plus d’informations sur la planification de l’environnement, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+> L’installation du microservice dans LCS nécessite au moins une machine virtuelle de niveau 2. Pour plus d’informations sur la planification de l’environnement, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
-Dynamics 365 Regulatory Configuration Services (RCS) est l'interface utilisée pour configurer le module complémentaire de facturation électronique. Des ressources telles que des environnements et des fonctionnalités de facturation électronique sont créées, gérées et hébergées dans RCS. Lorsque les ressources sont prêtes, elles sont publiées dans le service du module complémentaire de facturation électronique.
+Dynamics 365 Regulatory Configuration Services (RCS) est l’interface utilisée pour configurer la Facturation électronique. Des ressources telles que des environnements et des fonctionnalités de facturation électronique sont créées, gérées et hébergées dans RCS. Lorsque les ressources sont prêtes, elles sont publiées dans le service de Facturation électronique.
 
 Pour l’inscription au RCS, voir [Regulatory services](https://marketing.configure.global.dynamics.com/).
 
-Pour plus d’informations sur RCS, voir [Regulatory Configuration Services (RCS) - Fonctionnalités de globalisation](rcs-globalization-feature.md).
+Pour plus d’informations sur RCS, voir [Regulatory Configuration Services (RCS) – Fonctionnalités de globalisation](rcs-globalization-feature.md).
 
-### <a name="integration-with-the-electronic-invoicing-add-on"></a>Intégration avec le module complémentaire de facturation électronique
+### <a name="integration-with-electronic-invoicing"></a>Intégration avec la Facturation électronique 
 
-Avant de pouvoir utiliser RCS pour configurer des factures électroniques, vous devez le configurer pour permettre la communication avec le module complémentaire de facturation électronique. Vous devez effectuer cette configuration sur l'onglet **Module complémentaire de facturation électronique** de la page **Paramètres de la gestion des états électroniques**.
+Avant de pouvoir utiliser RCS pour configurer des factures électroniques, vous devez le configurer pour permettre la communication avec la Facturation électronique. Vous devez effectuer cette configuration sur l’onglet **Facturation électronique** de la page **Paramètres de la gestion des états électroniques**.
 
 #### <a name="service-endpoint"></a>Point de terminaison de service
 
-Le module complémentaire de facturation électronique est disponible dans plusieurs emplacements géographiques du centre de données Azure. Le tableau suivant répertorie la disponibilité par région.
+La Facturation électronique est disponible dans plusieurs emplacements géographiques du centre de données Azure. Le tableau suivant répertorie la disponibilité par région.
 
 | Emplacement géographique du centre de données Azure |
 |----------------------------|
 | Est des États-Unis                    |
 | Ouest des États-Unis                    |
-| Nord de l'UE                   |
-| Ouest de l'UE                    |
+| Nord de l’UE                   |
+| Ouest de l’UE                    |
 
 ### <a name="service-environments"></a>Environnements de service
 
-Les environnements de service sont des partitions logiques créées pour prendre en charge l'exécution des fonctionnalités de facturation électronique dans le module complémentaire de facturation électronique. Les secrets de sécurité et les certificats numériques, ainsi que la gouvernance (c'est-à-dire les autorisations d'accès), doivent être configurés au niveau de l'environnement de service.
+Les environnements de service sont des partitions logiques créées pour prendre en charge l’exécution des fonctionnalités de facturation électronique dans la Facturation électronique. Les secrets de sécurité et les certificats numériques, ainsi que la gouvernance (c’est-à-dire les autorisations d’accès), doivent être configurés au niveau de l’environnement de service.
 
-Les clients peuvent créer autant d'environnements de service qu'ils le souhaitent. Tous les environnements de service créés par un client sont indépendants les uns des autres.
+Les clients peuvent créer autant d’environnements de service qu’ils le souhaitent. Tous les environnements de service créés par un client sont indépendants les uns des autres.
 
-Les environnements de service doivent être créés et gérés dans RCS. Lorsque les environnements de service sont prêts, ils doivent être publiés dans le module complémentaire de facturation électronique.
+Les environnements de service doivent être créés et gérés dans RCS. Lorsque les environnements de service sont prêts, ils doivent être publiés dans la Facturation électronique.
 
-#### <a name="service-environment-status"></a>Statut de l'environnement de service
+#### <a name="service-environment-status"></a>Statut de l’environnement de service
 
 Les environnements de service peuvent être gérés via leur statut. Les options possibles sont :
 
-- **Non publié** - L'environnement a été créé, mais il n'a pas encore été publié.
-- **Publié** - L'environnement a été publié dans le module complémentaire de facturation électronique.
-- **Modifié** - Les attributs d'un environnement publié ont été modifiés, mais les modifications n'ont pas encore été publiées.
+- **Non publié** – L’environnement a été créé, mais il n’a pas encore été publié.
+- **Publié** – L’environnement a été publié dans la Facturation électronique.
+- **Modifié** – Les attributs d’un environnement publié ont été modifiés, mais les modifications n’ont pas encore été publiées.
 
 #### <a name="customer-secrets"></a>Secrets clients
 
-Le service complémentaire de facturation électronique a la responsabilité de stocker toutes vos données métier dans les ressources Azure appartenant à votre société. Pour vous assurer que le service fonctionne correctement et que toutes les données métier nécessaires et générées par le module complémentaire de facturation électronique ne sont accessibles que par ce dernier, vous devez créer deux ressources Azure principales :
+Le service de Facturation électronique a la responsabilité de stocker toutes vos données métier dans les ressources Azure appartenant à votre société. Pour vous assurer que le service fonctionne correctement et que toutes les données métier requises et générées par la Facturation électronique ne sont accessibles que de manière appropriée, vous devez créer deux ressources Azure principales :
 
 - Un compte de stockage Azure (stockage Blob) qui va stocker les factures électroniques
 - Un coffre de clés Azure qui va stocker les certificats et l’Uniform Resource Identifier (URI) du compte de stockage
 
 > [!NOTE]
-> Une ressource de coffre de clés dédiée et un compte de stockage client doivent être alloués spécifiquement pour une utilisation avec le module complémentaire de facturation électronique.
+> Une ressource de coffre de clés dédiée et un compte de stockage client doivent être alloués spécifiquement pour une utilisation avec la Facturation électronique.
 
 Pour plus d’informations, voir [Créer un compte de stockage Azure et un coffre de clés](e-invoicing-create-azure-storage-account-key-vault.md).
 
 #### <a name="users"></a>Utilisateurs
 
-Chaque environnement de service doit répertorier les utilisateurs qui peuvent se connecter à partir de Dynamics 365 Finance et Dynamics 365 Supply Chain Management dans le module complémentaire Facturation électronique.
+Chaque environnement de service doit répertorier les utilisateurs qui peuvent se connecter à partir de Dynamics 365 Finance et Dynamics 365 Supply Chain Management à la Facturation électronique.
 
 #### <a name="publication"></a>Publication
 
-Les environnements de service doivent être publiés dans le module complémentaire de facturation électronique avant de pouvoir être utilisés. Seuls les environnements publiés sont accessibles par Finance et Supply Chain Management. De plus, un environnement de service doit être publié avant que toute mise à jour de ses attributs ne prenne effet sur le service de facturation électronique.
+Les environnements de service doivent être publiés dans la Facturation électronique avant de pouvoir être utilisés. Seuls les environnements publiés sont accessibles par Finance et Supply Chain Management. De plus, un environnement de service doit être publié avant que toute mise à jour de ses attributs ne prenne effet sur le service de facturation électronique.
 
 ### <a name="connected-applications"></a>Applications connectées
 
-Les applications connectées sont les instances de Finance et Supply Chain Management que vous souhaitez peut-être atteindre via RCS. Outre l'URL de l'application et son client, une application connectée contient les informations d'identification qui permettent à RCS de se connecter à l'environnement.
+Les applications connectées sont les instances de Finance et Supply Chain Management que vous souhaitez peut-être atteindre via RCS. Outre l’URL de l’application et son client, une application connectée contient les informations d’identification qui permettent à RCS de se connecter à l’environnement.
 
-Grâce aux applications connectées, vous pouvez configurer une partie de la fonction de facturation électronique dans Finance et Supply Chain Management pour faire fonctionner l'ensemble de la fonction de facturation électronique.
+Grâce aux applications connectées, vous pouvez configurer une partie de la fonction de facturation électronique dans Finance et Supply Chain Management pour faire fonctionner l’ensemble de la fonction de facturation électronique.
 
 ## <a name="finance-and-supply-chain-management"></a>Finance et Supply Chain Management
 
-### <a name="integration-with-electronic-invoicing-add-on"></a>Intégration avec le module complémentaire de facturation électronique
+### <a name="integration-with-electronic-invoicing"></a>Intégration avec la Facturation électronique
 
-Avant de pouvoir utiliser Finance et Supply Chain Management pour émettre des factures électroniques via le module complémentaire de facturation électronique, le module complémentaire doit être configuré pour permettre la communication avec le service.
+Avant de pouvoir utiliser Finance et Supply Chain Management pour émettre des factures électroniques via la Facturation électronique, ils doivent être configurés pour permettre la communication avec le service.
 
-#### <a name="electronic-invoicing-add-on-integration-feature"></a>Fonctionnalité d'intégration du module complémentaire de facturation électronique
+#### <a name="electronic-invoicing-integration-feature"></a>Fonctionnalité d’intégration de la Facturation électronique
 
-Pour activer la communication entre Finance et Supply Chain Management et le module complémentaire de facturation électronique, vous devez activer la fonctionnalité **Intégration du module complémentaire de facturation électronique** dans l'espace de travail **Gestion des fonctionnalités**.
+Pour activer la communication entre Finance et Supply Chain Management et la Facturation électronique, vous devez activer la fonctionnalité **Intégration de la Facturation électronique** dans l’espace de travail **Gestion des fonctionnalités**.
 
 #### <a name="service-endpoint"></a>Point de terminaison de service
 
-Le point de terminaison du service est l'URL où se trouve le module complémentaire de facturation électronique. Pour pouvoir émettre des factures électroniques, le point de terminaison de service doit être configuré dans Finance et Supply Chain Management pour permettre la communication avec le service.
+Le point de terminaison du service est l’URL où se trouve la Facturation électronique. Pour pouvoir émettre des factures électroniques, le point de terminaison de service doit être configuré dans Finance et Supply Chain Management pour permettre la communication avec le service.
 
-Pour configurer le point de terminaison du service, accédez à **Administration d'organisation \> Paramétrage \> Paramètres des documents électroniques**, puis, sur l'onglet **Services de soumission**, dans le champ **URL du module complémentaire de facturation électronique**, entrez l'URL comme décrit dans le tableau de la section **Point de terminaison du service**.
+Pour configurer le point de terminaison du service, accédez à **Administration d’organisation \> Paramétrage \> Paramètres des documents électroniques**, puis, sur l’onglet **Services de soumission**, dans le champ **URL de la Facturation électronique**, entrez l’URL comme décrit dans le tableau de la section **Point de terminaison du service**.
 
 #### <a name="environments"></a>Environnements
 
-Le nom de l'environnement entré dans Finance et Supply Chain Management fait référence au nom de l'environnement créé dans RCS et publié dans le module complémentaire de facturation électronique.
+Le nom de l’environnement entré dans Finance et Supply Chain Management fait référence au nom de l’environnement créé dans RCS et publié dans la Facturation électronique.
 
-L'environnement doit être configuré sur l'onglet **Services de soumission** de la page **Paramètres des documents électroniques**, de sorte que chaque demande d'émission de factures électroniques contienne l'environnement dans lequel le module complémentaire de facturation électronique peut déterminer quelle fonction de facturation électronique doit traiter la demande.
+L’environnement doit être configuré sur l’onglet **Services de soumission** de la page **Paramètres des documents électroniques**, de sorte que chaque demande d’émission de factures électroniques contienne l’environnement dans lequel la Facturation électronique peut déterminer quelle fonction de facturation électronique doit traiter la demande.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

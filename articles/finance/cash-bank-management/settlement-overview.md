@@ -2,11 +2,9 @@
 title: Vue d’ensemble des règlements
 description: Cette rubrique fournit des informations générales sur le processus de règlement. Elle décrit les types de transaction pouvant être réglés, ainsi que le calendrier et le processus de règlement. Elle décrit également les résultats du processus de règlement.
 author: kweekley
-manager: AnnBe
 ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d8b7bec73b0461f286165cd36e61c6e8b5a6270b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d3ba2b484efa0107ac7e055272ee2169a0fd35c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225534"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834858"
 ---
 # <a name="settlement-overview"></a>Vue d’ensemble des règlements
 

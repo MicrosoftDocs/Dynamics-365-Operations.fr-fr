@@ -2,8 +2,7 @@
 title: ER Créer des configurations pour importer des données d’un fichier externe
 description: Cette rubrique décrit comment créer des configurations d’états électroniques pour importer des données dans l’application Microsoft Dynamics 365 Finance, à partir d’un fichier externe.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564288"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751460"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Créer des configurations pour importer des données d’un fichier externe
 
 [!include [banner](../../includes/banner.md)]
 
-Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut concevoir des configurations de format pour la génération d’états électroniques (ER) pour importer des données dans une application à partir d’un fichier externe. Dans cet exemple, vous allez créer les configurations ER requises pour l’exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord effectuer les étapes du Guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif. » Ces étapes peuvent être effectuées à l’aide de l’ensemble de données USMF. Vous devez également télécharger et enregistrer localement les fichiers suivants à l’aide des liens de la rubrique Vue d’ensemble des états électroniques (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Les étapes suivantes expliquent comment un utilisateur dont le rôle est Administrateur système ou Développeur d’états électroniques peut concevoir des configurations de format pour la génération d’états électroniques (ER) pour importer des données dans une application à partir d’un fichier externe. Dans cet exemple, vous allez créer les configurations ER requises pour l’exemple de société, Litware, Inc. Pour effectuer ces étapes, vous devez d’abord effectuer les étapes du Guide de tâche, « ER Créer un fournisseur de configuration et le marquer comme actif. » Ces étapes peuvent être effectuées à l’aide de l’ensemble de données USMF. Vous devez également télécharger et enregistrer les fichiers suivants localement : 
+
+| Description du contenu                       | Nom de fichier                                     |
+|-------------------------------------------|-----------------------------------------------|
+| Configuration de modèle de données ER – 1099 | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| Configuration de format ER – 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Exemple de document entrant au format XML                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Exemple de classeur pour gérer les données du document entrant                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 La génération d’états électroniques offre aux utilisateurs professionnels la capacité de configurer la processus d’importation des fichiers de données externes vers des tables au format .XML ou .TXT. Tout d’abord, un modèle de données abstrait et une configuration de modèle de données de génération d’états électroniques doivent être conçus pour représenter les données que vous importez. Ensuite, vous devez définir la structure du fichier que vous importez et la méthode à utiliser pour déplacer les données du fichier vers le modèle de données abstrait. La configuration du format ER qui correspond au modèle de données conçu doit être créée pour le modèle de données abstrait. Enfin, la configuration du modèle de données doit être étendue avec une mise en correspondance décrivant comment les données importées restent des données de modèle de données abstrait, et comment elles sont utilisées pour la mise à jour des tables.  La configuration du modèle de données ER doit être complétée avec une nouvelle mise en correspondance de modèle qui décrit la liaison du modèle de données aux destinations de l’application.  
 

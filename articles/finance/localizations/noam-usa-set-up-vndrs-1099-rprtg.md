@@ -2,11 +2,9 @@
 title: Paramétrer des fournisseurs pour l’état 1099
 description: Cette rubrique explique comment configurer les enregistrements de fournisseur afin qu’une zone 1099 soit associée à un compte principal.
 author: v-kiarnd
-manager: Ann Beebe
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNCanadianHSTTaxFeature
 audience: Application User
@@ -19,12 +17,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 7780746d5c3c7cbbc49a074bfdc167e6e3724a55
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 49457fe008a50772f13cf9e564ef7344b1246c7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251099"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813953"
 ---
 # <a name="set-up-vendors-for-1099-reporting"></a>Paramétrer des fournisseurs pour l’état 1099
 

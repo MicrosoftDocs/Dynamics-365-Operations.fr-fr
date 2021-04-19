@@ -2,11 +2,9 @@
 title: Soumettre les factures au système de workflow et mettre en correspondance des lignes d’accusé de réception de marchandises
 description: Cette rubrique explique le processus d’envoi des factures fournisseur au système de workflow et la mise en correspondance automatiques des lignes de réception des marchandises validées avec les factures fournisseur.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231540"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827816"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Soumettre les factures au système de workflow et mettre en correspondance des lignes d’accusé de réception de marchandises
 
@@ -41,11 +39,13 @@ La valeur **Soumis par** dans le workflow est l’ID utilisateur qui a été ent
 
 Dans le cadre d’un processus de facturation de la comptabilité fournisseur sans contact, le système peut automatiquement faire correspondre les réceptions de marchandises validées avec les lignes de facture. Une stratégie de rapprochement à trois facteurs doit être définie pour cette tâche. Cette fonction est disponible si la fonction **Automatisation des factures fournisseur** a été activée sur la page **Gestion des fonctionnalités**.
 
-Le processus s’exécutera jusqu’à ce que la quantité des marchandises reçues soit égale à la quantité de la facture. Dans le cadre de ce processus, vous pouvez spécifier le nombre maximal de fois que le système doit essayer de faire correspondre les réceptions de marchandises avec une ligne de facture avant de conclure que le processus a échoué. Le processus s’exécutera en arrière-plan, toutes les heures ou tous les jours. Vous pouvez exécuter le processus de mise en correspondance automatique dans le cadre du processus d’envoi des factures au système de workflow. Vous pouvez également l’exécuter en tant que processus autonome. Les paramètre du processus de mise en correspondance des réceptions de marchandises avec les lignes de facture sont configurés dans l’onglet **Automatisation des factures fournisseur** de la page **Paramètres de la comptabilité fournisseur** (**Comptabilité fournisseur \> Configuration \> Paramètres de la comptabilité fournisseur**).
+Le processus de mise en correspondance s’exécutera jusqu’à ce que la quantité des marchandises reçues soit égale à la quantité de la facture. Cependant, s’il existe plusieurs reçus de produit pour une seule ligne de facture, vous devrez exécuter le processus plusieurs fois pour obtenir la correspondance de quantité totale. Vous pouvez spécifier le nombre maximal de fois que le système doit essayer de faire correspondre les réceptions de marchandises avec une ligne de facture avant de conclure que le processus a échoué. Le processus s’exécutera en arrière-plan, toutes les heures ou tous les jours. 
+
+Vous pouvez exécuter le processus de mise en correspondance automatique dans le cadre du processus d’envoi des factures au système de workflow. Vous pouvez également l’exécuter en tant que processus autonome. Les paramètre du processus de mise en correspondance des réceptions de marchandises avec les lignes de facture sont configurés dans l’onglet **Automatisation des factures fournisseur** de la page **Paramètres de la comptabilité fournisseur** (**Comptabilité fournisseur \> Configuration \> Paramètres de la comptabilité fournisseur**).
 
 Les lignes de facture qui ont une stratégie de rapprochement à trois facteurs, où la quantité de réception correspondante est inférieure à la quantité de la facture, seront incluses dans le processus automatisé de mise en correspondance avec les réceptions de marchandises.
 
-Pour voir le statut **Dernière correspondance** des factures qui ne font pas partie du processus automatisé de soumission au workflow, ouvrez la facture à partir de la page **Factures fournisseur**. Lorsque vous affichez la facture, les informations de validation correspondantes sont mises à jour. Le statut **Dernière correspondance** peut être mis à jour automatiquement à l'aide de la tâche en arrière-plan **Valider le rapprochement des factures**. Vous pouvez configurer le processus de mise à jour automatique du statut **Dernière correspondance** sur l'onglet **Processus en arrière-plan** de la page **Automatisations de processus** (**Administration système\> Configuration\> Automatisations de processus**).
+Pour voir le statut **Dernière correspondance** des factures qui ne font pas partie du processus automatisé de soumission au workflow, ouvrez la facture à partir de la page **Factures fournisseur**. Lorsque vous affichez la facture, les informations de validation correspondantes sont mises à jour. Le statut **Dernière correspondance** peut être mis à jour automatiquement à l’aide de la tâche en arrière-plan **Valider le rapprochement des factures**. Vous pouvez configurer le processus de mise à jour automatique du statut **Dernière correspondance** sur l’onglet **Processus en arrière-plan** de la page **Automatisations de processus** (**Administration système\> Configuration\> Automatisations de processus**).
 
 Une ligne de facture sera exclue du traitement automatisé si l’une des conditions suivantes est remplie :
 

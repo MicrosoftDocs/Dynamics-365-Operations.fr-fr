@@ -1,8 +1,7 @@
 ---
 title: Syntaxe de requête et de filtrage avancée
-description: Cette rubrique décrit les options de filtrage et de requête disponibles lorsque vous utilisez la boîte de dialogue Filtre/tri avancé ou l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
+description: Cette rubrique décrit les options de filtrage et de requête pour la boîte de dialogue Filtre/tri avancé et l’opérateur de correspondances dans le volet Filtre ou les filtres d’en-tête de colonne de la grille.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 15805e24c46603afd34d40c5f94c1422b01cab4c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fdb55a9552759e5f2b670a4eeb4e5d6572ebfb77
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744097"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Syntaxe de requête et de filtrage avancée
 
@@ -36,7 +35,7 @@ Cette rubrique décrit les options de filtrage et de requête disponibles lorsqu
 <tr>
 <th>Syntaxe</th>
 <th>Description du caractère</th>
-<th>Description </th>
+<th>Description</th>
 <th>Exemple</th>
 </tr>
 </thead>

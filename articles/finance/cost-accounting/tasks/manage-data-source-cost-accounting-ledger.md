@@ -2,11 +2,9 @@
 title: Gérer une source de données pour la comptabilité de contrôle de gestion
 description: Utilisez cette procédure pour gérer la source de données pour une comptabilité de contrôle de gestion.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMAXGeneralLedgerEntryProviderConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fef42f1866b0995182ac6fd022045f7dd31906
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: da4d351f4bce6494a107a55895866e4d3d43953f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218909"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841067"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gérer une source de données pour la comptabilité de contrôle de gestion
 
@@ -36,7 +34,7 @@ Utilisez cette procédure pour gérer la source de données pour une comptabilit
 6. Cliquez sur Nouveau.
 7. Tapez une valeur dans le champ Nom.
 8. Dans le champ Fournisseur de données, entrez ou sélectionnez une valeur.
-    * Pour cet exemple, sélectionnez Dynamics 365 Finance - Écritures de comptabilité.  
+    * Pour cet exemple, sélectionnez Dynamics 365 Finance – Écritures de comptabilité.  
 9. Dans le champ Dimension d’élément de coût, entrez ou sélectionnez une valeur.
     * Pour cet exemple, sélectionnez Éléments de coût.  
 10. Cliquez sur Enregistrer.

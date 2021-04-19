@@ -2,11 +2,9 @@
 title: États de location d’actifs
 description: Cette rubrique répertorie et décrit brièvement les états disponibles dans la location d’actifs.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ab55d778f55c3ec96141c4f868724af1e11aed09
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 085027c5cc823beec99779791ff471dceb4ec8fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229572"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814102"
 ---
 # <a name="asset-leasing-reports"></a>États de location d’actifs
 
@@ -74,7 +72,7 @@ L’état sur les prévisions de paiement non remisé sur cinq ans indique les p
 |     Ensuite            |     Somme de tous les paiements de location à régler le 61ème mois ou après à compter de la date de génération des états.              |
 
 ## <a name="gaap-cash-flows-report"></a>État des flux de trésorerie GAAP
-L’état des divulgations GAAP satisfait à l’exigence de divulgation US GAAP spécifiée dans 842-20-50-4(g)(1). Pour consulter cet état, accédez à **Location d’actifs > Recherches et états > Divulgations > GAAP - flux de trésorerie**. 
+L’état des divulgations GAAP satisfait à l’exigence de divulgation US GAAP spécifiée dans 842-20-50-4(g)(1). Pour consulter cet état, accédez à **Location d’actifs > Recherches et états > Divulgations > GAAP – flux de trésorerie**. 
 
 |     Champs d’état                                 |     Description                                                                                                                                               |
 |------------------------------------------------   |-----------------------------------------------------------------------------  |
