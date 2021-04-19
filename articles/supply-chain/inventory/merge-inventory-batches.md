@@ -2,11 +2,9 @@
 title: Fusionner les traitements par lots de stock
 description: Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné.
 author: pjacobse
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d43733455765bc8b69ce8595c46b00942ddac6b7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228585"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808182"
 ---
 # <a name="merge-inventory-batches"></a>Fusionner les traitements par lots de stock
 

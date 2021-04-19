@@ -2,11 +2,9 @@
 title: Module de carte cadeau
 description: Cette rubrique couvre les modules de carte cadeau et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c024cc1b16ca60b2277eba2d7045020c2e67c3a0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a4e4e06ab7032d68fcd36a8e80bc714ebaaac821
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206293"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797669"
 ---
 # <a name="gift-card-module"></a>Module Carte cadeau
 
@@ -64,7 +62,7 @@ Dans le générateur de site Commerce, sous **Paramètres du site \> Extensions*
 - **Cartes cadeaux Dynamics 365, SVS et Givex** - Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Dynamics 365, Givex et SVS. Ce paramètre n’est pris en charge que pour les utilisateurs connectés sur le site de commerce électronique.
 
 > [!IMPORTANT]
-> Ces paramètres sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce et ne sont requis que si vous avez besoin d'assistance pour les cartes cadeaux SVS ou Givex. Si vous effectuez une mise à jour à partir d'une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Ces paramètres sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce et ne sont requis que si vous avez besoin d’assistance pour les cartes cadeaux SVS ou Givex. Si vous effectuez une mise à jour à partir d’une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
 ## <a name="add-a-gift-card-module-to-a-page"></a>Ajouter un module de carte cadeau à une page
 
@@ -84,7 +82,7 @@ Pour obtenir des instructions sur la façon d’ajouter un module de carte cadea
 
 [Module Options de livraison](delivery-options-module.md)
 
-[Module d'information sur le retrait](pickup-info-module.md)
+[Module d’information sur le retrait](pickup-info-module.md)
 
 [Module Détails de la commande](order-confirmation-module.md)
 

@@ -2,11 +2,9 @@
 title: Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 description: Cette rubrique décrit comment utiliser l’interface d’exécution de l’atelier de production du point de vue d’un travailleur.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500788"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814654"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 L’interface d’exécution de l’atelier de production est optimisée pour l’interaction tactile. Sa conception offre un contraste visuel qui répond aux exigences d’accessibilité pour les environnements d’atelier. Elle offre toutes les mêmes capacités fonctionnelles que le périphérique de bon de travail. Cependant, elle permet également de démarrer plusieurs tâches en parallèle à partir d’une liste de tâches. (Cette capacité est également connue sous le nom de *regroupement des tâches*.) De plus, à partir d’une liste de tâches, les travailleurs peuvent ouvrir un guide qui a été créé dans le Guide Microsoft Dynamics 365. De cette façon, ils peuvent obtenir des instructions visuelles sur un HoloLens.
 
@@ -90,7 +87,7 @@ L’onglet **Ma machine** contient les colonnes suivantes. Les numéros correspo
 
 1. **Paramètres** : sélectionnez l’icône d’engrenage pour ouvrir une boîte de dialogue dans laquelle vous pouvez choisir les compteurs à afficher pour l’actif de machine sélectionné. Les valeurs de ces compteurs sont affichées en haut de l’onglet **Gestion des actifs**. Le menu **Paramètres** (illustré dans la capture d’écran suivante) vous permet d’activer jusqu’à quatre compteurs. Pour chaque compteur que vous souhaitez activer, utilisez le champ de recherche en haut de la vignette pour sélectionner un compteur. Le champ de recherche répertorie tous les compteurs associés à l’actif sélectionné en haut de la page **Gestion des actifs**. Définissez chaque compteur pour surveiller la valeur **Agrégée** ou la valeur **Réelle** la plus récente du compteur. Par exemple, si vous définissez un compteur qui suit le nombre d’heures de fonctionnement de la machine, vous devez le définir sur **Agrégé**. Si vous définissez un compteur pour mesurer la dernière température ou pression mise à jour, vous devez le définir sur **Réel**. Sélectionnez **OK** pour enregistrer vos paramètres et fermer la boîte de dialogue.
 
-    ![Onglet Ma machine](media/pfei-my-machine-tab-settings.png "Onglet Ma machine")
+    ![Paramètres de l’onglet Ma machine](media/pfei-my-machine-tab-settings.png "Paramètres de l’onglet Ma machine")
 
 1. **Faire une demande de maintenance** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez créer une demande de maintenance. Vous pourrez fournir une description et une note. La demande sera présentée à un utilisateur de Supply Chain Management, qui pourra alors convertir la demande de maintenance en ordre de travail de maintenance.
 1. **Enregistrer les temps d’arrêt** : sélectionnez ce bouton pour ouvrir une boîte de dialogue dans laquelle vous pouvez enregistrer les temps d’arrêt de la machine. Vous pourrez sélectionner un code motif et entrer un intervalle de dates ou d’heures pour le temps d’arrêt. L’enregistrement des temps d’arrêt de la machine est utilisé pour calculer l’efficacité de l’actif de machine.

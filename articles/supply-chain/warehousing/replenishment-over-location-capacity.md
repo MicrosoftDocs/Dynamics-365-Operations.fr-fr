@@ -2,11 +2,9 @@
 title: Réapprovisionnement sur la capacité de l’emplacement
 description: Cette rubrique fournit des informations sur la fonctionnalité Réapprovisionnement sur la capacité de l’emplacement. Cette fonctionnalité permet de créer tout le travail de réapprovisionnement qui sera nécessaire pour la journée et gère la disponibilité de ce travail de réapprovisionnement pour garantir que le site de prélèvement ne soit pas à court de stock ni ne dépasse la capacité.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228391"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823237"
 ---
 # <a name="replenishment-over-location-capacity"></a>Réapprovisionnement sur la capacité de l’emplacement
 
@@ -241,7 +239,7 @@ En fonction de vos quantités disponibles, les quantités de travail créées pe
 
 #### <a name="on-hand-inventory-license-plate-id"></a>ID contenant du stock disponible
 
-Plus tard dans ce scénario, vous utiliserez l’application d’entrepôt (ou un émulateur), où vous devez identifier le contenant pour terminer les scénarios de prélèvement et de réapprovisionnement.
+Plus tard dans ce scénario, vous utiliserez l’application mobile Gestion des entrepôts (ou un émulateur), où vous devez identifier le contenant pour terminer les scénarios de prélèvement et de réapprovisionnement.
 
 Pour trouver les ID de contenant dont vous aurez besoin ultérieurement, procédez comme suit.
 
@@ -266,7 +264,7 @@ Vous effectuerez le réapprovisionnement de l’emplacement d’entrepôt pour l
 
 #### <a name="replenishment"></a>Réapprovisionnement
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *61*. (Entrez *61* comme ID utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur de l’entrepôt *61*. (Entrez *61* comme ID utilisateur et *1* comme mot de passe.)
 1. Allez dans **Stock \> Réapprovisionnement**.
 
     Vous êtes invité à terminer le premier travail de réapprovisionnement. Le numéro d’article, la quantité et l’emplacement du prélèvement sont affichés.
@@ -296,7 +294,7 @@ Jusqu’à ce qu’un stock suffisant soit sélectionné à partir de l’emplac
 
 Avant que la tâche de travail de réapprovisionnement restante ne puisse être terminée, l’emplacement de prélèvement doit être épuisé à un niveau où le travail de réapprovisionnement restant peut être débloqué. En d’autres termes, la somme de la quantité de stock disponible dans l’emplacement et la quantité de réapprovisionnement ne peut pas dépasser la valeur de la **Quantité de débordement**. Lorsque cette somme est inférieure à la quantité de débordement, le travail de réapprovisionnement restant sera débloqué.
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur de l’entrepôt *61*. (Entrez *61* comme ID utilisateur et *1* comme mot de passe.)
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur de l’entrepôt *61*. (Entrez *61* comme ID utilisateur et *1* comme mot de passe.)
 1. Allez à **Sortant \> Prélèvement des ventes**.
 1. Saisissez le premier ID de travail pour la commande client 1.
 

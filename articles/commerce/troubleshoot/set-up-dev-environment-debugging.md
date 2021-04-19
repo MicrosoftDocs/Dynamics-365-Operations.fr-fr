@@ -2,7 +2,6 @@
 title: Configurer un environnement de développement d’e-commerce pour déboguer sur une machine virtuelle Retail Server Niveau 1
 description: Cette rubrique explique comment configurer un environnement de développement d’e-commerce pour déboguer sur une machine virtuelle (VM) Retail Server Niveau 1.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 35380a559a4f1b22bdf04ff25cb2bbfc51aff45b
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 5ef286aa28ff459befb72b0178f308e5fb85ec44
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585312"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801481"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Configurer un environnement de développement d’e-commerce pour déboguer sur une machine virtuelle Retail Server Niveau 1
 
@@ -30,7 +29,7 @@ ms.locfileid: "5585312"
 
 Cette rubrique explique comment configurer un environnement de développement d’e-commerce pour déboguer sur une machine virtuelle (VM) Retail Server Niveau 1.
 
-## <a name="description"></a>Description 
+## <a name="description"></a>Description
 
 Les environnements Microsoft Dynamics 365 Commerce de niveau 1 sont généralement déployés pour Commerce Runtime (CRT) et le développement de l’extension de point de vente (PDV). Ce sont des environnements autonomes. En raison de la nature logiciel en tant que service (SaaS) de l’architecture, ils n’incluent pas de composants e-commerce.
 

@@ -1,12 +1,10 @@
 ---
 title: Créer des ordres de transfert depuis l’application d’entreposage
-description: Cette rubrique décrit comment créer et traiter des ordres de transfert à partir de la fonctionnalité de l’application d’entreposage
+description: Cette rubrique décrit comment créer et traiter des ordres de transfert à partir de l’application mobile Gestion des entrepôts
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214128"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838368"
 ---
-# <a name="create-transfer-orders-from-the-warehouse-app"></a>Créer des ordres de transfert depuis l’application d’entreposage
+# <a name="create-transfer-orders-from-the-warehouse-app"></a>Créer des ordres de transfert depuis l’application d’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette fonctionnalité permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l’application d’entreposage. Les magasiniers commencent par sélectionner l’entrepôt de destination et peuvent ensuite scanner un ou plusieurs contenants à l’aide de l’application afin d’ajouter des contenants à l’ordre de transfert. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l’ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants.
+Cette fonctionnalité permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l’application mobile Gestion des entrepôts. Les magasiniers commencent par sélectionner l’entrepôt de destination et peuvent ensuite scanner un ou plusieurs contenants à l’aide de l’application afin d’ajouter des contenants à l’ordre de transfert. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l’ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Fonctionnalité Activer la création d’ordres de transfert à partir de la l’application d’entreposage
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Activer la fonctionnalité Créer des ordres de transfert à partir de la l’application d’entreposage
 
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer et activer les éléments requis sur votre système. Les administrateurs peuvent utiliser les paramètres de la page de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire.
 
@@ -50,8 +48,8 @@ Voici des recommandations générales pour configurer une option de menu d’app
 1. Sélectionnez **Nouveau** pour ajouter une option de menu. Ensuite, définissez les paramètres suivants pour commencer :
 
     - **Nom de l’option de menu** - Attribuez un nom tel qu’il doit apparaître dans Supply Chain Management.
-    - **Titre** - Attribuez un nom de menu tel qu’il doit être présenté aux collaborateurs dans l’application d’entreposage.
-    - **Mode** - Défini sur *Indirect* (cette application d’entreposage ne créera pas de travail).
+    - **Titre** - Attribuez un nom de menu tel qu’il doit être présenté aux collaborateurs dans l’application mobile Gestion des entrepôts.
+    - **Mode** - Défini sur *Indirect* (cet élément de menu ne créera pas de travail).
     - **Code d’activité** - Défini sur *Créer un ordre de transfert à partir des contenants* pour permettre aux magasiniers de créer un ordre de transfert basé sur un ou plusieurs contenants scannés.
 
 1. Utilisez le paramètre **Stratégie de création de ligne d’ordre de transfert** pour contrôler la façon dont les lignes d’ordre de transfert seront créées par cette option de menu. Ces lignes seront créées/mises à jour en fonction du stock disponible enregistré pour les contenants scannés. Choisissez l’une des valeurs suivantes :
@@ -74,7 +72,7 @@ Voici des recommandations générales pour configurer une option de menu d’app
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Créer un ordre de transfert basé sur des contenants
 
-L’application d’entreposage dispose d’un processus simple pour créer des ordres de transfert basés sur des contenants. Pour ce faire, le collaborateur effectue les opérations suivantes à l’aide de l’application d’entreposage :
+L’application mobile Gestion des entrepôts dispose d’un processus simple pour créer des ordres de transfert basés sur des contenants. Pour ce faire, le collaborateur effectue les opérations suivantes à l’aide de l’application mobile Gestion des entrepôts :
 
 1. Créer l’ordre de transfert et identifier l’entrepôt de destination.
 1. Identifier chaque contenant à expédier.
@@ -258,9 +256,9 @@ Pour l’exemple mentionné, deux **Événements de l’application d’entrepos
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Demander les événements de l’application d’entreposage
 
-Vous pouvez afficher la file d’attente et les messages d’événements générés par l’application d’entreposage en accédant à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l’application d’entreposage**.
+Vous pouvez afficher la file d’attente et les messages d’événements générés par l’application mobile Gestion des entrepôts en accédant à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l’application d’entreposage**.
 
-Les messages de l’événement *Créer un ordre de transfert* passeront à l’état *En attente*, ce qui signifie que le traitement par lots **Traiter les événements de l’application d’entreposage** ne prélèvera pas et ne traitera pas les messages d’événement. Dès que le message d’événement passe à l’état *En file d’attente*, le traitement par lots traitera les événements. Cela se produira en même temps que la création de l’événement *Terminer l’ordre de transfert* (lorsqu’un collaborateur sélectionne le bouton **Terminer la commande** sur l’application d’entreposage). Quand les messages d’événement *Créer un ordre de transfert* ont été traités, l’état devient *Terminé* ou *Échec*. Lorsque l’état *Terminer l’ordre de transfert* devient *Terminé*, tous les événements associés sont supprimés de la file d’attente.
+Les messages de l’événement *Créer un ordre de transfert* passeront à l’état *En attente*, ce qui signifie que le traitement par lots **Traiter les événements de l’application d’entreposage** ne prélèvera pas et ne traitera pas les messages d’événement. Dès que le message d’événement passe à l’état *En file d’attente*, le traitement par lots traitera les événements. Cela se produira en même temps que la création de l’événement *Terminer l’ordre de transfert* (lorsqu’un collaborateur sélectionne le bouton **Terminer la commande** sur l’application mobile Gestion des entrepôts). Quand les messages d’événement *Créer un ordre de transfert* ont été traités, l’état devient *Terminé* ou *Échec*. Lorsque l’état *Terminer l’ordre de transfert* devient *Terminé*, tous les événements associés sont supprimés de la file d’attente.
 
 Étant donné que **Événements de l’application d’entreposage** pour la création de données de l’ordre de transfert ne seront pas traités par le traitement par lots avant que les messages ne soient mis à jour à l’état *En file d’attente*, vous devrez rechercher les numéros d’ordre de transfert demandés dans le champ **Identificateur**. Le champ **Identificateur** est situé dans l’en-tête de la page **Événements de l’application d’entreposage**.
 
@@ -276,11 +274,11 @@ Pour plus d’informations, voir [Traitement des événements de l’application
 
 Dans ce scénario, les événements suivants sont survenus :
 
-1. À l’aide de l’application d’entreposage, vous avez sélectionné une option de menu qui utilise le code d’activité **Créer un ordre de transfert à partir des contenants**.
+1. À l’aide de l’application mobile Gestion des entrepôts, vous avez sélectionné une option de menu qui utilise le code d’activité **Créer un ordre de transfert à partir des contenants**.
 1. L’application vous a invité à sélectionner l’entrepôt de destination pour l’ordre de transfert. L’entrepôt source est toujours celui auquel vous êtes actuellement connecté en tant que collaborateur.
 1. Lors de la sélection de l’entrepôt de destination, le système a réservé un numéro d’identification pour l’ordre de transfert à venir (en fonction de la séquence de numéros d’ordre de transfert définie sur votre système), mais n’a pas encore créé l’ordre de transfert.
 1. Lorsque vous avez scanné le contenant *LP10* refermant le stock disponible qui devrait être déplacé vers le nouvel entrepôt, un **Événement d’application d’entreposage** a été ajouté à la file d’attente des événements afin d’être traité ultérieurement. L’événement d’entrepôt contenait des détails de message sur l’analyse, y compris le numéro d’ordre de transfert prévu.
-1. Sur l’application d’entreposage, lorsque le bouton **Terminer la commande** est sélectionné, un nouvel événement d’application d’entreposage, **Terminer l’ordre de transfert**, est créé et l’état de l’événement existant associé, **Créer un ordre de transfert**, est devenu **En file d’attente**.
+1. Sur l’application mobile Gestion des entrepôts, lorsque le bouton **Terminer la commande** est sélectionné, un nouvel événement d’application d’entreposage, **Terminer l’ordre de transfert**, est créé et l’état de l’événement existant associé, **Créer un ordre de transfert**, est devenu **En file d’attente**.
 1. En arrière-plan, le traitement par lots **Traiter les événements de l’application d’entreposage** a prélevé l’événement **En file d’attente** et a collecté le stock disponible lié au contenant scanné. Sur la base du stock disponible, l’enregistrement de l’ordre de transfert réel et les lignes associées ont été créés. Le traitement a également rempli le champ **Stratégie d’expédition sortante** pour l’ordre de transfert avec la valeur basée sur l’option *Confirmation de la libération et de l’expédition* configurée et lié le contenant avec les lignes pour la stratégie **Guidé par contenant**.
 1. Selon la valeur du champ **Stratégie d’expédition sortante** de la ligne d’ordre de transfert, la requête **Libération automatique du traitement par lots des ordres de transfert** aboutissait alors à la libération de l’ordre de transfert vers l’entrepôt d’expédition. Et étant données la configuration des paramètres **Modèle de vague**, **Modèle de travail** et **Instructions d’emplacement** utilisées, le traitement a obtenu des processus automatiques, qui ont mis à jour la valeur de **État du chargement** sur *Chargé*.
 1. Le traitement par lots **Traiter les expéditions sortantes** est exécuté pour le chargement, ce qui entraîne l’expédition de l’ordre de transfert et la génération de l’avis préalable d’expédition (APE).
@@ -294,13 +292,13 @@ Dans ce scénario, les événements suivants sont survenus :
 
 La fonctionnalité *Créer et traiter des ordres de transfert à partir de la l’application d’entreposage* doit être activée. Pour plus d’informations, voir [Activer la création d’ordres de transfert à partir de la l’application d’entreposage](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-app-processes"></a>Processus d’application d’entreposage
+### <a name="warehouse-management-mobile-app-processes"></a>Processus de l’application mobile Gestion des entrepôts
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>Pourquoi ne puis-je pas voir le bouton de menu "Terminer la commande" ?
 
 Vous devez avoir au moins un contenant affecté à l’ordre de transfert.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Est-il possible que plusieurs utilisateurs de l’application d’entreposage puissent ajouter des contenants au même ordre de transfert en même temps ?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Est-il possible que plusieurs utilisateurs de l’application mobile Gestion des entrepôts puissent ajouter des contenants au même ordre de transfert en même temps ?
 
 Oui, plusieurs magasiniers peuvent scanner des contenants dans le même ordre de transfert.
 
@@ -312,11 +310,11 @@ Non, un contenant ne peut être ajouté qu’à un seul ordre de transfert à la
 
 Non, vous ne pouvez pas ajouter d’autres contenants à un ordre de transfert ayant un événement d’application d’entreposage **Terminer l’ordre de transfert**.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Comment puis-je trouver des ordres de transfert existants à utiliser via le bouton "Sélectionner un ordre de transfert" dans l’application d’entreposage, si la commande n’a pas encore été créée dans le système de backend ?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Comment puis-je trouver des ordres de transfert existants à utiliser via le bouton « Sélectionner un ordre de transfert » dans l’application mobile Gestion des entrepôts, si la commande n’a pas encore été créée dans le système de back-end ?
 
 Actuellement, vous ne pouvez pas rechercher les ordres de transfert dans l’application, mais vous pouvez trouver les numéros d’ordre de transfert sur la page **Événements de l’application d’entreposage**. Pour plus d’informations, voir [Demander les événements de l’application d’entreposage](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>Puis-je sélectionner manuellement le numéro d’ordre de transfert à utiliser à partir de l’application d’entreposage ?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Puis-je sélectionner manuellement le numéro d’ordre de transfert à utiliser à partir de l’application mobile Gestion des entrepôts ?
 
 Seuls les numéros d’ordre de transfert générés automatiquement via des séquences de numéros sont pris en charge.
 

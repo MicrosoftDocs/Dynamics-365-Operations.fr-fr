@@ -1,27 +1,25 @@
 ---
 title: Envoyer et approuver la révision du budget du projet
 description: Cette procédure fournit des informations sur la révision d’un budget de projet.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb17cffea70aefe117bdcdc727f807137bef1ee7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2934e0a46fd3f0c89f8e1240f5722e9409ca2796
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222871"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811132"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Envoyer et approuver la révision du budget du projet
 

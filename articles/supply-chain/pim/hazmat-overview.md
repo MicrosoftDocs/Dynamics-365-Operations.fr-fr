@@ -2,11 +2,9 @@
 title: Vue d’ensemble des matières dangereuses
 description: Cette rubrique fournit une vue d’ensemble des fonctionnalités liées à la manipulation et à la documentation sur les matières dangereuses lors de la gestion des informations sur les produits et de la gestion des entrepôts.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4ff997214f80d97f6e558d32fbf66663cbc84143
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231886"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829376"
 ---
 # <a name="hazardous-materials-overview"></a>Vue d’ensemble des matières dangereuses
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Pour rester conformes aux réglementations sur l’expédition et le transport, les organisations qui expédient des matières classées comme marchandises dangereuses doivent inclure des documents supplémentaires dans leurs expéditions. La fonction relatives aux matières dangereuses permet aux clients de stocker des informations sur les articles lancés. Ces informations peuvent ensuite être utilisées pour préparer la documentation d’expédition. Une organisation qui expédie des marchandises dangereuses doit avoir ses propres processus et procédures pour gérer le processus d’expédition. Microsoft Dynamics 365 Supply Chain Management est simplement un outil qui peut aider à générer les documents requis.
 

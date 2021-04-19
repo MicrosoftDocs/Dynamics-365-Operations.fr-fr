@@ -1,12 +1,10 @@
 ---
 title: Dépannage de la gestion des coûts
 description: Cette rubrique décrit comment résoudre les problèmes que vous pourriez rencontrer lors de l’utilisation de la gestion des coûts.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262451"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834287"
 ---
 # <a name="troubleshoot-cost-management"></a>Dépannage de la gestion des coûts
 
@@ -37,7 +35,7 @@ Les fonctionnalités [Stockage des rapports sur la chronologie du stock](invento
 
 Les sous-totaux peuvent entraîner des problèmes lors de l’exportation du résultat, en particulier si les utilisateurs modifient la séquence d’enregistrement.
 
-Pour vérifier les sous-totaux, vous pouvez exporter le résultat dans Microsoft Excel. Sinon, si vous souhaitez vérifier les sous-totaux dans Supply Chain Management, utilisez [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités *Nouveau contrôle du réseau* et *(Aperçu) Regroupement en grilles*, qui offrent un moyen beaucoup plus flexible de voir le sous-total pour tout groupe par colonne. Pour plus d’informations, voir [Capacités de grille](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Pour vérifier les sous-totaux, vous pouvez exporter le résultat dans Microsoft Excel. Sinon, si vous souhaitez vérifier les sous-totaux dans Supply Chain Management, utilisez [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour activer les fonctionnalités *Nouveau contrôle du réseau* et *Regroupement en grilles*, qui offrent un moyen beaucoup plus flexible de voir le sous-total pour tout groupe par colonne. Pour plus d’informations, voir [Capacités de grille](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Le rapport de stockage de la valeur de stock ne prend pas en charge les informations du compte général
 

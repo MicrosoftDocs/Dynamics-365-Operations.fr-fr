@@ -2,11 +2,9 @@
 title: Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie
 description: Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e035c767474cba19c3a31eafdefb08b422b564ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb1773ab10b23a586eb6a8286f145181818585b9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209201"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797429"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Ajout d’un code de script aux pages de site pour prendre en charge la télémétrie
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit comment ajouter un code du script côté client à vos pages du site pour prendre en charge la collection de télémétrie côté client.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les analyses web sont un outil essentiel lorsque vous souhaitez inclure la manière dont vos clients peuvent interagir avec votre site et prendre des décisions qui aideront à optimiser l’expérience pour la conversion maximale. De nombreux packages d’analyses web sont disponibles pour vous aider à atteindre ces objectifs, comme Google Analytics, Clicky, Moz Analytics, et KISSMetrics. La plupart des packages d’analyses web nécessitent que vous ajoutiez un code du script côté client dans l’élément **\<head\>** du fichier HTML pour toutes les pages du site.
 
@@ -65,7 +61,7 @@ Pour créer un fragment réutilisable pour votre code de script externe dans le 
 1. Sélectionnez **Publier**.
 
 > [!NOTE]
-> Si la stratégie de stratégie de sécurité (CSP) est activée pour votre site, assurez-vous que toutes les URL externes sont ajoutées à l'instruction CSP **script-src** dans le générateur de site Commerce. Pour plus d’informations, voir [Gérer la stratégie de sécurité du contenu (CSP)](manage-csp.md).
+> Si la stratégie de stratégie de sécurité (CSP) est activée pour votre site, assurez-vous que toutes les URL externes sont ajoutées à l’instruction CSP **script-src** dans le générateur de site Commerce. Pour plus d’informations, voir [Gérer la stratégie de sécurité du contenu (CSP)](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Ajouter un fragment qui inclut le code de script à un modèle
 

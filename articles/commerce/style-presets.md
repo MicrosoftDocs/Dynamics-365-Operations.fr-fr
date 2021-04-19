@@ -2,11 +2,9 @@
 title: Utiliser des réglages de style prédéfinis
 description: Cette rubrique décrit l’utilisation des styles prédéfinie dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226589"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791749"
 ---
 # <a name="work-with-style-presets"></a>Utiliser des réglages de style prédéfinis
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit l’utilisation des styles prédéfinie dans le générateur de site Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Un style prédéfini est un ensemble stocké de toutes les valeurs de style utilisables dans le thème d’un site. Il peut être utilisé pour changer immédiatement l’apparence d’un site à partir du générateur de site. Les styles prédéfinis permettent aux créateurs du générateur de site de Commerce de modifier, prévisualiser et activer rapidement un ensemble de valeurs de style sur tout leur site, sans avoir à utiliser des feuilles de style en cascade (CSS) ou à déployer des thèmes. Les styles de police et de bouton et les couleurs de site sont des exemples typiques de variables de style qui peuvent être gérées via les styles prédéfinis.
 

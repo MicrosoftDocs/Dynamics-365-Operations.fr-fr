@@ -2,11 +2,9 @@
 title: Commandes des clients en point de vente (PDV)
 description: Cette rubrique fournit des informations sur les commandes client dans le point de vente (PDV). Les commandes client sont également appelées commandes spéciales. La rubrique inclut une discussion sur les paramètres associés et les flux de transaction.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220508"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821006"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Commandes des clients en point de vente (PDV)
 
@@ -51,9 +49,9 @@ Pour utiliser les commandes client, vous devez configurer les modes de livraison
 
 ### <a name="set-up-fulfillment-groups"></a>Paramétrer les Groupes d’exécution
 
-Certains emplacements de magasins ou d’entrepôt peuvent ne pas être en mesure de traiter les commandes client. En configurant des groupes d’exécution, une organisation peut spécifier quels emplacements de magasins et d’entrepôt sont affichés comme options pour les utilisateurs qui créent des commandes client dans le PDV. Les groupes d’exécution sont configurés sur la page **Groupes d’exécution**. Les organisations peuvent créer autant de groupes d’exécution qu’elles le souhaitent. Une fois qu’un groupe d’exécution est défini, vous devez le lier à un magasin en cliquant sur le bouton **Affectation du groupe d'exécution** de l'onglet **Paramétrage** du volet Actions sur la page **Magasins**.
+Certains emplacements de magasins ou d’entrepôt peuvent ne pas être en mesure de traiter les commandes client. En configurant des groupes d’exécution, une organisation peut spécifier quels emplacements de magasins et d’entrepôt sont affichés comme options pour les utilisateurs qui créent des commandes client dans le PDV. Les groupes d’exécution sont configurés sur la page **Groupes d’exécution**. Les organisations peuvent créer autant de groupes d’exécution qu’elles le souhaitent. Une fois qu’un groupe d’exécution est défini, vous devez le lier à un magasin en cliquant sur le bouton **Affectation du groupe d’exécution** de l’onglet **Paramétrage** du volet Actions sur la page **Magasins**.
 
-Dans Commerce version 10.0.12 et versions ultérieures, les organisations peuvent définir si l’entrepôt ou les combinaisons d’entrepôt/magasin définies dans les groupes d’exécution peuvent être utilisés pour l’expédition, pour le retrait ou pour l’expédition et le retrait. Cela permet à l'entreprise d'avoir plus de flexibilité pour déterminer les entrepôts qui peuvent être sélectionnés lors de la création d'une commande client pour les articles à expédier et les magasins qui peuvent être sélectionnés lors de la création d'une commande client pour les articles à retirer. Pour utiliser ces options de configuration, vous devez activer la fonctionnalité **Possibilité de spécifier des emplacements comme « Expédition » ou « Retrait » activée dans le groupe d’exécution**. Si un entrepôt lié à un groupe d’exécution n’est pas un magasin, il ne peut être configuré qu’en tant que lieu d’expédition. Il ne peut pas être utilisé lorsque les commandes avec retrait sont configurées dans le PDV.
+Dans Commerce version 10.0.12 et versions ultérieures, les organisations peuvent définir si l’entrepôt ou les combinaisons d’entrepôt/magasin définies dans les groupes d’exécution peuvent être utilisés pour l’expédition, pour le retrait ou pour l’expédition et le retrait. Cela permet à l’entreprise d’avoir plus de flexibilité pour déterminer les entrepôts qui peuvent être sélectionnés lors de la création d’une commande client pour les articles à expédier et les magasins qui peuvent être sélectionnés lors de la création d’une commande client pour les articles à retirer. Pour utiliser ces options de configuration, vous devez activer la fonctionnalité **Possibilité de spécifier des emplacements comme « Expédition » ou « Retrait » activée dans le groupe d’exécution**. Si un entrepôt lié à un groupe d’exécution n’est pas un magasin, il ne peut être configuré qu’en tant que lieu d’expédition. Il ne peut pas être utilisé lorsque les commandes avec retrait sont configurées dans le PDV.
 
 ![Page Groupes d’exécution](media/customer-order-fulfillment-group.png)
 
@@ -61,7 +59,8 @@ Dans Commerce version 10.0.12 et versions ultérieures, les organisations peuve
 
 Lorsque vous travaillez avec des commandes client dans le PDV, vous devez prendre en compte certains des paramètres du canal de magasin. Ces paramètres se trouvent sur la page **Magasins** au siège de Commerce.
 
-- **Entrepôt** – Ce champ indique l’entrepôt utilisé pour traiter les commandes configurées pour l’expédition depuis le magasin.
+- **Entrepôt** : ce champ indique l’entrepôt qui sera utilisé lors de la réduction des stocks pour les commandes de retrait et de prélèvement client liées à ce magasin. Nous recommandons d’employer un entrepôt unique pour chaque canal de magasin afin d’éviter les problèmes de conflits de logique métier entre les magasins.
+- **Entrepôt d’expédition** : ce champ indique l’entrepôt qui sera utilisé lors de la réduction des stocks pour les commandes client à expédier depuis le magasin sélectionné. Si la fonctionnalité **Possibilité de spécifier des emplacements comme « Expédition » ou « Retrait » activés dans le groupe d’exécution** a été activée dans votre environnement, les utilisateurs des PDV peuvent choisir un entrepôt spécifique à partir duquel expédier dans le PDV, au lieu de choisir un magasin à partir duquel expédier. Par conséquent, lorsque cette fonctionnalité est activée, l’entrepôt d’expédition n’est plus utilisé, car l’utilisateur choisira l’entrepôt particulier à partir duquel expédier la commande lors de la création de la commande.
 - **Affectation au groupe d’exécution** – Cliquez sur ce bouton (sur l’onglet **Configurer** dans le volet Actions) pour lier les groupes d’exécution référencés pour afficher les options des lieux de retrait ou les origines d’expédition lorsque les commandes client sont créées dans le PDV.
 - **Utiliser la taxe basée sur la destination** – Cette option indique si l’adresse de livraison est utilisée pour déterminer le groupe de taxe appliqué aux lignes de commande expédiées à l’adresse du client.
 - **Utiliser la taxe basée sur le client** – Cette option indique si le groupe de taxe défini pour l’adresse de livraison du client est utilisé pour taxer les commandes client créées dans le PDV pour l’expédition au domicile du client.
@@ -101,7 +100,7 @@ Assurez-vous que la [disposition de l’écran](https://docs.microsoft.com/dynam
 ## <a name="work-with-customer-orders-in-pos"></a>Utiliser des commandes client dans le PDV
 
 > [!NOTE]
-> La fonctionnalité de reconnaissance des revenus n'est actuellement pas prise en charge pour une utilisation dans les canaux de Commerce (commerce électronique, PDV, centre d'appels). Les articles configurés avec la reconnaissance des revenus ne doivent pas être ajoutés aux commandes créées dans les canaux de Commerce. 
+> La fonctionnalité de reconnaissance des revenus n’est actuellement pas prise en charge pour une utilisation dans les canaux de Commerce (commerce électronique, PDV, centre d’appels). Les articles configurés avec la reconnaissance des revenus ne doivent pas être ajoutés aux commandes créées dans les canaux de Commerce. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Créer une commande client pour les produits qui seront expédiés au client
 
@@ -120,7 +119,7 @@ Assurez-vous que la [disposition de l’écran](https://docs.microsoft.com/dynam
 2. Ajoutez des produits dans le chariot.
 3. Sélectionnez **Retrait sélectionné** ou **Récupérer tout** pour lancer la configuration du retrait des commandes.
 4. Sélectionnez l’emplacement du magasin où le client viendra retirer les produits sélectionnés.
-5. Sélectionnez la date à laquelle l'article sera retiré.
+5. Sélectionnez la date à laquelle l’article sera retiré.
 6. Utilisez les fonctions de paiement pour payer les montants calculés qui sont dus ou utilisez l’opération **Remplacement de dépôt** pour modifier les montants dus, puis appliquer le paiement.
 7. Si le montant total de la commande n’a pas été réglé, indiquez si le client effectuera le paiement plus tard (lors du retrait) ou si une carte de crédit sera marquée sous forme de jeton maintenant, puis utilisée et capturée au moment du retrait.
 
@@ -129,9 +128,9 @@ Assurez-vous que la [disposition de l’écran](https://docs.microsoft.com/dynam
 Les commandes de vente au détail créées dans le canal en ligne ou en magasin peuvent être rappelées et modifiées via le PDV selon les besoins.
 
 > [!IMPORTANT]
-> Toutes les commandes de produits ne peuvent pas être modifiées via l'application PDV. Les commandes créées dans un canal de centre d’appels ne peuvent pas être modifiées par le biais du PDV si le paramètre [Activer la finalisation de la commande](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) est activé pour le canal du centre d’appels. Pour garantir un traitement correct des paiements, les commandes provenant d’un canal de centre d’appels et qui utilisent la fonctionnalité Activer l’achèvement de commande doivent être modifiées par le biais de l’application du centre d’appels du siège de Commerce.
+> Toutes les commandes de produits ne peuvent pas être modifiées via l’application PDV. Les commandes créées dans un canal de centre d’appels ne peuvent pas être modifiées par le biais du PDV si le paramètre [Activer la finalisation de la commande](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) est activé pour le canal du centre d’appels. Pour garantir un traitement correct des paiements, les commandes provenant d’un canal de centre d’appels et qui utilisent la fonctionnalité Activer l’achèvement de commande doivent être modifiées par le biais de l’application du centre d’appels du siège de Commerce.
 
-Dans les versions 10.0.17 et ultérieures, les utilisateurs peuvent modifier les commandes éligibles via l'application PDV, même si la commande est partiellement traitée. Cependant, les commandes entièrement facturées ne peuvent toujours pas être modifiées par le biais du PDV. Pour activer cette fonctionnalité, activez la fonctionnalité **Modifier les commandes partiellement exécutées dans le point de vente** dans l’espace de travail **Gestion des fonctionnalités**. Si cette fonctionnalité n'est pas activée, ou si vous utilisez la version 10.0.16 ou antérieure, les utilisateurs ne pourront modifier les commandes client dans le PDV que si la commande est complètement ouverte. De plus, si la fonctionnalité est activée, vous pouvez limiter le nombre de magasins qui peuvent modifier les commandes partiellement traitées. L'option permettant de désactiver cette fonctionnalité pour des magasins spécifiques peut être configurée via le **Profil de la fonctionnalité** sous le raccourci **Général**.
+Dans les versions 10.0.17 et ultérieures, les utilisateurs peuvent modifier les commandes éligibles via l’application PDV, même si la commande est partiellement traitée. Cependant, les commandes entièrement facturées ne peuvent toujours pas être modifiées par le biais du PDV. Pour activer cette fonctionnalité, activez la fonctionnalité **Modifier les commandes partiellement exécutées dans le point de vente** dans l’espace de travail **Gestion des fonctionnalités**. Si cette fonctionnalité n’est pas activée, ou si vous utilisez la version 10.0.16 ou antérieure, les utilisateurs ne pourront modifier les commandes client dans le PDV que si la commande est complètement ouverte. De plus, si la fonctionnalité est activée, vous pouvez limiter le nombre de magasins qui peuvent modifier les commandes partiellement traitées. L’option permettant de désactiver cette fonctionnalité pour des magasins spécifiques peut être configurée via le **Profil de la fonctionnalité** sous le raccourci **Général**.
 
 
 1. Sélectionnez **Rappeler la commande**.

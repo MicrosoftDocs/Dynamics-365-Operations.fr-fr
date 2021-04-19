@@ -2,11 +2,9 @@
 title: Association de dimensions de produit dans un emplacement
 description: Cette rubrique donne des informations sur l’association de dimensions de produit dans un emplacement. Cette fonctionnalité de profil d’emplacement aide à améliorer la gestion des emplacements lorsque des variantes de produit ou des produits contenant des dimensions sont utilisés, comme dans le secteur de la mode. Elle vous permet de décider si des configurations, couleurs, styles et tailles peuvent être associés pour un profil d’emplacement spécifique, ou si une seule de ces dimensions ou une combinaison d’entre elles peut être placée au même emplacement.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217027"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831288"
 ---
 # <a name="location-product-dimension-mixing"></a>Association de dimensions de produit dans un emplacement
 
@@ -206,9 +204,9 @@ Vous allez créer une commande fournisseur comprenant trois lignes : deux ligne
 
 1.Sélectionnez **Enregistrer**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Recevoir des lignes de commande fournisseur dans l’application d’entrepôt
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Recevoir des lignes de commande fournisseur dans l’application mobile Gestion des entrepôts
 
-1. Connectez-vous à l’application d’entrepôt en tant qu’utilisateur activé pour l’entrepôt *24*.
+1. Connectez-vous à l’application mobile Gestion des entrepôts en tant qu’utilisateur activé pour l’entrepôt *24*.
 1. Sélectionnez le menu **Entrant**.
 1. Sélectionnez **Réception de ligne de commande fournisseur**.
 1. Sélectionnez le champ **PONUM**, puis entrez le numéro de la commande fournisseur.

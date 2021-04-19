@@ -2,11 +2,9 @@
 title: Utiliser des fragments
 description: Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3df2d99ef10f909cedef16167fb8d5a0024683b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210945"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793943"
 ---
 # <a name="work-with-fragments"></a>Utiliser des fragments 
 
 [!include [banner](includes/banner.md)]
 
 Cette rubrique décrit le pourquoi, quand et comment utiliser des fragments dans Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Vue d’ensemble
 
 Les fragments permettent une expérience de création centralisée pour les configurations du module qui doivent être réutilisées dans tout votre site. Par exemple, les en-têtes, les pieds de page, et les bannières sont souvent configurés comme fragments, car ils sont partagés entre la plupart des pages. Vous pouvez imaginer les fragments comme des pages web miniatures pouvant être insérées dans d’autres pages sur votre site. Les fragments ont leur propre cycle de vie. En d’autres termes, ils sont créés, référencés, mis à jour et supprimés comme des entités indépendantes dans les outils de création.
 
@@ -106,7 +102,7 @@ Pour ajouter un fragment à une page dans le générateur de site Commerce, proc
 
 ### <a name="remove-a-fragment"></a>Suppression d’un fragment
 
-Pour supprimer un fragment d'un emplacement ou d'un conteneur sur une page dans le générateur de site Commerce, procédez comme suit.
+Pour supprimer un fragment d’un emplacement ou d’un conteneur sur une page dans le générateur de site Commerce, procédez comme suit.
 
 1. Dans le volet de contour à gauche, sélectionnez le bouton représentant des points de suspension (**...**) en regard du nom du fragment à supprimer, puis sélectionnez le symbole de corbeille.  Vous pouvez également sélectionner le fragment dans le générateur de page visuel et sélectionner le symbole de la corbeille dans la barre d’outils du fragment.
 1. Lorsque vous êtes invité à confirmer la suppression du fragment, sélectionnez **OK**.

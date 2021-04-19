@@ -2,7 +2,6 @@
 title: Configuration des coûts automatiques
 description: Cette rubrique décrit comment configurer des règles de coût pour différents niveaux de voyage entrant. Sur la base de ces règles, le système calcule les coûts et les ajoute automatiquement. Par conséquent, les utilisateurs n’ont pas à ajouter manuellement les coûts.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501148"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841957"
 ---
 # <a name="auto-costs-setup"></a>Configuration des coûts automatiques
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Vous pouvez utiliser la page **Coûts automatiques** pour configurer des règles de coût pour divers domaines de coûts (tels que les voyages, les conteneurs d’expédition, les folios, les commande fournisseur, les articles ou les lignes d’ordre de transfert). En fonction des règles et des champs que les utilisateurs sélectionnent lorsqu’ils créent des enregistrements pour l’un des domaines de coûts, le système calcule les coûts et les ajoute automatiquement. Par conséquent, les utilisateurs n’ont pas à ajouter manuellement les coûts.
 

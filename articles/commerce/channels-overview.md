@@ -2,11 +2,9 @@
 title: Vue d’ensemble des canaux
 description: Cette rubrique présente une vue d’ensemble des canaux dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac188832bdaeba430eed7f08e91a9c2214a0e15
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7f5d527dd14d24c06aef874de0088bb07c49849b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219099"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800541"
 ---
 # <a name="channels-overview"></a>Vue d’ensemble des canaux
 
@@ -32,15 +30,15 @@ Cette rubrique présente une vue d’ensemble des canaux dans Microsoft Dynamics
 
 ## <a name="types-of-channels"></a>Types de canaux
 
-Dynamics 365 Commerce prend en charge trois types de canaux différents : vente au détail, centre d'appels et canaux en ligne.
+Dynamics 365 Commerce prend en charge trois types de canaux différents : vente au détail, centre d’appels et canaux en ligne.
 
 ### <a name="retail-channels"></a>Canaux de vente au détail
 
 Les canaux de vente au détail représentent les magasins physiques standards. Chaque magasin peut avoir ses propres registres, comptes de revenus et dépenses et personnel de point de vente (PDV). 
 
-### <a name="call-center-channels"></a>Canaux de centre d'appels
+### <a name="call-center-channels"></a>Canaux de centre d’appels
 
-Les canaux de centre d'appels représentent la gestion des commandes et des clients du centre d'appels.
+Les canaux de centre d’appels représentent la gestion des commandes et des clients du centre d’appels.
 
 ### <a name="online-channels"></a>Canaux en ligne
 
@@ -48,18 +46,18 @@ Les canaux en ligne représentent les vitrines de commerce électronique en lign
 
 ## <a name="channel-setup-basics"></a>Principes de base du paramétrage des canaux
 
-Le paramétrage des canaux est effectuée dans l'outil Commerce. Chaque canal peut avoir ses propres modes de paiement, groupes de prix, hiérarchies de produits, assortiments et ensemble de produits. Une fois un canal créé, vous affectez les produits dont vous souhaitez la présence dans ce magasin et que vous voulez vendre. Chaque type de canal possède un ensemble unique de fonctionnalités qui peuvent avoir besoin d'être configurées. Par exemple, un canal de vente au détail a besoin d'employés, de registres et de clients affectés. Une fois qu'un nouveau canal est créé, il doit être affecté à une hiérarchie d'organisation.
+Le paramétrage des canaux est effectuée dans l’outil Commerce. Chaque canal peut avoir ses propres modes de paiement, groupes de prix, hiérarchies de produits, assortiments et ensemble de produits. Une fois un canal créé, vous affectez les produits dont vous souhaitez la présence dans ce magasin et que vous voulez vendre. Chaque type de canal possède un ensemble unique de fonctionnalités qui peuvent avoir besoin d’être configurées. Par exemple, un canal de vente au détail a besoin d’employés, de registres et de clients affectés. Une fois qu’un nouveau canal est créé, il doit être affecté à une hiérarchie d’organisation.
 
 ## <a name="channel-setup-prerequisites"></a>Conditions préalables au paramétrage du canal
 
-Avant de pouvoir paramétrer un canal, vous devez effectuer certaines tâches prérequises en fonction du type de canal. Pour plus d'informations, voir [Conditions préalables au paramétrage du canal](channels-prerequisites.md).
+Avant de pouvoir paramétrer un canal, vous devez effectuer certaines tâches prérequises en fonction du type de canal. Pour plus d’informations, voir [Conditions préalables au paramétrage du canal](channels-prerequisites.md).
 
 ## <a name="set-up-a-channel"></a>Paramétrer un canal
 
 Après avoir effectué les tâches prérequises, pour obtenir des instructions de paramétrage supplémentaires, utilisez les liens suivants.
 
 - [Paramétrer un canal de vente au détail](channel-setup-retail.md)
-- [Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
+- [Paramétrer un canal de centre d’appels](channel-setup-callcenter.md)
 - [Paramétrer un canal en ligne](channel-setup-online.md)
 
 <!--
@@ -85,9 +83,9 @@ After you create a channel, you may need to complete some of the below tasks:
     
 [Paramétrer un canal en ligne](channel-setup-online.md)
 
-[Paramétrer un canal de centre d'appels](channel-setup-callcenter.md)
+[Paramétrer un canal de centre d’appels](channel-setup-callcenter.md)
 
-[Configurer des hiérarchies d'organisation](channels-org-hierarchies.md)
+[Configurer des hiérarchies d’organisation](channels-org-hierarchies.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

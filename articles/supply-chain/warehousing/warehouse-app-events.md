@@ -2,11 +2,9 @@
 title: Événements d’application d’entrepôt
 description: Cette rubrique décrit le traitement des événements d’application d’entreposage utilisé pour traiter les messages d’événement de l’application d’entreposage dans le cadre d’un traitement par lots.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248641"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837391"
 ---
 # <a name="warehouse-app-event-processing"></a>Traitement des événements de l’application d’entreposage
 
 [!include [banner](../includes/banner.md)]
 
-Les traitements par lots exécutés dans Supply Chain Management peuvent utiliser les données d’une file d’attente pour traiter les événements émis par l’application d’entreposage afin de réagir selon les besoins aux événements signalés. Cette fonctionnalité ajoute les événements pertinents à la file d’attente en réponse à certains types d’actions entreprises par les employés utilisant l’application. Un exemple est l’utilisation de la fonction **Créer et traiter des ordres de transfert depuis l’application d’entreposage** ; l’en-tête et les lignes de l’ordre de transfert sont créés et mis à jour dans le back-end lorsque le système exécute le traitement par lots **Traiter les événements de l’application d’entreposage**.
+Les traitements par lots exécutés dans Supply Chain Management peuvent utiliser les données d’une file d’attente pour traiter les événements émis par l’application mobile Gestion des entrepôts afin de réagir selon les besoins aux événements signalés. Cette fonctionnalité ajoute les événements pertinents à la file d’attente en réponse à certains types d’actions entreprises par les employés utilisant l’application. Un exemple est l’utilisation de la fonction *Créer et traiter des ordres de transfert depuis l’application d’entreposage* ; l’en-tête et les lignes de l’ordre de transfert sont créés et mis à jour dans le back-end lorsque le système exécute le traitement par lots **Traiter les événements de l’application d’entreposage**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Activer la fonction Traiter les événements de l’application d’entreposage
 
@@ -50,7 +48,7 @@ Configurez un traitement par lots planifié pour traiter les événements de l�
 
 ## <a name="query-warehouse-app-events"></a>Interroger les événements de l’application d’entreposage
 
-Vous pouvez afficher la file d’attente et les messages d’événements générés par l’application d’entreposage en accédant à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l’application d’entreposage**.
+Vous pouvez afficher la file d’attente et les messages d’événements générés par l’application mobile Gestion des entrepôts en accédant à **Gestion des entrepôts \> Recherches et états \> Journaux des appareils mobiles \> Événements de l’application d’entreposage**.
 
 ## <a name="the-standard-event-queue-process"></a>Le processus de file d’attente d’événements standard
 

@@ -2,11 +2,9 @@
 title: Résoudre des problèmes de configuration de l’entrepôt
 description: Cette rubrique décrit comment résoudre les problèmes courants que vous pourriez rencontrer lors de la configuration dans Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487095"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814390"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Résoudre des problèmes de configuration de l’entrepôt
 
@@ -38,7 +36,7 @@ Vous recevez ce message d’erreur lorsque vous numérisez un ID de contenant ou
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-Assurez-vous que l’ID de contenant n’est pas réservé par autre chose. Ce problème se produisait lorsque la valeur numérisée par un utilisateur dans l’application d’entrepôt était à la fois un emplacement valide et un ID de contenant valide. Cependant, ce problème a été résolu dans la version 10.0.11.
+Assurez-vous que l’ID de contenant n’est pas réservé par autre chose. Ce problème se produisait lorsque la valeur numérisée par un utilisateur dans l’application mobile Gestion des entrepôts était à la fois un emplacement valide et un ID de contenant valide. Cependant, ce problème a été résolu dans la version 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Je reçois le message d’erreur suivant : "Le contenant doit être spécifié pour cet emplacement."
 
@@ -82,7 +80,7 @@ Les directives d’emplacement du type d’ordre de travail *Commandes client* e
 
 Une nouvelle fonctionnalité, *Évaluer toutes les actions pour les directives d’emplacement à plusieurs SKU*, a été ajouté dans la version 10.0.15 (voir [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Cette fonctionnalité évalue toutes les actions pour les directives d’emplacement à plusieurs SKU. Si vous avez besoin de cette fonctionnalité, utilisez [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour l’activer.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Je ne peux pas utiliser l’application d’entrepôt pour effectuer un prélèvement partiel.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Je ne peux pas utiliser l’application mobile Gestion des entrepôts pour effectuer un prélèvement partiel.
 
 ### <a name="issue-description"></a>Description du problème
 
@@ -100,7 +98,7 @@ Vous souhaitez effectuer un changement de statut de stock pour une quantité par
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-Pour permettre aux employés d’effectuer cette modification, vous pouvez créer un élément de menu pour l’application d’entrepôt. Sur la page **Options de menu d’appareil mobile**, créez (ou modifiez) une option de menu avec l’un des paramètres suivants :
+Pour permettre aux employés d’effectuer cette modification, vous pouvez créer un élément de menu pour l’application mobile Gestion des entrepôts. Sur la page **Options de menu d’appareil mobile**, créez (ou modifiez) une option de menu avec l’un des paramètres suivants :
 
 - **Mode :** *Travail*
 - **Utiliser un travail existant :** *Non*

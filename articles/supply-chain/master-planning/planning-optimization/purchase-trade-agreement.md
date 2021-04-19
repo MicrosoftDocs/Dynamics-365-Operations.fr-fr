@@ -2,11 +2,9 @@
 title: Planification avec accords commerciaux d’achat
 description: Cette rubrique décrit comment l’optimisation de la planification peut trouver le fournisseur et/ou le délai de livraison pour un ordre planifié, en fonction du meilleur prix ou du meilleur délai de livraison trouvé dans les accords commerciaux d’achat.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264720"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820416"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planification avec accords commerciaux d’achat
 

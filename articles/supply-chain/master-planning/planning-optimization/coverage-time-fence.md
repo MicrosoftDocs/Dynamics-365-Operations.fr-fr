@@ -2,11 +2,9 @@
 title: Plages de gestion de la couverture
 description: Cette rubrique décrit comment configurer des plages de gestion de la couverture lorsque vous utilisez le complément Optimisation de la planification. Une plage de gestion de la couverture indique votre horizon de planification et votre limite.
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/18/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable, ReqPlanSched
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2b52a49109274c9be9ed8aa069517b175ea6281c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: dcb35eda718ea9b7573d8e994aa45216f8bd30a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501316"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836564"
 ---
 # <a name="coverage-time-fences"></a>Plages de gestion de la couverture
 

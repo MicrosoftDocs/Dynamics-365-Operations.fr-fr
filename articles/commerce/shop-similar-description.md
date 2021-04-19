@@ -2,11 +2,9 @@
 title: Activer les recommandations « acheter des descriptions similaires »
 description: Cette rubrique décrit comment activer la fonctionnalité de recommandations de produits « acheter des descriptions similaires » dans Microsoft Dynamics 365 Commerce.
 author: bsokolov
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce01ef1d4b916d955685b4d01dafd3d54d6fcebd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234387"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795403"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Activer les recommandations « acheter des descriptions similaires »
 
@@ -41,8 +39,8 @@ Les recommandations « acheter des descriptions similaires » sont disponibles
 
 Les exemples de scénarios suivants illustrent les types de recommandations que la fonctionnalité « acheter des descriptions similaires » peut fournir :
 
-- Un client regarde une paire de lunettes à monture rétro et reçoit un ensemble de recommandations pour d'autres lunettes avec un design similaire, dans le contexte du secteur du détaillant.
-- Un client utilise les recommandations de la fonctionnalité « acheter des descriptions similaires » pour découvrir des saveurs de café similaires à une saveur qu'il avait précédemment achetée chez le détaillant.
+- Un client regarde une paire de lunettes à monture rétro et reçoit un ensemble de recommandations pour d’autres lunettes avec un design similaire, dans le contexte du secteur du détaillant.
+- Un client utilise les recommandations de la fonctionnalité « acheter des descriptions similaires » pour découvrir des saveurs de café similaires à une saveur qu’il avait précédemment achetée chez le détaillant.
 
 ## <a name="set-up-shop-similar-description-recommendations"></a>Définir les recommandations « acheter des descriptions similaires »
 
@@ -59,11 +57,11 @@ Avant de pouvoir montrer aux clients des recommandations de type « acheter des
 
 Pour activer la fonctionnalité de recommandations « acheter des descriptions similaires » dans Commerce Headquarters, procédez comme suit.
 
-1. Dans l'espace de travail **Gestion des fonctionnalités**, dans la liste des fonctionnalités disponibles, recherchez et sélectionnez **Acheter des descriptions similaires**.
+1. Dans l’espace de travail **Gestion des fonctionnalités**, dans la liste des fonctionnalités disponibles, recherchez et sélectionnez **Acheter des descriptions similaires**.
 1. Dans le volet droit, sélectionnez **Activer**.
 
 > [!NOTE]
-> Une fois la fonctionnalité activée, le système commence à générer des listes de recommandations de produits. Il peut falloir jusqu'à une journée avant que les listes soient disponibles et visibles en ligne et sur les terminaux de PDV.
+> Une fois la fonctionnalité activée, le système commence à générer des listes de recommandations de produits. Il peut falloir jusqu’à une journée avant que les listes soient disponibles et visibles en ligne et sur les terminaux de PDV.
 >
 > Si vous désactivez cette fonctionnalité, les autres types de recommandations de produits ne sont pas affectés. Pour plus d’informations sur les recommandations de produit, voir [Vue d’ensemble des recommandations de produits](product-recommendations.md).
 

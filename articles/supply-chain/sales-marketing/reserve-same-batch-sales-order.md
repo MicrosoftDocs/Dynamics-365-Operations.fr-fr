@@ -2,11 +2,9 @@
 title: Réserver le même lot pour une commande client
 description: Cet article explique comment paramétrer un produit pour autoriser la réservation du stock par rapport à un lot de stock unique.
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231814"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807654"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Réserver le même lot pour une commande client
 
@@ -43,7 +41,7 @@ Lorsque vous réservez du stock pour un produit sur une ligne de commande client
 - Le lot a expiré, d’après la date d’expiration et des jours de vente applicables au client. L’article peut toujours être pris en compte pour la réservation si le Groupe de modèles d’article pour l’article est contrôlé par la date FEFO (première date d’expiration, premier sorti) et si la DLUO est sélectionnée dans les critères de prélèvement.
 - Le lot a une durée de conservation en jours insuffisante, selon la date d’expiration/DLUO, plus les jours de vente du client.
 
-Pour les éléments associés à un groupe de dimensions de stockage avec l’option **Utiliser des processus de gestion des entrepôts** activée, vous pouvez réserver des numéros de lot spécifiques en utilisant une hiérarchie de réservation avec la dimension d’inventaire de numéro de lot définie au-dessus de la dimension d’emplacement. La page **Réservation de lot** des lignes de commande client et d’ordre de transfert vous permet également de sélectionner et de réserver plusieurs lignes en fonction des numéros de lot disponibles. Pour plus d’informations sur la procédure à suivre si vous utilisez une hiérarchie de réservation dont la dimension de numéro de lot se situe sous l’emplacement, voir [Stratégie flexible de réservation de dimension au niveau de l’entrepôt](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+Pour les articles associés à un groupe de dimensions de stockage avec l’option **Utiliser les processus de gestion des entrepôts** activée, vous pouvez réserver des numéros de lot spécifiques en utilisant une hiérarchie de réservation où la dimension d’inventaire de numéro de lot est définie au-dessus de la dimension d’emplacement. Ce type de hiérarchie de réservation est également appelé hiérarchie de réservation *Batch-above\[location\]*. La page **Réservation de lot** des lignes de commande client et d’ordre de transfert vous permet également de sélectionner et de réserver plusieurs lignes en fonction des numéros de lot disponibles. Pour plus d’informations sur la procédure à suivre si vous utilisez une hiérarchie de réservation dont la dimension de numéro de lot se situe sous l’emplacement (*Batch-below \[location\]*), voir [Stratégie flexible de réservation de dimension au niveau de l’entrepôt](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,27 @@
 title: Traitement des produits en poids variable avec la gestion des entrepôts
 description: Cette rubrique décrit comment utiliser les modèles de travail et les instructions d’emplacement afin de déterminer de quelle manière et où effectuer le travail dans l’entrepôt.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233077"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808916"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Traitement des produits en poids variable avec la gestion des entrepôts
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Exposition de la fonctionnalité
 
@@ -52,7 +49,7 @@ Parce que le poids du stock, à son arrivée à l’entrepôt, peut varier du po
 > [!NOTE]
 > L’activité de l’appareil mobile ne déclenchera les ajustements de transaction que si la méthode d’écart de poids sortant de la politique de gestion des articles en poids variable de l’article est **Autoriser l’écart de poids**.
 
-**Exemple 1 :**
+### <a name="example-1"></a>Exemple 1
 
 Au cours d’un processus de production **Déclaré terminé**, le poids entrant d’un contenant de huit boîtes d’un article en poids variable est saisi, soit 80,1 kg. Le contenant est ensuite stocké ailleurs dans la zone dédiée aux produits finis. Pendant la période de stockage, on constate l’évaporation d’un certain poids.
 
@@ -60,7 +57,7 @@ Ultérieurement, dans le cadre du processus de prélèvement des commandes clien
 
 Le système ajuste alors automatiquement la différence en validant une transaction pour les 300 grammes manquants.
 
-**Exemple 2 :**
+### <a name="example-2"></a>Exemple 2
 
 Dans sa définition, un produit est paramétré pour tolérer un poids minimal de 8 kg et un poids maximal de 12 kg pour l’unité de poids variable **Boîte**.
 
@@ -106,7 +103,7 @@ En outre, lorsqu’un élément est suivi par balise, il existe un paramètre *
 **Lorsque le suivi des balises en poids variable est utilisé**, une balise doit toujours être créée pour chaque unité en poids variable reçue et chaque balise doit toujours être associée à un poids.
 
 Par exemple, **Boîte** est l’unité en poids variable, et vous recevez une palette de huit boîte. Dans ce cas, huit balises en poids variable unique doivent être créées, et un poids doit être associé à chaque balise. Selon la balise en poids variable entrant, le poids des huit boîtes peut être saisi, et le poids moyen peut ensuite être réparti sur chaque boîte, ou un poids unique peut être saisi pour chaque boîte.
-Lorsque vous utilisez la fonctionnalité **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés** avec le processus activé via un élément de menu de l’appareil mobile, le stock est mis à jour en fonction des informations d’étiquette de poids variable existantes. Par conséquent, l’application d’entrepôt ne demande pas de capturer les données d’étiquette de poids variable dans le cadre d’un rapport de production en tant qu’opération terminée.
+Lorsque vous utilisez la fonctionnalité **Utiliser les balises de poids variable existantes lorsque vous signalez les ordres de fabrication comme terminés** avec le processus activé via un élément de menu de l’appareil mobile, le stock est mis à jour en fonction des informations d’étiquette de poids variable existantes. Par conséquent, l’application mobile Gestion des entrepôts ne demande pas de capturer les données d’étiquette de poids variable dans le cadre d’un rapport de production en tant qu’opération terminée.
 
 **Si le suivi des balises en poids variable n’est pas utilisé**, le poids peut être saisi pour chaque dimension définie (par exemple, le contenant et la dimension de suivi). À défaut, le poids peut être saisi à un niveau agrégé, comme cinq contenants (palettes).
 
@@ -194,7 +191,11 @@ Les workflows ne prennent pas tous en charge le traitement des produits en poids
 
 ### <a name="catch-weight-tags"></a>Balises en poids variable
 
-Une balise en poids variable peut être créée à l’aide d’un processus de l’application d’entrepôt. Elle peut être créée manuellement dans l’écran, ou à l’aide d’un processus d’entité de données. Si une balise en poids variable est associée à une ligne de document source entrant, comme une ligne de commande fournisseur, la balise est enregistrée. Si la ligne est utilisée pour le traitement sortant, la balise sera mise à jour à l’expédition.
+Une balise en poids variable peut être créée à l’aide d’un processus de l’application mobile Gestion des entrepôts. Elle peut être créée manuellement dans le formulaire **Gestion des entrepôts > Recherches et états > Balise en poids variable**, ou à l’aide d’un processus d’entité de données. Si une balise en poids variable est associée à une ligne de document source entrant, comme une ligne de commande fournisseur, la balise est enregistrée. Si la ligne est utilisée pour le traitement sortant, la balise sera mise à jour à l’expédition. Vous pouvez afficher tous les événements historiques d’enregistrement des balises en poids variable via l’option **Enregistrement de balise en poids variable** de la page **Balise en poids variable**.
+
+Vous pouvez utiliser l’option **Modifier le poids capturé par balise** pour mettre à jour manuellement la valeur de poids d’une balise en poids variable. Notez que le poids de l’inventaire disponible ne sera pas ajusté dans le cadre de ce processus manuel, mais vous pouvez facilement utiliser la page **Écarts de stock pour les articles à balise de poids variable** pour rechercher les écarts entre les balises de poids variable actuellement actives et l’inventaire actuel.
+
+D’autres options manuelles consistent à **Enregistrer la balise** sur une ligne de document source et à **Enregistrer le travail** sur un travail d’entrepôt existant.
 
 Outre les restrictions qui s’appliquent actuellement aux produits en poids variable, les produits en poids variable avec balise ont d’autres restrictions qui s’appliquent actuellement.
 

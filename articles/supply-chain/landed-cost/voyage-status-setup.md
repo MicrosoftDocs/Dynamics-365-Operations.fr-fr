@@ -2,7 +2,6 @@
 title: Configuration du statut du voyage
 description: Cette rubrique décrit comment établir les valeurs de statut que les utilisateurs peuvent attribuer aux voyages.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: b7180cc9ab2d13f2260635d717adb7aab2177ab9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 80433c17ed9d790d88b20ecc253c8e4459ffea10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500884"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829786"
 ---
 # <a name="voyage-status-setup"></a>Configuration du statut du voyage
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sur la page **Statuts de voyage**, vous définissez l’ensemble des valeurs de statut que les utilisateurs peuvent attribuer aux voyages. Les utilisateurs peuvent attribuer des valeurs de statut de voyage à tous les niveaux d’un voyage : voyage, conteneur d’expédition, folio, commande fournisseur et article (lignes d’achat et lignes d’ordre de transfert). Ils sont utilisés à deux fins :
 

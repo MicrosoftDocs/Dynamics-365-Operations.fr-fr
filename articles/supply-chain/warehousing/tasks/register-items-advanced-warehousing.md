@@ -1,12 +1,10 @@
 ---
 title: Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles
-description: Cette procédure décrit la manière dont vous enregistrez des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts.
+description: Cette rubrique présente un scénario montrant comment enregistrer des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts.
 author: ShylaThompson
-manager: tfehr
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
@@ -16,65 +14,66 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c25fb55afb01ed59b66045f24400e03e2ec60b2a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238892"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830832"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Enregistrer des articles pour un article activé pour l’entreposage avancé à l’aide d’un journal des arrivées d’articles
 
 [!include [banner](../../includes/banner.md)]
 
-Cette procédure décrit la manière dont vous enregistrez des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts. Cette opération est généralement effectuée par la personne qui s’occupe de la réception. 
+Cette rubrique présente un scénario montrant comment enregistrer des articles à l’aide des journaux d’arrivée des articles lorsque vous utilisez les processus de la gestion avancée des entrepôts. Cette opération est généralement effectuée par la personne qui s’occupe de la réception.
 
-Vous pouvez exécuter cette procédure dans la société fictive de démonstration USMF ou utiliser vos propres données. Vous devez avoir une commande fournisseur confirmée avec une ligne de commande fournisseur en cours avant de lancer ce guide. L’article de la ligne doit être stocké et il ne doit ni utiliser les variantes de produit ni avoir des dimensions de suivi. Et l’article doit être associé à un groupe de dimensions de stockage compatible avec les processus de gestion des entrepôts. L’entrepôt utilisé doit être activé pour les processus de gestion des entrepôts et l’emplacement que vous utilisez pour la réception doit être contrôlé par un contenant. Si vous utilisez USMF, vous pouvez utiliser le Compte société 1001, l’entrepôt 51 et l’article M9200 pour créer la CF. 
+## <a name="enable-sample-data"></a>Activer les exemples de données
 
-Notez le numéro de la commande fournisseur que vous créez, et notez également le numéro d’article et le site que vous avez utilisé pour la ligne de commande fournisseur.
+Pour exécuter ce scénario à l’aide des exemples d’enregistrements et des valeurs spécifiés dans cette rubrique, vous devez utiliser un système sur lequel les données de démonstration standard sont installées et vous devez sélectionner l’entité juridique *USMF* avant de commencer.
 
+Vous pouvez aussi explorer ce scénario en substituant des valeurs à partir de vos propres données, à condition que vous disposiez des données suivantes :
 
-## <a name="create-an-item-arrival-journal-header"></a>Créer un en-tête du journal des arrivées d’articles
-1. Accédez à Arrivée d’articles.
-2. Cliquez sur Nouveau.
-3. Tapez une valeur dans le champ Nom.
-    * Si vous utilisez USMF, vous pouvez taper WHS. Si vous utilisez d’autres données, le journal dont vous choisissez le nom doit avoir les propriétés suivantes : Vérifier l’emplacement de prélèvement doit être définie sur Non et Gestion des contrôles doit être définie sur Non.  
-4. Tapez une valeur dans le champ Nombre.
-5. Tapez une valeur dans le champ Site.
-    * Sélectionnez le site que vous avez utilisé pour votre ligne de commande fournisseur. Il servira de valeur par défaut, qui sera la valeur par défaut de toutes les lignes du journal. Si vous avez utilisé l’entrepôt 51 dans USMF, choisissez le site 5.  
-6. Tapez une valeur dans le champ Entrepôts.
-    * Sélectionnez un entrepôt valide pour le site sélectionné. Il servira de valeur par défaut, qui sera la valeur par défaut de toutes les lignes du journal. Si vous utilisez les valeurs d’exemple de USMF, sélectionnez 51.  
-7. Dans le champ Emplacement, tapez une valeur.
-    * Sélectionnez un emplacement valide dans l’entrepôt sélectionné. L’emplacement doit être associé à un profil d’emplacement, qui est contrôlé par le contenant. Il servira de valeur par défaut, qui sera la valeur par défaut de toutes les lignes du journal. Si vous utilisez les valeurs d’exemple de USMF, sélectionnez Bulk-008.  
-8. Cliquez avec le bouton droit sur la flèche de déroulement dans le champ Contenant, puis sélectionnez Afficher les détails.
-9. Cliquez sur Nouveau.
-10. Tapez une valeur dans le champ Contenant.
-    * Notez la valeur.  
-11. Cliquez sur Enregistrer.
-12. Fermez la page.
-13. Tapez une valeur dans le champ Contenant.
-    * Entrez la valeur du conteneur que vous venez de créer. Il servira de valeur par défaut, qui sera la valeur par défaut de toutes les lignes du journal.  
-14. Cliquez sur OK.
+- Vous devez avoir une commande fournisseur confirmée avec une ligne de commande ouverte.
+- L’article de la ligne doit être stocké. Elle ne doit pas utiliser de variantes de produit et ne doit pas avoir de dimensions de suivi.
+- L’article doit être associé à un groupe de dimensions de stockage pour lequel les processus de gestion des entrepôts ont activés.
+- L’entrepôt utilisé doit être activé pour les processus de gestion des entrepôts et l’emplacement que vous utilisez pour la réception doit être contrôlé par un contenant.
 
-## <a name="add-a-line"></a>Ajouter une ligne
-1. Cliquez sur Ajouter une ligne.
-2. Tapez une valeur dans le champ Numéro d’article.
-    * Entrez le numéro d’article que vous avez utilisé dans la ligne de commande fournisseur.  
-3. Dans le champ Quantité, entrer un numéro.
-    * Entrez la quantité que vous souhaitez enregistrer.  
-    * Le champ Date détermine la date à laquelle la quantité disponible de cet article sera enregistrée dans le stock.  
-    * L’ID de lot sera renseigné par le système s’il peut être identifié de manière unique à partir des informations fournies. Sinon, vous devrez l’ajouter manuellement. Il s’agit d’un champ obligatoire, qui lie cet enregistrement à une ligne spécifique d’un document source.  
+## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Créer un en-tête de journal des arrivées d’articles qui utilise la gestion de l’entrepôt
 
-## <a name="complete-the-registration"></a>Terminer l’enregistrement
-1. Cliquez sur Valider.
-    * Cela vérifie que le journal est prêt à être validé. Si la validation échoue, vous devrez corriger les erreurs avant de pouvoir valider le journal.  
-2. Cliquez sur OK.
-    * Après avoir cliqué sur OK, vérifiez le message. Il doit y avoir un message indiquant que le journal est OK.  
-3. Cliquez sur Valider.
-4. Cliquez sur OK.
-    * Après avoir cliqué sur OK, vérifiez la barre des messages. Il doit y avoir un message indiquant que l’opération a réussi.  
-5. Fermez la page.
+Le scénario suivant montre comment créer un en-tête de journal des arrivées d’articles qui utilise la gestion de l’entrepôt :
 
+1. Assurez-vous que votre système contient une commande fournisseur confirmée qui remplit les conditions décrites dans la section précédente. Ce scénario utilise une commande fournisseur pour l’entreprise *USMF*, compte fournisseur *1001*, entrepôt *51*, avec une ligne de commande pour *10 PL* (10 palettes) du numéro d’article *M9200*.
+1. Prenez note du numéro de la commande fournisseur que vous utiliserez.
+1. Accédez à **Gestion des stocks\> Entrées de journal \> Arrivée d’articles \> Arrivée d’articles**.
+1. Sélectionnez **Nouveau** dans le volet Actions.
+1. La boîte de dialogue **Créer un journal de gestion d’entrepôt** s’ouvre. Sélectionnez un nom de journal dans le champ **Nom**.
+    - Si vous utilisez les données de démonstration *USMF*, sélectionnez *WHS*.
+    - Si vous utilisez vos propres données, le journal que vous choisissez doit avoir **Vérifier l’emplacement de prélèvement** défini sur *Non* et **Gestion des contrôles** défini sur *Non*.
+1. Définissez **Référence** sur *Commande fournisseur*.
+1. Définissez **Numéro de compte** sur *1001*.
+1. Définissez **Numéro** sur le numéro de la commande fournisseur que vous avez identifiée pour cet exercice.
+
+    ![Journal des arrivées d’articles](../media/item-arrival-journal-header.png "Journal des arrivées d’articles")
+
+1. Sélectionnez **OK** pour créer l’en-tête du journal.
+1. Dans la section **Lignes de journal**, sélectionnez **Ajouter une ligne** et entrez les données suivantes :
+    - **Numéro d’article** : défini sur *M9200*. Les éléments **Site**, **Entrepôt** et **Quantité** seront définis en fonction des données de transaction d’inventaire pour les 10 palettes (1000 unités chaque).
+    - **Emplacement** : défini sur *001*. Cet emplacement spécifique ne suit pas les contenants.
+
+    ![Ligne du journal des arrivées d’articles](../media/item-arrival-journal-line.png "Ligne du journal des arrivées d’articles")
+
+    > [!NOTE]
+    > Le champ **Date** détermine la date à laquelle la quantité disponible de cet article sera enregistrée dans le stock.  
+    >
+    > L’**ID de lot** sera renseigné par le système s’il peut être identifié de manière unique à partir des informations fournies. Sinon, vous devrez le saisir manuellement. Il s’agit d’un champ obligatoire, qui lie cet enregistrement à une ligne spécifique d’un document source.  
+
+1. Dans le volet Action, sélectionnez **Valider**. Cela vérifie que le journal est prêt à être validé. Si la validation échoue, vous devrez corriger les erreurs avant de pouvoir valider le journal.  
+1. La boîte de dialogue **Vérifier le journal** s’ouvre. Cliquez sur **OK**.
+1. Examinez la barre de messages. Il doit y avoir un message indiquant que l’opération a abouti.  
+1. Sélectionnez **Valider** dans le volet Actions.
+1. La boîte de dialogue **Valider le journal** s’ouvre. Cliquez sur **OK**.
+1. Examinez la barre de messages. Il doit y avoir un message indiquant que l’opération a réussi.
+1. Sélectionnez **Fonctions> Accusé de réception des produits** dans le volet Actions pour mettre à jour la ligne de commande fournisseur et valider un accusé de réception de marchandises.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

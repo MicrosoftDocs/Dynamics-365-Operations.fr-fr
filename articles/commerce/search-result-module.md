@@ -2,11 +2,9 @@
 title: Module des résultats de recherche
 description: Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,27 +14,26 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5d852fe1a81b1e42484bc49ae136ef8613a2d3a5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3409e9e99329def55b173eb78cf03db4a6764c92
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254767"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794113"
 ---
 # <a name="search-results-module"></a>Module de résultats de recherche
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
-Le module de résultats de recherche renvoie les résultats de la recherche de produits et une liste d'affineurs applicables pour les produits. Les modules de résultats de recherche sur les sites Dynamics 365 Commerce peuvent être utilisés pour afficher des pages dans les scénarios suivants :
+Le module de résultats de recherche renvoie les résultats de la recherche de produits et une liste d’affineurs applicables pour les produits. Les modules de résultats de recherche sur les sites Dynamics 365 Commerce peuvent être utilisés pour afficher des pages dans les scénarios suivants :
 
-- Résultats de recherche lancés par une recherche d'utilisateurs
+- Résultats de recherche lancés par une recherche d’utilisateurs
 - Résultats de recherche qui montrent un ensemble spécifique de produits, tels que « Acheter des aspects similaires »
 - Listes des produits appartenant à une catégorie donnée
 
-Pour plus d'informations sur les pages de catégorie et de résultats de recherche, voir [Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md).
+Pour plus d’informations sur les pages de catégorie et de résultats de recherche, voir [Vue d’ensemble de la page d’arrivée de la catégorie par défaut et de la page des résultats de la recherche](category-search-page-overview.md).
 
 L’illustration suivante montre un exemple de page des résultats de la recherche pour une catégorie sur le site Fabrikam.
 
@@ -48,19 +45,19 @@ Le tableau suivant répertorie les propriétés des modules de résultats de rec
 
 | Propriété | Valeurs | Description |
 |----------|--------|-------------|
-| Articles par page | Entier | Le nombre d'éléments à afficher sur chaque page. |
-| Autoriser le retour sur PDP | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu'un utilisateur sélectionne un produit sur la page de résultats de recherche, le fil d'Ariane sur la page de détails du produit (PDP) qui est ouverte affichera un lien « Retour aux résultats ». |
-| Développer les affinements | **Tout**, **1**, **2**, **3** ou **4** | Nombre de raffineurs supérieurs qui doivent être développés lorsqu'une page est chargée. Par exemple, si cette propriété est définie sur **3**, les trois premiers raffineurs de la page seront développés. |
-| Masquer l’affichage de la hiérarchie de catégories | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, l'affichage de la hiérarchie des catégories sur la page sera masqué. Cette propriété doit être définie sur **True** si vous utilisez le [module de fil d'Ariane](add-breadcrumb.md) pour afficher la hiérarchie des catégories.|
+| Articles par page | Entier | Le nombre d’éléments à afficher sur chaque page. |
+| Autoriser le retour sur PDP | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu’un utilisateur sélectionne un produit sur la page de résultats de recherche, le fil d’Ariane sur la page de détails du produit (PDP) qui est ouverte affichera un lien « Retour aux résultats ». |
+| Développer les affinements | **Tout**, **1**, **2**, **3** ou **4** | Nombre de raffineurs supérieurs qui doivent être développés lorsqu’une page est chargée. Par exemple, si cette propriété est définie sur **3**, les trois premiers raffineurs de la page seront développés. |
+| Masquer l’affichage de la hiérarchie de catégories | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, l’affichage de la hiérarchie des catégories sur la page sera masqué. Cette propriété doit être définie sur **True** si vous utilisez le [module de fil d’Ariane](add-breadcrumb.md) pour afficher la hiérarchie des catégories.|
 | Inclure les attributs de produit dans les résultats de la recherche | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les attributs seront renvoyés pour les produits dans les résultats de la recherche. Bien que ces attributs puissent être affichés sur un site Commerce, une extension est requise.|
-| Afficher les prix d’affiliation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les prix d'affiliation pour les produits seront affichés dans les résultats de recherche lorsqu'un utilisateur connecté navigue sur la page. |
+| Afficher les prix d’affiliation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les prix d’affiliation pour les produits seront affichés dans les résultats de recherche lorsqu’un utilisateur connecté navigue sur la page. |
 
 > [!IMPORTANT]
-> Dans Dynamics 365 Commerce version 10.0.16 et ultérieures, la configuration **Afficher les prix d'affiliation** peut être utilisée pour afficher les prix d'affiliation sur la page.
+> Dans Dynamics 365 Commerce version 10.0.16 et ultérieures, la configuration **Afficher les prix d’affiliation** peut être utilisée pour afficher les prix d’affiliation sur la page.
 
 ## <a name="supported-modules"></a>Modules pris en charge
 
-Le module de résultats de recherche prend en charge le [module de visualisation rapide](quick-view-module.md), qui permet aux utilisateurs d'afficher des informations sur le produit et d'ajouter des articles au panier à partir d'une page de résultats de la recherche.
+Le module de résultats de recherche prend en charge le [module de visualisation rapide](quick-view-module.md), qui permet aux utilisateurs d’afficher des informations sur le produit et d’ajouter des articles au panier à partir d’une page de résultats de la recherche.
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Ajouter un module de résultats de recherche à une page de catégorie
 
@@ -74,10 +71,10 @@ Pour ajouter un module de résultats de recherche à une page de catégorie, pro
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Piste de navigation**, puis sélectionnez **OK**.
-1. Dans le volet des propriétés **Fil d'Ariane**, entrez la valeur de **1** pour **Nombre minimal d'exécutions**.
+1. Dans le volet des propriétés **Fil d’Ariane**, entrez la valeur de **1** pour **Nombre minimal d’exécutions**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (...), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Résultats de la recherche**, puis cliquez sur **OK**.
-1. Dans le volet des propriétés **Résultats de recherche**, entrez la valeur de **1** pour **Nombre minimal d'exécutions**, puis définissez toutes les autres propriétés requises pour le module de résultats de recherche. En définissant ces propriétés dans le modèle, vous vous assurez que toute personnalisation d'une page de catégorie spécifique inclura automatiquement ces paramètres.
+1. Dans le volet des propriétés **Résultats de recherche**, entrez la valeur de **1** pour **Nombre minimal d’exécutions**, puis définissez toutes les autres propriétés requises pour le module de résultats de recherche. En définissant ces propriétés dans le modèle, vous vous assurez que toute personnalisation d’une page de catégorie spécifique inclura automatiquement ces paramètres.
 1. Sélectionnez **Terminer la modification**, puis **Publier** pour publier le modèle.
 1. Accédez à **Pages**, puis sélectionnez **Nouveau** pour créer une page.
 1. Dans la boîte de dialogue **Choisir un modèle**, sélectionnez le modèle **Résultats de la recherche** que vous avez créé, entrez **Page des catégories** pour **Nom de la page**, puis cliquez sur **OK**. Étant donné que toutes les valeurs sont définies dans le modèle, la page est prête à être publiée.

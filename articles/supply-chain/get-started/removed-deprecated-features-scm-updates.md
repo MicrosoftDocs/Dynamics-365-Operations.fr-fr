@@ -2,11 +2,9 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259089"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821271"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://docs.microsoft.com/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.18
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Entreposage (l’application d’entrepôt)
+
+|   |  |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | À compter d’avril 2021, *Dynamics 365 for Finance and Operations - Entreposage* (l’application d’entrepôt) est obsolète et ne sera plus prise en charge après avril 2022. Elle est maintenant remplacée par l’*Application mobile Gestion des entrepôts*, qui a été publiée avec la version 10.0.17 de Supply Chain Management. La nouvelle application est un remplacement complet, mais elle utilise la même infrastructure sous-jacente, ce qui facilite la migration. Si nécessaire, les deux applications peuvent être utilisées côte à côte pour aider les utilisateurs à s’adapter à mesure qu’ils apprennent à utiliser la nouvelle application.<br><br>Pour plus d’informations sur la nouvelle application mobile Gestion des entrepôts, voir [Application mobile Gestion des entrepôts](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) et [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, remplacé par la nouvelle application mobile Gestion des entrepôts. |
+| **Zones de produit affectées**         | Supply Chain Management - application d’entrepôt |
+| **Option de déploiement**              | Cloud et sur site |
+| **État**                         | Obsolète. L’application d’entrepôt bénéficiera d’un support avec correctifs de sécurité et de bogues, mais les améliorations de fonctionnalités ne seront plus fournies. Après avril 2022, l’ancienne application d’entrepôt ne sera plus prise en charge et les clients seront invités à passer à la nouvelle application mobile Gestion des entrepôts. L’ancienne application d’entrepôt sera ensuite supprimée du Microsoft Store et du Google Play Store.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.15
 

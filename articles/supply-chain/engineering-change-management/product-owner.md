@@ -2,11 +2,9 @@
 title: Propriétaires de produits
 description: Cette rubrique fournit des informations sur la les propriétaires de produits. Un propriétaire de produit est un groupe d’utilisateurs qui sont responsables de produits spécifiques. Seuls les membres du groupe peuvent lancer ces produits. Le propriétaire du produit peut également être utilisé dans le workflow d’approbation.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a1c3bc6f77fed83cfbbd502cdd469baa491fd81f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 679712b2397f220e263da3df07ecd03c99bebf3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266125"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842030"
 ---
 # <a name="product-owners"></a>Propriétaires de produits
 

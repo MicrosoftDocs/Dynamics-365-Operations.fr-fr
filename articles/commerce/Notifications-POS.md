@@ -1,12 +1,10 @@
 ---
 title: Afficher les notifications dans le point de vente (PDV)
-description: Cette rubrique décrit la procédure d'activation des notifications de commande dans le point de vente et l'infrastructure de notifications.
+description: Cette rubrique décrit la procédure d’activation des notifications de commande dans le point de vente et l’infrastructure de notifications.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ea902b5d65f806fc88e688d10bdad9ae75611ef
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585080"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796484"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Afficher les notifications dans le point de vente (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Les collaborateurs du magasin peuvent se voir attribuer diverses tâches dans leur magasin, telles que l’exécution des commandes ou l’exécution de la réception des stocks ou les inventaires. Le client du point de vente (PDV) fournit une application unique aux collaborateurs, qui leur permet d’être informé de ces tâches. L'infrastructure de notification dans le PDV permet aux détaillants de configurer des notifications basées sur les rôles. À partir de Dynamics 365 Retail avec la mise à jour d’application 5, ces notifications peuvent être configurées pour les opérations de PDV.
+Les collaborateurs du magasin peuvent se voir attribuer diverses tâches dans leur magasin, telles que l’exécution des commandes ou l’exécution de la réception des stocks ou les inventaires. Le client du point de vente (PDV) fournit une application unique aux collaborateurs, qui leur permet d’être informé de ces tâches. L’infrastructure de notification dans le PDV permet aux détaillants de configurer des notifications basées sur les rôles. À partir de Dynamics 365 Retail avec la mise à jour d’application 5, ces notifications peuvent être configurées pour les opérations de PDV.
 
 Le système peut afficher des notifications pour l’*exécution des commandes* et à partir de la version 10.0.18 de Commerce, les notifications peuvent également être affichées pour le *rappel de commande*. Toutefois, comme l’infrastructure est conçue pour être extensible, les développeurs peuvent [écrire un gestionnaire de notification](dev-itpro/extend-pos-notification.md) pour toutes les opérations, et afficher les notifications pour cette opération dans le PDV.
 
@@ -43,10 +41,10 @@ Pour activer les notifications pour les opérations d’exécution des commandes
       Les notifications ne sont affichées que pour les opérations ajoutées sur le raccourci **Notifications**. Vous ne pouvez y ajouter des opérations que si les cases **Activer les notifications** ont été cochées pour ces opérations sur la page **Opérations PDV**. En outre, les notifications d’une opération sont uniquement affichées pour les collaborateurs si l’opération est ajoutée aux autorisations du PDV pour ceux-ci.
 
     > [!NOTE]
-    > Les notifications peuvent être remplacées au niveau de l'utilisateur. Pour cela, ouvrez l’enregistrement du collaborateur, sélectionnez **Autorisations PDV**, puis modifiez l’abonnement à la notification de l’utilisateur.
+    > Les notifications peuvent être remplacées au niveau de l’utilisateur. Pour cela, ouvrez l’enregistrement du collaborateur, sélectionnez **Autorisations PDV**, puis modifiez l’abonnement à la notification de l’utilisateur.
 
-1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils de fonctionnalité**. Dans le champ **Intervalle de notification**, spécifiez la fréquence à laquelle les notifications doivent être extraites. Pour certaines notifications, le PDV doit effectuer des appels en temps réel à l'application administrative. Ces appels consomment de la capacité de calcul de votre application administrative. Par conséquent, lorsque vous définissez l'intervalle de notification, vous devez prendre en compte à la fois vos exigences métier et l'impact des appels en temps réel à l'application administrative. Une valeur de **0** (zéro) désactive les notifications.
-1. Accédez à **Commerce et vente au détail \> Informatique Commerce et vente au détail \> Programme de distribution**. Sélectionnez le programme **1060** (**Personnel**) pour synchroniser les paramètres d'abonnement aux notifications, puis sélectionnez **Exécuter maintenant**. Ensuite, sélectionnez le programme **1070** (**Configuration des canaux**) pour synchroniser l'intervalle d'autorisation et sélectionnez **Exécuter maintenant**.
+1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils de fonctionnalité**. Dans le champ **Intervalle de notification**, spécifiez la fréquence à laquelle les notifications doivent être extraites. Pour certaines notifications, le PDV doit effectuer des appels en temps réel à l’application administrative. Ces appels consomment de la capacité de calcul de votre application administrative. Par conséquent, lorsque vous définissez l’intervalle de notification, vous devez prendre en compte à la fois vos exigences métier et l’impact des appels en temps réel à l’application administrative. Une valeur de **0** (zéro) désactive les notifications.
+1. Accédez à **Commerce et vente au détail \> Informatique Commerce et vente au détail \> Programme de distribution**. Sélectionnez le programme **1060** (**Personnel**) pour synchroniser les paramètres d’abonnement aux notifications, puis sélectionnez **Exécuter maintenant**. Ensuite, sélectionnez le programme **1070** (**Configuration des canaux**) pour synchroniser l’intervalle d’autorisation et sélectionnez **Exécuter maintenant**.
 
 ## <a name="view-notifications-in-the-pos"></a>Afficher les notifications dans le PDV
 
@@ -67,20 +65,20 @@ Pour les notifications d’exécution des commandes et de rappel de commande, lo
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Activer le contenu en direct sur les boutons du PDV
 
-Les boutons du PDV peuvent désormais afficher un nombre permettant aux travailleurs de déterminer facilement les tâches nécessitant leur attention immédiate. Pour afficher ce nombre sur un bouton du PDV, vous devez exécuter le paramétrage des notifications décrit plus haut dans cette rubrique (autrement dit, vous devez activer les notifications pour une opération, paramétrer un intervalle de notification, puis mettre le groupe d'autorisations du PDV à jour pour le travailleur). En outre, vous devez ouvrir le concepteur de grille de boutons, afficher les propriétés du bouton, puis activer la case à cocher **Activer le contenu en direct**. Dans le champ **Alignement de contenu**, vous pouvez choisir si le nombre doit s'afficher dans le coin supérieur droit du bouton (**Haut-Droite**) ou au centre (**Centré**).
+Les boutons du PDV peuvent désormais afficher un nombre permettant aux travailleurs de déterminer facilement les tâches nécessitant leur attention immédiate. Pour afficher ce nombre sur un bouton du PDV, vous devez exécuter le paramétrage des notifications décrit plus haut dans cette rubrique (autrement dit, vous devez activer les notifications pour une opération, paramétrer un intervalle de notification, puis mettre le groupe d’autorisations du PDV à jour pour le travailleur). En outre, vous devez ouvrir le concepteur de grille de boutons, afficher les propriétés du bouton, puis activer la case à cocher **Activer le contenu en direct**. Dans le champ **Alignement de contenu**, vous pouvez choisir si le nombre doit s’afficher dans le coin supérieur droit du bouton (**Haut-Droite**) ou au centre (**Centré**).
 
 > [!NOTE]
 > Le contenu en direct peut être activé pour les opérations uniquement si la case à cocher **Activer les notifications** a été activée pour elles sur la page **Opérations du PDV**, comme décrit précédemment dans cette rubrique.
 
-L'illustration suivante présente les paramètres de contenu en direct dans le concepteur de grille de boutons.
+L’illustration suivante présente les paramètres de contenu en direct dans le concepteur de grille de boutons.
 
 ![Paramètres de contenu en direct dans le concepteur de grille de boutons](./media/ButtonGridDesigner.png "Paramètres de contenu en direct dans le concepteur de grille de boutons")
 
-Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer que la mise en page de l'écran appropriée est mise à jour. Pour déterminer la mise en page de l'écran utilisée par le PDV, sélectionnez l'icône **Paramètres** dans l'angle supérieur droit et notez l'**ID mise en page de l'écran** et **Résolution de mise en page**. Maintenant, à l'aide du navigateur Edge, cliquez sur la page **Mise en page de l'écran**, recherchez l'**ID mise en page de l'écran** et **Résolution de mise en page** identifiés ci-dessus et activez la case à cocher **Activer le contenu en direct**. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution** et exécutez les 1 090 tâches (registres) pour synchroniser les modifications de la mise en page.
+Pour afficher le nombre de notifications sur un bouton, vous devez vous assurer que la mise en page de l’écran appropriée est mise à jour. Pour déterminer la mise en page de l’écran utilisée par le PDV, sélectionnez l’icône **Paramètres** dans l’angle supérieur droit et notez l’**ID mise en page de l’écran** et **Résolution de mise en page**. Maintenant, à l’aide du navigateur Edge, cliquez sur la page **Mise en page de l’écran**, recherchez l’**ID mise en page de l’écran** et **Résolution de mise en page** identifiés ci-dessus et activez la case à cocher **Activer le contenu en direct**. Accédez à **Retail et Commerce \> Informatique Retail et Commerce \> Programme de distribution** et exécutez les 1 090 tâches (registres) pour synchroniser les modifications de la mise en page.
 
-![Trouver la mise en page de l'écran utilisée par le PDV](./media/Choose_screen_layout.png "Trouver la mise en page de l'écran")
+![Trouver la mise en page de l’écran utilisée par le PDV](./media/Choose_screen_layout.png "Trouver la mise en page de l’écran")
 
-L'illustration suivante présente les effets de la sélection de **Haut-Droite** par rapport à **Centré** dans le champ **Alignement de contenu** pour les boutons de différentes tailles.
+L’illustration suivante présente les effets de la sélection de **Haut-Droite** par rapport à **Centré** dans le champ **Alignement de contenu** pour les boutons de différentes tailles.
 
 ![Contenu en direct sur les boutons du PDV](./media/ButtonsWithLiveContent.png "Contenu en direct sur les boutons du PDV")
 
