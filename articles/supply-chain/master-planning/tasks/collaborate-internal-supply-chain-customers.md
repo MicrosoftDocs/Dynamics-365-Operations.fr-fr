@@ -2,11 +2,9 @@
 title: Collaborer avec les clients de la chaîne d’approvisionnement interne
 description: Cette procédure indique comment afficher tous les ordres prévisionnels qui seront honorés par un fournisseur intersociétés.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
@@ -15,32 +13,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6fd306d21097cdc850b7e9ae14f9a292fe0d4db
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e663be2a24df8b208bd3902933259ac281db9f9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246739"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841741"
 ---
-# <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="44fa0-103">Collaborer avec les clients de la chaîne d’approvisionnement interne</span><span class="sxs-lookup"><span data-stu-id="44fa0-103">Collaborate with internal supply chain customers</span></span>
+# <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="e39be-103">Collaborer avec les clients de la chaîne d’approvisionnement interne</span><span class="sxs-lookup"><span data-stu-id="e39be-103">Collaborate with internal supply chain customers</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="44fa0-104">Cette procédure indique comment afficher tous les ordres prévisionnels qui seront honorés par un fournisseur intersociétés.</span><span class="sxs-lookup"><span data-stu-id="44fa0-104">This procedure shows how to view all the planned orders that will be fulfilled by an intercompany vendor.</span></span> <span data-ttu-id="44fa0-105">La société fictive de démonstration utilisée pour créer cette procédure est DEMF.</span><span class="sxs-lookup"><span data-stu-id="44fa0-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="e39be-104">Cette procédure indique comment afficher tous les ordres prévisionnels qui seront honorés par un fournisseur intersociétés.</span><span class="sxs-lookup"><span data-stu-id="e39be-104">This procedure shows how to view all the planned orders that will be fulfilled by an intercompany vendor.</span></span> <span data-ttu-id="e39be-105">La société fictive de démonstration utilisée pour créer cette procédure est DEMF.</span><span class="sxs-lookup"><span data-stu-id="e39be-105">The demo data company used to create this procedure is DEMF.</span></span>
 
-1. <span data-ttu-id="44fa0-106">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="44fa0-106">Click Master planning.</span></span>
-2. <span data-ttu-id="44fa0-107">Dans le champ Régime, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="44fa0-107">In the Plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="44fa0-108">Dans le champ Plan, sélectionnez le plan 10.</span><span class="sxs-lookup"><span data-stu-id="44fa0-108">In the Plan field, select plan 10.</span></span>  
-3. <span data-ttu-id="44fa0-109">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="44fa0-109">Click Run.</span></span>
-4. <span data-ttu-id="44fa0-110">Entrez un nombre dans le champ Nombre de threads.</span><span class="sxs-lookup"><span data-stu-id="44fa0-110">In the Number of threads field, enter a number.</span></span>
-    * <span data-ttu-id="44fa0-111">Représente le nombre de threads parallèles à utiliser pour la planification.</span><span class="sxs-lookup"><span data-stu-id="44fa0-111">This represents the number of parallel threads to be used for master planning.</span></span>  
-5. <span data-ttu-id="44fa0-112">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="44fa0-112">Click OK.</span></span>
-    * <span data-ttu-id="44fa0-113">Cette opération peut prendre du temps.</span><span class="sxs-lookup"><span data-stu-id="44fa0-113">This may take a while.</span></span>  
-6. <span data-ttu-id="44fa0-114">Cliquez sur Besoin prévisionnel intersociétés.</span><span class="sxs-lookup"><span data-stu-id="44fa0-114">Click Planned intercompany demand.</span></span>
-7. <span data-ttu-id="44fa0-115">Cliquez sur Besoin prévisionnel intersociétés en sortie.</span><span class="sxs-lookup"><span data-stu-id="44fa0-115">Click Outbound planned intercompany demand.</span></span>
-    * <span data-ttu-id="44fa0-116">Cette page fournit une vue d’ensemble de la demande planifiée qui sera honorée par un fournisseur de la chaîne d’approvisionnement interne.</span><span class="sxs-lookup"><span data-stu-id="44fa0-116">This page provides an overview of all the planned demand that will be fulfilled by an internal supply chain vendor.</span></span>  
-8. <span data-ttu-id="44fa0-117">Développez la section Détails du besoin en amont.</span><span class="sxs-lookup"><span data-stu-id="44fa0-117">Expand the Upstream demand details section.</span></span>
-    * <span data-ttu-id="44fa0-118">Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée.</span><span class="sxs-lookup"><span data-stu-id="44fa0-118">In this section, you can see the details about how the demand will be fulfilled.</span></span> <span data-ttu-id="44fa0-119">Vous devrez attendre l’exécution de la planification dans la société d’approvisionnement avant de pouvoir consulter les informations supplémentaires ici.</span><span class="sxs-lookup"><span data-stu-id="44fa0-119">You may need to wait for master planning to be run in the supply company before you can see additional information here.</span></span>  
+1. <span data-ttu-id="e39be-106">Cliquez sur Planification.</span><span class="sxs-lookup"><span data-stu-id="e39be-106">Click Master planning.</span></span>
+2. <span data-ttu-id="e39be-107">Dans le champ Régime, saisissez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e39be-107">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="e39be-108">Dans le champ Plan, sélectionnez le plan 10.</span><span class="sxs-lookup"><span data-stu-id="e39be-108">In the Plan field, select plan 10.</span></span>  
+3. <span data-ttu-id="e39be-109">Cliquez sur Exécuter.</span><span class="sxs-lookup"><span data-stu-id="e39be-109">Click Run.</span></span>
+4. <span data-ttu-id="e39be-110">Entrez un nombre dans le champ Nombre de threads.</span><span class="sxs-lookup"><span data-stu-id="e39be-110">In the Number of threads field, enter a number.</span></span>
+    * <span data-ttu-id="e39be-111">Représente le nombre de threads parallèles à utiliser pour la planification.</span><span class="sxs-lookup"><span data-stu-id="e39be-111">This represents the number of parallel threads to be used for master planning.</span></span>  
+5. <span data-ttu-id="e39be-112">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e39be-112">Click OK.</span></span>
+    * <span data-ttu-id="e39be-113">Cette opération peut prendre du temps.</span><span class="sxs-lookup"><span data-stu-id="e39be-113">This may take a while.</span></span>  
+6. <span data-ttu-id="e39be-114">Cliquez sur Besoin prévisionnel intersociétés.</span><span class="sxs-lookup"><span data-stu-id="e39be-114">Click Planned intercompany demand.</span></span>
+7. <span data-ttu-id="e39be-115">Cliquez sur Besoin prévisionnel intersociétés en sortie.</span><span class="sxs-lookup"><span data-stu-id="e39be-115">Click Outbound planned intercompany demand.</span></span>
+    * <span data-ttu-id="e39be-116">Cette page fournit une vue d’ensemble de la demande planifiée qui sera honorée par un fournisseur de la chaîne d’approvisionnement interne.</span><span class="sxs-lookup"><span data-stu-id="e39be-116">This page provides an overview of all the planned demand that will be fulfilled by an internal supply chain vendor.</span></span>  
+8. <span data-ttu-id="e39be-117">Développez la section Détails du besoin en amont.</span><span class="sxs-lookup"><span data-stu-id="e39be-117">Expand the Upstream demand details section.</span></span>
+    * <span data-ttu-id="e39be-118">Dans cette section, vous pouvez afficher les détails sur la façon dont la demande sera honorée.</span><span class="sxs-lookup"><span data-stu-id="e39be-118">In this section, you can see the details about how the demand will be fulfilled.</span></span> <span data-ttu-id="e39be-119">Vous devrez attendre l’exécution de la planification dans la société d’approvisionnement avant de pouvoir consulter les informations supplémentaires ici.</span><span class="sxs-lookup"><span data-stu-id="e39be-119">You may need to wait for master planning to be run in the supply company before you can see additional information here.</span></span>  
 
 
 

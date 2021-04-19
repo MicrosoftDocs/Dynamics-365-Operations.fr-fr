@@ -2,11 +2,9 @@
 title: Modèles de chargement
 description: Cette rubrique décrit comment paramétrer des modèles de charge et comment associer un modèle de charge à une nouvelle charge.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate
 audience: Application User
@@ -16,43 +14,43 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 80004b5d22e1cf81c1ffa9f74c2c479e1561df72
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 175c8017b14cc298cdaa00031f8450015a747786
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247212"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831504"
 ---
-# <a name="load-templates"></a><span data-ttu-id="afa5f-103">Modèles de chargement</span><span class="sxs-lookup"><span data-stu-id="afa5f-103">Load templates</span></span>
+# <a name="load-templates"></a><span data-ttu-id="a9e4f-103">Modèles de chargement</span><span class="sxs-lookup"><span data-stu-id="a9e4f-103">Load templates</span></span>
 
-<span data-ttu-id="afa5f-104">Lorsque vous créez une charge, vous pouvez attribuer un modèle de charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-104">When you create a new load, you can assign a load template.</span></span> <span data-ttu-id="afa5f-105">Le modèle de chargement contient des informations sur l’équipement et sur des mesures telles que la hauteur, la largeur, la profondeur et le volume de la charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-105">The load template contains information about equipment, and about measures such as the height, width, depth, and volume of the load.</span></span>
+<span data-ttu-id="a9e4f-104">Lorsque vous créez une charge, vous pouvez attribuer un modèle de charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-104">When you create a new load, you can assign a load template.</span></span> <span data-ttu-id="a9e4f-105">Le modèle de chargement contient des informations sur l’équipement et sur des mesures telles que la hauteur, la largeur, la profondeur et le volume de la charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-105">The load template contains information about equipment, and about measures such as the height, width, depth, and volume of the load.</span></span>
 
-<span data-ttu-id="afa5f-106">Cette rubrique décrit comment paramétrer des modèles de charge et comment associer un modèle de charge à une nouvelle charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-106">This topic describes how to set up load templates, and how to associate a load template with a new load.</span></span>
+<span data-ttu-id="a9e4f-106">Cette rubrique décrit comment paramétrer des modèles de charge et comment associer un modèle de charge à une nouvelle charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-106">This topic describes how to set up load templates, and how to associate a load template with a new load.</span></span>
 
-## <a name="set-up-a-load-template"></a><span data-ttu-id="afa5f-107">Définir un modèle de chargement</span><span class="sxs-lookup"><span data-stu-id="afa5f-107">Set up a load template</span></span>
+## <a name="set-up-a-load-template"></a><span data-ttu-id="a9e4f-107">Définir un modèle de chargement</span><span class="sxs-lookup"><span data-stu-id="a9e4f-107">Set up a load template</span></span>
 
-1. <span data-ttu-id="afa5f-108">Aller à **Gestion des transports \> Configurer \> Création de charge \> Modèle de charge**.</span><span class="sxs-lookup"><span data-stu-id="afa5f-108">Go to **Transportation management \> Setup \> Load Building \> Load template**.</span></span>
-1. <span data-ttu-id="afa5f-109">Dans le volet Actions, sélectionnez **Nouveau** pour ajouter un nouveau modèle, ou sélectionnez **Modifier** pour modifier un modèle existant.</span><span class="sxs-lookup"><span data-stu-id="afa5f-109">On the Action Pane, select **New** to add a new template or **Edit** to edit an existing template.</span></span>
-1. <span data-ttu-id="afa5f-110">Dans la ligne du modèle nouveau ou existant, définissez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="afa5f-110">In the row for the new or existing template, set the following fields:</span></span>
+1. <span data-ttu-id="a9e4f-108">Aller à **Gestion des transports \> Configurer \> Création de charge \> Modèle de charge**.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-108">Go to **Transportation management \> Setup \> Load Building \> Load template**.</span></span>
+1. <span data-ttu-id="a9e4f-109">Dans le volet Actions, sélectionnez **Nouveau** pour ajouter un nouveau modèle, ou sélectionnez **Modifier** pour modifier un modèle existant.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-109">On the Action Pane, select **New** to add a new template or **Edit** to edit an existing template.</span></span>
+1. <span data-ttu-id="a9e4f-110">Dans la ligne du modèle nouveau ou existant, définissez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="a9e4f-110">In the row for the new or existing template, set the following fields:</span></span>
 
-    - <span data-ttu-id="afa5f-111">**ID de modèle de chargement** – Entrez un identificateur (ID) unique pour la charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-111">**Load template ID** – Enter a unique identifier (ID) for the load template.</span></span>
-    - <span data-ttu-id="afa5f-112">**Équipement** – Sélectionnez l’équipement à utiliser pour expédier le chargement.</span><span class="sxs-lookup"><span data-stu-id="afa5f-112">**Equipment** – Select the equipment that should be used to ship the load.</span></span>
-    - <span data-ttu-id="afa5f-113">**Hauteur de chargement**, **Largeur de chargement**, et **Profondeur de chargement** – Entrez les dimensions de la charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-113">**Load height**, **Load width**, and **Load depth** – Enter the dimensions of the load.</span></span>
-    - <span data-ttu-id="afa5f-114">**Volume de chargement autorisé max.** et **Poids de charge autorisé max.** – Entrez le volume et le poids maximum autorisés de la charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-114">**Max. allowed load volume** and **Max. allowed load weight** – Enter the maximum allowed volume and weight of the load.</span></span>
-    - <span data-ttu-id="afa5f-115">**Poids brut autorisé maximum** – Entrez le poids brut autorisé maximum de la charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-115">**Maximum allowed gross weight** – Enter the maximum allowed gross weight of the load.</span></span> <span data-ttu-id="afa5f-116">Un poids brut de la charge comprend le poids de la tare et le poids de la charge.</span><span class="sxs-lookup"><span data-stu-id="afa5f-116">A load's gross weight includes both its tare weight and its loading weight.</span></span>
-    - <span data-ttu-id="afa5f-117">**Nombre maximum de pièces de fret autorisé** – Entrez le nombre maximum de pièces de fret que le chargement peut contenir.</span><span class="sxs-lookup"><span data-stu-id="afa5f-117">**Maximum number of freight pieces allowed** – Enter the maximum number of freight pieces that the load can contain.</span></span>
-    - <span data-ttu-id="afa5f-118">**Empiler la charge au sol**–- Cochez cette case pour utiliser le chargement au sol.</span><span class="sxs-lookup"><span data-stu-id="afa5f-118">**Stack load on floor** – Select this check box to use floor loading.</span></span> <span data-ttu-id="afa5f-119">Dans un scénario de chargement au sol, les boîtes sont empilées du sol au plafond et d’un mur à l’autre dans le conteneur afin de maximiser la capacité.</span><span class="sxs-lookup"><span data-stu-id="afa5f-119">In a floor loading scenario, boxes are stacked floor to ceiling and wall to wall inside the container, to maximize capacity.</span></span>
+    - <span data-ttu-id="a9e4f-111">**ID de modèle de chargement** – Entrez un identificateur (ID) unique pour la charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-111">**Load template ID** – Enter a unique identifier (ID) for the load template.</span></span>
+    - <span data-ttu-id="a9e4f-112">**Équipement** – Sélectionnez l’équipement à utiliser pour expédier le chargement.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-112">**Equipment** – Select the equipment that should be used to ship the load.</span></span>
+    - <span data-ttu-id="a9e4f-113">**Hauteur de chargement**, **Largeur de chargement**, et **Profondeur de chargement** – Entrez les dimensions de la charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-113">**Load height**, **Load width**, and **Load depth** – Enter the dimensions of the load.</span></span>
+    - <span data-ttu-id="a9e4f-114">**Volume de chargement autorisé max.** et **Poids de charge autorisé max.** – Entrez le volume et le poids maximum autorisés de la charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-114">**Max. allowed load volume** and **Max. allowed load weight** – Enter the maximum allowed volume and weight of the load.</span></span>
+    - <span data-ttu-id="a9e4f-115">**Poids brut autorisé maximum** – Entrez le poids brut autorisé maximum de la charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-115">**Maximum allowed gross weight** – Enter the maximum allowed gross weight of the load.</span></span> <span data-ttu-id="a9e4f-116">Un poids brut de la charge comprend le poids de la tare et le poids de la charge.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-116">A load's gross weight includes both its tare weight and its loading weight.</span></span>
+    - <span data-ttu-id="a9e4f-117">**Nombre maximum de pièces de fret autorisé** – Entrez le nombre maximum de pièces de fret que le chargement peut contenir.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-117">**Maximum number of freight pieces allowed** – Enter the maximum number of freight pieces that the load can contain.</span></span>
+    - <span data-ttu-id="a9e4f-118">**Empiler la charge au sol**–- Cochez cette case pour utiliser le chargement au sol.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-118">**Stack load on floor** – Select this check box to use floor loading.</span></span> <span data-ttu-id="a9e4f-119">Dans un scénario de chargement au sol, les boîtes sont empilées du sol au plafond et d’un mur à l’autre dans le conteneur afin de maximiser la capacité.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-119">In a floor loading scenario, boxes are stacked floor to ceiling and wall to wall inside the container, to maximize capacity.</span></span>
 
-1. <span data-ttu-id="afa5f-120">Dans le volet Actions, sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="afa5f-120">On the Action Pane, select **Save**.</span></span>
+1. <span data-ttu-id="a9e4f-120">Dans le volet Actions, sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-120">On the Action Pane, select **Save**.</span></span>
 
-## <a name="associate-a-load-template-with-a-new-load"></a><span data-ttu-id="afa5f-121">Associer un modèle de charge à une nouvelle charge</span><span class="sxs-lookup"><span data-stu-id="afa5f-121">Associate a load template with a new load</span></span>
+## <a name="associate-a-load-template-with-a-new-load"></a><span data-ttu-id="a9e4f-121">Associer un modèle de charge à une nouvelle charge</span><span class="sxs-lookup"><span data-stu-id="a9e4f-121">Associate a load template with a new load</span></span>
 
-1. <span data-ttu-id="afa5f-122">Accédez à **Gestion du transport \> Planning \> Console de planification des charges**.</span><span class="sxs-lookup"><span data-stu-id="afa5f-122">Go to **Transportation management \> Planning \> Load planning workbench**.</span></span>
-1. <span data-ttu-id="afa5f-123">Dans la partie supérieure de la page, sélectionnez l’un des onglets suivants, en fonction du type de document source pour lequel vous créez une charge : **Expéditions**, **Lignes de vente**, **Lignes de transfert**, ou **Lignes de commande d’achat**.</span><span class="sxs-lookup"><span data-stu-id="afa5f-123">In the upper part of the page, select one of the following tabs, depending on the type of source document that you're creating a load for: **Shipments**, **Sales lines**, **Transfer lines**, or **Purchase order lines**.</span></span> 
-1. <span data-ttu-id="afa5f-124">Sélectionnez le document spécifique pour lequel planifier le chargement.</span><span class="sxs-lookup"><span data-stu-id="afa5f-124">Select the specific document to plan the load for.</span></span>
-1. <span data-ttu-id="afa5f-125">Dans le volet Actions, sous l’onglet **Approvisionnement et demande**, dans le groupe **Ajouter**, sélectionnez **Dans un nouveau chargement**.</span><span class="sxs-lookup"><span data-stu-id="afa5f-125">On the Action Pane, on the **Supply and demand** tab, in the **Add** group, select **To new load**.</span></span>
-1. <span data-ttu-id="afa5f-126">Dans la boîte de dialogue **Modèle de chargement**, dans le champ **ID modèle de chargement**, sélectionnez le modèle à appliquer.</span><span class="sxs-lookup"><span data-stu-id="afa5f-126">In the **Load template** dialog box, in the **Load template ID** field, select the template to apply.</span></span>
-1. <span data-ttu-id="afa5f-127">Sélectionnez **OK** pour appliquer le modèle.</span><span class="sxs-lookup"><span data-stu-id="afa5f-127">Select **OK** to apply the template.</span></span>
+1. <span data-ttu-id="a9e4f-122">Accédez à **Gestion du transport \> Planning \> Console de planification des charges**.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-122">Go to **Transportation management \> Planning \> Load planning workbench**.</span></span>
+1. <span data-ttu-id="a9e4f-123">Dans la partie supérieure de la page, sélectionnez l’un des onglets suivants, en fonction du type de document source pour lequel vous créez une charge : **Expéditions**, **Lignes de vente**, **Lignes de transfert**, ou **Lignes de commande d’achat**.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-123">In the upper part of the page, select one of the following tabs, depending on the type of source document that you're creating a load for: **Shipments**, **Sales lines**, **Transfer lines**, or **Purchase order lines**.</span></span> 
+1. <span data-ttu-id="a9e4f-124">Sélectionnez le document spécifique pour lequel planifier le chargement.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-124">Select the specific document to plan the load for.</span></span>
+1. <span data-ttu-id="a9e4f-125">Dans le volet Actions, sous l’onglet **Approvisionnement et demande**, dans le groupe **Ajouter**, sélectionnez **Dans un nouveau chargement**.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-125">On the Action Pane, on the **Supply and demand** tab, in the **Add** group, select **To new load**.</span></span>
+1. <span data-ttu-id="a9e4f-126">Dans la boîte de dialogue **Modèle de chargement**, dans le champ **ID modèle de chargement**, sélectionnez le modèle à appliquer.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-126">In the **Load template** dialog box, in the **Load template ID** field, select the template to apply.</span></span>
+1. <span data-ttu-id="a9e4f-127">Sélectionnez **OK** pour appliquer le modèle.</span><span class="sxs-lookup"><span data-stu-id="a9e4f-127">Select **OK** to apply the template.</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
