@@ -1,12 +1,10 @@
 ---
 title: Actifs entrants et sortants
 description: Cette rubrique explique comment enregistrer des actifs entrants et sortants dans Gestion des actifs.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -14,62 +12,62 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c77aa0dc10844fbe07afa0b8d2a6f3578a246ab
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253344"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816794"
 ---
-# <a name="inbound-and-outbound-assets"></a><span data-ttu-id="1b592-103">Actifs entrants et sortants</span><span class="sxs-lookup"><span data-stu-id="1b592-103">Inbound and outbound assets</span></span>
+# <a name="inbound-and-outbound-assets"></a><span data-ttu-id="52ddd-103">Actifs entrants et sortants</span><span class="sxs-lookup"><span data-stu-id="52ddd-103">Inbound and outbound assets</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="1b592-104">Si votre société effectue des tâches de réparation ou de maintenance sur les actifs reçus d’autres emplacements ou clients, Gestion des actifs peut suivre les actifs entrants vers votre société et les actifs sortants qui sont retournées.</span><span class="sxs-lookup"><span data-stu-id="1b592-104">If your company does repair jobs or maintenance jobs on assets that are received from other locations or customers, Asset Management can track both inbound assets that are on their way to your company and outbound assets that are being returned.</span></span>
+<span data-ttu-id="52ddd-104">Si votre société effectue des tâches de réparation ou de maintenance sur les actifs reçus d’autres emplacements ou clients, Gestion des actifs peut suivre les actifs entrants vers votre société et les actifs sortants qui sont retournées.</span><span class="sxs-lookup"><span data-stu-id="52ddd-104">If your company does repair jobs or maintenance jobs on assets that are received from other locations or customers, Asset Management can track both inbound assets that are on their way to your company and outbound assets that are being returned.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1b592-105">Si vous souhaitez utiliser des états du cycle de vie entrant et sortant pour gérer les actifs entrants et étant retournés, vous devez paramétrer des états de cycle de vie de demande de maintenance et des modèles de cycle de vie pour prendre en charge ces actions.</span><span class="sxs-lookup"><span data-stu-id="1b592-105">If you want to use inbound and outbound lifecycle states to manage assets that are coming in and being returned, you must set up maintenance request lifecycle states and lifecycle models to support these actions.</span></span> <span data-ttu-id="1b592-106">Pour plus d’informations, voir [Demandes de maintenance](../setup-for-maintenance-requests/requests.md).</span><span class="sxs-lookup"><span data-stu-id="1b592-106">For more information, see [Maintenance requests](../setup-for-maintenance-requests/requests.md).</span></span>
+> <span data-ttu-id="52ddd-105">Si vous souhaitez utiliser des états du cycle de vie entrant et sortant pour gérer les actifs entrants et étant retournés, vous devez paramétrer des états de cycle de vie de demande de maintenance et des modèles de cycle de vie pour prendre en charge ces actions.</span><span class="sxs-lookup"><span data-stu-id="52ddd-105">If you want to use inbound and outbound lifecycle states to manage assets that are coming in and being returned, you must set up maintenance request lifecycle states and lifecycle models to support these actions.</span></span> <span data-ttu-id="52ddd-106">Pour plus d’informations, voir [Demandes de maintenance](../setup-for-maintenance-requests/requests.md).</span><span class="sxs-lookup"><span data-stu-id="52ddd-106">For more information, see [Maintenance requests](../setup-for-maintenance-requests/requests.md).</span></span>
 
-<span data-ttu-id="1b592-107">Le paramétrage de Gestion des actifs détermine si vous pouvez utiliser les actifs entrants et sortants.</span><span class="sxs-lookup"><span data-stu-id="1b592-107">The setup of Asset Management determines whether you can work with inbound and outbound assets.</span></span>
+<span data-ttu-id="52ddd-107">Le paramétrage de Gestion des actifs détermine si vous pouvez utiliser les actifs entrants et sortants.</span><span class="sxs-lookup"><span data-stu-id="52ddd-107">The setup of Asset Management determines whether you can work with inbound and outbound assets.</span></span>
 
-## <a name="register-assets-as-inbound"></a><span data-ttu-id="1b592-108">Enregistrer les actifs comme entrants</span><span class="sxs-lookup"><span data-stu-id="1b592-108">Register assets as inbound</span></span>
+## <a name="register-assets-as-inbound"></a><span data-ttu-id="52ddd-108">Enregistrer les actifs comme entrants</span><span class="sxs-lookup"><span data-stu-id="52ddd-108">Register assets as inbound</span></span>
 
-1. <span data-ttu-id="1b592-109">Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Demandes de maintenance actives**.</span><span class="sxs-lookup"><span data-stu-id="1b592-109">Select **Asset management** \> **Common** \> **Maintenance requests** \> **Active maintenance requests**.</span></span>
-2. <span data-ttu-id="1b592-110">Sélectionnez la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="1b592-110">Select the maintenance request.</span></span>
-3. <span data-ttu-id="1b592-111">Sélectionnez **Mettre à jour l’état de la demande de maintenance**.</span><span class="sxs-lookup"><span data-stu-id="1b592-111">Select **Update maintenance request state**.</span></span>
-4. <span data-ttu-id="1b592-112">Sélectionnez **Entrant** (ou un autre état du cycle de vie créé pour les actifs entrants), puis **OK**.</span><span class="sxs-lookup"><span data-stu-id="1b592-112">Select **Inbound** (or another lifecycle state that you've created for inbound assets), and then select **OK**.</span></span>
+1. <span data-ttu-id="52ddd-109">Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Demandes de maintenance actives**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-109">Select **Asset management** \> **Common** \> **Maintenance requests** \> **Active maintenance requests**.</span></span>
+2. <span data-ttu-id="52ddd-110">Sélectionnez la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="52ddd-110">Select the maintenance request.</span></span>
+3. <span data-ttu-id="52ddd-111">Sélectionnez **Mettre à jour l’état de la demande de maintenance**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-111">Select **Update maintenance request state**.</span></span>
+4. <span data-ttu-id="52ddd-112">Sélectionnez **Entrant** (ou un autre état du cycle de vie créé pour les actifs entrants), puis **OK**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-112">Select **Inbound** (or another lifecycle state that you've created for inbound assets), and then select **OK**.</span></span>
 
 ![Enregistrer les actifs comme entrants](media/07-manage-maintenance-requests.png)
 
-## <a name="register-inbound-assets-as-received"></a><span data-ttu-id="1b592-114">Enregistrer les actifs entrants comme reçus</span><span class="sxs-lookup"><span data-stu-id="1b592-114">Register inbound assets as received</span></span>
+## <a name="register-inbound-assets-as-received"></a><span data-ttu-id="52ddd-114">Enregistrer les actifs entrants comme reçus</span><span class="sxs-lookup"><span data-stu-id="52ddd-114">Register inbound assets as received</span></span>
 
-1. <span data-ttu-id="1b592-115">Sélectionnez **Gestion des actifs** \> **Commun** \> **Entrant/sortant** \> **Actifs entrants**.</span><span class="sxs-lookup"><span data-stu-id="1b592-115">Select **Asset management** \> **Common** \> **Inbound/outbound** \> **Inbound assets**.</span></span>
-2. <span data-ttu-id="1b592-116">Sélectionnez l’actif ou la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="1b592-116">Select the asset or maintenance request.</span></span>
-3. <span data-ttu-id="1b592-117">Sélectionnez **Recevoir des actifs**.</span><span class="sxs-lookup"><span data-stu-id="1b592-117">Select **Receive assets**.</span></span>
-4. <span data-ttu-id="1b592-118">Dans le champ **Reçu**, entrez de date et l’heure.</span><span class="sxs-lookup"><span data-stu-id="1b592-118">In the **Received** field, enter the date and time.</span></span> <span data-ttu-id="1b592-119">Puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="1b592-119">Then select **OK**.</span></span> <span data-ttu-id="1b592-120">L’enregistrement est supprimé de la page de liste **Actifs entrants**.</span><span class="sxs-lookup"><span data-stu-id="1b592-120">The record is removed from the **Inbound assets** list page.</span></span>
+1. <span data-ttu-id="52ddd-115">Sélectionnez **Gestion des actifs** \> **Commun** \> **Entrant/sortant** \> **Actifs entrants**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-115">Select **Asset management** \> **Common** \> **Inbound/outbound** \> **Inbound assets**.</span></span>
+2. <span data-ttu-id="52ddd-116">Sélectionnez l’actif ou la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="52ddd-116">Select the asset or maintenance request.</span></span>
+3. <span data-ttu-id="52ddd-117">Sélectionnez **Recevoir des actifs**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-117">Select **Receive assets**.</span></span>
+4. <span data-ttu-id="52ddd-118">Dans le champ **Reçu**, entrez de date et l’heure.</span><span class="sxs-lookup"><span data-stu-id="52ddd-118">In the **Received** field, enter the date and time.</span></span> <span data-ttu-id="52ddd-119">Puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-119">Then select **OK**.</span></span> <span data-ttu-id="52ddd-120">L’enregistrement est supprimé de la page de liste **Actifs entrants**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-120">The record is removed from the **Inbound assets** list page.</span></span>
 
 ![Enregistrer les actifs entrants comme reçus](media/08-manage-maintenance-requests.png)
 
-## <a name="register-assets-as-outbound"></a><span data-ttu-id="1b592-122">Enregistrer les actifs comme sortants</span><span class="sxs-lookup"><span data-stu-id="1b592-122">Register assets as outbound</span></span>
+## <a name="register-assets-as-outbound"></a><span data-ttu-id="52ddd-122">Enregistrer les actifs comme sortants</span><span class="sxs-lookup"><span data-stu-id="52ddd-122">Register assets as outbound</span></span>
 
-<span data-ttu-id="1b592-123">Lorsque vous avez terminé la tâche de maintenance ou de réparation, vous pouvez enregistrer l’actif comme retourné.</span><span class="sxs-lookup"><span data-stu-id="1b592-123">When you've completed the maintenance or repair job, you can register the asset as returned.</span></span>
+<span data-ttu-id="52ddd-123">Lorsque vous avez terminé la tâche de maintenance ou de réparation, vous pouvez enregistrer l’actif comme retourné.</span><span class="sxs-lookup"><span data-stu-id="52ddd-123">When you've completed the maintenance or repair job, you can register the asset as returned.</span></span>
 
-1. <span data-ttu-id="1b592-124">Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Demandes de maintenance actives**.</span><span class="sxs-lookup"><span data-stu-id="1b592-124">Select **Asset management** \> **Common** \> **Maintenance requests** \> **Active maintenance requests**.</span></span>
-2. <span data-ttu-id="1b592-125">Sélectionnez la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="1b592-125">Select the maintenance request.</span></span>
-3. <span data-ttu-id="1b592-126">Sélectionnez **Mettre à jour l’état de la demande de maintenance**.</span><span class="sxs-lookup"><span data-stu-id="1b592-126">Select **Update maintenance request state**.</span></span>
-4. <span data-ttu-id="1b592-127">Sélectionnez **Sortant** (ou un autre état du cycle de vie créé pour les actifs sortants), puis **OK**.</span><span class="sxs-lookup"><span data-stu-id="1b592-127">Select **Outbound** (or another lifecycle state that you've created for outbound assets), and then select **OK**.</span></span>
+1. <span data-ttu-id="52ddd-124">Sélectionnez **Gestion des actifs** \> **Commun** \> **Demandes de maintenance** \> **Demandes de maintenance actives**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-124">Select **Asset management** \> **Common** \> **Maintenance requests** \> **Active maintenance requests**.</span></span>
+2. <span data-ttu-id="52ddd-125">Sélectionnez la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="52ddd-125">Select the maintenance request.</span></span>
+3. <span data-ttu-id="52ddd-126">Sélectionnez **Mettre à jour l’état de la demande de maintenance**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-126">Select **Update maintenance request state**.</span></span>
+4. <span data-ttu-id="52ddd-127">Sélectionnez **Sortant** (ou un autre état du cycle de vie créé pour les actifs sortants), puis **OK**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-127">Select **Outbound** (or another lifecycle state that you've created for outbound assets), and then select **OK**.</span></span>
 
-## <a name="register-outbound-assets-as-delivered"></a><span data-ttu-id="1b592-128">Enregistrer les actifs sortants comme livrés</span><span class="sxs-lookup"><span data-stu-id="1b592-128">Register outbound assets as delivered</span></span>
+## <a name="register-outbound-assets-as-delivered"></a><span data-ttu-id="52ddd-128">Enregistrer les actifs sortants comme livrés</span><span class="sxs-lookup"><span data-stu-id="52ddd-128">Register outbound assets as delivered</span></span>
 
-1. <span data-ttu-id="1b592-129">Sélectionnez **Gestion des actifs** \> **Commun** \> **Entrant/sortant** \> **Actifs sortants**.</span><span class="sxs-lookup"><span data-stu-id="1b592-129">Select **Asset management** \> **Common** \> **Inbound/outbound** \> **Outbound assets**.</span></span>
-2. <span data-ttu-id="1b592-130">Sélectionnez l’actif ou la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="1b592-130">Select the asset or maintenance request.</span></span>
-3. <span data-ttu-id="1b592-131">Sélectionnez **Livrer les actifs**.</span><span class="sxs-lookup"><span data-stu-id="1b592-131">Select **Deliver assets**.</span></span>
-4. <span data-ttu-id="1b592-132">Dans le champ **Livré**, entrez de date et l’heure.</span><span class="sxs-lookup"><span data-stu-id="1b592-132">In the **Delivered** field, enter the date and time.</span></span> <span data-ttu-id="1b592-133">Puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="1b592-133">Then select **OK**.</span></span> <span data-ttu-id="1b592-134">L’enregistrement est supprimé de la page de liste **Actifs sortants**.</span><span class="sxs-lookup"><span data-stu-id="1b592-134">The record is removed from the **Outbound assets** list page.</span></span>
+1. <span data-ttu-id="52ddd-129">Sélectionnez **Gestion des actifs** \> **Commun** \> **Entrant/sortant** \> **Actifs sortants**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-129">Select **Asset management** \> **Common** \> **Inbound/outbound** \> **Outbound assets**.</span></span>
+2. <span data-ttu-id="52ddd-130">Sélectionnez l’actif ou la demande de maintenance.</span><span class="sxs-lookup"><span data-stu-id="52ddd-130">Select the asset or maintenance request.</span></span>
+3. <span data-ttu-id="52ddd-131">Sélectionnez **Livrer les actifs**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-131">Select **Deliver assets**.</span></span>
+4. <span data-ttu-id="52ddd-132">Dans le champ **Livré**, entrez de date et l’heure.</span><span class="sxs-lookup"><span data-stu-id="52ddd-132">In the **Delivered** field, enter the date and time.</span></span> <span data-ttu-id="52ddd-133">Puis sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-133">Then select **OK**.</span></span> <span data-ttu-id="52ddd-134">L’enregistrement est supprimé de la page de liste **Actifs sortants**.</span><span class="sxs-lookup"><span data-stu-id="52ddd-134">The record is removed from the **Outbound assets** list page.</span></span>
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

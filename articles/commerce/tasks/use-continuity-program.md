@@ -1,12 +1,10 @@
 ---
 title: Utilisation du programme périodique
-description: Cette procédure vous guide dans la vente d'un programme périodique et le traitement des commandes client associées.
+description: Cette procédure vous guide dans la vente d’un programme périodique et le traitement des commandes client associées.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
@@ -16,50 +14,50 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1de6d2cd88ba31f526621497d6fab36db631933e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 58eca42634ad995f174350bc3a1996ddc4c449b9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232639"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804087"
 ---
-# <a name="using-continuity-program"></a><span data-ttu-id="5c7cc-103">Utilisation du programme périodique</span><span class="sxs-lookup"><span data-stu-id="5c7cc-103">Using continuity program</span></span>
+# <a name="using-continuity-program"></a><span data-ttu-id="e5108-103">Utilisation du programme périodique</span><span class="sxs-lookup"><span data-stu-id="e5108-103">Using continuity program</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5c7cc-104">Cette procédure vous guide dans la vente d'un programme périodique et le traitement des commandes client associées.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="5c7cc-105">Pour exécuter cette procédure, l'utilisateur doit être configuré comme utilisateur du centre d'appels.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="5c7cc-106">La société fictive USRT sert d'exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="e5108-104">Cette procédure vous guide dans la vente d’un programme périodique et le traitement des commandes client associées.</span><span class="sxs-lookup"><span data-stu-id="e5108-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="e5108-105">Pour exécuter cette procédure, l’utilisateur doit être configuré comme utilisateur du centre d’appels.</span><span class="sxs-lookup"><span data-stu-id="e5108-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="e5108-106">La société fictive USRT sert d’exemple dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e5108-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="5c7cc-107">Accédez à Retail et Commerce > Clients > Service client.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="5c7cc-108">Dans le champ SearchText, tapez « Karen », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
-    * <span data-ttu-id="5c7cc-109">La boîte de dialogue de recherche avancée doit s'afficher.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="5c7cc-110">Si elle ne s'affiche pas, cliquez sur Rechercher à droite de ce champ.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-110">If it doesn't, click Search to the right of this field.</span></span>  
-3. <span data-ttu-id="5c7cc-111">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="5c7cc-112">Il ne doit y avoir qu'une ligne portant la mention Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="5c7cc-113">Sélectionnez la ligne en cliquant sur la colonne à l'extrême gauche de la grille.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
-4. <span data-ttu-id="5c7cc-114">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-114">Click Select.</span></span>
-5. <span data-ttu-id="5c7cc-115">Cliquez sur Nouvelle commande client.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-115">Click New sales order.</span></span>
-    * <span data-ttu-id="5c7cc-116">Il est conseillé de noter le numéro de la commande client.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="5c7cc-117">Vous en aurez besoin ultérieurement dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-117">You'll need it later in this procedure.</span></span>  
-6. <span data-ttu-id="5c7cc-118">Dans le champ Numéro d'article, tapez « 88000 », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="5c7cc-119">Il s'agit d'un article périodique dans les données de démonstration USRT.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-119">This is a continuity item in the USRT demo data.</span></span>  
-7. <span data-ttu-id="5c7cc-120">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-120">Click Complete.</span></span>
-8. <span data-ttu-id="5c7cc-121">Dans le champ Mode de paiement, entrez « Visa ».</span><span class="sxs-lookup"><span data-stu-id="5c7cc-121">In the Payment method field, enter 'Visa'.</span></span>
-9. <span data-ttu-id="5c7cc-122">Cliquez sur Ajouter une carte de crédit.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-122">Click Add credit card.</span></span>
-    * <span data-ttu-id="5c7cc-123">Entrez les informations de carte de crédit requises dans cette page.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-123">Enter the required credit card information on this page.</span></span>  
-10. <span data-ttu-id="5c7cc-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-124">Click OK.</span></span>
-11. <span data-ttu-id="5c7cc-125">Développez la section Paiement.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-125">Expand the Payment section.</span></span>
-    * <span data-ttu-id="5c7cc-126">Pour envoyer une commande du centre d'appels, les paiements doivent être entrés pour la commande.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-126">To submit a call center order, payments have to be entered for the order.</span></span>  
-12. <span data-ttu-id="5c7cc-127">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-127">Click OK.</span></span>
-13. <span data-ttu-id="5c7cc-128">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-128">Click Submit.</span></span>
-    * <span data-ttu-id="5c7cc-129">Vous avez terminé de créer une commande périodique.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="5c7cc-130">Vous exécuterez ensuite deux processus de traitement par lots qui sont utilisés pour traiter les commandes périodiques.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
-14. <span data-ttu-id="5c7cc-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-131">Close the page.</span></span>
-15. <span data-ttu-id="5c7cc-132">Accédez à Retail et Commerce > Périodicité > Traiter les paiements périodiques.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-132">Go to Retail and Commerce > Continuity > Process continuity payments.</span></span>
-16. <span data-ttu-id="5c7cc-133">Dans le champ Article périodique, tapez « 88000 », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-17. <span data-ttu-id="5c7cc-134">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-134">Click OK.</span></span>
-18. <span data-ttu-id="5c7cc-135">Accédez à Retail et Commerce > Périodicité > Créer des commandes enfants périodiques.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-135">Go to Retail and Commerce > Continuity > Create continuity child orders.</span></span>
-    * <span data-ttu-id="5c7cc-136">Ce processus créera des commandes client en fonction des paramètres de vos programmes périodiques.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
-19. <span data-ttu-id="5c7cc-137">Dans le champ Article périodique, tapez « 88000 », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="5c7cc-138">L'article « 88000 »est un article périodique dans les données de démonstration USRT.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
-20. <span data-ttu-id="5c7cc-139">Dans le champ Commande client, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-139">In the Sales order field, enter or select a value.</span></span>
-    * <span data-ttu-id="5c7cc-140">Entrez le numéro de la commande client que vous avez noté précédemment dans la procédure.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="5c7cc-141">La durée de traitement sera maintenue à une valeur minimale pour cette procédure.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="5c7cc-142">Le champ Commande client est facultatif ; vous pouvez traiter toutes les commandes pour n'importe quel programme.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
-21. <span data-ttu-id="5c7cc-143">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="5c7cc-143">Click OK.</span></span>
+1. <span data-ttu-id="e5108-107">Accédez à Retail et Commerce > Clients > Service client.</span><span class="sxs-lookup"><span data-stu-id="e5108-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="e5108-108">Dans le champ SearchText, tapez « Karen », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="e5108-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="e5108-109">La boîte de dialogue de recherche avancée doit s’afficher.</span><span class="sxs-lookup"><span data-stu-id="e5108-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="e5108-110">Si elle ne s’affiche pas, cliquez sur Rechercher à droite de ce champ.</span><span class="sxs-lookup"><span data-stu-id="e5108-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="e5108-111">Dans la liste, marquez la ligne sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="e5108-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="e5108-112">Il ne doit y avoir qu’une ligne portant la mention Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="e5108-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="e5108-113">Sélectionnez la ligne en cliquant sur la colonne à l’extrême gauche de la grille.</span><span class="sxs-lookup"><span data-stu-id="e5108-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="e5108-114">Cliquez sur Sélectionner.</span><span class="sxs-lookup"><span data-stu-id="e5108-114">Click Select.</span></span>
+5. <span data-ttu-id="e5108-115">Cliquez sur Nouvelle commande client.</span><span class="sxs-lookup"><span data-stu-id="e5108-115">Click New sales order.</span></span>
+    * <span data-ttu-id="e5108-116">Il est conseillé de noter le numéro de la commande client.</span><span class="sxs-lookup"><span data-stu-id="e5108-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="e5108-117">Vous en aurez besoin ultérieurement dans cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e5108-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="e5108-118">Dans le champ Numéro d’article, tapez « 88000 », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="e5108-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="e5108-119">Il s’agit d’un article périodique dans les données de démonstration USRT.</span><span class="sxs-lookup"><span data-stu-id="e5108-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="e5108-120">Cliquez sur Terminé.</span><span class="sxs-lookup"><span data-stu-id="e5108-120">Click Complete.</span></span>
+8. <span data-ttu-id="e5108-121">Dans le champ Mode de paiement, entrez « Visa ».</span><span class="sxs-lookup"><span data-stu-id="e5108-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="e5108-122">Cliquez sur Ajouter une carte de crédit.</span><span class="sxs-lookup"><span data-stu-id="e5108-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="e5108-123">Entrez les informations de carte de crédit requises dans cette page.</span><span class="sxs-lookup"><span data-stu-id="e5108-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="e5108-124">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e5108-124">Click OK.</span></span>
+11. <span data-ttu-id="e5108-125">Développez la section Paiement.</span><span class="sxs-lookup"><span data-stu-id="e5108-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="e5108-126">Pour envoyer une commande du centre d’appels, les paiements doivent être entrés pour la commande.</span><span class="sxs-lookup"><span data-stu-id="e5108-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="e5108-127">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e5108-127">Click OK.</span></span>
+13. <span data-ttu-id="e5108-128">Cliquez sur Soumettre.</span><span class="sxs-lookup"><span data-stu-id="e5108-128">Click Submit.</span></span>
+    * <span data-ttu-id="e5108-129">Vous avez terminé de créer une commande périodique.</span><span class="sxs-lookup"><span data-stu-id="e5108-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="e5108-130">Vous exécuterez ensuite deux processus de traitement par lots qui sont utilisés pour traiter les commandes périodiques.</span><span class="sxs-lookup"><span data-stu-id="e5108-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="e5108-131">Fermez la page.</span><span class="sxs-lookup"><span data-stu-id="e5108-131">Close the page.</span></span>
+15. <span data-ttu-id="e5108-132">Accédez à Retail et Commerce > Périodicité > Traiter les paiements périodiques.</span><span class="sxs-lookup"><span data-stu-id="e5108-132">Go to Retail and Commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="e5108-133">Dans le champ Article périodique, tapez « 88000 », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="e5108-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="e5108-134">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e5108-134">Click OK.</span></span>
+18. <span data-ttu-id="e5108-135">Accédez à Retail et Commerce > Périodicité > Créer des commandes enfants périodiques.</span><span class="sxs-lookup"><span data-stu-id="e5108-135">Go to Retail and Commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="e5108-136">Ce processus créera des commandes client en fonction des paramètres de vos programmes périodiques.</span><span class="sxs-lookup"><span data-stu-id="e5108-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="e5108-137">Dans le champ Article périodique, tapez « 88000 », puis appuyez sur la touche Tab.</span><span class="sxs-lookup"><span data-stu-id="e5108-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="e5108-138">L’article « 88000 »est un article périodique dans les données de démonstration USRT.</span><span class="sxs-lookup"><span data-stu-id="e5108-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="e5108-139">Dans le champ Commande client, entrez ou sélectionnez une valeur.</span><span class="sxs-lookup"><span data-stu-id="e5108-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="e5108-140">Entrez le numéro de la commande client que vous avez noté précédemment dans la procédure.</span><span class="sxs-lookup"><span data-stu-id="e5108-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="e5108-141">La durée de traitement sera maintenue à une valeur minimale pour cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e5108-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="e5108-142">Le champ Commande client est facultatif ; vous pouvez traiter toutes les commandes pour n’importe quel programme.</span><span class="sxs-lookup"><span data-stu-id="e5108-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="e5108-143">Cliquez sur OK.</span><span class="sxs-lookup"><span data-stu-id="e5108-143">Click OK.</span></span>
 
 
 

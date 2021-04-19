@@ -2,11 +2,9 @@
 title: Configurer un canal pour une utiliser une hiérarchie de navigation du canal
 description: Cette rubrique décrit comment configurer un canal pour utiliser une hiérarchie de navigation de canal dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,71 +14,71 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ceb6aa65c2ed5bc8d4224bdaf7095fba769181e8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220580"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796122"
 ---
-# <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a><span data-ttu-id="cf54c-103">Configurer un canal pour une utiliser une hiérarchie de navigation du canal</span><span class="sxs-lookup"><span data-stu-id="cf54c-103">Configure a channel to use a channel navigation hierarchy</span></span>
+# <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a><span data-ttu-id="cd290-103">Configurer un canal pour une utiliser une hiérarchie de navigation du canal</span><span class="sxs-lookup"><span data-stu-id="cd290-103">Configure a channel to use a channel navigation hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="cf54c-104">Cette rubrique décrit comment configurer un canal pour utiliser une hiérarchie de navigation de canal dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="cf54c-104">This topic describes how to configure a channel to use a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="cd290-104">Cette rubrique décrit comment configurer un canal pour utiliser une hiérarchie de navigation de canal dans Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="cd290-104">This topic describes how to configure a channel to use a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="cf54c-105">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="cf54c-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="cd290-105">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="cd290-105">Overview</span></span>
 
-<span data-ttu-id="cf54c-106">Les hiérarchies de navigation de canal organisent les produits en catégories afin de pouvoir les parcourir dans un site de commerce électronique ou dans des points de vente (PDV).</span><span class="sxs-lookup"><span data-stu-id="cf54c-106">Channel navigation hierarchies organize products into categories so that the products can be browsed on an e-Commerce site or at points of sale (POS).</span></span> <span data-ttu-id="cf54c-107">Les canaux de vente au détail et en ligne doivent être configurés avec des hiérarchies de navigation des canaux.</span><span class="sxs-lookup"><span data-stu-id="cf54c-107">Retail and online channels must be configured with channel navigation hierarchies.</span></span>
+<span data-ttu-id="cd290-106">Les hiérarchies de navigation de canal organisent les produits en catégories afin de pouvoir les parcourir dans un site de commerce électronique ou dans des points de vente (PDV).</span><span class="sxs-lookup"><span data-stu-id="cd290-106">Channel navigation hierarchies organize products into categories so that the products can be browsed on an e-Commerce site or at points of sale (POS).</span></span> <span data-ttu-id="cd290-107">Les canaux de vente au détail et en ligne doivent être configurés avec des hiérarchies de navigation des canaux.</span><span class="sxs-lookup"><span data-stu-id="cd290-107">Retail and online channels must be configured with channel navigation hierarchies.</span></span>
 
-## <a name="configure-the-channel"></a><span data-ttu-id="cf54c-108">Configurer le canal</span><span class="sxs-lookup"><span data-stu-id="cf54c-108">Configure the channel</span></span>
+## <a name="configure-the-channel"></a><span data-ttu-id="cd290-108">Configurer le canal</span><span class="sxs-lookup"><span data-stu-id="cd290-108">Configure the channel</span></span>
 
-<span data-ttu-id="cf54c-109">Pour configurer un canal afin d'utiliser une hiérarchie de navigation de canal, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="cf54c-109">To configure a channel to use a channel navigation hierarchy, follow these steps.</span></span>
+<span data-ttu-id="cd290-109">Pour configurer un canal afin d’utiliser une hiérarchie de navigation de canal, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="cd290-109">To configure a channel to use a channel navigation hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="cf54c-110">Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Paramétrage du canal \> Catégories de canal et attributs de produit**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-110">In the navigation pane, go to **Modules \> Retail and commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
-1. <span data-ttu-id="cf54c-111">Sélectionnez le canal à configurer.</span><span class="sxs-lookup"><span data-stu-id="cf54c-111">Select the channel to configure.</span></span>
-1. <span data-ttu-id="cf54c-112">Sur le volet Actions, sélectionnez **Paramétrer les métadonnées d'attribut**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-112">On the action pane, select **Set attribute metadata**.</span></span>
-1. <span data-ttu-id="cf54c-113">Dans la liste déroulante **Hiérarchie de catégories**, sélectionnez la hiérarchie de navigation de canal adéquate.</span><span class="sxs-lookup"><span data-stu-id="cf54c-113">In the **Category hierarchy** drop-down list, select the appropriate channel navigation hierarchy.</span></span>
-1. <span data-ttu-id="cf54c-114">Dans le volet Actions, sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-114">On the action pane, select **Save**.</span></span>
-1. <span data-ttu-id="cf54c-115">Sous **Groupe d'attributs**, ajoutez tous les groupes d'attributs qui seront des attributs globaux pour tous les nœuds.</span><span class="sxs-lookup"><span data-stu-id="cf54c-115">Under **Attribute group**, add any attribute groups that will be global attributes for all nodes.</span></span>
+1. <span data-ttu-id="cd290-110">Dans le volet de navigation, accédez à **Modules \> Commerce et vente au détail \> Paramétrage du canal \> Catégories de canal et attributs de produit**.</span><span class="sxs-lookup"><span data-stu-id="cd290-110">In the navigation pane, go to **Modules \> Retail and commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
+1. <span data-ttu-id="cd290-111">Sélectionnez le canal à configurer.</span><span class="sxs-lookup"><span data-stu-id="cd290-111">Select the channel to configure.</span></span>
+1. <span data-ttu-id="cd290-112">Sur le volet Actions, sélectionnez **Paramétrer les métadonnées d’attribut**.</span><span class="sxs-lookup"><span data-stu-id="cd290-112">On the action pane, select **Set attribute metadata**.</span></span>
+1. <span data-ttu-id="cd290-113">Dans la liste déroulante **Hiérarchie de catégories**, sélectionnez la hiérarchie de navigation de canal adéquate.</span><span class="sxs-lookup"><span data-stu-id="cd290-113">In the **Category hierarchy** drop-down list, select the appropriate channel navigation hierarchy.</span></span>
+1. <span data-ttu-id="cd290-114">Dans le volet Actions, sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="cd290-114">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="cd290-115">Sous **Groupe d’attributs**, ajoutez tous les groupes d’attributs qui seront des attributs globaux pour tous les nœuds.</span><span class="sxs-lookup"><span data-stu-id="cd290-115">Under **Attribute group**, add any attribute groups that will be global attributes for all nodes.</span></span>
 
-<span data-ttu-id="cf54c-116">L'image suivante montre comment configurer un canal afin d'utiliser une hiérarchie de navigation de canal.</span><span class="sxs-lookup"><span data-stu-id="cf54c-116">The following image shows how to configure a channel to use a channel navigation hierarchy.</span></span>
+<span data-ttu-id="cd290-116">L’image suivante montre comment configurer un canal afin d’utiliser une hiérarchie de navigation de canal.</span><span class="sxs-lookup"><span data-stu-id="cd290-116">The following image shows how to configure a channel to use a channel navigation hierarchy.</span></span>
 
 ![Exemple de configuration de canal](media/configure-channel-hierarchy-1.png)
 
-## <a name="set-attribute-metadata"></a><span data-ttu-id="cf54c-118">Paramétrer les métadonnées d'attribut</span><span class="sxs-lookup"><span data-stu-id="cf54c-118">Set attribute metadata</span></span>
+## <a name="set-attribute-metadata"></a><span data-ttu-id="cd290-118">Paramétrer les métadonnées d’attribut</span><span class="sxs-lookup"><span data-stu-id="cd290-118">Set attribute metadata</span></span>
 
-<span data-ttu-id="cf54c-119">La définition des métadonnées d'attribut permettra la configuration des attributs sur chaque nœud.</span><span class="sxs-lookup"><span data-stu-id="cf54c-119">Setting the attribute metadata will allow configuration of attributes on each node.</span></span>
+<span data-ttu-id="cd290-119">La définition des métadonnées d’attribut permettra la configuration des attributs sur chaque nœud.</span><span class="sxs-lookup"><span data-stu-id="cd290-119">Setting the attribute metadata will allow configuration of attributes on each node.</span></span>
 
-<span data-ttu-id="cf54c-120">Procédez comme suit pour configurer les métadonnées d'attributs.</span><span class="sxs-lookup"><span data-stu-id="cf54c-120">To set attribute metadata, follow these steps.</span></span>
+<span data-ttu-id="cd290-120">Procédez comme suit pour configurer les métadonnées d’attributs.</span><span class="sxs-lookup"><span data-stu-id="cd290-120">To set attribute metadata, follow these steps.</span></span>
 
-1. <span data-ttu-id="cf54c-121">Sur le volet Actions, sélectionnez **Paramétrer les métadonnées d'attribut**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-121">On the action pane, select **Set attribute metadata**.</span></span>
-1. <span data-ttu-id="cf54c-122">Pour chaque nœud, sélectionnez **Attributs de produit de canal**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-122">For each node select **Channel product attributes**.</span></span>
-1. <span data-ttu-id="cf54c-123">Définissez **Afficher l'attribut sur le canal** sur **Oui** et **Peut être affiné** sur **Oui**, pour activer des affinements sur ce canal.</span><span class="sxs-lookup"><span data-stu-id="cf54c-123">Set **Show attribute on channel** to **Yes** and **Can be refined** to **Yes**, to enable refiners on that channel.</span></span>
-1. <span data-ttu-id="cf54c-124">Après avoir configuré chaque nœud comme vous le souhaitez, dans le **Volet Actions**, sélectionnez le bouton **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-124">After configuring each node as desired, on the **Action pane**, select the **Save** button to save.</span></span>
-1. <span data-ttu-id="cf54c-125">Sélectionnez la **X** dans le coin supérieur droit pour quitter cet écran et revenir à la page **Catégories de canal et attributs de produit**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-125">Select the **X** in the top right corner to exit this screen back to the **Channel categories and product attributes** page.</span></span>
+1. <span data-ttu-id="cd290-121">Sur le volet Actions, sélectionnez **Paramétrer les métadonnées d’attribut**.</span><span class="sxs-lookup"><span data-stu-id="cd290-121">On the action pane, select **Set attribute metadata**.</span></span>
+1. <span data-ttu-id="cd290-122">Pour chaque nœud, sélectionnez **Attributs de produit de canal**.</span><span class="sxs-lookup"><span data-stu-id="cd290-122">For each node select **Channel product attributes**.</span></span>
+1. <span data-ttu-id="cd290-123">Définissez **Afficher l’attribut sur le canal** sur **Oui** et **Peut être affiné** sur **Oui**, pour activer des affinements sur ce canal.</span><span class="sxs-lookup"><span data-stu-id="cd290-123">Set **Show attribute on channel** to **Yes** and **Can be refined** to **Yes**, to enable refiners on that channel.</span></span>
+1. <span data-ttu-id="cd290-124">Après avoir configuré chaque nœud comme vous le souhaitez, dans le **Volet Actions**, sélectionnez le bouton **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="cd290-124">After configuring each node as desired, on the **Action pane**, select the **Save** button to save.</span></span>
+1. <span data-ttu-id="cd290-125">Sélectionnez la **X** dans le coin supérieur droit pour quitter cet écran et revenir à la page **Catégories de canal et attributs de produit**.</span><span class="sxs-lookup"><span data-stu-id="cd290-125">Select the **X** in the top right corner to exit this screen back to the **Channel categories and product attributes** page.</span></span>
 
-<span data-ttu-id="cf54c-126">L'image suivante montre un exemple d'ensemble d'attributs de produit de canal configuré sur un nœud de catégorie de canal.</span><span class="sxs-lookup"><span data-stu-id="cf54c-126">The following image shows an example set of channel product attributes configured on a channel category node.</span></span>
+<span data-ttu-id="cd290-126">L’image suivante montre un exemple d’ensemble d’attributs de produit de canal configuré sur un nœud de catégorie de canal.</span><span class="sxs-lookup"><span data-stu-id="cd290-126">The following image shows an example set of channel product attributes configured on a channel category node.</span></span>
 
 ![Attributs de canal sur un nœud de catégorie de canal](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a><span data-ttu-id="cf54c-128">Publier des modifications</span><span class="sxs-lookup"><span data-stu-id="cf54c-128">Publish changes</span></span>
+## <a name="publish-changes"></a><span data-ttu-id="cd290-128">Publier des modifications</span><span class="sxs-lookup"><span data-stu-id="cd290-128">Publish changes</span></span>
 
-<span data-ttu-id="cf54c-129">Pour que les modifications prennent effet, vous devrez publier les modifications.</span><span class="sxs-lookup"><span data-stu-id="cf54c-129">For changes to take effect, you will need to publish the changes.</span></span>
+<span data-ttu-id="cd290-129">Pour que les modifications prennent effet, vous devrez publier les modifications.</span><span class="sxs-lookup"><span data-stu-id="cd290-129">For changes to take effect, you will need to publish the changes.</span></span>
 
-<span data-ttu-id="cf54c-130">Pour publier des modifications, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="cf54c-130">To publish changes, follow these steps.</span></span>
+<span data-ttu-id="cd290-130">Pour publier des modifications, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="cd290-130">To publish changes, follow these steps.</span></span>
 
-1. <span data-ttu-id="cf54c-131">Dans le volet Actions, sélectionnez **Publier les mises à jour du canal**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-131">On the action pane, select **Publish channel updates**.</span></span>
-1. <span data-ttu-id="cf54c-132">Dans le volet **Publier les mises à jour du canal**, sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="cf54c-132">In the **Publish channel updates** pane, select **OK**.</span></span>
+1. <span data-ttu-id="cd290-131">Dans le volet Actions, sélectionnez **Publier les mises à jour du canal**.</span><span class="sxs-lookup"><span data-stu-id="cd290-131">On the action pane, select **Publish channel updates**.</span></span>
+1. <span data-ttu-id="cd290-132">Dans le volet **Publier les mises à jour du canal**, sélectionnez **OK**.</span><span class="sxs-lookup"><span data-stu-id="cd290-132">In the **Publish channel updates** pane, select **OK**.</span></span>
 
-<span data-ttu-id="cf54c-133">L'image suivante montre comment publier les mises à jour du canal.</span><span class="sxs-lookup"><span data-stu-id="cf54c-133">The following image shows how to publish channel updates.</span></span>
+<span data-ttu-id="cd290-133">L’image suivante montre comment publier les mises à jour du canal.</span><span class="sxs-lookup"><span data-stu-id="cd290-133">The following image shows how to publish channel updates.</span></span>
 
 ![Publier les mises à jour du canal](media/configure-channel-hierarchy-3.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="cf54c-135">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="cf54c-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="cd290-135">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="cd290-135">Additional resources</span></span>
 
-[<span data-ttu-id="cf54c-136">Créer une hiérarchie de navigation du canal</span><span class="sxs-lookup"><span data-stu-id="cf54c-136">Create a channel navigation hierarchy</span></span>](create-channel-hierarchy.md)
+[<span data-ttu-id="cd290-136">Créer une hiérarchie de navigation du canal</span><span class="sxs-lookup"><span data-stu-id="cd290-136">Create a channel navigation hierarchy</span></span>](create-channel-hierarchy.md)
 
 
 
