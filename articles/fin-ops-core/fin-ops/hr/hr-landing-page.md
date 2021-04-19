@@ -1,8 +1,7 @@
 ---
-title: Vue d’ensemble des ressources humaines
-description: Le module Ressources humaines simplifie de nombreuses tâches d’archivage de routine et automatise un certain nombre de processus liés à la dotation en personnel de votre organisation. Il fournit également un cadre permettant au personnel des ressources humaines d’assurer une supervision appropriée. Ces domaines incluent le recrutement et la rétention des employés, l’administration des avantages, la formation, les évaluations des performances et la gestion des modifications.
+title: Vue d’ensemble de Human Resources
+description: Le module Human Resources rationalise les tâches routinières de tenue des registres, automatise les processus associés à la dotation de personnel de votre organisation et fournit un cadre permettant au personnel des ressources humaines de gérer les zones de supervision.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566696"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752178"
 ---
-# <a name="human-resources-overview"></a>Vue d’ensemble des ressources humaines
+# <a name="human-resources-overview"></a>Vue d’ensemble de Human Resources
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,9 +29,9 @@ Le module Ressources humaines simplifie de nombreuses tâches d’archivage de r
 Le module Ressources humaines vous permet d’effectuer les tâches suivantes :
 
 + Administrer les structures organisationnelles.
-+ Tenir à jour l'ensemble des informations sur les collaborateurs depuis leur embauche jusqu'à leur retraite.
-+ Définir et administrer les plans d'avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
-+ Établir et surveiller les politiques d'absence.
++ Tenir à jour l’ensemble des informations sur les collaborateurs depuis leur embauche jusqu’à leur retraite.
++ Définir et administrer les plans d’avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
++ Établir et surveiller les politiques d’absence.
 + Implémenter et suivre la gestion des heures basée sur le profil et générer des informations de salaire à exporter vers un système de paie.
 + Gérer les compétences des collaborateurs.
 + Évaluer les performances et implémenter les objectifs des collaborateurs.
@@ -43,7 +42,7 @@ Le module Ressources humaines vous permet d’effectuer les tâches suivantes :
 
 Lorsque vous travaillez avec le module Ressources humaines, vous décidez comment structurer votre organisation, avec des éléments, tels que les départements, les tâches, et les postes. Il s’agit là des éléments fondamentaux que vous allez configurerez dans le module Ressources humaines. Les employés sont affectés à des postes associés à des tâches.
 
-- [Organisation du personnel à l'aide des départements, tâches et postes](../../../talent/departments-jobs-positions.md)
+- [Organisation du personnel à l’aide des départements, tâches et postes](../../../talent/departments-jobs-positions.md)
 - [Configuration des paramètres des ressources humaines (RH) spécifiques à la société](../../../talent/set-up-company-specific-hr-parameters.md)
 - [Configuration des paramètres des ressources humaines (RH) dans les entités juridiques](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
@@ -62,7 +61,7 @@ Une fois que vous avez engagé du personnel, vous pouvez définir des plans pour
 
 ## <a name="develop-and-train-employees"></a>Faire évoluer et former les employés
 
-Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d’évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d'affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
+Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d’évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d’affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
 
 - [Gestion des performances](../../../talent/performance-management-overview.md)
 - [Aligner les qualifications du personnel aux besoins de l’entreprise](../../../talent/skills.md)
@@ -86,7 +85,7 @@ Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail s
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l’aide de questionnaires
 
-Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
+Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu’il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
 - [Questionnaires](../../../talent/questionnaires.md)
 - [Créer des questionnaires](../../../talent/design-questionnaires.md)

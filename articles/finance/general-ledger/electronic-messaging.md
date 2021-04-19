@@ -2,11 +2,9 @@
 title: Messagerie électronique
 description: Cette rubrique fournit des informations générales et de configuration pour la messagerie électronique dans Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 214d5cc2c3670b22fb4c28e5868fd9aade12ce84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236768"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823786"
 ---
 # <a name="electronic-messaging"></a>Messages électroniques
 
@@ -122,7 +120,7 @@ Chaque champ supplémentaire peut avoir différentes valeurs pour le traitement.
 | Valeur de champ          | Entrez la valeur du champ à utiliser pour un message ou un élément de message lors de la génération d’états. |
 | Description          | Entrez une description de la valeur du champ. |
 | Type de compte         | Certaines valeurs de champs peuvent être limitées à des types de comptes spécifiques. Sélectionner l’une des valeurs suivantes : **Tous**, **Client** et **Fournisseur**. |
-| Compte - valide pour         | Si vous avez sélectionné **Client** ou **Fournisseur** dans le champ **Type de compte**, vous pouvez limiter davantage l’utilisation de la valeur du champ à un groupe ou à une table spécifique. |
+| Compte – valide pour         | Si vous avez sélectionné **Client** ou **Fournisseur** dans le champ **Type de compte**, vous pouvez limiter davantage l’utilisation de la valeur du champ à un groupe ou à une table spécifique. |
 | Numéro de compte/groupe | Si vous avez sélectionné **Client** ou **Fournisseur** dans le champ **Type de compte**, et si vous avez entré un groupe ou une table dans le champ **Code du compte**, vous pouvez entrer un groupe ou un contragent spécifique dans ce champ. |
 | Date d’effet            | Spécifiez la date à laquelle la valeur doit commencer à être prise en compte. |
 | Expiration           | Spécifiez la date à laquelle la valeur doit arrêter d’être prise en compte. |
@@ -193,9 +191,9 @@ Le tableau suivant décrit les champs de la page **Applications Web**.
 
 En outre, les boutons suivants sont disponibles dans le volet Actions de la page **Applications Web** pour prendre en charge le processus d’autorisation :
 
-- **Obtenir le code d’autorisation** - initialise l’autorisation de l’application Web.
-- **Obtenir un jeton d’accès** - initialise le processus d’obtention d’un jeton d’accès.
-- **Actualiser le jeton d’accès** - Actualise un jeton d’accès.
+- **Obtenir le code d’autorisation** – initialise l’autorisation de l’application Web.
+- **Obtenir un jeton d’accès** – initialise le processus d’obtention d’un jeton d’accès.
+- **Actualiser le jeton d’accès** – Actualise un jeton d’accès.
 
 Lorsqu’un jeton d’accès à une application Web est enregistré dans la base de données du système dans un format chiffré, il peut être utilisé pour les requêtes vers un service Web. À des fins de sécurité, l’accès au jeton d’accès doit être limité aux rôles de sécurité qui doivent être autorisés à traiter ces requêtes. Si des utilisateurs extérieurs au groupe de sécurité essaient d’envoyer une requête, il reçoivent une erreur indiquant qu’ils ne sont pas autorisés à interagir à l’aide de l’application Web sélectionnée. Pour paramétrer les rôles de sécurité qui doivent avoir accès au jeton d’accès, utilisez l’organisateur **Rôles de sécurité** de la page **Applications Web**. Si les rôles de sécurité ne sont pas définis pour une application Web, seul un administrateur système est en mesure d’interagir via cette application Web.
 
@@ -334,7 +332,7 @@ L’organisateur **Champs supplémentaires du message** affiche tous les champs 
 L’organisateur **Éléments du message** affiche tous les éléments du message liés au message sélectionné. Selon le statut du message sélectionné, vous pouvez exécuter certaines actions en sélectionnant les boutons au-dessus de la grille :
 
 - **Supprimer** - Ce bouton est disponible si la case à cocher **Autoriser la suppression** est activée pour le statut actuel de l’élément de message sélectionné.
-- **Mettre à jour le statut** - Ce bouton est associé aux actions de type **Traitement utilisateur**.
+- **Mettre à jour le statut** – Ce bouton est associé aux actions de type **Traitement utilisateur**.
 - **Document d’origine** – Ouvre une page qui affiche le document d’origine de l’élément de message sélectionné.
 
 Tous les états qui ont déjà été générés et reçus pour un message sont liés à ce message. Pour examiner les pièces jointes associées à un message, sélectionnez le message, puis sélectionnez le bouton **Pièce jointe** (le symbole du trombone) dans le coin supérieur droit de la page.

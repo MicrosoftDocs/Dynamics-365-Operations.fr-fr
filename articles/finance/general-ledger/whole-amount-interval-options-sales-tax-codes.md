@@ -2,11 +2,9 @@
 title: Options de calcul Montant entier et Intervalle pour les codes taxe
 description: Cet article décrit les options du champ Mode de calcul sous codes taxe et comment la taxe est calculée pour les intervalles et les montants entiers.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0414f835b7797d2ed554f8d9dbd95b2ad47bba43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48569da2d504e4c380ca89bfec4450ad1b9888e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234115"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842366"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Options de calcul Montant entier et Intervalle pour les codes taxe
 
@@ -46,9 +44,8 @@ Si un montant est égal à la limite maximale de l’intervalle précédent et �
 ## <a name="example-whole-amount-method-of-calculation"></a>Exemple : mode de calcul Montant entier
 Dans la page Valeurs de code taxe, les taux de taxe sont paramétrés dans les intervalles suivants :
 
-|                   |                   |              |
+| Limite inférieure     | Limite maximale     | Taux de taxe     |
 |-------------------|-------------------|--------------|
-| **Limite inférieure** | **Limite maximale** | **Taux de taxe** |
 | 0,00              | 50,00             | 30 %          |
 | 50,00             | 100,00            | 20 %          |
 | 100,00            | 0,00              | 10 %          |
@@ -65,9 +62,8 @@ La taxe est calculée sur le montant imposable entier.
 ## <a name="example-interval-method-of-calculation"></a>Exemple de méthode de calcul Intervalle
 Dans la page Valeurs, les taux de taxe sont paramétrés dans les intervalles suivants :
 
-|                   |                   |              |
+| Limite inférieure     | Limite maximale     | Taux de taxe     |
 |-------------------|-------------------|--------------|
-| **Limite inférieure** | **Limite maximale** | **Taux de taxe** |
 | 0,00              | 50,00             | 30 %          |
 | 50,00             | 100,00            | 20 %          |
 | 100,00            | 0,00              | 10 %          |

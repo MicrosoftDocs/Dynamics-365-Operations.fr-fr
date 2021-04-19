@@ -2,7 +2,6 @@
 title: Fonctions supprimées ou obsolètes dans les versions précédentes
 description: Cette rubrique décrit les fonctionnalités qui ont été supprimées ou dont la suppression de Dynamics 365 for Finance and Operations était planifiée et les versions précédentes.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559328"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745261"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
 
@@ -286,7 +285,7 @@ Le mode de transfert synchrone n’est plus utilisé dans les paramètres de com
 | **Remplacé par une autre fonctionnalité ?**   | Le mode asynchrone et le traitement par lots planifié sont les options à utiliser à la place du mode synchrone.   |
 | **Zones de produit affectées**         | Comptabilité, Comptabilité fournisseur, Comptabilité client, Approvisionnement, Dépenses    |
 | **Option de déploiement**              | Tous  |
-| **État**                         | Abandon - Le délai cible pour la suppression de la fonctionnalité est la version 10.0.|
+| **État**                         | Abandon – Le délai cible pour la suppression de la fonctionnalité est la version 10.0.|
 
 ### <a name="electronic-reporting-for-russia"></a>Gestion des états électroniques pour la Russie
 Fonction de configuration des formats de fichier .txt et .xml des déclarations. 
@@ -363,12 +362,12 @@ La possibilité d’introduire des fonctions personnalisées à utiliser dans le
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>États Stock par groupe d’articles et Stock par balance âgée des dimensions de stock
 
-Ces deux rapports ne sont plus pris en charge dans Finance and Operations. À la place, l’état **Stock - Balance âgée** peut être utilisé pour améliorer l’expérience de l’utilisateur.
+Ces deux rapports ne sont plus pris en charge dans Finance and Operations. À la place, l’état **Stock – Balance âgée** peut être utilisé pour améliorer l’expérience de l’utilisateur.
 
 | &nbsp;  | &nbsp; |
 |--------------|-----------------------|
 | **Motif de la suppression**       | Fonctionnalité en double  |
-| **Remplacé par une autre fonctionnalité ?** | Oui. Les deux états ont été remplacés par l’état **Stock - Balance âgée**.     |
+| **Remplacé par une autre fonctionnalité ?** | Oui. Les deux états ont été remplacés par l’état **Stock – Balance âgée**.     |
 | **Zones de produit affectées**       | Gestion des stocks, Gestion des coûts        |
 | **Option de déploiement**        | Tout|
 | **Statut**                       | Déconseillé : les options de menu des deux états ont été supprimées dans la version 7.3. Toutefois, le code des états est conservé dans le produit. L’objectif est de supprimer le code dans une prochaine version. |
@@ -477,7 +476,7 @@ Le Portail des appareils mobiles d’entrepôt (WMDP) est un composant autonome 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Fonction doublon.       |
-| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonctionnalité a été remplacée par Finance and Operations - Entreposage. Pour plus d’informations sur le paramétrage et les conditions préalables, voir [Vue d’ensemble Installer et configurer l’application Entreposage](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui. Cette fonctionnalité a été remplacée par Finance and Operations – Entreposage. Pour plus d’informations sur le paramétrage et les conditions préalables, voir [Vue d’ensemble Installer et configurer l’application Entreposage](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Zones de produit affectées**         | Gestion des entrepôts, Gestion du transport     |
 | **Option de déploiement**              | Le Portail des appareils mobiles d’entrepôt (WMDP) est un composant autonome qui a été prévu pour l’auto-déploiement local.               |
 | **Statut**                         | Obsolète : le délai cible pour la suppression de la fonctionnalité est le quatrième trimestre 2019.   |

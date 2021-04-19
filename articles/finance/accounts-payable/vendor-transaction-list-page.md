@@ -2,11 +2,9 @@
 title: Page de liste des transactions fournisseur
 description: Cette rubrique fournit des informations sur la page de la liste des transactions fournisseur pour Microsoft Dynamics 365 Finance.
 author: mikefalkner
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 41a8506989add6c7c4a5596892bde442c7c7dff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 444edde75298c45db141abae3117bfcaeb2865ea
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248181"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835458"
 ---
 # <a name="vendor-transactions-list-page"></a>Page de liste des transactions fournisseur
 
@@ -89,11 +87,11 @@ La page de liste **Transactions fournisseur** affiche toutes les transactions d�
 
 Chaque champ a un impact différent sur la transaction lorsque vous le modifiez :
 
-- **Modifier la date de référence** - La date d’échéance et les dates d’escompte sont modifiées comme si la date de référence était la date du document.
-- **Modifier la date d’échéance** - Seule la date d’échéance est modifiée
-- **Modifier les dates d’escompte** - Seules les dates d’escompte sont modifiées.
-- **Modifier les conditions de paiement** - La date d’échéance est modifiée, selon la date de référence et les conditions de paiement.
-- **Modifier les conditions d’escompte de règlement** - Les escomptes de règlement sont modifiés, selon la date de référence et les conditions d’escompte de règlement.
+- **Modifier la date de référence** – La date d’échéance et les dates d’escompte sont modifiées comme si la date de référence était la date du document.
+- **Modifier la date d’échéance** – Seule la date d’échéance est modifiée
+- **Modifier les dates d’escompte** – Seules les dates d’escompte sont modifiées.
+- **Modifier les conditions de paiement** – La date d’échéance est modifiée, selon la date de référence et les conditions de paiement.
+- **Modifier les conditions d’escompte de règlement** – Les escomptes de règlement sont modifiés, selon la date de référence et les conditions d’escompte de règlement.
 
 Lorsque vous avez terminé de modifier les paramètres de paiement, cliquez sur **Fermer** pour enregistrer vos modifications.
 

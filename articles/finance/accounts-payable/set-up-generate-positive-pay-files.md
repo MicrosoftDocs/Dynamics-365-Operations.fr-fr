@@ -2,11 +2,9 @@
 title: Paramétrer et générer des fichiers de paiement positif
 description: Cette rubrique décrit comment paramétrer le paiement positif et générer des fichiers de paiement positif.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227374"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830710"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Paramétrer et générer des fichiers de paiement positif
 
@@ -140,6 +138,9 @@ Les fichiers de paiement positifs sont créés à l’aide d’entités de donn�
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> Les noms XML dans le XSLT doivent correspondre à la casse des nœuds dans le XML. Les fichiers XSLT et XML sont sensibles à la casse. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Affecter le format de paiement positif à un compte bancaire
 Pour chaque compte bancaire pour lequel vous souhaitez générer des informations de paiement positif, vous devez affecter le format de paiement positif que vous avez spécifié dans la section précédente. Dans la page **Comptes bancaires**, sélectionnez le format de paiement positif correspondant au compte bancaire. Dans le champ **Date de début du paiement positif** , entrez la première date pour générer des fichiers de paiement positif. Il est important que vous entriez une date dans ce champ. Sinon, le premier fichier de paiement positif que vous générerez inclura tous les chèques jamais créés pour ce compte bancaire.

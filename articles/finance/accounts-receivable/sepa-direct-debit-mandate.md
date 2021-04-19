@@ -2,11 +2,9 @@
 title: Paramétrer un mandat de débit direct SEPA
 description: Un débit direct dans l’Espace unique de paiement en euros (SEPA) permet à un créditeur d’encaisser des fonds à partir du compte bancaire d’un client, à condition que le client ait accordé un mandat signé au créditeur.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24803e7157edc87e73eb6c8af404311bdf8fc5c5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1fb167798a1c721d9f0e81f5e33e2989259037e9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245614"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817195"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>Paramétrer un mandat de débit direct SEPA
 

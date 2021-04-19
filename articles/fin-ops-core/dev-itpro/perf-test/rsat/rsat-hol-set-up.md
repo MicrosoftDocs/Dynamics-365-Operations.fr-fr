@@ -2,7 +2,6 @@
 title: Didacticiel pour la configuration et l’installation de Regression Suite Automation Tool
 description: Cette rubrique est un didacticiel qui indique comment configurer et installer l’outil Regression Suite Automation Tool (RSAT).
 author: robinarh
-manager: AnnBe
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ca1e0d61263ed19e7eab18f6ba6aec628b0295a8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 725bce4b3aa7feb61bd7d7ded1be07f803424e57
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568409"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745195"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Didacticiel pour la configuration et l’installation de Regression Suite Automation Tool
 
@@ -257,7 +256,7 @@ Créez un enregistrement de tâche correspondant que vous pouvez associer au pro
 
 6. Sélectionnez **Enregistrer sur Lifecycle Services**.
 
-    ![Enregistrer l'enregistrement de tâches dans Lifecycle Services](./media/setup_rsa_tool_31.png)
+    ![Enregistrer l’enregistrement de tâches dans Lifecycle Services](./media/setup_rsa_tool_31.png)
 
     Les informations sur la bibliothèque sont chargées à partir de LCS.
 
@@ -493,7 +492,7 @@ Dans les versions précédentes de RSAT, vous deviez installer Selenium et les p
 
 2. Vous recevez un message d’avertissement indiquant que « Regression Suite Automation Tool a besoin de Selenium ; souhaitez-vous automatiquement le télécharger et l’installer maintenant ? » Cliquez sur **Oui**.
 
-    ![Message d'avertissement indiquant que Regression Suite Automation Tool requiert Selenium](./media/setup_rsa_tool_61.png)
+    ![Message d’avertissement indiquant que Regression Suite Automation Tool requiert Selenium](./media/setup_rsa_tool_61.png)
 
 3. Sélectionnez le bouton **Paramètres** (le symbole d’engrenage) dans l’angle supérieur droit, puis, dans la boîte de dialogue qui s’affiche, renseignez les champs suivants :
 
@@ -742,7 +741,7 @@ Dans cette section, vous allez créer une variable enregistrée dans le premier 
 
 1. Une fois l’enregistrement de tâche terminé, sélectionnez **Enregistrer sur Lifecycle Services**.
 
-    ![Enregistrer l'enregistrement de tâches terminé dans Lifecycle Services](./media/setup_rsa_tool_98.png)
+    ![Enregistrer l’enregistrement de tâches terminé dans Lifecycle Services](./media/setup_rsa_tool_98.png)
 
 2. Les informations sur la bibliothèque sont chargées à partir de LCS.
 

@@ -2,7 +2,6 @@
 title: Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 description: Cette rubrique explique comment inspecter les composants de rapports électroniques (ER) configurés pour éviter que des problèmes d’exécution ne se produisent.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574123"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753838"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspectez le composant ER configuré pour éviter les problèmes d’exécution
 
@@ -666,19 +665,19 @@ L’illustration suivante montre l’erreur de runtime qui se produit si vous ig
 
 ![Erreur d’exécution qui se produit lors de l’exécution de la mise en correspondance des formats sur la page Concepteur de format](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Résolution automatique
+### <a name="automatic-resolution&quot;></a>Résolution automatique
 
 Aucune option pour résoudre automatiquement ce problème n’est disponible.
 
-### <a name="manual-resolution"></a>Résolution manuelle
+### <a name=&quot;manual-resolution&quot;></a>Résolution manuelle
 
-#### <a name="option-1"></a>Option 1
+#### <a name=&quot;option-1&quot;></a>Option 1
 
 Supprimez l’indicateur **Cache** de la source de données **Fournisseur**. La source de données **FilteredVendor** deviendra alors exécutable, mais la source de données **Fournisseur** référencée dans la table VendTable sera accédée chaque fois que la source de données **FilteredVendor** est appelée.
 
-#### <a name="option-2"></a>Option 2
+#### <a name=&quot;option-2&quot;></a>Option 2
 
-Changez l’expression de la source de données **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum="US-101")` en `WHERE(Vendor, Vendor.AccountNum="US-101")`. Dans ce cas, la source de données **Fournisseur** mentionnée dans la table VendTable ne sera accessible que lors du premier appel de la source de données **Fournisseur**. Cependant, la sélection des enregistrements se fera en mémoire. Par conséquent, cette approche peut entraîner de mauvaises performances.
+Changez l’expression de la source de données **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` en `WHERE(Vendor, Vendor.AccountNum="US-101")`. Dans ce cas, la source de données **Fournisseur** mentionnée dans la table VendTable ne sera accessible que lors du premier appel de la source de données **Fournisseur**. Cependant, la sélection des enregistrements se fera en mémoire. Par conséquent, cette approche peut entraîner de mauvaises performances.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Liaison manquante
 
@@ -884,7 +883,7 @@ Modifiez la valeur de la propriété **Apparence en-tête/pied de page** pour l�
 
 [Utilisation des sources de données JOIN pour obtenir des données de plusieurs tables d’application dans les mappages de modèles ER](er-join-data-sources.md)
 
-[Suivre l'exécution des formats d'état électronique pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
+[Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances](trace-execution-er-troubleshoot-perf.md)
 
 [Vue d’ensemble de la gestion de document commercial](er-business-document-management.md)
 

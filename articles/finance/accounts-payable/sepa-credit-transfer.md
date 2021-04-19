@@ -2,11 +2,9 @@
 title: Vue d’ensemble des virements SEPA
 description: Cet article fournit des informations générales sur les virements ISO 20022, notamment les virements SEPA (Single Euro Payments Area) et tous les autres moyens de paiement électronique des fournisseurs. Le virement SEPA est un type particulier de paiement en euros d’une société ou d’une personne à une société ou une autre personne. Cette rubrique explique également comment paramétrer et transmettre un fichier de paiement par virement.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277f11bc6aa74ac9bb9f476b07be7bbf29025342
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227398"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830734"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Vue d’ensemble des virements SEPA
 

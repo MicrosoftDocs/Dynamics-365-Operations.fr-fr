@@ -2,7 +2,6 @@
 title: Résoudre les problèmes de synchronisation en direct
 description: Cette rubrique fournit des informations de résolution des problèmes qui peuvent vous aider à résoudre les problèmes liés à la synchronisation en direct.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b40b71eb45ae5a95a732c9554356afcddecb750e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566811"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748895"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Résoudre les problèmes de synchronisation en direct
 
@@ -102,7 +101,7 @@ Vous pouvez recevoir le message d’erreur suivant lorsque vous créez des donn�
 
 Voici à quoi ressemble l’erreur dans l’application pilotée par modèle dans Dynamics 365 :
 
-*Une erreur inattendue s’est produite depuis le code ISV. (ErrorType = ClientError) Exception inattendue depuis le plug-in (Execute) : Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: échec du triatement du compte d’entité - (Échec de la tentative de connexion, car la partie connectée n’a pas répondu correctement après un temps donné, ou la connexion établie a échoué en raison de l’absence de réponse de l’hôte connecté*
+*Une erreur inattendue s’est produite depuis le code ISV. (ErrorType = ClientError) Exception inattendue depuis le plug-in (Execute) : Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: échec du triatement du compte d’entité – (Échec de la tentative de connexion, car la partie connectée n’a pas répondu correctement après un temps donné, ou la connexion établie a échoué en raison de l’absence de réponse de l’hôte connecté*
 
 Cette erreur se produit lorsque l’environnement Dataverse est mal réinitialisé lorsque vous essayez de créer des données dans l’application Finance and Operations.
 

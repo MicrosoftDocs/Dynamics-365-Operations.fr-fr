@@ -2,11 +2,9 @@
 title: Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement
 description: 'Dans les versions précédentes, il y avait deux concepts d’évaluation pour les immobilisations : modèles de valeur et registres des amortissements. Dans Microsoft Dynamics 365 for Operations version 1611, la fonctionnalité de modèle de valeur et la fonctionnalité du registre des amortissements ont été fusionnées en un concept unique appelé registre.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26409b6416a5b4e93ccd051b1625633ea12e22ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212467"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826736"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fusion du modèle de la valeur d’immobilisation et du registre d’amortissement
 
@@ -34,21 +32,19 @@ La nouvelle fonctionnalité de registre est basée sur la fonctionnalité préc�
 ## <a name="setup"></a>Configuration
 Par défaut, les registres valident la comptabilité et la comptabilité auxiliaire d’immobilisation. Les registres ont une nouvelle option **Valider dans la comptabilité** qui permet de désactiver la validation dans la Comptabilité et la validation uniquement dans la comptabilité auxiliaire d’immobilisation. Cette fonctionnalité est semblable au comportement de validation précédent pour les registres des amortissements. Le paramétrage des noms de journaux dispose d’une couche de validation qui est nommée Aucune. Cette couche de validation a été ajoutée spécifiquement pour les transactions d’immobilisation. Pour valider des transactions pour les registres qui ne valident pas dans la comptabilité, vous devez utiliser un nom de journal dont la couche de validation est définie sur **Aucune**.
 
-|                                                  |                                 |                                 |                                                         |
+| &nbsp;                                           | Registre des amortissements               | Modèle de valeur                     | Registre (Nouveau)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-|                                                  | Registre des amortissements               | Modèle de valeur                     | Registre (Nouveau)                                              |
 | Valider dans la comptabilité                                   | Jamais                           | Toujours                          | Option pour valider dans la Comptabilité                                |
 | Couches de validation                                   | Non applicable                  | 3 : Actuel, opérations et taxes | 11 : Actuel, opérations, taxes, 7 couches personnalisées, et aucune |
-| Noms de journal                                    | Noms des journaux du registre des amortissements | Comptabilité - Noms de journaux              | Comptabilité - Noms de journaux                                      |
+| Noms de journal                                    | Noms des journaux du registre des amortissements | Comptabilité – Noms de journaux              | Comptabilité – Noms de journaux                                      |
 | Registres dérivés                                    | Non autorisé                     | Autorisé(e)                         | Autorisé(e)                                                 |
 | Remplacement du profil d’amortissement au niveau de l’immobilisation | Autorisé(e)                         | Non autorisé                     | Autorisé(e)                                                 |
 
 ## <a name="processes"></a>Processus
 Les processus utilisent maintenant une page commune. Sont processus sont autorisés uniquement si l’option **Valider dans la comptabilité** est définie sur **Non** dans le paramétrage du registre.
 
-|                                |                           |                     |                                          |
+| &nbsp;                                           | Registre des amortissements               | Modèle de valeur                     | Registre (Nouveau)                                              |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
-|                                | Registre des amortissements         | Modèle de valeur         | Registre (Nouveau)                               |
 | Entrée de transaction              | Journal du registre des amortissements | Journal des immobilisations | Journal des immobilisations                      |
 | amortissement de la prime             | Autorisé(e)                   | Non autorisé         | Autorisé(e)                                  |
 | Supprime les transactions historiques | Autorisé(e)                   | Non autorisé         | Autorisé, sauf si vous avez validé dans la comptabilité |
@@ -57,9 +53,8 @@ Les processus utilisent maintenant une page commune. Sont processus sont autoris
 ## <a name="inquiries-and-reports"></a>Recherches et états
 Les recherches et les états prennent en charge tous les registres. Les états qui ne sont pas inclus dans le tableau suivant des registres des amortissements et des modèles de valeur précédemment pris en charge, continueront de prendre en charge tous les types de registres. Le champ **Couche de validation** a également été ajouté aux états, afin de pouvoir plus facilement identifier les validations de transactions.
 
-|                                       |                                |                          |                          |
+| &nbsp;                                           | Registre des amortissements               | Modèle de valeur                     | Registre (Nouveau)                                              |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
-|                                       | Registre des amortissements              | Modèle de valeur              | Registre (Nouveau)               |
 | Recherches                             | Transactions du registre des amortissements | Transactions d’immobilisation | Transactions d’immobilisation |
 | Relevé d’immobilisations                 | Non autorisé                    | Autorisé(e)                  | Autorisé(e)                  |
 | Base des immobilisations                     | Autorisé(e)                        | Non autorisé              | Autorisé(e)                  |

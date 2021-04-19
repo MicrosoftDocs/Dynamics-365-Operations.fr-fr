@@ -2,8 +2,7 @@
 title: Fonction SPLITLIST ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction SPLITLIST États électroniques (ER).
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559136"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745567"
 ---
 # <a name="splitlist-er-function"></a>Fonction SPLITLIST ER
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559136"
 
 La fonction `SPLITLIST` fractionne la liste spécifiée en sous-listes (ou lots), dont chacun contient le nombre d’enregistrements spécifié. Elle renvoie ensuite le résultat en tant que nouvelle valeur de *Liste des enregistrements* constituée des lots.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax-1"></a>Syntaxe 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Syntaxe 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Arguments
@@ -44,6 +49,10 @@ Chemin d’accès valide d’une source de données du type de données *Liste d
 `number` : *Entier*
 
 Nombre maximal d’enregistrements par lot.
+
+`on-demand reading flag` : *Booléen*
+
+Une valeur *Booléenne* qui spécifie si les éléments des sous-listes doivent être générés à la demande.
 
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -62,6 +71,8 @@ La liste des traitements par lots renvoyée contient les éléments suivants :
 - **Numéro de lot :** *Entier*
 
     Numéro du lot actuel dans la liste renvoyée.
+
+Lorsque l’indicateur de lecture à la demande est défini sur **True**, les sous-listes sont générées sur demande, ce qui permet de réduire la consommation de mémoire mais peut entraîner une dégradation des performances si les éléments ne sont pas utilisés séquentiellement.
 
 ## <a name="example"></a>Exemple
 

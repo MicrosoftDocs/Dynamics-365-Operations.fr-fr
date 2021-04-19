@@ -2,7 +2,6 @@
 title: Intégrer l’approvisionnement entre Supply Chain Management et Field Service
 description: Cette rubrique décrit comment l’intégration de la double écriture prend en charge la création de commandes fournisseur et les mises à jour à partir de Supply Chain Management et Field Service.
 author: RichardLuan
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
-ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
+ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5579970"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750688"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Intégrer l’approvisionnement entre Supply Chain Management et Field Service
 
@@ -53,7 +52,7 @@ Lorsqu’ils sont activés dans Microsoft Dataverse, la double écriture et Fiel
 
 1. **Field Service Common** : Field Service Common est installé lorsque Field Service est installé dans l’environnement.
 2. **Field Service (Anchor)**  : Field Service (Anchor) est installé lorsque Field Service est installé dans l’environnement. 
-3. **Supply Chain Management Extended** - Supply Chain Management Extended est automatiquement installé lorsque la double écriture est activée dans un environnement. 
+3. **Supply Chain Management Extended** – Supply Chain Management Extended est automatiquement installé lorsque la double écriture est activée dans un environnement. 
 4. **Solution OneFSSCM** : OneFSSCM est automatiquement installé par la solution (Field Service ou Supply Chain Management) installée en dernier.
 
     - Si Field Service est déjà installé dans l’environnement et que vous activez la double écriture, qui installe Supply Chain Management Extended, OneFSSCM est installé.
@@ -79,7 +78,7 @@ Vous devez synchroniser les tables suivantes :
 
     Voici quelques exemples de ces modèles :
 
-    - Catégories d'approvisionnement
+    - Catégories d’approvisionnement
     - Pro
     - Hiérarchie de catégories de produit
     - Affectations de catégorie de produit
@@ -146,7 +145,7 @@ Les statuts des commandes fournisseur dans Field Service diffèrent des statuts 
 
 ### <a name="field-service-purchase-order-and-purchase-order-product-statuses"></a>Statuts de commande fournisseur et de produit de commande fournisseur dans Field Service
 
-| En-tête : statut du système | En-tête : statut d’approbation | Statut de l'article |
+| En-tête : statut du système | En-tête : statut d’approbation | Statut de l’article |
 |---|---|---|
 | <ul><li>Brouillon</li><li>Soumis</li><li>Annulé(e)</li><li>Produit reçu</li><li>Facturé</li></ul> | <ul><li>Null</li><li>Approuvé/e</li><li>Rejeté</li></ul> | <ul><li>Facture en attente</li><li>Reçue(s)</li><li>Annulé(e)</li></ul> |
 
@@ -195,12 +194,12 @@ Si le processus de validation de l’accusé de réception de marchandises est a
 
 Les modèles suivants sont disponibles pour l’intégration des documents liés à l’approvisionnement.
 
-| Gestion de la chaîne d'approvisionnement | Field Service | Description  |
+| Gestion de la chaîne d’approvisionnement | Field Service | Description |
 |---|---|---|
 | En-tête de commande fournisseur V2 | msdyn\_Purchaseorders | Cette table contient les colonnes qui représentent l’en-tête de commande fournisseur. |
 | Entité de ligne de commande fournisseur | msdyn\_PurchaseOrderProducts | Cette table contient les lignes qui représentent les lignes d’une commande fournisseur. Le numéro de produit est utilisé pour la synchronisation. Cela identifie le produit comme une unité de gestion de stock (SKU), y compris les dimensions du produit. Pour plus d’informations sur l’intégration de produit avec Dataverse, voir [Expérience produit uniformisée](product-mapping.md). |
-| En-tête d'accusé de réception des marchandises | msdyn\_purchaseorderreceipts | Cette table contient les en-têtes d’accusé de réception de marchandises créés lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
-| Lignes d'accusé de réception des marchandises | msdyn\_purchaseorderreceiptproducts | Cette table contient les lignes d’accusé de réception de marchandises créées lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
+| En-tête d’accusé de réception des marchandises | msdyn\_purchaseorderreceipts | Cette table contient les en-têtes d’accusé de réception de marchandises créés lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
+| Lignes d’accusé de réception des marchandises | msdyn\_purchaseorderreceiptproducts | Cette table contient les lignes d’accusé de réception de marchandises créées lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
 | Entité de suppression temporaire de ligne de commande fournisseur | msdyn\_purchaseorderproducts | Ce tableau contient des informations sur les lignes de commande fournisseur qui sont supprimées de manière temporaire. Une ligne de commande fournisseur dans Supply Chain Management ne peut être supprimée de manière temporaire que lorsque la commande fournisseur a été confirmée ou approuvée, si la gestion des modifications est activée. La ligne existe dans la base de données de Supply Chain Management et est marquée comme **IsDeleted**. Comme Dataverse n’a pas de concept de suppression temporaire, il est important que ces informations soient synchronisées avec Dataverse. De cette manière, les lignes supprimées de manière temporaire dans Supply Chain Management peuvent être automatiquement supprimées de Dataverse. Dans ce cas, la logique de suppression d’une ligne dans Dataverse se trouve dans Supply Chain Management Extended. |
 
 [!include [banner](../../includes/dual-write-symbols.md)]

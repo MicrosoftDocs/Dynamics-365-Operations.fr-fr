@@ -2,7 +2,6 @@
 title: Prospect en disponibilités en double écriture
 description: Cette rubrique fournit des informations sur le prospect en disponibilités en double écriture.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 134aeb58db86486195019b4ae6bbbf549542cc07
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561250"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754086"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect en disponibilités en double écriture
 
@@ -120,7 +119,7 @@ Les factures sont créées dans Supply Chain Management et synchronisées vers S
 
 Prospect en disponibilité comprend un ensemble de mappages de tables de base qui fonctionnent ensemble pendant l’interaction des données client, comme indiqué dans le tableau suivant.
 
-| Applications Finance and Operations | Applications Customer Engagement | Description  |
+| Applications Finance and Operations | Applications Customer Engagement | Description |
 |-----------------------------|-----------------------------------|-------------|
 | En-têtes de facture client V2    | factures                          | La table En-têtes de facture de vente V2 de l’application Finance and Operations contient des factures pour les commandes client et des factures en texte libre. Un filtre est appliqué dans Dataverse pour la double écriture qui filtrera tous les documents de facture financière. |
 | Lignes de facture client V2      | invoicedetails                    |             |

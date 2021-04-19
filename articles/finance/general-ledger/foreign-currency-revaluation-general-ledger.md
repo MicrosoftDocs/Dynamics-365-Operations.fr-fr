@@ -2,11 +2,9 @@
 title: Réévaluation des comptes en devises pour la comptabilité
 description: 'Cette rubrique fournit une vue d’ensemble des fonctionnalités du processus de réévaluation des comptes en devises de la comptabilité : paramétrage, exécution du processus, calcul du processus, et contrepassation des transactions de réévaluation, si nécessaire.'
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249261"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832920"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Réévaluation des comptes en devises pour la comptabilité
 
@@ -83,7 +81,7 @@ Le compte principal est réévalué le 31 janvier.  Le profit non réalisé/pert
 
 | Solde actuel dans la devise de transaction | Solde actuel en devise comptable | Taux de change au moment de la réévaluation | Nouveau montant en devise comptable | Profit non réalisé/perte    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1 000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | Perte de 166,67 (833,33 – 1 000) |
+| 500 EUR                                     | 1 000 USD                                   | 166.6667                         | 833,33 USD (500 x 1,666667)        | Perte de 166,67 (833,33 – 1 000) |
 
 L’écriture comptable suivante est créée.
 
@@ -96,7 +94,7 @@ Aucune nouvelle transaction n’est validée pour le mois de février.  Le compt
 
 | Solde actuel dans la devise de transaction | Solde actuel en devise comptable | Taux de change au moment de la réévaluation | Nouveau montant en devise comptable | Profit non réalisé/perte    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 833,33 USD (1 000 - 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | Profit de 416,67 (1 250 – 833,33) |
+| 500 EUR                                     | 833,33 USD (1 000 – 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | Profit de 416,67 (1 250 – 833,33) |
 
 L’écriture comptable suivante est créée.
 

@@ -2,11 +2,9 @@
 title: Définitions de validation dans le secteur public
 description: Cet article fournit des exemples de définitions de validation dans le secteur public qui vous permettent de créer les lignes du journal de comptabilité auxiliaire pour les transactions d’origine correspondant aux critères sélectionnés. Ces exemples incluent des affectations budgétaires, des réglementations en espèces regroupés, des radiations, des règlements de contre remboursement, des écritures comptables avancées, une clôture de fin d’exercice de comptabilité et des fonds propriétaires.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetDetailsInquiry, CustGroup, JournalizingDefinition, JournalizingDefinitionTrans, LedgerFund, LedgerParameters, LedgerTransferOpening, MainAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c221ac84437bda81a4cd53a0447f4ad9e75d8280
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3902789fecd52fc1a31a2682402f7bbd2be71b92
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219841"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814898"
 ---
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
@@ -52,7 +50,7 @@ Une définition de validation est créée pour prendre en charge l’enregistrem
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Frais           | - - -                  | 1        |
+| Frais           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -67,7 +65,7 @@ Une définition de validation est créée pour prendre en charge l’enregistrem
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Produit           | - - -                  | 1        |
+| Produit           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -160,7 +158,7 @@ Vous pouvez spécifier un compte « date de fin de l’échéance » unique dans
 | Structure de compte | Numéro de compte généré                                           | Débit/crédit généré |
 |-------------------|--------------------------------------------------------------------|------------------------|
 | Solde           | - 10110 (Compte de capitaux propres de l’entrée de correspondance – Compte de disponibilités)         | Balancement              |
-| Solde           | 999 - 37000 (Compte de capitaux propres du fonds du trésorier pour tous les fonds) | Idem                   |
+| Solde           | 999 – 37000 (Compte de capitaux propres du fonds du trésorier pour tous les fonds) | Idem                   |
 
 ### <a name="option-b-specify-a-different-due-to-account-for-each-fund"></a>Option B : spécifiez un autre compte « date de fin de l’échéance » pour chaque fonds.
 
@@ -178,8 +176,8 @@ Vous pouvez spécifier un autre compte « date de fin de l’échéance » dans 
 
 | Structure de compte | Numéro de compte généré                                          | Débit/crédit généré |
 |-------------------|-------------------------------------------------------------------|------------------------|
-| Solde           | 101 - 10110 (Compte de capitaux propres du fonds 101 – Compte de disponibilités)           | Balancement              |
-| Solde           | 999 - 37101 (Compte de capitaux propres du fonds du trésorier pour le fonds 101) | Idem                   |
+| Solde           | 101 – 10110 (Compte de capitaux propres du fonds 101 – Compte de disponibilités)           | Balancement              |
+| Solde           | 999 – 37101 (Compte de capitaux propres du fonds du trésorier pour le fonds 101) | Idem                   |
 
 Vous devez ajouter des lignes de **critères de correspondance** pour chaque fonds doté d’écritures générées, afin de refléter l’écriture d’équilibrage de fonds appropriée et le compte de capitaux propres du fonds dans le fonds du trésorier. 
 
@@ -192,28 +190,28 @@ Les n° documents suivants sont représentatifs d’un scénario typique de fact
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire             |
 |----------------------|--------|--------|---------------------|
-| 101 - 66100 - 150    | 250,00 |        | Compte de dépenses |
-| 101 - 24210          |        | 250,00 | Module Comptabilité fournisseur    |
+| 101 – 66100 – 150    | 250,00 |        | Compte de dépenses |
+| 101 – 24210          |        | 250,00 | Module Comptabilité fournisseur    |
 
 ### <a name="accounts-payable-payment-voucher"></a>N° document de paiement de comptabilité fournisseur
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire           |
 |----------------------|--------|--------|-------------------|
-| 999 - 24210          | 250,00 |        | Écriture collective fournisseur    |
-| 999 - 11020          |        | 250,00 | Compte bancaire/de caisse |
+| 999 – 24210          | 250,00 |        | Écriture collective fournisseur    |
+| 999 – 11020          |        | 250,00 | Compte bancaire/de caisse |
 
 ### <a name="accounts-payable-settlement-voucher"></a>N° document de règlement de comptabilité fournisseur
 
 Le N° document de règlement de comptabilité fournisseur est consultable via les N° document associés du N° document de paiement fournisseur. 
 
-Dans cet exemple, les valeurs **Numéro de compte de rapprochement** pour la définition de validation correspondent aux comptes de type de validation du solde fournisseur. Lorsque 999 - 24210 et 101 – 24210 seront évalués, les écritures comptables générées seront créées uniquement pour le fonds 101 car aucune entrée de rapprochement n’est définie pour le fonds du trésorier (999).
+Dans cet exemple, les valeurs **Numéro de compte de rapprochement** pour la définition de validation correspondent aux comptes de type de validation du solde fournisseur. Lorsque 999 – 24210 et 101 – 24210 seront évalués, les écritures comptables générées seront créées uniquement pour le fonds 101 car aucune entrée de rapprochement n’est définie pour le fonds du trésorier (999).
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                  |
 |----------------------|--------|--------|--------------------------------------------------------------------------|
-| 999 - 24210          |        | 250,00 | Écriture collective fournisseur (générée par le système)                                        |
-| 101 - 24210          | 250,00 |        | Facture à payer (générée par le système)                                       |
-| 101 - 11010          |        | 250,00 | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                  |
-| 999 - 37101          | 250,00 |        | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 24210          |        | 250,00 | Écriture collective fournisseur (générée par le système)                                        |
+| 101 – 24210          | 250,00 |        | Facture à payer (générée par le système)                                       |
+| 101 – 11010          |        | 250,00 | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                  |
+| 999 – 37101          | 250,00 |        | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 ### <a name="summarizing-the-entries-across-the-invoice-payment-and-settlement-vouchers"></a>Synthèse des entrées entre la facture, le paiement et les N° document de règlement
 
@@ -221,38 +219,38 @@ Le tableau suivant indique comment les comptes généraux finaux sont affectés.
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                  |
 |----------------------|--------|--------|--------------------------------------------------------------------------|
-| 999 - 11020          |        | 250,00 | Compte bancaire/de caisse                                                        |
-| 101 - 66100 - 150    | 250,00 |        | Compte de dépenses                                                      |
-| 101 - 11010          |        | 250,00 | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                  |
-| 999 - 37101          | 250,00 |        | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11020          |        | 250,00 | Compte bancaire/de caisse                                                        |
+| 101 – 66100 – 150    | 250,00 |        | Compte de dépenses                                                      |
+| 101 – 11010          |        | 250,00 | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                  |
+| 999 – 37101          | 250,00 |        | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 ## <a name="accounts-receivable-example"></a>Exemple de comptabilité client
 ### <a name="accounts-receivable-invoice-voucher"></a>N° document de facture de comptabilité client
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire             |
 |----------------------|--------|--------|---------------------|
-| 101 - 44400          |        | 250,00 | Compte de produit     |
-| 101 - 11530          | 250,00 |        | Module Comptabilité client |
+| 101 – 44400          |        | 250,00 | Compte de produit     |
+| 101 – 11530          | 250,00 |        | Module Comptabilité client |
 
 ### <a name="accounts-receivable-payment-voucher"></a>N° document de paiement de la comptabilité client
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire           |
 |----------------------|--------|--------|-------------------|
-| 999 - 11530          |        | 250,00 | Écriture collective client  |
-| 999 - 11020          | 250,00 |        | Compte bancaire/de caisse |
+| 999 – 11530          |        | 250,00 | Écriture collective client  |
+| 999 – 11020          | 250,00 |        | Compte bancaire/de caisse |
 
 ### <a name="accounts-receivable-settlement-voucher"></a>N° document de règlement de comptabilité client
 
 Le N° document de règlement de comptabilité client est consultable via les N° document associés du N° document de paiement client.
 
-Dans cet exemple, les valeurs **Numéro de compte de rapprochement** pour la définition de validation correspondent aux comptes de type de validation du solde client. Lorsque 999 - 11530 et 101 – 11530 sont évalués, les écritures comptables générées sont créées uniquement pour le fonds 101, car aucune entrée de rapprochement n’est définie pour le fonds du trésorier (999).
+Dans cet exemple, les valeurs **Numéro de compte de rapprochement** pour la définition de validation correspondent aux comptes de type de validation du solde client. Lorsque 999 – 11530 et 101 – 11530 sont évalués, les écritures comptables générées sont créées uniquement pour le fonds 101, car aucune entrée de rapprochement n’est définie pour le fonds du trésorier (999).
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                |
 |----------------------|--------|--------|------------------------------------------------------------------------|
-| 999 - 11530          | 250,00 |        | Écriture collective client (générée par le système)                                    |
-| 101 - 11530          |        | 250,00 | Facture à recevoir (générée par le système)                                  |
-| 101 - 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
-| 999 - 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11530          | 250,00 |        | Écriture collective client (générée par le système)                                    |
+| 101 – 11530          |        | 250,00 | Facture à recevoir (générée par le système)                                  |
+| 101 – 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
+| 999 – 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 ### <a name="summarizing-the-entries-across-the-invoice-payment-and-settlement-vouchers"></a>Synthèse des entrées entre la facture, le paiement et les N° document de règlement
 
@@ -260,10 +258,10 @@ Le tableau suivant indique comment les comptes généraux finaux sont affectés.
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                |
 |----------------------|--------|--------|------------------------------------------------------------------------|
-| 999 - 11020          | 250,00 |        | Compte bancaire/de caisse                                                      |
-| 101 - 44400          |        | 250,00 | Compte de produit                                                        |
-| 101 - 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
-| 999 - 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11020          | 250,00 |        | Compte bancaire/de caisse                                                      |
+| 101 – 44400          |        | 250,00 | Compte de produit                                                        |
+| 101 – 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
+| 999 – 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 En sus de l’exemple exposé plus haut dans cette section, les définitions de validation pour les règlements qui sont associées au type de transaction de journal des paiements client peuvent également être appliquées aux scénarios suivants :
 
@@ -272,7 +270,7 @@ En sus de l’exemple exposé plus haut dans cette section, les définitions de 
 
 Les annulations de comptabilité client peuvent utiliser les définitions de validation définies pour le règlement. Par conséquent, le N° document de journal de crédit de comptabilité peut être généré lorsque les soldes sont validés par les fonds. Les entrées des types compte général et compte client des lignes de journal sont évaluées par rapport à la définition de validation pour le règlement. Les deux utilisent la définition de validation affectée au type de transaction sous l’onglet **Comptabilité client** de la page **Définitions de validation de transaction**. Selon la façon dont l’annulation est conçue pour être exécutée, la définition de validation pour le règlement peut nécessiter des critères de rapprochement supplémentaires. 
 
-Lorsque la définition de validation d’annulation est paramétrée pour annuler les soldes sur une provision pour le compte d’actifs de créances douteuses, la définition de validation pour le règlement peut également être utilisée pour les annulations si le critère de rapprochement est déjà défini pour les comptes de bilan ayant un masque pour le compte principal. (Pour plus d’informations, voir les exemples précédents, notamment la section « Définition de validation de règlement - Critères de rapprochement ».) 
+Lorsque la définition de validation d’annulation est paramétrée pour annuler les soldes sur une provision pour le compte d’actifs de créances douteuses, la définition de validation pour le règlement peut également être utilisée pour les annulations si le critère de rapprochement est déjà défini pour les comptes de bilan ayant un masque pour le compte principal. (Pour plus d’informations, voir les exemples précédents, notamment la section « Définition de validation de règlement – Critères de rapprochement ».) 
 
 Lorsque la définition de validation d’annulation est paramétrée pour contrepasser le compte de produit d’origine, la définition de validation pour le règlement doit présenter les critères de rapprochement appropriés pour les structures de comptabilité de produit, spécifiquement avec des écritures comptables d’échéance sur les entrées générées. Les entrées suivantes doivent être présentes dans la définition de validation pour le règlement pour chaque fonds ne figurant pas dans le fonds du trésorier (999).
 
@@ -288,16 +286,16 @@ Lorsque la définition de validation d’annulation est paramétrée pour contre
 
 | Structure de compte | Numéro de compte généré                                                           | Débit/crédit généré |
 |-------------------|------------------------------------------------------------------------------------|------------------------|
-| Solde           | 101 - 10110 (Compte de capitaux propres du fonds 101)                                           | Balancement              |
-| Idem              | 999 - 37101 (Fonds du trésorier – Compte de fonds capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place des comptes de capitaux propres de fonds individuels) | Idem                   |
+| Solde           | 101 – 10110 (Compte de capitaux propres du fonds 101)                                           | Balancement              |
+| Idem              | 999 – 37101 (Fonds du trésorier – Compte de fonds capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place des comptes de capitaux propres de fonds individuels) | Idem                   |
 
 ## <a name="accounts-receivable-writeoff-example"></a>Exemple d’annulation de comptabilité client
 ### <a name="accounts-receivable-invoice-voucher"></a>N° document de facture de comptabilité client
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire             |
 |----------------------|--------|--------|---------------------|
-| 101 - 44400 - -      |        | 250,00 | Compte de produit     |
-| 101 - 11530          | 250,00 |        | Module Comptabilité client |
+| 101 – 44400 – -      |        | 250,00 | Compte de produit     |
+| 101 – 11530          | 250,00 |        | Module Comptabilité client |
 
 ### <a name="accounts-receivable-write-off--general-ledger-credit-voucher"></a>Annulation de comptabilité client – N° document de comptabilité
 
@@ -305,21 +303,21 @@ Dans cet exemple, la définition de validation pour l’annulation est définie 
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                |
 |----------------------|--------|--------|------------------------------------------------------------------------|
-| 999 - 11530          |        | 250,00 | Écriture collective client                                                       |
-| 101 - 44400 - -      | 250,00 |        | Compte bancaire/de caisse                                                      |
-| 101 - 11010          |        | 250,00 | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
-| 999 - 37101          | 250,00 |        | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11530          |        | 250,00 | Écriture collective client                                                       |
+| 101 – 44400 – -      | 250,00 |        | Compte bancaire/de caisse                                                      |
+| 101 – 11010          |        | 250,00 | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
+| 999 – 37101          | 250,00 |        | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 ### <a name="accounts-receivable-write-off--settlement-voucher"></a>Annulation de comptabilité client – N° document de règlement
 
-Dans cet exemple, le crédit qui est créé dans le N° document de comptabilité est appliqué à la transaction d’annulation. En outre, les valeurs **Numéro de compte de rapprochement** pour la définition de validation correspondent aux comptes du type de validation du solde client. Par conséquent, lorsque 999 - 11530 et 101 – 11530 sont évalués, les écritures comptables générées sont créées uniquement pour le fonds 101, car aucune entrée de rapprochement n’est définie pour le fonds du trésorier (999).
+Dans cet exemple, le crédit qui est créé dans le N° document de comptabilité est appliqué à la transaction d’annulation. En outre, les valeurs **Numéro de compte de rapprochement** pour la définition de validation correspondent aux comptes du type de validation du solde client. Par conséquent, lorsque 999 – 11530 et 101 – 11530 sont évalués, les écritures comptables générées sont créées uniquement pour le fonds 101, car aucune entrée de rapprochement n’est définie pour le fonds du trésorier (999).
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                |
 |----------------------|--------|--------|------------------------------------------------------------------------|
-| 999 - 11530          | 250,00 |        | Écriture collective client (générée par le système)                                    |
-| 101 - 11530          |        | 250,00 | Facture à recevoir (générée par le système)                                  |
-| 101 - 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
-| 999 - 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11530          | 250,00 |        | Écriture collective client (générée par le système)                                    |
+| 101 – 11530          |        | 250,00 | Facture à recevoir (générée par le système)                                  |
+| 101 – 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
+| 999 – 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 ### <a name="summarizing-the-entries-across-the-invoice-write-off-credit-and-settlement-vouchers"></a>Synthèse des entrées entre la facture, , le crédit d’annulation et les N° document de règlement
 
@@ -348,8 +346,8 @@ Ensuite, dans la définition de validation, entrez les critères de rapprochemen
 
 | Structure de compte |                                 Numéro de compte généré                                  | Débit/crédit généré |
 |-------------------|-------------------------------------------------------------------------------------------|------------------------|
-|      Solde      | 999 - 11530 (Débite l’entrée de type validation du solde client sur le crédit qui est émis.) |       Balancement        |
-|       Idem        |                      999 - (Crédite les ventes dans le fonds 999.)                       |          Idem          |
+|      Solde      | 999 – 11530 (Débite l’entrée de type validation du solde client sur le crédit qui est émis.) |       Balancement        |
+|       Idem        |                      999 – (Crédite les ventes dans le fonds 999.)                       |          Idem          |
 
 ### <a name="posting-definition--match-criteria--row-2"></a>Définition de validation – Critères de rapprochement – Ligne 2
 
@@ -363,22 +361,22 @@ Ensuite, dans la définition de validation, entrez les critères de rapprochemen
 
 | Structure de compte | Numéro de compte généré                                          | Débit/crédit généré |
 |-------------------|-------------------------------------------------------------------|------------------------|
-| Solde           | 999 - 11530 (Débite l’entrée de type validation du solde client sur le crédit qui est émis.)  | Balancement              |
-| Idem              | 999 - (Crédite les ventes dans le fonds 101.)                         | Idem                   |
-| Solde           | 101 - 10110 (Compte de capitaux propres du fonds 101)                           | Balancement              |
-| Idem              | 999 - 37101 (Fonds du trésorier – Compte de fonds capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place des comptes de capitaux propres de fonds individuels) | Idem                   |
+| Solde           | 999 – 11530 (Débite l’entrée de type validation du solde client sur le crédit qui est émis.)  | Balancement              |
+| Idem              | 999 – (Crédite les ventes dans le fonds 101.)                         | Idem                   |
+| Solde           | 101 – 10110 (Compte de capitaux propres du fonds 101)                           | Balancement              |
+| Idem              | 999 – 37101 (Fonds du trésorier – Compte de fonds capitaux propres pour le fonds 101. Un seul compte peut être utilisé à la place des comptes de capitaux propres de fonds individuels) | Idem                   |
 
 ## <a name="accounts-receivable-cashondelivery-cash-payment-settlement-example"></a>Exemple de règlement en contre remboursement de comptabilité client (paiement en espèces)
 ### <a name="accounts-receivable-invoice-voucher"></a>N° document de facture de comptabilité client
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                          |
 |----------------------|--------|--------|----------------------------------|
-| 101 - 44400 - -      |        | 250,00 | Compte de produit dans le fonds 101      |
-| 999 - 44400 - -      |        | 250,00 | Compte de produit dans le fonds 999      |
-| 101 - 11530          | 250,00 |        | Comptabilité client dans le fonds 101  |
-| 999 - 11535          | 250,00 |        | Comptabilité client dans le fonds 999  |
+| 101 – 44400 – -      |        | 250,00 | Compte de produit dans le fonds 101      |
+| 999 – 44400 – -      |        | 250,00 | Compte de produit dans le fonds 999      |
+| 101 – 11530          | 250,00 |        | Comptabilité client dans le fonds 101  |
+| 999 – 11535          | 250,00 |        | Comptabilité client dans le fonds 999  |
 | 999-11530            |        | 500,00 | Écriture collective client                 |
-| 999 - 11020          | 500,00 |        | Compte de disponibilités sur les conditions de paiement |
+| 999 – 11020          | 500,00 |        | Compte de disponibilités sur les conditions de paiement |
 
 Cela inclut les entrées de crédit supplémentaire dans le N° document.
 
@@ -388,12 +386,12 @@ Dans cet exemple, les valeurs **Numéro de compte de rapprochement** pour la dé
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                |
 |----------------------|--------|--------|------------------------------------------------------------------------|
-| 999 - 11530          | 250,00 |        | Écriture collective client (définition de validation pour le règlement)                   |
-| 101 - 11530          |        | 250,00 | Facture à recevoir (définition de validation pour le règlement)                 |
-| 101 - 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
-| 999 - 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
-| 999 - 11530          | 250,00 |        | Écriture collective client (définition de validation pour le règlement)                   |
-| 999 - 11535          |        | 250,00 | Écriture collective client (définition de validation pour le règlement)                   |
+| 999 – 11530          | 250,00 |        | Écriture collective client (définition de validation pour le règlement)                   |
+| 101 – 11530          |        | 250,00 | Facture à recevoir (définition de validation pour le règlement)                 |
+| 101 – 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
+| 999 – 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11530          | 250,00 |        | Écriture collective client (définition de validation pour le règlement)                   |
+| 999 – 11535          |        | 250,00 | Écriture collective client (définition de validation pour le règlement)                   |
 
 ### <a name="summarizing-the-entries-across-the-invoice-payment-and-settlement-vouchers"></a>Synthèse des entrées entre la facture, le paiement et les N° document de règlement
 
@@ -401,11 +399,11 @@ Le tableau suivant indique comment les comptes généraux finaux sont affectés.
 
 | Compte + Dimensions | Débit  | Crédit | Commentaire                                                                |
 |----------------------|--------|--------|------------------------------------------------------------------------|
-| 999 - 11020          | 500,00 |        | Compte de disponibilités sur les conditions de paiement                                       |
-| 101 - 44400 - -      |        | 250,00 | Produit dans le fonds 101                                                    |
-| 999 - 44400 - -      |        | 250,00 | Produit dans le fonds 999                                                    |
-| 101 - 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
-| 999 - 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
+| 999 – 11020          | 500,00 |        | Compte de disponibilités sur les conditions de paiement                                       |
+| 101 – 44400 – -      |        | 250,00 | Produit dans le fonds 101                                                    |
+| 999 – 44400 – -      |        | 250,00 | Produit dans le fonds 999                                                    |
+| 101 – 11010          | 250,00 |        | Capitaux propres pour le fonds 101 (définition de validation pour le règlement)                |
+| 999 – 37101          |        | 250,00 | Fonds du trésorier – Fonds d’échéance 101 (définition de validation pour le règlement) |
 
 ## <a name="example-advanced-ledger-entries"></a>Exemple : Écritures comptables avancées
 Lorsque vous créez des écritures comptables avancées, vous devez sélectionner une définition de validation par défaut. Ensuite, pour chaque ligne d’écriture comptable avancée, vous pouvez soit utiliser la définition de validation par défaut, soit en sélectionner une autre. Les définitions de validation génèrent les répartitions comptables et les écritures de journal de comptabilité auxiliaire qui créent, ajustent ou contrepassent les écritures comptables et mettent à jour les comptes généraux. Vous paramétrez chaque définition de validation pour l’application Comptabilité. Toutefois, vous n’associez pas la définition de validation avec un type de transaction, comme vous le faites pour les autres définitions de validation. Au lieu de cela, vous sélectionnez la définition de validation dans l’écriture comptable avancée. 
@@ -432,7 +430,7 @@ Ici, la facture AP\_0949 de la comptabilité fournisseur a été validée par er
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Bilan           | 100 - -                | 1        |
+| Bilan           | 100 – -                | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -469,7 +467,7 @@ Les organisations utilisent les définitions de validation dans le cadre de la c
 > Pour utiliser les définitions de validation pour la clôture et l’ouverture de fin d’exercice, vous devez effectuer les tâches de paramétrage suivantes :
 
 -   Sur la page **Paramètres de comptabilité**, dans la section **Comptabilité**, dans l’organisateur **Clôture d’exercice**, sélectionnez l’option **Créer des transactions de clôture lors du transfert**.
--   Sur la page **Comptes principaux - plan de comptes : %1**, créez un compte de clôture.
+-   Sur la page **Comptes principaux – plan de comptes : %1**, créez un compte de clôture.
 
 Les exemples suivants de définition de validation indiquent la clôture de fin d’exercice pour les fonds gouvernementaux et les fonds propriétaires.
 
@@ -479,7 +477,7 @@ Les exemples suivants de définition de validation indiquent la clôture de fin 
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Frais           | - - -                  | 1        |
+| Frais           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -493,7 +491,7 @@ Les exemples suivants de définition de validation indiquent la clôture de fin 
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Frais           | - - -                  | 1        |
+| Frais           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -507,7 +505,7 @@ Les exemples suivants de définition de validation indiquent la clôture de fin 
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Produit           | - - -                  | 1        |
+| Produit           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -517,7 +515,7 @@ Les exemples suivants de définition de validation indiquent la clôture de fin 
 |-------------------|-----------------------------------|------------------------|
 | Structure de compte | -37300 (Solde des fonds non réservés) | Balancement              |
 
-Après avoir paramétré la définition de validation, affectez-la au type de transaction **Comptabilité - Clôture** sur la page **Définitions de validation de transaction**.
+Après avoir paramétré la définition de validation, affectez-la au type de transaction **Comptabilité – Clôture** sur la page **Définitions de validation de transaction**.
 
 #### <a name="governmental-funds--transactions-with-the-accounts-dimension-values-and-amounts"></a>Fonds gouvernemental – Transactions avec les comptes, valeurs de dimension et montants
 
@@ -546,7 +544,7 @@ La définition de validation recherche un rapprochement avec toute partie du com
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Bilan           | - - -                  | 1        |
+| Bilan           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -560,7 +558,7 @@ La définition de validation recherche un rapprochement avec toute partie du com
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Frais           | - - -                  | 1        |
+| Frais           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 
@@ -574,7 +572,7 @@ La définition de validation recherche un rapprochement avec toute partie du com
 
 | Structure de compte | Numéro de compte de rapprochement\* | Priorité |
 |-------------------|------------------------|----------|
-| Produit           | - - -                  | 1        |
+| Produit           | - – -                  | 1        |
 
 \*Une valeur vide dans le champ **Numéro de compte de rapprochement** signifie que tous les comptes correspondants de la structure de compte définie appartiennent à la règle de rapprochement.
 

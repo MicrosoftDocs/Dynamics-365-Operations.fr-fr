@@ -2,11 +2,9 @@
 title: Aligner les qualifications du personnel sur les besoins de l’entreprise
 description: Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles. Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.
 author: andreabichsel
-manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f3d64fa519cf4156adce43056c1c22362f0d7591
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465556"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793703"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Aligner les qualifications du personnel sur les besoins de l’entreprise
 
@@ -48,7 +46,7 @@ Lorsque vous entrez des informations sur une tâche, vous pouvez spécifier les 
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Saisie de qualifications pour les travailleurs, les candidats, ou les contacts
 Vous pouvez entrer des qualifications cibles ou des qualifications réelles pour les travailleurs, les candidats, ou les contacts. Une qualification cible est une qualification que la personne envisage d’acquérir. Une qualification réelle est une qualification qu’une personne possède actuellement.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Mise en correspondance des qualifications et profils de mise en correspondance des qualifications
+## <a name="skill-mapping-and-skill-mapping-profiles"></a>Mise en correspondance des qualifications et profils de mise en correspondance des qualifications
 Vous pouvez créer une recherche de mise en correspondance des qualifications pour rechercher un collaborateur, un candidat, ou une personne à contacter qui est qualifiée pour effectuer un type de tâche spécifique de tâche. Le recherche de mise en correspondance des qualifications étudie les compétences, la formation, les certificats, les postes de confiance et l’expérience sur le projet et renvoie des résultats qui correspondent aux critères entrés.  Par exemple, il peut être utile de savoir quels collaborateurs de votre organisation ont un diplôme de comptabilité.
 
 Les profils de mise en correspondance des qualifications vous permettent de rechercher les employés actuels ou les candidats dont les qualifications correspondent directement aux besoins de votre entreprise.  Par exemple, vous pouvez créer un profil de mise en correspondance des qualifications pour un poste vacant de votre organisation. En créant un profil pour une tâche spécifique et en copiant les qualifications, les formations et les certificats de cette tâche dans le profil, vous pouvez rechercher rapidement des travailleurs, des candidats et des personnes à contacter qui correspondent à un ou plusieurs des critères entrés dans le profil et afficher la liste des candidats dont les qualifications correspondent le mieux aux qualifications requises pour la tâche.

@@ -2,7 +2,6 @@
 title: Afficher et créer des états financiers
 description: Cet article propose des exercices qui traitent de l’affichage et de la création d’états financiers pour Microsoft Dynamics 365 Finance.
 author: jcart1106
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97ecc4daa05f4cbc10266d00366bf69e063af2ff
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 96c1cccccd2b20626dba14d9b0cb97bef10732fd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564864"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749702"
 ---
 # <a name="view-and-design-financial-reports"></a>Afficher et créer des états financiers
 
@@ -119,19 +118,19 @@ Pour cet exercice, vous allez modifier un état existant par défaut. Vous crée
 7. Cliquez sur le champ **De la dimension** pour la dimension du centre de coût, tapez **007**, puis appuyez sur la touche Tab. Dans le champ **De la dimension**, tapez **018**.
 8. **Enregistrer** l’arborescence résultante avec le nom **Centres de coût par Division.** Maintenant que l’organigramme d’entreprise est créé, vous le modifierez pour contenir trois nouvelles unités de correctif cumulatif ; Marketing, Opérations et Vente au détail.
 9. Dans le menu **Fenêtre**, cliquez sur **Centres de coût par Division**. (Si l’arborescence de génération d’états a été fermée, sélectionnez-la dans les définitions d’arborescence de génération d’états dans le volet de navigation.)
-10. Cliquez sur le numéro d’unité deux, **Salons commerciaux**, puis cliquez sur l’icône **Insérer une unité de génération d’états**.
+10. Cliquez sur le numéro d’unité deux, **Salons commerciaux**, puis cliquez sur l’icône **Insérer une unité organisationnelle**.
 11. Double-cliquez sur la colonne d’entité sur la ligne vide et sélectionnez **USMF**.
 12. Entrez **Marketing** dans les colonnes B et C.
-13. Cliquez sur le numéro d’unité cinq, **Opérations de service**, puis cliquez avec le bouton droit. **Sélectionnez Insérer une unité de génération d’états**.
+13. Cliquez sur le numéro d’unité cinq, **Opérations de service**, puis cliquez avec le bouton droit. **Sélectionnez Insérer une unité organisationnelle**.
 14. Répétez l’étape 11.
 15. Entrez **Opérations** dans les colonnes B et C.
-16. Cliquez sur le numéro d’unité douze, **Point de vente**, puis cliquez avec le bouton droit. Sélectionnez **Insérer une unité de génération d’états**.
+16. Cliquez sur le numéro d’unité douze, **Point de vente**, puis cliquez avec le bouton droit. Sélectionnez **Insérer une unité organisationnelle**.
 17. Répétez l’étape 11.
 18. Entrez **Vente au détail** dans les colonnes B et C. Notez que les unités Marketing, Opérations et Vente au détail s’affichent au même niveau que les unités actuelles de correctif cumulatif. Les nouvelles unités sont organisées ensuite. Les unités de génération d’états sont organisées à l’aide des options contextuelles de clic droit ; promouvoir et abaisser d’un niveau, ou par glisser-déplacer.
 19. Vérifiez si l’unité trois, **Salons commerciaux**, est active et cliquez avec le bouton droit.
-20. Sélectionnez **Abaisser une unité de génération d’états**. Notez que l’unité s’affiche désormais en tant qu’enfant de **Marketing**.
+20. Sélectionnez **Abaisser une unité organisationnelle**. Notez que l’unité s’affiche désormais en tant qu’enfant de **Marketing**.
 21. Cliquez sur l’unité quatre, **Campagne Marketing**, puis cliquez avec le bouton droit.
-22. Sélectionnez **Abaisser une unité de génération d’états**.
+22. Sélectionnez **Abaisser une unité organisationnelle**.
 23. Cliquez sur **Opérations de service** dans la vue graphique. Appuyez sur le bouton gauche de la souris et maintenez-le enfoncé tout en faisant glisser l’unité sur **Opérations**. Relâchez le bouton gauche de la souris pour déplacer l’unité dans le correctif cumulatif Opérations. Recommencez pour **Production, Contrôle qualité, Logistique, Approvisionnement et Administration**.
 24. Rendez **Point de vente** **Supermarché** **Centre commercial** et **En ligne** enfants de **Vente au détail** en les abaissant d’un niveau ou par glisser-déplacer.
 25. Enregistrez la réorganisation obtenue. Maintenant que nous avons créé et organisé l’arborescence de génération d’états, elle peut être ajoutée à la définition d’état.

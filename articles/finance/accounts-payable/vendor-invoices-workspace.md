@@ -2,11 +2,9 @@
 title: Espace de travail de saisie de facture fournisseur
 description: Cette rubrique explique comment configurer l’espace de travail lié aux factures fournisseur et qui affiche les informations disponibles via Microsoft Power BI.
 author: abruer
-manager: AnnBe
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0a32fc46fe6ac33abe5fcebb2ee5e2c92f468f84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254118"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837252"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Espace de travail de saisie des factures fournisseur
 
@@ -32,7 +30,7 @@ Cette rubrique explique comment configurer l’espace de travail lié aux factur
 
 ## <a name="overview"></a>Vue d’ensemble
 
-L’espace de travail **Saisie de facture fournisseur** affiche les informations associées au traitement des factures fournisseur. Il contient une vue **Mon travail** et une page **Analyses - Toutes les sociétés**. La vue **Mon travail** affiche les vignettes récapitulatives, les grilles de transaction fournisseur et les informations fournisseur associées. La page **Analyses - Toutes les sociétés** utilise les fonctionnalités de Power BI pour afficher les visualisations associées aux factures fournisseur.
+L’espace de travail **Saisie de facture fournisseur** affiche les informations associées au traitement des factures fournisseur. Il contient une vue **Mon travail** et une page **Analyses – Toutes les sociétés**. La vue **Mon travail** affiche les vignettes récapitulatives, les grilles de transaction fournisseur et les informations fournisseur associées. La page **Analyses – Toutes les sociétés** utilise les fonctionnalités de Power BI pour afficher les visualisations associées aux factures fournisseur.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Configurer l’espace de travail pour afficher le contenu Power BI
 
@@ -71,7 +69,7 @@ Les vignettes dans la section **Récapitulatif des factures en attente** de la v
 
 Pour utiliser la vignette **Récupérer les factures fournisseurs**, la fonctionnalité doit être activée dans les paramètres de la comptabilité fournisseurs. Accédez à **Comptabilité fournisseur \> Paramètres de la comptabilité fournisseur**, puis, sur l’onglet **Facture**, définissez l’option **Autoriser la récupération des factures fournisseur** sur **Oui**.
 
-Lorsque la fonctionnalité est activée, vous aurez également trois vignettes regroupées sur l’espace de travail dans une section appelée **Journaux**. Les vignettes sont intitulées **Journaux**, **Journaux - Affecté à moi** et **Registre des factures**. 
+Lorsque la fonctionnalité est activée, vous aurez également trois vignettes regroupées sur l’espace de travail dans une section appelée **Journaux**. Les vignettes sont intitulées **Journaux**, **Journaux – Affecté à moi** et **Registre des factures**. 
 
 Les informations dans le **Récapitulatif des factures en attente** sont pour la société définie comme société par défaut pour votre connexion.
 
@@ -103,9 +101,9 @@ Sur la grille **Rechercher une commande fournisseur**, vous pouvez utiliser le c
 
 Vous pouvez afficher des informations sur les factures validées en utilisant les liens sur le côté droit de l’espace de travail. Ces liens incluent **Factures fournisseur en cours**, **Journal des factures** et **Historique des factures et détails de rapprochement**. Dans la section **Fournisseurs**, vous pouvez accéder à une liste filtrée qui montre tous les fournisseurs qui sont en attente, ou vous pouvez utiliser le lien **Tous les fournisseurs**. Les liens **Toutes les commandes fournisseur** et **Acomptes en cours** sont également disponibles.
 
-### <a name="analytics--all-companies-page"></a>Page Analyses - Toutes les sociétés
+### <a name="analytics--all-companies-page"></a>Page Analyses – Toutes les sociétés
 
-Quand l’option **Envoyer automatiquement les factures importées au workflow** est définie sur **Oui** sur la page **Paramètres de la comptabilité fournisseur**, vous pouvez afficher les analyses de l’automatisation. La page **Analyses - Toutes les entreprises** fournit des mesures importantes, telles que les factures fournisseur approuvées par l’approbateur et par l’entreprise. Cette page contient cinq pages d’état. Une page donne une vue d’ensemble, et les autres pages fournissent des détails sur les mesures de l’automatisation de la comptabilité fournisseur.
+Quand l’option **Envoyer automatiquement les factures importées au workflow** est définie sur **Oui** sur la page **Paramètres de la comptabilité fournisseur**, vous pouvez afficher les analyses de l’automatisation. La page **Analyses – Toutes les entreprises** fournit des mesures importantes, telles que les factures fournisseur approuvées par l’approbateur et par l’entreprise. Cette page contient cinq pages d’état. Une page donne une vue d’ensemble, et les autres pages fournissent des détails sur les mesures de l’automatisation de la comptabilité fournisseur.
 
 Le tableau suivant indique les visualisations qui sont disponibles sur chaque page d’état.
 

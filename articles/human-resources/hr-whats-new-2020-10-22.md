@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources 22 octobre 2020
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 22 octobre 2020.
 author: jcart1106
-manager: tfehr
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 642250fa34ee87065f4ed2cf8f3893390d271007
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 27c34c36b0bf33c28f33f7ecd838a76c5e241cbb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464788"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802261"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 22 octobre 2020
 

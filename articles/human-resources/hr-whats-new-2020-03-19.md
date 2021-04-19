@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (19 mars 2020)
 description: Cet article décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 19 mars 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a594e5fdf67d22005800cc679d3db60dc900a016
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 06204b6c9597003753c3c03ca86486b29945f6b4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463668"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790354"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (19 mars 2020)
 
@@ -122,9 +120,9 @@ Si l’aperçu du document pour les documents stockés dans SharePoint ne foncti
 
 Les fonctionnalités d’aperçu suivantes sont disponibles le 3 février 2020 :
 
-- **Fonctionnalités d’aperçu de congé et d’absence** - Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
+- **Fonctionnalités d’aperçu de congé et d’absence** – Pour plus d’informations, voir [Fonctionnalités d’aperçu de congé et absence](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Fonction d’aperçu de la gestion des avantages** - Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
+- **Fonction d’aperçu de la gestion des avantages** – Pour plus d’informations, y compris les problèmes connus, voir [Aperçu de la gestion des avantages](hr-benefits-management-overview.md).
 
 ## <a name="see-also"></a>Voir également :
 

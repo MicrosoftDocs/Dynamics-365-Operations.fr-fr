@@ -2,11 +2,9 @@
 title: Mise à jour collective des immobilisations
 description: Si vous utilisez des registres, vous pouvez modifier les conventions d’amortissement pour les groupes d’immobilisations faisant partie du même registre.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc2f311e2463d68b9a8f8edb3afb82bef0934540
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 03f835bcbb0c9916297082198344320bd3795213
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212443"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826784"
 ---
 # <a name="fixed-asset-mass-update"></a>Mise à jour collective des immobilisations
 

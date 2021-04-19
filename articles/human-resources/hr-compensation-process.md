@@ -2,11 +2,9 @@
 title: Traiter la rémunération
 description: Le traitement de la rémunération vous permet de calculer les nouveaux montants de rémunération de vos employés en fonction des augmentations pour mérite, des cibles d’augmentation au mérite et des performances.
 author: andreabichsel
-manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3ab2117ea0d4cf7413dddf09d953e0da39e6882a
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 59627edd4503d9d4d5a87d8eb09b4be4f855c112
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465700"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800925"
 ---
 # <a name="process-compensation"></a>Traiter la rémunération
 
@@ -59,9 +57,9 @@ Vous ne pouvez ajouter des actions de **rémunération fixe** avec un type de r�
 | Type Action de rémunération fixe | Fonctionnalité                                                                                                                                                                                           |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Etape                           | Sous l’onglet Général, indiquez si cette action d’étape doit faire passer les employés à l’étape 0, à l’étape 1 ou aux deux étapes.                                                                                  |
-|                                | **Étapes 0** - L’employé reçoit le taux de salaire pour l’étape actuelle à laquelle il se situe.                                                                                                                      |
-|                                | **Étape 1** - Le système vérifie si l’employé est déjà au dernier point de référence pour son niveau.                                                                                             |
-|                                | **2 étapes** - Le système fera avancer l’employé de deux étapes par rapport à son niveau actuel. Le système ne peut que déplacer l’employé d’une ou de zéro étape s’il atteint le dernier point de référence pour son niveau. |
+|                                | **Étapes 0** – L’employé reçoit le taux de salaire pour l’étape actuelle à laquelle il se situe.                                                                                                                      |
+|                                | **Étape 1** – Le système vérifie si l’employé est déjà au dernier point de référence pour son niveau.                                                                                             |
+|                                | **2 étapes** – Le système fera avancer l’employé de deux étapes par rapport à son niveau actuel. Le système ne peut que déplacer l’employé d’une ou de zéro étape s’il atteint le dernier point de référence pour son niveau. |
 
 ## <a name="run-the-compensation-process"></a>Exécuter le processus de rémunération
 Une fois l’événement de processus paramétré avec les champs de date, de régimes et d’actions nécessaires, vous pouvez cliquer sur **Exécuter le processus** dans la page **Événement de processus**. Cela permet d’ouvrir la boîte de dialogue **Exécuter les événements de processus de rémunération**. Dans cette boîte de dialogue, vous pouvez cliquer sur l’option **Afficher les résultats du traitement** pour connaître le mode de calcul des montants de rémunération pour chaque employé. Cliquer sur **Ajouter** exécutera le processus de rémunération pour tous les employés affectés à des régimes de rémunération à la date de fin du cycle.

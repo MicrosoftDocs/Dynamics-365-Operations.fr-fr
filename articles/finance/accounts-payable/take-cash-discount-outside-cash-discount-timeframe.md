@@ -2,11 +2,9 @@
 title: Prélever un escompte de règlement en dehors de la période d’escompte de règlement
 description: Cet article fournit deux scénarios qui indiquent comment un escompte de règlement peut être pris même si le paiement est effectué en dehors de la période d’escompte de règlement.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47acacf9b1e9667e86fcdd5ce1ed62e79d8afec3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235859"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810220"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Prélever un escompte de règlement en dehors de la période d’escompte de règlement
 
@@ -43,7 +41,7 @@ April marque la facture pour paiement. Aucune escompte de règlement n’est app
 
 Les informations de remise s’affichent au bas de la page **Règlement des transactions**.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/12/2015 |
 | Montant de l’escompte de règlement         | -20,00    |
@@ -61,7 +59,7 @@ Si la facture et le paiement ont été validés, l’escompte de règlement peut
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. Le montant de la remise à prélever est de 20,00, étant donné que le montant à régler pour la facture est le montant par défaut, soit 1 980,00.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/12/2015 |
 | Montant de l’escompte de règlement         | -20,00    |
@@ -78,7 +76,7 @@ April met à jour la valeur du champ **Montant à régler** sur **500,00**. La v
 
 Les informations de remise s’affichent au bas de la page **Régler les transactions en cours**. La valeur du champ **Montant de l’escompte de règlement à accepter** est **5,05**, car le montant à régler pour la facture a été remplacé par le montant du paiement, soit 500,00.
 
-|                              |           |
+| Champ                        | Valeur     |
 |------------------------------|-----------|
 | Date d’escompte de règlement           | 7/12/2015 |
 | Montant de l’escompte de règlement         | -20,00    |

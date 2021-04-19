@@ -2,11 +2,9 @@
 title: Escomptes de règlement
 description: Les escomptes de règlement sont paramétrés et partagés pour la Comptabilité fournisseur et la Comptabilité client.  L’escompte de règlement disponible peut être défini sur la facture client ou la facture fournisseur, et sera utilisé si la facture est payée pendant la période d’escompte de règlement.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec166f0ef447a735ac776a10f1d4b340bf8452d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 06a9effdbe2aed6175273332654755b0ebc46659
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232511"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830471"
 ---
 # <a name="cash-discounts"></a>Escomptes de règlement
 
@@ -37,8 +35,8 @@ Les escomptes de règlement à la fois pour les clients ou les fournisseurs peuv
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Commande par défaut du compte principal d’escompte de règlement
 
 Si une facture est réglée à temps pour justifier l’obtention d’un escompte de règlement, celui-ci est automatiquement validé sur un compte principal des escomptes de règlement, conformément à la priorité par défaut suivante :
-1.  Le compte principal spécifié dans le champ Autre compte des escomptes de règlement sur la page Régler les transactions en cours - client ou la page Régler les transactions en cours - fournisseur.
-2.  Le compte principal spécifié dans le champ Client - Escompte de règlement ou le champ Fournisseur - Escompte de règlement du groupe de validation dans la comptabilité affecté au code taxe de la facture. Paramétrez des groupes de validations dans la comptabilité sur la page Groupes de validations dans la comptabilité et affectez-les aux codes taxe de la page Codes taxe.
+1.  Le compte principal spécifié dans le champ Autre compte des escomptes de règlement sur la page Régler les transactions en cours – client ou la page Régler les transactions en cours – fournisseur.
+2.  Le compte principal spécifié dans le champ Client – Escompte de règlement ou le champ Fournisseur – Escompte de règlement du groupe de validation dans la comptabilité affecté au code taxe de la facture. Paramétrez des groupes de validations dans la comptabilité sur la page Groupes de validations dans la comptabilité et affectez-les aux codes taxe de la page Codes taxe.
 3.  Le compte de validation principal de la page Escomptes de règlement dans le champ Compte principal pour les remises client ou le champ Compte principal pour les remises fournisseur pour le code d’escompte de règlement figurant sur la facture réglée.
 4.  Le compte principal pour les escomptes de règlement, tel que défini dans la page Comptes pour transactions automatiques.
 

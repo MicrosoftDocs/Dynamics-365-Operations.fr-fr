@@ -2,11 +2,9 @@
 title: Tâches périodiques de gestion des crédits
 description: Cette rubrique décrit les tâches périodiques qui sont une partie nécessaire du processus de gestion des limites de crédit pour les clients.
 author: mikefalkner
-manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a034d563c12c4ba8b99e13b30ea2683555a01276
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5e5d1ad7b0b151d67bd96513e9ce0c82c172a601
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254485"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835290"
 ---
 # <a name="periodic-credit-management-tasks"></a>Tâches périodiques de gestion du crédit
 
@@ -31,12 +29,12 @@ Cette rubrique décrit les tâches périodiques qui sont une partie nécessaire 
 
 À mesure que les entreprises évoluent et que les circonstances changent, les risques de crédit pour un client donné peuvent également changer. Pour aider à maintenir des limites de crédit appropriées pour vos clients, vous devez revoir périodiquement les critères de chaque score de risque et mettre à jour les scores de chaque client. Vous pouvez mettre à jour les scores suivants en utilisant la page **Mettre à jour les scores de risque** (**Crédit et relances \> Tâches périodiques \> Gestion de crédit \> Mettre à jour les scores de risque**). Tous les calculs définis par l’utilisateur sont également traités.
 
-- **Jours de paiement moyens** - Ce score est le nombre moyen de jours qu’un client prend pour payer ses factures.
-- **Client depuis** - Ce score est le nombre d’années qu’un client a été client de votre organisation.
-- **En affaires depuis** - Ce score est le nombre d’années d’activité d’un client. Il utilise la valeur du champ **Début d’activité** sur la page **Clients**.
-- **Ventes quotidiennes restantes** - Ce score est basé sur le bilan de la comptabilité client, le chiffre d’affaires et le nombre de jours pour la période précédente de 12 mois.
-- **Solde moyen** - Ce score est basé sur le bilan de la comptabilité client pour la période précédente de 12 mois.
-- **Groupe de gestion des crédits**, **Statut du compte** et **Pays** - Ces scores utilisent les informations du client.
+- **Jours de paiement moyens** – Ce score est le nombre moyen de jours qu’un client prend pour payer ses factures.
+- **Client depuis** – Ce score est le nombre d’années qu’un client a été client de votre organisation.
+- **En affaires depuis** – Ce score est le nombre d’années d’activité d’un client. Il utilise la valeur du champ **Début d’activité** sur la page **Clients**.
+- **Ventes quotidiennes restantes** – Ce score est basé sur le bilan de la comptabilité client, le chiffre d’affaires et le nombre de jours pour la période précédente de 12 mois.
+- **Solde moyen** – Ce score est basé sur le bilan de la comptabilité client pour la période précédente de 12 mois.
+- **Groupe de gestion des crédits**, **Statut du compte** et **Pays** – Ces scores utilisent les informations du client.
 
 ## <a name="update-customer-balance-statistics"></a>Mettre à jour les statistiques de solde client
 

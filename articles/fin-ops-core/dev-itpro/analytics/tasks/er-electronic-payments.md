@@ -2,7 +2,6 @@
 title: ER Générer les documents électroniques pour les paiements à l’aide d’une configuration de format
 description: Cette rubrique décrit comment utiliser une nouvelle configuration de format de gestion des états électroniques pour générer les documents électroniques pour le traitement des paiements.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dd39b3faba90b38b837cd5167b216f9faa31d82
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f62d7cd690406647886f9d6d1cb1491b691d4159
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570214"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752482"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER Générer les documents électroniques pour les paiements à l’aide d’une configuration de format
 
@@ -54,7 +53,7 @@ Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la
 8. Tapez DEMF dans le champ Société.
     * DEMF  
 9. Dans le champ Compte, spécifiez les valeurs « DE-01001 ».
-    * DE - 01001  
+    * DE – 01001  
 10. Tapez Paiement dans le champ Description.
     * Paiement  
 11. Entrez un nombre dans le champ Débit.

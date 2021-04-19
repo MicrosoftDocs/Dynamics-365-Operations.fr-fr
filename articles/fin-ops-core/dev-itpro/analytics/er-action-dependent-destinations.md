@@ -2,7 +2,6 @@
 title: Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 description: Cette rubrique explique comment configurer des destinations dépendant d’une action pour un format de gestion des états électroniques configuré pour générer des documents sortants.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 80624e286fd1300b8de6fd8a7fc67c246cb3a41b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569633"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751230"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 
@@ -117,13 +116,13 @@ La liste suivante de documents commerciaux est contrôlée par la fonctionnalit�
 - Confirmation de commande client
 - Note de lettre de relances
 - Relevé de compte client
-- Note d'intérêt
+- Note d’intérêt
 - Conseil de paiement fournisseur
-- Appel d'offre
+- Appel d’offre
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Vue d'ensemble des états électroniques](general-electronic-reporting.md)
+[Vue d’ensemble des états électroniques](general-electronic-reporting.md)
 
 [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 

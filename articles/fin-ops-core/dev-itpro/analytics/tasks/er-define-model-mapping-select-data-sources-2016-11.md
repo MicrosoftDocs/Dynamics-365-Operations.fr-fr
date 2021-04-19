@@ -2,7 +2,6 @@
 title: Définir les mises en correspondance de modèles de gestion d’états électroniques et sélectionner des sources de données pour eux
 description: Cette rubrique décrit comment un utilisateur doté du rôle Administrateur système ou Développeur d’états électroniques peut sélectionner des sources de données pour un modèle de données de génération d’états électroniques.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7b5f291372bc459bc1979dca4a95cfafb39e2ad9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7d88aaa24d61d6768801a84c81002d7a6ab2f316
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567292"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755080"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Définir les mises en correspondance de modèles de gestion d’états électroniques et sélectionner des sources de données pour eux
 
@@ -96,8 +95,8 @@ Les étapes suivantes expliquent comment un utilisateur doté du rôle Administr
 31. Dans l’arborescence , développer « Transactions ».
 32. Dans l’arborescence, sélectionnez « Transactions\Debit(AmountCurDebit) ».
 33. Cliquez sur Ajouter une source de données.
-34. Dans le champ Formule, entrez « Transactions.AmountCurDebit -  ».
-    * Tapez [ - ] à la fin de la formule.  
+34. Dans le champ Formule, entrez « Transactions.AmountCurDebit - ».
+    * Tapez [ – ] à la fin de la formule.  
 35. Dans l’arborescence, sélectionnez « Transactions\Credit(AmountCurCredit) ».
 36. Cliquez sur Ajouter une source de données.
 37. Cliquez sur Enregistrer.

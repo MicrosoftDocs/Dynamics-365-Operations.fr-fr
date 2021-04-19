@@ -2,11 +2,9 @@
 title: Paramétrer et tenir à jour PRODCOM
 description: Cette rubrique décrit comment paramétrer et tenir à jour PRODCOM dans Microsoft Dynamics 365 Finance.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: IntrastatToProdcom, InventProdComLineDetail, InventProdComLineWithCode, InventProdComParameters, InventProdComTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d8200faf273e061f5ea0dde6a86bde2829f41a5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3a71ca1248ca9a06cfecf0df46b34f710a9272be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236328"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839899"
 ---
 # <a name="set-up-and-maintain-prodcom"></a>Paramétrer et tenir à jour PRODCOM
 
@@ -33,7 +31,7 @@ Cette rubrique décrit comment paramétrer et tenir à jour PRODCOM. Les fabrica
 Avant de générer l’état PRODCOM, vous devez paramétrer les éléments suivants dans la page **Paramètres PRODCOM**.
 
 1.  Entrez un ID de contact principal. Il s’agit de l’identification imprimée dans la déclaration PRODCOM, sous la section où figurent les informations sur le contact principal.
-2.  Entrez un ID de contact externe - Il s’agit de l’identification imprimée dans la déclaration PRODCOM, sous la section où figurent les informations sur le contact externe.
+2.  Entrez un ID de contact externe – Il s’agit de l’identification imprimée dans la déclaration PRODCOM, sous la section où figurent les informations sur le contact externe.
 3.  Sélectionnez une société ou un entrepôt.
     -   Si l’agence est une **Société**, le numéro d’agence de la société est transféré dans les lignes PRODCOM.
     -   Si l’agence est un **Entrepôt**, le numéro d’agence de l’entrepôt où la vente a eu lieu est transféré dans les lignes PRODCOM.
@@ -46,8 +44,8 @@ Avant de générer l’état PRODCOM, vous devez paramétrer les éléments suiv
 ## <a name="assign-prodcom-properties-to-an-item"></a>Affectation de propriétés PRODCOM à un article
 Affectez des propriétés PRODCOM à un article (**Gestion des informations sur les produits** &gt; **Produits** &gt; **Produits lancés**). Ouvrez la page **Détails des produits lancés**, dans la section **Commerce extérieur**, ouvrez la boîte de dialogue PRODCOM et indiquez les informations suivantes.
 
--   **Produit fabriqué dans la société** - Activez cette case à cocher pour indiquer les quantités et les valeurs des produits livrés par des sociétés.
--   **Livraison à un tiers** - Activez cette case à cocher pour indiquer les quantités et les valeurs des produits livrés par des tiers.
+-   **Produit fabriqué dans la société** – Activez cette case à cocher pour indiquer les quantités et les valeurs des produits livrés par des sociétés.
+-   **Livraison à un tiers** – Activez cette case à cocher pour indiquer les quantités et les valeurs des produits livrés par des tiers.
 -   **Travail effectué pour** les **entreprises**- Activez cette case à cocher pour indiquer les quantités et les valeurs des produits livrés par des entreprises.
 
 Après avoir paramétré PRODCOM, vous pouvez utiliser la page **PRODCOM** pour créer des périodes PRODCOM et transférer les lignes de vente vers l’état PRODCOM.

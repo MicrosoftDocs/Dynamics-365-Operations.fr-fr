@@ -1,12 +1,10 @@
 ---
-title: Exportation des données d'une filiale dans des fichiers
-description: Cette rubrique explique comment préparer l'exportation de données à partir de Microsoft Dynamics 365 Finance et comment les importer dans une entité juridique consolidée.
+title: Exportation des données d’une filiale dans des fichiers
+description: Cette rubrique explique comment préparer l’exportation de données à partir de Microsoft Dynamics 365 Finance et comment les importer dans une entité juridique consolidée.
 author: jinniew
-manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,22 +13,22 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 33c17cc2c1dcaa57244bf0bfaa661b11b221e2f6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bae0a28c59f327e47378eef6392d5e304bbde9a8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205497"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826176"
 ---
-# <a name="export-subsidiary-data-to-files"></a>Exportation des données d'une filiale dans des fichiers
+# <a name="export-subsidiary-data-to-files"></a>Exportation des données d’une filiale dans des fichiers
 
 [!include [banner](../includes/banner.md)]
 
-Vous devez utiliser la page **Exporter** (**Administration du système \> Espaces de travail \> Importer/Exporter**) pour préparer l'exportation des données d'une filiale vers des fichiers qui peuvent ensuite être importés dans une entité juridique consolidée. Pour plus d’informations sur les processus d'importation et d'exportation, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+Vous devez utiliser la page **Exporter** (**Administration du système \> Espaces de travail \> Importer/Exporter**) pour préparer l’exportation des données d’une filiale vers des fichiers qui peuvent ensuite être importés dans une entité juridique consolidée. Pour plus d’informations sur les processus d’importation et d’exportation, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
 
-1. Créez une entité juridique pour le processus de consolidation. Pour plus d’informations sur la création d’entités juridiques, consultez [Créer une entité juridique](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Pour plus d'informations, voir [Préparer une entité juridique en vue de son utilisation dans le processus de consolidation](prepare-company-for-consolidation.md) et [Paramétrer une entité juridique filiale pour la consolidation](set-up-subsidiary-company-for-consolidation.md). 
+1. Créez une entité juridique pour le processus de consolidation. Pour plus d’informations sur la création d’entités juridiques, consultez [Créer une entité juridique](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Pour plus d’informations, voir [Préparer une entité juridique en vue de son utilisation dans le processus de consolidation](prepare-company-for-consolidation.md) et [Paramétrer une entité juridique filiale pour la consolidation](set-up-subsidiary-company-for-consolidation.md). 
 
-2. Accédez à **Consolidations \> Exporter soldes de la société**. Sur la page **Exporter soldes de la société**, sur l'onglet **Critères**, spécifiez les détails de la consolidation en définissant les champs suivants.
+2. Accédez à **Consolidations \> Exporter soldes de la société**. Sur la page **Exporter soldes de la société**, sur l’onglet **Critères**, spécifiez les détails de la consolidation en définissant les champs suivants.
 
     | Champ                             | Description |
     |-----------------------------------|-------|
@@ -43,33 +41,33 @@ Vous devez utiliser la page **Exporter** (**Administration du système \> Espace
     | Inclure les montants du budget            | Définissez cette option sur **Oui** pour inclure les montants budgétaires dans les consolidations. |
     | Modèles de budget                     | Spécifiez le modèle de budget à inclure. |
 
-3. Sous l'onglet **Dimensions financières**, spécifiez les détails de la consolidation :
+3. Sous l’onglet **Dimensions financières**, spécifiez les détails de la consolidation :
 
-    - Spécifiez les informations de dimension financière qui doivent être transférées des transactions des comptes de filiale vers les transactions de l'entité juridique consolidée.
+    - Spécifiez les informations de dimension financière qui doivent être transférées des transactions des comptes de filiale vers les transactions de l’entité juridique consolidée.
     - Sélectionnez les dimensions financières dans la liste.
     - Identifiez la spécification correcte pour chaque dimension financière consolidée. Les options disponibles comprennent **Dimension**, **Dimension de groupe**, **Comptes société**, et **Compte**.
 
         > [!NOTE]
-        > L'option **Dimension de groupe** vous permet de définir la valeur de dimension utilisée par le groupe de sociétés en cours de consolidation.
+        > L’option **Dimension de groupe** vous permet de définir la valeur de dimension utilisée par le groupe de sociétés en cours de consolidation.
 
-    - Spécifiez l'ordre des segments dans lequel consolider.
+    - Spécifiez l’ordre des segments dans lequel consolider.
 
-4. Sur l'onglet **Entités juridiques**, procédez comme suit pour spécifier l'entité juridique que vous exportez :
+4. Sur l’onglet **Entités juridiques**, procédez comme suit pour spécifier l’entité juridique que vous exportez :
 
     1. Sélectionnez **Nouveau**.
-    2. Entrez l'entité juridique dans le champ **Entité juridique source**.
+    2. Entrez l’entité juridique dans le champ **Entité juridique source**.
 
-        Si un même critère s'applique à plusieurs filiales d'une même base de données, vous pouvez transférer les données de ces filiales afin de séparer les fichiers d'exportation en une seule opération :
+        Si un même critère s’applique à plusieurs filiales d’une même base de données, vous pouvez transférer les données de ces filiales afin de séparer les fichiers d’exportation en une seule opération :
 
-        1. Créez une ligne pour chaque entité juridique filiale dont les comptes doivent être exportés vers des fichiers. Ces fichiers seront importés dans l'entité juridique consolidée ultérieurement.
-        2. Pour chaque filiale, entrez le nom de la filiale et le nom du fichier d'exportation qui sera créé au cours de la tâche d'exportation.
+        1. Créez une ligne pour chaque entité juridique filiale dont les comptes doivent être exportés vers des fichiers. Ces fichiers seront importés dans l’entité juridique consolidée ultérieurement.
+        2. Pour chaque filiale, entrez le nom de la filiale et le nom du fichier d’exportation qui sera créé au cours de la tâche d’exportation.
 
     3. Dans le champ **Type de compte des différences de conversion**, sélectionnez **Résultat** ou **Bilan**.
-    4. Entrez un nom de fichier pour le fichier d'exportation qui sera créé.
+    4. Entrez un nom de fichier pour le fichier d’exportation qui sera créé.
 
-5. Sélectionnez **OK** pour lancer l'exportation.
+5. Sélectionnez **OK** pour lancer l’exportation.
 
-À la fin de l'exportation, vous recevez un message montrant le nombre d'enregistrements sauvegardés dans chaque fichier. Vous pouvez ensuite importer les fichiers dans l'entité juridique consolidée.
+À la fin de l’exportation, vous recevez un message montrant le nombre d’enregistrements sauvegardés dans chaque fichier. Vous pouvez ensuite importer les fichiers dans l’entité juridique consolidée.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

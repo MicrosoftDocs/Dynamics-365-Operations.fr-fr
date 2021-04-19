@@ -2,11 +2,9 @@
 title: Escomptes de règlement pour les trop-perçus
 description: Cet article fournit des scénarios qui indiquent comment un paiement est assuré lorsque le client bénéficie d’un escompte de règlement tout en payant un montant supérieur.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7740d64166e08d9347ea4648b1fd3c60c6d6ee21
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be501c049ae7b884e317cbf3bd1918fec3fb421d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232535"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830488"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Escomptes de règlement pour les trop-perçus
 
@@ -68,7 +66,7 @@ Les écritures comptables suivantes sont générées pour le paiement et le règ
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
 | Escompte de règlement (le champ **Compte principal pour les remises client** sur la page **Escomptes de règlement**)                 | 10,50        |               |
 | Module Comptabilité client                                                                                              |              | 10,50         |
-| Escompte de règlement client (le champ **Client - Escompte de règlement** sur la page **Comptes pour transactions automatiques**) |              | 0,50          |
+| Escompte de règlement client (le champ **Client – Escompte de règlement** sur la page **Comptes pour transactions automatiques**) |              | 0,50          |
 | Module Comptabilité client                                                                                              | 0,50         |               |
 
 ### <a name="scenario-2"></a>Scénario 2

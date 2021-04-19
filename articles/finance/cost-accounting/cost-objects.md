@@ -2,11 +2,9 @@
 title: Dimensions d’objets de coût
 description: Lorsque vous analysez les coûts, vous utilisez des dimensions d’élément de coût pour déterminer le flux des coûts. Vous utilisez les dimensions d’objet de coût pour déterminer où vous devez affecter des coûts. Cette rubrique fournit des informations sur les dimensions d’objet de coût.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMCostObject
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 77b538ef1b427fba28bbd130cff301c4c3fcc9a9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20ae6295389fa3cbaa7c90844d2a90f1e38387c4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226340"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818775"
 ---
 # <a name="cost-object-dimensions"></a>Dimensions d’objets de coût
 

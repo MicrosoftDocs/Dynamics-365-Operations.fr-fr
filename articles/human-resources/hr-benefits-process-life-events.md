@@ -2,11 +2,9 @@
 title: Traitement des événements de vie
 description: Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resources, chaque employé peut rencontrer divers changements d’événement de vie.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cfb0fc54e3904655cea0c795a46c540bd2a529a2
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 461f90c3da8fa5b2db14b6dd67a0c19f7eabe867
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466252"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793799"
 ---
 # <a name="process-life-events"></a>Traitement des événements de vie
 
@@ -33,7 +31,7 @@ Pendant le cycle de vie des employés dans Microsoft Dynamics 365 Human Resource
 
 Avant de pouvoir traiter des événements de vie, vous devez avoir déjà exécuté l’inscription ouverte au moins une fois au cours d’une période d’embauche. Aux États-Unis, l’inscription ouverte est généralement une fois par an. En dehors des États-Unis, l’inscription ouverte peut être exécutée au moment de l’embauche. Un collaborateur n’a pas besoin de sélectionner un régime de prestations pour que les événements de vie soient traités, mais ils doivent avoir été inclus dans le processus d’inscription ouverte. 
 
-Utilisez le traitement des événements de vie lorsque vous avez des collaborateurs dont les événements de vie ont lieu à une date ultérieure. Cet événement traitera tous les événements de vie qui n’ont pas été traités (comme les événements de vie futurs ou les événements de vie ajoutés qui ne sont pas spécifiques à un collaborateur - un exemple est un nouvel avantage). Les événements de vie en temps réel sont cachés.
+Utilisez le traitement des événements de vie lorsque vous avez des collaborateurs dont les événements de vie ont lieu à une date ultérieure. Cet événement traitera tous les événements de vie qui n’ont pas été traités (comme les événements de vie futurs ou les événements de vie ajoutés qui ne sont pas spécifiques à un collaborateur – un exemple est un nouvel avantage). Les événements de vie en temps réel sont cachés.
 
 Par exemple, si aujourd’hui est le 1er février et que le 14 février, le collaborateur Joe Smith doit changer d’entité juridique, si vous exécutez le traitement des événements de vie pour le 15 février, le système traite tous les événements jusqu’au 15 février. 
 

@@ -2,11 +2,9 @@
 title: Planification budgétaire
 description: L’objectif de cet atelier consiste à fournir aux partenaires une vue guidée des mises à jour de fonctionnalités Microsoft Dynamics 365 Finance dans la zone de planification budgétaire. Cet atelier pratique consiste à illustrer un exemple de configuration rapide du module planification budgétaire et à présenter l’accomplissement de la planification budgétaire à l’aide de cette configuration.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210407"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822225"
 ---
 # <a name="budget-planning"></a>Planification budgétaire
 
@@ -39,7 +37,7 @@ L’objectif de cet atelier consiste à fournir aux partenaires une vue guidée 
 <a name="prerequisites"></a>Conditions préalables 
 ------------------
 
-Pour ce didacticiel, vous devez accéder à l’environnement Microsoft Dynamics 365 Finance avec les données de démonstration de Contoso, et bénéficier des droits d’administrateur sur l’instance. N’utilisez pas le mode privé du navigateur pour l’atelier pratique - déconnectez-vous de tout autre compte dans le navigateur si nécessaire et connectez-vous à l’aide des informations d’identification de l’administrateur. Lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Cette opération crée un cookie persistant dont l’application Excel a besoin actuellement. Si vous vous connectez à l’application via un navigateur autre qu’IE, vous êtes invité à vous connecter dans l’application Excel. Lorsque vous cliquez sur « Connexion » dans l’application Excel, une fenêtre contextuelle d’IE s’ouvre et lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Si cliquer dans « Connexion » dans l’application Excel ne produit aucun effet, alors vous devez désactiver le cache des cookies d’IE.
+Pour ce didacticiel, vous devez accéder à l’environnement Microsoft Dynamics 365 Finance avec les données de démonstration de Contoso, et bénéficier des droits d’administrateur sur l’instance. N’utilisez pas le mode privé du navigateur pour l’atelier pratique – déconnectez-vous de tout autre compte dans le navigateur si nécessaire et connectez-vous à l’aide des informations d’identification de l’administrateur. Lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Cette opération crée un cookie persistant dont l’application Excel a besoin actuellement. Si vous vous connectez à l’application via un navigateur autre qu’IE, vous êtes invité à vous connecter dans l’application Excel. Lorsque vous cliquez sur « Connexion » dans l’application Excel, une fenêtre contextuelle d’IE s’ouvre et lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Si cliquer dans « Connexion » dans l’application Excel ne produit aucun effet, alors vous devez désactiver le cache des cookies d’IE.
 
 ## <a name="scenario-overview"></a>**Vue d’ensemble du scénario**
 Julia travaille en tant que gestionnaire des finances dans les parcs de divertissements de Contoso en Allemagne (DEMF). À mesure que l’exercice fiscal 2016 s’approche, elle doit travailler sur le paramétrage du budget de la société pour l’année suivante. La préparation de budget se présente comme suit :

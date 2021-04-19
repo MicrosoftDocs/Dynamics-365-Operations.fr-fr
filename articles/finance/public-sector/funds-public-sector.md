@@ -2,11 +2,9 @@
 title: Fonds dans le secteur public
 description: Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerFund, LedgerFundType
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 332cbd7278b66e5dc4784c08f26fd28ec45bbd91
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1b19b4df4a5c28f4a13aa6ce5e8aec1b9cd06e75
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258154"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839729"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 
@@ -75,9 +73,8 @@ Voici une liste de certains fonds qui peuvent être utilisés par une municipali
 
 Le tableau suivant présente affiche ces fonds regroupés par classe et type de fonds.
 
-|                |                        |                 |                                  |
+| Classe de fonds | Type de fonds          | Numéro de fonds | Nom du fonds                    |
 |----------------|------------------------|-----------------|----------------------------------|
-| **Classe de fonds** | **Type de fonds**          | **Numéro de fonds** | **Nom du fonds**                    |
 | Gouvernemental   | Fonds général           | 1103            | Fonds général                     |
 |                | Fonds de financement particulier  | 1343            | École de technologie             |
 |                |                        | 1372            | Technologies de l’information           |

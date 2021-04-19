@@ -2,11 +2,9 @@
 title: Prise en charge de la double devise pour la taxe
 description: Cette rubrique explique comment étendre la fonctionnalité comptable Double devise dans le domaine fiscal, ainsi que l’impact sur le calcul de la taxe et la validation
 author: EricWang
-manager: Ann Beebe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3f7ca56fef636431e152b2db424f1f972a507721
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212203"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832968"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Prise en charge de la double devise pour la taxe
 [!include [banner](../includes/banner.md)]

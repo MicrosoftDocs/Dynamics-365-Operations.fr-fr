@@ -2,11 +2,9 @@
 title: Approvisionnements dans le secteur public en France
 description: Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics.
 author: rschloma
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, PurchAgreement, SysPolicy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5277c953f3548baa58e5f265d0ecafb2e4c6e220
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d45dbf714988c72ee3a8e2dff75cc637f89d543
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206073"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826071"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 

@@ -2,11 +2,9 @@
 title: Types de journaux comptables
 description: Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour les journaux financiers.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 135611ddf7e54a28a43f5f0795c993581d377550
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34390014e0094518df45b1cc38e40ca4aa82de54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248973"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823690"
 ---
 # <a name="ledger-journal-types"></a>Types de journaux comptables
 
@@ -39,8 +37,8 @@ Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour le
 | Budget                            | Traiter les affectations du budget. Pour utiliser ce type de journal, sélectionnez l’option **Activer l’affectation budgétaire** sur la page **Paramètres de comptabilité**. Les entrées du journal des budgets comprennent des informations basées sur les comptes généraux définis sur la page **Définitions de validation**.                                                        |                                                                |
 | Acceptation de la lettre de change  | Créer des transactions d’acceptation client pour les lettres de change.             | Journal de création des lettres de change, Journal de renouvellement des lettres de change |
 | Remise en banque de lettres de change          | Créer un fichier de remise de lettre de change qui peut être envoyé à la banque de votre organisation. Pour utiliser ce type de journal, désactivez l’option **Règlement automatique** sur la page **Paramètres** **de la comptabilité client**.            | Remise                                                     |
-| Création des lettres de change    | Créer des transactions de création de lettres de change client. Pour utiliser ce type de journal, désactivez l’option **Créer et valider automatiquement le journal de création lors de la validation des factures** sur la page **Modes de paiement - clients**.   | Journal de création des lettres de change                                  |
-| Client - Paiements                  | Créer des transactions de paiement client.                             | Journal des paiements             |
+| Création des lettres de change    | Créer des transactions de création de lettres de change client. Pour utiliser ce type de journal, désactivez l’option **Créer et valider automatiquement le journal de création lors de la validation des factures** sur la page **Modes de paiement – clients**.   | Journal de création des lettres de change                                  |
+| Client – Paiements                  | Créer des transactions de paiement client.                             | Journal des paiements             |
 | Lettres de change client impayées | Créer des transactions de lettres de change client impayées.                    | Journal des lettres de change impayées                               |
 | Renouvellement de lettres de change  | Créer des transactions de renouvellement de lettres de change client.                     | Journal de renouvellement des lettres de change                                |
 | Règlement des lettres de change client  | Créer des transactions de règlement de lettres de change client.                       | Journal de règlement des lettres de change                                |
@@ -51,12 +49,12 @@ Cette rubrique décrit les types de journaux que vous pouvez paramétrer pour le
 | Décaissement de la paie              | Émettre des paiements basés sur les bordereaux de salaire. Vous ne pouvez pas entrer manuellement des transactions dans ce journal. Vous devez générer les bordereaux de salaire puis envoyer ces instructions pour le paiement.                                                                                                                                                              |                                                                |
 | Périodique                          | Créer des transactions périodiques pour le journal périodique.                                                                                                                                                                                                                                                                                                      | Journaux périodiques                                              |
 | Valider les immobilisations                 | Valider des transactions d’immobilisation.                                                                                                                                                                                                                                                                                                                              | Immobilisations                                                   |
-| Projet - dépenses                | Créer des transactions de dépense du projet.                                                                                                                                                                                                                                                                                                                        | Dépense                                                        |
+| Projet – dépenses                | Créer des transactions de dépense du projet.                                                                                                                                                                                                                                                                                                                        | Dépense                                                        |
 | Ajustement de la devise de déclaration     | Créer des ajustements dans la devise de déclaration pour les soldes des comptes généraux.               | Journaux des ajustements de la devise de déclaration                         |
 | Transactions statistiques            | Créer des transactions de statistiques.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Remises de billets à ordre            | Créer une remise de billet à ordre qui peut être envoyée à la banque de votre organisation.                                                                                                                                                                                                                                                                      | Journal des remises                                             |
-| Fournisseur - Paiements               | Créer des transactions de déboursement fournisseur.                                                                                                                                                                                                                                                                                                                    | Journal des paiements                                                |
-| Création des billets à ordre       | Créer des billets à ordre fournisseur comme mode de paiement. Pour utiliser ce type de journal, désactivez l’option **Créer et valider automatiquement le journal de création lors de la validation des factures** sur la page **Modes de paiement - fournisseurs**.                                                                                                                                          | Journal de création des billets à ordre                                   |
+| Fournisseur – Paiements               | Créer des transactions de déboursement fournisseur.                                                                                                                                                                                                                                                                                                                    | Journal des paiements                                                |
+| Création des billets à ordre       | Créer des billets à ordre fournisseur comme mode de paiement. Pour utiliser ce type de journal, désactivez l’option **Créer et valider automatiquement le journal de création lors de la validation des factures** sur la page **Modes de paiement – fournisseurs**.                                                                                                                                          | Journal de création des billets à ordre                                   |
 | Registre de factures fournisseur hors comptabilité | Créer des transactions de facture fournisseur qui n’ont pas encore été validées dans un compte d’arrivée temporaire.                                                                                                                                                                                                                                                             | Registre de factures fournisseur excluant les détails de validation                  |
 | Registre de factures fournisseur               | Créer des transactions de registre de factures fournisseur.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Enregistrement de facture fournisseur          | Permet de valider les factures fournisseur qui figurent dans un journal.                                                                                                                                                                                                                                                                                                                 | Journal des factures                                                |

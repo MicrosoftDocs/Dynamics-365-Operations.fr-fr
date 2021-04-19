@@ -2,11 +2,9 @@
 title: Nouveautés ou modifications dans Dynamics 365 Human Resources (21 janvier 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources au 21 janvier 2021.
 author: marcelbf
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fc3bb035686a46030514aca1f5ad03a2681845fd
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 14df61a68ed402365bd26257cfc5e9b6b4c14db3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463524"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5803367"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (21 janvier 2021)
 
@@ -59,7 +57,7 @@ Les correctifs de bogues suivants sont compris dans cette version.
 > [!NOTE]
 > Notre objectif est de vous fournir ces informations le plus rapidement possible. Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.
 
-| Numéro du problème | Sortie |  Description  |
+| Numéro du problème | Sortie |  Description |
 | --- | --- | --- |
 | 533079 | Erreur de navigation « Le formulaire a été appelé de manière incorrecte » lorsque nous essayons d’examiner les déductions. | Correction d’une erreur lors de la recherche des déductions d’avantages avec la vue **À partir du**. |
 | 543641 | Code postal non renseigné sur la génération d’états électroniques.  | Correction d’un bug interne sur le code postal n’apparaissant pas dans les rapports électroniques ACA pour la gestion des avantages lorsque le code de couverture est de M à Q. |

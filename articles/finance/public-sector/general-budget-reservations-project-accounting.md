@@ -2,11 +2,9 @@
 title: Comptabilité de projet avec des réservations budgétaires générales
 description: Cette rubrique fournit des informations sur la comptabilité de projet qui utilise les réservations budgétaires générales pour le secteur public.
 author: AlexRenney
-manager: AnnBe
 ms.date: 04/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetReservation_PSN
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cf55723007580ec2e6e19deb23fff5b9795b54c6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0de631891e2ec146541218be2569f92f53f12ca8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258140"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820463"
 ---
 # <a name="project-accounting-with-general-budget-reservations"></a>Comptabilité de projet avec des réservations budgétaires générales
 

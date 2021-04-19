@@ -2,11 +2,9 @@
 title: Ajuster les baux
 description: La rubrique explique comment ajuster un bail. Un ajustement peut être nécessaire si les conditions du bail sont modifiées, si le bail est prolongé ou si d’autres circonstances changent.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1dce99e9fb553cce8de9cefc7e01c8755e9d2090
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219985"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825769"
 ---
 # <a name="adjust-leases"></a>Ajuster les baux
 
@@ -39,51 +37,51 @@ Pour obtenir des indications spécifiques sur les transactions d’ajustement de
 
 ## <a name="lease-adjustment-wizard"></a>Assistant d’ajustement de bail
 
-Procédez comme suit pour modifier un bail. Les données modifiées mettront à jour les échéanciers de bail après la validation depuis l'assistant **Ajustement de bail**. Vous pouvez enregistrer votre travail et fermer l'assistant à tout moment, puis revenir plus tard pour reprendre votre travail.
+Procédez comme suit pour modifier un bail. Les données modifiées mettront à jour les échéanciers de bail après la validation depuis l’assistant **Ajustement de bail**. Vous pouvez enregistrer votre travail et fermer l’assistant à tout moment, puis revenir plus tard pour reprendre votre travail.
 
-Procédez comme suit pour ouvrir l'assistant **Ajustement de bail** à partir du résumé du bail.
+Procédez comme suit pour ouvrir l’assistant **Ajustement de bail** à partir du résumé du bail.
 
 1. Accédez à **Location d’actifs \> Baux \> Récapitulatif du bail**. 
 2. Sélectionnez le bail à modifier, puis sélectionnez **Assistant d’ajustement**.
-3. Suivez les invites de l'assistant pour saisir les modifications requises.
+3. Suivez les invites de l’assistant pour saisir les modifications requises.
 
-Procédez comme suit pour ouvrir l'assistant **Ajustement de bail** dans la page **Ajustements de bail**, pour un ajustement qui est déjà en cours.
+Procédez comme suit pour ouvrir l’assistant **Ajustement de bail** dans la page **Ajustements de bail**, pour un ajustement qui est déjà en cours.
 
 1.  Accédez à **Bail \> Baux \> Ajustements de bail**.
-2.  Sélectionnez un bail dont le statut d'ajustement est **En cours**, puis sélectionnez **Assistant d’ajustement**.
+2.  Sélectionnez un bail dont le statut d’ajustement est **En cours**, puis sélectionnez **Assistant d’ajustement**.
 3.  Entrez les dates appropriées dans les champs **Date de début de la modification** et **Date de validation**.
 4.  Sélectionnez **Suivant**.
 
     Le bail est maintenant ajouté à la page **Ajustements de bail** et vous pouvez saisir les nouvelles informations.
 
-    Une fois le bail modifié, les champs relatifs aux droits d'utilisation s'appliquent. Si aucun coût direct initial, aucune incitation à la location, aucun paiement anticipé ou aucun coût de démantèlement n’est associé au bail modifié, vous devez laisser les champs correspondants vides. Les montants d’origine ne s’appliqueront pas au bail mis à jour. 
+    Une fois le bail modifié, les champs relatifs aux droits d’utilisation s’appliquent. Si aucun coût direct initial, aucune incitation à la location, aucun paiement anticipé ou aucun coût de démantèlement n’est associé au bail modifié, vous devez laisser les champs correspondants vides. Les montants d’origine ne s’appliqueront pas au bail mis à jour. 
 
     Par exemple, un bailleur offre une incitation de 1 000 $ pour accepter une prolongation du bail. Dans ce cas, lorsque vous modifiez le bail pour tenir compte de l’extension, vous devez entrer **1 000** dans le champ **Incitations à la location résultant de la modification**.
 
-    Les lignes d'échéancier de paiement affichent désormais tous les paiements du mois et des mois suivants dans le champ **Date de début de la modification**. Les modifications étant prévisionnelles, les échéanciers de paiement ne peuvent pas commencer avant le début de la modification. Pour afficher les échéances de paiement antérieures à la date de début de la modification, accédez à la page **Historique de version des baux**.
+    Les lignes d’échéancier de paiement affichent désormais tous les paiements du mois et des mois suivants dans le champ **Date de début de la modification**. Les modifications étant prévisionnelles, les échéanciers de paiement ne peuvent pas commencer avant le début de la modification. Pour afficher les échéances de paiement antérieures à la date de début de la modification, accédez à la page **Historique de version des baux**.
 
 8.  Sélectionnez **Suivant**.
 
-    La page suivante présente des détails clés sur l'ajustement prévu du contrat de location, comme la valeur comptable du passif locatif avant la modification et le nouveau passif locatif prévu après la modification. La page affiche également un aperçu de l'entrée de journal pour l'ajustement de bail prévu.
+    La page suivante présente des détails clés sur l’ajustement prévu du contrat de location, comme la valeur comptable du passif locatif avant la modification et le nouveau passif locatif prévu après la modification. La page affiche également un aperçu de l’entrée de journal pour l’ajustement de bail prévu.
 
-9.  Sélectionnez **Soumettre au workflow** pour soumettre l'ajustement du bail au système de workflow si le workflow d'ajustement de bail est actif et que l'ajustement n'a pas encore été approuvé. Pour plus d’informations sur l’utilisation d’un workflow d'ajustement de bail, voir [Utiliser des workflows d'ajustement de bail](use-create-lease-wrkflw.md).
+9.  Sélectionnez **Soumettre au workflow** pour soumettre l’ajustement du bail au système de workflow si le workflow d’ajustement de bail est actif et que l’ajustement n’a pas encore été approuvé. Pour plus d’informations sur l’utilisation d’un workflow d’ajustement de bail, voir [Utiliser des workflows d’ajustement de bail](use-create-lease-wrkflw.md).
 
     > [!NOTE]
-    > À ce stade, le système recalcule les variables d'ajustement pour vérifier qu'aucune transaction n'a été imputée au contrat de location depuis le calcul initial de la synthèse d'ajustement et de l'écriture dans le journal d'ajustement. Si des valeurs changent, la grille de synthèse des ajustements est mise à jour et vous pouvez consulter les informations avant de soumettre à nouveau les ajustements de bail au système de workflow.
+    > À ce stade, le système recalcule les variables d’ajustement pour vérifier qu’aucune transaction n’a été imputée au contrat de location depuis le calcul initial de la synthèse d’ajustement et de l’écriture dans le journal d’ajustement. Si des valeurs changent, la grille de synthèse des ajustements est mise à jour et vous pouvez consulter les informations avant de soumettre à nouveau les ajustements de bail au système de workflow.
 
-10. Si un workflow n'est pas actif ou si l'ajustement du bail a été approuvé, sélectionnez **Terminer** pour traiter les modifications et enregistrer l'écriture dans le journal d'ajustement.
+10. Si un workflow n’est pas actif ou si l’ajustement du bail a été approuvé, sélectionnez **Terminer** pour traiter les modifications et enregistrer l’écriture dans le journal d’ajustement.
 
     > [!NOTE] 
-    > À ce stade, le système recalcule les variables d'ajustement pour vérifier qu'aucune transaction n'a été imputée au contrat de location depuis le calcul initial de la synthèse d'ajustement et de l'écriture dans le journal d'ajustement. Si des valeurs changent, la grille de synthèse des ajustements est mise à jour et vous pouvez consulter les modifications avant de sélectionner **Terminer**. Si le workflow est actif et que l'ajustement du bail a été approuvé, toute modification apportée à la synthèse des ajustements entraînera le rétablissement du statut d'approbation sur **Non soumis**. Dans ce cas, vous devez soumettre à nouveau l'ajustement de bail au système de workflow.
+    > À ce stade, le système recalcule les variables d’ajustement pour vérifier qu’aucune transaction n’a été imputée au contrat de location depuis le calcul initial de la synthèse d’ajustement et de l’écriture dans le journal d’ajustement. Si des valeurs changent, la grille de synthèse des ajustements est mise à jour et vous pouvez consulter les modifications avant de sélectionner **Terminer**. Si le workflow est actif et que l’ajustement du bail a été approuvé, toute modification apportée à la synthèse des ajustements entraînera le rétablissement du statut d’approbation sur **Non soumis**. Dans ce cas, vous devez soumettre à nouveau l’ajustement de bail au système de workflow.
 
-    Sur la page **Ajustements de bail**, le statut de l'ajustement est maintenant défini sur **Terminé**.
+    Sur la page **Ajustements de bail**, le statut de l’ajustement est maintenant défini sur **Terminé**.
 
-    Sur la page **Ajustements de bail**, vous pouvez toujours afficher les raccourcis **Vue d'ensemble de l'ajustement** et **Aperçu de l'entrée d'ajustement**. Les détails du bail et les informations de date sont affichés dans l'historique des versions de ce bail.
+    Sur la page **Ajustements de bail**, vous pouvez toujours afficher les raccourcis **Vue d’ensemble de l’ajustement** et **Aperçu de l’entrée d’ajustement**. Les détails du bail et les informations de date sont affichés dans l’historique des versions de ce bail.
 
-    Une nouvelle version du bail et un nouvel ensemble d'échéanciers sont désormais créés à l'aide des informations modifiées. 
+    Une nouvelle version du bail et un nouvel ensemble d’échéanciers sont désormais créés à l’aide des informations modifiées. 
 
 13. Pour afficher les nouveaux échéanciers, accédez au bail, puis sélectionnez **Registres**.
-14. Pour afficher l'échéancier de paiement nouvellement généré, sélectionnez **Échéancier de paiement**.
+14. Pour afficher l’échéancier de paiement nouvellement généré, sélectionnez **Échéancier de paiement**.
 15. Pour afficher le nouvel échéancier d’amortissement du passif locatif généré à partir des nouvelles informations, fermez la page **Échéancier de paiement** et ouvrez la page **Programme d’amortissement du passif**.
 16. Pour afficher le nouvel échéancier d’amortissement des actifs, ouvrez la page **Programmes d’amortissement des actifs** de la page **Détails des registres**.
 17. Pour afficher l’entrée de journal d’ajustement, sélectionnez **Journaux \> Journal de location d’actifs**.
@@ -93,35 +91,35 @@ Procédez comme suit pour ouvrir l'assistant **Ajustement de bail** dans la page
 Procédez comme suit pour supprimer un ajustement de bail en cours.
 
 1.  Accédez à **Bail \> Baux \> Ajustements de bail**.
-2.  Sélectionnez l'ajustement de bail en cours pour l'annuler.
-3.  Sélectionnez **Annuler l'ajustement**. 
+2.  Sélectionnez l’ajustement de bail en cours pour l’annuler.
+3.  Sélectionnez **Annuler l’ajustement**. 
 4.  Cliquez sur **OK**.
 
     > [!NOTE] 
-    > Si vous sélectionnez **Annuler** dans l'assistant **Ajustement de bail**, vous annulez la modification la plus récente effectuée dans l'assistant, mais vous ne supprimez pas l'ajustement en cours.
+    > Si vous sélectionnez **Annuler** dans l’assistant **Ajustement de bail**, vous annulez la modification la plus récente effectuée dans l’assistant, mais vous ne supprimez pas l’ajustement en cours.
 
-## <a name="use-the-lease-adjustment-workflow"></a>Utiliser le workflow d'ajustement de bail
+## <a name="use-the-lease-adjustment-workflow"></a>Utiliser le workflow d’ajustement de bail
 
-Cette section explique comment utiliser le workflow d'ajustement de bail. Le workflow d'ajustement de bail vous aide à gérer les ajustements de bail de manière cohérente en fournissant un ensemble d'étapes d'approbation et en les affectant à des utilisateurs spécifiques chargés d'approuver un ajustement de bail avant qu'il ne devienne définitif. Une fois l'ajustement du bail approuvé dans le workflow, vous pouvez utiliser l'assistant **Ajustement de bail** pour terminer l'ajustement du bail.
+Cette section explique comment utiliser le workflow d’ajustement de bail. Le workflow d’ajustement de bail vous aide à gérer les ajustements de bail de manière cohérente en fournissant un ensemble d’étapes d’approbation et en les affectant à des utilisateurs spécifiques chargés d’approuver un ajustement de bail avant qu’il ne devienne définitif. Une fois l’ajustement du bail approuvé dans le workflow, vous pouvez utiliser l’assistant **Ajustement de bail** pour terminer l’ajustement du bail.
 
 1.  Pour soumettre un ajustement de bail pour approbation, accédez à **Bail \> Baux \> Ajustements de bail**.
-2.  Sélectionnez l'ID de bail de l'ajustement de bail, puis sélectionnez **Assistant d’ajustement**.
-3.  Sur la dernière page de l'assistant, sélectionnez **Soumettre pour approbation**.
-4.  Entrez un commentaire sur l'ajustement, puis sélectionnez **OK**.
+2.  Sélectionnez l’ID de bail de l’ajustement de bail, puis sélectionnez **Assistant d’ajustement**.
+3.  Sur la dernière page de l’assistant, sélectionnez **Soumettre pour approbation**.
+4.  Entrez un commentaire sur l’ajustement, puis sélectionnez **OK**.
 
-    Le statut du workflow est remplacé par **Approbation en attente** et tous les champs de l'assistant sont verrouillés pour modification.
+    Le statut du workflow est remplacé par **Approbation en attente** et tous les champs de l’assistant sont verrouillés pour modification.
 
 5.  Pour approuver un ajustement de bail, accédez à **Bail \> Baux \> Ajustements de bail**.
-6.  Sélectionnez l'ID de bail de l'ajustement de bail, puis examinez les raccourcis **Vue d'ensemble de l'ajustement** et **Aperçu de l'entrée d'ajustement**.
+6.  Sélectionnez l’ID de bail de l’ajustement de bail, puis examinez les raccourcis **Vue d’ensemble de l’ajustement** et **Aperçu de l’entrée d’ajustement**.
 7.  Sélectionnez **Flux de travail \> Approuvé**.
 
-    Sur la page **Ajustements de bail**, le statut du flux de travail est maintenant défini sur **Approuvé**. À ce stade, l'ajustement de bail est prêt à être imputé via l'écriture dans le journal d'ajustement.
+    Sur la page **Ajustements de bail**, le statut du flux de travail est maintenant défini sur **Approuvé**. À ce stade, l’ajustement de bail est prêt à être imputé via l’écriture dans le journal d’ajustement.
 
-8.  Pour continuer à traiter l'ajustement de bail et enregistrer l'écriture d'ajustement, accédez à **Bail \> Baux \> Ajustements de bail**.
-9.  Sélectionnez l'ID de bail de l'ajustement de bail, puis sélectionnez **Assistant d’ajustement**.
-10. Sélectionnez **Suivant** jusqu'à ce qu'atteindre la dernière page de l'assistant, puis sélectionnez **Terminer**.
+8.  Pour continuer à traiter l’ajustement de bail et enregistrer l’écriture d’ajustement, accédez à **Bail \> Baux \> Ajustements de bail**.
+9.  Sélectionnez l’ID de bail de l’ajustement de bail, puis sélectionnez **Assistant d’ajustement**.
+10. Sélectionnez **Suivant** jusqu’à ce qu’atteindre la dernière page de l’assistant, puis sélectionnez **Terminer**.
 
-Le système recalcule les valeurs comptables du contrat de location pour s'assurer que les variables d'ajustement qui ont été approuvées sont à jour. S'il y a des changements, le statut d'approbation est redéfini sur **Brouillon**, et vous devez soumettre à nouveau l'ajustement de bail au système de flux de travail.
+Le système recalcule les valeurs comptables du contrat de location pour s’assurer que les variables d’ajustement qui ont été approuvées sont à jour. S’il y a des changements, le statut d’approbation est redéfini sur **Brouillon**, et vous devez soumettre à nouveau l’ajustement de bail au système de flux de travail.
 
 ## <a name="view-lease-versions"></a>Voir les versions de bail
 

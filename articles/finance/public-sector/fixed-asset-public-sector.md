@@ -2,11 +2,9 @@
 title: Immobilisations dans le secteur public
 description: Cet article décrit la fonctionnalité des immobilisations disponible pour le secteur public.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTransfer
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e521243684d5ff3dd0ff643b53b769e26245204
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c73ae3a98bbe66a21a4745c8f5e9cd66a518a10f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258158"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820475"
 ---
 # <a name="fixed-assets-in-the-public-sector"></a>Immobilisations dans le secteur public
 

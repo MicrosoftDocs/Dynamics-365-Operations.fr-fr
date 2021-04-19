@@ -2,11 +2,9 @@
 title: États financiers de balance comptable
 description: Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d753b99b126bf8097e8270f4774db854fa2d279
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240638"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816929"
 ---
 # <a name="trial-balance-financial-reports"></a>États financiers de balance comptable
 
@@ -46,13 +44,13 @@ Les états financiers de balance comptable utilisent les éléments constitutifs
 
 | État par défaut                                 | Définition de ligne          | Définition de colonne                              |
 |------------------------------------------------|-------------------------|------------------------------------------------|
-| Balance comptable détaillée – Par défaut               | Balance comptable - Par défaut | Balance comptable détaillée – Par défaut               |
-| Synthèse de balance comptable– Par défaut                | Balance comptable - Par défaut | Synthèse de balance comptable - Par défaut                |
-| Synthèse de balance comptable d’une année à l’autre – Par défaut | Balance comptable - Par défaut | Synthèse de balance comptable d’une année à l’autre - Par défaut |
+| Balance comptable détaillée – Par défaut               | Balance comptable – Par défaut | Balance comptable détaillée – Par défaut               |
+| Synthèse de balance comptable– Par défaut                | Balance comptable – Par défaut | Synthèse de balance comptable – Par défaut                |
+| Synthèse de balance comptable d’une année à l’autre – Par défaut | Balance comptable – Par défaut | Synthèse de balance comptable d’une année à l’autre – Par défaut |
 
 ### <a name="row-definition"></a>Définition de ligne
 
-La définition de ligne, balance comptable – Par défaut, contient une seule ligne qui rassemble tous les comptes principaux. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications. Lorsque vous affichez l’état, vous explorez la ligne unique pour afficher les détails de chaque compte. Vous pouvez modifier la définition de ligne afin qu’elle comprenne plus de détails. Pour modifier la définition de ligne Balance comptable - Par défaut afin qu’elle inclue les lignes pour tous les comptes, procédez comme suit.
+La définition de ligne, balance comptable – Par défaut, contient une seule ligne qui rassemble tous les comptes principaux. Par conséquent, n’importe qui peut générer le rapport sans avoir à apporter de modifications. Lorsque vous affichez l’état, vous explorez la ligne unique pour afficher les détails de chaque compte. Vous pouvez modifier la définition de ligne afin qu’elle comprenne plus de détails. Pour modifier la définition de ligne Balance comptable – Par défaut afin qu’elle inclue les lignes pour tous les comptes, procédez comme suit.
 
 1.  Cliquez sur **Modifier**, puis sur **Insérer des lignes à partir des dimensions**. La commande **Insérer des lignes à partir des dimensions** permet de sélectionner les dimensions que vous voulez avoir dans votre définition de ligne. Pour cette définition de ligne, vous allez utiliser **Compte principal**.
 2.  Vérifiez que **Compte principal** contient toutes les esperluettes (&) et cliquez sur **OK**.
@@ -83,7 +81,7 @@ Chaque état de balance comptable utilise une définition de colonne différente
     -   **FD** : Données financières qui contiennent uniquement des crédits
     -   **CALC** : Différence nette
     -   **CALC** : Solde de clôture
--   **Synthèse de balance comptable d’une année à l’autre - Par défaut :**
+-   **Synthèse de balance comptable d’une année à l’autre – Par défaut :**
     -   **ACCT** : Codes compte
     -   **DESC** : Description de la définition de ligne.
     -   **ATTR** : Attribut

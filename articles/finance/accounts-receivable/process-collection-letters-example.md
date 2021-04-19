@@ -2,7 +2,6 @@
 title: Exemple Traiter les lettres de relance
 description: Cette rubrique présente un exemple illustrant le processus de création, d’impression et de publication de lettres de relance.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 02/03/2021
 ms.topic: business-process
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: df4252513f9e3a02632561b4e465c98edc888ea7
-ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
+ms.openlocfilehash: 1b80532463d86dd59b867fca2ee24675396ce717
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5558309"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826345"
 ---
 # <a name="process-collection-letters-example"></a>Exemple Traiter les lettres de relance
 
@@ -34,7 +33,7 @@ Lorsque vous avez terminé, vous devez suivre les étapes suivantes.
 
 1. Accédez à **Crédit et relances \> Lettre de relance \> Paramétrer la série de lettres de relance** et paramétrez la série de lettres de relance comme indiqué dans le tableau suivant affecté au profil de validation client.
 
-|     Code lettre de relance      |     Description                            |     Devise      |     Compte principal        |     Frais en devise     |     Minimum au-dessus        |     Bloc de jours      |
+|     Code lettre de relance      |     Description                           |     Devise      |     Compte principal        |     Frais en devise     |     Minimum au-dessus        |     Bloc de jours      |
 |---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
 |     Lettre de relance 1         |     Deuxième notification avec frais        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
 |     Lettre de relance 2         |     Deuxième notification avec frais        |     USC           |     403150                |     20.00                 |     10.00                 |     3                 |

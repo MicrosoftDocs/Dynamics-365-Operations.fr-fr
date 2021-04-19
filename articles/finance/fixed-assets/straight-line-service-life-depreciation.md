@@ -2,11 +2,9 @@
 title: Amortissement linéaire sur la durée de vie
 description: Cet article donne une vue d’ensemble de la méthode d’amortissement linéaire sur la durée de vie restante.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5853265492edc88acbbd297bc5cb639b46fa0b41
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210069"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818486"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
 
@@ -79,11 +77,11 @@ Vous obtenez le même montant d’amortissement chaque année. (coûts d’acqui
 
 | Période | Calcul du montant d’amortissement annuel | Valeur nette à la fin de l’exercice |
 |--------|-------------------------------------------|---------------------------------------|
-| Année 1 | (11 000 - 1 000) / 5 = 2 000              | 9 000                                 |
-| Année 2 | (11 000 - 1 000) / 5 = 2 000              | 7 000                                 |
-| Année 3 | (11 000 - 1 000) / 5 = 2 000              | 5 000                                 |
-| Année 4 | (11 000 - 1 000) / 5 = 2 000              | 3 000                                 |
-| Année 5 | (11 000 - 1 000) / 5 = 2 000              | 1 000                                 |
+| Année 1 | (11 000 – 1 000) / 5 = 2 000              | 9 000                                 |
+| Année 2 | (11 000 – 1 000) / 5 = 2 000              | 7 000                                 |
+| Année 3 | (11 000 – 1 000) / 5 = 2 000              | 5 000                                 |
+| Année 4 | (11 000 – 1 000) / 5 = 2 000              | 3 000                                 |
+| Année 5 | (11 000 – 1 000) / 5 = 2 000              | 1 000                                 |
 
 ## <a name="example-straight-line-depreciation-of-a-modified-fixed-asset"></a>Exemple : amortissement linéaire d’une immobilisation modifiée
 
@@ -93,12 +91,12 @@ La durée de vie de l’ajustement d’acquisition est identique à celle de l�
 
 | Période | Calcul du montant d’amortissement annuel | Valeur comptable nette à la fin de l’exercice |
 |--------|-------------------------------------------|---------------------------------------|
-| Année 1 | 10 000 / 5 = 2 000                        | 11 000 - 2 000 = 9 000                |
+| Année 1 | 10 000 / 5 = 2 000                        | 11 000 – 2 000 = 9 000                |
 | Année 2 | 4 000 (ajustement d’acquisition)            | 9 000 + 4 000 =13 000                 |
-| Année 2 | 14 000 / 5 = 2 800                        | 13 000 - 2 800 = 10 200               |
-| Année 3 | 14 000 / 5 = 2 800                        | 10 200 - 2 800 = 7 400                |
-| Année 4 | 14 000 / 5 = 2 800                        | 7 400 - 2 800 = 4 600                 |
-| Année 5 | 14 000 / 5 = 2 800                        | 4 600 - 2 800 = 1 800                 |
+| Année 2 | 14 000 / 5 = 2 800                        | 13 000 – 2 800 = 10 200               |
+| Année 3 | 14 000 / 5 = 2 800                        | 10 200 – 2 800 = 7 400                |
+| Année 4 | 14 000 / 5 = 2 800                        | 7 400 – 2 800 = 4 600                 |
+| Année 5 | 14 000 / 5 = 2 800                        | 4 600 – 2 800 = 1 800                 |
 | Année 6 | 800 restants\*                           | 1 800 – 800 = 1 000                   |
 
 \*Comme le montant restant est inférieur au montant d’amortissement, seul le montant restant moins la valeur résiduelle est pris.

@@ -2,11 +2,9 @@
 title: Résultats des modèles Machine Learning (version préliminaire)
 description: Cette rubrique traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 06/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: dcdc6d501f09b639eb0d7504e0f760a66bb3dbc7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208531"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818750"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Résultats des modèles Machine Learning (version préliminaire)
 
@@ -61,7 +59,7 @@ Cependant, pour une compréhension plus approfondie, il convient de noter plusie
 
 Un calcul rapide montre que la précision de ce modèle est de (70 + 10 + 3) ÷ 100, ou 0,83. En apparence, ce résultat semble meilleur que celui du modèle multi-classes précédent (modèle 1), qui a une précision de 0,73. Mais est-ce mieux ?
 
-Pour commencer à répondre à cette question, considérez l’exactitude d’une supposition naïve. Pour un problème de classification, une simple estimation prédira toujours la classe la plus courante. Pour le modèle 1, cette estimation sera "ponctuelle" et produira une précision de 0,50. L’estimation pour le modèle 2 sera "ponctuelle" et produira une précision de 0,80. Comme le modèle 1 améliore la supposition naïve de 0,73 - 0,50 = 0,23, tandis que le modèle 2 améliore la supposition naïve de 0,83 - 0,80 = 0,03, le modèle 1 est un meilleur modèle, même s’il a une précision moindre. Le calcul révèle qu’une évaluation efficace de la qualité d’un modèle nécessite plus de contexte que la valeur de précision.
+Pour commencer à répondre à cette question, considérez l’exactitude d’une supposition naïve. Pour un problème de classification, une simple estimation prédira toujours la classe la plus courante. Pour le modèle 1, cette estimation sera "ponctuelle" et produira une précision de 0,50. L’estimation pour le modèle 2 sera "ponctuelle" et produira une précision de 0,80. Comme le modèle 1 améliore la supposition naïve de 0,73 – 0,50 = 0,23, tandis que le modèle 2 améliore la supposition naïve de 0,83 – 0,80 = 0,03, le modèle 1 est un meilleur modèle, même s’il a une précision moindre. Le calcul révèle qu’une évaluation efficace de la qualité d’un modèle nécessite plus de contexte que la valeur de précision.
 
 Un autre aspect mérite d’être noté. Prenons un scénario dans lequel un test médical est utilisé pour détecter une maladie chez un patient. Ce problème est un problème de classification binaire où un résultat positif indique que le patient a la maladie. Dans ce scénario, vous devez réfléchir à l’impact des erreurs suivantes :
 
