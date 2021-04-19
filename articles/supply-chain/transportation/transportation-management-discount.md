@@ -2,11 +2,9 @@
 title: Remises de gestion du transport
 description: Cette rubrique décrit les options de configuration des remises pour les frais de transport.
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,24 +12,24 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: fdee8315573faa09c502fa7792215a047d0e3c88
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a44907442241ed231d9a9919c030d46cf57a8850
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233485"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828344"
 ---
-# <a name="transportation-management-discounts"></a><span data-ttu-id="0bed3-103">Remises de gestion du transport</span><span class="sxs-lookup"><span data-stu-id="0bed3-103">Transportation management discounts</span></span>
+# <a name="transportation-management-discounts"></a><span data-ttu-id="5da56-103">Remises de gestion du transport</span><span class="sxs-lookup"><span data-stu-id="5da56-103">Transportation management discounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0bed3-104">La gestion des transports vous permet de configurer des remises à appliquer en plus du prix de transport calculé par le moteur de tarification.</span><span class="sxs-lookup"><span data-stu-id="0bed3-104">Transportation management lets you set up discounts to be applied on top of the transportation price calculated by the rating engine.</span></span> <span data-ttu-id="0bed3-105">Vous pouvez spécifier chaque remise en pourcentage des frais ou en montant fixe.</span><span class="sxs-lookup"><span data-stu-id="0bed3-105">You can specify each discount either as a percentage of charges or as a fixed amount.</span></span>
+<span data-ttu-id="5da56-104">La gestion des transports vous permet de configurer des remises à appliquer en plus du prix de transport calculé par le moteur de tarification.</span><span class="sxs-lookup"><span data-stu-id="5da56-104">Transportation management lets you set up discounts to be applied on top of the transportation price calculated by the rating engine.</span></span> <span data-ttu-id="5da56-105">Vous pouvez spécifier chaque remise en pourcentage des frais ou en montant fixe.</span><span class="sxs-lookup"><span data-stu-id="5da56-105">You can specify each discount either as a percentage of charges or as a fixed amount.</span></span>
 
-<span data-ttu-id="0bed3-106">Pour configurer des remises pour la gestion du transport, accédez à **Gestion des transports \> Configurer \> Classement \> Remises**.</span><span class="sxs-lookup"><span data-stu-id="0bed3-106">To set up discounts for transportation management, go to **Transportation management \> Setup \> Rating \> Discounts**.</span></span>
+<span data-ttu-id="5da56-106">Pour configurer des remises pour la gestion du transport, accédez à **Gestion des transports \> Configurer \> Classement \> Remises**.</span><span class="sxs-lookup"><span data-stu-id="5da56-106">To set up discounts for transportation management, go to **Transportation management \> Setup \> Rating \> Discounts**.</span></span>
 
-<span data-ttu-id="0bed3-107">Vous pouvez choisir de transmettre la remise à votre client (en définissant le type de remise sur client) ou de la conserver dans l’entreprise (en définissant le type de remise sur expéditeur).</span><span class="sxs-lookup"><span data-stu-id="0bed3-107">You can choose whether to pass the discount on to your customer (by setting the discount type to customer) or to retain it in the company (by setting the discount type to shipper).</span></span> <span data-ttu-id="0bed3-108">Cela vous permet de définir une configuration dans laquelle vous gagnez une marge sur les frais de transport calculés.</span><span class="sxs-lookup"><span data-stu-id="0bed3-108">This lets you define a setup in which you earn a margin on the calculated freight charges.</span></span>
+<span data-ttu-id="5da56-107">Vous pouvez choisir de transmettre la remise à votre client (en définissant le type de remise sur client) ou de la conserver dans l’entreprise (en définissant le type de remise sur expéditeur).</span><span class="sxs-lookup"><span data-stu-id="5da56-107">You can choose whether to pass the discount on to your customer (by setting the discount type to customer) or to retain it in the company (by setting the discount type to shipper).</span></span> <span data-ttu-id="5da56-108">Cela vous permet de définir une configuration dans laquelle vous gagnez une marge sur les frais de transport calculés.</span><span class="sxs-lookup"><span data-stu-id="5da56-108">This lets you define a setup in which you earn a margin on the calculated freight charges.</span></span>
 
-<span data-ttu-id="0bed3-109">Vous pouvez configurer plusieurs qualificatifs pour chaque remise, tels que le transporteur, le service de transporteur, les conditions de livraison, le client, la destination, etc.</span><span class="sxs-lookup"><span data-stu-id="0bed3-109">You can set up multiple qualifiers for each discount, such as carrier, carrier service, delivery terms, customer, destination, and more.</span></span>
+<span data-ttu-id="5da56-109">Vous pouvez configurer plusieurs qualificatifs pour chaque remise, tels que le transporteur, le service de transporteur, les conditions de livraison, le client, la destination, etc.</span><span class="sxs-lookup"><span data-stu-id="5da56-109">You can set up multiple qualifiers for each discount, such as carrier, carrier service, delivery terms, customer, destination, and more.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

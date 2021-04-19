@@ -2,11 +2,9 @@
 title: Vue d’ensemble de la gestion des entrepôts
 description: Utilisez la gestion des entrepôts pour surveiller et automatiser les processus d’entrepôt.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSWorkPool
 audience: Application User
@@ -15,60 +13,60 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7d48ecd834c226fb40bede7519a476bd4c5f0ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0330cb8c11252a67ad92fd028707e4135b510c9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248569"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837319"
 ---
-# <a name="warehouse-management-overview"></a><span data-ttu-id="aea21-103">Vue d’ensemble de gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="aea21-103">Warehouse management overview</span></span>
+# <a name="warehouse-management-overview"></a><span data-ttu-id="6c800-103">Vue d’ensemble de gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="6c800-103">Warehouse management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="aea21-104">Le module Gestion des entrepôts vous permet de gérer les processus d’entrepôt dans les sociétés de fabrication, distribution, et vente au détail.</span><span class="sxs-lookup"><span data-stu-id="aea21-104">The Warehouse management module lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="aea21-105">Ce module offre un large éventail de fonctions pour prendre en charge les entrepôts à un niveau optimal, à tout moment.</span><span class="sxs-lookup"><span data-stu-id="aea21-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="aea21-106">Le module Gestion des entrepôts intègre entièrement d’autres processus métier, tels que le transport, la fabrication, le contrôle de la qualité, les achats, le transfert, les ventes et les retours.</span><span class="sxs-lookup"><span data-stu-id="aea21-106">Warehouse management is fully integrated with other business processes such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
+<span data-ttu-id="6c800-104">Le module Gestion des entrepôts vous permet de gérer les processus d’entrepôt dans les sociétés de fabrication, distribution, et vente au détail.</span><span class="sxs-lookup"><span data-stu-id="6c800-104">The Warehouse management module lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="6c800-105">Ce module offre un large éventail de fonctions pour prendre en charge les entrepôts à un niveau optimal, à tout moment.</span><span class="sxs-lookup"><span data-stu-id="6c800-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="6c800-106">Le module Gestion des entrepôts intègre entièrement d’autres processus métier, tels que le transport, la fabrication, le contrôle de la qualité, les achats, le transfert, les ventes et les retours.</span><span class="sxs-lookup"><span data-stu-id="6c800-106">Warehouse management is fully integrated with other business processes such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="aea21-107">Mise en route</span><span class="sxs-lookup"><span data-stu-id="aea21-107">Get started</span></span>
-<span data-ttu-id="aea21-108">Pour commencer à travailler avec le module Gestion des entrepôts, vous devez effectuer le paramétrage des paramètres généraux d’entrepôt pour prendre en charge les processus métiers de votre société.</span><span class="sxs-lookup"><span data-stu-id="aea21-108">To start working with Warehouse management, you need to complete the setup of the general warehouse parameters to support the business processes of your company.</span></span>
+## <a name="get-started"></a><span data-ttu-id="6c800-107">Mise en route</span><span class="sxs-lookup"><span data-stu-id="6c800-107">Get started</span></span>
+<span data-ttu-id="6c800-108">Pour commencer à travailler avec le module Gestion des entrepôts, vous devez effectuer le paramétrage des paramètres généraux d’entrepôt pour prendre en charge les processus métiers de votre société.</span><span class="sxs-lookup"><span data-stu-id="6c800-108">To start working with Warehouse management, you need to complete the setup of the general warehouse parameters to support the business processes of your company.</span></span>
 
-- <span data-ttu-id="aea21-109">Accédez à la page **Paramètres de gestion des entrepôts** sous **Gestion des entrepôts** > **Paramétrage** pour configurer les paramètres d’entrepôt généraux.</span><span class="sxs-lookup"><span data-stu-id="aea21-109">Go to the **Warehouse management parameters** page under **Warehouse management** > **Setup** to set up general warehouse parameters.</span></span>
+- <span data-ttu-id="6c800-109">Accédez à la page **Paramètres de gestion des entrepôts** sous **Gestion des entrepôts** > **Paramétrage** pour configurer les paramètres d’entrepôt généraux.</span><span class="sxs-lookup"><span data-stu-id="6c800-109">Go to the **Warehouse management parameters** page under **Warehouse management** > **Setup** to set up general warehouse parameters.</span></span>
 
-<span data-ttu-id="aea21-110">Vous devez configurer les composants pour les workflows d’entrée et de sortie des processus d’entrepôt en fonction des besoins de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="aea21-110">You must configure components for inbound and outbound warehouse process workflows according to business requirements.</span></span> <span data-ttu-id="aea21-111">Les composants les plus importants que vous devez configurer sont les modèles de vague, les modèles de travail, les pools de travail et les directives d’emplacement.</span><span class="sxs-lookup"><span data-stu-id="aea21-111">The most important components that you must configure are wave templates, work templates, work pools, and location directives.</span></span>
+<span data-ttu-id="6c800-110">Vous devez configurer les composants pour les workflows d’entrée et de sortie des processus d’entrepôt en fonction des besoins de l’entreprise.</span><span class="sxs-lookup"><span data-stu-id="6c800-110">You must configure components for inbound and outbound warehouse process workflows according to business requirements.</span></span> <span data-ttu-id="6c800-111">Les composants les plus importants que vous devez configurer sont les modèles de vague, les modèles de travail, les pools de travail et les directives d’emplacement.</span><span class="sxs-lookup"><span data-stu-id="6c800-111">The most important components that you must configure are wave templates, work templates, work pools, and location directives.</span></span>
 
-- [<span data-ttu-id="aea21-112">Vue d’ensemble de configuration de l’entrepôt</span><span class="sxs-lookup"><span data-stu-id="aea21-112">Warehouse configuration overview</span></span>](warehouse-configuration.md)
-- [<span data-ttu-id="aea21-113">Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement</span><span class="sxs-lookup"><span data-stu-id="aea21-113">Control warehouse work by using work templates and location directives</span></span>](control-warehouse-location-directives.md)
-- [<span data-ttu-id="aea21-114">Configuration des appareils mobiles pour le travail d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="aea21-114">Set up mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
-- [<span data-ttu-id="aea21-115">Paramétrer une instruction d’emplacement pour le rangement des commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="aea21-115">Set up a location directive for purchase order put-away</span></span>](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
-- [<span data-ttu-id="aea21-116">Définir un modèle de travail pour les commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="aea21-116">Set up a work template for purchase orders</span></span>](./tasks/set-up-work-template-purchase-orders.md)
+- [<span data-ttu-id="6c800-112">Vue d’ensemble de configuration de l’entrepôt</span><span class="sxs-lookup"><span data-stu-id="6c800-112">Warehouse configuration overview</span></span>](warehouse-configuration.md)
+- [<span data-ttu-id="6c800-113">Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement</span><span class="sxs-lookup"><span data-stu-id="6c800-113">Control warehouse work by using work templates and location directives</span></span>](control-warehouse-location-directives.md)
+- [<span data-ttu-id="6c800-114">Configuration des appareils mobiles pour le travail d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="6c800-114">Set up mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
+- [<span data-ttu-id="6c800-115">Paramétrer une instruction d’emplacement pour le rangement des commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="6c800-115">Set up a location directive for purchase order put-away</span></span>](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
+- [<span data-ttu-id="6c800-116">Définir un modèle de travail pour les commandes fournisseur</span><span class="sxs-lookup"><span data-stu-id="6c800-116">Set up a work template for purchase orders</span></span>](./tasks/set-up-work-template-purchase-orders.md)
 
-## <a name="warehouse-management-processes"></a><span data-ttu-id="aea21-117">Processus de gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="aea21-117">Warehouse management processes</span></span>
-- <span data-ttu-id="aea21-118">Prise en charge intégrée des documents sources pour les commandes, les retours, les ordres de transfert, les ordres de fabrication et le kanban</span><span class="sxs-lookup"><span data-stu-id="aea21-118">Integrated support for source documents for sales orders, returns, transfer orders, production orders, and kanban</span></span>  
-- <span data-ttu-id="aea21-119">Prise en charge flexible des workflows de matières entrants et sortants en fonction des requêtes</span><span class="sxs-lookup"><span data-stu-id="aea21-119">Flexible, inbound and outbound material workflow support based on queries</span></span>
-- <span data-ttu-id="aea21-120">Intégration complète avec les offres de fabrication et de transport</span><span class="sxs-lookup"><span data-stu-id="aea21-120">Full integration with the Manufacturing and Transportation offerings</span></span>
-- <span data-ttu-id="aea21-121">Contrôle total des limites de stockage et du volume de l’emplacement</span><span class="sxs-lookup"><span data-stu-id="aea21-121">Full control of location stocking limits and location volumetrics</span></span>
-- <span data-ttu-id="aea21-122">Propriétés de stock contrôlées par statut du stock</span><span class="sxs-lookup"><span data-stu-id="aea21-122">Inventory properties controlled by inventory status</span></span>
-- <span data-ttu-id="aea21-123">Prise en charge complète des articles de lot et des articles de série</span><span class="sxs-lookup"><span data-stu-id="aea21-123">Full batch and serial item support</span></span>
-- <span data-ttu-id="aea21-124">Diverses capacités de réception d’articles</span><span class="sxs-lookup"><span data-stu-id="aea21-124">Various item receiving capabilities</span></span>
-- <span data-ttu-id="aea21-125">Plusieurs stratégies de prélèvement</span><span class="sxs-lookup"><span data-stu-id="aea21-125">Multiple picking strategies</span></span>
-- <span data-ttu-id="aea21-126">Support prêt à l’emploi pour la prochaine génération de scanners de codes à barres</span><span class="sxs-lookup"><span data-stu-id="aea21-126">Out-of-the-box support for the next generation of barcode scanners</span></span>
-- <span data-ttu-id="aea21-127">Types de palette/conteneur pour les processus d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="aea21-127">Pallet/container types for warehouse processes</span></span>
-- <span data-ttu-id="aea21-128">Fonctions de comptabilité avancées</span><span class="sxs-lookup"><span data-stu-id="aea21-128">Advanced counting capabilities</span></span>
-- <span data-ttu-id="aea21-129">Impression et acheminement des étiquettes grâce à la prise en charge Zebra ZPL</span><span class="sxs-lookup"><span data-stu-id="aea21-129">Label printing and label routing with Zebra ZPL support</span></span>
-- <span data-ttu-id="aea21-130">Intégration de Business Intelligence dans Power BI</span><span class="sxs-lookup"><span data-stu-id="aea21-130">Business intelligence integration into Power BI</span></span>
-- <span data-ttu-id="aea21-131">Mouvements manuels et automatiques du stock</span><span class="sxs-lookup"><span data-stu-id="aea21-131">Manual and automatic movement of inventory</span></span>
-- <span data-ttu-id="aea21-132">Contrôle de qualité entièrement intégré (QMS)</span><span class="sxs-lookup"><span data-stu-id="aea21-132">Fully-integrated quality control (QMS)</span></span>
-- <span data-ttu-id="aea21-133">Traçabilité complète de la manutention de matériel par les collaborateurs</span><span class="sxs-lookup"><span data-stu-id="aea21-133">Full traceability of workers' material handling</span></span>
-- <span data-ttu-id="aea21-134">Traitement de vagues sortant</span><span class="sxs-lookup"><span data-stu-id="aea21-134">Outbound wave processing</span></span>
-- <span data-ttu-id="aea21-135">Prise en charge de l’emballage manuel et de la mise en conteneur automatique</span><span class="sxs-lookup"><span data-stu-id="aea21-135">Manual packing and automatic containerization support</span></span>
-- <span data-ttu-id="aea21-136">Prélèvement de groupement</span><span class="sxs-lookup"><span data-stu-id="aea21-136">Cluster picking</span></span>
-- <span data-ttu-id="aea21-137">Cross-docking simple</span><span class="sxs-lookup"><span data-stu-id="aea21-137">Simple cross docking</span></span>
+## <a name="warehouse-management-processes"></a><span data-ttu-id="6c800-117">Processus de gestion des entrepôts</span><span class="sxs-lookup"><span data-stu-id="6c800-117">Warehouse management processes</span></span>
+- <span data-ttu-id="6c800-118">Prise en charge intégrée des documents sources pour les commandes, les retours, les ordres de transfert, les ordres de fabrication et le kanban</span><span class="sxs-lookup"><span data-stu-id="6c800-118">Integrated support for source documents for sales orders, returns, transfer orders, production orders, and kanban</span></span>  
+- <span data-ttu-id="6c800-119">Prise en charge flexible des workflows de matières entrants et sortants en fonction des requêtes</span><span class="sxs-lookup"><span data-stu-id="6c800-119">Flexible, inbound and outbound material workflow support based on queries</span></span>
+- <span data-ttu-id="6c800-120">Intégration complète avec les offres de fabrication et de transport</span><span class="sxs-lookup"><span data-stu-id="6c800-120">Full integration with the Manufacturing and Transportation offerings</span></span>
+- <span data-ttu-id="6c800-121">Contrôle total des limites de stockage et du volume de l’emplacement</span><span class="sxs-lookup"><span data-stu-id="6c800-121">Full control of location stocking limits and location volumetrics</span></span>
+- <span data-ttu-id="6c800-122">Propriétés de stock contrôlées par statut du stock</span><span class="sxs-lookup"><span data-stu-id="6c800-122">Inventory properties controlled by inventory status</span></span>
+- <span data-ttu-id="6c800-123">Prise en charge complète des articles de lot et des articles de série</span><span class="sxs-lookup"><span data-stu-id="6c800-123">Full batch and serial item support</span></span>
+- <span data-ttu-id="6c800-124">Diverses capacités de réception d’articles</span><span class="sxs-lookup"><span data-stu-id="6c800-124">Various item receiving capabilities</span></span>
+- <span data-ttu-id="6c800-125">Plusieurs stratégies de prélèvement</span><span class="sxs-lookup"><span data-stu-id="6c800-125">Multiple picking strategies</span></span>
+- <span data-ttu-id="6c800-126">Support prêt à l’emploi pour la prochaine génération de scanners de codes à barres</span><span class="sxs-lookup"><span data-stu-id="6c800-126">Out-of-the-box support for the next generation of barcode scanners</span></span>
+- <span data-ttu-id="6c800-127">Types de palette/conteneur pour les processus d’entrepôt</span><span class="sxs-lookup"><span data-stu-id="6c800-127">Pallet/container types for warehouse processes</span></span>
+- <span data-ttu-id="6c800-128">Fonctions de comptabilité avancées</span><span class="sxs-lookup"><span data-stu-id="6c800-128">Advanced counting capabilities</span></span>
+- <span data-ttu-id="6c800-129">Impression et acheminement des étiquettes grâce à la prise en charge Zebra ZPL</span><span class="sxs-lookup"><span data-stu-id="6c800-129">Label printing and label routing with Zebra ZPL support</span></span>
+- <span data-ttu-id="6c800-130">Intégration de Business Intelligence dans Power BI</span><span class="sxs-lookup"><span data-stu-id="6c800-130">Business intelligence integration into Power BI</span></span>
+- <span data-ttu-id="6c800-131">Mouvements manuels et automatiques du stock</span><span class="sxs-lookup"><span data-stu-id="6c800-131">Manual and automatic movement of inventory</span></span>
+- <span data-ttu-id="6c800-132">Contrôle de qualité entièrement intégré (QMS)</span><span class="sxs-lookup"><span data-stu-id="6c800-132">Fully-integrated quality control (QMS)</span></span>
+- <span data-ttu-id="6c800-133">Traçabilité complète de la manutention de matériel par les collaborateurs</span><span class="sxs-lookup"><span data-stu-id="6c800-133">Full traceability of workers' material handling</span></span>
+- <span data-ttu-id="6c800-134">Traitement de vagues sortant</span><span class="sxs-lookup"><span data-stu-id="6c800-134">Outbound wave processing</span></span>
+- <span data-ttu-id="6c800-135">Prise en charge de l’emballage manuel et de la mise en conteneur automatique</span><span class="sxs-lookup"><span data-stu-id="6c800-135">Manual packing and automatic containerization support</span></span>
+- <span data-ttu-id="6c800-136">Prélèvement de groupement</span><span class="sxs-lookup"><span data-stu-id="6c800-136">Cluster picking</span></span>
+- <span data-ttu-id="6c800-137">Cross-docking simple</span><span class="sxs-lookup"><span data-stu-id="6c800-137">Simple cross docking</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="aea21-138">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="aea21-138">Additional resources</span></span>
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="aea21-139">Nouveautés et développements</span><span class="sxs-lookup"><span data-stu-id="aea21-139">What's new and in development</span></span>
-<span data-ttu-id="aea21-140">Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.</span><span class="sxs-lookup"><span data-stu-id="aea21-140">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6c800-138">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="6c800-138">Additional resources</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="6c800-139">Nouveautés et développements</span><span class="sxs-lookup"><span data-stu-id="6c800-139">What's new and in development</span></span>
+<span data-ttu-id="6c800-140">Accédez au [Calendrier de lancement de Microsoft Dynamics 365](https://roadmap.dynamics.com/) pour découvrir les nouvelles fonctions qui ont été lancées ou qui sont en développement.</span><span class="sxs-lookup"><span data-stu-id="6c800-140">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="aea21-141">Blogs</span><span class="sxs-lookup"><span data-stu-id="aea21-141">Blogs</span></span>
-<span data-ttu-id="aea21-142">Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des entrepôts et d’autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).</span><span class="sxs-lookup"><span data-stu-id="aea21-142">You can find opinions, news, and other information about Warehouse management and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog).</span></span>
+### <a name="blogs"></a><span data-ttu-id="6c800-141">Blogs</span><span class="sxs-lookup"><span data-stu-id="6c800-141">Blogs</span></span>
+<span data-ttu-id="6c800-142">Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des entrepôts et d’autres solutions sur le [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).</span><span class="sxs-lookup"><span data-stu-id="6c800-142">You can find opinions, news, and other information about Warehouse management and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog).</span></span>
 
 
  
