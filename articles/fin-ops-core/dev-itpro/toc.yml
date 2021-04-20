@@ -224,10 +224,12 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Collaborateur, tâche et poste intégrés'
                               href: data-entities/dual-write/integrated-hr.md
-                            - name: Carnet d’adresses global et de la partie
+                            - name: Partie et carnet d’adresses global
                               href: data-entities/dual-write/party-gab.md
                             - name: Utilisation de Power Portal avec le modèle de données de partie
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Intégration de notes
                               href: data-entities/dual-write/notes-integration.md
                             - name: Référence de mappage
@@ -714,6 +716,8 @@
               items:
                 - name: X++ et fonctions du débogueur
                   href: dev-tools/new-x-debugger-features.md
+                - name: "Configuration requise de Visual Studio\_2017 pour X++"
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Déboguer un code X++
                   href: dev-tools/debug-xpp.md
                 - name: Classes EventHandlerResult dans les scénarios de demande ou de réponse
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Prise d’effet de date
               href: dev-tools/date-effectivity.md
-            - name: "Gestionnaire de licences\_ISV"
-              href: dev-tools/isv-licensing.md
-            - name: Gestionnaire de licences ISV local
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Développement pour les éditeurs de logiciels indépendants
+              items:
+                - name: Lier des modules X++ à des packages à l’aide de ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Gestionnaire de licences ISV
+                  href: dev-tools/isv-licensing.md
+                - name: Gestionnaire de licences ISV local
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Règlement général sur la protection des données (RGPD)
           items:
             - name: Vue d’ensemble du règlement général sur la protection des données
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Intégration de Microsoft Power Platform
           items:
+            - name: Intégration de Microsoft Power Platform à Finance and Operations
+              href: power-platform/overview.md
             - name: Entités virtuelles
               items:
-                - name: Intégration de Microsoft Power Platform à Finance and Operations
-                  href: power-platform/overview.md
                 - name: Modélisation d’entités
                   href: power-platform/entity-modeling.md
                 - name: Gestion du cycle de vie de l’application
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: Gérer les expériences d’assistance pour les applications Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Prise en charge et suivi de la production
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Administration du système
           items:
             - name: Page d’accueil Administration du système
