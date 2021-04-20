@@ -3,8 +3,10 @@
   items:
     - name: Nouveautés
       items:
-        - name: "Nouveautés ou modifications dans Human\_Resources"
+        - name: Nouveautés ou modifications dans Human Resources
           href: hr-admin-whats-new.md
+        - name: "5\_avril\_2021"
+          href: hr-whats-new-2021-04-05.md
         - name: "22\_mars\_2021"
           href: hr-whats-new-2021-03-22.md
         - name: "8\_mars\_2021"
@@ -305,6 +307,8 @@
               href: hr-admin-integration-choose-technology.md
             - name: Configurer l’intégration de Dataverse
               href: hr-admin-integration-common-data-service.md
+            - name: Configurer les tables virtuelles de Dataverse
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Configurer l’intégration avec Finance
               href: hr-admin-integration-finance.md
             - name: Configurer l’intégration avec Dayforce
@@ -321,6 +325,12 @@
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Résoudre les problèmes d’intégration Office
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Résoudre les problèmes de développement avec les tables virtuelles de Dataverse
+          items:
+            - name: Optimiser les requêtes de table virtuelle de Dataverse
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: FAQ sur les tables virtuelles de Human Resources
+              href: hr-admin-virtual-entity-faq.md
         - name: Référence de l’API d’entité
           items:
             - name: Authentification
@@ -415,10 +425,26 @@
                   href: hr-admin-integration-ats-api-period-unit.md
                 - name: Fréquence de filtrage
                   href: hr-admin-integration-ats-api-screening-frequency.md
-                - name: La fréquence de dépistage est générée à partir de
+                - name: Date de début pour le calcul de la fréquence de filtrage
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: Type de niveau de compétence
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: API d’intégration de la paie
+          items:
+            - name: Introduction
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Générer et réviser les entités de paie
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Employé avec paie
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: Adresse du collaborateur avec paie
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: Régime de rémunération fixe avec paie
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: Tâche du poste de paie
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Poste de paie
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: Guide de l’utilisateur
       items:
         - name: Vue d’ensemble

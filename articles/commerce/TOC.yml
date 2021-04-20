@@ -78,7 +78,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Obtenir de l’aide
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
-            - name: Mise à niveau et prise en charge N-1
+            - name: Mise à niveau et assistance N-1
               items:
                 - name: Mise à niveau et prise en charge N-1 pour Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
@@ -280,9 +280,9 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Installation et configuration de Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
-                - name: Déploiement en masse des composants en libre-service
+                - name: Déploiement en masse de composants en libre-service hérités
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Événements des composants Commerce pour les diagnostics et le dépannage
+                - name: Événements de composants Commerce pour le diagnostic et le dépannage
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Appliquer un package déployable
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -1048,19 +1048,29 @@
                       href: add-content-rich-block.md
                     - name: Module de bloc de contenu
                       href: add-hero-module.md
-                    - name: Module de lecture vidéo
+                    - name: Module de lecteur vidéo
                       href: add-video-player.md
                 - name: Modules d’en-tête et de pied de page
                   items:
-                    - name: Module En-tête
+                    - name: Module d’en-tête
                       href: author-header-module.md
-                    - name: Module Pied de page
+                    - name: Module de pied de page
                       href: author-footer-module.md
-                - name: Modules Page détaillée du produit
+                - name: 'Modules de page, de métadonnées et de script'
                   items:
-                    - name: Module Zone d’achat
+                    - name: Module de page par défaut
+                      href: default-page-module.md
+                    - name: Modules de résumé de page
+                      href: page-summary-module.md
+                    - name: Module de métabalises
+                      href: metatags-module.md
+                    - name: Modules de script externe et en ligne
+                      href: script-module.md
+                - name: Modules de page détaillée du produit
+                  items:
+                    - name: Module de zone d’achat
                       href: add-buy-box.md
-                    - name: Module Galerie multimédia
+                    - name: Module de galerie multimédia
                       href: media-gallery-module.md
                     - name: Modules Classements et Évaluations
                       href: ratings-reviews-modules.md
