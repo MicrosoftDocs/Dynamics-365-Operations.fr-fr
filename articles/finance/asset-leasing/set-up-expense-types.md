@@ -2,11 +2,11 @@
 title: Configurer les types de dépenses
 description: Cette rubrique explique comment configurer les types de dépenses dans la location d’actifs.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxTable
+ms.search.form: AssetLeaseExpenseTypeTable
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,47 +15,47 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b50f406c7411ff8ed990a312fde9c2fc0ba3c3db
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a1d6667a7c6fe1cd44196f2e753ca72b2ca97649
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819696"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880982"
 ---
-# <a name="set-up-expense-types"></a><span data-ttu-id="943a2-103">Configurer les types de dépenses</span><span class="sxs-lookup"><span data-stu-id="943a2-103">Set up expense types</span></span>
+# <a name="set-up-expense-types"></a><span data-ttu-id="5855c-103">Configurer les types de dépenses</span><span class="sxs-lookup"><span data-stu-id="5855c-103">Set up expense types</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="943a2-104">Cette rubrique explique comment configurer les types de dépenses dans la location d’actifs.</span><span class="sxs-lookup"><span data-stu-id="943a2-104">This topic explains how to set up expense types in Asset leasing.</span></span> <span data-ttu-id="943a2-105">Les coûts qui ne sont pas représentés par l’échéancier de paiement sont appelés *frais de dépenses*.</span><span class="sxs-lookup"><span data-stu-id="943a2-105">Costs that aren't represented by the payment schedule are known as *expense costs*.</span></span> <span data-ttu-id="943a2-106">Des exemples de ces coûts comprennent les impôts fonciers, les coûts d’entretien des aires communes et les dépenses d’assurance.</span><span class="sxs-lookup"><span data-stu-id="943a2-106">Examples of these costs include property taxes, common area maintenance costs, and insurance expenses.</span></span>
+<span data-ttu-id="5855c-104">Cette rubrique explique comment configurer les types de dépenses dans la location d’actifs.</span><span class="sxs-lookup"><span data-stu-id="5855c-104">This topic explains how to set up expense types in Asset leasing.</span></span> <span data-ttu-id="5855c-105">Les coûts qui ne sont pas représentés par l’échéancier de paiement sont appelés *frais de dépenses*.</span><span class="sxs-lookup"><span data-stu-id="5855c-105">Costs that aren't represented by the payment schedule are known as *expense costs*.</span></span> <span data-ttu-id="5855c-106">Des exemples de ces coûts comprennent les impôts fonciers, les coûts d’entretien des aires communes et les dépenses d’assurance.</span><span class="sxs-lookup"><span data-stu-id="5855c-106">Examples of these costs include property taxes, common area maintenance costs, and insurance expenses.</span></span>
 
-## <a name="add-an-administrative-expense-type"></a><span data-ttu-id="943a2-107">Ajouter un type de dépense administrative</span><span class="sxs-lookup"><span data-stu-id="943a2-107">Add an administrative expense type</span></span>
+## <a name="add-an-administrative-expense-type"></a><span data-ttu-id="5855c-107">Ajouter un type de dépense administrative</span><span class="sxs-lookup"><span data-stu-id="5855c-107">Add an administrative expense type</span></span>
 
-1. <span data-ttu-id="943a2-108">Accédez à **Location d’actifs \> Configuration \> Types de dépenses**.</span><span class="sxs-lookup"><span data-stu-id="943a2-108">Go to **Asset leasing \> Setup \> Expense types**.</span></span>
-2. <span data-ttu-id="943a2-109">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="943a2-109">Select **New**.</span></span>
-3. <span data-ttu-id="943a2-110">Dans les champs appropriés, saisissez le nouveau type de dépense et une description.</span><span class="sxs-lookup"><span data-stu-id="943a2-110">In the appropriate fields, enter the new expense type and a description.</span></span>
+1. <span data-ttu-id="5855c-108">Accédez à **Location d’actifs \> Configuration \> Types de dépenses**.</span><span class="sxs-lookup"><span data-stu-id="5855c-108">Go to **Asset leasing \> Setup \> Expense types**.</span></span>
+2. <span data-ttu-id="5855c-109">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="5855c-109">Select **New**.</span></span>
+3. <span data-ttu-id="5855c-110">Dans les champs appropriés, saisissez le nouveau type de dépense et une description.</span><span class="sxs-lookup"><span data-stu-id="5855c-110">In the appropriate fields, enter the new expense type and a description.</span></span>
 
-## <a name="assign-accounts-to-administrative-costs"></a><span data-ttu-id="943a2-111">Attribuer des comptes aux frais administratifs</span><span class="sxs-lookup"><span data-stu-id="943a2-111">Assign accounts to administrative costs</span></span>
+## <a name="assign-accounts-to-administrative-costs"></a><span data-ttu-id="5855c-111">Attribuer des comptes aux frais administratifs</span><span class="sxs-lookup"><span data-stu-id="5855c-111">Assign accounts to administrative costs</span></span>
 
-<span data-ttu-id="943a2-112">Ensuite, vous devez associer les comptes aux types de dépenses.</span><span class="sxs-lookup"><span data-stu-id="943a2-112">Next, you should associate accounts with the expense types.</span></span> <span data-ttu-id="943a2-113">Ces comptes seront débités lors de la validation des écritures de l’échéancier des dépenses.</span><span class="sxs-lookup"><span data-stu-id="943a2-113">These accounts will be debited when expense schedule entries are posted.</span></span> <span data-ttu-id="943a2-114">Le compte de contrepartie est spécifié sur les lignes de **l’échéancier de paiement des frais accessoires** sur chaque bail.</span><span class="sxs-lookup"><span data-stu-id="943a2-114">The offset account is specified on the **Executory costs payment schedule** lines on each lease.</span></span>
+<span data-ttu-id="5855c-112">Ensuite, vous devez associer les comptes aux types de dépenses.</span><span class="sxs-lookup"><span data-stu-id="5855c-112">Next, you should associate accounts with the expense types.</span></span> <span data-ttu-id="5855c-113">Ces comptes seront débités lors de la validation des écritures de l’échéancier des dépenses.</span><span class="sxs-lookup"><span data-stu-id="5855c-113">These accounts will be debited when expense schedule entries are posted.</span></span> <span data-ttu-id="5855c-114">Le compte de contrepartie est spécifié sur les lignes de **l’échéancier de paiement des frais accessoires** sur chaque bail.</span><span class="sxs-lookup"><span data-stu-id="5855c-114">The offset account is specified on the **Executory costs payment schedule** lines on each lease.</span></span>
 
-1. <span data-ttu-id="943a2-115">Accédez à **Location d’actifs \> Configuration \> Paramètres de location d’actif**.</span><span class="sxs-lookup"><span data-stu-id="943a2-115">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
-2. <span data-ttu-id="943a2-116">Sur l’onglet **Comptes**, sur le raccourci **Frais d’exécution**, dans le champ **Type de dépense**, sélectionnez le type de dépense.</span><span class="sxs-lookup"><span data-stu-id="943a2-116">On the **Accounts** tab, on the **Executory costs** FastTab, in the **Expense type** field, select the expense type.</span></span>
-3. <span data-ttu-id="943a2-117">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="943a2-117">Select **Add**.</span></span>
-4. <span data-ttu-id="943a2-118">Dans le champ **Type de registre**, sélectionnez le type de registre à lier aux coûts administratifs.</span><span class="sxs-lookup"><span data-stu-id="943a2-118">In the **Book type** field, select the book type to link to the administrative costs.</span></span>
+1. <span data-ttu-id="5855c-115">Accédez à **Location d’actifs \> Configuration \> Paramètres de location d’actif**.</span><span class="sxs-lookup"><span data-stu-id="5855c-115">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
+2. <span data-ttu-id="5855c-116">Sur l’onglet **Comptes**, sur le raccourci **Frais d’exécution**, dans le champ **Type de dépense**, sélectionnez le type de dépense.</span><span class="sxs-lookup"><span data-stu-id="5855c-116">On the **Accounts** tab, on the **Executory costs** FastTab, in the **Expense type** field, select the expense type.</span></span>
+3. <span data-ttu-id="5855c-117">Sélectionnez **Ajouter**.</span><span class="sxs-lookup"><span data-stu-id="5855c-117">Select **Add**.</span></span>
+4. <span data-ttu-id="5855c-118">Dans le champ **Type de registre**, sélectionnez le type de registre à lier aux coûts administratifs.</span><span class="sxs-lookup"><span data-stu-id="5855c-118">In the **Book type** field, select the book type to link to the administrative costs.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="943a2-119">Plusieurs types de registres peuvent être liés au même compte de dépenses.</span><span class="sxs-lookup"><span data-stu-id="943a2-119">Multiple book types can be linked to the same expense account.</span></span>
+    > <span data-ttu-id="5855c-119">Plusieurs types de registres peuvent être liés au même compte de dépenses.</span><span class="sxs-lookup"><span data-stu-id="5855c-119">Multiple book types can be linked to the same expense account.</span></span>
 
-5. <span data-ttu-id="943a2-120">Dans le champ **Code de compte**, indiquez à quels baux le registre doit être appliqué :</span><span class="sxs-lookup"><span data-stu-id="943a2-120">In the **Account code** field, specify which leases the book should be applied to:</span></span>
+5. <span data-ttu-id="5855c-120">Dans le champ **Code de compte**, indiquez à quels baux le registre doit être appliqué :</span><span class="sxs-lookup"><span data-stu-id="5855c-120">In the **Account code** field, specify which leases the book should be applied to:</span></span>
 
-    - <span data-ttu-id="943a2-121">**Tous** – Appliquer le registre à tous les baux.</span><span class="sxs-lookup"><span data-stu-id="943a2-121">**All** – Apply the book to all leases.</span></span>
-    - <span data-ttu-id="943a2-122">**Groupe** – Appliquer le registre à un groupe spécifique de baux.</span><span class="sxs-lookup"><span data-stu-id="943a2-122">**Group** – Apply the book to a specific group of leases.</span></span>
-    - <span data-ttu-id="943a2-123">**Table** – Appliquer le registre à des baux spécifiques.</span><span class="sxs-lookup"><span data-stu-id="943a2-123">**Table** – Apply the book to specific leases.</span></span>
+    - <span data-ttu-id="5855c-121">**Tous** – Appliquer le registre à tous les baux.</span><span class="sxs-lookup"><span data-stu-id="5855c-121">**All** – Apply the book to all leases.</span></span>
+    - <span data-ttu-id="5855c-122">**Groupe** – Appliquer le registre à un groupe spécifique de baux.</span><span class="sxs-lookup"><span data-stu-id="5855c-122">**Group** – Apply the book to a specific group of leases.</span></span>
+    - <span data-ttu-id="5855c-123">**Table** – Appliquer le registre à des baux spécifiques.</span><span class="sxs-lookup"><span data-stu-id="5855c-123">**Table** – Apply the book to specific leases.</span></span>
 
-6. <span data-ttu-id="943a2-124">Si vous avez sélectionné **Table** ou **Groupe** dans le champ **Code compte**, sélectionnez un numéro de compte ou de groupe dans le champ **Numéro de compte/groupe**.</span><span class="sxs-lookup"><span data-stu-id="943a2-124">If you selected **Group** or **Table** in the **Account code** field, select an account number or group number in the **Account/Group number** field.</span></span>
-7. <span data-ttu-id="943a2-125">Dans les champs appropriés, sélectionnez le compte principal de contrat de location-financement et le compte principal de location simple.</span><span class="sxs-lookup"><span data-stu-id="943a2-125">In the appropriate fields, select the finance lease main account and the operating lease main account.</span></span>
+6. <span data-ttu-id="5855c-124">Si vous avez sélectionné **Table** ou **Groupe** dans le champ **Code compte**, sélectionnez un numéro de compte ou de groupe dans le champ **Numéro de compte/groupe**.</span><span class="sxs-lookup"><span data-stu-id="5855c-124">If you selected **Group** or **Table** in the **Account code** field, select an account number or group number in the **Account/Group number** field.</span></span>
+7. <span data-ttu-id="5855c-125">Dans les champs appropriés, sélectionnez le compte principal de contrat de location-financement et le compte principal de location simple.</span><span class="sxs-lookup"><span data-stu-id="5855c-125">In the appropriate fields, select the finance lease main account and the operating lease main account.</span></span>
 
-<span data-ttu-id="943a2-126">Lorsque vous avez terminé ces étapes, vous pouvez ajouter des dépenses via les lignes **l’échéancier de paiement des frais accessoires** sur la page **Détails du bail** d’un bail sélectionné.</span><span class="sxs-lookup"><span data-stu-id="943a2-126">When you've completed these steps, you can add expenses through the **Executory costs payment schedule** lines on the **Lease details** page of a selected lease.</span></span> <span data-ttu-id="943a2-127">Vous pouvez également ajouter des dépenses lorsque vous créez un bail.</span><span class="sxs-lookup"><span data-stu-id="943a2-127">Alternatively, you can add expenses when you create a new lease.</span></span>
+<span data-ttu-id="5855c-126">Lorsque vous avez terminé ces étapes, vous pouvez ajouter des dépenses via les lignes **l’échéancier de paiement des frais accessoires** sur la page **Détails du bail** d’un bail sélectionné.</span><span class="sxs-lookup"><span data-stu-id="5855c-126">When you've completed these steps, you can add expenses through the **Executory costs payment schedule** lines on the **Lease details** page of a selected lease.</span></span> <span data-ttu-id="5855c-127">Vous pouvez également ajouter des dépenses lorsque vous créez un bail.</span><span class="sxs-lookup"><span data-stu-id="5855c-127">Alternatively, you can add expenses when you create a new lease.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
