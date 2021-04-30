@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819278"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908926"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -79,7 +79,7 @@ Une gamme doit être approuvée avant de pouvoir être utilisée dans le process
 
 Chaque gamme peut être séparément approuvée ou non approuvée. Toutefois, notez que, lorsqu’une gamme est non approuvée, toutes les versions de gamme associées sont également non approuvées. Dans les paramètres de contrôle de la production, vous pouvez spécifier si les gammes peuvent être non approuvées, et si les gammes approuvées peuvent être modifiées.  
 
-Si vous devez tenir un journal qui consigne qui approuve chaque gamme, vous pouvez demander des signatures électroniques pour l’approbation de gamme. Les utilisateurs doivent alors confirmer leur identité à l’aide d’une [signature électronique](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Si vous devez tenir un journal qui consigne qui approuve chaque gamme, vous pouvez demander des signatures électroniques pour l’approbation de gamme. Les utilisateurs doivent alors confirmer leur identité à l’aide d’une [signature électronique](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Une opération est une étape du processus de production. Chaque opération a un ID et une description simple. Les tableaux suivants montrent des exemples typiques d’opérations réalisées dans un atelier.
@@ -185,7 +185,7 @@ Lorsque vous activez une version de gamme, vous la désignez comme la version de
 
 ### <a name="electronic-signatures"></a>Signatures électroniques
 
-Si vous devez tenir un journal qui consigne qui approuve et active chaque version de gamme, vous pouvez demander des signatures électroniques pour ces tâches. Les utilisateurs qui approuvent et activent les versions de gamme doivent alors confirmer leur identité à l’aide d’une [signature électronique](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Si vous devez tenir un journal qui consigne qui approuve et active chaque version de gamme, vous pouvez demander des signatures électroniques pour ces tâches. Les utilisateurs qui approuvent et activent les versions de gamme doivent alors confirmer leur identité à l’aide d’une [signature électronique](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Modification de produit qui utilise la gestion de dossier
 
@@ -253,7 +253,7 @@ Par conséquent, lorsque l’activation est activée pour le chevauchement, le r
 
 - [Capacités de ressources](resource-capabilities.md)
 
-- [Vue d’ensemble de la signature électronique](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Vue d’ensemble de la signature électronique](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

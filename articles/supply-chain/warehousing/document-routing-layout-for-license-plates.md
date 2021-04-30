@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838272"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907985"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Mise en page d’acheminement de document pour les étiquettes de contenant
 
@@ -73,7 +73,7 @@ Les exemples suivants montrent comment personnaliser le champ de quantité de tr
 - Pour toujours afficher quatre chiffres (en utilisant des zéros comme espaces réservés), utilisez `$Qty:0000$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 0010 ».
 - Pour toujours afficher deux décimales, utilisez `$Qty:0.00$`. Par exemple, si la quantité est de 10, l’étiquette affichera « 10.00 ».
 
-Pour une liste complète des chaînes de format numérique disponibles, consultez [Chaînes de format numérique personnalisées](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Pour une liste complète des chaînes de format numérique disponibles, consultez [Chaînes de format numérique personnalisées](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formats de chaîne personnalisés
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Dans cet exemple, la date du 30 avril 2020 sera imprimée comme « 30-04-2020 ».
 
-Pour une liste complète des formats date/heure disponibles, consultez [Chaînes de format date/heure personnalisées](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Pour une liste complète des formats date/heure disponibles, consultez [Chaînes de format date/heure personnalisées](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Imprimer des lignes individuelles à partir de données multilignes
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744049"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910447"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparaison des fonctions dans le cloud et sur site
 
@@ -84,7 +84,7 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 
 | **Secteur**                | **Fonction**             | **Cloud** | **Sur site** |
 |-------------------------|-------------------|-----------|-----------------|
-| Gestion des actifs                     |                                                                                           | Oui       | N°              |
+| Gestion des actifs                     |                                                                                           | Oui       | Oui             |
 | Conformité et certifications        |                                                                                           | Oui       | Oui             |
 |                                      | Type de certification SOC 1 Type 1                                                                | Oui       | N°              |
 | Contrôle de gestion                      |                                                                                           | Oui       | Oui             |
@@ -147,7 +147,7 @@ Les tableaux suivants décrivent les zones d’application. La prise en charge e
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Pour afficher une liste des fonctionnalités disponibles dans les déploiements sur site, voir [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../retail/retail-onprem.md).
+Pour afficher une liste des fonctionnalités disponibles dans les déploiements sur site, voir [Fonctionnalités Commerce disponibles dans les déploiements sur site](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

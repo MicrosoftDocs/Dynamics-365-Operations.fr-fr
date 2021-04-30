@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 44a1332a7c2cb30724198d61190cb6dc207ad2d0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a4266ee942f504ffa2f355959af8e3076984d83
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794995"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892297"
 ---
 # <a name="system-requirements"></a>Configuration requise
 
@@ -53,17 +53,17 @@ Pour trouver la dernière version pour chaque navigateur Web, accédez au site I
 
 ## <a name="supported-microsoft-office-applications"></a>Applications Microsoft Office prises en charge
 
-* Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l’intégration d’Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Résolution des problèmes d’intégration d’Office").
+* Pour exécuter les compléments Microsoft Excel et Word, vous devez disposer de Microsoft Office 2016 pour Windows ou Mac. Pour plus de détails sur les exigences en matière de versions, voir [Dépannage de l’intégration d’Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md "Résolution des problèmes d’intégration d’Office").
 * Pour afficher les documents qui sont générés par la fonctionnalité Exporter vers Excel ou Exporter vers Word, vous devez disposer de Microsoft Office 2007 ou version ultérieure.
 
 ## <a name="regional-availability-languages-and-localization"></a>Disponibilité, langues et localisation régionales
 
-Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en charge par Human Resources dans [Disponibilité internationale de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+Vous pouvez télécharger un fichier PDF des pays, régions et langues pris en charge par Human Resources dans [Disponibilité internationale de Microsoft Dynamics 365](/dynamics365/get-started/availability). 
 
 > [!NOTE]
 > Bien que l’interface utilisateur soit localisée dans d’autres langues, toutes les données d’utilisateur sont stockées dans la langue dans laquelle elles ont été entrées. Vous pouvez créer des e-mails et des modèles dans d’autres langues, mais les données telles que les informations de planification sont uniquement disponibles en anglais à ce stade.
 
-Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Si vous êtes développeur et intéressé à créer des personnalisations spécifiques à un pays ou une région, ou à créer une solution pour un pays ou une région actuellement non pris en charge par Microsoft, voir [Globalisation](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

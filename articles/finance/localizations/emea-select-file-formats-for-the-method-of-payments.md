@@ -14,12 +14,12 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97bf9a70c1fc170ca8878a99bd16c9a0cb9c7309
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 895fbe2a46d99aed175676c22ba13c30d6d8b98e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818289"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894675"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formats de fichier des modes de paiement
 
@@ -36,7 +36,7 @@ Deux méthodes peuvent être utilisées pour obtenir les formats de fichier à u
 
 ### <a name="method-1-electronic-reporting-file-formats"></a>Méthode 1 : formats de fichier de génération d’états électroniques
 
-Pour les formats de fichier basés sur les configurations ER, vous devez importer les configurations à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) Après avoir importé les configurations de génération d’états pour ces formats de fichier, les formats importés sont disponibles dans la page **Modes de paiement**. Le processus d’importation et de sélection des formats de fichier pour l’Europe est similaire à la procédure pour le Japon. Pour plus d’informations, voir [Activer le format de fichier de paiement JBA](tasks/jba-payment-file-format.md)
+Pour les formats de fichier basés sur les configurations ER, vous devez importer les configurations à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md) Après avoir importé les configurations de génération d’états pour ces formats de fichier, les formats importés sont disponibles dans la page **Modes de paiement**. Le processus d’importation et de sélection des formats de fichier pour l’Europe est similaire à la procédure pour le Japon. Pour plus d’informations, voir [Activer le format de fichier de paiement JBA](tasks/jba-payment-file-format.md)
 
 ### <a name="method-2-x-file-formats"></a>Méthode 2 : formats de fichier X++
 

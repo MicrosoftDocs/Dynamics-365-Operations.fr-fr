@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830734"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897160"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Vue d’ensemble des virements SEPA
 
@@ -54,7 +54,7 @@ Le format de virement pour les pays européens est implémenté à l’aide de l
 Vous devez toujours aller dans la bibliothèque d’actifs partagés de Microsoft Dynamics Lifecycle Services (LCS) et afficher la liste la plus récente des fichiers disponibles dont le type d’actif est **Configuration GER**. La section suivante, « Que je dois paramétrer ? », fournit un lien vers une rubrique qui explique comment créer un référentiel LCS pour examiner les configurations disponibles et importer les configurations sélectionnées.
 
 ## <a name="what-do-i-have-to-set-up"></a>Que dois-je paramétrer ?
--   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   Avant de créer des de virement, vous devez importer au moins une configuration de virement active dans vos configurations ER. Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 -   Quand vous configurez les modes de paiement de la comptabilité fournisseur, cochez la case **États électroniques génériques** et sélectionnez le format de virement approprié (par exemple, **Virement ISO 20022 (AT)**) comme configuration de format d’exportation.
 -   Vous devez également paramétrer l’entité juridique et les informations de compte bancaire.
 -   Les numéros de compte bancaire, IBAN, est parfois les codes SWIFT (BIC) ou d’autres identifiants sont nécessaires pour créer des paiements valides par virement. Par conséquent, vous devez les paramétrer pour le compte bancaire fournisseur et le compte bancaire de l’organisation qui demande le virement.

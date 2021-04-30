@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753718"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894122"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Spécifier un emplacement personnalisé de stockage pour les documents générés
 
@@ -27,7 +27,7 @@ L’API de la structure des états électroniques permet d’étendre la liste d
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Vous devez déployer une topologie prenant en charge l’élaboration continue. (Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Vous devez avoir accès à cette topologie pour un des rôles suivants :
+Vous devez déployer une topologie prenant en charge l’élaboration continue. (Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Vous devez avoir accès à cette topologie pour un des rôles suivants :
 
 - Développeur d’états électroniques
 - Consultant fonctionnel des états électroniques
@@ -53,7 +53,7 @@ Dans la topologie actuelle, [créez un format d’états électroniques](tasks/e
 
 Pour spécifier comment les documents qu’un format d’états électroniques génère sont acheminés, vous devez configurer [Destinations des états électroniques (ER)](electronic-reporting-destinations.md). Dans chaque destination d’états électroniques configurée pour stocker les documents générés comme fichiers, vous devez préciser un type de document de la structure de gestion des documents. Différents types de document peuvent être utilisés pour acheminer les documents générés par différents formats d’états électroniques.
 
-1. Ajoutez un nouveau [type de document](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) pour le format d’états électroniques que vous avez créé ou importé précédemment. Dans l’illustration ci-après, le type de document est **FileX**.
+1. Ajoutez un nouveau [type de document](../../fin-ops/organization-administration/configure-document-management.md) pour le format d’états électroniques que vous avez créé ou importé précédemment. Dans l’illustration ci-après, le type de document est **FileX**.
 2. Pour différencier ce type de document d’autres types de documents, incluez un mot clé spécifique dans son nom. Par exemple, dans l’illustration ci-après, le nom est **dossier (LOCAL)**.
 3. Dans le champ **Classe**, spécifiez **Fichier joint**.
 4. Dans le champ **Groupe**, spécifiez **Fichier**.
@@ -117,14 +117,14 @@ L’événement **AttachingFile ()** est déclenché lorsque les destinations de
 
 ## <a name="configure-an-er-destination"></a>Configurer une destination des états électroniques
 
-1. Configurez la destination archivée pour un des éléments précédemment mentionnés (fichier, dossier, fusion, ou pièce jointe) du format des états électroniques que vous avez créé ou importé. Pour obtenir de l’aide, voir [États électroniques – Configurer des destinations](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Configurez la destination archivée pour un des éléments précédemment mentionnés (fichier, dossier, fusion, ou pièce jointe) du format des états électroniques que vous avez créé ou importé. Pour obtenir de l’aide, voir [États électroniques – Configurer des destinations](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Utilisez le type de document que vous avez ajouté plus tôt pour la destination configurée. (Pour l’exemple dans cette rubrique, le type de document est **FileX**.)
 
 ![Boîte de dialogue Paramètres de destination](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Modifier le code source
 
-1. Ajoutez une nouvelle classe à votre projet Microsoft Visual Studio, et écrivez du code pour vous abonner à l’événement **AttachingFile()** mentionné précédemment. (Pour plus d’informations sur le modèle d’extensibilité utilisé, voir [Répondre à l’aide de EventHandlerResult](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Par exemple, dans la nouvelle classe, écrivez le code qui exécute les actions suivantes :
+1. Ajoutez une nouvelle classe à votre projet Microsoft Visual Studio, et écrivez du code pour vous abonner à l’événement **AttachingFile()** mentionné précédemment. (Pour plus d’informations sur le modèle d’extensibilité utilisé, voir [Répondre à l’aide de EventHandlerResult](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Par exemple, dans la nouvelle classe, écrivez le code qui exécute les actions suivantes :
 
     1. Enregistrez les fichiers générés dans un dossier du système de fichiers local du serveur qui exécute le service AOS.
     2. Enregistrez ces fichiers générés uniquement lorsque le nouveau type de document (par exemple, le type **FileX** ayant le mot clé « (LOCAL) » dans son nom) est utilisé lorsqu’un fichier est joint à l’enregistrement dans le journal des tâches d’exécution des états électroniques.

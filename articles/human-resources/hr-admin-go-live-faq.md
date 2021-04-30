@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e1b4b336953ef6bd74da009b3bb44fbcf2eab5a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804015"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892321"
 ---
 # <a name="go-live-faq"></a>FAQ sur le lancement 
 
@@ -48,7 +48,7 @@ Pour obtenir la liste des prérequis, voir [Préparer le lancement](hr-admin-g
 
 ## <a name="what-is-a-go-live-assessment"></a>Qu’est-ce qu’une évaluation du lancement ?  
 
-L’évaluation du lancement fait partie du [Programme Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). Au cours de cet examen, un architecte de solution évalue si un projet de mise en œuvre est prêt pour une transition et un lancement réussis. Cet examen est obligatoire pour chaque projet d’implémentation avant de pouvoir demander à être lancé dans un environnement de production. 
+L’évaluation du lancement fait partie du [Programme Microsoft FastTrack](/dynamics365/fasttrack/). Au cours de cet examen, un architecte de solution évalue si un projet de mise en œuvre est prêt pour une transition et un lancement réussis. Cet examen est obligatoire pour chaque projet d’implémentation avant de pouvoir demander à être lancé dans un environnement de production. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Nos environnements Sandbox sont déployés dans le centre de données USA Centre. Nous voulons que nos environnements de production soient déployés dans le centre de données USA Ouest. Puis-je sélectionner USA Ouest comme centre de données dans ma configuration de production ? 
 
@@ -56,7 +56,7 @@ LCS ne vous empêche pas de sélectionner un centre de données différent lorsq
 
 Si vous souhaitez que votre environnement de production se trouve dans le centre de données de l’ouest des États-Unis, vous devez d’abord redéployer vos environnements Sandbox dans le centre de données de l’ouest des États-Unis, les tester et vous déconnecter. 
 
-Pour plus d’informations sur la sélection du centre de données approprié, voir [Configuration réseau requise](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
+Pour plus d’informations sur la sélection du centre de données approprié, voir [Configuration réseau requise](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>Quel niveau d’accès ai-je aux ressources Azure pour mes environnements Human Resources ?  
 
@@ -64,7 +64,7 @@ L’accès aux environnements Human Resources est limité. Vous ne pouvez pas ac
 
 Bien que vous ne puissiez pas accéder à vos ressources Azure ou à l’environnement Dynamics 365 Human Resources directement, il existe des fonctionnalités supplémentaires que vous pouvez utiliser pour accéder à vos données :
 
-- Vous pouvez déployer une base de données Azure SQL dans votre propre client Azure et utiliser la fonctionnalité Bring Your Own Database (BYOD) pour synchroniser les données. Pour plus d’informations, consultez [Apporter votre propre base de données (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
+- Vous pouvez déployer une base de données Azure SQL dans votre propre client Azure et utiliser la fonctionnalité Bring Your Own Database (BYOD) pour synchroniser les données. Pour plus d’informations, consultez [Apporter votre propre base de données (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
 
 - Vous pouvez utiliser l’intégration de Dataverse pour synchroniser les entités sélectionnées dans la base de données Dataverse. Pour plus d’informations, consultez les [tables Dataverse](hr-developer-entities.md). 
 
@@ -80,11 +80,11 @@ Les bases de données sont protégées par des sauvegardes automatiques aux fré
 
 Microsoft conserve suffisamment de sauvegardes pour permettre la restauration à un moment donné (PITR) au cours des 14 derniers jours. 
 
-Pour plus d’informations, voir [En savoir plus sur les sauvegardes de base de données SQL](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Pour plus d’informations, voir [En savoir plus sur les sauvegardes de base de données SQL](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Puis-je demander une copie de la sauvegarde de ma base de données de production ? 
 
-Non. Cependant, vous pouvez soumettre une demande de service d’actualisation de la base de données pour copier votre environnement de production dans votre environnement Sandbox. Vous pouvez déployer une base de données Azure SQL dans votre propre client Azure et utiliser la fonctionnalité BYOD pour synchroniser les données de votre environnement de production. Pour plus d’informations, consultez [Apporter votre propre base de données (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
+Non. Cependant, vous pouvez soumettre une demande de service d’actualisation de la base de données pour copier votre environnement de production dans votre environnement Sandbox. Vous pouvez déployer une base de données Azure SQL dans votre propre client Azure et utiliser la fonctionnalité BYOD pour synchroniser les données de votre environnement de production. Pour plus d’informations, consultez [Apporter votre propre base de données (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Comment déplacer mon environnement Sandbox vers un environnement de production pour le lancement ? 
 
@@ -94,7 +94,7 @@ Nous vous recommandons de conserver une liste claire des entités configurées d
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Que dois-je faire si mon environnement de production est en panne ? 
 
-Pour signaler une interruption de l’environnement de production, suivez le processus décrit dans [Signaler une panne de production](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage). 
+Pour signaler une interruption de l’environnement de production, suivez le processus décrit dans [Signaler une panne de production](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md). 
 
  ## <a name="see-also"></a>Voir également :
 

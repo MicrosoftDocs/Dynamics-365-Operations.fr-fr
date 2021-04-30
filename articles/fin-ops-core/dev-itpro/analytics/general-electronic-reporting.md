@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750056"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893175"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -183,11 +183,11 @@ Notez que ce type de référentiel est accessible dans les environnements suivan
 
 Pour plus d’informations, voir [Importer les configurations de génération d’états électroniques (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Un référentiel **RCS** permet d’accéder à la liste des configurations d’une instance spécifique de [Configuration Service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sélectionnée à l’enregistrement du référentiel. La génération d’états électroniques permet d’importer des configurations terminées ou partagées de l’instance RCS sélectionnée dans l’instance actuelle, de manière à pouvoir les utiliser pour la génération d’états électroniques.
+Un référentiel **RCS** permet d’accéder à la liste des configurations d’une instance spécifique de [Configuration Service (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) sélectionnée à l’enregistrement du référentiel. La génération d’états électroniques permet d’importer des configurations terminées ou partagées de l’instance RCS sélectionnée dans l’instance actuelle, de manière à pouvoir les utiliser pour la génération d’états électroniques.
 
 Pour plus d’informations, voir [Importer les configurations de génération d’états électroniques (ER) à partir de RCS](./rcs-download-configurations.md).
 
-Un référentiel **Global** permet d’accéder à la liste des configurations dans le référentiel global dans le [Configuration Service](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir du référentiel global, vous pouvez importer les dernières versions des configurations ER dans l’instance actuelle.
+Un référentiel **Global** permet d’accéder à la liste des configurations dans le référentiel global dans le [Configuration Service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Ce type de référentiel ER ne peut être enregistré que pour le fournisseur Microsoft. À partir du référentiel global, vous pouvez importer les dernières versions des configurations ER dans l’instance actuelle.
 
 Pour plus d’informations, voir [Importer les configurations des états électroniques (ER) à partir du référentiel global de Configuration Service](./er-download-configurations-global-repo.md).
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795019"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889906"
 ---
 # <a name="remove-an-instance"></a>Supprimer une instance
 
@@ -81,7 +81,7 @@ Pour restaurer l’environnement :
 
 1. Suivez les instructions dans [Récupérer l’environnement Power Apps](/power-platform/admin/recover-environment.md).
 
-2. Contactez le support pour restaurer l’environnement Human Resources. Pour plus d’informations, voir [Obtenir de l’aide](hr-admin-troubleshooting-support.md).
+2. Contactez le support pour restaurer l’environnement Human Resources. Pour plus d’informations, voir [Obtenir de l’aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
 > Les environnements Power Apps ne sont enregistrés que pendant sept jours après la suppression. Vous devez récupérer l’environnement dans le délai de sept jours.

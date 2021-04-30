@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a062235bfce6ccb8ad62c8c299418e933d3d42f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818322"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894696"
 ---
 # <a name="registration-ids"></a>ID enregistrement
 
@@ -55,7 +55,7 @@ Une catégorie d’enregistrement est un identificateur d’enregistrement de pa
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Entrer les ID d’enregistrement pour les enregistrements de carnet d’adresses global
 
-Le Carnet d’adresses global (GAB) contient les informations d’adresse consolidées pour les clients, les fournisseurs, les contacts, les relations commerciales et les entités juridiques. Pour plus d’informations, voir [Vue d’ensemble du carnet d’adresses global](../../fin-and-ops/organization-administration/overview-global-address-book.md). Les enregistrements de partie qui sont enregistrés dans le carnet d’adresses global peuvent contenir un ou plusieurs enregistrements d’adresse. Ces adresses sont utilisées à des fins différentes, comme la facturation ou la livraison. Vous pouvez paramétrer des ID d’enregistrement pour les informations d’adresse des clients, des fournisseurs, des collaborateurs et des entités juridiques. Recherchez l’enregistrement de partie (entité juridique, fournisseur, client, collaborateur) pour lequel vous souhaitez entrer l’ID d’enregistrement, puis cliquez sur **ID d’enregistrement** dans les écrans associés à la partie, à l’entité juridique, au fournisseur, au client ou au collaborateur pour ouvrir la page **Gérer les adresses**. Sous l’onglet **Enregistrement de taxe**, cliquez sur **Ajouter** et entrez les informations concernant l’ID d’enregistrement.
+Le Carnet d’adresses global (GAB) contient les informations d’adresse consolidées pour les clients, les fournisseurs, les contacts, les relations commerciales et les entités juridiques. Pour plus d’informations, voir [Vue d’ensemble du carnet d’adresses global](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). Les enregistrements de partie qui sont enregistrés dans le carnet d’adresses global peuvent contenir un ou plusieurs enregistrements d’adresse. Ces adresses sont utilisées à des fins différentes, comme la facturation ou la livraison. Vous pouvez paramétrer des ID d’enregistrement pour les informations d’adresse des clients, des fournisseurs, des collaborateurs et des entités juridiques. Recherchez l’enregistrement de partie (entité juridique, fournisseur, client, collaborateur) pour lequel vous souhaitez entrer l’ID d’enregistrement, puis cliquez sur **ID d’enregistrement** dans les écrans associés à la partie, à l’entité juridique, au fournisseur, au client ou au collaborateur pour ouvrir la page **Gérer les adresses**. Sous l’onglet **Enregistrement de taxe**, cliquez sur **Ajouter** et entrez les informations concernant l’ID d’enregistrement.
 
 
 |Champ                |description ;                                                |

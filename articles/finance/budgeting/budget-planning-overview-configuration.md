@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822129"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898208"
 ---
 # <a name="budget-planning-overview"></a>Vue d’ensemble de la planification de budget
 
@@ -75,7 +75,7 @@ L’illustration suivante présente un exemple où le siège de l’entreprise �
 
 Dans la page **Hiérarchie d’organisation**, vous pouvez désigner une hiérarchie d’organisation comme étant la hiérarchie de planification budgétaire pour chaque processus de planification budgétaire. La hiérarchie de planification budgétaire peut être différente de la hiérarchie d’organisation standard utilisée à d’autres fins. Étant donné que cette hiérarchie permet de regrouper et répartir des données, vous pouvez modifier sa structure. Dans l’exemple de schéma, les départements Ventes sont subordonnés au siège, qui comprend les départements Budget et Finance. Cette structure diffère probablement de la structure mise en place pour gérer les opérations pour les départements Ventes. Une seule hiérarchie d’organisation peut être affectée à chaque processus de planification budgétaire.
 
-Pour plus d’informations sur les hiérarchies d’organisation, voir [Organisations et hiérarchies d’organisation](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Pour plus d’informations sur les hiérarchies d’organisation, voir [Organisations et hiérarchies d’organisation](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Sécurité utilisateur
 
@@ -163,7 +163,7 @@ Outre les colonnes des montants budgétaires, vous pouvez définir les colonnes 
 
 Pour l’exemple de schéma, vous souhaitez peut-être créer des colonnes pour les scénarios « Ventes PY », « Contrats » et « Prévision ». (L’illustration suivante présente la section pertinente du schéma.) Vous pouvez ensuite éclater l’un de ces scénarios ou tous ces scénarios en différentes colonnes pour chaque trimestre de l’exercice, de sorte que le responsable du département Ventes puisse précisément entrer des montants de prévision pour chaque période.
 
-[![Colonnes](./media/columns.png)](./media/columns.png)
+[![Illustration des sections du schéma pour l'ajout de colonnes](./media/columns.png)](./media/columns.png)
 
 Vous indiquez également si chaque élément de mise en page (colonne) est modifiable, et s’il est disponible dans n’importe quel modèle de feuille de calcul créé pour cette mise en page. Pour l’exemple de schéma, dans la mise en page utilisée pour le stade « Estimation », les colonnes « Prévision » sont modifiables, alors que les colonnes « Ventes PY » et « Contrats » sont en lecture seule.
 

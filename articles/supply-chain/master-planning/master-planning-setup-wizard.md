@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829688"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909425"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistant Paramétrage de planification
 
@@ -43,15 +43,15 @@ La première page de l’Assistant s’enquiert des besoins spécifiques de votr
 - **Si vous fabriquez certains des articles :** Nombre de threads = Nombre d’ordres prévisionnels ÷ 1 000
 - **Si vous ne fabriquez pas certains des articles :** Nombre de threads = Nombre d’articles ÷ 1 000
 
-Si le nombre de threads calculé dépasse 75 % du nombre de threads disponible, il est plafonné à 75 % du nombre de threads disponible pour chaque client. (Le nombre de threads disponibles est déterminé pour chaque client.)
+Si le nombre de threads calculé dépasse 75 %% du nombre de threads disponible, il est plafonné à 75 %% du nombre de threads disponible pour chaque client. (Le nombre de threads disponibles est déterminé pour chaque client.)
 
-Pour plus d’informations, voir [Nombre de threads](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Pour plus d’informations, voir [Nombre de threads](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Taille de l’offre groupée
 
 La taille de l’offre groupée est définie sur **1**. Cette valeur est souvent la meilleure valeur, car elle permet d’améliorer les performances de la planification.
 
-Pour plus d’informations, voir [Nombre de tâches dans l’offre groupée des tâches de l’application d’assistance](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Pour plus d’informations, voir [Nombre de tâches dans l’offre groupée des tâches de l’application d’assistance](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Confirmation de la taille de l’offre groupée
 
@@ -64,7 +64,7 @@ Calcul de l’offre groupée = (Nombre d’ordres prévisionnels × Ordres prév
 
 La taille du cache est définie sur **Maximum**. Cette valeur est souvent la meilleure valeur, car elle permet d’améliorer les performances de la planification.
 
-Pour plus d’informations, voir [Répartir du temps aux tâches figurant dans un regroupement de tâches](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Pour plus d’informations, voir [Répartir du temps aux tâches figurant dans un regroupement de tâches](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Paramétrage de la fabrication
 
@@ -88,7 +88,7 @@ Les questions restantes dans cette page et leurs réponses suivent le même sch�
 - **Oui, comme défini ce plan général** – L’option **Programme prévisionnel (plage de gestion)** sera définie sur **Oui**. Le nombre de jours que vous entrez sera utilisé et remplacera les valeurs définies dans les groupes de couverture.
 - **Oui, comme défini dans le groupe de couverture** – L’option **Programme prévisionnel (plage de gestion)** sera définie sur **Non**.
 
-Pour plus d’informations, voir [Planification des tâches](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Pour plus d’informations, voir [Planification des tâches](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Options de planification
 
@@ -99,7 +99,7 @@ Votre réponse à la première question de cette page (« Devez-vous planifier 
 - **Oui** – La planification des tâches sera utilisée.
 - **Non** – La planification des opérations sera utilisée.
 
-Pour plus d’informations, voir [Planification des opérations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) et [Planification des tâches](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Pour plus d’informations, voir [Planification des opérations](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) et [Planification des tâches](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Mises à jour de la demande et de l’approvisionnement
 
@@ -176,15 +176,15 @@ Dans l’Assistant, les valeurs suivantes sont entrées pour le fabricant Contos
 
     Tous les articles utilisés pour la production doivent être planifiés. Comme les articles ont des délais très différents, la planification permet d’améliorer les performances lors qu’elle utilise les groupes de couverture. Là aussi, une marge d’une semaine peut être entrée, et l’éclatement peut être effectué pour le même temps que la couverture.
 
-### <a name="example-2-contoso-retailer"></a>Exemple 2 : Détaillant Contoso
+### <a name="example-2-contoso-retailer"></a>Exemple 2 : Distributeur Contoso
 
-Le détaillant Contoso est une société de distribution dans le secteur de la mode. Elle utilise la planification pour calculer quand des commandes fournisseur doivent être placées, selon ses ventes prévues. Voici certaines de ses caractéristiques :
+Le distributeur Contoso est une société de distribution dans le secteur de la mode. Elle utilise la planification pour calculer quand des commandes fournisseur doivent être placées, selon ses ventes prévues. Voici certaines de ses caractéristiques :
 
-- Le détaillant Contoso utilise une prévision de la demande pour prévoir ses ventes. Les commandes fournisseur sont organisées selon la prévision.
+- Le distributeur Contoso utilise une prévision de la demande pour prévoir ses ventes. Les commandes fournisseur sont organisées selon la prévision.
 - Les magasins utilisent des demandes de réassort.
 - Le délai entre l’entrepôt principal et chaque magasin est d’environ deux semaines pour tous les articles.
 
-Dans l’Assistant, les valeurs suivantes sont entrées pour le détaillant Contoso :
+Dans l’Assistant, les valeurs suivantes sont entrées pour le distributeur Contoso :
 
 - **Prévision de la demande :**
 
@@ -198,7 +198,7 @@ Dans l’Assistant, les valeurs suivantes sont entrées pour le détaillant Cont
     - **Question :** « Souhaitez-vous que la planification confirme automatiquement les ordres prévisionnels en documents de commande, par exemple en ordres de production ou en commandes fournisseur ? »
     - **Réponse :** « Oui, comme défini dans ce plan général. » **1 jour** est entré.
 
-    Comme le détaillant Contoso va crée des commandes fournisseur directement à partir des commandes fournisseur prévisionnelles, il est utile que les commandes fournisseur prévisionnelles soient automatiquement confirmées. Étant donné que la société exécute la planification chaque jour, une plage de gestion de confirmation d’un jour confirme automatiquement toutes les commandes requises pour le lendemain.
+    Comme le distributeur Contoso va créer des commandes fournisseur directement à partir des commandes fournisseur prévisionnelles, il est utile que les commandes fournisseur prévisionnelles soient automatiquement confirmées. Étant donné que la société exécute la planification chaque jour, une plage de gestion de confirmation d’un jour confirme automatiquement toutes les commandes requises pour le lendemain.
 
 - **Demandes approuvées :**
 

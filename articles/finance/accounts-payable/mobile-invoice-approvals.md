@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828032"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897694"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
@@ -32,7 +32,7 @@ Les fonctionnalités mobiles permettent aux entreprises de créer des expérienc
 
 | Logiciel requis                                                                                            | Description                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Pré-lecture manuel mobile                                                                                |[Plateforme mobile](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un environnement avec version 1611 et Platform update 3 (novembre 2016)                   |
 | Installez le correctif KB 3204341.                                                                              | L’enregistreur de tâches peut enregistrer de manière erronée deux commandes Fermer pour les boîtes de dialogue déroulantes, incluses dans Platform Update 3 (mise à jour novembre 2016). |
 | Installez le correctif KB 3207800.                                                                              | Ce correctif permet d’afficher les pièces jointes sur le client mobile, ce qui est inclus dans Platform Update 3 (mise à jour de novembre 2016).           |
@@ -46,7 +46,7 @@ Chaque organisation orchestre et définit son processus métier pour les facture
 
 -   Quels champs de l’en-tête de la facture l’utilisateur souhaitera voir dans l’expérience mobile et dans quel ordre ?
 -   Quels champs des lignes de la facture l’utilisateur souhaitera voir dans l’expérience mobile et dans quel ordre ?
--   Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %.
+-   Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %%.
 -   Les utilisateurs souhaiteront-ils voir les répartitions comptables (codage de facture) sur l’appareil mobile pendant les révisions ? Si la réponse à la question est Oui, tenez compte des questions suivantes :
     -   Combien de répartitions comptables (prix global, taxes, frais, fractionnements, etc.) y-a-t-il pour une ligne de facture ? Là aussi, appliquez la règle 80-20.
     -   Les factures ont-elles également les répartitions comptables dans l’en-tête de facture ? Dans ce cas, ces répartitions comptables doivent-elles être disponibles dans le périphérique ?
@@ -97,7 +97,7 @@ En général, lorsque vous travaillez avec le Concepteur mobile, veillez à « 
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %.</td>
+<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %%.</td>
 <td>1</td>
 </tr>
 <tr class="even">
@@ -213,7 +213,7 @@ Pour déterminer la page Détails de facture pour la fonction mobile, utilisez l
 
 11. Une fois que l’ensemble des champs des deux étapes précédentes ont été ajoutés, cliquez sur **Terminé**. La page doit ressembler à l’illustration suivante.
     
-    [![Page après l’ajout des champs](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Illustration montrant des champs supplémentaires ajoutés](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Cliquez sur **Terminé** pour quitter le mode d’édition.
 
@@ -496,7 +496,7 @@ Dans votre périphérique mobile, ouvrez l’application, puis connectez-vous à
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %.</td>
+<td>Combien de lignes de facture y-a-t-il dans une facture ? Appliquez la règle 80-20 ici et effectuez une optimisation pour les 80 %%.</td>
 <td>5</td>
 </tr>
 <tr class="even">

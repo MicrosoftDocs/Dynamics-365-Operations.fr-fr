@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 725bce4b3aa7feb61bd7d7ded1be07f803424e57
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745195"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909032"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Didacticiel pour la configuration et l’installation de Regression Suite Automation Tool
 
@@ -54,7 +54,7 @@ Cette rubrique est un didacticiel qui vous aide à paramétrer et faire vos prem
 
 ### <a name="user-eligibility"></a>Admissibilité des utilisateurs
 
-Assurez-vous que l’utilisateur est créé dans Azure DevOps et dispose d’un niveau d’abonnement qui permet d’accéder aux plans de test Azure. Une licence de plans de test Azure DevOps n’est requise que si l’utilisateur crée et traite des scénarios de test (autrement dit, tous les utilisateurs de RSAT n’ont pas besoin de cette licence). Pour plus d’informations sur les exigences de licence, voir [Exigences relatives aux licences](https://docs.microsoft.com/azure/devops/test/manual-test-permissions#license-requirements).
+Assurez-vous que l’utilisateur est créé dans Azure DevOps et dispose d’un niveau d’abonnement qui permet d’accéder aux plans de test Azure. Une licence de plans de test Azure DevOps n’est requise que si l’utilisateur crée et traite des scénarios de test (autrement dit, tous les utilisateurs de RSAT n’ont pas besoin de cette licence). Pour plus d’informations sur les exigences de licence, voir [Exigences relatives aux licences](/azure/devops/test/manual-test-permissions#license-requirements).
 
 ### <a name="create-a-new-azure-devops-project"></a>Créer un nouveau projet Azure DevOps
 
@@ -560,7 +560,7 @@ Dans les versions précédentes de RSAT, vous deviez installer Selenium et les p
     > [!NOTE]
     > Avant d’exécuter des scénarios de test, si vous utilisez Internet Explorer comme navigateur, vérifiez que la résolution de votre bureau est définie sur **100%** dans les **Paramètres d’affichage Windows \> Échelle et mise en page**. Si vous ne pouvez pas modifier ce paramètre sur un ordinateur virtuel (VM), changez-le sur le client (ordinateur portable) à partir duquel vous accédez à l’ordinateur virtuel. Les paramètres de résolution seront alors hérités par les paramètres d’affichage de l’ordinateur virtuel.
 
-    ![Résolution du bureau définie sur 100 %](./media/setup_rsa_tool_68.png)
+    ![Résolution du bureau définie sur 100 %%](./media/setup_rsa_tool_68.png)
 
 6. Si les pilotes de navigateur ne sont pas installés dans le système, vous recevez un message d’avertissement qui indique « Cette opération nécessite le pilote \<browser name\> ; souhaitez-vous automatiquement le télécharger et l’installer maintenant ? » Cliquez sur **Oui**.
 

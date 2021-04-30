@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801093"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889810"
 ---
 # <a name="copy-an-instance"></a>Copier une instance
 
@@ -39,7 +39,7 @@ Pour copier une instance, gardez à l’esprit les conseils suivants :
 
 - Vous devez être administrateur dans l’environnement cible afin de pouvoir vous y connecter après avoir copié l’instance.
 
-- Lorsque vous copiez la base de données des ressources humaines, vous ne copiez pas les éléments (applications ou données) contenus dans un environnement Microsoft Power Apps. Pour plus d’informations sur la copie d’éléments dans un environnement Power Apps, voir [Copier un environnement](https://docs.microsoft.com/power-platform/admin/copy-environment). L’environnement Power Apps que vous souhaitez remplacer doit être un environnement de bac à sable. Vous devez être un administrateur de locataire global pour basculer un environnement Power Apps de production vers un environnement de bac à sable. Pour plus d’informations sur la modification d’un environnement Power Apps, voir [Basculer une instance](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Lorsque vous copiez la base de données des ressources humaines, vous ne copiez pas les éléments (applications ou données) contenus dans un environnement Microsoft Power Apps. Pour plus d’informations sur la copie d’éléments dans un environnement Power Apps, voir [Copier un environnement](/power-platform/admin/copy-environment). L’environnement Power Apps que vous souhaitez remplacer doit être un environnement de bac à sable. Vous devez être un administrateur de locataire global pour basculer un environnement Power Apps de production vers un environnement de bac à sable. Pour plus d’informations sur la modification d’un environnement Power Apps, voir [Basculer une instance](/dynamics365/admin/switch-instance).
 
 - Si vous copiez une instance dans votre environnement bac à sable et souhaitez intégrer votre environnement bac à sable à Dataverse, vous devez réappliquer les champs personnalisés aux tables Dataverse. Voir [Appliquer des champs personnalisés à Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
@@ -80,7 +80,7 @@ Pour terminer cette tâche, vous devez d’abord copier une instance, puis vous 
 
 6. Sélectionnez l’environnement Power Apps à copier, puis sélectionnez **Copier**.
 
-7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Dataverse. Pour plus d’informations et instructions, voir [Configurer l’intégration Dataverse](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Une fois le processus de copie terminé, connectez-vous à l’instance cible et activez l’intégration Dataverse. Pour plus d’informations et instructions, voir [Configurer l’intégration Dataverse](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Éléments de données et statuts
 
@@ -142,7 +142,7 @@ Pour chaque champ personnalisé exposé sur des tables Dataverse, procédez comm
 
 Le processus de désélection, d’application des modifications, de resélection et de réapplication des modifications invite le schéma à se mettre à jour dans Dataverse pour inclure les champs personnalisés.
 
-Pour plus d’informations sur la création de champs personnalisés, voir [Créer et utiliser des champs personnalisés](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Pour plus d’informations sur la création de champs personnalisés, voir [Créer et utiliser des champs personnalisés](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Voir également :
 

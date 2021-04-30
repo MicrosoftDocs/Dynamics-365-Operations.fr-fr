@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807942"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909229"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflows d’approvisionnements
 
@@ -47,7 +47,7 @@ Les types de workflows suivants sont disponibles pour le module Approvisionnemen
 | Workflow d’application d’ajout de fournisseur | Permet de créer des workflows de révision et d’approbation pour ajouter de nouveaux fournisseurs via les demandes fournisseur. |
 
 > [!IMPORTANT]
-> Lorsque vous ajoutez un nouveau workflow, vous pouvez également voir les workflows obsolètes suivants répertoriés dans la boite de dialogue **Créer un workflow**. Ceux-ci sont liés à la fonctionnalité *confirmation de réception* disponible dans [Dynamique AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mais qui est désormais obsolète. Ces workflows ne sont actuellement pas pris en charge.
+> Lorsque vous ajoutez un nouveau workflow, vous pouvez également voir les workflows obsolètes suivants répertoriés dans la boite de dialogue **Créer un workflow**. Ceux-ci sont liés à la fonctionnalité *confirmation de réception* disponible dans [Dynamique AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mais qui est désormais obsolète. Ces workflows ne sont actuellement pas pris en charge.
 > 
 > - Flux de travail de notification de date d’échéance de livraison
 > - Flux de travail de notification de réception de facture

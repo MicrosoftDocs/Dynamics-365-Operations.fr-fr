@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840242"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897718"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 
@@ -50,7 +50,15 @@ Enfin, les fonctionnalités prennent en charge l’échange de messages avec des
 
 La disponibilité des fonctionnalités de facturation électronique dépend du pays ou de la région. Bien que certaines fonctionnalités soient généralement disponibles, d’autres sont en version préliminaire.
 
-#### <a name="preview-features"></a>Fonctionnalités d’aperçu
+#### <a name="generally-available-features"></a>Fonctionnalités en disponibilité générale
+
+Le tableau suivant présente les fonctionnalités de facturation électronique actuellement en disponibilité générale.
+
+| Pays/région | Nom de la fonction                         | Document commercial |
+|----------------|--------------------------------------|-------------------|
+| Égypte          | Facture électronique pour l’Égypte (EG) | Factures de vente et factures projet |
+
+#### <a name="preview-features"></a>Fonctionnalités d'aperçu
 
 Le tableau suivant présente les fonctionnalités de facturation électronique actuellement en version préliminaire.
 
@@ -61,7 +69,6 @@ Le tableau suivant présente les fonctionnalités de facturation électronique a
 | Brésil         | NF-e (BR) pour le Brésil                  | Modèle de document fiscal 55, lettres de correction, annulations et rejets |
 | Brésil         | NFS-e ABRASF Curitiba (BR) pour le Brésil | Documents fiscaux du service |
 | Danemark        | Facture électronique danoise (DK)       | Factures de vente et factures projet |
-| Égypte          | Facture électronique pour l’Égypte (EG) | Factures de vente et factures projet |
 | Estonie        | Facture électronique estonienne (EE)     | Factures de vente et factures projet |
 | Finlande        | Facture électronique finlandaise (DK)      | Factures de vente et factures projet |
 | France         | Facture électronique française (FR)       | Factures de vente et factures projet |
@@ -202,6 +209,91 @@ Le tableau suivant répertorie les actions disponibles et indique si elles sont 
 | Appeler le service PAC mexicain                      | Intégration avec le service PAC mexicain pour la soumission CFDI.                      | En mode aperçu           |
 | Réponse du processus                              | Analysez la réponse reçue de l’appel de service Web.                     | Disponibilité générale  |
 | Utiliser MS Power Automate                         | Intégrer avec le flux intégré à Microsoft Power Automate.                       | En mode aperçu           |
+
+### <a name="applicability-rules"></a>Règles d'applicabilité
+
+Les règles d'applicabilité sont des clauses configurables qui sont définies au niveau de la fonctionnalité Facturation électronique. Les règles sont configurées pour fournir un contexte d'exécution des fonctionnalités de facturation électronique via l'ensemble de fonctionnalités de la Facturation électronique.
+
+Lorsqu'un document commercial de Finance ou Supply Chain Management est soumis à la facturation électronique, le document commercial ne comporte pas de référence explicite permettant à l'ensemble de fonctionnalités de Facturation électronique d'appeler une fonction de facturation électronique particulière pour traiter l'envoi.
+
+Néanmoins, lorsqu'il est correctement configuré, le document commercial contient les éléments nécessaires qui permettent à la facturation électronique de déterminer quelle fonction de facturation électronique doit être sélectionnée, puis de générer la facture électronique.
+
+Les règles d'applicabilité permettent à l'ensemble de fonctionnalités de la Facturation électronique de trouver les fonctionnalités de facturation électronique exactes qui doivent être utilisées pour traiter l'envoi. Cela se fait en faisant correspondre le contenu du document commercial envoyé avec les clauses des règles d'applicabilité.
+
+Par exemple, deux fonctionnalités de facturation électronique avec des règles d'applicabilité associées sont déployées dans l'ensemble de fonctionnalités de la Facturation électronique.
+
+| Fonction de facturation électronique | Règles d'applicabilité        |
+|------------------------------|--------------------------- |
+| A                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
+| o                            | <p>Pays = MX</p><p>et</p><p>Entité juridique = MXMF</p>  |
+
+Si un document commercial de Finance ou Supply Chain Management est envoyé à l'ensemble de fonctionnalités de Facturation électronique, le document commercial contient les attributs suivants renseignés comme suit :
+
+- Pays = BR
+- Entité juridique = BRMF
+
+L'ensemble de fonctionnalités de Facturation électronique sélectionnera la fonction de facturation électronique **A** pour traiter l'envoi et générer la facture électronique.
+
+De la même manière, si le document commercial contient :
+
+- Pays = MX
+- Entité juridique = MXMF
+
+La fonction de facturation électronique **B** est sélectionné pour générer la facture électronique.
+
+La configuration des règles d'applicabilité ne peut pas être ambiguë. Cela signifie que deux ou plusieurs fonctionnalités de facturation électronique ne peuvent pas avoir les mêmes clauses, sinon cela n'entraînera aucune sélection. En cas de doublons de fonctionnalités de facturation électronique, pour éviter toute ambiguïté, utilisez des clauses supplémentaires pour permettre à l'ensemble de fonctionnalités de Facturation électronique de faire la distinction entre les deux fonctionnalités de facturation électronique.
+
+Par exemple, prenons la fonction de facturation électronique **C**. Cette fonction est une copie de la fonction de facturation électronique **A**.
+
+| Fonction de facturation électronique | Règles d'applicabilité        |
+|------------------------------|--------------------------- |
+| A                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
+| C                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
+
+Dans cet exemple, la fonction **C** se trouve devant un envoi de document commercial contenant les éléments suivants :
+
+- Pays = BR
+- Entité juridique = BRMF
+
+La fonctionnalité de Facturation électronique ne peut pas distinguer quelle fonction de facturation électronique doit être utilisée pour traiter l'envoi, car les envois contiennent exactement les mêmes clauses.
+
+Pour créer une distinction entre les deux fonctions via les règles d'applicabilité, une nouvelle clause doit être ajoutée à l'une des fonctions pour permettre à l'ensemble de fonctionnalités de Facturation électronique de sélectionner la fonction de facturation électronique appropriée.
+
+| Fonction de facturation électronique | Règles d'applicabilité        |
+|------------------------------|--------------------------- |
+| A                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p>  |
+| C                            | <p>Pays = BR</p><p>et</p><p>Entité juridique = BRMF</p><p>et</p><p>Modèle = 55</p>  |
+
+Pour prendre en charge la création de clauses plus complexes, les ressources suivantes sont disponibles :
+
+Opérateurs logiques :
+- And
+- Ou
+
+Types d'opérateurs :
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Supérieur ou égal à
+- Inférieur ou égal à
+- Contains
+- Commence par
+
+Types de données :
+- Chaîne
+- Nombre
+- Booléen
+- Date
+- UUID
+
+Capacité de regrouper et de dissocier des clauses.
+L'exemple ressemble à ceci :
+
+| Fonction de facturation électronique | Règles d'applicabilité        |
+|------------------------------|--------------------------- |
+| C                            | <p>Pays = BR</p><p>et</p><p>(Entité juridique = BRMF</p><p>ou</p><p>Modèle = 55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Fournisseurs de configuration
 

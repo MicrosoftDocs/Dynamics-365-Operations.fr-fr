@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835628"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910013"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestion en entrepôt des chargements entrants pour les commandes fournisseur
 
 Cette rubrique décrit le processus de gestion en entrepôt des chargements entrants pour les commandes fournisseur.
 
-Pour chaque chargement entrant, votre système doit déjà inclure une commande client associée, et il peut également contenir une spécification de chargement et/ou un plan de transport associé. Pour plus d’informations sur la création et la gestion des chargements entrants, consultez [Processus entreprise : Planifier le transport pour les chargements entrants](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Pour chaque chargement entrant, votre système doit déjà inclure une commande client associée, et il peut également contenir une spécification de chargement et/ou un plan de transport associé. Pour plus d’informations sur la création et la gestion des chargements entrants, consultez [Processus entreprise : Planifier le transport pour les chargements entrants](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Vue d’ensemble : Procédures de création, d’enregistrement et de réception des chargements entrants
 
@@ -38,11 +38,11 @@ L’illustration suivante présente le flux classique de gestion des chargements
 
 1. **Un enregistrement de chargement entrant est créé pour planifier l’arrivée et son contenu.**
 
-    L’enregistrement de chargement entrant représente l’expédition par le fournisseur d’une ou de plusieurs commandes fournisseur. L’arrivée du chargement est prévue à l’entrepôt sous la forme d’une unité de transport physique (un chargement de camion par exemple). L’enregistrement du chargement entrant est utilisé à des fins de planification et permet au coordinateur logistique de suivre la progression du chargement à partir du fournisseur. Il est également utilisé pour enregistrer les quantités en ligne de commande et gérer la progression via les opérations d’entrepôt, comme l’arrivée et le travail de rangement. Les chargements peuvent être créés automatiquement ou manuellement et ils peuvent être basés sur une commande fournisseur ou un avis préalable d’expédition (APE) du fournisseur. Pour plus d’informations, voir [Création ou modification d’un chargement entrant](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    L’enregistrement de chargement entrant représente l’expédition par le fournisseur d’une ou de plusieurs commandes fournisseur. L’arrivée du chargement est prévue à l’entrepôt sous la forme d’une unité de transport physique (un chargement de camion par exemple). L’enregistrement du chargement entrant est utilisé à des fins de planification et permet au coordinateur logistique de suivre la progression du chargement à partir du fournisseur. Il est également utilisé pour enregistrer les quantités en ligne de commande et gérer la progression via les opérations d’entrepôt, comme l’arrivée et le travail de rangement. Les chargements peuvent être créés automatiquement ou manuellement et ils peuvent être basés sur une commande fournisseur ou un avis préalable d’expédition (APE) du fournisseur. Pour plus d’informations, voir [Création ou modification d’un chargement entrant](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Le fournisseur confirme la répartition du chargement.**
 
-    Lorsque le fournisseur répartit le chargement, le coordinateur logistique de l’entrepôt de réception confirme l’expédition du chargement. Si la société destinataire utilise le module **Gestion du transport**, la confirmation de l’expédition entrante déclenche d’autres processus de gestion des chargements associés aux chargements entrants. Pour plus d’informations, voir [Confirmer un chargement pour l’expédition](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Lorsque le fournisseur répartit le chargement, le coordinateur logistique de l’entrepôt de réception confirme l’expédition du chargement. Si la société destinataire utilise le module **Gestion du transport**, la confirmation de l’expédition entrante déclenche d’autres processus de gestion des chargements associés aux chargements entrants. Pour plus d’informations, voir [Confirmer un chargement pour l’expédition](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Le chargement arrive à l’entrepôt et les collaborateurs enregistrent les quantités.**
 
@@ -141,7 +141,7 @@ Lorsque le collaborateur au sein de l’entrepôt a terminé le travail de range
 
 | Entité | Mises à jour | Note |
 |---|---|---|
-| Charger | <p>Les champs suivants sont mis à jour :</p><ul><li>La valeur <b>État du chargement</b> est modifiée et définie sur <i>En cours</i>.</li><li>La valeur <b>Statut du travail</b> est remplacée par <i>100,00 % de travail terminé</i>.</li></ul> | La valeur **État du chargement** a changé et est définie sur _En cours_ lorsque le collaborateur commence la tâche de rangement pour au moins une ligne de travail de rangement. |
+| Charger | <p>Les champs suivants sont mis à jour :</p><ul><li>La valeur <b>État du chargement</b> est modifiée et définie sur <i>En cours</i>.</li><li>La valeur <b>Statut du travail</b> est remplacée par <i>100,00 %% de travail terminé</i>.</li></ul> | La valeur **État du chargement** a changé et est définie sur _En cours_ lorsque le collaborateur commence la tâche de rangement pour au moins une ligne de travail de rangement. |
 | Les transactions de stock de travail pour lesquelles des quantités associées ont été mises de côté | Les champs **Réception** et **Emplacement** et les autres champs pertinents sont mis à jour pour refléter le mouvement de l’emplacement de réception vers l’emplacement de stockage. | La valeur **État de réception** de la transaction de stock de la commande fournisseur reste définie sur _Enregistré_. |
 | Rangement entrepôt | La valeur **Statut du travail** est modifiée et définie sur _Fermé_. | |
 
@@ -407,7 +407,7 @@ Dans cette procédure, vous allez activer plusieurs validations d’accusé de r
 
 Dans cette procédure, vous allez créer une commande fournisseur et deux chargements. Vous mettrez ensuite à jour manuellement chaque chargement pour simuler qu’il a été expédié par le fournisseur (qui met à jour l’état du chargement). Les planificateurs d’entrepôt peuvent ensuite filtrer les chargements selon l’**État du chargement** pour trouver les chargements entrants prévus.
 
-Vous apprendrez également à définir la ligne de commande afin que vous puissiez recevoir une quantité supérieure de 20 % à la quantité spécifiée pour la ligne.
+Vous apprendrez également à définir la ligne de commande afin que vous puissiez recevoir une quantité supérieure de 20 %% à la quantité spécifiée pour la ligne.
 
 1. Accédez à **Approvisionnements \> Commandes fournisseur \> Toutes les commandes fournisseur**.
 1. Sélectionnez **Nouveau**.
@@ -472,7 +472,7 @@ Pour ce scénario, le réceptionnaire enregistrera en entrée une quantité qui 
 
     - **Chargement** - Entrez le deuxième ID chargement que vous avez créé précédemment.
     - **Article** - Entrez _A0001_, qui est l’article prévu pour ce chargement.
-    - **Qté** - Entrez _7_, qui est la quantité restante que le fournisseur soit autorisé à livrer dans le cadre de la quantité totale de commande de 12 (où 10 est la quantité de commande d’origine et 2 est la quantité de livraison excédentaire autorisée de 20 %). N’oubliez pas que 5 pièces ont déjà été enregistrées pour le premier chargement.
+    - **Qté** - Entrez _7_, qui est la quantité restante que le fournisseur soit autorisé à livrer dans le cadre de la quantité totale de commande de 12 (où 10 est la quantité de commande d’origine et 2 est la quantité de livraison excédentaire autorisée de 20 %%). N’oubliez pas que 5 pièces ont déjà été enregistrées pour le premier chargement.
 
 Le deuxième chargement a maintenant été mis à jour avec la quantité de 7 et peut être mis à jour à la réception du produit en fonction de cette quantité.
 
