@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9aa3e1f6fc14d2c0c8f35307f1084d09399c08f5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d46b87428e642d970a5efd8c6d4c4a462f3a3ea
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832708"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894714"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Normes prises en charge pour la facturation électronique en Europe
 
@@ -44,7 +44,7 @@ Les formats de factures électroniques spécifiques au pays suivants sont dispon
 -   Format spécifique estonien version 1.2
 -   Finvoice 3.0 pour la Finlande
 
-La facturation électronique est basée sur la [Gestion des états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting.md). Un modèle de données **Modèle de facture**, le mappage du modèle de facture et plusieurs configurations de format ER spécifiques au pays/à la région ont été créés pour les pays/régions suivants : 
+La facturation électronique est basée sur la [Gestion des états électroniques (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). Un modèle de données **Modèle de facture**, le mappage du modèle de facture et plusieurs configurations de format ER spécifiques au pays/à la région ont été créés pour les pays/régions suivants : 
 
 - Autriche (AT)
 - Danemark (DK)
@@ -105,7 +105,7 @@ La configuration et les spécificités des factures électroniques dépendent du
 - [PEPPOL](https://support.microsoft.com/help/4490320)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
-Pour plus de détails sur le paramétrage des factures électroniques, vous pouvez visionner [Guides de tâche](../../fin-and-ops/get-started/help-overview.md#task-guides) dans volet d’aide :
+Pour plus de détails sur le paramétrage des factures électroniques, vous pouvez visionner [Guides de tâche](../../fin-ops-core/fin-ops/get-started/help-overview.md#task-guides) dans volet d’aide :
 
  - Paramétrer la facturation électronique OIOUBL
  - Importer les configurations de facturation électronique OIOUBL

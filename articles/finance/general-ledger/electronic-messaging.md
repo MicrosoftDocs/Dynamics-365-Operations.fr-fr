@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823786"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897598"
 ---
 # <a name="electronic-messaging"></a>Messages électroniques
 
@@ -29,7 +29,7 @@ Récemment, les gouvernements et autorités législatives de différents pays/r�
 
 La fonctionnalité de messagerie électronique dans Finance prend en charge différents processus d’interopérabilité électronique entre Finance et les systèmes que les gouvernements et les autorités législatives offrent pour la génération d’états, la soumission, et la réception d’informations officielle.
 
-La fonctionnalité de messagerie électronique est intégrée au module **États électroniques** (ER). Par conséquent, vous pouvez paramétrer des formats d’ER pour les messageries électroniques. Pour plus d’informations, voir [États électroniques (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+La fonctionnalité de messagerie électronique est intégrée au module **États électroniques** (ER). Par conséquent, vous pouvez paramétrer des formats d’ER pour les messageries électroniques. Pour plus d’informations, voir [États électroniques (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 La messagerie électronique est basée sur les entités suivantes :
 
@@ -56,7 +56,7 @@ La fonctionnalité de message électronique prend en charge les scénarios suiva
 
 ## <a name="set-up-electronic-messaging"></a>Paramétrage d’une messagerie électronique
 
-La messagerie électronique peut vous aider à gérer différents processus de génération d’états électroniques pour chaque type de document. Dans certains scénarios complexes, la messagerie électronique est paramétrée de manière à avoir une combinaison de nombreux statuts de message, de statuts d’éléments de message, d’actions, de champs supplémentaires, et de classes exécutables. Pour ces scénarios, les packages d’entités de données sont disponibles pour l’importation. Si vous utilisez ces packages d’entité de données, vous devez les importer dans une entité juridique à l’aide de l’outil de gestion des données. Pour plus d’informations sur l’utilisation de l’outil de gestion de données, voir [Gestion des données](../../dev-itpro/data-entities/data-entities-data-packages.md).
+La messagerie électronique peut vous aider à gérer différents processus de génération d’états électroniques pour chaque type de document. Dans certains scénarios complexes, la messagerie électronique est paramétrée de manière à avoir une combinaison de nombreux statuts de message, de statuts d’éléments de message, d’actions, de champs supplémentaires, et de classes exécutables. Pour ces scénarios, les packages d’entités de données sont disponibles pour l’importation. Si vous utilisez ces packages d’entité de données, vous devez les importer dans une entité juridique à l’aide de l’outil de gestion des données. Pour plus d’informations sur l’utilisation de l’outil de gestion de données, voir [Gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Si vous n’importez pas un packages d’entité de données, vous pouvez paramétrer manuellement la fonctionnalité de messages électroniques. Dans ce cas, vous devez paramétrer les éléments suivants :
 

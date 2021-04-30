@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753694"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894146"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Spécifier des emplacements de stockage personnalisé pour les documents générés
 
@@ -27,7 +27,7 @@ L’API de la structure des états électroniques permet d’étendre la liste d
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Déployez une topologie prenant en charge l’élaboration continue. Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Vous devez également avoir accès à cette topologie pour l’un des rôles suivants :
+Déployez une topologie prenant en charge l’élaboration continue. Pour plus d’informations, voir [Déployer des topologies prenant en charge l’élaboration continue et l’automatisation des tests](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Vous devez également avoir accès à cette topologie pour l’un des rôles suivants :
 
 - Développeur d’états électroniques
 - Consultant fonctionnel des états électroniques
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifier la classe `AssetRollForwardService` existante et écrivez du code pour configurer une fabrique de destination personnalisée pour le générateur de rapports. Notez que lorsqu’une fabrique de destination personnalisée est construite, le paramètre piloté par l’application qui spécifie un dossier cible est transmis. De cette manière, ce dossier cible est utilisé pour stocker les fichiers générés.
 
     > [!NOTE] 
-    > Assurez-vous que le dossier spécifié (**c:\\0** dans cet exemple) est présent dans le système de fichiers local du serveur qui exécute le service AOS. Sinon, une exception [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) sera levée lors de l’exécution.
+    > Assurez-vous que le dossier spécifié (**c:\\0** dans cet exemple) est présent dans le système de fichiers local du serveur qui exécute le service AOS. Sinon, une exception [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) sera levée lors de l’exécution.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

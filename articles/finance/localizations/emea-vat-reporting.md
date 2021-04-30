@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 743298a1c32f5fc706ad7a47d9b559569946889b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: efa9be4a5243444c2bf0b154836efbf8cfa76de9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832662"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894668"
 ---
 # <a name="vat-reporting-for-europe"></a>Déclaration de TVA pour l’Europe
 
@@ -248,9 +248,9 @@ d<li>Le <strong>Montant de base de taxe</strong> ou le <strong>Montant de taxe</
 
 Vous pouvez utiliser les états électroniques pour configurer les déclarations et l’état, et pour exporter les données dans différents formats électroniques sans modifier le code X++. Pour des informations supplémentaires :
 
--   [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
--   [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
--   [Exigences de localisation – Créer une configuration GER](../../dev-itpro/analytics/electronic-reporting-configuration.md)
+-   [Vue d’ensemble des états électroniques](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+-   [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Exigences de localisation – Créer une configuration GER](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>Ressources spécifiques au pays pour les déclarations de TVA
 La déclaration de TVA pour chaque pays doit répondre aux exigences de la législation du pays. Il existe des modèles et des formats généraux prédéfinis de déclarations de TVA pour les pays répertoriés dans le tableau suivant.

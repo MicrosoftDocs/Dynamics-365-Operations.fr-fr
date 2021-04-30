@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46b232da404fe2106ce4b5455ea4d682a08aaa53
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5ec5b8d0ad1e85a9c4fc7c3eb762c2c7b0b52e8d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743627"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893298"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personnaliser les configurations ER pour générer un document électronique
 
@@ -667,8 +667,8 @@ Le statut de la version 32.6.7.2 passe de **Brouillon** à **Terminé** et la v
 - [Vue d’ensemble des États électroniques](general-electronic-reporting.md)
 - [Télécharger les configurations de gestion des états électroniques depuis Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Télécharger les configurations de gestion des états électroniques depuis le référentiel global du service de configuration](er-download-configurations-global-repo.md)
-- [Créer une facture financière](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
-- [Créer et utiliser des champs personnalisés](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+- [Créer une facture financière](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
+- [Créer et utiliser des champs personnalisés](../../fin-ops/get-started/user-defined-fields.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

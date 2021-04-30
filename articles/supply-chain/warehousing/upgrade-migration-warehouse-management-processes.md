@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8969345b8499bacfeecb0a1535174ce988eabc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 31bfc203e9db28acee4b5b52b36f64d90dc4f714
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837415"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909253"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Mise à niveau de la gestion des entrepôts depuis Microsoft Dynamics AX 2012 vers Supply Chain Management 
 
@@ -66,7 +66,7 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 1.  Créez au moins un profil d’emplacement.
 2.  Cliquez sur **Gestion des entrepôts** &gt; **Paramétrage** &gt; **Activer les processus de gestion des entrepôts** &gt; **Activer le paramétrage des entrepôts**.
 3.  Dans la page **Activer le paramétrage des entrepôts**, ajoutez les entrepôts à activer. Vous pouvez effectuer cette étape directement sur la page ou à l’aide de l’intégration Microsoft Office.
-4.  Affectez un profil d’emplacement à tous les emplacements. Vous pouvez facilement effectuer cette étape à l’aide de l’intégration Microsoft Office directement à partir de la page. Vous pouvez exporter et importer les données, ou utiliser le traitement de l’entité de données dans [Gestion des données](../../dev-itpro/data-entities/data-entities.md).
+4.  Affectez un profil d’emplacement à tous les emplacements. Vous pouvez facilement effectuer cette étape à l’aide de l’intégration Microsoft Office directement à partir de la page. Vous pouvez exporter et importer les données, ou utiliser le traitement de l’entité de données dans [Gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 5.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l’intégrité des données se produisent. Dans le cadre d’un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l’implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 6.  Traitez les modifications.
 
@@ -77,7 +77,7 @@ Pour pouvoir utiliser des produits lancés dans le module **Gestion des entrepô
 3.  Dans la page **Hiérarchie de réservation**, définissez une nouvelle hiérarchie de réservation en fonction des groupes de dimensions de stockage et de suivi de l’article.
 4.  Créez un ou plusieurs groupes de séquences d’unités contenant au moins les mêmes unités que celles utilisées pour les unités de stock des articles.
 5.  Cliquez sur **Gestion des entrepôts** &gt; **Paramétrage** &gt; **Activer les processus de gestion des entrepôts** &gt; **Modifier le groupe de dimensions de stockage pour les articles**.
-6.  Dans la page **Modifier le groupe de dimensions de stockage pour les articles**, ajoutez les numéros d’article, les groupes de dimensions de stockage et les groupes de séquences d’unités. Vous pouvez effectuer cette étape directement sur la page, à l’aide de l’intégration Microsoft Office, ou en utilisant le traitement de l’entité de données dans [Gestion des données](../../dev-itpro/data-entities/data-entities.md).
+6.  Dans la page **Modifier le groupe de dimensions de stockage pour les articles**, ajoutez les numéros d’article, les groupes de dimensions de stockage et les groupes de séquences d’unités. Vous pouvez effectuer cette étape directement sur la page, à l’aide de l’intégration Microsoft Office, ou en utilisant le traitement de l’entité de données dans [Gestion des données](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 7.  Validez les modifications. Dans le cadre du processus de validation, différentes validations de l’intégrité des données se produisent. Dans le cadre d’un processus de mise à niveau plus vaste, les problèmes qui se produisent doivent être ajustés sur l’implémentation source. Dans ce cas, une mise à niveau supplémentaire des données sera nécessaire.
 8.  Traitez les modifications. Une mise à jour de toutes les dimensions de stock peut prendre un certain temps. Vous pouvez surveiller la progression à l’aide des tâches de traitement par lots.
 

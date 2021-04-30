@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 74bdf891ffa7a9d875e23cf46aeee1dbaf86db48
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cd66cb4f5ac02407250e15ae134b36f5ccd4d290
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802405"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889930"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurer les paramètres de Human Resources
 
@@ -92,7 +92,7 @@ Les paramètres sur l’onglet **Souche de numéros** détermine les souches uti
 
 Pour tenir à jour les références et codes des souches de numéros, utilisez la page de liste **Souches de numéros** (cliquez sur **Administration d’organisation > Souches de numéros > Souches de numéros**).
 
-Pour plus d’informations, voir [Vue d’ensemble des souches de numéros](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/human-resources/toc.json).
+Pour plus d’informations, voir [Vue d’ensemble des souches de numéros](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 > [!NOTE]
 > Le nombre d’heures travaillées ne peut pas dépasser 1 250, et la durée de l’emploi ne peut pas dépasser 12 mois. Ces valeurs maximales sont conformes à la législation fédérale des États-Unis.

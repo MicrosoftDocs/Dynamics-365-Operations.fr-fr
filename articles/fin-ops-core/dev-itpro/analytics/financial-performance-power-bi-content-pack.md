@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743375"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893224"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solution PowerBI.com Performances financières
 
@@ -85,7 +85,7 @@ Les entités suivantes ont été utilisées comme base de la solution PowerBI.co
 - Comptabilités
 - ChartofAccounts
 
-Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Les entités calculées sont utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu. Par défaut, le contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). Ce classeur est le modèle de données par défaut utilisé pour créer le contenu.
+Ces entités ont été utilisées pour créer des mesures calculées dans le modèle de données. Les entités calculées sont utilisées pour calculer les indicateurs de performance clés (KPI) et les états utilisés dans le contenu. Par défaut, le contenu fournit des données pour les trois dernières années et une année dans le futur. Pour inclure des calculs supplémentaires dans vos rapports et dans le tableau de bord, vous pouvez modifier le [classeur Microsoft Excel](/dynamics/s-e/). Ce classeur est le modèle de données par défaut utilisé pour créer le contenu.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

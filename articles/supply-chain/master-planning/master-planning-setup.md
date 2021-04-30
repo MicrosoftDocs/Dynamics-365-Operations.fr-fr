@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833399"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909401"
 ---
 # <a name="set-up-master-planning"></a>Paramétrer une planification
 
@@ -106,11 +106,11 @@ Pour chaque plan, sous l’organisateur **Général** de la page **Plans génér
 
 ### <a name="operations-scheduling"></a>Ordonnancement
 
-Vous pouvez utiliser l’ordonnancement pour fournir une estimation globale du processus de production dans le temps. L’ordonnancement n’éclate pas les opérations de la gamme de production en tâches. Pour plus d’informations sur l’ordonnancement des opérations, voir [Ordonnancement](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Vous pouvez utiliser l’ordonnancement pour fournir une estimation globale du processus de production dans le temps. L’ordonnancement n’éclate pas les opérations de la gamme de production en tâches. Pour plus d’informations sur l’ordonnancement des opérations, voir [Ordonnancement](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Planification de tâche
 
-L’ordonnancement des tâches est une méthode d’ordonnancement plus détaillée, où chaque opération est divisée en ses tâches individuelles. L’ordonnancement des tâches fournit des informations sur la capacité. Il concerne généralement l’ordonnancement de tâches individuelles dans l’atelier et se déroule normalement immédiatement ou à court terme. Pour plus d’informations sur l’ordonnancement des tâches, voir [Ordonnancement des tâches](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+L’ordonnancement des tâches est une méthode d’ordonnancement plus détaillée, où chaque opération est divisée en ses tâches individuelles. L’ordonnancement des tâches fournit des informations sur la capacité. Il concerne généralement l’ordonnancement de tâches individuelles dans l’atelier et se déroule normalement immédiatement ou à court terme. Pour plus d’informations sur l’ordonnancement des tâches, voir [Ordonnancement des tâches](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Plages de gestion en jours
 
@@ -158,7 +158,7 @@ Les messages d’action suggèrent les modifications qui peuvent être apportée
 
 En définissant l’option **Message d’action** sur **Oui**, vous pouvez remplacer la plage de gestion des messages d’action définie pour l’article lors du calcul PDP/MRP. Dans ce cas, entrez le nombre de jours pendant lesquels l’établissement du calcul PDP/MRP doit générer des messages d’action pour les besoins. La plage de gestion de message d’action est calculée en avant à partir de la date actuelle.
 
-Pour plus d’informations sur les messages d’action, voir [Messages d’action](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Pour plus d’informations sur les messages d’action, voir [Messages d’action](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Le calcul des messages d’action entraîne un temps d’exécution de la planification plus long. Si les messages d’action ne sont pas régulièrement analysés et mis en application (chaque jour, chaque semaine), songez à désactiver leur calcul lors de l’exécution de la planification. Pour désactiver le calcul, dans la page **Plans généraux**, définissez la plage de gestion **Message d’action** sur **0** (zéro) pour le plan général que vous exécutez. Assurez-vous également que le paramètre **Message d’action** est désactivé pour tous les groupes de couverture.
@@ -223,7 +223,7 @@ Délai d’exécution + jours négatifs + date du jour – date de besoin
 
 Le système utilise uniquement les ordres prévisionnels d’approvisionnement compris dans cette plage de gestion, et il crée un nouvel ordre prévisionnel en dehors de celle-ci. L’avantage des jours négatifs dynamiques est qu’ils incluent le délai d’exécution du produit individuel pour réutiliser les commandes existantes et éviter de créer de nouveaux ordres prévisionnels qui finiront par des jours de retard en raison des délais d’exécution. 
 
-Pour plus d’informations, voir [Jours négatifs et jours négatifs dynamiques](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Pour plus d’informations, voir [Jours négatifs et jours négatifs dynamiques](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

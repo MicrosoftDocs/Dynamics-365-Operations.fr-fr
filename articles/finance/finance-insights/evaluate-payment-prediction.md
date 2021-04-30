@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818618"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897910"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Évaluer le modèle de prédiction de paiement client initial (version préliminaire)
 
@@ -41,7 +41,7 @@ Ce lien vous amène à AI Builder, où vous pouvez en savoir plus sur le modèle
 
 La page ouverte affiche les informations suivantes :
 
-- Dans la section **Performance**, la note de performance du modèle fournit une perspective sur la qualité du modèle. Pour plus d’informations sur cette note, voir [Performances du modèle de prédiction](https://docs.microsoft.com/ai-builder/prediction-performance) dans la documentation AI Builder.
+- Dans la section **Performance**, la note de performance du modèle fournit une perspective sur la qualité du modèle. Pour plus d’informations sur cette note, voir [Performances du modèle de prédiction](/ai-builder/prediction-performance) dans la documentation AI Builder.
 - La section **Données les plus influentes** montre l’importance des différents types d’entrée de données pour votre modèle. Vous pouvez évaluer cette liste et les pourcentages correspondants pour déterminer si les informations sont cohérentes avec ce que vous savez sur votre entreprise et votre marché.
 
     [![Sections de performances et de données les plus influentes pour le modèle de prédiction](./media/models.png)](./media/models.png)
@@ -74,11 +74,11 @@ Vous pouvez développer ces données de la manière suivante.
 
 La matrice de confusion montre les résultats d’un jeu de données de test sélectionné au hasard à partir du processus de formation. Étant donné que ces factures fermées n’ont pas été utilisées pour entraîner le modèle, ce sont de bons cas de test pour le modèle. De plus, comme l’état réel de la facture est connu, les performances du modèle peuvent également être vues.
 
-La première chose à rechercher est la valeur réelle la plus courante. Bien que cette valeur ne soit pas parfaitement alignée avec l’ensemble de données global, il s’agit d’une approximation raisonnable. Dans ce cas, **Paiement à temps réel** se produit pour 92 des 171 factures totales et est la valeur réelle la plus courante. C’est donc une bonne base pour votre modèle. Si vous aviez deviné juste que toutes les factures seraient à l’heure, vous auriez raison 92 fois sur 171 (soit 54 % du temps).
+La première chose à rechercher est la valeur réelle la plus courante. Bien que cette valeur ne soit pas parfaitement alignée avec l’ensemble de données global, il s’agit d’une approximation raisonnable. Dans ce cas, **Paiement à temps réel** se produit pour 92 des 171 factures totales et est la valeur réelle la plus courante. C’est donc une bonne base pour votre modèle. Si vous aviez deviné juste que toutes les factures seraient à l’heure, vous auriez raison 92 fois sur 171 (soit 54 %% du temps).
 
 Il est important que vous compreniez à quel point votre jeu de données est équilibré. Dans ce cas, 92 factures sur 171 ont été payées à temps, 32 ont été payées en retard et 47 ont été payées très tard. Ces valeurs indiquent un jeu de données raisonnablement équilibré, car il y a des résultats non triviaux dans chaque classification. Une situation où l’un des états a très peu de résultats peut être difficile pour un modèle Machine Learning.
 
-La précision du modèle indique le nombre de prédictions correctes pour le jeu de données de test. Ces prédictions correctes sont les valeurs affichées en gras dans l’exemple précédent. Dans ce cas, les valeurs produisent une précision calculée de 67,8 % (= \[71 + 0 + 45\] ÷ 171). Cette valeur représente une amélioration de 14 % par rapport à l’estimation de base de 54 % et est un indicateur de la qualité du modèle.
+La précision du modèle indique le nombre de prédictions correctes pour le jeu de données de test. Ces prédictions correctes sont les valeurs affichées en gras dans l’exemple précédent. Dans ce cas, les valeurs produisent une précision calculée de 67,8 %% (= \[71 + 0 + 45\] ÷ 171). Cette valeur représente une amélioration de 14 %% par rapport à l’estimation de base de 54 %% et est un indicateur de la qualité du modèle.
 
 Si vous examinez de plus près la matrice de confusion, vous remarquerez que le modèle fait un bon travail de prédiction des paiements de factures à temps et très tardifs. Cependant, les 32 factures ont été payées en retard (mais pas très en retard). Ce résultat suggère qu’une exploration et une amélioration supplémentaires du modèle sont nécessaires.
 
@@ -86,7 +86,7 @@ Le score F1 Macro est un nombre qui représente mieux les performances du modèl
 
 `{"name": "F1 Macro", "value": 0.4927170868347339, "type": "percentage", "isGlobalScore": false}`
 
-Dans ce cas, le score Macro F1 d’environ 49,3 % indique que le modèle ne fournit pas de prédictions efficaces pour chaque état, malgré un score de précision global qui semble raisonnablement élevé.
+Dans ce cas, le score Macro F1 d’environ 49,3 %% indique que le modèle ne fournit pas de prédictions efficaces pour chaque état, malgré un score de précision global qui semble raisonnablement élevé.
 
 ## <a name="improving-the-model"></a>Améliorer le modèle
 

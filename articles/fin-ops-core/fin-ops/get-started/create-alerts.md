@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 869a2f83360c1d6515bbe2868f1450f76ff3a13f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749195"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909837"
 ---
 # <a name="create-alert-rules"></a>Créer des règles d’alerte
 
@@ -101,7 +101,7 @@ Vous ne pouvez pas créer d’alerte pour certaines sources de données secondai
 2. Créez une alerte à partir du formulaire SysTableBrowser.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Les alertes basées sur les modifications ne fonctionnent pas pour les modifications d’état par lots
-Les alertes basées sur les modifications ne fonctionnent pas avec les modifications d’état par lots, car elles sont désactivées pour des raisons de performances. Au lieu de cela, vous devez configurer la fonctionnalité **Alertes par lots**. Pour plus d’informations, consultez [Configurer des alertes pour les formulaires améliorés par lots](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
+Les alertes basées sur les modifications ne fonctionnent pas avec les modifications d’état par lots, car elles sont désactivées pour des raisons de performances. Au lieu de cela, vous devez configurer la fonctionnalité **Alertes par lots**. Pour plus d’informations, consultez [Configurer des alertes pour les formulaires améliorés par lots](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

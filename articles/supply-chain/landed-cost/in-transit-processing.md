@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823407"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909449"
 ---
 # <a name="goods-in-transit-processing"></a>Traitement de marchandises en transit
 
@@ -40,7 +40,7 @@ Lorsque vous activez le module **Prix au débarquement**, l’entité de *condit
 
 Quand l’option **Gestion des marchandises en transit** est définie sur *Oui* pour les conditions de livraison applicables, les marchandises sont placées dans l’entrepôt de marchandises en transit. Cette action est déclenchée uniquement si la réception de stock n’est pas traitée avant le traitement d’une facture. Lorsque les conditions de livraison d’une commande sont définies pour utiliser des marchandises en transit, les utilisateurs ne peuvent plus enregistrer un accusé de réception de marchandise pour la commande fournisseur. S’ils essaient, une erreur se produit. Le message d’erreur indique qu’ils doivent utiliser la fonctionnalité de marchandises en transit pour continuer.
 
-Pour utiliser les informations sur les conditions de livraison des marchandises en transit, accédez à **Approvisionnement \> Configurer \> Distribution \> Conditions de livraison**. Le tableau suivant décrit les champs que le module **Prix au débarquement** ajoute à la page **Conditions de livraison** pour prendre en charge la fonctionnalité de marchandises en transit. Les deux champs sont sur le raccourci **Général**. Pour plus d’informations sur les autres champs de cette page, consultez [Conditions de livraison (formulaire)](https://technet.microsoft.com/library/aa575567.aspx).
+Pour utiliser les informations sur les conditions de livraison des marchandises en transit, accédez à **Approvisionnement \> Configurer \> Distribution \> Conditions de livraison**. Le tableau suivant décrit les champs que le module **Prix au débarquement** ajoute à la page **Conditions de livraison** pour prendre en charge la fonctionnalité de marchandises en transit. Les deux champs sont sur le raccourci **Général**. Pour plus d’informations sur les autres champs de cette page, consultez [Conditions de livraison (formulaire)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Champ | Description |
 |---|---|
@@ -55,7 +55,7 @@ Le coût au débarquement ajoute deux nouveaux types d’entrepôts : *les marc
 
 Le type d’entrepôt *marchandises en transit* sera associé à votre entrepôt de marchandises en transit, et cet entrepôt sera utilisé pour traiter les marchandises des commandes de marchandises en transit avant leur réception à l’entrepôt de destination finale. En général, un entrepôt de marchandises en transit suffit pour chaque site si Site et Entrepôt sont les seules dimensions de stock utilisées pour la gestion des stocks. Si la dimension de stock Emplacement est également utilisée, un entrepôt de marchandises en transit doit être configuré pour chaque combinaison d’un site et d’un entrepôt, afin que l’emplacement par défaut puisse également être spécifié.
 
-Pour utiliser les paramètres de marchandises en transit pour vos entrepôts, accédez à **Gestion des stocks \> Configurer \> Décomposition du stock \> Entrepôts**. Le tableau suivant décrit les champs que le module **Prix au débarquement** ajoute à la page **Entrepôts** pour prendre en charge la fonctionnalité de marchandises en transit. Les deux champs s’affichent sur le raccourci **Général**. Pour plus d’informations sur les autres champs de la page, voir [Entrepôts (formulaire)](https://technet.microsoft.com/library/aa620570.aspx).
+Pour utiliser les paramètres de marchandises en transit pour vos entrepôts, accédez à **Gestion des stocks \> Configurer \> Décomposition du stock \> Entrepôts**. Le tableau suivant décrit les champs que le module **Prix au débarquement** ajoute à la page **Entrepôts** pour prendre en charge la fonctionnalité de marchandises en transit. Les deux champs s’affichent sur le raccourci **Général**. Pour plus d’informations sur les autres champs de la page, voir [Entrepôts (formulaire)](/dynamicsax-2012//warehouses-form).
 
 | Champ | Description |
 |---|---|
@@ -109,7 +109,7 @@ Vous pouvez également recevoir des marchandises en créant un journal des arriv
     - **Créer à partir de marchandises en transit** – Réglez cette option sur *Oui* pour prendre des quantités des lignes en transit sélectionnées pour le voyage, le conteneur ou le folio sélectionné.
     - **Créer à partir des lignes de commande** – Réglez cette option sur *Oui* pour définir la quantité par défaut dans le journal des arrivées à partir des lignes de commande fournisseur. La quantité par défaut dans le journal des arrivées peut être définie de cette manière uniquement si la quantité sur la ligne de commande correspond à la quantité sur la commande de marchandises en transit.
 
-1. Traitez le journal des arrivées comme décrit dans [Enregistrer les réceptions d’articles avec un journal des arrivées d’articles](https://technet.microsoft.com/library/aa571129.aspx).
+1. Traitez le journal des arrivées comme décrit dans [Enregistrer les réceptions d’articles avec un journal des arrivées d’articles](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > Le journal des arrivées est généralement utilisé dans les situations où les emplacements et le suivi des lots/séries sont utilisés, mais la gestion des entrepôts n’est pas utilisée.
@@ -131,15 +131,14 @@ Le coût au débarquement ajoute les processus de création de travail suivants 
 - Réception de marchandises en transit
 - Marchandises en transit réception et mise en stock des articles
 
-Les paramètres de configuration de ces processus ressemblent aux paramètres des [processus de réception et de création des travaux de mise en stock des commandes fournisseur](https://technet.microsoft.com/library/dn553216.aspx). Cependant, le processus *réception et mise en stock des articles de marchandises en transit* ajoute également le champ suivant.
+Les paramètres de configuration de ces processus ressemblent aux paramètres des [processus de réception et de création des travaux de mise en stock des commandes fournisseur](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Cependant, le processus *réception et mise en stock des articles de marchandises en transit* ajoute également le champ suivant.
 
 - **Activer le conteneur d’expédition terminé** – Si cette option est définie sur *Oui*, lorsque le travail de mise en stock est terminé, l’application mobile Gestion des entrepôts fournira une option supplémentaire nommée **Conteneur d’expédition complet**. Lorsque cette option est sélectionnée, le collaborateur sera invité à confirmer que le conteneur est complet. À ce stade, tous les reçus courts seront traités comme une sous-transaction.
 
 ### <a name="location-directives"></a>Instructions d’emplacement
 
-Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Marchandises en transit* à la page **Directives de localisation**. Ce type d’ordre de travail doit être configuré de la même manière que les [types d’ordres de travail de commande fournisseur](https://technet.microsoft.com/library/dn553184.aspx).
+Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Marchandises en transit* à la page **Directives de localisation**. Ce type d’ordre de travail doit être configuré de la même manière que les [types d’ordres de travail de commande fournisseur](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Modèles de travail
 
-Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Marchandises en transit* à la page **Modèles de travail**. Ce type d’ordre de travail doit être configuré de la même manière que les [Modèles de travail de commande fournisseur](https://technet.microsoft.com/library/dn553184.aspx).
-
+Le coût au débarquement ajoute un nouveau type d’ordre de travail nommé *Marchandises en transit* à la page **Modèles de travail**. Ce type d’ordre de travail doit être configuré de la même manière que les [Modèles de travail de commande fournisseur](/dynamicsax-2012/appuser-itpro/create-a-work-template).

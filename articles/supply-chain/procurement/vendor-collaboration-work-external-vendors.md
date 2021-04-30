@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837655"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910399"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaboration fournisseur avec des fournisseurs externes
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur ce que les fournisseurs externes peuvent effectue
 > [!NOTE]
 > Les informations sur la collaboration fournisseur contenues dans cette rubrique s’appliquent uniquement à la version actuelle de Supply Chain Management. Dans Microsoft Dynamics AX 7.0 (février 2016) et dans la version de l’application 7.0.1 de Microsoft Dynamics AX, vous collaborez avec les fournisseurs à l’aide du module **Portail fournisseur**. Pour plus d’informations sur le module **Portail Fournisseur**, voir [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md).
 
-Pour plus d’informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d’informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
+Pour plus d’informations sur la manière dont les fournisseurs peuvent utiliser la collaboration fournisseur dans les processus de facturation, voir [Espace de travail de facturation de collaboration fournisseur](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Pour plus d’informations sur la mise en service de nouveaux utilisateurs de la collaboration fournisseur, voir [Gérer les utilisateurs de la fonctionnalité de collaboration du fournisseur](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Définition des informations visibles par les fournisseurs lorsqu’ils répondent à des commandes fournisseur
 

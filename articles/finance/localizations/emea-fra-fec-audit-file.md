@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb2324ad158b548c4a35e6a74e110058e0326c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df928687b0ffa8f73eca8627437fcb8b84071045
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826080"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892387"
 ---
 # <a name="generate-the-standard-audit-file-for-france-fec"></a>Génération du fichier d’audit standard pour la France (FEC)
 
@@ -28,7 +28,7 @@ Cette procédure vous montre comment générer le fichier d’audit standard (FE
 Avant de générer un fichier d’audit FEC, vous devez :
 
 1. Définir les souches des N° documents. Chaque souche de N° de justificatif doit contenir une partie du texte considérée comme une valeur pour **JournalCode** dans l’état **Audit FEC**. Par exemple, configurez une souche de N° de justificatif pour les journaux de facture fournisseur comme **FRSIFACF-########** pour obtenir la valeur « FRSIFACF » dans **JournalCode** dans le fichier FEC.txt.
-2. Importer la dernière version du **Fichier d’audit FEC français** de la configuration de génération d’états électroniques. Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+2. Importer la dernière version du **Fichier d’audit FEC français** de la configuration de génération d’états électroniques. Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 3. Sur la page **Configurations**, développez **Modèle d’exportation des données**, sélectionnez **Mise en correspondance de modèle FEC français**, et paramétrez **Valeur par défaut de la mise en correspondance des modèles** sur **Oui**.
 
 ## <a name="generate-the-standard-audit-file-for-france"></a>Générer le fichier d’audit standard pour la France

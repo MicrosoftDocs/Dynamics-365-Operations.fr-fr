@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a4a2cfb7754a0074e37f1a5b4b99594b2b0861d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827095"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897670"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>État Récupération d’immobilisations
 
@@ -28,7 +28,7 @@ ms.locfileid: "5827095"
 
 L’état **Récupération d’immobilisations** fournit, dans un format Microsoft Excel facile à lire, des données détaillées sur les immobilisations qui sont nécessaires pour la clôture de période, les tableaux d’analyse et la déclaration de taxe. L’état inclut les soldes de début et de fin des immobilisations, ainsi que les mouvements d’évaluation pour la période et les nouvelles acquisitions et cessions d’immobilisation au cours de la période. Les données sont fournies pour des immobilisations individuelles, et les valeurs sont également résumées pour les groupes d’immobilisations et l’entité juridique.
 
-L’état **Récupération d’immobilisations** utilise la structure de gestion des états électroniques. Avant d’exécuter l’état, les configurations Modèle d’immobilisations et Récupération d’immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+L’état **Récupération d’immobilisations** utilise la structure de gestion des états électroniques. Avant d’exécuter l’état, les configurations Modèle d’immobilisations et Récupération d’immobilisations doivent être importées depuis Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’instructions, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
 Cet état est disponible dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, ou comme correctif pour Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (juillet 2017). Trois correctifs doivent être appliqués aux environnements de la version de juillet 2017 :
 

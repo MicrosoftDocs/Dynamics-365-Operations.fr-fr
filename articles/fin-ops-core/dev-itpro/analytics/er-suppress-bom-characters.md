@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743531"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893274"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Concevoir des configurations pour la gestion des états électroniques pour supprimer les caractères de nomenclature dans les fichiers générés
 
 [!include [banner](../includes/banner.md)]
 
-Vous pouvez créer une [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md) pour générer des documents sortants. Pour générer les documents sous forme de fichiers texte ou XML, la solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de la gestion des états électroniques qui contient un composant de [format](general-electronic-reporting.md#FormatComponentOutbound) de gestion des états électroniques. Pour spécifier l’[encodage de caractère](https://docs.microsoft.com/windows/win32/intl/character-sets) qui représente le jeu de caractères dans les fichiers générés, le format de gestion des états électroniques doit contenir l’élément de format **Common\\File**. Pour configurer le composant de format de gestion des états électroniques, vous devez ouvrir la version [Brouillon](general-electronic-reporting.md#component-versioning) de la configuration de gestion des états électroniques créée dans le concepteur de format de gestion des états électroniques et ajouter l’élément **Common\\File**. Dans le fichier **Codage**, spécifiez le codage des fichiers sortants générés lors de l’exécution à l’aide de ce composant.
+Vous pouvez créer une [solution](er-quick-start1-new-solution.md) de [gestion des états électroniques](general-electronic-reporting.md) pour générer des documents sortants. Pour générer les documents sous forme de fichiers texte ou XML, la solution doit inclure une [configuration](general-electronic-reporting.md#Configuration) de la gestion des états électroniques qui contient un composant de [format](general-electronic-reporting.md#FormatComponentOutbound) de gestion des états électroniques. Pour spécifier l’[encodage de caractère](/windows/win32/intl/character-sets) qui représente le jeu de caractères dans les fichiers générés, le format de gestion des états électroniques doit contenir l’élément de format **Common\\File**. Pour configurer le composant de format de gestion des états électroniques, vous devez ouvrir la version [Brouillon](general-electronic-reporting.md#component-versioning) de la configuration de gestion des états électroniques créée dans le concepteur de format de gestion des états électroniques et ajouter l’élément **Common\\File**. Dans le fichier **Codage**, spécifiez le codage des fichiers sortants générés lors de l’exécution à l’aide de ce composant.
 
 > [!NOTE]
 > Si le format contient un nom de codage incorrect, une erreur est générée lorsque vous enregistrez vos modifications des paramètres du format.
 
 ![Ajouter un élément racine sur la page Concepteur de format](./media/er-suppress-bom-characters-image1.gif)
 
-Si vous spécifiez **UTF-8**, **UTF-16** ou **UTF-32** comme encodage, l’option **Supprimer les caractères de marque d’ordre d’octet** devient disponible. Définissez cette option sur **Oui** pour supprimer les [ caractères de marque d’ordre d’octet](https://docs.microsoft.com/globalization/encoding/byte-order-mark) dans les fichiers sortants générés lors de l’exécution du format de gestion des états électroniques modifiable.
+Si vous spécifiez **UTF-8**, **UTF-16** ou **UTF-32** comme encodage, l’option **Supprimer les caractères de marque d’ordre d’octet** devient disponible. Définissez cette option sur **Oui** pour supprimer les [ caractères de marque d’ordre d’octet](/globalization/encoding/byte-order-mark) dans les fichiers sortants générés lors de l’exécution du format de gestion des états électroniques modifiable.
 
 > [!NOTE]
 > Si vous laissez le champ **Codage** vide, la valeur par défaut **UTF-8** est utilisée.

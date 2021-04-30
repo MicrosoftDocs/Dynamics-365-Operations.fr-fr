@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 9cc8e93259119236093e02924d29df64dcc876bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45a989604d829db715756b6cd206a5675a18acf2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810892"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909989"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Synchroniser directement les produits provenant du module Supply Chain Management sur les produits dans Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5810892"
 
 Cette rubrique présente les modèles et la tâche sous-jacente utilisés pour synchroniser les produits depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
-Le modèle **Produits Field Service (Supply Chain Management vers Field Service)** utilisé est basé sur le modèle **Produits (Supply Chain Management vers Sales) – Direct** de Prospect en disponibilités. Pour plus d’informations, voir [Produits (entre Supply Chain Management et Sales) - Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
+Le modèle **Produits Field Service (Supply Chain Management vers Field Service)** utilisé est basé sur le modèle **Produits (Supply Chain Management vers Sales) – Direct** de Prospect en disponibilités. Pour plus d’informations, voir [Produits (entre Supply Chain Management et Sales) - Direct](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
 Cette rubrique décrit les différences entre les modèles **Produits Field Service (Supply Chain Management vers Field Service)** et **Produits (Supply Chain Management vers Sales) – Direct**.
 

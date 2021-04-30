@@ -2,8 +2,7 @@
 title: Analyse financière
 description: L’analyse financière utilise Microsoft Power BI pour regrouper les indicateurs financiers de performance clés, les graphiques et les tableaux d’analyse.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572364"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894906"
 ---
 # <a name="financial-analysis"></a>Analyse financière
 
@@ -65,10 +64,9 @@ Les données de l’**analyse financière** sont extraites du magasin des entit�
 
 Vous devez mettre à jour les entités suivantes pour visualiser les données dans les espaces de travail de l’**analyse financière** :
 
-- BudgetActivityMeasure
 - Données de transaction des états financiers version 3 
+- Crédit et relances V2
 - CustCollectionsBIMeasurements
-- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Cube d'achat
 - Cube de vente
@@ -78,7 +76,7 @@ Vous pouvez définir un traitement par lots récurrent pour mettre à jour régu
 ## <a name="security"></a>Sécurité
 Actuellement, les données des états Power BI intégrés ne peuvent pas être limitées aux entités juridiques auxquelles l’utilisateur a accès. Par conséquent, les états Power BI intégrés sont contrôlés par des droits dans le paramétrage de la sécurité. Les droits définis permettent d’accéder aux données de toutes les entités juridiques ou de l’entité active uniquement. Le tableau suivant présente les droits existants et les rôles auxquels ils sont affectés. Les droits peuvent être supprimés ou affectés à différents rôles, selon les besoins de votre organisation.
 
-| Droits de douane                                    | Rôles | Description  |
+| Droits de douane                                    | Rôles | Description |
 |-----------------------------------------|-------|------------|
 | Afficher l’analyse financière pour la société actuelle | <ul><li>Comptable</li><li>Responsable comptabilité</li><li>Chef comptable</li><li>Auditeur</li><li>Responsable du budget</li><li>Président directeur général</li><li>Directeur financier</li><li>Contrôleur financier</li></ul> | Ce droit permet d’accéder à l’analyse financière. Par défaut, la société active est utilisée comme filtre. Vous ne pouvez pas ajouter d’autres entités juridiques. |
 | Afficher l’analyse financière pour toutes les sociétés   | Dans Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, cette responsabilité n’est pas affectée à un rôle. Dans la prochaine version, ce droit sera affecté au rôle Directeur financier. | Ce droit permet d’accéder à l’option de menu de l’espace de travail Vue d’ensemble d’un processus CFO. Par défaut, la société active est utilisée comme filtre. Toutefois, vous pouvez ajouter toutes les entités juridiques, que l’utilisateur ait accès ou non aux autres entités juridiques. |
@@ -241,9 +239,9 @@ Power BI ne fournit pas une option pour masquer et afficher les lignes vides. Si
 
 Les informations des ressources suivantes ne sont pas requises pour activer les états intégrés de l’espace de travail **Analyse financière** dans un environnement de production. Elles sont utiles pour les environnements de développement et si vous souhaitez intégrer vos propres états Power BI.
 
-- [Accès aux espaces de travail analytiques et aux rapports dans un environnement 1-box](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Accès aux espaces de travail analytiques et aux rapports dans un environnement 1-box](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Ajouter des analyses aux espaces de travail à l’aide de Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

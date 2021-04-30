@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16f4ead0e195280555f0825d617b9c4fcf0e827a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832200"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909571"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.12 (août 2020)
 
@@ -33,25 +33,25 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](https://docs.microsoft.com/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
+Les fonctionnalités suivantes sont comprises dans cette version. Les titres des fonctionnalités renvoient à des informations supplémentaires sur le site [Plans de publication](/dynamics365/release-plans/). Des liens supplémentaires pointent vers de la documentation ou des vidéos supplémentaires actuellement disponibles pour cette fonctionnalité. La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
-- [Autoriser le verrouillage de l’écran tactile du bon de travail pour la désinfection](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Pour plus d’informations, voir [Configurer le bon de travail pour les périphériques](../production-control/config-job-card-device.md).
+- [Autoriser le verrouillage de l’écran tactile du bon de travail pour la désinfection](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Pour plus d’informations, voir [Configurer le bon de travail pour les périphériques](../production-control/config-job-card-device.md).
 
-- [Capturez les variantes de produit et suivez les dimensions dans l’application d’entrepôt lors de la réception de l’article de chargement](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Pour plus d’informations, voir [Configurer des appareils mobiles pour un travail d’entrepôt](../warehousing/configure-mobile-devices-warehouse.md).
+- [Capturez les variantes de produit et suivez les dimensions dans l’application d’entrepôt lors de la réception de l’article de chargement](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Pour plus d’informations, voir [Configurer des appareils mobiles pour un travail d’entrepôt](../warehousing/configure-mobile-devices-warehouse.md).
 
 - Niveau de calcul des coûts (nouveau niveau de nomenclature)<br> - Pour plus d’informations, voir la rubrique [Niveau de calcul des coûts](../cost-management/cost-calculation-level.md).
 
-- [Portail client pour Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Pour plus d’informations, voir [Présentation du portail client pour Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Portail client pour Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Pour plus d’informations, voir [Présentation du portail client pour Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
 
-- [Informations de base sur l’intelligence IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Pour plus d’informations, voir [Page d’accueil Intelligence IoT](../iot/iot-intelligence-home-page.md).
+- [Informations de base sur l’intelligence IoT](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Pour plus d’informations, voir [Page d’accueil Intelligence IoT](../iot/iot-intelligence-home-page.md).
 
-- [Améliorations de la réception de contenant pour l’application d’entrepôt (suite)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Pour plus d’informations, voir [Réception du contenant via l’application mobile Gestion des entrepôts](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Améliorations de la réception de contenant pour l’application d’entrepôt (suite)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Pour plus d’informations, voir [Réception du contenant via l’application mobile Gestion des entrepôts](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Déploiement de masse pour Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Pour plus d’informations, voir [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md).
+- [Déploiement de masse pour Warehouse Mobile App](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Pour plus d’informations, voir [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md).
 
-- [Durée d’exécution maximale de la tâche de nettoyage des entrées disponibles pour la gestion des entrepôts](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Pour plus d’informations, voir [Tâche de nettoyage des entrées disponibles de la gestion d’entrepôt](../warehousing/onhand-cleanup.md).
+- [Durée d’exécution maximale de la tâche de nettoyage des entrées disponibles pour la gestion des entrepôts](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Pour plus d’informations, voir [Tâche de nettoyage des entrées disponibles de la gestion d’entrepôt](../warehousing/onhand-cleanup.md).
 
-- [Prise en charge de l’optimisation de la planification pour les accords commerciaux d’achat](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Pour plus d’informations, voir [Planification avec accords commerciaux d’achat](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Prise en charge de l’optimisation de la planification pour les accords commerciaux d’achat](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Pour plus d’informations, voir [Planification avec accords commerciaux d’achat](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur les correctifs de bogues inclus dans chacune des 
 
 Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d’entreprise ?
 
-Consultez [Dynamics 365 : vague 1 du plan de publication 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
+Consultez [Dynamics 365 : vague 1 du plan de publication 2020](/dynamics365-release-plan/2020wave1/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 

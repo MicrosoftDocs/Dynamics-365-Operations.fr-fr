@@ -2,7 +2,8 @@
 title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798631"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853415"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
@@ -32,11 +33,32 @@ Les clients peuvent utiliser le module de sélection de magasin pour récupérer
 
 Le module de sélection de magasin permet aux utilisateurs d’entrer un lieu (ville, État, adresse, etc.) pour rechercher des magasins dans un rayon de recherche. Lorsque le module est ouvert pour la première fois, il utilise le lieu du navigateur du client pour trouver des magasins (si le consentement est fourni).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Utilisation du module de sélecteur de magasins dans le commerce électronique
+## <a name="store-selector-module-usage"></a>Utilisation du module Sélection de magasin
 
 - Un module de sélection de magasin peut être utilisé sur une page de détails de produit pour sélectionner un magasin à retirer.
 - Un module de sélection de magasin peut être utilisé sur une page de panier pour sélectionner un magasin de retrait.
 - Un module de sélection de magasin peut être utilisé sur une page autonome qui affiche tous les magasins disponibles.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configuration des groupes d’exécution dans Commerce Headquarters
+
+Pour que le sélecteur de magasin affiche les magasins disponibles, le groupe d'exécution doit être configuré dans Commerce Headquarters. Pour plus d’informations, voir [Paramétrer les groupes d’exécution](customer-orders-overview.md#set-up-fulfillment-groups).
+
+En outre, pour chaque magasin du groupe d'exécution, la latitude et la longitude de l'emplacement du magasin doivent être définies dans Commerce Headquarters.
+
+Pour entrer les valeurs de longitude et de la latitude pour un emplacement de magasin dans Commerce Headquarters, procédez comme suit.
+
+1. Accédez à **Gestion des stocks \> Paramétrage \> Décomposition du stock**.
+1. Sélectionnez l'emplacement de l'entrepôt dans le volet de gauche.
+1. Dans le raccourci **Adresses**, sélectionnez **Avancé**.
+
+    ![Exemple de détails d'un magasin dans Commerce Headquarters](./media/Store-address.png)
+
+1. Dans le volet Actions, sélectionnez **Modifier**.
+1. Dans le raccourci **Général**, entrez des valeurs pour la **Latitude** et la **Longitude**.
+
+    ![Exemple de configuration de latitude et de longitude pour un magasin dans Commerce Headquarters](./media/Store-latitude-longitude.png)
+
+1. Dans le volet Actions, sélectionnez **Enregistrer**. 
 
 ## <a name="bing-maps-integration"></a>Intégration Bing Cartes
 
@@ -48,6 +70,7 @@ Pour l’API REST de Suggestion automatique, vous devez vous assurer que les URL
 - À la directive **img-src**, ajoutez **&#42;.virtualearth.net**.
 - Dans l’instruction **script-src**, **ajoutez &#42;.bing.com, &#42;.virtualearth.net**.
 - Dans l’instruction **script style-src**, ajoutez **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Mode Retrait en magasin
 
@@ -108,10 +131,10 @@ Pour configurer le module de sélection de magasin afin d’afficher les magasin
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur avec 2 colonnes**, puis sélectionnez **OK**.
 1. Dans le volet des propriétés du module, définissez la valeur **Largeur** sur **Remplir le conteneur**.
-1. Définissez la valeur de **Configuration de port d’affichage extra-petit** sur **100 %**.
-1. Définissez la valeur de **Configuration de port d’affichage petit** sur **100 %**.
-1. Définissez la valeur de **Configuration de port d’affichage moyen** sur **33 % 67 %**.
-1. Définissez la valeur de **Configuration de port d’affichage grand** sur **33 % 67 %**.
+1. Définissez la valeur de **Configuration de port d’affichage extra-petit** sur **100 %%**.
+1. Définissez la valeur de **Configuration de port d’affichage petit** sur **100 %%**.
+1. Définissez la valeur de **Configuration de port d’affichage moyen** sur **33 %% 67 %%**.
+1. Définissez la valeur de **Configuration de port d’affichage grand** sur **33 %% 67 %%**.
 1. Dans l’emplacement **Conteneur avec 2 colonnes**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Sélecteur de magasin**, puis sélectionnez **OK**.
 1. Dans le volet des propriétés du module, définissez la valeur **Mode** sur **Recherche de magasins**.

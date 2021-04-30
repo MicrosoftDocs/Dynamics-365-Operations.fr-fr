@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6393fe8679981c9d512a4d0f654391ba9d85452
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9bec501fdc1736d044585609e21b5bb47b8d6879
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794779"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893123"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
@@ -33,7 +33,7 @@ Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instru
 
 [Configuration des paramètres des Ressources humaines](hr-setup-parameters.md)</br>
 [Configurer les paramètres partagés de Human Resources](hr-setup-shared-parameters.md)</br>
-[Configurer les workflows de Human Resources](hr-setup-workflows.md)</br>
+[Configurer les workflows de Human Resources](./hr-workflow-manage-employee-information.md)</br>
 [Comprendre les champs de date et d’heure](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Configurer les paramètres de votre organisation
@@ -98,15 +98,15 @@ Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instru
 [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)</br>
 [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)</br>
 [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
-[Régulariser les plans de congé et d’absence](hr-leave-and-absence-accrue.md)</br>
-[Afficher l’analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
-[Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)</br>
+[Régulariser les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
+[Afficher l'analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
+[Gérer les demandes de congé et d'absence](hr-employee-self-service-manage-requests.md)</br>
 [Demander un congé](hr-employee-self-service-request-time-off.md)</br>
 [Afficher les calendriers des équipes et de la société](hr-employee-self-service-calendar.md)</br>
 
 ## <a name="develop-employees"></a>Développer les employés
 
-[Vue d’ensemble de la gestion des performances](hr-develop-performance-management-overview.md)</br>
+[Vue d'ensemble de la gestion des performances](hr-develop-performance-management-overview.md)</br>
 [Aligner les qualifications du personnel](hr-develop-skills.md)</br>
 [Ajouter à votre journal de performances](hr-develop-add-performance-journal.md)</br>
 [Créer un objectif](hr-develop-create-goal.md)</br>

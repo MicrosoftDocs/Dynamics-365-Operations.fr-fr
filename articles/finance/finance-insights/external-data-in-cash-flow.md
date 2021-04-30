@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7d5768a6cb2b3623333fab93a42ac5840e87ec68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818611"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897886"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Utiliser des données externes dans les prévisions de flux de trésorerie (version préliminaire)
 
@@ -33,7 +33,7 @@ Les données externes peuvent être saisies ou importées dans les prévisions d
 
 Utilisez l’onglet **Source externe** sur la page **Configuration des prévisions de trésorerie** (**Gestion de la trésorerie et de la banque \> Prévisions de trésorerie**) pour saisir des paramètres prenant en charge l’utilisation de données externes dans les prévisions de flux de trésorerie.
 
-Pour plus d’informations sur la configuration des compteurs, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
+Pour plus d’informations sur la configuration des compteurs, voir [Prévisions de flux de trésorerie](../cash-bank-management/cash-flow-forecasting.md).
 
 Pour saisir des données externes pour les prévisions de flux de trésorerie, vous pouvez utiliser l’expérience Ouvrir dans Excel pour saisir et modifier des données externes. Sélectionnez le bouton **Données externes** puis soit **Ajouter des données externes** soit **Modifier les données externes existantes**. Quand le fichier Microsoft Excel est ouvert, vous pouvez saisir des informations dans les champs suivants :
 

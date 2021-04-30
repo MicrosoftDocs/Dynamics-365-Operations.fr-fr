@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d95c92fe15f4dfe77d2bc8a153f86165c17edb4e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802237"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892631"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources 2 décembre 2020
 
@@ -30,7 +30,7 @@ Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifi
 
 Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).
 
-Pour plus d’informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Pour plus d’informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 2e vague de lancement Dynamics 365 Human Resources 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Dans cette version
 
@@ -42,10 +42,10 @@ Les fonctionnalités suivantes sont mises à la disposition générale avec cett
 
 | Fonctionnalité | Programme de lancement | Documentation |
 | --- | --- | --- |
-| Gestionnaires capables de soumettre des demandes de recrutement pour des postes | [Les gestionnaires peuvent soumettre une demande de recrutement pour un poste à pourvoir](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Ajouter une demande de recrutement](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Profil de candidat amélioré dans la gestion du personnel | [Profil de candidat amélioré dans la gestion du personnel](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Ajouter ou modifier un profil de candidat](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Permettre des intégrations simplifiées avec les prestataires de recrutement | [Permettre des intégrations simplifiées avec les prestataires de recrutement](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recruter des candidats à un poste](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
-| Liens personnalisés dans le libre-service des responsables | [Liens personnalisés dans le libre-service des responsables](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Liens personnalisés dans le libre-service des responsables](https://aka.ms/MSSCustomLinks) |
+| Gestionnaires capables de soumettre des demandes de recrutement pour des postes | [Les gestionnaires peuvent soumettre une demande de recrutement pour un poste à pourvoir](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Ajouter une demande de recrutement](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Profil de candidat amélioré dans la gestion du personnel | [Profil de candidat amélioré dans la gestion du personnel](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Ajouter ou modifier un profil de candidat](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Permettre des intégrations simplifiées avec les prestataires de recrutement | [Permettre des intégrations simplifiées avec les prestataires de recrutement](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recruter des candidats à un poste](./hr-personnel-recruit.md) |
+| Liens personnalisés dans le libre-service des responsables | [Liens personnalisés dans le libre-service des responsables](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Liens personnalisés dans le libre-service des responsables](./hr-employee-manager-self-service-custom-links.md) |
 
 
 ### <a name="bug-fixes"></a>Correctifs de bogue
@@ -72,23 +72,23 @@ Les nouvelles fonctions suivantes sont en version préliminaire. Pour plus d’i
 
 | Fonctionnalité | Programme de lancement | Documentation |
 | --- | --- | --- |
-| Application Human Resources dans Microsoft Teams | [Expérience de congé et d’absence des employés dans Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Application Human Resources de Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Gérer les demandes de congés dans Teams](hr-teams-leave-app.md) |
-| Demandes et approbations de flux de travail améliorées | [Améliorations de l’expérience de workflow de gestion de l’organisation et du personnel](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Option de configuration pour positionner la liste Éléments de travail qui me sont affectés](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Intégration avec LinkedIn Talent Hub | [Intégration avec LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Intégration avec LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-|Vue transversale des congés pour les managers | [Vue transversale des congés pour les employés](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurer les paramètres de congé et d’absence](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Fournir des informations supplémentaires sur le solde de congé| [Fournir des informations supplémentaires sur le solde de congé](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Gérer les congés des employés](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Gestionnaires capables de soumettre des demandes de recrutement pour des postes | [Les gestionnaires peuvent soumettre une demande de recrutement pour un poste à pourvoir](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Ajouter une demande de recrutement](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Profil de candidat amélioré dans la gestion du personnel | [Profil de candidat amélioré dans la gestion du personnel](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Ajouter ou modifier un profil de candidat](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Permettre des intégrations simplifiées avec les prestataires de recrutement | [Permettre des intégrations simplifiées avec les prestataires de recrutement](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recruter des candidats à un poste](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| Application Human Resources dans Microsoft Teams | [Expérience de congé et d’absence des employés dans Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Application Human Resources de Teams](./hr-admin-teams-leave-app.md)<br>[Gérer les demandes de congés dans Teams](hr-teams-leave-app.md) |
+| Demandes et approbations de flux de travail améliorées | [Améliorations de l’expérience de workflow de gestion de l’organisation et du personnel](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Option de configuration pour positionner la liste Éléments de travail qui me sont affectés](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Intégration avec LinkedIn Talent Hub | [Intégration avec LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Intégration avec LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+|Vue transversale des congés pour les managers | [Vue transversale des congés pour les employés](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurer les paramètres de congé et d’absence](./hr-leave-and-absence-parameters.md) |
+|Fournir des informations supplémentaires sur le solde de congé| [Fournir des informations supplémentaires sur le solde de congé](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Gérer les congés des employés](./hr-leave-and-absence-manage-employee-leave.md) |
+| Gestionnaires capables de soumettre des demandes de recrutement pour des postes | [Les gestionnaires peuvent soumettre une demande de recrutement pour un poste à pourvoir](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Ajouter une demande de recrutement](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Profil de candidat amélioré dans la gestion du personnel | [Profil de candidat amélioré dans la gestion du personnel](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Ajouter ou modifier un profil de candidat](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Permettre des intégrations simplifiées avec les prestataires de recrutement | [Permettre des intégrations simplifiées avec les prestataires de recrutement](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recruter des candidats à un poste](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Prochainement
 
-Pour une liste complète des fonctionnalités planifiées et leurs lancements planifiés, voir [Vue d’ensemble de Dynamics 365 Human Resources 2020 2e vague de lancement](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Pour une liste complète des fonctionnalités planifiées et leurs lancements planifiés, voir [Vue d’ensemble de Dynamics 365 Human Resources 2020 2e vague de lancement](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2020 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2020 vague de publication 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5806016"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892175"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nouveautés ou modifications dans Human Resources
 
@@ -39,7 +39,7 @@ Toutes les deux semaines, nous fournissons une nouvelle version de Microsoft Dyn
 
 Pour plus d’informations sur les fonctionnalités à venir ou le processus de mise à jour de Human Resources, consultez les articles suivants : 
 
-- [Présentation de la 2e partie du lancement 2019 de Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [Présentation de la 2e partie du lancement 2019 de Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Processus de mise à jour](hr-admin-setup-update-process.md)
 
@@ -49,6 +49,7 @@ Pour plus d’informations sur les fonctionnalités à venir ou le processus de 
 
 Pour connaître les nouveautés ou les modifications dans chaque version bihebdomadaire de Human Resources, consultez les articles suivantes :
 
+[5 avril 2021](hr-whats-new-2021-04-05.md)</br>
 [22 mars 2021](hr-whats-new-2021-03-22.md)</br>
 [8 mars 2021](hr-whats-new-2021-03-08.md)</br>
 [22 février 2021](hr-whats-new-2021-02-22.md)</br>
@@ -81,7 +82,7 @@ Pour connaître les nouveautés ou les modifications dans chaque version bihebdo
 
 ## <a name="see-also"></a>Voir également :
 
-[Présentation de Dynamics 365 Human Resources 2020 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2020 vague de publication 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 

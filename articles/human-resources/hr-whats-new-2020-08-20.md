@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800163"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891815"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Nouveautés ou modifications dans Dynamics 365 Human Resources (20 août 2020)
 
@@ -65,15 +65,15 @@ Une entité DMF est désormais disponible pour les suspensions de régularisatio
 
 Vous pouvez rendre les champs obligatoires en utilisant les fonctionnalités de personnalisation de Human Resources. Cette fonctionnalité nécessite des **Vues enregistrées**. Pour plus d’informations sur les vues enregistrées, voir :
 
-- [Vues enregistrées – disponibilité générale](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) dans la 2e partie du lancement 2020 de Dynamics 365
-- [Écrans de version utilisant entièrement des vues enregistrées](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Vues enregistrées – disponibilité générale](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) dans la 2e partie du lancement 2020 de Dynamics 365
+- [Écrans de version utilisant entièrement des vues enregistrées](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Application Human Resources de Teams
 
 Les collaborateurs peuvent consulter et demander des absences dans Microsoft Teams. Ils peuvent interagir avec un bot pour créer des demandes de congé. Pour plus d’informations, voir :
 
-- [Expérience des employés en congé et absence Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) dans la 1ère partie du lancement 2020 de Dynamics 365
-- [Application Human Resources de Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Expérience des employés en congé et absence Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) dans la 1ère partie du lancement 2020 de Dynamics 365
+- [Application Human Resources de Teams](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>Prochainement
 
@@ -117,7 +117,7 @@ Nous avons récemment découvert deux problèmes concernant l’entité **Benefi
 ## <a name="see-also"></a>Voir également :
 
 [Nouveautés ou modifications dans Human Resources](hr-admin-whats-new.md)</br>
-[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Présentation de Dynamics 365 Human Resources 2019 vague de publication 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Processus de mise à jour](hr-admin-setup-update-process.md)</br>
 [Gérer les fonctionnalités](hr-admin-manage-features.md)
 

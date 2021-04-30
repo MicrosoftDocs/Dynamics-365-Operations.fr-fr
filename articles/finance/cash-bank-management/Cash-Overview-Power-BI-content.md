@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830590"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897450"
 ---
 # <a name="cash-overview-power-bi-content"></a>Contenu de Power BI Vue d’ensemble des disponibilités
 
@@ -38,7 +38,7 @@ Le paramétrage suivant doit être réalisé pour que les données s’affichent
 2. Accédez à **Comptabilité > Calendriers > Calendriers fiscaux** pour valider les dates du calendrier fiscal affecté à la période active.
 3. Accédez à **Comptabilité > Configuration > Comptabilité** pour définir la **Devise comptable** et le **Type de taux de change**.
 4. Définissez les taux de change entre les devises de transaction et la devise comptable, la devise comptable et la devise système, et entre la devise comptable et les devises bancaires. Pour ce faire, accédez à **Comptabilité > Devises > Taux de change des devises**.
-5. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d’informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Configurez et exécutez les prévisions de flux de trésorerie. Pour plus d’informations sur le paramétrage des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](./cash-flow-forecasting.md). 
 6. Accédez à **Administration système > Paramétrage > Magasin des entités** pour actualiser la mesure de regroupement **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI

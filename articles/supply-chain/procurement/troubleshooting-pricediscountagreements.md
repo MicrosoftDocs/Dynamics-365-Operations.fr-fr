@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811084"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908517"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Résoudre les problèmes de prix, de remises, d’accords et de rabais
 
@@ -37,7 +37,7 @@ Lorsque vous modifiez la date d’expédition, vous pouvez recevoir un message i
 
 Le message est déclenché chaque fois que l’une des dates ou certains autres paramètres sont modifiés. Le but du message est de vous assurer que vous êtes au courant des changements de prix qui peuvent survenir en raison de ces changements.
 
-Le message est l’invite d’évaluation de l’accord commercial (TAE). Pour une description complète, voir [Politiques d’évaluation des accords commerciaux](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
+Le message est l’invite d’évaluation de l’accord commercial (TAE). Pour une description complète, voir [Politiques d’évaluation des accords commerciaux](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>Un accusé de réception de commande fournisseur n’inclut pas tous les frais.
 

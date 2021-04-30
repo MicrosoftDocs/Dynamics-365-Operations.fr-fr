@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
+ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819936"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866300"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Définitions d’arborescence de génération d’états dans les états financiers
 
@@ -52,11 +52,9 @@ Une définition d’arborescence de génération d’états contient les colonne
 | Description de l’unité      | Le titre de l’unité organisationnelle apparaît dans l’en-tête ou le pied de page de l’état si vous entrez **UnitDesc** comme code sous l’onglet **En-têtes et pieds de page** de la définition d’état. Le titre apparaît dans la description de ligne d’état si vous entrez **UnitDesc** dans la cellule **Description** de la définition de ligne. |
 | Dimensions            | Une unité organisationnelle qui tire les informations directement des données financières. Elle définit le positionnement logique et les longueurs pour le compte et les segments associés. Chaque ligne d’unité de génération de rapports doit avoir une dimension dans cette colonne. Vous pouvez également insérer une dimension dans une ligne d’unité de synthèse (par exemple, pour les dépenses qui sont directement liées à cette unité). Si vous entrez une dimension dans une ligne d’unité de synthèse, les comptes utilisés dans les unités parent ne doivent pas être utilisés dans les unités enfant. Dans le cas contraire, les montants peuvent être dupliqués. |
 | Définitions de ligne       | Le nom de la définition de ligne pour l’unité organisationnelle. La même définition de ligne est utilisée pour chaque unité de l’organigramme d’entreprise. Lorsque vous générez un rapport, cette définition de ligne sert à chaque unité organisationnelle. La définition de ligne peut inclure plusieurs liens de dimensions financières. Si une définition de ligne est spécifiée dans l’arborescence de génération d’états, activez la case à cocher **Utiliser la définition de ligne de l’arborescence de génération d’états** sur l’onglet **État** de la définition d’état. |
-| Lien de ligne              | Lien de ligne à utiliser pour l’unité organisationnelle. Les liens de ligne sont définis pour permettre à la définition de ligne d’identifier les dimensions financières vers lesquelles établir un lien. |
-| Lien externe         | Lien de ligne à utiliser pour cette unité organisationnelle. Les liens de ligne sont définis pour la définition de ligne pour identifier l’état à relier. |
-| Fichier externe         | Chemin d’accès au fichier de la feuille de génération d’état financier duquel extraire des données. |
+| Lien de dimensions financières| Le lien des dimensions financières à utiliser pour l'unité organisationnelle. Les liens de dimensions financières sont définis pour permettre à la définition de ligne d’identifier les dimensions financières vers lesquelles établir un lien. |
 | Options de page          | Cette colonne détermine si les détails de l’unité organisationnelle sont supprimés lorsque l’état est affiché ou imprimé. |
-| Cumul %              | Le pourcentage de l’unité organisationnelle qui doit être affectée à son unité parent. Le pourcentage que vous entrez dans cette colonne s’applique à chaque ligne de la définition de ligne avant que la valeur de la ligne soit ajoutée à l’état parent. Par exemple, si une unité enfant doit être divisée également entre deux départements, les montants dans chaque ligne seront multipliés par 50 % avant que la valeur soit ajoutée à l’état du département. Une unité organisationnelle ne peut pas avoir deux unités parent. Pour répartir les montants d’une unité organisationnelle entre deux unités parent, créez une autre unité organisationnelle possédant la même dimension pour y cumuler les 50 % supplémentaires. Entrez des pourcentages entiers sans décimale. Par exemple, **25** représente la répartition de 25 pour cent pour le parent. Si vous incluez un point décimal (**.25**), 0,25 % est affectée au parent. Pour utiliser un pourcentage inférieur à 1 pour cent, utilisez l’option **Autoriser le cumul &lt;1 %** dans la définition d’état. Cette option se trouve sous l’onglet **Options supplémentaires** dans la boîte de dialogue **Paramètres d’état**. Vous accédez à cette boîte de dialogue à l’aide du bouton **Divers** sous l’onglet **Paramètres** de la définition d’état. |
+| Cumul %              | Le pourcentage de l’unité organisationnelle qui doit être affectée à son unité parent. Le pourcentage que vous entrez dans cette colonne s’applique à chaque ligne de la définition de ligne avant que la valeur de la ligne soit ajoutée à l’état parent. Par exemple, si une unité enfant doit être divisée également entre deux départements, les montants dans chaque ligne seront multipliés par 50 % avant que la valeur soit ajoutée à l’état du département. Une unité organisationnelle ne peut pas avoir deux unités parent. Pour répartir les montants d’une unité organisationnelle entre deux unités parent, créez une autre unité organisationnelle possédant la même dimension pour y cumuler les 50 % supplémentaires. Entrez des pourcentages entiers sans décimale. Par exemple, **25** représente la répartition de 25 pour cent pour le parent. Si vous incluez un point décimal (**.25**), 0,25 % est affectée au parent. Pour utiliser un pourcentage inférieur à 1 pour cent, utilisez l’option **Autoriser le cumul &lt;1 %%** dans la définition d’état. Cette option se trouve sous l’onglet **Options supplémentaires** dans la boîte de dialogue **Paramètres d’état**. Vous accédez à cette boîte de dialogue à l’aide du bouton **Divers** sous l’onglet **Paramètres** de la définition d’état. |
 | Sécurité de l’unité         | Restrictions d’accès aux informations de l’unité organisationnelle des utilisateurs et des groupes. |
 | Texte supplémentaire       | Texte inclus dans l’état. |
 
@@ -103,7 +101,7 @@ Lorsque vous utilisez une arborescence de génération d’états, vous pouvez a
     > Si vous spécifiez des dimensions pour des unités enfant et des unités parent, vous pouvez causer la duplication des données dans l’état.
 
 - Les unités organisationnelles contenant des dimensions dans l’arborescence de génération d’états correspondent aux dimensions utilisées dans les définitions de ligne et de colonne. La combinaison des dimensions détermine les montants retournés pour cette unité. Par exemple, les lignes 6 et 7 de l’exemple 2 renverront uniquement les valeurs pour les départements 00 et 01, respectivement.
-- Les montants des unités organisationnelles parent qui ne contiennent pas de dimension dans l’arborescence de génération d’états sont déterminés à partir de l’état de l’unité enfant et se cumulent au montant de l’unité parent spécifiée. Par exemple, si l’unité parent (voir Contoso USA dans l’exemple 2 des exemples de cumul des données) a deux unités enfant (022 et 023) et ne contient pas de dimension, un état est généré pour chaque enfant et le parent. Le total parent est la somme des deux montants enfant.
+- Les montants des unités organisationnelles parent qui ne contiennent pas de dimension dans l’arborescence de génération d’états sont déterminés à partir de l’état de l’unité enfant et se cumulent au montant de l’unité parent spécifiée. Par exemple, si l’unité parent (voir Contoso USA dans l’exemple 2 des exemples de cumul des données) a deux unités enfant (022 et 023) et ne contient pas de dimension, un état est généré pour chaque enfant et le parent. Le total parent est la somme des deux montants enfant.
 
 ### <a name="manage-reporting-units"></a>Gestion des unités organisationnelles
 
@@ -113,10 +111,10 @@ Chaque définition d’arborescence de génération d’états est affichée dan
 
 Les types d’unités organisationnelles suivants sont utilisés dans la génération d’états financiers :
 
-- Une unité détaillée tire les informations directement des données financières, à partir d’une feuille de calcul Excel, ou d’une autre feuille de calcul de génération d’états financiers.
+- Une unité de détail tire les informations directement des données financières.
 - Une unité de synthèse résume les données issues des unités de niveau inférieur.
 
-Une unité organisationnelle parent est une unité de synthèse qui agrège les informations résumées d’une unité détaillée. Une unité de synthèse peut être à la fois une unité de détail et une unité de synthèse. Par conséquent, une unité de synthèse peut tirer des informations d’une unité de niveau inférieur, des données financières ou d’une feuille de calcul Excel. Une unité parent peut être l’unité enfant d’une unité parent plus élevée. Une unité organisationnelle enfant peut être une unité détaillée qui extrait les informations directement des données financières ou d’une feuille de calcul Excel. Une unité organisationnelle enfant peut également être une unité de synthèse intermédiaire. En d’autres termes, elle peut être l’unité parent d’une unité de niveau inférieur et également l’unité enfant d’une unité de synthèse de niveau supérieur. Dans le scénario le plus courant pour les unités organisationnelles est d’avoir les unités parent avec une cellule vide dans la colonne **Dimension** et d’avoir des unités enfant avec des liens vers des combinaisons de dimensions spécifiques ou génériques.
+Une unité organisationnelle parent est une unité de synthèse qui agrège les informations résumées d’une unité détaillée. Une unité de synthèse peut être à la fois une unité de détail et une unité de synthèse. Par conséquent, une unité de synthèse peut tirer des informations d’une unité de niveau inférieur ou des données financières. Une unité parent peut être l’unité enfant d’une unité parent plus élevée. Une unité organisationnelle enfant peut être une unité de détail qui extrait les informations directement des données financières. Une unité organisationnelle enfant peut également être une unité de synthèse intermédiaire. En d’autres termes, elle peut être l’unité parent d’une unité de niveau inférieur et également l’unité enfant d’une unité de synthèse de niveau supérieur. Dans le scénario le plus courant pour les unités organisationnelles est d’avoir les unités parent avec une cellule vide dans la colonne **Dimension** et d’avoir des unités enfant avec des liens vers des combinaisons de dimensions spécifiques ou génériques.
 
 ### <a name="organize-reporting-units"></a>Organisation des unités organisationnelles
 
@@ -162,19 +160,6 @@ Vous pouvez empêcher certains utilisateurs et groupes d’accéder à une unit�
 3. Dans la boîte de dialogue **Sécurité de l’unité**, sélectionnez un nom, puis cliquez sur **Supprimer**.
 4. Cliquez sur **OK**.
 
-### <a name="link-to-reports"></a>Lien vers les états
-
-Après avoir créé une colonne **État** dans la définition de ligne et avoir spécifié l’état à inclure dans l’état, vous devez mettre à jour l’arborescence de génération d’états avec la colonne liée et les informations d’état. Un état peut être importé dans n’importe quelle unité de l’arborescence de génération d’états.
-
-### <a name="identify-the-report-in-a-reporting-tree"></a>Identifier l’état dans une arborescence de génération d’états
-
-1. Dans le générateur d’état, ouvrez la définition d’arborescence de génération d’états à modifier.
-2. Dans la colonne **Définitions de ligne**, les informations dans les cellules sont fondées sur les informations de la ligne sélectionnée, car la même définition de ligne doit être utilisée dans toutes les unités de l’arborescence de génération d’états. Double-cliquez sur la cellule **Définitions de ligne**, puis sélectionnez la définition de ligne qui contient les informations sur l’état.
-3. Dans la cellule **Lien de feuille de calcul** d’une unité organisationnelle, sélectionnez le nom du lien correspondant à l’état.
-4. Dans la cellule **Chemin du classeur ou de l’état** d’une unité organisationnelle, entrez le nom de l’état ou recherchez l’état.
-5. Pour spécifier une feuille de calcul dans un état, entrez le nom de la feuille de calcul dans la cellule **Nom de la feuille de calcul**.
-6. Répétez les étapes 3 à 5 pour chaque unité organisationnelle qui doit recevoir des données d’un état. Pour empêcher que des données erronées apparaissent dans votre état, vérifiez que les noms d’état corrects apparaissent dans l’unité correspondante de l’arborescence de génération d’états.
-
 ## <a name="examples"></a>Exemples
 ### <a name="reporting-unit-structure--example-1"></a>Structure d’unité organisationnelle, exemple 1
 
@@ -185,13 +170,13 @@ Voici la structure des unités de génération d’états dans l’arborescence 
 - Les unités organisationnelles du niveau le plus bas (Home Sales, Auto Sales, Client Services, et Operations) représentent les départements dans les données financières. Ces unités organisationnelless se trouvent dans la zone grisée du schéma.
 - Les unités de synthèse du plus haut niveau résument les informations des unités de détail.
 
-[![Structure de l’état de synthèse Contoso – Exemple 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Structure de l’état de synthèse Contoso - Exemple 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Structure d’unité organisationnelle, exemple 2
 
 Le schéma suivant présente une arborescence de génération d’états qui affiche une structure d’organisation est divisée par fonctions dans l’entreprise.
 
-[![Structure de l’état de synthèse Contoso – Exemple 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Structure de l’état de synthèse Contoso - Exemple 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemple de la boîte de dialogue Insérer des unités organisationnelles à partir des dimensions
 

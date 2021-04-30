@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826417"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909499"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuration d’un scénario pour l’intelligence IoT
 
@@ -42,7 +42,7 @@ Le scénario **Temps d’arrêt de l’équipement** a les dépendances suivante
 Procédez comme suit pour configurer le scénario.
 
 1. Connectez-vous à Supply Chain Management.
-2. Activez l’indicateur de fonctionnalité Intelligence IoT. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+2. Activez l’indicateur de fonctionnalité Intelligence IoT. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Configurez les mesures. Pour plus d’informations, voir [Comment configurer les mesures](iot-metrics-setup.md#configure-metrics).
 4. Aller à **Contrôle de production \> Configurer \> Intelligence IoT \> Gestion de scénario**.
 6. Sur la vignette **Temps d’arrêt de l’équipement**, sélectionnez **Configurer** pour ouvrir l’assistant de configuration.

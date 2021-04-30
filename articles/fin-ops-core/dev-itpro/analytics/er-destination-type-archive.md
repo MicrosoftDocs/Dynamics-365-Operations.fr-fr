@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 18c662fee0cedaa55f63ffeb25b0d61ee7baffda
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753526"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894026"
 ---
 # <a name="archive-er-destination-type"></a>Type de destination pour l’archivage d’états électronique
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753526"
 
 Vous pouvez configurer une destination d’archive pour chaque composant **Dossier** ou **Fichier** d’un format de rapport électronique (ER) configuré pour générer des documents sortants. En fonction du paramètre de destination, un document généré est stocké en tant que pièce jointe d’un enregistrement de la liste de tâches d’état électronique. Pour afficher les résultats, accédez à **Administration d’organisation** \> **Gestion des états électroniques** \> **Tâches de gestion des états électroniques**.
 
-Vous pouvez utiliser cette option pour envoyer le document généré vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les [types](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) de documents dans **Administration d’organisation** \> **Gestion de documents** \> **Types de documents**. La configuration des destinations d’états électroniques est identique à la configuration du système de gestion des documents.
+Vous pouvez utiliser cette option pour envoyer le document généré vers un dossier Microsoft SharePoint ou le stockage Microsoft Azure. Définissez **Activé** sur **Oui** pour envoyer la sortie vers une destination définie par le type de document sélectionné. Seuls les types de documents où le groupe est défini sur **Fichier** sont disponibles pour la sélection. Vous définissez les [types](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documents dans **Administration d’organisation** \> **Gestion de documents** \> **Types de documents**. La configuration des destinations d’états électroniques est identique à la configuration du système de gestion des documents.
 
 [![Page Types de documents](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 

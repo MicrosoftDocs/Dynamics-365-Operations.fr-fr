@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835604"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908950"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Gestion des entrepôts
 
@@ -50,7 +50,7 @@ Avant de pouvoir utiliser l’application, une fonctionnalité associée doit ê
 
 Pour les déploiements plus petits, vous pouvez souhaiter installer l’application sur chaque appareil à partir du magasin approprié, puis configurer manuellement la connexion aux environnements que vous utilisez.
 
-Pour les déploiements plus importants, vous pouvez automatiser le déploiement et / ou la configuration des applications, ce qui peut être plus pratique si vous gérez de nombreux appareils. Par exemple, vous pouvez utiliser une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Pour plus d’informations sur l’utilisation d’Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Pour les déploiements plus importants, vous pouvez automatiser le déploiement et / ou la configuration des applications, ce qui peut être plus pratique si vous gérez de nombreux appareils. Par exemple, vous pouvez utiliser une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Pour plus d’informations sur l’utilisation d’Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](/mem/intune/apps/apps-add).
 
 ### <a name="install-the-app-from-an-app-store"></a>Installez l’application à partir d’un App Store
 
@@ -65,10 +65,10 @@ Le moyen le plus simple d’installer l’application sur un seul appareil est d
 Au lieu d’installer à partir d’un App Store, vous pouvez à la place télécharger l’application à partir du Microsoft App Center. L’App Center fournit des packages installables que vous pouvez charger de manière indépendante. En plus de la version actuelle, l’App Center vous permet également de télécharger des versions précédentes et peut fournir des versions préliminaires avec des fonctionnalités à venir que vous pouvez essayer. Pour télécharger les versions actuelles, précédentes ou en préversion de l’application mobile Gestion des entrepôts à partir de Microsoft App Center, utilisez l’un des liens suivants :
 
 - **Windows (UWP) :** [Gestion des entrepôts (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    Pour savoir comment installer un package téléchargé sur un appareil Windows, puis configurer les certificats requis, voir [Installer une version depuis App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+    Pour savoir comment installer un package téléchargé sur un appareil Windows, puis configurer les certificats requis, voir [Installer une version depuis App Center](/appcenter/distribution/installation).
 
 - **Android :** [Gestion des entrepôts (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Si vous téléchargez une version préliminaire, quelques étapes supplémentaires sont nécessaires pour l’installer. Pour plus d’informations, voir [Tester des applications Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Si vous téléchargez une version préliminaire, quelques étapes supplémentaires sont nécessaires pour l’installer. Pour plus d’informations, voir [Tester des applications Android](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Créer une application de service Web dans Azure Active Directory
 
@@ -103,11 +103,11 @@ Pour permettre à l’application mobile Gestion des entrepôts d’interagir av
 
 Pour plus d’informations sur la configuration des applications de service Web dans Azure AD, consultez les ressources suivantes :
 
-- Pour obtenir des instructions qui montrent comment utiliser Windows PowerShell pour configurer des applications de service Web dans Azure AD, voir [Comment : Utiliser Azure PowerShell pour créer un principal de service avec un certificat](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Pour obtenir des instructions qui montrent comment utiliser Windows PowerShell pour configurer des applications de service Web dans Azure AD, voir [Comment : Utiliser Azure PowerShell pour créer un principal de service avec un certificat](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Pour plus de détails sur la création manuelle d’une application de service Web dans Azure AD, consultez les rubriques suivantes :
 
-    - [Démarrage rapide : Enregistrer une application avec la plateforme d’identités Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Comment : Utiliser le portail pour créer une application Azure AD et un principal de service qui peut accéder aux ressources](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Démarrage rapide : Enregistrer une application avec la plateforme d’identités Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Comment : Utiliser le portail pour créer une application Azure AD et un principal de service qui peut accéder aux ressources](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Créer et configurer un compte d’utilisateur dans Supply Chain Management
 
@@ -135,7 +135,7 @@ L’authentification avec Azure AD fournit un moyen sécurisé de connecter un a
 
 Les certificats peuvent être utilisés comme secrets pour prouver l’identité de l’application lorsqu’un jeton est demandé. La partie publique du certificat est chargée dans l’inscription de l’application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l’application mobile Gestion des entrepôts est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
 
-Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l’application mobile Gestion des entrepôts. Pour plus d’informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l’authentification dans Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l’application mobile Gestion des entrepôts. Pour plus d’informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l’authentification dans Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurer l’application en important des paramètres de connexion
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811285"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897034"
 ---
 # <a name="get-started-with-financial-reporting"></a>Lancez-vous avec Financial Reporting 
 
@@ -148,7 +148,7 @@ Problème 1 : le Concepteur de rapports ne démarre pas lorsque vous sélectio
 * Dans Internet Explorer, sélectionnez **Paramètres**, puis sélectionnez **Options Internet**. Sélectionnez l’onglet **Sécurité**. Sélectionnez Sites de confiance. Dans la zone intitulée Niveau de sécurité pour cette zone, modifiez l’option en **Moyen-faible**.
 * Désactivez le bloqueur de fenêtres publicitaires dans votre navigateur.
 * Les postes de travail doivent installer Microsoft .NET Framework 4.6.2 ou version supérieure. Cette version de Microsoft .NET Framework peut être téléchargée et installée à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Si vous utilisez le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez Chrome en mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. Pour plus d’informations sur l’extension ClickOnce de Chrome, voir [Configuration requise pour les déploiements Cloud](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Si vous utilisez le navigateur Chrome, vous devez installer une extension ClickOnce afin de télécharger le client Concepteur de rapports. Si vous utilisez Chrome en mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito. Pour plus d’informations sur l’extension ClickOnce de Chrome, voir [Configuration requise pour les déploiements Cloud](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Si vous utilisez Microsoft Edge avec un navigateur Chrome, vous n’avez pas besoin d’installer une extension ClickOnce pour Edge Chromium. Cependant, vous devez activer l’option ClickOnce pour télécharger le client Report Designer. Si vous utilisez le mode incognito, vérifiez que l’extension ClickOnce est activée pour le mode incognito.
      1. Ouvrez un nouveau navigateur dans Microsoft Edge.
      2. Entrez **edge://flags** et sélectionnez **Entrée**.
