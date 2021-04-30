@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801141"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889762"
 ---
 # <a name="administration-overview"></a>Vue d’ensemble de l’administration
 
@@ -46,10 +46,10 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Configurer l’intégration avec Dayforce](hr-admin-integration-dayforce.md)
   - [Créer une application d’exportation de données récurrentes](hr-admin-integration-recurring-data-export.md)
   - Intégration avec Office
-    - [Didacticiel pour l’intégration Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Mettre à jour des données d’entité dans Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Créer des expériences Ouvrir dans Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Résoudre les problèmes d’intégration Office](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Didacticiel pour l’intégration Office](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Mettre à jour des données d’entité dans Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Créer des expériences Ouvrir dans Excel](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Résoudre les problèmes d’intégration Office](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Gérer les fonctionnalités](hr-admin-manage-features.md)
 
@@ -73,7 +73,7 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Intégrer Microsoft Power Apps](../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json)
   - [Rechercher des informations à l’aide des recherches](../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json)
   - [Modification de la date d’une session](../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json)
-  - [Configurer un fuseau horaire préféré de l’utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
+  - [Configurer un fuseau horaire préféré de l'utilisateur](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Comprendre Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Ressources documentaires
@@ -84,7 +84,7 @@ Ce Guide de l’administrateur vous aide à configurer, gérer et dépanner Dyna
   - [Créer une documentation ou une formation à l’aide de l’enregistreur de tâches](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Résoudre les problèmes liés à Human Resources
-  - [Obtenir de l’aide](hr-admin-troubleshooting-support.md)
+  - [Obtenir de l'aide](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Optimiser les performances grâce aux tâches automatiques de nettoyage](hr-admin-troubleshooting-batch-history.md)
   - [Les états analytiques ne sont pas mis à jour](hr-admin-troubleshooting-analytic-reports.md)
   - [Impossible de créer un environnement dans le centre d’administration Power Apps](hr-admin-troubleshooting-power-apps.md)

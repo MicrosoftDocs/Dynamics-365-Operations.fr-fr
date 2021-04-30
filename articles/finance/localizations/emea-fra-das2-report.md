@@ -12,12 +12,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc979ff8ed73bbc8be129d8c688127100dc586aa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c5f67ff3abbf39f702c167b9cb78f595134a8949
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826084"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892389"
 ---
 # <a name="das-2-report"></a>État DAS-2
 
@@ -40,7 +40,7 @@ Avant de générer l’état pour la première fois, vous devez télécharger le
 - Formulaire DAS-2.version.36.30.15 (FR) ou versions ultérieures.
 
 > [!NOTE]
-> Pour plus d’informations sur la manière de télécharger les formats d’états électroniques, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+> Pour plus d’informations sur la manière de télécharger les formats d’états électroniques, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Après avoir téléchargé les configurations des états électroniques à partir de LCS, procédez comme suit.
 

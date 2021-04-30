@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743725"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891791"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 
@@ -119,7 +119,7 @@ Les étapes suivantes expliquent comment un utilisateur avec le rôle d’admini
 
 - [Ressources supplémentaires](#References)
 
-Dans cet exemple, vous allez créer une solution de gestion des états électroniques pour le module [Questionnaire](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Cette nouvelle solution de gestion des états électroniques vous permet de concevoir un rapport en utilisant une feuille de calcul Microsoft Excel comme modèle. Vous pouvez ensuite générer le rapport **Questionnaire** au format Excel ou PDF, en plus de générer le rapport SQL Server Reporting Services (SSRS) existant. Vous pouvez également modifier le nouveau rapport ultérieurement, sur demande. Aucun codage n’est requis.
+Dans cet exemple, vous allez créer une solution de gestion des états électroniques pour le module [Questionnaire](../../../human-resources/hr-learning-questionnaires.md). Cette nouvelle solution de gestion des états électroniques vous permet de concevoir un rapport en utilisant une feuille de calcul Microsoft Excel comme modèle. Vous pouvez ensuite générer le rapport **Questionnaire** au format Excel ou PDF, en plus de générer le rapport SQL Server Reporting Services (SSRS) existant. Vous pouvez également modifier le nouveau rapport ultérieurement, sur demande. Aucun codage n’est requis.
 
 1. Pour exécuter le rapport existant, accédez à **Questionnaire** \> **Conception** \> **État sur les questionnaires**.
 

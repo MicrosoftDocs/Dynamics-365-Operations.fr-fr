@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: dee77f6967cc72fdcc81d5cff9a39d13248af588
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811036"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907937"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espace de travail de collaboration fournisseur sur téléphone mobile
 
@@ -57,7 +57,7 @@ L’espace de travail mobile **Collaboration du fournisseur** permet à un fourn
 Les conditions préalables varient, en fonction de la version de Microsoft Dynamics 365 qui a été déployée pour votre organisation.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Conditions requises si vous utilisez Supply Chain Management
-Si Supply Chain Management a été déployé pour votre organisation, l’administrateur système doit publier l’espace de travail mobile **Collaboration du fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Si Supply Chain Management a été déployé pour votre organisation, l’administrateur système doit publier l’espace de travail mobile **Collaboration du fournisseur**. Pour obtenir des instructions, voir [Publier un espace de travail mobile](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Conditions requises si vous utilisez la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure
 Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Update 3 ou version ultérieure a été déployée pour votre organisation, l’administrateur système doit effectuer les tâches préalables suivantes. 
@@ -77,7 +77,7 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 <td>Le KB 3216943 est une mise à jour binaire qui est requise si vous utilisez Platform Update 3. Pour implémenter ce KB, l’administrateur système doit procéder comme suit :
 <ol>
 <li>Téléchargez KB 3216943 depuis Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Installez la mise à jour binaire, qui est fournie en tant que package déployable. Pour plus d’informations sur l’application d’un package déployable, voir <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer un package déployable</a>.</li>
+<li>Installez la mise à jour binaire, qui est fournie en tant que package déployable. Pour plus d’informations sur l’application d’un package déployable, voir <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Appliquer un package déployable</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -85,14 +85,14 @@ Si la version 1611 de Microsoft Dynamics 365 for Operations avec Platform Updat
 <td>Administrateur système</td>
 <td>Le KB 4013633 est une mise à jour X++ ou un correctif de métadonnées qui contient l’espace de travail mobile <strong>Stock disponible</strong>. Pour implémenter le KB 4013633, un administrateur système doit procéder comme suit :
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Téléchargez le correctif de métadonnées à partir de LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Installez le correctif de métadonnées</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Appliquer le package déployable</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Téléchargez le correctif de métadonnées à partir de LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installez le correctif de métadonnées</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Créez un module déployable</a> contenant le modèle <strong>SCMMobile</strong> et téléchargez le module déployable vers LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Appliquer le package déployable</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>L’espace de travail mobile <strong>Collaboration du fournisseur</strong> doit être publié.</td><td>Administrateur système</td>
-<td>Voir <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publier un espace de travail mobile</a>.</td>
+<td>Voir <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publier un espace de travail mobile</a>.</td>
 </tr>
 <tr class="even">
 <td>L’utilisateur fournisseur doit avoir accès à l’interface Web de collaboration du fournisseur dans le client Web et paramétrer un utilisateur de collaboration du fournisseur.</td><td>Acheteurs et administrateur système</td>

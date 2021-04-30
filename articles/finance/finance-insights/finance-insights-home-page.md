@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818558"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898058"
 ---
 # <a name="finance-insights-home-page-preview"></a>Page d’accueil Informations financières (version préliminaire)
 
@@ -31,7 +31,7 @@ Finance Insights fournit des modèles configurables et extensibles pour vous aid
 
 La version préliminaire de Finance Insights est disponible pour les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
 
-Les fonctionnalités en version préliminaire peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et d’intelligence artificielle (IA) créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Les fonctionnalités en version préliminaire peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et d’intelligence artificielle (IA) créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -43,7 +43,7 @@ Pour postuler au programme de version préliminaire, remplissez [l’accord de v
 
 ### <a name="system-requirements"></a>Configuration requise
 
-Un environnement sandbox de niveau 2 (multi-box) est requis pour la version préliminaire de Finance Insights. Pour plus d’informations générales sur les environnements, voir [Planification de l’environnement](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+Un environnement sandbox de niveau 2 (multi-box) est requis pour la version préliminaire de Finance Insights. Pour plus d’informations générales sur les environnements, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Exigences relatives à la version
 
@@ -79,7 +79,7 @@ Vous devrez créer un projet d’intégrateur de données afin que les données 
 Lorsque vous avez terminé les étapes de configuration et configuré les données de démonstration, vous devez activer et configurer chaque fonctionnalité que vous prévoyez d’utiliser : prévisions de paiement client, prévision de flux de trésorerie et propositions de budget.
 
 ### <a name="enable-customer-payment-predictions"></a>Activer les prédictions de paiement des clients
-Si vous utilisez des données de démonstration pour tester les prédictions de paiement des clients, vous devrez peut-être importer des données de démonstration supplémentaires pour créer votre modèle d’IA avec succès. Pour connaître les étapes spécifiques d’importation des données de démonstration, voir [Configurer les données de démonstration pour les prévisions de paiement](set-up-demo-data.md).
+Si vous utilisez des données de démonstration pour tester les prédictions de paiement des clients, vous devrez peut-être importer des données de démonstration supplémentaires pour créer votre modèle d’IA avec succès. 
 
 Pour activer les prédictions de paiement des clients, vous devez suivre un ensemble d’étapes pour créer un modèle Machine Learning qui utilise les données de votre organisation pour générer des prédictions sur le moment où les clients sont susceptibles de payer des factures impayées et sur le moment où des factures spécifiques sont susceptibles d’être payées. Pour plus d’informations et les étapes spécifiques à suivre, voir [Activer les prédictions de paiement des clients](enable-cust-paymnt-prediction.md). 
 

@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803487"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891052"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Paramétrer les composants d’une tâche
 
@@ -86,7 +86,7 @@ Tenez à jour les tâches à l’aide de la page **Tâches**. Sur la page **Tâc
 Utilisez les domaines de responsabilité pour indiquer les rôles, les processus et les produits dont un travailleur occupant un poste pour une tâche est responsable. Par exemple, pour une tâche intitulée « Comptable », un domaine de responsabilité peut être « Génération d’états financiers pour le produit A ». Tenez à jour les domaines de responsabilité à l’aide de la page **Domaines de responsabilité**, que vous pouvez rechercher à l’aide de la fonction de recherche. Sur la page **Domaines de responsabilité**, entrez un nom et une description pour la responsabilité. Dans le champ **Remarque**, vous pouvez éventuellement entrer des informations supplémentaires. Les notes peuvent être mises à jour pour une tâche spécifique sans modifier les notes que vous avez entrées ici.
 
 ## <a name="steps-for-creating-a-job"></a>Étapes pour créer une tâche
-Reportez-vous à l’article [Définir les nouvelles tâches](../fin-and-ops/hr/tasks/define-new-jobs.md) pour connaître la procédure pas à pas pour créer une tâche. 
+Reportez-vous à l’article [Définir les nouvelles tâches](./hr-personnel-define-jobs.md) pour connaître la procédure pas à pas pour créer une tâche. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

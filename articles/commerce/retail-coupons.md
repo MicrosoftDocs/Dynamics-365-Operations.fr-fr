@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792023"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906647"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Paramétrer des coupons pour les ventes au détail
 
@@ -38,6 +38,8 @@ Pour créer un coupon, vous devez créer la remise et le coupon séparément. Vo
 
 > [!NOTE]
 > Après avoir lié un coupon à une remise, plusieurs champs de la page de la remise dans Commerce passent en lecture seule car ils sont gérés par les paramètres du coupon. Ces champs comprennent les champs associés au statut et aux plages de date standard.
+> 
+> Lorsque vous utilisez le coupon dans le canal du centre d'appels, vous devez sélectionner le bouton **Recalculer** **(Onglet Vendre > Calculer > Recalculer)** pour que la réduction associée au coupon soit appliquée. Cette étape supplémentaire sera supprimée dans une prochaine version.
 
 ### <a name="limited-use-coupons"></a>Coupons à utilisation limitée
 

@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01ef4138f18fbec97c89608dec11a8208f3033f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4668095f611065b07e61f6c85a7f5b16cbefb21
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832608"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894662"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -50,13 +50,13 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Paramétrer des modes de paiement](tasks/fr-00004-setup-method-payment.md)
 - [Mettre à jour un mode de paiement pour le client](tasks/fr-00004-update-method-payment-customer.md)
 - Commerce
-  - [Fonctionnalité de la caisse enregistreuse](../../retail/localizations/emea-fra-cash-registers.md)
-  - [Instructions de déploiement de caisses enregistreuses](../../retail/localizations/emea-fra-deployment.md)
+  - [Fonctionnalité de la caisse enregistreuse](../../commerce/localizations/emea-fra-cash-registers.md)
+  - [Instructions de déploiement de caisses enregistreuses](../../commerce/localizations/emea-fra-deployment.md)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Vue d’ensemble des états électroniques](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Télécharger les configurations d’états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portail de localisation Microsoft Dynamics : état australien (exige un compte CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/france.html)
 
 

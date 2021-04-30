@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743505"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893250"
 ---
 # <a name="expense-management-power-bi-content"></a>Contenu Power BI de gestion des dépenses
 
@@ -41,7 +41,7 @@ Deux packs de contenu Power BI sont disponibles pour être utilisés avec la Ges
 Tous les montants sont indiqués dans la devise de la société. Les données de toutes les sociétés sont affichées, mais si nécessaire vous pouvez ajouter un filtre de société. 
 
 ## <a name="accessing-the-power-bi-content"></a>Accès au contenu Power BI
-Vous pouvez trouver le contenu Power BI Expense Admin Dashboard.pbix et Expense Personal Dashboard.pbix dans la bibliothèque des actifs partagés dans Microsoft Dynamics LCS (Lifecycle Services). Pour savoir comment télécharger le contenu et l’implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Vous pouvez trouver le contenu Power BI Expense Admin Dashboard.pbix et Expense Personal Dashboard.pbix dans la bibliothèque des actifs partagés dans Microsoft Dynamics LCS (Lifecycle Services). Pour savoir comment télécharger le contenu et l’implémenter dans votre organisation, voir [Contenu Power BI dans LCS de Microsoft et de vos partenaires](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Le contenu est disponible dans l’espace de travail Gestion des dépenses comme contenu intégré de Power BI. Tout propriétaire de dépenses peut accéder à ses propres dépenses personnelles, tandis que seuls les employé et les responsables de la comptabilité fournisseur ont accès au contenu Administrateur pour afficher les données de dépenses de tous les utilisateurs.
 
 ## <a name="refreshing-the-power-bi-content"></a>Actualisation du contenu Power BI

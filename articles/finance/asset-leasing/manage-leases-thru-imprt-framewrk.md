@@ -2,11 +2,11 @@
 title: Gérez les baux via l’environnement d’importation de baux
 description: Cette rubrique explique comment utiliser la structure d’importation de baux pour ajuster plusieurs baux en même temps.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819792"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880908"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Gérez les baux via l’environnement d’importation de baux
 
@@ -51,9 +51,9 @@ Pour afficher les données de préparation du bail avant l’exécution du trait
 La fonction de comparaison vous permet de comparer un enregistrement que vous importez avec l’enregistrement correspondant qui se trouve déjà dans votre système. Pour comparer un enregistrement de bail individuel, sélectionnez un bail, puis **Comparer**. Vous devez terminer cette étape pour générer un rapport **Différences** avant de migrer les enregistrements de bail. La fonctionnalité Comparer compare les valeurs des données mises en lots aux valeurs des baux actuellement dans le système.
 
 > [!NOTE]
-> La fonctionnalité Comparer ne fonctionne pas pour les baux qui ont le type de processus **Ajouter un enregistrement**, car il n’y a rien à comparer avec ce bail.
+> La fonctionnalité Comparer ne fonctionnera pas pour les baux qui ont le type de processus **Ajouter un enregistrement**, car il n’y a rien à comparer avec ce bail.
 >
-> Pour comparer plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique \> Comparer** et sélectionnez **Comparer**.
+> Pour comparer plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique**, et sélectionnez **Comparer**.
 
 Pour chaque entité, vous pouvez afficher les différences entre ce qui se trouve actuellement dans le système et ce qui se trouve dans les tables intermédiaires. Pour chaque entité des tables mises en lots, sélectionnez **Voir les différences**. La boîte de dialogue qui apparaît affiche la valeur actuelle et la valeur mise en lots proposée.
 
@@ -62,17 +62,17 @@ Vous pouvez également mettre à jour la valeur mise en lots en la modifiant dan
 Vous pouvez valider les baux pour vous assurer que les enregistrements peuvent être introduits dans le système sans introduire d’erreurs. Avant la migration d’un enregistrement de bail, le système exécute plusieurs validations pour s’assurer que l’enregistrement sera importé avec succès. Pour valider un bail individuel, sélectionnez **Valider**.
 
 > [!NOTE]
-> Pour valider plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique \> Valider** et sélectionnez **Comparer**.
+> Pour valider plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique**, et sélectionnez **Valider**.
 
 Pour traiter un bail individuel, sélectionnez **Migrer les enregistrements de bail** sur la page **Importer l’en-tête**. Lorsqu’un bail est migré, le système exécute l’action spécifiée dans le champ **Type de processus**.
 
 > [!NOTE]
-> Pour valider plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique \> Valider** et sélectionnez **Comparer**.
+> Pour migrer plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique**, et sélectionnez **Migrer**.
 
 Une fois les baux comparés, vous pouvez exécuter un rapport pour afficher les différences pour chaque bail inclus dans l’ID d’importation. Pour exécuter le rapport pour un bail, sélectionnez ce bail dans les données mise en lots, puis sélectionnez **Comparer et afficher le rapport \> Rapport des différences**.
 
 > [!NOTE]
-> Pour valider plusieurs baux en même temps, accédez à **Location d’actifs \> Recherches et états \> États sur les différences** et sélectionnez **Comparer**.
+> Pour comparer plusieurs baux en même temps, accédez à **Location d’actifs \> Cadre d’importation de bail \> Périodique** et sélectionnez **Comparer**. 
 
 ## <a name="set-up-update-fields"></a>Paramétrer les champs de mise à jour
 

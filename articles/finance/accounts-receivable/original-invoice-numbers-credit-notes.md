@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811508"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897330"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Références aux factures d’origine dans les notes de crédit
 
@@ -30,7 +30,7 @@ Dans certains pays et certaines régions, il existe une obligation légale selon
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-- Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction **Mise en page de la facturation de crédit aux états des facture client et de projet**. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- Dans l’espace de travail **Gestion des fonctionnalités**, activez la fonction **Mise en page de la facturation de crédit aux états des facture client et de projet**. Pour plus d’informations, voir [Vue d’ensemble de la gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Les formats imprimables des documents requis doivent être configurés dans Gestion de l’impression.
 
 La fonctionnalité décrite dans cette rubrique s’applique aux documents suivants :

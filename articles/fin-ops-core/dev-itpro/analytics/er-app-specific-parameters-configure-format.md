@@ -2,7 +2,8 @@
 title: Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
 description: Cette rubrique explique comment vous pouvez configurer des formats de gestion des états électroniques pour utiliser les paramètres propres à une entité juridique.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751176"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853491"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurer des formats de gestion des états électroniques pour utiliser les paramètres spécifiés par entité juridique
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751176"
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Dans de nombreux formats de gestion de données électroniques que vous concevrez, vous devez filtrer les données à l’aide d’un ensemble de valeurs propres à chaque entité juridique de votre instance (par exemple, un ensemble de codes taxe pour filtrer les transactions de taxe). Actuellement, lorsque le filtrage de ce type est configuré dans un format de gestion des états électroniques, les valeurs qui dépendent de l’entité juridique (par exemple, les codes taxe) sont utilisées dans des expressions du format de gestion des états électroniques pour préciser les règles de filtrage des données. Par conséquent, le format de gestion des états électroniques est rendu spécifique à une entité juridique, et pour générer les états requis, vous devez créer des copies dérivées du format d’origine de gestion des états électroniques pour chaque entité juridique dans laquelle vous devez exécuter le format de gestion des états électroniques. Chaque format de gestion des états électroniques dérivé doit être modifié pour y insérer des valeurs propres à l’entité juridique, rebasé lorsque la version d’origine (de base) a été mise à jour, exporté d’un environnement de test, puis importé dans un environnement de production lorsqu’il doit être déployé pour un usage en production, etc. Par conséquent, la maintenance de ce type de solution de gestion des états électroniques configurée est plutôt complexe et longue pour plusieurs raisons :
+Dans de nombreux formats de gestion de données électroniques que vous concevrez, vous devez filtrer les données à l’aide d’un ensemble de valeurs propres à chaque entité juridique de votre instance (par exemple, un ensemble de codes taxe pour filtrer les transactions de taxe). Actuellement, lorsque le filtrage de ce type est configuré dans un format de gestion des états électroniques, les valeurs qui dépendent de l’entité juridique (par exemple, les codes taxe) sont utilisées dans des expressions du format de gestion des états électroniques pour préciser les règles de filtrage des données. Par conséquent, le format de gestion des états électroniques est rendu spécifique à une entité juridique, et pour générer les états requis, vous devez créer des copies dérivées du format d’origine de gestion des états électroniques pour chaque entité juridique dans laquelle vous devez exécuter le format de gestion des états électroniques. Chaque format de gestion des états électroniques (ER) dérivé doit être modifié pour y insérer des valeurs propres à l’entité juridique, rebasé lorsque la version d’origine (de base) a été mise à jour, exporté d’un environnement de test, puis importé dans un environnement de production lorsqu’il doit être déployé pour un usage en production, etc. Par conséquent, la maintenance de ce type de solution de gestion des états électroniques configurée est complexe et chronophage pour plusieurs raisons :
 
 -   Plus il y a d’entités juridiques, plus il y a de mises à jour des configurations de format de gestion des états électroniques à faire.
 -   La mise à jour des configurations de gestion des états électroniques exige des utilisateurs professionnels des connaissances en matière de gestion des états électroniques.
@@ -86,7 +87,7 @@ Dans cet exemple, vous créerez une configuration pour la société fictive, Lit
 
     ![La liste des transactions de taxe de la source de données Model.Data.Summary](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Le champ calculé **Model.Data.Summary.Level** a été configuré de manière à ce que il contienne une expression de gestion des états électroniques. Notez que les codes taxe (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** et **InVAT0**) sont codés en dur dans cette configuration. Par conséquent, ce format de gestion des états électroniques dépend de l’entité juridique où ces codes taxe ont été configurés.
+    Le champ calculé **Model.Data.Summary.Level** a été configuré de manière à ce que il contienne une expression de gestion des états électroniques. Les codes taxe (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** et **InVAT0**) sont codés en dur dans cette configuration. Par conséquent, ce format de gestion des états électroniques dépend de l’entité juridique où ces codes taxe ont été configurés.
 
     ![Le champ calculé Model.Data.Summary.Level avec des codes taxe codés en dur](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ Ensuite, vous ajouterez une nouvelle source de données pour préciser comment l
 1.  Dans l’onglet **Mise en correspondance**, sélectionnez **Ajouter**.
 2.  Sélectionnez **Énumération de format\Rechercher**.
 
-    Vous venez d’identifier que chaque règle que les utilisateurs professionnels spécifient pour la reconnaissance du niveau d’imposition renverra une valeur d’énumération au format de gestion des états électroniques. Notez que le type de source de données **Recherche** est accessible sous **Modèle de données** ainsi que sous les blocs **Dynamics 365 for Operations**, en plus du bloc **Énumération de format**. Par conséquent, les énumérations de modèle de données de gestion des états électroniques et les énumérations d’application peuvent être utilisées pour spécifier le type de valeurs renvoyées pour les sources de données de ce type.
+    Vous venez d’identifier que chaque règle que les utilisateurs professionnels spécifient pour la reconnaissance du niveau d’imposition renverra une valeur d’énumération au format de gestion des états électroniques. Notez que le type de source de données **Recherche** est accessible sous **Modèle de données** ainsi que sous les blocs **Dynamics 365 for Operations**, en plus du bloc **Énumération de format**. Par conséquent, les énumérations de modèle de données de gestion des états électroniques et les énumérations d’application peuvent être utilisées pour spécifier le type de valeurs renvoyées pour les sources de données de ce type. Pour en savoir plus sur la source de données de **Recherche**, voir [Configurer les sources de données de Recherche pour utiliser les paramètres spécifiques à la fonction de gestion des états électroniques](er-lookup-data-sources.md).
     
 3.  Dans le champ **Nom**, entrez **Sélecteur**.
 4.  Dans le champ **Énumération de format**, sélectionnez **Liste des niveaux d’imposition**.
 
-    Vous venez de spécifier que, pour chaque règle qui est spécifiée dans cette source de données, un utilisateur professionnel doit sélectionner une des valeurs de l’énumération de format **Liste des niveaux d’imposition** comme une valeur retournée.
+    Vous avez spécifié que, pour chaque règle qui est spécifiée dans cette source de données, un utilisateur professionnel doit sélectionner une des valeurs de l’énumération de format **Liste des niveaux d’imposition** comme une valeur retournée.
     
 5.  Sélectionnez **Modifier la recherche**.
 6.  Sélectionnez **Colonnes**.
@@ -190,7 +191,7 @@ Ensuite, vous ajouterez une nouvelle source de données pour préciser comment l
     
     ![Page du concepteur de format avec une nouvelle source de données](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Notez que l’évaluation des règles configurées dépend du type de données des champs sélectionnés pour définir les conditions de ces règles. Lorsque vous sélectionnez un champ qui est configuré comme un champ de type **Numérique** ou **Date**, les critères différeront des critères qui ont été décrits plus tôt pour le type de données **Chaîne**. Pour les champs **Numérique** et **Date**, la règle doit être spécifiée comme plage de valeurs. La condition de la règle sera alors considérée remplie lorsqu’une valeur transmise à la source de données est comprise dans la plage de configuration.
+    L’évaluation des règles configurées dépend du type de données des champs sélectionnés pour définir les conditions de ces règles. Lorsque vous sélectionnez un champ qui est configuré comme un champ de type **Numérique** ou **Date**, les critères différeront des critères qui ont été décrits plus tôt pour le type de données **Chaîne**. Pour les champs **Numérique** et **Date**, la règle doit être spécifiée comme plage de valeurs. La condition de la règle sera alors considérée remplie lorsqu’une valeur transmise à la source de données est comprise dans la plage de configuration.
     
     L’illustration suivante montre un exemple de ce type de configuration. Outre le champ **Model.Data.Tax.Code** du type de données **Chaîne**, le champ **Model.Tax.Summary.Base** du type de données **Réel** permet de spécifier des conditions pour une source de données de recherche.
     
@@ -287,7 +288,7 @@ Ensuite, vous modifierez le champ calculé existant afin qu’il utilise la sour
 
 ## <a name="export-completed-version-of-modified-format"></a>Exporter la version terminée d’un format modifié
 
-1.  Dans l’arborescence des configurations, sélectionnez l’article **Format pour apprendre comment rechercher les données LE**.
+1.  Dans l’arborescence des configurations, sélectionnez l’élément **Format pour apprendre comment rechercher les données LE**.
 2.  Dans le raccourci **Versions**, sélectionnez l’enregistrement ayant un statut **Terminé**.
 3.  Sélectionnez **Exchange**.
 4.  Sélectionnez **Exporter en tant que fichier XML**.
@@ -307,6 +308,8 @@ Pour savoir comment utiliser le format de gestion des états électroniques **Fo
 [Concepteur de formule dans la gestion des états électroniques](general-electronic-reporting-formula-designer.md)
 
 [Définir les paramètres d’un format de gestion des états électroniques par entité juridique](er-app-specific-parameters-set-up.md)
+
+[Configurer les sources de données de Recherche pour utiliser les paramètres spécifiques à la fonction de gestion des états électroniques](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

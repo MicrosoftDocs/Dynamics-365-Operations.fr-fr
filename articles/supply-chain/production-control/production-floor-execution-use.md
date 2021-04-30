@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814654"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907715"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Utilisation de l’interface d’exécution de l’atelier de production par les collaborateurs
 
@@ -136,7 +136,7 @@ Le travailleur sélectionne la troisième tâche sur l’onglet **Toutes les tâ
 
 ## <a name="working-on-indirect-activities"></a>Travailler sur des activités indirectes
 
-Les activités indirectes sont des activités qui ne sont pas directement liées à un ordre de fabrication. Les activités indirectes peuvent être définies de manière flexible, comme décrit dans [Paramétrage des activités indirectes de pointage](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Les activités indirectes sont des activités qui ne sont pas directement liées à un ordre de fabrication. Les activités indirectes peuvent être définies de manière flexible, comme décrit dans [Paramétrage des activités indirectes de pointage](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Par exemple, Shannon, employé de l’atelier chez Contoso, souhaite assister à une réunion d’entreprise et les réunions sont considérées comme une activité indirecte. L’un des deux scénarios suivants s’applique :
 

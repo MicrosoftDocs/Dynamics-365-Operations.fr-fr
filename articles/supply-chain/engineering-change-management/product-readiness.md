@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842007"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909717"
 ---
 # <a name="product-readiness"></a>Disponibilité du produit
 
@@ -142,7 +142,7 @@ Pour chaque ligne que vous ajoutez, définissez les champs suivants.
 | Société | Si vous définissez le champ **Exécuter dans** sur *Entreprise unique*, sélectionnez l’entreprise. |
 | Type de propriétaire | Indiquez si les vérification de la disponibilité générés par la ligne doivent être attribués à une personne ou à une équipe. |
 | Propriétaire | Indiquez la personne ou l’équipe à qui les vérification de la disponibilité générés par la ligne doivent être attribués. |
-| Questionnaire | Sélectionnez le questionnaire à utiliser pour la liste de contrôle. La liste de contrôle est une liste de contrôle locale dans l’entreprise où la vérification de la disponibilité est effectué. Le système doit être en mesure d’évaluer si la liste de contrôle a reçu une réponse correcte. Par conséquent, la liste de contrôle doit être établie de manière à ce qu’une évaluation soit faite sur la base de réponses correctes. Pour plus d’informations sur la création de questionnaires, voir [Utilisation de questionnaires](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) et ses sujets connexes. |
+| Questionnaire | Sélectionnez le questionnaire à utiliser pour la liste de contrôle. La liste de contrôle est une liste de contrôle locale dans l’entreprise où la vérification de la disponibilité est effectué. Le système doit être en mesure d’évaluer si la liste de contrôle a reçu une réponse correcte. Par conséquent, la liste de contrôle doit être établie de manière à ce qu’une évaluation soit faite sur la base de réponses correctes. Pour plus d’informations sur la création de questionnaires, voir [Utilisation de questionnaires](/dynamicsax-2012/appuser-itpro/using-questionnaires) et ses sujets connexes. |
 | Approbation automatique | Les registres de vérification de la disponibilité comprennent une case à cocher **Approuvé** qui indique l’état d’approbation. Cochez la case **Approbation automatique** pour les vérification qui doivent être définis sur Approuvé immédiatement après que l’utilisateur affecté les a terminés. Décochez cette case pour exiger une approbation explicite comme étape supplémentaire. |
 | Obligatoire | Cochez cette case pour les vérifications qui doivent être effectuées par l’utilisateur affecté. Les vérifications obligatoires ne peuvent pas être ignorées. |
 

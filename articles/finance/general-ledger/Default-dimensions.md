@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823858"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897306"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimension financières et validation 
 
@@ -83,17 +83,17 @@ La dimension par défaut de l’en-tête de journal va générer le département
 
 Toutefois, si la ligne est validée, la dimension fixe est appliquée, et la ligne est validée dans le département 022. L’illustration suivante présente le document validé, où la dimension fixe est appliquée pour le compte de vente.
 
-[![Pièces comptables](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Justificatifs de transaction avec une dimension fixe appliquée](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
-### <a name="example-2"></a>Exemple 2
+### <a name="example-2"></a>Exemple 2
 
 Cet exemple utilise le même paramétrage que le premier exemple. Cependant, nous ajoutons un second composant et utilisons la dimension Département en tant que dimension d’équilibrage. Dans l’illustration suivante, **Département** est défini comme dimension financière pour la comptabilité USMF.
 
-[![Comptabilité](./media/ledger.png)](./media/ledger.png)
+[![Illustration montrant le Département comme dimension financière d'équilibrage](./media/ledger.png)](./media/ledger.png)
 
 Lorsque le même paramétrage d’en-tête de journal est utilisé, et que la même transaction est validée, la dimension fixe est appliquée en premier. Puis la logique d’équilibrage est appliquée pour garantir que chaque département a une entrée équilibrée. L’illustration suivante présente des pièces comptables incluant l’entrée d’équilibrage après que la dimension fixe a été appliquée.
 
-[![Pièces comptables](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Justificatifs de transaction après l'application de l'entrée d'équilibrage](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Exemple 3
 
@@ -119,11 +119,11 @@ Certaines des ressources suivantes se réfèrent à une version antérieure de n
 
 [Plan de comptes](plan-chart-of-accounts.md) 
 
-[Planification de votre plan de comptes dans le blog AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Ce lien mène à la partie 1 d’une série de 7 parties.
+[Planification de votre plan de comptes dans le blog AX 2012](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – Ce lien mène à la partie 1 d’une série de 7 parties.
 
-[Utilisation de valeurs par défaut pour les dimensions dans les répartitions comptable](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Utilisation de valeurs par défaut pour les dimensions dans les répartitions comptable](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Utilisation de valeurs par défaut pour les dimensions dans la structure de dimensions](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Utilisation de valeurs par défaut pour les dimensions dans la structure de dimensions](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

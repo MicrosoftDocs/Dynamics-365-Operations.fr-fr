@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
+ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818678"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867445"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Créer un projet d’intégrateur de données (version préliminaire)
 
@@ -59,6 +59,7 @@ Cette rubrique explique comment créer un projet d’intégrateur de données.
     1. Créez des projets d’intégration de données pour les modèles suivants à l’aide du jeu de connexions que vous venez de créer :
 
         - Résultats des analyses de paiement client (CDS à Fin and Ops)
+            - Si vous utilisez la version 10.0.17 ou une version ultérieure, vous devez utiliser le modèle nommé Résultats des analyses de paiement client (CDS à Fin and Ops 10.0.17 +).
         - Résultats des séries chronologiques de flux de trésorerie (CDS à Fin et Ops)
         - Résultats des séries chronologiques de budget (CDS à Fin et Ops)
 

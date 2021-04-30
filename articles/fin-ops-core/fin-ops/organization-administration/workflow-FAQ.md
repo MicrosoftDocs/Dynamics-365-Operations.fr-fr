@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747199"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890355"
 ---
 # <a name="workflow-faq"></a>FAQ sur les workflows
 
@@ -45,9 +45,9 @@ Voici quelques points clés à noter en ce qui concerne l’ajout d’alertes au
     - Dans une prochaine mise à jour, nous ajouterons un message du Centre d’action quand un élément de travail de workflow est affecté à un utilisateur. 
 - Ajout de notifications à des workflows
     - Les messages du Centre d’actions peuvent être créés pour des utilisateurs spécifiques, tels qu’un message créé à partir d’un workflow dans X++.
-    - [Les workflows comportent des événements commerciaux](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que le client peut utiliser pour faire en sorte que les flux disposent des notifications dont ils ont besoin.   
+    - [Les workflows comportent des événements commerciaux](../../dev-itpro/business-events/business-events-workflow.md) que le client peut utiliser pour faire en sorte que les flux disposent des notifications dont ils ont besoin.   
 
-En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d’actions lorsqu’un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
+En résumé, si un utilisateur ne reçoit pas la notification appropriée en provenance du Centre d’actions lorsqu’un élément de travail de workflow leur est affecté, tirez parti des [Événements commerciaux de workflow](../../dev-itpro/business-events/business-events-workflow.md) avec Microsoft Power Automate pour fournir des notifications supplémentaires ou différentes.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Pourquoi l’éditeur de workflow ne peut-il pas démarrer dans AD FS ?
 Lors de l’exécution sous Active Directory Federation Services (AD FS) dans un environnement mis à niveau, l’éditeur de workflow peut avoir des problèmes de démarrage. Si tel est le cas, assurez-vous que l’URL « https://dynamicsaxworkfloweditor/ » est ajoutée à la propriété **Microsoft Dynamics 365 for Operations On-premises – Workflow – Application native** dans les paramètres ADFS.

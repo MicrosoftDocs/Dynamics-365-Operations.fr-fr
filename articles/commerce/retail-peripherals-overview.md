@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791945"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857271"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -142,6 +142,9 @@ UWP, dans le cas des périphériques, est liée à la prise en charge Windows de
 ### <a name="keyboard-wedge"></a>Clavier wedge
 
 Les périphériques clavier wedge envoient des données à l’ordinateur comme si ces données étaient saisies au clavier. Par conséquent, par défaut, le champ actif dans le système PDV recevra les données qui sont lues par scanner ou passage de carte. Dans certains cas, ce comportement peut entraîner qu’un type de données erroné soit lu vers un champ. Par exemple, un code-barres peut être lu vers un champ prévu pour la saisie des données de carte de crédit. Dans de nombreux cas, il existe une logique au niveau du PDV qui détermine si les données qui sont lues par scanner ou passage de carte sont un code-barres ou un passage de carte. En conséquence, les données sont traitées correctement. Toutefois, lorsque des périphériques sont configurés comme OPOS au lieu de périphériques clavier Wedge, la manière de consommer les données issues de ces périphériques est mieux contrôlée car « on en sait davantage » sur le périphérique d’où proviennent les données. Par exemple, les données issues d’un lecteur de codes-barres sont automatiquement identifiées comme un code-barres, et l’enregistrement associé dans la base de données est trouvée plus facilement et plus rapidement que par une recherche de chaîne générique, comme dans le cas de périphériques de clavier wedge.
+
+> [!NOTE]
+> Lorsque des scanners de clavier « wedge » sont utilisés dans le PDV, ils doivent être programmés pour envoyer un retour chariot, ou événement **Entrée**, après le dernier caractère scanné. Si cette configuration n'est pas effectuée, les scanners de clavier « wedge » ne fonctionneront pas correctement. Consultez la documentation fournie par le fabricant de votre appareil pour savoir comment ajouter l'événement de retour chariot.  
 
 ### <a name="native-printer"></a>Imprimante native
 

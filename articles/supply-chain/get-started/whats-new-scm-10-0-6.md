@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 2ea4da7a656a6696f41848575e37d2381fd3d3f1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83798af9c39ae8845125026903741882356d8845
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809612"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909327"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.6 (novembre 2019)
 
@@ -56,7 +56,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.6 inclut Platform update 30
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365 : vague 2 du plan de publication 2019
 Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d’entreprise ?
 
-Consultez [Dynamics 365 : vague 2 du plan de publication 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
+Consultez [Dynamics 365 : vague 2 du plan de publication 2019](/dynamics365-release-plan/2019wave2/). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 

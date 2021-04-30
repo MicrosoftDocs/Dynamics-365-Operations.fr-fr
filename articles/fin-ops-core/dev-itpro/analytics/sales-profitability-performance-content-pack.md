@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a876be357bdeea485643aeeebdbc308bb8cf54df
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2f1354572422994cfa2a220f59d2fe223eebd36a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754318"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890882"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenu Power BI Performances de rentabilité et de ventes
 
@@ -59,7 +59,7 @@ Le contenu Power BI **Performances de rentabilité et de vente** comprend un ét
 |                        | Produit et profit brut par groupe de clients   |                                                         |
 | Produit par produit     | Produit et profit brut par catégorie de vente   | \# total de produits                                    |
 |                        | 10 meilleurs produits par produit                 | Nombre total de produit actifs et pourcentage du total |
-|                        | Produit total par catégorie de vente            | Numéro de produit constituant 80 % du produit           |
+|                        | Produit total par catégorie de vente            | Numéro de produit constituant 80 %% du produit           |
 | Produit par période\*    | Produit par mois                           | Croissance du produit en cumul annuel                                      |
 |                        | Variance du produit, en cumul annuel             | Croissance du produit en %                                    |
 |                        | Variance des ventes totales par région de clientèle    |                                                         |
@@ -76,7 +76,7 @@ Le contenu Power BI **Performances de rentabilité et de vente** comprend un ét
 ## <a name="understanding-the-data-model-and-entities"></a>Compréhension du modèle de données et des entités
 Les données suivantes sont utilisées pour remplir les pages d’état dans le contenu Power BI **Performances de rentabilité et de vente**. Ces données sont représentées sous la forme de mesures globales indexées dans le magasin des entités. Le magasin des entités est une base de données Microsoft SQL Server optimisée pour les analyses. Pour plus d’informations, voir [Intégration de Power BI au magasin d’entité](power-bi-integration-entity-store.md).
 
-Les mesures globales dans ce pack de contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube des ventes dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d’entités, vous devez les rendre déployables. Pour plus d’informations, voir la procédure d’enregistrement des mesures globales dans le magasin d’entités dans la publication de blog [Intégration de Power BI avec le magasin d’entités dans Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
+Les mesures globales dans ce pack de contenu sont le sous-ensemble des mesures globales qui sont disponibles dans le Cube des ventes dans Microsoft Dynamics AX 2012 et Microsoft Dynamics AX 2012 R3. Pour enregistrer les mesures globales du cube dans le magasin d’entités, vous devez les rendre déployables. Pour plus d’informations, voir la procédure d’enregistrement des mesures globales dans le magasin d’entités dans la publication de blog [Intégration de Power BI avec le magasin d’entités dans Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 
 Les mesures globales clés suivantes de l’entité Lignes de facture sont utilisées comme base du contenu.
 

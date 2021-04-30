@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840771"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908998"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personnaliser et utiliser le portail client
 
@@ -33,14 +33,14 @@ Le portail client propose quelques pages web et actions prêtes à l’emploi. L
 
 Les rubriques suivantes vous aideront à apprendre les bases des portails Power Apps et de leur personnalisation :
 
-- [Utiliser des modèles](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – Cette rubrique fournit un aperçu général du fonctionnement des portails Power Apps et de la manière d’y apporter des personnalisations simples.
-- [Gérer le contenu du portail](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – Cette rubrique explique comment gérer et personnaliser le contenu que vous faites apparaître dans votre portail.
-- [Éditer le CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – Cette rubrique vous aide à effectuer des personnalisations plus complexes de l’interface utilisateur (IU) de votre portail.
-- [Créer un thème pour votre portail](https://docs.microsoft.com/dynamics365/portals/create-theme) – Cette rubrique vous aide à créer un thème d’interface utilisateur pour votre portail.
-- [Créer et exposer facilement du contenu dans le portail](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) : cette rubrique vous aide à gérer les données et tables sous-jacentes que vous utilisez pour votre portail.
-- [Configurer un contact à utiliser dans un portail](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – Cette rubrique explique comment créer et personnaliser les rôles d’utilisateur et comment fonctionnent la sécurité et l’authentification dans les portails Power Apps.
-- [Configurer des notes pour les formulaires de table et les formulaires web dans les portails](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) : cette rubrique explique comment ajouter des documents et du stockage supplémentaire à votre portail.
-- [Gestion des erreurs pour le site web du portail](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – Cette rubrique explique comment afficher les journaux d’erreurs du portail et les stocker dans votre compte de stockage d’objets blob Microsoft Azure.
+- [Utiliser des modèles](/powerapps/maker/portals/work-with-templates) – Cette rubrique fournit un aperçu général du fonctionnement des portails Power Apps et de la manière d’y apporter des personnalisations simples.
+- [Gérer le contenu du portail](/dynamics365/portals/manage-portal-content) – Cette rubrique explique comment gérer et personnaliser le contenu que vous faites apparaître dans votre portail.
+- [Éditer le CSS](/powerapps/maker/portals/edit-css) – Cette rubrique vous aide à effectuer des personnalisations plus complexes de l’interface utilisateur (IU) de votre portail.
+- [Créer un thème pour votre portail](/dynamics365/portals/create-theme) – Cette rubrique vous aide à créer un thème d’interface utilisateur pour votre portail.
+- [Créer et exposer facilement du contenu dans le portail](/dynamics365/portals/create-expose-portal-content) : cette rubrique vous aide à gérer les données et tables sous-jacentes que vous utilisez pour votre portail.
+- [Configurer un contact à utiliser dans un portail](/powerapps/maker/portals/configure/configure-contacts) – Cette rubrique explique comment créer et personnaliser les rôles d’utilisateur et comment fonctionnent la sécurité et l’authentification dans les portails Power Apps.
+- [Configurer des notes pour les formulaires de table et les formulaires web dans les portails](/powerapps/maker/portals/configure-notes) : cette rubrique explique comment ajouter des documents et du stockage supplémentaire à votre portail.
+- [Gestion des erreurs pour le site web du portail](/powerapps/maker/portals/admin/view-portal-error-log) – Cette rubrique explique comment afficher les journaux d’erreurs du portail et les stocker dans votre compte de stockage d’objets blob Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Personnaliser le processus de création de commande
 
@@ -88,7 +88,7 @@ Voici les étapes standard pour soumettre une commande à partir du portail clie
 
 Pour garantir une expérience utilisateur fluide, le portail client remplit automatiquement les valeurs de plusieurs champs obligatoires. Ces valeurs sont basées sur les informations contenues dans l’enregistrement de contact du client qui soumet la commande.
 
-Pour chaque [ligne de contact](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) appartenant à un client qui utilisera le portail client pour soumettre des commandes, des valeurs doivent être spécifiées pour les champs obligatoires suivants. Sinon, des erreurs se produiront.
+Pour chaque [ligne de contact](/powerapps/maker/portals/configure/configure-contacts) appartenant à un client qui utilisera le portail client pour soumettre des commandes, des valeurs doivent être spécifiées pour les champs obligatoires suivants. Sinon, des erreurs se produiront.
 
 - **Société** – L’entité juridique à laquelle appartient la commande
 - **Client potentiel** – Le compte client associé à la commande
@@ -134,16 +134,16 @@ Pour les articles, les colonnes suivantes sont obligatoires :
 
 Vous devez vous assurer que votre portail client envoie des valeurs pour toutes ces colonnes.
 
-Si vous souhaitez ajouter des colonnes à la page, ou supprimer des colonnes, consultez [Créer ou modifier des formulaires de création rapide pour faciliter la saisie des données](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Si vous souhaitez ajouter des colonnes à la page, ou supprimer des colonnes, consultez [Créer ou modifier des formulaires de création rapide pour faciliter la saisie des données](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Si vous souhaitez modifier la façon dont les colonnes sont prédéfinies et la façon dont les valeurs sont définies lors de l’enregistrement de la page, consultez les informations suivantes dans la documentation des portails Power Apps :
 
-- [Préremplir les champs](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Définir une valeur lors de l’enregistrement](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Préremplir les champs](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Définir une valeur lors de l’enregistrement](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Personnaliser la page d’accueil
 
-Tous les contrôles du portail client sont intégrés dans les contrôles des portails Power Apps. Vous pouvez les personnaliser en suivant les étapes de [Composer une page](https://docs.microsoft.com/powerapps/maker/portals/compose-page) dans la documentation des portails Power Apps.
+Tous les contrôles du portail client sont intégrés dans les contrôles des portails Power Apps. Vous pouvez les personnaliser en suivant les étapes de [Composer une page](/powerapps/maker/portals/compose-page) dans la documentation des portails Power Apps.
 
 Le seul contrôle personnalisé inclus dans le modèle de portail client est utilisé pour créer les vignettes sur la page d’accueil.
 
@@ -151,7 +151,7 @@ Le seul contrôle personnalisé inclus dans le modèle de portail client est uti
 
 Pour modifier les vignettes, procédez comme suit.
 
-1. Ouvrez l’[Application de gestion de portail](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Ouvrez l’[Application de gestion de portail](/powerapps/maker/portals/configure/configure-portal).
 1. Dans le volet de navigation sur la gauche, sélectionnez **Modèles de page**.
 
     ![Volet de navigation de la gestion du portail](media/customer-portal-nav.png "Volet de navigation de la gestion du portail")
@@ -167,11 +167,11 @@ Pour modifier les vignettes, procédez comme suit.
 
 Pour en savoir plus sur la configuration et la personnalisation du portail client, consultez les ressources suivantes :
 
-- [Documentation des portails Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentation des portails Power Apps](/powerapps/maker/portals/overview)
 - [Documentation de la double écriture](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [À propos du cycle de vie des portails](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Mettre à niveau un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrer la configuration d’un portail](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [À propos du cycle de vie des portails](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Mettre à niveau un portail](/powerapps/maker/portals/admin/upgrade-portal)
+- [Migrer la configuration d’un portail](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gestion du cycle de vie des solutions : applications Dynamics 365 for Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

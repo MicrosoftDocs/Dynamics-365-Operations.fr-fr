@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805007"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889786"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -80,7 +80,7 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
     
 3. Sélectionnez l’option **Inclure les données de démonstration** si vous souhaitez que votre environnement inclut le même ensemble de données de démonstration que celui utilisé dans l’environnement de test de Human Resources. Les données de démonstration sont utiles pour les environnements de démonstration ou de formation à long terme, et ne doivent jamais être utilisées pour les environnements de production. Vous devez sélectionner cette option lors du déploiement initial. Vous ne pouvez pas mettre un déploiement à jour ultérieurement.
 
-4. Human Resources est toujours mis en service dans un environnement Microsoft Power Apps pour permettre l’intégration et l’extensibilité des applications Power Apps. Lisez la section « Sélectionnant d’un environnement Power Apps » de cet article avant de continuer. Si vous n’avez pas déjà un environnement Power Apps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d’administration de Power Apps. Puis suivez les étapes pour [Créer un environnement Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. Human Resources est toujours mis en service dans un environnement Microsoft Power Apps pour permettre l’intégration et l’extensibilité des applications Power Apps. Lisez la section « Sélectionnant d’un environnement Power Apps » de cet article avant de continuer. Si vous n’avez pas déjà un environnement Power Apps, sélectionnez Gérer les environnements dans LCS ou accédez au centre d’administration de Power Apps. Puis suivez les étapes pour [Créer un environnement Power Apps](/powerapps/administrator/create-environment).
 
 5. Sélectionnez l’environnement dans lequel mettre en œuvre Human Resources.
 
@@ -124,7 +124,7 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
  
 ## <a name="grant-access-to-the-environment"></a>Autoriser l’accès à l’environnement
 
-Par défaut, l’administrateur global ayant créé l’environnement y a accès. Vous devez explicitement autoriser l’accès à d’autres utilisateurs d’application. Vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans l’environnement Human Resources. L’administrateur global qui a déployé Human Resources doit également lancer Attract et Onboard pour terminer l’initialisation et activer l’accès pour les autres utilisateurs. Sinon, les autres utilisateurs ne pourront pas accéder à Attract et Onboard et recevront des erreurs de violation de l’accès. Pour plus d’informations, voir [Création de nouveaux utilisateurs](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Par défaut, l’administrateur global ayant créé l’environnement y a accès. Vous devez explicitement autoriser l’accès à d’autres utilisateurs d’application. Vous devez ajouter des utilisateurs et leur affecter les rôles appropriés dans l’environnement Human Resources. L’administrateur global qui a déployé Human Resources doit également lancer Attract et Onboard pour terminer l’initialisation et activer l’accès pour les autres utilisateurs. Sinon, les autres utilisateurs ne pourront pas accéder à Attract et Onboard et recevront des erreurs de violation de l’accès. Pour plus d’informations, voir [Création de nouveaux utilisateurs](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) et [Affecter des utilisateurs à des rôles de sécurité](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

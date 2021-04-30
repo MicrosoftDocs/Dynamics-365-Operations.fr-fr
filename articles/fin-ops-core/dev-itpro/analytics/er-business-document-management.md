@@ -2,7 +2,7 @@
 title: Vue d’ensemble du module Gestion de document commercial
 description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité Gestion de document commercial de la structure de gestion des états électroniques (ER).
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749535"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891303"
 ---
 # <a name="business-document-management-overview"></a>Vue d’ensemble du module Gestion de document commercial
 
@@ -45,9 +45,9 @@ Pour utiliser le module Gestion de document commercial pour modifier les modèle
 
 ## <a name="business-document-availability"></a>Disponibilité de la gestion de document commercial
 
-Pour une liste complète de tous les états prévus pour le lancement d’octobre 2019, voir [Génération d’états de documents commerciaux configurables dans Word et Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Pour une liste complète de tous les états prévus pour le lancement d’octobre 2019, voir [Génération d’états de documents commerciaux configurables dans Word et Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Pour une liste complète de tous les états prévus pour le lancement d’octobre 2020, voir [Documents commerciaux configurables – Modèles Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Pour une liste complète de tous les états prévus pour le lancement d’octobre 2020, voir [Documents commerciaux configurables – Modèles Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 D’autres états seront disponibles dans les prochaines versions. Des notifications spécifiques sur les états supplémentaires seront envoyées séparément. Pour savoir comment consulter la liste des états actuellement disponibles, consultez la section [Liste des configurations de gestion des états électroniques qui ont été publiées dans Finance pour prendre en charge les documents commerciaux configurables](#list-of-configurations-cbd) ci-après.
 
@@ -272,7 +272,23 @@ L’option **Modifier le modèle** est disponible pour le modèle sélectionné.
 
 ![Confirmer le début du processus de modification pour créer un modèle](./media/BDM-Overview-EditingTemplate4.png)
 
+S'il n'y a aucun fournisseur, il vous sera proposé d'en créer un. S'il n'y a pas de fournisseur actif, il vous sera proposé d'en choisir un pour l'activer.
+
+Pour créer un fournisseur, modifiez le nom du fournisseur dans le champ **Nom**, mettez à jour l'adresse Internet du nouveau fournisseur dans le champ **Adresse Internet** et sélectionnez **OK** pour confirmer.
+
+   ![Créer un nouveau fournisseur dans BDM](./media/bdm_create_provider.png)
+
+Pour activer le fournisseur existant, choisissez le nom du fournisseur dans le champ **Fournisseur de configuration** et sélectionnez **OK** pour définir le fournisseur comme actif.
+
+   ![Activer un fournisseur dans BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Chaque modèle BDM fait référence au fournisseur en tant que l’auteur de la configuration. c'est pourquoi un fournisseur actif est requis pour le modèle.
+
+
 L’option **Nouveau document** est toujours disponible pour un modèle dans une configuration au format ER fournie par un fournisseur actuel et un autre fournisseur (Microsoft dans cet exemple) qui n’a aucune révision. Le modèle modifié est ensuite stocké dans une nouvelle configuration de format ER qui est automatiquement générée.
+
+
 
 ### <a name="start-editing-a-template"></a>Commencer à modifier un modèle
 
@@ -419,7 +435,7 @@ Vous êtes probablement connecté à l’instance actuelle de l’application du
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Liste des configurations de gestion des états électroniques qui ont été publiées dans Finance pour prendre en charge les documents commerciaux configurables
 
-La [liste](general-electronic-reporting.md#list-of-configurations) des configurations de gestion des états électroniques pour Finance est constamment mis à jour. Ouvrez le [référentiel global](er-download-configurations-global-repo.md) pour consulter la liste des configurations de gestion des états électroniques actuellement prises en charge. Vous pouvez [filtrer](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) le référentiel global pour examiner la liste des configurations de gestion des états électroniques utilisées pour prendre en charge les documents commerciaux configurables.
+La [liste](general-electronic-reporting.md#list-of-configurations) des configurations de gestion des états électroniques pour Finance est constamment mis à jour. Ouvrez le [référentiel global](er-download-configurations-global-repo.md) pour consulter la liste des configurations de gestion des états électroniques actuellement prises en charge. Vous pouvez [filtrer](../../../finance/localizations/enhanced-filtering-global-repo.md) le référentiel global pour examiner la liste des configurations de gestion des états électroniques utilisées pour prendre en charge les documents commerciaux configurables.
 
 ![Filtrage du contenu du référentiel global sur la page Référentiel de configuration](./media/bdm-overview-filterglobalrepo.gif)
 

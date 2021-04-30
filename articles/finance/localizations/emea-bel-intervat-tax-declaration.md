@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 7dda9ae45966c166468d87a7816077c385166856
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a8fa56d705d4b4ecb936fd2f49bc773509e38dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839902"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894860"
 ---
 # <a name="intervat-tax-declaration"></a>Déclaration de taxe INTERVAT
 
@@ -159,8 +159,8 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>01</p>
 </td>
 <td width="71%">
-<p>Fournitures et services soumis au taux de taxe de 6 %.</p>
-<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 6 %.</p>
+<p>Fournitures et services soumis au taux de taxe de 6 %%.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 6 %%.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -171,8 +171,8 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>02</p>
 </td>
 <td width="71%">
-<p>Fournitures et services soumis au taux de taxe de 12 %.</p>
-<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 12 %.</p>
+<p>Fournitures et services soumis au taux de taxe de 12 %%.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 12 %%.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -183,8 +183,8 @@ Si les utilisateurs sont autorisés à corriger manuellement un code déclaratio
 <p>03</p>
 </td>
 <td width="71%">
-<p>Fournitures et services soumis au taux de taxe de 21 %.</p>
-<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 21 %.</p>
+<p>Fournitures et services soumis au taux de taxe de 21 %%.</p>
+<p>Livraison d’un produit ou de transactions de service soumis au taux de taxe de 21 %%.</p>
 </td>
 <td width="10%">
 <p>Base</p>
@@ -593,7 +593,7 @@ Dans [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2),
 
 -   Format INTERVAT (BE)
 
-Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
+Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 
 ## <a name="additional-sales-tax-report-boxes"></a>Zones d’état de taxes supplémentaires
 
@@ -715,12 +715,12 @@ L’exemple suivant montre comment paramétrer des codes taxe et des codes décl
 
 | **Code taxe** | **Pourcentage** | **Description**                                                                      |
 |--------------------|----------------|--------------------------------------------------------------------------------------|
-| BE21               | 21             | Ventes et achats nationaux à un taux de 21 %.                                |
-| BE12               | 12             | Ventes et achats nationaux à un taux de 12 %.                                |
-| BE6                | 6              | Ventes et achats nationaux à un taux de 6 %.                                 |
-| BEEU21             | 21             | Achats dans l’UE à un taux de 21 % lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
-| BEEU12             | 12             | Achats dans l’UE à un taux de 12 % lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
-| BEEU6              | 6              | Achats dans l’UE à un taux de 6 % lorsque l’option **Taxe d’utilisation** est définie sur **Oui**.  |
+| BE21               | 21             | Ventes et achats nationaux à un taux de 21 %%.                                |
+| BE12               | 12             | Ventes et achats nationaux à un taux de 12 %%.                                |
+| BE6                | 6              | Ventes et achats nationaux à un taux de 6 %%.                                 |
+| BEEU21             | 21             | Achats dans l’UE à un taux de 21 %% lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
+| BEEU12             | 12             | Achats dans l’UE à un taux de 12 %% lorsque l’option **Taxe d’utilisation** est définie sur **Oui**. |
+| BEEU6              | 6              | Achats dans l’UE à un taux de 6 %% lorsque l’option **Taxe d’utilisation** est définie sur **Oui**.  |
 | BEEUS              | 21             | Ventes dans l’UE où l’option **Exonéré** est définie sur **Oui**.                              |
 
 5.  Sur la page **Codes taxe**, dans l’organisateur **Paramétrage d’état**, affectez des codes déclaration aux codes taxe.

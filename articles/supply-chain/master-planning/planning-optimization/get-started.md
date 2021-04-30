@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808062"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907665"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
 [!include [banner](../../includes/banner.md)]
 
-Comme [annoncé précédemment](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), une optimisation de la planification est planifiée pour remplacer le moteur de planification principal intégré existant.
+Comme [annoncé précédemment](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), une optimisation de la planification est planifiée pour remplacer le moteur de planification principal intégré existant.
 
 Si vous utilisez actuellement le moteur de planification principal intégré, vous devez commencer à planifier votre migration vers l’optimisation de la planification. Il est important de démarrer immédiatement le processus de migration car vos opérations peuvent être affectées lorsque l’obsolescence est appliquée. Pour éviter les problèmes de dernière minute lorsque l’obsolescence est appliquée, nous vous encourageons vivement à terminer la migration avant le 1er décembre 2020. 
 

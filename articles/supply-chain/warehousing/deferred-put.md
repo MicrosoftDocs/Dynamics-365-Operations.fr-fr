@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838320"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908009"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Traitement différé du travail d’entrepôt
 
@@ -28,7 +28,7 @@ Cette rubrique décrit la fonctionnalité qui rend le traitement différé des o
 
 La fonctionnalité de traitement différé permet aux collaborateurs de l’entrepôt de continuer à effectuer d’autres tâches pendant que l’opération de vente est traitée en arrière-plan. Le traitement différé est utile lorsque de nombreuses lignes de travail doivent être traitées et que le collaborateur peut laisser ce travail être traité de manière asynchrone. Il est également utile lorsque le serveur peut augmenter de façon ponctuelle ou imprévue le temps de traitement, et que le temps de traitement accru peut affecter la productivité de l’utilisateur.
 
-Le traitement en arrière-plan est réalisé à l’aide de l’environnement SysOperation. Pour plus d’informations, voir [Vue d’ensemble de l’environnement SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Le traitement en arrière-plan est réalisé à l’aide de l’environnement SysOperation. Pour plus d’informations, voir [Vue d’ensemble de l’environnement SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Configuration des stratégies de traitement du travail
 
@@ -90,7 +90,7 @@ Vous pouvez configurer l’option de menu de l’appareil mobile de sorte que la
 
 ## <a name="restrictions-when-the-deferred-put-processing-isnt-applied"></a>Restrictions lorsque le traitement de vente différé n’est pas appliqué
 
-Il existe plusieurs scénarios dans lesquels le traitement différé de la vente n’est pas appliqué même si la stratégie est configurée. Voici quelques exemples :
+Il existe plusieurs scénarios dans lesquels le traitement différé de la vente n'est pas appliqué même si la stratégie est configurée. Voici quelques exemples :
 
 - Le travail est exécuté manuellement.
 - Le travail est effectué à l’aide de l’exécution automatique.

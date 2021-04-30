@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795139"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892751"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Préparation au lancement de Human Resources
 
@@ -43,7 +43,7 @@ Le tableau suivant répertorie toutes les étapes du processus, la durée prévu
 | 2 | Compléter et envoyer la liste de contrôle | Une fois que le test d’acceptation par l’utilisateur (UAT) est terminé | Partenaire / Client | Suivez les instructions fournies dans [Évaluation du lancement FastTrack](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Évaluation de projet (FastTrack) | Architecte FastTrack * | L’architecte effectue une évaluation après réception de la liste de contrôle et continue l’examen jusqu’à ce que les questions soient clarifiées et que des mesures d’atténuation soient en place, le cas échéant. |
 | 4 | Atelier de projet (FastTrack) | Architecte FastTrack * | |
-| 5 | Importations de paquets de données | Dépend du projet | Partenaire / Client | Suivez les instructions de [Vue d’ensemble de la gestion des données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Importations de paquets de données | Dépend du projet | Partenaire / Client | Suivez les instructions de [Vue d’ensemble de la gestion des données](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Production prête | Une fois toutes les étapes précédentes terminées | Partenaire / Client | Le partenaire / client peut prendre le contrôle de l’environnement de production.|
 | 7 | Activités de basculement | Dépend du projet | Partenaire / Client | |
 | 8 | Lancement | Dépend du projet | Client | |
@@ -66,7 +66,7 @@ Pendant la phase UAT, vous devez tester tous les processus métier que vous avez
 
 - Nous vous recommandons de démarrer le processus UAT avec un tout nouvel environnement dans lequel sont copiées les données de votre configuration GOLD avant le début du processus UAT. Nous vous recommandons d’utiliser l’environnement de production comme environnement GOLD jusqu’à la mise en service, moment auquel l’environnement passe en production.
 - Les cas de test couvrent l’ensemble des exigences. 
-- Testez à l’aide de données migrées. Ces données doivent inclure des données de base telles que les travailleurs, les emplois et les postes. Incluez également les soldes d’ouverture, comme les congés et les absences. Enfin, incluez les transactions en cours, telles que les adhésions aux avantages actuels. Effectuez des tests avec tous les types de données, même si le jeu de données n’est pas finalisé. 
+- Testez à l’aide de données migrées. Elles doivent inclure des données telles que les employés, les emplois et les postes. Incluez également les soldes d’ouverture, comme les congés et les absences. Enfin, incluez les transactions en cours, telles que les adhésions aux avantages actuels. Effectuez des tests avec tous les types de données, même si le jeu de données n’est pas finalisé. 
 - Testez à l’aide des rôles de sécurité appropriés (rôles par défaut et rôles personnalisés) attribués aux utilisateurs. 
 - Assurez-vous que la solution est conforme à toutes les exigences réglementaires spécifiques à l’entreprise et au secteur. 
 - Documentez toutes les fonctionnalités et obtenez l’approbation et la validation du client. 
@@ -86,7 +86,7 @@ Avant la mise en service, vous devez effectuer une mise en service fictive pour 
 
 ## <a name="fasttrack-go-live-assessment"></a>Évaluation du lancement FastTrack
 
-Les clients éligibles à FastTrack et engagés avec un architecte de solutions FastTrack effectueront une évaluation du lancement avec Microsoft FastTrack. Pour plus d’informations, voir [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Les clients éligibles à FastTrack et engagés avec un architecte de solutions FastTrack effectueront une évaluation du lancement avec Microsoft FastTrack. Pour plus d’informations, voir [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Environ huit semaines avant le lancement, l’équipe FastTrack vous demandera de remplir une [Liste de contrôle de lancement](https://go.microsoft.com/fwlink/?linkid=2146013).
 

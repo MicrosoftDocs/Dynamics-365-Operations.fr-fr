@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809780"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899093"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail d’exécution de la fabrication pour les unités de mise à l’échelle du cloud et d’Edge
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> La charge de travail d'exécution de la fabrication est disponible en version préliminaire pour le moment.
 > Certaines fonctionnalités d’entreprise ne sont pas entièrement prises en charge dans la version préliminaire publique lorsque les des unités d’échelle de charge de travail sont utilisées.
 
-Dans l’exécution de la fabrication, les unités à l’échelle du cloud et de Edge offrent les capacités suivantes, même lorsque les unités de Edge ne sont pas connectées au hub :
+Lors de l'exécution de la fabrication, les unités d'échelle offrent les capacités suivantes :
 
 - Les opérateurs de machines et les superviseurs d’atelier peuvent accéder au plan de production opérationnel.
 - Les opérateurs de machine peuvent maintenir le plan à jour en exécutant des tâches de fabrication discrètes et de processus.
@@ -108,5 +109,6 @@ Pour consulter l’historique des travaux de fabrication qui ont été traités 
 
 La tâche _Hub de fabrication pour le processeur de messages de l’unité d’échelle_ traite les données du hub vers l’unité d’échelle. Ce travail est automatiquement démarré lorsque la charge de travail d’exécution de fabrication est déployée. Cependant, vous pouvez l’exécuter manuellement à tout moment en accédant à **Contrôle de production \> Tâches périodiques \> Gestion de la charge de travail backoffice \> Processeur de message du hub de fabrication vers l’unité d’échelle**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

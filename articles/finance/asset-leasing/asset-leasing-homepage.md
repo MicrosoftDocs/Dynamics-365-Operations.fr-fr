@@ -2,11 +2,11 @@
 title: Page d’accueil de la location d’actifs
 description: Cette rubrique fournit une vue d’ensemble de la documentation sur la location d’actifs et des liens vers des rubriques spécifiques.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816146"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898108"
 ---
 # <a name="asset-leasing-home-page"></a>Page d’accueil de la location d’actifs
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816146"
 
 Cette rubrique répertorie les rubriques d’aide disponibles pour la location d’actifs et inclut des liens vers des rubriques spécifiques. 
 
-La location d’actifs est une fonctionnalité avancée de gestion, de suivi et d’automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d’actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d’actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu’à la dépréciation et la résiliation du bail.  
+La location d’actifs est une fonctionnalité avancée de gestion, de suivi et d’automatisation des transactions financières pour les actifs loués dans Microsoft Dynamics 365 Finance. La fonctionnalité de location d’actifs est conforme aux normes comptables internationales (IFRS 16) et aux normes US GAAP (ASC 842). La fonctionnalité de location d’actifs capture et traite les informations sur les baux et contribue à générer les écritures de journal tout au long du cycle de vie du bail, de la comptabilisation initiale aux écritures de journal mensuelles jusqu’à la dépréciation et la résiliation du bail.
+
+Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser l’espace de travail **gestion des fonctionnalités** pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, recherchez et sélectionnez la fonction intitulée **Location d'actifs**, puis sélectionnez le bouton **Activer maintenant**.
 
 ## <a name="asset-leasing-topics"></a>Rubriques sur la location d’actifs
 La rubrique suivante est disponible pour vous aider à configurer et à utiliser la location d’actifs. 
@@ -82,7 +84,7 @@ Cette rubrique décrit les états disponibles pour les locations d’actifs.
 
 ### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez aux [Programmes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
+Accédez aux [Programmes de publication de Microsoft Dynamics 365](/dynamics365/release-plans/) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
 
 ### <a name="blogs"></a>Blogs
 

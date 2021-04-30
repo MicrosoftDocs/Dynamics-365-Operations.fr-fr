@@ -2,11 +2,11 @@
 title: Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
 description: Cette rubrique explique comment créer l’écriture de journal pour l’amortissement requis pour les contrats de location comptabilisés dans le bilan d’une organisation.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseAssetSchedule
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c64f19d4cf334a6cbcacaaa3753dbafe8cbf1ffe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba26e83202163eb8e750705eb1bbb1c97cee813e
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823069"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881492"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Enregistrer l’amortissement des droits d’utilisation de l’actif (version préliminaire)
 
@@ -59,9 +59,9 @@ Comme mentionné précédemment, les frais de location linéaires correspondent 
 
 | Mois | Coût de location linéaire | Dépenses d’intérêts                        | Calcul de la charge d’amortissement du droit d’utilisation de l’actif |
 |-------|--------------------------|-----------------------------------------|-----------------------------------------------|
-| 1     | (24 000 ÷ 24) = 1 000,00 | (22 888,87 – 1 000) × (5 % ÷ 12) = 91,20 | 1 000 – 91,20 = 908,80                        |
-| 2     | (24 000 ÷ 24) = 1 000,00 | (21 980,08 – 1 000) × (5 % ÷ 12) = 87,42 | 1 000 – 87,42 = 912,58                        |
-| 3     | (24 000 ÷ 24) = 1 000,00 | (21 067,49 – 1 000) × (5 % ÷ 12) = 83,62 | 1 000 – 83,62 = 916,39                        |
+| 1     | (24 000 ÷ 24) = 1 000,00 | (22 888,87 – 1 000) × (5 %% ÷ 12) = 91,20 | 1 000 – 91,20 = 908,80                        |
+| 2     | (24 000 ÷ 24) = 1 000,00 | (21 980,08 – 1 000) × (5 %% ÷ 12) = 87,42 | 1 000 – 87,42 = 912,58                        |
+| 3     | (24 000 ÷ 24) = 1 000,00 | (21 067,49 – 1 000) × (5 %% ÷ 12) = 83,62 | 1 000 – 83,62 = 916,39                        |
 
 > [!NOTE]
 > Selon l’ASC 842, l’amortissement du droit d’utilisation de l’actif pour une location simple est classé comme une charge de location dans le compte de résultat. Pour la visibilité, la location d’actifs décrit l’écriture comme l’amortissement du droit d’utilisation de l’actif. Cependant, l’écriture de débit doit être affectée à un compte de charges de location simple et l’écriture de crédit doit être affectée directement au droit d’utilisation de l’actif pour la location simple. Néanmoins, dans les paramètres de location, vous pouvez spécifier que les écritures de crédit doivent être effectuées sur un compte d’amortissement cumulé pour les droits d’utilisation de l’actif opérationnels.

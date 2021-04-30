@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805104"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890050"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurer des tables virtuelles Dataverse
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources est une source de données virtuelle dans Microsoft
 Pour activer les opérations CRUD sur les entités Ressources humaines à partir de Dataverse, vous devez rendre les entités disponibles en tant que tables virtuelles dans Dataverse. Cela vous permet d’effectuer des opérations CRUD à partir de Dataverse et Microsoft Power Platform sur les données contenues dans les ressources humaines. Les opérations prennent également en charge les validations complètes de la logique métier de Human Resources pour garantir l’intégrité des données lors de l’écriture des données dans les entités.
 
 > [!NOTE]
-> Les entités Human Resources correspondent aux tables Dataverse. Pour plus d’informations sur Dataverse (auparavant Common Data Service) et les mises à jour terminologiques, voir [Qu’est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Les entités Human Resources correspondent aux tables Dataverse. Pour plus d’informations sur Dataverse (auparavant Common Data Service) et les mises à jour terminologiques, voir [Qu’est-ce que Microsoft Dataverse ?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Tables virtuelles disponibles pour Human Resources
 
@@ -51,7 +51,7 @@ Les tables virtuelles pour Human Resources ne sont pas les mêmes que les tables
 Les tables natives de Human Resources sont générées séparément et gérées dans la solution HCM Common dans Dataverse. Avec les tables natives, les données sont stockées dans Dataverse et elles nécessitent une synchronisation avec la base de données applicative de Human Resources.
 
 > [!NOTE]
-> Pour obtenir la liste des tables Dataverse natives pour Human Resources, voir [Tables Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Pour obtenir la liste des tables Dataverse natives pour Human Resources, voir [Tables Dataverse](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Paramétrage
 
@@ -71,7 +71,7 @@ Pour plus d’informations sur l’activation et la désactivation des fonctionn
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Enregistrez l’application dans Microsoft Azure
 
-Vous devez inscrire votre instance de Human Resources dans le portail Azure afin que la plateforme d’identité Microsoft puisse fournir des services d’authentification et d’autorisation pour l’application et les utilisateurs. Pour plus d’informations sur l’enregistrement des applications dans Azure, voir [Démarrage rapide : enregistrer une application avec la plate-forme d’identité Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Vous devez inscrire votre instance de Human Resources dans le portail Azure afin que la plateforme d’identité Microsoft puisse fournir des services d’authentification et d’autorisation pour l’application et les utilisateurs. Pour plus d’informations sur l’enregistrement des applications dans Azure, voir [Démarrage rapide : enregistrer une application avec la plate-forme d’identité Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
 1. Ouvrez le portail [Microsoft Azure](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ Vous devez inscrire votre instance de Human Resources dans le portail Azure afin
 
 10. Fournissez une description, sélectionnez une durée et sélectionnez **Ajouter**.
 
-11. Enregistrez la valeur du secret. Vous devez saisir ces informations lorsque vous [Configurez la source de données de table virtuelle](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Enregistrez la valeur du secret à partir de la propriété **Valeur** de la table. Vous devez saisir ces informations lorsque vous [Configurez la source de données de table virtuelle](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Assurez-vous de prendre note de la valeur du secret à ce stade. Le secret n’est plus jamais affiché une fois que vous avez quitté cette page.
@@ -215,12 +215,11 @@ Le volet coulissant affiche les résultats d’exécution les plus récents du p
 
 ## <a name="see-also"></a>Voir également :
 
-[Qu’est-ce que Dataverse ?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Tables dans Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Vue d’ensemble des relations de table](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Créer et modifier des tables virtuelles qui contiennent des données provenant d’une source de données externe](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Que sont les portails Power Apps ?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Présentation de la création d’applications dans Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[Qu’est-ce que Dataverse ?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tables dans Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Vue d’ensemble des relations de table](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Créer et modifier des tables virtuelles qui contiennent des données provenant d’une source de données externe](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Que sont les portails Power Apps ?](/powerapps/maker/portals/overview)<br>
+[Présentation de la création d’applications dans Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

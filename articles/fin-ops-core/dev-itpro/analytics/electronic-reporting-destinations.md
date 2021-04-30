@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751314"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893602"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -57,7 +57,7 @@ Le comportement par défaut d’une configuration au format ER dépend du type d
 
 Dans la boîte de dialogue **État de déclaration d’échanges de biens**, dans le raccourci **Exécuter en arrière-plan**, si vous définissez l’option **Traitement par lots** sur **Non**, un format ER est exécuté immédiatement en mode interactif. Une fois cette exécution terminée, un document sortant généré est mis à disposition pour téléchargement.
 
-Si vous définissez l’option **Traitement par lots** sur **Oui**, un format ER est exécuté en mode [Traitement par lots](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Le traitement par lots approprié est créé, en fonction des paramètres que vous spécifiez dans l’onglet **Exécuter à l’arrière-plan** de la boîte de dialogue **Paramètres ER**.
+Si vous définissez l’option **Traitement par lots** sur **Oui**, un format ER est exécuté en mode [Traitement par lots](../sysadmin/batch-processing-overview.md). Le traitement par lots approprié est créé, en fonction des paramètres que vous spécifiez dans l’onglet **Exécuter à l’arrière-plan** de la boîte de dialogue **Paramètres ER**.
 
 > [!NOTE]
 > La description de travail vous informe de l’exécution d’une mise en correspondance des formats de gestion des états électroniques. Il contient également le nom du composant de gestion des états électroniques exécuté.
@@ -70,7 +70,7 @@ Vous pouvez trouver des informations sur cette tâche à plusieurs endroits :
 - Accédez à **Administration de l’organisation** \> **Rapports électroniques** \> **Tâches d’états électroniques** pour vérifier l’état du travail planifié et les résultats d’exécution du travail terminé. Une fois l’exécution de la tâche terminée, sélectionnez **Afficher les fichiers** dans la page **Tâches d’états électroniques** pour obtenir un document sortant généré.
 
     > [!NOTE]
-    > Ce document est stocké en tant que pièce jointe de l’enregistrement de tâche actuel et est contrôlé par la structure [Gestion des documents](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Le [Type de document](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) qui est utilisé pour stocker les artefacts ER de ce type est configuré dans les [Paramètres ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Ce document est stocké en tant que pièce jointe de l’enregistrement de tâche actuel et est contrôlé par la structure [Gestion des documents](../../fin-ops/organization-administration/configure-document-management.md). Le [Type de document](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) qui est utilisé pour stocker les artefacts ER de ce type est configuré dans les [Paramètres ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - Dans la page **Tâches d’états électroniques**, sélectionnez **Afficher les fichiers** pour afficher la liste des erreurs et avertissements générés lors de l’exécution des tâches.
 

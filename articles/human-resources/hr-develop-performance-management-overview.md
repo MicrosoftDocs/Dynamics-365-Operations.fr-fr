@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d5051bbf9e550add6a0cfc5e23f3aeb7b379ef03
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9a285e3c60df713ceaee1fae72b2a1d54fa5c431
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789634"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890745"
 ---
 # <a name="performance-management"></a>Gestion des performances
 
@@ -93,7 +93,7 @@ Vous pouvez également utiliser la section **Compétences** pour présenter, exa
 
 Vous pouvez créer des révisions basées sur des modèles que vous avez créés. Par exemple, vous pouvez avoir un modèle pour les réunions individuelles, les programmes de perfectionnement ou les révisions périodiques. Vous pouvez sélectionner le modèle lorsque vous créez une révision.
 
-Pour imprimer des avis, cliquez sur le bouton **Imprimer l’avis**. Si vous ne voyez pas le bouton sur la page **Avis**, assurez-vous que vous avez activé la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**. Pour plus d’informations sur la gestion des fonctions, voir [Présentation de la gestion des fonctions](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Pour imprimer des avis, cliquez sur le bouton **Imprimer l’avis**. Si vous ne voyez pas le bouton sur la page **Avis**, assurez-vous que vous avez activé la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**. Pour plus d’informations sur la gestion des fonctions, voir [Présentation de la gestion des fonctions](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 > [!NOTE]
 > La possibilité d’imprimer des évaluations de performances n’est disponible que dans Human Resources. Elle n’est pas dans Dynamics 365 Finance.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833855"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909473"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Coût au débarquement et gestion du transport
 
@@ -51,8 +51,8 @@ TMS et Coût au débarquement ne partagent pas les données de référence pour 
 
 Les rapports suivants ne fonctionnent pas avec la fonction Marchandises en transit fournie par le coût au débarquement :
 
-- [Rapport Totaux des marchandises en transit intersociétés](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Rapport Totaux des marchandises en transit intersociétés](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Rapport Totaux des marchandises en transit intersociétés](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Rapport Totaux des marchandises en transit intersociétés](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Ces rapports supposent que les marchandises sont mises en transit dès que vous émettez un bon de livraison et qu’elles sont prises en stock dès le transit dès leur réception. Cependant, les marchandises en transit ne sont pas traitées de cette manière. Par conséquent, si vous utilisez ensemble les marchandises en transit et les fonctions intersociétés, les résultats de ces deux rapports seront incorrects.
 

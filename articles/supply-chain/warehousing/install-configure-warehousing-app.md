@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835562"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909377"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installer et connecter l’application d’entreposage
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835562"
 > Cette rubrique décrit comment configurer l’ancienne application d’entrepôt (qui est désormais obsolète). Si vous recherchez des informations sur la configuration de la nouvelle application mobile Gestion des entrepôts, voir [Installer et connecter l’application mobile Gestion des entrepôts](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Cette rubrique décrit comment configurer l’application d’entrepôt pour les déploiements dans le cloud. Si vous recherchez des informations sur la configuration de l’application d’entrepôt pour les déploiements sur site, voir [Entreposage pour les déploiements locaux](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Cette rubrique décrit comment configurer l’application d’entrepôt pour les déploiements dans le cloud. Si vous recherchez des informations sur la configuration de l’application d’entrepôt pour les déploiements sur site, voir [Entreposage pour les déploiements locaux](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 L’application d’entrepôt est disponible sur Google Play Store et Microsoft Store. Elle est fournie en tant que composant autonome. Par conséquent, vous devez la télécharger sur chaque appareil, puis la configurer pour vous connecter à votre environnement Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,7 +54,7 @@ Utilisez l’un des liens suivants pour télécharger l’application :
 - **Windows (UWP) :** [Dynamics 365 for Finance and Operations - Warehousing sur Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android :** [Warehousing - Dynamics 365 sur Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Pour les petits déploiements, vous souhaiterez peut-être installer l’application à partir du magasin approprié sur chaque appareil, puis configurer manuellement la connexion aux environnements que vous utilisez. Cependant, dans la version 1.7.0.0 et les versions ultérieures de l’application d’entrepôt, vous pouvez également automatiser le déploiement et/ou la configuration de l’application. Cette approche peut s’avérer pratique si vous gérez de nombreux appareils et si vous utilisez une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Pour plus d’informations sur l’utilisation d’Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Pour les petits déploiements, vous souhaiterez peut-être installer l’application à partir du magasin approprié sur chaque appareil, puis configurer manuellement la connexion aux environnements que vous utilisez. Cependant, dans la version 1.7.0.0 et les versions ultérieures de l’application d’entrepôt, vous pouvez également automatiser le déploiement et/ou la configuration de l’application. Cette approche peut s’avérer pratique si vous gérez de nombreux appareils et si vous utilisez une solution de gestion des appareils mobiles et de gestion des applications mobiles telle que [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Pour plus d’informations sur l’utilisation d’Intune pour ajouter des applications, consultez [Ajouter des applications à Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Créer une application de service Web dans Azure Active Directory
 
@@ -89,11 +89,11 @@ Pour permettre à l’application d’entrepôt d’interagir avec un serveur Su
 
 Pour plus d’informations sur la configuration des applications de service Web dans Azure AD, consultez les ressources suivantes :
 
-- Pour obtenir des instructions qui montrent comment utiliser Windows PowerShell pour configurer des applications de service Web dans Azure AD, voir [Comment : Utiliser Azure PowerShell pour créer un principal de service avec un certificat](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Pour obtenir des instructions qui montrent comment utiliser Windows PowerShell pour configurer des applications de service Web dans Azure AD, voir [Comment : Utiliser Azure PowerShell pour créer un principal de service avec un certificat](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Pour plus de détails sur la création manuelle d’une application de service Web dans Azure AD, consultez les rubriques suivantes :
 
-    - [Démarrage rapide : Enregistrer une application avec la plateforme d’identités Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Comment : Utiliser le portail pour créer une application Azure AD et un principal de service qui peut accéder aux ressources](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Démarrage rapide : Enregistrer une application avec la plateforme d’identités Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Comment : Utiliser le portail pour créer une application Azure AD et un principal de service qui peut accéder aux ressources](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Créer et configurer un compte d’utilisateur dans Supply Chain Management
 
@@ -121,7 +121,7 @@ L’authentification avec Azure AD fournit un moyen sécurisé de connecter un a
 
 Les certificats peuvent être utilisés comme secrets pour prouver l’identité de l’application lorsqu’un jeton est demandé. La partie publique du certificat est téléchargée dans l’inscription de l’application dans le portail Azure, tandis que le certificat complet doit être déployé sur chaque appareil sur lequel l’application d’entrepôt est installée. Votre organisation est responsable de la gestion du certificat en termes de rotation, etc. Vous pouvez utiliser des certificats auto-signés, mais vous devez toujours utiliser des certificats non exportables.
 
-Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l’application d’entrepôt. Pour plus d’informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l’authentification dans Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Vous devez rendre le certificat disponible localement sur chaque appareil sur lequel vous exécutez l’application d’entrepôt. Pour plus d’informations sur la gestion des certificats pour les appareils contrôlés par Intune si vous utilisez Intune, consultez [Utiliser des certificats pour l’authentification dans Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurer l’application en important des paramètres de connexion
 

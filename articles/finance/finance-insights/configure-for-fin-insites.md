@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818797"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908828"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Configuration de Finance Insights (version préliminaire)
 
@@ -69,7 +69,7 @@ Vous pouvez effectuer les étapes de configuration manuelle suivantes, ou accél
     13. Sélectionnez **Ressources \> Tous les anciens paramètres**.
     14. Dans la barre de navigation supérieure, sélectionnez **Paramètres**, puis **Personnalisations**.
     15. Sélectionnez **Ressources du développeur**.
-    16. Définissez le champ **ID d’informations de référence d’instance** sur la valeur d’ID d’organisation Dataverse que vous avez notée précédemment.
+    16. Copiez la valeur de l'**ID d'organisation Dataverse**.
     17. Dans la barre d’adresse du navigateur, notez l’URL de l’organisation Dataverse. Par exemple, l’URL peut être `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Si vous prévoyez d’utiliser la fonctionnalité Prévisions de flux de trésorerie ou Prévisions budgétaires, procédez comme suit pour mettre à jour la limite d’annotation pour votre organisation à au moins 50 mégaoctets (Mo) :
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Utiliser un script de configuration Windows PowerShell](#tab/use-a-powershell-script)
 
-Un script Windows PowerShell a été fourni, afin que vous puissiez facilement configurer les ressources Azure décrites dans [Configurer l’exportation vers Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Si vous préférez effectuer une configuration manuelle, ignorez cette procédure et continuez avec la procédure dans la section [Configuration manuelle](#manual-setup).
+Un script Windows PowerShell a été fourni, afin que vous puissiez facilement configurer les ressources Azure décrites dans [Configurer l’exportation vers Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Si vous préférez effectuer une configuration manuelle, ignorez cette procédure et continuez avec la procédure dans la section [Configuration manuelle](#manual-setup).
 
 > [!NOTE]
 > Pour exécuter le script PowerShell, procédez comme suit : L’option « Essayer » d’Azure CLI, ou l’exécution du script sur votre ordinateur risque de ne pas fonctionner.
 
-Suivez ces étapes pour configurer Azure à l’aide du script Windows PowerShell. Vous devez disposer des droits pour créer un groupe de ressources Azure, des ressources Azure et une application Azure AD. Pour plus d’informations sur les autorisations requises, voir [Vérifier les autorisations Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Suivez ces étapes pour configurer Azure à l’aide du script Windows PowerShell. Vous devez disposer des droits pour créer un groupe de ressources Azure, des ressources Azure et une application Azure AD. Pour plus d’informations sur les autorisations requises, voir [Vérifier les autorisations Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. Dans le [portail Azure](https://portal.azure.com), accédez à votre abonnement Azure cible. Sélectionnez le bouton **Cloud Shell** à droite du champ **Recherche**.
 2. Sélectionnez **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Configurer le magasin des entités
 
-Suivez ces étapes pour configurer le magasin des entités dans votre environnement Finance.
-
-1. Accédez à **Administration système \> Paramétrage \> Paramètres système \> Connexions des données**.
-2. Définissez l’option **Activer l’intégration de Data Lake** sur **Oui**.
-3. Définissez les champs Key Vault suivants :
-
-    - **ID de l’application (client)**  : saisissez l’ID client d’application que vous avez créé précédemment.
-    - **Secret d’application** : entrez le secret que vous avez enregistré pour l’application que vous avez créée précédemment.
-    - **Nom DNS** : vous pouvez trouver le nom DNS (Domain Name System) sur la page des détails de l’application que vous avez créée précédemment.
-    - **Nom secret** : saisissez **storage-account-connection-string**.
 
 ## <a name="configure-the-data-lake"></a>Configurer le lac de données
 
@@ -991,6 +980,19 @@ Le complément sera installé dans quelques minutes.
     | ID de locataire CDS (ID d’annuaire d’AAD)               | L’ID de locataire de l’instance Dataverse. Pour trouver cette valeur, ouvrez le [Portail Azure](https://portal.azure.com), accédez à **Azure Active Directory**, et copiez la valeur **ID du locataire**. |
     | Fournissez l’ID objet utilisateur qui dispose du rôle d’administrateur système | ID d’objet d’utilisateur Azure AD dans Dataverse. Cet utilisateur doit être un administrateur système de l’instance Dataverse. Pour trouver cette valeur, ouvrez le [portail Azure](https://portal.azure.com), accédez à **Azure Active Directory\> Utilisateurs**, sélectionnez l’utilisateur, puis, dans la section **Identité**, copiez la valeur **ID d’objet**. |
     | S’agit-il de l’environnement CDS par défaut pour le locataire ?      | Si l’instance Dataverse a été la première instance de production créée, cochez cette case. Si l’instance Dataverse a été créée manuellement, décochez cette case. |
+
+## <a name="configure-the-entity-store"></a>Configurer le magasin des entités
+
+Suivez ces étapes pour configurer le magasin des entités dans votre environnement Finance.
+
+1. Accédez à **Administration système \> Paramétrage \> Paramètres système \> Connexions des données**.
+2. Définissez l’option **Activer l’intégration de Data Lake** sur **Oui**.
+3. Définissez les champs de coffre de clés suivants :
+
+    - **ID de l’application (client)**  : saisissez l’ID client d’application que vous avez créé précédemment.
+    - **Secret d’application** : entrez le secret que vous avez enregistré pour l’application que vous avez créée précédemment.
+    - **Nom DNS** : vous pouvez trouver le nom DNS (Domain Name System) sur la page des détails de l’application que vous avez créée précédemment.
+    - **Nom secret** : saisissez **storage-account-connection-string**.
 
 ## <a name="feedback-and-support"></a>Commentaires et support
 

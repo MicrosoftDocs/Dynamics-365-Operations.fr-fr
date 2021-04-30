@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747319"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890856"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Paramétrer des souches de numéros sur une base individuelle
 
@@ -30,7 +30,7 @@ Cette rubrique explique comment paramétrer des souches de numéros sur une base
 2. Sélectionnez **Souche de numéros**.
 3. Tapez une valeur dans le champ **Code souche de numéros**.
 4. Tapez une valeur dans le champ **Nom**.
-5. Dans le raccourci **Paramètres de portée**, sélectionnez une portée pour la souche de numéros, puis sélectionnez des valeurs de portée dans la liste déroulante. La portée définit les organisations pouvant utiliser la souche de numéros. En outre, les souches de numéros associées à un autre type de portée que **Partagée** peuvent inclure des segments qui correspondent à leur portée. Par exemple, une souche de numéros dotée du type de portée **Entité juridique** peut contenir un segment d’entité juridique. Pour plus d’informations sur les portées, voir [Vue d’ensemble des souches de numéros](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. Dans le raccourci **Paramètres de portée**, sélectionnez une portée pour la souche de numéros, puis sélectionnez des valeurs de portée dans la liste déroulante. La portée définit les organisations pouvant utiliser la souche de numéros. En outre, les souches de numéros associées à un autre type de portée que **Partagée** peuvent inclure des segments qui correspondent à leur portée. Par exemple, une souche de numéros dotée du type de portée **Entité juridique** peut contenir un segment d’entité juridique. Pour plus d’informations sur les portées, voir [Vue d’ensemble des souches de numéros](../number-sequence-overview.md). 
 6. Développez la section **Segments**.
     - Définissez le format de la souche de numéros en ajoutant, supprimant et réorganisant les segments.  
     - Les souches de numéros de toutes les portées peuvent contenir des *Segments constants* et des *Segments alphanumériques*. Les segments contiennent un ensemble de caractères alphanumériques constants. Ce type de segment permet d’ajouter un tiret ou d’autres séparateurs entre les segments d’une souche de numéros. Les segments alphanumériques contiennent une combinaison de symboles numériques (#) et d’esperluettes (&). Ces caractères représentent des lettres et des chiffres qui sont incrémentés à chaque fois qu’un numéro de la souche est utilisé. Utilisez un symbole numérique (#) pour indiquer les numéros de l’incrémentation et une esperluette (&) pour indiquer les lettres de l’incrémentation. Par exemple, le format `#####_2014` crée la séquence `00001_2014`, `00002_2014`, etc. Au moins un segment alphanumérique doit être présent. Les segments de portée, tels que Société ou Entité juridique sont facultatifs. Cependant, si vous n’incluez aucun segment de portée dans le format, les numéros de la référence sélectionnée sont tout de même générés par portée.  

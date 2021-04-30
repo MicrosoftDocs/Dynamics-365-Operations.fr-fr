@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753310"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893906"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Créer une configuration pour générer des documents au format Excel
 
@@ -159,7 +159,7 @@ Pour un même composant **Feuille**, vous pouvez ajouter plusieurs composants **
 
 Sous le composant **Pied de page** ajouté, ajoutez les composants imbriqués requis de type **Texte\\Chaîne**, **Texte\\DateTime** ou d’un autre type. Configurez les liaisons de ces composants pour spécifier la manière dont votre pied de page est rempli.
 
-Vous pouvez également utiliser des [codes de mise en forme](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) pour mettre en forme correctement le contenu d’un pied de page généré. Pour apprendre à utiliser cette approche, suivez les étapes de la section [Exemple 1](#example-1), plus loin dans cette rubrique.
+Vous pouvez également utiliser des [codes de mise en forme](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) pour mettre en forme correctement le contenu d’un pied de page généré. Pour apprendre à utiliser cette approche, suivez les étapes de la section [Exemple 1](#example-1), plus loin dans cette rubrique.
 
 > [!NOTE]
 > Lorsque vous configurez des formats ER, assurez-vous de prendre en compte la [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) Excel et le nombre maximum de caractères pour un seul en-tête ou pied de page.

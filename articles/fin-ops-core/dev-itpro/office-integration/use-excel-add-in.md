@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752964"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908339"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Afficher et mettre à jour les données d’entité avec Excel 
 
@@ -45,7 +45,7 @@ Pour en savoir plus sur l’utilisation du module complémentaire Excel, consult
 2. Cliquez sur l’option **Ouvrir dans Excel** et ouvrez le classeur généré. Ce classeur dispose des informations de liaison pour l’entité, d’un pointeur vers votre environnement, et d’un pointeur vers le module complémentaire Excel.
 3. Dans Excel, cliquez sur **Activer la modification** pour permettre l’exécution du module complémentaire Excel. Le module complémentaire Excel s’exécute dans un volet à droite de la fenêtre Excel.
 4. Si vous exécutez le module complémentaire Excel pour la première fois, cliquez sur **Faire confiance à ce module complémentaire**.
-5. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour l’application Finance and Operations. Le module complémentaire Excel utilisera le contexte d’une connexion précédente depuis le navigateur et vous connectera automatiquement, si possible. (Pour plus d’informations sur le navigateur utilisé en fonction du système d’exploitation, voir [Navigateurs utilisés par les modules complémentaires Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Pour vous assurer que la connexion a réussi, vérifiez le nom d’utilisateur dans le coin supérieur droit du module complémentaire Excel. 
+5. Si vous êtes invité à vous connecter, cliquez sur **Connexion** et connectez-vous à l’aide des mêmes informations d’identification que pour l’application Finance and Operations. Le module complémentaire Excel utilisera le contexte d’une connexion précédente depuis le navigateur et vous connectera automatiquement, si possible. (Pour plus d’informations sur le navigateur utilisé en fonction du système d’exploitation, voir [Navigateurs utilisés par les modules complémentaires Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Pour vous assurer que la connexion a réussi, vérifiez le nom d’utilisateur dans le coin supérieur droit du module complémentaire Excel. 
 
 Le module complémentaire Excel lit automatiquement les données de l’entité sélectionnée. Notez qu’il n’existe aucune donnée dans le classeur tant que le module complémentaire Excel n’en a pas lue.
 
@@ -60,7 +60,7 @@ Le module complémentaire Excel lit automatiquement les données de l’entité 
 
 6. Cliquez sur **OK**, puis cliquez sur **Oui** pour confirmer la modification. Le complément Excel redémarre et charge les métadonnées.
 
-    Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour plus d’informations, voir « Le bouton Charger les applets s’affiche » dans la section [Dépannage](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) de cette rubrique.
+    Le bouton **Conception** est désormais disponible. Si le complément Excel comporte un bouton **Charger les applets**, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour plus d’informations, voir « Le bouton Charger les applets s’affiche » dans la section [Dépannage](../office-integration/use-excel-add-in.md#troubleshooting) de cette rubrique.
 
 7. Sélectionnez **Design**. Le complément Excel récupère les métadonnées d’entité.
 8. Sélectionnez **Ajouter une table**. La liste des entités apparaît. Les entités sont répertoriées dans le format « Nom – Étiquette ».
@@ -138,7 +138,7 @@ Il existe quelques problèmes pouvant être résolus en quelques pas.
 
 - **Le bouton Charger les applets s’affiche** – Si le complément Excel comporte un bouton **Charger les applets** après la connexion, vous n’êtes probablement pas connecté sous le bon compte d’utilisateur. Pour résoudre ce problème, vérifiez que le nom d’utilisateur approprié s’affiche dans le coin supérieur droit du complément Excel. Si un nom d’utilisateur incorrect s’affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
 - **Vous recevez un message « Interdit »** – Si vous recevez un message « Interdit » alors que le complément Excel charge les métadonnées, le compte qui est connecté dans le complément Excel ne dispose pas de l’autorisation d’utilisation du service, de l’instance ou de la base de données cible. Pour résoudre ce problème, vérifiez que le nom d’utilisateur approprié s’affiche dans le coin supérieur droit du complément Excel. Si un nom d’utilisateur incorrect s’affiche, cliquez dessus, déconnectez-vous et reconnectez-vous.
-- **Une page web vide s’affiche au-dessus d’Excel** – Si une page web vide s’affiche lors du processus de connexion, le compte nécessite AD FS, mais la version d’Excel qui exécute le complément n’est pas assez récente pour charger la boîte de dialogue de connexion. Pour résoudre ce problème, mettez à jour la version d’Excel que vous utilisez. Pour mettre à jour la version d’Excel lorsque vous êtes dans une entreprise se trouvant dans un canal différé, utilisez l’[Outil de déploiement Office](https://technet.microsoft.com/library/jj219422.aspx) pour [passer du canal différé au canal actuel](https://technet.microsoft.com/library/mt455210.aspx).
+- **Une page web vide s’affiche au-dessus d’Excel** – Si une page web vide s’affiche lors du processus de connexion, le compte nécessite AD FS, mais la version d’Excel qui exécute le complément n’est pas assez récente pour charger la boîte de dialogue de connexion. Pour résoudre ce problème, mettez à jour la version d’Excel que vous utilisez. Pour mettre à jour la version d’Excel lorsque vous êtes dans une entreprise se trouvant dans un canal différé, utilisez l’[Outil de déploiement Office](/deployoffice/overview-office-deployment-tool) pour [passer du canal différé au canal actuel](/deployoffice/overview-update-channels).
 - **Vous recevez un message de dépassement du délai lorsque vous publiez des modifications de données** : si vous recevez des messages de dépassement du délai lorsque vous essayez de publier les modifications de données sur une entité, envisagez la possibilité de réduire la taille du lot de publication pour le classeur concerné. Les entités qui déclenchent de plus grandes quantités de logique lors des modifications d’enregistrement peuvent nécessiter l’envoi des mises à jour par lots plus petits pour éviter les dépassements de délai.
 
 

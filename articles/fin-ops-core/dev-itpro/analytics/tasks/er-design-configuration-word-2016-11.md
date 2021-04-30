@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755056"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891693"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Réutiliser les configurations ER avec des modèles Excel pour générer des rapports au format Word
 
@@ -90,7 +90,7 @@ Actuellement, le document Excel est utilisé comme modèle pour générer la sor
 
 Vous pouvez maintenant mettre en correspondance des éléments de la partie XML personnalisée **État** et des contrôles de contenu du document Word.
 
-Si vous connaissez bien le processus de conception des documents Word comme formulaires qui contiennent les [contrôles de contenu](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) mis en correspondance avec les éléments des [pièces XML personnalisées](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), exécutez toutes les étapes de la prochaine procédure pour créer le document. Pour plus de détails, voir [Créer des formulaires à remplir ou imprimer dans Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Sinon, passez à la procédure suivante.
+Si vous connaissez bien le processus de conception des documents Word comme formulaires qui contiennent les [contrôles de contenu](/office/client-developer/word/content-controls-in-word) mis en correspondance avec les éléments des [pièces XML personnalisées](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), exécutez toutes les étapes de la prochaine procédure pour créer le document. Pour plus de détails, voir [Créer des formulaires à remplir ou imprimer dans Word](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b). Sinon, passez à la procédure suivante.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Obtenir un document Word contenant une partie XML personnalisée et effectuer un mappage de données
 

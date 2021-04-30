@@ -2,7 +2,7 @@
 title: Vidéos
 description: Cette page répertorie les vidéos du forum technique et des procédures créées par Microsoft concernant les applications Finance and Operations disponibles sur YouTube et autres sites.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754702"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881734"
 ---
 # <a name="videos"></a>Vidéos 
 
@@ -84,6 +84,9 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vidéos pour Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Gestion des documents commerciaux
+- [Créer un nouveau document commercial à l'aide de la Gestion des documents commerciaux](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Personnaliser l’application
 - [Ajouter des champs personnalisés](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Intégrer Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -113,9 +116,12 @@ Sur la [chaîne YouTube de Microsoft Dynamics](https://www.youtube.com/channel/U
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vidéos pour Dynamics 365 Supply Chain Management
 
+### <a name="business-document-management"></a>Gestion des documents commerciaux
+- [Créer un nouveau document commercial à l'aide de la Gestion des documents commerciaux](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="costs"></a>Coûts
 - [Espace de travail mobile de contrôle des coûts](https://youtu.be/imsuTg8rUVk)
-- [Prise en main du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
+- [Mise en route du contrôle de gestion](https://youtu.be/1pUDtJQZ8FU)
 - [Utiliser Excel pour l’analyse des coûts](https://youtu.be/-HKHYdClvx8)
 
 ### <a name="customer-portal"></a>Portail client

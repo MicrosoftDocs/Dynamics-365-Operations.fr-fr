@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793823"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889834"
 ---
 # <a name="manage-features-in-human-resources"></a>Gérer les fonctionnalités dans Human Resources
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793823"
 
 Dans le cadre de notre lancement continu de nouvelles fonctionnalités pour Microsoft Dynamics 365 Human Resources, nous souhaitons que nos clients expérimentent de nouvelles fonctionnalités dès que possible. Nous fournissons des fonctionnalités d’aperçu, presque prêtes pour la mise à disposition générale et qui ont fait l’objet de tests étendus. Nous attendons les derniers commentaires et validations des clients avant leur publication pour une disponibilité générale.
 
-Pour plus d’informations sur les nouvelles fonctions dans Human Resources, voir [Nouveautés dans Human Resources](hr-admin-whats-new.md) et [Notes de publication de la Power Platform et Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Pour plus d’informations sur les nouvelles fonctions dans Human Resources, voir [Nouveautés dans Human Resources](hr-admin-whats-new.md) et [Notes de publication de la Power Platform et Dynamics 365](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-L’espace de travail **Gestion des fonctions** fournit une liste des fonctions fournies dans chaque lancement. Par défaut, les nouvelles fonctionnalités sont désactivées. Vous pouvez utiliser l’espace de travail pour les activer et consulter la documentation les concernant. Pour plus d’informations sur la gestion des fonctions, voir [Présentation de la gestion des fonctions](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+L’espace de travail **Gestion des fonctions** fournit une liste des fonctions fournies dans chaque lancement. Par défaut, les nouvelles fonctionnalités sont désactivées. Vous pouvez utiliser l’espace de travail pour les activer et consulter la documentation les concernant. Pour plus d’informations sur la gestion des fonctions, voir [Présentation de la gestion des fonctions](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Toutes les nouvelles fonctionnalités restent dans la version préliminaire pendant au moins 30 jours, et généralement entre 30 et 60 jours. Les fonctionnalités principales sont généralement disponibles en octobre et en avril chaque année suivant la période de version préliminaire. Dès que vous voyez de nouvelles fonctionnalités dans l’espace de travail **Gestion des fonctions**, vous pouvez les activer. Certaines fonctionnalités peuvent être activées par défaut.
 
@@ -93,6 +93,6 @@ N’ajoutez pas des données personnelles (toute information susceptible de vous
 ## <a name="see-also"></a>Voir également :
 
 - [Nouveautés dans Human Resources](hr-admin-whats-new.md)
-- [Notes de publication de la Power Platform et Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Notes de publication de la Power Platform et Dynamics 365](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821271"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909645"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Cette rubrique sera mise à jour à mesure que de nouvelles fonctionnalités sup
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification.
 
 > [!NOTE]
-> Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://docs.microsoft.com/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+> Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.18
 
@@ -39,7 +39,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 |   |  |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | À compter d’avril 2021, *Dynamics 365 for Finance and Operations - Entreposage* (l’application d’entrepôt) est obsolète et ne sera plus prise en charge après avril 2022. Elle est maintenant remplacée par l’*Application mobile Gestion des entrepôts*, qui a été publiée avec la version 10.0.17 de Supply Chain Management. La nouvelle application est un remplacement complet, mais elle utilise la même infrastructure sous-jacente, ce qui facilite la migration. Si nécessaire, les deux applications peuvent être utilisées côte à côte pour aider les utilisateurs à s’adapter à mesure qu’ils apprennent à utiliser la nouvelle application.<br><br>Pour plus d’informations sur la nouvelle application mobile Gestion des entrepôts, voir [Application mobile Gestion des entrepôts](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) et [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md). |
+| **Motif de l’abandon/de la suppression** | À compter d’avril 2021, *Dynamics 365 for Finance and Operations - Entreposage* (l’application d’entrepôt) est obsolète et ne sera plus prise en charge après avril 2022. Elle est maintenant remplacée par l’*Application mobile Gestion des entrepôts*, qui a été publiée avec la version 10.0.17 de Supply Chain Management. La nouvelle application est un remplacement complet, mais elle utilise la même infrastructure sous-jacente, ce qui facilite la migration. Si nécessaire, les deux applications peuvent être utilisées côte à côte pour aider les utilisateurs à s’adapter à mesure qu’ils apprennent à utiliser la nouvelle application.<br><br>Pour plus d’informations sur la nouvelle application mobile Gestion des entrepôts, voir [Application mobile Gestion des entrepôts](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) et [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md). |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, remplacé par la nouvelle application mobile Gestion des entrepôts. |
 | **Zones de produit affectées**         | Supply Chain Management - application d’entrepôt |
 | **Option de déploiement**              | Cloud et sur site |
@@ -65,7 +65,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
 | **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er octobre 2021, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de fabrication, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](https://go.microsoft.com/fwlink/?linkid=2105830). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de fabrication après octobre 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **État**                         | Obsolète. À partir du 1er avril 2022, les scénarios de fabrication ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de fabrication, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](../master-planning/planning-optimization/planning-optimization-overview.md). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de fabrication après avril 2022. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.11
 
@@ -77,7 +77,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
 | **Zones de produit affectées**         | Supply Chain Management - Planification |
 | **Option de déploiement**              | Cloud uniquement. Notez que Optimisation n’est pas pris en charge avec les déploiements locaux. |
-| **État**                         | Obsolète. À partir du 1er avril 2021, les scénarios de distribution ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de distribution, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](https://go.microsoft.com/fwlink/?linkid=2105830). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de distribution après avril 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
+| **État**                         | Obsolète. À partir du 1er avril 2021, les scénarios de distribution ne seront plus pris en charge avec le moteur de planification Dynamics 365 Supply Chain Management intégré. Pour les scénarios de distribution, les clients doivent utiliser Optimisation de la planification pour les calculs de planification. Pour plus d’informations, voir [Documentation relative à Optimisation de la planification](../master-planning/planning-optimization/planning-optimization-overview.md). Les clients avec des déploiements locaux de Dynamics 365 Supply Chain Management peuvent continuer à utiliser le moteur de planification de Supply Chain Management pour les scénarios de distribution après avril 2021. Cependant, aucune amélioration supplémentaire des fonctionnalités ne sera fournie. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annonces précédentes sur les fonctions supprimées ou obsolètes
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 51cd69563a7a5b30e932f1aad828d095cc55b075
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827216"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897790"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Utiliser les prédictions de paiement des clients (version préliminaire)
 
@@ -35,14 +35,14 @@ Vous pouvez afficher les prévisions de paiement des clients dans l’espace de 
 
 L’espace de travail **Gérer le crédit client et les recouvrements** comprend deux nouvelles vignettes, **Prédiction de paiement par transaction** et **Clients avec des soldes de retard élevés prévus**.
 
-- La vignette **Prédiction de paiement par transaction** indique le nombre de transactions client ouvertes dont la probabilité de paiement est inférieure à 50 % dans le compartiment **À temps**. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par transaction**.
-- La vignette **Clients avec des soldes de retard élevés prévus** indique le nombre de clients pour lesquels plus de la moitié (50 %) du solde total devrait être payé en retard et/ou très tard. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par client**.
+- La vignette **Prédiction de paiement par transaction** indique le nombre de transactions client ouvertes dont la probabilité de paiement est inférieure à 50 %% dans le compartiment **À temps**. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par transaction**.
+- La vignette **Clients avec des soldes de retard élevés prévus** indique le nombre de clients pour lesquels plus de la moitié (50 %%) du solde total devrait être payé en retard et/ou très tard. Vous pouvez sélectionner cette vignette pour ouvrir la page de liste **Prévisions de paiement par client**.
 
 [![Gérer l’espace de travail de crédit et recouvrements client](./media/manage-customer-credit-collections.png)](./media/manage-customer-credit-collections.png)
 
 ### <a name="payment-predictions-per-transaction-list-page"></a>Prédictions de paiement par page de liste de transactions
 
-Sur la liste **Prévisions de paiement par transaction**, vous pouvez afficher la probabilité de paiement pour les transactions ouvertes dans les compartiments **À temps**, **Tard**, et **Très tard**. Pour chaque transaction de la grille, la colonne **Probabilité à l’heure** indique la probabilité que la facture soit payée au plus tard à la date d’échéance. Si la probabilité d’un paiement à temps est inférieure à 50 %, un cercle rouge apparaît à côté du pourcentage dans la colonne **Probabilité à temps** pour indiquer le risque de retard de paiement.
+Sur la liste **Prévisions de paiement par transaction**, vous pouvez afficher la probabilité de paiement pour les transactions ouvertes dans les compartiments **À temps**, **Tard**, et **Très tard**. Pour chaque transaction de la grille, la colonne **Probabilité à l’heure** indique la probabilité que la facture soit payée au plus tard à la date d’échéance. Si la probabilité d’un paiement à temps est inférieure à 50 %%, un cercle rouge apparaît à côté du pourcentage dans la colonne **Probabilité à temps** pour indiquer le risque de retard de paiement.
 
 [![Prédiction de paiement par page de transactions](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
@@ -102,7 +102,7 @@ Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améli
 
 La version préliminaire publique de Finance Insights est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
 
-Les fonctionnalités en version préliminaire publiques peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Les fonctionnalités en version préliminaire publiques peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Avis de confidentialité
 

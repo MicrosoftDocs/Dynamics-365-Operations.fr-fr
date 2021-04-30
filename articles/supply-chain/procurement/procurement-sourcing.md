@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825516"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909202"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Page d’accueil Approvisionnements
 
@@ -83,12 +83,12 @@ Le module Approvisionnements couvre toutes les étapes : identification d’un b
 ## <a name="prices-and-discounts"></a>Prix et remises
 -   [Contrats d’achat](purchase-agreements.md)
 -   [Créer un contrat d’achat](tasks/create-purchase-agreement.md)
--   [Remises fournisseur](https://docs.microsoft.com/dynamics/s-e/) (livre blanc)
+-   [Remises fournisseur](/dynamics/s-e/) (livre blanc)
 
 ## <a name="product-receipt-and-invoicing"></a>Accusé de réception de marchandises et facture
 -   [Accusé de réception de marchandises et commandes fournisseur](product-receipt-against-purchase-orders.md)
--   [Vue d’ensemble des factures fournisseur](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Profils de validation fournisseur](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Vue d’ensemble des factures fournisseur](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Profils de validation fournisseur](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Workflows d’approvisionnements
 -   [Vue d’ensemble des approvisionnements](procurement-sourcing-overview.md)

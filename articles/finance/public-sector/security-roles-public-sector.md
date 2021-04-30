@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fd785dbf0990d4c92264c100b000bcb79cbf3a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ff40f915c329187e3fa3f4cba5f1f7f06c2f3e14
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816835"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890762"
 ---
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité (Secteur public)
 
@@ -96,7 +96,7 @@ Une fois les utilisateurs créés, vous les affectez à des rôles sur la page *
 <a name="additional-resources"></a>Ressources supplémentaires
 --------
 
-[sécurité basée sur les rôles](../../dev-itpro/sysadmin/role-based-security.md)
+[sécurité basée sur les rôles](../../fin-ops-core/dev-itpro/sysadmin/role-based-security.md)
 
 
 

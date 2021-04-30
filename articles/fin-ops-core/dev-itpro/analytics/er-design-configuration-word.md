@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753574"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894074"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Créer une configuration de gestion des états électroniques pour générer des états au format Word
 
@@ -38,7 +38,7 @@ Pour utiliser un document Word comme modèle d’états au format Word, vous pou
 Le composant de format de gestion des états électroniques de la solution doit contenir l’élément de format **Excel\\File**, et cet élément de format doit être lié au document Word qui sera utilisé comme modèle pour les états générés lors de l’exécution. Pour configurer le composant de format de gestion des états électroniques, vous devez ouvrir la version [Brouillon](general-electronic-reporting.md#component-versioning) de la configuration de gestion des états électroniques créée dans le concepteur de format de gestion des états électroniques. Puis ajoutez l’élément de **Excel\\File**, joignez votre modèle Word au format de gestion des états électroniques modifiable et associez ce modèle à l’élément **Excel\\File** que vous avez ajouté.
 
 > [!NOTE]
-> Lorsque vous joignez manuellement un modèle, vous devez utiliser un [type de document](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) précédemment [configuré](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) dans les paramètres de gestion des états électroniques pour enregistrer les modèles de formats de gestion des états électroniques.
+> Lorsque vous joignez manuellement un modèle, vous devez utiliser un [type de document](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) précédemment [configuré](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) dans les paramètres de gestion des états électroniques pour enregistrer les modèles de formats de gestion des états électroniques.
 
 ![Joindre un modèle sur la page Concepteur de format](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Vous pouvez ajouter des éléments imbriqués **Excel\\Range** et **Excel\\Cell*
 
 ![Ajouter les éléments imbriqués sur la page Concepteur de format](./media/er-design-configuration-word-image4.gif)
 
-Lorsque vous enregistrez vos modifications au format de gestion des états électroniques au moment de la conception, la structure de format hiérarchique est stockée dans le modèle Word joint en tant que [partie XML personnalisée](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) qui est nommé **État**. Vous devez accéder au modèle modifié, le télécharger depuis Finance, le stocker localement et l’ouvrir dans l’application de bureau Word. L’illustration suivante montre l’exemple de modèle stocké localement pour le rapport de contrôle qui contient la partie XML personnalisée **État**.
+Lorsque vous enregistrez vos modifications au format de gestion des états électroniques au moment de la conception, la structure de format hiérarchique est stockée dans le modèle Word joint en tant que [partie XML personnalisée](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) qui est nommé **État**. Vous devez accéder au modèle modifié, le télécharger depuis Finance, le stocker localement et l’ouvrir dans l’application de bureau Word. L’illustration suivante montre l’exemple de modèle stocké localement pour le rapport de contrôle qui contient la partie XML personnalisée **État**.
 
 ![Afficher l’aperçu du modèle pour le rapport de contrôle dans l’application de bureau Word](./media/er-design-configuration-word-image5.gif)
 
-Lors de la liaison des éléments de format **Excel\\Range** et **Excel\\Cell** au moment de l’exécution, les données fournies par chaque liaison sont intégrées au document Word en tant que champ individuel de la partie XML personnalisée **État**. Pour entrer les valeurs des champs de la partie XML personnalisée dans un document généré, vous devez ajouter le mot approprié [contrôles de contenu](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) à votre modèle Word pour servir d’espace réservé pour les données qui seront renseignées lors de l’exécution. Pour spécifier la manière dont les contrôles de contenu sont remplis, mappez chaque contrôle de contenu au champ approprié de la partie XML personnalisée **État**.
+Lors de la liaison des éléments de format **Excel\\Range** et **Excel\\Cell** au moment de l’exécution, les données fournies par chaque liaison sont intégrées au document Word en tant que champ individuel de la partie XML personnalisée **État**. Pour entrer les valeurs des champs de la partie XML personnalisée dans un document généré, vous devez ajouter le mot approprié [contrôles de contenu](/office/client-developer/word/content-controls-in-word) à votre modèle Word pour servir d’espace réservé pour les données qui seront renseignées lors de l’exécution. Pour spécifier la manière dont les contrôles de contenu sont remplis, mappez chaque contrôle de contenu au champ approprié de la partie XML personnalisée **État**.
 
 ![Ajout et mappage de contrôles de contenu dans l’application de bureau Word](./media/er-design-configuration-word-image6.gif)
 

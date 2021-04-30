@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838392"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911294"
 ---
 # <a name="work-with-location-directives"></a>Utiliser des instructions d’emplacement
 
@@ -44,8 +44,8 @@ Avant de pouvoir créer une instructions d’emplacement, vous devez suivre ces 
 1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
 1. Créez un entrepôt.
 1. Dans le raccourci **Entrepôt**, définissez l’option **Utiliser les processus de gestion des entrepôts** sur *Oui*.
-1. Créez des emplacements, des types d’emplacement, des profils d’emplacement, et des formats d’emplacement. Pour plus d’informations, consultez [Configurer les emplacements dans un entrepôt compatible WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Créez des sites, des zones, et des groupes de zones. Pour plus d’informations, consultez [Configuration de l’entrepôt](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) et [Configurer les emplacements dans un entrepôt compatible WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Créez des emplacements, des types d’emplacement, des profils d’emplacement, et des formats d’emplacement. Pour plus d’informations, consultez [Configurer les emplacements dans un entrepôt compatible WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Créez des sites, des zones, et des groupes de zones. Pour plus d’informations, consultez [Configuration de l’entrepôt](../../commerce/channels-setup-warehouse.md) et [Configurer les emplacements dans un entrepôt compatible WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Types d’ordre de travail pour les instructions d’emplacement
 
@@ -143,7 +143,7 @@ Les champs sur le raccourci **instruction d’emplacement** sont spécifiques au
 - **Code directive** – Sélectionnez le code d’instruction à associer à un modèle de travail ou à un modèle de réapprovisionnement. Sur la page **Code de l’instruction**, vous pouvez créer des codes pouvant être utilisés pour connecter des modèles de travail ou de réapprovisionnement à des instruction d’emplacement. Les codes de directives peuvent également être utilisées pour établir un lien entre une ligne de modèle de travail et une instruction d’emplacement (par exemple un emplacement de porte de baie ou intermédiaire).
 
     > [!TIP]
-    > Si un code de directive est défini, le système ne recherche pas les instructions d’emplacement par numéro de séquence lorsque le travail doit être généré. Au lieu de cela, il recherche par code de directive. Ainsi, vous pouvez être plus spécifique sur le modèle d’emplacement utilisé pour une étape particulier d’un modèle de travail, par exemple l’étape d’échelonnement des matières.
+    > Si un code de directive est défini, le système ne recherche pas les instructions d’emplacement par numéro de séquence lorsque le travail doit être généré. Au lieu de cela, il recherche par code de directive. Ainsi, vous pouvez être plus spécifique sur la directive d’emplacement utilisée pour une étape particulière d’un modèle de travail, par exemple l’étape d’échelonnement des matières.
 
 - **SKU multiples** – Définissez cette option sur *Oui* pour activer l’utilisation de plusieurs unités de gestion de stock (SKU) à un emplacement. Par exemple, plusieurs SKU doivent être activés pour l’emplacement de la porte de baie. Si vous activez plusieurs SKU, votre emplacement de rangement sera spécifié dans le travail, comme prévu. Cependant, l’emplacement de rangement ne pourra gérer qu’un ranger avec plusieurs articles (si le travail comprend différents SKU qui doivent être prélevés et rangés). Il ne sera pas en mesure de gérer un rangement avec une seule SKU. Si vous définissez cette option sur *Non*, votre emplacement de rangement ne sera spécifié que si votre rangement ne contient qu’un seul type de SKU.
 
@@ -249,7 +249,7 @@ Pour ce scénario, vous devez définir deux actions d’instruction d’emplacem
 
 ## <a name="next-step"></a>Étape suivante
 
-Après avoir créé des instructions d’emplacement, vous pouvez associer chaque code d’instruction à un code de modèle de travail pour la création du travail. Pour plus d’informations, voir [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Après avoir créé des instructions d’emplacement, vous pouvez associer chaque code d’instruction à un code de modèle de travail pour la création du travail. Pour plus d’informations, voir [Contrôler le travail d’entrepôt à l’aide de modèles de travail et d’instructions d’emplacement](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837631"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910375"
 ---
 # <a name="modeling-a-lean-organization"></a>Modélisation d’une organisation au plus juste
 
@@ -51,7 +51,7 @@ La chaîne de valeur de l’état futur peut être modélisée en tant que versi
 
 La chaîne de valeur elle-même est modélisée en tant qu’unité opérationnelle. Par conséquent, la chaîne de valeur peut être utilisée comme dimension financière.
 
-Pour plus d’informations sur les unités opérationnelles, voir [Créer une unité opérationnelle](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Pour plus d’informations sur les unités opérationnelles, voir [Créer une unité opérationnelle](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Évaluation des coûts du lean manufacturing basée sur le flux de production
 La consolidation périodique du coût pour un flux de production corrige le compte des travaux en cours associé et permet la détermination des écarts pour les produits fournis par le flux de production.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 59a421b5e81366845901c44486acb3dfa3781850
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753646"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894098"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Différer l’exécution des éléments de séquence aux formats ER
 
@@ -42,7 +42,7 @@ L’option **Exécution différée** ne s’applique pas aux séquences qui ont 
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Exemple : différer l’exécution d’un élément de séquence au format ER
 
-Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l’administrateur système ou des états électroniques [rôle ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles)peut configurer un format ER qui contient un élément de séquence où l’ordre d’exécution diffère de l’ordre dans la hiérarchie des formats.
+Les étapes suivantes expliquent comment un utilisateur du consultant fonctionnel de l’administrateur système ou des états électroniques [rôle ](../sysadmin/tasks/assign-users-security-roles.md)peut configurer un format ER qui contient un élément de séquence où l’ordre d’exécution diffère de l’ordre dans la hiérarchie des formats.
 
 Ces étapes peuvent être effectuées dans la société fictive **USMF** dans Microsoft Dynamics 365 Finance.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791531"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892273"
 ---
 # <a name="update-process"></a>Processus de mise à jour
 
@@ -39,7 +39,7 @@ Les mises à jour sont publiées régulièrement pour tous les environnements. H
 
 Les mises à jour de Human Resources sont appliquées à tous les environnements automatiquement. Human Resources propose deux types de versions :
 
-- **Mises à jour de service** : les mises à jour surviennent toutes les deux semaines ; elles incluent des corrections de bugs et de nouvelles fonctionnalités. Les mises à jour de service incluent également les mises à jour de plate-forme applicables lors de leur publication. Pour avoir une idée de la date de publication des mises à jour de la plate-forme, voir [Tableau 3 : versions de la plateforme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Les mises à jour bihebdomadaires ont un déploiement mondial par étapes dans les régions. Pour plus d’informations sur les mises à jour bihebdomadaires, voir [Nouveautés ou changements dans Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Mises à jour de service** : les mises à jour surviennent toutes les deux semaines ; elles incluent des corrections de bugs et de nouvelles fonctionnalités. Les mises à jour de service incluent également les mises à jour de plate-forme applicables lors de leur publication. Pour avoir une idée de la date de publication des mises à jour de la plate-forme, voir [Tableau 3 : versions de la plateforme](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Les mises à jour bihebdomadaires ont un déploiement mondial par étapes dans les régions. Pour plus d’informations sur les mises à jour bihebdomadaires, voir [Nouveautés ou changements dans Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Tous les centres de données pris en charge sont mis à jour toutes les deux semaines, sauf indication contraire. Les régions américaines, australiennes, européennes, britanniques, asiatiques et canadiennes sont incluses dans les mises à jour bihebdomadaires. 
 
@@ -71,11 +71,11 @@ Vous pouvez découvrir ce qui est en cours de développement pour Human Resource
 
 - [Contenu de Dynamics 365 Human Resources](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Programmes de publication de Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Programmes de publication de Dynamics 365](/dynamics365/release-plans/)
 
 - [Nouveautés ou modifications dans Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Recherche des incidents dans les Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (pour les bugs liés à la plate-forme uniquement)
+- [Recherche des incidents dans les Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (pour les bugs liés à la plate-forme uniquement)
 
 - [Blogue Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Vous pouvez découvrir ce qui est en cours de développement pour Human Resource
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Aperçu des fonctionnalités dans un environnement de bac à sable
 
-Vous pouvez valider les fonctionnalités d’aperçu dans un environnement de bac à sable avant de les activer dans votre environnement de production. Pour plus d’informations sur l’activation des fonctionnalités, voir [Présentation de la gestion des fonctionnalités](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Vous pouvez valider les fonctionnalités d’aperçu dans un environnement de bac à sable avant de les activer dans votre environnement de production. Pour plus d’informations sur l’activation des fonctionnalités, voir [Présentation de la gestion des fonctionnalités](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Toutes les nouvelles fonctionnalités restent dans la version préliminaire pendant au moins 30 jours, et généralement entre 30 et 60 jours. Les fonctionnalités principales sont généralement disponibles en octobre et en avril chaque année suivant la période de version préliminaire. Dès que vous voyez de nouvelles fonctionnalités dans l’espace de travail Gestion des fonctions, vous pouvez les activer. Certaines fonctionnalités peuvent être activées par défaut.
 
@@ -101,9 +101,9 @@ Lorsque vous testez des fonctionnalités d’aperçu ou essayez de nouvelles fon
 
 ## <a name="see-also"></a>Voir également :
 
-[Calendriers de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Calendriers de publication de Dynamics 365 et Power Platform](/dynamics365/release-plans)</br>
 [Nouveautés ou modifications dans Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
-[Stratégie du cycle de vie de logiciel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Stratégie du cycle de vie de logiciel](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

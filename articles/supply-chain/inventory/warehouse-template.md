@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816626"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908441"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique explique comment paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt. Il existe plusieurs modèles de configuration prédéfinis que vous pouvez utiliser. Pour plus d’informations sur l’utilisation de ces modèles, voir [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md).
+Cette rubrique explique comment paramétrer un entrepôt à l’aide d’un modèle de configuration d’entrepôt. Il existe plusieurs modèles de configuration prédéfinis que vous pouvez utiliser. Pour plus d’informations sur l’utilisation de ces modèles, voir [Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Scénarios où les modèles de configuration peuvent être utiles
 
@@ -88,13 +88,13 @@ Vous pouvez télécharger un fichier zip pour le package de données. Ce fichier
 4. Sélectionnez **+ Ajouter un fichier** et téléchargez le fichier zip pour le package de données.
 5. Sélectionnez **Importer**. Dans la vue **Améliorée**, vous pouvez utiliser l’option **Filtrer** pour obtenir un aperçu rapide des problèmes qui peuvent se produire pendant l’importation.
 
-L’option **Afficher le journal des exécutions** fournit des informations détaillées sur chaque entité de données importée. Vous pouvez utiliser la vue des données intermédiaires pour accéder rapidement aux données cibles. Vous pouvez ainsi voir l’apparence des données importées sur les pages associées de l’application. Lorsque vous utilisez les modèles de données par défaut, la séquence d’importation pour chaque entité de données fonctionne de la manière prédéfinie, afin de garantir que toutes les données dépendantes sont importées en premier. Si les entités de données personnalisées font partie du projet, vous devez vérifier que la séquence correcte est définie. Pour plus d’informations, voir [Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md).
+L’option **Afficher le journal des exécutions** fournit des informations détaillées sur chaque entité de données importée. Vous pouvez utiliser la vue des données intermédiaires pour accéder rapidement aux données cibles. Vous pouvez ainsi voir l’apparence des données importées sur les pages associées de l’application. Lorsque vous utilisez les modèles de données par défaut, la séquence d’importation pour chaque entité de données fonctionne de la manière prédéfinie, afin de garantir que toutes les données dépendantes sont importées en premier. Si les entités de données personnalisées font partie du projet, vous devez vérifier que la séquence correcte est définie. Pour plus d’informations, voir [Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Pour en savoir plus sur l’utilisation du modèle d’entrepôt pour copier la configuration d’un entrepôt d’une entreprise à une nouvelle entreprise dans la même instance, consultez cette vidéo de 3 minutes sur YouTube : [Utiliser le modèle d’entrepôt pour copier la configuration dans Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Rubrique connexe
 
-[Modèles de données de configuration](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Modèles de données de configuration](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

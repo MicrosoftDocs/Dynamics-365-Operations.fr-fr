@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822755"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890774"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822755"
 
 Cette rubrique répertorie les mises à jour réglementaires prévues et publiées dans les régions prenant en charge Dynamics 365 Finance. Les calendriers de livraison sont susceptibles de changer et les fonctionnalités prévues pourraient être différentes ou ne pas être lancées. Pour plus d’informations, voir [Stratégie Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les autres fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
+Les mises à jour réglementaires sont des fonctions qui sont implémentées pour prendre en charge les nouveautés ou les modifications des législations de chaque pays. Pour en savoir plus sur les autres fonctionnalités spécifiques aux pays, prévues ou publiées, consultez les [programmes de publication de Dynamics 365 et Power Platform](/business-applications-release-notes/index).
 
 Microsoft s’efforce d’implémenter les nouvelles exigences réglementaires aussi vite que possible. La date de livraison réelle dépend de la date d’annonce de la loi, de la disponibilité des détails de l’exigence auprès des administrations locales, de la disponibilité des outils de validation et de la mesure et de la complexité de la modification.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839365"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908780"
 ---
 # <a name="cost-management-home-page"></a>Page d’accueil Gestion des coûts
 
@@ -43,7 +43,7 @@ Vous pouvez accéder à la comptabilité de stock et la comptabilité de fabrica
 
 La comptabilité de fabrication vous permet de gérer le [Coût de revient par commande](production-order-cost-analysis.md) dans les ordres de fabrication et les lots de commandes, ainsi que la [Comptabilité à rebours](backflush-costing.md) en matière de lean manufacturing.
 
-Le [contenu Power BI Gestion des coûts](../../dev-itpro/analytics/cost-management-content-pack.md) donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d’analyse.
+Le [contenu Power BI Gestion des coûts](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) donne un aperçu de la gestion du stock et du stock des travaux en cours, et explique comment le coût se répercute sur les stocks par catégorie dans le temps. Les informations peuvent également être utilisées comme complément détaillé au tableau d’analyse.
 
 ### <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -57,7 +57,7 @@ Le [Calcul de nomenclature à l’aide d’une feuille de coûts](https://www.mi
 
 #### <a name="blogs"></a>Blogs
 
-Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des coûts sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s’appliquent toujours et les procédures sont également similaires dans la version actuelle.
+Vous trouverez des avis, des actualités et d’autres informations concernant la gestion des coûts sur le [Blog de l’équipe R&D sur la fabrication dans Dynamics AX](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D sur Supply Chain Management dans Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Bien que certains de ces articles aient été rédigés pour la version précédente du module Gestion des coûts, les mêmes concepts s’appliquent toujours et les procédures sont également similaires dans la version actuelle.
 
 #### <a name="task-guides"></a>Guides de tâches
 

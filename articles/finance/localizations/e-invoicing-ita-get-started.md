@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840098"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894775"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Mise en route de la facturation électronique pour l’Italie
 
@@ -201,7 +201,7 @@ Après avoir activé la fonctionnalité **Intégration de la Facturation électr
 Vous pouvez envoyer les documents manuellement, en fonction de votre demande de documents de facture électronique.
 
 > [!NOTE]
-> Avant de continuer, vérifiez que la configuration nécessaire pour les factures électroniques italiennes a été effectuée. Pour plus d’informations, voir [Factures électroniques client](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Notez que certaines des étapes de configuration décrites dans cette rubrique peuvent ne pas être disponibles en raison de l’activation de la Facturation électronique.
+> Avant de continuer, vérifiez que la configuration nécessaire pour les factures électroniques italiennes a été effectuée. Pour plus d’informations, voir [Factures électroniques client](./emea-ita-e-invoices.md). Notez que certaines des étapes de configuration décrites dans cette rubrique peuvent ne pas être disponibles en raison de l’activation de la Facturation électronique.
 
 1. Allez dans **Administration de l’organisation \> Périodique \> Documents électroniques \> Envoyer des documents électroniques**.
 2. Pour le premier envoi d’un document, définissez l’option **Envoyer de nouveau les documents** sur **Non**. Si vous devez envoyer à nouveau un document via le service, définissez cette option sur **Oui**.

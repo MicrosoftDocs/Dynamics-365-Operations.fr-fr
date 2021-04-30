@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04e14f4afe3ad4505b140699956832d9b12ae48b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37076c59a326b6eddff5318271553fa82fb52d12
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839909"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894863"
 ---
 # <a name="coda-bank-statement"></a>Relevé bancaire CODA
 
@@ -32,7 +32,7 @@ Pour les importations de relevés bancaires belges, vous utiliserez le format de
 ## <a name="import-transactions-from-a-bank-statement"></a>Importer des transactions à partir d’un relevé bancaire
 Pour importer un fichier de relevé bancaire pour un compte bancaire, procédez comme suit. **Remarque** : avant d’importer un fichier de relevé bancaire, vous devez avoir déjà effectué les opérations suivantes :
 
--   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   Importer les configurations CODA à partir de Lifecycle Services (LCS). Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 -   Sélectionner la configuration CODA importée dans la page **Paramètres CODA**.
 
 1.  Accédez à la page **Comptes bancaires**.

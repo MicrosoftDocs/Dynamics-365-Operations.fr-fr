@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839958"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891159"
 ---
 # <a name="import-iso20022-files"></a>Importer des fichiers ISO20022
 
@@ -114,7 +114,7 @@ Lorsque vous importez une configuration de format à partir de LCS, vous importe
  - **Pain.002** – Ce format est utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour importer le fichier pain.002 dans le journal des transferts de paiements fournisseur
  - **Camt.054** – Ce format est utilisé avec la mise en correspondance du modèle de paiement avec la destination ISO20022 pour importer le fichier camt.054 dans le journal des transferts de paiements fournisseur. La même configuration de format sera utilisée dans la fonctionnalité d’importation de paiements client, mais une mise en correspondance différente sera utilisée dans la configuration de la mise en correspondance du modèle de paiement avec la destination ISO20022.
 
-Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble des états électroniques](../../dev-itpro/analytics/general-electronic-reporting.md).
+Pour plus d’informations sur les états électronique, voir, [Vue d’ensemble des états électroniques](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 - [Créer et exporter des paiements fournisseur à l’aide du format de paiement ISO20022](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

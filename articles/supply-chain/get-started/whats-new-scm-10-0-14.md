@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832152"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909523"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Nouveautés ou modifications dans Dynamics 365 Supply Chain Management 10.0.14 (novembre 2020)
 
@@ -33,7 +33,7 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 ## <a name="features-included-in-this-release"></a>Fonctionnalités incluses dans cette version
 
-Cette version inclut une plateforme mise à jour et des améliorations générales, mais n’inclut aucune nouvelle fonctionnalité spécifique à Supply Chain Management. Pour plus d’informations sur les fonctionnalités à venir, consultez le site [Programmes de lancement](https://docs.microsoft.com/dynamics365/release-plans/).
+Cette version inclut une plateforme mise à jour et des améliorations générales, mais n’inclut aucune nouvelle fonctionnalité spécifique à Supply Chain Management. Pour plus d’informations sur les fonctionnalités à venir, consultez le site [Programmes de lancement](/dynamics365/release-plans/).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
@@ -49,7 +49,7 @@ Pour plus d’informations sur les correctifs de bogues inclus dans chacune des 
 
 Vous souhaitez connaître les fonctionnalités à venir et récemment publiées dans nos applications ou notre plateforme d’entreprise ?
 
-Consultez [Dynamics 365 : vague 2 du plan de publication 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
+Consultez [Dynamics 365 : vague 2 du plan de publication 2020](/dynamics365-release-plan/2020wave2/index). Nous avons capturé tous les détails, de bout en bout, de haut en bas, dans un document unique que vous pouvez utiliser pour la planification.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fonctionnalités de Supply Chain Management supprimées et obsolètes
 

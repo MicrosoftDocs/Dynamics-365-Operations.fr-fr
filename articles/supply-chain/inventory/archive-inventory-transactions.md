@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839293"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881830"
 ---
 # <a name="archive-inventory-transactions"></a>Archiver les mouvements de stock
 
@@ -38,7 +38,7 @@ Si une combinaison de `itemId` et de `inventDimId` ne contient qu’une seule tr
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Activez la fonctionnalité dans votre système
 
-Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Archivage des transactions d’inventaire*.
+Si votre système n’inclut pas déjà les fonctionnalités décrites dans cette rubrique, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez la fonctionnalité *Archivage des transactions d’inventaire*. Notez que cette fonctionnalité ne peut pas être désactivée une fois qu'elle a été activée.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Éléments à prendre en compte avant d’archiver les transactions d’inventaire
 

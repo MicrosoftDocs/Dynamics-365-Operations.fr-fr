@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834498"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897766"
 ---
 # <a name="one-voucher"></a>N° document
 
@@ -48,7 +48,7 @@ La fonctionnalité existante pour les journaux financiers (le journal des opéra
 
 ## <a name="issues-with-one-voucher"></a>Problèmes liés à la fonctionnalité N° document
 
-La fonctionnalité N° document génère des problèmes pendant le règlement, le calcul de la taxe, la contrepassation d’une transaction, le rapprochement d’un compte auxiliaire dans la comptabilité, la génération d’états financiers, etc. (Pour plus d’informations sur les problèmes qui peuvent se produire pendant le règlement, par exemple, voir [N° de document unique avec plusieurs enregistrements client ou fournisseur](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Pour assurer un bon fonctionnement et générer des états corrects, ces processus et états requièrent les détails de transaction. Bien que certains scénarios puissent continuer à fonctionner correctement, en fonction du paramétrage de votre organisation, des problèmes se produisent souvent lorsque plusieurs transactions sont entrées dans un justificatif.
+La fonctionnalité N° document génère des problèmes pendant le règlement, le calcul de la taxe, la contrepassation d’une transaction, le rapprochement d’un compte auxiliaire dans la comptabilité, la génération d’états financiers, etc. (Pour plus d’informations sur les problèmes qui peuvent se produire pendant le règlement, par exemple, voir [N° de document unique avec plusieurs enregistrements client ou fournisseur](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Pour assurer un bon fonctionnement et générer des états corrects, ces processus et états requièrent les détails de transaction. Bien que certains scénarios puissent continuer à fonctionner correctement, en fonction du paramétrage de votre organisation, des problèmes se produisent souvent lorsque plusieurs transactions sont entrées dans un justificatif.
 
 Par exemple, vous validez le justificatif multiligne suivant.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751230"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893576"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurer les destinations pour la gestion des états électroniques dépendant de l’action
 
@@ -60,7 +60,7 @@ Si vous sélectionnez le type de document **N’importe lequel**, **Détection a
     - Quand l’action **Envoyer** est fournie au moment de l’exécution, la destination de gestion des états électroniques **E-mail** est appliquée.
     - Quand l’action **Imprimer** est fournie au moment de l’exécution, la destination de gestion des états électroniques **Imprimante** est appliquée.
 
-Par exemple, vous pouvez utiliser le format de gestion des états électroniques **Facture financière (Excel)** pour imprimer une [facture financière](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) lorsque vous la publiez. Pour acheminer un document généré, vous devez configurer des destinations de gestion des états électroniques pour ce format de gestion des états électroniques. Par exemple, vous devrez peut-être configurer ces destinations de gestion des états électroniques pour effectuer les opérations suivantes sur un document généré :
+Par exemple, vous pouvez utiliser le format de gestion des états électroniques **Facture financière (Excel)** pour imprimer une [facture financière](../../../finance/accounts-receivable/create-free-text-invoice-new.md) lorsque vous la publiez. Pour acheminer un document généré, vous devez configurer des destinations de gestion des états électroniques pour ce format de gestion des états électroniques. Par exemple, vous devrez peut-être configurer ces destinations de gestion des états électroniques pour effectuer les opérations suivantes sur un document généré :
 
 - Archivez le document si le format de gestion des états électroniques est exécuté, mais qu’aucun code d’action n’est fourni (par exemple, lorsque le document est envoyé par voie électronique).
 - Prévisualisez le document dans un navigateur Web lorsqu’un utilisateur effectue l’action **Afficher**.
@@ -82,7 +82,7 @@ L’illustration suivante montre comment vous pouvez réaliser cette configurati
 
 Lorsqu’un format de gestion des états électroniques est exécuté, si les actions utilisateur ont été configurées par des utilisateurs disposant des [autorisations](electronic-reporting-destinations.md#security-considerations) pour modifier les paramètres de destination configurés au moment de l’exécution, une boîte de dialogue apparaît, offrant la possibilité de modifier les paramètres de destination configurés. Cette boîte de dialogue est facultative et son apparence dépend de la manière dont l’appel lancé par l’infrastructure de gestion des états électroniques pour exécuter un format de gestion des états électroniques a été implémenté. Si cette boîte de dialogue apparaît, les destinations de gestion des états électroniques qu’elle contient seront activées en fonction de l’action utilisateur fournie.
 
-L’illustration suivante montre un exemple de **Destinations au format de gestion des états électroniques** qui apparaît lorsqu’une facture financière est [ publiée](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) et le format de gestion des états électroniques **Facture financière (Excel)** est exécuté pour générer ce document, si l’action **Imprimante** a été provisionnée et les destinations de gestion des états électroniques ont été configurées pour ce format, comme indiqué plus haut dans cette rubrique.
+L’illustration suivante montre un exemple de **Destinations au format de gestion des états électroniques** qui apparaît lorsqu’une facture financière est [ publiée](../../../finance/accounts-receivable/create-free-text-invoice-new.md) et le format de gestion des états électroniques **Facture financière (Excel)** est exécuté pour générer ce document, si l’action **Imprimante** a été provisionnée et les destinations de gestion des états électroniques ont été configurées pour ce format, comme indiqué plus haut dans cette rubrique.
 
 ![Boîte de dialogue qui donne la possibilité de modifier les destinations de gestion des états électroniques initialement configurées pour le format de gestion des états électroniques en cours d’exécution](./media/er-destination-action-dependent-02.gif)
 

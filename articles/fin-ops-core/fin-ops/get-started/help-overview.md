@@ -2,7 +2,7 @@
 title: Système d’aide
 description: Cette rubrique offre une vue d’ensemble du système d’aide pour les applications Finance and Operations.
 author: edupont04
-ms.date: 05/11/2020
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46168dd9001921471114c219c57856b7bedf6465
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749826"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897814"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -161,7 +161,7 @@ Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Ce site héberge le contenu des versions précédentes. |
 | [Communauté Dynamics](https://community.dynamics.com/) | Ce site héberge des blogs, des forums et des vidéos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Ce site fournit une évaluation et des informations commerciales. |
-| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Ce site héberge certains ressources de formation, des états et des livres blancs téléchargeables, et est le principal site de support pour les titulaires d’un plan de services. L’accès à certaines ressources du site peut nécessiter un plan de services. |
+
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

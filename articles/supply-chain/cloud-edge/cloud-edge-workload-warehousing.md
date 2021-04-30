@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832392"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899165"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832392"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Exécution d’entrepôt sur des unités de mise à l’échelle
 
-Cette fonctionnalité permet aux unités de mise à l’échelle d’exécuter des processus sélectionnés à partir des capacités de gestion de l’entrepôt. Les unités de mise à l’échelle du cloud exécutent leurs charges de travail dans le cloud en utilisant une capacité de traitement dédiée dans votre zone Microsoft Azure. Pour les unités d’échelle Edge, vous pouvez exécuter certaines charges de travail indépendamment sur site, même lorsque les unités d’échelle sont temporairement déconnectées du cloud.
+Cette fonctionnalité permet aux unités de mise à l’échelle d’exécuter des processus sélectionnés à partir des capacités de gestion de l’entrepôt.
 
 Dans cette rubrique, les exécutions de gestion d’entrepôt dans un entrepôt défini comme une unité de mise à l’échelle sont appelées *Système d’exécution en entrepôt* (*WES*).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Vous devez avoir un hub Dynamics 365 Supply Chain Management et une unité d’échelle déployée avec la charge de travail de gestion d’entrepôt. Pour plus d’informations sur l’architecture et le processus de déploiement, voir [Unités à l’échelle du cloud et de Edge pour les charges de travail de fabrication et de gestion d’entrepôt](cloud-edge-landing-page.md).
+Vous devez avoir un hub Dynamics 365 Supply Chain Management et une unité d’échelle déployée avec la charge de travail de gestion d’entrepôt. Pour plus d'informations sur l'architecture et le processus de déploiement, consultez [Utiliser des unités d'échelle pour augmenter la résilience des charges de travail de gestion de la chaîne d'approvisionnement](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Fonctionnement de la charge de travail WES sur les unités d’échelle
 
@@ -297,6 +297,8 @@ Sur la charge de travail dans les unités de mise à l’échelle, vous pouvez g
 - Traiter les enregistrements de la table des vagues
 - Point de transbordement de l’entrepôt du processeur de messages d’unité d’échelle
 - Traiter les demandes de mise à jour de la quantité pour les lignes de commande d’entrepôt
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

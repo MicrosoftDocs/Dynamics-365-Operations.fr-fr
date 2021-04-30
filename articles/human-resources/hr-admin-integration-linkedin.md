@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: efcac2bd82956015eb822c6a493b8625a35cd194
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 208998b5c09416407612352da7a8ef5dd9491914
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805056"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889978"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Intégration avec LinkedIn Talent Hub
 
@@ -130,7 +130,7 @@ Après avoir enregistré et fermé le nouvel utilisateur de l’application dans
 ### <a name="create-the-table-in-dataverse"></a>Créer la table dans Dataverse
 
 > [!IMPORTANT]
-> L’intégration avec LinkedIn Talent Hub dépend des tables virtuelles dans Dataverse pour Human Resources. Comme condition préalable à cette étape de la configuration, vous devez configurer des tables virtuelles. Pour plus d’informations sur la configuration des tables virtuelles, voir [Configurer des tables virtuelles Dataverse](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+> L’intégration avec LinkedIn Talent Hub dépend des tables virtuelles dans Dataverse pour Human Resources. Comme condition préalable à cette étape de la configuration, vous devez configurer des tables virtuelles. Pour plus d’informations sur la configuration des tables virtuelles, voir [Configurer des tables virtuelles Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 1. Dans Human Resources, ouvrez la page **Intégration Dataverse**.
 
@@ -189,7 +189,7 @@ Les détails suivants sont importés et inclus dans l’enregistrement d’un no
 ## <a name="see-also"></a>Voir également :
 
 [Configurer des tables virtuelles Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Qu’est-ce que Microsoft Dataverse ?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+[Qu’est-ce que Microsoft Dataverse ?](/powerapps/maker/common-data-service/data-platform-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841765"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908369"
 ---
 # <a name="calendars-and-master-planning"></a>Calendriers et planification
 
@@ -90,7 +90,7 @@ Pour indiquer les dates auxquelles un client peut accepter les livraisons, vous 
 
 Notez qu’il est possible de n’inclure qu’un calendrier par client. Si vous devez inclure un calendrier pour chaque adresse différente pour un client, vous pouvez créer un client par adresse, puis affecter son calendrier respectif. 
 
-La date de réception demandée sur les lignes de commande client est affectée par le calendrier client et par la méthode de contrôle de la date de livraison. Découvrez-en davantage sur la manière de calculer la date de livraison la plus proche dans [Promesse de commande.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+La date de réception demandée sur les lignes de commande client est affectée par le calendrier client et par la méthode de contrôle de la date de livraison. Découvrez-en davantage sur la manière de calculer la date de livraison la plus proche dans [Promesse de commande.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendrier d’expédition pour une entité juridique
 Pour indiquer les dates auxquelles une entité juridique peut expédier des marchandises, vous pouvez paramétrer un calendrier d’expédition sous **Administration de l’organisation > Organisations > Entités juridiques**. Sélectionnez l’entité juridique et ajoutez le calendrier dans l’onglet **Commerce extérieur et logistique** dans le champ **Calendrier d’expédition**. Le calendrier d’expédition sera considéré comme la source de valeurs par défaut pour tous les calendriers d’entrepôt dans l’entité juridique. 

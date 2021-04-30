@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745835"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907909"
 ---
 # <a name="create-new-users"></a>Créer de nouveaux utilisateurs
 
@@ -29,10 +29,10 @@ Avant de pouvoir accéder aux applications Finance and Operations, vous devez d�
 Pour plus d’informations sur l’achat et la licence pour les applications Finance and Operations, voir [Guide des licences Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Attribuer une licence à un utilisateur
-Les administrateurs système peuvent [attribuer des licences aux utilisateurs](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) dans le [Centre d’administration Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Les administrateurs système peuvent [attribuer des licences aux utilisateurs](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) dans le [Centre d’administration Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Ajouter un utilisateur externe à Azure AD et attribuer une licence 
-Les utilisateurs externes doivent être représentés dans votre répertoire de locataires (Azure Active Directory (Azure AD)) pour leur attribuer des licences. Ces utilisateurs externes doivent être ajoutés au client dans Azure AD en tant qu’utilisateurs invités, puis se voir attribuer les licences appropriées. Obligation concernant les applications Finance and Operations : l’entreprise de l’utilisateur invité doit utiliser Azure AD. Pour plus d’informations, voir [Ajouter utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Les utilisateurs externes doivent être représentés dans votre répertoire de locataires (Azure Active Directory (Azure AD)) pour leur attribuer des licences. Ces utilisateurs externes doivent être ajoutés au client dans Azure AD en tant qu’utilisateurs invités, puis se voir attribuer les licences appropriées. Obligation concernant les applications Finance and Operations : l’entreprise de l’utilisateur invité doit utiliser Azure AD. Pour plus d’informations, voir [Ajouter utilisateurs de collaboration B2B Azure Active Directory dans le portail Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importer de nouveaux utilisateurs depuis Azure AD 
 1. Accédez à **Administration système** \> **Utilisateurs** \> **Utilisateurs**.
@@ -57,7 +57,7 @@ Les utilisateurs externes doivent être représentés dans votre répertoire de 
 7. Dans le champ **Société**, sélectionnez la société de début par défaut pour l’utilisateur. 
 8. Sélectionnez **Enregistrer**.
 
-Les valeurs du fournisseur d’identité et de l’identifiant de télémétrie seront mises à jour en fonction d’un appel [Graphique Microsoft](https://docs.microsoft.com/graph/overview), lorsque l’enregistrement utilisateur est enregistré. L’identifiant de télémétrie est basé sur l’identifiant d’objet/l’identificateur de sécurité (SID) de l’utilisateur dans Azure AD.
+Les valeurs du fournisseur d’identité et de l’identifiant de télémétrie seront mises à jour en fonction d’un appel [Graphique Microsoft](/graph/overview), lorsque l’enregistrement utilisateur est enregistré. L’identifiant de télémétrie est basé sur l’identifiant d’objet/l’identificateur de sécurité (SID) de l’utilisateur dans Azure AD.
 
 > [!NOTE]
 > Après avoir ajouté un utilisateur, vous devez attribuer des rôles et des organisations selon le cas. Pour plus d’informations, voir [Affecter des utilisateurs à des rôles de sécurité](assign-users-security-roles.md). Sous certaines conditions, il pourrait également être nécessaire d’associer l’utilisateur à une **Personne** et de mettre à jour les **Options utilisateur** telles que la langue.
