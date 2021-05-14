@@ -14,12 +14,12 @@
               items:
                 - name: Page d’accueil des nouveautés ou modifications dans les mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
-                - name: "Mises à jour de la plateforme pour 10.0.18 (mai\_2021)"
+                - name: "Mises à jour de la plateforme pour\_la version 10.0.19 (juillet\_2021)"
+                  href: get-started/whats-new-platform-updates-10-0-19.md
+                - name: "Mises à jour de la plateforme pour la version 10.0.18 (mai\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: "Mises à jour de la plateforme pour\_10.0.17 (août\_2021)"
+                - name: "Mises à jour de la plateforme pour\_la version 10.0.17 (avril\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: "Mises à jour de la plateforme pour\_10.0.16 (février\_2021)"
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -303,19 +303,19 @@
                         - name: Configurer l’intégration de Project Service Automation
                           items:
                             - name: "Vue d’ensemble de Project\_Service\_Automation"
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: "Paramètres d’intégration de Project\_Service\_Automation"
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Synchroniser les contrats de projet et les projets
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Synchroniser les tâches de projet
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Synchroniser les catégories de dépenses de projet
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Synchroniser les estimations de projet à partir des prévisions de projet
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Synchroniser les transactions réelles du projet avec le journal d’intégration du projet
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Consommation de services web externes
               href: data-entities/consume-external-web-service.md
             - name: Messages électroniques
@@ -691,7 +691,7 @@
                     - name: Vue d’ensemble de création de modèles et d’éléments de modèle de données
                       href: dev-tools/create-data-model-elements.md
                     - name: Instructions de dénomination pour les extensions
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Désactiver la personnalisation de modèle et les fonctionnalités obsolètes
                       href: dev-tools/lock-models.md
                 - name: État d’analyse de la personnalisation
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Nouveautés ou modifications dans Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Problèmes connus
-                  href: lifecycle-services/known-issues.md
                 - name: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Guide de l’utilisateur de Lifecycle Services
@@ -1126,7 +1124,7 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Surveillance et diagnostics
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Redémarrer les services d'environnement
+            - name: Redémarrer les services d’environnement
               href: lifecycle-services/restart-environment-services.md
             - name: Signaler une panne de production
               href: lifecycle-services/report-production-outage.md
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Utiliser Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: Gérer les cas de test dans Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Valider les valeurs prévues
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Enchaîner des cas de test
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Cas de test dérivés
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Mettre à niveau les fichiers de paramètres
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Didacticiel Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Configurer les utilisateurs non administrateurs
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de bac à sable à l’aide du processus dacpac
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Mise à niveau à partir d’AX 2012 - Réplication transactionnelle SQL
+                  href: database/replication-setup.md
                 - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de bac à sable
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: Mise à niveau d’AX 2012 - Environnements locaux

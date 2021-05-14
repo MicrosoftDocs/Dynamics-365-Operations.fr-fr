@@ -72,11 +72,13 @@
                   items:
                     - name: Page d’accueil des nouveautés ou modifications dans Finance
                       href: get-started/whats-new-home-page.md
-                    - name: "Finance\_10.0.18 (mai\_2021)"
+                    - name: "Finance\_version 10.0.19 (juillet\_2021)"
+                      href: get-started/whats-new-changed-10-0-19.md
+                    - name: "Finance\_version 10.0.18 (mai\_2021)"
                       href: get-started/whats-new-changed-10-0-18.md
-                    - name: "Finance\_10.0.17 (avril\_2021)"
+                    - name: "Finance\_version 10.0.17 (avril\_2021)"
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: "Finance\_10.0.16 (février\_2021)"
+                    - name: "Finance\_version 10.0.16 (février\_2021)"
                       href: get-started/whats-new-changed-10-0-16.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
@@ -162,6 +164,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Incorporer des applications canevas à partir de Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
+                - name: Incorporer des applications tierces
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: Trouver des informations à l’aide des recherches
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Modifier la date d’une session
@@ -683,48 +687,48 @@
         - name: Gestion des dépenses
           items:
             - name: Vue d’ensemble de la gestion des dépenses
-              href: expense-management/expense-management.md
+              href: /dynamics365/project-operations/prod-exp/expense-management
             - name: États de dépenses repensés
-              href: expense-management/ExpenseWorkspaceNew.md
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
             - name: Planifier la gestion des dépenses
-              href: expense-management/plan-expense-management.md
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
             - name: Paramètres de gestion des dépenses
-              href: expense-management/Expense-Management-Parameters.md
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
             - name: Espace de travail mobile pour la gestion des dépenses
-              href: expense-management/expense-management-mobile-workspace.md
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
             - name: Paramétrer des flux de travail pour la gestion des dépenses
-              href: expense-management/expense-workflows.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
             - name: Flux de travail de gestion des dépenses
-              href: expense-management/expense-workflow.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
             - name: Gérer la délégation des dépenses
-              href: expense-management/manage-expense-delegation.md
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: Traitement des accusés de réception de dépenses
-              href: expense-management/expense-receipt-processing.md
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
             - name: Importer et tenir à jour les transactions de carte de crédit
-              href: expense-management/import-credit-card.md
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: Distributions d’un état de dépenses
-              href: expense-management/expense-report-distributions.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
             - name: Dépenses intersociétés
-              href: expense-management/intercompany-expense.md
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
             - name: Définir les stratégies de dépenses
-              href: expense-management/travel-expense-policies.md
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
             - name: Afficher un état de dépenses
-              href: expense-management/view-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
             - name: Valider un état de dépenses
-              href: expense-management/post-expense.md
+              href: /dynamics365/project-operations/prod-exp/post-expense
             - name: États de dépenses et approbateurs multiples
-              href: expense-management/expense-report-multiple-approvers.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
             - name: Recouvrement de la TVA dans le module Gestion des dépenses
-              href: expense-management/VAT-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: Règles d’indemnités journalières
-              href: expense-management/per-diem.md
+              href: /dynamics365/project-operations/prod-exp/per-diem
             - name: Demandes de voyage
-              href: expense-management/travel-req.md
+              href: /dynamics365/project-operations/prod-exp/travel-req
             - name: Dépenses personnelles dans un état de dépenses
-              href: expense-management/personal-expenses.md
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Immobilisations
           items:
-            - name: Page d’accueil Immobilisations
+            - name: Page d’accueil des immobilisations
               href: fixed-assets/fixed-assets.md
             - name: Créer une immobilisation
               href: fixed-assets/tasks/create-fixed-asset.md
@@ -1104,6 +1108,20 @@
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: Imprimer l’état de déclaration de taxe par code
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: Dépannage de la taxe de vente
+                  items:
+                    - name: La taxe n’est pas calculée ou le montant de la taxe est égal à zéro
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: Les performances du calcul de la taxe affectent les transactions
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: Valeur de champ incorrecte dans TaxTrans
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: L’enregistrement TaxTrans n’est pas généré
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: La taxe est imputée sur le mauvais compte du grand livre dans le justificatif
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: Le justificatif n’est pas généré
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
             - name: Retenue à la source
               items:
                 - name: Paramétrer la retenue à la source
@@ -1172,7 +1190,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
             - name: Réinitialisation d’un mini-data warehouse
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
-            - name: FAQ sur Financial Reporting
+            - name: FAQ sur les états financiers
               href: general-ledger/financial-reporting-faq.md
         - name: Informations financières
           items:
@@ -1215,85 +1233,85 @@
         - name: Gestion et comptabilité du projet
           items:
             - name: Vue d’ensemble de la gestion et de la comptabilité du projet
-              href: project-management/overview-project-management-accounting.md
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
             - name: Facturation intersociétés
-              href: project-management/intercompany-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
             - name: Configurer la facturation de projets intersociétés
-              href: project-management/tasks/configure-intercompany-project-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
             - name: Configurer les coûts standard pour le travail et les dépenses
-              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
             - name: Créer et appliquer des conditions de rétention de paiement fournisseur
-              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
             - name: Configurer et utiliser les paiements fournisseur Payer quand payé
-              href: project-management/setup-manage-vendor-payments.md
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
             - name: Régularisation des coûts de projet sur les accusés de réception d’achat
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Facturation de projet
               href: accounts-payable/project-invoicing.md
             - name: Contrats de projet
-              href: project-management/project-contracts.md
+              href: /dynamics365/project-operations/prod-pma/project-contracts
             - name: Créer des contrats avancés pour la facturation en fonction de la progression
-              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
             - name: Prévisions de projet et budgets
-              href: project-management/project-forecasts-budgets.md
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
             - name: Créer des modèles de prévision pour les budgets de projet
-              href: project-management/create-forecast-models-project-budgets.md
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
             - name: Transférer les budgets de projet à la fin de l’exercice
-              href: project-management/process-project-budgets-for-fiscal-year-end.md
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
             - name: Commandes client de projet
-              href: project-management/project-sales-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
             - name: Commandes fournisseur d’un projet
-              href: project-management/project-purchase-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
             - name: Devis de projet
-              href: project-management/project-quotations.md
+              href: /dynamics365/project-operations/prod-pma/project-quotations
             - name: 'Confirmer, mettre à jour et envoyer un devis de projet'
-              href: project-management/confirm-update-send-project-quotation.md
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
             - name: Transférer un devis à un projet
-              href: project-management/transfer-quote-new-existing-project.md
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
             - name: Ressources du projet
               items:
                 - name: Vue d’ensemble des ressources du projet
-                  href: project-management/project-resourcing.md
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
                 - name: Paramétrer les ressources de projet
-                  href: project-management/set-up-project-resources.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
                 - name: Gérer les compétences de ressource
-                  href: project-management/manage-resource-competencies.md
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
                 - name: Créer un nouveau projet
-                  href: project-management/create-new-project.md
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
                 - name: Paramétrer la tarification par rôle
-                  href: project-management/set-up-role-based-pricing.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
                 - name: Créer une équipe de projet
-                  href: project-management/create-project-team.md
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
                 - name: Synchroniser la capacité des ressources
-                  href: project-management/synchronize-resource-capacity.md
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
                 - name: Performances de la planification de ressources projet
-                  href: project-management/project-scheduling-performance.md
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
                 - name: Paramétrer des rôles sur des modèles de structure de répartition du travail
-                  href: project-management/set-up-roles-wbs-template.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
                 - name: Traitement de ressources pour les ressources planifiées
-                  href: project-management/resource-fulfillment-planned-resources.md
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
             - name: Recevoir des articles sur une commande fournisseur à partir d’une demande d’articles
-              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
             - name: Structures de répartition du travail
               items:
                 - name: Vue d’ensemble des structures de répartition du travail
-                  href: project-management/work-breakdown-structures.md
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
                 - name: "Intégration de Microsoft\_Project\_Client"
-                  href: project-management/project-integration.md
+                  href: /dynamics365/project-operations/prod-pma/project-integration
                 - name: "Vue d’ensemble des applications mobiles\_Project"
-                  href: project-management/project-mobile-application-overview.md
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
                 - name: Espace de travail mobile d’entrée d’heure du projet
-                  href: project-management/project-time-entry-mobile-workspace.md
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
                 - name: Application mobile des Project Timesheet
-                  href: project-management/project-timesheet.md
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
                 - name: Feuilles de temps de projet sur un appareil mobile
-                  href: project-management/mobile-timesheets.md
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
                 - name: Implémenter des champs personnalisés pour l’application mobile de feuille de temps Project
-                  href: project-management/custom-fields-mobile.md
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
             - name: Subventions de projet
-              href: project-management/project-grants.md
+              href: /dynamics365/project-operations/prod-pma/project-grants
             - name: Éliminer une estimation de projet
-              href: project-management/eliminate-project-estimate.md
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Secteur public
           items:
             - name: Page d’accueil Secteur public
@@ -1419,61 +1437,61 @@
             - name: Services de globalisation
               items:
                 - name: Vue d’ensemble des services de globalisation
-                  href: localizations/globalization-services-overview.md
+                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Configuration Service
                   items:
                     - name: Vue d’ensemble de Regulatory Configuration Service
-                      href: localizations/rcs-overview.md
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory Configuration Service - Fonctions de globalisation
-                      href: localizations/rcs-globalization-feature.md
-                    - name: Créer des configurations d’états électroniques dans Regulatory Configuration Service et les charger dans le référentiel global
-                      href: localizations/rcs-global-repo-upload.md
+                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
+                    - name: Créer des configurations ER dans Regulatory Configuration Service et les charger dans le référentiel global
+                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                 - name: Facturation électronique
                   items:
                     - name: Vue d’ensemble de la facturation électronique
-                      href: localizations/e-invoicing-service-overview.md
+                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Composants d’administration de la facturation électronique
-                      href: localizations/e-invoicing-service-administration.md
+                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Configurer la facturation électronique dans Regulatory Configuration Services (RCS)
-                      href: localizations/e-invoicing-configuration-rcs.md
+                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: Émettre des factures électroniques dans Finance et Supply Chain Management
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Créer un compte de stockage Azure et un coffre de clés
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Mise en route
                       items:
                         - name: Mise en route de l’administration du service de facturation électronique
-                          href: localizations/e-invoicing-get-started-service-administration.md
+                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Mise en route de la facturation électronique
-                          href: localizations/e-invoicing-get-started.md
+                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mise en route de la facturation électronique pour le Brésil
-                          href: localizations/e-invoicing-bra-get-started.md
+                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mise en route de la facturation électronique pour l’Égypte
-                          href: localizations/e-invoicing-eg-get-started.md
+                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mise en route de la facturation électronique pour l’Italie
-                          href: localizations/e-invoicing-ita-get-started.md
+                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mise en route de la facturation électronique pour le Mexique
-                          href: localizations/e-invoicing-mex-get-started.md
+                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Paramétrer la facturation électronique
-                          href: localizations/e-invoicing-setup.md
+                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: FAQ sur la facturation électronique
-                      href: localizations/e-invoicing-faq.md
+                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Calcul de la taxe
                   items:
                     - name: Vue d’ensemble du calcul de la taxe
-                      href: localizations/global-tax-calcuation-service-overview.md
+                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Mise en route du calcul de la taxe
-                      href: localizations/global-get-started-with-tax-calculation-service.md
+                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
                     - name: Prise en charge de la fonctionnalité de taxe pour les ordres de transfert
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
                     - name: Ajouter des champs de données dans les configurations de taxe
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Ajouter des champs de données dans l’intégration de la taxe à l’aide d’extensions
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
                     - name: Numéros d’enregistrement de TVA multiples
-                      href: localizations/emea-multiple-vat-registration-numbers.md
+                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Configurer un environnement pour la recherche de données principales
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
             - name: Mises à jour réglementaires
               href: localizations/regulatory-updates.md
             - name: Australie
@@ -2018,7 +2036,7 @@
                       href: localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
                 - name: Approuver et valider la création des lettres de change client
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: Factures et documents chronologiques
+                - name: Factures et justificatifs chronologiques
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
                 - name: Créer un fichier d’audit standard pour la France (FEC)
                   href: localizations/emea-fra-fec-audit-file.md
@@ -3139,7 +3157,7 @@
                 - name: Configurer les paramètres partagés de Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Configurer les flux de travail de Human Resources
-                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Comprendre les champs de date et d’heure
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Gérer le personnel
@@ -3189,15 +3207,15 @@
                 - name: Gestion des processus de recrutement
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
                 - name: Projets d’embauche collective
-                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
                 - name: Créer des projets d’embauche collective
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: Entrer manuellement le candidat et les données de la candidature
                   href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                 - name: Développer et ouvrir des demandes de poste
                   href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                 - name: Paramétrer les postes
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                  href: ../human-resources/hr-personnel-set-up-positions.md
                 - name: Embaucher des candidats via le recrutement
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
                 - name: Embaucher des employés existants via le recrutement
@@ -3457,7 +3475,7 @@
                       items:
                         - name: Préparer les métadonnées d’application dans la gestion des états électroniques à utiliser dans RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: Accéder aux métadonnées d’application dans RCS à l’aide de la configuration de la gestion des états électroniques
+                        - name: Accéder aux métadonnées d’application dans RCS à l’aide de la configuration ER
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
                         - name: Accéder aux métadonnées d’application dans RCS à l’aide des applications connectées
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
@@ -3767,9 +3785,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: Créer des configurations pour générer des états au format Word
                   items:
-                    - name: Concevoir une configuration des états électroniques pour générer des états au format Word
+                    - name: Concevoir une configuration ER pour générer des états au format Word
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
-                    - name: Réutiliser les configurations des états électroniques avec des modèles Excel pour générer des rapports au format Word
+                    - name: Réutiliser les configurations ER avec des modèles Excel pour générer des rapports au format Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Supprimer les contrôles de contenu Word dans les rapports générés
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
@@ -3839,7 +3857,7 @@
                   items:
                     - name: Fonctionnalités de globalisation dans RCS
                       href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: Télécharger des configurations de gestion des états électroniques vers Finance
+                    - name: Télécharger des configurations ER vers Finance
                       items:
                         - name: Télécharger des configurations depuis RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
@@ -3925,7 +3943,7 @@
                   items:
                     - name: Configurer les mises en correspondance de modèle de gestion des états électroniques en fonction du contexte de pays
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
-                    - name: Gérer la mise en correspondance de modèle de gestion des états électroniques dans des configurations distinctes
+                    - name: Gérer la mise en correspondance de modèle de gestion ER dans des configurations ER distinctes
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: Gérer plusieurs mappages dérivés pour une seule racine de modèle
                       href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
@@ -4052,7 +4070,7 @@
                 - name: Contrôle des coûts
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Gestion des dépenses
-                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Stock disponible
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Approbations de facture
@@ -4060,11 +4078,11 @@
                 - name: Mon équipe
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Vue d’ensemble des applications mobiles Project
-                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Entrée d’heure du projet
-                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Project Timesheet
-                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Approbation de la commande fournisseur
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Commandes client
