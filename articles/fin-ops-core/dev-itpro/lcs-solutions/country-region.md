@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748463"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920855"
 ---
 # <a name="globalization-resources"></a>Ressources de globalisation
 
 ## <a name="local-and-regional-deployments"></a>Déploiements locaux et régionaux
-Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes qui peuvent vous concerner :
+Si vos réglementations gouvernementales nécessitent que les données soient stockées ou gérées différemment de ce qui est requis pour d’autres pays/régions, il se peut que vous deviez tenir compte de certaines exigences du pays/de la région lors du déploiement. Tenez compte des ressources suivantes susceptibles de vous concerner :
 
-[Applications Finance and Operations exploitées par 21Vianet en Chine](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Applications Finance and Operations exploitées par 21Vianet en Chine](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Fonctions de localisation et de réglementation
 
@@ -60,7 +60,7 @@ Les ressources suivantes fournissent des informations sur les nouvelles fonction
 -   [Soumettre des alertes concernant les fonctions de réglementation spécifiques à un pays/une région](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Programmes de publication de Dynamics 365
-Les [Programmes de publication de Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fournissent des descriptions des fonctionnalités nouvelles et améliorées, planifiées pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
+Les [Programmes de publication de Dynamics 365](/business-applications-release-notes/) fournissent des descriptions des fonctionnalités nouvelles et améliorées, planifiées pour les applications d’entreprise et les plateformes d’application Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nouveautés des applications Finance and Operations
 La [page d’accueil Nouveautés ou modifications de Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) répertorie les fonctionnalités qui sont incluses dans des versions spécifiques des applications Finance and Operations.

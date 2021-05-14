@@ -1,5 +1,5 @@
 ---
-title: FAQ sur Financial Reporting
+title: FAQ sur les états financiers
 description: Cette rubrique répertorie les questions relatives aux états financiers qui ont été posées par d’autres utilisateurs.
 author: jiwo
 ms.date: 01/13/2021
@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811306"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923023"
 ---
-# <a name="financial-reporting-faq"></a>FAQ sur Financial Reporting 
+# <a name="financial-reporting-faq"></a>FAQ sur les états financiers 
 
-Cette rubrique répertorie les questions relatives aux états financiers qui ont été posées par d’autres utilisateurs. 
-
+Cette rubrique fournit des réponses aux questions fréquemment posées sur les états financiers. 
 
 ## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Comment restreindre l’accès à un état à l’aide de la sécurité de l’organigramme ?
 
-Scénario : La société de démonstration USMF a un état Bilan et elle ne souhaite pas que tous les utilisateurs de Financial Reporting puissent l’afficher dans D365. Solution : Vous pouvez utiliser la sécurité de l’organigramme pour restreindre l’accès à un seul état afin que seuls certains utilisateurs puissent y accéder. 
+L’exemple suivant montre comment restreindre l’accès à un état à l’aide de la sécurité de l’organigramme.
 
-1.  Connectez-vous à Financial Reporter Report Designer
+La société de démonstration USMF a un rapport de bilan auquel tous les utilisateurs d’états financiers ne devraient pas avoir accès. Vous pouvez utiliser la sécurité de l’organigramme pour restreindre l’accès à un seul état afin que seuls certains utilisateurs puissent y accéder. Suivez ces étapes pour restreindre l’accès : 
 
-2.  Créer une définition d’organigramme (Fichier | Nouveau | Définition d’organigramme) a.    Double-cliquez sur la ligne **Synthèse** dans la colonne **Sécurité d’unité**.
-  i.    Cliquez sur Utilisateurs et groupes.  
-          1. Sélectionnez le groupe ou le/les utilisateurs qui souhaitent accéder à ce rapport. 
-          
-[![écran de l’utilisateur](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+1. Connectez-vous à Financial Reporter Report Designer.
+2. Créez une définition d’arborescence. Allez dans **Fichier > Nouveau > Définition d’organigramme**.
+3. Double-cliquez sur la ligne **Synthèse** dans la colonne **Sécurité d’unité**.
+4. Cliquez sur **Utilisateurs et groupes**.  
+5. Sélectionnez les utilisateurs ou les groupes qui doivent accéder à cet état. 
+6. Sélectionnez **Enregistrer**.
+7. Ajoutez votre nouvelle définition d’organigramme dans la définition d’état.
+8. Dans la définition d’organigramme, sélectionnez **Paramètres**. Sous **Sélection d’unité organisationnelle**, sélectionnez **Inclure toutes les unités**.
 
-[![écran de sécurité](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Comment identifier les comptes qui ne correspondent pas à mes soldes ?
 
-  b.    Cliquez sur **Enregistrer**.
-  
-[![bouton Enregistrer](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+Lorsqu’un état contient des soldes qui ne correspondent pas, voici quelques étapes à suivre pour identifier chacun de ces comptes et les écarts qui posent problème. 
 
-3.  Dans votre définition d’état, ajoutez votre nouvelle définition d’organigramme
+**Financial Reporter Report Designer**
+1. Dans Financial Reporter Report Designer, créez une nouvelle définition de ligne. 
+2. Cliquez sur **Modifier > Insérer des lignes à partir de dimensions**.
+3. Cliquez sur **MainAccount**.  
+4. Cliquez sur **OK**.
+5. Enregistrez la définition de ligne.
+6. Créer une définition de colonne
+7. Créez une définition d’état.
+8. Sélectionnez **Paramètres** et décochez cette option.  
+9. Générez l’état. 
+10. Exportez l’état vers Microsoft Excel.
 
-[![formulaire de définition d’organigramme](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
+**Dynamics 365 Finance** 
+1. Dans Dynamics 365 Finance, allez dans **Comptabilité > Recherches et états > Balance comptable**.
+2. Définissez les paramètres suivants :
+   - **Date de début** : Saisissez le début de l’année fiscale.
+   - **À ce jour** : Saisissez la date pour laquelle vous générez l’état.
+   - **Dimension financière** : Définissez ce champ sur **Compte principal défini**.
+ 3. Sélectionnez **Calculer**.
+ 4. Exportez l’état vers Microsoft Excel.
 
-A.  Dans la définition d’organigramme, cliquez sur Paramètres et sous « Sélection d’unité organisationnelle », cochez « Inclure toutes les unités »
-
-[![formulaire de sélection de l’unité organisationnelle](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Avant :** [![capture d’écran avant](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Après :** [![capture d’écran après](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Remarque : le message ci-dessus s’affiche car l’utilisateur n’a pas accès à cet état après avoir appliqué la Sécurité d’unité
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>Comment déterminer quels comptes ne correspondent pas à mes soldes dans D365 ?
-
-Lorsqu’un état ne correspond pas à vos attentes dans D365, voici quelques étapes à suivre pour identifier les comptes et les écarts qui posent problème. 
-
-### <a name="in-financial-reporter-report-designer"></a>Dans Financial Reporter Report Designer
-
-1.  Créez une définition de ligne a.    Cliquez sur Modifier | Insérer des lignes à partir de dimensions i.  Sélectionner MainAccount [![Écran Sélectionner compte principal_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Cliquez sur Ok b.    Enregistrez la définition de ligne
-
-2.  Créer une nouvelle définition de colonne     [![Créer une nouvelle définition de colonne](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Créez une définition d’état a.    Cliquez sur Paramètres et décochez [![Formulaire de paramètres](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Générez l’état. 
-
-5.  Exportez l’état vers Excel.
-
-### <a name="in-d365"></a>Dans D365 : 
-1.  Cliquez sur Comptabilité | Recherches et états | Balance comptable a.    Paramètres i.  Date de début : Début de l’exercice ii. À ce jour : Date à laquelle vous avez généré l’état pour iii.    Ensemble de dimensions financières « Compte principal défini » [![Formulaire de compte principal](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Cliquez sur Calculer
-
-2.  Exporter l’état vers Excel
-
-Vous devriez maintenant pouvoir copier les données de l’état Excel États financiers et de l’état Balance comptable D365 et comparer les colonnes « Solde de clôture ».
-
+Vous devriez maintenant pouvoir copier les données de l’état Excel Financial Reporter et de l’état Balance comptable et comparer les colonnes **Solde de clôture**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

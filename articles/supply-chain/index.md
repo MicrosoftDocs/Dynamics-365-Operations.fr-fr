@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829954"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909789"
 ---
 # <a name="supply-chain-management-home-page"></a>Page d’accueil de Supply Chain Management
 
@@ -94,16 +94,16 @@ Les enregistrements de conférence technique suivants traitent des fonctionnalit
 
 ## <a name="blogs"></a>Blogs
 
-Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisionnement sont consultables sur le [Blog de l’équipe R&D de Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg/) et sur le [Blog de l’équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s’appliquent toujours et les procédures sont similaires dans la version actuelle.
+Plusieurs rubriques sur la fabrication et la gestion de la chaîne d’approvisionnement sont consultables sur le [Blog de l’équipe R&D de Dynamics AX Manufacturing](/archive/blogs/axmfg/) et sur le [Blog de l’équipe R&D du Supply Chain Management de Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La plupart de ces articles ont été rédigés pour la version précédente, mais les mêmes concepts s’appliquent toujours et les procédures sont similaires dans la version actuelle.
 
 ## <a name="white-papers"></a>Livres blancs
 
-- [Lean manufacturing : planification de capable to promise et des tâches de kanban](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean manufacturing : planification de capable to promise et des tâches de kanban](/dynamics/s-e/)
 - [Calcul de nomenclature à l’aide d’une feuille d’évaluation des coûts](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Cours eLearning
 
-Pour les cours et formations en ligne, consultez [Dynamics 365 Supply Chain Management sur Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+Pour les cours et formations en ligne, consultez [Dynamics 365 Supply Chain Management sur Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

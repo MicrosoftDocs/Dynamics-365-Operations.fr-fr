@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820857"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897008"
 ---
 # <a name="accounts-payable-home-page"></a>Page d’accueil de la comptabilité fournisseur
 
@@ -112,7 +112,7 @@ Les rubriques suivantes fournissent des informations sur les règlements. Le rè
 
 [Règlement d’un paiement fournisseur partiel et règlement total du paiement final avant la date de remise](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
-[N° de document unique avec plusieurs enregistrements client ou fournisseur](single-voucher-multiple-customer-vendor-records.md)
+[Justificatif unique avec plusieurs enregistrements client ou fournisseur](single-voucher-multiple-customer-vendor-records.md)
 
 
 
@@ -120,7 +120,7 @@ Les rubriques suivantes fournissent des informations sur les règlements. Le rè
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez au [Programmes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
+Accédez au [Programmes de publication de Microsoft Dynamics 365](/dynamics365/release-plans/) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
 
 #### <a name="blogs"></a>Blogs
 

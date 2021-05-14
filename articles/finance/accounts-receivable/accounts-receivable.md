@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827720"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898134"
 ---
 # <a name="accounts-receivable-home-page"></a>Page d’accueil de la comptabilité client
 
@@ -39,61 +39,45 @@ Vous pouvez créer des factures client basées sur les commandes client ou les b
 
 La Comptabilité client permet d’assurer le suivi des factures client et des paiements que vous recevez des clients. Vous pouvez paramétrer des groupes de clients, des clients, des profils de validation, des notes d’intérêt, des lettres de relance, des commissions et des paramètres concernant les clients, des frais, des livraisons et des destinations, des lettres de change, ainsi que d’autres types d’informations relatives à la Comptabilité client. 
 
-:::row:::
-    :::column:::
-        - [Répartitions comptables et entrées de journal de comptabilité auxiliaire pour les factures financières](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Profils de validation client](customer-posting-profiles.md)
-        - [Paramétrage, autorisation et capture de carte de crédit](credit-card-authorizations.md)
-        - [Création d’une facture client](configure-customer-invoices.md)
-        - [Paramétrer et traiter des factures récurrentes](set-up-process-recurring-invoices.md)
-        - [Correction de la facture financière](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [Paramétrage de lettres de change](set-up-bills-exchange.md)
-        - [Paramétrage des taux d’intérêt pour un code intérêt](set-up-interest-rates-interest-code.md)
-        - [Exonération, rétablissement ou contrepassation d’intérêts](waive-reinstate-reverse-interest-fees.md)
-        - [Vue d’ensemble du débit direct SEPA](sepa-direct-debit-overview.md)
-        - [Paramétrer un mandat de débit direct SEPA](sepa-direct-debit-mandate.md)
-        - [Clôturer la comptabilité client](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Répartitions comptables et entrées de journal de comptabilité auxiliaire pour les factures financières](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Profils de validation client](customer-posting-profiles.md)
+- [Paramétrage, autorisation et capture de carte de crédit](credit-card-authorizations.md)
+- [Création d’une facture client](configure-customer-invoices.md)
+- [Paramétrer et traiter des factures récurrentes](set-up-process-recurring-invoices.md)
+- [Correction de la facture financière](correct-free-text-invoice.md)
+- [Paramétrage de lettres de change](set-up-bills-exchange.md)
+- [Paramétrage des taux d’intérêt pour un code intérêt](set-up-interest-rates-interest-code.md)
+- [Exonération, rétablissement ou contrepassation d’intérêts](waive-reinstate-reverse-interest-fees.md)
+- [Vue d’ensemble du débit direct SEPA](sepa-direct-debit-overview.md)
+- [Paramétrer un mandat de débit direct SEPA](sepa-direct-debit-mandate.md)
+- [Clôturer la comptabilité client](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>Paramétrer les crédits et relances
 
 Les informations de recouvrement de la Comptabilité client sont gérées dans une vue centrale unique, la page Recouvrements. Les directeurs des crédits et perceptions peuvent utiliser cette vue centrale pour gérer les recouvrements. Les agents de recouvrement peuvent lancer le processus de recouvrement soit à partir des listes de clients générées à l’aide de critères de recouvrement prédéfinis, soit à partir de la page Clients.
 
-[Crédit et recouvrements dans le module Comptabilité client](collections-credit-accounts-receivable.md)
-
-[Configuration des modules Comptabilité client et crédit et relances](accounts-receivables-set-up-overview.md)
-
-[Paramétrer les crédits et relances](set-up-collections.md)
+- [Crédit et recouvrements dans le module Comptabilité client](collections-credit-accounts-receivable.md)
+- [Configuration des modules Comptabilité client et crédit et relances](accounts-receivables-set-up-overview.md)
+- [Paramétrer les crédits et relances](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Paramétrer les paiements et règlements
 
 Acceptez différents types de paiement de la part des clients, tels que des lettres de change, des disponibilités en liquide, des chèques, des cartes de crédit et des paiements électroniques. 
 
-:::row:::
-    :::column:::
-        - [Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Paiements centralisés de la comptabilité client](centralized-payments-accounts-receivable.md)
-        - [Règlement d’un paiement client partiel et règlement total du paiement final avant la date de remise](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Régler un paiement partiel client avant la date de remise avec un paiement final après la date de remise](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [Régler un paiement partiel client ayant des remises sur les avoirs](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Règlement d’un paiement client partiel avec plusieurs périodes de remise](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Rembourser les clients](reimburse-customers.md)
-        - [Paiements client pour un montant partiel](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Utiliser un paiement client pour régler plusieurs factures qui couvrent plusieurs périodes de remise](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [Paiements centralisés de la comptabilité client](centralized-payments-accounts-receivable.md)
+- [Règlement d’un paiement client partiel et règlement total du paiement final avant la date de remise](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [Régler un paiement partiel client avant la date de remise avec un paiement final après la date de remise](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [Régler un paiement partiel client ayant des remises sur les avoirs](settle-partial-customer-payment-discounts-credit-notes.md)
+- [Règlement d’un paiement client partiel avec plusieurs périodes de remise](settle-partial-customer-payment-multiple-discount-periods.md)
+- [Rembourser les clients](reimburse-customers.md)
+- [Paiements client pour un montant partiel](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>Ressources supplémentaires
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez à la [Feuille de route de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
+Accédez à la [Feuille de route de Microsoft Dynamics 365](/dynamics365/release-plans/) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
 
 #### <a name="blogs"></a>Blogs
 

@@ -1,6 +1,6 @@
 ---
 title: Page d’accueil des immobilisations
-description: Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation.
+description: Les immobilisations sont des articles de valeur appartenant à un individu ou à une organisation. Les articles comprennent des bâtiments, des véhicules, des terrains et des équipements.
 author: ShylaThompson
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1825ee4617d14b421d4a7e6151d645a653a9fcbb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815666"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897986"
 ---
 # <a name="fixed-assets-home-page"></a>Page d’accueil des immobilisations
 
 [!include [banner](../includes/banner.md)]
 
-Les immobilisations sont des articles de valeur (bâtiments, véhicules, terrains et équipements) détenus par un individu ou une organisation. 
+Les immobilisations sont des articles de valeur appartenant à un individu ou à une organisation. Les articles comprennent des bâtiments, des véhicules, des terrains et des équipements. 
 
 Vous pouvez définir et entrer des informations d’acquisition pour les immobilisations, puis les gérer en les amortissant et en paramétrant un seuil de capitalisation pour déterminer l’amortissement. Vous pouvez calculer des ajustements pour les immobilisations ou les céder. Lorsque vous utilisez les modules Comptabilité et Immobilisations, vous pouvez afficher la valeur actuelle de toutes les immobilisations. Le traitement des immobilisations doit être conforme aux normes comptables internationales et à la législation comptable de chaque pays/région. Il peut s’agir de respecter des règles concernant l’enregistrement des transactions d’acquisition et de cession, l’amortissement, les durées de vie, les revalorisations et dévalorisations des immobilisations. La fonctionnalité Immobilisations intègre bon nombre de ces normes et règles.
 
@@ -38,7 +38,7 @@ Vous pouvez définir et entrer des informations d’acquisition pour les immobil
 
 #### <a name="whats-new-and-in-development"></a>Nouveautés et développements
 
-Accédez aux [Programmes de publication de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
+Accédez aux [Programmes de publication de Microsoft Dynamics 365](/dynamics365/release-plans/) pour découvrir les nouvelles fonctions qui sont en cours de développement. 
 
 #### <a name="blogs"></a>Blogs
 
