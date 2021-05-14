@@ -2,7 +2,8 @@
 title: Configurer un site d’e-commerce B2B
 description: Cette rubrique décrit comment configurer un site d’e-commerce interentreprises (B2B) dans Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799755"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937504"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Mettre en place un site e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Les sites de commerce électronique interentreprises (B2B) fournissent des fonctionnalités clés qui optimisent le workflow pour un utilisateur B2B. Cette rubrique décrit comment configurer un site d’e-commerce B2B dans Microsoft Dynamics 365 Commerce. Elle présente les modules et les paramètres de site qui doivent être configurés pour activer des scénarios spécifiques B2B.
 
@@ -51,7 +53,7 @@ Pour devenir partenaire commercial, les utilisateurs doivent d’abord soumettre
 
 Le module **Inscription partenaire** sur une page de demande de partenariat commercial permet de demander aux utilisateurs de devenir des partenaires commerciaux. Ce module vous permet de collecter les informations utilisateur requises pour le processus d’inscription. De plus, le module **Adresse du compte professionnel** est utilisé pour capturer l’adresse de l’utilisateur.
 
-Pour paramétrer et configurer la page de demande de partenariat commercial dans le générateur de site, procédez comme suit.
+Pour paramétrer et configurer la page de demande de partenariat commercial dans le générateur de site, procédez comme suit :
 
 1. Créez un modèle nommé **Inscription**. Ce modèle doit inclure les modules suivants :
 
@@ -79,7 +81,7 @@ Pour paramétrer et configurer la page de demande de partenariat commercial dans
 
 Une fois la demande de partenaire commercial soumise, une page de confirmation doit être présentée à l’utilisateur pour accuser réception de la soumission. 
 
-Pour paramétrer et configurer la page de confirmation de demande de partenariat commercial dans le générateur de site, procédez comme suit.
+Pour paramétrer et configurer la page de confirmation de demande de partenariat commercial dans le générateur de site, procédez comme suit :
 
 1. Utilisez le modèle **Inscription** créé précédemment pour créer une page nommée **Confirmation de partenariat commercial**.
 1. Dans l’emplacement **En-tête**, ajoutez le fragment d’en-tête préconfiguré avec l’en-tête de site.
@@ -92,7 +94,7 @@ Pour paramétrer et configurer la page de confirmation de demande de partenariat
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 1. Publiez l’URL de la page.
 
-Pour ajouter un lien à la page de confirmation de demande dans le générateur de site, procédez comme suit.
+Pour ajouter un lien à la page de confirmation de demande dans le générateur de site, procédez comme suit :
 
 1. Aller sur la page **Demande de partenariat commercial** que vous avez créée précédemment et sélectionnez **Modifier**. 
 1. Sélectionnez l’emplacement de module **Inscription des partenaires** . Dans le volet des propriétés, sous **Lien vers la page de confirmation d’inscription**, configurez le lien vers la page de demande de partenaire que vous avez créée précédemment. 
@@ -283,9 +285,35 @@ Pour créer une page de détails de facture dans le générateur de site, procé
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 1. Publiez l’URL de la page.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Ajouter un module d'ajout rapide à la page du panier
+
+Le module d'ajout rapide permet d'ajouter rapidement plusieurs articles au panier en utilisant les ID d'article (également appelés ID d'unité de gestion des stocks \[SKU\]). Le module d'ajout rapide est ajouté à la page du panier d'un site.
+
+Pour ajouter un module d'ajout rapide à une page de panier dans le générateur de site Commerce, procédez comme suit :
+
+1. Accédez à **Modèles**, et sélectionnez le modèle de page de panier de votre site.
+1. Sélectionnez **Modifier**.
+1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module d'**Ajout rapide**, puis cliquez sur **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
+1. Accédez à **Pages**, et sélectionnez le modèle de page de panier de votre site.
+1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
+1. Dans le volet de propriétés du module **Conteneur**, sous **Largeur**, sélectionnez **Remplir le conteneur**.
+1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module d'**Ajout rapide**, puis cliquez sur **OK**.
+1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
+
+> [!NOTE] 
+> Le module d'ajout rapide est disponible à partir de la version 10.0.17 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de la bibliothèque de modules](../starter-kit-overview.md)
+
+[Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Vue d’ensemble de la page de création](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Pour créer une page de détails de facture dans le générateur de site, procé
 
 [Module de bloc de contenu](../add-hero-module.md)
 
-[Collecte de produits](../product-collection-module-overview.md)
+[Module de collecte de produits](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

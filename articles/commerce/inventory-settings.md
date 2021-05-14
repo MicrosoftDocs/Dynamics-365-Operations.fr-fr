@@ -2,7 +2,8 @@
 title: Appliquer les paramètres de stock
 description: Cette rubrique couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b2c44eb5ece74de15e22180abc6d9d0448ab401b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dd3db0039525c18521ad6a42b2f281976b7b236a
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798887"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937408"
 ---
 # <a name="apply-inventory-settings"></a>Appliquer les paramètres de stock
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les paramètres de stock et décrit leur application dans Microsoft Dynamics 365 Commerce.
 
@@ -39,12 +41,17 @@ Dans le générateur de site Commerce, il est possible de définir des seuils et
 
 ## <a name="inventory-settings"></a>Paramètres de stock
 
-Dans Commerce, les paramètres de stock sont définis dans **Paramètres du site \> Extensions \> Gestion du stock** dans le générateur de site. Il existe quatre paramètres de stock, dont l’un est obsolète (déconseillé) :
+Dans Commerce, les paramètres de stock sont définis dans **Paramètres du site \> Extensions \> Gestion du stock** dans le générateur de site. Il existe cinq paramètres de stock, dont l’un est obsolète (déconseillé) :
 
 - **Activer la vérification du stock dans l’application** – Ce paramètre active une vérification du stock des produits. Les modules de zone d’achat, de panier et de prélèvement en magasin vérifieront alors le stock des produits et ne permettront d’ajouter un produit au panier que si le stock est disponible.
 - **Niveau de stock basé sur** – Ce paramètre définit la façon dont les niveaux de stock sont calculés. Les valeurs disponibles sont **Total disponible**, **Disponible physique**, et **Seuil de rupture de stock**. Dans Commerce, il est possible de définir des seuils et des plages de stocks pour chaque produit et catégorie. Les API de stock renvoient des informations sur l’inventaire des produits pour les deux propriétés **Total disponible** et **Disponible physique**. Le distributeur décide si la valeur **Total disponible** ou **Disponible physique** doit être utilisée pour déterminer le nombre en stock et les plages correspondantes pour les statuts « en stock » et « en rupture de stock ».
 
     La valeur **Seuil de rupture de stock** du paramètre **Niveau de stock basé sur** est une valeur ancienne (héritée) et obsolète. Lorsqu’il est sélectionné, le nombre en stock est déterminé à partir des résultats de la valeur **Total disponible**, mais le seuil est défini par le paramètre numérique **Seuil de rupture de stock** décrit plus loin. Ce paramètre de seuil s’applique à tous les produits d’un site d’e-commerce. Si le stock est inférieur au seuil, un produit est considéré comme en rupture de stock. Sinon, il est considéré comme en stock. Les fonctionnalités de la valeur **Seuil de rupture de stock** sont limitées et nous vous déconseillons de l’utiliser dans la version 10.0.12 et les versions ultérieures.
+
+- **Niveau d'inventaire pour plusieurs entrepôts** - Ce paramètre permet de calculer le niveau de stock par rapport à l'entrepôt par défaut ou à plusieurs entrepôts. L'option **Basé sur un entrepôt individuel** calcule les niveaux de stock en fonction de l'entrepôt par défaut. Alternativement, un site de commerce électronique peut pointer vers plusieurs entrepôts pour faciliter l'exécution. Dans ce cas, l'option **Basé sur l'agrégat pour les entrepôts d'expédition et de ramassage** est utilisée pour indiquer la disponibilité du stock. Par exemple, lorsqu'un client achète un article et sélectionne « expédition » comme mode de livraison, l'article peut être expédié à partir de n'importe quel entrepôt du groupe d'exécution qui dispose d'un stock disponible. La page de détails des produits (PDP) affichera un message « En stock » pour l'expédition si un entrepôt d'expédition disponible dans le groupe de traitement a du stock. 
+
+> [!IMPORTANT] 
+> Le paramètre **Niveau d'inventaire pour plusieurs entrepôts** est disponible à partir de la version 10.0.19 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Plages de stock** – Ce paramètre définit les plages de stock pour lesquelles des messages sont affichés sur les modules du site. Il est applicable uniquement si la valeur **Total disponible** ou la valeur **Disponible physique** est sélectionnée pour le paramètre **Niveau de stock basé sur**. Les valeurs disponibles sont **Tout**, **Stock faible et rupture de stock** et **En rupture de stock**.
 
@@ -61,15 +68,15 @@ Dans Commerce, les paramètres de stock sont définis dans **Paramètres du site
 
 Les modules Zone d’achat, Liste de souhaits, Sélecteur de magasin, Panier et Icône de panier utilisent les paramètres de stock pour afficher les plages et les messages de stock.
 
-L’image suivante montre un exemple de page de détails du produit (PDP) qui affiche un message en stock (« Disponible »).
+Dans l'exemple de l'illustration suivante, un PDP affiche un message en stock (« Disponible »).
 
 ![Exemple d’un module PDP qui affiche un message en stock](./media/pdp-InStock.png)
 
-L’image suivante montre un exemple de page PDP qui affiche un message de rupture de stock (« Épuisé »).
+Dans l'exemple de l'illustration suivante, un PDP affiche un message « En rupture de stock ».
 
 ![Exemple d’un module PDP qui affiche un message de rupture de stock](./media/pdp-outofstock.png)
 
-L’image suivante montre un exemple de panier qui affiche un message de stock (« Disponible »).
+Dans l'exemple de l'illustration suivante, un panier affiche un message en stock (« Disponible »).
 
 ![Exemple d’un module de panier qui affiche un message en stock](./media/cart-instock.png)
 

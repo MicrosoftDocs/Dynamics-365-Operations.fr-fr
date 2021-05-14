@@ -2,7 +2,7 @@
 title: Prise en charge de la fonction de taxe pour les ordres de transfert
 description: Cette rubrique explique la prise en charge de la nouvelle fonctionnalité de taxe pour les ordres de transfert à l’aide du service de calcul des taxes.
 author: kailiang
-ms.date: 03/10/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 55597e4f0f40677e793b4c182e4b0ced01057751
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832559"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920953"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [banner](../../includes/preview-banner.md)]
 
 Cette rubrique fournit des informations sur le calcul des taxes et l’intégration de la validation dans les ordres de transfert. Cette fonctionnalité vous permet de configurer le calcul et la validation des taxes dans les ordres de transfert pour les transferts de stock. En vertu de la réglementation de l’Union européenne (UE) sur la taxe sur la valeur ajoutée (TVA), les transferts de stock sont considérés comme des livraisons intracommunautaires et des acquisitions intracommunautaires.
 
@@ -159,13 +157,13 @@ Suivez ces étapes pour configurer l’inventaire de base afin d’activer les t
     3. Répétez l’étape 2 pour tous les autres sites que vous devez créer.
 
     > [!NOTE]
-    > L’un des sites que vous créez doit être nommé **Transit**. Dans les étapes ultérieures de cette procédure, vous affecterez ce site à l’entrepôt de transit, de sorte que les documents d’inventaire liés à la taxe puissent être validés dans les transactions « expédition » et « réception » pour les ordres de transfert. L’adresse du site de transit n’a pas d’importance pour le calcul de la taxe. Par conséquent, vous ne pouvez pas le laisser vide.
+    > L’un des sites que vous créez doit être nommé **Transit**. Dans les étapes ultérieures de cette procédure, vous affecterez ce site à l’entrepôt de transit, de sorte que les justificatifs d’inventaire liés à la taxe puissent être validés dans les transactions « expédition » et « réception » pour les ordres de transfert. L’adresse du site de transit n’a pas d’importance pour le calcul de la taxe. Par conséquent, vous ne pouvez pas le laisser vide.
 
     ![Paramétrage des sites](../media/image11.png)
 
 2. Créez des entrepôts d’expédition, de transit et de livraison. Les informations d’adresse conservées dans un entrepôt remplaceront l’adresse du site lors du calcul de la taxe.
 
-    1. Accédez à **Gestion des entrepôts** \> **Configuration** \> **Entrepôt** \> **Entrepôts**.
+    1. Accédez à **Gestion des entrepôts** \> **Paramétrage** \> **Entrepôt** \> **Entrepôts**.
     2. Sélectionnez **Nouveau** pour créer un entrepôt et affectez-le au site correspondant.
     3. Répétez l’étape 2 pour créer un entrepôt pour chaque site, selon les besoins.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821006"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936728"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Commandes des clients en point de vente (PDV)
 
@@ -42,7 +42,7 @@ Avant d’essayer d’utiliser la fonctionnalité de commande client dans le PDV
 
 ### <a name="configure-modes-of-delivery"></a>Configurer les modes de livraison
 
-Pour utiliser les commandes client, vous devez configurer les modes de livraison que le canal de magasin peut utiliser. Vous devez définir au moins un mode de livraison qui peut être utilisé lorsque des lignes de commande sont expédiées à un client depuis un magasin. Vous devez également définir au moins un mode de retrait qui peut être utilisé lorsque des lignes de commande sont récupérées dans le magasin. Les modes de livraison sont définis sur la page **Modes de livraison** au siège de Commerce. Pour plus d’informations sur la configuration des modes de livraison pour les canaux de Commerce, voir [Définir les modes de livraison](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Pour utiliser les commandes client, vous devez configurer les modes de livraison que le canal de magasin peut utiliser. Vous devez définir au moins un mode de livraison qui peut être utilisé lorsque des lignes de commande sont expédiées à un client depuis un magasin. Vous devez également définir au moins un mode de retrait qui peut être utilisé lorsque des lignes de commande sont récupérées dans le magasin. Les modes de livraison sont définis sur la page **Modes de livraison** au siège de Commerce. Pour plus d’informations sur la configuration des modes de livraison pour les canaux de Commerce, voir [Définir les modes de livraison](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Page Modes de livraison](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Avant d’essayer de créer des commandes client dans le PDV, vous devez configu
 - **Pourcentage de frais d’annulation** – Si des frais doivent être appliqués lorsqu’une commande client est annulée, spécifiez le montant de ces frais.
 - **Code de frais d’annulation** – Spécifiez le code frais de la Comptabilité client à utiliser lorsque des frais d’annulation sont appliqués aux commandes client annulées via le PDV. Le code frais définit la logique de validation financière pour les frais d’annulation.
 - **Code frais d’expédition** – Si l’option **Utiliser les frais automatiques avancés** est définie sur **Oui**, ce paramètre n’a aucun effet. Si cette option est définie sur **Non**, les utilisateurs seront invités à saisir manuellement des frais d’expédition lorsqu’ils créeront des commandes client dans le PDV. Utilisez ce paramètre pour mapper un code frais de Comptabilité client qui sera appliqué aux commandes lorsque les utilisateurs saisiront des frais d’expédition. Le code frais définit la logique de validation financière pour les frais d’expédition.
-- **Utiliser les frais automatiques avancés** – Définissez cette option sur **Oui** pour utiliser les frais automatiques calculés par le système lorsque les commandes client sont créées dans le PDV. Ces frais automatiques peuvent être utilisés pour calculer les frais d’expédition ou d’autres frais spécifiques à la commande ou à l’article. Pour plus d’informations sur la configuration et l’utilisation de frais automatiques avancés, consultez [Frais automatiques avancés omnicanaux](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Utiliser les frais automatiques avancés** – Définissez cette option sur **Oui** pour utiliser les frais automatiques calculés par le système lorsque les commandes client sont créées dans le PDV. Ces frais automatiques peuvent être utilisés pour calculer les frais d’expédition ou d’autres frais spécifiques à la commande ou à l’article. Pour plus d’informations sur la configuration et l’utilisation de frais automatiques avancés, consultez [Frais automatiques avancés omnicanaux](./omni-auto-charges.md).
 
 ![Onglet Commandes client sur la page des paramètres de Commerce](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Mettre à jour les dispositions de l’écran des transactions dans le PDV
 
-Assurez-vous que la [disposition de l’écran](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) du PDV est configuré pour prendre en charge la création et la gestion des commandes client, et que toutes les opérations de PDV requises sont configurées. Voici quelques-unes des opérations de PDV recommandées pour prendre en charge correctement la création et la gestion des commandes client :
+Assurez-vous que la [disposition de l’écran](./pos-screen-layouts.md) du PDV est configuré pour prendre en charge la création et la gestion des commandes client, et que toutes les opérations de PDV requises sont configurées. Voici quelques-unes des opérations de PDV recommandées pour prendre en charge correctement la création et la gestion des commandes client :
 - **Expédier tous les produits** – Cette opération permet de spécifier que toutes les lignes du panier de transaction seront expédiées vers une destination.
 - **Expédier des produits sélectionnés** – Cette opération permet de spécifier que les lignes sélectionnées dans le panier de transaction seront expédiées vers une destination.
 - **Récupérer tous les produits** – Cette opération permet de spécifier que toutes les lignes du panier de transaction seront retirées à un emplacement de magasin sélectionné.
 - **Récupérer tous les produits sélectionnés** – Cette opération permet de spécifier que les lignes sélectionnées dans le panier de transaction seront retirées à un emplacement de magasin sélectionné.
 - **Exécuter tous les produits** – Cette opération permet de spécifier que toutes les lignes du panier de transaction seront exécutées. Si cette opération est utilisée dans le PDV, la commande client sera convertie en une transaction au comptant sans livraison.
-- **Exécuter des produits sélectionnés** – Cette opération permet de spécifier que les lignes sélectionnées dans le panier de transaction sont exécutées par le client au moment de l’achat. Cette opération n’est utile que dans un scénario de [commande hybride](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Exécuter des produits sélectionnés** – Cette opération permet de spécifier que les lignes sélectionnées dans le panier de transaction sont exécutées par le client au moment de l’achat. Cette opération n’est utile que dans un scénario de [commande hybride](./hybrid-customer-orders.md).
 - **Rappeler une commande** – Cette opération est utilisée pour rechercher et récupérer les commandes client afin que les utilisateurs du PDV puissent les modifier, les annuler ou effectuer des opérations liées à leur exécution selon les besoins.
 - **Changer de mode de livraison** – Cette opération permet de changer rapidement le mode de livraison des lignes déjà configurées pour l’expédition, sans exiger que les utilisateurs passent à nouveau par le flux « Expédier tous les produits » ou « Expédier les produits sélectionnés ».
 - **Remplacement de dépôt** – Cette opération permet de modifier le montant du dépôt que le client paiera pour la commande client sélectionnée.
@@ -128,7 +128,7 @@ Assurez-vous que la [disposition de l’écran](https://docs.microsoft.com/dynam
 Les commandes de vente au détail créées dans le canal en ligne ou en magasin peuvent être rappelées et modifiées via le PDV selon les besoins.
 
 > [!IMPORTANT]
-> Toutes les commandes de produits ne peuvent pas être modifiées via l’application PDV. Les commandes créées dans un canal de centre d’appels ne peuvent pas être modifiées par le biais du PDV si le paramètre [Activer la finalisation de la commande](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) est activé pour le canal du centre d’appels. Pour garantir un traitement correct des paiements, les commandes provenant d’un canal de centre d’appels et qui utilisent la fonctionnalité Activer l’achèvement de commande doivent être modifiées par le biais de l’application du centre d’appels du siège de Commerce.
+> Toutes les commandes de produits ne peuvent pas être modifiées via l’application PDV. Les commandes créées dans un canal de centre d’appels ne peuvent pas être modifiées par le biais du PDV si le paramètre [Activer la finalisation de la commande](./set-up-order-processing-options.md#enable-order-completion) est activé pour le canal du centre d’appels. Pour garantir un traitement correct des paiements, les commandes provenant d’un canal de centre d’appels et qui utilisent la fonctionnalité Activer l’achèvement de commande doivent être modifiées par le biais de l’application du centre d’appels du siège de Commerce.
 
 Dans les versions 10.0.17 et ultérieures, les utilisateurs peuvent modifier les commandes éligibles via l’application PDV, même si la commande est partiellement traitée. Cependant, les commandes entièrement facturées ne peuvent toujours pas être modifiées par le biais du PDV. Pour activer cette fonctionnalité, activez la fonctionnalité **Modifier les commandes partiellement exécutées dans le point de vente** dans l’espace de travail **Gestion des fonctionnalités**. Si cette fonctionnalité n’est pas activée, ou si vous utilisez la version 10.0.16 ou antérieure, les utilisateurs ne pourront modifier les commandes client dans le PDV que si la commande est complètement ouverte. De plus, si la fonctionnalité est activée, vous pouvez limiter le nombre de magasins qui peuvent modifier les commandes partiellement traitées. L’option permettant de désactiver cette fonctionnalité pour des magasins spécifiques peut être configurée via le **Profil de la fonctionnalité** sous le raccourci **Général**.
 
@@ -153,7 +153,7 @@ Dans les versions 10.0.17 et ultérieures, les utilisateurs peuvent modifier les
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Finalisation de l’expédition de la commande client ou le retrait au PDV
 
-Une fois la commande créée, les articles seront retirés par le client dans un magasin ou expédiés, selon la configuration de la commande. Pour plus d’informations sur ce processus, consultez la documentation sur [l’exécution des commandes en magasin](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
+Une fois la commande créée, les articles seront retirés par le client dans un magasin ou expédiés, selon la configuration de la commande. Pour plus d’informations sur ce processus, consultez la documentation sur [l’exécution des commandes en magasin](./order-fulfillment-overview.md).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Flux de transaction asynchrone pour les commandes client
 

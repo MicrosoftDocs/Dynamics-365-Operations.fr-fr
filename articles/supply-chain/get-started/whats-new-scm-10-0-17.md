@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907961"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935603"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Nouveautés et modifications dans Dynamics 365 Supply Chain Management 10.0.17 (avril 2021)
 
@@ -35,7 +35,7 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 Les fonctionnalités suivantes sont comprises dans cette version.  Suivez les liens vers le [programme de publication](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) pour voir les dates de lancement officiel de chaque fonctionnalité.
 
-La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser. Certaines des fonctionnalités répertoriées sont éventuellement toujours en version préliminaire, mais la plupart sont déjà généralement disponibles.
+La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 ### <a name="asset-management"></a>Gestion des actifs
 
@@ -57,7 +57,7 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 - [Planification de la création de travaux d’entrepôt](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Pour plus d’informations, voir [Planifier la création du travail pendant la vague](../warehousing/configure-wave-schedule-work-creation.md).
 
-- [Définition des dimensions financières par défaut pour les n° documents de réévaluation des coûts standard des stocks](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Pour plus d’informations, voir [Gérer les mises à jour des coûts standard](../cost-management/manage-standard-cost-updates.md).
+- [Définition des dimensions financières par défaut pour les justificatifs de réévaluation des coûts standard des stocks](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Pour plus d’informations, voir [Gérer les mises à jour des coûts standard](../cost-management/manage-standard-cost-updates.md).
 
 - [Expédition de petits colis](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Pour plus d’informations, voir [Expédition de petits colis](../warehousing/small-parcel-shipping.md).
 
@@ -71,13 +71,13 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 - [Fonctionnalités de gestion des actifs dans l’interface d’exécution de l’atelier de production](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Pour plus d’informations, consultez [Configurer l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md).
 
-- Souche de numéros unifiés pour les ID tâche<br> - Pour plus d’informations, voir 
+- [Exécution de la fabrication avec des unités d’échelle dans le cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Pour plus d’informations, voir [Charges de travail d’exécution de la fabrication pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 - [Remplacer le principe de réservation par défaut pour les articles en production](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Pour plus d’informations, voir [Remplacer le principe de réservation par défaut pour les articles en production](../production-control/override-default-reservation-principle.md).
 
 - [Vues enregistrées pour le contrôle de la production](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Pour plus d’informations, voir [Vues enregistrées standard pour Supply Chain Management](saved-views-scm.md).
 
-- [Exécution de la fabrication avec des unités d’échelle dans le cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Pour plus d’informations, voir [Charges de travail d’exécution de la fabrication pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- Souche de numéros unifiés pour les ID tâche<br> - Pour plus d’informations, voir [Souche de numéros unifiée pour les ID de tâche](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Planification
 
@@ -87,7 +87,7 @@ La plupart de ces fonctionnalités doivent être activées à l’aide de [Gesti
 
 - [Prise en charge des demandes d’achat pour l’optimisation de la planification](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Pour plus d’informations, voir [Demandes d’achat](../master-planning/planning-optimization/purchase-requisitions.md).
 
-- [Vues enregistrées pour les ordres prévisionnels](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Pour plus d’informations, voir [Vues enregistrées standard pour Supply Chain Management](saved-views-scm.md).
+- [Vues enregistrées pour les commandes prévisionnelles](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Pour plus d’informations, voir [Vues enregistrées standard pour Supply Chain Management](saved-views-scm.md).
 
 ### <a name="product-information-management"></a>Gestion des informations sur les produits
 

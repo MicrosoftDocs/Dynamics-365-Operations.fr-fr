@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833447"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935807"
 ---
 # <a name="improve-master-planning-performance"></a>Améliorer les performances de planification
 
@@ -29,7 +29,7 @@ ms.locfileid: "5833447"
 
 Cette rubrique explique les diverses options vous permettant d’améliorer les performances de la planification ou de résoudre les problèmes. Elle inclut des informations sur les paramètres et sur les configurations et les actions recommandées. Elle contient également un récapitulatif de tous les paramètres importants à prendre en compte lors de la mise en œuvre de planifications à long terme.
 
-Cette rubrique est destinée aux administrateurs système ou aux utilisateurs informaticiens ayant des capacités de résolution de problèmes. Elle est également destinées aux planificateurs de production ou d’approvisionnement, car elle comprend des informations sur les paramètres liés aux exigences de la planification d’entreprise. 
+Cette rubrique est destinée aux administrateurs système ou aux utilisateurs informaticiens ayant des capacités de résolution de problèmes. Elle est également destinée aux planificateurs de production ou d’approvisionnement, car elle comprend des informations sur les paramètres liés aux exigences de la planification d’entreprise. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Paramètres associés aux performances de la planification
 
@@ -37,11 +37,11 @@ Différents paramètres influencent le temps d’exécution de la planification 
 
 ### <a name="number-of-threads"></a>Nombre de threads
 
-Le paramètre **Nombre de threads** vous permet d’adapter le processus de calcul PDP/MRP pour qu’il améliore ses performances sur une jeu de données spécifique. Ce paramètre spécifie le nombre total de threads qui seront utilisés pour exécuter la planification. Il entraîne la parallélisation de l’exécution de la planification qui permet de réduire le temps d’exécution. 
+Le paramètre **Nombre de threads** vous permet d’adapter le processus de calcul PDP/MRP pour qu’il améliore ses performances sur un jeu de données spécifique. Ce paramètre spécifie le nombre total de threads qui seront utilisés pour exécuter la planification. Il entraîne la parallélisation de l’exécution de la planification qui permet de réduire le temps d’exécution. 
 
 Vous pouvez définir le paramètre **Nombre de threads** dans la boîte de dialogue **Exécution de la planification**. Pour ouvrir cette boîte de dialogue, accédez à **Planification \> Planification \> Exécution \> Planification**, ou sélectionnez **Exécuter** dans l’espace de travail **Planification**. Pour déterminer la meilleure valeur pour ce paramètre, vous devez procéder par essai-erreur. Toutefois, vous pouvez utiliser les formules suivantes pour calculer une valeur initiale :
 
-- **Si votre secteur est la fabrication :** (Nombre de threads) = (Nombre d’ordres prévsionnels ÷ 1 000)
+- **Si votre secteur est la fabrication :** (Nombre de threads) = (Nombre de commandes prévisionnelles ÷ 1 000)
 - **Sinon :** (Nombre de threads) = (Nombre d’articles ÷ 1 000)
 
 Le nombre d’applications d’assistance utilisées lors de la planification doit être inférieur ou égal au nombre maximal de threads autorisés sur le serveur de traitement par lots. Si le nombre d’applications d’assistance dépasse le nombre de threads sur le serveur de traitement par lots, les threads supplémentaires ne fonctionneront pas.
@@ -55,7 +55,7 @@ En modifiant le paramètre **Nombre de tâches par paquet de tâches** (c’est-
 
 Vous pouvez définir le paramètre **Nombre de tâches par paquet de tâches** dans la section **Performances** de l’onglet **Général** de la page **Paramètres de planification** (**Planification \> Paramétrage \> Paramètres de Planification**). La meilleure valeur pour ce paramètre dépend de vos données. Par conséquent, il est recommandé de commencer par une valeur **1**, puis de procéder par essai-erreur pour déterminer la meilleure valeur pour votre configuration.
 
-En général, nous recommandons d’augmenter le nombre de tâches lorsque le nombre d’articles est très importante (de l’ordre de la centaine de milliers). Sinon, vous devez réduire le nombre de tâches. Pour les secteurs spécifiques suivants, tenez compte des recommandations suivantes :
+En général, nous recommandons d’augmenter le nombre de tâches lorsque le nombre d’articles est très important (de l’ordre de la centaine de milliers). Sinon, vous devez réduire le nombre de tâches. Pour les secteurs spécifiques suivants, tenez compte des recommandations suivantes :
 
 - Dans les secteurs de la vente au détail et de la distribution, où il existe de nombreux articles indépendants, utilisez de nombreuses d’applications d’assistance, car il n’existe pas de dépendance entre les articles. 
 - Dans le secteur de la fabrication, où il existe de nombreuses nomenclatures (BOM) et des sous-composants partagés, utilisez moins d’applications d’assistance, car les dépendances entre les articles peuvent entraîner des délais d’attente.
@@ -65,7 +65,7 @@ En général, nous recommandons d’augmenter le nombre de tâches lorsque le no
 
 ### <a name="use-of-cache"></a>Utilisation du cache
 
-Le paramètre **Utilisation du cache** vous permet d’adapter le processus de calcul PDP/MRP pour qu’il ait de meilleurs performances sur une jeu de données spécifique. Par exemple, vous pouvez l’ajuster pour atteindre les résultats suivants :
+Le paramètre **Utilisation du cache** vous permet d’adapter le processus de calcul PDP/MRP pour qu’il ait de meilleurs performances sur un jeu de données spécifique. Par exemple, vous pouvez l’ajuster pour atteindre les résultats suivants :
 
 - Plus la mise en cache est conséquente, plus il y a de données en mémoire. L’attente est que ces données seront utilisées à nouveau ultérieurement. S’il y a des données en mémoire, vous pouvez enregistrer certaines requêtes de base de données. Toutefois, plus la mise en cache est conséquente, plus les besoins de mémoire augmentent.
 - Si la mise en cache est moindre, il faut extraire les mêmes données dans la base de données plus fréquemment. En outre, le serveur d’objets d’application (AOS) enregistre peu de données dans la mémoire pendant le processus.
@@ -81,7 +81,7 @@ Vous pouvez définir le paramètre **Utilisation du cache** dans la section **Pe
 
 Le paramètre **Nombre d’ordres dans le paquet de confirmation** spécifie le nombre total d’ordres qui seront traités à la fois par chaque thread/traitement par lots. Cela entraîne la parallélisation du processus de conformation automatique.
 
-Vous pouvez définir le paramètre **Nombre d’ordres par paquet de confirmation** dans la section **Performances** de l’onglet **Général** de la page **Paramètres de planification** (**Planification \> Paramétrage \> Paramètres de Planification**). La parallélisation du processus de confirmation automatique est basée sur les ordres qui doivent être traités ensemble. Par exemple, si ce paramètre est défini sur **50**, chaque thread ou tâche de traitement par lots prendra 50 ordres à la fois pour les traiter ensemble. Il est recommandé de procéder par essai-erreur pour identifier le meilleur valeur. Toutefois, vous pouvez utiliser la formule suivante pour calculer une valeur initiale :
+Vous pouvez définir le paramètre **Nombre d’ordres par paquet de confirmation** dans la section **Performances** de l’onglet **Général** de la page **Paramètres de planification** (**Planification \> Paramétrage \> Paramètres de Planification**). La parallélisation du processus de confirmation automatique est basée sur les ordres qui doivent être traités ensemble. Par exemple, si ce paramètre est défini sur **50**, chaque thread ou tâche de traitement par lots prendra 50 ordres à la fois pour les traiter ensemble. Il est recommandé de procéder par essai-erreur pour identifier la meilleure valeur. Toutefois, vous pouvez utiliser la formule suivante pour calculer une valeur initiale :
 
 (Nombre d’ordres par offre groupée) = (Nombre d’articles de la demande ÷ Nombre de threads)
 
@@ -94,11 +94,11 @@ Les plages de gestion indiquent la durée dans l’avenir des calculs par la pla
 
 ### <a name="actions"></a>Actions
 
-Parmi les plages de gestion, vous pouvez également trouver le paramètre **Message d’action**. Le calcul des messages d’action entraîne un temps d’exécution de la planification plus long. Si les messages d’action ne sont pas régulièrement analysés et mis en application (chaque jour, chaque semaine), songez à désactiver leur calcul lors de l’exécution de la planification. Pour désactiver le calcul, dans la page **Plans généraux** (**Planification \> Configuration \> Plans \> Plans généraux**), définissez la plage de gestion **Message d’action** sur **0** (zéro). Assurez-vous également que le paramètre **Message d’action** est désactivé pour tous les groupes de couverture.
+Parmi les plages de gestion, vous pouvez également trouver le paramètre **Message d’action**. Le calcul des messages d’action entraîne un temps d’exécution de la planification plus long. Si les messages d’action ne sont pas régulièrement analysés et mis en application (chaque jour, chaque semaine), songez à désactiver leur calcul lors de l’exécution de la planification. Pour désactiver le calcul, dans la page **Plans généraux** (**Planification \> Paramétrage \> Plans \> Plans généraux**), définissez la plage de gestion **Message d’action** sur **0** (zéro). Assurez-vous également que le paramètre **Message d’action** est désactivé pour tous les groupes de couverture.
 
 ### <a name="futures"></a>Perspectives
 
-Le calcul des perspectives entraîne un temps d’exécution de la planification plus long. Si vous ne planifiez pas de nomenclature, ou sil n’est pas nécessaire de propager des retards entre l’approvisionnement et la demande lors de la planification, envisagez de désactiver le calcul des perspectives lors de la planification. Pour désactiver les calculs, définissez la plage de gestion **Perspectives** sur **0** (zéro) pour le plan général que vous exécutez. Assurez-vous également que le paramètre **Perspectives** est désactivé pour tous les groupes de couverture.
+Le calcul des perspectives entraîne un temps d’exécution de la planification plus long. Si vous ne planifiez pas de nomenclature, ou s'il n’est pas nécessaire de propager des retards entre l’approvisionnement et la demande lors de la planification, envisagez de désactiver le calcul des perspectives lors de la planification. Pour désactiver les calculs, définissez la plage de gestion **Perspectives** sur **0** (zéro) pour le plan général que vous exécutez. Assurez-vous également que le paramètre **Perspectives** est désactivé pour tous les groupes de couverture.
 
 ## <a name="one-heavy-routine-at-a-time"></a>Une routine lourde à la fois
 

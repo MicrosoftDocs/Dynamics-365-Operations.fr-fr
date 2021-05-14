@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830026"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954643"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gérer les modifications apportées aux produits d’ingénierie
 
@@ -139,13 +139,14 @@ Pendant que vous examinez une demande de modification, dans le volet Actions, su
 
 Comme décrit dans [Sociétés d’ingénierie et règles de propriété des données](engineering-org-data-ownership-rules.md), les données produit que vous pouvez modifier varient en fonction du type d’entité juridique dans laquelle vous travaillez (une société d’ingénierie par rapport à une société opérationnelle). Les règles de propriété des données sont également appliquées aux demandes de modification technique. Par conséquent, en fonction de l’entité juridique dans laquelle vous créez un ordre de modification technique, différents types de modifications peuvent être effectués. Voici quelques exemples :
 
-- Pour les demandes de modification technique dans une **société d’ingénierie**, vous pouvez apporter des modifications de base aux données d’ingénierie. Par exemple, vous pouvez créer des versions d’un produit, modifier la structure d’un produit via la nomenclature et modifier les valeurs d’attributs d’ingénierie. Pour chaque produit concerné, sélectionnez l’une des valeurs suivantes dans le champ **Impact** :
+- Pour les demandes de modification technique dans une *société d’ingénierie*, vous pouvez apporter des modifications de base aux données d’ingénierie. Par exemple, vous pouvez créer des versions d’un produit, modifier la structure d’un produit via la nomenclature et modifier les valeurs d’attributs d’ingénierie. Pour chaque produit concerné, sélectionnez l’une des valeurs suivantes dans le champ **Impact** :
 
     - **Aucun** – Mettre à jour la version existante du produit (mise à jour en version).
     - **Nouvelle version** – Créez une version basée sur la version de produit sélectionnée.
-    - **Nouveau produit** – Créez un produit ou une variante de produit complètement nouveau basé sur la version de produit sélectionnée.
+    - **Nouveau produit** – Créez un produit complètement nouveau basé sur la version de produit sélectionnée.
+    - **Nouvelle variante** – Créez une variante basée sur la version de produit sélectionnée. Sa nomenclature et ses informations de gamme seront copiées.
 
-- Pour les demandes de modification technique dans une **société opérationnelle**, vous pouvez modifier les données logistiques du produit. Par exemple, vous pouvez enrichir la nomenclature existante avec des paramètres d’approvisionnement, ajouter des gammes locales ou des nomenclatures locales, et même enrichir une nomenclature en ajoutant de nouvelles lignes de nomenclature pour les matériaux d’emballage locaux, les fluides de lubrification ou les instructions dans la langue locale. Les enrichissements réalisés par les utilisateurs dans l’entreprise opérationnelle seront préservés lorsque de nouvelles mises à jour seront envoyées par la société d’ingénierie. Pour plus d’informations, consultez [Sociétés d’ingénierie et règles de propriété des données](engineering-org-data-ownership-rules.md).
+- Pour les demandes de modification technique dans une *société opérationnelle*, vous pouvez modifier les données logistiques du produit. Par exemple, vous pouvez enrichir la nomenclature existante avec des paramètres d’approvisionnement, ajouter des gammes locales ou des nomenclatures locales, et même enrichir une nomenclature en ajoutant de nouvelles lignes de nomenclature pour les matériaux d’emballage locaux, les fluides de lubrification ou les instructions dans la langue locale. Les enrichissements réalisés par les utilisateurs dans l’entreprise opérationnelle seront préservés lorsque de nouvelles mises à jour seront envoyées par la société d’ingénierie. Pour plus d’informations, consultez [Sociétés d’ingénierie et règles de propriété des données](engineering-org-data-ownership-rules.md).
 
     Lorsque les ordres de modification technique sont traités dans la société d’ingénierie, les produits sont créés et/ou mis à jour uniquement dans la société d’ingénierie. Par conséquent, si les données de base de produit doivent également être mises à jour, vous devez également transmettre les produits aux sociétés opérationnelles.
 

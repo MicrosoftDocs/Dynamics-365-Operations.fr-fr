@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842079"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947518"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -48,7 +48,7 @@ Avant de pouvoir utiliser la gestion des modifications techniques, vous devez ac
 
 Commencez par activer les fonctionnalités en suivant ces étapes.
 
-1. Accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Accédez à l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Rechercher des mises à jour.
 1. Activez la fonctionnalité nommée **Gestion des modifications d’ingénierie**.
 1. Si vous souhaitez l’utiliser, activez également la fonctionnalité nommée **Version de dimension de produit**.
@@ -57,9 +57,12 @@ Ensuite, activez les clés de configuration en suivant ces étapes.
 
 1. Mettez votre système en mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Accédez à **Administration système \> Paramétrage \> Configuration des licences**.
-1. Développez le nœud **Commerce**
-1. Cochez la case **Gestion du changement d’ingénierie**.
-1. Si vous souhaitez l’utiliser, cochez également **Dimension du produit – Version**.
+1. Développez le nœud **Commerce**.
+1. Activez la clé de configuration de la fonction principale en activant la case à cocher **Gestion du changement technologique**. (Il n'est pas nécessaire de développer le nœud, sauf si vous souhaitez également désactiver l'une de ses sous-fonctionnalités ou les deux.)
+1. Si vous souhaitez également utiliser la dimension de la version, cochez **Dimension du produit – Version**. (Cette case à cocher se trouve plus bas dans la liste, elle n'est pas imbriquée sous le nœud **Gestion du changement technologique**.)
 1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> À partir d'avril 2022, les clés de licence pour **Gestion du changement technologique** et **Dimension du produit – Version** seront activées par défaut pour toutes les nouvelles installations, mais vous pourrez toujours les désactiver si nécessaire.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

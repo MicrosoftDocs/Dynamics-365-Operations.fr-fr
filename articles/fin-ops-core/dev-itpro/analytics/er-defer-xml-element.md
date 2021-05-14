@@ -2,7 +2,7 @@
 title: Différer l’exécution des éléments XML aux formats ER
 description: Cette rubrique explique comment reporter l’exécution d’un élément XML au format d’état électronique (ER).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894050"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944483"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Différer l’exécution des éléments XML aux formats ER
 
@@ -59,14 +59,14 @@ Si vous n’avez pas encore terminé l’exemple dans la rubrique [Différer l�
 
 | Description du contenu            | Nom de fichier |
 |--------------------------------|-----------|
-| Configuration de modèle de données ER    | [Modèle d’apprentissage des éléments différés.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuration de mise en correspondance de modèle ER | [Modèle d’apprentissage des éléments différés.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuration de modèle de données ER    | [Modèle d’apprentissage des éléments différés.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuration de mise en correspondance de modèle ER | [Modèle d’apprentissage des éléments différés.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Avant de commencer, vous devez également télécharger et enregistrer la configuration suivante de l’exemple de solution ER sur votre ordinateur local.
 
 | Description du contenu     | Nom de fichier |
 |-------------------------|-----------|
-| Configuration de format ER | [Format d’apprentissage des éléments XML différés.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuration de format ER | [Format d’apprentissage des éléments XML différés.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importer l’exemple de configurations ER
 
@@ -164,7 +164,7 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
 1. Dans la page **Concepteur de format**, sélectionnez **Exécuter**.
 2. Téléchargez le fichier proposé par le navigateur Web et ouvrez-le pour examen.
 
-    ![Fichier téléchargé](./media/ER-DeferredXml-Run.png)
+    ![Fichier téléchargé au format importé](./media/ER-DeferredXml-Run.png)
 
 Notez que le nœud récapitulatif présente la somme des valeurs fiscales pour les transactions traitées. Parce que le format est configuré pour utiliser le **model.Data.Summary.Total** utilisé pour retourner cette somme, la somme est calculée en appelant l’aggrégation **TotalSum** de la source de données **Groupé** du type *GroupBy* dans la mise en correspondance de modèle. Pour calculer cette agrégation, le mappage de modèle itère sur toutes les transactions qui ont été sélectionnées dans la source de données **Filtré**. En comparant les temps d’exécution du nœud récapitulatif et du dernier nœud d’enregistrement, vous pouvez déterminer que le calcul de la somme a pris 12 millisecondes (ms). En comparant les temps d’exécution du premier nœud et du dernier nœud d’enregistrement, vous pouvez déterminer que la génération de tous les nœuds d’enregistrement a pris 9 millisecondes (ms). Par conséquent, un total de 21 ms était nécessaire.
 
@@ -196,7 +196,7 @@ Si le volume de transaction est beaucoup plus important que le volume dans l’e
 11. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 12. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredXml-Run1.png)
+    ![Liste générée de la valeur fiscale avec total cumulé](./media/ER-DeferredXml-Run1.png)
 
     Le dernier nœud d’enregistrement contient le total cumulé des valeurs de taxe qui est calculé pour toutes les transactions traitées en utilisant la sortie générée comme source de données. Cette source de données commence au début du rapport et se poursuit jusqu’à la dernière transaction fiscale. Le nœud récapitulatif contient la somme des valeurs de taxe pour toutes les transactions traitées qui sont calculées dans le mappage de modèle en utilisant la source de données du type *GroupBy*. Notez que ces valeurs sont égales. Par conséquent, la somme basée sur la sortie peut être utilisée au lieu de **GroupBy**. En comparant les temps d’exécution du premier nœud et du nœud récapitulatif, vous pouvez déterminer que la génération de tous les nœuds d’enregistrement et de la somme a pris 11 millisecondes (ms). Par conséquent, en ce qui concerne la génération des nœuds d’enregistrement et de la somme des valeurs fiscales, le format modifié est environ deux fois plus rapide que le format d’origine.
 
@@ -205,7 +205,7 @@ Si le volume de transaction est beaucoup plus important que le volume dans l’e
 15. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 16. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredXml-Run2.png)
+    ![Génération de la liste des valeurs de taxe à l'aide de la formule modifiée](./media/ER-DeferredXml-Run2.png)
 
     Notez que le total cumulé des valeurs de taxe dans le dernier nœud d’enregistrement est désormais égal à la somme dans le nœud récapitulatif.
 
@@ -218,7 +218,7 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredXml-Run3.png)
+    ![Fichier téléchargé des valeurs fiscales pour l'en-tête du rapport](./media/ER-DeferredXml-Run3.png)
 
     Notez que la somme des valeurs de taxe dans le nœud récapitulatif est désormais égale à 0 (zéro), car cette somme est désormais calculée en fonction de la sortie générée. Lorsque le premier nœud d’enregistrement est généré, la sortie générée ne contient pas encore de nœuds d’enregistrement contenant les détails de transaction. Vous pouvez configurer ce format pour différer l’exécution de l’élément de séquence **Rapport \\Message \\Récapitulatif** jusqu’à ce que l’élément de séquence **Rapport \\Message \\Enregistrement** ait été exécuté pour toutes les transactions fiscales.
 
@@ -232,7 +232,7 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredXml-Run4.png)
+    ![Fichier téléchargé de l'exécution différée](./media/ER-DeferredXml-Run4.png)
 
     L’élément **Rapport \\Message \\Récapitulatif** n’est désormais exécuté qu’après que tous les autres éléments imbriqués sous son élément parent, **Rapport \\Message**, ont été exécutés. Par conséquent, il est exécuté après que l’élément **Rapport \\Message \\Enregistrement** a été exécuté pour toutes les transactions fiscales de la source de données **model.Data.List**. Les temps d’exécution des premier et dernier nœuds d’enregistrement, ainsi que des nœuds d’en-tête et de résumé, révèlent ce fait.
 

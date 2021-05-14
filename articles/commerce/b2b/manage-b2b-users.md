@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799851"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936654"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gérer les partenaires commerciaux sur les sites Web de commerce électronique B2B
 
@@ -43,9 +43,9 @@ Pour activer la fonctionnalité de capacités de commerce électronique B2B dans
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Créez une souche de numéros et ajoutez-la aux paramètres partagés de Commerce
 
-Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transactions qui en exigent. Pour plus d’informations sur les souches de numéros, voir [Vue d’ensemble des souches de numéros](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Les souches de numéros permettent de générer des identificateurs uniques et consultables pour les enregistrements de données principales et de transactions qui en exigent. Pour plus d’informations sur les souches de numéros, voir [Vue d’ensemble des souches de numéros](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
-Pour créer une souche de numéros et l’ajouter aux paramètres partagés de Commerce Headquarters, procédez comme suit.
+Pour créer une souche de numéros et l’ajouter aux paramètres partagés de Commerce Headquarters, procédez comme suit :
 
 1. Allez dans **Retail et Commerce \> Configuration du siège  \> Souches de numéros \> Souches de numéros**, puis créez une souche de numéros.
 1. Allez dans **Retail et Commerce \> Configuration du siège \> Paramètres \> Paramètres commerciaux partagés**, et ajoutez la nouvelle souche de numéros à la référence **ID de la hiérarchie client**.
@@ -54,7 +54,7 @@ Pour créer une souche de numéros et l’ajouter aux paramètres partagés de C
 
 Les partenaires commerciaux potentiels peuvent lancer le processus d’intégration sur un site Web de commerce électronique B2B en soumettant une demande d’intégration via un lien sur le site. Une fois qu’un utilisateur partenaire potentiel a sélectionné le lien, il peut fournir les détails nécessaires à l’intégration et à l’inscription. Une fois la demande soumise, une page de confirmation de soumission apparaît. Si la soumission est approuvée, le demandeur (c’est-à-dire l’utilisateur qui a lancé la demande d’intégration) devient l’utilisateur administrateur du partenaire.
 
-Pour approuver et configurer un utilisateur administrateur de partenaire dans Commerce Headquarters, procédez comme suit.
+Pour approuver et configurer un utilisateur administrateur de partenaire dans Commerce Headquarters, procédez comme suit :
 
 1. Accédez à **Retail et Commerce IT \> Programme de distribution**.
 1. Exécutez la tâche **P-0001** pour transférer toutes les demandes d’intégration des partenaires commerciaux dans Commerce Headquarters.
@@ -73,7 +73,7 @@ Une fois la demande approuvée et les enregistrements de la hiérarchie des clie
 
 L’utilisateur administrateur du partenaire commercial peut intégrer des utilisateurs partenaires supplémentaires au site Web de commerce électronique B2B si nécessaire.
 
-Pour intégrer des utilisateurs partenaires supplémentaires à un site Web de commerce électronique B2B, procédez comme suit.
+Pour intégrer des utilisateurs partenaires supplémentaires à un site Web de commerce électronique B2B, procédez comme suit :
 
 1. Connectez-vous au site e-commerce B2B en tant qu’administrateur.
 1. Allez dans **Mon compte \> Utilisateurs de l’organisation \> Afficher les détails** et sélectionnez **Ajouter un utilisateur**.
@@ -87,7 +87,7 @@ Une fois l’enregistrement client synchronisé, le statut de l’utilisateur su
 
 ## <a name="edit-business-partner-user-details"></a>Modifier les détails de l’utilisateur du partenaire commercial
 
-Pour modifier les détails des utilisateurs partenaires, procédez comme suit.
+Pour modifier les détails des utilisateurs partenaires, procédez comme suit :
 
 1. Connectez-vous au site e-commerce B2B en tant qu’administrateur.
 1. Allez dans **Mon compte \> Utilisateurs de l’organisation \> Afficher les détails**, cliquez sur le bouton **Modifier** (symbole de crayon), effectuez les modifications requises, puis cliquez sur **Enregistrer**. Les modifications ne prennent effet qu’après l’exécution des tâches **P-0001**, **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone**, et **1010** (**Clients**).
@@ -96,7 +96,7 @@ Pour modifier les détails des utilisateurs partenaires, procédez comme suit.
 
 Au besoin, un administrateur peut supprimer les utilisateurs existants d’une organisation partenaire commerciale de la liste des utilisateurs qui peuvent accéder au site Web de commerce électronique B2B.
 
-Pour supprimer un utilisateur partenaire, procédez comme suit.
+Pour supprimer un utilisateur partenaire, procédez comme suit :
 
 1. Connectez-vous au site e-commerce B2B en tant qu’administrateur.
 1. Allez dans **Mon compte \> Utilisateurs de l’organisation \> Afficher les détails** et cliquez sur le bouton **Supprimer** (symbole X). Lorsqu’un message de confirmation apparaît, confirmez que vous souhaitez supprimer l’utilisateur. Les modifications ne prennent effet qu’après l’exécution des tâches **P-0001**, **Synchroniser les clients et les partenaires commerciaux à partir du mode asynchrone**, et **1010** (**Clients**).
@@ -112,7 +112,7 @@ Pour intégrer des partenaires commerciaux et des utilisateurs directement dans 
 
 1. Créez un dossier client **Type d’organisation** pour l’organisation partenaire.
 1. Créez des dossiers client **Type de personne** pour les utilisateurs partenaires. Assurez-vous qu’une adresse e-mail principale est spécifiée pour chaque client.
-1. Pour chaque dossier client **Type de personne** qui doit être désigné comme utilisateur administrateur de l’organisation partenaire, sur le raccourci **Retail**, définissez l’option **Administrateur B2B** sur **Oui**.
+1. Pour chaque dossier client **Type de personne** qui doit être désigné comme utilisateur administrateur de l’organisation partenaire, sur l'organisateur **Retail**, définissez l’option **Administrateur B2B** sur **Oui**.
 1. Créez un ID de hiérarchie client. Dans le champ **Nom**, entrez un nom.
 1. Dans le champ **Organisation**, entrez le client pour l’organisation partenaire.
 1. Sélectionnez **Ajouter**, puis sélectionnez un client dans le champ **Nom**.
@@ -136,7 +136,7 @@ Pour intégrer des partenaires commerciaux et des utilisateurs directement dans 
 
 [Définir des limites de quantité de produits pour les sites de commerce électronique B2B](quantity-limits.md)
 
-[Vue d’ensemble des souches de numéros](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Vue d’ensemble des souches de numéros](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

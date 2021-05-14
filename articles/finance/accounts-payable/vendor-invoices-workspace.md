@@ -1,5 +1,5 @@
 ---
-title: Espace de travail de saisie de facture fournisseur
+title: Espace de travail d'automatisation des factures fournisseur
 description: Cette rubrique explique comment configurer l’espace de travail lié aux factures fournisseur et qui affiche les informations disponibles via Microsoft Power BI.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954133"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Espace de travail de saisie des factures fournisseur
+# <a name="vendor-invoice-automation-workspace"></a>Espace de travail d'automatisation des factures fournisseur
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,15 +30,15 @@ Cette rubrique explique comment configurer l’espace de travail lié aux factur
 
 ## <a name="overview"></a>Vue d’ensemble
 
-L’espace de travail **Saisie de facture fournisseur** affiche les informations associées au traitement des factures fournisseur. Il contient une vue **Mon travail** et une page **Analyses – Toutes les sociétés**. La vue **Mon travail** affiche les vignettes récapitulatives, les grilles de transaction fournisseur et les informations fournisseur associées. La page **Analyses – Toutes les sociétés** utilise les fonctionnalités de Power BI pour afficher les visualisations associées aux factures fournisseur.
+L’espace de travail **Automatisation des factures fournisseur** affiche les informations associées au traitement des factures fournisseur. Il contient une vue **Mon travail** et une page **Analyses – Toutes les sociétés**. La vue **Mon travail** affiche les vignettes récapitulatives, les grilles de transaction fournisseur et les informations fournisseur associées. La page **Analyses – Toutes les sociétés** utilise les fonctionnalités de Power BI pour afficher les visualisations associées aux factures fournisseur.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Configurer l’espace de travail pour afficher le contenu Power BI
 
-Vous devez terminer cette configuration avant de pouvoir afficher les données dans les visualisations Power BI dans l’espace de travail **Saisie de facture fournisseur**.
+Vous devez terminer cette configuration avant de pouvoir afficher les données dans les visualisations Power BI dans l’espace de travail **Automatisation des factures fournisseur**.
 
 1. Dans l’espace de travail **Gestion des fonctionnalités**, filtrez la liste pour trouver la fonctionnalité **Automatisation des factures fournisseurs** .
 3. Sélectionnez **Activer maintenant**.
-4. Pour vous assurer que les factures peuvent être traitées du début à la fin sans intervention manuelle, configurez un workflow de facturation fournisseur. Pour configurer un workflow, accédez à **Comptabilité fournisseur \> Configuration \> Workflows de la comptabilité fournisseur**.
+4. Pour vous assurer que les factures peuvent être traitées du début à la fin sans intervention manuelle, configurez un workflow de facturation fournisseur. Pour configurer un workflow, accédez à **Comptabilité fournisseur \> Paramétrage \> Workflows de la comptabilité fournisseur**.
 5. Accédez à **Comptabilité fournisseur \> Configuration \> Paramètres de la comptabilité fournisseur**, et sélectionnez l’onglet **Automatisation des factures fournisseurs**. Pour plus d’informations, consultez [Options de configuration pour l’automatisation des factures fournisseur](vnd-invoice-set-up-options.md).
 6. Définissez l’option **Envoyer automatiquement les factures importées au workflow** sur **Oui**.
 7. Si les réceptions de marchandises doivent correspondre automatiquement, définissez l’option **Faire correspondre automatiquement les réceptions de marchandises avec les lignes de facture** sur **Oui**.
@@ -48,13 +48,13 @@ Vous devez terminer cette configuration avant de pouvoir afficher les données d
 11. Accédez à **Comptabilité \> Devises \> Taux de change des devises** et saisissez les taux de change entre la devise de transaction et la devise comptable, et entre la devise comptable et la devise système.
 12. Accédez à **Administration système \> Paramétrage \> Magasin des entités**, et recherchez **Mesure d’automatisation de la facture fournisseur**. Sélectionnez **Actualiser**.
 
-Pour afficher les informations affichées dans l’espace de travail, vous devez disposer du rôle de sécurité Responsable Comptabilité fournisseur ou Commis à la comptabilité fournisseur.
+Pour afficher les informations affichées dans l’espace de travail, vous devez disposer du rôle de sécurité Responsable Comptabilité fournisseur ou Adjoint à la comptabilité fournisseur.
 
 ## <a name="my-work-view"></a>Vue Mon travail
 
 ### <a name="company-selection"></a>Sélection des sociétés
 
-Quand la fonction **Automatiser les factures fournisseurs** est activée, un champ **Compagnie** apparaît en haut de l’espace de travail. La sélection dans le champ **Compagnie** affecte toutes les informations affichées dans l’espace de travail. Par défaut, la vue affiche les informations de l’entreprise à laquelle vous vous êtes connecté. En sélectionnant une autre entreprise dans le champ **Compagnie**, vous pouvez afficher les informations de cette société sur l’espace de travail. Vous pouvez ensuite sélectionner une vignette dans l’espace de travail pour accéder à la page associée dans l’entreprise sélectionnée.
+Quand la fonction **Automatisation des factures fournisseur** est activée, un champ **Compagnie** apparaît en haut de l’espace de travail. La sélection dans le champ **Compagnie** affecte toutes les informations affichées dans l’espace de travail. Par défaut, la vue affiche les informations de l’entreprise à laquelle vous vous êtes connecté. En sélectionnant une autre entreprise dans le champ **Compagnie**, vous pouvez afficher les informations de cette société sur l’espace de travail. Vous pouvez ensuite sélectionner une vignette dans l’espace de travail pour accéder à la page associée dans l’entreprise sélectionnée.
 
 ### <a name="summary-tiles"></a>Vignettes récapitulatives
 

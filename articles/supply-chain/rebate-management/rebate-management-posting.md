@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: e79feb567a48d08a9063bf20cface3c5c7fe8ecc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e806af55247fc78b5e353f3ae1dd624809feb43
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831744"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919915"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuration de la validation de la gestion des remises
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les profils de validation de la gestion des remises sont utilisés pour déterminer la validation des écritures pour les lignes de calcul de la gestion des remises. Lorsqu’un profil de validation est sélectionné dans l’en-tête de l’accord, il s’applique à toutes les lignes de l’accord.
 
@@ -70,9 +69,9 @@ Le tableau suivant résume la manière dont les différents paramètres du champ
 > - Pour les accords où le champ **Rapprochement par** est défini sur *Accord*, vous ne pouvez pas utiliser le compte d’accord dynamique lors de la validation. Vous devez utiliser un compte client ou fournisseur spécifié.
 > - Pour les accords où le champ **Rapprochement par** est défini sur *Ligne*, vous pouvez utiliser un profil de validation qui est compensé par un compte d’accord dynamique sur la ligne d’accord, car le client est défini par ligne d’accord.
 
-## <a name="posting-fasttab"></a>Raccourci Validation
+## <a name="posting-fasttab"></a>Organisateur Validation
 
-Le tableau suivant décrit les champs disponibles dans le raccourci **Validation** de chaque profil de validation de la gestion des remises.
+Le tableau suivant décrit les champs disponibles dans l'organisateur **Validation** de chaque profil de validation de la gestion des remises.
 
 | Champ | Description |
 |---|---|
@@ -86,9 +85,9 @@ Le tableau suivant décrit les champs disponibles dans le raccourci **Validation
 | Groupe de taxe d’article | Précisez si la remise est taxable. |
 | Nom de journal<br>(Dans la section **Annulation**) | Si la remise validée n’est pas égale à la provision, la différence peut être annulée. Sélectionnez le nom du journal à utiliser pour enregistrer l’annulation validée. |
 
-## <a name="posting-by-company-fasttab"></a>Raccourci Annulation par entreprise
+## <a name="posting-by-company-fasttab"></a>Organisateur Annulation par entreprise
 
-Le raccourci **Validation par entreprise** de chaque profil de validation de la gestion des remises vous permet de spécifier le compte de validation utilisé par chaque société (entité juridique) dans la grille.
+L'organisateur **Validation par entreprise** de chaque profil de validation de la gestion des remises vous permet de spécifier le compte de validation utilisé par chaque société (entité juridique) dans la grille.
 
 Utiliser les boutons sur la barre d’outils pour ajouter des sociétés à la grille ou en supprimer. Chaque fois que vous ajoutez une ligne à la grille, utilisez le champ **Société** pour spécifier l’entité juridique de cette ligne. Le champ **Nom** est alors défini automatiquement.
 

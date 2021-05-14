@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48bf6f7997d6159077419bcd05d27fd711c8fb4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891028"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953410"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -208,6 +208,14 @@ Si vous recevez une erreur lors de la tentative d’approbation des demandes de 
 
 2. Vérifiez que vous êtes un approbateur valide pour la demande en vérifiant les paramètres de flux de travail pour l’approbation de congé. Pour plus d’informations sur les workflows de demande de congé, voir [Créer un workflow de demande de congé](hr-leave-and-absence-workflow.md).
 
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Les approbateurs de congé ne reçoivent pas les messages de discussion de Teams pour approuver les demandes de congé
+
+1. Assurez-vous que les notifications sont activées pour l'environnement et l'utilisateur. Pour plus d’informations, consultez [Activer les notifications pour l’application Human Resources dans Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) et [Activer ou désactiver les notifications Teams pour les utilisateurs individuels](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Assurez-vous que les utilisateurs sont connectés à l'onglet **Chats** avec les mêmes informations d'identification utilisées pour approuver les demandes de congé. Utilisez les messages « déconnexion », puis « connexion » pour vous connecter avec les informations d'identification correctes.
+
+3. Si le problème persiste, vérifiez l'état du traitement par lots du système Événements commerciaux en tant qu'administrateur système. S'il est en attente ou en cours d'exécution, revenez dans quelques minutes. Si le statut reste inchangé, enregistrez un ticket de support afin que notre équipe puisse vous aider à résoudre le problème.
+
 ## <a name="known-accessibility-issues"></a>Problèmes d’accessibilité connus
 
 L’application Ressources humaines dans Teams présente les problèmes d’accessibilité suivants que nous travaillons à résoudre dans les versions futures.
@@ -244,7 +252,7 @@ Pour limiter l’accès à l’application Human Resources dans Microsoft Teams 
 
 ## <a name="see-also"></a>Voir également :
 
-[Télécharger er installer Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
+[Télécharger et installer Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Centre d’aide Microsoft Teams](https://support.office.com/teams)</br>
 [Application Human Resources de Teams](hr-admin-teams-leave-app.md)
 

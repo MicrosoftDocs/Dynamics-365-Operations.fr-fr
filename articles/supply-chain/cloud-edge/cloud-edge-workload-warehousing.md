@@ -2,7 +2,7 @@
 title: Charges de travail de gestion de l’entreposage pour les unités de mise à l’échelle du cloud et d’Edge
 description: Cette rubrique fournit des informations sur la fonctionnalité qui permet aux unités de mise à l’échelle d’exécuter des processus sélectionnés à partir de votre charge de travail de gestion d’entrepôt.
 author: perlynne
-ms.date: 10/06/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,17 @@ ms.search.region: global
 ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899165"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944411"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
 > Toutes les fonctionnalités commerciales de gestion d’entrepôt ne sont pas entièrement prises en charge pour les entrepôts exécutant une charge de travail sur une unité d’échelle. Veillez à n’utiliser que les processus que cette rubrique décrit explicitement comme pris en charge.
@@ -49,15 +48,16 @@ Une unité d’échelle ne peut conserver que les données dont elle est propri�
 
 Les unités d’échelle possèdent les données suivantes :
 
-- **Données de traitement vague** – Les méthodes de traitement des vagues sélectionnées sont traitées dans le cadre du traitement des vagues par unité d’échelle.
-- **Travail de traitement des données** – Les types de traitement des ordres de travail suivants sont pris en charge :
+- **Données de traitement de vague d’expédition** – Les méthodes de traitement des vagues sélectionnées sont traitées dans le cadre du traitement des vagues par unité d’échelle.
+- **Données de traitement de travail** - Le travail d'entrepôt créé sur une unité d'échelle appartiendra à cette unité d'échelle spécifique. Les types de traitement d'ordres de travail suivants sont pris en charge :
 
   - **Mouvements d’inventaire** (mouvement manuel et mouvement par modèle de travail)
+  - **Inventaire tournant** et processus d'approbation / rejet dans le cadre des opérations de comptage
   - **Commandes fournisseur** (tâches de rangement via une commande entrepôt lorsque les commandes fournisseur ne sont pas associées à des charges)
   - **Commandes client** (tâches de prélèvement et de chargement simples)
   - **Ordres de transfert** (uniquement sortants avec tâches de prélèvement et de chargement simples)
 
-- **Données de réception de commande d’entrepôt** – Ces données ne sont utilisées que pour les commandes fournisseur qui sont lancées manuellement dans un entrepôt.
+- **Données de réception de commande d’entrepôt** – Ces données ne sont utilisées que pour les commandes fournisseur qui ont été lancées manuellement dans un entrepôt.
 - **Données de contenant** – Des contenants peuvent être créés sur le hub et l’unité de mise à l’échelle. Une gestion des conflits dédiée a été fournie. Notez que ces données ne sont pas spécifiques à l’entrepôt.
 
 ## <a name="outbound-process-flow"></a>Flux des processus sortants
@@ -72,6 +72,14 @@ Les unités d’échelle sont propriétaires du traitement de la vague réelle (
 
 ![Flux de traitement de vague](./media/wes-wave-processing-ga.png "Flux de traitement de vague")
 
+### <a name="process-work-and-ship"></a>Traiter le travail et expédier
+
+Dès que le processus de travail final place le stock au lieu d'expédition final (Baydoor), l'unité d'échelle signale au hub de mettre à jour les transactions de stock sur le document source à *Prélevé*. Jusqu'à ce que ce processus s'exécute et soit de nouveau synchronisé, le stock disponible sur la charge de travail de l'unité d'échelle sera physiquement réservé au niveau de l'entrepôt.
+
+Dès que le hub a mis à jour les transactions à *Prélevé*, il peut traiter la confirmation d'expédition sortante et le bon de livraison associé ou transférer l'ordre de transfert pour le chargement.
+
+![Flux des traitements sortants](./media/WES-outbound-processing-19.png "Flux des traitements sortants")
+
 ## <a name="inbound-process-flow"></a>Flux des processus entrants
 
 Le hub possède les données suivantes :
@@ -82,8 +90,8 @@ Le hub possède les données suivantes :
 
 > [!NOTE]
 > Le flux de commandes fournisseur entrant est différent en termes de concept du flux sortant. Vous pouvez gérer le même entrepôt sur l’unité d’échelle ou sur le hub selon que la commande fournisseur a été lancée ou non dans l’entrepôt. Une fois que vous avez validé une commande à l’entrepôt, vous ne pouvez travailler avec cette commande que lorsque vous êtes connecté à l’unité d’échelle.
-
-Si vous utilisez le processus *Lancement dans l’entrepôt*, les [*commandes d’entrepôt*](cloud-edge-warehouse-order.md) sont créées et la propriété du flux de réception associé est attribuée à l’unité de mise à l’échelle. Le hub ne pourra pas enregistrer la réception entrante.
+>
+> Si vous utilisez le processus *Lancement dans l’entrepôt*, les [*commandes d’entrepôt*](cloud-edge-warehouse-order.md) sont créées et la propriété du flux de réception associé est attribuée à l’unité de mise à l’échelle. Le hub ne pourra pas enregistrer la réception entrante.
 
 Vous devez vous connecter au hub pour utiliser le processus *Libération dans l’entrepôt*. Accédez à l’une des pages suivantes pour l’exécuter ou le planifier :
 
@@ -97,6 +105,10 @@ Le collaborateur peut exécuter le processus de réception à l’aide d’une a
 Si vous n’utilisez pas le processus de *lancement dans l’entrepôt*, et n’utilisent donc pas les *commandes d’entrepôt*, le hub peut traiter la réception en entrepôt et le traitement du travail indépendamment des unités de mise à l’échelle.
 
 ![Flux des processus entrants](./media/wes-inbound-ga.png "Flux des processus entrants")
+
+Lors de l'enregistrement entrant via le processus de réception de la commande d'entrepôt d'unité d'échelle au niveau de l'application d'entrepôt, la charge de travail de l'unité d'échelle signalera au hub de mettre à jour les transactions de ligne de commande d'achat associées à *Enregistré*. Dès que cela est terminé, vous serez en mesure d'accuser réception du produit concerné par la commande d'achat sur le hub.
+
+![Flux des traitements entrants](./media/WES-inbound-processing-19.png "Flux des traitements entrants")
 
 ## <a name="supported-processes-and-roles"></a>Processus et rôles pris en charge
 
@@ -115,10 +127,13 @@ Les utilisateurs qui agissent en tant que gestionnaires d’entrepôt sur le hub
 Les processus d’exécution d’entrepôt suivants peuvent être activés pour une charge de travail WES sur une unité de mise à l’échelle :
 
 - Méthodes de vague sélectionnées pour les commandes client et les ordres de transfert (affectation, réapprovisionnement de la demande, mise en conteneur, création de travail et impression d’étiquettes de vague)
-- Traitement des tâches d’entrepôt des ordres de transfert et de commande avec l’application mobile Gestion des entrepôts (y compris la tâche de réapprovisionnement)
-- Interrogation du stock disponible à l’aide de l’application mobile Gestion des entrepôts
-- Création et exécution des mouvements de stock à l’aide de l’application mobile Gestion des entrepôts
-- Enregistrement des commandes fournisseur et travaux de rangement en utilisant l’application mobile Gestion des entrepôts
+
+- Traitement des tâches d’entrepôt des ordres de transfert et de commande avec l’application d’entreposage (y compris la tâche de réapprovisionnement)
+- Interrogation du stock disponible à l’aide de l’application d’entrepôt
+- Création et exécution des mouvements de stock à l’aide de l’application d’entrepôt
+- Création et traitement d'un travail de comptage cyclique à l'aide de l'application d'entrepôt
+- Ajustements du stock à l’aide de l’application d’entrepôt
+- Enregistrement des commandes fournisseur et travaux de rangement en utilisant l’application d’entrepôt
 
 Les types d’ordre de travail suivants sont actuellement pris en charge pour les charges de travail WES sur les déploiements d’unités de mise à l’échelle :
 
@@ -126,9 +141,10 @@ Les types d’ordre de travail suivants sont actuellement pris en charge pour le
 - Sortie de transfert
 - Réapprovisionnement
 - Mouvement de stock
+- Inventaire tournant
 - Commandes fournisseur (liées aux commandes entrepôt)
 
-Aucun autre traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail WES sur une unité de mise à l’échelle, vous ne pouvez pas effectuer de processus de réception d’ordre de transfert (réception de transfert) ou traiter un travail d’inventaire tournant.
+Aucun autre traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail WES sur une unité d'échelle, vous ne pouvez pas accuser réception d'un ordre de transfert (réception de transfert), car cela est traité par l'instance du hub.
 
 > [!NOTE]
 > Les éléments de menu et les boutons de l’appareil mobile pour les fonctionnalités non prises en charge ne sont pas affichés dans l’_application mobile Gestion des entrepôts_ lorsqu’elle est connecté à un déploiement d’unité d’échelle.
@@ -160,7 +176,6 @@ La fonctionnalité de gestion d’entrepôt suivante n’est actuellement pas pr
 - Traitement avec stock disponible négatif
 - Traitement du travail en entrepôt avec des types de travaux personnalisés
 - Traitement du travail en entrepôt avec notes d’expédition
-- Traitement du travail en entrepôt avec déclenchement du seuil d’inventaire tournant
 - Traitement du travail en entrepôt avec manutention des matières/Warehouse Automation
 - Utilisation de l’image des données principales du produit (par exemple, sur l’application mobile Gestion des entrepôts)
 
@@ -186,14 +201,14 @@ Le tableau suivant indique quelles fonctionnalités sortantes sont prises en cha
 | Gérer les expéditions pour la vague                                  | Oui | N° |
 | Traitement du travail en entrepôt (y compris impression de contenant)        | N°  | <p>Oui, mais uniquement pour les fonctionnalités prises en charge mentionnées ci-dessus. |
 | Prélèvement de groupement                                              | N°  | Oui|
-| Traitement d’emballage manuel, y compris le traitement des travaux de type « Prélèvement du conteneur compressé »                                           | N° <P>Un certain traitement peut être effectué après un processus de prélèvement initial géré par une unité d’échelle, mais n’est pas recommandé en raison des opérations bloquées suivantes.</p>  | N°  |
-| Supprimer un conteneur du groupe                        | N°  | N°                           |
+| Traitement d’emballage manuel, y compris le traitement des travaux de type « Prélèvement du conteneur compressé » | N° <P>Un certain traitement peut être effectué après un processus de prélèvement initial géré par une unité d’échelle, mais n’est pas recommandé en raison des opérations bloquées suivantes.</p>  | N° |
+| Supprimer un conteneur du groupe                                  | N°  | N° |
 | Traitement du tri sortant                                  | N°  | N° |
 | Impression de documents relatifs à la charge                           | Oui | N° |
 | Connaissement et génération d’APE                            | Oui | N° |
-| Confirmation d’envoi                    | Oui  | N° |
-| Confirmation d’expédition avec « Confirmer et transférer »                    | N°  | N° |
-| Traitement des bons de livraison et des factures                | Oui | N° |
+| Confirmation d’envoi                                             | Oui | N° |
+| Confirmation d’expédition avec « Confirmer et transférer »            | N°  | N° |
+| Traitement des bons de livraison et des factures                        | Oui | N° |
 | Prélèvement partiel (commandes client et ordres de transfert)                    | N°  | N° |
 | Prélèvement excessif (commandes client et ordres de transfert)                     | N°  | N° |
 | Changement de lieu de travail (commandes clients et ordres de transfert)         | N°  | Oui|
@@ -212,31 +227,31 @@ Le tableau suivant indique quelles fonctionnalités entrantes sont prises en cha
 
 | Processus                                                          | Hub | Charge de travail WES sur une unité de mise à l’échelle<BR>*(Les articles accompagnés de la mention « Oui » s’appliquent uniquement aux commandes d’entrepôt)*</p> |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Traitement&nbsp;document&nbsp;source                                       | Oui | N° |
+| Traitement&nbsp;document&nbsp;source                             | Oui | N° |
 | Traitement de la gestion du transport et du chargement                    | Oui | N° |
-| Confirmation d’envoi entrant                                            | Oui | N° |
+| Confirmation d’envoi entrant                                    | Oui | N° |
 | Validation de la commande fournisseur vers l’entrepôt (traitement des commandes entrepôt) | Oui | N° |
-| Annulation des lignes de commande d’entrepôt<p>Notez que cela n’est pris en charge que lorsqu’aucun enregistrement n’a eu lieu sur la ligne</p>          | Oui | N° |
+| Annulation des lignes de commande d’entrepôt<p>Notez que cela n’est pris en charge que lorsqu’aucun enregistrement n’a eu lieu sur la ligne</p> | Oui | N° |
 | Réception et rangement de l’article de commande fournisseur                       | <p>Oui,&nbsp;quand&nbsp;il&nbsp;n’y a pas de commande d’entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, lorsqu’un bon de commande ne fait pas partie d’une <i>charge</i></p> |
-| Réception et rangement de la ligne de commande fournisseur                        | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, lorsqu’un bon de commande ne fait pas partie d’une <i>charge</i></p></p> |
-| Réception et rangement d’ordre de retour                               | Oui | N° |
-| Réception et rangement de contenant mixte                        | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
-| Réception des articles du chargement                                             | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
-| Réception et rangement de contenant                              | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
-| Réception et rangement des articles de l’ordre de transfert                        | Oui | N° |
-| Réception et rangement de la ligne d’ordre de transfert                        | Oui | N° |
-| Annuler le travail (entrant)                                              | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, mais uniquement lorsque l’option <b>Annuler l’enregistrement du reçu lors de l’annulation du travail</b> (sur la page <b>Paramètres de gestion de l’entrepôt</b>) est désactivée</p> |
-| Traitement de l’accusé de réception de marchandises d’une commande fournisseur                          | Oui | N° |
-| Réception de bon de commande avec sous-livraison                        | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui, mais uniquement en effectuant une demande d’annulation depuis le hub |
-| Réception de bon de commande avec livraison excédentaire                        | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui  |
-| Réception avec création de travaux de *Cross docking*                   | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
+| Réception et rangement de la ligne de commande fournisseur                       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, lorsqu’un bon de commande ne fait pas partie d’une <i>charge</i></p></p> |
+| Réception et rangement d’ordre de retour                              | Oui | N° |
+| Réception et rangement de contenant mixte                       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
+| Réception des articles du chargement                                              | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
+| Réception et rangement de contenant                             | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | N° |
+| Réception et rangement des articles de l’ordre de transfert                       | Oui | N° |
+| Réception et rangement de la ligne d’ordre de transfert                       | Oui | N° |
+| Annuler le travail (entrant)                                            | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | <p>Oui, mais uniquement lorsque l’option <b>Annuler l’enregistrement du reçu lors de l’annulation du travail</b> (sur la page <b>Paramètres de gestion de l’entrepôt</b>) est désactivée</p> |
+| Traitement de l’accusé de réception de marchandises d’une commande fournisseur                        | Oui | N° |
+| Réception de bon de commande avec sous-livraison                      | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui, mais uniquement en effectuant une demande d’annulation depuis le hub |
+| Réception de bon de commande avec livraison excédentaire                       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Oui  |
+| Réception avec création de travaux de *Cross docking*                 | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
 | Réception avec création de travaux de type *Ordre de qualité*                  | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
 | Réception avec création de travaux de type *Échantillonnage d’articles de qualité*          | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
 | Réception avec création de travaux de type *Qualité dans le contrôle qualité*       | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
 | Réception avec création d’ordre de qualité                            | <p>Oui, lorsqu’il n’y a pas de commande entrepôt</p><p>Non, lorsqu’il y a une commande entrepôt</p> | Non |
-| Traitement du travail - Dirigé par *Rangement de groupement*                             | Oui | Non |
-| Traitement du travail avec *Prélèvement partiel*                                           | Oui | Non |
-| Chargement de contenant                                           | Oui | Non |
+| Traitement du travail - Dirigé par *Rangement de groupement*                 | Oui | Non |
+| Traitement du travail avec *Prélèvement partiel*                               | Oui | N° |
+| Chargement de contenant                                           | Oui | Oui |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Opérations d’entrepôt et traitement des exceptions
 
@@ -250,11 +265,11 @@ Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepô
 | Modifier l’entrepôt                                   | Oui | Oui                          |
 | Mouvement                                           | Oui | Oui                          |
 | Mouvement par modèle                               | Oui | Oui                          |
-| Transfert d’entrepôt                                 | Oui | N°                           |
-| Créer un ordre de transfert depuis l’application mobile Gestion des entrepôts           | Oui | N°                           |
-| Ajustement (entrée/sortie)                                | Oui | N°                           |
-| Modification du statut du stock                            | Oui | Non                           |
-| Comptage cyclique et traitement des écarts de comptage | Oui | Non                           |
+| Transfert d’entrepôt                                 | Oui | Non                           |
+| Créer un ordre de transfert depuis l’application d’entreposage           | Oui | N°                           |
+| Ajustement (entrée/sortie)                                | Oui | Oui, mais pas pour le scénario d'ajustement si la réservation de stock doit être supprimée à l'aide du paramètre **Supprimer les réservations** sur les types d'ajustement de stock.</p>                           |
+| Modification du statut du stock                            | Oui | N°                           |
+| Comptage cyclique et traitement des écarts de comptage | Oui | Oui                           |
 | Réimpression d’étiquette (impression de contenant)             | Oui | Oui                          |
 | Création de contenant                                | Oui | Non                           |
 | Décomposition du contenant                                | Oui | Non                           |
@@ -286,11 +301,9 @@ Plusieurs tâches de traitement par lots s’exécutent à la fois sur les unit�
 
 Sur le déploiement du hub, vous pouvez gérer manuellement les tâches de traitement par lots. Vous pouvez gérer les tâches de traitement par lots suivantes sur **Gestion d’entrepôt \> Tâches périodiques \> Gestion de la charge de travail back-office** :
 
-- Traiter les événements de mise à jour du statut du travail
 - Unité d’échelle du processeur de messages du hub
 - Enregistrer les réceptions de commande source
 - Terminer les commandes d’entrepôt
-- Traiter les réponses de mise à jour de la quantité pour les lignes de commande d’entrepôt
 
 Sur la charge de travail dans les unités de mise à l’échelle, vous pouvez gérer les tâches de traitement par lots suivantes sur **Gestion d’entrepôt \> Tâches périodiques \> Gestion de la charge de travail** :
 
@@ -299,6 +312,5 @@ Sur la charge de travail dans les unités de mise à l’échelle, vous pouvez g
 - Traiter les demandes de mise à jour de la quantité pour les lignes de commande d’entrepôt
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

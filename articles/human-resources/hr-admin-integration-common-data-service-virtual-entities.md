@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890050"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935751"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurer des tables virtuelles Dataverse
 
@@ -102,27 +102,15 @@ Vous devez inscrire votre instance de Human Resources dans le portail Azure afin
 
 Installez l’application Tables virtuelles Dynamics 365 HR dans votre environnement Power Apps pour déployer le package de solution de table virtuelle dans Dataverse.
 
-1. Ouvrez le [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
+1. Dans Human Resources, ouvrez la page **Intégration Microsoft Dataverse**.
 
-2. Dans la liste **Environnements**, sélectionnez l’environnement Power Apps associé à votre instance Human Resources.
+2. Sélectionnez l’onglet **Tables virtuelles**.
 
-3. Dans la section **Ressources** de la page, sélectionnez **Applications Dynamics 365**.
+3. Sélectionnez **Installer l'application de table virtuelle**.
 
-4. Sélectionnez l’option **Installer l’application**.
+### <a name="configure-the-virtual-table-data-source"></a>Configurer la source de données de table virtuelle
 
-5. Sélectionnez **Tables virtuelles Dynamics 365 HR** et sélectionnez **Suivant**.
-
-6. Passez en revue et acceptez les conditions d’utilisation du service.
-
-7. Sélectionnez **Installer**.
-
-L’installation prend quelques minutes. Lorsqu’elle est terminée, passez aux étapes suivantes.
-
-![Installez l’application Tables virtuelles Dynamics 365 HR à partir du Centre d’administration Power Platform](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Configurer la source de données de table virtuelle 
-
-L’étape suivante consiste à configurer la source de données de table virtuelle dans l’environnement Power Apps. 
+L’étape suivante consiste à configurer la source de données de table virtuelle dans l’environnement Power Apps.
 
 1. Ouvrez le [Centre d’administration Power Platform](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ L’étape suivante consiste à configurer la source de données de table virtue
 4. Dans **Hub état solution**, sélectionnez l’icône **Recherche avancée** en haut à droite de la page de l’application.
 
 5. Sur la page **Recherche avancée**, dans la liste déroulante **Rechercher**, sélectionnez Configurations de source de données virtuelle **Finance and Operations**.
+
+   > [!NOTE]
+   > L'installation de l'application de table virtuelle à partir de l'étape de configuration précédente peut prendre quelques minutes. Si **Configurations de source de données virtuelle Finance and Operations** n'est pas disponible dans la liste, attendez une minute et actualisez la liste.
 
 6. Sélectionnez **Résultats**.
 
@@ -186,7 +177,7 @@ Accordez des autorisations pour les deux applications Azure AD dans Human Resour
 
 Une fois la configuration terminée, vous pouvez sélectionner les tables virtuelles que vous souhaitez générer et activer dans votre instance Dataverse.
 
-1. Dans Human Resources, ouvrez la page **Intégration Dataverse**.
+1. Dans Human Resources, ouvrez la page **Intégration Microsoft Dataverse**.
 
 2. Sélectionnez l’onglet **Tables virtuelles**.
 
@@ -197,7 +188,7 @@ Une fois la configuration terminée, vous pouvez sélectionner les tables virtue
 
 4. Sélectionnez **Générer/actualiser**.
 
-![Intégration de Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Intégration de Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Vérifier le statut de la génération de la table
 

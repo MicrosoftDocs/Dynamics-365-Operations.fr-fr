@@ -2,7 +2,7 @@
 title: Vue d’ensemble des états électroniques (ER)
 description: Cette rubrique fournit une vue d’ensemble de l’outil de gestion des états électroniques. Elle décrit les concepts clés, les scénarios pris en charge et les formats qui font partie de la solution.
 author: NickSelin
-ms.date: 12/07/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893175"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944363"
 ---
 # <a name="electronic-reporting-er-overview"></a>Vue d’ensemble des états électroniques
 
@@ -236,7 +236,7 @@ Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâc
 
 Le concepteur de format ER peut être utilisé pour générer un document électronique particulier au format de feuille de calcul OPENXML. 
 
-Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Créer une configuration pour des états au format OPENXML** (qui fait partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**). Dans le cadre de l’étape du guide de tâche pour importer un modèle, utilisez le fichier Excel [Modèle d’état de paiement (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) en tant que modèle.
+Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche **ER Créer une configuration pour des états au format OPENXML** (qui fait partie du processus d’entreprise **7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)**). Dans le cadre de l’étape du guide de tâche pour importer un modèle, utilisez le fichier Excel [Modèle d’état de paiement (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) en tant que modèle.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Création d’une configuration pour générer des documents électroniques au format de document Word
 
@@ -244,8 +244,8 @@ Le concepteur de format ER peut être utilisé pour générer un document élect
 
 Pour vous familiariser avec ce scénario en détails, visionnez le guide de tâche ER Concevoir une configuration pour générer des états au format Microsoft WORD (qui fait partie du processus d’entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)). Dans le cadre de l’étape du guide de tâche pour importer un modèle, utilisez les fichiers Word suivants en tant que modèles pour le format ER :
 
-- [Modèle d’état de paiement (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Modèle lié d’état de paiement (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Modèle d’état de paiement (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Modèle lié d’état de paiement (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Génération d’une configuration pour importer les données des documents électroniques entrants
 
@@ -253,10 +253,10 @@ Le concepteur de format ER peut servir à décrire un document électronique pla
 
 Pour vous familiariser avec ce scénario en détails, consultez le guide de tâche ER Créer des configurations pour importer des données d’un fichier externe (qui fait partie du processus d’entreprise 7.5.4.3 Acquérir/Développer des composants de services/solutions informatiques (10677)). Les fichiers suivants pour lire le présent guide :
 
-- [Configuration du modèle de données ER (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Configuration du format ER (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Exemple du document entrant au format XML (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Exemple du classeur pour gérer les données du document entrant (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Configuration du modèle de données ER (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [Configuration du format ER (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [Exemple du document entrant au format XML (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [Exemple du classeur pour gérer les données du document entrant (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Stockage d’un composant de format conçu dans une configuration de format
 

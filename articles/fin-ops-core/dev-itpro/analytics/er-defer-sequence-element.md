@@ -2,7 +2,7 @@
 title: Différer l’exécution des éléments de séquence aux formats ER
 description: Cette rubrique explique comment reporter l’exécution d’un élément de séquence au format d’état électronique (ER).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894098"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944507"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Différer l’exécution des éléments de séquence aux formats ER
 
@@ -57,14 +57,14 @@ Si vous n’avez pas encore terminé l’exemple dans la rubrique [Différer l�
 
 | Description du contenu            | Nom de fichier |
 |--------------------------------|-----------|
-| Configuration de modèle de données ER    | [Modèle d’apprentissage des éléments différés.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuration de mise en correspondance de modèle ER | [Modèle d’apprentissage des éléments différés.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuration de modèle de données ER    | [Modèle d’apprentissage des éléments différés.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuration de mise en correspondance de modèle ER | [Modèle d’apprentissage des éléments différés.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Avant de commencer, vous devez également télécharger et enregistrer la configuration suivante de l’exemple de solution ER.
 
 | Description du contenu     |Nom de fichier |
 |-------------------------|----------|
-| Configuration de format ER | [Format d’apprentissage des séquences différées.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuration de format ER | [Format d’apprentissage des séquences différées.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importer l’exemple de configurations ER
 
@@ -169,7 +169,7 @@ Vérifiez les paramètres du composant de mise en correspondance de modèles ER 
 1. Dans la page **Concepteur de format**, sélectionnez **Exécuter**.
 2. Téléchargez le fichier proposé par le navigateur Web et ouvrez-le pour examen.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run.png)
+    ![Exemple de fichier de rapport téléchargé](./media/ER-DeferredSequence-Run.png)
 
 Notez que la ligne récapitulative 22 présente la somme des valeurs fiscales pour les transactions traitées. Parce que le format est configuré pour utiliser le **model.Data.Summary.Total** utilisé pour retourner cette somme, la somme est calculée en appelant l’aggrégation **TotalSum** de la source de données **Groupé** du type *GroupBy* qui utilise la mise en correspondance de modèle. Pour calculer cette agrégation, le mappage de modèle itère sur toutes les transactions qui ont été sélectionnées dans la source de données **Filtré**. En comparant les temps d’exécution des lignes 21 et 22, vous pouvez déterminer que le calcul de la somme a pris 10 millisecondes (ms). En comparant les temps d’exécution des lignes 2 et 21, vous pouvez déterminer que la génération de toutes les lignes de transaction a pris 7 millisecondes (ms). Par conséquent, un total de 17 ms était nécessaire.
 
@@ -202,7 +202,7 @@ Si le volume des transactions est beaucoup plus important que le volume dans l�
 12. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 13. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run1.png)
+    ![Fichier téléchargé - Valeurs fiscales totales](./media/ER-DeferredSequence-Run1.png)
 
     La ligne 21 contient le total cumulé des valeurs de taxe qui est calculé pour toutes les transactions traitées en utilisant la sortie générée comme source de données. Cette source de données commence au début du rapport et se poursuit jusqu’à la dernière transaction fiscale. La ligne 22 contient la somme des valeurs de taxe pour toutes les transactions traitées qui sont calculées dans le mappage de modèle en utilisant la source de données du type *GroupBy*. Notez que ces valeurs sont égales. Par conséquent, la somme basée sur la sortie peut être utilisée au lieu de **GroupBy**. En comparant les temps d’exécution des lignes 2 et 21, vous pouvez déterminer que la génération de toutes les lignes de transaction et de la somme a pris 9 millisecondes (ms). Par conséquent, en ce qui concerne la génération de lignes détaillées et la somme des valeurs fiscales, le format modifié est environ deux fois plus rapide que le format d’origine.
 
@@ -211,7 +211,7 @@ Si le volume des transactions est beaucoup plus important que le volume dans l�
 16. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 17. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run2.png)
+    ![Fichier téléchargé avec formule modifiée](./media/ER-DeferredSequence-Run2.png)
 
     Notez que le total cumulé des valeurs de taxe sur la dernière ligne de détails de transaction est désormais égal à la somme sur la ligne de résumé.
 
@@ -224,7 +224,7 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run3.png)
+    ![Fichier téléchargé pour la somme dans l'en-tête du rapport](./media/ER-DeferredSequence-Run3.png)
 
     Notez que la somme des valeurs de taxe sur la ligne récapitulative 2 est désormais égale à 0 (zéro), car cette somme est désormais calculée en fonction de la sortie générée. Lorsque la ligne 2 est générée, la sortie générée ne contient pas encore de lignes contenant les détails de transaction. Vous pouvez configurer ce format pour différer l’exécution de l’élément de séquence **Rapport \\Lignes \\Récapitulatif** jusqu’à ce que l’élément de séquence **Rapport \\Lignes \\Enregistrement** ait été exécuté pour toutes les transactions fiscales.
 
@@ -238,7 +238,7 @@ Si, par exemple, vous devez présenter la somme des valeurs fiscales dans l’en
 3. Sélectionnez **Enregistrer**, puis sélectionnez **Exécuter**.
 4. Téléchargez et passez en revue le fichier proposé par le navigateur Web.
 
-    ![Fichier téléchargé](./media/ER-DeferredSequence-Run4.png)
+    ![Fichier téléchargé - exécution différée](./media/ER-DeferredSequence-Run4.png)
 
     L’élément de séquence **Rapport \\Lignes \\Récapitulatif** n’est désormais exécuté qu’après que tous les autres éléments imbriqués sous son élément parent, **Rapport \\Lignes**, ont été exécutés. Par conséquent, il est exécuté après que l’élément de séquence **Rapport \\Lignes \\Enregistrement** a été exécuté pour toutes les transactions fiscales de la source de données **model.Data.List**. Les temps d’exécution des lignes 1, 2 et 3 et de la dernière ligne 22 indiquent cela.
 

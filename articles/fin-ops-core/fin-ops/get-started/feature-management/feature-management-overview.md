@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754798"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923305"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -140,7 +140,7 @@ La Gestion des fonctionnalités vous permet de contrôler les fonctionnalités q
 
 ## <a name="new-features-are-optional-for-12-months"></a>Les nouvelles fonctionnalités sont facultatives pendant 12 mois
 
-Lorsqu’une nouvelle fonctionnalité non critique est installée, elle sera facultative pour une période de 12 mois. Ainsi, vous et votre organisation, avez le temps de planifier à l’avance quand utiliser une fonctionnalité et la tester sur vos opérations quotidiennes. Pour plus d’informations, voir [FAQ sur les mises à jour de service One Version](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Lorsqu’une nouvelle fonctionnalité non critique est installée, elle sera facultative pour une période de 12 mois. Ainsi, vous et votre organisation, avez le temps de planifier à l’avance quand utiliser une fonctionnalité et la tester sur vos opérations quotidiennes. Pour plus d’informations, voir [FAQ sur les mises à jour de service One Version](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Utilisation de la Gestion des fonctionnalités pour activer des fonctionnalités de fournisseur de logiciels indépendant ou des fonctions personnalisées
 
@@ -161,7 +161,7 @@ La stratégie est que toutes les nouvelles fonctionnalités seront activées pou
 Le calendrier de publication des mises à jour est variable, le calendrier de mise à jour de l’environnement est variable et les clients peuvent choisir d’ignorer certaines mises à jour. Par conséquent, des dates précises sont difficiles à déterminer. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Où se trouve la documentation des fonctionnalités rendues obligatoires ? 
-Cette documentation provient des équipes d’application. Souvent, ceux-ci seront mentionnés dans [Fonctionnalités supprimées ou obsolètes](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+Cette documentation provient des équipes d’application. Souvent, ceux-ci seront mentionnés dans [Fonctionnalités supprimées ou obsolètes](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Y a-t-il une notification ou un signal dans le produit qu’une fonctionnalité va être activée de manière obligatoire ? 
 Il n’existe pas aujourd’hui de mécanisme de notification pour rendre obligatoire une fonctionnalité.

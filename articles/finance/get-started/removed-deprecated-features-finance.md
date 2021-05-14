@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898285"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965308"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 
@@ -104,15 +104,15 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.12
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>États SSRS polonais : Registre de la TVA d’aval, Registre de la TVA sur les achats, Synthèse du registre de la TVA de l’UE - Référence de fonctionnalité PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Non obsolète : États SSRS polonais : Registre de la TVA d’aval, Registre de la TVA sur les achats, Synthèse du registre de la TVA de l’UE - Référence de fonctionnalité PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Pas autorisé légalement.  |
 | **Remplacé par une autre fonctionnalité ?**   | Oui (format Excel pour fichier d’audit standard avec déclaration de TVA - JPK_VDEK) |
 | **Zones de produit affectées**         | Demande |
-| **Option de déploiement**              | Tout |
-| **État**                         | Obsolète : d’ici le 1er juillet 2021, nous prévoyons de ne plus prendre en charge les états SSRS : **Registre de TVA d’aval, Registre de TVA sur les achats, Synthèse du registre de la TVA de l’UE - Référence de fonctionnalité PL-00014**. Un exemple de format Excel pour le fichier d’audit standard avec déclaration de TVA (JPK_VDEK) sera introduit à la place. |
+| **Option de déploiement**              | Tous |
+| **État**                         | Non obsolète : À compter du 27 avril 2021, nous prévoyons de continuer à prendre en charge les états SSRS : **Registre de TVA d’aval, Registre de TVA sur les achats, Synthèse du registre de la TVA de l’UE - Référence de fonctionnalité PL-00014**. Un exemple de format Excel pour le fichier d’audit standard avec déclaration de TVA (JPK_VDEK) a également été introduit. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.11
 

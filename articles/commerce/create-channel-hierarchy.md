@@ -2,7 +2,7 @@
 title: Créer une hiérarchie de navigation du canal
 description: Cette rubrique décrit comment créer une hiérarchie de navigation de canal dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795833"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951906"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Créer une hiérarchie de navigation dans un canal
 
@@ -77,7 +77,7 @@ Pour ajouter des produits à des nœuds de catégorie, procédez comme suit.
 1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 > [!NOTE]
-> L’ajout de produits à un nœud à l’intérieur de la hiérarchie de navigation de canal n’est pas suffisant pour que les produits apparaissent sur un canal sélectionné, les produits doivent également être assortis à un produit.
+> L’ajout de produits à un nœud à l’intérieur de la hiérarchie de navigation de canal n’est pas suffisant pour que les produits apparaissent sur un canal sélectionné, les produits doivent également être assortis à un canal. Pour plus d'informations sur les assortiments, voir [Gestion des assortiments](assortments.md).
 
 L’image suivant présente un exemple de nœud avec produits ajoutés.
 

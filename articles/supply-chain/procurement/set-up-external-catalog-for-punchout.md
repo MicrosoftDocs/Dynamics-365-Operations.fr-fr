@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9267047b4bf1ab4185efca9980e0f517f4b05096
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a816f6cff90b8292f66d73b12d328c3f56108957
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812518"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920555"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Paramétrer un catalogue externe pour PunchOut eProcurement
 
@@ -40,7 +40,7 @@ Le catalogue externe permet à un employé qui entre une demande d’achat d’�
 
 1. Paramétrez une hiérarchie des catégories d’approvisionnement. Pour plus d’informations, voir [Paramétrer des stratégies pour les hiérarchies de catégories d’approvisionnement](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Enregistrez le fournisseur dans Supply Chain Management. Avant de paramétrer des configurations pour accéder au catalogue d’un fournisseur externe, vous devez paramétrer le fournisseur et le contact associé dans Microsoft Dynamics 365. Le fournisseur du catalogue externe doit également être ajouté à la catégorie d’approvisionnement sélectionnée. Pour plus d’informations sur l’enregistrement des fournisseurs, voir [Gérer les utilisateurs de la fonctionnalité de collaboration fournisseur](manage-vendor-collaboration-users.md). Pour plus d’informations sur l’affectation des fournisseurs à une catégorie d’approvisionnement, voir [Approuver les fournisseurs pour des catégories d’approvisionnement spécifiques](tasks/approve-vendors-specific-procurement-categories.md).
-3. Vérifiez que les unités de mesure et la devise utilisées par le fournisseur sont paramétrées. Pour plus d’informations sur la création d’une unité de mesure, voir [Gérer des unités de mesure](../pim/tasks/manage-unit-measure.md).
+3. Vérifiez que les unités de mesure et la devise utilisées par le fournisseur sont paramétrées. Pour plus d'informations sur la création d'une unité de mesure, voir [Gérer des unités de mesure](../pim/tasks/manage-unit-measure.md).
 4. Configurez le catalogue fournisseur externe conformément aux exigences relatives au site de catalogue externe de votre fournisseur. Pour plus de détails sur cette tâche, voir [Configurer le catalogue fournisseur externe](#configure-the-external-vendor-catalog).
 5. Testez les configurations du catalogue externe du fournisseur pour vérifier que les paramètres sont valides et que vous pouvez accéder au catalogue externe du fournisseur. Utilisez l’action **Valider les paramètres** pour valider le message de paramétrage de la demande que vous avez défini. Ce message doit entraîner l’ouverture du site du catalogue externe du fournisseur dans une fenêtre du navigateur. Pendant la validation, il est impossible de commander des articles et des services au fournisseur. Pour commander des articles et des services, vous devez accéder au catalogue du fournisseur à partir d’une demande d’achat.
 6. Activez le catalogue externe à l’aide du bouton **Activer le catalogue** sur la page **Catalogues externes**. Le catalogue externe doit être activé pour que les employés peuvent l’utiliser. Vous pouvez désactiver le catalogue externe à tout moment.

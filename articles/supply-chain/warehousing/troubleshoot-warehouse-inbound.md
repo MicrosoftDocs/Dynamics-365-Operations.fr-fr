@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828224"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920985"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Résoudre les problèmes des opérations d’entrepôt entrantes
 
@@ -56,7 +56,7 @@ Après avoir exécuté la tâche périodique *Mettre à jour les réceptions de 
 
 ### <a name="issue-resolution"></a>Résolution du problème
 
-Une nouvelle fonctionnalité de gestion des charges entrantes, *À réception des quantités de chargement*, résout ce problème. Pour activer cette fonctionnalité, accédez à [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez les fonctionnalités suivantes (dans l’ordre de la liste) :
+Une nouvelle fonctionnalité de gestion des charges entrantes, *À réception des quantités de chargement*, résout ce problème. Pour activer cette fonctionnalité, accédez à l'espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) et activez les fonctionnalités suivantes (dans l’ordre de la liste) :
 
 1. Associer les mouvements de stock de commande fournisseur au chargement
 1. Réception excédentaire des quantités de chargement

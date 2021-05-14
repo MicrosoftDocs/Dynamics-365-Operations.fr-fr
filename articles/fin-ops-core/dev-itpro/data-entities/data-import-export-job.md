@@ -2,7 +2,7 @@
 title: Vue d’ensemble des tâches d’importation et d’exportation de données
 description: L’espace de travail Gestion des données vous permet de créer et de gérer des tâches d’importation et d’exportation de données.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750998"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937328"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -142,7 +142,7 @@ Chaque exécution de tâche fournit les informations suivantes :
 Les détails de l’exécution indiquent l’état de chaque entité de données que la tâche a traitée. Par conséquent, vous pouvez rapidement rechercher les informations suivantes :
 
 - Quelles entités ont été traitées.
-- Pour une entité, le nombre d’enregistrements ayant été correctement traités et le nombre ayant échoué.
+- Pour une entité, le nombre d'enregistrements ayant été correctement traités et le nombre ayant échoué.
 - Les enregistrements intermédiaires pour chaque entité.
 
 Vous pouvez télécharger les données intermédiaires dans un fichier pour les tâches d’exportation, ou vous pouvez les télécharger sous la forme d’un module pour les tâches d’importation et d’exportation.
@@ -161,19 +161,7 @@ Pour accélérer l’importation de données, le traitement parallèle de l’im
     - Dans le champ **Importer le nombre d’enregistrements de seuil**, entrez le nombre d’enregistrement de seuil pour l’importation. Cela détermine le nombre d’enregistrements à traiter par un thread. Si un fichier contient 10 000 enregistrements, un nombre de 2 500 enregistrements avec un nombre de 4 tâches signifie que chaque thread traitera 2 500 enregistrements.
     - Dans le champ **Importer le nombre de tâches**, entrez le nombre de tâches d’importation. Cela ne doit pas dépasser le nombre maximal de threads de lots alloués pour le traitement par lots dans **Administration du système \> Configuration du serveur**.
 
-## <a name="clean-up-the-staging-tables"></a>Nettoyer les tables intermédiaires
-Depuis Platform update 29, cette fonctionnalité a été supprimée. Elle est remplacée par une version de la fonctionnalité de nettoyage de l’historique des tâches expliquée ci-dessous.
-
-Vous pouvez nettoyer les tables intermédiaires à l’aide de la fonction **Nettoyage intermédiaire** dans l’espace de travail **Gestion des données**. Vous pouvez utiliser les options suivantes pour sélectionner les enregistrements à supprimer d’une table intermédiaire :
-
-- **Entité** – Si une seule entité est fournie, tous les enregistrements de la table intermédiaire de cette entité sont supprimés. Permet de supprimer toutes les données de l’entité dans tous les projets de données et toutes les tâches.
-- **ID tâche** – Si un seul ID de tâche est fourni, tous les enregistrements de toutes les entités dans la tâche sélectionnée sont supprimés des tables intermédiaires appropriées.
-- **Projets de données** – Si un seul projet de données est sélectionné, tous les enregistrements de toutes les entités et de toutes les tâches du projet de données sélectionné sont supprimés.
-
-Vous pouvez également associer les options pour restreindre davantage l’ensemble des enregistrements à supprimer.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>L’historique de tâche Nettoyage (disponible dans Platform update 29 et version ultérieure)
-
+## <a name="job-history-clean-up"></a>Nettoyage de l’historique des tâches 
 La fonctionnalité de nettoyage de l’historique de la gestion des données doit être utilisée pour planifier un nettoyage périodique de l’historique d’exécution. Cette fonctionnalité remplace la fonctionnalité précédente de nettoyage de table intermédiaire, qui est désormais supprimée. Les tables suivantes sont nettoyées par le processus de nettoyage.
 
 -   Toutes les tables intermédiaires

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d37644d9dd124e8894197c56cc585cc6f805b54
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 06735ce7c876234da263316a6481781f8baa9edd
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820176"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921085"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Classer un produit à l’aide des hiérarchies de catégories
 
@@ -27,18 +27,17 @@ ms.locfileid: "5820176"
 
 Cette rubrique décrit la procédure de classification d’un produit à l’aide des hiérarchies de catégories. Utilisez les hiérarchies de catégories pour classer les produits pour l’exportation, l’approvisionnement, la vente ou d’autres fins. Cette tâche est généralement effectuée par un responsable de produit. L’exemple utilise le numéro de produit M0009 dans les données de démonstration de la société fictive USMF.
 
-1. Sélectionnez **Gestion des produits lancés**.
-2. Sélectionnez **Tous les produits lancés**.
-3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-4. Dans le volet Actions, sélectionnez **Produit**.
-5. Sélectionnez **Catégories de produits**.
-6. Sélectionnez **Nouveau**.
-7. Saisissez ou sélectionnez une valeur dans le champ **Hiérarchie de catégories**.
-8. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
-9. Sélectionnez **Nouveau**.
-10. Saisissez ou sélectionnez une valeur dans le champ **Hiérarchie de catégories**.
-11. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
-12. Fermez la page.
+1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
+1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans le volet Actions, sélectionnez **Produit**.
+1. Sélectionnez **Catégories de produits**.
+1. Sélectionnez **Nouveau**.
+1. Saisissez ou sélectionnez une valeur dans le champ **Hiérarchie de catégories**.
+1. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
+1. Sélectionnez **Nouveau**.
+1. Saisissez ou sélectionnez une valeur dans le champ **Hiérarchie de catégories**.
+1. Saisissez ou sélectionnez une valeur dans le champ **Catégorie**.
+1. Fermez la page.
 
 
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797255"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936802"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gérer des attributs et des groupes d’attributs
 
@@ -101,7 +101,7 @@ Voici les options de métadonnées d’attributs restantes sur la page **Attribu
 
 Ces options ont été initialement prévues pour optimiser la fonctionnalité de recherche pour la vitrine en ligne. Bien que Commerce ne comprenne pas de vitrine en ligne prête à l’emploi, un kit de développement logiciel (SDK) de publication de commerce électronique est inclus. Les clients peuvent utiliser ce kit SDK pour placer des produits dans un index de recherche de leur choix. Bien que les données de produit soient importées, les clients doivent toujours pouvoir distinguer les données pouvant faire l’objet d’une recherche, les données pouvant être interrogées, et ainsi de suite. Ainsi, ils peuvent créer un index optimal pour s’assurer qu’ils indexent uniquement les attributs qui, *selon eux*, doivent être indexés.
 
-Pour plus d’informations sur l’objectif de ces options restantes, voir [Vue d’ensemble du schéma de recherche de SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
+Pour plus d’informations sur l’objectif de ces options restantes, voir [Vue d’ensemble du schéma de recherche de SharePoint Server 2013](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Paramètres de filtre pour les attributs
 

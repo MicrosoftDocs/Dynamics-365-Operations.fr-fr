@@ -2,7 +2,7 @@
 title: Module de carte cadeau
 description: Cette rubrique couvre les modules de carte cadeau et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a4e4e06ab7032d68fcd36a8e80bc714ebaaac821
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8db7e597241f1fd552f6b960c2b57b0ba83da949
+ms.sourcegitcommit: efde05c758b2e02960760d875569d780d77d5550
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797669"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5962761"
 ---
 # <a name="gift-card-module"></a>Module Carte cadeau
 
@@ -46,7 +46,7 @@ L’image suivante montre un exemple de module de carte cadeau dans une page de 
 
 ## <a name="module-properties"></a>Propriétés du module
 
-- **Afficher des champs supplémentaires** - Cette propriété définit quels champs doivent être affichés pour les cartes cadeaux en plus du numéro de carte-cadeau, qui est toujours affiché par défaut. Par exemple, certaines cartes cadeaux prennent en charge l’affichage d’un numéro d’identification personnel (PIN) et d’autres prennent en charge l’affichage d’un code PIN et d’une date d’expiration. Alternativement, cette propriété peut être définie sur « Aucune », ce qui n’affichera que le numéro de la carte cadeau et aucun champ supplémentaire.
+- **Afficher des champs supplémentaires** – Cette propriété définit quels champs doivent être affichés pour les cartes cadeaux en plus du numéro de carte-cadeau, qui est toujours affiché par défaut. Par exemple, certaines cartes cadeaux prennent en charge l’affichage d’un numéro d’identification personnel (PIN) et d’autres prennent en charge l’affichage d’un code PIN et d’une date d’expiration. Alternativement, cette propriété peut être définie sur « Aucune », ce qui n’affichera que le numéro de la carte cadeau et aucun champ supplémentaire.
 
 Valeurs prises en charge :
 -   PIN
@@ -57,12 +57,32 @@ Valeurs prises en charge :
 ## <a name="site-settings-for-gift-card-modules"></a>Paramètres du site pour les modules de cartes cadeaux
 
 Dans le générateur de site Commerce, sous **Paramètres du site \> Extensions**, il y a un paramètre de module de carte cadeau appelé **Type de carte cadeau pris en charge**. Ce paramètre prend en charge trois valeurs :
-- **Carte cadeau Dynamics 365** - Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Dynamics 365. Ce paramètre n’est pris en charge que pour les utilisateurs connectés sur le site de commerce électronique.
-- **Cartes cadeaux SVS et Givex** - Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Givex et SVS. Ce paramètre est pris en charge pour les utilisateurs connectés et anonymes sur le site de commerce électronique.
-- **Cartes cadeaux Dynamics 365, SVS et Givex** - Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Dynamics 365, Givex et SVS. Ce paramètre n’est pris en charge que pour les utilisateurs connectés sur le site de commerce électronique.
+- **Carte cadeau Dynamics 365** – Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Dynamics 365. Ce paramètre n’est pris en charge que pour les utilisateurs connectés sur le site de commerce électronique.
+- **Cartes cadeaux SVS et Givex** – Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Givex et SVS. Ce paramètre est pris en charge pour les utilisateurs connectés et anonymes sur le site de commerce électronique.
+- **Cartes cadeaux Dynamics 365, SVS et Givex** – Lorsque ce paramètre est appliqué, le module de carte cadeau permet uniquement le rachat de cartes cadeaux Dynamics 365, Givex et SVS. Ce paramètre n’est pris en charge que pour les utilisateurs connectés sur le site de commerce électronique.
 
 > [!IMPORTANT]
 > Ces paramètres sont disponibles dans la version 10.0.11 de Dynamics 365 Commerce et ne sont requis que si vous avez besoin d’assistance pour les cartes cadeaux SVS ou Givex. Si vous effectuez une mise à jour à partir d’une ancienne version de Dynamics 365 Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour obtenir des instructions de mise à jour du fichier appsettings.json, consultez [Mise à jour du kit de développement logiciel et de la bibliothèque de modules](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
+## <a name="extend-internal-gift-cards-for-use-in-e-commerce-storefronts"></a>Étendre les cartes-cadeaux internes aux vitrines de commerce électronique
+
+Par défaut, les cartes-cadeaux internes ne sont pas optimisées pour les vitrines de commerce électronique. Par conséquent, avant d'autoriser l'utilisation de cartes-cadeaux internes pour le paiement, vous devez les configurer avec des extensions qui les rendent plus sécurisées. Voici les zones de cartes-cadeaux que vous devez étendre avant d'autoriser l'utilisation de cartes-cadeaux internes en production :
+
+- **Numéro de la carte-cadeau** – Les séquences de numéros sont utilisées pour générer des numéros de carte-cadeau pour les cartes-cadeaux internes. Étant donné que les séquences de numéros peuvent être facilement prédites, vous devez étendre la génération des numéros de carte-cadeau afin que des chaînes aléatoires sécurisées par cryptographie soient utilisées pour les numéros émis.
+- **GetBalance** – L'API **GetBalance** est utilisé pour rechercher les soldes des cartes-cadeaux. Par défaut, il s'agit d'une API publique. Si un code PIN n'est pas requis pour rechercher les soldes des cartes-cadeaux, il existe un risque que des attaques par force brute utilisent l'API **GetBalance** pour pirater les numéros de cartes-cadeaux qui ont des soldes. En mettant en œuvre à la fois un code PIN pour les cartes-cadeaux internes et la limitation de l'API, vous pouvez atténuer ce risque.
+- **PIN** – Par défaut, les cartes-cadeaux internes ne prennent pas en charge les codes PIN. Vous devez étendre les cartes-cadeaux internes afin qu'un code PIN soit nécessaire pour rechercher les soldes. Cette fonctionnalité peut également être utilisée pour verrouiller les cartes-cadeaux après plusieurs tentatives incorrectes de saisie du code PIN.
+
+## <a name="enable-gift-card-payments-for-guest-checkout"></a>Activer les paiements par carte-cadeau pour la caisse d’invité
+
+Par défaut, les paiements par carte-cadeau ne sont pas activés pour la caisse d’invité (anonyme). Pour les activer, procédez comme suit.
+
+1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Configuration de canal \>  Configuration de PDV \> PDV \> Opérations PDV**.
+1. Sélectionnez et maintenez sélectionné (ou cliquez avec le bouton droit) l'en-tête de la grille, puis sélectionnez **Insérer des colonnes**.
+1. Dans la boîte de dialogue **Insérer des colonnes**, sélectionnez la case à cocher **AllowAnonymousAccess**.
+1. Sélectionnez **Mettre à jour**.
+1. Pour les opérations **520** (Solde de carte-cadeau) et **214**, définissez la valeur **AllowAnonymousAccess** sur **1**.
+1. Sélectionnez **Enregistrer**.
+1. Exécutez la la tâche du planificateur **1090** pour synchroniser les modifications avec la base de données des canaux. 
 
 ## <a name="add-a-gift-card-module-to-a-page"></a>Ajouter un module de carte cadeau à une page
 

@@ -2,7 +2,7 @@
 title: Gestion de la qualité pour les processus d’entrepôt
 description: Cette rubrique fournit des informations sur la gestion de la qualité pour les processus d’entrepôt. Cette fonctionnalité étend les capacités de gestion de la qualité et permet aux utilisateurs d’intégrer des contrôles d’échantillonnage d’articles dans le processus de réception dans l’entrepôt en utilisant une gestion des entrepôts avancée.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834263"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956080"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestion de la qualité pour les processus d’entrepôt
 
@@ -73,7 +73,7 @@ Pour un exemple étape par étape qui montre comment terminer cette configuratio
 
 Avant que la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ puisse être appliquée à un entrepôt spécifique, vous devez suivre ces étapes pour rendre la fonctionnalité disponible pour cet entrepôt.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements fixes**.
 1. Sélectionnez l’entrepôt pour activer la Gestion de la qualité.
 1. Sur l’organisateur **Entrepôt**, définissez l’option **Activer l’ordre de qualité pour les processus d’entrepôt** sur _Oui_. (Notez que cette option peut être définie sur _Oui_ uniquement pour les entrepôts qui utilisent des processus de gestion d’entrepôt.)
 
@@ -85,9 +85,9 @@ La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ con
 
 ### <a name="quality-associations"></a>Associations de qualité
 
-Chaque [enregistrement d’association de qualité](enable-quality-management.md) définit l’ensemble de tests, le niveau de qualité acceptable et le programme d’échantillonnage qui s’applique aux ordres de qualité générés. Pour paramétrer un enregistrement d’association de qualité, procédez comme suit.
+Chaque [enregistrement d’association de qualité](enable-quality-management.md) définit l’ensemble de tests, le niveau de qualité acceptable et le programme d’échantillonnage qui s’applique aux ordres de qualité générés. Pour paramétrer un enregistrement d’association de qualité, procédez comme suit :
 
-1. Allez dans **Gestion des stocks \> Configuration \> Contrôle de la qualité \> Associations de qualité**.
+1. Allez dans **Gestion des stocks \> Paramétrage \> Contrôle de la qualité \> Associations de qualité**.
 1. Créez ou sélectionnez l’entrée d’association de qualité pour l’élément ou le groupe avec lequel vous travaillez, ou pour tous les éléments.
 1. Sur l’organisateur **Conditions**, définissez le champ **Type d’entrepôt applicable** sur l’une des valeurs suivantes :
 
@@ -143,7 +143,7 @@ Si vous définissez un échantillonnage d’article qui utilise le type d’entr
 
 L’échantillonnage d’article contrôle la fréquence d’envoi des articles pour le contrôle de la qualité. La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ présente le concept de _portée d’échantillonnage d’article_. Le système utilise la portée d’échantillonnage d’article lorsqu’il évalue si et comment les ordres de qualité et/ou le travail d’échantillonnage d’article de qualité et le travail d’ordre de qualité doivent être créés.
 
-Pour configurer l’échantillonnage d’article, accédez à **Gestion des stocks \> Configuration \> Contrôle de qualité \> Échantillonnage d’articles** et définissez le champ **Portée d’échantillonnage** sur l’une des valeurs suivantes :
+Pour configurer l’échantillonnage d’article, accédez à **Gestion des stocks \> Paramétrage \> Contrôle de qualité \> Échantillonnage d’articles** et définissez le champ **Portée d’échantillonnage** sur l’une des valeurs suivantes :
 
 - **Ordre** - La ligne du document source sert de base à l’évaluation de si et comment les ordres de qualité et/ou le travail d’échantillonnage d’article de qualité et le travail d’ordre de qualité sont créés. Cette valeur est la valeur par défaut et lorsqu’elle est sélectionnée, le système fonctionne de la même manière que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ n’est pas activée.
 - **Chargement** - Les chargements sont utilisés comme base pour évaluer si et comment un ordre de qualité et/ou un travail est créé. Cette valeur n’est disponible que lorsque la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ est activée.
@@ -269,9 +269,9 @@ Lorsque les ordres de qualité sont validés, le système essaie de créer un tr
 
 ## <a name="canceling-quality-item-sampling-work"></a>Annulation d’un travail d’échantillonnage d’articles de qualité
 
-Vous pouvez annuler le travail créé pour l’échantillonnage d’article de qualité. Pour contrôler ce qui se produit lorsque ce travail est annulé, procédez comme suit.
+Vous pouvez annuler le travail créé pour l’échantillonnage d’article de qualité. Pour contrôler ce qui se produit lorsque ce travail est annulé, procédez comme suit :
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Paramètres de gestion des entrepôts**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Paramètres de gestion des entrepôts**.
 1. Sur l’onglet **Général**, sur l’organisateur **Travail**, définissez l’option **Annuler l’enregistrement de la réception lors de l’annulation d’un travail** sur l’une des valeurs suivantes :
 
     - **Oui** - Lorsque le travail d’échantillonnage d’articles de qualité est annulé, l’ordre de qualité associé est supprimé et le stock n’est pas enregistré.
@@ -295,7 +295,7 @@ Pour exécuter ce scénario, vous devez préparer votre système de la manière 
 - Activez la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Configurez l’entrepôt 51 pour utiliser la fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ comme suit :
 
-    1. Accédez à **Gestion des entrepôts \> Configuration \> Entrepôt \> Emplacements fixes**.
+    1. Accédez à **Gestion des entrepôts \> Paramétrage \> Entrepôt \> Emplacements fixes**.
     1. Sélectionner l’entrepôt 51.
     1. Sur l’organisateur **Entrepôt**, définissez l’option **Activer l’ordre de qualité pour les processus d’entrepôt** sur *Oui*.
 
@@ -312,7 +312,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 #### <a name="work-class-for-quality-in"></a>Classe de travail pour la qualité entrante
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Travail \> Classes de travail**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Travail \> Classes de travail**.
 1. Créez une classe de travail et définissez les valeurs suivantes :
 
     - **ID classe de travail :** _QualityIn_
@@ -321,7 +321,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 #### <a name="work-template"></a>Modèle de travail
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Modèles de travail**.
 1. Définissez le champ **Type d’ordre de travail** sur _Échantillonnage d’articles de qualité_.
 1. Créez un modèle de travail et définissez les valeurs suivantes :
 
@@ -340,7 +340,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 #### <a name="location-directive"></a>Instruction d’emplacement
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Instructions d’emplacements**.
 1. Définissez le champ **Type d’ordre de travail** sur _Échantillonnage d’articles de qualité_.
 1. Créez une instruction d’emplacement et définissez les valeurs suivantes :
 
@@ -368,7 +368,7 @@ Vous devez maintenant préparer une configuration de base qui permettra à votre
 
 Ensuite, vous devez modifier la séquence des instructions d’emplacement de commande fournisseur existantes pour l’entrepôt 51. Les données de démonstration incluent deux instructions d’emplacement avec une valeur de **Type d’ordre de travail** de _Achat_ : l’une est nommée _51 QMS_ et l’autre, _51 PO Direct_. Pour garantir que la fonctionnalité *Gestion de la qualité pour les processus d’entrepôt* est appliquée pour l’entrepôt 51, vous devez vous assurer que l’instruction d’emplacement _51 QMS_ n’est pas appliquée. Cependant, au lieu de supprimer cette instruction d’emplacement (car vous voudrez peut-être l’utiliser à l’avenir), vous pouvez simplement changer la séquence.
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Instructions d’emplacements**.
 1. Définissez le champ **Type d’ordre de travail** sur _Commande fournisseur_.
 1. Dans la liste des séquences, sélectionnez le numéro de séquence 5, pour l’instruction d’emplacement _51 PO Direct_.
 1. Déplacez la séquence sélectionnée jusqu’au numéro de séquence 4.
@@ -378,7 +378,7 @@ Ensuite, vous devez modifier la séquence des instructions d’emplacement de co
 
 La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ajoute de nouvelles capacités d’échantillonnage d’articles. La valeur de **Portée d’échantillonnage** peut maintenant être _Ordre_, _Expédition_ ou _Chargement_, et la valeur de **Quantité d’échantillonnage** peut maintenant être _Contenant complet_.
 
-1. Allez dans **Gestion des stocks \> Configuration \> Contrôle de la qualité \> Échantillonnage d’article**.
+1. Allez dans **Gestion des stocks \> Paramétrage \> Contrôle de la qualité \> Échantillonnage d’article**.
 1. Créez un enregistrement d’échantillonnage d’article et définissez les valeurs suivantes :
 
     - **Échantillonnage d’articles :** _3rd LP_
@@ -393,7 +393,7 @@ La fonctionnalité _Gestion de la qualité pour les processus d’entrepôt_ ajo
 
 Créez une association de qualité qui utilisera le nouvel échantillonnage d’article.
 
-1. Allez dans **Gestion des stocks \> Configuration \> Contrôle de la qualité \> Associations de qualité**.
+1. Allez dans **Gestion des stocks \> Paramétrage \> Contrôle de la qualité \> Associations de qualité**.
 1. Créez un enregistrement d’association de qualité et définissez les valeurs suivantes :
 
     - **Type de référence :** _Achat_
@@ -430,7 +430,7 @@ Créez une association de qualité qui utilisera le nouvel échantillonnage d’
 
 Pour terminer la configuration afin de pouvoir déplacer les marchandises vers l’emplacement de contrôle qualité, vous devez rendre le travail d’échantillonnage d’articles de qualité disponible à partir d’un élément de menu de l’appareil mobile.
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Sélectionnez le élément de menu de l’appareil mobile **Rangement d’achat**.
 1. Sur l’organisateur **Classes de travail**, ajoutez l’ID de la classe de travail *QualityIn*.
 
@@ -487,7 +487,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="work-class-for-quality-out"></a>Classe de travail pour la qualité sortante
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Travail \> Classes de travail**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Travail \> Classes de travail**.
 1. Créez une classe de travail et définissez les valeurs suivantes :
 
     - **ID classe de travail :** *QualityOut*
@@ -496,7 +496,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="work-templates"></a>Modèles de travail
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Travail \> Modèles de travail**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Travail \> Modèles de travail**.
 1. Changez la valeur **Type d’ordre de travail** sur *Ordre de qualité*.
 1. Créez un modèle de travail et définissez les valeurs suivantes :
 
@@ -515,7 +515,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="location-directives"></a>Instructions d’emplacement
 
-1. Allez dans **Gestion des entrepôts \> Configuration \> Instructions d’emplacements**.
+1. Allez dans **Gestion des entrepôts \> Paramétrage \> Instructions d’emplacements**.
 1. Changez la valeur **Type d’ordre de travail** sur *Ordre de qualité*.
 1. Créez une instruction d’emplacement et définissez les valeurs suivantes :
 
@@ -586,7 +586,7 @@ Vous allez maintenant poursuivre la configuration de base requise pour la classe
 
 #### <a name="mobile-device-menu-items-for-quality-out"></a>Éléments de menu des appareils mobiles pour une sortie de qualité
 
-1. Accédez à **Gestion des entrepôts \> Configuration \> Appareil mobile \> Options de menu d’appareil mobile**.
+1. Accédez à **Gestion des entrepôts \> Paramétrage \> Appareil mobile \> Options de menu d’appareil mobile**.
 1. Sélectionnez le élément de menu de l’appareil mobile **Rangement QMS**.
 1. Sur l’organisateur **Classes de travail**, ajoutez l’ID de la classe de travail *QualityPut*.
 
@@ -620,5 +620,8 @@ Vous avez configuré les données de travail et d’emplacement pour l’entrep�
 > [!NOTE]
 > Envisagez d’ajouter l’entrée de sortie de qualité à un élément de menu de l’appareil mobile où le code d’activité est *Afficher la liste de travail ouverte*. Pour obtenir un exemple, voir l’élément de menu d’appareil mobile nommé **Liste de travail** dans les données de démonstration. Ajoutez d’abord la classe de travail *Ordre de qualité* à un élément de menu dirigé par l’utilisateur, car cette classe de travail est nécessaire pour que le travail soit affiché dans la liste de travail. Ajoutez ensuite la classe de travail *Ordre de qualité* à l’élément du menu **Liste de travail**. Les utilisateurs qui ont accès à la liste des travaux pourront ensuite sélectionner et traiter le travail généré automatiquement par la validation de l’ordre de qualité.
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Vue d'ensemble de la gestion de la qualité et de la non-conformité](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

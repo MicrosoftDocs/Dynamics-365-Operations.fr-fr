@@ -2,7 +2,7 @@
 title: ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 description: Cette rubrique décrit comment créer une nouvelle configuration de gestion des états électroniques contenant un modèle de génération de documents électroniques au format OPENXML.
 author: NickSelin
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2f84621028c36cf79d6fb9ab07707bdb970d97e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0f23748f6f1d2c3045b1dc69d8e46821f67da593
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754984"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944266"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Concevoir une configuration pour générer des états au format OPENXML (novembre 2016)
 
@@ -28,7 +28,7 @@ Cette rubrique explique comment un utilisateur dont le rôle est Administrateur 
 
 Dans cet exemple, vous allez créer une configuration pour la société témoin, Litware, Inc. Ces étapes peuvent être effectuées dans la société GBSI.
 
-Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d’état de paiement](https://go.microsoft.com/fwlink/?linkid=862266).
+Pour effectuer ces étapes, vous devez commencer par effectuer les étapes de la procédure « Créer un fournisseur de configuration et le marquer comme actif ». Vous devez également avoir un fichier Excel qui sera importé lorsque vous créez le modèle. Ce fichier est accessible depuis le [Modèle d’état de paiement](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Téléchargez la configuration du modèle de données des paiements

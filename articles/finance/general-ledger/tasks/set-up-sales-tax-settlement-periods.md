@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813505"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944775"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Paramétrer des périodes de règlement fiscal
 
@@ -37,9 +37,7 @@ La société fictive USMF est citée en exemple dans cette tâche.
 7. Dans le champ **Conditions de paiement**, sélectionnez l’enregistrement souhaité dans le menu déroulant. L’administration fiscale associée peut être paramétrée comme fournisseur et le règlement fiscal va créer une facture fournisseur en cours. Les conditions de paiement définissent la date d’échéance pour la facture fournisseur en cours.  
 8. Sélectionnez un type pour les intervalles des périodes de règlement.
 9. Entrez le nombre d’unités de l’intervalle par période. Un trimestre a 3 mois, par exemple.
-10. Activez ou désactivez la case à cocher **Utiliser le traitement par lots pour le règlement de la taxe**. Le processus de règlement pour la période de règlement peut être traité en tant que traitement par lots en arrière-plan. Cette opération est recommandée pour un grand nombre de transactions de taxe dans un intervalle de périodes.  
-    > [!NOTE]
-    > Pour le moment, elle n’est pas prise en charge en Espagne, au Japon et aux Pays-Bas.
+10. Activez ou désactivez la case à cocher **Utiliser le traitement par lots pour le règlement de la taxe**. Le processus de règlement pour la période de règlement peut être traité en tant que traitement par lots en arrière-plan. Cette opération est recommandée pour un grand nombre de transactions de taxe dans un intervalle de périodes.
 11. Activez ou désactivez la case à cocher **Empêcher la génération des transactions de taxe de contrepartie**. Par défaut, le système génère des transactions de taxe de contrepartie au cours de le processus de règlement, ce qui peut entraîner des problèmes de performances s’il existe un grand nombre de transactions de taxe au sein d’un intervalle de périodes. Activez cette case à cocher pour empêcher la génération des transactions de taxe de contrepartie.
 12. Développez l’onglet **Intervalles de périodes**.
 13. Sélectionnez **Ajouter**.

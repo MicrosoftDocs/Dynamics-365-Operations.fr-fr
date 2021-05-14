@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750738"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941194"
 ---
 # <a name="unified-product-experience"></a>Expérience produit uniformisée
 
@@ -124,7 +124,7 @@ Les dimensions de produit sont des caractéristiques qui identifient une variant
 
 Lorsqu’un produit a différentes dimensions de produit (par exemple, un produit générique a des dimensions de produit Taille et Couleur), chaque produit distinct (à savoir, chaque variante de produit) est défini comme combinaison de ces dimensions de produit. Par exemple, le numéro de produit B0001 correspond à un t-shirt noir taille XS, le numéro de produit B0002 correspond à un t-shirt noir taille S. Dans ce cas, les combinaisons existantes des dimensions de produit sont définies. Par exemple, le t-shirt de l’exemple précédent peut être de taille XS et noir, de taille S et noir, de taille M et noir ou de taille L et noir, mais il ne peut pas être de taille XL et noir. Autrement dit, les dimensions de produit qu’un produit générique peut prendre sont spécifiées, et les variantes peuvent être lancées selon ces valeurs.
 
-Pour mettre à jour les dimensions de produit qu’un produit générique peut prendre, les tables suivantes sont créées et mises en correspondance dans Dataverse pour chaque dimension de produit. Pour plus d’informations, voir [Vue d’ensemble des informations de produit](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
+Pour mettre à jour les dimensions de produit qu’un produit générique peut prendre, les tables suivantes sont créées et mises en correspondance dans Dataverse pour chaque dimension de produit. Pour plus d'informations, voir [Product information overview](../../../supply-chain/pim/product-information.md).
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
@@ -138,7 +138,7 @@ Pour mettre à jour les dimensions de produit qu’un produit générique peut p
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Paramètres de commande par défaut et paramètres de commande par défaut spécifiques au produit
 
-Les paramètres de commande par défaut définissent le site et l’entrepôt d’où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l’indicateur de fin, et la méthode de promesse de commande. Ces informations seront disponibles dans Dataverse à l’aide des paramètres de commande par défaut et de l’entité des paramètres de commande par défaut spécifiques au produit. Pour en savoir plus sur la fonctionnalité, voir la [Rubrique Paramètres de commande par défaut](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+Les paramètres de commande par défaut définissent le site et l’entrepôt d’où les articles seront originaires ou stockés, les quantités minimales, maximales, multiples et standard qui seront utilisées pour le commerce ou la gestion des stocks, les délais, l’indicateur de fin, et la méthode de promesse de commande. Ces informations seront disponibles dans Dataverse à l’aide des paramètres de commande par défaut et de l’entité des paramètres de commande par défaut spécifiques au produit. Pour en savoir plus sur la fonctionnalité, voir la [Rubrique Paramètres de commande par défaut](../../../../supply-chain/production-control/default-order-settings.md).
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 

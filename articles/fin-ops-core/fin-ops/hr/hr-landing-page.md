@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 67fcadac93f757fb535105154cb06a3549cccc7f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752178"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923566"
 ---
 # <a name="human-resources-overview"></a>Vue d’ensemble de Human Resources
 
@@ -29,9 +29,9 @@ Le module Ressources humaines simplifie de nombreuses tâches d’archivage de r
 Le module Ressources humaines vous permet d’effectuer les tâches suivantes :
 
 + Administrer les structures organisationnelles.
-+ Tenir à jour l’ensemble des informations sur les collaborateurs depuis leur embauche jusqu’à leur retraite.
-+ Définir et administrer les plans d’avantages, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
-+ Établir et surveiller les politiques d’absence.
++ Tenir à jour l'ensemble des informations sur les collaborateurs depuis leur embauche jusqu'à leur retraite.
++ Définir et administrer les régimes d'avantages sociaux, inscrire les collaborateurs, attribuer la couverture des personnes à charge et désigner les bénéficiaires.
++ Établir et surveiller les politiques d'absence.
 + Implémenter et suivre la gestion des heures basée sur le profil et générer des informations de salaire à exporter vers un système de paie.
 + Gérer les compétences des collaborateurs.
 + Évaluer les performances et implémenter les objectifs des collaborateurs.
@@ -42,38 +42,38 @@ Le module Ressources humaines vous permet d’effectuer les tâches suivantes :
 
 Lorsque vous travaillez avec le module Ressources humaines, vous décidez comment structurer votre organisation, avec des éléments, tels que les départements, les tâches, et les postes. Il s’agit là des éléments fondamentaux que vous allez configurerez dans le module Ressources humaines. Les employés sont affectés à des postes associés à des tâches.
 
-- [Organisation du personnel à l’aide des départements, tâches et postes](../../../talent/departments-jobs-positions.md)
-- [Configuration des paramètres des ressources humaines (RH) spécifiques à la société](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Configuration des paramètres des ressources humaines (RH) dans les entités juridiques](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Organisation du personnel à l'aide des départements, tâches et postes](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [Configuration des paramètres des ressources humaines (RH) spécifiques à la société](../../../human-resources/hr-setup-parameters.md)
+- [Configuration des paramètres des ressources humaines (RH) dans les entités juridiques](../../../human-resources/hr-setup-shared-parameters.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recruter, embaucher et motiver les employés
 
-Les projets de recrutement permettent de gérer le contenu utilisé dans les annonces des postes à pourvoir et peuvent vous aider à gérer les candidatures aux emplois vacants. Vous pouvez les utiliser pour suivre les réponses aux offres d’emploi pour un projet de recrutement spécifique ou des candidatures spécifiques, et pour mettre à jour le statut des postes vacants. Vous pouvez également embaucher des candidats uniques ou gérer des « projets d’embauche collective », qui facilitent l’embauche de plusieurs travailleurs, par exemple, pour répondre aux besoins saisonniers de l’entreprise.
+Les projets de recrutement permettent de gérer le contenu utilisé dans les annonces des postes à pourvoir et peuvent vous aider à gérer les candidatures aux emplois vacants. Vous pouvez les utiliser pour suivre les réponses aux offres d’emploi pour un projet de recrutement spécifique ou des candidatures spécifiques, et pour mettre à jour le statut des postes vacants. Vous pouvez également embaucher des candidats uniques ou gérer des « projets d’embauche collective », qui facilitent l’embauche de plusieurs collaborateurs, par exemple, pour répondre aux besoins saisonniers de l’entreprise.
 
 - [Gestion des processus de recrutement](manage-recruiting-process.md)
-- [Projets d’embauche collective](mass-hire-projects.md) 
+- [Projets d’embauche collective](../../../human-resources/hr-personnel-mass-hire-projects.md) 
 
 Une fois que vous avez engagé du personnel, vous pouvez définir des plans pour gérer efficacement et équitablement la rémunération, ainsi que gérer les appareils tels que les ordinateurs ou les téléphones, que votre organisation prête à ses employés. Vous pouvez créer des régimes de rémunération fixe et variable, et définir des règles qui appliquent le régime de rémunération en fonction des critères de ce programme.
 
-- [Régimes de rémunération](../../../talent/compensation-plans.md)
-- [Créer des régimes de rémunération fixe](../../../talent/create-fixed-compensation-plans.md)
-- [Créer des régimes de rémunération variable](../../../talent/create-variable-compensation-plans.md)
+- [Régimes de rémunération](../../../human-resources/hr-compensation-overview.md)
+- [Créer des régimes de rémunération fixe](../../../human-resources/hr-compensation-fixed-plans.md)
+- [Créer des régimes de rémunération variable](../../../human-resources/hr-compensation-variable-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Faire évoluer et former les employés
 
-Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d’évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d’affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
+Pour aider vos employés à atteindre leurs objectifs de carrière tout en répondant à vos besoins commerciaux essentiels, vous pouvez paramétrer des objectifs, créer des entretiens d’évaluation des performances et en suivre les résultats. Pour aider votre personnel à acquérir les qualifications nécessaires, vous pouvez également paramétrer des instructeurs, des types de cours, des formations, des descriptions de cours, des programmes, des suivis et des sessions avant d'affecter un instructeur à un cours, ou inscrire un employé à une formation. Les instructeurs doivent déjà exister en tant que collaborateurs, candidats ou contacts.
 
-- [Gestion des performances](../../../talent/performance-management-overview.md)
-- [Aligner les qualifications du personnel aux besoins de l’entreprise](../../../talent/skills.md)
-- [Configurer des cours de formation](../../../talent/courses.md)
+- [Gestion des performances](../../../human-resources/hr-develop-performance-management-overview.md)
+- [Aligner les qualifications du personnel aux besoins de l’entreprise](../../../human-resources/hr-develop-skills.md)
+- [Configurer des cours de formation](../../../human-resources/hr-learning-courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Créer des avantages et les tenir à jour
 
 En plus de rémunérer votre équipe avec des traitements, des salaires et des primes, vous pouvez créer des programmes d’avantages et des plans d’épargne retraite. Vous pouvez également gérer des avantages tels que les programmes de prêt, à travers lesquels votre société prête des actifs, tels que des ordinateurs ou à des téléphones, à ses employés.
 
-- [Définir et gérer un programme social](../../../talent/manage-benefit-program.md)
-- [Stratégies de droit aux avantages](../../../talent/benefit-eligibility-policies.md)
-- [Gérer des articles prêtés aux employés](../../../talent/loan-items.md)
+- [Définir et gérer un programme social](../../../human-resources/hr-benefits-management-overview.md)
+- [Stratégies de droit aux avantages](../../../human-resources/hr-benefits-eligibility-policies.md)
+- [Gérer des articles prêtés aux employés](../../../human-resources/hr-personnel-loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Tenir à jour la conformité et la sécurité de l’espace de travail
 
@@ -85,12 +85,12 @@ Microsoft Dynamics AX peut vous aider à maintenir un environnement de travail s
 
 ## <a name="gather-information-using-questionnaires"></a>Réunir des informations à l’aide de questionnaires
 
-Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu’il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
+Vous pouvez concevoir et administrer des questionnaires afin de recueillir des informations à plusieurs fins. La fonctionnalité de questionnaire vous permet de concevoir et créer des questionnaires. Lorsqu’un questionnaire est prêt, vous le pouvez le distribuer globalement ou à un groupe spécifique de personnes afin qu'il soit rempli. Une fois que les personnes interrogées fournissent leurs réponses, vous pouvez consulter et analyser les résultats.
 
-- [Questionnaires](../../../talent/questionnaires.md)
-- [Créer des questionnaires](../../../talent/design-questionnaires.md)
-- [Distribuer et programmer des questionnaires](../../../talent/distribute-questionnaires.md)
-- [Afficher et évaluer les résultats des questionnaires](../../../talent/evaluate-questionnaire-results.md)
+- [Questionnaires](../../../human-resources/hr-learning-questionnaires.md)
+- [Créer des questionnaires](../../../human-resources/hr-learning-design-questionnaires.md)
+- [Distribuer et programmer des questionnaires](../../../human-resources/hr-learning-distribute-questionnaires.md)
+- [Afficher et évaluer les résultats des questionnaires](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

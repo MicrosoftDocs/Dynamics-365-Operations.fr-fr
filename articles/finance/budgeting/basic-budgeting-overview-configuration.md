@@ -1,8 +1,8 @@
 ---
 title: Vue d’ensemble du budget
 description: Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827456"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960047"
 ---
 # <a name="budgeting-overview"></a>Vue d’ensemble de budgétisation
 
@@ -71,7 +71,7 @@ La fonctionnalité qui a été introduite dans la version 10.0.7 de Microsoft D
 
 La fonctionnalité **Écritures de registre budgétaires pour la quantité** uniquement vous permet de valider une écriture de registre budgétaire avec des montants réservés à la quantité. Par exemple, vous pouvez valider une écriture budgétaire avec une quantité de 32 et un prix de zéro, qui induit un montant à zéro. Vous pouvez ensuite utiliser cette quantité dans le contexte d’un rapport financier pour déterminer un prix par quantité. Notez qu’aucune recherche ou état n’a été mis à jour dans le cadre de cette fonctionnalité ; celle-ci permet simplement de valider un montant de zéro.
 
-La fonctionnalité **Défaillance d’écritures de registre budgétaires de type de montant** autorise que le type de montant par défaut dans une écriture de registre budgétaire soit un type de montant autre qu’une dépense. La ligne d’écriture de registre budgétaire prend désormais comme valeurs par défaut les dépenses lorsque le type de compte principal est celui des dépenses ; elle prend comme valeur par défaut le produit lorsque le type de compte principal est celui des dépenses ; et prend comme valeur par défaut la dépense pour tous les autres types de comptes.
+La fonctionnalité **Défaillance d’écritures de registre budgétaires de type de montant** autorise que le type de montant par défaut dans une écriture de registre budgétaire soit un type de montant autre qu’une dépense. La ligne d’écriture de registre budgétaire prend désormais comme valeurs par défaut les dépenses lorsque le type de compte principal est celui des dépenses ; elle prend comme valeur par défaut le produit lorsque le type de compte principal est celui du revenu ; et prend comme valeur par défaut la dépense pour tous les autres types de comptes.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Utilisation des espaces de travail et des pages de recherche effectuer le suivi du budget et des chiffres réels
 Le responsable du budget peut consulter l’état actuel d’un budget dans l’espace de travail **Budgets comptables et prévisions**. Les onglets **Dépense supérieure au budget** et **Produit inférieur au budget** fournissent un aperçu rapide des combinaisons de dimensions financières dans lesquelles les cibles de budget ne sont pas atteintes ou approchent du seuil. Vous pouvez personnaliser le pourcentage de seuil budgétaire et les ensembles de dimensions financières utilisés sous ces onglets en cliquant sur **Configurer mon espace de travail**. Vous pouvez cliquer sur **Responsable de l’unité** pour afficher les collaborateurs responsables des combinaisons de dimensions financières spécifiques sélectionnées sous ces onglets. Par exemple, si vous constatez que le budget de dépenses du département des opérations va dépasser le seuil budgétaire, vous pouvez facilement rechercher et contacter le responsable du département pour discuter du problème. 

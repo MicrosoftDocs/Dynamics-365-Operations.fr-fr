@@ -2,7 +2,7 @@
 title: Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 description: Cette rubrique explique comment vous pouvez utiliser la configuration de gestion des états électroniques (ER) pour organiser le transfert des données entre votre instance et les services Power BI.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750080"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944435"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurer la gestion des états électroniques (ER) pour extraire les données dans Power BI
 
@@ -68,10 +68,10 @@ Pour exécuter l’exemple décrit dans cette rubrique, vous devez disposer de l
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Utiliser un modèle de données ER comme source de données
 Vous devez disposer d’un modèle de données ER comme source de données commerciales qui sera utilisé dans les états Power BI. Ce modèle de données est téléchargé dans le référentiel de configurations ER. Pour plus d’informations, voir [Télécharger les configurations des états électroniques à partir de Lifecycle Services](download-electronic-reporting-configuration-lcs.md), ou lisez le Guide de tâche **ER Charger une configuration à partir de Lifecycle Services**. Sélectionnez **Déclaration d’échanges de biens** comme modèle de données qui sera téléchargé depuis le référentiel de configurations ER sélectionné. (Dans cet exemple, la version 1 du modèle est utilisée.) Vous pouvez alors accéder à la configuration du modèle ER **Déclaration d’échanges de biens** sur la page **Configurations**.
 
-[![Page Configurations](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Cofiguration du modèle Intrastat ER sur la page Configurations](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Concevoir une configuration de format ER
-Vous devez créer une configuration de format ER en utilisant le modèle de données **Déclaration d’échanges de biens** comme source de données commerciales. Cette configuration de format doit générer des résultats de sortie en tant que documents électroniques dans le format OpenXML (fichier Excel). Pour plus d’informations, lisez le Guide de tâche **ER Créer une configuration pour des états au format OPENXML**. Nommez la nouvelle configuration **Activités d’importation/d’exportation**, comme le montre l’illustration suivante. Utilisez le fichier Excel [Données ER – Détails de l’importation de et de l’exportation](https://go.microsoft.com/fwlink/?linkid=845208) comme modèle lorsque vous concevez le format ER. (Pour plus d’informations sur l’importation d’un modèle de format, lisez le Guide de tâche.)
+Vous devez créer une configuration de format ER en utilisant le modèle de données **Déclaration d’échanges de biens** comme source de données commerciales. Cette configuration de format doit générer des résultats de sortie en tant que documents électroniques dans le format OpenXML (fichier Excel). Pour plus d’informations, lisez le Guide de tâche **ER Créer une configuration pour des états au format OPENXML**. Nommez la nouvelle configuration **Activités d’importation/d’exportation**, comme le montre l’illustration suivante. Utilisez le fichier Excel [Données ER – Détails de l’importation de et de l’exportation](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) comme modèle lorsque vous concevez le format ER. (Pour plus d’informations sur l’importation d’un modèle de format, lisez le Guide de tâche.)
 
 [![Configuration des activités d’importation/d’exportation](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Cliquez sur le bouton **Paramètres** pour le nouvel enregistrement de destinati
 1. Sur la page **Configurations** (**Administration d’organisation** &gt; **Génération d’états électroniques** &gt; **Configurations**), dans l’arborescence des configurations, sélectionnez la configuration **Activités d’importation/d’exportations** que vous avez créée précédemment.
 2. Modifiez le statut de la version 1.1 de **Brouillon** à **Terminée** pour rendre ce format utilisable.
 
-    [![Page Configurations](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Configuration des activités d'importation / exportation sur la page Configurations](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Sélectionnez la version terminée de la configuration **Activités d’importation/d’exportation**, puis cliquez sur **Exécuter**. Notez que la destination configurée est appliquée au résultat de sortie qui est généré dans le format Excel.
 4. Définissez l’option **Traitement par lots** sur **Oui** pour d’exécuter cet état en mode sans assistance.
@@ -187,11 +187,11 @@ Configurez l’intégration à Power BI. Pour plus d’informations, voir [Confi
 2. Sélectionnez l’état Power BI **Détails de l’importation et de l’exportation** que vous avez créé, pour l’afficher comme élément d’action sur la page sélectionnée.
 3. Cliquez sur l’élément d’action pour ouvrir la page affichant l’état que vous avez conçu dans Power BI.
 
-    [![État des détails d’importation et d’exportation](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![État des détails d'importation et d'exportation conçu dans Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Destinations de la gestion des états électroniques](electronic-reporting-destinations.md)
+[Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
 [Vue d’ensemble des états électroniques (ER)](general-electronic-reporting.md)
 

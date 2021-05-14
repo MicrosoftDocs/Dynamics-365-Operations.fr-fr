@@ -2,7 +2,8 @@
 title: Module Options de livraison
 description: Cette rubrique couvre les modules d’options de livraison et explique comment les configurer dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 08/05/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +15,23 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f97dcd42e22e319d9af7cbf57fce7c10d8565d04
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 12b0281a27dcf5f567bcd6be5530fa8e26a4ae99
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801989"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937480"
 ---
 # <a name="delivery-options-module"></a>Module Options de livraison
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules d’options de livraison et explique comment les configurer dans Microsoft Dynamics 365 Commerce.
 
 Les modules d’options de livraison permettent aux clients de sélectionner un mode de livraison tel que l’expédition ou le retrait pour leur commande en ligne. Une adresse de livraison est nécessaire pour déterminer le mode de livraison. Si l’adresse d’expédition change, les options de livraison doivent être extraites de nouveau. Si une commande inclut uniquement des articles qui sont retirés en magasin, ce module est automatiquement masqué.
 
-Pour plus d’informations sur la configuration des modes de livraison, voir [Configuration des canaux en ligne](channel-setup-online.md) et [Configurer les modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Pour plus d’informations sur la configuration des modes de livraison, voir [Configuration des canaux en ligne](channel-setup-online.md) et [Configurer les modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Chaque mode de livraison peut avoir des frais associés. Pour plus d’informations sur la configuration de frais pour un commerce en ligne, consultez [Frais automatiques avancés omnicanaux](omni-auto-charges.md).
 
@@ -50,6 +52,7 @@ L’illustration suivante montre un exemple de module d’options de livraison d
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Rubrique optionnelle pour le module Options de livraison. |
 | Nom de classe CSS personnalisé | Détails | Nom de classe de feuille de style en cascade personnalisée (CSS) qui sera utilisé pour afficher ce module, le cas échéant. |
 | Option Filtrer le mode de livraison | **Ne pas filtrer** ou **Modes hors expédition** | Une valeur qui spécifie si le module Options de livraison doit filtrer tous les modes de livraison hors expédition. |
+| Sélectionner automatiquement une option de livraison | **Ne pas filtrer**, **Sélectionner automatiquement l'option de livraison et afficher le résumé**, ou alors **Sélectionner automatiquement l'option de livraison et ne pas afficher le résumé** | Cette propriété applique automatiquement la première option de livraison disponible au paiement sans que l'utilisateur ne la sélectionne. Elle ne doit être utilisée que s'il existe une option de livraison disponible. Cette propriété est prise en charge à compter de la version 10.0.19 de Commerce. |
 
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Ajouter un module Options de livraison à une page de caisse et définir les propriétés requises
 
@@ -77,7 +80,7 @@ Un module Options de livraison ne peut être ajouté qu’à un module de caisse
 
 [Calcul au prorata des frais d’en-tête correspondent aux lignes de vente](pro-rate-charges-matching-lines.md)
 
-[Paramétrer des modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Paramétrer des modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b75743a64fef53f79159a1476c99a7035b7e4f3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c2e638aeed967db055948dc3addcb4d59f210a5
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839171"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920083"
 ---
 # <a name="rebate-management-deals"></a>Accords de gestion des remises
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les accords de gestion des remises sont utilisés pour contrôler différentes méthodes et bases de calcul des remises et des redevances. Ils comprennent des règles pour les inclusions et les exclusions. Il existe trois types d’accords de gestion des remises : les remises client, les redevances client et les remises fournisseur. Les trois types utilisent des paramètres similaires. Cette rubrique met en évidence les différences qui existent.
 
@@ -182,7 +181,7 @@ Le tableau suivant décrit les champs disponibles dans l’en-tête pour chaque 
 | Méthode de gestion des remises | <p>Ce champ n’est disponible que pour les accords où le champ **Résultat de la remise** de l’en-tête est défini sur *Financier*. Sélectionnez la méthode à utiliser pour calculer la remise :</p><ul><li>*Fixe* : un montant forfaitaire est utilisé pour la ligne.</li><li>*Pourcentage* : un pourcentage du montant de la vente est utilisé.</li><li>*Taux* : un montant forfaitaire par commande est utilisé.</li></ul><p>**Important :** nous vous recommandons vivement d’utiliser la même méthode pour chaque ligne de calcul sur l’onglet **Lignes**. Si une nouvelle méthode est requise, créez une nouvelle ligne d’accord. N’oubliez pas que vous pouvez utiliser le bouton **Copier une ligne** du raccourci **Gestion des remises** pour créer une nouvelle ligne d’accord à partir d’une ligne d’accord existante.</p><p>**Remarque :** si le champ **Résultat de la remise** est défini sur *Article*, ce champ est toujours défini sur *Fixe*. Pour plus d’informations sur la spécification des articles, consultez le texte qui suit ce tableau. |
 | Montant de gestion des remises | Ce champ n’est disponible que pour les accords où le champ **Résultat de la remise** de l’en-tête est défini sur *Financier*. Entrez le montant à utiliser pour calculer la remise, en fonction de la méthode que vous avez sélectionnée dans le champ **Méthode de gestion des remises**. |
 
-Comme indiqué dans le tableau précédent, pour les accords où le champ **Résultat de la remise** de l’en-tête est défini sur *Article*, vous devez spécifier les articles qui seront fournis pour chaque ligne de calcul sur l’onglet **Lignes**. Pour spécifier des articles, procédez comme suit.
+Comme indiqué dans le tableau précédent, pour les accords où le champ **Résultat de la remise** de l’en-tête est défini sur *Article*, vous devez spécifier les articles qui seront fournis pour chaque ligne de calcul sur l’onglet **Lignes**. Pour spécifier des articles, procédez comme suit :
 
 1. Sur l’onglet **Lignes**, créez la ligne de calcul requise si elle n’existe pas et sélectionnez-la.
 1. Si l’accord n’a pas été enregistré depuis que vous avez créé la ligne de calcul, sélectionnez **Enregistrer** dans le volet Actions.

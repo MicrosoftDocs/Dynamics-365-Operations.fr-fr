@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890774"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941138"
 ---
 # <a name="regulatory-updates"></a>Mises à jour réglementaires
 
@@ -47,6 +47,7 @@ Pour connaître les derniers plans de mise à jour réglementaire, consultez le 
 |      Brésil         |   2020 octobre      | 10.0.16      |   Déclaration SC DRCST – SEF 262/2020   |
 |      Brésil         |   2020 octobre      | 10.0.16      |   SPED Fiscal ICMS / IPI record C176   |
 |      Brésil         |   2020 décembre      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 – Identification de la plateforme numérique intermédiaire (mise à jour des règles de mise en page et de validation)   |
+|      Brésil         |   2021 mars         | 10.0.17, 10.0.18, 10.0.19         |    Disposition SPED REINF 1.5.1
 |      Europe        |   2021 janvier       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit – Impact du protocole d’Irlande du Nord sur la déclaration du commerce intracommunautaire dans les pays de l’UE  |
 |      Allemagne        |   2021 janvier       | 10.0.16HF      |   Le format de notification préalable de la TVA ELSTER UstVA a été étendu avec deux nouvelles cases 37,50 pour l’annulation des créances irrécouvrables  |
 |      Allemagne        |   2021 janvier       | 10.0.17      |   Modifications de la structure XML de notification préalable de TVA ELSTER (UstVA)  |

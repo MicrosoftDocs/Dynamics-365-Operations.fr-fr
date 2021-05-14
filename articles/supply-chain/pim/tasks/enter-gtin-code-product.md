@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0163844d7999468e288ba2d612662d1dd6f22df
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818059"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921387"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Entrer le code GTIN d’un produit
 
@@ -26,18 +26,17 @@ ms.locfileid: "5818059"
 
 Les codes GTIN sont affectés par l’organisation GS1. Dans cet exemple, vous entrez un code pour le numéro de produit M0001 dans les données de démonstration de la société USMF.
 
-1. Cliquez sur Gestion des produits lancés.
-2. Cliquez sur Produits lancés.
-3. Augmentez le récapitulatif de l’image du produit.
-4. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
-5. Dans le volet Actions, cliquez sur Gérer le stock.
-6. Cliquez sur Codes GTIN.
-7. Cliquez sur Nouveau.
-8. Dans la liste, marquez la ligne sélectionnée.
-9. Saisissez ou sélectionnez une valeur dans le champ Unité.
-10. Dans le champ Code GTIN, sélectionnez une option.
-11. Tapez une valeur dans le champ GTIN.
-12. Fermez la page.
+1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
+1. Développez le raccourci **Image du produit**.
+1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
+1. Dans le volet Actions, sélectionnez **Gérer le stock**.
+1. Sélectionnez **Codes GTIN**.
+1. Sélectionnez **Nouveau**.
+1. Dans la liste, marquer la ligne sélectionnée.
+1. Saisissez ou sélectionnez une valeur dans le champ **Unité**.
+1. Dans le champ **Code GTIN**, sélectionnez une option.
+1. Dans le champ **GTIN**, tapez une valeur.
+1. Fermez la page.
 
 
 

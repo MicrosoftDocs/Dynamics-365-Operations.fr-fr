@@ -2,7 +2,7 @@
 title: Concevoir des états multilingues dans les états électroniques
 description: Cette rubrique explique comment utiliser les étiquettes d’états électroniques (ER) pour concevoir et générer des états multilingues.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753550"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951983"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Concevoir des états multilingues dans les états électroniques
 
@@ -158,6 +158,31 @@ ER prend en charge différentes façons de spécifier une langue pour un état g
 - **Défini lors de l’exécution** – Générez un état dans une langue spécifiée au moment de l’exécution. Si vous sélectionnez cette valeur, dans le champ **Langue**, configurez une expression ER qui renvoie le code de langue pour la langue, comme la langue du client correspondant.
 
     ![Spécifier dans le concepteur d’opérations ER la langue définie au moment de l’exécution comme langue d’un état généré](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Mise en forme spécifique à la culture
+
+ER prend en charge différentes façons de spécifier une culture pour un état généré. Par conséquent, la mise en forme spécifique à la culture peut être utilisée pour la date, l'heure et les valeurs numériques. Lorsque vous concevez un format ER, sur l'onglet **Format**, dans le champ **Préférences culturelles**, vous pouvez sélectionner l'une des valeurs suivantes pour chaque composant de format de type **Commun\\Fichier**, **Excel\\Fichier**, **PDF\\Fichier**, ou **PDF\\Fusionner** :
+
+- **Préférence de l'utilisateur** – Formatez les valeurs en fonction de la culture de l'utilisateur. Cette culture est définie dans le champ **Format de la date, de l'heure et des chiffres** sur l'onglet **Préférences** de la page **Options utilisateur**.
+
+    ![Définir la culture favorite de l'utilisateur comme culture de l'état généré dans le concepteur d'opérations ER](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Définition explicite** – Mettez en forme les valeurs en fonction de la culture spécifiée au moment de la conception.
+
+    ![Définir la culture définie au moment de la conception comme culture de l'état généré dans le concepteur d'opérations ER](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Définition au moment de l'exécution** – Mettez en forme les valeurs en fonction de la culture spécifiée au moment de l'exécution. Si vous sélectionnez cette valeur, sur l'onglet **Mappage**, dans le champ **Format de la date, de l'heure et des chiffre**, configurez une expression ER qui renvoie le code de culture pour la culture, comme la culture du client correspondant.
+
+    ![Définir la culture définie au moment de l'exécution comme culture de l'état généré dans le concepteur d'opérations ER](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Un composant ER pour lequel vous définissez une culture spécifique peut contenir des composants ER enfants qui ont été configurés pour remplir une valeur de texte. Par défaut, la culture du composant parent est utilisée pour mettre en forme les valeurs de ces composants. Vous pouvez utiliser les fonctions ER intégrées suivantes pour configurer des liaisons pour ces composants et appliquer une culture alternative pour la mise en forme des valeurs :
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Dans les versions 10.0.20 et ultérieures, les paramètres régionaux des composants de format de type **Commun\\Fichier** et **Excel\\Fichier** sont utilisés pour formater les valeurs pendant la [Conversion PDF](electronic-reporting-destinations.md#OutputConversionToPDF) d'un document généré.
 
 ## <a name="translation"></a>Traduction
 

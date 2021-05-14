@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897814"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923444"
 ---
 # <a name="help-system"></a>Système d’aide
 
@@ -39,7 +39,7 @@ Dans toutes ces applications, vous pouvez accéder au volet **Aide** depuis tous
 
 ## <a name="help-on-docsmicrosoftcom"></a>Aide sur docs.microsoft.com
 
-Le site docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) est la source par défaut de documentation de produit pour les applications répertoriées ci-dessus. Ce site offre les fonctionnalités suivantes :
+Le site docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) est la source par défaut de documentation de produit pour les applications répertoriées ci-dessus. Ce site offre les fonctionnalités suivantes :
 
 - **L’accès au contenu le plus récent** : Le site offre à Microsoft un moyen plus rapide et plus flexible pour créer, mettre à disposition et mettre à jour la documentation produit. Par conséquent, il garantit que vous avez accès aux dernières informations techniques.
 - **Contenu rédigé par des experts** : Le contenu du site est ouvert aux contributions des membres de la communauté à l’intérieur et à l’extérieur de Microsoft.
@@ -50,7 +50,7 @@ Vous pouvez trouver du contenu sur docs.microsoft.com en utilisant n’importe q
 
 Pour vous abonner à un flux RSS (Really Simple Syndication) de toutes les mises à jour concernant le contenu de docs.microsoft.com, utilisez le lien suivant :
 
-[Flux RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[Flux RSS](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Laissez-nous des commentaires
 
@@ -73,7 +73,7 @@ Vous pouvez participer à la documentation et y apporter des modifications. Pour
 
 La vidéo [Comment contribuer à la documentation Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (présentée ci-dessus) est disponible sur la chaîne Microsoft Dynamics 365 sur YouTube.
 
-Pour plus d’informations, consultez le [guide du contributeur](https://docs.microsoft.com/contribute), qui est publié par l’équipe qui a construit le site docs.microsoft.com.
+Pour plus d’informations, consultez le [guide du contributeur](/contribute), qui est publié par l’équipe qui a construit le site docs.microsoft.com.
 
 > [!NOTE]
 > Actuellement, nous acceptons uniquement les contributions à notre ensemble de contenus en anglais.
@@ -155,12 +155,13 @@ Le tableau suivant répertorie nos sites Web. Les sites qui ont un astérisque (
 | Site | Description |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Hôtes ou liens vers toute la documentation produit pour Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Ce site est le site eLearning gratuit de Microsoft. |
+| [Microsoft Learn](/learn/) | Ce site est le site eLearning gratuit de Microsoft. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Ce site fournit un espace de travail collaboratif basé sur le cloud que les clients et leurs partenaires peuvent utiliser pour gérer les projets des préventes à la mise en œuvre et aux opérations. Il est utile dans toutes les phases d’une implémentation. |
 | [Blog de support](https://aka.ms/AXSupportBlog) | Ce site fournit des conseils et des astuces publiés par l’équipe de support. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Ce site héberge le contenu des versions précédentes. |
 | [Communauté Dynamics](https://community.dynamics.com/) | Ce site héberge des blogs, des forums et des vidéos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Ce site fournit une évaluation et des informations commerciales. |
+
 
 
 

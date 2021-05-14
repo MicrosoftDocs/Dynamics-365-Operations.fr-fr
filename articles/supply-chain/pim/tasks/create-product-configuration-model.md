@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b87b411ed24f89a674ec3fb7ac44d3ab1d8a720a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2cb9e33d7bab6ca9cd378ec40baa796d1a933ece
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819984"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921363"
 ---
 # <a name="create-a-product-configuration-model"></a>Créer un modèle de configuration de produits
 
@@ -28,57 +28,59 @@ Cette procédure montre comment créer un modèle de configuration de produit et
 
 
 ## <a name="create-a-product-model"></a>Créer un modèle de produit
-1. Cliquez sur Définition du modèle de variante de produit.
-2. Cliquez sur Modèles de configuration de produit.
-3. Cliquez sur Nouveau.
-4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Description, entrez une valeur.
-6. Dans le champ Stratégie du solveur, sélectionnez une option.
+
+1. Accédez à **Gestion des informations sur les produits \> Produits \> Modèles de configuration de produit**.
+1. Sélectionnez **Nouveau**.
+1. Tapez une valeur dans le champ **Nom**.
+1. Tapez une valeur dans le champ **Description**.
+1. Dans le champ **Stratégie du solveur**, sélectionnez une option.
     * La stratégie du solveur détermine la manière dont les contraintes sont traitées dans un modèle de configuration de produit basé sur les contraintes. Cette sélection peut avoir un impact sur les performances du modèle de configuration de produit.  
-7. Tapez une valeur dans le champ Nom.
+1. Tapez une valeur dans le champ **Nom**.
     * Le composant racine représente le modèle de configuration de produit, mais il peut également être utilisé dans d’autres modèles de produit.  
-8. Cliquez sur OK.
-9. Dans le champ Réutiliser les configurations, sélectionnez une option.
+1. Cliquez sur **OK**.
+1. Dans le champ **Réutiliser les configurations**, sélectionnez une option.
     * Si le paramètre de réutilisation de configurations est défini sur oui, le système cherchera des configurations identiques après chaque session de configuration et les réutilisera s’il trouve une correspondance exacte.  
 
 ## <a name="add-attributes"></a>Ajouter des attributs
-1. Développer la section Attributs.
-2. Cliquez sur Ajouter.
-3. Dans la liste, marquez la ligne sélectionnée.
-4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Nom du solveur, tapez une valeur.
+
+1. Développer la section **Attributs**.
+2. Sélectionnez **Ajouter**.
+3. Dans la liste, marquer la ligne sélectionnée.
+4. Tapez une valeur dans le champ **Nom**.
+5. Dans le champ **Nom du solveur**, tapez une valeur.
     * Le nom de solveur est utilisé par le solveur de contrainte du configurateur de produit. Il ne doit pas inclure d’espaces ou de caractères spéciaux, sauf _ (trait de soulignement.)  
-6. Dans le champ Description, entrez une valeur.
+6. Tapez une valeur dans le champ **Description**.
     * Le texte de description est affiché pour l’utilisateur de la configuration et il donc peut servir d’aide pour sélectionner la bonne valeur d’attribut.  
-7. Saisissez ou sélectionnez une valeur dans le champ Type d’attribut.
+7. Saisissez ou sélectionnez une valeur dans le champ **Type d’attribut**.
     * Le type d’attribut détermine les valeurs disponibles pour l’attribut.  
-8. Activez la case à cocher Inclure dans la réutilisation.
+8. Activez la case à cocher **Inclure dans la réutilisation**.
     * Cette option est disponible uniquement si l’option Réutiliser les configurations est sélectionnée. Inclure un attribut dans la case à cocher de réutilisation signifie que cet attribut sera pris en compte lorsque le système recherchera une correspondance exacte.  
 
 ## <a name="add-subcomponents"></a>Ajouter des sous-composants
-1. Développez la section Sous-composants.
-2. Cliquez sur Ajouter.
-3. Dans la liste, marquez la ligne sélectionnée.
-4. Tapez une valeur dans le champ Nom.
-5. Dans le champ Nom du solveur, tapez une valeur.
-6. Dans le champ Description, entrez une valeur.
-7. Dans le champ Composant, saisissez ou sélectionnez une valeur.
+
+1. Développez la section **Sous-composants**.
+2. Sélectionnez **Ajouter**.
+3. Dans la liste, marquer la ligne sélectionnée.
+4. Tapez une valeur dans le champ **Nom**.
+5. Dans le champ **Nom du solveur**, tapez une valeur.
+6. Tapez une valeur dans le champ **Description**.
+7. Dans le champ **Composant**, saisissez ou sélectionnez une valeur.
     * Chaque sous-composant doit faire référence à une définition de composant. Cette conception prend en charge les composants réutilisables et garantit qu’une fois qu’un composant a été défini, il peut être utilisé dans de nombreux modèles de produit.  
-8. Cliquez sur Enregistrer.
-9. Cliquez sur Détails de ligne de nomenclature.
+8. Sélectionnez **Enregistrer**.
+9. Sélectionnez **Détails de la ligne de nomenclature**.
     * L’écran détails de ligne de nomenclature permet à l’utilisateur de sélectionner les propriétés requises pour le sous-composant. Chaque propriété peut se voir affecter une valeur fixe ou être mise en correspondance avec un attribut. La mise en correspondance avec un attribut a pour résultat que la propriété de ligne de nomenclature prend des valeurs différentes selon la configuration sélectionnée.  
-10. Entrez ou sélectionnez une valeur dans le champ Numéro d’article.
+10. Entrez ou sélectionnez une valeur dans le champ **Numéro d’article**.
     * Chaque sous-composant représente un produit générique configurable avec la technologie de configuration basée sur les contraintes. La référence est effectuée par le numéro d’article.  
-11. Activez la case à cocher Définir.
-12. Sélectionnez Oui dans le champ Calcul.
+11. Activez la case à cocher **Définir**.
+12. Sélectionnez **Oui** dans le champ **Calcul**.
     * Définir l’option de calcul garantit que le produit sera inclus lors de l’exécution d’un calcul du coût du produit.  
-13. Cliquez sur l’onglet Paramétrage.
-14. Activez la case à cocher Définir.
-15. Dans le champ Quantité, entrer un numéro.
+13. Sélectionnez l’onglet **Paramétrage**.
+14. Activez la case à cocher **Définir**.
+15. Entrez un nombre dans le champ **Quantité**.
     * Le champ de quantité détermine la quantité de ce produit qui sera consommée dans le produit configuré.  
-16. Activez la case à cocher Définir.
-17. Dans le champ Quantité de base, entrez un nombre.
-18. Cliquez sur OK.
+16. Activez la case à cocher **Définir**.
+17. Dans le champ **Quantité de base**, entrez un nombre.
+18. Cliquez sur **OK**.
 
 
 

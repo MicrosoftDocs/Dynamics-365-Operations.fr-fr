@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62d789edea1bcce544693046d47d52473e2280f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7449f4874bf5c280218a2771e0af35e4b2b62a0b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820128"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921057"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Créer un code-barres pour un produit
 
@@ -26,19 +26,18 @@ ms.locfileid: "5820128"
 
 Cette rubrique indique comment créer manuellement un code-barres en utilisant le numéro d’article M0001 comme exemple. Les données fictives utilisées pour créer cette procédure correspondent à la société USMF.
 
-1. Sélectionnez **Gestion des produits lancés** sur la page d’accueil.
-2. Accédez à **Produits > Produits lancés** dans la section **Liens**.
-3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité. Pour cet exemple, sélectionnez le numéro d’article **M0001**.
-4. Dans le volet Actions, sélectionnez **Gérer le stock**.
-5. Sélectionnez le **code-barres**.
-6. Sélectionnez **Nouveau**.
-7. Marquez la ligne sélectionnée qui est créée dans la liste ci-dessous.
-8. Dans le champ **Paramétrage des codes-barres**, saisissez ou sélectionnez une valeur.
-9. Dans le champ **Code-barres**, entrez ou sélectionnez une valeur.
-10. Dans le champ **Code-barres**, tapez une valeur.  
-11. Entrez un nombre dans le champ **Quantité**.
-12. Sélectionnez **Enregistrer**.
-13. Fermez la page. 
+1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
+1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité. Pour cet exemple, sélectionnez le numéro d’article **M0001**.
+1. Dans le volet Actions, sélectionnez **Gérer le stock**.
+1. Sélectionnez le **code-barres**.
+1. Sélectionnez **Nouveau**.
+1. Marquez la ligne sélectionnée qui est créée dans la liste ci-dessous.
+1. Dans le champ **Paramétrage des codes-barres**, saisissez ou sélectionnez une valeur.
+1. Dans le champ **Code-barres**, entrez ou sélectionnez une valeur.
+1. Dans le champ **Code-barres**, tapez une valeur.  
+1. Entrez un nombre dans le champ **Quantité**.
+1. Sélectionnez **Enregistrer**.
+1. Fermez la page. 
 
 
 

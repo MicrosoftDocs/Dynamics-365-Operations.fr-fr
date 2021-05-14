@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795953"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936908"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce
 
@@ -29,7 +29,7 @@ Cette rubrique explique comment configurer l’achat en ligne, le retrait en mag
 
 ## <a name="prerequisite"></a>Logiciel requis
 
-Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d’évaluation de Commerce a été mis en service et configuré. Pour plus d’informations sur l’approvisionnement et la configuration de votre environnement, voir [Mettre en service un environnement d’évaluation Dynamics 365 Commerce](provisioning-guide.md) et [Configurer un environnement d’évaluation Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Effectuez les procédures de cette rubrique uniquement une fois que votre environnement d’évaluation de Commerce a été mis en service et configuré. Pour plus d’informations sur l’approvisionnement et la configuration de votre environnement, voir [Mettre en service un environnement d’évaluation Dynamics 365 Commerce](provisioning-guide.md) et [Configurer un environnement d’évaluation Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 Une fois que votre environnement Commerce a été approvisionné et configuré de bout en bout, vous pouvez utiliser cette rubrique pour activer les scénarios BOPIS.
 
@@ -37,7 +37,7 @@ Une fois que votre environnement Commerce a été approvisionné et configuré d
 
 ### <a name="configure-modern-pos"></a>Configuration de Modern POS
 
-Les scénarios BOPIS impliquant un paiement par carte de crédit nécessitent une station matérielle. La station matérielle est intégrée dans les Modern POS pour les clients Windows et Android. Si vous utilisez Cloud POS ou Modern POS pour iOS, le client du point de vente (PDV) doit être associé à une station matérielle partagée. Cette rubrique explique comment configurer BOPIS pour les clients Windows et Android. Pour plus d’informations sur la configuration d’une station matérielle partagée, voir [Configurer et installer la station matérielle Retail](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+Les scénarios BOPIS impliquant un paiement par carte de crédit nécessitent une station matérielle. La station matérielle est intégrée dans les Modern POS pour les clients Windows et Android. Si vous utilisez Cloud POS ou Modern POS pour iOS, le client du point de vente (PDV) doit être associé à une station matérielle partagée. Cette rubrique explique comment configurer BOPIS pour les clients Windows et Android. Pour plus d’informations sur la configuration d’une station matérielle partagée, voir [Configurer et installer la station matérielle Retail](./retail-hardware-station-configuration-installation.md).
 
 1. Allez dans **Commerce et vente au détail \> Paramétrage du canal \> Paramétrage du PDV \> Caisses enregistreuses**.
 2. Sélectionnez enregistrer **SANFRAN-5**, puis sélectionnez **Modifier**.
@@ -87,7 +87,7 @@ Les scénarios BOPIS impliquant un paiement par carte de crédit nécessitent un
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Créer une commande dans la vitrine pour un retrait en magasin
 
-1. Accédez à l’URL spécifiée à l’étape [Initialiser e-Commerce](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) lors de la configuration de l’environnement.
+1. Accédez à l’URL spécifiée à l’étape [Initialiser e-Commerce](./provisioning-guide.md#initialize-e-commerce) lors de la configuration de l’environnement.
 2. Sélectionnez un article, puis **Ajouter au panier**.
 3. Sur la page du panier, sélectionnez **Retrait** pour la ligne de commande que vous venez d’ajouter.
 4. Dans la boîte de dialogue **Sélectionner un magasin**, entrez **San Francisco**, puis cliquez sur le bouton **Rechercher**.
@@ -112,7 +112,7 @@ Les scénarios BOPIS impliquant un paiement par carte de crédit nécessitent un
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Synchronisez les commandes en ligne avec le back office
 
-Pour plus d’informations sur la synchronisation des commandes en ligne, voir [Validation des ventes et paiements en ligne](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Pour plus d’informations sur la synchronisation des commandes en ligne, voir [Validation des ventes et paiements en ligne](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Retirer une commande en magasin
 
@@ -148,19 +148,19 @@ Pour tous les problèmes généraux, vous devez toujours consulter les journaux 
 
 [FAQ des environnements d’évaluation Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portail Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site web Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Connecteur de paiement Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Connecteur de paiement Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Enregistrement des instruments de paiement en ligne avec le connecteur Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Enregistrement des instruments de paiement en ligne avec le connecteur Adyen](./dev-itpro/adyen-connector-listpi.md)
 
-[Vue d’ensemble des paiements omnicanaux](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Vue d’ensemble des paiements omnicanaux](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

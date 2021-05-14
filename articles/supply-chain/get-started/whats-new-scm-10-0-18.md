@@ -1,5 +1,5 @@
 ---
-title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.18 (mai 2021)
+title: Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management version 10.0.18 (mai 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909351"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934965"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.18 (mai 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management version 10.0.18 (mai 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version préliminaire de Microsoft Dynamics 365 Supply Chain Management 10.0.18. Cette version a un numéro de build de 10.0.793 et est disponible comme suit :
+Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management 10.0.18. Cette version a un numéro de build de 10.0.793 et est disponible comme suit :
 
 - **Version préliminaire :** Mars 2021
 - **Disponibilité générale de la version (auto-mise à jour) :** Avril 2021
@@ -43,9 +42,17 @@ Les fonctionnalités suivantes sont comprises dans cette version. Suivez les lie
 
 - [Gestion des remises](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Pour plus d’informations, voir [Vue d’ensemble du module de gestion des remises](../rebate-management/rebate-management-overview.md)
 
+- [Stratégie de paramétrage de l’exportation des entités de données de vente](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Enregistrement de la ligne de commande client de retour avec précision décimale avec et sans poids variable](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Confirmation de commande client en un seul clic](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Stratégie de suppression entre les lignes de commande client et lignes de commande fournisseur](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Interface simplifiée pour l’entrée et la sortie uniquement (amélioration de [l’Interface d’exécution améliorée de l’atelier de production pour la fabrication](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Pour plus d’informations, consultez [Configurer l’interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md).
 
-La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d’autres peuvent déjà être généralement disponibles. 
+La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 ## <a name="new-and-updated-documentation-resources"></a>Ressources de documentation nouvelles et mises à jour
 

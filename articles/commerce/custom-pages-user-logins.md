@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799443"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936778"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Paramétrer des pages personnalisées pour les connexions utilisateur
 
@@ -32,7 +32,7 @@ Pour utiliser les pages personnalisés créés dans Dynamics 365 Commerce pour g
 Les pages Commerce personnalisées peuvent être générées en utilisant les modules d’inscription, de connexion, de modification de profil de compte, de réinitialisation du mot de passe ou AAD générique. Les URL de page publiés pour ces pages personnalisées doivent être référencées dans les configurations de stratégie Azure AD B2C dans le portail Azure.
 
 > [!WARNING] 
-> Azure AD B2C supprimera les anciens flux d’utilisateurs (hérités) d’ici le 1er août 2021. Par conséquent, vous devez prévoir de migrer vos flux d’utilisateurs vers la nouvelle version recommandée. La nouvelle version offre la parité des fonctionnalités ainsi que de nouvelles fonctionnalités. Pour plus d’informations, voir [Flux d’utilisateurs dans Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C supprimera les anciens flux d’utilisateurs (hérités) d’ici le 1er août 2021. Par conséquent, vous devez prévoir de migrer vos flux d’utilisateurs vers la nouvelle version recommandée. La nouvelle version offre la parité des fonctionnalités ainsi que de nouvelles fonctionnalités. Pour plus d’informations, voir [Flux d’utilisateurs dans Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
 
 >La bibliothèque de modules pour Commerce version 10.0.15 ou supérieure doit être utilisée avec les flux d’utilisateurs B2C recommandés. Les pages de la stratégie utilisateur par défaut proposée dans Azure AD B2C peuvent également être utilisées ; elles permettent d’ajouter des changements d’image d’arrière-plan, de logo et de couleur d’arrière-plan liés à l’image de marque de l’entreprise. Bien que plus limitées dans leurs capacités de conception, les pages de la stratégie utilisateur par défaut fournissent la fonctionnalité de stratégie Azure AD B2C sans créer ni configurer de pages personnalisées dédiées. 
 

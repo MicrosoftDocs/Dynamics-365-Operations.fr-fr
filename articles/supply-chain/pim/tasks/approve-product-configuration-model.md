@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4767d5dc3944d2595a5b2a74a6d5c7c0ea0c849a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c945756997b0580ac7ffb19261f9184e53a1c10
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809444"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920505"
 ---
 # <a name="approve-a-product-configuration-model"></a>Approuver un modèle de configuration de produit
 
@@ -26,25 +26,24 @@ ms.locfileid: "5809444"
 
 L’exécution de cette procédure nécessite qu’il existe au moins un modèle de configuration de produit disponible. Cette procédure utilise le modèle de haut-parleur haut de gamme de la société fictive USMF. Notez que ce modèle a déjà été approuvé, mais la procédure vous accompagne le long du processus complet.
 
-1. Cliquez sur Définition du modèle de variante de produit.
-2. Cliquez sur Modèles de configuration de produit.
-3. Dans la liste, recherchez et sélectionnez l’enregistrement souhaité.
+1. Accédez à **Gestion des informations sur les produits \> Produits \> Modèles de configuration de produit**.
+1. Dans la liste, recherchez et sélectionnez l'enregistrement souhaité.
     * Sélectionnez le modèle de Haut-parleur haut de gamme pour cette procédure.  
-4. Cliquez sur Versions.
-5. Cliquez sur Nouveau.
-6. Saisissez ou sélectionnez un produit dans le champ Numéro de produit.
+1. Sélectionnez **Versions**.
+1. Sélectionnez **Nouveau**.
+1. Saisissez ou sélectionnez un produit dans le champ **Numéro de produit**.
     * La référence à un produit représente une version d’un modèle de configuration de produit. Seuls les produits génériques qui disposent de la technologie de configuration basée sur les contraintes figurent dans cette liste.  
-7. Entrez une date dans le champ Date de début.
+1. Entrez une date dans le champ **Date de début**.
     * Sélectionnez à quel moment la version du modèle de produit est disponible.  
-8. Entrez une date dans le champ Date de fin.
+1. Entrez une date dans le champ **Date de fin**.
     * Sélectionnez une date de fin à laquelle cette version du modèle de produit expirera, ou sélectionnez Jamais.  
-9. Cliquer sur Approuver pour ouvrir la boîte de dialogue.
-10. Dans le champ Approuvé par, saisissez ou sélectionnez une valeur.
+1. Sélectionnez **Approuver** pour ouvrir la boîte de dialogue.
+1. Dans le champ **Approuvé par**, saisissez ou sélectionnez une valeur.
     * Sélectionnez la personne responsable d’approuver les modèles de produit pour utilisation dans des opérations.  
-11. Cliquez sur OK.
-12. Dans le champ Méthode de tarification, sélectionnez une option.
+1. Cliquez sur **OK**.
+1. Dans le champ **Méthode de tarification**, sélectionnez une option.
     * Activez la version du modèle de produit. Il n’est possible d’avoir qu’un produit actif pour un modèle de produit à la fois.  
-13. Fermez la page.
+1. Fermez la page.
 
 
 

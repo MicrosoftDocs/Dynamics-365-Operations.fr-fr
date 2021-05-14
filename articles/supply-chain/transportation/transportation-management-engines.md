@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828367"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920107"
 ---
 # <a name="transportation-management-engines"></a>Moteurs de gestion de transport
 
@@ -94,8 +94,14 @@ Les métadonnées des moteurs de gestion de transport sont configurées différe
 | 1        | Code postal d’origine            | Affectation | Chaîne    | Code postal    | Sélectionné  |
 | 2        | État de destination             | Affectation | Chaîne    | Région          |           |
 | 3        | Code postal du point de départ | Affectation | Chaîne    | Code postal    | Sélectionné  |
-| 4        | Code postal du point d’arrivée   | Affectation | Chaîne    | Code postal    | Sélectionné  |
-| 5        | Pays de destination           | Affectation | Chaîne    | Pays/Région |           |
+| 4        | Code postal du point d’arrivée   | Affectation | Chaîne    | Code postal    | Sélectionnée  |
+| 5        | Pays de destination           | Affectation | Chaîne    | Pays/région |           |
+
+### <a name="whitepaper"></a>Livre blanc
+
+Pour plus d’informations, téléchargez le livre blanc suivant (écrit pour prendre en charge AX2012, mais s’applique toujours à Dynamics 365 Supply Chain Management)
+
+- [Moteurs de gestion du transport](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

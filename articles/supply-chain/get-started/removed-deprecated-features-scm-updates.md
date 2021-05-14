@@ -2,7 +2,7 @@
 title: Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 description: Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est prévu de supprimer de Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909645"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947542"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 
@@ -32,6 +32,19 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 > [!NOTE]
 > Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.19
+
+### <a name="job-card-device"></a>Périphérique pour le bon de travail
+
+|   |   |
+|---|---|
+| **Motif de l’abandon/de la suppression** | Le [périphérique de bon de travail](../production-control/config-job-card-device.md) est remplacé par la nouvelle [interface d'exécution de l'atelier de production](../production-control/production-floor-execution-configure.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, le [périphérique de bon de travail](../production-control/config-job-card-device.md) va être remplacé par la nouvelle [interface d'exécution de l'atelier de production](../production-control/production-floor-execution-configure.md). |
+| **Zones de produit affectées** | Supply Chain Management - contrôle de la production |
+| **Option de déploiement** | Cloud et sur site |
+| **État** | Obsolète. Le périphérique du bon de travail bénéficiera d’un support avec correctifs de sécurité et de bogues, mais les améliorations de fonctionnalités ne seront plus fournies. Après avril 2022, le périphérique du bon de travail ne sera plus prise en charge et les clients seront invités à passer à la nouvelle interface d’exécution de l’atelier de production. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Fonctions supprimées ou obsolètes dans Supply Chain Management version 10.0.18
 

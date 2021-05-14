@@ -2,7 +2,7 @@
 title: Paramétrer un canal de vente au détail
 description: Cette rubrique décrit comment créer un canal de vente au détail dans Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800589"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937532"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurer un canal de vente au détail
 
@@ -46,7 +46,7 @@ Avant de créer un canal de vente au détail, assurez-vous de suivre les [Condit
 1. Dans le champ **Client par défaut**, indiquez un client par défaut valide.
 1. Dans le champ **Profil de la fonctionnalité**, sélectionnez un profil de fonctionnalité le cas échéant.
 1. Dans le champ **Profil de notification par e-mail**, fournissez un profil de notification par e-mail valide.
-1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 L’image suivante montre la création d’un canal de vente au détail.
 
@@ -68,7 +68,7 @@ L’image suivante présente un exemple de paramétrage de canal de vente au dé
 
 ## <a name="additional-channel-set-up"></a>Paramétrage de canal supplémentaire
 
-Des éléments supplémentaires doivent être configurés pour un canal qui peut être trouvé dans le **Volet Actions** dans la section **Paramétrer**.
+Des éléments supplémentaires doivent être configurés pour un canal disponible dans le volet Actions dans la section **Paramétrer**.
 
 Les tâches supplémentaires requises pour le paramétrage du canal en ligne comprennent la configuration des modes de paiement, la déclaration des montants en caisse, les modes de livraison, le compte de revenus/dépenses, les sections, l’affectation du groupe d’exécution et les coffres-forts.
 
@@ -85,7 +85,7 @@ Pour configurer des modes de paiement, pour chaque type de paiement pris en char
 1. Dans le volet de navigation, sélectionnez un mode de paiement souhaité.
 1. Dans la section **Général**, fournissez un **Nom de l’opération** et configurez tous les autres paramètres souhaités.
 1. Configurez tous les autres paramètres requis pour le type de paiement.
-1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 L’image suivante présente un exemple de mode de paiement au comptant.
 
@@ -102,7 +102,7 @@ L’image suivante présente un exemple de mode de déclaration des montants en 
 
 ### <a name="set-up-modes-of-delivery"></a>Paramétrer des modes de livraison
 
-Vous pouvez voir les modes de livraison configurés en sélectionnant **Modes de livraison** dans l’onglet **Paramétrer** du **Volet Actions**.  
+Vous pouvez voir les modes de livraison configurés en sélectionnant **Modes de livraison** dans l’onglet **Paramétrer** du volet Actions.  
 
 Pour modifier ou ajouter un mode de livraison, procédez comme suit.
 
@@ -125,7 +125,7 @@ Pour paramétrer le compte de revenus/dépenses, procédez comme suit.
 1. Sous **Type de compte**, entrez le type de compte.
 1. Saisissez du texte pour **Ligne de message 1**, **Ligne de message 2**, **Texte de bon 1** et **Texte de bon 2**, selon les besoins.
 1. Sous **Validation**, saisissez les informations sur la validation.
-1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 L’image suivante montre un exemple de compte de revenus/dépenses.
 
@@ -141,7 +141,7 @@ Pour paramétrer des sections, procédez comme suit.
 1. Sous **Description**, entrez une description.
 1. Sous **Taille de la section**, entrez une taille de section.
 1. Configurez des paramètres supplémentaires pour **Général** et **Statistiques vente**, selon les besoins.
-1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Paramétrer une affectation de groupe d’exécution
 
@@ -151,7 +151,7 @@ Pour paramétrer une affectation de groupe d’exécution, procédez comme suit.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Dans la liste déroulante **Groupe d’exécution**, sélectionnez un groupe d’exécution.
 1. Dans la liste déroulante **Description**, entrez une description.
-1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**
 
 L’image suivante montre un exemple de configuration d’affectation de groupe d’exécution.
 
@@ -164,13 +164,44 @@ Pour configurer des coffres-forts, procédez comme suit.
 1. Dans le volet Actions, sélectionnez l’onglet **Paramétrer** puis cliquez sur **Coffres-forts**.
 1. Dans le volet Actions, sélectionnez **Nouveau**.
 1. Entrez un nom pour le coffre-fort.
-1. Dans le volet Actions, sélectionnez **Enregistrer**.
+1. Dans le volet Actions, sélectionnez **Enregistrer**.
+
+### <a name="ensure-unique-transaction-ids"></a>Garantir des identifiants de transaction uniques
+
+À partir de la version 10.0.18 de Commerce, les ID de transaction générés pour le point de vente (PDV) sont séquentiels et comprennent les éléments suivants :
+
+- Une partie fixe, qui est une concaténation de l'ID de magasin et de l'ID de terminal. 
+- Une partie séquentielle, qui est une séquence de nombres. 
+
+Plus précisément, le format est *{store}-{terminal} -{numbersequence}*. 
+
+Étant donné que les ID de transaction peuvent être générés en mode hors ligne et en ligne, des instances d'ID de transaction en double ont été générées. L'élimination des ID de transaction en double nécessite de nombreuses corrections manuelles. 
+
+Avec Commerce version 10.0.19, le format de l'ID de transaction a été mis à jour pour supprimer la partie séquentielle et utilise à la place un nombre à 13 chiffres généré en calculant le temps en millisecondes depuis 1970. Avec ce changement, le nouveau format d'ID de transaction est *{store}-{terminal}-{millisecondsSince1970}*. Cette mise à jour rend l'ID de transaction non séquentiel et garantit que les ID de transaction sont toujours uniques. 
+
+> [!NOTE]
+> Les ID de transaction sont uniquement destinés à un usage interne au système, ils ne doivent donc pas être séquentiels. Cependant, de nombreux pays exigent que les ID de reçu soient séquentiels.
+
+La nouvelle fonctionnalité de format d'ID de transaction peut être activée à partir de l'espace e travail **Gestion des fonctionnalités**. 
+
+Pour activer l'utilisation de nouveaux ID de transaction, procédez comme suit :
+
+1. Dans Commerce Headquarters, accédez à **Administration système \> Espaces de travail \> Gestion des fonctionnalités**.
+1. Filtrez pour trouver le module « Retail et Commerce ».
+1. Recherchez le nom de la fonction **Activer le nouvel identifiant de transaction pour éviter les identifiants de transaction en double**.
+1. Sélectionnez la fonctionnalité, puis sélectionnez **Activer maintenant** dans le volet de droite.  
+1. Accédez à **Commerce et vente au détail \> Informatique Commerce et vente au détail \> Programme de distribution**.
+1. Exécutez les tâches **Configuration des canaux 1070** et **Enregistreur de tâches 1170 POS** pour synchroniser la fonction activée avec les magasins.
+1. Une fois les modifications envoyées aux magasins, les terminaux PDV doivent être fermés et rouverts pour utiliser le nouveau format d'ID de transaction. 
+
+> [!NOTE]
+> Une fois la nouvelle fonctionnalité de format d'ID de transaction activée, vous ne pourrez pas la désactiver. Si elle doit être désactivée, veuillez contacter le support commercial.
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Présentation des canaux](channels-overview.md)
+[Vue d’ensemble des canaux](channels-overview.md)
 
-[Conditions préalables au paramétrage du canal](channels-prerequisites.md)
+[Conditions préalables à la configuration de canal](channels-prerequisites.md)
 
 [Paramétrer un canal en ligne](channel-setup-online.md)
 

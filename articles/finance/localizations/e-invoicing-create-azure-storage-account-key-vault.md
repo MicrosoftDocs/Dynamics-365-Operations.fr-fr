@@ -2,7 +2,7 @@
 title: Créer un compte de stockage Azure et un coffre de clés
 description: Cette rubrique explique comment créer un compte de stockage Azure et un coffre de clés.
 author: gionoder
-ms.date: 02/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893800"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963237"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Créer un compte de stockage Azure et un coffre de clés
 
@@ -80,6 +80,10 @@ Dans cette rubrique, vous effectuerez deux étapes principales :
 11. Sélectionnez **Ajouter**, puis sélectionnez **Enregistrer les modifications du coffre de clés**.
 12. Sur la page **Vue d’ensemble**, copiez la valeur **Nom DNS** du coffre de clés. Cette valeur sera utilisée lors de la configuration du service dans RCS et sera désignée sous le nom *URI du coffre de clés*.
 
+> [!NOTE]
+> Pour une sécurité supplémentaire sur le compte de stockage, configurez Azure Defender pour le stockage.
+> 
+> Pour plus d'informations, consultez [Introduction à Azure Defender pour le stockage](/azure/security-center/defender-for-storage-introduction).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

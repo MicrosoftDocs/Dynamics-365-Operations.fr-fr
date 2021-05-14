@@ -2,7 +2,7 @@
 title: Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances
 description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité de suivi des performances dans la gestion des états électroniques (ER) pour résoudre les problèmes de performances.
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754214"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944651"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Suivez l’exécution des formats d’ER pour résoudre les problèmes de performances
 
@@ -47,10 +47,10 @@ Vous devez également télécharger et localement enregistrer les fichiers suiva
 
 | Fichier                                  | Contenu                               |
 |---------------------------------------|---------------------------------------|
-| Suivi des performances model.version.1     | [Exemple de configuration de modèle de données ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Suivi des performances metadata.version.1  | [Exemple de configuration de métadonnées ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Suivi des performances mapping.version.1 | [Exemple de configuration de mappage de modèles ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Suivi des performances format.version.1  | [Exemple de configuration de format ER](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Suivi des performances model.version.1     | [Exemple de configuration de modèle de données ER](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Suivi des performances metadata.version.1  | [Exemple de configuration de métadonnées ER](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Suivi des performances mapping.version.1 | [Exemple de configuration de mappage de modèles ER](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Suivi des performances format.version.1  | [Exemple de configuration de format ER](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>Configurer les paramètres ER
 
@@ -84,7 +84,7 @@ Pour être disponible dans le champ de recherche **Autres**, un type de document
 Supposons que vous avez commencé à créer une solution ER pour générer un nouvel état qui affiche les transactions fournisseur. Actuellement, vous pouvez trouver les transactions d’un fournisseur sélectionné dans la page **Transactions fournisseur** (accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**, sélectionnez un fournisseur, puis, dans le volet Actions, sous l’onglet **Fournisseur**, dans le groupe **Transactions**, sélectionnez **Transactions**). Toutefois, vous souhaitez avoir toutes les transactions fournisseur en même temps dans un document électronique au format XML. Cette solution se composera de plusieurs configurations ER contenant le modèle de données requis, les métadonnées, la mise en correspondance de modèles, et les composants de format.
 
 1. Connectez-vous à l’instance de RCS qui a été mise en service dans votre société.
-2. Dans ce didacticiel, vous créerez et modifierez les configurations pour la société fictive, **Litware, Inc**. Par conséquent, veillez à ce que ce fournisseur de configuration ait été ajouté à RCS et sélectionné comme actif. Pour obtenir des instructions, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Dans ce didacticiel, vous créerez et modifierez les configurations pour la société fictive, **Litware, Inc**. Par conséquent, veillez à ce que ce fournisseur de configuration ait été ajouté à RCS et sélectionné comme actif. Pour obtenir des instructions, voir la procédure [Créer des fournisseurs de configuration et les marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez la vignette **Configurations des états**.
 4. Dans la page **Configurations**, importez les configurations ER que vous avez téléchargées comme condition préalable dans RCS, dans l’ordre suivant : modèle de données, métadonnées, mise en correspondance modèles, format. Pour chaque configuration, procédez comme suit :
 
@@ -101,7 +101,7 @@ Supposons que vous avez terminé de configurer la première version de la soluti
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importer une configuration ER depuis RCS dans Finance and Operations
 
 1. Connectez-vous à votre instance d’application.
-2. Pour ce didacticiel, vous importez des configurations de votre instance de RCS (dans laquelle vous concevez vos composants ER) vers l’instance (dans laquelle vous les utilisez et enfin vous les testez). Par conséquent, vous devez vous assurer que les artefacts requis ont été préparés. Pour plus d’instructions, voir la procédure [Importer les configurations des états électroniques (ER) depuis Regulatory Configuration Service (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Pour ce didacticiel, vous importez des configurations de votre instance de RCS (dans laquelle vous concevez vos composants ER) vers l’instance (dans laquelle vous les utilisez et enfin vous les testez). Par conséquent, vous devez vous assurer que les artefacts requis ont été préparés. Pour plus d’instructions, voir la procédure [Importer les configurations des états électroniques (ER) depuis Regulatory Configuration Service (RCS)](rcs-download-configurations.md).
 3. Procédez comme suit pour importer les configurations de RCS vers l’application :
 
     1. Dans l’espace de travail **Génération d’états électroniques**, sur la vignette du fournisseur de configuration **Litware, Inc.**, sélectionnez **Référentiels**.
@@ -124,7 +124,7 @@ Les versions correspondantes des configurations de modèle de données et de mis
         - Exécution de chaque source de données dans la mise en correspondance de modèle appelée pour obtenir des données
         - Traitement de chaque élément de format pour entrer des données dans la sortie qui est générée
 
-        Vous utilisez le champ **Format du suivi de l’exécution** pour spécifier le format du suivi des performances généré dans lequel les détails de l’exécution sont enregistrés pour les éléments de format et de mise en correspondance ER. En sélectionnant **Déboguer le format de suivi** comme valeur, vous pourrez analyser le contenu du suivi dans le Concepteur d’opération ER, puis consultez les éléments de format ou de mise en correspondance ER mentionnés dans le suivi.
+        Le champ **Format du suivi de l’exécution** permet de spécifier le format du suivi des performances généré dans lequel les détails de l’exécution sont enregistrés pour les éléments de format et de mise en correspondance ER. En sélectionnant **Déboguer le format de suivi** comme valeur, vous pourrez analyser le contenu du suivi dans le Concepteur d’opération ER, puis consultez les éléments de format ou de mise en correspondance ER mentionnés dans le suivi.
 
     2. Définissez les options suivantes sur **Oui** pour collecter les détails spécifiques de l’exécution des composants de mise en correspondance de modèle ER et de format ER :
 

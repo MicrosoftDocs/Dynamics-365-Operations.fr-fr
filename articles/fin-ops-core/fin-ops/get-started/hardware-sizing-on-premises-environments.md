@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748743"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923478"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Configuration requise pour le calibrage de matériel pour les environnements sur site
 
@@ -134,7 +134,7 @@ Pour le lancement général de disponibilité, seul un nœud SSRS peut être dé
 
 ## <a name="environment-orchestrator"></a>Orchestrateur d’environnement
 
-Le service Orchestrator est le service qui assure le déploiement et les communications liées à LCS. Ce service est déployé comme Service Fabric principal et nécessite au moins trois VM. Ce service est coïmplanté avec les services d’orchestration Service Fabric. Ils doivent être calibrés en fonction de la charge de pointe du cluster. Pour plus d’informations, voir [Planifier et préparer votre déploiement de groupement autonome Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Le service Orchestrator est le service qui assure le déploiement et les communications liées à LCS. Ce service est déployé comme Service Fabric principal et nécessite au moins trois VM. Ce service est coïmplanté avec les services d’orchestration Service Fabric. Ils doivent être calibrés en fonction de la charge de pointe du cluster. Pour plus d’informations, voir [Planifier et préparer votre déploiement de groupement autonome Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisation et sursouscription
 

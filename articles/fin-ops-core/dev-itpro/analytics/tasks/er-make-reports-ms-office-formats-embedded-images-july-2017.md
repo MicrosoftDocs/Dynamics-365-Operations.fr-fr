@@ -2,7 +2,7 @@
 title: Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
 description: Cette rubrique décrit comment créer des configurations pour générer des documents électroniques aux formats Excel et Word contenant des images intégrées.
 author: NickSelin
-ms.date: 01/23/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1bafc919d73c9e603935398563bb26e8fb277d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5eea178a351716425706f481ae66c5b5183a52e5
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751056"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944555"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Concevoir des configurations pour générer des états dans des formats Office avec des images intégrées
 
 [!include [banner](../../includes/banner.md)]
 
-Pour réaliser les étapes de cette procédure, commencez par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ». Cette procédure explique comment créer des configurations d’états électroniques pour générer un document Microsoft Excel ou Word contenant des images intégrées. Dans cette procédure, vous créerez les configurations d’états électroniques requises pour la société fictive, Litware, Inc. Ces étapes peuvent être effectuées à l’aide de l’ensemble de données USMF. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté. Avant de commencer, téléchargez et enregistrez les fichiers répertoriés dans la rubrique d’aide [Intégrer des images et des formes dans les documents commerciaux générés à l’aide de la gestion des états électroniques](../electronic-reporting-embed-images-shapes.md). Les fichiers sont : Modèle pour les chèques.xml, Format d’impression des chèques.xml, Logo de société.png, Image de signature.png, Image de signature 2.png et Modèle de chèque Word.docx.
+Pour réaliser les étapes de cette procédure, commencez par effectuer la procédure, « ER Créer un fournisseur de configuration et le marquer comme actif ». Cette procédure explique comment créer des configurations d’états électroniques pour générer un document Microsoft Excel ou Word contenant des images intégrées. Dans cette procédure, vous créerez les configurations d’états électroniques requises pour la société fictive, Litware, Inc. Ces étapes peuvent être effectuées à l’aide de l’ensemble de données USMF. Cette procédure est créée pour les utilisateurs auxquels le rôle Administrateur système ou Développeur d’états électroniques a été affecté. Avant de commencer, téléchargez et enregistrez les fichiers suivants : 
+
+| Description                                          | Nom de fichier                   |
+|------------------------------------------------------|-----------------------------|
+| Configuration de modèle de données ER                          | [Modèle pour les chèques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)       |
+| Configuration de format ER                              | [Format d’impression des chèques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
+| Image du logo de l'entreprise                                   | [Logo de société au format .png](https://download.microsoft.com/download/8/2/e/82e6bd81-caac-4e9a-bfce-1392ce7c8616/Companylogo.png)            |
+| Image de signature                                      | [Image de signature au format .png](https://download.microsoft.com/download/5/0/9/509151b3-06fc-4870-9408-7c9a43b72771/Signatureimage.png)         |
+| Image de signature alternative                          | [Signature image 2.png](https://download.microsoft.com/download/3/0/0/30045bf1-0ff6-4215-9162-b77c2f5dcc7c/Signatureimage2.png)       |
+| Modèle Microsoft Word pour l'impression des chèques de paiement  | [Cheque template Word.docx](https://download.microsoft.com/download/4/4/d/44d9d255-9ad1-42fe-87db-23f319fd8e89/ChequetemplateWord.docx)   |
 
 ## <a name="verify-prerequisites"></a>Vérification des conditions requises  
  1. Accédez à Administration d’organisation > Espaces de travail > États électroniques.  
@@ -80,7 +89,7 @@ Pour réaliser les étapes de cette procédure, commencez par effectuer la proc�
  22. Cliquez Joindre.  
  23. Cliquez sur Nouveau.  
  24. Cliquez sur Fichier.  
- 25. Cliquez sur Parcourir et sélectionnez le fichier que vous avez téléchargé précédemment, Image de signature 2.png.   
+ 25. Cliquez sur Parcourir et sélectionnez le fichier que vous avez téléchargé précédemment, Signature image 2.png.   
  26. Fermez la page.  
  27. Fermez la page.  
  28. Fermez la page.  

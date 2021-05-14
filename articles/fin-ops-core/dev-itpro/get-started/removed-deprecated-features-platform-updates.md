@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814318"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923536"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fonctions de plateforme supprimées ou obsolètes
 
@@ -30,7 +30,7 @@ Cette rubrique décrit les fonctions qui ont été supprimées, ou qu’il est p
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Fonctionnalité supprimée à compter du 28 janvier 2021
 
@@ -123,7 +123,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | En général, le code personnalisé offre des avantages limités tout en nécessitant en même temps des ressources et des calculs importants pour être pris en charge. Le code personnalisé est principalement utilisé par les auteurs de rapports pour appeler des méthodes publiques à partir d’un assembly de code personnalisé. Cependant, le service hébergé dans le cloud ne prend pas en charge les références aux assemblys personnalisés pour les rapports SSRS. |
-| **Remplacé par une autre fonctionnalité ?**   | Les auteurs de rapports peuvent choisir de continuer à référencer les API .NET publiques pour les opérations Math, Conversion et Format à partir de n’importe quelle expression de zone de texte. Pour plus d’informations, voir la rubrique [Ajouter du code à un rapport (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Remplacé par une autre fonctionnalité ?**   | Les auteurs de rapports peuvent choisir de continuer à référencer les API .NET publiques pour les opérations Math, Conversion et Format à partir de n’importe quelle expression de zone de texte. Pour plus d’informations, voir la rubrique [Ajouter du code à un rapport (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Zones de produit affectées**         | Sous-ensemble de conceptions de rapport d’application définies dans RDL qui contiennent du code personnalisé. |
 | **Option de déploiement**              | Tous |
 | **État**                         | Avec la version 10.0.13, le compilateur commencera à émettre un avertissement pour les instances où du code personnalisé est détecté dans une définition de rapport SSRS. Pour résoudre le problème, ouvrez la définition de conception de rapport et supprimez tous les artefacts de code personnalisé. Cet avertissement sera remplacé par une erreur du compilateur dans une future mise à jour.   |
@@ -178,7 +178,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Le processus de déplacement de l’IP vers des listes sécurisées a changé. Le libre service ne prend plus en charge les listes sécurisées IP. |
-| **Remplacé par une autre fonctionnalité ?**   | Pour plus d’informations, voir [Configuration de l’accès conditionnel Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Remplacé par une autre fonctionnalité ?**   | Pour plus d’informations, voir [Configuration de l’accès conditionnel Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Zones de produit affectées**         | Sécurité |
 | **Option de déploiement**              | Cloud |
 | **État**                         | **Obsolète :** Cette fonctionnalité est totalement obsolète pour les déploiements en libre service. |
@@ -197,7 +197,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Les groupes de champs dans les définitions de métadonnées de table peuvent contenir des références de champ qui ne sont pas valides. Si ces groupes de champ sont déployés, ils peuvent provoquer des erreurs d’exécution dans Financial Reporting et Microsoft SQL Server Reporting Services (SSRS). Platform Update 23 a introduit un *avertissement* de compilateur qui a permis de résoudre ce problème de métadonnées. Les mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations classent ce problème en tant qu’*erreur* de compilateur.<p>Pour régler ce problème, procédez comme suit.</p><ol><li>Supprimez la référence de champ non valide de la définition du groupe de champs de table.</li><li>Recompilez.</li><li>Veillez à ce que toutes les erreurs soient corrigées.</li></ol> |
+| **Motif de l’abandon/de la suppression** | Les groupes de champs dans les définitions de métadonnées de table peuvent contenir des références de champ qui ne sont pas valides. Si ces groupes de champ sont déployés, ils peuvent provoquer des erreurs d’exécution dans Financial Reporting et Microsoft SQL Server Reporting Services (SSRS). Platform Update 23 a introduit un *avertissement* de compilateur qui a permis de résoudre ce problème de métadonnées. Les mises à jour de la plateforme pour la version 10.0.11 des applications Finance and Operations classent ce problème en tant qu’*erreur* de compilateur.<p>Pour régler ce problème, procédez comme suit :</p><ol><li>Supprimez la référence de champ non valide de la définition du groupe de champs de table.</li><li>Recompilez.</li><li>Veillez à ce que toutes les erreurs soient corrigées.</li></ol> |
 | **Remplacé par une autre fonctionnalité ?**   | Cette erreur du compilateur remplace définitivement l’avertissement du compilateur.  |
 | **Zones de produit affectées**         | Outils de développement Visual Studio |
 | **Option de déploiement**              | Tout |
@@ -223,7 +223,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Workflow |
 | **Option de déploiement**              | Tous |
-| **État**                         | La liste déroulante de sélection de l’utilisateur a été supprimée de la boîte de dialogue de demande de modification dans Platform update 32. Les demandes de modification seront automatiquement envoyées à l’expéditeur comme prévu. Pour plus d’informations sur cette fonctionnalité, consultez [Actions dans les processus d’approbation de workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **État**                         | La liste déroulante de sélection de l’utilisateur a été supprimée de la boîte de dialogue de demande de modification dans Platform update 32. Les demandes de modification seront automatiquement envoyées à l’expéditeur comme prévu. Pour plus d’informations sur cette fonctionnalité, consultez [Actions dans les processus d’approbation de workflow](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Les liens de suivi intégrés ne sont plus pris en charge dans les documents paginés rendus par le service hébergé par le cloud 
 
@@ -233,7 +233,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Génération d’états |
 | **Option de déploiement**              | Tout |
-| **État**                         | Cette fonctionnalité est supprimée activement du service.<br><br>Le client moderne offre de nombreuses options pour produire des vues qui comprennent des liens générés automatiquement pour contribuer à la navigation dans l’application. Les documents paginés rendus par le service sont recommandés pour les communications externes qui sont envoyées par courrier électronique, archivées et imprimées pour les destinataires. Nous avons amélioré l’expérience de prévisualisation des documents directement dans le navigateur, ce qui offre un accès direct aux imprimantes locales. Pour plus d’informations, voir [Afficher un aperçu des documents PDF avec une visionneuse intégrée](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
+| **État**                         | Cette fonctionnalité est supprimée activement du service.<br><br>Le client moderne offre de nombreuses options pour produire des vues qui comprennent des liens générés automatiquement pour contribuer à la navigation dans l’application. Les documents paginés rendus par le service sont recommandés pour les communications externes qui sont envoyées par courrier électronique, archivées et imprimées pour les destinataires. Nous avons amélioré l’expérience de prévisualisation des documents directement dans le navigateur, ce qui offre un accès direct aux imprimantes locales. Pour plus d’informations, voir [Afficher un aperçu des documents PDF avec une visionneuse intégrée](../analytics/preview-pdf-documents.md). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annonces précédentes sur les fonctions supprimées ou obsolètes
 Pour en savoir plus sur les fonctionnalités supprimées ou obsolètes dans les versions précédentes, consultez [Fonctionnalités supprimées ou obsolètes dans les versions précédentes](../migration-upgrade/deprecated-features.md).

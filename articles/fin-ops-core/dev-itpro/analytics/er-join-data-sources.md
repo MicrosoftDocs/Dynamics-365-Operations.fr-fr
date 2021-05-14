@@ -2,7 +2,7 @@
 title: Utilisation des sources de données JOIN dans des mises en correspondance de modèle ER pour obtenir des données de plusieurs tables d’application
 description: Cette rubrique explique comment utiliser les sources de données de type JOIN dans la gestion des états électroniques (ER).
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743975"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944708"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilisation des sources de données JOIN pour obtenir des données de plusieurs tables d’application dans des mises en correspondance de modèle de gestion des états électroniques (ER)
 
@@ -64,13 +64,13 @@ Pour terminer les exemples de cette rubrique, vous devez avoir accès à l’un 
 
 Vous devez également commencer par effectuer les étapes de la procédure [Créer un fournisseur de configuration et le marquer comme actif](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Au préalable, vous devez également télécharger sur le [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?linkid=000000) et localement enregistrer les exemples de fichiers de configuration ER suivants :
+Au préalable, vous devez également télécharger et enregistrer les exemples de fichiers de configuration ER suivants :
 
 | **Description du contenu**  | **Nom de fichier**   |
 |--------------------------|-----------------|
-| Exemple de fichier de configuration **Modèle de données ER**, qui est utilisé comme source de données pour les exemples.| [Modèle pour apprendre les sources de données JOIN.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Exemple de fichier de configuration **Mise en correspondance de modèle ER**, qui met en service le modèle de données ER pour les exemples. | [Mise en correspondance pour apprendre les sources de données JOIN.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Exemple de configuration de **Format ER**. Ce fichier décrit les données pour remplir le composant de format ER pour les exemples. | [Mise en forme pour apprendre les sources de données JOIN.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Exemple de fichier de configuration **Modèle de données ER**, qui est utilisé comme source de données pour les exemples.| [Modèle pour apprendre les sources de données JOIN.version.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| Exemple de fichier de configuration **Mise en correspondance de modèle ER**, qui met en service le modèle de données ER pour les exemples. | [Mise en correspondance pour apprendre les sources de données JOIN.version.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Exemple de configuration de **Format ER**. Ce fichier décrit les données pour remplir le composant de format ER pour les exemples. | [Mise en forme pour apprendre les sources de données JOIN.version.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Activer un fournisseur de configurations
 
@@ -99,7 +99,7 @@ Au préalable, vous devez également télécharger sur le [Centre de télécharg
     3. Sélectionnez **Parcourir** pour rechercher le fichier **Mise en forme pour apprendre les sources de données JOIN.version.1.1.xml**.
     4. Cliquez sur **OK**.
 5. Dans l’arborescence de configurations, développez l’élément **Modèle pour apprendre les sources de données JOIN** ainsi que d’autres éléments de modèle (le cas échéant).
-6. Observez la liste des configurations ER dans l’arborescence, ainsi que les détails de la version sur l’organisateur **Versions** – ils seront utilisés comme source de données pour votre exemple d’état.
+6. Observez la liste des configurations ER dans l’arborescence, ainsi que les détails de la version sur le raccourci **Versions** – ils seront utilisés comme source de données pour votre exemple d’état.
 
     ![Page des configurations de gestion des états électroniques](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
@@ -123,18 +123,18 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 4. Sélectionnez **Afficher les détails**.
 5. Dans l’arborescence de configurations, développez les éléments de modèle de données **Set1** et **Set1.Details** :
 
-    1. La liaison **Details: Record list = Versions** indique que l’élément **Set1.Details** est lié à la source de données **Versions** retournant des enregistrements de la table **ERSolutionVersionTable**. Chaque enregistrement de cette table représente une version unique d’une configuration ER. Le contenu de cette table s’affiche dans l’organisateur **Versions** de la page **Configurations**.
+    1. La liaison **Details: Record list = Versions** indique que l’élément **Set1.Details** est lié à la source de données **Versions** retournant des enregistrements de la table **ERSolutionVersionTable**. Chaque enregistrement de cette table représente une version unique d’une configuration ER. Le contenu de cette table s’affiche dans le raccourci **Versions** de la page **Configurations**.
     2. La liaison **ConfigurationVersion: String = @.PublicVersionNumber** signifie que la valeur de la version publique de la version de chaque configuration ER est extraite du champ **PublicVersionNumber** de la table **ERSolutionVersionTable** et placée dans l’élément **ConfigurationVersion**.
     3. La liaison **ConfigurationTitle: String = @.’>Relations’.Solution.Name** indique que le nom d’une configuration ER est extrait du champ **Nom** de l’évaluation de la table **ERSolutionTable** à l’aide de la relation plusieurs à un (**« >Relations »**) entre les tables **ERSolutionVersionTable** et **ERSolutionTable**. Les noms des configurations ER de l’instance actuelle d’application sont présentés dans l’arborescence de configurations sur la page **Configurations**.
     4. La liaison **@.’>Relations’.Solution.’>Relations’.SolutionVendor.Name** signifie que le nom du fournisseur de configuration propriétaire de la configuration actuelle est extrait du champ **Nom** de l’évaluation de la table **ERSolutionTable** à l’aide de la relation plusieurs à un entre les tables **ERSolutionVersionTable** et **ERVendorTable**. Les fournisseurs de configuration ER sont présentés dans l’arborescence de configurations sur la page **Configurations** de l’en-tête de page de chaque configuration. La liste entière de fournisseurs de configuration ER figure sur la page de table **Administration d’organisation \> Gestion des états électroniques \> Fournisseur de configuration**.
 
-    ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-Set1Review.PNG)
+    ![Liste des éléments de modèle de données lié sur la page du concepteur de modèle de mappage ER](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Dans l’arborescence de configurations, développez l’élément de modèle de données **Set1.Summary** :
 
     1. La liaison **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indique que l’élément **Set1.Summary.VersionsNumber** est lié au champ d’agrégation **VersionsNumber** de la source de données **VersionsSummary** du type **GroupBy** configurée pour retourner le nombre d’enregistrements de la table **ERSolutionVersionTable** via la source de données **Versions**.
 
-    ![Page des paramètres de source de données GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Modifier la page des paramètres « Grouper par »](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Fermez la page.
 
@@ -144,11 +144,11 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 
 1. Dans l’arborescence de configurations, développez les éléments de modèle de données **Set2** et **Set2.Details**. La liaison **Details: Record list = Details** indique que l’élément **Set2.Details** est lié à la source de données **Détails** configurée comme source de données de type **Join**.
 
-    ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-Set2Review.PNG)
+    ![Page du concepteur de mappage de modèle ER affichant l'ensemble étendu 2 : Enregistrer les éléments du modèle de données](./media/GER-JoinDS-Set2Review.PNG)
 
     La source de données **Join** peut être ajoutée en sélectionnant la source de données **Functions\Join** :
 
-    ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Page du concepteur de mappage de modèles ER, type de source de données JOIN](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Sélectionnez la source de données **Détails**.
 3. Sélectionnez **Modifier** dans le volet **Sources de données**.
@@ -196,21 +196,21 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 
     Ce format est conçu pour remplir un fichier texte généré avec une nouvelle ligne pour chaque version d’une configuration ER (souche **Version** ). Chaque ligne générée contient le nom d’un fournisseur de configuration possédant la configuration actuelle, le nom de la configuration et la version de la configuration séparés par un point-virgule. La ligne finale du fichier généré contiendra le numéro de versions détecté de configurations ER (souche **Synthèse** ).
 
-    ![Page Concepteur de formats ER](./media/GER-JoinDS-FormatReview.PNG)
+    ![Page de concepteur de format ER, onglet Format](./media/GER-JoinDS-FormatReview.PNG)
 
     Les sources de données **Données** et **Synthèse** sont utilisées pour remplir les détails de la version de configuration dans le fichier généré :
 
     - Les informations du modèle de données **Set1** sont utilisées lorsque vous sélectionnez **Non** pour la source de données **Sélecteur** au moment de l’exécution dans la page de la boîte de dialogue utilisateur en exécutant le format ER.
     - Les informations du modèle de données **Set2** sont utilisées lorsque vous sélectionnez **Oui** pour la source de données **Sélecteur** au moment de l’exécution dans la page de la boîte de dialogue utilisateur.
 
-    ![Page Concepteur de formats ER](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![Page de concepteur de format ER, onglet Mappage](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Sélectionnez **Exécuter**.
 10. Dans la page de dialogue, sélectionnez **Non** dans le champ **Utiliser la source de données JOIN**.
 11. Cliquez sur **OK**.
 12. Vérifiez les fichiers générés.
 
-    ![Page de boîte de dialogue utilisateur pour ER](./media/GER-JoinDS-Set1Run.PNG)
+    ![Fichier généré par les paramètres de rapport électronique n'utilisant pas la source de données JOIN](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Analyser le suivi de l’exécution du format ER
 
@@ -224,7 +224,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
     - **ERSolutionTable** a été appelé autant de fois que vous avez d’enregistrements de version de configuration dans la table **ERSolutionVersionTable**, tandis que le nombre de ce type d’appels peut être réduit parfois pour l’amélioration des performances.
     - **ERVendorTable** a été appelé deux fois pour chaque enregistrement de version de configuration détecté dans la table **ERSolutionVersionTable**, tandis que le nombre de ce type d’appels peut être réduit également.
 
-    ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Statistiques d'exécution sur la page du concepteur de mappage de modèles ER](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Fermez la page.
 
@@ -236,7 +236,7 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 4. Cliquez sur **OK**.
 5. Vérifiez les fichiers générés.
 
-    ![Page de boîte de dialogue utilisateur pour ER](./media/GER-JoinDS-Set2Run.PNG)
+    ![Fichier généré par les paramètres de rapport électronique utilisant la source de données JOIN](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analyser le suivi de l’exécution du format ER
 
@@ -249,11 +249,11 @@ Examinez les paramètres du composant de mise en correspondance de modèle ER. L
 
     - La base de données d’application a été appelée une fois pour obtenir des enregistrements auprès des tables **ERVendorTable**, **ERSolutionTable** et **ERSolutionVersionTable** pour accéder aux champs obligatoires.
 
-    ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Détails des statistiques de performance sur la page du concepteur de mappage de modèles ER](./media/GER-JoinDS-Set2Run2.PNG)
 
     - La base de données d’application a été appelée une fois pour calculer le nombre de versions de configuration utilisant des jointures ayant été configurées dans la source de données **Détails**.
 
-    ![Page du concepteur de mise en correspondance des modèles ER](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Page du concepteur de mappage de modèle ER affichant les appels à la base de données d'application](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Limitations
 

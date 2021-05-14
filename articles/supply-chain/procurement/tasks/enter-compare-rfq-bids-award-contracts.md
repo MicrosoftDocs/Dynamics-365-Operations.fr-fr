@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811988"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920579"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Entrer et comparer des devis d’appels d’offre et octroyer des contrats
 
@@ -32,7 +32,7 @@ Vous pouvez entrer l’offre comme fournisseur ou professionnel des approvisionn
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Entrer la réponse en tant que fournisseur
 
-1. Sur le tableau de bord, sélectionnez **Offre du fournisseur**.
+1. Accédez à **Collaboration du fournisseur \> Espaces de travail \> Offre du fournisseur**.
 2. Dans la liste **Nouvelles invitations à une offre**, recherchez un appel d’offre qui vient juste d’être envoyé. Sélectionnez l’appel d’offre pour examiner ce qui a été demandé.
 3. Sélectionnez **Pièces jointes à l’appel d’offre** pour examiner les pièces jointes ayant été ajoutées.
 4. Sélectionnez **Offre** pour rendre les champs modifiables. Notez que le champ **Progression de l’offre** est défini sur **Le fournisseur effectue une mise à jour**.

@@ -1,8 +1,8 @@
 ---
 title: Inspecter la qualité des marchandises
-description: Cette rubrique explique comment traiter un ordre de qualité.
+description: Cette rubrique explique comment traiter des ordres de qualité.
 author: perlynne
-ms.date: 08/01/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,40 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47e7156e5c57d5f983564cc966b4108f1180ff8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ec67e7864db12178c0f3cfe8b93d510a46e8a0d4
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825913"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956132"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Inspecter la qualité des marchandises
 
 [!include [banner](../../includes/banner.md)]
 
-Cette rubrique explique comment traiter un ordre de qualité. Vous pouvez exécuter ce guide dans les données de démonstration de la société fictive USMF. Avant de commencer cet procédure d’exemple, vous devez confirmer la commande fournisseur « 000016 » et valider un accusé de réception de marchandises. Cette opération crée automatiquement un ordre de qualité. Les inspections de qualité sont généralement effectuées par un commis au contrôle de la qualité.
+Cette rubrique explique comment traiter des ordres de qualité. Les inspections de qualité sont généralement réalisées par un adjoint au contrôle de la qualité.
 
+Si les données de démonstration standard sont installées, vous pouvez les utiliser pour exécuter les procédures de cette rubrique. Pour utiliser les données de démonstration, vous devez sélectionner l’entité juridique *USMF* avant de commencer. Vous devez ensuite confirmer le bon de commande *000016* et afficher un accusé de réception de marchandises. Un ordre de qualité est généré automatiquement.
 
-## <a name="select-a-quality-order"></a>Sélectionnez un ordre de qualité.
-1. Dans le volet de navigation, accédez à **Modules > Gestion des stocks > Tâches périodiques > Gestion de la qualité > Ordres de qualité**.
-2. Sélectionnez l’ordre de qualité créé avant d’avoir commencé cette procédure.  
+## <a name="step-1-select-a-quality-order"></a>Étape 1: Sélectionner un ordre de qualité
 
-## <a name="record-test-results"></a>Enregistrement des résultats de test
+Pour sélectionner un ordre de qualité, procédez comme suit :
+
+1. Allez dans **Gestion des stocks \> Tâches périodiques \> Gestion de la qualité \> Ordres de qualité**.
+1. Sélectionnez l’ordre de qualité généré avant d’avoir commencé cette procédure.
+
+## <a name="step-2-record-test-results"></a>Étape 2 : Enregistrer les résultats de test
+
+Pour enregistrer les résultats de test, procédez comme suit :
+
 1. Sélectionnez **Résultats**.
-2. Sélectionnez **Modifier**.
-3. Dans le champ **Quantité du résultat**, entrez un nombre.
-4. Dans le champ **Résultat**, sélectionnez l’enregistrement souhaité dans le menu déroulant.  
-- Dans cet exemple, le résultat est basé sur les résultats prédéfinis. Normalement vous devez enregistrer un résultat de test plus spécifique, par exemple une taille ou autre dimension.  
-5. Sélectionnez **Enregistrer**.
-6. Fermez la page.
+1. Sélectionnez **Modifier**.
+1. Dans le champ **Quantité du résultat**, entrez un nombre.
+1. Sélectionnez le dossier souhaité dans le champ **Résultat**. Dans cet exemple, le résultat est basé sur un résultat prédéfini. Vous devez normalement enregistrer un résultat de test plus spécifique, par exemple une taille ou autre dimension.
+1. Sélectionnez **Enregistrer**.
+1. Fermez la page.
 
-## <a name="validate-the-quality-order"></a>Contrôler l’ordre de qualité
+## <a name="step-3-validate-the-quality-order"></a>Étape 3 : Contrôler l’ordre de qualité
+
+Pour contrôler l'ordre de qualité, procédez comme suit :
+
 1. Sélectionnez **Valider**.
-2. Dans le champ **Validé par**, sélectionnez l’utilisateur effectuant l’inspection dans le menu déroulant.  
-3. Cliquez sur **Sélectionner**.
-4. Cliquez sur **OK**.
-5. Fermez la page.
-
-
+1. Dans le champ **Validé par**, sélectionnez l'utilisateur qui effectue l'inspection.
+1. Cliquez sur **Sélectionner**.
+1. Cliquez sur **OK**.
+1. Fermez la page.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

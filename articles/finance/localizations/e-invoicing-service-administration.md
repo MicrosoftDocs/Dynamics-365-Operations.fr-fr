@@ -2,7 +2,7 @@
 title: Composants d’administration de la Facturation électronique
 description: Cette rubrique fournit des informations sur les composants liés à l’administration de la Facturation électronique.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840026"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963189"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Composants d’administration de la Facturation électronique
 
@@ -31,7 +31,7 @@ Cette rubrique fournit des informations sur les composants liés à l’administ
 
 ## <a name="azure"></a>Azure
 
-Utilisez Microsoft Azure pour créer les secrets du coffre de clés et du compte de stockage. Utilisez ensuite les secrets dans la configuration de la Facturation électronique.
+Utilisez Microsoft Azure pour créer les secrets du compte de stockage et du compte Key Vault. Utilisez ensuite les secrets dans la configuration de la Facturation électronique.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -85,12 +85,14 @@ Les environnements de service peuvent être gérés via leur statut. Les options
 Le service de Facturation électronique a la responsabilité de stocker toutes vos données métier dans les ressources Azure appartenant à votre société. Pour vous assurer que le service fonctionne correctement et que toutes les données métier requises et générées par la Facturation électronique ne sont accessibles que de manière appropriée, vous devez créer deux ressources Azure principales :
 
 - Un compte de stockage Azure (stockage Blob) qui va stocker les factures électroniques
-- Un coffre de clés Azure qui va stocker les certificats et l’Uniform Resource Identifier (URI) du compte de stockage
+- Un compte Azure Key Vault qui va stocker les certificats et l’Uniform Resource Identifier (URI) du compte de stockage
 
-> [!NOTE]
-> Une ressource de coffre de clés dédiée et un compte de stockage client doivent être alloués spécifiquement pour une utilisation avec la Facturation électronique.
 
-Pour plus d’informations, voir [Créer un compte de stockage Azure et un coffre de clés](e-invoicing-create-azure-storage-account-key-vault.md).
+Un compte Key Vault dédié et un compte de stockage client doivent être alloués spécifiquement pour utiliser la Facturation électronique. Pour plus d’informations, voir [Créer un compte de stockage Azure et un Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Pour surveiller l'intégrité de votre compte Key Vault et recevoir des alertes, configurez Azure Monitor pour Key Vault. En activant la journalisation de Key Vault, vous pouvez surveiller comment, quand et qui accède à vos comptes Key Vault. Pour plus d'informations, consultez [Surveillance et alertes pour Azure Key Vault](/azure/key-vault/general/alert) et [Comment activer la journalisation de Key Vault](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+En tant que meilleure pratique, modifiez régulièrement les secrets. Pour plus d’informations, voir la [Documentation sur les secrets](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Utilisateurs
 

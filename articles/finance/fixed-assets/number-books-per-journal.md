@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892405"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944799"
 ---
 # <a name="number-of-books-per-journal"></a>Nombre de registres par journal
 
 [!include [banner](../includes/banner.md)]
 
-Cette rubrique décrit la relation entre les journaux et les registres d’immobilisations lorsque vous créez une acquisition d’immobilisations ou une proposition d’amortissement via un traitement par lots. Vous pouvez définir le nombre maximal de registres inclus pour chaque acquisition et pour l’amortissement en utilisant les champs de la section **Nombre de registres par journal** sur l’onglet **Général** de la page **Paramètres des immobilisations** (**Immobilisations \> Configurer \> Paramètres des immobilisations**). Ces champs vous permettent de répartir le nombre de registres d’immobilisation par journal d’acquisition et journal d’amortissement.
+Cette rubrique décrit la relation entre les journaux et les registres d’immobilisations lorsque vous créez une acquisition d’immobilisations ou une proposition d’amortissement via un traitement par lots. Vous pouvez définir le nombre maximal de registres inclus pour chaque acquisition et pour l’amortissement en utilisant les champs de la section **Nombre de registres par journal** sur l’onglet **Général** de la page **Paramètres des immobilisations** (**Immobilisations \> Paramétrage \> Paramètres des immobilisations**). Ces champs vous permettent de répartir le nombre de registres d’immobilisation par journal d’acquisition et journal d’amortissement.
 
 Pour une proposition d’acquisition, la valeur par défaut est d’au moins 10 000 registres. Pour une proposition d’amortissement, la valeur par défaut est d’au moins 2 000 registres.
 
@@ -47,9 +47,5 @@ Le travail de traitement par lots exclut les registres fermés. Par exemple, dan
 La limite du nombre de registres est appliquée si les ID d’éléments en double n’existent pas dans le même journal. Cependant, si l’ID d’actif est le même que l’ID de registres, le nombre de registres par journal peut être dépassé pour conserver l’ID d’actif dans le même journal.
 
 Par exemple, il existe 5 001 ID d’immobilisation, trois registres sont associés à chaque ID d’immobilisation et chaque registre d’immobilisation est enregistré dans la même couche de comptabilisation. Vous exécutez l’amortissement pendant trois mois consécutifs, sans synthèse.  Le journal d’amortissement sera créé via un traitement par lots, et le système créera sept journaux contenant 667 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Le résultat sera 2 001 registres. Par conséquent, dans trois mois, il y aura 6 003 lignes de journal pour conserver les mêmes ID d’actif dans le même journal. Le système créera également un journal contenant 332 ID d’immobilisation et trois registres pour chaque ID d’immobilisation. Dans trois mois, il y aura 2 988 lignes.
-
-> [!NOTE] 
-> Si le paramètre **Cumuler l’amortissement** est activé lorsque vous créez une proposition d’amortissement, alors la valeur du champ **Nombre de registres par journal – Proposition d’amortissement** n’a aucun effet. Dans ce cas, le nombre de livres par journal est de 6000, qui est la limite interne définie.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

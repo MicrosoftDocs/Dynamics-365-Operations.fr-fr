@@ -1,6 +1,6 @@
 ---
 title: Actifs internes pour la maintenance
-description: Cette rubrique décrit comment vous pouvez utiliser Microsoft Dtnamics 365 Field Service pour gérer à la fois les actifs client et les actifs internes.
+description: Cette rubrique décrit comment vous pouvez utiliser Microsoft Dynamics 365 Field Service pour gérer à la fois les actifs des clients et les actifs internes.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ebda6b5679ec601513fb6d046725b396e69fe0f3
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748591"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941412"
 ---
 # <a name="in-house-assets-for-servicing"></a>Actifs internes pour la maintenance
 
@@ -31,7 +31,7 @@ ms.locfileid: "5748591"
 
 Microsoft Dynamics 365 Field Service est conçu pour servir les actifs des clients. La gestion d’actifs pour Dynamics 365 Supply Chain Management est conçu pour maintenir les actifs internes. L’intégration de ces deux applications vous permet d’utiliser Field Service pour gérer à la fois les actifs des clients et les actifs internes. Vous pouvez également classer les actifs, en fonction de l’emplacement fonctionnel ou de la hiérarchie, et suivre la maintenance à un niveau détaillé.
 
-Pour plus d’informations, voir [Intégrer Dynamics 365 Field Service et Supply Chain Management](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration).
+Pour plus d’informations, voir [Intégrer Dynamics 365 Field Service et Supply Chain Management](/dynamics365/field-service/supply-chain-field-service-integration).
 
 ## <a name="templates"></a>Modèles
 

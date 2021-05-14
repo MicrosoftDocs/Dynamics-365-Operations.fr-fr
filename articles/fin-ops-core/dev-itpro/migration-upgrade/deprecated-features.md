@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745261"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921421"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
 
@@ -37,7 +37,7 @@ Cette rubrique décrit les fonctionnalités qui ont été supprimées de Dynamic
 
 Cette liste est conçue pour vous aider à prendre en compte ces suppressions et abandons pour votre propre planification. 
 
-Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
+Des informations détaillées sur les objets dans les applications Finance and Operations sont disponibles dans les [États de référence technique](/dynamics/s-e/global/axtechrefrep_61). Vous pouvez comparer les différentes versions de ces états pour en savoir plus sur les objets qui ont été modifiés ou supprimés dans chaque version des applications Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 avec Platform update 31
 
@@ -147,7 +147,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Alignement d’en-tête avec d’autres produits Dynamics et Office. Pour plus de détails, voir [Barre de navigation mise à jour qui s’aligne à présent avec l’en-tête Bureau](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motif de l’abandon/de la suppression** | Alignement d’en-tête avec d’autres produits Dynamics et Office. Pour plus de détails, voir [Barre de navigation mise à jour qui s’aligne à présent avec l’en-tête Bureau](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Remplacé par une autre fonctionnalité ?**   | Depuis Platform update 24, une barre de navigation remodelée avec une recherche des fonctionnalités a été introduite. |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
@@ -161,7 +161,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Le comportement hérité pour les actions par défaut dans les grilles a pour effet qu’une colonne inattendue comporte le lien d’action par défaut après la réorganisation des colonnes de grille suite à la personnalisation. La nouvelle fonctionnalité d’action par défaut rémanente corrige ce problème. Pour plus de détails, voir [Actions par défaut rémanentes dans les grilles](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motif de l’abandon/de la suppression** | Le comportement hérité pour les actions par défaut dans les grilles a pour effet qu’une colonne inattendue comporte le lien d’action par défaut après la réorganisation des colonnes de grille suite à la personnalisation. La nouvelle fonctionnalité d’action par défaut rémanente corrige ce problème. Pour plus de détails, voir [Actions par défaut rémanentes dans les grilles](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Remplacé par une autre fonctionnalité ?**   | À compter de Platform update 21, la fonctionnalité des « actions par défaut rémanentes » a été introduite. Cette fonction peut être activée dans la page **Options de performances du client**. |
 | **Zones de produit affectées**         | Grilles dans le client Web |
 | **Option de déploiement**              | Tous |
@@ -172,7 +172,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | L’expérience de filtrage « Est l’un de » a subi une refonte dans la Platform update 22. Le projet est qu’elle soit finalement la seule expérience de filtrage « Est l’un de ». |
-| **Remplacé par une autre fonctionnalité ?**   | Depuis la Platform update 22, une expérience améliorée Platform update 22 est disponible dans la page **Options de performances du client**. Pour plus d’informations, voir [Optimisation de l’expérience de filtrage « Est l’un de »](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Remplacé par une autre fonctionnalité ?**   | Depuis la Platform update 22, une expérience améliorée Platform update 22 est disponible dans la page **Options de performances du client**. Pour plus d’informations, voir [Optimisation de l’expérience de filtrage « Est l’un de »](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Zones de produit affectées**         | Client Web |
 | **Option de déploiement**              | Tous |
 | **État**                         | Obsolète : à compter d’avril 2020, l’expérience de filtrage « Est l’un de » améliorée est le comportement par défaut, sans mécanisme de rétablissement au comportement antérieur. |
@@ -1333,7 +1333,7 @@ Sites Services vous permet de créer des sites Web qui étendent vos processus d
 
 ### <a name="virtual-company-accounts"></a>Comptes société virtuels
 
-La fonctionnalité des sociétés virtuelles n’est plus prise en charge dans Dynamics AX. La fonctionnalité des sociétés virtuelles permet aux utilisateurs de paramétrer des tables à partager entre un ensemble de sociétés. Pour obtenir une description de la fonctionnalité, consultez [Comptes société et comptes société virtuels](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). La fonctionnalité fonctionne en regroupant les tables en recouvrements affectés aux sociétés virtuelles, qui sont des groupes de « véritables » sociétés existantes. Les requêtes sont créées afin que toutes les sociétés de la société virtuelle puissent accéder aux données des tables des recouvrements de table associés.
+La fonctionnalité des sociétés virtuelles n’est plus prise en charge dans Dynamics AX. La fonctionnalité des sociétés virtuelles permet aux utilisateurs de paramétrer des tables à partager entre un ensemble de sociétés. Pour obtenir une description de la fonctionnalité, consultez [Comptes société et comptes société virtuels](../../fin-ops/get-started/ax4-content-retired.md). La fonctionnalité fonctionne en regroupant les tables en recouvrements affectés aux sociétés virtuelles, qui sont des groupes de « véritables » sociétés existantes. Les requêtes sont créées afin que toutes les sociétés de la société virtuelle puissent accéder aux données des tables des recouvrements de table associés.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

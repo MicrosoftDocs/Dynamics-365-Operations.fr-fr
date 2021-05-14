@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 53a24866786f209a1d0f6932bb4f782bf936bd21
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e255c60889fdb49dfd8a1fd01be839b6405b02c6
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819254"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919867"
 ---
 # <a name="process-review-and-post-rebates"></a>Traiter, examiner et valider les remises
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Cette rubrique décrit comment traiter vos accords de gestion des remises, calculer leurs remises, consulter les transactions générées, valider les transactions et consulter les validations.
 
@@ -69,8 +68,8 @@ Lorsque vous traitez un accord, le système calcule toutes les remises et redeva
 1. Ouvrez la [page de liste des accords de remise](rebate-management-deals.md) pour le type d’accord que vous souhaitez utiliser.
 1. Ouvrez l’accord dont vous souhaitez traiter une ligne.
 1. Sélectionnez l’onglet **Lignes** dans le coin supérieur droit.
-1. Dans le raccourci **Gestion des remises**, sélectionnez la ligne pour chaque ligne d’accord que vous souhaitez traiter.
-1. Dans la barre d’outils du raccourci **Gestion des remises**, sélectionnez l’une des commandes suivantes. (Ces commandes ne sont disponibles que pour les accords où le champ **Rapprochement par** est défini sur *Ligne*.)
+1. Dans l'organisateur **Gestion des remises**, sélectionnez la ligne pour chaque ligne d’accord que vous souhaitez traiter.
+1. Dans la barre d’outils de l'organisateur **Gestion des remises**, sélectionnez l’une des commandes suivantes. (Ces commandes ne sont disponibles que pour les accords où le champ **Rapprochement par** est défini sur *Ligne*.)
 
     - **Traiter \> Configurer** - Fournissez un ensemble de régularisations pour chaque ligne d’accord pertinente, mais ne le validez pas.
     - **Traiter \> Gestion des remises** - Traitez une série de transactions qui fournissent la valeur de la remise pour chaque ligne d’accord.
@@ -81,7 +80,7 @@ Lorsque vous traitez un accord, le système calcule toutes les remises et redeva
 
 ### <a name="process-deals-using-a-batch-job"></a>Traiter les accords à l’aide d’un traitement par lots
 
-Au lieu de traiter des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour traiter plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour traiter des accords à l’aide d’un traitement par lots, procédez comme suit.
+Au lieu de traiter des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour traiter plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour traiter des accords à l’aide d’un traitement par lots, procédez comme suit :
 
 1. Utilisez l’une des procédures suivantes :
 
@@ -168,7 +167,7 @@ Si vous n’utilisez pas la validation automatique, après avoir traité les acc
 
 ### <a name="post-transactions-using-a-batch-job"></a>Valider les transactions à l’aide d’un traitement par lots
 
-Au lieu de valider les transactions pour des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour valider les transactions de plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour valider les transactions à l’aide d’un traitement par lots, procédez comme suit.
+Au lieu de valider les transactions pour des accords ou des lignes d’accord spécifiques, vous pouvez exécuter un traitement par lots pour valider les transactions de plusieurs accords en même temps. Vous pouvez éventuellement appliquer des filtres d’enregistrement et/ou configurer une planification récurrente. Pour valider les transactions à l’aide d’un traitement par lots, procédez comme suit :
 
 1. Utilisez l’une des procédures suivantes :
 
@@ -186,7 +185,7 @@ Au lieu de valider les transactions pour des accords ou des lignes d’accord sp
 
 Une fois vos transactions validées, vous pouvez consulter les journaux, documents ou articles qui en résultent. Les transactions cibles pour les remises et les redevances sont basées sur le type de paiement défini dans le profil de validation et le type de résultat de la remise. Par exemple, si le résultat de la remise est défini sur *Article*, une commande client sera créée et pourra être consultée via les transactions cibles. Sinon, si le paiement est configuré pour utiliser la comptabilité fournisseurs, une facture fournisseur pour le fournisseur qui est configurée sur le client sera créée pour les remises client.
 
-Pour consulter les écritures de journal associées à un accord de gestion de remise, procédez comme suit.
+Pour consulter les écritures de journal associées à un accord de gestion de remise, procédez comme suit :
 
 1. Ouvrez la [page de liste des accords de remise](rebate-management-deals.md) pour le type d’accord que vous souhaitez utiliser.
 1. Sélectionnez l’accord pour lequel inspecter les écritures de journal.

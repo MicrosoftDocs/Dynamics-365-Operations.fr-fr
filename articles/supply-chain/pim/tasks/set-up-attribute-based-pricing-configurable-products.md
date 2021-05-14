@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833255"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921239"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Paramétrer la tarification par attribut pour les produits configurables
 
@@ -28,17 +28,18 @@ Cette rubrique explique comment paramétrer la tarification basée sur des attri
 
 
 ## <a name="create-a-new-price-model"></a>Créer un modèle de prix
-1. Sélectionnez **Définition du modèle de variante de produit** sur la page d’accueil.
-2. Sélectionnez **Modèles de configuration du produit** dans la section **liens**.
-3. Dans la liste, sélectionnez la ligne **Haut-parleur haut de gamme**, mais ne cliquez pas sur le lien du nom.
-4. Dans le volet Actions, sélectionnez **Modèle**.
-5. Sélectionnez **Modèles de prix**.
-6. Sélectionnez **Nouveau**.
-7. Dans le champ **Nom du modèle de prix**, saisissez une valeur. Utilisez un nom qui permet d’identifier facilement le modèle.  
-8. Tapez une valeur dans le champ **Description**.
-9. Sélectionnez **Enregistrer**.
+
+1. Accédez à **Gestion des informations sur les produits \> Produits \> Modèles de configuration de produit**.
+1. Dans la liste, sélectionnez la ligne **Haut-parleur haut de gamme**, mais ne cliquez pas sur le lien du nom.
+1. Dans le volet Actions, sélectionnez **Modèle**.
+1. Sélectionnez **Modèles de prix**.
+1. Sélectionnez **Nouveau**.
+1. Dans le champ **Nom du modèle de prix**, saisissez une valeur. Utilisez un nom qui permet d’identifier facilement le modèle.  
+1. Tapez une valeur dans le champ **Description**.
+1. Sélectionnez **Enregistrer**.
 
 ## <a name="add-price-elements"></a>Ajouter des éléments de prix
+
 1. Sélectionnez **Modifier**. Chaque composant d’un modèle de produit peut avoir un élément de prix de base et plusieurs règles d’expression de prix. Vous pouvez également ajouter des prix dans différentes devises.  
 2. Dans le champ **Expression de prix de base**, tapez une valeur. Entrez 100, par exemple. Une expression de prix de base peut être une valeur numérique, ou elle peut consister en un calcul arithmétique qui implique un ou plusieurs attributs.  
 3. Sélectionnez **Ajouter**.

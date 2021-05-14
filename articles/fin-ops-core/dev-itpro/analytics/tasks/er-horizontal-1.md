@@ -2,7 +2,7 @@
 title: ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 – Créer un format)
 description: Cette rubrique décrit comment configurer un format pour la gestion des états électroniques pour générer des rapports sous forme de fichiers de feuilles de calcul OPENXML (Excel). (Partie 1)
 author: NickSelin
-ms.date: 08/29/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9eef9ffaadbd7010129cc9850ded1ba67bc281d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af3d7bdf6bf0de371fa0896bf5f668c98498640d
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745009"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944603"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Utiliser des plages extensibles horizontalement pour ajouter dynamiquement des colonnes dans les états Excel (Partie 1 – Créer un format)
 
@@ -34,7 +34,7 @@ Pour réaliser ces étapes, vous devez d’abord effectuer les étapes des trois
 
 « ER Utiliser les dimensions financières comme source de données (Partie 2 : Mise en correspondance des modèles) »
 
-Vous devez également télécharger et enregistrer une copie locale du modèle avec un exemple d’état disponible ici, [Exemple d’état de service Web pour les dimensions financières](https://go.microsoft.com/fwlink/?linkid=862266).
+Vous devez également télécharger et enregistrer une copie locale du modèle avec un exemple d’état disponible ici, [Exemple d’état de service Web pour les dimensions financières](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
 
 Cette procédure s’applique à une fonction qui a été ajoutée dans la version 1611 de Dynamics 365 for Operations.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eaa20f9a8f145fa8d44bfe77cc85f4dc565c2d27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841501"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921215"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversion d’unité de mesure selon la variante de produit
 
@@ -39,7 +39,7 @@ Si vous ne voyez pas cette fonctionnalité dans votre système, accédez à [Ges
 
 Les variantes de produit peuvent être créées uniquement pour les produits génériques. Pour plus d’informations, voir [Création d’un produit générique](tasks/create-product-master.md). La fonctionnalité *Conversions d’unités de mesure pour les variantes de produit* n’est pas disponible pour les produits configurés pour les processus en poids variable.
 
-Pour configurer une fiche produit pour prendre en charge la conversion d’unités par variante, procédez comme suit.
+Pour configurer une fiche produit pour prendre en charge la conversion d’unités par variante, procédez comme suit :
 
 1. Allez dans **Gestion des informations sur les produits \> Produits \> Produits génériques**.
 1. Créez ou ouvrez une fiche produit pour accéder à la page **Détails du produit**.
@@ -103,7 +103,7 @@ Pour exporter des conversions d’unité vers Excel, sur la page **Conversions d
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Gérer l’unité de mesure](tasks/manage-unit-measure.md)
+[Gérer les unités de mesure](tasks/manage-unit-measure.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,8 @@
 title: Module Galerie multimédia
 description: Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802813"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937384"
 ---
 # <a name="media-gallery-module"></a>Module Galerie multimédia
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -49,11 +51,13 @@ Dans l’exemple de l’illustration suivante, une zone d’achat sur une page d
 |---------------|--------|-------------|
 | Source de l’image | **Contexte de la page** ou **ID produit** | La valeur par défaut est **Contexte de la page**. Si l’option **Contexte de la page** est sélectionnée, le module s’attend à ce que la page fournisse les informations sur l’ID produit. Si l’option **ID produit** est sélectionnée, l’ID produit d’une image doit être fourni comme valeur de la propriété **ID produit**. Cette fonctionnalité est disponible dans la version 10.0.12 de Commerce. |
 | ID produit | ID produit | Cette propriété n’est applicable que si la valeur de la propriété **Source de l’image** est **ID produit**. |
-| Zoom sur l’image | **En ligne** ou **Conteneur** | Cette propriété permet à l’utilisateur d’effectuer un zoom sur les images dans le module Galerie multimédia. Une image peut faire l’objet d’un zoom en ligne ou dans un conteneur distinct en regard de l’image. Cette fonctionnalité est disponible dans la version 10.0.12 |
-| Échelle de zoom | Nombre décimal | Cette propriété spécifie le facteur d’échelle du zoom sur les images. Par exemple, si la valeur est définie sur **2,5**, les images sont agrandies 2,5 fois.|
+| Zoom sur l’image | **En ligne** ou **Conteneur** | Cette propriété permet à l’utilisateur d’effectuer un zoom sur les images dans le module Galerie multimédia. Une image peut faire l’objet d’un zoom en ligne ou dans un conteneur distinct en regard de l’image. Cette fonctionnalité est disponible dans la version 10.0.12. |
+| Facteur de zoom | Nombre décimal | Cette propriété spécifie le facteur d’échelle du zoom sur les images. Par exemple, si la valeur est définie sur **2,5**, les images sont agrandies 2,5 fois. |
 | Plein écran | **Vrai** ou **Faux** | Cette propriété spécifie si les images peuvent être affichées en mode plein écran. En mode plein écran, les images peuvent également être agrandies davantage si la fonctionnalité de zoom est activée. Cette fonctionnalité est disponible dans la version 10.0.13 de Commerce. |
+| Qualité d'image agrandie | Un nombre compris entre 1 et 100 qui représente un pourcentage et qui est sélectionné à l'aide d'un contrôle de la barre de suivi | Cette propriété définit la qualité d'image pour les images agrandies. Elle peut être définie sur 100 % pour garantir qu'une image agrandie utilise toujours la résolution la plus élevée possible. Cette propriété ne s'applique pas aux fichiers PNG, car ils utilisent un format sans perte. Cette fonctionnalité est disponible à compte de la version 10.0.19 de Commerce. |
 | Images | Images sélectionnées dans la bibliothèque multimédia du générateur de site | En plus de leur affichage à partir d’un produit, les images peuvent être organisées pour un module Galerie multimédia. Ces images sont ajoutées à toutes les images de produit disponibles. Cette fonctionnalité est disponible dans la version 10.0.12 de Commerce. |
 | Orientation des miniatures | **Vertical** ou **Horizontal** | Cette propriété spécifie si les images miniatures doivent être affichées dans une bande verticale ou une bande horizontale. |
+| Masquer les images principales du produit pour la variante | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu'une variante est sélectionnée, les images du produit maître sont masquées à moins que la variante ne comporte aucune image. Cette propriété n'affecte pas les produits sans variantes. |
 
 L’illustration suivante montre un exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles.
 
@@ -69,7 +73,7 @@ Lorsque la source de l’image est dérivée du contexte de la page, l’ID prod
 
 ## <a name="add-a-media-gallery-module-to-a-page"></a>Ajouter un module Galerie multimédia à une page
 
-Pour ajouter un module Galerie multimédia à une page marketing, procédez comme suit.
+Pour ajouter un module Galerie multimédia à une page marketing, procédez comme suit :
 
 1. Accédez à **Modèles**, puis cliquez sur **Nouveau** pour créer un nouveau modèle.
 1. Dans la boîte de dialogue **Nouveau modèle**, sous **Nom du modèle**, entrez **Modèle marketing**, puis cliquez sur **OK**.
