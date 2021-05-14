@@ -1,0 +1,96 @@
+---
+title: La taxe est imputée sur le mauvais compte du grand livre dans le justificatif
+description: Cette rubrique fournit des informations sur la résolution des problèmes qui peuvent aider lorsque la taxe est imputée sur le mauvais compte du grand livre dans le justificatif.
+author: qire
+manager: beya
+ms.date: 04/12/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application user
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: wangchen
+ms.search.validFrom: 2021-04-01
+ms.dyn365.ops.version: 10.0.1
+ms.openlocfilehash: 0404d71f0492e188ed5da62387bb90a336e69c5a
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947639"
+---
+# <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a><span data-ttu-id="a3754-103">La taxe est imputée sur le mauvais compte du grand livre dans le justificatif</span><span class="sxs-lookup"><span data-stu-id="a3754-103">Tax is posted to the wrong ledger account in the voucher</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="a3754-104">Lors de la validation, il est possible que la taxe soit imputée sur le mauvais compte du grand livre dans le justificatif.</span><span class="sxs-lookup"><span data-stu-id="a3754-104">During posting, tax might be posted to the wrong ledger account in the voucher.</span></span> <span data-ttu-id="a3754-105">Pour résoudre ce problème, suivez les étapes des sections suivantes selon les besoins.</span><span class="sxs-lookup"><span data-stu-id="a3754-105">To troubleshoot this issue, follow the steps in the following sections as required.</span></span> <span data-ttu-id="a3754-106">Les exemples de cette rubrique utilisent une commande client comme document commercial.</span><span class="sxs-lookup"><span data-stu-id="a3754-106">The examples in this topic use a sales order as the business document.</span></span>
+
+## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a><span data-ttu-id="a3754-107">Rechercher le code taxe de la transaction fiscale incorrectement validée</span><span class="sxs-lookup"><span data-stu-id="a3754-107">Find the tax code of the incorrectly posted tax transaction</span></span>
+
+1. <span data-ttu-id="a3754-108">Sur la page **Justificatif de transaction**, sélectionnez la transaction avec laquelle vous souhaitez travailler, puis sélectionnez **Taxe validée**.</span><span class="sxs-lookup"><span data-stu-id="a3754-108">On the **Voucher transactions** page, select the transaction that you want to work with, and then select **Posted sales tax**.</span></span>
+
+    <span data-ttu-id="a3754-109">[![Bouton Taxe validée sur la page Justificatif de transaction](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-109">[![Posted sales tax button on the Voucher transactions page](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)</span></span>
+
+2. <span data-ttu-id="a3754-110">Vérifiez la valeur du champ **Code taxe**.</span><span class="sxs-lookup"><span data-stu-id="a3754-110">Review the value in the **Sales tax code** field.</span></span> <span data-ttu-id="a3754-111">Dans cet exemple, c'est **TVA 19**.</span><span class="sxs-lookup"><span data-stu-id="a3754-111">In this example, it's **VAT 19**.</span></span>
+
+    <span data-ttu-id="a3754-112">[![Champ Code taxe de la page Taxe validée](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-112">[![Sales tax code field on the Posted sales tax page](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)</span></span>
+
+## <a name="check-the-ledger-posting-group-of-the-tax-code"></a><span data-ttu-id="a3754-113">Vérifiez le groupe d'écriture comptable du code taxe</span><span class="sxs-lookup"><span data-stu-id="a3754-113">Check the ledger posting group of the tax code</span></span>
+
+1. <span data-ttu-id="a3754-114">Accédez à **Taxe** \> **Taxes indirectes** \> **Taxe** \> **Codes taxe**.</span><span class="sxs-lookup"><span data-stu-id="a3754-114">Go to **Tax** \> **Indirect taxes** \> **Sales tax** \> **Sales tax codes**.</span></span>
+2. <span data-ttu-id="a3754-115">Recherchez et sélectionnez le code taxe, puis examinez la valeur dans le champ **Groupe de validations dans la comptabilité**.</span><span class="sxs-lookup"><span data-stu-id="a3754-115">Find and select the tax code, and then review the value in the **Ledger posting group** field.</span></span> <span data-ttu-id="a3754-116">Dans cet exemple, c'est **TVA**.</span><span class="sxs-lookup"><span data-stu-id="a3754-116">In this example, it's **VAT**.</span></span>
+
+    <span data-ttu-id="a3754-117">[![Champ Groupe de validations dans la comptabilité de la page Codes taxe](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-117">[![Ledger posting group field on the Sales tax codes page](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)</span></span>
+
+3. <span data-ttu-id="a3754-118">La valeur du champ **Groupe de validations dans la comptabilité** est un lien.</span><span class="sxs-lookup"><span data-stu-id="a3754-118">The value in the **Ledger posting group** field is a link.</span></span> <span data-ttu-id="a3754-119">Pour afficher les détails de la configuration du groupe, sélectionnez le lien.</span><span class="sxs-lookup"><span data-stu-id="a3754-119">To view the details of the group's configuration, select the link.</span></span> <span data-ttu-id="a3754-120">Sinon, sélectionnez et maintenez sélectionné (ou cliquez avec le bouton droit) dans le champ, puis sélectionnez **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="a3754-120">Alternatively, select and hold (or right-click) in the field, and then select **View details**.</span></span>
+
+    <span data-ttu-id="a3754-121">[![Commande Afficher les détails](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-121">[![View details command](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)</span></span>
+
+4. <span data-ttu-id="a3754-122">Dans le champ **Taxe collectée**, vérifiez que le numéro de compte est correct, selon le type de transaction.</span><span class="sxs-lookup"><span data-stu-id="a3754-122">In the **Sales tax payable** field, verify that the account number is correct, according to the transaction type.</span></span> <span data-ttu-id="a3754-123">Si ce n'est pas le cas, sélectionnez le bon compte pour lequel effectuer la validation.</span><span class="sxs-lookup"><span data-stu-id="a3754-123">If it isn't, select the correct account to post to.</span></span> <span data-ttu-id="a3754-124">Dans cet exemple, la taxe de la commande client doit être imputée au compte de collecte de taxe 222200.</span><span class="sxs-lookup"><span data-stu-id="a3754-124">In this example, the sales tax of the sales order should be posted to sales tax payable account 222200.</span></span>
+
+    <span data-ttu-id="a3754-125">[![Champ Taxe collectée de la page Groupes de validations dans la comptabilité](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-125">[![Sales tax payable field on the Ledger posting groups page](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)</span></span>
+
+    <span data-ttu-id="a3754-126">Le tableau suivant fournit des informations sur chaque champ de la page **Groupes de validations dans la comptabilité**.</span><span class="sxs-lookup"><span data-stu-id="a3754-126">The following table provides information about each field on the **Ledger posting groups** page.</span></span>
+
+    | <span data-ttu-id="a3754-127">Champ</span><span class="sxs-lookup"><span data-stu-id="a3754-127">Field</span></span>                  | <span data-ttu-id="a3754-128">Description</span><span class="sxs-lookup"><span data-stu-id="a3754-128">Description</span></span> |
+    |------------------------|-------------|
+    | <span data-ttu-id="a3754-129">Taxe collectée</span><span class="sxs-lookup"><span data-stu-id="a3754-129">Sales tax payable</span></span>      | <span data-ttu-id="a3754-130">Le compte principal pour les taxes sortantes collectées par l'administration fiscale.</span><span class="sxs-lookup"><span data-stu-id="a3754-130">The main account for outgoing sales taxes that are payable to the tax authority.</span></span> |
+    | <span data-ttu-id="a3754-131">Taxe déductible</span><span class="sxs-lookup"><span data-stu-id="a3754-131">Sales tax receivable</span></span>   | <span data-ttu-id="a3754-132">Le compte principal pour les taxes entrantes transmises par l’administration fiscale.</span><span class="sxs-lookup"><span data-stu-id="a3754-132">The main account for incoming taxes that are received from the tax authority.</span></span> |
+    | <span data-ttu-id="a3754-133">Dépenses de taxe d'utilisation</span><span class="sxs-lookup"><span data-stu-id="a3754-133">Use tax expense</span></span>        | <span data-ttu-id="a3754-134">Le compte principal utilisé pour valider les taxes d’utilisation déductibles qui ne sont pas réclamées ou signalées à l’administration fiscale par les fournisseurs dans le cadre de la taxe GST/HST au preneur de l’UE.</span><span class="sxs-lookup"><span data-stu-id="a3754-134">The main account that is used to post deductible use taxes that vendors don't claim or report to the tax authority as part of European Union (EU) reverse charge Goods and Services Tax (GST)/Harmonized Sales Tax (HST).</span></span> <span data-ttu-id="a3754-135">L’option **Taxe d’utilisation** doit être sélectionnée pour le code taxe dans le groupe de taxes utilisé dans la transaction.</span><span class="sxs-lookup"><span data-stu-id="a3754-135">**Use tax** must be selected for the sales tax code in the sales tax group that is used in the transaction.</span></span> <span data-ttu-id="a3754-136">Ce champ n’est pas disponible si l’option **Appliquer les règles de taxe** est sélectionnée dans la page **Paramètres de comptabilité**.</span><span class="sxs-lookup"><span data-stu-id="a3754-136">This field isn't available if **Apply sales tax taxation rules** is selected on the **General ledger parameters** page.</span></span> |
+    | <span data-ttu-id="a3754-137">Taxe d'utilisation due</span><span class="sxs-lookup"><span data-stu-id="a3754-137">Use tax payable</span></span>        | <span data-ttu-id="a3754-138">Compte principal utilisé pour valider les taxes d’utilisation sortantes collectées par l’administration fiscale.</span><span class="sxs-lookup"><span data-stu-id="a3754-138">The main account that is used to post incoming use taxes that are payable to tax authorities.</span></span> |
+    | <span data-ttu-id="a3754-139">Compte de règlement</span><span class="sxs-lookup"><span data-stu-id="a3754-139">Settlement account</span></span>     | <span data-ttu-id="a3754-140">Le compte principal utilisé pour valider le solde net des comptes généraux spécifiés dans les champs **Taxe d’utilisation due** et **Taxe déductible**.</span><span class="sxs-lookup"><span data-stu-id="a3754-140">The main account that is used to post the net balance of the ledger accounts that are specified in the **Use tax payable** and **Sales tax receivable** fields.</span></span> |
+    | <span data-ttu-id="a3754-141">Fournisseur - Escompte de règlement</span><span class="sxs-lookup"><span data-stu-id="a3754-141">Vendor cash discount</span></span>   | <span data-ttu-id="a3754-142">Compte principal utilisé pour valider l’escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="a3754-142">The main account that is used to post a cash discount for sales tax codes that are associated with this ledger posting group.</span></span> |
+    | <span data-ttu-id="a3754-143">Client – Escompte de règlement</span><span class="sxs-lookup"><span data-stu-id="a3754-143">Customer case discount</span></span> | <span data-ttu-id="a3754-144">Compte principal utilisé pour valider l’escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité.</span><span class="sxs-lookup"><span data-stu-id="a3754-144">The main account that is used to post a cash discount for sales tax codes that are associated with this ledger posting group.</span></span> |
+
+    <span data-ttu-id="a3754-145">Pour plus d’informations, voir [Paramétrer des groupes de validation dans la comptabilité de la taxe](tasks/set-up-ledger-posting-groups-sales-tax.md)</span><span class="sxs-lookup"><span data-stu-id="a3754-145">For more information, see, [Set up Ledger posting groups for sales tax](tasks/set-up-ledger-posting-groups-sales-tax.md)</span></span>
+
+## <a name="debug-in-code-to-check-ledger-dimensions"></a><span data-ttu-id="a3754-146">Déboguer dans le code pour vérifier les dimensions comptables</span><span class="sxs-lookup"><span data-stu-id="a3754-146">Debug in code to check ledger dimensions</span></span>
+
+<span data-ttu-id="a3754-147">Dans le code, le compte de validation est déterminé par la dimension comptable.</span><span class="sxs-lookup"><span data-stu-id="a3754-147">In the code, the posting account is determined by the ledger dimension.</span></span> <span data-ttu-id="a3754-148">La dimension comptable enregistre l'ID d'enregistrement d'un compte dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="a3754-148">The ledger dimension saves the record ID of an account in the database.</span></span>
+
+1. <span data-ttu-id="a3754-149">Pour une commande client, ajoutez un point d'arrêt aux méthodes **Tax::saveAndPost()** et **Tax::post()**.</span><span class="sxs-lookup"><span data-stu-id="a3754-149">For a sales order, add a breakpoint at the **Tax::saveAndPost()** and **Tax::post()** methods.</span></span> <span data-ttu-id="a3754-150">Faites attention à la valeur **\_ledgerDimension**.</span><span class="sxs-lookup"><span data-stu-id="a3754-150">Pay attention to the value of **\_ledgerDimension**.</span></span>
+
+    <span data-ttu-id="a3754-151">[![Exemple de code de commande client ayant un point d'arrêt](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-151">[![Sales order code sample that has a breakpoint](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)</span></span>
+
+    <span data-ttu-id="a3754-152">Pour un bon de commande, ajoutez un point d'arrêt aux méthodes **TaxPost::saveAndPost()** et **TaxPost::postToTaxTrans()**.</span><span class="sxs-lookup"><span data-stu-id="a3754-152">For a purchase order, add a breakpoint at the **TaxPost::saveAndPost()** and **TaxPost::postToTaxTrans()** methods.</span></span> <span data-ttu-id="a3754-153">Faites attention à la valeur **\_ledgerDimension**.</span><span class="sxs-lookup"><span data-stu-id="a3754-153">Pay attention to the value of **\_ledgerDimension**.</span></span>
+
+    <span data-ttu-id="a3754-154">[![Exemple de code de commande fournisseur ayant un point d'arrêt](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-154">[![Purchase order code sample that has a breakpoint](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)</span></span>
+
+2. <span data-ttu-id="a3754-155">Exécutez la requête SQL suivante pour rechercher la valeur d'affichage du compte dans la base de données, en fonction de l'ID d'enregistrement enregistré par la dimension comptable.</span><span class="sxs-lookup"><span data-stu-id="a3754-155">Run the following SQL query to find the display value of the account in the database, based on the record ID that is saved by the ledger dimension.</span></span>
+
+    ```sql
+    select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
+    ```
+
+    <span data-ttu-id="a3754-156">[![Afficher la valeur de l'ID d'enregistrement](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)</span><span class="sxs-lookup"><span data-stu-id="a3754-156">[![Display value of the record ID](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)</span></span>
+
+3. <span data-ttu-id="a3754-157">Examinez la pile d'appels pour trouver où la valeur **_ledgerDimension** est attribuée.</span><span class="sxs-lookup"><span data-stu-id="a3754-157">Examine the callstack to find where the **_ledgerDimension** value is assigned.</span></span> <span data-ttu-id="a3754-158">Habituellement, la valeur provient de **TmpTaxWorkTrans**.</span><span class="sxs-lookup"><span data-stu-id="a3754-158">Usually, the value is from **TmpTaxWorkTrans**.</span></span> <span data-ttu-id="a3754-159">Dans ce cas, vous devez ajouter un point d'arrêt à **TmpTaxWorkTrans::insert()** et **TmpTaxWorkTrans::update()** pour trouver où la valeur est attribuée.</span><span class="sxs-lookup"><span data-stu-id="a3754-159">In this case, you should add a breakpoint at **TmpTaxWorkTrans::insert()** and **TmpTaxWorkTrans::update()** to find where the value assigned.</span></span>
+
+## <a name="determine-whether-customization-exists"></a><span data-ttu-id="a3754-160">Déterminer si la personnalisation existe</span><span class="sxs-lookup"><span data-stu-id="a3754-160">Determine whether customization exists</span></span>
+
+<span data-ttu-id="a3754-161">Si vous avez terminé les étapes des sections précédentes mais que vous n'avez trouvé aucun problème, déterminez s'il existe une personnalisation.</span><span class="sxs-lookup"><span data-stu-id="a3754-161">If you've completed the steps in the previous sections but have found no issue, determine whether customization exists.</span></span> <span data-ttu-id="a3754-162">Si aucune personnalisation n'existe, créez une demande de service Microsoft pour une assistance supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="a3754-162">If no customization exists, create a Microsoft service request for further support.</span></span>
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
