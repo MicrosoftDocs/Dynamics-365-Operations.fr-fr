@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 2d1f8ed9def03afc97c0b4c5ea86430ff089aac6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cef7abbbf2a94e26b6b9e66492cd7347d3b4d1f2
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819230"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920059"
 ---
 # <a name="rebate-management-groups"></a>Groupes de gestion des remises
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Les calculs de remise et de déduction peuvent être déterminés par des groupes. Il est possible de créer des groupes de gestion des remises pour les clients, les fournisseurs et les articles. Ils peuvent être joints à un enregistrement principal.
 
@@ -46,7 +45,7 @@ Pour utiliser les groupes de clients pour la gestion des remises, accédez à **
 
 Chaque client peut appartenir à n’importe quel nombre de groupes de gestion des remises. Pour afficher et affecter les membres du groupe, vous pouvez partir de la liste des groupes ou de la liste des clients.
 
-Pour afficher, ajouter ou supprimer des clients d’un groupe sélectionné, procédez comme suit.
+Pour afficher, ajouter ou supprimer des clients d’un groupe sélectionné, procédez comme suit :
 
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes de clients**.
 1. Sélectionnez le groupe à gérer.
@@ -58,7 +57,7 @@ Pour afficher, ajouter ou supprimer des clients d’un groupe sélectionné, pro
 
 1. Pour supprimer un client du groupe, sélectionnez le client, puis sélectionnez **Supprimer** dans le volet Actions.
 
-Pour afficher, ajouter ou supprimer des affectations de groupe pour un client sélectionné, procédez comme suit.
+Pour afficher, ajouter ou supprimer des affectations de groupe pour un client sélectionné, procédez comme suit :
 
 1. Allez dans **Comptabilité client \> Clients \> Tous les clients**.
 1. Sélectionnez le client concerné.
@@ -85,7 +84,7 @@ Pour utiliser les groupes de fournisseurs pour la gestion des remises, accédez 
 
 Chaque fournisseur peut appartenir à n’importe quel nombre de groupes de gestion des remises. Pour afficher et affecter les membres du groupe, vous pouvez partir de la liste des groupes ou de la liste des fournisseurs.
 
-Pour afficher, ajouter ou supprimer des fournisseurs d’un groupe sélectionné, procédez comme suit.
+Pour afficher, ajouter ou supprimer des fournisseurs d’un groupe sélectionné, procédez comme suit :
 
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes de fournisseurs**.
 1. Sélectionnez le groupe à gérer.
@@ -97,7 +96,7 @@ Pour afficher, ajouter ou supprimer des fournisseurs d’un groupe sélectionné
 
 1. Pour supprimer un fournisseur du groupe, sélectionnez le fournisseur, puis sélectionnez **Supprimer** dans le volet Actions.
 
-Pour afficher, ajouter ou supprimer des affectations de groupe pour un fournisseur sélectionné, procédez comme suit.
+Pour afficher, ajouter ou supprimer des affectations de groupe pour un fournisseur sélectionné, procédez comme suit :
 
 1. Accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**.
 1. Sélectionnez le fournisseur concerné.
@@ -124,7 +123,7 @@ Pour utiliser les groupes d’articles pour la gestion des remises, accédez à 
 
 Chaque article peut appartenir à n’importe quel nombre de groupes de gestion des remises. Pour afficher et affecter les membres du groupe, vous pouvez partir de la liste des groupes ou de la liste des articles. Vous pouvez également ajouter des articles en fonction de votre hiérarchie de catégories.
 
-Pour afficher, ajouter ou supprimer des articles d’un groupe sélectionné, procédez comme suit.
+Pour afficher, ajouter ou supprimer des articles d’un groupe sélectionné, procédez comme suit :
 
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes d’articles**.
 1. Sélectionnez le groupe à gérer.
@@ -136,7 +135,7 @@ Pour afficher, ajouter ou supprimer des articles d’un groupe sélectionné, pr
 
 1. Pour supprimer un article du groupe, sélectionnez l’article, puis sélectionnez **Supprimer** dans le volet Actions.
 
-Pour afficher, ajouter ou supprimer des affectations de groupe pour un article sélectionné, procédez comme suit.
+Pour afficher, ajouter ou supprimer des affectations de groupe pour un article sélectionné, procédez comme suit :
 
 1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
 1. Sélectionnez l’article concerné.
@@ -148,7 +147,7 @@ Pour afficher, ajouter ou supprimer des affectations de groupe pour un article s
 
 1. Pour supprimer un article d’un groupe, sélectionnez le groupe, puis sélectionnez **Supprimer** dans le volet Actions.
 
-Pour ajouter des articles à un groupe en fonction de votre hiérarchie de catégories, procédez comme suit.
+Pour ajouter des articles à un groupe en fonction de votre hiérarchie de catégories, procédez comme suit :
 
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes d’articles**.
 1. Sélectionnez le groupe à gérer.
