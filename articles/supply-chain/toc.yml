@@ -361,13 +361,11 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Vue des actifs
                   href: asset-management/objects/object-view.md
-                - name: Vue d’ensemble des attributs des actifs
+                - name: Vue d’ensemble des attributs d’actif
                   href: asset-management/objects/object-specification-overview.md
             - name: Paramétrage des demandes de maintenance
               items:
-                - name: Demandes de maintenance
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: États du cycle de vie de la demande de maintenance
+                - name: États du cycle de vie des demandes de maintenance
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Types de demandes de maintenance
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Résolution des problèmes
           items:
+            - name: Gestion des coûts
+              items:
+                - name: Paramètres de champ manquants lors de la copie de groupes de modèles d’articles dans une autre entité juridique
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: "Le rapport «\_Coûts indirects en cours\_» inclut les ordres de fabrication supprimés"
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Comptabilisation des achats imputée avec un montant zéro pour l’accusé de réception de marchandises de valeur nulle
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Les commandes fournisseur reçues physiquement n’apparaissent pas dans le rapport de clôture des stocks
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Il n’y a pas de date de début dans l’onglet Prix actifs de la page Prix de l’article
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Gestion des stocks
+              items:
+                - name: "Plusieurs mouvements de stock pour les numéros de lot n’ont pas de «\_Mise à jour physique\_»"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: La contrepassation d’une déclaration de fin crée une transaction ouverte inattendue
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Impossible d’afficher les nouvelles notes attachées à un journal dans le rapport de la liste de prélèvement
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: La quantité d’un ordre de contrôle commencé ne se met pas à jour lorsque la commande est fractionnée
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: "Le champ «\_Dernière date testée\_» n’est pas mis à jour lors de la création de plusieurs ordres de qualité"
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: 'Lors du fractionnement d’une quantité de poids variable, la quantité minimale est utilisée au lieu de la quantité nominale'
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Planification
+              items:
+                - name: Les commandes confirmées directement dérivées sont traitées par un flux de travail en cours de révision
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: La planification génère des commandes planifiées pour les produits fantômes
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Commande fournisseur prévisionnelle créée en cas d’achat au cours des jours négatifs
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Impossible de télécharger le prix de revient dans les écritures de prévision de la demande
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Impossible de supprimer la dimension de prévision de la demande d’entrepôt à partir des lignes de prévision
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Approvisionnement
+              items:
+                - name: Impossible de facturer une commande client auprès de la société VEL
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Impossible d’ajouter une ligne à une demande d’achat après avoir demandé une modification
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Gestion des informations sur les produits
+              items:
+                - name: Impossible d’appliquer un modèle pour créer un produit lancé
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Impossible d’importer un article à l’aide de l’entité Produits lancés V2
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: Les commandes fournisseur n’affichent pas le texte du produit traduit
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Contrôle de la production
+              items:
+                - name: Les paramètres de principe de rinçage sur les lignes de nomenclature ne sont pas respectés
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Le numéro de lot est effacé lors de la sélection d’un nouvel ID de lot
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: Sélection tardive non respectée lors de la réinitialisation des ordres de fabrication via un traitement par lots
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: Les utilisateurs peuvent annuler le prélèvement des lignes de matériaux pour les produits qui ont été déclarés comme terminés
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Erreur lors de la validation du rapport en tant que journal terminé
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: L’entrepôt du journal de la liste de prélèvement n’est pas mis à jour sur une ligne de nomenclature
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Gestion des remises
+              items:
+                - name: Échec du cumul des remises client à l’aide de groupes de remises d’articles
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Ventes et marketing
+              items:
+                - name: Les administrateurs système ne peuvent pas effacer les commandes en attente car ils n’y sont pas autorisés
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Gestion du transport
+              items:
+                - name: Vous ne pouvez ajouter le compte principal comme compte de crédit que pour un rapprochement
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gestion des entrepôts
               items:
+                - name: Une erreur se produit lors du choix de l’emplacement lors de l’enregistrement de la liste de prélèvement
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: La station de conditionnement n’affiche pas les notes de produit
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'Le profil d’emplacement n’autorise pas d’inventaire négatif, mais le stock négatif est autorisé'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Une seule étiquette s’imprime pour plusieurs en-têtes de tâche sur un seul justificatif
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Vous ne pouvez pas confirmer une expédition en raison d’un problème avec le calendrier
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Vous ne pouvez pas confirmer une expédition en raison d’un travail incomplet ou manquant
