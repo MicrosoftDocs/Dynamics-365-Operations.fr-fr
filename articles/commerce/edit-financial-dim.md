@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 381d8bb0939f6c4c163477990e49382201487375
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792703"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019905"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Modifier les dimensions financières des transactions de vente au détail
 
@@ -34,7 +34,7 @@ Pour modifier les dimensions financières des transactions de vente au détail d
 
 1. Ouvrez la page **Configuration de dimension financière pour les applications d’intégration**.
 1. Sélectionnez l’enregistrement **Intégration des dimensions par défaut** actif.
-1. Dans le raccourci **Dimensions financières**, assurez-vous que toutes les dimensions que vous souhaitez modifier dans la feuille de calcul Excel sont présentes dans la liste **Sélectionné**. Pour plus d’informations, consultez [Entités de données](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities).
+1. Dans le raccourci **Dimensions financières**, assurez-vous que toutes les dimensions que vous souhaitez modifier dans la feuille de calcul Excel sont présentes dans la liste **Sélectionné**. Pour plus d’informations, consultez [Entités de données](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities).
 1. Téléchargez et ouvrez le fichier Excel à partir de la page **Relevés**, de la page **Transactions de vente au détail** ou de la vignette **Échecs de validation de transaction** dans l’espace de travail **Finances du magasin**.
 1. Pour modifier la dimension financière de la transaction, sélectionnez **Design**, puis sélectionnez le symbole du crayon en regard de la ligne **Transaction (vérifiable)**.
 1. Trouvez et sélectionnez le champ **FinancialDimensionDisplayValue**, sélectionnez une cellule dans l’en-tête de la feuille de calcul Excel, puis sélectionnez **Ajouter une étiquette**.

@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Améliorations de la gestion des disponibilités
                       href: cash-mgmt.md
-                    - name: Recherche de stock dans le PDV
-                      href: product-variants-POS.md
                     - name: Interrompre et reprendre des transactions dans le PDV
                       href: pos-suspend-recall-transactions.md
                     - name: Fonctionnalité de PDV hors connexion
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Calculer la disponibilité des stocks pour les canaux de vente au détail
                       href: calculated-inventory-retail-channels.md
+                    - name: Opération de recherche de stock dans le PDV
+                      href: pos-inventory-lookup-operation.md
                 - name: Commandes fournisseur
                   items:
                     - name: Vue d’ensemble des commandes fournisseur
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: Créer un projet de package d’extension PDV
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Créer un fichier appx d’extension Modern POS
+                    - name: Créer un fichier .appx pour un package d’extension Modern POS
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Déboguer une extension PDV
+                    - name: Déboguer des extensions PDV
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Conditionnement et déploiement d’extension
+                      items:
+                        - name: Créer un package d’extension Modern POS
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Signature de code d’un package d’extension Modern POS (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Créer un package d’extension PDV Cloud
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Migrer une extension PDV vers le modèle de conditionnement indépendant
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Guide de développement de l’extension PDV
+                      items:
+                        - name: Principes de base de l’extension PDV
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Créer une vue personnalisée dans le PDV
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Utiliser les contrôles de PDV dans les extensions
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Tâches
+                          items:
+                            - name: Utiliser Knockout.js dans les extensions PDV
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Consommer des API Commerce sans affichage personnalisées
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Extensibilité de Hardware Station
               items:
                 - name: "Hardware\_Station et extensibilité"
