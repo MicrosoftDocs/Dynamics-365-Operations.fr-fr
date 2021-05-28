@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920953"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021367"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Prise en charge de la fonction de taxe pour les ordres de transfert
 
@@ -41,7 +40,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
 
 1. Sur la page **Fonctionnalité de taxe**, sur l’onglet **Versions**, sélectionnez la version provisoire de la fonctionnalité, puis sélectionnez **Modifier**.
 
-    ![Sélection de Modifier](../media/image1.png)
+    ![Sélection de Modifier](../media/tax-feature-support-01.png)
 
 2. Sur la page **Configuration des fonctionnalités de taxe**, sur l’onglet **Codes taxe**, sélectionnez **Ajouter** pour créer de nouveaux codes taxe. Pour cet exemple, trois codes taxe sont créés : **NL-Exempt**, **BE-RC-21** et **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         4. Sélectionnez **Ajouter** dans la table **Taux**.
         5. Faites basculer l’option **Est exonéré** sur **Oui** dans la section **Général**.
 
-        ![Code taxe NL-Exempt](../media/image2.png)
+        ![Code taxe NL-Exempt](../media/tax-feature-support-02.png)
 
     - Lorsqu’un ordre de transfert est reçu dans un entrepôt de Belgique, le mécanisme de taxe au preneur est appliqué en utilisant les codes taxe **BE-RC-21** et **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         6. Faites basculer l’option **Est une taxe au preneur** sur **Oui** dans la section **Général**.
         7. Sélectionnez **Enregistrer**.
 
-        ![Code taxe BE-RC-21 pour les taxes au preneur](../media/image3.png)
+        ![Code taxe BE-RC-21 pour les taxes au preneur](../media/tax-feature-support-03.png)
         
         Créez le code taxe **BE-RC+21**.
         1. Sélectionnez **Ajouter**, entrez **BE-RC-21** dans le champ **Code taxe**.
@@ -77,7 +76,7 @@ Suivez ces étapes pour configurer la taxe impliquée dans un ordre de transfert
         5. Entrez **21** dans le champ **Taux de taxe**.
         6. Sélectionnez **Enregistrer**.
 
-        ![Code taxe BE-RC+21 pour les taxes au preneur](../media/image4.png)
+        ![Code taxe BE-RC+21 pour les taxes au preneur](../media/tax-feature-support-04.png)
 
 3. Définissez l’applicabilité des codes taxe.
 

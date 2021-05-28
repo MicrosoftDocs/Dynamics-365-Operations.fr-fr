@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795643"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022729"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Opération de stock sortant dans le PDV
 
@@ -71,7 +71,7 @@ Les traitements par lots que vous créez seront utilisés pour traiter les docum
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Condition préalable : ajouter une opération sortante à la mise en page de l’écran du PDV
 
-Avant que votre organisation puisse utiliser la fonctionnalité Opération sortante, elle doit configurer l’opération PDV **Opération sortante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
+Avant que votre organisation puisse utiliser la fonctionnalité Opération sortante, elle doit configurer l’opération PDV **Opération sortante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
 
 ## <a name="overview"></a>Vue d’ensemble
 

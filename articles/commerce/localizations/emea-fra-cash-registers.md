@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
 ms.dyn365.ops.version: 7.3.2
-ms.openlocfilehash: bb92dd807dcd4d58994ffe14b2e3988cbafea46f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 02231210d2300e9a43cd06e4cc3301b8a0da7dfe
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798811"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020279"
 ---
 # <a name="cash-register-functionality-for-france"></a>Fonctionnalité de caisse enregistreuse pour la France
 
@@ -191,7 +191,7 @@ Un journal clôturé est numériquement signé. Vous pouvez afficher la signatur
 
 Une archive est un fichier XML qui peut être exporté depuis un journal du total général de la période qui a été clôturé. Elle comprend les totaux de la période clôturée, et des données détaillées sur les transactions de vente et les événements. Le fichier exporté est numériquement signé, et la signature est contenue dans un fichier distinct.
 
-Le format de l’archive est implémenté à l’aide de la [gestion des états électroniques (ER)](../../dev-itpro/analytics/general-electronic-reporting.md).
+Le format de l’archive est implémenté à l’aide de la [gestion des états électroniques (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="setting-up-commerce-for-france"></a>Configuration de Commerce pour la France
 
@@ -215,7 +215,7 @@ Vous devez apporter les modifications suivantes dans la page **Entités juridiqu
 ### <a name="set-up-vat-per-french-requirements"></a>Paramétrer la TVA selon les exigences de la France
 
 
-Vous devez créer des codes de taxe, des groupes de taxe et des groupes de taxe d’article. Vous devez également paramétrer les informations de taxe pour les produits et services. Pour plus d’informations sur le paramétrage et l’utilisation de la taxe, voir [Vue d’ensemble des taxes](../../financials/general-ledger/indirect-taxes-overview.md).
+Vous devez créer des codes de taxe, des groupes de taxe et des groupes de taxe d’article. Vous devez également paramétrer les informations de taxe pour les produits et services. Pour plus d’informations sur le paramétrage et l’utilisation de la taxe, voir [Vue d’ensemble des taxes](../../finance/general-ledger/indirect-taxes-overview.md).
 
 
 Vous devez également spécifier des groupes de taxe et activer l’option **Prix, taxe incluse** pour les magasins situés en France.
@@ -313,7 +313,7 @@ Pour signer numériquement les journaux du total général de la période et les
 - Le certificat doit être téléchargé vers le stockage du coffre de clés.
 - L’application Serveur d’objets d’application (AOS) doit être autorisée pour lire les secrets du stockage du coffre de clés.
 
-Pour plus d’informations sur l’utilisation du coffre de clés, voir [Prise en main d’Azure KeyVault](https://docs.microsoft.com/azure/key-vault/key-vault-get-started).
+Pour plus d’informations sur l’utilisation du coffre de clés, voir [Prise en main d’Azure KeyVault](/azure/key-vault/key-vault-get-started).
 
 Puis, sur la page **Paramètres du coffre de clés**, vous devez spécifier les paramètres d’accès au stockage du coffre de clés :
 
@@ -331,7 +331,7 @@ Enfin, dans la page **Paramètres Commerce**, vous devez spécifier les paramèt
 
 ### <a name="configure-the-archive-export-format"></a>Configurez le format d’exportation d’archive
 
-Vous pouvez charger la configuration ER pour l’archive de Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir [Importer les configurations de génération d’états électroniques](../../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Vous devez télécharger les versions suivantes, ou les versions ultérieures, des configurations :
+Vous pouvez charger la configuration ER pour l’archive de Microsoft Dynamics Lifecycle Services (LCS). Pour plus d’informations, voir [Importer les configurations de génération d’états électroniques](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Vous devez télécharger les versions suivantes, ou les versions ultérieures, des configurations :
 
 - Modèle données **Canal de vente au détail data.version.2**
 - Mise en correspondance de modèle de données **Archivage DMM.version.2.3**

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835098"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027478"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Règlement d’un paiement client partiel avec plusieurs périodes de remise
 
@@ -31,7 +31,7 @@ Cet article décrit la manière dont les paiements client partiels sont réglés
 Fabrikam propose à son client 4031 deux périodes d’escompte de règlement. Le client bénéficie d’un escompte de règlement de 2 % si la facture est payée dans les cinq jours et d’un escompte de règlement de 1 % si la facture est payée dans les 14 jours. Fabrikam propose également des escomptes de règlement sur des paiements partiels. Les paramètres de règlement se trouvent dans la page **Paramètres de la comptabilité client**.
 
 ## <a name="invoice"></a>Facture
-Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4031. Lorsqu’il vérifie les escomptes de règlement pour la facture, il constate que le client 4031 reçoit une remise de 20,00 % si la facture est payée avant le 30 juin. Si la facture est payée avant le 9 juillet, le client reçoit une remise de 10,00 %.
+Le 25 juin, Arnie entre et valide une facture de 1 000,00 pour le client 4031. Lorsque Arnie vérifie les escomptes de règlement pour la facture, il constate que le client 4031 reçoit une remise de 20,00 % si la facture est payée avant le 30 juin. Si la facture est payée avant le 9 juillet, le client reçoit une remise de 10,00 %.
 
 | Date d’escompte de règlement | Montant de l’escompte de règlement | Montant dans la devise de transaction |
 |--------------------|----------------------|--------------------------------|

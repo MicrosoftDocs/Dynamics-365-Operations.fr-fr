@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791052"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018604"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Calculer au prorata les frais d’en-tête par rapport aux lignes de vente correspondantes
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791052"
 
 Cette rubrique décrit la fonctionnalité visant à regrouper les frais automatiques au niveau de l’en-tête et à les calculer au prorata par rapport aux lignes de commerce. Cette fonctionnalité est disponible pour les transactions créées au point de vente (PDV) dans la version 10.0.1 de Retail et les ventes créées dans un centre d’appels dans la version 10.0.2 de Retail.
 
-Cette fonctionnalité n’est disponible que si la fonctionnalité [Frais automatiques avancés](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) est activée à l’aide de l’option sur la page **Paramètres de commerce**. En outre, le mode de calcul amélioré pour les frais automatiques peut s’appliquer uniquement aux commandes client créées par les canaux de commerce (le PDV, un centre d’appels et la plateforme de commerce électronique Dynamics).
+Cette fonctionnalité n’est disponible que si la fonctionnalité [Frais automatiques avancés](/dynamics365/unified-operations/retail/omni-auto-charges) est activée à l’aide de l’option sur la page **Paramètres de commerce**. En outre, le mode de calcul amélioré pour les frais automatiques peut s’appliquer uniquement aux commandes client créées par les canaux de commerce (le PDV, un centre d’appels et la plateforme de commerce électronique Dynamics).
 
 Cette nouvelle fonctionnalité offre plus de souplesse aux organisations en matière de calcul des frais automatiques au niveau de l’en-tête et d’application aux transactions de vente.
 
@@ -38,7 +38,7 @@ Dans les versions de l’application antérieures à la version 10.0.1, les fra
 
 Par exemple, les frais automatiques au niveau de l’en-tête sont définis pour le mode de livraison **99** et le mode de livraison **11**. Une commande client est créée, et le mode de livraison **99** est défini sur l’en-tête de la commande. Toutefois, certaines des lignes de vente sont paramétrées pour une expédition via le mode de livraison **11**. Dans ce cas, seuls les frais au niveau de l’en-tête liés au mode de livraison **99** sont pris en compte et appliqués à la commande client.
 
-Dans Commerce, les frais au niveau de l’en-tête ont une fonctionnalité supplémentaire qui permet de définir une [configuration des frais progressifs](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) basée sur la valeur de la commande. Par exemple, si la valeur de la commande figure entre 50 USD et 200 USD, une organisation peut facturer des frais de transport de 5 USD. Toutefois, si la valeur de la commande est située entre 200,01 USD et 500 USD, les frais de transport peuvent s’élever à 4 USD.
+Dans Commerce, les frais au niveau de l’en-tête ont une fonctionnalité supplémentaire qui permet de définir une [configuration des frais progressifs](/dynamics365/unified-operations/retail/configure-call-center-delivery) basée sur la valeur de la commande. Par exemple, si la valeur de la commande figure entre 50 USD et 200 USD, une organisation peut facturer des frais de transport de 5 USD. Toutefois, si la valeur de la commande est située entre 200,01 USD et 500 USD, les frais de transport peuvent s’élever à 4 USD.
 
 Certaines organisations souhaitent bénéficier des avantages du calcul des frais progressifs inclus avec les frais au niveau de l’en-tête. Toutefois, dans les scénarios qui impliquent des modes de livraison mixtes, elles souhaitent également veiller à ce que les frais calculés soient basés sur une correspondance avec le mode de livraison définie sur chaque ligne de vente.
 
@@ -72,7 +72,7 @@ Une commande client est créée dans le centre d’appels, et le mode de livrais
 
 Dans ce scénario, la commande toute entière est évaluée par rapport au tableau des frais automatiques pour le mode de livraison **99**. Le montant total de l’intégralité des lignes de vente est utilisé pour déterminer un niveau correspondant dans la configuration des frais automatiques, et ces frais sont appliqués au niveau de l’en-tête de la commande. Dans cet exemple, le total de la commande s’élève à 165 USD et des frais de transport de 15 USD sont appliqués à l’en-tête de la commande. Les frais automatiques pour le mode de livraison **11** ne sont jamais référencés ou appliqués.
 
-Dans ce scénario, si un client renvoie certains articles de la commande, et si le [code des frais a été configuré de manière à ce qu’ils soient remboursés](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), le total des frais au niveau de l’en-tête est systématiquement appliqué au remboursement, même si seuls certains articles sont renvoyés.
+Dans ce scénario, si un client renvoie certains articles de la commande, et si le [code des frais a été configuré de manière à ce qu’ils soient remboursés](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), le total des frais au niveau de l’en-tête est systématiquement appliqué au remboursement, même si seuls certains articles sont renvoyés.
 
 ### <a name="scenario-2"></a>Scénario 2
 

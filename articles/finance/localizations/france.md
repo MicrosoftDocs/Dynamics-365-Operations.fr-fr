@@ -13,12 +13,12 @@ ms.search.region: France
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4668095f611065b07e61f6c85a7f5b16cbefb21
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 9168f36dd5a3ee8bd797fd731338e0b67a15de71
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894662"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016171"
 ---
 # <a name="france-overview"></a>Vue d’ensemble de la France
 
@@ -39,7 +39,7 @@ Cette rubrique inclut des informations et des liens vers des ressources qui peuv
 - [Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance](tasks/fr-00018-daily-interest.md)
 - [Amortissement dérogatoire](emea-fra-derogatory-depreciation.md)
 - [Lettres de change et billets à ordre français](tasks/fr-00004-french-bills-exchange-promissory-notes.md)
-- [Génération du fichier d’audit standard pour la France (FEC)](emea-fra-fec-audit-file.md)
+- [Présentation du fichier d'audit pour la France (FEC)](emea-fra-fec-audit-file.md)
 - [Codes NAF et numéros Siret](emea-fra-naf-codes-siret-numbers.md)
 - [Paramétrer des codes NAF et numéros SIRET](tasks/fr-00003-naf-codes-siret-numbers.md)
 - [Pénalités pour les paiements client en retard](emea-fra-apply-penalty-customer-payment-past-due.md)

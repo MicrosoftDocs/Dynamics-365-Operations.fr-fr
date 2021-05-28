@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d6fa36d7bb45e1cd9f8c3fbc1e60ac521f1f9b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795451"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028249"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestion d’équipe et de tiroir-caisse
 
@@ -45,7 +45,7 @@ Traditionnellement, ce scénario a été utilisé le plus souvent. Il est toujou
 
 Dans une équipe « tiroir-caisse flottant », l’équipe et le tiroir-caisse peuvent être déplacés d’une caisse enregistreuse à une autre. Bien qu’une caisse enregistreuse ne puisse avoir qu’une seule équipe active par tiroir-caisse, les équipes peuvent être suspendues puis reprises ultérieurement ou sur une autre caisse enregistreuse.
 
-Par exemple, un magasin a deux caisses enregistreuses. Chaque caisse enregistreuse est ouverte au début de la journée lorsque le caissier ouvre une nouvelle équipe et indique le montant de départ. Lorsqu’un caissier est prêt à faire une pause, il suspend son équipe et retire le tiroir-caisse de la caisse enregistreuse. Cette caisse enregistreuse devient alors disponible pour d’autres caissiers. Un autre caissier peut se connecter et ouvrir sa propre équipe sur la caisse enregistreuse. Une fois que la pause du premier caissier est terminée, il peut reprendre son équipe lorsque l’une des autres caisses enregistreuses devient disponible. Les équipes « tiroir-caisse flottante » ne nécessitent pas de configuration ou d’autorisation spéciale.
+Par exemple, un magasin a deux caisses enregistreuses. Chaque caisse enregistreuse est ouverte au début de la journée lorsque le caissier ouvre une nouvelle équipe et indique le montant de départ. Lorsqu’un caissier est prêt à faire une pause, il suspend son équipe et retire son tiroir-caisse de la caisse enregistreuse. Cette caisse enregistreuse devient alors disponible pour d’autres caissiers. Un autre caissier peut se connecter et ouvrir sa propre équipe sur la caisse enregistreuse. Une fois que la pause du premier caissier est terminée, il peut reprendre son équipe lorsque l’une des autres caisses enregistreuses devient disponible. Les équipes « tiroir-caisse flottante » ne nécessitent pas de configuration ou d’autorisation spéciale.
 
 ### <a name="single-user"></a>Utilisateur unique
 
@@ -86,7 +86,7 @@ Les *entrées de fond de caisse* sont des transactions hors ventes qui sont effe
 
 Les *vidages de caisse* sont des transactions hors ventes qui sont effectuées au cours d’une équipe active et qui diminuent le montant des disponibilités dans le tiroir-caisse. Cette opération est le plus souvent utilisée conjointement à une opération d’entrée de fond de caisse dans une équipe différente. Par exemple, comme la caisse enregistreuse 1 manque de fonds, l’utilisateur de la caisse enregistreuse 2 effectue un vidage de caisse pour réduire le montant de son tiroir-caisse. L’utilisateur de la caisse enregistreuse 1 effectue ensuite une entrée de fond de caisse pour augmenter le montant de son tiroir-caisse.
 
-### <a name="suspend-shift"></a>Suspendre l’équipe de travail
+### <a name="suspend-shift"></a>Suspendre l'équipe de travail
 
 Les utilisateurs peuvent interrompre leur équipe active pour libérer la caisse enregistreuse actuelle pour un autre utilisateur, ou pour déplacer leur équipe vers une autre caisse enregistreuse (dans ce cas, l’équipe est souvent appelée une équipe « tiroir-caisse flottant »).
 
@@ -154,7 +154,7 @@ Accédez à **Retail et Commerce \> Canaux \> Magasins \> Tous les magasins \> R
 
 Ce paramétrage permet de garantir que les relevés de l’arrière-guichet incluent les mêmes transactions que les équipes du POS, et que les données sont résumées en fonction de cette équipe.
 
-Pour plus d’informations sur les méthodes de relevé et de clôture, voir [Enregistrer les configurations pour les relevés de vente au détail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+Pour plus d’informations sur les méthodes de relevé et de clôture, voir [Enregistrer les configurations pour les relevés de vente au détail](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944411"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980947"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -58,7 +58,10 @@ Les unités d’échelle possèdent les données suivantes :
   - **Ordres de transfert** (uniquement sortants avec tâches de prélèvement et de chargement simples)
 
 - **Données de réception de commande d’entrepôt** – Ces données ne sont utilisées que pour les commandes fournisseur qui ont été lancées manuellement dans un entrepôt.
-- **Données de contenant** – Des contenants peuvent être créés sur le hub et l’unité de mise à l’échelle. Une gestion des conflits dédiée a été fournie. Notez que ces données ne sont pas spécifiques à l’entrepôt.
+- **Données de contenant** – Des contenants peuvent être créés à la fois sur le hub et sur les unités de mise à l’échelle. Une gestion des conflits dédiée est fournie. 
+
+    > [!IMPORTANT]
+    > Les données de contenants ne sont pas spécifiques à l’entrepôt. Si le même numéro de contenant est créé à la fois sur le concentrateur et sur une balance au cours du même cycle de synchronisation, la synchronisation suivante échouera. Si cela se produit, accédez à **Administration système > Demandes de renseignements > Demandes de charge de travail > Enregistrements en double**, où vous pouvez afficher et fusionner les données.
 
 ## <a name="outbound-process-flow"></a>Flux des processus sortants
 

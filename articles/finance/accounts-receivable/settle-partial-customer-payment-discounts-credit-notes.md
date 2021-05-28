@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e785d591c25669d90c91ca1b676388522da3da36
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1296dc994e43d75fd9b834acf345134494b4810
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835170"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027502"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Régler un paiement partiel client ayant des remises sur les avoirs
 
@@ -39,7 +39,7 @@ Le client 4035 a une facture de 1 000,00 et un avoir de 100,00. Pour chaque docu
 | CCRN-10050 | Avoir      | 6/28/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Régler un avoir avec une facture
-Dans la page **Transactions client**, Arnie ouvre la page **Régler les transactions**. Il peut utiliser la page **Régler les transactions** pour régler la facture et l’avoir. Dans le cadre du processus de règlement, il affiche les dates et les montants d’escompte de règlement. Il marque les deux documents, puis clique sur **Valider** pour régler les transactions. Il y a une remise de -1,00 sur l’avoir, car Fabrikam autorise les remises sur les avoirs.
+Dans la page **Transactions client**, Arnie ouvre la page **Régler les transactions**. Arnie peut utiliser la page **Régler les transactions** pour régler la facture et l’avoir. Dans le cadre du processus de règlement, Arnie affiche les dates et les montants d’escompte de règlement. Arnie marque les deux documents, puis clique sur **Valider** pour régler les transactions. Il y a une remise de -1,00 sur l’avoir, car Fabrikam autorise les remises sur les avoirs.
 
 | Marquer     | Utiliser un escompte de règlement | N° document    | Compte | Date      | Date d’échéance  | Facture  | Montant dans la devise de transaction | Devise | Montant à régler |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|

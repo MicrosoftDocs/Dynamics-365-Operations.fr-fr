@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961703"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015899"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planification avec accords commerciaux d’achat
 
@@ -67,7 +67,7 @@ Une fois votre système préparé comme décrit dans la section précédente, vo
 1. Répétez cette procédure pour chaque produit concerné.
 
 > [!NOTE]
-> L’optimisation de la planification prend en charge les accords commerciaux d’achat dans plusieurs devises. Lors de la recherche d'un accord commercial à l'aide de l'option **Prix unitaire minimal**, le système tiendra compte des lignes de l’accord commercial d’achat avec des devises différentes à condition qu'un taux de change ait été défini entre la devise de la ligne d'accord commercial et la devise comptable de l'entité juridique. Sinon, la ligne de l'accord commercial sera ignorée et vous verrez une erreur lors de la planification générale. Par conséquent, la planification générale comprendra les informations de toutes les lignes de l'accord commercial d'achat pertinentes où les prix peuvent être convertis dans la devise comptable.
+> L’optimisation de la planification prend en charge les accords commerciaux d’achat dans plusieurs devises. Lors de la recherche d'un accord commercial à l'aide de l'option **Prix unitaire minimal**, le système tiendra compte des lignes de l’accord commercial d’achat avec des devises différentes à condition qu'un taux de change ait été défini entre la devise de la ligne d'accord commercial et la devise comptable de l'entité juridique. Sinon, la ligne de l'accord commercial sera ignorée et vous verrez une erreur lors de la planification générale. Par conséquent, la planification générale comprendra les informations de toutes les lignes de l'accord commercial d'achat pertinentes où les prix peuvent être convertis dans la devise comptable. Il est important de noter que les règles d'arrondi ne seront pas prises en compte lors de la conversion des prix de ligne de l'accord commercial.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Exemples de la façon dont l’optimisation de la planification trouve le fournisseur et les délais
 

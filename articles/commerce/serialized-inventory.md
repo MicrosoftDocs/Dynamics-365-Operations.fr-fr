@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794016"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028153"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Améliorations apportées aux point de vente (PDV) pour les produits sérialisés
 
@@ -30,7 +30,7 @@ En fonction des paramètres de Commerce Headquarters, les produits peuvent être
 
 ## <a name="pos-improvements"></a>Améliorations apportées aux PDV
 
-- **Les numéros de série ne sont pas obligatoires avant l’extraction** – Auparavant, un caissier qui ajoutait un produit sérialisé à la transaction devait fournir un numéro de série. Cette exigence est devenue un problème dans les scénarios de clientélisme, si les caissiers et les vendeurs ont eu la possibilité de vendre des produits. Jusqu’à l’étape du paiement, les produits étaient souvent mis à jour dans le panier. Par conséquent, chaque fois qu’un caissier ajoutait un nouveau produit, le système lui demandait de saisir le numéro de série. La boîte de dialogue du numéro de série comprend désormais un bouton **Ajouter ultérieurement**. Par conséquent, les chargés de vente peuvent ajouter l’article à la transaction, mais peuvent fournir le numéro de série ultérieurement. Les chargés de vente peuvent rapidement ajouter et remplacer des articles sérialisés dans le panier, puis fournir le numéro de série juste avant de passer à la caisse. Si le numéro de série n’est pas fourni pour les produits sérialisés, un caissier qui tente de terminer la transaction reçoit un message d’erreur. Ce message indique que le caissier doit fournir les numéros de série manquants pour pouvoir continuer.
+- **Les numéros de série ne sont pas obligatoires avant l’extraction** – Auparavant, un caissier qui ajoutait un produit sérialisé à la transaction devait fournir un numéro de série. Cette exigence est devenue un problème dans les scénarios de clientélisme, si les caissiers et les vendeurs ont eu la possibilité de vendre des produits. Jusqu’à l’étape du paiement, les produits étaient souvent mis à jour dans le panier. Par conséquent, chaque fois qu’un caissier ajoutait un nouveau produit, le système demandait au caissier de saisir le numéro de série. La boîte de dialogue du numéro de série comprend désormais un bouton **Ajouter ultérieurement**. Par conséquent, les chargés de vente peuvent ajouter l’article à la transaction, mais peuvent fournir le numéro de série ultérieurement. Les chargés de vente peuvent rapidement ajouter et remplacer des articles sérialisés dans le panier, puis fournir le numéro de série juste avant de passer à la caisse. Si le numéro de série n’est pas fourni pour les produits sérialisés, un caissier qui tente de terminer la transaction reçoit un message d’erreur. Ce message indique que le caissier doit fournir les numéros de série manquants pour pouvoir continuer.
 
     Pour chaque article sérialisé où le numéro de série a été ignoré, un commentaire apparaît sous la ligne de transaction. Ce commentaire indique que le numéro de série n’a pas été indiqué pour l’article. Par conséquent, le caissier peut rapidement rechercher les articles n’ayant pas de numéro de série.
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796873"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020649"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Activer plusieurs modes de livraison de retrait pour les commandes des clients
 
@@ -82,7 +82,7 @@ Lorsque plusieurs modes de livraison en retrait sont disponibles pour un canal, 
 
 ## <a name="considerations-for-distributed-order-management"></a>Considérations sur la gestion des commandes distribuées
 
-Les fonctionnalités de [gestion des commandes distribuées](https://docs.microsoft.com/dynamics365/commerce/dom) de Commerce ignorent toutes les lignes de vente marquées pour le retrait en magasin. Ces fonctionnalités ont été mises à jour pour garantir que les lignes de vente liées aux modes de livraison en retrait configurés contournent la logique DOM et ne seront pas réaffectées à un nouvel entrepôt d’exécution.
+Les fonctionnalités de [gestion des commandes distribuées](./dom.md) de Commerce ignorent toutes les lignes de vente marquées pour le retrait en magasin. Ces fonctionnalités ont été mises à jour pour garantir que les lignes de vente liées aux modes de livraison en retrait configurés contournent la logique DOM et ne seront pas réaffectées à un nouvel entrepôt d’exécution.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

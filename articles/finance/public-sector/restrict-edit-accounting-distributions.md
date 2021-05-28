@@ -5,7 +5,6 @@ author: v-kiarnd
 ms.date: 10/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +14,12 @@ ms.search.industry: public sector
 ms.author: v-kiarnd
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ffda4c2ff6c95f66df8caa43c065d3e6c837b832
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ee157eafbf44fa495e0b8e254aa9c85b2324277
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821747"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022647"
 ---
 # <a name="restrict-editing-of-accounting-distributions-on-invoices"></a>Restreindre la modification des répartitions comptables dans les factures
 

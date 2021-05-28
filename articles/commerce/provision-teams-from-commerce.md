@@ -2,11 +2,9 @@
 title: Configuration de Microsoft Teams à partir de Dynamics 365 Commerce
 description: Cette rubrique décrit comment provisionner Microsoft Teams en utilisant les données organisationnelles de Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908902"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022444"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Configuration de Microsoft Teams à partir de Dynamics 365 Commerce
 
@@ -75,9 +73,9 @@ Pour charger une hiérarchie organisationnelle Commerce vers Teams, procédez co
     
 1. Dans Commerce Headquarters, accédez à **Retail et Commerce \> Configuration de canal \> Configuration de l’intégration Microsoft Teams**.
 1. Sélectionnez **Télécharger la hiérarchie de ciblage**, puis sélectionnez **Magasins de vente au détail par région** pour télécharger un fichier de valeurs séparées par des virgules (CSV) de la hiérarchie organisationnelle.
-1. Installez le module Microsoft Teams Powershell en suivant les étapes de [Installer Microsoft Teams PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Installez le module Microsoft Teams Powershell en suivant les étapes de [Installer Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install).
 1. Lorsque vous êtes invité dans la fenêtre Teams PowerShell, connectez-vous à l’aide du compte administrateur de votre locataire Azure AD.
-1. Suivez les étapes de [Configurer la hiérarchie de ciblage de votre équipe](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) pour charger le fichier CSV pour la hiérarchie de ciblage.
+1. Suivez les étapes de [Configurer la hiérarchie de ciblage de votre équipe](/microsoftteams/set-up-your-team-hierarchy) pour charger le fichier CSV pour la hiérarchie de ciblage.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Vérifiez que la hiérarchie organisationnelle a été chargée vers Teams
 

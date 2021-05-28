@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938466"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015949"
 ---
 # <a name="category-requests-from-vendors"></a>Demandes de catégorie des fournisseurs
 
@@ -36,10 +36,7 @@ Une fois la fonction activée, vous pouvez toujours ajouter manuellement des cat
 
 Avant qu'un fournisseur puisse interagir avec des demandes de catégorie, la fonctionnalité de collaboration fournisseur doit être configurée.
 
-Le fournisseur doit disposer d'au moins un utilisateur affecté à la collaboration fournisseur. Seuls les utilisateurs du fournisseur disposant de l'un ou des deux rôles de sécurité suivants peuvent créer et soumettre des demandes de catégorie :
-
-- Contact fournisseur (externe)
-- Administrateur fournisseur (externe)
+Le fournisseur doit disposer d'au moins un utilisateur affecté à la collaboration fournisseur. Seuls les utilisateurs fournisseurs avec le rôle de sécurité *Administrateur du fournisseur (externe)* peuvent créer et soumettre des demandes de catégorie.
 
 Pour plus d’informations, voir [Paramétrer et mettre à jour la collaboration fournisseur](set-up-maintain-vendor-collaboration.md).
 

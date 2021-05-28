@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791893"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021486"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Planifier la gestion du pointage dans Retail
 
@@ -38,9 +38,9 @@ Cette rubrique décrit les scénarios pris en charge pour la Gestion du pointage
 
 ### <a name="plan-worker-schedules"></a>Panifiez des programmes de collaborateur
 
-- Appliquez des profils à l’aide du Planificateur de travail. Pour plus d’informations, voir [Application des profils à l’aide du Planificateur de travail](https://technet.microsoft.com/library/aa551234.aspx).
+- Appliquez des profils à l’aide du Planificateur de travail. Pour plus d’informations, voir [Application des profils à l’aide du Planificateur de travail](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Pour plus d’informations sur les étapes de configuration, voir [Paramétrage du module Pointage](https://technet.microsoft.com/library/aa496971.aspx).
+Pour plus d’informations sur les étapes de configuration, voir [Paramétrage du module Pointage](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Configuration spécifique à Commerce
 
@@ -135,7 +135,7 @@ Un utilisateur de Commerce suit le flux de travail pour calculer, approuver et t
 - Pointage à la sortie en masse
 - Enregistrer des absences
 
-Pour plus d’informations sur le traitement des enregistrements des heures et des présences, voir [Traitement des enregistrements de pointage](https://technet.microsoft.com/library/aa573180.aspx).
+Pour plus d’informations sur le traitement des enregistrements des heures et des présences, voir [Traitement des enregistrements de pointage](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

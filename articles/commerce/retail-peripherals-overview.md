@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857271"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018829"
 ---
 # <a name="peripherals"></a>Périphériques
 
@@ -158,7 +158,7 @@ Les caisses enregistreuses adressables en réseau, les imprimantes de tickets et
 
 ### <a name="dedicated"></a>Dédié(e)
 
-Les clients Modern POS pour Windows et Android comprennent des stations matérielles intégrées ou **dédiées**. Ces clients peuvent communiquer directement avec les périphériques à l’aide d’une logique métier intégrée aux applications. L’application Android ne prend en charge que les périphériques réseau. Pour plus d’informations sur la prise en charge de périphériques pour Android, consultez l’article [Configurer l’application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Les clients Modern POS pour Windows et Android comprennent des stations matérielles intégrées ou **dédiées**. Ces clients peuvent communiquer directement avec les périphériques à l’aide d’une logique métier intégrée aux applications. L’application Android ne prend en charge que les périphériques réseau. Pour plus d’informations sur la prise en charge de périphériques pour Android, consultez l’article [Configurer l’application POS Hybrid sur Android et iOS](./dev-itpro/hybridapp.md).
 
 Pour utiliser la station matérielle dédiée, affectez un profil matériel à un registre qui utilise Modern POS pour les applications Windows ou Android. Créez ensuite une station matérielle du type **Dédié** pour le magasin où le registre sera utilisé. Démarrez Modern POS en mode sans tiroir et utilisez l’opération **Gérer les stations matérielles** pour activer les capacités de la station matérielle, la station matérielle dédiée est active par défaut. Ensuite, déconnectez-vous de Modern POS, puis reconnectez-vous et ouvrez une équipe de travail et les périphériques configurés dans le profil matériel sont utilisables. 
 
@@ -199,7 +199,7 @@ Pour plus d’informations, voir [Configurer, installer et activer Modern POS (M
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Paramétrage et configuration de Modern POS pour Windows et Android
 
-Pour plus d’informations, voir [Configurer l’application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Pour plus d’informations, voir [Configurer l’application POS Hybrid sur Android et iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Paramétrage et configuration de périphérique OPOS
 
@@ -494,7 +494,7 @@ Cette configuration est la configuration la plus courante pour les registres de 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS pour Android avec une station matérielle IPC (intégrée)
 
-**Nouveau pour la version 10.0.8** - Les imprimantes réseau et les tiroirs-caisses Epson connectés à ces imprimantes parle port DK sont désormais pris en charge pour Modern POS pour Android. Pour plus de détails, consultez l’article [Configurer l’application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Nouveau pour la version 10.0.8** - Les imprimantes réseau et les tiroirs-caisses Epson connectés à ces imprimantes parle port DK sont désormais pris en charge pour Modern POS pour Android. Pour plus de détails, consultez l’article [Configurer l’application POS Hybrid sur Android et iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Tous les clients Modern POS qui ont une station matérielle IIS « partagée », validée
 
@@ -614,6 +614,9 @@ Les périphériques suivants ont été testés à l’aide de la station matéri
 | Star         | TSP650II | Personnalisée    | Connecté via le réseau   |
 | Star         | mPOP     | OPOS      | Connecté via Bluetooth |
 | HP           | F7M67AA  | OPOS      | Alimenté par USB             |
+
+> [!NOTE]
+> L'imprimante Star TSP 100 n'est pas prise en charge pour la station matérielle intégrée. La station matérielle intégrée utilise un processus 64 bits, qui n'est pas compatible avec les pilotes Star TP 100 existants. 
 
 #### <a name="bar-code-scanner"></a>Lecteur de codes-barres
 

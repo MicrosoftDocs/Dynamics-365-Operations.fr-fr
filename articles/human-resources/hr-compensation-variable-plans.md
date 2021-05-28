@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800877"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027768"
 ---
 # <a name="create-variable-compensation-plans"></a>Créer un régime de rémunération variable
 
@@ -49,7 +49,7 @@ Le **régime de rémunération variable** contient les règles, les modes de cal
 Le montant de la prime variable peut être basé soit sur un pourcentage de la rémunération de base de l’employé, soit sur un nombre d’unités défini.
 
 -   Sélectionnez l’option **Pourcentage de base** pour entrer le pourcentage par défaut, puis spécifiez si la base doit être le taux de salaire fixe de l’employé ou le point de contrôle du niveau de rémunération de l’employé. Le niveau de rémunération est défini sur la tâche de l’employé. Un des points de référence de la structure de rémunération peut être défini comme point de contrôle sur le régime de rémunération fixe. Le système utilise le niveau de rémunération de la tâche de l’employé et le compare au point de contrôle répertorié sur le régime de rémunération fixe de l’employé pour rechercher le montant du point de contrôle pour le niveau de rémunération de l’employé. Le montant du point de contrôle est ensuite utilisé à la place du taux de salaire fixe de l’employé comme base pour la prime.
--   Sélectionnez l’option **Nombre d’unités** pour entrer un nombre d’unités par défaut, la valeur de chaque unité et la devise de la valeur unitaire si le régime de rémunération concerne une prime non monétaire (par exemple, 200 unités d’actions qui correspondent à 40 EUR), ou seulement le nombre d’unités si le régime de rémunération concerne une prime en espèces. Pour une prime en espèces, l’employé recevra le nombre d’unités spécifié de la devise utilisée pour son régime de rémunération fixe (par exemple, 500 unités de 1 EUR). Le contrôle de la relation de 1 à 1 peut être utilisé pour indiquer s’il existe une mise en correspondance linéaire directe entre le nombre d’unités et la valeur unitaire. Lorsque vous créez un régime de rémunération variable pour un régime basé sur des espèces en utilisant le nombre d’unités, cette option est automatiquement verrouillée sur **Oui**, et la valeur unitaire est **1,0000**.
+-   Sélectionnez l’option **Nombre d’unités** pour entrer un nombre d’unités par défaut, la valeur de chaque unité et la devise de la valeur unitaire si le régime de rémunération concerne une prime non monétaire (par exemple, 200 unités d’actions qui correspondent à 40 EUR), ou seulement le nombre d’unités si le régime de rémunération concerne une prime en espèces. Pour une prime en espèces, l’employé recevra le nombre d’unités spécifié de la devise utilisée pour le régime de rémunération fixe (par exemple, 500 unités de 1 EUR). Le contrôle de la relation de 1 à 1 peut être utilisé pour indiquer s’il existe une mise en correspondance linéaire directe entre le nombre d’unités et la valeur unitaire. Lorsque vous créez un régime de rémunération variable pour un régime basé sur des espèces en utilisant le nombre d’unités, cette option est automatiquement verrouillée sur **Oui**, et la valeur unitaire est **1,0000**.
 
 Le paramètre **Règle d’embauche** permet de spécifier si tous les employés doivent recevoir la même augmentation, indépendamment de la date à laquelle ils ont été engagés (**Règle d’embauche** = **Aucune**), ou si les employés doivent recevoir un pourcentage de la prime, selon la durée pendant laquelle ils ont été employés au cours du cycle (**Règle d’embauche** = **Pourcentage**). 
 

@@ -2,11 +2,9 @@
 title: Tenir à jour les informations bancaires pour un compte fournisseur
 description: Les fournisseurs peuvent utiliser la fonctionnalité Collaboration du fournisseur pour gérer leurs informations de compte bancaire. Cette rubrique explique comment ajouter et gérer les informations bancaires des fournisseurs avec lesquels vous faites affaire.
 author: v-kiarnd
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2011-01-14
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ddb87b809bdbf34b7226a1c7a34a818dd67dd9d7
-ms.sourcegitcommit: 7f9bc375b14fb380b5e152f37810e5a33faffb0f
+ms.openlocfilehash: 1221b8da59d16746f4ba5cccb900e34c8a25f358
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937973"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018248"
 ---
 # <a name="maintain-vendor-bank-account-information"></a>Tenir à jour les informations bancaires pour un compte fournisseur
 

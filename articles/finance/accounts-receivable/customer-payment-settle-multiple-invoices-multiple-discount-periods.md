@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819912"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027744"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Utiliser un paiement pour régler les factures qui couvrent plusieurs périodes de remise
 
@@ -66,7 +66,7 @@ Si Arnie crée un journal des paiements afin de régler l’intégralité de ces
 | Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Règlement partiel le 29 juin
-Le client 4032 peut effectuer un payement partiel, de la moitié de chaque facture. Arnie crée un paiement pour le client 4032, puis ouvre la page **Régler les transactions**. Sur la page **Régler les transactions**, Arnie marque les trois lignes de facture pour règlement. Sur chaque ligne, il entre le montant à régler, selon les instructions que le client a fournies. Lorsqu’Arnie sélectionne une ligne, il peut consulter le montant de la remise pour cette ligne et le montant de l’escompte de règlement qui est extrait. Étant donné que le client paie la moitié de la facture, Arnie constate que la valeur du champ **Montant de l’escompte de règlement** pour la facture FTI-10042 est de **20,00**, mais la valeur du champ **Escompte de règlement appliqué** est de **10,00**. Le montant du paiement est 1 485,00.
+Le client 4032 peut effectuer un payement partiel, de la moitié de chaque facture. Arnie crée un paiement pour le client 4032, puis ouvre la page **Régler les transactions**. Sur la page **Régler les transactions**, Arnie marque les trois lignes de facture pour règlement. Sur chaque ligne, Arnie entre le montant à régler, selon les instructions que le client a fournies. Lorsqu’Arnie sélectionne une ligne, Arnie peut consulter le montant de la remise pour cette ligne et le montant de l’escompte de règlement qui est extrait. Étant donné que le client paie la moitié de la facture, Arnie constate que la valeur du champ **Montant de l’escompte de règlement** pour la facture FTI-10042 est de **20,00**, mais la valeur du champ **Escompte de règlement appliqué** est de **10,00**. Le montant du paiement est 1 485,00.
 
 | Marquer                     | Utiliser un escompte de règlement | N° document   | Compte | Date      | Date d’échéance  | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Devise | Montant à régler |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ Le client 4032 peut effectuer un payement partiel, de la moitié de chaque factu
 | Activé                 | Standard            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1 000,00                             |                                       | USD      | 495,00           |
 | Sélectionné et mis en surbrillance | Standard            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1 000,00                             |                                       | USD      | 490,00           |
 
-Arnie peut également saisir manuellement le montant du paiement de 1 485,00 avant d’ouvrir la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n’ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, il reçoit le message suivant lorsqu’il ferme la page :
+Arnie peut également saisir manuellement le montant du paiement de 1 485,00 avant l'ouverture de la page **Régler les transactions**. Si Arnie saisit manuellement le montant du paiement, puis marque les trois transactions, mais n’ajuste pas la valeur du champ **Montant à régler** pour chaque transaction, Arnie reçoit le message suivant lorsque la page se ferme :
 
 > Le montant total des transactions marquées est différent du montant du journal. Modifier le montant du journal ?
 
-Si Arnie souhaite que le montant du paiement soit uniquement de 1 485,00, il doit cliquer sur **Non**, puis valider cette entrée dans le journal. Les transactions sont réglées de la façon suivante :
+Si Arnie souhaite que le montant du paiement soit uniquement de 1 485,00, Arnie clique sur **Non**, puis valider cette entrée dans le journal. Les transactions sont réglées de la façon suivante :
 
 1.  La facture FTI-10040 est entièrement réglée pour 1 000,00, car elle a été entrée le 15 mai, et il s’agit de la facture la plus ancienne. Aucun escompte de règlement n’est appliqué. Le montant restant sur la transaction de paiement est de 485,00.
 2.  La facture FTI-10041 n’est pas réglée du tout. Les factures FTI-10041 et FTI-10042 ont été entrées à la même date. Toutefois, une remise de 1 % est accordée pour la facture FTI-10041, et une remise de 2 % est accordée pour la facture FTI-10042. Étant donné qu’une meilleure remise est accordée pour la facture FTI-10042, le montant restant de 485,00 est réglé avec la facture FTI-10042.

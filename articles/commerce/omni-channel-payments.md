@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7b99b5f7b5b972d41e0831995bde69e9041369b9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791124"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028009"
 ---
 # <a name="omni-channel-payments-overview"></a>Présentation des paiements omnicanaux
 
@@ -43,11 +43,11 @@ Cette rubrique fournit une vue d’ensemble des paiements omnicanaux dans Dynami
 
 En général le terme *paiements omnicanaux* décrit la possibilité de créer une commande dans un canal et de la terminer dans un autre canal. L’élément clé pour prendre en charge le paiement omnicanal consiste à conserver les détails de paiement avec le reste des détails de la commande, puis d’utiliser ces détails de paiement lorsque la commande est rappelée ou traitée dans un autre canal. Un exemple classique est le scénario « Acheter en ligne, prélever en magasin ». Dans ce scénario, les détails de paiement sont ajoutés lorsque la commande est créée en ligne. Ils sont ensuite rappelés au PDV pour facturer la carte de paiement du client au moment du prélèvement. 
 
-Tous les scénarios décrits dans cette rubrique peuvent être mis en œuvre à l’aide du kit de développement logiciel (SDK) de paiement standard qui est fourni avec Commerce. Le [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) fournit une mise en œuvre prédéfinie pour chaque scénario décrit ici. 
+Tous les scénarios décrits dans cette rubrique peuvent être mis en œuvre à l’aide du kit de développement logiciel (SDK) de paiement standard qui est fourni avec Commerce. Le [Connecteur de paiement Dynamics 365 pour Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) fournit une mise en œuvre prédéfinie pour chaque scénario décrit ici. 
 
 ### <a name="prerequisites"></a>Conditions préalables
 
-Chaque scénario décrit dans cette rubrique nécessite un connecteur de paiement qui prend en charge les paiements omnicanaux. Le processeur Adyen prédéfini peut également être utilisé, car il prend en charge les scénarios disponibles via le kit de développement logiciel (SDK) de paiements. Pour plus d’informations sur la mise en œuvre des connecteurs de paiement, et sur le Kit de développement logiciel Retail en général, visitez la [page d’accueil Retail pour les professionnels de l’informatique et les développeurs](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Chaque scénario décrit dans cette rubrique nécessite un connecteur de paiement qui prend en charge les paiements omnicanaux. Le processeur Adyen prédéfini peut également être utilisé, car il prend en charge les scénarios disponibles via le kit de développement logiciel (SDK) de paiements. Pour plus d’informations sur la mise en œuvre des connecteurs de paiement, et sur le Kit de développement logiciel Retail en général, visitez la [page d’accueil Retail pour les professionnels de l’informatique et les développeurs](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Versions prises en charge
 
@@ -57,14 +57,14 @@ Les fonctionnalités de paiement omnicanal décrites dans cette rubrique ont ét
 
 Le Kit de développement logiciel (SDK) de paiement repose sur deux ensembles d’interfaces de programmation d’application (API) pour les paiements. Le premier ensemble d’API est appelé **iPaymentProcessor**. Il est utilisé pour mettre en œuvre des connecteurs de paiement « carte absente » qui peuvent être utilisés dans les centres d’appels et avec la plateforme de commerce électronique de Microsoft Dynamics. Pour plus d’informations sur l’interface **iPaymentProcessor**, voir le livre blanc [Mettre en œuvre un connecteur de paiement et un appareil de paiement](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf), qui couvre les paiements. 
 
-Le second ensemble d’API est appelé **iNamedRequestHandler**. Il prend en charge la mise en œuvre des intégrations de paiement « carte présente » qui utilisent un terminal de paiement. Pour plus d’informations sur l’interface **iNamedRequestHandler**, voir [Créer une intégration de paiement pour un terminal de paiement](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+Le second ensemble d’API est appelé **iNamedRequestHandler**. Il prend en charge la mise en œuvre des intégrations de paiement « carte présente » qui utilisent un terminal de paiement. Pour plus d’informations sur l’interface **iNamedRequestHandler**, voir [Créer une intégration de paiement pour un terminal de paiement](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Paramétrage et configuration
 
 Les composants et les étapes de paramétrage suivants sont obligatoires :
 
-- **Intégration du commerce électronique :** une intégration avec Commerce est requise pour prendre en charge les cas où une commande est issue d’une vitrine en ligne. Pour plus d’informations sur le kit de développement logiciel (SDK) de commerce électronique Retail, voir [Kit de développement logiciel (SDK) de la plateforme de commerce électronique](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Dans un environnement de démonstration, la vitrine de référence prend en charge les scénarios de paiement omnicanal. 
-- **Configuration des paiements en ligne :** Le paramétrage du canal en ligne doit inclure un connecteur de paiement qui a été mis à jour pour prendre en charge les paiements omnicanaux. Sinon, le connecteur de paiement prédéfini peut être utilisé. Pour plus d’informations sur la configuration du connecteur de paiement Adyen pour les magasins en ligne, voir [Connecteur de paiement Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Outre les étapes de paramétrage du commerce électronique décrites dans cette rubrique, le paramètre **Autoriser l’enregistrement des informations de paiement dans le commerce électronique** doit être défini sur **True** dans les paramètres du connecteur Adyen. 
+- **Intégration du commerce électronique :** une intégration avec Commerce est requise pour prendre en charge les cas où une commande est issue d’une vitrine en ligne. Pour plus d’informations sur le kit de développement logiciel (SDK) de commerce électronique Retail, voir [Kit de développement logiciel (SDK) de la plateforme de commerce électronique](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Dans un environnement de démonstration, la vitrine de référence prend en charge les scénarios de paiement omnicanal. 
+- **Configuration des paiements en ligne :** Le paramétrage du canal en ligne doit inclure un connecteur de paiement qui a été mis à jour pour prendre en charge les paiements omnicanaux. Sinon, le connecteur de paiement prédéfini peut être utilisé. Pour plus d’informations sur la configuration du connecteur de paiement Adyen pour les magasins en ligne, voir [Connecteur de paiement Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Outre les étapes de paramétrage du commerce électronique décrites dans cette rubrique, le paramètre **Autoriser l’enregistrement des informations de paiement dans le commerce électronique** doit être défini sur **True** dans les paramètres du connecteur Adyen. 
 - **Configuration des paiements omnicanaux :** dans le back-office, accédez à **Retail et Commerce \> Paramétrage du siège \> Paramètres \> Paramètres partagés du commerce**. Puis, dans l’onglet **Paiements omnicanaux**, définissez l’option **Utiliser les paiements omnicanaux** sur **Oui**. Dans la version 10.0.12 de Commerce et les versions ultérieures, ce paramètre se trouve dans l’espace de travail **Gestion des fonctionnalités**. Sélectionnez la fonctionnalité **Paiements omnicanaux** et cliquez sur **Activer maintenant**. 
 - **Services de paiement :** Le centre d’appels utilise le connecteur de paiement par défaut sur la page **Services de paiement** pour traiter les paiements. Pour prendre en charge les scénarios tels que « Acheter au centre d’appels, prélever au magasin », ce connecteur de paiement par défaut doit être le connecteur de paiement Adyen ou un connecteur de paiement correspondant aux exigences de mise en œuvre des paiements omnicanaux.
 - **Service TEF :** Les paiements via un terminal de paiement doivent être paramétrés sur l’organisateur **Service TEF** du profil matériel. Le connecteur Adyen prend en charge les scénarios de paiements omnicanaux prédéfinis. D’autres connecteurs de paiement qui prennent en charge l’interface **iNamedRequestHandler** peuvent également être utilisés s’ils prennent en charge les paiements omnicanaux.
@@ -219,7 +219,7 @@ Certains cartes ne peuvent pas être utilisées pour les paiements omnicanaux, c
 
 ### <a name="using-a-different-card"></a>Utilisation d’une autre carte
 
-Un client qui vient au magasin pour prélever une commande a la possibilité d’utiliser une autre carte. Lorsque le caissier reçoit l’invite **Utiliser un mode de paiement disponible** au moment du prélèvement de la commande, il peut demander si le client veut utiliser la même carte. Si le client a perdu la carte utilisée pour créer la commande et souhaite payer celle-ci avec une autre carte, le caissier peut sélectionner **Utiliser un autre mode de paiement**. Si le client revient plus tard pour prélever des articles supplémentaires pour la même commande, si l’autorisation de carte d’origine reste valide, le caissier peut de nouveau demander si le client veut utiliser cette carte.
+Un client qui vient au magasin pour prélever une commande a la possibilité d’utiliser une autre carte. Lorsque le caissier reçoit l’invite **Utiliser un mode de paiement disponible** au moment du prélèvement de la commande, le caissier peut demander si le client veut utiliser la même carte. Si le client a perdu la carte utilisée pour créer la commande et souhaite payer celle-ci avec une autre carte, le caissier peut sélectionner **Utiliser un autre mode de paiement**. Si le client revient plus tard pour prélever des articles supplémentaires pour la même commande, si l’autorisation de carte d’origine reste valide, le caissier peut de nouveau demander si le client veut utiliser cette carte.
 
 ### <a name="invalid-authorizations"></a>Autorisations non valides
 
@@ -231,9 +231,9 @@ Lorsqu’une commande comporte plusieurs modes de paiement et que plusieurs lign
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [FAQ Paiements](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [FAQ Paiements](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [Connecteur de paiement Dynamics 365 pour Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Configurer le BOPIS dans un environnement d’évaluation Dynamics 365 Commerce](./cpe-bopis.md)
 
 
 

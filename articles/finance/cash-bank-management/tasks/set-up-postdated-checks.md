@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834594"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026203"
 ---
 # <a name="set-up-postdated-checks"></a>Paramétrage de chèques postdatés
 
@@ -53,7 +53,11 @@ Le rôle de cette procédure Trésorier. La société fictive USMF sert d’exem
     * Sélectionnez le compte bancaire utilisé pour déduire le montant de la facture.  
 18. Cliquez sur Enregistrer.
 19. Fermez la page.
-
-
+> [!NOTE]
+> Pour pouvoir valider un chèque postdaté sur un compte bancaire lorsque la date de session est supérieure ou égale à la date d'échéance, vous devez activer la fonction **Validation de la date d'échéance de l'enregistrement du journal des paiements avec chèques postdatés sur le compte bancaire**. Cette fonction vous permet de valider les journaux de paiement pour les fournisseurs ou les clients avec des chèques postdatés, lorsque la date de session est supérieure ou égale à la date d'échéance.
+> 
+> Lors de la configuration du **Mode de paiement** (**Comptabilité fournisseur > Configuration des paiements > Modes de paiement**), ne remplissez pas **Compte de transition**. Dans ce cas, le compte de contrepartie est renseigné avec le compte bancaire, qui est configuré dans le **Mode de paiement**.
+>  
+> Lorsque la fonctionnalité est activée et que la date de session est inférieure à la date d'échéance, le message d'erreur suivant s'affiche lors de la validation d'un journal des paiements, "La date d'échéance doit être inférieure ou égale à la date de session si le type de compte de contrepartie est Banque". Si la fonction n'est pas activée, vous pouvez valider un journal des paiements avec un chèque postdaté lorsque la date de session est inférieure à la date d'échéance.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

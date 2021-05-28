@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801409"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021101"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Les taxes sur les commandes en ligne ne sont pas correctement calculées
 
@@ -44,7 +43,7 @@ Pour configurer la taxe pour un magasin de détail dans Commerce Headquarters, p
 1. Sur le raccourci **Général**, dans la section **Taxe**, configurez les informations de taxe pour le magasin.
 
 > [!NOTE]
-> Pour le retrait de produits dans un magasin, le groupe de taxe provient du magasin sélectionné pour le retrait. Pour plus d’informations, voir [Paramétrage d’autres options de taxe pour les magasins](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+> Pour le retrait de produits dans un magasin, le groupe de taxe provient du magasin sélectionné pour le retrait. Pour plus d’informations, voir [Paramétrage d’autres options de taxe pour les magasins](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>Configurer la taxe pour l’adresse d’un client dans Commerce Headquarters
 
@@ -68,7 +67,7 @@ Pour configurer les groupes de taxe générale dans Commerce Headquarters, proc�
 1. Sur le raccourci **Taxe selon la destination de vente au détail**, configurez les taxes pour le groupe de taxe.
 
 > [!NOTE]
-> Pour les expéditions qui n’impliquent pas de taxe sur l’adresse du client, l’adresse de livraison de la ligne et les taxes selon la destination qui sont configurées pour le groupe de taxe déterminent le groupe de taxe. Pour plus d’informations, voir [Configurer les taxes pour les magasins en ligne en fonction de la destination](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> Pour les expéditions qui n’impliquent pas de taxe sur l’adresse du client, l’adresse de livraison de la ligne et les taxes selon la destination qui sont configurées pour le groupe de taxe déterminent le groupe de taxe. Pour plus d’informations, voir [Configurer les taxes pour les magasins en ligne en fonction de la destination](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

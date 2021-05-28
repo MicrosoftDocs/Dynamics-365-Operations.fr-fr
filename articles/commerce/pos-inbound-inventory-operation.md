@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804329"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018952"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Opération de stock entrant dans le PDV
 
@@ -70,7 +70,7 @@ Les traitements par lots que vous créez seront utilisés pour traiter les docum
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Condition préalable : ajouter une opération entrante à la mise en page de l’écran du PDV
 
-Avant que votre organisation puisse utiliser la fonctionnalité Opération entrante, elle doit configurer l’opération PDV **Opération entrante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
+Avant que votre organisation puisse utiliser la fonctionnalité Opération entrante, elle doit configurer l’opération PDV **Opération entrante** sur une ou plusieurs de vos [Mises en page de l’écran du PDV](/dynamics365/unified-operations/retail/pos-screen-layouts). Avant de déployer la nouvelle opération dans un environnement de production, veillez à la tester et à apprendre à vos utilisateurs à l’utiliser.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -159,9 +159,9 @@ Dans Commerce version 10.0.14 et ultérieure, les utilisateurs peuvent recevoir
 
 Cette fonctionnalité ne fonctionne que pour la réception des commandes fournisseur. Il n’est pas possible de recevoir des articles avec des ordres de transfert lorsque les articles n’ont pas été précédemment commandés et expédiés depuis l’entrepôt sortant.
 
-Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande fournisseur lors de la réception au point de vente si le [workflow de gestion de modification](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) de la commande fournisseur est activé au siège de Commerce. Pour activer la gestion des modifications, toutes les modifications apportées à une la commande fournisseur doivent d’abord être approuvées avant que la réception ne soit autorisée. Étant donné que ce processus permet à un destinataire d’ajouter de nouvelles lignes à la commande fournisseur, la réception échouera si le workflow de gestion des modifications est activé. Si la gestion des modifications est activée pour toutes les la commandes fournisseur ou pour le fournisseur lié à la la commande fournisseur en cours de réception active dans le PDV, l’utilisateur ne peut pas ajouter de nouveaux produits à la la commande fournisseur lors de la réception au PDV.
+Les utilisateurs ne peuvent pas ajouter de nouveaux produits à la commande fournisseur lors de la réception au point de vente si le [workflow de gestion de modification](../supply-chain/procurement/purchase-order-approval-confirmation.md) de la commande fournisseur est activé au siège de Commerce. Pour activer la gestion des modifications, toutes les modifications apportées à une la commande fournisseur doivent d’abord être approuvées avant que la réception ne soit autorisée. Étant donné que ce processus permet à un destinataire d’ajouter de nouvelles lignes à la commande fournisseur, la réception échouera si le workflow de gestion des modifications est activé. Si la gestion des modifications est activée pour toutes les la commandes fournisseur ou pour le fournisseur lié à la la commande fournisseur en cours de réception active dans le PDV, l’utilisateur ne peut pas ajouter de nouveaux produits à la la commande fournisseur lors de la réception au PDV.
 
-La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
+La fonctionnalité qui permet d’ajouter des lignes ne peut pas être utilisée comme solution pour recevoir des quantités supplémentaires de produits déjà sur la commande fournisseur. La sur-réception est gérée par les paramètres de [sur-réception](#over-receiving-validations) standard de la ligne de produits sur la commande fournisseur.
 
 Si **Ajouter des lignes à la commande fournisseur lors de la réception au point de vente** est activé et qu’un utilisateur effectue la réception avec l’**Opération entrante** dans le PDV, si l’utilisateur scanne ou saisit un code-barres de produit ou un numéro de produit qui n’est pas reconnu comme un article de la commande fournisseur en cours, mais est reconnu comme un article valide, l’utilisateur reçoit un message concernant l’ajout de l’article à la commande fournisseur. Si l’utilisateur ajoute l’article à la commande fournisseur, la quantité saisie dans **Recevoir maintenant** est considérée comme la quantité commandée pour la ligne de commande fournisseur.
 

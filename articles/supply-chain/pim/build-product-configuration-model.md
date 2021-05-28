@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ba1fcdffec27e848afaf4b821df85240139f41f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d37b1c8ed23bf93f0480c76e10b8aaed86fe2a2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812809"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015975"
 ---
 # <a name="product-configuration-overview"></a>Vue d’ensemble de la configuration du produit
 
@@ -36,6 +36,7 @@ Une transition réussie d’une configuration de type fabrication selon le stock
 Il existe plusieurs principes de modélisation de configuration de produit, tels que la modélisation basée sur les règles, basée sur les dimensions et basée sur les contraintes. Les études indiquent que la méthodologie basée sur les contraintes peut réduire le nombre de lignes de code dans les modèles d’environ 50 % par rapport à d’autres principes de modélisation. Par conséquent, cette méthodologie peut réduire le coût total de possession (TCO). En passant d’un modèle basé sur les règles basé sur le code X++ à un modèle basée sur les contraintes, vous n’avez plus besoin d’une licence de développeur pour tenir à jour des modèles de produit.
 
 ## <a name="product-configuration"></a>Configuration de produit
+
 La période d’industrialisation a mené à de grands accomplissements en matière de production de produits de haute qualité et de haute technologie à des prix abordables. Les économies d’échelle ont permis à la plupart des habitants du monde industrialisé d’acheter des véhicules, des postes de télévision, des appareils électroménagers, ainsi que d’autres marchandises que la plupart d’entre nous considèrent comme nécessaires à notre vie quotidienne.  
 
 Étant donné que de nombreux produits sont devenus des marchandises, un besoin de les différencier s’est fait sentir. La réponse immédiate les fabricants à cette difficulté a été de créer des variantes de chaque produit, de sorte que les clients disposent de davantage d’alternatives. Cette stratégie a mené à des défis grandissants en matière de prévisions, ainsi qu’à une augmentation du prix de revient du stock et de la quantité de produits invendus qui deviennent obsolètes.  
@@ -44,9 +45,10 @@ En adoptant une philosophie de configuration selon la commande, les fabricants o
 
 La clé du succès ici est d’analyser soigneusement le portefeuille de produits, et de rechercher des motifs à la fois dans les caractéristiques des produits et les processus. L’objectif est d’identifier les composants génériques qui peuvent être fabriqués par le même équipement et utilisés dans toutes les variantes.  
 
-Le nouvel ensemble de fonctionnalités de configuration de produit inclut une interface utilisateur (IU) qui fournit une vue d’ensemble visuelle de la structure du modèle de configuration de produit, ainsi qu’une syntaxe déclarative de contrainte qui n’ pas besoin d’être compilée. Par conséquent, les sociétés qui souhaitent prendre en charge une pratique en matière de configuration peuvent démarrer plus facilement. Comme l’expliquent les sections suivantes, un concepteur de produit n’a plus besoin de l’aide d’un développeur pour créer un modèle de configuration de produit, le tester, et le transmettre à l’organisation commerciale.
+L'ensemble de fonctionnalités de configuration de produit inclut une interface utilisateur (IU) qui fournit une vue d’ensemble visuelle de la structure du modèle de configuration de produit, ainsi qu’une syntaxe déclarative de contrainte qui n’ pas besoin d’être compilée. Par conséquent, les sociétés qui souhaitent prendre en charge une pratique en matière de configuration peuvent démarrer plus facilement. Comme l’expliquent les sections suivantes, un concepteur de produit n’a plus besoin de l’aide d’un développeur pour créer un modèle de configuration de produit, le tester, et le transmettre à l’organisation commerciale.
 
 ## <a name="building-a-product-configuration-model"></a>Élaboration d’un modèle de configuration de produit.
+
 Il existe plusieurs approches qu’un utilisateur peut adopter pour élaborer un modèle de configuration de produit. Une option consiste à suivre un flux séquentiel en créant d’abord toutes les données de référence, telles que les produits génériques, des produits distincts et les ressources opérationnelles, puis en les incluant en tant que composants, lignes de nomenclature, opérations de gamme et autres éléments du modèle de configuration de produit. Sinon, vous pouvez sélectionner une approche plus itérative en créant d’abord le modèle, puis en ajoutant des données de référence en fonction des besoins.
 
 ### <a name="components"></a>Composants
@@ -58,7 +60,7 @@ Un modèle de configuration de produit est constitué d’un ou plusieurs compos
 Chaque composant est doté d’un ou de plusieurs attributs qui identifient ses propriétés. Les attributs sont choisis par les utilisateurs lors du processus de configuration. Les attributs contrôlent les relations inter- composants et intra- composants via l’inclusion dans les contraintes ou les calculs. Par l’intermédiaire des conditions appliquées aux lignes de nomenclature, les attributs permettent de déterminer de quelles pièces physiques le produit configuré sera constitué. En outre, un attribut peut contrôler la propriété d’une ligne de nomenclature via un mécanisme de mise en correspondance. Une fonctionnalité similaire existe pour les opérations de gamme concernant les paramètres d’inclusion et de propriété.
 
 >[!NOTE]
-> Lorsque vous créez les types d’attribut, évitez d’avoir à créer un grand nombre de valeurs pour le domaine de type d’attribut. Cela pourrait être la cause de ralentissements dans le configurateur de produit. 
+> Lorsque vous créez les types d’attribut, évitez d’avoir à créer un grand nombre de valeurs pour le domaine de type d’attribut. Cela pourrait être la cause de ralentissements dans le configurateur de produit.
 
 ### <a name="expression-constraints"></a>Contraintes d’expression
 
@@ -95,6 +97,7 @@ Les lignes de nomenclature sont incluses pour identifier la nomenclature de fabr
 Les opérations de gamme sont incluses pour identifier la gamme de fabrication. Une opération de gamme doit référencer une opération définie, et toutes les propriétés des opérations peuvent être définies à une valeur fixe. Toutes les propriétés à l’exception des demandes sources peuvent être mises en correspondance avec un attribut plutôt qu’une valeur.
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>Validation et test d’un modèle de configuration de produit
+
 La validation d’un modèle de configuration de produit peut se produire à plusieurs niveaux dans le modèle et peut donc couvrir différentes portées. Le niveau le plus bas concerne une contrainte à expression unique. Dans ce cas, la validation est généralement effectuée par le concepteur du produit pour vérifier que la syntaxe d’une expression est correcte.  
 
 De même, une condition pour une ligne de nomenclature ou une opération de gamme peut être validée isolément.  
@@ -112,6 +115,7 @@ Le test d’un modèle est similaire à l’exécution d’une session de config
 Pour naviguer entre les composants, cliquez sur **Suivant** ou sur un composant dans l’arborescence du modèle de configuration de produit pour se focaliser sur celui-ci.
 
 ## <a name="finalizing-a-model-for-configuration"></a>Finalisation d’un modèle pour la configuration
+
 Lorsqu’un modèle de configuration de produit est prêt à être utilisé dans les scénarios de configuration selon la commande, une version doit être créée. Toutefois, il existe plusieurs options susceptibles d’améliorer l’expérience de modélisation.
 
 ### <a name="user-interface"></a>Interface utilisateur
@@ -131,35 +135,31 @@ Si le produit est destiné à être vendu dans différents pays/régions, des tr
 La dernière et la plus importante étape du processus de finalisation est de créer une version du modèle de configuration de produit. La version représente la relation entre le produit générique, qui peut être sélectionné pour la configuration sur une commande ou une ligne de devis, et le modèle de configuration de produit. Une version doit être approuvée et activée avant de pouvoir être utilisée dans une session de configuration.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Extension d’un modèle de configuration de produit via l’API
-Une interface de programmation d’applications dédiée (API) a été mise en œuvre, de sorte que les partenaires et d’autres détenteurs d’une licence de développeur puissent étendre les capacités d’un modèle de configuration de produit. L’objectif principal a été d’établir un mécanisme qui permet aux partenaires et aux clients qui utilisent le Configurateur existant de migrer le code qui est intégré dans les modèles de configurateur vers l’API. Ils peuvent ainsi migrer leurs modèles du Configurateur vers une configuration de produit. Toutefois, les nouveaux partenaires et clients peuvent également tirer parti de l’utilisation de l’API pour étendre de nouveaux modèles de configuration de produit.
 
-### <a name="pcadaptor-class"></a>Classe PCAdaptor
+Une interface de programmation d’applications dédiée (API) a été mise en œuvre, de sorte que les partenaires et d’autres détenteurs d’une licence de développeur puissent étendre les capacités d’un modèle de configuration de produit. L’objectif principal a été d’établir un mécanisme qui permet aux partenaires et aux clients qui utilisent le Configurateur existant de migrer le code qui est intégré dans les modèles de configurateur vers l’API. Ils peuvent ainsi migrer leurs modèles du Configurateur vers une configuration de produit. Toutefois, les nouveaux partenaires et clients peuvent également tirer parti de l’utilisation de l’API pour étendre de nouveaux modèles de configuration de produit.
 
 L’API est mise en œuvre à l’aide d’un ensemble de classes **PCAdaptor** qui exposent la structure de données des modèles de configuration de produit. Une instance de la classe **PCAdaptor** doit être créée pour chaque modèle qui sera étendu. Une fois qu’une session de configuration est terminée, le système recherche une instance de cette classe et l’exécute si elle est trouvée.  
 
-Le diagramme de flux suivant décrit le processus.  
+Le diagramme de flux API suivant décrit le processus.  
 
 [![Diagramme de flux](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Diagramme de flux de l’API de configuration de produit
+## <a name="configure-products"></a>Configurer des produits
 
-## <a name="product-configuration"></a>Configuration de produit
-La configuration de produit peut être effectuée à partir des emplacements suivants :
+### <a name="configure-one-or-more-products"></a>Configurer un ou plusieurs produits
 
--   Ligne de commande client
--   Ligne du devis de vente
--   Ligne de commande fournisseur
--   Ligne d’ordre de fabrication
--   Ligne de demande d’articles (projet)
+Vous pouvez configurer les produits à partir des emplacements suivants :
+
+- Ligne de commande client
+- Ligne du devis de vente
+- Ligne de commande fournisseur
+- Ligne d’ordre de fabrication
+- Ligne de demande d’articles (projet)
 
 L’objectif de la configuration est de créer une variante distincte du produit qui correspond aux exigences du client. Un identificateur de configuration unique est créé pour chaque nouvelle configuration. Cet identificateur active le suivi dans le stock.
 
-### <a name="multiple-sites-and-intercompany"></a>Plusieurs sites et intersociétés
+### <a name="multiple-sites-and-intercompany-considerations"></a>Points à prendre en considération dans le cas de plusieurs sites et intersociétés
 
 Si la configuration doit être effectuée sur un site, ou même au sein d’une société, qui diffère du site ou de la société dans laquelle la production aura lieu, la nomenclature et la gamme sont créées pour et placées sur le site du fournisseur au sein de la société d’approvisionnement. La variante de produit sera lancée dans toutes les sociétés qui participent à la chaîne d’approvisionnement.
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

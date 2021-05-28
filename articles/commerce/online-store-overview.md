@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791076"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022470"
 ---
 # <a name="e-commerce-site-overview"></a>Présentation du site d’e-commerce
 
@@ -37,11 +37,11 @@ Dans Dynamics 365 Commerce, vous utilisez un canal de magasin en ligne pour éta
 
 Un seul canal de magasin en ligne doit être créé avant de pouvoir commencer Dynamics 365 Commerce. Cependant, un seul site d’e-commerce peut offrir une expérience en ligne à plusieurs magasins en ligne. Par exemple, si plusieurs magasins en ligne sont configurés pour prendre en charge différentes zones géographiques, un seul ensemble de pages d’e-commerce peut être utilisé pour fournir les expériences uniques définies par chaque magasin. Pour plus d’informations sur la configuration d’un site pour prendre en charge plusieurs magasins en ligne, consultez [Association d’un site en ligne à un canal](associate-site-online-store.md).
 
-Une fois le magasin en ligne créé, il peut être associé au site Dynamics 365 Commerce qui servira de vitrine en ligne. Pour plus d’informations sur les magasins en ligne et comment les configurer, consultez [Créer des magasins en ligne](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Une fois le magasin en ligne créé, il peut être associé au site Dynamics 365 Commerce qui servira de vitrine en ligne. Pour plus d’informations sur les magasins en ligne et comment les configurer, consultez [Créer des magasins en ligne](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Déployer un nouveau client e-commerce
 
-Lors de l’initialisation d’un site d’e-commerce, vous êtes invité à entrer un nom de domaine. Pour plus d’informations sur les domaines dans Commerce, consultez [Configurer votre nom de domaine](configure-your-domain-name.md) et [Domaines dans Dynamics 365 Commerce](domains-commerce.md). Pour déployer un nouveau client e-commerce à l’aide de [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), suivez les étapes de [Déployer un nouveau locataire e-commerce](deploy-ecommerce-site.md). Une fois votre locataire d’e-commerce configuré dans LCS, un lien vers le constructeur de site Commerce sera fourni. Vous pouvez ensuite utiliser le générateur de site Commerce pour initialiser et configurer vos sites d’e-commerce.
+Lors de l’initialisation d’un site d’e-commerce, vous êtes invité à entrer un nom de domaine. Pour plus d’informations sur les domaines dans Commerce, consultez [Configurer votre nom de domaine](configure-your-domain-name.md) et [Domaines dans Dynamics 365 Commerce](domains-commerce.md). Pour déployer un nouveau client e-commerce à l’aide de [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), suivez les étapes de [Déployer un nouveau locataire e-commerce](deploy-ecommerce-site.md). Une fois votre locataire d’e-commerce configuré dans LCS, un lien vers le constructeur de site Commerce sera fourni. Vous pouvez ensuite utiliser le générateur de site Commerce pour initialiser et configurer vos sites d’e-commerce.
 
 ## <a name="initialize-your-e-commerce-site"></a>Initialiser votre site d’e-commerce
 
@@ -113,7 +113,7 @@ Pour plus d’informations sur la gestion d contenu du site, voir les rubriques 
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827337"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028225"
 ---
 # <a name="position-forecasting"></a>Prévision des postes
 
@@ -67,9 +67,9 @@ L’organisation du Jodi fournit une indemnité de formation de 5 % du salaire
 
 Jodi ne souhaite pas que les responsables modifient le montant de l’avantage. Par conséquent, elle sélectionne **Ne pas autoriser les modifications de coût** dans le champ **Remplacement du poste de prévision**. L’organisation veut que ce coût soit réparti de manière égale sur chaque mois. Par conséquent, Jodi sélectionne **Trimestriel** dans le champ **Mode de répartition**. 
 
-Ensuite, Jodi ajoute une ligne de calcul du coût, définit les dates et un compte principal, et saisit **5,00** comme pourcentage. Son organisation a un plafond de 5 000 euros par an pour cet avantage. Par conséquent, Jodi entre ce montant comme limite annuelle. 
+Ensuite, Jodi ajoute une ligne de calcul du coût, définit les dates et un compte principal, et saisit **5,00** comme pourcentage. L'organisation a un plafond de 5 000 euros par an pour cet avantage. Par conséquent, Jodi entre ce montant comme limite annuelle. 
 
-Enfin, Jodi ajoute tous les éléments de coût de bénéfice utilisés pour le salaire de base comme base de calcul. Son élément de coût budgétaire est maintenant prêt à être utilisé.
+Enfin, Jodi ajoute tous les éléments de coût de bénéfice utilisés pour le salaire de base comme base de calcul. L'élément de coût budgétaire est maintenant prêt à être utilisé.
 
 ### <a name="compensation-groups"></a>Groupes de rémunération
 
@@ -137,7 +137,7 @@ Les lignes d’élément de coût budgétaire doivent être recalculées lorsque
 
 **Exemple** 
 
-L’organisation envisage deux options pour réduire le coût d’un poste de comptable. Une option consiste à mettre fin au poste en milieu d’année. L’autre option consiste à modifier le poste en travail à mi-temps pour l’année entière. Brad a créé un poste de prévision pour le poste de comptable existant dans un scénario de référence. Il copie ce poste de prévision de référence dans le scénario A, fixe la date de suppression au 31 mai et recalcule. Brad copie ensuite le poste de prévision de référence dans le scénario B, modifie la valeur ETP à **0,50**, et recalcule. Brad a désormais trois versions, chacune avec des totaux de coût correspondant à ses options.
+L’organisation envisage deux options pour réduire le coût d’un poste de comptable. Une option consiste à mettre fin au poste en milieu d’année. L’autre option consiste à modifier le poste en travail à mi-temps pour l’année entière. Brad a créé un poste de prévision pour le poste de comptable existant dans un scénario de référence. Brad copie ce poste de prévision de référence dans le scénario A, fixe la date de suppression au 31 mai et recalcule. Brad copie ensuite le poste de prévision de référence dans le scénario B, modifie la valeur ETP à **0,50**, et recalcule. Brad a désormais trois versions, chacune avec des totaux de coût correspondant aux options.
 
 #### <a name="assigning-a-compensation-group"></a>Affectation d’un groupe de rémunération
 

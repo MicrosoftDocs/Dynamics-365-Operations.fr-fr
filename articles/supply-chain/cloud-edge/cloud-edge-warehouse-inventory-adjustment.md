@@ -2,11 +2,9 @@
 title: Ajustement du stock de l’entrepôt
 description: Cette rubrique fournit des informations sur le journal d'ajustement des stocks de l'entrepôt et le traitement lorsque vous utilisez des unités d'échelle.
 author: perlynne
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventoryAdjustmentJournal, InventJournalCount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: be386539ea7addf20256ac2b1f8a2a72736fcbec
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: a451816078ca2e77f30379828777209dc48bd849
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938224"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026131"
 ---
 # <a name="warehouse-inventory-adjustment"></a>Ajustement du stock de l’entrepôt
 
@@ -40,7 +38,7 @@ Les processus de travail suivants de l'application d'entrepôt utilisent actuell
 - Inventaire tournant
 - Chargement de contenant
 
-Plusieurs transactions de stock sont créées dans le cadre du cloud et de la périphérie lors d'un processus d'ajustement, car les déploiements du hub et des unités d'échelle partagent les enregistrements de stock.
+Plusieurs transactions de stock sont créées dans le cadre de chaque processus d'ajustement, car les déploiements du hub et des unités d'échelle partagent les enregistrements de stock.
 
 ## <a name="inventory-adjustment-example"></a>Exemple d’ajustement de stock
 

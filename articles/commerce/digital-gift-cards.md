@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792869"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019931"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Cartes-cadeaux numériques e-commerce
 
@@ -51,12 +51,12 @@ Les produits des cartes-cadeaux numériques doivent être configurés dans Comme
 
     ![Champ Produit de la carte cadeau dans Commerce Headquarters](./media/PostGiftcard.png)
 
-- Si une carte-cadeau doit prendre en charge plusieurs montants prédéfinis (par exemple, 25 $, 50 $ et 100 $), la dimension **Taille** doit être utilisée pour définir ces montants prédéfinis. Chaque montant prédéfini sera une variante. Pour plus d’informations, voir [Dimensions de produit](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Si une carte-cadeau doit prendre en charge plusieurs montants prédéfinis (par exemple, 25 $, 50 $ et 100 $), la dimension **Taille** doit être utilisée pour définir ces montants prédéfinis. Chaque montant prédéfini sera une variante. Pour plus d’informations, voir [Dimensions de produit](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Si les clients doivent pouvoir spécifier un montant personnalisé pour une carte-cadeau, commencez par configurer une variante qui autorise un montant personnalisé. Ensuite, ouvrez le produit à partir de la page **Produits lancés dans la catégorie**, puis sur le raccourci **Commerce**, définissez le champ **Entrer un prix** sur **Obligation d’entrer un nouveau prix**, comme indiqué dans l’illustration suivante. Ce paramètre garantit que les clients peuvent entrer un prix lorsqu’ils parcourent le produit sur une PDP.
 
     ![Champ Entrer un prix dans Commerce Headquarters](./media/KeyInPrice.png)
 
-- Le mode de livraison d’une carte-cadeau numérique doit être défini sur **Électronique**. Sur la page **Modes de livraison** (**Commerce et vente au détail \> Paramétrage du canal \> Modes de livraison**), sélectionnez le mode de livraison **Électronique** dans le volet de liste, puis ajoutez le produit de la carte-cadeau numérique à la grille du raccourci **Produits**, comme indiqué dans l’illustration suivante. Pour plus d’informations, voir [Paramétrer des modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Le mode de livraison d’une carte-cadeau numérique doit être défini sur **Électronique**. Sur la page **Modes de livraison** (**Commerce et vente au détail \> Paramétrage du canal \> Modes de livraison**), sélectionnez le mode de livraison **Électronique** dans le volet de liste, puis ajoutez le produit de la carte-cadeau numérique à la grille du raccourci **Produits**, comme indiqué dans l’illustration suivante. Pour plus d’informations, voir [Paramétrer des modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Produits de cartes-cadeaux numériques sur la page Mode de livraison dans Commerce Headquarters](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Pour configurer un montant personnalisé pour une carte-cadeau numérique dans l
 
 [Créer un produit dans Commerce](create-new-product-commerce.md)
 
-[Paramétrer des modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Paramétrer des modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Dimensions de produit](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Dimensions de produit](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Configurer un profil de notification par e-mail](email-notification-profiles.md)
 

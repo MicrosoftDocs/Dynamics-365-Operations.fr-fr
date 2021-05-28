@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818750"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028201"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Résultats des modèles Machine Learning (version préliminaire)
 
@@ -63,8 +63,8 @@ Pour commencer à répondre à cette question, considérez l’exactitude d’un
 
 Un autre aspect mérite d’être noté. Prenons un scénario dans lequel un test médical est utilisé pour détecter une maladie chez un patient. Ce problème est un problème de classification binaire où un résultat positif indique que le patient a la maladie. Dans ce scénario, vous devez réfléchir à l’impact des erreurs suivantes :
 
-- Faux positifs, où le test indique qu’une patiente a la maladie, mais qu’elle ne l’a pas vraiment
-- Faux négatifs, où le test indique qu’un patient a la maladie, mais qu’il ne l’a pas vraiment
+- Faux positifs, où le test indique qu’une patiente a la maladie, mais que la patiente ne l’a pas vraiment.
+- Faux négatifs, où le test indique qu’un patient a la maladie, mais que la patiente ne l’a pas vraiment.
 
 De toute évidence, les deux types d’erreur ne sont pas souhaitables, mais laquelle est pire ? Encore une fois, cela dépend. Dans le cas d’une maladie potentiellement mortelle qui nécessite un traitement rapide, la minimisation des faux négatifs (avec un peu de chance, suivie de tests supplémentaires) est prioritaire. Dans d’autres situations moins critiques, les créateurs de modèles peuvent plutôt minimiser les faux positifs. Quoi qu’il en soit, une conclusion raisonnable est que pour déterminer efficacement la qualité d’un modèle, vous devez disposer de plus d’informations qu’une mesure de précision n’en fournit.
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b8c3ab0653fd5e3561d0bfbe85624d912756e2be
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794185"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020257"
 ---
 # <a name="map-module"></a>Module Carte
 
@@ -29,7 +29,7 @@ ms.locfileid: "5794185"
 
 Cette rubrique couvre les modules Carte et décrit comment les configurer dans Microsoft Dynamics 365 Commerce.
 
-Un module Carte affiche les emplacements des magasins sur une carte interactive affichée à l’aide du [Contrôle web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/). Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. Les modules Carte fournissent différentes vues, telles que Route, Aérien et Rue, que les utilisateurs peuvent sélectionner pour afficher des emplacements sur la carte. Ils permettent également des interactions telles que le zoom et l’utilisation de l’emplacement de l’utilisateur.
+Un module Carte affiche les emplacements des magasins sur une carte interactive affichée à l’aide du [Contrôle web Bing Maps V8](/bingmaps/v8-web-control/). Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. Les modules Carte fournissent différentes vues, telles que Route, Aérien et Rue, que les utilisateurs peuvent sélectionner pour afficher des emplacements sur la carte. Ils permettent également des interactions telles que le zoom et l’utilisation de l’emplacement de l’utilisateur.
 
 Un module Carte fonctionne conjointement avec le module Sélection de magasin pour déterminer les emplacements géographiques des magasins qui doivent être affichés sur une carte. Les modules Sélection de magasin et Carte interagissent lorsqu’un utilisateur sélectionne un magasin dans l’un de ces modules sur une page de site. Les modules Carte peuvent être étendus pour d’autres scénarios, au-delà de l’interaction avec les modules Sélection de magasin. Cependant, la personnalisation du module est nécessaire.
 
@@ -76,7 +76,7 @@ Pour des informations détaillées sur la configuration d’un module Carte sur 
 
 [Gérer Bing Cartes pour votre organisation](./dev-itpro/manage-bing-maps.md)
 
-[Contrôle web Bing Maps V8](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Contrôle web Bing Maps V8](/bingmaps/v8-web-control/)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

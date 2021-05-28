@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804305"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018631"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminaux de paiement dédiés et invites pour une imprimante et un tiroir-caisse
 
@@ -50,13 +50,13 @@ La fonctionnalité décrite dans cette rubrique est prise en charge par les clie
 
 Cette fonctionnalité prend en charge les terminaux de paiement et les imprimantes de reçus compatibles réseau. Vous pouvez prendre en charge le tiroir-caisse en connectant celui-ci à l’imprimante de reçus compatible réseau via le port d/k.
 
-La prise en charge prête à l’emploi de cette fonctionnalité est assurée par le [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Cependant, d’autres connecteurs de paiement peuvent être pris en charge via le kit de développement logiciel (SDK) Commerce pour les paiements. Les imprimantes de reçus prises en charge incluent les imprimantes de reçus compatibles réseau de Star Micronics et Epson.
+La prise en charge prête à l’emploi de cette fonctionnalité est assurée par le [Connecteur de paiement Dynamics 365 pour Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Cependant, d’autres connecteurs de paiement peuvent être pris en charge via le kit de développement logiciel (SDK) Commerce pour les paiements. Les imprimantes de reçus prises en charge incluent les imprimantes de reçus compatibles réseau de Star Micronics et Epson.
 
 Pour configurer les imprimantes de reçus Star Micronics, utilisez l’utilitaire Star Micronics Printer Utility pour configurer le périphérique afin qu’il puisse être utilisé sur le réseau. Cet utilitaire fournira également l’adresse IP de l’appareil.
 
 Pour configurer les imprimantes de reçus Epson, utilisez l’utilitaire Epson ePOS-Print pour configurer le périphérique afin qu’il utilise les protocoles réseau.
 
-Pour plus d’informations sur la configuration des périphériques réseau, consultez [Vue d’ensemble de la prise en charge des périphériques réseau](https://go.microsoft.com/fwlink/?linkid=2129965).
+Pour plus d’informations sur la configuration des périphériques réseau, consultez [Vue d’ensemble de la prise en charge des périphériques réseau](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Configurer un terminal de paiement dédié et une invite pour une imprimante et un tiroir-caisse
 
@@ -75,9 +75,9 @@ Pour configurer le profil matériel affecté à la caisse enregistreuse, procéd
 
     | Périphérique | Type | Nom du périphérique | Détails supplémentaires |
     |---|---|---|---|
-    | Imprimante | Secours | *N’importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. L’**ID du profil de reçu** doit être le même que l’**ID du profil de reçu** qui est mappé sur l’imprimante réseau configurée dans le profil matériel affecté à la station matérielle au niveau du canal. |
-    | Tiroir-caisse | Secours | *N’importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. Définissez l’option **Utiliser les équipes de travail partagées** sur **Oui**. |
-    | Service TEF | Adyen | Non applicable | Pour plus d’informations sur la configuration du connecteur de paiement Adyen prêt à l’emploi, voir [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). D’autres connecteurs de paiement peuvent être pris en charge via le [kit de développement logiciel (SDK) Commerce pour les paiements](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Imprimante | Réseau | *N'importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. L’**ID du profil de reçu** doit être le même que l’**ID du profil de reçu** qui est mappé sur l’imprimante réseau configurée dans le profil matériel affecté à la station matérielle au niveau du canal. |
+    | Tiroir-caisse | Réseau | *N'importe lequel/laquelle* | Le nom d’appareil est sensible à la casse. Définissez l’option **Utiliser les équipes de travail partagées** sur **Oui**. |
+    | Service TEF | Adyen | Non applicable | Pour plus d’informations sur la configuration du connecteur de paiement Adyen prêt à l’emploi, voir [Connecteur de paiement Dynamics 365 pour Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). D’autres connecteurs de paiement peuvent être pris en charge via le [kit de développement logiciel (SDK) Commerce pour les paiements](./dev-itpro/end-to-end-payment-extension.md). |
     | Clavier d’identification personnelle | Réseau | **MicrosoftAdyenDeviceV001** | Aucun(e). |
 
 5. Dans Dynamics 365 Commerce, recherchez **Caisses enregistreuses**.
@@ -85,7 +85,7 @@ Pour configurer le profil matériel affecté à la caisse enregistreuse, procéd
 7. Attribuez le profil matériel que vous venez de créer à la caisse enregistreuse qui doit utiliser un terminal de paiement dédié. Le périphérique mappé à cette caisse enregistreuse doit utiliser l’application Modern POS pour Windows ou l’application Modern POS pour Android.
 8. Sélectionnez **Enregistrer**.
 9. Dans le volet Actions, sous l’onglet **Caisses enregistreuses**, sélectionnez **Configurer les adresses IP**.
-10. Dans le raccourci **Clavier d’identification personnelle**, entrez l’adresse IP du terminal de paiement. Pour plus d’informations sur la façon d’obtenir l’adresse IP du terminal de paiement à l’aide du connecteur Adyen, voir [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. Dans le raccourci **Clavier d’identification personnelle**, entrez l’adresse IP du terminal de paiement. Pour plus d’informations sur la façon d’obtenir l’adresse IP du terminal de paiement à l’aide du connecteur Adyen, voir [Connecteur de paiement Dynamics 365 pour Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Sélectionnez **Enregistrer**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Configurer un profil matériel pour l’imprimante de reçus et le tiroir-caisse
@@ -99,8 +99,8 @@ Pour configurer le profil matériel utilisé pour regrouper l’imprimante de re
 
     | Périphérique | Type | Description | Détails supplémentaires |
     |---|---|---|---|
-    | Imprimante | Réseau | **Epson** ou **Star** | Le nom d’appareil est sensible à la casse. L’**ID du profil de reçu** doit être le même que l’**ID du profil de reçu** qui est mappé sur l’imprimante configurée dans le profil matériel affecté à la caisse enregistreuse. |
-    | Tiroir-caisse | Réseau | **Epson** ou **Star** | Le nom d’appareil est sensible à la casse. Définissez l’option **Utiliser les équipes de travail partagées** sur **Oui**. |
+    | Imprimante | Réseau | **Epson** ou **Star** | Le nom d’appareil est sensible à la casse. L'**ID du profil de reçu** doit être le même que l'**ID du profil de reçu** qui est mappé sur l'imprimante configurée dans le profil matériel affecté à la caisse enregistreuse. |
+    | Tiroir-caisse | Secours | **Epson** ou **Star** | Le nom d'appareil est sensible à la casse. Définissez l'option **Utiliser les équipes de travail partagées** sur **Oui**. |
 
 5. Sélectionnez **Enregistrer**.
 
@@ -148,9 +148,9 @@ Les collaborateurs du magasin sont invités à sélectionner une station matéri
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Paramétrer une application POS Hybrid sur Android et iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Connecteur de paiement Dynamics 365 pour Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Vue d’ensemble de la prise en charge des périphériques réseau](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [Paramétrer une application POS Hybrid sur Android et iOS](./dev-itpro/hybridapp.md)
+- [Connecteur de paiement Dynamics 365 pour Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Vue d’ensemble de la prise en charge des périphériques réseau](./dev-itpro/network-peripherals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

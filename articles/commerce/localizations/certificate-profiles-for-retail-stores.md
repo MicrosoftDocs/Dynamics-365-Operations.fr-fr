@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798859"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020311"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Profils de certificat définis par l’utilisateur pour les magasins de vente au détail
 
@@ -79,7 +79,7 @@ Lorsque vous ajoutez une nouvelle ligne à la page **Paramètres du profil de ce
 - **Certificat de coffre de clés** - Ce champ est obligatoire si vous définissez le champ **Type d’emplacement** sur **Coffre de clés**. Utilisez-le pour spécifier un secret de certificat de coffre de clés.
 
     > [!NOTE]
-    > Avant d’utiliser un certificat de coffre de clés dans les profils de certificat, assurez-vous de télécharger un certificat dans le stockage de coffre de clés et suivez les instructions de [Configurer le client Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Avant d’utiliser un certificat de coffre de clés dans les profils de certificat, assurez-vous de télécharger un certificat dans le stockage de coffre de clés et suivez les instructions de [Configurer le client Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Nom du magasin** - Ce champ est facultatif et n’est disponible que si vous définissez le champ **Type d’emplacement** sur **Certificat local**. Utilisez-le pour spécifier un nom de magasin par défaut à utiliser pour rechercher des certificats locaux.
 - **Emplacement du magasin** - Ce champ est facultatif et n’est disponible que si vous définissez le champ **Type d’emplacement** sur **Certificat local**. Utilisez-le pour spécifier un emplacement de magasin par défaut à utiliser pour rechercher des certificats locaux.

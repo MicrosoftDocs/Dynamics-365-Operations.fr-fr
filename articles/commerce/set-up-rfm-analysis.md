@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0eece0678335caa789f0b2c4a324deab6832b53c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f1f91a67ebac212f72b5524723ec0b8b4e0e3e99
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795475"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028273"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Paramétrer l’analyse RFM (récence, fréquence et valeur monétaire)
 
@@ -33,13 +33,13 @@ L’analyse RFM (récence, fréquence et valeur monétaire) est un outil marketi
 
 - Le premier chiffre est l’évaluation de la récence du client (si le client a récemment effectué un achat dans votre organisation).
 - Le deuxième chiffre est une évaluation de la fréquence du client (fréquence à laquelle le client effectue des achats auprès de votre organisation).
-- Le troisième chiffre est une évaluation de la valeur monétaire du client (montant que le client dépense lorsqu’il effectue des achats auprès de votre organisation).
+- Le troisième chiffre est une évaluation de la valeur monétaire du client (montant que le client dépense lorsque le client effectue des achats auprès de votre organisation).
 
 Par exemple, votre organisation a défini les évaluations sur une échelle de 1 à 5, dans laquelle 5 correspond au classement le plus élevé. Dans ce cas, une notation client de 535 vous indique les informations suivantes sur le client :
 
 - **Score de récence de 5** – Le client a récemment effectué un achat.
 - **Score de fréquence de 3** – Le client achète des produits à votre organisation à une fréquence modérée.
-- **Score monétaire de 5** – Lorsque le client effectue un achat, il dépense une quantité importante d’argent.
+- **Score monétaire de 5** – Lorsque le client effectue un achat, le client dépense une quantité importante d’argent.
 
 Si votre organisation utilise un nombre entier pour le score, les classements individuels sont additionnés. Pour le même exemple, le client a un score de 13 (5 + 3 + 5).
 

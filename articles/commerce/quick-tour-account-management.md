@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792265"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027961"
 ---
 # <a name="account-management-pages-overview"></a>Vue d’ensemble des pages de gestion de compte
 
@@ -39,7 +39,7 @@ L’illustration suivante présente un exemple de la page de destination de gest
 
 ### <a name="my-profile-page"></a>Page Mon profil
 
-La page **Mon profil** affiche des informations de compte du client, telles que son nom et son numéro de téléphone. Le client peut mettre ses données de profil à jour dans cette page. Cette page peut être personnalisé pour qu’il inclut des préférences supplémentaires de compte client, telles qu’une option pour s’abonner aux emails de marketing.
+La page **Mon profil** affiche des informations de compte du client, telles que les nom et numéro de téléphone. Le client peut mettre des données de profil à jour dans cette page. Cette page peut être personnalisé pour qu’il inclut des préférences supplémentaires de compte client, telles qu’une option pour s’abonner aux emails de marketing.
 
 L’illustration suivante présente un exemple de page **Mon profil** qui a été générée à l’aide de la bibliothèque de modules.
 

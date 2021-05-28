@@ -2,7 +2,6 @@
 title: Module du sélecteur de magasins
 description: Cette rubrique couvre le module de sélecteur de magasins et décrit comment l’ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853415"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021462"
 ---
 # <a name="store-selector-module"></a>Module Sélection de magasin
 
@@ -62,7 +61,7 @@ Pour entrer les valeurs de longitude et de la latitude pour un emplacement de ma
 
 ## <a name="bing-maps-integration"></a>Intégration Bing Cartes
 
-Le module de sélection de magasin est intégré aux [interfaces de programmation d’application (API) REST Bing Cartes](https://docs.microsoft.com/bingmaps/rest-services/) pour utiliser les fonctionnalités de géocodage et de suggestion automatique de Bing. Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. L’API de géocodage est utilisée pour convertir un emplacement en valeurs de latitude et de longitude. L’intégration avec l’API de Suggestion automatique est utilisée pour afficher des suggestions de recherche lorsque les utilisateurs saisissent des lieux dans le champ de recherche.
+Le module de sélection de magasin est intégré aux [interfaces de programmation d’application (API) REST Bing Cartes](/bingmaps/rest-services/) pour utiliser les fonctionnalités de géocodage et de suggestion automatique de Bing. Une clé API Bing Cartes est requise et doit être ajoutée à la page des paramètres partagés dans les sièges Commerce. L’API de géocodage est utilisée pour convertir un emplacement en valeurs de latitude et de longitude. L’intégration avec l’API de Suggestion automatique est utilisée pour afficher des suggestions de recherche lorsque les utilisateurs saisissent des lieux dans le champ de recherche.
 
 Pour l’API REST de Suggestion automatique, vous devez vous assurer que les URL suivantes sont autorisées (également appelées « URL sur liste verte ») conformément à la stratégie de sécurité du contenu (CSP) de votre site. Ce paramétrage est effectué dans le générateur de site Commerce, en ajoutant des URL autorisées à différentes instructions CSP pour le site (par exemple, **img-src**). Pour plus d’informations, voir [Stratégie de sécurité du contenu](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Le module de sélection de magasin prend en charge un mode **Retrait en magasin*
 
 Le module du sélecteur de magasins peut être ajouté à un module de zone d’achat sur la page de détails du produit pour afficher les magasins où un produit est disponible pour retrait. Il peut également être ajouté à un module de panier. Dans ce cas, le module de sélection de magasin affiche les options de retrait pour chaque article du panier. Le module de sélecteur de magasin peut également être ajouté à d’autres pages ou modules via des extensions et des personnalisations.
 
-Pour que ce scénario fonctionne, les produits doivent être configurés de sorte que le mode de livraison **retrait** soit utilisé. Sinon, le module ne sera pas affiché sur les pages de produit. Pour plus d’informations sur la configuration du mode de livraison, consultez [Configurer les modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Pour que ce scénario fonctionne, les produits doivent être configurés de sorte que le mode de livraison **retrait** soit utilisé. Sinon, le module ne sera pas affiché sur les pages de produit. Pour plus d’informations sur la configuration du mode de livraison, consultez [Configurer les modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 L’image suivante montre un exemple de module du sélecteur de magasins utilisé sur un PDP.
 
 ![Exemple d’un module du sélecteur de magasins utilisé sur un PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Dans la version 10.0.16 et ultérieure, une nouvelle fonctionnalité peut être activée qui permet à une organisation de définir plusieurs modes de ramassage d’options de livraison pour les clients.  Si cette fonctionnalité est activée, le sélecteur de magasin et d’autres modules d’e-commerce seront améliorés pour permettre à l’acheteur de choisir parmi plusieurs options de livraison de ramassage potentielles si elles sont configurées.  Pour en savoir plus sur cette fonctionnalité, reportez-vous à [cette documentation](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Dans la version 10.0.16 et ultérieure, une nouvelle fonctionnalité peut être activée qui permet à une organisation de définir plusieurs modes de ramassage d’options de livraison pour les clients.  Si cette fonctionnalité est activée, le sélecteur de magasin et d’autres modules d’e-commerce seront améliorés pour permettre à l’acheteur de choisir parmi plusieurs options de livraison de ramassage potentielles si elles sont configurées.  Pour en savoir plus sur cette fonctionnalité, reportez-vous à [cette documentation](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Mode Recherche de magasins
 
@@ -157,11 +156,11 @@ Pour configurer le module de sélection de magasin afin d’afficher les magasin
 
 [Visite rapide du panier et du paiement](quick-tour-cart-checkout.md)
 
-[Paramétrer des modes de livraison](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Paramétrer des modes de livraison](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Gérer les Bing Cartes pour votre organisation](dev-itpro/manage-bing-maps.md)
 
-[API REST Bing Cartes](https://docs.microsoft.com/bingmaps/rest-services/)
+[API REST Bing Cartes](/bingmaps/rest-services/)
 
 [Module Cartes](map-module.md)
 

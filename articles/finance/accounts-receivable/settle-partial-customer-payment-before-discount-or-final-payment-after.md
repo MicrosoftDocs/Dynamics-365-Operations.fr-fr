@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835145"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027526"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Régler un paiement partiel avant la date de remise avec un paiement final après la date de remise
 
@@ -95,7 +95,7 @@ Les informations de remise s’affichent au bas de la page **Régler les transac
 | Escompte de règlement appliqué          | 3,00      |
 | Montant de l’escompte de règlement à accepter | 7h00      |
 
-Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **Normal**, car il n’autorise pas ce client à bénéficier de l’escompte de règlement restant de 7,00. Arnie valide ensuite le paiement. Lorsqu’Arnie ouvre la page **Transactions client**, il peut voir que le solde de la facture est de 0,00. Il constate également qu’il existe deux paiements. Un paiement de 297,00 avec un escompte de règlement de 3,00, et un autre paiement de 700,00.
+Arnie rétablit la valeur du champ **Utiliser un escompte de règlement** sur **Normal**, car Arnie n’autorise pas ce client à bénéficier de l’escompte de règlement restant de 7,00. Arnie valide ensuite le paiement. Lorsqu’Arnie ouvre la page **Transactions client**, le solde de la facture est de 0,00. Deux paiements sont disponibles. Un paiement de 297,00 avec un escompte de règlement de 3,00, et un autre paiement de 700,00.
 
 | N° document    | Type de transaction | Date      | Facture | Montant au débit dans la devise de transaction | Montant au crédit dans la devise de transaction | Solde | Devise |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
