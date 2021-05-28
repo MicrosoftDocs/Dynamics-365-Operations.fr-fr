@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: "Finance\_version 10.0.17 (avril\_2021)"
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: "Finance\_version 10.0.16 (février\_2021)"
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
                 - name: Page d’accueil des fonctionnalités supprimées ou obsolètes
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Règlement d’un paiement client partiel avec plusieurs périodes de remise
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Acomptes client
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Rembourser les clients
                   href: accounts-receivable/reimburse-customers.md
                 - name: Paiements client pour un montant partiel
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Paramétrer et générer des informations sur la plage âgée de la comptabilité client
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Instantané de balance âgée des clients
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: Balance âgée des clients
               href: accounts-receivable/customer-aging.md
             - name: Créer un journal d’annulation pour un client
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Créer un budget pour les comptes de transactions et comptes de type total
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Descriptif du plan budgétaire
+              href: budgeting/budget-narrative.md
             - name: Modèles de planification budgétaire pour Excel
               href: budgeting/budget-planning-excel-templates.md
             - name: Étendre la mise en page de la planification budgétaire
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Définir des stratégies d’audit pour les documents source
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Résolution des problèmes
+              items:
+                - name: Modifier une devise comptable ou de déclaration
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Modifier ou réaffecter un calendrier comptable
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Paramètres de contrepassation sur les journaux et les lignes
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Soldes d’ouverture manquants à la clôture de fin d’exercice
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Financial Reporting
           items:
             - name: Prise en main de Financial Reporting
@@ -1648,8 +1662,16 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: Relevé fiscal SPED-Reinf
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: Vue d’ensemble de SPED-Reinf
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: Paramétrer un message électronique
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Paramétrer des registres fiscaux
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Événements
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: Résolution fiscale SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: "SPED\_fiscal 2020 - Informations complémentaires de l’ICMS-ST pour la mise en page fiscale SPED\_014"
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: FAQ sur les factures client avec TVA
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: Exportation GB/T 24589-2010
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: République tchèque
               items:
                 - name: République tchèque
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Factures et justificatifs chronologiques
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Créer un fichier d’audit standard pour la France (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Fichier d’audit pour la France
+                  items:
+                    - name: Présentation du fichier d’audit pour la France (FEC)
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: Prérequis pour générer un fichier d’audit FEC en France
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: Structure des sources de données Finance pour le FEC
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: Préparer votre environnement pour générer un FEC
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: Générer un FEC dans Dynamics 365 Finance
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Relevés de compte client et fournisseur
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Calcul des intérêts quotidien de paiement tardif et de montant forfaitaire dans la facture et la lettre de relance
@@ -2390,8 +2424,86 @@
                       href: localizations/tasks/apac-ind-set-up-depreciation.md
                     - name: Paramétrer l’amortissement des groupes d’actifs pour les registres d’amortissement
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Transfert des éléments de capital vers l’immobilisation
+                    - name: Transférer des éléments de capital vers l’immobilisation
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: TDS pour l’Inde
+                  items:
+                    - name: Aperçu de l’impôt indien déduit à la source (TDS)
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: Paramétrage de base pour TDS
+                      items:
+                        - name: Définir les paramètres TDS
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: Paramétrer les comptes généraux TDS
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: Paramétrer les numéros d’enregistrement TDS pour les entités juridiques
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: Paramétrer les autorités de retenue à la source pour le type de taxe TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Paramétrer les composants de taxe pour le type de taxe TDS
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: Paramétrer les codes de retenue à la source pour le type de taxe TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Paramétrer les périodes de règlement de retenue à la source pour le type de taxe TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: Paramétrer les codes déclaration de retenue à la source pour le type de taxe TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: Paramétrer les codes de retenue à la source pour le type de taxe TDS
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: Joindre les codes de taxe TDS aux groupes de taxes TDS et définir la formule de calcul du TDS
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: Enregistrer les numéros de certificat de concession TDS
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: Définir les paramètres TDS dans la Comptabilité fournisseur et la Comptabilité client
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: Paramétrer les échéanciers de paiement avec l’allocation TDS
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: Paramétrer les commissions de paiement pour les paiements d’autorité TDS
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'Configuration des informations de groupe TDS, PAN et TAN pour les fournisseurs et les clients'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: Concepteur de formule et limite de seuil pour le calcul TDS
+                      items:
+                        - name: Concepteur de formules pour les calculs TDS
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Limite de seuil et limite de seuil d’exception
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: Calcul TDS sur les factures
+                      items:
+                        - name: Calcul TDS sur les factures
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: Calculer le TDS sur les factures à l’aide de journaux
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: Calculer les factures TDS à l’aide du formulaire de commande fournisseur et du formulaire de commande client
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: Calcul TDS sur les factures à partir de la page Facture financière
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Fonctionnalité de facturation fractionnée
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: Calcul TDS sur les paiements et les billets à ordre
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: Calcul TDS sur les transactions intersociétés
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: Processus de règlement TDS
+                      items:
+                        - name: Calcul TDS sur les paiements et les billets à ordre
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: Calcul TDS sur les transactions intersociétés
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: Processus de règlement TDS
+                          items:
+                            - name: Exécuter le processus de règlement périodique de TDS
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: Régler les paiements TDS aux fournisseurs de l’autorité TDS et générer un challan TDS
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: Afficher les paiements et les transactions TDS validés pour une période de règlement TDS
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: Enregistrer et mettre à jour les numéros et dates des certificats TDS
+                          items:
+                            - name: Enregistrer les numéros de certificat recouvrable TDS
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: Mettre à jour les numéros et dates des certificats pour les transactions TDS
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Italie
               items:
                 - name: Vue d’ensemble de l’Italie
