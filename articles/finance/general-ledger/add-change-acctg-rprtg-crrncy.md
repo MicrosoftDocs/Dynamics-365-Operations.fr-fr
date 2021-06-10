@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017053"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085472"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Modifier une devise comptable ou de déclaration
 
@@ -31,12 +31,12 @@ Cette rubrique explique comment modifier une devise comptable ou de déclaration
 Vous souhaitez modifier une devise comptable ou de déclaration (ou ajouter une devise de déclaration à la configuration de la comptabilité). Cela se produit généralement dans les scénarios suivants :
 
 - La mauvaise devise de comptabilité ou de déclaration a été spécifiée lors de la création d’une entité juridique. Vous voulez maintenant changer cette devise.
-- Aucune devise de déclaration n’a été spécifiée lors de la création d’une entité juridique. (Une devise de déclaration est facultative.) Vous souhaitez maintenant ajouter une devise de déclaration.
-
-Une organisation qui n’utilisait pas auparavant la fonctionnalité de devise double souhaite désormais l’utiliser. Cela se produit généralement dans les scénarios suivants :
-
 - Une devise de déclaration a été spécifiée lors de la configuration d’une entité juridique, mais l’organisation souhaite désormais supprimer cette devise.
 - L’organisation procède à une mise à niveau ou à une migration vers Microsoft Dynamics 365 Finance et souhaite modifier la devise comptable ou de déclaration.
+
+Une organisation qui n’utilisait pas auparavant la fonctionnalité de devise double souhaite désormais l’utiliser. Ce problème se produit généralement dans les scénarios suivants :
+
+- Aucune devise de déclaration n’a été spécifiée lors de la création d’une entité juridique. (Une devise de déclaration est facultative.) Vous souhaitez maintenant ajouter une devise de déclaration.
 
 ## <a name="resolution"></a>Résolution
 

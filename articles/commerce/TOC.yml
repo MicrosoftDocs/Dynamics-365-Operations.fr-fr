@@ -92,13 +92,15 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Nouveautés ou modifications dans Commerce
                   items:
-                    - name: Page d’accueil des nouveautés ou modifications dans Commerce
+                    - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: "Commerce\_version 10.0.19 (juillet\_2021)"
+                    - name: "Commerce\_10.0.20 (juillet\_2021)"
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: "Commerce\_10.0.19 (juin\_2021)"
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: "Commerce\_version 10.0.18 (mai\_2021)"
+                    - name: "Commerce\_10.0.18 (mai\_2021)"
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: "Commerce\_version 10.0.17 (avril\_2021)"
+                    - name: "Commerce\_10.0.17 (avril\_2021)"
                       href: get-started/whats-new-commerce-10-0-17.md
                 - name: Fonctionnalités supprimées ou obsolètes
                   items:
@@ -412,7 +414,7 @@
                           href: demo-data.md
                         - name: Configurations visuelles de l’interface utilisateur de PDV
                           href: pos-screen-layouts.md
-                        - name: Installer le concepteur de mise en page de PDV
+                        - name: Installer le concepteur de dispositions de PDV
                           href: install-pos-layout-designer.md
                         - name: Choisir les paramètres de notification
                           href: Notifications-POS.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Créer et mettre à jour des créneaux horaires pour le prélèvement client
                   href: dev-itpro/pickup-timeslots.md
+                - name: Configurer les valeurs des dimensions du produit pour qu’elles apparaissent en tant qu’échantillons
+                  href: dev-itpro/dimensions-swatch.md
         - name: Promotion de vos produits et services
           items:
             - name: 'Catégories, produits et assortiments'
@@ -932,9 +936,11 @@
                   href: web-activity-opt-out.md
                 - name: Appliquer les paramètres d’unité de mesure
                   href: unit-of-measure.md
+                - name: Appliquer les paramètres d’affichage pour les dimensions du produit
+                  href: dimension-settings.md
             - name: Gérer le contenu de votre site
               items:
-                - name: Manières d’ajouter du contenu
+                - name: Méthodes d’ajout de contenu
                   href: add-manage-content.md
                 - name: Glossaire sur le modèle de page
                   href: page-elements-overview.md
@@ -1944,13 +1950,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
                 - name: Valider automatiquement les états générés
                   items:
-                    - name: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
+                    - name: Suivre les résultats du rapport généré et les comparer aux valeurs de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de base
+                    - name: Améliorer le suivi des résultats des rapports électroniques générés pour les comparer aux valeurs de référence
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
-                    - name: Automatiser les tests avec la gestion des états électroniques
+                    - name: Automatiser les tests avec les états électroniques
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
-                - name: Automatiser les processus métier avec les configurations de gestion des états électroniques
+                - name: Automatiser les processus métier avec les configurations d’états électroniques
                   items:
                     - name: Configurer la gestion des états électroniques pour extraire des données vers Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
@@ -2260,8 +2266,10 @@
                   items:
                     - name: Objet de propriétés de requête
                       href: e-commerce-extensibility/request-properties-object.md
-                    - name: Paramètres d’application
+                    - name: Paramètres de l’application
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Configurer les paramètres de configuration globaux du générateur de sites en fonction des fonctionnalités activées
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Fichier des paramètres de la plateforme
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Étendre une définition de module
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: "Développement et modifications d’ALM entre la version\_10.0.10 et la version\_10.0.13"
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Configurer un pipeline de build pour le SDK de package indépendant
+                  href: dev-itpro/build-pipeline.md
                 - name: Fusionner les systèmes de génération pour Commerce et Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: "Migrer le Kit de développement logiciel (SDK) Retail depuis Visual Studio\_2015 vers Visual Studio\_2017"
@@ -2384,13 +2394,15 @@
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Extensibilité du point de vente
               items:
-                - name: Mises en page de l’écran PDV
+                - name: Dispositions de l’écran de PDV
                   href: pos-screen-layouts.md
+                - name: Application Store Commerce dans Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: Ouvrir une URL dans le PDV
                   href: Open-URL-in-POS.md
-                - name: Installer le concepteur de mise en page de PDV
+                - name: Installer le concepteur de dispositions de PDV
                   href: install-pos-layout-designer.md
-                - name: Étendre le mode d’affichage de POS Dual
+                - name: Étendre le mode d’affichage de PDV Dual
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Ajouter des contrôles personnalisés à des vues PDV
                   href: dev-itpro/pos-custom-control.md

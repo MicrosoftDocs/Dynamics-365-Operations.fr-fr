@@ -70,13 +70,15 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
                 - name: Nouveautés ou modifications dans Finance
                   items:
-                    - name: Page d’accueil des nouveautés ou modifications dans Finance
+                    - name: Nouveautés ou modifications dans la page d’accueil de Finance
                       href: get-started/whats-new-home-page.md
-                    - name: "Finance\_version 10.0.19 (juillet\_2021)"
+                    - name: "Finance\_10.0.20 (juillet\_2021)"
+                      href: get-started/whats-new-changed-10-0-20.md
+                    - name: "Finance\_10.0.19 (juillet\_2021)"
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: "Finance\_version 10.0.18 (mai\_2021)"
+                    - name: "Finance\_10.0.18 (mai\_2021)"
                       href: get-started/whats-new-changed-10-0-18.md
-                    - name: "Finance\_version 10.0.17 (avril\_2021)"
+                    - name: "Finance\_10.0.17 (avril\_2021)"
                       href: get-started/whats-new-changed-10-0-17.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Soldes d’ouverture manquants à la clôture de fin d’exercice
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Ouvrir des modèles de journal financier dans Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Financial Reporting
           items:
             - name: Prise en main de Financial Reporting
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Ajouter des champs de données dans l’intégration de la taxe à l’aide d’extensions
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Numéros d’enregistrement de TVA multiples
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Configurer un environnement pour la recherche de données principales
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Numéros d’enregistrement de TVA multiples
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Création de rapports pour les enregistrements de TVA multiples
+                      items:
+                        - name: Création de rapports pour les enregistrements de TVA multiples
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Création de rapports pour les Pays-Bas
+                          items:
+                            - name: Déclaration de TVA
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: Liste des ventes intracommunautaires
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Mises à jour réglementaires
               href: localizations/regulatory-updates.md
             - name: Australie
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Activer le traitement multi-lots pour les états GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Résolution des problèmes avec la taxe sur les biens et services (GST)
+                          items:
+                            - name: Montant de taxe incorrect après calcul
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Erreurs de configuration de la taxe
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: La taxe n’est pas calculée
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: L’activation des règles d’affichage prend plus de temps que prévu
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans ou le N° document n’est pas généré
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: L’ID de transaction fiscale est incorrect
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Taxes directes
                   items:
                     - name: Retenue à la source pour l’Inde
@@ -2842,8 +2870,12 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: "Intégration Semansys\_XBRL"
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Fichier d’audit (XML Auditfile Financieel, XAF)'
+                - name: Fichier d’audit (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Déclaration de TVA (Pays-Bas)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Liste des ventes intracommunautaires
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Norvège
               items:
                 - name: Vue d’ensemble de la Norvège
@@ -3380,7 +3412,7 @@
                   href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Aligner les qualifications du personnel
                   href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Ajouter à votre journal de performances
+                - name: Ajouter à votre journal des performances
                   href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
                 - name: Créer un objectif
                   href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
@@ -4121,13 +4153,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Valider automatiquement les états générés
                   items:
-                    - name: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
+                    - name: Suivre les résultats du rapport généré et les comparer aux valeurs de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de base
+                    - name: Améliorer le suivi des résultats des rapports électroniques générés pour les comparer aux valeurs de référence
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: Automatiser les tests avec la gestion des états électroniques
+                    - name: Automatiser les tests avec les états électroniques
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: Automatiser les processus métier avec les configurations de gestion des états électroniques
+                - name: Automatiser les processus métier avec les configurations d’états électroniques
                   items:
                     - name: Configurer la gestion des états électroniques pour extraire des données vers Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json

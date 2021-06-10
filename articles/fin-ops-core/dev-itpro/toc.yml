@@ -12,13 +12,15 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nouveautés ou modifications dans les mises à jour de la plateforme
               items:
-                - name: Page d’accueil des nouveautés ou modifications dans les mises à jour de la plateforme
+                - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
-                - name: "Mises à jour de la plateforme pour\_la version 10.0.19 (juillet\_2021)"
+                - name: "Mises à jour de la plateforme pour la version\_10.0.20 (juillet\_2021)"
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: "Mises à jour de la plateforme pour la version\_10.0.19 (juin\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: "Mises à jour de la plateforme pour la version 10.0.18 (mai\_2021)"
+                - name: "Mises à jour de la plateforme pour la version\_10.0.18 (mai\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: "Mises à jour de la plateforme pour\_la version 10.0.17 (avril\_2021)"
+                - name: "Mises à jour de la plateforme pour la version\_10.0.17 (avril\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Fonctionnalités supprimées ou obsolètes
               items:
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Nouveautés ou modifications dans Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Fonctionnalités supprimées ou obsolètes dans Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Guide de l’utilisateur de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Intégration du projet
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Gestion du cycle de vie de l’application
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Propriétaire de l’équipe spécifié par l’utilisateur
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Dissocier et relier les environnements de double écriture
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Mise en correspondance des concepts entre les applications
                   items:
                     - name: Données principales client intégrées
@@ -1166,9 +1170,11 @@
               items:
                 - name: Présentation des compléments
                   href: power-platform/add-ins-overview.md
+            - name: Stratégies et communications
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Plateforme mobile
           items:
-            - name: Ressources de plateforme mobile
+            - name: Ressources de la plateforme mobile
               href: mobile-apps/platform/mobile-platform-home-page.md
             - name: Mise en route
               items:
