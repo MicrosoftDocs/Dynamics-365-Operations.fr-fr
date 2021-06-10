@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812977"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049434"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse de concordance pour l’optimisation de la planification
 
@@ -89,13 +89,13 @@ Le tableau suivant présente les différents résultats qui peuvent être affich
 | Production | Plans incluant le classement : _\#_ | Cette fonctionnalité est en attente. Actuellement, le classement est ignoré lorsque l’Optimisation de la planification est activée, quel que soit ce paramètre. | Octobre 2021 – avril 2022 |
 | Production | Ordres de fabrication lancés qui n’ont pas commencé, lorsque la date de début planifiée est antérieure à aujourd’hui : _\#_ | Cette fonctionnalité est en attente. Actuellement, si un ordre de fabrication est retardé, la planification générale supposera qu’il sera terminé aujourd’hui. Ceci est pertinent pour les ordres de fabrication lancés dont la date de livraison est dans le passé, mais qui ne sont pas encore terminés. | Octobre 2021 – avril 2022 |
 | Production | Ressources planifiées avec une capacité finie : _\#_ | Cette fonctionnalité est en attente. Actuellement, les ressources planifiées avec une capacité limitée sont ignorées lorsque l’Optimisation de la planification est activée. La planification est effectuée en fonction du délai de livraison par défaut du produit. | Infini : juin 2021, fini : octobre 2021 |
-| Production | Gammes utilisées lors de la planification : _\#_ | Cette fonctionnalité est en attente. Actuellement, les gammes sont ignorées lorsque l’Optimisation de la planification est activée. Le délai de livraison par défaut du produit est utilisé. | 2021 juin |
+| Production | Gammes utilisées lors de la planification : _\#_ | Cette fonctionnalité est en attente. Actuellement, les gammes sont ignorées lorsque l’Optimisation de la planification est activée. Le délai de livraison par défaut du produit est utilisé. | Juillet 2021 |
 | Production | Réservation de ligne de vente avec éclatement : _\#_ | La réservation de ligne de vente qui utilise un éclatement n’est pas prise en charge lorsque l’Optimisation de la planification est activée. | 2021 octobre |
 | Production | Planification avec éclatement des ordres de fabrication : _\#_ | La planification qui utilise un éclatement des ordres de fabrication n’est pas prise en charge lorsque l’Optimisation de la planification est activée. Les ordres de fabrication peuvent être planifiés individuellement. | 2021 octobre |
 | Appel d’offre | Plans généraux avec les appels d’offre activés : _\#_ | Cette fonctionnalité est en attente. Actuellement, les appels d’offre ne sont pas considérés comme une demande lorsque l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | Octobre 2021 – avril 2022 |
 | Demandes d’achat | Plans généraux avec les demandes d’achat activées : _\#_ | Cette fonctionnalité est désormais prise en charge. Pour plus d’informations, voir [Demandes d’achat](purchase-requisitions.md) | Prise en charge |
-| Marges de sécurité | Groupes de couverture avec la marge de sécurité : _\#_ | Cette fonctionnalité est désormais partiellement prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) | Marge de réception : prise en charge. Marge de renouvellement et marge de sortie : avril 2021 |
-| Marges de sécurité | Plans généraux avec la marge de sécurité : _\#_ | Cette fonctionnalité est désormais partiellement prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) | Marge de réception : prise en charge. Marge de renouvellement et marge de sortie : avril 2021 |
+| Marges de sécurité | Groupes de couverture avec la marge de sécurité : _\#_ | Cette fonctionnalité est désormais partiellement prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) | Marge de réception : prise en charge. Marge de renouvellement et marge de sortie : avril à octobre 2021 |
+| Marges de sécurité | Plans généraux avec la marge de sécurité : _\#_ | Cette fonctionnalité est désormais partiellement prise en charge. Pour plus d’informations, consultez [Marges de sécurité](safety-margins.md) | Marge de réception : prise en charge. Marge de renouvellement et marge de sortie : avril à octobre 2021 |
 | Traitement du stock de sécurité | Enregistrements de la couverture des articles avec « Exécuter le minimum » différent de « Date du jour + heure d’achat » : _\#_ | L’Optimisation de la planification utilise toujours *Date du jour + heure d’achat*. Cette modification est effectuée pour préparer une configuration de planification simplifiée à l’avenir et pour fournir un résultat exploitable. Si le délai d’approvisionnement n’est pas inclus pour le stock de sécurité, les commandes planifiées qui sont créées pour le stock disponible actuellement bas seront toujours retardées en raison du délai de livraison. Ce comportement peut provoquer des perturbations importantes et des ordres prévisionnels indésirables. La meilleure pratique consiste à modifier le paramètre afin que *Date du jour + heure d’achat* soit utilisé. Mettez à jour les données principales pour éviter les avertissements. | S.o. |
 | Devis de vente | Plans généraux avec les devis de vente activés : _\#_ | Cette fonctionnalité est en attente. Actuellement, les devis ne sont pas considérées lorsque l’Optimisation de la planification est activée. Elles seront ignorées, quel que soit ce paramètre. | Octobre 2021 – avril 2022 |
 | Durée de conservation | Plans généraux avec la durée de conservation activée : _\#_ | Cette fonctionnalité est en attente. Actuellement, la durée de conservation est ignorée lorsque l’Optimisation de la planification est activée, quel que soit ce paramètre. | 2021 octobre |

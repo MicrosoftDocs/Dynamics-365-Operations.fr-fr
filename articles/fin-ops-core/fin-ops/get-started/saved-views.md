@@ -2,7 +2,7 @@
 title: Vues enregistrées
 description: Cette rubrique décrit l’utilisation des fonctionnalités de vues enregistrées.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744613"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050554"
 ---
 # <a name="saved-views"></a>Vues enregistrées
 
@@ -126,17 +126,26 @@ Pour publier une vue, procédez comme suit :
 5. **Mise à jour 10.0.17 ou ultérieure :** si la fonctionnalité **(Version préliminaire) Prise en charge de la traduction pour les vues d’organisation** est activée, vous pouvez ajouter des traductions pour le nom de votre vue dans autant de langues requises par votre organisation en sélectionnant le bouton **Traductions** en regard du champ **Nom**. Le nom de la vue sera alors affiché aux utilisateurs dans leur langue actuelle. Vous pouvez également définir la langue par défaut pour spécifier la traduction qui sera affichée aux utilisateurs qui exécutent des langues pour lesquelles aucune traduction n’est définie.
 5. Facultatif : entrez une description pour la vue afin que les utilisateurs qui la reçoivent puissent mieux comprendre son objectif. 
 6. Déterminez si la vue doit être publiée comme vue par défaut pour les utilisateurs sélectionnés. Lorsqu’une vue est définie comme vue par défaut, les utilisateurs la voient la prochaine fois qu’ils ouvriront la page cible. La vue par défaut unique et globale de chaque utilisateur ciblé sera modifiée. Cependant, les utilisateurs peuvent toujours modifier leur vue par défaut après la publication.
-7. Ajoutez les rôles de sécurité qui correspondent aux utilisateurs ciblés par cette vue. 
-8. Déterminez si vous souhaitez publier la vue dans les rôles enfants de chaque rôle de sécurité sélectionné. Si vous le faites, cochez la case **Inclure les rôles enfants** de la ligne des rôles de sécurité appropriés. Notez que cette case à cocher n’est pas disponible pour les rôles qui n’ont pas de rôle enfant.
-9. Ajoutez les entités juridiques pour lesquelles cette vue doit être disponible. 
-10. Sélectionnez **Publier**.
+
+    > [!NOTE]
+    > Tenez compte des éléments suivants lors de la publication d’une vue comme vue par défaut : 
+    > -  Si vous publiez une vue comme vue par défaut pour certaines ou toutes les entités juridiques, vous modifiez la vue par défaut unique et **globale** de chaque utilisateur ciblé. 
+    > -  Si un utilisateur a des rôles dans lesquels plusieurs vues sont publiées comme vue par défaut, la dernière vue publiée sera utilisée comme vue par défaut de l’utilisateur. 
+
+8. Ajoutez les rôles de sécurité qui correspondent aux utilisateurs ciblés par cette vue. 
+9. Déterminez si vous souhaitez publier la vue dans les rôles enfants de chaque rôle de sécurité sélectionné. Si vous le faites, cochez la case **Inclure les rôles enfants** de la ligne des rôles de sécurité appropriés. Notez que cette case à cocher n’est pas disponible pour les rôles qui n’ont pas de rôle enfant.
+10. Ajoutez les entités juridiques pour lesquelles cette vue doit être disponible. 
+
+    > [!NOTE]
+    > Tenez compte des attentes suivantes lorsque vous publiez une vue sur une entité juridique.
+    > 
+    > Si vous publiez une vue dans une entité juridique, mais que vous ne la publiez pas comme vue par défaut, les utilisateurs ne verront initialement la vue dans le sélecteur de vue que pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, elle sera toujours dans le sélecteur de vue de l’utilisateur pour cette page, quelle que soit l’entité juridique.
+
+11. Sélectionnez **Publier**.
 
 Notez que dans certains environnements, il peut prendre un certain temps (jusqu’à une heure) avant que les utilisateurs voient la vue publiée.
 
-> [!NOTE]
-> Tenez compte des attentes suivantes lorsque vous publiez une vue dans une entité juridique ou lorsque vous publiez une vue comme vue par défaut.
-> - Si vous publiez une vue comme vue par défaut pour toutes ou certaines entités juridiques, vous modifiez la vue par défaut unique et globale de chaque utilisateur ciblé. Si un utilisateur a des rôles dans lesquels plusieurs vues sont publiées comme vue par défaut, la dernière vue publiée sera utilisée comme vue par défaut de l’utilisateur. 
-> - Si vous publiez une vue dans une entité juridique, mais que vous ne la publiez pas comme vue par défaut, les utilisateurs ne verront initialement la vue dans le sélecteur de vue que pour les entités juridiques spécifiées. Cependant, une fois la vue chargée pour la première fois, elle sera toujours dans le sélecteur de vue de l’utilisateur pour cette page, quelle que soit l’entité juridique. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Modifier une vue émise
 
