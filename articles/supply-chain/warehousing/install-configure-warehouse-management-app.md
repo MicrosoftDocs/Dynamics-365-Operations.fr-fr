@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908950"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049314"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installer et connecter l’application mobile Gestion des entrepôts
 
@@ -92,7 +92,7 @@ Pour permettre à l’application mobile Gestion des entrepôts d’interagir av
 
 1. Votre nouvel enregistrement d’application s’ouvre. Notez la valeur dans le champ **ID d’application (client)**, car vous en aurez besoin ultérieurement. Cet ID sera appelé *ID client* plus loin dans cette rubrique.
 
-    ![ID application (client)](media/app-connect-azure-app-id.png "ID application (client)")
+    ![ID application (client)](media/app-connect-azure-app-id.png "ID d’application (client)")
 
 1. Dans la liste **Gérer**, cliquez sur **Certificat et secrets**. Sélectionnez ensuite l’un des boutons suivants, selon la façon dont vous souhaitez configurer l’application pour l’authentification. (Pour plus d’informations, consultez la section [Authentification à l’aide d’un certificat ou un secret client](#authenticate) plus loin dans cette rubrique.)
 
@@ -295,5 +295,9 @@ Si un appareil est perdu ou compromis, vous devez supprimer son accès à Supply
 1. Sélectionnez **Supprimer** dans la barre d’outils.
 1. Dans la boîte de message de confirmation qui apparaît, sélectionnez **Oui**.
 
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Paramètres utilisateur d’appareil mobile](mobile-device-user-settings.md)
+- [Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management](step-icons-titles.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

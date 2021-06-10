@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832968"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088463"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Prise en charge de la double devise pour la taxe
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Pour plus d’informations sur la double devise, reportez-vous à [Double devise
 En raison de la prise en charge des doubles devises, deux nouvelles fonctionnalités sont disponibles dans la gestion des fonctionnalités : 
 
 - Conversion de la taxe (nouveauté de la version 10.0.13)
+- Saisissez les dimensions financières dans les comptes de profits/pertes d’ajustement de devise réalisés pour le règlement de la taxe (nouveau dans la version 10.0.17)
 
-La prise en charge de la double devise pour les taxes permet le calcul précis des taxes dans la devise de la taxe et le calcul précis du solde du règlement de la taxe dans la devise comptable et la devise de déclaration. 
+La prise en charge de la double devise pour les taxes permet de calculer avec précision les taxes dans la devise de la taxe et de calculer avec précision le solde du règlement de la taxe à la fois dans la devise comptable et la devise de déclaration.
 
 ## <a name="sales-tax-conversion"></a>Conversion de la taxe
 
@@ -88,6 +89,10 @@ Cette fonctionnalité ne s’appliquera qu’aux nouvelles transactions. Pour la
 
 Pour éviter le scénario précédent, nous vous recommandons de modifier cette valeur de paramètre dans une nouvelle période de règlement de la taxe qui ne contient aucune transaction de taxe non réglée. Pour modifier cette valeur au cours d’une période de règlement de la taxe, exécutez le programme « Régler et valider la taxe » pour la période de règlement de la taxe actuelle avant de modifier cette valeur de paramètre.
 
+Cette fonctionnalité ajoutera des écritures comptables qui clarifient les gains et les pertes des changes. Les écritures seront créées dans les comptes de profits et pertes d’ajustement de devise réalisés lorsque la réévaluation est effectuée pendant le règlement de la taxe. Pour plus d’informations, consultez la section [Équilibrage automatique du règlement de la taxe dans la devise de déclaration](#tax-settlement-auto-balance-in-reporting-currency) plus loin dans cette rubrique.
+
+> [!NOTE]
+> Lors du règlement, les informations des dimensions financières sont extraites des comptes de taxe, qui sont des comptes de bilan, et saisies dans les comptes de profits et pertes d’ajustement de devise, qui sont des comptes de relevé de profits et pertes. Étant donné que les restrictions sur la valeur des dimensions financières diffèrent entre les comptes de bilan et les comptes de relevé de profits et pertes, une erreur peut se produire pendant le processus Régler et valider la taxe. Pour éviter de devoir modifier les structures du compte, vous pouvez activer la fonctionnalité « Renseigner les dimensions financières des comptes de profits/pertes d’ajustement de devise réalisés pour le règlement de la taxe ». Cette fonctionnalité forcera la dérivation des dimensions financières vers les comptes de profits/pertes d’ajustement de devise. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Suivre le montant de la taxe dans la devise de déclaration
 
@@ -114,7 +119,7 @@ En utilisant l’exemple précédent pour démontrer cette fonctionnalité, supp
 | Devise comptable             | 100                        | 111                       | 83                       | **83,25**          |
 | Devise de déclaration              | 100                        | 111                       | 83                       | **83**             |
 
-Lorsque vous exécutez le programme de règlement de la taxe en fin de mois, l’écriture comptable se présentera comme suit :
+Lorsque vous exécutez le programme de règlement de la taxe en fin de mois, l’écriture comptable se présentera comme suit.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Scénario : conversion de la taxe = « Devise comptable »
 
 | Compte principal           | Devise de la transaction (GBP) | Devise comptable (USD) | Devise de déclaration (GBP) |

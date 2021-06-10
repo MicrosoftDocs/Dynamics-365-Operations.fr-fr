@@ -2,7 +2,7 @@
 title: Mise en route de l’administration du service de Facturation électronique
 description: Cette rubrique explique comment démarrer avec la Facturation électronique.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980973"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092404"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Mise en route de l’administration du service de Facturation électronique
 
@@ -44,18 +44,14 @@ Avant d’effectuer les étapes de cette rubrique, les conditions préalables su
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installer le module complémentaire pour les microservices dans Lifecycle Services
 
-1. Connectez-vous à votre compte LCS.
-2. Sélectionnez la vignette **Gestion des fonctionnalités d’aperçu**.
-3. Dans la section **Fonctionnalités de version préliminaire**, sélectionnez **Facturation électronique**.
-4. Veillez à ce que l’option **Fonctionnalité de version préliminaire activée** soit définie sur **Oui**.
-5. Sur votre tableau de bord Projet LCS, sélectionnez un projet LCS.
-6. Dans le projet LCS, sur le tableau de bord de l'environnement LCS, sélectionnez votre projet de déploiement LCS. Le projet de déploiement LCS doit être en cours d’exécution.
-7. Dans l'onglet **Intégration Power Platform**, dans le groupe de champs **Compléments d'environnement**, sélectionnez **Installer un nouveau complément**.
-8. Sélectionnez **Facturation électronique**.
-9. Dans le champ **ID d’application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
-10. Dans le champ **ID client AAD**, entrez l’ID client de votre compte d’abonnement Azure.
-11. Passez en revue les conditions générales, puis cochez la case.
-12. Sélectionnez **Installer**.
+1. Connectez-vous à votre compte LCS et, sur le tableau de bord du projet LCS, sélectionnez un projet LCS.
+2. Dans le projet, sur le tableau de bord de l’environnement, sélectionnez votre projet de déploiement LCS. Le projet que vous sélectionnez doit être en cours d’exécution.
+3. Dans l'onglet **Intégration Power Platform**, dans le groupe de champs **Compléments d'environnement**, sélectionnez **Installer un nouveau complément**.
+4. Sélectionnez **Facturation électronique**.
+5. Dans le champ **ID d’application AAD**, entrez **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Cette valeur est une valeur fixe.
+6. Dans le champ **ID client AAD**, entrez l’ID client de votre compte d’abonnement Azure.
+7. Passez en revue les conditions générales, puis cochez la case.
+8. Sélectionnez **Installer**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Définir les paramètres pour l’intégration RCS avec la Facturation électronique

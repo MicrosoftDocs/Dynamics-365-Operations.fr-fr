@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2c69ab02ea9e6a5a5699a204258243d6204413b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e89e8b4860bbafe4bd47d62d2feb7d197f233d24
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825300"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102780"
 ---
 # <a name="purchasing-policies-overview"></a>Vue d’ensemble des politiques d’achat
 
@@ -55,7 +55,7 @@ Lorsqu’un employé de l’entité juridique 2222 crée une demande d’achat, 
 Dans l’exemple précédent, toutes les règles d’achat étaient définies dans une seule hiérarchie d’organisation intitulée Sociétés. Cependant, une organisation complexe peut définir des stratégies pour plusieurs hiérarchies d’organisation.  
 
 
-Contoso est une grande entreprise qui fait appel à des règles d’achat complexes pour contrôler le processus de demande. Contoso a défini des règles pour deux hiérarchies d’organisation différentes : « Contrôle d’achat global » et « Département ».  
+Contoso est une grande entreprise qui fait appel à des règles d’achat complexes pour contrôler le processus de demande. Contoso a défini des règles pour deux hiérarchies d’organisation différentes : « Contrôle d’achat global » et « Département ».  
 
 La stratégie 123 est définie pour la hiérarchie d’organisation « Département » pour le département Ventes au Royaume-Uni. Dans la stratégie 123, la règle « Contrôle de demande d’achat » spécifie que des restrictions de quantité de commande minimale doivent être appliquées. Dans cette règle, l’option **Appliquer des restrictions de quantité de commande minimale** est sélectionnée.  
 

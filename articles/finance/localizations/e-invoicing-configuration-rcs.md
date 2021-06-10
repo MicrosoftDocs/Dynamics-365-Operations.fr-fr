@@ -2,7 +2,7 @@
 title: Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 description: Cette rubrique explique comment configurer la Facturation électronique dans Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897718"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075141"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurer la Facturation électronique dans Regulatory Configuration Services (RCS)
 
@@ -194,6 +194,8 @@ Les listes suivantes présentent les configurations de format ER disponibles pou
 
 - Facture client (ES)
 - Facture de projet (ES)
+
+En plus des configurations de format d’états électroniques disponibles par défaut pour une utilisation avec le service de facturation électronique, vous pouvez également créer vos propres configurations de format d’états électroniques. Cependant, les configurations de format créées pour être utilisées avec les fonctionnalités de facturation électronique ne prennent pas en charge la référence directe aux tables de Finance ou de Supply Chain Management ou aux métadonnées correspondantes. Seules les références au mappage de modèles d’états électroniques sont prises en charge.
 
 ### <a name="actions"></a>Actions
 

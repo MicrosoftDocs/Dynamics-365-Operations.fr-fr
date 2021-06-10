@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808796"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102924"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configuration des appareils mobiles pour le travail d’entrepôt
 
@@ -41,6 +41,7 @@ Pour créer une option de menu pour une activité ou une recherche, définissez 
 > Des champs supplémentaires peuvent être disponibles pour les options de menu selon le mode sélectionné pour l’option de menu, et si l’option de menu est utilisée pour effectuer un travail existant. Pour plus d’informations sur les sélections de champs supplémentaires, voir la section « Options de menu supplémentaires » plus loin dans cette rubrique.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurer des options de menu pour les activités et les recherches
+
 Si le champ **Mode** d’une option de menu est défini sur **Indirect**, vous pouvez créer une option de menu pour effectuer une activité ou une recherche générale qui ne crée pas de travail. Il peut s’agir par exemple de la réimpression des étiquettes de contenant ou d’une recherche sur les articles dans un emplacement. Le tableau suivant répertorie les options disponibles.
 
 | Option | Description |
@@ -64,10 +65,9 @@ Si le champ **Mode** d’une option de menu est défini sur **Indirect**, vous p
 | Afficher la liste des travaux en cours | Afficher la liste des travaux disponibles à un utilisateur donné. L’utilisateur peut ensuite sélectionner le travail à effectuer et être dirigé vers celui-ci. Cette liste peut être affichée sur les tablettes dont la taille d’écran est d’au moins 7 pouces. Lorsque vous sélectionnez cette option, les options de menu **Modifier la requête** et **Liste de champs** deviennent disponibles. La page **Modifier la requête** permet de paramétrer les critères pour le travail qui s’affiche dans la liste. La page **Liste de champs** permet de sélectionner les champs qui s’affichent dans la liste des travaux. Par exemple, vous pouvez réduire le nombre de champs qui s’affichent pour permettre à l’utilisateur de sélectionner plus rapidement l’élément de travail le plus approprié. Dans le raccourci **Général**, dans le champ **Enregistrements par page**, vous pouvez également sélectionner le nombre d’enregistrements de travail visibles par page. Si l’option **Autoriser les utilisateurs à filtrer le travail par type de transaction** est sélectionnée, la liste des travaux inclut un contrôle supplémentaire **Filtrer le travail** qui permet à l’utilisateur de filtrer le travail par type de transaction. Dans la liste des travaux, seul le travail auquel les utilisateurs sont autorisés à accéder est visible. Vous devez vous assurer que les utilisateurs disposent d’autorisations pour une ou plusieurs options de menu dirigées par l’utilisateur qui prennent en charge les types de classe de travail spécifiques auxquels ils doivent pouvoir accéder. Les autorisations sont vérifiées lorsqu’un utilisateur tente d’effectuer un travail de la liste.|
 | Créer un ordre de transfert à partir des contenants | Permet aux magasiniers de créer et de traiter des ordres de transfert directement à partir de l’application mobile Gestion des entrepôts. Les magasiniers commencent par sélectionner l’entrepôt de destination et peuvent ensuite analyser un ou plusieurs contenants à l’aide de l’application. Lorsque le magasinier sélectionne **Terminer la commande**, un traitement par lots créera l’ordre de transfert requis et les lignes de commande en fonction du stock disponible enregistré pour ces contenants. Pour plus d’informations, voir [Créer des ordres de transfert depuis l’application d’entreposage](create-transfer-order-from-warehouse-app.md)
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurer des options de menu pour créer un travail pour un autre collaborateur ou un autre processus
-Vous pouvez paramétrer une option de menu qui crée un travail pour un autre collaborateur après l’exécution d’une première action sur l’appareil mobile. Par exemple, lorsqu’un collaborateur utilise un appareil mobile pour recevoir un article, le travail de rangement est créé pour un autre collaborateur. Pour paramétrer une option de menu qui crée un travail, dans la page **Options de menu d’appareil mobile**, dans le champ **Mode**, sélectionnez **Travail**. Dans le tableau suivant, les options du champ **Processus de création du travail** sont classées par type d’ordre d’exécution.
 
+Vous pouvez paramétrer une option de menu qui crée un travail pour un autre collaborateur après l’exécution d’une première action sur l’appareil mobile. Par exemple, lorsqu’un collaborateur utilise un appareil mobile pour recevoir un article, le travail de rangement est créé pour un autre collaborateur. Pour paramétrer une option de menu qui crée un travail, dans la page **Options de menu d’appareil mobile**, dans le champ **Mode**, sélectionnez **Travail**. Dans le tableau suivant, les options du champ **Processus de création du travail** sont classées par type d’ordre d’exécution.
 
 <table>
 <tbody>
@@ -249,7 +249,7 @@ Outre la configuration des options de menu pour créer le travail d’entrepôt,
 <li><strong>Champ Utilisateur validé dirigé</strong> – Sélectionnez le champ que le collaborateur numérise pour grouper le travail.</li>
 <li><strong>Étiquette d’utilisateur validé dirigé</strong> – Entrez le texte indiquant au collaborateur quoi numériser lorsque le travail de prélèvement est groupé par le système.</li>
 </ul>
-Cette option est utile, par exemple, lorsque plusieurs palettes sont prévues pour un chargement. Si vous sélectionnez le champ <strong>LoadId</strong> dans le champ <strong>Utilisateur validé dirigé</strong>, le collaborateur peut prélever toute palette associée au chargement. Le collaborateur reçoit un message d’erreur s’il analyse un article qui n’est pas associé au chargement.</td>
+Cette option est utile, par exemple, lorsque plusieurs palettes sont prévues pour un chargement. Si vous sélectionnez le champ <strong>LoadId</strong> dans le champ <strong>Utilisateur validé dirigé</strong>, le collaborateur peut prélever toute palette associée au chargement. Le collaborateur reçoit un message d’erreur s’il scanne un article qui n’est pas associé au chargement.</td>
 </tr>
 <tr class="odd">
 <td>Prélèvement de groupement</td>
@@ -407,6 +407,7 @@ Le tableau suivant décrit ces options.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Exiger que les collaborateurs confirment le produit, l’emplacement ou la quantité en prélevant des articles
+
 Vous pouvez paramétrer des confirmations de travail qui exigent que le collaborateur utilise un appareil mobile pour enregistrer l’emplacement ou la quantité lorsqu’il effectue un travail dans l’entrepôt. Les confirmations de travail permettent de garantir que le collaborateur se trouve à l’emplacement correct ou qu’il traite la quantité correcte d’articles. Vous pouvez également activer Supply Chain Management pour confirmer automatiquement l’enregistrement du collaborateur. Si vous activez la confirmation automatique, vous ne pouvez pas également demander de confirmer l’emplacement ou la quantité. Les confirmations de travail incluent également les produits et les variantes de produit. En outre, vous pouvez enregistrer des confirmations en numérisant un code-barres. Pour confirmer les produits et les variantes de produit, vous devez entrer un ID pour le produit ou la variante de produit. Cela peut être un ID produit, un ID de recherche de produit, un ID externe, un code GTIN ou un code-barres. Une fois l’ID entré ou le code-barres numérisé, les dimensions de la variante de produit sont affichées dans l’appareil mobile. 
 
 Le tableau suivant décrit les différents types de travail avec lesquels vous pouvez utiliser des confirmations de travail.
@@ -426,14 +427,11 @@ Le tableau suivant décrit les différents types de travail avec lesquels vous p
 > [!NOTE]
 > Vous ne pouvez demander la confirmation du produit que pour les types de prélèvements et de placements de travail.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Configurer une option de menu de périphérique portable pour terminer le travail du type commande fournisseur](tasks/set-up-mobile-device-menu.md)
-
-[Paramétrer une option de menu d’appareil mobile pour enregistrer les articles reçus](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Statuts du stock](../inventory/inventory-statuses.md)
+- [Configurer une option de menu de périphérique portable pour terminer le travail du type commande fournisseur](tasks/set-up-mobile-device-menu.md)
+- [Paramétrer une option de menu d’appareil mobile pour enregistrer les articles reçus](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Statuts du stock](../inventory/inventory-statuses.md)
 
 
 

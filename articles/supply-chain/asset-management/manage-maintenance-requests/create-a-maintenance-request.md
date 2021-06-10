@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af67d320f14fc6c3d28eec47de402ba645eea06d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836780"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102972"
 ---
 # <a name="create-maintenance-requests"></a>Créer des demandes de maintenance
 
@@ -30,7 +30,7 @@ ms.locfileid: "5836780"
 
 Les demandes de maintenance peuvent être utilisées si les agents de maintenance ou de production découvrent que l’équipement doit être réparé, mais que la réparation ne peut pas être effectuée immédiatement.
 
-**Exemple :** Pendant qu’un agent de maintenance effectue une réparation, il découvre qu’un autre actif situé au même endroit doit être réparé. Cependant, l’agent de maintenance n’a pas le temps ni les pièces de rechange nécessaires pour effectuer le travail de réparation. Par conséquent, il crée une demande de maintenance pour l’actif et entre une brève description du problème.
+**Exemple :** pendant qu’un agent de maintenance effectue une réparation, il découvre qu’un autre actif situé au même endroit doit être réparé. Cependant, l’agent de maintenance n’a pas le temps ni les pièces de rechange nécessaires pour effectuer le travail de réparation. Par conséquent, il crée une demande de maintenance pour l’actif et entre une brève description du problème.
 
 La section **Demandes de maintenance actives** du volet **Informations associées** à droite de la page **Tous les actifs** ou **Actifs actifs** (**Gestion d’actifs** \> **Commun** \> **Actifs** \> **Tous les actifs** ou **Actifs actifs**) affiche les demandes de maintenance actives attachées à l’actif sélectionné.
 

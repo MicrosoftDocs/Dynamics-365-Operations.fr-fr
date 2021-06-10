@@ -2,7 +2,7 @@
 title: Mise en route du calcul de la taxe
 description: Cette rubrique explique comment paramétrer le calcul des taxes.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018877"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060561"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Prise en main du calcul des taxes (Version préliminaire)
 
@@ -41,7 +41,7 @@ La configuration se compose de quatre étapes principales :
 
 Avant de pouvoir effectuer les étapes de cette rubrique, les conditions préalables suivantes doivent être remplies :
 
-- Vous avez accès à votre compte LCS et vous avez déployé un projet LCS avec un environnement de niveau 2 (ou supérieur) qui exécute Dynamics 365 version 10.0.18 ou ultérieure.
+- Vous avez accès à votre compte LCS et vous avez déployé un projet LCS avec un environnement de niveau 2 (ou supérieur) qui exécute Dynamics 365 version 10.0.18 avec [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) ou une version ultérieure.
 - Vous avez accès à votre compte RCS.
 - Vous avez contacté Microsoft pour activer la distribution de versions d’évaluation dans votre environnement Finance ou Supply Chain Management déployé.
 

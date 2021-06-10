@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: afffdfba965806d18b148c77774a31bbb3c0c46c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7628f2fc3d3a7e5bb1175edf59f856bc40f9b987
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831768"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102828"
 ---
 # <a name="flex-groups"></a>Groupes flexibles
 
@@ -103,7 +103,7 @@ Le collaborateur est associé à un groupe flexible qui a la configuration suiva
 - **Type de salaire minimal :** 1302
 - **Facteur de type de salaire :** -1,0
 
-Comme la différence entre le compte flexible de la collaboratrice et son maximum flexible autorisé l’indiquent, la collaboratrice a dépassé son maximum flexible autorisé de 4,0 heures.
+Comme la différence entre le compte flexible du collaborateur et son maximum flexible autorisé l’indique, le collaborateur a dépassé son maximum flexible autorisé de 4,0 heures.
 
 Lorsque l’administrateur de salaire transfère les données de salaire du collaborateur en exécutant la tâche **Transférer dans la paye** ou **Ajustement flexible**, les ajustements suivants sont effectués :
 

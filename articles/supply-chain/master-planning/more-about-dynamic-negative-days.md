@@ -1,27 +1,21 @@
 ---
 title: Jours négatifs et jours négatifs dynamiques
 description: Cette rubrique fournit des informations sur les jours négatifs et les jours négatifs dynamiques, et la manière de les mettre à profit pour votre activité.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907739"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097232"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Jours négatifs et jours négatifs dynamiques
 
@@ -45,7 +39,7 @@ Vous pouvez recevoir la demande relativement tôt dans le délai d’exécution 
 - L’article DemoProduct a un cycle d’approvisionnement de six jours.
 - Au jour zéro (1er janvier), le niveau de stock de l’article DemoProduct est 0 (zéro).
 - Au jour zéro (1er janvier), vous recevez une commande client pour une quantité de 10 de l’article DemoProduct.
-- Au jour sept (7 janvier), il existe une commande fournisseur pour une quantité de 10 de l’article DemoProduct.
+- Au jour sept (8 janvier), il existe une commande fournisseur pour une quantité de 10 de l’article DemoProduct.
 
 La figure suivante présente une vue graphique de ce scénario.
 
@@ -112,7 +106,7 @@ Vous pouvez recevoir la demande à un moment quelconque du délai d’exécution
 
 La figure suivante présente une vue graphique de ce scénario.
 
-![Vue graphique du scénario 1](./media/negative-days-8.png)
+![Vue graphique du scénario 2](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Cas A : les jours négatifs sont inférieurs au délai d’exécution de l’article
 
@@ -157,7 +151,7 @@ Vous pouvez recevoir la demande après le délai d’exécution de l’article. 
 - L’article DemoProduct a un cycle d’approvisionnement de six jours.
 - Au jour zéro (1er janvier), le stock de l’article DemoProduct est 0 (zéro).
 - Au jour sept (8 janvier), qui se situe à l’extérieur du délai d’exécution de l’article, vous recevez une commande client pour une quantité de 10 de l’article DemoProduct.
-- Au jour 10 (11 janvier), il existe une commande fournisseur pour une quantité de 10 de l’article DemoProduct.
+- Au jour dix (11 janvier), il existe une commande fournisseur pour une quantité de 10 de l’article DemoProduct.
 
 La figure suivante présente une vue graphique de ce scénario.
 
@@ -219,8 +213,8 @@ Vous pouvez définir les jours négatifs à une longue plage de gestion, puis ut
 - L’article DemoProduct a un cycle d’approvisionnement de six jours.
 - Au jour zéro (1er janvier), le stock de l’article DemoProduct est 0 (zéro).
 - Au jour zéro (1er janvier), vous recevez une commande client pour une quantité de 10 de l’article DemoProduct.
-- Au jour 10 (10 janvier), vous recevez une commande client pour une quantité de 10 de l’article DemoProduct.
-- Au jour 12 (12 janvier), il existe une commande fournisseur pour une quantité de 10 de l’article DemoProduct.
+- Au jour neuf (10 janvier), vous recevez une commande client pour une quantité de 10 de l’article DemoProduct.
+- Au jour onze (12 janvier), il existe une commande fournisseur pour une quantité de 10 de l’article DemoProduct.
 - Les jours négatifs sont définis sur **20**, ce qui est beaucoup plus que le délai d’exécution de l’article.
 
 La figure suivante présente une vue graphique de ce qui se produit.
@@ -229,7 +223,7 @@ La figure suivante présente une vue graphique de ce qui se produit.
 
 La MRP produit les résultats suivants :
 
-![Résultats](./media/negative-days-20.png)
+![Exemple de résultats 1](./media/negative-days-20.png)
 
 Dans le capture d’écran précédente, la date de besoin de la commande client est le 9 janvier au lieu du 10 janvier. Comme cette capture d’écran a été pris en 2015, alors que le 10 janvier était un samedi, la date de besoin de la commande aurait du être le jour ouvrable précédent, qui est le vendredi 9 janvier.
 
@@ -239,7 +233,7 @@ Les résultats ne sont pas erronés, mais le temps d’exécution de la MRP peut
 
 Si vous réduisez les jours négatifs à un nombre plus proche du délai d’exécution de l’article, et que vous utilisez des jours négatifs dynamiques, la MRP produit les résultats suivants.
 
-![Résultats](./media/negative-days-21.png)
+![Exemple de résultats 2](./media/negative-days-21.png)
 
 La MRP crée un ordre prévisionnel associé à la première commande client. Ensuite, comme prévu, la deuxième commande client est liée à la commande fournisseur existante, sur la base des jours négatifs. Ce résultat de planification est également correct, et le temps d’exécution de la MRP peut être plus court. Dans ce cas, il n’est pas vital de comprendre et savoir utiliser les messages d’action.
 

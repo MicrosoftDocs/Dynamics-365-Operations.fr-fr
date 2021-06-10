@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814824"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102997"
 ---
 # <a name="pay-based-on-registrations"></a>Salaire basé sur les enregistrements
 
@@ -77,7 +77,7 @@ Pour comprendre ce scénario, consultez les champs ci-après.
 
 #### <a name="calculation-of-flex"></a>Calcul de Flex+
 
-Selon le profil flexible, l’intervalle entre 06h00 et 07h00 est une période Flex+. Par conséquent, si le collaborateur pointe à 06h30, il gagne 0,5 heures. Ce temps est ajouté au compte flexible du collaborateur.
+Selon le profil flexible, l’intervalle entre 06h00 et 07h00 est une période Flex+. Par conséquent, si le collaborateur pointe à 06h30, il gagne 0,5 heure. Ce temps est ajouté au compte flexible du collaborateur.
 
 #### <a name="calculation-of-flex-"></a>Calcul de Flex-
 
@@ -116,7 +116,7 @@ Après avoir calculé les enregistrements de journal sur la page **Approbation**
 
 #### <a name="calculation-of-flex"></a>Calcul de Flex+
 
-Selon le profil flexible, l’intervalle entre 06h00 et 07h00 est une période Flex+. Par conséquent, si le collaborateur pointe à 06h30, il gagne 0,5 heures Flex+ sur son solde flexible.
+Selon le profil flexible, l’intervalle entre 06h00 et 07h00 est une période Flex+. Par conséquent, si le collaborateur pointe à 06h30, il gagne 0,5 heure Flex+ sur son solde flexible.
 
 #### <a name="calculation-of-flex-"></a>Calcul de Flex-
 
@@ -168,9 +168,9 @@ Pour configurer le système pour distinguer clairement les heures standard des h
 
 Dans la page **Paramètres de calcul**, sélectionnez **Heures supplémentaires** comme type de spécification de profil, puis définissez l’option **Heures rémunérées** sur **Non**, comme indiqué ici.
 
-| Spécification d’enr. | Type de spécification de profils | Calcul   |     | Payé         |     |
+| Spécification d'enr. | Type de spécification de profils | Calcul   | Paramètre | Payée         | Paramètre |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Temps de travail       | Heures supplémentaires                   | Durée standard | Oui | Période de rémunération     | Non  |
+| Temps de travail       | Heures supplémentaires                   | Durée standard | Oui | Période de rémunération     | N°  |
 |                    |                            | Période de rémunération      | Oui | Heures supplémentaires rémunérées | Oui |
 
 Après avoir ajusté les paramètres de calcul, les articles de salaire ci-après sont générés.
@@ -559,7 +559,7 @@ En revanche, si la case à cocher **Déduire les heures supplémentaires** est d
 
 L’exemple suivant montre comment le compte flexible d’un collaborateur peut être réduit en convertissant la période d’absence en période Flex-.
 
-Le collaborateur pointe à l’arrivée à 07h00, puis à la sortie à 13h00. Il a conclu un accord avec son superviseur pour pouvoir rentrer chez lui pendant le week-end s’il déduit ces heures de son compte flexible. Lorsque le collaborateur pointe à la sortie à 13h00, il est invité à sélectionner un code absence, car la période d’absence pour la partie restante de la journée de travail concernée n’est pas dans une période Flex- planifiée. Pour convertir la partie restante de la journée de travail en période Flex-, le collaborateur peut sélectionner un code absence paramétré pour réduire son compte flexible.
+Le collaborateur pointe à l’arrivée à 07h00, puis à la sortie à 13h00. Le collaborateur a convenu qu’il peut rentrer chez lui pour le week-end s’il déduit ces heures de son compte flexible. Lorsque le collaborateur pointe à la sortie à 13h00, il est invité à sélectionner un code absence, car la période d’absence pour la partie restante de la journée de travail concernée n’est pas dans une période Flex- planifiée. Pour convertir la partie restante de la journée de travail en période Flex-, le collaborateur peut sélectionner un code absence paramétré pour réduire son compte flexible.
 
 Pour réduire le solde des heures flexibles pour les collaborateurs qui enregistrent une absence pendant une journée de travail, sélectionnez &gt; **Pointage** **Paramétrage** &gt; **Groupes** &gt; **Groupes d’absence**, puis activez la case à cocher **Réduire horaire flexible**.
 

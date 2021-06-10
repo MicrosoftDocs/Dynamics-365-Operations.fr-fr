@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837463"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049290"
 ---
 # <a name="mobile-device-user-settings"></a>Paramètres utilisateur d’appareil mobile
 
@@ -94,3 +94,8 @@ Suivez ces étapes pour créer et gérer les paramètres utilisateur de vos marq
 
     - **ID du modèle de l’appareil** – L’ID du modèle de l’appareil, tel que *Surface Book 2*.
     - **Description** – Vous pouvez entrer une description pour aider à distinguer les ID de modèle.
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- [Installer et connecter l’application mobile Gestion des entrepôts](install-configure-warehouse-management-app.md)
+- [Affecter des icônes et des titres d’étape pour l’application mobile Warehouse Management](step-icons-titles.md)

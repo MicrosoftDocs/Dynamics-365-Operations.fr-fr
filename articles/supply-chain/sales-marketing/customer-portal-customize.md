@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908998"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102685"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personnaliser et utiliser le portail client
 
@@ -61,7 +61,7 @@ Voici les étapes standard pour soumettre une commande à partir du portail clie
     - **Numéro de la demande** – Saisissez le numéro de demande de la commande. Ce champ n’est pas obligatoire.
     - **Expédier vers le pays/ la région** – Entrez le pays ou la région où les articles seront livrés. Ce champ est automatiquement défini pour les utilisateurs non administrateurs.
 
-    ![Page Informations de commande](media/customer-portal-order-information.png "Page Informations de commande")
+    ![Page Informations sur la commande](media/customer-portal-order-information.png "Page Informations sur la commande")
 
 1. Sélectionnez **Suivant**.
 1. Sur la page **Articles**, sélectionnez **Ajouter un article**.
@@ -82,7 +82,7 @@ Voici les étapes standard pour soumettre une commande à partir du portail clie
 1. Lorsque vous avez terminé d’ajouter des articles, sélectionnez **Suivant** dans la page **Articles**.
 1. La page **Informations sur la commande** fournit un résumé de la commande. Vérifiez le contenu de la commande et les détails de livraison. Si tout semble correct, sélectionnez **Soumettre** pour soumettre la commande.
 
-    ![Page Informations de commande](media/customer-portal-order-submit.png "Page Informations de commande")
+    ![Page Informations sur la commande terminée](media/customer-portal-order-submit.png "Page Informations sur la commande terminée")
 
 ### <a name="standard-data-setup"></a>Configuration des données standard
 
