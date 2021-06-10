@@ -1,14 +1,14 @@
 ---
-title: Aligner les qualifications du personnel sur les besoins de l’entreprise
-description: Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles. Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.
+title: Configurer les compétences
+description: Vous pouvez suivre les compétences de votre collaborateur dans Dynamics 365 Human Resources. Vous pouvez également spécifier les compétences requises pour une tâche spécifique.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793703"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076557"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="8b43b-104">Aligner les qualifications du personnel sur les besoins de l’entreprise</span><span class="sxs-lookup"><span data-stu-id="8b43b-104">Align workforce skills with business needs</span></span>
+# <a name="configure-skills"></a><span data-ttu-id="2332a-104">Configurer les compétences</span><span class="sxs-lookup"><span data-stu-id="2332a-104">Configure skills</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="8b43b-105">Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles.</span><span class="sxs-lookup"><span data-stu-id="8b43b-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="8b43b-106">Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.</span><span class="sxs-lookup"><span data-stu-id="8b43b-106">You can also specify the skills that are required for a specific job.</span></span>
+<span data-ttu-id="2332a-105">Vous pouvez suivre les compétences de votre collaborateur dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="2332a-105">You can track your worker's skills in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="2332a-106">Vous pouvez également spécifier les compétences requises pour une tâche spécifique.</span><span class="sxs-lookup"><span data-stu-id="2332a-106">You can also specify the skills that are required for a specific job.</span></span>
 
-<span data-ttu-id="8b43b-107">Les exemples de qualifications que vous pouvez suivre sont les suivants :</span><span class="sxs-lookup"><span data-stu-id="8b43b-107">Examples of skills you can track include the following:</span></span>
--   <span data-ttu-id="8b43b-108">Supervision – Capacité de superviser le travail des autres.</span><span class="sxs-lookup"><span data-stu-id="8b43b-108">Supervisory – Ability to supervise the work of others.</span></span>
--   <span data-ttu-id="8b43b-109">Leadership – Capacité de diriger des employés et des secteurs d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="8b43b-109">Leadership – Ability to lead employees and business domains.</span></span>
--   <span data-ttu-id="8b43b-110">Planification – Capacité de réfléchir à l’avenir, de formuler des visions et de les mener à bien.</span><span class="sxs-lookup"><span data-stu-id="8b43b-110">Planning – Ability to look ahead, to form visions, and to see them through.</span></span>
--   <span data-ttu-id="8b43b-111">HTML – Capacité d’écrire du code HTML.</span><span class="sxs-lookup"><span data-stu-id="8b43b-111">HTML – Ability to write HTML code.</span></span>
+<span data-ttu-id="2332a-107">Voici des exemples de compétences que vous pouvez suivre :</span><span class="sxs-lookup"><span data-stu-id="2332a-107">Examples of skills you can track include:</span></span>
 
-<span data-ttu-id="8b43b-112">Avant d’affecter une qualification à une personne ou une tâche, de créer une recherche de mise en correspondance des qualifications ou de créer un profil de qualification, vous devez entrer des informations sur les qualifications dans la page **Qualifications**.</span><span class="sxs-lookup"><span data-stu-id="8b43b-112">Before you can assign a skill to a person or a job, create a skill-mapping search, or create a skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="8b43b-113">Pour chaque qualification, vous pouvez sélectionner un type de qualification et un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="8b43b-113">For each skill, you can select a skill type and a rating model.</span></span>
+- <span data-ttu-id="2332a-108">Supervision – Capacité de superviser le travail des autres.</span><span class="sxs-lookup"><span data-stu-id="2332a-108">Supervisory – Ability to supervise the work of others.</span></span>
+- <span data-ttu-id="2332a-109">Leadership – Capacité de diriger des employés et des secteurs d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="2332a-109">Leadership – Ability to lead employees and business domains.</span></span>
+- <span data-ttu-id="2332a-110">Planification – Capacité à anticiper les choses, à former des énoncés de vision et à les mener à bien.</span><span class="sxs-lookup"><span data-stu-id="2332a-110">Planning – Ability to look ahead, to form vision statements, and to see them through.</span></span>
+- <span data-ttu-id="2332a-111">HTML – Capacité d’écrire du code HTML.</span><span class="sxs-lookup"><span data-stu-id="2332a-111">HTML – Ability to write HTML code.</span></span>
 
-## <a name="rating-models"></a><span data-ttu-id="8b43b-114">Modèles de classement</span><span class="sxs-lookup"><span data-stu-id="8b43b-114">Rating models</span></span>
-<span data-ttu-id="8b43b-115">Le fait de classer les modèles permet d’évaluer le niveau de qualification réel d’une personne, le niveau qu’ils doivent atteindre, ou le niveau de la qualification nécessaire pour une tâche.</span><span class="sxs-lookup"><span data-stu-id="8b43b-115">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill that is required for a job.</span></span> <span data-ttu-id="8b43b-116">Vous pouvez entrer jusqu’à 10 niveaux pour un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="8b43b-116">You can enter up to 10 levels for a rating model.</span></span>  <span data-ttu-id="8b43b-117">Un facteur est affecté à chaque niveau dans un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="8b43b-117">Each level in a rating model is assigned a factor.</span></span>  <span data-ttu-id="8b43b-118">La valeur de facteur sera utilisée pour normaliser les scores de compétences qui utilisent différents modèles de classement.</span><span class="sxs-lookup"><span data-stu-id="8b43b-118">The factor value will be used to normalize the scores of skills that use different rating models.</span></span>  <span data-ttu-id="8b43b-119">Le facteur doit être un numéro compris entre 0 et 9 et chaque niveau doit avoir un facteur unique.</span><span class="sxs-lookup"><span data-stu-id="8b43b-119">The factor must be a number between 0-9 and each level must have a unique factor.</span></span>  <span data-ttu-id="8b43b-120">Les niveaux avec des valeurs de facteur plus élevées ont plus de poids dans un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="8b43b-120">Levels with higher factor values carry more weight in a rating model.</span></span>
+<span data-ttu-id="2332a-112">Si vous n’avez pas déjà configuré des types de compétences et des modèles d’évaluation, vous devrez en ajouter avant de créer des compétences.</span><span class="sxs-lookup"><span data-stu-id="2332a-112">If you haven't already set up skill types and rating models, you'll need to add some before creating skills.</span></span>
 
-## <a name="specify-job-skills"></a><span data-ttu-id="8b43b-121">Spécification des qualifications requises pour une tâche</span><span class="sxs-lookup"><span data-stu-id="8b43b-121">Specify job skills</span></span>
-<span data-ttu-id="8b43b-122">Lorsque vous entrez des informations sur une tâche, vous pouvez spécifier les qualifications qu’une personne doit avoir pour exécuter le travail requis par la tâche.</span><span class="sxs-lookup"><span data-stu-id="8b43b-122">When you enter information about a job, you can specify the skills that a person should have to perform the work required for the job.</span></span>  <span data-ttu-id="8b43b-123">En outre, vous pouvez spécifier le niveau désiré pour chaque qualification, ainsi que le niveau d’importance de la qualification.</span><span class="sxs-lookup"><span data-stu-id="8b43b-123">In addition you can specify the desired level for each skill as well the level of importance of the skill.</span></span> <span data-ttu-id="8b43b-124">Différents postes peuvent nécessiter différents niveaux d’importance d’une même qualification.</span><span class="sxs-lookup"><span data-stu-id="8b43b-124">Different jobs can require different levels of importance for the same skill.</span></span>
+<span data-ttu-id="2332a-113">Les personnes suivantes peuvent saisir des compétences pour un collaborateur :</span><span class="sxs-lookup"><span data-stu-id="2332a-113">The following people can enter skills for a worker:</span></span>
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a><span data-ttu-id="8b43b-125">Saisie de qualifications pour les travailleurs, les candidats, ou les contacts</span><span class="sxs-lookup"><span data-stu-id="8b43b-125">Enter skills for workers, applicants, or contacts</span></span>
-<span data-ttu-id="8b43b-126">Vous pouvez entrer des qualifications cibles ou des qualifications réelles pour les travailleurs, les candidats, ou les contacts.</span><span class="sxs-lookup"><span data-stu-id="8b43b-126">You can enter target skills or actual skills for workers, applicants, or contacts.</span></span> <span data-ttu-id="8b43b-127">Une qualification cible est une qualification que la personne envisage d’acquérir.</span><span class="sxs-lookup"><span data-stu-id="8b43b-127">A target skill is a skill that a person plans to achieve.</span></span> <span data-ttu-id="8b43b-128">Une qualification réelle est une qualification qu’une personne possède actuellement.</span><span class="sxs-lookup"><span data-stu-id="8b43b-128">An actual skill is a skill that a person currently has.</span></span>
+- <span data-ttu-id="2332a-114">Les collaborateurs peuvent saisir des compétences pour eux-mêmes dans le libre-service des employés.</span><span class="sxs-lookup"><span data-stu-id="2332a-114">Workers can enter skills for themselves in Employee self-service.</span></span> <span data-ttu-id="2332a-115">Ces compétences nécessitent l’approbation du responsable.</span><span class="sxs-lookup"><span data-stu-id="2332a-115">These skills require manager approval.</span></span>
+- <span data-ttu-id="2332a-116">Les responsables peuvent saisir des compétences pour leurs collaborateurs.</span><span class="sxs-lookup"><span data-stu-id="2332a-116">Managers can enter skills for their workers.</span></span> <span data-ttu-id="2332a-117">Vous pouvez créer un flux de travail qui approuve automatiquement ces compétences.</span><span class="sxs-lookup"><span data-stu-id="2332a-117">You can create a workflow that auto-approves these skills.</span></span>
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a><span data-ttu-id="8b43b-129">Mise en correspondance des qualifications et profils de mise en correspondance des qualifications</span><span class="sxs-lookup"><span data-stu-id="8b43b-129">Skill mapping and Skill mapping profiles</span></span>
-<span data-ttu-id="8b43b-130">Vous pouvez créer une recherche de mise en correspondance des qualifications pour rechercher un collaborateur, un candidat, ou une personne à contacter qui est qualifiée pour effectuer un type de tâche spécifique de tâche.</span><span class="sxs-lookup"><span data-stu-id="8b43b-130">You can create a skill-mapping search to find a worker, applicant, or contact person who is qualified to perform a specific type of task.</span></span> <span data-ttu-id="8b43b-131">Le recherche de mise en correspondance des qualifications étudie les compétences, la formation, les certificats, les postes de confiance et l’expérience sur le projet et renvoie des résultats qui correspondent aux critères entrés.</span><span class="sxs-lookup"><span data-stu-id="8b43b-131">Skill-mapping searches look across skills, education, certificates, positions of trust and project experience and return results that match the criteria entered.</span></span>  <span data-ttu-id="8b43b-132">Par exemple, il peut être utile de savoir quels collaborateurs de votre organisation ont un diplôme de comptabilité.</span><span class="sxs-lookup"><span data-stu-id="8b43b-132">For example, it might be useful to know which workers in your organization earned their CPA.</span></span>
+## <a name="create-a-skill-type"></a><span data-ttu-id="2332a-118">Créer un type de compétence</span><span class="sxs-lookup"><span data-stu-id="2332a-118">Create a skill type</span></span>
 
-<span data-ttu-id="8b43b-133">Les profils de mise en correspondance des qualifications vous permettent de rechercher les employés actuels ou les candidats dont les qualifications correspondent directement aux besoins de votre entreprise.</span><span class="sxs-lookup"><span data-stu-id="8b43b-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="8b43b-134">Par exemple, vous pouvez créer un profil de mise en correspondance des qualifications pour un poste vacant de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="8b43b-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="8b43b-135">En créant un profil pour une tâche spécifique et en copiant les qualifications, les formations et les certificats de cette tâche dans le profil, vous pouvez rechercher rapidement des travailleurs, des candidats et des personnes à contacter qui correspondent à un ou plusieurs des critères entrés dans le profil et afficher la liste des candidats dont les qualifications correspondent le mieux aux qualifications requises pour la tâche.</span><span class="sxs-lookup"><span data-stu-id="8b43b-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
+<span data-ttu-id="2332a-119">Les types de compétences sont des catégories dans lesquelles entrent les compétences individuelles, telles que Administration ou Vente.</span><span class="sxs-lookup"><span data-stu-id="2332a-119">Skill types are categories that individual skills fall under, such as Administration or Sales.</span></span>
 
-> <span data-ttu-id="8b43b-136">**Remarque** Seuls les travailleurs, les candidats, les personnes à contacter sélectionnés pour être inclus dans les recherches de mise en correspondance des qualifications peuvent être affichés dans la liste des résultats de la mise en correspondance des qualifications ou être inclus dans un profil de qualification.</span><span class="sxs-lookup"><span data-stu-id="8b43b-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="8b43b-137">Pour inclure un travailleur, un candidat ou une personne à contacter dans les recherches de mise en correspondance des qualifications, définissez l’option **Inclure dans la mise en correspondance des qualifications** sur Oui dans les pages suivantes :</span><span class="sxs-lookup"><span data-stu-id="8b43b-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-> 
-> + <span data-ttu-id="8b43b-138">Collaborateur</span><span class="sxs-lookup"><span data-stu-id="8b43b-138">Worker</span></span>
-> + <span data-ttu-id="8b43b-139">Employé</span><span class="sxs-lookup"><span data-stu-id="8b43b-139">Employee</span></span>
-> + <span data-ttu-id="8b43b-140">Candidat</span><span class="sxs-lookup"><span data-stu-id="8b43b-140">Applicant</span></span>
-> + <span data-ttu-id="8b43b-141">contacts ;</span><span class="sxs-lookup"><span data-stu-id="8b43b-141">Contacts</span></span>
+1. <span data-ttu-id="2332a-120">Dans l’espace de travail, **Perfectionnement de l’employé**, sélectionnez **Liens**.</span><span class="sxs-lookup"><span data-stu-id="2332a-120">In the **Employee development** workspace, select **Links**.</span></span>
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a><span data-ttu-id="8b43b-142">Analyse des écarts de qualification et analyse des profils de qualification</span><span class="sxs-lookup"><span data-stu-id="8b43b-142">Skill gap analysis and skill profile analysis</span></span>
-<span data-ttu-id="8b43b-143">Vous pouvez créer une analyse des profils de qualification pour afficher la liste des compétences d’un travailleur, d’un candidat ou d’une personne à contacter à une date spécifique.</span><span class="sxs-lookup"><span data-stu-id="8b43b-143">You can create a skill profile analysis to view a list of the competencies of a worker, applicant, or contact person as of a specific date.</span></span> <span data-ttu-id="8b43b-144">Vous pouvez créer une analyse des écarts de qualification pour comparer les qualifications d’une personne aux qualifications requises pour une tâche donnée.</span><span class="sxs-lookup"><span data-stu-id="8b43b-144">You can create a skill gap analysis to compare a person’s skills and the skills that are required for a specific job.</span></span>  
+2. <span data-ttu-id="2332a-121">Sous **Configuration des compétences**, sélectionnez **Types de compétences**.</span><span class="sxs-lookup"><span data-stu-id="2332a-121">Under **Competency setup**, select **Skill types**.</span></span>
 
+3. <span data-ttu-id="2332a-122">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="2332a-122">Select **New**.</span></span>
 
+4. <span data-ttu-id="2332a-123">Complétez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="2332a-123">Complete the following fields:</span></span>
 
+   - <span data-ttu-id="2332a-124">**Type de compétence** : entrez un nom pour le type de compétence.</span><span class="sxs-lookup"><span data-stu-id="2332a-124">**Skill type**: Enter a name for the skill type.</span></span>
+   - <span data-ttu-id="2332a-125">**Description** : entrez une description pour le type de compétence.</span><span class="sxs-lookup"><span data-stu-id="2332a-125">**Description**: Enter a description for the skill type.</span></span>
+
+5. <span data-ttu-id="2332a-126">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="2332a-126">Select **Save**.</span></span>
+
+## <a name="create-a-rating-model"></a><span data-ttu-id="2332a-127">Créer un modèle d’évaluation</span><span class="sxs-lookup"><span data-stu-id="2332a-127">Create a rating model</span></span>
+
+<span data-ttu-id="2332a-128">Les modèles d’évaluation permettent d’évaluer le niveau de compétence réel d’une personne, le niveau qu’ils doivent atteindre, ou le niveau de compétence nécessaire pour une tâche.</span><span class="sxs-lookup"><span data-stu-id="2332a-128">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill required for a job.</span></span> <span data-ttu-id="2332a-129">Un facteur est affecté à chaque niveau dans un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="2332a-129">Each level in a rating model is assigned a factor.</span></span>
+
+1. <span data-ttu-id="2332a-130">Dans l’espace de travail, **Perfectionnement de l’employé**, sélectionnez **Liens**.</span><span class="sxs-lookup"><span data-stu-id="2332a-130">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="2332a-131">Sous **Configuration des compétences**, sélectionnez **Modèles d’évaluation**.</span><span class="sxs-lookup"><span data-stu-id="2332a-131">Under **Competency setup**, select **Rating models**.</span></span>
+
+3. <span data-ttu-id="2332a-132">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="2332a-132">Select **New**.</span></span>
+
+4. <span data-ttu-id="2332a-133">Complétez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="2332a-133">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="2332a-134">**Évaluation** : entrez un nom pour le modèle d’évaluation, tel que **Compétences**.</span><span class="sxs-lookup"><span data-stu-id="2332a-134">**Rating**: Enter a name for the rating model, such as **Skills**.</span></span>
+   - <span data-ttu-id="2332a-135">**Description** : entrez une description pour le modèle d’évaluation, telle que **Évaluations des compétences**.</span><span class="sxs-lookup"><span data-stu-id="2332a-135">**Description**: Enter a description for the rating model, such as **Skill ratings**.</span></span>
+
+5. <span data-ttu-id="2332a-136">Dans la section **Niveaux**, sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="2332a-136">In the **Levels** section, select **New**.</span></span> <span data-ttu-id="2332a-137">Pour chaque niveau que vous souhaitez ajouter, complétez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="2332a-137">For each level you want to add, complete the following fields:</span></span>
+
+   - <span data-ttu-id="2332a-138">**Niveau** : entrez un nom pour le niveau.</span><span class="sxs-lookup"><span data-stu-id="2332a-138">**Level**: Enter a name for the level.</span></span>
+   - <span data-ttu-id="2332a-139">**Description** : entrez une description pour le niveau.</span><span class="sxs-lookup"><span data-stu-id="2332a-139">**Description**: Enter a description for the level.</span></span>
+   - <span data-ttu-id="2332a-140">**Facteur** : entrez une valeur de facteur comprise entre 0 et 9.</span><span class="sxs-lookup"><span data-stu-id="2332a-140">**Factor**: Enter a factor value from 0-9.</span></span> <span data-ttu-id="2332a-141">Les facteurs aident à normaliser les scores de compétences qui utilisent différents modèles d’évaluation.</span><span class="sxs-lookup"><span data-stu-id="2332a-141">Factors help normalize the scores of skills that use different rating models.</span></span> <span data-ttu-id="2332a-142">Chaque niveau doit avoir un facteur unique.</span><span class="sxs-lookup"><span data-stu-id="2332a-142">Each level must have a unique factor.</span></span> <span data-ttu-id="2332a-143">Les niveaux avec des valeurs de facteur plus élevées ont plus de poids dans un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="2332a-143">Levels with higher factor values carry more weight in a rating model.</span></span>
+
+   <span data-ttu-id="2332a-144">Continuez à ajouter des niveaux si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="2332a-144">Continue adding levels as necessary.</span></span> <span data-ttu-id="2332a-145">Vous pouvez entrer jusqu’à 10 niveaux pour chaque modèle d’évaluation.</span><span class="sxs-lookup"><span data-stu-id="2332a-145">You can enter up to 10 levels for each rating model.</span></span>
+
+6. <span data-ttu-id="2332a-146">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="2332a-146">Select **Save**.</span></span>
+
+## <a name="create-a-skill"></a><span data-ttu-id="2332a-147">Créer une compétence</span><span class="sxs-lookup"><span data-stu-id="2332a-147">Create a skill</span></span>
+
+<span data-ttu-id="2332a-148">Avant d’affecter une compétence, de créer une recherche par mise en correspondance des compétences ou de créer un profil de compétence, vous devez entrer des informations sur les compétences dans la page **Compétences**.</span><span class="sxs-lookup"><span data-stu-id="2332a-148">Before you can assign a skill, or create a skill-mapping search or skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="2332a-149">Pour chaque compétence, vous pouvez sélectionner un type de compétence et un modèle de classement.</span><span class="sxs-lookup"><span data-stu-id="2332a-149">For each skill, you can select a skill type and a rating model.</span></span>
+
+1. <span data-ttu-id="2332a-150">Dans l’espace de travail, **Perfectionnement de l’employé**, sélectionnez **Liens**.</span><span class="sxs-lookup"><span data-stu-id="2332a-150">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="2332a-151">Sous **Configuration des compétences**, sélectionnez **Compétences**.</span><span class="sxs-lookup"><span data-stu-id="2332a-151">Under **Competency setup**, select **Skills**.</span></span>
+
+3. <span data-ttu-id="2332a-152">Sélectionnez **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="2332a-152">Select **New**.</span></span>
+
+4. <span data-ttu-id="2332a-153">Complétez les champs suivants :</span><span class="sxs-lookup"><span data-stu-id="2332a-153">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="2332a-154">**Compétence** : entrez un nom pour la compétence.</span><span class="sxs-lookup"><span data-stu-id="2332a-154">**Skill**: Enter a name for the skill.</span></span>
+   - <span data-ttu-id="2332a-155">**Description** : entrez une description pour la compétence.</span><span class="sxs-lookup"><span data-stu-id="2332a-155">**Description**: Enter a description for the skill.</span></span>
+   - <span data-ttu-id="2332a-156">**Évaluation** : sélectionnez le modèle d’évaluation que vous souhaitez utiliser pour cette compétence.</span><span class="sxs-lookup"><span data-stu-id="2332a-156">**Rating**: Select the rating model you want to use for this skill.</span></span>
+   - <span data-ttu-id="2332a-157">**Type de compétence** : sélectionnez une option dans la liste des types de compétences.</span><span class="sxs-lookup"><span data-stu-id="2332a-157">**Skill type**: Select from the list of skill types.</span></span>
+
+5. <span data-ttu-id="2332a-158">Sélectionnez **Enregistrer**.</span><span class="sxs-lookup"><span data-stu-id="2332a-158">Select **Save**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="2332a-159">Voir également :</span><span class="sxs-lookup"><span data-stu-id="2332a-159">See also</span></span>
+
+[<span data-ttu-id="2332a-160">Saisir les compétences</span><span class="sxs-lookup"><span data-stu-id="2332a-160">Enter skills</span></span>](hr-develop-enter-skills.md)<br>
+[<span data-ttu-id="2332a-161">Mettre en correspondance les compétences</span><span class="sxs-lookup"><span data-stu-id="2332a-161">Map skills</span></span>](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
