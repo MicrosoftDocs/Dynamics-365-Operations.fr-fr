@@ -2,7 +2,7 @@
 title: Fonction INDEX ER
 description: Cette rubrique fournit des informations sur l’utilisation de la fonction INDEX États électroniques (ER).
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,52 +15,55 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f10359a3f20fb9d23639babce764b9ef64243d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5a0fdb8958670efe8e2a37cee183bf836fa6c7e8
+ms.sourcegitcommit: 047b0503868cc7d7b21868e24405d76af35db747
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750458"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087749"
 ---
-# <a name="index-er-function"></a><span data-ttu-id="ce4f3-103">Fonction INDEX ER</span><span class="sxs-lookup"><span data-stu-id="ce4f3-103">INDEX ER function</span></span>
+# <a name="index-er-function"></a><span data-ttu-id="c6444-103">Fonction INDEX ER</span><span class="sxs-lookup"><span data-stu-id="c6444-103">INDEX ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ce4f3-104">La fonction `INDEX` renvoie une valeur de *Conteneur (enregistrement)* sélectionnée à l’aide de l’index numérique spécifié dans la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-104">The `INDEX` function returns a *Container (record)* value that is selected by using the specified numeric index in the specified list.</span></span> <span data-ttu-id="ce4f3-105">Si l’index est hors des limites pour les enregistrements dans la liste spécifiée, une exception est levée.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-105">If the index is out of range for the records in the specified list, an exception is thrown.</span></span>
+<span data-ttu-id="c6444-104">La fonction `INDEX` renvoie une valeur de *Conteneur (enregistrement)* sélectionnée à l’aide de l’index numérique spécifié dans la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="c6444-104">The `INDEX` function returns a *Container (record)* value that is selected by using the specified numeric index in the specified list.</span></span> <span data-ttu-id="c6444-105">Si l’index est hors des limites pour les enregistrements dans la liste spécifiée, une exception est levée.</span><span class="sxs-lookup"><span data-stu-id="c6444-105">If the index is out of range for the records in the specified list, an exception is thrown.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ce4f3-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ce4f3-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c6444-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c6444-106">Syntax</span></span>
 
 ```vb
 INDEX (list, index)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="ce4f3-107">Arguments</span><span class="sxs-lookup"><span data-stu-id="ce4f3-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="c6444-107">Arguments</span><span class="sxs-lookup"><span data-stu-id="c6444-107">Arguments</span></span>
 
-<span data-ttu-id="ce4f3-108">`list` : *Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="ce4f3-108">`list`: *Record list*</span></span>
+<span data-ttu-id="c6444-108">`list` : *Liste d’enregistrements*</span><span class="sxs-lookup"><span data-stu-id="c6444-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="ce4f3-109">Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="c6444-109">Chemin d’accès valide d’une source de données du type de données *Liste d’enregistrements*.</span><span class="sxs-lookup"><span data-stu-id="c6444-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="ce4f3-110">`index` : *Entier*</span><span class="sxs-lookup"><span data-stu-id="ce4f3-110">`index`: *Integer*</span></span>
+<span data-ttu-id="c6444-110">`index` : *Entier*</span><span class="sxs-lookup"><span data-stu-id="c6444-110">`index`: *Integer*</span></span>
 
-<span data-ttu-id="ce4f3-111">Index numérique qui indique la position de l’enregistrement souhaité dans la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-111">A numeric index that indicates the position of the desired record in the specified list.</span></span>
+<span data-ttu-id="c6444-111">Index numérique qui indique la position de l’enregistrement souhaité dans la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="c6444-111">A numeric index that indicates the position of the desired record in the specified list.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="ce4f3-112">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="ce4f3-112">Return values</span></span>
+> [!NOTE]
+> <span data-ttu-id="c6444-112">Étant donné que la numérotation de base un est utilisée pour cette fonction, spécifiez la valeur **1** pour renvoyer le premier enregistrement de la liste spécifiée.</span><span class="sxs-lookup"><span data-stu-id="c6444-112">Because one-based numbering is used for this function, specify the value **1** to return the first record of the specified list.</span></span>
 
-<span data-ttu-id="ce4f3-113">*Conteneur (enregistrement)*</span><span class="sxs-lookup"><span data-stu-id="ce4f3-113">*Container (record)*</span></span>
+## <a name="return-values"></a><span data-ttu-id="c6444-113">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="c6444-113">Return values</span></span>
 
-<span data-ttu-id="ce4f3-114">Valeur de l’enregistrement résultante.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-114">The resulting record value.</span></span>
+<span data-ttu-id="c6444-114">*Conteneur (enregistrement)*</span><span class="sxs-lookup"><span data-stu-id="c6444-114">*Container (record)*</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="ce4f3-115">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="ce4f3-115">Example 1</span></span>
+<span data-ttu-id="c6444-115">Valeur de l’enregistrement résultante.</span><span class="sxs-lookup"><span data-stu-id="c6444-115">The resulting record value.</span></span>
 
-<span data-ttu-id="ce4f3-116">Si vous entrez la source de données **DS** de type *Champ calculé*, et qu’elle contient l’expression `SPLIT ("A|B|C", "|")`, l’expression `DS.Value` retourne la valeur de texte **« B »** pour le second enregistrement de cette liste d’enregistrements.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-116">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `DS.Value` returns the text value **"B"** for the second record of this record list.</span></span> <span data-ttu-id="ce4f3-117">L’expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` renvoie aussi la valeur texte **« B »**.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-117">The expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` also returns the text value **"B"**.</span></span>
+## <a name="example-1"></a><span data-ttu-id="c6444-116">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="c6444-116">Example 1</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="ce4f3-118">Exemple 2</span><span class="sxs-lookup"><span data-stu-id="ce4f3-118">Example 2</span></span>
+<span data-ttu-id="c6444-117">Si vous entrez la source de données **DS** de type *Champ calculé*, et qu’elle contient l’expression `SPLIT ("A|B|C", "|")`, l’expression `DS.Value` retourne la valeur de texte **« B »** pour le second enregistrement de cette liste d’enregistrements.</span><span class="sxs-lookup"><span data-stu-id="c6444-117">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `DS.Value` returns the text value **"B"** for the second record of this record list.</span></span> <span data-ttu-id="c6444-118">L’expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` renvoie aussi la valeur texte **« B »**.</span><span class="sxs-lookup"><span data-stu-id="c6444-118">The expression `INDEX (SPLIT ("A|B|C", "|"), 2).Value` also returns the text value **"B"**.</span></span>
 
-<span data-ttu-id="ce4f3-119">Si vous entrez une source de données **DS** de type *Champ calculé*, et qu’elle contient l’expression `SPLIT ("A|B|C", "|")`, l’expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` lève une exception à l’exécution.</span><span class="sxs-lookup"><span data-stu-id="ce4f3-119">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` throws an exception at runtime.</span></span>
+## <a name="example-2"></a><span data-ttu-id="c6444-119">Exemple 2</span><span class="sxs-lookup"><span data-stu-id="c6444-119">Example 2</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="ce4f3-120">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="ce4f3-120">Additional resources</span></span>
+<span data-ttu-id="c6444-120">Si vous entrez une source de données **DS** de type *Champ calculé*, et qu’elle contient l’expression `SPLIT ("A|B|C", "|")`, l’expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` lève une exception à l’exécution.</span><span class="sxs-lookup"><span data-stu-id="c6444-120">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `INDEX (SPLIT ("A|B|C", "|"), 4).Value` throws an exception at runtime.</span></span>
 
-[<span data-ttu-id="ce4f3-121">Fonctions de liste</span><span class="sxs-lookup"><span data-stu-id="ce4f3-121">List functions</span></span>](er-functions-category-list.md)
+## <a name="additional-resources"></a><span data-ttu-id="c6444-121">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="c6444-121">Additional resources</span></span>
+
+[<span data-ttu-id="c6444-122">Fonctions de liste</span><span class="sxs-lookup"><span data-stu-id="c6444-122">List functions</span></span>](er-functions-category-list.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

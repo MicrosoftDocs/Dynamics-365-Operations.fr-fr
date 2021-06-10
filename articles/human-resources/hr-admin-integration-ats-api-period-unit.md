@@ -7,40 +7,39 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 634f2bceea31b6f13b9cbac613f2465177dbed20
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e74fe37a0fafc03209e3e6a8abda3db34fbe838c
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798175"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055218"
 ---
-# <a name="period-unit"></a><span data-ttu-id="1faf6-103">Unité de période</span><span class="sxs-lookup"><span data-stu-id="1faf6-103">Period unit</span></span>
+# <a name="period-unit"></a><span data-ttu-id="f0575-103">Unité de période</span><span class="sxs-lookup"><span data-stu-id="f0575-103">Period unit</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="1faf6-104">Cette rubrique décrit l’option Unité de période définie pour Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="1faf6-104">This topic describes the Period unit option set for Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="f0575-104">Cette rubrique décrit l’option Unité de période définie pour Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="f0575-104">This topic describes the Period unit option set for Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="1faf6-105">Nom physique : mshr_periodunit</span><span class="sxs-lookup"><span data-stu-id="1faf6-105">Physical name: mshr_periodunit</span></span>
+<span data-ttu-id="f0575-105">Nom physique : mshr_periodunit</span><span class="sxs-lookup"><span data-stu-id="f0575-105">Physical name: mshr_periodunit</span></span>
 
-<span data-ttu-id="1faf6-106">Cette énumération fournit le jeu d’options de valeurs pour les unités de mesure pour des périodes de temps.</span><span class="sxs-lookup"><span data-stu-id="1faf6-106">This enumeration provides the option set of values for units of measurement for periods of time.</span></span>
+<span data-ttu-id="f0575-106">Cette énumération fournit le jeu d’options de valeurs pour les unités de mesure pour des périodes de temps.</span><span class="sxs-lookup"><span data-stu-id="f0575-106">This enumeration provides the option set of values for units of measurement for periods of time.</span></span>
 
-| <span data-ttu-id="1faf6-107">Valeur</span><span class="sxs-lookup"><span data-stu-id="1faf6-107">Value</span></span> | <span data-ttu-id="1faf6-108">Étiquette</span><span class="sxs-lookup"><span data-stu-id="1faf6-108">Label</span></span> | <span data-ttu-id="1faf6-109">Description</span><span class="sxs-lookup"><span data-stu-id="1faf6-109">Description</span></span> |
+| <span data-ttu-id="f0575-107">Valeur</span><span class="sxs-lookup"><span data-stu-id="f0575-107">Value</span></span> | <span data-ttu-id="f0575-108">Étiquette</span><span class="sxs-lookup"><span data-stu-id="f0575-108">Label</span></span> | <span data-ttu-id="f0575-109">Description</span><span class="sxs-lookup"><span data-stu-id="f0575-109">Description</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="1faf6-110">200000000</span><span class="sxs-lookup"><span data-stu-id="1faf6-110">200000000</span></span> | <span data-ttu-id="1faf6-111">Jours</span><span class="sxs-lookup"><span data-stu-id="1faf6-111">Days</span></span> | <span data-ttu-id="1faf6-112">Jour.</span><span class="sxs-lookup"><span data-stu-id="1faf6-112">Day.</span></span> |
-| <span data-ttu-id="1faf6-113">200000001</span><span class="sxs-lookup"><span data-stu-id="1faf6-113">200000001</span></span> | <span data-ttu-id="1faf6-114">Mois</span><span class="sxs-lookup"><span data-stu-id="1faf6-114">Months</span></span> | <span data-ttu-id="1faf6-115">Mois.</span><span class="sxs-lookup"><span data-stu-id="1faf6-115">Month.</span></span> |
-| <span data-ttu-id="1faf6-116">200000002</span><span class="sxs-lookup"><span data-stu-id="1faf6-116">200000002</span></span> | <span data-ttu-id="1faf6-117">Années</span><span class="sxs-lookup"><span data-stu-id="1faf6-117">Years</span></span> | <span data-ttu-id="1faf6-118">Année.</span><span class="sxs-lookup"><span data-stu-id="1faf6-118">Year.</span></span> |
+| <span data-ttu-id="f0575-110">200000000</span><span class="sxs-lookup"><span data-stu-id="f0575-110">200000000</span></span> | <span data-ttu-id="f0575-111">Jours</span><span class="sxs-lookup"><span data-stu-id="f0575-111">Days</span></span> | <span data-ttu-id="f0575-112">Jour.</span><span class="sxs-lookup"><span data-stu-id="f0575-112">Day.</span></span> |
+| <span data-ttu-id="f0575-113">200000001</span><span class="sxs-lookup"><span data-stu-id="f0575-113">200000001</span></span> | <span data-ttu-id="f0575-114">Mois</span><span class="sxs-lookup"><span data-stu-id="f0575-114">Months</span></span> | <span data-ttu-id="f0575-115">Mois.</span><span class="sxs-lookup"><span data-stu-id="f0575-115">Month.</span></span> |
+| <span data-ttu-id="f0575-116">200000002</span><span class="sxs-lookup"><span data-stu-id="f0575-116">200000002</span></span> | <span data-ttu-id="f0575-117">Années</span><span class="sxs-lookup"><span data-stu-id="f0575-117">Years</span></span> | <span data-ttu-id="f0575-118">Année.</span><span class="sxs-lookup"><span data-stu-id="f0575-118">Year.</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="1faf6-119">Voir également :</span><span class="sxs-lookup"><span data-stu-id="1faf6-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f0575-119">Voir également :</span><span class="sxs-lookup"><span data-stu-id="f0575-119">See also</span></span>
 
-[<span data-ttu-id="1faf6-120">Introduction à l’API d’intégration du système de suivi des candidats</span><span class="sxs-lookup"><span data-stu-id="1faf6-120">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
-[<span data-ttu-id="1faf6-121">Exemple de requête pour l’entité Candidat à l’embauche</span><span class="sxs-lookup"><span data-stu-id="1faf6-121">Example query for Candidate to hire</span></span>](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+[<span data-ttu-id="f0575-120">Introduction à l’API d’intégration du système de suivi des candidats</span><span class="sxs-lookup"><span data-stu-id="f0575-120">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="f0575-121">Exemple de requête pour l’entité Candidat à l’embauche</span><span class="sxs-lookup"><span data-stu-id="f0575-121">Example query for Candidate to hire</span></span>](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
