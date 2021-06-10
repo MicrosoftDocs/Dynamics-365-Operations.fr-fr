@@ -70,9 +70,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nouveautés ou modifications dans Supply Chain Management
                   items:
-                    - name: Page d’accueil des nouveautés ou modifications dans Supply Chain Management
+                    - name: Nouveautés ou modifications dans la page d’accueil de Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: "Supply Chain Management\_10.0.19 (juillet\_2021)"
+                    - name: "Supply Chain Management\_10.0.20 (juillet\_2021)"
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: "Supply Chain Management\_10.0.19 (juin\_2021)"
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: "Supply Chain Management\_10.0.18 (mai\_2021)"
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,13 +389,13 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Paramétrage d’ordres de travail
               items:
-                - name: 'Catégories de type de tâche de maintenance et types de tâches de maintenance, variantes de type de tâche de maintenance, opérations de tâches de maintenance et listes de contrôle de maintenance'
+                - name: 'Types, catégories, variantes, opérations et listes de contrôle de tâches de maintenance'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
-                - name: États du cycle de vie d’ordres de travail
+                - name: États du cycle de vie de l’ordre de travail
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
                 - name: Types d’ordre de travail
                   href: asset-management/setup-for-work-orders/work-order-types.md
-                - name: Configuration du projet de l’ordre de travail
+                - name: Paramétrage du projet de l’ordre de travail
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
                 - name: Description et niveau de service
                   href: asset-management/setup-for-work-orders/service-level-and-description.md
@@ -1369,13 +1371,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Valider automatiquement les états générés
                   items:
-                    - name: Suivre les résultats de rapport généré et les comparer avec des valeurs de base
+                    - name: Suivre les résultats du rapport généré et les comparer aux valeurs de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Améliorations des résultats de suivi des rapports de gestion des états électroniques générés et comparaisons avec les valeurs de base
+                    - name: Améliorer le suivi des résultats des rapports électroniques générés pour les comparer aux valeurs de référence
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Automatiser les tests avec la gestion des états électroniques
+                    - name: Automatiser les tests avec les états électroniques
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Automatiser les processus métier avec les configurations de gestion des états électroniques
+                - name: Automatiser les processus métier avec les configurations d’états électroniques
                   items:
                     - name: Configurer la gestion des états électroniques pour extraire des données vers Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
@@ -1561,7 +1563,7 @@
               href: iot/iot-scenario-setup.md
             - name: Surveiller et gérer
               href: iot/iot-management.md
-        - name: Planification
+        - name: Planification générale
           items:
             - name: Page d’accueil Planification
               href: master-planning/master-planning-home-page.md
@@ -2047,7 +2049,7 @@
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Envoyer et approuver les révisions budgétaires des projets
                   href: procurement/tasks/submit-approve-project-budget-revision.md
-        - name: Gestion des informations sur les produits
+        - name: Gestion des informations sur le produit
           items:
             - name: Vue d’ensemble des informations sur le produit
               href: pim/product-information.md
@@ -2225,9 +2227,11 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Versions d’ingénierie et catégories de produits d’ingénierie
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Gérer les changements de formules et de leurs composants
+              href: engineering-change-management/manage-formula-changes.md
             - name: Activer la gestion des changements sur les produits existants
               href: engineering-change-management/change-management-existing-products.md
-            - name: État et transaction du cycle de vie du produit
+            - name: État et transactions du cycle de vie du produit
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Gérer les modifications apportées aux produits d’ingénierie
               href: engineering-change-management/engineering-change-management.md
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Souche de numéros unifiés pour les ID tâche
               href: production-control/unified-job-ids.md
+            - name: Invoquer les flux d’automatisation de processus pour créer des ordres de qualité
+              href: production-control/process-automation-quality-orders.md
             - name: Production discrète
               items:
                 - name: Tenir à jour les données principales de production
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Comment les travailleurs utilisent l’interface d’exécution de l’atelier de production
                           href: production-control/production-floor-execution-use.md
-                        - name: Styles de contrôle de l’interface utilisateur pour l’exécution de l’atelier de production
+                        - name: Appliquer un style à l’interface d’exécution de l’atelier de production
                           href: production-control/production-floor-execution-styles.md
                     - name: Configurer le bon de travail pour les périphériques
                       href: production-control/config-job-card-device.md
@@ -3139,13 +3145,13 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Configurer les stratégies de consolidation de l’expédition
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: Scénario 1 - Consolider les expéditions lorsqu’elles sont transmises à l’entrepôt à l’aide du lancement automatique des commandes client
+                    - name: "Scénario\_1\_: consolider les expéditions lancées dans l’entrepôt à l’aide du lancement automatique de commandes client"
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: Scénario 2 - Consolider les expéditions lorsque la stratégie de consolidation de l’expédition est remplacée à partir de la page Libération dans l’entrepôt
+                    - name: "Scénario\_2\_: consolider les expéditions lorsque la stratégie de consolidation des expéditions est remplacée"
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: Scénario 3 - Consolider les expéditions à l’aide de page Libération dans l’entrepôt à partir de l’atelier de planification des chargements
+                    - name: "Scénario\_3\_: consolider les expéditions en les lançant dans l’entrepôt à partir de l’atelier de planification des chargements"
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
-                    - name: Scénario 4 - Consolider les expéditions à l’aide de l’atelier de consolidation d’expédition
+                    - name: "Scénario\_4\_: consolider les expéditions à l’aide de l’atelier de consolidation des expéditions"
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: Scénario 5 - Consolider les expéditions manuellement à l’aide de la page Consolider les expéditions
                       href: warehousing/consolidate-shipments-manual-form.md
@@ -3287,23 +3293,25 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Résolution des problèmes de configuration de l’entrepôt
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Installer et configurer l’application mobile Gestion des entrepôts
+                - name: Installer et configurer l’application mobile Warehouse Management
                   items:
-                    - name: Installer et connecter l’application mobile Gestion des entrepôts
+                    - name: Installer et connecter l’application mobile Warehouse Management
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Paramètres utilisateur d’appareil mobile
                       href: warehousing/mobile-device-user-settings.md
                     - name: Installer et connecter l’application d’entrepôt
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Lire les codes-barres à l’aide d’une caméra dans l’application mobile Gestion des entrepôts
+                    - name: Lire les codes-barres à l’aide d’une caméra dans l’application mobile Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configurer les champs pour l’application mobile Gestion des entrepôts
+                    - name: Configurer les champs pour l’application mobile Warehouse Management
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurer les appareils mobiles pour le travail d’entrepôt
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Affecter des icônes et des titres d’étape
+                      href: warehousing/step-icons-titles.md
                     - name: Traitement des événements de l’application d’entrepôt
                       href: warehousing/warehouse-app-events.md
-                    - name: Réception du contenant avec l’application mobile Gestion des entrepôts
+                    - name: Réception du contenant avec l’application mobile Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Paramétrer une option de menu d’appareil mobile pour effectuer un travail dans une commande fournisseur
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3321,7 +3329,7 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Traiter la structure du guide
                       href: warehousing/process-guide-framework.md
-                    - name: Résoudre les problèmes de connexion de l’application mobile Gestion des entrepôts
+                    - name: Résoudre les problèmes de connexion de l’application mobile Warehouse Management
                       href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Mise à niveau et migration
                   items:
@@ -3345,7 +3353,7 @@
               items:
                 - name: Paramètres de champ manquants lors de la copie de groupes de modèles d’articles dans une autre entité juridique
                   href: troubleshooting/costing/copying-item-model-groups.md
-                - name: "Le rapport «\_Coûts indirects en cours\_» inclut les ordres de fabrication supprimés"
+                - name: Le rapport Coûts indirects en cours inclut les ordres de fabrication supprimés
                   href: troubleshooting/costing/indirect-costs-in-pr.md
                 - name: Comptabilisation des achats imputée avec un montant zéro pour l’accusé de réception de marchandises de valeur nulle
                   href: troubleshooting/costing/posting-to-purchase.md
@@ -3359,33 +3367,37 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: La contrepassation d’une déclaration de fin crée une transaction ouverte inattendue
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Impossible d’afficher les nouvelles notes attachées à un journal dans le rapport de la liste de prélèvement
+                - name: Le rapport de la liste de prélèvement n’affiche pas les nouvelles notes attachées à un journal
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: La quantité d’un ordre de contrôle commencé ne se met pas à jour lorsque la commande est fractionnée
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: "Le champ «\_Dernière date testée\_» n’est pas mis à jour lors de la création de plusieurs ordres de qualité"
+                - name: Le champ Dernière date testée n’est pas mis à jour lors de la création de plusieurs ordres de qualité
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: 'Lors du fractionnement d’une quantité de poids variable, la quantité minimale est utilisée au lieu de la quantité nominale'
+                - name: 'Lorsqu’une quantité de poids variable est fractionnée, la quantité minimale est utilisée au lieu de la quantité nominale'
                   href: troubleshooting/inventory/while-splitting-the.md
-            - name: Planification
+            - name: Planification générale
               items:
                 - name: Les commandes confirmées directement dérivées sont traitées par un flux de travail en cours de révision
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Impossible de filtrer les éléments de planification générale selon leurs valeurs de groupe de couverture associées
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: La planification génère des commandes planifiées pour les produits fantômes
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Commande fournisseur prévisionnelle créée en cas d’achat au cours des jours négatifs
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Impossible de télécharger le prix de revient dans les écritures de prévision de la demande
+                - name: Impossible de mettre à jour le coût unitaire prévu lorsque vous importez des enregistrements de prévision de la demande
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Impossible de supprimer la dimension de prévision de la demande d’entrepôt à partir des lignes de prévision
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: Vous êtes invité à enregistrer les paramètres de couverture de l’article même si vous n’avez effectué aucune modification
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Approvisionnement
               items:
-                - name: Impossible de facturer une commande client auprès de la société VEL
+                - name: Impossible de facturer une commande client adressée au client
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Impossible d’ajouter une ligne à une demande d’achat après avoir demandé une modification
                   href: troubleshooting/procurement/purchase-requisition.md
-            - name: Gestion des informations sur les produits
+            - name: Gestion des informations sur le produit
               items:
                 - name: Impossible d’appliquer un modèle pour créer un produit lancé
                   href: troubleshooting/products/apply-template-in-re.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: Les utilisateurs peuvent annuler le prélèvement des lignes de matériaux pour les produits qui ont été déclarés comme terminés
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Erreur lors de la validation du rapport en tant que journal terminé
+                - name: Erreur lorsque le journal Déclarer comme terminé est validé
                   href: troubleshooting/production/posting-report-as-.md
                 - name: L’entrepôt du journal de la liste de prélèvement n’est pas mis à jour sur une ligne de nomenclature
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3427,9 +3439,9 @@
                   href: troubleshooting/warehousing/packing-station-not-.md
                 - name: 'Le profil d’emplacement n’autorise pas d’inventaire négatif, mais le stock négatif est autorisé'
                   href: troubleshooting/warehousing/location-profile-set.md
-                - name: Une seule étiquette s’imprime pour plusieurs en-têtes de tâche sur un seul justificatif
+                - name: Une seule étiquette est imprimée pour plusieurs en-têtes de tâche sur un seul justificatif
                   href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Vous ne pouvez pas confirmer une expédition en raison d’un problème avec le calendrier
+                - name: Impossible de confirmer une expédition en raison d’un problème avec le calendrier
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Vous ne pouvez pas confirmer une expédition en raison d’un travail incomplet ou manquant
                   href: troubleshooting/warehousing/open-or-no-work-exis.md
@@ -3457,7 +3469,7 @@
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: Le travail reste bloqué
                   href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Vous ne pouvez pas annuler le travail effectué sur un utilisateur
+                - name: Impossible d’annuler le travail effectué sur un utilisateur
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Développement et administration des applications Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md

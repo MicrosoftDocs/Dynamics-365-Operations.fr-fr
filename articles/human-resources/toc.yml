@@ -3,8 +3,10 @@
   items:
     - name: Nouveautés
       items:
-        - name: "Nouveautés ou modifications dans Human\_Resources"
+        - name: Nouveautés ou modifications dans Human Resources
           href: hr-admin-whats-new.md
+        - name: "20\_mai\_2021"
+          href: hr-whats-new-2021-05-20.md
         - name: "3\_mai\_2021"
           href: hr-whats-new-2021-05-03.md
         - name: "19\_avril\_2021"
@@ -785,9 +787,15 @@
           items:
             - name: Vue d’ensemble de la gestion des performances
               href: hr-develop-performance-management-overview.md
-            - name: Aligner les qualifications du personnel
-              href: hr-develop-skills.md
-            - name: Ajouter à votre journal de performances
+            - name: Compétences
+              items:
+                - name: Configurer les compétences
+                  href: hr-develop-skills.md
+                - name: Saisir les compétences
+                  href: hr-develop-enter-skills.md
+                - name: Mettre en correspondance les compétences
+                  href: hr-develop-map-skills.md
+            - name: Ajouter à votre journal des performances
               href: hr-develop-add-performance-journal.md
             - name: Créer un objectif
               href: hr-develop-create-goal.md
