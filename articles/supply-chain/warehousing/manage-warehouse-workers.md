@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d1794d0f34ad9d22f012fc893f3e407eb57614e
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818966"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102948"
 ---
 # <a name="manage-warehouse-workers"></a>Gestion des magasiniers
 
@@ -28,7 +28,7 @@ ms.locfileid: "5818966"
 
 Cet article décrit la manière dont vous pouvez utiliser l’application mobile Gestion des entrepôts pour mieux contrôler et surveiller le travail qui est mené à bien par les employés dans vos entrepôts.
 
-Si vous utilisez la fonctionnalité de gestion des entrepôts, toutes les opérations des magasiniers sont appelées *travail*. Les travaux tels que le prélèvement, le déplacement, et l’inventaire du stock disponible sont enregistrés en utilisant des périphériques mobiles. Pour qu’un magasinier puisse effectuer le travail, il doit être associé à un collaborateur dans les Ressources humaines. Chaque compte de **Collaborateur** peut être associé à plusieurs utilisateurs de travail d’entrepôt. Ces utilisateurs de travail peuvent travailler dans différents entrepôts et avoir des niveaux d’accès différents aux menus du périphérique portable. Vous pouvez penser aux utilisateurs de travail d’entrepôt comme plusieurs connexions pour le collaborateur sélectionné. Chaque utilisateur de travail a un entrepôt par défaut, et des workflows spécifiques sont exposés par les articles de menus qui sont accessibles à cet utilisateur de travail. 
+Si vous utilisez la fonctionnalité de gestion des entrepôts, toutes les opérations des magasiniers sont appelées *travail*. Les travaux tels que le prélèvement, le déplacement, et l’inventaire du stock disponible sont enregistrés en utilisant des périphériques mobiles. Pour qu’un magasinier puisse effectuer le travail, il doit être associé à un collaborateur dans Human Resources. Chaque compte de **Collaborateur** peut être associé à plusieurs utilisateurs de travail d’entrepôt. Ces utilisateurs de travail peuvent travailler dans différents entrepôts et avoir des niveaux d’accès différents aux menus du périphérique portable. Vous pouvez penser aux utilisateurs de travail d’entrepôt comme plusieurs connexions pour le collaborateur sélectionné. Chaque utilisateur de travail a un entrepôt par défaut, et des workflows spécifiques sont exposés par les articles de menus qui sont accessibles à cet utilisateur de travail. 
 
 Pour créer un utilisateur de travaux, dans la page **Collaborateurs**, sous l’onglet **Général** dans la section **Entrepôts**, cliquez sur **Collaborateur**. Vous devez spécifier un ID utilisateur, un nom d’utilisateur, un entrepôt par défaut, et un nom de menu. Ce menu est chargé lorsque l’utilisateur se connecte dans le portail des périphériques portables d’entrepôt, et vous permet de définir les options de menu auxquelles l’utilisateur a accès. 
 

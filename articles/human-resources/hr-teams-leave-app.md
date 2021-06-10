@@ -2,13 +2,12 @@
 title: Gérer les demandes de congé dans Teams
 description: Cette rubrique montre comment demander des congés dans l’application Dynamics 365 Human Resources de Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953410"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097257"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gérer les demandes de congés dans Teams
 
@@ -33,21 +32,13 @@ L’application Dynamics 365 Human Resources de Microsoft Teams vous permet de d
 
 Vous pouvez trouver l’application Dynamics 365 Human Resources dans la boutique Teams.
 
-1. Sélectionnez les ellipses dans Microsoft Teams.
-
-   ![Ellipses de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-ellipses.png)
+1. Dans Microsoft Teams, accédez à la liste des applications.
  
 2. Recherchez Dynamics 365 Human Resources, puis sélectionnez la vignette **Human Resources**.
 
-   ![Vignette HR de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Sélectionnez le bouton **Ajouter** pour installer l’application.
 
-   ![Installation de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-in-store.png)
-
 Si l’application ne vous connecte pas automatiquement, sélectionnez l’onglet **Paramètres** pour vous connecter.
-
-![Onglet Paramètres de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Si vous ne voyez pas de boîte de dialogue de connexion, vérifiez les paramètres de votre navigateur pour autoriser les fenêtres contextuelles. 
@@ -61,20 +52,24 @@ Si vous avez accès à plusieurs instances de Human Resources, vous pouvez séle
 
 Après l’installation de l’application, un message de bienvenue apparaît, vous informant des types d’actions que le bot peut entreprendre en votre nom.
 
-![Les équipes de Human Resources laissent un message de bienvenue au robot](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Lors de la première interaction avec le bot, vous devrez peut-être vous connecter. Si vous ne voyez pas de boîte de dialogue de connexion, vérifiez les paramètres de votre navigateur pour autoriser les fenêtres contextuelles.
 
 Vous pouvez demander au bot d’effectuer ce qui suit :
 
-- Lancer une demande de congé.
+- Afficher vos soldes de congés actuels. Par exemple, envoyez un message indiquant : « Afficher les soldes de congés ».
+
+- Lancer une demande de congé. Par exemple, envoyez un message indiquant : « Prendre des congés » ou « Je souhaite prendre des congés les jeudi et vendredi prochains » pour être plus précis dans votre demande de congé pour le type de congé. 
 
   ![Démarrer une demande de congé dans le chat Teams](./media/hr-teams-leave-app-initiate.png)
 
 - Le bot conversationnel remplira une demande de congé pour vous. Sélectionner **Demander un congé** et modifiez les détails de votre demande.
 
-  ![Modifier les détails de la demande de congés](./media/hr-teams-leave-app-details.png)
+   Si vous souhaitez envoyer des demandes de congé pour plusieurs types de congés pour la même date, sélectionnez l’option **Fractionner la journée avec** dans le menu **Plus d’options**. 
+
+   Si vous sélectionnez un congé d’une demi-journée lorsque l’unité de demande de congé est exprimée en jours, vous pouvez spécifier si vous souhaitez demander un congé la matinée ou l’après-midi en sélectionnant l’option **Définition de la demi-journée** dans le menu **Plus d’options**.
+   
+   ![Définitions de la demi-journée](./media/HalfDayDefinitions.png)
 
 - Lorsque vous avez terminé de modifier les détails de votre demande de congé, sélectionnez **Envoyer** pour la soumettre pour approbation.
 
@@ -91,42 +86,36 @@ L’onglet **Congés** vous permet de visualiser ce qui suit :
 - Les demandes de congés
 
 - Les brouillons de demande de congé
-
-![Onglet Congés de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Créer une demande
 
 1. Pour créer une demande de congé, sélectionnez **Nouvelle demande**.
 
-   ![Nouvelle demande de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Saisissez le ou les jours que vous souhaitez prendre, puis sélectionnez **Ajouter**.
 
-   ![L’application de congé Human Resources de Teams ajoute les congés](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![L’application de congé Human Resources de Teams ajoute les congés](./media/TimeOffHours.png)
 
 3. Le cas échéant, entrez un code motif. Saisissez également des commentaires et ajoutez des pièces jointes.
 
-4. Lorsque vous avez terminé de saisir les informations, saisissez **Soumettre** pour soumettre la demande pour approbation. Vous pouvez également taper **Enregistrer comme brouillon** pour y revenir plus tard.
+4. Sélectionnez l’option **Fractionner la journée avec** dans le menu **Plus d’options** si vous souhaitez envoyer plusieurs entrées de demande de congé pour la même date pour différents types de congés.
+
+5. Sélectionnez l’option **Définition de la demi-journée** pour spécifier si vous souhaitez demander la matinée ou l’après-midi. Cette option est disponible lorsque l’unité de demande de congé est exprimée en jours et que le montant demandé est de 0,5 jour.
+
+6. Lorsque vous avez terminé de saisir les informations, cliquez sur **Envoyer** pour envoyer la demande pour approbation. Vous pouvez également cliquer sur **Enregistrer comme brouillon** pour y revenir plus tard.
 
 ### <a name="manage-draft-requests"></a>Gérer les brouillons de demande
 
 1. Sélectionnez l’onglet **Brouillons**.
 
-   ![Onglet Brouillons de l’application de congé Human Resources de Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Sélectionnez le crayon pour modifier la demande ou sélectionnez la corbeille pour supprimer la demande.
 
 3. Apportez les modifications nécessaires. Lorsque vous avez terminé de saisir les informations, saisissez **Soumettre** pour soumettre la demande pour approbation. Vous pouvez également sélectionner **Enregistrer comme brouillon** pour y revenir plus tard.
-
-   ![L’application de congé Human Resources de Teams modifie le brouillon](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Répondre aux notifications Teams
 
 Lorsque vous ou un collaborateur dont vous êtes l’approbateur soumettez une demande de congé, vous recevez une notification dans l’application Human Resources dans Teams. Vous pouvez sélectionner la notification pour l’afficher. Les notifications apparaissent également dans la zone **Conversation instantanée**.
 
 Si vous êtes un approbateur, vous pouvez sélectionner **Approuver** ou **Refuser** dans la notification. Vous pouvez également fournir un message facultatif.
-
-![Laisser une notification de demande dans l’applications Teams Human Resources](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Envoyer des informations sur les congés à venir à vos collègues
 
@@ -138,25 +127,17 @@ Après avoir installé l’application Human Resources pour Teams, vous pouvez f
 
 2. Sélectionnez la demande de congé que vous souhaitez partager. Si vous souhaitez partager un brouillon de demande de congé, sélectionnez **Brouillons** en premier.
 
-   ![Sélectionner une demande de congé à venir à partager](./media/hr-teams-leave-app-chat-search.png)
-
 Votre demande de congé s’affichera dans le chat.
 
-![Carte de demande de congé de Human Resources](./media/hr-teams-leave-app-chat-card.png)
+Si vous avez partagé une demande provisoire, elle s’affichera comme brouillon.
 
-Si vous avez partagé une demande de brouillon, elle s’affichera comme brouillon :
-
-![Brouillon de carte de demande de congé de Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
-
-## <a name="view-your-teams-leave-calendar"></a>Afficher votre calendrier de congés d’équipe
+## <a name="view-your-teams-leave-calendar"></a>Afficher le calendrier des congés de votre équipe
 
 Si vous êtes un responsable avec des subordonnés directs, vous pouvez afficher les congés approuvés et en attente de votre équipe.
 
 1. Dans l’application Human Resources dans Teams, sélectionnez **Congés**.
 
 2. Sélectionnez **Calendrier d’équipe**. Le calendrier affiche les congés approuvés et en attente de vos subordonnés directs.
-
-   ![Afficher le calendrier de l’application Human Resources de Teams](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Si vous ne pouvez pas voir le calendrier de l’équipe, demandez à votre administrateur de l’activer. Pour plus d’informations, voir [Installation et configuration](hr-admin-teams-leave-app.md#install-and-setup).

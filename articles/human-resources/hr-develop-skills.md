@@ -1,14 +1,14 @@
 ---
-title: Aligner les qualifications du personnel sur les besoins de l’entreprise
-description: Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles. Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.
+title: Configurer les compétences
+description: Vous pouvez suivre les compétences de votre collaborateur dans Dynamics 365 Human Resources. Vous pouvez également spécifier les compétences requises pour une tâche spécifique.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793703"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076557"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a>Aligner les qualifications du personnel sur les besoins de l’entreprise
+# <a name="configure-skills"></a>Configurer les compétences
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vous pouvez suivre les qualifications que les travailleurs, les candidats ou les personnes à contacter ont ou doivent avoir pour assumer efficacement leurs rôles. Vous pouvez également spécifier les qualifications requises pour une tâche spécifique.
+Vous pouvez suivre les compétences de votre collaborateur dans Dynamics 365 Human Resources. Vous pouvez également spécifier les compétences requises pour une tâche spécifique.
 
-Les exemples de qualifications que vous pouvez suivre sont les suivants :
--   Supervision – Capacité de superviser le travail des autres.
--   Leadership – Capacité de diriger des employés et des secteurs d’entreprise.
--   Planification – Capacité de réfléchir à l’avenir, de formuler des visions et de les mener à bien.
--   HTML – Capacité d’écrire du code HTML.
+Voici des exemples de compétences que vous pouvez suivre :
 
-Avant d’affecter une qualification à une personne ou une tâche, de créer une recherche de mise en correspondance des qualifications ou de créer un profil de qualification, vous devez entrer des informations sur les qualifications dans la page **Qualifications**. Pour chaque qualification, vous pouvez sélectionner un type de qualification et un modèle de classement.
+- Supervision – Capacité de superviser le travail des autres.
+- Leadership – Capacité de diriger des employés et des secteurs d’entreprise.
+- Planification – Capacité à anticiper les choses, à former des énoncés de vision et à les mener à bien.
+- HTML – Capacité d’écrire du code HTML.
 
-## <a name="rating-models"></a>Modèles de classement
-Le fait de classer les modèles permet d’évaluer le niveau de qualification réel d’une personne, le niveau qu’ils doivent atteindre, ou le niveau de la qualification nécessaire pour une tâche. Vous pouvez entrer jusqu’à 10 niveaux pour un modèle de classement.  Un facteur est affecté à chaque niveau dans un modèle de classement.  La valeur de facteur sera utilisée pour normaliser les scores de compétences qui utilisent différents modèles de classement.  Le facteur doit être un numéro compris entre 0 et 9 et chaque niveau doit avoir un facteur unique.  Les niveaux avec des valeurs de facteur plus élevées ont plus de poids dans un modèle de classement.
+Si vous n’avez pas déjà configuré des types de compétences et des modèles d’évaluation, vous devrez en ajouter avant de créer des compétences.
 
-## <a name="specify-job-skills"></a>Spécification des qualifications requises pour une tâche
-Lorsque vous entrez des informations sur une tâche, vous pouvez spécifier les qualifications qu’une personne doit avoir pour exécuter le travail requis par la tâche.  En outre, vous pouvez spécifier le niveau désiré pour chaque qualification, ainsi que le niveau d’importance de la qualification. Différents postes peuvent nécessiter différents niveaux d’importance d’une même qualification.
+Les personnes suivantes peuvent saisir des compétences pour un collaborateur :
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Saisie de qualifications pour les travailleurs, les candidats, ou les contacts
-Vous pouvez entrer des qualifications cibles ou des qualifications réelles pour les travailleurs, les candidats, ou les contacts. Une qualification cible est une qualification que la personne envisage d’acquérir. Une qualification réelle est une qualification qu’une personne possède actuellement.
+- Les collaborateurs peuvent saisir des compétences pour eux-mêmes dans le libre-service des employés. Ces compétences nécessitent l’approbation du responsable.
+- Les responsables peuvent saisir des compétences pour leurs collaborateurs. Vous pouvez créer un flux de travail qui approuve automatiquement ces compétences.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a>Mise en correspondance des qualifications et profils de mise en correspondance des qualifications
-Vous pouvez créer une recherche de mise en correspondance des qualifications pour rechercher un collaborateur, un candidat, ou une personne à contacter qui est qualifiée pour effectuer un type de tâche spécifique de tâche. Le recherche de mise en correspondance des qualifications étudie les compétences, la formation, les certificats, les postes de confiance et l’expérience sur le projet et renvoie des résultats qui correspondent aux critères entrés.  Par exemple, il peut être utile de savoir quels collaborateurs de votre organisation ont un diplôme de comptabilité.
+## <a name="create-a-skill-type"></a>Créer un type de compétence
 
-Les profils de mise en correspondance des qualifications vous permettent de rechercher les employés actuels ou les candidats dont les qualifications correspondent directement aux besoins de votre entreprise.  Par exemple, vous pouvez créer un profil de mise en correspondance des qualifications pour un poste vacant de votre organisation. En créant un profil pour une tâche spécifique et en copiant les qualifications, les formations et les certificats de cette tâche dans le profil, vous pouvez rechercher rapidement des travailleurs, des candidats et des personnes à contacter qui correspondent à un ou plusieurs des critères entrés dans le profil et afficher la liste des candidats dont les qualifications correspondent le mieux aux qualifications requises pour la tâche.
+Les types de compétences sont des catégories dans lesquelles entrent les compétences individuelles, telles que Administration ou Vente.
 
-> **Remarque** Seuls les travailleurs, les candidats, les personnes à contacter sélectionnés pour être inclus dans les recherches de mise en correspondance des qualifications peuvent être affichés dans la liste des résultats de la mise en correspondance des qualifications ou être inclus dans un profil de qualification. Pour inclure un travailleur, un candidat ou une personne à contacter dans les recherches de mise en correspondance des qualifications, définissez l’option **Inclure dans la mise en correspondance des qualifications** sur Oui dans les pages suivantes :
-> 
-> + Collaborateur
-> + Employé
-> + Candidat
-> + contacts ;
+1. Dans l’espace de travail, **Perfectionnement de l’employé**, sélectionnez **Liens**.
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Analyse des écarts de qualification et analyse des profils de qualification
-Vous pouvez créer une analyse des profils de qualification pour afficher la liste des compétences d’un travailleur, d’un candidat ou d’une personne à contacter à une date spécifique. Vous pouvez créer une analyse des écarts de qualification pour comparer les qualifications d’une personne aux qualifications requises pour une tâche donnée.  
+2. Sous **Configuration des compétences**, sélectionnez **Types de compétences**.
 
+3. Sélectionnez **Nouveau**.
 
+4. Complétez les champs suivants :
 
+   - **Type de compétence** : entrez un nom pour le type de compétence.
+   - **Description** : entrez une description pour le type de compétence.
+
+5. Sélectionnez **Enregistrer**.
+
+## <a name="create-a-rating-model"></a>Créer un modèle d’évaluation
+
+Les modèles d’évaluation permettent d’évaluer le niveau de compétence réel d’une personne, le niveau qu’ils doivent atteindre, ou le niveau de compétence nécessaire pour une tâche. Un facteur est affecté à chaque niveau dans un modèle de classement.
+
+1. Dans l’espace de travail, **Perfectionnement de l’employé**, sélectionnez **Liens**.
+
+2. Sous **Configuration des compétences**, sélectionnez **Modèles d’évaluation**.
+
+3. Sélectionnez **Nouveau**.
+
+4. Complétez les champs suivants :
+
+   - **Évaluation** : entrez un nom pour le modèle d’évaluation, tel que **Compétences**.
+   - **Description** : entrez une description pour le modèle d’évaluation, telle que **Évaluations des compétences**.
+
+5. Dans la section **Niveaux**, sélectionnez **Nouveau**. Pour chaque niveau que vous souhaitez ajouter, complétez les champs suivants :
+
+   - **Niveau** : entrez un nom pour le niveau.
+   - **Description** : entrez une description pour le niveau.
+   - **Facteur** : entrez une valeur de facteur comprise entre 0 et 9. Les facteurs aident à normaliser les scores de compétences qui utilisent différents modèles d’évaluation. Chaque niveau doit avoir un facteur unique. Les niveaux avec des valeurs de facteur plus élevées ont plus de poids dans un modèle de classement.
+
+   Continuez à ajouter des niveaux si nécessaire. Vous pouvez entrer jusqu’à 10 niveaux pour chaque modèle d’évaluation.
+
+6. Sélectionnez **Enregistrer**.
+
+## <a name="create-a-skill"></a>Créer une compétence
+
+Avant d’affecter une compétence, de créer une recherche par mise en correspondance des compétences ou de créer un profil de compétence, vous devez entrer des informations sur les compétences dans la page **Compétences**. Pour chaque compétence, vous pouvez sélectionner un type de compétence et un modèle de classement.
+
+1. Dans l’espace de travail, **Perfectionnement de l’employé**, sélectionnez **Liens**.
+
+2. Sous **Configuration des compétences**, sélectionnez **Compétences**.
+
+3. Sélectionnez **Nouveau**.
+
+4. Complétez les champs suivants :
+
+   - **Compétence** : entrez un nom pour la compétence.
+   - **Description** : entrez une description pour la compétence.
+   - **Évaluation** : sélectionnez le modèle d’évaluation que vous souhaitez utiliser pour cette compétence.
+   - **Type de compétence** : sélectionnez une option dans la liste des types de compétences.
+
+5. Sélectionnez **Enregistrer**.
+
+## <a name="see-also"></a>Voir également :
+
+[Saisir les compétences](hr-develop-enter-skills.md)<br>
+[Mettre en correspondance les compétences](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

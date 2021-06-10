@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b765ae63cfb17e26439758f2a0ed64770ef70881
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a94df9dd706c2540779db70e794e4a0a3f2dd186
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809276"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103020"
 ---
 # <a name="absence-registration-in-time-and-attendance"></a>Enregistrement d’absence dans le module Pointage
 
@@ -101,7 +101,7 @@ Les enregistrements des heures des travailleurs doivent être calculés et appro
 
 Un approbateur peut modifier les enregistrements des heures d’un travailleur. L’approbateur peut même modifier n’importe absence enregistrée par le travailleur. Si l’approbateur entre manuellement une période de temps avec le code d’absence, le code d’absence de cette période n’est pas remplacé par le code d’absence par défaut des paramètres de pointage.
 
-Par exemple, une travailleuse pointe à l’arrivée à 10 h 00 et sélectionne un code d’absence qui indique qu’elle est en retard. Ensuite, elle signale à son superviseur qu’elle avait rendez-vous chez un médecin de 8 h 00 à 10 h 00. Le rendez-vous chez un médecin ne doit pas entraîner de retenue salariale pour la travailleuse. Par conséquent, dans ce cas, le superviseur peut ajuster les deux heures d’absence de 8 h 00 à 10 h 00 en entrant manuellement le code d’absence indiquant une maladie pendant ces deux heures.
+Par exemple, un travailleur pointe à l’arrivée à 10 h 00 et sélectionne un code d’absence qui indique qu’il est en retard. Ensuite, il signale à son superviseur qu’il avait rendez-vous chez un médecin de 8 h 00 à 10 h 00. Le rendez-vous chez un médecin ne doit pas entraîner de retenue salariale pour le travailleur. Par conséquent, dans ce cas, le superviseur peut ajuster les deux heures d’absence de 8 h 00 à 10 h 00 en entrant manuellement le code d’absence indiquant une maladie pendant ces deux heures.
 
 ### <a name="calculate-and-approve-absence"></a>Calcul et approbation des absences
 

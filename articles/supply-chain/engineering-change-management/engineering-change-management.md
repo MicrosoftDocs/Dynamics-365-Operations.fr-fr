@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954643"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114997"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gérer les modifications apportées aux produits d’ingénierie
 
@@ -92,9 +92,13 @@ Cette liste est fourni uniquement à titre indicatif. Par conséquent, vous pouv
 
 Le raccourci **Source** vous permet de suivre le point de départ de la demande de modification. C’est utile si, par exemple, vous souhaitez voir si la demande de modification a été créée à partir d’une commande client, qui l’a créée et dans quelle société elle a été créée.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Évaluer l’impact commercial d’une demande de changement
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Évaluer l’impact commercial d’une demande de modification et envoyer des notifications
 
-Lorsque vous examinez une demande de modification, vous pouvez rechercher des dépendances. De cette manière, vous pouvez évaluer l’impact de la modification demandée sur les transactions en cours, telles que les commandes client, les ordres de fabrication et le stock disponible.
+Lorsque vous examinez une demande de modification, vous pouvez rechercher des dépendances. De cette manière, vous pouvez évaluer l’impact de la modification demandée sur les transactions en cours, telles que les commandes client, les ordres de fabrication et le stock disponible. Lorsque vous examinez les demandes de modification, vous pouvez envoyer des notifications aux personnes chargées d’exécuter les différents types de commandes associées.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Examiner les transactions affectées, bloquer les transactions sélectionnées et envoyer des notifications
+
+Pour examiner les transactions affectées, bloquer les transactions sélectionnées et envoyer des notifications associées, procédez comme suit.
 
 1. Aller à **Gestion des modifications d’ingénierie \> Commun \> Paramètres des demandes de modifications \> Demandes de changements d’ingénierie**.
 1. Ouvrez une demande de modification existante ou sélectionnez **Nouveau** dans le volet Actions pour créer une demande de modification.
@@ -103,7 +107,30 @@ Lorsque vous examinez une demande de modification, vous pouvez rechercher des d�
     - **Chercher** – Analyse toutes les transactions ouvertes, puis ouvrez la boîte de dialogue **Impact commercial sur les transactions ouvertes**, qui répertorie toutes les transactions qui seront affectées par la modification.
     - **Afficher la recherche précédente** – Ouvrez la boîte de dialogue **Impact commercial sur les transactions ouvertes**, qui répertorie les résultats de la recherche précédente. (Une nouvelle recherche n’est pas effectuée.)
 
-1. Si le problème nécessitant une modification s’avère critique, vous pouvez bloquer les transactions ouvertes ou avertir l’utilisateur responsable en utilisant les boutons de la barre d’outils dans la boite de dialogue **Impact commercial sur les transactions ouvertes**.
+1. La boîte de dialogue **Impact commercial sur les transactions ouvertes** fournit un ensemble d’onglets, chacun affichant une liste de transactions affectées d’un type spécifique (**Commandes client**, **Commandes fournisseur**, **Ordres de fabrication**, **Inventaire**, etc). Chaque onglet affiche également un nombre indiquant le nombre de transactions affectées de ce type. Sélectionnez un onglet pour afficher la liste appropriée.
+1. Pour utiliser une transaction de la liste, sélectionnez-la, puis sélectionnez l’un des boutons suivants dans la barre d’outils :
+
+    - **Afficher la transaction** : ouvrez l’enregistrement de transaction sélectionné.
+    - **Bloquer la commande** : ce bouton n’est disponible que dans l’onglet **Commandes client**. Sélectionnez-le pour bloquer la commande client sélectionnée.
+    - **Bloquer la ligne** : ce bouton n’est disponible que dans l’onglet **Commandes fournisseur**. Sélectionnez-le pour bloquer la ligne de commande fournisseur sélectionnée.
+    - **Notifier le responsable** : ce bouton n’est disponible que dans l’onglet **Commandes client**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le responsable de la commande client sélectionnée.
+    - **Notifier l’auteur de la commande** : ce bouton n’est disponible que dans l’onglet **Commandes fournisseur**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme l’auteur de la commande fournisseur sélectionnée.
+    - **Notifier la production** : ce bouton n’est disponible que dans l’onglet **Ordres de fabrication**. Contrairement aux commandes client et aux commandes fournisseur, aucun utilisateur n’est défini comme responsable des ordres de fabrication de bout en bout. À la place, différents superviseurs ou planificateurs s’approprient généralement un site spécifique ou une partie spécifique de la production (par exemple, pour des ressources ou des groupes de ressources spécifiques). Par conséquent, lorsque vous sélectionnez ce bouton, tous les utilisateurs responsables d’une ressource associée à l’ordre de fabrication sélectionné reçoivent une notification de modification.
+    - **Notifier le préparateur** : ce bouton n’est disponible que dans l’onglet **Demande d’achat**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le préparateur de la demande d’achat sélectionnée.
+    - **Notifier le responsable des ventes** : ce bouton n’est disponible que dans l’onglet **Devis**. Sélectionnez-le pour envoyer une notification de modification à l’utilisateur défini comme le responsable du devis sélectionné.
+    - **Mettre au rebut** : ce bouton n’est disponible que dans l’onglet **Inventaire**. Sélectionnez-le pour mettre au rebut l’inventaire sélectionné.
+    - **Afficher l’historique** : ouvrez un historique des actions effectuées sur la transaction sélectionnée en utilisant la boîte de dialogue **Impact commercial sur les transactions ouvertes**. (Par exemple, l’historique indique si des notifications ont été envoyées ou si des transactions ont été bloquées.) 
+    - **Afficher toutes les transactions** : ouvrez la liste complète de toutes les transactions, et pas seulement les transactions ouvertes.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Examiner et traiter les notifications de modification pour les transactions
+
+Vous pouvez lire et traiter les notifications de modification que vous recevez des manières suivantes :
+
+- Sauf dans le cas des ordres de fabrication, les notifications de modification pour les transactions dont vous êtes responsable apparaissent dans le centre de notifications. Le bouton **Afficher les messages** (symbole de la cloche) sur le côté droit de la barre de navigation indique quand un message est disponible dans le centre de notifications. Sélectionnez le bouton **Afficher les messages** pour ouvrir le centre de notifications et consulter les messages.
+- Pour afficher tous les ordres de fabrication pour lesquels une notification d’ingénierie a été envoyée, accédez à **Ordres de fabrication \> Ordres de fabrication \> Tous les ordres de fabrication**. Puis, dans le volet Actions, sous l’onglet **Ordre de fabrication**, dans le groupe **Demande de modification d’ingénierie**, sélectionnez **Notifications d’ingénierie** pour ouvrir la page **Notifications d’ingénierie**.
+- Pour les ordres de fabrication, vous pouvez choisir de consulter uniquement les notifications de modification qui s’appliquent aux ressources de production que vous gérez. Dans l’espace de travail **Gestion de l’atelier de production**, dans le volet Actions, sélectionnez **Configurer mon espace de travail** pour filtrer la page afin qu’elle n’affiche que les informations sur les unités de production, les groupes et/ou les ressources que vous gérez. Dans la section **Résumé**, une vignette nommée **Ordres de fabrication avec produits modifiés** affiche un nombre de notifications correspondant à vos paramètres de filtre. Sélectionnez cette vignette pour ouvrir la page **Notifications d’ingénierie**, qui affiche la liste complète des transactions répondant aux critères de votre filtre.
+
+Lorsque vous consultez les notifications d’ordre de fabrication dans la page **Notifications d’ingénierie**, vous pouvez suivre les liens vers les ordres de modification ou les ordres de fabrication associés en sélectionnant les valeurs de colonne ou en utilisant les commandes associées dans le volet Actions. Une fois que vous avez terminé d’évaluer une modification et une fois que vous avez annulé ou modifié les ordres de fabrication selon vos besoins, vous pouvez marquer une notification comme résolue. Sélectionnez la notification, puis, dans le volet Actions, sélectionnez **Résoudre**. La notification est supprimée des vues de tous les utilisateurs.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Créer un ordre de modification à partir d’une demande de modification
 

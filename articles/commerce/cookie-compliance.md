@@ -2,7 +2,7 @@
 title: Conformité des cookies
 description: Cette rubrique décrit les considérations relatives à la conformité des cookies et les stratégies par défaut incluses dans Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908182"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088385"
 ---
 # <a name="cookie-compliance"></a>Conformité des cookies
 
@@ -52,8 +52,7 @@ Le tableau suivant montre la liste de référence actuelle des cookies placés p
 | x-ms-cpim-trans                             | Utilisé pour le suivi des transactions (le nombre d’onglets ouverts s’authentifiant sur un site B2C), y compris la transaction en cours. |
 | \_msdyn365___muid_                            | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé comme userId à des fins d'expérimentation. |
 | \_msdyn365___exp_                             | Utilisé si l'expérimentation est activée pour l'environnement ; utilisé pour mesurer l'équilibrage de charge des performances.         |
-
-
+| d365mkt                                       | Utilisé si la détection basée sur l’emplacement pour suivre l’adresse IP d’un utilisateur pour les suggestions d’emplacement du magasin est activée dans le générateur de site de Commerce sous **Paramètres du site > Général > Activer la détection du magasin selon l’emplacement**.      |
 
 Si un utilisateur du site sélectionne des liens de réseaux sociaux dans un site, les cookies du tableau suivant seront également suivis sur son navigateur.
 

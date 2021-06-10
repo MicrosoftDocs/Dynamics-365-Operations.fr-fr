@@ -1,7 +1,7 @@
 ---
 title: Suivre un article ou une matière première
 description: Cette procédure illustre comment utiliser le suivi d’article pour identifier où les articles ou les matières premières ont été ou sont utilisés.
-author: pjacobse
+author: sherry-zheng
 ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3b2ab752089b2c60c5c5e02cb2c558c17dcf8b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e46d75ecab3ec2e94372aecfd2c29783756446
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829810"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102853"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Suivre un article ou une matière première
 

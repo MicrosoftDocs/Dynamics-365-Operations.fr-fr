@@ -1,8 +1,8 @@
 ---
 title: États financiers de balance comptable
 description: Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816929"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103656"
 ---
 # <a name="trial-balance-financial-reports"></a>États financiers de balance comptable
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816929"
 
 Cet article décrit les états par défaut des balances comptables. Il décrit également les blocs élémentaires associés à ces états et comment il est possible de modifier ces états pour les adapter à vos exigences métier. 
 
-<a name="default-trial-balance-reports"></a>États de la balance comptable par défaut
------------------------------
+## <a name="default-trial-balance-reports"></a>États de la balance comptable par défaut
 
 Trois états de balance comptable sont disponibles dans les états financiers.
 
@@ -47,6 +46,9 @@ Les états financiers de balance comptable utilisent les éléments constitutifs
 | Balance comptable détaillée – Par défaut               | Balance comptable – Par défaut | Balance comptable détaillée – Par défaut               |
 | Synthèse de balance comptable– Par défaut                | Balance comptable – Par défaut | Synthèse de balance comptable – Par défaut                |
 | Synthèse de balance comptable d’une année à l’autre – Par défaut | Balance comptable – Par défaut | Synthèse de balance comptable d’une année à l’autre – Par défaut |
+
+> [!NOTE] 
+> Lors de l’exécution du rapport **Balance comptable** dans Financial Reporting, assurez-vous de cocher les cases pour **Afficher les lignes sans montants** et **Afficher les rapports ne contenant pas de lignes actives** dans l’onglet **Paramètres**.
 
 ### <a name="row-definition"></a>Définition de ligne
 
@@ -94,10 +96,7 @@ Chaque état de balance comptable utilise une définition de colonne différente
     -   **FD** : Données financières qui contiennent uniquement des débits pour l’année dernière
     -   **FD** : Données financières qui contiennent uniquement des crédits pour l’année dernière
 
-
-
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des états financiers](financial-reporting-getting-started.md)
 

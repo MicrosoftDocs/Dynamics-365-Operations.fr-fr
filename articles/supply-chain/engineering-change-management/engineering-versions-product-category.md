@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920155"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115143"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versions d’ingénierie et catégories de produits d’ingénierie
 
@@ -48,7 +48,8 @@ Lorsque vous utilisez des produits d’ingénierie, chaque produit a au moins un
 - La société d’ingénierie qui a créé et possède le produit (pour plus d’informations, voir [Sociétés d’ingénierie et règles de propriété des données](engineering-org-data-ownership-rules.md) .)
 - Documents d’ingénierie connexes, tels qu’un manuel d’assemblage, des instructions d’utilisation, des images et des liens
 - Les attributs d’ingénierie (pour plus d’informations, voir [Attributs d’ingénierie et recherche d’attributs d’ingénierie](engineering-attributes-and-search.md).)
-- Les nomenclatures d’ingénierie
+- Nomenclature des produits d’ingénierie
+- Formules pour la fabrication par processus de produits
 - Les gammes d’ingénierie
 
 Vous pouvez mettre à jour ces données sur une version existante, ou créer une version, en utilisant un *ordre de modification technique*. (Pour plus d’informations, consultez [Gérer les modifications apportées aux produits d’ingénierie](engineering-change-management.md).) Si vous créez une version d’un produit, le système copie toutes les données importantes pour l’ingénierie dans cette nouvelle version. Vous pouvez ensuite modifier les données de cette nouvelle version. De cette manière, vous pouvez suivre des données spécifiques pour chaque version consécutive. Pour comparer les différences entre les versions d’ingénierie consécutives, inspectez l’ordre de modification technique, qui inclut les types de modification qui indiquent toutes les modifications.
@@ -110,6 +111,8 @@ Définissez les champs suivants sur le raccourci **Détails** d’une catégorie
 | Champ | Description |
 |---|---|
 | Type de produit | Sélectionnez si la catégorie s’applique aux produits ou services. |
+| Type de production | Ce champ n’apparaît que lorsque vous avez activé la [gestion des changements de formules](manage-formula-changes.md) dans votre système. Sélectionnez le type de production auquel s’applique cette catégorie de produits d’ingénierie :<ul><li>**Élément de planification** : utilisez cette catégorie d’ingénierie pour gérer les changements de formule des éléments de planification. Les éléments de planification utilisent des formules. Ils ressemblent à des éléments de formule, mais ils sont utilisés pour produire uniquement des coproduits et des sous-produits, et non des produits finis. Les formules sont utilisées lors de la fabrication par processus.</li><li>**Nomenclature** : utilisez cette catégorie d’ingénierie pour gérer les produits d’ingénierie, qui n’utilisent pas de formules et incluent généralement (mais pas nécessairement) des nomenclatures.</li><li>**Formule** : utilisez cette catégorie d’ingénierie pour gérer les changements de formule des produits finis. Ces articles auront une formule mais pas de nomenclature. Les formules sont utilisées lors de la fabrication par processus.</li></ul> |
+| Poids variable | Cette option n’apparaît que lorsque vous avez activé la [gestion des changements de formule](manage-formula-changes.md) dans votre système. Elle n’est disponible que lorsque le champ **Type de production** est défini sur *Élément de planification* ou *Formule*. Définissez cette option sur *Oui* si vous utilisez cette catégorie d’ingénierie pour gérer les articles qui nécessitent la prise en charge du poids variable. |
 | Suivre les versions dans les transactions | Sélectionnez si la version du produit doit être estampillée sur toutes les transactions (impact logistique). Par exemple, si vous suivez la version dans les transactions, chaque commande client indiquera quelle version spécifique du produit a été vendue dans cette commande client. Si vous ne suivez pas la version dans les transactions, les commandes client n’indiqueront pas quelle version spécifique a été vendue. Au lieu de cela, ils affichent toujours la dernière version.<ul><li>Si cette option est définie sur *Oui*, une fiche produit est créée pour le produit et chaque version du produit sera une variante qui utilise la dimension de produit *version*. Le champ **Sous-type de produit** est automatiquement défini sur *Produit générique* dans le champ **Groupe de dimensions de produit** et vous devez sélectionner un groupe de dimensions de produit dans lequel la dimension *version* est active. Seuls les groupes de dimensions de produit où la *version* est une dimension active seront affichés. Vous pouvez créer des groupes de dimensions de produit en sélectionnant le bouton **Modifier** (symbole de crayon).</li><li>Si cette option est définie sur *Non*, la dimension du produit *version* ne sera pas utilisée. Vous pouvez ensuite choisir de créer un produit ou un produit générique utilisant les autres dimensions.</li></ul><p>Cette option est souvent utilisée pour les produits qui présentent une différence de coût entre les versions ou les produits pour lesquels des conditions différentes s’appliquent par rapport au client. Par conséquent, il est important d’indiquer quelle version a été utilisée dans chaque transaction.</p> |
 | Sous-type de produit | Sélectionnez si la catégorie contiendra des produits ou des produits génériques. Pour les produits génériques, les dimensions du produit seront utilisées.
 | Groupe de dimensions de produit | Le paramètre **Suivre les versions dans les transactions** vous aide à sélectionner le groupe de dimensions de produit. Si vous avez indiqué que vous souhaitez suivre la version dans les transactions, les groupes de dimensions de produit où la dimension de la *version* utilisée sera affichée. Sinon, seuls les groupes de dimensions de produit où la dimension de *version* n’est pas utilisée seront affichés. |
@@ -139,7 +142,10 @@ Pour chaque ligne que vous ajoutez à la grille, définissez les champs suivants
 
 ### <a name="readiness-policy-fasttab"></a>Raccourci de stratégie de disponibilité
 
-Utilisez le champ **Stratégie de disponibilité du produit** pour sélectionner la stratégie de disponibilité qui s’applique aux produits appartenant à cette catégorie. Pour plus d’informations, voir [Disponibilité du produit](product-readiness.md).
+Utilisez le champ **Stratégie de disponibilité du produit** pour sélectionner la stratégie de disponibilité qui doit être appliquée aux produits créés selon cette catégorie d’ingénierie. Pour plus d’informations, voir [Disponibilité du produit](product-readiness.md).
+
+> [!NOTE]
+> Le champ **Stratégie de disponibilité du produit** fonctionne légèrement différemment si vous avez activé la fonctionnalité *Vérifications de la disponibilité du produit* dans votre système. (Cette fonctionnalité vous permet d’appliquer des stratégies de disponibilité aux produits \[non techniques\] standard). Pour plus d’informations, consultez [Affecter des stratégies de disponibilité aux produits standard et d’ingénierie](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Raccourci de stratégie de lancement
 

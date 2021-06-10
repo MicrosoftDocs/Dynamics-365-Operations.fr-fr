@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039925"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123360"
 ---
 # <a name="customer-aging-snapshots"></a>Instantanés de balance âgée des clients
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039925"
 Cette rubrique fournit des informations sur les instantanés de balance âgée des clients. Un instantané de balance âgée calcule les balances âgées d'un groupe de clients à un moment donné. Vous pouvez créer des enregistrements d’instantanés de balance âgée pour tous les clients ou pour les clients d’un regroupement de clients.
 
 Les informations relatives aux instantanés de balance âgée s’affichent sur la page de liste **Soldes chronologiques** et sur la page **Recouvrements**. Vous devez créer un instantané de balance âgée avant d’utiliser la page de liste **Soldes chronologiques**. La page de liste affiche uniquement les clients pour lesquels un instantané de balance âgée a été créé.
+
+L'espace de travail **Crédits et relances client** affiche également le vieillissement du client. Pour plus d'informations, consultez [Contenu Power BI sur la gestion des crédits et des relances](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Pour réduire le temps nécessaire à la création d'un instantané de balance âgée, activez la fonctionnalité **Amélioration des performances de vieillissement des clients** dans l'espace de travail **Gestion des fonctionnalités**. Cependant, n'utilisez pas de pools de clients lorsque cette fonctionnalité est activée. Si un pool de clients est sélectionné, la fonctionnalité ne fonctionnera pas, mais vous pouvez toujours créer un instantané de balance âgée.
@@ -62,4 +64,3 @@ Nous vous recommandons de planifier ce processus pour qu'il s'exécute dans un l
 > [!NOTE]
 > Pour améliorer les performances des lots lors de la création d'instantanés vieillissants, saisissez un nombre dans le champ **Nombre maximum de tâches par lots** dans le raccourci **Valeurs par défaut des collections** au sein de l'onglet **Collections** sur la page **Paramètres de la comptabilité client**. Dans le champ **Soldes client échus**, nous vous recommandons de commencer par la valeur par défaut de **100**, puis ajustez la valeur pour optimiser le traitement en fonction de votre situation.
 
-L'espace de travail **Crédits et relances client** affiche également le vieillissement du client. Pour plus d'informations, consultez [Contenu Power BI sur la gestion des crédits et des relances](credit-collections-power-bi.md).

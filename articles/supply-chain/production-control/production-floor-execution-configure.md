@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814728"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115021"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurer l’interface d’exécution de l’atelier de production
 
@@ -71,6 +71,14 @@ Cette fonctionnalité ajoute un onglet de gestion des actifs à l’interface d�
 
 - Fonctionnalité de gestion d’actifs pour l’interface d’exécution de l’atelier de production
 
+### <a name="enable-job-search"></a>Activer la recherche de tâches
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Cette fonctionnalité permet d’ajouter un champ de recherche à la liste des tâches. Les collaborateurs peuvent rechercher une tâche spécifique en entrant l’ID de la tâche ou en recherchant toutes les tâches pour une commande spécifique en entrant l’ID de la commande. Les collaborateurs peuvent entrer l’ID en utilisant un pavé numérique ou en scannant un code-barres. Pour l’utiliser, activez la fonctionnalité suivante dans [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) :
+
+- Recherche de tâche pour l’interface d’exécution de l’atelier de production
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utiliser les configurations de l’exécution de l’atelier de production
 
 Pour créer et gérer des configurations de périphérique, accédez à **Contrôle de la production \> Configuration \> Contrôle et suivi de la production \> Configurer l’exécution de l’atelier de production**. La page **Configurer l’exécution de l’atelier de production** affiche une liste des configurations existantes. Sur cette page, vous pouvez effectuer l’une des actions suivantes :
@@ -81,6 +89,7 @@ Pour créer et gérer des configurations de périphérique, accédez à **Contr�
 Ensuite, configurez les différents paramètres pour la configuration de périphérique sélectionnée. Les champs disponibles sont les suivants :
 
 - **Pointer et sortir uniquement** – Réglez cette option sur *Oui* pour créer une interface simplifiée qui ne fournit que des fonctionnalités d’horloge d’entrée et de sortie. Cela désactive la plupart des autres options de cette page. Vous devez supprimer toutes les lignes du raccourci **Sélection d’onglets** avant de pouvoir activer cette option.
+- **Activer la recherche** : définissez cette option sur *Oui* pour inclure un champ de recherche dans la liste des tâches. Les collaborateurs peuvent rechercher une tâche spécifique en entrant l’ID de la tâche ou en recherchant toutes les tâches pour une commande spécifique en entrant l’ID de la commande. Les collaborateurs peuvent entrer l’ID en utilisant un pavé numérique ou en scannant un code-barres.
 - **Déclarer la quantité à la sortie** - Définissez cette option sur *Oui* pour inviter les collaborateurs à faire part de leurs commentaires sur les travaux en cours lorsqu’ils pointent à la sortie. Lorsque cette option est définie sur *Non*, les collaborateurs ne reçoivent pas d’invite.
 - **Verrouiller l’employé** - Lorsque cette option est définie sur *Non*, les travailleurs seront déconnectés immédiatement après avoir effectué un enregistrement (comme un nouveau travail). L’appareil retournera ensuite à la page de connexion. Lorsque cette option est définie sur *Oui*, les collaborateurs resteront connectés au périphérique pour le bon de travail. Cependant, un collaborateur peut se déconnecter manuellement afin qu’un autre collaborateur puisse se connecter pendant que le périphérique pour le bon de travail continue de s’exécuter sous le même compte d’utilisateur système. Pour plus d’informations sur ces types de compte, voir [Utilisateurs affectés](config-job-card-device.md#assigned-users).
 - **Utiliser l’heure réelle d’enregistrement** - Définissez cette option sur *Oui* pour définir l’heure de chaque nouvel enregistrement sur l’heure exacte à laquelle le collaborateur a soumis l’enregistrement. Lorsque cette option est définie sur *Non*, l’heure de connexion est utilisée à la place. Vous souhaiterez généralement définir cette option sur *Oui* si vous avez défini les options **Verrouiller le collaborateur** et/ou **Collaborateur unique** sur *Oui* dans les cas où les collaborateurs restent souvent connectés pendant de longues périodes.
