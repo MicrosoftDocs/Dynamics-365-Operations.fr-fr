@@ -2,7 +2,7 @@
 title: Prise en main de l’Optimisation de la planification
 description: Cette rubrique explique comment utiliser la fonctionnalité d’Optimisation de la planification.
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907665"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103591"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -58,7 +58,7 @@ Avant d’installer le complément Optimisation de la planification, les conditi
 
 - Vous devez exécuter Supply Chain Management sur un environnement à haute disponibilité compatible LCS, niveau 2 ou supérieur (pas un environnement OneBox), avec Dynamics 365 Supply Chain Management version 10.0.7 ou les versions ultérieures. Si vous essayez d’installer le complément dans un environnement OneBox, l’installation ne se terminera pas et vous devrez annuler l’installation.
 
-- Votre système doit être configuré pour l’intégration Power Platform. Pour plus d’informations, consultez [Conditions préalables pour la configuration des compléments](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) et [Configurer des compléments](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+- Votre système doit être configuré pour l’intégration Power Platform. Pour plus d’informations, consultez [Intégration de Microsoft Power Platform aux applications Finance and Operations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Activer la licence du complément Optimisation de la planification
 

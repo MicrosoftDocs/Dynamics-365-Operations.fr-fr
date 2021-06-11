@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947518"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115047"
 ---
 # <a name="engineering-change-management-overview"></a>Présentation de la gestion des modifications d’ingénierie
 
@@ -50,16 +50,21 @@ Commencez par activer les fonctionnalités en suivant ces étapes.
 
 1. Accédez à l’espace de travail [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Rechercher des mises à jour.
-1. Activez la fonctionnalité nommée **Gestion des modifications d’ingénierie**.
-1. Si vous souhaitez l’utiliser, activez également la fonctionnalité nommée **Version de dimension de produit**.
+1. Activez la fonctionnalité nommée *Gestion des modifications d’ingénierie*.
+1. Si vous souhaitez l’utiliser, activez également la fonctionnalité nommée *Version de dimension de produit*.
 
 Ensuite, activez les clés de configuration en suivant ces étapes.
 
 1. Mettez votre système en mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Accédez à **Administration système \> Paramétrage \> Configuration des licences**.
 1. Développez le nœud **Commerce**.
-1. Activez la clé de configuration de la fonction principale en activant la case à cocher **Gestion du changement technologique**. (Il n'est pas nécessaire de développer le nœud, sauf si vous souhaitez également désactiver l'une de ses sous-fonctionnalités ou les deux.)
-1. Si vous souhaitez également utiliser la dimension de la version, cochez **Dimension du produit – Version**. (Cette case à cocher se trouve plus bas dans la liste, elle n'est pas imbriquée sous le nœud **Gestion du changement technologique**.)
+1. Activez la clé de configuration de la fonction principale en activant la case à cocher **Gestion des modifications d’ingénierie**.
+1. Développez le nœud **Gestion des modifications d’ingénierie** et cochez ou décochez les cases suivantes si nécessaire (selon les fonctionnalités que vous souhaitez utiliser) :
+
+    - **Recherche d’attributs** : cochez cette case pour activer la [fonction de recherche d’attributs](engineering-attributes-and-search.md). Nous vous recommandons d’activer cette fonctionnalité, mais vous pouvez décocher cette case si vous ne l’utilisez pas.
+    - **Gestion des modifications pour la fabrication par processus** : cochez cette case si vous souhaitez utiliser les fonctionnalités de gestion des modifications d’ingénierie pour gérer les changements de formules pour la fabrication par processus. Si vous n’avez pas à gérer les formules, vous pouvez décocher cette case. Pour plus d’informations, consultez [Gérer les changements de formules et de leurs composants](manage-formula-changes.md).
+
+1. Si vous souhaitez également utiliser la dimension de la version, cochez **Dimension du produit – Version**. (Cette case à cocher se trouve plus bas dans la liste, elle n’est pas imbriquée sous le nœud **Gestion des modifications d’ingénierie**.)
 1. Désactiver le mode maintenance comme décrit dans [Mode maintenance](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 > [!IMPORTANT]

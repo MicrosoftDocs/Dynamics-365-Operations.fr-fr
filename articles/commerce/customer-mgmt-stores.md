@@ -2,7 +2,7 @@
 title: Gestion des clients en magasin
 description: Cette rubrique explique comment les détaillants peuvent activer les fonctionnalités de gestion des clients au point de vente (PDV) dans Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019985"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097206"
 ---
 # <a name="customer-management-in-stores"></a>Gestion des clients en magasin
 
@@ -35,7 +35,10 @@ Les vendeurs peuvent également capturer des adresses e-mail et des numéros de 
 
 ## <a name="default-customer-properties"></a>Propriétés client par défaut
 
-Les détaillants peuvent utiliser la page **Tous les magasins** dans Commerce Headquarters (**Retail et Commerce \> Canaux \> Magasins**) pour associer un client par défaut à chaque magasin. Commerce copie ensuite les propriétés définies pour le client par défaut dans tous les enregistrements client créés. Par exemple, la boîte de dialogue **Créer un client** affiche les propriétés héritées du client par défaut associé au magasin. Ces propriétés incluent le type de client, le groupe de clients, les préférences de réception, la devise et la langue. Toutes les affiliations (regroupements de clients) sont également héritées du client par défaut. Cependant, les dimensions financières sont héritées du groupe de clients associé au client par défaut, et non du client par défaut lui-même.
+Les détaillants peuvent utiliser la page **Tous les magasins** dans Commerce Headquarters (**Retail et Commerce \> Canaux \> Magasins**) pour associer un client par défaut à chaque magasin. Commerce copie ensuite les propriétés définies pour le client par défaut dans tous les enregistrements client créés. Par exemple, la boîte de dialogue **Créer un client** affiche les propriétés héritées du client par défaut associé au magasin. Ces propriétés incluent le **type de client**, le **groupe de clients**, l’**option de réception**, l’**email de réception**, la **devise** et la **langue**. Toutes les **affiliations** (regroupements de clients) sont également héritées du client par défaut. Cependant, les **dimensions financières** sont héritées du groupe de clients associé au client par défaut, et non du client par défaut lui-même.
+
+> [!NOTE]
+> La valeur de l’**e-mail de réception** est copiée à partir du client par défaut uniquement si l’ID de l’e-mail de réception n’est pas fourni pour les nouveaux clients créés. Cela signifie que si l’ID de l’e-mail de réception est présent sur le client par défaut, tous les clients créés à partir du site d’e-commerce recevront le même ID d’e-mail de réception, car il n’y a pas d’interface utilisateur pour capturer l’ID de l’e-mail de réception du client. Nous vous recommandons de conserver le champ **e-mail de réception** vide pour le client par défaut du magasin et de ne l’utiliser que si un processus métier dépend de la présence d’une adresse e-mail de réception. 
 
 Les vendeurs peuvent capturer plusieurs adresses pour un client. Le nom et le numéro de téléphone du client sont hérités des informations de contact associées à chaque adresse. Le raccourci **Adresses** pour un enregistrement client comprend un champ **Objectif** que les vendeurs peuvent modifier. Si le type de client est **Personne**, la valeur par défaut est **Domicile**. Si le type de client est **Organisation**, la valeur par défaut est **Entreprise**. Les autres valeurs prises en charge par ce champ incluent **Domicile**, **Bureau** et **Boîte aux lettres**. La valeur du champ **Pays** d’une adresse est héritée de l’adresse principale spécifiée sur la page **Unité opérationnelle** de Commerce Headquarters, accessible via **Administration d’organisation \> Organisations \> Unités opérationnelles**.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019492"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103626"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -77,6 +77,7 @@ Pour confirmer manuellement les commandes prévisionnelles, recherchez et sélec
 
     - **Regrouper par fournisseur** - Définissez cette option sur *Oui* pour regrouper les commandes fournisseur prévisionnelles et créer une commande d'achat par fournisseur lors de la confirmation. Vous pouvez également créer une commande fournisseur ayant une ligne pour chaque commande prévisionnelle.
     - **Regrouper par groupe d'acheteurs** – Définissez cette option sur *Oui* pour regrouper les commandes fournisseur prévisionnelles et créer une commande fournisseur qui combine le groupe de fournisseurs et le groupe d'acheteurs. Pour utiliser cette option, vous devez également définir l'option **Regrouper par fournisseur** sur *Oui*.
+    - **Regrouper par contrat d’achat** : définissez cette option sur *Oui* pour regrouper les commandes fournisseur planifiées avec le même fournisseur comme contrats d’achat existants et créer une commande fournisseur par contrat d’achat. Cette option est automatiquement activée lorsque **Regrouper par fournisseur** est activé. Pour utiliser l’option **Regrouper par contrat d’achat**, l’option **Rechercher des contrats d’achat** doit être définie sur *Oui* dans la page **Paramètres de planification générale**.
     - **Regrouper par période** (dans la section **Commandes fournisseur**) - Sélectionnez la période selon laquelle regrouper les commandes fournisseur prévisionnelles. Pour utiliser cette option, vous devez également sélectionner l'option **Regrouper par fournisseur**.
     - **Regrouper par période** (dans la section **Transferts**) - Sélectionnez la période selon laquelle regrouper les ordres de transfert prévisionnels. Les commandes seront regroupées en fonction des valeurs **Entrepôt d’origine** et **Entrepôt de destination**.
 

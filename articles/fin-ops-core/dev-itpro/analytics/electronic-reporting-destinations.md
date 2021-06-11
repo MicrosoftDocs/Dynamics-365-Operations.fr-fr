@@ -2,7 +2,7 @@
 title: Destinations pour la gestion des états électroniques
 description: Cette rubrique fournit des informations sur la gestion des destinations pour la gestion des états électroniques, les types de destinations prises en charge et les considérations de sécurité.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893602"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085498"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinations pour la gestion des états électroniques
 
@@ -199,6 +199,34 @@ Si vous générez une configuration des états électroniques au format Excel et
 > L’orientation de la page sélectionnée est appliquée à toutes les configurations des états électroniques générées au format Excel, puis converties au format PDF.
 >
 > Si une configuration des états électroniques au format Word est convertie au format PDF, l’orientation de page du document PDF provient du document Word.
+
+## <a name="output-unfolding"></a>Déploiement de la sortie
+
+Lorsque vous configurez une destination pour le composant **Dossier** de votre format d’états électroniques, vous pouvez spécifier comment la sortie de ce composant est transmise à la destination configurée.
+
+### <a name="make-output-unfolding-available"></a>Rendre le déploiement de la sortie disponible
+
+Pour rendre l’option de déploiement de la sortie disponible dans l’instance actuelle de Finance, ouvrez l’espace de travail **Gestion des fonctionnalités** et activez la fonctionnalité **Autoriser la configuration des destinations d’états électroniques pour envoyer le contenu des dossiers en tant que fichiers distincts**.
+
+### <a name="applicability"></a>Conditions d'application
+
+L’option de déploiement de la sortie ne peut être configurée que pour les composants de format de type **Dossier**. Lorsque vous commencez à configurer un composant **Dossier**, le raccourci **Général** devient disponible dans la page **Destination des états électroniques**. 
+
+### <a name="use-the-output-unfolding-option"></a>Utiliser l’option de déploiement de la sortie
+
+Dans le raccourci **Général**, dans le champ **Envoyer le dossier en tant que**, sélectionnez l’une des valeurs suivantes :
+
+- **Archive ZIP** : transmettez un fichier généré en tant que fichier zip.
+- **Fichiers distincts** : transmettez chaque fichier d’un fichier zip généré en tant que fichier individuel.
+
+    > [!NOTE]
+    > Lorsque vous sélectionnez **Fichiers distincts**, la sortie générée est collectée en mémoire dans un état compressé. Par conséquent, la [limite de taille de fichier](er-compress-outbound-files.md) maximale est appliquée pour la sortie compressée lorsque la taille réelle du fichier peut dépasser cette limite. Nous vous recommandons de sélectionner cette valeur lorsque vous prévoyez que la taille de la sortie générée est relativement importante.
+
+[![Configuration d’une destination pour un composant de format Dossier](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Limitations
+
+Si vous définissez le champ **Envoyer le dossier en tant que** sur **Fichiers distincts** pour un composant **Dossier** contenant d’autres composants **Dossier** imbriqués, le paramètre n’est pas appliqué de manière récursive aux composants **Dossier** imbriqués.
 
 ## <a name="security-considerations"></a>Considérations de sécurité
 

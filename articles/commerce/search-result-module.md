@@ -2,7 +2,7 @@
 title: Module des résultats de recherche
 description: Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3409e9e99329def55b173eb78cf03db4a6764c92
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794113"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117131"
 ---
 # <a name="search-results-module"></a>Module de résultats de recherche
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules des résultats de recherche et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -51,9 +52,12 @@ Le tableau suivant répertorie les propriétés des modules de résultats de rec
 | Masquer l’affichage de la hiérarchie de catégories | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, l’affichage de la hiérarchie des catégories sur la page sera masqué. Cette propriété doit être définie sur **True** si vous utilisez le [module de fil d’Ariane](add-breadcrumb.md) pour afficher la hiérarchie des catégories.|
 | Inclure les attributs de produit dans les résultats de la recherche | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les attributs seront renvoyés pour les produits dans les résultats de la recherche. Bien que ces attributs puissent être affichés sur un site Commerce, une extension est requise.|
 | Afficher les prix d’affiliation | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, les prix d’affiliation pour les produits seront affichés dans les résultats de recherche lorsqu’un utilisateur connecté navigue sur la page. |
+| Mettre à jour le volet d’affinement | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, le volet d’affinement sera mis à jour lorsque des affinements sont sélectionnés. Dans ce mode, certains affinements à sélection multiple se comporteront comme des affinements à sélection unique lorsque le volet d’affinement est mis à jour. |
 
 > [!IMPORTANT]
-> Dans Dynamics 365 Commerce version 10.0.16 et ultérieures, la configuration **Afficher les prix d’affiliation** peut être utilisée pour afficher les prix d’affiliation sur la page.
+> Dans Commerce version 10.0.16 et les versions ultérieures, la configuration **Afficher les prix d’affiliation** peut être utilisée pour afficher les prix d’affiliation sur la page.
+>
+> Dans Commerce version 10.0.20 et les versions ultérieures, la configuration **Mettre à jour le volet d’affinement** peut être utilisée pour mettre à jour le volet d’affinement lors de la sélection d’affinements.
 
 ## <a name="supported-modules"></a>Modules pris en charge
 

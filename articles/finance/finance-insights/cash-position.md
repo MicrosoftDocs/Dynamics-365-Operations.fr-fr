@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811385"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123388"
 ---
 # <a name="cash-position-preview"></a>Emplacement des disponibilités (version préliminaire)
 
@@ -31,7 +31,7 @@ L’emplacement des disponibilités désigne la projection des flux de trésorer
 
 Lorsque le système prédit les paiements des clients, il utilise les prévisions de paiement de la fonction de prévision des paiements des clients. Sans prévisions de paiement, le temps moyen nécessaire pour convertir une facture client en paiement pour chaque client est utilisé pour calculer une date de paiement. Pour les commandes client en cours, le système calcule la date de facturation en utilisant le nombre moyen de jours pour les lignes de commande par client à facturer. Il utilise ensuite la date de la facture comme entrée pour la fonctionnalité de prévision de paiement. La fonctionnalité de prévision de paiement client calcule une date de paiement pour chaque ligne de commande. 
 
-<*Besoin d’un texte de Jarek ou Dave expliquant comment les prévisions de paiement sont converties en une date* > La date de paiement des factures impayées est approximative [*estimé* ] à partir des prévisions de paiement en sélectionnant une date qui correspond au cinquantième centile de la fonction de distribution cumulative obtenue à partir des probabilités du compartiment prédit.
+La date de paiement des factures impayées est estimée à partir des prévisions de paiement en sélectionnant une date qui correspond au cinquantième centile de la fonction de distribution cumulative obtenue à partir des probabilités du cas prédit.
 
 Une approche similaire est utilisée pour prévoir les paiements aux fournisseurs. Pour chaque fournisseur, le système calcule le temps moyen nécessaire pour convertir une facture fournisseur en paiement. Ce nombre de jours est ensuite utilisé pour calculer la date de paiement. Pour les commandes fournisseur en cours, le système calcule la date de la facture en tenant compte du nombre moyen de jours requis pour convertir les lignes de commande en facture pour chaque fournisseur. Le système calcule ensuite la date de paiement avec le temps moyen pour convertir une facture fournisseur en paiement pour chaque fournisseur.
 

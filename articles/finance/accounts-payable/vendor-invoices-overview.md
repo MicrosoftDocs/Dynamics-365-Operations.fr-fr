@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841259"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111692"
 ---
 # <a name="vendor-invoices-overview"></a>Vue d’ensemble des factures fournisseur
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Cette rubrique fournit des informations générales sur les factures fournisseur. Les factures fournisseur sont des demandes de paiement pour les biens et services reçus. Les factures fournisseur peuvent représenter une facture pour les services en cours, ou elles peuvent être basées sur des commandes fournisseur pour des articles et services spécifiques.
 
@@ -71,7 +73,9 @@ Voici plusieurs façons d’empêcher une facture d’être soumise à un flux d
 
 - **La facture contient des frais non alloués.** La personne qui a soumis la facture recevra une alerte indiquant que la facture a des frais non attribués afin de pouvoir corriger la facture avant de la soumettre à nouveau au flux de travail. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail en cas de charges non attribuées sur une facture fournisseur** de la page **Gestion des fonctionnalités** est activé.
 
-- **La facture contient le même numéro de facture qu’une autre facture validée.** La personne qui a soumis la facture recevra une alerte indiquant qu’une facture avec un numéro en double a été décelée afin de pouvoir la corriger avant de la soumettre à nouveau au flux de travail. Cette alerte s’affiche lorsque le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.  
+- **La facture contient le même numéro de facture qu’une autre facture validée.** La personne qui a envoyé la facture recevra un message indiquant qu’une facture avec un numéro en double a été trouvée. Le numéro en double peut être corrigé avant d’envoyer à nouveau la facture au flux de travail. Cette alerte s’affiche lorsque le paramètre **Vérifier le numéro de facture utilisé** de la Comptabilité fournisseur est défini sur **Rejeter le doublon**. Cette fonction est disponible si le paramètre **Interdire la soumission au flux de travail lorsque le numéro de facture existe déjà sur une facture validée et lorsque votre système n’est pas configuré pour accepter les numéros de facture en double** sur la page **Gestion des fonctionnalités** est activé.
+
+- **La facture contient une ligne où la quantité de la facture est inférieure à la quantité correspondante de l’accusé de réception de marchandises.** La personne qui envoie la facture ou tente de la publier recevra un message indiquant que les quantités ne sont pas égales. Ce message offre la possibilité de corriger les valeurs avant de renvoyer la facture au flux de travail. Cette fonctionnalité est disponible si le paramètre **Bloquer la publication et l’envoi de factures fournisseur au flux de travail** dans la page **Gestion des fonctionnalités** est activé et le paramètre **Bloquer la publication et l’envoi au flux de travail** dans la page **Paramètres de la comptabilité fournisseur** est activé.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Rapprochement des factures fournisseur avec les accusés de réception de marchandises
 

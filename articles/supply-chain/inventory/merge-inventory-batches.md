@@ -1,7 +1,7 @@
 ---
 title: Fusionner les traitements par lots de stock
 description: Cet article fournit des informations sur la manière de consolider au moins deux traitements par lots de stock dans un traitement par lots fusionné.
-author: pjacobse
+author: sherry-zheng
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16c3f13081dffd154f1a019357f1d9af7cc8912b
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808182"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103142"
 ---
 # <a name="merge-inventory-batches"></a>Fusionner les traitements par lots de stock
 
@@ -130,7 +130,7 @@ Voici comment sont gérées les dimensions de produit, de suivi et de stockage :
 ## <a name="how-does-posting-work"></a>Comment la validation fonctionne-t-elle ?
 La validation fonctionne de deux manières, selon que vous utilisez un processus d’approbation pour les journaux ou non. Vous pouvez utiliser les actions **Transférer vers le journal** et **Valider la fusion des traitements par lots** pour transférer la fusion de traitements par lots vers un journal dans lequel elle pourra être vérifiée et validée, ou vous pouvez valider la fusion de traitements par lots directement. La différence principale entre les deux actions est que le transfert vers un journal ne valide pas la fusion des traitements par lots. Les deux actions créeront un nouveau traitement par lots si aucun traitement par lots existant n’est sélectionné, elles mettront à jour tous les détails et les valeurs d’attribut de lot, et elles créeront un journal de stock.
 
--   **Transférer vers le journal** – Transfère les détails de la fusion de traitements par lots vers un nouveau journal de stock. Si vous avez définit des réservations automatiques, les quantités dans les traitements par lots sources sont réservées. Les détails de la fusion de traitements par lots ne peuvent pas être modifiés. Pour modifier la fusion de traitements par lots, vous devez supprimer le journal. Le journal peut servir de tâche qu’un autre employé devra effectuer ultérieurement. La réservation de la quantité de lot vers la ligne de journal est sécurisée. Cette répartition permet à un planificateur de qualité ou à un responsable d’entrepôt de créer des tâches pour son ou ses employé(s).
+-   **Transférer vers le journal** – Transfère les détails de la fusion de traitements par lots vers un nouveau journal de stock. Si vous avez définit des réservations automatiques, les quantités dans les traitements par lots sources sont réservées. Les détails de la fusion de traitements par lots ne peuvent pas être modifiés. Pour modifier la fusion de traitements par lots, vous devez supprimer le journal. Le journal peut servir de tâche qu’un autre employé devra effectuer ultérieurement. La réservation de la quantité de lot vers la ligne de journal est sécurisée. Cette répartition permet à un planificateur de la qualité ou à un responsable d’entrepôt de créer des tâches pour ses employés.
 -   **Valider la fusion des traitements par lots** – Valide la fusion des traitements par lots directement. Cette action peut être effectuée après la réalisation de la fusion physique.
 
 Vous pouvez approuver le journal de stock pour la fusion de traitements par lots depuis la page de liste **Toutes les fusions de traitements par lots**. Cliquez sur **Journal** &gt; **Valider**. Une fois le journal validé, vous ne pouvez pas modifier les détails du traitement par lots fusionné. Après avoir transféré une fusion de traitements par lots vers un journal de stock, vous ne pouvez modifier les détails que si le journal est supprimé.

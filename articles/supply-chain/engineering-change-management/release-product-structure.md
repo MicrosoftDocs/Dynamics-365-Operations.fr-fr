@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841983"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115095"
 ---
 # <a name="release-product-structures"></a>Lancer les structures de produit
 
@@ -103,6 +103,7 @@ Définissez les champs suivants sur le raccourci **Général** d’une stratégi
 | Champ | Description |
 |---|---|
 | Type de produit | Sélectionnez si la stratégie s’applique aux produits du type *Article* ou *Service*. Vous ne pouvez pas modifier ce paramètre après avoir enregistré l’enregistrement. |
+| Type de production | Ce champ n’apparaît que lorsque vous avez activé la [gestion des changements de formules](manage-formula-changes.md) dans votre système. Sélectionnez le type de production auquel s’applique cette stratégie de lancement :<ul><li>**Coproduit** : utilisez cette stratégie de lancement pour gérer les coproduits. Les coproduits sont produits pendant la fabrication par processus et ne sont pas des produits avec version ou d’ingénierie. Les stratégies de lancement des coproduits peuvent aider à garantir que les paramètres importants, tels que **Groupe de dimensions de stockage** et **Groupe de dimensions de suivi**, sont configurés à l’aide d’un modèle de produit lancé avant leur lancement dans une entreprise.</li><li>**Sous-produit** : utilisez cette stratégie de lancement pour gérer les sous-produits. Les sous-produits sont produits pendant la fabrication par processus et ne sont pas des produits avec version ou d’ingénierie. Les stratégie de lancement des sous-produits peuvent aider à garantir que les paramètres importants, tels que **Groupe de dimensions de stockage** et **Groupe de dimensions de suivi**, sont configurés à l’aide d’un modèle de produit lancé avant leur lancement dans une entreprise.</li><li>**Aucun** : utilisez cette stratégie pour gérer les produits standard qui ne sont pas des produits avec version ou d’ingénierie, ou des coproduits ou des sous-produits.</li><li>**Élément de planification** : utilisez cette stratégie de lancement pour gérer les éléments de planification qui sont produits à l’aide de la fabrication par processus. Les éléments de planification utilisent des formules. Ils ressemblent à des éléments de formule, mais ils sont utilisés pour produire uniquement des coproduits et des sous-produits, et non des produits finis.</li><li>**Nomenclature** : utilisez cette stratégie de lancement pour gérer les produits d’ingénierie, qui n’utilisent pas de formules et incluent généralement (mais pas nécessairement) des nomenclatures.</li><li>**Formule** : utilisez cette stratégie de lancement pour gérer les articles finis qui sont produits à l’aide de la fabrication par processus. Ces articles auront une formule mais pas de nomenclature.</li></ul> |
 | Appliquer des modèles | Sélectionnez l’une des options suivantes pour spécifier si et comment les modèles de version de produit doivent être appliqués lorsque la stratégie est utilisée :<ul><li>**Toujours** – Un modèle de produit publié doit toujours être utilisé pour les versions. Si vous sélectionnez cette option, utilisez le raccourci **Tous les produits** pour spécifier le modèle utilisé pour chaque société dans laquelle vous publiez. Si vous ne spécifiez pas de modèle pour chaque entreprise répertoriée dans le raccourci **Tous les produits**, vous recevrez une erreur lorsque vous essayez d’enregistrer la stratégie.</li><li>**Facultatif** – Si un modèle de produit lancé est spécifié pour une entreprise répertoriée sur le raccourci **Tous les produits**, ce modèle sera utilisé lors de votre lancement dans cette société. Sinon, aucun modèle ne sera utilisé. Si vous sélectionnez cette option, vous pouvez enregistrer la stratégie sans attribuer de modèles à toutes les sociétés. (Aucun avertissement ne sera affiché.)</li><li>**Jamais** – Aucun modèle de produit lancé ne sera utilisé pour les compagnies dans lesquelles vous le lancez même si le modèle est spécifié pour les entreprises répertoriées sur le raccourci **Tous les produits**. Les colonnes du modèle ne seront pas disponibles.</li></ul> |
 | Actif.ve | Utilisez cette option pour vous aider à maintenir vos politiques de publication. Définissez-le sur *Oui* pour toutes les politiques de publication que vous utilisez. Définissez-le sur *Non* pour marquer une stratégie de publication comme inactive lorsqu’elle n’est pas utilisée. Notez que vous ne pouvez pas désactiver une stratégie de version affectée à une catégorie de produit d’ingénierie et que vous ne pouvez supprimer que des stratégies de version inactives. |
 

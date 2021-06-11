@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921421"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112619"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
 
@@ -104,6 +104,39 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Option de déploiement**              | Tous |
 | **État**                         | Abandon : d’ici au 1er octobre 2020, nous prévoyons de ne plus prendre en charge la fonction **État de taxe domestique – Référence de la fonctionnalité IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>Annonce d’abandon d’octobre 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagrammes de flux du concepteur de processus d'entreprise
+
+<table>
+<tbody>
+<tr>
+<td><strong>Motif de l’abandon/de la suppression</strong></td>
+<td>Nous déconseillons le composant d’organigrammes dans le Concepteur de processus d’entreprise (BPM), car la conception héritée a entraîné une faible utilisation.</td>
+</tr>
+<tr>
+<td><strong>Remplacé par une autre fonctionnalité ?</strong></td>
+<td>Non</td>
+</tr>
+<tr>
+<td><strong>Domaines affectés</strong></td>
+<td>Concepteur de processus d’entreprise</td>
+</tr>
+<tr>
+<td><strong>Statut</strong></td>
+<td>Obsolète : le composant d’organigrammes dans BPM devrait être supprimé en 2020. La fonctionnalité suivante ne sera pas disponible :
+<ul>
+<li>Tous les organigrammes seront en lecture seule et ne pourront pas être modifiés. Les propriétés de forme associées aux activités de l’organigramme ne seront pas non plus disponibles. Ces organigrammes comprennent à la fois des organigrammes par défaut générés automatiquement et des organigrammes personnalisés qui sont modifiés en fonction de ces organigrammes par défaut.</li>
+<li>Les étapes de processus seront en lecture seule et ne pourront pas être modifiées.</li>     
+<li>La fonctionnalité d’analyse d’adéquation/des écarts héritée ne sera pas disponible. Par conséquent, aucune liste des écarts ne sera automatiquement créée ou disponible pour l’exportation.
+<p><strong>Remarque :</strong> Cette fonctionnalité était auparavant obsolète et remplacée par les intégrations Microsoft Azure DevOps.</p>
+</li>
+<li>L’historique des versions de l’organigramme ne sera pas disponible.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 avec Platform update 29
 
