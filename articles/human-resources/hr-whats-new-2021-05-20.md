@@ -1,0 +1,90 @@
+---
+title: Nouveautés ou modifications dans Dynamics 365 Human Resources, 20 mai 2021
+description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Human Resources pour le 20 mai 2021.
+author: marcelbf
+ms.date: 05/20/2021
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.search.scope: Human Resources
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: marcelbf
+ms.search.validFrom: 2021-05-20
+ms.dyn365.ops.version: Human Resources
+ms.openlocfilehash: afa64474e8eaf4c7b73e4f76d85e379f77b570a7
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111565"
+---
+# <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a><span data-ttu-id="0e019-103">Nouveautés ou modifications dans Dynamics 365 Human Resources, 20 mai 2021</span><span class="sxs-lookup"><span data-stu-id="0e019-103">What's new or changed in Dynamics 365 Human Resources May 20, 2021</span></span>
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+<span data-ttu-id="0e019-104">Cette rubrique décrit les fonctionnalités qui sont nouvelles, ont été modifiées ou seront bientôt disponibles dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="0e019-104">This topic describes features that are new, changed, or coming soon in Dynamics 365 Human Resources.</span></span>
+
+<span data-ttu-id="0e019-105">Pour plus d’informations sur notre processus et programme de mise à jour, voir [Processus de mise à jour](hr-admin-setup-update-process.md).</span><span class="sxs-lookup"><span data-stu-id="0e019-105">For more information about our update process and schedule, see [Update process](hr-admin-setup-update-process.md).</span></span>
+
+<span data-ttu-id="0e019-106">Pour plus d’informations sur les nouvelles fonctionnalités et leurs dates de disponibilité générale prévues, voir [Vue d’ensemble de la 1re vague de lancement Dynamics 365 Human Resources 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span><span class="sxs-lookup"><span data-stu-id="0e019-106">For more information about new features and their expected general availability dates, see [Overview of Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span></span>
+
+## <a name="in-this-release"></a><span data-ttu-id="0e019-107">Dans cette version</span><span class="sxs-lookup"><span data-stu-id="0e019-107">In this release</span></span>
+
+<span data-ttu-id="0e019-108">Cette version inclut les nouvelles fonctionnalités et correctifs de bogues suivants.</span><span class="sxs-lookup"><span data-stu-id="0e019-108">This release includes the following new features and bug fixes.</span></span> <span data-ttu-id="0e019-109">Les modifications s’appliquent au numéro de version 8.1.4189.</span><span class="sxs-lookup"><span data-stu-id="0e019-109">Changes apply to build number 8.1.4189.</span></span>
+
+### <a name="new-features"></a><span data-ttu-id="0e019-110">Nouvelles fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="0e019-110">New features</span></span>
+
+<span data-ttu-id="0e019-111">Les fonctionnalités suivantes sont mises à la disposition générale avec cette version.</span><span class="sxs-lookup"><span data-stu-id="0e019-111">The following features are generally available with this release.</span></span>
+
+| <span data-ttu-id="0e019-112">Fonctionnalité</span><span class="sxs-lookup"><span data-stu-id="0e019-112">Feature</span></span> | <span data-ttu-id="0e019-113">Programme de lancement</span><span class="sxs-lookup"><span data-stu-id="0e019-113">Release plan</span></span> | <span data-ttu-id="0e019-114">Documentation</span><span class="sxs-lookup"><span data-stu-id="0e019-114">Documentation</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="0e019-115">Platform update 10.0.18 (42)</span><span class="sxs-lookup"><span data-stu-id="0e019-115">Platform update 10.0.18 (42)</span></span> | -- | [<span data-ttu-id="0e019-116">Mises à jour de la plateforme pour la version 10.0.18 des applications Finance and Operations (mai 2021)</span><span class="sxs-lookup"><span data-stu-id="0e019-116">Platform updates for version 10.0.18 of Finance and Operations apps (May 2021)</span></span>](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
+| <span data-ttu-id="0e019-117">L’application Human resources pour Microsoft Teams prend désormais en charge les définitions de la demi-journée et la fonction de fractionnement de la journée</span><span class="sxs-lookup"><span data-stu-id="0e019-117">Human Resources app for Microsoft Teams now supports half day definitions and split day capability</span></span> | -- | [<span data-ttu-id="0e019-118">Gérer les demandes de congés dans Teams</span><span class="sxs-lookup"><span data-stu-id="0e019-118">Manage leave requests in Teams</span></span>](/dynamics365/human-resources/hr-teams-leave-app#create-a-new-request) |
+
+### <a name="bug-fixes"></a><span data-ttu-id="0e019-119">Correctifs de bogue</span><span class="sxs-lookup"><span data-stu-id="0e019-119">Bug fixes</span></span>
+
+<span data-ttu-id="0e019-120">Les correctifs de bogues suivants sont compris dans cette version.</span><span class="sxs-lookup"><span data-stu-id="0e019-120">The following bug fixes are included in this release.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="0e019-121">Notre objectif est de vous fournir ces informations le plus rapidement possible.</span><span class="sxs-lookup"><span data-stu-id="0e019-121">Our goal is to get you this information as soon as possible.</span></span> <span data-ttu-id="0e019-122">Il se peut que nous mettions à jour de cette rubrique pour inclure des correctifs de bogues qui sont intégrés à la version après la publication initiale de cette rubrique.</span><span class="sxs-lookup"><span data-stu-id="0e019-122">We may update this topic to include bug fixes that made it into the build after this topic was initially published.</span></span>
+
+| <span data-ttu-id="0e019-123">Numéro du problème</span><span class="sxs-lookup"><span data-stu-id="0e019-123">Issue number</span></span> | <span data-ttu-id="0e019-124">Problème</span><span class="sxs-lookup"><span data-stu-id="0e019-124">Issue</span></span> |  <span data-ttu-id="0e019-125">Description </span><span class="sxs-lookup"><span data-stu-id="0e019-125">Description</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="0e019-126">583776</span><span class="sxs-lookup"><span data-stu-id="0e019-126">583776</span></span> | <span data-ttu-id="0e019-127">Les inscriptions en masse des employés à des plans de congé entraînent une erreur d’enregistrement en double</span><span class="sxs-lookup"><span data-stu-id="0e019-127">Mass enrollments of employees into leave plans is causing a duplicate record error</span></span> | <span data-ttu-id="0e019-128">Ce bogue a été corrigé avec la dernière version et les inscriptions en masse au plan de congé devraient être traitées correctement.</span><span class="sxs-lookup"><span data-stu-id="0e019-128">This bug has been fixed with the latest release and mass leave plan enrollments should be processed successfully.</span></span> |
+| <span data-ttu-id="0e019-129">582263</span><span class="sxs-lookup"><span data-stu-id="0e019-129">582263</span></span> | <span data-ttu-id="0e019-130">Impossible d’exécuter le traitement des événements de vie pour tous les collaborateurs en même temps</span><span class="sxs-lookup"><span data-stu-id="0e019-130">Cannot run life event processing for all workers at once</span></span> | <span data-ttu-id="0e019-131">Lorsque le champ **Collaborateur** est laissé vide pour le traitement des événements de vie, tous les collaborateurs seront traités.</span><span class="sxs-lookup"><span data-stu-id="0e019-131">When the **Worker** field is left blank for life event processing, all workers will be processed.</span></span> |
+| <span data-ttu-id="0e019-132">558383</span><span class="sxs-lookup"><span data-stu-id="0e019-132">558383</span></span> | <span data-ttu-id="0e019-133">Le bénéficiaire principal n’est pas marqué comme 100 % si la personne désignée par défaut n’est pas sélectionnée</span><span class="sxs-lookup"><span data-stu-id="0e019-133">Primary beneficiary not marked as 100% if default designee is not selected</span></span> | <span data-ttu-id="0e019-134">Ce bogue a été corrigé pour que l’utilisateur sélectionne simplement le bouton bascule du bénéficiaire principal.</span><span class="sxs-lookup"><span data-stu-id="0e019-134">Bug has been fixed so that user only needs to select primary beneficiary toggle.</span></span>|
+| <span data-ttu-id="0e019-135">509404</span><span class="sxs-lookup"><span data-stu-id="0e019-135">509404</span></span> | <span data-ttu-id="0e019-136">L’analyse des effectifs des services ne prend pas en compte le transfert des employés entre les services</span><span class="sxs-lookup"><span data-stu-id="0e019-136">Department Headcount analytics not taking into consideration movement of employees between department</span></span> |<span data-ttu-id="0e019-137">L’analyse a été mise à jour pour inclure les transferts des employés entre les services</span><span class="sxs-lookup"><span data-stu-id="0e019-137">The analytics have been updated to include transfers of employees between departments</span></span>|
+| <span data-ttu-id="0e019-138">579420</span><span class="sxs-lookup"><span data-stu-id="0e019-138">579420</span></span> | <span data-ttu-id="0e019-139">La fonctionnalité Figeage des colonnes dans les grilles n’est pas encore disponible</span><span class="sxs-lookup"><span data-stu-id="0e019-139">Freezing columns in grids feature should not yet be available</span></span> | <span data-ttu-id="0e019-140">La fonctionnalité **Figeage des colonnes dans les grilles**, qui n’est pas disponible dans Human Resources, a été répertoriée comme disponible dans Gestion des fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="0e019-140">The **Freezing columns in grids** feature, which is not available in Human Resources, was listed as available in Feature Management.</span></span> <span data-ttu-id="0e019-141">La fonctionnalité a été supprimée de la liste des fonctionnalités à activer.</span><span class="sxs-lookup"><span data-stu-id="0e019-141">The feature has been removed from the list of features to enable.</span></span> |
+
+## <a name="in-preview"></a><span data-ttu-id="0e019-142">En mode aperçu</span><span class="sxs-lookup"><span data-stu-id="0e019-142">In preview</span></span>
+
+<span data-ttu-id="0e019-143">Les nouvelles fonctions suivantes sont en version préliminaire.</span><span class="sxs-lookup"><span data-stu-id="0e019-143">The following new features are in preview.</span></span> <span data-ttu-id="0e019-144">Pour plus d’informations sur l’activation ou la désactivation des fonctionnalités, voir [Gestion des fonctionnalités](hr-admin-manage-features.md).</span><span class="sxs-lookup"><span data-stu-id="0e019-144">For more information about turning features on or off, see [Manage features](hr-admin-manage-features.md).</span></span>
+
+| <span data-ttu-id="0e019-145">Fonctionnalité</span><span class="sxs-lookup"><span data-stu-id="0e019-145">Feature</span></span> | <span data-ttu-id="0e019-146">Programme de lancement</span><span class="sxs-lookup"><span data-stu-id="0e019-146">Release plan</span></span> | <span data-ttu-id="0e019-147">Documentation</span><span class="sxs-lookup"><span data-stu-id="0e019-147">Documentation</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="0e019-148">Prise en charge des champs personnalisés dans les règles d’admissibilité de gestion des avantages</span><span class="sxs-lookup"><span data-stu-id="0e019-148">Custom field support in Benefits management eligibility rules</span></span> | [<span data-ttu-id="0e019-149">Prise en charge des champs personnalisés pour le traitement de l’admissibilité</span><span class="sxs-lookup"><span data-stu-id="0e019-149">Custom field support for eligibility processing</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[<span data-ttu-id="0e019-150">Configuration des règles d’éligibilité</span><span class="sxs-lookup"><span data-stu-id="0e019-150">Configuring eligibility rules</span></span>](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
+| <span data-ttu-id="0e019-151">Espace de travail de gestion des avantages</span><span class="sxs-lookup"><span data-stu-id="0e019-151">Benefits management workspace</span></span> | [<span data-ttu-id="0e019-152">Espace de travail de gestion des avantages (version préliminaire)</span><span class="sxs-lookup"><span data-stu-id="0e019-152">Benefits management workspace (Preview)</span></span>](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [<span data-ttu-id="0e019-153">Espace de travail de gestion des avantages</span><span class="sxs-lookup"><span data-stu-id="0e019-153">Benefits management workspace</span></span>](hr-benefits-management-workspace.md) |
+| <span data-ttu-id="0e019-154">Améliorations de l'expérience du flux de travail sur les congés et les absences</span><span class="sxs-lookup"><span data-stu-id="0e019-154">Leave and absence workflow experience enhancements</span></span> | [<span data-ttu-id="0e019-155">Améliorations de l'expérience du flux de travail sur les congés et les absences</span><span class="sxs-lookup"><span data-stu-id="0e019-155">Leave and absence workflow experience enhancements</span></span>](https://go.microsoft.com/fwlink/?linkid=2147528) | [<span data-ttu-id="0e019-156">Demander un congé</span><span class="sxs-lookup"><span data-stu-id="0e019-156">Request time off</span></span>](hr-employee-self-service-request-time-off.md)|
+| <span data-ttu-id="0e019-157">Activer l'intégration simplifiée de la paie (API d'intégration de la paie)</span><span class="sxs-lookup"><span data-stu-id="0e019-157">Enable simplified payroll integration (Payroll integration APIs)</span></span> | [<span data-ttu-id="0e019-158">Activer l'intégration simplifiée avec des prestataires de paie</span><span class="sxs-lookup"><span data-stu-id="0e019-158">Enable simplified integration with payroll providers</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-simplified-integration-payroll-providers) | [<span data-ttu-id="0e019-159">API d’intégration de la paie</span><span class="sxs-lookup"><span data-stu-id="0e019-159">Payroll integration API</span></span>](hr-admin-integration-payroll-api-introduction.md)|
+| <span data-ttu-id="0e019-160">Audit des transactions de régularisation de congés</span><span class="sxs-lookup"><span data-stu-id="0e019-160">Leave accrual transaction auditing</span></span> | - | [<span data-ttu-id="0e019-161">Audit des transactions de régularisation de congés</span><span class="sxs-lookup"><span data-stu-id="0e019-161">Leave accrual transaction auditing</span></span>](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+
+## <a name="coming-soon"></a><span data-ttu-id="0e019-162">Bientôt disponible</span><span class="sxs-lookup"><span data-stu-id="0e019-162">Coming soon</span></span>
+
+| <span data-ttu-id="0e019-163">Fonctionnalité</span><span class="sxs-lookup"><span data-stu-id="0e019-163">Feature</span></span> | <span data-ttu-id="0e019-164">Détails</span><span class="sxs-lookup"><span data-stu-id="0e019-164">Details</span></span> |
+| --- | --- |
+|  <span data-ttu-id="0e019-165">Activer un gestionnaire des absences pour gérer les congés</span><span class="sxs-lookup"><span data-stu-id="0e019-165">Enable an absence manager to manage leave</span></span> | [<span data-ttu-id="0e019-166">Activer un gestionnaire des absences pour gérer les congés</span><span class="sxs-lookup"><span data-stu-id="0e019-166">Enable an absence manager to manage leave</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
+
+<span data-ttu-id="0e019-167">Pour obtenir la liste complète des fonctionnalités prévues et de leur lancement, voir [Vue d’ensemble de la 1re vague de lancement de Dynamics 365 Human Resources 2021](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span><span class="sxs-lookup"><span data-stu-id="0e019-167">For a complete list of planned features and their scheduled releases, see [Overview of Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="0e019-168">Voir également :</span><span class="sxs-lookup"><span data-stu-id="0e019-168">See also</span></span>
+
+[<span data-ttu-id="0e019-169">Nouveautés ou modifications dans Human Resources</span><span class="sxs-lookup"><span data-stu-id="0e019-169">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)</br>
+[<span data-ttu-id="0e019-170">Vue d’ensemble de la 1re vague de lancement de Dynamics 365 Human Resources 2021</span><span class="sxs-lookup"><span data-stu-id="0e019-170">Overview of Dynamics 365 Human Resources 2021 release wave 1</span></span>](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[<span data-ttu-id="0e019-171">Processus de mise à jour</span><span class="sxs-lookup"><span data-stu-id="0e019-171">Update process</span></span>](hr-admin-setup-update-process.md)</br>
+[<span data-ttu-id="0e019-172">Gérer les fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="0e019-172">Manage features</span></span>](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
