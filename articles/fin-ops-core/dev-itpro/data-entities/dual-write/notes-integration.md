@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018384"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186784"
 ---
 # <a name="note-integration"></a>Intégration d’une note
 
@@ -122,5 +122,9 @@ L’intégration de notes comprend un ensemble de mappages de tables qui fonctio
 | [Pièces jointes de document fournisseur](mapping-reference.md#231) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux fournisseurs (pour les organisations et les personnes). |
 | [Pièces jointes des documents d’en-tête de commande client](mapping-reference.md#229) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux commandes client. |
 | [Pièces jointes des documents d’en-tête de commande fournisseur](mapping-reference.md#232) | Annotations | Entreprises qui utilisent du texte brut et des URL pour capturer des informations spécifiques aux commandes fournisseur. |
+
+## <a name="limitations"></a>Limitations
+
+Une fois que vous avez installé la solution de notes, vous ne pouvez pas la désinstaller. 
 
 Pour plus d’informations, voir [Référence de mappage en double écriture](mapping-reference.md).

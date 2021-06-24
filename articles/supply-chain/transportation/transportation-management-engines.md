@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920107"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188844"
 ---
 # <a name="transportation-management-engines"></a>Moteurs de gestion de transport
 
@@ -43,8 +43,7 @@ Le tableau suivant répertorie les moteurs de gestion de transport disponibles.
 | **Type de facture des frais de transport**            | Standardise la facture de transport et les lignes de la facture de frais de transport et permet de mettre en correspondance automatiquement la facture de frais de transport.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quels moteurs doit-on configurer pour évaluer une expédition ?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quels moteurs doit-on configurer pour évaluer une expédition ?
 
 Pour évaluer une expédition pour un transporteur spécifique, vous devez configurer plusieurs moteurs de gestion de transport. Un **moteur de frais** est nécessaire, mais d’autres moteurs de gestion du transport peuvent être requis pour prendre en charge le **moteur de frais**. Par exemple, le **moteur de frais** peut être utilisé pour extraire les données du **moteur de kilométrage** et calculer les frais en fonction du kilométrage entre la source et la destination.
 
@@ -62,8 +61,7 @@ Dans la plupart des cas, vous pouvez cliquer sur le bouton **Paramètres** dans 
 |  <em>MileageEngineCode</em>  |                       Code de moteur de kilométrage qui identifie l’enregistrement du moteur de kilométrage dans la base de données.                        |
 | <em>ApportionmentEngine</em> |                        Code de moteur générique qui identifie le moteur de répartition dans la base de données.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Comment utilise-t-on les métadonnées dans les moteurs de gestion de transport ?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Comment utilise-t-on les métadonnées dans les moteurs de gestion de transport ?
 
 Les moteurs de gestion du transport qui se fondent sur des données définies dans Supply Chain Management peuvent utiliser différents schémas de données. Le système de gestion du transport permet à différents moteurs de gestion de transport d’utiliser les mêmes tables de base de données physique génériques. Pour vous assurer que l’interprétation des données du moteur au moment de l’exécution est correcte, vous pouvez définir des métadonnées pour les tables de la base de données. Cela réduit le coût de génération de nouveaux moteurs de gestion du transport, car il n’est pas nécessaire d’ajouter de tables ni de structures d’écran dans Operations.
 

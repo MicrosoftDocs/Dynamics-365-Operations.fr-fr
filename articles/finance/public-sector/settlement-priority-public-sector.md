@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e47e3001205bd51f42b3c2270a56d71df9c4dd88
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 34d61f21b7db2dcc0a44e141e789a4a316fc2771
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816832"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188332"
 ---
 # <a name="settlement-priority-in-the-public-sector"></a>Priorité de règlement (Secteur public)
 
@@ -29,8 +29,7 @@ ms.locfileid: "5816832"
 
 Dans Dynamics 365 Finance, vous pouvez sélectionner manuellement les transactions à régler, ou vous pouvez utiliser la fonctionnalité de règlement automatique. Les organisations du secteur public ont des options supplémentaires pour classer les règlements à l’aide des classifications de facturation. Ces options peuvent être utilisées avec le règlement automatique ou manuel.
 
-<a name="how-to-set-the-general-ledger-parameters-and-accounts-receivable-parameters-for-settlement-priority"></a>Comment définir les paramètres de comptabilité et les paramètres de la comptabilité client pour la priorité de règlement
----------------------------------------------------------------------------------------------------
+## <a name="how-to-set-the-general-ledger-parameters-and-accounts-receivable-parameters-for-settlement-priority"></a>Comment définir les paramètres de comptabilité et les paramètres de la comptabilité client pour la priorité de règlement
 
 Pour utiliser les classifications de facturation afin de contrôler les priorités de règlement, vous devez définir à la fois un paramètre de taxe dans l’application Comptabilité et les paramètres de règlement dans l’application Comptabilité client. 
 

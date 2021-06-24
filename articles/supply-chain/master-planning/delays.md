@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4216ed1d9b981eee94cfd4c621abd1da99111512
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8e863ae63466f68e763b133da9f0e9488c6cfa6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813673"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189344"
 ---
 # <a name="delays"></a>Retards
 
@@ -52,8 +52,7 @@ Les messages d’action peuvent être également utilisés pour identifier les o
 
 Dans la page **Ordre prévisionnel**, sous l’onglet **Retards**, se trouve la **Date souhaitée** pour l’ordre prévisionnel. La date souhaitée d’un ordre prévisionnel est la date de référence pour les retards, qui est une date calculée équivalente à la **Date demandée** calculée à partir des **Besoins nets**. Si l’ordre prévisionnel est une ligne de nomenclature, une ligne de production ou une ligne de kanban, la date souhaitée est basée sur la **Date de besoin** et la date souhaitée ne s’affiche pas dans la page **Ordre prévisionnel**.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Paramètres de couverture](coverage-settings.md)
 

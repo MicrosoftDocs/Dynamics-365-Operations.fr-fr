@@ -2,7 +2,7 @@
 title: Évaluer le modèle de prédiction de paiement client initial (version préliminaire)
 description: Cette rubrique décrit les étapes que vous pouvez suivre pour comprendre le modèle de prédiction de paiement client et évaluer son efficacité.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897910"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186736"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Évaluer le modèle de prédiction de paiement client initial (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique explique comment évaluer un modèle de prédiction après avoir activé Finance Insights, puis généré et formé votre premier modèle. Cette rubrique traite des modèles de prévision des paiements des clients. Elle décrit les étapes que vous pouvez suivre pour comprendre le modèle de prédiction de paiement client et évaluer son efficacité.
+Cette rubrique explique comment évaluer un modèle de prédiction après avoir activé Informations financières, puis généré et formé votre premier modèle. Cette rubrique traite des modèles de prévision des paiements des clients. Elle décrit les étapes que vous pouvez suivre pour comprendre le modèle de prédiction de paiement client et évaluer son efficacité.
 
 ## <a name="getting-details-about-the-model"></a>Obtenir des détails sur le modèle
 
-Sur la page **Paramètres Finance Insights** dans Microsoft Dynamics 365 Finance, un lien **Améliorez la précision du modèle** apparaît à côté du score de précision.
+Sur la page **Paramètres Informations financières** dans Microsoft Dynamics 365 Finance, un lien **Améliorez la précision du modèle** apparaît à côté du score de précision.
 
 [![Lien Améliorer la précision du modèle](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -95,9 +95,5 @@ Une fois que vous aurez mieux compris les résultats de votre premier modèle, v
 ## <a name="for-more-information"></a>Plus d’informations
 
 Pour plus d’information sur l’évaluation des modèles de prédiction, voir [Résultats des modèles Machine Learning](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

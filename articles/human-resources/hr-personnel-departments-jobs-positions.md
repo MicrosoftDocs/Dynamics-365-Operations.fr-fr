@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058822"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189748"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organisation du personnel à l’aide des départements, tâches et postes
 
@@ -42,8 +42,7 @@ L’exemple suivant est utilisé pour illustrer les concepts décrits dans cet a
 |**Ressources humaines**|Directeur RH (centre)|Directeur RH|
 
 
- <a name="departments"></a>Départements
-------------
+##  <a name="departments"></a>Départements
 
 Un département est une unité opérationnelle représentant une catégorie ou une zone fonctionnelle d’une organisation, et responsable d’une région spécifique de l’organisation ; par exemple les ventes ou la comptabilité. Un département est chargé de fournir des états sur les zones fonctionnelles et peut être responsable des résultats. En outre, un département peut inclure un groupe de centres de coût. Les ventes, la comptabilité et les ressources humaines sont des exemples de départements d’une organisation.
 
@@ -96,8 +95,7 @@ Utilisez les types de tâches pour classer les tâches similaires en catégories
 
 Utilisez les domaines de responsabilité pour indiquer les rôles, les processus et les produits dont un travailleur occupant un poste pour cette tâche est responsable. Un exemple de domaine de responsabilité pour une tâche intitulée « Comptable » peut être « Génération d’états financiers pour le produit A ».
 
-<a name="positions"></a>Postes
-----------
+## <a name="positions"></a>Postes
 
 Les postes sont un élément important du niveau inférieur d’une hiérarchie d’organisation. Un poste est une instance individuelle de tâche. Par exemple, le poste « Responsable des ventes (est) » est l’un des postes associé à la tâche « Responsable des ventes ». Les postes existent dans un département et sont affectées aux travailleurs.
 ### <a name="position-creation-and-maintenance"></a>Création et mise à jour de poste

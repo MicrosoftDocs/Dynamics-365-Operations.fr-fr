@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812677"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187965"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Contraintes de table définies par l’utilisateur et par le système
 
@@ -57,8 +57,7 @@ Lorsque vous créez une contrainte de table définie par le système, sélection
 
 Avant qu’une contrainte de table puisse prendre effet dans un modèle de configuration de produit, elle doit être incluse dans une contrainte de l’un des composants du modèle. La procédure consiste à créer une nouvelle contrainte, sélectionner le type de contrainte de table, puis sélectionner la définition de contrainte de table à utiliser. Enfin, tous les champs de la contrainte de table doivent être mis en correspondance avec les attributs du modèle de configuration de produit.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des modèles de configuration de produit](product-configuration-models.md)
 

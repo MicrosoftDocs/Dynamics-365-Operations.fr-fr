@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12497e4b6dde44cc7f3701cf6e00c90f109ff16c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825372"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188171"
 ---
 # <a name="purchase-requisition-workflow"></a>workflow de demande d’achat
 
@@ -105,8 +105,7 @@ Vous pouvez paramétrer les réviseurs de dépenses dans la page **Réviseurs de
 
 Pour utiliser l’un des réviseurs de dépenses que vous paramétrez dans un workflow, vous devez définir l’option **Type de participant** sur **Participants aux dépenses** dans les propriétés **Affectation** de l’élément de workflow approprié.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Créer une demande de consommation](tasks/create-requisition-consumption.md)
 

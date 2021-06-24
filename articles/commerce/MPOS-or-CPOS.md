@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 84ee7c82fa6aaa819798f4bc052b12b06a51c025
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f19506d66aef22099dae9396fd345c293bf559b7
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796508"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193069"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Choisir entre Modern POS (MPOS) et Cloud POS
 
@@ -57,7 +57,7 @@ Bien que MPOS et CPOS soient identiques en grande partie, il existe des différe
 MPOS sur un appareil Windows, iOS ou Android est une application sous pack, installée et mise en service sur cet appareil.
 
 - **Windows** – L’application MPOS pour Windows contient l’intégralité du code d’application et le Commerce Runtime (CRT) incorporé. 
-- **iOS/Android** – Sur ces plateformes, l’application agit comme un hôte pour le code d’application CPOS. Autrement dit, le code d’application provient du serveur CPOS sur Microsoft Azure ou de l’unité d’échelle commerciale. Pour plus d’informations, voir [Vue d’ensemble de Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Sur ces plateformes, l’application agit comme un hôte pour le code d’application CPOS. Autrement dit, le code d’application provient du serveur CPOS sur Microsoft Azure ou de l’unité d’échelle commerciale. Pour plus d’informations, voir [Vue d’ensemble de Commerce Scale Unit](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -79,11 +79,11 @@ L’unité d’échelle commerciale est un composant qui héberge le CRT. Le CRT
 
 #### <a name="offline-mode"></a>Mode hors connexion
 
-MPOS pour Windows prend en charge le mode hors connexion. En mode hors connexion, le PDV peut continuer à traiter les ventes même s’il est déconnecté de l’unité d’échelle commerciale. Il peut ensuite être synchronisé avec la base de données des canaux lorsque la connectivité est restaurée. MPOS utilise sa propre instance incorporée du CRT et utilise temporairement sa propre source de données locale (base de données SQL Server hors connexion). Pour plus d’informations sur la fonctionnalité hors connexion, voir [Fonctionnalité de POS hors connexion](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
+MPOS pour Windows prend en charge le mode hors connexion. En mode hors connexion, le PDV peut continuer à traiter les ventes même s’il est déconnecté de l’unité d’échelle commerciale. Il peut ensuite être synchronisé avec la base de données des canaux lorsque la connectivité est restaurée. MPOS utilise sa propre instance incorporée du CRT et utilise temporairement sa propre source de données locale (base de données SQL Server hors connexion). Pour plus d’informations sur la fonctionnalité hors connexion, voir [Fonctionnalité de POS hors connexion](pos-offline-functionality.md).
 
 ### <a name="pos-peripheralhardware-considerations"></a>Éléments à prendre en compte pour les périphériques/le matériel POS
 
-Les détaillants doivent également prendre en compte la manière dont le POS accède aux appareils et périphériques tels que les imprimantes, les tiroirs-caisse et les terminaux de paiement. Seul MPOS pour Windows prend en charge la communication directe avec ces appareils. MPOS pour Windows Phone, iOS ou Android, et Cloud POS nécessitent une station matérielle pour pouvoir accéder à ces appareils. Les stations matérielles peuvent être dédiées à une caisse enregistreuse POS ou partagées entre les caisses enregistreuses d’un magasin. Pour plus d’informations sur les stations matérielles, voir [Configurer et installer la station matérielle Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Les détaillants doivent également prendre en compte la manière dont le POS accède aux appareils et périphériques tels que les imprimantes, les tiroirs-caisse et les terminaux de paiement. Seul MPOS pour Windows prend en charge la communication directe avec ces appareils. MPOS pour Windows Phone, iOS ou Android, et Cloud POS nécessitent une station matérielle pour pouvoir accéder à ces appareils. Les stations matérielles peuvent être dédiées à une caisse enregistreuse POS ou partagées entre les caisses enregistreuses d’un magasin. Pour plus d’informations sur les stations matérielles, voir [Configurer et installer la station matérielle Retail](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Considérations d’implémentation
 
@@ -100,7 +100,7 @@ Tenez compte des informations suivantes lorsque vous planifiez la mise en œuvre
     Ces deux options ne sont pas mutuellement exclusives. Pour la topologie la plus fiable, les détaillants peuvent déployer un RSSU local pour réduire la dépendance vis-à-vis de la connexion Internet ou de la disponibilité d’Azure, et ils peuvent également déployer des caisses enregistreuses POS lorsque le mode hors connexion est activé si le serveur ou réseau local rencontre un problème.
 
 - **Périphériques matériels/Périphériques** – Un aspect important d’un système Retail POS est la possibilité d’utiliser des périphériques POS tels que des imprimantes, des tiroirs-caisse et des terminaux de paiement. Même si toutes les options POS disponibles peuvent utiliser les périphériques, seul MPOS pour Windows les prend en charge directement. Pour toutes les autres applications, une ou plusieurs stations matérielles sont requises. Bien que cette approche soit plus flexible, des composants supplémentaires doivent être déployés, configurés et mis en service.
-- **Configuration requise** – La configuration requise pour l’application POS varie. Veillez à vérifier les dernières informations disponibles avant de faire votre choix. Par exemple, comme CPOS s’exécute dans un navigateur, il prend en charge un plus grand nombre de systèmes d’exploitation. Pour plus d’informations sur la configuration requise, voir [Configuration requise pour les déploiements Cloud](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
+- **Configuration requise** – La configuration requise pour l’application POS varie. Veillez à vérifier les dernières informations disponibles avant de faire votre choix. Par exemple, comme CPOS s’exécute dans un navigateur, il prend en charge un plus grand nombre de systèmes d’exploitation. Pour plus d’informations sur la configuration requise, voir [Configuration requise pour les déploiements Cloud](../fin-ops-core/fin-ops/get-started/system-requirements.md).
 - **Déploiement et mise en service** – La complexité des exigences de déploiement et de mise en service peut varier, selon l’application et le déploiement choisis. Par exemple, pour un déploiement CPOS hébergé dans le cloud, il n’est pas nécessaire d’installer et de mettre à jour chaque appareil. Par conséquent, cette approche réduit considérablement la complexité et le coût. Toutefois, si vous déployez MPOS sur chaque caisse enregistreuse et activez le mode hors connexion, et si vous déployez également les stations matérielles partagées, vous augmentez considérablement le nombre de points de terminaison à gérer.
 
 

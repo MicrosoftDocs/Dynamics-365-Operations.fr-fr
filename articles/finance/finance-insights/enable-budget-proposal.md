@@ -1,8 +1,8 @@
 ---
 title: Activer les propositions de budget (version préliminaire)
-description: Cette rubrique explique comment activer la fonctionnalité de proposition de budget dans Finance Insights.
+description: Cette rubrique explique comment activer la fonctionnalité de proposition de budget dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e90a1a2f2a8e7808f03ce9a6ee58c027bd48d8d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 948a3e051e5964c5c773cefd90c8587cf833a450
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818702"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222532"
 ---
 # <a name="enable-budget-proposals-preview"></a>Activer les propositions de budget (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique explique comment activer la fonctionnalité de proposition de budget dans Finance Insights.
+Cette rubrique explique comment activer la fonctionnalité de proposition de budget dans Informations financières.
 
 1. Utilisez les informations de la page d’environnement dans Microsoft Dynamics Lifecycle Services (LCS) pour se connecter à l’instance principale d’Azure SQL pour cet environnement. Exécutez la commande Transact-SQL (T-SQL) suivante pour activer les déploiements en mode Flighting pour l’environnement sandbox. (Vous devrez peut-être activer l’accès pour votre adresse IP dans LCS avant de pouvoir vous connecter à distance à Application Object Server \[AOS\].)
 
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BudgetIntelligentBudgetRegisterProposalFeature', 1)`
 
     > [!NOTE]
-    > Si votre déploiement de Microsoft Dynamics 365 Finance est un déploiement Service Fabric, vous pouvez ignorer cette étape. L’équipe Finance Insights devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de l’activer, envoyez un e-mail à [l’équipe de la version préliminaire de l’application Finance Insights](mailto:fiap@microsoft.com).
+    > Ignorez cette étape si vous utilisez la version 10.0.20 ou ultérieure, ou si vous utilisez un déploiement Service Fabric. L’équipe Informations financières devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de l’activer, contactez <fiap@microsoft.com>.
 
 2. Ouvrez l’espace de travail **Gestion des fonctionnalités** et procédez comme suit :
 
@@ -42,9 +42,5 @@ Cette rubrique explique comment activer la fonctionnalité de proposition de bud
     2. Recherchez **Proposition de budget** et activez cette fonction.
 
 3. Aller à **Budgétisation \> Configurer \> Budgétisation de base \> Proposition de budget (version préliminaire)** et sélectionnez **Activer la fonctionnalité**.
-
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

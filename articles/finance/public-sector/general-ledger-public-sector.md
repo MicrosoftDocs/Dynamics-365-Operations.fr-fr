@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 135c30c2e4e13aad400bca6ef6438fd0b4c02ce6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a72979c5daa637286fceb4a63fb909576455fe3a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811254"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188578"
 ---
 # <a name="general-ledger-in-the-public-sector-overview"></a>Vue d’ensemble du module Comptabilité dans le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811254"
 
 Cette rubrique décrit la fonctionnalité Comptabilité disponible pour le secteur public.
 
-<a name="how-do-general-ledger-parameters-need-to-be-set-for-public-sector-organizations"></a>Comment paramètres de comptabilité doivent-ils être définis pour les organisations du secteur public ?
---------------------------------------------------------------------------------
+## <a name="how-do-general-ledger-parameters-need-to-be-set-for-public-sector-organizations"></a>Comment paramètres de comptabilité doivent-ils être définis pour les organisations du secteur public ?
 
 La plupart des paramètres de comptabilité sont définis de la même manière pour les organisations du secteur public et du secteur privé. En outre, il existe des paramètres du secteur public utilisés pour le processus de fin d’exercice pour les fonds. Définissez ces paramètres sur la page **Paramètres de comptabilité**, dans la section **Comptabilité**, dans l’organisateur **Clôture d’exercice**.
 
@@ -55,8 +54,7 @@ Vous pouvez utiliser les définitions de validation pour créer des lignes de jo
 ## <a name="how-do-i-collect-and-analyze-data-to-meet-the-common-governmentwide-accounting-classification-cgac-requirements"></a>Comment recueillir et analyser des données pour répondre aux exigences des principales classifications comptables applicables au niveau gouvernemental ?
 Vous pouvez utiliser des hiérarchies financières dérivées afin de recueillir et d’analyser des données de transaction validées pour des numéros de compte principal, des numéros de compte complet et des valeurs de dimension financière spécifiques. Pour plus d’informations, voir [Hiérarchies financières dérivées dans le secteur public](derived-financial-hierarchies-public-sector.md).
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des modules Comptabilité et États financiers](../general-ledger/general-ledger.md)
 

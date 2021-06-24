@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054017"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190230"
 ---
 # <a name="set-up-training-courses"></a>Paramétrer les cours de formation
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054017"
 
 Les administrateurs des ressources humaines et les responsables peuvent utiliser les fonctionnalités du cours pour tenir à jour des informations sur la formation qui est offerte aux employés.
 
- <a name="set-up-prerequisites"></a>Paramétrage des conditions préalables
----------------------
+##  <a name="set-up-prerequisites"></a>Paramétrage des conditions préalables
 
 Les informations suivantes sont requises et doivent être définies avant de créer des cours.
 -   **Types de cours**
@@ -127,8 +126,7 @@ Le tableau suivant répertorie les statuts de cours possibles et les actions que
 ## <a name="course-participants"></a>Participants du cours
 Les participants du cours sont des employés qui prennent part à un cours de formation ou un événement. Vous pouvez inscrire des participants aux cours actifs. Le nombre minimal et maximal de participants que vous pouvez inscrire à un cours est défini dans l’organisateur **General** de la page **Cours**.
 
-<a name="workflow"></a>Workflow
---------
+## <a name="workflow"></a>Workflow
 
 Les employés qui s’inscrivent à un cours via la page **Libre service employé** peuvent faire suivre leur inscription via le workflow pour approbation. Vous pouvez affecter un workflow à un cours dans l’organisateur **Général** de la page **Cours**.
 

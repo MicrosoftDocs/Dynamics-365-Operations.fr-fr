@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891791"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224032"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 
@@ -285,7 +285,7 @@ Pour continuer, ignorez la procédure suivante, [Créer une configuration de mod
 
 Le statut de la version 1 de cette configuration est modifié de **Brouillon** à **Terminé**. La version 1 ne peut plus être modifiée. Cette version contient le modèle de données configuré et peut être utilisée comme base pour d’autres configurations ER. La version 2 de cette configuration est créée et a un statut de **Brouillon**. Vous pouvez modifier cette version pour ajuster le modèle de données **Questionnaire**.
 
-![Versions de la configuration ER modifiable sur la page Configurations](./media/er-quick-start1-model-configuration.png)
+![Versions de la configuration modifiable sur la page Configurations](./media/er-quick-start1-model-configuration.png)
 
 Pour plus d’informations sur la gestion des versions pour les configurations ER, voir [Présentation des rapports électroniques (ER)](general-electronic-reporting.md#component-versioning).
 
@@ -799,7 +799,7 @@ L’illustration suivante montre un rapport généré au format Excel dans leque
 
 Le statut de la version 1.1 de cette configuration est modifié de **Brouillon** à **Terminé**. La version 1.1 ne peut plus être modifiée. Cette version contient le format configuré et peut être utilisée pour imprimer votre rapport personnalisé. La version 1.2 de cette configuration est créée et a un statut de **Brouillon**. Vous pouvez modifier cette version pour ajuster le format de votre état **Questionnaire**.
 
-![Versions de la configuration ER modifiable sur la page Configurations](./media/er-quick-start1-format-configuration.png)
+![Configuration ER modifiable sur la page Configurations](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Le format configuré est votre conception de l’état **Questionnaire** et ne contient aucune relation avec les artefacts spécifiques à Finance.

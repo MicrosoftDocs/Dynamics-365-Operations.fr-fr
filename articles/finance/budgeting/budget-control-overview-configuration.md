@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959967"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188043"
 ---
 # <a name="budget-control-overview"></a>Vue d’ensemble des contrôles budgétaires
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959967"
 
 Cet article présente le contrôle budgétaire et fournit des informations vous permettant de configurer le contrôle budgétaire afin de pouvoir gérer les ressources financières.
 
-<a name="overview"></a>Présentation
---------
+## <a name="overview"></a>Présentation
 
 Le contrôle budgétaire prend en charge la gestion des ressources financières d’une organisation via le plan de comptes, les workflows, les groupes d’utilisateurs, les documents source et les journaux, le calcul des fonds disponibles configurable, les cycles budgétaires et les seuils. Lorsque les contrôles sont en place, une organisation peut planifier, mesurer, gérer et prévoir ses ressources financières au cours de son exercice. 
 

@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814993"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216786"
 ---
 # <a name="intrastat-overview"></a>Vue d’ensemble de déclaration d’échanges de biens
 
@@ -73,7 +73,7 @@ Le tableau suivant répertorie les conditions préalables à la déclaration d�
 </tr>
 <tr class="odd">
 <td>Hiérarchie de catégories de produit (hiérarchie de vente, hiérarchie d’approvisionnement)</td>
-<td>Affectez les codes marchandise Intrastat aux nœuds de catégorie sous l’onglet <strong>Codes marchandise</strong> de la page <strong>Hiérarchie de catégories</strong>. Lorsque vous affectez un code marchandise à un nœud de catégorie parente, ce code peut s’applique à tous les nœuds de catégorie enfant. Les codes marchandise sélectionnés seront disponibles dans la vue <strong>Sélectionné</strong> lorsque vous sélectionnez un code marchandise dans les détails des produits lancés, et sur les lignes de commande client, de commande fournisseur et d’ordre de transfert.</td>
+<td>Affectez les codes marchandise Intrastat aux nœuds de catégorie sous l’onglet <strong>Codes marchandise</strong> de la page <strong>Hiérarchie de catégories</strong>. Lorsque vous affectez un code marchandise à un nœud de catégorie parente, ce code peut s’applique à tous les nœuds de catégorie enfant. Les codes marchandise sélectionnés seront disponibles dans la vue <strong>Sélectionné</strong> lorsque vous sélectionnez un code marchandise dans les détails des produits, et sur les lignes de commande client, de commande fournisseur et d’ordre de transfert.</td>
 </tr>
 <tr class="even">
 <td>Détails des produits lancés</td>
@@ -84,6 +84,7 @@ Le tableau suivant répertorie les conditions préalables à la déclaration d�
 <li><strong>Pays/région d’origine</strong> – Sélectionnez le pays/la région par défaut où les marchandises ont été entièrement obtenues ou produites.</li>
 <li><strong>État/Province d’origine/de destination</strong> – Sélectionnez l’état/la province par défaut de destination à l’arrivée et l’état/la province d’origine à l’expédition.</li>
 <li><strong>Poids net en kg</strong></li>
+<li><strong>Exclure</strong> - Activez ce paramètre pour ne pas transférer les transactions avec ce produit vers Intrastat</li>
 </ul></td>
 </tr>
 <tr class="odd">

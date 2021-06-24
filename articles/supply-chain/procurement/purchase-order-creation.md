@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909154"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188243"
 ---
 # <a name="create-purchase-orders"></a>Création de commandes fournisseur
 
@@ -80,8 +80,7 @@ Les CF peuvent être configurées pour exiger que les fonds budgétaires soient 
 
 Il se peut que vous deviez retarder l’achèvement d’une CF. Par exemple, vous pouvez avoir besoin de plus d’informations sur les produits ou services, ou vous devrez peut-être obtenir une autorisation pour la dépense. Il existe plusieurs façons de suspendre une commande. Par exemple, vous pouvez attendre pour confirmer la commande. Sinon, si un workflow de gestion de modification est utilisé, vous ne soumettez pas la commande à l’approbation. Si vous devez bloquer toutes les commandes pour un fournisseur particulier, vous pouvez également le marquer en tant que **En attente** pour le traitement des données principales sur le fournisseur. Il existe également des circonstances qui pourraient empêcher le traitement de la commande. Par exemple, le traitement peut être empêché si les limites de crédit ont été dépassées, ou si les fonds budgétaires ne sont pas disponibles.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble des commandes fournisseur](purchase-order-overview.md)
 

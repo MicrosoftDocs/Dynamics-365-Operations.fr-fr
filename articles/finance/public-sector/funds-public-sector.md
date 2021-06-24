@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b19b4df4a5c28f4a13aa6ce5e8aec1b9cd06e75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6c27ff03d229333bc6abcebaccb21271011160a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839729"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189160"
 ---
 # <a name="funds-in-the-public-sector"></a>Fonds dans le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5839729"
 
 Un fonds est un ensemble de registres financiers en équilibre qui permet de contrôler et de surveiller l’utilisation planifiée de ressources, souvent pour se conformer aux exigences légales et administratives. Les organisations du secteur public se servent des fonds pour attester de leur responsabilité financière.
 
-<a name="what-general-ledger-parameters-should-be-set-for-funds"></a>Quels paramètres de comptabilité doivent être définis pour les fonds ?
--------------------------------------------------------
+## <a name="what-general-ledger-parameters-should-be-set-for-funds"></a>Quels paramètres de comptabilité doivent être définis pour les fonds ?
 
 Pour en savoir plus sur les paramètres de comptabilité requis pour les fonds, voir [Comptabilité dans le secteur public](general-ledger-public-sector.md).
 

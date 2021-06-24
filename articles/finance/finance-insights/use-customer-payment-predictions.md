@@ -1,8 +1,8 @@
 ---
 title: Utiliser les prédictions de paiement des clients (version préliminaire)
-description: Cette rubrique décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Finance Insights.
+description: Cette rubrique décrit les conditions préalables et les étapes générales requises pour utiliser une version d’essai de Informations financières.
 author: ShivamPandey-msft
-ms.date: 11/16/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 1349521d65511864747de6c2fed3a904dea8917e
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897790"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186562"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Utiliser les prédictions de paiement des clients (version préliminaire)
 
@@ -100,13 +100,8 @@ Si vous n’êtes pas satisfait de la précision, sélectionnez le lien **Améli
 
 ## <a name="release-details"></a>Détails du lancement
 
-La version préliminaire publique de Finance Insights est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
+La version préliminaire publique de Informations financières est disponible pour essayer les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
 
 Les fonctionnalités en version préliminaire publiques peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et IA créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Avis de confidentialité
-
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

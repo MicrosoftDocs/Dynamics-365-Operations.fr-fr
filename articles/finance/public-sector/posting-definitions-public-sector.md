@@ -15,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3902789fecd52fc1a31a2682402f7bbd2be71b92
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 01cf27f32d2f8752205aba533d184bdc2177bd76
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814898"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188362"
 ---
 # <a name="posting-definitions-in-the-public-sector"></a>Définitions de validation dans le secteur public
 
@@ -605,8 +605,7 @@ Dans cet exemple, le fonds 601 est défini en tant que classe de fonds **Propri�
 
 La définition de validation recherche un rapprochement avec toute partie du compte de la structure de compte Dépenses. C’est pourquoi, lorsque 601-66100-130- est évalué, le même compte général est utilisé, le montant est contrepassé pour clôturer le compte et l’écriture comptable générée par le solde est créée.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Module Comptabilité fournisseur](../accounts-payable/accounts-payable.md)
 

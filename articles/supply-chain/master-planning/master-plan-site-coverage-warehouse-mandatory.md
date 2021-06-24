@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaac165865b04a7c4ad2f08ca758b07fd41eaaa0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 008061d286505a2e678e15fbff7706da9c410dfe
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833543"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187552"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Planification pour couverture de site, entrepôt obligatoire
 
@@ -45,8 +45,7 @@ Le graphique suivant illustre l’exécution du calcul de planification. Les par
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de planification générale et fonctionnalité multisite](master-plan-multisite-functionality.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825865"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190062"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Prise en charge du tableau de transfert kanban pour les scanneurs de codes-barres
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825865"
 
 La tableau de transfert kanban prend en charge l’entrée de scanneur à partir d’un lecteur de codes-barres de widget pour Sélectionner, Démarrer, Terminer et Vider une tâche de kanban.
 
-<a name="registration-modes"></a>Modes d’enregistrement
-------------------
+## <a name="registration-modes"></a>Modes d’enregistrement
 
 Dans l’organisateur **Enregistrement du scanneur**, vous pouvez sélectionner le mode d’enregistrement, qui contrôle l’action lorsque vous numérisez un numéro de carte kanban ou entrez manuellement le numéro dans le champ Numéro de carte kanban.
 
@@ -42,8 +41,7 @@ Dans l’organisateur **Enregistrement du scanneur**, vous pouvez sélectionner 
 | Sélectionner                | Enregistre un numéro de carte kanban et sélectionne automatiquement l’opération référencée dans la liste du kanban. |
 
  
-<a name="registration-mode-select"></a>Sélection du mode d’enregistrement
-------------------------
+## <a name="registration-mode-select"></a>Sélection du mode d’enregistrement
 
 Lorsque vous utilisez un lecteur de codes-barres pour sélectionner une tâche, le mode d’affichage du tableau kanban change. Dans ce mode, les conditions suivantes s’appliquent :
 

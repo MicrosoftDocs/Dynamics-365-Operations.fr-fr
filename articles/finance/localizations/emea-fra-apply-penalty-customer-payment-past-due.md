@@ -14,12 +14,12 @@ ms.search.region: France
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dc1e1d82d95036f38d46145bd5a3b1028a6dbd4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bfbfe5ee6e9346d95b595a6f7a176090fdfe3f5d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826091"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188375"
 ---
 # <a name="penalties-for-past-due-customer-payments-in-france"></a>Pénalités pour les paiements client en retard en France
 
@@ -27,8 +27,7 @@ ms.locfileid: "5826091"
 
 En France, vous pouvez appliquer une pénalité lorsqu’un paiement client est en retard et vous pouvez imprimer le texte de récupération de la somme forfaitaire qui affiche le montant de pénalité qui doit être payé sur la facture ainsi que la date d’échéance du paiement. 
 
-<a name="what-is-lump-sum-recovery-text"></a>Qu’est-ce que le texte récupéré du montant forfaitaire ?
--------------------------------
+## <a name="what-is-lump-sum-recovery-text"></a>Qu’est-ce que le texte récupéré du montant forfaitaire ?
 
 Le texte récupéré du montant forfaitaire affiche le montant de pénalité et la date d’échéance du paiement. Le montant de pénalité est appliqué si le paiement a lieu après la date d’échéance. Le texte récupéré du montant forfaitaire est imprimé sur la facture client. Vous pouvez spécifier le montant de pénalité et la devise avec toute instruction dans le champ Texte récupéré du montant forfaitaire de la zone Facture de l’écran Paramétrage d’écran.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a3aca07388a440ce5168fa4106d90d931f7f194
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4c997e8cf8b2456ffe12a552577902da171cc1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812785"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189842"
 ---
 # <a name="reuse-product-configurations"></a>Réutiliser des configurations de produit
 
@@ -29,8 +29,7 @@ ms.locfileid: "5812785"
 
 Vous pouvez spécifier que vous souhaitez réutiliser automatiquement une configuration existante pour un produit. Ensuite, lorsqu’un utilisateur a terminé une session de configuration, le système vérifie si une configuration qui correspond aux sélections effectuée par l’utilisateur existe déjà. Si une configuration correspondante est trouvée, l’ID configuration, la nomenclature correspondante et la gamme sont réutilisés.
 
-<a name="requirements-for-reusing-configurations"></a>Critères de réutilisation des configurations
----------------------------------------
+## <a name="requirements-for-reusing-configurations"></a>Critères de réutilisation des configurations
 
 Pour activer les configurations à réutiliser, vous devez spécifier les informations suivantes pour les composants et les attributs sur la page **Détails de modélisation de configuration de produit** :
 

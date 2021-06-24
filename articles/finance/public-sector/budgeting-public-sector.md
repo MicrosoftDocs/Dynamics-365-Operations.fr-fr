@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2e4d955877b92f598468543e76bb0c0bedb31be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: be4ef09ef54ff211576887ef72f99d4e23e9edcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821753"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189166"
 ---
 # <a name="budgeting-in-the-public-sector-overview"></a>Vue d’ensemble de la budgétisation disponible pour le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5821753"
 
 Cette vue d’ensemble présente la fonctionnalité de budgétisation disponible pour le secteur public. Cela inclut l’analyse de budget, les budgets et les répartitions préliminaires, et les définitions de validation.
 
-<a name="what-are-the-prerequisites-to-setting-up-budgeting-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la budgétisation dans le secteur public ?
-------------------------------------------------------------------------
+## <a name="what-are-the-prerequisites-to-setting-up-budgeting-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la budgétisation dans le secteur public ?
 
 Pour utiliser le contrôle budgétaire, vous devez paramétrer la budgétisation de base. Dans la configuration de secteur public, vous la paramétrez au moment où vous configurez la budgétisation de base. Vous devez également effectuer les tâches suivantes :
 
@@ -49,8 +48,7 @@ Il est possible que vous deviez paramétrer les fonctionnalités de budgétisati
 
 **Remarque :** cela s’applique également à la comptabilité, à la comptabilité fournisseur, et à la comptabilité client.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Budget](../budgeting/budgeting-overview.md)
 

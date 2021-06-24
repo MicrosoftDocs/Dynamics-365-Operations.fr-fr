@@ -2,7 +2,7 @@
 title: Résultats des modèles Machine Learning (version préliminaire)
 description: Cette rubrique traite des matrices de confusion, des problèmes de classification et de la précision des modèles de Machine Learning (ML). Le but est d’améliorer votre compréhension de la précision des résultats de prédiction ML.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028201"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193538"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Résultats des modèles Machine Learning (version préliminaire)
 
@@ -129,16 +129,12 @@ Pour simplifier les calculs, des exemples de tableaux ont été créés pour cor
 
 Pour plus de détails sur le fonctionnement de ce calcul, voici le rapport de classification sklearn.metrics pour le modèle 1. Les trois états, "À l’heure", "En retard" et "Très tard", sont représentés par les lignes étiquetées 1, 2 et 3, respectivement. La moyenne de la macro n’est que la moyenne de la colonne "f1-score".
 
-|           | précision | rappel   | f1-score |
+| &nbsp;    | précision | rappel   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Comme le montrent ces résultats, les deux modèles ont des scores de précision macro F1 presque identiques. Dans ce cas et dans bien d’autres, la précision F1 fournit un meilleur indicateur de la capacité d’un modèle. Pour ce qui est de la précision, l’interprétation des résultats nécessite que vous compreniez ce qu’il est le plus important de prendre en compte dans le modèle.
-
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

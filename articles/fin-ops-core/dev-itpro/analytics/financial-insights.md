@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935881"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193748"
 ---
 # <a name="financial-analysis"></a>Analyse financière
 
@@ -67,7 +67,7 @@ Vous devez mettre à jour les entités suivantes pour visualiser les données da
 - Données de transaction des états financiers version 3 
 - Crédit et relances V2
 - LedgerCovLiquidityMeasurement
-- Cube d'achat
+- Cube d’achat
 - Cube de vente
 
 Vous pouvez définir un traitement par lots récurrent pour mettre à jour régulièrement les données des entités. Comme chaque entité est complètement recréée pendant une mise à jour, sélectionnez avec précaution l’heure et la fréquence des mises à jour d’entité. L’entité principale utilisée pour les tableaux d’analyse est l’entité FinancialReportingTransactionData. Par conséquent, vous pouvez choisir de mettre à jour cette entité plus souvent.
@@ -87,7 +87,7 @@ Bien que l’**analyse financière** contienne des tableaux d’analyse, elle ne
 Le tableau de comparaison suivant permet de différencier les deux options :
 
 
-|                                                          | Financial Reporting                                               | Analyse financière |
+| Fonctionnalité                                                   | Financial Reporting                                               | Analyse financière |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
 | **Modifier les états par défaut**                                 | Oui                                                               | N° |
 | **Créer des rapports**                                   | Oui                                                               | N° |

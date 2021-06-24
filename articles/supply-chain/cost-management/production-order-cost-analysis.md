@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50df2a63584d3db0d3b91fabd224e12dffa809d4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12e9446c145752cd74fb71884fcabe9d4bd03c68
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809636"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187696"
 ---
 # <a name="production-order-cost-analysis"></a>Analyse du coût de l’ordre de fabrication
 
@@ -55,8 +55,7 @@ Des états séparés présentent des informations sur chaque type de transaction
 -   **Articles finis en cours**− Cet état répertorie les ordres de fabrication en cours et les transactions déclarées terminées à partir d’une date de transaction spécifiée.
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Sources courantes des écarts de production](common-sources-of-production-variances.md)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908926"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188932"
 ---
 # <a name="routes-and-operations"></a>Gammes et opérations
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908926"
 
 Cette rubrique fournit des informations sur les gammes et les opérations. Une gamme définit le processus de fabrication d’un produit ou d’une variante de produit. Elle décrit chaque étape (opération) dans le processus de fabrication et l’ordre dans lequel ces étapes doivent être effectuées. Pour chaque étape, la gamme définit également les ressources opérationnelles requises, la durée de configuration et d’exécution requise et la manière dont le coût doit être calculé.
 
-<a name="overview"></a>Vue d’ensemble
---------
+## <a name="overview"></a>Vue d’ensemble
 
 Une gamme décrit l’ordre des opérations nécessaires pour fabriquer un produit ou une variante de produit. Pour chaque opération, la gamme définit également les ressources opérationnelles requises, le temps nécessaire pour paramétrer et exécuter l’opération, et la manière dont le coût doit être calculé. Vous pouvez utiliser la même gamme pour fabriquer plusieurs produits, ou vous pouvez définir une seule gamme pour chaque produit ou variante de produit. Vous pouvez même avoir plusieurs gammes pour le même produit. Dans ce cas, la gamme utilisée varie en fonction de facteurs tels que la quantité qui doit être produite. La définition d’une gamme dans Supply Chain Management se compose de quatre éléments distincts qui, ensemble, décrivent le processus de production :
 

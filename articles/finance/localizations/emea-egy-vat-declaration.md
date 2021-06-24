@@ -2,7 +2,7 @@
 title: Déclaration de TVA pour l’Égypte
 description: Cette rubrique explique comment configurer et générer le formulaire de déclaration de TVA pour l’Égypte.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021954"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186612"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Déclaration de TVA pour l’Égypte (EG-00002)
 
@@ -85,6 +85,7 @@ Les configurations de recherche suivantes sont utilisées pour classer les trans
 - **VATRateTypeLookup** > Colonne B : Type de taxe
 - **VATRateTypeLookup** > Colonne C : Type d’élément de table
 - **PurchaseOperationTypeLookup** > Colonne A : Type de document
+- **CustomerTypeLookup** > Colonne A : Type de document
 - **SalesOperationTypeLookup** > Colonne N : Type d’opération
 - **SalesItemTypeLookup** > Colonne O : Type d’élément
 
@@ -98,6 +99,8 @@ Procédez comme suit pour configurer les différentes recherches utilisées pour
 6. Répétez les étapes 3 à 5 pour toutes les recherches disponibles.
 7. Sélectionnez **Ajouter** pour inclure la ligne d’enregistrement finale, et dans la colonne **Résultat de la recherche**, sélectionnez **Non applicable**. 
 8. Dans les colonnes restantes, sélectionnez **Non vide**. 
+9. Dans le champ **État**, sélectionnez **Terminé**.
+10. Sélectionnez **Enregistrer**, puis fermez la page **Paramètres spécifiques à l’application**.
 
 > [!NOTE]
 > Lorsque vous ajoutez le dernier enregistrement, **Non applicable**, vous définissez la règle suivante : lorsque le groupe de taxe, le groupe de taxe d’article, le code de taxe et le nom transmis en tant qu’argument ne satisfont à aucune des règles précédentes, les transactions ne sont pas incluses dans le registre de TVA. Bien que cette règle ne soit pas utilisée lors de la génération du rapport, la règle permet d’éviter les erreurs de génération de rapport en cas de configuration de règle manquante.
@@ -138,7 +141,7 @@ Les tableaux suivants représentent un exemple de configuration suggérée pour 
 | Services       | 7    | VAT_SERV                | *Non vide* | SaleExempt            |
 | Services       | 8    | VAT_SERV                | *Non vide* | SalesExemptCreditNote |
 | Ajustements    | 9    | *Blanc*                 | VAT_ADJ     | Vente                 |
-| Ajustements    | 10   | *Blanc*                 | VAT_ADJ     | Achats              |
+| Ajustements    | 10   | *Blanc*                 | VAT_ADJ     | SalesCreditNote       |
 | Non applicable | 11   | *Non vide*             | *Non vide* | *Non vide*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Les tableaux suivants représentent un exemple de configuration suggérée pour 
 | Marchandises                  | 1    | VAT_GOODS               | *Non vide* | Achats                 |
 | Marchandises                  | 2    | VAT_GOODS               | *Non vide* | PurchaseCreditNote       |
 | Services               | 3    | VAT_SERV                | *Non vide* | Achats                 |
-| Services               | 4    | VAT_SERV                | *Non vide*  | PurchaseCreditNote       |
+| Services               | 4    | VAT_SERV                | *Non vide* | PurchaseCreditNote       |
 | Machine et équipement  | 5    | VAT_M&E                 | *Non vide* | Achats                 |
 | Machine et équipement  | 6    | VAT_M&E                 | *Non vide* | PurchaseCreditNote       |
 | Machines avec pièces         | 7    | VAT_PARTS               | *Non vide* | Achats                 |
 | Machines avec pièces         | 8    | VAT_PARTS               | *Non vide* | PurchaseCreditNote       |
 | Exonérations             | 9    | VAT_EXE                 | *Non vide*  | PurchaseExempt           |
 | Exonérations             | 10   | VAT_EXE                 | *Non vide* | PurchaseExemptCreditNote |
-| Non applicable         | 11   | *Blanc*                 | VAT_ADJ     | *Non vide*              |
-| Non applicable         | 12   | *Non vide*             | *Non vide* | *Non vide*              |
-| Non applicable         | 13   | *Blanc*                 | *Non vide* | *Non vide*              |
+| Non applicable         | 11   | *Non vide*             | *Non vide* | *Non vide*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Les tableaux suivants représentent un exemple de configuration suggérée pour 
 | Ajustements    | 9    | *Blanc*          | VAT_ADJ     | PurchaseCreditNote       |
 | Ajustements    | 10   | *Blanc*          | VAT_ADJ     | Achats                 |
 | Non applicable | 11   | *Non vide*      | *Non vide* | *Non vide*              |
+
+**CustomerTypeLookup**
+
+|    Résultat de la recherche    | Ligne | Groupe de taxe de vente |
+|---------------------|------|-----------------|
+| Organisation        |  1   | VAT_LOCAL       |
+| Organisation        |  2   | VAT_EXPORT      |
+| Organisation        |  3   | VAT_EXE         |
+| Consommateur final      |  4   | VAT_FINALC      |
+| Organisation publique |  5   | VAT_PUBLIO      |
+| Non applicable      |  6   | *Non vide*     |
 
 **VATRateTypeLookup**
 

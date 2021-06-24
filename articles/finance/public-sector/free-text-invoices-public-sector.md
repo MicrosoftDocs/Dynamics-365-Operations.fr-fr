@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2053898f13897a72e81e49d359d6562e66a59b5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45ba301b83e16abd73e26540e04ef0643ea40935
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820466"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187981"
 ---
 # <a name="free-text-invoices-in-the-public-sector"></a>Factures financières dans le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5820466"
 
 Cette rubrique décrit la fonctionnalité de facture financière disponible pour le secteur public et répond aux questions courantes sur l’utilisation des classifications de facturation et des codes de facturation avec les factures financières.
 
-<a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
--------------------------------------------------------------------------
+## <a name="do-i-have-to-select-a-billing-classification-for-every-free-text-invoice"></a>Dois-je sélectionner une classification de facturation pour chaque facture financière ?
 
 Oui, lorsque les classifications de facturation sont activées, vous devez entrer une classification de facturation pour chaque facture financière. La classification de facturation contrôle quels codes facturation vous pouvez entrer sur la facture. Elle régit également les conditions générales de paiement, les souches de numéros et le traitement de la facture. Pour plus d’informations sur les classifications de facturation, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).
 

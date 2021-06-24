@@ -15,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d45dbf714988c72ee3a8e2dff75cc637f89d543
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b92826bf48c98691e6f320abfb75a9967ccfc21a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826071"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188368"
 ---
 # <a name="procurement-and-sourcing-in-the-public-sector-in-france"></a>Approvisionnements dans le secteur public en France
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826071"
 
 Cet article explique comment les fonctionnalités standard associées aux approvisionnements ont été étendues pour les entités françaises du secteur public. Ces fonctionnalités permettent de répondre aux besoins du Code des marchés publics. 
 
-<a name="set-spending-thresholds-by-procurement-category"></a>Définition de seuils de dépense par catégorie d’approvisionnement
------------------------------------------------
+## <a name="set-spending-thresholds-by-procurement-category"></a>Définition de seuils de dépense par catégorie d’approvisionnement
 
 Pour définir des seuils de dépenses pour les achats dans les catégories d’approvisionnement définies par la Clé de Contrôle Marché, vous pouvez utiliser la règle de stratégie d’achat **Seuils de dépense par catégorie**. La mise en œuvre de cette règle de stratégie d’achat afin de contrôler les seuils de dépense par catégorie vous permet d’utiliser les attributs de la date d’effet, les montants des dépenses prévues, ainsi que les montants des seuils afin de prendre en charge vos pratiques d’approvisionnement et d’aider à garantir l’utilisation décisive et efficace des fonds publics.
 

@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 046b6194c105f9d8c91b02c06dcc40e2fc2d8f87
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b71544672fec13872455fd561cef303db2a41af3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823559"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188575"
 ---
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Planifier pour les fournisseurs occasionnels dans le secteur public
 
@@ -96,8 +96,7 @@ Le tableau suivant répertorie les champs que le fichier d’importation doit co
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Après avoir paramétré les conditions préalables nécessaires, consultez [Fournisseurs occasionnels dans le secteur public](one-time-vendors-public-sector.md).
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Fournisseurs occasionnels (Secteur public)](one-time-vendors-public-sector.md)
 

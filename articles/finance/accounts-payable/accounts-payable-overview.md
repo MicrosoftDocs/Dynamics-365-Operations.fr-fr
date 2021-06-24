@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820881"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188780"
 ---
 # <a name="configure-accounts-payable-overview"></a>Vue d’ensemble de la configuration du module Comptabilité fournisseur
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820881"
 
 Cet article décrit les pages que vous utilisez pour paramétrer les fonctionnalités de base et facultatives pour la Comptabilité fournisseur. Il décrit également les étapes de paramétrage que vous devez effectuer avant de commencer à configurer la Comptabilité fournisseur.
 
-<a name="prerequisites-for-accounts-payable-setup"></a>Conditions préalables à la configuration du module Comptabilité fournisseur
-----------------------------------------
+## <a name="prerequisites-for-accounts-payable-setup"></a>Conditions préalables à la configuration du module Comptabilité fournisseur
 
 Avant d’être en mesure de configurer le module Comptabilité fournisseur, vous devez effectuer les procédures de paramétrage suivantes :
 

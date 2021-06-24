@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112619"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193564"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Fonctionnalités supprimées ou obsolètes dans les versions précédentes
 
@@ -92,7 +92,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 | **Remplacé par une autre fonctionnalité ?**   | Non |
 | **Zones de produit affectées**         | Localisation italienne |
 | **Option de déploiement**              | Tous |
-| **État**                         | Abandon : d’ici au 1er octobre 2020, nous prévoyons de ne plus prendre en charge la fonction **État de la liste rouge (IT) – Référence de la fonctionnalité IT-00001**. |
+| **État**                         | Abandon : avant le 1er octobre 2020, nous prévoyons de ne plus prendre en charge cet état. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Déclarations de taxe domestique – Référence de la fonctionnalité IT-00003
 
@@ -106,7 +106,7 @@ Des informations détaillées sur les objets dans les applications Finance and O
 
 ## <a name="october-2019-deprecation-announcement"></a>Annonce d’abandon d’octobre 2019
 
-### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagrammes de flux du concepteur de processus d'entreprise
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagrammes de flux du concepteur de processus d’entreprise
 
 <table>
 <tbody>
@@ -362,9 +362,19 @@ Fonctionnalité pour créer des modèles de nouveaux registres de l’impôt sur
 | **Motif de l’abandon/de la suppression** | La fonctionnalité n’est pas compatible avec le modèle d’extensibilité Finance and Operations. |
 | **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Taxes |
-| **Option de déploiement**              | Tout |
+| **Option de déploiement**              | Tous |
 | **État**                         | Supprimé à partir de Finance and Operations 8.1 avec platform update 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Paie et ressources humaines pour la Russie
+Module spécifique à la Russie pour la gestion des informations d’administration du personnel, les détails des feuilles de temps des employés, la comptabilité de la paie et la création des bulletins de paie. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motif de l’abandon/de la suppression** | La paie n’est pas incluse dans l’orientation stratégique globale du portefeuille Dynamics 365. Les partenaires et les ISV sont les mieux placés pour fournir des fonctionnalités de paie conformes aux réglementations locales et aux mises à jour fiscales.|
+| **Remplacé par une autre fonctionnalité ?**   | N°|
+| **Zones de produit affectées**         | Gestion de la paie et des ressources humaines russe |
+| **Option de déploiement**              | Tous |
+| **État**                         | Abandon : le délai cible pour la suppression de la fonctionnalité est l’une des mises à jour de la version 10.0. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 avec Platform update 15
 Aucune fonctionnalité n’a été supprimée ou rendue obsolète avec cette version. Platform update 15 est cumulative et contient les fonctionnalités, nouvelles ou modifiées, depuis Platform update 13, Platform update 14, et Platform update 15.

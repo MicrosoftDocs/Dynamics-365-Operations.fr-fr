@@ -2,7 +2,7 @@
 title: Emplacement des disponibilités (version préliminaire)
 description: Cette rubrique décrit comment la fonction de prévision des flux de trésorerie prédit l’emplacement des disponibilités d’une organisation à des moments spécifiques. Il décrit également les options disponibles pour afficher les prévisions pour différentes périodes.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123388"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186490"
 ---
 # <a name="cash-position-preview"></a>Emplacement des disponibilités (version préliminaire)
 
@@ -48,6 +48,5 @@ Pour enregistrer et modifier la position de trésorerie, créez une capture inst
 
 #### <a name="privacy-notice"></a>Avis de confidentialité
 Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

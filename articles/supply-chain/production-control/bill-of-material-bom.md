@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811772"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190110"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Nomenclatures et formules
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811772"
 
 Cette rubrique fournit des informations sur les nomenclatures et les formules, qui sont un élément central de la définition des produits et des variantes de produit. Les nomenclatures et les formules spécifient les matières ou les ingrédients nécessaires pour un produit spécifique. Les formules spécifient également les coproduits et les sous-produits reçus dans un contexte de production spécifique. 
 
-<a name="bills-of-materials"></a>Nomenclatures
-------------------
+## <a name="bills-of-materials"></a>Nomenclatures
 
 Une nomenclature définit les composants requis pour de la fabrication d’un produit. Les composants peuvent être des matières premières, des produits semi-finis ou des ingrédients. Dans certains cas, des services peuvent être référencés dans une nomenclature. Toutefois, les nomenclatures décrivent généralement les *ressources matérielles* requises.  
 

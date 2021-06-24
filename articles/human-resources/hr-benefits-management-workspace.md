@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052239"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193429"
 ---
 # <a name="benefits-management-workspace"></a>Espace de travail de gestion des avantages
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052239"
 Cette rubrique décrit l’espace de travail **Gestion des avantages** dans Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Pour voir l’espace de travail **Gestion des avantages**, vous devez d’abord activer la fonctionnalité **(version préliminaire) Espace de travail Gestion des avantages** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités en version préliminaire, consultez [Gérer les fonctionnalités](../hr-admin-manage-features.md).<br><br>![Activer l’espace de travail de gestion des avantages](./media/hr-benefits-management-workspace-enable.png)
+> Pour voir l’espace de travail **Gestion des avantages**, vous devez d’abord activer la fonctionnalité **(version préliminaire) Espace de travail Gestion des avantages** dans la gestion des fonctionnalités. Pour plus d’informations sur l’activation des fonctionnalités en version préliminaire, consultez [Gérer les fonctionnalités](hr-admin-manage-features.md).<br><br>![Activer l’espace de travail de gestion des avantages](./media/hr-benefits-management-workspace-enable.png)
 
 L’espace de travail **Gestion des avantages** vous donne un aperçu rapide des avantages qui nécessitent votre attention. Sur cette page vous pouvez voir :
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e3c2f8a69d620bd2babe0d8d55858d01b25436
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed85e9fd1a953a60483f369e9ac39762e294f6fc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833111"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190259"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Dépannage de la budgétisation de poste
 
@@ -28,8 +28,7 @@ ms.locfileid: "5833111"
 
 Cet article contient les réponses aux questions que vous vous posez lorsque vous configurez la budgétisation du poste. Elle répond aux questions fréquemment posées sur la création des éléments de coût budgétaire, des groupes de rémunération, et des grilles de rémunération. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Pourquoi est-ce que je ne parviens pas à trouver la page de poste de prévision du module Ressources humaines ?
 
 Les postes de prévision ont été déplacées vers le département Budget.
 

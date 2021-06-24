@@ -15,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28276ace4c75ef796f216b0e80a61ed3e39ebf98
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dc5e8a854c8735ac9b5fbb42513c9616fbc71d62
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826087"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188373"
 ---
 # <a name="commitments-in-the-public-sector-in-france"></a>Engagements dans le secteur public en France
 
@@ -70,8 +70,7 @@ Les engagements doivent être clôturés manuellement.
 
 **Important** : lorsque vous sélectionnez les engagements que vous souhaitez clôturer, vérifiez de ne pas sélectionner les engagements que vous avez déjà créés pour le nouvel exercice. La clôture d’une ligne d’engagement ne peut pas être contrepassée. Si vous clôturez accidentellement une ligne d’engagement, vous devez créer un autre engagement pour restaurer la réservation budgétaire. Pour en savoir plus sur le processus de fin d’exercice, voir [Traitement de fin d’exercice dans le secteur public](../public-sector/year-end-processing-public-sector.md).
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Comptabilité du secteur public en France](emea-fra-public-sector-accounting.md)
 

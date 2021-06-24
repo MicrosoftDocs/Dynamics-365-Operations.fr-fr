@@ -2,7 +2,7 @@
 title: Ajustements de prix et remises
 description: Cet article offre des informations relatives aux ajustements de prix et aux rabais dans Dynamics 365 Commerce.
 author: scott-tucker
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2d3e8025c5ab28296713634094694156f9addf62
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
+ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802789"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6240940"
 ---
 # <a name="price-adjustments-and-discounts"></a>Ajustements de prix et remises
 
@@ -48,6 +48,13 @@ Il existe plusieurs types de remise :
 - **Remise sur l’expédition** – Une remise qui est appliquée lorsque le total de la transaction est supérieur à un montant spécifié et qu’un mode de livraison spécifique (par exemple, expédition sous deux jours ou livraison le lendemain) est utilisé sur la commande.
 
 Tant les ajustements de prix que les remises peuvent être associés à des groupes de prix. Les groupes de prix peuvent ensuite être associés à des canaux, catalogues, affiliations et programmes de fidélité.
+
+> [!NOTE]
+> La remise mix and match et la remise seuil ont des propriétés nommées respectivement « Compter les produits non sujets à remise » et « Compter les produits non sujets à remise dans le seuil ». Si ces propriétés sont activées, un article qui n’est éligible à aucune remise peut toujours aider à qualifier une transaction pour la remise, mais l’article non éligible ne bénéficiera pas de la remise. 
+> 
+> Par exemple, si vous créez une remise mix and match avec deux lignes, A et B, où un client devrait bénéficier d’une remise de 10 % sur les deux articles, mais que la configuration « Empêcher toutes les remises » est cochée pour l’article A, cela empêchera généralement l’article A d’être inclus dans la remise. Cependant, si la propriété « Compter les produits non sujets à remise » est activée, l’article A peut être utilisé pour bénéficier de la remise mix and match, mais la remise de 10 % ne sera appliquée qu’à l’article B. Une logique similaire s’applique à la remise seuil. 
+>
+> Cependant, la propriété « Compter les produits non sujets à remise dans le seuil » présente une possibilité supplémentaire par rapport à la propriété « Compter les produits non sujets à remise » des remises mix and match. Si la remise seuil est activée et s’il existe un article qui a une remise existante qui empêcherait l’article de bénéficier d’autres remises, alors le prix payé pour cet article permettrait d’atteindre le seuil, mais cet article n’obtiendra pas la remise supplémentaire.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

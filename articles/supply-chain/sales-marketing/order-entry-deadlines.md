@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf2780edc75891d565a184135d6a915a0e6f8504
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d64729d6da5c57267d6d62274cce496888548d7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839075"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189990"
 ---
 # <a name="order-entry-deadlines"></a>Dates limites de saisie de commande
 
@@ -99,8 +99,7 @@ Le tableau suivant indique comment les dates limites de saisie des commandes pou
 
 **Remarque :** si l’heure d’été est appliquée, les dates limites de saisie de commande sont ajustées en conséquence.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Plans de livraison](delivery-schedules.md)
 

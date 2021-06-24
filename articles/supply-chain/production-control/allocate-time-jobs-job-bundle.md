@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811868"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193043"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Répartir du temps aux tâches figurant dans un regroupement de tâches
 
@@ -80,7 +80,7 @@ Le tableau suivant illustre la formule de calcul du délai imparti. Voici la for
 ## <a name="net-time-allocation-key"></a>Clé de répartition du temps net
 Le tableau suivant illustre la formule de calcul du délai imparti. Voici la formule : Temps calculé par déclaration = Temps groupé ÷ Nombre de tâches
 
-|                              | 09h00-10h00 (1 heure) | 10h00-11h00 (1 heure) | 11h00-13h00 (2 heures) | 13h00-15h00 (2 heures) | Temps réparti |
+| Exemple                       | 09h00-10h00 (1 heure) | 10h00-11h00 (1 heure) | 11h00-13h00 (2 heures) | 13h00-15h00 (2 heures) | Temps réparti |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Nombre de tâches du regroupement. | 1                    | 3                    | 2                     | 1                     | Non applicable |
 | Tâche 1                        | 1 ÷ 1 = 1 heure       | 1 ÷ 3 = 0,33 heure    | Non applicable        | Non applicable        | 1,33 heure     |

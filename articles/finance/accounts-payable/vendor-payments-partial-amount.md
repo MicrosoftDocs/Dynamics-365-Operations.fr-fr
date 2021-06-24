@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841211"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189515"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Paiements fournisseur pour un montant partiel
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841211"
 
 Il se peut que vous deviez effectuer auprès d’un fournisseur un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation. Leur disponibilité dépend de vos exigences métier et de votre configuration. 
 
-<a name="cash-discount-amounts"></a>Montants de l’escompte de règlement
----------------------
+## <a name="cash-discount-amounts"></a>Montants de l’escompte de règlement
 
 Un fournisseur peut vous accorder un escompte de règlement si vous payez une facture avant sa date d’échéance. Par exemple, vous saisissez une facture d’une valeur de 100,00 qui indique un escompte de règlement de 2 % si la facture est payée au cours des 10 jours suivant sa date d’émission. Les conditions de date d’échéance sont de 30 jours. Si une proposition de paiement utilise l’escompte de règlement comme critère pour sélectionner une facture, et si la proposition est effectuée à la date ou avant la date d’escompte de règlement, la facture est activée pour le paiement, et le paiement est créé pour 98,00. Un escompte de règlement peut être également appliqué à un paiement unique créé manuellement.
 

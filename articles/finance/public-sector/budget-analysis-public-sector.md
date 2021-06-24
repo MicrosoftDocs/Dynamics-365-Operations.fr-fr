@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 190e2b9cc3bb8a3a2b562181c968b4f280800015
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 215d9765b12664b314124a408f2c98eeac441c77
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809899"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193218"
 ---
 # <a name="budget-analysis-in-the-public-sector"></a>Analyse budgétaire dans le secteur public
 
@@ -65,9 +65,8 @@ La page **Statistiques de contrôle budgétaire** est l’outil à utiliser lors
 
 Le tableau suivant décrit les différences entre ces pages.
 
-|                                                                                                                         |                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| **Page Statistiques de contrôle budgétaire**                                                                                      | **Page Analyse budgétaire**                                                                    |
+| Page Statistiques de contrôle budgétaire | Analyse budgétaire                        |
+|---|---|
 | Affiche les soldes budgétaires pour un cycle budgétaire et un modèle de budget pour une seule valeur de dimension financière ou un groupe budgétaire. | Affiche les montants budgétaires combinés pour plusieurs valeurs de dimension financière simultanément. |
 | Inclut les données des engagements confirmés et non confirmés.                                                         | Inclut les données des engagements confirmés uniquement.                                             |
 | Inclut les données des comptes de dépenses uniquement.                                                                               | Inclut les données des comptes de produit et de dépenses.                                       |

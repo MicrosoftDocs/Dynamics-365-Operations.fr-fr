@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899093"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183994"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
 
@@ -29,10 +29,10 @@ ms.locfileid: "5899093"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
-> La charge de travail d'exécution de la fabrication est disponible en version préliminaire pour le moment.
+> La charge de travail d’exécution de la fabrication est disponible en version préliminaire pour le moment.
 > Certaines fonctionnalités d’entreprise ne sont pas entièrement prises en charge dans la version préliminaire publique lorsque les des unités d’échelle de charge de travail sont utilisées.
 
-Lors de l'exécution de la fabrication, les unités d'échelle offrent les capacités suivantes :
+Lors de l’exécution de la fabrication, les unités d’échelle offrent les capacités suivantes :
 
 - Les opérateurs de machines et les superviseurs d’atelier peuvent accéder au plan de production opérationnel.
 - Les opérateurs de machine peuvent maintenir le plan à jour en exécutant des tâches de fabrication discrètes et de processus.
@@ -72,6 +72,7 @@ Les tâches d’exécution de fabrication suivantes peuvent actuellement être e
 - Déclarer le rebut
 - Activité indirecte
 - Rupture
+- Déclarer comme terminé et rangé (nécessite que vous exécutiez également la charge de travail d’exécution d’entrepôt sur votre unité d’échelle, voir aussi [Déclarer comme terminé et rangé sur une unité d’échelle](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Utilisation des charges de travail d’exécution de fabrication sur le hub
 
@@ -108,6 +109,26 @@ Pour consulter l’historique des travaux de fabrication qui ont été traités 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Hub de fabrication pour la tâche du processeur de messages de l’unité d’échelle
 
 La tâche _Hub de fabrication pour le processeur de messages de l’unité d’échelle_ traite les données du hub vers l’unité d’échelle. Ce travail est automatiquement démarré lorsque la charge de travail d’exécution de fabrication est déployée. Cependant, vous pouvez l’exécuter manuellement à tout moment en accédant à **Contrôle de production \> Tâches périodiques \> Gestion de la charge de travail backoffice \> Processeur de message du hub de fabrication vers l’unité d’échelle**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Déclarer comme terminé et rangé sur une unité d’échelle
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Dans la version actuelle, les opérations Déclarer comme terminé et rangé (pour les produits finis, les coproduits et les sous-produits) sont prises en charge par la [charge de travail d’exécution de l’entrepôt](cloud-edge-workload-warehousing.md) (pas par la charge de travail d’exécution de la fabrication). Par conséquent, pour utiliser cette fonctionnalité lorsque vous êtes connecté à une unité d’échelle, vous devez procéder comme suit :
+
+- Installez à la fois la charge de travail d’exécution de l’entrepôt et la charge de travail d’exécution de la fabrication sur votre unité d’échelle.
+- Utilisez l’application mobile Warehouse Management pour déclarer la fin et traiter le travail de rangement. L’interface d’exécution de l’atelier de production ne prend actuellement pas en charge ces processus.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

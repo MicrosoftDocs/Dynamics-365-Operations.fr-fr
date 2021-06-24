@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff40f915c329187e3fa3f4cba5f1f7f06c2f3e14
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 778255e7fd1108b87be56d04cda8996cf11966f1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890762"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190247"
 ---
 # <a name="security-roles-in-the-public-sector"></a>Rôles de sécurité (Secteur public)
 
@@ -93,8 +93,7 @@ Le rôle de sécurité **Agent des achats – Secteur public** prend en charge l
 ## <a name="what-do-i-do-next"></a>Que faire ensuite ?
 Une fois les utilisateurs créés, vous les affectez à des rôles sur la page **Affecter des utilisateurs aux rôles**.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [sécurité basée sur les rôles](../../fin-ops-core/dev-itpro/sysadmin/role-based-security.md)
 

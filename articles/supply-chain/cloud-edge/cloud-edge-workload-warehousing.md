@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980947"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184020"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie
 
@@ -38,7 +38,7 @@ Dans cette rubrique, les exécutions de gestion d’entrepôt dans un entrepôt 
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Vous devez avoir un hub Dynamics 365 Supply Chain Management et une unité d’échelle déployée avec la charge de travail de gestion d’entrepôt. Pour plus d'informations sur l'architecture et le processus de déploiement, consultez [Utiliser des unités d'échelle pour augmenter la résilience des charges de travail de gestion de la chaîne d'approvisionnement](cloud-edge-landing-page.md).
+Vous devez avoir un hub Dynamics 365 Supply Chain Management et une unité d’échelle déployée avec la charge de travail de gestion d’entrepôt. Pour plus d’informations sur l’architecture et le processus de déploiement, consultez [Utiliser des unités d’échelle pour augmenter la résilience des charges de travail de gestion de la chaîne d’approvisionnement](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Fonctionnement de la charge de travail WES sur les unités d’échelle
 
@@ -49,10 +49,10 @@ Une unité d’échelle ne peut conserver que les données dont elle est propri�
 Les unités d’échelle possèdent les données suivantes :
 
 - **Données de traitement de vague d’expédition** – Les méthodes de traitement des vagues sélectionnées sont traitées dans le cadre du traitement des vagues par unité d’échelle.
-- **Données de traitement de travail** - Le travail d'entrepôt créé sur une unité d'échelle appartiendra à cette unité d'échelle spécifique. Les types de traitement d'ordres de travail suivants sont pris en charge :
+- **Données de traitement de travail** - Le travail d’entrepôt créé sur une unité d’échelle appartiendra à cette unité d’échelle spécifique. Les types de traitement d’ordres de travail suivants sont pris en charge :
 
   - **Mouvements d’inventaire** (mouvement manuel et mouvement par modèle de travail)
-  - **Inventaire tournant** et processus d'approbation / rejet dans le cadre des opérations de comptage
+  - **Inventaire tournant** et processus d’approbation / rejet dans le cadre des opérations de comptage
   - **Commandes fournisseur** (tâches de rangement via une commande entrepôt lorsque les commandes fournisseur ne sont pas associées à des charges)
   - **Commandes client** (tâches de prélèvement et de chargement simples)
   - **Ordres de transfert** (uniquement sortants avec tâches de prélèvement et de chargement simples)
@@ -77,9 +77,9 @@ Les unités d’échelle sont propriétaires du traitement de la vague réelle (
 
 ### <a name="process-work-and-ship"></a>Traiter le travail et expédier
 
-Dès que le processus de travail final place le stock au lieu d'expédition final (Baydoor), l'unité d'échelle signale au hub de mettre à jour les transactions de stock sur le document source à *Prélevé*. Jusqu'à ce que ce processus s'exécute et soit de nouveau synchronisé, le stock disponible sur la charge de travail de l'unité d'échelle sera physiquement réservé au niveau de l'entrepôt.
+Dès que le processus de travail final place le stock au lieu d’expédition final (Baydoor), l’unité d’échelle signale au hub de mettre à jour les transactions de stock sur le document source à *Prélevé*. Jusqu’à ce que ce processus s’exécute et soit de nouveau synchronisé, le stock disponible sur la charge de travail de l’unité d’échelle sera physiquement réservé au niveau de l’entrepôt.
 
-Dès que le hub a mis à jour les transactions à *Prélevé*, il peut traiter la confirmation d'expédition sortante et le bon de livraison associé ou transférer l'ordre de transfert pour le chargement.
+Dès que le hub a mis à jour les transactions à *Prélevé*, il peut traiter la confirmation d’expédition sortante et le bon de livraison associé ou transférer l’ordre de transfert pour le chargement.
 
 ![Flux des traitements sortants](./media/WES-outbound-processing-19.png "Flux des traitements sortants")
 
@@ -109,7 +109,7 @@ Si vous n’utilisez pas le processus de *lancement dans l’entrepôt*, et n’
 
 ![Flux des processus entrants](./media/wes-inbound-ga.png "Flux des processus entrants")
 
-Lors de l'enregistrement entrant via le processus de réception de la commande d'entrepôt d'unité d'échelle au niveau de l'application d'entrepôt, la charge de travail de l'unité d'échelle signalera au hub de mettre à jour les transactions de ligne de commande d'achat associées à *Enregistré*. Dès que cela est terminé, vous serez en mesure d'accuser réception du produit concerné par la commande d'achat sur le hub.
+Lors de l’enregistrement entrant via le processus de réception de la commande d’entrepôt d’unité d’échelle au niveau de l’application d’entrepôt, la charge de travail de l’unité d’échelle signalera au hub de mettre à jour les transactions de ligne de commande d’achat associées à *Enregistré*. Dès que cela est terminé, vous serez en mesure d’accuser réception du produit concerné par la commande d’achat sur le hub.
 
 ![Flux des traitements entrants](./media/WES-inbound-processing-19.png "Flux des traitements entrants")
 
@@ -134,7 +134,7 @@ Les processus d’exécution d’entrepôt suivants peuvent être activés pour 
 - Traitement des tâches d’entrepôt des ordres de transfert et de commande avec l’application d’entreposage (y compris la tâche de réapprovisionnement)
 - Interrogation du stock disponible à l’aide de l’application d’entrepôt
 - Création et exécution des mouvements de stock à l’aide de l’application d’entrepôt
-- Création et traitement d'un travail de comptage cyclique à l'aide de l'application d'entrepôt
+- Création et traitement d’un travail de comptage cyclique à l’aide de l’application d’entrepôt
 - Ajustements du stock à l’aide de l’application d’entrepôt
 - Enregistrement des commandes fournisseur et travaux de rangement en utilisant l’application d’entrepôt
 
@@ -147,7 +147,7 @@ Les types d’ordre de travail suivants sont actuellement pris en charge pour le
 - Inventaire tournant
 - Commandes fournisseur (liées aux commandes entrepôt)
 
-Aucun autre traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail WES sur une unité d'échelle, vous ne pouvez pas accuser réception d'un ordre de transfert (réception de transfert), car cela est traité par l'instance du hub.
+Aucun autre traitement des documents source ou des tâches d’entrepôt n’est actuellement pris en charge sur les unités d’échelle. Par exemple, pour une charge de travail WES sur une unité d’échelle, vous ne pouvez pas accuser réception d’un ordre de transfert (réception de transfert), car cela est traité par l’instance du hub.
 
 > [!NOTE]
 > Les éléments de menu et les boutons de l’appareil mobile pour les fonctionnalités non prises en charge ne sont pas affichés dans l’_application mobile Gestion des entrepôts_ lorsqu’elle est connecté à un déploiement d’unité d’échelle.
@@ -270,7 +270,7 @@ Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepô
 | Mouvement par modèle                               | Oui | Oui                          |
 | Transfert d’entrepôt                                 | Oui | Non                           |
 | Créer un ordre de transfert depuis l’application d’entreposage           | Oui | N°                           |
-| Ajustement (entrée/sortie)                                | Oui | Oui, mais pas pour le scénario d'ajustement si la réservation de stock doit être supprimée à l'aide du paramètre **Supprimer les réservations** sur les types d'ajustement de stock.</p>                           |
+| Ajustement (entrée/sortie)                                | Oui | Oui, mais pas pour le scénario d’ajustement si la réservation de stock doit être supprimée à l’aide du paramètre **Supprimer les réservations** sur les types d’ajustement de stock.</p>                           |
 | Modification du statut du stock                            | Oui | N°                           |
 | Comptage cyclique et traitement des écarts de comptage | Oui | Oui                           |
 | Réimpression d’étiquette (impression de contenant)             | Oui | Oui                          |
@@ -289,14 +289,15 @@ Le tableau suivant indique quelles fonctionnalités d’opérations d’entrepô
 | Modifier le pool de travail sur le travail                           | Oui | Oui                          |
 | Annuler le travail                                        | Oui | Oui                          |
 
-
 ### <a name="production"></a>Production
 
-Les scénarios de production de gestion des entrepôts ne sont actuellement pas pris en charge sur les charges de travail d’unité d’échelle, comme indiqué dans le tableau suivant.
+Le tableau suivant résume les scénarios de production de gestion des entrepôts qui sont actuellement pris en charge (ou non) sur les charges de travail d’unité d’échelle.
 
 | Processus | Hub | Charge de travail WES sur une unité de mise à l’échelle |
 |---------|-----|------------------------------|
-| <p>Tous les processus de gestion d’entrepôt liés à la production. Voici quelques exemples :</p><li>Libérer dans l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement des produits finis et déclarés terminés</li><li>Rangement des coproduits et des sous-produits</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | Non |
+| Rangement des produits finis et déclarés terminés | Oui | Oui |
+| Rangement des coproduits et des sous-produits | Oui | Oui |
+| <p>Tous les autres processus de gestion d’entrepôt liés à la production, notamment :</p><li>Libérer dans l’entrepôt</li><li>Traitement de vagues de production</li><li>Prélèvement de matières premières</li><li>Rangement de kanban</li><li>Prélèvement de kanban</li><li>Démarrer l’ordre de fabrication</li><li>Production au rebut</li><li>Dernière palette de production</li><li>Enregistrer la consommation de matières</li><li>Kanban vide</li></ul> | Oui | Non |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Gestion des unités d’échelle pour WES
 

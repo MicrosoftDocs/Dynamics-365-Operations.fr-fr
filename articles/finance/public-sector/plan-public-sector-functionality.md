@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a18cb26b075a4ed96a15c3e6b49effb4178a7783
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7ab96ce9177d0aa43c2470a2f487945448ea91e0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823556"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189361"
 ---
 # <a name="plan-for-public-sector-functionality"></a>Planifier la fonctionnalité Secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5823556"
 
 Cette rubrique suggère les premières étapes pour paramétrer la fonctionnalité Secteur public.
 
-<a name="what-should-i-do-first"></a>Que dois-je faire en premier lieu ?
------------------------
+## <a name="what-should-i-do-first"></a>Que dois-je faire en premier lieu ?
 
 Avant de configurer le secteur public et de commencer à ajouter vos données, réfléchissez à la manière dont vous allez utiliser cette fonctionnalité. Votre considération doit identifier les modules qui doivent être configurés pour utiliser les fonctionnalités du secteur public. Le secteur public s’intègre aux éléments suivants : 
 
@@ -66,8 +65,7 @@ Type de certification Codes commande fournisseur de confirmation Montants des li
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Page d’accueil Secteur public](public-sector-functionality.md)
 

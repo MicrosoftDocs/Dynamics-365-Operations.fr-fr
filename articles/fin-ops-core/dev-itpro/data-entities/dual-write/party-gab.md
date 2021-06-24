@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937884"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216610"
 ---
 # <a name="party-and-global-address-book"></a>Carnet d’adresses global et de la partie
 
@@ -22,7 +22,7 @@ ms.locfileid: "5937884"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Le *carnet d’adresses global* et de la *partie* sont des concepts des applications Finance and Operations. Une partie peut être une personne ou une organisation. Il est pratique de stocker et de gérer globalement les propriétés d’une partie, comme le nom, la langue, les contacts et les adresses. Ensuite, lorsque la valeur d'une propriété change à un endroit, le changement est répercuté à tous les endroits où la partie est impliquée.
+Le *carnet d’adresses global* et de la *partie* sont des concepts des applications Finance and Operations. Une partie peut être une personne ou une organisation. Il est pratique de stocker et de gérer globalement les propriétés d’une partie, comme le nom, la langue, les contacts et les adresses. Ensuite, lorsque la valeur d’une propriété change à un endroit, le changement est répercuté à tous les endroits où la partie est impliquée.
 
 ## <a name="party"></a>Tiers
 
@@ -35,16 +35,16 @@ Une partie est une personne ou une organisation impliquée dans une entreprise. 
 
 Le modèle de partie est souvent utilisé pour représenter des relations moyennes à complexes entre des organisations et des personnes, en particulier lorsqu’une partie joue plus d’un rôle. Voici quelques exemples courants :
 
-+ Une partie peut être à la fois un client et un fournisseur. Par exemple, en Amérique du Nord, Fabrikam vend des fils électriques à Contoso et achète des haut-parleurs assemblés à Contoso. En Europe, Fabrikam vend des pièces à Contoso, mais ne lui achète rien.
++ Une partie peut être à la fois un client et un fournisseur. Par exemple, en Amérique du Nord, Fabrikam vend des fils électriques à Contoso et achète des haut-parleurs assemblés à Contoso. En Europe, Fabrikam vend des pièces à Contoso, mais n'achète rien à Contoso.
 + Une partie peut être à la fois un collaborateur et un client. Par exemple, un employé de  Contoso achète des appareils électroniques à Contoso pour son usage personnel.
-+ Il peut y avoir une relation plusieurs-à-plusieurs entre une personne et une organisation. Par exemple, Fabrikam offre des services d’expertise et emploie un coordonnateur de placement. Le coordinateur de placement fait correspondre les experts avec les demandes de travail de plusieurs clients de Fabrikam. Contoso est l'un des clients de Fabrikam. Lorsque Contoso a besoin d’un expert, il contacte le coordinateur de placement, qui facilite ensuite l’exécution de la demande. Étant donné que le coordinateur de placement gère les demandes de tous les clients, une relation N : N est impliquée.
++ Il peut y avoir une relation plusieurs-à-plusieurs entre une personne et une organisation. Par exemple, Fabrikam offre des services d’expertise et emploie un coordonnateur de placement. Le coordinateur de placement fait correspondre les experts avec les demandes de travail de plusieurs clients de Fabrikam. Contoso est l’un des clients de Fabrikam. Lorsque Contoso a besoin d’un expert, il contacte le coordinateur de placement, qui facilite ensuite l’exécution de la demande. Étant donné que le coordinateur de placement gère les demandes de tous les clients, une relation N : N est impliquée.
 
 L’illustration suivante montre le modèle de données pour la partie :
 
 ![Modèle de données pour la partie](media/party-gab-image1.png)
 
 > [!TIP]
-> Lorsque vous essayez de créer un nouvel enregistrement de compte, utilisez le champ **Partie** pour rechercher l’enregistrement par nom. De cette façon, si vous trouvez l'enregistrement, il vous suffit de le sélectionner. Le système remplit ensuite automatiquement toutes les données à partir de la partie. Vous n’avez pas besoin de saisir manuellement tous les champs obligatoires. Ce même comportement existe sur les pages **Compte**, **Contact** et **Fournisseur** prêtes à l’emploi.
+> Lorsque vous essayez de créer un nouvel enregistrement de compte, utilisez le champ **Partie** pour rechercher l’enregistrement par nom. De cette façon, si vous trouvez l’enregistrement, il vous suffit de le sélectionner. Le système remplit ensuite automatiquement toutes les données à partir de la partie. Vous n’avez pas besoin de saisir manuellement tous les champs obligatoires. Ce même comportement existe sur les pages **Compte**, **Contact** et **Fournisseur** prêtes à l’emploi.
 
 La double écriture ne prend pas en charge tous les rôles de partie des applications Finance and Operations. Pour une liste complète des rôles de partie, voir [Vue d’ensemble du carnet d’adresses global](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
@@ -56,7 +56,7 @@ Le carnet d’adresses global stocke et gère autant d’adresses postales et d�
 
 Selon le contexte commercial, une personne ou une organisation peut jouer plusieurs rôles et la même adresse postale et électronique peut être utilisée pour tous les rôles. Dans ce cas, un changement d’adresse dans un rôle doit apparaître dans tous les autres rôles. Le carnet d’adresses global stocke et gère les adresses à l’échelle mondiale.
 
-L’illustration suivante présente le modèle de données pour le carnet d'adresses global.
+L’illustration suivante présente le modèle de données pour le carnet d’adresses global.
 
 ![Modèle de données pour le carnet d’adresses global](media/party-gab-image2.png)
 
@@ -86,9 +86,9 @@ Par exemple, Natasha Jones et Miguel Reyes sont des vétérinaires qui assurent 
 
 Ces relations sont stockées dans la table **Contact pour la partie**. Vous pouvez trouver les informations sur les pages **Compte**, **Contact** et **Fournisseur** prêtes à l’emploi :
 
-+ Sur la page **Compte**, vous pouvez utiliser l'onglet **Contacts associés** pour associer un ou plusieurs contacts à la ligne du **Compte**. Vous pouvez ainsi affecter des personnes de contact pour une organisation. Vous pouvez ensuite sélectionner un contact comme contact principal pour le compte. Si vous utilisez la page **Création rapide**, vous ne pouvez sélectionner qu'une personne de contact. Le comportement est le même lorsque vous utilisez la page **Fournisseur** et que le type d’enregistrement est **Organisation**.
-+ Sur la page **Contact**, lorsque la ligne est un client, un fournisseur ou les deux (un contact agrégé), vous pouvez utiliser l'onglet **Contacts associés** pour associer un ou plusieurs contacts. Vous pouvez ainsi affecter des personnes de contact pour un client B2C ou un fournisseur. Vous pouvez ensuite sélectionner un contact comme contact principal. Si vous utilisez la page **Création rapide**, vous ne pouvez sélectionner qu'une personne de contact.
-+ Sur la page **Contact**, lorsque la ligne est une personne de contact (un contact non agrégé), vous pouvez utiliser l'onglet **Organisations associées** pour associer un ou plusieurs clients ou fournisseurs. Vous pouvez ainsi affecter des clients ou des fournisseurs à la personne de contact sous-jacente. Le client ou le fournisseur peut être une organisation, une personne ou les deux. Vous ne pouvez choisir une valeur que dans l'un des quatre champs à la fois :
++ Sur la page **Compte**, vous pouvez utiliser l’onglet **Contacts associés** pour associer un ou plusieurs contacts à la ligne du **Compte**. Vous pouvez ainsi affecter des personnes de contact pour une organisation. Vous pouvez ensuite sélectionner un contact comme contact principal pour le compte. Si vous utilisez la page **Création rapide**, vous ne pouvez sélectionner qu’une personne de contact. Le comportement est le même lorsque vous utilisez la page **Fournisseur** et que le type d’enregistrement est **Organisation**.
++ Sur la page **Contact**, lorsque la ligne est un client, un fournisseur ou les deux (un contact agrégé), vous pouvez utiliser l’onglet **Contacts associés** pour associer un ou plusieurs contacts. Vous pouvez ainsi affecter des personnes de contact pour un client B2C ou un fournisseur. Vous pouvez ensuite sélectionner un contact comme contact principal. Si vous utilisez la page **Création rapide**, vous ne pouvez sélectionner qu’une personne de contact.
++ Sur la page **Contact**, lorsque la ligne est une personne de contact (un contact non agrégé), vous pouvez utiliser l’onglet **Organisations associées** pour associer un ou plusieurs clients ou fournisseurs. Vous pouvez ainsi affecter des clients ou des fournisseurs à la personne de contact sous-jacente. Le client ou le fournisseur peut être une organisation, une personne ou les deux. Vous ne pouvez choisir une valeur que dans l’un des quatre champs à la fois :
 
     + Si vous sélectionnez une valeur dans le champ **ID de partie**, alors le contact sous-jacent est affecté à tous les rôles de la partie sélectionnée.
     + Si vous sélectionnez une valeur dans le champ **Contact associé**, vous sélectionnez alors le contact agrégé qui est de type **Personne**.
@@ -96,28 +96,28 @@ Ces relations sont stockées dans la table **Contact pour la partie**. Vous pouv
 
     ![Onglet Organisations associées sur la page Contact](media/party-gab-image3.png)
 
-    Quel que soit votre sélection, l’association est créée au niveau de la partie et s'applique à tous les rôles de la partie ; elle est stockée dans l’entité **Contact de la partie**.
+    Quel que soit votre sélection, l’association est créée au niveau de la partie et s’applique à tous les rôles de la partie ; elle est stockée dans l’entité **Contact de la partie**.
 
 > [!NOTE]
 > Le nom d’affichage de la table **Contact de la partie** dans l’application d’engagement client est **Contact pour le client/fournisseur**.
 
-Lorsque vous ouvrez une ligne de **Contact** où le champ **Est un client** et le champ **Est un fournisseur** sont définis sur **Non**, l'onglet **Organisations associées** est affiché. Utilisez cet onglet pour associer une ou plusieurs organisations client ou fournisseur au contact.
+Lorsque vous ouvrez une ligne de **Contact** où le champ **Est un client** et le champ **Est un fournisseur** sont définis sur **Non**, l’onglet **Organisations associées** est affiché. Utilisez cet onglet pour associer une ou plusieurs organisations client ou fournisseur au contact.
 
-Lorsque vous ouvrez une ligne de **Contact** où le champ **Est un client** ou **Est un fournisseur** est défini sur **Oui**, l'onglet **Contacts associées** est affiché. Utilisez cet onglet pour associer un ou plusieurs contacts.
+Lorsque vous ouvrez une ligne de **Contact** où le champ **Est un client** ou **Est un fournisseur** est défini sur **Oui**, l’onglet **Contacts associées** est affiché. Utilisez cet onglet pour associer un ou plusieurs contacts.
 
 ## <a name="postal-addresses"></a>Adresses postales
 
-Un nouvel onglet nommé **Adresses** a été introduit sur les pages **Compte**, **Contact** et **Fournisseur**. Cet onglet prend en charge plusieurs adresses postales à l'aide d'une grille, comme indiqué dans l'illustration suivante.
+Un nouvel onglet nommé **Adresses** a été introduit sur les pages **Compte**, **Contact** et **Fournisseur**. Cet onglet prend en charge plusieurs adresses postales à l’aide d’une grille, comme indiqué dans l’illustration suivante.
 
 ![Grille d’adresses postales](media/party-gab-image4.png)
 
 La grille comprend les colonnes suivantes :
 
-+ **Rôles d’adresse postale** – Le but de l'adresse postale.
-+ **Est principal** - Valeur qui indique si l'adresse est l'adresse principale.
-+ **Numéro d'adresse** - L'ordre des adresses.
++ **Rôles d’adresse postale** – Le but de l’adresse postale.
++ **Est principal** - Valeur qui indique si l’adresse est l’adresse principale.
++ **Numéro d’adresse** - L’ordre des adresses.
 
-Vous pouvez utiliser le bouton **Nouvelle adresse** au-dessus de la grille pour créer autant d'adresses postales que vous le souhaitez.
+Vous pouvez utiliser le bouton **Nouvelle adresse** au-dessus de la grille pour créer autant d’adresses postales que vous le souhaitez.
 
 Les champs **Adresse 1** et **Adresse 2** sur la page **Résumé** du formulaire **Compte** correspondent aux adresses **Livraison** et **Facture**, respectivement.
 
@@ -127,32 +127,38 @@ Les champs **Adresse 1**, **Adresse 2**, and **Adresse 3** sur la page **Rés
 
 ## <a name="electronic-addresses"></a>Adresses électroniques
 
-Un nouvel onglet nommé **Adresses électroniques** a été introduit sur les pages **Compte**, **Contact** et **Fournisseur**. Cet onglet prend en charge plusieurs adresses électroniques à l'aide d'une grille, comme indiqué dans l'illustration suivante.
+Un nouvel onglet nommé **Adresses électroniques** a été introduit sur les pages **Compte**, **Contact** et **Fournisseur**. Cet onglet prend en charge plusieurs adresses électroniques à l’aide d’une grille, comme indiqué dans l’illustration suivante.
 
 ![Grille d’adresses électroniques](media/party-gab-image6.png)
 
 La grille comprend les colonnes suivantes :
 
 + **Type** – Type de l’adresse électronique.
-+ **Est principal** Valeur qui indique si l'adresse est l'adresse principale.
++ **Est principal** Valeur qui indique si l’adresse est l’adresse principale.
 + **Objectif** – Objectif de l’adresse électronique.
 
-Vous pouvez utiliser le bouton **Nouvelle adresse électronique** au-dessus de la grille pour créer autant d'adresses que vous le souhaitez.
+Vous pouvez utiliser le bouton **Nouvelle adresse électronique** au-dessus de la grille pour créer autant d’adresses que vous le souhaitez.
 
 Les adresses électroniques ne sont disponibles que sur cette grille. Dans les versions futures, tous les champs d’adresse électronique et postale seront supprimés des autres onglets (par exemple des onglets **Résumé** et **Détails**).
 
 ## <a name="setup"></a>Paramétrage
 
-1. Installez la dernière version (2.2.2.60 ou ultérieure) de la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-app).
+1. Ouvrez votre environnement d’application d’engagement client.
 
-2. Installez la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-gab).
+2. Installez la dernière version (2.2.2.60 ou ultérieure) de la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-app).
 
-3. Arrêtez les mappages suivants, car ils ne sont plus nécessaires. À la place, exécutez le mappage `Contacts V2 (msdyn_contactforparties)`.
+3. Installez la [solution d’orchestration de l’application de double écriture](https://aka.ms/dual-write-gab).
+
+4. Ouvrez l’application Finance and Operations. Accédez au module Gestion des données et sélectionnez l’onglet Double écriture. La page d’administration de la double écriture s’ouvre.
+
+5. Appliquez les deux solutions installées aux étapes 2 et 3 à l’aide de la fonction [Appliquer la solution](link-your-environment.md).
+
+6. Arrêtez les mappages suivants, car ils ne sont plus nécessaires. À la place, exécutez le mappage `Contacts V2 (msdyn_contactforparties)`.
 
     + CDS Contacts V2 et Contacts (se rapport aux contacts client)
     + CDS Contacts V2 et Contacts (se rapport aux contacts fournisseur)
 
-4. Les mappages d’entités suivants sont mis à jour pour la fonctionnalité de partie, la dernière version doit donc être appliquée à ces mappages.
+7. Les mappages d’entités suivants sont mis à jour pour la fonctionnalité de partie, la dernière version doit donc être appliquée à ces mappages.
 
     Mapper | Mise à jour vers cette version | Modifications
     ---|---|---
@@ -176,7 +182,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Il s’agit d’un nouveau mappage ajouté dans le cadre de cette version.
 
-5. Avant d'exécuter les mappages ci-dessus, vous devez mettre à jour les clés d'intégration manuellement comme décrit dans les étapes suivantes. Sélectionnez ensuite **Enregistrer**.
+8. Avant d’exécuter les mappages ci-dessus, vous devez mettre à jour les clés d’intégration manuellement comme décrit dans les étapes suivantes. Sélectionnez ensuite **Enregistrer**.
 
     | Mapper | Clés |
     |-----|------|
@@ -185,14 +191,14 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     | Contact pour le client/fournisseur | msdyn_contactforpartynumber [Contact pour le numéro tiers]<br>msdyn_associatedcompanyid.cdm_companycode [Société associée (Code société)] |
     | Fournisseur | msdyn_vendoraccountnumber [Numéro de compte fournisseur]<br>msdyn_company.cdm_companycode [Société (Code société)]|
 
-6. Dans Dataverse, les limites de caractères des règles de détection en double sont passées de 450 à 700 caractères. Cette limite vous permet d'ajouter une ou plusieurs clés aux règles de détection des doublons. Développez la règle de détection des doublons pour la table **Comptes** en définissant les champs suivants.
+9. Dans Dataverse, les limites de caractères des règles de détection en double sont passées de 450 à 700 caractères. Cette limite vous permet d’ajouter une ou plusieurs clés aux règles de détection des doublons. Développez la règle de détection des doublons pour la table **Comptes** en définissant les champs suivants.
 
     | Champ | Valeur |
     |-------|-------|
     | Nom | Comptes avec le même nom de compte. |
-    | Description | Détecte les enregistrements de compte qui ont la même valeur dans l'attribut Nom du compte. |
+    | Description | Détecte les enregistrements de compte qui ont la même valeur dans l’attribut Nom du compte. |
     | Type d’enregistrement de base | Compte |
-    | Type d'enregistrement correspondant | Compte |
+    | Type d’enregistrement correspondant | Compte |
     | Nom du compte (champ) | Correspondance parfaite |
     | Entreprise (champ) | Correspondance parfaite |
     | Types de relations (champ) | Correspondance parfaite |
@@ -201,14 +207,14 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
     ![Règle en double pour les comptes](media/duplicate-rule-1.PNG)
 
-7. Développez la règle de détection des doublons pour la table **Contacts** en définissant les champs suivants.
+10. Développez la règle de détection des doublons pour la table **Contacts** en définissant les champs suivants.
 
     | Champ | Valeur |
     |-------|-------|
     | Nom | Contacts avec le même prénom et le même nom. |
     | Description | Détecte les enregistrements de contact qui ont les mêmes valeurs dans les champs Prénom et Nom. |
     | Type d’enregistrement de base | Contact |
-    | Type d'enregistrement correspondant | Contact |
+    | Type d’enregistrement correspondant | Contact |
     | Prénom (champ) | Correspondance parfaite |
     | Nom (champ) | Correspondance parfaite |
     | Entreprise (champ) | Correspondance parfaite |
@@ -217,9 +223,9 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
 
     ![Règle en double pour les contacts](media/duplicate-rule-2.PNG)
 
-8. Si vous êtes déjà un utilisateur à double écriture, suivez les instructions de la section [Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global](upgrade-party-gab.md) et mettez à jour vos données.
+11. Si vous êtes déjà un utilisateur à double écriture, suivez les instructions de la section [Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global](upgrade-party-gab.md) et mettez à jour vos données.
 
-9. Exécutez les mappages dans l’ordre suivant : Si vous obtenez une erreur indiquant « La validation du projet a échoué. Champ de destination manquant ... », ouvrez le mappage et sélectionnez **Actualiser les tables**. Ensuite, exécutez le mappage.
+12. Exécutez les mappages dans l’ordre suivant : Si vous obtenez une erreur indiquant « La validation du projet a échoué. Champ de destination manquant ... », ouvrez le mappage et sélectionnez **Actualiser les tables**. Ensuite, exécutez le mappage.
 
     Application Finance and Operations | Application Customer Engagement  
     ----------------------------|------------------------
@@ -235,7 +241,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     [Politesses](mapping-reference.md#222) | msdyn_complimentaryclosings
     [Salutations](mapping-reference.md#228) | msdyn_salutations
     [Rôles de prise de décision](mapping-reference.md#224) | msdyn_decisionmakingroles
-    [Fonctions d'emploi](mapping-reference.md#225) | msdyn_employmentjobfunctions
+    [Fonctions d’emploi](mapping-reference.md#225) | msdyn_employmentjobfunctions
     [Niveaux de fidélité](mapping-reference.md#226) | msdyn_loyaltylevels
     [Type de caractère personnel](mapping-reference.md#227) | msdyn_personalcharactertypes
     [Contacts V2](mapping-reference.md#221) | msdyn_contactforparties
@@ -244,13 +250,13 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     [En-têtes de facture client V2](mapping-reference.md#118) | factures
 
 > [!Note]
-> Le mappage `CDS Contacts V2 (contacts)` est celui que vous aviez interrompu à l'étape 1. Lorsque vous essayez d'exécuter d'autres mappages, ces 2 mappages peuvent apparaître dans la liste des personnes à charge. N'exécutez pas ces mappages.
+> Le mappage `CDS Contacts V2 (contacts)` est celui que vous aviez interrompu à l’étape 1. Lorsque vous essayez d’exécuter d’autres mappages, ces 2 mappages peuvent apparaître dans la liste des personnes à charge. N’exécutez pas ces mappages.
 
 > [!Note]
 > Si la solution du carnet d’adresses global et de partie est installée, vous devez désactiver le plugin nommé `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Si vous désinstallez la solution du carnet d’adresses global et de partie, vous devez alors activer à nouveau le plugin.
 
 > [!Note]
-> Le champ `msdyn_*partynumber` (un champ de texte sur une seule ligne) qui est inclus dans les tables **Compte**, **Contact** et **Fournisseur** ne doit plus être utilisé à l'avenir. Le nom de l'étiquette contient un préfixe **(Obsolète)** pour plus de clarté. Au lieu de cela, utilisez le champ **msdyn_partyid**. Ce champ effectue une recherche vers la table **msdyn_party**.
+> Le champ `msdyn_*partynumber` (un champ de texte sur une seule ligne) qui est inclus dans les tables **Compte**, **Contact** et **Fournisseur** ne doit plus être utilisé à l’avenir. Le nom de l’étiquette contient un préfixe **(Obsolète)** pour plus de clarté. Au lieu de cela, utilisez le champ **msdyn_partyid**. Ce champ effectue une recherche vers la table **msdyn_party**.
 
 > Nom de la table | Ancien champ | Nouveau champ
 > --------|-------|--------
@@ -276,7 +282,7 @@ Un ensemble de mappages de tables fonctionne ensemble pendant l’interaction av
 | [Politesses](mapping-reference.md#222) | msdyn\_complimentaryclosings |
 | [Contacts V2](mapping-reference.md#221) | msdyn\_contactforparties |
 | [Rôles de prise de décision](mapping-reference.md#224) | msdyn\_decisionmakingroles |
-| [Fonctions d'emploi](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Fonctions d’emploi](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
 | [Niveaux de fidélité](mapping-reference.md#226) | msdyn\_loyaltylevels |
 | [Contacts de partie V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
 | [Type de caractère personnel](mapping-reference.md#227) | msdyn\_personalcharactertypes |
@@ -288,17 +294,17 @@ Pour plus d’informations, voir [Référence de mappage en double écriture](ma
 
 ## <a name="known-issues-and-limitations"></a>Problèmes connus et limitations
 
-+ Dans l'application Finance and Operations, lorsque vous créez un client avec l'adresse et que vous l'enregistrez, il est possible que l'adresse ne se synchronise pas avec la table **Adresse**. Cela est dû à un problème de séquençage de plateforme à double écriture. Pour contourner le problème, créez d'abord le client et enregistrez-le. Ajoutez ensuite l'adresse.
-+ Dans les applications Finance and Operations, lorsqu'un enregistrement client a une adresse principale et que vous créez un nouveau contact pour ce client, l'enregistrement hérite d'une adresse principale de l'enregistrement client associé. Cela se produit également pour le contact fournisseur. Dataverse ne prend actuellement pas en charge ce comportement. Si la double écriture est activée, un client contact hérité d'une adresse principale de l'application Finance and Operations est synchronisé avec Dataverse avec son adresse.
-+ Les adresses électroniques de la table `msdyn_partyelectronicaddress` ne se trouvent pas dans les champs d'adresse électronique des tables **Compte** et **Contact**. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d'adresse électronique sur les tables **Compte** et **Contact** ne seront pas écrasées.
-+ Les adresses électroniques définies sur l'onglet Adresses électroniques des formulaires **Compte**, **Contact** et **Fournisseur** proviennent de la table `msdyn_partyelectronicaddress`. Ces informations ne sont pas transmises aux transactions associées telles que la commande client, le devis et la commande fournisseur. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d'adresse électronique sur les enregistrements de compte et de contact continueront à fonctionner sur les transactions telles que la commande client, le devis et le bon de commande.
-+ Dans les applications Finance and Operations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l'action échoue. Il s'agit d'un problème connu.
++ Dans l’application Finance and Operations, lorsque vous créez un client avec l’adresse et que vous l’enregistrez, il est possible que l’adresse ne se synchronise pas avec la table **Adresse**. Cela est dû à un problème de séquençage de plateforme à double écriture. Pour contourner le problème, créez d’abord le client et enregistrez-le. Ajoutez ensuite l’adresse.
++ Dans les applications Finance and Operations, lorsqu’un enregistrement client a une adresse principale et que vous créez un nouveau contact pour ce client, l’enregistrement hérite d’une adresse principale de l’enregistrement client associé. Cela se produit également pour le contact fournisseur. Dataverse ne prend actuellement pas en charge ce comportement. Si la double écriture est activée, un client contact hérité d’une adresse principale de l’application Finance and Operations est synchronisé avec Dataverse avec son adresse.
++ Les adresses électroniques de la table `msdyn_partyelectronicaddress` ne se trouvent pas dans les champs d’adresse électronique des tables **Compte** et **Contact**. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les tables **Compte** et **Contact** ne seront pas écrasées.
++ Les adresses électroniques définies sur l’onglet Adresses électroniques des formulaires **Compte**, **Contact** et **Fournisseur** proviennent de la table `msdyn_partyelectronicaddress`. Ces informations ne sont pas transmises aux transactions associées telles que la commande client, le devis et la commande fournisseur. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les enregistrements de compte et de contact continueront à fonctionner sur les transactions telles que la commande client, le devis et le bon de commande.
++ Dans les applications Finance and Operations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l’action échoue. Il s’agit d’un problème connu.
 
     ![Problème connu avec Ajouter des contacts](media/party-gab-contact-issue.png)
 
-+ La **Synchronisation initiale** ne prend pas en charge les champs horaires **Disponible à partir de** et **Disponible jusqu'au** sur **ContactForParty**, car DIXF convertit la valeur en une chaîne au lieu d'un entier. La conversion déclenche l'erreur `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Lorsqu'une adresse postale est utilisée pour plusieurs raisons, par exemple, l'adresse de communication professionnelle et l'adresse de facturation, elle doit apparaître sous la forme `Business;Invoice` comme indiqué dans l'image suivante. Si vous ajoutez un espace entre les valeurs, vous obtiendrez une erreur.
++ La **Synchronisation initiale** ne prend pas en charge les champs horaires **Disponible à partir de** et **Disponible jusqu’au** sur **ContactForParty**, car DIXF convertit la valeur en une chaîne au lieu d’un entier. La conversion déclenche l’erreur `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
++ Lorsqu’une adresse postale est utilisée pour plusieurs raisons, par exemple, l’adresse de communication professionnelle et l’adresse de facturation, elle doit apparaître sous la forme `Business;Invoice` comme indiqué dans l’image suivante. Si vous ajoutez un espace entre les valeurs, vous obtiendrez une erreur.
 
     ![Problème connu avec Adresse](media/party-gab-address-issue.png)
 
-+ Vous ne pouvez pas saisir une adresse postale postdatée à l'aide d'une application Finance and Operations avec la double écriture, car Dataverse ne prend pas en charge la validité de la date. Si vous saisissez une adresse postale postdatée à l'aide d'une application Finance and Operations, elle se synchronise complètement avec Dataverse et vous verrez l'adresse sur l'interface utilisateur immédiatement. Toute mise à jour de cet enregistrement entraînera une erreur car il est postdaté et n'est pas présent dans l'application Finance and Operations.
++ Vous ne pouvez pas saisir une adresse postale postdatée à l’aide d’une application Finance and Operations avec la double écriture, car Dataverse ne prend pas en charge la validité de la date. Si vous saisissez une adresse postale postdatée à l’aide d’une application Finance and Operations, elle se synchronise complètement avec Dataverse et vous verrez l’adresse sur l’interface utilisateur immédiatement. Toute mise à jour de cet enregistrement entraînera une erreur car il est postdaté et n’est pas présent dans l’application Finance and Operations.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837127"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190307"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Paramétrage, autorisation et capture de carte de crédit
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837127"
 
 Cet article présente une vue d’ensemble de l’autorisation de la carte de crédit dans Microsoft Dynamics 365 Finance. Il inclut des informations sur le paramétrage d’un service de paiement, l’ajout d’une carte de crédit à une commande client et l’annulation d’une autorisation.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Paramétrage du service de paiement par carte de crédit
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Paramétrage du service de paiement par carte de crédit
 
 Pour utiliser les cartes de crédit, vous devez paramétrer et activer un service de paiement sur la page Services de paiement. Un service de paiement agit comme une passerelle entre votre entité juridique et la banque qui traite les frais de carte de crédit d’un client. Vous devez travailler avec un fournisseur de carte de crédit répertorié dans le champ Connecteur de paiement et paramétrer un compte avec ce fournisseur. Vous devez ensuite paramétrer les autres options sur la page Services de paiement, paramétrer les types de carte de crédit pour American Express, Discover, MasterCard sur la page Types de carte de crédit, et activer le fournisseur comme fournisseur par défaut. Vous devez également suivre ces étapes pour terminer votre configuration :
 -   Sur la page Paramètres des ventes, spécifiez les paramètres pour utiliser les autorisations de carte de crédit.
@@ -39,13 +38,11 @@ Pour utiliser les cartes de crédit, vous devez paramétrer et activer un servic
 ## <a name="adding-a-new-credit-card"></a>Ajout d’une nouvelle carte de crédit
 Vous pouvez créer des enregistrements de carte de crédit sur la page Clients à l’aide des paramètres Client, Paramétrage, Carte de crédit. Vous pouvez également créer des enregistrements de carte de crédit lorsque vous entrez des commandes client sur la page Commande client à l’aide des paramètres Gérer, Client, Carte de crédit, Enregistrer.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Ajout d’une carte de crédit à une commande client
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Ajout d’une carte de crédit à une commande client
 
 Vous pouvez ajouter une carte de crédit à une commande client en sélectionnant une carte de crédit dans la recherche de carte de crédit sur l’organisateur Prix et remises sur la page Commande client. Pour démarrer le processus d’autorisation, dans le Volet Actions, sous l’onglet Gérer, sélectionnez Carte de crédit et Autoriser.
 
-<a name="authorizing-a-credit-card"></a>Autorisation de carte de crédit
--------------------------
+## <a name="authorizing-a-credit-card"></a>Autorisation de carte de crédit
 
 Lors d’une autorisation d’une carte de crédit, le numéro de la carte et le nom de son titulaire sont vérifiés, et le solde créditeur disponible est confirmé. Le cas échéant, la valeur de vérification de la carte de crédit et l’adresse du titulaire sont vérifiés. Le montant de la facture est alors déduit du solde créditeur disponible du client. Le service de paiement indique alors si la carte a été acceptée ou refusée. Lors de la facturation de la commande client, le montant facturé est débité (capturé) de la carte de crédit.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815354"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189371"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Méthodes de calcul de la taxe dans le champ Origine
 
@@ -52,8 +52,7 @@ Si le montant HT = 10,00, alors les DROITS DE DOUANE 1 = 1,00 (10,00 x 10 %) et 
 | Un seul code taxe avec Origine = Pourcentage du montant brut peut être utilisé pour une transaction. Si plusieurs codes taxe sont déterminés pour une transaction, une erreur s’affiche pour indiquer que la taxe ne peut pas être calculée. |
 
 
-<a name="percentage-of-sales-tax"></a>Pourcentage de taxe
------------------------
+## <a name="percentage-of-sales-tax"></a>Pourcentage de taxe
 
 Lorsque vous sélectionnez Pourcentage de taxe dans le champ Origine, la taxe est calculée comme un pourcentage de la taxe sélectionnée dans le champ Taxe sur taxe. La taxe sélectionnée dans le champ Taxe sur taxe est d’abord calculée. La deuxième taxe est ensuite calculée en fonction du montant de la première taxe.
 ### <a name="example"></a>Exemple
@@ -119,8 +118,7 @@ Le document ou journal est défini sur Montants, taxe incluse = Non Montant de l
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Taux de taxe en fonction de la Base marginale et du Mode de calcul](marginal-base-field.md)
 

@@ -15,12 +15,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7586551ea3c2d5887db193c95e03ee2c54ac2fce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9fb4f74a578ae44536c0a460dfb9c5940abb0474
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823645"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188365"
 ---
 # <a name="vendor-invoice-payment-holds-in-the-public-sector-in-france"></a>Mises en attente du paiement d’une facture fournisseur dans le secteur public en France
 
@@ -28,8 +28,7 @@ ms.locfileid: "5823645"
 
 Les processus standard liés aux mises en attente de paiement d’une facture fournisseur dans Dynamics 365 Finance ont été étendus pour les entités françaises du secteur public. Cette rubrique décrit la fonctionnalité de mises en attente de paiement d’une facture fournisseur utilisée par le secteur public en France.
 
-<a name="set-up-rules-for-vendor-invoice-payment-holds"></a>Définition de règles pour les mises en attente de paiement d’une facture fournisseur
----------------------------------------------
+## <a name="set-up-rules-for-vendor-invoice-payment-holds"></a>Définition de règles pour les mises en attente de paiement d’une facture fournisseur
 
 Les règles pour la mise en attente du paiement d’une facture fournisseur sont paramétrées dans l’organisateur **Bloquer** de la page **Conditions de paiement**. Chaque règle est constituée de trois parties :
 

@@ -4,19 +4,19 @@ description: Vous ne pouvez pas confirmer une expédition car un élément est m
 author: perlynne
 ms.date: 04/21/2021
 ms.topic: troubleshooting
-ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm
+ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm, WHSContainerCloseDiag_WHSShipConfirm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: da6388d433d6021a99840ae9781c717db1b540a9
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: beef0909d41e69f3e7bcc1021527be35b7e6fd44
+ms.sourcegitcommit: c2c6d687a89bc1534c029109315c23e92865b63b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938470"
+ms.lasthandoff: 05/31/2021
+ms.locfileid: "6123841"
 ---
 # <a name="you-cant-confirm-a-shipment-because-of-incomplete-or-missing-work"></a>Vous ne pouvez pas confirmer une expédition car un élément est manquant ou incomplet
 
@@ -24,42 +24,42 @@ Code d’erreur : WAX515
 
 ## <a name="symptoms"></a>Symptômes
 
-Lorsque vous essayez de confirmer une expédition, le système affiche le message d'erreur suivant :
+Lorsque vous essayez de confirmer une expédition, le système affiche le message d’erreur suivant :
 
-> Impossible de confirmer l'expédition pour le chargement %1, car l'ensemble du travail pour le chargement doit être terminé.
+> Impossible de confirmer l’expédition pour le chargement %1, car l’ensemble du travail pour le chargement doit être terminé.
 
-Par conséquent, vous ne pouvez pas confirmer l'expédition pour le chargement.
+Par conséquent, vous ne pouvez pas confirmer l’expédition pour le chargement.
 
 ## <a name="cause"></a>Cause
 
-Le chargement ou l'expédition est actuellement dans un état d'échec. Avant de pouvoir confirmer l'expédition, il doit au moins exister certains travaux pour le chargement, et ils doivent tous avoir le statut *Clôturé* ou *Annulé*.
+Le chargement ou l’expédition est actuellement dans un état d’échec. Avant de pouvoir confirmer l’expédition, il doit au moins exister certains travaux pour le chargement, et ils doivent tous avoir le statut *Clôturé* ou *Annulé*.
 
 ## <a name="resolution"></a>Résolution
 
-Vérifiez les commandes client ou les ordres de transfert associés pour le chargement ou l'expédition, et assurez-vous que tous les travaux connexes ont été terminés ou annulés.
+Vérifiez les commandes client ou les ordres de transfert associés pour le chargement ou l’expédition, et assurez-vous que tous les travaux connexes ont été terminés ou annulés.
 
 Vous pouvez travailler avec des expéditions et des chargements sur plusieurs pages. Les sous-sections suivantes fournissent quelques exemples.
 
 ### <a name="all-loads-page"></a>Page Tous les chargements
 
 1. Accédez à **Gestion des entrepôts \> Chargements \> Tous les chargements**.
-1. Sélectionnez le chargement pour lequel l'expédition ne peut pas être confirmée.
+1. Sélectionnez le chargement pour lequel l’expédition ne peut pas être confirmée.
 1. Dans le volet Actions, sous l’onglet **Chargements**, dans le groupe **Informations associées**, cliquez sur **Travail**.
-1. Inspectez le statut de chaque ID de travail. Faites le suivi de chaque ID de travail qui n'a pas le statut *Clôturé* ou *Annulé*.
-1. Lorsque chaque ID de travail a un statut *Clôturé* ou *Annulé*, réessayez pour confirmer l'expédition.
+1. Inspectez le statut de chaque ID de travail. Faites le suivi de chaque ID de travail qui n’a pas le statut *Clôturé* ou *Annulé*.
+1. Lorsque chaque ID de travail a un statut *Clôturé* ou *Annulé*, réessayez pour confirmer l’expédition.
 
 ### <a name="all-shipments-page"></a>Page Toutes les expéditions
 
 1. Allez dans **Gestion des entrepôts \> Expéditions \> Toutes les expéditions**.
-1. Sélectionnez l'expédition qui ne peut pas être confirmée.
+1. Sélectionnez l’expédition qui ne peut pas être confirmée.
 1. Dans le volet Actions, sous l’onglet **Expéditions**, dans le groupe **Travail**, cliquez sur **Détails du travail**.
-1. Inspectez le statut de chaque ID de travail. Faites le suivi de chaque ID de travail qui n'a pas le statut *Clôturé* ou *Annulé*.
-1. Lorsque chaque ID de travail a un statut *Clôturé* ou *Annulé*, réessayez pour confirmer l'expédition.
+1. Inspectez le statut de chaque ID de travail. Faites le suivi de chaque ID de travail qui n’a pas le statut *Clôturé* ou *Annulé*.
+1. Lorsque chaque ID de travail a un statut *Clôturé* ou *Annulé*, réessayez pour confirmer l’expédition.
 
 ### <a name="all-work-page"></a>Page Tout le travail
 
 1. Accédez à **Gestion des entrepôts \> Travail\> Tout le travail**.
-1. Sélectionnez le travail correspondant au numéro de commande pour lequel l'expédition ne peut pas être confirmée.
+1. Sélectionnez le travail correspondant au numéro de commande pour lequel l’expédition ne peut pas être confirmée.
 1. Dans le volet Actions, sous l’onglet **Expédition**, dans le groupe **Expédition**, sélectionnez **Confirmer l’expédition**.
-1. Inspectez le statut de chaque ID de travail. Faites le suivi de chaque ID de travail qui n'a pas le statut *Clôturé* ou *Annulé*.
-1. Lorsque chaque ID de travail a un statut *Clôturé* ou *Annulé*, réessayez pour confirmer l'expédition.
+1. Inspectez le statut de chaque ID de travail. Faites le suivi de chaque ID de travail qui n’a pas le statut *Clôturé* ou *Annulé*.
+1. Lorsque chaque ID de travail a un statut *Clôturé* ou *Annulé*, réessayez pour confirmer l’expédition.

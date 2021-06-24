@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807846"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188486"
 ---
 # <a name="vendor-portal-user-security"></a>Sécurité utilisateur du portail fournisseur
 
@@ -40,8 +40,7 @@ Avant de créer un compte utilisateur pour une personne qui utilise le portail F
 
 Si la même personne a besoin d’accéder au portail Fournisseur pour plusieurs comptes fournisseur (pour différentes entités juridiques, peut-être), chacun des comptes d’utilisateurs de cette personne doit être associé à la même personne à contacter enregistrée. Le rôle **Fournisseur (externe)** inclut toutes les fonctionnalités de base requises afin d’utiliser la fonctionnalité disponible dans le portail Fournisseur. Ce paramétrage permet de garantir que l’interface utilisateur vue par l’utilisateur externe est concentrée uniquement sur le scénario prévu.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Collaborer avec des fournisseurs à l’aide du portail Fournisseur](collaborate-vendors-vendor-portal.md)
 

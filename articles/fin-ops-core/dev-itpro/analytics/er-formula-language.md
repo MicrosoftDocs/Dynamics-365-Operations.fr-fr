@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753262"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223984"
 ---
 # <a name="electronic-reporting-formula-language"></a>Langage de formule dans la gestion des états électroniques
 
@@ -38,13 +38,13 @@ Les expressions de génération d’états électroniques peuvent contenir le to
 - [Chemins d’accès](#Paths)
 - [Fonctions](#Functions)
 
-## <a name=""></a><a name="Constants">Constantes</a>
+## <a name="constants"></a><a name="Constants"></a>Constantes
 
 Lorsque vous concevez des expressions, vous pouvez utiliser les constantes de texte et numériques, c’est-à-dire les valeurs qui ne sont pas calculées. Par exemple, l’expression `VALUE ("100") + 20` utilise la constante **20** et la constante de chaîne **« 100 »** et renvoie la valeur numérique **120**.
 
 Le concepteur de formule de génération d’états électroniques prend en charge les séquences d’échappement. Par conséquent, vous pouvez spécifier une chaîne d’expression qui doit être traitée différemment. Par exemple, l’expression `"Leo Tolstoy ""War and Peace"" Volume 1"` renvoie la chaîne de texte **Léon Tolstoï « Guerre et paix » Tome 1**.
 
-## <a name=""></a><a name="Operators">Opérateurs</a>
+## <a name="operators"></a><a name="Operators"></a>Opérateurs
 
 Le tableau suivant indique les opérateurs arithmétiques que vous pouvez utiliser pour effectuer des opérations mathématiques de base, telles que l’addition, la soustraction, la multiplication et la division.
 
@@ -88,9 +88,9 @@ L’ordre dans lequel les parties d’une expression de composant sont évaluée
 
 Si une expression comprend plusieurs opérateurs consécutifs qui ont la même priorité, ces opérations sont évaluées de gauche à droite. Par exemple, l’expression `1 + 6 / 2 \* 3 > 5` renvoie la valeur **true**. Il est recommandé d’utiliser des parenthèses pour indiquer explicitement l’ordre des opérations dans les expressions, afin de faciliter la lecture et la mise à jour des expressions.
 
-## <a name=""></a><a name="References">Références</a>
+## <a name="references"></a><a name="References"></a>Références
 
-Toutes les sources de données du composant de génération d’états électroniques actuel qui sont disponibles lors de la création d’une expression peuvent servir de références nommées. Le composant ER actuel peut être un mappage de modèle ou un format. Par exemple, le mappage de modèles de génération d’états électroniques actuel contient la source de données **ReportingDate** qui renvoie une valeur du type de données *DateTime*. Pour formater correctement cette valeur dans le document de génération, vous pouvez référencer la source de données dans l’expression comme suit : `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Toutes les sources de données du composant de génération d’états électroniques actuel qui sont disponibles lors de la création d’une expression peuvent servir de références nommées. Le composant ER actuel peut être un mappage de modèle ou un format. Par exemple, le mappage de modèle ER actuel contient la source de données **ReportingDate**, qui renvoie une valeur du type de données [*dateheure*](er-formula-supported-data-types-primitive.md#datetime). Pour formater correctement cette valeur dans le document de génération, vous pouvez référencer la source de données dans l’expression comme suit : `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Tous les caractères du nom d’une source de données de référencement qui ne représentent pas une lettre de l’alphabet doivent être précédés d’un guillemet simple (’). Si le nom d’une source de données de référencement contient au moins un symbole qui ne représente pas une lettre de l’alphabet, le nom doit être placé entre guillemets simples (’). Par exemple, ces symboles non alphabétiques peuvent être les signes de ponctuation ou tous les autres symboles écrits. Voici quelques exemples :
 
@@ -99,7 +99,7 @@ Tous les caractères du nom d’une source de données de référencement qui ne
 
 Si les méthodes des sources de données de l’application ont des paramètres, la syntaxe suivante est utilisée pour appeler ces méthodes :
 
-- Si la méthode **isLanguageRTL** de la source de données **Système** a un paramètre **EN-US** du type de données *Chaîne*, cette méthode doit être mentionnée dans une expression ER comme suit : `System.isLanguageRTL("EN-US")`.
+- Si la méthode **isLanguageRTL** de la source de données **System** comporte un paramètre **EN-US** du type de données [*Chaîne*](er-formula-supported-data-types-primitive.md#string), cette méthode doit être mentionnée dans une expression ER comme `System.isLanguageRTL("EN-US")`.
 - Les guillemets ne sont pas obligatoires lorsqu’un nom de méthode ne contient que des symboles alphanumériques. Toutefois, ils sont obligatoires pour une méthode de table si le nom inclut des parenthèses.
 
 Lorsque la source de données **System** est ajoutée à une mise en correspondance ER qui fait référence à la classe d’application **Global** de l’application, l’expression `System.isLanguageRTL("EN-US ")` retourne la valeur *booléenne*, **FALSE**. L’expression modifiée `System.isLanguageRTL("AR")` renvoie la valeur *Booléenne* **TRUE**.
@@ -107,9 +107,9 @@ Lorsque la source de données **System** est ajoutée à une mise en corresponda
 Vous pouvez limiter la façon dont les valeurs sont transférées aux paramètres de ce type de méthode :
 
 - Seules les constantes peuvent être transférées aux méthodes de ce type. Les valeurs des constantes sont définies au moment de la conception.
-- Seuls les types de données (de base) primitifs sont pris en charge pour les paramètres de ce type. Les types de données primitifs inclut *Entier*, *Réel*, *Booléen* et *Chaîne*.
+- Seuls les types de données [primitifs](er-formula-supported-data-types-primitive.md) (de base) sont pris en charge pour les paramètres de ce type. Les types de données primitifs inclut *Entier*, *Réel*, *Booléen* et *Chaîne*.
 
-## <a name=""></a><a name="Paths">Chemins d’accès</a>
+## <a name="paths"></a><a name="Paths"></a>Chemins d’accès
 
 Lorsqu’une expression fait référence à une source de données structurée, vous pouvez utiliser la définition de chemin d’accès pour sélectionner un élément primitif spécifique de cette source de données. Un point (.) est utilisé pour séparer les éléments distincts d’une source de données structurée. Par exemple, le mappage de modèles de génération d’états électroniques actuel contient la source de données **InvoiceTransactions** qui renvoie une liste des enregistrements. La structure d’enregistrement **InvoiceTransactions** contient les champs **AmountDebit** et **AmountCredit** qui renvoient tous les deux des valeurs numériques. Par conséquent, vous pouvez concevoir l’expression suivante pour calculer le montant facturé : `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. La construction `InvoiceTransactions.AmountDebit` dans cette expression est le chemin d’accès utilisé pour accéder au champ **AmountDebit** de la source de données **InvoiceTransactions** du type *Liste des enregistrements*.
 
@@ -129,7 +129,7 @@ La partie restante du chemin absolu est également indiquée dans l’[Éditeur 
 
 Pour plus d’informations, consultez [Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">Fonctions</a>
+## <a name="functions"></a><a name="Functions"></a>Fonctions
 
 Les fonctions intégrées ER peuvent être utilisées dans les expressions ER. Toutes les sources de données du contexte d’expression (c.-à-d. le mappage de modèles ou format de génération d’états électroniques actuel) peuvent être utilisées en tant que paramètres des fonctions d’appel en accord avec la liste des arguments des fonctions d’appel. Les constantes peuvent également être utilisées comme paramètres des fonctions d’appel. Par exemple, le mappage de modèles de génération d’états électroniques actuel contient la source de données **InvoiceTransactions** qui renvoie une liste des enregistrements. La structure d’enregistrement **InvoiceTransactions** contient les champs **AmountDebit** et **AmountCredit** qui renvoient tous les deux des valeurs numériques. Par conséquent, pour calculer le montant facturé, vous pouvez concevoir l’expression suivante qui utilise la fonction d’arrondi de génération d’états électroniques intégrée : `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Étendre la liste des fonctions de gestion des états électroniques](general-electronic-reporting-formulas-list-extension.md)
 
+[Types de données primitifs pris en charge](er-formula-supported-data-types-primitive.md)
+
+[Types de données composites pris en charge](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

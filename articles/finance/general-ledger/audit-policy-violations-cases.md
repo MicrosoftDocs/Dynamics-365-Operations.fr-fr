@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4c7b9426cc98f62cd7a62b841c0f90c7c57889d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82d94be7a0ce915b0a2b86fb3894435afdd6f37a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821959"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187842"
 ---
 # <a name="audit-policy-violations-and-cases"></a>Violations et incidents de stratégie d’audit
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821959"
 
 Cet article décrit la manière dont les incident d’audit sont générés à la suite de violations des règles de stratégie d’audit. Il inclut également des informations sur les différentes manières dont les stratégies d’audit utilisent la plage de dates de sélection de document.
 
-<a name="how-audit-cases-are-generated"></a>Génération des incidents d’audit
------------------------------
+## <a name="how-audit-cases-are-generated"></a>Génération des incidents d’audit
 
 Les stratégies d’audit permettent d’identifier les états de dépenses, commandes fournisseur et factures fournisseur non conformes aux règles métier définies et configurées en tant que règles de stratégie d’audit. 
 

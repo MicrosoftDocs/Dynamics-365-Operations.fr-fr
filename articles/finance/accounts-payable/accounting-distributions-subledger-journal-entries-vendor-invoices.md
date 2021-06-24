@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820982"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189091"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Répartitions comptables et écritures de journal pour les factures fournisseur
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820982"
 
 Les répartitions comptables permettent de définir la façon dont un montant sera pris en compte, par exemple, la manière dont la dépense, l’immobilisation, la taxe ou les frais seront reportés sur la facture fournisseur. Chaque montant qui doit être pris en compte lorsque la facture fournisseur est journalisée aura une ou plusieurs répartitions comptables. 
 
-<a name="accounting-distributions"></a>Répartitions comptables 
--------------------------
+## <a name="accounting-distributions"></a>Répartitions comptables 
 
 Vous pouvez utiliser les boutons suivants de la page Facture fournisseur pour afficher et éventuellement modifier les répartitions comptables pour chaque montant de la facture fournisseur.
 -   **Répartir des montants** – permet d’afficher et de modifier les répartitions comptables pour une ligne individuelle et toutes les lignes enfants, telles que les taxes ou des frais. Vous pouvez également afficher et modifier les répartitions comptables de la ligne enfant directement dans la page Transactions de taxe ou la page Transactions de frais.
@@ -227,8 +226,7 @@ Lorsque vous entrez une facture fournisseur, chaque montant est réparti comme s
 </table>
 
 
-<a name="distributing-taxes"></a>Répartition des taxes
-------------------
+## <a name="distributing-taxes"></a>Répartition des taxes
 
 Il est impossible de créer des répartitions comptables pour les taxes tant que ces dernières n’ont pas été calculées. Pour calculer les taxes, vous devez effectuer l’une des tâches suivantes dans la page Facture fournisseur :
 -   Afficher le total de la facture.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027792"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189176"
 ---
 # <a name="three-way-matching-policies"></a>Stratégies de rapprochement à trois facteurs
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027792"
 
 Cette rubrique fournit des exemples de rapprochement à trois facteurs.
 
-<a name="example-three-way-matching-for-items"></a>Exemple : Rapprochement à trois facteurs pour les articles
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Exemple : Rapprochement à trois facteurs pour les articles
 
 **Synthèse :** Ken est contrôleur au siège de l’entité juridique Fabrikam. Il décide que toutes les factures fournisseur basées sur des commandes fournisseur doivent être mises en correspondance avec les lignes de commande fournisseur (rapprochement à deux facteurs). Pour les achats des articles qui seront utilisés comme immobilisations, les factures doivent être mises en correspondance avec les lignes de commande fournisseur et les lignes d’accusé de réception de marchandises (rapprochement à trois facteurs).
 
@@ -37,9 +36,9 @@ Fabrikam est constitué de plusieurs entités juridiques et emploie des milliers
 
 Les stratégies de rapprochement de factures de cet exemple aident les personnes ayant les rôles suivants à atteindre ces objectifs :
 
--   Ken est contrôleur pour l’entreprise Fabrikam. Ken peut aider les personnes de l'organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
+-   Ken est contrôleur pour l’entreprise Fabrikam. Ken peut aider les personnes de l’organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
 -   Phyllis et April sont les chefs comptables du département des Achats pour la division États-Unis de Fabrikam. Elles peuvent appliquer la stratégie d’entreprise et s’assurer que les factures ne sont payées qu’après avoir été mises en correspondance avec la commande fournisseur et les accusés de réception des biens et services, le cas échéant.
--   Tony est le responsable de production de la division États-Unis de Fabrikam. Tony et d'autres employés du département Production peuvent s’assurer que les articles reçus sont conformes à la commande passée auprès des fournisseurs et sont pris en compte afin que le personnel ait ce dont il a besoin pour travailler.
+-   Tony est le responsable de production de la division États-Unis de Fabrikam. Tony et d’autres employés du département Production peuvent s’assurer que les articles reçus sont conformes à la commande passée auprès des fournisseurs et sont pris en compte afin que le personnel ait ce dont il a besoin pour travailler.
 
 ### <a name="prerequisites"></a>Conditions préalables
 
@@ -87,7 +86,7 @@ Synthèse : Ken est contrôleur au siège de l’entité juridique Fabrikam. Ken
 Le volume et les montants sont faibles et il y a eu des problèmes de livraison avec certains fournisseurs en Malaisie. Pour ces motifs, Cassie définit le niveau de contrôle pour certaines combinaisons article/fournisseur en Malaisie sur un rapprochement à trois facteurs. 
 
 Les stratégies de rapprochement de factures de cet exemple aident les personnes ayant les rôles suivants à atteindre ces objectifs :
--   Ken est contrôleur pour l’entreprise Fabrikam. Ken peut aider les personnes de l'organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
+-   Ken est contrôleur pour l’entreprise Fabrikam. Ken peut aider les personnes de l’organisation à identifier et corriger les problèmes liés à la commande, la réception et le paiement des articles (biens et services) et concernant les fournisseurs.
 -   Cassie est comptable dans la division Malaisie de Fabrikam. Elle peut appliquer la stratégie d’entreprise et s’assurer que les factures ne sont payées qu’après avoir été mises en correspondance avec les lignes de commande fournisseur et les accusés de réception des biens et services. Elle peut également augmenter le niveau de contrôle en choisissant un rapprochement à trois facteurs pour des articles spécifiques afin de contrôler les coûts d’exploitation.
 
 ### <a name="prerequisites"></a>Conditions préalables

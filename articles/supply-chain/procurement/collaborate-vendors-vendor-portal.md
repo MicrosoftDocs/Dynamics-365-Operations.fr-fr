@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910063"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189666"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Collaborer avec des fournisseurs à l’aide du portail Fournisseur
 
@@ -92,8 +92,7 @@ Le tableau suivant présente un exemple des modifications de statut et de versio
 |                           Vous envoyez la nouvelle version de la CF vers le portail fournisseur.                            |                                                                                                                                                                    La nouvelle version est enregistrée dans le portail Fournisseur et le statut devient <strong>En cours de révision externe</strong>.                                                                                                                                                                     |
 |                                Le fournisseur approuve la nouvelle version de la CF.                                 |                                                                                                                                                     Le statut devient <strong>Confirmé</strong> automatiquement ou lorsque vous recevez la réponse du fournisseur, puis vous confirmez la CF.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Sécurité de l’utilisateur du portail fournisseur](configure-security-vendor-portal-users.md)
 

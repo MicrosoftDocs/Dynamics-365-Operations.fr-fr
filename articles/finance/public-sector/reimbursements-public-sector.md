@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d825d944eaed98e916566954d96333f3c90a1c93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b78106097fe803bccac6bccab6ef9ec35a66dbd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816838"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188335"
 ---
 # <a name="reimbursements-in-the-public-sector"></a>Remboursements dans le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5816838"
 
 Cette rubrique répond aux questions courantes associées aux remboursements dans le secteur public. 
 
-<a name="what-happens-if-i-create-a-separate-reimbursement-transaction-for-each-billing-classification"></a>Que se passe-t-il si je crée une transaction de remboursement distincte pour chaque classification de facturation ?
-----------------------------------------------------------------------------------------------
+## <a name="what-happens-if-i-create-a-separate-reimbursement-transaction-for-each-billing-classification"></a>Que se passe-t-il si je crée une transaction de remboursement distincte pour chaque classification de facturation ?
 
 Lorsque vous créez une transaction de remboursement distincte pour chaque classification de facturation, les transactions d’avoir qui sont réparties vers le même compte général et dotées de la même classification de facturation sont combinées dans une transaction de remboursement unique. Les transactions d’avoir qui sont réparties vers le même compte général et qui sont dotées de classifications de facturation différentes génèrent des transactions de remboursement distinctes. Supposons, par exemple, que vous traitiez les remboursements pour trois avoirs. Les trois avoirs sont d’un montant de 1 000 €.
 

@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1ad407f1908da4da4981cd23700a848d7470b02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af5e6eaabaada0a93f63fcc369d67b023f939648
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809905"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189765"
 ---
 # <a name="advanced-ledger-entries-in-the-public-sector"></a>Écritures comptables avancées dans le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5809905"
 
 Les organisations du secteur public peuvent utiliser les écritures comptables avancées pour créer, ajuster et contrepasser des écritures comptables. Par exemple, vous pouvez utiliser des écritures comptables avancées pour reclassifier des dépenses si des factures sont validées par erreur dans un compte ou projet inapproprié.
 
-<a name="how-do-i-set-up-advanced-ledger-entries"></a>Comment paramétrer des écritures comptables avancées ?
-----------------------------------------
+## <a name="how-do-i-set-up-advanced-ledger-entries"></a>Comment paramétrer des écritures comptables avancées ?
 
 Vérifiez que la clé **Écriture comptable avancée** **Configuration des licences** est sélectionnée sur la page **Configuration des licences**. Les écritures comptables avancées exigent des définitions de validation de comptabilité. Ces définitions de validation peuvent être paramétrées pour générer plusieurs écritures comptables équilibrées basées sur le compte général spécifié sur la page **Écritures comptables avancées**. Pour plus d’informations sur les définitions de validation pour les écritures comptables avancées, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 

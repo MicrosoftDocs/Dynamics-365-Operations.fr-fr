@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812833"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190158"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclature de numéros et de noms de variante de produit
 
@@ -188,8 +188,7 @@ Selon la nomenclature, le système peut tenter d’affecter un numéro de varian
 
 Au cours d’une étape du processus de configuration, le système suggère une valeur de configuration selon la nomenclature. À cette étape, vous pouvez modifier manuellement la valeur de la configuration. Lorsque vous enregistrez la configuration, le système vérifie que la valeur de configuration est unique. Si la valeur entrée n’est pas unique, vous recevez un message d’erreur. Pour enregistrer la configuration, vous devez entrer une valeur de configuration unique.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Créer une nomenclature de numéro de produit pour les variantes de produit prédéfinies](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058918"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189599"
 ---
 # <a name="compensation-plans"></a>Régimes de rémunération
 
@@ -121,8 +121,7 @@ Le tableau suivant répertorie les composants du processus de rémunération pou
 ## <a name="process-events"></a>Événements de processus
 Un événement des traitements de données calcule les informations de rémunération d’une période spécifique pour tous les employés inscrits à un ou plusieurs régimes de rémunération fixe ou variable. Vous pouvez exécuter un événement des traitements de données à plusieurs reprises pour tester ou mettre à jour les résultats de la rémunération.
 
-<a name="compensation-events"></a>Événements de rémunération
--------------------
+## <a name="compensation-events"></a>Événements de rémunération
 
 Chaque fois qu’un événement de processus est exécuté, un événement de rémunération est créé.  Les événements de rémunération contiennent les résultats du processus de rémunération pour chaque employé inclus dans cet événement de processus.  Lorsque les calculs sont corrects, vous pouvez charger l’événement de rémunération pour mettre à jour les enregistrements de rémunération pour les employés affectés par l’événement de processus.
 

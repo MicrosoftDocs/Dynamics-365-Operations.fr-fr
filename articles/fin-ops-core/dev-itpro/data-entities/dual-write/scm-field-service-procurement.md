@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941107"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219785"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Intégrer l’approvisionnement entre Supply Chain Management et Field Service
 
@@ -196,23 +196,10 @@ Les modèles suivants sont disponibles pour l’intégration des documents liés
 
 | Gestion de la chaîne d’approvisionnement | Field Service | Description |
 |---|---|---|
-| En-tête de commande fournisseur V2 | msdyn\_Purchaseorders | Cette table contient les colonnes qui représentent l’en-tête de commande fournisseur. |
-| Entité de ligne de commande fournisseur | msdyn\_PurchaseOrderProducts | Cette table contient les lignes qui représentent les lignes d’une commande fournisseur. Le numéro de produit est utilisé pour la synchronisation. Cela identifie le produit comme une unité de gestion de stock (SKU), y compris les dimensions du produit. Pour plus d’informations sur l’intégration de produit avec Dataverse, voir [Expérience produit uniformisée](product-mapping.md). |
-| En-tête d’accusé de réception des marchandises | msdyn\_purchaseorderreceipts | Cette table contient les en-têtes d’accusé de réception de marchandises créés lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
-| Lignes d’accusé de réception des marchandises | msdyn\_purchaseorderreceiptproducts | Cette table contient les lignes d’accusé de réception de marchandises créées lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
-| Entité de suppression temporaire de ligne de commande fournisseur | msdyn\_purchaseorderproducts | Ce tableau contient des informations sur les lignes de commande fournisseur qui sont supprimées de manière temporaire. Une ligne de commande fournisseur dans Supply Chain Management ne peut être supprimée de manière temporaire que lorsque la commande fournisseur a été confirmée ou approuvée, si la gestion des modifications est activée. La ligne existe dans la base de données de Supply Chain Management et est marquée comme **IsDeleted**. Comme Dataverse n’a pas de concept de suppression temporaire, il est important que ces informations soient synchronisées avec Dataverse. De cette manière, les lignes supprimées de manière temporaire dans Supply Chain Management peuvent être automatiquement supprimées de Dataverse. Dans ce cas, la logique de suppression d’une ligne dans Dataverse se trouve dans Supply Chain Management Extended. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [En-tête de commande fournisseur V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Cette table contient les colonnes qui représentent l’en-tête de commande fournisseur. |
+| [Entité de ligne de commande fournisseur](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Cette table contient les lignes qui représentent les lignes d’une commande fournisseur. Le numéro de produit est utilisé pour la synchronisation. Cela identifie le produit comme une unité de gestion de stock (SKU), y compris les dimensions du produit. Pour plus d’informations sur l’intégration de produit avec Dataverse, voir [Expérience produit uniformisée](product-mapping.md). |
+| [En-tête d’accusé de réception des marchandises](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Cette table contient les en-têtes d’accusé de réception de marchandises créés lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
+| [Lignes d’accusé de réception des marchandises](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Cette table contient les lignes d’accusé de réception de marchandises créées lorsqu’un accusé de réception de marchandises est enregistré dans Supply Chain Management. |
+| [Entité de suppression temporaire de ligne de commande fournisseur](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Ce tableau contient des informations sur les lignes de commande fournisseur qui sont supprimées de manière temporaire. Une ligne de commande fournisseur dans Supply Chain Management ne peut être supprimée de manière temporaire que lorsque la commande fournisseur a été confirmée ou approuvée, si la gestion des modifications est activée. La ligne existe dans la base de données de Supply Chain Management et est marquée comme **IsDeleted**. Comme Dataverse n’a pas de concept de suppression temporaire, il est important que ces informations soient synchronisées avec Dataverse. De cette manière, les lignes supprimées de manière temporaire dans Supply Chain Management peuvent être automatiquement supprimées de Dataverse. Dans ce cas, la logique de suppression d’une ligne dans Dataverse se trouve dans Supply Chain Management Extended. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744161"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188073"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Créer une documentation ou une formation avec l’enregistreur de tâches
 
@@ -31,8 +31,7 @@ Cette rubrique explique ce que sont l’enregistreur de tâches et les guides de
 > [!IMPORTANT]
 > Vous pouvez enregistrer vos propres guides de tâche pour Dynamics 365 Human Resources, mais vous ne pouvez pas les enregistrer dans une bibliothèque Concepteur de processus d’entreprise (BPM) ou les ouvrir à partir du volet Aide pour le moment. Vous pouvez les enregistrer localement ou dans un emplacement réseau, puis les ouvrir et les relire à l’aide de l’enregistreur de tâches. 
 
-<a name="learn-about-task-recorder"></a>Découverte de l’Enregistreur de tâche
--------------------------
+## <a name="learn-about-task-recorder"></a>Découverte de l’Enregistreur de tâche
 
 L’enregistreur de tâches est un outil que vous pouvez utiliser pour enregistrer les actions que vous effectuez dans l’interface utilisateur du produit. Lorsque vous utilisez l’enregistreur de tâches, tous les événements que vous effectuez dans l’IU qui sont exécutés par rapport au serveur (notamment l’ajout de valeurs, la modification de paramètres, la suppression de données) sont capturés. Les étapes que vous enregistrez sont collectivement appelées un *enregistrement de tâche*. Les enregistrements de tâche peuvent être utilisés de plusieurs manières :
 
@@ -111,8 +110,7 @@ Vous pouvez télécharger et modifier les enregistrements de tâche de Microsoft
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Système d’aide](../../fin-ops/get-started/help-overview.md)
 

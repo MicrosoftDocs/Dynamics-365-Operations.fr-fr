@@ -2,7 +2,7 @@
 title: Utiliser des données externes dans les prévisions de flux de trésorerie (version préliminaire)
 description: Cette rubrique décrit les étapes de configuration que vous devez effectuer pour que des données externes puissent être saisies ou importées dans les prévisions de flux de trésorerie.
 author: rcarlson
-ms.date: 05/01/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 66bdb8bd638859bb4fc5565e3f12a8f671addcff
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897886"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186688"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Utiliser des données externes dans les prévisions de flux de trésorerie (version préliminaire)
 
@@ -39,7 +39,7 @@ Pour saisir des données externes pour les prévisions de flux de trésorerie, v
 
 - **ID entrée**
 - **Description** (facultative)
-- **Nom de la source externe** – Sélectionnez l’une des valeurs de la liste que vous avez définie lors de la configuration de Finance Insights.
+- **Nom de la source externe** – Sélectionnez l’une des valeurs de la liste que vous avez définie lors de la configuration de Informations financières.
 - **Entité juridique**
 - **Date**
 - **Montant dans la devise de transaction**
@@ -57,9 +57,5 @@ En outre, si vous devez déplacer des données de configuration d’un environne
 
 - Paramétrage de la source externe des prévisions de flux de trésorerie
 - Paramétrage de l’entité juridique de la source externe des prévisions de flux de trésorerie
-
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

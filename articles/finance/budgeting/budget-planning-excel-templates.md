@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822177"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190283"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modèles de planification budgétaire pour Excel
 
@@ -66,8 +66,7 @@ Pointez le curseur sur l’emplacement souhaité dans le fichier Excel. Cliquez 
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Sélectionner Ajouter une valeur](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Ajouter une colonne calculée à la table du modèle de document de plan budgétaire
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Ajouter une colonne calculée à la table du modèle de document de plan budgétaire
 
 Ensuite, les colonnes calculées seront ajoutées au modèle de document de plan budgétaire généré. Une colonne **Demande totale** qui récapitule les colonnes Demande T1 : Demande T4, et une colonne **Ajustement** qui recalcule la colonne **Demande totale** selon un facteur prédéfini.
 

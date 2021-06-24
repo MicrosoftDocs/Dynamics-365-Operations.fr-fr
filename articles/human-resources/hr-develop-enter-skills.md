@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b24d37292a2e9749fb2fde06b9f03fcd13db0bbe
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
+ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076592"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193975"
 ---
 # <a name="enter-skills"></a>Saisir les compétences
 
@@ -77,7 +77,7 @@ Pour saisir des compétences sans nécessiter d’approbation, vous devez créer
 
 15. Sélectionnez **Fermer**, sélectionnez **Flux de travail** dans la barre de navigation du canevas, puis sélectionnez **Enregistrer et fermer**.
 
-Pour plus d’informations sur la création de flux de travail, consultez [Vue d’ensemble du système de flux de travail](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system?toc=/dynamics365/human-resources/toc.json).
+Pour plus d’informations sur la création de flux de travail, consultez [Vue d’ensemble du système de flux de travail](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json).
 
 ## <a name="enter-skills-for-a-worker"></a>Saisir les compétences d’un collaborateur
 

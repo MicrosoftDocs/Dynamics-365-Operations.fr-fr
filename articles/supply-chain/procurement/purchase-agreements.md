@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825444"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188268"
 ---
 # <a name="purchase-agreements"></a>Contrats d’achat
 
@@ -102,8 +102,7 @@ Si vous créez une commande fournisseur intersociétés qui utilise le contrat d
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensions financières sur les contrats d’achat
 Vous pouvez copier les dimensions financières vers des en-têtes de document ou des lignes individuelles d’un contrat d’achat. Si vous modifiez les dimensions dans l’en-tête ou la ligne de l’accord, la modification n’affecte aucune commande lancée, mais elle sera reflétée sur toutes les nouvelles commandes.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Créer un contrat d’achat](tasks/create-purchase-agreement.md)
 

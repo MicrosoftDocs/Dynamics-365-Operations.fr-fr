@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835482"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189491"
 ---
 # <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835482"
 
 Les profils de validation fournisseur contrôlent la validation des transactions fournisseur pour la comptabilité.
 
-<a name="vendor-posting-profiles"></a>Profils de validation fournisseur
------------------------
+## <a name="vendor-posting-profiles"></a>Profils de validation fournisseur
 
 Les profils de validation fournisseur permettent d’affecter des comptes généraux et des paramètres de document à tous les fournisseurs, à un groupe de fournisseurs ou à un fournisseur unique. Ces paramètres sont utilisés lorsque vous créez des commandes fournisseur, des factures fournisseur et des paiements en espèces. Pour certaines transactions, vous pouvez sélectionner un profil de validation différent qui prime sur les profils de validation paramétrés pour les transactions dans cette page. Le profil de validation par défaut est défini dans l’organisateur **Comptabilité et Taxe** dans la page des **Paramètres de la Comptabilité fournisseur**. Le profil de validation par défaut est alors automatiquement inclus dans l’en-tête des nouveaux documents dans lesquels vous pouvez le modifier en un profil de validation différent, si nécessaire.
 

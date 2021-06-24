@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960047"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187938"
 ---
 # <a name="budgeting-overview"></a>Vue d’ensemble de budgétisation
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960047"
 
 Presque toutes les sociétés qui utilisent la fonctionnalité Finances dans Microsoft Dynamics 365 Finance pourront créer des états budgétés et réels. Cet article décrit la configuration minimale requise pour créer des budgets dans Finance and Operations ou les charger dans un programme tiers.
 
-<a name="overview"></a>Vue d’ensemble
---------
+## <a name="overview"></a>Vue d’ensemble
 
 Le budget approuvé pour une entité juridique est tenu à jour dans un document appelé une *écriture de registre budgétaire*. Les lignes d’un document d’écriture de registre budgétaire sont appelées écritures de *compte budgétaire*, et contiennent des informations relatives aux dimensions financières, des dates et les montants du budget approuvé. Le document d’écriture de registre budgétaire est intégré aux états financiers de base et aux pages de recherche où les montants réels comptables sont comparés aux montants du budget. 
 

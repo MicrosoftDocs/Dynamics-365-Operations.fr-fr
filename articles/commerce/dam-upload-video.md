@@ -2,7 +2,7 @@
 title: Télécharger des vidéos
 description: Cette rubrique décrit comment charger des vidéos dans le générateur de site Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799203"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224536"
 ---
 # <a name="upload-videos"></a>Télécharger des vidéos
 
@@ -35,7 +35,7 @@ La bibliothèque multimédia du générateur de site Commerce vous permet de té
 Lors du téléchargement d’une vidéo, les informations suivantes peuvent être spécifiées.
 
 - **Titre, description, mots clés** : Métadonnées de la vidéo.
-- **Générer automatiquement des sous-titres codés** : spécifie si les sous-titres doivent être générés automatiquement pour la vidéo.
+- **Générer automatiquement des sous-titres codés** : spécifie si les sous-titres doivent être générés automatiquement pour la vidéo (seule la langue anglaise est prise en charge). 
 - **Sous-titrage** : spécifie les sous-titres codés à utiliser.
 - **Audio régulier** : spécifie la piste audio standard à utiliser.
 - **Vignette** : spécifie la vignette de la vidéo. Si non spécifié, elle sera générée automatiquement.

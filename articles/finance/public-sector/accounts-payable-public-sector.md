@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bca6a02e07a88bf2910f37c82602e9d105c6f9f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3869ec88951732a7f12a6c4ac37371de54bb20ec
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809914"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189621"
 ---
 # <a name="accounts-payable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité fournisseur (Secteur public)
 
@@ -29,8 +29,7 @@ ms.locfileid: "5809914"
 
 Cet article présente la fonctionnalité de Comptabilité fournisseur dans le secteur public qui est intégrée à Dynamics 365 Finance. Cette fonctionnalité inclut des codes commande fournisseur, des définitions de validation, la facturation à un fournisseur occasionnel, les formulaires fiscaux 1099, les escomptes de règlement, les types de certification de fournisseur, la synthèse des activités comptables du projet, les paiements électroniques, les page de garde et de signature des états, les montants des lignes de commande fournisseur, et les pages du journal des factures fournisseur. 
 
-<a name="what-are-the-prerequisites-for-setting-up-accounts-payable-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la comptabilité fournisseur dans le secteur public ?
---------------------------------------------------------------------------------
+## <a name="what-are-the-prerequisites-for-setting-up-accounts-payable-in-the-public-sector"></a>Quelles sont les conditions préalables au paramétrage de la comptabilité fournisseur dans le secteur public ?
 
 Avant de commencer à ajuster les paramètres et à entrer vos données, vous devez effectuer les tâches suivantes :
 

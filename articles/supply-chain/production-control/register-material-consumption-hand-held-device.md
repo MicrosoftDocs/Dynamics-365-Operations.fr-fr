@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814534"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189640"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Enregistrement de la consommation de matières à l’aide d’un appareil mobile
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814534"
 
 Cette rubrique décrit un workflow qui active l’enregistrement de la consommation de matières premières dans la production à l’aide d’un appareil portable.
 
-<a name="introduction"></a>Introduction
-------------
+## <a name="introduction"></a>Introduction
 
 Ce workflow est utile s’il y a une obligation stricte de traçabilité des matières. Dans ces cas, pour assurer la traçabilité des matières, le temps et la quantité exacts doivent être déclarés pour la consommation. Ce processus peut être considéré comme opposé aux opérations de préconsommation ou postconsommation, où il existe un décalage entre le moment de l’enregistrement et le moment de la consommation réelle. Cela explique pourquoi une stratégie de consommation automatique ne peut pas être utilisée pour certaines matières soumises à des obligations de traçabilité. Examinons un scénario simple qui explique comment paramétrer un workflow pour activer l’enregistrement de la consommation de matières premières dans la production à l’aide d’un appareil portable. [![paramétrer un workflow pour activer l’enregistrement de la consommation de matières premières à l’aide d’un appareil portable](./media/scenario3.png)](./media/scenario3.png)
 

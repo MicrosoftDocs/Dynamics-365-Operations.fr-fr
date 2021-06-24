@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2673ecb09cd479eb10182a4345fe89d8f6b8d404
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815930"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188462"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Lettres de crédit et relances d’importation
 
@@ -28,8 +28,7 @@ ms.locfileid: "5815930"
 
 Cet article fournit des informations générales sur les lettres de crédit et des relances d’importation. Ces deux types de documents bancaires sont fréquemment utilisés pour l’achat et la vente de biens au-delà des frontières internationales.
 
-<a name="letters-of-credit"></a>Lettres de crédit
------------------
+## <a name="letters-of-credit"></a>Lettres de crédit
 
 Les lettres de crédit sont utilisées dans le cadre des transactions internationales pour garantir l’exécution des paiements. Une lettre de crédit est un accord émis par une banque, dans lequel la banque accepte de garantir le paiement au nom de l’acheteur, si les conditions de l’accord entre l’acheteur et le vendeur sont satisfaites. Une lettre de crédit est également appelée crédit documentaire.
 

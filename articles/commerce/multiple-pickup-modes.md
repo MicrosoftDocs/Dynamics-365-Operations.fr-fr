@@ -2,7 +2,7 @@
 title: Activer plusieurs modes de livraison de retrait pour les commandes des clients
 description: Cette rubrique explique les fonctionnalités de Microsoft Dynamics 365 Commerce qui vous permettent de créer des commandes client pour le retrait en magasin.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020649"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216765"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Activer plusieurs modes de livraison de retrait pour les commandes des clients
 
@@ -28,7 +28,7 @@ Dans Microsoft Dynamics 365 Commerce version 10.0.16 et ultérieure, les organi
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Activer et configurer des modes de livraison de retrait
 
-Pour utiliser cette fonctionnalité, activez la fonctionnalité **Prise en charge de plusieurs modes de livraison de retrait** dans l’espace de travail **Gestion des fonctionnalités** du siège Commerce. Une fois la fonctionnalité activée, une configuration supplémentaire est requise.
+Pour utiliser cette fonctionnalité, activez la fonctionnalité **Prise en charge de plusieurs modes de livraison de retrait** dans l’espace de travail **Gestion des fonctionnalités** de Commerce Headquarters. Une fois la fonctionnalité activée, une configuration supplémentaire est requise.
 
 Dans Commerce version 10.0.15 et versions antérieures, les organisations ne peuvent définir qu’un seul mode de livraison comme mode de livraison de retrait désigné. Cette définition se fait sur la page **Paramètres de Commerce**. Dans les versions 10.0.16 et ultérieures, lorsque vous activez la fonctionnalité **Prise en charge de plusieurs modes de livraison de retrait**, le mode de livraison qui était précédemment défini comme le mode de livraison de retrait sur la page **Paramètres de Commerce** est automatiquement copiée dans la nouvelle configuration pour les modes de livraison de retrait.
 
@@ -38,7 +38,7 @@ Après avoir activé la fonctionnalité **Prise en charge de plusieurs modes de 
 
 Les champs **Effectuer le mode de livraison** et **Mode de livraison électronique** et l’option **Afficher uniquement les options du mode transporteur pour les ordres d’expédition**, ont été déplacés vers ce raccourci.
 
-Avant de configurer des modes de livraison de retrait supplémentaires, vous devez définir les modes de livraison. Sur la page **Modes de livraison** du siège de Commerce, ajoutez les modes de livraison qui doivent être considérés comme des modes de livraison en retrait. Assurez-vous que toute la configuration est terminée. Par exemple, assurez-vous que le mode de livraison est lié aux canaux et aux articles appropriés. Lorsque vous avez terminé, exécutez la tâche **Traiter les modes de livraison** pour créer les relations entre le mode de livraison, les canaux et les articles. Une fois la tâche terminée, ouvrez la page **Calendrier de distribution** du siège de Commerce et exécutez la tâche de distribution **1120** pour garantir que les bases de données pertinentes du canal Commerce sont mises à jour avec votre nouvelle configuration de mode de livraison.
+Avant de configurer des modes de livraison de retrait supplémentaires, vous devez définir les modes de livraison. Sur la page **Modes de livraison** de Commerce Headquarters, ajoutez les modes de livraison qui doivent être considérés comme des modes de livraison en retrait. Assurez-vous que toute la configuration est terminée. Par exemple, si vous proposez le retrait en point-relais comme option de livraison pour vos acheteurs en ligne pour certains magasins, vous devez créer un nouveau mode de livraison à cet effet. Vous pouvez créer ce mode de livraison en utilisant « retrait en point-relais » comme description. Vous devrez ensuite vous assurer que le mode de livraison « retrait en point-relais » est mappé sur tous les canaux Commerce qui peuvent l’offrir, y compris les magasins en ligne qui peuvent offrir cette option et les canaux de magasin individuels qui offriront cette méthode d’exécution. Les modes de livraison doivent également être liés aux produits. Dans cet exemple, s’il y a certains produits qui ne peuvent pas être livrés à l’aide du « retrait en point-relais », vous devez vous assurer que ces articles sont exclus. Lorsque vous avez terminé d’ajouter tous les nouveaux modes de livraison, exécutez la tâche **Traiter les modes de livraison** pour créer les relations entre le mode de livraison, les canaux et les articles. Une fois la tâche terminée, ouvrez la page **Calendrier de distribution** de Commerce Headquarters et exécutez la tâche de distribution **1120** pour garantir que les bases de données pertinentes du canal Commerce sont mises à jour avec votre nouvelle configuration de mode de livraison.
 
 ![Exemple de configuration de mode de livraison en retrait à un point-relais](media/pickupmodes.png)
 
@@ -67,7 +67,7 @@ Aucune étape supplémentaire n’est requise sur les pages d’e-commerce pour 
 
 Lorsque plusieurs modes de livraison en retrait sont disponibles pour un canal, une expérience améliorée est offerte aux clients lorsqu’ils achètent des produits qui seront retirés. 
 
-- Dans les canaux d’e-commerce, les acheteurs peuvent sélectionner n’importe quel mode de livraison en retrait valide disponible. Par exemple, un détaillant définit deux modes de livraison en retrait (retrait en magasin et retrait en point-relais), tous deux configurés dans la grille **Mode de livraison en retrait**, et les deux sont valables pour le canal de traitement des commandes et le produit qu’un acheteur achète actuellement. Dans ce cas, l’acheteur peut sélectionner son mode de livraison en retrait préféré. Le mode de livraison en retrait sélectionné devient alors le mode de livraison qui est lié à la ligne de commande client lorsque la commande est créée au siège de Commerce.
+- Dans les canaux d’e-commerce, les acheteurs peuvent sélectionner n’importe quel mode de livraison en retrait valide disponible. Par exemple, un détaillant définit deux modes de livraison en retrait (retrait en magasin et retrait en point-relais), tous deux configurés dans la grille **Mode de livraison en retrait**, et les deux sont valables pour le canal de traitement des commandes et le produit qu’un acheteur achète actuellement. Dans ce cas, l’acheteur peut sélectionner son mode de livraison en retrait préféré. Le mode de livraison en retrait sélectionné devient alors le mode de livraison qui est lié à la ligne de commande client lorsque la commande est créée dans Commerce Headquarters.
 
     ![Sélection d’une option de retrait dans l’e-commerce](media/pickupecommerce.png)
 

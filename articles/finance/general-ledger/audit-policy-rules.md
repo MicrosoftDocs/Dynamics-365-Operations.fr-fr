@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821983"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187866"
 ---
 # <a name="audit-policy-rules"></a>Règles de stratégie d’audit
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821983"
 
 Les stratégies d’audit permettent d’évaluer la conformité des états de dépenses, factures fournisseur et commandes fournisseur avec les règles de stratégie que vous créez. Toutes les règles associées à une stratégie d’audit sont exécutées en mode de traitement par lots selon le programme que vous spécifiez.  Chaque règle de stratégie est une instance d’un type de règle de stratégie. Pour chaque type de règle de stratégie, une seule règle de stratégie peut être active à la fois. 
 
-<a name="queries-and-query-types"></a>Requêtes et types de requêtes
------------------------
+## <a name="queries-and-query-types"></a>Requêtes et types de requêtes
 
 Lorsque vous créez une règle de stratégie d’audit, vous commencez par sélectionner un type de règle de stratégie. Celui-ci spécifie la requête AOA (arbre d’objets d’application) à utiliser comme point de départ pour créer la règle de stratégie. Il spécifie également le type de requête à utiliser pour la règle de stratégie. La requête détermine le document source évalué par la règle de stratégie. Elle spécifie également les champs dans le document source qui identifient l’entité juridique et la date à utiliser lors de la sélection de documents pour audit. Le type de requête contrôle les champs par défaut dans la page de requête et dans la page Règle de stratégie d’audit. Le tableau suivant indique les types de requêtes disponibles pour les règles de stratégie d’audit.
 
@@ -91,8 +90,7 @@ L’ensemble des règles de stratégie pour une stratégie d’audit spécifique
 
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Violations et incidents de stratégie d’audit](audit-policy-violations-cases.md)
 [Définir des stratégies d’audit pour les documents source](tasks/define-audit-policies-source-documents.md)

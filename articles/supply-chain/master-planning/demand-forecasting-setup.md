@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816530"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189714"
 ---
 # <a name="demand-forecasting-setup"></a>Paramétrage de la prévision de la demande
 
@@ -88,8 +88,7 @@ Dans l’onglet **Clés de répartition**, vous pouvez définir **Paramètres d�
 - **Conseil sur la saisonnalité** : pour les données saisonnières, fournissez un conseil au modèle de prévisions pour améliorer la précision des prévisions. Format : le nombre entier, représentant le nombre de plages selon lequel le modèle de demande se répète. Par exemple, entrez « 6 » pour les données qui se répètent tous les 6 mois.
 - **Tester le pourcentage de taille paramétré** : pourcentage des données historiques à utiliser dans le cadre d’un test défini pour le calcul de la précision des prévisions. 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de la prévision de la demande](introduction-demand-forecasting.md)
 

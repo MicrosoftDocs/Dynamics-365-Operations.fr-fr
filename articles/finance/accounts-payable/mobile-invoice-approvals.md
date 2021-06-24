@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897694"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189200"
 ---
 # <a name="mobile-invoice-approvals"></a>Approbations de factures par téléphone portable
 
@@ -27,8 +27,7 @@ ms.locfileid: "5897694"
 
 Les fonctionnalités mobiles permettent aux entreprises de créer des expériences mobiles. Pour les scénarios avancés, la plateforme permet également aux développeurs d’étendre les capacités comme ils le désirent. Le moyen le plus efficace d’apprendre quelques-uns des nouveaux concepts sur la fonction mobile est de passer en revue le processus de conception de quelques scénarios. Cette rubrique est destinée à fournir une approche pratique pour concevoir des scénarios mobiles en prenant les approbations de facture de fournisseur pour mobile en tant que cas d’utilisation. Cette rubrique doit vous aider à créer d’autres variations de scénarios et peut également être appliquée à d’autres scénarios non liés aux factures fournisseur.
 
-<a name="prerequisites"></a>Conditions préalables
--------------
+## <a name="prerequisites"></a>Conditions préalables
 
 | Logiciel requis                                                                                            | Description                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|

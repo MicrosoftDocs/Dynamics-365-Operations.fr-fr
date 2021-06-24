@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020409"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216741"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuration de la validation de la gestion des remises
 
@@ -43,7 +43,7 @@ Le tableau suivant décrit les paramètres disponibles dans la section d’en-t�
 | Description | Entrez une description du profil. |
 | Module | Sélectionnez le type de remises et de redevances auquel le profil est associé (*Client* ou *Fournisseur*). |
 | Type | Sélectionnez le type de profil (*Remise* ou *Redevances*). |
-| Type de paiement | <p>Ce champ détermine le format du résultat de la remise validée.<p><p>Quand le champ **Type** est défini sur *Remise*, les valeurs suivantes sont disponibles :</p><ul><li>*Aucune* : il n’y a pas de type de validation par défaut. Par conséquent, vous devez définir le type lorsque vous effectuez le traitement.</li><li>*Payer en utilisant la comptabilité fournisseur* : lorsque vous validez la remise, une facture fournisseur est créée pour le fournisseur bénéficiaire de la remise qui est configuré sur le client de la remise.</li><li>*Déductions client* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li><li>*Déductions client sur facture fiscale* : lorsque vous validez la remise, une facture financière pour le client de la remise est créée.</li><li>*Dépense de commerce* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li><li>*Génération de rapport* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li></ul><p>Quand le champ **Type** est défini sur *Redevance*, les valeurs suivantes sont disponibles :</p><ul><li>*Aucune* : il n’y a pas de type de validation par défaut. Par conséquent, vous devez définir le type lorsque vous effectuez le traitement.</li><li>*Payer en utilisant la comptabilité fournisseur* : lorsque vous validez la remise, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li><li>*Génération de rapport* : lorsque vous validez la remise, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li></ul><p>Pour plus d’informations, voir la section [Types de paiement](#payment-types) suivante. |
+| Type de paiement | <p>Ce champ détermine le format du résultat de la remise validée.<p><p>Quand le champ **Type** est défini sur *Remise*, les valeurs suivantes sont disponibles :</p><ul><li>*Payer en utilisant la comptabilité fournisseur* : lorsque vous validez une remise client, une facture fournisseur est créée pour le fournisseur bénéficiaire de la remise qui est configuré sur le client de la remise. Lorsque vous validez une remise fournisseur, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li><li>*Déductions client* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li><li>*Déductions client sur facture fiscale* : lorsque vous validez la remise, une facture financière pour le client de la remise est créée.</li><li>*Dépense de commerce* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li><li>*Génération de rapport* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li></ul><p>Quand le champ **Type** est défini sur *Redevance*, les valeurs suivantes sont disponibles :</p><ul><li>*Payer en utilisant la comptabilité fournisseur* : lorsque vous validez la remise, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li><li>*Génération de rapport* : lorsque vous validez la remise, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li></ul><p>Pour plus d’informations, voir la section [Types de paiement](#payment-types) suivante. |
 | Société | Sélectionnez l’entreprise (entité juridique) pour laquelle les provisions seront constituées et par laquelle les réclamations seront payées. |
 
 ### <a name="payment-types"></a>Types de paiements
@@ -70,7 +70,7 @@ Le tableau suivant résume la manière dont les différents paramètres du champ
 
 ## <a name="posting-fasttab"></a>Organisateur Validation
 
-Le tableau suivant décrit les champs disponibles dans l'organisateur **Validation** de chaque profil de validation de la gestion des remises.
+Le tableau suivant décrit les champs disponibles dans l’organisateur **Validation** de chaque profil de validation de la gestion des remises.
 
 | Champ | Description |
 |---|---|
@@ -86,7 +86,7 @@ Le tableau suivant décrit les champs disponibles dans l'organisateur **Validati
 
 ## <a name="posting-by-company-fasttab"></a>Organisateur Annulation par entreprise
 
-L'organisateur **Validation par entreprise** de chaque profil de validation de la gestion des remises vous permet de spécifier le compte de validation utilisé par chaque société (entité juridique) dans la grille.
+L’organisateur **Validation par entreprise** de chaque profil de validation de la gestion des remises vous permet de spécifier le compte de validation utilisé par chaque société (entité juridique) dans la grille.
 
 Utiliser les boutons sur la barre d’outils pour ajouter des sociétés à la grille ou en supprimer. Chaque fois que vous ajoutez une ligne à la grille, utilisez le champ **Société** pour spécifier l’entité juridique de cette ligne. Le champ **Nom** est alors défini automatiquement.
 

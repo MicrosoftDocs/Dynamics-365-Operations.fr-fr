@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 252b24919e4c22233ee8fe7e94c9bc6bbf60dacd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 43f28d9b7acb05a83544b04f6786dfe91f2d9f18
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796460"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193201"
 ---
-# <a name="open-url-in-pos"></a>Ouvrir une URL dans le point de vente
+# <a name="open-url-in-pos"></a>Ouvrir une URL dans le PDV
 
 [!include [banner](includes/banner.md)]
 
-Cette rubrique décrit comment configurer un bouton dans le point de vente (PDV) Retail pour ouvrir une URL. Cette fonctionnalité ne nécessite pas de personnalisation du code, et peut être configurée par une personne avec un rôle non développeur. 
+Cette rubrique décrit comment configurer un bouton dans le point de vente (PDV) Dynamics 365 Commerce pour ouvrir une URL. Cette fonctionnalité ne nécessite pas de personnalisation du code, et peut être configurée par une personne avec un rôle non développeur. 
 
 Cette fonctionnalité permet la configuration d’un bouton dans PDV, à l’aide du concepteur de grille de boutons pour ouvrir une URL. Actuellement, cette opération est prise en charge dans les configurations suivantes :
 
@@ -46,15 +46,15 @@ L’ouverture d’une URL Web dans le PDV n’est pris en charge actuellement qu
 
 Cette fonction vous permet également de spécifier les URL non Web pour ouvrir une application native. Par exemple, vous pouvez spécifier des protocoles d’URL tels que MailTo, SIP, IM ou MSTEAMS, qui peuvent ensuite être gérés par les applications natives respectives dans le périphérique de serveur. Pour ce faire, vous devez configurer l’URL avec l’option **Ouvrir dans une nouvelle fenêtre** sélectionnée.
 
-- Pour les ordinateurs Windows, voir [Exporter ou importer les associations d’applications par défaut](https://docs.microsoft.com/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) pour définir les associations de protocoles par défaut si vous paramétrez votre ordinateur à l’aide de DISM (Deployment Image Servicing and Management).
-- Si vous utilisez MDM, tel qu’Intune, pour gérer vos ordinateurs Windows, voir [Stratégie CSP - ApplicationDefaults](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-applicationdefaults).
-- Si vous êtes développeur et que vous générez un site Web personnalisé, voir [Lancer l’application par défaut pour une URI](https://docs.microsoft.com/windows/uwp/launch-resume/launch-default-app).
+- Pour les ordinateurs Windows, voir [Exporter ou importer les associations d’applications par défaut](/windows-hardware/manufacture/desktop/export-or-import-default-application-associations) pour définir les associations de protocoles par défaut si vous paramétrez votre ordinateur à l’aide de DISM (Deployment Image Servicing and Management).
+- Si vous utilisez MDM, tel qu’Intune, pour gérer vos ordinateurs Windows, voir [Stratégie CSP - ApplicationDefaults](/windows/client-management/mdm/policy-csp-applicationdefaults).
+- Si vous êtes développeur et que vous générez un site Web personnalisé, voir [Lancer l’application par défaut pour une URI](/windows/uwp/launch-resume/launch-default-app).
 
 ## <a name="open-a-native-app-seamlessly"></a>Ouvrir une application native en toute transparence
 
 Windows, iOS et Android permettent également l’ouverture des applications de façon plus transparente, selon l’association du protocole d’application. Si votre application n’est pas déjà configurée pour gérer l’ouverture d’un navigateur Web, vous pouvez nécessiter un développeur pour la configurer.
 
-- Pour Windows, voir [Activer les applications pour les sites Web avec des gestionnaires d’URI d’application](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
+- Pour Windows, voir [Activer les applications pour les sites Web avec des gestionnaires d’URI d’application](/windows/uwp/launch-resume/web-to-app-linking).
 - Pour iOS, voir [Liens universels pour les développeurs](https://developer.apple.com/ios/universal-links/).
 - Pour Android, voir [Gestion des liens d’applications Android](https://developer.android.com/training/app-links/).
 

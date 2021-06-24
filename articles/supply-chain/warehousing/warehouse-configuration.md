@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837367"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189549"
 ---
 # <a name="warehouse-configuration-overview"></a>Vue d’ensemble de configuration de l’entrepôt
 
@@ -109,8 +109,7 @@ Comme leur nom l’indique, les directives d’emplacement sont utilisées pour 
 
 Pour faciliter et accélérer la définition des actions associées à chaque ligne de directive d’emplacement, utilisez l’une des stratégies prédéfinies. Par exemple, vous pouvez utiliser la stratégie **Emplacement vide sans travail entrant** pour rechercher des emplacements libres dans un entrepôt, ou vous pouvez utiliser la stratégie **Réservation de traitement par lots FEFO** pour le prélèvement sortant des ventes.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Configurer des emplacements dans un entrepôt compatible WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811359"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193903"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Vue d’ensemble de consolidations financières et conversion de devises
 
@@ -165,7 +165,8 @@ Les clients qui utilisent l’outil États financiers pour les consolidations fi
 - **Conversion simplifiée des devises** – Après le paramétrage minimal dans Finance, vous pouvez convertir un état de l’outil États financiers dans une devise de déclaration paramétrée. En outre, vous pouvez définir un nombre illimité de devises de déclaration.
 - **Valider les éliminations à la source** – Vous pouvez créer et imprimer un état d’élimination pour vérifier les transactions d’élimination. Vous pouvez ensuite valider les nouvelles éliminations comme des transactions intersociétés standard. Vous pouvez également utiliser une entité juridique d’élimination pour toute transaction que vous ne souhaitez pas voir apparaître dans vos entités juridiques.
 
-## <a name="supported-consolidation-scenarios"></a>Scénarios de consolidation pris en charge
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Scénarios de regroupement pris en charge pour Financial Reporting
+
 Voici quelques-uns des scénarios de consolidation pris en charge par l’outil États financiers :
 
 - Consolidations sur un seul niveau et plusieurs niveaux dans les entités juridiques

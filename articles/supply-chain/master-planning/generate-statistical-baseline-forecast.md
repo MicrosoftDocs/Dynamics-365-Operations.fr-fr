@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816506"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189690"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Générer des prévisions de base statistiques
 
@@ -67,8 +67,7 @@ Si la prévision n’est pas générée pour un grand ensemble d’articles, mai
 > [!NOTE]
 > Éventuellement, une prévision apparemment plate peut découler de données historiques qui ne couvrent pas une durée suffisante (au minimum, 3 périodes pour déceler des modèles, comme 3 ans pour des prévisions mensuelles). Pour obtenir un meilleur résultat, vous pouvez essayer de modifier la granularité de la plage temporelle, ou d’augmenter cette plage.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Paramétrage de la prévision de la demande](demand-forecasting-setup.md)
 

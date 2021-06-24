@@ -2,7 +2,7 @@
 title: Prévision de flux de trésorerie (version préliminaire)
 description: Cette rubrique décrit la fonctionnalité de prévision des flux de trésorerie.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811409"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186538"
 ---
 # <a name="cash-flow-forecast-preview"></a>Prévision de flux de trésorerie (version préliminaire)
 
@@ -62,9 +62,5 @@ La fonctionnalité de prévision de flux de trésorerie dans Dynamics 365 Financ
 Un nouvel onglet sur la page **Configuration des prévisions de flux de trésorerie** vous permet de contrôler les dimensions financières à utiliser pour le filtrage dans l’espace de travail **Prévision des flux de trésorerie**. Cet onglet n’apparaîtra que lorsque la fonction de prévision des flux de trésorerie est activée. 
 
 Sur l’onglet **Dimensions**, choisissez dans la liste des dimensions à utiliser pour le filtrage et utilisez les touches fléchées pour les déplacer vers la colonne de droite. Seules deux dimensions peuvent être sélectionnées pour filtrer les données de prévision des flux de trésorerie. 
-
-#### <a name="privacy-notice"></a>Avis de confidentialité
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822225"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188019"
 ---
 # <a name="budget-planning"></a>Planification budgétaire
 
@@ -34,8 +34,7 @@ L’objectif de cet atelier consiste à fournir aux partenaires une vue guidée 
 - Utilisation des répartitions pour ajuster les données du document de plan budgétaire
 - Modification des données du document de plan budgétaire dans Excel 
 
-<a name="prerequisites"></a>Conditions préalables 
-------------------
+## <a name="prerequisites"></a>Conditions préalables 
 
 Pour ce didacticiel, vous devez accéder à l’environnement Microsoft Dynamics 365 Finance avec les données de démonstration de Contoso, et bénéficier des droits d’administrateur sur l’instance. N’utilisez pas le mode privé du navigateur pour l’atelier pratique – déconnectez-vous de tout autre compte dans le navigateur si nécessaire et connectez-vous à l’aide des informations d’identification de l’administrateur. Lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Cette opération crée un cookie persistant dont l’application Excel a besoin actuellement. Si vous vous connectez à l’application via un navigateur autre qu’IE, vous êtes invité à vous connecter dans l’application Excel. Lorsque vous cliquez sur « Connexion » dans l’application Excel, une fenêtre contextuelle d’IE s’ouvre et lors de la connexion, vous **DEVEZ** activer la case à cocher « Maintenir la connexion ». Si cliquer dans « Connexion » dans l’application Excel ne produit aucun effet, alors vous devez désactiver le cache des cookies d’IE.
 

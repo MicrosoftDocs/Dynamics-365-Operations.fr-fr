@@ -1,8 +1,8 @@
 ---
 title: Activer la prévision des flux de trésorerie (version préliminaire)
-description: Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Finance Insights.
+description: Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Informations financières.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818726"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222556"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Activer la prévision des flux de trésorerie (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Finance Insights.
+Cette rubrique explique comment activer la fonctionnalité de prévisions de flux de trésorerie dans Informations financières.
 
 > [!NOTE]
 > Pour utiliser les prévisions de paiement dans le flux de trésorerie, vous devez configurer la fonction de prévision de paiement client comme décrit dans [Activer les prédictions de paiement des clients](enable-cust-paymnt-prediction.md).
@@ -37,7 +37,7 @@ Cette rubrique explique comment activer la fonctionnalité de prévisions de flu
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Si votre déploiement de Microsoft Dynamics 365 Finance est un déploiement Service Fabric, vous pouvez ignorer cette étape. L’équipe Finance Insights devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas les fonctionnalités dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de les activer, contactez <fiap@microsoft.com>.
+    > Ignorez cette étape si vous utilisez la version 10.0.20 ou ultérieure, ou si vous utilisez un déploiement Service Fabric. L’équipe Informations financières devrait déjà avoir activé le déploiement en mode Flighting pour vous. Si vous ne voyez pas la fonctionnalité dans l’espace de travail **Gestion des fonctionnalités**, ou si vous rencontrez des problèmes lorsque vous essayez de l’activer, contactez <fiap@microsoft.com>.
   
 2. Ouvrez l’espace de travail **Gestion des fonctionnalités** et procédez comme suit :
 
@@ -54,16 +54,11 @@ Cette rubrique explique comment activer la fonctionnalité de prévisions de flu
     > [!NOTE]
     > Si les comptes de liquidité ne sont pas configurés, le flux de trésorerie ne peut pas être généré.
 
-4. Aller à **Gestion de la trésorerie et de la banque \> Configurer \> Finance Insights (version préliminaire) \> Prévisions de flux de trésorerie (version préliminaire)** et suivez ces étapes :
+4. Aller à **Gestion de la trésorerie et de la banque \> Configurer \> Informations financières (version préliminaire) \> Prévisions de flux de trésorerie (version préliminaire)** et suivez ces étapes :
 
     1. Sur l’onglet **Prévisions de trésorerie**, sélectionnez **Activer la fonctionnalité**.
     2. Sélectionner **Créer un modèle de prédiction**.
 
 Pour plus d’informations sur la fonctionnalité des prévisions de flux de trésorerie, voir [Prévisions de flux de trésorerie](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Avis de confidentialité
-
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

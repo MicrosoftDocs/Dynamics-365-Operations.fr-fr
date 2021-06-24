@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814582"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188147"
 ---
 # <a name="production-process-overview"></a>Vue d’ensemble du processus de fabrication
 
@@ -74,8 +74,7 @@ Les étapes suivantes dans le cycle de vie de la production peuvent se produire 
 12. **Clôture de période** – Certains principes de contrôle de gestion, tels que la moyenne périodique, le coût de post-consommation, FIFO ou LIFO, exigent que les activités périodiques clôturent la période du stock ou financière. En général, le système essaie de déclarer la consommation de toutes les matières et de toutes les ressources, ainsi que les corrections du stock et la mise au rebut, avant la clôture des périodes. Cette déclaration est généralement effectuée à l’aide de journaux de mouvements de stock ou des journaux d’ajustement. L’objectif consiste à évaluer la performance économique des unités opérationnelles par période. Dans certains cas, lorsque les ordres de fabrication à long terme sont utilisés couvrant les périodes des états financiers, les journaux de production sont utilisés pour déclarer la progression de la production et la consommation des ressources d’ici à la fin de la période.
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Rétroaction de production](production-feedback.md)
 

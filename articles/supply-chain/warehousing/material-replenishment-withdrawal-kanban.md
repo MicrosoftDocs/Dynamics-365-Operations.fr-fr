@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831240"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189942"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Réapprovisionnement avec des kanbans de prélèvement
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831240"
 Cette rubrique décrit comment le kanban de prélèvement est utilisé pour le réapprovisionnement des matières dans le cadre des activités de fabrication.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Workflow pour le réapprovisionnement des matières qui utilise le kanban de prélèvement
--------------------------------------------------------------------
 
 Le kanban de prélèvement permet de déplacer un kanban d’un seul article entre les entrepôts et les emplacements de production où les matières sont consommées. Le kanban de prélèvement prend en charge une solution basée sur le type pull pour le réapprovisionnement des matières, où un signal de type pull est requis pour déclencher l’approvisionnement suite à une demande spécifique. 
 

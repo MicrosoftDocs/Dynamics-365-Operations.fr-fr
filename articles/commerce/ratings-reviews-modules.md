@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792145"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193280"
 ---
 # <a name="ratings-and-reviews-modules"></a>Modules Classements et Évaluations
 
@@ -54,7 +54,11 @@ L’illustration ci-dessous indique comment la boîte de dialogue **Ajouter un m
 
 Le module Écrire une évaluation inclut un bouton **Écrire une évaluation** qui permet aux utilisateurs de se connecter, d’affecter un classement, et d’écrire une évaluation de produit. Ce module permet également aux utilisateurs de modifier un classement ou une évaluation qu’il a précédemment soumis. Ce module apparaît généralement au-dessus des modules d’histogramme des classements et de liste d’évaluations de produit sur une page de détails de produit.
 L’illustration suivante présente la boîte de dialogue **Écrire une évaluation** qui s’affiche lorsqu’un client sélectionne **Écrire une évaluation**. Le client peut utiliser cette boîte de dialogue pour envoyer un classement et une évaluation.
-![Boîte de dialogue Écrire une évaluation](media/rnr-eCommerce-write-review-module.png) Le tableau suivant montre la propriété du module Écrire une évaluation qui doit être configurée dans l’outil de création.
+
+![Boîte de dialogue Écrire une évaluation](media/rnr-eCommerce-write-review-module.png)
+
+Le tableau suivant montre la propriété du module Écrire une évaluation qui doit être configurée dans l’outil de création.
+
 | Nom de la propriété | Valeur        | Description de la propriété                 |
 |---------------|--------------|--------------------------------------|
 | Nom          | Écrire une évaluation | Nom du module Écrire une évaluation. |

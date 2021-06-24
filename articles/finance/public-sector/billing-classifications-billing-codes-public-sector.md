@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0373f4914182ebbd5183be9f8b18a75c153cd4e5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 282e2005e9327b747dfa1c015e29b22af6fff907
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809902"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189618"
 ---
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Classifications de facturation et codes facturation dans le secteur public
 
@@ -29,8 +29,7 @@ ms.locfileid: "5809902"
 
 Les organisations du secteur public peuvent utiliser les classifications de facturation et des codes de facturation pour gérer les factures financières. 
 
-<a name="billing-classifications"></a>Classifications de facturation
------------------------
+## <a name="billing-classifications"></a>Classifications de facturation
 
 Les classifications de facturation permettent de regrouper les factures financières similaires pour le traitement et l’affichage. Par exemple, une agence de transit peut louer de l’espace dans chaque station de transit à des cafés et d’autres fournisseurs. En créant une classification de facturation pour des baux, l’agence peut automatiquement appliquer les mêmes conditions de paiement et utiliser la même série de lettres de relance pour tous les baux. L’agence peut également afficher les factures pour tous les baux ensemble, même si ces baux ne partagent pas les mêmes dimensions financières. Les classifications de facturation incluent les informations suivantes :
 

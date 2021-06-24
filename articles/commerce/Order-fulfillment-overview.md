@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796412"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193153"
 ---
 # <a name="store-order-fulfillment"></a>Exécution des commandes en magasin
 
@@ -33,7 +33,7 @@ L’opération d’exécution des commandes dans le point de vente fournit une z
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Accéder à l’opération d’exécution de commandes unifiée dans le point de vente
 
-L’opération d’exécution des commandes, [ID opération 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations) peut être utilisée pour accéder à la zone de travail d’exécution des commandes dans le point de vente.
+L’opération d’exécution des commandes, [ID opération 928](pos-operations.md) peut être utilisée pour accéder à la zone de travail d’exécution des commandes dans le point de vente.
 
 L’opération d’exécution des commandes ne dispose pas de sa propre autorisation prédéfinie, mais à l’avenir, les utilisateurs pourront utiliser l’autorisation **Autoriser la récupération de commandes** pour appeler l’opération à partir du point de vente.
 
@@ -93,7 +93,7 @@ Une fois qu’une commande a été acceptée, les lignes peuvent être sélectio
 
 Les listes de prélèvements peuvent être imprimées dans le point de vente pour aider les collaborateurs à exécuter le processus de prélèvement. Une liste de prélèvements imprimée peut être utilisée par le collaborateur qui effectue le prélèvement pour lui permettre de marquer manuellement les produits comme prélevés sur la liste des prélèvements.
 
-Le format de prélèvement est configuré dans Commerce et ajouté au profil de réception. Pour plus d’informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Le format de prélèvement est configuré dans Commerce et ajouté au profil de réception. Pour plus d’informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](receipt-templates-printing.md).
 
 Si des lignes sont sélectionnées et une liste de prélèvements est imprimée pour ces lignes, elles sont automatiquement mises à jour avec le statut **Prélèvement**.
 
@@ -119,7 +119,7 @@ Les lignes de commande peuvent être conditionnées à tout moment une fois que 
 - **Statut résultant :** Emballé ou partiellement emballé
 - **Statut résultant de l’arrière-guichet :** Livré ou partiellement livré
 
-Cette action marque les lignes comme emballées ou partiellement emballées et imprime un bon de livraison. Un bon de livraison peut être imprimé pour valider les produits qui ont fait l’objet d’un emballage commun. Le format de prélèvement est configuré dans Commerce et ajouté au profil de réception. Pour plus d’informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Cette action marque les lignes comme emballées ou partiellement emballées et imprime un bon de livraison. Un bon de livraison peut être imprimé pour valider les produits qui ont fait l’objet d’un emballage commun. Le format de prélèvement est configuré dans Commerce et ajouté au profil de réception. Pour plus d’informations sur le paramétrage des profils de réception, voir [Modèles de réception et impression](receipt-templates-printing.md).
 
 **Action : Marquer comme emballé**
 

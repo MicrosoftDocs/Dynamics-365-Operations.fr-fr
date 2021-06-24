@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f89b3d94fd16aa9cf27931d11fd8fff22048d40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c6d96f1f957bfe8002a763d98f170681ad92b23
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824026"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188732"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Paiements client pour un montant partiel
 
@@ -28,8 +28,7 @@ ms.locfileid: "5824026"
 
 Il se peut que des clients effectuent un paiement inférieur au montant de la facture. Cet article décrit les différentes options pour gérer cette situation. Leur disponibilité dépend de vos exigences métier et de votre configuration.
 
-<a name="partial-payment-with-no-discount"></a>Paiement partiel sans remise
---------------------------------
+## <a name="partial-payment-with-no-discount"></a>Paiement partiel sans remise
 
 Les clients peuvent effectuer un paiement partiel, parce qu’ils n’ont pas assez d’espèces à disposition pour payer la facture entièrement ou en raison d’un litige à propos d’un article figurant sur la facture. Dans ce cas, la facture peut être partiellement réglée avec le paiement. La facture demeurera ouverte et affichera un solde.
 

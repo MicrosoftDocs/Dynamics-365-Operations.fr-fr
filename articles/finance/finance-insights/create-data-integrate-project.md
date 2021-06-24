@@ -2,7 +2,7 @@
 title: Créer un projet d’intégrateur de données (version préliminaire)
 description: Cette rubrique explique comment créer un projet d’intégrateur de données.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
-ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
+ms.openlocfilehash: 59f85c64ea7b1f539a245e08b76bd6a34797b0ca
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867445"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186466"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Créer un projet d’intégrateur de données (version préliminaire)
 
@@ -66,11 +66,6 @@ Cette rubrique explique comment créer un projet d’intégrateur de données.
     2. Définissez la planification appropriée pour chaque projet.
 
 > [!NOTE]
-> Si vous ne voyez pas les entités requises dans CDS, allez à **Crédits et recouvrements > configuration > finance Insights> paramètres de Finance Insights**, activez la fonction de prédiction de paiement client et cliquez sur le bouton **Créer un modèle de prédiction**. Lorsque le déploiement du modèle d’IA est terminé (réussi ou échoué), les entités CDS nécessaires pour créer l’intégration seront déployées dans CDS.
-
-## <a name="privacy-notice"></a>Avis de confidentialité
-
-Les versions préliminaires (1) peuvent utiliser moins de mesures de confidentialité et de sécurité que le service Dynamics 365 Finance and Operations, (2) ne sont pas inclus dans le contrat de niveau de service (SLA) pour ce service, (3) ne doivent pas être utilisés pour traiter des données personnelles ou autres données soumises à des exigences de conformité juridique ou réglementaire, et (4) bénéficient d’un support limité.
-
+> Si vous ne voyez pas les entités requises dans CDS, allez à **Crédits et recouvrements > configuration > Informations financières> paramètres de Informations financières**, activez la fonction de prédiction de paiement client et cliquez sur le bouton **Créer un modèle de prédiction**. Lorsque le déploiement du modèle d’IA est terminé (réussi ou échoué), les entités CDS nécessaires pour créer l’intégration seront déployées dans CDS.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826616"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188438"
 ---
 # <a name="sales-tax-overview"></a>Vue d’ensemble des taxes
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826616"
 
 Cette rubrique offre une vue d’ensemble du système de taxes. Il explique les éléments du paramétrage de la taxe et comment ils fonctionnent ensemble.
 
-<a name="overview"></a>Vue d’ensemble
---------
+## <a name="overview"></a>Vue d’ensemble
 
 L’infrastructure de taxe prend en charge de nombreux types de taxes indirectes, tels que la taxe, la taxe sur la valeur ajoutée (VAT), la Taxe sur les Produits et Services (GST), les frais basés sur l’unité et la retenue à la source. Ces taxes sont calculées et documentées lors des transactions d’achat et de vente. Régulièrement, elles doivent être déclarées et payées à l’administration fiscale. 
 

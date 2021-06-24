@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27d022aeb2e32edb763530a75ae9fd7f1062cc5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70aff927dfea602ee6c4ad5c195274248f831bcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829568"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190182"
 ---
 # <a name="configuration-rules"></a>Règles de configuration
 
@@ -36,8 +36,7 @@ Les configurations existantes ne sont pas concernées par les modifications ult�
 
 **Remarque :** pour la méthode **Sélectionner**, le groupe de configurations déduit, le numéro d’article et la configuration sont automatiquement sélectionnés. Pour la méthode **Désélectionner**, le groupe de configurations déduit, le numéro d’article et la configuration ne peuvent pas être sélectionnés.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de la configuration des produits basée sur les dimensions](dimension-based-product-configuration.md)
 

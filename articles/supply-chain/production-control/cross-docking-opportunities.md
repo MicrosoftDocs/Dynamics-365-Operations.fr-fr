@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839147"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190086"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docking des ordres de fabrication aux quais d’expédition
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839147"
 
 Cette rubrique décrit la procédure de gestion du processus du matériel de cross-docking qui est déclaré terminé d’une ligne de production à un quai de transport sortant.
 
-<a name="introduction"></a>Introduction
-------------
+## <a name="introduction"></a>Introduction
 
 Le cross-docking de la production à un emplacement sortant est approprié pour les fabricants qui produisent à fort débit et souhaitent idéalement expédier des produits finis dès qu’ils sont déclarés terminés au niveau des lignes de production. L’objectif est d’expédier des produits vers les centres de distribution qui sont physiquement proches de la demande client, au lieu de constituer un stock sur le site de fabrication.
 

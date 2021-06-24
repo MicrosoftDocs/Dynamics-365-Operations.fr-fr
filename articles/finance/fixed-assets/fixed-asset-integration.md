@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826832"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189782"
 ---
 # <a name="fixed-assets-integration"></a>Intégration des immobilisations
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826832"
 
 Le module Immobilisations peut être intégré avec les modules Comptabilité, Gestion des stocks, Ventes et Achats. Vous pouvez également paramétrer le module Immobilisations en vue de son intégration avec les commandes fournisseur.
 
-<a name="general-ledger"></a>Comptabilité
---------------
+## <a name="general-ledger"></a>Comptabilité
 
 Dans le module Comptabilité, la valeur de toutes les immobilisations est généralement récapitulée dans plusieurs comptes généraux nécessaires pour la génération d’états financiers. Toutefois, sur la page **Immobilisations**, vous pouvez créer de nombreux enregistrements d’immobilisation. Ces enregistrements peuvent inclure des informations telles que le prix d’acquisition, l’amortissement et l’évaluation. Chaque fois que vous validez une transaction relative à une immobilisation, les comptes principaux appropriés sont mis à jour. Les comptes principaux pour les immobilisations affichent toujours la valeur mise à jour des immobilisations.
 

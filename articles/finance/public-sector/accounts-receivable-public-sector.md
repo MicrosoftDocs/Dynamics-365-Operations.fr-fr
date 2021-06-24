@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dea003e658a8f96f4904ffff752a7f9fb1567205
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c94480faf1c1fabaf9851d7023dd5a2754caa78
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809908"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189768"
 ---
 # <a name="accounts-receivable-in-the-public-sector-overview"></a>Vue d’ensemble de la comptabilité client (Secteur public)
 
@@ -29,8 +29,7 @@ ms.locfileid: "5809908"
 
 Cette rubrique décrit la fonctionnalité de Comptabilité client disponible pour le secteur public.
 
-<a name="how-do-i-set-accounts-receivable-parameters-for-the-public-sector"></a>Comment définir les paramètres de comptabilité client pour le secteur public ?
-------------------------------------------------------------------
+## <a name="how-do-i-set-accounts-receivable-parameters-for-the-public-sector"></a>Comment définir les paramètres de comptabilité client pour le secteur public ?
 
 La plupart des paramètres de comptabilité client sont définis de la même manière si vous êtes dans le secteur public ou le secteur privé. Toutefois, les paramètres requis pour les classifications de facturation et les codes facturation sont utilisés uniquement par le secteur public. Pour plus d’informations, voir [Classifications de facturation et codes facturation dans le secteur public](billing-classifications-billing-codes-public-sector.md).
 
@@ -56,8 +55,7 @@ Vous pouvez conserver les dimensions financières par défaut pour le groupe de 
 ## <a name="what-can-i-use-accounts-receivable-posting-definitions-for"></a>À quelles fins puis-je utiliser les définitions de validation de la comptabilité client ?
 Vous pouvez utiliser les définitions de validation pour créer des lignes de journal de comptabilité auxiliaire pour les transactions d’origine qui répondent aux critères sélectionnés, par exemple, pour générer plusieurs écritures comptables équilibrées basées sur des attributs tels que des types de transactions et des comptes. Pour plus d’informations sur les définitions de validation, voir [Définitions de validation dans le secteur public](posting-definitions-public-sector.md).
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Module Comptabilité client](../accounts-receivable/accounts-receivable.md)
 

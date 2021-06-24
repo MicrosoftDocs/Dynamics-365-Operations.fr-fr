@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835218"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189467"
 ---
 # <a name="set-up-collections"></a>Paramétrage des recouvrements
 
@@ -40,8 +40,7 @@ Cet article décrit la procédure de paramétrage de la fonctionnalité de recou
 
 Ces points sont davantage abordés dans la suite de cette rubrique. 
 
-<a name="set-up-aging-period-definitions"></a>Paramétrer les définitions de périodes de balances âgées
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Paramétrer les définitions de périodes de balances âgées
 
 Paramétrez une définition de plage âgée. Une définition de plage âgée définit les colonnes qui s’affichent sur les pages de liste **Soldes chronologiques**, **Activités de recouvrement** et **Dossiers de recouvrement**. Elle définit également les périodes qui s’affichent sur la page **Recouvrement**. Si vous paramétrez un regroupement de clients, la définition de plage âgée extraite de celui-ci est utilisée. Si aucun regroupement n’est paramétré, la définition de plage âgée par défaut spécifiée sur la page **Paramètres des ventes** est utilisée. Si aucune définition de plage âgée par défaut n’est spécifiée, la première définition de plage âgée figurant sur la page **Définitions des plages âgées** est utilisée.
 

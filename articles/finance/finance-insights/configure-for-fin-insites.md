@@ -1,8 +1,8 @@
 ---
-title: Configuration de Finance Insights (version préliminaire)
-description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Finance Insights.
+title: Configuration pour Informations financières - versions jusqu’à 10.0.19
+description: Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières pour les versions allant jusqu’à 10.0.19.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941224"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186418"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Configuration de Finance Insights (version préliminaire)
+# <a name="configuration-for-finance-insights-preview"></a>Configuration de Informations financières (version préliminaire)
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,7 +30,10 @@ ms.locfileid: "5941224"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance Insights combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Microsoft Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Finance Insights.
+> [!NOTE]
+> Les procédures suivantes de configuration de Informations financières sont valables pour les versions de Microsoft Dynamics 365 Finance jusqu’à 10.0.19. Pour configurer Informations financières sur la version 10.0.20 et les versions ultérieures, voir [Configuration de Informations financières (version préliminaire) - versions 10.0.20 et ultérieures](configure-for-fin-insites-PubPrvw.md).
+
+Informations financières combine les fonctionnalités de Microsoft Dynamics 365 Finance avec Microsoft Dataverse, Azure et AI Builder pour fournir de puissants outils de prévision à votre organisation. Cette rubrique explique les étapes de configuration qui permettront à votre système d’utiliser les fonctionnalités disponibles dans Informations financières.
 
 ## <a name="deploy-dynamics-365-finance"></a>Déployer Dynamics 365 Finance
 
@@ -38,19 +41,19 @@ Déployez les environnements comme suit.
 
 1. Dans Microsoft Dynamics Lifecycle Services (LCS), créez ou mettez à jour un environnement Dynamics 365 Finance. L’environnement nécessite la version d’application 10.0.11/Platform update 35 ou version ultérieure.
 2. L’environnement doit être un environnement haute disponibilité (HA) dans Sandbox. (Ce type d’environnement est également appelé environnement de niveau 2.) Pour plus d’informations, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Si vous utilisez des données de démonstration Contoso, vous aurez besoin d’exemples de données supplémentaires pour utiliser les fonctionnalités de prévisions de paiement client, de prévisions de flux de trésorerie et de prévisions budgétaires. 
+3. Si vous configurez Informations financières dans un environnement bac à sable, vous devrez peut-être copier les données de production dans cet environnement pour que les prédictions fonctionnent. Le modèle de prédiction utilise plusieurs années de données pour créer les prédictions. Les données de démonstration de Contoso ne contiennent pas suffisamment de données historiques pour entraîner correctement le modèle de prédiction. 
 
 ## <a name="configure-dataverse"></a>Configurer Dataverse
 
-Utilisez les étapes suivantes pour configurer Dataverse for Finance Insights.
+Utilisez les étapes suivantes pour configurer Dataverse pour Informations financières.
 
-1. Ouvrez la page d'environnement dans LCS et vérifiez que la section **Intégration Power Platform** est déjà configurée.
-    1. Si elle est déjà configurée, le nom d'environnement Dataverse lié à l'environnement Dynamics 365 Finance doit être répertorié. Copiez le nom de l'environnement Dataverse.
-    2. Si elle n'est pas configurée, procédez comme suit :
-        1. Sélectionnez le bouton **Installer** dans la section Intégration Power Platform. La configuration de l'environnement peut prendre jusqu'à une heure.
-        2. Si l'environnement Dataverse est correctement configuré, le nom de l'environnement Dataverse lié à l'environnement Dynamics 365 Finance devrait figurer dans la liste. Copiez le nom de l'environnement Dataverse.
+1. Ouvrez la page d’environnement dans LCS et vérifiez que la section **Intégration Power Platform** est déjà configurée.
+    1. Si elle est déjà configurée, le nom d’environnement Dataverse lié à l’environnement Dynamics 365 Finance doit être répertorié. Copiez le nom de l’environnement Dataverse.
+    2. Si elle n’est pas configurée, procédez comme suit :
+        1. Sélectionnez le bouton **Installer** dans la section Intégration Power Platform. La configuration de l’environnement peut prendre jusqu’à une heure.
+        2. Si l’environnement Dataverse est correctement configuré, le nom de l’environnement Dataverse lié à l’environnement Dynamics 365 Finance devrait figurer dans la liste. Copiez le nom de l’environnement Dataverse.
 > [!NOTE]
-> Après avoir terminé la configuration de l'environnement, ne sélectionnez **PAS** le bouton **Lien vers CDS for Apps**. Cela n'est pas nécessaire pour Finance Insights et désactiverait la possibilité de compléter les compléments d'environnement requis dans LCS.
+> Après avoir terminé la configuration de l’environnement, ne sélectionnez **PAS** le bouton **Lien vers CDS for Apps**. Cela n’est pas nécessaire pour Informations financières et désactiverait la possibilité de compléter les compléments d’environnement requis dans LCS.
 
 2. Ouvrez le [centre d’administration Power Platform](https://admin.powerplatform.microsoft.com/) et suivez ces étapes pour créer un environnement Dataverse dans le même client Active Directory :
 
@@ -62,7 +65,7 @@ Utilisez les étapes suivantes pour configurer Dataverse for Finance Insights.
     3. Sélectionnez **Ressources \> Tous les anciens paramètres**.
     4. Dans la barre de navigation supérieure, sélectionnez **Paramètres**, puis **Personnalisations**.
     5. Sélectionnez **Ressources du développeur**.
-    6. Copiez la valeur de l'**ID d'organisation Dataverse**.
+    6. Copiez la valeur de l’**ID d’organisation Dataverse**.
     7. Dans la barre d’adresse du navigateur, notez l’URL de l’organisation Dataverse. Par exemple, l’URL peut être `https://org42b2b3d3.crm.dynamics.com`.
 
 3. Si vous prévoyez d’utiliser la fonctionnalité Prévisions de flux de trésorerie ou Prévisions budgétaires, procédez comme suit pour mettre à jour la limite d’annotation pour votre organisation à au moins 50 mégaoctets (Mo) :
@@ -90,7 +93,7 @@ Utilisez les étapes suivantes pour configurer Dataverse for Finance Insights.
     2. Sélectionnez le nom de l’utilisateur.
     3. Copiez la valeur **ID de l’objet**.
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Utiliser Azure Cloud Shell pour configurer les ressources Finance Insights Data Lake
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>Utiliser Azure Cloud Shell pour configurer les ressources Data Lake de Informations financières
 
 # <a name="use-a-windows-powershell-script"></a>[Utiliser un script de configuration Windows PowerShell](#tab/use-a-powershell-script)
 
@@ -104,9 +107,9 @@ Suivez ces étapes pour configurer Azure à l’aide du script Windows PowerShe
 1. Dans le [portail Azure](https://portal.azure.com), accédez à votre abonnement Azure cible. Sélectionnez le bouton **Cloud Shell** à droite du champ **Recherche**.
 2. Sélectionnez **PowerShell**.
 3. Créez un espace de stockage, si vous êtes invité à le faire.
-4. Accédez à l'onglet **Azure CLI** et sélectionnez **Copier**.  
+4. Accédez à l’onglet **Azure CLI** et sélectionnez **Copier**.  
 5. Ouvrez le Bloc-notes et collez le script PowerShell. Enregistrez le fichier sous ConfigureDataLake.ps1.
-6. Téléchargez le script Windows PowerShell dans la session à l'aide de l'option de menu pour le téléchargement dans Cloud Shell.
+6. Téléchargez le script Windows PowerShell dans la session à l’aide de l’option de menu pour le téléchargement dans Cloud Shell.
 7. Exécutez le script .\ConfigureDataLake.ps1.
 8. Suivez les invites pour exécuter le script.
 9. Utilisez les informations de la sortie du script pour installer le complément **Exporter vers Data Lake** dans LCS.
@@ -786,8 +789,8 @@ Le complément sera installé dans quelques minutes.
 
     | Valeur                                                    | Description |
     |----------------------------------------------------------|-------------|
-    | URL de l’organisation CDS                                     | URL de l'organisation Dataverse copiée. |
-    | ID org. CDS                                               | ID de l'organisation Dataverse copié. |
+    | URL de l’organisation CDS                                     | URL de l’organisation Dataverse copiée. |
+    | ID org. CDS                                               | ID de l’organisation Dataverse copié. |
 5. Activez **S’agit-il de l’environnement CDS par défaut pour le locataire ?**.
     
 ## <a name="configure-the-entity-store"></a>Configurer le magasin des entités
@@ -802,8 +805,8 @@ Suivez ces étapes pour configurer le magasin des entités dans votre environnem
     - **Nom DNS** : vous pouvez trouver le nom DNS (Domain Name System) sur la page des détails de l’application que vous avez créée précédemment.
     - **Nom secret** : saisissez **storage-account-connection-string**.
 3. Paramétrez **Activer l’intégration de Data Lake**.
-4. Sélectionnez **Tester Azure Key Vault** et vérifiez qu'il n'y a pas d'erreurs.
-5. Sélectionnez **Tester le stockage Azure** et vérifiez qu'il n'y a pas d'erreurs.
+4. Sélectionnez **Tester Azure Key Vault** et vérifiez qu’il n’y a pas d’erreurs.
+5. Sélectionnez **Tester le stockage Azure** et vérifiez qu’il n’y a pas d’erreurs.
 
 ## <a name="feedback-and-support"></a>Commentaires et support
 

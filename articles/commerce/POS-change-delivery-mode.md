@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fd69d82536047c06e94ba4a7e860ef54680619a4
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796388"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193129"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Modifier le mode de livraison dans le PDV
 
@@ -31,7 +31,7 @@ Dans Dynamics 365 Commerce versions 10.0.10 et ultérieures, l’opération **Mo
 
 La fonction de modification du mode de livraison vous offre la possibilité de modifier le mode de livraison pour une ou plusieurs lignes de vente configurées pour l’envoi sur la transaction du PDV. Dans les versions précédentes de Commerce, vous deviez parcourir l’intégralité des flux de configuration **Expédier tout** ou **Expédition sélectionnée** si vous souhaitez modifier le mode de livraison sur une ligne existante configurée pour l’expédition. Ce processus prenait du temps et pouvait entraîner des modifications accidentelles de l’origine ou des dates de livraison de la ligne. La nouvelle fonctionnalité fournit une méthode alternative pour mettre à jour efficacement le mode de livraison sur ces lignes de vente.
 
-Pour plus d’informations sur l’ajout d’une opération à un bouton de votre grille de boutons de PDV, consultez [Mises en page de l’écran pour le point de vente](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
+Pour plus d’informations sur l’ajout d’une opération à un bouton de votre grille de boutons de PDV, consultez [Mises en page de l’écran pour le point de vente](pos-screen-layouts.md).
 
 Une fois cette fonctionnalité configurée dans le PDV, lorsque vous sélectionnez **Modifier le mode de livraison**, une page de liste vous sera présentée afin de choisir les lignes de la transaction dont vous souhaitez modifier le mode de livraison. Vous pouvez choisir certaines ou toutes les lignes, ou quitter sans apporter de modifications. Les lignes de vente précédemment configurées pour l’expédition sont les seules lignes de la liste que vous pouvez modifier. Si vous souhaitez modifier une ligne désignée pour le prélèvement ou le retrait à expédier, vous devez utiliser les opérations **Expédier tout** ou **Expédition sélectionnée**. Inversement, si vous souhaitez remplacer une ligne désignée comme expédition par un prélèvement ou un retrait, vous devez utiliser les opérations **Prélever tout**, **Prélèvement sélectionné**, **Exécuter tout** ou **Exécution sélectionnée**.
 

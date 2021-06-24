@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838368"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164844"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Créer des ordres de transfert depuis l’application d’entrepôt
 
@@ -330,7 +330,6 @@ Les ordres de transfert sont créés sans avaoir recours aux capacités **Contr�
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Puis-je utiliser un contenant dont le stock disponible est négatif ?
 
-La fonction ne prend en charge que les quantités de stock physique positives. Assurez-vous de disposer de quantités de stock physique positives au niveau de l’entrepôt et de l’état des stocks avant d’affecter des contenants à un ordre de transfert.
-
+La fonction ne prend en charge que les quantités physiques positives en stock au niveau du contenant, mais vous pouvez avoir des quantités physiques négatives en stock aux niveaux supérieurs de l’entrepôt et du statut du stock lors de l’attribution de contenants aux ordres de transfert.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

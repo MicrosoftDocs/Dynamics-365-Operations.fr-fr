@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2860ffb028c2d33f84e2e0796b2971e090454c90
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3dbd66d499b5d5f9f8ef21c0ce3752031a5f4672
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840627"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193780"
 ---
 # <a name="delivery-schedules"></a>Plans de livraison
 
@@ -32,7 +32,7 @@ Utilisez un plan de livraison lorsque la quantité totale d’une ligne de comma
 
 **Exemple d’un plan de livraison**
 
-|                                   |                                          |
+| Article                              | Valeur                                    |
 |-----------------------------------|------------------------------------------|
 | Commande totale (ligne de commande d’origine) | 600 chaises                               |
 | Calendrier de livraison demandé       | 100 chaises par mois                     |

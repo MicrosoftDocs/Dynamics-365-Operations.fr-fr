@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 610e8c58975a02cf6a4b3c4f79639d94ae8c3d9b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818486"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193828"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Amortissement linéaire sur la durée de vie
 
@@ -65,10 +65,10 @@ Si vous sélectionnez Fiscal, les options suivantes sont disponibles dans le cha
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Exemple : amortissement linéaire d’une immobilisation inchangée
 Supposons que l’immobilisation présente les caractéristiques suivantes :
 
-|                     |        |
+| Caractéristique      | Valeur  |
 |---------------------|--------|
-| Coût d’acquisition    | 11 000 |
-| Valeur résiduelle       | 1 000  |
+| Prix d’acquisition    | 11,000 |
+| Valeur résiduelle       | 1 000  |
 | Base d’amortissement   | 10 000 |
 | Années de durée de vie  | 5      |
 | Amortissement annuel | 2 000  |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835194"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188708"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Paramétrage des taux d’intérêt pour un code intérêt
 
@@ -90,7 +90,6 @@ Vous devez paramétrer les informations de tranches comme suit.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Exemple 2 : Intérêts par tranche = jours
---------------------------------------------------
 
 Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque période de 15 jours après la date d’échéance de la transaction pour le paiement de la facture. Vous souhaitez baser le calcul sur une valeur d’intérêts par montant, selon des intervalles de jours par paliers. La valeur des intérêts est 10,00 par période de 15 jours pendant les 60 premiers jours, 15,00 par période de 15 jours pendant les jours 61 à 90 et 20,00 par période de 15 jours après le 91e jour. Vous paramétrez les valeurs du champ Code intérêt comme suit.
 
@@ -111,7 +110,6 @@ Vous devez paramétrer les informations de tranches comme suit.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Exemple 3 : Intérêts par tranche = mois
-----------------------------------------------------
 
 Vous paramétrez un code intérêt qui évalue un intérêt une fois pour chaque mois après la date d’échéance de la transaction pour le paiement de la facture. Vous souhaitez baser le calcul sur une valeur d’intérêts par pourcentage, selon des intervalles de mois par paliers. La valeur des intérêts sera de 1,5 % par mois pendant les trois premiers mois de retard, 2,0 % par mois pour les trois mois suivants, et 2,5 % par mois au delà des six premiers mois. Vous paramétrez les valeurs du champ Code intérêt comme suit.
 

@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d1df15462a39c17710c9300425561bba8b69fc7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826127"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188382"
 ---
 # <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
@@ -27,8 +27,7 @@ ms.locfileid: "5826127"
 
 Cet article fournit des informations sur la génération d’un état relatif à la liste des ventes intracommunautaires.
 
-<a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
------------------------
+## <a name="eu-sales-list-reporting"></a>Déclaration de la liste des ventes intracommunautaires
 
 Un fournisseur qui effectue des approvisionnements intracommunautaires en marchandises ou en services aux sociétés établies dans l’Union européenne (EU) doit soumettre une déclaration des livraisons intracommunautaires (liste des ventes intracommunautaires ou EEL). En général l’EEL doit être envoyée à l’administration fiscale pas plus tard que le dernier jour du mois suivant la période de calendrier couverte par l’EEL. Le fournisseur doit indiquer son numéro d’identification de taxe sur la valeur ajoutée (TVA) dans l’EEL et doit également indiquer, par client, les informations suivantes :
 

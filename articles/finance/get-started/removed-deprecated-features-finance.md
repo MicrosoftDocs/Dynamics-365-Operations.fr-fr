@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: e6a391b10ddaef79e68f47afae7d77135a1c333a
+ms.sourcegitcommit: cb282e8d2306ab71adf80a84346a6863d2d019e8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980895"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184123"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Finance
 
@@ -39,13 +39,13 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motif de l’abandon/de la suppression** | Exclus du traitement de la messagerie électronique d'interopérabilité avec le système de facturation en ligne hongrois |
+| **Motif de l’abandon/de la suppression** | Exclus du traitement de la messagerie électronique d’interopérabilité avec le système de facturation en ligne hongrois |
 | **Remplacé par une autre fonctionnalité ?**   | N° |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : d'ici le 15 avril 2022, nous prévoyons de ne plus prendre en charge la configuration du format « Demande d'informations de facture (HU) par requête RTIR ». |
+| **État**                         | Obsolète : d’ici le 15 avril 2022, nous prévoyons de ne plus prendre en charge la configuration du format « Demande d’informations de facture (HU) par requête RTIR ». |
 
-### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>"Fichier d'audit FEC français" Format de reporting électronique (ER) pour la France sous format "Sortie de fichier d'audit allemand"
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>"Fichier d’audit FEC français" Format de reporting électronique (ER) pour la France sous format "Sortie de fichier d’audit allemand"
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -53,7 +53,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Demande |
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : d'ici le 1er mai 2022, nous prévoyons de ne plus prendre en charge le format "Fichier d'audit FEC français" pour la France sous le format "Sortie de fichier d'audit allemand". Le nouveau format de fichier d'audit FEC (FR) est introduit à la place sous le "Modèle d'exportation de données". |
+| **État**                         | Obsolète : d’ici le 1er mai 2022, nous prévoyons de ne plus prendre en charge le format "Fichier d’audit FEC français" pour la France sous le format "Sortie de fichier d’audit allemand". Le nouveau format de fichier d’audit FEC (FR) est introduit à la place sous le "Modèle d’exportation de données". |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.17
 
@@ -65,7 +65,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 | **Remplacé par une autre fonctionnalité ?**   | Oui |
 | **Zones de produit affectées**         | Dynamics 365 Finance, produits Supply Chain Management et Project Operations|
 | **Option de déploiement**              | Tous |
-| **État**                         | Obsolète : à partir du 1er avril 2022, nous prévoyons de ne plus prendre en charge le référentiel Lifecycle Services (LCS) Microsoft Dynamics comme option de stockage pour les configurations de gestion des états électroniques. Les nouvelles configurations ER Microsoft seront publiées pour téléchargement exclusivement à partir du référentiel global. Le référentiel global est accessible à partir des produits Dynamics 365 et RCS. Pour plus d’informations, voir [Importer les configurations ER depuis RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **État**                         | Obsolète : à partir du 1er avril 2022, nous prévoyons de ne plus prendre en charge le référentiel Lifecycle Services (LCS) Microsoft Dynamics comme option de stockage pour les configurations de gestion des états électroniques. Les nouvelles configurations ER Microsoft seront publiées pour téléchargement exclusivement à partir du référentiel global. Le référentiel global est accessible à partir des produits Dynamics 365 et RCS. Pour plus d’informations, consultez [Importer des configurations ER depuis RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) et [Regulatory Configuration Service (RCS) – Abandon du stockage Lifecycle Services (LCS)](../localizations/rcs-lcs-repo-dep-faq.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Fonctions supprimées ou obsolètes dans Finance version 10.0.16
 

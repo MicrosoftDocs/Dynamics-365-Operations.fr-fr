@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826369"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193616"
 ---
 # <a name="customer-posting-profiles"></a>Profils de validation client
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826369"
 
 Les profils de validation client contrôlent la validation des transactions client dans la comptabilité.
 
-<a name="customer-posting-profiles"></a>Profils de validation client
--------------------------
+## <a name="customer-posting-profiles"></a>Profils de validation client
 
 Les profils de validation client permettent d’affecter des comptes généraux et des paramètres de document à tous les clients, à un groupe de clients ou à un client unique. Ces paramètres sont utilisés lorsque vous créez des commandes client, des factures financières, des paiements en espèces, des lettres de relance et des notes d’intérêt. Pour certaines transactions, vous pouvez sélectionner un profil de validation différent qui prime sur les profils de validation paramétrés pour les transactions dans cette page. 
 
@@ -118,7 +117,6 @@ Si vous souhaitez que toutes les transactions client aient le même profil de va
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Restrictions de table**
 

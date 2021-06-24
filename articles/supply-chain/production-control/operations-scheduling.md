@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09a420fcf5bb122b7ffa0c6ef8566efad86db4f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16b05bfe2a8deec365bdccf56ddbb375e9c4becd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817867"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190014"
 ---
 # <a name="operations-scheduling"></a>Ordonnancement
 
@@ -74,8 +74,7 @@ Lorsque vous exécutez l’ordonnancement, vous pouvez annuler certaines parties
 ## <a name="finite-materials"></a>Matières limitées
 Si vous utilisez des matières limitées, la planification dépend également de la disponibilité des matières requises pour la production. Si les composants disponibles ne sont pas suffisants pour la production, la production peut être retardée. Vous pouvez baser la planification sur l’utilisation des matières en spécifiant les matières qui doivent être disponibles pour la production. Lorsque vous optimisez la capacité de la ressource et la disponibilité des matières, la production est calculée selon ces restrictions. Un ordre de fabrication ne peut pas être planifié tant que la capacité et les matières ne sont pas disponibles simultanément et dans les quantités requises.
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Options d’ordonnancement des opérations](operation-scheduling-options.md)
 

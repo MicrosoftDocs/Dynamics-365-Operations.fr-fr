@@ -16,12 +16,12 @@ ms.search.industry: Public sector
 ms.author: brpotter
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f185b09f42145c8ae019479d6226533505d3d448
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62130d2a0dea113ff54a7bb6d68a445b0fe32d97
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813956"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188973"
 ---
 # <a name="form-1099-in-the-public-sector"></a>Écran 1099 dans le secteur public
 
@@ -49,8 +49,7 @@ Vous pouvez également utiliser la page **Règlement fournisseur pour les décla
 -   Si le montant d’un formulaire est supérieur au montant minimal, l’administration fiscale peut exiger que tous les montants soient déclarés, même s’ils sont inférieurs au montant minimal.
 
 
-<a name="additional-resources"></a>Ressources supplémentaires
---------
+## <a name="additional-resources"></a>Ressources supplémentaires
 
 [Vue d’ensemble de la comptabilité fournisseur dans le secteur public](../public-sector/accounts-payable-public-sector.md)
 

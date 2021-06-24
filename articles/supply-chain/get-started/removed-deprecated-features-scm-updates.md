@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947542"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193228"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Fonctions supprimées ou obsolètes dans Dynamics 365 Supply Chain Management
 
@@ -38,10 +38,10 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="job-card-device"></a>Périphérique pour le bon de travail
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
-| **Motif de l’abandon/de la suppression** | Le [périphérique de bon de travail](../production-control/config-job-card-device.md) est remplacé par la nouvelle [interface d'exécution de l'atelier de production](../production-control/production-floor-execution-configure.md). |
-| **Remplacé par une autre fonctionnalité ?**   | Oui, le [périphérique de bon de travail](../production-control/config-job-card-device.md) va être remplacé par la nouvelle [interface d'exécution de l'atelier de production](../production-control/production-floor-execution-configure.md). |
+| **Motif de l’abandon/de la suppression** | Le [périphérique de bon de travail](../production-control/config-job-card-device.md) est remplacé par la nouvelle [interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md). |
+| **Remplacé par une autre fonctionnalité ?**   | Oui, le [périphérique de bon de travail](../production-control/config-job-card-device.md) va être remplacé par la nouvelle [interface d’exécution de l’atelier de production](../production-control/production-floor-execution-configure.md). |
 | **Zones de produit affectées** | Supply Chain Management - contrôle de la production |
 | **Option de déploiement** | Cloud et sur site |
 | **État** | Obsolète. Le périphérique du bon de travail bénéficiera d’un support avec correctifs de sécurité et de bogues, mais les améliorations de fonctionnalités ne seront plus fournies. Après avril 2022, le périphérique du bon de travail ne sera plus prise en charge et les clients seront invités à passer à la nouvelle interface d’exécution de l’atelier de production. |
@@ -50,7 +50,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Entreposage (l’application d’entrepôt)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | À compter d’avril 2021, *Dynamics 365 for Finance and Operations - Entreposage* (l’application d’entrepôt) est obsolète et ne sera plus prise en charge après avril 2022. Elle est maintenant remplacée par l’*Application mobile Gestion des entrepôts*, qui a été publiée avec la version 10.0.17 de Supply Chain Management. La nouvelle application est un remplacement complet, mais elle utilise la même infrastructure sous-jacente, ce qui facilite la migration. Si nécessaire, les deux applications peuvent être utilisées côte à côte pour aider les utilisateurs à s’adapter à mesure qu’ils apprennent à utiliser la nouvelle application.<br><br>Pour plus d’informations sur la nouvelle application mobile Gestion des entrepôts, voir [Application mobile Gestion des entrepôts](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) et [Installer et connecter l’application mobile Gestion des entrepôts](../warehousing/install-configure-warehouse-management-app.md). |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, remplacé par la nouvelle application mobile Gestion des entrepôts. |
@@ -62,7 +62,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>La prise en charge d’Internet Explorer 11 pour Dynamics 365 est obsolète
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Depuis décembre 2020, la prise en charge de tous les produits Dynamics 365 dans Microsoft Internet Explorer 11 est obsolète et Internet Explorer 11 ne sera plus pris en charge après août 2021.<br><br>Cela aura un impact sur les clients qui utilisent des produits Dynamics 365 conçus pour être utilisés via une interface Internet Explorer 11. Après août 2021, Internet Explorer 11 ne sera pas pris en charge pour ces produits Dynamics 365. |
 | **Remplacé par une autre fonctionnalité ?**   | Nous recommandons aux clients de passer à Microsoft Edge.|
@@ -72,7 +72,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Utilisation du moteur de planification Supply Chain Management intégré à des fins de fabrication
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Pour améliorer les performances et minimiser la charge de la base de données SQL lors des exécutions de planification, le moteur de planification de Supply Chain Management intégré est remplacé par l’Optimisation de la planification. Optimisation de la planification permet des cycles de planification rapides qui peuvent être effectués même pendant les heures de bureau. Cela permet aux planificateurs de réagir immédiatement aux changements de la demande ou des paramètres de planification. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
@@ -84,7 +84,7 @@ Cette liste est conçue pour vous aider à prendre en compte ces suppressions et
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Utilisation du moteur de planification Supply Chain Management intégré à des fins de distribution
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motif de l’abandon/de la suppression** | Pour améliorer les performances et minimiser la charge de la base de données SQL lors des exécutions de planification, le moteur de planification de Supply Chain Management intégré est remplacé par l’Optimisation de la planification. Optimisation de la planification permet des cycles de planification rapides qui peuvent être effectués même pendant les heures de bureau. Cela permet aux planificateurs de réagir immédiatement aux changements de la demande ou des paramètres de planification. |
 | **Remplacé par une autre fonctionnalité ?**   | Oui, Optimisation de la planification remplacera le moteur de planification de Supply Chain Management existant. |
