@@ -14,7 +14,7 @@
               items:
                 - name: Nouveautés ou modifications dans la page d’accueil des mises à jour de la plateforme
                   href: get-started/whats-new-home-page.md
-                - name: "Mises à jour de la plateforme pour la version\_10.0.20 (juillet\_2021)"
+                - name: "Mises à jour de la plateforme pour la version\_10.0.20 (août\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: "Mises à jour de la plateforme pour la version\_10.0.19 (juin\_2021)"
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -846,16 +846,14 @@
                       href: extensibility/breaking-changes.md
                     - name: Outil de vérification de compatibilité
                       href: extensibility/compatibility-checker-tool.md
-            - name: Performances
+            - name: Performance
               items:
-                - name: Effectuer des suivis à l’aide de Trace Parser
+                - name: Relever des traces à l’aide de Trace Parser
                   href: perf-test/trace-trace-tutorial.md
-                - name: Test mono-utilisateur avec l’enregistreur de tâches et le Kit de développement logiciel (SDK) des performances
+                - name: Test mono-utilisateur avec le Kit de développement logiciel (SDK) des performances et l’enregistreur de tâches
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Tests multi-utilisateur avec le Kit de développement logiciel (SDK) des performances et un contrôleur de test local
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Test multi-utilisateur avec le Kit de développement logiciel (SDK) des performances et Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+                - name: Test multiutilisateur avec le Kit de développement logiciel de performances
+                  href: perf-test/perfsdk-multi-user-testing.md
                 - name: Guide de dépannage pour les tests avec le Kit de développement logiciel (SDK) des performances
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Kit de développement logiciel (SDK) des performances et tests multi-utilisateur dans les environnements sur site
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Créer des traitements par lots
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Activation des nouvelles tentatives automatiques sur les tâches de traitement par lots
+                  href: sysadmin/retryable-batch.md
                 - name: Copier un traitement par lots
                   href: sysadmin/copy-batch-job.md
                 - name: Périodes de traitement par lots actives
@@ -1584,19 +1584,17 @@
                   href: migration-upgrade/analyze-code-upgrade.md
                 - name: Mise à niveau d’AX 2012 - Déployer un environnement de démonstration pour l’analyse
                   href: migration-upgrade/analysis-sandbox.md
-                - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de développement
+                - name: "Mise à niveau d’AX\_2012 - Mise à niveau des données dans des environnements de développement"
                   href: migration-upgrade/data-upgrade-2012.md
-                - name: Mise à niveau d’AX 2012 - Liste de contrôle préalable à la mise à niveau des données
+                - name: "Mise à niveau d’AX\_2012 - Liste de contrôle préalable à la mise à niveau des données"
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de bac à sable à l’aide du processus dacpac
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: Mise à niveau à partir d’AX 2012 - Réplication transactionnelle SQL
+                - name: "Mise à niveau à partir d’AX\_2012 - Réplication transactionnelle SQL"
                   href: database/replication-setup.md
-                - name: Mise à niveau d’AX 2012 - Mise à niveau des données dans des environnements de bac à sable
-                  href: migration-upgrade/upgrade-data-sandbox.md
-                - name: Mise à niveau d’AX 2012 - Environnements locaux
+                - name: "Mise à niveau à partir d’AX\_2012 - Mise à niveau des données dans les environnements en libre service"
+                  href: migration-upgrade/data-upgrade-self-service.md
+                - name: "Mise à niveau d’AX\_2012 - Environnements locaux"
                   href: migration-upgrade/on-prem-upgrade-2012.md
-                - name: Mise à niveau d’AX 2012 - Test de limite
+                - name: "Mise à niveau d’AX\_2012 - Test de limite"
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: Mise à niveau d’AX 2012 - Tâches postérieures à la mise à niveau
                   href: migration-upgrade/app-validation-process.md
