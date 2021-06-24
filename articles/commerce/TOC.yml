@@ -94,7 +94,7 @@
                   items:
                     - name: Nouveautés ou modifications dans la page d’accueil de Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: "Commerce\_10.0.20 (juillet\_2021)"
+                    - name: "Commerce\_10.0.20 (août\_2021)"
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: "Commerce\_10.0.19 (juin\_2021)"
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Conditions requises pour le contrôle de version du composant Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Architecture de Commerce Scale Unit
+                - name: Architecture du moteur de commerce sans affichage
                   href: dev-itpro/retail-server-architecture.md
                 - name: Sélectionner une topologie en magasin
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,9 +258,9 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Architecture de Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Architecture de publication de magasin en ligne
+                - name: Publier un canal de magasin en ligne
                   href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: Contenu Retail Channel Performance Power BI
+                - name: Contenu de Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Certification PA-DSS (Payment Application Data Security Standards)
                   href: dev-itpro/PA-DSS-Certification.md
@@ -546,7 +546,9 @@
                       href: paypal.md
                     - name: Support de paiement Wallet
                       href: wallets.md
-                    - name: FAQ Paiements
+                    - name: Paiements améliorés lors du paiement en magasin
+                      href: dev-itpro/enhanced-sca.md
+                    - name: FAQ sur les paiements
                       href: dev-itpro/payments-retail.md
                 - name: E-mail et notifications
                   items:
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: Vendre des programmes périodiques et traiter les commandes client
                   href: tasks/use-continuity-program.md
-                - name: Activer les notifications d’enregistrement des clients dans le point de vente (PDV)
+                - name: Activer les notifications d’enregistrement des clients dans le PDV
                   href: enable-customer-check-in.md
-            - name: Retours
+            - name: Retours et remboursements
               items:
+                - name: Créer des retours dans le PDV
+                  href: POS-returns.md
+                - name: Retourner les produits contrôlés par numéro de série dans le PDV
+                  href: POS-serial-returns.md
                 - name: Remboursements associés
                   href: dev-itpro/linked-refunds.md
                 - name: Vendre et retourner des produits non inclus dans l’assortiment d’un magasin
@@ -1230,17 +1236,21 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: Créer des configurations ER dans Regulatory Configuration Service et les charger dans le référentiel global
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service – Abandon du stockage Lifecycle Services
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Autriche
               items:
                 - name: Exemple d’intégration du service d’enregistrement fiscal pour l’Autriche
                   href: localizations/emea-aut-fi-sample.md
             - name: Brésil
               items:
-                - name: Localisation de commerce pour le Brésil
+                - name: Localisation de Commerce pour le Brésil
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Configurer et déployer la localisation de Commerce pour le Brésil
+                  href: localizations/latam-bra-deployment.md
             - name: Europe de l’Est
               items:
-                - name: Commune
+                - name: Commun
                   items:
                     - name: Factures d’acompte pour Commerce pour l’Europe de l’Est
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Générer des formulaires de facture financière imprimables
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Concevoir des solutions ER efficaces
+                  items:
+                    - name: Suivre l’exécution des formats ER pour résoudre les problèmes de performances
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: Résoudre les problèmes de performances dans les configurations ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Gestion des documents commerciaux (BDM)
                   items:
                     - name: Vue d’ensemble d’un processus BDM
@@ -2392,7 +2406,7 @@
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: FAQ sur le kit de développement logiciel (SDK) Retail
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: Extensibilité du point de vente
+            - name: Extensibilité du point de vente (PDV)
               items:
                 - name: Dispositions de l’écran de PDV
                   href: pos-screen-layouts.md
