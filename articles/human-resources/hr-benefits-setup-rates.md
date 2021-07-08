@@ -2,7 +2,7 @@
 title: Configurer les taux
 description: Les taux dans Microsoft Dynamics 365 Human Resources définissent combien les employeurs et les employés cotisent pour un avantage.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054978"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266655"
 ---
 # <a name="configure-rates"></a>Configurer les taux
 
@@ -46,7 +46,7 @@ Utilisez les taux pour déterminer combien les employés et les employeurs paien
    | **Expiration** | Date de fin du taux. 31/12/2154 (qui représente jamais) est la valeur par défaut. |
    | **Utiliser les niveaux** | Niveau à utiliser pour le calcul du taux d’avantage. Niveau unique pour un taux d’avantage à un ou deux niveaux pour un taux d’avantage à deux niveaux. Un exemple de double niveau est un niveau basé sur le sexe et l’âge. |
    | **Fréquence de paiement** | Fréquence de paiement qui détermine la fréquence à laquelle le taux de prime d’avantage est versé au fournisseur d’avantage. Par exemple, si la fréquence de paiement est mensuelle, le taux d’avantage représente le montant du paiement mensuel. |
-   | **Arrondi du taux de la fréquence de rémunération** | Méthode pour arrondir le taux : Standard ou Tronquée. |
+   | **Arrondi du taux de la fréquence de rémunération** | Les méthodes pour arrondir le taux sont : Standard, Tronqué, Normal, Inférieur et Arrondi vers le haut. </br></br><ul><li>**Standard** : Toujours arrondir vers le haut. Par exemple, 10,611 sera arrondi à 10,62. -10,231 sera arrondi à -10,23. </li><li>**Tronqué** : Toujours arrondir vers le bas. Par exemple, 10,619 sera arrondi à 10,61. -10,231 sera arrondi à -10,24. </li><li>**Normal** : les valeurs décimales se terminant par 5 ou un chiffre supérieur seront arrondies en s’éloignant de zéro. Les valeurs décimales se terminant par 4 ou un chiffre inférieur seront arrondies vers zéro. Par exemple, 10,615 sera arrondi à 10,62. -10,235 sera arrondi à -10,24. 10,614 sera arrondi à 10,61. -10,234 sera arrondi à -10,23. </li><li>**Vers le bas** : Arrondir vers zéro. Par exemple, 10,619 sera arrondi à 10,61. -10,231 sera arrondi à -10,23. </li><li>**Arrondir vers le haut** : Arrondir en s’éloignant de zéro. Par exemple, 10,619 sera arrondi à 10,62. -10,231 sera arrondi à -10,24. |
    | **Montant de l’employé non fumeur** | Le montant que le fournisseur d’avantages facture pour un employé non-fumeur. Il s’agit du montant que l’employeur verse au fournisseur d’avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |
    | **Montant de l’employeur non fumeur** | Le montant que le fournisseur d’avantages facture pour un employé non-fumeur. Il s’agit du montant que l’employeur verse au fournisseur d’avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |
    | **Montant de l’employé fumeur** | Le montant que le fournisseur d’avantages facture pour un employé fumeur. Il s’agit du montant que l’employeur verse au fournisseur d’avantage et il doit être basé sur la fréquence de paiement pour la configuration du taux. |

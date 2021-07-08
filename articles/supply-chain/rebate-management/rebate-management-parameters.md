@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: cf009e32f8c137e235793d80bf8448a5f55988bd
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dc41df33d01c3c8523afb6d8f16bfec88e0c42b8
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020433"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271027"
 ---
 # <a name="rebate-management-parameters"></a>Paramètres de gestion des remises
 
@@ -27,7 +27,7 @@ ms.locfileid: "6020433"
 
 La page **Paramètres de gestion des remises** est utilisée pour définir les paramètres qui s’appliquent au module **Gestion des remises**. Ces paramètres affectent la validation, les mises à jour de statut, les souches de numéros et d’autres comportements. La configuration de cette page est partagée entre les entités juridiques et peut être modifiée par les utilisateurs disposant des autorisations de sécurité appropriées.
 
-Pour ouvrir la page **Paramètres de gestion des remises**, accédez à **Remises et déductions\> Paramétrage \> Paramètres de gestion des remises**. Ensuite, définissez les champs comme décrit dans les sous-sections suivantes.
+Pour ouvrir la page **Paramètres de gestion des remises**, accédez à **Gestion des remises \> Paramétrage \> Paramètres de gestion des remises**. Ensuite, définissez les champs comme décrit dans les sous-sections suivantes.
 
 ## <a name="rebate-management-tab"></a>Onglet Gestion des remises
 
@@ -36,12 +36,12 @@ Le tableau suivant décrit les champs disponibles sur l’onglet **Gestion des r
 | Champ | Description |
 |---|---|
 | Statut par défaut | Sélectionnez le statut par défaut de tous les nouveaux accords. Pour définir l’ensemble des valeurs de statut disponibles pour la sélection, utilisez la page [**Statuts de remise**](rebate-statuses.md). |
-| Traitement par dimension | Indiquez si les transactions de provision, de remise et d’annulation doivent être traitées par dimension financière. Lorsque cette option est activée, le système utilise les dimensions financières pour les transactions source. |
+| Traitement par dimension | Indiquez si les transactions de provision, de remise et d’annulation doivent être traitées par dimension financière. Lorsque cette option est activée, le système utilise les dimensions financières provenant des transactions source dans les transactions cibles. |
 | Vérification de validation antérieure | <p>Sélectionnez le comportement du système si des transactions de remise non validées sont traitées plusieurs fois pendant la même période :</p><ul><li>**Avertissement** : le système permet aux utilisateurs de remplacer les lignes de transaction d’origine, mais un avertissement s’affiche.</li><li>**Erreur** : le système empêche les utilisateurs de remplacer les lignes de transaction d’origine et un message d’erreur s’affiche. |
 | Valider automatiquement les journaux | Sélectionnez si le système doit valider automatiquement les journaux proposés. Ces journaux comprennent les journaux quotidiens qui sont utilisés pour les provisions et les déductions client, ainsi que les journaux des factures fiscales des fournisseurs. |
 | Validation automatique des factures financières | Sélectionnez si le système doit valider automatiquement les factures financières. Cette option s’applique uniquement aux factures financières pour lesquelles le type de paiement est défini sur *Déductions client sur facture fiscale*. |
-| Référence de commande d’article de remise | Sélectionnez la référence de remise à utiliser sur les commandes client et fournisseur générées à partir du processus de remise (*Aucun*,*Accord de remise et de déductions*, *Numéro de remise et déduction*, *Numéro de transaction de remise*, ou *Notes de document*). |
-| Utilisation du processus de revendication | <p>Définissez cette option sur *Oui* pour utiliser le processus de revendication. De cette manière, vous pouvez marquer les transactions créées par la gestion des remises comme revendiquées ou non, puis valider uniquement les transactions revendiquées.</p><p>Par exemple, vous calculez les remises pour un mois de transactions, mais le client a laissé deux jours non revendiqués. Dans ce cas, les transactions non réclamées seront recréées la prochaine fois que vous exécuterez la fonction *Traiter* pour la même période.</p><p>Si vous définissez cette option sur *Non*, toutes les transactions de revendication sont validées.</p> |
+| Référence de commande d’article de remise | Sélectionnez la référence de remise à utiliser sur les commandes client et fournisseur générées à partir du processus de remise (*Aucun*, *Accord de gestion des remises*, *Numéro de gestion des remises*, *Numéro de transaction de remise*, ou *Notes de document*). |
+| Utilisation du processus de revendication | <p>Définissez cette option sur *Oui* pour utiliser le processus de revendication. De cette manière, vous pouvez marquer les transactions créées par la gestion des remises comme revendiquées ou non, puis valider uniquement les transactions revendiquées.</p><p>Par exemple, vous calculez les remises pour un mois de transactions, mais le client a laissé deux jours non revendiqués. Dans ce cas, les transactions non réclamées seront recréées la prochaine fois que vous exécuterez la fonction *Traiter* pour la période suivante.</p><p>Si vous définissez cette option sur *Non*, toutes les transactions de revendication sont validées.</p> |
 | Inclure le journal de type de commande | Pour les accords ou les lignes d’accord où le type de transaction est défini sur *Commande*, cette option contrôle si une commande client du type *Journal* doit être incluse. Cela offre une certaine flexibilité si ces types de commande sont utilisés dans des scénarios où une remise ne devrait pas encore s’appliquer. |
 
 ## <a name="number-sequences-tab"></a>Onglet Souches de numéros
@@ -50,8 +50,8 @@ Utilisez l’onglet **Souche de numéros** sur la page **Paramètres de gestion 
 
 | Référence | Description |
 |---|---|
-| Accord de remise et de déductions | La souche de numéros attribue une valeur de clé unique à chaque accord de remise. Cette clé est utilisée lors de la création des accords. |
-| Numéro de remise et déduction | La souche de numéros attribue une valeur de clé unique à chaque remise. Cette clé est utilisée pour identifier les relations de remise. |
+| Accord de gestion des remises | La souche de numéros attribue une valeur de clé unique à chaque accord de remise. Cette clé est utilisée lors de la création des accords. |
+| Numéro de gestion des remises | La souche de numéros attribue une valeur de clé unique à chaque remise. Cette clé est utilisée pour identifier les relations de remise. |
 | Numéro de transaction de remise | La souche de numéros attribue une valeur de clé unique à chaque transaction de remise. Cette clé est utilisée pour identifier les transactions de remise. |
 | Facture fiscale | La souche de numéros attribue une valeur de clé unique à chaque facture de remise. Cette clé est utilisée lorsque les journaux de remise sont automatiquement validés. |
 

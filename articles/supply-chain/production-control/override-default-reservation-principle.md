@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814800"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270785"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Remplacer le principe de réservation par défaut pour les articles en production
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 La fonctionnalité *Remplacer la réservation de production par défaut* vous permet de définir un principe de réservation par défaut pour chaque groupe de modèles d’article. Par conséquent, différents principes de réservation peuvent être automatiquement appliqués pour chaque article faisant partie d’une nomenclature de production ou d’une formule de commande par lots. Vous pouvez choisir si chaque groupe de modèles d’article doit remplacer le principe de réservation par défaut défini pour une commande, et quel principe de réservation doit être utilisé à la place (*manuel*, *estimation*, *planification*, *lancement* ou *démarrage*).
 
@@ -37,7 +36,7 @@ Par exemple, si des matières premières ou des ingrédients nécessitent un tra
 Avant de pouvoir utiliser cette fonctionnalité, vous devez l’activer sur votre système. Les administrateurs peuvent utiliser les paramètres de [gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) pour vérifier le statut de la fonctionnalité et l’activer si nécessaire. Dans l’espace de travail **Gestion des fonctionnalités**, la fonctionnalité est répertoriée comme suit :
 
 - **Module :** *Contrôle de la production*
-- **Nom de la fonctionnalité :** *(version préliminaire) Remplacer la réservation de production par défaut*
+- **Nom de la fonctionnalité :** *Remplacer la réservation de production par défaut*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Attribuer une stratégie de réservation de production à un groupe de modèles d’article
 
