@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908878"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301648"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importer les données d’historique pour les prévisions de la demande
 
@@ -39,26 +39,6 @@ Pour utiliser l’entité de données, vous devez disposer d’un fichier Micros
 
 Pour plus d’informations sur l’importation de données, notamment le nettoyage des données après une importation, voir [Vue d’ensemble des tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) et ses rubriques associées.
 
-## <a name="example"></a>Exemple
-
-Vous pouvez utiliser le fichier suivant comme exemple. Téléchargez le fichier [HistoricalDemandData](/dynamics/s-e/). Ce fichier contient les données de demande d’historique pour l’article D0001. Il contient uniquement les champs obligatoires suivants : site, quantité et date de la demande.
-
-1. Sélectionnez la société dans laquelle importer les données de demande d’historique.
-2. Ouvrez l’espace de travail **Gestion des données**.
-3. Sélectionnez la vignette **Importer**.
-4. Entrez un nom pour le projet d’importation, par exemple **Importer la demande d’historique pour l’article D0001**.
-5. Dans le champ **Format des données source**, sélectionnez le format du fichier que vous importez. Pour importer le fichier HistoricalDemandData pour cet exemple, sélectionnez **CSV**.
-6. Dans le champ **Nom d’entité**, sélectionnez **Demande externe d’historique**.
-7. Enregistrez le fichier sur votre ordinateur, puis téléchargez-le.
-8. Sélectionnez **Importer**.
-9. La page **Synthèse de l’exécution** s’ouvre automatiquement. Vérifiez les données importées dans la page.
-
-Après avoir importé les données de demande d’historique, vous pouvez générer une prévision de la demande.
-
-## <a name="additional-resources"></a>Ressources supplémentaires
-
-[Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)  
-[Vue d’ensemble de tâches d’importation et d’exportation de données](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Voir aussi [Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

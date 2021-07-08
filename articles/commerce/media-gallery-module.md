@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 809916118d8eb709c0bde31bb23fa8daa1f7e60c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022518"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271278"
 ---
 # <a name="media-gallery-module"></a>Module Galerie multimédia
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules Galerie multimédia et décrit comment les ajouter aux pages du site dans Microsoft Dynamics 365 Commerce.
 
@@ -53,10 +52,10 @@ Dans l’exemple de l’illustration suivante, une zone d’achat sur une page d
 | Zoom sur l’image | **En ligne** ou **Conteneur** | Cette propriété permet à l’utilisateur d’effectuer un zoom sur les images dans le module Galerie multimédia. Une image peut faire l’objet d’un zoom en ligne ou dans un conteneur distinct en regard de l’image. Cette fonctionnalité est disponible dans la version 10.0.12. |
 | Facteur de zoom | Nombre décimal | Cette propriété spécifie le facteur d’échelle du zoom sur les images. Par exemple, si la valeur est définie sur **2,5**, les images sont agrandies 2,5 fois. |
 | Plein écran | **Vrai** ou **Faux** | Cette propriété spécifie si les images peuvent être affichées en mode plein écran. En mode plein écran, les images peuvent également être agrandies davantage si la fonctionnalité de zoom est activée. Cette fonctionnalité est disponible dans la version 10.0.13 de Commerce. |
-| Qualité d'image agrandie | Un nombre compris entre 1 et 100 qui représente un pourcentage et qui est sélectionné à l'aide d'un contrôle de la barre de suivi | Cette propriété définit la qualité d'image pour les images agrandies. Elle peut être définie sur 100 % pour garantir qu'une image agrandie utilise toujours la résolution la plus élevée possible. Cette propriété ne s'applique pas aux fichiers PNG, car ils utilisent un format sans perte. Cette fonctionnalité est disponible à compte de la version 10.0.19 de Commerce. |
+| Qualité d’image agrandie | Un nombre compris entre 1 et 100 qui représente un pourcentage et qui est sélectionné à l’aide d’un contrôle de la barre de suivi | Cette propriété définit la qualité d’image pour les images agrandies. Elle peut être définie sur 100 % pour garantir qu’une image agrandie utilise toujours la résolution la plus élevée possible. Cette propriété ne s’applique pas aux fichiers PNG, car ils utilisent un format sans perte. Cette fonctionnalité est disponible à compte de la version 10.0.19 de Commerce. |
 | Images | Images sélectionnées dans la bibliothèque multimédia du générateur de site | En plus de leur affichage à partir d’un produit, les images peuvent être organisées pour un module Galerie multimédia. Ces images sont ajoutées à toutes les images de produit disponibles. Cette fonctionnalité est disponible dans la version 10.0.12 de Commerce. |
 | Orientation des miniatures | **Vertical** ou **Horizontal** | Cette propriété spécifie si les images miniatures doivent être affichées dans une bande verticale ou une bande horizontale. |
-| Masquer les images principales du produit pour la variante | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu'une variante est sélectionnée, les images du produit maître sont masquées à moins que la variante ne comporte aucune image. Cette propriété n'affecte pas les produits sans variantes. |
+| Masquer les images principales du produit pour la variante | **Vrai** ou **Faux** | Si cette propriété est définie sur **True**, lorsqu’une variante est sélectionnée, les images du produit maître sont masquées à moins que la variante ne comporte aucune image. Cette propriété n’affecte pas les produits sans variantes. |
 
 L’illustration suivante montre un exemple de module Galerie multimédia où les options Plein écran et Zoom sont disponibles.
 

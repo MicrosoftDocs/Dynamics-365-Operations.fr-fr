@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103591"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301672"
 ---
 # <a name="get-started-with-planning-optimization"></a>Mise en route de l’optimisation de la planification
 
@@ -107,8 +107,10 @@ Le statut de connexion indique le statut actuel de la connexion entre Supply Cha
 
 Le paramètre de l’option **Utiliser l’Optimisation de la planification** détermine quel moteur de planification est utilisé pour la planification :
 
-- **Oui** – L’Optimisation de la planification est utilisée pour la planification.
-- **Non** – Le moteur de planification intégré dans Supply Chain Management est utilisé pour la planification.
+- **Oui** – L’Optimisation de la planification est utilisée pour la planification.
+- **Non** – Le moteur de planification intégré dans Supply Chain Management est utilisé pour la planification.
+
+Ce paramètre s’applique à toutes les entités juridiques (sociétés). Il n’est pas possible d’utiliser l’optimisation de la planification dans certaines entités juridiques et la planification générale intégrée dans d’autres entités juridiques.
 
 > [!NOTE]
 > Si des traitements par lots existants de planification créés pour le moteur de planification intégré de Supply Chain Management sont déclenchés tandis que l’option **Utiliser l’Optimisation de la planification** est définie sur **Oui**, ces tâches échoueront.

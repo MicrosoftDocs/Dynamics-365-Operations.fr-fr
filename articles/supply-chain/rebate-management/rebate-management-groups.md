@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020481"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271075"
 ---
 # <a name="rebate-management-groups"></a>Groupes de gestion des remises
 
 [!include [banner](../includes/banner.md)]
 
-Les calculs de remise et de déduction peuvent être déterminés par des groupes. Il est possible de créer des groupes de gestion des remises pour les clients, les fournisseurs et les articles. Ils peuvent être joints à un enregistrement principal.
+Les calculs de gestion des remise peuvent être déterminés par des groupes. Il est possible de créer des groupes de gestion des remises pour les clients, les fournisseurs et les articles. Ils peuvent être joints à un enregistrement principal.
 
 ## <a name="rebate-management-customer-groups"></a>Groupes de clients pour la gestion des remises
 
@@ -49,10 +49,9 @@ Pour afficher, ajouter ou supprimer des clients d’un groupe sélectionné, pro
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes de clients**.
 1. Sélectionnez le groupe à gérer.
 1. Dans le volet Action, sélectionnez **Clients**. La page **Groupes de gestion des remises** apparaît et affiche une liste de clients qui sont déjà membres du groupe sélectionné.
-1. Pour ajouter un nouveau client au groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
+1. Pour ajouter un nouveau client au groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite le champ suivant pour la nouvelle ligne :
 
     - **Compte client** : sélectionnez l’ID de compte client.
-    - **Nom** : saisissez un nom et/ou une description du client.
 
 1. Pour supprimer un client du groupe, sélectionnez le client, puis sélectionnez **Supprimer** dans le volet Actions.
 
@@ -61,10 +60,9 @@ Pour afficher, ajouter ou supprimer des affectations de groupe pour un client s�
 1. Allez dans **Comptabilité client \> Clients \> Tous les clients**.
 1. Sélectionnez le client concerné.
 1. Dans le volet Actions, sous l’onglet **Client**, dans le groupe **Gestion des remises**, sélectionnez **Groupes de gestion des remises**. La page **Groupes de gestion des remises** apparaît et affiche une liste des groupes auxquels appartient déjà le client.
-1. Pour ajouter le client à un nouveau groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
+1. Pour ajouter le client à un nouveau groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite le champ suivant pour la nouvelle ligne :
 
     - **Groupe de gestion des remises** : sélectionnez le groupe auquel ajouter le client.
-    - **Description** : saisissez une description du groupe (par exemple, pour expliquer pourquoi le client en est membre).
 
 1. Pour supprimer un client d’un groupe, sélectionnez le groupe, puis sélectionnez **Supprimer** dans le volet Actions.
 
@@ -88,10 +86,9 @@ Pour afficher, ajouter ou supprimer des fournisseurs d’un groupe sélectionné
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes de fournisseurs**.
 1. Sélectionnez le groupe à gérer.
 1. Dans la volet Actions, sélectionnez **Fournisseurs**. La page **Groupes de gestion des remises** apparaît et affiche une liste de fournisseurs qui sont déjà membres du groupe sélectionné.
-1. Pour ajouter un nouveau fournisseur au groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
+1. Pour ajouter un nouveau fournisseur au groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite le champ suivant pour la nouvelle ligne :
 
     - **Compte fournisseur** : sélectionnez l’ID de compte fournisseur.
-    - **Nom** : saisissez un nom et/ou une description du fournisseur.
 
 1. Pour supprimer un fournisseur du groupe, sélectionnez le fournisseur, puis sélectionnez **Supprimer** dans le volet Actions.
 
@@ -100,10 +97,9 @@ Pour afficher, ajouter ou supprimer des affectations de groupe pour un fournisse
 1. Accédez à **Comptabilité fournisseur \> Fournisseurs \> Tous les fournisseurs**.
 1. Sélectionnez le fournisseur concerné.
 1. Dans le volet Actions, sous l’onglet **Fournisseur**, dans le groupe **Gestion des remises**, sélectionnez **Groupes de gestion des remises**. La page **Groupes de gestion des remises** apparaît et affiche une liste des groupes auxquels appartient déjà le fournisseur.
-1. Pour ajouter le fournisseur à un nouveau groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
+1. Pour ajouter le fournisseur à un nouveau groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite le champ suivant pour la nouvelle ligne :
 
     - **Groupe de gestion des remises** : sélectionnez le groupe auquel ajouter le fournisseur.
-    - **Description** : saisissez une description du groupe (par exemple, pour expliquer pourquoi le fournisseur en est membre).
 
 1. Pour supprimer un fournisseur d’un groupe, sélectionnez le groupe, puis sélectionnez **Supprimer** dans le volet Actions.
 
@@ -127,10 +123,9 @@ Pour afficher, ajouter ou supprimer des articles d’un groupe sélectionné, pr
 1. Accédez à **Gestion des remises \> Configuration des groupes de gestion des remises \> Groupes d’articles**.
 1. Sélectionnez le groupe à gérer.
 1. Dans le volet Actions, sélectionnez **Articles**. La page **Groupes de gestion des remises** apparaît et affiche une liste d’articles qui sont déjà membres du groupe sélectionné.
-1. Pour ajouter un nouvel article au groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
+1. Pour ajouter un nouvel article au groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite le champ suivant pour la nouvelle ligne :
 
     - **Compte article** : sélectionnez l’ID de compte article.
-    - **Nom du produit** : saisissez un nom et/ou une description de l’article.
 
 1. Pour supprimer un article du groupe, sélectionnez l’article, puis sélectionnez **Supprimer** dans le volet Actions.
 
@@ -139,10 +134,9 @@ Pour afficher, ajouter ou supprimer des affectations de groupe pour un article s
 1. Allez à **Gestion des informations sur les produits \> Produits \> Produits lancés**.
 1. Sélectionnez l’article concerné.
 1. Dans le volet Actions, sous l’onglet **Produit**, dans le groupe **Gestion des remises**, sélectionnez **Groupes de gestion des remises**. La page **Groupes de gestion des remises** apparaît et affiche une liste des groupes auxquels appartient déjà l’article.
-1. Pour ajouter l’article à un nouveau groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite les champs suivants pour la nouvelle ligne :
+1. Pour ajouter l’article à un nouveau groupe, sélectionnez **Nouveau** dans le volet Actions pour ajouter une ligne à la grille. Définissez ensuite le champ suivant pour la nouvelle ligne :
 
     - **Groupe de gestion des remises** : sélectionnez le groupe auquel ajouter l’article.
-    - **Description** : saisissez une description du groupe (par exemple, pour expliquer pourquoi l’article en est membre).
 
 1. Pour supprimer un article d’un groupe, sélectionnez le groupe, puis sélectionnez **Supprimer** dans le volet Actions.
 

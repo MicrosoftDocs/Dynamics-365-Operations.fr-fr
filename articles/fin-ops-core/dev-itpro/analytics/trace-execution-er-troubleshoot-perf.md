@@ -2,7 +2,7 @@
 title: Suivre l’exécution des formats d’état électronique pour résoudre les problèmes de performances
 description: Cette rubrique fournit des informations sur l’utilisation de la fonctionnalité de suivi des performances dans la gestion des états électroniques (ER) pour résoudre les problèmes de performances.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944651"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295571"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Suivez l’exécution des formats d’ER pour résoudre les problèmes de performances
 
@@ -119,24 +119,39 @@ Les versions correspondantes des configurations de modèle de données et de mis
 2. Dans la page **Configurations**, dans le volet Actions, sous l’onglet **Configurations**, dans le groupe **Paramètres avancés**, sélectionnez **Paramètres utilisateur**.
 3. Dans la boîte de dialogue **Paramètres utilisateur**, dans la section **Suivi d’exécution**, procédez comme suit :
 
-    1. Dans le champ **Format du suivi de l’exécution**, sélectionnez **Déboguer le format de suivi** pour commencer à collecter les détails de l’exécution de format ER. Lorsque cette valeur est activée, le suivi des performances collecte des informations sur le temps passé sur les actions suivantes :
+    1. Dans le champ **Format du suivi de l’exécution**, spécifiez le format du suivi des performances généré dans lequel les détails de l’exécution doivent être enregistrés pour les éléments de format et de mise en correspondance ER :
 
-        - Exécution de chaque source de données dans la mise en correspondance de modèle appelée pour obtenir des données
-        - Traitement de chaque élément de format pour entrer des données dans la sortie qui est générée
+        - **Format de trace de débogage** : sélectionnez cette valeur si vous prévoyez d’exécuter de manière interactive un format ER dont le temps d’exécution est court. La collecte de détails sur l’exécution du format ER est alors lancée. Lorsque cette valeur est activée, le suivi des performances collecte des informations sur le temps passé sur les actions suivantes :
 
-        Le champ **Format du suivi de l’exécution** permet de spécifier le format du suivi des performances généré dans lequel les détails de l’exécution sont enregistrés pour les éléments de format et de mise en correspondance ER. En sélectionnant **Déboguer le format de suivi** comme valeur, vous pourrez analyser le contenu du suivi dans le Concepteur d’opération ER, puis consultez les éléments de format ou de mise en correspondance ER mentionnés dans le suivi.
+            - Exécution de chaque source de données dans la mise en correspondance de modèle appelée pour obtenir des données
+            - Traitement de chaque élément de format pour entrer des données dans la sortie qui est générée
+
+            Si vous sélectionnez la valeur **Format de trace de débogage**, vous pouvez analyser le contenu de la trace dans le concepteur d’opérations ER. Là, vous pouvez afficher le format ER ou les éléments de mise en correspondance qui sont mentionnés dans la trace.
+
+        - **Format de trace agrégé** : sélectionnez cette valeur si vous prévoyez d’exécuter un format ER dont le temps d’exécution est long en mode de traitement par lots. La collecte des détails agrégés sur l’exécution du format ER est alors lancée. Lorsque cette valeur est activée, le suivi des performances collecte des informations sur le temps passé sur les actions suivantes :
+
+            - Exécution de chaque source de données dans la mise en correspondance de modèle appelée pour obtenir des données
+            - Exécution de chaque source de données dans la mise en correspondance de format appelée pour obtenir des données
+            - Traitement de chaque élément de format pour entrer des données dans la sortie qui est générée
+
+            La valeur **Format de trace agrégé** est disponible dans Microsoft Dynamics 365 Finance version 10.0.20 et versions ultérieures.
+
+            Dans le concepteur de format ER et le concepteur de mise en correspondance de modèle ER, vous pouvez afficher le temps d’exécution total pour un seul composant. De plus, la trace contient des détails sur l’exécution, tels que le nombre d’exécutions et la durée minimale et maximale d’une seule exécution.
+
+            > [!NOTE]
+            > Cette trace est collectée en fonction du chemin d’accès des composants tracés. Par conséquent, les statistiques peuvent être incorrectes lorsqu’un seul composant parent contient plusieurs composants enfants sans nom, ou lorsque plusieurs composants enfants portent le même nom.
 
     2. Définissez les options suivantes sur **Oui** pour collecter les détails spécifiques de l’exécution des composants de mise en correspondance de modèle ER et de format ER :
 
-        - **Collecter les statistiques sur les requêtes** – Lorsque cette option est activée, le suivi des performances collecte les informations suivantes :
+        - **Collecter les statistiques sur les requêtes** – Lorsque cette option est activée, le suivi des performances collecte les informations suivantes :
 
             - Nombre d’appels de base de données effectués par des sources de données
             - Nombre d’appels en double à la base de données
             - Détails des instructions SQL utilisées pour les appels de base de données
 
-        - **Suivre l’accès de la mise en cache** – Lorsque cette option est activée, le suivi des performances collecte des informations sur l’utilisation du cache de la mise en correspondance de modèle ER.
-        - **Suivre l’accès aux données** – Lorsque cette option est activée, le suivi des performances collecte des informations sur le nombre d’appels à la base de données pour les sources de données exécutées de type de liste d’enregistrements.
-        - **Énumération de la liste de suivi** – Lorsque cette option est activée, le suivi des performances collecte des informations sur le nombre d’enregistrements demandés à la base de données pour les sources de données exécutées de type de liste d’enregistrements.
+        - **Suivre l’accès de la mise en cache** – Lorsque cette option est activée, le suivi des performances collecte des informations sur l’utilisation du cache de la mise en correspondance de modèle ER.
+        - **Suivre l’accès aux données** – Lorsque cette option est activée, le suivi des performances collecte des informations sur le nombre d’appels à la base de données pour les sources de données exécutées de type de liste d’enregistrements.
+        - **Énumération de la liste de suivi** – Lorsque cette option est activée, le suivi des performances collecte des informations sur le nombre d’enregistrements demandés à la base de données pour les sources de données exécutées de type de liste d’enregistrements.
 
     > [!NOTE]
     > Les paramètres dans la boîte de dialogue **Paramètres utilisateur** sont spécifiques à l’utilisateur et à la société actuelle.
@@ -185,7 +200,7 @@ Notez que l’association entre le suivi des performances généré pour le form
 
     ![Boîte de dialogue Paramètres des résultats du suivi des performances dans RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
-### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Utilisez le suivi des performances à des fins d’analyse dans RCS – Exécution du format
+### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Utilisez le suivi des performances à des fins d’analyse dans RCS – Exécution du format
 
 1. Dans RCS, dans la page **Concepteur de formats**, sélectionnez **Développer/réduire** pour développer le contenu de tous les éléments de format.
 
@@ -198,7 +213,7 @@ Notez que l’association entre le suivi des performances généré pour le form
 
 2. Fermez la page **Concepteur de formats**.
 
-### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Utilisez le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Utilisez le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle
 
 1. Dans RCS, sur la page **Configurations**, dans l’arborescence de configuration, sélectionnez l’élément **Mise en correspondance de suivi des performances**.
 2. Dans le volet Actions, sélectionnez **Concepteur**.
@@ -308,9 +323,9 @@ Répétez les étapes de la section [Exporter le suivi généré dans l’applic
 
 Répétez les étapes de la section [Importer le suivi généré dans RCS](#import-trace) plus haut dans cette rubrique pour importer le nouveau suivi des performances dans RCS.
 
-### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle
 
-Répétez les étapes de la section [Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle](#use-trace) plus haut dans cette rubrique pour analyser le dernier suivi des performances.
+Répétez les étapes de la section [Utiliser le suivi des performances à des fins d’analyse dans RCS – Mise en correspondance de modèle](#use-trace) plus haut dans cette rubrique pour analyser le dernier suivi des performances.
 
 Notez que les ajustements effectués à la mise en correspondance de modèles ont éliminé les requêtes en double de la base de données. Le nombre d’appels aux tables de base de données et aux sources de données pour cette mise en correspondance de modèles a également été réduit. Par conséquent, les performances de l’ensemble de la solution ER ont été améliorées.
 

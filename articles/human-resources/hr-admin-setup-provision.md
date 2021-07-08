@@ -1,8 +1,8 @@
 ---
 title: Mettre en service Human Resources
-description: Cet article décrit le processus de mise à disposition d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
+description: Cette rubrique décrit le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193722"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248819"
 ---
 # <a name="provision-human-resources"></a>Mettre en service Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6193722"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Cet article décrit le processus de mise à disposition d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources. Cet article suppose que vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). Si vous disposez d’une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Human Resources et que vous ne pouvez pas effectuer les étapes décrites dans cet article, contactez le support technique.
+Cette rubrique décrit le processus de mise en service d’un nouvel environnement de production pour Microsoft Dynamics 365 Human Resources. Cette rubrique suppose que vous avez acheté Human Resources par l’intermédiaire d’un fournisseur de solutions Cloud (CSP) ou dans le cadre d’un contrat d’architecture d’entreprise (EA). Si vous disposez d’une licence Microsoft Dynamics 365 existante qui inclut déjà le plan de service Human Resources et que vous ne pouvez pas effectuer les étapes décrites dans cet article, contactez le support technique.
 
 Pour commencer, l’administrateur global doit se connecter à [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) et créer un projet Human Resources. Il n’est pas nécessaire de contacter le support technique ou les représentants de Dynamics Service Engineering (DSE) sauf si un problème de licence vous empêche de mettre en service Human Resources.
+
+## <a name="provision-a-human-resources-trial-environment"></a>Configuration d’un environnement d’essai Human Resources
+
+Avant de provisionner votre premier environnement bac à sable ou de production, vous souhaiterez peut-être provisionner un [Environnement d’essai Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) pour valider la fonctionnalité Human Resources. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. 
+
+Les environnements d’essai ne sont pas destinés à être utilisés comme environnements de production. Ils sont limités à une période d’essai de 60 jours. À l’expiration de la période d’essai, l’environnement et toutes les données qu’il contient sont supprimés et ne peuvent pas être récupérés. L’environnement ne peut pas être converti en environnement bac à sable ou de production. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
 
 ## <a name="plan-human-resources-environments"></a>Planifier les environnements Human Resources
 
@@ -95,8 +101,6 @@ Une fois que vous avez créé un projet LCS, vous pouvez mettre en service Human
     > [!NOTE]
     > Si vous ne vous êtes pas encore déconnecté, vous pouvez déployer une instance de test de Human Resources dans le projet. Vous pouvez ensuite utiliser cette instance pour tester votre solution jusqu’à ce que vous vous déconnectiez. Si vous utilisez votre nouvel environnement pour les tests, vous devez répéter cette procédure pour créer un environnement de production.
 
-    > Vous pouvez envisager de profiter d’une offre d’essai de 60 jours à [Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Bien qu’un environnement d’évaluation soit la propriété de l’utilisateur qui l’a demandé, d’autres utilisateurs peuvent être invités par l’expérience d’administration système pour Ressources humaines. Les environnements d’évaluation contiennent des données fictives qui peuvent être utilisées pour explorer le programme de manière sûre. Ils ne sont pas destinés à être utilisés comme environnements de production. Notez que lorsqu’un environnement d’évaluation expire après 60 jours, toutes les données qu’il contient sont supprimées et ne peuvent pas être récupérées. Vous pouvez vous inscrire à un nouvel environnement d’évaluation après expiration de l’environnement existant.
-
 ## <a name="select-a-power-apps-environment"></a>Sélectionner un environnement Power Apps
 
 Vous pouvez intégrer et étendre l’utilisation des données de Human Resources à l’aide des outils Power Apps. Pour plus d’informations sur les environnements Power Apps, notamment la portée de l’environnement, l’accès à l’environnement ainsi que la création et le choix d’un environnement, voir [Annonce des environnements Power Apps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
@@ -113,11 +117,11 @@ Utilisez les consignes suivantes pour déterminer dans quel environnement Power 
 
 5. Vous ne pouvez pas utiliser les environnements Power Apps suivants pour Human Resources. Ils sont filtrés à partir de la liste de sélection dans LCS :
  
-    - **Environnements Power Apps par défaut** – Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production lors des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
+    - **Environnements Power Apps par défaut** – Alors que chaque client est automatiquement provisionné avec une valeur d’environnement Power Apps par défaut, nous ne recommandons pas de les utiliser avec les Human Resources. Tous les utilisateurs clients peuvent accéder à l’environnement Power Apps et pourraient involontairement corrompre les données de production lors des tests et de l’exploration avec les intégrations Power Apps ou Power Automate.
    
-    - **Environnements d’essai** – Ces environnements sont créés avec une date d’expiration. À l’expiration, votre environnement et toutes les instances de Human Resources qu’il contient seront supprimés automatiquement.
+    - **Environnements d’essai** – Ces environnements sont créés avec une date d’expiration. À l’expiration, votre environnement et toutes les instances de Human Resources qu’il contient seront supprimés automatiquement.
    
-    - **Zones géographiques non prises en charge** - L’environnement doit être dans une zone géographique prise en charge. Pour plus d’informations, consultez [Zones géographiques prises en charge](hr-admin-setup-provision.md#supported-geographies).
+    - **Zones géographiques non prises en charge** – L’environnement doit être dans une zone géographique prise en charge. Pour plus d’informations, consultez [Zones géographiques prises en charge](hr-admin-setup-provision.md#supported-geographies).
 
 6. Après avoir déterminé l’environnement à utiliser, vous pouvez poursuivre le processus d’approvisionnement. 
 

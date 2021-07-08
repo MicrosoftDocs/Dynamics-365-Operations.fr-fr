@@ -2,7 +2,7 @@
 title: Configuration des types de congé et d’absence
 description: Configurez les types de congés que les employés peuvent prendre dans Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056610"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271125"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configuration des types de congé et d’absence
 
@@ -71,7 +71,7 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
    
  3. Définissez **Report de type de congé** pour le type de congé. Lorsque vous sélectionnez cette option, tous les soldes de report seront transférés vers le type de congé spécifié. Le report de type de congé doit également être inclus dans le plan de congé et d’absence. 
  
- 4. Définissez **Règles d’expiration** pour le type de congé. Lorsque vous configurez cette option, vous pouvez choisir l’unité jours ou mois et définir la durée de l’expiration. Vous pouvez également définir la date d’entrée en vigueur de la règle d’expiration. La date d’effet est utilisée pour déterminer quand démarrer l’exécution du traitement par lots qui traite l’expiration du congé, ou la date à laquelle la règle entre en vigueur. L’expiration elle-même se produira toujours à la date de début du plan de congé une fois que le traitement par lots est configuré pour être traité. Par exemple, la date de début du plan peut être le 01/01/2020, mais la règle n’a été créée que le 01/06/2020. En définissant la date d’entrée en vigueur sur 06/01/2020, la règle sera traitée à la limite de l’année suivante, donc 01/01/2021. Tout solde de congé existant au moment de l’expiration sera soustrait du type de congé et sera reflété dans le solde de congé. 
+4. Définissez **Règles d’expiration** pour le type de congé. Lorsque vous configurez cette option, vous pouvez choisir l’unité jours ou mois et définir la durée de l’expiration. La date d’effet de la règle d’expiration est utilisée pour déterminer quand démarrer l’exécution du traitement par lots qui traite l’expiration du congé, ou la date à laquelle la règle entre en vigueur. L’expiration elle-même se produira toujours à la date de début de la période de régularisation. Par exemple, si la date de début de la période de régularisation est le 3 août 2021 et que la règle d’expiration a été fixée à 6 mois, la règle sera traitée en fonction du décalage de l’expiration par rapport à la date de début de la période de régularisation ; elle sera donc exécutée le 3 février 2022. Tout solde de congé existant au moment de l’expiration sera soustrait du type de congé et sera reflété dans le solde de congé.
  
 ## <a name="see-also"></a>Voir également :
 
@@ -79,6 +79,7 @@ Les types de congés dans Dynamics 365 Human Resources définissent les différe
 - [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
 - [Créer un calendrier du temps de travail](hr-leave-and-absence-working-time-calendar.md)
 - [Suspendre les congés](hr-leave-and-absence-suspend-leave.md)
+- [Créer un workflow de demande d’achat et de vente de congés](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

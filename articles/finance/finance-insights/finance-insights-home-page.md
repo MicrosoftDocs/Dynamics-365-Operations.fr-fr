@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
+ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222508"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261908"
 ---
 # <a name="finance-insights-home-page-preview"></a>Page d’accueil Informations financières (version préliminaire)
 
@@ -32,6 +32,9 @@ Informations financières fournit des modèles configurables et extensibles pour
 La version préliminaire de Informations financières est disponible pour les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
 
 Les fonctionnalités en version préliminaire peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et d’intelligence artificielle (IA) créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+
+> [!NOTE]
+> Cette fonctionnalité est proposée sous la forme d’un ensemble de fonctions en version préliminaire. En tant que fonction en version préliminaire, vous ne devez pas utiliser les modèles de Machine Learning résultants pour piloter ou influencer vos décisions commerciales ou vos propositions de budget. Votre utilisation de cette fonctionnalité est régie par les [Conditions d’utilisation supplémentaires](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -69,8 +72,8 @@ Une connaissance du processus de création et de gestion des ressources dans Azu
 ## <a name="configure-finance-insights"></a>Configurer Informations financières
 
 Vous devez effectuer certaines étapes de configuration avant de pouvoir utiliser Informations financières. Pour plus d’informations sur la configuration de Informations financières, voir :
-  - Pour les versions jusqu’à 10.0.19 : [Configuration de Informations financières - versions jusqu’à 10.0.19](configure-for-fin-insites.md).
-  - Pour les versions 10.0.20 et ultérieures : [Configuration de Informations financières (version prliminaire) - versions 10.0.20 et ultérieures](configure-for-fin-insites-PubPrvw.md).
+  - Pour les versions jusqu’à 10.0.19 : [Configuration de Informations financières – versions jusqu’à 10.0.19](configure-for-fin-insites.md).
+  - Pour les versions 10.0.20 et ultérieures : [Configuration de Informations financières (version prliminaire) – versions 10.0.20 et ultérieures](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Créer un projet d’intégrateur de données
 

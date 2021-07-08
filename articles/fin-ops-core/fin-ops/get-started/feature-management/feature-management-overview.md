@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923305"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270811"
 ---
 # <a name="feature-management-overview"></a>Présentation de la gestion des fonctionnalités
 
@@ -34,20 +34,20 @@ Vous pouvez ouvrir l’espace de travail **Gestion des fonctionnalités** en sé
 
 La liste des fonctionnalités inclut les informations suivantes :
 
-- **Nom de fonctionnalité** – Description de la fonctionnalité ajoutée.
-- **Statut Activé** – Un symbole indique si une fonctionnalité a été activée (coche), n’a pas été activée (vide), est planifiée pour être activée (horloge), ou est obligatoirement activée (verrou), nécessite votre attention avant de l’activer (avertissement) ou ne peut pas être activée (X). Le paramètre affiché est utilisé pour toutes les entités juridiques. Notez que même si une fonctionnalité a été activée, elle est toujours contrôlée par la sécurité. Par conséquent, la fonctionnalité est disponible uniquement aux utilisateurs qui ont accès à celle-ci, selon son rôle de sécurité. Elle n’est également disponible que dans les entités juridiques auxquelles l’utilisateur a accès.
-- **Activer la date** – Date à laquelle la fonctionnalité a été activée ou est planifiée pour être activée.
-- **Fonctionnalité ajoutée** – Date à laquelle la fonctionnalité a été ajoutée à votre environnement. Cette date est entrée automatiquement lorsque vous mettez votre environnement à jour lors des cycles de version mensuels.
-- **Module** – Module affecté par la nouvelle fonctionnalité.
+- **Nom de fonctionnalité** – Description de la fonctionnalité ajoutée.
+- **Statut Activé** – Un symbole indique si une fonctionnalité a été activée (coche), n’a pas été activée (vide), est planifiée pour être activée (horloge), ou est obligatoirement activée (verrou), nécessite votre attention avant de l’activer (avertissement) ou ne peut pas être activée (X). Le paramètre affiché est utilisé pour toutes les entités juridiques. Notez que même si une fonctionnalité a été activée, elle est toujours contrôlée par la sécurité. Par conséquent, la fonctionnalité est disponible uniquement aux utilisateurs qui ont accès à celle-ci, selon son rôle de sécurité. Elle n’est également disponible que dans les entités juridiques auxquelles l’utilisateur a accès.
+- **Activer la date** – Date à laquelle la fonctionnalité a été activée ou est planifiée pour être activée.
+- **Fonctionnalité ajoutée** – Date à laquelle la fonctionnalité a été ajoutée à votre environnement. Cette date est entrée automatiquement lorsque vous mettez votre environnement à jour lors des cycles de version mensuels.
+- **Module** – Module affecté par la nouvelle fonctionnalité.
 
 Lorsque vous sélectionnez une fonctionnalité, les informations supplémentaires apparaissent dans le volet des détails à droite de la liste de fonctionnalités. En haut du volet, vous verrez le nom de fonctionnalité, la date à laquelle elle a été ajoutée, le module affecté par celle-ci, et un lien **En savoir plus**. Sélectionnez ce lien pour afficher la documentation pour la fonctionnalité. Si la documentation n’est pas disponible, vous êtes dirigé vers une page temporaire. Le volet des détails inclut également un champ **Commentaires** dans lequel vous pouvez ajouter vos propres commentaires sur la fonctionnalité.
 
 L’espace de travail **Gestion des fonctionnalités** dispose également de plusieurs onglets, chacun desquels affiche une liste des fonctionnalités.
 
-- **Nouveau** – Cet onglet affiche toutes les fonctionnalités qui ont été ajoutées depuis la dernière mise à jour mensuelle. Si vous avez ignoré des mises à jour mensuelles, l’onglet affiche toutes les nouvelles fonctionnalités ajoutées depuis la dernière fois que vous avez effectué une mise à jour. Les fonctionnalités les plus récentes s’affichent en haut de la liste. Le nombre total des nouvelles fonctionnalités s’affiche également sur une vignette en haut de la page.
-- **Non activé** – Cet onglet affiche toutes les fonctionnalités qui n’ont pas été activées. Les fonctionnalités les plus récentes s’affichent en haut de la liste. Le nombre total des nouvelles fonctionnalités qui n’ont pas été activées s’affiche également sur une vignette en haut de la page.
-- **Planifié** – Cet onglet affiche toutes les fonctionnalités qui ont été planifiées pour être activées à l’avenir. Les fonctionnalités qui ont la date planifiée la plus proche apparaissent en haut de la liste. Le nombre total des nouvelles fonctionnalités planifiées s’affiche également sur une vignette en haut de la page.
-- **Tous** – Cet onglet affiche toutes les fonctionnalités. Les fonctionnalités les plus récentes s’affichent en haut de la liste.
+- **Nouveau** – Cet onglet affiche toutes les fonctionnalités qui ont été ajoutées depuis la dernière mise à jour mensuelle. Si vous avez ignoré des mises à jour mensuelles, l’onglet affiche toutes les nouvelles fonctionnalités ajoutées depuis la dernière fois que vous avez effectué une mise à jour. Les fonctionnalités les plus récentes s’affichent en haut de la liste. Le nombre total des nouvelles fonctionnalités s’affiche également sur une vignette en haut de la page.
+- **Non activé** – Cet onglet affiche toutes les fonctionnalités qui n’ont pas été activées. Les fonctionnalités les plus récentes s’affichent en haut de la liste. Le nombre total des nouvelles fonctionnalités qui n’ont pas été activées s’affiche également sur une vignette en haut de la page.
+- **Planifié** – Cet onglet affiche toutes les fonctionnalités qui ont été planifiées pour être activées à l’avenir. Les fonctionnalités qui ont la date planifiée la plus proche apparaissent en haut de la liste. Le nombre total des nouvelles fonctionnalités planifiées s’affiche également sur une vignette en haut de la page.
+- **Tous** – Cet onglet affiche toutes les fonctionnalités. Les fonctionnalités les plus récentes s’affichent en haut de la liste.
 
 ## <a name="turn-on-a-feature"></a>Activer une fonctionnalité
 
@@ -160,8 +160,8 @@ La stratégie est que toutes les nouvelles fonctionnalités seront activées pou
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Pourquoi n’y a-t-il pas de « date activée obligatoire » spécifique ? 
 Le calendrier de publication des mises à jour est variable, le calendrier de mise à jour de l’environnement est variable et les clients peuvent choisir d’ignorer certaines mises à jour. Par conséquent, des dates précises sont difficiles à déterminer. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Où se trouve la documentation des fonctionnalités rendues obligatoires ? 
-Cette documentation provient des équipes d’application. Souvent, ceux-ci seront mentionnés dans [Fonctionnalités supprimées ou obsolètes](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Où se trouve la documentation des fonctionnalités obligatoires ? 
+Cette documentation provient de chacune des équipes de Dynamics 365. Souvent, ces fonctionnalités seront mentionnées dans les [Mises à jour de l’état des fonctionnalités client](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) ou dans [Fonctionnalités supprimées ou obsolètes](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Y a-t-il une notification ou un signal dans le produit qu’une fonctionnalité va être activée de manière obligatoire ? 
 Il n’existe pas aujourd’hui de mécanisme de notification pour rendre obligatoire une fonctionnalité.

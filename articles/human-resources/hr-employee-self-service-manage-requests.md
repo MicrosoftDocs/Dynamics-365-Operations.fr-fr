@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057356"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303242"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Gérer les demandes de congé et d’absence
 
@@ -34,11 +34,9 @@ Gérer les demandes de congés dans l’espace de travail **Libre-service employ
 
 3. Affichez et approuvez les demandes de congés des membres de votre équipe si nécessaire.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Version préliminaire) Améliorations de l’expérience de flux de travail de demande de congés
+## <a name="leave-request-workflow-experience-enhancements"></a>Améliorations de l’expérience de flux de travail de demande de congés
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Cette fonctionnalité d'évaluation fournit les améliorations suivantes :
+Cette fonctionnalité fournit les améliorations suivantes :
 
 - Vous pouvez sélectionner plusieurs demandes de congé et effectuer la même action sur toutes.
 - Le ruban en haut et un nouveau bouton de flux de travail sur la page indiquent les actions que vous pouvez effectuer lors des demandes de congé.
@@ -47,7 +45,7 @@ Cette fonctionnalité d'évaluation fournit les améliorations suivantes :
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 - [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

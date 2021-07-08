@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 6360f36b6a3526cdc5680a4059ae1202896986a5
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102612"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301769"
 ---
 # <a name="wave-label-printing"></a>Impression d’étiquettes de la vague
 
@@ -306,8 +306,8 @@ Les extensions de séquence numérique contrôlent la conformité GS1 de séquen
 
 Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes. Dans le volet Actions de chaque page, sous l’onglet **Expéditions**, dans le groupe **Informations associées**, sélectionnez **Étiquettes de vague**.
 
-- Toutes les expéditions \>Détails de l’expédition
-- Tous les chargements \>Charger du chargement
+- Toutes les expéditions \> Détails de l’expédition
+- Tous les chargements \> Détails du chargement
 - Toutes les vagues
 - Étiquettes de vague
 - Historique des étiquettes de la vague
@@ -922,8 +922,8 @@ Les extensions de séquence numérique contrôlent la conformité GS1 de séquen
 
 Vous pouvez afficher et réimprimer des étiquettes de vague à partir des pages suivantes :
 
-- Toutes les expéditions \>Détails de l’expédition
-- Tous les chargements \>Charger du chargement
+- Toutes les expéditions \> Détails de l’expédition
+- Tous les chargements \> Détails du chargement
 - Toutes les vagues
 - Étiquettes de vague
 - Historique des étiquettes de la vague
@@ -933,5 +933,6 @@ Pour la plupart de ces pages, vous pouvez trouver la fonction appropriée en sé
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 - [Réimpression et annulation des étiquettes de vague](reprint-and-void-wave-labels.md)
+- [Programmer l’impression d’étiquettes pendant la vague](configure-task-based-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

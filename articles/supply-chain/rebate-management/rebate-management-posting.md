@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216741"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271003"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuration de la validation de la gestion des remises
 
@@ -41,7 +41,7 @@ Le tableau suivant décrit les paramètres disponibles dans la section d’en-t�
 |---|---|
 | Profil de validation | Entrez un nom unique pour le profil. |
 | Description | Entrez une description du profil. |
-| Module | Sélectionnez le type de remises et de redevances auquel le profil est associé (*Client* ou *Fournisseur*). |
+| Module | Sélectionnez le module auquel les remises et redevances du profil sont associées (*Client* ou *Fournisseur*). |
 | Type | Sélectionnez le type de profil (*Remise* ou *Redevances*). |
 | Type de paiement | <p>Ce champ détermine le format du résultat de la remise validée.<p><p>Quand le champ **Type** est défini sur *Remise*, les valeurs suivantes sont disponibles :</p><ul><li>*Payer en utilisant la comptabilité fournisseur* : lorsque vous validez une remise client, une facture fournisseur est créée pour le fournisseur bénéficiaire de la remise qui est configuré sur le client de la remise. Lorsque vous validez une remise fournisseur, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li><li>*Déductions client* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li><li>*Déductions client sur facture fiscale* : lorsque vous validez la remise, une facture financière pour le client de la remise est créée.</li><li>*Dépense de commerce* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li><li>*Génération de rapport* : lorsque vous validez la remise, un journal de déduction client pour le client de la remise est créé.</li></ul><p>Quand le champ **Type** est défini sur *Redevance*, les valeurs suivantes sont disponibles :</p><ul><li>*Payer en utilisant la comptabilité fournisseur* : lorsque vous validez la remise, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li><li>*Génération de rapport* : lorsque vous validez la remise, une facture fournisseur est créée pour le compte fournisseur bénéficiaire de la remise.</li></ul><p>Pour plus d’informations, voir la section [Types de paiement](#payment-types) suivante. |
 | Société | Sélectionnez l’entreprise (entité juridique) pour laquelle les provisions seront constituées et par laquelle les réclamations seront payées. |
@@ -66,7 +66,7 @@ Le tableau suivant résume la manière dont les différents paramètres du champ
 > Tenez compte des points suivants lors de la configuration des [accords de gestion des remises](rebate-management-deals.md) :
 >
 > - Pour les accords où le champ **Rapprochement par** est défini sur *Accord*, vous ne pouvez pas utiliser le compte d’accord dynamique lors de la validation. Vous devez utiliser un compte client ou fournisseur spécifié.
-> - Pour les accords où le champ **Rapprochement par** est défini sur *Ligne*, vous pouvez utiliser un profil de validation qui est compensé par un compte d’accord dynamique sur la ligne d’accord, car le client est défini par ligne d’accord.
+> - Pour les accords où le champ **Rapprochement par** est défini sur *Ligne*, vous pouvez utiliser un profil de validation qui est compensé par un compte d’accord dynamique sur la ligne d’accord, car le client ou le fournisseur est défini par ligne d’accord.
 
 ## <a name="posting-fasttab"></a>Organisateur Validation
 
@@ -74,15 +74,15 @@ Le tableau suivant décrit les champs disponibles dans l’organisateur **Valida
 
 | Champ | Description |
 |---|---|
-| Type de crédit | Sélectionnez s’il faut créditer un compte général ou un client ou un fournisseur. |
-| Compte à créditer | Le compte sur lequel les montants de crédit sont imputés lorsque des provisions de remise sont constituées. Ce compte sera également utilisé comme compte de débit lorsque la remise sera validée pour créditer le client. |
+| Type de crédit | Sélectionnez s’il faut créditer un compte général ou un client. Si le champ **Type de paiement** de l’en-tête est défini sur *Déductions client sur facture fiscale*, ce champ est défini sur *Compte général*. Pour les remises fournisseurs, ce champ est défini sur *Compte général*. |
+| Compte à créditer | Sélectionnez le compte sur lequel les montants de crédit sont imputés lorsque des provisions de remise sont constituées. Ce compte sera également utilisé comme compte de contrepartie lorsque la remise sera validée pour créditer le client ou débiter le fournisseur. |
 | Nom de journal<br>(dans la section **Provision**) | Sélectionnez le nom du journal à utiliser pour enregistrer la provision validée. |
 | Type | Sélectionnez s’il faut valider la remise sur un compte général ou un client ou un fournisseur. Si le champ **Type de paiement** de l’en-tête est défini sur *Déductions client sur facture fiscale*, ce champ est défini sur *Client/Fournisseur*. |
-| Utiliser un compte source | <p>Vous devez sélectionner l’une des valeurs suivantes :</p><ul><li>*Aucun* : si vous sélectionnez cette valeur, vous devez spécifier un compte dans le champ **Compte de remise**.</li><li>*Compte d’accord* : utilisez le compte client ou fournisseur spécifié sur la ligne de remise. Vous ne pouvez sélectionner cette valeur que pour les accords où le champ **Rapprochement par** est défini sur *Ligne* et les lignes d’accord où le champ **Code de compte** est défini sur *Table*. Cela ne s’applique pas aux profils de validation des redevances client.</li></ul> |
+| Utiliser un compte source | <p>Vous devez sélectionner l’une des valeurs suivantes :</p><ul><li>*Compte fixe* : si vous sélectionnez cette valeur, vous devez spécifier un compte dans le champ **Compte de remise**.</li><li>*Compte de ligne d’accord* : utilisez le compte client ou fournisseur spécifié sur la ligne de remise. Vous ne pouvez sélectionner cette valeur que pour les accords où le champ **Rapprochement par** est défini sur *Ligne* et les lignes d’accord où le champ **Code de compte** est défini sur *Table*. Elle ne s’applique pas aux profils de validation des redevances client ou aux remises fournisseur basées sur les commandes client.</li></ul> |
 | Compte de remise | Le compte sur lequel les dépenses de remise seront imputés. |
-| Nom de journal<br>(Dans la section **Gestion des remises**) | Sélectionnez le nom du journal à utiliser pour valider un avoir pour le montant de la remise au client. Ce champ n’est pas disponible quand le champ **Type de paiement** de l’en-tête est défini sur *Déductions client sur facture fiscale*. |
+| Nom de journal<br>(Dans le groupe de champs **Gestion des remises**) | Sélectionnez le nom du journal à utiliser pour valider un avoir pour le montant de la remise au client ou au fournisseur. Ce champ n’est pas disponible quand le champ **Type de paiement** de l’en-tête est défini sur *Déductions client sur facture fiscale*. Pour les remises client, les noms de journal du type de journal *Quotidien* seront disponibles. Pour les redevances client et les remises fournisseur, les noms de journal du type de journal *Enregistrement de facture fournisseur* seront disponibles. |
 | Groupe de taxe d’article | Précisez si la remise est taxable. |
-| Nom de journal<br>(Dans la section **Annulation**) | Si la remise validée n’est pas égale à la provision, la différence peut être annulée. Sélectionnez le nom du journal à utiliser pour enregistrer l’annulation validée. |
+| Nom de journal<br>(Dans le groupe de champs **Annuler**) | Si la remise validée n’est pas égale à la provision, la différence peut être annulée. Sélectionnez le nom du journal à utiliser pour enregistrer l’annulation validée. |
 
 ## <a name="posting-by-company-fasttab"></a>Organisateur Annulation par entreprise
 
@@ -92,6 +92,6 @@ Utiliser les boutons sur la barre d’outils pour ajouter des sociétés à la g
 
 Sélectionnez la ligne pour chaque société, puis entrez les informations suivantes en utilisant les champs sous la grille :
 
-- **Type de débit** : sélectionnez s’il faut débiter un compte général ou un client ou un fournisseur.
+- **Type de débit** : sélectionnez s’il faut débiter un compte général ou un fournisseur. Pour les remises et redevances client, ce champ est défini sur *Compte général*.
 - **Compte de débit** : entrez le compte sur lequel le montant du débit est imputé lorsque les provisions de remise sont constituées.
 - **Compte principal** : sélectionnez le compte principal pour les annulations.

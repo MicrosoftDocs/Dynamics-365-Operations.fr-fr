@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019049"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292735"
 ---
 # <a name="containerization"></a>Mise en conteneur
 
@@ -29,10 +29,10 @@ Cette rubrique décrit comment automatiser la mise en conteneur des charges. La 
 
 Pour paramétrer la mise en conteneur, vous devez créer les éléments suivants :
 
-- **Type de conteneur** - Permet de définir les caractéristiques physiques des conteneurs. Les types de conteneur permettent de conditionner les articles en stock dans un type et une taille spécifiques d’emballage, tel que des casiers ou des palettes.
-- **Groupes de conteneurs** - Permet de créer des groupes de types de conteneur qui sont similaires. Par exemple, un groupe de conteneurs peut inclure des types de conteneur ayant des dimensions de taille similaires. Un groupe de conteneurs spécifie l’ordre dans lequel les conteneurs sont emballés, et le pourcentage de remplissage de chaque conteneur.
-- **Modèle de construction de conteneur** - permet de créer des modèles qui définissent les règles de mise en conteneur. Par exemple, les règles de mélange de stock et autres stratégies d’emballage.
-- **Modèles de vague** - Permet de paramétrer un ou plusieurs modèles de vague pour créer le travail de prélèvement pour la mise en conteneur.
+- **Type de conteneur** – Permet de définir les caractéristiques physiques des conteneurs. Les types de conteneur permettent de conditionner les articles en stock dans un type et une taille spécifiques d’emballage, tel que des casiers ou des palettes.
+- **Groupes de conteneurs** – Permet de créer des groupes de types de conteneur qui sont similaires. Par exemple, un groupe de conteneurs peut inclure des types de conteneur ayant des dimensions de taille similaires. Un groupe de conteneurs spécifie l’ordre dans lequel les conteneurs sont emballés, et le pourcentage de remplissage de chaque conteneur.
+- **Modèle de construction de conteneur** – permet de créer des modèles qui définissent les règles de mise en conteneur. Par exemple, les règles de mélange de stock et autres stratégies d’emballage.
+- **Modèles de vague** – Permet de paramétrer un ou plusieurs modèles de vague pour créer le travail de prélèvement pour la mise en conteneur.
 
 ## <a name="create-wave-templates-for-containerization"></a>Créer des modèles de vague pour la mise en conteneur
 
@@ -91,9 +91,9 @@ Pour paramétrer un modèle de création de conteneur, suivez les étapes suivan
 1. Dans le champ **ID du groupe de conteneurs**, sélectionnez le groupe de conteneurs à partir duquel créer des conteneurs.
 1. Dans le champ **Types de requête de base**, sélectionnez le type de requête qui déterminera quels éléments conditionner et sur quoi baser la requête de filtre. Les options suivantes sont disponibles :
 
-      - **Lignes de répartition des ventes** - Les lignes de répartition de conditionnement sont créées pour les commandes client.
-      - **Ligne de répartition des transferts** - Les lignes de répartition de conditionnement sont créées pour les ordres de transfert.
-      - **Conteneur** - Permet de conditionner un conteneur déjà créé par le processus de mise en conteneur. Par exemple, cette option est utilisée pour imbriquer des conteneurs.
+      - **Lignes de répartition des ventes** – Les lignes de répartition de conditionnement sont créées pour les commandes client.
+      - **Ligne de répartition des transferts** – Les lignes de répartition de conditionnement sont créées pour les ordres de transfert.
+      - **Conteneur** – Permet de conditionner un conteneur déjà créé par le processus de mise en conteneur. Par exemple, cette option est utilisée pour imbriquer des conteneurs.
 
         > [!NOTE]
         > Pour utiliser l’imbrication de conteneurs, vous devez faire en sorte que la méthode de mise en conteneur puisse se répéter. Pour plus d’informations, voir [Modèles de vague](wave-templates.md).
@@ -106,8 +106,10 @@ Pour paramétrer un modèle de création de conteneur, suivez les étapes suivan
     > [!NOTE]
     > La stratégie ne s’applique qu’aux lignes de répartition de vente et aux lignes de répartition de transfert.
 
-      - **Conditionner dans tous les conteneurs ouverts** – Le système évalue si la ligne de répartition tiendra dans un conteneur créé au cours du cycle de mise en conteneur.
-      - **Conditionner dans le conteneur en cours uniquement** – Le système n’évalue que si la ligne de répartition tiendra dans le conteneur créé le plus récemment.
+      - **Conditionner dans tous les conteneurs ouverts** – Le système évalue si la ligne de répartition tiendra dans un conteneur créé au cours du cycle de mise en conteneur.
+      - **Conditionner dans le conteneur en cours uniquement** – Le système n’évalue que si la ligne de répartition tiendra dans le conteneur créé le plus récemment.
+
+    Pour plus d’informations et des exemples montrant comment utiliser les stratégies de conditionnement en conteneurs, consultez [Stratégies de conditionnement en conteneurs](container-packing-strategy-overview.md).
 
 1. Pour définir des règles de conditionnement des lignes de répartition dans des conteneurs, sélectionnez **Décompositions de la logique de mélange**. Par exemple, vous pouvez créer une règle qui permettra aux collaborateurs de conditionner les lignes de répartition de deux articles différents dans le même conteneur. Pour définir une règle de mélange, procédez comme suit :
 

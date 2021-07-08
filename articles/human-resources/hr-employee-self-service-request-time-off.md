@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f6edc848e1ed03f97e11cd4eb3fd1aaf4ee0c59
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 445360659e993451b1289091e43e4fc64e0ad228
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056706"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303218"
 ---
 # <a name="request-time-off"></a>Demande de congés
 
@@ -60,21 +60,19 @@ Lors de la mise à jour d’une demande de congé existante, vous pouvez ajouter
 
 ## <a name="cancel-time-off-requests"></a>Annuler les demandes de congé
 
-[!include [Preview feature](includes/preview-feature.md)]
-
 1. Dans l’espace de travail **Libre-service employé**, sélectionnez **Afficher les congés** dans la vignette **Soldes des congés**.
 
 2. Sur le formulaire **Congés**, sélectionnez une ou plusieurs demandes de congé à annuler.
 
 3. Sélectionnez le bouton **Annuler**.
 
-4. Dans le volet **Détails de l'annulation**, entrez un commentaire, puis sélectionnez **Soumettre**.
+4. Dans le volet **Détails de l’annulation**, entrez un commentaire, puis sélectionnez **Soumettre**.
 
    ![Annuler la demande de congé](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Voir également :
 
-- [Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)
+- [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

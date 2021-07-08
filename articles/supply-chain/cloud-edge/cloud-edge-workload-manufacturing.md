@@ -16,17 +16,16 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6183994"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270533"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Charges de travail de fabrication pour les unités d’échelle Cloud et périphérie
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
 > La charge de travail d’exécution de la fabrication est disponible en version préliminaire pour le moment.
@@ -92,8 +91,8 @@ Pour consulter le journal de traitement de l’enregistrement, connectez-vous au
 
 Vous pouvez travailler sur n’importe quel enregistrement de la liste en le sélectionnant, puis en sélectionnant l’un des boutons suivants dans le volet Actions :
 
-- **Traiter** – Traitez manuellement l’enregistrement sélectionné. Cette action peut être utile si la tâche _Traiter les enregistrements bruts_ n’a pas été exécutée ou si elle a échoué.
-- **Annuler** – Annulez l’enregistrement sélectionné.
+- **Traiter** – Traitez manuellement l’enregistrement sélectionné. Cette action peut être utile si la tâche _Traiter les enregistrements bruts_ n’a pas été exécutée ou si elle a échoué.
+- **Annuler** – Annulez l’enregistrement sélectionné.
 
 ## <a name="working-with-manufacturing-execution-workloads-on-a-scale-unit"></a>Utilisation des charges de travail d’exécution de fabrication sur un unité d’échelle
 
@@ -103,8 +102,8 @@ Habituellement, les processus requis pour exécuter les charges de travail d’e
 
 Pour consulter l’historique des travaux de fabrication qui ont été traités sur une unité d’échelle, connectez-vous à la machine de l’unité d’échelle et accédez à **Contrôle de production \> Tâches périodiques \> Gestion de la charge de travail backoffice \> Historique de traitement des travaux de fabrication**. La page **Historique de traitement des travaux de fabrication** affiche l’historique de traitement des ordres de fabrication sur l’unité d’échelle. Vous pouvez travailler sur n’importe quel ordre de fabrication de la liste en le sélectionnant, puis en sélectionnant l’un des boutons suivants dans le volet Actions :
 
-- **Traiter** – Traiter manuellement l’ordre de fabrication sélectionné.
-- **Annuler** – Annuler l’ordre de fabrication sélectionné.
+- **Traiter** – Traiter manuellement l’ordre de fabrication sélectionné.
+- **Annuler** – Annuler l’ordre de fabrication sélectionné.
 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Hub de fabrication pour la tâche du processeur de messages de l’unité d’échelle
 

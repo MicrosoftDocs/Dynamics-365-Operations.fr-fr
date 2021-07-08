@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1e55ce327e2c8ab714eb5e2fa14b3830b9171688
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020677"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270859"
 ---
 # <a name="delivery-options-module"></a>Module Options de livraison
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Cette rubrique couvre les modules d’options de livraison et explique comment les configurer dans Microsoft Dynamics 365 Commerce.
 
@@ -51,7 +50,7 @@ L’illustration suivante montre un exemple de module d’options de livraison d
 | Titre | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Rubrique optionnelle pour le module Options de livraison. |
 | Nom de classe CSS personnalisé | Détails | Nom de classe de feuille de style en cascade personnalisée (CSS) qui sera utilisé pour afficher ce module, le cas échéant. |
 | Option Filtrer le mode de livraison | **Ne pas filtrer** ou **Modes hors expédition** | Une valeur qui spécifie si le module Options de livraison doit filtrer tous les modes de livraison hors expédition. |
-| Sélectionner automatiquement une option de livraison | **Ne pas filtrer**, **Sélectionner automatiquement l'option de livraison et afficher le résumé**, ou alors **Sélectionner automatiquement l'option de livraison et ne pas afficher le résumé** | Cette propriété applique automatiquement la première option de livraison disponible au paiement sans que l'utilisateur ne la sélectionne. Elle ne doit être utilisée que s'il existe une option de livraison disponible. Cette propriété est prise en charge à compter de la version 10.0.19 de Commerce. |
+| Sélectionner automatiquement une option de livraison | **Ne pas filtrer**, **Sélectionner automatiquement l’option de livraison et afficher le résumé**, ou alors **Sélectionner automatiquement l’option de livraison et ne pas afficher le résumé** | Cette propriété applique automatiquement la première option de livraison disponible au paiement sans que l’utilisateur ne la sélectionne. Elle ne doit être utilisée que s’il existe une option de livraison disponible. Cette propriété est prise en charge à compter de la version 10.0.19 de Commerce. |
 
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Ajouter un module Options de livraison à une page de caisse et définir les propriétés requises
 

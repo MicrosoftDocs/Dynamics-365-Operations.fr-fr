@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020457"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271051"
 ---
 # <a name="rebate-management-module-overview"></a>Vue d’ensemble du module de gestion des remises
 
@@ -70,7 +70,7 @@ Les remises peuvent être configurées en fonction de nombreux paramètres diff�
 
 Les résultats du calcul de la remise peuvent également être réduits par d’autres remises, selon que la remise est configurée pour être calculée en fonction du montant net.
 
-Du côté du fournisseur, les remises peuvent calculer le prix en fonction d’une règle Premier entré, premier sorti (FIFO), du dernier prix d’achat, du prix d’achat moyen ou du prix de vente.
+Du côté du fournisseur, les remises basées sur les commandes client peuvent calculer le prix en fonction d’une règle Premier entré, premier sorti (FIFO), du dernier prix d’achat, du prix d’achat moyen ou du prix de vente.
 
 ## <a name="rebate-target-transactions"></a>Transactions cible de remise
 
@@ -84,11 +84,12 @@ Les sorties d’article créent une commande client d’article gratuit pour les
 
 La combinaison des accords associés, la fréquence des calculs, la base de calcul et la méthode de calcul sélectionnée déterminent l’exactitude et la précision des calculs de remise. Les provisions de remise peuvent être utilisées pour régulariser les valeurs validées et revendiquées.
 
-Les provisions peuvent être gérées quotidiennement ou mensuellement. Cependant, la fonctionnalité peut allouer ou payer la remise, ou en recevoir le paiement, à n’importe quelle fréquence définie. Les utilisateurs peuvent facilement ajuster un plan ou des montants de paiement à tout moment pendant le paiement.
+Les provisions peuvent être gérées quotidiennement, hebdomadairement, mensuellement ou selon une période personnalisée. Cependant, la fonctionnalité peut répartir ou payer la remise, ou en recevoir le paiement, à n’importe quelle fréquence définie qui est de la même longueur ou plus longue que la périodicité de la provision. Les annulations utilisent la même fréquence que la remise. Les utilisateurs peuvent facilement ajuster un plan ou des montants de paiement à tout moment pendant le paiement.
 
-Les utilisateurs n’ont plus à gérer les accords ou les provisions en deux étapes. Les provisions et annulations sont validées directement dans la comptabilité. De plus, les avoirs peuvent être créés automatiquement. Par conséquent, il y a une intégration complète avec la comptabilité fournisseur et la comptabilité client. Lors du traitement, les calculs prennent en compte les remises de règlement, les factures payées, les remises commerciales et les avoirs existants pour garantir que les montants et les valeurs sont calculés avec précision.
+Les utilisateurs n’ont plus à gérer les accords ou les provisions en deux étapes. Les provisions et annulations sont validées directement dans la comptabilité. De plus, les avoirs peuvent être créés automatiquement. Par conséquent, il y a une intégration complète avec la comptabilité fournisseur et la comptabilité client. Lors du traitement, les calculs peuvent prendre en compte les remises de règlement, les factures payées, les remises commerciales et les avoirs existants pour garantir que les montants et les valeurs sont calculés avec précision.
 
-Lorsque les remises sont calculées, le processus crée des transactions qui peuvent être examinées avant la validation. Il est possible de créer un journal, un avoir ou une transaction de débit. Un processus distinct valide les transactions de remise et de déduction. Il est possible d’obtenir des relevés de déclaration et des listes de transactions aux fins de conformité, d’efficacité et de transparence.
+Lorsque les remises sont calculées, le processus crée des transactions qui peuvent être examinées avant la validation. Un processus distinct valide les transactions de gestion des remises. Il est alors possible de créer un journal, un avoir ou une transaction de débit lors de la validation des transactions proposées. Il est possible d’obtenir des relevés de déclaration et des listes de transactions aux fins de conformité, d’efficacité et de transparence.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Paiement des redevances garanties
 

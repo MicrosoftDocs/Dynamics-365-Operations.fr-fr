@@ -14,17 +14,16 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 461e79f63569bbfe77f9075c562a5b1f3da28cc2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e46b04005b03a2a4c1ce50650a51ba4e02d85111
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018853"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270907"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Mettre en place un site e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Les sites de commerce électronique interentreprises (B2B) fournissent des fonctionnalités clés qui optimisent le workflow pour un utilisateur B2B. Cette rubrique décrit comment configurer un site d’e-commerce B2B dans Microsoft Dynamics 365 Commerce. Elle présente les modules et les paramètres de site qui doivent être configurés pour activer des scénarios spécifiques B2B.
 
@@ -38,8 +37,8 @@ Les sites de commerce électronique interentreprises (B2B) fournissent des fonct
 
 Vous pouvez accéder aux paramètres au niveau du site dans le générateur de site, à l’adresse **Paramètres du site \> Extensions**. Les deux paramètres au niveau du site suivants s’appliquent aux scénarios B2B :
 
-- **Activer les paiements du compte client** - Cette propriété permet aux utilisateurs de payer les commandes à l’aide de comptes clients. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**. Si votre site B2B prend en charge les comptes clients, vous devez sélectionner **Activé pour les clients B2C**.
-- **Activer les limites de quantité de commande** - Cette propriété vous permet de définir des limites sur le nombre d’articles pouvant être commandés pour chaque produit ou catégorie. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**.
+- **Activer les paiements du compte client** – Cette propriété permet aux utilisateurs de payer les commandes à l’aide de comptes clients. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**. Si votre site B2B prend en charge les comptes clients, vous devez sélectionner **Activé pour les clients B2C**.
+- **Activer les limites de quantité de commande** – Cette propriété vous permet de définir des limites sur le nombre d’articles pouvant être commandés pour chaque produit ou catégorie. Les valeurs disponibles sont **Activé pour les clients B2B**, **Activé pour les clients B2C**, **Activé pour tous les clients**, et **Désactivé pour tous les clients**.
 
 > [!NOTE]
 > Lorsque vous effectuez une mise à niveau vers la dernière version de la bibliothèque de modules, vous devez suivre des étapes supplémentaires pour vous assurer que les paramètres de site décrits précédemment sont disponibles dans votre environnement. Pour plus d’informations, voir [Mettez à jour le fichier app.settings.json](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
@@ -284,29 +283,29 @@ Pour créer une page de détails de facture dans le générateur de site, procé
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 1. Publiez l’URL de la page.
 
-## <a name="add-a-quick-add-module-to-the-cart-page"></a>Ajouter un module d'ajout rapide à la page du panier
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Ajouter un module d’ajout rapide à la page du panier
 
-Le module d'ajout rapide permet d'ajouter rapidement plusieurs articles au panier en utilisant les ID d'article (également appelés ID d'unité de gestion des stocks \[SKU\]). Le module d'ajout rapide est ajouté à la page du panier d'un site.
+Le module d’ajout rapide permet d’ajouter rapidement plusieurs articles au panier en utilisant les ID d’article (également appelés ID d’unité de gestion des stocks \[SKU\]). Le module d’ajout rapide est ajouté à la page du panier d’un site.
 
-Pour ajouter un module d'ajout rapide à une page de panier dans le générateur de site Commerce, procédez comme suit :
+Pour ajouter un module d’ajout rapide à une page de panier dans le générateur de site Commerce, procédez comme suit :
 
 1. Accédez à **Modèles**, et sélectionnez le modèle de page de panier de votre site.
 1. Sélectionnez **Modifier**.
 1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module d'**Ajout rapide**, puis cliquez sur **OK**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module d’**Ajout rapide**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver le modèle de fragment, puis **Publier** pour le publier.
 1. Accédez à **Pages**, et sélectionnez le modèle de page de panier de votre site.
 1. Dans l’emplacement **Principal** du module **Page par défaut**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
 1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module **Conteneur**, puis sélectionnez **OK**.
 1. Dans le volet de propriétés du module **Conteneur**, sous **Largeur**, sélectionnez **Remplir le conteneur**.
 1. Dans l’emplacement **Conteneur**, sélectionnez le bouton représentant des points de suspension (**...**), puis sélectionnez **Ajouter un module**.
-1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module d'**Ajout rapide**, puis cliquez sur **OK**.
+1. Dans la boîte de dialogue **Ajouter un module**, sélectionnez le module d’**Ajout rapide**, puis cliquez sur **OK**.
 1. Sélectionnez **Enregistrer**, **Terminer la modification** pour archiver la page, puis **Publier** pour la publier.
 
 > [!NOTE] 
-> Le module d'ajout rapide est disponible à partir de la version 10.0.17 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+> Le module d’ajout rapide est disponible à partir de la version 10.0.17 de Commerce. Si vous effectuez une mise à jour à partir d’une ancienne version de Commerce, vous devez mettre à jour manuellement le fichier appsettings.json. Pour plus d’informations, voir [Mise à jour des kits de développement logiciel (SDK) et des bibliothèques de modules](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

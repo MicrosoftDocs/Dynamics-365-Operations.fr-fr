@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224032"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304391"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Concevoir une nouvelle solution de gestion des états électroniques pour imprimer un rapport personnalisé
 
@@ -185,7 +185,7 @@ En suivant les étapes de la section [Importer une nouvelle configuration de mod
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importer une nouvelle configuration de modèle de données
 
-1. Téléchargez le fichier [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) et enregistrez-le sur votre ordinateur local.
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez **Configurations des états**.
 4. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
@@ -300,7 +300,7 @@ En suivant les étapes de la section [Importer une nouvelle configuration de mis
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importer une nouvelle configuration de mise en correspondance de modèles
 
-1. Téléchargez le fichier [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) et enregistrez-le sur votre ordinateur local.
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez **Configurations des états**.
 4. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
@@ -366,7 +366,7 @@ Vous devez configurer les sources de données pour accéder aux tables d’appli
     2. Sélectionnez **Ajouter**.
     3. Dans la boîte de dialogue déroulante, dans le champ **Nom**, entrez **\$ResultGroup**.
     4. Sélectionnez **Modifier la formule**.
-    5. Dans l’[Éditeur de formule ER](general-electronic-reporting-formula-designer.md), dans le champ **Formule**, entrez **FIRSTORNULL(\@’.\<Relations’.KMQuestionResultGroup)** pour utiliser le [chemin d’accès](er-formula-language.md#paths) de la relation un-à-plusieurs entre les tables KMCollection et KMQuestionResultGroup.
+    5. Dans l’[Éditeur de formule ER](general-electronic-reporting-formula-designer.md), dans le champ **Formule**, entrez **FIRSTORNULL(\@’.\<Relations’.KMQuestionResultGroup)** pour utiliser le [chemin d’accès](er-formula-language.md#Paths) de la relation un-à-plusieurs entre les tables KMCollection et KMQuestionResultGroup.
     6. Sélectionnez **Enregistrer**, puis fermez l’éditeur de formule.
     7. Sélectionnez **OK** pour ajouter le nouveau champ calculé.
 
@@ -547,7 +547,7 @@ Le statut de la version 1.1 de cette configuration est modifié de **Brouillon*
 
 La structure de gestion des états électroniques utilise des modèles prédéfinis pour générer des états dans des formats Microsoft Office (des classeurs Excel ou des documents Word). Tandis que la génération d’état est en cours de génération, un modèle est rempli avec les données requises en fonction du dataflow configuré. Par conséquent, vous devez d’abord concevoir un modèle pour votre rapport personnalisé. Ce modèle doit être conçu comme un classeur Excel, dont la structure représente la disposition d’un rapport personnalisé. Vous devez nommer chaque élément Excel que vous prévoyez de remplir avec les données requises.
 
-1. Téléchargez le fichier [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) et enregistrez-le sur votre ordinateur local.
 2. Ouvrez le fichier dans Excel et examinez la structure du classeur.
 
 Comme le montre l’illustration suivante, le modèle téléchargé a été conçu pour imprimer des questionnaires spécifiques qui présentent les questions d’un questionnaire avec les réponses appropriées.
@@ -572,7 +572,7 @@ En suivant les étapes de la section [Importer un configuration de format conçu
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importer une configuration de format conçu
 
-1. Téléchargez le fichier [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) et enregistrez-le sur votre ordinateur local.
+1. Téléchargez le fichier [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) et enregistrez-le sur votre ordinateur local.
 2. Accédez à **Administration d’organisation** \> **Espaces de travail** \> **États électroniques**.
 3. Dans l’espace de travail **Génération des états électronique**, sélectionnez **Configurations des états**.
 4. Sur le volet Action, sélectionnez **Exchange** \> **Charger depuis le fichier XML**.
@@ -609,7 +609,7 @@ Pour continuer, ignorez la procédure suivante, [Créer une configuration de for
 4. Dans la boîte de dialogue, procédez comme suit :
 
     1. Sélectionnez **Ajouter un modèle**.
-    2. Recherchez et sélectionnez le fichier enregistré localement **Questionnaires report template.xslx**, puis **Ouvrir**.
+    2. Recherchez et sélectionnez le fichier enregistré localement **Questionnaires report template.xlsx**, puis **Ouvrir**.
     3. Sélectionnez **OK** pour importer le modèle.
 
     ![Importation d’un modèle d’état](./media/er-quick-start1-template-import.png)
@@ -750,7 +750,7 @@ Par défaut, un document généré est nommé en utilisant l’alias de l’util
 
 1. Dans la page **Concepteur de formats**, sélectionnez l’élément racine **Rapport**.
 2. Sur l’onglet **Mise en correspondance**, sélectionnez **Modifier le nom du fichier**.
-3. Dans le champ **Formule**, entrez **CONCATENATE (\@"GER\_LABEL:ReportTitle", " – ", DATETIMEFORMAT(SESSIONNOW(), "yyyy-MM-dd hh-mm-ss"))**.
+3. Dans le champ **Formule**, entrez **CONCATENATE (\@"GER\_LABEL:ReportTitle", " – ", DATETIMEFORMAT(SESSIONNOW(), "yyyy-MM-dd hh-mm-ss"))**.
 4. Sélectionnez **Enregistrer**, puis fermez l’éditeur de formule.
 5. Sélectionnez **Enregistrer**.
 

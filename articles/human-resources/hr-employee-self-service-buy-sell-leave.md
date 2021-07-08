@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052071"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271481"
 ---
 # <a name="buy-and-sell-leave"></a>Achat et vente de congés
 
@@ -47,6 +47,12 @@ Vos soldes seront automatiquement mis à jour ou passer par un processus d’app
 3. Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande.
 
 Vos soldes seront automatiquement mis à jour ou passer par un processus d’approbation avant la mise à jour. Cela dépend de la façon dont la stratégie d’achat a été configurée.
+
+
+## <a name="troubleshooting"></a>Résolution des problèmes 
+
+Si un workflow de demande d’achat ou de vente de congé échoue, les utilisateurs ayant le privilège **EssLeaveBuySellRequestApprover** peuvent consulter le journal des messages pour toutes les demandes d’achat et de vente de congé. Pour ce faire, accédez à **Congés et absences > Lier > Demandes d’achat et de vente de congés > Journal des messages** (en haut à gauche). Le **Journal des messages** montre aux utilisateurs comment les transactions ont été traitées ainsi que l’historique du workflow associé.
+
 
 ## <a name="see-also"></a>Voir également :
 

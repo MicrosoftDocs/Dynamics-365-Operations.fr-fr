@@ -1,5 +1,5 @@
 ---
-title: Version préliminaire de Dynamics 365 Supply Chain Management 10.0.19 (juin 2021)
+title: Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management, version 10.0.19 (juin 2021)
 description: Cette rubrique décrit les fonctionnalités qui sont nouvelles ou ont été modifiées dans Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114973"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271447"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Version préliminaire de Dynamics 365 Supply Chain Management 10.0.19 (juin 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Nouveautés ou modifications apportées dans Dynamics 365 Supply Chain Management, version 10.0.19 (juin 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans la version préliminaire de Microsoft Dynamics 365 Supply Chain Management 10.0.19. Cette version a un numéro de build de 10.0.837 et est disponible comme suit :
+Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été modifiées dans Microsoft Dynamics 365 Supply Chain Management, version 10.0.19. Cette version a un numéro de build de 10.0.837 et est disponible comme suit :
 
 - **Version préliminaire :** avril 2021
 - **Disponibilité générale de la version (mise à jour automatique) :** juin 2021
@@ -32,15 +31,15 @@ Cette rubrique répertorie les fonctionnalités qui sont nouvelles ou ont été 
 
 Le tableau suivant répertorie les fonctionnalités comprises dans cette version. La colonne *Fonctionnalité* fournit des liens vers le [programme de publication](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), où vous pouvez voir les dates de lancement officiel de chaque fonctionnalité. La colonne *Plus d’informations* fournit plus de détails et/ou de liens vers la documentation connexe.
 
-La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser. Certaines des fonctionnalités répertoriées sont toujours en version préliminaire, tandis que d’autres peuvent déjà être généralement disponibles.
+La plupart de ces fonctionnalités doivent être activées à l’aide de [Gestion des fonctionnalités](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) avant de pouvoir les utiliser.
 
 | Fonctionnalités | Fonctionnalité | Informations supplémentaires |
 |---|---|---|
 | Inventaire et logistique | [Optimisation de l’exportation de l’entité de données des contacts](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Lorsque cette fonctionnalité est activée, les modifications des données référencées n’entraîneront pas l’ajout des contacts associés dans la prochaine exportation incrémentielle. Lorsque cette fonctionnalité est désactivée, les modifications des données référencées entraîneront l’ajout des contacts associés dans la prochaine exportation incrémentielle. |
-| Inventaire et logistique | [Améliorations incrémentielles des capacités d'exécution de l'entrepôt avec des unités d'échelle](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Messages du processeur de messages](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ajustement du stock de l’entrepôt](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-warehousing.md) |
+| Inventaire et logistique | [Améliorations incrémentielles des capacités d’exécution de l’entrepôt avec des unités d’échelle](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Messages du processeur de messages](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ajustement du stock de l’entrepôt](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Charges de gestion d’entrepôt pour les unités d’échelle Cloud et périphérie](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Inventaire et logistique | [Fonctionnalité de recherche pour les champs Introduction au document et Conclusion du document sur la page Devis de vente](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Cette fonction ajoute une fonctionnalité de recherche pour les champs **Introduction au document** et **Conclusion du document** de la page **Devis de vente**.<br><br>Cette fonctionnalité est activée par défaut. |
-| Inventaire et logistique | [Exécution en entrepôt avec des unités d'échelle de périphérie sur votre matériel personnalisé](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Déployer des unités d'échelle de périphérie sur du matériel personnalisé à l'aide de LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Fabrication | [Contrôle et suivi de la production avec des unités d'échelle de périphérie sur votre matériel personnalisé](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Inventaire et logistique | [Exécution en entrepôt avec des unités d’échelle de périphérie sur votre matériel personnalisé](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Fabrication | [Contrôle et suivi de la production avec des unités d’échelle de périphérie sur votre matériel personnalisé](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Déployer des unités d’échelle de périphérie sur du matériel personnalisé à l’aide de LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Planification | [Planification des capacités infinies pour l’optimisation de la planification](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Cette fonctionnalité active la planification de la capacité avec une capacité infinie pour l’optimisation de la planification. Sans cette fonctionnalité, les ordres de fabrication planifiés obtiennent leur délai du délai du stock de produits lancés, quelle que soit la période de planification. |
 | Planification | Confirmation de commande prévisionnelle basée sur une requête | [Ordres prévisionnels confirmés](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gestion des informations sur les produits | [Améliorations de la page de suggestions de variante](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Créer des variantes de produits prédéfinies](../pim/tasks/create-predefined-product-variants.md) |

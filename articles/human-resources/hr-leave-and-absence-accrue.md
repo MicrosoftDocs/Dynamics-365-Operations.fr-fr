@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059471"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303462"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Régulariser les plans de congé et d’absence
 
@@ -104,11 +104,9 @@ Supprimez les enregistrements de provisions pour un plan et une plage de dates s
 
 2. Sous **Gérer les congés**, sélectionnez **Supprimer l’audit de provision de congés**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Version préliminaire) Audit des transactions de régularisation de congés
+## <a name="leave-accrual-transaction-auditing"></a>Audit des transactions de régularisation de congés
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Cette fonctionnalité en version préliminaire aide les responsables des congés et absences à comprendre les transactions de provision de congés et d’absences liées aux soldes de congés d’un employé pour un type de congé spécifique.
+Cette fonctionnalité aide les responsables des congés et absences à comprendre les transactions de provision de congés et d’absences liées aux soldes de congés d’un employé pour un type de congé spécifique.
 
 Pour afficher les détails de la transaction :
 
@@ -129,7 +127,7 @@ Pour afficher les détails de la transaction pour un montant de provision spéci
 
 ## <a name="see-also"></a>Voir également :
 
-[Vue d'ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
+[Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)</br>
 [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)
 
 

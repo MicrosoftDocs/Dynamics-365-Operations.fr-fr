@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f586e0f40b5362510333263a985eada39d3c53f5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a0cde0c22b69e7605708a647d47530840ce823b1
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020361"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270931"
 ---
 # <a name="rebate-reduction-principles"></a>Principes de réduction des remises
 
@@ -45,7 +45,7 @@ Pour utiliser les principes de réduction des remises, accédez à **Gestion des
 
 Le tableau suivant montre quelques exemples typiques de configurations de principe de réduction de remise. Pour chacun de ces principes de réduction de remise, la valeur du champ **Description** décrit le but du principe de réduction de remise.
 
-| principe de réduction des remises | Description | Appliquer la réduction | Base de réduction | Exclure de la réduction |
+| Principe de réduction des remises | Description | Appliquer la réduction | Base de réduction | Exclure de la réduction |
 |---|---|---|---|---|
 | Différé | Réduire la remise | Oui | Les deux | N° |
 | Exclreb | Exclure la remise | Oui | Remise | Oui |
@@ -71,14 +71,14 @@ Par exemple, le tableau suivant résume le résultat si vous utilisez l’ordre 
 |---|---|---|
 | 1 | <p>La classification ne vérifie pas les autres accords pour les réductions. Le contrôle est effectué à la fois pour les provisions et les remises.</p><ul><li>**Appliquer la réduction :** *Non*</li><li>**Base de réduction :** *Les deux*</li><li>**Exclure de la réduction :** *Non*</li></ul> | 1000 USD × 10 % = 100 USD |
 | 2 | <p>La classification vérifie les autres accords de réduction, mais est signalée de sorte qu’elle soit elle-même ignorée. Le contrôle est effectué uniquement pour les remises.</p><ul><li>**Appliquer la réduction :** *Oui*</li><li>**Base de réduction :** *Remise*</li><li>**Exclure de la réduction :** *Oui*</li></ul> | 1000 USD × 15 % = 150 USD |
-| 3 | <p>La classification vérifie les autres accords pour les réductions. Le contrôle est effectué à la fois pour les provisions et les remises.</p><ul><li>**Appliquer la réduction :** *Oui*</li><li>**Base de réduction :** *Les deux*</li><li>**Exclure de la réduction :** *Non*</li></ul> | (1000 USD – Accord 1) × 20 % = 180 USD |
-| 4 | <p>La classification vérifie les autres accords pour les réductions. Le contrôle est effectué à la fois pour les provisions et les remises.</p><ul><li>**Appliquer la réduction :** *Oui*</li><li>**Base de réduction :** *Les deux*</li><li>**Exclure de la réduction :** *Non*</li></ul> | (1000 USD – Accord 1 – Accord 3) × 25 % = 180 USD |
+| 3 | <p>La classification vérifie les autres accords pour les réductions. Le contrôle est effectué à la fois pour les provisions et les remises.</p><ul><li>**Appliquer la réduction :** *Oui*</li><li>**Base de réduction :** *Les deux*</li><li>**Exclure de la réduction :** *Non*</li></ul> | (1000 USD – Accord 1) × 20 % = 180 USD |
+| 4 | <p>La classification vérifie les autres accords pour les réductions. Le contrôle est effectué à la fois pour les provisions et les remises.</p><ul><li>**Appliquer la réduction :** *Oui*</li><li>**Base de réduction :** *Les deux*</li><li>**Exclure de la réduction :** *Non*</li></ul> | (1000 USD – Accord 1 – Accord 3) × 25 % = 180 USD |
 
 Le tableau suivant montre quelques exemples où la provision est traitée dans selon différents ordres, et où différents totaux sont donc atteints. L’écart dans les provisions dépend de l’ordre dans lequel le système traite les accords. Il est important que vous compreniez comment l’ordre de traitement affecte le montant final de la remise.
 
 | Ordre | Calcul |
 |---|---|
-| 1<br>(1, 2, 3, 4) | <ul><li>**Accord 1 :** 1000 USD × 10 % = 100 USD</li><li>**Accord 2 :** 1000 USD × 15 % = 150 USD</li><li>**Accord 3 :** (1000 USD – Accord 1) × 20 % = 180 USD</li><li>**Accord 4 :** (1000 USD - Accord 1 - Accord 2) × 25 % = 180 USD</li><li>**Provision totale :** 610 USD</li></ul> |
-| 2<br>(4, 3, 2, 1) | <ul><li>**Accord 4 :** 1000 x 25 % = 250 USD</li><li>**Accord 3 :** (1000 USD – Accord 4) × 20 % = 150 USD</li><li>**Accord 2 :** 1000 x 15 % = 150 USD</li><li>**Accord 1 :** 1000 x 10 % = 100 USD</li><li>**Provision totale :** 650 USD</li></ul> |
+| 1<br>(1, 2, 3, 4) | <ul><li>**Accord 1 :** 1000 USD × 10 % = 100 USD</li><li>**Accord 2 :** 1000 USD × 15 % = 150 USD</li><li>**Accord 3 :** (1000 USD – Accord 1) × 20 % = 180 USD</li><li>**Accord 4 :** (1000 USD - Accord 1 - Accord 2) × 25 % = 180 USD</li><li>**Provision totale :** 610 USD</li></ul> |
+| 2<br>(4, 3, 2, 1) | <ul><li>**Accord 4 :** 1000 x 25 % = 250 USD</li><li>**Accord 3 :** (1000 USD - Accord 4) × 20 % = 150 USD</li><li>**Accord 2 :** 1000 x 15 % = 150 USD</li><li>**Accord 1 :** 1000 x 10 % = 100 USD</li><li>**Provision totale :** 650 USD</li></ul> |
 | 3<br>(3, 2, 1, 4) | <ul><li>**Accord 3 :** 1000 x 20 % = 200 USD</li><li>**Accord 2 :** 1000 x 15 % = 150 USD</li><li>**Accord 1 :** 1000 x 10 % = 100 USD</li><li>**Accord 4 :** (1000 USD - Accord 3 - Accord 1) × 25 % = 175 USD</li><li>**Provision totale :** 625 USD</li></ul> |
 | 4<br>(2, 4, 1, 3) | <ul><li>**Accord 2 :** 1000 USD × 15 % = 150 USD</li><li>**Accord 4 :** 1000 USD × 25 % = 250 USD</li><li>**Accord 1 :** 1000 USD × 10 % = 100 USD</li><li>**Accord 3 :** (1000 USD - Accord 4 - Accord 1) × 20 % = 130 USD</li><li>**Provision totale :** 630 USD</li></ul> |

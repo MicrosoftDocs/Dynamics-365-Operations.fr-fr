@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc31740218e3f171d89debace339dee0177d826
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9ec21cda4779fea8c28b73d25842219da900da9d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053969"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271478"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>Créer un workflow de demande d’achat et de vente de congés
 
@@ -78,7 +78,8 @@ Ces exemples montrent comment créer différents types de conditions de workflow
 ## <a name="see-also"></a>Voir également :
 
 [Vue d’ensemble des congés et des absences](hr-leave-and-absence-overview.md)<br>
-[Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+[Gérer les stratégies d’achat et de vente de congés](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)<br>
+[Achat et vente de congés](hr-employee-self-service-buy-sell-leave.md)
 
 
 

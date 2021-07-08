@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193879"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271206"
 ---
 # <a name="firm-planned-orders"></a>Commandes prévisionnelles confirmées
 
@@ -25,9 +25,9 @@ Les commandes prévisionnelles doivent être *confirmées* (c’est-à-dire lanc
 
 Il existe trois méthodes pour confirmer les commandes prévisionnelles :
 
-- **Confirmation manuelle** - Sélectionnez des commandes prévisionnelles spécifiques dans une liste, puis démarrez le processus manuellement.
-- **Confirmation automatique** - Définissez une plage horaire de confirmation par défaut pour les groupes de couverture, les éléments individuels et les combinaisons d’éléments et de plans directeurs. Ensuite, pendant les cycles de planification générale, les commandes prévisionnelles seront automatiquement confirmées si la date de commande se situe dans la plage de temps spécifiée pour la confirmation.
-- **Confirmation basée sur les requêtes** - Définissez une requête pour sélectionner les commandes prévisionnelles en fonction de leurs propriétés. Vous pouvez configurer un traitement par lots pour exécuter la requête et confirmer les commandes correspondantes selon un calendrier régulier.
+- **Confirmation manuelle** – Sélectionnez des commandes prévisionnelles spécifiques dans une liste, puis démarrez le processus manuellement.
+- **Confirmation automatique** – Définissez une plage horaire de confirmation par défaut pour les groupes de couverture, les éléments individuels et les combinaisons d’éléments et de plans directeurs. Ensuite, pendant les cycles de planification générale, les commandes prévisionnelles seront automatiquement confirmées si la date de commande se situe dans la plage de temps spécifiée pour la confirmation.
+- **Confirmation basée sur les requêtes** – Définissez une requête pour sélectionner les commandes prévisionnelles en fonction de leurs propriétés. Vous pouvez configurer un traitement par lots pour exécuter la requête et confirmer les commandes correspondantes selon un calendrier régulier.
 
 Cette rubrique décrit chaque méthode en détail.
 
@@ -62,24 +62,24 @@ Pour confirmer manuellement les commandes prévisionnelles, recherchez et sélec
 1. Activez la case à cocher en regard de chaque commande prévisionnelle à confirmer. Si vous souhaitez confirmer toutes les commandes prévisionnelles actuellement répertoriées sur la page (en fonction des filtres que vous avez appliqués), ignorez cette étape.
 1. Sur le volet Actions, sélectionnez l’un des boutons suivants :
 
-    - **Confirmer** - Confirmer uniquement les commandes prévisionnelles sélectionnées.
-    - **Confirmer tout** - Confirmer toutes les commandes prévisionnelles actuellement répertoriées sur la page (en fonction des filtres que vous avez appliqués), quelles que soient les cases à cocher sélectionnées. Cette option peut être utile si vous confirmez plusieurs commandes prévisionnelles.
+    - **Confirmer** – Confirmer uniquement les commandes prévisionnelles sélectionnées.
+    - **Confirmer tout** – Confirmer toutes les commandes prévisionnelles actuellement répertoriées sur la page (en fonction des filtres que vous avez appliqués), quelles que soient les cases à cocher sélectionnées. Cette option peut être utile si vous confirmez plusieurs commandes prévisionnelles.
 
 1. Dans la boîte de dialogue **Confirmation**, sur le raccourci **Paramètres**, définissez les champs suivants : (Beaucoup de ces champs tirent leurs valeurs par défaut de l’onglet **Mise à jour standard** sur la page **Paramètres de planification**.)
 
-    - **Mettre à jour le marquage** – Sélectionnez la politique de marquage du stock à utiliser lors de la confirmation de commandes prévisionnelles.
-    - **Arrêter la confirmation si une erreur se produit** – Définissez cette option sur *Oui* pour arrêter de confirmer toutes les commandes prévisionnelles sélectionnées si une erreur se produit dans l’une d’entre elles. Cette option doit être définie sur *Non* si l’option **Confirmation de la mise en parallèle** est définie sur *Oui*.
-    - **Confirmation de la mise en parallèle** – Cette option n’est disponible que si la fonctionnalité [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez sélectionné au moins deux commandes prévisionnelles pour confirmation. Définissez l’option sur *Oui* pour exécuter les processus de conformation en parallèle. Une confirmation de la mise en parallèle peut aider à améliorer les performances.
-    - **Nombre de threads** – Cette option n’est disponible que si la fonctionnalité [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez défini l’option **Confirmation de la mise en parallèle** sur *Oui*. Entrez le nombre de threads à utiliser pour mettre en parallèle le processus de confirmation. Pour obtenir des conseils sur l’utilisation de cette option dans la planification générale, voir [Améliorer les performances de planification](../master-planning-performance.md#number-of-threads).
+    - **Mettre à jour le marquage** – Sélectionnez la politique de marquage du stock à utiliser lors de la confirmation de commandes prévisionnelles.
+    - **Arrêter la confirmation si une erreur se produit** – Définissez cette option sur *Oui* pour arrêter de confirmer toutes les commandes prévisionnelles sélectionnées si une erreur se produit dans l’une d’entre elles. Cette option doit être définie sur *Non* si l’option **Confirmation de la mise en parallèle** est définie sur *Oui*.
+    - **Confirmation de la mise en parallèle** – Cette option n’est disponible que si la fonctionnalité [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez sélectionné au moins deux commandes prévisionnelles pour confirmation. Définissez l’option sur *Oui* pour exécuter les processus de conformation en parallèle. Une confirmation de la mise en parallèle peut aider à améliorer les performances.
+    - **Nombre de threads** – Cette option n’est disponible que si la fonctionnalité [*Confirmation de la mise en parallèle des commandes prévisionnelles*](#enable-features) est activée dans votre système et si vous avez défini l’option **Confirmation de la mise en parallèle** sur *Oui*. Entrez le nombre de threads à utiliser pour mettre en parallèle le processus de confirmation. Pour obtenir des conseils sur l’utilisation de cette option dans la planification générale, voir [Améliorer les performances de planification](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Une valeur *0* (zéro) pour le champ **Nombre de threads** augmente le temps d’exécution de la planification générale. Par conséquent, nous vous recommandons de toujours définir ce champ sur une valeur supérieure à 0.
 
-    - **Regrouper par fournisseur** - Définissez cette option sur *Oui* pour regrouper les commandes fournisseur prévisionnelles et créer une commande d’achat par fournisseur lors de la confirmation. Vous pouvez également créer une commande fournisseur ayant une ligne pour chaque commande prévisionnelle.
-    - **Regrouper par groupe d’acheteurs** – Définissez cette option sur *Oui* pour regrouper les commandes fournisseur prévisionnelles et créer une commande fournisseur qui combine le groupe de fournisseurs et le groupe d’acheteurs. Pour utiliser cette option, vous devez également définir l’option **Regrouper par fournisseur** sur *Oui*.
+    - **Regrouper par fournisseur** – Définissez cette option sur *Oui* pour regrouper les commandes fournisseur prévisionnelles et créer une commande d’achat par fournisseur lors de la confirmation. Vous pouvez également créer une commande fournisseur ayant une ligne pour chaque commande prévisionnelle.
+    - **Regrouper par groupe d’acheteurs** – Définissez cette option sur *Oui* pour regrouper les commandes fournisseur prévisionnelles et créer une commande fournisseur qui combine le groupe de fournisseurs et le groupe d’acheteurs. Pour utiliser cette option, vous devez également définir l’option **Regrouper par fournisseur** sur *Oui*.
     - **Regrouper par contrat d’achat** : définissez cette option sur *Oui* pour regrouper les commandes fournisseur planifiées avec le même fournisseur comme contrats d’achat existants et créer une commande fournisseur par contrat d’achat. Cette option est automatiquement activée lorsque **Regrouper par fournisseur** est activé. Pour utiliser l’option **Regrouper par contrat d’achat**, l’option **Rechercher des contrats d’achat** doit être définie sur *Oui* dans la page **Paramètres de planification générale**.
-    - **Regrouper par période** (dans la section **Commandes fournisseur**) - Sélectionnez la période selon laquelle regrouper les commandes fournisseur prévisionnelles. Pour utiliser cette option, vous devez également sélectionner l’option **Regrouper par fournisseur**.
-    - **Regrouper par période** (dans la section **Transferts**) - Sélectionnez la période selon laquelle regrouper les ordres de transfert prévisionnels. Les commandes seront regroupées en fonction des valeurs **Entrepôt d’origine** et **Entrepôt de destination**.
+    - **Regrouper par période** (dans la section **Commandes fournisseur**) – Sélectionnez la période selon laquelle regrouper les commandes fournisseur prévisionnelles. Pour utiliser cette option, vous devez également sélectionner l’option **Regrouper par fournisseur**.
+    - **Regrouper par période** (dans la section **Transferts**) – Sélectionnez la période selon laquelle regrouper les ordres de transfert prévisionnels. Les commandes seront regroupées en fonction des valeurs **Entrepôt d’origine** et **Entrepôt de destination**.
 
     ![Raccourci Paramètres dans la boîte de dialogue Confirmation](./media/manual-firming.png "Raccourci Paramètres dans la boîte de dialogue Confirmation")
 
@@ -124,8 +124,6 @@ Si vous définissez toutes les plages horaires mentionnées précédemment sur *
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Commandes prévisionnelles confirmées à l’aide d’une requête
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Une confirmation basée une requête vous permet de planifier une confirmation en fonction de critères définis à l’avance. Contrairement à la confirmation automatique, une confirmation basée sur une requête permet de confirmer automatiquement différents sous-ensembles de commandes à différents moments. De plus, vous pouvez utiliser des opérations manuelles ou automatisées pour confirmer différents types de commandes prévisionnelles. Vous pouvez également prévisualiser les commandes confirmées sélectionnées en fonction de vos paramètres. Par conséquent, vous pouvez confirmer que la sélection correspond à vos attentes.
 
 Vous pouvez combiner la confirmation automatique avec celle basée sur une requête. Par exemple, une tâche de confirmation basée sur une requête a une plage de temps plus longue que celle d’une configuration de couverture de confirmation automatique correspondante. Par conséquent, la tâche de confirmation basée sur une requête traitera ses commandes prévisionnelles avant que la confirmation automatique ne soit déclenchée. Vous pouvez profiter de ce comportement pour planifier des commandes pour des fournisseurs spécifiques différemment des commandes pour des produits similaires d’autres fournisseurs.
@@ -138,9 +136,9 @@ Pour confirmer une commande prévisionnelle à l’aide du processus de confirma
 1. Accédez à **Planification \> Planification \> Exécuter \> Confirmation des commandes prévisionnelles**.
 1. Dans la boîte de dialogue **Confirmation des commandes prévisionnelles**, sur le raccourci **Paramètres**, définissez les options de base de traitement, de marquage et de regroupement. Ces options fonctionnent comme elles le font dans la boite de dialogue **Confirmation**. (Voir la section précédente pour les descriptions.) Ensuite, dans la section **Plan**, définissez les champs suivants qui sont propres à la boite de dialogue **Confirmation des commandes prévisionnelles** :
 
-    - **Plan** - Sélectionnez le plan directeur à appliquer lors de la confirmation des commandes prévisionnelles trouvées par cette requête.
-    - **Nombre de jours futurs de la plage de gestion de la confirmation** – Sélectionnez la durée dans l’avenir du calcul par la planification des divers besoins et autres éléments.
-    - **Nombre de jours passés de la plage de gestion de la confirmation** – Sélectionnez la durée dans le passé du calcul par la planification des divers besoins et autres éléments.
+    - **Plan** – Sélectionnez le plan directeur à appliquer lors de la confirmation des commandes prévisionnelles trouvées par cette requête.
+    - **Nombre de jours futurs de la plage de gestion de la confirmation** – Sélectionnez la durée dans l’avenir du calcul par la planification des divers besoins et autres éléments.
+    - **Nombre de jours passés de la plage de gestion de la confirmation** – Sélectionnez la durée dans le passé du calcul par la planification des divers besoins et autres éléments.
 
     ![Raccourci Paramètres dans la boîte de dialogue Confirmation des commandes prévisionnelles](./media/planned-order-firming-main-1.png "Raccourci Paramètres dans la boîte de dialogue Confirmation des commandes prévisionnelles")
 

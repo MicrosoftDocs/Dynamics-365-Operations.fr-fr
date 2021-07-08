@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: cbc2b5870e855ff4d4a099a51cbb6887dd30bba7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: f72ef77a35c484a40e1384baf69001bba6a333f6
+ms.sourcegitcommit: ec272aa133189569abaf4c09b03230611b5a756f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893550"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "6274534"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utiliser des sources de données de codes-barres pour générer des images de codes-barres
 
@@ -66,11 +66,11 @@ En utilisant une source de données du type **Code-barres**, vous pouvez génér
 
 Lorsque vous configurez une source de données **Code-barres**, vous pouvez définir des paramètres de rendu spécifiques qui sont utilisés pour générer une image :
 
-- **Largeur** – Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
-- **Hauteur** – Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
-- **Marge** – Spécifiez la taille de la marge du code-barres en pixels. La marge est la zone de chaque côté d’un code-barres qui doit être dégagée (zone silencieuse). Une valeur de **0** (zéro) indique que la marge par défaut est utilisée. La signification peut varier pour différents formats.
-- **Contenu de sortie** – Paramétrez la valeur sur **Oui** pour générer une image de code-barres qui contient les informations codées sous forme de texte. La valeur par défaut est **Non**.
-- **Codage** – Spécifiez le type de caractères qui sont encodés dans l’image de code-barres générée. Par défaut, l’encodage **UTF-8** est utilisé.
+- **Largeur** – Spécifiez la largeur du code-barres en pixels. Une valeur de **0** (zéro) indique que la largeur par défaut est utilisée. La signification peut varier pour différents formats.
+- **Hauteur** – Spécifiez la hauteur du code-barres en pixels. Une valeur de **0** (zéro) indique que la hauteur par défaut est utilisée. La signification peut varier pour différents formats.
+- **Marge** – Spécifiez la taille de la marge du code-barres en pixels. La marge est la zone de chaque côté d’un code-barres qui doit être dégagée (zone silencieuse). Une valeur de **0** (zéro) indique que la marge par défaut est utilisée. La signification peut varier pour différents formats.
+- **Contenu de sortie** – Paramétrez la valeur sur **Oui** pour générer une image de code-barres qui contient les informations codées sous forme de texte. La valeur par défaut est **Non**.
+- **Codage** – Spécifiez le type de caractères qui sont encodés dans l’image de code-barres générée. Par défaut, l’encodage **UTF-8** est utilisé.
 
 > [!IMPORTANT]
 > Lorsque vous ajoutez une nouvelle source de données **Code-barres**, vous devez la placer sous un autre élément (conteneur) en tant qu’élément imbriqué.
@@ -116,14 +116,14 @@ Si vous n’avez pas encore terminé l’exemple dans la rubrique [Intégrer des
 
 | Description du contenu         | Nom de fichier                   |
 |-----------------------------|-----------------------------|
-| Configuration de modèle de données ER | Modèle pour les chèques.xml       |
-| Configuration de format ER     | Format d’impression des chèques.xml |
+| Configuration de modèle de données ER | [Modèle pour les chèques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Configuration de format ER     | [Format d’impression des chèques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 En outre, téléchargez le fichier Excel suivant qui contient le modèle modifié pour la solution ER fournie.
 
 | Description du contenu | Nom de fichier                 |
 |---------------------|---------------------------|
-| Modèle d’état     | Modèle de chèque Excel.xlsx |
+| Modèle d’état     | [Modèle de chèque Excel.xlsx](https://download.microsoft.com/download/1/f/6/1f671963-73aa-48d5-ae69-45f21fe7dfb4/Cheque%20template.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Activer un fournisseur de configuration
 
@@ -160,7 +160,7 @@ En outre, téléchargez le fichier Excel suivant qui contient le modèle modifi�
 7. Dans le volet Actions, sélectionnez **Test d’impression**.
 8. Dans la boîte de dialogue, définissez l’option **Format de chèque négociable** sur **Oui**, puis sélectionnez **OK**.
 
-    ![Boîte de dialogue Mise en page des chèques – Test d’impression](./media/er-barcode-data-source-check-layout.png)
+    ![Boîte de dialogue Mise en page des chèques – Test d’impression](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Examiner le chèque de paiement généré.
 

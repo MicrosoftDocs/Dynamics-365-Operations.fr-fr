@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216840"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306413"
 ---
 # <a name="inventory-forecasts"></a>Prévisions du stock
 
@@ -353,20 +353,46 @@ Cette procédure permet de traiter des lignes de transaction de prévision exist
 1. Utilisez la section **Dimensions financières** pour mettre à jour les dimensions financières des lignes de prévision. Sélectionnez les dimensions financières que vous souhaitez modifier, puis entrez une valeur à appliquer aux dimensions sélectionnées.
 1. Sélectionner **OK** pour appliquer vos modifications.
 
-## <a name="run-forecast-planning"></a>Exécuter la planification des prévisions
+## <a name="use-forecasts-with-master-planning"></a>Utiliser les prévisions avec la planification générale
 
-Après avoir saisi la prévision de la demande ou la prévision d’approvisionnement, vous pouvez exécuter une planification des prévisions afin de déterminer les besoins bruts en matières et en capacité, et de générer des ordres prévisionnels.
+Après avoir saisi vos prévisions de demande et/ou d’approvisionnement, vous pouvez inclure les prévisions pendant la planification générale pour tenir compte de la demande et/ou de l’approvisionnement attendus dans votre cycle de planification. Lorsque les prévisions sont incluses dans la planification générale, les besoins bruts en matériaux et en capacité sont calculés et les ordres planifiés sont générés.
 
-1. Accédez à **Planification \> Prévision \> Planification de la prévision**.
-1. Dans le champ **Programme prévisionnel**, sélectionnez un programme de prévision.
-1. Activez **Suivre le temps de traitement** pour enregistrer le temps de traitement pour chaque tâche de planification.
-1. Entrez une valeur dans le champ **Nombre de threads**. (Pour plus d’informations, voir [Améliorer les performances de la planification](master-planning-performance.md).)
-1. Dans le champ **Commentaire**, entrez du texte pour refléter les informations supplémentaires nécessaires.
-1. Dans le raccourci **Enregistrements à inclure**, sélectionnez **Filtrer** pour limiter la sélection des articles.
-1. Dans le raccourci **Exécuter en arrière-plan**, spécifiez les paramètres du traitement par lots.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Configurer un plan directeur pour inclure une prévision de stock
+
+Pour configurer un plan directeur afin qu’il inclue une prévision de stock, procédez comme suit.
+
+1. Accédez à **Planification \> Paramétrage \> Plans \> Plans généraux**.
+1. Sélectionnez un plan existant ou créez un plan.
+1. Dans l’organisateur **Général**, définissez les champs suivants :
+
+    - **Modèle de prévision** – Sélectionnez le modèle de prévision à appliquer. Ce modèle sera pris en compte lorsqu’une proposition d’approvisionnement est générée pour le plan directeur actuel.
+    - **Inclure la prévision de l’approvisionnement** – Définissez cette option sur *Oui* pour inclure la prévision de l’approvisionnement dans la planification générale actuelle. Si vous la définissez sur *Non*, les transactions de prévision de l’approvisionnement ne seront pas incluses dans le plan directeur.
+    - **Inclure la prévision de la demande** – Définissez cette option sur *Oui* pour inclure la prévision de la demande dans le plan général actuel. Si vous le définissez sur *Non*, les transactions de prévision de la demande ne seront pas incluses dans le plan directeur.
+    - **Méthode utilisée pour réduire les besoins prévisionnels** – Sélectionnez la méthode à utiliser pour réduire les besoins prévisionnels. Pour plus d’informations, voir [Clés de réduction des prévisions](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. Sur le raccourci **Plages de temps en jours**, vous pouvez définir les champs suivants pour spécifier la période pendant laquelle la prévision est incluse :
+
+    - **Plan prévisionnel** – Réglez cette option sur *Oui* pour remplacer la plage de temps du plan prévisionnel qui provient des groupes de couverture individuels. Réglez-le sur *Non* pour utiliser les valeurs des groupes de couverture individuels pour le plan directeur actuel.
+    - **Période de prévision** – Si vous définissez l’option **Plan prévisionnel** sur *Oui*, spécifiez le nombre de jours (à partir de la date d’aujourd’hui) pendant lesquels la prévision de la demande doit être appliquée.
+
+    > [!IMPORTANT]
+    > L’option **Plan prévisionnel** n’est pas prise en charge avec l’Optimisation de la planification.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Exécuter un plan directeur comprenant une prévision de stock
+
+Pour exécuter un plan directeur comprenant une prévision de stock, procédez comme suit.
+
+1. Accédez à **Planification générale \> Espaces de travail \> Planification générale**.
+1. Dans le champ **Planification générale**, saisissez ou sélectionnez le plan directeur que vous avez paramétré dans la procédure précédente.
+1. Dans la vignette **Planification générale**, sélectionnez **Exécuter**.
+1. Dans la boîte de dialogue **Planification générale**, définissez l’option **Suivre le temps de traitement** sur *Oui*.
+1. Entrez un nombre dans le champ **Nombre de threads**.
+1. Dans l’organisateur **Enregistrements à inclure**, sélectionnez **Filtre**.
+1. Une boîte de dialogue d’éditeur de requête standard s’affiche. Sur l’onglet **Plage**, sélectionnez la ligne où le champ **Champ** est défini sur *Numéro d’article*.
+1. Dans le champ **Critères**, sélectionnez le numéro d’article à inclure dans le plan.
 1. Cliquez sur **OK**.
 
-Pour afficher les besoins calculés, ouvrez la page **Besoin brut**. Par exemple, sur la page **Produits lancés**, sur l’onglet **Planifier**, dans la section **Besoins**, sélectionnez **Besoin brut**.
+Pour afficher les besoins calculés, ouvrez la page **Besoin brut**. Par exemple, sur la page **Produits lancés**, dans le volet Actions, sur l’onglet **Planifier**, dans le groupe **Besoins**, sélectionnez **Besoin brut**.
 
 Pour afficher les ordres planifiés générés, accédez à **Planification \> Commun \> Ordres prévisionnels**, et sélectionnez le programme de prévision approprié.
 
@@ -376,5 +402,6 @@ Pour afficher les ordres planifiés générés, accédez à **Planification \> C
 - [Paramétrage de la prévision de la demande](demand-forecasting-setup.md)
 - [Générer des prévisions de base statistiques](generate-statistical-baseline-forecast.md)
 - [Effectuer des ajustements manuels sur la prévision de base](manual-adjustments-baseline-forecast.md)
+- [Planification avec prévisions de la demande](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

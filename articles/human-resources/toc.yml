@@ -5,6 +5,8 @@
       items:
         - name: Nouveautés ou modifications dans Human Resources
           href: hr-admin-whats-new.md
+        - name: "22\_juin\_2021"
+          href: hr-whats-new-2021-06-22.md
         - name: "20\_mai\_2021"
           href: hr-whats-new-2021-05-20.md
         - name: "3\_mai\_2021"
