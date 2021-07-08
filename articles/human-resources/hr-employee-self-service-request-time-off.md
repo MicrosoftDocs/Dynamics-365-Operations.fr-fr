@@ -15,66 +15,64 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f6edc848e1ed03f97e11cd4eb3fd1aaf4ee0c59
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 445360659e993451b1289091e43e4fc64e0ad228
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056706"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303218"
 ---
-# <a name="request-time-off"></a><span data-ttu-id="dda62-103">Demande de congés</span><span class="sxs-lookup"><span data-stu-id="dda62-103">Request time off</span></span>
+# <a name="request-time-off"></a><span data-ttu-id="62cdd-103">Demande de congés</span><span class="sxs-lookup"><span data-stu-id="62cdd-103">Request time off</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="dda62-104">Vous pouvez soumettre des demandes de congés, consulter vos soldes de vacances et de congés, et voir l’état de vos demandes de congés dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="dda62-104">You can submit requests for time off, view your vacation and leave balances, and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="62cdd-104">Vous pouvez soumettre des demandes de congés, consulter vos soldes de vacances et de congés, et voir l’état de vos demandes de congés dans Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="62cdd-104">You can submit requests for time off, view your vacation and leave balances, and see the status of your leave requests in Dynamics 365 Human Resources.</span></span>
 
-## <a name="request-time-off"></a><span data-ttu-id="dda62-105">Demande de congés</span><span class="sxs-lookup"><span data-stu-id="dda62-105">Request time off</span></span>
+## <a name="request-time-off"></a><span data-ttu-id="62cdd-105">Demande de congés</span><span class="sxs-lookup"><span data-stu-id="62cdd-105">Request time off</span></span>
 
-1. <span data-ttu-id="dda62-106">Dans l’espace de travail **Libre-service employé**, sélectionnez **Demande de congés** dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="dda62-106">In the **Employee self service** workspace, select **Request time off** in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="62cdd-106">Dans l’espace de travail **Libre-service employé**, sélectionnez **Demande de congés** dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-106">In the **Employee self service** workspace, select **Request time off** in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="dda62-107">Entrez des informations pour **Type de congé**, **Code motif**, **Date de début** et **Date de fin**.</span><span class="sxs-lookup"><span data-stu-id="dda62-107">Enter information for **Leave type**, **Reason code**, **Start date**, and **End date**.</span></span>
+2. <span data-ttu-id="62cdd-107">Entrez des informations pour **Type de congé**, **Code motif**, **Date de début** et **Date de fin**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-107">Enter information for **Leave type**, **Reason code**, **Start date**, and **End date**.</span></span>
 
-3. <span data-ttu-id="dda62-108">Sous **Dates**, sélectionnez les dates de votre demande de congés.</span><span class="sxs-lookup"><span data-stu-id="dda62-108">Under **Dates**, select the dates for your leave request.</span></span>
+3. <span data-ttu-id="62cdd-108">Sous **Dates**, sélectionnez les dates de votre demande de congés.</span><span class="sxs-lookup"><span data-stu-id="62cdd-108">Under **Dates**, select the dates for your leave request.</span></span>
 
-4. <span data-ttu-id="dda62-109">Si vous devez soumettre des pièces justificatives, sélectionnez **Charger** sous **Pièces jointes**.</span><span class="sxs-lookup"><span data-stu-id="dda62-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
+4. <span data-ttu-id="62cdd-109">Si vous devez soumettre des pièces justificatives, sélectionnez **Charger** sous **Pièces jointes**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-109">If you need to submit any supporting documentation, select **Upload** under **Attachments**.</span></span>
 
-5. <span data-ttu-id="dda62-110">Entrez les informations dans **Commentaire**, si besoin.</span><span class="sxs-lookup"><span data-stu-id="dda62-110">Enter information in **Comment**, if needed.</span></span>
+5. <span data-ttu-id="62cdd-110">Entrez les informations dans **Commentaire**, si besoin.</span><span class="sxs-lookup"><span data-stu-id="62cdd-110">Enter information in **Comment**, if needed.</span></span>
 
-6. <span data-ttu-id="dda62-111">Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande.</span><span class="sxs-lookup"><span data-stu-id="dda62-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="dda62-112">Sinon, sélectionnez **Enregistrer en tant que brouillon**.</span><span class="sxs-lookup"><span data-stu-id="dda62-112">Otherwise, select **Save draft**.</span></span>
+6. <span data-ttu-id="62cdd-111">Sélectionner **Soumettre** lorsque vous êtes prêt à soumettre votre demande.</span><span class="sxs-lookup"><span data-stu-id="62cdd-111">Select **Submit** when you're ready to submit your request.</span></span> <span data-ttu-id="62cdd-112">Sinon, sélectionnez **Enregistrer en tant que brouillon**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-112">Otherwise, select **Save draft**.</span></span>
 
-## <a name="add-an-attachment-to-an-existing-request"></a><span data-ttu-id="dda62-113">Ajouter une pièce jointe à une demande existante</span><span class="sxs-lookup"><span data-stu-id="dda62-113">Add an attachment to an existing request</span></span>
+## <a name="add-an-attachment-to-an-existing-request"></a><span data-ttu-id="62cdd-113">Ajouter une pièce jointe à une demande existante</span><span class="sxs-lookup"><span data-stu-id="62cdd-113">Add an attachment to an existing request</span></span>
 
-<span data-ttu-id="dda62-114">Lors de la mise à jour d’une demande de congé existante, vous pouvez ajouter une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="dda62-114">When updating an existing time off request, you can add an attachment.</span></span> <span data-ttu-id="dda62-115">Vous pouvez également voir toutes les demandes associées pour une date spécifique.</span><span class="sxs-lookup"><span data-stu-id="dda62-115">You can also see all of the related requests for a specific date.</span></span>
+<span data-ttu-id="62cdd-114">Lors de la mise à jour d’une demande de congé existante, vous pouvez ajouter une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="62cdd-114">When updating an existing time off request, you can add an attachment.</span></span> <span data-ttu-id="62cdd-115">Vous pouvez également voir toutes les demandes associées pour une date spécifique.</span><span class="sxs-lookup"><span data-stu-id="62cdd-115">You can also see all of the related requests for a specific date.</span></span>
 
-## <a name="view-leave-balances"></a><span data-ttu-id="dda62-116">Affichage des soldes de congés</span><span class="sxs-lookup"><span data-stu-id="dda62-116">View leave balances</span></span>
+## <a name="view-leave-balances"></a><span data-ttu-id="62cdd-116">Affichage des soldes de congés</span><span class="sxs-lookup"><span data-stu-id="62cdd-116">View leave balances</span></span>
 
-1. <span data-ttu-id="dda62-117">Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="dda62-117">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="62cdd-117">Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-117">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="dda62-118">Sélectionnez **Soldes**.</span><span class="sxs-lookup"><span data-stu-id="dda62-118">Select **Balances**.</span></span>
+2. <span data-ttu-id="62cdd-118">Sélectionnez **Soldes**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-118">Select **Balances**.</span></span>
 
-## <a name="view-leave-request-status"></a><span data-ttu-id="dda62-119">Affichage de l’état des demandes de congés</span><span class="sxs-lookup"><span data-stu-id="dda62-119">View leave request status</span></span>
+## <a name="view-leave-request-status"></a><span data-ttu-id="62cdd-119">Affichage de l’état des demandes de congés</span><span class="sxs-lookup"><span data-stu-id="62cdd-119">View leave request status</span></span>
 
-1. <span data-ttu-id="dda62-120">Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="dda62-120">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
+1. <span data-ttu-id="62cdd-120">Dans l’espace de travail **Libre-service employé**, sélectionnez **Plus** (...) dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-120">In the **Employee self service** workspace, select **More** (...) in the **Time Off Balances** tile.</span></span>
 
-2. <span data-ttu-id="dda62-121">Pour afficher vos demandes de congé approuvées, sélectionnez **Congés approuvés**.</span><span class="sxs-lookup"><span data-stu-id="dda62-121">To view your approved time-off requests, select **Approved time off**.</span></span> <span data-ttu-id="dda62-122">Pour afficher vos demandes de congé en attente, sélectionnez **Demandes de congés**.</span><span class="sxs-lookup"><span data-stu-id="dda62-122">To view your pending time-off requests, select **Time off requests**.</span></span>
+2. <span data-ttu-id="62cdd-121">Pour afficher vos demandes de congé approuvées, sélectionnez **Congés approuvés**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-121">To view your approved time-off requests, select **Approved time off**.</span></span> <span data-ttu-id="62cdd-122">Pour afficher vos demandes de congé en attente, sélectionnez **Demandes de congés**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-122">To view your pending time-off requests, select **Time off requests**.</span></span>
 
-## <a name="cancel-time-off-requests"></a><span data-ttu-id="dda62-123">Annuler les demandes de congé</span><span class="sxs-lookup"><span data-stu-id="dda62-123">Cancel time-off requests</span></span>
+## <a name="cancel-time-off-requests"></a><span data-ttu-id="62cdd-123">Annuler les demandes de congé</span><span class="sxs-lookup"><span data-stu-id="62cdd-123">Cancel time-off requests</span></span>
 
-[!include [Preview feature](includes/preview-feature.md)]
+1. <span data-ttu-id="62cdd-124">Dans l’espace de travail **Libre-service employé**, sélectionnez **Afficher les congés** dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-124">In the **Employee self service** workspace, select **View time off** in the **Time Off Balances** tile.</span></span>
 
-1. <span data-ttu-id="dda62-124">Dans l’espace de travail **Libre-service employé**, sélectionnez **Afficher les congés** dans la vignette **Soldes des congés**.</span><span class="sxs-lookup"><span data-stu-id="dda62-124">In the **Employee self service** workspace, select **View time off** in the **Time Off Balances** tile.</span></span>
+2. <span data-ttu-id="62cdd-125">Sur le formulaire **Congés**, sélectionnez une ou plusieurs demandes de congé à annuler.</span><span class="sxs-lookup"><span data-stu-id="62cdd-125">On the **Time off** form, select one or more time-off requests to cancel.</span></span>
 
-2. <span data-ttu-id="dda62-125">Sur le formulaire **Congés**, sélectionnez une ou plusieurs demandes de congé à annuler.</span><span class="sxs-lookup"><span data-stu-id="dda62-125">On the **Time off** form, select one or more time-off requests to cancel.</span></span>
+3. <span data-ttu-id="62cdd-126">Sélectionnez le bouton **Annuler**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-126">Select the **Cancel** button.</span></span>
 
-3. <span data-ttu-id="dda62-126">Sélectionnez le bouton **Annuler**.</span><span class="sxs-lookup"><span data-stu-id="dda62-126">Select the **Cancel** button.</span></span>
-
-4. <span data-ttu-id="dda62-127">Dans le volet **Détails de l'annulation**, entrez un commentaire, puis sélectionnez **Soumettre**.</span><span class="sxs-lookup"><span data-stu-id="dda62-127">In the **Cancellation details** pane, enter a comment and then select **Submit**.</span></span>
+4. <span data-ttu-id="62cdd-127">Dans le volet **Détails de l’annulation**, entrez un commentaire, puis sélectionnez **Soumettre**.</span><span class="sxs-lookup"><span data-stu-id="62cdd-127">In the **Cancellation details** pane, enter a comment and then select **Submit**.</span></span>
 
    ![Annuler la demande de congé](media/hr-leave-and-absence-cancel.png)
 
-## <a name="see-also"></a><span data-ttu-id="dda62-129">Voir également :</span><span class="sxs-lookup"><span data-stu-id="dda62-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62cdd-129">Voir également :</span><span class="sxs-lookup"><span data-stu-id="62cdd-129">See also</span></span>
 
-- [<span data-ttu-id="dda62-130">Vue d'ensemble des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="dda62-130">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="62cdd-130">Vue d’ensemble des congés et des absences</span><span class="sxs-lookup"><span data-stu-id="62cdd-130">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
