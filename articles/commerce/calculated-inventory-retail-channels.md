@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270883"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350472"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calculer la disponibilité des stocks pour les canaux de vente au détail
 
@@ -105,7 +105,7 @@ Dans Commerce version 10.0.9 et les versions antérieures, l’opération **Rech
 
 Lorsque le calcul côté canal est correctement configuré et géré, il peut fournir une estimation plus fiable du stock actuel du magasin, car il utilise les données transactionnelles disponibles dans la base de données du canal Commerce, mais pour lesquelles Commerce Headquarters ne dispose peut-être pas encore d’informations. Par exemple, si vous utilisez l’appel de service en temps réel existant pour les recherches de stock dans le PDV, Commerce Headquarters ne dispose probablement pas encore d’informations sur une vente au comptant sans livraison qui vient d’être effectuée pour un produit. Par conséquent, la valeur du stock disponible renvoyée par Commerce Headquarters pour ce produit dépasse probablement d’une unité le stock réel disponible du magasin. Toutefois, si vous utilisez le calcul côté canal, la vente au comptant sans livraison peut être prise en compte dans le calcul et déduite de la valeur disponible affichée. Bien que les valeurs fournies par le calcul côté canal et l’appel de service en temps réel ne soient que des estimations du stock disponible, la valeur fournie par le calcul côté canal est plus susceptible d’être précise pour le magasin actuel.
 
-Pour configurer l’opération de PDV **Recherche de stock** dans Commerce Headquarters afin qu’elle utilise la logique de calcul côté canal et pour désactiver l’appel de service en temps réel, procédez comme suit.
+Pour configurer l'opération **Recherche de stock** du PDV dans Commerce Headquarters pour utiliser la logique de calcul côté canal et désactiver les appels de service en temps réel, vous devez d’abord activer la fonctionnalité **Calcul de la disponibilité des produits optimisée** via l’espace de travail **Gestion des fonctionnalités** de Commerce Headquarters, puis procédez comme suit.
 
 1. Accédez à **Retail et Commerce \> Paramétrage du canal \> Paramétrage POS \> Profils POS \> Profils de fonctionnalité**.
 1. Sélectionnez un profil de fonctionnalité.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808614"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354974"
 ---
 # <a name="maintenance-status"></a>Statut de maintenance
 
@@ -57,13 +57,13 @@ Dans le module Gestion des actifs, vous pouvez effectuer un calcul de vue d’en
 
 Dans la capture d’écran ci-dessous, les boutons **Année** et **Mois** ont été actionnés. Avec ces options **Grouper par** sélectionnées, vous obtenez une vue d’ensemble générale sur une base mensuelle de charge de travail et le débit associé aux demandes de maintenance et aux ordres de travail. 
 
-![Exemple de charge de travail mensuelle](media/13-controlling-and-reporting.png)
+![Exemple de charge de travail mensuelle.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Exemple 2
 
 Dans la capture d’écran ci-dessous, les informations concernant les postes techniques ont été ajoutées. À présent il est possible de comparer la charge de travail et le débit entre les postes techniques, qui peuvent représenter les emplacements géographiques, les usines ou les espaces de travail. 
 
-![Exemple de charge de travail mensuelle avec des postes techniques](media/14-controlling-and-reporting.png)
+![Exemple de charge de travail mensuelle avec des postes techniques.](media/14-controlling-and-reporting.png)
 
 
 

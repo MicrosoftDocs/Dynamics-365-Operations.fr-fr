@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 16201
+ms.custom:
+- "16201"
+- intro-internal
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a1ee19a052c4a64995e6fcaa4afbe04b3e95fa55
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b52dc87e4a6a47f0c656c25bd5b5506f9de919c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027550"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344321"
 ---
 # <a name="loyalty-overview"></a>Vue d’ensemble de la fidélité
 
@@ -41,7 +43,7 @@ Vous pouvez paramétrer votre programme de fidélité de manière à ce qu’il 
 
 Vous devez configurer plusieurs composants pour activer la fonctionnalité de fidélité dans Commerce. Le diagramme suivant illustre les composants de fidélité et comment ils sont liés les uns aux autres.
 
-![Flux de processus du paramétrage du programme de fidélité](./media/loyaltyprocess.gif "Composantes de la fidélité et leurs relations")
+![Flux de processus du paramétrage du programme de fidélité.](./media/loyaltyprocess.gif "Composantes de la fidélité et leurs relations")
 
 ## <a name="loyalty-components"></a>Composants de fidélité
 
@@ -80,15 +82,15 @@ Le tableau suivant décrit les processus qui doivent être exécutés pour envoy
     > [!NOTE]
     > Les règles de bénéfice d’un programme de fidélité sont supplémentaires. Par exemple, si vous créez une règle pour récompenser un membre du niveau Or de 10 points pour chaque dollars US, et que vous devez créer également une règle pour un client avec l’affiliation d’« ancien combattant » pour le récompenser de 5 points pour chaque dollars US, alors un ancien combattant qui est également membre de niveau Or gagnerait 15 points pour 1 dollar US, car le client se qualifie pour les deux lignes. Toutefois, si le client ancien combattant n’était pas membre de niveau Or, il gagnerait 5 points pour chaque dollar. Pour refléter les modifications des canaux, exécutez les tâches **Traiter les programmes de fidélité** et **1050** (informations sur la fidélité).
     
-    ![Bénéfice basé sur l’affiliation](./media/Affiliation-based-earning.png "Bénéfices basés sur l’affiliation")
+    ![Bénéfice basé sur l’affiliation.](./media/Affiliation-based-earning.png "Bénéfices basés sur l’affiliation")
 
 - Les détaillants offrent souvent des prix spéciaux à un certain groupe de clients auxquels ils ne souhaitent pas appliquer de programmes de fidélité. Par exemple, les grossistes ou les employés qui obtiennent une tarification spéciale et mais aucun point de fidélité. En général, les « affiliations » sont utilisées pour offrir une tarification spéciale à ces groupes de clients. Pour limiter certains groupes de clients de gagner des points de fidélité, le détaillant peut préciser une ou plusieurs affiliations sous la section **Affiliations exclues** du programme de fidélité. Ainsi, lorsque les clients appartenant aux affiliations exclues sont des membres du programme de fidélité existant, ils ne peuvent pas obtenir de points de fidélité pour leurs achats. Pour refléter les modifications des canaux, exécutez les tâches **Traiter les programmes de fidélité** et **1050** (informations sur la fidélité).
 
-    ![Affiliations exclues](./media/Excluded-affiliations.png "Exclure les affiliations du gain des points de fidélité")
+    ![Affiliations exclues.](./media/Excluded-affiliations.png "Exclure les affiliations du gain des points de fidélité")
     
 - Le point de vente permet aux détaillants d’utiliser les cartes de fidélité physiques ou de générer automatiquement un numéro de carte de fidélité unique. Pour activer la génération automatique de cartes de fidélité dans les magasins, activez **Générer un numéro de la carte de fidélité** dans le profil de la fonctionnalité associé au magasin. Pour les canaux en ligne, les détaillants peuvent utiliser l’API IssueLoyaltyCard pour fournir des cartes de fidélité aux clients. Les détaillants peuvent soit fournir un numéro de carte de fidélité à cette API, qui est utilisé pour générer la carte de fidélité, soit le système utilise la souche de numéros de cartes de fidélité définie dans Commerce. Toutefois, en l’absence de souche de numéros définie, et si le détaillant ne fournit pas de numéro de carte de fidélité en appelant l’API, une erreur s’affiche.
 
-    ![Générer une carte de fidélité](./media/Generate-loyalty-card.png "Générer automatiquement un numéro de carte de fidélité")
+    ![Générer une carte de fidélité.](./media/Generate-loyalty-card.png "Générer automatiquement un numéro de carte de fidélité")
 
 - Les points de fidélité gagnés et remboursés peuvent désormais être enregistrés pour chaque transaction et commande client par rapport à la ligne de vente, de sorte que le même montant puisse être remboursé ou récupéré en cas de retours complets ou partiels. Par ailleurs, la visibilité des points au niveau des lignes de vente permet aux utilisateurs de centre d’appels de répondre aux questions des clients sur le nombre de points gagnés et remboursés pour chaque ligne. Avant cette modification, les points de récompense étaient toujours recalculés lors des retours, ce qui entraînait un montant différent de l’original, si les règles de bénéfice ou de remboursement étaient modifiées et les utilisateurs de centre d’appels n’avaient pas de visibilité sur la répartition des points. Les points peuvent être affichés sous l’écran **Transactions de carte** pour chaque carte de fidélité. Pour activer cette fonctionnalité, activez la configuration **Valider les points de fidélité par ligne de vente** sous l’onglet **Paramètres partagés de commerce** \> **Général**.
 
@@ -99,33 +101,33 @@ Le tableau suivant décrit les processus qui doivent être exécutés pour envoy
 
 En outre, les détaillants peuvent définir la limite de points de récompense de fidélité maximale par carte de fidélité. Ce champ peut être utilisé pour limiter l’impact de la fraude à la fidélité. Lorsque le nombre de points de récompense maximal est atteint, l’utilisateur ne peut pas obtenir plus de points. Le détaillant peut décider de bloquer ces cartes jusqu’à ce qu’ils aient examiné une fraude potentielle. Si le détaillant détermine la fraude, le détaillant peut bloquer la carte de fidélité du client et marquer le client comme bloqué. Pour cela, définissez la propriété **Bloquer le client pour l’inscription au programme de fidélité** sur **Oui** sous **Tous les clients** dans le FastTab **Commerce**. Les clients bloqués ne pourront plus obtenir de carte de fidélité dans aucun des canaux.
 
-   ![Acquisition et points de récompense maximum](./media/Vesting-and-maximum-reward-points.png "Définir l’acquisition et les points de récompense maximum")
+   ![Acquisition et points de récompense maximum.](./media/Vesting-and-maximum-reward-points.png "Définir l’acquisition et les points de récompense maximum")
 
 - Les affiliations sont utilisées pour fournir une tarification et des remises spéciales, mais les détaillants ne souhaitent pas que leurs clients voient certaines affiliations. Par exemple, une affiliation intitulée « Client à dépenses élevées » peut ne pas être bien perçue par certains clients. Par ailleurs, il existe certaines affiliations qui ne doivent pas être gérées dans le magasin, par exemple les employés, car vous ne souhaitez pas que les caissiers décide qui est un employé et offrent des remises pour les employés. Les détaillants peuvent désormais sélectionner les affiliations qui doivent être masquées dans les canaux. Les affiliations marquées comme **Masquer dans les canaux** ne peuvent pas être affichées, ajoutées ou supprimées du PDV. Toutefois, la tarification et les remises associées à l’affiliation restent appliquées aux produits.
 
-    ![Masquer les affiliations](./media/Hide-affiliations.png "Masquer les affiliations dans les canaux")
+    ![Masquer les affiliations.](./media/Hide-affiliations.png "Masquer les affiliations dans les canaux")
     
 - Les utilisateurs du centre d’appels peuvent maintenant facilement rechercher un client à l’aide de ses informations de carte de fidélité, et accéder aux pages de carte de fidélité et de transaction de la carte de fidélité du client sur la page **Service client**.
 
-    ![Service client](./media/Customer-service.png "Rechercher les informations sur la fidélité du client")
+    ![Service client.](./media/Customer-service.png "Rechercher les informations sur la fidélité du client")
     
 - Si une carte de fidélité est compromise, une carte de remplacement doit être générée et les points existants transférés vers la nouvelle carte. Le flux de carte de remplacement a été simplifié dans cette version. En outre, les clients peuvent offrir certains ou tous leurs points de fidélité à des amis et à la famille. Lorsque des points sont transférés, des entrées d’ajustement de points sont créées pour chaque carte de fidélité. La fonctionnalité de carte de remplacement et de transfert du solde peuvent être accessibles via la page **Cartes de fidélité**.
 
-    ![Remplacer et transférer les points](./media/Replace-and-transfer-points.png "Remplacer la carte de fidélité ou transférer le solde")
+    ![Remplacer et transférer les points.](./media/Replace-and-transfer-points.png "Remplacer la carte de fidélité ou transférer le solde")
     
 - Les détaillants peuvent souhaiter capturer l’efficacité d’un canal particulier pour inscrire des clients dans un programme de fidélité. La source d’inscription des cartes de fidélité est désormais enregistrée afin que les détaillants puissent générer des états sur ces données. La source d’inscription est automatiquement capturée pour toutes les cartes de fidélité émises par MPOS/CPOS ou des canaux de commerce électronique. Pour les cartes de fidélité émises par l’application de l’administration, l’utilisateur du centre d’appels peut sélectionner un canal approprié.
 - Dans les versions précédentes, les détaillants pouvaient utiliser MPOS/CPOS pour rembourser des points de fidélité aux clients d’un magasin. Toutefois, dans ces versions, du fait que le solde de fidélité s’affichait sous forme de points de fidélité, le caissier ne pouvait pas afficher le montant de la valeur en devise pouvant être appliquée à la transaction en cours. Le caissier devait effectuer la conversion des points dans la devise avant le paiement en points de fidélité. Dans la version actuelle, une fois les lignes ajoutées à la transaction, le caissier peut afficher le montant que les points de fidélité peuvent couvrir pour la transaction en cours, ce qui facilite l’application de certains ou de tous les points de fidélité à la transaction. En outre, le caissier peut consulter les points qui expireront dans les 30 prochains jours, à des fins de vente incitative et de vente croisée pour motiver le client à dépenser les points arrivant à expiration lors de cette transaction.
 
-    ![Points couverts par le solde des points de fidélité](./media/Points-covered-by-loyalty-balance.png "Afficher le solde couverts par les points de fidélité")
+    ![Points couverts par le solde des points de fidélité.](./media/Points-covered-by-loyalty-balance.png "Afficher le solde couverts par les points de fidélité")
 
-    ![Points arrivant à expiration](./media/Expiring-points.png "Afficher les points arrivant à expiration")
+    ![Points arrivant à expiration.](./media/Expiring-points.png "Afficher les points arrivant à expiration")
 
 - Avec la version 8.1.3, nous avons activé l’option « Paiement fidélité » dans le canal de centre d’appels. Pour activer cette option, créez un mode de paiement de fidélité et associez-le au centre d’appels. 
 
     > [!NOTE]
     > Parce que les paiements de fidélité sont définis comme modes de paiement, vous devrez sélectionner une carte depuis la page **Paramétrage de carte**. 
 
-    ![Configuration de la carte de fidélité](./media/LoyaltyCardSetup.png "Configuration de la carte de fidélité")
+    ![Configuration de la carte de fidélité.](./media/LoyaltyCardSetup.png "Configuration de la carte de fidélité")
 
     Une fois ce paramètre défini, les clients peuvent rembourser leurs points de fidélité dans le centre d’appels. En outre, nous améliorons davantage l’expérience utilisateur pour afficher le « Montant couvert par les points fidélité », de telle sorte que les utilisateurs de centre d’appels n’ont pas à accéder à un autre écran pour afficher le solde de fidélité.
 

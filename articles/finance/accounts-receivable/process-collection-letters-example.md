@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021414"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347806"
 ---
 # <a name="process-collection-letters-example"></a>Exemple Traiter les lettres de relance
 
@@ -40,7 +40,7 @@ Lorsque vous avez terminé, vous devez suivre les étapes suivantes.
 
 L’illustration suivante montre les informations contenues dans le tableau telles qu’elles apparaissent sur la page **Lettres de relance**. 
 
-[![Paramétrage d’une série de lettres de relance](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Paramétrage d’une série de lettres de relance.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Vous devez maintenant définir les deux paramètres requis pour cet exemple.
 
@@ -49,7 +49,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
     1. Dans l’onglet **Relance**, définissez l’option **Ignorer les paiements et les avoirs lors du calcul du code de lettre de relance** dans sur **Oui**.
     2. Assurez-vous que le champ **Créer une lettre de relance par** est défini sur **Client**.
 
-    [![Paramétrage des paramètres de Comptabilité client pour les crédits et relances](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Paramétrage des paramètres de Comptabilité client pour les crédits et relances.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Accédez à **Comptabilité client \> Factures \> Toutes factures financières**, sélectionnez **Nouveau**, puis procédez comme suit :
 
@@ -74,7 +74,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 5. Répétez l’étape 4, mais entrez **-200,00** dans le champ **Prix unitaire**.
 6. Accédez à **Comptabilité client \> Clients \> Tous les clients** et sélectionnez le client **US-045**. Ensuite, dans le volet Actions, sélectionnez **Transactions \> Transactions** pour vérifier les transactions client que vous avez validées précédemment.
 
-    [![Vérification des transactions client validées](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Vérification des transactions client validées.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Vous devez maintenant créer des lettres de relance pour le client US-045.
 
@@ -93,7 +93,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 
     1. Notez que le code de la lettre de relance sur l’en-tête et les lignes de transaction est **Lettre de relance 1**, car cette lettre de relance est la première de la série. (Pour afficher les lignes de transaction, vous devrez peut-être sélectionner le raccourci **Transactions**.)
 
-   [![Vérification que le même code de lettre de relance apparaît sur l’en-tête et les lignes](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Vérification que le même code de lettre de relance apparaît sur l’en-tête et les lignes.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Dans le volet Actions, sélectionnez **Valider**.
     3. Dans le champ **Date de validation**, entrez **19/01/2021**.
@@ -115,7 +115,7 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 
     1. Notez que le code de lettre de relance sur l’en-tête est **Lettre de relance 1**. Cependant, le code sur les lignes de transaction est **Lettre de relance 2**.
 
-   [![Vérifie que différents codes de lettre de relance apparaissent sur l’en-tête et sur les lignes](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Vérifie que différents codes de lettre de relance apparaissent sur l’en-tête et sur les lignes.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   Les codes sont différents, car l’option **Ignorer les paiements et les avoirs lors du calcul du code de lettre de relance** est définie sur **Oui**.
 
@@ -140,6 +140,6 @@ L’illustration suivante montre les informations contenues dans le tableau tell
 
 13. Accédez à **Crédit et relances \> Lettre de relance \> Examiner et traiter les lettres de relance** et notez que le code de la lettre de relance sur l’en-tête et les lignes de transaction est **Lettre de relance 2**.
 
-    [![Nouvel affichage. Le même code de lettre de relance apparaît sur l’en-tête et les lignes](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Nouvel affichage. Le même code de lettre de relance apparaît sur l’en-tête et les lignes.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Le même code s’affiche aux deux endroits, car l’option **Ignorer les paiements et les avoirs lors du calcul du code de lettre de relance** est maintenant définie sur **Non**.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355033"
 ---
 # <a name="overhead-calculation"></a>Calcul des frais généraux
 
@@ -48,7 +48,7 @@ Le calcul des frais généraux exécute les stratégies de contrôle de gestion 
 
 Le calcul des frais généraux est effectué indépendamment de la version. Par conséquent, vous pouvez calculer la version de budget avant la version actuelle. Le calcul des frais généraux comporte quatre étapes, comme le montre l’illustration suivante. Dans chaque étape, un en-tête de journal avec des entrées de journal est créé. Cet en-tête de journal conserve les données de saisie pour chaque étape de calcul. Les stratégies et les règles s’appliquent à chaque ligne de journal, et les entrées de coût sont générées comme une sortie. Par conséquent, vous disposez toujours d’une traçabilité complète. 
 
-[![Calcul des frais généraux](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Calcul des frais généraux.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calculer et affecter les frais généraux Électricité
 Dans la comptabilité financière, certaines coûts, tels que l’électricité, sont enregistrés comme montant forfaitaire. Par conséquent, l’analyse détaillée n’est pas fournie pour le contrôle de gestion. Dans le Contrôle de gestion, pour fournir une analyse correcte entre toutes les unités et tous les niveaux de l’organisation, les coûts doivent suivre les unités organisationnelles. Ce flux doit reposer sur un enregistrement précis de la consommation ou sur une évaluation juste. Dans la comptabilité, le coût de l’électricité peut être validé comme indiqué dans le tableau suivant.
@@ -618,7 +618,7 @@ Pour plus d’informations, voir [Exécuter le calcul des frais généraux](cost
 
 La répartition est utilisée pour affecter le solde d’un objet de coût à d’autres objets de coût en appliquant une base de répartition. Finance prend en charge la méthode de répartition réciproque. Dans la méthode de répartition réciproque, les services mutuels que les objets de coût auxiliaires échangent sont totalement identifiés. Le système détermine automatiquement l’ordre correct selon lequel exécuter les répartitions. Le solde d’un objet de coût est réparti par une seule base de répartition. Les répartitions entre plusieurs dimensions d’objets de coût et leurs membres respectifs sont prises en charge. L’ordre de répartition est contrôlé par l’unité de contrôle des coûts. 
 
-[![Méthode réciproque](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Méthode réciproque.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Définir la répartition de coût
 

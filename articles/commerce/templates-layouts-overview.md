@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804039"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347414"
 ---
 # <a name="templates-and-layouts-overview"></a>Vue d’ensemble des modèles et dispositions
 
@@ -32,7 +33,7 @@ Pour bien commencer à utiliser des modèles vous devez comprendre les avantages
 
 L’illustration suivante présente la hiérarchie du modèle de page derrière une page web affichée.
 
-![Diagramme de modèle de page](../commerce/media/page-model-diagram.png)
+![Diagramme de modèle de page.](../commerce/media/page-model-diagram.png)
 
 | Entité        | Fonction de base |
 |---------------|----------------|
@@ -98,7 +99,7 @@ Les dispositions prédéfinies et les dispositions personnalisés sont modifiée
 
 Les illustrations suivantes affiche des scénarios de dispositions prédéfinies et personnalisées.
 
-![Scénarios de dispositions prédéfinies et personnalisées](../commerce/media/template-figure1.png)
+![Scénarios de dispositions prédéfinies et personnalisées.](../commerce/media/template-figure1.png)
 
 Pour commencer à utiliser les dispositions prédéfinies, voir [Utiliser des dispositions prédéfinies](work-with-layouts.md).
 

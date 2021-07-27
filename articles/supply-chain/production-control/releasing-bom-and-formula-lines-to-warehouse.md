@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811676"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350544"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Lancer les lignes de nomenclature et de formule dans l’entrepôt
 
@@ -61,7 +61,7 @@ Dans la requête du traitement par lots **Lancement automatique des lignes de no
 
 L’illustration suivante présente un ordre de fabrication qui a deux traitements par lot, 10 et 20, qui couvrent l’assembly et l’emballage pour l’ordre de fabrication. Chaque traitement par lot est paramétré pour consommer une quantité de matières. Dans cette illustration, la plage de lancement indiquée par la flèche verte sous la ligne de temps correspond au nombre de jours spécifiés dans le critère **(LessThanDate())**. Par exemple, **(LessThanDate(2))** indique que le traitement par lot doit rechercher des quantités non lancées uniquement dans une plage de deux jours.
 
-![Exemple d’ordre de fabrication qui a deux traitements par lots](media/bach-job-setup.PNG)
+![Exemple d’ordre de fabrication qui a deux traitements par lots.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Lancement de matières par numéro d’opération ou sur la base de la quantité de produits finis
 
@@ -78,7 +78,7 @@ Pour contrôler les opérations pour lesquelles des matières doivent être lanc
 
 L’illustration suivante présente un ordre de fabrication contenant deux opérations, 10 et 20. Dans cet exemple, si vous limitez le lancement à l’opération 10, seules les matières M9203 sont lancées.
 
-![Exemple de lancement de matières par numéro d’opération](media/two-operations.PNG)
+![Exemple de lancement de matières par numéro d’opération.](media/two-operations.PNG)
 
 Pour une démonstration rapide du lancement des matières sur la base de la quantité de produits finis, visionnez cette courte vidéo YouTube : [Améliorations du processus de lancement d’un ordre de fabrication](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

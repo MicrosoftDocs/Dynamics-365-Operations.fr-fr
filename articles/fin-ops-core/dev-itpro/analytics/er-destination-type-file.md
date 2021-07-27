@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f48d4c28f74d9eea7289b9911269527073304d6f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b064dd09f3825750500b39d6d369e3511cb915da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753478"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347970"
 ---
 # <a name="file-destination"></a>Destination du fichier
 
@@ -30,11 +30,11 @@ Vous pouvez configurer une destination de fichier pour chaque composant DOSSIER 
 
 Sur la page **Paramètres de destination**, si vous définissez **Activé** sur **Oui**, une boîte de dialogue s’ouvre lorsque l’exécution de la configuration est terminée.
 
-[![Page Paramètres de destination](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
+[![Page Paramètres de destination.](./media/ER_Destinations-EnableFileDestination.png)](./media/ER_Destinations-EnableFileDestination.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- [Vue d’ensemble des états électroniques](general-electronic-reporting.md)
+- [Vue d'ensemble des états électroniques](general-electronic-reporting.md)
 - [Destinations pour la gestion des états électroniques](electronic-reporting-destinations.md)
 
 

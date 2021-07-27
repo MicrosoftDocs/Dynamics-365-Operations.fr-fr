@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d9470e4d517c5fb0b49ae2e26eb14220ea17aa3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799009"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349398"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enrichir une page d’arrivée de catégorie
 
@@ -31,7 +31,7 @@ Commerce fournit une page de destination de catégorie par défaut utilisée lor
 
 Toutefois, au lieu d’utiliser la page par défaut de catégorie, vous pouvez utiliser une page de destination de catégorie « enrichie » avec plus de contenu et autres éléments spécifiques. Un enrichissement standard pourrait impliquer d’ajouter du contenu marketing spécifique à la catégorie sur la page de catégorie. Ce contenu peut inclure un placement de produit entre les catégories à des fins de vente croisée, listes éditoriales, images, vidéos, et autre texte. Vous pouvez modifier la page par défaut de catégorie ou définir une autre page de catégorie pour une catégorie spécifique.
 
-![Page d’arrivée de catégorie enrichie](./media/CategoryLandingPages.png)
+![Page d’arrivée de catégorie enrichie.](./media/CategoryLandingPages.png)
 
 Dans le générateur de site Commerce, la page **Produits** inclut une liste de catégories du canal qui sont affectées au site. Si le statut **Enrichi** est sélectionné pour une page de catégorie, cette page de catégorie a été enrichie. Sinon, la page de catégorie et le contenu par défaut sont utilisés pour la catégorie. Vous pouvez prévisualiser les pages de catégorie enrichies et non enrichies pour une catégorie en sélectionnant le nom de la catégorie.
 

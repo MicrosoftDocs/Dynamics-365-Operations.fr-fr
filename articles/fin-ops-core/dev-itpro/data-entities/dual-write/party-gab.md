@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216610"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346618"
 ---
 # <a name="party-and-global-address-book"></a>Carnet d’adresses global et de la partie
 
@@ -35,13 +35,13 @@ Une partie est une personne ou une organisation impliquée dans une entreprise. 
 
 Le modèle de partie est souvent utilisé pour représenter des relations moyennes à complexes entre des organisations et des personnes, en particulier lorsqu’une partie joue plus d’un rôle. Voici quelques exemples courants :
 
-+ Une partie peut être à la fois un client et un fournisseur. Par exemple, en Amérique du Nord, Fabrikam vend des fils électriques à Contoso et achète des haut-parleurs assemblés à Contoso. En Europe, Fabrikam vend des pièces à Contoso, mais n'achète rien à Contoso.
++ Une partie peut être à la fois un client et un fournisseur. Par exemple, en Amérique du Nord, Fabrikam vend des fils électriques à Contoso et achète des haut-parleurs assemblés à Contoso. En Europe, Fabrikam vend des pièces à Contoso, mais n’achète rien à Contoso.
 + Une partie peut être à la fois un collaborateur et un client. Par exemple, un employé de  Contoso achète des appareils électroniques à Contoso pour son usage personnel.
 + Il peut y avoir une relation plusieurs-à-plusieurs entre une personne et une organisation. Par exemple, Fabrikam offre des services d’expertise et emploie un coordonnateur de placement. Le coordinateur de placement fait correspondre les experts avec les demandes de travail de plusieurs clients de Fabrikam. Contoso est l’un des clients de Fabrikam. Lorsque Contoso a besoin d’un expert, il contacte le coordinateur de placement, qui facilite ensuite l’exécution de la demande. Étant donné que le coordinateur de placement gère les demandes de tous les clients, une relation N : N est impliquée.
 
 L’illustration suivante montre le modèle de données pour la partie :
 
-![Modèle de données pour la partie](media/party-gab-image1.png)
+![Modèle de données pour la partie.](media/party-gab-image1.png)
 
 > [!TIP]
 > Lorsque vous essayez de créer un nouvel enregistrement de compte, utilisez le champ **Partie** pour rechercher l’enregistrement par nom. De cette façon, si vous trouvez l’enregistrement, il vous suffit de le sélectionner. Le système remplit ensuite automatiquement toutes les données à partir de la partie. Vous n’avez pas besoin de saisir manuellement tous les champs obligatoires. Ce même comportement existe sur les pages **Compte**, **Contact** et **Fournisseur** prêtes à l’emploi.
@@ -58,7 +58,7 @@ Selon le contexte commercial, une personne ou une organisation peut jouer plusie
 
 L’illustration suivante présente le modèle de données pour le carnet d’adresses global.
 
-![Modèle de données pour le carnet d’adresses global](media/party-gab-image2.png)
+![Modèle de données pour le carnet d’adresses global.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Contact
 
@@ -94,7 +94,7 @@ Ces relations sont stockées dans la table **Contact pour la partie**. Vous pouv
     + Si vous sélectionnez une valeur dans le champ **Contact associé**, vous sélectionnez alors le contact agrégé qui est de type **Personne**.
     + Si vous sélectionnez une valeur dans le champ **Compte associé** ou **Fournisseur associé**, vous sélectionnez une organisation.
 
-    ![Onglet Organisations associées sur la page Contact](media/party-gab-image3.png)
+    ![Onglet Organisations associées sur la page Contact.](media/party-gab-image3.png)
 
     Quel que soit votre sélection, l’association est créée au niveau de la partie et s’applique à tous les rôles de la partie ; elle est stockée dans l’entité **Contact de la partie**.
 
@@ -109,7 +109,7 @@ Lorsque vous ouvrez une ligne de **Contact** où le champ **Est un client** ou *
 
 Un nouvel onglet nommé **Adresses** a été introduit sur les pages **Compte**, **Contact** et **Fournisseur**. Cet onglet prend en charge plusieurs adresses postales à l’aide d’une grille, comme indiqué dans l’illustration suivante.
 
-![Grille d’adresses postales](media/party-gab-image4.png)
+![Grille d’adresses postales.](media/party-gab-image4.png)
 
 La grille comprend les colonnes suivantes :
 
@@ -121,7 +121,7 @@ Vous pouvez utiliser le bouton **Nouvelle adresse** au-dessus de la grille pour 
 
 Les champs **Adresse 1** et **Adresse 2** sur la page **Résumé** du formulaire **Compte** correspondent aux adresses **Livraison** et **Facture**, respectivement.
 
-![Onglet Résumé des adresses postales](media/party-gab-image5.png)
+![Onglet Résumé des adresses postales.](media/party-gab-image5.png)
 
 Les champs **Adresse 1**, **Adresse 2**, and **Adresse 3** sur la page **Résumé** du formulaire **Contact** correspondent aux adresses **Entreprise**, **Livraison** et **Facture**, respectivement.
 
@@ -129,7 +129,7 @@ Les champs **Adresse 1**, **Adresse 2**, and **Adresse 3** sur la page **Rés
 
 Un nouvel onglet nommé **Adresses électroniques** a été introduit sur les pages **Compte**, **Contact** et **Fournisseur**. Cet onglet prend en charge plusieurs adresses électroniques à l’aide d’une grille, comme indiqué dans l’illustration suivante.
 
-![Grille d’adresses électroniques](media/party-gab-image6.png)
+![Grille d’adresses électroniques.](media/party-gab-image6.png)
 
 La grille comprend les colonnes suivantes :
 
@@ -205,7 +205,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     | Identifiant de partie (champ) | Correspondance parfaite |
     | Sélection (champ) | (vide) |
 
-    ![Règle en double pour les comptes](media/duplicate-rule-1.PNG)
+    ![Règle en double pour les comptes.](media/duplicate-rule-1.PNG)
 
 10. Développez la règle de détection des doublons pour la table **Contacts** en définissant les champs suivants.
 
@@ -221,7 +221,7 @@ Les adresses électroniques ne sont disponibles que sur cette grille. Dans les v
     | Identifiant de partie (champ) | Correspondance parfaite |
     | Sélection (champ) | (vide) |
 
-    ![Règle en double pour les contacts](media/duplicate-rule-2.PNG)
+    ![Règle en double pour les contacts.](media/duplicate-rule-2.PNG)
 
 11. Si vous êtes déjà un utilisateur à double écriture, suivez les instructions de la section [Effectuer une mise à niveau vers le modèle de partie et de carnet d’adresses global](upgrade-party-gab.md) et mettez à jour vos données.
 
@@ -300,11 +300,11 @@ Pour plus d’informations, voir [Référence de mappage en double écriture](ma
 + Les adresses électroniques définies sur l’onglet Adresses électroniques des formulaires **Compte**, **Contact** et **Fournisseur** proviennent de la table `msdyn_partyelectronicaddress`. Ces informations ne sont pas transmises aux transactions associées telles que la commande client, le devis et la commande fournisseur. Nous prévoyons de résoudre ce problème dans une version incrémentielle. Les données existantes sur les champs d’adresse électronique sur les enregistrements de compte et de contact continueront à fonctionner sur les transactions telles que la commande client, le devis et le bon de commande.
 + Dans les applications Finance and Operations, vous pouvez créer un enregistrement de contact à partir du formulaire **Ajouter des contacts**. Lorsque vous essayez de créer un nouveau contact à partir du formulaire **Afficher les contacts**, l’action échoue. Il s’agit d’un problème connu.
 
-    ![Problème connu avec Ajouter des contacts](media/party-gab-contact-issue.png)
+    ![Problème connu avec Ajouter des contacts.](media/party-gab-contact-issue.png)
 
 + La **Synchronisation initiale** ne prend pas en charge les champs horaires **Disponible à partir de** et **Disponible jusqu’au** sur **ContactForParty**, car DIXF convertit la valeur en une chaîne au lieu d’un entier. La conversion déclenche l’erreur `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Lorsqu’une adresse postale est utilisée pour plusieurs raisons, par exemple, l’adresse de communication professionnelle et l’adresse de facturation, elle doit apparaître sous la forme `Business;Invoice` comme indiqué dans l’image suivante. Si vous ajoutez un espace entre les valeurs, vous obtiendrez une erreur.
 
-    ![Problème connu avec Adresse](media/party-gab-address-issue.png)
+    ![Problème connu avec Adresse.](media/party-gab-address-issue.png)
 
 + Vous ne pouvez pas saisir une adresse postale postdatée à l’aide d’une application Finance and Operations avec la double écriture, car Dataverse ne prend pas en charge la validité de la date. Si vous saisissez une adresse postale postdatée à l’aide d’une application Finance and Operations, elle se synchronise complètement avec Dataverse et vous verrez l’adresse sur l’interface utilisateur immédiatement. Toute mise à jour de cet enregistrement entraînera une erreur car il est postdaté et n’est pas présent dans l’application Finance and Operations.

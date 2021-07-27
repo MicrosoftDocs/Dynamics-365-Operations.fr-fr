@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797813"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347588"
 ---
 # <a name="checkout-module"></a>Module Paiement
 
@@ -33,7 +33,7 @@ Un module de caisse affiche des données sur l’ID panier. Cet ID panier est en
 
 L’image suivante montre un exemple de module de caisse Fabrikam dans une page de caisse.
 
-![Exemple d’un module de caisse](./media/Checkout.PNG)
+![Exemple d’un module de caisse.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Propriétés du module de paiement
 
@@ -52,13 +52,13 @@ Un module de paiement affiche un résumé de la commande et fournit la fonctionn
 
     L’image suivante montre un exemple de module d’adresse de livraison dans une page de caisse.
 
-    ![Exemple de module d’adresse de livraison](./media/ecommerce-shippingaddress.PNG)
+    ![Exemple de module d’adresse de livraison.](./media/ecommerce-shippingaddress.PNG)
 
 - **Options de livraison** – Ce module permet à un client sélectionner un mode de livraison pour une commande. Pour plus d’informations sur ce module, voir [Module Options de livraison](delivery-options-module.md).
 
     L’image suivante montre un exemple de module d’options de livraison dans une page de caisse.
  
-    ![Exemple d’un module d’options de livraison](./media/ecommerce-deliveryoptions.PNG)
+    ![Exemple d’un module d’options de livraison.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Conteneur de section de caisse** – Ce module est un conteneur dans lequel vous pouvez mettre plusieurs modules pour créer une section dans le flux de caisse. Par exemple, vous pouvez mettre tous les modules liés au paiement à l’intérieur de ce conteneur pour les faire apparaître comme une section. Ce module n’affecte que la disposition du flux.
 
@@ -70,7 +70,7 @@ Un module de paiement affiche un résumé de la commande et fournit la fonctionn
 
     L’image suivante montre un exemple de modules de carte cadeau, de points de fidélité et de paiement sur une page de caisse.
 
-    ![Exemple de modules de carte cadeau, de points de fidélité et de paiement sur une page de caisse](./media/ecommerce-payments.PNG)
+    ![Exemple de modules de carte cadeau, de points de fidélité et de paiement sur une page de paiement.](./media/ecommerce-payments.PNG)
 
 - **Informations de contact** – Ce module permet à un client d’ajouter ou de modifier des informations de contact (adresse e-mail) pour une commande.
 
@@ -80,7 +80,7 @@ Un module de paiement affiche un résumé de la commande et fournit la fonctionn
 
     L’image suivante montre un exemple de module de conditions générales sur une page de caisse.
 
-    ![Exemple de conditions générales sur une page de paiement](./media/ecommerce-checkout-terms.PNG)
+    ![Exemple de conditions générales sur une page de paiement.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interaction avec Commerce Scale Unit
 

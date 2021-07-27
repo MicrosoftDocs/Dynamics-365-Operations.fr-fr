@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750616"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346494"
 ---
 # <a name="integrated-vendor-master"></a>Données principales fournisseur intégrées
 
@@ -39,11 +39,11 @@ Dans les deux approches, les données du fournisseur sont intégrées entre Dyna
 
 Si vous ne souhaitez pas stocker les données fournisseur dans la table **Compte/Contact** dans Dataverse, vous pouvez utiliser le nouveau concept de fournisseur.
 
-![Flux de données fournisseur](media/dual-write-vendor-data-flow.png)
+![Flux de données fournisseur.](media/dual-write-vendor-data-flow.png)
 
 Si vous ne souhaitez pas continuer à stocker les données fournisseur dans la table **Compte/Contact**, vous pouvez utiliser le concept étendu de fournisseur. Pour utiliser le concept étendu de fournisseur, vous devez configurer les flux de travail du fournisseur dans le package de solution de double écriture. Pour plus d’informations, voir [Permuter entre les configurations de fournisseur](vendor-switch.md).
 
-![Flux de données fournisseur étendues](media/dual-write-vendor-detail.jpg)
+![Flux de données fournisseur étendues.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Si vous utilisez les portails Power Apps pour les fournisseurs en libre-service, les informations sur les fournisseurs peuvent passer directement vers les applications Finance and Operations.

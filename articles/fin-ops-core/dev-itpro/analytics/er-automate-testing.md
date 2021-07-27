@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6b8e3d129c40e33aeb91e823528a3bc89d2d9568
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743869"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351864"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatiser les tests avec la gestion des états électroniques
 
@@ -59,7 +59,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
 - Déployez une topologie qui prend en charge l’automatisation des tests. Vous devez avoir accès à l’instance de cette topologie pour le rôle **Administrateur système**. Cette topologie doit contenir les données de démonstration qui seront utilisées dans cet exemple. Pour plus d’informations, voir [Déployer et utiliser un environnement qui prend en charge l’élaboration continue et l’automatisation des tests](../perf-test/continuous-build-test-automation.md).
 - Pour exécuter automatiquement les tests d’acceptation par les utilisateurs et d’intégration, vous devez installer RSAT dans la topologie que vous utilisez et le configurer de la manière appropriée. Pour plus d’informations sur l’installation et la configuration de RSAT pour qu’il fonctionne avec les applications Finance and Operations et Azure DevOps, voir [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prêtez attention aux conditions préalables à l’utilisation de l’outil. L’illustration suivante montre un exemple des paramètres RSAT. Le rectangle bleu entoure les paramètres qui spécifient l’accès à Azure DevOps. Le rectangle vert entoure les paramètres qui spécifient l’accès à l’instance.
 
-    ![Paramètres RSAT](media/GER-Configure.png "Capture d’écran de la boîte de dialogue Paramètres RSAT")
+    ![Paramètres RSAT.](media/GER-Configure.png "Capture d’écran de la boîte de dialogue Paramètres RSAT")
 
 - Pour organiser des scénarios de test en suites afin de garantir l’ordre correct d’exécution, de manière à pouvoir collecter les journaux des exécutions de test aux fins d’autres génération d’états et d’examen, vous devez accéder à Azure DevOps à partir de la topologie déployée.
 - Pour réaliser l’exemple de cette rubrique, nous vous recommandons de télécharger [Utilisation de la génération d’états électroniques pour les tests RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Ce fichier zip contient les guides de tâche suivants :
@@ -78,7 +78,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
     - **Mise en correspondance du modèle de paiement 1611** Configuration de la mise en correspondance du modèle ER
     - **BACS (UK)** Configuration de format ER
 
-    ![Configurations de gestion des états électroniques](media/GER-Configurations.png "Capture d’écran de la page Configurations dans la gestion des états électroniques")
+    ![Configurations de gestion des états électroniques.](media/GER-Configurations.png "Capture d’écran de la page Configurations dans la gestion des états électroniques")
 
 3. Sélectionnez la société de démonstration **GBSI**, dont le contexte national/régional est celui de la Grande-Bretagne.
 4. Configuration des paramètres de la comptabilité fournisseur :
@@ -90,7 +90,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
         1. Dans l’organisateur **Formats de fichier**, définissez l’option **Format d’exportation électronique générique** sur **Oui**.
         2. Dans le champ **Exporter la configuration du format**, sélectionnez **BACS (UK)**.
 
-    ![Page des modes de paiement](media/GER-APParameters.png "Capture d’écran de la page Modes de paiement")
+    ![Page des modes de paiement.](media/GER-APParameters.png "Capture d’écran de la page Modes de paiement")
 
     > [!NOTE]
     > Si vous avez la version dérivée de ce format ER créée pour prendre en charge les personnalisations, vous pouvez sélectionner cette configuration dans le mode de paiement **Électronique**.
@@ -100,7 +100,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
     1. Accédez à **AComptabilité fournisseur \> Paiements \> Journal des paiements**.
     2. Assurez-vous que vous n’avez pas validé le journal des paiements.
 
-        ![Page du journal des paiements](media/GER-APJournal.png "Capture d’écran de la page Journal de paiement")
+        ![Page du journal des paiements.](media/GER-APJournal.png "Capture d’écran de la page Journal de paiement")
 
     3. Sélectionnez **Lignes**, puis entrez une ligne comportant les informations suivantes.
 
@@ -111,9 +111,9 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
         | Devise            | GBP             |
         | Type de compte de contrepartie | Banque            |
         | Compte de contrepartie      | GBSI OPER       |
-        | Mode de paiement   | électronique      |
+        | Mode de paiement   | Électronique      |
 
-    ![Page des paiements fournisseur](media/GER-APJournalLines.png "Capture d’écran de la page Paiements fournisseur")
+    ![Page Paiements fournisseur.](media/GER-APJournalLines.png "Capture d’écran de la page Paiements fournisseur")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Préparer la structure ER pour tester le traitement des paiements fournisseur
 
@@ -122,7 +122,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
 1. Accédez à **Administration d’organisation \> États électroniques \> Paramètres des états électroniques**.
 2. Dans l’onglet **Pièces jointes**, dans le champ **Référence**, sélectionnez **Fichier** comme type de document utilisé par la structure DM (Gestion des documents) pour conserver les documents relatifs à la fonction de référence en tant que pièces jointes DM.
 
-    ![Page Paramètres de la gestion des états électroniques](media/GER-ERParameters.png "Capture d’écran de la page Paramètres de gestion des états électroniques")
+    ![Page Paramètres de la gestion des états électroniques.](media/GER-ERParameters.png "Capture d’écran de la page Paramètres de gestion des états électroniques")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Générer des copies de référence des documents relatifs aux paiements fournisseur
 
@@ -139,7 +139,7 @@ Avant de pouvoir réaliser les tâches de cette rubrique, vous devez remplir les
     - Fichier de paiement **Fichier** au format texte
     - État de contrôle **ERVendOutPaymControlReport** au format XLSX
 
-    ![Fichiers extraits](media/GER-APJournalProcessed.png "Capture d’écran des noms de fichiers extraits dans l’explorateur Windows")
+    ![Fichiers extraits.](media/GER-APJournalProcessed.png "Capture d’écran des noms de fichiers extraits dans l’explorateur Windows")
 
 ### <a name="turn-on-the-er-baseline-feature"></a>Activation de la fonction de référence ER
 
@@ -177,7 +177,7 @@ En activant le paramètre **Exécuter en mode débogage**, vous forcez la struct
     3. Recherchez l’état de contrôle **ERVendOutPaymControlReport** enregistré localement en format XLSX.
     4. Dans le champ **Description**, entrez **État de contrôle de paiement XLSX**.
 
-    ![Bases de référence pour l’état de contrôle et le fichier de paiement fournisseur](media/GER-BaselineAttachments.png "Capture d’écran de la page Configurations avec l’état de contrôle de paiement XLSX sélectionné")
+    ![Bases de référence pour l’état de contrôle et le fichier de paiement fournisseur.](media/GER-BaselineAttachments.png "Capture d’écran de la page Configurations avec l’état de contrôle de paiement XLSX sélectionné")
 
 8. Fermez la page.
 9. Dans l’organisateur **Bases de référence**, sélectionnez **Nouveau** pour configurer une base de référence pour le fichier de paiement :
@@ -196,7 +196,7 @@ En activant le paramètre **Exécuter en mode débogage**, vous forcez la struct
     4. Dans le champ **Masque de nom de fichier**, entrez **\*.XLSX** pour n’appliquer cette base de référence qu’aux sorties du composant de format **ERVendOutPaymControlReport** ayant l’extension de nom de fichier **.xlsx**.
     5. Dans le champ **Base de référence**, sélectionnez **État de contrôle de paiement XLSX** afin que cette base de référence soit utilisée pour comparaison avec la sortie générée.
 
-    ![Organisateur Bases de référence sur la page Configurations](media/GER-BaselineRules.png "Capture d’écran de l’organisateur Références de base dans la page Configurations")
+    ![Organisateur Bases de référence sur la page Configurations.](media/GER-BaselineRules.png "Capture d’écran de l’organisateur Références de base dans la page Configurations")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Enregistrement des tests pour valider le traitement des paiements fournisseur
 
@@ -226,15 +226,15 @@ Cet enregistrement de tâche exécute les actions suivantes :
 
 1. Définissez le statut de la ligne de paiement traitée sur **Aucun**.
 
-    ![Enregistrement de tâche, étapes 3 à 4](media/GER-Recording1Review1.png "Capture d’écran de l’enregistrement de tâche, étapes 3 à 4")
+    ![Enregistrement de tâche, étapes 3 à 4.](media/GER-Recording1Review1.png "Capture d’écran de l’enregistrement de tâche, étapes 3 à 4")
 
 2. Activez le paramètre utilisateur ER **Exécuter en mode débogage**.
 
-    ![Enregistrement de tâche, étapes 9 à 10](media/GER-Recording1Review2.png "Capture d’écran de l’enregistrement de tâche, étapes 9 à 10")
+    ![Enregistrement de tâche, étapes 9 à 10.](media/GER-Recording1Review2.png "Capture d’écran de l’enregistrement de tâche, étapes 9 à 10")
 
 3. Nettoyez le journal de débogage ER contenant les résultats de la comparaison des fichiers générés aux bases de référence.
 
-    ![Enregistrement de tâche, étapes 13 à 15](media/GER-Recording1Review3.png "Capture d’écran de l’enregistrement de tâche, étapes 13 à 15")
+    ![Enregistrement de tâche, étapes 13 à 15.](media/GER-Recording1Review3.png "Capture d’écran de l’enregistrement de tâche, étapes 13 à 15")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Enregistrement des étapes pour tester le traitement des paiements fournisseur
 
@@ -253,21 +253,21 @@ Cet enregistrement de tâche exécute les actions suivantes :
 1. Démarrez le traitement des paiements fournisseur.
 2. Sélectionnez les paramètres d’exécution appropriés, puis activez la génération d’un état de contrôle.
 
-    ![Enregistrement de tâche, étapes 3 à 8](media/GER-Recording2Review1.png "Capture d’écran de l’enregistrement de tâche, étapes 3 à 8")
+    ![Enregistrement de tâche, étapes 3 à 8.](media/GER-Recording2Review1.png "Capture d’écran de l’enregistrement de tâche, étapes 3 à 8")
 
 3. Accédez au journal de débogage ER pour enregistrer les résultats de la comparaison des fichiers de sortie aux bases de référence correspondantes.
 
     Dans le journal de débogage ER, les résultats de la comparaison apparaissent dans le champ **Texte généré**. Les champs **Composant de format** et **Chemin du format ayant provoqué une entrée de journal** font référence au composant de fichier pour lequel la sortie générée a été comparée à la base de référence.
 
-    ![Entrées sur la page Journaux d’exécution de la gestion des états électroniques](media/GER-ERDebugLog.png "Capture d’écran des entrées sur la page Journaux d’exécution de la gestion des états électroniques")
+    ![Entrées sur la page Journaux d’exécution de la gestion des états électroniques.](media/GER-ERDebugLog.png "Capture d’écran des entrées sur la page Journaux d’exécution de la gestion des états électroniques")
 
 4. La comparaison de la sortie actuelle à la base de référence est enregistrée à l’aide de l’option **Valider** de l’enregistreur de tâches, en sélectionnant **Valeur actuelle**.
 
-    ![Utilisation de l’option Valider pour comparaison avec la valeur actuelle](media/GER-TRRecordValidation.png "Capture d’écran de l’utilisation de l’option Valider pour comparaison avec la valeur actuelle")
+    ![Utilisation de l’option Valider pour comparaison avec la valeur actuelle.](media/GER-TRRecordValidation.png "Capture d’écran de l’utilisation de l’option Valider pour comparaison avec la valeur actuelle")
 
     L’illustration suivante présente l’aspect des étapes de validation enregistrées dans l’enregistrement de tâche.
 
-    ![Enregistrement de tâche, étapes 13 et 15](media/GER-Recording2Review2.png "Capture d’écran de l’enregistrement de tâche, étapes 13 et 15")
+    ![Enregistrement de tâche, étapes 13 et 15.](media/GER-Recording2Review2.png "Capture d’écran de l’enregistrement de tâche, étapes 13 et 15")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Ajout des tests enregistrés à Azure DevOps
 
@@ -284,7 +284,7 @@ Cet enregistrement de tâche exécute les actions suivantes :
     1. Nommez le scénario de test **Test du traitement des paiements fournisseur à l’aide du format ER BACS (UK)**.
     2. Associez le fichier **Recording.xml** du dossier **Process** que vous avez téléchargé précédemment.
 
-    ![Nouveaux scénarios de test pour le plan de test sélectionné](media/GER-RSAT-DevOps-Tests-Passed.png "Capture d’écran des nouveaux scénarios de test pour le plan de test sélectionné")
+    ![Nouveaux scénarios de test pour le plan de test sélectionné.](media/GER-RSAT-DevOps-Tests-Passed.png "Capture d’écran des nouveaux scénarios de test pour le plan de test sélectionné")
 
 > [!NOTE]
 > Prêtez attention à l’ordre d’exécution correct des tests qui sont ajoutés.
@@ -296,14 +296,14 @@ Cet enregistrement de tâche exécute les actions suivantes :
 1. Ouvrez l’application locale RSAT dans la topologie actuelle.
 2. Sélectionnez **Charger** pour charger les tests qui résident actuellement dans Azure DevOps dans RSAT.
 
-    ![Tests chargés dans RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Capture d’écran des tests chargés dans RSAT")
+    ![Tests chargés dans RSAT.](media/GER-RSAT-RSAT-Tests-Loaded.png "Capture d’écran des tests chargés dans RSAT")
 
 ### <a name="create-automation-and-parameters-files"></a>Créer des fichiers de paramètres et d’automatisation
 
 1. Dans RSAT, sélectionnez les tests que vous avez chargés à partir d’Azure DevOps.
 2. Sélectionnez **Nouveau** pour créer des fichiers de paramètres et d’automatisation.
 
-    ![Fichiers de paramètres et d’automatisation RSAT créés dans RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Capture d’écran des fichiers de paramètres et d’automatisation RSAT créés dans RSAT")
+    ![Fichiers de paramètres et d’automatisation RSAT créés dans RSAT.](media/GER-RSAT-RSAT-Tests-Initiated.png "Capture d’écran des fichiers de paramètres et d’automatisation RSAT créés dans RSAT")
 
 ### <a name="modify-the-parameters-files"></a>Modification des fichiers de paramètres
 
@@ -315,7 +315,7 @@ Cet enregistrement de tâche exécute les actions suivantes :
 6. Dans le classeur Excel qui est ouvert, sur la feuille de calcul **Général**, modifiez le code société en **GBSI**.
 7. Dans la feuille de calcul **ERFormatMappingRunLogTable**, remarquez que les cellules A:3 et C : 3 contiennent le texte des champs de la table du journal de débogage ER utilisés pour valider les résultats de la comparaison de la sortie par rapport à la base de référence. Ces textes seront utilisés pour évaluer les enregistrements du journal de débogage ER créés lors de l’exécution du test.
 
-    ![Feuille de calcul ERFormatMappingRunLogTable](media/GER-RSAT-RSAT-ExcelParameters.png "Capture d’écran de la feuille de calcul ERFormatMappingRunLogTable")
+    ![Feuille de calcul ERFormatMappingRunLogTable.](media/GER-RSAT-RSAT-ExcelParameters.png "Capture d’écran de la feuille de calcul ERFormatMappingRunLogTable")
 
 ## <a name="run-the-tests-and-analyze-the-results"></a>Exécution des tests et analyse des résultats
 
@@ -330,11 +330,11 @@ Notez que les scénarios de test sont automatiquement exécutés dans l’applic
 
 Les résultats de l’exécution de tests sont stockés dans RSAT. Notez que les deux tests ont été réussis.
 
-![Tests réussis dans RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Capture d’écran de tests qui réussis dans RSAT")
+![Tests réussis dans RSAT.](media/GER-RSAT-RSAT-Tests-Passed.png "Capture d’écran de tests qui réussis dans RSAT")
 
 Notez que les résultats de l’exécution des tests sont également envoyés à Azure DevOps aux fins d’analyse approfondie.
 
-![Résultats de l’exécution du test dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Capture d’écran des résultats de l’exécution du test dans Azure DevOps")
+![Résultats de l’exécution du test dans Azure DevOps.](media/GER-RSAT-DevOps-Tests-Added.png "Capture d’écran des résultats de l’exécution du test dans Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Simuler une situation d’échec du test
 
@@ -357,15 +357,15 @@ Notez que les scénarios de test sont automatiquement exécutés dans l’applic
 
 Les résultats de l’exécution de tests sont stockés dans RSAT. Notez que le deuxième test a échoué lors de la deuxième exécution.
 
-![Résultats de l’échec du test dans RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Capture d’écran des résultats de l’échec de test dans RSAT")
+![Résultats de l’échec du test dans RSAT.](media/GER-RSAT-RSAT-Tests-Failed.png "Capture d’écran des résultats de l’échec de test dans RSAT")
 
 Notez que les résultats de l’exécution des tests sont également envoyés à Azure DevOps aux fins d’analyse approfondie.
 
-![Résultats de l’échec du test dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Capture d’écran des résultats de l’échec de test dans Azure DevOps")
+![Résultats de l’échec du test dans Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed.png "Capture d’écran des résultats de l’échec de test dans Azure DevOps")
 
 Vous pouvez accéder au statut de chaque test. Vous pouvez également accéder au journal d’exécution afin d’analyser les motifs de l’échec. Dans l’illustration suivante, le journal d’exécution indique que l’échec s’est produit en raison de la différence de contenu entre le fichier de paiement généré et sa base de référence.
 
-![Journal d’exécution pour analyser l’échec dans Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Capture d’écran du journal d’exécution pour analyser l’échec dans Azure DevOps")
+![Journal d’exécution pour analyser l’échec dans Azure DevOps.](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Capture d’écran du journal d’exécution pour analyser l’échec dans Azure DevOps")
 
 Par conséquent, comme vous avez vu, il est possible d’évaluer le fonctionnement de n’importe quel format ER à l’aide de RSAT comme plateforme de test et des scénarios de test fondés sur l’enregistreur de tâches qui utilisent la fonction de base de référence.
 

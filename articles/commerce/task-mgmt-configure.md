@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791700"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354563"
 ---
 # <a name="configure-task-management"></a>Configurer la gestion des tâches
 
@@ -44,7 +44,7 @@ Pour configurer les autorisations de gestion des tâches pour les responsables d
 
 L’illustraton suivante montre comment configurer des autorisations de gestion des tâches pour les responsables de magasin.
 
-![Configuration des autorisations de gestion des tâches pour les responsables de magasin](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Configuration des autorisations de gestion des tâches pour les responsables de magasin.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Configurer des autorisations pour les employés
 
@@ -78,7 +78,7 @@ Pour configurer des notifications PDV pour les tâches, procédez comme suit.
 
 L’illustration suivante présente l’opération **Gestion des tâches** sur la page **Opérations PDV**.
 
-![Opération de gestion des tâches sur la page Opérations PDV](media/HQ-POS-Tasks-Notifications.png)
+![Opération de gestion des tâches sur la page Opérations PDV.](media/HQ-POS-Tasks-Notifications.png)
 
 Pour plus d’informations sur la configuration des notifications PDV, consultez [Afficher les notifications de commande dans le point de vente (PDV)](notifications-pos.md).
 
@@ -95,7 +95,7 @@ Pour configurer la vignette **Tâches** sur la page d’accueil d’une applicat
 
 L’illustration suivante présente un exemple de vignette **Tâches** sur une page d’accueil PDV.
 
-![Vignette Tâches sur une page d’accueil PDV](media/POS-home-screen-tasks-button-image.png)
+![Vignette Tâches sur une page d’accueil PDV.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

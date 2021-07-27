@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d523af235d645bd282af07d6a1f617bca5fba2dc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1794c297bef86a62ff5dc24524332df07ea26f39
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809084"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345280"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Rapprochement du fret dans la gestion du transport
 
@@ -35,13 +35,13 @@ Le rapprochement du fret peut être effectué manuellement, ou il peut être con
 
 Les frais de transport sont calculés par le moteur de frais qui est associé au transporteur correspondant. Lorsque vous confirmez une charge, une facture de fret est générée et les taux de fret sont transférés. Les taux de fret sont répartis en tant que frais divers sur le document source correspondant (commande, commande client et/ou ordre de transfert), en fonction de la configuration qui est utilisée pour le processus de facturation régulier. Le processus de rapprochement des frais de transport (aussi appelé processus de mise en correspondance) peut commencer dès la réception de la facture de transport du transporteur. La facture peut être reçue par voie électronique ou sur papier. Si la facture est reçue sur papier, vous pouvez générer une facture électronique à l’aide de la facture de transport en tant que modèle.
 
-[![Processus de rapprochement du transport](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Processus de rapprochement du transport.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Rapprochement manuel
 
 Si vous rapprochez manuellement le fret, vous devez faire correspondre chaque ligne de facture avec la ou les lignes de facturation de fret pour la charge en cours de facturation. Vous effectuez cette correspondance sur la page **Facture des frais de transport et rapprochement de factures**. Si le montant de la ligne de facture ne correspond pas au montant de la facture de transport, vous devez sélectionner un motif de rapprochement de la différence. S’il existe plusieurs motifs pour le rapprochement, vous pouvez répartir le montant qui ne correspond pas entre eux. Le motif du rapprochement détermine comment les montants de différence sont validés dans la comptabilité. Lorsque le rapprochement de l’intégralité du montant de la facture est comptabilisé, il est soumis pour approbation, et ensuite le journal est validé. La figure suivante indique comment générer une facture de transport et exécuter le rapprochement du fret.
 
-[![Tâches de rapprochement du transport](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Tâches de rapprochement du transport.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Rapprochement automatique
 

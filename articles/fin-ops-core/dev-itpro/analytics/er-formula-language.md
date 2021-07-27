@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223984"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355392"
 ---
 # <a name="electronic-reporting-formula-language"></a>Langage de formule dans la gestion des états électroniques
 
@@ -117,15 +117,15 @@ Lorsqu’une expression fait référence à une source de données structurée, 
 
 Si le chemin d’une source de données structurée commence par un signe arobase (@), il s’agit d’un chemin relatif. Le signe arobase est affiché à la place de la partie restante du chemin absolu de l’arborescence hiérarchique utilisée. L’illustration suivante présente un exemple. Ici, le chemin absolu `Ledger.'accountingCurrency()'` indique que la valeur de la devise comptable de la source de données **Comptabilité** est entrée dans le champ **AccountingCurrency** du modèle de données.
 
-![Exemple de chemin absolu sur la page du concepteur de mappage de modèles ER](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Exemple de chemin d'accès absolu sur la page du concepteur de mappage de modèles ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 L’exemple de l’illustration suivante montre comment un chemin relatif est utilisé. Le chemin relatif `@.AccountNum` indique que le champ **AccountNum** de la source de données **Déclaration d’échanges de biens** (qui apparaît un niveau au-dessus du champ **AccountNum** dans l’arborescence hiérarchique du modèle de données) est utilisé pour saisir le numéro de compte client ou fournisseur dans le champ **AccountNum** du modèle de données.
 
-![Exemple de chemin relatif sur la page du concepteur de mappage de modèles ER](./media/ER-FormulaLanguage-RelativePath1.png)
+![Exemple de chemin d'accès relatif sur la page du concepteur de mappage de modèles ER.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 La partie restante du chemin absolu est également indiquée dans l’[Éditeur de formule ER](general-electronic-reporting-formula-designer.md).
 
-![Partie restante du chemin absolu sur la page du concepteur de formule ER](./media/ER-FormulaLanguage-RelativePath2.png)
+![Partie restante du chemin d'accès absolu sur la page du concepteur de formule ER.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Pour plus d’informations, consultez [Utiliser un chemin d’accès relatif dans les liaisons de données des modèles et des formats ER](relative-path-data-bindings-er-models-format.md).
 

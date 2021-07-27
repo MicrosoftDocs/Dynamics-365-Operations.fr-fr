@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: fe3e6a4223fc8b26e523a982a2e1752a34b370de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 86551cfeda1e4204c91b0534cda563012191e25c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348114"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Déboguer les sources de données d’un format ER exécuté pour analyser le flux de données et la transformation
 
@@ -64,7 +64,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 
 1. Suivez les étapes de l’[Annexe 3](#appendix3) de cette rubrique pour traiter les paiements des fournisseurs.
 
-    ![Traitement des paiements fournisseur en cours](./media/er-data-debugger-process-payment.png)
+    ![Traitement des paiements fournisseur en cours.](./media/er-data-debugger-process-payment.png)
 
 2. Téléchargez et enregistrez le fichier zip sur votre ordinateur local.
 3. Extrayez le fichier de paiement **Transfert de crédit ISO20022.xml** à partir du fichier zip.
@@ -72,7 +72,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 
     Dans le fichier de paiement, le code IBAN (International Bank Account Number) du compte bancaire du fournisseur ne contient aucun espace. Par conséquent, il diffère de la valeur qui était [entrée](#enteredIBANcode) sur la page **Comptes bancaires**.
 
-    ![Code IBAN sans espaces](./media/er-data-debugger-payment-file.png)
+    ![Code IBAN sans espaces.](./media/er-data-debugger-payment-file.png)
 
     Vous pouvez utiliser le débogueur de sources de données ER pour savoir quel composant de la solution ER est utilisé pour tronquer les espaces dans le code IBAN.
 
@@ -85,14 +85,14 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
     > [!NOTE]
     > Ce paramètre est spécifique à l’utilisateur et à l’entreprise.
 
-    ![Boîte de dialogue Paramètres utilisateur](./media/er-data-debugger-user-parameters.png)
+    ![Boîte de dialogue Paramètres utilisateur.](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Traiter un paiement fournisseur pour le débogage
 
 1. Suivez les étapes de l’[Annexe 3](#appendix3) de cette rubrique pour traiter les paiements des fournisseurs.
 2. Dans la boîte de message, sélectionnez **Oui** pour confirmer que vous souhaitez interrompre le traitement des paiements fournisseur et démarrer le débogage de la source de données à la place sur la page **Déboguer les sources de données**.
 
-    ![Boîte de message de confirmation](./media/er-data-debugger-start-debugging.png)
+    ![Boîte de message de confirmation.](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Déboguer les sources de données utilisées dans le traitement des paiements
 
@@ -115,7 +115,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 
 7. Sélectionnez **Développer tout**.
 
-    ![Valeur du champ IBAN dans la mise en correspondance des modèles](./media/er-data-debugger-debugging-model-mapping.png)
+    ![Valeur du champ IBAN dans la mise en correspondance des modèles.](./media/er-data-debugger-debugging-model-mapping.png)
 
     Comme vous pouvez le voir, la mise en correspondance des modèles n’est pas responsable des espaces tronqués, car le code IBAN qu’il renvoie pour le compte bancaire du fournisseur comprend des espaces. Par conséquent, vous devez continuer le débogage de la source de données.
 
@@ -130,7 +130,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 7. Sélectionnez **Obtenir la valeur**.
 8. Sélectionnez **Développer tout**.
 
-    ![Valeur du champ IBAN dans la mise en correspondance des formats](./media/er-data-debugger-debugging-format-mapping.png)
+    ![Valeur du champ IBAN dans la mise en correspondance des formats.](./media/er-data-debugger-debugging-format-mapping.png)
 
     Comme vous pouvez le voir, les sources de données de la mise en correspondance des formats ne sont pas responsables des espaces tronqués, car le code IBAN qu’elles renvoient pour le compte bancaire du fournisseur comprend des espaces. Par conséquent, vous devez continuer le débogage de la source de données.
 
@@ -142,7 +142,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 4. Développez les éléments de format pour sélectionner **ISO20022CTReports** \> **XMLHeader** \> **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**, puis sélectionnez **Obtenir la valeur**.
 5. Sélectionnez **Développer tout**.
 
-    ![Valeur du champ IBAN dans le format](./media/er-data-debugger-debugging-format.png)
+    ![Valeur du champ IBAN dans le format.](./media/er-data-debugger-debugging-format.png)
 
    Comme vous pouvez le voir, la liaison de format n’est pas responsable des espaces tronqués, car le code IBAN qu’elle renvoie pour le compte bancaire du fournisseur comprend des espaces. Par conséquent, l’élément **BankIBAN** est configuré pour utiliser une transformation de format qui tronque les espaces.
 
@@ -154,13 +154,13 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 2. Sur la page **Configurations**, sélectionnez **Modèle de paiement** \> **ISO20022 Credit transfer**.
 3. Sélectionnez **Concepteur**, puis développez les éléments pour sélectionner **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
-    ![Élément BankIBAN sur la page Concepteur de format](./media/er-data-debugger-referred-transformation.png)
+    ![Élément BankIBAN sur la page Concepteur de format.](./media/er-data-debugger-referred-transformation.png)
 
     Comme vous pouvez le voir, l’élément **BankIBAN** est configuré pour utiliser la transformation **supprimer non alphanumérique**.
 
 4. Sélectionnez l’onglet **Transformations**.
 
-    ![Onglet Transformations de l’élément BankIBAN](./media/er-data-debugger-transformation.png)
+    ![Onglet Transformations de l’élément BankIBAN.](./media/er-data-debugger-transformation.png)
 
     Comme vous pouvez le voir, la transformation **supprimer non alphanumérique** est configurée pour utiliser une expression qui tronque les espaces de la chaîne de texte fournie.
 
@@ -168,7 +168,7 @@ Les paramètres suivants des formats ER ne sont actuellement pas accessibles pou
 
 Lorsque vous configurez une version provisoire du format ER pouvant être exécutée directement à partir du concepteur d’opérations, vous pouvez accéder au débogueur de source de données en sélectionnant **Démarrer le débogage** dans le volet Action.
 
-![Bouton Démarrer le débogage sur la page Concepteur de format](./media/er-data-debugger-run-from-designer.png)
+![Bouton Démarrer le débogage sur la page Concepteur de format.](./media/er-data-debugger-run-from-designer.png)
 
 La mise en correspondance des formats et des composants de format du format ER en cours de modification sont disponibles pour le débogage.
 
@@ -176,7 +176,7 @@ La mise en correspondance des formats et des composants de format du format ER e
 
 Lorsque vous configurez une mise en correspondance des modèles ER pouvant être exécutée à partir de la page **Mise en correspondance des modèles**, vous pouvez accéder au débogueur de source de données en sélectionnant **Démarrer le débogage** dans le volet Action.
 
-![Bouton Démarrer le débogage sur la page Concepteur de mise en correspondances de modèles](./media/er-data-debugger-run-from-designer-mapping.png)
+![Bouton Démarrer le débogage sur la page Concepteur de mise en correspondances de modèles.](./media/er-data-debugger-run-from-designer-mapping.png)
 
 Le composant de mise en correspondance des modèles de la mise en correspondance ER en cours de modification est disponible pour le débogage.
 
@@ -186,7 +186,7 @@ Le composant de mise en correspondance des modèles de la mise en correspondance
 
 Si vous souhaitez utiliser une solution ER pour générer un fichier de paiement électronique pour un paiement fournisseur qui est traité, vous pouvez [télécharger](download-electronic-reporting-configuration-lcs.md) le format de paiement ER **Transfert de crédit ISO20022** disponible dans la bibliothèque de ressources partagées dans Microsoft Dynamics Lifecycle Services (LCS) ou à partir du référentiel global.
 
-![Importation du format de paiement ER sur la page Référentiel de configuration](./media/er-data-debugger-import-from-repo.png)
+![Importation du format de paiement ER sur la page Référentiel de configuration.](./media/er-data-debugger-import-from-repo.png)
 
 En plus du format ER sélectionné, les [configurations](general-electronic-reporting.md#Configuration) suivantes doivent être automatiquement importées dans votre instance de Microsoft Dynamics 365 Finance dans le cadre de la solution ER **Transfert de crédit ISO20022** :
 
@@ -197,7 +197,7 @@ En plus du format ER sélectionné, les [configurations](general-electronic-repo
 
 Vous pouvez trouver ces configurations sur la page **Configurations** de la structure ER (**Administration de l’organisation** \> **Rapports électroniques** \> **Configurations**).
 
-![Configurations importées sur la page Configurations](./media/er-data-debugger-configurations.png)
+![Configurations importées sur la page Configurations.](./media/er-data-debugger-configurations.png)
 
 Si l’une des configurations répertoriées précédemment manque dans l’arborescence de configuration, vous devez les télécharger manuellement à partir de la bibliothèque de ressources partagées LCS de la même manière que vous avez téléchargé le format de paiement ER **Transfert de crédit ISO20022**.
 
@@ -213,7 +213,7 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 
     Notez que le champ **Paiements** du modèle de données est lié à la source de données **\$notSentTransactions** qui renvoie la liste des lignes de paiement fournisseur en cours de traitement.
 
-    ![Champ Paiements sur la page Concepteur de mise en correspondance des modèles](./media/er-data-debugger-model-mapping.png)
+    ![Champ Paiements sur la page Concepteur de mise en correspondance des modèles.](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>Examiner la mise en correspondance des formats
 
@@ -224,7 +224,7 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 
     Notez que l’élément **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** du fichier **ISO20022CTReports** \> **XMLHeader** est lié à la source de données **\$PaymentByDebtor** configurée pour regrouper les enregistrements du champ Modèles de données **Paiements**.
 
-    ![Élément PmtInf sur la page Concepteur de format](./media/er-data-debugger-format-mapping.png)
+    ![Élément PmtInf sur la page Concepteur de format.](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>Examiner le format
 
@@ -234,7 +234,7 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 
     Notez que l’élément de format sous **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** est configuré pour saisir le code IBAN du compte fournisseur dans le fichier de paiement.
 
-    ![Élément BankIBAN sur la page Concepteur de format](./media/er-data-debugger-format.png)
+    ![Élément BankIBAN sur la page Concepteur de format.](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>Annexe 2 : Configurer le module Comptabilité fournisseur
 
@@ -245,7 +245,7 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 3. Dans le raccourci **Identification**, dans le champ **IBAN**, <a name="enteredIBANcode"></a>saisissez **GB33 BUKB 2020 1555 5555 55**.
 4. Sélectionnez **Enregistrer**.
 
-![Champ IBAN paramétré sur la page Comptes bancaires fournisseur](./media/er-data-debugger-iban.png)
+![Champ IBAN paramétré sur la page Comptes bancaires fournisseur.](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Paramétrer un mode de paiement
 
@@ -255,7 +255,7 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 4. Dans le champ **Exporter la configuration du format**, sélectionnez le champ ER **Transfert de crédit ISO20022**.
 5. Sélectionnez **Enregistrer**.
 
-![Paramètres des formats de fichier sur la page Modes de paiement](./media/er-data-debugger-payment-method.png)
+![Paramètres des formats de fichier sur la page Modes de paiement.](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Ajouter un paiement fournisseur
 
@@ -267,7 +267,7 @@ Si l’une des configurations répertoriées précédemment manque dans l’arbo
 6. Dans le champ **Mode de paiement**, sélectionnez **SEPA CT**.
 7. Sélectionnez **Enregistrer**.
 
-![Paiement fournisseur ajouté sur la page Paiements fournisseur](./media/er-data-debugger-payment-journal.png)
+![Paiement fournisseur ajouté sur la page Paiements fournisseur.](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>Annexe 3 : Traiter un paiement fournisseur
 

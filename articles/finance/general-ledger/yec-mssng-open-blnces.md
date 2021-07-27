@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 045d0bf11b11c9a353858ce3ca82c698dbceea7c
-ms.sourcegitcommit: 817716c2e96f24af0ef1d7d5323afdeccdc602f3
+ms.openlocfilehash: 4bebf35a8959d4f72d46d4b40e5487f499b2756d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "6028563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356650"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Soldes d’ouverture manquants à la clôture de fin d’exercice
 
@@ -46,15 +46,15 @@ J’ai exécuté la clôture de fin d’exercice avec l’option **Annuler la cl
 
 Commencez par vérifier le statut du traitement par lots. La clôture d’un exercice comprend un certain nombre de tâches distinctes, mais l’étape la plus critique est la tâche de traitement par lots avec la description de la tâche **Étape 5.0.0**. L’enregistrement des transactions d’ouverture, et éventuellement des transactions de clôture en Comptabilité a lieu au cours de cette étape. 
 
-[![Liste de l’historique des lots](./media/yec-mssng-open-blnces-01.png)](./media/yec-mssng-open-blnces-01.png)
+[![Liste de l’historique des lots.](./media/yec-mssng-open-blnces-01.png)](./media/yec-mssng-open-blnces-01.png)
 
 Si cette étape s’est terminée avec succès, mais que vous ne voyez pas les soldes d’ouverture sur la page **Demande de balance comptable** (**Comptabilité > Recherches et rapports > Balance comptable**), examinez les résultats du traitement par lots de la clôture de fin d’exercice pour voir si l’étape Reconstruire les soldes s’est terminée avec succès.
 
-[![Résultats du traitement par lots de la clôture de fin d’exercice](./media/yec-mssng-open-blnces-02.png)](./media/yec-mssng-open-blnces-02.png)
+[![Résultats du traitement par lots de la clôture de fin d’exercice.](./media/yec-mssng-open-blnces-02.png)](./media/yec-mssng-open-blnces-02.png)
 
 Si cette étape a échoué pour une raison quelconque, les transactions d’ouverture (et éventuellement de clôture) ont probablement été validées avec succès. Vous pouvez vérifier que les transactions comptables ont été validées avec succès à l’aide de la page **Demande de justificatif de transaction** en spécifiant le numéro et la date du justificatif figurant dans la boîte de dialogue de clôture de fin d’exercice pour l’exercice que vous clôturez, (**Comptabilité > Recherches et états > Justificatif de transaction**).
 
-[![Demande de justificatif de transaction](./media/yec-mssng-open-blnces-03.png)](./media/yec-mssng-open-blnces-03.png)
+[![Demande de justificatif de transaction.](./media/yec-mssng-open-blnces-03.png)](./media/yec-mssng-open-blnces-03.png)
 
 Si les justificatifs d’ouverture (et éventuellement de clôture) sont présents, vous n’avez pas besoin d’exécuter à nouveau la clôture de fin d’exercice. Reportez-vous plutôt à la section suivante pour savoir comment poursuivre.
 
@@ -66,7 +66,7 @@ L’étape « Reconstruire les soldes » de la clôture de fin d’exercice a 
 
 L’étape Reconstruire les soldes met à jour les soldes de la comptabilité qui sont utilisés lors de la génération de la demande de balance comptable.  Il s’agit de la dernière étape du processus de clôture de fin d’exercice.  Si cette étape est la seule qui a échoué, les transactions comptables ont été validées avec succès.  Vous n’avez pas à exécuter à nouveau la clôture de fin d’exercice. Vous pouvez exécuter le processus pour reconstruire les soldes manuellement à l’aide de la page **Ensembles de dimensions financières** (**Comptabilité> Plan comptable > Dimensions > Ensembles de dimensions financières**).
 
-[![Bouton Reconstruire les soldes sur la page Ensembles de dimensions financières](./media/yec-mssng-open-blnces-04.png)](./media/yec-mssng-open-blnces-04.png)
+[![Bouton Reconstruire les soldes sur la page Ensembles de dimensions financières.](./media/yec-mssng-open-blnces-04.png)](./media/yec-mssng-open-blnces-04.png)
 
 Si le traitement de cette étape prend du temps, nous vous recommandons de passer en revue les meilleures pratiques pour les ensembles de dimensions financières, comme décrit dans [Bonnes pratiques pour la mise à jour des ensembles de dimensions financières](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/best-practices-for-updating-financial-dimension-set-dimension-sets). 
 

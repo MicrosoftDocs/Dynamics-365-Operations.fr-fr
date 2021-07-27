@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893978"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351744"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Télécharger les configurations ER depuis le référentiel global du service de configuration
 
@@ -40,7 +40,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 3. Dans la section **Fournisseurs de configuration**, sélectionnez la vignette **Microsoft**.
 3. Dans la vignette **Microsoft**, sélectionnez **Référentiels**.
 
-    ![Espace de travail des états électroniques](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Espace de travail des états électroniques.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Sur la page **Référentiels de configuration**, dans la grille, sélectionnez le référentiel existant du type **Global**. Si ce référentiel n’apparaît pas dans la grille, procédez comme suit :
 
@@ -52,7 +52,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 
 5. Sélectionnez **Ouvrir** pour afficher la liste des configurations ER pour le référentiel sélectionné.
 
-    ![Page des référentiels de configurations](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Page des référentiels de configurations.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Importer une configuration unique
 
@@ -63,7 +63,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
     > [!NOTE]
     > Le bouton **Importer** n’est pas disponible pour les versions de configuration de gestion des états électroniques qui sont déjà présentes dans l’instance Finance actuelle.
 
-    ![Page du référentiel de configuration](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Page du référentiel de configuration.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importer des configurations filtrées
 
@@ -77,7 +77,7 @@ Cette rubrique explique comment télécharger des [configurations de gestion des
 4. Dans le raccourci **Configurations**, sélectionnez **Importer** pour télécharger les configurations filtrées depuis le référentiel global vers l’instance actuelle.
 5. Dans le raccourci **Configurations**, sélectionnez **Réinitialiser le filtre** pour effacer les conditions de sélection spécifiées.
 
-    ![Page du référentiel de configuration](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Page du référentiel de configuration.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Selon les paramètres d’états électroniques, les configurations sont validées après leur importation. Il est possible que vous soyez averti des problèmes d’incohérences qui sont détectés. Avant de pouvoir utiliser la version de configuration importée, vous devez résoudre les problèmes. Pour plus d’informations, voir la liste des ressources associées pour cette rubrique.

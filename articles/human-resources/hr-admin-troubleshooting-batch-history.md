@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053489"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344662"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Optimiser les performances avec des tâches de nettoyage automatique
 
@@ -41,23 +41,23 @@ Planifiez une tâche automatique pour nettoyer votre historique des traitements 
 
 2. Dans la barre **Recherche**, entrez **Nettoyage de l’historique des traitements par lots**.
 
-   ![Rechercher le nettoyage de l’historique des traitements par lots](media/talent-batch-history-cleanup-search-bar.png)
+   ![Rechercher le nettoyage de l’historique des traitements par lots.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. Dans **Limite de l’historique (jours)**, saisissez **30**.
 
-   ![Définir la limite de l’historique sur 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Définir la limite de l’historique sur 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Sélectionnez **Exécuter en arrière-plan**, puis sélectionnez **Récurrence**.
 
-   ![Définir la récurrence](media/talent-batch-history-cleanup-recurrence.png)
+   ![Définir la récurrence.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Sous **Définir la récurrence**, définissez **Date de début** et **Heure de début** pour qu’elles se produisent pendant les heures creuses ou le week-end, puis sélectionnez **PAS DE DATE DE FIN**. 
 
-   ![Définir la date et heure de début de la récurrence](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Définir la date et heure de début de la récurrence.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Sous **PÉRIODICITÉ**, sélectionnez **Jours** et définissez **RÉPÉTER APRÈS L’INTERVALLE SPÉCIFIÉ** sur **7**.
 
-   ![Définir le nettoyage afin qu’il se répète de manière hebdomadaire](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Définir le nettoyage afin qu’il se répète de manière hebdomadaire.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Cliquez sur **OK**.
 

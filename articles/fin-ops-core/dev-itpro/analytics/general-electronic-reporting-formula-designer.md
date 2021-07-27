@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3cbd4a034b89308c33651c5a923b67bc0eabf413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750130"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345760"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Concepteur de formule dans les états électroniques (ER)
 
@@ -58,11 +58,11 @@ Le concepteur de formule de génération d’états électroniques permet de dé
 
 La figure suivante présente la création d’une expression de ce type. Dans cet exemple, l’expression arrondit la valeur du champ **Intrastat.AmountMST** dans la table Déclaration d’échanges de biens à deux décimales et retourne la valeur arrondie.
 
-[![Expression de liaison de données](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Expression de liaison de données.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 La figure suivante présente l’utilisation d’une expression de ce type. Dans cet exemple, le résultat de l’expression conçue est saisi dans le composant **Transaction.InvoicedAmount** du modèle de données **Modèle de déclaration de taxe**.
 
-[![Expression de liaison de données utilisée](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Expression de liaison de données utilisée.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 À l’exécution, la formule conçue, `ROUND (Intrastat.AmountMST, 2)`, arrondit la valeur du champ **AmountMST** pour chaque enregistrement de la table Déclaration d’échanges de biens à deux décimales. Elle saisit ensuite la valeur arrondie dans le composant **Transaction.InvoicedAmount** du modèle de données **Déclaration de taxe**.
 
@@ -72,17 +72,17 @@ Le concepteur de formule de génération d’états électroniques permet de dé
 
 La figure suivante présente la création d’une transformation de ce type. Dans cet exemple, la transformation **TrimmedString** tronque les données entrantes du type de données *Chaîne* en supprimant les espaces de début et de fin. Elle retourne ensuite la valeur de chaîne tronquée.
 
-[![Transformation](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Transformation.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 La figure suivante présente l’utilisation d’une transformation de ce type. Dans cet exemple, plusieurs composants de format envoient le texte comme résultat de la génération du document électronique au moment de l’exécution. Tous ces composants de format font référence à la transformation **TrimmedString** par son nom.
 
-[![Transformation utilisée](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Transformation utilisée.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Lorsque les composants de format, comme le composant **partyName** dans l’illustration précédente, font référence à la transformation **TrimmedString**, cette dernière renvoie le texte comme résultat de la génération du document électronique. Le texte n’inclut pas les espaces de début et de fin.
 
 Si vous avez une mise en forme qui doit être appliquée individuellement, vous pouvez introduire cette mise en page en tant qu’expression individuelle d’une liaison d’un composant de format spécifique. La figure suivante présente une expression de ce type. Dans cet exemple, le composant de format **partyType** est lié à la source de données via une expression qui convertit les données entrantes du champ **Model.Company.RegistrationType** dans la source de données en texte en majuscules. L’expression envoie ensuite ce texte comme résultat dans le document électronique.
 
-[![Application de la mise en forme à un composant individuel](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Application de la mise en forme à un composant individuel.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Contrôle des flux de processus
 
@@ -98,7 +98,7 @@ Chaque règle du contrôle des flux de processus est conçue comme un contrôle 
 - Si la liste des transactions est vide, la validation arrête le processus d’exécution et renvoie la valeur **FALSE**.
 - La validation renvoie un message d’erreur qui inclut le texte du libellé SYS70894 dans la langue de l’utilisateur.
 
-[![Validation](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Validation.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 Le concepteur de formule de génération d’états électroniques peut également être utilisé pour générer un nom de fichier permettant de générer un document électronique et de contrôler le processus de création de fichier. La figure suivante présente la création d’un contrôle des flux de processus de ce type. Voici une explication de la configuration dans cet exemple :
 
@@ -107,7 +107,7 @@ Le concepteur de formule de génération d’états électroniques peut égaleme
 - Une expression renvoie un nom de fichier pour générer des documents électroniques en concaténant le nom de fichier et son extension. Pour le deuxième traitement par lots et tous les traitements par lots suivants, le nom de fichier contient l’ID traitement par lots comme suffixe.
 - Une expression active (en renvoyant la valeur **TRUE**) le processus de création de fichier pour les lots contenant au moins un enregistrement.
 
-[![Contrôle des flux de processus](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Contrôle des flux de processus.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Contrôle du contenu des documents
 
@@ -121,18 +121,18 @@ La figure suivante présente des expressions de ce type. (La version 11.12.11 d
 - Le composant **PaymentNotes** est utilisé pour générer le texte des notes de paiement.
 - Le composant **DelimitedSequence** génère les numéros de facture séparés par une virgule utilisés pour régler le transfert actuel de crédit.
 
-[![Composants PaymentNotes et DelimitedSequence](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![Composants PaymentNotes et DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > Les composants **PaymentNotes** et **DelimitedSequence** sont libellés à l’aide d’un point d’interrogation. Un point d’interrogation indique que l’utilisation d’un composant est conditionnelle. Dans ce cas, l’utilisation des composants est basée sur les critères suivants :
 >
 > - L’expression `@.PaymentsNotes <> ""` définie pour le composant **PaymentNotes**, active (en retournant **TRUE**) l’élément XML **Ustrd** à renseigner avec le texte des notes de paiement, si ce texte pour le virement actuel n’est pas vide.
 >
->    [![Expression pour le composant PaymentNotes](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Expression pour le composant PaymentNotes.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - L’expression `@.PaymentsNotes = ""` définie pour le composant **DelimitedSequence** active (en retournant **TRUE**) l’élément **XML Ustrd** à renseigner avec une liste des numéros de facture séparés par une virgule qui sont utilisés pour régler le virement actuel si le texte des notes de paiement pour ce virement est vide.
 >
->    [![Expression pour le composant DelimitedSequence](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Expression pour le composant DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Selon cette configuration, le message généré pour chaque paiement de débit, l’élément XML **Ustrd**, contient soit le texte des notes de paiement soit, si ce texte est vide, une liste des numéros de facture séparés par une virgule utilisés pour régler le paiement.
 
@@ -140,7 +140,7 @@ La figure suivante présente des expressions de ce type. (La version 11.12.11 d
 
 Sur la page **Concepteur de formule**, sélectionnez **Tester** pour valider le fonctionnement de la formule configurée.
 
-[![Sélection du test pour valider une formule](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Sélection du test pour valider une formule.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Lorsque les valeurs des arguments de formule sont requises, vous pouvez ouvrir la boîte de dialogue **Tester l’expression** sur la page **Concepteur de formule**. Dans la plupart des cas, ces arguments doivent être définis manuellement, car les liaisons configurées ne sont pas exécutées au moment de la conception. L’onglet **Résultat du test** sur la **Concepteur de formule** affiche le résultat de l’exécution de la formule configurée.
 
@@ -148,15 +148,15 @@ L’exemple suivant montre comment tester la formule configurée pour le domaine
 
 Lorsque vous testez cette formule, vous pouvez utiliser la boîte de dialogue **Tester l’expression** pour spécifier la valeur du code de produit de la déclaration d’échanges de biens à tester.
 
-[![Spécification du code de produit de la déclaration d’échanges de biens pour les tests](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Spécification du code de produit de la déclaration d’échanges de biens pour les tests.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Après avoir spécifié le code de marchandise de la déclaration d’échanges de biens et sélectionné **OK**, l’onglet **Résultat du test** sur la page **Concepteur de formule** affiche le résultat de l’exécution de la formule configurée. Vous pouvez ensuite évaluer si le résultat est acceptable. Si le résultat n’est pas acceptable, vous pouvez mettre à jour la formule et la tester à nouveau.
 
-[![Résultat du test](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Résultat du test.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Certaines formules ne peuvent pas être testées au moment de la conception. Par exemple, une formule peut renvoyer le résultat d’un type de données qui ne peut pas être affiché sur l’onglet **Résultat du test**. Dans ce cas, vous recevez un message d’erreur indiquant que la formule ne peut pas être testée.
 
-[![Message d’erreur](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Message d’erreur.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

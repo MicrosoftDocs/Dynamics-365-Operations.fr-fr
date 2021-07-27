@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222583"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349032"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Activer les prédictions de paiement des clients (version préliminaire)
 
@@ -51,7 +51,7 @@ Cette rubrique explique comment activer et configurer la fonctionnalité de Pré
 
     1. Aller à **Crédits et collections \> Configurer \> Informations financières \> Paramètres Informations financières**.
 
-        [![Page de paramètres Informations financières avant la configuration de la fonctionnalité](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Page de paramètres Finance Insights avant la configuration de la fonctionnalité.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Sur la page **Paramètres Informations financières**, sur l’onglet **Informations sur les paiements des clients**, sélectionnez le lien **Afficher les champs de données utilisés dans le modèle de prédiction** pour ouvrir la page **Champs de données pour le modèle de prédiction**. Là, vous pouvez afficher la liste par défaut des champs qui sont utilisés pour créer le modèle de prédiction d’intelligence artificielle (IA) pour les prédictions de paiement des clients.
 
@@ -77,7 +77,7 @@ Cette rubrique explique comment activer et configurer la fonctionnalité de Pré
 
 Une fois que la fonction a été activée et configurée, et que le modèle de prédiction a été créé et fonctionne, la section **Modèle de prédiction** de la page **Paramètres Informations financières** montre la précision du modèle, comme indiqué dans l’illustration suivante.
 
-[![Précision du modèle de prédiction sur la page de paramètres Financial insights](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Précision du modèle de prédiction sur la page de paramètres Financial insights.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Détails du lancement
 

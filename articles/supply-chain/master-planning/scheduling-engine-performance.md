@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812905"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347708"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Améliorer les performances du moteur de planification
 
@@ -66,11 +66,11 @@ Le moteur de planification comporte un modèle de données plus abstrait que la 
 | 10 | Secondaire&nbsp;1 | | | | 1 | 20 |
 | 20 | Principal | | 3.00 | 1.00 | 3 | 0 |
 
-![Exemple de schéma d’itinéraire](media/scheduling-engine-route.png "Exemple de schéma d’itinéraire")
+![Exemple de schéma d’itinéraire.](media/scheduling-engine-route.png "Exemple de schéma d’itinéraire")
 
 Lors de l’envoi au moteur, cet itinéraire est divisé en huit tâches, comme indiqué dans l’illustration suivante (sélectionnez l’image pour l’agrandir).
 
-[![Tâches du moteur de planification](media/scheduling-engine-jobs.png "Tâches du moteur de planification")](media/scheduling-engine-jobs-large.png)
+[![Planification des tâches du moteur](media/scheduling-engine-jobs.png « Planification des tâches du moteur ».](media/scheduling-engine-jobs-large.png)
 
 Le lien standard entre deux tâches est `FinishStart`, ce qui signifie que l’heure de fin d’une tâche doit être antérieure à l’heure de début d’une autre tâche. Étant donné que la configuration doit être effectuée par la même ressource qui exécutera plus tard le processus, il y a des contraintes `OnSameResource` entre elles. Entre les tâches des opérations primaire et secondaire pour 10, il y a des liens `StartStart` et `FinishFinish`, ce qui signifie que les tâches doivent toutes les deux commencer et se terminer en même temps, et il y a des contraintes `NotOnSameResource`, qui empêcheront l’emploi de la même ressource pour les opérations primaire et secondaire.
 

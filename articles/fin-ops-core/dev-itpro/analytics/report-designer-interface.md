@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a20cd71c9729b492403f02f3b5576351169a6e2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0b2e2ead990332f1afd338a430406e6d1db95347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754348"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350134"
 ---
 # <a name="report-designer-interface"></a>Interface du Concepteur de rapports
 
@@ -169,56 +169,56 @@ Les tableaux suivants décrivent les boutons de la barre d’outils que vous pou
 
 La barre d’outils standard fournit l’accès rapide aux commandes des menus Fichier et Édition. Cette barre d’outils inclut les boutons suivants :
 
-| Bouton                                                                                       | Description |
+| Bouton                                                                                       | Description  |
 |----------------------------------------------------------------------------------------------|-------------|
-| [![Bouton Nouveau](./media/rowc130389.png)](./media/rowc130389.png)                              | Permet de créer une définition de rapport, de ligne, de colonne ou d’organigramme d’entreprise vide. |
-| [![Bouton Ouvrir](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Permet d’ouvrir une définition de ligne, de colonne, d’organigramme d’entreprise ou de rapport existante. |
-| [![Bouton Enregistrer](./media/savec130389.png)](./media/savec130389.png)                           | Permet d’enregistrer une définition de ligne, de colonne, d’organigramme d’entreprise ou de rapport en cours. |
-| [![Bouton Copier](./media/copyc130389.png)](./media/copyc130389.png)                           | Permet de copier le texte sélectionné dans le presse-papiers. |
-| [![Bouton Couper](./media/cutc130389.png)](./media/cutc130389.png)                              | Permet de supprimer le texte sélectionné, puis de le copier dans le presse-papiers. |
-| [![Bouton Coller](./media/pastec130389.png)](./media/pastec130389.png)                        | Permet d’insérer le texte à partir du presse-papiers. |
-| [![Bouton Annuler](./media/undoc130389.png)](./media/undoc130389.png)                           | Permet d’annuler la dernière action. |
-| [![Bouton Rétablir](./media/redoc130389.png)](./media/redoc130389.png)                           | Permet d’annuler la dernière action d’annulation. |
-| [![Bouton Rechercher](./media/findc130389.png)](./media/findc130389.png)                           | Permet d’ouvrir la boîte de dialogue **Rechercher/Remplacer** dans laquelle vous pouvez rechercher le texte et le remplacer dans la fenêtre active. |
-| [![Bouton Insérer une ligne](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Permet d’insérer une ligne vide dans la définition de ligne ou une ligne vide d’en-tête dans la définition de colonne. Cet bouton est disponible à partir d’une définition de ligne ou d’une définition de colonne. |
-| [![Bouton Insérer une colonne](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Permet d’insérer une colonne vide dans la définition de colonne. Ce bouton est disponible à partir d’une définition de colonne. |
-| [![Bouton Verrouiller](./media/lockc130389.png)](./media/lockc130389.png)                           | Permet d’appliquer un mot de passe au bloc élémentaire en cours. Ce bouton est à la disposition des utilisateurs ayant le rôle de **Concepteur** ou d’**Administrateur**. |
-| [![Bouton Lien de ligne](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Permet d’ouvrir la boîte de dialogue **Liens de ligne** dans laquelle vous pouvez spécifier les sources des liens de données dans les définitions de ligne et les définitions d’organigramme d’entreprise. Ce bouton est disponible à partir d’une définition de ligne. |
-| [![Bouton Hausser](./media/promotec130389.png)](./media/promotec130389.png)                  | Permet de promouvoir une unité de la définition d’organigramme d’entreprise. Lorsque vous sélectionnez une unité enfant, puis cliquez sur **Hausser**, l’unité enfant est déplacée au même niveau que son unité parent. |
-| [![Bouton Abaisser](./media/demotec130389.png)](./media/demotec130389.png)                     | Permet d’abaisser une unité de la définition d’organigramme d’entreprise. Lorsque vous sélectionnez une unité, puis cliquez sur **Abaisser**, l’unité devient un enfant de l’unité qui la précède. |
-| [![Bouton Développer](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Permet de développer toutes les unités de la définition d’organigramme d’entreprise au niveau de l’unité sélectionnée. |
-| [![Bouton Réduire](./media/collapsec130389.png)](./media/collapsec130389.png)               | Permet de réduire l’arborescence d’organigramme d’entreprise. |
-| [![Bouton Aide](./media/helpc130389.png)](./media/helpc130389.png)                           | Permet d’ouvrir l’aide. |
+| [![Bouton Nouveau.](./media/rowc130389.png)](./media/rowc130389.png)                              | Permet de créer une définition de rapport, de ligne, de colonne ou d’organigramme d’entreprise vide. |
+| [![Bouton Ouvrir.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Permet d’ouvrir une définition de ligne, de colonne, d’organigramme d’entreprise ou de rapport existante. |
+| [![Bouton Enregistrer.](./media/savec130389.png)](./media/savec130389.png)                           | Permet d’enregistrer une définition de ligne, de colonne, d’organigramme d’entreprise ou de rapport en cours. |
+| [![Bouton Copier.](./media/copyc130389.png)](./media/copyc130389.png)                           | Permet de copier le texte sélectionné dans le presse-papiers. |
+| [![Bouton Couper.](./media/cutc130389.png)](./media/cutc130389.png)                              | Permet de supprimer le texte sélectionné, puis de le copier dans le presse-papiers. |
+| [![Bouton Coller.](./media/pastec130389.png)](./media/pastec130389.png)                        | Permet d’insérer le texte à partir du presse-papiers. |
+| [![Bouton Annuler.](./media/undoc130389.png)](./media/undoc130389.png)                           | Permet d’annuler la dernière action. |
+| [![Bouton Rétablir.](./media/redoc130389.png)](./media/redoc130389.png)                           | Permet d’annuler la dernière action d’annulation. |
+| [![Bouton Rechercher.](./media/findc130389.png)](./media/findc130389.png)                           | Permet d’ouvrir la boîte de dialogue **Rechercher/Remplacer** dans laquelle vous pouvez rechercher le texte et le remplacer dans la fenêtre active. |
+| [![Bouton Insérer une ligne.](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Permet d’insérer une ligne vide dans la définition de ligne ou une ligne vide d’en-tête dans la définition de colonne. Cet bouton est disponible à partir d’une définition de ligne ou d’une définition de colonne. |
+| [![Bouton Insérer une colonne.](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Permet d’insérer une colonne vide dans la définition de colonne. Ce bouton est disponible à partir d’une définition de colonne. |
+| [![Bouton Verrouiller.](./media/lockc130389.png)](./media/lockc130389.png)                           | Permet d’appliquer un mot de passe au bloc élémentaire en cours. Ce bouton est à la disposition des utilisateurs ayant le rôle de **Concepteur** ou d’**Administrateur**. |
+| [![Bouton Lien de ligne.](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Permet d’ouvrir la boîte de dialogue **Liens de ligne** dans laquelle vous pouvez spécifier les sources des liens de données dans les définitions de ligne et les définitions d’organigramme d’entreprise. Ce bouton est disponible à partir d’une définition de ligne. |
+| [![Bouton Hausser.](./media/promotec130389.png)](./media/promotec130389.png)                  | Permet de promouvoir une unité de la définition d’organigramme d’entreprise. Lorsque vous sélectionnez une unité enfant, puis cliquez sur **Hausser**, l’unité enfant est déplacée au même niveau que son unité parent. |
+| [![Bouton Abaisser.](./media/demotec130389.png)](./media/demotec130389.png)                     | Permet d’abaisser une unité de la définition d’organigramme d’entreprise. Lorsque vous sélectionnez une unité, puis cliquez sur **Abaisser**, l’unité devient un enfant de l’unité qui la précède. |
+| [![Bouton Développer.](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Permet de développer toutes les unités de la définition d’organigramme d’entreprise au niveau de l’unité sélectionnée. |
+| [![Bouton Réduire.](./media/collapsec130389.png)](./media/collapsec130389.png)               | Permet de réduire l’arborescence d’organigramme d’entreprise. |
+| [![Bouton Aide.](./media/helpc130389.png)](./media/helpc130389.png)                           | Permet d’ouvrir l’aide. |
 
 ### <a name="formatting-toolbar"></a>Barre d’outils de mise en forme
 
 La barre d’outils de mise en forme fournit un accès facile aux commandes de style. Cette barre d’outils inclut les boutons suivants :
 
-| Bouton                                                                                                       | Description                                             |
+| Bouton                                                                                                       | Description                                              |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Bouton Style de police](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Permet d’appliquer le style de police sélectionné au texte actif.      |
-| [![Bouton Police](./media/fonttype.png)](./media/fonttype.png)                                                 | Permet d’appliquer la police sélectionnée au texte actif.              |
-| [![Bouton Taille de police](./media/fontsize.png)](./media/fontsize.png)                                            | Permet d’appliquer la taille de police sélectionnée au texte actif (en points). |
-| [![Bouton Gras](./media/boldc130389.png)](./media/boldc130389.png)                                           | Permet d’appliquer le caractère gras au texte actif.                             |
-| [![Bouton Italique](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Permet d’appliquer le caractère italique au texte actif.                           |
-| [![Bouton Soulignement](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Permet d’appliquer le soulignement au texte actif.                             |
-| [![Bouton Réduire le retrait](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Permet de diminuer le niveau de retrait du texte actif.                |
-| [![Bouton Augmenter le retrait](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Permet d’augmenter le niveau de retrait du texte actif.                |
-| [![Bouton Couleur d’arrière-plan](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Permet de modifier la couleur d’arrière-plan de la cellule active.        |
-| [![Bouton Couleur de police](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Permet de modifier la couleur du texte actif.                   |
+| [![Bouton Style de police.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Permet d’appliquer le style de police sélectionné au texte actif.      |
+| [![Bouton Police.](./media/fonttype.png)](./media/fonttype.png)                                                 | Permet d’appliquer la police sélectionnée au texte actif.              |
+| [![Bouton Taille de police.](./media/fontsize.png)](./media/fontsize.png)                                            | Permet d’appliquer la taille de police sélectionnée au texte actif (en points). |
+| [![Bouton Gras.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Permet d’appliquer le caractère gras au texte actif.                             |
+| [![Bouton Italique.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Permet d’appliquer le caractère italique au texte actif.                           |
+| [![Bouton Soulignement.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Permet d’appliquer le soulignement au texte actif.                             |
+| [![Bouton Réduire le retrait.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Permet de diminuer le niveau de retrait du texte actif.                |
+| [![Bouton Augmenter le retrait.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Permet d’augmenter le niveau de retrait du texte actif.                |
+| [![Bouton Couleur d’arrière-plan.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Permet de modifier la couleur d’arrière-plan de la cellule active.        |
+| [![Bouton Couleur de police.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Permet de modifier la couleur du texte actif.                   |
 
 ### <a name="report-designer-toolbar"></a>Boutons de la barre d’outils du générateur d’états
 
 La barre d’outils du générateur d’états fournit l’accès rapide aux commandes de navigation dans le générateur d’états. Cette barre d’outils inclut les boutons suivants :
 
-| Bouton                                                                                              | Description |
+| Bouton                                                                                              | Description  |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Bouton Définition de rapport](./media/reportc130389.png)](./media/reportc130389.png)                 | Permet d’afficher la définition de rapport répertoriée sur le menu **Fenêtre**. |
-| [![Bouton Définition de ligne](./media/rowc130389.png)](./media/rowc130389.png)                          | Permet d’afficher la définition de ligne affectée à la définition de rapport active. |
-| [![Bouton Définition de colonne](./media/columnc130389.png)](./media/columnc130389.png)                 | Permet d’afficher la définition de colonne affectée à la définition de rapport active. |
-| [![Bouton Définition d’organigramme d’entreprise](./media/treec130389.png)](./media/treec130389.png)             | Permet d’afficher la définition d’organigramme d’entreprise affectée à la définition de rapport active. |
-| [![Bouton Visionneuse de rapports](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Permet de lancer la visionneuse de rapports et d’afficher la dernière version du rapport généré. Ce bouton est disponible à partir d’une définition de rapport si vous avez généré au moins un rapport. |
-| [![Bouton Générer le rapport](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Génère un rapport à partir de la définition de rapport active. Ce bouton est disponible dans une définition de rapport. |
+| [![Bouton Définition de rapport.](./media/reportc130389.png)](./media/reportc130389.png)                 | Permet d’afficher la définition de rapport répertoriée sur le menu **Fenêtre**. |
+| [![Bouton Définition de ligne.](./media/rowc130389.png)](./media/rowc130389.png)                          | Permet d’afficher la définition de ligne affectée à la définition de rapport active. |
+| [![Bouton Définition de colonne.](./media/columnc130389.png)](./media/columnc130389.png)                 | Permet d’afficher la définition de colonne affectée à la définition de rapport active. |
+| [![Bouton Définition d’organigramme d’entreprise.](./media/treec130389.png)](./media/treec130389.png)             | Permet d’afficher la définition d’organigramme d’entreprise affectée à la définition de rapport active. |
+| [![Bouton Visionneuse de rapports.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Permet de lancer la visionneuse de rapports et d’afficher la dernière version du rapport généré. Ce bouton est disponible à partir d’une définition de rapport si vous avez généré au moins un rapport. |
+| [![Bouton Générer le rapport.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Génère un rapport à partir de la définition de rapport active. Ce bouton est disponible dans une définition de rapport. |
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

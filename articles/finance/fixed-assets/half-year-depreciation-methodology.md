@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355530"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Méthodologie de la convention d’amortissement semestriel
 
@@ -36,7 +36,7 @@ La première année de service se terminera en décembre 2020, ce qui signifie 
 > Amortissement annuel 50 000/5 = 10 000 amortissement mensuel 10 000/12 = 833,33 <br>
 > Amortissement de la première année 10 000/2 = 5 000 et amortissement mensuel suivant 5 000/9 = 555,56
 
-   [![Plan d’amortissement pour la convention d’amortissement semestrielle](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Plan d’amortissement pour la convention d’amortissement semestrielle.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Les périodes d’amortissement prolongées ajoutées par la convention semestrielle permettent une répartition plus précise de l’amortissement. La convention de six mois représente les dépenses d’amortissement de manière plus égale, ce qui est utile pour la présentation du compte de résultat.
 

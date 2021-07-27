@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028105"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354467"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Enregistreur de tâches et aide pour Retail Modern POS (MPOS) et Cloud POS
 
@@ -55,14 +55,14 @@ Pour créer un enregistrement à l’aide de l’enregistreur de tâches, procé
 1. Démarrez Retail Modern POS ou Cloud POS, puis connectez-vous.
 2. Dans la page **Paramètres**, dans la section **Enregistreur de tâches**, cliquez sur **Ouvrir l’enregistreur de tâches**. Le volet **Enregistreur de tâches** apparaît. Vous pouvez cliquer sur le bouton **Fermer** (**X**) dans l’angle supérieur droit pour fermer le volet **Enregistreur de tâches** avant de commencer un nouvel enregistrement. Pour rouvrir le volet, répétez l’étape 2.
 
-    [![Volet Enregistreur de tâches](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Volet Enregistreur de tâches.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Entrez un nom et une description pour l’enregistrement, puis cliquez sur **Démarrer**. La session d’enregistrement commence dès que vous cliquez sur **Démarrer**.
 
     > [!NOTE]
     > Si vous cliquez sur le bouton **Fermer** (**X**) dans l’angle supérieur droit alors que l’enregistrement est en cours, le volet **Enregistreur de tâches** se ferme, mais la session d’enregistrement n’est pas terminée. Pour rouvrir le volet Enregistreur de tâches, cliquez sur le bouton **Aide** (point d’interrogation) en haut de l’écran.
     >
-    > [![Point d’interrogation](./media/help.jpg)](./media/help.jpg)
+    > [![Point d’interrogation.](./media/help.jpg)](./media/help.jpg)
 
 4. Une fois que vous cliquez sur **Démarrer**, l’enregistreur de tâches active le mode enregistrement. Le volet **Enregistreur de tâches** affiche des informations et des contrôles associés au processus d’enregistrement.
 5. Exécutez les actions souhaitées dans l’interface utilisateur de Retail Modern POS ou de Cloud POS.
@@ -72,7 +72,7 @@ Pour créer un enregistrement à l’aide de l’enregistreur de tâches, procé
 
 Une fois la session d’enregistrement terminée, plusieurs options s’affichent pour vous permettre de télécharger votre enregistrement.
 
-[![Options de téléchargement](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Options de téléchargement.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Enregistrer sur le PC
 
@@ -88,7 +88,7 @@ Le fichier d’enregistrement brut est utile dans les scénarios de développeme
 
 ## <a name="recording-controls"></a>Contrôles d’enregistrement
 
-[![Contrôles d’enregistrement](./media/controls.jpg)](./media/controls.jpg)
+[![Contrôles d’enregistrement.](./media/controls.jpg)](./media/controls.jpg)
 
 ### <a name="stop"></a>Arrêter
 
@@ -117,15 +117,15 @@ Vous pouvez spécifier le début et la fin d’un ensemble d’étapes groupées
 
 Une annotation est un texte supplémentaire que vous ajoutez à une étape d’un enregistrement. Par exemple, vous pouvez utiliser des annotations pour fournir à l’utilisateur plus de contexte ou d’instructions. Vous pouvez ajouter des annotations avant ou après une étape. Vous pouvez ajouter une annotation à une étape en cliquant sur le bouton **Modifier** (symbole de crayon) à droite de l’étape.
 
-[![Bouton Modifier pour une étape](./media/annotate.jpg)](./media/annotate.jpg)
+[![Bouton Modifier pour une étape.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Textes et notes
 
 Vous pouvez utiliser les champs **Textes** et **Notes** pour ajouter du texte à associer à une étape dans un guide de tâche.
 
-[![Champs Texte et Notes](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Champs Texte et Notes.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
-#### <a name="text"></a>Texte
+#### <a name="text"></a>Détails
 
 Le texte que vous entrez dans le champ **Texte** apparaît *au-dessus* du texte de l’étape dans le guide de tâche. Cet emplacement est approprié pour le texte que l’utilisateur doit lire avant de terminer l’étape.
 
@@ -137,7 +137,7 @@ Le texte que vous entrez dans le champ **Notes** apparaît *en dessous* du texte
 
 Pour afficher vos propres enregistrements personnalisés de tâche dans le volet Aide de Retail Modern POS et de Cloud POS afin qu’ils puissent être affichés comme texte, vous devez enregistrer vos enregistrements de tâches dans votre propre bibliothèque BPM, puis mettre à jour vos paramètres du système d’aide pour pointer vers votre bibliothèque BPM. Pour plus d’informations, consultez [Connexion au système d’aide](../fin-ops-core/fin-ops/get-started/help-connect.md). L’aide Retail Modern POS et Cloud POS effectue des recherches dans LCS en temps réel. Elle effectue des recherches dans toutes les bibliothèques BPM sélectionnées dans les paramètres du système d’aide de Commerce et affiche les résultats pertinents. Pour accéder au menu **Aide**, cliquez sur le bouton **Aide** (point d’interrogation) en haut de l’écran, puis dans la zone de recherche, tapez le nom de votre processus et cliquez sur le bouton de recherche.
 
-[![Bouton Aide](./media/help.jpg)](./media/help.jpg)
+[![Bouton Aide.](./media/help.jpg)](./media/help.jpg)
 
 Lorsque vous cliquez sur un guide de tâche dans les résultats de la recherche, vous pouvez afficher les étapes sous forme de rubrique d’aide et exporter les étapes dans un document Word.
 

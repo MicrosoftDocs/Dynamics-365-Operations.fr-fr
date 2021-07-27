@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753286"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355416"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Concevoir des configurations des états électroniques (ER) pour renseigner des modèles PDF
 
@@ -115,11 +115,11 @@ Dans une visionneuse de PDF, ouvrez les modèles de documents PDF que vous avez 
 
 L’illustration suivante présente le modèle PDF de la première page de l’état.
 
-![Modèle 1](media/rcs-ger-filloutpdf-template1.png)
+![Modèle 1.](media/rcs-ger-filloutpdf-template1.png)
 
 L’illustration suivante présente le modèle PDF des autres pages de l’état.
 
-![Modèle 2](media/rcs-ger-filloutpdf-template2.png)
+![Modèle 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. Dans la page **Configurations**, sélectionnez **Concepteur**.
 2. Sélectionnez **Ajoutez racine**.
@@ -146,7 +146,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 
 12. Cliquez sur **OK**.
 
-    ![Importer à partir de la boîte de dialogue PDF](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Boîte de dialogue Importer à partir du PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Dans l’arborescence, développer **Production**.
 
@@ -176,7 +176,7 @@ L’illustration suivante présente le modèle PDF des autres pages de l’état
 
     Notez que le document PDF importé est associé au format ER modifié.
 
-    ![Aperçu de la pièce jointe PDF](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![Aperçu de la pièce jointe PDF.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Continuez à concevoir ce format en important le deuxième modèle PDF, en ajoutant les liaisons nécessaires aux sources de données, et ainsi de suite.
 20. Sélectionnez **Enregistrer**.
@@ -215,7 +215,7 @@ Ensuite, vous importerez l’exemple de format ER que vous avez précédemment t
 1. Dans la page **Concepteur de formats**, sélectionnez l’onglet **Mise en correspondance**.
 2. Dans l’arborescence, développez **Pagination \> Pages**.
 
-    ![Page de concepteur de formule où le modèle d’arborescence est développé](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Page de concepteur de formule où l’arborescence du modèle est développée.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Notez les informations suivantes :
 
@@ -238,7 +238,7 @@ Ensuite, vous importerez l’exemple de format ER que vous avez précédemment t
 
     Notez que l’attribut **Nom** de cet élément de format est défini sur **Correction 1**. Notez également que l’expression **Nom** de l’élément de format est définie comme **Paging.FldName("Correction",\@.Number)**.
 
-![Concepteur de formats dans lequel une mise en correspondance est sélectionnée](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Concepteur de formats dans lequel un mappage est sélectionné.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Notez que l’élément de format **Champ** permet de remplir un champ individuel d’un document PDF pouvant être renseigné défini comme modèle de l’élément de format parent **Fichier PDF**. La liaison de l’élément de format **Fichier PDF** ou de ses éléments imbriqués, s’il comporte des éléments imbriqués, spécifie la valeur entrée dans les champs PDF correspondants. Différentes propriétés de l’élément de format **Champ** permettent de spécifier quel champ PDF est renseigné par un élément de format individuel :
 
@@ -275,7 +275,7 @@ Ensuite, vous chargerez l’exemple de format ER **Déclaration d’échanges de
 
     Lorsque l’option **Valeur par défaut de la mise en correspondance des modèles** est définie sur **Oui**, le format ER **Déclaration d’échanges de biens (importation depuis Excel)** importé est attribué comme source de données par défaut de la configuration du format **État de déclaration d’échanges de biens (PDF)**. Puis, lorsque la configuration de format **État de déclaration d’échanges de biens (PDF)** est exécutée, le contenu du classeur Excel analysé par le format ER **Déclaration d’échanges de biens (importation depuis Excel)** simulera les transactions de commerce extérieur devant être déclarées. L’illustration suivante présente un exemple de classeur Excel.
 
-    ![Classeur Excel contenant des exemples de données](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Classeur Excel contenant des exemples de données.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Exécuter la configuration du format
 
@@ -289,11 +289,11 @@ Ensuite, vous chargerez l’exemple de format ER **Déclaration d’échanges de
 
 L’illustration suivante présente un exemple de la première page de l’état généré.
 
-![Première page de l’état généré](media/rcs-ger-filloutpdf-generatedreport.png)
+![Première page de l’état généré.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 L’illustration suivante présente un exemple d’une autre page de l’état généré.
 
-![Autre page de l’état généré](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Autre page de l’état généré.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 

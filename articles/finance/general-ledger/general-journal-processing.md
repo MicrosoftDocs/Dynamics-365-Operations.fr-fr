@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352856"
 ---
 # <a name="general-journal-processing"></a>Journaux d’opérations diverses
 
@@ -42,14 +42,14 @@ Vous pouvez paramétrer les éléments suivants sur la page **Noms des journaux*
 
 Un nom de journal peut être utilisé uniquement pour les ajustements. Dans ce cas, vous pouvez spécifier que seul le type de compte **Comptabilité** est valide dans toutes les sociétés. 
 
-[![Types de comptes du contrôle des journaux](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Types de comptes du contrôle des journaux.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Un nom de journal peut être uniquement utilisé pour un segment spécifique ou pour une plage pour des comptes principaux. 
 
-[![Segment de contrôle des journaux](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Segment de contrôle des journaux.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 L’option **Contrepassation automatique** est disponible dans les journaux des opérations diverses. Par exemple, vous avez un ajustement de régularisation dans lequel le document actif n’a pas encore été traité, comme le montre l’illustration suivante.
-[![Contrepassation du journal des opérations diverses](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Contrepassation du journal des opérations diverses.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Le complément Microsoft Excel pour l’entrée de journal fournit un niveau supplémentaire d’automatisation et facilite la saisie des données. L’action **Ouvrir les lignes dans Excel** est disponible dans les pages **Journal des opérations diverses** et **N° document de journal**. 
 

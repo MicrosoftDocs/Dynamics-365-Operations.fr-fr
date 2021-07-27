@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908704"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353418"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Diagramme de Gantt pour la planification des tâches
 
@@ -45,10 +45,10 @@ Le diagramme de Gantt peut être ouvert dans deux vues différentes, la **Vue Co
 
 ## <a name="order-view"></a>Vue Commande
 
-[![Vue Commande](./media/orderview.png)](./media/orderview.png)
+[![Vue Commande.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Vue Ressource
-[![Vue Ressource](./media/resview.png)](./media/resview.png)
+[![Vue Ressource.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Activités
 Les activités s’affichent sous forme de barres et sont organisées dans une grille de durée avec une heure de début et de fin planifiée, de sorte que la longueur des barres est proportionnelle au temps nécessaire pour effectuer l’activité. Les activités sont affichées en fonction d’une échelle de temps. Vous pouvez ajuster l’échelle de temps dans le menu en sélectionnant une date de début et de fin et une unité de temps, par exemple, heures ou jours. En ajustant l’échelle de temps, vous pouvez définir le focus sur l’intervalle de temps dans lequel vous souhaitez gérer les activités. 
@@ -102,25 +102,25 @@ Il est impossible de planifier une tâche en dehors de l’intervalle de temps d
 
 Dans un réseau d’activités, par exemple des tâches appartenant au même ordre de fabrication, vous pouvez utiliser la fonction **Planifier les tâches précédentes** pour planifier les tâches précédentes relatives à une tâche sélectionnée dans le réseau. Dans l’exemple suivant, l’activité mise en surbrillance est la tâche sélectionnée. Le diagramme s’affiche avant la planification d’un travail précédent et après la planification du travail précédent. 
 
-[![Planifier une tâche précédente](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Planifier une tâche précédente.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Planifier les tâches suivantes
 
 Vous pouvez utiliser la fonction **Planifier les tâches suivantes** pour planifier les tâches suivantes relatives à une tâche sélectionnée dans un réseau d’activités. Dans l’exemple suivant, l’activité mise en surbrillance est la tâche sélectionnée. Le diagramme s’affiche avant la planification du travail suivant et après la planification du travail suivant. 
 
-[![Planifier la tâche suivante](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Planifier la tâche suivante.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Planifier autour de la tâche
 
 Vous pouvez utiliser la fonction **Planifier autour de la tâche** pour planifier les tâches suivante et précédente relatives à une tâche sélectionnée dans un réseau d’activités. Dans l’exemple suivant, l’activité mise en surbrillance est la tâche sélectionnée. Le diagramme s’affiche avant et après la planification d’un travail. 
 
-[![Planifier autour de la tâche](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Planifier autour de la tâche.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Réorganiser les tâches
 
 Vous pouvez utiliser la fonction **Réorganiser** pour réorganiser les activités sélectionnées sur la même ressource. Ces activités peuvent appartenir au même réseau d’activités, mais peuvent également appartenir à différents réseaux. Lorsque vous utilisez la fonction de réorganisation, les écarts de temps entre les activités sélectionnées sont éliminés. Vous pouvez utiliser cette fonction pour optimiser l’utilisation de capacité des ressources. Le diagramme s’affiche avant et après la planification d’un travail. 
 
-[![Réorganiser la tâche](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Réorganiser la tâche.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Réaffecter des activités d’une ressource à une autre
 

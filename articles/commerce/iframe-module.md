@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7b397b91d1b8a45347ef2d05f42fb7c610ab3912
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797068"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348212"
 ---
 # <a name="iframe-module"></a>Module iFrame
 
@@ -37,11 +37,11 @@ Un module iframe nécessite une URL cible. Il héberge ensuite le contenu de la 
 
 L’image suivante montre des exemples de modules iframe qui présentent des vidéos externes sur des pages de site.
 
-![Exemple de modules iframe qui présentent des vidéos externes](./media/ecommerce-iframe.PNG)
+![Exemple de modules iframe qui présentent des vidéos externes.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Propriétés du module iframe
 
-| Nom de la propriété             | Valeur                 | Description |
+| Nom de la propriété             | Valeur                  | Description  |
 |---------------------------|-----------------------|-------------|
 | Titre | Détails | En-tête du module. |
 | URL cible | URL | URL hébergée dans le module. |

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ce5ddf863988475550584384f4cf26f1302768aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910278"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355899"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Synchroniser les informations sur le niveau de stock depuis Supply Chain Management vers Field Service 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910278"
 
 Cette rubrique présente les modèles et les tâches sous-jacentes utilisés pour synchroniser les informations au niveau du stock depuis Dynamics 365 Supply Chain Management vers Dynamics 365 Field Service.
 
-[![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Synchronisation des processus d’entreprise entre Supply Chain Management et Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Modèles et tâches
 Le modèle et les tâches sous-jacentes suivants sont utilisés pour synchroniser les niveaux disponibles en stock et les transferts depuis Supply Chain Management vers Field Service.
@@ -89,7 +89,7 @@ Vous pouvez appliquer des filtres avec Requête et filtrage avancés afin de con
 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Stock de produit (Supply Chain Management vers Field Service) : stock de produit
 
-[![Mise en correspondance de modèles dans l’intégration de données](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+[![Mise en correspondance de modèles dans l’intégration de données.](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799177"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349600"
 ---
 # <a name="create-a-default-customer"></a>Créer un client par défaut
 
@@ -47,7 +47,7 @@ Pour créer un groupe de clients, procédez comme suit.
 
 L’image suivante montre plusieurs groupes de clients configurés.
 
-![Groupes de clients](media/customer-groups.png)
+![Groupes de clients.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Créez un carnet d’adresses clients.
 
@@ -63,7 +63,7 @@ Pour créer un carnet d’adresses clients, procédez comme suit.
 
 L’image suivante présente un exemple de carnet d’adresses.
 
-![Carnet d’adresses](media/address-book.png)
+![Carnet d’adresses.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Créer un client par défaut
 
@@ -86,11 +86,11 @@ Pour créer un client par défaut, procédez comme suit.
 
 L’image suivant présente un exemple de création de client.
 
-![Création de client par défaut](media/default-customer-creation.png)
+![Création de client par défaut.](media/default-customer-creation.png)
 
 L’image suivante montre une configuration client par défaut.
 
-![Exemple de configuration client](media/default-customer-configuration1.png)
+![Exemple de configuration client.](media/default-customer-configuration1.png)
 
 La plupart des valeurs par défaut sur l’écran des détails client peuvent rester, mais deux valeurs doivent être modifiées.
 
@@ -100,13 +100,13 @@ La plupart des valeurs par défaut sur l’écran des détails client peuvent re
 
 L’image suivant présente un exemple de configuration client.
 
-![Exemple de configuration client](media/default-customer-configuration2.png)
+![Exemple de configuration client.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-[Présentation des canaux](channels-overview.md)
+[Vue d’ensemble des canaux](channels-overview.md)
 
-[Conditions préalables au paramétrage du canal](channels-prerequisites.md)
+[Conditions préalables à la configuration de canal](channels-prerequisites.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

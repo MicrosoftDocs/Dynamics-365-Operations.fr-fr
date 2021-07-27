@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937328"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351017"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Vue d’ensemble de tâches d’importation et d’exportation de données
 
@@ -106,7 +107,7 @@ Il existe deux vues de mappage : **Visualisation de la mise en correspondance**
 
 Vous pouvez générer une mise en correspondance sur la page en sélectionnant **Générer la mise en correspondance de la source**. Une mise en correspondance générée se comporte comme une mise en correspondance automatique. Par conséquent, vous devez mettre en correspondance manuellement tous les champs non mis en correspondance.
 
-![Mise en correspondance de données](./media/dixf-map.png)
+![Mise en correspondance de données.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Vérifier la sécurité de votre tâche d’importation ou d’exportation
 L’accès à l’espace de travail **Gestion des données** peut être limité, afin que les utilisateurs non-administrateurs puissent accéder uniquement à des tâches de données spécifiques. L’accès à une tâche de données implique un accès complet à l’historique d’exécution de cette tâche et l’accès aux tables intermédiaires. Par conséquent, vous devez vous assurer que les contrôles d’accès appropriés sont en place lorsque vous créez une tâche de données.
@@ -132,11 +133,11 @@ Vous pouvez exécuter une tâche ponctuelle en sélectionnant le bouton **Import
 ## <a name="validate-that-the-job-ran-as-expected"></a>Vérifier que la tâche a été exécutée comme prévu
 L’historique des tâches est disponible pour dépanner et rechercher des tâches d’importation et d’exportation. Les exécutions d’historique des tâches sont planifiées par périodes.
 
-![Plages Historique des tâches](./media/dixf-job-history.md.png)
+![Plages Historique des tâches.](./media/dixf-job-history.md.png)
 
 Chaque exécution de tâche fournit les informations suivantes :
 
-- Détails de l’exécution
+- Détails de l'exécution
 - Journal des exécutions
 
 Les détails de l’exécution indiquent l’état de chaque entité de données que la tâche a traitée. Par conséquent, vous pouvez rapidement rechercher les informations suivantes :

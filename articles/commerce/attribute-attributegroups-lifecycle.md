@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936802"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346802"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gérer des attributs et des groupes d’attributs
 
@@ -70,7 +70,7 @@ Les attributs sont basés sur les *types d’attributs*. Le type d’attribut id
     - Nommez un type d’attribut **Forme des verres**, puis ajoutez des valeurs suivantes : **Ovale**, **Carré** et **Rectangle**.
     - Nomme l’autre type d’attribut **Marque de lunettes de soleil**, puis ajoutez des valeurs suivantes : **Ray ban**, **Aviator** et **Oakley**.
 
-![Types d’attributs](media/AttributeType.png)
+![Types d’attributs.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Paramétrer un attribut
 
@@ -79,9 +79,9 @@ Les attributs sont basés sur les *types d’attributs*. Le type d’attribut id
 3. Créez un attribut nommé **Verres**.
 4. Définissez le champ **Type d’attribut** sur **Forme des verres**.
 
-![Attributs](media/Attribute.png)
+![Attributs.](media/Attribute.png)
 
-## <a name="attribute-metadata"></a>Métadonnées d’attribut
+## <a name="attribute-metadata"></a>Métadonnées d'attribut
 
 *Métadonnées d’attribut* vous permet de sélectionner des options afin de spécifier la manière dont les attributs de chaque produit doivent se comporter. Par exemple, vous pouvez spécifier si les attributs sont obligatoires, s’ils peuvent être utilisés pour les recherches, et s’ils peuvent être utilisés comme filtre.
 
@@ -134,15 +134,15 @@ La page **Préférences d’affichage du filtre** inclut les champs suivants :
     - 200 – 500
     - Au moins 500
 
-![Paramètres de filtre d’attribut](media/AttributeFilterSettings.PNG)
+![Paramètres de filtre d'attribut.](media/AttributeFilterSettings.PNG)
 
-## <a name="attribute-groups"></a>Groupes d’attributs
+## <a name="attribute-groups"></a>Groupes d'attributs
 
 Une fois les attributs définis, ils peuvent être affectés à des groupes d’attributs. Un *groupe d’attributs* permet de regrouper les attributs individuels d’un composant ou d’un sous-composant dans un modèle de configuration de produit. Un attribut peut être inclus dans plusieurs groupes d’attributs. Les groupes d’attributs peuvent aider les utilisateurs à configurer des produits, car les différentes sélections sont organisées dans un contexte spécifique. Les groupes d’attributs peuvent être affectés à des catégories ou à des canaux.
 
 Vous pouvez également définir des valeurs par défaut pour les attributs inclus dans un groupe d’attributs. Par exemple, vous ajoutez un attribut pour la couleur à un groupe d’attributs et sélectionnez **Bleu** comme valeur d’attribut par défaut. Dans ce cas, lorsque le groupe d’attributs est ajouté à un produit qui inclut la couleur comme l’un de ses attributs, **Bleu** s’affiche comme couleur par défaut pour ce produit.
 
-![Groupes d’attributs](media/AttributeGroup.png)
+![Groupes d’attributs.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Création d’un groupe d’attributs
 
@@ -155,7 +155,7 @@ Vous pouvez également définir des valeurs par défaut pour les attributs inclu
 
 Un ou plusieurs groupes d’attributs peuvent être associés aux nœuds de catégorie dans les types de hiérarchies de catégories suivants : hiérarchie des produits Commerce, hiérarchie de catégories de navigation du canal et hiérarchie de catégories de produits supplémentaires. Ensuite, lorsque les produits sont classés en catégorie, ils héritent des attributs inclus aux groupes d’attributs.
 
-![Hiérarchie de produits – Groupes d’attributs de produit](media/AGRetailProdHierarchy.PNG)
+![Hiérarchie de produits – Groupes d’attributs de produit.](media/AGRetailProdHierarchy.PNG)
 
 Procédez comme suit pour affecter des groupes d’attributs aux catégories de la hiérarchie des produits Commerce.
 
@@ -200,7 +200,7 @@ Un ou plusieurs groupes d’attributs peuvent être associés à un ou plusieurs
     3. Sélectionner le nœud de catégorie **Accessoires de mode**, sélectionnez la catégorie **Lunettes de soleil de mode**, puis dans l’organisateur **Attributs de produit de canal**, sélectionnez **Inclure l’attribut** pour chaque attribut.
     4. Sélectionner le nœud de catégorie **Vêtements pour hommes**, sélectionnez la catégorie **Pantalons**, puis dans l’organisateur **Attributs de produit de canal**, sélectionnez **Inclure l’attribut** pour chaque attribut.
 
-![Catégories de canal et attributs de produit – Groupes d’attributs](media/CCPAttrGrp.png)
+![Catégories de canal et attributs de produit – Groupes d’attributs.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Remplacement des valeurs d’attribut
 
@@ -214,7 +214,7 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
 4. Sélectionnez le produit requis dans la grille. Puis, sur le volet Actions, sous l’onglet **Produit**, dans le groupe **Paramétrer**, cliquez sur **Attributs de produit**.
 5. Sélectionnez un attribut dans le volet gauche, puis mettez sa valeur à jour dans le volet droit.
 
-![Page Détails de produit – Groupes d’attributs de produit](media/ProdDetailsProdAttrValues.png)
+![Page Détails de produit – Groupes d’attributs de produit.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Remplacer les valeurs d’attribut d’un produit dans un catalogue
 
@@ -233,7 +233,7 @@ Les valeurs par défaut des attributs peuvent être remplacées pour les produit
     > [!NOTE]
     > Si le support de produit partagé et les attributs de produit partagés sont créés, ils s’appliquent à tous les produits.
 
-![Groupe d’attributs de produit du catalogue](media/CatalogProdAttrValues.png)
+![Groupe d’attributs de produit du catalogue.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Remplacer les valeurs d’attribut d’un produit dans un canal
 

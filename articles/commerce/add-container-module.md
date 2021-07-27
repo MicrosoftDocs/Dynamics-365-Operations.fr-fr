@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797789"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347564"
 ---
 # <a name="container-module"></a>Module Conteneur
 
@@ -42,11 +42,11 @@ Trois modules de conteneur sont pris en charge : conteneur, conteneur à 2 emp
 
 L’image suivante montre un exemple de module de conteneur contenant un module de carrousel dans le générateur de site Commerce. Dans cet exemple, la propriété **Largeur** du module de conteneur est définie sur **Remplir l’écran**.
 
-![Exemple de module de conteneur](./media/ecommerce-container.PNG)
+![Exemple de module de conteneur.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Propriétés du module de conteneur
 
-| Nom de la propriété     | Valeurs | Description |
+| Nom de la propriété     | Valeurs | Description  |
 |-------------------|--------|-------------|
 | En-tête           | Texte d’en-tête et balise d’en-tête (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Un en-tête facultatif peut être fourni pour le conteneur. Par défaut, la balise d’en-tête **H2** sert pour l’en-tête. Toutefois, la balise peut être modifiée pour satisfaire aux exigences d’accessibilité. |
 | Largeur             | **Adapter le conteneur** ou **Remplir l’écran** | Si la valeur est définie sur **Adapter le conteneur** (valeur par défaut), les modules à l’intérieur du conteneur sont limités à la largeur du conteneur. Si la valeur est définie **Plein écran**, les modules ne sont pas soumis à la largeur du conteneur mais peuvent remplir l’écran. |

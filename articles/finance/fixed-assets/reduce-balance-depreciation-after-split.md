@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826249"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356773"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Réduire l’amortissement après un fractionnement
 
@@ -37,7 +37,7 @@ Par exemple, les conditions suivantes sont en vigueur :
 - L’amortissement du premier exercice est égal à 18 000 $, l’amortissement mensuel est égal à 150 $, et l’actif est ensuite amorti jusqu’en novembre 2019, à hauteur de 738,75 $.
 - En novembre 2019, 80 % de l’actif est divisé en une autre immobilisation.
 
-[![Réduire l’amortissement après un fractionnement](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Réduire l’amortissement après un fractionnement.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Le montant à amortir pour l’actif d’origine est 1 822,25 $. Ce montant correspond à la VN avant la validation de la transaction de fractionnement (9 111,25 USD), plus l’ajustement d’acquisition généré lors de la validation de la transaction de fractionnement (-8 000 USD), plus l’ajustement de dépréciation généré lors de la transaction de fractionnement (711 USD). Par conséquent, la dépréciation pour la deuxième année est (1 822,25 × 18 pour cent) ÷ 12 = 27,33 $.
 

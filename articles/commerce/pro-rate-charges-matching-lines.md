@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018604"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352178"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Calculer au prorata les frais d’en-tête par rapport aux lignes de vente correspondantes
 
@@ -56,9 +56,9 @@ Ce scénario souligne le comportement lorsque l’option **Calculer au prorata l
 
 Dans ce scénario, l’organisation a défini des frais au niveau de l’en-tête pour le mode de livraison **99** et le mode de livraison **11**. Aucun frais automatique n’est configuré pour le mode de livraison **21**.
 
-![Frais automatiques pour le mode de livraison 99 lorsque le calcul au prorata de la ligne correspondante est désactivé](media/99_disabled.png)
+![Frais automatiques pour le mode de livraison 99 lorsque le calcul au prorata de la ligne correspondante est désactivé.](media/99_disabled.png)
 
-![Frais automatiques pour le mode de livraison 11 lorsque le calcul au prorata de la ligne correspondante est désactivé](media/11_disabled.png)
+![Frais automatiques pour le mode de livraison 11 lorsque le calcul au prorata de la ligne correspondante est désactivé.](media/11_disabled.png)
 
 Une commande client est créée dans le centre d’appels, et le mode de livraison est défini sur **99**. Cette commande contient cinq articles. Deux lignes de commande ont été configurées pour utiliser le mode de livraison **99**, deux lignes ont été configurées pour utiliser le mode de livraison **11**, et une ligne a été configurée pour utiliser le mode de livraison **21**, comme indiqué dans le tableau suivant.
 
@@ -78,9 +78,9 @@ Dans ce scénario, si un client renvoie certains articles de la commande, et si 
 
 Dans ce scénario, les frais au niveau de l’en-tête sont définis pour le mode de livraison **99** et le mode de livraison **11**. Toutefois, l’option **Calculer au prorata les frais d’en-tête par rapport aux lignes de vente correspondantes** est définie sur **Oui** pour ces tables des frais automatiques.
 
-![Frais automatiques pour le mode de livraison 99 lorsque le calcul au prorata de la ligne correspondante est activé](media/99_enabled.png)
+![Frais automatiques pour le mode de livraison 99 lorsque le calcul au prorata de la ligne correspondante est activé.](media/99_enabled.png)
 
-![Frais automatiques pour le mode de livraison 11 lorsque le calcul au prorata de la ligne correspondante est activé](media/11_enabled.png)
+![Frais automatiques pour le mode de livraison 11 lorsque le calcul au prorata de la ligne correspondante est activé.](media/11_enabled.png)
 
 Ce scénario utilise la même commande client qui contient cinq lignes. Le mode de livraison dans l’en-tête de commande est défini sur **99**, mais le mode de livraison pour chaque article sur la commande client est configuré comme indiqué dans le tableau suivant.
 
@@ -163,7 +163,7 @@ Parce que la configuration des frais automatiques est définie pour calculer au 
 
 Par conséquent, pour cet exemple, l’article 81334 se voit attribuer des frais de transport de 5,62 USD. Vous pouvez afficher ces frais sur la page **Tenir les frais à jour** pour la ligne de vente. L’illustration suivante présente à quoi cette page ressemble pour l’article 81334.
 
-![Frais calculés au prorata sur la ligne des ventes pour l’article 81334](media/proratedlinecharge.png)
+![Frais calculés au prorata sur la ligne des ventes pour l’article 81334.](media/proratedlinecharge.png)
 
 Lorsque ce mode de calcul est utilisé dans un scénario de retour partiel, si le code de frais est remboursable, seule la part des frais attribués à cette ligne est remboursée en cas de retour de l’article.
 

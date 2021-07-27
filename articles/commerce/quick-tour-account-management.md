@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027961"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352058"
 ---
 # <a name="account-management-pages-overview"></a>Vue d’ensemble des pages de gestion de compte
 
@@ -35,7 +36,7 @@ Lorsqu’un client se connecte et sélectionne **Mon compte**, la page de destin
 
 L’illustration suivante présente un exemple de la page de destination de gestion de compte.
 
-![Exemple de page de destination de gestion de compte](./media/Account-Management.PNG)
+![Exemple de page de destination de gestion de compte.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Page Mon profil
 
@@ -43,7 +44,7 @@ La page **Mon profil** affiche des informations de compte du client, telles que 
 
 L’illustration suivante présente un exemple de page **Mon profil** qui a été générée à l’aide de la bibliothèque de modules.
 
-![Exemple d’une page Mon profil](./media/Account-Management-MyProfile.PNG)
+![Exemple d’une page Mon profil.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Page Adresses
 
@@ -51,7 +52,7 @@ La page **Adresses** permet au client d’ajouter des adresses à son compte. El
 
 L’illustration suivante présente un exemple de la page **Adresses**.
 
-![Exemple d’une page Adresses](./media/Account-Management-Address.png)
+![Exemple d’une page Adresses.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pages Historique de commande et Détails de la commande
 
@@ -59,11 +60,11 @@ La page **Historique de commande** affiche une synthèse de toutes les commandes
 
 L’illustration suivante présente un exemple de la page **Historique de commande**.
 
-![Exemple d’une page Historique de commande](./media/Account-Management-OrderHistory.PNG)
+![Exemple d’une page Historique de commande.](./media/Account-Management-OrderHistory.PNG)
 
 L’illustration suivante présente un exemple de la page **Détails de la commande**.
 
-![Exemple d’une page Détails de la commande](./media/Account-Management-OrderDetails.PNG)
+![Exemple d’une page Détails de la commande.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Page Programme de fidélité
 
@@ -71,7 +72,7 @@ La page **Programme de fidélité** permet au client de devenir un membre d’un
 
 L’illustration suivante présente un exemple de page **Programme de fidélité**.
 
-![Exemple de page Programme de fidélité](./media/Account-Management-Loyalty.PNG)
+![Exemple de page Programme de fidélité.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Page de liste de souhaits
 
@@ -79,7 +80,7 @@ La page **Liste de souhaits** affiche une liste des articles que le client a ajo
 
 L’illustration suivante présente un exemple de page **Liste de souhaits**.
 
-![Exemple d’une page Liste de souhaits](./media/Account-Management-Wishlist.PNG)
+![Exemple d’une page Liste de souhaits.](./media/Account-Management-Wishlist.PNG)
 
 Pour plus d’informations sur les modules de gestion de compte et leur création, voir [Gestion de compte](account-management.md).
 

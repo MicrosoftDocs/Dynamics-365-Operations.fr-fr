@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022470"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353010"
 ---
 # <a name="e-commerce-site-overview"></a>Présentation du site d’e-commerce
 
@@ -47,27 +47,27 @@ Lors de l’initialisation d’un site d’e-commerce, vous êtes invité à ent
 
 Lorsque vous démarrez le générateur de site Commerce à partir de LCS, la page **Sites** apparaît. Cette page comprend deux sites préconfigurés, **par défaut** et **fabrikam**, comme indiqué dans l’exemple de l’illustration suivante.
 
-![Page Sites dans le générateur de site Commerce](media/e-commerce-site-01.png)
+![Page Sites dans le générateur de site Commerce.](media/e-commerce-site-01.png)
 
 Lorsque vous sélectionnez l’un de ces sites, vous êtes invité à sélectionner un nom de domaine, un canal de magasin en ligne par défaut, une langue prise en charge pour le canal sélectionné et un chemin. Si un seul canal est utilisé, vous pouvez laisser le chemin vide. D’autres canaux ou langues de magasin en ligne peuvent être configurés ultérieurement dans le générateur de site Commerce. Chaque canal ou langue supplémentaire nécessitera un chemin unique. Par exemple, vous disposez de deux canaux en ligne associés à un seul site et le nom de domaine du site est `www.fabrikam.com`. Dans ce cas, le chemin pour un canal peut être la valeur par défaut qui n’a pas de chemin (`https://www.fabrikam.com`), et le deuxième canal peut être défini sur un nouveau chemin, tel que **site2**, qui aura l’URL `https://www.fabrikam.com/site2`. L’illustration suivante montre un exemple de boîte de dialogue d’initialisation de site dans le générateur de site Commerce.
 
-![Boîte de dialogue d’initialisation du site dans le générateur de site Commerce](media/e-commerce-site-02.png)
+![Boîte de dialogue d’initialisation du site dans le générateur de site Commerce.](media/e-commerce-site-02.png)
 
 La page **Sites** comprend également un bouton **Nouveau site**. La boîte de dialogue qui s’affiche lorsque vous sélectionnez ce bouton ressemble à la boîte de dialogue d’initialisation du site, mais elle est utilisée pour créer un site. Les nouveaux sites sont vides. Ils n’incluent pas les mêmes modèles, fragments, pages et images par défaut fournis avec les sites **Par défaut** et **fabrikam**. Cependant, selon vos besoins, vous pouvez ouvrir un ticket de support pour demander qu’une copie du contenu par défaut soit ajoutée à un nouveau site vierge. Pour plus d’informations, voir [Créer un site d’e-commerce](create-ecommerce-site.md).
 
 Après l’initialisation d’un nouveau site, la page **Accueil** du générateur de site Commerce apparaît. Cette page comprend des liens vers des actions courantes et du contenu de guidage, comme indiqué dans l’exemple de l’illustration suivante.
 
-![Liens sur la page d’accueil dans le générateur de site Commerce](media/e-commerce-site-03.png)
+![Liens sur la page d’accueil dans le générateur de site Commerce.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Modifier les canaux de magasin en ligne ou ajouter des canaux de magasin en ligne à un site d’e-commerce
 
 Après la création d’un site d’e-commerce, vous pouvez modifier le canal auquel il est associé en suivant les étapes de [Associer un site d’e-commerce à un canal en ligne](associate-site-online-store.md). L’exemple de l’illustration suivante montre comment un numéro d’unité de commande de canal (NUC) peut être modifié sur la page **Canaux** (**Paramètres du site \> Canaux**). Après avoir effectué une modification, assurez-vous de sélectionner **Enregistrer et publier**. De cette manière, vous vous assurez que la modification est publiée.
 
-![Page Canaux dans le générateur de site Commerce](media/e-commerce-site-04.png)
+![Page Canaux dans le générateur de site Commerce.](media/e-commerce-site-04.png)
 
 Vous pouvez ajouter de nouveaux canaux en sélectionnant **Ajouter un canal**. Pour ajouter de nouvelles langues à un canal, sélectionnez le canal, puis sélectionnez **Ajouter un paramètre régional** dans la boîte de dialogue de canal qui apparaît. Pour que les paramètres régionaux puissent apparaître dans la boîte de dialogue, ils doivent être préconfigurés pour le canal du magasin en ligne au siège de Commerce.
 
-![Boîte de dialogue Canal dans le générateur de site Commerce](media/e-commerce-site-05.png)
+![Boîte de dialogue Canal dans le générateur de site Commerce.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Configurer un locataire Azure B2C
 
@@ -113,7 +113,7 @@ Pour plus d’informations sur la gestion d contenu du site, voir les rubriques 
 
 [Configuration du nom de domaine](configure-your-domain-name.md)
 
-[Ajouter la prise en charge d'un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
+[Ajouter la prise en charge d’un réseau de diffusion de contenu (CDN)](add-cdn-support.md)
 
 [Activation de la détection du magasin selon l’emplacement](enable-store-detection.md)
 

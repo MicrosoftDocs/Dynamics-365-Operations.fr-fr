@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce0879565babfbf526e1aa6864482e60cbabd377
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817219"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345594"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>prise en compte de revenu dans les commandes client
 
@@ -36,7 +36,7 @@ Cette rubrique décrit les fonctionnalités de base pour constater le produit da
 
 La commande client suivante est entrée ; elle comprend trois articles paramétrés pour la prise en compte de revenu.
 
-[![Entrer une commande client](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![Entrer une commande client.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 Il existe deux concepts pour la prise en compte de revenu :
 
@@ -47,7 +47,7 @@ Il existe deux concepts pour la prise en compte de revenu :
 
     Le second article, S0008, est un article de service qui est paramétré comme article de support post-contrat (PCS). Des services d’ingénierie continus sont assurés au client pendant une période de 12 mois. Par conséquent, un échéancier de produit **12M** est affecté au produit par défaut. Comme cet article est un article PCS, les dates de début et de fin de contrat doivent être définies. Par défaut, les dates de début et de fin du contrat figurent dans les détails de l’article (onglet Paramétrage). Dans l’échéancier de produit, le paramétrage **12M** est défini de sorte que les termes du contrat sont automatiquement renseignés, comme le montre l’illustration suivante.
 
-    [![Echéanciers de produit](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![Echéanciers de produit.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     Le troisième article, S0012, est matériel. Aucun échéancier de produit ne lui est affecté par défaut. Le produit des matériels est constaté dès la facturation de l’article.
 
@@ -55,7 +55,7 @@ Il existe deux concepts pour la prise en compte de revenu :
 
 Pour afficher des informations supplémentaires sur le prix du produit et l’échéancier de produit, utilisez les boutons du groupe **prise en compte de revenu** sous l’onglet **Gérer** du volet Actions de la commande client. Étant donné que la commande client n’est pas confirmée à ce stade, les boutons qui sont utilisés pour la prise en compte de revenu ne sont pas disponibles. Ces boutons deviennent disponibles (ou non) à mesure que la commande client progresse dans les étapes de son exécution.
 
-[![En-tête de commande client](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![En-tête de commande client.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 Les trois premiers boutons fournissent des détails sur le prix du produit des articles de la commande client paramétrée pour la prise en compte de revenu.
 
@@ -70,11 +70,11 @@ Les deux derniers boutons fournissent des détails sur l’échéancier de produ
 
 Dans l’exemple suivant, la répartition de prix du produit s’est produite lorsque la commande client a été confirmée. Notez que, même si les prix de produit sont répartis différemment, le montant total dans le champ **Produit à constater** doit toujours être égal à la somme des lignes de commande client facturées au client. Par exemple, la somme des lignes de la commande client, hors taxe, est 1 499 USD. Par conséquent, la somme des valeurs **Produit à constater** doit également être 1 499 USD.
 
-[![Répartition de prix du produit](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![Répartition de prix du produit.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
 L’échéancier de prise en compte de revenu prévu est également créé. L’échéancier de produit utilise la valeur **Produit à constater** comme montant à reporter. L’article S0001 reporte 321,21 USD au lieu de 300 USD, et l’article S0008 reporte 160,61 USD au lieu de 100 USD. L’article S0012 ne s’affiche pas dans l’échéancier prévu car le produit n’est pas différé. Lorsque la validation a lieu, l’article S0012 valide 1 017,18 USD directement dans le compte général de produit.
 
-[![Echéancier de prise en compte de revenu prévu](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![Echéancier de prise en compte de revenu prévu.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
 ## <a name="create-the-packing-slip"></a>Créer le bon de livraison
 
@@ -84,17 +84,17 @@ Ensuite, le bon de livraison peut être créé pour la commande client. Aucun pr
 
 L’étape finale consiste à facturer la commande client. Si vous consultez le justificatif de la facture, vous remarquerez que le produit des articles S0001 et S0008 a été différé (321,21 USD + 160,61 USD = 481,82 USD), et le montant restant pour l’article S0012 a été validé au produit (1 017,18 USD). Ces valeurs atteignent le montant de 1 499 USD, ce qui correspond à la somme des lignes de la commande client.
 
-[![Pièces comptables](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Pièces comptables.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 Une fois la facture créée, les boutons **Répartition de prix du produit**, **Redistribuer le prix avec les nouvelles lignes de commande** et **Echéancier de prise en compte de revenu** pour la prise en compte de revenu deviennent disponibles, mais les boutons **Mettre à jour la répartition du prix du produit** et **Echéancier de prise en compte de revenu prévu** ne sont pas disponibles.
 
-[![Disponibilité du bouton de prise en compte de revenu](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![Disponibilité du bouton de prise en compte de revenu.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 Le bouton **Répartition de prix du produit** est toujours disponible pour que vous puissiez afficher le calcul du prix du produit. Si rien n’a été modifié sur la commande client après qu’elle a été confirmée, la validation de la facture ne change pas le montant calculé dans le champ **Produit à constater**.
 
 L’échéancier de prise en compte de revenu prévu est supprimé et remplacé par l’échéancier de prise en compte de revenu final. Les détails de l’échéancier de produit sont conservés pour chaque ligne de commande client et sont utilisés pour débloquer le produit différé vers le produit réel quand les obligations contractuelles sont satisfaites.
 
-[![Echéancier de prise en compte de revenu final](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+[![Echéancier de prise en compte de revenu final.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

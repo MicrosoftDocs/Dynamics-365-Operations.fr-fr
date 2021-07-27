@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837799"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343674"
 ---
 # <a name="schedule-maintenance-plans"></a>Planifier les plans de maintenance
 
@@ -52,14 +52,14 @@ La planification de maintenance préventive génère des entrées de calendrier 
 
 5. Cliquez sur **OK** pour commencer la génération des entrées du programme de maintenance sur les actifs. Les entrées générées sont affichées sur la page de liste **Tout le programme de maintenance**. L’illustration suivante présente un exemple de la boîte de dialogue **Planifier les plans de maintenance**.
 
-![Figure 1](media/09-preventive-maintenance.png)
+![Figure 1.](media/09-preventive-maintenance.png)
 
 - Dans la boîte de dialogue **Planifier les plans de maintenance**, vous pouvez paramétrer des traitements par lots sur l’organisateur **Exécuter à l’arrière-plan** pour générer automatiquement des entrées de calendrier à intervalles réguliers.  
 - Lorsque vous planifiez la maintenance préventive, les lignes du programme de maintenance avec des date et heure de début prévues antérieures à la date et à l’heure du système ne seront pas créées.  
 
 La figure ci-dessous propose une illustration graphique d’un calcul du plan de maintenance basé sur les heures.  
 
-![Figure 2](media/10-preventive-maintenance.jpg)
+![Figure 2.](media/10-preventive-maintenance.jpg)
 
 Concernant les plans de maintenance basés sur le compteur : dans les figures ci-dessous, deux cycles d’enregistrement de compteur différents sont présentés. Ils sont basés sur un plan de maintenance paramétré pour l’actif « V0001 », prévoyant que l’actif (un véhicule) effectue environ 2 000 km chaque mois.
 
@@ -69,9 +69,9 @@ Sur la figure suivante, 2 000 km ou plus sont enregistrés chaque mois. Par co
 
 Les exemples décrits ici indiquent que tous les enregistrements de compteur effectués sur un actif présentent une tendance décrivant l’usure de l’actif. Cette tendance est utilisée pour calculer le moment de la planification du plan de maintenance.
 
-![Figure 3](media/11-preventive-maintenance.png)
+![Figure 3.](media/11-preventive-maintenance.png)
 
-![Figure 4](media/12-preventive-maintenance.png)
+![Figure 4.](media/12-preventive-maintenance.png)
 
 
 

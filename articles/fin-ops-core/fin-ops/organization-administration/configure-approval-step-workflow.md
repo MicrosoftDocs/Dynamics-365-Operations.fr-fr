@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751774"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350692"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurer des étapes d’approbation dans un workflow
 
@@ -156,7 +156,7 @@ Procédez comme suit pour indiquer à qui affecter la tâche d’approbation.
 
     - **Un seul approbateur** – L’action appliquée au document est déterminée par la première personne qui répond. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L’état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue est la première à répondre au document, l’action qu’elle effectue est appliquée au document. Si Sue rejette le document, il est rejeté et renvoyé à Sam. Si Sue approuve le document, il est envoyé à Ann pour approbation.
 
-        ![Workflow avec un processus d’approbation](./media/workflow_multipleusersinstep.gif)
+        ![Workflow avec un processus d’approbation.](./media/workflow_multipleusersinstep.gif)
 
     - **La majorité des approbateurs** – L’action appliquée au document est déterminée lorsque la majorité des approbateurs ont répondu. Par exemple, Sam a soumis un état de dépenses de USD 15 000. L’état de dépenses est actuellement affecté à Sue, Jo et Bill. Si Sue et Jo sont les deux premiers approbateurs à répondre, l’action qu’ils effectuent est appliquée au document.
 

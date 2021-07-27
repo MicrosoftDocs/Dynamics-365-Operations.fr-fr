@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020089"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343812"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>La taxe est imputée sur le mauvais compte du grand livre dans le justificatif
 
@@ -30,35 +30,35 @@ Lors de la validation, il est possible que la taxe soit imputée sur le mauvais 
 
 1. Sur la page **Justificatif de transaction**, sélectionnez la transaction avec laquelle vous souhaitez travailler, puis sélectionnez **Taxe validée**.
 
-    [![Bouton Taxe validée sur la page Justificatif de transaction](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Bouton Taxe validée sur la page Justificatif de transaction.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
-2. Vérifiez la valeur du champ **Code taxe**. Dans cet exemple, c'est **TVA 19**.
+2. Vérifiez la valeur du champ **Code taxe**. Dans cet exemple, c’est **TVA 19**.
 
-    [![Champ Code taxe de la page Taxe validée](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Champ Code taxe de la page Taxe validée.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
-## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Vérifiez le groupe d'écriture comptable du code taxe
+## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Vérifiez le groupe d’écriture comptable du code taxe
 
 1. Accédez à **Taxe** \> **Taxes indirectes** \> **Taxe** \> **Codes taxe**.
-2. Recherchez et sélectionnez le code taxe, puis examinez la valeur dans le champ **Groupe de validations dans la comptabilité**. Dans cet exemple, c'est **TVA**.
+2. Recherchez et sélectionnez le code taxe, puis examinez la valeur dans le champ **Groupe de validations dans la comptabilité**. Dans cet exemple, c’est **TVA**.
 
-    [![Champ Groupe de validations dans la comptabilité de la page Codes taxe](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![Champ Groupe de validations dans la comptabilité de la page Codes taxe.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. La valeur du champ **Groupe de validations dans la comptabilité** est un lien. Pour afficher les détails de la configuration du groupe, sélectionnez le lien. Sinon, sélectionnez et maintenez sélectionné (ou cliquez avec le bouton droit) dans le champ, puis sélectionnez **Afficher les détails**.
 
-    [![Commande Afficher les détails](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Commande Afficher les détails.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
-4. Dans le champ **Taxe collectée**, vérifiez que le numéro de compte est correct, selon le type de transaction. Si ce n'est pas le cas, sélectionnez le bon compte pour lequel effectuer la validation. Dans cet exemple, la taxe de la commande client doit être imputée au compte de collecte de taxe 222200.
+4. Dans le champ **Taxe collectée**, vérifiez que le numéro de compte est correct, selon le type de transaction. Si ce n’est pas le cas, sélectionnez le bon compte pour lequel effectuer la validation. Dans cet exemple, la taxe de la commande client doit être imputée au compte de collecte de taxe 222200.
 
-    [![Champ Taxe collectée de la page Groupes de validations dans la comptabilité](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Champ Taxe collectée de la page Groupes de validations dans la comptabilité.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     Le tableau suivant fournit des informations sur chaque champ de la page **Groupes de validations dans la comptabilité**.
 
     | Champ                  | Description |
     |------------------------|-------------|
-    | Taxe collectée      | Le compte principal pour les taxes sortantes collectées par l'administration fiscale. |
+    | Taxe collectée      | Le compte principal pour les taxes sortantes collectées par l’administration fiscale. |
     | Taxe déductible   | Le compte principal pour les taxes entrantes transmises par l’administration fiscale. |
-    | Dépenses de taxe d'utilisation        | Le compte principal utilisé pour valider les taxes d’utilisation déductibles qui ne sont pas réclamées ou signalées à l’administration fiscale par les fournisseurs dans le cadre de la taxe GST/HST au preneur de l’UE. L’option **Taxe d’utilisation** doit être sélectionnée pour le code taxe dans le groupe de taxes utilisé dans la transaction. Ce champ n’est pas disponible si l’option **Appliquer les règles de taxe** est sélectionnée dans la page **Paramètres de comptabilité**. |
-    | Taxe d'utilisation due        | Compte principal utilisé pour valider les taxes d’utilisation sortantes collectées par l’administration fiscale. |
+    | Dépenses de taxe d’utilisation        | Le compte principal utilisé pour valider les taxes d’utilisation déductibles qui ne sont pas réclamées ou signalées à l’administration fiscale par les fournisseurs dans le cadre de la taxe GST/HST au preneur de l’UE. L’option **Taxe d’utilisation** doit être sélectionnée pour le code taxe dans le groupe de taxes utilisé dans la transaction. Ce champ n’est pas disponible si l’option **Appliquer les règles de taxe** est sélectionnée dans la page **Paramètres de comptabilité**. |
+    | Taxe d’utilisation due        | Compte principal utilisé pour valider les taxes d’utilisation sortantes collectées par l’administration fiscale. |
     | Compte de règlement     | Le compte principal utilisé pour valider le solde net des comptes généraux spécifiés dans les champs **Taxe d’utilisation due** et **Taxe déductible**. |
     | Fournisseur - Escompte de règlement   | Compte principal utilisé pour valider l’escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité. |
     | Client – Escompte de règlement | Compte principal utilisé pour valider l’escompte de règlement pour les codes taxe associés à ce groupe de validation dans la comptabilité. |
@@ -67,28 +67,28 @@ Lors de la validation, il est possible que la taxe soit imputée sur le mauvais 
 
 ## <a name="debug-in-code-to-check-ledger-dimensions"></a>Déboguer dans le code pour vérifier les dimensions comptables
 
-Dans le code, le compte de validation est déterminé par la dimension comptable. La dimension comptable enregistre l'ID d'enregistrement d'un compte dans la base de données.
+Dans le code, le compte de validation est déterminé par la dimension comptable. La dimension comptable enregistre l’ID d’enregistrement d’un compte dans la base de données.
 
-1. Pour une commande client, ajoutez un point d'arrêt aux méthodes **Tax::saveAndPost()** et **Tax::post()**. Faites attention à la valeur **\_ledgerDimension**.
+1. Pour une commande client, ajoutez un point d’arrêt aux méthodes **Tax::saveAndPost()** et **Tax::post()**. Faites attention à la valeur **\_ledgerDimension**.
 
-    [![Exemple de code de commande client ayant un point d'arrêt](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Exemple de code de commande client ayant un point d’arrêt.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
-    Pour un bon de commande, ajoutez un point d'arrêt aux méthodes **TaxPost::saveAndPost()** et **TaxPost::postToTaxTrans()**. Faites attention à la valeur **\_ledgerDimension**.
+    Pour un bon de commande, ajoutez un point d’arrêt aux méthodes **TaxPost::saveAndPost()** et **TaxPost::postToTaxTrans()**. Faites attention à la valeur **\_ledgerDimension**.
 
-    [![Exemple de code de commande fournisseur ayant un point d'arrêt](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Exemple de code de commande fournisseur ayant un point d’arrêt.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
-2. Exécutez la requête SQL suivante pour rechercher la valeur d'affichage du compte dans la base de données, en fonction de l'ID d'enregistrement enregistré par la dimension comptable.
+2. Exécutez la requête SQL suivante pour rechercher la valeur d’affichage du compte dans la base de données, en fonction de l’ID d’enregistrement enregistré par la dimension comptable.
 
     ```sql
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Afficher la valeur de l'ID d'enregistrement](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Afficher la valeur de l’ID d’enregistrement.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
-3. Examinez la pile d'appels pour trouver où la valeur **_ledgerDimension** est attribuée. Habituellement, la valeur provient de **TmpTaxWorkTrans**. Dans ce cas, vous devez ajouter un point d'arrêt à **TmpTaxWorkTrans::insert()** et **TmpTaxWorkTrans::update()** pour trouver où la valeur est attribuée.
+3. Examinez la pile d’appels pour trouver où la valeur **_ledgerDimension** est attribuée. Habituellement, la valeur provient de **TmpTaxWorkTrans**. Dans ce cas, vous devez ajouter un point d’arrêt à **TmpTaxWorkTrans::insert()** et **TmpTaxWorkTrans::update()** pour trouver où la valeur est attribuée.
 
 ## <a name="determine-whether-customization-exists"></a>Déterminer si la personnalisation existe
 
-Si vous avez terminé les étapes des sections précédentes mais que vous n'avez trouvé aucun problème, déterminez s'il existe une personnalisation. Si aucune personnalisation n'existe, créez une demande de service Microsoft pour une assistance supplémentaire.
+Si vous avez terminé les étapes des sections précédentes mais que vous n’avez trouvé aucun problème, déterminez s’il existe une personnalisation. Si aucune personnalisation n’existe, créez une demande de service Microsoft pour une assistance supplémentaire.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
