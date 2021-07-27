@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42c3735b14d506ce6a8cd3318ed32eb93bce87ae
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057332"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338052"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
@@ -97,17 +97,17 @@ Le Guide de l’utilisateur Dynamics 365 Human Resources vous fournit des instru
 [Configurer les types de congé et d’absence](hr-leave-and-absence-types.md)</br>
 [Créer un plan de congé et d’absence](hr-leave-and-absence-plans.md)</br>
 [Affecter des collaborateurs à un plan de congé](hr-leave-and-absence-enroll.md)</br>
-[Régulariser les plans de congé et d'absence](hr-leave-and-absence-accrue.md)</br>
-[Afficher l'analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
-[Gérer les demandes de congé et d'absence](hr-employee-self-service-manage-requests.md)</br>
+[Régulariser les plans de congé et d’absence](hr-leave-and-absence-accrue.md)</br>
+[Afficher l’analyse des congés et des absences](hr-leave-and-absence-analytics.md)</br>
+[Gérer les demandes de congé et d’absence](hr-employee-self-service-manage-requests.md)</br>
 [Demander un congé](hr-employee-self-service-request-time-off.md)</br>
 [Afficher les calendriers des équipes et de la société](hr-employee-self-service-calendar.md)</br>
 
 ## <a name="develop-employees"></a>Développer les employés
 
-[Vue d'ensemble de la gestion des performances](hr-develop-performance-management-overview.md)</br>
+[Vue d’ensemble de la gestion des performances](hr-develop-performance-management-overview.md)</br>
 [Aligner les qualifications du personnel](hr-develop-skills.md)</br>
-[Ajouter à votre journal de performances](hr-develop-add-performance-journal.md)</br>
+[Ajouter à votre journal des performances](hr-develop-add-performance-journal.md)</br>
 [Créer un objectif](hr-develop-create-goal.md)</br>
 [Créer une évaluation des performances](hr-develop-create-performance-review.md)</br>
 

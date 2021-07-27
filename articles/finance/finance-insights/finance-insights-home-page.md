@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261908"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338227"
 ---
 # <a name="finance-insights-home-page-preview"></a>Page d’accueil Informations financières (version préliminaire)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261908"
 
 Informations financières fournit des modèles configurables et extensibles pour vous aider à prédire avec précision et intelligemment le flux de trésorerie de votre entreprise, à prédire quand vous recevrez le paiement des créances impayées et à générer une proposition de budget qui peut accélérer votre processus de budgétisation. Toutes ces fonctionnalités sont basées sur des modèles Machine Learning intelligents. Lorsque ces nouvelles fonctionnalités sont combinées à l’automatisation des paiements et des recouvrements des fournisseurs, elles fournissent un système financier riche et intelligent qui stimule la prise de décision et vous aide à prendre des mesures pour répondre efficacement aux défis commerciaux actuels et futurs.
 
-La version préliminaire de Informations financières est disponible pour les déploiements d’essai aux États-Unis, en Europe et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions.
-
-Les fonctionnalités en version préliminaire peuvent et doivent être activées uniquement dans les environnements sandbox de niveau 2. Les modèles de configuration et d’intelligence artificielle (IA) créés dans un environnement sandbox ne peuvent pas être migrés vers un environnement de production. Pour plus d’informations, voir [Conditions d’utilisation supplémentaires pour les versions préliminaires de Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> La version préliminaire publique de Finance Insights est disponible pour le déploiements aux États-Unis, au Canada et au Royaume-Uni. Microsoft ajoute progressivement la prise en charge de plusieurs régions. Pour activer Finance Insights sur les environnements de production, les capacités [Exporter vers Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) doivent d’abord être activées sur l’environnement de production.
 
 > [!NOTE]
 > Cette fonctionnalité est proposée sous la forme d’un ensemble de fonctions en version préliminaire. En tant que fonction en version préliminaire, vous ne devez pas utiliser les modèles de Machine Learning résultants pour piloter ou influencer vos décisions commerciales ou vos propositions de budget. Votre utilisation de cette fonctionnalité est régie par les [Conditions d’utilisation supplémentaires](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ Pour postuler au programme de version préliminaire, remplissez [l’accord de v
 
 ### <a name="system-requirements"></a>Configuration requise
 
-Un environnement sandbox de niveau 2 (multi-box) est requis pour la version préliminaire de Informations financières. Pour plus d’informations générales sur les environnements, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+Un environnement de niveau 2 (multi-box) est requis pour la version préliminaire de Finance Insights. Pour plus d’informations générales sur les environnements, voir [Planification de l’environnement](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Exigences relatives à la version
 
@@ -55,8 +56,6 @@ Ce document s’applique à la version 10.0.11 des applications Finance and Oper
 ### <a name="historical-data-requirements"></a>Exigences en matière de données historiques
 
 Au moins un an de factures client est nécessaire pour entraîner correctement le modèle Machine Learning utilisé pour la fonction de prédiction de paiement client.
-
-Des exemples de données sont disponibles pour les systèmes de démonstration qui ont le jeu de données de démonstration Contoso.
 
 ### <a name="role-and-permission-requirements"></a>Exigences de rôle et d’autorisation
 
@@ -72,7 +71,7 @@ Une connaissance du processus de création et de gestion des ressources dans Azu
 ## <a name="configure-finance-insights"></a>Configurer Informations financières
 
 Vous devez effectuer certaines étapes de configuration avant de pouvoir utiliser Informations financières. Pour plus d’informations sur la configuration de Informations financières, voir :
-  - Pour les versions jusqu’à 10.0.19 : [Configuration de Informations financières – versions jusqu’à 10.0.19](configure-for-fin-insites.md).
+  - Pour les versions jusqu’à 10.0.19 : [Configuration de Finance Insights (version préliminaire) – versions jusqu’à 10.0.19](configure-for-fin-insites.md).
   - Pour les versions 10.0.20 et ultérieures : [Configuration de Informations financières (version prliminaire) – versions 10.0.20 et ultérieures](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Créer un projet d’intégrateur de données

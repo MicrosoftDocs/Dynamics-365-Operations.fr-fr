@@ -2,7 +2,7 @@
 title: FAQ sur les actions du personnel
 description: Cet article contient des réponses aux questions que vous pouvez vous poser si votre organisation utilise les actions de membre du personnel. Les actions de membre du personnel sont des étapes supplémentaires que vous devez effectuer lorsque vous effectuez certaines tâches relatives aux membres du personnel.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054546"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333017"
 ---
 # <a name="personnel-actions-faq"></a>FAQ sur les actions du personnel
 
@@ -51,7 +51,7 @@ Les actions du personnel peuvent être les suivantes :
 - **Refusé** – La demande d’action a été refusée par l’approbateur.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Est-ce que je peux supprimer une action de membre du personnel ?
-Oui, vous pouvez supprimer les actions de membre du personnel dont le statut est **Brouillon**, **Erreur**, **Échec** ou **Annulé**.
+Oui, vous pouvez supprimer les actions de membre du personnel dont le statut est **Brouillon**, **Erreur**, **Échec** ou **Annulé**. Vous pouvez supprimer des actions du personnel qui ont le statut **Terminé** uniquement si vous avez défini l’option **Autoriser la suppression des actions de travail terminées** sur **Oui** sur la page **Paramètres partagés des ressources humaines**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Quelles est la manière la plus rapide de vérifier le statut d’une demande d’action de membre du personnel ?
 Ouvrez l’une des pages de liste d’action de membre du personnel et sélectionnez une action de membre du personnel.
@@ -82,7 +82,7 @@ Pour résoudre cette erreur, procédez comme suit :
 > 7. Fermez la page Poste.
 > 8. Revenez à l’onglet Rémunération dans la page Collaborateur, sélectionnez Rémunération fixe.  Sélectionnez Nouveau et entrez le poste de l’employé dans le champ Poste.  Entrez une valeur dans le champ Régime, puis entrez la rémunération de l’employé dans le champ Taux de salaire.
 
-## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Pourquoi est-ce que je ne peux pas modifier la date d’effet dans l’en-tête de l’écran Action de collaborateur ?
+## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Pourquoi est-ce que je ne peux pas modifier la date d’effet dans l’en-tête de l’écran Action de collaborateur ?
 Vous ne pouvez pas modifier la date d’effet car le champ est renseigné avec la date la plus logique pour le type d’action.
 
 Exemple :
